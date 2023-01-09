@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputsMustBeStrings">입력값은 문자형 벡터이거나 string형 스칼라여야 합니다.</entry>
+    <entry key="TooManyOutputArguments">출력 인수가 너무 많습니다.</entry>
+    <entry key="TooManyInputArguments">입력 인수가 너무 많습니다.</entry>
+    <entry key="URLNotAllowed">URL을 지원하려면 'dir' 함수를 사용하십시오.</entry>
+    <entry key="OSError">{0}</entry>
+  </message>
+</rsccat>

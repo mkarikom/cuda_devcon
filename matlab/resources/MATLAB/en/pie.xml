@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NonNumericData">Must have numeric data in the pie chart.</entry>
+    <entry key="NoNonNegatveData">At least 1 value must be nonnegative.</entry>
+    <entry key="NegativeData">Ignoring negative data.</entry>
+    <entry key="NonFiniteData">All data must be finite in pie chart.</entry>
+    <entry key="InvalidLabels">Text labels must be a string or a cell array of character vectors.</entry>    
+  <!--Resource entries for categorical input-->
+    <entry key="InvalidData">First argument must be categorical array with at least 1 nonempty category.</entry>
+    <entry key="InvalidLabel">Labels must be a string or cell array of character vectors with same number of elements as categories, or be a valid format string.</entry>    
+    <entry key="StringLengthMismatch">Labels must have the same number of elements as X or be a valid format string.</entry>
+    <entry key="ExplodeLengthMismatch">X and EXPLODE must be the same length.</entry>
+    <entry key="InvalidExplodeType">Specify exploded slice with category names or logical indices.</entry>
+    <entry key="InvalidExplodeLogical">Explode specified as logical vector must have same number of elements as that of categories.</entry>
+    <entry key="InvalidExplodeName">Explode contains invalid category names.</entry>
+  </message>
+</rsccat>

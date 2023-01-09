@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NeedAxesHandle">1 番目の引数は、Axes のハンドルでなければなりません。</entry>
+    <entry key="HandleMustBeScalar">Axes のハンドルはスカラーでなければなりません</entry>
+    <entry key="InputMustBeHandle">1 番目の引数は、Axes のハンドルでなければなりません。</entry>
+    <entry key="InvalidLightingMethod">ライティング手法は none、flat および gouraud です。</entry>
+  </message>
+</rsccat>

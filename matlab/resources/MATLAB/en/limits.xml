@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2018-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed">
+  <message>
+    <entry key="FileTooLarge">Error: {0}File is too large for MATLAB to run.</entry>
+    <entry key="EvalExpressionTooLarge">Error: {0}Expression is too large for MATLAB to evaluate.</entry>
+    <entry key="ExpressionTooComplicated">Error: {0}Expression is too complicated for MATLAB to evaluate.</entry>
+    <entry key="ParforTooComplicated">Error: {0}parfor loop is too complicated for MATLAB to run.</entry>
+    <entry key="SPMDTooComplicated">Error: {0}spmd block is too complicated for MATLAB to run.</entry>
+    <entry key="StatementTooDeeplyNested">Error: {0}Statement is too deeply nested.</entry>
+    <entry key="TextTooLong">Error: {0}Text is too long for MATLAB to parse.</entry>
+    <entry key="TooManySwitchCases">Error: {0}switch statement contains too many cases.</entry>
+    <entry key="TooManyElseifBlocks">Error: {0}if statement contains too many elseif blocks.</entry>
+    <entry key="TooManyParforVariables">Error: {0}parfor loop contains too many variables.</entry>
+    <entry key="TooManySPMDVariables">Error: {0}spmd block contains too many variables.</entry>
+  </message>
+</rsccat>

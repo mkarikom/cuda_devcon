@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noLengthChange">時系列の作成後にドットの代入を使用すると、時間ベクトルの長さを変更できなくなります。</entry>
+    <entry key="badsyntax">subsasgn に対する無効な構文</entry>
+  </message>
+</rsccat>

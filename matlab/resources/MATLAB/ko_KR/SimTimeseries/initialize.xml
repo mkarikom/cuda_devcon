@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noirregtime">프레임 기반 시계열에는 명시적 시간 벡터를 사용할 수 없음</entry>
+    <entry key="wrongdatasize">데이터의 마지막 차원은 시간 벡터의 길이와 동일해야 합니다.</entry>
+    <entry key="invinterval">유효하지 않은 구간이 지정됨</entry>
+  </message>
+</rsccat>

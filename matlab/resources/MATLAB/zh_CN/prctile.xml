@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadPercents" context="error">P 必须是 0 到 100 之间的实数值标量，或由 0 到 100 之间的实数值组成的非空向量</entry>
+    <entry key="NoApproximateTall" context="error">当 Dim 不是 1 (非 tall 维度)时，精确计算更高效。请尝试改为将 'Method' 参数设置为 'exact'。</entry>
+    <entry key="MustBeColumn" context="error">只有 tall 数组为 tall 列向量时，才支持计算其第一个维度的百分位数或分位数。</entry>
+    <entry key="NoComplexNamed" context="error">{0} 的值不能为复数。</entry>
+    <entry key="NoSparseNamed" context="error">{0} 的值不能为稀疏值。</entry>
+    <entry key="NoObjectsNamed" context="error">{0} 的值不能为对象。</entry>
+    <entry key="NoGPUArrayNamed" context="error">{0} 的值不能为 gpuArray。</entry>
+    <entry key="FloatRequiredNamed" context="error">{0} 的值必须为浮点数组。</entry>
+    <entry key="NumericRequiredNamed" context="error">{0} 的值必须为数值数组。</entry>
+  </message>
+</rsccat>

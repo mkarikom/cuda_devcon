@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="WisdomImportFailed" note="stringDatatypeUpdate">FFTW wisdom import failed, possibly because the input character vector was created using a previous version of MATLAB.</entry>
+    <entry key="FirstInputNotString" note="stringDatatypeUpdate">First input must be a character vector.</entry>
+    <entry key="FirstInputInvalidString" note="stringDatatypeUpdate">Unrecognized input character vector.</entry>
+    <entry key="InvalidTrailingStringArgument" note="stringDatatypeUpdate">Symmetry type must be ''symmetric'' or ''nonsymmetric''.</entry>
+    <entry key="FFTWGuru">This is only for evaluation of real to complex 2d fft.</entry>
+    <entry key="InvalidFourthArgument">Fourth argument to IFFT must be either ''symmetric'' or ''nonsymmetric''.</entry>
+    <entry key="lengthNotNonNegInt">FFT length must be a nonnegative integer scalar.</entry>
+    <entry key="InvalidThirdArgument">Third argument to IFFTN must be either ''symmetric'' or ''nonsymmetric''.</entry>
+    <entry key="outputSizeLessThanNdimsElements">FFTN output size must have at least NDIMS elements.</entry>
+    <entry key="outputSizeNotRealIntRowVector">FFTN output size must be a real integer row vector.</entry>
+    <entry key="outputSizeVectorNotNonNegInts">FFTN output size vector must contain non-negative integers.</entry>
+    <entry key="InvalidInputType">Invalid data type. First argument must be double, single, int8, uint8, int16, uint16, int32, uint32, or logical.</entry>
+    <entry key="SparseInputType">Sparse matrices are not supported.</entry>
+  <!--Resource entries for src/mathdsp-->
+    <entry key="UnknownAction">Unknown option passed to FFTW.</entry>
+    <entry key="needRowsArg">Specify a row chunk size.</entry>
+    <entry key="invalidRowsArg">Second input must be a positive finite real double.</entry>
+    <entry key="invalidWisdomArg" note="stringDatatypeUpdate">Second input must be a character vector or [].</entry>
+    <entry key="invalidPlannerArg">Second input must be one of ''hybrid'', ''estimate'', ''measure'', ''patient'', or ''exhaustive''.</entry>
+    <entry key="FFTWAssertionFailure">Internal FFTW library error.</entry>
+  </message>
+</rsccat>

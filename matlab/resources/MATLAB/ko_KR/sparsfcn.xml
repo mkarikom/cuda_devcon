@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonPosIndex">행렬에 대한 인덱스는 양수여야 합니다.</entry>
+    <entry key="largeIndex">행렬에 대한 인덱스가 너무 큽니다.</entry>
+    <entry key="nonIntegerIndex">행렬에 대한 인덱스는 정수여야 합니다.</entry>
+    <entry key="spLogicalRepeatedIndices">희소 논리 행렬에서는 반복된 인덱스가 지원되지 않습니다.</entry>
+    <entry key="nondoubleFunctionOutput">희소 누적에 대한 함수 출력값은 double형이어야 합니다.</entry>
+    <entry key="nonPositiveIndicesOfSparse">희소 행렬 인덱스는 양의 정수여야 합니다.</entry>
+    <entry key="nonScalarOutput">''{0}''의 출력값이 스칼라가 아닙니다.</entry>
+    <entry key="negSizeOfSparse">희소 행렬 크기는 음이 아닌 정수 스칼라여야 합니다.</entry>
+  </message>
+</rsccat>

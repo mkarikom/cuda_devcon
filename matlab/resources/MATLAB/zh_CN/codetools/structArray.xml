@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="VarEditorIndexOverflow">结构体数组可能不包含空字段，因此数据只能直接添加到现有字段的右侧。\n新字段将会添加到下一个可用列中。</entry>
+    <entry key="InvalidVariableName">''{0}'' 不是有效的变量名称。</entry>
+    <entry key="DuplicateVarnames">变量名称重复。</entry>
+    <entry key="InvalidSort">字段的所有值必须具有相同类型。</entry>
+    <entry key="VariableExists">无法重命名该变量。\n\n名为 "{0}" 的变量已存在。
+</entry>
+    <entry key="InvalidRenameFieldOnEdit">无法重命名字段。\n\n "{0}" 不是有效的 MATLAB 字段名称。\n MATLAB 字段名称必须满足以下条件:\n
+</entry>
+    <entry key="InvalidRenameVarOnEdit">无法重命名变量。\n\n "{0}" 不是有效的 MATLAB 变量名称。\n MATLAB 变量名称必须满足以下条件:\n
+</entry>
+    <entry key="InvalidRenameMsgOnEdit">        
+    - 以字母开头\n - 仅包含字母数字字符和下划线\n - 不是 MATLAB 关键字\n - 长度不超过 63 个字符
+</entry>
+    <entry key="EditFailedTitle">编辑失败</entry>
+    <entry key="TooManyElements">&lt;元素太多&gt;</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadWorkingDirectory">잘못된 작업 디렉터리입니다. 세부 정보: {0}.</entry>
+    <entry key="ambiguousWithinFileName">파일 {1} 내에 있는 함수 이름 "{0}"이(가) 모호합니다.</entry>
+    <entry key="CannotFindBuiltinFunction">내장된 함수 ''{0}''을(를) 찾을 수 없음</entry>
+    <entry key="cannotFindFunctionText">함수 "{0}"을(를) 찾을 수 없습니다.</entry>
+    <entry key="cannotFindFunctionTextWithin">"{1}" 내에서 함수 "{0}"을(를) 찾을 수 없습니다.</entry>
+    <entry key="cannotFindFunctionTextLocal">로컬 함수 "{0}"을(를) 찾을 수 없습니다.</entry>
+    <entry key="conflictingFcnRegs">"{0}"에 대해 충돌하는 MATLAB_FCN_REG가 여러 개 발견되었습니다.\n    MATLAB_FCN_REG들은 이름, 유형, 특성(Attribute) 또는 우선 순위가 달라야 합니다.</entry>
+    <entry key="directoryNameTooLong">디렉터리 이름이 너무 김: "{0}"</entry>
+    <entry key="directoryNotFound">디렉터리 이름을 찾을 수 없음: "{0}"</entry>
+    <entry key="extensionRequired">MATLAB의 현재 검색 경로에 있지 않은 파일을 지정할 때에는 파일 확장자가 필요합니다.</entry>
+    <entry key="findSymbolInLibrary">''{1}''에서 ''{0}''에 대한 기호를 찾을 수 없습니다.\n{2}</entry>
+    <entry key="inmemArgument">inmem()에 대한 셀형 배열 인수는 문자형 배열만 포함해야 합니다.</entry>
+    <entry key="invalidFunctionName">''{0}''은(는) 유효하지 않은 함수 이름임</entry>
+    <entry key="invalidPath">''{0}''은(는) 유효하지 않은 경로임</entry>
+    <entry key="loadLibraryTextFunctionTableSize">''{0}''에 대한 함수 테이블 크기 확인이 실패했습니다. 라이브러리는 {1,number,integer} 요구, 레지스트리는 {2} 요구</entry>
+    <entry key="loadLibraryTextLibraryIntegrity">''{0}''에 대한 라이브러리 무결성 확인이 실패함: 라이브러리는 {1} 작성, 레지스트리는 {2} 작성</entry>
+    <entry key="loadLibraryTextLoad">''{0}''을(를) 불러올 수 없음: {1}</entry>
+    <entry key="loadLibraryTextRCFileNotFound">''{1}''에 필요한 ''{0}'' 리소스 파일을 찾을 수 없음</entry>
+    <entry key="loadLibraryTextReload">''{0}''을(를) 다시 불러올 수 없음</entry>
+    <entry key="mlockContext">"{0}"은(는) 파일에서 호출해야 합니다.</entry>
+    <entry key="mlockNotLocked">파일 ''{0}''이(가) 잠겨 있지 않습니다.</entry>
+    <entry key="nameConflict">함수 {0}의 이름이 MATLAB 기본 제공 함수와 동일합니다. 함수 이름이 충돌할 가능성을 배제하기 위해 이름을 바꾸는 것이 좋습니다.</entry>
+    <entry key="mFunctionShadowedByNonM">함수 "{0}"이(가) 존재하지 않거나 가려져 있습니다.</entry>
+    <entry key="NotFound">{0}에 대한 시그니처를 사용할 수 없습니다.</entry>
+    <entry key="recursiveLoading">파일 "{0}"을(를) 이미 불러오는 중인데 추가로 불러오기를 시도하였습니다.</entry>
+    <entry key="ShadowedMEXExtension">현재 "{0}" 디렉터리에서 {1}이(가) {2}을(를) 가리고 있습니다.\n MATLAB 7.1 릴리스 정보를 참조하십시오.</entry>
+    <entry key="UnableToResolve">{1} 내에서 함수 {0}에 대한 유효한 작업 공간을 확보할 수 없습니다.\n{2}에 대한 함수 핸들을 다시 생성하십시오.\n</entry>
+    <entry key="UnableToResolveFile">파일 {0}을(를) 찾을 수 없습니다.</entry>
+    <entry key="UnableToResolveHiddenFunction">{1} 내에서 함수 {0}을(를) 찾을 수 없습니다.</entry>
+    <entry key="undefinedFunction">MATLAB 경로에서 함수인 {0}을(를) 찾을 수 없음</entry>
+    <entry key="undefinedArgument">{0}은(는) 유효한 인수가 아님</entry>
+    <entry key="UnresolvedFunctionHandleText">함수 핸들을 불러오는 경로에서 적절한 함수를 찾을 수 없음</entry>
+    <entry key="UnresolvedFunctionHandleTextWithName">함수 핸들 {0}{1}{2}을(를) 불러오는 경로에서 적절한 함수를 찾을 수 없음</entry>
+    <entry key="noMatchingConstructor">시그니처가 일치하는 생성자 ''{0}''을(를) 찾을 수 없습니다.</entry>
+    <entry key="inferiortoSuperiortoContext">함수 ''{0}''은(는) 메서드 내에서만 호출할 수 있습니다.</entry>
+    <entry key="inferiortoSuperiortoSelf">''{0}'' 클래스는 자신의 서브클래스 또는 슈퍼클래스일 수 없습니다.</entry>
+    <entry key="inferiortoSuperiorChange">먼저 ''clear classes''를 입력하지 않으면 ''{0}'' 클래스와 ''{1}'' 클래스 사이의 우선 순위를 변경할 수 없습니다.</entry>
+    <entry key="unknownClass">''{0}''은(는) 알 수 없는 클래스입니다.</entry>
+    <entry key="unknownClassInRelation">내장 함수 ''{1}''에 알 수 없는 ''{0}'' 클래스가 사용되었습니다.</entry>
+    <entry key="InvalidObjtagReuse">''clear classes''를 호출하지 않으면 ''{0}'' 클래스를 다시 정의할 수 없습니다.</entry>
+    <entry key="InvalidBaseObject">''{0}'' 클래스 생성자의 기본 객체가 유효하지 않습니다.</entry>
+    <entry key="BadBaseClass">''{0}'' 클래스는 자체 클래스 정의 내에서 기본 클래스, 속성값 또는 특성(Attribute) 값으로 사용될 수 없습니다.</entry>
+    <entry key="FieldNameAsParent">''{0}'' 클래스에 부모 클래스 이름과 일치하는 필드 ''{1}''이(가) 있어서 해당 클래스를 생성(Construct)하지 못했습니다.</entry>
+    <entry key="sameClassParent">슈퍼클래스 ''{0}''이(가) 두 번 이상 지정되었습니다.</entry>
+    <entry key="ParentObjectSize">객체로 만들어질 구조체형 배열의 크기와 부모 객체의 크기가 일치해야 합니다.</entry>
+    <entry key="invalidClassContext">CLASS 함수는 클래스 생성자에서 호출해야 합니다.</entry>
+    <entry key="classMustBeStruct">CLASS 함수에 대한 첫 번째 인수는 구조체형이어야 합니다.</entry>
+    <entry key="invalidClassName">''{0}'' 이름은 유효한 클래스 이름이 아닙니다.</entry>
+    <entry key="objectParentCount">먼저 ''clear classes''를 입력하지 않으면 ''{0}'' 클래스의 부모 개수를 변경할 수 없습니다.</entry>
+    <entry key="objectMemberCount">먼저 ''clear classes''를 입력하지 않으면 ''{0}'' 클래스의 필드 개수를 변경할 수 없습니다.</entry>
+    <entry key="objectChecksum">먼저 ''clear classes''를 입력하지 않으면 ''{0}'' 클래스의 필드 이름과 기본 클래스를 변경할 수 없습니다.</entry>
+    <entry key="tooManyOutputs">''{0}'' 클래스의 생성자는 하나의 출력값만 반환해야 합니다.</entry>
+    <entry key="pathNotInitialized">MATLAB 경로 {0}을(를) 초기화하지 못했습니다.  MATLAB을 종료합니다.\n</entry>
+    <entry key="pathInitializationTime">  MATLAB 경로가 {0}초 만에 초기화되었습니다.\n</entry>
+    <entry key="matlabpathIsDisabled"> matlabpath를 실행할 수 없습니다. 이 함수가 이 MATLAB 세션에서 비활성화되었습니다.</entry>
+    <entry key="pathChangeLimitReached">''{0}''이(가) 함수인지 확인할 수 없습니다. 검색 과정에서 MATLAB 경로 또는 현재 폴더가 너무 자주 변경되었습니다.</entry>
+    <entry key="cannotFindFunction">{0}</entry>
+    <entry key="loadLibrary">{0}</entry>
+    <entry key="UnresolvedFunctionHandle">{0}</entry>
+    <entry key="unresolvedDependency">Unable to find function ''{0}''. Component {1} has an unknown dependency {2}.</entry>
+    <entry key="unresolvedReexport">Unable to find file ''{0}''. Component {1} reexports unregistered component {2}.</entry>
+    <entry key="pathWarning">{0}</entry>
+    <entry key="pathError">{0}</entry>
+  </message>
+</rsccat>

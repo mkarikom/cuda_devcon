@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ReplacementMustBeANumericScalar">置き換えは実数の数値スカラーでなければなりません。</entry>
+    <entry key="ReplaceBrushedData">ブラシ選択したデータの置き換え</entry>
+    <entry key="SpecifyScalarToReplaceBrushedData">ブラシ選択したデータを置き換えるためのスカラー値を指定: </entry>
+  </message>
+</rsccat>

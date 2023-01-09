@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="argMustBeScalar">Function_handle 인수는 스칼라여야 합니다.</entry>
+    <entry key="argMustBeStringOrHandle">실행할 함수는 string형 스칼라, 문자형 벡터 또는 function_handle 객체로 나타내야 합니다.</entry>
+    <entry key="invalidFunctionName">''{0}''은(는) 유효하지 않은 함수 이름입니다.</entry>
+    <entry key="QEArgShareable">QEinCallFcnReuse에 대한 인수는 공유할 수 없어야 합니다.</entry>
+  </message>
+</rsccat>

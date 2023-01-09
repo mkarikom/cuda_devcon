@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EmptyStringToDataType">文字ベクトルからデータ型への変換は許可されていません</entry>
+    <entry key="EmptyDataTypeToString">データ型から文字ベクトルへの変換は許可されていません</entry>
+    <entry key="UIControlSliderStepDataType">UIControlSliderStepDataType 内の不明な例外。</entry>
+    <entry key="OutOfMemory">メモリが足りません。詳細については、&lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/memory.html'))\"&gt;memory&lt;/a&gt;を参照してください。</entry>
+  </message>
+</rsccat>

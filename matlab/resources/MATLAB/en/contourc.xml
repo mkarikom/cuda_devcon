@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InputsMustBeDouble">Input arguments for {0} must be of type ''double''.</entry>
+    <entry key="InputsMustBeFull">Input arguments for {0} must be full.</entry>
+    <entry key="InputsMustBeReal">Input arguments for {0} must be real. Use the function REAL to get the real part of the inputs.</entry>
+    <entry key="InputsMustHaveAtMost2Dimensions">Input arguments for {0} must have at most 2 dimensions.</entry>
+    <entry key="ZMustBeAtLeast2x2Matrix">Z must be at least a 2x2 matrix.</entry>
+    <entry key="XMustBeVector">X must be a vector.</entry>
+    <entry key="YMustBeVector">Y must be a vector.</entry>
+    <entry key="LMustBeVectorOrScalar">Contour level values must be a vector or a scalar.</entry>
+    <entry key="LengthOfXandYMustMatchColsAndRowsInZ">Lengths of X and Y must match number of cols and rows in Z, respectively.</entry>
+    <entry key="LengthOfXMustMatchColsInZ">Length of X must match number of cols in Z.</entry>
+    <entry key="LengthOfYMustMatchRowsInZ">Length of Y must match number of rows in Z.</entry>
+    <entry key="XMustBeFinite">X values must be finite.</entry>
+    <entry key="YMustBeFinite">Y values must be finite.</entry>
+    <entry key="LMustBeFinite">Contour level values must be finite.</entry>
+    <entry key="XMustBeUniqueMonotone">X must be strictly increasing or strictly decreasing with no repeated values.</entry>
+    <entry key="YMustBeUniqueMonotone">Y must be strictly increasing or strictly decreasing with no repeated values.</entry>
+    <entry key="NMustBeNonNegative">Number of contour levels be non-negative.</entry>
+  </message>
+</rsccat>

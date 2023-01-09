@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invts">追加メソッドのすべての引数は timeseries オブジェクトでなければなりません。</entry>
+    <entry key="nooverlap">指定した時系列の時間ベクトルは、連続でなければなりません。</entry>
+    <entry key="errdim">データ配列は同じサンプル サイズでなければなりません。</entry>
+  </message>
+</rsccat>

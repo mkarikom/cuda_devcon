@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidNumberInputs">입력 인수는 1개의 숫자형, 3개의 숫자형, 4개의 숫자형 중 하나여야 합니다.</entry>
+    <entry key="InvalidNumberComponents">가중 벡터 K는 4개의 요소를 가지고 있어야 합니다.</entry>
+    <entry key="InvalidInput">X, Y, Z는 적어도 3×3이어야 합니다.</entry>
+    <entry key="MustSpecifyS">S는 [AZ,EL] 또는 [Sx,Sy,Sz]를 사용하여 지정해야 합니다.</entry>
+    <entry key="UnknownLightingMethod">"{0}"은(는) 알 수 없는 조명 메서드입니다.</entry>
+  </message>
+</rsccat>

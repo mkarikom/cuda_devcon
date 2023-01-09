@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="mf0" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UniquenessConstraint">一意性制約の違反です。</entry>
+    <entry key="CannotAddSecondObject">このオブジェクトの 2 番目のインスタンスを追加できません。</entry>
+    <entry key="CannotAddIncompatibleObjectSubset">フィルターと合致しないオブジェクトはサブセット コレクションに追加できません。</entry>
+    <entry key="CannotChangeModel">オブジェクトを別のモデルに移動できません。</entry>
+    <entry key="CannotCreateWithoutModel">モデルなしでオブジェクトを作成することはできません。</entry>
+    <entry key="CircularContainment">オブジェクトは間接的にそのオブジェクト自身の中に含めることができません。</entry>
+    <entry key="UnsupportedQualification">タイプ ''{0}'' のプロパティの検定はサポートされていません。</entry>
+    <entry key="DuplicateTypeInRegistry">タイプ ''{0}'' を登録できません。このタイプは同じ修飾名が既に存在します。</entry>
+    <entry key="CannotSetReadOnlyProperty">読み取り専用プロパティ ''{0}'' を設定できません。</entry>
+    <entry key="CannotAddIncompatibleTypes">互換性のないタイプ ''{0}'' のオブジェクトを追加できません。''{1}'' が必要です。</entry>
+    <entry key="CannotAddNonExistentObject">存在しないオブジェクトは追加できません。</entry>
+    <entry key="CannotCastIncompatibleTypes">互換性のないタイプです。''{0}'' が必要です。</entry>
+    <entry key="NoOpenTransaction">トランザクションが開かれていません。</entry>
+    <entry key="ChangesProhibited">トランザクションのこのフェーズで変更することはできません。</entry>
+    <entry key="UUIDConflict">UUID が競合します。</entry>
+    <entry key="CannotUsePropertyWithoutType">タイプなしでプロパティ ''{0}'' を使用することはできません。</entry>
+    <entry key="NoSuchOperation">タイプ ''{1}'' のオブジェクトの演算 ''{0}'' が見つかりませんでした。</entry>
+    <entry key="NoSuchProperty">タイプ ''{1}'' のオブジェクトにプロパティ ''{0}'' が見つかりませんでした。</entry>
+    <entry key="NoSuchExtension">タイプ ''{1}'' のオブジェクトに拡張子 ''{0}'' が見つかりませんでした。</entry>
+    <entry key="NoSuchType">レジストリにタイプ ''{0}'' が見つかりませんでした。</entry>
+    <entry key="InvalidIndex">無効なインデックスです。</entry>
+    <entry key="InvalidValue">プロパティ値が無効です。</entry>
+    <entry key="UnknownClass">不明なクラスです: ''{0}''。</entry>
+    <entry key="UnknownProperty">クラス ''{1}'' の ''{0}'' は不明なプロパティです。</entry>
+    <entry key="NoQualifiedName">オブジェクトに修飾名がありません。</entry>
+    <entry key="ConstraintQueryMismatch">このクエリには制約を追加できません。</entry>
+    <entry key="NoSetterForCollections">コレクションへの setter はサポートされていません。代わりに getter を使用して、返されたコレクションを処理してください。</entry>
+    <entry key="ClassNameMustBeAString">クラス名は文字列でなければなりません。</entry>
+    <entry key="CyclicInheritance">クラス ''{0}'' の循環継承が検出されました。</entry>
+    <entry key="ExtensionMustHaveName">名前のない動的プロパティは追加できません</entry>
+    <entry key="ExtensionMustHaveDefaultValue">単一値の動的なプリミティブ型プロパティには既定値が必要です</entry>
+    <entry key="ExtensionNameMustBeUnique">動的プロパティを追加できません: その名前の動的プロパティが既に存在します</entry>
+    <entry key="CannotInstantiateCollection">タイプ ''{0}'' のコレクションはインスタンス化できません</entry>
+    <entry key="ModelFrozen">モデルに問題が発生したため変更できません</entry>
+    <entry key="CanOnlyCallOnScalar">スカラー入力のみがサポートされています</entry>
+    <entry key="CannotAssignMapKey">キーのある値を追加できません: 実際のキーは値から派生されます</entry>
+    <entry key="DefaultDispCategoryTitle">その他:</entry>
+    <entry key="CannotJoinShallowTransaction">浅いトランザクションを結合できません</entry>
+    <entry key="CannotMigrateModel">モデルはこのコンスタレーションを結合できません</entry>
+    <entry key="CannotCreateCrossModelAssociation">このオブジェクトへのモデル間の関連付けを作成できません</entry>
+    <entry key="CannotModifyProxy">未解決のプロキシを変更できません</entry>
+    <entry key="DuplicateFQN">重複する FQN が検出されました: ''{0}''。</entry>
+    <entry key="InvalidURI">無効なパッケージ URI が検出されました: ''{0}''。</entry>
+    <entry key="CreateWithDestroyAll">destroyAllContents() と同じトランザクションでは要素を作成できません</entry>
+    <entry key="GetOldValueFromNonDeep">深くないトランザクションから getOldValue() を呼び出すことはできません</entry>
+    <entry key="CannotDetachDataSourceInTransaction">トランザクション中はデータ ソースを分離できません</entry>
+    <entry key="DuplicateCorrelationId">相関するパケットを送信できません。関連付け ID が既に使用されています</entry>
+    <entry key="CorrelatedPacketTimedOut">相関するパケットの応答の待機中にタイムアウトしました</entry>
+    <entry key="NoTransportAvailable">メッセージ送信に使用可能なトランスポートがありません</entry>
+    <entry key="DuplicateEndpointImplementation">このエンドポイントの実装は既にこのモデルに接続されています。重複するエンドポイントは許可されません。</entry>
+    <entry key="EndpointImplementationNotFound">モデルにエンドポイントの実装が接続されていません。</entry>
+    <entry key="RemoteError">リモートでのエンドポイントの呼び出しで例外がスローされました。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CellsMustContainChars">Cell elements must be character vectors.</entry>
+    <entry key="InvalidInputType">Inputs must be character vectors, cell arrays of character vectors, or string arrays.</entry>
+    <entry key="MultiRowInput">Char inputs must be row vectors.</entry>
+    <entry key="NumericWithNonscalarString">When both numeric and string array inputs are specified, the string inputs must be scalar.</entry>
+  <!--Resource entries for src/builtins-->
+    <entry key="InputsMustBeRowVectors">Char inputs must be row vectors.</entry>
+    <entry key="InputsSizeMismatch">All nonscalar inputs must be the same size.</entry>
+ </message>
+</rsccat>

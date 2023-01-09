@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="matrixMustBePosDefWithRealDiag">矩阵必须为具有实数对角线的正定矩阵。</entry>
+    <entry key="CHOLMODinternal">算法未成功。\n库 CHOLMOD 中出现内部错误。</entry>
+    <entry key="inputType">数据类型无效。第一个参数必须为双精度或单精度矩阵。</entry>
+    <entry key="inputMustBe2D">输入数组的维度太多。数组必须为二维。</entry>
+    <entry key="DenseTwoInputOnly">输入参数太多。对于稠密输入矩阵，请指定一个或两个输入参数。</entry>
+    <entry key="DenseTwoOutputOnly">第三个输出仅适用于稀疏矩阵。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NumInputs">Not enough input arguments.</entry>
+    <entry key="SquareMatrix">Matrix must be square.</entry>
+    <entry key="VectorSize">Right hand side must be a column vector of length {0,number,integer} to match the coefficient matrix.</entry>
+    <entry key="Vector">Right hand side must be a column vector.</entry>
+    <entry key="tooSmallTolerance">Input tol may not be achievable by GMRES.\n Try to use a bigger tolerance.</entry>
+    <entry key="tooBigTolerance">Input tol is bigger than 1. \n Try to use a smaller tolerance.</entry>
+    <entry key="tooManyInnerItsRestart">RESTART is {0,number,integer} but it should be bounded by SIZE(A,1).\n  Setting RESTART to {1,number,integer}.</entry>
+    <entry key="tooManyInnerItsMaxit">MAXIT is {0,number,integer} but it should be bounded by SIZE(A,1).\n Setting MAXIT to {1,number,integer}.</entry>
+    <entry key="PreConditioner1Size">Preconditioner must be a square matrix of size {0,number,integer} to match the problem size.</entry>
+    <entry key="PreConditioner2Size">Preconditioner must be a square matrix of size {0,number,integer} to match the problem size.</entry>
+    <entry key="XoSize">Initial guess must be a column vector of length {0,number,integer} to match the problem size.</entry>
+    <entry key="TooManyInputs">Too many input arguments.</entry>
+  </message>
+</rsccat>

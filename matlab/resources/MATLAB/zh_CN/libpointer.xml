@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ExternalPointerValueLost">指针值赋值已取代外部指针。</entry>
+    <entry key="NullPointerAccess">尝试通过未定义的指针访问数据。</entry>
+    <entry key="TypeDoesNotExist">指定的数据类型不存在。</entry>
+    <entry key="InvalidPointerUse">指针使用无效。</entry>
+    <entry key="PointerMustNotBeEmpty">空指针不能是偏移量。</entry>
+    <entry key="OutOfBounds">无法将指针偏移到大于所指向的数据大小的值</entry>
+    <entry key="ValueNotDefined">必须在检索值之前定义该值的数据类型和大小。</entry>
+    <entry key="InvalidType">未找到类型。</entry>
+    <entry key="PointerIsRequired">只能将 libpointer 对象传递到此 PtrPtr 类型。</entry>
+    <entry key="PointerTypeMustMatch">指针类型必须与数据类型匹配</entry>
+    <entry key="PointerValueTooSmall">指针值的大小必须与新值的大小相同，或者大于新值的大小。</entry>
+    <entry key="PointerTypesMustMatch">指针类型必须与数据类型匹配。</entry>
+    <entry key="IllegalConversion">数组必须是数值或逻辑值，或者是指向某个值的指针</entry>
+    <entry key="noComplex">libpointer 对象中不支持复数数据</entry>
+    <entry key="MustBeString">参数不能转换为字符向量</entry>
+  </message>
+</rsccat>

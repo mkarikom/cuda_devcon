@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="OutputNamesWrongLength">LENGTH(OUTPUTNAMES)는 NUMOUTPUTS와 같아야 합니다.</entry>
+    <entry key="InvalidFunction">첫 번째 입력값은 함수 핸들이어야 합니다.</entry>
+    <entry key="InvalidOutputFormat">OUTPUTFORMAT은 'uniform', 'table', 'cell' 중 하나여야 합니다.</entry>
+    <entry key="InvalidNumOutputs">NUMOUTPUTS는 음이 아닌 정수여야 합니다.</entry>
+    <entry key="InvalidInputVariablesFun">INPUTVARIABLES에서는 논리형 스칼라가 반환되어야 합니다.</entry>
+    <entry key="TimetableCannotGrow">타임테이블에 적용된 함수가 시간 벡터보다 큰 크기를 갖는 출력값을 반환합니다. 'OutputFormat', 'Table'을 지정하여 출력값으로 반환되는 테이블에 행 시간값이 포함되지 않게 하십시오.</entry>
+    <entry key="RowLabelsCannotBeDataVar">행 이름은 입력 변수로 사용할 수 없습니다.</entry>
+    <entry key="RowLabelsCannotBeDataVarNondefaultName">''{0}''은(는) 인식할 수 없는 변수 이름입니다. 이 테이블의 ''{1}''(으)로 명명된 행 이름에 액세스하려고 했을 수 있습니다. 그러나 행 이름은 입력 변수로 사용할 수 없습니다.</entry>
+    <entry key="FunFailed">함수 ''{0}''을(를) A의 {1} 행에 적용하는 동안 다음 오류가 발생했습니다.\n\n{2}\n</entry>
+    <entry key="FunFailedGrouped">함수 ''{0}''을(를) A의 {1} 행 그룹에 적용하는 동안 다음 오류가 발생했습니다.\n\n{2}\n</entry>
+    <entry key="UngroupedRowSize">함수 ''{0}''을(를) A의 {1} 행에 적용했을 때 두 개 이상의 행이 포함된 출력값이 반환되었습니다.</entry>
+    <entry key="GroupedRowSize">함수 ''{0}''을(를) A의 {1} 행 그룹에 적용했을 때 행 개수가 다른 출력값이 반환되었습니다.</entry>
+    <entry key="NotAScalarOutput">함수 ''{0}''을(를) {1} 행에 적용했을 때 스칼라가 아닌 값이 반환되었습니다.</entry>
+    <entry key="NotAScalarOutputGrouped">함수 ''{0}''을(를) {1} 행 그룹에 적용했을 때 스칼라가 아닌 값이 반환되었습니다.</entry>
+    <entry key="MismatchInOutputTypes">함수 ''{0}''을(를) {3} 행에 적용했을 때 일치하지 않는 유형({1}, 예상 유형 {2})의 값이 반환되었습니다.</entry>
+    <entry key="MismatchInOutputTypesGrouped">함수 ''{0}''을(를) {3} 행 그룹에 적용했을 때 일치하지 않는 유형({1}, 예상 유형 {2})의 값이 반환되었습니다.</entry>
+  </message>
+</rsccat>

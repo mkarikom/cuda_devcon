@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonStatic">类 ''{1}'' 中没有静态方法 ''{0}''</entry>
+    <entry key="Static">类 ''{1}'' 的实例无法访问静态方法 ''{0}''。</entry>
+  </message>
+</rsccat>

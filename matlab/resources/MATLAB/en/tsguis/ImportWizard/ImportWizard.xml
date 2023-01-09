@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="ImportWizardRequires800x600Resolution">Import Wizard requires at least 800-by-600 resolution.</entry>
+      <entry key="FileNameNotSpecified">File name has not been specified.</entry>
+      <entry key="FileDoesNotExist">File does not exist.</entry>
+      <entry key="SelectedTimesInvalid">Selected times are invalid.</entry>
+      <entry key="NoDataBlockSelected">No data block has been selected.</entry>
+      <entry key="NoVariableSelected">No variable has been selected.</entry>
+      <entry key="InvalidExcelWorkbook">This is not a valid Excel workbook.</entry>
+      <entry key="InvalidFileNameOrExtension">Invalid file name or file extension does not match selected file type.</entry>
+      <entry key="Back">Back</entry>
+      <entry key="Next">Next</entry>
+      <entry key="Help">Help</entry>
+      <entry key="Finish">Finish</entry>
+      <entry key="CurrentStep">Current Step</entry>
+      <entry key="Step3CreateTimeseriesObjectsAndImport">Step 3:  Create time-series object(s) and import.</entry>
+      <entry key="Step2SpecifyDataAndTime">Step 2:  Specify the data and time.</entry>
+      <entry key="Step1ChooseSourceWithTimeseriesData">Step 1:  Choose the source that contains time-series data.</entry>
+      <entry key="TimeSeriesImportWizard">Time Series Import Wizard</entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+      <entry key="Cancel">Cancel</entry>
+      <entry key="ValidatingExcelSpreadsheet">Validating Excel Spreadsheet, Please Wait...</entry>
+   </message>
+</rsccat>

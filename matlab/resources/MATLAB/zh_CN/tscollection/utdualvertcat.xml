@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badmembernumber">您尝试串联的每个 tscollection 必须拥有相同数目的成员。</entry>
+    <entry key="badmembername">tscollection 的成员不能重名。</entry>
+    <entry key="overlaptime">指定时序的时间向量不能重叠，必须是连续的。</entry>
+    <entry key="badsamplesize">{0} 的样本大小或数据类型与 tscollection 的其他成员不匹配。</entry>
+  </message>
+</rsccat>

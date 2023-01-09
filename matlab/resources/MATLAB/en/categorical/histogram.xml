@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="AmbiguousOthers">Input data contains a category named ''{0}'', which conflicts with the use of 'ShowOthers'. Use renamecats to rename ''{0}'' to another category name.</entry>    <entry key="BinCountsInvalidSize">BinCounts must be a vector of length equal to length(Categories).</entry>
+    <entry key="CategoriesInvalidSize">Length of ''Categories'' and length of ''BinCounts'' must be equal.</entry>
+    <entry key="EmptyBinCountsManualMode">When ''BinCountsMode'' is set to ''manual'', ''BinCounts'' must be set.</entry>
+    <entry key="InvalidCategories" note="stringDatatypeUpdate">CATEGORIES must be a categorical vector, a string vector, or a cell array of character vectors, .</entry>
+    <entry key="InvalidCategoriesAssign"  context="error" note="stringDatatypeUpdate">All category names must form a vector of strings or a cell vector of character vectors.</entry>
+    <entry key="InvalidCodes">Codes must have the same length as the number of categories.</entry> 
+    <entry key="ManualDisplayOrder">''DisplayOrder'' value must be ''ascend'', ''descend'', or ''data''.</entry>
+    <entry key="MixedCategoriesNumDisplayBins">Invalid input combination. Specify either a list of categories or ''NumDisplayBins'', but not both.</entry>
+    <entry key="MixedDataBinCounts">When X input is non-empty, BinCounts cannot be set.</entry>
+    <entry key="MixedOrdinal">Histograms of ordinal categorical arrays on the same axes must have the same categories.</entry>
+    <entry key="MixedOrdinalAssign">When assigning to the Data property, the old and new ordinal Data must have the same categories in the same order.</entry>
+    <entry key="MixedOrdinalNonOrdinal">Histograms of ordinal and non-ordinal categorical arrays cannot be plotted on the same axes.</entry>
+    <entry key="MixedOrdinalNonOrdinalAssign">When assigning to the Data property, the old and new Data must both be ordinal, or both non-ordinal</entry>
+    <entry key="MixedOrientation">Histograms of categorical arrays with different orientations cannot be plotted on the same axes.</entry>
+    <entry key="UnsupportedPolarCoordinates">Plotting a histogram of categorical data into polar axes is not supported.</entry>
+    <entry key="NonCategoricalX">X must be a categorical array.</entry>
+    <entry key="NonEmptyBinCountsAutoMode">When ''BinCountsMode'' is set to ''auto'', ''BinCounts'' cannot be set.</entry>
+    <entry key="NonVectorCategories">CATEGORIES must be a vector or empty.</entry>
+    <entry key="NumDisplayBinsManualMode">''NumDisplayBins'' is not supported when ''BinCounts'' is specified.</entry>
+    <entry key="NumDisplayBinsExceedsNumCategories">''NumDisplayBins'' value must be less than or equal to the number of categories in the data.</entry>
+    <entry key="OrdinalCategoriesMismatch">When X and CATEGORIES are both ordinal arrays, they must have the same categories in the same order.</entry>
+    <entry key="OrdinalMismatch">X and CATEGORIES must both be ordinal or not ordinal.</entry>
+    <entry key="OrientationMixedType">Orientation is not supported for categorical data when there are non-histogram objects in the axes.</entry>
+    <entry key="OrientationYYAxes">Changing the ''Orientation'' value is not supported for histograms with categorical data in two y-axes.</entry>
+    <entry key="Others">Others</entry>
+    <entry key="RepeatedCategories">Categories must be unique.</entry>
+    <entry key="ShowOthersManualMode">Displaying ''Others'' bar is not supported when ''BinCounts'' is specified.</entry>
+    <entry key="UnrecognizedCategories">CATEGORIES contains categories not present in X.</entry>
+    <entry key="UnsupportedFewerbins">fewerbins method is not supported in histograms of categorical data.</entry>
+    <entry key="UnsupportedMorebins">morebins method is not supported in histograms of categorical data.</entry>
+    <entry key="ShowEmptyBinsLabel">Toggle to show empty bins</entry>
+    <entry key="NumBinsLabel">Number of bins</entry>
+	<entry key="Category" note="For data tips">Category</entry>
+	<entry key="Value" note="For data tips">Value</entry>
+  </message>
+</rsccat>

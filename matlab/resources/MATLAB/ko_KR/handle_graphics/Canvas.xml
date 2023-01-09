@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidSceneViewer">SceneViewer 객체가 적절히 초기화되지 않음</entry>
+    <entry key="BadFilename">파일 이름이 유효하지 않음</entry>
+    <entry key="BadFormat">형식이 유효하지 않음</entry>
+    <entry key="UnexpectedException">오류 발생</entry>
+    <entry key="InvalidRendererValueSpecified">예상 렌더러 값은 0(opengl) 또는 1(painters)임</entry>
+    <entry key="ViewportNotValid">뷰 포트(viewport)에 유효한 상태를 입력하지 않음</entry>
+    <entry key="TooManyTokens">미처리 작업이 너무 많아서 연산에 실패했습니다.</entry>
+    <entry key="StatisticsListener">통계량 모음 리스너 수정이 올바르지 않음</entry>
+    <entry key="DebugLogListener">debuglog 리스너 수정이 올바르지 않음</entry>
+    <entry key="WaitingObjectReferenceInvalid">대기 객체 참조가 더 이상 유효하지 않음</entry>
+    <entry key="RenderingException">장면을 그리는 동안 오류 발생: {0}</entry>
+    <entry key="WebglException">Webgl을 사용할 수 없습니다. context2d 렌더러로 되돌아갑니다.</entry>
+    <entry key="CSRNotSupported">이 캔버스는 클라이언트 측 렌더링을 지원하지 않음</entry>
+    <entry key="HittestDisabled">이 캔버스에 대해 Hittest가 활성화되어 있지 않음</entry>
+    <entry key="SceneClientException">{0}</entry>
+  </message>
+</rsccat>

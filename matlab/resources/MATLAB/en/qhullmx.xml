@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="MexFileNotFound">mex-file not found</entry>
+  <!--Resource entries for toolbox/matlab/polyfun/src-->
+    <entry key="PrintCenter">Index out of bounds.</entry>
+    <entry key="ProduceConvexHull">Merging of collinear/coplanar/cohyperplanar convex hull facets is not supported. Consider using the Qt option.</entry>
+    <entry key="NonDoubleInput">The first input argument must be a double array.</entry>
+    <entry key="InvalidNumberOfOutputs">Too many output arguments.</entry>
+    <entry key="DegenerateData">The data is degenerate in at least one dimension - ND set of points lying in (N+1)D space.</entry>
+    <entry key="InputSizeTooLarge">Maximum variable size allowed by the function is exceeded.\nTo request support for 64-bit arrays in this function please send this error to 64bit_support@mathworks.com.</entry>
+    <entry key="ProduceDelaunayM">M index out of bounds.</entry>
+    <entry key="ProduceDelaunayN">N index out of bounds.</entry>
+    <entry key="ProduceVoronoi">Index out of bounds.</entry>
+    <entry key="ProduceVoronoiVert">Vertex index out of bounds.</entry>
+    <entry key="UndefinedError" translate="false">{0}</entry>
+    <entry key="InternalWarning" translate="false">{0}</entry>
+    <entry key="OutputTooLarge">The computed output size is too large.</entry>
+    <entry key="TooFewInputs">Too few input arguments.</entry>
+  </message>
+</rsccat>

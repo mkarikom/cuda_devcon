@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidHandle">無効なハンドル</entry>
+    <entry key="ActionStringUnknown">不明なアクションの文字ベクトルです。</entry>
+    <entry key="UnknownString">不明なアクションの文字ベクトルです。</entry>
+    <entry key="InvalidInputAxes">入力は Axes のハンドルでなければなりません</entry>
+    <entry key="InvalidInputZeroOne">入力は Axes のハンドルでなければなりません</entry>
+    <entry key="InvalidInputForOutArg">これらの入力引数を使用して出力引数を指定しないでください。</entry>
+  </message>
+</rsccat>

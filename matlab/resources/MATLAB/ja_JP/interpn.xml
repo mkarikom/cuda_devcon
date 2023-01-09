@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nargin">入力引数の数が正しくありません。</entry>
+    <entry key="NotEnoughInputs">入力引数が不足しています。</entry>
+    <entry key="NtimesInvalid">NTIMES は単一の数値でなければなりません。</entry>
+    <entry key="NotEnoughPointsNanStrip">内挿するための有限値の数が不十分です。</entry>
+    <entry key="InvalidExtrapval">EXTRAPVAL はスカラーでなければなりません。</entry>
+    <entry key="NaNstrip">NaN 値を含むデータの列が内挿中に無視されました。</entry>
+    <entry key="InvalidMethod">{0} は無効なメソッドです。</entry>
+    <entry key="narginOrInvalidDimV">入力引数の数が正しくない、または、V のいくつかの次元が 2 よりも小さいです。</entry>
+    <entry key="XNotMonotonic">X1、X2、X3、... は、単調なベクトル、または、NDGRID で生成された配列でなければなりません。</entry>
+  </message>
+</rsccat>

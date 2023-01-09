@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="tooManyColors">色が多すぎます。許容誤差を {0} に増加させています</entry>
+    <entry key="obsoleteSyntaxNeedMoreArgs">RGB2IND(RGB) は廃止予定の構文です。\n色、許容誤差、またはカラーマップの数を指定してください。</entry>
+    <entry key="invalidInputArgs">入力引数が無効です。</entry>
+    <entry key="rgbNotMbyNby3">RGB イメージは M x N x 3 の配列でなければなりません。</entry>
+    <entry key="negativeValuesInMap">カラーマップ、色数、または許容誤差は、非負でなければなりません。</entry>
+    <entry key="invalidNumberOfColors">カラーマップの色数は非負の整数でなければなりません。</entry>
+    <entry key="invalidMapSize">入力のカラーマップは少なくとも 2 行で正確に 3 列の 2 次元配列でなければなりません。</entry>
+    <entry key="invalidMapIntensities">すべてのカラー マップの強度は、0 と 1 の間でなければなりません。</entry>
+    <entry key="unknownDitherOption">不明なディザー オプション: {0}</entry>
+    <entry key="ambiguousDitherOption">あいまいなディザー オプション: {0}</entry>
+    <entry key="ditherOptionNotString">ディザー オプションは文字ベクトルでなければなりません。</entry>
+  </message>
+</rsccat>

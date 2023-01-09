@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DISPLAY_BUILTIN_DATA_LABEL">{0} 数据:</entry>
+    <entry key="DISPLAY_EMPTY_ENUMERATION_LABEL">{0} 空 {1} 枚举。</entry>
+    <entry key="SCALAR_ENUMERATION_HEADER">{0} 枚举</entry>
+    <entry key="ENUMERATION_ARRAY_HEADER">{0} {1} 枚举数组</entry>
+    <entry key="DISPLAY_ONE_COLUMN_ENUMERATION_HEADER">列 {0,number,integer}</entry>
+    <entry key="DISPLAY_TWO_COLUMN_ENUMERATION_HEADER">列 {0,number,integer} 至 {1,number,integer}</entry>
+    <entry key="GET_FUNCTION_NO_GETTABLE_PROPS_LABEL">类 {0} 没有可获取的属性。</entry>
+    <entry key="METHODS_FUNCTION_INHERITED_METHODS">从 {1} 继承的 {0} 的&lt;a href="matlab: methods handle"&gt;方法&lt;/a&gt;。</entry>
+    <entry key="METHODS_FUNCTION_INHERITED_METHODS_NO_LINKS">对从 {2} 继承的 {1} 的方法调用 {0}。</entry>
+    <entry key="SET_FUNCTION_NO_SETTABLE_PROPS_LABEL">类 {0} 没有可设置的属性。</entry>
+    <entry key="STATIC_METHODS_LABEL">Static 方法:</entry>
+    <entry key="NoAbstractMembers">类 {0} 没有抽象方法或属性，或者没有类 {1}。</entry>
+    <entry key="AbstractMethodsLabel">类 {0} 的抽象方法</entry>
+    <entry key="AbstractPropertiesLabel">类 {0} 的抽象属性</entry>
+    <entry key="AbstractDefinedIn">已在 {0} 中定义</entry>
+    <entry key="instances">\t{0} ({1,number,integer} 个实例)\n</entry>
+    <entry key="oneInstance">\t{0} (1 个实例)\n</entry>
+    <entry key="noInstances">无实例\n\n</entry>
+    <entry key="DataTypeNeeded">需要 DataType。</entry>
+    <entry key="NonExistentClass">&lt;不存在的类&gt;</entry>
+    <entry key="first">第一个</entry>
+    <entry key="parameterValuePairs">参数-值对组</entry>
+    <entry key="charStructOrCell">字符、结构体或元胞</entry>
+    <entry key="propertyName">属性名称</entry>
+    <entry key="aString">字符向量</entry>
+    <entry key="Second">第二个</entry>
+    <entry key="stringOrCellArray">字符向量或元胞数组</entry>
+    <entry key="FindFunctionHandleExceptionMsg">''-function'' 指令必须后跟函数句柄或属性名称和函数句柄</entry>
+    <entry key="FindOperatorPrecedentExceptionMsg">''{0}'' 运算符不能后跟逻辑运算符</entry>
+    <entry key="whichConstructor">{0} 构造函数</entry>
+    <entry key="whichDynamic">{0} 方法</entry>
+    <entry key="whichStatic">静态方法或包函数</entry>
+    <entry key="whichBuiltinMethod">{0} 是内置方法</entry>
+    <entry key="whichJavaMethod">{0} 是 Java 方法</entry>
+    <entry key="PassThrough">{0}</entry>
+  </message>
+</rsccat>

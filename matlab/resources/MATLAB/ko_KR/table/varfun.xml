@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FunFailed">함수 ''{0}''을(를) 변수 ''{1}''에 적용하는 동안 다음 오류가 발생했습니다.\n\n{2}\n</entry>
+    <entry key="NotAScalarOutput">함수 ''{0}''을(를) 변수 ''{1}"에 적용했을 때 스칼라가 아닌 값이 반환되었습니다.</entry>
+    <entry key="MismatchInOutputTypes">함수 ''{0}''을(를) 변수 ''{3}"에 적용했을 때 일치하지 않는 유형({1}, 예상 유형은 {2}임)의 값이 반환되었습니다.</entry>
+    <entry key="VertcatFailed">함수 ''{0}''을(를) 변수 ''{1}''의 그룹에 적용했을 때 서로 호환되지 않는 값이 반환되어 결합(Concatenate)되지 않았습니다.\n\n{2}\n</entry>
+    <entry key="InvalidFunction">첫 번째 입력값은 함수 핸들이어야 합니다.</entry>
+    <entry key="InvalidOutputFormat">OUTPUTFORMAT은 'uniform', 'table', 'cell' 중 하나여야 합니다.</entry>
+    <entry key="InvalidInputVariablesFun">INPUTVARIABLES에서는 논리형 스칼라가 반환되어야 합니다.</entry>
+    <entry key="CharRowFunOutput">FUN에서 1×M 문자형 벡터를 반환했습니다. 문자형 벡터로 구성된 셀형 배열을 반환하도록 FUN을 수정하거나, ''OutputFormat'' 파라미터에 ''cell''을 지정해야 합니다.</entry>
+    <entry key="TimetableCannotGrow">함수 ''{0}''이(가) 입력 타임테이블보다 더 많은 행을 갖는 값을 반환했습니다. varfun은 출력 형식이 'timetable'인 경우 이러한 추가 행에 대해 새로운 행 시간값을 만들 수 없습니다. 타임테이블 대신 테이블을 반환하려면 'OutputFormat'을 'table'로 설정하십시오.</entry>
+    <entry key="RowLabelsCannotBeDataVar">행 이름은 데이터 변수로 사용할 수 없습니다.</entry>
+    <entry key="RowLabelsCannotBeDataVarNondefaultName">''{0}''은(는) 인식할 수 없는 변수 이름입니다. 이 테이블의 ''{1}''(으)로 명명된 행 이름에 액세스하려고 했을 수 있습니다. 그러나 행 이름은 데이터 변수로 사용할 수 없습니다.</entry>
+    <entry key="FunFailedGrouped">함수 ''{0}''을(를) 변수 ''{2}''의 {1} 그룹에 적용하는 동안 다음 오류가 발생했습니다.\n\n{3}\n</entry>
+    <entry key="NotAScalarOutputGrouped">함수 ''{0}''을(를) 변수 ''{2}''의 {1} 그룹에 적용했을 때 스칼라가 아닌 값이 반환되었습니다.</entry>
+    <entry key="MismatchInOutputTypesGrouped">함수 ''{0}''을(를) 변수 ''{4}''의 {3} 그룹에 적용했을 때 일치하지 않는 유형({1}, 예상 유형은 {2}임)의 값이 반환되었습니다.</entry>
+    <entry key="GroupRowsMismatch">함수 ''{0}''을(를) 변수 ''{2}''의 {1} 그룹에 적용했을 때 행 개수가 다른 값이 반환되었습니다.</entry>
+    <entry key="NonConstantFun">FUN은 상수여야 합니다.</entry>
+    <entry key="VarsizeInput">varfun에는 가변 크기의 테이블 또는 타임테이블이 지원되지 않습니다.</entry>
+    <entry key="NonConstantParamValue">''{0}''의 값은 상수여야 합니다.</entry>
+    <entry key="NonConstantInputVarsFun">함수 핸들을 사용하여 InputVariables를 지정할 경우 함수의 출력값은 상수여야 합니다.</entry>
+    <entry key="ErrorHandlerNotSupported">코드 생성 시 오류 핸들러는 지원되지 않습니다.</entry>
+    <entry key="GroupedMixedTypes">코드 생성 시, GroupingVariables가 지정되어 있고 함수가 각 InputVariable에 대해 서로 다른 유형을 반환하는 경우 OutputFormat 'cell'은 지원되지 않습니다.</entry>
+  </message>
+</rsccat>

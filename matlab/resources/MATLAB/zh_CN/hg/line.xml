@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="XDataYDataAndZDataLengthsMustBeEqual">线的 XData 长度({0,number,integer})、YData 长度({1,number,integer})和 ZData 长度({2,number,integer})必须相同</entry>
+    <entry key="XDataAndYDataLengthsMustBeEqual">线 XData 长度({0,number,integer})和 YData 长度({1,number,integer})必须相同</entry>
+  </message>
+</rsccat>

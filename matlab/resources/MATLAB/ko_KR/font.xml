@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SizeGreaterThanZero">값은 유한해야 하고 0보다 커야 함</entry>
+    <entry key="UnitsStringConversion">유형 Units에 대해 문자형 벡터 변환이 되지 않음</entry>
+    <entry key="UnitsConversionFailed">속성 FontUnits 초기값 변환 실패\n</entry>
+    <entry key="NameStringConversion">유형 FontName에 대해 문자형 벡터 변환이 되지 않음</entry>
+    <entry key="NameConversionFailed">속성 FontName 초기값 변환 실패\n</entry>
+    <entry key="WeightStringConversion">유형 FontWeight에 대해 문자형 벡터 변환이 되지 않음</entry>
+    <entry key="WeightConversionFailed">속성 FontWeight 초기값 변환 실패\n</entry>
+    <entry key="AngleStringConversion">유형 FontAngle에 대해 문자형 벡터 변환이 되지 않음</entry>
+    <entry key="AngleConversionFailed">속성 FontAngle 초기값 변환 실패\n</entry>
+  </message>
+</rsccat>

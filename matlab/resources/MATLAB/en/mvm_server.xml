@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+      <!-- Added messages: src/mvm_server/MVMLocal -->
+      <entry key="AlreadyAttachable">The shareEngine command has already been called to enable shared MATLAB access.</entry>
+      <!-- Capture the exception string -->
+    <entry key="NameAlreadyExists">The shareEngine address is already in use: {0}</entry>
+      <!-- Capture the exception string -->
+    <entry key="UnexpectedError">Unexpected internal error in shareEngine: {0}</entry>
+      <!-- Capture the exception string -->
+    <entry key="ShareEngineNotSupported">The shareEngine command is not supported in this MATLAB configuration.</entry>
+  </message>
+</rsccat>

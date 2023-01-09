@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Tool_changePointsFinder_Label" context="uistring">변화 지점 찾기</entry>
+    <entry key="Tool_changePointsFinder_Description">데이터의 급격한 변화를 찾습니다.</entry>
+    <entry key="Tool_dataSmoother_Label" context="uistring">데이터 평활화</entry>
+    <entry key="Tool_dataSmoother_Description">잡음 있는 데이터를 평활화합니다.</entry>
+    <entry key="Tool_localExtremaFinder_Label" context="uistring">국소 극값 찾기</entry>
+    <entry key="Tool_localExtremaFinder_Description">국소 최댓값과 국소 최솟값을 구합니다.</entry>
+    <entry key="Tool_missingDataCleaner_Label" context="uistring">누락된 데이터 정리</entry>
+    <entry key="Tool_missingDataCleaner_Description">누락된 데이터를 찾거나 채우거나 제거합니다.</entry>
+    <entry key="Tool_NormalizeDataTask_Label" context="uistring">데이터 정규화</entry>
+    <entry key="Tool_NormalizeDataTask_Description" context="uistring">데이터를 정규화합니다</entry>
+    <entry key="Tool_outlierDataCleaner_Label" context="uistring">이상값 데이터 정리</entry>
+    <entry key="Tool_outlierDataCleaner_Description">이상값을 찾거나 채우거나 제거합니다.</entry>
+    <entry key="Tool_trendRemover_Label" context="uistring">추세 제거</entry>
+    <entry key="Tool_trendRemover_Description" context="uistring">데이터에서 다항식 추세를 제거합니다.</entry>
+    <entry key="Tool_tableJoiner_Label" context="uistring">테이블 결합</entry>
+    <entry key="Tool_tableJoiner_Description" context="uistring">키 변수를 사용하여 두 테이블을 결합합니다.</entry>
+    <entry key="Tool_tableStacker_Label" context="uistring">테이블 변수 쌓기</entry>
+    <entry key="Tool_tableStacker_Description" context="uistring">여러 테이블 변수의 값을 하나의 테이블 변수로 결합합니다.</entry>
+    <entry key="Tool_tableUnstacker_Label" context="uistring">테이블 변수 해체</entry>
+    <entry key="Tool_tableUnstacker_Description" context="uistring">한 테이블 변수의 값을 여러 테이블 변수에 나누어 배치합니다.</entry>
+    <entry key="Tool_timetableRetimer_Label" context="uistring">타임테이블 시간 값 재지정</entry>
+    <entry key="Tool_timetableRetimer_Description" context="uistring">timetable형 데이터를 리샘플링하거나 집계합니다.</entry>
+    <entry key="Tool_timetableSynchronizer_Label" context="uistring">타임테이블 동기화</entry>
+    <entry key="Tool_timetableSynchronizer_Description" context="uistring">타임테이블에 대한 시간 값을 재지정하고 새 시간 벡터로 결합합니다.</entry>
+    <entry key="Tool_ComputeByGroupTask_Label" context="uistring">그룹별 계산</entry>
+    <entry key="Tool_ComputeByGroupTask_Description" context="uistring">그룹별로 요약, 변환 또는 필터링합니다</entry>
+    <entry key="AllNumeric" context="uistring">모든 숫자형 변수</entry>
+    <entry key="AllSupported" context="uistring">지원되는 모든 변수</entry>
+    <entry key="Asymmetric">비대칭</entry>
+    <entry key="Centered">가운데로</entry>
+    <entry key="CleanedData" context="uistring">정리된 데이터</entry>
+    <entry key="CleaningMethod" context="uistring">정리 방법</entry>
+    <entry key="Constantvalue">상수 값</entry>
+    <entry key="DataDelimiter" context="uistring">데이터 선택</entry>
+    <entry key="DefaultValue">디폴트 값</entry>
+    <entry key="Days">일</entry>
+    <entry key="Hours">시간</entry>
+    <entry key="InputData" context="uistring">입력 데이터</entry>
+    <entry key="InputDataTooltip">작업 공간 변수</entry>
+    <entry key="Linearinterpolation">선형 보간</entry>
+    <entry key="Makima" context="uistring">수정된 아키마 3차 보간</entry>
+    <entry key="ManualSelection" context="uistring">지정된 변수</entry>
+    <entry key="Mean">평균</entry>
+    <entry key="Median">중앙값</entry>
+    <entry key="MethodDelimiter" context="uistring">방법 지정</entry>
+    <entry key="MethodAndParametersDelimiter" context="uistring">방법 및 파라미터 지정</entry>
+    <entry key="Milliseconds">밀리초</entry>
+    <entry key="Minutes">분</entry>
+    <entry key="Months">월</entry>
+    <entry key="Movingmean">이동 평균</entry>
+    <entry key="Movingmedian">이동 중앙값</entry>
+    <entry key="Movingwindow">이동 윈도우</entry>
+    <entry key="Nearestvalue">가장 가까운 값</entry>
+    <entry key="Nextvalue">다음 값</entry>
+    <entry key="None">없음</entry>
+    <entry key="NoVisualization" context="uistring">입력값 {0}에는 시각화가 지원되지 않음</entry>
+    <entry key="NoVisualizationMulti" context="uistring">{0}에서 선택된 변수에 대해서는 시각화가 지원되지 않음</entry>
+    <entry key="OtherRemovedData" context="uistring">다른 변수에 의해 제거됨</entry>
+    <entry key="Outputtable" context="uistring">출력 테이블</entry>
+    <entry key="ParametersDelimiter" context="uistring">파라미터 지정</entry>
+    <entry key="Pchip">형태 보존 3차 보간(PCHIP)</entry>
+    <entry key="PlotDropDownTooltip" context="uistring">지원되는 플롯 기능을 갖는 {0} 변수</entry>
+    <entry key="Previousvalue">이전 값</entry>
+    <entry key="OutputType" context="uistring">출력 형식</entry>
+    <entry key="OutputTypeSmallTable" context="uistring">선택한 변수에서 새 {0} 만들기</entry>
+    <entry key="OutputTypeSmallTableLogical" context="uistring">선택한 변수에 대해서만 논리형 인덱스</entry>
+    <entry key="OutputTypeTable" context="uistring">정리된 선택 변수를 사용하여 {0} 복사</entry>
+    <entry key="OutputTypeVector" context="uistring">{1}에서 {0} 추출</entry>
+    <entry key="OutputTypeLogical" context="uistring">{0}에 대한 논리형 인덱스</entry>
+    <entry key="Quarters" context="uistring">사분기</entry>
+    <entry key="SamplePoints">X축</entry>
+    <entry key="SamplePointsTableVarTooltip" context="uistring">유한하고 오름차순으로 정렬된 {0} 변수</entry>
+    <entry key="SamplePointsTooltip" context="uistring">입력 데이터와 연결된 X축입니다. 디폴트 값은 [1 2 3 ...]입니다. 값은 유한해야 하고 오름차순이어야 합니다.</entry>
+    <entry key="SamplePointsTooltipDisabled" context="uistring">X축은 출력값이 타임테이블인 경우 타임테이블의 행 시간값이어야 합니다.</entry>
+    <entry key="SamplePointsTooltipDisabledLogical" context="uistring">X축은 출력값이 여러 변수에 대한 논리형 인덱스인 경우 타임테이블의 행 시간값이어야 함</entry>
+    <entry key="Seconds">초</entry>
+    <entry key="SelectVariable">변수 선택</entry>
+    <entry key="SelectedVariable" context="uistring">선택한 변수</entry>
+    <entry key="Splineinterpolation">스플라인 보간</entry>
+    <entry key="TableVarTooltip">{1}의 {0} 변수</entry>
+    <entry key="VariableToDisplay" context="uistring">표시할 변수</entry>
+    <entry key="Visualizeresults" context="uistring">결과 표시</entry>
+    <entry key="Weeks" context="uistring">주</entry>
+    <entry key="WindowSizeTooltip1">현재 요소 앞의 윈도우 단위</entry>
+    <entry key="WindowSizeTooltip2">현재 요소 뒤의 윈도우 단위</entry>
+    <entry key="WindowSizeTooltipCentered" context="uistring">현재 요소에 중심을 두는 윈도우 단위</entry>
+    <entry key="WindowTypeTooltip">윈도우 유형</entry>
+    <entry key="WindowUnitsTooltip">윈도우 단위 유형</entry>
+    <entry key="Years">년</entry>
+    <entry key="changePointsFinderChangePoints" context="uistring">변화 지점</entry>
+    <entry key="changePointsFinderFindchangepoints">변화 지점 찾기</entry>
+    <entry key="changePointsFinderLinear">선형</entry>
+    <entry key="changePointsFinderLinearRegime" context="uistring">선형 특성</entry>
+    <entry key="changePointsFinderMaxNum">변화 지점의 최대 개수</entry>
+    <entry key="changePointsFinderMaxNumTooltip" context="uistring">값을 높이면 더 많은 변화 지점이 검출됩니다.</entry>
+    <entry key="changePointsFinderNumberofChangePoints" context="uistring">변화 지점 수</entry>
+    <entry key="changePointsFinderSegmentMean" context="uistring">세그먼트 평균</entry>
+    <entry key="changePointsFinderPlotchangepoints">변화 지점 플로팅</entry>
+    <entry key="changePointsFinderPlotsegments">변화 지점 간의 세그먼트 플로팅</entry>
+    <entry key="changePointsFinderSegments" context="uistring">변화 지점 간의 세그먼트</entry>
+    <entry key="changePointsFinderSummaryLinear">{0}에 대한 선형 특성의 급격한 변화</entry>
+    <entry key="changePointsFinderSummaryMean">{0}에 대한 평균의 급격한 변화</entry>
+    <entry key="changePointsFinderSummaryVariance">{0}에 대한 분산의 급격한 변화</entry>
+    <entry key="changePointsFinderThreshold">임계값</entry>
+    <entry key="changePointsFinderThreshOrMaxTooltip">변화 지점 수를 제어합니다.</entry>
+    <entry key="changePointsFinderThresholdTooltip">임계값을 높이면 변화 지점 수가 감소합니다.</entry>
+    <entry key="changePointsFinderTypeofChange" context="uistring">변화 유형</entry>
+    <entry key="changePointsFinderVariance">분산</entry>
+    <entry key="dataSmootherDegreeTooltip">사비츠키-골레이 필터의 다항식 차수</entry>
+    <entry key="dataSmootherGaussianfilter">가우스 필터</entry>
+    <entry key="dataSmootherLocallinearregression" context="uistring">국소 선형 회귀(Lowess)</entry>
+    <entry key="dataSmootherLocalquadraticregression" context="uistring">국소 2차 회귀(Loess)</entry>
+    <entry key="dataSmootherPolynomialDegree" context="uistring">다항식 차수</entry>
+    <entry key="dataSmootherRobustlocallinearregression" context="uistring">로버스트 Lowess</entry>
+    <entry key="dataSmootherRobustlocalquadraticregression" context="uistring">로버스트 Loess</entry>
+    <entry key="dataSmootherSmoothingfactor">평활화 인자</entry>
+    <entry key="dataSmootherSmoothingFactorTooltip">값을 높이면 평활화가 증가합니다.</entry>
+    <entry key="dataSmootherSmoothingMethod" context="uistring">평활화 방법</entry>
+    <entry key="dataSmootherSavitzkyGolaypolynomialfilter">사비츠키-골레이 다항식 필터</entry>
+    <entry key="dataSmootherSmoothedData" context="uistring">평활화된 데이터</entry>
+    <entry key="dataSmootherSmoothinputdata">입력 데이터 평활화</entry>
+    <entry key="dataSmootherSummary">{1} 방법을 사용하여 {0}의 잡음 있는 데이터를 평활화함</entry>
+    <entry key="groupingACustomFunction" context="uistring">사용자 지정 함수</entry>
+    <entry key="groupingAllNonGrouping" context="uistring">그룹화 변수 이외 모든 변수</entry>
+    <entry key="groupingAllVariables" context="uistring">모든 변수</entry>
+    <entry key="groupingbinEdges" context="uistring">Bin 경계값 제공</entry>
+    <entry key="groupingBinEdgesTooltip" context="uistring">길이가 2 이상인 숫자형 작업 공간 벡터(오름차순으로 정렬됨)</entry>
+    <entry key="groupingBinEdgesTooltipDT" context="uistring">길이가 2 이상인 datetime형 작업 공간 벡터(오름차순으로 정렬됨)</entry>
+    <entry key="groupingBinEdgesTooltipDur" context="uistring">길이가 2 이상인 duration형 작업 공간 벡터(오름차순으로 정렬됨)</entry>
+    <entry key="groupingBinningTooltipbinEdges" context="uistring">Bin 경계값 {1}을(를) 사용하여 {0}을(를) 기준으로 데이터를 그룹화합니다</entry>
+    <entry key="groupingBinningTooltipbinWidth" context="uistring">{0}을(를) 사용하여 {1}{2}의 Bin으로 데이터를 그룹화합니다</entry>
+    <entry key="groupingBinningTooltipnone" context="uistring">{0}의 고유한 값을 사용하여 데이터를 그룹화합니다</entry>
+    <entry key="groupingBinningTooltipnumBins" context="uistring">{0}을(를) 사용하여 {1}개 Bin으로 데이터를 그룹화합니다</entry>
+    <entry key="groupingBinningTooltiptimeBins" context="uistring">{0}의 {1}을(를) 기준으로 데이터를 그룹화합니다</entry>
+    <entry key="groupingbinWidth" context="uistring">Bin 너비 선택</entry>
+    <entry key="groupingcentury" context="uistring">100년</entry>
+    <entry key="groupingCodeCommentInputArray" context="uistring">{0}은(는) 계산 데이터의 그룹에 있는 데이터임</entry>
+    <entry key="groupingCodeCommentInputTable" context="uistring">{0}은(는) 한 계산 변수의 그룹에 있는 데이터임</entry>
+    <entry key="groupingCodeCommentFilterOutput" context="uistring">{0}은(는) true, false 또는 {1}과(와) 같은 높이의 논리형 열 벡터임</entry>
+    <entry key="groupingCodeCommentFilterExample1" context="uistring">예 1: 평균이 10보다 큰 그룹만 유지</entry>
+    <entry key="groupingCodeCommentFilterExample2" context="uistring">예 2: 각 그룹에서 이상값이 아닌 값만 유지</entry>
+    <entry key="groupingCodeCommentSummaryOutput" context="uistring">{0}은(는) 첫 번째 차원의 크기가 1임</entry>
+    <entry key="groupingCodeCommentSummaryExample" context="uistring">예제: 각 그룹의 이상값 개수 세기</entry>
+    <entry key="groupingCodeCommentTransformOutput" context="uistring">{0}은(는) {1}과(와) 크기가 동일하거나 첫 번째 차원의 크기가 1임</entry>
+    <entry key="groupingCodeCommentTransformExample1" context="uistring">예제 1: 각 그룹 멤버를 그룹 평균으로 나누기</entry>
+    <entry key="groupingCodeCommentTransformExample2" context="uistring">예제 2: 그룹 멤버를 그룹 평균으로 바꾸기</entry>
+    <entry key="groupingcounts" context="uistring">도수</entry>
+    <entry key="groupingCustomFunction" context="uistring">사용자 지정 함수</entry>
+    <entry key="groupingDataDelimiter" context="uistring">계산 대상 그룹 및 데이터 선택</entry>
+    <entry key="groupingDataVarLabel" context="uistring">계산 대상</entry>
+    <entry key="groupingDataVarTooltip" context="uistring">계산 대상 입력 테이블의 변수</entry>
+    <entry key="groupingDataVarWSDDTooltip" context="uistring">계산 대상 작업 공간 변수</entry>
+    <entry key="groupingday" context="uistring">일</entry>
+    <entry key="groupingdayname" context="uistring">요일 이름</entry>
+    <entry key="groupingdayofmonth" context="uistring">월중 일자</entry>
+    <entry key="groupingdayofweek" context="uistring">요일</entry>
+    <entry key="groupingdayofyear" context="uistring">연중 일자</entry>
+    <entry key="groupingdecade" context="uistring">10년</entry>
+    <entry key="groupingDispMessage" context="uistring">새 로컬 함수를 선택하거나 생성합니다</entry>
+    <entry key="groupingFillMissing" context="uistring">누락값 채우기</entry>
+    <entry key="groupingFilteringFunctionTooltip" context="uistring">함수는 그룹 멤버 필터링을 위해서는 false를 반환해야 하고 그룹 멤버 유지를 위해서는 true를 반환해야 합니다</entry>
+    <entry key="groupingFunctionDelimiter" context="uistring">그룹에 대한 계산 선택</entry>
+    <entry key="groupinggroupfilterComment" context="uistring">그룹별로 데이터 필터링</entry>
+    <entry key="groupinggroupfilterLabel" context="uistring">그룹별\n필터링</entry>
+    <entry key="groupinggroupfilterSummary0" context="uistring">그룹별로 {0}의 데이터 필터링</entry>
+    <entry key="groupinggroupfilterSummary1" context="uistring">{1}을(를) 기준으로 그룹화된 {0}의 데이터 필터링</entry>
+    <entry key="groupinggroupfilterSummary2" context="uistring">{1} 및 {2}을(를) 기준으로 그룹화된 {0}의 데이터 필터링</entry>
+    <entry key="groupinggroupfilterTooltip" context="uistring">그룹 또는 그룹 멤버를 제거하는 작업</entry>
+    <entry key="groupingGroupingVariable" context="uistring">그룹화 기준</entry>
+    <entry key="groupinggroupsummaryComment" context="uistring">그룹 요약 계산</entry>
+    <entry key="groupinggroupsummaryLabel" context="uistring">그룹별\n통계량\n계산</entry>
+    <entry key="groupinggroupsummarySummary0" context="uistring">{0}의 각 그룹에 대해 {1} 계산</entry>
+    <entry key="groupinggroupsummarySummary1" context="uistring">{2}을(를) 기준으로 그룹화된 {0}에 대해 {1} 계산</entry>
+    <entry key="groupinggroupsummarySummary2" context="uistring">{2} 및 {3}을(를) 기준으로 그룹화된 {0}에 대해 {1} 계산</entry>
+    <entry key="groupinggroupsummaryTooltip" context="uistring">그룹당 스칼라 출력값을 제공하는 작업</entry>
+    <entry key="groupinggrouptransformComment" context="uistring">그룹별 데이터 변환</entry>
+    <entry key="groupinggrouptransformLabel" context="uistring">그룹별\n변환</entry>
+    <entry key="groupinggrouptransformSummary0" context="uistring">{0}의 데이터에 대한 {1} 그룹</entry>
+    <entry key="groupinggrouptransformSummary1" context="uistring">{2}을(를) 기준으로 그룹화된 {0}의 {1} 데이터</entry>
+    <entry key="groupinggrouptransformSummary2" context="uistring">{2} 및 {3}을(를) 기준으로 그룹화된 {0}의 {1} 데이터</entry>
+    <entry key="groupinggrouptransformTooltip" context="uistring">입력값과 동일한 크기의 출력값을 제공하는 작업</entry>
+    <entry key="groupingGroupWSDDTooltip" context="uistring">그룹화 변수, 또는 그룹화 변수를 포함하는 테이블 또는 타임테이블</entry>
+    <entry key="groupinghandle" context="uistring">함수 핸들</entry>
+    <entry key="groupinghour" context="uistring">시</entry>
+    <entry key="groupinghourofday" context="uistring">시(Hour of day)</entry>
+    <entry key="groupingIncludedEdge" context="uistring">Bin 경계값 포함함</entry>
+    <entry key="groupingIncludedEdgeTooltip" context="uistring">Bin 구간의 끝(구간의 끝점 포함)</entry>
+    <entry key="groupingIncludeEmpty" context="uistring">비어 있는 그룹 포함</entry>
+    <entry key="groupingIncludeEmptyTooltip" context="uistring">데이터에서 표현되지 않은 그룹을 표시합니다</entry>
+    <entry key="groupingIncludeMissing" context="uistring">누락된 그룹 포함</entry>
+    <entry key="groupingIncludeMissingTooltip" context="uistring">그룹화 변수에 NaN 또는 NaT 같은 누락값이 포함된 그룹을 표시합니다</entry>
+    <entry key="groupingInputTable" context="uistring">입력 테이블</entry>
+    <entry key="groupingInputTooltip" context="uistring">그룹화 변수, 또는 그룹화 변수를 포함하는 테이블 또는 타임테이블</entry>
+    <entry key="groupingLeft" context="uistring">왼쪽</entry>
+    <entry key="groupinglinearfill" context="uistring">그룹 데이터를 보간하여 누락값 채우기</entry>
+    <entry key="groupinglocal" context="uistring">로컬 함수</entry>
+    <entry key="groupingmax" context="uistring">최댓값</entry>
+    <entry key="groupingmean" context="uistring">평균</entry>
+    <entry key="groupingmeancenter" context="uistring">평균 0을 갖도록 중심화</entry>
+    <entry key="groupingmeancentersummary" context="uistring">중심화</entry>
+    <entry key="groupingmeanfill" context="uistring">그룹 평균으로 누락값 채우기</entry>
+    <entry key="groupingmedian" context="uistring">중앙값</entry>
+    <entry key="groupingMethodLabel1" context="uistring">그룹별 계산</entry>
+    <entry key="groupingMethodLabel2" context="uistring">그룹별 계산</entry>
+    <entry key="groupingMethodsChosen" context="uistring">{0}개 메서드가 선택됨</entry>
+    <entry key="groupingmin" context="uistring">최솟값</entry>
+    <entry key="groupingminute" context="uistring">분</entry>
+    <entry key="groupingminuteofhour" context="uistring">분(Minute of hour)</entry>
+    <entry key="groupingmode" context="uistring">최빈값</entry>
+    <entry key="groupingmonth" context="uistring">월</entry>
+    <entry key="groupingmonthname" context="uistring">월 이름</entry>
+    <entry key="groupingmonthofyear" context="uistring">연중 월</entry>
+    <entry key="groupingMultipleStatistics" context="uistring">요약 통계량</entry>
+    <entry key="groupingNew" context="uistring">새로 만들기</entry>
+    <entry key="groupingnone" context="uistring">고유한 값을 기준으로 그룹화</entry>
+    <entry key="groupingnorm" context="uistring">2-노름으로 스케일링</entry>
+    <entry key="groupingnormsummary" context="uistring">스케일</entry>
+    <entry key="groupingnnz" context="uistring">0이 아닌 요소 개수</entry>
+    <entry key="groupingnumBins" context="uistring">Bin 개수 선택</entry>
+    <entry key="groupingnummissing" context="uistring">누락값 개수</entry>
+    <entry key="groupingOutputTable" context="uistring">출력 테이블</entry>
+    <entry key="groupingrange" context="uistring">범위</entry>
+    <entry key="groupingquarter" context="uistring">분기</entry>
+    <entry key="groupingquarterofyear" context="uistring">연중 분기</entry>
+    <entry key="groupingReplaceValues" context="uistring">값 바꾸기</entry>
+    <entry key="groupingReplaceValuesTooltip" context="uistring">원래 데이터 대신 변환된 데이터가 포함된 출력 테이블</entry>
+    <entry key="groupingrescale" context="uistring">범위를 [0 1]로 다시 스케일링</entry>
+    <entry key="groupingrescalesummary" context="uistring">다시 스케일링</entry>
+    <entry key="groupingRight" context="uistring">오른쪽</entry>
+    <entry key="groupingsecond" context="uistring">초</entry>
+    <entry key="groupingsecondofminute" context="uistring">초(Second of minute)</entry>
+    <entry key="groupingSelectall" context="uistring">모두 선택</entry>
+    <entry key="groupingStatisticDisabledTooltip" context="uistring">입력 데이터형이 이 통계량을 허용하지 않습니다</entry>
+    <entry key="groupingStatsFunctionTooltip" context="uistring">입력은 그룹의 데이터입니다. 출력은 첫 번째 차원의 크기가 1입니다.</entry>
+    <entry key="groupingstd" context="uistring">표준편차</entry>
+    <entry key="groupingsum" context="uistring">합</entry>
+    <entry key="groupingtimeBins" context="uistring">데이터를 비닝할 단위 선택</entry>
+    <entry key="groupingTransform" context="uistring">변환</entry>
+    <entry key="groupingTransformFunctionTooltip" context="uistring">입력은 그룹의 데이터입니다. 출력은 입력의 크기와 일치하거나 첫 번째 차원의 크기가 1입니다.</entry>
+    <entry key="groupingvar" context="uistring">분산</entry>
+    <entry key="groupingweek" context="uistring">주</entry>
+    <entry key="groupingweekofmonth" context="uistring">월중 주</entry>
+    <entry key="groupingweekofyear" context="uistring">연중 주</entry>
+    <entry key="groupingyear" context="uistring">년</entry>
+    <entry key="groupingzscore" context="uistring">z-점수를 사용하여 정규화</entry>
+    <entry key="groupingzscoresummary" context="uistring">정규화</entry>
+    <entry key="localExtremaFinderAll">모두</entry>
+    <entry key="localExtremaFinderBoth">최댓값과 최솟값</entry>
+    <entry key="localExtremaFinderCenter">가운데</entry>
+    <entry key="localExtremaFinderExtremaType" context="uistring">극값 유형</entry>
+    <entry key="localExtremaFinderFirst">첫 번째</entry>
+    <entry key="localExtremaFinderFindlocalmaxima">국소 최댓값 구하기</entry>
+    <entry key="localExtremaFinderFindlocalminima">국소 최솟값 구하기</entry>
+    <entry key="localExtremaFinderFlatSelection" context="uistring">평탄 선택</entry>
+    <entry key="localExtremaFinderFlatTooltip">연속해서 같은 크기의 극값을 갖는 영역에 대해 선택한 극값</entry>
+    <entry key="localExtremaFinderLast">마지막</entry>
+    <entry key="localExtremaFinderLocalMaxima" context="uistring">국소 최댓값</entry>
+    <entry key="localExtremaFinderLocalMinima" context="uistring">국소 최솟값</entry>
+    <entry key="localExtremaFinderMaxima">최댓값</entry>
+    <entry key="localExtremaFinderMaxNumExtrema" context="uistring">극값 최대 개수</entry>
+    <entry key="localExtremaFinderMaxNumTooltip" context="uistring">값을 높이면 더 많은 극값이 검출됩니다.</entry>
+    <entry key="localExtremaFinderMinima">최솟값</entry>
+    <entry key="localExtremaFinderMinProminence" context="uistring">최소 돌출부</entry>
+    <entry key="localExtremaFinderMinProminenceTooltip" context="uistring">검출되는 극값이 인접한 점에 비해 더 두드러져 보이게 하려면 값을 늘리십시오.</entry>
+    <entry key="localExtremaFinderMinSeparation" context="uistring">최소 간격</entry>
+    <entry key="localExtremaFinderMinSeparationTooltip" context="uistring">검출되는 극값 간에 더 많은 거리가 필요하면 값을 늘리십시오.</entry>
+    <entry key="localExtremaFinderNumberofExtrema" context="uistring">극값 수</entry>
+    <entry key="localExtremaFinderParametersDelimiter" context="uistring">국소 극값 정의</entry>
+    <entry key="localExtremaFinderPlotlocalmaxima">국소 최댓값 플로팅</entry>
+    <entry key="localExtremaFinderPlotlocalminima">국소 최솟값 플로팅</entry>
+    <entry key="localExtremaFinderProminenceWindow" context="uistring">돌출부 윈도우</entry>
+    <entry key="localExtremaFinderSummaryBoth">{0}의 국소 최댓값과 국소 최솟값</entry>
+    <entry key="localExtremaFinderSummaryMax">{0}의 국소 최댓값</entry>
+    <entry key="localExtremaFinderSummaryMin">{0}의 국소 최솟값</entry>
+    <entry key="localExtremaFinderUnitTooltip" context="uistring">최소 간격 및 돌출부 윈도우의 단위</entry>
+    <entry key="missingDataCleanerConstantUnitsTooltip">상수 채우기 값의 단위</entry>
+    <entry key="missingDataCleanerEndValues" context="uistring">끝 값</entry>
+    <entry key="missingDataCleanerEndValuesTooltip">상수 끝 값의 단위</entry>
+    <entry key="missingDataCleanerFilledMissingData" context="uistring">채워진 누락 데이터</entry>
+    <entry key="missingDataCleanerFilledMissingEntries" context="uistring">채워진 누락 요소</entry>
+    <entry key="missingDataCleanerFillmissingdata">누락된 데이터 채우기</entry>
+    <entry key="missingDataCleanerFillmissing">누락값 채우기</entry>
+    <entry key="missingDataCleanerFillTooltip">누락 요소를 채우는 방법</entry>
+    <entry key="missingDataCleanerFindmissingdata">누락된 데이터 찾기</entry>
+    <entry key="missingDataCleanerMaxGap" context="uistring">채울 최대 격차</entry>
+    <entry key="missingDataCleanerMaxGapTooltip" context="uistring">이 값보다 더 큰 데이터의 간격은 채워지지 않습니다.</entry>
+    <entry key="missingDataCleanerMaxGapUnitsTooltip" context="uistring">격차 크기의 단위</entry>
+    <entry key="missingDataCleanerMissingEntries" context="uistring">누락 요소</entry>
+    <entry key="missingDataCleanerMissingInputData" context="uistring">누락된 입력 데이터</entry>
+    <entry key="missingDataCleanerNonStandard" context="uistring">비표준 표시자 지정</entry>
+    <entry key="missingDataCleanerNumberofFilledMissingEntries" context="uistring">채워진 누락 요소 수</entry>
+    <entry key="missingDataCleanerNumberofMissingEntries" context="uistring">누락 요소 수</entry>
+    <entry key="missingDataCleanerNumberofRemovedMissingEntries" context="uistring">제거된 누락 요소 수</entry>
+    <entry key="missingDataCleanerOtherRemovedTooltip" context="uistring">다른 변수에 누락값 요소가 포함되어 있는 행의 데이터</entry>
+    <entry key="missingDataCleanerPlotfilledmissing">채워진 누락 요소 플로팅</entry>
+    <entry key="missingDataCleanerPlotmissingentries">누락 요소 플로팅</entry>
+    <entry key="missingDataCleanerPlototherremoved" context="uistring">다른 변수에 누락값 요소가 포함되어 있는 행의 데이터 플로팅</entry>
+    <entry key="missingDataCleanerPlotremovedmissing">제거된 누락 요소 플로팅</entry>
+    <entry key="missingDataCleanerRemovemissingdata">누락된 데이터 제거</entry>
+    <entry key="missingDataCleanerRemovedMissingEntries" context="uistring">제거된 누락 요소</entry>
+    <entry key="missingDataCleanerRemovemissing">누락된 데이터 제거</entry>
+    <entry key="missingDataCleanerSameasfill">채우기 방법과 동일</entry>
+    <entry key="missingDataCleanerStandardizeComment" context="uistring">누락된 데이터 표준화</entry>
+    <entry key="missingDataCleanerStandardizeDelimiter" context="uistring">선택적 누락값 표시자 정의</entry>
+    <entry key="missingDataCleanerStandardizeIndicator" context="uistring">표시자</entry>
+    <entry key="missingDataCleanerStandardizeMethod" context="uistring">표시자 선택</entry>
+    <entry key="missingDataCleanerStandardizeTooltip1" context="uistring">표준 표시자는 데이터형에 따라 다릅니다. 예: NaN, NaT, ' ', &lt;missing&gt;, &lt;undefined&gt;</entry>
+    <entry key="missingDataCleanerStandardizeTooltip2" context="uistring">누락값으로 취급할 값을 쉼표로 구분하여 나열합니다.\n예: -99, "N/A"</entry>
+    <entry key="missingDataCleanerStandardOnly" context="uistring">표준 표시자만 사용</entry>
+    <entry key="missingDataCleanerSummaryFill">{1} 방법을 사용하여 {0}에 누락된 데이터 채움</entry>
+    <entry key="missingDataCleanerSummaryNone">{0}의 누락된 데이터</entry>
+    <entry key="missingDataCleanerSummaryRemove">{0}에서 누락된 데이터 제거함</entry>
+    <entry key="NormalizeCenter" context="uistring">중심화</entry>
+    <entry key="NormalizeCenterAndScale" context="uistring">정규화</entry>
+    <entry key="NormalizeCenterShift" context="uistring">중심 이동 값</entry>
+    <entry key="NormalizeCenterTooltipmean" context="uistring">입력 데이터에서 평균을 뺍니다</entry>
+    <entry key="NormalizeCenterTooltipmedian" context="uistring">입력 데이터에서 중앙값을 뺍니다</entry>
+    <entry key="NormalizeCenterTooltipnumeric" context="uistring">입력 데이터에서 숫자형 값을 뺍니다</entry>
+    <entry key="NormalizeCenterTooltipworkspace" context="uistring">입력 데이터에서 작업 공간 값을 뺍니다</entry>
+    <entry key="NormalizeCenterType" context="uistring">중심화 유형</entry>
+    <entry key="NormalizeFirst" context="uistring">첫 번째 요소</entry>
+    <entry key="NormalizeFromWorkspace" context="uistring">작업 공간에서</entry>
+    <entry key="NormalizeInfinityNorm" context="uistring">무한대 노름</entry>
+    <entry key="NormalizeIQR" context="uistring">사분위 범위</entry>
+    <entry key="NormalizeMAD" context="uistring">중앙값 절대 편차</entry>
+    <entry key="NormalizeMean" context="uistring">평균</entry>
+    <entry key="NormalizeMedian" context="uistring">중앙값</entry>
+    <entry key="NormalizeMedianIQR" context="uistring">중앙값 IQR</entry>
+    <entry key="NormalizeMethod" context="uistring">정규화 방법</entry>
+    <entry key="NormalizeMethodTooltipcenter" context="uistring">중심 시프트 값을 뺍니다</entry>
+    <entry key="NormalizeMethodTooltipcenterAndScale" context="uistring">중심 시프트 값을 뺀 후 스케일 값으로 나눕니다</entry>
+    <entry key="NormalizeMethodTooltipmedianiqr" context="uistring">중앙값 0 및 사분위 범위 1을 갖도록 정규화합니다</entry>
+    <entry key="NormalizeMethodTooltipnorm" context="uistring">데이터의 노름으로 나눕니다</entry>
+    <entry key="NormalizeMethodTooltiprange" context="uistring">새 범위로 다시 스케일링합니다</entry>
+    <entry key="NormalizeMethodTooltipscale" context="uistring">스케일 값으로 나눕니다</entry>
+    <entry key="NormalizeMethodTooltipzscore" context="uistring">z-점수를 사용하여 데이터를 정규화합니다</entry>
+    <entry key="NormalizeNorm" context="uistring">노름</entry>
+    <entry key="NormalizeNormTooltip" context="uistring">p-노름의 경우 값 p 또는 무한대 노름의 경우 inf</entry>
+    <entry key="NormalizeNormalizedData" context="uistring">정규화된 데이터</entry>
+    <entry key="NormalizeNumeric" context="uistring">숫자형 스칼라</entry>
+    <entry key="NormalizeOutputCenterAndScale" context="uistring">정규화 값 출력</entry>
+    <entry key="NormalizeOutputCenterAndScaleTooltip" context="uistring">정규화를 수행하는 데 사용된 정규화를 반환합니다</entry>
+    <entry key="NormalizePNorm" context="uistring">P-노름</entry>
+    <entry key="NormalizepNorm" context="uistring">{0}-노름</entry>
+    <entry key="NormalizeRange" context="uistring">범위</entry>
+    <entry key="NormalizeRangeLeft" context="uistring">왼쪽 제한</entry>
+    <entry key="NormalizeRangeRight" context="uistring">오른쪽 제한</entry>
+    <entry key="NormalizeScale" context="uistring">스케일</entry>
+    <entry key="NormalizeScaleTooltipfirst" context="uistring">데이터의 첫 번째 요소로 나눕니다</entry>
+    <entry key="NormalizeScaleTooltipiqr" context="uistring">사분위 범위로 나눕니다</entry>
+    <entry key="NormalizeScaleTooltipmad" context="uistring">중앙값 절대 편차로 나눕니다</entry>
+    <entry key="NormalizeScaleTooltipnumeric" context="uistring">숫자형 값으로 나눕니다</entry>
+    <entry key="NormalizeScaleTooltipstd" context="uistring">표준편차로 나눕니다</entry>
+    <entry key="NormalizeScaleTooltipworkspace" context="uistring">작업 공간 값으로 나눕니다</entry>
+    <entry key="NormalizeScaleFactor" context="uistring">스케일링 인자</entry>
+    <entry key="NormalizeScaleType" context="uistring">스케일 유형</entry>
+    <entry key="NormalizeSTD" context="uistring">표준편차</entry>
+    <entry key="NormalizeSummaryCenter1" context="uistring">{1} 0을 갖도록 {0} 중심화</entry>
+    <entry key="NormalizeSummaryCenter2" context="uistring">{0}에서 {1} 빼기</entry>
+    <entry key="NormalizeSummaryCenterAndScale1" context="uistring">{1} 0을 갖도록 {0}을(를) 중심화하고 {2}(으)로 나누기</entry>
+    <entry key="NormalizeSummaryCenterAndScale2" context="uistring">{0}에서 {1}을(를) 뺀 후 {2}(으)로 나누기</entry>
+    <entry key="NormalizeSummaryCenterAndScale3" context="uistring">{1} 0 및 {2} 1을 갖도록 {0} 정규화</entry>
+    <entry key="NormalizeSummaryRange" context="uistring">{0}의 범위를 {1}(으)로 스케일링</entry>
+    <entry key="NormalizeSummaryScale" context="uistring">{0}을(를) {1}(으)로 나누기</entry>
+    <entry key="NormalizeTiledLayout" context="uistring">별도의 좌표축</entry>
+    <entry key="NormalizeTiledLayoutTooltip" context="uistring">서로 다른 두 개의 서브플롯에 입력 데이터와 정규화된 데이터를 표시합니다</entry>
+    <entry key="NormalizeWorkspaceDDTooltipA" context="uistring">작업 공간의 숫자형 배열</entry>
+    <entry key="NormalizeWorkspaceDDTooltipT" context="uistring">지정된 입력 변수와 일치하는 변수 이름을 갖는 숫자형 배열 또는 table형 배열</entry>
+    <entry key="NormalizeZscore" context="uistring">Z-점수</entry>
+    <entry key="NormalizeZscoreTooltiprobust" context="uistring">중앙값 0 및 중앙값 절대 편차 1을 갖도록 정규화합니다</entry>
+    <entry key="NormalizeZscoreTooltipstd" context="uistring">평균 0 및 표준편차 1을 갖도록 정규화합니다</entry>
+    <entry key="NormalizeZscoreType" context="uistring">Z-점수 유형</entry>
+    <entry key="outlierDataCleanerCentervalue">중심값</entry>
+    <entry key="outlierDataCleanerComputeThresholds" context="uistring">플롯을 위한 추가적인 이상값 계산</entry>
+    <entry key="outlierDataCleanerClipvalue">임계값에 맞춰 자르기</entry>
+    <entry key="outlierDataCleanerDetectionMethod" context="uistring">감지 방법</entry>
+    <entry key="outlierDataCleanerFilledOutliers" context="uistring">이상값 채움</entry>
+    <entry key="outlierDataCleanerFilloutliers">이상값 채우기</entry>
+    <entry key="outlierDataCleanerFillTooltip">이상값을 채우기 위한 방법</entry>
+    <entry key="outlierDataCleanerFindoutliers">이상값 찾기</entry>
+    <entry key="outlierDataCleanerGesd">일반화된 극단적 스튜던트화 이탈(GESD)</entry>
+    <entry key="outlierDataCleanerGrubbs">그럽스(Grubbs)</entry>
+    <entry key="outlierDataCleanerHistogram" context="uistring">히스토그램</entry>
+    <entry key="outlierDataCleanerLine" context="uistring">선</entry>
+    <entry key="outlierDataCleanerLowerThreshold" context="uistring">하한 임계값</entry>
+    <entry key="outlierDataCleanerLowerTooltip" context="uistring">이 백분위수 아래의 데이터 점은 이상값으로 간주됩니다.</entry>
+    <entry key="outlierDataCleanerNumberofOutliers" context="uistring">이상값 수</entry>
+    <entry key="outlierDataCleanerOtherRemovedTooltip" context="uistring">다른 변수에 이상값이 포함되어 있는 행의 데이터</entry>
+    <entry key="outlierDataCleanerOutlierCenter" context="uistring">이상값 중심값</entry>
+    <entry key="outlierDataCleanerOutliers">이상값</entry>
+    <entry key="outlierDataCleanerOutlierThresholds" context="uistring">이상값 임계값</entry>
+    <entry key="outlierDataCleanerParametersDelimiter1" context="uistring">정리 방법 지정</entry>
+    <entry key="outlierDataCleanerParametersDelimiter2" context="uistring">이상값 정의</entry>
+    <entry key="outlierDataCleanerPercentiles" context="uistring">백분위수</entry>
+    <entry key="outlierDataCleanerPlotfilledoutliers">채워진 이상값 플로팅</entry>
+    <entry key="outlierDataCleanerPlotremovedoutliers">제거된 이상값 플로팅</entry>
+    <entry key="outlierDataCleanerPlototherremoved" context="uistring">다른 변수에 이상값이 포함되어 있는 행의 데이터 플로팅</entry>
+    <entry key="outlierDataCleanerPlotoutliercenter">이상값 중심값 플로팅</entry>
+    <entry key="outlierDataCleanerPlotoutliers">이상값 플로팅</entry>
+    <entry key="outlierDataCleanerPlotoutlierthresholds">이상값 임계값 플로팅</entry>
+    <entry key="outlierDataCleanerPlotTypeLabel" context="uistring">플롯 스타일</entry>
+    <entry key="outlierDataCleanerQuartiles">분위수</entry>
+    <entry key="outlierDataCleanerRemoveoutliers">이상값 제거</entry>
+    <entry key="outlierDataCleanerSummaryFill">{1} 방법을 사용하여 {0}의 이상값 채움</entry>
+    <entry key="outlierDataCleanerSummaryNone">{0}의 이상값</entry>
+    <entry key="outlierDataCleanerSummaryRemove">{0}에서 이상값 제거함</entry>
+    <entry key="outlierDataCleanerThresholdFactor" context="uistring">임계값 인자</entry>
+    <entry key="outlierDataCleanerThresholdTooltipG" context="uistring">이상값 테스트의 유의수준입니다. 값을 높이면 더 많은 이상값이 검출됩니다.</entry>
+    <entry key="outlierDataCleanerThresholdTooltipMean" context="uistring">이 표준편차 개수의 범위를 벗어난 데이터 점은 이상값으로 간주됩니다.</entry>
+    <entry key="outlierDataCleanerThresholdTooltipMedian" context="uistring">스케일링된 이 중앙값 절대 편차(MAD) 개수의 범위를 벗어난 데이터 점은 이상값으로 간주됩니다.</entry>
+    <entry key="outlierDataCleanerThresholdTooltipQ" context="uistring">이 사분위 범위 수의 영역을 벗어난 데이터 점은 이상값으로 간주됩니다.</entry>
+    <entry key="outlierDataCleanerUpperThreshold" context="uistring">상한 임계값</entry>
+    <entry key="outlierDataCleanerUpperTooltip" context="uistring">이 백분위수 위의 데이터 점은 이상값으로 간주됩니다.</entry>
+    <entry key="trendRemoverAxesTooltip" context="uistring">중단점을 선택하고 선택 취소하려면 클릭합니다.\n기존의 중단점을 이동하려면 끌어서 놓습니다.</entry>
+    <entry key="trendRemoverBreakpoints" context="uistring">중단점</entry>
+    <entry key="trendRemoverBreakPointsTooltip" context="uistring">조각별 추세를 제거하기 위해 절점을 지정합니다.</entry>
+    <entry key="trendRemoverBreakPointsSpinnerTooltip" context="uistring">중단점 개수</entry>
+    <entry key="trendRemoverChoosefromworkspace" context="uistring">작업 공간에서 선택</entry>
+    <entry key="trendRemoverClearBreakpoints" context="uistring">중단점 지우기</entry>
+    <entry key="trendRemoverConstant" context="uistring">상수</entry>
+    <entry key="trendRemoverContinuous" context="uistring">연속</entry>
+    <entry key="trendRemoverContinuousTooltip" context="uistring">중단점에서 추세가 연속이어야 하는지 여부를 지정합니다.</entry>
+    <entry key="trendRemoverCustom" context="uistring">사용자 지정</entry>
+    <entry key="trendRemoverCubic" context="uistring">3차</entry>
+    <entry key="trendRemoverDegree" context="uistring">다항식 유형</entry>
+    <entry key="trendRemoverDegreeSpinnerTooltip" context="uistring">데이터에서 제거할 다항식 차수</entry>
+    <entry key="trendRemoverDeleteTooltip" context="uistring">중단점을 제거하려면 클릭합니다.</entry>
+    <entry key="trendRemoverDetrendedData" context="uistring">추세 제거된 데이터</entry>
+    <entry key="trendRemoverFillMissing" context="uistring">누락된 데이터 무시</entry>
+    <entry key="trendRemoverLinear" context="uistring">선형</entry>
+    <entry key="trendRemoverLinearlyspaced" context="uistring">균등 간격</entry>
+    <entry key="trendRemoverMissingTooltip" context="uistring">추세 계산 시 NaN 값이 생략됩니다.</entry>
+    <entry key="trendRemoverBPLabelTooltip" context="uistring">새 중단점은 가장 가까운 샘플 점으로 반올림됩니다.</entry>
+    <entry key="trendRemoverNumMissing" context="uistring">입력 데이터의 누락 요소 수</entry>
+    <entry key="trendRemoverParametersDelimiter" context="uistring">추세 파라미터 지정</entry>
+    <entry key="trendRemoverQuadratic" context="uistring">2차</entry>
+    <entry key="trendRemoverRemovetrendfromdata" context="uistring">데이터에서 추세 제거</entry>
+    <entry key="trendRemoverSelectfromplot" context="uistring">플롯에서 선택</entry>
+    <entry key="trendRemoverSummarySmallDegree" context="uistring">{1}에서 {0} 추세 제거</entry>
+    <entry key="trendRemoverSummaryLargeDegree" context="uistring">{1}에서 {0}차 다항식 추세 제거</entry>
+    <entry key="trendRemoverTrend" context="uistring">추세</entry>
+    <entry key="tableJoinerChooseInputTables" context="uistring">데이터 선택</entry>
+    <entry key="tableJoinerChooseJoinType" context="uistring">결합 지정</entry>
+    <entry key="tableJoinerFirstTable" context="uistring">왼쪽 테이블</entry>
+    <entry key="tableJoinerFullouterjoin" context="uistring">외부\n결합</entry>
+    <entry key="tableJoinerHorzcat" context="uistring">가로\n결합</entry>
+    <entry key="tableJoinerInnerjoin" context="uistring">내부\n결합</entry>
+    <entry key="tableJoinerInputtables" context="uistring">입력 테이블</entry>
+    <entry key="tableJoinerJoin" context="uistring">  \n결합</entry>
+    <entry key="tableJoinerKeys" context="uistring">병합 변수</entry>
+    <entry key="tableJoinerLeftouterjoin" context="uistring">왼쪽\n외부 결합</entry>
+    <entry key="tableJoinerMergeKeys" context="uistring">병합 변수 결합</entry>
+    <entry key="tableJoinerMergeTables" context="uistring">테이블 결합</entry>
+    <entry key="tableJoinerOutputtable" context="uistring">출력 테이블</entry>
+    <entry key="tableJoinerRightouterjoin" context="uistring">오른쪽\n외부 결합</entry>
+    <entry key="tableJoinerSecondTable" context="uistring">오른쪽 테이블</entry>
+    <entry key="tableJoinerSummaryHorzcat" context="uistring">가로 결합</entry>
+    <entry key="tableJoinerSummaryInnerjoin" context="uistring">내부 결합</entry>
+    <entry key="tableJoinerSummaryJoin" context="uistring">결합</entry>
+    <entry key="tableJoinerSummaryLine" context="uistring">{2}을(를) 사용하여 {0} 및 {1} 결합</entry>
+    <entry key="tableJoinerSummaryLeftouterjoin" context="uistring">왼쪽 외부 결합</entry>
+    <entry key="tableJoinerSummaryOuterjoin" context="uistring">외부 결합</entry>
+    <entry key="tableJoinerSummaryRightouterjoin" context="uistring">오른쪽 외부 결합</entry>
+    <entry key="tableJoinerSummaryVertcat" context="uistring">세로 결합</entry>
+    <entry key="tableJoinerTooltipHorzcat" context="uistring">행의 개수가 일치하고 변수에 고유한 이름이 있는 경우\n오른쪽 테이블을 왼쪽 테이블에 추가합니다.</entry>
+    <entry key="tableJoinerTooltipInnerjoin" context="uistring">공통된 키 값을 가지는 두 테이블에서 행을 일치시키고\n다른 모든 행을 삭제합니다.</entry>
+    <entry key="tableJoinerTooltipJoin" context="uistring">두 테이블이 공통된 키 값을 가져야 합니다.\n왼쪽 테이블의 모든 변수를 유지하고 오른쪽 테이블의 내용을 추가합니다.</entry>
+    <entry key="tableJoinerTooltipKeyVariables" context="uistring">입력 테이블 간의 데이터를 일치시키고 결합하는 데 사용할 키 변수</entry>
+    <entry key="tableJoinerTooltipKeyVariablesEmpty" context="uistring">오른쪽 테이블의 키 변수는 왼쪽 테이블의 키 변수와 호환되어야 합니다.</entry>
+    <entry key="tableJoinerTooltipLeftOuterjoin" context="uistring">공통된 키 값을 가지는 두 테이블에서 행을 일치시키고\n왼쪽 테이블에서 나머지 행을 포함시킵니다.</entry>
+    <entry key="tableJoinerTooltipMergeKeys" context="uistring">왼쪽 테이블의 키 변수와 오른쪽 테이블의 키 변수를 출력 테이블에서 단일 변수로 결합합니다.</entry>
+    <entry key="tableJoinerTooltipOuterjoin" context="uistring">공통된 키 값을 가지는 두 테이블에서 행을 일치시키고\n다른 모든 행을 포함시킵니다.</entry>
+    <entry key="tableJoinerTooltipRightOuterjoin" context="uistring">공통된 키 값을 가지는 두 테이블에서 행을 일치시키고\n오른쪽 테이블에서 나머지 행을 포함시킵니다.</entry>
+    <entry key="tableJoinerTooltipVertcat" context="uistring">변수 이름이 일치하고 데이터형이 호환되는 경우\n아래쪽 테이블을 윗쪽 테이블에 추가합니다.</entry>
+    <entry key="tableJoinerVertcat" context="uistring">세로\n결합</entry>
+    <entry key="tableUnstackerAggCount" context="uistring">개수</entry>
+    <entry key="tableUnstackerAggCustom" context="uistring">사용자 지정</entry>
+    <entry key="tableUnstackerAggFirst" context="uistring">첫 번째</entry>
+    <entry key="tableUnstackerAggMax" context="uistring">최댓값</entry>
+    <entry key="tableUnstackerAggMean" context="uistring">평균</entry>
+    <entry key="tableUnstackerAggMedian" context="uistring">중앙값</entry>
+    <entry key="tableUnstackerAggMin" context="uistring">최솟값</entry>
+    <entry key="tableUnstackerAggMode" context="uistring">최빈값</entry>
+    <entry key="tableUnstackerAggregationfunction" context="uistring">새 테이블 변수 값에 대한 집계자</entry>
+    <entry key="tableUnstackerAggSum" context="uistring">합</entry>
+    <entry key="tableUnstackerAggUnique" context="uistring">고유한 값</entry>
+    <entry key="tableUnstackerConstant" context="uistring">유지</entry>
+    <entry key="tableUnstackerConstantTooltip" context="uistring">이 테이블 변수의 값이 복제됩니다.</entry>
+    <entry key="tableUnstackerDatatounstack" context="uistring">새 테이블 변수의 값</entry>
+    <entry key="tableUnstackerDatatounstackTooltip" context="uistring">이 테이블 변수의 값이 새 테이블 열 변수로 분배됩니다.</entry>
+    <entry key="tableUnstackerDiscard" context="uistring">무시</entry>
+    <entry key="tableUnstackerDiscardTooltip" context="uistring">이 테이블 변수는 출력값에 포함되지 않습니다.</entry>
+    <entry key="tableUnstackerGroupby" context="uistring">그룹화</entry>
+    <entry key="tableUnstackerGroupTooltip" context="uistring">이 변수의 고유한 값을 기준으로 행 그룹이 정의됩니다.</entry>
+    <entry key="tableUnstackerIndicator" context="uistring">새 테이블 변수의 이름</entry>
+    <entry key="tableUnstackerIndicatorTooltip" context="uistring">이 테이블 변수의 값이 새 테이블 열 변수의 이름으로 사용됩니다.</entry>
+    <entry key="tableUnstackerIndicatorTooltip2" context="uistring">이 변수는 새 테이블 변수의 이름으로 사용하기에는 고유한 요소를 너무 많이 가지고 있습니다.</entry>
+    <entry key="tableUnstackerInputTable" context="uistring">입력 테이블</entry>
+    <entry key="tableUnstackerKeepconstant" context="uistring">첫 번째 행 유지</entry>
+    <entry key="tableUnstackerKeepconstantTooltip" context="uistring">이 변수의 값을 각 그룹의 첫 번째 행에서 가져옵니다.</entry>
+    <entry key="tableUnstackerSelecttable" context="uistring">테이블 선택</entry>
+    <entry key="tableUnstackerStack" context="uistring">쌓기</entry>
+    <entry key="tableUnstackerStackRowDelimiter" context="uistring">쌓을 테이블 변수 선택</entry>
+    <entry key="tableUnstackerStackSummary1" context="uistring">{0}에 있는 여러 테이블 변수의 데이터를 하나의 변수로 쌓기</entry>
+    <entry key="tableUnstackerStackSummary2" context="uistring">{2}에서 {0} 및 {1}의 데이터를 하나의 변수로 쌓기</entry>
+    <entry key="tableUnstackerStackSummary3" context="uistring">{3}에서 {0}, {1} 및 {2}의 데이터를 하나의 변수로 쌓기</entry>
+    <entry key="tableUnstackerStackTooltip" context="uistring">이 변수의 값을 쌓습니다.</entry>
+    <entry key="tableUnstackerStackvariables" context="uistring">변수 쌓기</entry>
+    <entry key="tableUnstackerUITableTooltip" context="uistring">미리보기가 50개 행으로 제한됩니다.</entry>
+    <entry key="tableUnstackerUnstackRowDelimiter" context="uistring">해체할 테이블 변수 선택</entry>
+    <entry key="tableUnstackerUnstackSummary" context="uistring">{1}에서 {0}의 데이터를 여러 변수로 해체</entry>
+    <entry key="tableUnstackerUnstackvariables" context="uistring">변수 해체</entry>
+    <entry key="timetableSynchronizerAdd" context="uistring">추가</entry>
+    <entry key="timetableSynchronizerAddOverrideTooltip" context="uistring">하나 이상의 타임테이블 변수에 사용할 수 있도록 일반적인 규칙을 재정의합니다.</entry>
+    <entry key="timetableSynchronizerAggregatedata" context="uistring">데이터 집계</entry>
+    <entry key="timetableSynchronizerAggregateFcnTooltip" context="uistring">벡터를 입력값으로 받고 스칼라 또는 행 벡터를 반환하는 함수를 지정합니다.</entry>
+    <entry key="timetableSynchronizerBasis" context="uistring">타임테이블의 시간 값</entry>
+    <entry key="timetableSynchronizerCommonRange" context="uistring">공통 범위 내 시간 값</entry>
+    <entry key="timetableSynchronizerCommentConcatenate" context="uistring">타임테이블 변수를 결합하고 재정렬</entry>
+    <entry key="timetableSynchronizerCommentDupes" context="uistring">중복된 이름을 갖는 타임테이블 변수의 복사본 생성</entry>
+    <entry key="timetableSynchronizerCommentOverrides" context="uistring">각 재정의 변수의 시간 값을 동일한 시간 벡터로 재지정</entry>
+    <entry key="timetableSynchronizerCommentSaveOrder" context="uistring">타임테이블 변수의 원래 순서 저장</entry>
+    <entry key="timetableSynchronizerConstant" context="uistring">상수</entry>
+    <entry key="timetableSynchronizerCount" context="uistring">값 개수</entry>
+    <entry key="timetableSynchronizerCustom" context="uistring">사용자 지정</entry>
+    <entry key="timetableSynchronizerCustomtimestep" context="uistring">시간 스텝</entry>
+    <entry key="timetableSynchronizerFillvalues" context="uistring">채우기 값</entry>
+    <entry key="timetableSynchronizerFillwithconstant" context="uistring">상수로 채우기</entry>
+    <entry key="timetableSynchronizerFillwithmissing" context="uistring">누락값으로 채우기</entry>
+    <entry key="timetableSynchronizerFillwithnearest" context="uistring">최근접이웃 값으로 채우기</entry>
+    <entry key="timetableSynchronizerFillwithnext" context="uistring">다음 값으로 채우기</entry>
+    <entry key="timetableSynchronizerFillwithprevious" context="uistring">이전 값으로 채우기</entry>
+    <entry key="timetableSynchronizerFirst" context="uistring">첫 번째 타임테이블의 시간 값</entry>
+    <entry key="timetableSynchronizerFirstvalue" context="uistring">Bin의 첫 번째 값</entry>
+    <entry key="timetableSynchronizerFunctionHandle" context="uistring">함수 핸들</entry>
+    <entry key="timetableSynchronizerInputtimetable" context="uistring">입력 타임테이블</entry>
+    <entry key="timetableSynchronizerInputtimetables" context="uistring">입력 타임테이블</entry>
+    <entry key="timetableSynchronizerInterpolatedata" context="uistring">데이터 보간</entry>
+    <entry key="timetableSynchronizerIntersection" context="uistring">교집합</entry>
+    <entry key="timetableSynchronizerLast" context="uistring">마지막 타임테이블의 시간 값</entry>
+    <entry key="timetableSynchronizerLastvalue" context="uistring">Bin의 마지막 값</entry>
+    <entry key="timetableSynchronizerLinear" context="uistring">선형 보간</entry>
+    <entry key="timetableSynchronizerMaximum" context="uistring">최댓값</entry>
+    <entry key="timetableSynchronizerMean" context="uistring">평균</entry>
+    <entry key="timetableSynchronizerMethodDelimiter" context="uistring">데이터 조정 방법 선택</entry>
+    <entry key="timetableSynchronizerMethod" context="uistring">메서드</entry>
+    <entry key="timetableSynchronizerMethodType" context="uistring">일반 규칙</entry>
+    <entry key="timetableSynchronizerMinimum" context="uistring">최솟값</entry>
+    <entry key="timetableSynchronizerModifiedAkima" context="uistring">수정된 아키마 3차 보간</entry>
+    <entry key="timetableSynchronizerMonths" context="uistring">월</entry>
+    <entry key="timetableSynchronizerNewTimesDelimiter" context="uistring">새 시간 값 지정</entry>
+    <entry key="timetableSynchronizerNewTimesTooltipDT" context="uistring">datetime형 값으로 구성된 벡터</entry>
+    <entry key="timetableSynchronizerNewTimesTooltipDur" context="uistring">duration형 값으로 구성된 벡터</entry>
+    <entry key="timetableSynchronizerOutputtimetable" context="uistring">출력 타임테이블</entry>
+    <entry key="timetableSynchronizerOverrides" context="uistring">예외</entry>
+    <entry key="timetableSynchronizerOverrideTTTooltip" context="uistring">입력 타임테이블</entry>
+    <entry key="timetableSynchronizerOverrideVarTooltip" context="uistring">입력 타임테이블의 변수</entry>
+    <entry key="timetableSynchronizerPchip" context="uistring">형태 보존 3차 보간(PCHIP)</entry>
+    <entry key="timetableSynchronizerProduct" context="uistring">곱</entry>
+    <entry key="timetableSynchronizerQuarters" context="uistring">사분기</entry>
+    <entry key="timetableSynchronizerRetimedData" context="uistring">시간 값이 재지정된 데이터</entry>
+    <entry key="timetableSynchronizerRetimetimetables" context="uistring">타임테이블 시간 값 재지정</entry>
+    <entry key="timetableSynchronizerSamplerate" context="uistring">샘플 레이트</entry>
+    <entry key="timetableSynchronizerSamplerateUnits" context="uistring">샘플 레이트 단위</entry>
+    <entry key="timetableSynchronizerSelectfromworkspace" context="uistring">작업 공간의 시간 값</entry>
+    <entry key="timetableSynchronizerSelectionmethod" context="uistring">선택 방법</entry>
+    <entry key="timetableSynchronizerSpline" context="uistring">스플라인 보간</entry>
+    <entry key="timetableSynchronizerSum" context="uistring">합</entry>
+    <entry key="timetableSynchronizerSummary1" context="uistring">{1}을(를) 사용하여 {0}에 대한 시간 값 재지정</entry>
+    <entry key="timetableSynchronizerSummary2" context="uistring">{2}을(를) 사용하여 {0} 및 {1} 동기화</entry>
+    <entry key="timetableSynchronizerSummary3" context="uistring">{0}을(를) 사용하여 여러 타임테이블 동기화</entry>
+    <entry key="timetableSynchronizerSummaryMethodAggregate" context="uistring">집계</entry>
+    <entry key="timetableSynchronizerSummaryMethodFill" context="uistring">채우기 값</entry>
+    <entry key="timetableSynchronizerSummaryMethodInterp" context="uistring">보간</entry>
+    <entry key="timetableSynchronizerSummaryMethodVariableContinuity" context="uistring">VariableContinuity 속성</entry>
+    <entry key="timetableSynchronizerSynchronizetimetables" context="uistring">타임테이블 동기화</entry>
+    <entry key="timetableSynchronizerTimeStepUnits" context="uistring">시간 스텝 단위</entry>
+    <entry key="timetableSynchronizerTooltipfillwithconstant" context="uistring">상수 값으로 새 행을 채웁니다.</entry>
+    <entry key="timetableSynchronizerTooltipcount" context="uistring">각 시간 구간의 행 개수를 셉니다.</entry>
+    <entry key="timetableSynchronizerTooltipCustom" context="uistring">함수 핸들로 지정된 함수를 사용합니다.</entry>
+    <entry key="timetableSynchronizerTooltipfirstvalue" context="uistring">각 시간 구간의 첫 번째 값을 사용합니다.</entry>
+    <entry key="timetableSynchronizerTooltiplinear" context="uistring">선형 보간을 사용합니다.</entry>
+    <entry key="timetableSynchronizerTooltiplastvalue" context="uistring">각 시간 구간의 마지막 값을 사용합니다.</entry>
+    <entry key="timetableSynchronizerTooltipmakima" context="uistring">아키마 3차 에르미트 다항식 변형 보간을 사용합니다.</entry>
+    <entry key="timetableSynchronizerTooltipmax" context="uistring">각 시간 구간에 있는 값들의 최댓값을 계산합니다.</entry>
+    <entry key="timetableSynchronizerTooltipmean" context="uistring">각 시간 구간에 있는 값들의 평균을 계산합니다.</entry>
+    <entry key="timetableSynchronizerTooltipmin" context="uistring">각 시간 구간에 있는 값들의 최솟값을 계산합니다.</entry>
+    <entry key="timetableSynchronizerTooltipfillwithmissing" context="uistring">누락된 데이터 지정자로 새 행을 채웁니다.</entry>
+    <entry key="timetableSynchronizerTooltipnearest" context="uistring">입력 타임테이블에서 가장 가까운 행의 데이터를 복사합니다.</entry>
+    <entry key="timetableSynchronizerTooltipnext" context="uistring">입력 타임테이블에서 다음 행의 데이터를 복사합니다.</entry>
+    <entry key="timetableSynchronizerTooltippchip" context="uistring">형태 보존 조각별 3차 보간을 사용합니다.</entry>
+    <entry key="timetableSynchronizerTooltipprevious" context="uistring">입력 타임테이블에서 이전 행의 데이터를 복사합니다.</entry>
+    <entry key="timetableSynchronizerTooltipprod" context="uistring">각 시간 구간에 있는 값들의 곱을 계산합니다.</entry>
+    <entry key="timetableSynchronizerTooltipspline" context="uistring">조각별 3차 스플라인 보간을 사용합니다.</entry>
+    <entry key="timetableSynchronizerTooltipsum" context="uistring">각 시간 구간의 값들을 합산합니다.</entry>
+    <entry key="timetableSynchronizerTooltipvc" context="uistring">입력 타임테이블의 VariableContinuity 속성으로 지정된 각 변수의 메서드를 사용합니다.</entry>
+    <entry key="timetableSynchronizerUnion" context="uistring">합집합</entry>
+    <entry key="timetableSynchronizerVariableContinuity" context="uistring">VariableContinuity 속성 사용</entry>
+    <entry key="timetableSynchronizerWeeks" context="uistring">주</entry>
+    <entry key="CustomDegree" context="uistring">차수</entry>
+    <entry key="FillMethod" context="uistring">채우기 방법</entry>
+    <entry key="MovingWindowType" context="uistring">이동 윈도우 유형</entry>
+    <entry key="SelectionMethod" context="uistring">선택 방법</entry>
+    <entry key="TableVariable" context="uistring">테이블 변수</entry>
+    <entry key="TableVariables" context="uistring">테이블 변수</entry>
+    <entry key="SmoothingParameter" context="uistring">평활화 파라미터</entry>
+    <entry key="Units">단위</entry>
+    <entry key="WindowLengthCentered" context="uistring">윈도우 길이</entry>
+    <entry key="WindowLengthLeft" context="uistring">좌반면 윈도우 길이</entry>
+    <entry key="WindowLengthRight" context="uistring">우반면 윈도우 길이</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="inputType">입력값은 single형 또는 double형이어야 합니다.</entry>
+    <entry key="inputMustBe2D">입력값은 2차원이어야 합니다.</entry>
+    <entry key="inputMustBeFull">입력값은 비희소(Full) 형식이어야 합니다.</entry>
+    <entry key="inputMustBeSquare">첫 번째 입력값과 두 번째 입력값은 정사각 행렬이어야 합니다.</entry>
+    <entry key="inputMustBeCompatibleSize">입력값의 크기는 서로 호환되어야 합니다.</entry>
+    <entry key="inputWithNaNInf">첫 번째 입력값과 두 번째 입력값은 NaN 또는 Inf를 포함해서는 안 됩니다.</entry>
+    <entry key="inputTypeFlag">입력값은 single형, double형 또는 단위 행렬을 지정하는 ''I''여야 합니다.</entry>
+    <entry key="inputDouble">입력값은 double형이어야 합니다.</entry>
+    <entry key="unsupportedIDCombination">행렬을 ''I''로 대체하는 것은 SYLVESTER_TRI(A, B, C, ''I'', ''I'') 조합과 SYLVESTER_TRI(A, ''I'', C, ''I'', F) 조합에서만 가능합니다.</entry>
+    <entry key="inputOption">옵션은 ''transp'' 또는 ''notransp''여야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="workDimNot1or2">次元の扱いは、スパース行列に対して 1 または 2 でなければなりません。</entry>
+    <entry key="diffOrderNotPosIntScalar">微分の次数 N は正の整数のスカラーでなければなりません。</entry>
+  </message>
+</rsccat>

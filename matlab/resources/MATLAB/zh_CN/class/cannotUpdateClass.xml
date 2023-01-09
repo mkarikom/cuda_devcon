@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Changed">''{0}'' 的类文件已更改；但由于仍存在基于旧类文件的对象，无法应用该更改。如果使用这些对象，可能会得到意外结果。您可以使用 ''clear'' 命令删除这些对象。有关如何删除这些对象的信息，请参阅 ''help clear''。</entry>
+    <entry key="Missing">尽管无法再找到 ''{0}'' 的类文件，但由于仍存在基于旧文件的对象，无法破坏该类。如果使用这些对象，可能会得到意外结果。有关如何删除这些对象的信息，请参阅 ''help clear''。</entry>
+    <entry key="New">在目录 ''{1}'' 中发现 ''{0}'' 的新类文件。这不是目录 ''{2}'' 中的原始类文件。仍存在基于原始类文件的对象，但如果您使用这些对象，可能会得到意外结果。要使用新类文件，请首先使用 ''clear'' 命令删除这些对象。有关如何删除这些对象的信息，请参阅 ''help clear''。</entry>
+  </message>
+</rsccat>

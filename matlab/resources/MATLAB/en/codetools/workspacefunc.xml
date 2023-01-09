@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="cellstr_PreviewTruncatedAt">&lt;Preview truncated at </entry>
+      <entry key="ErrorDisplayingValue">&lt;Error displaying value&gt;</entry>
+      <entry key="ErrorRetrievingValue">&lt;Error retrieving value&gt;</entry>
+      <entry key="PreviewTruncatedAtCharacters">&lt;Preview truncated at {0} characters&gt;</entry>
+      <entry key="TooManyElements">&lt;Too many elements&gt;</entry>
+      <entry key="AllVariablesMustHaveSameID">All variables must have same workspace ID</entry>
+      <entry key="GettingVariablesfromDefaultWorkspaceNotImplemented">Getting variables from default workspace not implemented.</entry>
+      <entry key="ArgumentToGetWorkspaceIDCannotBeEmpty">Argument to getWorkspaceID cannot be empty</entry>
+      <entry key="WorkspaceStorageErrorTooManyWorkspacesFound">Workspace storage error - too many workspaces found</entry>
+      <entry key="UnexpectedInput">Unexpected input: {0}</entry>
+      <entry key="Unevaluated">unevaluated</entry>
+   </message>
+</rsccat>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TimeSeriesCollectionObject">时序集合对象: {0}</entry>
+    <entry key="StartDate">开始日期</entry>
+    <entry key="EndDate">结束日期</entry>
+    <entry key="ReferenceStartDate">引用开始日期</entry>
+    <entry key="StartTime">开始时间</entry>
+    <entry key="EndTime">结束时间</entry>
+    <entry key="Empty">空</entry>
+    <entry key="TimeVectorCharacteristics">时间向量特性</entry>
+    <entry key="MemberTimeSeriesObj">成员时序对象</entry>
+  </message>
+</rsccat>

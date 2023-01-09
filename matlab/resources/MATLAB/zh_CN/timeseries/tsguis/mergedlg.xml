@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Cancel">取消</entry>
+    <entry key="CreateNewTimeSeries">新建时序</entry>
+    <entry key="DefineTimeSeries">定义时序</entry>
+    <entry key="Empty">空</entry>
+    <entry key="EmptyTimeVector">空时间向量</entry>
+    <entry key="EndTime">结束时间:  {0}</entry>
+    <entry key="Help">帮助</entry>
+    <entry key="IntersectionOfTimeVectorsOnTheInterval">时间向量在重叠区间中的交集</entry>
+    <entry key="InvalidTimeInterval">时间间隔无效</entry>
+    <entry key="Modifyyn">修改(是/否)?</entry>
+    <entry key="NewTimeVector">新建时间向量</entry>
+    <entry key="NumberOfSamples">采样点数</entry>
+    <entry key="OK">确定</entry>
+    <entry key="OverwriteSelectedTimeSeries">覆盖所选时序</entry>
+    <entry key="Path">路径</entry>
+    <entry key="ResampleData">重采样数据</entry>
+    <entry key="ResamplingCannotProduceTimeSeries">重采样生成的时序应至少包含 1 个但不超过 1e8 个采样点。 </entry>
+    <entry key="ResultingTimeVectorIsEmptyOperationAborted">生成的时间向量为空。操作已中止。</entry>
+    <entry key="SelectThePlot">选择绘图</entry>
+    <entry key="StartEnd">开始 - 结束</entry>
+    <entry key="StartTime">开始时间: {0}</entry>
+    <entry key="SpecifyNewTimeVector">指定新的时间向量</entry>
+    <entry key="TimeSeries">时序</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="UniformTimeVectorWithTimeInterval">带有时间间隔的统一时间向量</entry>
+    <entry key="UnionOfTimeVectorsOnTheIntervalWhereTheyOverlap">时间向量在重叠区间中的并集</entry>
+    <entry key="UseTimeVectorFromTimeSeries">使用时序中的时间向量</entry>
+    <entry key="YouCanOnlyResampleOneOrTwoTimeSeries">您只能对一个或两个时序进行重采样。</entry>
+  </message>
+</rsccat>

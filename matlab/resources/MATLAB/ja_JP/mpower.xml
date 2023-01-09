@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="integerNotSupported">MPOWER (^) は整数のクラスの一部に対してサポートされていません。両方の引数がスカラーでなければなりません。要素単位のべき乗には POWER (.^) を使用してください。</entry>
+    <entry key="inputsMustBe2D">引数は 2 次元でなければなりません。要素単位のべき乗には POWER (.^) を使用してください。</entry>
+    <entry key="negRealEig">主行列のべき乗は、負の実数の固有値をもつ行列に対して定義されていません。非主行列のべき乗が返されます。</entry>
+    <entry key="notScalarAndSquareMatrix">行列をべき乗にするには次元が正しくありません。行列が正方行列で、べき指数がスカラーであることを確認してください。行列を要素ごとにべき乗するには、'.^' を使用してください。</entry>
+    <entry key="sparseSingleNotSupported">MPOWER (^) は 1 つのスパース引数および 1 つの single の引数に対してサポートされていません。</entry>
+    <entry key="tooManyMatrixSquareRoots">行列の平方根の数が最大数を超えました。結果は不正確になる可能性があります。</entry>
+    <entry key="zeroEig">行列のべき乗が特異行列に存在しない可能性があります。</entry>
+  </message>
+</rsccat>

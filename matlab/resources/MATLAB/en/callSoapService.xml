@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ConnectionRefused">Connection refused.</entry>
+    <entry key="UrlNotFoundOnServer">The requested URL was not found on this server.</entry>
+    <entry key="UnknownHost">Unknown host: {0}</entry>
+    <entry key="SoapFault">SOAP Fault: {0}</entry>
+    <entry key="Fault">Unspecified Fault: {0}</entry>
+  <!--Resource entries for toolbox/matlab/iofun-->
+  </message>
+</rsccat>

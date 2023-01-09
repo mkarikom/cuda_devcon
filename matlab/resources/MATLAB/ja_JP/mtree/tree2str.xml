@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="errtree">引数の構文エラー:  {0}</entry>
+    <entry key="mapstr">マップの組み合わせの 2 番目のメンバーは、文字ベクトルでなければなりません。</entry>
+    <entry key="ixpath">ixpath には {0} が必要です。 </entry>
+    <entry key="badStatement">不適切なステートメントの種類 {0}</entry>
+    <entry key="unknownExpr">不明な expr ノード {0}</entry>
+  </message>
+</rsccat>

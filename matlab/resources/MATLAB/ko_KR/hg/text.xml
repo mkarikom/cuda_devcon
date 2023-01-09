@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadXOrYValue">유효하지 않은 X 또는 Y 인수임</entry>
+    <entry key="BadZValue">유효하지 않은 Z 인수임</entry>
+    <entry key="StringExpectedAfterNumerics">입력값은 x, y 및 선택적으로 z 좌표 다음에 문자형 벡터, 문자형 벡터로 구성된 셀형 배열, string형 배열 또는 categorical형 배열이 와야 합니다.</entry>
+    <entry key="XAndYMustBeSameLength">X와 Y의 길이가 동일해야 함</entry>
+    <entry key="XAndYAndZMustBeSameLength">X, Y, Z는 길이가 동일해야 함</entry>
+    <entry key="MissingCoordinates">좌표를 여러 개 지정할 경우 텍스트 배열의 길이가 좌표 배열의 길이와 일치해야 합니다.</entry>
+  </message>
+</rsccat>

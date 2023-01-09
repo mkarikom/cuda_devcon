@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TypeMismatch">{0} への入力はカテゴリカル配列、文字ベクトルのセル配列、スカラー string のいずれかでなければなりません。</entry>
+    <entry key="OrdinalMismatch">{0} への入力は両方とも順序配列であるか、両方とも順序配列以外でなければなりません。</entry>
+    <entry key="UnknownInput">入力が無効です。有効なフラグは文字ベクトルでなければなりません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidOldNode">第一个输入参数必须为有效对象。</entry>
+    <entry key="nonScalarFirstArg">第一个输入参数必须为标量对象。</entry>
+    <entry key="invalidNewNode">第二个输入参数必须为有效对象。</entry>
+    <entry key="nonScalarSecondArg">第二个输入参数必须为标量对象。</entry>
+    <entry key="invalidOldObject">第一个输入参数必须为有效对象。</entry>
+    <entry key="invalidNewObject">第二个输入参数必须为有效对象。</entry>
+    <entry key="addChild">无法向同一组的子级添加组</entry>
+  </message>
+</rsccat>

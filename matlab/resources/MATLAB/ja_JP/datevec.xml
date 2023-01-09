@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Inputs">最初の入力引数が日付文字ベクトルまたは string でない限り、後に続く引数はすべて無視されます。</entry>
+    <entry key="DateFormat">2 つの日付形式が指定されました。\n1 つしか指定できません。</entry>
+    <entry key="EmptyDate">空の日付文字ベクトルまたは空の string をもつ DATEVEC の使用はサポートされていません。</entry>
+    <entry key="NotAStringArray">DATEVEC への入力が、文字ベクトルまたは string の配列ではありません。</entry>
+    <entry key="YearFormat">認識されない年の表示形式です。</entry>
+    <entry key="MonthOfYear">年の月を参照できません。</entry>
+    <entry key="NumberOfTimeFields">{0} の時間フィールドが多すぎます</entry>
+    <entry key="NumberOfDateFields">{0} の日付フィールドが多すぎます。</entry>
+    <entry key="ParseDateString">日付 {0} を解釈できません。</entry>
+    <entry key="InputMustBeReal">Numeric input data must be real.</entry>
+  </message>
+</rsccat>

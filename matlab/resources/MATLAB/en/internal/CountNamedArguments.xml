@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- Added messages: src/m_interpreter, src/m_lxe -->
+    <entry key="notInAfunction">Unable to return the number of named arguments if not in an active function.</entry>
+    <entry key="notSupportedInScript">Calling CountNamedArguments from scripts is not supported.</entry>
+    <entry key="notSupportedInParfor">Calling CountNamedArguments from within a parfor loop is not supported.</entry>
+  </message>
+</rsccat>

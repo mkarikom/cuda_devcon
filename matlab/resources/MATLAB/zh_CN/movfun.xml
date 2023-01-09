@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="complexIntegers">数据类型无效。复数输入必须为双精度或单精度值。</entry>
+    <entry key="integerInput">数据类型无效。第一个输入必须为双精度或单精度值。</entry>
+    <entry key="complexInput">数据类型无效。第一个输入必须为实数。</entry>
+    <entry key="complexFillValue">''Endpoints'' 值必须为实数。</entry>
+    <entry key="wrongInput">数据类型无效。第一个输入必须为数值或逻辑值。</entry>
+    <entry key="noEndpointValue">输入参数的数目不正确。''Endpoints'' 后面必须跟对应的值。</entry>
+    <entry key="wrongEndpoint">''Endpoints'' 值必须为 'shrink'、'discard'、'fill' 或者数值或逻辑标量。</entry>
+    <entry key="noSamplePointsValue">输入参数的数目不正确。''SamplePoints'' 后面必须跟对应的值。</entry>
+    <entry key="SamplePointsComplex">''SamplePoints'' 值必须为实数。</entry>
+    <entry key="SamplePointsDuplicate">''{0}'' 值包含重复项。</entry>
+    <entry key="SamplePointsInvalidDatatype">''SamplePoints'' 值必须为数值、日期时间或持续时间向量。</entry>
+    <entry key="SamplePointsLength">''SamplePoints'' 值必须为 {0,number,integer} 元素向量。</entry>
+    <entry key="SamplePointsNonFinite">''{0}'' 值包含 Inf 或 {1}。</entry>
+    <entry key="SamplePointsSorted">必须对 ''{0}'' 值按升序排序。</entry>
+    <entry key="SamplePointsSparse">''SamplePoints'' 值必须为满的。</entry>
+    <entry key="SamplePointsTimeTable">第一个实参为时间表时不支持 ''SamplePoints'' 形参。</entry>
+    <entry key="wrongNVPair">参数名称必须为 ''Endpoints'' 或 ''SamplePoints''。</entry>
+    <entry key="wrongString">选项组合无效。选项必须为 'omitnan' 或 'includenan'。</entry>
+    <entry key="wrongWindowLength">窗口长度必须为有限正标量，或者为包含有限非负标量的 2 元素向量。</entry>
+    <entry key="wrongNormalization">归一化参数必须为 0 或 1。</entry>
+    <entry key="bothSamplePointsAndFillValue">当提供了 ''SamplePoints'' 值时，''Endpoints'' 值不能为数值或逻辑标量。</entry>
+    <entry key="nanFlagAfterPairs">NaN 条件必须位于参数名称-值对组之前。</entry>
+    <entry key="endpointChoiceInvalid">当 ''SamplePoints'' 值的间隔不均匀时，''Endpoints'' 值必须为 ''shrink''。</entry>
+    <entry key="winsizeNotDuration">数据类型无效。如果 ''SamplePoints'' 值为 {0}，则窗口大小必须为持续时间。</entry>
+    <entry key="codegenSamplePointsNotSupported">''SamplePoints'' 不支持代码生成。</entry>
+  </message>
+</rsccat>

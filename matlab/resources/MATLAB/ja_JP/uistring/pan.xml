@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Pan">移動</entry>
+    <entry key="ResetToOriginalView">元の表示にリセット</entry>
+    <entry key="PanOptions">移動オプション</entry>
+    <entry key="UnconstrainedPan">自由移動</entry>
+    <entry key="HorizontalPan">水平方向の移動</entry>
+    <entry key="VerticalPan">垂直方向の移動</entry>
+    <entry key="PanConstraints">移動の制約</entry>
+    <entry key="XPan">X 方向に移動</entry>
+    <entry key="YPan">Y 方向に移動</entry>
+    <entry key="ZPan">Z 方向に移動</entry>
+    <entry key="XYPan">XY 方向に移動</entry>
+    <entry key="YZPan">YZ 方向に移動</entry>
+    <entry key="XZPan">XZ 方向に移動</entry>
+  </message>
+</rsccat>

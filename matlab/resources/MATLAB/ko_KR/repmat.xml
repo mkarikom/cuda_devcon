@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NdSparseOutput">N차원 희소 형식 출력 배열은 지원되지 않습니다.</entry>
+    <entry key="nonNumericReplications">복제 인자는 숫자형이어야 합니다.</entry>
+    <entry key="complexReplications">복소수 복제 인자는 지원되지 않습니다.</entry>
+    <entry key="invalidReplications">복제 인자는 정수 또는 정수 스칼라로 구성된 행 벡터여야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="DiagZeroColZeroBreakdown">Input must be structurally nonsingular with structurally nonzero diagonal.</entry>
+    <entry key="Breakdown">Encountered nonpositive pivot.</entry>
+    <entry key="FirstArgNotSparse">First argument must be sparse.</entry>
+    <entry key="FirstArgNotDouble">First argument must be double.</entry>
+    <entry key="SecondArgNotStruct">Second argument must be the options structure.</entry>
+    <entry key="StructTooManyFields">Too many fields in options structure.</entry>
+    <entry key="StructTypeNotString">The type field must be ''nofill'' or ''ict''.</entry>
+    <entry key="StructMicholNotChar">The modified option must be ''on'' or ''off''.</entry>
+    <entry key="StructDropTolNonNumeric">The drop tolerance must be numeric.</entry>
+    <entry key="StructDropTolNotReal">The drop tolerance must be real.</entry>
+    <entry key="StructDropTolNotScalar">The drop tolerance must be a scalar.</entry>
+    <entry key="StructDropTolNeg">The drop tolerance must be nonnegative.</entry>
+    <entry key="StructShapeNotString">The shape field must be ''lower'' or ''upper''.</entry>
+    <entry key="StructDiagCompNonNumeric">The diagonal compensation parameter must be numeric.</entry>
+    <entry key="StructDiagCompNotReal">The diagonal compensation parameter must be real.</entry>
+    <entry key="StructDiagCompNotScalar">The diagonal compensation parameter must be a scalar.</entry>
+    <entry key="StructDiagCompNeg">The diagonal compensation parameter must be nonnegative.</entry>
+  <!--Resource entries for src/mathlinalg-->
+    <entry key="InvalidField">Options structure field {0} is invalid.</entry>
+  </message>
+</rsccat>

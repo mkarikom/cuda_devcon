@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="nargin">Wrong number of input arguments.</entry>
+    <entry key="ppOutput">Use 4 inputs for PP=INTERP1(X,V,METHOD,''pp'').</entry>
+    <entry key="ppAkima">''pp'' option not supported for modified Akima cubic interpolation.</entry>
+    <entry key="Xvector">X must be a vector.</entry>
+    <entry key="YVectorInvalidNumRows">X and V must be of the same length.</entry>
+    <entry key="YInvalidNumRows">LENGTH(X) and SIZE(V,1) must be the same.</entry>
+    <entry key="NotEnoughPts">A minimum of two data points is required.</entry>
+    <entry key="InvalidMethod">Invalid interpolation method.</entry>
+    <entry key="InvalidSpecPPExtrap" note="stringDatatypeUpdate">Invalid character vector argument. Did you mean ''pp'' or ''extrap''?</entry>
+    <entry key="NonScalarExtrapValue">EXTRAP option must be a scalar.</entry>
+    <entry key="Xnumeric">X must be a vector of type double or single.</entry>
+    <entry key="NonFloatValues">Values V must be of type double or single.</entry>
+    <entry key="ExtrapNoMethod">An interpolation method must be specified with ''extrap''.</entry>
+    <entry key="NaNstrip">Columns of data containing NaN values have been ignored during interpolation.</entry>
+    <entry key="NoExtrapForV5cubic">The 'cubic' and 'v5cubic' methods do not support extrapolation.</entry>
+    <entry key="ComplexX">X should be a real vector.</entry>
+    <entry key="ComplexInterpPts">The interpolation points Xq should be real.</entry>
+    <entry key="NaNinX">NaN is not an appropriate value for X.</entry>
+    <entry key="RepeatedValuesX">The values of X should be distinct.</entry>
+    <entry key="InvalidExtrap">Invalid extrap option.</entry>   
+    <entry key="NaNinY">NaN found in V, interpolation at undefined values will result in undefined values.</entry>
+    <entry key="ppGriddedInterpolantNext">INTERP1(...,'next','PP') is not supported. Use GRIDDEDINTERPOLANT instead.</entry>
+    <entry key="ppGriddedInterpolantPrevious">INTERP1(...,'previous','PP') is not supported. Use GRIDDEDINTERPOLANT instead.</entry>
+  </message>
+</rsccat>

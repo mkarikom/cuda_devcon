@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LegendStringLength">Maxstringlength は、少なくとも 16 でなければなりません。</entry>
+    <entry key="LegendNoRangeString">範囲に対する凡例の文字ベクトルがありません。</entry>
+    <entry key="NoStringType">そのような whichstring strtype はありません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="License">ライセンス</entry>
+    <entry key="LicenseNumber">ライセンス番号</entry>
+    <entry key="NotAString">引数は string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="NotFound">''{0}'' に対して適切に書式化された Contents.m ファイルがありません。</entry>
+    <entry key="OperatingSystem">オペレーティング システム</entry>
+    <entry key="Trial">評価版</entry>
+    <entry key="Version">バージョン</entry>
+    <entry key="ProductNameDeprecated">ver(''{0}'') に対するサポートは将来のリリースで削除される予定です。代わりに ver(''{1}'') を使用してください。</entry>
+  </message>
+</rsccat>

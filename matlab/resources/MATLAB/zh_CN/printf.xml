@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="OctalCharCodeOutOfRange">指定的八进制值超出字符集范围。</entry>
+    <entry key="OctalCharCodeInvalid">八进制的有效数字为 0-7。</entry>
+    <entry key="HexCharCodeOutOfRange">指定的十六进制值超出字符集范围。</entry>
+    <entry key="HexCharCodeInvalid">十六进制的有效数字为 0-9 和 A-F。</entry>
+    <entry key="BadEscapeSequenceInFormat">转义字符 ''\\{0}'' 无效。有关支持的特殊字符，请参阅 ''doc sprintf''。</entry>
+    <entry key="NoControlCharacterInFormat">单独的尾部反斜杠 ''\\'' 不是有效的控制字符。有关格式字符串中的有效控制字符的信息，请参阅 'doc sprintf'。</entry>
+    <entry key="invalidInputType">没有为 ''{0}'' 输入定义函数。</entry>
+    <entry key="invalidInputAttribute">没有为稀疏输入定义函数。</entry>
+    <entry key="invalidSizeResult">{0} 的预计返回大小应为至少包含两个元素的双精度向量。</entry>
+    <entry key="UnableToConvertToOneElement">无法将 ''{0}'' 元素转换为恰好是一个 ''{1}'' 类型的元素。</entry>
+    <entry key="OutOfSpace">无法写入文件 ''{0}''。设备上没有剩余空间。</entry>
+  </message>
+</rsccat>

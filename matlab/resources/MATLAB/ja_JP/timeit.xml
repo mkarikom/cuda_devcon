@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFunctionHandle">1 番目の引数は、入力引数をとらない関数ハンドルでなければなりません。</entry>
+    <entry key="HandleToScript">1 番目の引数はスクリプトのハンドルにできません。スクリプトを関数に変換してみてください。</entry>
+    <entry key="InvalidNumberOfOutputs">2 番目の引数は非負の整数でなければなりません。</entry>
+    <entry key="HighOverhead">実行が速すぎるため、F の測定時間は不正確である可能性があります。より時間がかかるものを測定してみてください。</entry>
+  </message>
+</rsccat>

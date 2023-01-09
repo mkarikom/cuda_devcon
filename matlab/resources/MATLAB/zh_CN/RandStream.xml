@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooFewInputs">需要至少一个输入。</entry>
+    <entry key="InvalidRNGType">GENTYPE 必须为包含生成器算法名称的字符向量。</entry>
+    <entry key="BadSeed">SEED 必须为小于 2^32 的非负整数值。</entry>
+    <entry key="BadParams">PARAMETERS 必须为包含非负整数值的向量。</entry>
+    <entry key="ParamNotValid">PARAMETERS 不允许用于 {0} 生成器。</entry>
+    <entry key="NoEmptyAllowed">不允许创建空的 RandStream 对象。</entry>
+    <entry key="NoCatAllowed">不允许串联 RandStream 对象。请使用元胞数组包含多个对象。</entry>
+    <entry key="UndefinedFunction">未定义与 ''RandStream'' 类型的输入参数相对应的函数 ''{0}''。</entry>
+    <entry key="CantCreateLegacy">您不能创建旧流。</entry>
+    <entry key="WrongNumberArgs">参数的数目不正确。</entry>
+    <entry key="BadParamName">参数名称必须为文本。</entry>
+    <entry key="UnrecognizedParamName">参数名称 {0} 无法识别。</entry>
+    <entry key="AmbiguousParamName">参数名称 {0} 具有多义性。</entry>
+    <entry key="InvalidRandKeyword">RAND 关键字无法识别。</entry>
+    <entry key="InvalidRandnKeyword">RANDN 关键字无法识别。</entry>
+    <entry key="ActivatingLegacyGenerators">使用 ''{0}'' 设置 {1} 的内部状态，将导致 RAND、RANDI 和 RANDN 使用旧的随机数生成器。建议不要使用该语法。请参阅&lt;a href="matlab:helpview([docroot ''\\techdoc\\math\\math.map''],''update_random_number_generator'')"&gt;替换不提倡使用的 rand 和 randn 语法&lt;/a&gt;，使用 RNG 来替换旧语法。</entry>
+    <entry key="ReadingInactiveLegacyGeneratorState">您已使用 ''{0}'' 读取当前未处于活动状态的 {1} 随机数生成器的内部状态，很有可能返回的结果无效。建议不要使用该语法。请参阅&lt;a href="matlab:helpview([docroot ''\\techdoc\\math\\math.map''],''update_random_number_generator'')"&gt;替换不提倡使用的 rand 和 randn 语法&lt;/a&gt;，使用 RNG 来替换旧语法。</entry>
+    <entry key="InvalidHandle">对象无效或已删除。</entry>
+    <entry key="PluginError">插件生成器中出现错误 {0}: ''{1}''</entry>
+    <entry key="UnexpectedPluginError">插件生成器中出现意外错误。</entry>
+  </message>
+</rsccat>

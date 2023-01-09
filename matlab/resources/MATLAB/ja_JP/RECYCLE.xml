@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidRecycleState">recycle に対する有効な入力は 'on' または 'off' です。</entry>
+    <entry key="MoveFileFailure">ファイルをリサイクルできません: {0}。</entry>
+    <entry key="RecycleDirFailure">ファイルをリサイクルできません。リサイクル ディレクトリ ''{0}'' を作成できません。</entry>
+    <entry key="State">状態</entry>
+  </message>
+</rsccat>

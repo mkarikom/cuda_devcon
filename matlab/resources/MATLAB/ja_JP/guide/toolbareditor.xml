@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FigureName">ツール バー エディター</entry>
+    <entry key="ToolbarLayoutTitle">ツール バー レイアウト</entry>
+    <entry key="ToolbarLayoutHelp">ここにツール バーを作成します。パレットからドラッグ アンド ドロップするか [追加] をクリックします</entry>
+    <entry key="PalettePushTool">プッシュ ツール</entry>
+    <entry key="PaletteToggleTool">トグル ツール</entry>
+    <entry key="ToolPropertyPanelTitle">ツール プロパティ</entry>
+    <entry key="ToolbarPropertyPanelTitle">ツール バー プロパティ</entry>
+    <entry key="ToolbatDeletionConfirmation">このツール バーを削除すると、ツール バーにあるツールもすべて削除されます。\n\n続行しますか?</entry>
+    <entry key="ToolPalettePanelTitle">ツール パレット</entry>
+    <entry key="CustomToolSectionTitle">カスタム ツール</entry>
+    <entry key="PredefinedToolSectionTitle">定義済みツール</entry>
+    <entry key="ActionOK">OK</entry>
+    <entry key="ActionAdd">追加</entry>
+    <entry key="ActionAddTooltip">選択したパレット項目をツール バーに追加</entry>
+    <entry key="ActionDelete">削除</entry>
+    <entry key="ActionDeleteTooltip">選択したツール バー項目を削除</entry>
+    <entry key="ActionSendtoFirst">先頭に送る</entry>
+    <entry key="ActionSendtoFirstTooltip">選択したツール バー項目を先頭に移動</entry>
+    <entry key="ActionSendtoLast">最後に送る</entry>
+    <entry key="ActionSendtoLastTooltip">選択したツール バー項目を末尾に移動</entry>
+    <entry key="ActionMovetotheRight">右に移動</entry>
+    <entry key="ActionMovetotheRightTooltip">選択したツール バー項目を右に移動</entry>
+    <entry key="ActionMovetotheLeft">左に移動</entry>
+    <entry key="ActionMovetotheLeftTooltip">選択したツール バー項目を左に移動</entry>
+    <entry key="ActionDeleteToolbar">ツール バーを削除</entry>
+    <entry key="ActionDeleteToolbarTooltip">このツール バーとそのすべてのツールを削除</entry>
+    <entry key="ActionAddToolbar">ツール バーを追加</entry>
+    <entry key="ActionAddToolbarTooltip">新規に空のツール バーを追加</entry>
+    <entry key="ActionShiftPreviewToolRight">プレビュー ツールを右にシフト</entry>
+    <entry key="ActionShiftPreviewToolRightTooltip">指定位置から始まるプレビュー ツールを右にシフト</entry>
+    <entry key="ActionShiftPreviewToolLeft">プレビュー ツールを左にシフト</entry>
+    <entry key="ActionShiftPreviewToolLeftTooltip">指定位置から始まるプレビュー ツールを左にシフト</entry>
+    <entry key="ActionEditIcon">アイコンの編集</entry>
+    <entry key="ActionEditIconTooltip">選択したツール バー項目のアイコンを変更 </entry>
+    <entry key="ActionEditTooltip">ツールヒントの編集</entry>
+    <entry key="ActionEditTooltipTooltip">選択したツール バー項目のツールヒントを変更 </entry>
+    <entry key="ActionShowSeparator">区切りの表示</entry>
+    <entry key="ActionShowSeparatorTooltip">選択したツール バー項目に対する区切りのオン/オフ </entry>
+    <entry key="ActionMorePropertiesTooltip">インスペクター内のすべてのプロパティを編集</entry>
+    <entry key="ActionMoreProperties">その他のプロパティ...</entry>
+    <entry key="EditCallback">表示</entry>
+    <entry key="RestoreDefaults">既定の設定に戻す</entry>
+    <entry key="RestoreDefaultsTooltip">この定義済みツールの既定の動作に戻す</entry>
+    <entry key="PropertyCData">CData (アイコン):</entry>
+    <entry key="PropertyEnablethistool">このツールを有効にする</entry>
+    <entry key="PropertyOffCallback">オフ時のコールバック:</entry>
+    <entry key="PropertyOnCallback">オン時のコールバック:</entry>
+    <entry key="PropertySeparatoronleftside">左側に区切りを入れる</entry>
+    <entry key="PropertyTag">タグ:</entry>
+    <entry key="PropertyTooltipString">ツールヒント テキスト:</entry>
+    <entry key="PropertyClickedCallback">クリック時のコールバック</entry>
+    <entry key="PropertyMaketoolbarvisible">ツール バーを表示</entry>
+    <entry key="PropertyEditIcon">編集...</entry>
+    <entry key="RestoreDefaultConfirmation">選択したツール バー ツールはパレット上の定義済みツールから作成されました。既定の動作に戻すと、これまでに加えた変更がすべて削除されます。\n\n続行しますか?</entry>
+    <entry key="ActionOKTooltip"/>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidNrNodes">追加するノード数は実数で非負の整数でなければなりません。</entry>
+    <entry key="NoOutput">入力グラフが変更されていません。出力引数を使用して、変更されたグラフを返してください。</entry>
+    <entry key="SecondInput">追加するノードは、ノード名の配列、ノード数、あるいはノード プロパティのテーブルでなければなりません。</entry>
+    <entry key="NonUniqueDefaultNames">新規ノードの既定の名前が既存のノード名と一致しています。新規ノードに一意のノード名を指定してください。</entry>
+  </message>
+</rsccat>

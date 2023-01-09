@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DesktopQueryFailure">데스크탑을 쿼리하지 못했음</entry>
+    <entry key="DesktopFailure">데스크탑을 열지 못했음</entry>
+    <entry key="FirstArgInvalid">DESKTOP 입력 인수는 ''-inuse'' 또는 ''-norestore''여야 함</entry>
+  </message>
+</rsccat>

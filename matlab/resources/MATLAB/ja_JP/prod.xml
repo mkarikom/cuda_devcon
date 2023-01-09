@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="unknownClass">不明なクラスです。</entry>
+    <entry key="complexInteger">PROD は複素数の整数をサポートしません。</entry>
+    <entry key="charInput">PROD は文字入力では動作しません。</entry>
+    <entry key="nonNumericSecondInput">次元引数は正の整数スカラー、一意な正の整数のベクトル、または ''all'' でなければなりません。</entry>
+    <entry key="complexIntegersNotSupported">複素数の整数の PROD はサポートされていません。</entry>
+    <entry key="repeatedFlagNaN">オプションの組み合わせが無効です。''omitnan'' または ''includenan'' のいずれかのみを設定できます。</entry>
+    <entry key="repeatedFlagOutType">オプションの組み合わせが無効です。''double''、''native'' または ''default'' のいずれかのみを設定できます。</entry>
+    <entry key="unknownFlag">オプションが無効です。オプションは ''double''、''native''、''default''、''omitnan'' または ''includenan'' でなければなりません。</entry>
+    <entry key="unknownOption">オプションが無効です。オプションは ''all''、''double''、''native''、''default''、''omitnan'' または ''includenan'' でなければなりません。</entry>
+    <entry key="wrongInput">データ型が無効です。最初の引数は数値または論理値でなければなりません。</entry>
+  </message>
+</rsccat>

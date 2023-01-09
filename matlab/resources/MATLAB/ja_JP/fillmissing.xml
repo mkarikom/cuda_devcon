@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EndValuesInvalidMethod">''EndValues'' の値は ''extrap''、''previous''、''next''、''nearest''、''none'' であるか、定数でなければなりません。</entry>
+    <entry key="FirstInputInvalid">最初の引数は数値、論理値、datetime、duration、calendarDuration、string、categorical、char、cellstr、table、timetable のいずれかでなければなりません。</entry>
+    <entry key="CharRowVector">文字の埋め込み定数は行ベクトルでなければなりません。</entry>
+    <entry key="ConstantCalendarDuration">埋め込み定数は calendarDuration でなければなりません。</entry>
+    <entry key="ConstantCalendarDurationExtrap">''EndValues'' の値は calendarDuration でなければなりません。</entry>
+    <entry key="ConstantCategorical">埋め込み定数は、categorical 配列、string 配列、文字の行ベクトル、文字の行ベクトルの cell 配列のいずれかでなければなりません。</entry>
+    <entry key="ConstantCategoricalCatMismatch">最初の引数と埋め込み定数には、同じカテゴリが同じ順序で含まれていなければなりません。</entry>
+    <entry key="ConstantCategoricalExtrap">埋め込み定数 ''EndValues'' は、カテゴリカル配列ではサポートされていません。</entry>
+    <entry key="ConstantCategoricalOrdMismatch">最初の引数と埋め込み定数は、両方とも順序配列であるか、または両方とも順序配列以外でなければなりません。</entry>
+    <entry key="ConstantCellstr">埋め込み定数は、文字の行ベクトルまたは文字の行ベクトルのセル配列でなければなりません。</entry>
+    <entry key="ConstantCellstrExtrap">埋め込み定数 ''EndValues'' は、文字の行ベクトルのセル配列ではサポートされていません。</entry>
+    <entry key="ConstantChar">埋め込み定数は文字配列でなければなりません。</entry>
+    <entry key="ConstantCharExtrap">埋め込み定数 ''EndValues'' は、文字配列ではサポートされていません。</entry>
+    <entry key="ConstantDatetime">埋め込み定数は datetime でなければなりません。</entry>
+    <entry key="ConstantDatetimeExtrap">''EndValues'' の値は datetime でなければなりません。</entry>
+    <entry key="ConstantDuration">埋め込み定数は duration でなければなりません。</entry>
+    <entry key="ConstantDurationExtrap">''EndValues'' の値は duration でなければなりません。</entry>
+    <entry key="constantInput">入力引数が不足しています。''constant'' メソッドの後に埋め込み値を指定してください。</entry>
+    <entry key="ConstantNumeric">埋め込み定数は数値または論理値でなければなりません。</entry>
+    <entry key="ConstantNumericExtrap">''EndValues'' の値は数値または論理値でなければなりません。</entry>
+    <entry key="ConstantString">埋め込み定数は string または string 配列でなければなりません。</entry>
+    <entry key="ConstantStringExtrap">埋め込み定数 ''EndValues'' は、string 配列ではサポートされていません。</entry>
+    <entry key="ConstantInvalidTypeExtrap">''EndValues'' の値は、数値、datetime、duration または calendarDuration でなければなりません。</entry>
+    <entry key="ConstantInvalidType">埋め込み定数の型が無効です。</entry>
+    <entry key="ConstantInvalidTypeForTableVariable">table 変数 {0} の埋め込み定数の型が無効です。</entry>
+    <entry key="DataVariablesArray">''DataVariables'' パラメーターはテーブル入力に対してのみサポートされます。</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' 関数ハンドルは論理スカラーを返さなければなりません。</entry>
+    <entry key="DataVariablesTableSubscript">''DataVariables'' の値が無効です。</entry>
+    <entry key="DimensionInvalid">次元は正の整数でなければなりません。</entry>
+    <entry key="DimensionTable">次元パラメーターは、最初の引数が table または timetable である場合にはサポートされません。</entry>
+    <entry key="FunctionHandleEmptyInput">最初の 2 つの入力引数が空の場合に、関数ハンドルの呼び出しが無効です。</entry>
+    <entry key="FunctionHandleInput">入力引数が不足しています。関数ハンドルの後にウィンドウ サイズを指定してください。</entry>
+    <entry key="FunctionHandleNumberOfArguments">関数ハンドルには、少なくとも 3 つの入力引数がなければなりません。</entry>
+    <entry key="FunctionHandleInvalidOutputSize">関数ハンドルの出力は、長さが 1 であるか、欠損値ギャップの長さでなければなりません。</entry>
+    <entry key="FunctionHandleInvalidOutputType">関数ハンドルの出力は、入力データ型と一致しなければなりません。</entry>
+    <entry key="FunctionHandleInvalidWindow">ウィンドウの長さは、有限で正のスカラー、または有限で非負のスカラーの 2 要素ベクトルでなければなりません。</entry>
+    <entry key="FunctionHandleInvalidWindowDuration">ウィンドウの長さは、有限で正のスカラー、または有限で非負のスカラーの 2 要素ベクトルであり、duration 型でなければなりません。</entry>
+    <entry key="HeterogeneousTable">次元の引数が 2 である場合、すべてのテーブル変数は同じ型でなければなりません。</entry>
+    <entry key="HeterogeneousTableWithND">次元の引数が 2 である場合、すべてのテーブル変数は列ベクトルでなければなりません。</entry>
+    <entry key="InterpolationInvalidArray">''{0}'' の埋め込みメソッドは {1} 配列ではサポートされていません。</entry>
+    <entry key="InterpolationInvalidTableVariable">テーブルに ''{0}'' の埋め込みメソッドがサポートしていない種類の変数が含まれています。</entry>
+    <entry key="MaxGapDurationInvalid">''MaxGap'' data type must be compatible with ''SamplePoints'' data type.</entry>
+    <entry key="MaxGapInvalid">''MaxGap'' must be a positive numeric, duration, or calendarDuration scalar.</entry>
+    <entry key="MaxGapMissingLocations">''MaxGap'' is not supported when ''MissingLocations'' is specified.</entry>
+    <entry key="MethodInvalid">埋め込みメソッドは ''constant''、'function_hande''、''previous''、''next''、''nearest''、''linear''、''spline''、''pchip''、''makima''、''movmean''、''movmedian'' のいずれかでなければなりません。</entry>
+    <entry key="MissingLocationsInteger">''MissingLocations'' を整数入力または論理入力を指定して使用する場合、埋め込みメソッドは ''constant''、'function_hande''、''previous''、''next''、または ''nearest'' でなければなりません。</entry>
+    <entry key="MissingLocationsInvalid">''MissingLocations'' の値は、最初の引数と同じサイズの logical 配列でなければなりません。</entry>
+    <entry key="movmeanInput">入力引数が不足しています。''movmean'' メソッドの後にウィンドウ サイズを指定してください。</entry>
+    <entry key="movmedianInput">入力引数が不足しています。''movmedian'' メソッドの後にウィンドウ サイズを指定してください。</entry>
+    <entry key="NameValueNames">パラメーター名は ''EndValues''、''SamplePoints''、''DataVariables''、''MissingLocations''、または ''MaxGap'' でなければなりません。</entry>
+    <entry key="NameValuePairs">入力引数の数が正しくありません。パラメーターの名前と値はペアでなければなりません。</entry>
+    <entry key="SamplePointsComplex">''SamplePoints'' の値は実数でなければなりません。</entry>
+    <entry key="SamplePointsDuplicate">''{0}'' の値に重複が含まれています。</entry>
+    <entry key="SamplePointsInvalidDatatype">''SamplePoints'' の値は double、single、duration、datetime のいずれかの型のベクトルでなければなりません。</entry>
+    <entry key="SamplePointsLength">''SamplePoints'' の値は {0,number,integer} 要素のベクトルでなければなりません。</entry>
+    <entry key="SamplePointsNonFinite">{0} の値に Inf または {1} が含まれています。</entry>
+    <entry key="SamplePointsSingle">single 型の ''SamplePoints'' は、duration 配列および datetime 配列ではサポートされていません。</entry>
+    <entry key="SamplePointsSorted">''{0}'' の値は昇順に並べ替えなければなりません。</entry>
+    <entry key="SamplePointsSparse">''SamplePoints'' の値は非スパースでなければなりません。</entry>
+    <entry key="SamplePointsTimeTable">''SamplePoints'' パラメーターは、最初の引数が timetable である場合にはサポートされません。</entry>
+    <entry key="SizeConstantScalar">埋め込み定数はスカラーでなければなりません。</entry>
+    <entry key="SizeConstantScalarExtrap">''EndValues'' の値はスカラーでなければなりません。</entry>
+    <entry key="SizeConstant">埋め込み定数はスカラーまたは {0,number,integer} 要素のベクトルでなければなりません。</entry>
+    <entry key="SizeConstantExtrap">''EndValues'' の値はスカラーまたは {0,number,integer} 要素のベクトルでなければなりません。</entry>
+    <entry key="UnsupportedTableVariable">{0} 型のテーブル変数はサポートされていません。</entry>
+    <entry key="WinsizeNotDuration">データ型が無効です。''SamplePoints'' の値が {0} の場合、ウィンドウ サイズは duration でなければなりません。</entry>
+    <entry key="makimaNotSupported">埋め込みメソッド 'makima' はコード生成でサポートされていません。</entry>
+    <entry key="InvalidInputsCodegen">最初の引数は数値、logical、duration、datetime、string、categorical、char、cellstr、または table でなければなりません。</entry>
+  </message>
+</rsccat>

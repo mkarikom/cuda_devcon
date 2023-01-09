@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadXOrYValue">無効な X または Y 引数</entry>
+    <entry key="BadZValue">無効な Z 引数</entry>
+    <entry key="StringExpectedAfterNumerics">入力は x、y、およびオプションの z 座標で、その後に文字ベクトル、文字ベクトルの cell 配列、string 配列または categorical 配列が続かなければなりません。</entry>
+    <entry key="XAndYMustBeSameLength">X と Y は同じ長さでなければなりません</entry>
+    <entry key="XAndYAndZMustBeSameLength">X と Y と Z は同じ長さでなければなりません</entry>
+    <entry key="MissingCoordinates">複数の座標を指定する場合、テキスト配列の長さが座標配列の長さと一致しなければなりません。</entry>
+  </message>
+</rsccat>

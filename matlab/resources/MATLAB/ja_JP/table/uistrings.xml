@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EmptyTableDisplay">空の {0,number,integer} 行 {1,number,integer} 列の {2}</entry>
+    <entry key="StackIndVarDescr">データ インジケーター</entry>
+    <entry key="SummaryMin">最小値</entry>
+    <entry key="SummaryMedian">中央値</entry>
+    <entry key="SummaryMax">最大値</entry>
+    <entry key="SummaryTimeStep">タイム ステップ</entry>
+    <entry key="ModifiedVarNameDescr">元の列の見出し:</entry>
+    <entry key="DfltRowNamePrefix">Row</entry>
+    <entry key="DfltVarNamePrefix">Var</entry>
+    <entry key="DfltRowDimName">Row</entry>
+    <entry key="DfltVarDimName">Variables</entry>
+    <entry key="JoinLeftVarSuffix">left</entry>
+    <entry key="JoinRightVarSuffix">right</entry>
+    <entry key="DfltStackIndVarSuffix">Indicator</entry>
+    <entry key="Rows2varsNewVarName">OriginalVariableNames</entry>
+  </message>
+</rsccat>

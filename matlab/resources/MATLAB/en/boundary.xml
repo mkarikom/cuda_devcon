@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidShrinkFactor">Invalid shrink factor.</entry>
+    <entry key="InvalidInput">Input does not match any of the allowable input formats.</entry>
+    <entry key="InvalidPointsMatrix">The input points P must be a matrix.</entry>
+    <entry key="EmptyInpPtsErrId">The input points array is empty.</entry>
+	<entry key="NonColVecInpPtsErrId">The input points must be specified in column-vector format.</entry>
+	<entry key="Non2D3DInputErrId">The input points must be 2D or 3D coordinates in numpoints-by-ndim format.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="factorFailed">UMFPACK 분해에 실패했습니다.</entry>
+    <entry key="solveFailed">UMFPACK 해결에 실패했습니다.</entry>
+    <entry key="invalidSymbolic">희소 LU의 유효하지 않은 심볼릭 분해(Symbolic Factorization)입니다.</entry>
+    <entry key="invalidNumeric">희소 LU의 유효하지 않은 수치적 분해(Numeric Factorization)입니다.</entry>
+    <entry key="internalError">희소 LU의 실패입니다.</entry>
+  </message>
+</rsccat>

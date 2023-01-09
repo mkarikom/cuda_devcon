@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nodims">无法选择数据维度高于 3 的时序。</entry>
+    <entry key="noWinlengthAndConfLevel">必须指定窗口长度和置信级别才能检测离群值。</entry>
+    <entry key="noWinLength">必须指定窗口长度才能检测常量值。</entry>
+    <entry key="arginv">数据选择方法无法识别。请使用“离群值”或“平线”。</entry>
+  </message>
+</rsccat>

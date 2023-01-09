@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoData">无数据</entry>
+    <entry key="DataTab">数据</entry>
+    <entry key="VarSummary">数据摘要</entry>
+    <entry key="DataView">数据视图</entry>
+    <entry key="SummaryView">摘要视图</entry>
+    <entry key="PlotView">绘图视图</entry>
+    <entry key="VariableCount">{0} 个变量</entry>
+  </message>
+</rsccat>

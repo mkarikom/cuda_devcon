@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="VNot3D">V は 3 次元配列でなければなりません。</entry>
+    <entry key="lengthXYAndZDoNotMatchSizeV">X、Y、Z の長さは、V のサイズと一致しなければなりません。</entry>
+    <entry key="XYAndZShapeMismatch">X、Y、Z は、すべてベクトル、またはすべて配列でなければなりません。</entry>
+    <entry key="XYZAndVSizeMismatch">行列 X、Y、Z は、V と同じサイズでなければなりません。</entry>
+    <entry key="XYZAndVShapeMismatch">V がベクトルの場合、X、Y、Z はベクトルでなければなりません。</entry>
+    <entry key="XYZAndVLengthMismatch">X、Y、Z は、V と同じ長さでなければなりません。</entry>
+    <entry key="XIYIAndZISizeMismatch">XI、YI、ZI は、同じサイズ、または異なる方向のベクトルでなければなりません。</entry>
+  </message>
+</rsccat>

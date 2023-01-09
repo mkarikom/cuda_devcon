@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidInsetException">The values for the Inset should be non-negative</entry>
+    <entry key="RectangleCrossedPointsException">Invalid values for Rectangle, either xmin &gt; xmax or ymin &gt; ymax</entry>
+  </message>
+</rsccat>

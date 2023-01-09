@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArrayNull">입력값이 NULL임</entry>
+    <entry key="ArrayClass">입력값이 지원되지 않는 클래스임</entry>
+    <entry key="ArrayShape">입력값은 2여야 함</entry>
+    <entry key="InvalidWidth">두 번째 행의 값은 첫 번째 행의 값보다 크거나 같아야 함</entry>
+  </message>
+</rsccat>

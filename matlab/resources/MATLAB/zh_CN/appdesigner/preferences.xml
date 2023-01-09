@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CanvasTitle">画布</entry>
+    <entry key="ShowGrid">显示网格，间隔为:</entry>
+    <entry key="GridUnits">像素</entry>
+    <entry key="SnapToGrid">对齐网格</entry>
+    <entry key="ShowAlignmentHints">显示对齐提示</entry>
+    <entry key="ShowResizingHints">显示大小调整提示</entry>
+    <entry key="EditorTitle">编辑器</entry>
+    <entry key="FontSize">字体大小:</entry>
+    <entry key="ChangeEditorFontSizeLabel">更改编辑器字体大小</entry>
+    <entry key="EnableAppCodingAlerts">启用 App 编码错误提示</entry>
+    <entry key="ComponentBrowserTitle">组件浏览器</entry>
+    <entry key="IncludeLabelsInComponentBrowser">在组件浏览器中包括组件标签</entry>
+    <entry key="MRUTitle">最近使用的文件列表</entry>
+    <entry key="NumberOfEntries">条目数:</entry>
+    <entry key="AutoSaveTitle">文件自动更改</entry>
+    <entry key="SaveOnClickAway">在 App 外点击时保存更改</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidType">FILENAME は文字ベクトルでなければなりません。</entry>
+    <entry key="FileNotFound">ファイル ''{0}'' が見つかりません。</entry>
+    <entry key="ExtensionMustBeAString">ファイル拡張子は文字ベクトルでなければなりません。</entry>
+    <entry key="DescMultiImageFirstOnly">{0} ファイル は {1,number,integer} 個のイメージをもっています。\n\n最初のイメージのみインポートしています。\n\n2 から {2,number,integer} までのイメージを読み込むには、IMREAD を使用してください。</entry>
+    <entry key="DescNbitImage">{0,number,integer} ビット {1} {2} イメージ</entry>
+    <entry key="DescFileNotFound">ファイルが見つかりません</entry>
+    <entry key="DescAudioFiles">オーディオ ({0}) ファイルには次のものが含まれています:{2,number,integer} チャネルの {1,number,integer} サンプル。</entry>
+    <entry key="DescVideoFiles">ビデオ ファイル名:{0}\nフレーム レート:{1}\nビデオ形式:{2}\n幅:{3}\n高さ:{4}\nフレーム数:{5}\n</entry>
+    <entry key="DescVideoFileEmpty">VideoReader オブジェクトは空です。</entry>
+    <entry key="DescAudioFileEmpty">AudioRead オブジェクトは空です。</entry>
+    <entry key="MlxNotSupported">MLX 機能は、mlx が利用可能な場合にのみサポートされます。</entry>
+  </message>
+</rsccat>

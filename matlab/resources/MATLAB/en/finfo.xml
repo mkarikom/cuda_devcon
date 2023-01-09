@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="InvalidType" note="stringDatatypeUpdate">FILENAME must be a character vector.</entry>
+      <entry key="FileNotFound">File ''{0}'' not found.</entry>
+      <entry key="ExtensionMustBeAString" note="stringDatatypeUpdate">File extension must be a character vector.</entry>
+      <entry key="DescMultiImageFirstOnly">{0} file with {1,number,integer} images.\n\nImporting first image only.\n\nUse IMREAD to read images 2 through {2,number,integer}.</entry>
+      <entry key="DescNbitImage">{0,number,integer} bit {1} {2} image</entry>
+      <entry key="DescFileNotFound">File not found</entry>
+      <entry key="DescAudioFiles">Audio ({0}) file containing: {1,number,integer} samples in {2,number,integer} channel(s).</entry>
+      <entry key="DescVideoFiles">Video Filename: {0}\nFrame Rate: {1}\nVideo Format: {2}\nWidth: {3}\nHeight: {4}\nNumber Of Frames: {5}\n</entry>
+      <entry key="DescVideoFileEmpty">VideoReader object is empty.</entry>
+      <entry key="DescAudioFileEmpty">AudioRead object is empty.</entry>
+      <entry key="MlxNotSupported">The MLX feature is only supported when mlx is available.</entry>
+    </message>
+</rsccat>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputNotMatFile">{0} への最初の引数は MatFile オブジェクトでなければなりません。</entry>
+    <entry key="DotSyntax">MatFile オブジェクトでのメソッド呼び出しには、{0}(obj) のような関数構文を使用してください。</entry>
+    <entry key="NoFile">''{0}'' にアクセスできません。''{1}'' が存在しないためです。</entry>
+    <entry key="VariableNotInFile">''{0}'' が ''{1}'' に存在しません。</entry>
+    <entry key="NotSmoothIndexing">MatFile オブジェクトが '()' インデックスのみをサポートしているため、''{0}'' をインデックス付けできません。</entry>
+    <entry key="SubsetBoundsAndIntervals">MatFile オブジェクトの範囲は等間隔に増加しなければならないため、''{0}'' をインデックス付けできません。</entry>
+    <entry key="NoIndexingIntoProperties">'Properties' は MatFile オブジェクトを記述します。この記述にアクセスするには、構文 obj.Properties.name を使用してください。</entry>
+    <entry key="ReservedNameConflict">'Properties' という名前の変数は、MatFile クラスの予約名であるため作成できません。別の変数名を指定してください。</entry>
+    <entry key="ObjectNotWritable">Properties.Writable が false であるため、''{0}'' を変更できません。''{1}'' を変更するには、Properties.Writable を true に設定してください。</entry>
+    <entry key="NoObjectArrays">MatFile オブジェクトはスカラーでなければなりません。オブジェクトをスカラー変数に割り当ててみてください。</entry>
+    <entry key="VarAccessOp">MatFile オブジェクトはスカラーです。構文 objName.varName(indices) を使用して変数にアクセスしてください。</entry>
+    <entry key="VarAccessName">変数名は文字ベクトルでなければなりません。</entry>
+    <entry key="OlderFormat">ファイル ''{0}'' は、部分的な読み込みをサポートしない形式で保存されています。一時的に変数 ''{1}'' をメモリに読み込みます。部分読み込みを効率的に使用するには、-v7.3 フラグとともに MAT ファイルを保存してください。</entry>
+    <entry key="SourceHasReservedNameConflict">''{0}'' に含まれている 'Properties' という名前の変数は、MatFile オブジェクトがアクセスできません。MatFile オブジェクトを使用して 'Properties' 変数にアクセスするには、ファイル内の変数の名前を変更してください。</entry>
+    <entry key="CannotConcatenate">MatFile オブジェクトを連結できません。</entry>
+    <entry key="TooManyLevelsOfIndexing">MatFile 内の変数は、複数レベルのインデックス付けを行うことができません。</entry>
+    <entry key="PropertiesWritableType">書き込み可能パラメーターはスカラー論理値でなければなりません。</entry>
+    <entry key="NoEmptyMatFiles">空の MatFile オブジェクトを作成できません。</entry>
+    <entry key="IndexMustBeNumeric">''{0}'' はクラス ''{1}'' を使用してインデックス付けできません。インデックスは数値でなければなりません。</entry>
+    <entry key="colonLHS">コロン '':'' を使用して、新しい変数の次元を定義することはできません。</entry>
+    <entry key="emptyIndex">インデックスは空にできないため、''{0}'' をインデックス付けできません。</entry>
+    <entry key="emptyVariableWithColonIndex">コロン インデックスを使用して空の変数 ''{0}'' にインデックスを付けることはできません。</entry>
+    <entry key="badsubscript">添字インデックスは正の実数の整数でなければなりません。</entry>
+    <entry key="NeedsAllDims">''{0}'' にインデックスを付けるには、{1,number,integer} 個のすべての次元を指定します。MatFile オブジェクトでは線形インデックス付けはサポートされません。</entry>
+    <entry key="NeedsAllDimsDoesntExist">新しい変数 ''{0}'' にインデックスを付けるには、少なくとも 2 つの次元を指定します。MatFile オブジェクトでは線形インデックス付けはサポートされません。</entry>
+    <entry key="overriddenIndexing">変数 ''{0}'' のクラスは ''{1}'' です。''{2}'' を使用するには、変数全体を読み込みます。</entry>
+    <entry key="UnsupportedCharacters">既定のエンコードで表現できない文字が見つかりました。</entry>
+    <entry key="SaveFormatTitle">MAT ファイルと FIG ファイルの保存形式</entry>
+    <entry key="SaveFormatButtonGroupTitle">読み込み可能な MAT ファイルと FIG ファイルを次に保存:</entry>
+    <entry key="Version_7_3_Button">MATLAB R2006b (Version 7.3) 以降\n64 ビット システムでは 2 GB を超える変数を使用できます</entry>
+    <entry key="Version_7_Button">MATLAB R14 (Version 7) 以降\nファイルは圧縮され、Unicode 文字エンコードを使用します</entry>
+    <entry key="Version_5_Button">MATLAB R8 (Version 5) 以降</entry>
+    <entry key="FIG_Note">メモ: FIG ファイルはプロット、GUI、その他を保存することにより作成されます。</entry>
+  </message>
+</rsccat>

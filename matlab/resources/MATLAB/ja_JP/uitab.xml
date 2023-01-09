@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidObjHandle">オブジェクト ハンドルが無効です。</entry>
+    <entry key="ObjMustBeChild">クラス uitab のオブジェクトは、クラス uitabgroup の子でなければなりません。</entry>
+    <entry key="DeprecatedFunction">この uitab の実装は廃止予定で、サポートされなくなりました。</entry>
+    <entry key="InvalidParent">親は TabGroup でなければなりません。</entry>
+    <entry key="MigratedFunction">v0 オプションはサポートされなくなりました。この機能の使用を続けるには、最初の引数として ''v0'' を削除します</entry>
+    <entry key="MigratingFunction">関数 uitab の場合 v0 フラグは旧式です。この関数の使用を続けるには、最初の引数として v0 を削除します</entry>
+  </message>
+</rsccat>

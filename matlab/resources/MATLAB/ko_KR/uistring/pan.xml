@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Pan">패닝</entry>
+    <entry key="ResetToOriginalView">원래 보기로 초기화</entry>
+    <entry key="PanOptions">패닝 옵션</entry>
+    <entry key="UnconstrainedPan">패닝</entry>
+    <entry key="HorizontalPan">가로 패닝</entry>
+    <entry key="VerticalPan">세로 패닝</entry>
+    <entry key="PanConstraints">패닝 제약 조건</entry>
+    <entry key="XPan">X축 패닝</entry>
+    <entry key="YPan">Y축 패닝</entry>
+    <entry key="ZPan">Z축 패닝</entry>
+    <entry key="XYPan">XY축 패닝</entry>
+    <entry key="YZPan">YZ축 패닝</entry>
+    <entry key="XZPan">XZ축 패닝</entry>
+  </message>
+</rsccat>

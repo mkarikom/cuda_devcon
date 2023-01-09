@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="inputType">Size inputs must be numeric.</entry>
+    <entry key="invalidStringInput">CLASSNAME input must be ''logical''.</entry>
+    <entry key="invalidInputClass">Input following ''like'' is not a logical array.</entry>
+    <entry key="unsupportedNdSparse">N-dimensional sparse arrays are not supported.</entry>
+  </message>
+</rsccat>

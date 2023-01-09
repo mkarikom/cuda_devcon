@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noPCT">Parallel Computing Toolbox를 사용할 수 없습니다. 설치되어 있고 라이선스를 사용할 수 있는지 확인하십시오.</entry>
+    <entry key="noGPU">GPU와 성공적으로 통신할 수 없습니다.</entry>
+    <entry key="incorrectBaseSetup">이 메서드를 사용하려면 클래스가 setupImpl 메서드에서 detectGPUInputs를 호출해야 합니다.</entry>
+    <entry key="inputSpecsChanged">release 메서드를 먼저 호출하지 않으면 {0,number,integer}번째 입력값의 크기나 유형을 변경할 수 없습니다.</entry>
+    <entry key="inputComplexityChanged">release 메서드를 먼저 호출하지 않으면 {0,number,integer}번째 입력값의 실수/복소수 여부를 변경할 수 없습니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NonScalarDate" note="stringDatatypeUpdate">DATE must be a numeric scalar, character vector, or string scalar.</entry>
+    <entry key="NonScalarArgs">YEAR and MONTH must be numeric scalars.</entry>
+    <entry key="InvalidMonth">MONTH must contain values between 1 and 12.</entry>
+  </message>
+</rsccat>

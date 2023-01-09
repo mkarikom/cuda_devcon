@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="directoryNameTooLong">Directory name {0} too long. </entry>
+    <entry key="methodDirectoriesNotAllowedOnPath">Method directories not allowed in MATLAB path: {0}</entry>
+    <entry key="packageDirectoriesNotAllowedOnPath">Package directories not allowed in MATLAB path: {0}</entry>
+    <entry key="privateDirectoriesNotAllowedOnPath">Private directories not allowed in MATLAB path: {0}</entry>
+    <entry key="resourcesDirectoriesNotAllowedOnPath">Adding folders named 'resources' to the path is not supported: {0}</entry>
+    <entry key="directoryPermissionDenied">Directory permission denied: {0}</entry>
+    <entry key="nameNonexistentOrNotADirectory">Name is nonexistent or not a directory: {0}</entry>
+    <entry key="directoryAccessFailure">Directory access failure: {0}</entry> 
+    <entry key="cannotAbsolutizePath">Path {0} could not be absolutized. </entry>
+    <entry key="invalidLocation">Location {0} specified for a File or Folder is invalid.</entry>
+    <entry key="ToolboxCacheFileWrongFormat">Unable to load Toolbox Path Cache {0}. The cache file is not in the correct format. It will be regenerated upon quitting MATLAB.</entry>
+    <entry key="PathAlterationNotSupported">Modifying the search path is not supported by MATLAB Compiler. Remove functions that modify the search path from your MATLAB code. To make files visible to your deployed application, add the parent folder to your MATLAB session.</entry>
+    <entry key="UnableToModifyMatlabpath">Unable to modify the MATLAB search path until the previous modification finishes.</entry>
+    <entry key="CannotAddComponentsToSearchPath">Folder {0} cannot be added to the MATLAB search path because it is a component member folder. Its component is defined at {1}.</entry>
+    <entry key="UnableToLocatePersonalFolder">Unable to locate a personal folder for {0}.</entry>
+    <entry key="UnableToCreatePersonalMATLABWorkFolder">Unable to create personal MATLAB work folder {0}.</entry>
+  </message>
+</rsccat>

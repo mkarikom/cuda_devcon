@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FigureDescriptionNumNoChildren">图窗 {0,number,integer} 没有句柄可见的子级。</entry>
+    <entry key="FigureDescriptionNumWithChildren">图窗 {0,number,integer} 具有类型为 {1} 的子级。</entry>
+    <entry key="FigureDescriptionNumWithMultipleAxes">图窗 {0,number,integer} 具有 {1,number,integer} 个坐标区对象。</entry>
+    <entry key="FigureDescriptionNumWithSingleAxes">图窗 {0,number,integer}。</entry>
+    <entry key="FigureDescriptionNoNumNoChildren">图窗没有句柄可见的子级。</entry>
+    <entry key="FigureDescriptionNoNumWithChildren">图窗具有类型为 {0} 的子级。</entry>
+    <entry key="FigureDescriptionNoNumWithMultipleAxes">图窗具有 {0,number,integer} 个坐标区对象。</entry>
+    <entry key="FigureDescriptionNoNumWithSingleAxes">图窗。</entry>
+    <entry key="FigureDescriptionNamedNoChildren">{0} 图窗没有句柄可见的子级。</entry>
+    <entry key="FigureDescriptionNamedWithChildren">{0} 图窗具有类型为 {1} 的子级。</entry>
+    <entry key="FigureDescriptionNamedWithMultipleAxes">{0} 图窗具有 {1,number,integer} 个坐标区对象。</entry>
+    <entry key="FigureDescriptionNamedWithSingleAxes">{0} 图窗。</entry>
+    <entry key="UntitledCurrentAxesDescriptionEmpty">当前坐标区对象为空</entry>
+    <entry key="UntitledCurrentAxesDescriptionNonEmpty">当前坐标区对象包含 {0,number,integer} 个 {1} 类型的对象</entry>
+    <entry key="TitledCurrentAxesDescriptionEmpty">当前坐标区对象 {0} 为空</entry>
+    <entry key="TitledCurrentAxesDescriptionNonEmpty">当前坐标区对象 {0} 包含 {1,number,integer} 个 {2} 类型的对象</entry>
+    <entry key="ChartWithType">当前图的类型为 {0}</entry>
+    <entry key="EmptyFigure">空图窗。</entry>
+    <entry key="UnnamedFigureSingleAxes">图窗包含一个坐标区对象。</entry>
+    <entry key="UnnamedFigureMultipleAxes">图窗包含 {0,number,integer} 个坐标区对象。</entry>
+    <entry key="UnnamedFigureNonAxesChildrenMultipleAxes">图窗包含 {0,number,integer} 个坐标区对象和 {1} 类型的其他对象。</entry>
+    <entry key="UnnamedFigureSingleNonAxesChildMultipleAxes">图窗包含 {0,number,integer} 个坐标区对象和另一个 {1} 类型的对象。</entry>
+    <entry key="UnnamedFigureNonAxesChildrenSingleAxes">图窗包含一个坐标区对象和 {0} 类型的其他对象。</entry>
+    <entry key="UnnamedFigureSingleNonAxesChildrenSingleAxes">图窗包含一个坐标区对象和 {0} 类型的一个对象。</entry>
+    <entry key="UnnamedFigureNoAxesWithOtherChildren">图窗包含 {0} 类型的对象。</entry>
+    <entry key="UnnamedFigureNoAxesWithOneOtherChild">图窗包含 {0} 类型的一个对象。</entry>
+    <entry key="NamedFigureSingleAxes">图窗 {0} 包含一个坐标区对象。</entry>
+    <entry key="NamedFigureMultipleAxes">图窗 {0} 包含 {1,number,integer} 个坐标区对象。</entry>
+    <entry key="NamedFigureNonAxesChildrenMultipleAxes">图窗 {0} 包含 {1,number,integer} 个坐标区对象和 {2} 类型的其他对象。</entry>
+    <entry key="NamedFigureSingleNonAxesChildMultipleAxes">图窗 {0} 包含 {1,number,integer} 个坐标区对象和另一个 {2} 类型的对象。</entry>
+    <entry key="NamedFigureNonAxesChildrenSingleAxes">图窗 {0} 包含一个坐标区对象和 {1} 类型的其他对象。</entry>
+    <entry key="NamedFigureSingleNonAxesChildSingleAxes">图窗 {0} 包含一个坐标区对象和另一个 {1} 类型的对象。</entry>
+    <entry key="NamedFigureNoAxesWithOtherChildren">图窗 {0} 包含 {1} 类型的对象。</entry>
+    <entry key="NamedFigureNoAxesWithOneOtherChild">图窗 {0} 包含 {1} 类型的一个对象。</entry>
+    <entry key="UntitledSingleAxesDescriptionEmpty">坐标区对象为空。</entry>
+    <entry key="UntitledSingleAxesDescriptionNonEmpty">坐标区对象包含 {0,number,integer} 个 {1} 类型的对象。</entry>
+    <entry key="UntitledSingleAxesDescriptionSingleObject">坐标区对象包含一个 {0} 类型的对象。</entry>
+    <entry key="UntitledSingleChartWithType">坐标区对象包含一个 {0} 类型的图。</entry>
+    <entry key="TitledSingleAxesDescriptionEmpty">标题为 {0} 的坐标区对象是空的。</entry>
+    <entry key="TitledSingleAxesDescriptionNonEmpty">标题为 {0} 的坐标区对象包含 {1,number,integer} 个 {2} 类型的对象。</entry>
+    <entry key="TitledSingleAxesDescriptionSingleObject">标题为 {0} 的坐标区对象包含一个 {1} 类型的对象。</entry>
+    <entry key="TitledSingleChart">类型为 {0} 的图具有标题 {1}。</entry>
+    <entry key="UntitledMultipleAxesDescriptionEmpty">坐标区对象 {0,number,integer} 为空。</entry>
+    <entry key="UntitledMultipleAxesDescriptionNonEmpty">坐标区对象 {0,number,integer} 包含 {1,number,integer} 个 {2} 类型的对象。</entry>
+    <entry key="UntitledMultipleAxesDescriptionSingleObject">坐标区对象 {0,number,integer} 包含一个 {1} 类型的对象。</entry>
+    <entry key="UntitledMultipleChartWithType">坐标区对象 {0,number,integer} 是一个 {1} 类型的图。</entry>
+    <entry key="TitledMultipleAxesDescriptionEmpty">标题为 {1} 的坐标区对象 {0,number,integer} 是空的。</entry>
+    <entry key="TitledMultipleAxesDescriptionNonEmpty">标题为 {1} 的坐标区对象 {0,number,integer} 包含 {2,number,integer} 个 {3} 类型的对象。</entry>
+    <entry key="TitledMultipleAxesDescriptionSingleObject">标题为 {1} 的坐标区对象 {0,number,integer} 包含一个 {2} 类型的对象。</entry>
+    <entry key="TitledMultipleChartWithType">标题为 {1} 的坐标区对象 {0,number,integer} 是一个 {2} 类型的图。</entry>
+    <entry key="AxesNamedChildren">这些对象表示 {0}。</entry>
+    <entry key="AxesNamedSingleChild">此对象表示 {0}。</entry>
+  </message>
+</rsccat>

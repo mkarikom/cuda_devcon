@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="nargin">Not enough input arguments.</entry>
+      <entry key="InvalidNumberOfOutputs">Number of output arguments with noUI must be equal to 2.</entry>
+      <entry key="TooManyOutputs">There should be no output arguments with only one input argument</entry>
+      <entry key="UnknownClassOrMethod">No {0} {1} can be located or no methods for {2}</entry>
+      <entry key="InvalidInput" note="stringDatatypeUpdate">Input must be a character vector or object.</entry>
+      <entry key="InvalidInputOption" note="stringDatatypeUpdate">Argument option must be assigned a valid character vector.</entry>
+      <entry key="TitleMethodsForClass">Methods for class {0}</entry>
+      <entry key="TitleFunctionsInLibrary">Functions in library {0}</entry>
+      <entry key="LabelInheritedFrom">Inherited From</entry>
+      <entry key="LabelArguments">Arguments</entry>
+      <entry key="LabelName">Name</entry>
+      <entry key="LabelOther">Other</entry>
+      <entry key="LabelQualifiers">Qualifiers</entry>
+      <entry key="LabelReturnType">Return Type</entry>
+   </message>
+</rsccat>

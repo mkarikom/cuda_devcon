@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NegTolBlk">TolBlk は正でなければなりません。</entry>
+    <entry key="NegTolTay">TolTay は正でなければなりません。</entry>
+    <entry key="NegMaxTerms">MaxTerms は正でなければなりません。</entry>
+    <entry key="NegMaxSqrt">MaxSqrt は正でなければなりません。</entry>
+    <entry key="WrongDimOrd">Ord に対する次元が正しくありません。</entry>
+    <entry key="InputDim">1 番目の入力は、single または double の正方行列でなければなりません。</entry>
+    <entry key="InfDeriv">無限微分です。</entry>
+    <entry key="zeroEig">少なくとも 1 つのゼロ固有値が SCHUR(A) で検出されました。\n         行列 A は特異行列か特異行列に近い行列の可能性があります。</entry>
+    <entry key="nonPosRealEig">行列の対数の主値は、負の実数の固有値で A に対して定義されません。A の主値でない行列の対数が返されました。</entry>
+    <entry key="TaylorSeriesNotConverged">テイラー級数は収束しませんでした。\n         関数は無限大の収束半径をもっていない可能性があります。\n         options.TolBlk を減らすか、options.TolTay または options.MaxTerms を増やして試してみてください。</entry>
+    <entry key="TooManyMatrixSquareRoots">行列の平方根の数が最大数を超えました。\n         options.TolBlk を減らすか、options.MaxSqrt を増やして試してみてください。</entry>
+    <entry key="EvaluatingFunctionOfBlock">ブロック ({0}:{1}) の関数を実行中\n</entry>
+  </message>
+</rsccat>

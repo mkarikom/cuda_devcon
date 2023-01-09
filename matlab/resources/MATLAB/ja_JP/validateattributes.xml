@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="attributeNotFound">属性 {0} はサポートされていません。</entry>
+    <entry key="attributeBadClass">クラス {0} の属性はサポートされません。</entry>
+    <entry key="notEnoughArguments">属性 {0} に対する引数が不足しています</entry>
+    <entry key="badComparison">{0} に対する値は実数のスカラー値でなければなりません。</entry>
+    <entry key="UnsupportedTypeForComparison">タイプ {0} は、{1} に対する VALIDATEATTRIBUTES でサポートされません。</entry>
+    <entry key="badSizeArray">引数 ''size'' の後に整数の実数配列を指定しなければなりません。</entry>
+    <entry key="badDimsArray">引数 ''ndims'' の後に 1 より大きい実数の整数値を指定しなければなりません。</entry>
+    <entry key="TooManyUnknownDims">validate 属性に対する不明な次元が多すぎます。</entry>
+    <entry key="badClassList">有効なデータ型は string ベクトルか、文字ベクトルのセル配列でなければなりません。</entry>
+    <entry key="missingValueInClassList">有効なデータ型に欠損値が含まれていてはなりません。</entry>
+    <entry key="badAttributeList">有効な属性は cell 配列または string 配列でなければなりません。</entry>
+    <entry key="missingValueInAttributeList">有効な属性に欠損値が含まれていてはなりません。</entry>
+    <entry key="badFunctionNameString">関数名は ASCII の string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="badFunctionName">4 番目の引数は関数名を指定する ASCII の string スカラーまたは文字ベクトルか、引数の位置を指定するスカラーの double でなければなりません。</entry>
+    <entry key="badVariableName">5 番目の引数は入力変数名を指定する string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="badArgPositionClass">最後の引数は、引数の位置を指定するため、数値スカラーまたは空でなければなりません。</entry>
+    <entry key="badArgPosition">最後の引数は正の整数でなければなりません。</entry>
+    <entry key="badArgument">引数 ''{0}'' の後には、非負の実数のスカラー整数を指定しなければなりません。</entry>
+    <entry key="NoNameNoNumber">入力</entry>
+    <entry key="NoNameNumber">{0,number,integer} 番目の入力引数</entry>
+    <entry key="NameNumber">{0,number,integer} 番目の入力引数 {1} </entry>
+    <entry key="expectedArray">{0}は、すべての値が {1} {2} である配列にする必要があります。</entry>
+    <entry key="expectedArrayEqual">{0}は{1}が {2} である配列にする必要があります。</entry>
+    <entry key="expectedScalar">{0} は、値が {1} {2} のスカラーでなければなりません。</entry>
+    <entry key="expectedScalarEqual">{0} は、{1} と {2} が等しいスカラーでなければなりません。</entry>
+    <entry key="expectedSize">{0}の実際のサイズは {2} ですが、サイズは {1} にする必要があります。</entry>
+    <entry key="expected">{0}は{1}にする必要があります。</entry>
+    <entry key="invalidType">{0} は次のタイプのいずれかにする必要があります:\n\n{1}\n\n指定されたタイプは {2} でした。</entry>
+    <entry key="invalidTypeSolutionSentence">{0} は以下のいずれかのタイプが必要です:\n\n{1}</entry>
+    <entry key="invalidTypeProblemSentence">\n\n実際の型は {0} でした。</entry>
+    <entry key="real">実数</entry>
+    <entry key="vector">ベクトル</entry>
+    <entry key="row">行ベクトル</entry>
+    <entry key="column">列ベクトル</entry>
+    <entry key="scalar">スカラー</entry>
+    <entry key="square">正方行列</entry>
+    <entry key="twod">2 次元</entry>
+    <entry key="threed">3 次元</entry>
+    <entry key="nonsparse">非スパース</entry>
+    <entry key="nonempty">空以外</entry>
+    <entry key="integer">整数値</entry>
+    <entry key="nonnegative">非負</entry>
+    <entry key="positive">正</entry>
+    <entry key="nonnan">NaN 以外</entry>
+    <entry key="finite">有限</entry>
+    <entry key="nonzero">非零</entry>
+    <entry key="even">偶数</entry>
+    <entry key="odd">奇数</entry>
+    <entry key="binary">2 進数</entry>
+    <entry key="builtin">mxArray プリミティブ型</entry>
+    <entry key="numel">要素数</entry>
+    <entry key="nrows">行数</entry>
+    <entry key="ncols">列数</entry>
+    <entry key="ndims">次元数</entry>
+    <entry key="diag"> 対角行列</entry>
+    <entry key="increasing">厳密に増加</entry>
+    <entry key="decreasing">厳密に減少</entry>
+    <entry key="nondecreasing">単調増加</entry>
+    <entry key="nonincreasing">単調減少</entry>
+    <entry key="scalartext">欠損値でない string スカラーまたは文字ベクトル</entry>
+    <entry key="NameNoNumber">{0}</entry>
+  </message>
+</rsccat>

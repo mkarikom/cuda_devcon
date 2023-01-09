@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonPairedArgs">''{0}'' 입력 인수는 이름-값 쌍이어야 합니다.</entry>
+    <entry key="NonStringFieldNames">필드 이름은 string형 스칼라이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="PythonUnavailable">Python이 로드되기 전에는 ''{0}''을(를) 생성할 수 없습니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonCellVertices">흐름선 꼭짓점(Stream Vertices)은 셀형 배열로 전달되어야 합니다.</entry>
+    <entry key="WrongNumberOfInputs">입력 인수의 개수가 올바르지 않습니다.</entry>
+  </message>
+</rsccat>

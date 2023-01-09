@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FigureWindowRequired">getframe には有効な figure ウィンドウが必要です。</entry>
+    <entry key="WidthAndHeightMustBeAtLeast1">四角形の幅と高さは少なくとも 1 ピクセルでなければなりません</entry>
+    <entry key="BadObject">有効な Figure または Axes のハンドルを指定しなければなりません</entry>
+    <entry key="FigureDestroyedDuringGetFrame">Figure は getframe 中に破棄されました</entry>
+    <entry key="FigureNotValidDuringGetFrame">Figure ウィンドウは getframe 中は有効ではありません</entry>
+    <entry key="RectangleMustBeAtLeastPartiallyOnScreen">getframe に渡された四角形は、少なくともスクリーンの一部分でなければなりません</entry>
+    <entry key="OnlySupportTrueColor">Getframe/CaptureScreen は、トゥルーカラーのビジュアルのみサポートします。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RequireWindowsPlatform">이 GUI에는 이 플랫폼에서 지원되지 않는 Windows 특유 컨트롤이 포함되어 있습니다.</entry>
+    <entry key="FailToRestoreActiveX">{0} ''{1}''은(는) 이전 상태로 복원될 수 없습니다.\n\n파일 {2}이(가) GUI와 같은 디렉터리에 있는지 확인하십시오.</entry>
+    <entry key="ErrorDialogTitle">오류</entry>
+  </message>
+</rsccat>

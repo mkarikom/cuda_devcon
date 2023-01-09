@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ambiguous">あいまいなプロパティ名 ''{0}'' (''{1}'' クラス) です。\n</entry>
+    <entry key="OutOfMemory">メモリが足りません。詳細については、&lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/memory.html'))\"&gt;memory&lt;/a&gt;を参照してください。</entry>
+    <entry key="MethodCallFailed">オブジェクトで指定されたメソッドを呼び出せません。</entry>
+    <entry key="param_value_pairs">パラメーターのセル/値のセルの組み合わせでサイズが一致しません</entry>
+    <entry key="waitfor">入力オブジェクトは、有効な MATLAB グラフィックス オブジェクトまたはハンドル オブジェクトでなければなりません</entry>
+    <entry key="incorrect_axes_args">Axes オブジェクトを作成するための入力引数が正しくありません\n</entry>
+    <entry key="HGObjectFactory">引数タイプを解釈できません。</entry>
+    <entry key="InvalidCopyobjArguments">親と子のオブジェクトに互換性がありません。</entry>
+    <entry key="CannotFindParentForObject">オブジェクト {0} の親が見つかりません。</entry>
+    <entry key="InvalidHandle">ハンドルが無効です。</entry>
+    <entry key="doubleToMCOSConversion">MCOS コンバーターへの double が見つかりません。hg2 を有効化せずに hg2gcv を呼び出さないでください。</entry>
+    <entry key="findParent">findParent を 2 回呼び出しました</entry>
+    <entry key="NotEnoughInputArguments">入力引数が不足しています。</entry>
+    <entry key="NonScalarParent">親はスカラーのグラフィックス ハンドルでなければなりません。</entry>
+    <entry key="BadParentPropertyValue">プロパティに対する無効な値: ''Parent''</entry>
+    <entry key="ConversionError">倍精度はハンドルに変換できません。</entry>
+    <entry key="MixedHandleMode">倍精度はハンドルに変換できません。</entry>
+    <entry key="NoAppdataProp">{0} オブジェクトはアプリケーション データをサポートしていません。</entry>
+    <entry key="InvalidFirstInput">データ引数が無効です。</entry>
+    <entry key="InvalidSecondInput">データ引数が無効です。</entry>
+    <entry key="InvalidThirdInput">データ引数が無効です。</entry>
+    <entry key="InvalidColorArgument">色引数が無効です</entry>
+    <entry key="InvalidNumberOfArgs">入力引数の数が正しくありません</entry>
+    <entry key="ParseErrorExpectedDoubles">最初の 2 つまたは 3 つの引数は double の数値でなければなりません。</entry>
+    <entry key="ParseErrorTooManyNonPV">プロパティ/値でない引数が多すぎます。</entry>
+    <entry key="AddlistenerInvalidNumberOfArgs">Addlistener の引数の数が正しくありません</entry>
+    <entry key="AddlistenerInvalidProperty">プロパティ名は string 配列か、文字ベクトルの cell 配列のみでなければなりません。</entry>
+    <entry key="AddlistenerInvalidPropertyCell">プロパティ名を、文字ベクトル、string 配列、または文字ベクトルの cell 配列として指定してください。</entry>
+    <entry key="AddlistenerInvalidPropertyCallback">コールバック タイプは ''PostSet''、''PostGet''、''PreGet''、''PreSet'' のいずれかでなければならず、大文字と小文字が一致しなければなりません。</entry>
+    <entry key="AddlistenerInvalidPropertyCallbackStrings">コールバック タイプを string スカラーまたは文字ベクトルとして指定してください。</entry>
+    <entry key="AddlistenerInvalidPropertyEventNames">イベント名を string スカラーまたは文字ベクトルとして指定してください。</entry>
+    <entry key="AddlistenerUndefined">シグネチャが一致する 'addlistener' メソッドが見つかりませんでした。コールバックは関数ハンドルでなければなりません。</entry>
+    <entry key="AddlistenerInvalidInput">double 入力は hg ハンドルでなければなりません</entry>
+    <entry key="AddlistenerInvalidEvent">指定されたイベントはこのオブジェクトではサポートされていません</entry>
+    <entry key="AddlistenerInvalidEventVector">指定されたイベントはこのオブジェクト ベクトルではサポートされていません</entry>
+    <entry key="AddlistenerInvalidInputHGOrJava">入力は有効な hg ハンドルまたは生の java オブジェクトでなければなりません</entry>
+    <entry key="AddlistenerInvalidInputVectorHG">入力は有効な hg ハンドル ベクトルでなければなりません</entry>
+    <entry key="AddlistenerInvalidInputArgsJava">java オブジェクトで動作する addlistener は 1 つまたは 3 つの引数をもたなければなりません</entry>
+    <entry key="AddlistenerInvalidInputVectorHGHandles">addlistener は hg ハンドルのベクトルはサポートしません</entry>
+    <entry key="AddlistenerInvalidInputFirstArg">指定された最初の引数は addlistener に対して有効ではありません(型または有効性を確認してください)。</entry>
+  </message>
+</rsccat>

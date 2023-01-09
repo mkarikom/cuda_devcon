@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="mustBeFinite">값은 유한해야 합니다.</entry>
+    <entry key="mustBeGreaterThan">값은 {0}보다 커야 합니다.</entry>
+    <entry key="mustBeGreaterThanGenericText">값은 비교 값보다 커야 합니다.</entry>
+    <entry key="mustBeScalar">{0}의 두 번째 값은 스칼라여야 합니다.</entry>
+    <entry key="mustBeGreaterThanOrEqual">값은 {0}보다 크거나 같아야 합니다.</entry>
+    <entry key="mustBeGreaterThanOrEqualGenericText">값은 비교 값보다 크거나 같아야 합니다.</entry>
+    <entry key="mustBeInteger">값은 정수여야 합니다.</entry>
+    <entry key="mustBeLessThan">값은 {0}보다 작아야 합니다.</entry>
+    <entry key="mustBeLessThanGenericText">값은 비교 값보다 작아야 합니다.</entry>
+    <entry key="mustBeLessThanOrEqual">값은 {0}보다 작거나 같아야 합니다.</entry>
+    <entry key="mustBeLessThanOrEqualGenericText">값은 비교 값보다 작거나 같아야 합니다.</entry>
+    <entry key="mustBeMember">값은 이 세트의 구성원이어야 함:{0}\n</entry>
+    <entry key="mustBeNonempty">값은 비어 있지 않아야 합니다.</entry>
+    <entry key="mustBeNonnegative">값은 음수가 아니어야 합니다.</entry>
+    <entry key="mustBeNegative">값은 음수여야 합니다.</entry>
+    <entry key="mustBeNonsparse">값은 희소 형식이 아니어야 합니다.</entry>
+    <entry key="mustBeNonzero">값은 0이 아니어야 합니다.</entry>
+    <entry key="nonzeroLengthText">값은 하나 이상의 문자를 포함하는 텍스트여야 합니다.</entry>
+    <entry key="mustBeNonNan">값은 NaN이 아니어야 합니다.</entry>
+    <entry key="mustBeNumeric">값은 숫자형이어야 합니다.</entry>
+    <entry key="mustBeNumericOrLogical">값은 숫자형이거나 논리형이어야 합니다.</entry>
+    <entry key="mustBeRealOrLogical">값은 실수이거나 논리형이어야 합니다.</entry>
+    <entry key="mustBePositive">값은 양수여야 합니다.</entry>
+    <entry key="mustBeNonpositive">값은 양수가 아니어야 합니다.</entry>
+    <entry key="mustBeReal">값은 실수여야 합니다.</entry>
+    <entry key="mustBeFloat">값은 부동소수점 배열이어야 합니다.</entry>
+    <entry key="mustBeScalarOrEmpty">값은 스칼라이거나 비어 있어야 합니다.</entry>
+    <entry key="mustBeTextScalar">값은 문자형 벡터이거나 string형 스칼라여야 합니다.</entry>
+    <entry key="mustBeText">값은 문자형 벡터, string형 배열 또는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="mustBeUnderlyingType">값은 기본 유형 ''{0}''이어야 합니다.</entry>
+    <entry key="unsupportedClass">유효성 검사(Validation) 함수 ''{0}''은(는) ''{1}'' 클래스에 사용할 수 없습니다.</entry>
+    <entry key="mustBeMemberGenericText">값은 필수 세트의 구성원이어야 합니다.</entry>
+    <entry key="mustBeA">값은 다음 유형 중 하나여야 함: {0}</entry>
+    <entry key="mustBeVector">값은 1×n 벡터이거나 n×1 벡터여야 합니다.</entry>
+    <entry key="mustBeNonmissing">값에 누락된 데이터가 있어서는 안 됩니다.</entry>
+    <entry key="SixFields">
+  ''{0}'', ''{1}'', ''{2}'', ''{3}'', ''{4}'', 및 ''{5}''.
+</entry>
+    <entry key="FiveFields">
+  ''{0}'', ''{1}'', ''{2}'', ''{3}'' 및 ''{4}''.
+</entry>
+    <entry key="FourFields">
+  ''{0}'', ''{1}'', ''{2}'' 및 ''{3}''.
+</entry>
+    <entry key="ThreeFields">
+  ''{0}'', ''{1}'' 및 ''{2}''.
+</entry>
+    <entry key="TwoFields">
+  ''{0}'' 및 ''{1}''.
+</entry>
+    <entry key="SixTypes">
+  ''{0}'', ''{1}'', ''{2}'', ''{3}'', ''{4}'' 또는 ''{5}''.
+</entry>
+    <entry key="FiveTypes">
+  ''{0}'', ''{1}'', ''{2}'', ''{3}'' 또는 ''{4}''.
+</entry>
+    <entry key="FourTypes">
+  ''{0}'', ''{1}'', ''{2}'' 또는 ''{3}''.
+</entry>
+    <entry key="ThreeTypes">
+  ''{0}'', ''{1}'' 또는 ''{2}''.
+</entry>
+    <entry key="TwoTypes">
+  ''{0}'' 또는 ''{1}''.
+</entry>
+    <entry key="LeftClosedRightClosed">
+  값은 {0}보다 크거나 같고 {1}보다 작거나 같아야 합니다.
+</entry>
+    <entry key="LeftClosedRightOpen">
+  값은 {0}보다 크거나 같고 {1}보다 작아야 합니다.
+</entry>
+    <entry key="LeftOpenRightClosed">
+  값은 {0}보다 크고 {1}보다 작거나 같아야 합니다.
+</entry>
+    <entry key="LeftOpenRightOpen">
+  값은 {0}보다 크고 {1}보다 작아야 합니다.
+</entry>
+    <entry key="mustBeFile">다음 파일이 존재하지 않음: {0}</entry>
+    <entry key="mustBeFolder">다음 폴더가 존재하지 않음: {0}</entry>
+    <entry key="mustBeValidVariableName">The following are not valid variable names: {0}</entry>
+    <entry key="mustBeNonzeroLengthText">{0}</entry>
+    <entry key="quotedName">''{0}''</entry>
+    <entry key="OneField">
+      ''{0}''.
+    </entry>
+    <entry key="OneType">
+      ''{0}''.
+    </entry>
+    <entry key="mustBeInRange">{0}</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ComplexInput">复数值不能转换为文本。</entry>
+    <entry key="InvalidQualifierType">第二个参数中的数据类型无效。</entry>
+    <entry key="StringArrayInCell">不支持元胞中的字符串数组。</entry>
+    <entry key="UnexpectedType">无效的数据类型。</entry>
+  </message>
+</rsccat>

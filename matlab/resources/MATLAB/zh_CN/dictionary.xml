@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArrayDimsMatch">数组维度必须匹配。</entry>
+    <entry key="CannotSlice">无法访问类型 {0} 的标量元素。</entry>
+    <entry key="CannotHash">无法对类型 {0} 的标量元素进行哈希处理。</entry>
+    <entry key="CannotCombine">无法合并条目部分。</entry>
+    <entry key="ConversionInconsistent">Conversion from {0} to {1} did not return {1}.</entry>
+    <entry key="IncorrectNumberInputs">输入的数目不等于指定的数目。</entry>
+    <entry key="IncorrectNumberOfSubscripts">下标的数目 {0,number,integer} 必须与关键部分的数目 {1,number,integer} 匹配。</entry>
+    <entry key="InputMustBeLogicalScalar">输入必须为逻辑标量。</entry>
+    <entry key="InputMustBeNonemptyCell">输入必须为非空元胞数组。</entry>
+    <entry key="InputNotSupported">不支持输入类型。</entry>
+    <entry key="InternalCannotHash">无法对标量元素进行哈希处理。</entry>
+    <entry key="InvalidIndexingForUninitialized">Indexing on an uninitialized dictionary is invalid.</entry>
+    <entry key="InvalidMethodForUninitialized">Calling ''{0}'' on an uninitialized dictionary is invalid.</entry>
+    <entry key="KeyNotFound">Key in position {0,number,integer} not found.</entry>
+    <entry key="UndefinedFunction">无法识别函数或变量 ''dictionary''。</entry>
+    <entry key="UnsupportedFunctionality">不支持该操作。</entry>
+    <entry key="WithManyEntries"> 具有 {0,number,integer} 个条目:</entry>
+    <entry key="WithOneEntry"> 具有 1 个条目:</entry>
+    <entry key="WithZeroEntries"> 没有条目。</entry>
+  </message>
+</rsccat>

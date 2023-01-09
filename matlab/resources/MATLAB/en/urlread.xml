@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="PostFailed">Could not POST to URL.</entry>
+    <entry key="Timeout">Connection timed out.</entry>
+    <entry key="UnknownHost">The IP address of "{0}" could not be determined.</entry>
+    <entry key="FileNotFound">The server did not find a resource to match this request.</entry>
+    <entry key="ConnectionFailed">Error downloading URL. Your network connection may be down or your proxy settings improperly configured.</entry>
+    <entry key="InvalidInput">Invalid parameter/value pair arguments.</entry>
+    <entry key="InvalidUrl">Either this URL could not be parsed or the protocol is not supported.</entry>
+    <entry key="AuthenticationFailed">Either the provided authentication method is not supported or the username or password provided are incorrect.</entry>
+    <entry key="ReplacingSpaces">Replacing blank spaces with %20</entry>
+  </message>
+</rsccat>

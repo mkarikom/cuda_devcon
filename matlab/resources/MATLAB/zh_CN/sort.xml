@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputType">输入参数必须为字符向量元胞数组。</entry>
+    <entry key="TooManyInputs">元胞数组仅支持一个输入参数。</entry>
+    <entry key="sortDirection">排序方向必须为 ''ascend'' 或 ''descend''。</entry>
+    <entry key="sortDirectionIsSorted">排序方向必须为 ''ascend''、''descend''、''monotonic''、''strictascend''、''strictdescend'' 或 ''strictmonotonic''。</entry>
+    <entry key="complexIntegers">不支持对复整数执行 SORT。 </entry>
+    <entry key="InvalidAbsRealType">第一个实参为 {0} 数组时不支持 ''ComparisonMethod'' 形参。</entry>
+    <entry key="InvalidComparison">''ComparisonMethod'' 值必须为 ''auto''、''abs'' 或 ''real''。</entry>
+    <entry key="InvalidFirstLastType">第一个实参为 {0} 数组时，不支持 ''MissingPlacement'' 形参。</entry>
+    <entry key="InvalidMissingPlace">''MissingPlacement'' 值必须为 ''auto''、''first'' 或 ''last''。</entry>
+    <entry key="NameValueNames">参数名称必须为 'ComparisonMethod' 或 'MissingPlacement'。</entry>
+    <entry key="NameValuePairs">参数的数目不正确。参数名称和值必须成对出现。</entry>
+    <entry key="notPosInt">维度参数必须为正整数。</entry>
+    <entry key="SecondArgumentType">第二个实参必须指定维度或排序方向。</entry>
+    <entry key="ThirdArgumentType">排序方向必须为字符向量。</entry>
+  </message>
+</rsccat>

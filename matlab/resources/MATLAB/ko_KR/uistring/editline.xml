@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Cut">잘라내기(&amp;T)</entry>
+    <entry key="Copy">복사(&amp;C)</entry>
+    <entry key="Paste">붙여넣기(&amp;P)</entry>
+    <entry key="Clear">지우기(&amp;R)</entry>
+    <entry key="LineWidth">선 너비(&amp;W)</entry>
+    <entry key="LineStyle">선 스타일(&amp;S)</entry>
+    <entry key="Color">색...</entry>
+    <entry key="Properties">속성...</entry>
+    <entry key="More">더 보기...</entry>
+    <entry key="Solid">실선</entry>
+    <entry key="Dash">파선</entry>
+    <entry key="Dot">점선</entry>
+    <entry key="DashDot">일점 쇄선</entry>
+  </message>
+</rsccat>

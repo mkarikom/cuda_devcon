@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badIdentifier">入力の構造体のフィールド \"identifier\" には、有効な MATLAB メッセージ識別子を指定しなければなりません。</entry>
+    <entry key="badMessage">入力構造体のフィールド \"message\" には文字ベクトルまたは string スカラーを指定しなければなりません。</entry>
+    <entry key="badStack">フィールド \"stack\" は、m 行 1 列の配列でなければなりません。</entry>
+    <entry key="badStackFile">フィールド \"stack\" には \"file\"、\"name\"、\"line\" のフィールドを指定しなければなりません。</entry>
+    <entry key="badStackFileString">フィールド \"stack\" のフィールド \"file\" には文字ベクトルを指定しなければなりません。</entry>
+    <entry key="badStackLine">フィールド \"stack\" のフィールド \"line\" には double 型のスカラーを指定しなければなりません。</entry>
+    <entry key="badStackName">フィールド \"stack\" のフィールド \"name\" には文字ベクトルを指定しなければなりません。</entry>
+    <entry key="badStackStruct">入力の構造体のフィールド \"stack\" には構造体を指定しなければなりません。</entry>
+    <entry key="nonScalarInput">入力の構造体はスカラーでなければなりません。</entry>
+  </message>
+</rsccat>

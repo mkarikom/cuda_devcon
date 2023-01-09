@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Invalid">유효하지 않은 인수임</entry>
+    <entry key="NotAxesArgument">좌표축 인수는 matlab.graphics.axis.Axes 유형의 카테시안 좌표축(Cartesian Axes)이어야 함</entry>
+    <entry key="NotAxesGCA">현재 좌표축은 matlab.graphics.axis.Axes 유형의 카테시안 좌표축(Cartesian Axes)이어야 함</entry>
+    <entry key="ViewNot2D">yyaxis에는 3차원 보기가 지원되지 않습니다. &lt;a href="matlab:doc view"&gt;view&lt;/a&gt;(2)를 사용하여 보기를 2차원으로 변경하십시오.</entry>
+  </message>
+</rsccat>

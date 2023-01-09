@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidPatchHandle">与えるハンドルは patch のハンドルでなければなりません</entry>
+    <entry key="WrongNumberOfInputs">入力引数の数が正しくありません。</entry>
+    <entry key="RGBSizeMismatch">R、G、B は、すべて同じサイズでなければなりません。</entry>
+    <entry key="InvalidColorDimensions">色配列は、すべて 3 次元でなければなりません</entry>
+    <entry key="InvalidColorSizes">色配列は、2 x 2 x 2 以上のサイズでなければなりません。</entry>
+    <entry key="InputsEmptyMismatch">X、Y、Z は、すべてを空にするか、すべてを空でない行列にしなければなりません。</entry>
+    <entry key="XSizeMismatch">X のサイズは、R のサイズ、または R の列数と一致しなければなりません。</entry>
+    <entry key="YSizeMismatch">Y のサイズは、R のサイズ、または R の行数と一致しなければなりません。</entry>
+    <entry key="ZSizeMismatch">Z のサイズは、R のサイズ、または R のページ数と一致しなければなりません。</entry>
+  </message>
+</rsccat>

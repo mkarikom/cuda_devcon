@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Abort">中止</entry>
+    <entry key="AVariableAlreadyExists">工作区中已存在名称为 ''{0}'' 的变量。是要覆盖现有变量还是中止该操作?</entry>
+    <entry key="CurrentTimeNonuniform">当前时间: 非均匀 {0} 至 {1} {2}</entry>
+    <entry key="CurrentTimeTo">当前时间: {0} 至 {1}</entry>
+    <entry key="CurrentTimeUniform">当前时间: 均匀 {0} 至 {1} {2}</entry>
+    <entry key="Description">说明</entry>
+    <entry key="DuplicatedVariableDetected">检测到重复变量</entry>
+    <entry key="ImportTimeSeries">从 MATLAB 工作区中导入时序/集合</entry>
+    <entry key="ImportRawData">导入原始数据...</entry>
+    <entry key="ImportWorkspaceObjects">导入工作区对象...</entry>
+    <entry key="ListAllValid">在主时序节点下，TSTOOL GUI 中当前允许的所有有效时序数据对象(非Simulink)的列表。</entry>
+    <entry key="Members">{0,number,integer} 个成员</entry>
+    <entry key="Name">名称</entry>
+    <entry key="NamedSlashesAreNotAllowed">不允许在导入对象名称中使用斜杠 (''/'')。请先删除 ''{0}'' 中的斜杠，然后导入 {1}。</entry>
+    <entry key="NewChildNode">新建子节点</entry>
+    <entry key="NonUniformlySampled">非均匀采样</entry>
+    <entry key="ObjectsHaveBeenExportedToTheBaseWorkspace">对象已导出至基础工作区中。</entry>
+    <entry key="Overwrite">覆盖</entry>
+    <entry key="Paste">粘贴...</entry>
+    <entry key="Remove">删除</entry>
+    <entry key="SelectTheRowCorrespondingToTheObjectsYouWantToExport">选择与您要导出的对象相对应的行。</entry>
+    <entry key="SlashesNotAllowed">不允许在导入对象名称中使用斜杠 (''/'')。请在导入前删除 ''{0}'' 中的斜杠。</entry>
+    <entry key="TheTscollectionCannotBeImported">名称为 {0} 的 tscollection 中具有空时间向量，不能导入</entry>
+    <entry key="TimeseriesOneWord">时序</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="TimeseriesWith10000ColumnsCannotBeUsed">超过 10000 列的时序无法在 tstool 中使用。请在导入前尝试转置数据或限制列数。</entry>
+    <entry key="TimeVector">时间向量</entry>
+    <entry key="Type">类型</entry>
+    <entry key="UniformlySampled">统一采样，增量为 {0}</entry>
+    <entry key="CopyNumberOf">Copy_{0,number,integer}_of_{1}</entry>
+    <entry key="CopyOf">Copy_of_{0}</entry>
+    <entry key="Tscollection">Tscollection ({0})</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidDim">DIM은 2차원 테이블의 경우 1 또는 2여야 합니다.</entry>
+    <entry key="NonconstDim">코드 생성 시 차원 인수는 상수여야 합니다.</entry>
+    <entry key="Varsize0x0">코드 생성 시 테이블을 결합할 때 첫 번째 가변 크기 테이블이 런타임에 0x0일 수 없습니다.</entry>
+  </message>
+</rsccat>

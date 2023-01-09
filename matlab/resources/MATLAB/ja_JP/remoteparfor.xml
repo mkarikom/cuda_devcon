@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ParforRunningLocally">リモートの parfor コードの構成中にエラーが発生しました。\nparfor の構成は、リモートの並列プール上ではなくローカルで実行されます。シリアル化エラーにより入力引数をワーカーへ送信できないことが原因として考えられます。発生したエラーからのエラー レポート:\n{0}</entry>
+    <entry key="ParforWorkerAborted">parfor ループの実行中にワーカーが中止されました。parfor ループは残りのワーカーで再度実行されます。</entry>
+    <entry key="AllParforWorkersAborted">parfor ループの実行中にすべてのワーカーが中止されました。</entry>
+  </message>
+</rsccat>

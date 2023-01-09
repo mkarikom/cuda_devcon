@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">输入数目不足。</entry>
+    <entry key="InvalidJ">Third input must be a positive integer that is finite and real.</entry>
+    <entry key="QNotSquare">第一个输入矩阵必须为方阵。</entry>
+    <entry key="InnerDimQRfactors">内部矩阵维度必须一致。第一个输入矩阵的列数必须与第二个输入矩阵的行数相匹配。</entry>
+    <entry key="NegInsertionIndex">插入索引必须为正数。</entry>
+    <entry key="InvalidInsertionIndex">插入索引超出矩阵维度。</entry>
+    <entry key="WrongSizeInsertedCol">插入的列具有错误的维度。</entry>
+    <entry key="WrongSizeInsertedRow">插入的行具有错误的维度。</entry>
+    <entry key="InvalidInput5">Fifth input must be ''row'' or ''col''.</entry>
+  </message>
+</rsccat>

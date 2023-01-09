@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+      <entry key="InvalidFormat">Value must be a supported tick label format specification. 
+          For example '%.2f m' formats with 2 digits after the decimal point and appends 
+          the suffix ' m'.</entry>
+      <entry key="NumberTooLarge">Width or precision too large.</entry>
+      <entry key="DynamicNumber">Width and precision must be numeric literals.</entry>
+      <entry key="UnsupportedType">Format type must be %f, %F, %g, %G, %e, %E, %d or %i.</entry>
+  </message>
+</rsccat>

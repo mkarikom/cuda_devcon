@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidP">P 必须为向量。</entry>
+    <entry key="RequiresS">计算误差估计值需要 S。</entry>
+    <entry key="SizeS">S 矩阵必须为 (n+2)×n，其中 n = length(p)。</entry>
+    <entry key="ZeroDOF">自由度为零意味着无限的误差范围。</entry>
+  </message>
+</rsccat>

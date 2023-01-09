@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadArguments">ハンドル値を負にしてはいけません</entry>
+    <entry key="IntegerHandleArrayFull">整数のハンドル配列がいっぱいです - これ以上ハンドルを利用できません</entry>
+    <entry key="OutOfUniqueHandles">以前に一度も使用されたことがないため、ハンドルは再利用されます。</entry>
+    <entry key="AllocationFailed">ハンドルを割り当てできません: 使われているハンドルが多すぎます</entry>
+  </message>
+</rsccat>

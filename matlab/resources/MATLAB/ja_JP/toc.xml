@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badTictocGlobal">グローバルな TICTOC は、CLOCK で返されるベクトルでなければなりません。</entry>
+    <entry key="wrongTocArgument">TOC への引数は、uint64 のスカラーでなければなりません。</entry>
+    <entry key="callTicFirst">TOC を呼び出す前に TIC を呼び出さなければなりません。</entry>
+    <entry key="callTicFirstNoInputs">入力引数を指定せずに TOC を呼び出すには、出力引数を指定せずに TIC を呼び出さなければなりません。</entry>
+  </message>
+</rsccat>

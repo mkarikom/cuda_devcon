@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="UnrecognizedStringArg" note="stringDatatypeUpdate">unrecognized character vector argument: ''{0}''</entry>
+    <entry key="InvalidHandleArg">handle argument must be figure or uimenu handle</entry>
+    <entry key="InvalidInputArg">input argument must be a figure or uimenu handle, or ''callback''</entry>
+    <entry key="WindowMenuNotFound">unable to find window menu</entry>
+    <entry key="RequiresFigureHandle">Assert: findwinmenu requires a figure handle</entry>
+    <entry key="UnexpectedObjType">unexpected object type in morewindowscb: {0}</entry>
+  </message>
+</rsccat>

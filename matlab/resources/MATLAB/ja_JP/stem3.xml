@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownOption">不明なオプション "{0}" です。</entry>
+    <entry key="InvalidDataInputs">数値の入力引数の数が無効です。Z または X、Y および Z の入力引数のいずれかを指定します。</entry>
+    <entry key="ZDataSizeMismatch">ZData must be the same size as XData.</entry>
+  </message>
+</rsccat>

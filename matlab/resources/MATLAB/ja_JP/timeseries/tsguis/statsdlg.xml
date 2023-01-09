@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Close">閉じる</entry>
+    <entry key="ColumnNumber">列番号</entry>
+    <entry key="DescriptiveStatistics">記述統計</entry>
+    <entry key="DescriptiveStatisticsSummary">選択した時系列に対する記述統計の概要</entry>
+    <entry key="Help">ヘルプ</entry>
+    <entry key="Mean">平均</entry>
+    <entry key="Median">中央値</entry>
+    <entry key="Max">最大値</entry>
+    <entry key="Min">最小値</entry>
+    <entry key="NumberOfColumns">列数</entry>
+    <entry key="Path">パス</entry>
+    <entry key="SelectTimeSeries">時系列の選択</entry>
+    <entry key="TimeSeries">時系列</entry>
+    <entry key="STD">STD</entry>
+  </message>
+</rsccat>

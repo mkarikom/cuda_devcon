@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidNumberOfInputs">Incorrect number of input arguments</entry>
+    <entry key="NoSuchFile">The file {0} does not exist.</entry>
+    <entry key="GSNoBoundingBox">Unable to determine the new BoundingBox.</entry>
+    <entry key="ParameterFileCreation">Unable to create parameter file.</entry>
+    <entry key="FileUpdateFailure">Unable to modify the BoundingBox setting for the file {0}.</entry>
+  </message>
+</rsccat>

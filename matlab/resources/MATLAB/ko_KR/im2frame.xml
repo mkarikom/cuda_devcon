@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ImageMatrixMustBeDoublePrecision2D">이미지 행렬은 double형으로 2차원이어야 함</entry>
+    <entry key="ImageMatrixElementOutsideColormapRange">이미지 행렬 요소가 컬러맵 범위를 벗어남</entry>
+    <entry key="CDataValuesMustBeLegalColormapIndices">인덱싱된 double형 CData 값은 적절한 컬러맵 인덱스여야 함: 1.0 &lt;= 값 &lt;= 길이(컬러맵)</entry>
+    <entry key="CDataValuesMustBeBetween0And1">트루컬러 double형 CData 값은 범위, 0.0 &lt;= 값 &lt;= 1.0에 있어야 함</entry>
+    <entry key="ExpectedMatrixTypeDoubleOrUint8">double형 또는 uint8형 이미지 행렬에서만 동영상 프레임을 만들 수 있음</entry>
+  </message>
+</rsccat>

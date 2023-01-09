@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Label">ワークスペース</entry>
+    <entry key="SaveVariablesAsScripts">変数を MATLAB スクリプト ファイルとして保存</entry>
+    <entry key="SaveVariablesThreshhold">MATLAB スクリプトに保存する変数のしきい値</entry>
+    <entry key="SaveVariablesThreshholdHelper">これらのしきい値を超える変数はコンパニオン MAT ファイルに保存されます。</entry>
+    <entry key="MaxArraySize">配列の最大サイズ:</entry>
+    <entry key="MaxNestingValue">struct/オブジェクトの最大の入れ子レベル:</entry>
+    <entry key="MultiDimArrayFormatting">多次元配列書式</entry>
+    <entry key="RowVectorReshape">整形された行ベクトル (簡潔さと効率性)</entry>
+    <entry key="DimsForSaving2DPages">2 次元ページ (可読性を重視)</entry>
+    <entry key="ArrayDimsFor2DPages">2-D ページで表示する配列の次元</entry>
+    <entry key="FileFormatting">ファイル形式</entry>
+    <entry key="MaxCharactersPerLine">1 行の最大文字数:</entry>
+    <entry key="StatisticalCalc">統計量の計算</entry>
+    <entry key="ShowArrayStatsHelper">以下の要素をもつ配列に対してのみ統計値を表示</entry>
+    <entry key="HandleNaNInCalculations">計算での NaN 値の取り扱い:</entry>
+    <entry key="UseNansInCalculatingStats">統計量の計算に NaN を考慮</entry>
+    <entry key="IgnoreNansWhenCalculatingSttas">統計量の計算で NaN を無視</entry>
+    <entry key="ArraySizeLimit">MATLAB の配列サイズの制限</entry>
+    <entry key="LimitMaxArarySizeToRam">配列の最大サイズを RAM の割合で制限</entry>
+    <entry key="ArrayLimitTooltip">値は 1 ～ 32 の間になければならず、最初の値は 2 番目の値より小さくなければならない</entry>
+  </message>
+</rsccat>

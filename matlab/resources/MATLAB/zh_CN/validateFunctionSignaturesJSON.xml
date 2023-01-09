@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="emptyFileName">空文件名无效。</entry>
+    <entry key="emptyString">无效的空字符串。</entry>
+    <entry key="nameInvalid">属性 "{0}" 无效。</entry>
+    <entry key="nameDuplicated">重复属性 "{0}" 无效。</entry>
+    <entry key="nameRemoved">"{0}" 已删除。</entry>
+    <entry key="nameRenamed">"{0}" 已重命名为 "{1}"。</entry>
+    <entry key="listExpected">需要列表("[")声明。</entry>
+    <entry key="objectExpected">需要对象("'{'")声明。</entry>
+    <entry key="objectOrListExpected">需要对象("'{'")或列表("[")声明。</entry>
+    <entry key="stringExpected">需要字符串。</entry>
+    <entry key="trueOrFalseExpected">需要 true 或 false。</entry>
+    <entry key="equalExpectedInsteadOfEqualEqual">应为 "=" 而不是 "=="。</entry>
+    <entry key="cannotOpenFile">无法打开文件 ''{0}''。</entry>
+    <entry key="matlabExpressionInvalid">"{0}" 是无效的 MATLAB 表达式。</entry>
+    <entry key="schemaUnexpectedLocation">"_schemaVersion" 必须是文件中的第一个属性。</entry>
+    <entry key="schemaUnexpectedValue">"_schemaVersion" 必须是 "1.0.0" 或 "1.1.0"。</entry>
+    <entry key="noOutputAtCompletion">validateFunctionSignaturesJSON 完成且未生成任何消息。</entry>
+    <entry key="jsonShadowed">{0} 已被 {1} 遮蔽。</entry>
+    <entry key="fileInClassOrPackageFolder">文件 {0} 的文件夹位置无效。文件必须位于以 '@' 或 '+' 开头的文件夹的父文件夹中。</entry>
+    <entry key="pathToFileInvalid">相对于基文件夹 "{1}" 的文件 "{0}" 必须存在。</entry>
+    <entry key="functionNotFound">函数 "{0}" 未被 "which" 识别。如果它是方法，请在其开头添加类名称。</entry>
+    <entry key="classWithoutMetadata">无法获取名称 "{0}" 的元数据。请检查该名称是否存在，并且没有语法错误。</entry>
+    <entry key="methodNameInvalid">类 "{1}" 的方法名称 "{0}" 无效。</entry>
+    <entry key="methodWithoutMetadata">无法获取类 "{1}" 的方法 "{0}" 的元数据。</entry>
+    <entry key="methodGivenForWrongOverload">请将 "{0}" 替换为 "{1}"，因为方法 "{2}" 在类 "{3}" 中定义，而不在类 "{4}" 中定义。</entry>
+    <entry key="expectedIsA">"{0}" 必须为 "{1}"。</entry>
+    <entry key="invalidMessageId">消息标识符 "{0}" 必须存在。</entry>
+    <entry key="separatorRemoved">"separator" 是不必要的且已删除。</entry>
+    <entry key="multiplicityReplaced">"multiplicity" 已替换为 "repeating"。</entry>
+    <entry key="valueInvalid">''{0}'' 值 "{1}" 无效。</entry>
+    <entry key="requireInputAttributeMissing">应为 "name"、"kind"、"mutuallyExclusiveGroup" 或 "tuple"。</entry>
+    <entry key="notAfterNameValueOrFlag">"{0}" 参数必须出现在所有 "namevalue" 和 "flag" 参数之前。</entry>
+    <entry key="notAfterPositional">"{0}" 参数必须出现在所有 "positional" 参数之前。</entry>
+    <entry key="notAfterSeparator">"{0}" 参数必须出现在 "separator" 参数之前。</entry>
+    <entry key="propertiesMustBeLast">"properties" 必须出现在参数列表的最后。</entry>
+    <entry key="inferredFromNameDoesNotExist">无效的 "inferredFrom" 引用。"{0}" 必须引用 "inputs" 中的一个 "name"。</entry>
+    <entry key="prototypeArgumentDoesNotExist">除非 "inputs" 包含的参数具有以下一个受支持的 "name"，否则 "fromPrototypeOrClassname" 无效: "typename"、"classname" 或 "'like'"。</entry>
+    <entry key="doNotUseNumericInOutputs">对于 "outputs"，不要将 "type" 指定为 "numeric"。请指定类或改用 "inferredFrom"。</entry>
+    <entry key="doNotSpecifyKindForOutputs">不要为 "outputs" 指定 "kind"。其 "kind" 始终隐式为 "ordered"。</entry>
+    <entry key="listsNestedTooDeeply">"type" 的列表嵌套太深。</entry>
+    <entry key="argumentIsIndexed">索引表达式 "{1}" 中使用了参数名称 "{0}"。如果 "{0}" 导致函数被遮蔽，请重命名参数 "{0}"。</entry>
+    <entry key="functionHandleCanBeAvoided">"{0}" 可以替换为 "{1}"。</entry>
+    <entry key="fileDoesNotNeedWildcard">使用不带通配符的 "file" 可允许任何文件名。</entry>
+    <entry key="fileWildcardFormatInvalid">对于文件名通配符，使用 "*.ext[,*.ext...]" 形式。</entry>
+    <entry key="attributeOrClassUnknown">未知属性或类 "{0}"。</entry>
+    <entry key="jsonParsingError">{0}</entry>
+    <entry key="cannotIntegrateDoc">{0}</entry>
+  </message>
+</rsccat>

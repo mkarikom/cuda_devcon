@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="indexOutOfRange">成员索引必须是介于 1 与 tscollection 成员总数之间的整数。</entry>
+    <entry key="notMember">一个或多个指定时序不是 tscollection 成员。</entry>
+    <entry key="depthExceedsTwo">子引用深度不能超过 2。</entry>
+    <entry key="badSep">使用冒号运算符或数值索引指定时序中的样本。</entry>
+    <entry key="badIndex">每个时间索引都必须是介于 1 与 tscollection 长度之间的一个整数。</entry>
+  </message>
+</rsccat>

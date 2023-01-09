@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidpv">유효하지 않은 속성-값 쌍입니다.</entry>
+    <entry key="noScalars">모든 숫자형 시간은 실수형 스칼라여야 함</entry>
+    <entry key="noNumericStart">시작 시간은 숫자 값이어야 합니다.</entry>
+    <entry key="invStartFormat">유효하지 않은 시작 시간 형식임</entry>
+    <entry key="invalidduptimes">timeseries에서 지정된 시간 값이 중복됩니다. 중복된 시간에서 샘플을 구하려면 GETSAMPLEUSINGTIME을 호출할 때 AllowDuplicateTimes 플래그를 설정하십시오.</entry>
+  </message>
+</rsccat>

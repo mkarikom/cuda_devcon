@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">입력 인수가 부족합니다.</entry>
+    <entry key="TooManyArguments">인수가 너무 많거나, 문자형 벡터로 구성된 셀형 배열이 유효하지 않습니다.</entry>
+    <entry key="StringLengthMismatch">문자형 벡터로 구성된 셀형 배열은 X와 길이가 동일해야 합니다.</entry>
+    <entry key="ExplodeLengthMismatch">X와 EXPLODE는 길이가 동일해야 합니다.</entry>
+  </message>
+</rsccat>

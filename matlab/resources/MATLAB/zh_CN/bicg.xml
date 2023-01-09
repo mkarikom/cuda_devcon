@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">输入参数的数目不足。</entry>
+    <entry key="NonSquareMatrix">矩阵必须为方阵。</entry>
+    <entry key="RSHnotColumn">右侧必须为列向量。</entry>
+    <entry key="tooSmallTolerance">BICG 无法达到输入的 tol 值\n         请尝试使用更大的容差</entry>
+    <entry key="TooManyInputs">输入参数太多。</entry>
+    <entry key="RSHsizeMismatchCoeffMatrix">右侧必须是长度为 {0,number,integer} 的列向量才能与系数矩阵匹配。</entry>
+    <entry key="tooBigTolerance">输入的 tol 值大于 1 \n         请尝试使用更小的容差</entry>
+    <entry key="WrongPrecondSize">预调节器必须是大小为 {0,number,integer} 的方阵才能与问题大小匹配。</entry>
+    <entry key="WrongInitGuessSize">初始猜测值必须是长度为 {0,number,integer} 的列向量才能与问题大小匹配。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="StretchDIBits">元文件 StretchDIBits 中失败，获取上一个错误 {0}</entry>
+    <entry key="BitBlt">BitBlt 中失败，上一个错误代码 {0}</entry>
+    <entry key="SetStretchBltMode">在 SetStretchBltMode 中绘制位图失败，伸展传图失败 (gle{0})</entry>
+    <entry key="SetStretchBltModeOperationNotSupported">在 SetStretchBltMode 中绘制位图失败，操作不受设备支持</entry>
+    <entry key="StretchBlt">StretchBlt 中失败，上一个错误代码 {0}</entry>
+    <entry key="NoSetDIBits">设备不支持 SetDIBits</entry>
+    <entry key="SetDIBits">SetDIBits 中失败(gle{0})</entry>
+    <entry key="NoDCBitBlt">设备不支持 BitBlt</entry>
+    <entry key="NoDCMemBitBlt">内存设备不支持 BitBlt</entry>
+    <entry key="CloseEnhMetaFile">CloseEnhMetaFile 中失败，上一个错误代码 {0} from-hDC {1}</entry>
+    <entry key="CreateCompatibleDC">CreateCompatibleDC 中失败，上一个错误代码 {0} from-hDC {1}</entry>
+    <entry key="CreateCompatibleBitmap">CreateCompatibleBitmap 中失败，上一个错误代码 {0}</entry>
+    <entry key="BitBltWithReturnCode">BitBlt 中失败，上一个错误代码 {0}，返回代码 {1}</entry>
+    <entry key="BitBltMemory">内存 BitBlt 中失败(gle{0})</entry>
+    <entry key="FileExists">{0} 已存在。是否要替换它?</entry>
+    <entry key="SelectFileToWrite">选择要写入的文件</entry>
+  </message>
+</rsccat>

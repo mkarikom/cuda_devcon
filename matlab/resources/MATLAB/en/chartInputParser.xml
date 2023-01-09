@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- Copyright 2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="TooManyDataArgs">Too many arguments.</entry>
+    <entry key="TooFewDataArgs">Too many arguments.</entry>
+    <entry key="BadParent">Parent property must be a valid graphics object.</entry>
+    <entry key="InvalidCount">Invalid number of input arguments.</entry>
+
+    <entry key="DataArgWrongType">DataArgumentPatterns must be a cell array of patterns containing cellstrs.</entry>
+    <entry key="WrongName">Invalid property name {0} in {1}.</entry>
+    <entry key="AmbiguousPattern">One or more data argument patterns specified are ambiguous.</entry>
+    <entry key="UnspecifiedType">Type information is not specified for the property ''{0}''.</entry>
+    <entry key="InvalidNameValue">Unsupported property name: {0}.</entry>
+    <entry key="IncorrectDataArgs">Incorrect data arguments.</entry>
+    <entry key="InvalidLeadingFlags">Leading flags must be a cellstr or a string array.</entry>
+    <entry key="InvalidChartName">Invalid ChartClassName. Specify the full package name of the chart class.</entry>
+    <entry key="AlreadyPresent">{0} cannot be reassigned. Consider instantiating a new ChartInputParser object.</entry>
+    <entry key="BadTrailingFlagType">Trailing flags must be specified as a struct, cellstr or string array.</entry>
+    <entry key="BadLineSpecification">LineSpecification must be a struct with at most three fields corresponding to LineStyle, MarkerStyle and Color.</entry>
+    <entry key="RepeatedLineSpec"> Repeated {0} mapping in LineSpecification. Overwriting previously set value.</entry>
+  </message>
+</rsccat>

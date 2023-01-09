@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonFiniteEndpoint">索引中的冒号运算符的非有限端点或增量。</entry>
+    <entry key="nonIntegerIndex">当用作索引时，冒号运算符需要整数操作数。</entry>
+    <entry key="OutOfRange">冒号操作数必须处于该数据类型的范围中。</entry>
+    <entry key="logicalInput">冒号操作数不能为逻辑值。</entry>
+    <entry key="mixedNonDoubleOperands">冒号操作数必须均为同一类型，或者与实数标量双精度值混合使用。</entry>
+    <entry key="nonDoubleOperandsNotRealScalar">冒号操作数必须为实数标量。</entry>
+    <entry key="operandsNotRealScalar">冒号操作数必须为实数标量。</entry>
+    <entry key="scalarDoubleMustBeIntegerValued">与 {0} 操作数交互的双精度操作数必须具有整数值。</entry>
+    <entry key="notEnoughInputs">冒号运算符的输入数目不足。</entry>
+    <entry key="tooManyInputs">冒号运算符的输入数目太多。</entry>
+    <entry key="charOperandsMustBeIntegerValued">与字符操作数交互的双精度操作数必须具有整数值。</entry>
+    <entry key="integerOperandsMustBeIntegerValued">与 {0} 操作数交互的双精度操作数必须具有整数值。</entry>
+    <entry key="mixedCharOperandsFirstAndLast">对于带有字符操作数的冒号运算符，第一个操作数和最后一个操作数必须是字符。</entry>
+    <entry key="mixedCharOperandsSecond">对于带有字符操作数的冒号运算符，第二个操作数必须是字符或双精度实数标量。</entry>
+    <entry key="inputsMustBe2D">输入必须为二维矩阵。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!--Resource entries for src/hg-->
+    <entry key="BadCurrentAxesHandle">Handles of type {0} cannot be made the current Axes.</entry>
+    <entry key="DeletedHandle">Deleted handles cannot be made the current Axes.</entry>
+    <entry key="BadCurrentAxesInvalidChildHandle">Axes must be an existing child of figure.</entry>
+    <entry key="BadCurrentPoint">CurrentPoint value is too large.</entry>
+    <entry key="CannotSetNormalizedPaperSize">PaperSize cannot be set in normalized PaperUnits.\nTo set PaperSize:\nSet PaperType to a different value, or \nChange PaperUnits to inches, centimeters, or points, and then set PaperSize.</entry>
+    <entry key="ColormapIntensityRange">All colormap intensities must be between 0 and 1.</entry>
+    <entry key="ColormapNumericType">Colormap must be an array of type double, float, or sparse.</entry>
+    <entry key="ColormapRGBDimension">Colormap must be an M-by-3 array of RGB color intensities.</entry>
+    <entry key="CreatePeerWindow">Creation of Java Peer for Figure window failed.</entry>
+    <entry key="CurrentAxesChild">Axes must be an existing child of figure.</entry>
+    <entry key="CurrentAxesHandle">Argument must be a valid axes handle.</entry>
+    <entry key="DefaultBar">The creation of the default {0} failed.</entry>
+    <entry key="DragRect">Drag rectangle should have 4 columns, not {0,number,integer}.</entry>
+    <entry key="FigureSavedToMATFile">Figure is saved in {0}. Saving graphics handle variables can cause the creation of very large files. To save graphics figures, use &lt;a  href=\"matlab:helpview([docroot,''/techdoc/ref/savefig.html''])\"&gt;savefig&lt;/a&gt;.</entry>
+    <entry key="HandleAssignment">Figure handle assignment failed.</entry>
+    <entry key="HandleInUse">Requested figure handle in use by another object.</entry>
+    <entry key="Hittest">Figure handle required.</entry>
+    <entry key="IncorrectWindowStyle">Cannot set WindowStyle to ''docked'' when MATLAB is started with no display or when the -noFigureWindows option is specified.</entry>
+    <entry key="IntegerHandle">Single input must be an existing figure handle or a scalar integer from 1 to {0,number,integer}.</entry>
+    <entry key="InvalidControllerInfo">Internal error creating figure controller.</entry>
+    <entry key="InvalidCurrentAxesHandle">{0} handle passed to ''CurrentAxes'' property. Valid axes handle required.</entry>
+    <entry key="InvalidDragRectColumns">Drag rectangle should have 4 columns, not {0,number,integer}</entry>
+    <entry key="InvalidParent">Figure parent must be the root.</entry>
+    <entry key="InvalidRendererBuffer">Internal error. Render buffer does not exist.</entry>
+    <entry key="Newplot">newplot did not return axis handle.</entry>
+    <entry key="NotDockable">Web figures with menus or toolbar cannot be docked.</entry>
+    <entry key="NotDockableWarning">Web figures with menus or toolbar cannot be docked. Automatically undocking figure.</entry>
+    <entry key="Pointer">Full crosshair pointer is no longer supported. A crosshair pointer will be used instead.</entry>
+    <entry key="PrintTemplate">PrintTemplate has not been initialized properly</entry>
+    <entry key="RbboxColumns">rbbox rectangle must have 4 columns, not {0,number,integer}.</entry>
+    <entry key="RbboxFirstArg">First argument to rbbox must be a valid rectangle.</entry>
+    <entry key="RbboxRows">rbbox rectangle must have 1 row, not {0,number,integer}.</entry>
+    <entry key="RbboxSecondArg">Second argument to rbbox must be a valid point.</entry>
+    <entry key="RecursionOnClose">A callback recursively calls CLOSE.  Use DELETE to prevent this message.</entry>
+    <entry key="Renderer">Insufficient memory to render {0,number,integer}-by-{1,number,integer} Z-buffer</entry>
+    <entry key="SetDefaultButtonChildOfFigure">The specified uicontrol must be a child of the specified figure.</entry>
+    <entry key="SetDefaultButtonInputArgument">setDefaultButton must be called with figure handle as the first argument and a uicontrol handle as the second argument.</entry>
+    <entry key="SetDefaultButtonInvalidFigure">setDefaultButton must be called on a figure containing a valid uicontrol.</entry>
+    <entry key="SetDefaultButtonNullInput">setDefaultButton must be called on a figure containing a valid uicontrol.</entry>
+    <entry key="SetDefaultButtonPlatform">setDefaultButton is not supported on this platform</entry>
+    <entry key="SetDefaultButtonPushButton">setDefaultButton accepts a uicontrol only of style ''pushbutton''.</entry>
+    <entry key="SetDefaultButtonUicontrol">setDefaultButton must be called on a figure containing a valid uicontrol.</entry>
+    <entry key="SetDockControlsOff">Cannot set DockControls to ''off'' while WindowStyle is ''docked''.</entry>
+    <entry key="SetDockControlsOn">Cannot set DockControls to ''on'' for a non-Java figure</entry>
+    <entry key="SetOuterPosition">Cannot set OuterPosition while WindowStyle is ''docked''</entry>
+    <entry key="SetPaperSize">Width and height must be &gt; 0.</entry>
+    <entry key="SetPointerShapeCData">PointerShapeCData must be 16-by-16.</entry>
+    <entry key="SetPointerShapeHotSpot">PointerShapeHotSpot must be 1-by-2.</entry>
+    <entry key="SetPosition">Cannot set Position while WindowStyle is ''docked''</entry>
+    <entry key="SetResize">Cannot set Resize to ''off'' while WindowStyle is ''docked''.</entry>
+    <entry key="SetXDisplay">Cannot open that display</entry>
+    <entry key="UnableToSetRendererToOpenGL">Cannot set Renderer to OpenGL on this figure.</entry>
+    <entry key="Units">Character size could not be calculated.  Figure position may be incorrect.</entry>
+    <entry key="UnsupportedToolsStyle">This ToolsStyle is not supported for this figure.</entry>
+    <entry key="Waitforbuttonpress">Waitforbuttonpress not available when using MATLAB as Engine.</entry>
+    <entry key="XDisplay">Cannot set XDisplay.</entry>
+    <entry key="drawnowTicToc">The ''tic'' and ''toc'' options cannot be used together.</entry>
+    <entry key="webfigureredraw">Figure handle required.</entry>
+    <entry key="NonResizableFiguresCannotMaximize">The ''maximized'' window state is not supported when ''Resize'' is ''off''.</entry>
+    <entry key="DockedFiguresCannotSetWindowState">Docked figures do not support ''WindowState''.</entry>
+    <entry key="InvalidFitToContentAnchor">Anchor option must be 'center' or 'topleft'.</entry>
+    <entry key="FitToContentCalledWithNoGrid">To resize a figure using fitToContent, the figure must contain a GridLayout object.</entry>
+  </message>
+</rsccat>

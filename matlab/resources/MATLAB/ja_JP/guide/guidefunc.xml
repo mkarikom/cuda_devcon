@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AllFilesDescription">すべてのファイル (*.*)</entry>
+    <entry key="CodeFileDescription">MATLAB ファイル (*.m)</entry>
+    <entry key="ExportGuiDialogTitle">エクスポート</entry>
+    <entry key="SingleExportedFileDescription">単一の MATLAB ファイル (*.m)</entry>
+    <entry key="InvalidFilename">ファイル:\n{0} は無効なファイル名です。\n\nインスペクター内の "Filename" プロパティを有効な値に変更するか、\n[名前を付けて保存] オプションを使用してください。</entry>
+    <entry key="InvalidFilenames">ファイル:\n{0} は無効なファイル名です。\n\nインスペクター内の "Filename" プロパティを有効な値に変更するか、\n[名前を付けて保存] オプションを使用してください。</entry>
+    <entry key="InvalidFilenameEmpty">ファイル:{0}\nは有効な GUIDE のファイル名ではありません。少なくとも 1 つの文字をもたなければなりません。</entry>
+    <entry key="InvalidFilenameNonfunctionName">ファイル: {0}\nは有効な GUIDE ファイル名ではありません。\n\n有効な GUIDE ファイル名は、任意の有効な MATLAB 関数名として定義されます。\n有効な関数名はアルファベット、数字、アンダースコアからなる文字ベクトルであり、\n{1} 以下の長さで、最初の文字はアルファベットとなります。</entry>
+    <entry key="InvalidFileExtensions">ファイル:{0}\nファイル名は {1} で終わらなければなりません</entry>
+    <entry key="ChangeFilenameInInspectora">{0}\n\nインスペクター内の "Filename" プロパティを有効な値に変更するか、\n[名前を付けて保存] オプションを使用してください。</entry>
+    <entry key="CannotSaveToOpenGui">ファイル:{0}\は GUIDE 内で既に開いています。\n開いている GUI には保存できません。</entry>
+    <entry key="ErrorWritingFile">ファイルの書き込みエラーが発生しました:\n{0}ディレクトリが読み取り専用でないか確認してください。</entry>
+    <entry key="ErrorWritingFiles">ファイルの書き込みエラーが発生しました:\n{0}ディレクトリが読み取り専用でないか確認してください。</entry>
+    <entry key="ButtonGroupManagedCallback">ボタン グループ {0} によって {1} ({2}) が管理されています。\n\nボタン グループ内のボタン選択に変更があった場合の動作をカスタマイズするには、対応する SelectionChangeFcn コールバックを変更します。</entry>
+    <entry key="ModifiedAutoCallback">{0} の現在値は手動で変更されています。\n\nGUIDE で自動生成するコールバックに置き換えますか?自動生成したコールバックを取得する場合は [はい] をクリックしてください。{1} の値をそのままにする場合は [いいえ] をクリックしてください。</entry>
+    <entry key="SameTagForMultipleComponents">タグ ''{0}'' は GUI の複数のコンポーネントに割り当てられています。これらのコールバックは GUI コード ファイル内の同じ関数を指している可能性があります。</entry>
+    <entry key="RunningSuccessfullyGeneratedStandalone">ファイル:{0}\nは正常に生成されました。\n\n正常に動作しない場合は、{1}</entry>
+    <entry key="RunningUnsuccessfullyGeneratedStandalone">ファイル:{0}\nは正常に生成できませんでした。\n\n{1}</entry>
+    <entry key="SolutionForStandaloneRunningError">MATLAB Compiler でヘルプを参照してください。このファイルを手動でコンパイルすることで原因の確認が可能です。\n{0}</entry>
+    <entry key="PromptToContinueActivation">アクティブ化を続けるには</entry>
+    <entry key="QuestdlgYesButtonText">はい</entry>
+    <entry key="QuestdlgNoButtonText">いいえ</entry>
+    <entry key="GotoErrorButtonText">エラーに移動</entry>
+    <entry key="UnsupportedObjectTypesWarningTitle">サポートされないオブジェクト タイプ</entry>
+    <entry key="UnsupportedObjectTypes">この FIG ファイルには、次のサポートされていないオブジェクトが 1 つ以上含まれています: {0}。GUIDE は Figure の読み込み時にこれらのサポートされないオブジェクトを削除します。\n\nGUI を保存する場合、FIG ファイルにはサポートされないオブジェクトは含まれません。</entry>
+    <entry key="GuiFileExtension">.fig</entry>
+    <entry key="NewLineCharacter">\n</entry>
+  </message>
+</rsccat>

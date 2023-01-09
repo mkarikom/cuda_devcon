@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EmptyMatrixDisplay">빈 {0} 행렬:</entry>
+    <entry key="EmptyArrayDisplay">빈 {0} 배열:</entry>
+    <entry key="DisplaySizeSeparator">×</entry>
+    <entry key="DisplayColumnHeader">  {0,number,integer} ~ {1,number,integer}번 열</entry>
+    <entry key="DisplayColumnHeaderShort">  {0,number,integer}번 열</entry>
+    <entry key="TZTableCaption">{0} 영역의 IANA 표준 시간대 목록</entry>
+    <entry key="TZTableAllCaption">모든 영역의 IANA 표준 시간대 목록</entry>
+    <entry key="TZNameHeader">표준 시간대 이름</entry>
+    <entry key="UTCOffsetHeader1">UTC 기준 오프셋</entry>
+    <entry key="UTCOffsetHeader2">(시간, 동쪽은 양수)</entry>
+    <entry key="DSTOffsetHeader1">DST 오프셋</entry>
+    <entry key="DSTOffsetHeader2">(시간)</entry>
+    <entry key="TZMoreInfoDoc">자세한 내용은 &lt;code&gt;datetime.TimeZone&lt;/code&gt;에 대한 MATLAB® 도움말 문서를 참조하십시오.</entry>
+    <entry key="TZPropertiesUTCOffsetUnit">시간(동쪽은 양수)</entry>
+    <entry key="TZPropertiesDSTOffsetUnit">시간</entry>
+  </message>
+</rsccat>

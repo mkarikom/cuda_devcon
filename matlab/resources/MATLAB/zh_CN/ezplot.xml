@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidExpression">输入必须为字符向量表达式、函数名称、函数句柄或 INLINE 对象。</entry>
+    <entry key="NonXYPlot">不能在 xy 平面中对 {0} 绘图。</entry>
+    <entry key="NumericValues">ezplot 需要 {0} 的数值</entry>
+    <entry key="ParametrizedSurface">不能绘制参数化曲面。请尝试使用 ezsurf。</entry>
+    <entry key="NonExplicitFunction">输入字符向量必须为表达式。不支持单变量的隐函数。</entry>
+    <entry key="NoRealValues">无法绘制 {0}: 该函数没有实数值。</entry>
+    <entry key="NotVectorized">函数未能计算出数组输入的值；将该函数向量化可以加快计算速度并且无需循环数组元素。</entry>
+  </message>
+</rsccat>

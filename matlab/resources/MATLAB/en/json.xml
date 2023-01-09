@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed">
+  <message>
+    <entry key="SyntaxErrorAtLocation"     >JSON syntax error at line {0}, column {1} (character {2})</entry>
+    <entry key="SyntaxError"               >JSON syntax error</entry>
+    <entry key="ExpectedLiteral"           >{0}: expected ''{1}'' but found ''{2}''.</entry>
+    <entry key="ExpectedNumber"            >{0}: expected number but found ''{1}''.</entry>
+    <entry key="ExpectedNumberAtEnd"       >{0}: expected number but found end of text.</entry>
+    <entry key="ExpectedName"              >{0}: expected quoted name but found ''{1}''.</entry>
+    <entry key="ExpectedColon"             >{0}: expected '':'' but found ''{1}''.</entry>
+    <entry key="ExpectedValue"             >{0}: expected value but found ''{1}''.</entry>
+    <entry key="ExpectedNameOrEnd"         >{0}: expected quoted name or ''}'' but found ''{1}''.</entry>
+    <entry key="ExpectedCommaOrEnd"        >{0}: expected '','' or ''{1}'' but found ''{2}''.</entry>
+    <entry key="ExpectedNameOrEndAtEnd"    >{0}: expected quoted name or ''}'' but found end of text.</entry>
+    <entry key="ExpectedValueOrEnd"        >{0}: expected '','' or '']'' but found ''{1}''.</entry>
+    <entry key="ExpectedValueOrEndAtEnd"   >{0}: expected '','' or '']'' but found end of text.</entry>
+    <entry key="ExpectedColonAtEnd"        >{0}: expected '':'' but found end of text.</entry>
+    <entry key="ExpectedNameAtEnd"         >{0}: expected quoted name but found end of text.</entry>
+    <entry key="ExpectedValueAtEnd"        >{0}: expected value but found end of text.</entry>
+    <entry key="ExpectedCommaOrEndAtEnd"   >{0}: expected '','' or ''{1}'' but found end of text.</entry>
+    <entry key="ExpectedQuoteAtEnd"        >{0}: expected ''"'' but found end of text.</entry>
+    <entry key="InvalidEscape"             >{0}: escape character ''{1}'' is not valid.</entry>
+    <entry key="InvalidControl"            >{0}: unexpected control character {1}.</entry>
+    <entry key="ExtraText"                 >{0}: extra text.</entry>
+    <entry key="UnsupportedDataType"       >Unable to encode objects of class {0} as JSON-formatted text.</entry>
+    <entry key="UnsupportedKeyType"        >Unable to encode objects of class containers.Map as JSON-formatted text. KeyType must be char.</entry>
+    <entry key="UnsupportedCyclicError"    >Unable to encode objects of class {0} because the structure is recursive.</entry>
+    <entry key="RecursionLimitError"       >Max recursion limit of {0} reached.</entry>
+    <entry key="InvalidInput"              >JSON text must be a character vector or a scalar non-missing string.</entry>
+    <entry key="ParamMissingValue"         >Name ''{0}'' requires a value.</entry>
+    <entry key="InvalidParamType"          >Name argument type must be string scalar or character vector.</entry>
+    <entry key="InvalidValueType"          >Value type must be {0} scalar for name ''{1}''.</entry>
+    <entry key="UnmatchedParameter"        >Name argument must be ''ConvertInfAndNaN'' or ''PrettyPrint''.</entry>
+    <entry key="ResultType"                >The jsonencode method implemented by the class author must return either a character vector or string scalar.</entry>
+  </message>
+</rsccat>

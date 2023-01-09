@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="getPickableAncestorInvalidNonScalarObject">입력 객체는 스칼라 핸들이어야 합니다.</entry>
+    <entry key="getPickableAncestorInvalidNonHandleObject">입력 객체는 핸들 객체여야 합니다.</entry>
+    <entry key="getPickableAncestorInvalidObject">입력 객체는 SceneNode의 서브클래스여야 합니다.</entry>
+    <entry key="getChildExtentsInvalidNonScalarObject">입력 객체는 스칼라 핸들이어야 합니다.</entry>
+    <entry key="getChildExtentsInvalidNonHandleObject">입력 객체는 핸들 객체여야 합니다.</entry>
+    <entry key="getChildExtentsInvalidObject">입력 객체는 SceneNode의 서브클래스여야 합니다.</entry>
+    <entry key="getChildExtentsInvalidNonScalarExcludedObject">제외된 객체는 스칼라 핸들이어야 합니다.</entry>
+    <entry key="getChildExtentsInvalidNonHandleExcludedObject">제외된 객체는 핸들 객체여야 합니다.</entry>
+    <entry key="getChildExtentsInvalidExcludedObject">제외된 객체는 SceneNode의 서브클래스여야 합니다.</entry>
+  </message>
+</rsccat>

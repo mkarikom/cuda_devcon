@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Copyright 1984-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="XNotVector">The first input must be a vector.</entry>
+    <entry key="XComplex">The first input must be real.</entry>
+    <entry key="XYType">The first and second inputs must be of type double or single.</entry>
+    <entry key="XQType">The interpolation points must be of type double or single.</entry>
+    <entry key="XQComplex">The interpolation points must be real.</entry>
+    <entry key="NotEnoughPts">The first two inputs must have at least two elements.</entry>
+    <entry key="RepeatedSites">The first input must contain unique values.</entry>
+    <entry key="EndslopeNaN">The endslopes cannot be NaN.</entry>
+    <entry key="EndslopeInf">The endslopes cannot be Inf.</entry>
+    <entry key="NumSitesMismatchValues">The number of sample points X, {0,number,integer}, is incompatible with the number of values Y, {1,number,integer}.</entry>
+    <entry key="IgnoreNaN">All NaN entries in the first and second input were ignored.</entry>
+  </message>
+</rsccat>

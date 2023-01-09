@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- Copyright 2019-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <entry key="Vs"> vs. </entry>
+        <entry key="SpecifyDataSource">Specify data sources for X, Y, and Z as variables in the workspace.</entry>
+        <entry key="DialogTitle">Linked Plot Data Sources</entry>
+        <entry key="OKLabel">OK</entry>
+        <entry key="CancelLabel">Cancel</entry>
+        <entry key="LinkDataError">Size mismatch</entry>
+        <entry key="ImmediateApplyLabel">Immediate Apply</entry>
+        <entry key="HelpLabel">Help</entry>
+        <entry key="FailingLinks">Failing links</entry>
+        <entry key="DifferentXYZSize">{0} and {1} are of different size</entry>
+        <entry key="DisplayNameLabel">Display Name</entry>
+        <entry key="CannotLinkData">Unable to link data. No graphics objects have data sources.</entry>
+        <entry key="CannotLinkTableData">Linking data is not supported when the data comes from a table.</entry>
+        <entry key="CannotDeleteBrushedTableData">Deleting brushed data is not supported when the data comes from a table.</entry>
+    </message>
+</rsccat>

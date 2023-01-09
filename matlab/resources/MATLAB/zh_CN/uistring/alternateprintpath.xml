@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidCData">CData 无效，必须是 MxNx3；不调用 IMWRITE。</entry>
+    <entry key="SizeNotReady">大小未就绪，{0,number,integer}x{1,number,integer} (实际)与 {2,number,integer}x{3,number,integer} (目标)\n</entry>
+    <entry key="ContainerNotDisplayable">容器无法显示。</entry>
+    <entry key="FigureSizeIncorrect">该图窗未达到所需大小。</entry>
+    <entry key="RequestedSizeTooLarge">请求的输出大小太大。请尝试调整 PaperPosition 属性值。</entry>
+    <entry key="RequestedSizeTooSmall">请求的输出大小太小。请尝试调整 PaperPosition 属性值。</entry>
+    <entry key="FigureMayHaveBeenClosed">由于图窗无效，因而未完成所请求的打印。发生该情况的原因可能是在打印完毕前已将图窗关闭。 </entry>
+  </message>
+</rsccat>

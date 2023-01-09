@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidPeerAxes">パラメーター ''peer'' の後に Axes のハンドルを指定しなければなりません。</entry>
+    <entry key="SecondArgMustBeAxes">2 番目の引数は、スカラーの Axes のハンドルでなければなりません。</entry>
+    <entry key="UnknownCommandOption">不明なコマンド オプションです。</entry>
+    <entry key="ThirdArgMustBeAxes">3 番目の引数は、スカラーの Axes のハンドルでなければなりません。</entry>
+    <entry key="CannotAddToColorbar">カラー バーを別のカラー バーに追加できません。</entry>
+    <entry key="AxesHandleRequired">Axes のハンドルが必要です。</entry>
+    <entry key="HandleVertHorizExpected">COLORBAR は、入力として "vert" または "horiz" のハンドルが必要です。</entry>
+  </message>
+</rsccat>

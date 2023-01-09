@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MustBeChar">入力は、文字の行ベクトル、string スカラー、cellstr、または string 行列でなければなりません。</entry>
+    <entry key="StringMissingUnsupported">string 入力の欠損はサポートされていません。&lt;a href="https://www.mathworks.com/help/matlab/ref/rmmissing.html"&gt;rmmissing&lt;/a&gt; を使用して、string 配列から欠損値を削除してください。</entry>
+    <entry key="Builtin">組み込み</entry>
+  </message>
+</rsccat>

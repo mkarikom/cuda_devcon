@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PlotSelectedColumns">選択した列をプロット</entry>
+    <entry key="PlotAllColumns">すべての列をプロット</entry>
+    <entry key="ScatterPlotForSelectedColumns">選択した列に対する散布図プロット</entry>
+    <entry key="PlotAsMultipleSeriesVsFirstInput">複数のデータ列と最初の入力としてプロット</entry>
+    <entry key="PlotAsMultipleSeries">複数のデータ列としてプロット</entry>
+  </message>
+</rsccat>

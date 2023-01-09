@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonNumericData">円グラフは数値データでなければなりません。</entry>
+    <entry key="NoNonNegatveData">少なくとも 1 つの値が非負でなければなりません。</entry>
+    <entry key="NegativeData">負のデータを無視します。</entry>
+    <entry key="NonFiniteData">円グラフのデータはすべて有限でなければなりません。</entry>
+    <entry key="InvalidLabels">テキスト ラベルは string または文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="InvalidData">最初の引数は、少なくとも 1 つの空でないカテゴリをもつ categorical 配列でなければなりません。</entry>
+    <entry key="InvalidLabel">ラベルは、カテゴリと同数の要素をもつ string または文字ベクトルの cell 配列か、有効な形式の string でなければなりません。</entry>
+    <entry key="StringLengthMismatch">ラベルは X と同数の要素をもっているか、または有効な形式の string でなければなりません。</entry>
+    <entry key="ExplodeLengthMismatch">X と EXPLODE は同じ長さでなければなりません。</entry>
+    <entry key="InvalidExplodeType">カテゴリ名または logical インデックスで分割する扇型を指定します。</entry>
+    <entry key="InvalidExplodeLogical">logical ベクトルとして指定された分割は、カテゴリ数と同じ数の要素をもっていなければなりません。</entry>
+    <entry key="InvalidExplodeName">分割に無効なカテゴリ名が含まれています。</entry>
+  </message>
+</rsccat>

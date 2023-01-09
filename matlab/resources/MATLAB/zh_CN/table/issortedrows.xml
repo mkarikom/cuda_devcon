@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedMode">排序方向必须为 ''ascend''、''descend''、''monotonic''、''strictascend''、''strictdescend'' 或 ''strictmonotonic''。</entry>
+    <entry key="WrongLengthMode">对要排序的每个变量，Direction 必须具有一个与之对应的元素。</entry>
+    <entry key="EmptyRowNames">输入表未包含行名称，将返回 TRUE。</entry>
+    <entry key="BadNumericVarIndices">数值变量索引必须为正整数或负整数。</entry>
+    <entry key="NDVar">变量 ''{0}'' 必须为二维矩阵。</entry>
+    <entry key="IssortedOnRowFailed">对行标签执行 Issorted 操作失败。</entry>
+    <entry key="IssortedOnVarFailed">对变量 ''{0}'' 执行 Issorted 操作失败，其类为 ''{1}''。</entry>
+    <entry key="CellstrVar">不支持 Cellstr 变量。您也可以将 cellstr 变量 ''{0}'' 转换为字符串数组。</entry>
+    <entry key="NonConstantVarWidth">对变量 ''{0}'' 执行 issorted 操作失败，因为它包含可变数量的列。排序变量必须具有固定宽度。</entry>
+  </message>
+</rsccat>

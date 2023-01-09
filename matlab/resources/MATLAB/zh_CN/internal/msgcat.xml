@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="msgcatNotInitialized">操作失败，因为消息目录尚未初始化。</entry>
+    <entry key="msgcatInvalidResourcePath">路径 "{0}" 不是有效的消息目录资源路径</entry>
+    <entry key="msgcatInternalError">出现内部消息目录错误: {0}</entry>
+    <entry key="msgcatInvalidPathSupplied">提供的路径无效。 : {0}</entry>
+    <entry key="msgcatPathRemovalUnknownError">发生内部路径删除错误: {0} 路径: {1} </entry>
+    <entry key="msgcatResPathNotFound">未找到资源路径，或者未从 setAdditionalResourceLocation 添加资源路径。 : {0}</entry>
+    <entry key="msgcatResDirNotPresent">路径未包含 "resources" 目录。 : {0}</entry>
+  </message>
+</rsccat>

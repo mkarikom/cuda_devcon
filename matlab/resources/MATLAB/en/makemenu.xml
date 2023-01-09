@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="LabelsCallsSameRows">LABELS and CALLS must have the same number of rows.</entry>
+    <entry key="LabelsTagsSameRows">LABELS and TAGS must have the same number of rows.</entry>
+    <entry key="InvalidLabel" note="stringDatatypeUpdate">Label character vectors must have at least one character that''s not a "&gt;"</entry>
+    <entry key="EmptyField">Empty label field.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidSyntax">MROWS를 지정할 경우, NCOLS도 지정해야 합니다.</entry>
+    <entry key="InvalidTrailingStringArgument">대칭 유형은 ''symmetric'' 또는 ''nonsymmetric''이어야 합니다.</entry>
+  </message>
+</rsccat>

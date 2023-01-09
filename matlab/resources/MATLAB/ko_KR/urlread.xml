@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PostFailed">URL에 POST할 수 없습니다.</entry>
+    <entry key="Timeout">연결 시간이 초과되었습니다.</entry>
+    <entry key="UnknownHost">"{0}"의 IP 주소를 확인할 수 없습니다.</entry>
+    <entry key="FileNotFound">서버가 이 요청과 일치하는 리소스를 찾지 못했습니다.</entry>
+    <entry key="ConnectionFailed">URL을 다운로드하는 중 오류가 발생했습니다. 네트워크 연결이 해제되었거나 프록시 설정 구성이 잘못되었습니다.</entry>
+    <entry key="InvalidInput">유효하지 않은 파라미터/값 쌍 인수입니다.</entry>
+    <entry key="InvalidUrl">이 URL을 구문 분석할 수 없거나 프로토콜이 지원되지 않습니다.</entry>
+    <entry key="AuthenticationFailed">제공된 인증 메서드가 지원되지 않거나 제공된 사용자 이름 또는 비밀번호가 잘못되었습니다.</entry>
+    <entry key="ReplacingSpaces">공백을 %20으로 대체함</entry>
+  </message>
+</rsccat>

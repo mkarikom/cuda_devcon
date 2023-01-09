@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2010-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- Messages related to class API errors -->
+    <entry key="SaveVarsPropertyMembershipError">''{0}'' is not a public property for object {2} of class {1}.</entry>
+    <entry key="SaveVarsPropertyNameError">Object {2} of class {1} has no property of name ''{0}''.</entry>
+    <entry key="SaveVarsMethodMembershipError">''{0}'' is not a public method for object {2} of class {1}.</entry>
+    <entry key="SaveVarsMethodNameError">Object {2} of class {1} has no method of name ''{0}''.</entry>
+    <entry key="SaveVarsOverridedMethodError">Base method ''{0}'' for object {2} of class {1} was not written out because the method can only be called by the same method in a subclass.</entry>
+    <entry key="SaveVarsClassCustomizationAPICallError">From method ''{0}'' of object {1} --- {2}</entry>
+    <entry key="SaveVarsStreamPropValueGetError">From property ''{0}'' of object {1} --- {2}</entry>
+    <entry key="SaveVarsStreamClassErrorAsWarning" translate="false">{0}</entry>
+    <entry key="SaveVarsCustomizationAPIMissingStaticAttribError">Method ''{0}'' of class {1} should be defined as static method.</entry>
+    <entry key="SaveVarsGetConstructionStringError">Specify one argument of type string to the Static method ''{0}'' defined by class {1}.</entry>
+    <entry key="SaveVarsGetConstructorArgsError">Static method ''{0}'' defined by class {1} must return a one-dimensional cell array or an empty cell.</entry>
+    <entry key="SaveVarsDefinedMutuallyExclusiveMethodsError">Either method ''{0}'' or method  ''{1}'', but not both, can be defined by class {2}.</entry>
+    <entry key="SaveVarsCustomizationAPISealedAttribError">Method ''{0}'' of class {1} should not be defined as sealed method.</entry>
+    <entry key="SaveVarsUnsupportedClassInheritanceError">Method ''{0}'' defined by class {1} conflicts with other classes among the multiple inheritance.</entry>
+    <entry key="SaveVarsStreamClassConstructorRestricted">Cannot access constructor method in class ''{0}''.</entry>
+    <entry key="SaveVarsUnsupportedClass">unsupported class</entry>
+    <entry key="SaveVarsUnsupportedClassAt">unsupported class at {0}</entry>
+    <entry key="SaveVarsMemoryAllocateError">memory allocation error when processing {0}</entry>
+    <entry key="SaveVarsTooManyElems">too many elements</entry>
+    <entry key="SaveVarsTooManyElemsAt">too many elements at {0}</entry>
+    <entry key="SaveVarsTooManyLevels">too many levels of hierarchy {0}</entry>
+    <entry key="SaveVarsCyclicRef">cyclic reference detected at {0}</entry>
+    <entry key="SaveVarsRedefinedPropertyError">Some properties of superclass for object {0} are re-defined.</entry>
+    <entry key="SaveVarsEmptyObject">empty object</entry>
+    <entry key="SaveVarsStreamTooManyReturnArguments">Too many return arguments</entry>
+    <entry key="SaveVarsRunTimeProperties">The following objects have runtime properties: \n         {0} \n         These runtime properties are not preserved.</entry>
+    <entry key="SaveVarsSharedReferences">The following objects are referenced multiple times: \n         {0} \n         Their shared references are not preserved.</entry>
+    <!-- End of messages related to class API errors -->
+    <!-- Messages related to file operations errors -->
+    <entry key="SaveVarsMFileWriteError">MATLAB script write error.</entry>
+    <entry key="SaveVarsMFileReadError">MATLAB script read error.</entry>
+    <entry key="SaveVarsMFileOpenW">The MATLAB script ''{0}'' cannot be opened. Please verify the pathname and filename.</entry>
+    <entry key="SaveVarsMFileRename">The MATLAB script ''{0}'' does not have correct access permissions.</entry>
+    <entry key="SaveVarsEmptyOrLargeFile">The MATLAB script ''{0}'' is empty or is too large to process.</entry>
+    <entry key="SaveVarsEmptyCodeLine">The MATLAB script ''{0}'' contains no executable code. Use 'SaveMode' 'create' to first generate the MATLAB script.</entry>
+    <entry key="SaveVarsInvalidMFile">The MATLAB script ''{0}'' is invalid.</entry>
+    <entry key="SaveVarsMATFileDeletionFail">The deletion of MAT-file ''{0}'' failed.</entry>
+    <entry key="SaveVarsMATFileCleanup">The associated MAT-file ''{0}'' no longer contains any variables and has been deleted.</entry>
+    <entry key="SaveVarsMATFileCreation">The variables that could not be saved into MATLAB script are saved \ninto MAT-file ''{0}''.</entry>
+    <entry key="SaveVarsMATFileSaveFailed">The MAT-file ''{0}'' could not be saved.</entry>
+    <entry key="SaveVarsMATFileDeletion">The MAT-file ''{0}'' is no longer used by the corresponding MATLAB script and has been deleted.</entry>
+    <entry key="SaveVarsDirCommandFailed">"dir command on ''{0}'' failed."</entry>
+    <entry key="SaveVarsTempFileOpen">The temporary MATLAB script ''{0}'' cannot be created.</entry>
+    <entry key="SaveVarsTempDir">Using the options ''update'' or ''append'' for ''SaveMode'' requires a temporary directory returned by the MATLAB command tempdir.</entry>
+    <entry key="SaveVarsNoVariablesUpdated">None of the specified variables exist in ''{0}''. The file is not changed.</entry>
+    <entry key="SaveVarsErrInMFileLoad" translate="false">''{0}''</entry>
+    <entry key="SaveVarsNoVariables">The MATLAB script ''{0}'' does not have valid variables to update.</entry>
+    <entry key="SaveVarsNonExpressionStatement">In the MATLAB script ''{0}'', the statements starting from the line(s) {1}, are neither expressions nor function calls, or may lack '';'' at the end.</entry>
+    <entry key="SaveVarsFirstArgumentMustBeFileName">Specify first argument as a valid MATLAB script name.</entry>
+    <entry key="SaveVarsArgumentMustBeCellArrayOrString">Specify second argument as a variable name, a cell array of variable names, or a name of a property.</entry>
+    <!-- End of messages related to file operations errors -->
+    <!-- Messages related to option handling errors -->
+    <entry key="SaveVarsPropertySpecifiedMoreThanOnce">Specify ''{0}'' only once.</entry>
+    <entry key="SaveVarsPrefsMaxNumberElements">Maximum elements in an array</entry>
+    <entry key="SaveVarsPrefsMaxNumberLevels">Maximum levels of nesting</entry>
+    <entry key="SaveVarsPrefsUsing2dSlice">Use 2-D slice</entry>
+    <entry key="SaveVarsPrefs2dSliceDimensions">Dimensions for 2-D slice</entry>
+    <entry key="SaveVarsPrefsTextWidth">Maximum characters per line</entry>
+    <entry key="SaveVarsVersionsAreExclusive">The v{0} option cannot be used in combination with the v{1} option.</entry>
+    <entry key="SaveVarsMissingCutoffSizeNumber">''{0}'' must be followed by an integer number.</entry>
+    <entry key="SaveVarsPrefsMissing2DSliceDimensionNumber">The value for ''{0}'' must be 'rowvector' or a 1-by-2 array of positive integer numbers to specify the dimensions of the 2D slice.</entry>
+    <entry key="SaveVarsPrefsDimensionsMustbeTwoIntegers">The value for ''{0}'' must be a 1-by-2 array of positive integers.</entry>
+    <entry key="SaveVarsPrefsInvalid2DSliceDimensionNumber">The array values for 'MultidimensionalFormat' must be positive integers and must fall between {0,number,integer} and {1,number,integer}, and the first array value must be smaller than the second. </entry>
+    <entry key="SaveVarsPrefsEntryMustbeIntegralNumber">The value for ''{0}'' must be a positive integer.</entry>
+    <entry key="SaveVarsMissingArg">Specify a value for argument ''{0}''.</entry>
+    <entry key="SaveVarsArrayDimsMissingArg">The value for 'MultidimensionalFormat' is missing.</entry>
+    <entry key="SaveVarsArrayDimsNotInteger">The array values for 'MultidimensionalFormat' must be positive integers and the first array value must be smaller than the second.</entry>
+    <entry key="SaveVarsValueOutOfRangeError">The value for ''{0}'' must be a positive integer within the range {1,number,integer} to {2,number,integer}.</entry>
+    <entry key="SaveVarsUnknownOptionArg">The command option ''{0}'' is invalid.</entry>
+    <entry key="SaveVarsArgDataTypeMismatch" note="stringDatatypeUpdate">Argument {0,number,integer} must be a non-empty character vector.</entry>
+    <entry key="SaveVarsArgUnknownValue">Invalid value ''{0}'' for ''{1}''.</entry>
+    <entry key="SaveVarsInvalidCellArray" note="stringDatatypeUpdate">Specify argument {0, number, integer} as a valid cell array of character vectors.</entry>
+    <entry key="SaveVarsInvalidSyntax">Specify arguments in the correct order. Refer to documentation.</entry>
+    <entry key="SaveVarsNoSaveTempVariables">''{0}'' and ''{1}'' are reserved variable names. The variables with these names cannot be saved to MATLAB script.</entry>
+    <entry key="SaveVarsTooManyInputArg">Too many input arguments.</entry>
+    <entry key="SaveVarsTooManyOutputArg">Too many output arguments.</entry>
+    <entry key="SaveVarsTooFewInputArg">Not enough input arguments.</entry>
+    <entry key="SaveVarsOptionMutualExclusive">Options 'create', 'update', and 'append' are mutually exclusive.</entry>
+    <entry key="SaveVarsNOMatchingVariables">No matching variables in current workspace.</entry>
+    <entry key="SaveVarsVariableNameCollision">The name ''{0}'' is not a valid MATLAB script name, or collides with a variable name in the current workspace.</entry>
+    <!-- End of messages related to option handling errors -->
+    <!-- Messages related to syntax errors in .M files, errors related to variables -->
+    <entry key="SaveVarsHeaderInFront">Line {0,number,integer} of MATLAB script ''{1}'': The generated header section should appear before first MATLAB code Line {2,number,integer}.</entry>
+    <entry key="SaveVarsSharedCodeLine">Line(s) {0} of MATLAB script ''{1}'' are shared by multiple MATLAB code statements.</entry>
+    <entry key="SaveVarsMATVarsLoadAgain">Line {0,number,integer} of MATLAB script ''{1}'': ''{2}'' can be loaded only once from MAT-file.</entry>
+    <entry key="SaveVarsInvalidLoadSyntax">In line {0,number,integer} of MATLAB script ''{1}'', variable ''{2}'' should be loaded from the MAT-file ''{3}'' using the syntax ''{4}''.</entry>
+    <entry key="SaveVarsLoadNotAtFirst">In line {0,number,integer} of MATLAB script ''{1}'': The line that loads variable ''{2}'' should be the first executable line in MATLAB script.</entry>
+    <entry key="SaveVarsClearFuncSyntax">In line {0,number,integer} of MATLAB script ''{1}'': Variable ''{2}'' should be cleared using the syntax "{3}(''{4}'');".</entry>
+    <entry key="SaveVarsClearNotAtLast">Line {0,number,integer} of MATLAB script ''{1}'': Variable ''{2}'' should be cleared by the last executable line in MATLAB script using the syntax "{3}(''{4}'');".</entry>
+    <entry key="SaveVarsMATVariableSyntax">Line {0,number,integer} of MATLAB script ''{1}'': Variable ''{2}'' can be used only to restore a variable from a MAT-file using a syntax like "{3}".</entry>
+    <entry key="SaveVarsMultiVariablesSyntax">Line {0,number,integer} of MATLAB script ''{1}'': Variable ''{2}'' should be assigned a value in a separate line.</entry>
+    <entry key="SaveVarsMATLoadMissing">Line {0,number,integer} of MATLAB script ''{1}'': Variable ''{2}'' can be used to restore a variable only after ''{3}'' has been loaded from MAT-file.</entry>
+    <entry key="SaveVarsLoadHeaderOff">Line {0,number,integer} of MATLAB script ''{1}'': The load statement for temporary variable ''{2}'' should appear immediately after the generated header section.</entry>
+    <entry key="SaveVarsOverlappedSyntax">In MATLAB script ''{0}'', variable(s) {1} have interleaved MATLAB code statements.</entry>
+    <entry key="SaveVarsErrorInClearCommand">"Error in clear command ''{0}''."</entry>
+    <entry key="SaveVarsErrorInFschangeCommand">"Error in fschange command ''{0}''."</entry>
+    <!-- End of messages related to syntax errors in .M files, errors related to variables -->
+  </message>
+</rsccat>

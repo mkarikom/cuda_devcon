@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ClosingModelDuringAnimation">Stateflow 图正在运行。请在关闭 Stateflow Editor 之前停止执行。</entry>
+    <entry key="ModelContainsErrorNoCodegen">代码生成失败，因为独立 Stateflow 图 {0} 包含以下错误:\n {1}</entry>
+    <entry key="SFXVersionMismatchFix">用当前版本的 MATLAB 保存图 {0}。原始版本保存在 {1} 中。</entry>
+    <entry key="SFXModelPathChanged">无法执行由 {0} 定义的 Stateflow 图对象，因为图 {1} 遮蔽了它。</entry>
+    <entry key="MATLABCoderErrorAllDataNotInitialized">Stateflow 图 {0} 中存在未初始化的数据 {1}。要生成代码，请在 "符号" 窗格中或在创建图对象时输入图数据的初始值。</entry>
+    <entry key="MATLABCoderTemporalWarning">在为图 {0} 生成的代码中，绝对时间时序逻辑运算符不会生成隐式事件。通过调用 step 函数或显式输入事件函数唤醒图。</entry>
+    <entry key="MATLABCoderEventQueueWarning">无法设置图 {0} 的事件队列大小，因为代码生成不支持事件排队。</entry>
+    <entry key="TemporalDeferred">当图完成当前动作时，时序逻辑运算 {0} 将执行。</entry>
+    <entry key="TimerPrecisionLost">{0} 中时序逻辑运算符的参数的精度限制为 1 毫秒。</entry>
+    <entry key="NonInstrumentedMode">图 {0} 的调试和图动画处于禁用状态。要在 Stateflow Editor 中执行此图，请先输入Stateflow.App.Cdr.CdrConfMgr.generateCleanMATLABCode(false)，然后保存图。也可以从 MATLAB 命令行窗口中执行此图。</entry>
+    <entry key="NonInstrumentedModeEnabled">在动画和调试处于禁用状态时为独立 Stateflow 图生成 MATLAB 代码。要启用动画和调试，请输入 Stateflow.App.Cdr.CdrConfMgr.generateCleanMATLABCode(false)。</entry>
+    <entry key="ClassFilenameMismatch">{0}Stateflow 图 {1} 在保存后进行了重命名。要执行该图，请将名称更改回 {2}，或重新保存图。</entry>
+    <entry key="SFLicenseMissingForSFX">要编辑 Stateflow 图，您需要 Stateflow 许可证。有关 Stateflow 的详细信息，请&lt;a href="https://www.mathworks.com/products/stateflow.html"&gt;点击此处&lt;/a&gt;。</entry>
+    <entry key="SFNotInstalledForSFX">要编辑 Stateflow 图，请安装 Stateflow。有关 Stateflow 的详细信息，请&lt;a href="https://www.mathworks.com/products/stateflow.html"&gt;点击此处&lt;/a&gt;。</entry>
+    <entry key="InvalidSFXFileName">无效的 Stateflow 图名称 {0}。有关有效图名称的详细信息，请&lt;a href="matlab:sfhelp('stateflow_naming_rules')"&gt;点击此处&lt;/a&gt;。</entry>
+    <entry key="IllegalTemporalOnShadowedTransition">{0}: 不支持对被遮蔽的转移使用时序运算符。为避免转移遮蔽:\n * 从每个状态或结点创建不超过一个无条件转移。\n * 显式指定无条件转移在任何有条件转换后执行。</entry>
+    <entry key="IllegalCountOnShadowedTransition">{0}: 不支持对被遮蔽的转移使用 ''count'' 运算符。为避免转移遮蔽:\n * 从每个状态或结点创建不超过一个无条件转移。\n * 显式指定无条件转移在任何有条件转换后执行。</entry>
+    <entry key="SaveStateflowChart">保存 Stateflow 图</entry>
+    <entry key="LoadStateflowFirstToDebug">要调试图 {0}，请首先打开任何图以加载 Stateflow。</entry>
+    <entry key="SFXCanNotOpenInCoder">{0} 是一个 Stateflow 图。要打开，请点击 "Edit in MATLAB"。</entry>
+    <entry key="StateflowEditor">Stateflow Editor</entry>
+    <entry key="SFXOpenQuestDlgMsg">文件 {0} 不存在。是否要创建它?</entry>
+    <entry key="StopUnitTestingForCommandLine">当 Stateflow Editor 正在执行图 {0} 时，无法执行图对象。要执行新的图对象，请先点击 "Stop"。</entry>
+    <entry key="LoadingStateflowForDebugStepIn">正在打开 Stateflow 图 {0}。</entry>
+    <entry key="StateflowNeededForDebug">无法打开图 {0}。调试图需要使用 Stateflow。</entry>
+    <entry key="ClearAllWarningIgnored">Stateflow 运行时被清除。这可能是因为您使用了 "全部清除"，但没有重新打开 Stateflow 模型。请关闭所有打开的 Stateflow 模型以执行。</entry>
+    <entry key="CountExpressionInvalid">无法计算状态 {0} 中或其某一出向转移中的计数条件({1})。</entry>
+    <entry key="AutoResolveWarning">Stateflow 图 {0} 中存在自动解析的符号 {1}。</entry>
+    <entry key="InvalidEvent">{0}: 输入事件 {1} 的使用无效。输入事件只能用作触发器。</entry>
+    <entry key="InvalidTemporal">{0}: 时序运算符 {1} 的使用无效。时序运算符只能用作触发器。</entry>
+    <entry key="PermissionsDeniedSFX">创建文件 {0} 时出错。权限被拒绝。选择可写文件夹以进行保存。</entry>
+    <entry key="InvalidStepOrEventArgument">执行 Stateflow 图对象 {1} 时，参数 {0} 无效。</entry>
+    <entry key="StepOrEventArgumentErrorDataNameIncorrect">参数 {0} 中出错: Stateflow 对象 {1} 没有数据 ''{2}''。</entry>
+    <entry key="StepOrEventArgumentErrorNoValue">没有为 Stateflow 图对象 {1} 的数据 {0} 提供值。</entry>
+    <entry key="debugModeError">无法设置断点，因为 1. 调试模式被禁用；或 2. 文件名无效；或 3. 断点行号无效。</entry>
+    <entry key="InvalidBreakpointCondition">无效的条件表达式。用引号指定条件。</entry>
+    <entry key="BreakpointTransitionTested">断点: 转移已测试</entry>
+    <entry key="BreakpointTransitionValid">断点: 转移有效</entry>
+    <entry key="BreakpointStateEntry">断点: entry 状态</entry>
+    <entry key="BreakpointStateDuring">断点: during 状态</entry>
+    <entry key="BreakpointStateExit">断点: exit 状态</entry>
+    <entry key="BreakpointChartEntry">断点: entry 图</entry>
+    <entry key="BreakpointEMLFunction">断点: EML 函数</entry>
+    <entry key="BeforeTestingOfTransition">测试转移 {0} 前</entry>
+    <entry key="AfterActivationOfTransition">激活转移 {0} 后</entry>
+    <entry key="JustBeforeEnteringState">即将进入状态 {0} 之前</entry>
+    <entry key="DuringState">During: 状态 {0}</entry>
+    <entry key="ExitState">Exit: 状态 {0}</entry>
+    <entry key="EntryChart">Entry: 图 {0}</entry>
+    <entry key="EMLFunction">During: EML 函数 {0}</entry>
+    <entry key="StateflowChart">Stateflow 图</entry>
+    <entry key="ExecutionFunction">执行函数</entry>
+    <entry key="ConstantData">常量数据</entry>
+    <entry key="InputData">输入数据</entry>
+    <entry key="LocalData">本地数据</entry>
+    <entry key="OutputData">输出数据</entry>
+    <entry key="InputEventFunctions">输入事件函数</entry>
+    <entry key="ActiveStates">激活状态:</entry>
+    <entry key="OpeningInOlderRelease">无法打开 Stateflow 图 {0}，因为它是用 Stateflow 的较新版本({1})创建的。</entry>
+    <entry key="NameCollisionForLoopCounter">数据名称冲突。请勿将 {0} 用作 {1} 中的循环计数器。</entry>
+    <entry key="NameCollisionAnonymousFcnInput">数据名称冲突。请勿将 {0} 用作 {1} 中的匿名函数参数。</entry>
+    <entry key="NameCollisionInlineFcnInputOutput">数据名称冲突。请勿将 {0} 用作 {1} 中内联函数的输入或输出参数名称。</entry>
+    <entry key="InvalidSFXName"> {0} 是无效名称，因为它与保留的关键字或图名称冲突。</entry>
+    <entry key="UnsupportedObject">独立 Stateflow 图不支持 {0}。有关详细信息，请参阅&lt;a href="matlab:helpview('stateflow','sf4ml_limitations')"&gt;文档&lt;/a&gt;。</entry>
+    <entry key="EmptyDataAfterInitialization">Stateflow 图对象 {0} 有未初始化的数据 {1}。</entry>
+    <entry key="InvalidConstructorArgumentNameWithNoValue">无法创建图对象 {1}，因为 ''{0}'' 的值缺失。</entry>
+    <entry key="DifferentSourceAndDestination">文件名 {0} 无效。导出的文件不能与源图同名。</entry>
+    <entry key="InvalidConstructorArgument">创建 Stateflow 图对象 {1} 时，参数 {0} 无效。</entry>
+    <entry key="ConstructorOutputMismatch">创建 Stateflow 图对象 {0} 需要 1 个输出参数，但却提供了 {1} 个。</entry>
+    <entry key="VersionMismatch">图 {0} 是用不同版本的 Stateflow 保存的。请重新保存该图后再执行。</entry>
+    <entry key="UnresolvedSymbolsPresentIn">Stateflow 图 {0} 包含未解析的符号。</entry>
+    <entry key="InvalidSymbolWindowWorkspaceValue">{2} 的 Symbols 窗口中的数据 {1} 的值 ''{0}''(''{3}'')无效。将值重置为 0。仅支持数值、字符或逻辑值。</entry>
+    <entry key="InvalidSymbolWindowValue">{2} 的 Symbols 窗口中的数据 {1} 的值 ''{0}'' 无效。将值重置为 0。</entry>
+    <entry key="SymbolUIInputUninitializedNotification">在 Symbols 窗口中指定输入数据的值。</entry>
+    <entry key="BreakpointFail">无法在断点处设置或停止。</entry>
+    <entry key="SLXShadowing">MATLAB 路径上存在具有相同名称 {0} 的 Simulink 模型且它遮蔽了 {1}。请重命名其中一个模型或将其移出 MATLAB 路径。</entry>
+    <entry key="ClearAll">此操作会清除所有 Stateflow 图对象的运行时信息。要执行图对象，请关闭并重新打开所有 Stateflow 图。</entry>
+    <entry key="GFError">{0}: 处理图形函数时出错。可能的原因包括: \n 1.图形函数名称无效。\n 2.图形函数中有语法错误。\n 3.图形函数中的对象无效。\n 4.图形函数中对象存在重叠。</entry>
+    <entry key="FileNotOnPath">Stateflow 图 {0} 已打开，但位置 {1} 不在 MATLAB 路径上。请更改目录或将此位置添加到 MATLAB 路径。</entry>
+    <entry key="StaleSFXObject">创建对象后修改了 Stateflow 图 {0}。</entry>
+    <entry key="SFXNotSaved">Stateflow 图 {0} 有未保存的更改。请先保存后再执行。</entry>
+    <entry key="RuntimeException">{0} 中有运行时错误 \n {1}</entry>
+    <entry key="UnhandledError">保存 Stateflow 图时出现内部错误。{0}: {1}</entry>
+    <entry key="InternalError">内部错误: {0}: {1}</entry>
+    <entry key="UnsupportedDataType">数据类型不受支持。</entry>
+    <entry key="LintErrorOff">通过选择 "编辑时错误和警告"，启用编辑时错误检查。</entry>
+    <entry key="OrigAndRenamedModelOpen">无法保存 {0}，因为另一个同名图已打开。</entry>
+    <entry key="RenamedModelNeedsSave">无法保存 {0}，因为另一个同名图已打开。</entry>
+    <entry key="UnrecognizedType">无法识别的部分类型</entry>
+    <entry key="ParseErrorInSectionString">{0} 中存在解析错误: {1}</entry>
+    <entry key="ReturnInStateTransition">{0}: 在状态或转移中不支持 ''return''。</entry>
+    <entry key="ParseErrorIn">{0}: 解析错误 {1}。</entry>
+    <entry key="UninitializedConstantData">在 Symbols 窗口中指定 {0} 的初始值。</entry>
+    <entry key="WrongNumberOfInputsToStep">''step'' 函数需要 {0} 个参数，但却提供了 {1} 个。</entry>
+    <entry key="TemporalArgumentMustBePositiveScalarDouble">时序运算符 {0} 的参数必须是非负双精度标量。</entry>
+    <entry key="SameNameModelOpen">打开 {0} 时出错: 已从 {1} 打开同名模型。请使用 ''bdclose all;'' 或 ''clear all;'' 清空所有 SFX 缓存；</entry>
+    <entry key="InvalidTemporalCount">{0}: ''temporalCount'' 运算符使用一个参数(''sec''、''msec'' 或 ''usec'')。</entry>
+    <entry key="InvalidElapsed">{0}: ''elapsed'' 运算符使用一个参数(''sec'')。</entry>
+    <entry key="InvalidTrigger">{0}: 转移触发器必须为事件或时序逻辑运算符。</entry>
+    <entry key="HistoryJunctionInDefaultPath">{0}: 默认转移路径中的历史结点无效。</entry>
+    <entry key="InvalidOnCondition">{0}: 'On' 条件只能包含事件或时序逻辑运算符。</entry>
+    <entry key="CannotReadFile">无法读取文件 ''{0}''。</entry>
+    <entry key="InvalidFilePath">无效的文件路径 {0}。</entry>
+    <entry key="InvalidFileName">文件名 {0} 无效。</entry>
+    <entry key="InvalidInState">在 {0} 中: 在此级别不存在状态 {1}。</entry>
+    <entry key="InvalidInInputs">{0}: ''in'' 运算符使用一个参数(限定了作用域的状态名称)。</entry>
+    <entry key="InvalidHasChangedInputs">{0}: ''HasChanged'' 运算符使用一个参数(数据对象)。</entry>
+    <entry key="InvalidHasChangedToFromInputs">{0}: ''HasChangedTo'' 和 ''hasChangedFrom'' 运算符使用两个参数(一个数据对象和一个值)。</entry>
+    <entry key="InvalidHasChangedInputArgumentOne">{0}: 无效参数。在独立 Stateflow 图中，更改检测运算符的第一个参数必须是图数据名称，而不是单个矩阵元素或结构体字段。</entry>
+    <entry key="InvalidTemporalInputs">{0}: 时序运算符使用两个参数。第一个参数是双精度值。可选的第二个参数是 ''tick''、''sec'' 或输入事件。</entry>
+    <entry key="IllegalTemporalOnMultipleStates">{0}: 可从多个状态到达的转移不支持时序运算符。</entry>
+    <entry key="IllegalTemporalOnDefaultTransition">{0}: 默认转移和图形函数中的转移不支持时序运算符。</entry>
+    <entry key="InvalidCountInputs">{0}: ''count'' 运算符使用一个参数(逻辑值)。</entry>
+    <entry key="IllegalCountOnDefaultTransition">{0}: 默认转移和图形函数中的转移不支持 ''count'' 运算符。</entry>
+    <entry key="IllegalCountOnMultipleStates">{0}: 可从多个状态到达的转移不支持 ''count'' 运算符。</entry>
+    <entry key="PersistentNotAllowed">{0}: Stateflow 图中不支持持久性变量。</entry>
+    <entry key="IllegalTemporalWithInputData">{0}: 具有输入数据的图中不支持绝对时间时序逻辑。</entry>
+    <entry key="UnsupportedStateLocalDataEventMessageFunction">{0} 是状态级别的局部数据或函数。不支持状态级别的局部数据和函数。</entry>
+    <entry key="CodeGenerationNotSupportedForTimers">{0}: 代码生成不支持绝对时间时序逻辑。</entry>
+    <entry key="ResaveWarning">Stateflow 图 {0} 已重命名为 {1}。请重新保存该图后再执行。</entry>
+    <entry key="SavedWithErrorsStage">保存时出错。</entry>
+    <entry key="SavedWithErrors">模型保存成功，但存在错误。</entry>
+    <entry key="SaveSuccessStage">成功</entry>
+    <entry key="SaveFailureStage">失败</entry>
+    <entry key="StopRunBeforeClosing">{0} 正在运行。是否要停止它并关闭图?</entry>
+    <entry key="SFXModelIsRunning">不支持同时执行多个独立图的单元测试。在对图 {1} 执行单元测试之前，请停止对图 {0} 执行。 </entry>
+    <entry key="RecursionLimitReached">已达到 Stateflow 图中递归调用的最大数量。有关如何避免不必要的递归的信息，请&lt;a href="matlab:sfhelp('avoid_unwanted_recursion')"&gt;点击此处&lt;/a&gt;。</entry>
+    <entry key="QueueIsFull">无法处理事件或时序逻辑运算，因为图达到 {0} 的最大队列大小。有关详细信息，请参阅&lt;a href="matlab:helpview('stateflow','sf4ml-events')"&gt;独立图中的事件&lt;/a&gt;。</entry>
+    <entry key="NotAValidRelease">''{0}'' 不是有效的目标版本。</entry>
+    <entry key="RuntimeError">{0}</entry>
+    <entry key="EditTimeWarning">{0}:  {1}</entry>
+  </message>
+</rsccat>

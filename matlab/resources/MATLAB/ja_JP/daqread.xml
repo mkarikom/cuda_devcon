@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="notEnoughInputs">入力引数が不足しています。</entry>
+    <entry key="tooManyInputs">入力引数が多すぎます。</entry>
+    <entry key="tooManyOutputs">入力引数が多すぎます。</entry>
+    <entry key="invalidFilename">無効なファイル名が daqread に指定されました。</entry>
+    <entry key="invalidFile">指定されたファイル ''{0}'' が開けません。</entry>
+    <entry key="invalidDAQFile">''{0}'' は、有効な Data Acquisition Toolbox ファイルではありません。</entry>
+    <entry key="truncatedFile">ファイルが打ち切られました。可能な限り多くのデータを復元しようとしています。</entry>
+    <entry key="cannotRead">データ ファイルを読み取ることができません。ファイルの読み取り中に以下のエラーが発生しました。\n {0}。</entry>
+    <entry key="invalidSecondArgument">指定した 2 番目の引数が無効です。</entry>
+    <entry key="onlyDataReturned">''OutputFormat'' が ''tscollection'' に設定されている場合、1 つの左辺の引数のみ指定可能です。</entry>
+    <entry key="noMatrixTimeWithTSC">''OutputFormat'' が ''tscollection'' に設定されている場合、''TimeFormat'' を ''matrix'' に設定できません。</entry>
+    <entry key="warnSampleRange">SampleRate プロパティが外部のクロック レートを示さない場合、要求されるサンプルは正しくない可能性があります。''Samples'' の範囲を指定してみてください。</entry>
+    <entry key="errorSampleRange">ファイルの読み取り中にエラーが発生しました。''Samples'' の範囲を指定してみてください。</entry>
+    <entry key="tooManySamples">利用可能な数以上のサンプルが要求されました。{0} サンプルのみ利用可能です。</entry>
+    <entry key="fileTooLarge">ファイルはプログラムに読み取るには大きすぎます。''Samples'' を使用してサンプル範囲を指定してみてください。</entry>
+    <entry key="dataConversion">データを double 形式に変換中にエラーが発生しました。''DataFormat'' を ''native'' に指定してみてください。</entry>
+    <entry key="noRecordType">レコード タイプは、ヘッダーで利用可能ではありません。</entry>
+    <entry key="invalidProperty">無効なプロパティ ''{0}'' が daqread に指定されました。</entry>
+    <entry key="invalidPropertyValuePair">無効なプロパティと値のペアが daqread に指定されました。</entry>
+    <entry key="invalidSamplesRange">無効な ''Samples'' の範囲が要求されました。</entry>
+    <entry key="invalidSamplesTwoElementRange">''Samples'' は 2 要素の範囲として指定しなければなりません。</entry>
+    <entry key="invalidSamplesInt">Samples は整数値を指定しなければなりません。</entry>
+    <entry key="timeTwoElement">''Time'' は 2 要素の範囲として指定しなければなりません。</entry>
+    <entry key="timePositive">''Time'' は正でなければなりません。</entry>
+    <entry key="mutuallyExclusiveProperties">''{0}'' と ''{1}'' プロパティは互いに排他的です。</entry>
+    <entry key="invalidTriggerIndex">''Trigger'' のインデックス {0} が無効です。</entry>
+    <entry key="invalidTrigger">''Trigger'' は 1 つのトリガーまたは 2 要素の範囲として指定しなければなりません。</entry>
+    <entry key="triggerInt">''Trigger'' は整数値を指定しなければなりません。</entry>
+    <entry key="invalidChannelName">無効なチャネル名が指定されました。</entry>
+    <entry key="invalidChannelsIndex">''Channels'' のインデックス {0} が無効です。</entry>
+    <entry key="invalidChannelsIndexMax">''Channels'' インデックス {0} は利用可能なチャネルの数 {1} を超過しました。</entry>
+    <entry key="invalidChannelsInt">''Channels'' は整数値を指定しなければなりません。</entry>
+    <entry key="invalidDataFormat">''DataFormat'' {0} が無効です。''DataFormat'' は ''double'' または ''native'' のいずれかになります。</entry>
+    <entry key="invalidTimeFormat">''TimeFormat'' {0} が無効です。''TimeFormat'' は ''vector'' または ''matrix'' のいずれかになります。</entry>
+    <entry key="invalidOutputFormat">''OutputFormat'' {0} が無効です。''OutputFormat'' は ''matrix'' または ''tscollection'' のいずれかになります。</entry>
+    <entry key="invalidTimeSeries">無効な時間ベクトル: 最後の要素に予期しない NaN があります。</entry>
+    <entry key="legacySupportDeprecated">関数 ''{0}'' は非推奨であり、今後のリリースで削除されます。\n</entry>
+  </message>
+</rsccat>

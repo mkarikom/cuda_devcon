@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BehaviorFlags">不支持 ''R2012a'' 和 ''legacy'' 标志。</entry>
+    <entry key="DifferentVars">VARS 必须在 A 和 B 中指定相同的变量。</entry>
+    <entry key="DisjointVars">A 和 B 必须包含相同的变量。</entry>
+    <entry key="RepeatedFlag">不能多次指定 ''{0}'' 标志。</entry>
+    <entry key="SetOrderConflict">可以指定 ''sorted'' 或 ''stable''，但不能同时指定二者。</entry>
+    <entry key="TypeMismatch">A 和 B 必须均为表，或者均为时间表。</entry>
+    <entry key="UnknownFlag">标志 ''{0}'' 无法识别。有效的标志为 ''stable'' 和 ''sorted''。</entry>
+    <entry key="UnknownInput">输入无效。有效的标志为 ''stable'' 和 ''sorted''。</entry>
+    <entry key="UnknownFlag2">标志 ''{0}'' 无法识别。</entry>
+    <entry key="UnknownInput2">输入无效。有效标志必须为字符串或字符向量。</entry>
+    <entry key="VarVertcatMethodFailed">无法合并 A 和 B 中的 ''{0}'' 变量。</entry>
+    <entry key="Mx0NotSupported">代码生成不支持将 M×0 表用作 ''{0}'' 的输入。</entry>
+  </message>
+</rsccat>

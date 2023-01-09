@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NodeNamesNotSupported">코드 생성에는 노드 이름이 지원되지 않습니다.</entry>
+    <entry key="MethodNotSupported">코드 생성에 지원되지 않는 메서드입니다.</entry>
+    <entry key="PropertiesCannotBeAdded">그래프 또는 유방향 그래프가 생성된 후에는 속성을 추가할 수 없습니다.</entry>
+    <entry key="PropertiesMissing">코드를 생성하려면 모든 속성값을 지정해야 합니다.</entry>
+    <entry key="SparseNodePairs">코드 생성에 지원되지 않는 희소 노드 쌍입니다.</entry>
+    <entry key="ComplexNodeID">숫자형 노드 ID는 실수여야 합니다.</entry>
+  </message>
+</rsccat>

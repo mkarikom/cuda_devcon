@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed">
+  <message>
+	<entry key="filesFoundIn">Files Found in: {0}</entry>
+	<entry key="filesFoundInCurrentFolder">Files Found in Current Folder:</entry>
+	<entry key="fileOrDirNotFound">''{0}'' not found.</entry>
+	<entry key="invalidGlob">Characters adjacent to a ** wildcard must be file separators.</entry>
+	<entry key="locationEmpty">Location is empty.</entry>
+	<entry key="noPatternMatches">No matches for pattern ''{0}''.</entry>
+	<entry key="pathnameTooLong">Pathname ''{0}'' is too long.</entry>
+	<entry key="SuccessiveGlobs">The recursive pattern ''**'' cannot be supplied more than once when only separated by the file separator.</entry>
+  </message>
+</rsccat>

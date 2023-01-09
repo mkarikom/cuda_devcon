@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidObject">레이아웃에 추가할 객체는 배치가 가능해야 합니다.</entry>
+    <entry key="DuplicateEntry">이 객체는 이미 레이아웃에 추가되었습니다.</entry>
+    <entry key="InvalidLocation">위치는 ''north'', ''south'', ''east'', ''west'' 중 하나여야 합니다.</entry>
+    <entry key="InvalidList">목록 입력값은 ''inner'' 또는 ''outer'' 중 하나여야 합니다.</entry>
+    <entry key="InconsistentState">내부 상태가 일치하지 않으므로 좌표축 레이아웃을 수행할 수 없습니다.</entry>
+  </message>
+</rsccat>

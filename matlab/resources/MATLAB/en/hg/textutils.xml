@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="rectangle2DtoMx">Insufficient memory to allocate matrix for text bounds</entry>
+    <entry key="InputArgumentNotFont">The input argument was not of type Font.</entry>
+    <entry key="ExpectedScalarFontObject">Expected a scalar font object.</entry>
+    <entry key="invalidContext">This method must be invoked from within a doUpdate.</entry>
+    <entry key="StringSyntaxError" note="stringDatatypeUpdate">String scalar or character vector must have valid interpreter syntax.</entry>
+  </message>
+</rsccat>

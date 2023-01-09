@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidIRI">''{0}'' は有効な URL ではありません。</entry>
+    <entry key="unsupportedProvider">''{0}'' にはサポートされていないプロバイダーが含まれています。</entry>
+    <entry key="changeEventsNotSupported">変更イベントは ''{0}'' ではサポートされていません。</entry>
+    <entry key="subscriptionError">サブスクリプション エラーが ''{0}'' で発生しました。</entry>
+    <entry key="folderNotEmpty">場所 ''{0}'' は空ではありません。</entry>
+    <entry key="invalidLocation">''{0}'' は有効な場所ではありません。</entry>
+    <entry key="permissionDenied">''{0}'' でアクセスが許可されていません。</entry>
+    <entry key="resourceAlreadyExists">リソース ''{0}'' は既に存在します。</entry>
+    <entry key="resourceNotFound">場所 ''{0}'' が見つかりませんでした。</entry>
+    <entry key="readOnlyProvider">場所 ''{0}'' は読み取り専用です。</entry>
+    <entry key="fileTooLarge">リソース ''{0}'' は大きすぎます。</entry>
+    <entry key="resourceInUse">リソース ''{0}'' は現在使用されています。</entry>
+    <entry key="noSpaceLeft">''{0}'' で操作を実行するスペースが残されていません。</entry>
+    <entry key="ioError">''{0}'' で低水準のエラーが発生しました。</entry>
+    <entry key="internalError">''{0}'' で内部エラーが発生しました。</entry>
+    <entry key="unsupportedOperation">この操作は ''{0}'' ではサポートされていません。</entry>
+    <entry key="unknownError">''{0}'' で不明なエラーが発生しました。</entry>
+  </message>
+</rsccat>

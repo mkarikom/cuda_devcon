@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoJvm">SENDMAIL は Java が必要です。</entry>
+    <entry key="InvalidSubject">件名に改行文字を含むことはできません。</entry>
+    <entry key="CannotOpenFile">ファイル "{0}" を開けません。</entry>
+    <entry key="assignment_AuthenticationFailed">認証できませんでした。</entry>
+    <entry key="SMTPServerIndeterminate">SMTP サーバーを特定できません。次のように設定できます。\n{0}</entry>
+    <entry key="FromAddressIndeterminate">FROM アドレスを特定できません。次のように設定できます。\n{0}</entry>
+    <entry key="SmtpError">{0}</entry>
+    <entry key="AddressError">{0}</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidPeerAxes">参数 ''peer'' 必须后跟坐标区句柄。</entry>
+    <entry key="SecondArgMustBeAxes">第二个参数必须为标量坐标区句柄。</entry>
+    <entry key="UnknownCommandOption">未知的命令选项。</entry>
+    <entry key="ThirdArgMustBeAxes">第三个参数必须为标量坐标区句柄。</entry>
+    <entry key="CannotAddToColorbar">一个颜色栏无法添加到另一个颜色栏。</entry>
+    <entry key="AxesHandleRequired">需要坐标区句柄。</entry>
+    <entry key="HandleVertHorizExpected">COLORBAR 需要将句柄 ''vert'' 或 ''horiz'' 作为输入。</entry>
+  </message>
+</rsccat>

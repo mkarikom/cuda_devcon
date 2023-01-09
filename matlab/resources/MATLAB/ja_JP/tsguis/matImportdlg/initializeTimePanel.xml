@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WhatsThis">これはなに?</entry>
+    <entry key="SpecifyTimeVector">時間ベクトル指定</entry>
+    <entry key="TimevectorSource">時間ベクトル ソース</entry>
+    <entry key="CurrentVariable">現在の変数</entry>
+    <entry key="DefineItNow">ステップ 3 で定義</entry>
+    <entry key="AnotherVariable">別の変数</entry>
+    <entry key="TimeVectorObtainedUseDropdown">時間ベクトルは異なるソースから得ることができます。ドロップダウン リストを使ってソース タイプを選択し、ソースを作成してください。</entry>
+  </message>
+</rsccat>

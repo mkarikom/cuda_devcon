@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EmptyEventHandler">イベント ハンドラーを空にはできません</entry>
+    <entry key="InvalidEventHandler">eventhandler は、文字ベクトル、string スカラー、または文字ベクトルの cell 配列でなければなりません</entry>
+    <entry key="invalidinputhandle">入力は、スカラーのハンドルでなければなりません。</entry>
+    <entry key="InvalidNumEventArgs">イベント ハンドラーのペアの数は偶数でなければなりません。</entry>
+    <entry key="InvalidNumEventArgsSize">イベント ハンドラーの引数サイズが無効です。</entry>
+    <entry key="InvalidEventname">イベントの登録中にエラーが発生しました。無効なイベント名です。</entry>
+    <entry key="InvalidEventname2">イベントの登録中にエラーが発生しました。''{0}'' は有効なイベント名ではありません。</entry>
+  </message>
+</rsccat>

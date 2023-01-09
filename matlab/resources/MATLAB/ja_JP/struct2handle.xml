@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedObjectType">認識されないオブジェクト タイプ: {0}</entry>
+    <entry key="CannotFindParent">コンテキスト メニューの親が見つかりません</entry>
+    <entry key="InvalidSaveStructure">グラフィカル オブジェクトの構造体形式が無効です。</entry>
+    <entry key="InvalidParentHandle">2 番目の引数は、親ハンドルの配列でなければなりません。</entry>
+    <entry key="InvalidParentSize">親配列のサイズは、構造体配列のサイズと一致しなければなりません。</entry>
+    <entry key="InvalidOption">オプション引数は ''convert'' または ''all'' でなければなりません。</entry>
+  </message>
+</rsccat>

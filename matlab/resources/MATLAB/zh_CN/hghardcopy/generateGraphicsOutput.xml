@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MustBeRowOrColumnVector">句柄数组必须为行或列向量</entry>
+    <entry key="MustBeExportableHandle">句柄数组必须包含可导出对象</entry>
+    <entry key="badField">为 {0} 指定的字段或值无效。</entry>
+    <entry key="NotAvailableInDemoVersion">生成图形输出在演示版本中不可用</entry>
+    <entry key="Unknown">未知</entry>
+    <entry key="UnableToDetermineOutputGenerator">无法确定用于驱动程序 ''{0}'' 和扩展 ''{1}'' 的输出生成函数。</entry>
+  </message>
+</rsccat>

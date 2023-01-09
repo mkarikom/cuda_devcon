@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Limits">値は、増加する datetime 値の 1 行 2 列のベクトルでなければなりません。</entry>
+    <entry key="Ticks">値は、増加する datetime 値のベクトルでなければなりません。</entry>
+    <entry key="Format">値は datetime 形式でなければなりません。</entry>
+    <entry key="LeapSecondFormat">''UTCLeapSeconds'' タイム ゾーンの datetime 値は、標準のうるう秒の形式でなければなりません。</entry>
+    <entry key="Exponent">値は整数でなければなりません。</entry>
+    <entry key="ReferenceDateReadOnly">プロパティは読み取り専用です。</entry>
+    <entry key="NonNumericType">変換する値は、数値配列または datetime 配列でなければなりません。</entry>
+  </message>
+</rsccat>

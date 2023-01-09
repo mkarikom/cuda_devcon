@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invVectorEntry">X는 벡터여야 함</entry>
+    <entry key="invEntry">X는 벡터 또는 행렬이어야 함</entry>
+    <entry key="Vs"> 대 </entry>
+    <entry key="ResolveAmbiguity">모호성 해결</entry>
+    <entry key="AmbiguousDataSourceVariableExpression">모호한 데이터 소스의 변수 표현식을 선택하십시오.</entry>
+    <entry key="SpecifyDataSourceProperties">데이터 소스 속성 지정</entry>
+    <entry key="SpecifyGraphicsDataSource">테이블을 편집하여 그래픽스에 대한 데이터 소스를 지정하십시오.</entry>
+  </message>
+</rsccat>

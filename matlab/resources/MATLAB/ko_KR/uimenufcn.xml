@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="JavaRequired">uimenufcn ''{0}'' 명령에는 Java가 필요합니다.</entry>
+    <entry key="InvalidFigure">첫 번째 인수는 Figure 핸들이어야 함</entry>
+    <entry key="InvalidArguments">uimenufcn에 제공된 인수가 유효하지 않음</entry>
+  </message>
+</rsccat>

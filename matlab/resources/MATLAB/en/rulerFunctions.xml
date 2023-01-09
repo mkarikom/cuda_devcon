@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidAxes">When 2 input arguments are specified, the first argument must be an axes.</entry>
+    <entry key="InvalidObject">Invalid or deleted graphics object.</entry>
+    <entry key="MixedAxesVector">When the first input argument is a vector of axes, the axes must all be of the same type.</entry>
+    
+    <!-- The holes ({0} and {1}) in the messages below will be filled in with function names. -->
+    <entry key="PolarAxes">{0} is not supported for polar axes.</entry>
+    <entry key="PolarAxesAlternative">{0} is not supported for polar axes. Use &lt;a href="matlab:doc {1}"&gt;{1}&lt;/a&gt; instead.</entry>
+    <entry key="CartesianAxes">{0} is not supported for Cartesian axes. Use &lt;a href="matlab:doc {1}"&gt;{1}&lt;/a&gt; instead.</entry>
+    <entry key="ColorBar">{0} is not supported for colorbars.</entry>
+    <entry key="Categorical">{0} is not supported for categorical rulers.</entry>
+    
+    <entry key="NumberAsString">When specifying numeric values, enclose the input arguments in parentheses.</entry>
+    
+    <entry key="InvalidNumericLimits">Limits must be a 2-element vector of increasing numeric values.</entry>
+    <entry key="InvalidDatetimeLimits">Limits must be a 2-element vector of increasing datetime values.</entry>
+    <entry key="InvalidDurationLimits">Limits must be a 2-element vector of increasing durations.</entry>
+    <entry key="InvalidCategoricalLimits">Limits must be a 2-element vector of increasing or equal categories as ordered by the ruler Categories property.</entry>
+    <entry key="InvalidLimitsMode">Specify limits, one of the 'mode', 'auto', 'manual' options, or 'tight', 'tickaligned', or 'padded' limit methods.</entry>
+    <entry key="InvalidLimitsModeOnly">Specify limits or one of the 'mode', 'auto', 'manual' options.</entry>
+    
+    <!-- The hole {0} in InvalidTicks will be filled in with a function name. -->
+    <entry key="InvalidTicks">Invalid tick values. To set tick labels use &lt;a href="matlab:doc {0}"&gt;{0}&lt;/a&gt;.</entry>
+    <entry key="InvalidNumericTicks">Tick values must be a vector of increasing numeric values.</entry>
+    <entry key="InvalidDatetimeTicks">Tick values must be a vector of increasing datetime values.</entry>
+    <entry key="InvalidDurationTicks">Tick values must be a vector of increasing durations.</entry>
+    <entry key="InvalidCategoricalTicks">Tick values must be a vector of increasing categorical values.</entry>
+    <entry key="InvalidTicksMode">Specify tick values or one of the following options: 'mode', 'auto', 'manual'.</entry>
+    
+    <entry key="InvalidTickLabels" note="stringDatatypeUpdate">Specify tick labels as cell array of character vectors, string array, or one of the 'mode', 'auto', or 'manual' options.</entry>
+    
+    <entry key="InvalidAngle">Rotation must be a scalar angle in degrees.</entry>
+    
+    <entry key="InvalidNumericFormat">Invalid numeric tick label format.</entry>
+    <entry key="InvalidDatetimeFormat">Invalid date or time format.</entry>
+    <entry key="InvalidDurationFormat">Invalid duration format.</entry>
+  </message>
+</rsccat>

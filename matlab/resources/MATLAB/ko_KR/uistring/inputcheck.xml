@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MoreInformation">자세한 내용은 MathWorks 웹 사이트에서 &lt;a href="http://www.mathworks.com/support/contact_us/dev/obsoleteprintdevices.html?device={0}"&gt;obsolete output formats&lt;/a&gt;(더 이상 사용되지 않는 출력 형식) 리소스를 참조하십시오.</entry>
+    <entry key="ThePrintDeviceWillBeRemovedInAFutureRelease">''{0}'' 인쇄 장치는 MATLAB 향후 릴리스에서 제거될 예정입니다.</entry>
+    <entry key="TheGraphicExportFormatWillBeRemovedInAFutureRelease">''{0}'' 그래픽 내보내기 형식은 MATLAB 향후 릴리스에서 제거될 예정입니다.</entry>
+    <entry key="ThedillPrintDeviceWillBeRemovedInAFutureRelease">''-dill'' 인쇄 장치는 향후 릴리스에서 제거될 예정입니다. 대신 캡슐화된 PostScript(''-depsc'')를 사용하십시오.</entry>
+    <entry key="ThePrintDeviceHasBeenRemoved">''{0}'' 인쇄 장치에 대한 지원은 MATLAB에서 제거되었습니다.</entry>
+    <entry key="TheGraphicExportFormatHasBeenRemoved">''{0}'' 그래픽 내보내기 형식에 대한 지원은 MATLAB에서 제거되었습니다.</entry>
+    <entry key="ThedillPrintDeviceHasBeenRemoved">''-dill'' 그래픽 내보내기 형식에 대한 지원은 MATLAB에서 제거되었습니다. 대신 캡슐화된 PostScript(''-depsc'')를 사용하십시오.</entry>
+  </message>
+</rsccat>

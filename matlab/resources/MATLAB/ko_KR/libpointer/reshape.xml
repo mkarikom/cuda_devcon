@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidType">numericPtr 데이터형만 자신의 차원 집합을 가질 수 있습니다.</entry>
+    <entry key="TooManyDimensions">최대 2차원까지 지원됩니다.</entry>
+    <entry key="MustBeNumeric">형태 변경(reshape)을 수행하려면 포인터 데이터형이 numericPtr이어야 합니다.</entry>
+  </message>
+</rsccat>

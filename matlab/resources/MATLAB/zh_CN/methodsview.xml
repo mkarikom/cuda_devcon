@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nargin">输入参数的数目不足。</entry>
+    <entry key="InvalidNumberOfOutputs">带有 noUI 的输出参数的数目必须等于 2。</entry>
+    <entry key="TooManyOutputs">在只有一个输入参数的情况下，不应该存在任何输出参数</entry>
+    <entry key="UnknownClassOrMethod">找不到 {0} {1}，或没有适用于 {2} 的方法</entry>
+    <entry key="InvalidInput">输入必须为字符向量或对象。</entry>
+    <entry key="InvalidInputOption">参数选项必须赋有有效的字符向量。</entry>
+    <entry key="TitleMethodsForClass">类 {0} 的方法</entry>
+    <entry key="TitleFunctionsInLibrary">库 {0} 中的函数</entry>
+    <entry key="LabelInheritedFrom">继承于</entry>
+    <entry key="LabelArguments">参数</entry>
+    <entry key="LabelName">名称</entry>
+    <entry key="LabelOther">其他</entry>
+    <entry key="LabelQualifiers">限定符</entry>
+    <entry key="LabelReturnType">返回类型</entry>
+  </message>
+</rsccat>

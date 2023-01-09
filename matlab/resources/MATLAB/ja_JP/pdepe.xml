@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">入力引数が不足しています。</entry>
+    <entry key="InvalidM">m は 0、1、2 のいずれかでなければなりません。</entry>
+    <entry key="TSPANnotEnoughPts">TSPAN は少なくとも 3 つの入力がなければなりません。</entry>
+    <entry key="TSPANnotIncreasing">TSPAN の入力は、厳密に増加していなくてはなりません。</entry>
+    <entry key="NegXMESHwithPosM">M &gt; 0 の場合、XMESH(1) は非負でなければなりません。</entry>
+    <entry key="XMESHnotEnoughPts">XMESH は少なくとも 3 つの入力がなければなりません。</entry>
+    <entry key="XMESHnotIncreasing">XMESH の入力は、厳密に増加していなくてはなりません。</entry>
+    <entry key="InvalidOutputICFUN">ICFUN の出力が無効です。ICFUN は列ベクトルを返さなければなりません。</entry>
+    <entry key="UnexpectedOutputPDEFUN">PDEFUN の出力が想定と異なります。PDEFUN は、ここでは長さが {0} の 3 列のベクトルを返さなければなりません。</entry>
+    <entry key="UnexpectedOutputBCFUN">BCFUN の出力が想定と異なります。BCFUN は、ここでは長さが {0} の 4 列のベクトルを返さなければなりません。</entry>
+    <entry key="SpatialDiscretizationFailed">空間の離散化に失敗しました。離散化でサポートされるのは、空間導関数を流束項とする放物線と楕円の方程式だけです。</entry>
+    <entry key="TimeIntegrationFailed">時間積分は失敗しました。解は t={0} までの要求時間点で利用可能です。</entry>
+  </message>
+</rsccat>

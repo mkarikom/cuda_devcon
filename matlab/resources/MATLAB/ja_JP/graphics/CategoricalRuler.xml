@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Limits">値は、ルーラーの Categories プロパティ順に並べられた、増加するまたは等しいカテゴリカル値の 2 要素のベクトルでなければなりません。</entry>
+    <entry key="Ticks">値は、ルーラーの Categories プロパティ順に並べられた、増加するカテゴリカル値のベクトルでなければなりません。</entry>
+    <entry key="Categories">値は、一意のカテゴリからなるカテゴリカル ベクトルでなければなりません。</entry>
+    <entry key="NonNumericType">変換する値は、数値配列またはカテゴリカル配列でなければなりません。</entry>
+    <entry key="OrdinalDataNonOrdinalRuler">順序データを座標軸の非順序カテゴリに変換しなければなりません。</entry>
+    <entry key="OrdinalRulerNonOrdinalData">非順序データを座標軸の順序カテゴリに変換しなければなりません。</entry>
+    <entry key="OrdinalMismatch">順序カテゴリは座標軸カテゴリと互換性がなければなりません。</entry>
+  </message>
+</rsccat>

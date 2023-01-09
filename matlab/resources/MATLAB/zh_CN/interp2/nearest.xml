@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nargin">输入参数的数目不正确。</entry>
+    <entry key="XYZLengthMismatch">X 和 Y 向量的长度必须与 Z 匹配。</entry>
+    <entry key="XIandYISizeMismatch">XI 和 YI 的大小必须相同。</entry>
+  </message>
+</rsccat>

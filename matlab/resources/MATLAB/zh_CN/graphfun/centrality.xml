@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="KeyWithoutValue">没有为 {0} 提供任何值。</entry>
+    <entry key="InvCombCostUndir">只能为选项 ''closeness'' 和 ''betweenness'' 指定 Cost。</entry>
+    <entry key="InvCombImpUndir">只能为选项 ''degree''、''eigenvector'' 或 ''pagerank'' 指定 Importance。</entry>
+    <entry key="InvCombTolUndir">只能为选项 ''eigenvector'' 或 ''pagerank'' 指定 Tolerance。</entry>
+    <entry key="InvCombMaxitUndir">只能为选项 ''eigenvector'' 或 ''pagerank'' 指定 MaxIterations。</entry>
+    <entry key="InvCombDamping">只能为选项 ''pagerank'' 指定 FollowProbability。</entry>
+    <entry key="InvCombCostDir">只能为选项 ''incloseness''、''outcloseness'' 和 ''betweenness'' 指定 Cost。</entry>
+    <entry key="InvCombImpDir">只能为选项 ''indegree''、''outdegree''、''hubs''、''authorities'' 和 ''pagerank'' 指定 Importance。</entry>
+    <entry key="InvCombTolDir">只能为选项 ''hubs''、''authorities'' 或 ''pagerank'' 指定 Tolerance。</entry>
+    <entry key="InvCombMaxitDir">只能为选项 ''hubs''、''authorities'' 或 ''pagerank'' 指定 MaxIterations。</entry>
+    <entry key="PageRankNoConv">Pagerank 迭代未收敛。请考虑增大 ''MaxIterations'' 或减小 ''Tolerance''。</entry>
+    <entry key="HITSNoConv">Hubs 和 authorities 迭代未收敛。请考虑增大 ''MaxIterations'' 或减小 ''Tolerance''。</entry>
+  </message>
+</rsccat>

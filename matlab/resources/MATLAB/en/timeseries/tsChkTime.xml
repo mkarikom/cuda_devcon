@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="manytimedim">Time vector cannot have more than 2 dimensions.</entry>
+    <entry key="shorttime">Time vector cannot be empty.</entry>
+    <entry key="matrixtime">Time vector must be a 1xn or nx1 vector.</entry>
+    <entry key="inftime">Time vector must contain only finite values.</entry>
+    <entry key="realtime">Time vector must contain only real values.</entry>
+  </message>
+</rsccat>

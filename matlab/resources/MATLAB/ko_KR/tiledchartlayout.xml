@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidArguments">유효하지 않은 인수입니다.</entry>
+    <entry key="NotEnoughArugments">입력 인수가 부족합니다.</entry>
+    <entry key="InvalidGridSize">행 인수와 열 인수는 32767보다 작은 양의 정수여야 합니다.</entry>
+    <entry key="InvalidTile">Tile 인수는 양의 정수여야 합니다.</entry>
+    <entry key="InvalidTileSpan">Tilespan 인수 값은 양의 정수여야 합니다.</entry>
+    <entry key="LayoutFull">레이아웃에 충분한 공간이 없습니다.</entry>
+    <entry key="TileOutOfBounds">타일이 레이아웃에 맞지 않습니다.</entry>
+    <entry key="OutOfMemory">메모리가 부족하여 현재 레이아웃에 타일을 만들 수 없습니다.</entry>
+  </message>
+</rsccat>

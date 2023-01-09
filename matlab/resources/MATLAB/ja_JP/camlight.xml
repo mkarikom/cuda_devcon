@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManyInputs">入力引数が多すぎます</entry>
+    <entry key="InvalidNumberOfArguments">無効な引数</entry>
+    <entry key="InvalidArgument">{0} は無効な引数です</entry>
+    <entry key="NotValidArguments">{0} と {1} は有効な引数ではありません</entry>
+  </message>
+</rsccat>

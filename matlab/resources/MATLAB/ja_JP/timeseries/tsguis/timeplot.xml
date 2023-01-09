@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CachingOfLargeDatasets">大きなデータ セットのキャッシュは選択を表示内のデータに制限します。</entry>
+    <entry key="Cancel">キャンセル</entry>
+    <entry key="Data">データ</entry>
+    <entry key="DefineDomain">領域の定義</entry>
+    <entry key="Detrend">トレンド除去...</entry>
+    <entry key="EndTime">終了時間</entry>
+    <entry key="EndTimePrecedsStartTime">終了時間が開始時間より前に指定されています</entry>
+    <entry key="Filter">フィルター...</entry>
+    <entry key="Interpolate">内挿...</entry>
+    <entry key="InvalidEndTime">終了時間が無効です</entry>
+    <entry key="InvalidStartTime">開始時間が無効です</entry>
+    <entry key="LimitedDoublePrecision">制限された倍精度は {0} をシフトした後に時間が重複する可能性があります。シフトを中止しています。</entry>
+    <entry key="Mean">平均</entry>
+    <entry key="Median">中央値</entry>
+    <entry key="MultipleTimeSeries">複数の時系列</entry>
+    <entry key="OK">OK</entry>
+    <entry key="PlotOf">{0} のプロット</entry>
+    <entry key="RemoveMissingData">欠損値の削除...</entry>
+    <entry key="RemovingAllDataWillCreateAnEmptyTimeSeries">すべてのデータを削除すると、空の時系列が作成されます。</entry>
+    <entry key="ReplacingDataWithNaNs">データを NaN で置き換えています</entry>
+    <entry key="ResampleData">データ リサンプリング...</entry>
+    <entry key="SelectData">データの選択...</entry>
+    <entry key="SelectedAxesContainContinue">選択した Axes には {0} が含まれます。続行しますか?</entry>
+    <entry key="SelectingDataForRemoval">削除するデータを選択しています</entry>
+    <entry key="SelectionModes">選択モード</entry>
+    <entry key="StartTime">開始時間</entry>
+    <entry key="SynchronizeData">データの同期...</entry>
+    <entry key="TheNumberOfAxesCannotBeReducedToZero">Axes の数を 0 に減らすことはできません</entry>
+    <entry key="TheTimePlotCannotBeSet">時系列に開始日がないため、時間プロットは絶対時間を表示するよう設定できません。</entry>
+    <entry key="Time">時間</entry>
+    <entry key="TimeSeriesLengthTooLong">時系列の長さが既定の制限 {0,number,integer} を超えています。\n表示プロット領域を最初の {1,number,integer} 点に制限します。\n別の区間を表示するには、移動表示ツールかプロパティ エディターを\n使用してください。</entry>
+    <entry key="TimeSeriesPlotOf">{0} の時系列プロット</entry>
+    <entry key="TimeSeriesRescaling">時系列の再スケーリング</entry>
+    <entry key="TimeSeriesTranslation">時系列変換</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="STD">STD</entry>
+  </message>
+</rsccat>

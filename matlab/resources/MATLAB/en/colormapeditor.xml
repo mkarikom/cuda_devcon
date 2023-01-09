@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidFigureHandle">Invalid figure handle</entry>
+      <!-- For the following, {0} is the Type of the unsupported object -->
+    <entry key="UnsupportedObject">Using the Colormap Editor with {0} is not supported.</entry>
+    <entry key="ExpectedCmeditor">expected cmeditor to still be there</entry>
+    <entry key="ColormapeditorAppdataExpected">expected colormapeditor appdata to still be there</entry>
+    <entry key="ColormapEmpty">Empty colormap</entry>
+  </message>
+</rsccat>

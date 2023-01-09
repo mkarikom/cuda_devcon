@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">需要至少 1 个输入。</entry>
+    <entry key="OptsNotStringCell">凸包选项必须为字符向量元胞数组或字符串数组。</entry>
+    <entry key="NonNumericInput">指定的数据点不为数值数组格式。</entry>
+    <entry key="Sparse">不支持稀疏矩阵格式中的数据点。\n请使用 FULL 将稀疏矩阵转换为完整存储格式。</entry>
+    <entry key="Complex">不支持复数格式的数据点。\n请使用 REAL 和 IMAG 提取实部和虚部。</entry>
+    <entry key="CannotAcceptInfOrNaN">不支持包含 Inf 或 NaN 的数据点。</entry>
+    <entry key="NonTwoDInput">必须以 2 维数组格式指定数据点。</entry>
+    <entry key="NotEnoughPts">指定的特征点数目不足。</entry>
+  </message>
+</rsccat>

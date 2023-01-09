@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nodims">4차원 이상의 데이터가 포함된 시계열을 선택할 수 없습니다.</entry>
+    <entry key="noWinlengthAndConfLevel">이상값을 감지하려면 윈도우 길이와 신뢰수준을 지정해야 합니다.</entry>
+    <entry key="noWinLength">상수 값을 감지하려면 윈도우 길이를 지정해야 합니다.</entry>
+    <entry key="arginv">데이터 선택 메서드를 인식할 수 없습니다.  ''outliers'' 또는 ''flatlines''를 사용하십시오.</entry>
+  </message>
+</rsccat>

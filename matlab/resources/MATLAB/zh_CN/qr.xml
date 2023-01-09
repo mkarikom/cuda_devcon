@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="internal">算法未成功。\n库 SuiteSparseQR 中出现内部错误。</entry>
+    <entry key="inputTypeSparse">数据类型无效。第一个参数必须为双精度值。</entry>
+    <entry key="inputTypeSparse2">数据类型无效。第二个参数必须为双精度值。</entry>
+    <entry key="rowDimNotMatch">行维度不匹配。</entry>
+    <entry key="notSupportFill">只有稀疏矩阵才支持三输入语法。</entry>
+    <entry key="inputMustBe2D">输入数组必须为二维。</entry>
+    <entry key="inputType">数据类型无效。第一个参数必须为双精度值或单精度值。</entry>
+    <entry key="unknownOptionForSecondInput">选项必须为 0、''matrix'' 或 ''vector''。</entry>
+    <entry key="unknownOptionForThirdInput">选项必须为 0、''matrix'' 或 ''vector''。</entry>
+    <entry key="invalidA">输入必须为双精度稀疏矩阵。</entry>
+    <entry key="invalidH">第一个输入 H 必须为稀疏双精度矩阵。</entry>
+    <entry key="invalidTau">第二个输入 TAU 必须为长度是 P 的双精度稠密行向量。</entry>
+    <entry key="invalidPinv">第三个输入 PINV 必须为长度是 M，且所有元素都介于 0 和 M-1 之间的 INT64 稠密行向量。</entry>
+    <entry key="invalidX">第四个输入 X 必须为包含 M 行的双精度矩阵。</entry>
+    <entry key="invalidTransp">第五个输入 TRANSPOSE 必须为逻辑标量。</entry>
+    <entry key="invalidCombination">不支持将实数 Q 与复数 X 相乘。</entry>
+    <entry key="invalidOrder">顺序必须为逻辑标量。</entry>
+    <entry key="invalidTol">容差必须为双精度实数标量。</entry>
+  </message>
+</rsccat>

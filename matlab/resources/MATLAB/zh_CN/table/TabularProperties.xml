@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UIStringCustomPropertiesHeader">自定义属性(使用 t.Properties.CustomProperties.&lt;name&gt; 访问):</entry>
+    <entry key="UIStringNoCustomPropertiesHeader">未设置自定义属性。\n请使用 {0} 和 {1} 修改 CustomProperties。</entry>
+  </message>
+</rsccat>

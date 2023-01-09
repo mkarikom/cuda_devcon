@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UIW_UpdateMenuItemInfoUnknown">不明なタイプのメニュー項目があります</entry>
+    <entry key="UIW_InsertMenuItemUnknown">不明なタイプのメニュー項目があります</entry>
+    <entry key="MenuItemLimitExceeded">メニュー項目数が MS Windows の制限を超えました。一部のメニューは表示されません。可能であれば、ウィンドウをいくつか閉じるか、使用するメニュー数を減らしてください。</entry>
+    <entry key="OutOfMemory">メモリが足りません。詳細については、&lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/memory.html'))\"&gt;memory&lt;/a&gt;を参照してください。</entry>
+  </message>
+</rsccat>

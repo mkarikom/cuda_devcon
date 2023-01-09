@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AxisLimitsOutsideFloatPrecision">軸の範囲は浮動小数点桁数の範囲外です。代わりに ZBuffer または Painters を使用してください。レンダリングしません</entry>
+  </message>
+</rsccat>

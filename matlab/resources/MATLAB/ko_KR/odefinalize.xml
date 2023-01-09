@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedSolver">인식할 수 없는 솔버: {0}</entry>
+    <entry key="LogSuccessfulSteps">{0}개의 성공적인 스텝\n</entry>
+    <entry key="LogFailedAttempts">{0}개의 실패한 시도\n</entry>
+    <entry key="LogFunctionEvaluations">{0}개의 함수 실행\n</entry>
+    <entry key="LogPartialDerivatives">{0}개의 편도함수\n</entry>
+    <entry key="LogLUDecompositions">{0}개의 LU 분해\n</entry>
+    <entry key="LogSolutionsOfLinearSystems">선형 시스템의 {0}개의 해\n</entry>
+  </message>
+</rsccat>

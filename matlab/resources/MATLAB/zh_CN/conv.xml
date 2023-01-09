@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AorBNotVector">A 和 B 必须为向量。</entry>
+    <entry key="unknownShapeParameter">SHAPE 必须为 ''full''、''same'' 或 ''valid''。</entry>
+  </message>
+</rsccat>

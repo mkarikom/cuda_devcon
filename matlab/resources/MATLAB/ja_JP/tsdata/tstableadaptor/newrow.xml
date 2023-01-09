@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidTableEntryDataNumericTimesScalar">テーブルの入力が無効です。データは数値でなければならず、時間は特定のスカラーまたは日付でなければなりません</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="AddNewRowToTimeseries">時系列に新規行を追加</entry>
+  </message>
+</rsccat>

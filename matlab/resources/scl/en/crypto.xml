@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0"
+        locale="en_US"
+        product="scl"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../schema/.xsd">
+
+  <message>
+    <entry key="HasherNeedsToBeReset">
+      Hasher is not ready. Reset must be called before further data processing. 
+    </entry>
+
+    <entry key="cannotComputeChecksumForFile">Unable to determine checksum for file {0}.</entry>
+
+  </message>
+
+</rsccat>

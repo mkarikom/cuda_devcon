@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidArguments">最初の引数は table または数値行列でなければなりません。</entry>
+    <entry key="GroupVariableNameValuePair">パラメーターの名前と値のペアを使用して ''GroupVariable'' を指定してください。</entry>
+    <entry key="InvalidParent">親コンテナーは Figure、uipanel または uitab でなければなりません。</entry>
+    <entry key="DeletedParent">親コンテナーは削除されたグラフィックス オブジェクトです。</entry>
+    <entry key="InvalidX">データは数値行列でなければなりません。</entry>
+    <entry key="DataNormalizationLabel">座標の正規化方式</entry>
+    <entry key="JitterLabel">データ変位距離</entry>
+    <entry key="InvalidCoordinateDataSize">''CoordinateData'' はデータ列の有効なインデックスを含むベクトルでなければなりません。</entry>
+    <entry key="InvalidGroupDataSize">''GroupData'' は ''Data'' と同じ行数をもつベクトルでなければなりません。</entry>
+    <entry key="InvalidGroupDataCell">''GroupData'' は文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="InvalidNumericColorSize">''Color'' は N 行 3 列の行列でなければなりません。ここで、N は 1 または ''GroupData'' 内のグループ数です。</entry>
+    <entry key="InvalidStringColorSize">''Color'' はスカラーか、または ''GroupData'' 内のグループ数に等しいベクトルでなければなりません。</entry>
+    <entry key="InvalidLimitsType">''{0}'' は ''{1}'' とデータ型が同じでなければなりません。</entry>
+    <entry key="InvalidLimitsSize">''{0}'' は 2 要素の行ベクトルでなければなりません。</entry>
+    <entry key="InvalidCategoryNames">関数 &lt;a href=\"matlab:doc string\"&gt;categorical&lt;/a&gt; はグループの値を有効なカテゴリ名に変換できませんでした。</entry>
+    <entry key="InvalidSourceTable">''SourceTable'' の値は table でなければなりません。</entry>
+    <entry key="MatrixWorkflow">''Data'' プロパティの設定後に ''{0}'' プロパティを設定することはサポートされていません。</entry>
+    <entry key="TableWorkflow">''SourceTable'' プロパティの設定後に ''{0}'' プロパティを設定することはサポートされていません。</entry>
+  </message>
+</rsccat>

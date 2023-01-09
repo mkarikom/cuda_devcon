@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">入力引数は、数値配列または categorical 配列でなければなりません。</entry>
+    <entry key="InvalidLink">非ベクトル データのヒストグラムをリンクできません。</entry>
+    <entry key="OrdinalMismatch">X と Y は両方とも順序配列であるか、または両方とも順序配列以外でなければなりません。</entry>
+    <entry key="InvalidCategories">X は categorical 配列、または有効なカテゴリ名を含む文字ベクトルの cell 配列または string 配列でなければなりません。</entry>
+    <entry key="UnrecognizedCategories">X には Y に存在しないカテゴリが含まれています。</entry>
+  </message>
+</rsccat>

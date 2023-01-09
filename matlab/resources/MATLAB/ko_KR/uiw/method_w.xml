@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DiskFull">디스크에 충분한 공간이 없음</entry>
+    <entry key="RecreatingPeerDuringPaint">페인트 이벤트 도중 피어 창이 다시 생성됨</entry>
+    <entry key="OutOfMemory">메모리 부족 - 글꼴을 생성할 수 없음</entry>
+    <entry key="UnsupportedMethod">''getframe''은 16색 모드에서 지원되지 않음</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="platform" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CustomButtonLabel">选择</entry>
+    <entry key="CustomPopupOpenLabel">启用:</entry>
+    <entry key="CustomPopupSaveLabel">格式:</entry>
+    <entry key="ConfirmSaveDialogTitle">确认另存为</entry>
+    <entry key="ConfirmSaveDialogContent">{0} 已存在。\n是否要替换它?</entry>
+    <entry key="OpenFolderWarningTitle">选择文件对话框</entry>
+    <entry key="OpenFolderWarningContent">{0} \n路径不存在。\n请检查路径并重试。</entry>
+    <entry key="OpenFileFolderWarningTitle">打开文件或文件夹</entry>
+    <entry key="OpenFileFolderWarningContent">无法选择此程序正在使用的这个位置。请尝试其他位置</entry>
+  </message>
+</rsccat>

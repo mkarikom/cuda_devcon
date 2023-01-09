@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadBoundingVolume">파일 내용으로부터 경계 볼륨를 계산하는 동안 오류 발생</entry>
+    <entry key="ReadOnlyProperty">읽기 전용 속성을 설정하려고 시도함</entry>
+    <entry key="FailedToLoadModel">ModelFile이 자신의 파일을 열 수 없음</entry>
+  </message>
+</rsccat>

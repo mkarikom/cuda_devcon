@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AvailableGenerators">다음 난수 생성기 알고리즘을 사용할 수 있습니다.</entry>
+    <entry key="dsfmt19937Description">메르센 소수(Mersenne Prime) 2^19937-1을 사용한 SIMD 지향 고속 메르센 트위스터(SFMT)</entry>
+    <entry key="mcg16807Description">승수 7^5, 모듈로 2^31-1을 사용하는 승산식 합동법(Multiplicative Congruential) 생성기</entry>
+    <entry key="mlfg6331_64Description">지연값(lags) 63 및 31과 64비트를 사용하는 승산식 시차 피보나치 수열(Multiplicative Lagged Fibonacci) 생성기(병렬 스트림 지원)</entry>
+    <entry key="mrg32k3aDescription">결합 다중 재귀적(Combined Multiple Recursive) 생성기(병렬 스트림 지원)</entry>
+    <entry key="mt19937arDescription">메르센 소수(Mersenne Prime) 2^19937-1을 사용한 메르센 트위스터(Mersenne Twister)</entry>
+    <entry key="philox4x32_10Description">10회 라운드의 Philox 4x32 생성기(병렬 스트림 지원)</entry>
+    <entry key="shr3congDescription">CONG 선형 합동법(CONG Linear Congruential) 생성기로 계산된 SHR3 시프트-레지스터 생성기</entry>
+    <entry key="swb2712Description">지연값(lags) 27과 12를 사용하는 수정된 자리 내림을 사용하는 뺄셈(Subtract-with-Borrow) 생성기</entry>
+    <entry key="threefry4x64_20Description">20회 라운드의 Threefry 4x64 생성기(병렬 스트림 지원)</entry>
+  </message>
+</rsccat>

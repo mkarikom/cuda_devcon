@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011-2014 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+  <message>
+    <entry key="ProductInformationMessage">  For product information, visit www.mathworks.com.</entry>
+    <entry key="ToGetStartedMessage">  To get started, type doc.</entry>
+    <entry key="ForOnlineDocumentation">  For online documentation, see https://www.mathworks.com/support</entry>
+    <entry key="SuspectedPathProblem">  MATLAB did not appear to successfully set the search path. To recover for this session of MATLAB, type "restoredefaultpath;matlabrc". To find out how to avoid this warning the next time you start MATLAB, type "docsearch problem path" after recovering for this session.</entry>
+    <entry key="InitHandleGraphics">  Initializing MATLAB Graphics failed.\nThis indicates a potentially serious problem in your MATLAB setup, which should be resolved as soon as possible.  Error detected was:\n{0}\n{1}</entry>
+    <entry key="RecursionLimit">  Setting recursion limit failed in matlabrc.\nThis indicates a potentially serious problem in your MATLAB setup, which should be resolved as soon as possible.  Error detected was:\n{0}\n{1}</entry>
+    <entry key="InitJava">  Initializing Java preferences failed in matlabrc.\nThis indicates a potentially serious problem in your MATLAB setup, which should be resolved as soon as possible.  Error detected was:\n{0}\n{1}</entry>
+    <entry key="InitPreferences">  Initializing preferences failed in matlabrc.\nThis indicates a potentially serious problem in your MATLAB setup, which should be resolved as soon as possible.    Error detected was:\n{0}\n{1}</entry>
+    <entry key="ProfilerFilters">  Failed to add default profiler filters.</entry>
+    <entry key="DisableWarnings">  Enabling/disabling warnings failed in matlabrc.\nThis indicates a potentially serious problem in your MATLAB setup, which should be resolved as soon as possible.  Error detected was:\n{0}\n{1}</entry>
+    <entry key="Startup">  Executing startup failed in matlabrc.\nThis indicates a potentially serious problem in your MATLAB setup, which should be resolved as soon as possible.  Error detected was:\n{0}\n{1}</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidLineSpec">유효하지 않은 마커가 지정되었습니다. ''help plot''을 입력하십시오.</entry>
+    <entry key="InvalidXYMatrices">X와 Y는 2차원이어야 합니다.</entry>
+    <entry key="XYSizeMismatch">X와 Y의 행 개수와 페이지 개수는 같아야 합니다.</entry>
+    <entry key="AutoResizeChildren">''AutoResizeChildren'' 속성이 ''on''으로 설정된 상태에서 plotmatrix를 컨테이너에 추가할 수 없습니다.</entry>
+  </message>
+</rsccat>

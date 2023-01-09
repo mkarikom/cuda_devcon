@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DuplicateEdges">エッジの重複はサポートされていません。</entry>
+    <entry key="DuplicateOmitSelfLoops">''omitselfloops'' は 1 回のみ指定してください。</entry>
+    <entry key="EdgeListFourthArg">ノード情報は、string ベクトル、文字ベクトルの cell 配列、table、またはノード数でなければなりません。</entry>
+    <entry key="EdgeListNumNodes">エッジをノード名として指定する場合、ノード数の引数はサポートされません。</entry>
+    <entry key="EdgePropsHasEndNodes">エッジのプロパティに変数 EndNodes を含めないでください。</entry>
+    <entry key="EdgesNeedTwoInputs">入力引数が不足しています。</entry>
+    <entry key="EditEdges">エッジの直接編集はサポートされていません。代わりに addedge または rmedge を使用してください。</entry>
+    <entry key="InvalidAdjacencyType">データ型が無効です。隣接行列は double、single または logical でなければなりません。</entry>
+    <entry key="InvalidEdgeProps">エッジのプロパティはテーブルでなければなりません。</entry>
+    <entry key="InvalidEdges">ノード ID は、両方とも数値ベクトル、両方ともノード名 (string ベクトル、文字ベクトル、または文字ベクトルの cell 配列として指定)、または両方とも categorical でなければなりません。</entry>
+    <entry key="InvalidFlag">オプションは ''omitselfloops'' でなければなりません。</entry>
+    <entry key="InvalidNames">ノード名に欠損 string (&lt;missing&gt; と表示される) を含めてはなりません。</entry>
+    <entry key="InvalidCategorical">ノード名は未定義の categorical ( &lt;undefined&gt;と表示される) を含んでいてはなりません。</entry>
+    <entry key="CategoricalMixedOrdinal">categorical 配列は、両方とも順序配列であるか、両方とも順序配列以外でなければなりません。</entry>
+    <entry key="CategoricalOrdinalMismatch">順序 categorical 配列には、同じカテゴリが同じ順序で含まれていなければなりません。</entry>
+    <entry key="InvalidNodeID">数値ノード ID はグラフ内のノード数 ({0}) 以下の正の整数でなければなりません。</entry>
+    <entry key="InvalidNodeNames">ノード名の数は隣接行列のサイズと一致しなければなりません。</entry>
+    <entry key="InvalidNumNodeTableRows">ノード テーブルの行数は、隣接行列のサイズと一致していなければなりません。</entry>
+    <entry key="InvalidNodeRefd">エッジ リストにノード名の引数に存在しない名前が含まれています。</entry>
+    <entry key="InvalidNumNodeNames">指定されたノード名が不足しています。{0} 個以上の名前を指定してください。</entry>
+    <entry key="InvalidNumNodes">指定されたノード数が少なすぎます。{0} 個以上のノードを指定してください。</entry>
+    <entry key="InvalidNumNodesProps">指定するノード数は有限な非負の実数でなければなりません。</entry>
+    <entry key="InvalidNumNodesTable">ノード テーブルの行数が少なすぎます。{0} 行以上を指定してください。</entry>
+    <entry key="InvalidSizeWeight">重みは、エッジ リストと同じ要素数か、スカラーでなければなりません。</entry>
+    <entry key="InvalidTableFormat">エッジ情報テーブルの最初の変数は EndNodes という名前でなければなりません。</entry>
+    <entry key="InvalidTableSize">エッジ情報テーブルの最初の変数は、ノード名の 2 列の配列 (数値、cell または string) でなければなりません。</entry>
+    <entry key="InvalidWeights">グラフ エッジの重みは double または single の実数で、非スパースでなければなりません。</entry>
+    <entry key="NodesTableNameShape">ノード テーブル内の名前の変数は 1 つの列をもたなければなりません。</entry>
+    <entry key="InvalidNameType">ノード名は string ベクトル、または文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="NodesTableNeedsName">ノード テーブルには変数 Name がなければなりません。</entry>
+    <entry key="NonUniqueNames">ノード名は固有でなければなりません。</entry>
+    <entry key="NonColumnWeights">重みはグラフ内のエッジ数と同じ数のエントリをもつ列ベクトルでなければなりません。</entry>
+    <entry key="ScalarObject">サポートされていないグラフ インデックスです。</entry>
+    <entry key="SecondNotTable">エッジ情報がテーブルの場合、ノード情報はテーブルでなければなりません。</entry>
+    <entry key="SetEdges">エッジの直接編集はサポートされていません。代わりに addedge または rmedge を使用してください。</entry>
+    <entry key="SetNodes">ノードの直接編集はサポートされていません。代わりに addnode または rmnode を使用してください。</entry>
+    <entry key="SquareAdjacency">隣接行列は正方でなければなりません。</entry>
+    <entry key="OnlyGraphSupported">入力グラフは無向でなければなりません。</entry>
+    <entry key="NoDegreeDir">有向グラフではノード次数はサポートされていません。代わりに indegree または outdegree を使用してください。</entry>
+    <entry key="NoNeighborsDir">有向グラフでは隣接ノードはサポートされていません。代わりに predecessors または successors を使用してください。</entry>
+    <entry key="UnknownNodeName">''{0}'' という名前のノードはグラフに含まれていません。</entry>
+    <entry key="IncompatibleVersion">このバージョンの MATLAB と互換性がないため、ダイグラフを読み込むことができません。</entry>
+  </message>
+</rsccat>

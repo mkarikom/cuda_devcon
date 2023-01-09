@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invOutArg">출력 인수는 SET(E) 또는 SET(E,Property)에서만 허용됩니다.</entry>
+    <entry key="invVarArg">SET에 대한 첫 번째 인수는 명명된 변수여야 합니다.</entry>
+    <entry key="invPropValPairs">속성/값 쌍은 반드시 짝수여야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="pv1">指定されたプロパティに対応する値が見つかりません。</entry>
+    <entry key="notime">各サンプルに時間を指定しなければなりません。</entry>
+    <entry key="cell">セル配列は、1 つはデータ用、もう 1 つは特性用の 2 つのセルを含まなければなりません。</entry>
+    <entry key="pv2">指定プロパティの少なくとも 1 つが無効です。</entry>
+    <entry key="pv4">新規サンプルは構造体かプロパティ/値のペアを使って指定されなければなりません。</entry>
+  </message>
+</rsccat>

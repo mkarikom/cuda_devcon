@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ExportAlertTitle">导出为 MATLAB 文件</entry>
+    <entry key="MigrateHeader">迁移会将您使用 GUIDE 创建的 App 转换为新在 App 设计工具中创建的 App。</entry>
+    <entry key="MigrateReasonsLabel">在以下情况下，建议迁移您的 App:</entry>
+    <entry key="MigrateHtmlBullet1">您的 App 需要或必须进行交互式编辑</entry>
+    <entry key="MigrateHtmlBullet2">该 App 正在积极开发中​</entry>
+    <entry key="MigrateTab">迁移到 App 设计工具</entry>
+    <entry key="ExportTab">导出为 MATLAB 代码</entry>
+    <entry key="ExportHeader">导出会将您使用 GUIDE 创建的 App 转换为新 MATLAB 文件。</entry>
+    <entry key="ExportReasonsLabel">在以下情况下，建议导出您的 App:</entry>
+    <entry key="ExportHtmlBullet1">App 只需很少维护工作</entry>
+    <entry key="ExportHtmlBullet2">交互式编辑对您的 App 来说并不关键</entry>
+    <entry key="ExportChooseAppLabel">选择要导出的 App:</entry>
+    <entry key="MigrateChooseAppLabel">选择要迁移的 App:</entry>
+    <entry key="InstallSupportPackageButton">安装支持包</entry>
+    <entry key="EditFieldPlaceholderText">选择 GUIDE .fig 文件</entry>
+    <entry key="ExportButton">导出</entry>
+    <entry key="MigrateButton">迁移</entry>
+    <entry key="BrowseButtonText">浏览...</entry>
+    <entry key="CancelButton">取消</entry>
+    <entry key="HelpButton">帮助</entry>
+    <entry key="InstallLabel_RegularText">迁移 App 前，\n请安装支持包。</entry>
+    <entry key="InstallLabel_ItalicsText">"GUIDE to App Designer Migration Tool for MATLAB"</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidArguments">첫 번째 인수는 table형 또는 숫자형 행렬이어야 합니다.</entry>
+    <entry key="GroupVariableNameValuePair">파라미터 이름-값 쌍을 사용하여 ''GroupVariable''을 지정하십시오.</entry>
+    <entry key="InvalidParent">부모 컨테이너는 Figure, uipanel 또는 uitab이어야 합니다.</entry>
+    <entry key="DeletedParent">부모 컨테이너가 삭제된 그래픽스 객체입니다.</entry>
+    <entry key="InvalidX">데이터는 숫자형 행렬이어야 합니다.</entry>
+    <entry key="DataNormalizationLabel">좌표의 정규화 방법</entry>
+    <entry key="JitterLabel">데이터 변위 거리</entry>
+    <entry key="InvalidCoordinateDataSize">''CoordinateData''는 Data 열에 대한 유효한 인덱스를 갖는 벡터여야 합니다.</entry>
+    <entry key="InvalidGroupDataSize">''GroupData''는 ''Data''와 동일한 개수의 행을 갖는 벡터여야 합니다.</entry>
+    <entry key="InvalidGroupDataCell">''GroupData''는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="InvalidNumericColorSize">''Color''는 N×3 행렬이어야 합니다. 여기서 N은 1이거나 ''GroupData''의 그룹 개수입니다.</entry>
+    <entry key="InvalidStringColorSize">''Color''는 스칼라이거나 ''GroupData''의 그룹 개수와 같은 벡터여야 합니다.</entry>
+    <entry key="InvalidLimitsType">''{0}''은(는) ''{1}''과(와) 데이터형이 같아야 합니다.</entry>
+    <entry key="InvalidLimitsSize">''{0}''은(는) 요소를 2개 가진 행 벡터여야 합니다.</entry>
+    <entry key="InvalidCategoryNames">&lt;a href=\"matlab:doc string\"&gt;categorical&lt;/a&gt; 함수가 그룹 값을 유효한 범주 이름으로 변환하지 못했습니다.</entry>
+    <entry key="InvalidSourceTable">''SourceTable'' 값은 table형이어야 합니다.</entry>
+    <entry key="MatrixWorkflow">''Data'' 속성을 설정한 후에는 ''{0}'' 속성을 설정할 수 없습니다.</entry>
+    <entry key="TableWorkflow">''SourceTable'' 속성을 설정한 후에는 ''{0}'' 속성을 설정할 수 없습니다.</entry>
+  </message>
+</rsccat>

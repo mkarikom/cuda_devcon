@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Nargin">必须指定文件名。</entry>
+    <entry key="InputClass">文件名必须为字符向量或字符串标量。</entry>
+    <entry key="FileName">文件名不能为空。</entry>
+    <entry key="UnreadableExcelFile">Excel 文件不可读:</entry>
+    <entry key="ActiveX">无法启动 Excel 服务器。有关造成的限制，请查看文档。</entry>
+    <entry key="noJVM">xlsfinfo 需要 Java 来加载此类型的 Excel 文件。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">timeseries 생성자는 timeseries 객체의 배열에서 호출할 수 없음</entry>
+    <entry key="loadObjectNoReshapeWarning">IsTimeFirst 속성이 계산되었으며 저장된 표현과 다릅니다.</entry>
+    <entry key="loadObjectWarning">timeseries의 저장된 IsTimeFirst 속성이 true이므로 불러온 timeseries 데이터가 행렬로 형태 변경되었습니다.</entry>
+    <entry key="invalidDataInfo">timeseries의 DataInfo 속성에 유효하지 않은 값임</entry>
+    <entry key="invalidTimeInfo">timeseries의 TimeInfo 속성에 유효하지 않은 값임</entry>
+  </message>
+</rsccat>

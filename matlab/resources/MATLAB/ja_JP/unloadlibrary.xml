@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ClassNotLibrary">指定されたクラスはライブラリではありません。</entry>
+    <entry key="IsInUse">未解決オブジェクトをもつライブラリを解放できません。</entry>
+    <entry key="ClassNotFound">解放するためのライブラリ クラスが見つかりません。</entry>
+    <entry key="NameMustBeSpecified">ライブラリ名を指定しなければなりません。</entry>
+  </message>
+</rsccat>

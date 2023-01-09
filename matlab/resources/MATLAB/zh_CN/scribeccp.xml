@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CannotCutDelete">无法剪切/删除图窗根级。</entry>
+    <entry key="PLOTEDITisOff">PLOTEDIT 模式必须打开。</entry>
+    <entry key="CurrentFigureEmpty">当前图窗 (gcf) 不存在。</entry>
+  </message>
+</rsccat>

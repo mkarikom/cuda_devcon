@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BUTTON_TITLE">创建/变换列</entry>
+    <entry key="BUTTON_DESCRIPTION">基于表中的现有值修改或创建新列。</entry>
+    <entry key="DIALOG_TITLE">创建/变换列</entry>
+    <entry key="DIALOG_TABLE_NAME">表名称</entry>
+    <entry key="DIALOG_COLUMN_VARIABLE">列变量</entry>
+    <entry key="DIALOG_CODE">代码</entry>
+    <entry key="DIALOG_PREVIEW">预览</entry>
+    <entry key="COMMON_OPERATIONS">常见运算</entry>
+    <entry key="NEW_VARIABLE">新建变量</entry>
+    <entry key="COMMON_OPS_CUSTOM">自定义代码</entry>
+    <entry key="COMMON_OPS_LOG">计算变量的对数</entry>
+    <entry key="COMMON_OPS_MULT">将变量乘以 2</entry>
+    <entry key="COMMON_OPS_ADD">添加两列</entry>
+    <entry key="COMMON_OPS_MAKE_DATETIME">将日期和持续时间合并为日期时间</entry>
+    <entry key="COMMON_OPS_EXTRACT_TIME">从日期时间中提取时间</entry>
+    <entry key="COMMON_OPS_TO_UPPER">转换为大写</entry>
+    <entry key="COMMON_OPS_TO_LOWER">转换为小写</entry>
+    <entry key="COMMON_OPS_TRIM_STRING">去除空白</entry>
+    <entry key="OK">确定</entry>
+    <entry key="CANCEL">取消</entry>
+  </message>
+</rsccat>

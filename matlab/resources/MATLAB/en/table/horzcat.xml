@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidInput">All input arguments must be tables.</entry>
+    <entry key="SizeMismatch">All tables being horizontally concatenated must have the same number of rows.</entry>
+    <entry key="SizeMismatchWithCell">All tables being horizontally concatenated must have the same number of rows. When concatenating cell arrays with tables, the cell arrays must have the same number of rows as the tables.</entry>
+    <entry key="UnequalRowNames">All tables being horizontally concatenated must have the same row names.</entry>
+    <entry key="UnequalRowTimes">All tables being horizontally concatenated must have the same row times.</entry>
+    <entry key="Timetable0x0AndTable">A 0x0 timetable may not be concatenated with a non-0xN table. Convert all inputs to the same data type, change their order, or use JOIN.</entry>  
+    <entry key="TableAndTimetable">Timetables and tables may be concatenated only when the timetable is first. Convert all inputs to the same data type, change their order, or use JOIN.</entry>  
+    <entry key="CellArrayAndTimetable">Timetables and cell arrays may be concatenated only when the timetable is first. Convert all inputs to the same data type, change their order, or use JOIN.</entry>  
+    <entry key="CustomPropsClash">Concatenating tables when the same custom property name is used as a per-table property in one table and a per-variable property in the other table is not supported.</entry>
+  </message>
+</rsccat>

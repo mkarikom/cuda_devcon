@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FirstArg">最初の引数は、数値配列、logical 配列、または char 配列でなければなりません。</entry>
+    <entry key="SecondArg">2 番目の入力は実数の整数スカラーでなければなりません。</entry>
+    <entry key="SecondArgWithSignificant">フラグ 'significant' を伴う場合、2 番目の入力は正でなければなりません。</entry>
+    <entry key="ThirdArg">3 番目の入力は 'decimals' または 'significant' でなければなりません。</entry>
+    <entry key="NonfloatMultipleArgs">X は複数の入力をもつ single または double でなければなりません。</entry>
+    <entry key="complexIntegers">ROUND は複素数の整数をサポートしません。 </entry>
+  </message>
+</rsccat>

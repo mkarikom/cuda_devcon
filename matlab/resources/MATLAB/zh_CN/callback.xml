@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="error">执行为类 {1} 定义的事件 {0} 的侦听程序回调时出现错误:\n{2}</entry>
+    <entry key="PropertyEventError">执行 {0} 类 {1} 属性 {2} 事件的侦听程序回调时出现错误:\n{3}</entry>
+    <entry key="DynamicPropertyEventError">执行 {2} 类的对象中 {1} 动态属性的 {0} 事件的侦听程序回调时出现错误:\n{3}</entry>
+    <entry key="DeletedSource">执行 {0} 事件的侦听程序回调时出错。已删除源:\n{1}</entry>
+    <entry key="DeletedAffectedObject">执行属性 {1} 的 {0} 事件的侦听程序回调时出错。已删除受影响的对象:\n{2}</entry>
+    <entry key="DeletedAffectedObjectNoClass">执行 {0} 事件的侦听程序回调时出错。受影响的对象已删除，其类已销毁:\n{1}</entry>
+  </message>
+</rsccat>

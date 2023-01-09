@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="SingBVPInvalidInterval">Singular BVP must be on interval [0, b] with 0 &lt; b.</entry>
+    <entry key="SingBVPInvalidS">Singular term must be square matrix of size neqn.</entry>
+  </message>
+</rsccat>

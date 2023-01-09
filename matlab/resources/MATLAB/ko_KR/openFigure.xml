@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidOption">''{0}''은(는) 인식할 수 있는 옵션이 아닙니다.</entry>
+    <entry key="FunctionToBeRemoved">openFigure는 향후 릴리스에서 제거될 예정입니다. 대신 openfig를 사용하십시오.</entry>
+  </message>
+</rsccat>

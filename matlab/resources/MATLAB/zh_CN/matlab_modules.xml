@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="addpathFailedToCreateNewModule">不能实例化新模块，因为在 {0} 处的模块已位于路径上或已注册。MATLAB 处于不一致的状态。请从路径中删除此模块。</entry>
+    <entry key="rmpathFailedToRemoveModule">在 {0} 处找不到有效的模块。此模块先前没有正确实例化。</entry>
+    <entry key="missingModuleDefinition">模块定义文件在位置 {0} 处缺失或不正确。</entry>
+    <entry key="cannotUnregisterNonRegisteredModuleFromRoot">位置 {0} 处的模块当前未注册。</entry>
+    <entry key="unregisterModuleNameNotFound">当前没有注册名为 {0} 的模块。 </entry>
+    <entry key="unregisterModuleVersionMismatch">不能注销模块 {0}，因为它当前正在执行。 </entry>
+    <entry key="cannotUnregisterModuleFromNonRoot">不能从非模块根位置注销模块。</entry>
+    <entry key="moduleIdentifierHasAlreadyBeenClaimed">不能注册此模块。{0} 中的另一个模块使用的模块名称、提供程序和版本与此模块相同。</entry>
+    <entry key="registrationFailureSubfolderOnPath">不能注册模块 {0}，因为它的子文件夹 {1} 当前已在路径中。</entry>
+  </message>
+</rsccat>

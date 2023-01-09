@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidLineSpec">マーカーの仕様が無効です。''help plot'' と入力してください。</entry>
+    <entry key="InvalidXYMatrices">X と Y は 2 次元でなければなりません。</entry>
+    <entry key="XYSizeMismatch">X と Y は、同じ行数とページ数でなければなりません。</entry>
+    <entry key="AutoResizeChildren">''AutoResizeChildren'' プロパティが ''on'' に設定されたコンテナーに plotmatrix を追加することはサポートされていません。</entry>
+  </message>
+</rsccat>

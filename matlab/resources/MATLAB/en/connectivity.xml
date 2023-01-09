@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ObjectAlreadyParented">Objects to be inserted into a tree may not already be parented.</entry>
+    <entry key="NoCyclicTrees">Creating cyclic trees is prohibited.</entry>
+    <entry key="InvalidHeterogeneousTree">Attempt to create invalid heterogeneous tree. All objects in a heterogeneous tree must share a common superclass that is a direct subclass of matlab.mixin.Heterogeneous.</entry>
+    <entry key="InvalidThirdArgument">The third argument must be either ''first'' or ''last''.</entry>
+    <entry key="RequireParentedObject">The input argument h must be an object that has a parent.</entry>
+    <entry key="DuplicateObjectsAddChildren">CHILDREN may not contain duplicate handles.</entry>
+    <entry key="DuplicateObjectsInsert">SIBLINGS may not contain duplicate handles.</entry>
+
+  </message>
+</rsccat>

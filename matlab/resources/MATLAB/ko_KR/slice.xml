@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ExtraShortArgument">더 이상 열 개수를 지정할 필요가 없습니다. 대신 slice(v,xi,yi,zi)를 사용하십시오.</entry>
+    <entry key="InvalidVDims">V는 3차원 배열이어야 합니다.</entry>
+    <entry key="WrongNumberOfInputs">입력 인수의 개수가 올바르지 않습니다.</entry>
+    <entry key="ExtraArgument">더 이상 열 개수를 지정할 필요가 없습니다. 대신 slice(x,y,z,v,xi,yi,zi)를 사용하십시오.</entry>
+  </message>
+</rsccat>

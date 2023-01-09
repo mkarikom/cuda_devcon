@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ContourMatrixMustBeFull">等高线矩阵必须为完全矩阵。</entry>
+    <entry key="ContourMatrixMustBeReal">等高线矩阵必须为实矩阵。</entry>
+    <entry key="ContourMatrixMustHaveAtMost2Dimensions">等高线矩阵必须具有最多 2 个维度。</entry>
+    <entry key="ContourMatrixMustHave2Rows">等高线矩阵必须具有 2 行。</entry>
+    <entry key="TextListMustBeVectorOrScalar">文本列表值必须为向量或标量。</entry>
+    <entry key="TextListMustBeFinite">文本列表值必须为有限值。</entry>
+    <entry key="TextListMustBeUniqueSortedIncreasing">文本列表值必须唯一、已排序且递增。</entry>
+    <entry key="LabelSpacingIgnoredManual">当带有 CLABEL 的 manual 选项时，LabelSpacing 属性无效。</entry>
+    <entry key="LabelSpacingIgnoredAuto">当未指定 CLABEL 的等高线句柄参数时，LabelSpacing 属性无效。</entry>
+    <entry key="InvalidContourMatrixInput">第一个输入必须为有效的等高线描述矩阵。</entry>
+    <entry key="ContourHandleInputs">等高线句柄数量不足。</entry>
+    <entry key="LabelHandleOutputs">在提供等高线句柄参数并且标签位置为自动时，不支持文本句柄输出。</entry>
+    <entry key="ReadOnlyTextProperty">以下文本属性为只读: {0}。</entry>
+    <entry key="IgnoringTextProperty">以下文本属性将被忽略: {0}。</entry>
+    <entry key="IgnoringSpecialTextProperty">在提供等高线句柄参数并且标签放置为自动时，将忽略 {0} 属性。</entry>
+    <entry key="PleaseWaitAMoment">请稍候...</entry>
+    <entry key="SelectContoursForLabeling">仔细选择要用于标记的等高线。</entry>
+    <entry key="WhenDonePressReturn">完成后，当图形窗口为活动窗口时，请按 Return 键。</entry>
+  </message>
+</rsccat>

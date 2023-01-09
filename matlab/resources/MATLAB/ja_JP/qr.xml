@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="internal">アルゴリズムは成功しませんでした。\nライブラリ SuiteSparseQR の内部エラーです。</entry>
+    <entry key="inputTypeSparse">データ型が無効です。最初の引数は double でなければなりません。</entry>
+    <entry key="inputTypeSparse2">データ型が無効です。2 番目の引数は double でなければなりません。</entry>
+    <entry key="rowDimNotMatch">行の次元が一致しません。</entry>
+    <entry key="notSupportFill">3 つの入力による構文はスパース行列でのみサポートされています。</entry>
+    <entry key="inputMustBe2D">入力配列は 2 次元でなければなりません。</entry>
+    <entry key="inputType">データ型が無効です。最初の引数は double または single でなければなりません。</entry>
+    <entry key="unknownOptionForSecondInput">オプションは 0、''matrix''、''vector'' のいずれかでなければなりません。</entry>
+    <entry key="unknownOptionForThirdInput">オプションは 0、''matrix''、''vector'' のいずれかでなければなりません。</entry>
+    <entry key="invalidA">入力は double のスパース行列でなければなりません。</entry>
+    <entry key="invalidH">1 番目の入力 H は double のスパース行列でなければなりません。</entry>
+    <entry key="invalidTau">2 番目の入力 TAU は長さ P の密な double の行ベクトルでなければなりません。</entry>
+    <entry key="invalidPinv">3 番目の入力 PINV は長さ M の密な INT64 行ベクトルで、すべての要素は 0 から M-1 の間でなければなりません。</entry>
+    <entry key="invalidX">4 番目の入力 X は M 行の double の行列でなければなりません。</entry>
+    <entry key="invalidTransp">5 番目の入力 TRANSPOSE は論理スカラーでなければなりません。</entry>
+    <entry key="invalidCombination">複素数 X をもつ実数 Q の乗算はサポートされていません。</entry>
+    <entry key="invalidOrder">次数は論理スカラーでなければなりません。</entry>
+    <entry key="invalidTol">許容誤差は実数で double のスカラーでなければなりません。</entry>
+  </message>
+</rsccat>

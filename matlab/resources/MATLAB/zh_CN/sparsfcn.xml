@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonPosIndex">对矩阵的索引必须为正数。</entry>
+    <entry key="largeIndex">对矩阵的索引太大。</entry>
+    <entry key="nonIntegerIndex">对矩阵的索引必须为整数。</entry>
+    <entry key="spLogicalRepeatedIndices">稀疏逻辑矩阵不支持重复的索引。</entry>
+    <entry key="nondoubleFunctionOutput">用于稀疏累积的函数输出值必须为双精度值。</entry>
+    <entry key="nonPositiveIndicesOfSparse">稀疏矩阵索引必须为正整数。</entry>
+    <entry key="nonScalarOutput">''{0}'' 的输出不是标量。</entry>
+    <entry key="negSizeOfSparse">稀疏矩阵大小必须为非负整数标量。</entry>
+  </message>
+</rsccat>

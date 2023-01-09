@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="cannotInitializeAfterlxeFeval">lxeInitialize는 lxeFeval을 처음 호출하기 전에 호출해야 합니다.</entry>
+    <entry key="configurationMustBeString">구성은 문자형 벡터를 포함해야 합니다.</entry>
+    <entry key="configurationNotRecognized">구성 옵션은 대/소문자를 구분하며 Default, BoxInterp, BoxDual 중 하나여야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ScalarHandleRequired">스칼라 핸들 입력값이 필요함</entry>
+    <entry key="UnsupportedHandle">동작 객체(Behavior object)는 이 핸들 유형을 지원하지 않습니다.</entry>
+  </message>
+</rsccat>

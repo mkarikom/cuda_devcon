@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DeprecatedV6Argument">{0} への引数 ''v6'' の利用は推奨されません。これは将来のリリースではサポート廃止の予定です。</entry>
+    <entry key="DeprecatedGroupArgument">{0} への引数 ''group'' は不要なため、将来のリリースでサポートされなくなります。</entry>
+  </message>
+</rsccat>

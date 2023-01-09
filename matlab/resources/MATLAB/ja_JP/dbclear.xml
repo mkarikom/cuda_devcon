@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="cannotClearWhenAllEnabled">設定がすべての識別子に対して有効な場合、''{0}'' の設定は ''{1}'' に対してクリアできません。すべての識別子に対する設定をクリアするには、''{2}'' を使用してください。</entry>
+    <entry key="dbNameNotSpecified">ファイル名を指定しなければなりません。</entry>
+  </message>
+</rsccat>

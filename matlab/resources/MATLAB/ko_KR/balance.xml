@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="matrixWithNaNInf">BALANCE에 대한 입력값은 NaN 또는 Inf를 포함해서는 안 됩니다.</entry>
+    <entry key="unknownSecondArgument">두 번째 인수는 \''noperm\''이어야 합니다.</entry>
+    <entry key="noBalanceSparse">balance(full(S))를 사용하십시오.</entry>
+    <entry key="inputType">첫 번째 인수는 single형 또는 double형이어야 합니다.</entry>
+    <entry key="inputMustBe2D">입력값은 2차원이어야 합니다.</entry>
+  </message>
+</rsccat>

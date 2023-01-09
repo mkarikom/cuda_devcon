@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FunAsVariable">table 変数を関数ハンドルにしないでください。cell 配列を使用して関数ハンドルを格納してください。</entry>
+    <entry key="UnequalFieldLengths">スカラー構造体のフィールドは同じ行数でなければなりません。</entry>
+    <entry key="UnequalVarLengths">すべての table 変数の行数は同じでなければなりません。</entry>
+    <entry key="StringParamNameNotSupported">"{0}" でパラメーター名を指定しようとした可能性があります。しかし、table コンストラクターでは、パラメーター名を文字ベクトルとして指定する必要があります。代わりに table(..., ''{0}'', Value) を使用してください。</entry>
+    <entry key="ConstructingFromCharRowData">文字ベクトル ''{0}'' を変数の 1 つとしてもつ 1 行の table を作成しようとした可能性があります。テキスト データを table に保存するには、文字配列ではなく、string 配列または文字ベクトルの cell 配列を使用してください。または、1 行の cell 配列を作成してから CELL2TABLE を使用して table に変換してください。</entry>
+    <entry key="UndefinedFunction">関数 ''{0}'' (タイプ''{1}'' の入力引数) が未定義です。</entry>
+    <entry key="InvalidNumericConversion">関数 ''{0}'' (タイプ''{1}'' の入力引数) が未定義です。数値に変換するには、関数 TABLE2ARRAY を使用するか、ドットまたは中かっこによる添字を使用してデータを抽出してください。</entry>
+    <entry key="UndefinedLengthFunction">関数 ''LENGTH'' が、''{0}'' 型の入力引数について未定義です。代わりに、関数 height、width、または size を使用してください。</entry>
+    <entry key="UndefinedSortFunction">関数 ''SORT'' が、''{0}'' 型の入力引数について未定義です。代わりに、関数 SORTROWS を使用してください。</entry>
+    <entry key="UndefinedCellFunction">関数 ''CELL''が、''{0}'' 型の入力引数について未定義です。代わりに、関数 TABLE2CELL を使用してください。</entry>
+    <entry key="UndefinedStructFunction">関数 ''STRUCT'' が、''{0}'' 型の入力引数について未定義です。代わりに、関数 TABLE2STRUCT を使用してください。</entry>
+    <entry key="UndefinedTransposeFunction">関数 ''{0}'' (タイプ''{1}'' の入力引数) が未定義です。代わりに、関数 ROWS2VARS を使用してください。</entry>
+    <entry key="VarEditorIndexOverflow">データは、table において既存の変数のすぐ右側に追加しなければなりません。新しい table 変数は、使用可能な次の列に追加されます。</entry>
+    <entry key="NoPlotMethod">table と timetable にはプロット メソッドがありません。table または timetable をプロットするには、関数 &lt;a href="matlab:helpview(fullfile(docroot,'matlab','ref','stackedplot.html'))"&gt;stackedplot&lt;/a&gt; を使用してください。代替方法としては、ドットの添字または中かっこの添字を使用して table または timetable の変数を抽出してから、それらの変数をプロット関数の入力引数として渡します。</entry>
+    <entry key="IncompatibleLoad">このバージョンの MATLAB と互換性がないため、保存した table を読み込むことができません</entry>
+    <entry key="IncompatibleLoadProperties">このバージョンの MATLAB と互換性がないため、保存した TableProperties を読み込むことができません</entry>
+    <entry key="ObjectConstructorFailed">''{0}'' コンストラクターは、既定値を生成する入力をもたない呼び出しにより、エラーを返しました。</entry>
+    <entry key="AssignmentDimensionMismatch">左辺のサイズが {1} で、右辺の対応する変数のサイズが {2} であるため、table 変数 ''{0}'' の代入を実行できません。</entry>
+    <entry key="CharAssignFromCellRHS">table 内の文字変数への代入は、右辺の値が table である場合にのみサポートされます。テキスト データには、table 内で string 変数を使用することを検討してください。</entry>
+    <entry key="RowsAddedExistingVars">割り当てによって行が table に追加されましたが、値は table のすべての既存変数に割り当てられませんでした。これらの変数は既定値を含む行で拡張されます。</entry>
+    <entry key="RowsAddedNewVars">テーブルに追加された新規変数には、テーブルより少ない行数があります。これらは既定値を含んだ行で拡張されました。</entry>
+    <entry key="IllegalPropertyReference">.Properties.{0} のようにドット添字を使用して table の ''{0}'' プロパティにアクセスしてください。</entry>
+    <entry key="IllegalPropertyReferenceCase">table 変数名 ''{0}'' が認識されません。''{1}'' プロパティへのアクセスが意図された可能性があります。.Properties.{1} のようにドット添字を使用して、このプロパティにアクセスしてください。</entry>
+    <entry key="UnknownPropertyCase">table のプロパティ名 ''{0}'' が認識されません。プロパティ名は大文字と小文字を区別します。''{1}'' プロパティへのアクセスが意図された可能性があります。</entry>
+    <entry key="IllegalVarSubscript">table 変数名は string または文字ベクトルでなければなりません。</entry>
+    <entry key="IllegalVarIndex">変数インデックスは、実数の正の整数でなければなりません。</entry>
+    <entry key="NestedSubscriptingWithDotVariables">複数レベルに添字付けされた ''.{0}'' の使用はサポートされていません。代わりに、中かっこの添字を table に直接使用してください。</entry>
+    <entry key="NestedSubscriptingWithDotRowsDeletion">複数レベルに添字付けされた ''.{0}'' の使用による table の行の削除はサポートされていません。代わりに、小かっこの添字を table に直接使用してください。</entry>
+    <entry key="InvalidEmptyAssignment">[] を代入して行または変数を削除する場合、少なくとも 1 つの添字が '':'' でなければなりません。</entry>
+    <entry key="EmptyAssignmentToSubarrayVar">table の部分配列への [] の代入による table からの変数の削除はサポートされていません。代わりに T(:,VAR) = [] または T.VAR = [] を使用してください。</entry>
+    <entry key="InvalidLinearIndexing">行ラベルを使用して table 変数に線形インデックスを付ける操作は、変数に 1 つの列がある場合にのみサポートされます。</entry>
+    <entry key="PropertiesAssignmentToSubarray">table の部分配列での .Properties への代入はサポートされていません。代わりに T.PROPERTIES.PROPERTYNAME = VALUE または T.PROPERTIES = PROPERTYVALUES を使用してください。</entry>
+    <entry key="InvalidPropertiesAssignment">.Properties に代入する値は、{0} オブジェクト、または {1} のプロパティに対応するフィールドで構成されるスカラー構造体でなければなりません。</entry>
+    <entry key="InvalidPropertyAssignment">.Properties.{0} のようにドット添字を使用して、table の ''{0}'' プロパティに代入してください。</entry>
+    <entry key="InvalidRHS">テーブルへの代入文の右辺は、別のテーブルかセル配列でなければなりません。</entry>
+    <entry key="InvalidSubscriptExpr">() インデックス付けは、テーブルのインデックス式の最後でなければなりません。</entry>
+    <entry key="InvalidContentsReshape">後ろにより深いレベルの添字が続く '{}' の添字を使用する、1 つ以上の table 変数の内容への代入では、内容のサイズを変更できません。</entry>
+    <entry key="InvalidExpansion">() または '{}' の添字の後に追加レベルの添字が続く代入による、行または変数の table への追加はサポートされていません。</entry>
+    <entry key="InvalidExpansionDot">変数のフィールドまたはプロパティへの代入による、table 内の新しい変数の作成はサポートされていません。</entry>
+    <entry key="InvalidExpansionDotSuggest">変数のフィールドまたはプロパティへの代入による、table 内の新しい変数の作成はサポートされていません。{0}</entry>
+    <entry key="InvalidExpansionDotDepth">ドット添字の後に複数レベルの添字がある代入によって、テーブルで新しい変数を作成することはできません。</entry>
+    <entry key="InvalidExpansionDotDepthSuggest">ドット添字の後に複数レベルの添字が続く代入による、table 内の新しい変数の作成はサポートされていません。{0}</entry>
+    <entry key="IntendedPropertiesAssignment">テーブルのプロパティへの代入が意図された可能性があります。これを行うには、''.Properties'' を使用してください。</entry>
+    <entry key="IntendedPropertyAssignment">table の ''{0}'' プロパティへの代入が意図された可能性があります。これを行うには、''.Properties.{0}'' を使用してください。</entry>
+    <entry key="IntendedVarAssignment">table 変数 ''{0}'' への代入が意図された可能性があります。</entry>
+    <entry key="IntendedRowDimAssignment">行名への ''{0}'' の割り当てが意図された可能性があります。</entry>
+    <entry key="NDCell">table への代入文の右辺の cell 配列は、2 次元でなければなりません。</entry>
+    <entry key="NDSubscript">3 つ以上の添字を使用して (t(i,j,k) のように) table に添字を指定することはサポートされていません。t(rows,vars) のように、常に行の添字と変数の添字を指定してください。</entry>
+    <entry key="LinearSubscript">1 つの添字を使用して (t(i) のように) table に添字を指定することはサポートされていません。t(rows,vars) のように、行の添字と変数の添字を指定してください。変数を選択するには、t(:,i)、または変数が 1 つである場合 t(i) を使用してください。行を選択するには、t(i,:) を使用してください。</entry>
+    <entry key="RowDimensionMismatch">テーブルで変数への代入や変数の作成を行うには、テーブルの高さと行数が一致していなければなりません。</entry>
+    <entry key="RowDimensionMismatchSuggest">テーブルで変数への代入や変数の作成を行うには、テーブルの高さと行数が一致していなければなりません。 {0}</entry>
+    <entry key="EmptyAssignmentToVariableRows">インデックス付き代入を使用して table 変数から要素を削除する場合、行数を変更することはできません。最初の添字をコロン (':') として指定し、コロンではない他の添字を厳密に 1 つ指定してください。</entry>
+    <entry key="TooManyOutputs">出力が多すぎます。</entry>
+    <entry key="VarDimensionMismatch">代入においてテーブル変数の数を一致させなければなりません。</entry>
+    <entry key="WrongNumberRHSCols">代入の右辺の値の幅が誤っています。幅が {0,number,integer} の値を代入する必要があります。</entry>
+    <entry key="WrongSizeRHS">The value on the right side of the assignment must have the same size along all dimensions as the value on the left side.</entry>
+    <entry key="IllegalDotMethod">table 変数名 ''{0}'' が認識されません。{1} メソッドを呼び出す場合は、{1}(t,...) などの関数構文を使用しなければなりません。詳細については、「&lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;メソッドの呼び出し&lt;/a&gt;」を参照してください。</entry>
+    <entry key="IllegalDotMethodNoCorrection">table 変数名 ''{0}'' が認識されません。{1} メソッドを呼び出す場合は、関数構文を使用しなければなりません。詳細については、「&lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;メソッドの呼び出し&lt;/a&gt;」を参照してください。</entry>
+    <entry key="BracesAssignDelete">代入の右辺の値には、{0,number,integer} 列がなければなりません。[] を代入して行または変数を削除する場合は、'{}' の代わりに () の添字を使用してください。</entry>
+    <entry key="CannotRemoveVarNames">table からの変数名の削除はサポートされていません。</entry>
+    <entry key="CannotRemoveDimNames">table からの次元名の削除はサポートされていません。</entry>
+    <entry key="RowDimNameNondefault">table 変数名 ''{0}'' が認識されません。行名にアクセスする場合は、この table で代わりに ''{1}'' を使用してください。 </entry>
+    <entry key="VariablesDimNameNondefault">table 変数名 ''{0}'' が認識されません。変数にアクセスする場合は、この table で代わりに ''{1}'' を使用してください。 </entry>
+    <entry key="RowDimNameCase">table 変数名 ''{0}'' が認識されません。名前は大文字と小文字を区別します。table の行名に ''{1}'' としてアクセスしようとした可能性があります。</entry>
+    <entry key="VariablesDimNameCase">table 変数名 ''{0}'' が認識されません。名前は大文字と小文字を区別します。''{1}'' を使って、table 全体の内容に配列としてアクセスするよう意図された可能性があります。</entry>
+    <entry key="TooManyOutputsBracesIndexing">出力引数が多すぎます。table と timetable に中かっこを使用してインデックスを付けると、1 つの配列が返されます。詳細については、「&lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','access-data-in-a-table.html'))"&gt;テーブル内のデータへのアクセス&lt;/a&gt;」を参照してください。</entry>
+    <entry key="ReservedVarnameColon">':' は配列の添字として予約されているため、':' は有効な変数名ではありません。</entry>
+    <entry key="DuplicateDimNames">table の次元名が重複しています: ''{0}''。</entry>
+    <entry key="DuplicateRowNames">table の行名が重複しています: ''{0}''。</entry>
+    <entry key="DuplicateVarNames">table 変数名が重複しています: ''{0}''。</entry>
+    <entry key="ReservedVarNameConflict">table 変数名が予約名 ''{0}'' と競合しています。</entry>
+    <entry key="ReservedDimNameConflict">table の次元名が予約名 ''{0}'' と競合しています。</entry>
+    <entry key="ReservedRowNameConflict">table の行名を ''{0}'' とすることはできません。table の添字として予約されています。</entry>
+    <entry key="ExtractDataDimensionMismatch">すべてのテーブル変数は同じ次元数でなければなりません。</entry>
+    <entry key="ExtractDataSizeMismatch">すべてのテーブル変数は、2 番目の次元を除いてすべて同じ長さでなければなりません。</entry>
+    <entry key="ExtractDataCatError">指定された table 変数を連結できません。</entry>
+    <entry key="ExtractDataIncompatibleTypeError">データ型が {2} と {3} であるため、table 変数 ''{0}'' および ''{1}'' を連結できません。</entry>
+    <entry key="InvalidSubscript">添字の構造体が無効です。</entry>
+    <entry key="UnrecognizedCustomProperty">table のカスタム プロパティ名 ''{0}'' が認識されません。</entry>
+    <entry key="InvalidDimName">A table dimension name subscript must be a character vector, string array, or cell array of character vectors, with each name in the subscript containing one or more characters.</entry>
+    <entry key="InvalidDimSubscript">table の次元の添字は、実数の正の整数を含む数値配列、logical 配列、文字ベクトル、string 配列、または文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="DimIndexOutOfRange">次元インデックスがテーブルの次元数を超えています。</entry>
+    <entry key="UnrecognizedDimName">table の次元名 ''{0}'' が認識されません。</entry>
+    <entry key="InvalidRowName">table の行名の添字は、文字ベクトル、string 配列、または文字ベクトルの cell 配列でなければなりません</entry>
+    <entry key="InvalidRowSubscript">table の行の添字は、実数の正の整数を含む数値配列、logical 配列、文字ベクトル、string 配列、または文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="RowIndexOutOfRange">行インデックスがテーブルの次元を超えています。</entry>
+    <entry key="UnrecognizedRowName">table の行名 ''{0}'' が認識されません。</entry>
+    <entry key="DiscontiguousVars">連続していないインデックスを用いてテーブル変数を作成することはできません。</entry>
+    <entry key="InvalidVarName">table 変数名の添字は、文字ベクトル、string 配列、または文字ベクトルの cell 配列でなければなりません。また、添字に記載されているそれぞれの名前に 1 つ以上の文字が含まれていなければなりません。</entry>
+    <entry key="InvalidVarSubscript">table 変数の添字は、実数の正の整数を含む数値配列、logical 配列、文字ベクトル、string 配列、または文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="UnrecognizedVarName">table 変数名 ''{0}'' が認識されません。</entry>
+    <entry key="UnrecognizedVarNameDeleting">''{0}'' は存在しないため、table から削除できません。table 内の変数にリテラル値 [] を代入すると、その変数は削除されます。table 内に値 [] の新しい変数を作成するには、T.{0} = zeros(0) を使用するか、または一時ワークスペース変数にまず代入します。</entry>
+    <entry key="UnrecognizedVarNamePropertiesCase">table 変数名 ''{0}'' が認識されません。table のプロパティにアクセスするには '.Properties' を使用します。</entry>
+    <entry key="UnrecognizedVarNameCase">table 変数名 ''{0}'' が認識されません。変数名は大文字と小文字を区別します。変数 ''{1}'' へのアクセスが意図された可能性があります。</entry>
+    <entry key="VarIndexOutOfRange">変数インデックスがテーブルの次元を超えています。</entry>
+    <entry key="NoRowLabels">入力テーブルに行名がないため、行名をグループ化変数またはキー変数として使用できません。</entry>
+    <entry key="AmbiguousProperty">table のプロパティ名があいまいです: {0}。</entry>
+    <entry key="InvalidPropertyName">table のプロパティ名が無効です。</entry>
+    <entry key="UnknownProperty">テーブル プロパティ {0} が不明です。</entry>
+    <entry key="ReplaceDataHorzcatError">指定された table 変数を水平方向に連結できません。</entry>
+    <entry key="ReplaceDataFunOutputSizeMismatch">FUN は、入力配列として行と列が同数の配列を生成しなければなりません。</entry>
+    <entry key="ReplaceDataDataRowSizeMismatch">置き換え用データはテーブルと同じ行数でなければなりません。</entry>
+    <entry key="ReplaceDataDataColSizeMismatch">置き換え対象のテーブル変数は、列の総数が置き換え用データと同じでなければなりません。</entry>
+    <entry key="ReplaceDataFunError">関数 ''{0}'' の評価中にエラーが発生しました。</entry>
+    <entry key="InvalidLogicalVal">''{0}'' パラメーターは論理値 1 (true) または論理値 0 (false) でなければなりません。</entry>
+    <entry key="InvalidDescription">Description プロパティは string または文字ベクトルでなければなりません。</entry>
+    <entry key="InvalidDimNames">DimensionNames プロパティは、string 配列または cell 配列でなければなりません。また、それぞれの名前に 1 つ以上の文字が含まれていなければなりません。</entry>
+    <entry key="IncorrectNumberOfDimNames">DimensionNames プロパティにはテーブル内の次元ごとに名前を 1 つ指定しなければなりません。</entry>
+    <entry key="IncorrectNumberOfDimNamesPartial">DimensionNames プロパティには名前を変更する次元ごとに名前を 1 つ指定しなければなりません。</entry>
+    <entry key="IncorrectNumberOfRowNames">RowNames プロパティにはテーブル内の行ごとに名前を 1 つ指定しなければなりません。</entry>
+    <entry key="IncorrectNumberOfRowNamesPartial">RowNames プロパティには名前変更する行ごとに名前を 1 つ指定しなければなりません。</entry>
+    <entry key="InvalidRowNames">RowNames プロパティは、string 配列または cell 配列でなければなりません。また、それぞれの名前に 1 つ以上の文字が含まれていなければなりません。</entry>
+    <entry key="InvalidUnits">VariableUnits プロパティは string 配列または文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="IncorrectNumberOfUnits">VariableUnits プロパティはテーブル内の変数ごとに 1 つの要素をもたなければなりません。</entry>
+    <entry key="InvalidContinuityAssignment">VariableContinuity プロパティに割り当てるには、string 配列、文字ベクトルの cell ベクトル、または matlab.tabular.Continuity ベクトルを使用してください。</entry>
+    <entry key="InvalidContinuityFullAssignment">VariableContinuity プロパティに割り当てるには、string 配列、文字ベクトルの cell ベクトル、または matlab.tabular.Continuity ベクトルを使用してください。文字ベクトルは、プロパティの個々の要素にのみ割り当てることができます。</entry>
+    <entry key="IncorrectNumberOfContinuity">VariableContinuity プロパティは、table 内の変数ごとに 1 つの要素を持たなければなりません。</entry>
+    <entry key="InvalidContinuityValue">VariableContinuity プロパティは ''continuous''、''step''、''event'' または ''unset'' で指定しなければなりません。</entry>
+    <entry key="InvalidVarDescr">VariableDescriptions プロパティは string 配列または文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="IncorrectNumberOfVarDescrs">VariableDescriptions プロパティはテーブル内の変数ごとに 1 つの要素をもたなければなりません。</entry>
+    <entry key="IncorrectNumberOfVarCustomProps">カスタム プロパティ ''{0}'' は、table 内の変数ごとに 1 つの要素をもつベクトルであるか、0 行 0 列の空 (例: []、'{}') でなければなりません。</entry>
+    <entry key="TableAsPerVarProp">{0} は変数ごとのカスタム プロパティとしてサポートされていません。</entry>
+    <entry key="CharAsPerVarProp">文字のベクトルは変数ごとのカスタム プロパティとしてサポートされていません。文字ベクトルの cell 配列または string のベクトルを使用してください。</entry>
+    <entry key="IncorrectNumberOfVarNames">VariableNames プロパティにはテーブル内の変数ごとに名前を 1 つ指定しなければなりません。</entry>
+    <entry key="IncorrectNumberOfVarNamesPartial">VariableNames プロパティには名前を変更する変数ごとに名前を 1 つ指定しなければなりません。</entry>
+    <entry key="InvalidVarNames">VariableNames プロパティは文字ベクトルの cell 配列です。複数の変数名を割り当てるには、空でない名前を string 配列または文字ベクトルの cell 配列で指定してください。</entry>
+    <entry key="InvalidVarNameBraces">VariableNames プロパティは文字ベクトルの cell 配列です。中かっこの添字で単一の変数名を設定するには、空ではない文字ベクトルを割り当ててください。</entry>
+    <entry key="GroupingVarNotColumn">グループ化変数は列ベクトルまたは文字配列でなければなりません。</entry>
+    <entry key="GroupTypeIncorrect">グループ化変数は、カテゴリカル ベクトル、数値ベクトル、論理ベクトル、datetime ベクトル、duration ベクトル、string ベクトル、文字ベクトルのセル ベクトル、2 次元文字配列のいずれかでなければなりません。</entry>
+    <entry key="VarUniqueMethodFailed">テーブル変数 ''{0}'' の固有の値を使用した行のグループ化ができません。UNIQUE はエラーを返しました。</entry>
+    <entry key="VarUniqueMethodFailedCellRows">テーブル変数 ''{0}'' の一意の値を使用した行のグループ化はできません。これは変数が複数の列をもつセル配列であるためです。</entry>
+    <entry key="VarUniqueMethodFailedNumRows">テーブル変数 ''{0}'' の固有の値を使用した行のグループ化ができません。UNIQUE メソッドで返された値の行数が正しくありません。</entry>
+    <entry key="InvalidVariableName">''{0}'' は有効な table 変数名ではありません。</entry>
+    <entry key="VariableNameNotValidIdentifier">''{0}'' は有効な table 変数名ではありません。詳細については、isvarname または matlab.lang.makeValidName のドキュメンテーションを参照してください。</entry>
+    <entry key="VariableNameLengthMax">''{0}'' は、table 変数名で許可される最大長より長くなっています。</entry>
+    <entry key="ModifiedVarnames">有効な MATLAB 識別子ではない table 変数名が変更されました。table 変数名は一意でなければならないため、新しい識別子と一致する table 変数名があった場合、それらはすべて変更されています。</entry>
+    <entry key="ModifiedVarnamesUnstack">有効な MATLAB 識別子ではない table 変数名が変更されました。table 変数名は一意でなければならないため、新しい識別子と一致する table 変数名があった場合、それらはすべて変更されています。\n元の INDVAR 値を table 変数名として使用するには、''VariableNamingRule'' を ''preserve'' に設定してください。</entry>
+    <entry key="ModifiedVarnamesRows2Vars">有効な MATLAB 識別子ではない table 変数名が変更されました。table 変数名は一意でなければならないため、新しい識別子と一致する table 変数名があった場合、それらはすべて変更されています。\n元の行名を新しい変数名として使用するには、''VariableNamingRule'' を ''preserve'' に設定してください。</entry>
+    <entry key="ModifiedVarnamesLengthMax">table 変数名が namelengthmax の長さで打ち切られました。</entry>
+    <entry key="ModifiedVarnamesReservedConflict">予約名 ''{0}'' との競合を避けるために table 変数名が変更されました。</entry>
+    <entry key="ModifiedAndSavedVarnames">ファイルからの列ヘッダーは、table の変数名の作成前に、有効な MATLAB 識別子になるように変更されました。元の列ヘッダーは、VariableDescriptions プロパティに保存されています。\n元の列ヘッダーを table 変数名として使用するには、''VariableNamingRule'' を ''preserve'' に設定します。</entry>
+    <entry key="ModifiedAndSavedVarnamesReserved">予約名 ''{0}'' との競合を避けるために table 変数名が変更されました。元の名前は VariableDescriptions プロパティに保存されています。</entry>
+    <entry key="ModifiedAndSavedVarnamesLengthMax">table 変数名が namelengthmax の長さで打ち切られました。元の名前は VariableDescriptions プロパティに保存されています。</entry>
+    <entry key="ZeroLengthVarname">table 変数名は空でないテキストでなければなりません。</entry>
+    <entry key="ModifiedDimnames">名前 ''{0}'' が有効な MATLAB 識別子となるように DimensionNames プロパティが変更されました。</entry>
+    <entry key="DimNameNotValidIdentifier">''{0}'' は有効な table の次元名でありません。詳細については、isvarname または matlab.lang.makeValidName のドキュメンテーションを参照してください。</entry>
+    <entry key="DimNameLengthMax">''{0}'' は、table の次元名で許可される最大長より長くなっています。</entry>
+    <entry key="RowNameReservedBackCompat">コロンは配列の添字となる可能性もあるため、行名 ':' は変更されました。今後 ':' を行名として割り当てると、エラーが発生します。</entry>
+    <entry key="DuplicateDimNamesVarNames">次元名と変数名が重複しています: ''{0}''。</entry>
+    <entry key="DuplicateDimNamesVarNamesWarn">次元名と変数名の競合を回避するために DimensionNames プロパティが変更されました: ''{0}''。</entry>
+    <entry key="DimNameNotValidIdentifierBackCompat">名前 ''{0}'' が有効な MATLAB 識別子となるように DimensionNames プロパティが変更されました。詳細については、「&lt;a href="matlab:helpview(fullfile(docroot,''matlab'',''helptargets.map''),''changes_to_dimension_names_property_in_r2016b'')"&gt;R2016b における DimensionNames プロパティへの変更&lt;/a&gt;」を参照してください。これは将来のリリースではエラーとなります。</entry>
+    <entry key="DimnamesReservedNameConflictBackCompat">''{0}'' は予約名であるため、DimensionNames プロパティが変更されました。詳細については、「&lt;a href="matlab:helpview(fullfile(docroot,''matlab'',''helptargets.map''),''changes_to_dimension_names_property_in_r2016b'')"&gt;R2016b における DimensionNames プロパティへの変更&lt;/a&gt;」を参照してください。これは将来のリリースではエラーとなります。</entry>
+    <entry key="DuplicateDimnamesVarnamesBackCompat">次元名と変数名の競合を回避するために DimensionNames プロパティが変更されました: ''{0}''。詳細については、「&lt;a href="matlab:helpview(fullfile(docroot,''matlab'',''helptargets.map''),''changes_to_dimension_names_property_in_r2016b'')"&gt;R2016b における DimensionNames プロパティへの変更&lt;/a&gt;」を参照してください。これは将来のリリースではエラーとなります。</entry>
+    <entry key="InvalidSize">サイズは、行数と変数の数を指定する、非負の整数値からなる 2 要素ベクトルでなければなりません。</entry>
+    <entry key="MissingVariableTypes">サイズが指定された table を作成するときは、変数の型を指定してください。</entry>
+    <entry key="IncorrectVariableTypesSyntax">変数の型が指定された table を作成するときは、サイズを指定してください。</entry>
+    <entry key="InvalidVariableTypes">変数の型を、["string", "datetime", "double"] のように string 配列または文字ベクトルの cell 配列で指定してください。</entry>
+    <entry key="InvalidSizeSyntax">サイズ変数と入力データ変数の両方の指定はサポートされていません。詳細については、&lt;a href="matlab:helpview(fullfile(docroot,'matlab','ref','table.html'))"&gt;table のドキュメンテーション&lt;/a&gt;を参照してください。</entry>
+    <entry key="VariableTypesAndSizeMismatch">変数の型の数は、サイズで指定された変数の数と一致しなければなりません。</entry>
+    <entry key="InvalidPreallocationVariableType">''{0}'' 型の変数を作成できません。table を事前に割り当てる場合、変数のそれぞれの型は empty メソッドをサポートするクラスでなければなりません。{0}.empty が次のエラーを返しました:\n\n{1}\n\n詳細については、&lt;a href="matlab:helpview(fullfile(docroot,'matlab','ref','table.html'))"&gt;table のドキュメンテーション&lt;/a&gt;を参照してください。</entry>
+    <entry key="PreAllocationClassnameCase">''{0}'' 型の変数を作成できません。クラス ''{0}'' に完全一致 (大文字小文字を区別) がありません。''{1}'' 型の変数を作成しようとした可能性があります。</entry>
+    <entry key="PreAllocationUndefinedClass">''{0}'' 型の変数を作成できません。''{0}'' という名前のクラスは定義されていません。</entry>
+    <entry key="ScalarTextAmbiguity">char 行ベクトルである変数を含む table が作成されました。オプションの引数名として ''{0}'' を代わりに意図した可能性がありますが、後に続く入力には、許容される名前と値のペアの引数のいずれとも一致しないものがあります。サポートされている構文については、&lt;a href="matlab:helpview(fullfile(docroot,'matlab','ref','table.html'))"&gt;table のドキュメンテーション&lt;/a&gt;を参照してください。</entry>
+    <entry key="PreallocateCharWarning">データ型 'char' を使用した事前割り当てでは、文字配列ではなく文字ベクトルの cell 配列である table 変数が作成されます。テキスト データを table 内の文字配列として保存することは推奨されません。table または timetable 内のテキスト データを扱う際には、string 配列または categorical 配列を使用することを検討してください。</entry>
+    <entry key="InvalidCustomPropDim">カスタム プロパティごとに ''variable'' または ''table'' を指定し、プロパティが変数に適用されるのか、あるいは table 全体に適用されるのかを示します。これらの設定は string 配列または文字ベクトルの cell 配列で指定してください。</entry>
+    <entry key="InvalidCustomPropName">無効なカスタム プロパティ名です。データを追加する前に、ADDPROP を使用して新しいカスタム プロパティを作成してください。</entry>
+    <entry key="InvalidCustomPropertiesAssignment">.Properties.CustomProperties に代入する値は matlab.tabular.CustomProperties オブジェクトでなければなりません。</entry>
+    <entry key="NonScalarStruct">データ型が無効です。入力はスカラー struct でなければなりません。</entry>
+    <entry key="MissingVariableNames">コードを生成する際には、table 変数名を指定しなければなりません。</entry>
+    <entry key="AssignmentVarIndexOutOfRange">変数インデックスが table の次元を超えています。コード生成では、代入による table 変数の追加はサポートされていません。</entry>
+    <entry key="AssignmentRowIndexOutOfRange">行インデックスが table の次元を超えています。コード生成では、代入による table 行の追加はサポートされていません。</entry>
+    <entry key="UnrecognizedIndexingVarName">table 変数名 ''{0}'' が認識されません。</entry>
+    <entry key="UnrecognizedIndexingRowName">table の行名 ''{0}'' が認識されません。</entry>
+    <entry key="UnrecognizedIndexingDimName">table の次元名 ''{0}'' が認識されません。</entry>
+    <entry key="UnrecognizedIndexingNonconstantVarName">table 変数名が認識されません。</entry>
+    <entry key="UnrecognizedIndexingNonconstantRowName">table の行名が認識されません。</entry>
+    <entry key="UnrecognizedIndexingNonconstantDimName">table の次元名が認識されません。</entry>
+    <entry key="UnrecognizedAssignmentVarName">table 変数名 ''{0}'' が認識されません。コード生成では、代入による table 変数の追加はサポートされていません。</entry>
+    <entry key="UnrecognizedAssignmentRowName">table の行名 ''{0}'' が認識されません。コード生成では、代入による table 行の追加はサポートされていません。</entry>
+    <entry key="UnrecognizedAssignmentNonconstantVarName">table 変数名が認識されません。コード生成では、代入による table 変数の追加はサポートされていません。</entry>
+    <entry key="UnrecognizedAssignmentNonconstantRowName">table の行名が認識されません。コード生成では、代入による table 行の追加はサポートされていません。</entry>
+    <entry key="NonconstantVarIndex">table に対する変数のインデックスは定数でなければなりません。</entry>
+    <entry key="NonconstantVarSpec">table 変数名またはインデックスは定数でなければなりません。</entry>
+    <entry key="NonconstantVariableNames">table 変数名は定数でなければなりません。</entry>
+    <entry key="NonconstantDimensionNames">table の次元名は定数でなければなりません。</entry>
+    <entry key="NonconstantVariableTypes">table を事前に割り当てる際、変数の型の入力は定数でなければなりません。</entry>
+    <entry key="NonconstantParameterName">パラメーター名は定数でなければなりません。</entry>
+    <entry key="NonconstantRowDimLength">table の行の次元の長さは定数でなければなりません。</entry>
+    <entry key="NDCellIndexing">中かっこの添字によって複数の N 次元 cell 変数を抽出することは、コード生成ではサポートされていません。</entry>
+    <entry key="UnsupportedPropertyChange">コードを生成する際、table の作成後に table のプロパティ ''{0}'' を変更することはできません。</entry>
+    <entry key="UnsupportedMethodCodegen">コード生成では、table に対して {0} メソッドがサポートされていません。</entry>
+    <entry key="PreAllocationUnsupportedClass">コード生成では、table を事前に割り当てる場合、''{0}'' は変数の型としてサポートされません。</entry>
+    <entry key="PreAllocationUnsupportedCell">コード生成では、table を事前に割り当てる場合、''cell'' は変数の型としてサポートされません。文字ベクトルの cell 配列変数を事前に割り当てるには、代わりに ''cellstr'' を指定してください。</entry>
+    <entry key="UnsupportedDelete">[] の割り当てによる削除はコード生成でサポートされていません。</entry>
+    <entry key="ExtractDataIncompatibleTypeVarIndices">データ型が {2} と {3} であるため、table 変数 {0,number,integer} および {1,number,integer} を連結できません。</entry>
+    <entry key="NonconstantCellAssignment">異種混合 cell 配列である table 変数に割り当てる場合、行インデックスは定数でなければなりません。</entry>
+    <entry key="NonconstantCellAssignmentByRowName">異種混合 cell 配列である table 変数に割り当て、行名を使用してインデックス付けを行う場合、table の行名は定数でなければなりません。</entry>
+    <entry key="CodegenPropertySizeMismatch">{0} のサイズは変更されてはなりません。</entry>
+    <entry key="EmptyMustBeFixedSize">入力が可変サイズの場合、実行時に空であってはなりません。空の入力は固定サイズでなければなりません。</entry>
+    <entry key="CodegenVariableNameLengthMax">One or more table variable name(s) is longer than the maximum allowed length.</entry>
+    <entry key="CodegenDimNameLengthMax">1 つ以上の table の次元名が、許可される最大長より長くなっています。</entry>
+    <entry key="UnsupportedDefaultValues">既定値をもつクラス ''{0}'' の配列を作成することは、コード生成ではサポートされていません。</entry>
+    <entry key="InvalidDataType">データ型は cell 行ベクトルでなければならず、table の幅 {0,number,integer} と同じ長さでなければなりません。</entry>
+    <entry key="InvalidDescriptionType">Description の型は文字の行ベクトルでなければなりません。</entry>
+    <entry key="InvalidDimNamesType">DimensionNames の型は、空でない文字ベクトルの 2 要素 cell 行ベクトルでなければなりません。</entry>
+    <entry key="InvalidVarNamesType">VariableNames の型は、空でない文字ベクトルの cell 行ベクトルでなければならず、table の幅 {0,number,integer} と同じ長さでなければなりません。</entry>
+    <entry key="InvalidCellstrRowType">{0} の型は文字ベクトルの cell 行ベクトルでなければならず、table の幅 {1,number,integer} と同じ長さでなければなりません。</entry>
+    <entry key="InvalidContinuityType">VariableContinuity の型はクラス ''matlab.internal.coder.tabular.Continuity'' の行ベクトルか、このクラスに変換可能な char ベクトルの cell 行ベクトルでなければなりません。table の幅 {0,number,integer} と同じ長さでなければなりません。</entry>
+    <entry key="InvalidRowNamesType">RowNames の型は、空でない文字ベクトルの cell 列ベクトルか、0 行 0 列の空の cell でなければなりません。</entry>
+    <entry key="IncorrectRowNamesTypeLength">RowNames の型は table の高さと同じ長さでなければなりません。coder.resize を使用して table の高さを変更してください。</entry>
+    <entry key="IncorrectDataTypeHeight">データ型の cell 要素の行数は、table の高さと同じでなければなりません。coder.resize を使用して table の高さを変更してください。</entry>
+    <entry key="StringGroupType">コード生成では、string 変数をグループ化変数にすることはできません。</entry>
+    <entry key="StringParamNameNotSupportedCodegen">You might have intended "{0}" to specify a parameter name. However, the table constructor requires parameter names to be specified as character vectors, and Name=Value is not supported in code generation. Use table(..., ''{0}'', Value) instead.</entry>
+    <entry key="IncompatibleTableTypeWidth">Unable to merge type objects of tables or timetables that have different widths.</entry>
+    <entry key="AssignmentDimensionMismatchCodegen">Subscripted assignment dimension mismatch for table variable ''{0}''.</entry>
+  </message>
+</rsccat>

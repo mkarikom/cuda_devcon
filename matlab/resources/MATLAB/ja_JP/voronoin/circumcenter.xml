@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidNumberPoints">N 次元において、点の数は N+1 でなければなりません。</entry>
+    <entry key="ColinearCoplanarPoints">入力点は、同一線または同一平面にあります。</entry>
+  </message>
+</rsccat>

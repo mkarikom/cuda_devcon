@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidInput">All input arguments must be tables.</entry>
+    <entry key="SizeMismatch">All tables being vertically concatenated must have the same number of variables.</entry>
+    <entry key="SizeMismatchWithCell">All tables being vertically concatenated must have the same number of variables. When concatenating cell arrays with tables, the cell arrays must have the same number of columns as the tables have variables.</entry>
+    <entry key="UnequalVarNames">All tables being vertically concatenated must have the same variable names.</entry>
+    <entry key="VertcatCellAndNonCell">Cannot concatenate the table variable ''{0}'' because it is a cell in one table and a non-cell in another.</entry>
+    <entry key="VertcatMethodFailed">An error occurred when concatenating the table variable ''{0}'' using VERTCAT.</entry>
+    <entry key="VertcatWrongLength">Concatenating the table variable ''{0}'' using VERTCAT resulted in a variable of the wrong length.</entry>
+    <entry key="Timetable0x0AndTable">A 0x0 timetable may not be concatenated with a non-0x0 table. Convert all inputs to the same data type, change their order, or use JOIN.</entry>  
+    <entry key="TableAndTimetable">Timetables and tables may be concatenated only when the timetable is first. Convert all inputs to the same data type, or change their order.</entry>
+    <entry key="CellArrayAndTimetable">Timetables and cell arrays may be concatenated only when the timetable is first. Convert all inputs to the same data type, or change their order.</entry>
+    <entry key="CustomPropsClash">Concatenating tables when the same custom property name is a per-table property in one table and a per-variable property in the other table is not supported.</entry>
+    <!-- codegen -->
+    <entry key="NdCell">Concatenating N-D cell variables is not supported in code generation.</entry>
+    <entry key="VertcatCellAndNonCellCodegen">Concatenating table variables that are in a cell in one table and a non-cell in another is not supported in code generation.</entry>
+  </message>
+</rsccat>

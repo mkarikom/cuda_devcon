@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Cancel">キャンセル</entry>
+    <entry key="Column">列</entry>
+    <entry key="ColumnIndex">列インデックス: </entry>
+    <entry key="ColumnIndices">列インデックス: </entry>
+    <entry key="DefineTimeVectorFromAWorkspaceVariable">ワークスペースの変数から時間ベクトルを定義:</entry>
+    <entry key="Help">ヘルプ</entry>
+    <entry key="InvalidTimeVectorSelected">選択した時間ベクトルが無効です。</entry>
+    <entry key="VariableInformation">変数名:{0}      長さ:{1}      開始時間:{2}      終了時間: {3}</entry>
+    <entry key="Row">行</entry>
+    <entry key="RowIndex">行インデックス: </entry>
+    <entry key="RowIndices">行インデックス: </entry>
+    <entry key="Select">選択</entry>
+    <entry key="SelectAColumnIf">時間ベクトルがこの変数列に格納される場合は ''列'' を、行の場合は ''行'' を選択してください。</entry>
+    <entry key="SelectTheColumnrowIndex">列/行インデックスの選択</entry>
+    <entry key="SelectTimeVectorFrom">{0} から時間ベクトルを選択</entry>
+    <entry key="SelectTimeVectorFromMATLABWorkspaceVariable">MATLAB ワークスペース変数から時間ベクトルを選択</entry>
+    <entry key="Step1HighlightTheVariable">手順 1:テーブルから変数を選択し、エディット ボックス内の長さを定義してください。</entry>
+    <entry key="Step2ClickTheSelectButton">手順 2:[選択] ボタンをクリックしてください。</entry>
+    <entry key="TimeIsArrangedBy">次の並びの時間:</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="VariableName">  変数名: </entry>
+    <entry key="WhatsThis">これはなに?</entry>
+  </message>
+</rsccat>

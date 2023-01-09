@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelsCallsSameRows">LABELS와 CALLS는 행의 개수가 동일해야 합니다.</entry>
+    <entry key="LabelsTagsSameRows">LABELS와 TAGS는 행의 개수가 동일해야 합니다.</entry>
+    <entry key="InvalidLabel">레이블 문자형 벡터에는 "&gt;"가 아닌 문자가 하나 이상 있어야 함</entry>
+    <entry key="EmptyField">레이블 필드가 비어 있습니다.</entry>
+  </message>
+</rsccat>

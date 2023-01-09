@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadStringArg">{0} は文字ベクトルまたは string スカラーでなければなりません。</entry>
+    <entry key="BadSyntax">無関係な引数が入力されました。ドキュメンテーションを確認してください。</entry>
+    <entry key="BadFilename">Filterspec は、文字ベクトル、string 配列、または cell 配列でなければなりません。</entry>
+    <entry key="EmptyDescriptors">ファイル フィルターの記述子を空にしてはいけません。</entry>
+  </message>
+</rsccat>

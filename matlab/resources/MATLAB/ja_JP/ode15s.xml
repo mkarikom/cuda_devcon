@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">入力引数が不足しています。ODE15s を参照してください。</entry>
+    <entry key="MassMatrixAllZero">質量行列はいくつかの非零の入力が必要です。</entry>
+    <entry key="YoYPoLengthMismatch">y0 と yp0 の長さが異なります。</entry>
+    <entry key="NonNegativeIgnoredForLinearlyImplicitSystems">陰的な線形システムでは、ODE15S は解を制約しません。\n         オプション ''NonNegative'' は無視されます。</entry>
+    <entry key="IntegrationTolNotMet">t={0} で失敗。時間 t で最小の値で許可された ({1}) より小さいステップ サイズに減らさずに積分の許容誤差を満たすことができません。</entry>
+  </message>
+</rsccat>

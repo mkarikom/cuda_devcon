@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DropDownLabel">数据</entry>
+    <entry key="NormalizeXData">中心化并缩放 x 轴数据</entry>
+    <entry key="HelpLabel">帮助</entry>
+    <entry key="Equation">方程</entry>
+    <entry key="Coefficients">系数</entry>
+    <entry key="FitTypes">拟合的类型</entry>
+    <entry key="Results">拟合结果</entry>
+    <entry key="Residuals">误差估计(残差)</entry>
+    <entry key="Evaluate">内插/外插数据</entry>
+    <entry key="XData">X</entry>
+    <entry key="NormalizeXTooltip">提高计算参数的精度</entry>
+    <entry key="Digits">有效数字</entry>
+    <entry key="ExportResultsToWorkspace">将结果导出到工作区...</entry>
+    <entry key="ExportEvaluationToWorkspace">将计算导出到工作区...</entry>
+    <entry key="FigureName">基本拟合</entry>
+    <entry key="LinearFit">线性</entry>
+    <entry key="QuadraticFit">二次</entry>
+    <entry key="CubicFit">三次</entry>
+    <entry key="SplineFit">样条插值</entry>
+    <entry key="ShapeFit">保形插值</entry>
+    <entry key="Degree4Fit">四次多项式</entry>
+    <entry key="Degree5Fit">五次多项式</entry>
+    <entry key="Degree6Fit">六次多项式</entry>
+    <entry key="Degree7Fit">七次多项式</entry>
+    <entry key="Degree8Fit">八次多项式</entry>
+    <entry key="Degree9Fit">九次多项式</entry>
+    <entry key="Degree10Fit">十次多项式</entry>
+    <entry key="PlotStyleLabel">绘图样式</entry>
+    <entry key="PlotLocationLabel">绘图位置</entry>
+    <entry key="NewDataFieldTooltip">输入值或有效的 MATLAB 表达式，如 x,1:2:10 或 [10,15]</entry>
+    <entry key="PlotDataCheckboxLabel">绘制计算的数据</entry>
+    <entry key="PlotDataCheckboxTooltip">绘制内插/外插数据点</entry>
+    <entry key="ShowEquationTooltip">在图上显示方程</entry>
+    <entry key="ShowR2Tooltip">在图上显示 R 方</entry>
+    <entry key="ExportToWorkspace">导出到工作区...</entry>
+    <entry key="FitResults">拟合结果</entry>
+    <entry key="ProgressLabel">请稍候 - 正在初始化</entry>
+    <entry key="LoadLabel">加载</entry>
+    <entry key="FinishLabel">结束</entry>
+    <entry key="InitialLabel">首次打开</entry>
+    <entry key="NoResultsFound">没有要显示的结果</entry>
+    <entry key="cubictab">三次</entry>
+    <entry key="lineartab">线性</entry>
+    <entry key="quadratictab">二次</entry>
+    <entry key="ntab">{0} 次</entry>
+    <entry key="shapetab">保形</entry>
+    <entry key="splinetab">样条</entry>
+    <entry key="noneVal">无</entry>
+    <entry key="barVal">条形图</entry>
+    <entry key="scatterVal">散点图</entry>
+    <entry key="lineVal">线图</entry>
+    <entry key="subplotVal">子图</entry>
+    <entry key="newFigureVal">新建图窗</entry>
+    <entry key="expandResults">扩展结果...</entry>
+    <entry key="NormOfResidualsLabel">残差范数</entry>
+    <entry key="NormOfResidualsTooltip">显示残差范数</entry>
+  </message>
+</rsccat>

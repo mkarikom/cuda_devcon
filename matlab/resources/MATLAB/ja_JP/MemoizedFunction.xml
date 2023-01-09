@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidCachePolicy">不明なキャッシュ ポリシーです。</entry>
+    <entry key="InvalidVersion">MemoizedFunction を読み込めません。</entry>
+    <entry key="UnsupportedHandle">関数ハンドルは作成されたときに関連付けが可能であるか、組み込みでなければなりません。</entry>
+    <entry key="OverwriteOnLoad">"@{0}" のキャッシュは読み込まれた値で上書きされます。</entry>
+  </message>
+</rsccat>

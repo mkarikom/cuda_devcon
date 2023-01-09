@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidNewVarName">将新变量名称指定为字符串或字符向量。</entry>
+    <entry key="ExtractDataIncompatibleTypeError">无法合并指定的变量，因为它们具有不同的数据类型。请考虑将 ''MergeAsTable'' 设置为 true。</entry>
+    <entry key="ParamMustBeConstant">请将 ''{0}'' 指定为常量。</entry>
+  </message>
+</rsccat>

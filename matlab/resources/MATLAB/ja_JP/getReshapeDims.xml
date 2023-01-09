@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="sizeVector">size のベクトルは、少なくとも 2 要素がなければなりません。</entry>
+    <entry key="unknownDim">size は未知の次元を 1 つだけもつことができます。</entry>
+    <entry key="notDivisible">既知の次元 {0,number,integer} の積を要素の総数 {1,number,integer} で割り切れません。</entry>
+    <entry key="notSameNumel">要素数を変更してはなりません。その次元の適切なサイズを自動計算するには、[] をサイズ入力の 1 つとして使用してください。</entry>
+    <entry key="notRealInt">size 引数は実数の整数でなければなりません。</entry>
+  </message>
+</rsccat>

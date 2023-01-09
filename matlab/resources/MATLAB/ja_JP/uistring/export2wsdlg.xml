@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="YouMustCheckABoxToExportVariables">変数をエクスポートするにはチェック ボックスをオンにしなければなりません</entry>
+    <entry key="NothingSelected">選択なし</entry>
+    <entry key="Help">ヘルプ</entry>
+    <entry key="Cancel">キャンセル</entry>
+    <entry key="OK">OK</entry>
+    <entry key="NotValidMATLABVariableNamesOneVariables">"{0}" は有効な MATLAB 変数名ではありません。</entry>
+    <entry key="NotValidMATLABVariableNamesThreeVariables">{0} "{1}" と "{2}" は有効な MATLAB 変数名ではありません。</entry>
+    <entry key="OverWriteQuestionOneVariable">"{0}" は既に存在します。上書きしますか?</entry>
+    <entry key="OverWriteQuestionThreeVariables">{0} "{1}" と "{2}" は既に存在します。上書きしますか?</entry>
+    <entry key="ExportToWorkspace">ワークスペースにエクスポート</entry>
+    <entry key="InvalidVariableNames">無効な変数名</entry>
+    <entry key="InvalidVariableName">無効な変数名</entry>
+    <entry key="DuplicateVariableNames">変数名の重複</entry>
+    <entry key="DuplicateVariableName">変数名の重複</entry>
+    <entry key="VariablesHaveBeenCreatedInTheCurrentWorkspace">変数がベース ワークスペースに作成されています。</entry>
+    <entry key="Yes">はい</entry>
+    <entry key="No">いいえ</entry>
+    <entry key="AnEmptyStringIsNotAValidChoiceForAVariableName">空の文字ベクトルは変数名として有効な選択ではありません。\n</entry>
+    <entry key="NotValidMATLABVariableNamesTwoVariables">"{0}" と "{1}" は有効な MATLAB 変数名ではありません。</entry>
+    <entry key="OverWriteQuestionTwoVariables">"{0}" と "{1}" は既に存在します。上書きしますか?</entry>
+  </message>
+</rsccat>

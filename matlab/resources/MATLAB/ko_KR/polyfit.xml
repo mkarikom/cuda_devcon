@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="XYSizeMismatch" context="error">처음 두 개의 입력값은 요소 개수가 동일해야 합니다.</entry>
+    <entry key="PolyNotUnique">다항식이 고유하지 않습니다. 차수가 데이터 점 개수보다 크거나 같습니다.</entry>
+    <entry key="RepeatedPoints">다항식의 조건이 나쁩니다. 다른 X값을 갖는 점들을 추가하거나 다항식의 차수를 줄이십시오.</entry>
+    <entry key="RepeatedPointsOrRescale">다항식의 조건이 나쁩니다. 다른 X값을 갖는 점들을 추가하거나, 다항식의 차수를 줄이거나, HELP POLYFIT 항목의 설명에 따라 정규화를 시도하십시오.</entry>
+  </message>
+</rsccat>

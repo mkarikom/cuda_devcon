@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidUserpath">用户路径必须是绝对路径，并且必须在磁盘上存在。</entry>
+    <entry key="invalidInput">目录无效或不存在</entry>
+  </message>
+</rsccat>

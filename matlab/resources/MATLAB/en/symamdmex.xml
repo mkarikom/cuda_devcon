@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidNumberOfInputs">Incorrect number of input and/or output arguments</entry>
+    <entry key="InvalidDataType">The symamdmex function only accepts double or logical arrays.</entry>
+    <entry key="InvalidInput2">Input matrix must be 2-dimensional.</entry>
+    <entry key="InvalidInput4">Matrix must be square.</entry>
+    <entry key="InvalidInput3">symamd error!</entry>
+  </message>
+</rsccat>

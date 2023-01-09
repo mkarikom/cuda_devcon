@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FooterTextNoArrayName">使用 {0} 显示所有属性</entry>
+    <entry key="AllPropertiesText">所有属性</entry>
+    <entry key="FooterTextWithArrayName">显示 {0}</entry>
+    <entry key="NonScalarHeaderText">{0} {1} 数组</entry>
+    <entry key="ScalarHeaderText">{0} {1} - 属性:</entry>
+    <entry key="ScalarHeaderTextNoLabel">{0} - 属性:</entry>
+    <entry key="EmptyArrayText">{0} 空 {1} 数组。</entry>
+    <entry key="FooterLinkFailureUnknown">无法显示变量 {0} 的属性，因为它已被清除或不再是标量。</entry>
+    <entry key="FooterLinkFailureDeleted">无法显示变量 {0} 的属性，因为它引用了&lt;a href="matlab: helpview ([docroot '/matlab/creating_plots/creating_plots.map'],'deleted_handle')"&gt;已删除的对象&lt;/a&gt;。</entry>
+    <entry key="FooterLinkFailureMissingVariable">无法显示变量 {0} 的属性，因为该变量不再存在。</entry>
+    <entry key="FooterLinkFailureClassMismatch">无法显示变量 {0} 的属性，因为该变量不再是 {1} 对象。</entry>
+  </message>
+</rsccat>

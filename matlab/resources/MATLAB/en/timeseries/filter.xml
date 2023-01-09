@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="singletimeseriesobject">The filter method can only be used for a single timeseries object</entry>
+    <entry key="nonnumeric">Cannot perform numeric operations on timeseries which have non-numeric data</entry>
+    <entry key="noarray">filter cannot be applied to time series with data of dimension higher than two.</entry>
+    <entry key="allnans">Time series data cannot begin or end with NaNs.</entry>
+  </message>
+</rsccat>

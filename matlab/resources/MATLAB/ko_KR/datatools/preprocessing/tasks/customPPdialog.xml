@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DIALOG_TITLE">데이터 정리기의 사용자 지정 함수 대화 상자</entry>
+    <entry key="TITLE">사용자 지정 정리 함수 추가</entry>
+    <entry key="FCN_NAME">이름</entry>
+    <entry key="FCN_NAME_TT">새 함수 이름 또는 기존 함수 이름을 입력합니다.</entry>
+    <entry key="NEW_FCN">새 함수</entry>
+    <entry key="EXISTING_FCN">기존 함수</entry>
+    <entry key="FCN_DESCRIPTION">설명</entry>
+    <entry key="FCN_DESCRIPTION_TT">버튼에 커서를 올려놓을 때 데이터 정리기에 표시되는 툴팁</entry>
+    <entry key="FCN_DESCRIPTION_DEFAULT">사용자 지정 정리를 수행합니다.</entry>
+    <entry key="OPERATION_TYPE">연산 유형</entry>
+    <entry key="TABLE_OPERATION_LABEL">테이블 전체에 적용되는 연산</entry>
+    <entry key="TABLE_OPERATION_TOOLTIP">사용자 지정 코드가 전체 테이블을 변경합니다.</entry>
+    <entry key="COLUMN_OPERATION_LABEL">단일 열 변수 연산</entry>
+    <entry key="COLUMN_OPERATION_TOOLTIP">사용자 지정 코드가 하나의 열 변수에만 영향을 줍니다.</entry>
+    <entry key="OK">확인</entry>
+    <entry key="CANCEL">취소</entry>
+    <entry key="ADD_CUSTOM_FCN_LABEL">다음 구문을 갖는 사용자 지정 함수를 데이터 정리기에 추가합니다.</entry>
+    <entry key="ADD_EXISTING_FCN_LABEL">다음 구문을 갖는 기존 함수를 호출하는 함수를 추가합니다.</entry>
+    <entry key="WORKFLOW_DESCRIPTION_TABLE">데이터 정리기가 입력 테이블을 함수로 자동으로 전달합니다. 선택적 입력 인수를 지정할 수도 있습니다.</entry>
+    <entry key="WORKFLOW_DESCRIPTION_COLUMN">입력 열 변수 {0}이(가) 함수로 자동으로 전달됩니다. 선택적 입력 인수를 지정할 수도 있습니다.</entry>
+  </message>
+</rsccat>

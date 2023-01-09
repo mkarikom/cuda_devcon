@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2016-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+      <entry key="NDArray">Input array must be 2-D matrix.</entry>
+      <entry key="RowTimeRequired">Provide datetime or duration vector for row times.</entry>
+      <entry key="IncorrectNumberOfRowTimes">Row times must be datetime or duration vector with one time for each row in input timetable.</entry>
+    <!-- codegen -->
+      <entry key="CodegenVarNames">When generating code, ''VariableNames'' must be specified.</entry>
+      <entry key="NonconstantVariableNames">Timetable variable names must be constant.</entry>
+  </message>
+</rsccat>

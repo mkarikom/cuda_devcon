@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DefineFrequencyVector">周波数ベクトルの定義</entry>
+    <entry key="Detrend">トレンド除去...</entry>
+    <entry key="EndFrequency">周波数の終了点</entry>
+    <entry key="Filter">フィルター...</entry>
+    <entry key="Filtering">フィルター処理しています</entry>
+    <entry key="Help">ヘルプ</entry>
+    <entry key="HighLimit">上限</entry>
+    <entry key="Interpolate">内挿...</entry>
+    <entry key="LowLimit">下限</entry>
+    <entry key="MultiplePeriodograms">複数のピリオドグラム</entry>
+    <entry key="PanFrequencyAxis">周波数軸の移動表示</entry>
+    <entry key="Periodogram">ピリオドグラム</entry>
+    <entry key="PeriodogramColon">ピリオドグラム: {0}</entry>
+    <entry key="PeriodogramOf">{0} のピリオドグラム</entry>
+    <entry key="PeriodogramOfMultipleTimeSeries">複数の時系列のピリオドグラム</entry>
+    <entry key="RemoveMissingData">欠損値の削除...</entry>
+    <entry key="ResampleData">データ リサンプリング...</entry>
+    <entry key="Reset">リセット</entry>
+    <entry key="SelectData">データの選択...</entry>
+    <entry key="StartFrequency">周波数の開始点</entry>
+    <entry key="TimeSeriesLengthExceedsTheDefaultDisplayLimitOf0nu">時系列の長さが既定の表示範囲 {0,number,integer} を超えています。最初の {1,number,integer} 点にプロットを制限します。\n 別の区間を表示するには、移動表示ツールかプロパティ エディターを使用してください。</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="Units">単位</entry>
+    <entry key="UseALogScaleForPeriodogramYValues">ピリオドグラムの Y 値に対して対数スケールを使用</entry>
+    <entry key="Variance">分散</entry>
+  </message>
+</rsccat>

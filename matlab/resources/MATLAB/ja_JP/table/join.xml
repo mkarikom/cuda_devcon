@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">最初の 2 つの入力は table でなければなりません。</entry>
+    <entry key="CantInferKey">キー変数として使用する共通のテーブル変数が見つかりません。</entry>
+    <entry key="MissingKeyVar">''Key'' パラメーターを入力するか、''LeftKeys'' パラメーターと ''RightKeys'' パラメーターの両方を入力しなければなりません。</entry>
+    <entry key="ConflictingInputs">''Key'' パラメーターを入力するか、''LeftKeys'' パラメーターと ''RightKeys'' パラメーターの両方を入力しなければなりません。</entry>
+    <entry key="InvalidKeepOneCopy">''KeepOneCopy'' パラメーターは、変数名、または変数名を含むセル配列でなければなりません。</entry>
+    <entry key="UnequalNumKeyVars">左と右のキー変数の数は同じでなければなりません。</entry>
+    <entry key="DuplicateVars">変数を 2 回含めることはできません。</entry>
+    <entry key="NDKeyVar">N 次元変数を結合用のキーとして使用することはできません。</entry>
+    <entry key="KeyVarSizeMismatch">左と右のキー変数 ''{0}'' および ''{1}'' が同じ列数ではありません。</entry>
+    <entry key="KeyVarCellMismatch">左と右のキー変数 ''{0}'' および ''{1}'' は、一方がセルではないため比較できません。</entry>
+    <entry key="KeyVarTypeMismatch">左と右のキー変数 ''{0}'' および ''{1}'' は比較可能なタイプではありません。</entry>
+    <entry key="KeyMergeFailed">Merging keys with different types to create the variable ''{0}'' in the output table resulted in a conversion error.\n</entry>
+    <entry key="MulticolumnKeyVar">{0} 変数に列が複数ある場合は、結合用のキーとして使用できません。</entry>
+    <entry key="DuplicateRightKeyVarValues">右の table のキー変数は一意の値をもたなければなりません。</entry>
+    <entry key="LeftKeyValueNotFound">右の table のキー変数には、左の table のキー変数内にある値がすべて含まれていなければなりません。</entry>
+    <entry key="LeftKeyValuesNotFound">右の table のキー変数には、左の table のキー変数内にある値の一意の組み合わせがすべて含まれていなければなりません。</entry>
+    <entry key="MissingKeyValues">キー変数に欠損値を含めることはできません。</entry>
+    <entry key="InvalidType">TYPE は ''left''、''right'' または ''full'' でなければなりません。</entry>
+    <entry key="KeyVarNonStringError">左と右のキー変数 ''{0}'' および ''{1}'' に、文字ベクトル以外の値を含むセルが含まれています。</entry>
+    <entry key="KeyVarUniqueError">左と右のキー変数 ''{0}'' および ''{1}'' の固有の値を見つけようとしてエラーが発生しました:\n{2}.</entry>
+    <entry key="KeyIsmemberMethodFailed">キー変数を使用して、左の table の行に対応する行を右の table で見つけられません。ISMEMBER メソッドで次のエラーが生成されました:\n\n{0}</entry>
+    <entry key="KeyIsmemberMethodReturnedWrongSize">キー変数を使用して、左の table の行に対応する行を右の table で見つけられません。ISMEMBER メソッドで返された値の行数が正しくありません。</entry>
+    <entry key="UnequalRowNames">行名をキーとして使用する場合、右の table は左の table の行名をすべて含まなければなりません。</entry>
+    <entry key="TableTimetableInput">timetable と table を連結するには、最初の入力が timetable で、2 番目の入力が table でなければなりません。</entry>
+    <entry key="RowLabelsCannotBeDataVar">行名は、''LeftVariables'' または ''RightVariables'' ではサポートされていません。</entry>
+    <entry key="RowLabelsCannotBeDataVarNondefaultName">認識されない変数名 ''{0}'' です。この table で ''{1}'' という名前が付けられている行名にアクセスしようとした可能性があります。しかし、行名は ''LeftVariables'' または ''RightVariables'' ではサポートされていません。</entry>
+    <entry key="TableRowLabelsVarKeyPairNotSupported">テーブル間の内部連結または外部連結では、行名を左キー、変数を右キーとして使用することはサポートされていません。行名を左側の入力の変数に変換してください。</entry>
+    <entry key="TableTimetableNotSupported">table と timetable を連結するには、timetable が最初の入力でなければなりません。</entry>
+    <entry key="TableOuterRowLabelsOtherKeysNotSupported">table 間の外部連結では、行名と他のキーを組み合わせて使用することはサポートされていません。行名のみをキーとして使用するか、行名を入力の変数に変換してください。</entry>
+    <entry key="NonConstantArg">''{0}'' must be constant.</entry>
+    <entry key="DuplicateNonKeyVarNames">コード生成では、キーでない変数が同じ名前をもつことはサポートされません。</entry>
+    <entry key="DuplicateUnmergedKeyVarNames">outerjoin のコード生成では、''MergeKeys'' が true に設定されていない限り、同じ名前をもつキー変数はサポートされません。</entry>
+    <entry key="CantJoinTabularVariable">join のコード生成では、table または timetable のキーまたは変数はサポートされません。SPLITVARS を使用して ''{0}'' を複数の変数に分割してください。</entry>
+  </message>
+</rsccat>

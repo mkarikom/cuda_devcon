@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidCellType">最初の入力は string 配列か、文字ベクトルのセル配列でなければなりません。</entry>
+    <entry key="InvalidDelimiterType">区切り記号は文字ベクトル、string 配列、文字ベクトルのセル配列のいずれかでなければなりません。</entry>
+    <entry key="WrongNumberOfDelimiterElements">区切り記号が string 配列または文字ベクトルのセル配列である場合、スカラーであるか、あるいは最初の入力よりも要素数が 1 つ少なくなければなりません。</entry>
+  </message>
+</rsccat>

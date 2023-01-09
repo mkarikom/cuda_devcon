@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="nonFiniteEndpoint">Nonfinite endpoints or increment for colon operator in index.</entry>
+    <entry key="nonIntegerIndex">Integer operands are required for colon operator when used as index.</entry>
+    <entry key="OutOfRange">Colon operands must be in the range of the data type.</entry>
+    <entry key="logicalInput">Colon operands cannot be logical.</entry>
+    <entry key="mixedNonDoubleOperands">Colon operands must be all the same type, or mixed with real scalar doubles.</entry>
+    <entry key="nonDoubleOperandsNotRealScalar">Colon operands must be real scalars.</entry>
+    <entry key="operandsNotRealScalar">Colon operands must be real scalars.</entry>
+    <entry key="scalarDoubleMustBeIntegerValued">Double operands interacting with {0} operands must have integer values.</entry>
+    <entry key="notEnoughInputs">Not enough inputs for colon operator.</entry>
+    <entry key="tooManyInputs">Too many inputs for colon operator.</entry>
+    <entry key="charOperandsMustBeIntegerValued">Double operands interacting with char operands must have integer values.</entry>
+    <entry key="integerOperandsMustBeIntegerValued">Double operands interacting with {0} operands must have integer values.</entry>
+    <entry key="mixedCharOperandsFirstAndLast">For colon operator with char operands, first and last operands must be char.</entry>
+    <entry key="mixedCharOperandsSecond">For colon operator with char operands, second operand must be char or real scalar double.</entry>
+    <entry key="inputsMustBe2D">Inputs must be 2-D.</entry>
+  </message>
+</rsccat>

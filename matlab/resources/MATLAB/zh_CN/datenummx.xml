@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManyOutputs">输出参数太多。</entry>
+    <entry key="InvalidNumberOfInputs">需要一个、三个或六个输入参数。</entry>
+    <entry key="NonDoubleInput">datenummx 函数只接受双精度数组。</entry>
+    <entry key="InvalidInputSize">单个参数应具有三或六列。</entry>
+  </message>
+</rsccat>

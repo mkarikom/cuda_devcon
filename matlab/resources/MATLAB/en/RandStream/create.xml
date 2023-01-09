@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="BadNumStreams">NUMSTREAMS must be a positive integer value less than 2^64.</entry>
+    <entry key="BadSeed">SEED must be a nonnegative integer value less than 2^32.</entry>
+    <entry key="BadStreamIndex">STREAMINDICES must contain positive integer values less than or equal to NUMSTREAMS.</entry>
+    <entry key="BadParams">PARAMETERS must be a vector of non-negative integer values.</entry>
+    <entry key="ParamNotValid">PARAMETERS is not allowed for {0} generators.</entry>
+    <entry key="TooManyOutputs">Too many output arguments.</entry>
+  <!--Resource entries for src/mathrng-->
+    <entry key="InvalidRNGType" note="stringDatatypeUpdate">GENTYPE must be a character vector containing the name of a generator algorithm.</entry>
+    <entry key="UnknownRNGType">Unknown RNG type: {0}.</entry>
+    <entry key="AllocError">Error creating stream.</entry>
+  <!--Resource entries for src/mathrng/-->
+  </message>
+</rsccat>

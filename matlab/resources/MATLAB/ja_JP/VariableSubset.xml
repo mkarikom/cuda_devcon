@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nameNotChar">Name 引数は文字配列でなければなりません。</entry>
+    <entry key="notAVariableName">指定した名前 ''{0}'' は、有効な変数名でなければなりません。</entry>
+    <entry key="subsetNotSubset">Subset 引数は ''{0}'' でなければなりません。</entry>
+  </message>
+</rsccat>

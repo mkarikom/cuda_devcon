@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotACharacter">Subsref 输入结构体必须具有包含字符数组的字段 ''type''。</entry>
+    <entry key="NoSubsField">Subsref 输入结构体必须包含字段 ''subs''。</entry>
+    <entry key="IncorrectStructSize">Subsref 的输入参数必须为 1xN 结构体数组。</entry>
+    <entry key="IncorrectArguments">不能对调用函数返回的结果进一步索引。</entry>
+    <entry key="LimitedIndexing">{0} 仅支持 ''()'' 索引。</entry>
+    <entry key="DynamicSubsField">动态属性 access 必须是非空字符向量。</entry>
+  </message>
+</rsccat>

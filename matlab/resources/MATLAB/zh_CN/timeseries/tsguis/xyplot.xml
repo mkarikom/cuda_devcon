@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BestFitLine">最佳拟合线</entry>
+    <entry key="Cancel">取消</entry>
+    <entry key="CannotDisplayDifferingNumberOfSamples">样本数目不同的时序无法显示在 xy 视图中。{0} 的长度是 {1,number,integer}。{2} 的长度是 {3,number,integer}。</entry>
+    <entry key="Detrend">去除趋势...</entry>
+    <entry key="DoYouWantToOpenTheMergeDialog">是否要打开合并对话框同步长度?</entry>
+    <entry key="Filter">筛选...</entry>
+    <entry key="Interpolate">插值...</entry>
+    <entry key="NotRemovingAllPoints">删除所有点将会创建空时序。未执行任何操作。</entry>
+    <entry key="OK">确定</entry>
+    <entry key="ResampleData">重采样数据...</entry>
+    <entry key="RemoveMissingData">删除缺少的数据...</entry>
+    <entry key="SelectData">选择数据...</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="TooManyAxes">无法显示 144 个以上的坐标区。使用算术表达式对话框减少列数。</entry>
+    <entry key="XYPlot">XY 绘图 {0} - {1}</entry>
+    <entry key="XYPlotPlain">XY 绘图</entry>
+  </message>
+</rsccat>

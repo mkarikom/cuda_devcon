@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DuplicateEdges">不支持重复的边。</entry>
+    <entry key="DuplicateOmitSelfLoops">请仅指定一次 ''omitselfloops''。</entry>
+    <entry key="EdgeListFourthArg">节点信息必须为字符串向量、字符向量元胞数组、表或节点数。</entry>
+    <entry key="EdgeListNumNodes">在将边指定为节点名称时，不支持节点数作为参数。</entry>
+    <entry key="EdgePropsHasEndNodes">边属性不能包含 EndNodes 变量。</entry>
+    <entry key="EdgesNeedTwoInputs">输入参数的数目不足。</entry>
+    <entry key="EditEdges">不支持直接对边进行编辑。请改用 addedge 或 rmedge。</entry>
+    <entry key="InvalidAdjacencyType">数据类型无效。邻接矩阵必须为双精度值、单精度值或逻辑值。</entry>
+    <entry key="InvalidEdgeProps">边属性必须为表。</entry>
+    <entry key="InvalidEdges">节点 ID 必须均为数值向量、均为节点名称(指定为字符串向量、字符向量或字符向量元胞数组)，或者均为分类值。</entry>
+    <entry key="InvalidFlag">选项必须为 ''omitselfloops''。</entry>
+    <entry key="InvalidNames">节点名称不能包含缺失的字符串(显示为&lt;missing&gt;)。</entry>
+    <entry key="InvalidCategorical">节点名称不能包含未定义的分类值(显示为 &lt;undefined&gt;)。</entry>
+    <entry key="CategoricalMixedOrdinal">分类数组必须均为有序数组或者均为无序数组。</entry>
+    <entry key="CategoricalOrdinalMismatch">有序分类数组必须为相同类别，包括顺序也必须相同。</entry>
+    <entry key="InvalidNodeID">数值节点 ID 必须为不大于图中的节点数({0})的正整数。</entry>
+    <entry key="InvalidNodeNames">节点名称数必须与邻接矩阵的大小匹配。</entry>
+    <entry key="InvalidNumNodeTableRows">节点表中的行数必须与邻接矩阵的大小相匹配。</entry>
+    <entry key="InvalidNodeRefd">边列表包含节点名称参数中不存在的名称。</entry>
+    <entry key="InvalidNumNodeNames">指定的节点名称数不足。请至少指定 {0} 个名称。</entry>
+    <entry key="InvalidNumNodes">指定的节点数太小。请至少指定 {0} 个节点。</entry>
+    <entry key="InvalidNumNodesProps">指定的节点数必须为有限非负实数。</entry>
+    <entry key="InvalidNumNodesTable">节点表中的行数太小。请至少指定 {0} 行。</entry>
+    <entry key="InvalidSizeWeight">权重必须具有与边列表相同数量的元素或者为标量。</entry>
+    <entry key="InvalidTableFormat">边信息表中的第一个变量必须称为 EndNodes。</entry>
+    <entry key="InvalidTableSize">边信息表中的第一个变量必须为节点名称的 2 列数组(数值、元胞或字符串)。</entry>
+    <entry key="InvalidWeights">图形边权重必须为双精度或单精度的实数非稀疏值。</entry>
+    <entry key="NodesTableNameShape">节点表中的 Name 变量必须包含一列。</entry>
+    <entry key="InvalidNameType">节点名称必须为字符串向量或字符向量元胞数组。</entry>
+    <entry key="NodesTableNeedsName">节点表必须包含 Name 变量。</entry>
+    <entry key="NonUniqueNames">节点名称必须唯一。</entry>
+    <entry key="NonColumnWeights">权重必须为所含条目数与图形中边数相等的列向量。</entry>
+    <entry key="ScalarObject">图形索引不受支持。</entry>
+    <entry key="SecondNotTable">当边信息为表时，节点信息必须为表。</entry>
+    <entry key="SetEdges">不支持直接对边进行编辑。请改用 addedge 或 rmedge。</entry>
+    <entry key="SetNodes">不支持直接对节点进行编辑。请改用 addnode 或 rmnode。</entry>
+    <entry key="SquareAdjacency">邻接矩阵必须为方阵。</entry>
+    <entry key="OnlyGraphSupported">输入图形必须为无向图。</entry>
+    <entry key="NoDegreeDir">有向图不支持节点度。请改用 indegree 或 outdegree。</entry>
+    <entry key="NoNeighborsDir">有向图不支持节点邻点。请改用 predecessors 或 successors</entry>
+    <entry key="UnknownNodeName">图形未包含名为 ''{0}'' 的节点。</entry>
+    <entry key="IncompatibleVersion">无法加载有向图，因为它与此版本的 MATLAB 不兼容。</entry>
+  </message>
+</rsccat>

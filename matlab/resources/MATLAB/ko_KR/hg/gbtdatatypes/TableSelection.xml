@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidCellSelection">셀에 대한 선택 항목 인덱스는 N×2 숫자형 배열이어야 합니다.</entry>
+    <entry key="InvalidRowSelection">행에 대한 선택 항목 인덱스는 1×N 숫자형 배열이어야 합니다.</entry>
+    <entry key="InvalidColumnSelection">열에 대한 선택 항목 인덱스는 1×N 숫자형 배열이어야 합니다.</entry>
+    <entry key="SelectionOutOfBoundary">선택 항목 인덱스가 데이터 경계를 벗어났습니다.</entry>
+    <entry key="InvalidSingleSelection">'Multiselect'가 'off'인 경우, 'Selection'은 비어 있거나 스칼라 숫자('row' 및 'column' 선택 유형인 경우) 또는 1×2 숫자형 배열('cell' 선택 유형인 경우)이어야 합니다.</entry>
+  </message>
+</rsccat>

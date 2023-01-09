@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Expected3ElementVector">値は 3 要素の数値ベクトルでなければなりません</entry>
+    <entry key="ValueOutsideRange">Alpha 値は 0.0 と 1.0 の範囲内でなければなりません</entry>
+    <entry key="Expected4ElementVector">値は 4 要素のベクトルでなければなりません</entry>
+    <entry key="ExpectedSingleLineString">値は単一行の文字ベクトルでなければなりません</entry>
+    <entry key="StringSizeOutsideRange">文字ベクトルの値は単一の文字または '''' のいずれかでなければなりません</entry>
+    <entry key="ExpectedNonEmptyString">文字ベクトルの値を空にすることはできません</entry>
+    <entry key="ExpectedIntegerValueString">文字ベクトルの値は整数でなければなりません</entry>
+    <entry key="ExpectedScalar">値はスカラーでなければなりません。</entry>
+    <entry key="DimensionsOutsideRange">幅と高さは 0 以上でなければなりません</entry>
+    <entry key="ValueMustBeNonNegative">値は 0 以上でなければなりません</entry>
+    <entry key="ExpectedFinitePositive">値は有限で、0 より大きくなければなりません</entry>
+    <entry key="ExpectedFiniteNonNegative">値は有限で、0 以上でなければなりません</entry>
+    <entry key="ExpectedBetween0And1">値は 0 以上 1 以下でなければなりません</entry>
+    <entry key="ExpectedDoubleOrFloat">値は倍精度または浮動小数点でなければなりません</entry>
+    <entry key="ExpectedNumeric">値は数値でなければなりません。</entry>
+    <entry key="ExpectedMonotonicallyIncreasing">値は単調増加でなければなりません</entry>
+    <entry key="SettingColorSpecToNoneWillNotBeAllowed">"{0} で ColorSpec を 'none' に設定することは、将来のリリースではできなくなります。"</entry>
+  </message>
+</rsccat>

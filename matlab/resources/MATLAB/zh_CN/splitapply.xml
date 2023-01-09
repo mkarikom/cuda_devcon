@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFunction">第一个输入必须为函数句柄。</entry>
+    <entry key="InvalidGroupNums">组编号必须为正整数向量，并且不能为稀疏向量。</entry>
+    <entry key="RowMismatch">数据变量必须具有与组编号向量相同的行数。组编号向量具有 {0,number,integer} 行，数据变量 {1,number,integer} 具有 {2,number,integer} 行。</entry>
+    <entry key="ColumnMismatch">数据变量必须具有与组编号向量相同的列数。组编号向量具有 {0,number,integer} 列，数据变量 {1,number,integer} 具有 {2,number,integer} 列。</entry>
+    <entry key="FunFailed">将函数 ''{0}'' 应用于 {1} 数据组时生成了以下错误:\n\n{2}</entry>
+    <entry key="OutputNotUniform">函数 ''{0}'' 在应用于 {1} 数据组时返回了一个非标量值。\n\n要计算每个组的非标量值，请创建一个匿名函数，以标量元胞的形式返回每个值: \n\n\t{2} </entry>
+    <entry key="MissingGroupNums">对于 N 个组，介于 1 和 N 之间的每个整数必须在组编号向量中至少出现一次。</entry>
+  </message>
+</rsccat>

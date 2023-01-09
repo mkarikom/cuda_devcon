@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed">
+  <message>
+    <entry key="BadExtension">Cannot use file ''{0}'' because it does not have an XML extension.</entry>
+    <entry key="DirSpecified">Cannot use directory ''{0}'' as a log file.</entry>
+    <entry key="EmptyName">No name specified for log file.</entry>
+    <entry key="FileNotOpen">File ''{0}'' is not an open log.</entry>
+    <entry key="FileOpen">File ''{0}'' is already an open log.</entry>
+    <entry key="FileOpenCase">File ''{0}'' differs only in case to an already open log.</entry>
+    <entry key="FileRead">Error reading from log file ''{0}'': {1}</entry>
+    <entry key="FileSeek">Error seeking in log file ''{0}'': {1}</entry>
+    <entry key="FileWrite">Error writing to log file ''{0}'': {1}</entry>
+    <entry key="OpenFileRead">Cannot open file ''{0}'' for reading: {1}</entry>
+    <entry key="OpenFileWrite">Cannot open file ''{0}'' for writing: {1}</entry>
+    <entry key="OpenFileAppend">Cannot open file ''{0}'' for appending: {1}</entry>
+  </message>
+</rsccat>

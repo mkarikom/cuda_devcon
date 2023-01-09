@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="Nargin">Not enough input arguments.</entry>
+    <entry key="InvalidInputType" note="stringDatatypeUpdate">Filename must be a character vector or string scalar.</entry>
+    <entry key="FileNotOpened">The file ''{0}'' could not be opened because: {1}</entry>
+    <entry key="InvalidDelimiter">DELIMITER must be a single character.</entry>
+    <entry key="ObsoleteSyntax">Obsolete syntax. C must be specified with R.</entry>
+    <entry key="InternalSizeMismatch">Internal size mismatch</entry>
+  <!--Resource entries for toolbox/matlab/iofun-->
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="InvalidRowsAndColumns">R and C should match RANGE(1:2).  Use DLMREAD(FILE,DELIMITER,RANGE) instead.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="arrowlineCopyError">arrowline のコピー中にエラーが発生しました</entry>
+    <entry key="CopyError">Axes のコピー中にエラーが発生しました: {0}</entry>
+    <entry key="NeedHandle">HGOBJ か、HGOBJ オブジェクトのハンドルを与えなければなりません</entry>
+    <entry key="FigureDoesNotHaveRootParent">Figure にはルートの親がありません</entry>
+    <entry key="CopyobjFailed">Copyobj でクラスのオブジェクトを作成できませんでした: {0}\n</entry>
+    <entry key="BadConversionFromDouble">倍精度をハンドルに変換できません</entry>
+    <entry key="VectorLengthNotEqual">親入力ベクトルと子入力ベクトルは同じ長さでなければなりません。</entry>
+    <entry key="InvalidChildHandle">無効な子ハンドル引数</entry>
+    <entry key="InvalidParentHandle">無効な親ハンドル引数</entry>
+    <entry key="DegenerateCopy">同じオブジェクトを 2 回以上同じ親にコピーすることはできません。代わりに、COPYOBJ を 2 回呼び出してください。</entry>
+    <entry key="InvalidReturnType">クラス {0} の copyElement メソッドが無効なタイプを返しました。</entry>
+    <entry key="IncorrectlyAllocatedCopy">クラス {0} の copyElement メソッドは、コピーを copyElement@matlab.graphics.mixin.internal.Copyable を用いて割り当てませんでした</entry>
+    <entry key="ObjectNotCopied">この {0} はコピーできません。&lt;a href="matlab: helpview ([docroot filesep 'matlab' filesep 'ref' filesep 'copyobj.html'])"&gt;COPYOBJ&lt;/a&gt; で、コピーできる項目とできない項目を確認してください。</entry>
+  </message>
+</rsccat>

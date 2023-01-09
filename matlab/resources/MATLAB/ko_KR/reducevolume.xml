@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidReduction">감소값은 [Rx Ry Rz] 또는 R이어야 함</entry>
+    <entry key="ReductionMustBeInt">감소값은 2보다 크거나 같은 정수여야 함</entry>
+    <entry key="ReductionTooHigh">감소값이 너무 큽니다. 더 작은 감소값을 사용해 보십시오.</entry>
+    <entry key="WrongNumberInputs">입력 인수의 개수가 올바르지 않습니다.</entry>
+  </message>
+</rsccat>

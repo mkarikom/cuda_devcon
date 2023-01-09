@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- Copyright 2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidA">Arguments must be matrices of type double or single.</entry>
+    <entry key="InvalidAForBanded">Matrix must be square double for decomposition type ''banded''.</entry>
+    <entry key="InvalidAForChol">Cholesky decomposition requires the input matrix to be hermitian and positive definite. Use option ''upper'' or ''lower'' to ignore part of the input matrix.</entry>
+    <entry key="InvalidAForCholSquare">Cholesky decomposition requires the input matrix to be square, hermitian, and positive definite.</entry>
+    <entry key="InvalidAForCholSPD">Cholesky decomposition requires the input matrix to be positive definite.</entry>
+    <entry key="InvalidAForDiagonal">Input matrix must be square diagonal.</entry>
+    <entry key="InvalidAForHessenberg">Hessenberg decomposition requires a dense input matrix that is upper triangular with one lower subdiagonal.</entry>
+    <entry key="InvalidAForLDL">LDL decomposition requires the input matrix to be hermitian. Alternatively, use option ''upper'' or ''lower'' to ignore part of the input matrix.</entry>
+    <entry key="InvalidAForLDLSquare">LDL decomposition requires the input matrix to be square and hermitian.</entry>
+    <entry key="InvalidAForLDLDiag">LDL decomposition requires the diagonal of the input matrix to be real.</entry>
+    <entry key="InvalidAForLU">LU decomposition requires the input matrix to be square.</entry>
+    <entry key="InvalidAForPermTriang">Input matrix must be a permutation of a square triangular matrix.</entry>
+    <entry key="InvalidAForTriang">Input matrix must be triangular. To ignore part of the input matrix, use options ''upper'' or ''lower'' .</entry>
+    <entry key="InvalidAForTriangSquare">Input matrix must be square for decomposition type ''triangular''.</entry>
+    <entry key="InvalidB">Invalid data type. Arguments must be double or single matrices.</entry>
+    <entry key="InvalidDivisor">Decomposition objects can be divided only by a scalar number of type double or single.</entry>
+    <entry key="InvalidLUPivot">''LUPivotTolerance'' value must be either a scalar or a 2-element vector.</entry>
+    <entry key="InvalidMult">Decomposition objects can be multiplied only by a scalar number of type double or single.</entry>
+    <entry key="LoadNotSupported">Loading a decomposition is not supported. The loaded object is the decomposition of an empty matrix.</entry>
+    <entry key="mldivide">Matrix dimensions must agree.</entry>
+    <entry key="mrdivide">Matrix dimensions must agree.</entry>
+    <entry key="NameWithoutValue">Incorrect number of input arguments. Each parameter name must be followed by a corresponding value.</entry>
+    <entry key="QRmldivideTransp">Backslash with transposed decomposition not supported for decomposition type ''qr''. Use type ''cod'', or construct decomposition of transposed matrix.</entry>
+    <entry key="QRmrdivideTransp">Forward slash supported only for transposed decomposition for decomposition type ''qr''. Use type ''cod'', or construct decomposition of transposed matrix.</entry>
+    <entry key="RcondNotSupported">Decompositions of type ''qr'' or ''cod'' are not supported.</entry>
+    <entry key="RankNotSupported">Only supported for decompositions of type ''qr'' or ''cod''.</entry>
+    <entry key="SaveNotSupported">Saving a decomposition is not supported.</entry>
+    <entry key="TransposeNotSupported">Transpose operator .' not supported for decomposition. Use the complex conjugate transpose operator ' instead.</entry>
+    
+    <!-- Error messages thrown in the internal functions. Not customer-visible -->
+    <entry key="genericError" translate="false">Decomposition built-in error: {0}</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="complexIntegers">データ型が無効です。複素数入力は double または single でなければなりません。</entry>
+    <entry key="integerInput">データ型が無効です。最初の入力は double または single でなければなりません。</entry>
+    <entry key="complexInput">データ型が無効です。最初の入力は実数でなければなりません。</entry>
+    <entry key="complexFillValue">''Endpoints'' の値は実数でなければなりません。</entry>
+    <entry key="wrongInput">データ型が無効です。最初の入力は数値または論理値でなければなりません。</entry>
+    <entry key="noEndpointValue">入力引数の数が正しくありません。''Endpoints'' の後には対応する値を指定しなければなりません。</entry>
+    <entry key="wrongEndpoint">''Endpoints'' の値は ''shrink''、''discard''、''fill''、あるいは数値スカラーまたは論理スカラーでなければなりません。</entry>
+    <entry key="noSamplePointsValue">入力引数の数が正しくありません。''SamplePoints'' の後には対応する値を指定しなければなりません。</entry>
+    <entry key="SamplePointsComplex">''SamplePoints'' の値は実数でなければなりません。</entry>
+    <entry key="SamplePointsDuplicate">''{0}'' の値に重複が含まれています。</entry>
+    <entry key="SamplePointsInvalidDatatype">''SamplePoints'' の値は数値ベクトル、datetime ベクトル、duration ベクトルのいずれかでなければなりません。</entry>
+    <entry key="SamplePointsLength">''SamplePoints'' の値は {0,number,integer} 要素のベクトルでなければなりません。</entry>
+    <entry key="SamplePointsNonFinite">''{0}'' の値に Inf または {1} が含まれています。</entry>
+    <entry key="SamplePointsSorted">''{0}'' の値は昇順に並べ替えなければなりません。</entry>
+    <entry key="SamplePointsSparse">''SamplePoints'' の値は非スパースでなければなりません。</entry>
+    <entry key="SamplePointsTimeTable">''SamplePoints'' パラメーターは、最初の引数が timetable である場合にはサポートされません。</entry>
+    <entry key="wrongNVPair">パラメーター名は ''Endpoints'' または ''SamplePoints'' でなければなりません。</entry>
+    <entry key="wrongString">オプションの組み合わせが無効です。オプションは 'omitnan' または 'includenan' でなければなりません。</entry>
+    <entry key="wrongWindowLength">ウィンドウの長さは、有限で正のスカラー、または有限で非負のスカラーの 2 要素ベクトルでなければなりません。</entry>
+    <entry key="wrongNormalization">正規化の引数は 0 か 1 でなければなりません。</entry>
+    <entry key="bothSamplePointsAndFillValue">''SamplePoints'' の値が指定されている場合、''Endpoints'' の値を数値スカラーまたは論理スカラーにすることはできません。</entry>
+    <entry key="nanFlagAfterPairs">NaN 条件はパラメーター名と値のペアより前になければなりません。</entry>
+    <entry key="endpointChoiceInvalid">''SamplePoints'' の値が等間隔でない場合、''Endpoints'' の値は ''shrink'' でなければなりません。</entry>
+    <entry key="winsizeNotDuration">データ型が無効です。''SamplePoints'' の値が {0} の場合、ウィンドウ サイズは期間でなければなりません。</entry>
+    <entry key="codegenSamplePointsNotSupported">''SamplePoints'' はコード生成でサポートされていません。</entry>
+  </message>
+</rsccat>

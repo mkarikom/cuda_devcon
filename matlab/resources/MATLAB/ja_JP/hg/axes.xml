@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadColorOrder">ColorOrder は、少なくとも 1 つのカラーを含まなければなりません</entry>
+    <entry key="ParamMustBeNumeric">{0} は数値でなければなりません</entry>
+    <entry key="ParamMustBe3ElementNumericVector">{0} は 3 要素の数値ベクトルでなければなりません</entry>
+    <entry key="ParamMustBePositiveFinite">{0} 値は有限で、0 より大きくなければなりません</entry>
+    <entry key="BadMatrixDimensions">4 行 4 列の行列が XForm プロパティに必要です</entry>
+    <entry key="Expected3ElementNumericVector">3 要素の数値ベクトルが必要です</entry>
+    <entry key="ExpectedNumeric">[azimuth elevation] の表示は数値でなければなりません</entry>
+    <entry key="ExpectedTwoElementVector">[azimuth elevation] の表示は 2 要素のベクトルでなければなりません</entry>
+    <entry key="BadArguments">{0} {1} プロパティ: ''{2}''\n{3}</entry>
+    <entry key="MustBeChild">{0} は、axes に存在する text の子でなければなりません。</entry>
+    <entry key="BadAxesHandle">無効な座標軸ハンドル</entry>
+    <entry key="CannotBeCurrentAxes">タイプ {0} のハンドルを現在の Axes にすることはできません。</entry>
+    <entry key="MustHaveFigureParent">軸はアクティブになるように親 Figure をもたなければなりません</entry>
+    <entry key="BadHandle">無効なハンドルのオブジェクト</entry>
+  </message>
+</rsccat>

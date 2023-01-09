@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ClassNotSupport">入力のクラスはサポートされていません。</entry>
+    <entry key="InvalidComparisonMethod">Comparison method must be ''auto'', ''abs'', or ''real''.</entry>
+    <entry key="InvalidFlagPosition">オプションは名前と値のペアの前に指定しなければなりません。</entry>
+    <entry key="mixedInputs">混合した入力は、single と double、あるいは整数とスカラーの double のいずれかでなければなりません。これ以外の組み合わせは許可されていません。</entry>
+    <entry key="TwoInTwoOutCaseNotSupported">比較のための 2 つの行列と 2 つの出力引数をもつ MIN は、サポートされません。</entry>
+    <entry key="caseNotSupported">2 つの入力配列が指定されている場合、次元の引数はサポートされません。</entry>
+    <entry key="notSupportedSparse">スパースの整数オペランドと単一のオペランドは MIN でサポートされていません。</entry>
+    <entry key="complexIntegersNotSupported">複素数の整数の最小値はサポートされていません。</entry>
+    <entry key="unknownNaNFlag">オプションは ''omitnan'' または ''includenan'' でなければなりません。</entry>
+    <entry key="unknownFlag">オプションは ''linear''、''omitnan'' または ''includenan'' でなければなりません。</entry>
+    <entry key="unknownOption">オプションは ''all''、''linear''、''omitnan'' または ''includenan'' でなければなりません。</entry>
+    <entry key="secondInputFlag">2 番目の引数が無効です。オプションを指定するときには MIN(X,[],option) を使用してください。</entry>
+    <entry key="wrongInput">データ型が無効です。最初の引数は数値または論理値でなければなりません。</entry>
+    <entry key="wrongSecondInput">データ型が無効です。2 番目の引数は数値または論理値でなければなりません。</entry>
+    <entry key="secondOutputNotSupported">2 つの出力を返し、かつ次元がベクトルである場合は、''linear'' オプションを指定してください。</entry>
+    <entry key="secondOutputNotSupportedSparse">このサイズの行列では、2 番目の出力はサポートされていません。</entry>
+    <entry key="InvalidAbsRealType">''ComparisonMethod'' parameter only supported when input array is numeric or logical.</entry>
+    <entry key="secondInputNVP">Invalid second argument. When specifying a name-value pair, use MIN(X,[],"ComparisonMethod",method).</entry>
+  </message>
+</rsccat>

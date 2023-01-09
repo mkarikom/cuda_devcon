@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="missingValueInputString">第一个参数不能为缺失值。</entry>
+    <entry key="missingValueStringList">第二个参数不得包含缺失值。</entry>
+    <entry key="invalidStringList">第二个参数必须为字符串数组或字符向量元胞数组。</entry>
+    <entry key="ambiguousStringChoice">{0} 应与以下值之一匹配:\n\n{1}\n\n输入 ''{2}'' 与多个有效值匹配。</entry>
+    <entry key="unrecognizedStringChoice3">{0} 应与以下值之一匹配:\n\n{1}\n\n输入 ''{2}'' 与任何有效值均不匹配。</entry>
+    <entry key="unrecognizedStringChoice2">{0} 应与以下值之一匹配:\n\n{1}\n\n输入与任何有效值均不匹配。</entry>
+    <entry key="badFunctionName">第三个参数必须为用于指定函数名称的字符串或字符向量，或者为用于指定参数位置的双精度标量。</entry>
+    <entry key="badVariableName">第四个参数必须为用于指定输入变量名称的字符串或字符向量。</entry>
+  </message>
+</rsccat>

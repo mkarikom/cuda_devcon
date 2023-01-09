@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="ErrorGeneratingReportMessage">Error generating report.&lt;p&gt;{0}\n</entry>
+      <entry key="DependencyReportName">Dependency Report</entry>
+      <entry key="SpecificFolderNotFound">Folder {0} not found</entry>
+      <entry key="SpecificFileNotFound">File {0} not found</entry>
+      <entry key="FileNotFoundPeriod">File {0} not found.</entry>
+      <entry key="FileNotFoundSoft">file {0} not found</entry>
+      <entry key="SpecifiedNameIsNotAFolder">{0} is not a folder</entry>     
+      <entry key="DependencyReportDescription">The Dependency Report shows dependencies among MATLAB files in a folder</entry>
+      <entry key="BuiltinFunctionsFilesNotShown">Built-in functions and files in toolbox/matlab are not shown&lt;p&gt;</entry>
+      <entry key="ReportForSpecificFolderStrong">Report for Folder {0}</entry>
+      <entry key="ReportForSpecificFolder">Report for folder {0}</entry>     
+      <entry key="ReportForSpecificFile">Report for File {0}</entry>
+      <entry key="ReportForFile">Report for file</entry>
+      <entry key="ShowChildFunctionsInReport">Show child functions</entry>
+      <entry key="ShowParentFunctionsInReport">Show parent functions (current folder only)</entry>
+      <entry key="ShowSubFunctionsInReport">Show subfunctions</entry>
+      <entry key="FunctionsCannotBeDisplayedInReport">Parent functions cannot be displayed in dependency reports for a single file.</entry>
+      <entry key="ChildrenCalledFunctions">&lt;strong&gt;Children&lt;/strong&gt;&lt;br/&gt;(called functions)</entry>
+      <entry key="ParentsCallingFunctions">&lt;strong&gt;Parents&lt;/strong&gt;&lt;br/&gt;(calling functions, current dir. only)</entry>
+      <entry key="MultipleClassMethodsFound">Multiple class methods match</entry>
+      <entry key="UnableToDetermineWhichFiles">Unable to determine which of the following files will run</entry>      
+      <entry key="HelpReportName">Help Report</entry>
+      <entry key="HelpReportDescription">The Help Report presents a summary view of the help component of your MATLAB files</entry>
+      <entry key="ShowClassMethodsOption">Show class methods</entry>
+      <entry key="DescriptionOption">Description</entry>
+      <entry key="ExamplesOption">Examples</entry>
+      <entry key="ShowAllHelpOption">Show all help</entry>
+      <entry key="SeeAlsoOption">See also</entry>
+      <entry key="CopyrightOption" translate="false" note="TranslateFalseBatch;">Copyright</entry>
+      <entry key="MATLABFileList">MATLAB File List</entry>
+      <entry key="NoDescriptionLineHelp">No description line</entry>
+      <entry key="NoHelpHelp">No help</entry>
+      <entry key="NoExamplesHelp">No examples</entry>
+      <entry key="NoSeeAlsoLineHelp">No See Also line</entry>
+      <entry key="FunctionDoesNotAppearOnThePathHelp">Function {0} does not appear on the path</entry>
+      <entry key="NoCopyrightLineHelp">No copyright line</entry>
+      <entry key="CopyrightYearIsNotCurrentHelp">Copyright year is not current</entry>     
+      <entry key="CodeAnalyzerReportName">Code Analyzer Report</entry>
+      <entry key="IsNotAFolder">{0} is not a folder.</entry>
+      <entry key="MLintReportDescription">This report displays potential errors and problems, as well as opportunities to improve your MATLAB programs</entry>
+      <entry key="NoMessages">No messages</entry>
+      <entry key="OneMessage">1 message</entry>
+      <entry key="SpecifiedNumberOfMessages">{0} messages</entry>
+      <entry key="ShowingOnlyFirstAmountOfMessages">Showing only first {0}</entry>
+      <entry key="TodoFixMeReportName">TODO/FIXME Report</entry>
+      <entry key="InvalidDirFileOption">{0} is an invalid option, must specify ''dir'' or ''file''</entry>
+      <entry key="TodoFixMeDescription" note="stringDatatypeUpdate">The TODO/FIXME Report shows MATLAB files that contain the text character vectors selected below</entry>
+      <entry key="CoverageHeader">Coverage</entry>
+      <entry key="CoverageReportName">Profiler Coverage Report</entry>
+      <entry key="CoverageReportDescription">Run the Coverage Report after you run the Profiler to identify how much of a file ran when it was profiled</entry>
+      <entry key="NoMATLABCodeFilesInThisFolder">No MATLAB code files in this folder</entry>
+      <entry key="TotalTime">Total time:</entry>
+      <entry key="NumberOfSeconds">{0} seconds</entry>
+      <entry key="TotalLines">Total lines: {0}</entry>
+      <entry key="TotalCoveragePercentage">Total coverage: {0}%</entry>
+      <entry key="GeneratingReport">Generating {0}...</entry>
+      <entry key="UnknownError">Unknown file type or parsing error.</entry>
+      <entry key="WebError">{0}: ERROR</entry>
+      <entry key="RerunReport">Rerun This Report</entry>
+      <entry key="RunReport">Run Report on Current Folder</entry>
+      <entry key="LearnMore">Learn More</entry>
+      <entry key="LearnMoreParen" translate="false" note="TranslateFalseBatch;">({0})</entry>
+      <entry key="ContentsReportName">Contents File Report</entry>
+      <entry key="ContentsReportDescription">The Contents Report displays information about the integrity of the Contents.m file for the folder</entry>
+      <entry key="NoContentsM">No Contents.m file. Make one?</entry>
+      <entry key="Yes">yes</entry>
+      <entry key="EditContentsM">edit Contents.m</entry>
+      <entry key="FixSpacing">fix spacing</entry>
+      <entry key="FixAll">fix all</entry>
+      <entry key="ReportForFolder">Report for folder {0}</entry>
+      <entry key="DescriptionLinesDoNotMatch">Description lines do not match for file {0}.</entry>
+      <entry key="DescriptionFromFile">Use this description from the &lt;b&gt;file&lt;/b&gt;? (default)</entry>
+      <entry key="DescriptionFromContents">Or put this description from the &lt;b&gt;Contents&lt;/b&gt; into the file?</entry>
+      <entry key="FileNotInFolder">File {0} does not appear in this folder.</entry>
+      <entry key="RemoveFromContents">Remove it from Contents.m?</entry>
+      <entry key="InFolderButNotContents">File {0} is in the folder but not Contents.m</entry>
+      <entry key="AddTheLineShownAbove">Add the line shown above?</entry>      
+      <entry key="RptName">Name</entry>
+      <entry key="RptType">Type</entry>
+      <entry key="RptStarts">Starts</entry>
+      <entry key="RptEnds">Ends</entry>
+      <entry key="RptLength">Length</entry>
+      <entry key="RptFullName">Full Name</entry>
+      <entry key="ClassMethod">class method</entry>
+      <entry key="NestedDashFunction">nested-function</entry>
+      <entry key="PrivateFunction" translate="false" note="TranslateFalseBatch;">privateFunction</entry>
+      <entry key="Subfunction">subfunction</entry>
+      <entry key="Note">NOTE</entry>
+      <entry key="Function">function</entry>
+      <entry key="Script">script</entry>
+      <entry key="ErrorStrong">ERROR</entry>
+      <entry key="Variable">variable</entry>
+      <entry key="Unknown">unknown</entry>
+      <entry key="BuiltIn">built-in</entry>
+      <entry key="Private">private</entry>
+      <entry key="CurrentDir">current dir</entry>
+      <entry key="Toolbox">toolbox</entry>
+      <entry key="JavaMethod">Java method</entry>
+      <entry key="StaticClassMethod">static class method</entry>
+      <entry key="PackageFunction">package function</entry>
+      <entry key="Other">other</entry>
+      <entry key="MatlabToolbox" translate="false" note="TranslateFalseBatch;">toolbox/matlab</entry>
+	  <entry key="Class">class</entry>
+   </message>
+</rsccat>

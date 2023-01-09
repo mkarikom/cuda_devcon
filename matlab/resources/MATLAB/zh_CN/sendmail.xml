@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoJvm">SENDMAIL 需要 Java。</entry>
+    <entry key="InvalidSubject">主题不能包含换行符。</entry>
+    <entry key="CannotOpenFile">无法打开文件 "{0}"。</entry>
+    <entry key="assignment_AuthenticationFailed">身份验证失败。</entry>
+    <entry key="SMTPServerIndeterminate">无法确定 SMTP 服务器。您可以设置以下类似项: \n{0}</entry>
+    <entry key="FromAddressIndeterminate">无法确定 FROM 地址。您可以设置以下类似项: \n{0}</entry>
+    <entry key="SmtpError">{0}</entry>
+    <entry key="AddressError">{0}</entry>
+  </message>
+</rsccat>

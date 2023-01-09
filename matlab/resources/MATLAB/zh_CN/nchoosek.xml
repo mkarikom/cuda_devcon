@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidArg2">第二个输入必须为非负整数。</entry>
+    <entry key="InvalidArg1">第一个参数必须为标量或向量。</entry>
+    <entry key="KOutOfRange">K 必须为一个介于 0 与 N 之间的整数。</entry>
+    <entry key="NOutOfRange">当 N 为单精度或双精度时，其最大允许值是 FLINTMAX。</entry>
+    <entry key="mixedIntegerTypes">整数只能与同类的整数或双精度标量值组合使用。</entry>
+    <entry key="LargeCoefficient">结果可能不精确。系数大于 {0} 且仅精确至第 {1,number,integer} 位</entry>
+  </message>
+</rsccat>

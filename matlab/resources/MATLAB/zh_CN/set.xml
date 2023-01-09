@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PVPairSizeMismatch">参数元胞/值元胞对中的大小不匹配</entry>
+    <entry key="BadPVPair1">参数/值对组参数无效</entry>
+    <entry key="ValueDimensionMustMatchVectoLength">值元胞数组句柄维度必须与句柄向量长度匹配</entry>
+    <entry key="ExpectedMatchingPairs">值元胞数组的每个指定属性必须具有一个值</entry>
+    <entry key="BadPVPair2">参数/值对组参数无效</entry>
+    <entry key="BadPVPair3">参数/值对错误</entry>
+    <entry key="EmptyCellsNotAllowed">参数名称元胞数组中不允许使用空元胞</entry>
+    <entry key="BadPVPair4">参数/值对组参数无效</entry>
+    <entry key="BadHandle1">句柄无效</entry>
+    <entry key="BadPropertyName">属性名称无效</entry>
+    <entry key="BadHandle2">句柄无效</entry>
+    <entry key="VectorNotAllowed">set(h) 不允许使用句柄向量</entry>
+    <entry key="BadHandleType">使用 set 检索信息时，句柄必须为标量</entry>
+  </message>
+</rsccat>

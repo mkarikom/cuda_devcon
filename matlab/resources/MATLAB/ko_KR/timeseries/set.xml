@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">하나의 객체만 전달하여 가능한 속성값에 대한 정보를 설정할 수 있습니다.</entry>
+    <entry key="propValPairs">속성/값 쌍은 반드시 짝수여야 합니다.</entry>
+    <entry key="nostruct">시계열 속성에는 구조체 또는 구조체형 배열이 값으로 대입될 수 없음</entry>
+    <entry key="noinplaceset">timeseries가 표현식 또는 하위 참조 배열을 사용하여 정의된 경우 속성에 값이 적절히 대입될 수 없습니다.</entry>
+  </message>
+</rsccat>

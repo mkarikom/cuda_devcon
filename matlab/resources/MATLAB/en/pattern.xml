@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!-- Copyright 2018-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="BackreferenceNotSupported">Backreference is not supported in regexpPattern.</entry>
+    <entry key="CannotConvertMissingToPattern" note="pattern is a class.">Conversion of element {0} from &lt;missing&gt; to pattern is not supported.</entry>
+    <entry key="ConditionalReferenceNotSupported">Conditional reference is not supported in regexpPattern.</entry>
+    <entry key="DimensionMismatch" note="pattern is a class.">Dimensions of {0} argument must match the dimensions of the pattern argument or be 1.</entry>
+    <entry key="InvalidBoundaryOption">Option must be 'start', 'end', or 'either'.</entry>
+    <entry key="InvalidAssignmentDimensions">Each dimension of the right hand side must be either 1 or match the dimension of the left hand side.</entry>
+    <entry key="InvalidLimitRange">The minimum quantifier, {0}, must be less than or equal to the maximum quantifier, {1}.</entry>
+    <entry key="InvalidRangeInput">{0} of range must contain only one character.</entry>
+    <entry key="InvalidRangeChar" note="A character range can be 'A'-'Z'. The start character is 'A' and 'Z' is the end character.">Start of range must precede the end of range.</entry>
+    <entry key="InvalidPatternName" note="pattern is a class.">Pattern name must be a valid MATLAB identifier.</entry>
+    <entry key="InternalError" translate="false" note="translate=false set due no translatable content">{0}</entry>
+    <entry key="MaskConflict" note="pattern is a class.">Identical mask displays within a scope must contain the same pattern.</entry>
+    <entry key="MaskedPatterns" note="pattern is a class.">Masked patterns</entry>
+    <entry key="Matching" note="Used as a title in display in the context of pattern matching.">Matching</entry>
+    <entry key="MatchingWithHole" note="Used as a title in display in the context of pattern matching.">Matching {0}</entry>
+    <entry key="MissingName" note="pattern is a class.">Named patterns created without a name require the pattern to be a workspace variable.</entry>
+    <entry key="MissingMask" note="pattern is a class.">Masked patterns created without a mask require the pattern to be a workspace variable.</entry>
+    <entry key="MustBeNonnegativeInteger">{0} must be a nonnegative integer.</entry> 
+    <entry key="MustBeNonnegativeIntegerScalar">{0} must be a nonnegative integer scalar.</entry>
+    <entry key="MustBePattern" note="pattern is a class.">{0} must be a pattern array.</entry>
+    <entry key="MustBeStruct">{0} must be a struct array.</entry>
+    <entry key="MustBeTextOrPattern" note="pattern is a class.">{0} must be text or pattern.</entry>
+    <entry key="MustBeTextOrPatternScalar" note="pattern is a class.">{0} must be a text or pattern scalar.</entry>
+    <entry key="NameConflict" note="pattern is a class.">Identical names within a scope must contain the same pattern.</entry>
+    <entry key="NamedPatternDetails" note="pattern is a class.">Named pattern details</entry>
+    <entry key="NOTOperationNotSupported">Unary operator ''~'' is only supported for boundary patterns.</entry>
+    <entry key="ShowAllDetails">Show all details</entry>
+    <entry key="ShowMoreDetails">Show more details</entry>
+    <entry key="UsingNamedPatterns">Using named patterns</entry>
+    <entry key="UseDetailsToShowMore" note="The hole is a function name">Use {0} to show more information</entry>
+    <entry key="UnableToLoadPattern" note="pattern is a class.">Unable to load pattern variable.</entry>
+    <entry key="UnableToLoadPatternArgument" note="pattern is a class.">Unable to load pattern variable due to unknown argument for function ''{0}''. This pattern might have been saved from a later version of MATLAB.</entry>
+    <entry key="UnableToLoadPatternValue" note="pattern is a class.">Unable to load pattern variable due to invalid argument value for function ''{0}''. This pattern might have been saved from a later version of MATLAB.</entry>
+    <entry key="UnableToLoadPatternFunction" note="pattern is a class.">Unable to load pattern variable due to unknown function ''{0}''. This pattern might have been saved from a later version of MATLAB.</entry>
+    <entry key="UndefinedName">Reference to non-existent name ''{0}''.</entry>
+    <entry key="ShowDetailsInvalidValue" note="pattern is a class.">Unable to display details for variable {0} because it is no longer a pattern scalar.</entry>
+    <entry key="ShowDetailsNoLongerExists">Unable to display details for variable {0} because it no longer exists.</entry>
+    <entry key="ShowDetailsNoMoreDetails">Unable to display details for variable {0} because it no longer has more details.</entry>
+    
+
+    <!-- Used to fill holes -->
+    <entry key="BoundaryType" note="Used to fill the message InvalidRangeInput">Boundary type</entry>
+    <entry key="End" note="Used to fill the message InvalidRangeInput. This is used in the context of the start and end of a range.">End</entry>
+    <entry key="MaskDisplay_UpperCase" note="Used to fill the message MustBeCharCellArrayOrString">Mask display</entry>
+    <entry key="MaskDisplay_LowerCase" note="Used to fill the message DimensionMismatch">mask display</entry>
+    <entry key="MaximumQuantifier" note="Used to fill the message MustBePositiveInteger">Maximum quantifier</entry>
+    <entry key="MinimumQuantifier" note="Used to fill the message MustBePositiveInteger">Minimum quantifier</entry>
+    <entry key="MatchRange" note="Used to fill the message DimensionMismatch">match range</entry>
+    <entry key="PatternName" note="Used to fill the message MustBeCharCellArrayOrString. pattern is a class.">Pattern name</entry>
+    <entry key="ExceptOption" note="Used to fill the message MustBeTextOrPatternScalar">''Except'' option</entry>
+    <entry key="PatternDescription" note="Used to fill the message MustBeCharCellArrayOrString. pattern is a class.">Pattern description</entry>
+    <entry key="Quantifier" note="Used to fill the message MustBePositiveInteger">Quantifier</entry>
+    <entry key="Start" note="Used to fill the message InvalidRangeInput. This is used in the context of the start and end of a range.">Start</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidGraphicsHandle">유효하지 않은 그래픽스 객체 핸들입니다.</entry>
+    <entry key="RelatedGraphicsHandle">핸들 객체 간에는 연관성이 없어야 합니다.</entry>
+    <entry key="InvalidOption">선택적 인수는 문자형 벡터여야 합니다.</entry>
+  </message>
+</rsccat>

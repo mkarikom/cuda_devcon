@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidArguments">入力引数が無効です。</entry>
+    <entry key="InvalidOptionalArgsPass">オプションの初期化の引数は対で渡さなければなりません。</entry>
+    <entry key="WaitbarHandlesNotFound">waitbar のハンドルが見つかりません。</entry>
+    <entry key="InvalidFirstInput">最初の引数は 0 と 1 の間の数値でなければなりません。</entry>
+    <entry key="InvalidSecondInput">2 番目の引数は、メッセージ文字ベクトルか、既存の waitbar のハンドルでなければなりません。</entry>
+    <entry key="ImproperArguments">waitbar の引数が正しくありません。</entry>
+  </message>
+</rsccat>

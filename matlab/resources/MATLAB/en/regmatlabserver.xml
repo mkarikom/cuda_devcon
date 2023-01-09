@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NonPC">This function is applicable only on Microsoft Windows.</entry>
+    <entry key="DosError">While executing [{0}], the following error was reported by DOS with status {1,number,integer}:\n{2}</entry>
+    <entry key="BadArgs">Incorrect number of input arguments used.</entry>
+  </message>
+</rsccat>

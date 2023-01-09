@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidExcelWorkbook">これは有効な Excel ワークブックではありません。</entry>
+    <entry key="MATFile">MAT ファイル</entry>
+    <entry key="ExcelWorkbook">Excel ワークブック</entry>
+    <entry key="ExportingTimeSeriesObjectsPleaseWait">Time Series オブジェクトをエクスポート中。お待ちください...</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+  </message>
+</rsccat>

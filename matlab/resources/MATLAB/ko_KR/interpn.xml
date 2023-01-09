@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nargin">입력 인수의 개수가 올바르지 않습니다.</entry>
+    <entry key="NotEnoughInputs">입력 인수가 부족합니다.</entry>
+    <entry key="NtimesInvalid">NTIMES는 단일 숫자 값이어야 합니다.</entry>
+    <entry key="NotEnoughPointsNanStrip">보간할 유한한 값이 충분하지 않습니다.</entry>
+    <entry key="InvalidExtrapval">EXTRAPVAL은 스칼라여야 합니다.</entry>
+    <entry key="NaNstrip">NaN 값이 포함된 데이터 열은 보간 중에 무시되었습니다.</entry>
+    <entry key="InvalidMethod">{0}은(는) 유효하지 않은 메서드입니다.</entry>
+    <entry key="narginOrInvalidDimV">입력 인수의 개수가 잘못되었거나 V의 일부 차원이 2차원보다 작습니다.</entry>
+    <entry key="XNotMonotonic">X1, X2, X3 등은 단조 벡터이거나 NDGRID에서 생성한 배열이어야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidNrNodes">추가할 노드 개수는 음이 아닌 실수형 정수여야 합니다.</entry>
+    <entry key="NoOutput">입력 그래프가 수정되지 않았습니다. 수정된 그래프를 반환하도록 출력 인수를 사용하십시오.</entry>
+    <entry key="SecondInput">추가할 노드는 노드 이름으로 구성된 배열, 노드 개수, 노드 속성으로 구성된 테이블 중 하나여야 합니다.</entry>
+    <entry key="NonUniqueDefaultNames">새 노드의 디폴트 이름이 기존 노드 이름과 일치합니다. 새 노드에 고유한 노드 이름을 지정하십시오.</entry>
+  </message>
+</rsccat>

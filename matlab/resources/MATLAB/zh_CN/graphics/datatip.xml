@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="emptyAxes">断言</entry>
+    <entry key="invalidOrientation">方向值无效</entry>
+    <entry key="ErrorInCustomFunction">无法使用自定义\n更新函数来更新数据提示</entry>
+    <entry key="InvalidLabelProperty">标签必须为字符串标量或字符向量。</entry>
+    <entry key="InvalidValueProperty">值必须为具有数据属性名称的字符串标量或字符向量，例如 'XData'，或者必须为向量或函数句柄。</entry>
+    <entry key="InvalidFormatProperty">无效的数据提示格式。</entry>
+    <entry key="IncorrectFormatProperty">格式必须为字符串标量或字符向量。</entry>
+    <entry key="InvalidNumericFormat">数值数据提示格式无效。</entry>
+    <entry key="InvalidFunctionHandle">您必须指定接受至少一个输入参数的函数。</entry>
+    <entry key="MustHaveAtleastOneRow">数据提示必须至少包含一行。</entry>
+    <entry key="CannotCreateEmptyRow">数据提示行必须至少有一个标签或一个值。</entry>
+    <entry key="IncompatibleValue">值必须与数据源兼容。</entry>
+    <entry key="UncustomizableDataTipTemplate">不支持更改 {0} 对象的 DataTipTemplate 的属性。</entry>
+    <entry key="CannotUpdateCustomFunction">设置 DataTipRows 未生效，因为数据提示正在使用更新函数。\n要查看您所做的更改，请使用数据提示的上下文菜单删除该更新函数。</entry>
+    <entry key="UncommentLineToCreateDataTip">下面一行演示创建数据提示的另一种方法。</entry>
+    <entry key="Invalid3DCoordinates">指定 3 个坐标以在三维图上显示数据提示。</entry>
+    <entry key="Invalid2DCoordinates">指定 2 个坐标以在二维图上显示数据提示。</entry>
+    <entry key="InvalidValueForDateTime">请将 {0} 指定为有效的日期时间值。</entry>
+    <entry key="InvalidValueForNumerical">请将 {0} 指定为有效的数值。</entry>
+    <entry key="InvalidValueForCategorical">请将 {0} 指定为有效的分类值。</entry>
+    <entry key="InvalidValueForDuration">请将 {0} 指定为有效的持续时间值。</entry>
+    <entry key="InvalidParent">第一个参数必须为支持数据提示的图对象。</entry>
+    <entry key="IncorrectParent">父级无效。父级必须为图对象。</entry>
+    <entry key="InvalidPropertyName">属性名称必须为字符向量或字符串。</entry>
+    <entry key="InvalidFirstArgument">参数无效。对象已删除或不支持数据提示。</entry>
+    <entry key="UnknownProperty">未知的属性: ''{0}''。</entry>
+    <entry key="ErrorWhileEvaluating">{0}\n计算数据提示的 {1} 时出错。</entry>
+    <entry key="IncorrectInputArgs">用于构造 datatip 对象的输入参数不正确。</entry>
+    <entry key="InvalidLocation">''{0}'' 不是有效值。请使用下列值之一: 'northeast' | 'northwest' | 'southeast' | 'southwest'。 </entry>
+    <entry key="CannotSetUIContextMenu">您无法设置数据提示的 ''ContextMenu'' 属性。</entry>
+    <entry key="ModifyOption">修改数据提示</entry>
+    <entry key="ResetOption">重置数据提示</entry>
+    <entry key="MoreOption">更多...</entry>
+    <entry key="MinOption">最小值</entry>
+    <entry key="MaxOption">最大值</entry>
+    <entry key="MeanOption">均值</entry>
+    <entry key="CountOption">计数</entry>
+    <entry key="SumOption">总和</entry>
+    <entry key="MedianOption">中位数</entry>
+    <entry key="AvailableLabel">可用选项</entry>
+    <entry key="SelectedLabel">所选选项</entry>
+    <entry key="AddOptionsToSelected">添加到所选选项</entry>
+    <entry key="RemoveOptionsFromSelected">从所选选项中删除</entry>
+    <entry key="UpLabel">上移</entry>
+    <entry key="DownLabel">下移</entry>
+    <entry key="UpTooltip">上移选定选项</entry>
+    <entry key="DownTooltip">下移选定选项</entry>
+    <entry key="OKLabel">确定</entry>
+    <entry key="CancelLabel">取消</entry>
+    <entry key="CountVariable">{0} 计数</entry>
+    <entry key="MinVariable">最小值 {0}</entry>
+    <entry key="MaxVariable">最大值 {0}</entry>
+    <entry key="SumVariable">总和 {0}</entry>
+    <entry key="MedianVariable">中位数 {0}</entry>
+    <entry key="MeanVariable">均值 {0}</entry>
+    <entry key="NoneVariable">{0}</entry>
+  </message>
+</rsccat>

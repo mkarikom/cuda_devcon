@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="switchToSoftwareMacNotSupported">ソフトウェア OpenGL へのレンダリングの切り替えは、Mac プラットフォームではサポートされません。</entry>
+    <entry key="switchToSoftwareUnixNotSupported">UNIX での実行時にソフトウェアの OpenGL レンダリングを切り替えることは、サポートされていません。</entry>
+    <entry key="switchToHardwareMacNotSupported">ハードウェア OpenGL へのレンダリングの切り替えは、Mac プラットフォームではサポートされません。</entry>
+    <entry key="switchToHardwareUnixNotSupported">UNIX での実行時にハードウェアの OpenGL のレンダリングを切り替えることは、サポートされていません。</entry>
+    <entry key="settingOfSoftwareMacNotSupported">ソフトウェア OpenGL でのレンダリングは、Mac プラットフォームではサポートされません。</entry>
+    <entry key="loadStatus">OpenGL を読み込むことができませんでした。</entry>
+    <entry key="infoQuery">OpenGL のクエリ中にエラーが発生しました:</entry>
+    <entry key="dataQuery">OpenGL のクエリ中にエラーが発生しました:</entry>
+    <entry key="invalidBugWorkaround">不明な OpenGL バグの回避方法: {0}</entry>
+    <entry key="knownDriverIssues">既知のグラフィックス ドライバーの問題</entry>
+    <entry key="invalidInputArgument">OpenGL の不適切な入力引数: {0}</entry>
+    <entry key="softwareUnsupported">関数 opengl はオプション 'software' を受け入れません。ソフトウェア OpenGL を使用して実行するには、'-softwareopengl' オプションを指定して MATLAB を起動してください。</entry>
+    <entry key="hardwareUnsupported">関数 opengl はオプション 'hardware' を受け入れません。MATLAB グラフィックスの既定のレンダリング モードはハードウェア opengl です。</entry>
+    <entry key="deprecatedArgument">このオプションはサポートされなくなったため、何も影響を与えません: {0}</entry>
+    <entry key="deprecatedNoArgs">引数のない opengl コマンドはサポート対象外となりました。</entry>
+    <entry key="MFileNotFound">ファイル {0} が見つかりません</entry>
+    <entry key="HardwareGLCrash">低水準のグラフィックス エラーが原因で MATLAB は前回クラッシュしました。このセッションでクラッシュの再発を防ぐため、MATLAB はご利用のグラフィックス ハードウェアではなく OpenGL ソフトウェアを使用します。今後のセッション用にこの設定を保存するには、opengl('save', 'software') コマンドを使用します。詳細については、&lt;a href="matlab:opengl('problems')"&gt;Resolving Low-Level Graphics Issues&lt;/a&gt;を参照してください。</entry>
+    <entry key="SoftwareGLCrash">MATLAB は前回、ソフトウェア OpenGL の使用中に、低水準のグラフィックス エラーが原因でクラッシュしました。詳細については、「&lt;a href="matlab:opengl('problems')"&gt;低水準グラフィックス問題の解決&lt;/a&gt;」を参照してください。</entry>
+    <entry key="unableToSelectHWGL">ハードウェアの OpenGL レンダリングを選択できません。詳細については、&lt;a href="matlab:opengl('problems')"&gt;ここ&lt;/a&gt; をクリックしてください。</entry>
+    <entry key="alterWindowsMesaOGLNotSupported">コマンド ラインでの OpenGL 実装の変更はサポートされていません。代わりに、MATLAB の起動時に実装を指定してください。</entry>
+  </message>
+</rsccat>

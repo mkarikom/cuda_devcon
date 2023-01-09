@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFirstFigureHandle">첫 번째 인수는 Figure여야 합니다.</entry>
+    <entry key="InvalidAction">문자형 벡터는 ''on'', ''off'', ''togglesnap'', ''toggleview'', ''noaction'' 중 하나여야 함</entry>
+    <entry key="InvalidFigureHandle">핸들 인수는 유효한 Figure여야 함</entry>
+    <entry key="InvalidOnOff">문자형 벡터는 ''on'' 또는 ''off''여야 함</entry>
+    <entry key="NoFigures">그리드에 맞춤 사용을 설정하려면 Figure가 있어야 합니다.</entry>
+  </message>
+</rsccat>

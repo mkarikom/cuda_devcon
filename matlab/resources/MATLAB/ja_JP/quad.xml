@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="scalarLimits">積分範囲はスカラーでなければなりません。</entry>
+    <entry key="funNotVectorized">被積分関数は、入力ベクトルと同じ長さの出力ベクトルを返さなければなりません。</entry>
+    <entry key="MinStepSize">最大ステップ サイズに達しました。特異点の可能性があります。</entry>
+    <entry key="MaxFcnCount">最大の関数計算回数を超えました。特異点の可能性があります。</entry>
+    <entry key="ImproperFcnValue">無限 (Inf)、または数でない (NaN) 関数値がありました。</entry>
+  </message>
+</rsccat>

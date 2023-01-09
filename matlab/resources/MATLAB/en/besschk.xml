@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="nonNumericInput">Arguments must be numeric.</entry>
+    <entry key="nonRealNU">NU must be real.</entry>
+    <entry key="NUAndZSizeMismatch">NU and Z must be the same size.</entry>
+    <entry key="BesselhIerrRemoved">BESSELH no longer returns a second output. Use H = BESSELH(NU,Z) instead.</entry>
+    <entry key="BesseliIerrRemoved">BESSELI no longer returns a second output. Use I = BESSELI(NU,Z) instead.</entry>
+    <entry key="BesseljIerrRemoved">BESSELJ no longer returns a second output. Use J = BESSELJ(NU,Z) instead.</entry>
+    <entry key="BesselkIerrRemoved">BESSELK no longer returns a second output. Use K = BESSELK(NU,Z) instead.</entry>
+    <entry key="BesselyIerrRemoved">BESSELY no longer returns a second output. Use Y = BESSELY(NU,Z) instead.</entry> 
+    <entry key="BesselhEmptyEdgeCase">BESSELH(NU,Z) no longer accepts mixtures of empty array and non-scalar input.</entry> 
+    <entry key="BesseliEmptyEdgeCase">BESSELI(NU,Z) no longer accepts mixtures of empty array and non-scalar input.</entry> 
+    <entry key="BesseljEmptyEdgeCase">BESSELJ(NU,Z) no longer accepts mixtures of empty array and non-scalar input.</entry> 
+    <entry key="BesselkEmptyEdgeCase">BESSELK(NU,Z) no longer accepts mixtures of empty array and non-scalar input.</entry> 
+    <entry key="BesselyEmptyEdgeCase">BESSELY(NU,Z) no longer accepts mixtures of empty array and non-scalar input.</entry> 
+    <entry key="BesselhRowColumnVectorCase">BESSELH(NU,Z) no longer accepts mixtures of row and column vectors. Use BSXFUN or [NU1 Z1] = MESHGRID(NU, Z); BESSELH(NU1,Z1) instead.</entry> 
+    <entry key="BesseliRowColumnVectorCase">BESSELI(NU,Z) no longer accepts mixtures of row and column vectors. Use BSXFUN or [NU1 Z1] = MESHGRID(NU, Z); BESSELI(NU1,Z1) instead.</entry> 
+    <entry key="BesseljRowColumnVectorCase">BESSELJ(NU,Z) no longer accepts mixtures of row and column vectors. Use BSXFUN or [NU1 Z1] = MESHGRID(NU, Z); BESSELJ(NU1,Z1) instead.</entry> 
+    <entry key="BesselkRowColumnVectorCase">BESSELK(NU,Z) no longer accepts mixtures of row and column vectors. Use BSXFUN or [NU1 Z1] = MESHGRID(NU, Z); BESSELK(NU1,Z1) instead.</entry> 
+    <entry key="BesselyRowColumnVectorCase">BESSELY(NU,Z) no longer accepts mixtures of row and column vectors. Use BSXFUN or [NU1 Z1] = MESHGRID(NU, Z); BESSELY(NU1,Z1) instead.</entry> 
+  </message>
+</rsccat>

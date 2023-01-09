@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">需要字符串标量或字符向量参数。</entry>
+    <entry key="UnrecognizedLinespecCharacter">LineSpec 中存在无法识别的字符。</entry>
+    <entry key="InvalidLinespec">LineSpec 无效。</entry>
+    <entry key="InvalidSecondArg">第二个输入参数必须为字符串标量或字符向量 ''plot''</entry>
+  </message>
+</rsccat>

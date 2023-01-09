@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ComplexInput">Both X and N must be real.</entry>
+    <entry key="NonmatchDim">X and N must be either be scalar or array with same size.</entry>
+    <entry key="NegXNotOddIntegerN">If X is negative, N must be an odd integer.</entry>
+  </message>
+</rsccat>

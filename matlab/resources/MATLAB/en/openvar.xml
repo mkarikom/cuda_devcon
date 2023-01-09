@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2013 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="TheVariableEditorNotSupported">The Variable Editor is not supported because Swing is not currently available.</entry>
+    <entry key="VariableNameAsString" note="stringDatatypeUpdate">The first argument to VariableEditor must be a character vector.</entry>
+    <entry key="InvalidVariableName">The first argument to VariableEditor must be a valid variable name.</entry>
+    <entry key="LocationMustBeNumericVector">Location must be a 1x2 numeric vector: [X, Y]</entry>
+    <entry key="NonExistentVariable">Variable ''{0}'' does not exist in the specified workspace</entry>
+  </message>
+</rsccat>

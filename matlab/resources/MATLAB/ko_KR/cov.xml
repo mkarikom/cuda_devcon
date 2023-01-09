@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">입력 인수가 부족합니다.</entry>
+    <entry key="TooManyInputs">입력 인수가 너무 많습니다.</entry>
+    <entry key="InputDim">입력값은 2차원이어야 합니다.</entry>
+    <entry key="unknownFlag">옵션이 유효하지 않습니다. 옵션은 ''includenan'', ''omitrows'', ''partialrows'' 중 하나여야 합니다.</entry>
+    <entry key="notScalarFlag">세 번째 입력값은 0, 1, 플래그 문자형 벡터 중 하나여야 합니다.</entry>
+    <entry key="XYlengthMismatch">x와 y에 있는 요소 개수는 일치해야 합니다.</entry>
+  </message>
+</rsccat>

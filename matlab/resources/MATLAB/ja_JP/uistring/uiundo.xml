@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CommandString">コマンド: {0}</entry>
+    <entry key="CommandExecutionFailed">"やり直し" 中にエラーが発生しました: {0}</entry>
+    <entry key="CannotUndoCommand">"元に戻す" ときにエラーが発生しました: {0}</entry>
+    <entry key="CommentCalledBy">%% {0} で呼び出されました</entry>
+  </message>
+</rsccat>

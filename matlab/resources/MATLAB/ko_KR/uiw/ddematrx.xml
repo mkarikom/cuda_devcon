@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="OutOfMemory">메모리가 부족합니다. 자세한 내용은 &lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/memory.html'))\"&gt;메모리&lt;/a&gt;를 참조하십시오.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Expected3ElementVector">值必须为包含 3 个元素的数值向量</entry>
+    <entry key="ValueOutsideRange">Alpha 值必须介于 0.0 与 1.0 之间</entry>
+    <entry key="Expected4ElementVector">值必须为包含 4 个元素的向量</entry>
+    <entry key="ExpectedSingleLineString">值必须为单行字符向量</entry>
+    <entry key="StringSizeOutsideRange">字符向量值必须为单个字符或 ''''</entry>
+    <entry key="ExpectedNonEmptyString">字符向量值不能为空</entry>
+    <entry key="ExpectedIntegerValueString">字符向量值必须为整数</entry>
+    <entry key="ExpectedScalar">值必须为标量</entry>
+    <entry key="DimensionsOutsideRange">宽度和高度必须大于或等于 0</entry>
+    <entry key="ValueMustBeNonNegative">值必须 &gt;= 0</entry>
+    <entry key="ExpectedFinitePositive">值必须是有限的并且大于零</entry>
+    <entry key="ExpectedFiniteNonNegative">值必须是有限的并且大于或等于零</entry>
+    <entry key="ExpectedBetween0And1">值必须介于零与一之间(包括二者)</entry>
+    <entry key="ExpectedDoubleOrFloat">值必须为双精度值或浮点值</entry>
+    <entry key="ExpectedNumeric">值必须为数值</entry>
+    <entry key="ExpectedMonotonicallyIncreasing">值必须单调增加</entry>
+    <entry key="SettingColorSpecToNoneWillNotBeAllowed">“未来版本中不允许将 {0} 的 ColorSpec 设置为 'none'。”</entry>
+  </message>
+</rsccat>

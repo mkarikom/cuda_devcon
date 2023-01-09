@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SubplotIndexNonFinite">索引必须为 mnp 格式的有限 3 位数。</entry>
+    <entry key="InvalidAxesHandle">需要使用有效的坐标区句柄作为输入。</entry>
+    <entry key="SubplotIndexOutOfRange">索引必须为 mnp 格式的 3 位数。</entry>
+    <entry key="SubplotIndexTooLarge">索引超出子图数目。</entry>
+    <entry key="InvalidPositionParameter">位置的格式必须为 [left bottom width height]。</entry>
+    <entry key="UnknownOption">未知的命令选项。</entry>
+    <entry key="SubplotIndexTooSmall">绘图编号非法。</entry>
+    <entry key="TooManyOutputs">调用函数时使用的输出参数过多。</entry>
+    <entry key="InvalidParent">对象不能包含坐标区。</entry>
+    <entry key="UnsupportedSyntaxWithChart">不支持通过 {0} 的句柄来调用子图。</entry>
+    <entry key="InvalidSyntax">语法无效。</entry>
+    <entry key="InvalidNVPair">subplot 不支持设置 {0}。以后的版本中将不再支持此语法。</entry>
+    <entry key="InvalidPositionSyntax">指定 Position 之后，subplot 将忽略网格位置参数。以后的版本中将不再支持此语法。</entry>
+    <entry key="AutoResizeChildren">不支持将子图添加到 "AutoResizeChildren" 属性设置为 "on" 的容器。</entry>
+  </message>
+</rsccat>

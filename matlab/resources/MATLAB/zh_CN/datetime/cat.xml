@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidConcatenation">所有输入都必须为日期时间，或者为日期/时间字符向量或日期/时间字符串。</entry>
+    <entry key="IncompatibleTZ">无法将具有时区的日期时间数组与没有时区的日期时间数组进行串联。</entry>
+    <entry key="NonNumericDim">维度参数必须为数值。</entry>
+  </message>
+</rsccat>

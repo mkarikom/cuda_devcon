@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidNumberOfInputs">Must have one or three input data arguments.</entry>
+    <entry key="NonMatrixColorInput">Color data input must be a matrix.</entry>
+    <entry key="InputSizeMismatch">Matrix dimensions must agree.</entry>
+    <entry key="NonRealInputs">Data inputs must be real.</entry>
+  </message>
+</rsccat>

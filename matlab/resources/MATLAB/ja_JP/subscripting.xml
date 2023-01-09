@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="classHasNoPropertyOrMethod">クラス {0} には ''{1}'' という名前の Constant プロパティも静的メソッドもありません。</entry>
+    <entry key="tooManyResults">オーバーロードされない添字は、1 つの結果のみを生成できます。</entry>
+    <entry key="undefinedClass">クラス "{0}" は定義されていません。\nJava が起動していないことが考えられます。</entry>
+    <entry key="noSubscriptsSpecified">クラス "{0}" の値は添字の指定なしでインデックス付けされました。現在はこの操作を行うと値自体にインデックス付けされますが、将来のリリースではエラーになります。</entry>
+  </message>
+</rsccat>

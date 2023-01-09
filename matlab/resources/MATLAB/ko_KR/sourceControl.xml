@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="cmoptserror"> cmopts는 제거되었습니다. MathWorks 내장 소스 컨트롤 연동을 대신 사용하십시오.</entry>
+    <entry key="customverctrlerror"> customverctrl은 제거되었습니다. MathWorks 내장 소스 컨트롤 연동을 대신 사용하십시오.</entry>
+    <entry key="checkinerror"> checkin은 제거되었습니다. MathWorks 내장 소스 컨트롤 연동을 대신 사용하십시오.</entry>
+    <entry key="checkouterror"> checkout은 제거되었습니다. MathWorks 내장 소스 컨트롤 연동을 대신 사용하십시오.</entry>
+    <entry key="undocheckouterror"> undocheckout은 제거되었습니다. MathWorks 내장 소스 컨트롤 연동을 대신 사용하십시오.</entry>
+    <entry key="VerctrlDeprecationWindows">verctrl은 제거되었습니다. MathWorks 내장 소스 컨트롤 연동 또는 &lt;a href="matlab:matlab.addons.supportpackage.internal.explorer.showSupportPackages('SL_MS_SCCI','Verctrl2_L_MS_SCCI')"&gt;Microsoft 소스 코드 컨트롤 인터페이스(MSSCCI)&lt;/a&gt; 애드온을 대신 사용하십시오.</entry>
+  </message>
+</rsccat>

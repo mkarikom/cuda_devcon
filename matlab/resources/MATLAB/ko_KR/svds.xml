@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadCondition">입력 행렬의 조건이 나쁩니다. Inf 또는 NaN이 포함되었을 수 있습니다.</entry>
+    <entry key="BothU0andV0">options 구조체에 u0 필드와 v0 필드 중 하나만 지정하십시오.</entry>
+    <entry key="FhandleNoLargest">함수 핸들은 모드 ''largest''에서만 사용할 수 있습니다.</entry>
+    <entry key="InvalidA">첫 번째 입력값은 double형 행렬이나 함수 핸들이어야 합니다.</entry>
+    <entry key="InvalidFhandleOutput">플래그 ''{0}''을(를) 가진 함수 핸들의 예기치 않은 출력값입니다. 예상 출력값은 길이가 {1}인 double형의 열 벡터입니다.</entry>
+    <entry key="InvalidK">계산할 특이값 개수는 양의 정수여야 합니다.</entry>
+    <entry key="InvalidMaxit">options 구조체의 maxit 필드는 양의 정수여야 합니다.</entry>
+    <entry key="InvalidMN">함수 핸들을 사용하는 경우, 두 번째 입력값은 행렬 크기를 나타내는 정수로 구성된 1×2 벡터여야 합니다.</entry>
+    <entry key="InvalidP">options 구조체의 p 필드는 음이 아닌 정수여야 합니다.</entry>
+    <entry key="InvalidSigma">스칼라 변위 SIGMA는 ''largest'', ''smallest'', "smallestnz'', double형의 유한한 실수 중 하나일 수 있습니다.</entry>
+    <entry key="InvalidTol">options 구조체의 tol 필드는 음이 아닌 실수여야 합니다.</entry>
+    <entry key="InvalidStartingVector">유효하지 않은 시작 벡터입니다. </entry>
+    <entry key="InvalidU0">options 구조체의 u0 필드는 입력 행렬의 행 개수와 같은 길이의 열 벡터여야 합니다.</entry>
+    <entry key="InvalidV0">options 구조체의 v0 필드는 입력 행렬의 열 개수와 같은 길이의 열 벡터여야 합니다.</entry>
+    <entry key="InvalidDisp">options 구조체의 disp 필드는 0 또는 1이어야 합니다.</entry>
+    <entry key="PlessK">options 구조체의 p 필드는 K + 2보다 크거나 같아야 합니다. 여기서 K는 특이값의 개수입니다.</entry>
+    <entry key="ParseFlags">파라미터 이름은 ''Tolerance'', ''MaxIterations'', ''SubspaceDimension'', ''LeftStartVector'', ''RightStartVector'', ''Display'' 또는 ''FailureTreatment''여야 합니다.</entry>
+    <entry key="KeyWithoutValue">입력 인수의 개수가 올바르지 않습니다. 각 파라미터 이름 다음에는 대응값이 와야 합니다.</entry>
+    <entry key="BothU0andV0NameValue">''LeftStartVector'' 파라미터 또는 ''RightStartVector'' 파라미터 중 하나만 지정하십시오.</entry>
+    <entry key="InvalidMaxitNameValue">''MaxIterations'' 값은 양의 정수여야 합니다.</entry>
+    <entry key="InvalidPNameValue">''SubspaceDimension'' 값은 음이 아닌 정수여야 합니다.</entry>
+    <entry key="InvalidTolNameValue">''Tolerance'' 값은 음이 아닌 실수여야 합니다.</entry>
+    <entry key="InvalidU0NameValue">''LeftStartVector'' 값은 입력 행렬의 행 개수와 같은 길이의 숫자형 벡터여야 합니다.</entry>
+    <entry key="InvalidV0NameValue">''RightStartVector'' 값은 입력 행렬의 열 개수와 같은 길이의 숫자형 벡터여야 합니다.</entry>
+    <entry key="InvalidDispNameValue">''Display'' 값은 0 또는 1이어야 합니다.</entry>
+    <entry key="PlessKNameValue">''SubspaceDimension'' 값은 K + 2보다 크거나 같아야 합니다. 여기서 K는 특이값의 개수입니다.</entry>
+    <entry key="InvalidFailureTreatment">options 구조체의 fail 필드는 ''replacenan'', ''keep'' 또는 ''drop''이어야 합니다.</entry>
+    <entry key="InvalidFailureTreatmentNameValue">''FailureTreatment'' 값은 ''replacenan'', ''keep'' 또는 ''drop''이어야 합니다.</entry>
+    <entry key="NoFailNumSigma">숫자형 스칼라 변위인 경우 options 구조체의 fail 필드 값은 ''drop''이어야 합니다.</entry>
+    <entry key="NoFailNumSigmaNameValue">숫자형 스칼라 변위인 경우 ''FailureTreatment'' 값은 ''drop''이어야 합니다.</entry>
+    <entry key="PartialConvergence">요청된 특이값 {1,number,integer}개 중 {0,number,integer}개만 수렴되었습니다. 수렴되지 않은 특이값은 NaN입니다.</entry>
+    <entry key="PartialConvKeep">요청된 특이값 {1,number,integer}개 중 {0,number,integer}개만 수렴되었습니다. 수렴되지 않은 값을 확인하려면 수렴 플래그 출력값을 지정하십시오.</entry>
+    <entry key="PartialConvDrop">요청된 특이값 {1,number,integer}개 중 {0,number,integer}개만 수렴되었습니다. 수렴되지 않은 특이값은 제거됩니다.</entry>
+    <entry key="SigmaZero">결과값이 부정확할 수 있습니다. 0에 가장 가까운 특이값을 계산하려면 옵션 ''smallest''를 대신 사용하십시오.</entry>
+    <entry key="BadResidual">큰 잔차 노름(Norm)이 발견되었습니다. 입력 행렬의 조건이 나쁘기 때문일 수 있습니다(조건수 {0}).</entry>
+    <entry key="MultNotCorrectLargest">반환된 특이값은 가장 큰 특이값이 아닐 수 있습니다. ''MaxIterations'' 값을 늘리십시오.</entry>
+    <entry key="MultNotCorrectSmallest">반환된 특이값은 가장 작은 특이값이 아닐 수 있습니다. ''MaxIterations'' 값을 늘리십시오.</entry>
+    <entry key="SigmaTooSmall">{0}개의 특이값만 발견되었습니다. 스칼라 변위 SIGMA를 늘려 보십시오.</entry>
+    <entry key="InvalidArg3">세 번째 인수는 실수형 스칼라이거나 문자 ''L''이어야 합니다.</entry>
+    <entry key="Arg4NotOptionsStruct">옵션은 구조체형이어야 합니다.</entry>
+    <entry key="Title">특이값 분해 A*v = sigma*u, A'*u = sigma*v</entry>
+    <entry key="KandSigmaLargest">{1}×{2} 행렬 A의 가장 큰 특이값 {0}개를 계산합니다.</entry>
+    <entry key="KandSigmaSmallest">{1}×{2} 행렬 A의 가장 작은 특이값 {0}개를 계산합니다.</entry>
+    <entry key="KandSigmaSmallestNz">{1}×{2} 행렬 A의 0이 아닌 가장 작은 특이값 {0}개를 계산합니다.</entry>
+    <entry key="KandSigmaNum">{1}×{2} 행렬 A의 {3}에 가장 가까운 특이값 {0}개를 계산합니다.</entry>
+    <entry key="ListParam">파라미터:\n 최대 반복 횟수: {0}\n 허용오차: {1}\n 부분공간 차원: {2}</entry>
+    <entry key="SVDFallbackLargest">부분공간 차원이 최소 행렬 크기와 같기 때문에 SVD를 호출하여 SVDS를 계산하십시오.</entry>
+    <entry key="SVDFallbackSmallest">부분공간 차원이 행렬 R의 크기보다 크거나 같기 때문에 SVD를 호출하여 SVDS를 계산하십시오.</entry>
+    <entry key="EquationLargest">A*v = sigma*u, A'*u = sigma * v에 대한 가장 큰 특이값을 구하십시오.</entry>
+    <entry key="EquationSmallest">A = Q*R*P인 R\\v = sigma*u, R'\\u = sigma * v에 대한 가장 큰 특이값을 구하십시오.\nA의 QR 분해를 계산하십시오.</entry>
+    <entry key="EquationSmallestTransp">A' = Q*R*P인 R\\v = sigma*u, R'\\u = sigma * v에 대한 가장 큰 특이값을 구하십시오.\nA'의 QR 분해를 계산하십시오.</entry>
+    <entry key="EquationNumeric">행렬 [0 A; A' 0]*x = lambda*x의 {0}에 가장 가까운 고유값을 구하십시오. EIGS를 호출하여 고유값을 계산하십시오.</entry>
+    <entry key="RankSmallestAllZero">행렬 A는 랭크가 {0}이므로 요청된 {1}개의 특이값이 모두 0입니다.</entry>
+    <entry key="RankSmallestSomeZero">행렬 A는 랭크가 {0}이므로 요청된 {2}개의 특이값 중 {1}개가 0입니다.</entry>
+    <entry key="RankSmallestNzTooFew">행렬 A는 랭크가 {0}이므로, 요청된 0이 아닌 특이값 {2}개 대신 {1}개만 반환될 수 있습니다.</entry>
+    <entry key="ResidualCheck">조건이 나쁜 것으로 보입니다. QR 분해에서 행렬 R 대신 A를 사용하여 잔차를 확인하십시오. 최대 상대 잔차: {0}</entry>
+    <entry key="StartLanczosBD">란초스(Lanczos) 이중대각화 방법 시작</entry>
+    <entry key="LanczosBDIter">반복 {0}: 특이값 {2}개 중 {1}개가 수렴되었습니다. 수렴되지 않은 가장 작은 잔차 {3}(허용오차 {4}).</entry>
+    <entry key="LanczosBDLastIter">반복 {0}: 특이값 {2}개 중 {1}개가 수렴되었습니다.</entry>
+    <entry key="CheckMult">특이값 중복도가 누락되었는지 확인하려면 란초스 방법을 다시 시작하여 k+1 특이값을 찾아보십시오.</entry>
+    <entry key="MultCheckSuccess">다중 특이값이 추가로 발견되지 않았습니다. 성공적으로 반환되었습니다.</entry>
+    <entry key="MultCheckRepeat">일부 다중 특이값이 추가로 발견되었습니다. 특이값이 더 있는지 확인하려면 다시 재시작하십시오.</entry>
+    <entry key="SingValsFromEigVals">특이값 후보 {0}개가 발견됨: {1}개는 양수이고 {2}개는 0에 근사한 값입니다.</entry>
+    <entry key="ResidualDecisionAccept">특이값 후보의 잔차 확인: 모두 수용되었습니다.</entry>
+    <entry key="ResidualDecision">특이값 후보의 잔차 확인: {0}이(가) 정확하지 않음({1}보다 크거나 같음).</entry>
+  </message>
+</rsccat>

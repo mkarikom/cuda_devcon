@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="product_installer" string_type_for_hole="mixed">
+  <message>
+    <entry key="agreeToLicenseErrorMsg">To install with an input file, set agreeToLicense=yes and uncomment the line to accept the license agreement.</entry>
+    <entry key="fikNotProvidedErrorMsg">File Installation Key not detected. Generate a key in License Center on mathworks.com and uncomment the line.</entry>
+    <entry key="fikInvalidMsg">Not a valid key. For more information on how to get a valid key see this &lt;a HREF="https://www.mathworks.com/pi_infik_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;.</entry>
+    <entry key="invalidLicenseMsg">The license file selected appears to be invalid </entry>
+    <entry key="invalidEntitlementMsg">The entitlement selected appears to be invalid </entry>
+    <entry key="notALicenseFileMsg">This is not a license file</entry>
+    <entry key="cannotReadLicenseFileMsg">Unable to read license file</entry>
+    <entry key="missingHostIDTitle">Hostid Missing</entry>
+    <entry key="HostIDMismatchTitle">Hostids Do Not Match</entry>
+    <entry key="missingHostIDMsg">A hostid could not be found in your license file.  After installation, you will have to manually edit the SERVER line in your license file. (located at {0})</entry>
+    <entry key="HostIDMismatchMsg">The hostid in the license file must be for this computer. Obtain a new license file generated for the hostid of this computer ({0}) from your license administrator or from MathWorks License Center.</entry>
+    <entry key="invalidActivationKey">Invalid Activation Key for your license</entry>
+    <entry key="standardErrorTitle">Error</entry>
+    <entry key="folderNonEnglishCharacter">Folder names cannot contain non-English characters.</entry>
+    <entry key="folderInvalidCharacterWin">Folder names cannot contain {0} and the destination cannot be named "private".</entry>
+    <entry key="folderInvalidCharacterLinuxMac">Folder names can only contain alphanumeric characters and {0}. The destination cannot be named "private".</entry>
+    <entry key="folderWritePermission">Unable to write to the selected folder.</entry>
+    <entry key="folderCreationFailed">Failed to create the specified folder. To continue, select a different folder.</entry>
+    <entry key="folderNotAbsolutePath">Specify the full path to the destination folder.</entry>
+    <entry key="folderNotADirectory">The folder is not a directory.</entry>
+    <entry key="folderContainsUsersDefaultAppData">Unable to install into the user profile folder. To continue, select a different folder.</entry>
+    <entry key="folderIsInstallerRoot">Unable to install into the same folder as the installer. To continue, select a different folder.</entry>
+    <entry key="rootDriveWarningMsg">You have selected {0} &lt;br&gt;&lt;br&gt;We recommend installing in: {1}</entry>
+    <entry key="rootDriveWarningTitle">Warning</entry>
+    <entry key="controllingProductConflictMsg">The selected folder has {1} installed. {0} must be installed in a separate folder.</entry>
+    <entry key="hasUnsuccessfulInstallationMsg">Unable to install in the specified folder. Delete existing files or install in a different folder.</entry>
+    <entry key="overwriteErrorTitle">Overwrite Error</entry>
+    <entry key="overwriteErrorMsg">Unable to install in the specified folder. To continue, select an empty folder.</entry>
+    <entry key="selectedProductNotAvailable">Installation files for the following products are not available: {0}. Comment out these products in the input file and restart the installation. If you need to install these missing products, download them first using the "Download Only" option in the MathWorks Product Installer user interface.</entry>
+    <entry key="selectedProductNotEntitled">The specified File Installation Key does not allow access to the following products: {0}. Comment out these products from the input file and restart the installation.</entry>
+    <entry key="missingControllingProductsMsg">The following products are required to proceed: &lt;br&gt; {0} &lt;br&gt;Click &lt;b&gt;Add&lt;/b&gt; to include these
+    products in your installation.&lt;br&gt;Alternatively, you can select a folder with the required products. Click &lt;b&gt;Cancel&lt;/b&gt; and go to &lt;b&gt;Destination&lt;/b&gt;.&lt;br&gt;</entry>
+    <entry key="missingDependentProductsMsg">Some selected products depend on: &lt;br&gt; {0} &lt;br&gt;Click &lt;b&gt;Add&lt;/b&gt; to include these in your installation.
+    &lt;br&gt;Click &lt;b&gt;Don't add&lt;/b&gt; to continue without these products.&lt;br&gt;</entry>
+    <entry key="productSelectionSpaceWarningMsg">Insufficient disk space. &lt;br&gt;&lt;br&gt;Location: {0} &lt;br&gt;&lt;br&gt;Required space: {1} &lt;br&gt;&lt;br&gt;Increase disk space, select fewer products, or choose another destination.</entry>
+    <entry key="productSelectionSpaceWarningTitle">Warning</entry>
+    <entry key="missingFileTitle">File Not Found Error</entry>
+    <entry key="missingFileMessage">Unable to find:&lt;br&gt;{0}&lt;br&gt;&lt;br&gt;Learn more:&lt;a HREF="https://www.mathworks.com/pi_siae_mpi_{1}_{2}"&gt;MATLAB Answer&lt;/a&gt;&lt;br&gt;For help:&lt;a HREF="https://www.mathworks.com/pi_gene_mpi_{1}_{2}" target="_blank"&gt;MathWorks Support&lt;/a&gt;.</entry>
+    <entry key="missingInstallationFilesTitle">Missing Installation Files</entry>
+    <entry key="missingInstallationFilesMsg">Unable to load product files. Product files must be in the same folder as the
+    input file. For help getting the product files, see the installation documentation on &lt;a HREF="https://www.mathworks.com/pi_noprode_mpi_{0}_{1}"&gt;MATLAB
+    Answer&lt;/a&gt;.</entry>
+    <entry key="DownloadErrorTitle">Download Error</entry>
+    <entry key="DownloadErrorMsg">There was an error downloading product files.&lt;br&gt;Check your internet connection and then rerun the Installer.&lt;br&gt;&lt;br&gt;For help, see this &lt;a HREF="https://www.mathworks.com/pi_siae_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;&lt;br&gt;.</entry>
+    <entry key="ExtractErrorTitle">Extract Error</entry>
+    <entry key="ExtractErrorMsg">There was an error while extracting product files.&lt;br&gt;Try rerunning the Installer.&lt;br&gt;&lt;br&gt;For help, see this &lt;a HREF="https://www.mathworks.com/pi_siae_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;&lt;br&gt;.</entry>
+    <entry key="progressErrorMsg">Something unexpected occurred.&lt;br&gt;Try rerunning the Installer.&lt;br&gt;&lt;br&gt;For help, see this &lt;a HREF="https://www.mathworks.com/pi_siae_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;&lt;br&gt;.</entry>
+    <entry key="confirmationTitle">Confirm Selections</entry>
+    <entry key="destinationFolderTitle" note="Install or download folder based on workflow">Destination</entry>
+    <entry key="productsTitle">Products</entry>
+    <entry key="numberOfProductsSelectedMsg">{0} of {1} products</entry>
+    <entry key="platformsTitle">Platforms</entry>
+    <entry key="systemFailureErrorTitle">Something Unexpected Occurred</entry>
+    <entry key="systemFailureErrorMsg">To resolve this issue, contact &lt;a HREF="https://www.mathworks.com/pi_gene_mpi_{0}_{1}" target="_blank"&gt;Customer Support&lt;/a&gt;.</entry>
+    <entry key="authenticationHeader">Authentication option: </entry>
+    <entry key="activateNow">Authorize this computer now</entry>
+    <entry key="activateLater">Authenticate (sign in) each time the software starts</entry>
+    <entry key="winSystemUsername">Windows User Name: </entry>
+    <entry key="systemUsername">Login Name: </entry>
+    <entry key="requiredSizeMsg">{0} required</entry>
+    <entry key="connectionErrorTitle">Connection Error</entry>
+    <entry key="connectionErrorMsg">Unable to connect to MathWorks.&lt;br&gt;For more information on resolving this issue, see this &lt;a HREF="http://www.mathworks.com/pi_ce_pi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;.</entry>
+    <entry key="noProductsAlertTitle">Download Error</entry>
+    <entry key="noProductsAlertMsg">Unable to connect to MathWorks. For help, see this &lt;a HREF="https://www.mathworks.com/pi_dwsconn_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;.</entry>
+    <entry key="productExecutableRunningErrorMsg">There is a session of MATLAB running on this machine. To proceed you must close all running MATLAB sessions.</entry>
+    <entry key="ProxyError">Invalid user name or password</entry>
+    <entry key="privacyPolicyURL">&lt;a HREF="http://www.mathworks.com/pi_uo_pi_{0}_{1}" target="_blank"&gt;Learn More&lt;/a&gt;</entry>
+    <entry key="reinstallWarningTitle">Products Already Installed</entry>
+    <entry key="reinstallWarningMsg">All selected products are already installed.&lt;br&gt;&lt;br&gt;To reinstall products, see this &lt;a HREF="https://www.mathworks.com/pi_reinst_mpi_{0}_{1}"&gt;MATLAB Answer.&lt;/a&gt;.</entry>
+    <entry key="ServiceErrorTitle">Service Error</entry>
+    <entry key="excessEntitlementsWarningMsg">Error {0}: {1}.</entry>
+    <entry key="installTitle">Installed</entry>
+    <entry key="downloadTitle">Downloaded</entry>
+    <entry key="downloadInstallerTitle">Downloading Installer</entry>
+    <entry key="progressMessage">{0} of {1}</entry>
+    <entry key="downloadCompletedMessage">Download complete</entry>
+    <entry key="downloadInstallerMessage">Preparing and extracting files...</entry>
+    <entry key="installerExtractionInstruction">For instructions on how to extract installers for non-Windows platforms, see this &lt;a HREF="https://www.mathworks.com/pi_dwe_pi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;.&lt;br&gt;</entry>
+    <entry key="installCompletedMessage">Performing post-installation tasks. This may take a few minutes...</entry>
+    <entry key="LMServiceExistsMessage">{0} already exists, but is installed in a different location.&lt;br&gt;You must remove the service before installing the new one.</entry>
+    <entry key="setupLicenseManagerServiceWin">The network license manager has been installed as a service on your computer. This service has not been started yet. Before running {0}, you must manually start the license manager by using lmtools.exe (found in the etc\\win64 folder of this installation). See &lt;a HREF="http://www.mathworks.com/pi_snlm_nlm_{1}_{2}"&gt;Start the Network License Manager&lt;/a&gt;.&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupLicenseManagerFilesWin">The network license manager has been installed in the etc\\win64 folder of this installation, but has not been configured as a service on your computer. Before running {0}, you must configure the license manager to start up as a service automatically on machine startup. See &lt;a HREF="http://www.mathworks.com/pi_cnlm_nlm_{1}_{2}"&gt;Configure License Manager as Service&lt;/a&gt;.&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupLicenseManagerLinux">The network license manager has been installed, but has not been started. Before running {0}, you must start the license manager manually. See &lt;a HREF="http://www.mathworks.com/pi_snlm_nlm_{1}_{2}"&gt;Start the Network License Manager&lt;/a&gt;. To configure the license manager to start automatically, see instructions in the same section.&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupLicenseManagerMac">The network license manager has been installed, but has not been started. Before running {0}, you must start the license manager manually. See &lt;a HREF="http://www.mathworks.com/pi_snlm_nlm_{1}_{2}"&gt;Start the Network License Manager&lt;/a&gt;. To configure the license manager to start automatically, see instructions in the same section.&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="installerDownloadFailedTitle">Download Error</entry>
+    <entry key="installerDownloadFailedMessage">An error occurred while downloading the installer.&lt;br&gt;&lt;br&gt;For help see this &lt;a HREF="https://www.mathworks.com/pi_dwe_pi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt; or contact &lt;a HREF="https://www.mathworks.com/pi_gene_mpi_{0}_{1}" target="_blank"&gt;MathWorks Support&lt;/a&gt;.</entry>
+    <entry key="missingInstallationFilesInteractiveMsg">Unable to load requested product files.&lt;br&gt;For help, see this &lt;a HREF="https://www.mathworks.com/pi_noprode_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;.</entry>
+    <entry key="productDependenciesTitle">Product Dependencies</entry>
+    <entry key="missingControllingProductNotInstallableMsg">To proceed, you must select a destination with the following products installed: &lt;br&gt; &lt;br&gt; {0} &lt;br&gt;</entry>
+    <entry key="missingDependentProductNotInstallableMsg">Click &lt;b&gt;Cancel&lt;/b&gt; and then select a destination that has the following products installed: &lt;br&gt; &lt;br&gt; {0} &lt;br&gt;Click &lt;b&gt;Continue&lt;/b&gt; to install without these dependencies.</entry>
+  </message>
+</rsccat>

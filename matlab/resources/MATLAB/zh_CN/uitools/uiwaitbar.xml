@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidumberOfArguments">必须为 ''update'' 提供值。</entry>
+    <entry key="InvalidValueRange">值必须介于 0 与 100 之间。</entry>
+    <entry key="InvalidPositionVector">位置向量不受支持。值必须为 [1x4] 向量。</entry>
+    <entry key="InvalidColorVector">颜色向量不受支持。值必须为 [1x3] 向量。</entry>
+  </message>
+</rsccat>

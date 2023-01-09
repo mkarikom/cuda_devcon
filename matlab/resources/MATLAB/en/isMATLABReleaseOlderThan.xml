@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- When an error message is given within validators, it is prefixed with
+         Invalid argument at position X. -->
+    <entry key="invalidReleaseInput">Value must be a string scalar or character vector indicating the release name, for example, "R2020b".</entry>
+  </message>
+</rsccat>

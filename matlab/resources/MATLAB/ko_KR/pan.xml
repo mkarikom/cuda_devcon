@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FigureUnknown">알 수 없는 Figure입니다.</entry>
+    <entry key="unrecognizedinput">알 수 없는 동작 문자형 벡터입니다.</entry>
+    <entry key="InvalidInputAxes">입력값은 axes 핸들이어야 합니다.</entry>
+    <entry key="InvalidInputZeroOne">입력값은 0 또는 1이어야 합니다.</entry>
+    <entry key="InvalidInputForOutArg">이러한 입력 인수와 함께 출력 인수를 지정하지 마십시오.</entry>
+  </message>
+</rsccat>

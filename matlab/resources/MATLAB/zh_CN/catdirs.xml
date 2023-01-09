@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNotString">所有参数都必须为字符向量。</entry>
+    <entry key="AddLeadingTrailingWhitespace">MATLAB 路径中的文件夹不能具有前导或尾部空白。将添加 ''{0}'' 而不是 ''{1}''。</entry>
+    <entry key="RemoveLeadingTrailingWhitespace">MATLAB 路径中的文件夹不能具有前导或尾部空白。将删除 ''{0}'' 而不是 ''{1}''。</entry>
+  </message>
+</rsccat>

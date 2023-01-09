@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ItemNoLongerOnPath">在当前文件夹或 MATLAB 路径中未找到 ''{0}''，但它位于:\n {1}\n\n{2} 或 {3}。</entry>
+    <entry key="ItemNoLongerOnPathOnlyCD">''{0}'' is not found in the current folder or on the MATLAB path, but exists in:\n    {1}\n\n{2}.</entry>
+    <entry key="ItemNoLongerOnPathChangeCurrentFolder">更改 MATLAB 当前文件夹</entry>
+    <entry key="ItemNoLongerOnPathAddToPath">将其文件夹添加到 MATLAB 路径</entry>
+    <entry key="OutOfFileHandles">打开的文件太多。请关闭文件以防止 MATLAB 出现不稳定的情况。</entry>
+    <entry key="ShadowedFunction">''{0}'' 似乎同时为函数和变量。如果这不是预期的情况，请使用 ''{1}'' 将变量 ''{0}'' 从工作区中删除。</entry>
+    <entry key="TimeoutValueNotValid">超时值应为正标量数值。</entry>
+    <entry key="UnlicensedFunctionInMultipleProducts">''{0}'' 需要以下项之一: {1}</entry>
+    <entry key="UnlicensedFunctionInSingleProduct">''{0}'' 需要 {1}。</entry>
+    <entry key="UnsupportedOperator">''{1}'' 类型的操作数不支持运算符 ''{0}''。</entry>
+    <entry key="UnsupportedUnaryOperator">''{1}'' 类型的操作数不支持一元运算符 ''{0}''。</entry>
+    <entry key="ValidArgumentTypeMissing">检查对函数 ''{0}'' 的调用中是否存在不正确的参数数据类型或缺少参数。</entry>
+    <entry key="VariableNoLongerInWorkspace">''{0}'' 不再位于 MATLAB 工作区中，但它之前存在:\n\n{1} 或 {2}。</entry>
+    <entry key="VariableNoLongerInWorkspaceRecreate">请重新创建 {0}</entry>
+    <entry key="VariableNoLongerInWorkspaceCreateScript">为 {0} 创建脚本</entry>
+    <entry key="NoLongerSupported">{0}</entry>
+    <entry key="ShadowedFunctionClear">clear {0}</entry>
+    <entry key="ShadowedFunctionBuiltinClear">builtin clear clear</entry>
+  </message>
+</rsccat>

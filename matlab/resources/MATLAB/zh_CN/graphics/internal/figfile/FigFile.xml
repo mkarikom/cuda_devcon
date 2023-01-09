@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFigFormat">FigFormat 属性必须为值 -1、2 或 3 之一。</entry>
+    <entry key="InvalidMatVersion">MatVersion 属性必须为空、''-v6''、''-v7'' 或 ''-v7.3''。</entry>
+    <entry key="InvalidRequiredMatlabVersion">RequiredMatlabVersion 属性必须为至少拥有 5 位数字的整数标量。</entry>
+    <entry key="InvalidFormat2Data">Format2Data 属性必须包含具有字段 ''type''、''handle''、''properties''、''children'' 和 ''special'' 的结构体。</entry>
+    <entry key="InvalidFormat3Data">Format3Data 属性必须包含图窗句柄的行向量。</entry>
+    <entry key="EmptyFilename">文件名必须为非空的字符串标量或字符向量。</entry>
+    <entry key="UnsetRequiredMatlabVersion">RequiredMatlabVersion 属性必须设置为大于零的值才能写入数据。</entry>
+    <entry key="UnsetFigFormat">FigFormat 属性必须为值 2 或 3 之一才能写入数据。</entry>
+  </message>
+</rsccat>

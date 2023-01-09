@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="EmptyTri">The triangulation is empty.</entry>
+    <entry key="NonPlanarTri">The triangulation must be composed of triangles.</entry>
+    <entry key="InputSizeMismatch">X and Y must be the same size.</entry>
+    <entry key="HigherDimArray">X,Y cannot be arrays of dimension greater than two.</entry>
+    <entry key="DeprecatedOptions">VORONOI no longer requires Qhull-specific options.\nPlease remove these options when calling VORONOI.</entry>
+  </message>
+</rsccat>

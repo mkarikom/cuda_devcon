@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonScalarSecondInput">関数 ''{0}'' への 2 番目の入力はスカラーでなければなりません。</entry>
+    <entry key="nonRealInput">関数 ''{0}'' への入力は実数でなければなりません。</entry>
+    <entry key="nonNumericOrLogicalInput">関数 ''{0}'' への入力は数値または logical でなければなりません。</entry>
+    <entry key="ConflictingBoundaryOptions">''{0}'' オプションと ''{1}'' オプションの組み合わせはサポートされていません。</entry>
+    <entry key="invalidLowerBound">関数 ''{0}'' への 2 番目の入力は、実数スカラー値または logical スカラー値でなければなりません。</entry>
+    <entry key="invalidUpperBound">関数 ''{0}'' への 3 番目の入力は、実数スカラー値または logical スカラー値でなければなりません。</entry>
+    <entry key="invalidVectorSecondInput">関数 ''{0}'' への 2 番目の入力は、非負の整数スカラー値でなければなりません。</entry>
+    <entry key="notTextOrTrivialTextSecondInput">関数 ''{0}'' への 2 番目の入力は、1 文字以上のテキストでなければなりません。</entry>
+    <entry key="nonTextSecondInput">関数 ''{0}'' への 2 番目の入力は、string 配列、文字ベクトル、文字ベクトルの cell 配列のいずれかでなければなりません。</entry>
+    <entry key="nonTextScalarSecondInput">関数 ''{0}'' への 2 番目の入力は、string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="invalidSecondInput">関数 ''{0}'' への 2 番目の入力は ''{1}'' でなければなりません。</entry>
+    <entry key="invalidClassNamesInSecondInput">関数 ''{0}'' への 2 番目の入力は、クラス名を表す string 配列、文字ベクトル、文字ベクトルの cell 配列のいずれかでなければなりません</entry>
+    <entry key="nonValidationError">{0}</entry>
+  </message>
+</rsccat>

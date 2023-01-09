@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- Copyright 2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>  
+    <entry key="PropertyValuePairsExpected">Name-value pairs expected.</entry>
+    <entry key="DuplicateActionID">Duplicate Action ID: ''{0}''.</entry>
+    <entry key="IncorrectActionID">''{0}'' :Not a valid Action ID.</entry>
+    <entry key="InvalidAction">Not a valid Action instance.</entry>
+    <entry key="PropertiesAsStruct">Properties expected as Struct.</entry>
+    <entry key="AddActionClientMode">Actions cannot be added in ''ActAsClient'' mode.</entry>
+    <entry key="RemoveActionClientMode">Actions cannot be removed in ''ActAsClient'' mode.</entry>
+    <entry key="ActionIDUpdate">Action ''ID'' cannot be updated.</entry>
+    <entry key="NoActionID">Action specified without an ID.</entry>
+    <entry key="InvalidActionForID">No Action exists for given ID ''{0}''.</entry>
+    <entry key="InsufficientArguments">Insufficient number of arguments.</entry>
+    <entry key="RequiredParamsUnspecified">Required Parameters docID or Channel unspecified</entry>
+    
+    <!-- Datetime custom format help -->
+    <entry key="DatetimeFormatHelp">&lt;a href="matlab:doc(&amp;quot;datetime.Format&amp;quot;)"&gt;Format Help&lt;/a&gt;</entry>
+  </message>
+</rsccat>

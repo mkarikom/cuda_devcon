@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SolNotFromDiffEqSolver">{0} は微分方程式のソルバーで返される構造体でなければなりません。</entry>
+    <entry key="IDXInvalidSolComp">{0} で不正な解の要素が要求されました。</entry>
+    <entry key="InvalidSolver">ソルバー名 ''{0}'' ({1}.solver) が認識されません。</entry>
+    <entry key="MissingSolverField">構造体 {0} の ''solver'' が見つかりません。\n         DEVAL は、BVP4C の MATLAB R12 のバージョンの出力として {1} を処理します。</entry>
+    <entry key="NoSolverInStruct">構造体 {0} の ''solver'' が見つかりません。</entry>
+    <entry key="SolOutsideInterval">解が定義されている [{0}, {1}] の区間の外部で評価しようとしています。\n</entry>
+    <entry key="NonuniqueSolution">インターフェイス XC = {0} では、解が連続していない可能性があります。\n         DEVAL は、インターフェイスの左側および右側の限界値から平均を返します。限界値を近似するには、XC-EPS(XC) または XC+EPS(XC) の DEVAL を呼び出します。\n</entry>
+  </message>
+</rsccat>

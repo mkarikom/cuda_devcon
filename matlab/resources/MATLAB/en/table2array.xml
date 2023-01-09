@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+      <entry key="NonTable">Input argument must be a table.</entry>
+      <entry key="AllCellVariables">In code generation, table2array does not support tables whose variables are all cell arrays.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+  	<!-- from builtin('_containsCharacter', ...) -->
+    <entry key="containsCharacter1stInput" translate="false" note="stringDatatypeUpdate">The 1st input must be a cell array of character vectors.</entry>
+    <entry key="containsCharacter2ndInput" translate="false">The 2nd input must be a scalar char.</entry>        
+  </message>
+</rsccat>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DialogUnableToPreviewSoundInFile">ファイル {0} 内のサウンドをプレビューできません</entry>
+    <entry key="ButtonPlayAgain">もう 1 度再生</entry>
+    <entry key="ButtonDone">完了</entry>
+    <entry key="LabelSamplesFs">{0} - {1} サンプル、Fs = {2}</entry>
+    <entry key="LabelSoundDataSamplesFs">音声データ - {0} サンプル、Fs = {1}</entry>
+    <entry key="TitleSoundViewer">音声ビューアー</entry>
+  </message>
+</rsccat>

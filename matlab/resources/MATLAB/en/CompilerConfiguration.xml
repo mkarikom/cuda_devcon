@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invalidList" note="stringDatatypeUpdate">The second input, LIST, must be a character vector of value ''Selected'', ''Installed'', or ''Supported''.</entry>
+    <entry key="NoSelectedOptionsFile">A ''Selected'' compiler was not found.  You may need to run mex -setup.</entry>
+  <!--Resource entries for toolbox/matlab/general-->
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="invalidLang" note="stringDatatypeUpdate">The first input must be a character vector with supported language, either ''C'', ''CPP'', ''C++'', ''Fortran'', or ''Any''.</entry>
+    <entry key="OldStyleStorage">The storage type used is an old style.  The following file is out of date:\n{0}</entry>
+    <entry key="storageTooNew">The storage type used is newer that the currently supported version.  The following file storage version does not match:\n{0}</entry>
+  </message>
+</rsccat>

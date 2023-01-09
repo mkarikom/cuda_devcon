@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="integerClass">유효하지 않은 데이터형입니다. 첫 번째 입력 인수는 single형 또는 double형이어야 합니다.</entry>
+    <entry key="invalidWgts">W는 음이 아닌 가중 벡터이거나 스칼라 0 또는 1이어야 합니다.</entry>
+    <entry key="invalidSizeWgts">W 길이는 X의 길이와 일치해야 합니다.</entry>
+    <entry key="unknownFlag">옵션이 유효하지 않습니다. 옵션은 ''omitnan'' 또는 ''includenan''이어야 합니다.</entry>
+    <entry key="unknownOption">옵션이 유효하지 않습니다. 옵션은 ''all'', ''omitnan'' 또는 ''includenan''이어야 합니다.</entry>
+    <entry key="vecWgtWithVecDIM">가중 벡터는 차원이 양의 정수 스칼라인 경우에만 지원됩니다.</entry>
+  </message>
+</rsccat>

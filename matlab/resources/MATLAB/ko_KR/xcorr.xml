@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInputType">유효하지 않은 데이터형입니다. 첫 번째 인수는 double형, single형, int8형, uint8형, int16형, uint16형, int32형, uint32형 또는 논리형이어야 합니다.</entry>
+    <entry key="InvalidSecondInputType">유효하지 않은 데이터형입니다. 두 번째 인수는 double형, single형, int8형, uint8형, int16형, uint16형, int32형, uint32형 또는 논리형이어야 합니다.</entry>
+    <entry key="UnknInput">스케일 옵션은 ''biased'', ''unbiased'', ''normalized'' 또는 ''none''이어야 합니다.</entry>
+    <entry key="BMustBeVector">두 번째 인수는 벡터여야 합니다.</entry>
+    <entry key="MismatchedAB">첫 번째 인수는 벡터여야 합니다.</entry>
+    <entry key="MaxLagMustBeScalar">최대 지연은 스칼라여야 합니다.</entry>
+    <entry key="MaxLagMustBeInteger">최대 지연은 정수여야 합니다.</entry>
+    <entry key="NoScale">입력 벡터의 길이가 다른 경우 스케일 옵션은 ''none''이어야 합니다.</entry>
+    <entry key="DimChangeNotSupported">코드를 생성하려면 함수 동작이 수행될 차원이 변경되어서는 안 됩니다. {0}이(가) 벡터 입력값인 경우 {0}(:) 또는 {0}(:).'를 대신 전달해 보십시오.</entry>
+  </message>
+</rsccat>

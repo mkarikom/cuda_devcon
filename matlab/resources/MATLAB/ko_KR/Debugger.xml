@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BreakpointSuppressed">파일 {0}에서 {1,number,integer}번 라인에 중단점이 발견되었으나 {2}에 의해 무시되었습니다.</entry>
+    <entry key="dbstopForNonMfunction">MATLAB 디버거는 MATLAB 코드 파일에서만 중단될 수 있는데, "{0}"은(는) MATLAB 코드 파일이 아닙니다.\n         디버거는 "{1}"을(를) 호출하기 바로 전 지점에서 중단됩니다.</entry>
+    <entry key="NoDebugModeAtCommandPrompt">디버그 모드는 실행 중인 MATLAB 코드 파일 내에서만 지원됩니다.</entry>
+    <entry key="EndFunc">함수 {0}의 끝입니다. </entry>
+    <entry key="EndScript">스크립트 {0}의 끝입니다. </entry>
+    <entry key="NanInfBreakpointHit">{0}의 {1,number,integer}번 라인에서 NaN/Inf으로 인해 중단되었습니다.</entry>
+    <entry key="InWorkspace">다음에 속한 작업 공간: {0} </entry>
+    <entry key="SkippingFrame">{0}은(는) 현재 디버그 가능한 상태가 아닙니다. 프레임을 건너뜁니다.</entry>
+    <entry key="BaseWorkspace">기본 작업 공간. </entry>
+    <entry key="InvalidDbstepPosition"> 위치 {0}은(는) 이 라인에서 이동할 수 있는 유효한 대상 위치가 아닙니다.</entry>
+    <entry key="InvalidStepLocation">Line {0,number,integer} column {1,number,integer} is not a valid position to step into on this line.</entry>
+    <entry key="ProblemSteppingIntoLocation">스텝 인하는 중 문제가 발생했습니다.</entry>
+    <entry key="LineNumber">{0,number,integer}번 라인</entry>
+    <entry key="AfterLineNumber">{0,number,integer}번 라인 다음</entry>
+    <entry key="CurrentStackFrameLocation">&gt; {0}번 라인에서</entry>
+    <entry key="StackFrameLocation">  {0}번 라인에서</entry>
+    <entry key="InvalidIntegerInput">값은 2^31 미만의 양의 정수 스칼라여야 합니다.</entry>
+    <entry key="ReadOnlyWorkspaceViolation">변수를 추가하거나 수정할 수 없습니다. 현재 작업 공간은 함수 인수 유효성 검사에 대해 읽기 전용입니다.</entry>
+  </message>
+</rsccat>

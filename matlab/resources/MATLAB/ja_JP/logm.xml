@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="inputType">入力は single 行列または double 行列でなければなりません。</entry>
+    <entry key="inputMustBeSquare">入力行列は正方行列でなければなりません。</entry>
+    <entry key="nonPosRealEig">行列の対数の主値は、非正の実数の固有値で A に対して定義されません。A の主値でない行列の対数が返されました。</entry>
+    <entry key="TooManyMatrixSquareRoots">行列の平方根の数が最大数を超えました。結果は不正確になる可能性があります。</entry>
+  </message>
+</rsccat>

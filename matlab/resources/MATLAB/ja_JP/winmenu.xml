@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedStringArg">認識されない文字ベクトル引数です: ''{0}''</entry>
+    <entry key="InvalidHandleArg">ハンドル引数は Figure、または Uimenu ハンドルでなければなりません</entry>
+    <entry key="InvalidInputArg">入力引数は Figure、または Uimenu のハンドル、あるいは ''callback'' でなければなりません</entry>
+    <entry key="WindowMenuNotFound">ウィンドウ メニューが見つかりません</entry>
+    <entry key="RequiresFigureHandle">注意:findwinmenu は Figure のハンドルが必要です</entry>
+    <entry key="UnexpectedObjType">morewindowscb の予期せぬオブジェクト タイプ: {0}</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="KeyWithoutValue">没有为 {0} 提供任何值。</entry>
+    <entry key="ParseFlags">参数名称必须为 ''Method''、''Root'' 或 ''Type''。</entry>
+    <entry key="ParseMethod">Method 值必须为 ''dense'' 或 ''sparse''。</entry>
+    <entry key="ParseRoot">Root 值必须为有效的节点 ID。 </entry>
+    <entry key="ParseType">Type 值必须为 ''tree'' 或 ''forest''。</entry>
+  </message>
+</rsccat>

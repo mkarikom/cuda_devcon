@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonNumericInput">引数は数値でなければなりません。</entry>
+    <entry key="nonRealNU">NU は実数でなければなりません。</entry>
+    <entry key="NUAndZSizeMismatch">NU と Z は、同じサイズでなければなりません。</entry>
+    <entry key="BesselhIerrRemoved">BESSELH は 2 番目の出力を返さなくなりました。代わりに H = BESSELH(NU,Z) を使用してください。</entry>
+    <entry key="BesseliIerrRemoved">BESSELI は 2 番目の出力を返さなくなりました。代わりに I = BESSELI(NU,Z) を使用してください。</entry>
+    <entry key="BesseljIerrRemoved">BESSELJ は 2 番目の出力を返さなくなりました。代わりに J = BESSELJ(NU,Z) を使用してください。</entry>
+    <entry key="BesselkIerrRemoved">BESSELK は 2 番目の出力を返さなくなりました。代わりに K = BESSELK(NU,Z) を使用してください。</entry>
+    <entry key="BesselyIerrRemoved">BESSELY は 2 番目の出力を返さなくなりました。代わりに Y = BESSELY(NU,Z) を使用してください。</entry>
+    <entry key="BesselhEmptyEdgeCase">BESSELH(NU,Z) は空配列と非スカラー入力の混在を受け入れなくなりました。</entry>
+    <entry key="BesseliEmptyEdgeCase">BESSELI(NU,Z) は空配列と非スカラー入力の混在を受け入れなくなりました。</entry>
+    <entry key="BesseljEmptyEdgeCase">BESSELJ(NU,Z) は空配列と非スカラー入力の混在を受け入れなくなりました。</entry>
+    <entry key="BesselkEmptyEdgeCase">BESSELK(NU,Z) は空配列と非スカラー入力の混在を受け入れなくなりました。</entry>
+    <entry key="BesselyEmptyEdgeCase">BESSELY(NU,Z) は空配列と非スカラー入力の混在を受け入れなくなりました。</entry>
+    <entry key="BesselhRowColumnVectorCase">BESSELH(NU,Z) は行ベクトルと列ベクトルの混在を受け入れなくなりました。代わりに BSXFUN または [NU1 Z1] = MESHGRID(NU, Z); BESSELH(NU1,Z1) を使用してください。</entry>
+    <entry key="BesseliRowColumnVectorCase">BESSELI(NU,Z) は行ベクトルと列ベクトルの混在を受け入れなくなりました。代わりに BSXFUN または [NU1 Z1] = MESHGRID(NU, Z); BESSELI(NU1,Z1) を使用してください。</entry>
+    <entry key="BesseljRowColumnVectorCase">BESSELJ(NU,Z) は行ベクトルと列ベクトルの混在を受け入れなくなりました。代わりに BSXFUN または [NU1 Z1] = MESHGRID(NU, Z); BESSELJ(NU1,Z1) を使用してください。</entry>
+    <entry key="BesselkRowColumnVectorCase">BESSELK(NU,Z) は行ベクトルと列ベクトルの混在を受け入れなくなりました。代わりに BSXFUN または [NU1 Z1] = MESHGRID(NU, Z); BESSELK(NU1,Z1) を使用してください。</entry>
+    <entry key="BesselyRowColumnVectorCase">BESSELY(NU,Z) は行ベクトルと列ベクトルの混在を受け入れなくなりました。代わりに BSXFUN または [NU1 Z1] = MESHGRID(NU, Z); BESSELY(NU1,Z1) を使用してください。</entry>
+  </message>
+</rsccat>

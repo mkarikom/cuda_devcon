@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadCurrentAxesHandle">类型为 {0} 的句柄不能作为当前坐标区。</entry>
+    <entry key="DeletedHandle">已删除的句柄不能用作当前坐标区。</entry>
+    <entry key="BadCurrentAxesInvalidChildHandle">坐标区必须是图窗的现有子级。</entry>
+    <entry key="BadCurrentPoint">CurrentPoint 值太大。</entry>
+    <entry key="CannotSetNormalizedPaperSize">不能以归一化的 PaperUnits 设置 PaperSize。\n要设置 PaperSize:\n将 PaperType 设置为不同的值，或者\n先将 PaperUnits 更改为英寸、厘米或磅，然后设置 PaperSize。</entry>
+    <entry key="ColormapIntensityRange">所有的颜色图强度都必须介于 0 与 1 之间。</entry>
+    <entry key="ColormapNumericType">颜色图必须为双精度、浮点或稀疏类型的数组。</entry>
+    <entry key="ColormapRGBDimension">颜色图必须为 RGB 颜色强度的 M×3 数组。</entry>
+    <entry key="CreatePeerWindow">为 Figure 窗口创建 Java Peer 失败。</entry>
+    <entry key="CurrentAxesChild">坐标区必须是图窗的现有子级。</entry>
+    <entry key="CurrentAxesHandle">参数必须为有效的坐标区句柄。</entry>
+    <entry key="DefaultBar">创建默认 {0} 失败。</entry>
+    <entry key="DragRect">拖动矩形应具有 4 列，而不是 {0,number,integer} 列。</entry>
+    <entry key="FigureSavedToMATFile">图窗已保存在 {0} 中。保存图形句柄变量会使创建的文件很大。要保存图形图窗，请使用 &lt;a href=\"matlab:helpview([docroot,''/techdoc/ref/savefig.html''])\"&gt;savefig&lt;/a&gt;。</entry>
+    <entry key="HandleAssignment">图窗句柄赋值失败。</entry>
+    <entry key="HandleInUse">其他对象正在使用请求的图窗句柄。</entry>
+    <entry key="Hittest">需要图窗句柄。</entry>
+    <entry key="IncorrectWindowStyle">当 MATLAB 在没有显示的情况下启动或指定了 -noFigureWindows 选项时，无法将 WindowStyle 设置为 ''docked''。</entry>
+    <entry key="IntegerHandle">单个输入必须是现有图窗句柄或从 1 到 {0,number,integer} 的标量整数。</entry>
+    <entry key="InvalidControllerInfo">创建图窗控制器时出现内部错误。</entry>
+    <entry key="InvalidCurrentAxesHandle">{0} 句柄传递给了 ''CurrentAxes'' 属性。需要有效的坐标区句柄。</entry>
+    <entry key="InvalidDragRectColumns">拖动矩形应具有 4 列，而不是 {0,number,integer} 列</entry>
+    <entry key="InvalidParent">图窗父级必须为根级。</entry>
+    <entry key="InvalidRendererBuffer">内部错误。渲染缓冲区不存在。</entry>
+    <entry key="Newplot">newplot 没有返回轴句柄。</entry>
+    <entry key="NotDockable">具有菜单或工具栏的 Web 图窗无法停靠。</entry>
+    <entry key="NotDockableWarning">具有菜单或工具栏的 Web 图窗无法停靠。自动取消停靠图窗。</entry>
+    <entry key="Pointer">不再支持完整十字准线。将改用十字准线指针。</entry>
+    <entry key="PrintTemplate">PrintTemplate 未正确初始化</entry>
+    <entry key="RbboxColumns">rbbox 矩形必须具有 4 列，而不是 {0,number,integer} 列。</entry>
+    <entry key="RbboxFirstArg">rbbox 的第一个参数必须为有效矩形。</entry>
+    <entry key="RbboxRows">rbbox 矩形必须具有 1 行，而不是 {0,number,integer} 行。</entry>
+    <entry key="RbboxSecondArg">rbbox 的第二个参数必须为有效点。</entry>
+    <entry key="RecursionOnClose">回调以递归方式调用 CLOSE。请使用 DELETE 阻止该消息。</entry>
+    <entry key="Renderer">内存不足，无法渲染 {0,number,integer}×{1,number,integer} Z-buffer</entry>
+    <entry key="SetDefaultButtonChildOfFigure">指定的 uicontrol 必须是指定图窗的子级。</entry>
+    <entry key="SetDefaultButtonInputArgument">必须使用图窗句柄作为第一个参数和 uicontrol 句柄作为第二个参数调用 setDefaultButton。</entry>
+    <entry key="SetDefaultButtonInvalidFigure">必须在包含有效 uicontrol 的图窗中调用 setDefaultButton。</entry>
+    <entry key="SetDefaultButtonNullInput">必须在包含有效 uicontrol 的图窗中调用 setDefaultButton。</entry>
+    <entry key="SetDefaultButtonPlatform">此平台不支持 setDefaultButton</entry>
+    <entry key="SetDefaultButtonPushButton">setDefaultButton 仅接受 ''pushbutton'' 样式的 uicontrol 。</entry>
+    <entry key="SetDefaultButtonUicontrol">必须在包含有效 uicontrol 的图窗中调用 setDefaultButton。</entry>
+    <entry key="SetDockControlsOff">不能在 WindowStyle 为 ''docked'' 时将 DockControls 设置为 ''off''。</entry>
+    <entry key="SetDockControlsOn">不能在非 Java 图窗中将 DockControls 设置为 ''on''</entry>
+    <entry key="SetOuterPosition">不能在 WindowStyle 为 ''docked'' 时设置 OuterPosition</entry>
+    <entry key="SetPaperSize">宽度和高度必须 &gt; 0。</entry>
+    <entry key="SetPointerShapeCData">PointerShapeCData 必须为 16×16。</entry>
+    <entry key="SetPointerShapeHotSpot">PointerShapeHotSpot 必须为 1×2。</entry>
+    <entry key="SetPosition">不能在 WindowStyle 为 ''docked'' 时设置 Position</entry>
+    <entry key="SetResize">不能在 WindowStyle 为 ''docked'' 时将 Resize 设置为 ''off''。</entry>
+    <entry key="SetXDisplay">无法打开该显示</entry>
+    <entry key="UnableToSetRendererToOpenGL">无法针对此图窗将渲染器设置为 OpenGL。</entry>
+    <entry key="Units">无法计算字符大小。图窗位置可能不正确。</entry>
+    <entry key="UnsupportedToolsStyle">此图窗不支持此 ToolsStyle。</entry>
+    <entry key="Waitforbuttonpress">将 MATLAB 用作 Engine 时，Waitforbuttonpress 不可用。</entry>
+    <entry key="XDisplay">无法设置 XDisplay。</entry>
+    <entry key="drawnowTicToc">''tic'' 和 ''toc'' 选项不能一起使用。</entry>
+    <entry key="webfigureredraw">需要图窗句柄。</entry>
+    <entry key="NonResizableFiguresCannotMaximize">当 ''Resize'' 为 ''off'' 时，不支持 ''maximized'' 窗口状态。</entry>
+    <entry key="DockedFiguresCannotSetWindowState">停靠的图形不支持 ''WindowState''。</entry>
+    <entry key="InvalidFitToContentAnchor">定位点选项必须为 'center' 或 'topleft'。</entry>
+    <entry key="FitToContentCalledWithNoGrid">要使用 fitToContent 调整图窗的大小，图窗必须包含 GridLayout 对象。</entry>
+  </message>
+</rsccat>

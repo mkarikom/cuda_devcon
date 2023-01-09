@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidAlignmentInput">第二个对齐输入无效。</entry>
+    <entry key="InvalidVerticalAlignment">错误的垂直对齐类型</entry>
+    <entry key="InvalidTargetHandle">第一个参数必须为要对齐的句柄向量或图窗句柄</entry>
+    <entry key="InvalidParent">要对齐的所有对象的父级图窗必须相同。</entry>
+    <entry key="InvalidAlignType">对齐类型无效。</entry>
+    <entry key="BadInputHandle">输入句柄对象无效。</entry>
+    <entry key="NoFigure">未找到图窗父级。</entry>
+    <entry key="AlignDistributeToolTitle">对齐分布工具</entry>
+    <entry key="InvalidHorizontalAlignment">水平对齐类型无效</entry>
+  </message>
+</rsccat>

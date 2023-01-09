@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">输入参数的数目不足。</entry>
+    <entry key="SingJac">无法求解配置方程 - 遇到了奇异的 Jacobian 矩阵。</entry>
+    <entry key="RelTolNotMet">必须使用 {0,number,integer} 个以上的网格点，才能满足容差要求。\n 输出参数中输出的是最后一个 {1,number,integer} 点网格与解。\n 最大误差为 {2}，但所要求的准确度为 {3}。</entry>
+    <entry key="SolutionWasObtained">解是在一个 {0} 点网格上获得的。\n</entry>
+    <entry key="MaximumError">最大误差为 {0}。\n</entry>
+    <entry key="CallsToODEFunctionn">存在对 ODE 函数的 {0} 个调用。\n</entry>
+    <entry key="CallsToBCFunctionn">存在对 BC 函数的 {0} 个调用。\n</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NegativeDataInLogAxis">음수 데이터는 무시됨</entry>
+    <entry key="NegativeLimitsInLogAxis">음수 제한은 무시됨</entry>
+    <entry key="UndefinedMethod">{0} 클래스에는 복사 메서드가 없습니다.</entry>
+    <entry key="UnableToComputeLayout">좌표축 레이아웃 정보를 계산할 수 없음</entry>
+    <entry key="LabelsMustBeText">레이블은 텍스트 객체여야 함</entry>
+    <entry key="CameraDirection">카메라 위치와 대상은 서로 달라야 합니다.</entry>
+    <entry key="UpVector">카메라 상향 벡터는 카메라 방향으로부터 독립적이어야 합니다.</entry>
+    <entry key="YAxisLocationLocked">YAxisLocation 속성은 읽기 전용입니다. yyaxis를 사용하여 다른 y축을 선택하십시오.</entry>
+    <entry key="BadDataSpace">DataSpace가 유효하지 않습니다.</entry>
+    <entry key="BadDataSpaceIndex">인덱스가 범위를 벗어났습니다.</entry>
+    <entry key="UnsupportedDataAspectRatio">여러 개의 좌표계를 갖는 좌표축에는 DataAspectRatio를 'auto'로만 설정할 수 있습니다.</entry>
+    <entry key="UnsupportedCopy">여러 개의 좌표계를 갖는 좌표축의 객체 복사는 지원되지 않습니다.</entry>
+    <entry key="UnsupportedView">여러 개의 좌표계를 갖는 좌표축에는 3차원 보기가 지원되지 않습니다.</entry>
+  </message>
+</rsccat>

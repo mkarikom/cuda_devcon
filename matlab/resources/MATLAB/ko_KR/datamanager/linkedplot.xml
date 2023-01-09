@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Vs"> 대 </entry>
+    <entry key="SpecifyDataSource">X, Y 및 Z의 데이터 소스를 작업 공간에서 변수로 지정합니다.</entry>
+    <entry key="DialogTitle">연결된 플롯 데이터 소스</entry>
+    <entry key="OKLabel">확인</entry>
+    <entry key="CancelLabel">취소</entry>
+    <entry key="LinkDataError">크기 불일치</entry>
+    <entry key="ImmediateApplyLabel">즉시 적용</entry>
+    <entry key="HelpLabel">도움말</entry>
+    <entry key="FailingLinks">연결 실패</entry>
+    <entry key="DifferentXYZSize">{0} 및 {1}의 크기가 각기 다름</entry>
+    <entry key="DisplayNameLabel">표시 이름</entry>
+    <entry key="CannotLinkData">데이터를 연결할 수 없습니다. 데이터 소스가 있는 그래픽스 객체가 없습니다.</entry>
+    <entry key="CannotLinkTableData">테이블에서 가져온 데이터는 연결할 수 없습니다.</entry>
+    <entry key="CannotDeleteBrushedTableData">테이블에서 가져온 브러싱된 데이터는 삭제할 수 없습니다.</entry>
+  </message>
+</rsccat>

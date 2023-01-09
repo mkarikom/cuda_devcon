@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="type">Time series synchronization cannot be performed on a pair of {0} object and timeseries object.</entry>
+    <entry key="noarray">The synchronize method can only be used for a single timeseries objects</entry>
+    <entry key="pvsetNoValue">A specified property is missing a corresponding value.</entry>
+    <entry key="pvsetStringPropertyName" note="stringDatatypeUpdate">Property name must be a character vector or string.</entry>
+    <entry key="pvsetNumInterval">Interval must be a numeric value.</entry>
+    <entry key="pvsetLogicalKeepOriginalTimes">KeepOriginalTimes must be a logical value.</entry>
+    <entry key="pvsetInvalid">At least one of the specified properties is invalid.</entry>
+    <entry key="noemptytime">One or more of the time vectors is empty.</entry>
+    <entry key="interpsyntax">Invalid synchronizemethod attribute</entry>
+    <entry key="invinterp">Invalid interpolation method</entry>
+    <entry key="noqual">Quality vector must be initialized.</entry>
+    <entry key="round">The specified quality code has been rounded to an integer.</entry>
+    <entry key="invcode">You have specified a quality code that is not defined for this time series.</entry>
+  </message>
+</rsccat>

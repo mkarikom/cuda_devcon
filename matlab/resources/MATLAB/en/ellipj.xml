@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotEnoughInputs">Not enough input arguments.</entry>
+    <entry key="ComplexInputs">Input arguments must be real.</entry>
+    <entry key="InputSizeMismatch">U and M must be the same size.</entry>
+    <entry key="MOutOfRange">M must be in the range 0 &lt;= M &lt;= 1.</entry>
+    <entry key="NegativeTolerance">Third argument TOL must be a finite nonnegative scalar.</entry>
+    <entry key="FailedConvergence">ELLIPJ did not converge. Consider increasing TOL.</entry>
+  </message>
+</rsccat>

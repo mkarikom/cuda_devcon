@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PropertyValuePairsExpected">应为名称-值对组。</entry>
+    <entry key="DuplicateActionID">重复的操作 ID: ''{0}''。</entry>
+    <entry key="IncorrectActionID">''{0}'': 无效的操作 ID。</entry>
+    <entry key="InvalidAction">无效的操作实例。</entry>
+    <entry key="PropertiesAsStruct">属性应为结构体。</entry>
+    <entry key="AddActionClientMode">无法在 ''ActAsClient'' 模式下添加操作。</entry>
+    <entry key="RemoveActionClientMode">无法在 ''ActAsClient'' 模式下删除操作。</entry>
+    <entry key="ActionIDUpdate">无法更新操作 ''ID''。</entry>
+    <entry key="NoActionID">指定的操作没有 ID。</entry>
+    <entry key="InvalidActionForID">不存在与给定 ID ''{0}'' 对应的操作。</entry>
+    <entry key="InsufficientArguments">参数的数目不足。</entry>
+    <entry key="RequiredParamsUnspecified">未指定所需的参数 docID 或 Channel</entry>
+    <entry key="DatetimeFormatHelp">&lt;a href="matlab:doc(&amp;quot;datetime.Format&amp;quot;)"&gt;格式帮助&lt;/a&gt;</entry>
+  </message>
+</rsccat>

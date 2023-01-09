@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="MixedDataTypes">All contents of the input cell array must be of the same data type.</entry>
+    <entry key="NoInputs">No input argument specified. There should be exactly one input argument.</entry>
+    <entry key="UnsupportedCellContent">CELL2MAT does not support cell arrays containing cell arrays or objects.</entry>
+    <entry key="InconsistentFieldNames">The field names of each cell array element must be consistent and in consistent order.</entry>
+  </message>  
+</rsccat>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotATree">入力が mtree タイプではありません。</entry>
+    <entry key="SyntaxError">構文エラー:\n{0}\n</entry>
+    <entry key="fileReadError">ファイル {0} を読み込むことができません</entry>
+    <entry key="getmcode">ファイルにはバイナリ データが含まれています: {0}</entry>
+    <entry key="FilenameMustBeSpecified">ファイル名を指定しなければなりません。</entry>
+    <entry key="FilenameMustBeAString">ファイル名は文字ベクトルでなければなりません。</entry>
+    <entry key="FilenameMustNotContainAsterisk">ファイル名に * を含むことはできません。</entry>
+    <entry key="NoFileOpen">Excel ファイルをまず開いてください。</entry>
+    <entry key="WorksheetNotFound">指定したワークシートが見つかりません</entry>
+    <entry key="NoSheet">シート名が不明です。</entry>
+    <entry key="UnreadableOrEmptyCSVFile">CSV ファイルが読み取り不可または空です。</entry>
+    <entry key="UnreadableOrEmptyTextFile">テキスト ファイルが読み取れないか、空です。</entry>
+    <entry key="UnreadableExcelFile">Excel ファイルが読み取り不可です。</entry>
+    <entry key="EmptyExcelFile">Excel ファイルが空です。</entry>
+    <entry key="ImportingData">データをインポート中...</entry>
+    <entry key="TextImportFastPathError">高速パス エラー。</entry>
+    <entry key="TextImportWaitBarCancel">ウエイト バーがキャンセルされました。</entry>
+    <entry key="TextFileInvalid">無効なファイルです。</entry>
+    <entry key="TextFileImportCancelling">キャンセルしています。</entry>
+    <entry key="TextFileScanningFile">ファイルのスキャン中。</entry>
+    <entry key="TextFileScannedFile">ファイルがスキャンされました。</entry>
+    <entry key="TextFileParsedBlockData">選択されたデータ ブロックを解析しました。</entry>
+    <entry key="TextFileParsingData">データ {0} を解析中。</entry>
+    <entry key="TextFileParsedData">データが解析されました。</entry>
+    <entry key="InvalidVariableName">''{0}'' は有効な変数名ではありません。</entry>
+    <entry key="ModifiedVarnames">有効な MATLAB 識別子になるように変数名が変更されました。</entry>
+    <entry key="unknownid">ワークスペース ID が認識されません</entry>
+    <entry key="invalid">ワークスペース引数は assignin メソッドと evalin メソッドを伴うスカラー オブジェクト ハンドルでなければなりません</entry>
+    <entry key="errImport_GenericImportError">インポート操作に失敗しました。原因として、インポートできないセルが選択内容に\n含まれていることが考えられます。ツールストリップにルールを追加して、インポートできないセルを数値に\n変換してみてください。</entry>
+    <entry key="errImport_SpecificImportError">インポート操作に失敗しました。 {0}</entry>
+    <entry key="Searching">検索中...</entry>
+  </message>
+</rsccat>

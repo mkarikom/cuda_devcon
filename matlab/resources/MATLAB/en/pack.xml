@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- Added messages: src/m_interpreter, src/m_lxe -->
+    <entry key="InvalidInvocationLocation">PACK can only be used from the MATLAB command line.</entry>
+    <entry key="NonStringInput" note="stringDatatypeUpdate">Input to PACK must be a character vector.</entry>
+    <entry key="UnsuccessfulSave">Pack could not save all variables to a temporary file.  Pack will not attempt to clear and reload.</entry>
+  </message>
+</rsccat>

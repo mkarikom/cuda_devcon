@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CannotBeParent">uitabgroup은 {0}의 부모가 될 수 없습니다. 따라서, 다시 gcf가 {1}의 부모로 설정되었습니다.</entry>
+    <entry key="InvalidIndex">선택한 인덱스는 1과 탭의 개수 사이여야 함</entry>
+    <entry key="InvalidTab">선택한 탭은 이 부모의 자식이어야 함</entry>
+    <entry key="CannotSetVisible">uitab의 Visible 속성을 설정할 수 없습니다.\n향후 릴리스에서는 오류로 간주됨</entry>
+    <entry key="CannotSetBackgroundColor">uitab의 BackgroundColor 속성을 설정할 수 없습니다.\n향후 릴리스에서는 오류로 간주됨</entry>
+  </message>
+</rsccat>

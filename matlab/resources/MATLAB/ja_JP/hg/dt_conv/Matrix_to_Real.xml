@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ExpectedNumeric">値は数値でなければなりません。</entry>
+    <entry key="ExpectedNumeric1">値は数値でなければなりません。</entry>
+    <entry key="ExpectedNumeric2">値は数値でなければなりません。</entry>
+    <entry key="ExpectedScalar">値はスカラーでなければなりません。</entry>
+    <entry key="ValueOutsideRange">Alpha 値は 0.0 と 1.0 の範囲内でなければなりません</entry>
+  </message>
+</rsccat>

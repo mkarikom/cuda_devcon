@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInputFile">入力は有効なファイル パスではありません。</entry>
+    <entry key="NonLocalHelpInContainer">classdef MATLAB ファイルの外部で定義された継承プロパティやメソッドなど、ローカル以外で定義されたヘルプは比較できません。</entry>
+  </message>
+</rsccat>

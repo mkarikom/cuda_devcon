@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="filenameNotString">文件名必须为字符向量。</entry>
+    <entry key="emptyFilename">文件名不能为空。</entry>
+    <entry key="invalidFile">不支持从文件 {0} 读取代码。</entry>
+    <entry key="errorReadingCodeFile">从文件 {0} 读取代码时出错: {1}。</entry>
+  </message>
+</rsccat>

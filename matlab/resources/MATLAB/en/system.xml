@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2010-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../schema/msgcat.xsd">
+  <message>
+    <entry key="AllPropertiesText">all properties</entry>
+    <entry key="attributeMismatch">The {0} property may only be one of Logical or PositiveInteger, and must have a valid default value.</entry>
+    <entry key="BadPropertyGroup">Cannot display object of class ''{0}'' because ''getPropertyGroups'' did not return a valid ''{1}''.</entry>
+    <entry key="badSourceSetPolicyName">{0} is not a valid name for a SourceSet policy.  Valid names include 'PropertyOnly', 'PropertyOrInput', 'PropertyOrMethod', and 'Disabled'</entry>
+    <entry key="badSourceSetSecondPolicyName">If {0} is the client for the first SourceSet policy, the client for the second policy must be {1}.</entry>
+    <entry key="badSourceSetPolicyClient">{0} is not a valid policy client.</entry>
+    <entry key="badSampleTimeSpecTypeValue">''{0}'' is not a valid value for sample time 'Type'.  Valid values include 'Discrete', 'Controllable', 'Fixed In Minor Step' and 'Inherited'.</entry>
+    <entry key="badSampleTimeSpecPropOptionValue">''{0}'' is not a valid value for option, ''{1}''.  Valid values include 'Continuous', 'Constant', and 'Controllable'.</entry>
+    <entry key="deprecatedSampleTimeSpecTypeValue"> The ''{0}'' value for 'Type' will be removed in a future release.  Use ''{1}'' instead.  Also, replace any additional occurrences of ''{0}'' in your System object.</entry>
+    <entry key="badSampleTimeSpecUninitVar">''{0}'' must be specified when calling 'createSampleTime' or creating a 'matlab.system.SampleTimeSpecification' object with 'Type' set to ''{1}''.</entry>
+    <entry key="badSampleTimeClass"> The return value from 'getSampleTimeImpl' must be an instance of 'matlab.system.SampleTimeSpecification'.</entry>
+    <entry key="badSampleTimeSpecParamName">''{0}'' is not a legal parameter when calling ''createSampleTime'' or creating a 'matlab.system.SampleTimeSpecification' object when ''{1}'' is set to ''{2}''.</entry>
+    <entry key="missingConstraintParamName">''{0}'' is a required parameter when calling ''{1}'' or creating a ''{2}'' object when ''{3}'' is set to ''{4}''.</entry>
+    <entry key="badConstraintParamName">''{0}'' is not a legal parameter when calling ''{1}'' or creating a ''{2}'' object when ''{3}'' is set to ''{4}''.</entry>
+    <entry key="badExtraConstraintParamName">Too many arguments when calling ''{0}'' or creating a ''{1}'' object when ''{2}'' is set to ''{3}''.  When ''{4}'' is set to ''{5}'' no additional parameters are allowed.</entry>
+    <entry key="DimsConstraintNotSameAsPreCompSize">The dimension constraint size for output port {0,number,integer} is {1,number,integer}.  This value must match the first return value from 'getOutputSizeImpl', {2,number,integer}.</entry>
+    <entry key="DimsConstraintNotSubMultOfPreCompSize">The dimension constraint size for output port {0,number,integer} is {1,number,integer}.  This value must be a submultiple of the first return value from 'getOutputSizeImpl', {2,number,integer}.</entry>
+    <entry key="portIndexForDimsConstraints">The port index for {0} must be a positive integer-valued less than or equal to {1,number,integer}.</entry>
+    <entry key="MethodDoesntSupportCodeGen">The {0} method does not support code generation.</entry>
+    <entry key="badSampleTimeSpecParamDataType">Period and Offset time must be specified with matching data types.</entry>
+    <entry key="duplicatedSampleTimeOption">Sample time propagation option values cannot appear in two or more sample time propagation option types.</entry>
+    <entry key="cellArrayOfStringsSampleTimeOption">Sample time propagation option value cannot be a cell array of strings.</entry>
+    <entry key="badSampleTimeTypeForSetNumTicksCall">The compiled sample time 'Type' must be 'Controllable' if the ''{0}'' method is called.</entry>
+    <entry key="badDimensionConstraintClass"> The return value from ''{0}'' must be an instance of ''{1}''.</entry>
+    <entry key="currentTimeNotSetInLockedObject">The current time was not set for {0}. Use ''setCurrentTime'' to set the current time.</entry>
+    <entry key="badMATLABSourceSetPolicyName">{0} policy cannot be used in MATLAB.  It is only valid for use with the System Block.</entry>
+    <entry key="cannotSetNonDefMethodSourceSetPairedProperty">The {0} property cannot be set because it is paired with a 'PropertyOrMethod' SourceSet Policy and accepts its values from a method.</entry>
+    <entry key="cannotSetNonDefInputSourceSetPairedProperty">The {0} property cannot be set because it is paired with a 'PropertyOrInput' SourceSet Policy and accepts its values from an input.</entry>
+    <entry key="cannotSetDisabledSourceSetPairedProperty">The {0} property cannot be set because it is paired with a 'Disabled' SourceSet Policy.</entry>
+    <entry key="cannotCallNargInOutFromGNIIorGNOI">The method {0} cannot be called from within {1}.</entry>
+    <entry key="cannotFindSymbol" translate="false">{0}</entry>
+    <entry key="cannotLoadModule" translate="false">{0}</entry>
+    <entry key="changeSystem">Change System</entry>
+    <entry key="classExpressionLabel"><![CDATA[<matlab expression>]]></entry>
+    <entry key="cloneFailed">Unable to create cloned copy.</entry>
+    <entry key="cloneImplReturnedBadClass">Invalid class returned by cloneImpl, {0}. cloneImpl should return a copy of {1}.</entry>
+    <entry key="cloneImplImplemented">{0} implements the cloneImpl method.  Overloading this method is not supported. Please implement the code of cloneImpl in the saveObjImpl and loadObjImpl methods.</entry>
+    <entry key="codeGenUnSupportedCloneUsingSaveLoad">{0} implements the loadImpl or saveImpl method.  Overloading these methods is not supported for code generation in current configuration.</entry>
+    <entry key="codeGenClassNameNotConstant">System object class Name is not a constant.</entry>
+    <entry key="codeGenConstructorArgNotConst">Cannot compute constant value for argument #{0} for this System object constructor. All arguments to the constructor of this System object must be constants for code generation. One way to supply a constant value is to pass it to the main function using Simulink non-tunable parameters (for MATLAB Function block) or coder.Constant(...) (for MATLAB Coder).</entry>
+    <entry key="codeGenNontunableSetAfterConstructor">For code generation, nontunable properties for the System object {0} cannot be changed after creation. To set public properties for this System object, you must pass name-value pairs during object creation.</entry>
+    <entry key="codeGenDirectFeedthroughBeforeSetup">System objects must be initialized before calling isInputDirectFeedthrough() when generating code.  Calling step, output, or update will initialize the System Object.</entry>
+    <entry key="codeGenNoSystemObjectInput">{0} method requires a System object as input.</entry>
+    <entry key="codeGenNotValidSystemObjectName">{0}, is not a valid System object class.</entry>
+    <entry key="codeGenNotSystemObjectInput">{0} method is reserved for System objects.</entry>
+    <entry key="numInputsAndOutputsIsZero">Reported by {0}: System object that implements getSampleTimeImpl and has zero inputs and zero outputs is not supported.</entry>
+    <entry key="codeGenCurrentConfigNotSupported">Reported by {0}: This System object in its current configuration does not support code generation.</entry>
+    <entry key="codeGenInputDimsModeNotFixed">Reported by {0}: Expected input {1,number,integer} to have fixed dimensions.</entry>
+    <entry key="codeGenInvalidInputsTypes">Inputs to the {0} method must be either numeric or logical variables or fi objects. Inputs cannot be MATLAB types from extrinsic functions.</entry>
+    <entry key="codeGenNonConstReturnValue">The value returned from {0} method must be a constant value.  Properties used in calculating this value must be Nontunable.</entry>
+    <entry key="codeGenUnSupportedObj">This System object is not supported for code generation.</entry>
+    <entry key="codeGenUnSupportedLockedClone">Locked objects are not supported for cloning in code generation.</entry>
+    <entry key="codeGenSetNotSupported">Setting properties of this System object is not supported for code generation.</entry>
+    <entry key="codeGenSourceSetOnlySupportNumeric">The {0} property cannot be assigned a non-numeric value because it is paired with a SourceSet property.</entry>
+    <entry key="compHasNoOutputs">The lastOutput method cannot operate on this System object because the System object has no outputs.</entry>
+    <entry key="complexDataToRealRTP">Cannot create real-valued run-time parameter from complex-valued data.</entry>
+    <entry key="customGetRecursionGuard">Accessing ''{0}'' while inside ''{1}'' is not allowed as it causes recursion to occur.</entry>
+    <entry key="dataRateError">Only one of the data rates can be greater than 1.</entry>
+    <entry key="dialogNotGenerated">Unable to generate dialog for ''{0}''.</entry>
+    <entry key="dialogNotGeneratedLink">See line {0} of ''{1}'' in ''{2}''</entry>
+    <entry key="dialogError">Dialog Creation Error</entry>
+    <entry key="DirectFeedthroughUnknown">The isInputDirectFeedthrough method cannot return empty when the System object is initialized because the DirectFeedthrough status must be known when the object is initialized.</entry>
+    <entry key="DirectFeedthroughNotLogical">The output from isInputDirectFeedthroughImpl must be convertible to logical values.</entry>
+    <entry key="DoesNotCustomizeSampleTime">The ''{0}'' method cannot be called by the ''{1}'' System object as it does not implement getSampleTimeImpl.</entry>
+    <entry key="doublePropertySourceSetPolicyName">{0} policy cannot be used for both MATLAB and System Block.</entry>
+    <entry key="duplicateDisplayProperty">PropertyList entry ''{0}'' has already been specified for display.</entry>
+    <entry key="emptyInput">Empty on input {0,number,integer} is not allowed.</entry>
+    <entry key="errorSettingParameters">Reported by {0}: {1}.</entry>
+    <entry key="fileNotFound">File {0} was not found.</entry>
+    <entry key="fileOpenFailed"> Cannot open file: {0}. {1}</entry>
+    <entry key="fixedPointFor64Bit">The Fixed-Point Designer is required in order for System objects to support 64-bit data types.</entry>
+    <entry key="FooterLinkFailure">Unable to display properties for variable {0}, possibly because it has been cleared from the workspace or deleted.</entry>
+    <entry key="FooterLinkFailureMissingVariable">Unable to display properties for variable {0} because it no longer exists.</entry>
+    <entry key="FooterLinkFailureClassMismatch">Unable to display properties for variable {0} because it is no longer a {1} object.</entry>
+    <entry key="FooterTextNoArrayName">Use {0} to show all properties</entry>
+    <entry key="FooterTextWithArrayName">Show {0}</entry>
+    <entry key="genericError" translate="false">{0}</entry>
+    <entry key="getBlockParamNotSupported">{0} System object does not support getBlockParam method.</entry>
+    <entry key="getCompiledDataInfoNotSupported">{0} System object must be locked and must provide a character vector input to the getCompiledDataInfo method.</entry>
+    <entry key="getCompiledDataInfoNotImplemented">This System object has not implemented the mdlGetCompiledDataInfo method.</entry>
+    <entry key="getContinuousStateInvalid">The getContinuousStateImpl method did not return a struct (or empty).</entry>
+    <entry key="getContinuousStateNotSupported">getContinuousState method is not supported for this object.</entry>
+    <entry key="getDataRateNeedsSetup">You must run setup before invoking {0}.</entry>
+    <entry key="getDiscreteStateInvalid">The getDiscreteStateImpl method did not return a struct (or empty).</entry>
+    <entry key="getDiscreteStateNotSupported">getDiscreteState method is not supported for this object.</entry>
+    <entry key="getInputNamesInvalid">getInputNamesImpl must return the same number of names as inputs to the System object, either as multiple character vector output arguments or a string array.</entry>
+    <entry key="getOutputNamesInvalid">getOutputNamesImpl must return the same number of names as outputs to the System object, either as multiple character vector output arguments or a string array.</entry>
+    <entry key="getOnlyTakesTwoInputsCodegen">The get method only works with two inputs in code generation.</entry>    
+    <entry key="getSimulateUsingIsEmpty">No value is returned from getSimulateUsingImpl. You must specify ''Code generation'' or ''Interpreted execution''.</entry>
+    <entry key="getSimulateUsingInvalidType">Unexpected type returned from getSimulateUsingImpl. You must specify &quot;Code generation&quot; or &quot;Interpreted execution&quot;.</entry>
+    <entry key="getSimulateUsingInvalidValue">Invalid value ''{0}'' returned from getSimulateUsingImpl. You must specify &quot;Code generation&quot; or &quot;Interpreted execution&quot;.</entry>
+    <entry key="getFiSettingsIsEmpty">No value is returned from getFiSettingsImpl.</entry>
+    <entry key="getFiSettingsInvalidType">Unexpected type returned from getFiSettingsImpl.</entry>
+    <entry key="getSpecifyStringUnknownType">Unknown type parameter ''{0}''</entry>
+    <entry key="globalNotGlobalVar">Variable ''{0}'' was returned from getGlobalNamesImpl but is not declared as global variable in method ''{1}''.  Any global variables named ''{2}'' in functions called from ''{3}'' will not be shared with Data Store Memory blocks.</entry>
+    <entry key="globalDeclarationNotAllowed">Global variables are not allowed in the ''{0}'' method.</entry>
+    <entry key="globalAddedDuringMethodCall">System object ignores the global variable ''{0}'' added during ''{1}'' execution. The global variable is either not declared in ''{2}'' or is declared while using the MATLAB debugger.</entry>
+    <entry key="globalMissingInDebug">Global variable ''{0}'' was removed during ''{1}'' execution.  The associated Data Store Memory was not updated.</entry>
+    <entry key="globalDeclarationMustBeFirst">Global variable ''{0}'' in ''{1}'' is declared after the method executes code.  To exchange global variables with Data Store Memory blocks, you must declare the global variable at the beginning of the method.</entry>
+    <entry key="globalTypeChangedDetailed">The data type for global variable ''{0}'' cannot be changed during ''{1}'' execution.  The data type was initially ''{2}'' and changed to ''{3}''.</entry>
+    <entry key="globalTypeChangedSummary">The data type for global variable ''{0}''  cannot be changed during ''{1}'' execution.</entry>
+    <entry key="globalChangedCplxVsReal">The complexity for global variable ''{0}'' cannot be changed during ''{1}'' execution.  The complexity was initially complex and changed to real.</entry>
+    <entry key="globalChangedRealVsCplx">The complexity for global variable ''{0}'' cannot be changed during ''{1}'' execution.  The complexity was initially real and changed to complex.</entry>
+    <entry key="globalNumDimsChanged">The number of dimensions for global variable ''{0}'' cannot be changed during ''{1}'' execution.  The number of dimensions was initially {2,number,integer} and changed to {3,number,integer}.</entry>
+    <entry key="globalDimsChanged">The dimensions for ''{0}'' cannot be changed during ''{1}'' execution.  Dimension {2,number,integer} was initially {3,number,integer} and changed to {4,number,integer}.</entry>
+    <entry key="globalNumberOfFieldsChanged">The number of fields for global struct ''{0}'' cannot be changed during ''{1}'' execution.  The number of fields was initially {2,number,integer} and changed to {3,number,integer}.</entry>
+    <entry key="globalFieldNamesChanged">The field names for global struct ''{0}'' cannot be changed during ''{1}'' execution.  The field name was initially ''{2}'' and changed to ''{3}''.</entry>
+    <entry key="helpCommandLineForIsLocked" translate="false">
+      isLocked Locked status for input attributes and non-tunable properties\n
+      L = isLocked(OBJ) returns a logical value, L, which indicates whether\n
+      \ \ \ input attributes and non - tunable properties are locked for the System\n
+      \ \ \ object, OBJ. The object performs an internal initialization the first\n
+      \ \ \ time the step method is executed. This initialization locks non-tunable\n
+      \ \ \ properties and input specifications, such as dimensions, complexity, \n
+      \ \ \ and data type of the input data. After OBJ is locked, the isLocked method\n
+      \ \ \ returns a true value.\n
+      \n
+      \ \ \ <![CDATA[See also <a href="matlab:help matlab.System/step">step</a>, <a href="matlab:help matlab.System/release">release</a>.]]></entry>
+    <entry key="helpCommandLineForRelease" translate="false">
+      release Allow property value and input characteristics changes\n
+      \ \ \ release(OBJ) releases system resources (such as memory, file handles or\n
+      \ \ \ hardware connections) of System object, OBJ. After release() is called, all the\n
+      \ \ \ properties and input characteristics of OBJ can be changed.\n
+      \n
+      \ \ \ Once you call the release method on a System object, subsequent calls\n
+      \ \ \ to setup, step, reset, or release are not supported for code\n
+      \ \ \ generation.\n
+      \n
+      \ \ \ <![CDATA[See also <a href="matlab:help matlab.System/isLocked">isLocked</a>, <a href="matlab:help matlab.System/release">step</a>.]]></entry>
+    <entry key="helpCommandLineForReset" translate="false">
+      reset Reset the internal states of a System object\n
+      \ \ \ reset(OBJ) resets the internal states of System object OBJ to their\n
+      \ \ \ initial values.\n
+      \n
+      \ \ \ Objects that have internal states will describe in their help\n
+      \ \ \ what the reset method does for that object.  System objects\n
+      \ \ \ with no states are unaffected by reset.\n</entry>
+    <entry key="incorrectDirectFeedthroughArguments">Invalid number of input arguments. Expected {0,number,integer} or {1,number,integer} input argument(s) (in addition to System object).</entry>
+    <entry key="incorrectDirectFeedthroughOutputs">Too many output arguments. Requested number of output(s) ({0,number,integer}) exceeds the number of inputs ({1,number,integer}) to the System object.</entry>
+    <entry key="inputDimsMismatch">All input ports must have same dimensions.</entry>
+    <entry key="inputDimsMoreThanTwo">Data with more than two dimensions is not supported for this System object.</entry>
+    <entry key="inputMustBeScalar">Expected input {0} to be a scalar.</entry>
+    <entry key="inputMustBeVector">Expected input {0} to be a non-empty vector.</entry>
+    <entry key="inputMustBeRowVector">Expected input {0} to be a non-empty row vector.</entry>
+    <entry key="inputMustBeColVector">Expected input {0} to be a non-empty column vector.</entry>
+    <entry key="inputMustBeMatrix">Expected input {0} to be a non-empty matrix.</entry>
+    <entry key="inputSizeNotFixed">Expected input {0} to have fixed dimensions.</entry>
+    <entry key="inputSpecsChangedErrorSDC"><![CDATA[Changing the size, data type or complexity (from real to complex) on input {0,number,integer} is not allowed without first calling the <a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','matlab_prog.map'),'sysobjs_locked')">release()</a> method.]]></entry> 
+    <entry key="inputSpecsChangedErrorSD"><![CDATA[Changing the size or datatype on input {0,number,integer} is not allowed without first calling the <a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','matlab_prog.map'),'sysobjs_locked')">release()</a> method.]]></entry> 
+    <entry key="inputSpecsChangedErrorSC"><![CDATA[Changing the size or complexity (from real to complex) on input {0,number,integer} is not allowed without first calling the <a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','matlab_prog.map'),'sysobjs_locked')">release()</a> method.]]></entry> 
+    <entry key="inputSpecsChangedErrorS"><![CDATA[Changing the size on input {0,number,integer} is not allowed without first calling the <a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','matlab_prog.map'),'sysobjs_locked')">release()</a> method.]]></entry> 
+    <entry key="inputSpecsChangedErrorDC"><![CDATA[Changing the data type or complexity (from real to complex) on input {0,number,integer} is not allowed without first calling the <a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','matlab_prog.map'),'sysobjs_locked')">release()</a> method.]]></entry> 
+    <entry key="inputSpecsChangedErrorD"><![CDATA[Changing the data type on input {0,number,integer} is not allowed without first calling the <a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','matlab_prog.map'),'sysobjs_locked')">release()</a> method.]]></entry> 
+    <entry key="inputSpecsChangedErrorC"><![CDATA[Changing the complexity (from real to complex) on input {0,number,integer} is not allowed without first calling the <a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','matlab_prog.map'),'sysobjs_locked')">release()</a> method.]]></entry> 
+    <entry key="inputsNotSameComplexityCodegen">Wrong complexity of input #{0,number,integer}: expected ''{1}'', got ''{2}''. Code generation requires that all calls to step() on same object have inputs of same complexity.</entry>
+    <entry key="inputsNotSameDataTypeCodegen">Wrong class of input #{0,number,integer}: expected ''{1}'', got ''{2}''. Code generation requires that all calls to step() on same object have inputs of same type.</entry>
+    <entry key="inputsNotSameSizeCodegen">Wrong size of input #{0,number,integer}: expected ''{1}'', got ''{2}''. Sizes of an input whose size is locked must be the same across all calls to step().</entry>
+    <entry key="inputsNotSameNumerictypeCodegen">Wrong numerictype of input #{0,number,integer}: expected ''{1}'', got ''{2}''. Code generation requires that all calls to step() on same object have inputs of same numerictype.</entry>
+    <entry key="inputsNotSameSize">All inputs must have the same size.</entry>
+    <entry key="internalUnsupportedDataType">Unsupported data type.</entry>
+    <entry key="invalidActionAlignment">Expected Alignment to be ''left'' or ''right''.</entry>
+    <entry key="invalidArgGet">Second argument must be character vector or cell array.</entry>
+    <entry key="invalidArgSet">Second argument must be character vector or structure.</entry>
+    <entry key="invalidGlobalNamesStringInfer">The names of global variables declared in {0} must be legal MATLAB variable names.</entry>
+    <entry key="invalidCondExecSemantics">The conditional execution semantics returned by {0} must be either ''Classic'' or ''Synchronous'' or a cell array containing both.</entry>
+    <entry key="invalidComplexityNeedReal">Complexity mismatch with input {0,number,integer}; expected real, got complex.</entry>
+    <entry key="invalidComplexityNeedComplex">Complexity mismatch with input {0,number,integer}; expected complex, got real.</entry>
+    <entry key="invalidConstSampleTimeProp">The value returned by {0} must be either ''Allow'', ''Disallow'' or ''Error''.</entry>
+    <entry key="invalidConstructorFirstArgument">The first input argument to a System object constructor cannot be a System object.</entry>
+    <entry key="invalidDataRate">Only one of the data rates can be greater than 1.</entry>
+    <entry key="invalidDataType">Data type mismatch with input {0,number,integer}; expected {1}, got {2}.</entry>
+    <entry key="invalidDataTypeSetPropertyType">{0} property must be set to a value of data type ''char'' or numerictype.</entry>
+    <entry key="invalidDir">Invalid directory name. The directory {0} was not found.</entry>
+    <entry key="invalidDiscStateComplexity">Reported by {0}: Invalid complexity return from {1}; complexity must be a logical scalar value.</entry>
+    <entry key="invalidDiscStateDataType">Reported by {0}: Invalid data type return from {1}; type must be a character vector or an embedded.numerictype object.</entry>
+    <entry key="invalidFrameStatus">Frame status mismatch with input {0,number,integer}; expected {1}, got {2}.</entry>
+    <entry key="invalidGetPublicPropertiesArgs">All inputs must be character vectors or a cell array of character vectors</entry>
+    <entry key="invalidIdxInput">Invalid index input.</entry>
+    <entry key="invalidImplMethodNumArgs">Incorrect definition of {0} in {1}. {2} requires {3,number,integer} input(s) (in addition to System object) and {4,number,integer} output(s).</entry>
+    <entry key="invalidImplMethodNumInArgs">Incorrect definition of {0} in {1}. In addition to System object, {2} requires {3,number,integer} input(s).</entry>
+    <entry key="invalidImplMethodNumOutArgs">Incorrect definition of {0} in {1}. {2} requires {3,number,integer} output(s).</entry>
+    <entry key="invalidInputDataType">Expected input {0} data type to be {1}.</entry>
+    <entry key="invalidInputDataTypeCodeGen">Reported by {0}: Inputs must be either numeric or logical variables or fi objects.</entry>
+    <entry key="invalidInputDimensions">Expected input {0} to be of size {1} when it is actually size {2}.</entry>
+    <entry key="invalidInputDims">Dimension mismatch with input {0,number,integer}; expected {1}, got {2}.</entry>
+    <entry key="invalidInputNumDims">Mismatch in number of dimensions for input {0,number,integer}; expected input with {1,number,integer} dimensions, got input with {2,number,integer} dimensions.</entry>
+    <entry key="invalidInputWidth">Mismatch in number of elements for input {0,number,integer}; expected input with {1,number,integer} elements, got input with {2,number,integer} elements.</entry>
+    <entry key="invalidIODataRate">The data rate for {0} {1,number,integer} is not integer valued.</entry>
+    <entry key="invalidInputIndex">Invalid input index {0,number,integer}.</entry>
+    <entry key="invalidIsChangedPropertyParam">Argument to isChangedProperty ({0}) must be a public, tunable property.</entry>
+    <entry key="invalidLogicalReturn">The {0} method did not return a scalar logical value (i.e., true or false).</entry>
+    <entry key="invalidMultirateIndexDataType">Input and output indices must be double precision data type.</entry>
+    <entry key="invalidMultirateInputIndex">Indices must be either 0 or 1.</entry>
+    <entry key="invalidMultirateOutputIndex">The output index {0,number,integer} is not valid.</entry>
+    <entry key="invalidNumericTypeDataType">The {0} property must be a double, single or fixed-point numerictype.</entry>
+    <entry key="invalidNumericTypeSlopeBias">The {0} property must have unity slope and zero bias.</entry>
+    <entry key="invalidNumIODataRates">Number of {0} data rates must be the same as the total number of {1}.</entry>
+    <entry key="invalidOutputComplexity">Reported by {0}: Invalid return from isOutputComplex; each value must be a logical scalar value.</entry>
+    <entry key="invalidOutputDataTypeWithBus">Reported by {0}: Invalid return from getOutputDataType; each value must be either a valid data type name or an embedded.numerictype object or the name of a Simulink.Bus object present in the base workspace.</entry>
+    <entry key="invalidOutputDataType">Reported by {0}: Invalid return from getOutputDataType; each value must be a valid data type name or an embedded.numerictype object.</entry>
+    <entry key="invalidTunablePropertiesSpecification">Reported by {0}: Invalid return from getTunablePropertiesSpecification; the return string must be 'double' or 'single'.</entry>
+    <entry key="invalidOverrideDataType">Reported by {0}: Invalid input to overrideDataType; each input data type must be an embedded.numerictype object.</entry>
+    <entry key="invalidOverrideOfUserMethodSuggest">Error in {0}: {1} method cannot be redefined.  Remove the {2} method and add the {3} method.</entry>
+    <entry key="invalidOverrideOfUserMethod">Error in {0}: {1} method cannot be redefined. Remove the {2} method.</entry>
+    <entry key="invalidOutputIndex">Invalid output index {0,number,integer}.</entry>
+    <entry key="invalidOutputFixedSize">Reported by {0}: Invalid return from isOutputFixedSize; each value must be a logical scalar value.</entry>
+    <entry key="invalidGetSampleTime">Reported by {0}: Invalid return from getSampleTime; each sample time must be numeric and nonnegative or -1 to indicate inherited.</entry>
+    <entry key="invalidPropagatorNumOutRequested">Reported by {0}: Incorrect number of outputs for the {1} method; {2, number, integer} were requested, but the method returns {3, number, integer}, as specified by the getNumOutputs method.</entry>
+    <entry key="invalidPropagatorNonzeroInPorts">Reported by {0}: The {1} method can only be implemented on an object with no input ports.</entry>
+    <entry key="invalidProperty">Unrecognized property ''{0}'' for System object ''{1}''.</entry>
+    <entry key="invalidPVPairs">Invalid property/value pair arguments.</entry>
+    <entry key="invalidSampleTime">Sample time mismatch with input {0,number,integer}; expected {1}, got {2}.</entry>
+    <entry key="invalidSetConstMethod">Properties may not be set in this method (it should leave the System object unchanged).</entry>
+    <entry key="invalidSetDataRates">setDataRates may only be called in setupImpl.</entry>
+    <entry key="invalidSetPropertyValue">Invalid setting for the {0} property.</entry>
+    <entry key="invalidSetPropertyValueConst">''{0}'' is not a valid setting for the {1} property.</entry>
+    <entry key="invalidStateProp">No state property ''{0}'' exists for this System object.</entry>
+    <entry key="invalidStateName">Reported by {0}: No {1} property ''{2}'' exists for this System object.</entry>
+    <entry key="invalidStringContents">{0} must return a string array or a cell array of character vectors.</entry>
+    <entry key="invalidSimulinkFunctionName">{0} return value contains a name that is not a valid function name, {1}. {2} must return an array of valid function names as a string array or a cell array of character vectors.</entry>
+    <entry key="invalidSimulinkFunctionNameIsKeyword">{0} return value contains a name that is MATLAB keyword, {1}. {2} must return a string array or a cell array of character vectors.  The elements in the array cannot be a MATLAB keyword.</entry>
+    <entry key="invalidSimulinkFunctionNameIsDupicate">{0} return value contains a duplicate name, {1}. {2} must return a string array or a cell array of character vectors. The elements in the array cannot be duplicated.</entry>
+    <entry key="invalidSimulinkFunctionNameMoreThanOneNonUnityDims">Dimensions of {0} return value must be nx1 or 1xn.</entry>
+    <entry key="invalidSetPropertiesSyntax">There were fewer arguments passed into setProperties than were specified.</entry>
+    <entry key="InvalidValueOnlyNames">The value-only property names passed to setProperties must be specified as a string array or as multiple character vector or string scalar input arguments.</entry>
+    <entry key="invalidDisplayProperty">PropertyList entry ''{0}'' is not valid for display.</entry>
+    <entry key="invalidTunableReadAccess">Access denied for property ''{0}'': tunable public properties cannot be accessed within this method.</entry>
+    <entry key="invalidTunableModAccess">Access denied for property ''{0}'': tunable public properties cannot be modified within this method. Set the Access to private or protected to modify the property in System object methods.</entry>
+    <entry key="invalidCallToRelease">The release method cannot be called from methods on System objects.</entry>
+    <entry key="invalidTunableModAccessCodegen">Tunable public properties cannot be modified from within the class. Run the MATLAB System block in interpreted mode to identify the property modified.</entry>
+    <entry key="invalidValueOnlyProps">The {0} System object supports only {1,number,integer} value-only inputs. You have specified {2,number,integer} value-only inputs. A common cause of this error is misspelling a property name.</entry>
+    <entry key="invalidCapitalization">The {0} System object does not support the property {1}. The valid capitalization for this property is {2}.</entry> 
+    <entry key="isDoneCallbyNonSource">A System object must be a source (i.e. getNumInputs() == 0) in order to use the isDone() method.</entry>
+    <entry key="isInputDirectFeedthroughImplNotConst">The return value of isInputDirectFeedthroughImpl cannot be determined at compile time. You can only use Nontunable or Constant properties to compute the output of isInputDirectFeedthroughImpl.</entry>
+    <entry key="ObsoleteSystemObjectAPI">System Object ''{0}'' has API ''{1}'' that will no longer be supported. Remove the ''{1}'' method and use ''{2}'' instead.</entry>
+    <entry key="ObsoleteSystemObjectAPI2">System Object ''{0}'' has API ''{1}'' that will no longer be supported. Remove the ''{1}'' method.</entry>
+    <entry key="ObsoleteSystemObjectMixin">System Object ''{0}'' is inherited from mixin class ''{1}'' that will no longer be supported. Remove ''{1}'' and define corresponding System object methods instead.</entry>
+    <entry key="isInputSizeMutableImplNotConst">The return value of isInputSizeMutableImpl cannot be determined at compile time. You can only use Nontunable or Constant properties to compute output of isInputSizeMutableImpl.</entry>
+    <entry key="isInputSizeMutableImplNotScalar">The isInputSizeMutableImpl method did not return a scalar logical value (i.e., true or false).</entry>
+    <entry key="codegenMethodReturnsNonConst">The method 'createSampleTime' cannot be called from within runtime methods while Simulating using code generation.  Please ensure that 'createSampleTime' and 'getSampleTimeImpl' methods are not called from runtime methods: stepImpl, updateImpl, outputImpl, resetImpl and releaseImpl.</entry>
+    <entry key="codegenCreateSTReturnsNonConst">The method 'createSampleTime' cannot be called from within runtime methods: stepImpl, updateImpl, outputImpl, resetImpl and releaseImpl, while Simulating using code generation.  Please insure that 'createSampleTime' and 'getSampleTimeImpl' methods are not called from runtime methods. </entry>
+    <entry key="lockModeConflictMethods">System object will not call ''{0}'' if ''{1}'' is implemented.  Please implement ''{2}'' instead of ''{3}''.</entry>
+    <entry key="lockModeConflictMethodsNoSub">System object will not call ''{0}'' if ''{1}'' is implemented.  Please remove ''{2}''.</entry>
+    <entry key="lockModeConflictInheritance">System object will not call ''{0}'' if the System object inherits from ''{1}''.  Please remove inheritance from ''{2}'' or remove ''{3}''.</entry>
+    <entry key="loadingInvalidFixptMode">Found unsupported fixed point mode in port specifications while loading.</entry>
+    <entry key="loadingWhenLocked">System objects cannot be restored from saved data when it is already locked.</entry>
+    <entry key="logicalMustBeLogicalScalarReturn">The return value from {0} must be a real numeric or logical scalar.</entry>
+    <entry key="matlabAutoSectionGroupTitle">Main</entry>
+    <entry key="matlabAutoSectionTitle" translate="false"></entry>    
+    <entry key="maxNumInputs">Too many input arguments. Expected {0,number,integer} (in addition to System object), got {1,number,integer}.</entry>
+    <entry key="maxNumOutputs">Too many output arguments. Requested {0,number,integer} output(s), but only {1,number,integer} output(s) available.</entry>
+    <entry key="getNumInputsImplNotDef">Expected {0,number,integer} input (in addition to System object) because {1} has a variable number of inputs and {2} is not implemented. Implement {3} or change {4} to have a fixed number of inputs.</entry>
+    <entry key="getNumOutputsImplNotDef">Expected {0,number,integer} output because {1} has a variable number of outputs and {2} is not implemented. Implement {3} or change {4} to have a fixed number of outputs.</entry>
+    <entry key="methodNotFound">The {0} method definition could not be found.</entry>
+    <entry key="minNumInputs">Not enough input arguments. Expected {0,number,integer} (in addition to System object), got {1,number,integer}.</entry>
+    <entry key="mismatchedmodes">The following properties must have the same setting: {0}</entry>
+    <entry key="mismatchedwordlengths">The following properties must have the same word length setting: {0}</entry>
+    <entry key="mixedDirectFeedthroughMultirate">Multirate and direct feed through cannot be used simultaneously.</entry>
+    <entry key="multirateInputEmpty">Input {0,number,integer} cannot be empty.</entry>
+    <entry key="multirateInputNotScheduled">Input {0,number,integer} is not scheduled at this time.</entry>
+    <entry key="multirateNotSupported">Multirate is not supported.</entry>
+    <entry key="multirateNotSupportedBuffer">Multirate is not supported. For dsp.Buffer System object, input number of rows must be equal to Length - OverlapLength.</entry>
+    <entry key="multirateOutputNotScheduled">Output {0,number,integer} is not scheduled at this time. Use hasOutput method to determine whether an output is available.</entry>
+    <entry key="inputMustBePosIntValuedScalar">The ''{0}'' input to the ''{1}'' method must be a positive, integer-valued scalar.</entry>
+    <entry key="mustBeAutoSignedNumericType">The {0} property value must be a numerictype with signedness set to ''Auto''.</entry>
+    <entry key="mustBeSignedOrAutoSignedNumericType">The {0} property value must be a numerictype with signedness set to ''true'' or ''Auto''.</entry>
+    <entry key="mustBeFixedPointNumericType">The {0} property must be a fixed-point numerictype.</entry>
+    <entry key="mustBeLowerBoundedIntInput">Input value must be an integer-valued scalar greater than or equal to {0,number,integer}</entry>
+    <entry key="mustBeNotScaledNumericType">The {0} property must have unspecified scaling.</entry>
+    <entry key="mustBeScaledNumericType">The {0} property must have a specified fraction length.</entry>
+    <entry key="mustBeSignedNumericType">The {0} property must be a signed numerictype.</entry>
+    <entry key="mustBeSpecSignedNumericType">The {0} property value must be a numerictype with signedness set to ''Signed'' or ''Unsigned''.</entry>
+    <entry key="mustBeUnsignedNumericType">The {0} property must be an unsigned numerictype.</entry>
+    <entry key="mustImplementPropMethod">Invalid {0} method; must be implemented when number of inputs and/or outputs is not one .</entry>
+    <entry key="numberInputArgsConstraints">The {0} method must be called with  either zero or 1 argument (excluding the obj argument).</entry>
+    <entry key="noCodegen">The {0} System object does not support code generation.</entry>
+    <entry key="noDiscreteStateSpecOverride">If your class has any DiscreteState properties, then you must implement the getDiscreteStateSpecificationImpl() method.</entry>
+    <entry key="noFilesSelected">No files selected. File selection cancelled.</entry>
+    <entry key="NoStepWithOutputUpdate">The {0} System object defines stepImpl and one or both of outputImpl and updateImpl. The stepImpl method cannot be combined with the non-direct feedthrough outputImpl and updateImpl methods.</entry>
+    <entry key="NoPublicOutputUpdate">The {0} System object defines the {1} method while also implementing the updateImpl or outputImpl methods. Rename the {1} method so that it does not conflict with the System object {1} method.</entry> 
+    <entry key="nonRelevantProperty">The {0} property is not relevant in this configuration of the System object.</entry>
+    <entry key="nonScalarGet">The get method only works with scalar System objects.</entry>
+    <entry key="nonScalarSet">The set method only works with scalar System objects.</entry>
+    <entry key="nonZeroOutputsUpdate">The update method does not return any values.</entry>
+    <entry key="noSuchMethodOrField">Invalid method, property, or field {0} for class {1}.</entry>
+    <entry key="notCharOrStringArg">The ''{0}'' argument must be a string or character array.</entry>
+    <entry key="notValidArg2Possible">The ''{0}'' argument must be either ''{1}'' or ''{2}''.</entry>
+    <entry key="notLocked">{0} method can only be called on a locked System object.</entry>
+    <entry key="noTuningBeforeLockingCodeGen">Tunable properties cannot be changed before this System object is locked.</entry>
+    <entry key="notUnlocked">The {0} method can only be called on an unlocked System object.</entry>
+    <entry key="numArgsMustBeEven">The number of arguments must be even.</entry>
+    <entry key="numerictypeNotSpecified">The {0} property must be set to a numerictype object.</entry>
+    <entry key="openInEditor">Source code</entry>
+    <entry key="outOfMemory">Could not allocate memory.</entry>
+    <entry key="outputChangedRealToComplex"><![CDATA[Changing output {0,number,integer} from real to complex is not allowed without first calling the <a href="matlab:helpview(fullfile(docroot,''matlab'',''matlab_prog'',''matlab_prog.map''),''sysobjs_locked'')">release()</a> method.]]></entry>
+    <entry key="outputImplUndefined"><![CDATA[The outputImpl method needs to be defined for System objects that return outputs (getNumOutputs > 0).]]></entry>
+    <entry key="OutputUpdateOnStepImpl">The output and update methods cannot be called on the ''{0}'' System object as it does not implement outputImpl or updateImpl. Call the System object as if it were a function.</entry>
+    <entry key="outIdxOutOfRange">Output index {0,number,integer} is out of range; it must be between 1 and {1,number,integer}.</entry>
+    <entry key="outputNotReady">The System object must be initialized before any outputs are available.</entry>
+    <entry key="outputSpecsChangedError"><![CDATA[Changing the output data type or dimensions is not allowed without first calling the <a href="matlab:helpview(fullfile(docroot,''matlab'',''matlab_prog'',''matlab_prog.map''),''sysobjs_locked'')">release()</a> method.]]></entry>
+    <entry key="paramNotFound">{0} class does not have a parameter named {1}.</entry>
+    <entry key="prefixesParamNotProvided">Prefixes parameter is required in calls to getFixptDataTypeInfo.</entry>
+    <entry key="propertyInvalidSetAccess">Setting the {0} property of class {1} is not allowed.</entry>
+    <entry key="propertySetWhenLocked"><![CDATA[Changing the value of a non-tunable property is not allowed without first calling the <a href="matlab:helpview(fullfile(docroot,''matlab'',''matlab_prog'',''matlab_prog.map''),''sysobjs_locked'')">release()</a> method.]]></entry>
+    <entry key="propagationFailed">{0} not set for {1} {2,number,integer} after propagation.</entry>
+    <entry key="propNameNotConstCodegen">Property name must be constant in code generation.</entry>
+    <entry key="missingPropertyPortIndex">Port ordinal {0,number,integer} is missing. SourceSet policies named 'PropertyOrInput' must have contiguous, unique port ordinals.</entry>
+    <entry key="duplicatePropertyPortIndex">Port ordinal {0,number,integer} is duplicated. SourceSet policies named 'PropertyOrInput' must have contiguous, unique port ordinals.</entry>
+    <entry key="propTunableSpecsChanged"><![CDATA[Changing the data type of a property value is not allowed without first calling the <a href="matlab:helpview(fullfile(docroot,''matlab'',''matlab_prog'',''matlab_prog.map''),''sysobjs_locked'')">release()</a> method.]]></entry>
+    <entry key="propTunableSpecsChangedSystemBlock">Changing the data type of a parameter value is not allowed.</entry>
+    <entry key="sfunPropTunableSpecsChangedCodegen">Changing the size of a tunable property value is not allowed after this object is constructed.</entry>
+    <entry key="saveObjectImplNotImplemented">The {0} System object has private or protected properties, but does not implement both the saveObjectImpl and loadObjectImpl methods. The save, load, and clone methods may not copy the object exactly when it is locked.</entry>
+    <entry key="setContinuousStateNotSupported">setContinuousState method is not supported for this object.</entry>
+    <entry key="setDiscreteStateNotSupported">setDiscreteState method is not supported for this object.</entry>
+    <entry key="setStateInputNotStruct">Input to the {0} method must be empty or a struct with {1} states as its fields.</entry>
+    <entry key="setStateNotLocked">The {0} method can only be called on a locked System object.</entry>
+    <entry key="setupCalledWhenLocked">Reported by {0}: The System object has reinitialized because the setup method was called on an initialized System object. This will affect performance.</entry>
+    <entry key="setupCalledWhenLockedCodegen">The setup method cannot be called on an initialized System object.</entry>
+    <entry key="showSimulateUsingType">Unexpected type returned from showSimulateUsingImpl. You must specify true or false.</entry>
+    <entry key="showFiSettingsType">Unexpected type returned from showFiSettingsImpl. You must specify true or false.</entry>
+    <entry key="tooManyElementsInput">Reported by {0}: Too many elements in input {1,number,integer}. The maximum number of elements is {2,number,integer}.</entry>
+    <entry key="tooManyElementsOutput">Reported by {0}: Too many elements in output {1,number,integer}. The maximum number of elements is {2,number,integer}.</entry>
+    <entry key="methodCalledWhenLockedReleasedCodegen">The {0} method cannot be called on an initialized System object or after calling the release method.</entry>
+    <entry key="methodCalledWhenReleasedCodegen">The {0} method cannot be called after calling the release method.</entry>
+    <entry key="setupCalledWhenLockedReleasedCodegen">The setup method cannot be called on an initialized System object or after calling the release method.</entry>
+    <entry key="ShowAllPropertiesText">Show all properties</entry>
+    <entry key="runtimeMethodCalledWhenReleasedCodegen">Runtime methods cannot be called after calling the release method. Runtime methods include ''step'', ''output'', ''update'', and ''release''.</entry>
+    <entry key="sparseInput">Input arguments must not be sparse.</entry>
+    <entry key="srcSetReusePropArgList">The SourceSet policy must be specified using cell array syntax when Name-Value pairs, such as 'ReuseProperty' are specified.</entry>
+    <entry key="sourceSetDisallowedAttributes">{0} is a SourceSet. It must have the Constant attribute and cannot have any of the following attributes: Logical, PositiveInteger, DiscreteState, Nontunable, Abstract, Transient, or Dependent.</entry>
+    <entry key="sourceSetCntrlPropNotFound">{0} is named as a control property for a SourceSet property and cannot be found on {1}.</entry>
+    <entry key="SourceSetControlProperyNotString">Control property for a SourceSet property, {0}, must be a character array.</entry>
+    <entry key="sourceSetControlMethodMissing">{0} in a method named by a SourceSet and is missing or is in a base class and has private access.</entry>
+    <entry key="sourceSetControlMethodInvalid">{0} is a method used by a SourceSet.  It must be a method on the System object and must have no inputs (excluding the obj parameter).</entry>
+    <entry key="sourceSetControlMethodStaticAbstract">{0} is a method used by a SourceSet and cannot be Static or Abstract.</entry>
+    <entry key="sourceSetControlPropInvalid">{0} is a control property for a SourceSet property and must be a property on the System object.  It also must have the Nontunable and Logical attributes and not have the Hidden attribute.</entry>
+    <entry key="sourcesetInvalidOptionalParameter">The {0} SourceSet policy has an illegal input, {1}.</entry>
+    <entry key="sourceSetPairedDisallowedAttributes">{0} is paired with a SourceSet.  It must have public access and cannot have any of the following attributes: Logical, DiscreteState, Nontunable, Abstract, Transient, or Dependent.</entry>
+    <entry key="sourceSetPairedMismatch">The SourceSet property {0} is missing the corresponding property {1}.</entry>
+    <entry key="specsChangedCodeGen">Reported by {0}: The dimensions, complexity, and data type of the {1} method inputs cannot change when the System object is locked.</entry>
+    <entry key="stateDiscreteContinuous">Property ''{0}'' cannot be both DiscreteState and ContinuousState.</entry>
+    <entry key="stateInvalidAccess">{0} property ''{1}'' must have public GetAccess.</entry>
+    <entry key="stateInvalidProperties">{0} property ''{1}'' must not be Abstract, Constant, Dependent, Nontunable, Static, or Transient.</entry>
+    <entry key="stateInvalidPublicSet">Cannot set property ''{0}''; State properties have protected set access and cannot be set from outside the System object.</entry>
+    <entry key="stateInvalidSet">State property ''{0}'' can only be set when the object is initializing (in setupImpl) or after the object is locked.</entry>
+    <entry key="stateNonNullDefault">The default value of {0} property ''{1}'' must be unset.</entry>
+    <entry key="stateSpecChanged">{0} for state property ''{1}'' changed. Data type, dimensions and complexity for DiscreteState properties cannot change after the System object is locked.</entry>
+    <entry key="stepImplUndefined"><![CDATA[The stepImpl method needs to be defined for System objects that return outputs (getNumOutputs > 0).]]></entry>
+    <entry key="sysobjupdateMessage">This data structure contains the System object syntax changes recommended by {0}.</entry>
+    <entry key="sysobjupdateInvalidInput">Unrecognized input. Type "help {0}" for more information on valid inputs.</entry>
+    <entry key="sysobjupdateInvalidInteractive">Invalid input argument. The input argument, INTERACTIVE, must be a logical, either true or false.</entry>
+    <entry key="sysobjupdateInvalidNumInputs">Invalid number of inputs. Valid values for OperatingMode are: Analyze, GenerateNew, and Overwrite.</entry>
+    <entry key="sysobjupdateInvalidOperatingMode">Invalid value for OperatingMode. Valid values for OperatingMode are: Analyze, GenerateNew, and Overwrite.</entry>
+    <entry key="sysobjupdateSizeMismatch">The number of old names does not match the number of new names.</entry>
+    <entry key="sysobjupdateUnsupportedVersion">Unsupported MATLAB version (R{0}). SYSOBJUPDATE supports versions R2010b and later.</entry>
+    <entry key="systemPropNotSystemObject">The class matlab.system.SystemProp is only usable with System objects.</entry>
+    <entry key="throwObsoleteWarningInvalidInput">Input TYPE must be either ''property'', ''method'', or ''package''</entry>
+    <entry key="throwObsoleteWarningIncompatible">{0}{1} will be removed in a future release.</entry>
+    <entry key="throwObsoleteWarningIncompatibleNewName">{0}{1} will be removed in a future release. Use {2} instead.</entry>
+    <entry key="throwObsoleteWarningIncompatibleNewNameUpdate">{0}{1} will be removed in a future release. Use {2} instead. Run SYSOBJUPDATE to automatically update your code. See {3} Release Notes for more information.</entry>
+    <entry key="throwObsoleteWarningIncompatibleUpdate">{0}{1} will be removed in a future release. Run SYSOBJUPDATE to automatically update your code. See {2} Release Notes for more information. </entry>
+    <entry key="throwObsoleteWarningNotRecommended">{0}{1} is not recommended.</entry>
+    <entry key="throwObsoleteWarningNotRecommendedNewName">{0}{1} is not recommended. Use {2} instead.</entry>
+    <entry key="throwObsoleteWarningNotRecommendedNewNameUpdate">{0}{1} is not recommended. Use {2} instead. Run SYSOBJUPDATE to automatically update your code. See {3} Release Notes for more information.</entry>
+    <entry key="throwObsoleteWarningNotRecommendedUpdate">{0}{1} is not recommended. Run SYSOBJUPDATE to automatically update your code. See {2} Release Notes for more information.</entry>
+    <entry key="tooManyInputsDimensions">Code generation does not support more than {0,number,integer} dimensions for variable size inputs.</entry>
+    <entry key="unknownDataType">Unknown data type for index input.</entry>
+    <entry key="unlockedMethodCall">The {0} method cannot be called on a System object that has not been initialized.</entry>
+    <entry key="unsupportedHDLMethod">Call to ''{0}'' method is not supported for HDL code generation.</entry>
+    <entry key="unsupportedInputDataType">Inputs must be either numeric or logical variables or fi objects.</entry>
+    <entry key="unsupportedFixptDataType">Fi object inputs or outputs do not support unspecified scaling.</entry>
+    <entry key="fixptDataTypeCreationFailed">Unable to create a fixedpoint character vector for the given Fi object.</entry>
+    <entry key="unsupportedFixptDataTypeCodeGen">Fi object inputs must have the DataTypeMode property set to one of ''Double'', ''Single'', ''Fixed-point: binary point scaling'' or ''Scaled double: binary point scaling''.</entry>
+    <entry key="unsupportedFixptDataTypeStateCodeGen">Fi objects must have the DataTypeMode property set to one of ''Double'', ''Single'', ''Fixed-point: binary point scaling'' or ''Scaled double: binary point scaling''.</entry>
+    <entry key="unsupportedIOFixptDataType">Fi object {0} {1} System object must have the DataTypeMode property set to one of 'Double', 'Single' or 'Fixed-point: binary point scaling'.</entry>
+    <entry key="unsupportedMixedFloats">This System object does not support mixed floating-point types.</entry>
+    <entry key="unsupportedSetCodegen"><![CDATA[The set method only works with <name, value> inputs in code generation.]]></entry>
+    <entry key="unsupportedStateValueContinuous">ContinuousState property values must be non-sparse, real-valued double vectors.</entry>
+    <entry key="unsupportedStateValueDiscrete">DiscreteState property values must be either numeric or logical variables or fi objects, and must be non-sparse.</entry>
+    <entry key="unsupportedContinuousStatePropertiesHDL">System objects with ContinuousState properties are not supported for HDL code generation.</entry>
+    <entry key="unknownActionPlacement">Action Placement ''{0}'' does not match ''first'', ''last'', or the name of a property in its group PropertyList.</entry>
+    <entry key="unknownImagePlacement">Image Placement ''{0}'' does not match ''first'', ''last'', or the name of a property in its group PropertyList.</entry>
+    <entry key="emptyImageFile">The File property for matlab.system.display.Image class must not be empty.</entry>
+    <entry key="unknownDisplayProperty">PropertyList entry ''{0}'' does not match any property.</entry>
+    <entry key="unknownDependOnPrivateProperty">DependOnPrivatePropertyList entry ''{0}'' does not match any property in PropertyList.</entry>   
+    <entry key="unknownSystem">System object ''{0}'' cannot be found or is not valid.</entry>
+    <entry key="unknownSystemMapKey">Cannot find key matching System object.</entry>
+    <entry key="unknownWidgetType">Unknown widget type</entry>
+    <entry key="updateCalledAfterSpecsChanged">Invalid update call - the input specifications have changed.</entry>
+    <entry key="updateCalledBeforeSetup">The update method may not be called before step or output is called.</entry>
+    <entry key="updateCalledBeforeSetupCodegen">Reported by {0}: The update method may not be called before step or output is called.</entry>
+    <entry key="updateScompHelpInvalidFlag">Invalid flag: {0}</entry>   
+    <entry key="varDimNotSupported">Reported by {0}: This System object (or its current configuration) does not support variable input sizes.</entry>
+    <entry key="varsizeOutputDimsMoreThanTwo">Reported by {0}: Variable sized outputs of data with more than two dimensions is not supported for this System object.</entry>
+    <entry key="varsizeOutputDimsScalar">Reported by {0}: Code generation is not supported for scalar output signals that can change size.</entry>
+    <entry key="varsizeScalarInput">Variable size scalar on input {0,number,integer} is not allowed.</entry>
+    <entry key="warnForLoadDiscreteState">Reported by {0}: For Discrete state ''{1}'' saved specifications do not match current specification. The saved data is not loaded.</entry>
+    <entry key="warnForLoadPersistentOutput">Reported by {0}: For port {1,number,integer} saved specifications do not match current specification. The saved data is not loaded.</entry>
+    <entry key="WithPropertiesText">with properties:</entry>
+    <entry key="WithNoPropertiesText">with no properties.</entry>
+    <entry key="wordLengthTooLarge">System objects do not support fixed-point word lengths greater than 128 bits.</entry>
+    <entry key="wrongParamFormat">(Internal) Parameters need to be in a cell format.</entry>
+    <entry key="wrongPlatform">(Internal) Unrecognized platform: {0}.</entry>
+    <entry key="wrongRenderer">(Internal) Unrecognized renderer: {0}.</entry>
+    <entry key="CRLDWorkDimArgIsNotDerivedParam">Invalid argument, ''{0}'', specified for derived dimension argument. The argument must be a derived parameter.</entry>
+    <entry key="CRLCannotEvaluateDWorkDimArg">The expression specified for the derived parameter, ''{0}'', does not evaluate to a scalar. The derived parameter specified as derived dimension argument must evaluate to a double scalar.</entry>
+    <entry key="CRLMatrixTypeForDWorkLength">Argument ''{0}'' specified for dimension value must be scalar.</entry>
+    <entry key="CRLInvalidTypeForDWorkDimArg">Invalid data type specified for ''{0}''. The derived parameter must evaluate to be of data type, ''double''.</entry>
+    <entry key="CRLCompileErrorForDerivedArg">CRL compile error for derived expression: {0} requires {1} to be defined by the expression {2}.</entry>
+    <entry key="CRLNoTunableSupport"> Not all tunable properties can be changed after locking a System object when using CRL. The following properties of {0} cannot be changed after a call to step: {1}.</entry>
+    <entry key="DialogErrorSettingProperty">Error setting property on System object</entry>
+    <entry key="DataTypesGroupDefaultDescription">Floating-point inheritance takes precedence over the data type settings in this section. When the block input is floating point, all block data types match the input.</entry>
+    <entry key="DataTypesGroupDefaultTitle">Data Types</entry>
+    <entry key="DataTypesGroupInvalidProperty">You cannot use a Property object in a DataTypesGroup.  Use DataTypeProperty objects instead.</entry>
+    <entry key="UnknownValueProperty">Property ''{0}'' specified as ValuePropertyName does not exist.</entry>
+    <entry key="DialogOKButton">OK</entry> 
+    <entry key="DialogCancelButton">Cancel</entry>
+    <entry key="DialogUnappliedChangesTitle">Unapplied changes: {0}</entry>
+    <entry key="DialogInvalidExpression">The entered value cannot be evaluated.  All values must be valid MATLAB expressions.</entry>
+    <entry key="DialogUnappliedChangesText">Dialog changes must be applied to use button.</entry>
+    <entry key="DialogCannotCompleteAction"><![CDATA[Unable to complete action due to error:\n\n{0}]]></entry>
+    <entry key="SimulateUsingErrorWithFiSettings">When showFiSettings is set to true, the 'SimulateUsing' parameter must be set to 'Code generation'.</entry>
+    <entry key="ShowFiSettingsErrorWithDataTypeGroup">When showFiSettings is set to true, data type properties are not supported.</entry>
+    <entry key="mustReturnNonnegativeIntScalar">{0} must return a numeric, integer-valued, nonnegative scalar less than {1}.</entry>
+    <entry key="mustReturnPositiveIntScalar">{0} must return a numeric, integer-valued, positive scalar less than {1}.</entry>
+    <entry key="mustReturnNonnegativeIntScalarCodegen">Reported by {0}: {1} must return a numeric, integer-valued, nonnegative scalar less than {2}.</entry>
+    <entry key="sizeMustBeNonnegativeIntScalarCodegen">Reported by {0}: Invalid size returned by {1}. Each dimension must be a numeric, integer-valued, nonnegative scalar less than {2}.</entry>
+    <entry key="invalidImpulseResponseLength">{0} must return a numeric, integer-valued, nonnegative scalar less than {1} or Inf. </entry>
+    <entry key="mismatchGetNumInputsImplStepImpl">Incorrect definition of {0} in {1}. {2} returns {3, number, integer}, but {4} defines {5,number,integer} input argument(s) (in addition to System object). {6} must define at least {7,number,integer} input argument(s) (in addition to System object).</entry>
+    <entry key="IsChangedPropertyExpectedText">To specify property names for isChangedProperty, use a character vector, a cell array of character vectors, or a string array.</entry>
+    <entry key="maxNumInputsFewerAllowed">Too many input arguments. Expected at most {0,number,integer} input argument(s) (in addition to System object), got {1,number,integer}.</entry>
+    <entry key="UndefinedMethod">Class ''{1}'' does not have a method ''{0}'' with the expected signature.</entry>
+    <entry key="getInterfaceImplReturnInvalidValue">Invalid return value from getInterfaceImpl for ''{0}''. The return value must be a vector of input, output elements.</entry>
+</message>
+</rsccat>

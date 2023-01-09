@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidProjectionMatrix">カメラの射影行列を取得できません</entry>
+    <entry key="getPositionFailed">テキスト getPosition 内でのエラー。</entry>
+    <entry key="TranfromPointsFailed">TransformPoints 内でのエラー</entry>
+    <entry key="InvalidScale">倍率は正でなければなりません</entry>
+    <entry key="InvalidXYZData">配列 {0} は無効です。Faces と Vertices は更新されません。</entry>
+    <entry key="InvalidFaceVertexData">Face または Vertex のデータ配列が無効です。{0} は更新されません。</entry>
+    <entry key="InvalidOSGWarningLevel">サポートされているレベル: always、fatal、warn、notice、info、debug_info、debug_fp</entry>
+    <entry key="InvalidMarkerShaderOpenGLVersionLimitedValue">サポートされている値は 0 と 1 です</entry>
+  </message>
+</rsccat>

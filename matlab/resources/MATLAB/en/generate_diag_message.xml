@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0" string_type_for_hole="mixed">
+  <message>
+    <entry key="invalid_lib">''{0}'' is not a valid shared library.</entry>
+	  <entry key="not_64bit">''{0}'' has different architecture than the host.</entry>
+	  <entry key="missing_deps">Missing dependent shared libraries:</entry>
+	  <entry key="lib_req">''{0}'' required by ''{1}''</entry>
+	  <entry key="missing_sym_win">Missing symbol ''{0}'' in ''{1}'' required by ''{2}''</entry>
+	  <entry key="missing_sym_linux">Missing symbol ''{0}'' required by ''{1}''</entry>
+  </message>
+</rsccat>
+
+

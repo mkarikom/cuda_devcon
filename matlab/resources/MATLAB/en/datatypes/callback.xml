@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CreateCallback" note="stringDatatypeUpdate">Callback value must be a character vector, a function handle, or a cell array containing character vector or function handle</entry>
+    <entry key="ResizeFcn">\nYou might see this error if any of the variables in the figure's SizeChangedFcn are undefined when the figure becomes visible. Consider waiting to set the figure's Visible property to 'on' until all the SizeChangedFcn variables are defined.</entry>
+    <entry key="SyntaxErrorIn">Syntax error in {0} {1}.</entry>
+    <entry key="ErrorWhileEvaluating">Error while evaluating {0} {1}.</entry>
+    <entry key="InterruptWhileEvaluating">Interrupt while evaluating {0} {1}.</entry>
+  </message>
+</rsccat>

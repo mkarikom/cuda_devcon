@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidInput">函数 {0} 中的输入参数无效。</entry>
+    <entry key="imageMustBe2D">DITHER(I): 强度图像 I 必须为二维数组。</entry>
+    <entry key="imageMustBe3D">DITHER(RGB,map): RGB 图像必须为三维数组。</entry>
+    <entry key="colormapMustBe2D">在函数 {0} 中，输入颜色图必须为 2 维数组并且包含至少 2 行和恰好 3 列。</entry>
+  </message>
+</rsccat>

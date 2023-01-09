@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="thirdArgElements">COL 必须包含绝对值介于 0 到 size(A, 2) 之间的整数。</entry>
+    <entry key="thirdArgType">COL 必须为实数满向量。</entry>
+    <entry key="firstArgType">CATEGORICALSORTROWS 的第一个参数必须为 uint8、uint16 或 uint32 类型的实数满矩阵。</entry>
+    <entry key="secondArgType">CATEGORICALSORTROWS 的第二个参数必须为介于 0 到 intmax(class(X)) 之间的正实数标量。</entry>
+    <entry key="ElementTooLarge">CATEGORICALSORT 的第一个参数 X 的元素必须介于 0 到 N 之间。</entry>
+  </message>
+</rsccat>

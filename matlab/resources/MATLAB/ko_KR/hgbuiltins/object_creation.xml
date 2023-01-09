@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidArgs">입력 인수의 개수가 올바르지 않습니다.</entry>
+    <entry key="CannotSpecifyPVPairsWithNumericConvenienceArg">파라미터-값 쌍에는 숫자형 figure 핸들이 지원되지 않습니다.</entry>
+    <entry key="InvalidConvenienceArgHandle">첫 번째 인수는 figure 객체나 panel 객체 같은 유효한 부모여야 합니다.</entry>
+    <entry key="InvalidFigureArgHandle">인수는 Figure 객체이거나 양의 정수여야 합니다.</entry>
+    <entry key="CannotSpecifyPVPairsWithNonParentConvenienceArg">유효하지 않은 입력값 조합입니다. 파라미터-값 쌍은 figure 객체나 panel 객체 같은 유효한 부모로 지정해야 합니다.</entry>
+    <entry key="CannotSpecifyConvenienceArg">입력 인수는 파라미터-값 쌍이어야 합니다. 각 파라미터 이름 다음에는 대응값이 와야 합니다.</entry>
+    <entry key="ObjectIsNotParentedToAFigure">객체의 부모가 아직 Figure로 설정되지 않았습니다.</entry>
+    <entry key="NoDefaultPropertyAvailable">There is no Default property ''{0}'' for the ''{1}'' class.</entry>
+    <entry key="PropertyDoesNotExist">There is no ''{0}'' property in the ''{1}'' class.</entry>
+    <entry key="DoubleConvertibleArgument">숫자형이 아닌 데이터는 ''{0}''에 사용할 수 없습니다.</entry>
+    <entry key="DoubleConvertibleArgumentDatetime">데이터는 숫자형, datetime형 또는 duration형이거나, double형으로 변환될 수 있는 배열이어야 합니다.</entry>
+  </message>
+</rsccat>

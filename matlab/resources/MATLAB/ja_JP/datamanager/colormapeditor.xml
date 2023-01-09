@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ColormapUIFigure">カラーマップ エディター</entry>
+    <entry key="EditorMenu">ファイル</entry>
+    <entry key="Import">インポート...</entry>
+    <entry key="Saveas">名前を付けて保存...</entry>
+    <entry key="CustomColormap">カスタム</entry>
+    <entry key="EditMenu">編集</entry>
+    <entry key="OpenDoc">ドキュメンテーションを開く...</entry>
+    <entry key="Undo">元に戻す</entry>
+    <entry key="Redo">やり直し</entry>
+    <entry key="ResetCurrent">現在の座標軸のカラーマップをリセット</entry>
+    <entry key="ResetAll">すべての座標軸のカラーマップをリセット</entry>
+    <entry key="HelpMenu">ヘルプ</entry>
+    <entry key="SelectLabel">カラーマップ</entry>
+    <entry key="SelectPanel">カラーマップの選択</entry>
+    <entry key="CustomizePanel">カラーマップのカスタマイズ</entry>
+    <entry key="EditSizePanel">サイズと色空間を編集</entry>
+    <entry key="SetLimitsPanel">カラーマップの制限を設定</entry>
+    <entry key="Shift">シフト</entry>
+    <entry key="SpecifyColor">色の指定</entry>
+    <entry key="CurrentColor">現在の色</entry>
+    <entry key="CurrentIndex">現在のインデックス</entry>
+    <entry key="CurrentCData">現在の CData</entry>
+    <entry key="Colorspace">色空間</entry>
+    <entry key="InterpolatingColorspace">色空間の内挿</entry>
+    <entry key="Size">サイズ</entry>
+    <entry key="Reverse">反転</entry>
+    <entry key="ClimMin">CLim の最小値</entry>
+    <entry key="ClimMax">CLim の最大値</entry>
+    <entry key="ColorData">カラー データ (CData) の値</entry>
+    <entry key="MustNotEmpty">カラーマップを空にしてはなりません</entry>
+    <entry key="ProgressLabel">お待ちください - 初期化中</entry>
+    <entry key="InitialLabel">はじめて開いています</entry>
+    <entry key="FinishLabel">終了中</entry>
+    <entry key="ChooseColor">色の選択</entry>
+    <entry key="ErrorSettingColorMsg">色の設定には 0 から 1 までの RGB 値を使用してください</entry>
+    <entry key="InvalidColor">無効な色</entry>
+    <entry key="SaveColormap">カラーマップをワークスペースに保存</entry>
+    <entry key="CancelButton">キャンセル</entry>
+    <entry key="SelectColormapToImport">カラーマップの選択:</entry>
+    <entry key="ImportFromWS">カラーマップをワークスペースからインポート</entry>
+    <entry key="ImportLabel">カラーマップをワークスペースからインポート</entry>
+    <entry key="ErrorWhileImport">カラーマップを選択するか、[キャンセル] を押して閉じてください</entry>
+    <entry key="NoColormap">カラーマップが選択されていません</entry>
+    <entry key="ErrorInSave">カラーマップの更新中にエラーが発生しました</entry>
+    <entry key="OkLabel">OK</entry>
+    <entry key="InvalidCLim">クラス 'Axes' のプロパティ 'CLim' の設定中にエラーが発生しました。値は 2 番目の要素が最初の要素よりも大きいか Inf である、数値型の 1 行 2 列のベクトルでなければなりません。</entry>
+  </message>
+</rsccat>

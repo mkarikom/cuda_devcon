@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CenterTooLarge">''Center'' の値がグラフのノード数 ({0}) より大きくなっています。</entry>
+    <entry key="MultigraphNotSupported">多重グラフはサポートされていません。</entry>
+    <entry key="DuplicatesSRCSubset">ソース ノードは一意でなければなりません。</entry>
+    <entry key="DuplicatesTARGSubset">ターゲット ノードは一意でなければなりません。</entry>
+    <entry key="EqualNrCols">入力行列の列数は等しくなければなりません。</entry>
+    <entry key="EqualNumel">ソース ノードとターゲット ノードは、どちらかがスカラーである場合を除き、同じ数の要素をもたなければなりません。</entry>
+    <entry key="MustBeSparse">入力はスパース行列でなければなりません。</entry>
+    <entry key="MustBeSparseSquare">入力は実数の double 型要素から成る正方スパース行列でなければなりません。</entry>
+    <entry key="NoDenseTransp">フラグ ''transp'' はスパース行列に対してのみサポートされています。</entry>
+    <entry key="NoUndirTransp">フラグ ''transp'' は有向グラフに対してのみサポートされています。</entry>
+    <entry key="IncidenceSelfLoops">自己ループのあるグラフでは、接続行列はサポートされていません。</entry>
+    <entry key="InconsistentGraphs">G1 と G2 ではノード数とエッジ数が同じでなければなりません。</entry>
+    <entry key="InconsistentNodeCat">同じカテゴリのノードは次数が同じでなければならず、各カテゴリのノード数は G1 と G2 で同じでなければなりません。</entry>
+    <entry key="InvalidAdjacency">データ型が無効です。隣接行列は double、single または logical の実数の正方行列でなければなりません。</entry>
+    <entry key="InvalidCenterNumeric">数値として指定する場合、''Center'' の値は正の整数でなければなりません。</entry>
+    <entry key="InvalidCenterType">''Center'' の値は、数値のノード インデックスまたはノード名でなければなりません。</entry>
+    <entry key="InvalidCombination">部分集合内の最も近いノードへの最短パスが利用できません</entry>
+    <entry key="InvalidEdgeCat">EdgeCats は、サイズが numedges(G) 行 2 列で型が uint64 の行列でなければなりません。</entry>
+    <entry key="InvalidEdgeCatEmpty">EdgeCats は、型が uint64 でサイズが numedges(G) 行 2 列または 0 行 0 列の行列でなければなりません。</entry>
+    <entry key="InvalidNodeCat">NodeCats は、サイズが numnodes(G) 行 2 列で型が uint64 の行列でなければなりません。</entry>
+    <entry key="InvalidNodeCatElements">NodeCats は、N をカテゴリの数とした場合、0 ～ N-1 の間の整数でなければなりません。</entry>
+    <entry key="InvalidTranspFlag">オプションは ''transp'' でなければなりません。</entry>
+    <entry key="InvalidFormat">テーブルの形式は論理スカラーでなければなりません。複数のイベントを設定する場合、true でなければなりません。</entry>
+    <entry key="InvalidGravity">''UseGravity'' の値は ''on'' か ''off'' でなければなりません。</entry>
+    <entry key="InvalidInnerNode">isInnerNode は長さ n の密な論理ベクトルでなければなりません。</entry>
+    <entry key="InvalidIterations">反復回数は正の有限の整数値スカラーでなければなりません。</entry>
+    <entry key="InvalidLabelVec">イベント選択ベクトルは 6 要素の論理ベクトルでなければなりません。</entry>
+    <entry key="InvalidLayerSize">レイヤー サイズは長さが 1 以上で正の整数が含まれる密な double ベクトルでなければなりません。</entry>
+    <entry key="InvalidXCoord">Xcoord は、ノード数と長さが等しい実数の密な double ベクトルでなければなりません。</entry>
+    <entry key="InvalidLeftRight">LeftRight は論理スカラーでなければなりません。</entry>
+    <entry key="InvalidAllPathsParameter">Parameter value must be a nonnegative integer or Inf.</entry>
+    <entry key="InvalidAllCyclesParameter">Parameter value must be a positive integer or Inf.</entry>
+    <entry key="InvalidAllPathsReachability">Reachability must be a dense logical vector with length equal to the number of nodes.</entry>
+    <entry key="InvalidNearestK">ノード数は正の整数でなければなりません。</entry>
+    <entry key="InvalidNodeScalar">ノード ID はグラフ内のノード数 ({0,number,integer}) 以下の正の整数スカラーでなければなりません。</entry>
+    <entry key="InvalidNodes">ノード ID はグラフ内のノード数 ({0,number,integer}) 以下の正の整数の double の配列でなければなりません。</entry>
+    <entry key="InvalidNumNodes">ノード数は実数で非負の整数でなければなりません。</entry>
+    <entry key="InvalidRestart">Restart の値は true または false でなければなりません。</entry>
+    <entry key="InvalidSRC">ソースは正の整数のノード インデックスからなる数値配列でなければなりません。</entry>
+    <entry key="InvalidSRCRange">ソース ノード ID はグラフ内のノード数 ({0,number,integer}) 以下の整数でなければなりません。</entry>
+    <entry key="InvalidSRCSubset">ソースは数値ノード インデックスのベクトルか、文字ベクトル ''all'' でなければなりません。</entry>
+    <entry key="InvalidStart">開始ノードは double のスカラーのノード インデックスでなければなりません。</entry>
+    <entry key="InvalidSubset">部分集合の要素は有効な数値ノード インデックスでなければなりません。</entry>
+    <entry key="InvalidSyntaxAdjacency">許可される構文は adjacency(G)、adjacency(G, w)、adjacency(..., ''transp'') です。w は長さ numedges(G) の実数の double ベクトルでなければなりません。</entry>
+    <entry key="InvalidTARG">ターゲットは正の整数のノード インデックスからなる数値配列でなければなりません。</entry>
+    <entry key="InvalidTARGRange">ターゲット ノード ID はグラフ内のノード数 ({0,number,integer}) 以下の整数でなければなりません。</entry>
+    <entry key="InvalidTARGSubset">ターゲットは数値ノード インデックスのベクトルか、文字ベクトル ''all'' でなければなりません。</entry>
+    <entry key="InvalidTarget">Target node must be a double scalar node index.</entry>
+    <entry key="InvalidUpLo">UpperLower は論理スカラーでなければなりません。</entry>
+    <entry key="InvalidWeight">グラフ エッジの重みは double または single で、グラフ内のエッジ数と等しい長さの実数ベクトルでなければなりません。</entry>
+    <entry key="InvalidWeightAdjacency">重みは double 型で長さ numedges(G) の密な実数のベクトルでなければなりません。</entry>
+    <entry key="InvalidWeightsDirectWEff">''WeightEffect'' の値が ''direct'' の場合、エッジの重みは非ゼロかつ非 NaN でなければなりません。</entry>
+    <entry key="InvalidWeightsInverseWEff">''WeightEffect'' の値が ''inverse'' の場合、エッジの重みは有限でなければなりません。</entry>
+    <entry key="InvalidWEffect">''WeightEffect'' の値は ''direct''、''inverse''、''none'' のいずれかでなければなりません。</entry>
+    <entry key="InvalidXCoordinates">X 座標の初期値は {0,number,integer} 個の要素から成る実数の数値ベクトルでなければなりません。</entry>
+    <entry key="InvalidYCoordinates">Y 座標の初期値は {0,number,integer} 個の要素から成る実数の数値ベクトルでなければなりません。</entry>
+    <entry key="InvalidZCoordinates">Z 座標の初期値は {0,number,integer} 個の要素をもつ実数の数値ベクトルでなければなりません。</entry>
+    <entry key="MaxflowInvalidNodes">ソース ノードとターゲット ノードは異なっていなければなりません。</entry>
+    <entry key="MaxflowScaling">最大フロー問題が正しくスケーリングされていません。エッジの重みの再スケーリングを検討してください。</entry>
+    <entry key="MustBeDigraph">入力は MLDigraph でなければなりません。</entry>
+    <entry key="MustBeGraph">入力は MLGraph でなければなりません。</entry>
+    <entry key="NaNWeight">グラフ エッジの重みに NaN が含まれています。</entry>
+    <entry key="NegativeWeight">グラフ エッジの重みは非負でなければなりません。</entry>
+    <entry key="NonfiniteXCoordinates">X 座標の初期値は有限でなければなりません。</entry>
+    <entry key="NonfiniteYCoordinates">Y 座標の初期値は有限でなければなりません。</entry>
+    <entry key="NonfiniteZCoordinates">Z 座標の初期値は有限でなければなりません。</entry>
+    <entry key="NonSymmetricAdjacency">グラフの隣接行列は対称でなければなりません。</entry>
+    <entry key="NonZeroTwoCycle">入力グラフには 2 つの非ゼロの重みをもつ 2 つの閉路が含まれています。</entry>
+    <entry key="NoSelfLoops">入力グラフは自己ループを含んではなりません。</entry>
+    <entry key="NotReverseTopological">ダイグラフは逆のトポロジー順序でなければなりません。</entry>
+    <entry key="NumNodesTooSmall">ノード数は {0,number,integer} 以上でなければなりません。</entry>
+    <entry key="SymmetricAdjacency">隣接行列は対称でなければなりません。</entry>
+    <entry key="UseGravityLogical">''UseGravity'' の値は ''on''、''off''、または logical スカラーでなければなりません。</entry>
+    <entry key="WEffLayoutFailed">レイアウトのアルゴリズムが数値オーバーフローにより失敗しました。グラフ エッジの重みの再スケーリングを検討してください。</entry>
+    <entry key="WrongLayerSum">レイヤー サイズの和はノード数と等しくなければなりません。</entry>
+    <entry key="MatchingOneInput">1 入力の構文の入力は、密の正方でなければなりません。</entry>
+    <entry key="MatchingTwoInputs">2 入力の構文の場合、最初の入力はスパースの正方でなければならず、2 番目の入力は実数の double ベクトルで、かつその長さが最初の入力の非ゼロの数に等しくなければなりません。</entry>
+    <entry key="LoadCorrupted">graph オブジェクトまたは digraph オブジェクトが破損しているため読み込めません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ErrorUpdating">Error updating {0}.</entry>
+      <entry key="ErrorInProperty">Error creating or updating {0} \n Error in value of property {1} \n {2}</entry>
+    <entry key="ErrorInMultipleProperties">Error creating or updating {0} \n Error in value of one or more of the following properties: {1} \n {2}</entry>
+  </message>
+</rsccat>

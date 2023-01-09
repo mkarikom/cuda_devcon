@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInputStrings">첫 번째 인수는 string형 배열, 문자형 벡터, 문자형 벡터로 구성된 셀형 배열 중 하나여야 합니다.</entry>
+    <entry key="InvalidFirstOptionalArg">첫 번째 선택적 인수는 string형 배열, 문자형 벡터, 문자형 벡터로 구성된 셀형 배열, 논리형 배열 또는 integer array이어야 합니다.</entry>
+    <entry key="MissingNames">첫 번째 입력 인수에는 {0} 값을 사용할 수 없습니다.</entry>
+    <entry key="NonPositiveRange">고유하게 만들 요소의 인덱스는 양의 정수여야 합니다.</entry>
+    <entry key="OutOfBoundRange">고유하게 만들 요소의 인덱스가 첫 번째 인수의 요소 개수를 초과합니다.</entry>
+    <entry key="BadLengthLogicalMask">첫 번째 인수와 고유하게 만들 인덱스의 논리형 배열은 요소 개수가 동일해야 합니다.</entry>
+    <entry key="BadMaxStringLength">두 번째 선택적 인수는 음이 아닌 정수여야 합니다.</entry>
+    <entry key="CannotMakeUnique">입력 인수의 조합을 고유하게 만들 수 없습니다.</entry>
+  </message>
+</rsccat>

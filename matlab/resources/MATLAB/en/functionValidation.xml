@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="fl_ustring">
+  <message>
+    <entry key="Period" translate="false" note="translate=false set due no translatable content">,</entry>
+
+    <!-- Preambles, not exceptions. -->
+    <entry key="PreambleForRuntimeInputError">Invalid argument list.</entry>
+    <entry key="PreambleForRuntimePositionalError">Invalid argument at position {0}.</entry>
+    <entry key="PreambleForRuntimePositionalErrorWithDotInvocationOfInvalidObject">Invalid object.</entry>
+    <entry key="PreambleForRuntimeNameValueError">Invalid name-value argument ''{0}''.</entry>
+    <entry key="PreambleForDefinitionError">Function argument definition error in {0}.</entry>
+    <entry key="PreambleForDefaultValueError">Invalid default value for argument ''{0}''.</entry>
+
+    <!-- Messages for misspelled names in nv -->
+    <entry key="ShortStringChoices" note="0 is a list of strings seprated by new lines">
+      Name must be one of these:\n{0}
+    </entry>
+
+    <entry key="SixStringChoices" note="0/1/2/3/4/5 is a string">
+      Name must be ''{0}'', ''{1}'', ''{2}'', ''{3}'', ''{4}'', or ''{5}''.
+    </entry>
+
+    <entry key="FiveStringChoices" note="0/1/2/3/4 is a string">
+      Name must be ''{0}'', ''{1}'', ''{2}'', ''{3}'', or ''{4}''.
+    </entry>
+
+    <entry key="FourStringChoices" note="0/1/2/3 is a string">
+      Name must be ''{0}'', ''{1}'', ''{2}'', or ''{3}''.
+    </entry>
+
+    <entry key="ThreeStringChoices" note="0/1/2 is a string">
+      Name must be ''{0}'', ''{1}'', or ''{2}''.
+    </entry>
+
+    <entry key="TwoStringChoices" note="0/1 is a string">
+      Name must be ''{0}'' or ''{1}''.
+    </entry>
+
+    <entry key="OneStringChoice" note="0 is a string">
+      Use ''{0}''.
+    </entry>
+
+    <!-- Suffix message for runtime errors -->
+    <entry key="NotEnoughInputsSuffix">Function requires {0} input(s).</entry>
+
+    <!-- Runtime errors -->
+    <entry key="AmbiguousInputName" note="0 is preamble, e.g. Invalid name-value argument Color.">{0} Ambiguous name ''{1}''. {2}</entry>
+    <entry key="InvalidClass" note="0 is preamble, e.g. Function argument definition error in fun.">{0} Class ''{1}'' is undefined or does not support function validation.</entry>
+    <entry key="RepeatingInputsNotInGroups" note="0 is preamble, e.g. Invalid argument list; 1 is a number">{0} Repeating arguments, if specified, must be in groups of {1}.</entry>
+
+    <!-- Runtime messages for name-value argument errors, all use the 'MATLAB:TooManyInputs' error ID -->
+    <entry key="TooManyInputsGenericMessage">Check for wrong number of positional arguments or placement of positional arguments after name-value pairs. Also, check for name-value pairs with invalid names or not specified in pairs.</entry>
+    <entry key="WrongNumberOfRequiredWithFollowingNameValueArguments">Function requires exactly {0} positional input(s) before name ''{1}''.</entry>
+    <entry key="TooManyRequiredWithoutFollowingScalarText">Function requires exactly {0} positional input(s).</entry>
+    <entry key="TooManyRequiredWithFollowingNameValueArguments">Function requires exactly {0} positional input(s) before name ''{1}''.</entry>
+    <entry key="TooManyOptionalWithFollowingNameValueArguments">Function requires {0} to {1} positional input(s) before name ''{2}''.</entry>
+    <entry key="TooManyOptionalWithoutFollowingNameValueArguments">Function requires {0} to {1} positional input(s).</entry>
+    <entry key="NameValueNotInPairs">Make sure name-value arguments are specified in pairs.</entry>
+    <entry key="NameExpected">A name is expected.</entry>
+    <entry key="MisspelledName">Unrecognized name ''{0}''. {1}</entry>
+    <entry key="ClassWithoutPublicSettableProperty">Function ''{0}'' does not accept input arguments because class ''{1}'' referenced in the arguments block does not have public settable properties.</entry>
+    
+    <!-- Runtime message companion for 'MATLAB:minhs' error ID -->
+    <entry key="NotEnoughInputs">Not enough input arguments. Function requires {0} positional input(s).</entry>
+
+    <!-- Static validation errors -->
+    <entry key="DuplicateNameStruct" note="0 is source of error, e.g. File: fun.m Line:4 Column:5. 1 is preamble, e.g. Function argument definition error in fun.">{0}{1} Using ''{2}'' as both a name-value argument structure and as a positional argument is not supported.</entry>
+    <entry key="DuplicateArguments" note="See DuplicateNameStruct">{0}{1} Argument ''{2}'' is declared more than once.</entry>
+    <entry key="ArgumentNotInScope" note="See DuplicateNameStruct">{0}{1} Argument ''{2}'' is referenced before it is declared in the arguments block.</entry>
+    <entry key="NamedArgumentInValidator" note="See DuplicateNameStruct">{0}{1} Use of name-value arguments without dotted name ''{2}'' in validation functions is not supported.</entry>
+    <entry key="NamedArgumentInDefault" note="See DuplicateNameStruct">{0}{1} Use of name-value arguments in default values is not supported.</entry>
+    <entry key="NamedWithinRepeating" note="See DuplicateNameStruct">{0}{1} Name-value arguments are not supported in a Repeating arguments block.</entry>
+    <entry key="RequiredAfterOptional" note="See DuplicateNameStruct">{0}{1} Functions with required and optional arguments must define required arguments first.</entry>
+    <entry key="RequiredAfterRepeating" note="See DuplicateNameStruct">{0}{1} Functions with required and repeating arguments must define required arguments first.</entry>
+    <entry key="OptionalAfterRepeating" note="See DuplicateNameStruct">{0}{1} Functions with optional and repeating arguments must define optional arguments first.</entry>
+    <entry key="RepeatingHasDefault" note="See DuplicateNameStruct">{0}{1} Default values are not supported in a Repeating arguments block.</entry>
+    <entry key="PositionalAfterNamed" note="See DuplicateNameStruct">{0}{1} Functions with positional and name-value arguments must define positional arguments first.</entry>
+    <entry key="MismatchBetweenBlockAndLine" note="See DuplicateNameStruct">{0}{1} Arguments block and function line must contain the same arguments in the same order, including ignored arguments.</entry>
+    <entry key="VararginNotAlone" note="See DuplicateNameStruct">{0}{1} Repeating arguments block containing varargin must not have other arguments. If specifying multiple repeating arguments, do not use varargin as an argument name.</entry>
+    <entry key="ClassArgumentHasValidation" note="See DuplicateNameStruct">{0}{1} When specifying name-value arguments using a class name, specifying validation for the arguments is not supported.</entry>
+    <entry key="ClassArgumentHasDefaultValue" note="See DuplicateNameStruct">{0}{1} When specifying name-value arguments using a class name, specifying default values for the arguments is not supported.</entry>
+    <entry key="MultipleRepeatingBlocks" note="See DuplicateNameStruct">{0}{1} Multiple Repeating arguments blocks are not supported.</entry>
+    <entry key="MultipleClassArguments" note="See DuplicateNameStruct">{0}{1} Specifying multiple name-value structures using .? syntax and a class name is not supported.</entry>
+    <entry key="VararginAsNonRepeating" note="See DuplicateNameStruct">{0}{1} varargin can only be used inside Repeating arguments block.</entry>
+
+    <entry key="VariableNotInScope" note="See DuplicateNameStruct">{0}{1} Variable ''{2}'' is not an input to the function and cannot be used in an arguments block.</entry>
+    <entry key="IgnoredAfterNamed" note="See DuplicateNameStruct">{0}{1} Ignored input arguments are not allowed after a Repeating arguments block or after name-value arguments.</entry>
+    <entry key="DuplicateNamedArguments" note="See DuplicateNameStruct">{0}{1} Name-value argument ''{2}'' is declared more than once.</entry>
+    <entry key="ClassNameConflict" note="See DuplicateNameStruct">{0}{1} Use of name ''{2}'' as both a class and variable or function is not supported.</entry>
+    <entry key="UnknownAttribute" note="See DuplicateNameStruct">{0}{1} Unknown function argument attribute ''{2}''.</entry>
+    <entry key="DuplicateAttribute" note="See DuplicateNameStruct">{0}{1} Assigning the function argument attribute ''{2}'' multiple times is not supported.</entry>
+    <entry key="InvalidAttributeValue" note="See DuplicateNameStruct">{0}{1} Attribute values in arguments blocks must be logical constants.</entry>
+    <entry key="NestedFunctionCall" note="See DuplicateNameStruct">{0}{1} Calling nested functions is not supported in arguments blocks.</entry>
+    <entry key="NestedFunctionArgumentsBlock" note="See DuplicateNameStruct">{0}{1} Arguments blocks in nested function declarations are not supported.</entry>
+    <entry key="RestrictedExternalDocId" note="See RestrictedExternal">"Restrictions on Variable and Function Access" in the MATLAB documentation</entry>
+    <entry key="RestrictedExternal" note="See DuplicateNameStruct, hole 3 is RestrictedExternalDocId">{0}{1} Use of function ''{2}'' is not supported in arguments blocks.\nSee {3} for details.</entry>
+    <entry key="InvalidValidatorFunction" note="See DuplicateNameStruct">{0}{1} Specify validation function as a MATLAB identifier that refers to a local or path function.</entry>
+    <entry key="InvalidArgumentValidator" note="See DuplicateNameStruct">{0}{1} Validation functions can only use previously declared positional arguments, the argument being validated, or literals.</entry>
+    <entry key="ValidatorNoSelfReference" note="See DuplicateNameStruct">{0}{1} Validation function must use argument ''{2}''.</entry>
+    <entry key="InvalidSizeDimension" note="See DuplicateNameStruct">{0}{1} Invalid size dimension for argument ''{2}''. Each dimension must be a nonnegative integer number or a colon (:).</entry>
+    <entry key="SizeTooFewDimensions" note="See DuplicateNameStruct">{0}{1} Invalid size declaration for argument ''{2}''. Arguments must have two or more dimensions.</entry>
+    <entry key="IgnoredWithValidation" note="See DuplicateNameStruct">{0}{1} Specifying validation or default value for an ignored argument is not supported.</entry>
+  </message>
+</rsccat>

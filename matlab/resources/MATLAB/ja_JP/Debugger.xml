@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BreakpointSuppressed">ファイル {0} の行 {1,number,integer} にあるブレークポイントは、{2} で抑えられています。</entry>
+    <entry key="dbstopForNonMfunction">MATLAB デバッガーは、MATLAB コード ファイルでのみ停止できます。"{0}" は MATLAB コード ファイルではありません。\n         代わりに、デバッガーは "{1}" が呼び出される直前の時点で停止します。</entry>
+    <entry key="NoDebugModeAtCommandPrompt">デバッグ モードへの切り替えは、MATLAB コード ファイルを実行しているときのみサポートされています。</entry>
+    <entry key="EndFunc">関数 {0} の終端です。 </entry>
+    <entry key="EndScript">スクリプト {0} の終端です。 </entry>
+    <entry key="NanInfBreakpointHit">行番号 {1,number,integer} における {0} の NaN/Inf ブレイクポイントのヒット。</entry>
+    <entry key="InWorkspace">{0} に属するワークスペース内 </entry>
+    <entry key="SkippingFrame">{0} は現在、デバッグ可能な状態にありません。フレームをスキップします。</entry>
+    <entry key="BaseWorkspace">ベース ワークスペース内。 </entry>
+    <entry key="InvalidDbstepPosition"> 位置 {0} は、この行でステップ インする有効な位置ではありません。</entry>
+    <entry key="InvalidStepLocation">Line {0,number,integer} column {1,number,integer} is not a valid position to step into on this line.</entry>
+    <entry key="ProblemSteppingIntoLocation">ステップ インの試行中に問題が発生しました。</entry>
+    <entry key="LineNumber">行 {0,number,integer}</entry>
+    <entry key="AfterLineNumber">行 {0,number,integer} の後</entry>
+    <entry key="CurrentStackFrameLocation">&gt; {0} 内</entry>
+    <entry key="StackFrameLocation">  {0} 内</entry>
+    <entry key="InvalidIntegerInput">値は、2^31 未満の正の整数スカラーでなければなりません。</entry>
+    <entry key="ReadOnlyWorkspaceViolation">変数を追加または変更できません。現在のワークスペースは、関数の引数の検証に対して読み取り専用です。</entry>
+  </message>
+</rsccat>

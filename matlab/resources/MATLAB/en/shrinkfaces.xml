@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NonScalarFactor">Shrink factor must be a scalar.</entry>
+    <entry key="NonPositiveFactor">Shrink factor must be positive.</entry>
+    <entry key="InvalidFirstArgument">The first argument must be a patch handle or a struct containing faces and vertices.</entry>
+    <entry key="WrongNumberOfInputs">Wrong number of input arguments.</entry>
+  </message>
+</rsccat>

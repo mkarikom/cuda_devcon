@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ImageMatrixMustBeDoublePrecision2D">イメージ行列は、倍精度で 2 次元でなければなりません</entry>
+    <entry key="ImageMatrixElementOutsideColormapRange">イメージの行列要素がカラーマップの範囲外です</entry>
+    <entry key="CDataValuesMustBeLegalColormapIndices">倍精度のインデックス付き CData 値は、以下のような有効なカラーマップのインデックスでなければなりません:1.0 &lt;= value &lt;= length(colormap)</entry>
+    <entry key="CDataValuesMustBeBetween0And1">倍精度のトゥルーカラー CData 値は、0.0 &lt;= 値 &lt;= 1.0 の範囲内になければなりません。</entry>
+    <entry key="ExpectedMatrixTypeDoubleOrUint8">倍精度、または uint8 のタイプのイメージ行列からムービー フレームのみを作ることができます</entry>
+  </message>
+</rsccat>

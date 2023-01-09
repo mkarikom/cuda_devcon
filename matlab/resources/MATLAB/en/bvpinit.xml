@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NoSolInterval">Did not specify [ANEW BNEW] in BVPINIT(SOL,[ANEW BNEW]).</entry>
+    <entry key="XSameEndPts">The entries of x must satisfy a = x(1) ~= x(end) = b.</entry>
+    <entry key="IncreasingXNotMonotonic">The entries of x must satisfy a = x(1) &lt; x(2) &lt; ... &lt; x(end) = b.</entry>
+    <entry key="DecreasingXNotMonotonic">The entries of x must satisfy a = x(1) &gt; x(2) &gt; ... &gt; x(end) = b.</entry>
+    <entry key="SolGuessNotVector">The guess for the solution must return a vector.</entry>
+  </message>
+</rsccat>

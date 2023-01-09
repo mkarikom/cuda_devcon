@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2013 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="fl_ustring">
+  <message>
+    <entry key="filenameNotString" note="stringDatatypeUpdate">Filename must be a character vector.</entry>
+    <entry key="emptyFilename">Filename must not be empty.</entry>
+    <entry key="invalidFile">Reading code from file {0} is not supported.</entry>
+    <entry key="errorReadingCodeFile">Error reading code from file {0} : {1}.</entry>
+  </message>
+</rsccat>

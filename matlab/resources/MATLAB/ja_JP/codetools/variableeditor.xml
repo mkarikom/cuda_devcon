@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UseNameRowColTriplets">名前、行、列の 3 要素を使用して値を指定します。</entry>
+    <entry key="invalidColumn">無効な列。</entry>
+    <entry key="invalidRow">無効な行。</entry>
+    <entry key="NotACategoricalVariable">カテゴリカル変数ではありません。</entry>
+    <entry key="NotAnMxNNumericArray">MxN 数値配列ではありません。</entry>
+    <entry key="NotAnMxNDatetimeArray">M 列 N 行の datetime 配列ではありません。</entry>
+    <entry key="NotAnMxNDurationArray">M 列 N 行の duration 配列ではありません。</entry>
+    <entry key="NotAnMxNCalendarDurationArray">M 列 N 行のカレンダー期間配列ではありません。</entry>
+    <entry key="NotAStructure">構造体ではありません。</entry>
+    <entry key="UnsupportedProperty">サポートされていないプロパティ: {0}</entry>
+    <entry key="RequiredPropertyDeleted">必要なプロパティが削除されました: {0}</entry>
+    <entry key="InvalidInputType">入力タイプが無効です。</entry>
+    <entry key="NoPropertiesShouldBeRemoved">マネージャーのルートからプロパティを削除しないでください。</entry>
+    <entry key="Field">フィールド</entry>
+    <entry key="Fields">フィールド</entry>
+    <entry key="Name">名前</entry>
+    <entry key="BlockPath">BlockPath</entry>
+    <entry key="Index">インデックス</entry>
+    <entry key="Value">値</entry>
+    <entry key="Size">サイズ</entry>
+    <entry key="Bytes">バイト</entry>
+    <entry key="Class">クラス</entry>
+    <entry key="Min">最小値</entry>
+    <entry key="Max">最大値</entry>
+    <entry key="Mean">平均</entry>
+    <entry key="Median">中央値</entry>
+    <entry key="Mode">最頻値</entry>
+    <entry key="Range">範囲</entry>
+    <entry key="Var">分散</entry>
+    <entry key="Std">標準偏差</entry>
+    <entry key="Property">プロパティ</entry>
+    <entry key="PropertyValuePairsExpected">名前と値のペアが必要です。</entry>
+    <entry key="NotAnMxNCellArray">MxN セル配列ではありません。</entry>
+    <entry key="NotAnObject">オブジェクトではありません。</entry>
+    <entry key="UnsupportedRequest">サポートされていない要求: {0}</entry>
+    <entry key="NotATable">テーブルではありません。</entry>
+    <entry key="NonExistentVariable">変数 {0} が存在しません。</entry>
+    <entry key="NotACharArrayVariable">文字型配列ではありません。</entry>
+    <entry key="NotAStringArrayVariable">文字列配列ではありません。</entry>
+    <entry key="NotAnMxNLogicalArray">M 行 N 列の論理配列ではありません。</entry>
+    <entry key="EmptyValueInvalid">入力を空にすることはできません。</entry>
+    <entry key="DuplicateRowHeader">行名 ''{0}'' が重複しています。</entry>
+    <entry key="DuplicateColumnHeaderTables">変数名 ''{0}'' が重複しています。</entry>
+    <entry key="DuplicateColumnHeaderStructs">フィールド名 ''{0}'' が重複しています。</entry>
+    <entry key="Unevaluated">未評価</entry>
+    <entry key="InvalidDistributedValue">{0} の値が無効です</entry>
+    <entry key="StructHeaderFields">{0} フィールド</entry>
+    <entry key="StructHeaderField">{0} フィールド</entry>
+    <entry key="TableIndexOverflow">Data must be added to a table immediately to the right of existing variables.  A new table variable will be added in the next available column.</entry>
+    <entry key="StructArrayIndexOverflow">構造体配列は空のフィールドをもってはならないため、既存のフィールドのすぐ右側にしかデータを追加できません。\n新しいフィールドは使用可能な次の列に追加されます。</entry>
+  </message>
+</rsccat>

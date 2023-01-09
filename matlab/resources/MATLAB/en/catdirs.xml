@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ArgNotString" note="stringDatatypeUpdate">All arguments must be character vectors.</entry>
+	<entry key="AddLeadingTrailingWhitespace">Folders on the MATLAB path cannot have leading or trailing whitespace. Adding ''{0}'' instead of ''{1}''.</entry>
+	<entry key="RemoveLeadingTrailingWhitespace">Folders on the MATLAB path cannot have leading or trailing whitespace. Removing ''{0}'' instead of ''{1}''.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DialogNoVariablesToSave">저장할 변수가 없음</entry>
+    <entry key="DialogTheseVariablesNotFound">다음 변수가 없음:</entry>
+    <entry key="SaveWorkspaceVariables">작업 공간 변수 저장</entry>
+    <entry key="SelectFileToOpen">열려는 파일 선택</entry>
+    <entry key="SelectFileToWrite">쓰려는 파일 선택</entry>
+    <entry key="SelectDirectoryToOpen">열려는 폴더 선택</entry>
+    <entry key="AllFilesDescription">모든 파일</entry>
+  </message>
+</rsccat>

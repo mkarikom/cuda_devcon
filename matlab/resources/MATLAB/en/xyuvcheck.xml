@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="UVSizeMismatch">U,V must all be the same size.</entry>
+      <entry key="UVNot2D">U,V must all be a 2D arrays.</entry>
+      <entry key="UVPlanar">U,V must all be size 2x2 or greater.</entry>
+      <entry key="XYMixedEmpty">X,Y must both be empty or both non-empty.</entry>
+      <entry key="XUSizeMismatch">The size of X must match the size of U or the number of columns of U.</entry>
+      <entry key="YUSizeMismatch">The size of Y must match the size of U or the number of rows of U.</entry>
+   </message>
+</rsccat>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DeprecatedV6Argument">COLORBAR 的 ''v6'' 参数已弃用，未来的版本中将不再支持此参数。</entry>
+    <entry key="InvalidHandleInput">颜色栏句柄必须后跟 ''delete''、''hide'' 或 ''off''。</entry>
+    <entry key="InvalidInput">输入无法识别或参数/值对参数无效。</entry>
+    <entry key="ParentNotHandle">''Parent'' 必须后跟标量图形句柄。</entry>
+    <entry key="InvalidParent">颜色栏不能是类型 {0} 的对象的子级。</entry>
+    <entry key="InvalidPropertyName">属性名称必须为字符向量</entry>
+    <entry key="InvalidPeer">''peer'' 必须后跟坐标区句柄。</entry>
+    <entry key="TooManyOutputs">输出太多。</entry>
+    <entry key="TooFewInputs">颜色栏句柄必须后跟 ''delete''、''hide'' 或 ''off''。</entry>
+    <entry key="UnknownProperty">未知属性 ''{0}''。</entry>
+    <entry key="InvalidRulerLocation">标签不能位于 {1} 颜色栏的 {0} 上。</entry>
+    <entry key="ParentMustBeSameAsAxes">颜色栏及其关联的坐标区必须具有相同的父级。</entry>
+    <entry key="AxesMustBeCopied">必须一同复制颜色栏及其关联的坐标区。使用 COPYOBJ 时以向量为输入项，以便同时复制颜色栏和坐标区。</entry>
+  </message>
+</rsccat>

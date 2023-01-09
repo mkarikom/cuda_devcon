@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="type">不能对 {0} 对象和时序对象对组执行时序同步。</entry>
+    <entry key="noarray">synchronize 方法只能用于单时序对象</entry>
+    <entry key="pvsetNoValue">指定的属性缺少对应值。</entry>
+    <entry key="pvsetStringPropertyName">属性名称必须为字符向量或字符串。</entry>
+    <entry key="pvsetNumInterval">区间必须为数值。</entry>
+    <entry key="pvsetLogicalKeepOriginalTimes">KeepOriginalTimes 必须为逻辑值。</entry>
+    <entry key="pvsetInvalid">至少有一个指定属性无效。</entry>
+    <entry key="noemptytime">一个或多个时间向量为空。</entry>
+    <entry key="interpsyntax">synchronizemethod 属性无效</entry>
+    <entry key="invinterp">插值方法无效</entry>
+    <entry key="noqual">必须初始化 Quality 向量。</entry>
+    <entry key="round">指定的 Quality 代码已四舍五入取整。</entry>
+    <entry key="invcode">没有为该时序定义您指定的 Quality 代码。</entry>
+  </message>
+</rsccat>

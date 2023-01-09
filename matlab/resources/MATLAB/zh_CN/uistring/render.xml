@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PrintingHandle">正在打印句柄:{0}\n</entry>
+    <entry key="PassingInputArgsToHardcopy">正在将输入参数传递给硬拷贝: </entry>
+    <entry key="PassingInputArgsToIMWRITE">正在将输入参数传递给 IMWRITE: </entry>
+    <entry key="FormatCanNotBeUsedWithPrintframes">格式 "{0}" 不能和打印帧一起使用</entry>
+  </message>
+</rsccat>

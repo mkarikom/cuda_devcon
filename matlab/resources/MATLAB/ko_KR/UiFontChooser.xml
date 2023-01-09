@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFont">글꼴은 구조체 유형이어야 합니다.</entry>
+    <entry key="UnpairedParamsValues">파라미터/값 쌍은 반드시 짝을 이루어야 합니다.</entry>
+    <entry key="InvalidInitialFont">InitialFont는 구조체 유형이어야 합니다.</entry>
+    <entry key="InvalidTitleType">제목은 문자형 벡터여야 함</entry>
+    <entry key="InvalidTitleString">제목 설정이 유효하지 않습니다.</entry>
+    <entry key="IllegalParameterType">{0,number,integer}번째 입력값에서 파라미터는 문자형 벡터여야 합니다.</entry>
+    <entry key="IllegalParameter">파라미터 "{0}"을(를) 인식할 수 없습니다.</entry>
+  </message>
+</rsccat>

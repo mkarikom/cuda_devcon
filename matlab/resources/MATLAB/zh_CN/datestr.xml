@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ConvertDateNumber">DATESTR 未能将日期数字转换为日期向量。日期数字超出范围。</entry>
+    <entry key="monthFormat">月份格式无法识别。</entry>
+    <entry key="hourFormat">小时格式无法识别。</entry>
+    <entry key="minuteFormat">分钟格式无法识别。</entry>
+    <entry key="secondFormat">秒格式无法识别。</entry>
+    <entry key="millisecondFormat">毫秒格式无法识别。</entry>
+    <entry key="InputClass">基准年份必须为数字。</entry>
+    <entry key="ConvertToDateNumber">无法将输入转换为指定的 datestr。\n{0}</entry>
+    <entry key="DateNumber">未知的日期格式数字: {0}</entry>
+    <entry key="ConvertDateNumberVerify">DATESTR 未能将日期数字转换为日期向量。</entry>
+    <entry key="InputMustBeReal">Numeric input data must be real.</entry>
+  </message>
+</rsccat>

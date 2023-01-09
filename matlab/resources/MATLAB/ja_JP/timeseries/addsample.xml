@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">addsample メソッドは、単一の timeseries オブジェクトに対してのみ使用できます</entry>
+    <entry key="pvsetNoValue">指定されたプロパティに対応する値が見つかりません。</entry>
+    <entry key="pvsetInvalid">指定プロパティの少なくとも 1 つが無効です。</entry>
+    <entry key="noSampleStruct">新規サンプルは構造体、またはプロパティと値のペアのいずれかで指定されなければなりません。</entry>
+    <entry key="dataMissing">データが見つかりません</entry>
+    <entry key="timeMissing">時間情報がありません。</entry>
+    <entry key="emptyData">データを空にすることはできません。</entry>
+    <entry key="emptyTime">時間を空にすることはできません。</entry>
+    <entry key="overwriteFlg">上書きフラグは論理値でなければなりません。</entry>
+    <entry key="datasamplesize">追加されたデータのサンプル サイズは、time series オブジェクトのサンプル サイズと一致しません。</entry>
+    <entry key="qualitysamplesize">追加された特性属性のサンプル サイズは、time series オブジェクトの特性属性と一致しません。</entry>
+    <entry key="numericValTime">時間は数値でなければなりません。</entry>
+    <entry key="timeVector">時間はベクトルでなければなりません。</entry>
+    <entry key="invalidTimeFormat">無効な時間形式</entry>
+    <entry key="mandatoryFirstArg">最初の引数には空でないデータ値を指定しなければなりません。</entry>
+    <entry key="first">データ配列の最初の次元は、時間ベクトルと同じ長さでなければなりません。</entry>
+    <entry key="last">データ配列の最後の次元は時間ベクトルと同じ長さでなければなりません。</entry>
+    <entry key="intQualityAttributes">特性属性は整数値で指定しなければなりません。</entry>
+    <entry key="nonnull">null 空間のない特性属性をもつサンプルは、空の特性ベクトルをもつ時系列に追加できません。</entry>
+  </message>
+</rsccat>

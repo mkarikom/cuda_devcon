@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedObjectType">无法识别的对象类型: {0}</entry>
+    <entry key="CannotFindParent">找不到上下文菜单的父级</entry>
+    <entry key="InvalidSaveStructure">图形对象的结构体格式无效。</entry>
+    <entry key="InvalidParentHandle">第二个参数必须为父句柄数组。</entry>
+    <entry key="InvalidParentSize">父数组的大小必须与结构体数组的大小一致。</entry>
+    <entry key="InvalidOption">可选参数必须为 ''convert'' 和/或 ''all''。</entry>
+  </message>
+</rsccat>

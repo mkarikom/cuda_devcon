@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManyInputs">输入参数太多。</entry>
+    <entry key="InvalidParameterList">标题应为第二个参数</entry>
+    <entry key="InvalidSecondParameter">第二个参数(对话框标题)必须为字符向量。</entry>
+    <entry key="InvalidFirstParameter">第一个参数应为句柄、向量或标题字符向量</entry>
+  </message>
+</rsccat>

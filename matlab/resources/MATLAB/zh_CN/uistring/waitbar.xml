@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Cancel">取消</entry>
+    <entry key="WarningCouldNotSetPropertyValue">无法设置属性值\n属性: {0}\n值: {1}\n</entry>
+    <entry key="WaitbarLabel">进度条</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Cancel">キャンセル</entry>
+    <entry key="CreateNewTimeSeries">新規に時系列を作成する</entry>
+    <entry key="DefineTimeSeries">時系列の定義</entry>
+    <entry key="Empty">空</entry>
+    <entry key="EmptyTimeVector">空の時間ベクトル</entry>
+    <entry key="EndTime">終了時間:  {0}</entry>
+    <entry key="Help">ヘルプ</entry>
+    <entry key="IntersectionOfTimeVectorsOnTheInterval">オーバーラップする区間上の時間ベクトルの交差部</entry>
+    <entry key="InvalidTimeInterval">時間間隔が無効です</entry>
+    <entry key="Modifyyn">変更しますか (y/n)?</entry>
+    <entry key="NewTimeVector">新規時間ベクトル</entry>
+    <entry key="NumberOfSamples">サンプル数</entry>
+    <entry key="OK">OK</entry>
+    <entry key="OverwriteSelectedTimeSeries">選択した時系列を上書き</entry>
+    <entry key="Path">パス</entry>
+    <entry key="ResampleData">データ リサンプリング</entry>
+    <entry key="ResamplingCannotProduceTimeSeries">リサンプリングは 1 つのサンプルのみまたは 1e8 より多いサンプルをもつ時系列を生成できません。</entry>
+    <entry key="ResultingTimeVectorIsEmptyOperationAborted">生成される時間ベクトルは空です。処理を中止しました。</entry>
+    <entry key="SelectThePlot">プロットの選択</entry>
+    <entry key="StartEnd">開始 - 終了</entry>
+    <entry key="StartTime">開始時間: {0}</entry>
+    <entry key="SpecifyNewTimeVector">新規時間ベクトルの指定</entry>
+    <entry key="TimeSeries">時系列</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="UniformTimeVectorWithTimeInterval">時間間隔をもつ等間隔時間ベクトル</entry>
+    <entry key="UnionOfTimeVectorsOnTheIntervalWhereTheyOverlap">オーバーラップする間隔で時間ベクトルの和集合</entry>
+    <entry key="UseTimeVectorFromTimeSeries">時系列の時間ベクトルを使用</entry>
+    <entry key="YouCanOnlyResampleOneOrTwoTimeSeries">1 つまたは 2 つの時系列のリサンプリングのみ行うことができます。</entry>
+  </message>
+</rsccat>

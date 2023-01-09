@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BUTTON_TITLE">列の作成/変換</entry>
+    <entry key="BUTTON_DESCRIPTION">テーブルの既存の値に基づいて列を変更するか、新しく作成します。</entry>
+    <entry key="DIALOG_TITLE">列の作成/変換</entry>
+    <entry key="DIALOG_TABLE_NAME">テーブル名</entry>
+    <entry key="DIALOG_COLUMN_VARIABLE">列変数</entry>
+    <entry key="DIALOG_CODE">コード</entry>
+    <entry key="DIALOG_PREVIEW">プレビュー</entry>
+    <entry key="COMMON_OPERATIONS">一般的な操作</entry>
+    <entry key="NEW_VARIABLE">新規変数</entry>
+    <entry key="COMMON_OPS_CUSTOM">カスタム コード</entry>
+    <entry key="COMMON_OPS_LOG">変数の対数を計算</entry>
+    <entry key="COMMON_OPS_MULT">変数を 2 で乗算</entry>
+    <entry key="COMMON_OPS_ADD">2 列を追加</entry>
+    <entry key="COMMON_OPS_MAKE_DATETIME">日付と duration を datetime に結合</entry>
+    <entry key="COMMON_OPS_EXTRACT_TIME">datetime から時刻を抽出</entry>
+    <entry key="COMMON_OPS_TO_UPPER">大文字に変換</entry>
+    <entry key="COMMON_OPS_TO_LOWER">小文字に変換</entry>
+    <entry key="COMMON_OPS_TRIM_STRING">空白の削除</entry>
+    <entry key="OK">OK</entry>
+    <entry key="CANCEL">キャンセル</entry>
+  </message>
+</rsccat>

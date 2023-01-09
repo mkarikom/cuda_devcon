@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FileTooLarge">오류: {0}파일이 MATLAB에서 실행하기에 너무 큽니다.</entry>
+    <entry key="EvalExpressionTooLarge">오류: {0}표현식이 MATLAB에서 실행하기에 너무 큽니다.</entry>
+    <entry key="ExpressionTooComplicated">오류: {0}표현식이 MATLAB에서 실행하기에 너무 복잡합니다.</entry>
+    <entry key="ParforTooComplicated">오류: {0}parfor 루프가 MATLAB에서 실행하기에 너무 복잡합니다.</entry>
+    <entry key="SPMDTooComplicated">오류: {0}spmd 블록이 MATLAB에서 실행하기에 너무 복잡합니다.</entry>
+    <entry key="StatementTooDeeplyNested">오류: {0}명령문이 너무 깊이 중첩되어 있습니다.</entry>
+    <entry key="TextTooLong">오류: {0}텍스트가 MATLAB에서 구문 분석하기에 너무 깁니다.</entry>
+    <entry key="TooManySwitchCases">오류: {0}switch 문에 너무 많은 case가 포함되어 있습니다.</entry>
+    <entry key="TooManyElseifBlocks">오류: {0}if 문에 너무 많은 elseif 블록이 포함되어 있습니다.</entry>
+    <entry key="TooManyParforVariables">오류: {0}parfor 루프에 너무 많은 변수가 포함되어 있습니다.</entry>
+    <entry key="TooManySPMDVariables">오류: {0}spmd 블록에 너무 많은 변수가 포함되어 있습니다.</entry>
+  </message>
+</rsccat>

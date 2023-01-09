@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CantUnstackTabularVariable">Unstacking table or timetable variables is not supported. Use SPLITVARS to split ''{0}'' into multiple variables.</entry>
+    <entry key="MultipleIndVar">指標変数は単一の変数として指定しなければなりません。</entry>
+    <entry key="InvalidAggregationFun">集計関数は関数ハンドルとして指定しなければなりません。</entry>
+    <entry key="ConflictingGroupAndDataVars">グループ化変数とデータ変数には、共通の変数があってはなりません。</entry>
+    <entry key="ConflictingIndVar">指標変数はグループ化変数またはデータ変数であってはなりません。</entry>
+    <entry key="ConflictingConstVars">定数変数は指標変数、データ変数、グループ化変数であってはなりません。</entry>
+    <entry key="MultipleRows">UNIQUE が既定の集計関数として使用されたときに、非スカラー値を返しました。スカラー値を返す集計関数を指定してください。</entry>
+    <entry key="NonscalarAggFunValue">特定の指標変数値について、入力 table 内のグループの行数がゼロまたは複数の場合でも、集計関数は常にスカラー値を返さなければなりません。</entry>
+    <entry key="BadAggFunValueSize">集計関数は、データ変数 ''{0}'' の要素に一致するサイズの値を返さなければなりません。</entry>
+    <entry key="ConflictingNewDataVarNames">結果内の、スタック解除されたデータ変数に対して指定された名前が、結果内の他の変数名と競合しています。</entry>
+    <entry key="BadAggFunValueClass">集計関数はデータ変数 ''{0}'' のクラスにキャストできる数値または logical 値を返さなければなりません。</entry>
+    <entry key="AssignmentError">集計関数の出力をテーブル変数 ''{0}'' に代入する際にエラーが発生しました。</entry>
+    <entry key="CantUnstackRowLabels">table の行名のスタック解除はサポートされていません。該当する行名を変数として含む table を作成してください。</entry>
+    <entry key="CantUnstackWithRowLabelsIndicator">行名を指標変数として使用した table のスタック解除はサポートされていません。該当する行名を変数として含む table を作成してください。</entry>
+    <entry key="FillValueChange">特定の指標変数値について、グループの行数がゼロの場合、UNSTACK は自動的に値を埋めるのではなく、0 行 1 列のサイズの入力を使用して、指定された集計関数を呼び出します。出力を見直して、目的の結果が得られたことを確認してください。この警告は将来のリリースで削除される可能性があります。</entry>
+    <entry key="NewDataVarNameLengthMismatch">指標変数に {0} 個の一意の値があります。名前と値のペア NEWDATAVARIABLENAMES を使用して、{0} 個の変数名を指定してください。</entry>
+    <entry key="NewDataVarNamesEmptyDataVars">スタック解除する変数がない場合、新しいデータ変数名は空でなければなりません。</entry>
+    <entry key="UndefinedNewDataVariableNames">コードを生成する際には、新しいデータ変数名を指定しなければなりません。</entry>
+    <entry key="NonconstantDataVars">Data variables must be constant.</entry>
+    <entry key="NonconstantIndicatorVar">Indicator variable must be constant.</entry>
+    <entry key="NonconstantGroupingVars">Grouping variables must be constant.</entry>
+    <entry key="NonconstantConstantVars">Constant variables must be constant.</entry>
+    <entry key="NonconstantNewDataVariableNames">New data variable names must be constant.</entry>
+    <entry key="NonconstantAggregationFun">Aggregation function must be constant.</entry>
+    <entry key="MismatchedNewDataVariableNames">新しいデータ変数名の数は、指標変数内の一意の値の数と等しくなければなりません。</entry>
+    <entry key="CellArrayDataVars">コード生成では、既定の集計関数は cell 配列の入力をサポートしません。別の集計関数を指定してください。</entry>
+  </message>
+</rsccat>

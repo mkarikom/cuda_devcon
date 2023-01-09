@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="mustBeFinite">Value must be finite.</entry>
+    <entry key="mustBeGreaterThan">Value must be greater than {0}.</entry>
+    <entry key="mustBeGreaterThanGenericText">Value must be greater than the comparison value.</entry>
+    <entry key="mustBeScalar">Second value for {0} must be a scalar.</entry>
+    <entry key="mustBeGreaterThanOrEqual">Value must be greater than or equal to {0}.</entry>
+    <entry key="mustBeGreaterThanOrEqualGenericText">Value must be greater than or equal to the comparison value.</entry>
+    <entry key="mustBeInteger">Value must be integer.</entry>
+    <entry key="mustBeLessThan">Value must be less than {0}.</entry>
+    <entry key="mustBeLessThanGenericText">Value must be less than the comparison value.</entry>
+    <entry key="mustBeLessThanOrEqual">Value must be less than or equal to {0}.</entry>
+    <entry key="mustBeLessThanOrEqualGenericText">Value must be less than or equal to the comparison value.</entry>
+    <entry key="mustBeMember">Value must be a member of this set:{0}\n</entry>
+    <entry key="mustBeNonempty">Value must not be empty.</entry>
+    <entry key="mustBeNonnegative">Value must be nonnegative.</entry>
+    <entry key="mustBeNegative">Value must be negative.</entry>
+    <entry key="mustBeNonsparse">Value must not be sparse.</entry>
+    <entry key="mustBeNonzero">Value must not be zero.</entry>
+    <entry key="mustBeNonzeroLengthText" translate="false" note="translate=false set due no translatable content">{0}</entry>
+    <entry key="nonzeroLengthText">Value must be text with one or more characters.</entry>
+    <entry key="mustBeNonNan">Value must not be NaN.</entry>
+    <entry key="mustBeNumeric">Value must be numeric.</entry>
+    <entry key="mustBeNumericOrLogical">Value must be numeric or logical.</entry>
+    <entry key="mustBeRealOrLogical">Value must be real or logical.</entry>
+    <entry key="mustBePositive">Value must be positive.</entry>
+    <entry key="mustBeNonpositive">Value must not be positive.</entry>
+    <entry key="mustBeReal">Value must be real.</entry>
+    <entry key="mustBeFloat">Value must be a floating-point array.</entry>
+    <entry key="mustBeScalarOrEmpty">Value must be scalar or empty.</entry>
+    <entry key="mustBeTextScalar">Value must be a character vector or string scalar.</entry>
+    <entry key="mustBeText">Value must be a character vector, string array, or cell array of character vectors.</entry>
+    <entry key="mustBeUnderlyingType">Value must have underlying type ''{0}''.</entry>
+    <entry key="unsupportedClass">Validation function ''{0}'' is not supported for class ''{1}''.</entry>
+    <entry key="mustBeMemberGenericText">Value must be members of the required set.</entry>
+    <entry key="mustBeA">Value must be one of the following types: {0}</entry>
+    <entry key="mustBeVector">Value must be a 1-by-n vector or an n-by-1 vector.</entry>
+    <entry key="mustBeNonmissing">Value must not have missing data.</entry>
+    <entry key="quotedName" translate="false">''{0}''</entry>
+
+    <entry key="SixFields" note="0/1/2/3/4/5 is a string">
+      ''{0}'', ''{1}'', ''{2}'', ''{3}'', ''{4}'', and ''{5}''.
+    </entry>
+
+    <entry key="FiveFields" note="0/1/2/3/4 is a string">
+      ''{0}'', ''{1}'', ''{2}'', ''{3}'', and ''{4}''.
+    </entry>
+
+    <entry key="FourFields" note="0/1/2/3 is a string">
+      ''{0}'', ''{1}'', ''{2}'', and ''{3}''.
+    </entry>
+
+    <entry key="ThreeFields" note="0/1/2 is a string">
+      ''{0}'', ''{1}'', and ''{2}''.
+    </entry>
+
+    <entry key="TwoFields" note="0/1 is a string">
+      ''{0}'' and ''{1}''.
+    </entry>
+
+    <entry key="OneField" note="0 is a string;translate=false set due no translatable content" translate="false">
+      ''{0}''.
+    </entry>
+
+    <entry key="SixTypes" note="0/1/2/3/4/5 is a string">
+      ''{0}'', ''{1}'', ''{2}'', ''{3}'', ''{4}'', or ''{5}''.
+    </entry>
+
+    <entry key="FiveTypes" note="0/1/2/3/4 is a string">
+      ''{0}'', ''{1}'', ''{2}'', ''{3}'', or ''{4}''.
+    </entry>
+
+    <entry key="FourTypes" note="0/1/2/3 is a string">
+      ''{0}'', ''{1}'', ''{2}'', or ''{3}''.
+    </entry>
+
+    <entry key="ThreeTypes" note="0/1/2 is a string">
+      ''{0}'', ''{1}'', or ''{2}''.
+    </entry>
+
+    <entry key="TwoTypes" note="0/1 is a string">
+      ''{0}'' or ''{1}''.
+    </entry>
+
+    <entry key="OneType" note="0 is a string;translate=false set due no translatable content" translate="false">
+      ''{0}''.
+    </entry>
+
+    <entry key="LeftClosedRightClosed" note="0/1 are numbers">
+      Value must be greater than or equal to {0}, and less than or equal to {1}.
+    </entry>
+
+    <entry key="LeftClosedRightOpen" note="0/1 are numbers">
+      Value must be greater than or equal to {0}, and less than {1}.
+    </entry>
+
+    <entry key="LeftOpenRightClosed" note="0/1 are numbers">
+      Value must be greater than {0}, and less than or equal to {1}.
+    </entry>
+
+    <entry key="LeftOpenRightOpen" note="0/1 are numbers">
+      Value must be greater than {0}, and less than {1}.
+    </entry>
+
+    <entry key="mustBeInRange" translate="false" note="translate=false set due no translatable content">{0}</entry>
+    <entry key="mustBeFile">The following files do not exist: {0}</entry>
+    <entry key="mustBeFolder">The following folders do not exist: {0}</entry>
+    <entry key="mustBeValidVariableName">The following are not valid variable names: {0}</entry>
+  </message>
+</rsccat>

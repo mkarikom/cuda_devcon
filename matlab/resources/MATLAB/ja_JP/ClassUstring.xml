@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="METHODS_FUNCTION_NO_METHODS_SPECIAL_CASE_LABEL">クラスに対するメソッドがない、または、クラスがありません。</entry>
+    <entry key="MEMBER_FUNCTIONS_NO_CLASS_LABEL">クラス {0} はありません。</entry>
+    <entry key="METHODS_FUNCTION_NO_METHODS_LABEL">クラス {0} のメソッドはありません。</entry>
+    <entry key="SEALED_METHODS_FUNCTION_NO_METHODS_LABEL">クラス {0} の異種混合配列のシールド メソッドがありません。</entry>
+    <entry key="PROPERTIES_FUNCTION_NO_PROPS_LABEL">クラス {0} のプロパティはありません。</entry>
+    <entry key="EVENTS_FUNCTION_NO_EVENTS_LABEL">クラス {0} のイベントはありません。</entry>
+    <entry key="ENUMERATIONS_FUNCTION_NO_ENUMS_LABEL">クラス {0} の列挙型メンバーはありません。</entry>
+    <entry key="ENUMERATIONS_FUNCTION_NO_VISIBLE_ENUMS_LABEL">クラス {0} には表示可能な列挙メンバーがありません。</entry>
+    <entry key="SUPERCLASSES_FUNCTION_NO_SUPERS_LABEL">クラス {0} のスーパークラスはありません。</entry>
+    <entry key="METHODS_FUNCTION_LABEL">クラス {0} に対するメソッド:</entry>
+    <entry key="SEALED_METHODS_FUNCTION_LABEL">クラス {0} の異種混合配列のシールド メソッド:</entry>
+    <entry key="PROPERTIES_FUNCTION_LABEL">クラス {0} に対するプロパティ:</entry>
+    <entry key="EVENTS_FUNCTION_LABEL">クラス {0} に対するイベント:</entry>
+    <entry key="ENUMERATIONS_FUNCTION_LABEL">クラス ''{0}'' の列挙メンバー:</entry>
+    <entry key="SUPERCLASSES_FUNCTION_LABEL">クラス {0} に対するスーパークラス:</entry>
+    <entry key="setgetPropertyNotFound">プロパティ {0} は、クラス {1} 内またはクラス {2} の配列のすべての要素内で存在しません。</entry>
+    <entry key="DestructorError">次のエラーは ''{0}'' クラスのデストラクターの実行中に発生しました:\n{1}</entry>
+    <entry key="InvalidValue">クラス ''{1}'' のプロパティ ''{0}'' の設定中にエラーが発生しました:\n{2}</entry>
+    <entry key="InvalidPropertyType">''{1}'' プロパティのクラス ''{0}'' は無効です: {2}</entry>
+    <entry key="BadEnumValueError">列挙メンバー ''{0}'' (クラス ''{1}'') の定義では:\n{2}</entry>
+    <entry key="FcnInputArgError">引数 {0,number,integer} ({1}) の入力が無効です: \n{2}</entry>
+    <entry key="ErrorDuringCopy">クラス ''{0}'' のオブジェクトのコピー中:\n''{1}''</entry>
+    <entry key="SaveErrorWarning">クラス ''{0}'' のオブジェクトの保存中:\n{1}</entry>
+    <entry key="LoadClassErrorWarning">クラス ''{0}'' のオブジェクトの読み込み中:\n{1}</entry>
+    <entry key="InvalidDynamicPropertyName">''{0}'' は有効な動的プロパティ名ではありません。プロパティ名は文字で始まり、文字、数字、アンダースコアで構成されなければなりません。</entry>
+    <entry key="LongDynamicPropertyName">Dynamic property name ''{0}'' exceeds the MATLAB maximum name length of 63 characters.</entry>
+    <entry key="InvalidEnumValue">''{0}'' という名前の列挙値はありません。</entry>
+    <entry key="invalidEvent">イベント ''{0}'' は、クラス ''{1}'' に対して定義されません。</entry>
+    <entry key="InvalidEnumerationNameLongWithHyperlink">{0} は列挙値 ''{1}'' のメンバーではありません。値は&lt;a href="matlab:enumeration(''{1}'');"&gt;次のオプションのいずれか&lt;/a&gt;でなければなりません。</entry>
+    <entry key="InvalidEnumerationNameLongWithoutHyperlink">{0} は列挙値 ''{1}'' のメンバーではありません。有効なオプションのリストを表示するには、「enumeration(''{1}'')」と入力します。</entry>
+    <entry key="InvalidEnumerationNameShort">{0} は列挙値 ''{1}'' のメンバーではありません。値は次のいずれかでなければなりません:\n{2} </entry>
+    <entry key="AmbiguousEnumerationName">''{0}'' は列挙値 ''{1}'' のメンバーとしてあいまいです。</entry>
+    <entry key="invalidImportArguments">Import の引数 ''{0}'' が見つからないか、インポートできません。</entry>
+    <entry key="InvalidProperty">名前 ''{0}'' はクラス ''{1}'' のインスタンスに対してアクセス可能なプロパティではありません。</entry>
+    <entry key="InvalidPropertyName">プロパティ名 ''{0}'' は有効な MATLAB 識別子ではありません。</entry>
+    <entry key="RemoveListenerWarning">クラス ''{0}'' のオブジェクト上のリスナーを削除中:\n{1}</entry>
+    <entry key="PassThrough">{0}</entry>
+    <entry key="InvalidEnumerationName_Missing">&lt;missing&gt;</entry>
+  </message>
+</rsccat>

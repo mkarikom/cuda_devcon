@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidColor">将颜色指定为 RGB 三元组、字符向量或字符串标量。</entry>
+    <entry key="InvalidColors">将颜色指定为 RGB 三元组的三列矩阵、字符向量、字符向量元胞数组或字符串数组。</entry>
+    <entry key="InvalidColorString">''{0}'' 不是有效的颜色设定。有效名称包括: 'red'、'green'、'blue'、'cyan'、'magenta'、'yellow'、'black' 和 'white'。有效的十六进制颜色代码由 '#' 后跟三个或六个十六进制数字组成。</entry>
+    <entry key="InvalidStringShape">使用一维字符向量元胞数组或一维字符串数组指定颜色。</entry>
+    <entry key="InvalidNumericShape">将颜色指定为三列矩阵。</entry>
+    <entry key="InvalidTripletShape">将颜色指定为三元素行向量。</entry>
+    <entry key="OutOfRange">指定 [0, 1] 范围内的双精度值或单精度值。</entry>
+    <entry key="MultipleColors">指定一种颜色设定或使用 'multiple' 选项。</entry>
+  </message>
+</rsccat>

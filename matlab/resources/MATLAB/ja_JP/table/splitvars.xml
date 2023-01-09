@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DuplicateVars">分割する変数のリストには、いずれの変数も複数回指定してはなりません。</entry>
+    <entry key="IncorrectNumVarnamesMultisplit">複数の変数を分割して新しい変数名を指定する場合、分割するいずれかの変数の列に対応する新しい変数名が各 cell に含まれる cell 配列を用意してください。</entry>
+    <entry key="VartypeInvalidVars">vartype サブスクリプターを使用して分割する変数を指定することはサポートされていません。文字ベクトル、string 配列、文字ベクトルの cell 配列、または数値インデックスか logical インデックスを使用してください。</entry>
+    <entry key="NewVarNamesMustBeConstant">Specify 'NewVariableNames' as Constant.</entry>
+  </message>
+</rsccat>

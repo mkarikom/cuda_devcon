@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <entry key="NotEnoughInputs">Not enough input arguments.</entry>
+        <entry key="SingJac">Unable to solve the collocation equations -- a singular Jacobian encountered.</entry>
+        <entry key="RelTolNotMet">Unable to meet the tolerance without using more than {0,number,integer} mesh points. \n The last mesh of {1,number,integer} points and the solution are available in the output argument. \n The maximum residual is {2}, while requested accuracy is {3}.</entry>
+        <entry key="SolutionWasObtainedn">The solution was obtained on a mesh of {0} points.\n</entry>
+        <entry key="MaximumResidual">The maximum residual is {0}. \n</entry>
+        <entry key="CallsToODEFunction">There were {0} calls to the ODE function. \n</entry>
+        <entry key="CallsToBCFunction">There were {0} calls to the BC function. \n</entry>
+    </message>
+</rsccat>

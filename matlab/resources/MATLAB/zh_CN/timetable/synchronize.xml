@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonTimetableInput">数据输入必须为时间表。</entry>
+    <entry key="UnknownNewTimeStep">''{0}'' 不是用于同步的目标时间向量的有效设定。</entry>
+    <entry key="UnknownNewTimeStepDuration">对于具有持续时间行时间的时间表，''{0}'' 不是同步此类时间表的目标时间向量的有效设定。</entry>
+    <entry key="InvalidNewTimes">用于同步的目标时间向量必须为日期时间或持续时间向量，或者使用字符串或字符向量指定。</entry>
+    <entry key="InvalidNewTimesForRetime">用于重新定时的目标时间向量必须为日期时间或持续时间向量，或者为指定时间步的字符串或字符向量。</entry>
+    <entry key="UnrecognizedMethod">无法识别的同步方法: ''{0}''。</entry>
+    <entry key="InvalidMethod">同步方法必须为字符向量、字符串标量或函数句柄。</entry>
+    <entry key="MixedTimeTypes">所有输入时间表都必须包含相同数据类型的行时间。</entry>
+    <entry key="MixedTimeTypesNewTimes">所有输入时间表都必须包含与目标时间向量相同数据类型的行时间。</entry>
+    <entry key="FunMustReturnOneRow">聚合方法 ''{0}'' 返回的值不只包含一行。</entry>
+    <entry key="NotUnique">使用 ''{0}'' 进行同步时，输入时间表必须包含唯一的行时间。</entry>
+    <entry key="NotUniqueNewTimes">用于同步的目标时间向量必须包含唯一的时间。</entry>
+    <entry key="NotMonotonic">使用 ''{0}'' 进行同步时，输入时间表必须包含已排序(递增或递减)的行时间。</entry>
+    <entry key="NotVectorNewTimes">用于同步的目标时间必须为向量。</entry>
+    <entry key="NotMonotonicNewTimes">用于同步的目标时间向量必须已按递增或递减顺序排序，且不能包含缺失时间。</entry>
+    <entry key="TooFewTimesForAggregation">使用 ''{0}'' 进行同步时，目标时间向量必须包含至少两个时间。</entry>
+    <entry key="DecreasingNewTimesForAggregation">使用 ''{0}'' 进行同步时，目标时间向量必须按递增顺序进行排序。</entry>
+    <entry key="NotNumeric0">使用 ''{0}'' 进行同步时，输入时间表中的所有变量都必须为数值变量、日期时间变量、持续时间变量或有序分类变量。</entry>
+    <entry key="NotNumeric0Mode">All variables in input timetables must be numeric, datetime, duration, or categorical when synchronizing using ''{0}''.</entry>
+    <entry key="NotNumeric1">使用 ''{0}'' 进行同步时，输入时间表中的所有变量都必须为数值、日期时间或持续时间。</entry>
+    <entry key="NotNumeric2">使用 ''{0}'' 进行同步时，输入时间表中的所有变量都必须为数值或持续时间。</entry>
+    <entry key="NotNumeric3">使用 ''{0}'' 进行同步时，输入时间表中的所有变量都必须为数值。</entry>
+    <entry key="NotMissingAware">使用 ''{0}'' 进行同步时，输入时间表中的所有变量都必须支持缺失值(例如浮点值、分类值、日期时间值、持续时间值或文本值)。</entry>
+    <entry key="Interp1Failed">使用 "{1}" 进行同步时，对变量 "{0}" 的插值失败:\n\n{2}</entry>
+    <entry key="InvalidConstant">填充常量必须为标量。</entry>
+    <entry key="InvalidEndValues">请将外插的结束值指定为标量或指定为 ''extrap''。</entry>
+    <entry key="InvalidIncludedEdge">将所包含的用于聚合的时间 bin 边界指定为 ''left'' 或 ''right''。</entry>
+    <entry key="RegularWithoutParams">当 NEWTIMESTEP 为 ''regular'' 时，必须提供时间步或采样率。</entry>
+    <entry key="NonPositiveTimeStep">时间步必须为正数。</entry>
+    <entry key="UnsupportedNewTimeStepDatetime">生成代码时，如果要同步的时间表的行时间为日期时间，''{0}'' 不是支持的用于指定目标时间向量的方法。</entry>
+    <entry key="NonconstantNewTimes">当使用字符串或字符向量指定目标时间向量以进行同步时，该字符串或字符向量必须为常量。</entry>
+    <entry key="NonconstantMethod">同步方法必须为常量。</entry>
+    <entry key="NonconstantConstant">请将 FillWithConstant 的填充值指定为固定大小的标量值。</entry>
+    <entry key="NonconstantEndValues">请为默认外插指定 ''extrap'' 常量，或将外插的结束值指定为具有固定大小的标量值。</entry>
+    <entry key="NonconstantEndValuesCell">对于元胞变量的外插，请将结束值指定为标量元胞。</entry>
+    <entry key="UnsupportedMethodCodegen">代码生成不支持 ''{0}'' 同步方法。</entry>
+    <entry key="CustomAggregationReturnsEmpty">如果同步方法是函数句柄，则输出时间表在运行时必须包含至少一行。</entry>
+    <entry key="VarsizeEmpty">在代码生成中，当使用 ''commonrange'' 时间基础或规则时间步时，可变大小的时间表输入在运行时不能为空。</entry>
+    <entry key="Implicit0x0EmptyCodegen">当使用 ''commonrange'' 时间基础或规则时间步时，代码生成中不支持指定了 TimeStep 或 SampleRate 的 0×0 空时间表。</entry>
+    <entry key="CannotBeImplicit">无法创建规则行时间，因为指定的时间步相对于输入时间表行时间太小，或采样率太大，或它们是非有限值。</entry>
+  </message>
+</rsccat>

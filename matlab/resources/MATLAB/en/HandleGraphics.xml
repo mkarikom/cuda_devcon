@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" decorate_cxx_names="true">
+  <message>
+    <entry key="noJVM">This functionality is not supported under the -nojvm startup option.</entry>
+    <entry key="MacNoX11">This functionality is no longer supported under the options used to start this instance of MATLAB. For more information, see "Startup Option Changes on Mac" in the MATLAB Release Notes. To view the release note in your system browser, run  web(''http://www.mathworks.com/help/matlab/release-notes.html#startup_options_changes'', ''-browser'')</entry>
+    <entry key="ObjectDestroyed">Object destroyed!</entry>
+  <!--Resource entries for src/hg-->
+    <entry key="CALLBACK">Unknown error code returned while evaluating callback.</entry>
+    <entry key="UicontrolUnitsAfterPosition">UICONTROL received a property/value pair for ''Units'' after ''Position'':\n         For backwards compatibility, the position will be interpreted in the new units. In the next MATLAB release, UICONTROL will interpret a ''position'' value in the default units and any subsequent ''units'' property/value pair will cause the initial position to be translated into the specified units.</entry>
+  <!--Resource entries for src/handle_graphics-->
+    <entry key="IteratorOutOfBoundsError">The iterator has reached the end of the available data.</entry>
+  <!--@todo Yes, that's a pretty stupid msgid, but that's what the old code used. Consider changing it. -->
+    <entry key="hgError">{0} cannot be a child of {1}.</entry>
+    <entry key="UnsupportedComponentUsePanel">{0} does not support {1}. Create a panel as a child of the {0}, and then place the {1} in the panel.</entry>
+  </message>
+</rsccat>

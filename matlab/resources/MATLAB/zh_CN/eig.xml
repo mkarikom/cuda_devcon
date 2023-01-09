@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoConvergence">算法未成功。</entry>
+    <entry key="matrixWithNaNInf">输入矩阵不能包含 NaN 或 Inf 值。</entry>
+    <entry key="inputMustBe2DStandard">输入数组必须为二维。</entry>
+    <entry key="inputMustBeSquareStandard">输入矩阵必须为方阵。</entry>
+    <entry key="unknownArgumentStandard">对于标准特征值问题，选项必须为 ''vector''、''matrix''、''balance'' 或 ''nobalance''。</entry>
+    <entry key="unknownArgumentCombinationStandard">选项组合无效。</entry>
+    <entry key="inputType">数据类型无效。输入矩阵必须为双精度值或单精度值。</entry>
+    <entry key="inputTypeGeneralized">数据类型无效。输入矩阵必须为双精度值或单精度值。</entry>
+    <entry key="inputMustBe2DGeneralized">输入数组必须为二维。</entry>
+    <entry key="inputMustBeSquareGeneralized">输入矩阵必须为方阵。</entry>
+    <entry key="inputMustBeSameSizeGeneralized">对于广义特征值问题，输入矩阵必须具有相同的大小。</entry>
+    <entry key="unknownArgumentGeneralized">对于广义特征值问题，选项必须为 ''vector''、''matrix''、''qz'' 或 ''chol''。</entry>
+    <entry key="unknownArgumentCombinationGeneralized">选项组合无效。</entry>
+    <entry key="useEigsForSparseStandard">输入矩阵必须为实对称矩阵(当矩阵为稀疏矩阵时)。请使用 &lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/eigs.html'))\"&gt;eigs&lt;/a&gt; 计算稀疏矩阵的特征向量和特征值的子集。</entry>
+    <entry key="useEigsForSparseStandardVector">输出参数太多。当输入矩阵为稀疏矩阵时，仅支持一个输出参数。请使用 &lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/eigs.html'))\"&gt;eigs&lt;/a&gt; 计算稀疏矩阵的特征向量和特征值的子集。</entry>
+    <entry key="useEigsForSparseGeneralized">对于广义特征值问题，不支持稀疏矩阵。请使用 &lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/eigs.html'))\"&gt;eigs&lt;/a&gt; 计算稀疏特征值问题的特征向量和特征值的子集。</entry>
+  </message>
+</rsccat>

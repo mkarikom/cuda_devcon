@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FileName">文件名不能包含 *。</entry>
+    <entry key="FileReadOnly">文件不能为只读。</entry>
+    <entry key="EmptyFileName">文件名为空。</entry>
+    <entry key="EmptyInput">输入数组为空。</entry>
+    <entry key="InputDimension">输入数组的维度不能高于 2。</entry>
+    <entry key="LockedFile">文件 {0} 不可写。它可能被其他进程锁定。</entry>
+    <entry key="AddSheet">已添加指定的工作表。</entry>
+    <entry key="CalculateRange">数据范围无效: {0}。</entry>
+    <entry key="Dec2BaseInput">D 必须为正标量整数。</entry>
+    <entry key="InputClassFilename">文件名必须为字符串标量或字符向量。</entry>
+    <entry key="InputClass">输入数据必须为数值、元胞或逻辑数组。</entry>
+    <entry key="InputClassSheetArg">工作表参数必须为字符串标量、字符向量或大于 0 的整数。</entry>
+    <entry key="dlmwrite">将文件写为 CSV 格式时出错。要写入 Excel 文件，请将数据转换为表并使用可写。</entry>
+    <entry key="SelectDataRange">指定的数据范围无效，或者太大以致无法写入指定的文件格式。请尝试写入 XLSX 文件，并对范围参数使用 Excel A1 表示法，例如 ‘A1:D4’。</entry>
+    <entry key="InputClassRangeArg">必须将范围参数指定为采用 Excel A1 表示法的字符串标量或字符向量。</entry>
+    <entry key="NoCOMServer">无法写入 Excel 格式，尝试将文件写为 CSV 格式。</entry>
+    <entry key="InvalidSheetName">工作表名称 ''{0}'' 无效。工作表名称不能超过 31 个字符，且不能包含下列任何字符: ': \ / ? * [ ]'。</entry>
+  </message>
+</rsccat>

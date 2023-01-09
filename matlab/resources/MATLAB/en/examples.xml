@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+    <message>
+        <entry key="InvalidArgument">Invalid argument "{0}".</entry>  
+        <entry key="ExampleNotFound">Example "{0}" not found in "{1}".</entry>  
+        <entry key="InvalidDirectory">Directory argument must be a character vector.</entry>
+        <entry key="EmptyDirectory">Directory argument must not be empty.</entry>
+        <entry key="PathNotValid">Unable to create a working directory because the default directory name contains characters which are not supported. Use the 'workDir' option to choose a different working directory to open the example. See "help openExample" for more information about how to use this option.</entry>
+        <entry key="UnsupportedDirectoryName">The working directory name contains control characters which are not supported. Specify a working directory name that does not contain these characters.</entry>
+        <entry key="FunctionInMultipleExamples">''{0}'' is used in the following examples:{1}</entry>
+        <entry key="FunctionInSingleExample">''{0}'' is used in {1}.</entry>
+    </message>
+</rsccat>

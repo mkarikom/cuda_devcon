@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="factorFailed">UMFPACK 分解ができませんでした。</entry>
+    <entry key="solveFailed">UMFPACK 解決ができませんでした。</entry>
+    <entry key="invalidSymbolic">スパースの LU からのシンボリック因数分解が無効です。</entry>
+    <entry key="invalidNumeric">スパースの LU からの数値因数分解が無効です。</entry>
+    <entry key="internalError">スパース LU でエラーが発生しました。</entry>
+  </message>
+</rsccat>

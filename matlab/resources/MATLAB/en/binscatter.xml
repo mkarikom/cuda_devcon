@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="ArgNameValueMismatch">Trailing input arguments must occur in name-value pairs.</entry>
+      <entry key="MixedTallData">X and Y must be both tall arrays or both in-memory arrays.</entry>
+      <entry key="InvalidDatetimeOrDurationXLimits">XLimits must be a two-element sorted and finite array and must have the same class as X data.</entry>
+      <entry key="InvalidDatetimeOrDurationYLimits">YLimits must be a two-element sorted and finite array and must have the same class as Y data.</entry>
+      <entry key="InvalidTallData">Tall inputs must be real column vectors.</entry>
+      <entry key="NonEmptyNumBinsAutoMode">When ''NumBinsMode'' is set to ''auto'', ''NumBins'' cannot be set.</entry>
+      <entry key="NonEmptyXLimitsAutoMode">When ''XLimitsMode'' is set to ''auto'', ''XLimits'' cannot be set.</entry>
+      <entry key="NonEmptyYLimitsAutoMode">When ''YLimitsMode'' is set to ''auto'', ''YLimits'' cannot be set.</entry>
+      <entry key="EmptyNumBinsManualMode">When ''NumBinsMode'' is set to ''manual'', ''NumBins'' must be set.</entry>
+      <entry key="EmptyXLimitsManualMode">When ''XLimitsMode'' is set to ''manual'', ''XLimits'' must be set.</entry>
+      <entry key="EmptyYLimitsManualMode">When ''YLimitsMode'' is set to ''manual'', ''YLimits'' must be set.</entry>
+      <entry key="BinCounts">Bin Counts</entry>
+   </message>
+</rsccat>

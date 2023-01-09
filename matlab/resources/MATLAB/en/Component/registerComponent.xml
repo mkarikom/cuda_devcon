@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ConflictingComponentDefinition" translate="false">Cannot register component at {0} because a component with the same unique identifier and version has already been registered at {1}.</entry>
+    <entry key="ComponentAlreadyRegistered" translate="false">Cannot register component at {0} because it is already registered.</entry>
+    <entry key="CannotRegisterComponent" translate="false">Cannot register component at {0}.</entry>
+  </message>
+</rsccat>

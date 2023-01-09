@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidInputType">Input arguments must be numeric.</entry>
+    <entry key="InvalidDataInputs">Requires 2 or 3 data arguments.</entry>
+    <entry key="InvalidInputDimensions">THETA and RHO must be the same size.</entry>
+    <entry key="PolarAxes">POLAR is not compatible with the PolarAxes class. Use POLARPLOT instead.</entry>
+  </message>
+</rsccat>

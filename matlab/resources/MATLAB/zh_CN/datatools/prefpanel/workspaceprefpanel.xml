@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Label">工作区</entry>
+    <entry key="SaveVariablesAsScripts">将变量另存为 MATLAB 脚本文件</entry>
+    <entry key="SaveVariablesThreshhold">将变量保存到 MATLAB 脚本时所用的阈值</entry>
+    <entry key="SaveVariablesThreshholdHelper">超出这些阈值的变量会保存到关联的 MAT 文件中。</entry>
+    <entry key="MaxArraySize">数组的最大大小:</entry>
+    <entry key="MaxNestingValue">最大的结构体/对象嵌套级别:</entry>
+    <entry key="MultiDimArrayFormatting">多维数组格式化</entry>
+    <entry key="RowVectorReshape">重构行向量(紧凑高效)</entry>
+    <entry key="DimsForSaving2DPages">采用二维的形式(易于读取)</entry>
+    <entry key="ArrayDimsFor2DPages">在二维页面中显示的数组维度</entry>
+    <entry key="FileFormatting">文件格式化</entry>
+    <entry key="MaxCharactersPerLine">每行的字符数上限:</entry>
+    <entry key="StatisticalCalc">统计计算</entry>
+    <entry key="ShowArrayStatsHelper">个元素及更少元素的数组，显示统计量</entry>
+    <entry key="HandleNaNInCalculations">处理计算中的 NaN 值:</entry>
+    <entry key="UseNansInCalculatingStats">计算统计量时使用 NaN</entry>
+    <entry key="IgnoreNansWhenCalculatingSttas">计算统计量时忽略 NaN</entry>
+    <entry key="ArraySizeLimit">MATLAB 数组大小限制</entry>
+    <entry key="LimitMaxArarySizeToRam">将最大数组大小限制为 RAM 的一定百分比</entry>
+    <entry key="ArrayLimitTooltip">值必须介于 1 和 32 之间，且第一个值必须小于第二个值</entry>
+  </message>
+</rsccat>

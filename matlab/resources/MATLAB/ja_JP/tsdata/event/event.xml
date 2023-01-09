@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="misname">イベントのコンストラクターの最初の引数はイベントの名前でなければなりません。</entry>
+    <entry key="datenum">イベントのコンストラクターの 2 番目の引数は有効な datenum の値でなければなりません。</entry>
+    <entry key="noValidDateStr">イベントのコンストラクターの 2 番目の引数は、有効な日付文字ベクトルまたは string でなければなりません。</entry>
+    <entry key="abstime">イベントのコンストラクターの 2 番目の引数は、有効な datenum の値、絶対日付文字ベクトル、string、実数のいずれかとして入力しなければなりません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="IncorrectNumInputs">입력 인수의 개수가 올바르지 않습니다.</entry>
+    <entry key="InvalidFirstInput">첫 번째 인수는 double형 또는 single형 벡터이거나 double형 또는 single형 변수가 있는 table형 또는 timetable형이어야 합니다.</entry>
+    <entry key="NotEnoughDataSSA">''ssa'' 메서드를 사용할 경우(디폴트) 첫 번째 입력값은 적어도 6개의 요소를 가져야 합니다.</entry>
+    <entry key="NotEnoughDataSTL">''stl'' 메서드를 사용할 경우 첫 번째 입력값은 적어도 4개의 요소를 가져야 합니다.</entry>
+    <entry key="InputDataInf">첫 번째 인수는 Inf 값을 포함해서는 안 됩니다.</entry>
+    <entry key="NonVectorTableVariable">테이블 변수는 열 벡터여야 합니다.</entry>
+    <entry key="InvalidMethod">메서드는 ''ssa'' 또는 ''stl''이어야 합니다.</entry>
+    <entry key="InvalidLag">지연 값은 3과 N/2 사이의 양의 실수형 스칼라여야 합니다. 여기서 N은 첫 번째 입력값의 요소 개수입니다.</entry>
+    <entry key="InvalidPeriod">세 번째 입력값은 중복 요소가 없는 숫자형 또는 duration형의 스칼라 또는 벡터여야 합니다.</entry>
+    <entry key="InvalidNumericPeriod">주기는 2와 N/2 사이여야 합니다. 여기서 N은 첫 번째 입력값의 요소 개수입니다.</entry>
+    <entry key="InvalidDurationPeriod">주기는 적어도 2개의 관측값을 나타내고 두 번 반복해야 합니다.</entry>
+    <entry key="InvalidDurationPeriodNoTimetable">세 번째 입력값이 duration형인 경우 첫 번째 입력값은 timetable형이어야 합니다.</entry>
+    <entry key="ParseFlags">파라미터 이름은 ''NumSeasonal''이어야 합니다.</entry>
+    <entry key="SamplePointsNonUniform">RowTimes 값은 간격이 균일해야 합니다.</entry>
+    <entry key="InvalidNumSeasonal">''NumSeasonal'' 값은 1과 지연 값에서 2를 뺀 값 사이의 양의 정수여야 합니다.</entry>
+    <entry key="NumSeasonalWithSTL">파라미터 ''NumSeasonal''은 메서드 ''ssa''와 함께 사용해야 합니다.</entry>
+  </message>
+</rsccat>

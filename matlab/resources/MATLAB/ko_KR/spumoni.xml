@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="spu0">sp\\: A가 삼각형입니까?</entry>
+    <entry key="spu1">  예.\nsp\\: 삼각 행렬 풀이를 수행합니다.\n</entry>
+    <entry key="spu2">  아니요.\nsp\\: A가 한 치의 어긋남 없이 삼각형입니까?</entry>
+    <entry key="spu3">  예.\nsp\\: 치환하고 해를 구합니다.\n</entry>
+    <entry key="spu4">  아니요.\nsp\\: A에 대해 촐레스키 분해(Cholesky Factorization)를 수행할 수 있습니까(즉, 대칭 행렬이고 대각 성분이 모두 양의 실수이거나 모두 음의 실수입니까)?</entry>
+    <entry key="spu9">sp\\: A는 양의 정부호 행렬이 아닙니다.\n</entry>
+    <entry key="spu10">  아니요.\n</entry>
+    <entry key="spu13">sp\\: UMFPACK의 수치적 LU 분해가 성공적입니까?</entry>
+    <entry key="spu15">  예.\n</entry>
+    <entry key="spu16">sp\\: LU 인수 원래 값입니다. 2개의 삼각 시스템에 대한 해를 구합니다.\n</entry>
+    <entry key="spu17">sp\\: 열 최소 차수입니다.\n</entry>
+    <entry key="spu20">sp\\: sptsolve의 sprealloc: {0} {1} {2}</entry>
+    <entry key="spu27"> 아니요.\n 삼중대각 행렬(Tridiagonal Matrix) 풀이가 피벗 {0}에서 실패했습니다.\n</entry>
+    <entry key="spu32">sp\\: LAPACK의 띠 솔버가 성공적입니까?</entry>
+    <entry key="spu33">sp\\: 대역폭 = {0}+1+{1}.\n</entry>
+    <entry key="spu34">sp\\: 대역(Band) 밀도({0})가 bandden({1})보다 크면 띠 솔버를 사용합니까?</entry>
+    <entry key="spu35">sp\\: 피벗 연산 없이 실수형 삼중대각 행렬(Tridiagonal Matrix) A의 해를 구해도 됩니까?</entry>
+    <entry key="spu36">sp\\: A가 대각선입니까? </entry>
+    <entry key="spu37">  예.\nsp\\: 대각 행렬 풀이를 수행합니다.\n</entry>
+    <entry key="spu38">sp\\: 자동 재정렬(Reordering)을 적용한 CHOLMOD의 심볼릭 촐레스키 분해(Cholesky Factorization)가 성공적입니까?</entry>
+    <entry key="spu39">sp\\: 재정렬(Reordering)을 적용하지 않은 CHOLMOD의 심볼릭 촐레스키 분해(Cholesky Factorization)가 성공적입니까?</entry>
+    <entry key="spu40">sp\\: CHOLMOD의 수치적 촐레스키 분해(Cholesky Factorization)가 성공적입니까?</entry>
+    <entry key="spu41">  예.\nsp\\: CHOLMOD의 삼각 행렬 풀이가 성공적입니까?</entry>
+    <entry key="spu42">sp\\: Unsymmetric MultiFrontal PACKage를 사용하십시오.</entry>
+    <entry key="spu43">sp\\: UMFPACK의 행렬 분해에 성공했습니다.\n</entry>
+    <entry key="spu44">sp\\: UMFPACK의 풀이에 성공했습니다.\n</entry>
+    <entry key="spu45">sp\\: UMFPACK이 실패했습니다.\n</entry>
+    <entry key="spu46">sp\\: SuiteSparseQR을 통한 Sparse QR 해입니다.\n</entry>
+    <entry key="spu47">sp\\: 그러나 A는 실수 대칭형 행렬입니다. MA57을 시도해 보십시오.\n</entry>
+    <entry key="spu48"> 자동 재정렬(Reordering)을 적용합니다.\n</entry>
+    <entry key="spu49">sp\\: 그러나, 공격적인 피벗 허용오차로 인해 또는 해당 문제가\n 조건이 나쁜 문제이기 때문에 UMFPACK이 정확한 행렬 분해를\n 생성하지 못했을 수 있습니다.\n</entry>
+    <entry key="spu52">sp\\: 이러한 허용오차는 다음과 같습니다.\n</entry>
+    <entry key="spu53">\t피벗 허용오차: {0}\n</entry>
+    <entry key="spu54">\t대각 행렬 피벗 허용오차: {0}\n</entry>
+    <entry key="spu55">표준 부분 피벗 연산을 사용하여 행렬이 다시 분해됩니다.\n</entry>
+    <entry key="spu57">CHOLMOD의 심볼릭 촐레스키 분해(Cholesky Factorization)입니다.\n</entry>
+    <entry key="spu58">CHOLMOD의 수치적 촐레스키 분해(Cholesky Factorization)입니다.\n</entry>
+    <entry key="spu59">CHOLMOD에서 L'를 추출합니다.\n</entry>
+    <entry key="spu60">CHOLMOD에서 치환을 추출합니다.\n</entry>
+    <entry key="spu61">무한 행렬({0}번 열):</entry>
+    <entry key="spu62"> 대각선 요소 {0} &lt; {1} 허용오차\n</entry>
+    <entry key="spu63">예상, 0이 아닌 요소: {0}\n</entry>
+    <entry key="spu64">예상 플롭스: {0}\n</entry>
+    <entry key="spu65">예상 높이: {0}\n</entry>
+    <entry key="spu66">예상 프론트 크기: {0}\n</entry>
+    <entry key="spu67">SuiteSparseQR에서 c를 추출합니다.\n</entry>
+    <entry key="spu68">SuiteSparseQR을 통해 QR 분해를 계산합니다.\n</entry>
+    <entry key="spu69">SuiteSparseQR에서 Q를 추출합니다.\n</entry>
+    <entry key="spu70">SuiteSparseQR에서 치환을 추출합니다.\n</entry>
+    <entry key="spu71">SuiteSparseQR에서 R을 추출합니다.\n</entry>
+    <entry key="spu72">spmlrcm: 루트 = {0}\n</entry>
+    <entry key="spu73">spmlrcm: 성분 크기 = {0}, 레벨 = {1}\n</entry>
+    <entry key="spu74">spmlrcm: 버그임. 차원 n = {0} </entry>
+    <entry key="spu75">그러나 num = {0}에 성분 크기가 추가됨\n</entry>
+    <entry key="spu76">성분: {0}\n</entry>
+    <entry key="spu77">대역폭: {0}\n</entry>
+    <entry key="spu78">프로파일: {0}\n</entry>
+    <entry key="spu79">의사지름(Pseudodiameter): {0}\n</entry>
+    <entry key="spu80">rootls: {0} 레벨\n</entry>
+    <entry key="spu81">colmmd: {0} 밀도 행을 제한합니다.\n</entry>
+    <entry key="spu82">단계 0:  </entry>
+    <entry key="spu84">단계 {0}:  </entry>
+    <entry key="spu87">감소됨 </entry>
+    <entry key="spu89">제거됨 </entry>
+    <entry key="spu90">임계값 {0}</entry>
+    <entry key="spu91">선택됨 </entry>
+    <entry key="spu94">\tA'*A에 정확한 차수 사용;\n</entry>
+    <entry key="spu95">\tA'*A에 대략적인 차수 사용;\n</entry>
+    <entry key="spu96">\t처음과 매 {0}단계마다 supernode 융합;\n</entry>
+    <entry key="spu97">\t처음에만 supernode 융합;\n</entry>
+    <entry key="spu98">\t매 {0} 단계마다 supernode 융합;\n</entry>
+    <entry key="spu99">\tsupernode 융합 없음;\n</entry>
+    <entry key="spu100">\t처음과 매 {0} 단계마다 행 축소;\n</entry>
+    <entry key="spu101">\t처음에만 행 축소;\n</entry>
+    <entry key="spu102">\t매 {0} 단계마다 행 축소;\n</entry>
+    <entry key="spu103">\t행 축소 없음;\n</entry>
+    <entry key="spu104">\tcolmmd에서 최소 {0} 밀집된 행은 유지;\n</entry>
+    <entry key="spu105">\tcolmmd에 행 제한 조건 없음;\n</entry>
+    <entry key="spu107">mmd: {0} 단계입니다.\n</entry>
+    <entry key="spu108">기각 허용오차: {0}\n</entry>
+    <entry key="spu109">U의 0 대각선 요소 바꾸기: </entry>
+    <entry key="spu110">수정된 불완전 LU: </entry>
+    <entry key="spu111">피벗 임계값: {0}\n</entry>
+    <entry key="spu112">lu(V)의 sprealloc: {0} {1} {2}</entry>
+    <entry key="spu114">lu(L)의 sprealloc: {0} {1} {2}</entry>
+    <entry key="spu115">lu(U)의 sprealloc: {0} {1} {2}</entry>
+    <entry key="spu116">축소된 nzs: {0}\n</entry>
+    <entry key="spu117">L 0이 아닌 요소: {0}\n</entry>
+    <entry key="spu118">U 0이 아닌 요소: {0}\n</entry>
+    <entry key="spu119">spchol의 버그: 분석 시 충분한 저장 용량이 할당되지 않았음\n</entry>
+    <entry key="spu120">sp\\: 그러나, 피벗 허용오차가 지나치게 과감하거나 문제의 조건이 나빠서\n UMFPACK이 사용자가 원하는 수준의 역방향 오차를 갖는 해를\n 구하지 못했을 수 있습니다.\n</entry>
+    <entry key="spu121">sp\\: 구한 역방향 오차는 다음과 같습니다.\n</entry>
+    <entry key="spu122">\t희소 형식 역방향 오차 omega1: {0}\n</entry>
+    <entry key="spu123">\t희소 형식 역방향 오차 omega2: {0}\n</entry>
+    <entry key="spu83">\n</entry>
+    <entry key="spu85">amalgamated </entry>
+    <entry key="spu86"> {0}  </entry>
+    <entry key="spu93">mmd:  threshold = {0} * mindegree + {1};\n</entry>
+    <entry key="spu113"> {0}\n</entry>
+  </message>
+</rsccat>

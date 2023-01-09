@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SubscriptReferenceNotAllowed">无法使用 () 索引对 RandStream 进行索引。</entry>
+    <entry key="CellReferenceNotAllowed">无法使用 '{}' 索引对 RandStream 进行索引。</entry>
+    <entry key="InvalidMethodSyntax">方法调用语法非法。</entry>
+    <entry key="InvalidPropertySyntax">属性引用非法。</entry>
+    <entry key="UnrecognizedProperty">属性 ''{0}'' 无法识别。</entry>
+  </message>
+</rsccat>

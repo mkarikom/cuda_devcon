@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonNumericInput">入力引数は数値でなければなりません。</entry>
+    <entry key="non2DInput">入力は 2 次元でなければなりません。</entry>
+    <entry key="nonComplexVectorInput">複素数ベクトルのみサポートされます。</entry>
+    <entry key="lengthXDoesNotMatchNumRowsY">X の長さは、Y の行数と一致しなければなりません。</entry>
+    <entry key="lengthXDoesNotMatchNumAnyDimY">X の長さは Y の行数または列数のどちらかと一致しなければなりません。</entry>
+    <entry key="XAndYLengthMismatch">X は、Y と同じ長さでなければなりません。</entry>
+    <entry key="XAndYSizeMismatch">X と Y は同じサイズでなければなりません。</entry>
+    <entry key="XNotAVector">X はベクトルでなければなりません。</entry>
+    <entry key="YNotAVectorScalarX">X がスカラーの場合、Y はベクトルでなければなりません。</entry>
+  </message>
+</rsccat>

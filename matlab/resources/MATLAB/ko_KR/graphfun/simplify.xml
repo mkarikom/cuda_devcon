@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="KeyWithoutValue">입력 인수의 개수가 올바르지 않습니다. ''{0}'' 다음에는 대응값이 와야 합니다.</entry>
+    <entry key="InvalidAggregationCombination">''AggregationVariables'' 파라미터는 두 번째 인수가 ''sum'' 또는 ''mean''인 경우에만 지원됩니다.</entry>
+    <entry key="InvalidAggregationVars">''AggregationVariables'' 값이 유효하지 않습니다.</entry>
+    <entry key="InvalidAggregationFHandle">''AggregationVariables'' 함수 핸들은 논리형 스칼라를 반환해야 합니다.</entry>
+    <entry key="InvalidPickCombination">''PickVariable'' 파라미터는 두 번째 입력값이 ''min'' 또는 ''max''인 경우에만 지원됩니다.</entry>
+    <entry key="InvalidPickVars">''PickVariable'' 값은 2와 Edges 테이블에 포함된 변수의 개수 사이의 인덱스이거나 Edges 테이블의 변수 이름(''EndNodes''는 제외)이어야 합니다.</entry>
+    <entry key="NoWeights">입력 그래프에 간선 가중치가 없습니다. 간선 가중치를 그래프에 추가하거나 ''{0}'' 파라미터를 지정하십시오.</entry>
+    <entry key="InvalidEdgeVarType">''{0}''은(는) {2} 유형의 간선 변수 ''{1}''에 대해 정의되지 않은 함수입니다.</entry>
+    <entry key="PickVarNotColumn">''PickVariable'' 값은 열 벡터인 간선 변수여야 합니다.</entry>
+  </message>
+</rsccat>

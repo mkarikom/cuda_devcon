@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2016-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidArguments">First argument must be a table or numeric vector.</entry>
+    <entry key="MustBeVector">The ''{0}'' argument must be a vector.</entry>
+    <entry key="BadTypeLabel">The ''labels'' argument must be specified as a string vector or cell array of character vectors.</entry>
+    <entry key="BadTypeGroup">The ''groups'' argument must be specified as a cell array of character vectors, or a vector of strings, categoricals, numerics or logicals.</entry>
+    <entry key="SizeMismatch">The length of the ''{0}'' argument must match the length of the ''sz'' argument.</entry>
+    <entry key="InvalidLabelData">When not using a table, specify labels as strings, a cell array of character vectors, or an array that is convertible to strings.</entry>
+    <entry key="InvalidGroupData">When not using a table, specify groups as strings, a cell array of character vectors, a categorical, numeric, or logical vector.</entry>
+    
+    <entry key="SizeNonNegativeNumeric">Specify bubble size as a vector of non-negative numbers.</entry>
+    
+    <entry key="BadTableVarPropAmbiguous">{0} is not a valid table variable or property name.</entry>
+    <entry key="PropertySizeMismatch">The length of ''{0}'' must match the length of ''{1}''.</entry>
+
+    <entry key="DatatipSize">Size</entry>
+    <entry key="DatatipLabel">Label</entry>
+    <entry key="DatatipGroup">Group</entry>
+            
+    <entry key="VectorWorkflow">Setting the ''{0}'' property after setting the ''SizeData'' property is not supported.</entry>
+    <entry key="TableWorkflow">Setting the ''{0}'' property after setting the ''SourceTable'' property is not supported.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="unknownNorm">利用可能なただ 1 つの行列のノルムは、1、2、inf、および \''fro\'' です。</entry>
+    <entry key="lessAccurate">SVD を使用した 2-NORM の計算は index = {0,number,integer} で収束しません。</entry>
+    <entry key="spNorm2notAvailable">スパースの norm(S,2) は、利用できません。</entry>
+    <entry key="inputType">1 番目の引数は、単精度、または倍精度でなければなりません。</entry>
+    <entry key="inputMustBe2D">入力は 2 次元でなければなりません。</entry>
+  </message>
+</rsccat>

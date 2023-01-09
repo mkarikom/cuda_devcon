@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MissingConstrainingOrUnconstrainingData">제약({0,number,integer}) 또는 비제약({1,number,integer}) 데이터가 누락됨</entry>
+    <entry key="BadMeshColor">잘못된 MESHCOLOR 값</entry>
+    <entry key="Expected2Or3ElementVector">값은 2 요소 또는 3 요소 벡터여야 함</entry>
+    <entry key="ExpectedColumnOrRowVector">값은 열 벡터 또는 행 벡터여야 함</entry>
+    <entry key="ExpectedRowVector">값은 행 벡터여야 함</entry>
+    <entry key="ValueMustBe3ElementVector">색 값은 3 요소 숫자형 벡터여야 함</entry>
+    <entry key="BadColorValue">색의 값이 NaN이거나 범위 0.0 &lt;= 값 &lt;= 1.0 밖의 요소가 포함되어 있음</entry>
+    <entry key="ExpectedHandle">값은 핸들이어야 함</entry>
+    <entry key="ValueMustBeNumeric">값은 숫자형이어야 함</entry>
+    <entry key="ValueMustBe2ElementVector">값은 2 요소 벡터여야 함</entry>
+    <entry key="ValuesMustBeIncreasingAndNonNaN">값은 증가해야 하고 NaN이 아니어야 함</entry>
+    <entry key="ValueMustBe3Double">색 값은 3 요소 double형 벡터여야 함</entry>
+  </message>
+</rsccat>

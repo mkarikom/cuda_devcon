@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CodegenVarNames">When generating code, VariableNames must be specified.</entry>
+    <entry key="NonconstantVariableNames">Table variable names must be constant.</entry>
+    <entry key="NDCell">C must be a 2-D cell array.</entry>
+    <entry key="VariableColumns">Input must have fixed number of columns.</entry>
+  </message>
+</rsccat>

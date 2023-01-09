@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFigureHandle">유효하지 않은 Figure 핸들임</entry>
+    <entry key="UnsupportedObject">{0}에는 컬러맵 편집기를 사용할 수 없습니다.</entry>
+    <entry key="ExpectedCmeditor">cmeditor는 그 자리에 계속 남아 있어야 함</entry>
+    <entry key="ColormapeditorAppdataExpected">colormapeditor appdata는 그 자리에 계속 남아 있어야 함</entry>
+    <entry key="ColormapEmpty">빈 컬러맵</entry>
+  </message>
+</rsccat>

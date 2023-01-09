@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="funArgNotHandle">第一个输入参数必须为函数句柄。</entry>
+    <entry key="invalidEndpoint">A 和 B 必须为标量浮点值。</entry>
+    <entry key="nonFiniteContourError">等高线端点和路标必须为有限值。</entry>
+    <entry key="NonFiniteValue">遇到无穷或非数字值。</entry>
+    <entry key="UnsupportedClass">支持的类为 ''double'' 和 ''single''。</entry>
+    <entry key="FxNotSameSizeAsX">函数的输出与输入必须具有相同的大小。</entry>
+    <entry key="invalidAbsTol">AbsTol 无效</entry>
+    <entry key="invalidRelTol">RelTol 无效</entry>
+    <entry key="invalidMaxIntervalCount">MaxIntervalCount 必须为正整数标量。</entry>
+    <entry key="increasedRelTol">RelTol 已增加到 100*eps(''{0}'') = {1}。</entry>
+    <entry key="MaxIntervalCountReached">已达到正在使用的间隔最大数目的限制。误差的近似范围为 {0}。积分可能不存在，或者可能很难在数值上接近。请将另一迭代的 MaxIntervalCount 增大到 {1,number,integer}，以便启用 QUADGK 继续。</entry>
+    <entry key="MinStepSize">最小步长已快达到 x = {0}；可能具有奇异性。</entry>
+    <entry key="WaypointsNotVector">路标必须为向量。</entry>
+    <entry key="WaypointsNotFinite">路标必须为有限值。</entry>
+  </message>
+</rsccat>

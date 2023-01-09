@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="ActivatingSpecialPlotFeatures">Activating special plot features</entry>
+      <entry key="AddingLayoutManager">Adding layout manager</entry>
+      <entry key="Completed">Completed</entry>
+      <entry key="Copy">Copy</entry>
+      <entry key="DefineDisplayedTimeSeries">Define Displayed Time Series</entry>
+      <entry key="Delete">Delete</entry>
+      <entry key="Detrend">Detrend...</entry>
+      <entry key="DragAndDropToView">Drag and drop a time series node to view</entry>
+      <entry key="EditPlot">Edit Plot...</entry>
+      <entry key="Filter">Filter...</entry>
+      <entry key="InitializingTimeSeriesPlot">Initializing Time Series Plot</entry>
+      <entry key="Interpolate">Interpolate...</entry>
+      <entry key="InvalidSubplotIndex">Invalid subplot index</entry>
+      <entry key="NewNodeName">New node name</entry>
+      <entry key="Paste">Paste</entry>
+      <entry key="Path">Path</entry>
+      <entry key="PlotIsEmpty">Plot is empty. Drag and drop a time series into the plot window before editing the plot.</entry>
+      <entry key="ProcessData">Process Data</entry>
+      <entry key="RemoveMissingData">Remove Missing Data...</entry>
+      <entry key="RemoveTimeSeriesFromView">Remove Time Series From View</entry>
+      <entry key="Rename">Rename</entry>
+      <entry key="ResampleData">Resample Data...</entry>
+      <entry key="Size">Size</entry>
+      <entry key="ThePropertyEditorCanBeUsed">The Property Editor can be used to customize\nthe appearance and behavior of time series plots.\nOpen the Property Editor?</entry>
+      <entry key="TheLargestSubplotIndex">The largest subplot index vector cannot be larger than the sum of all the columns of all the time series in the plot: {0,number,integer}</entry>
+      <entry key="TheLengthOfTheSubplotIndex">The length of the subplot index vector must equal the number of columns in the time series ({0,number,integer})</entry>
+      <entry key="TimeSeries">Time series</entry>
+      <entry key="TimeSeriesAreAlreadyDisplayedInThePlot">Time series {0} are already displayed in the plot.</entry>
+      <entry key="TimeSeriesPlot">Time Series Plot</entry>
+      <entry key="TimeSeriesPlots">Time Series Plots</entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+      <entry key="SubplotIndex">Subplot Index</entry>
+      <entry key="UpdatingPlot">Updating plot...</entry>
+      <entry key="ViewNode">View Node</entry>
+      <entry key="Visible">Visible?</entry>
+   </message>
+</rsccat>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WrongNumberOfOutputs">2개의 출력 인수가 있어야 함</entry>
+    <entry key="UnknownFcn">알 수 없거나 지원되지 않는 ARPACK 함수임</entry>
+    <entry key="NotEnoughInputs">최소 1개의 입력 인수가 있어야 함</entry>
+    <entry key="InvalidInputFcn">fcn을 문자형 벡터로 변환할 수 없음</entry>
+    <entry key="NotEnoughInputsAUPD">arpackc(''d*aupd'',...)는 16개의 다른 입력 인수를 가져야 함</entry>
+    <entry key="InvalidInputBmat">bmat을 문자형 벡터로 변환할 수 없음</entry>
+    <entry key="InvalidInputWhich">which를 문자형 백터로 변환할 수 없음</entry>
+    <entry key="NotEnoughInputsDSEUPD">arpackc(''dseupd'',...)는 21개의 다른 입력 인수를 가져야 함</entry>
+    <entry key="InvalidInputHowmny">howmny를 문자형 백터로 변환할 수 없음</entry>
+    <entry key="NotEnoughInputsDNEUPD">arpackc(''dneupd'',...)는 23개의 다른 입력 인수를 가져야 함</entry>
+    <entry key="NotEnoughInputsZNAUPD">arpackc(''znaupd'',...)는 17개의 다른 입력 인수를 가져야 함</entry>
+    <entry key="NotEnoughInputsZNEUPD">arpackc(''zneupd'',...)는 23개의 다른 입력 인수를 가져야 함</entry>
+  </message>
+</rsccat>

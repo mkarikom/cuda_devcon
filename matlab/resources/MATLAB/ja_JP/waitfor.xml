@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadProperty1">無効なプロパティ</entry>
+    <entry key="BadProperty2">無効なプロパティ</entry>
+    <entry key="BadProperty3">無効なプロパティ</entry>
+    <entry key="BadProperty">無効なプロパティ。</entry>
+    <entry key="InvalidObject">オブジェクトが無効です。</entry>
+    <entry key="AmbiguousProperty">あいまいなプロパティです。</entry>
+  </message>
+</rsccat>

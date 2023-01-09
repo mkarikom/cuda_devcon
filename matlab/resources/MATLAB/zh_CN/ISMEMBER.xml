@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownFlag">标志 ''{0}'' 无法识别。有效标志是 ''rows''、''legacy''。</entry>
+    <entry key="UnknownInput">输入无效。有效标志是 ''rows''、''legacy''。</entry>
+    <entry key="RepeatedFlag">不能多次指定 ''{0}'' 标志。</entry>
+    <entry key="BehaviorConflict">可以指定 ''legacy'' 或 ''R2012a''，但不能同时指定二者。</entry>
+    <entry key="LegacyTrailing">''legacy'' 标志必须位于最后。</entry>
+    <entry key="R2012aTrailing">''R2012a'' 标志必须位于最后。</entry>
+    <entry key="RowsFlagIgnored">元胞数组输入不支持 ''rows'' 输入。</entry>
+    <entry key="InputClass">类 {0} 的输入 A 和类 {1} 的输入 B 必须为字符向量元胞数组，除非其中某个输入为字符向量。</entry>
+    <entry key="AandBColnumAgree">如果指定 ''rows''，则输入 A 和 B 必须是具有相同列数的矩阵。</entry>
+    <entry key="InvalidInputsDataType">类 {0} 的输入 A 和类 {1} 的输入 B 必须属于同一类，除非其中某个输入为双精度值。</entry>
+    <entry key="NotAMatrix">如果指定 ''rows''，则输入 A 和 B 必须是具有相同列数的矩阵。</entry>
+    <entry key="HelperInvalidA">A 必须为数值、逻辑或字符数组。</entry>
+    <entry key="HelperInvalidB">B 必须为数值、逻辑或字符数组。</entry>
+    <entry key="HelperInvalidAB">当 A 和 B 具有不同的数值类型时，A 或 B 必须为双精度值。</entry>
+    <entry key="HelperSameType">第一个输入参数和第二个输入参数的类型必须相同。</entry>
+  </message>
+</rsccat>

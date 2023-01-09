@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="fl_ustring">
+  <message>
+    <entry key="describeFile">''{0}{1}'' is a {2}.\n</entry>
+    <entry key="builtinFunction">''{0}'' is a built-in function.\n</entry>
+    <entry key="fileNotFound">File ''{0}'' not found.</entry>
+    <entry key="invalidRange">Invalid range arguments.</entry>
+
+    <!-- Property type -->
+    <entry key="PropInitialDimMismatchScalar">Size of default value must be scalar.</entry>
+    <entry key="PropInitialDimMismatchScalarCompat">Size of default value must match specified dimensions {0}.</entry>
+    <entry key="PropInitialDimMismatchNonScalar">Size of default value must match specified dimensions {0} or be scalar.</entry>
+
+    <entry key="PropInitialClsMismatch">Default value must be {0} or be convertible to {0}.</entry>
+    <entry key="DefaultPropertyValueRequired">Class {0} is abstract. Specify a default value for property {1}.</entry>
+    <entry key="UnrecognizedClass">Unrecognized class {0}.</entry>
+
+    <entry key="PropSetDimMismatchScalar">Size of value must be scalar.</entry>
+    <entry key="PropSetDimMismatchScalarCompat">Size of value must match specified dimensions {0}.</entry>
+    <entry key="PropSetDimMismatchNonScalar">Size of value must match specified dimensions {0} or be scalar.</entry>
+
+    <entry key="PropSetClsMismatch">Value must be {0} or be convertible to {0}.</entry>
+    <entry key="PropShortEnumSetClsMismatch">Value must be one of:\n{0}</entry>
+    <entry key="PropLongEnumSetClsMismatchWithHyperlink"><![CDATA[Value must be {0} or be convertible to {0}. See the <a href="matlab:enumeration(''{0}'');">list of valid options</a>.]]></entry>
+    <entry key="PropLongEnumSetClsMismatchWithoutHyperlink">Value must be {0} or be convertible to {0}. To see the list of valid options, type enumeration(''{0}'').</entry>
+    <entry key="UnableToConstructDefaultObject">Unable to construct default object of class {0}.</entry>
+    <entry key="ErrorCoercingImplicitDefaultValue">Error defining property ''{0}'' of class ''{1}''. {2}</entry>
+
+    <!-- Property validator errors -->
+    <entry key="ErrorValidatingImplicitDefaultValue">Error using implicit default value of property ''{0}'' of class ''{1}''. {2}</entry>
+    <entry key="ErrorValidatingImplicitDefaultValueWithPostamble">{2}\nError using implicit default value of property ''{0}'' of class ''{1}''.</entry>
+    <entry key="ErrorSettingProperty">Error setting property ''{0}'' of class ''{1}''. {2}</entry>
+    <entry key="ErrorSettingPropertyWithPostamble">{2}\nError setting property ''{0}'' of class ''{1}''.</entry>
+    <entry key="IllegalExplicitDefaultValue">Error setting default value of property ''{0}'' of class ''{1}''. {2}</entry>
+    <entry key="IllegalExplicitDefaultValueWithPostamble">{2}\nError setting default value of property ''{0}'' of class ''{1}''.</entry>
+
+    <entry key="PropTypeNotSupportedForSubclassConcrete">Using size and validation functions on an inherited property is not supported. Property ''{0}'' is defined as abstract property in superclass ''{1}''.</entry>
+    <entry key="PropTypeAbstractOverride">Superclass ''{0}'' defines validation for property ''{2}'', therefore subclass ''{1}'' is not allowed to explicitly define property ''{2}'' as Abstract.</entry>
+    <entry key="PropTypeMultipleAbstractValidations">Class ''{0}'' and class ''{1}'' both define validation for Abstract property ''{2}''. When inheriting property validation, only one superclass can define validation for property ''{2}''.</entry>
+    <entry key="PropTypeSuperPropConcrete">Property ''{2}'' is defined as Abstract in class ''{0}'' and not Abstract in class ''{1}''. When inheriting property validation, the property must be Abstract in all superclasses that define it and only one superclass can define validation.</entry>
+    <entry key="UnsupportedClassForValidation">Class named ''{0}'' is undefined or does not support property validation.</entry>
+    <entry key="ClassLink" translate="false">&lt;a href="matlab:helpPopup {0}"&gt;{0}&lt;/a&gt;</entry>
+    <entry key="NonScalarValidation">First input must be an instance of 'meta.Validation' class.</entry>
+  </message>
+</rsccat>

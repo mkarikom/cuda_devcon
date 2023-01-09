@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ClassNotFound">类 ''{0}'' 不存在或不在 MATLAB 路径中。</entry>
+    <entry key="ClassNotEditable">类 ''{0}'' 是内置类或 P 文件，无法在 MATLAB 编辑器中打开。</entry>
+    <entry key="ClassHasParseError">类 ''{0}'' 有解析错误。解析错误详细信息: {1}</entry>
+    <entry key="PropertyNotFound">类 ''{0}'' 没有属性 ''{1}''。</entry>
+    <entry key="EventNotFound">类 ''{0}'' 没有事件 ''{1}''。</entry>
+    <entry key="EnumerationMemberNotFound">类 ''{0}'' 没有枚举成员 ''{1}''。</entry>
+    <entry key="MethodNotFound">类 ''{0}'' 没有方法 ''{1}''。</entry>
+  </message>
+</rsccat>

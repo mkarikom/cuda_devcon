@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidProjectionMatrix">无法获取相机的投影矩阵</entry>
+    <entry key="getPositionFailed">文本 getPosition 失败。</entry>
+    <entry key="TranfromPointsFailed">TransformPoints 失败</entry>
+    <entry key="InvalidScale">缩放因子必须为正数</entry>
+    <entry key="InvalidXYZData">{0} 数组无效，面和顶点未更新</entry>
+    <entry key="InvalidFaceVertexData">面或顶点数据数组无效，{0} 未更新</entry>
+    <entry key="InvalidOSGWarningLevel">支持的级别包括: always、fatal、warn、notice、info、debug_info、debug_fp</entry>
+    <entry key="InvalidMarkerShaderOpenGLVersionLimitedValue">支持的值为 0 和 1</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="WrongSize">Only one level of indexing is supported by a {0}.</entry>
+    <entry key="TypeField">Subsasgn input structure must have the field ''type'' containing a character array.</entry>
+    <entry key="SubsField">Subsasgn input structure must have the field ''subs'' containing a cell or a character array.</entry>
+    <entry key="SmoothParenAssignmentOnly">Only ''()'' indexing is supported for assigning values into a {0}.</entry>
+    <entry key="KeysPropAccess">The keys of a Map cannot be modified, only added or removed.\nModify the contents of a Map using:  mapObj(key) = value.</entry>
+    <entry key="ValuesPropAccess">The values of a Map can only be set for individual keys.\nSet the value for a key using:  mapObj(key) = value.</entry>
+    <entry key="NonScalarAssign">Cannot assign a {0} object to an array.</entry>
+  </message>
+</rsccat>

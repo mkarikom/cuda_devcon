@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nargin">입력 인수의 개수가 올바르지 않습니다.</entry>
+    <entry key="NtimesInvalid">NTIMES는 단일 숫자 값이어야 합니다.</entry>
+    <entry key="InvalidMeshgrid">입력 그리드는 유효한 MESHGRID가 아닙니다.</entry>
+    <entry key="NotEnoughPointsNanStrip">보간할 유한한 값이 충분하지 않습니다.</entry>
+    <entry key="InvalidExtrapval">EXTRAPVAL은 스칼라여야 합니다.</entry>
+    <entry key="NaNstrip">NaN 값이 포함된 데이터 열은 보간 중에 무시되었습니다.</entry>
+    <entry key="XYorZNotMonotonic">X, Y, Z는 단조 벡터이거나 MESHGRID에서 생성한 배열이어야 합니다.</entry>
+    <entry key="InvalidMethod">{0}은(는) 유효하지 않은 메서드입니다.</entry>
+    <entry key="meshgrid">X, Y, Z는 MESHGRID에 의해 생성된 행렬이어야 합니다. 산점도 데이터에는 INTERP3 대신 \nTriScatteredInterp을 사용하십시오.</entry>
+  </message>
+</rsccat>

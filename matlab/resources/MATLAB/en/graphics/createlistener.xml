@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="HG1Obj">Object is not a valid graphics object</entry>
+    <entry key="OldEvent">Only HG2 events are accepted</entry>
+    <entry key="InvalidHObj">First input must be a graphics handle or a vector of graphics handles.</entry>
+    <entry key="InvalidCallback">Callback must be a function handle.</entry>
+    <entry key="InvalidPropertyName">Property name cannot be a cell array</entry>
+    <entry key="InvalidPropertyEvent">Invalid value for PropEvent.</entry>
+    <entry key="HG2Obj">Object is not a valid graphics object</entry>
+  </message>
+</rsccat>

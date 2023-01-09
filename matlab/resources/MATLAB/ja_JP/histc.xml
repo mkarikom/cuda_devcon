@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">エッジ ベクトルは、単調非減少でなければなりません。</entry>
+    <entry key="InvalidFirstNumericInput">1 番目の入力タイプはサポートされていません。</entry>
+    <entry key="InvalidFirstInput">1 番目の入力は、実数の非スパースの数値配列でなければなりません。</entry>
+    <entry key="InvalidSecondInput">2 番目の入力は、実数の非スパースの数値配列でなければなりません。</entry>
+    <entry key="InvalidSecondNumericInput">2 番目の入力タイプはサポートされていません。</entry>
+  </message>
+</rsccat>

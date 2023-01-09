@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidArguments">First argument must be a table or numeric vector.</entry>
+    <entry key="MustBeVector">The ''{0}'' argument must be a vector.</entry>
+    <entry key="BadTypeLabel">''labels'' 引数は string ベクトルか、または文字ベクトルの cell 配列として指定しなければなりません。</entry>
+    <entry key="BadTypeGroup">''groups'' 引数は文字ベクトルの cell 配列か、もしくは string、categorical、数値、または logical のベクトルとして指定しなければなりません。</entry>
+    <entry key="SizeMismatch">引数 ''{0}'' の長さは、引数 ''sz'' の長さと一致しなければなりません。</entry>
+    <entry key="InvalidLabelData">table を使用しない場合は、ラベルを string、文字ベクトルの cell 配列、または string に変換可能な配列として指定してください。</entry>
+    <entry key="InvalidGroupData">table を使用しない場合は、グループを string、文字ベクトルの cell 配列、categorical ベクトル、数値ベクトル、または logical ベクトルとして指定してください。</entry>
+    <entry key="SizeNonNegativeNumeric">バブル サイズは非負の数値のベクトルとして指定してください。</entry>
+    <entry key="BadTableVarPropAmbiguous">{0} is not a valid table variable or property name.</entry>
+    <entry key="PropertySizeMismatch">''{0}'' の長さは、''{1}'' の長さと一致しなければなりません。</entry>
+    <entry key="DatatipSize">サイズ</entry>
+    <entry key="DatatipLabel">ラベル</entry>
+    <entry key="DatatipGroup">グループ</entry>
+    <entry key="VectorWorkflow">''SizeData'' プロパティの設定後に ''{0}'' プロパティを設定することはサポートされていません。</entry>
+    <entry key="TableWorkflow">''SourceTable'' プロパティの設定後に ''{0}'' プロパティを設定することはサポートされていません。</entry>
+  </message>
+</rsccat>

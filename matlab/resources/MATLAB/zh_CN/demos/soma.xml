@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelSolutionNumber">解决方案编号</entry>
+    <entry key="LabelRotateRight">右旋</entry>
+    <entry key="LabelRotateDown">下旋</entry>
+    <entry key="LabelSolutionInThreeLayers">三层中的解决方案</entry>
+    <entry key="LabelSomaCube">索玛立方体:</entry>
+    <entry key="LabelLongDescription">将所显示的七个图块\n放入完全立方中的空间填充拼图。</entry>
+    <entry key="LabelNOf240">{0}/240</entry>
+    <entry key="TitleSomaCubeSolutions">索玛立方体解决方案</entry>
+    <entry key="TitleSolutionsForTheSomaCubePuzzleOfPietHein">Piet Hein 的索玛立方体拼图的解决方案</entry>
+    <entry key="LabelBottom">底部</entry>
+    <entry key="LabelMiddle">中间</entry>
+    <entry key="LabelTop">顶部</entry>
+    <entry key="LabelSomaCubePieces">索玛立方体块</entry>
+    <entry key="NoInputs">SOMA 不接受输入参数</entry>
+  </message>
+</rsccat>

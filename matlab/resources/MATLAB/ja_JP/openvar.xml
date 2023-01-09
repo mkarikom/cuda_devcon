@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TheVariableEditorNotSupported">Swing が現在利用できないため、変数エディターを使用することはできません。</entry>
+    <entry key="VariableNameAsString">VariableEditor への最初の引数は文字ベクトルでなければなりません。</entry>
+    <entry key="InvalidVariableName">VariableEditor への最初の引数は、有効な変数名でなければなりません。</entry>
+    <entry key="LocationMustBeNumericVector">場所は 1 行 2 列の数値ベクトルでなければなりません: [X, Y]</entry>
+    <entry key="NonExistentVariable">変数 ''{0}'' が指定されたワークスペース内にありません。</entry>
+  </message>
+</rsccat>

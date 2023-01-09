@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CellsMustContainChars">セルの要素は文字ベクトルでなければなりません。</entry>
+    <entry key="InvalidInputType">入力は、文字ベクトル、文字ベクトルのセル配列、または文字列配列でなければなりません。</entry>
+    <entry key="MultiRowInput">文字入力は行ベクトルでなければなりません。</entry>
+    <entry key="NumericWithNonscalarString">数値と string 配列の両方の入力を指定する場合、string 入力はスカラーでなければなりません。</entry>
+    <entry key="InputsMustBeRowVectors">文字入力は行ベクトルでなければなりません。</entry>
+    <entry key="InputsSizeMismatch">すべての非スカラー入力は同じサイズでなければなりません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="UnableToComputeALFGState">Unable to compute the ALFG state.</entry>
+    <entry key="InvalidState">Invalid state for an mlfg6331_64 generator.</entry>
+    <entry key="SubstreamsIndexOutOfRange">mlfg6331_64 streams have only 2^51 substreams.</entry>
+    <entry key="InvalidParameter">The mlfg6331_64 generator does not accept a parameter.</entry>
+    <entry key="TooManyStreams">You cannot create more than 2^61 mlfg6331_64 streams.</entry>
+  <!--Resource entries for src/mathrng/-->
+  </message>
+</rsccat>

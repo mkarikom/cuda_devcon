@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="UnknownFormatType">Date format number must be between 0 and 31.</entry>
+    <entry key="UnknownDateFormat">Unknown date format: {0}</entry>
+    <entry key="IncorrectArgs">Incorrect arguments</entry>
+    <entry key="InvalidAxis">The axis must be ''x'',''y'', or ''z''.</entry>
+    <entry key="InvalidInput" note="stringDatatypeUpdate">The Date Format value should be a numeric scalar or a character vector</entry>
+  </message>
+</rsccat>

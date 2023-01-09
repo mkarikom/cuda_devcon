@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="TooFewArguments">Not enough input arguments.</entry>
+    <entry key="ValueExpected">Property value pairs expected.</entry>
+    <entry key="InvalidArgument" note="stringDatatypeUpdate">Argument must be a character vector.</entry>
+    <entry key="InvalidView">View must be two-dimensional.</entry>
+    <entry key="FigureDeletionPause">Interrupted by figure deletion</entry>
+    <entry key="Interrupted">Interrupted</entry>
+  </message>
+</rsccat>

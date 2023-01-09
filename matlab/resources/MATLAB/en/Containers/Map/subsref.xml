@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotACharacter">Subsref input structure must have the field ''type'' containing a character array.</entry>
+    <entry key="NoSubsField">Subsref input structure must contain a ''subs'' field.</entry>
+    <entry key="IncorrectStructSize">Subsref input parameter must be a 1xN structure array.</entry>
+    <entry key="IncorrectArguments">The results of a function call cannot be further indexed.</entry>
+    <entry key="LimitedIndexing">Only ''()'' indexing is supported by a {0}.</entry>
+    <entry key="DynamicSubsField" note="stringDatatypeUpdate">Dynamic property access must be a non-empty character vector.</entry>
+  </message>
+</rsccat>

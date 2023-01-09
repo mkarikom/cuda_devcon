@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="needDoubleOrLogical">첫 번째 인수는 double형이거나 논리형이어야 합니다.</entry>
+    <entry key="needMatrix">첫 번째 인수는 정사각 행렬이어야 합니다.</entry>
+    <entry key="denseNonNumeric">파라미터 dense는 숫자형 데이터여야 합니다.</entry>
+    <entry key="denseScalar">파라미터 dense는 스칼라여야 합니다.</entry>
+    <entry key="aggressiveNonNumeric">파라미터 aggressive는 숫자형 데이터여야 합니다.</entry>
+    <entry key="aggressiveScalar">파라미터 aggressive는 스칼라여야 합니다.</entry>
+    <entry key="invalidInput">두 번째 인수는 옵션을 제어하는 구조체여야 합니다.</entry>
+    <entry key="invalidMatrix">입력 행렬 A가 손상되었습니다.</entry>
+  </message>
+</rsccat>

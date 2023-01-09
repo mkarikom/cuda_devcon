@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LinkedUnlinkedNoCopy">您正尝试从链接的、未链接的或链接到表达式的图形组合中复制数据。请选择要用于复制的类型。</entry>
+    <entry key="Linked">链接的</entry>
+    <entry key="Unlinked">未链接的</entry>
+    <entry key="Abort">中止</entry>
+    <entry key="MATLAB">MATLAB</entry>
+  </message>
+</rsccat>

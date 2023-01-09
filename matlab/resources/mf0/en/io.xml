@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="mf0">
+  <message>
+    <entry key="CannotSerialize">This object cannot be serialized.</entry>
+    <entry key="CannotSerializeWithException">This object cannot be serialized. Exception: {0}</entry>
+    <entry key="InvalidSerializeIdentification">{0} cannot be used as identification for object of type {1}.</entry>
+    <entry key="IntermediateFormatNotSupported">This serializer does not support intermediate format.</entry>
+    <entry key="CannotParseValueAsType">Failed to parse {0} as {1}.</entry>
+    <entry key="UnderlyingParserProblem">Failed to parse: {0}</entry>
+    <entry key="CannotInstantiateType">Failed to instantiate type {0}.</entry>
+    <entry key="DanglingReference">Cannot establish association to a dangling reference to {0}.</entry>
+    <entry key="FileNotFound">File {0} does not exist or cannot be read.</entry>
+    <entry key="CorruptInput">Cannot parse the input: incorrect format.</entry>
+    <entry key="CorruptInputWithException">Cannot parse the input: incorrect format. Exception: {0}</entry>
+    <entry key="CannotApplyChangeReport">Cannot apply the change report: the change is incompatible with the current state</entry>
+    <entry key="InvalidPropertyValueCustomizer">Invalid property value customizer.</entry>
+    <entry key="CannotEvolve">Cannot parse the outdated file: no evolution service found</entry>
+    <entry key="CannotSerializeModel">Cannot save model with URI {0}</entry>
+    <entry key="CannotSerializeModelWithException">Cannot save model with URI {0}. Exception: {1}</entry>
+    <entry key="CannotSaveModelInLocation">Cannot save model in location {0}</entry>
+    <entry key="SerializerNotFound">No Serializer found for the following format {0}</entry>
+    <entry key="ModelConstellationSaveFailed">Failed to serialize the model constellation. Please consider reverting to previous state if required! \nDetails: {0}</entry>
+    <entry key="CannotParseIntoNonEmptyModel">"Unsupported operation. Model should be empty before parsing into it in multi-model constelation"</entry>
+  </message>
+</rsccat>

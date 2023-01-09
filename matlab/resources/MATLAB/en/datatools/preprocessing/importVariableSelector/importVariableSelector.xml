@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- Copyright 2020 MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <!-- Import Variable Selector -->
+        <entry key="VARIABLE_SELECTOR_NAME">Import From Workspace</entry>
+        <entry key="VARIABLE_SELECTOR_TEXT">Select a table or timetable</entry>
+        <entry key="VARIABLE_SELECTOR_SUB_TEXT">Variables</entry>
+        <entry key="CANCEL_BUTTON_TEXT">Cancel</entry>
+        <entry key="OK_BUTTON_TEXT">OK</entry>
+        <entry key="NO_VAR_WARNING">There are no tables in the workspace</entry>
+        <entry key="NO_DATA_WARNING">No Data Available</entry>
+        <entry key="COL_NAME_1">Name</entry>
+        <entry key="COL_NAME_2">Class</entry>
+        <entry key="COL_NAME_3">Size</entry>
+            
+    </message>
+</rsccat>

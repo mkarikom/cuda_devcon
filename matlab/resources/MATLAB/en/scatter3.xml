@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="invalidInput">Wrong number of input arguments.</entry>
+      <entry key="invalidCData">C must be a single color, a vector the same length as X, or an M-by-3 matrix.</entry>
+      <entry key="invalidSData">S must be a scalar or a vector the same length as X.</entry>
+      <entry key="unrecognizedColorString" note="stringDatatypeUpdate">unrecognized color character vector</entry>
+      <entry key="invalidData">X, Y and Z must be vectors of the same length.</entry>
+      <entry key="InvalidTableArguments">To use scatter3 with a table, specify a table followed by X, Y and Z variables. Size and color can be specified using name-value pairs.</entry>
+   </message>
+</rsccat>

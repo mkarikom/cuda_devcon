@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NumericalTime">数値時間</entry>
+    <entry key="WhatsThis">これはなに?</entry>
+    <entry key="Use">使用</entry>
+    <entry key="StartTime">開始時間</entry>
+    <entry key="Samples">サンプル</entry>
+    <entry key="Interval">間隔</entry>
+    <entry key="Units">単位</entry>
+    <entry key="Format">書式</entry>
+    <entry key="Weeks">週</entry>
+    <entry key="Days">日</entry>
+    <entry key="Hours">時</entry>
+    <entry key="Minutes">分</entry>
+    <entry key="Seconds">秒</entry>
+    <entry key="Milliseconds">ミリ秒</entry>
+    <entry key="Microseconds">マイクロ秒</entry>
+    <entry key="Nanoseconds">ナノ秒</entry>
+    <entry key="DateString">Date Character Vector</entry>
+  </message>
+</rsccat>

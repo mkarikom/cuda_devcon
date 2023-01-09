@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidWeights">2 番目の入力は 'weighted' か、またはエッジの重みのベクトルでなければなりません。</entry>
+    <entry key="InvalidWeightVector">エッジの重みは、長さがエッジ数と等しい double ベクトルまたは logical ベクトルでなければなりません。</entry>
+    <entry key="WeightedMultigraph">重み付きの隣接は、単純グラフでのみサポートされています。simplify を使用して、複数のエッジと自己ループを削除してください。</entry>
+  </message>
+</rsccat>

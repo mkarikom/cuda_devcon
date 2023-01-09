@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Reset">重置为原始视图</entry>
+    <entry key="SnapToXY">转至 X-Y 视图</entry>
+    <entry key="SnapToXZ">转至 X-Z 视图</entry>
+    <entry key="SnapToYZ">转至 Y-Z 视图</entry>
+    <entry key="Rotate_Options">旋转选项</entry>
+    <entry key="Rotate_Fast">绘图框旋转</entry>
+    <entry key="Rotate_Continuous">连续旋转</entry>
+    <entry key="StretchToFill">伸展填充坐标区</entry>
+    <entry key="FixedAspectRatio">固定纵横比坐标区</entry>
+    <entry key="Azimuth">Az</entry>
+    <entry key="Elevation">El</entry>
+  </message>
+</rsccat>

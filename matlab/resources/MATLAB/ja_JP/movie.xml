@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadHandle">有効な Figure または Axes オブジェクトのハンドルを指定しなければなりません</entry>
+    <entry key="MustBeValidMovieMatrix">引数は GETFRAME からの有効なムービー行列でなければなりません</entry>
+    <entry key="BadRepeatCount1">反復回数とフレーム順のリストは有限の数値でなければなりません</entry>
+    <entry key="BadRepeatCount2">無効な反復回数の指定</entry>
+    <entry key="BadRECT">無効な RECT 指定</entry>
+    <entry key="SkippingCorruptedFrame">不正なムービー フレーム #{0,number,integer} をスキップしています</entry>
+    <entry key="NoValidFrames">このムービーに有効なフレームがありません</entry>
+    <entry key="ExpectedStructure">無効なムービー: 構造体が必要です</entry>
+    <entry key="WrongNumberOfFields">無効なムービーの構造体: 不正なフィールド数</entry>
+    <entry key="WrongFieldNamesOrOrder">無効なムービーの構造体:不正なフィールド名、または、不正な並びのフィールド</entry>
+    <entry key="UninitializedFrames">ムービーは、初期化されていないフレームを含んでいます</entry>
+    <entry key="CDataTypeMustBeUint8Array">ムービーの cdata は uint8 のタイプの配列でなければなりません</entry>
+    <entry key="CDataMustHave2Or3Dimensions">ムービーの cdata は、2 次元または 3 次元でなければなりません</entry>
+    <entry key="ColormapMustBeNonEmpty">インデックス付きのムービー フレームは、空でないカラーマップをもたなければなりません</entry>
+    <entry key="ColormapMustBeDoubleArray">ムービーのカラーマップは、double の配列でなければなりません</entry>
+    <entry key="ColormapCannotHaveMoreThan256Colors">ムービーのカラーマップは、256 より大きい色数をもつことはできません</entry>
+    <entry key="ColormapMustHave3Columns">ムービーのカラーマップは、3 列でなければなりません</entry>
+    <entry key="ColormapValuesMustBeFinite">ムービーのカラーマップ値は有限でなければなりません</entry>
+    <entry key="ColormapValuesOutOfRange">ムービーのカラーマップ値は、0.0 以上 1.0 以下でなければなりません</entry>
+    <entry key="BadColormapIndices">インデックス付きのムービー データの値は、次のように有効なカラーマップのインデックスでなければなりません。\n倍精度のムービー データの場合は 1.0 &lt;= value &lt;= length(colormap)、uint8 のムービー データの場合は 0 &lt;= value &lt;= length(colormap)-1</entry>
+    <entry key="BadFrameDimensions">各ムービー フレームは、サイズ M x N (インデックス付き)、または M x N x 3 (トゥルーカラー) の配列でなければなりません</entry>
+    <entry key="HandleMustBeFigureOrAxes">オブジェクト ハンドルは、Figure または Axes でなければなりません</entry>
+    <entry key="HandleMustBeValid">有効な Figure、または Axes オブジェクトのハンドルを指定しなければなりません</entry>
+    <entry key="MustBeTrueColor">ムービーは、トゥルーカラーのビジュアルのみサポートします。</entry>
+    <entry key="ExpectedDoubleScalar">1 秒ごとのフレームは、倍精度のスカラーで指定されなければなりません</entry>
+    <entry key="ExpectedNumericFinite">反復回数とフレーム順のリストは有限の数値でなければなりません</entry>
+    <entry key="CantCreateFrame">ムービー フレームを作成できません</entry>
+    <entry key="unsupported">組み込み hgMovie は HGUsingMATLABClasses モードでサポートされていません。代わりに MOVIE.M を使用してください。</entry>
+    <entry key="ZeroRepetitions">ムービーは、0 回の再生を要求されました</entry>
+    <entry key="BadPlaylist">指定した再生リストは無効です</entry>
+    <entry key="BadFPS1">指定した FPS は無効です</entry>
+    <entry key="BadFPS2">指定した FPS は無効です</entry>
+    <entry key="BadFPS3">指定した FPS は無効です</entry>
+    <entry key="BadMatrix1">引数は GETFRAME からの有効なムービー行列でなければなりません</entry>
+    <entry key="BadMatrix2">引数は GETFRAME からの有効なムービー行列でなければなりません</entry>
+    <entry key="BadMatrix3">引数は GETFRAME からの有効なムービー行列でなければなりません</entry>
+    <entry key="BadFrameOrderIndex1">インデックス ({0}) はフレーム順の指定には無効です。\nこの数は 1 とフレーム数 ({1,number,integer}) の間でなければなりません。</entry>
+    <entry key="BadFrameOrderIndex2">インデックス ({0}) はフレーム順の指定には無効です。\nこの数は 1 とフレーム数 ({1,number,integer}) の間でなければなりません。</entry>
+    <entry key="MovieContainsUninitializedFrames">ムービーは初期化されていないフレームを含んでいます</entry>
+    <entry key="CdataMustBeOfTypeUint8Array">ムービーの cdata は uint8 型の配列でなければなりません</entry>
+    <entry key="CdataMustHave2Or3Dimensions">ムービーの cdata は、2 次元または 3 次元でなければなりません</entry>
+    <entry key="FrameMustBeAnArrayOfSizeMxNindexedOrMxNx3tr">各ムービー フレームは、M 行 N 列 (インデックス付き) または M x N x 3 (トゥルーカラー) のサイズの配列でなければなりません</entry>
+    <entry key="IndexedMovieFrameMustHaveANonemptyColormap">インデックス付きのムービー フレームは、空でないカラーマップをもたなければなりません</entry>
+    <entry key="MovieColormapsMustBeDoubleArrays">ムービーのカラーマップは double の配列でなければなりません</entry>
+    <entry key="ColormapCanNotHaveMoreThan256Colors">ムービーのカラーマップは 256 色を超えることはできません</entry>
+    <entry key="ColormapsMustHave3Columns">ムービーのカラーマップは 3 列でなければなりません</entry>
+    <entry key="ColormapValuesMustBeBetween0And1Inclusive">ムービーのカラーマップ値は 0.0 以上 1.0 以下でなければなりません</entry>
+    <entry key="ArgumentMustBeAValidMovieMatrixFromGETFRAME">引数は GETFRAME からの有効なムービー行列でなければなりません</entry>
+    <entry key="RepetitionCountAndFrameOrderListMustBeFiniteNumeric">反復回数とフレーム順のリストは有限の数値でなければなりません</entry>
+    <entry key="InvalidRepeatCountSpecification">指定した反復回数は無効です</entry>
+    <entry key="FramesPerSecondMustBePositiveDouble">1 秒ごとのフレームは、正の double のスカラー (&gt; 0) で指定されなければなりません</entry>
+    <entry key="InvalidRECTSpecification">指定した RECT は無効です</entry>
+    <entry key="ValueMustBeNumeric">値は数値でなければなりません。</entry>
+    <entry key="ObjectHandleMustBeAFigureOrAnAxes">オブジェクト ハンドルは、Figure または Axes でなければなりません</entry>
+    <entry key="IndexedMovieDataValuesMustBeLegalColormapIndices">インデックス付きのムービー データの値は、次のように有効なカラーマップのインデックスでなければなりません。\n倍精度のムービー データの場合は 1.0 &lt;= value &lt;= length(colormap)、\nuint8 のムービー データの場合は 0 &lt;= value &lt;= length(colormap)-1</entry>
+  </message>
+</rsccat>

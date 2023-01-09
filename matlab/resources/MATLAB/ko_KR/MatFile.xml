@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputNotMatFile">{0}의 첫 번째 인수는 MatFile 객체여야 합니다.</entry>
+    <entry key="DotSyntax">MatFile 객체에 대한 메서드 호출에는 {0}(obj)와 같은 함수 구문을 사용하십시오.</entry>
+    <entry key="NoFile">''{1}''이(가) 존재하지 않기 때문에 ''{0}''에 액세스할 수 없습니다.</entry>
+    <entry key="VariableNotInFile">''{1}''에 ''{0}''이(가) 존재하지 않습니다.</entry>
+    <entry key="NotSmoothIndexing">MatFile 객체가 '()' 인덱싱만 지원하기 때문에 ''{0}''(으)로 인덱싱할 수 없습니다.</entry>
+    <entry key="SubsetBoundsAndIntervals">MatFile 객체에 대한 범위는 동일한 구간 간격으로 늘어나야 하기 때문에 ''{0}''(으)로 인덱싱할 수 없습니다.</entry>
+    <entry key="NoIndexingIntoProperties">'Properties'는 MatFile 객체를 설명합니다. 이 설명에 액세스하려면 obj.Properties.name 구문을 사용하십시오.</entry>
+    <entry key="ReservedNameConflict">'Properties'라는 이름은 MatFile 클래스에 예약되어 있기 때문에 이 이름을 가진 변수를 생성할 수 없습니다. 다른 변수 이름을 선택하십시오.</entry>
+    <entry key="ObjectNotWritable">Properties.Writable이 false이기 때문에 ''{0}''을(를) 변경할 수 없습니다.  ''{1}''을(를) 수정하려면 Properties.Writable 을 true로 설정하십시오.</entry>
+    <entry key="NoObjectArrays">MatFile 객체는 스칼라여야 합니다. 객체를 스칼라 변수에 대입해 보십시오.</entry>
+    <entry key="VarAccessOp">MatFile 객체는 스칼라입니다. objName.varName(indices) 구문을 사용하여 변수에 액세스하십시오.</entry>
+    <entry key="VarAccessName">변수 이름은 문자형 벡터여야 합니다.</entry>
+    <entry key="OlderFormat">파일 ''{0}''이(가) 부분 불러오기를 지원하지 않는 형식으로 저장되었습니다. 변수 ''{1}''을(를) 임시로 메모리에 불러옵니다. 효과적으로 부분 불러오기를 사용하려면 MAT 파일을 v7.3 플래그로 저장하십시오.</entry>
+    <entry key="SourceHasReservedNameConflict">''{0}''에 MatFile 객체가 액세스할 수 없는 'Properties'라는 이름의 변수가 들어 있습니다. MatFile 객체를 사용하여 'Properties' 변수에 액세스하려면 파일에 있는 변수 이름을 바꾸십시오.</entry>
+    <entry key="CannotConcatenate">MatFile 객체들을 결합(Concatenate)할 수 없습니다.</entry>
+    <entry key="TooManyLevelsOfIndexing">MatFile에 있는 변수는 한 수준 이하로만 인덱싱될 수 있습니다.</entry>
+    <entry key="PropertiesWritableType">Writable 파라미터는 논리형 스칼라여야 합니다.</entry>
+    <entry key="NoEmptyMatFiles">빈 MatFile 객체를 생성할 수 없습니다.</entry>
+    <entry key="IndexMustBeNumeric">''{0}''을(를) ''{1}'' 클래스로 인덱싱할 수 없습니다. 인덱스는 숫자형이어야 합니다.</entry>
+    <entry key="colonLHS">콜론('':'')을 사용하여 새 변수의 차원을 정의할 수 없습니다.</entry>
+    <entry key="emptyIndex">인덱스는 비어 있을 수 없기 때문에 ''{0}''(으)로 인덱싱할 수 없습니다.</entry>
+    <entry key="emptyVariableWithColonIndex">콜론 인덱스를 사용하여 빈 변수 ''{0}''(으)로 인덱싱할 수 없습니다.</entry>
+    <entry key="badsubscript">첨자 인덱스는 실수형 양의 정수여야 합니다.</entry>
+    <entry key="NeedsAllDims">''{0}''(으)로 인덱싱하려면 {1,number,integer} 차원 모두를 지정하십시오. MatFile 객체는 선형 인덱싱을 지원하기 않습니다.</entry>
+    <entry key="NeedsAllDimsDoesntExist">새 변수(''{0}'')로 인덱싱하려면 적어도 2개의 차원을 지정하십시오. MatFile 객체는 선형 인덱싱을 지원하기 않습니다.</entry>
+    <entry key="overriddenIndexing">변수 ''{0}''은(는) ''{1}'' 클래스의 변수입니다. ''{2}''을(를) 사용하려면 전체 변수를 불러오십시오.</entry>
+    <entry key="UnsupportedCharacters">디폴트 인코딩으로 나타낼 수 없는 문자를 발견했습니다.</entry>
+    <entry key="SaveFormatTitle">MAT 및 FIG 파일 저장 형식</entry>
+    <entry key="SaveFormatButtonGroupTitle">불러올 수 있는 MAT 및 FIG 파일을 다음 형식으로 저장:</entry>
+    <entry key="Version_7_3_Button">MATLAB R2006b(버전 7.3) 이상\n64비트 시스템에서 변수가 2GB를 초과할 수 있음</entry>
+    <entry key="Version_7_Button">MATLAB R14(버전 7) 이상\n파일이 압축되며 유니코드 문자 인코딩 사용</entry>
+    <entry key="Version_5_Button">MATLAB R8(버전 5) 이상</entry>
+    <entry key="FIG_Note">참고: FIG 파일은 플롯, GUI 등을 저장하여 생성됩니다.</entry>
+  </message>
+</rsccat>

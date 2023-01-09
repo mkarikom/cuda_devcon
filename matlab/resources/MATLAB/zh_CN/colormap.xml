@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFirstArgument">第一个参数必须为标量坐标区或图窗句柄。</entry>
+    <entry key="InvalidNumberColumns">颜色图必须包含 3 列: [R,G,B]。</entry>
+    <entry key="InvalidInputRange">颜色图必须为单精度或双精度类型的 M×3 数组，其值在 [0,1] 范围内，或 uint8 类型的 M×3 数组。</entry>
+    <entry key="NeedScalarHandle">第一个参数必须为标量坐标区或图窗句柄。</entry>
+  </message>
+</rsccat>

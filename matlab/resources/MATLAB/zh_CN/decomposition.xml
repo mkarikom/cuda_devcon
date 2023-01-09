@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidA">参数必须为双精度或单精度类型的矩阵。</entry>
+    <entry key="InvalidAForBanded">对于分解类型 ''banded''，矩阵必须为双精度方阵。</entry>
+    <entry key="InvalidAForChol">Cholesky 分解要求输入矩阵为 Hermitian 正定矩阵。使用 ''upper'' 或 ''lower'' 选项忽略输入矩阵的一部分。</entry>
+    <entry key="InvalidAForCholSquare">Cholesky 分解要求输入矩阵为 Hermitian 正定方阵。</entry>
+    <entry key="InvalidAForCholSPD">Cholesky 分解要求输入矩阵为正定矩阵。</entry>
+    <entry key="InvalidAForDiagonal">输入矩阵必须为对角方阵。</entry>
+    <entry key="InvalidAForHessenberg">Hessenberg 分解要求稠密输入矩阵为带有一条下对角线的上三角矩阵。</entry>
+    <entry key="InvalidAForLDL">LDL 分解要求输入矩阵为 Hermitian 矩阵。或者，使用 ''upper'' 或 ''lower'' 选项忽略输入矩阵的一部分。</entry>
+    <entry key="InvalidAForLDLSquare">LDL 分解要求输入矩阵为 Hermitian 方阵。</entry>
+    <entry key="InvalidAForLDLDiag">LDL 分解要求输入矩阵的对角线为实数。</entry>
+    <entry key="InvalidAForLU">LU 分解要求输入矩阵为方阵。</entry>
+    <entry key="InvalidAForPermTriang">输入矩阵必须为三角方阵的置换矩阵。</entry>
+    <entry key="InvalidAForTriang">输入矩阵必须为三角矩阵。要忽略输入矩阵的一部分，请使用 ''upper'' 或 ''lower'' 选项。</entry>
+    <entry key="InvalidAForTriangSquare">对于 ''triangular'' 分解类型，输入矩阵必须为方阵。</entry>
+    <entry key="InvalidB">数据类型无效。参数必须为双精度或单精度矩阵。</entry>
+    <entry key="InvalidDivisor">分解对象只能用双精度或单精度类型的标量数值来相除。</entry>
+    <entry key="InvalidLUPivot">''LUPivotTolerance'' 值必须为标量或 2 元素向量。</entry>
+    <entry key="InvalidMult">分解对象只能用双精度或单精度类型的标量数值来相乘。</entry>
+    <entry key="LoadNotSupported">不支持加载分解。加载的对象为空矩阵的分解。</entry>
+    <entry key="mldivide">矩阵维度必须一致。</entry>
+    <entry key="mrdivide">矩阵维度必须一致。</entry>
+    <entry key="NameWithoutValue">输入参数的数目不正确。每个参数名称必须后跟相应的值。</entry>
+    <entry key="QRmldivideTransp">''qr'' 类型的分解不支持在转置分解中使用反斜杠。请使用 ''cod'' 类型或构造转置矩阵分解。</entry>
+    <entry key="QRmrdivideTransp">仅 ''qr'' 类型的分解支持在转置分解中使用正斜杠。请使用 ''cod'' 类型或构造转置矩阵分解。</entry>
+    <entry key="RcondNotSupported">不支持 ''qr'' 或 ''cod'' 类型的分解。</entry>
+    <entry key="RankNotSupported">仅支持 ''qr'' 或 ''cod'' 类型的分解。</entry>
+    <entry key="SaveNotSupported">不支持保存分解。</entry>
+    <entry key="TransposeNotSupported">不支持在分解中使用转置运算符 .'。请改用复共轭转置运算符 '。</entry>
+    <entry key="genericError">Decomposition built-in error: {0}</entry>
+  </message>
+</rsccat>

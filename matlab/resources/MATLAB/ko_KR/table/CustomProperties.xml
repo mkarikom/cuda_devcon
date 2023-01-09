@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CellReferenceNotAllowed">셀형 배열이 아닌 객체의 셀 내용을 참조하고 있습니다.</entry>
+    <entry key="ParensReferenceNotAllowed">CustomProperties 객체에 대한 인덱스 참조는 지원되지 않습니다.</entry>
+    <entry key="ChangingLength">각 변수의 사용자 지정 속성 길이를 변경할 수 없습니다.</entry>
+    <entry key="InvalidCustomPropName">유효하지 않은 사용자 지정 속성 이름입니다. 데이터를 추가하기 전에 ADDPROP를 사용하여 새 사용자 지정 속성을 생성하십시오.</entry>
+    <entry key="IncompatibleTypes">사용자 지정 속성 ''{2}''에서 데이터형 ''{0}'' 및 ''{1}''을(를) 결합할 수 없습니다.</entry>
+    <entry key="IncompatibleLoad">이 MATLAB 버전과 호환되지 않으므로 저장된 CustomProperties를 불러올 수 없음</entry>
+    <entry key="InvalidConcatenation">사용자 지정 속성 ''{0}''을(를) 결합할 수 없습니다.</entry>
+    <entry key="CellCatChangesSize">사용자 지정 속성에 포함된 셀형 배열이 셀형이 아닌 배열과 결합함으로써 사용자 지정 속성이 셀로 변환되었으며, 이 때문에 요소 개수와 변수 개수가 일치하지 않습니다.</entry>
+  </message>
+</rsccat>

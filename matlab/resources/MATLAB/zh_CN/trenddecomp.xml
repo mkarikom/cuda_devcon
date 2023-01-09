@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="IncorrectNumInputs">输入参数的数目不正确。</entry>
+    <entry key="InvalidFirstInput">第一个参数必须是 double、single 类型的向量，或是 double 或 single 类型的变量的表或时间表。</entry>
+    <entry key="NotEnoughDataSSA">使用 ''ssa'' 方法(默认值)时，第一个输入必须有至少 6 个元素。</entry>
+    <entry key="NotEnoughDataSTL">使用 ''stl'' 方法时，第一个输入必须有至少 4 个元素。</entry>
+    <entry key="InputDataInf">第一个参数不能包含 Inf 值。</entry>
+    <entry key="NonVectorTableVariable">表变量必须为列向量。</entry>
+    <entry key="InvalidMethod">方法必须为 ''ssa'' 或 ''stl''。</entry>
+    <entry key="InvalidLag">滞后值必须为介于 3 和 N/2 之间的正实数标量，其中 N 是第一个输入中的元素数。</entry>
+    <entry key="InvalidPeriod">第三个输入必须为数值或持续时间类型的标量或向量，不包含重复元素。</entry>
+    <entry key="InvalidNumericPeriod">周期必须介于 2 和 N/2 之间，其中 N 是第一个输入中的元素数。</entry>
+    <entry key="InvalidDurationPeriod">周期必须指示至少 2 个观测值并重复两次。</entry>
+    <entry key="InvalidDurationPeriodNoTimetable">当第三个输入是持续时间类型时，第一个输入必须为时间表。</entry>
+    <entry key="ParseFlags">参数名称必须为 ''NumSeasonal''。</entry>
+    <entry key="SamplePointsNonUniform">RowTimes 值必须均匀间隔。</entry>
+    <entry key="InvalidNumSeasonal">''NumSeasonal'' 值必须为介于 1 和滞后值减 2 之间的正整数。</entry>
+    <entry key="NumSeasonalWithSTL">参数 ''NumSeasonal'' 必须与方法 ''ssa'' 结合使用。</entry>
+  </message>
+</rsccat>

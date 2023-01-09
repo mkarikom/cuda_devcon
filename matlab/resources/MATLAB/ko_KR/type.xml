@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="describeFile">''{0}{1}''은(는) {2}입니다.\n</entry>
+    <entry key="builtinFunction">''{0}''은(는) 내장 함수입니다.\n</entry>
+    <entry key="fileNotFound">파일 ''{0}''을(를) 찾을 수 없습니다.</entry>
+    <entry key="invalidRange">유효하지 않은 범위 인수입니다.</entry>
+    <entry key="PropInitialDimMismatchScalar">디폴트 값의 크기는 스칼라여야 합니다.</entry>
+    <entry key="PropInitialDimMismatchScalarCompat">디폴트 값의 크기는 지정된 차원 {0}과(와) 일치해야 합니다.</entry>
+    <entry key="PropInitialDimMismatchNonScalar">디폴트 값의 크기는 지정된 차원 {0}과(와) 일치하거나 스칼라여야 합니다.</entry>
+    <entry key="PropInitialClsMismatch">디폴트 값은 {0}이거나, {0}(으)로 변환될 수 있어야 합니다.</entry>
+    <entry key="DefaultPropertyValueRequired">{0}은(는) 추상 클래스입니다. 속성 {1}의 디폴트 값을 지정하십시오.</entry>
+    <entry key="UnrecognizedClass">{0}은(는) 인식할 수 없는 클래스입니다.</entry>
+    <entry key="PropSetDimMismatchScalar">값의 크기는 스칼라여야 합니다.</entry>
+    <entry key="PropSetDimMismatchScalarCompat">값의 크기는 지정된 차원 {0}과(와) 일치해야 합니다.</entry>
+    <entry key="PropSetDimMismatchNonScalar">값의 크기는 지정된 차원 {0}과(와) 일치하거나 스칼라여야 합니다.</entry>
+    <entry key="PropSetClsMismatch">값은 {0}이거나, {0}(으)로 변환될 수 있어야 합니다.</entry>
+    <entry key="PropShortEnumSetClsMismatch">값은 다음 중 하나여야 합니다.\n{0}</entry>
+    <entry key="PropLongEnumSetClsMismatchWithHyperlink">값은 {0}이거나, {0}(으)로 변환될 수 있어야 합니다. &lt;a href="matlab:enumeration(''{0}'');"&gt;유효한 옵션 목록&lt;/a&gt;을 참조하십시오.</entry>
+    <entry key="PropLongEnumSetClsMismatchWithoutHyperlink">값은 {0}이거나, {0}(으)로 변환될 수 있어야 합니다. 유효한 옵션 목록을 보려면 enumeration(''{0}'')을(를) 입력하십시오.</entry>
+    <entry key="UnableToConstructDefaultObject">{0} 클래스의 디폴트 객체를 생성할 수 없습니다.</entry>
+    <entry key="ErrorCoercingImplicitDefaultValue">''{1}'' 클래스의 속성 ''{0}''을(를) 정의하는 중 오류가 발생했습니다. {2}</entry>
+    <entry key="ErrorValidatingImplicitDefaultValue">''{1}'' 클래스의 속성 ''{0}''에 대한 묵시적 디폴트 값을 사용하는 중 오류가 발생했습니다. {2}</entry>
+    <entry key="ErrorValidatingImplicitDefaultValueWithPostamble">{2}\n''{1}'' 클래스의 속성 ''{0}''에 대한 묵시적 디폴트 값을 사용하는 중 오류가 발생했습니다.</entry>
+    <entry key="ErrorSettingProperty">''{1}'' 클래스의 속성 ''{0}''을(를) 설정하는 중 오류가 발생했습니다. {2}</entry>
+    <entry key="ErrorSettingPropertyWithPostamble">{2}\n''{1}'' 클래스의 속성 ''{0}''을(를) 설정하는 중 오류가 발생했습니다.</entry>
+    <entry key="IllegalExplicitDefaultValue">''{1}'' 클래스의 속성 ''{0}''에 대한 디폴트 값을 설정하는 중 오류가 발생했습니다. {2}</entry>
+    <entry key="IllegalExplicitDefaultValueWithPostamble">{2}\n''{1}'' 클래스의 속성 ''{0}''에 대한 디폴트 값을 설정하는 중 오류가 발생했습니다.</entry>
+    <entry key="PropTypeNotSupportedForSubclassConcrete">상속된 속성에 대해서는 크기와 유효성 검사 함수를 사용할 수 없습니다. 속성 ''{0}''은(는) 슈퍼클래스 ''{1}''에서 추상 속성으로 정의되어 있습니다.</entry>
+    <entry key="PropTypeAbstractOverride">슈퍼클래스 ''{0}''은(는) 속성 ''{2}''에 대한 유효성 검사를 정의하므로, 서브클래스 ''{1}''에서는 속성 ''{2}''을(를) 명시적으로 Abstract로 정의할 수 없습니다.</entry>
+    <entry key="PropTypeMultipleAbstractValidations">''{0}'' 클래스와 ''{1}'' 클래스는 모두 Abstract 속성 ''{2}''에 대한 유효성 검사를 정의합니다. 속성 유효성 검사를 상속할 경우, 하나의 슈퍼클래스만 속성 ''{2}''에 대한 유효성 검사를 정의할 수 있습니다.</entry>
+    <entry key="PropTypeSuperPropConcrete">속성 ''{2}''은(는) ''{0}'' 클래스에서 Abstract로 정의되었지만, ''{1}'' 클래스에서는 Abstract로 정의되지 않았습니다. 속성 유효성 검사를 상속할 경우, 이 속성을 정의하는 모든 슈퍼클래스에서 속성은 Abstract여야 하며 하나의 슈퍼클래스만 유효성 검사를 정의할 수 있습니다.</entry>
+    <entry key="UnsupportedClassForValidation">''{0}''으로 명명된 클래스가 정의되지 않았거나, 이 클래스가 속성 유효성 검사를 지원하지 않습니다.</entry>
+    <entry key="NonScalarValidation">첫 번째 입력값은 'meta.Validation' 클래스의 인스턴스여야 합니다.</entry>
+    <entry key="ClassLink">&lt;a href="matlab:helpPopup {0}"&gt;{0}&lt;/a&gt;</entry>
+  </message>
+</rsccat>

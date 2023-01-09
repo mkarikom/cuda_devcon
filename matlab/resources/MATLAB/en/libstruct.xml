@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="RequireStruct">A structure is required.</entry>
+    <entry key="ScalarStructRequired">Only Structure arrays of simple data types are supported.</entry>
+    <entry key="FieldMismatch">A field does not match one in the struct.</entry>
+    <entry key="InvalidStructureInfo">Invalid Structure definition. The definition of all structures must be of type struct.</entry>
+    <entry key="CannotUnloadInUse">Can not unload a struct class that has outstanding objects.</entry>
+    <entry key="TypesMustMatch">Structure types must match.</entry>
+    <entry key="InputMustBeStruct">Input must be a structure or a pointer to one.</entry>
+    <entry key="InvalidFieldValue">Cannot convert data value for field {0} due to error:\n{1}</entry>
+  </message>
+</rsccat>

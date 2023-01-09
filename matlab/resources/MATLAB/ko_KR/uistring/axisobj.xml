@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Cut">잘라내기(&amp;T)</entry>
+    <entry key="Copy">복사(&amp;C)</entry>
+    <entry key="Paste">붙여넣기(&amp;P)</entry>
+    <entry key="Clear">지우기(&amp;R)</entry>
+    <entry key="ShowLegend1">범례 표시</entry>
+    <entry key="LockPosition">잠금 위치</entry>
+    <entry key="Properties">속성...</entry>
+    <entry key="ShowLegend2">범례 표시(&amp;G)</entry>
+    <entry key="HideLegend">범례 숨기기(&amp;G)</entry>
+    <entry key="UnlockAxesPos">좌표축 위치 잠금 해제(&amp;K)</entry>
+    <entry key="LockAxesPos">좌표축 위치 잠금(&amp;K)</entry>
+    <entry key="CanNotAddLegend">빈 플롯에 범례를 추가할 수 없습니다.</entry>
+    <entry key="Data">데이터</entry>
+  </message>
+</rsccat>

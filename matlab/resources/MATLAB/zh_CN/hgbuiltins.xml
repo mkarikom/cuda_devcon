@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ambiguous">''{1}'' 类的属性名称 ''{0}'' 具有多义性。\n</entry>
+    <entry key="OutOfMemory">内存不足。有关详细信息，请参阅&lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/memory.html'))\"&gt;内存&lt;/a&gt;。</entry>
+    <entry key="MethodCallFailed">无法调用指定的对象方法。</entry>
+    <entry key="param_value_pairs">参数元胞/值元胞对中的大小不匹配</entry>
+    <entry key="waitfor">输入对象必须为有效的 MATLAB 图形对象或句柄对象</entry>
+    <entry key="incorrect_axes_args">用于构造坐标区对象的输入参数不正确\n</entry>
+    <entry key="HGObjectFactory">无法解析参数类型。</entry>
+    <entry key="InvalidCopyobjArguments">父对象和子对象不兼容。</entry>
+    <entry key="CannotFindParentForObject">找不到对象 {0} 的父级。</entry>
+    <entry key="InvalidHandle">句柄无效。</entry>
+    <entry key="doubleToMCOSConversion">找不到 MCOS 转换器的双精度值。不应在未启用 hg2 时调用 hg2gcv。</entry>
+    <entry key="findParent">调用 findParent 两次</entry>
+    <entry key="NotEnoughInputArguments">输入参数的数目不足。</entry>
+    <entry key="NonScalarParent">父级必须为标量图形句柄。</entry>
+    <entry key="BadParentPropertyValue">''Parent'' 属性的值错误</entry>
+    <entry key="ConversionError">无法将双精度值转换为句柄。</entry>
+    <entry key="MixedHandleMode">无法将双精度值转换为句柄。</entry>
+    <entry key="NoAppdataProp">{0} 对象不支持应用程序数据。</entry>
+    <entry key="InvalidFirstInput">数据参数无效。</entry>
+    <entry key="InvalidSecondInput">数据参数无效。</entry>
+    <entry key="InvalidThirdInput">数据参数无效。</entry>
+    <entry key="InvalidColorArgument">颜色参数无效</entry>
+    <entry key="InvalidNumberOfArgs">输入参数的数目不正确</entry>
+    <entry key="ParseErrorExpectedDoubles">前两个或前三个参数必须为双精度数值。</entry>
+    <entry key="ParseErrorTooManyNonPV">非属性/值参数过多。</entry>
+    <entry key="AddlistenerInvalidNumberOfArgs">Addlistener 的参数数目不正确</entry>
+    <entry key="AddlistenerInvalidProperty">属性名称只能为字符串数组或字符向量元胞数组。</entry>
+    <entry key="AddlistenerInvalidPropertyCell">将属性名称指定为一个字符向量、字符串数组或字符向量元胞数组。</entry>
+    <entry key="AddlistenerInvalidPropertyCallback">回调类型必须为 ''PostSet''、''PostGet''、''PreGet''、''PreSet'' 之一并且大小写匹配。</entry>
+    <entry key="AddlistenerInvalidPropertyCallbackStrings">将回调类型指定为一个字符串标量或字符向量。</entry>
+    <entry key="AddlistenerInvalidPropertyEventNames">将事件名称指定为一个字符串标量或字符向量。</entry>
+    <entry key="AddlistenerUndefined">未找到具有匹配签名的方法 'addlistener'。回调必须为函数句柄。</entry>
+    <entry key="AddlistenerInvalidInput">Double 输入必须为 HG 句柄</entry>
+    <entry key="AddlistenerInvalidEvent">该对象不支持指定的事件</entry>
+    <entry key="AddlistenerInvalidEventVector">该对象向量不支持指定的事件</entry>
+    <entry key="AddlistenerInvalidInputHGOrJava">输入需要为有效的 HG 句柄或原始 java 对象</entry>
+    <entry key="AddlistenerInvalidInputVectorHG">输入需要为由 HG 句柄组成的有效向量</entry>
+    <entry key="AddlistenerInvalidInputArgsJava">作用于 java 对象的 Addlistener 可以接受 1 或 3 个参数</entry>
+    <entry key="AddlistenerInvalidInputVectorHGHandles">Addlistener 不支持由 hg 句柄组成的向量</entry>
+    <entry key="AddlistenerInvalidInputFirstArg">所提供的第一个参数对于 addlistener 无效。(请检查其类型或有效性)</entry>
+  </message>
+</rsccat>

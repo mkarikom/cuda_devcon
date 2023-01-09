@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2018-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CellReferenceNotAllowed">Cell contents reference from a non-cell array object.</entry>
+    <entry key="ParensReferenceNotAllowed">Indexed reference of a CustomProperties object is not supported.</entry>
+    <entry key="ChangingLength">Changing the length of a custom per-variable property is not supported.</entry>
+    <entry key="InvalidCustomPropName">Invalid custom property name. Create a new custom property with ADDPROP before adding data.</entry>
+    <entry key="IncompatibleTypes">Unable to combine data types ''{0}'' and ''{1}'' in custom property ''{2}''.</entry>
+    <entry key="IncompatibleLoad" note="Do NOT add period ('.') at the end - it is intentionally left out.">Unable to load the saved CustomProperties because it is incompatible with this version of MATLAB</entry>
+    <entry key="InvalidConcatenation">Unable to concatenate the custom property ''{0}''.</entry>
+    <entry key="CellCatChangesSize">Custom property containing a cell array concatenated with a non-cell array resulted in conversion to cell, making the number of elements inconsistent with the number of variables.</entry>
+</message>
+</rsccat>

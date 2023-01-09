@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="dimension_separator">×</entry>
+    <entry key="warning_message_prefix">경고: </entry>
+    <entry key="toDisableWarning">\n(이 경고를 표시하지 않으려면 ''warning off {0}''을(를) 입력하십시오)</entry>
+    <entry key="arrayScalIntReq">Scalar integer value required, but value is an array.</entry>
+    <entry key="complexScalIntReq">Scalar integer value required, but value is complex.</entry>
+    <entry key="nonIntegerInput">크기 입력값은 정수여야 합니다.</entry>
+    <entry key="nonRealInput">크기 벡터는 실수 요소를 가진 행 벡터여야 합니다.</entry>
+    <entry key="badTypeIndices">배열 인덱스는 양의 정수이거나 논리값이어야 합니다.</entry>
+    <entry key="badTypeIndicesPosition">위치 {0, number, integer}의 인덱스가 유효하지 않습니다. 배열 인덱스는 양의 정수이거나 논리값이어야 합니다.</entry>
+    <entry key="indexExceedsDims">인덱스가 배열 경계를 초과합니다.</entry>
+    <entry key="indexExceedsDimsPosition">위치 {0, number, integer}의 인덱스가 배열 경계를 초과합니다.</entry>
+    <entry key="indexExceedsDimsPositionSize">Index in position {0, number, integer} exceeds array bounds. Index must not exceed {1, number, integer}.</entry>
+    <entry key="indexExceedsDimsLinear">Index exceeds the number of array elements. Index must not exceed {0, number, integer}.</entry>
+    <entry key="indexTooLarge">One or more indices are invalid. Indices must be less than 2^48.</entry>
+    <entry key="indexTooLargePosition">Index in position {0, number, integer} is invalid. Indices must be less than 2^48.</entry>
+    <entry key="logicalIndexExceedsDims">논리형 인덱스에 배열 경계를 벗어난 true 값이 포함되어 있습니다.</entry>
+    <entry key="logicalIndexExceedsDimsPosition">위치 {0, number, integer}의 논리형 인덱스에 배열 경계를 벗어난 true 값이 포함되어 있습니다.</entry>
+    <entry key="singleSubscriptNumelMismatch">좌변과 우변의 요소 개수가 다르기 때문에 값을 대입할 수 없습니다.</entry>
+    <entry key="subsassigndimmismatchWithSizes">좌변 크기가 {0}이고 우변 크기가 {1}이기 때문에 값을 대입할 수 없습니다.</entry>
+    <entry key="accessBadTypeIndices">{0}({1}) 액세스를 시도했습니다. 인덱스는 양의 정수이거나 논리형이어야 합니다.</entry>
+    <entry key="accessIndexOutOfBoundsNumel">{0}({1}) 액세스를 시도했습니다. numel({2})={3}이므로 인덱스가 경계를 벗어났습니다.</entry>
+    <entry key="accessIndexOutOfBoundsSize">{0}({1}) 액세스를 시도했습니다. size({2})=[{3}]이므로 인덱스가 경계를 벗어났습니다.</entry>
+    <entry key="namelengthmaxexceeded">''{0}''이(가) 최대 MATLAB 이름 길이({1,number,integer}개 문자)를 초과했기 때문에 ''{2}''(으)로 잘렸습니다.</entry>
+    <entry key="UndefinedFunctionForClass">''{1}'' 클래스 값에 대해 함수 ''{0}''이(가) 정의되지 않았습니다.</entry>
+    <entry key="ambiguousArrayGrowth">모호한 차원으로 배열을 증가시키려 했습니다.</entry>
+    <entry key="warning_unexpected_end_of_file">압축된 데이터를 읽는 중 예기치 않은 파일 끝(EOF)이 발견되었습니다.</entry>
+    <entry key="object_wont_fit_down_pipe">이 객체를 직렬화하려면 시퀀셜 스트림(Sequential Stream)의 서브시스템 데이터가 필요합니다.</entry>
+    <entry key="badUndocumentedFunctionInput">mex 함수가 유효하지 않은 인수로 문서에 설명되지 않은 함수 {0}을(를) 호출했습니다.</entry>
+    <entry key="illegalComplexArray">배열은 복소수이면 안 됩니다.</entry>
+    <entry key="unableToUseTypeAsIndex">{0} 유형의 값은 인덱스로 사용할 수 없습니다.</entry>
+    <entry key="invalidSubsindexReturnType">{0} 클래스의 메서드 subsindex는 숫자형 배열을 반환해야 합니다.</entry>
+  </message>
+</rsccat>

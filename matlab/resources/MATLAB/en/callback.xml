@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\schema\msgcat.xsd" string_type_for_hole="fl_ustring">
+  <message>
+    <entry key="error">Error occurred while executing the listener callback for event {0} defined for class {1}:\n{2}</entry>
+    <entry key="PropertyEventError">Error occurred while executing the listener callback for the {0} class {1} property {2} event:\n{3}</entry>   
+    <entry key="DynamicPropertyEventError">Error executing listener callback for {0} event on {1} dynamic property in object of {2} class:\n{3}</entry> 
+    <entry key="DeletedSource">Error while executing listener callback for {0} event. Source has been deleted:\n{1}</entry>
+    <entry key="DeletedAffectedObject">Error while executing listener callback for {0} event on property {1}. Affected object has been deleted:\n{2}</entry>
+    <entry key="DeletedAffectedObjectNoClass">Error while executing listener callback for {0} event. Affected object has been deleted and its class has been destroyed:\n{1}</entry>
+  </message>
+</rsccat>

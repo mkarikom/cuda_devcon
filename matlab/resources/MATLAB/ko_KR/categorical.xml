@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CharData">문자형 배열로부터의 변환은 지원되지 않습니다. 먼저, cellstr을 사용하여 문자형 배열을 문자형 벡터로 구성된 셀형 배열로 변환하십시오. 그런 다음 categorical형을 사용하여 셀형 배열을 변환하십시오.</entry>
+    <entry key="TableData">테이블로부터의 변환은 지원되지 않습니다. 점 첨자 또는 중괄호 첨자를 사용하여 하나 이상의 테이블 변수에 있는 데이터를 배열로 추출하십시오. 그런 다음 배열을 categorical형 배열로 변환하십시오.</entry>
+    <entry key="NDCharArrayData">N차원 문자형 배열로부터의 변환은 지원되지 않습니다.</entry>
+    <entry key="UnprotectedOrdinal">순서형 배열은 보호되어야 합니다.</entry>
+    <entry key="ValuesetOrdinalCategoriesMismatch">DATA가 순서형 categorical형 배열일 경우 VALUESET에는 DATA와 동일한 범주 세트가 있어야 합니다.</entry>
+    <entry key="MultipleMissingInValueset">VALUESET에 누락값이 여러 개 있습니다.</entry>
+    <entry key="UniqueMethodFailedValueset">UNIQUE 함수를 사용하여 VALUESET에서 고유한 값을 찾을 수 없습니다.</entry>
+    <entry key="DuplicatedValues">VALUESET에 중복된 값이 있습니다.</entry>
+    <entry key="UniqueMethodFailedData">UNIQUE 함수를 사용하여 DATA에서 고유한 값을 찾을 수 없습니다.</entry>
+    <entry key="MaxNumCategoriesExceeded">이 연산을 수행하면 범주 개수가 {0,number,integer}개 이상인 categorical형 배열이 생성됩니다.</entry>
+    <entry key="WrongNumCategoryNamesValueset">CATEGORYNAMES와 VALUESET는 길이가 동일해야 합니다.</entry>
+    <entry key="WrongNumCategoryNames">CATEGORYNAMES에는 DATA의 각 고유한 값별로 요소가 하나씩 있어야 합니다.</entry>
+    <entry key="UndefinedLabelCategoryName">텍스트 ''{0}''과(와) 동일한 범주 이름을 생성할 수 없습니다.\nCATEGORYNAMES 입력 인수를 사용하여 범주 이름을 지정하십시오.</entry>
+    <entry key="EmptyCategoryName">빈 텍스트나 누락값인 텍스트로는 범주 이름을 생성할 수 없습니다.\nCATEGORYNAMES 입력 인수를 사용하여 범주 이름을 지정하십시오.</entry>
+    <entry key="CantCreateCategoryNames">디폴트 범주 이름을 생성할 수 없습니다. CATEGORYNAMES 입력 인수를 사용하여 범주 이름을 지정하십시오.</entry>
+    <entry key="UndefinedInValueset">VALUESET에 정의되지 않은 값에 대해서는 디폴트 범주 이름을 생성할 수 없습니다. CATEGORYNAMES 입력 인수를 사용하여 범주 이름을 지정하십시오.</entry>
+    <entry key="CharMethodFailedValueset">해당 CHAR 메서드를 사용하여 VALUESET에서 디폴트 범주 이름을 생성할 수 없습니다.</entry>
+    <entry key="CharMethodFailedValuesetNumRows">해당 CHAR 메서드를 사용하여 VALUESET에서 디폴트 범주 이름을 생성할 수 없습니다. CHAR 메서드가 VALUESET의 각 요소별로 행을 하나씩 포함한 문자형 행렬을 생성하지 않았습니다.</entry>
+    <entry key="CharMethodFailedData">해당 CHAR 메서드를 사용하여 DATA의 고유한 값에서 디폴트 범주 이름을 생성할 수 없습니다.</entry>
+    <entry key="CharMethodFailedDataNumRows">해당 CHAR 메서드를 사용하여 DATA의 고유한 값에서 디폴트 범주 이름을 생성할 수 없습니다. CHAR 메서드에서 각 고유한 값별로 행이 하나씩 포함된 문자형 행렬이 생성되지 않았습니다.</entry>
+    <entry key="DuplicatedCatNamesDatetime">datetime형 배열에서 고유한 범주 이름을 만들 수 없습니다. 충분한 정밀도의 &lt;a href="matlab:helpview([docroot '/matlab/ref/datetime.html#buhzxmk-1-Format'])"&gt;표시 형식&lt;/a&gt;을 사용하거나 CATEGORYNAMES 입력 인수를 사용하여 범주 이름을 지정하십시오.</entry>
+    <entry key="DuplicatedCatNamesDuration">duration형 배열에서 고유한 범주 이름을 만들 수 없습니다. 충분한 정밀도의 &lt;a href="matlab:helpview([docroot '/matlab/ref/duration.html#mw_7dddd595-1be8-452b-8270-5589013aa7d4'])"&gt;표시 형식&lt;/a&gt;을 사용하거나 CATEGORYNAMES 입력 인수를 사용하여 범주 이름을 지정하십시오.</entry>
+    <entry key="DuplicatedCatNames">고유한 범주 이름을 만들 수 없습니다. CATEGORYNAMES 입력 인수를 사용하여 범주 이름을 지정하십시오.</entry>
+    <entry key="NumericTypeMismatchValueSet">DATA가 숫자형이면 VALUESET도 숫자형이어야 합니다.</entry>
+    <entry key="TypeMismatchValueset">VALUESET는 DATA와 클래스가 동일해야 합니다.</entry>
+    <entry key="DuplicatedLogicalValueset">논리형으로 형변환하는 경우 VALUESET에 중복된 값이 포함됩니다.</entry>
+    <entry key="EQMethodFailedDataValueset">등호를 사용하여 DATA의 값과 VALUESET의 값을 비교할 수 없습니다.</entry>
+    <entry key="UndefinedFunction">함수 ''{0}''은(는) ''{1}''형 입력 인수에 대해 정의되지 않았습니다.</entry>
+    <entry key="NoLHS">작업 공간 변수에 값을 대입하지 않고 {0}을(를) 사용하면 배열의 속성이 변경되지 않습니다. C = {0}(C{1})을(를) 사용하십시오.</entry>
+    <entry key="ProtectedForCombination">하나 이상의 배열이 categorical형 배열이면서, 순서형 배열이거나 또는 보호형 배열입니다. 각 배열의 범주 세트가 모두 동일하지는 않습니다. ADDCATS를 사용하여 새 범주를 추가하십시오.</entry>
+    <entry key="InvalidOrdinalComparison">순서형 배열은 해당 순서를 포함하여 범주가 동일해야 합니다.</entry>
+    <entry key="NotOrdinal">순서형이 아닌 categorical형 배열에는 관계 비교가 허용되지 않습니다.</entry>
+    <entry key="OrdinalMismatchConcatenate">순서형인 categorical형 배열을 순서형이 아닌 categorical형 배열과 결합할 수 없습니다.</entry>
+    <entry key="OrdinalMismatchComparison">순서형인 categorical형 배열을 순서형이 아닌 categorical형 배열과 비교할 수 없습니다.</entry>
+    <entry key="InvalidComparisonTypes">{0} 배열과 {1} 배열 간의 비교는 정의되지 않았습니다.</entry>
+    <entry key="OrdinalCategoriesMismatch">순서형 배열은 해당 순서를 포함하여 범주가 동일해야 합니다.</entry>
+    <entry key="InvalidSubscripting">() 인덱싱은 인덱스 표현식에서 마지막에 와야 합니다.</entry>
+    <entry key="CellReferenceNotAllowed">셀형 배열이 아닌 객체의 셀 내용을 참조하고 있습니다.</entry>
+    <entry key="FieldReferenceNotAllowed">비구조체형 배열의 필드를 참조하려고 했습니다.</entry>
+    <entry key="OrdinalMismatchAssign">categorical형 배열을 다른 categorical형 배열에 값으로 대입하려면 둘 다 순서형이거나 순서형이 아니어야 합니다.</entry>
+    <entry key="ProtectedForAssign">이 categorical형 배열은 해당 범주가 보호되므로 새 범주 ''{0}''을(를) 추가할 수 없습니다. ADDCATS를 사용하여 새 범주를 추가하십시오.</entry>
+    <entry key="InvalidRHS">{0} 배열에 대한 대입식의 우변은 {0} 또는 범주 이름을 나타내는 텍스트여야 합니다.</entry>
+    <entry key="CellAssignmentNotAllowed">셀형 배열이 아닌 객체의 셀 내용에 값을 대입하고 있습니다.</entry>
+    <entry key="FieldAssignmentNotAllowed">비구조체형 배열의 필드에 값을 대입하려고 했습니다.</entry>
+    <entry key="IllegalDotMethod">비구조체형 배열의 필드 ''{0}''을(를) 참조하려고 했습니다. {1} 메서드를 호출하려고 했다면 {1}(c,...) 같은 함수 구문을 사용해야 합니다. 자세한 내용은 &lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;메서드 호출&lt;/a&gt;을 참조하십시오.</entry>
+    <entry key="IllegalDotMethodNoCorrection">비구조체형 배열의 필드 ''{0}''을(를) 참조하려고 했습니다. {1} 메서드를 호출하려고 했다면 함수 구문을 사용해야 합니다. 자세한 내용은 &lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;메서드 호출&lt;/a&gt;을 참조하십시오.</entry>
+    <entry key="InvalidNames">{0}은(는) string형 배열이거나, 비어 있지 않은 범주 이름을 포함하는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="UndefinedLabel">{0}에 유효하지 않은 이름 ''{1}''이(가) 있습니다.</entry>
+    <entry key="EmptyName">{0}에 빈 문자형 벡터 또는 길이가 0인 string형 데이터가 포함되어 있습니다.</entry>
+    <entry key="DuplicateNames">{0}에 중복된 값이 있습니다.</entry>
+    <entry key="VarEditorIndexOverFlow">categorical형 배열에 빈 열이 있을 수 없으므로, 데이터를 기존 변수의 오른쪽 바로 옆에만 추가할 수 있습니다.\n새 categorical형 변수는 사용 가능한 다음 열에 추가됩니다.</entry>
+    <entry key="InvalidUndefinedChar"> ''{0}''은(는) 유효한 범주 이름이 아닙니다. 정의되지 않은 categorical형 요소를 나타내려고 했다면 빈 ''''을 사용하십시오. 범주를 생성하려고 했다면 이름은 ''{1}'' 또는 ''{2}''이(가) 아니어야 합니다.</entry>
+    <entry key="InvalidUndefinedString"> "{0}"은(는) 유효한 범주 이름이 아닙니다. 정의되지 않은 categorical형 요소를 나타내려고 했다면 빈 '''' 또는 문자열(nan)을 사용하십시오. 범주를 생성하려고 했다면 이름은 "{1}" 또는 "{2}"이(가) 아니어야 합니다.</entry>
+    <entry key="InvalidMissingChar"> ''{0}''은(는) 유효한 범주 이름이 아닙니다. 정의되지 않은 categorical형 요소를 나타내려고 했다면 빈 ''''을 사용하십시오.</entry>
+    <entry key="AssignNewCategories">코드 생성 시 할당을 통한 범주 추가는 지원되지 않습니다.</entry>
+    <entry key="SparseData">코드 생성 시 categorical 함수의 입력값으로 희소 행렬은 사용할 수 없습니다.</entry>
+    <entry key="InvalidDataClass">코드 생성 시 categorical 함수에 대한 첫 번째 입력값은 숫자형 배열, 논리형 배열 또는 categorical형 배열이거나 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="UnsupportedMethodCodegen">코드 생성 시 categorical형에는 {0} 메서드가 지원되지 않습니다.</entry>
+    <entry key="CodegenInvalidNames">{0}은(는) 비어 있지 않은 범주 이름을 포함하는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="CodegenDuplicateCategoryNames">범주 이름에는 중복된 값이 포함될 수 없습니다.</entry>
+    <entry key="InvalidLogicalScalarType">{0} 유형은 논리형 스칼라여야 합니다.</entry>
+    <entry key="InvalidCategoriesType">Categories 유형은 비어 있지 않은 문자형 벡터로 구성된 셀형 열 벡터여야 합니다.</entry>
+  </message>
+</rsccat>

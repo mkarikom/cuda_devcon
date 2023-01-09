@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DijkstraNonNegative">只有当所有边权重都为非负值时，Method 值才能为 ''positive''。</entry>
+    <entry key="InvalidDistanceDir">距离必须为实数标量。</entry>
+    <entry key="InvalidDistanceUndir">距离必须为非负实数标量。</entry>
+    <entry key="KeyWithoutValue">没有为 {0} 提供任何值。</entry>
+    <entry key="NegativeWeights">图形边权重必须为非负值。</entry>
+    <entry key="NegCycle">未定义最短路径距离，因为图形包含长度为 {0} 的负循环(节点 {1})。</entry>
+    <entry key="NonScalarSource">必须指定一个源节点。</entry>
+    <entry key="ParseDirection">Direction 值必须为 ''outgoing'' 或 ''incoming''。</entry>
+    <entry key="ParseFlagsDir">参数名称必须为 ''Direction'' 或 ''Method''。</entry>
+    <entry key="ParseFlagsUndir">参数名称必须为 ''Method''。</entry>
+    <entry key="ParseMethodDir">Method 值必须为 ''auto''、''unweighted''、''positive'' 或 ''mixed''。</entry>
+    <entry key="ParseMethodUndir">Method 值必须为 ''auto''、''unweighted'' 或 ''positive''。</entry>
+  </message>
+</rsccat>

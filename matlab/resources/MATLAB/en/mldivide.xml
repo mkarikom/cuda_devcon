@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="integerLinearAlgebra">Linear algebra is not supported for integer data types. Use LDIVIDE (.\\) for elementwise left division.</entry>
+    <entry key="inputsMustBe2D">Arguments must be 2-D, or at least one argument must be scalar. Use LDIVIDE (.\\) for elementwise left division.</entry>
+    <entry key="sparseSingleNotSupported">Sparse single array operations are not supported.</entry>
+    <entry key="inputMustBeNumericCharLogical">Arguments must be numeric, char, or logical.</entry>
+  </message>
+</rsccat>

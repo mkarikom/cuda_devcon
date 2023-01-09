@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="Invalid">Invalid argument</entry>
+    <entry key="NotAxesArgument">Axes argument must be a Cartesian Axes of type matlab.graphics.axis.Axes</entry>
+    <entry key="NotAxesGCA">The current Axes must be a Cartesian Axes of type matlab.graphics.axis.Axes</entry>
+    <entry key="ViewNot2D"><![CDATA[3-D views are not supported with yyaxis. Change the view to 2-D with <a href="matlab:doc view">view</a>(2).]]></entry>   
+  </message>
+</rsccat>

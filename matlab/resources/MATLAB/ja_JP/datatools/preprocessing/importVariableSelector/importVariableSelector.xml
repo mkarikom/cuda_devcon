@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="VARIABLE_SELECTOR_NAME">ワークスペースからインポート</entry>
+    <entry key="VARIABLE_SELECTOR_TEXT">table または timetable を選択</entry>
+    <entry key="VARIABLE_SELECTOR_SUB_TEXT">変数</entry>
+    <entry key="CANCEL_BUTTON_TEXT">キャンセル</entry>
+    <entry key="OK_BUTTON_TEXT">OK</entry>
+    <entry key="NO_VAR_WARNING">ワークスペースに table がありません</entry>
+    <entry key="NO_DATA_WARNING">利用可能なデータはありません</entry>
+    <entry key="COL_NAME_1">名前</entry>
+    <entry key="COL_NAME_2">クラス</entry>
+    <entry key="COL_NAME_3">サイズ</entry>
+  </message>
+</rsccat>

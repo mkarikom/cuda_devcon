@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TypeMismatch">{0} 配列とカテゴリカル配列を連結することはできません。</entry>
+    <entry key="TypeMismatchCell">セル配列に文字ベクトルのみが含まれる場合を除いて、セル配列とカテゴリカル配列は連結できません。</entry>
+    <entry key="NonNumericDim">次元引数は数値でなければなりません。</entry>
+  </message>
+</rsccat>

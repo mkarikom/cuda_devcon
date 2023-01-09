@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidEdge">エッジ ({0}, {1}) は存在しません。</entry>
+    <entry key="NoOutput">入力グラフが変更されていません。出力引数を使用して、変更されたグラフを返してください。</entry>
+  </message>
+</rsccat>

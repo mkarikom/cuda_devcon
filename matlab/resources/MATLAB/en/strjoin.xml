@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidCellType" note="stringDatatypeUpdate">First input must be a string array or cell array of character vectors.</entry>
+    <entry key="InvalidDelimiterType" note="stringDatatypeUpdate">The delimiter must be a character vector, string array, or cell array of character vectors.</entry>
+    <entry key="WrongNumberOfDelimiterElements" note="stringDatatypeUpdate">When the delimiter is a string array or cell array of character vectors, it must be scalar or have one fewer element than the first input.</entry>
+  </message>
+</rsccat>

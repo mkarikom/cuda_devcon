@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInputType">入力引数は数値でなければなりません。</entry>
+    <entry key="InvalidDataInputs">2 つまたは 3 つのデータ引数が必要です。</entry>
+    <entry key="InvalidInputDimensions">THETA と RHO は同じサイズでなければなりません。</entry>
+    <entry key="PolarAxes">POLAR は PolarAxes クラスと互換性がありません。代わりに POLARPLOT を使用してください。</entry>
+  </message>
+</rsccat>

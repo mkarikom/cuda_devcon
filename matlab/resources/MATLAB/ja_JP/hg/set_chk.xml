@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ErrorMessageGetWarning">ErrorMessage プロパティは将来のリリースで削除される予定です。代わりにコマンド ラインで MException.last を使用してください。</entry>
+    <entry key="ErrorMessageSetWarning">ErrorMessage プロパティは将来のリリースで削除される予定です。</entry>
+    <entry key="ErrorMessageGetError">ErrorMessage プロパティは削除されています。代わりにコマンド ラインで MException.last を使用してください。</entry>
+    <entry key="ErrorMessageSetError">ErrorMessage プロパティは削除されています。</entry>
+    <entry key="ExpectedNonNegativeInteger">プロパティ値は 0 以上の整数でなければなりません</entry>
+    <entry key="MadeMarkerAndLineStyleSeparateProperties">''LineStyle'' プロパティに基づいてマーカー タイプを設定しています\n         ''Marker'' と ''LineStyle'' は別々のプロパティになりました。\n         ''Marker'' プロパティを使用してこの警告を削除してください。</entry>
+  </message>
+</rsccat>

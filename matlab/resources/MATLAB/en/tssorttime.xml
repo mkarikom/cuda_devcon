@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="mismatch">Time and data are mismatched.</entry>
+    <entry key="istimefirst">Both the first and last dimensions of the data are the same.  Use the ''IsTimeFirst'' property to align the data with the time vector.</entry>
+  </message>
+</rsccat>

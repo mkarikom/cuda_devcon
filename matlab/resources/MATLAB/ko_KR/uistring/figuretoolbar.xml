@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooltipString_Standard_NewFigure">새 Figure</entry>
+    <entry key="TooltipString_Standard_FileOpen">파일 열기</entry>
+    <entry key="TooltipString_Standard_SaveFigure">Figure 저장</entry>
+    <entry key="TooltipString_Standard_PrintFigure">Figure 인쇄</entry>
+    <entry key="TooltipString_Standard_EditPlot">플롯 편집</entry>
+    <entry key="TooltipString_Standard_ExportAxes">다른 이름으로 저장</entry>
+    <entry key="TooltipString_Standard_CopyAxesImage">이미지로 복사</entry>
+    <entry key="TooltipString_Standard_CopyAxesVector">벡터 그래픽으로 복사</entry>
+    <entry key="TooltipString_Standard_OpenInspector">속성 인스펙터 열기</entry>
+    <entry key="TooltipString_Exploration_ZoomIn">확대</entry>
+    <entry key="TooltipString_Exploration_ZoomOut">축소</entry>
+    <entry key="TooltipString_Exploration_ZoomX">X축 확대/축소</entry>
+    <entry key="TooltipString_Exploration_ZoomY">Y축 확대/축소</entry>
+    <entry key="TooltipString_Exploration_Pan">패닝</entry>
+    <entry key="TooltipString_Exploration_Rotate">3차원 회전</entry>
+    <entry key="TooltipString_Exploration_DataCursor">데이터팁</entry>
+    <entry key="TooltipString_Exploration_Brushing">데이터 브러싱</entry>
+    <entry key="TooltipString_Exploration_RestoreView">보기 복원</entry>
+    <entry key="TooltipString_DataManager_Linking">플롯 연결/연결 해제</entry>
+    <entry key="TooltipString_Annotation_InsertColorbar">컬러바 삽입</entry>
+    <entry key="TooltipString_Annotation_InsertLegend">범례 삽입</entry>
+    <entry key="TooltipString_Annotation_InsertRectangle">사각형 삽입</entry>
+    <entry key="TooltipString_Annotation_InsertEllipse">타원 삽입</entry>
+    <entry key="TooltipString_Annotation_InsertTextbox">텍스트 상자 삽입</entry>
+    <entry key="TooltipString_Annotation_InsertTextArrow">텍스트 화살표 삽입</entry>
+    <entry key="TooltipString_Annotation_InsertDoubleArrow">양방향 화살표 삽입</entry>
+    <entry key="TooltipString_Annotation_InsertArrow">화살표 삽입</entry>
+    <entry key="TooltipString_Annotation_InsertLine">선 삽입</entry>
+    <entry key="TooltipString_Annotation_Pin">좌표축에 고정</entry>
+    <entry key="TooltipString_Annotation_AlignDistribute">정렬/간격 맞춤</entry>
+    <entry key="TooltipString_Plottools_PlottoolsOff">플롯 툴 숨기기</entry>
+    <entry key="TooltipString_Plottools_PlottoolsOn">플롯 툴 표시 및 Figure 도킹</entry>
+    <entry key="TooltipString_Toolbar_ShowMore">더 보기</entry>
+    <entry key="TooltipString_Toolbar_ShowLess">숨기기</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NumOutNotEqualNumDims">출력 인수의 개수가 올바르지 않습니다. 출력 인수의 개수는 입력 차원 인수의 개수와 같아야 합니다.</entry>
+    <entry key="invalidDim">차원 인수는 양의 정수 스칼라 또는 양의 정수로 구성된 벡터여야 합니다.</entry>
+  </message>
+</rsccat>

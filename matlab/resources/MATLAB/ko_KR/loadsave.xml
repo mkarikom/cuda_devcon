@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="notAScalarSubset">현재는 스칼라 서브셋만 지원됩니다.</entry>
+    <entry key="SubsetTypeNotSupported">현재는 MAT 파일에 대한 ''()'' 인덱싱만 지원됩니다. ''{0}'' 인덱싱이 사용되었습니다.</entry>
+    <entry key="MatfileFormatNotSupported"> 버전은 'v6', 'v7' 또는 'v7.3'으로 지정해야 합니다.</entry>
+    <entry key="noSuchProperty">직렬화 사용자 지정 과정에서, {1} 클래스의 직렬화 콘텐츠에 적합한 속성 {0}이(가) 없습니다.</entry>
+    <entry key="propertyExists">직렬화 사용자 지정 과정에서, 직렬화 속성 이름 {0}이(가) {1} 클래스의 직렬화 콘텐츠에 이미 존재합니다.</entry>
+    <entry key="nonStaticObjectCustomizationMethod"> 직렬화 사용자 지정 과정에서, 메서드 {0}이(가) {1} 클래스에 ''Static'''으로 정의되지 않았으며 직렬화 도중 무시됩니다.</entry>
+    <entry key="interruption"> 사용자 개입으로 인해 저장-불러오기 과정이 종료됩니다.</entry>
+    <entry key="numberOfElementsMismatch"> Number of elements in the input property name {0} is not equal to number of elements in the serialization content array for {1} class" </entry>
+    <entry key="badPropertyName"> 직렬화 속성 {0}의 이름이 유효하지 않음 </entry>
+    <entry key="operationNotSupportedOnHetArray"> 입력 인수는 동종 객체 배열을 나타내는 직렬화 콘텐츠여야 합니다. </entry>
+    <entry key="saveRecursionLimit">클래스의 인스턴스를 MAT 파일에 저장할 때 재귀 제한값을 초과했습니다. 이는 인스턴스에 매우 긴 참조 체인이 포함되어 있거나 클래스 정의에 오류가 있기 때문입니다.</entry>
+    <entry key="unexpectedOutputType"> {1} 클래스에 의해 정의된 ''{0}'' 사용자 지정 메서드에서 예기치 않은 출력 유형이 반환되었습니다. 사용자 지정이 무시되고 객체의 이름-값 쌍이 저장됩니다. </entry>
+  </message>
+</rsccat>

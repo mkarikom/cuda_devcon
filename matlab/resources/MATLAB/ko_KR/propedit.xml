@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="V6">버전 6 속성 편집기는 더 이상 사용할 수 없습니다. 죄송합니다!</entry>
+    <entry key="NoopenFirst">-noopen 인수에는 핸들을 제공해야 합니다.</entry>
+    <entry key="NoselectFirst">-noselect 인수에는 핸들을 제공해야 합니다.</entry>
+    <entry key="TabFirst">-t 인수에는 핸들을 제공해야 합니다.</entry>
+    <entry key="NeedsHandle">첫 번째 인수는 문자형 벡터가 아닌 객체 또는 객체 목록이어야 합니다.</entry>
+    <entry key="NoValidHandles">유효한 객체 또는 핸들을 propedit에 제공하지 않았습니다.</entry>
+    <entry key="InvalidObjectsPassed">유효한 객체가 propedit에 전달되지 않았습니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!-- Copyright 2020 MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <entry key="APP_TASK_PREVIEW_LABEL">Preview</entry>
+        <entry key="APP_TASK_AXES_PANEL_TITLE">Preview Visualization</entry>
+        <entry key="APP_TASK_TABLE_PANEL_TITLE">Tabular Data Preview</entry>
+        <entry key="CLEANED_TABLE_TITLE">Data After Cleaning</entry>
+        <entry key="ORIGINAL_TABLE_TITLE">Data Before Cleaning</entry>
+
+        <entry key="CUSTOM_PP_DIALOG_TITLE">Custom Preprocessing Creator</entry>
+        <entry key="CUSTOM_PP_DIALOG_NAME">Name</entry>
+        <entry key="CUSTOM_PP_DIALOG_DESCRIPTION">Description</entry>
+        <entry key="CUSTOM_PP_DIALOG_FUN_PREVIEW">Function Preview</entry>
+        <entry key="CUSTOM_PP_DIALOG_OUTPUT">Output</entry>
+        <entry key="CUSTOM_PP_DIALOG_FUNCTION">Function</entry>
+        <entry key="CUSTOM_PP_DIALOG_VARIABLE">Variable</entry>
+        <entry key="CUSTOM_PP_DIALOG_INPUT">Input {0}</entry>
+        <entry key="CUSTOM_PP_DIALOG_ADD_INPUT">Add Another Input</entry>
+        <entry key="CUSTOM_PP_DIALOG_NAMED_PARAMETER">Named Parameter?</entry>
+        <entry key="CUSTOM_PP_DIALOG_DELETE_INPUT">Delete Input</entry>
+        <entry key="CUSTOM_PP_DIALOG_OK">OK</entry>
+        <entry key="CUSTOM_PP_DIALOG_CANCEL">Cancel</entry>
+        <entry key="CUSTOM_PP_DIALOG_ADDTOGALLERY">Add to Gallery?</entry>
+
+        <entry key="CUSTOM_PP_DIALOG_NEWVARIABLENAME">New Variable Prefix</entry>
+        <entry key="CUSTOM_PP_DIALOG_VARIABLENAME">Variable Name</entry>
+        <entry key="CUSTOM_PP_DIALOG_TABLEVARNAME">Table Variable Name</entry>
+        <entry key="CUSTOM_PP_DIALOG_TABLEANDVAR">Table.(Variable)</entry>
+        <entry key="CUSTOM_PP_DIALOG_TABLEANDNEWVAR">Table.(New Variable)</entry>
+        <entry key="CUSTOM_PP_DIALOG_VARCOLUMN">Variable(Column)</entry>
+        <entry key="CUSTOM_PP_DIALOG_USER_INPUT">User Input</entry>
+        <entry key="CUSTOM_PP_DIALOG_CONSTANT">Constant</entry>
+        <entry key="CUSTOM_PP_DIALOG_CONSTANT_VALUE">Constant Value</entry>
+        <entry key="CUSTOM_PP_DIALOG_SELECT_DATA_GROUP">Select Data</entry>
+        <entry key="CUSTOM_PP_DIALOG_INPUT_ARGS_GROUP">Input Arguments</entry>
+
+        <entry key="USER_AUTHORED_TASKS_SELECT_A_VARIABLE">Select variable</entry>
+
+        <entry key="CUSTOM_CODE_TASK_VARIABLENAME">Variable Name</entry>
+        <entry key="CUSTOM_CODE_TASK_DESCRIPTION">Description</entry>
+        <entry key="CUSTOM_CODE_TASK_REQUIRED_DESCRIPTION">Description is a required field</entry>
+        <entry key="CUSTOM_CODE_TASK_DEFAULT_DESCRIPTION">My Custom Code Description</entry>
+        <entry key="CUSTOM_CODE_TASK_CODE">Code</entry>
+        <entry key="CUSTOM_CODE_TASK_PREVIEW">Preview</entry>
+        <entry key="CUSTOM_CODE_TASK_TASKNAME">Insert One Time Script</entry>
+        <entry key="CUSTOM_CODE_TASK_TASKDESCRIPTION">Adds custom preprocessing script to history</entry>
+        <entry key="CUSTOM_CODE_TASK_MODIFY_COMMENT">Modify this code</entry>
+
+        <entry key="CUSTOM_CODE_ERROR_DIALOG_TITLE">Error running custom funciton</entry>
+        <entry key="CUSTOM_CODE_ERROR_DUP_TIMESTAMPS_TITLE">Duplicate timestamps</entry>
+        <entry key="CUSTOM_CODE_ERROR_DUP_TIMESTAMPS_MSG">Timetable should have unique timestamps. Clean timestamps and retry.</entry>
+    </message>
+</rsccat>

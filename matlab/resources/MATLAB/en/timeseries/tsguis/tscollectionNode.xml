@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="Abort">Abort</entry>
+      <entry key="Add">Add...</entry>
+      <entry key="AddNewTimeSeriesError">Failed to add new time series member to the collection. The error was: {0}</entry>
+      <entry key="AddNewTimeSeriesMemberToTscollection">Add new time series member to tscollection</entry> 
+      <entry key="AddTimeSeries">Add Time Series...</entry> 
+      <entry key="CannotChangeName">Cannot change the name of a time series which appears in one or more plots.</entry>
+      <entry key="Copy">Copy</entry>
+      <entry key="Copy_Number_Of" translate="false" note="TranslateFalseBatch;">Copy_{0,number,integer}_of_{1}</entry>
+      <entry key="Copy_of_" translate="false" note="TranslateFalseBatch;">Copy_of_{0}</entry>
+      <entry key="CurrentTimeInformation">Current Time Information: </entry>
+      <entry key="DataCols">Data Cols</entry>
+      <entry key="DataUnits">Data Units</entry>
+      <entry key="Delete">Delete</entry>
+      <entry key="DeleteSelectedSamplesFromTscollection">Delete selected samples from tscollection ''{0}'':</entry>
+      <entry key="DeleteTscollectionMember">Delete tscollection member</entry>
+      <entry key="Detrend">Detrend...</entry>
+      <entry key="DuplicateVariableDetected">Duplicated Variable Detected</entry>
+      <entry key="EditTimeVector">Edit time vector</entry>
+      <entry key="Export">Export</entry>
+      <entry key="Extract">Extract</entry>
+      <entry key="Filter">Filter...</entry>
+      <entry key="ImportTimeSeriesFromWorkspace">Import Time Series from MATLAB Workspace</entry>
+      <entry key="Insert">Insert</entry>
+      <entry key="Interpolate">Interpolate...</entry>
+      <entry key="ManageCollectionMembers">Manage collection members</entry>
+      <entry key="Name">Name</entry>
+      <entry key="NewChildNode">New Child Node</entry>
+      <entry key="NewNodeName">New node name</entry>
+      <entry key="NonuniformUnitsWithSamples">Non-uniform {0}-{1} {2} with {3,number,integer} samples.</entry>
+      <entry key="NonuniformWithSamples">Non-uniform {0}-{1} with {2,number,integer} samples.</entry>
+      <entry key="ObjectWasExported">Object ''{0}'' was exported to the base workspace.</entry>
+      <entry key="Overwrite">Overwrite</entry>
+      <entry key="Paste">Paste</entry>
+      <entry key="PlotCollectionMembers">Plot collection members</entry>
+      <entry key="Remove">Remove</entry>
+      <entry key="RemoveMissingData">Remove Missing Data...</entry>
+      <entry key="Rename">Rename</entry>
+      <entry key="SelectTheRowCorrespondingToTheObjectsYouWantToExport">Select the row corresponding to the objects you want to export.</entry>
+      <entry key="TimeCollectionVectorsMismatch">The time vector of the time series you are adding must match the tscollection time vector.</entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+      <entry key="TimeSeriesCollection">Time Series Collection::</entry> 
+      <entry key="ToFile">To File...</entry>
+      <entry key="ToWorkspace">To Workspace</entry>
+      <entry key="TransformAlgebraically">Transform Algebraically...</entry>
+      <entry key="UniformTimeVector">Uniform Time Vector...</entry>
+      <entry key="UniformUnitsWithSamples">Uniform {0}-{1} {2} with {3,number,integer} samples.</entry>    
+      <entry key="UniformWithSamples">Uniform {0}-{1} with {2,number,integer} samples.</entry>
+      <entry key="VariableNameExists">A variable with the name of {0} already exists in the workspace.  Do you want to overwrite the existing variable or abort this operation?</entry>
+   </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FailedToCleanupError">MEX ファイルに対する atExit 関数の実行中にエラーが発生しました\n{0}。\nエラー メッセージは次のとおりです:\n    {1}\nしかし、MEX ファイルはメモリからクリアされました。</entry>
+    <entry key="FailedToCleanup">MEX ファイルに対する atExit 関数の実行中にエラーが発生しました\n{0}。\nしかし、MEX ファイルはメモリからクリアされました。</entry>
+  </message>
+</rsccat>

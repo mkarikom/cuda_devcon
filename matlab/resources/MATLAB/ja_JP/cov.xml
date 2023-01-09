@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">入力引数が不足しています。</entry>
+    <entry key="TooManyInputs">入力引数が多すぎます。</entry>
+    <entry key="InputDim">入力は 2 次元でなければなりません。</entry>
+    <entry key="unknownFlag">オプションが無効です。オプションは ''includenan''、''omitrows'' または ''partialrows'' でなければなりません。</entry>
+    <entry key="notScalarFlag">3 番目の入力は、0、1 またはフラグ文字ベクトルでなければなりません。</entry>
+    <entry key="XYlengthMismatch">x と y の要素数は一致しなければなりません。</entry>
+  </message>
+</rsccat>

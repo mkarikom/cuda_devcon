@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FirstArg">첫 번째 인수는 숫자형, 논리형 또는 문자형 배열이어야 합니다.</entry>
+    <entry key="SecondArg">두 번째 입력값은 실수형 정수 스칼라여야 합니다.</entry>
+    <entry key="SecondArgWithSignificant">플래그 'significant'를 사용하는 경우 두 번째 입력값은 양수여야 합니다.</entry>
+    <entry key="ThirdArg">세 번째 입력값은 'decimals' 또는 'significant'여야 합니다.</entry>
+    <entry key="NonfloatMultipleArgs">X는 둘 이상의 입력값을 갖는 single형이거나 double형이어야 합니다.</entry>
+    <entry key="complexIntegers">ROUND는 복소수형 정수를 지원하지 않습니다. </entry>
+  </message>
+</rsccat>

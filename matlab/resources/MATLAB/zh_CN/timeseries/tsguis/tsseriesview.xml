@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Abort">中止</entry>
+    <entry key="AttemptToAddAnAbsoluteTimeVector">您正试图将具有绝对时间向量的时序添加到使用相对时间向量的视图中，因此绝对时间无法显示在该视图中。</entry>
+    <entry key="AttemptToAddARelativeTimeSeries">您正试图将具有相对时间向量的时序添加到显示绝对时间向量的视图中。继续操作将会删除绘图中的所有绝对时间引用。</entry>
+    <entry key="CreatingPlotPreview">创建绘图预览</entry>
+    <entry key="Continue">继续</entry>
+    <entry key="ConvertViewToRelativeTime">将视图转换为相对时间</entry>
+    <entry key="DataSelection">数据选择...</entry>
+    <entry key="Detrend">去除趋势...</entry>
+    <entry key="Filter">筛选...</entry>
+    <entry key="Interpolate">插值...</entry>
+    <entry key="ProcessData">处理数据</entry>
+    <entry key="RemoveMissingData">删除缺少的数据...</entry>
+    <entry key="Resample">重采样...</entry>
+    <entry key="ResampleData">重采样数据...</entry>
+    <entry key="SelectData">选择数据...</entry>
+    <entry key="SynchronizeData">同步数据...</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="TimeVectorReferenceMismatch">时间向量引用不匹配</entry>
+    <entry key="YouCannotCombineRelativeAndAbsoluteTimeSeries">您无法将相对时序和绝对时序组合在同一时间图中。</entry>
+  </message>
+</rsccat>

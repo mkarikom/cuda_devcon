@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="JoinInvalidInput">第一个参数必须为时间表，第二个参数必须为时间表或表。</entry>
+    <entry key="InnerOuterJoinInvalidInput">无法内联或外联时间表和表。两个参数都必须为时间表。</entry>
+    <entry key="InvalidTimeKeys">指定的键无效。时间表只能通过其行时间进行联接。您可以通过 'Keys' 参数或 'LeftKeys' 和 'RightKeys' (如果两个时间表的行时间具有不同的名称)来指定行时间的名称。要通过其他键变量进行联接，请先从时间表转换为表。</entry>
+    <entry key="InvalidVariableKeys">要联接时间表和表，键变量不能为时间表中的时间向量。</entry>
+    <entry key="MergeKeysMustBeTrue">要外联两个时间表，必须将 ''MergeKeys'' 设置为 true。</entry>
+    <entry key="RowLabelsCannotBeDataVar">''LeftVariables'' 或 ''RightVariables'' 不支持行时间。</entry>
+    <entry key="RowLabelsCannotBeDataVarNondefaultName">变量名称 ''{0}'' 无法识别。您可能想访问该时间表中名称为 ''{1}'' 的行时间。但是，''LeftVariables'' 或 ''RightVariables'' 不支持行时间。</entry>
+  </message>
+</rsccat>

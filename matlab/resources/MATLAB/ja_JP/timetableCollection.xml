@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoPlotMethod">プロット関数は timetable コレクションでは機能しません。timetable コレクション内のデータをプロットするには...\n * 関数 stackedplot を使用するか、\n * コレクション内の timetable を同期させ、同期した timetable からのデータをプロットします。</entry>
+    <entry key="TablesNotSupported">table は、timetable コレクションのメンバーとしてはサポートされません。</entry>
+    <entry key="ShapeParamNotValid">timetableCollection は MemberShape 入力をサポートしません。</entry>
+    <entry key="TypeParamNotValid">timetableCollection は MemberType 入力をサポートしません。</entry>
+    <entry key="MustBeTimetables">すべてのデータ入力は timetable でなければなりません。</entry>
+    <entry key="StackedplotMode">2 番目の入力は ''byvariable'' または ''bytimetable'' でなければなりません。</entry>
+    <entry key="SelectDataError">timetable コレクションのメンバー {0,number,integer} からのデータ選択にエラーがありました:</entry>
+    <entry key="AssignDataError">timetable コレクションのメンバー {0,number,integer} へのデータ代入にエラーがありました:</entry>
+    <entry key="ConditionFunError">timetable コレクションのメンバー {0,number,integer} での行選択にエラーがありました:</entry>
+    <entry key="NoCondition">''Variables''、''RowTimeRange''、''IntersectedRowTimes''、''Condition'' のいずれかを指定してください。</entry>
+    <entry key="InvalidConditionFun">条件は、timetable を受け入れ logical スカラーを返す関数への関数ハンドルでなければなりません。</entry>
+    <entry key="InvalidVariablesCondition">変数は、1 つ以上の変数名、1 つの vartype、または 1 つの関数ハンドルでなければなりません。</entry>
+    <entry key="InvalidRowTimeRangeCondition">RowTimeRange は timerange サブスクリプターでなければなりません。</entry>
+    <entry key="InvalidIntersectedRowTimesCondition">IntersectedRowTimes はスカラーの datetime または duration、あるいは timerange サブスクリプターでなければなりません。</entry>
+  </message>
+</rsccat>

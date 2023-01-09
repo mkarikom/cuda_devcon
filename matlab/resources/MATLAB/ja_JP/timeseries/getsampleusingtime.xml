@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">getsampleusingtime メソッドは、単一の timeseries オブジェクトに対してのみ使用できます</entry>
+    <entry key="invalidpv">プロパティと値のペアが無効です。</entry>
+    <entry key="invalidrelativetime">開始時間と終了時間は、数値でなければなりません。</entry>
+    <entry key="invalidabsolutetime">無効な開始時間形式</entry>
+    <entry key="invalidduptimes">指定した時間値が timeseries で重複していますが、AllowDuplicateTimes フラグは false に設定されています。GETSAMPLEUSINGTIME を呼び出すときに AllowDuplicateTimes フラグを true に設定して、重複した時間でサンプルを取得します</entry>
+    <entry key="castduptimeflag">ALLOWDUPLICATETIMES フラグに logical 型がありません。logical にキャストしています</entry>
+  </message>
+</rsccat>

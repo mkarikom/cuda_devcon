@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNameValueMismatch">尾部输入参数必须以名称-值对组的形式出现。</entry>
+    <entry key="ArrowSizeDigraphOnly">不支持更改无向图的 ''ArrowSize'' 值。</entry>
+    <entry key="ArrowPositionDigraphOnly">不支持更改无向图的 ''ArrowPosition'' 值。</entry>
+    <entry key="EdgeLabelsInvalidSize">标签必须是标量或长度等于指定边数的向量。</entry>
+    <entry key="NoNodeNames">图形未包含节点名称。</entry>
+    <entry key="HighlightEdgeColor">''EdgeColor'' 值必须为 RGB 数值或颜色名称。</entry>
+    <entry key="HighlightEdgeLabelColor">''EdgeLabelColor'' 值必须为 RGB 数值或颜色名称。</entry>
+    <entry key="HighlightEdgeColorDisabledFlat">无法设置边颜色，因为先前已指定 EdgeCData 属性。请将 GraphPlot 对象的 EdgeColor 属性设置为一种颜色以停止使用 EdgeCData，然后重新执行产生该错误的命令。</entry>
+    <entry key="HighlightEdgeColorDisabledNone">无法突出显示各边，因为 GraphPlot 对象的 EdgeColor 属性为 ''none''。要仅使 GraphPlot 对象中突出显示的边可见，请将 EdgeColor 属性设置为除 ''none'' 以外的值，将 LineStyle 属性设置为 ''none''，然后在调用中指定 LineStyle 以进行突出显示。</entry>
+    <entry key="HighlightInvalidSubgraph">G 必须具有相同的节点和绘图边子集。</entry>
+    <entry key="HighlightNodeColor">''NodeColor'' 值必须为 RGB 数值或颜色名称。</entry>
+    <entry key="HighlightNodeLabelColor">''NodeLabelColor'' 值必须为 RGB 数值或颜色名称。</entry>
+    <entry key="HighlightNodeColorDisabledFlat">无法设置节点颜色，因为先前已指定 NodeCData 属性。请将 GraphPlot 对象的 NodeColor 属性设置为一种颜色以停止使用 NodeCData，然后重新执行产生该错误的命令。</entry>
+    <entry key="HighlightNodeColorDisabledNone">无法突出显示各节点，因为 GraphPlot 对象的 NodeColor 属性为 ''none''。要仅使 GraphPlot 对象中突出显示的节点可见，请将 NodeColor 属性设置为除 ''none'' 以外的值，将 Marker 属性设置为 ''none''，然后在调用中指定 Marker 以进行突出显示。</entry>
+    <entry key="HighlightNoneEdgeColor">不能将 ''EdgeColor" 值设置为 "none''。要使突出显示的边不可见，请将 ''LineStyle" 值指定为 "none''。</entry>
+    <entry key="HighlightNoneNodeColor">不能将 "NodeColor" 值设置为 "none"。要使突出显示的节点不可见，请将 "Marker" 值指定为 "none''。</entry>
+    <entry key="HighlightNonCharLineStyle">使用突出显示时，请指定单一 ''LineStyle'' 值为 ''-''、''--''、'':''、''-.'' 或 ''none''。</entry>
+    <entry key="HighlightNonCharMarker">使用突出显示时，指定单一 ''Marker'' 值为 ''+''、''o''、''*''、''.''、''x''、''square''、''diamond''、''v''、''^''、''&gt;''、''&lt;''、''pentagram''、''hexagram'' 或 ''none''。</entry>
+    <entry key="HighlightScalarNumber">"{0}" 必须为数值标量。</entry>
+    <entry key="HighlightUndirectedSubgraph">如果绘制的图是有向的，则要突出显示的图也必须有向。</entry>
+    <entry key="HighlightNoSelection">指定要突出显示的节点或边。</entry>
+    <entry key="HighlightInvalidEdgeIndices">''Edges'' 值必须为标量边索引、边索引向量或长度等于边数的逻辑向量。</entry>
+    <entry key="LabeledgeInvalidEdgeIndices">边索引必须为标量边索引、边索引向量或长度等于边数的逻辑向量。</entry>
+    <entry key="DuplicateEdgeArgs">指定要突出显示的节点对组或边，但不能同时指定这两者。</entry>
+    <entry key="InvalidBasicGraph">BasicGraph 输入的类型必须为 matlab.internal.graph.MLGraph 或 matlab.internal.graph.MLDigraph。</entry>
+    <entry key="InvalidEdgeColor">EdgeColor 必须为颜色名称、RGB 三元组，或者为每一行是一个指定一条边颜色的 RGB 三元组的 {0}×3 矩阵。</entry>
+    <entry key="InvalidEdgeLabelColor">''EdgeLabelColor'' 值必须为颜色名称、RGB 三元组，或者由 RGB 三元组组成的 {0}×3 矩阵，其中每行指定一条边的颜色。</entry>
+    <entry key="InvalidNodeLabelColor">''NodeLabelColor'' 值必须为颜色名称、RGB 三元组，或者由 RGB 三元组组成的 {0}×3 矩阵，其中每行指定一条边的颜色。</entry>
+    <entry key="InvalidEdgeLabel">EdgeLabel 值必须为数值、字符向量元胞数组或字符串向量。</entry>
+    <entry key="InvalidEdges">s 和 t 必须指定图形中的边缘。</entry>
+    <entry key="InvalidLabels">Labels 必须是由字符向量组成的元胞向量或字符串向量。</entry>
+    <entry key="InvalidNodeColor">NodeColor 必须为颜色名称、RGB 三元组，或者为每一行是一个指定一个节点颜色的 RGB 三元组的 {0}×3 矩阵。</entry>
+    <entry key="InvalidNodeLabel">NodeLabel 必须为数值、字符向量元胞数组或字符串向量。</entry>
+    <entry key="InvalidNodeNames">输入节点名称与图形中的节点名称不匹配。</entry>
+    <entry key="InvalidParent">父级必须为标量图形句柄。</entry>
+    <entry key="InvalidSinks">汇聚节点必须为一组非空的唯一节点。</entry>
+    <entry key="InvalidSources">源节点必须为一组非空的唯一节点。</entry>
+    <entry key="InvalidSourcesSinks">源节点和汇聚节点必须为不相交的节点集。</entry>
+    <entry key="InvalidST">节点 ID 必须均为数值索引或均为节点名称。</entry>
+    <entry key="InvalidSTSize">s 和 t 必须均为相同长度的标量或向量。</entry>
+    <entry key="LayoutOptsWithoutLayout">{0} 不支持使用 'auto' 布局。</entry>
+    <entry key="LayoutWithXDataAndYData">Layout 不能与 XData、YData 或 ZData 同时指定。</entry>
+    <entry key="ScalarOrVectorOfLength">''{0}'' 值必须为标量或长度为 {1,number,integer} 的向量。</entry>
+    <entry key="InvalidEdgeFontWeight">''EdgeFontWeight" 值必须为 "normal''、''bold''，或者为由 "normal" 和 "bold'' 组成的元胞数组或字符串向量，其中的每个元素与每条边对应。</entry>
+    <entry key="InvalidEdgeFontAngle">''EdgeFontAngle'' 值必须为 "normal''、''italic''，或者为由 "normal'' 和 ''italic'' 组成的元胞数组或字符串向量，其中的每个元素与每条边对应。</entry>
+    <entry key="InvalidNodeFontWeight">''NodeFontWeight'' 值必须为 "normal''、'bold''，或者为由 "normal" 和 "bold'' 组成的元胞数组或字符串向量，其中的每个元素与每个节点对应。</entry>
+    <entry key="InvalidNodeFontAngle">''NodeFontAngle'' 值必须为 "normal''、''italic''，或者为由 "normal'' 和 ''italic'' 组成的元胞数组或字符串向量，其中的每个元素与每个节点对应。</entry>
+    <entry key="MissingXDataOrYData">XData 和 YData 输入必须同时指定。</entry>
+    <entry key="MissingXStartOrYStart">XStart 和 YStart 输入必须同时指定。</entry>
+    <entry key="MissingXStartYStartOrZStart">XStart、YStart 和 ZStart 输入必须同时指定。</entry>
+    <entry key="NodeLabelsInvalidSize">标签必须是标量或长度等于指定节点数的向量。</entry>
+    <entry key="NodesInvalidSize">节点必须为数值向量、节点名称向量，或者为长度等于节点数的逻辑向量。</entry>
+    <entry key="NoOptionalInput">''{0}'' 布局方法不支持可选的输入参数。</entry>
+    <entry key="ShowArrowsDigraphOnly">不支持更改无向图的 ''ShowArrows'' 值。</entry>
+    <entry key="UninitializedEdgeCData">在将 EdgeColor 设置为 ''flat'' 时，EdgeCData 应为非空。</entry>
+    <entry key="UninitializedNodeCData">在将 NodeColor 设置为 ''flat'' 时，NodeCData 应为非空。</entry>
+    <entry key="UnknownNodeName">图形未包含名为 ''{0}'' 的节点。</entry>
+    <entry key="ZDataWithoutXDataAndYData">ZData 输入必须与 XData 和 YData 同时指定。</entry>
+    <entry key="IncompatibleVersion">无法加载 GraphPlot，因为它与此版本的 MATLAB 不兼容。</entry>
+    <entry key="Node">节点</entry>
+    <entry key="Degree">度</entry>
+    <entry key="InDegree">入度</entry>
+    <entry key="OutDegree">出度</entry>
+  </message>
+</rsccat>

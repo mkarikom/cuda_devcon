@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputSizeMismatch">B は A と同じ行数でなければなりません。</entry>
+    <entry key="CantReturnCov">B が複数の右辺を含む場合、S を返しません。</entry>
+    <entry key="NoSparseOrthAlg">入力は、''orth'' アルゴリズムに対してスパースにはできません。</entry>
+    <entry key="RankDefSparseCovMat">V は、スパースの場合、正定値でなければなりません。</entry>
+    <entry key="RankDefCovMat">V は、マシンの精度内でランクが欠落しています - 直交分解のアルゴリズムに切り替えます。</entry>
+    <entry key="InvalidCovMatPosV">V は、正定値または半正定値でなければなりません。</entry>
+    <entry key="InvalidCovMat">V は {0, number, integer} 行 {1, number, integer} 列の共分散行列、または {2, number, integer} 行 1 列の重みベクトルでなければなりません。</entry>
+    <entry key="RankDefDesignMat">A は、マシンの精度内でランクが欠落しています。</entry>
+    <entry key="TOrthogToNullSpace">T は、A のヌル空間と直交します。</entry>
+    <entry key="InfeasibleRHS">B は、A および V と一致しません。</entry>
+    <entry key="InfeasibleRHScol">B の 1 つ、または複数の列は、A および V と一致しません。</entry>
+    <entry key="InvalidAlgArg">ALG は、''chol'' または ''orth'' でなければなりません。</entry>
+    <entry key="InvalidCovMatSymV">V は対称でなければなりません。</entry>
+    <entry key="NullSpaceNotSpanned">T のいくつかの列は、A のヌル空間と直交します。</entry>
+  </message>
+</rsccat>

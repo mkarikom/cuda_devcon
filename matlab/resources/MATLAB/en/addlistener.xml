@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidNonJavaObject">First input must be a java object</entry>
+    <entry key="InvalidNumberOfInputArguments">Outputs not supported with only one input arg</entry>
+  </message>
+</rsccat>

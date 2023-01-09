@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FeatureIsNotCurrentlyAvailable">{0} 当前不可用。</entry>
+    <entry key="DesktopIsNotCurrentlyAvailable">桌面当前不可用。</entry>
+    <entry key="thisFeatureNotAvailable">不支持此功能，因为:\n{0}</entry>
+    <entry key="featureNotAvailable">不支持 {0}，因为:\n{1}</entry>
+    <entry key="NoDisplayIsAvailable">无显示可用。</entry>
+  </message>
+</rsccat>

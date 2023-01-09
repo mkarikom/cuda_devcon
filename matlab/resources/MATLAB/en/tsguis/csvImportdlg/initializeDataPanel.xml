@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="WhatsThis">What''s This</entry>
+      <entry key="FirstTimeValuesAreInvalid">The first {0,number,integer} time values are invalid.  Auto-selection starts from row {1,number,integer}.</entry>
+      <entry key="SpecifyData">Specify data</entry>
+      <entry key="CurrentVariableDataOrganizedByRowColumn">If data in the current variable is organized by column, select ''columns'', otherwise select ''rows''.</entry>
+      <entry key="DataBlockDefinedBy">Data block is defined by : </entry>
+      <entry key="TopleftCell">Top-left cell</entry>
+      <entry key="KeyInTopleftCornerOfDesiredBlock">Key in the top-left corner of the desired block, using MS Excel A1 reference style (e.g. A12).</entry>
+      <entry key="BottomrightCell">Bottom-right cell</entry>
+      <entry key="KeyInBottomrightCornerOfDesiredBlock">Key in the bottom-right corner of the desired block, using MS Excel A1 reference style (e.g. B34).</entry>
+      <entry key="UseStandardExcelCellIndexingFormat">Use standard Excel cell indexing format, e.g. A12</entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+      <entry key="SpecifyRow">Specify row : </entry>
+      <entry key="SpecifyColumn">Specify column : </entry>
+      <entry key="xlate_DataIsArrangedBy">Data is arranged by : </entry>
+      <entry key="xlate_Columns">columns</entry>
+      <entry key="xlate_Rows">rows</entry>
+   </message>
+</rsccat>

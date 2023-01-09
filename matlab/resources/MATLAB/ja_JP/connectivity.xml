@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ObjectAlreadyParented">既に親であるオブジェクトはツリーに挿入できません。</entry>
+    <entry key="NoCyclicTrees">循環ツリーの作成は禁じられています。</entry>
+    <entry key="InvalidHeterogeneousTree">無効な異種混合ツリーを作成しようとしています。異種混合ツリー内のすべてのオブジェクトは、matlab.mixin.Heterogeneous の直接のサブクラスである共通のスーパークラスを共有しなければなりません。</entry>
+    <entry key="InvalidThirdArgument">3 番目の引数は ''first'' または ''last'' でなければなりません。</entry>
+    <entry key="RequireParentedObject">入力引数 h は親をもつオブジェクトでなければなりません。</entry>
+    <entry key="DuplicateObjectsAddChildren">CHILDREN に重複するハンドルを含めることはできません。</entry>
+    <entry key="DuplicateObjectsInsert">SIBLINGS に重複するハンドルを含めることはできません。</entry>
+  </message>
+</rsccat>

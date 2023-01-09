@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="IncorrectCall">使用 a=material 或 a=material(matname) 进行调用</entry>
+    <entry key="TooFewInputs">输入参数的数目不足</entry>
+    <entry key="TooManyInputs">输入参数太多</entry>
+    <entry key="TooManyOutputs">输出参数太多</entry>
+    <entry key="InvalidVectorSize">材料向量的大小必须为 1x3、1x4 或 1x5</entry>
+    <entry key="InvalidMaterialsName">材料必须为字符向量名称或向量</entry>
+    <entry key="FileNotFound">未找到材料名称</entry>
+  </message>
+</rsccat>

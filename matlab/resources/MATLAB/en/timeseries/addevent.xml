@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="noarray">The addevent method can only be used for a single timeseries object</entry>
+    <entry key="badtype">The second argument of addevent must be an tsdata.event object.</entry>
+    <entry key="cellarrayname" note="stringDatatypeUpdate">When adding event(s) by name, the names must be specified by using a cell array of character vectors or a string array.</entry>
+    <entry key="times" note="stringDatatypeUpdate">When adding event(s) by name, time values must be specified by using a cell array of date character vectors, an array of strings, or an array of numeric times.</entry>
+    <entry key="size">When adding event(s) by name, the name and time cell arrays must have the same size.</entry>
+    <entry key="name" note="stringDatatypeUpdate">When adding event(s) by name, the names must be specified as a character vector/string or a cell array of character vectors/strings.</entry>
+  </message>
+</rsccat>

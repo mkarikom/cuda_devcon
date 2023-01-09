@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManyTSInputs">请基于 'SampleTime' 或 'TimeVector' 中的一个从数据集中选择时序对象。</entry>
+    <entry key="TooManyTTInputs">请基于 'SampleRate'、'TimeStep' 或 'RowTimes' 中的一个从数据集中选择时间表。</entry>
+    <entry key="InvalidArray">This method is only valid for scalar Dataset or Signal objects.</entry>
+    <entry key="InvalidOutputFormat">输出格式必须为下列格式之一: 'timetable'、'cell-by-signal'、'cell-by-sampletime'、'cell-by-timestep'。</entry>
+    <entry key="InvalidSampleTime">采样时间必须指定为包含正数值的标量或向量。</entry>
+    <entry key="InvalidSampleRate">采样率必须为包含数值的标量或向量，以 Hz 为单位指定。</entry>
+    <entry key="InvalidTimeStep">时间步必须为包含持续时间值的标量或向量。</entry>
+    <entry key="TemplateAndOtherFilter">不支持将模板与用于选择要提取的数据的其他设定结合使用。</entry>
+    <entry key="SynchronizeDataError">无法同步指定的数据。要将数据作为元胞数组输出，请将 'OutputFormat' 设置为 'cell-by-signal'。</entry>
+    <entry key="InvalidTemplate">模板必须为时序对象、时间表、Simulink.SimulationData.Signal 或指定数据集元素名称的字符向量或字符串标量。</entry>
+    <entry key="InvalidTimeVector">时间向量必须指定为双精度向量。</entry>
+    <entry key="UnrecognizedTemplateName">无法识别的数据集元素名称 {0}。</entry>
+    <entry key="MultipleTemplatesFound">多个数据集元素具有提供的名称。请提供一个时序对象、时间表或 Simulink.SimulationData.Signal 作为模板输入，以指定要改用哪个信号。</entry>
+    <entry key="AmbiguousTSUnits">从输入中提取的所有时序对象必须具有相同的 TimeInfo Units，除非 'OutputFormat' 设置为 'cell-by-signal'。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidConcatenation">All inputs must be duration, double, or text arrays convertible to duration.</entry>
+    <entry key="NonNumericDim">Dimension argument must be numeric.</entry>
+  </message>
+</rsccat>

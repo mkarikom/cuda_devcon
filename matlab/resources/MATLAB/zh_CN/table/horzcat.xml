@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">所有输入参数都必须为表。</entry>
+    <entry key="SizeMismatch">所有水平串联的表必须具有相同的行数。</entry>
+    <entry key="SizeMismatchWithCell">所有水平串联的表必须具有相同的行数。当串联元胞数组和表时，元胞数组与表必须具有相同的行数。</entry>
+    <entry key="UnequalRowNames">所有水平串联的表必须具有相同的行名称。</entry>
+    <entry key="UnequalRowTimes">所有水平串联的表必须具有相同的行时间。</entry>
+    <entry key="Timetable0x0AndTable">0×0 时间表不能与非 0×N 表串联。请将所有输入都转换为相同的数据类型、更改其顺序或使用 JOIN。</entry>
+    <entry key="TableAndTimetable">仅当时间表优先时，才能串联时间表和表。请将所有输入都转换为相同的数据类型、更改其顺序或使用 JOIN。</entry>
+    <entry key="CellArrayAndTimetable">仅当时间表在前面时，才能串联时间表和元胞数组。请将所有输入都转换为相同的数据类型、更改其顺序或使用 JOIN。</entry>
+    <entry key="CustomPropsClash">在串联表时，如果同名自定义属性在一个表中用作基于表的属性，而在另一个表中用作基于变量的属性，则不支持此种串联。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelSolutionNumber">解の番号</entry>
+    <entry key="LabelRotateRight">右に回転</entry>
+    <entry key="LabelRotateDown">下に回転</entry>
+    <entry key="LabelSolutionInThreeLayers">3 つの層の解</entry>
+    <entry key="LabelSomaCube">ソーマ キューブ:</entry>
+    <entry key="LabelLongDescription">7 つのピースに適合するための空間充填型の\nパズルが完全なキューブに示されます。</entry>
+    <entry key="LabelNOf240">{0}/240</entry>
+    <entry key="TitleSomaCubeSolutions">ソーマ キューブの解</entry>
+    <entry key="TitleSolutionsForTheSomaCubePuzzleOfPietHein">Piet Hein のソーマ キューブ パズルの解法</entry>
+    <entry key="LabelBottom">下</entry>
+    <entry key="LabelMiddle">中</entry>
+    <entry key="LabelTop">上</entry>
+    <entry key="LabelSomaCubePieces">ソーマ キューブ ピース</entry>
+    <entry key="NoInputs">SOMA は入力引数を受け入れません</entry>
+  </message>
+</rsccat>

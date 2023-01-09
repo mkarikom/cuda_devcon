@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="funNotVectorized">被积函数必须返回长度与输入向量的长度相同的输出向量。</entry>
+    <entry key="MinStepSize">已达到最小步长；可能具有奇异性。</entry>
+    <entry key="MaxFcnCount">已超出最大函数计数；可能具有奇异性。</entry>
+    <entry key="ImproperFcnValue">遇到无穷或非数字函数值。</entry>
+  </message>
+</rsccat>

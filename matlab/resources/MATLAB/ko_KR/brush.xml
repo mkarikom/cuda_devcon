@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoBrushColorModeOut">브러싱 색을 설정하려 하거나 브러싱 모드 상태를 설정하려 할 때는출력값을 지정하지 마십시오.</entry>
+    <entry key="NoColorOut">브러싱 색을 설정하려 할 때는 츨력값을 지정하지 마십시오.</entry>
+    <entry key="InvalidFigure">알 수 없거나 유효하지 않은 Figure입니다.</entry>
+    <entry key="invColor">유효하지 않은 색 벡터임</entry>
+    <entry key="invColorStr">유효하지 않은 색 문자형 벡터임</entry>
+    <entry key="InvalidInputForOutArg">이러한 입력 인수와 함께 출력 인수를 지정하지 마십시오.</entry>
+  </message>
+</rsccat>

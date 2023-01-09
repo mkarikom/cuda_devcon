@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonDoubleInput">tsrchnmx 함수에는 double형 배열만 허용됩니다.</entry>
+    <entry key="InvalidDimensions">X와 XI의 차원은 동일해야 합니다.</entry>
+    <entry key="InvalidTessellation">삼각분할 TRI에는 X보다 하나 더 많은 차원이 있어야 합니다.</entry>
+    <entry key="InvalidInputArguments">점 삼각형 행렬은 희소 형식이어야 합니다.</entry>
+    <entry key="DidNotConverge">하나 이상의 점이 수렴하지 않았습니다.</entry>
+  </message>
+</rsccat>

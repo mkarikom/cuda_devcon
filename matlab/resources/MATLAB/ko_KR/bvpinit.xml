@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoSolInterval">BVPINIT(SOL,[ANEW BNEW])에서 [ANEW BNEW]를 지정하지 않았습니다.</entry>
+    <entry key="XSameEndPts">x의 요소는 a = x(1) ~= x(end) = b를 충족해야 합니다.</entry>
+    <entry key="IncreasingXNotMonotonic">x의 요소는 a = x(1) &lt; x(2) &lt; ... &lt; x(end) = b를 충족해야 합니다.</entry>
+    <entry key="DecreasingXNotMonotonic">x의 요소는 a = x(1) &gt; x(2) &gt; ... &gt; x(end) = b를 충족해야 합니다.</entry>
+    <entry key="SolGuessNotVector">솔루션을 위해 추측값은 벡터를 반환해야 합니다.</entry>
+  </message>
+</rsccat>

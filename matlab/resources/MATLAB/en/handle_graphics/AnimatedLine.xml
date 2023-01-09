@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="MaxNumPointsRange">MaximumNumPoints must be greater than 0.</entry>
+    <entry key="MaxNumPointsRound">MaximumNumPoints cannot have a fractional value. The value has been rounded up to {0, number, integer}. </entry>
+    <entry key="MaxNumPointsNaN">MaximumNumPoints cannot be NaN.</entry>
+    <entry key="AddPointsInvalidSizeXY">Length of argument X ({0,number,integer}) must be equal to length of argument Y ({1,number,integer}).</entry>
+    <entry key="AddPointsInvalidSizeXYZ">Length of argument X ({0,number,integer}) must be equal to length of argument Y ({1,number,integer}) and  must be equal to length of argument Z ({2,number,integer}).</entry>
+    <entry key="AddPointsInvalidType">Invalid type for argument {0}. Type must be double.</entry>
+    <entry key="AddPointsNoSparse">Argument {0} cannot be sparse.</entry>
+    <entry key="AddPointsNoComplex">Argument {0} cannot be complex.</entry>
+    <entry key="AddPointsInvalidShape">Argument {0} must be a vector.</entry>
+    <entry key="AddPointsOverflow">Number of points exceeds the default maximum number of points of {0,number,integer}.  To control the number of points in the animated line, set the MaximumNumPoints property of the AnimatedLine object to the desired value.</entry>
+    <entry key="IncorrectNumInputArgs">Invalid number of convenience arguments : {0, number, integer}. Valid inputs are animatedline(X,Y,...) or animatedline(X,Y,Z,...). </entry>
+	<entry key="GetPointsIncorrectNumberOfOutputArgs">Specify either two or three output arguments.</entry>
+  </message>
+</rsccat>

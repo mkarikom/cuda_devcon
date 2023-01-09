@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="XNotVector">第一个输入必须为向量。</entry>
+    <entry key="XComplex">第一个输入必须为实数。</entry>
+    <entry key="XYType">第一个和第二个输入必须为双精度类型或单精度类型。</entry>
+    <entry key="XQType">插值点必须为双精度或单精度类型。</entry>
+    <entry key="XQComplex">插值点必须为实数。</entry>
+    <entry key="NotEnoughPts">前两个输入必须至少有两个元素。</entry>
+    <entry key="RepeatedSites">第一个输入必须包含唯一的值。</entry>
+    <entry key="EndslopeNaN">endslopes 不能为 NaN。</entry>
+    <entry key="EndslopeInf">endslopes 不能为 Inf。</entry>
+    <entry key="NumSitesMismatchValues">样本点 X 的数目 {0,number,integer} 与值 Y 的数目 {1,number,integer} 不相符。</entry>
+    <entry key="IgnoreNaN">第一个和第二个输入中的所有 NaN 条目都被忽略。</entry>
+  </message>
+</rsccat>

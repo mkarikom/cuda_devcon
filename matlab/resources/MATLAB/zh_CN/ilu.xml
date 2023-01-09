@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ZeroPivot">存在等于零的主元。请考虑减小调降容差或考虑使用 \''udiag\'' 选项。</entry>
+    <entry key="FirstArgNotSparse">第一个参数必须为稀疏值。</entry>
+    <entry key="FirstArgNotDouble">第一个参数必须为双精度值。</entry>
+    <entry key="SecondArgNotStruct">第二个参数必须为设置结构体。</entry>
+    <entry key="StructTooManyFields">设置结构体中的字段太多。</entry>
+    <entry key="StructTypeNotString">设置结构体的类型字段必须为 ''nofill''、''crout'' 或 ''ilutp''。</entry>
+    <entry key="pivotThreshOutOfRange">设置结构体的 thresh 字段必须介于 0 和 1 之间。</entry>
+    <entry key="nonNumericUDIAG">设置结构体的 udiag 字段必须为数值。</entry>
+    <entry key="UDIAGOptionOutOfRange">设置结构体的 udiag 字段必须为 0 或 1。</entry>
+    <entry key="StructMiluInvalidOption">设置结构体的 milu 字段必须为 ''row''、''col'' 或 ''off''。</entry>
+    <entry key="nonNumericDropTol">设置结构体的 droptol 字段必须为数值。</entry>
+    <entry key="NegDropTol">设置结构体的 droptol 字段必须为非负数。</entry>
+    <entry key="nonNumericThresh">设置结构体的 thresh 字段必须为数值。</entry>
+    <entry key="nonScalarPivotThresh">设置结构体的 thresh 字段必须为标量。</entry>
+    <entry key="nonScalarDropTol">设置结构体的 droptol 字段必须为标量。</entry>
+    <entry key="nonScalarUdiag">设置结构体的 udiag 字段必须为标量。</entry>
+    <entry key="InvalidField">不支持设置结构体字段 {0}。支持的字段包括 ''type''、''droptol''、''milu''、''udiag''、''thresh''。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInputs">間隔の入力数は配列の次元数と一致しなければなりません。</entry>
+    <entry key="InvalidGridSpacing">グリッド間隔の各引数は、スカラーか、対応する次元における入力のサイズと同数のエントリをもつベクトルでなければなりません。</entry>
+  </message>
+</rsccat>

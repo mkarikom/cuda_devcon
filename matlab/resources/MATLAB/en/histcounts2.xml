@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ArgNameValueMismatch">Trailing input arguments must occur in name-value pairs.</entry>
+    <entry key="EmptyOrScalarXBinEdges">XBinEdges must be a vector of length greater than or equal to 2.</entry>
+    <entry key="EmptyOrScalarYBinEdges">YBinEdges must be a vector of length greater than or equal to 2.</entry>
+    <entry key="InvalidMixedXBinInputs">''XBinEdges'' input cannot be followed by any of ''NumBins'',''BinWidth'', ''BinMethod'', or ''XBinLimits''.</entry>
+    <entry key="InvalidMixedYBinInputs">''YBinEdges'' input cannot be followed by any of ''NumBins'',''BinWidth'', ''BinMethod'', or ''YBinLimits''.</entry>
+    <entry key="InputOutOfIntRange">''integers'' BinMethod is only supported if the absolute value of each input element is less than or equal to FLINTMAX/2.</entry>
+  </message>
+</rsccat>

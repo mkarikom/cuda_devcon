@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="duplicateFeature">The feature ''{0}'' has already been registered.</entry>
+    <entry key="failedToAddFeature">Failed to add a feature: {0}.</entry>
+    <entry key="FeatureCallCount" note="stringDatatypeUpdate">Feature name must be a character vector</entry>
+    <entry key="unknownFeature">Feature {0} not found</entry>
+    <entry key="InterestDispatchInDrawnow">Invalid value for InterestDispatchInDrawnow. Valid values are [0,1].</entry>
+    <entry key="InstrumentDroppedMessages">Invalid value for InstrumentDroppedMessages. Valid values are [1,2].</entry>
+  <!--Resource entries for src/builtins-->
+    <entry key="featureTestError">Interrupts should be enabled - an earlier test drooled the utSetInterruptEnabled state to false</entry>
+    <entry key="wrongInput" note="stringDatatypeUpdate">Input should be either a character vector or a scalar double</entry>
+  <!--Resource entries for src/hg-->
+    <entry key="EnableJavaAsGObject">Invalid value for EnableJavaAsGObject. Valid values are [0:4].</entry>
+  </message>
+</rsccat>

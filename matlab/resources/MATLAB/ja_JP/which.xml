@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="notFound">''{0}'' が見つかりません。\n</entry>
+    <entry key="errorInTransparentWorkspace">Which を使用した、透過的なワークスペースでの変数の検索はサポートされていません。ファイルを検索するには、次の形式を使用してください: which('/someMATLABFile')</entry>
+  </message>
+</rsccat>

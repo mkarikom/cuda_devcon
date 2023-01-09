@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="firstArgMustBeVector">第一个输入参数必须为向量。</entry>
+    <entry key="secondArgMustBeCharArray">第二个输入参数必须为表示 MATLAB 数据类型（如 ''double''）的字符数组或字符串。</entry>
+    <entry key="unsupportedClass">不支持转换的数据类型。</entry>
+    <entry key="notEnoughInputElements">第一个输入项必须包含 {0,number,integer} 个元素的倍数，才能从 {1} ({2,number,integer} 位)转换为 {3} ({4,number,integer} 位)。</entry>
+    <entry key="firstArgMustBeFullNumArray">第一个输入参数必须为非复数值满数组。</entry>
+  </message>
+</rsccat>

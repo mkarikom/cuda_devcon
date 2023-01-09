@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputNotSupported">由不带 Desktop 的 Engine 启动的 MATLAB 不支持 'input' 命令。</entry>
+    <entry key="ProcessSessionNotInitialized">无法初始化 MATLAB 进程会话。</entry>
+    <entry key="SharedMatlabNotFound">找不到 MATLAB 会话 ''{0}''。</entry>
+    <entry key="SharedMatlabNotConnected">无法连接到 MATLAB 会话 ''{0}''。</entry>
+    <entry key="MatlabProcessNotCreated">无法创建 MATLAB 进程。</entry>
+    <entry key="MatlabCommandNotEvaluated">MATLAB 命令无法求解。</entry>
+    <entry key="InterruptedException">已中断执行 MATLAB 命令。</entry>
+    <entry key="CancelledException">MATLAB 命令已取消。</entry>
+    <entry key="TimeoutException">执行 MATLAB 命令超时。</entry>
+    <entry key="ProcessSessionNotTerminated">无法终止 MATLAB 进程会话。</entry>
+    <entry key="MatlabProcessNotTerminated">无法终止 MATLAB 进程。</entry>
+    <entry key="MatlabProcessNotExist">MATLAB 进程不存在。</entry>
+    <entry key="FutureResultNotExist">未来的结果不存在。</entry>
+    <entry key="StringInput">MATLAB 会话的名称必须为有效的 MATLAB 变量名称。</entry>
+    <entry key="SharingFailed">未能共享当前 MATLAB 进程。</entry>
+    <entry key="SessionNameConflict">MATLAB 会话 ''{0}'' 已存在。当前的 MATLAB 会话现在已与默认名称 ''{1}'' 共享。</entry>
+    <entry key="SessionSharedAlready">已共享当前的 MATLAB 会话。要共享其他名称的会话，请启动新的 MATLAB 会话，然后在共享会话时指定名称。</entry>
+    <entry key="MatlabExecutionError">{0}</entry>
+    <entry key="MatlabSyntaxError">{0}</entry>
+  </message>
+</rsccat>

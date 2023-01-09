@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidClassName">유효하지 않은 클래스 이름입니다.</entry>
+    <entry key="inputMustBeString">입력값은 정수 클래스 이름을 포함하는 문자형 벡터여야 합니다.</entry>
+    <entry key="tooManyInputs">입력값이 너무 많습니다.</entry>
+  </message>
+</rsccat>

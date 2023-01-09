@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SelectADataInputSource">データ入力のソースを選択してください。</entry>
+    <entry key="SelectSource">ソースの選択</entry>
+    <entry key="TwentyThousand">20,000</entry>
+    <entry key="PreviewTooLargeToBeDisplayed">プレビューは、適切に表示するには大きすぎます。</entry>
+    <entry key="UnknownResultOfClassEncountered">クラス {0} の結果が不明です。</entry>
+    <entry key="PreviewTruncatedAtTwentyThousandCharacters">{0} 文字で打ち切られたプレビュー。</entry>
+    <entry key="ImportWizardCreatedVariables">インポート ウィザードは、現在のワークスペースに変数を作成しました。</entry>
+    <entry key="CannotImportFromEmptyFile">空の入力ファイルからはインポートできません</entry>
+    <entry key="UndocUsage">v1 機能はサポートされていません。これは将来のリリースで削除される予定です。</entry>
+    <entry key="ImportWizard">インポート ウィザード</entry>
+    <entry key="FileContainsUninterpretableData">ファイルに、解釈できないデータが含まれています。</entry>
+    <entry key="Blank">空白</entry>
+    <entry key="File">ファイル</entry>
+    <entry key="Clipboard">クリップボード</entry>
+    <entry key="Cancel">キャンセル</entry>
+    <entry key="TheImportWizardNotSupported">インポート ウィザードは表示が利用できないため、サポートされていません。</entry>
+    <entry key="alreadyOpenFile">インポート ウィザードが開いている間にファイルのインポート ウィザードを開くことはできません。</entry>
+    <entry key="alreadyOpenClipboard">インポート ウィザードが開いている間にクリップボードのインポート ウィザードを開くことはできません。</entry>
+    <entry key="incompatibleInstances">インポート ウィザードを開いている間に出力引数を付けた別のインポート ウィザードを開くことはできません。</entry>
+    <entry key="FileNotFound">ファイル ''{0}'' が見つかりません。</entry>
+    <entry key="RecognizedDataFilesStr">認識されたデータ ファイル</entry>
+    <entry key="AudioFormatStr">オーディオ</entry>
+    <entry key="CursorFormatStr">カーソル形式</entry>
+    <entry key="HDFFormatStr">HDF または HDF-EOS</entry>
+    <entry key="IconFormatStr">アイコン形式</entry>
+    <entry key="JPEGFormatStr">JPEG 準拠</entry>
+    <entry key="MATFileStr">MATLAB データ ファイル</entry>
+    <entry key="SpreadsheetFormatStr">スプレッドシート</entry>
+    <entry key="TIFFormatStr">Tagged Image File Format (TIFF)</entry>
+    <entry key="TextFormatStr">テキスト</entry>
+    <entry key="VideoFormatStr">ビデオ</entry>
+    <entry key="BitMapStr">Windows または OS/2 ビットマップ</entry>
+    <entry key="AllFilesStr">すべてのファイル</entry>
+    <entry key="MatlabOnlineSupport">UIIMPORT(''-pastespecial'') は {0} でサポートされていません</entry>
+    <entry key="FileChooserTitle">データのインポート</entry>
+    <entry key="ErrorTitle">インポート</entry>
+    <entry key="CGIFormatStr">CompuServe Graphics Interchange</entry>
+    <entry key="PNGFormatStr">Portable Network Graphics</entry>
+    <entry key="ZsoftPaintbrushStr">Zsoft Paintbrush</entry>
+  </message>
+</rsccat>

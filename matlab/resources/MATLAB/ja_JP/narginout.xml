@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadInput">引数は文字ベクトル、string スカラー、または関数ハンドルのいずれかでなければなりません。</entry>
+    <entry key="doesNotApplyTextAnswer">{0} では nargin/nargout の応答方法を知りません。</entry>
+    <entry key="doesNotApplyTextInformation">MATLAB には {0} の nargin/nargout 情報がありません</entry>
+    <entry key="functionDoesnotExist">関数 {0} が存在しません。</entry>
+    <entry key="invalidType">{0} は有効なタイプではありません。</entry>
+    <entry key="NoStack">nargin/nargout は MATLAB 関数内からのみ呼び出せます。</entry>
+    <entry key="notValidMfile">有効な MATLAB ファイルではありません。</entry>
+    <entry key="unknown">nargin/nargout は、呼び出し関数でも nargin/nargout が明示的に使用される場合のみ呼び出せます。</entry>
+    <entry key="unsupportedType">{0} はタイプ {1} をサポートしません。</entry>
+    <entry key="doesNotApply">{0}</entry>
+  </message>
+</rsccat>

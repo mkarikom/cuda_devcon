@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="inputType">输入必须为非负标量整数。</entry>
+    <entry key="inputNTooLarge">N 必须小于 2^53。</entry>
+    <entry key="inputKTooLarge">K 必须小于或等于 N。</entry>
+  </message>
+</rsccat>

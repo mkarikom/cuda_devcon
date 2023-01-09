@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2020-2021 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" string_type_for_hole="mixed" version="1.0">
+   <message>
+      <entry key="ClassConstructorNotFound">No constructor found for MATLAB class {0}.</entry>
+      <entry key="InvalidArrayType">The array was not recognized as a Scalar, Vector, or higher dimensional array.</entry>
+      <entry key="CannotDetermineReadType">{0} cannot be read. The input must be a list of valid package names, class names, or function names on the path.</entry>
+      <entry key="FileWriteError">Unable to write generated CPP code to the specified file: {0}.</entry>
+      <entry key="RegularMethodHasNoInputArgs">Method {0} has no input arguments. Non-Static MATLAB methods require at least one input argument.</entry>
+      <entry key="MethodNoInputArgMetaData">No meta-data found for the input arguments in method {0}. Verify the method has a valid arguments block.</entry>
+      <entry key="MethodVararginNotSupported">Variable number of input arguments in method {0} is not supported.</entry>
+      <entry key="MethodHasPartialMetaData">Arguments for method {0} have missing meta-data. Verify the method has a valid arguments block.</entry>
+      <entry key="MethodArgHasNoType">Input argument in position {0} of method "{1}" does not have a MATLAB type specified. Consider adding type validation data to the method definition.</entry>
+      <entry key="MethodArgHasNoSize">Input argument in position {0} of method "{1}" does not have a size/dimension specified. Consider adding size validation data to the method definition.</entry>
+      <entry key="FunctionNoInputArgMetaData">No meta-data found for the input arguments in function {0}. Verify the function has a valid arguments block.</entry>
+      <entry key="FunctionVararginNotSupported">Variable number of input arguments in function {0} is not supported.</entry>
+      <entry key="FunctionHasPartialMetaData">Arguments for function {0} have missing meta-data. Verify the function has a valid arguments block.</entry>
+      <entry key="FunctionArgHasNoType">Input argument in position {0} of function "{1}" does not have a MATLAB type specified. Consider adding type validation data to the function definition.</entry>
+      <entry key="FunctionArgHasNoSize">Input argument in position {0} of function "{1}" does not have a size/dimension specified. Consider adding size validation data to the function definition.</entry>
+      <entry key="InternalLogicError">The CPP Code Generator has encountered an internal logic error. Please report this error to MathWorks technical support.</entry>
+      <entry key="PropertyHasNoMetaData">No meta-data detected for property "{0}" in class "{1}". Verify the properties block for this class is valid.</entry>
+      <entry key="PropertyHasNoValidationData">No size or class meta-data detected for property "{0}" in class "{1}". Consider adding validation data to this property in its definition.</entry>
+      <entry key="PropertyHasNoSizeValidationData">No size meta-data detected for property "{0}" in class "{1}". Consider adding size validation data to this property in its definition.</entry>
+      <entry key="PropertyHasNoClassValidationData">No class/type meta-data detected for property "{0}" in class "{1}". Consider adding class/type validation data to this property in its definition.</entry>
+      <entry key="ArgumentHasInvalidDimensions">Argument in "{0}" has invalid dimensions. Verify the arguments block for "{0}" is valid.</entry>
+      <entry key="EnumsNotSupported">Enums are not supported for conversion.</entry>
+      <entry key="GeneratorHasUnresolvedClassDependencies">Detected unresolved class dependencies. Generate or provide the following classes, or generated code may not build: {0}</entry>
+      <entry key="ClassCouldNotFindFriend">Class {0} needs to access protected members of {1} in the CPP generation, but class {1} could not be found. Generate or provide, class {1}, or generated code may not build.</entry>
+      <entry key="MethodNameConflictWithPropertyAccessors">The following method(s) in MATLAB class {0} will not be generated: {1}. Method name conflicts with a property access method.</entry>
+      <entry key="ClassNameConflictWithPropertyAccessors">The following property access methods in class {0} will not be generated: {1}. The property access method name(s) conflict with the class name.</entry>
+      <entry key="NameConflictWithCPPKeyword">MATLAB token(s) will not be generated due to C++ keyword name conflict. Rename the following token(s) to prevent possible build or runtime errors in generated C++ code: {0}.</entry>
+      <entry key="MethodArgNameConflictWithCPPKeyword">To avoid C++ keyword conflicts, these MATLAB method argument name(s) will be modified in generated C++ code: {0}.</entry>
+      <entry key="FunctionArgNameConflictWithCPPKeyword">To avoid C++ keyword conflicts, these MATLAB function argument name(s) will be modified in generated C++ code: {0}.</entry>
+      <entry key="BuiltinMethodNotSupported">Built-in method {0} not supported.</entry>
+      <entry key="BuiltinFunctionNotSupported">Built-in function {0} not supported.</entry>
+      <entry key="NoInputList">At least one input list of Packages, Classes, or Functions must be provided in name-value pair format.</entry>
+      <entry key="InvalidListType">Input list is invalid type. The list must be a string array.</entry>
+      <entry key="InvalidInputPackageNames">Invalid input package names: {0}. Names must be valid packages on the MATLAB search path.</entry>
+      <entry key="InvalidInputClassNames">Invalid input class names: {0}. Names must be valid classes on the MATLAB search path.</entry>
+      <entry key="InvalidInputFunctionNames">Invalid input function names: {0}. Names must be valid functions on the MATLAB search path.</entry>
+      <entry key="MethodDefinitionNotFound">File containing method {0} definition not found.</entry>
+      <entry key="FunctionDefinitionNotFound">File containing function {0} definition not found.</entry>
+      <entry key="CannotGetNumArguments">Input arguments for {0} not determined. The function or method must be compatible with nargin.</entry> 
+   </message>
+</rsccat>

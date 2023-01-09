@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonVectorArgument">输入参数 D1 至 D{0,number,integer} 应为向量。</entry>
+    <entry key="ArgumentCountMismatch">输入向量参数的数目 {0,number,integer} 与输入矩阵的维数 {1,number,integer} 不匹配。</entry>
+    <entry key="VectorSumMismatch">D1 至 D{0,number,integer} 输入参数的总和必须为输入矩阵大小 [{1}] 的每个维度。</entry>
+  </message>
+</rsccat>

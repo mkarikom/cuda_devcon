@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonPairedArgs">字段和值输入参数必须成对出现。</entry>
+    <entry key="numberDimensionMismatch">输入 ''{0,number,integer}'' 的维数必须与输入 ''{1,number,integer}'' 的维数匹配或者为标量。</entry>
+    <entry key="arrayDimensionMismatch">输入 ''{0,number,integer}'' 的数组维度必须与输入 ''{1,number,integer}'' 的数组维度匹配或者为标量。</entry>
+  </message>
+</rsccat>

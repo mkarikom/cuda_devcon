@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LegacySeedNotAllowed">您不能使用种子重置旧有的随机数流。</entry>
+    <entry key="SeedNotAllowed">如果随机数流是使用大于 1 的 NumStreams 创建的，则您不能使用种子重置该随机数流。</entry>
+    <entry key="BadSeed">SEED 必须为小于 2^32 的非负整数值。</entry>
+  </message>
+</rsccat>

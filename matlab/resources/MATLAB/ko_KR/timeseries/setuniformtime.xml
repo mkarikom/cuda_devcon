@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">setuniformtime 메서드는 단일 timeseries 객체에 대해서만 사용할 수 있음</entry>
+    <entry key="invargs">setuniformtime에는 적어도 하나의 속성-값 쌍이 필요합니다.</entry>
+    <entry key="nonempty">setuniformtime에는 적어도 하나의 샘플을 포함한 timeseries가 필요합니다.</entry>
+    <entry key="pvsetNoValue">지정한 속성에 대응값이 없습니다.</entry>
+    <entry key="propnostr">속성은 문자형 벡터 또는 string형으로 지정해야 합니다.</entry>
+    <entry key="starttime">StartTime 속성은 숫자형 스칼라여야 합니다.</entry>
+    <entry key="endtime">EndTime 속성은 숫자형 스칼라여야 합니다.</entry>
+    <entry key="interval">Interval 속성은 숫자형 스칼라여야 합니다.</entry>
+    <entry key="pvsetInvalidUniformtime">유효하지 않은 등간격 시간 속성입니다.</entry>
+  </message>
+</rsccat>

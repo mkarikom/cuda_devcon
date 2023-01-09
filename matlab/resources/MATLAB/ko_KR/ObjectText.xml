@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnableToUpdateClass">새 정의에 오류가 있으므로 ''{0}'' 클래스를 업데이트할 수 없습니다.\n {1}</entry>
+    <entry key="DISPLAY_HETEROGENEOUS_LABEL">이종</entry>
+    <entry key="DISPLAY_DELETED_HANDLE_LABEL">삭제된 classname에 대한 핸들</entry>
+    <entry key="DISPLAY_DELETED_HANDLE_LABEL_NO_LINK">삭제된 {0}에 대한 핸들</entry>
+    <entry key="DISPLAY_DELETED_HANDLE_LABEL_WITH_LINK">&lt;a href="matlab: helpview ([docroot '/matlab/matlab_oop/matlab_oop.map'],'deleted_handle_objects')"&gt;삭제된&lt;/a&gt; {0}에 대한 핸들</entry>
+    <entry key="DISPLAY_DELETED_VALUE_LABEL">삭제된 {0}</entry>
+    <entry key="DISPLAY_ARRAY_WITH_NO_PROPS">{0} {1} 배열에 속성이 없습니다.</entry>
+    <entry key="DISPLAY_SCALAR_WITH_NO_PROPS">{0}에 속성이 없습니다.</entry>
+    <entry key="DISPLAY_HETARRAY_WITH_NO_PROPS">{0} {1} {2}({3}) 배열에 속성이 없습니다.</entry>
+    <entry key="DISPLAY_AND_DETAILS_ARRAY_WITH_PROPS">{0} {1} 배열 - 속성 있음:</entry>
+    <entry key="DISPLAY_AND_DETAILS_SCALAR_WITH_PROPS">{0} - 속성 있음:</entry>
+    <entry key="DISPLAY_AND_DETAILS_HETARRAY_WITH_PROPS">{0} {1} {2}({3}) 배열 - 속성 있음:</entry>
+    <entry key="DETAILS_HANDLE_ARRAY_WITH_PROPS">{0} {1} {2} 배열 - 속성 있음:</entry>
+    <entry key="DETAILS_HANDLE_ARRAY_WITH_NO_PROPS">{0} {1} {2} 배열에 표시 가능한 속성이 없습니다.</entry>
+    <entry key="DETAILS_ARRAY_WITH_NO_PROPS">{0} {1} 배열에 표시 가능한 속성이 없습니다.</entry>
+    <entry key="DETAILS_HANDLE_SCALAR_WITH_PROPS">{0} {1} - 속성 있음:</entry>
+    <entry key="DETAILS_HANDLE_SCALAR_WITH_NO_PROPS">{0} {1}에 표시 가능한 속성이 없습니다.</entry>
+    <entry key="DETAILS_SCALAR_WITH_NO_PROPS">{0}에 표시 가능한 속성이 없습니다.</entry>
+    <entry key="DETAILS_HETARRAY_HANDLE_WITH_PROPS">{0} {1} {2}({3}) {4} 배열 - 속성 있음:</entry>
+    <entry key="DETAILS_HETARRAY_HANDLE_WITH_NO_PROPS">{0} {1} {2}({3}) {4} 배열에 표시 가능한 속성이 없습니다.</entry>
+    <entry key="DETAILS_HETARRAY_WITH_NO_PROPS">{0} {1} {2}({3}) 배열에 표시 가능한 속성이 없습니다.</entry>
+    <entry key="DISPLAY_METHODS_TEXT">메서드</entry>
+    <entry key="DISPLAY_EVENTS_TEXT">이벤트</entry>
+    <entry key="DISPLAY_SUPERCLASSES_TEXT">슈퍼클래스</entry>
+    <entry key="EVENT_PACKAGE_DESCRIPTION">이벤트 처리에 사용되는 클래스를 포함하는 패키지</entry>
+    <entry key="META_PACKAGE_DESCRIPTION">메타 구성요소를 나타내는 데 사용되는 클래스를 포함하는 패키지</entry>
+    <entry key="DISPLAY_EMPTY_OBJECT">empty {0}</entry>
+    <entry key="DISPLAY_EMPTY_HANDLE_OBJECT">empty {0} {1}</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="LogicalScalar">The condition input argument must be convertible to a scalar logical.</entry>
+    <entry key="emptyMessageNotAllowed">The input argument after the condition may not be empty.</entry>
+    <entry key="failed">Assertion failed.</entry>
+  </message>
+</rsccat>

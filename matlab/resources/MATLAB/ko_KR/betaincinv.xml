@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PositiveZ">Z는 음이 아닌 실수여야 합니다.</entry>
+    <entry key="PositiveW">W는 음이 아닌 실수여야 합니다.</entry>
+    <entry key="YOutOfRange">Y는 구간 [0,1] 내에 있어야 합니다.</entry>
+    <entry key="inputType">입력값은 비희소(Full) 형식의 실수로, double형 또는 single형이어야 합니다.</entry>
+    <entry key="XZWsizeMismatch">입력값의 크기가 일치해야 합니다.</entry>
+    <entry key="InvalidTailArg">TAIL은 ''lower'' 또는 ''upper''여야 합니다.</entry>
+    <entry key="FailedToConverge">불완전 베타 역함수가 p = {0}, a = {1}, b = {2}, tail = {3}에 대해 수렴하지 않았습니다.  주의하여 결과를 사용하십시오.</entry>
+  </message>
+</rsccat>

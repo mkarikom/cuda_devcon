@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ShowUnspecified">次のように、再生するためのスライドショーを指定する必要があります:playshow intro</entry>
+    <entry key="unsupportedOption">2 番目の引数は、''axes''、''smalltext''、''largetext''、''echo'' のいずれかでなければなりません。</entry>
+    <entry key="FigureSlideshowPlayer">スライドショー プレーヤー</entry>
+    <entry key="NotAValidPLAYSHOWFile">"{0}" は有効な PLAYSHOW ファイルではありません。</entry>
+    <entry key="NotOnThePath">"{0}" がパス上にありません</entry>
+    <entry key="SlideNumberOfN">スライド {0,number,integer}/{1,number,integer}</entry>
+    <entry key="ErrorInSlideshow">\nスライドショーでエラーが発生しました。\n{0}\n\n</entry>
+    <entry key="ButtonStart">開始 &gt;&gt;</entry>
+    <entry key="ButtonNext">次へ &gt;&gt;</entry>
+    <entry key="ButtonReset">リセット</entry>
+    <entry key="ButtonViewCode">コードの表示</entry>
+    <entry key="ButtonMoreInfo">詳細</entry>
+    <entry key="PressAnyKeyToContinue">続けるには、いずれかのキーを押してください。</entry>
+    <entry key="EndOfDemo">デモの終了</entry>
+  </message>
+</rsccat>

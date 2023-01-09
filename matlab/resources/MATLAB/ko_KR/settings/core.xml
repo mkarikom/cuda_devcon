@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RelativePathIsNotSupported">MATLAB_PREFDIR은 절대 경로여야 합니다. 기본 설정 디렉터리를 상대 경로 {0}(으)로 설정할 수 없습니다.</entry>
+    <entry key="ErrorMigratePrefsBetweenReleases">릴리스 {0}에서 릴리스 {1}(으)로 기본 설정을 마이그레이션하지 못했습니다.</entry>
+    <entry key="ErrorCreatePreferenceDirectoryTimeStamp">기본 설정 폴더 타임스탬프 파일 {0}을(를) 생성하지 못했습니다. \n세부 정보: {1}.</entry>
+    <entry key="PreferenceDirectoryNotExist">기본 설정 폴더 {0}이(가) 존재해야 하는데 실제로는 존재하지 않습니다. \n세부 정보: {1}.</entry>
+    <entry key="SettingsUserDirectoryNotExist">Settings 사용자 디렉터리가 설정되지 않았습니다. MATLAB이 사용자 설정을 업데이트할 수 없습니다.</entry>
+    <entry key="ErrorOpenFileInPrefDir">파일 {0}을(를) 열 수 없습니다. 이유: {1}. </entry>
+    <entry key="ErrorCloseFileInPrefDir">파일 {0}을(를) 닫을 수 없습니다. 이유: {1}. </entry>
+    <entry key="ErrorCopyFileInPrefDir">{0}을(를) {1}(으)로 복사하지 못했습니다. 이유: {2}. </entry>
+    <entry key="ErrorOverwriteFileInPrefDir">파일 {0}에 쓸 수 없습니다. 파일이 존재하고 덮어쓰기 권한이 거부되었습니다. </entry>
+    <entry key="ErrorDetermineFileSizeInPrefDir">파일 {0}의 크기를 결정할 수 없습니다. 이유: {1}. </entry>
+    <entry key="ErrorOpenDirectoryInPrefDir">디렉터리 {0}을(를) 열 수 없습니다. 이유: {1}. </entry>
+    <entry key="FileLoadingError">Settings 파일을 불러오는 중 오류가 발생했습니다. \n세부 정보: {0}. </entry>
+    <entry key="DataTypeNotMatch">유효하지 않은 유형 {1}의 값을 설정하려고 했습니다. 이 설정의 예상 데이터형은 {0}입니다.</entry>
+    <entry key="ValueIsNotInRange">Settings 데이터의 유효성을 검사할 수 없습니다. 키 {1}에 전달된 입력값 {0}이(가) 범위 [{2} {3}] 내에 있지 않습니다.</entry>
+    <entry key="ValueIsNotOneOfTheChoices">Settings 데이터의 유효성을 검사할 수 없습니다. 키 {1}에 전달된 입력값 {0}이(가) 미리 정의된 옵션 [{2}] 중 하나가 아닙니다.</entry>
+    <entry key="DefaultValidationFailedOnVoidType">Settings 데이터의 유효성을 검사할 수 없습니다. 키 {0}에 전달된 값이 무효입니다.</entry>
+    <entry key="DataArraySizeOutOfRange">Settings 데이터의 유효성을 검사할 수 없습니다. {0}에 대한 값을 크기가 {1}인 배열로 설정할 수 없습니다. Setting 값은 [{2} {3}] 범위 내 크기의 배열이어야 합니다.</entry>
+    <entry key="UnconvertibleType">Cannot convert the value for key, {0}, to data type {1}. \nDetails: {2}.</entry>
+    <entry key="CanNotCreateTempDirectory">Internal Error: Error create a temp directory under directory {0}. </entry>
+    <entry key="NoWritePermissionOnDirectory">Internal Error: No write permission on directory {0}. Details: {1}. </entry>
+    <entry key="CFunctionNotFound">Cannot find function, {0}, in library {1}.</entry>
+    <entry key="ExecEngineNotReadyForProcessingMFunction">Internal Error: MATLAB functions cannot be invoked because the execution engine is not initialized.</entry>
+    <entry key="MATLABFuncMustBeInvokedByExecEngine">Internal Error: MATLAB functions can be invoked in the main execution thread only.</entry>
+    <entry key="JVMNotReadyForProcessingJavaFunction">Internal Error: Java function cannot be invoked because JVM is not initialized.</entry>
+    <entry key="SettingsLibraryNotInitialized">Internal Error: Java settings library could not be initialized.\n{0}</entry>
+    <entry key="XMLMetaDataParserError">Error parsing metadata for key {0}. Min value {1}, is larger than max value {2}.</entry>
+    <entry key="XMLParserErrorIllegalTagName">While parsing the Settings node, {0}, found invalid tag, {1}, under tag {2}.</entry>
+    <entry key="XMLParserErrorUnexpectedTextContent">While parsing the Settings node, {0}, found unexpected text content in tag {1}.</entry>
+    <entry key="XMLParserErrorNumOfValueNotInRange">The expected data type for key, {0}, is an array of {1}. The number of values specified in the XML file is {2}, which it is not in the range defined as [{3}, {4}].</entry>
+    <entry key="TypeNotSpecifiedForNoneAnyType">The setting, {0},  is not an 'anytype' setting,  so data type tag must be specified. </entry>
+    <entry key="XMLParseErrorWrongValueForGivenType">Invalid value  for tag {0}. The value is {1}, which cannot be converted to type {2}.</entry>
+  </message>
+</rsccat>

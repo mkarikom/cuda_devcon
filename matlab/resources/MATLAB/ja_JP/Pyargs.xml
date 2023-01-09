@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonPairedArgs">''{0}'' 入力引数は名前と値のペアでなければなりません。</entry>
+    <entry key="NonStringFieldNames">接尾辞は string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="PythonUnavailable">''{0}'' は Python を読み込む前に作成できません。</entry>
+  </message>
+</rsccat>

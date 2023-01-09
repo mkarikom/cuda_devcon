@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Wildcard">ファイル {0} が見つかりません。ワイルドカードは XLSREAD で使用できません。</entry>
+    <entry key="FileNotFound">ファイル ''{0}'' を開くことができません。\n{1}</entry>
+    <entry key="FileDoesNotExist">ファイル ''{0}'' が見つかりません。</entry>
+    <entry key="FileName">ファイル名を指定しなければなりません。</entry>
+    <entry key="ActiveX">インポート対象の Excel サーバーを起動できません。''basic'' モードを使用します。詳細は HELP XLSREAD を参照してください。</entry>
+    <entry key="RangeIncompatible">範囲は ''basic'' モードでは使用できません。全体のシートが読み込まれます。</entry>
+    <entry key="InteractiveIncompatible">対話型選択は ''basic'' モードでは使用できません。1 番目のシートが読み込まれます。</entry>
+    <entry key="Incompatible">カスタム関数は ''basic'' モードでは使用できません。カスタム関数の引数は無視されます。</entry>
+    <entry key="NotHandle">XLSREAD の 5 番目の引数は関数ハンドルでなければなりません。</entry>
+    <entry key="FileFormat">ファイル {0} は Microsoft Excel 形式ではありません。</entry>
+    <entry key="RangeSelection">データ範囲 ''{0}'' は無効です。</entry>
+    <entry key="InvalidFileName">ファイル名は string または文字ベクトルでなければなりません。</entry>
+    <entry key="InvalidSheet">シートの引数は string スカラー、文字ベクトル、または整数でなければなりません。</entry>
+    <entry key="InvalidRange">範囲の引数は string または文字ベクトルでなければなりません。HELP XLSREAD を参照してください。</entry>
+    <entry key="InvalidMode">インポート モードが無効です。XLSREAD は、モードをノーマルにリセットします。</entry>
+    <entry key="InvalidSheetBasicMode">基本モードでは、シートの引数は string または文字ベクトルでなければなりません。</entry>
+    <entry key="WorksheetNotActivated">Excel ワークシートをアクティブにできませんでした。</entry>
+    <entry key="WorksheetNotFound">ワークシート ''{0}'' が見つかりません。</entry>
+    <entry key="NoHandleForCustom">関数ハンドルの入力なしにカスタム出力は返されません。</entry>
+    <entry key="DialgoDataSelectionDialogue">データ選択ダイアログ</entry>
+    <entry key="DlgSelectDataRegion">Excel ワークシート内のデータ範囲が無効です。</entry>
+    <entry key="DlgClickOKToContinueInMATLAB">MATLAB に戻って続行するには [OK] をクリックしてください</entry>
+    <entry key="UnableToOpenFile">ファイル {0} を開くことができません。\n{1}</entry>
+    <entry key="UnableToReadSheet">シート {0} を読み取ることができません。\n{1}</entry>
+    <entry key="WorksheetNotOpened">シート ''{0}'' を読み取ることができません。\n{1}</entry>
+    <entry key="noJVM">このタイプの Excel ファイルを読み込むには Java が必要です。</entry>
+    <entry key="thirdArgument">2 番目の入力が範囲であるため、3 番目の入力を無視します。ワークシートと範囲の両方を指定するには、最初にシート、次に範囲をリストしてください。</entry>
+    <entry key="spreadsheetSynchronous">スプレッドシート ファイル用の関数 uiimport の同期評価は、将来のリリースで廃止予定です。代わりに非同期 uiimport 構文を使用してください。</entry>
+    <entry key="NoRangeSelected">データ領域が選択されていません。</entry>
+    <entry key="FirstArgumentNotString">最初の引数は string または文字ベクトルでなければなりません。</entry>
+    <entry key="NamedRangeNotSupported">指定の範囲 ''{0}'' は ''{1}'' に関連付けられており、このモードではサポートされません。</entry>
+    <entry key="invalidList">入力 ''{0}'' は有効ではありません。</entry>
+    <entry key="NamedRangeNotInScope">名前付きの範囲 ''{0}'' は、要求された入力シート {2} とは一致しないシート {1} になっています。</entry>
+    <entry key="SpreadsheetTooLarge">スプレッドシートが大きすぎて読み取ることができません。データを読み取る範囲を小さくしてみてください。</entry>
+  </message>
+</rsccat>

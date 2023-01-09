@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoDataBlockSelectedGoToStep2">尚未选择数据块。要选择数据，请返回步骤 2。</entry>
+    <entry key="NoExistingTimeSeriesSelected">未选择现有时序</entry>
+    <entry key="RowIndexForRowVariableInteger">包含变量名称的行的行索引应为整数。</entry>
+    <entry key="VariableNamesAlphanumeric">变量名称必须是字母数字。</entry>
+    <entry key="CommonPartVariableBeMATLABvariable">变量名称的共同部分应是有效的 MATLAB 变量名称。</entry>
+    <entry key="NoDataBlockSelectedGoToPreviousStep">未选择任何数据块。请返回上一步选择有效的数据块。</entry>
+    <entry key="InvalidTimesSelectedGoToStep2">所选的时间无效。请返回步骤 2。</entry>
+    <entry key="TimeIntervalNumericGoBackToStep2">时间间隔必须是数值。请返回步骤 2 更改时间间隔。</entry>
+    <entry key="LengthOfTimeSeriesIsZeroGoToStep2">时序长度为零。请返回步骤 2 选择所需的数据块。</entry>
+    <entry key="StartTimeNumericGoToStep2">开始时间必须是数值。请返回步骤 2 更改开始时间。</entry>
+    <entry key="DataBlockNotCompatibleWithTimeVector">数据块的长度与时间向量的长度不兼容。</entry>
+    <entry key="DataBlockEmptyToReselectGoToStep2">所选数据块为空。要重新选择，请返回步骤 2。</entry>
+    <entry key="InvalidTimeFormatSelectTime">时间格式无效。请重新选择时间向量。</entry>
+    <entry key="TimeVectorContainsDuplicatedTimePoints">时间向量包含重复的时间点。对于与同一时间点相关的样本，可以选择最后一个样本或要导入样本的均值。</entry>
+    <entry key="NewTimeVectorSelectedHasADifferentLength">您选择的新时间向量与现有时序对象中使用的旧时间向量的长度不同。</entry>
+    <entry key="NewTimeVectorSelectedIsDifferentFromOldTimeVector">您选择的新时间向量与现有时序对象中使用的旧时间向量不同。</entry>
+    <entry key="NotAllDataImportedInvalidVariablesSpecified">未导入所有数据。指定的变量名称无效。</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="TimeSeriesObjectAlreadyExistsInTstoo">tstool 中已存在同名的时序对象。是否要将其内容替换为当前所选内容?</entry>
+    <entry key="ImportingTimeSeriesObjectsPleaseWait">正在导入时序对象，请稍候...</entry>
+    <entry key="ErrorCreatingTimeSeriesObjectInTstool">在 tstool 中创建时序对象时出错</entry>
+    <entry key="Replace">替换</entry>
+    <entry key="Abort">中止</entry>
+    <entry key="SelectLast">选择最后一个值</entry>
+    <entry key="SelectAverage">选择平均值</entry>
+    <entry key="UseOldTimeVector">使用旧时间向量</entry>
+    <entry key="UseNewTimeVector">使用新时间向量</entry>
+    <entry key="StartTimeBeDateStringGoToStep2">The start time must be a date character vector.  Go back to Step 2 to change the start time.</entry>
+  </message>
+</rsccat>

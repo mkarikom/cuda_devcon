@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonFiniteEndpoint">인덱스의 콜론 연산자에 무한 끝점이 있거나 무한 증분이 있습니다.</entry>
+    <entry key="nonIntegerIndex">인덱스로 사용 시, 콜론 연산자에는 정수형 피연산자가 필요합니다.</entry>
+    <entry key="OutOfRange">콜론 피연산자는 데이터형의 범위 내에 있어야 합니다.</entry>
+    <entry key="logicalInput">콜론 피연산자는 논리형일 수 없습니다.</entry>
+    <entry key="mixedNonDoubleOperands">콜론 피연산자는 모두 형식이 동일하거나 double형의 실수형 스칼라와 혼용되어야 합니다.</entry>
+    <entry key="nonDoubleOperandsNotRealScalar">콜론 피연산자는 실수형 스칼라여야 합니다.</entry>
+    <entry key="operandsNotRealScalar">콜론 피연산자는 실수형 스칼라여야 합니다.</entry>
+    <entry key="scalarDoubleMustBeIntegerValued">{0} 피연산자와 상호 작용하는 double형 피연산자는 정수 값을 가져야 합니다.</entry>
+    <entry key="notEnoughInputs">콜론 연산자에 대한 입력값이 부족합니다.</entry>
+    <entry key="tooManyInputs">콜론 연산자에 대한 입력값이 너무 많습니다.</entry>
+    <entry key="charOperandsMustBeIntegerValued">문자형 피연산자와 상호 작용하는 double형 피연산자는 정수 값을 가져야 합니다.</entry>
+    <entry key="integerOperandsMustBeIntegerValued">{0} 피연산자와 상호 작용하는 double형 피연산자는 정수 값을 가져야 합니다.</entry>
+    <entry key="mixedCharOperandsFirstAndLast">문자형 피연산자를 사용하는 콜론 연산자의 경우 처음과 끝의 피연산자는 문자형이어야 합니다.</entry>
+    <entry key="mixedCharOperandsSecond">문자형 피연산자를 사용하는 콜론 연산자의 경우 두 번째 피연산자는 문자형이거나 double형의 실수형 스칼라여야 합니다.</entry>
+    <entry key="inputsMustBe2D">입력값은 2차원이어야 합니다.</entry>
+  </message>
+</rsccat>

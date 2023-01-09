@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WrongNumberOfComponentsException">Cdata 应具有 1 个、3 个或 4 个分量</entry>
+    <entry key="NumColorsNotEqualNumVertsException">颜色数目必须等于顶点数目</entry>
+    <entry key="NumColorsNotEqualNumVertsOrNumFacesException">颜色数目必须等于顶点数目或面数目</entry>
+    <entry key="NumAlphaNotEqualNumVertsException">alpha 值的数目必须等于顶点数目</entry>
+    <entry key="NumAlphaNotEqualNumVertsOrNumFacesException">alpha 值的数目必须等于顶点数目或面数目</entry>
+    <entry key="UnsupportedColorStyleException">此颜色样式尚未实现</entry>
+    <entry key="InterpColorFailure">无法插入新顶点的 facecolor 值</entry>
+    <entry key="InterpNormalFailure">无法插入新顶点的 vertexnormal 值</entry>
+    <entry key="mxArrayBadType">面数组的类型不受支持</entry>
+    <entry key="MarkerFaceColorNotEqualToNumColors">当 MarkerFaceColor 为 Flat 时，颜色数目必须等于顶点数目</entry>
+    <entry key="MarkerFaceColorNotEqualToNumColorsEmpty">值为空，当 MarkerFaceColor 为 Flat 时，颜色数目必须等于顶点数目</entry>
+    <entry key="FacesToVerticesDataInconsistency">面中的值必须位于 1 到顶点数目的范围内</entry>
+    <entry key="FaceVertexAlphaDataNull">当 FaceAlpha 为 flat 或 interp 时，必须指定 FaceVertexAlphaData</entry>
+    <entry key="FaceColorToAlphaInconsistency">当 FaceColor 为插值索引色时，不支持 Flat 或 interp 为 true 着色模式的 alpha 值</entry>
+    <entry key="VertexNormalsToVerticesInconsistency">当使用的光照模式为 Gouraud 时，VertexNormals 的大小必须等于 Vertices 的大小</entry>
+    <entry key="InvalidVertexNormals">当使用的光照模式为 Gouraud 时，VertexNormals 不能为空数组</entry>
+    <entry key="FaceNormalsToFacesInconsistency">当使用的光照模式为 Flat 时，FaceNormals 的大小必须等于 Faces 的大小</entry>
+    <entry key="InvalidFaceNormals">当使用的光照模式为 Flat 时，无法将 FaceNormals 指定为空数组</entry>
+  </message>
+</rsccat>

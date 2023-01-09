@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="CannotDisplayMoreThanOneFourFourAxes">Cannot display more than 144 axes. Use the arithmetic expression dialog to reduce the number of columns.</entry>
+      <entry key="CannotShowTheCorrelationPlot">Cannot show the correlation plot because the two time series have differing lengths. To view the correlation plot either edit the time series so that they have the same lengths or make another selection.</entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+      <entry key="Versus">vs.</entry>
+      <entry key="Autocorrelation">Autocorrelation</entry>
+      <entry key="Crosscorrelation">Crosscorrelation</entry>
+   </message>
+</rsccat>

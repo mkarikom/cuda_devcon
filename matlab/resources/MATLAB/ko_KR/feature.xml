@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="duplicateFeature">''{0}'' 기능은 이미 등록되었습니다.</entry>
+    <entry key="failedToAddFeature">feature 추가에 실패함: {0}.</entry>
+    <entry key="FeatureCallCount">feature 이름은 문자형 벡터여야 함</entry>
+    <entry key="unknownFeature">feature {0}을(를) 찾을 수 없음</entry>
+    <entry key="InterestDispatchInDrawnow">유효하지 않은 InterestDispatchInDrawnow 값입니다. 유효한 값은 [0,1]입니다.</entry>
+    <entry key="InstrumentDroppedMessages">InstrumentDroppedMessages의 값이 유효하지 않습니다. 유효한 값은 [1,2]입니다.</entry>
+    <entry key="featureTestError">중단을 사용 설정해야 함. 이전 테스트에서 utSetInterruptEnabled 상태를 false로 돌림</entry>
+    <entry key="wrongInput">입력값은 문자형 벡터이거나 double형 스칼라여야 함</entry>
+    <entry key="EnableJavaAsGObject">유효하지 않은 EnableJavaAsGObject 값입니다. 유효한 값은 [0:4]입니다.</entry>
+  </message>
+</rsccat>

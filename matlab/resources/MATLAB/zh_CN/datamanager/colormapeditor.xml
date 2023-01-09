@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ColormapUIFigure">颜色图编辑器</entry>
+    <entry key="EditorMenu">文件</entry>
+    <entry key="Import">导入...</entry>
+    <entry key="Saveas">另存为...</entry>
+    <entry key="CustomColormap">自定义</entry>
+    <entry key="EditMenu">编辑</entry>
+    <entry key="OpenDoc">打开文档...</entry>
+    <entry key="Undo">撤消</entry>
+    <entry key="Redo">重做</entry>
+    <entry key="ResetCurrent">重置当前坐标区的颜色图</entry>
+    <entry key="ResetAll">重置所有坐标区的颜色图</entry>
+    <entry key="HelpMenu">帮助</entry>
+    <entry key="SelectLabel">颜色图</entry>
+    <entry key="SelectPanel">选择颜色图</entry>
+    <entry key="CustomizePanel">自定义颜色图</entry>
+    <entry key="EditSizePanel">编辑大小和颜色空间</entry>
+    <entry key="SetLimitsPanel">设置颜色图范围</entry>
+    <entry key="Shift">偏移</entry>
+    <entry key="SpecifyColor">指定颜色</entry>
+    <entry key="CurrentColor">当前颜色</entry>
+    <entry key="CurrentIndex">当前索引</entry>
+    <entry key="CurrentCData">当前 CData</entry>
+    <entry key="Colorspace">颜色空间</entry>
+    <entry key="InterpolatingColorspace">插补颜色空间</entry>
+    <entry key="Size">大小</entry>
+    <entry key="Reverse">反向</entry>
+    <entry key="ClimMin">CLim 最小值</entry>
+    <entry key="ClimMax">CLim 最大值</entry>
+    <entry key="ColorData">颜色数据(CData)值</entry>
+    <entry key="MustNotEmpty">颜色图不能为空</entry>
+    <entry key="ProgressLabel">请稍候 - 正在初始化</entry>
+    <entry key="InitialLabel">首次打开</entry>
+    <entry key="FinishLabel">结束</entry>
+    <entry key="ChooseColor">选择一种颜色</entry>
+    <entry key="ErrorSettingColorMsg">使用介于 0 和 1 之间的 RGB 值来设置颜色</entry>
+    <entry key="InvalidColor">无效颜色</entry>
+    <entry key="SaveColormap">将颜色图保存到工作区</entry>
+    <entry key="CancelButton">取消</entry>
+    <entry key="SelectColormapToImport">选择颜色图:</entry>
+    <entry key="ImportFromWS">从工作区导入颜色图</entry>
+    <entry key="ImportLabel">从工作区导入颜色图</entry>
+    <entry key="ErrorWhileImport">请选择颜色图或点击 "取消" 关闭</entry>
+    <entry key="NoColormap">未选择颜色图</entry>
+    <entry key="ErrorInSave">更新颜色图时出错</entry>
+    <entry key="OkLabel">确定</entry>
+    <entry key="InvalidCLim">设置类 'Axes' 的属性 'CLim' 时出错。值必须是数值类型的 1x2 向量，其中第二个元素大于第一个元素或为 Inf。</entry>
+  </message>
+</rsccat>

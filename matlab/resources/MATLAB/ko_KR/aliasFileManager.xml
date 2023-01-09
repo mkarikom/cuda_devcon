@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AliasingSameName"> 클래스 이름을 별칭 중 하나와 동일한 이름인 ''{0}''(으)로 바꿀 수 없습니다.</entry>
+    <entry key="NewNameIsBuiltinClass"> ''{1}''은(는) MATLAB 내장 클래스이므로 ''{1}''에 대해 별칭 ''{0}''을(를) 정의할 수 없습니다. 내장 클래스를 별칭 정의의 대상으로 사용할 수 없습니다.</entry>
+    <entry key="AliasIsBuiltinClass"> 내장 클래스와 동일한 이름을 사용하여 별칭을 생성할 수 없습니다.</entry>
+    <entry key="CreateAliasFileFailed"> 폴더 ''{0}''에 별칭 파일을 생성할 수 없습니다.</entry>
+    <entry key="OldNamesChanged">''{0}'' 클래스에 대한 별칭 정의에서 지정된 별칭 목록이 이전의 정의와 다릅니다. ''{0}''의 모든 이전 이름이 별칭으로 지정되었으며, 최신 이름이 가장 먼저 오는 올바른 순서인지 확인하십시오.</entry>
+    <entry key="MissingNewClassInAliasFolder"> ''{0}'' 클래스가 폴더 ''{1}''에 정의되어 있지 않으므로 이 폴더에 별칭 정의 파일을 쓸 수 없습니다.</entry>
+    <entry key="NewNameDefinedMultipleTimes"> 새 이름 ''{0}''이(가) 기존 별칭 정의에서 새 이름으로 이미 사용 중입니다. 기존 정의가 최신 별칭 정의의 별칭으로 대체됩니다. </entry>
+    <entry key="MultipleAliasesFirstTimeRenaming"> ''{0}'' 클래스의 별칭 정의에 둘 이상의 이전 이름이 지정되었습니다. 새 별칭을 처음 추가하는 경우 이전 이름은 하나만 있어야 합니다. 지정된 모든 이전 이름이 ''{0}''에 대한 이전 이름이며 최신 이름이 가장 먼저 오는지 확인하십시오.</entry>
+    <entry key="NameNotValid"> 별칭 정의의 모든 이름은 유효한 MATLAB 식별자여야 합니다. ''{0}''은(는) 유효한 MATLAB 식별자가 아닙니다.</entry>
+    <entry key="NonScalarDisplayHeader"> 새 이름과 이전 이름을 표시하는 {0} {1} 배열:</entry>
+    <entry key="MissingName">명명된 인수 ''{0}''이(가) addAlias에 대한 호출에 지정되어야 합니다.</entry>
+    <entry key="NoExistingAliasFile">폴더 ''{0}''에 대한 별칭 정의 파일을 찾을 수 없습니다. 별칭 정의 파일 'alias.json'이 'resources' 하위 폴더에 있는지 확인하십시오. </entry>
+    <entry key="NoFilePermission">폴더 ''{0}''에 대한 별칭 정의 파일에 액세스할 수 없습니다. 파일 읽기 권한을 확인하십시오. </entry>
+    <entry key="OldNamesReordered">별칭 순서가 ''{0}'' 클래스에 대한 별칭 정의에서 변경되었습니다. ''{0}''의 모든 이전 이름이 별칭으로 지정되었으며, 최신 이름이 가장 먼저 오는 올바른 순서인지 확인하십시오.</entry>
+    <entry key="OldNamesDropped">''{1}'' 클래스에 대한 둘 이상의 기존 별칭({0})이 삭제되었습니다. ''{1}''에 대한 모든 이전 이름이 별칭으로 지정되었으며, 최신 이름이 가장 먼저 오는 올바른 순서인지 확인하십시오.</entry>
+    <entry key="OldNamesAdded">둘 이상의 추가 별칭({0})이 ''{1}'' 클래스에 대해 추가되었습니다.  지정된 모든 이전 이름이 ''{1}'에 대한 이전 이름인지 확인하십시오.</entry>
+    <entry key="SameOldName">''{0}'' 클래스에 대한 별칭 정의에서 동일한 이전 이름이 여러 번 지정되었습니다.</entry>
+    <entry key="RecentNameFirst"> When renaming a class multiple times, the most recent old name must be the first in the list of old names.</entry>
+    <entry key="NewNameIsExistingAlias">The name ''{0}'' is already in use as an old name in the alias definition for class ''{1}''. A name cannot be used as both a new class name and an alias.</entry>
+  </message>
+</rsccat>

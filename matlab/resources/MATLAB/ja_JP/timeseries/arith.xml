@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="typemix">時系列の演算処理を timeseries オブジェクトと {0} オブジェクトとのペアで実行することはできません。</entry>
+    <entry key="timeDimMismatch">時系列の演算処理を、異なった IsTimeFirst プロパティの値をもつ timeseries オブジェクトのペアで実行することはできません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WrongFormat">データの形式が間違っています。</entry>
+    <entry key="InputMustBeASingleCharacter">入力は空の Char 配列または 1 文字のみを含む Char 配列です。</entry>
+    <entry key="UnableToCompareSingleCharacter">2 つの文字を比較できません</entry>
+  </message>
+</rsccat>

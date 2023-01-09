@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AmbiguousFileType">'FileType' ''{0}''이(가) 모호합니다.</entry>
+    <entry key="RowNamesNotSupported">Unsupported parameter ''{0}''. To read a TABLE with row names use READTABLE.</entry>
+    <entry key="VariableNamesNotSupported">Unsupported parameter ''{0}''. To read a TABLE or TIMETABLE with variable names use READTABLE or READTIMETABLE.</entry>
+    <entry key="UnrecognizedFileExtension">파일 확장자 ''{0}''을(를) 인식할 수 없습니다. 읽어올 형식을 지정하려면 'FileType'을 사용하십시오.</entry>
+    <entry key="UnrecognizedFileType">FileType ''{0}''을(를) 인식할 수 없습니다.</entry>
+    <entry key="BadFileFormat">{0,number,integer}번 라인에서 읽지 못했습니다. 텍스트 파일의 모든 라인은 구분 기호 개수가 같아야 합니다. {1,number,integer}번 라인에는 {2,number,integer}개의 구분 기호가 있는 반면 이전 라인에는 {3,number,integer}개의 구분 기호가 있습니다.</entry>
+    <entry key="InvalidHeaderLines">NUMHEADERLINES는 음이 아닌 정수여야 합니다.</entry>
+    <entry key="InvalidTreatAsEmpty">TREATASMISSING은 string형 배열, 문자형 벡터 또는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="NumericTreatAsEmpty">TREATASMISSING은 숫자형 리터럴을 포함해서는 안 됩니다.</entry>
+    <entry key="OpenFailed">파일 ''{0}''을(를) 열 수 없습니다.</entry>
+    <entry key="ReadVarNamesFailed">파일 ''{0}''에서 데이터를 해석할 수 없습니다. 변수 이름이 {2}개 발견되었지만 데이터 열은 {1}개 발견되었습니다. 다른 형식, 구분 기호 또는 헤더 라인 개수를 지정해 보십시오.</entry>
+    <entry key="RowNamesVarNotString">''{0}''을(를) 행 이름으로 변환할 수 없습니다.</entry>
+    <entry key="CouldNotReadEntireFileWithFormat">전체 파일을 읽을 수 없습니다. 다른 형식, 구분 기호 또는 헤더 라인 개수를 지정해 보십시오.</entry>
+    <entry key="ReadErrorOnLine">{0,number,integer}번 라인에서 읽지 못했습니다.  해당 라인의 필드에 잘못된 유형의 값이 포함되어 있을 수 있습니다.</entry>
+    <entry key="UnequalVarLengthsFromFileNoFormat">이 파일의 데이터는 각 행과 각 열의 필드 개수가 동일한 테이블 형식이 아닐 수 있습니다. 구분 기호 또는 헤더 라인 수를 지정하거나 수정해야 할 수 있습니다.</entry>
+    <entry key="UnequalVarLengthsFromFileWithFormat">이 파일의 데이터는 각 행과 각 열의 필드 개수가 동일한 테이블 형식이 아닐 수 있습니다. 형식, 구분 기호, 헤더 라인 개수 중 하나를 지정하거나 수정해야 할 수 있습니다.</entry>
+    <entry key="UnexpectedClass">{0} 클래스 값을 문자형 벡터로 변환할 수 없습니다.</entry>
+    <entry key="InvalidDelimiter">구분 기호는 string형 스칼라, 문자형 벡터, 문자형 벡터로 구성된 셀형 배열 또는 값 ''tab'', ''space'', ''comma'', ''semi'', ''bar'' 중 하나여야 합니다.</entry>
+    <entry key="InvalidSheet">시트는 string형 스칼라, 문자형 벡터 또는 양의 정수여야 합니다.</entry>
+    <entry key="InvalidRange">범위는 string형 스칼라이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="ParameterListHeader">참고: readtable이 다음 파라미터를 발견했습니다.\n</entry>
+    <entry key="NoTimeVarFound">파일 ''{0}''에서 행 시간값에 대한 datetime형 데이터 또는 duration형 데이터를 검색할 수 없습니다.</entry>
+    <entry key="AllNaTVariable">하나 이상의 변수를 datetime형으로 변환할 수 없습니다. DatetimeVariableImportOptions에 올바른 InputFormat 속성과 DatetimeLocale 속성을 지정하십시오.</entry>
+    <entry key="LegacyFormatFileTypes">''Format''은 텍스트 파일과 스프레드시트 파일에 대해서만 지원됩니다.</entry>
+  </message>
+</rsccat>

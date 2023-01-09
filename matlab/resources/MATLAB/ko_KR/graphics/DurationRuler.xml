@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Limits">값은 증가하는 duration형 값으로 구성된 1x2 벡터여야 합니다.</entry>
+    <entry key="Ticks">값은 증가하는 duration형 값으로 구성된 벡터여야 합니다.</entry>
+    <entry key="Format">값은 기간 형식이어야 합니다.</entry>
+    <entry key="Exponent">값은 정수여야 합니다.</entry>
+    <entry key="CategoriesReadOnly">속성이 읽기 전용입니다.</entry>
+    <entry key="NonNumericType">변환할 값은 숫자형 배열이거나 duration형 배열이어야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Nargin">입력 인수가 부족합니다.</entry>
+    <entry key="InvalidInputType">파일 이름은 문자형 벡터이거나 string형 스칼라여야 합니다.</entry>
+    <entry key="FileNotOpened">다음 원인으로 인해 파일 ''{0}''을(를) 열 수 없음: {1}</entry>
+    <entry key="InvalidDelimiter">DELIMITER는 단일 문자여야 합니다.</entry>
+    <entry key="ObsoleteSyntax">더 이상 사용되지 않는 구문입니다. C는 R과 함께 지정해야 합니다.</entry>
+    <entry key="InternalSizeMismatch">내부 크기 불일치</entry>
+    <entry key="InvalidRowsAndColumns">R과 C는 RANGE(1:2)와 일치해야 합니다.  대신 DLMREAD(FILE,DELIMITER,RANGE)를 사용하십시오.</entry>
+  </message>
+</rsccat>

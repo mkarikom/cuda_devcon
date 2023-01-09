@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" decorate_cxx_names="1">
+  <message>
+    <!-- Added messages: src/m_interpreter, src/m_lxe -->
+    <entry key="InvalidCausesSize" note="'Causes' and 'diagnostic' are parameter names.">Causes must be diagnostic vectors.</entry>
+    <entry key="InvalidCausesType" note="'Causes' and 'diagnostic' are parameter names.">Causes must be diagnostic objects.</entry>
+  </message>
+</rsccat>

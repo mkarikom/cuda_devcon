@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadGridErrId" context="error">グリッド配列は、NDGRID 構造をもたなければなりません。</entry>
+    <entry key="ComplexDataPointErrId" context="error">入力座標は実数でなければなりません。</entry>
+    <entry key="CompVecValueMismatchErrId" context="error">グリッドの次元 {0,number,integer} に対応するサンプル点ベクトルは、{1,number,integer} 個の要素を含まなければなりません。</entry>
+    <entry key="DegenerateGridErrId" context="error">内挿には、各グリッドの次元について少なくとも 2 つのサンプル点が必要です。</entry>
+    <entry key="GridOfMixedDataTypesErrId" context="error">すべての入力座標は同じ型でなければなりません。入力座標は double 型または single 型でなければなりません。</entry>
+    <entry key="MixedGridCoordSizeErrId" context="error">GridVectors は、値配列と互換性のあるサイズをもつグリッドを定義しなければなりません。</entry>
+    <entry key="NdgridNotMeshgrid2DErrId" context="error">\nデータは MESHGRID 形式ですが、NDGRID 形式が必要です。\nデータを次のように変換してください:\n X = X'; Y = Y'; V = V'; F = griddedInterpolant(X,Y,V)\n</entry>
+    <entry key="NdgridNotMeshgrid3DErrId" context="error">\nデータは MESHGRID 形式ですが、NDGRID 形式が必要です。\nデータを次のように変換してください:\n P = [2 1 3];\n X = permute(X, P);\n Y = permute(Y, P);\n Z = permute(Z, P);\n V = permute(V, P);\n F = griddedInterpolant(X,Y,Z,V)\n</entry>
+    <entry key="NonCellCompVecErrId" context="error">サンプル点はコンパクト グリッド ベクトルの cell でなければなりません。</entry>
+    <entry key="NonFiniteInputPtsErrId" context="error">サンプル点は有限でなければなりません。</entry>
+    <entry key="NonFloatInpPtsErrId" context="error">入力座標は double 型または single 型でなければなりません。</entry>
+    <entry key="NonMonotonicCompVecsErrId" context="error">サンプル点は昇順に並べ替えられなければなりません。</entry>
+    <entry key="NonUniqueCompVecsPtsErrId" context="error">サンプル点は一意でなければなりません。</entry>
+    <entry key="NumCoordsGridNdimsMismatchErrId" context="error">内挿は無効な状態です。GridVectors は、値配列と互換性のあるサイズをもつグリッドを定義しなければなりません。</entry>
+    <entry key="SparseDataPtErrId" context="error">スパースの入力座標はサポートされていません。</entry>
+    <entry key="NonFloatValuesErrId" context="error">サンプル値は double 型または single 型でなければなりません。</entry>
+    <entry key="SampleValuesNotSecond" context="error">2 番目の入力はサンプル値を指定しなければなりません。</entry>
+    <entry key="SparseInterpValuesErrId" context="error">スパースのサンプル値はサポートされていません。</entry>
+    <entry key="BadArgInterpEvalErrId" context="error">クエリ点は {0,number,integer} 列の行列にする必要があります。</entry>
+    <entry key="InputMixSizeErrId" context="error">クエリ座標の入力配列は同じサイズでなければなりません。</entry>
+    <entry key="NonVecCompVecErrId" context="error">cell を使用してコンパクトな形式のグリッドを指定する場合、cell はベクトルのみを含まなければなりません。</entry>
+    <entry key="QueryOfMixedDataTypesErrId" context="error">すべてのクエリ座標は同じ型でなければなりません。クエリ座標は double 型または single 型でなければなりません。</entry>
+    <entry key="ExtrapolationMethodInvalid" context="error">外挿法は ''linear''、''nearest''、''next''、''previous''、''pchip''、''cubic''、''spline''、''makima'' または ''none'' でなければなりません。</entry>
+    <entry key="BadInterpTypeErrId" context="error">内挿法は ''linear''、''nearest''、''next''、''previous''、''pchip''、''cubic''、''spline'' または ''makima'' でなければなりません。</entry>
+    <entry key="CubicNeedsThreeWarnId" context="warning">''3 次法'' には、各次元に少なくとも 3 つの点が必要です。\nこの条件を満たしていないため、既定の ''線形法'' に戻しています。</entry>
+    <entry key="CubicUniformOnlyWarnId" context="warning">''3 次法'' では、等間隔のグリッドが必要です。\nこの条件を満たしていないため、手法を ''3 次'' から ''スプライン'' に切り替えています。</entry>
+    <entry key="MeshgridEval2DWarnId" context="warning">クエリ データは MESHGRID 形式です。NDGRID 形式のほうが性能が向上します。\nクエリ データ (Xq, Yq) を次のように変換してください:\n F = griddedInterpolant(. . .);\n Xq = Xq'; Yq = Yq';\n Vq = F(Xq,Yq); \n</entry>
+    <entry key="MeshgridEval3DWarnId" context="warning">クエリ データは MESHGRID 形式です。NDGRID 形式のほうが性能が向上します。\nクエリ データ (Xq, Yq, Zq) を次のように変換してください:\n F = griddedInterpolant(. . .);\n P = [2 1 3];\n Xq = permute(Xq, P);\n Yq = permute(Yq, P);\n Zq = permute(Zq, P);\n Vq = F(Xq,Yq,Zq);\n</entry>
+    <entry key="Next1DonlyWarnId" context="warning">''next'' メソッドは 1 次元のみでサポートされています。\nこの条件を満たしていないため、既定の ''linear'' メソッドに戻します。</entry>
+    <entry key="Pchip1DonlyWarnId" context="warning">''pchip 法'' は 1 次元でのみサポートされています。\nこの条件を満たしていないため、既定の ''線形法'' に戻しています。</entry>
+    <entry key="Previous1DonlyWarnId" context="warning">''previous'' メソッドは 1 次元のみでサポートされています。\nこの条件を満たしていないため、既定の ''linear'' メソッドに戻します。</entry>
+  </message>
+</rsccat>

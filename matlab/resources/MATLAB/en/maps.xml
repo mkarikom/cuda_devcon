@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="DefaultAttribution">Tiles courtesy of %s</entry>
+    <entry key="ExpectedNonwhitespace">Expected input to contain at least 1 nonspace character.</entry>
+    <entry key="InvalidBasemapName">Expected input to evaluate to a valid variable name.</entry>
+    <entry key="NoBasemapsExist">No basemaps exist to remove.</entry>
+    <entry key="UnableToReadMapTiles">Unable to read map tiles from URL ''{0}''. {1}</entry>
+    <entry key="CertificateFailedVerification">The server certificate failed verification. The certificate's domain name "{0}" does not match the domain name of the host "{1}".</entry>
+    <entry key="CertificateFileNotFound">The certificate file ({0}) was not found or could not be opened for reading. Check the value of options.CertificateFilename.</entry>
+    <entry key="InternalError" translate="false">Internal error: {0}.</entry>
+    <entry key="StatusError">The server returned the status {0,number,integer} with message "{1}" in response to the request to URL {2}.</entry>
+    <entry key="ConnectionFailed">Error downloading content from URL, ''{0}''. Your network connection may be down or your proxy settings improperly configured.</entry>
+    <entry key="CopyContentToDataStreamError">The error "{0}" occurred while communicating with URL ''{1}''.</entry>
+    <entry key="FileNotFound">The server at URL ''{0}'' did not find a resource to match this request.</entry>
+    <entry key="InternalErrorGeneratedFileMissing">Internal error: could not find generated {0} or {1}</entry>
+    <entry key="InternalErrorType">Internal error: object of unexpected type {0} returned for field of type {1}.</entry>
+    <entry key="InvalidFilename">Unable to open output file: ''{0}'' for writing. Common reasons include that the file exists and does not have write permission or the folder does not have write permissions.</entry> 
+    <entry key="MalformedURL">Invalid URL: ''{0}''.</entry>
+    <entry key="OperationTerminatedByUser">Web service operation terminated by user while accessing URL ''{0}''.</entry>
+    <entry key="SSLConnectionNoFile">Could not establish a secure connection to "{0}". The reason is "{1}".  Perhaps the server does not accept HTTPS connections.</entry>
+    <entry key="Timeout">The connection to URL ''{0}'' timed out after {1} seconds. Set {2} to a higher value.</entry>
+    <entry key="UnknownHost">Could not access server. {0}.</entry>
+  </message>
+</rsccat>

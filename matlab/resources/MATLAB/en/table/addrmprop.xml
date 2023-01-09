@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2018-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NumDimsMismatch">Number of elements listed must match the number of new custom property names. Specify ''table'' or ''variable'' for each new custom property.</entry>
+    <entry key="PropNamesMustBeText">Custom property names must be a character vector, string array, or cell array of character vectors.</entry>
+    <entry key="MultiplicityMustBeText">For each custom property, specify ''variable'' or ''table'' to indicate whether the property applies to the variables, or to the table as a whole. Specify these settings in a string array or cell array of character vectors.</entry>
+    <entry key="DuplicateCustomProps">Duplicate custom property name: ''{0}''</entry>
+    <entry key="DuplicatesExistingCustomProps"> New custom property name ''{0}'' conflicts with existing ''{1}'' custom property ''{0}''.</entry>
+    <entry key="NoLHS">Using {0} without assigning to a workspace variable does not modify the table's custom properties.  Use t = {0}(t{1}).</entry>
+    <entry key="InvalidPropName">''{0}'' is not a valid custom property name.</entry>
+  </message>
+</rsccat>

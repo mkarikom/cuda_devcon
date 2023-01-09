@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidArgument">参数 "{0}" 无效。</entry>
+    <entry key="ExampleNotFound">在 "{1}" 中未找到示例 "{0}"。</entry>
+    <entry key="InvalidDirectory">目录参数必须为字符向量。</entry>
+    <entry key="EmptyDirectory">目录参数不能为空。</entry>
+    <entry key="PathNotValid">无法创建工作目录，因为默认目录名称包含不受支持的字符。请使用 'workDir' 选项选择其他工作目录以打开示例。有关如何使用此选项的详细信息，请参阅 "help openExample"。</entry>
+    <entry key="UnsupportedDirectoryName">工作目录名称包含不受支持的控制字符。请指定不包含这些字符的工作目录名称。</entry>
+    <entry key="FunctionInMultipleExamples">''{0}'' 用于以下示例:{1}</entry>
+    <entry key="FunctionInSingleExample">''{0}'' 用于 {1}。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="argNotProfilerObjHandle">输入参数必须为探查器对象句柄。</entry>
+    <entry key="cannotReport">不能在探查器运行时报告探查器统计信息。</entry>
+    <entry key="cpuFrequencyNotSupported">此平台上不支持 CPU 频率(ClockSpeed)信息。返回的值为 {0}。</entry>
+    <entry key="FullFilePath">文件筛选需要完整路径名称。</entry>
+    <entry key="FullPath">目录筛选需要完整路径名称。</entry>
+    <entry key="FunctionNotFound">未在该路径中找到指定函数。</entry>
+    <entry key="noChangeNonMatlab">无法更改非 MATLAB 探查器的详细信息级别。</entry>
+    <entry key="noChangeonFly">不能在探查器运行时更改 {0}。</entry>
+    <entry key="noResetWhileRunning">无法在探查器运行时重置探查器。</entry>
+    <entry key="no_mem_support">无法通过当前内存管理器提供内存跟踪支持。</entry>
+    <entry key="stdException">在 callstats {1} 中出现消息为 {0} 的标准异常...</entry>
+    <entry key="takeItEasy">不再需要显式启用行号跟踪。</entry>
+  </message>
+</rsccat>

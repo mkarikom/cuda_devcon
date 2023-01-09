@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="unknownType">''type'' 参数未知。''type'' 必须为 ''first'' 或 ''average''。</entry>
+    <entry key="tolsize">容差必须为标量，或为将相同列数作为第一个输入 ''X'' 的向量。</entry>
+    <entry key="firstNotDoubleReal">第一个输入 ''X'' 不能为单个复矩阵或稀疏矩阵。''X'' 必须为非稀疏的双精度实矩阵。</entry>
+    <entry key="secondNotDoubleReal">第二个输入 ''tol'' 不能为单个复矩阵或稀疏矩阵。''tol'' 必须为非稀疏的双精度实数标量或行向量。</entry>
+    <entry key="thirdNotChar">第三个输入 ''type'' 必须是字符向量。''type'' 必须是 ''first'' 或 ''average''。</entry>
+    <entry key="NegTol">容差不能为负数。</entry>
+    <entry key="NaNTol">容差不能为 NaN。</entry>
+    <entry key="AllInfTol">所有容差均为 Inf。容差必须包括某些有限值。</entry>
+  </message>
+</rsccat>

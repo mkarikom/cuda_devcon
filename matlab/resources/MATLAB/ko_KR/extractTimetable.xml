@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManyTSInputs">'SampleTime' 또는 'TimeVector' 중 하나를 기반으로 데이터셋에서 timeseries 객체를 선택하십시오.</entry>
+    <entry key="TooManyTTInputs">'SampleRate', 'TimeStep' 또는 'RowTimes' 중 하나를 기반으로 데이터셋에서 타임테이블을 선택하십시오.</entry>
+    <entry key="InvalidArray">This method is only valid for scalar Dataset or Signal objects.</entry>
+    <entry key="InvalidOutputFormat">출력 형식은 'timetable', 'cell-by-signal', 'cell-by-sampletime', 'cell-by-timestep' 중 하나여야 합니다.</entry>
+    <entry key="InvalidSampleTime">샘플 시간은 양의 숫자형 값을 포함하는 스칼라 또는 벡터로 지정해야 합니다.</entry>
+    <entry key="InvalidSampleRate">샘플 레이트는 숫자형 값을 포함하는 스칼라 또는 벡터여야 합니다(단위: Hz).</entry>
+    <entry key="InvalidTimeStep">시간 스텝은 duration형 값을 포함하는 스칼라 또는 벡터여야 합니다.</entry>
+    <entry key="TemplateAndOtherFilter">추출할 데이터를 선택하기 위한 다른 사양과 템플릿을 함께 사용하는 것은 지원되지 않습니다.</entry>
+    <entry key="SynchronizeDataError">지정된 데이터를 동기화할 수 없습니다. 데이터를 셀형 배열로 출력하려면 'OutputFormat'을 'cell-by-signal'로 설정하십시오.</entry>
+    <entry key="InvalidTemplate">템플릿은 timeseries 객체, 타임테이블 또는 Simulink.SimulationData.Signal이거나 데이터셋 요소의 이름을 지정하는 문자형 벡터 또는 string형 스칼라여야 합니다.</entry>
+    <entry key="InvalidTimeVector">시간 벡터는 double형 벡터로 지정해야 합니다.</entry>
+    <entry key="UnrecognizedTemplateName">{0}은(는) 인식할 수 없는 데이터셋 요소 이름입니다.</entry>
+    <entry key="MultipleTemplatesFound">제공된 이름을 가진 데이터셋 요소가 여러 개 있습니다. 대신 사용할 신호를 지정하려면 timeseries 객체, 타임테이블 또는 Simulink.SimulationData.Signal을 템플릿 입력으로 제공하십시오.</entry>
+    <entry key="AmbiguousTSUnits">'OutputFormat'이 'cell-by-signal'로 설정되지 않은 경우, 입력에서 추출된 모든 timeseries 객체는 동일한 TimeInfo Units를 가져야 합니다.</entry>
+  </message>
+</rsccat>

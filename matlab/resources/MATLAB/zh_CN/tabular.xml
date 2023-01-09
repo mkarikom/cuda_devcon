@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CannotLoadVariable">\n\n变量 ''{0}'' 未能加载，已替换为一个空数组。如果路径中不存在该变量的类，则可能会出现这种情况。</entry>
+    <entry key="CannotLoadVariables">\n\n某些变量未能加载，已替换为空数组。如果路径中不存在这些变量的类，则可能会出现这种情况。</entry>
+    <entry key="InvalidInput">第一个输入必须为表。</entry>
+    <entry key="MultipleSubscripts">下标返回了多个变量名称。圆点下标需要一个变量名称。</entry>
+  </message>
+</rsccat>

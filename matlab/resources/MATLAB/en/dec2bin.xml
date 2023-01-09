@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidDecimalArg">D must be numeric.</entry>
+    <entry key="NegativeValueOutOfRange">D must be greater than intmin('int64').</entry>
+    <entry key="MustBeFinite">D must be a finite integer.</entry>
+    <entry key="MustBeReal">D must be real.</entry>
+    <entry key="InvalidBitArg">N must be a positive integer.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedProperty">属性 ''{0}'' 无法识别。</entry>
+    <entry key="IllegalPropertyAssignment">''{0}'' 属性为只读，只能在创建流时设置。</entry>
+    <entry key="IllegalSeedAssignment">''Seed'' 属性为只读，只能在创建流时设置或使用 RESET 方法设置。</entry>
+    <entry key="MaxLHS">输出参数太多。</entry>
+    <entry key="WrongNumberArgs">参数的数目不正确。</entry>
+    <entry key="InvalidNumStateComponents">状态数组对于 {0} 生成函数无效。</entry>
+    <entry key="InvalidStateLen">状态数组长度对于 {0} 生成函数无效。</entry>
+    <entry key="InvalidStateClass">状态数组类对于 {0} 生成函数无效。</entry>
+    <entry key="InvalidSubstreamIndex">子流索引必须为正标量整数值。</entry>
+    <entry key="InvalidRandnAlg">NormalTransform 必须为字符向量。</entry>
+    <entry key="InvalidAntithetic">Antithetic 必须为逻辑标量。</entry>
+    <entry key="InvalidFullPrecision">FullPrecision 必须为逻辑标量。</entry>
+    <entry key="CantInitRandnAlg">无法将 {1} 生成函数的 NormalTransform 初始化为 ''{0}''。</entry>
+    <entry key="InvalidStateBufLen">此生成函数的状态缓冲区长度无效。</entry>
+    <entry key="UnknownRandnAlg">未知的 NormalTransform ''{0}''。</entry>
+    <entry key="SubstreamsNotSupported">{0} 生成函数不支持子流。</entry>
+    <entry key="LegacyPrecision">无法设置旧生成函数的精度。</entry>
+    <entry key="LegacyNormalTransform">无法为旧生成函数设置正常转换算法。</entry>
+  </message>
+</rsccat>

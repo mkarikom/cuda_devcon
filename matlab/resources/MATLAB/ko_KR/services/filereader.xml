@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DebuggableLinesNotSupported">{0}에서 디버그 가능한 라인 번호를 가져올 수 없습니다. 이 파일 형식에 유효한 작업이 아닙니다.</entry>
+    <entry key="VfsUrlNotSupported">{0}에서 읽을 수 없습니다. 이 파일 형식에는 URL이 지원되지 않습니다.</entry>
+  </message>
+</rsccat>

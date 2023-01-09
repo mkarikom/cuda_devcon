@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FileTooLarge">错误: {0}文件太大，MATLAB 无法运行。</entry>
+    <entry key="EvalExpressionTooLarge">错误: {0}表达式太大，MATLAB 无法计算。</entry>
+    <entry key="ExpressionTooComplicated">错误: {0}表达式太复杂，MATLAB 无法计算。</entry>
+    <entry key="ParforTooComplicated">错误: {0}parfor 循环太复杂，MATLAB 无法运行。</entry>
+    <entry key="SPMDTooComplicated">错误: {0}spmd 块太复杂，MATLAB 无法运行。</entry>
+    <entry key="StatementTooDeeplyNested">错误: {0}语句嵌套太深。</entry>
+    <entry key="TextTooLong">错误: {0}文本太长，MATLAB 无法解析。</entry>
+    <entry key="TooManySwitchCases">错误: {0}switch 语句包含的 case 太多。</entry>
+    <entry key="TooManyElseifBlocks">错误: {0}if 语句包含太多 elseif 块。</entry>
+    <entry key="TooManyParforVariables">错误: {0}parfor 循环包含的变量太多。</entry>
+    <entry key="TooManySPMDVariables">错误: {0}spmd 块包含的变量太多。</entry>
+  </message>
+</rsccat>

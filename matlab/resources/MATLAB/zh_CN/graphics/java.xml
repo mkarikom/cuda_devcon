@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoVM">JVM 未运行。</entry>
+    <entry key="ThreadNotAttached">线程未连接到 JVM。</entry>
+    <entry key="NoEnv">无法获取 JNI Env 指针。</entry>
+    <entry key="InvalidMethodID">Java 方法 ID 尚未初始化。</entry>
+    <entry key="InvalidFieldID">Java 字段 ID 尚未初始化。</entry>
+    <entry key="NoSuchClass">无法定位或初始化类 {0}。\n{1}</entry>
+    <entry key="NoSuchMethod">Java 类中不存在方法 {0}。\n{1}</entry>
+    <entry key="NoSuchField">Java 类中不存在公共字段 {0}。\n{1}</entry>
+    <entry key="OutOfMemory">Java 堆内存不足，无法继续操作。\n{0}</entry>
+    <entry key="ArrayIndexOutOfBoundsException">索引超过 Java 数组维度。\n{0}</entry>
+    <entry key="ArrayStoreException">设置 Java 数组值时出错。\n{0}</entry>
+    <entry key="GenericJavaException">{0}\n{1}</entry>
+    <entry key="ExceptionRecursion">检索异常消息失败。</entry>
+    <entry key="NullJavaPointer">空 Java 引用。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotATree">The input was not a mtree type.</entry>
+    <entry key="SyntaxError">Syntax Error:\n{0}\n</entry>
+    <entry key="fileReadError">Unable to read file {0}</entry>
+    <entry key="getmcode">File contains binary data: {0}</entry>
+    <entry key="FilenameMustBeSpecified">Filename must be specified.</entry>
+    <entry key="FilenameMustBeAString" note="stringDatatypeUpdate">Filename must be a character vector.</entry>
+    <entry key="FilenameMustNotContainAsterisk">Filename must not contain *.</entry>
+    <entry key="NoFileOpen">Open an Excel file first.</entry>
+    <entry key="WorksheetNotFound">Specified worksheet was not found</entry>
+    <entry key="NoSheet">Unknown sheet name.</entry>
+    <entry key="UnreadableOrEmptyCSVFile">Unreadable or empty CSV file.</entry>
+    <entry key="UnreadableOrEmptyTextFile">Unreadable or empty text file.</entry>
+    <entry key="UnreadableExcelFile">Unreadable Excel file.</entry>
+    <entry key="EmptyExcelFile">Empty Excel file.</entry>
+    <entry key="ImportingData">Importing Data...</entry>
+    <entry key="TextImportFastPathError">Fast path error.</entry>
+    <entry key="TextImportWaitBarCancel">Waitbar cancelled.</entry>
+    <entry key="TextFileInvalid">Invalid file.</entry> 
+    <entry key="TextFileImportCancelling">Cancelling.</entry>
+    <entry key="TextFileScanningFile">Scanning File.</entry> 
+    <entry key="TextFileScannedFile">File Scanned.</entry> 
+    <entry key="TextFileParsedBlockData">Parsed Selected Data Block.</entry>
+    <entry key="TextFileParsingData">Parsing Data {0}.</entry>
+    <entry key="TextFileParsedData">Data Parsed.</entry>
+    <entry key="InvalidVariableName">''{0}'' is not a valid variable name.</entry>
+    <entry key="ModifiedVarnames">Variable names were modified to make them valid MATLAB identifiers.</entry>
+    <entry key="unknownid">Workspace ID is unrecognized</entry>
+    <entry key="invalid">Workspace arg should be a scalar object handle with methods assignin and evalin</entry>
+    <entry key="errImport_GenericImportError">Import operation failed. The most likely reason is that there are unimportable\ncells in the selection. Try adding a rule in the toolstrip to convert unimportable\ncells into numbers.</entry>
+    <entry key="errImport_SpecificImportError">Import operation failed. {0}</entry>
+    <entry key="Searching">Searching...</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnableToUpdateClass">无法更新类 ''{0}''，因为新定义包含错误:\n {1}</entry>
+    <entry key="DISPLAY_HETEROGENEOUS_LABEL">异构</entry>
+    <entry key="DISPLAY_DELETED_HANDLE_LABEL">删除的句柄</entry>
+    <entry key="DISPLAY_DELETED_HANDLE_LABEL_NO_LINK">已删除的 {0} 的句柄</entry>
+    <entry key="DISPLAY_DELETED_HANDLE_LABEL_WITH_LINK">&lt;a href="matlab: helpview ([docroot '/matlab/matlab_oop/matlab_oop.map'],'deleted_handle_objects')"&gt;已删除的&lt;/a&gt; {0} 的句柄</entry>
+    <entry key="DISPLAY_DELETED_VALUE_LABEL">已删除 {0}</entry>
+    <entry key="DISPLAY_ARRAY_WITH_NO_PROPS">{0} {1} 数组(不具有属性)。</entry>
+    <entry key="DISPLAY_SCALAR_WITH_NO_PROPS">{0} (不具有属性)。</entry>
+    <entry key="DISPLAY_HETARRAY_WITH_NO_PROPS">{0} {1} {2} ({3})数组(不具有属性)。</entry>
+    <entry key="DISPLAY_AND_DETAILS_ARRAY_WITH_PROPS">{0} {1} 数组 - 属性:</entry>
+    <entry key="DISPLAY_AND_DETAILS_SCALAR_WITH_PROPS">{0} - 属性:</entry>
+    <entry key="DISPLAY_AND_DETAILS_HETARRAY_WITH_PROPS">{0} {1} {2} ({3})数组 - 属性:</entry>
+    <entry key="DETAILS_HANDLE_ARRAY_WITH_PROPS">{0} {1} {2} 数组 - 属性:</entry>
+    <entry key="DETAILS_HANDLE_ARRAY_WITH_NO_PROPS">{0} {1} {2} 数组(不具有可见属性)。</entry>
+    <entry key="DETAILS_ARRAY_WITH_NO_PROPS">{0} {1} 数组(不具有可见属性)。</entry>
+    <entry key="DETAILS_HANDLE_SCALAR_WITH_PROPS">{0} {1} - 属性:</entry>
+    <entry key="DETAILS_HANDLE_SCALAR_WITH_NO_PROPS">{0} {1} (不具有可见属性)。</entry>
+    <entry key="DETAILS_SCALAR_WITH_NO_PROPS">{0} (不具有可见属性)。</entry>
+    <entry key="DETAILS_HETARRAY_HANDLE_WITH_PROPS">{0} {1} {2} ({3}) {4} 数组 - 属性:</entry>
+    <entry key="DETAILS_HETARRAY_HANDLE_WITH_NO_PROPS">{0} {1} {2} ({3}) {4} 数组(不具有可见属性)。</entry>
+    <entry key="DETAILS_HETARRAY_WITH_NO_PROPS">{0} {1} {2} ({3})数组(不具有可见属性)。</entry>
+    <entry key="DISPLAY_METHODS_TEXT">方法</entry>
+    <entry key="DISPLAY_EVENTS_TEXT">事件</entry>
+    <entry key="DISPLAY_SUPERCLASSES_TEXT">超类</entry>
+    <entry key="EVENT_PACKAGE_DESCRIPTION">包含事件处理中使用的类的包</entry>
+    <entry key="META_PACKAGE_DESCRIPTION">包含用于表示元数据组件的类的包</entry>
+    <entry key="DISPLAY_EMPTY_OBJECT">empty {0}</entry>
+    <entry key="DISPLAY_EMPTY_HANDLE_OBJECT">empty {0} {1}</entry>
+  </message>
+</rsccat>

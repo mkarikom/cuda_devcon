@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NumOutNotEqualNumDims">Incorrect number of output arguments. Number of output arguments must equal the number of input dimension arguments.</entry>
+    <entry key="invalidDim">Dimension argument must be a positive integer scalar or a vector of positive integers.</entry>
+  </message>
+</rsccat>

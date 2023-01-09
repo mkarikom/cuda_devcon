@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- Copyright 2013-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed">
+  <message>
+    <entry key="funArgNotHandle">First input must be a function handle.</entry>
+    <entry key="functionHandleEmpty">Function handle must be non-empty.</entry> 
+    <entry key="errorHandlerEmpty">Error handler must be a non-empty function handle.</entry>
+    <entry key="UnequalDimensions">All of the input arguments must be of the same size and shape.\nPrevious inputs had {0} dimensions. Input #{1} has {2}</entry>
+    <entry key="UnequalSize">All of the input arguments must be of the same size and shape.\nPrevious inputs had size {0} in dimension {1}. Input #{2} has size {3}</entry>
+    <entry key="SparseNotSupported">Sparse Arrays are not supported. See SPFUN.</entry>
+    <entry key="MismatchInOutputTypes">Mismatch in type of outputs, at index {0}, output {1} ({2} versus {3}).\nSet 'UniformOutput' to false.</entry>
+    <entry key="NotAScalarOutput">Non-scalar in Uniform output, at index {0}, output {1}.\nSet 'UniformOutput' to false.</entry>
+    <entry key="structFieldNumberMismatch">At index {0}, output {1}, the number of struct fields does not match previous number of fields. Set 'UniformOutput' to false.</entry>
+    <entry key="structFieldNameMismatch">At index {0}, output {1}, the name of struct field ''{2}'' does not match previous name ''{3}''. Set 'UniformOutput' to false.</entry>
+    <entry key="UnimplementedOutputArrayType">{0} output type is not supported. Set 'UniformOutput' to false.</entry>
+    <entry key="SubsasgnProblem">Unable to assign into Uniform output array {0} at index {1}. Set 'UniformOutput' to false.</entry>
+    <entry key="NoOutput">Output was expected but not returned while using Uniform output, at index {0}. Set 'UniformOutput' to false.</entry>
+    <entry key="UnexpectedOutput">Unexpected output was returned while using Uniform output, at index {0}. Set 'UniformOutput' to false.</entry>
+    <entry key="NotAParameterPair">Input #{0, number, integer} expected to be a {1} value for the parameter ''{2}''.</entry>
+    <entry key="InvalidOverloadedSize">Overloaded size method must return a non-empty, positive array of doubles.</entry>
+    <entry key="NotACell">Input #{0} expected to be a cell array, was {1} instead.</entry>
+    <entry key="NotACellOrParameter">Input #{0} is a char row vector. If it is intended as a parameter name, it must be either 'UniformOutput' or 'ErrorHandler'. If it is intended as a data input, it must be a cell array.</entry>
+    <entry key="UnsupportedType">Unsupported ARRAYFUN input type: {0}</entry>
+    <entry key="SparseInputNotSupported">Sparse inputs are not supported by ARRAYFUN.</entry>
+    <entry key="NonStruct">Inputs to STRUCTFUN must be scalar structures.</entry>
+    <entry key="NonScalar">Inputs to STRUCTFUN must be scalar structures.</entry>
+    <entry key="UnknownArguments">STRUCTFUN only iterates over the fields of one structure.</entry>
+  </message>
+</rsccat>
+

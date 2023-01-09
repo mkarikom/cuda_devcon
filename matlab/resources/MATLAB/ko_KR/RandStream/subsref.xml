@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SubscriptReferenceNotAllowed">() 인덱싱을 사용하여 RandStream으로 인덱싱할 수 없습니다.</entry>
+    <entry key="CellReferenceNotAllowed">'{}' 인덱싱을 사용하여 RandStream으로 인덱싱할 수 없습니다.</entry>
+    <entry key="InvalidMethodSyntax">부적절한 메서드 호출 구문입니다.</entry>
+    <entry key="InvalidPropertySyntax">부적절한 속성 참조입니다.</entry>
+    <entry key="UnrecognizedProperty">''{0}''은(는) 인식할 수 없는 속성입니다.</entry>
+  </message>
+</rsccat>

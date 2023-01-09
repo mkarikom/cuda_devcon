@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="twoUNCPaths">PWD 및 TEMPDIR이 UNC 경로일 때는 파일을 빌드할 수 없습니다.</entry>
+    <entry key="dotdots">경로를 ''{0}''에 대한 상대 경로로 해결했습니다. ''{1}''은(는) 유효하지 않습니다.</entry>
+    <entry key="assertion">파일 ''{2}''의 {3,number,integer} 라인에서 {0} 어설션이 실패했습니다.\n{1}\n\n스택 추적:\n{4}\n</entry>
+    <entry key="destinationDirNotFound">대상 디렉터리 "{0}"을(를) 찾을 수 없습니다.</entry>
+    <entry key="mexFileLocked">MEX 파일 "{0}"이(가) 잠겨 있으며 다시 컴파일하기 전에 잠금을 해제해야 합니다.</entry>
+    <entry key="RspFilePermissionOpen">파일 "{0}"을(를) 열어서 쓸 수 없음: {1}.</entry>
+    <entry key="RspFilePermissionWrite">파일 "{0}"에 쓸 수 없음: {1}.</entry>
+    <entry key="CreateRSPFile">{0} 명령이 Windows의 명령줄 문자열 제한에 도달했습니다. RSP 파일 {1}이(가) 생성되고 {2} 명령 이후의 내용이 파일로 복사됩니다. </entry>
+    <entry key="RSPFileException">RSP 파일을 생성할 수 없음: ''{0}''.</entry>
+    <entry key="moveToUNCPermissions">MEX에서 생성한 파일을 다시 UNC 경로로 이동할 수 없습니다. ''{0}''의 권한 또는 보안을 확인하십시오.</entry>
+    <entry key="moveToUNCTemp">MEX에서 임시 디렉터리 ''{0}''을(를) 제거할 수 없습니다.</entry>
+    <entry key="genericFailure">성공적으로 완료할 수 없습니다.</entry>
+    <entry key="invalidArgument">모든 인수는 비어 있지 않은 string형이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="OutputSwitchMisuse">-output 스위치 다음에는 파일 이름이 와야 합니다.</entry>
+    <entry key="OutdirSwitchMisuse">-outdir 스위치 다음에는 디렉터리 이름이 와야 합니다.</entry>
+    <entry key="Verbose">세부 정보 표시 모드가 켜져 있습니다.</entry>
+    <entry key="FileCopied">옵션 파일이 ''{0}''에서 ''{1}''(으)로 복사되었습니다.</entry>
+    <entry key="FileRenamed">옵션 파일 이름이 ''{0}''에서 ''{1}''(으)로 바뀌었습니다.</entry>
+    <entry key="ConfiguredToUse_bold">{0}이(가) {2} 언어 컴파일에 &lt;strong&gt;''{1}''&lt;/strong&gt;을(를) 사용하도록 구성되었습니다.</entry>
+    <entry key="ConfiguredToUse">{0}이(가) {2} 언어 컴파일에 ''{1}''을(를) 사용하도록 구성되었습니다.</entry>
+    <entry key="NotConfiguredToUse">컴파일러 ''{1}''이(가) 감지되지 않아 {0}이(가) 이 컴파일러를 사용할 수 없습니다.</entry>
+    <entry key="LookforImplicitSel">MEX 옵션 파일이 식별되지 않았습니다. 대신 암묵적 선택을 찾습니다.</entry>
+    <entry key="SetEnv">{0} = {1}(으)로 설정</entry>
+    <entry key="FailSetEnv">환경 변수 ''{0}''을(를) 정의하지 못했습니다.</entry>
+    <entry key="ExecutingCmd">... 명령 ''{0}'' 실행 중...</entry>
+    <entry key="FileCannotOpen">''{0}''을(를) 열 수 없습니다.</entry>
+    <entry key="MexDoubleHandle">더 이상 사용되지 않는 MEX 함수 mexGet|mexSet이 호출되었습니다. 소스 코드를 업데이트하여 mxGetProperty|mxSetProperty를 사용하거나, 명령줄에 -D{0}을(를) 추가하고 MEX를 다시 실행하여 호환성 모드를 시작하십시오.</entry>
+    <entry key="MexSetTrapFlagNotSupported">더 이상 사용되지 않는 MEX 함수 mexSetTrapFlag가 호출되었습니다. mexCallMATLABWithTrap을 사용하도록 소스 코드를 업데이트하십시오.</entry>
+    <entry key="MXSeparateComplexNotSupported">실수부/허수부 분리형의 복소수 행렬 함수 {0}이(가) 호출되었습니다. 실수부/허수부 결합형 복소수에 대한 소스 코드를 업데이트하거나, MEX를 -R2017b 명령줄 옵션과 함께 다시 실행하여 호환성이 지원되는 R2017b API를 사용하십시오. 자세한 내용은 &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''support_for_IC_API'')"&gt;Interleaved Complex&lt;/a&gt;(실수부/허수부 결합형 복소수)를 참조하십시오. </entry>
+    <entry key="UndocumentedNotSupported">함수 {0}은(는) 지원되지 않습니다. &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''cpp-mex-applications'')"&gt;C++ MEX 응용 프로그램&lt;/a&gt;에서 이용 가능한 더 효율적인 &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''matlab-data-api'')"&gt;MATLAB 데이터 API&lt;/a&gt;를 사용하는 것으로 전환하거나 MEX를 -R2017b 명령줄 옵션과 함께 다시 실행하여 R2017b API를 사용하십시오.</entry>
+    <entry key="NoCompilerFound">지원되는 컴파일러가 감지되지 않았습니다. 옵션을 보려면 https://www.mathworks.com/support/compilers를 참조하십시오.</entry>
+    <entry key="NoCompilerFound_link">지원되는 컴파일러가 감지되지 않았습니다. 옵션을 보려면 &lt;a href="https://www.mathworks.com/support/compilers"&gt;https://www.mathworks.com/support/compilers&lt;/a&gt;를 참조하십시오.</entry>
+    <entry key="NoCompilerFound_Win64">지원되는 컴파일러가 감지되지 않았습니다. 무료로 제공되는 MinGW-w64 C/C++ 컴파일러를 설치할 수 있습니다. https://www.mathworks.com/matlabcentral/fileexchange/52848-matlab-support-for-mingw-w64-c-c-compiler를 방문하십시오. 더 많은 옵션을 보려면 https://www.mathworks.com/support/compilers를 참조하십시오.</entry>
+    <entry key="NoCompilerFoundForMbuildOrMbuildCom_Win64">Supported compiler not detected. You can install the MinGW-w64 C/C++ compiler, which also requires installation of the Windows 10 SDK. Both are freely available. Visit https://www.mathworks.com/matlabcentral/answers/355476-how-can-i-install-mingw-compiler-for-use-with-windows-10-sdk-kit. For more options, visit https://www.mathworks.com/support/compilers.</entry>
+    <entry key="NoCompilerFound_link_Win64">지원되는 컴파일러가 감지되지 않았습니다. 무료로 제공되는 MinGW-w64 C/C++ 컴파일러를 설치할 수 있습니다. &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''install_mingw'')"&gt;Install MinGW-w64 Compiler&lt;/a&gt;(MinGW-w64 컴파일러 설치)를 참조하십시오. 더 많은 옵션을 보려면 &lt;a href="https://www.mathworks.com/support/compilers"&gt;https://www.mathworks.com/support/compilers&lt;/a&gt;를 참조하십시오.</entry>
+    <entry key="NoCompilerFoundForMbuildOrMbuildCom_link_Win64">Supported compiler not detected. You can install the MinGW-w64 C/C++ compiler, which also requires installation of the Windows 10 SDK. Both are freely available. See &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''install_mingw'')"&gt;Install MinGW-w64 Compiler&lt;/a&gt;. For more options, visit &lt;a href="https://www.mathworks.com/matlabcentral/answers/355476-how-can-i-install-mingw-compiler-for-use-with-windows-10-sdk-kit"&gt;https://www.mathworks.com/matlabcentral/answers/355476-how-can-i-install-mingw-compiler-for-use-with-windows-10-sdk-kit&lt;/a&gt;.</entry>
+    <entry key="MultipleOrZeroCompiler">내부 오류 -- 컴파일러 또는 기본 설정 컴파일러를 선택하지 않거나 여러 개 선택해서는 안 됩니다.</entry>
+    <entry key="UnknownClient">''{0}''은(는) 알 수 없는 클라이언트입니다.</entry>
+    <entry key="InvalidXML">{0}은(는) 유효한 XML 파일이 아닙니다.</entry>
+    <entry key="XMLWriteFailed">옵션 파일 ''{0}''을(를) 쓰지 못했습니다.</entry>
+    <entry key="XMLWriteFailedWithMsg">옵션 파일 ''{0}''을(를) 쓰지 못함: ''{1}''</entry>
+    <entry key="LookingCompiler">... 컴파일러 ''{0}''을(를) 찾는 중...</entry>
+    <entry key="InstalledCompiler">설치된 컴파일러 ''{0}''을(를) 찾았습니다.</entry>
+    <entry key="NotInstalledCompiler">설치된 컴파일러 ''{0}''을(를) 찾지 못했습니다.</entry>
+    <entry key="UnsupportedCompiler_link">선택한 컴파일러 ''{0}''은(는) 지원되지 않습니다. 옵션을 보려면 &lt;a href="https://www.mathworks.com/support/compilers"&gt;https://www.mathworks.com/support/compilers&lt;/a&gt;를 참조하십시오.</entry>
+    <entry key="UnsupportedCompiler">선택한 컴파일러 ''{0}''은(는) 지원되지 않습니다. 옵션을 보려면 https://www.mathworks.com/support/compilers를 참조하십시오.</entry>
+    <entry key="NoAlternativeCompilerFound_link">선택한 컴파일러 ''{0}''은(는) 지원되지 않으며, 지원되는 다른 컴파일러를 찾지 못했습니다. 옵션을 보려면 &lt;a href="https://www.mathworks.com/support/compilers"&gt;https://www.mathworks.com/support/compilers&lt;/a&gt;를 참조하십시오.</entry>
+    <entry key="NoAlternativeCompilerFound">선택한 컴파일러 ''{0}''은(는) 지원되지 않으며, 지원되는 다른 컴파일러를 찾지 못했습니다. 옵션을 보려면 https://www.mathworks.com/support/compilers를 참조하십시오.</entry>
+    <entry key="LookingFile">... 파일 ''{0}''을(를) 찾는 중...</entry>
+    <entry key="LookingFolder">... 폴더 ''{0}''을(를) 찾는 중...</entry>
+    <entry key="LookingEnv">... 환경 변수 ''{0}''을(를) 찾는 중...</entry>
+    <entry key="LookingRegistry">... 레지스트리 설정 ''{0}\\{1}'' {2}을(를) 찾는 중...</entry>
+    <entry key="Yes">예.</entry>
+    <entry key="YesValue">예(''{0}'').</entry>
+    <entry key="No">아니요.</entry>
+    <entry key="UnknownExt">''{0}''은(는) 알 수 없는 파일 확장자입니다.</entry>
+    <entry key="UnknownLanguage">''{0}''은(는) 알 수 없는 언어입니다.</entry>
+    <entry key="MixLang">MEX에 대한 단일 호출에서 소스 파일 {0}과(와) {1}을(를) 모두 컴파일할 수 없습니다.</entry>
+    <entry key="NotAnOption">''{0}''은(는) 구현되지 않은 옵션입니다.</entry>
+    <entry key="UnknownSwitch">''{0}''은(는) 알 수 없는 MEX 인수입니다.</entry>
+    <entry key="IncompatibleSwitches">''{0}''과(와) ''{1}''을(를) 모두 사용하여 MEX를 호출할 수는 없습니다.</entry>
+    <entry key="MultiCompilers">다른 {0} 컴파일러를 선택하려면 다음 중 하나를 실행하십시오.</entry>
+    <entry key="MultiCompilers_link">다른 {0} 컴파일러를 선택하려면 다음 중 하나를 선택하십시오.</entry>
+    <entry key="NoLangSelected">다른 언어를 선택하려면 다음 중 하나를 실행하십시오.\n mex -setup C++{0} \n mex -setup FORTRAN{1}</entry>
+    <entry key="NoLangSelected_link">다른 언어를 선택하려면 다음 중 하나를 선택하십시오.\n &lt;a href="matlab:mex -setup C++{0}"&gt;mex -setup C++{1}&lt;/a&gt; \n &lt;a href="matlab:mex -setup FORTRAN{2}"&gt;mex -setup FORTRAN{3}&lt;/a&gt;</entry>
+    <entry key="GccVersion">gcc 버전 ''{0}''은(는) 지원되지 않습니다. https://www.mathworks.com/support/compilers/current_release를 참조하십시오.</entry>
+    <entry key="GccVersion_link">gcc 버전 ''{0}''은(는) 지원되지 않습니다. &lt;a href="https://www.mathworks.com/support/compilers/current_release"&gt;https://www.mathworks.com/support/compilers/current_release&lt;/a&gt;를 참조하십시오.</entry>
+    <entry key="MinGWVersion_link">
+  지원되지 않는 버전의 MinGW 컴파일러를 사용 중입니다. 지원되는 버전의 MinGW 컴파일러를 설치하려면 &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''install_mingw'')"&gt;Install MinGW-w64 Compiler&lt;/a&gt;(MinGW-w64 컴파일러 설치)를 참조하십시오.\n 현재 지원되는 컴파일러 목록은 &lt;a href="https://www.mathworks.com/support/compilers"&gt;https://www.mathworks.com/support/compilers&lt;/a&gt;를 참조하십시오.
+</entry>
+    <entry key="MinGWVersion">
+  지원되지 않는 버전의 MinGW 컴파일러를 사용 중입니다. 지원되는 버전의 MinGW 컴파일러를 설치하려면 https://www.mathworks.com/help/matlab/matlab_external/install-mingw-support-package.html을 참조하십시오.\n 현재 지원되는 컴파일러 목록은 https://www.mathworks.com/support/compilers를 참조하십시오.
+</entry>
+    <entry key="InvalidMinGWConfig_link">
+  MinGW 컴파일러가 올바르게 구성되지 않았습니다. &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''manually_configure_mingw'')"&gt;MATLAB에 대해 MinGW를 수동으로 구성&lt;/a&gt;을 참조하여 MinGW 컴파일러를 올바르게 구성하고 소스 코드를 다시 컴파일하십시오.
+</entry>
+    <entry key="InvalidMinGWConfig">
+  MinGW 컴파일러가 올바르게 구성되지 않았습니다. https://www.mathworks.com/help/matlab/matlab_external/compiling-c-mex-files-with-mingw.html#bu0q4cc-1을 참조하여 MinGW 컴파일러를 올바르게 구성하고 소스 코드를 다시 컴파일하십시오.
+</entry>
+    <entry key="InvalidArgNumber">
+  입력 인수가 너무 많습니다.
+</entry>
+    <entry key="InvalidArgType">
+ 입력값은 string형 스칼라이거나 문자형 벡터여야 합니다.
+</entry>
+    <entry key="WindowText">
+ MinGW 설치 디렉터리 선택
+</entry>
+    <entry key="FolderNotPresent">
+ 폴더 ''{0}''이(가) 존재하지 않습니다.
+</entry>
+    <entry key="InsufficientAccessPrivilege">
+ 관리자 권한이 부여되지 않았기 때문에 MinGW 컴파일러를 설치할 수 없습니다. 
+</entry>
+    <entry key="IncorrectMinGWFolder">
+ ''{0}'' 폴더에 MinGW 이진 파일이 포함되어 있지 않습니다.
+</entry>
+    <entry key="IncorrectPlatform">
+ 이 함수는 64비트 Windows 플랫폼에만 유효합니다.
+</entry>
+    <entry key="ErrCopyFile">옵션 파일 ''{0}''을(를) 기본 설정 폴더 ''{1}''(으)로 복사하는 중 오류가 발생했습니다.</entry>
+    <entry key="SrcNotFound">{0}이(가) 감지되지 않았습니다. 올바른 현재 폴더에 있는지 확인하고 ''{1}''의 철자를 확인하십시오.</entry>
+    <entry key="AccessDenied">액세스가 거부되었습니다. ''{0}''에 액세스할 수 있는 권한이 있는지 확인하십시오.</entry>
+    <entry key="FileNameTooLarge">지정된 파일 이름이 너무 깁니다.</entry>
+    <entry key="NotADirectory">"{0}"은(는) 디렉터리가 아닙니다.</entry>
+    <entry key="FileNameConversionFailed">파일 이름 코드 변환에 실패했습니다.</entry>
+    <entry key="OutOfMemory">MEX가 필요한 메모리를 할당하지 못했습니다.</entry>
+    <entry key="Building">''{0}''(으)로 빌드 중입니다.</entry>
+    <entry key="Complete">MEX가 성공적으로 완료되었습니다.</entry>
+    <entry key="ErrOption">MEX 인수 ''{0}''을(를) 사용하는 중 오류가 발생했습니다.</entry>
+    <entry key="ErrXMLAttr">옵션 파일 ''{1}''에서 특성(Attribute) ''{0}''을(를) 읽는 중 오류가 발생했습니다.</entry>
+    <entry key="Locked">mexLock API에 의해 ''{0}''이(가) 잠겼습니다.</entry>
+    <entry key="Locked_link">&lt;a href="https://www.mathworks.com/help/matlab/apiref/mexlock.html"&gt;mexLock&lt;/a&gt; API에 의해 ''{0}''이(가) 잠겼습니다.</entry>
+    <entry key="IgnoreOutput">-c가 지정되었으므로 -output이 무시됩니다.</entry>
+    <entry key="LibNotFound">
+  {0}이(가) -l 선택적으로 지정된 라이브러리 ''{1}''을(를) 찾을 수 없습니다. \n {0}은(는) 다음 이름 중 하나를 가진 파일을 검색했습니다. \n {2} \n 라이브러리 이름이 정확한지 확인하십시오. 라이브러리가 \n 기존 경로에 없으면 -L 선택적으로 경로를 지정하십시오. \n
+</entry>
+    <entry key="LongEnv">환경 변수 ''{0}''의 길이가 8,000자를 초과하여 빌드 시간 오류를 유발할 수 있습니다. 자세한 내용은 https://www.mathworks.com/help/matlab/matlab_env/understanding-file-locations-in-matlab.html#br5u0i7-1을 참조하십시오.</entry>
+    <entry key="LongEnv_link">환경 변수 ''{0}''의 길이가 8,000자를 초과하여 빌드 시간 오류를 유발할 수 있습니다. 자세한 내용은 &lt;a href="https://www.mathworks.com/help/matlab/matlab_env/understanding-file-locations-in-matlab.html#br5u0i7-1"&gt;https://www.mathworks.com/help/matlab/matlab_env/understanding-file-locations-in-matlab.html#br5u0i7-1&lt;/a&gt;을 참조하십시오.</entry>
+    <entry key="AdaErr">Ada 함수 build_ada_sfcn_using_gnat를 호출하는 중 오류가 발생했습니다.</entry>
+    <entry key="LegacyWarn">레거시 MEX 인프라는 호환성을 위해 제공되었으며 MATLAB 향후 버전에서 제거될 예정입니다. 자세한 내용은 MEX 릴리스 정보(https://www.mathworks.com/help/matlab/release-notes.html)를 참조하십시오.</entry>
+    <entry key="MexLoaded">
+\nMEX FILE: {0} 진입점은 주소 {1}에 있음\n
+</entry>
+    <entry key="IssueContinue">
+디버거 프롬프트에서 중단점을 추가하고 "continue"를 한 번 입력하여 MATLAB을 \n다시 실행하십시오. \n\n
+</entry>
+    <entry key="CircRef"> 변수 참조 그래프의 ''{0}''과(와) ''{1}'' 사이에 순환이 있음 </entry>
+    <entry key="MsgNoEntryPoint">게이트웨이 함수가 누락됨</entry>
+    <entry key="MsgIncompatRel">호환되지 않는 MEX 파일 ''{0}''입니다. 이 릴리즈에서는 {1}에서 빌드된 MEX 파일을 불러올 수 없습니다.</entry>
+    <entry key="ErrOutOfMem">메모리가 부족하여 MEX 파일 ''{0}''을(를) 불러올 수 없습니다.</entry>
+    <entry key="ErrInvalidMEXFile">유효하지 않은 MEX 파일 ''{0}''임: {1}</entry>
+    <entry key="ErrInvalidCPPMEXFile">''{0}''은 유효하지 않은 C++ MEX 파일임</entry>
+    <entry key="DeleteTmpFile">임시 파일 ''{0}''을(를) 삭제할 수 없음</entry>
+    <entry key="MexErrorCode">명령 ''{0}''이(가) 반환 값 ''{1}''과(와) 함께 종료되었습니다. </entry>
+    <entry key="SFunctionMsg">\ntmwtypes.h를 simstruc.h 앞에 포함시키면 tmwtypes.h가 64비트 API를 사용하여 빌드됩니다. 32비트 API를 사용하도록 코드를 다시 컴파일하는 중입니다. 자세한 내용은 &lt;a href="matlab: helpview ([docroot '/matlab/matlab_external/matlab_external.map'],'mex_build_64bit_by_default')"&gt;MEX Builds With 64-Bit API by Default&lt;/a&gt;(기본적으로 64비트 API를 사용하는 MEX 빌드)에서 확인할 수 있습니다.\n
+</entry>
+    <entry key="RecompileVer">''{0}''을(를) 사용하여 내장된 버전 다시 컴파일</entry>
+    <entry key="CppMexFevalError">MATLAB 함수 ''{0}''을(를) 실행하지 못했습니다.</entry>
+    <entry key="CppMexIndexExceedsBounds">인덱스가 배열 경계를 초과합니다.</entry>
+    <entry key="CppMexGetVariableError">''{1}'' 작업 공간에서 변수 ''{0}''을(를) 가져오지 못했습니다.</entry>
+    <entry key="CppMexSetVariableError">''{1}'' 작업 공간에서 변수 ''{0}''을(를) 설정하지 못했습니다.</entry>
+    <entry key="CppMexNotObjectError">getProperty 또는 setProperty에 대한 첫 번째 입력값은 MATLAB 객체 배열이어야 합니다.</entry>
+    <entry key="CppMexGetPropertyError">MATLAB 객체의 속성 ''{0}''을(를) 가져오지 못했습니다.</entry>
+    <entry key="CppMexSetPropertyError">MATLAB 객체의 속성 ''{0}''을(를) 설정하지 못했습니다.</entry>
+    <entry key="CppMexThreadMismatch">동기식으로 호출되는 MATLAB Engine 함수는 MEX 함수를 호출한 스레드에서 호출되어야 합니다.</entry>
+    <entry key="CppMexFailedToCleanupError">C++ MEX 파일에 정의된 MexFunction 객체를 삭제하는 중 오류가 발생했습니다.\n{0}.\n오류 메시지:\n {1}\n하지만 MEX 파일은 메모리에서 지워졌습니다.</entry>
+    <entry key="CppMexFailedToCleanup">C++ MEX 파일에 정의된 MexFunction 객체를 삭제하는 중 오류가 발생했습니다.\n{0}.\n하지만 MEX 파일은 메모리에서 지워졌습니다.</entry>
+    <entry key="CppMexErrorWithNoIDOrMsg">C++ MEX 파일에서 예외가 발생했지만 오류 ID 또는 오류 메시지는 없습니다.</entry>
+    <entry key="ErrSetWinPathEnv">C++ MEX-파일 컴파일에 필요한 PATH 변수를 설정하지 못했습니다.</entry>
+    <entry key="MexHostFevalInvalidInput">MEX 파일 이름이 필요합니다.</entry>
+    <entry key="NonExistingMexFunction">''{0}''은(는) 정의되지 않은 C++ MEX 함수입니다.</entry>
+    <entry key="InvalidCPPMexFunction">''{0}''은(는) 유효하지 않은 C++ MEX 파일임: {1}</entry>
+    <entry key="MexHostCrashed">C++ MEX 함수 ''{0}''을(를) 실행하는 중 오류가 발생했습니다. 프로세스 ID가 ''{2}''인 ''{1}''이(가) 예기치 않게 종료되었거나 MATLAB 외부에서 제거되었습니다.</entry>
+    <entry key="MexHostDeleted">C++ MEX 함수 ''{0}''을(를) 실행하는 중 오류가 발생했습니다. MexHost 객체가 MATLAB에서 삭제되거나 지워졌습니다.</entry>
+    <entry key="MexHostNonExistingProcess">MexHost 객체와 연결된 프로세스 ''{0}''(프로세스 ID ''{1}'')이(가) 예기치 않게 종료되었거나 MATLAB 외부에서 제거되었습니다.</entry>
+    <entry key="MexHostLoadError">MexHost 객체를 불러올 수 없습니다.</entry>
+    <entry key="MexHostInterrupted">MexHost에서 실행 중인 함수 ''{0}''이(가) 중단되었습니다.\n프로세스 ID가 ''{2}''인 MexHost 프로세스 ''{1}''이(가) 종료되었습니다.</entry>
+    <entry key="MexHostInvalidPropertyName">''{0}''은(는) 유효하지 않은 속성 이름입니다. 유효한 이름은 ''{1}''입니다.</entry>
+    <entry key="MexHostInvalidNumberOfInputArguments">함수 ''{0}''에 대한 인수의 개수가 올바르지 않습니다. 이 함수는 0개 또는 2개 인수를 받습니다.</entry>
+    <entry key="MexHostInvalidEnvironmentVariables">''{0}'' 속성의 값은 2개 열을 갖는 string형 행렬이어야 합니다.</entry>
+    <entry key="MexHostInvalidPropertyType">첫 번째 인수는 string형 스칼라여야 합니다.</entry>
+    <entry key="mexcheckNeedsAtLeastOneArg">MEX 파일 이름이 누락되었습니다.</entry>
+    <entry key="mexcheckInvalidArgNumber">입력 인수가 너무 많습니다.</entry>
+    <entry key="mexcheckInvalidArgument">MEX 파일 이름은 string형이어야 합니다.</entry>
+    <entry key="ENONAME_reason">파일 이름의 길이가 0입니다.</entry>
+    <entry key="ENOFILE_reason">''{0}''이(가) 존재하지 않습니다.</entry>
+    <entry key="ENOREAD_reason">''{0}''을(를) 읽을 수 없습니다.</entry>
+    <entry key="ENOREAD_action">파일 권한을 읽기 가능으로 변경하십시오.</entry>
+    <entry key="ENOTMEX_reason">''{0}''이(가) MEX 파일이 아닙니다.</entry>
+    <entry key="ENOTMEX_action">자세한 내용은 &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''ENOTMEX'')"&gt;File is not a MEX file&lt;/a&gt;(파일이 MEX 파일이 아님)을 참조하십시오.</entry>
+    <entry key="ELNKAPI_reason">''{0}''이(가) 호환되지 않는 옵션 ''{1}'' 및 ''{2}''을(를) 사용하여 컴파일되었습니다.</entry>
+    <entry key="ELNKAPI_action">자세한 내용은 &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''ELNKAPI'')"&gt;MEX file compiled with incompatible options&lt;/a&gt;(MEX 파일이 호환되지 않는 옵션을 사용하여 컴파일됨)를 참조하십시오.</entry>
+    <entry key="EVERAPI_reason">''{0}''이(가) ''{1}''을(를) 사용하여 컴파일되었지만 ''{2}''에 연결되었습니다.</entry>
+    <entry key="EVERAPI_action">자세한 내용은 &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''EVERAPI'')"&gt;MEX file compiled with one API and linked with another&lt;/a&gt;(MEX 파일이 컴파일할 때 사용된 것과 다른 API에 연결됨)를 참조하십시오.</entry>
+    <entry key="EUNKAPI_reason">MATLAB ''{1}''에서 빌드된 ''{0}''은(는) 현재 릴리스에서 지원되지 않습니다.</entry>
+    <entry key="EUNKAPI_action">자세한 내용은 &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''EUKNAPI'')"&gt;MEX file built in MATLAB release not supported in current release&lt;/a&gt;(MATLAB 릴리스에서 빌드된 MEX 파일이 현재 릴리스에서 지원되지 않음)를 참조하십시오.</entry>
+    <entry key="ELNKCPP_reason">MATLAB 데이터 API를 사용하는 C++ MEX 파일 ''{0}''이(가) ''{1}''을(를) 사용하여 컴파일되었습니다.</entry>
+    <entry key="ELNKCPP_action">자세한 내용은 &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''ELNKCPP'')"&gt;C++ MEX file compiled with incompatible option&lt;/a&gt;(C++ MEX 파일이 호환되지 않는 옵션을 사용하여 컴파일됨)을 참조하십시오.</entry>
+    <entry key="ENOEVER_reason">사용자 지정 빌드된 ''{0}''은(는) 현재 릴리스에서 지원되지 않습니다.</entry>
+    <entry key="ENOEVER_action">자세한 내용은 &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''ENOEVER'')"&gt;Custom-built MEX file not supported in current release&lt;/a&gt;(사용자 지정 빌드된 MEX 파일이 현재 릴리스에서 지원되지 않음)를 참조하십시오.</entry>
+    <entry key="URECOMP_reason">''{0}''이(가) 최신 API를 사용하여 컴파일되지 않았습니다.</entry>
+    <entry key="URECOMP_action">스위치 -R2018a를 사용하여 재빌드하는 것이 좋습니다. 자세한 내용은 &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''URECOMP'')"&gt;MEX file is compiled with outdated option&lt;/a&gt;(MEX 파일이 오래된 옵션을 사용하여 컴파일됨)을 참조하십시오.</entry>
+    <entry key="ULATEST_reason">''{0}''이(가) 데이터형을 지정하지 않은 데이터 액세스 함수를 하나 이상 호출합니다.</entry>
+    <entry key="ULATEST_action">자세한 내용은 &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''ULATEST'')"&gt;MEX file calls an untyped data access function&lt;/a&gt;(MEX 파일이 유형이 지정되지 않은 데이터 액세스 함수를 호출함)을 참조하십시오.</entry>
+    <entry key="UCOMPAT_reason">''{0}''이(가) 더 이상 사용되지 않는 함수를 하나 이상 호출합니다.</entry>
+    <entry key="UCOMPAT_action">자세한 내용은 &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''UCOMPAT'')"&gt;Mex file calls a deprecated function&lt;/a&gt;(MEX 파일이 더 이상 사용되지 않는 함수를 호출함)을 참조하십시오.</entry>
+    <entry key="ULEGACY_reason">''{0}''이(가) 하나 이상의 32비트 함수를 호출합니다.</entry>
+    <entry key="ULEGACY_action">자세한 내용은 &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''ULEGACY'')"&gt;Mex file calls a 32-bit function&lt;/a&gt;(MEX 파일이 32비트 함수를 호출함)을 참조하십시오.</entry>
+    <entry key="UENTRYP_reason">''{0}''이(가) 진입점을 포함하지 않으며 MATLAB에서 실행되지 않습니다.</entry>
+    <entry key="UENTRYP_action">자세한 내용은 &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''UENTRYP'')"&gt;MEX file does not contain an entry point&lt;/a&gt;(MEX 파일이 진입점을 포함하지 않음)를 참조하십시오.</entry>
+    <entry key="FileSystemException">{0} </entry>
+    <entry key="Warn">{0}</entry>
+    <entry key="Error">{0}</entry>
+    <entry key="moveToUNC">{0}</entry>
+    <entry key="CppMexException">{0}</entry>
+  </message>
+</rsccat>

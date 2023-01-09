@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NastyDuplicates">检测到重复的数据点并已将其删除。\n 尚未施加约束，原因是由于存在重复项致使点索引无效。</entry>
+    <entry key="featureEdgesNotSupported">DelaunayTri 不支持 featureEdges 方法。</entry>
+  </message>
+</rsccat>

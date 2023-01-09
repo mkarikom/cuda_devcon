@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SparseNotSupported">희소 배열은 지원되지 않습니다.</entry>
+    <entry key="FirstArgIsInvalid">첫 번째 인수는 유한한 정수를 포함해야 합니다.</entry>
+    <entry key="InvalidWidth">열 너비는 양의 스칼라 숫자여야 합니다.</entry>
+    <entry key="NegativeValueOutOfRange">첫 번째 인수는 intmin('int64')보다 커야 합니다.</entry>
+    <entry key="ValueOutOfRange">첫 번째 인수는 2^96보다 작아야 합니다.</entry>
+  </message>
+</rsccat>

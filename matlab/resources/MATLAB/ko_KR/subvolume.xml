@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidReductionSize">감소값은 [xmin xmax ymin ymax zmin zmax]여야 합니다.</entry>
+    <entry key="InvalidReductionXRange">감소값 벡터에서 xmax는 xmin보다 크거나 같아야 합니다.</entry>
+    <entry key="InvalidReductionYRange">감소값 벡터에서 ymax는 ymin보다 크거나 같아야 합니다.</entry>
+    <entry key="InvalidRedutionZRange">감소값 벡터에서 zmax는 zmin보다 크거나 같아야 합니다.</entry>
+    <entry key="WrongNumberOfInputs">입력 인수의 개수가 올바르지 않습니다.</entry>
+  </message>
+</rsccat>

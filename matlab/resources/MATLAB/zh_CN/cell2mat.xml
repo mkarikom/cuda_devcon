@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MixedDataTypes">输入元胞数组的所有内容都必须为相同数据类型。</entry>
+    <entry key="NoInputs">未指定输入参数。应只有一个输入参数。</entry>
+    <entry key="UnsupportedCellContent">CELL2MAT 不支持包含元胞数组或对象的元胞数组。</entry>
+    <entry key="InconsistentFieldNames">每个元胞数组元素的字段名称必须一致，且顺序也必须一致。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CreateCallback">콜백 값은 문자형 벡터 또는 함수 핸들이거나, 문자형 벡터나 함수 핸들로 구성된 셀형 배열이어야 함</entry>
+    <entry key="ResizeFcn">\nFigure의 SizeChangedFcn에 있는 변수 중 Figure가 표시될 때까지 정의되지 않은 변수가 있다면 이 오류가 나타날 수 있습니다. 모든 SizeChangedFcn 변수가 정의될 때까지 기다렸다가 Figure의 Visible 속성을 'on'으로 설정해 보십시오.</entry>
+    <entry key="SyntaxErrorIn">{0} {1}에서 구문 오류가 발생했습니다.</entry>
+    <entry key="ErrorWhileEvaluating">{0} {1}을(를) 실행하는 중 오류가 발생했습니다.</entry>
+    <entry key="InterruptWhileEvaluating">{0} {1}을(를) 실행하는 중 중단되었습니다.</entry>
+  </message>
+</rsccat>

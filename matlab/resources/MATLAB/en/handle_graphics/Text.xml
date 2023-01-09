@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="fl_ustring">
+  <message>
+    <entry key="UnsupportedFont">Font {0} is not supported.</entry>
+    <entry key="InterpreterFailed" note="stringDatatypeUpdate">String scalar or character vector must have valid interpreter syntax: {0}</entry>
+    <entry key="FontFailure">Failed to use font</entry>
+    <entry key="UnconvertableCoordinate">Cannot convert position coordinates</entry>
+    <entry key="SymbolFontUnsupported">Symbol font is no longer supported. To display special characters, use TeX or LaTeX markup with the Text Interpreter property set to TeX or LaTeX.</entry>
+    <entry key="LargeFontSizeWarning">The font size of the text being drawn is larger than what the system may be able to display</entry>
+    <entry key="LargeStringLengthException">Text length might be too long to display.</entry>
+  </message>
+</rsccat>

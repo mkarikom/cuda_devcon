@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="XDataSizeMismatch">X 数据必须与 Y 数据大小相同。</entry>
+    <entry key="InvalidNumberDataInputs">数据参数的数目无效。您必须指定 2 个、3 个、4 个或 6 个数据参数。</entry>
+    <entry key="InvalidUseOfOrientation">方向标志只能用于 2 个、3 个或 4 个数据参数。</entry>
+    <entry key="ErrorLabel">错误</entry>
+    <entry key="DeltaArgumentSizeMismatch">错误参数 ''{0}'' 必须为空或与数据大小相同。</entry>
+    <entry key="CategoricalDeltaArgumentNotSupported">当数据是分类数据时，错误参数 ''{0}'' 必须为空。</entry>
+    <entry key="DeltaArgumentTypeMustBeDuration">当数据是日期时间或持续时间时，错误参数 ''{0}'' 必须为持续时间向量。</entry>
+    <entry key="DeltaArgumentTypeMustBeNumeric">当数据为数值时，错误参数 ''{0}'' 必须为数值向量。</entry>
+    <entry key="DeltaSizeMismatch">{0} 必须为空，或者大小与 YData 的大小相同。</entry>
+    <entry key="CategoricalDeltaNotSupported">当数据是分类数据时，{0} 必须为空。</entry>
+    <entry key="DeltaTypeMustBeNumericOrDuration">{0} 必须为数值或持续时间向量。</entry>
+    <entry key="DeltaTypeMustBeDuration">当数据是日期时间或持续时间时，{0} 必须为持续时间向量。</entry>
+    <entry key="DeltaTypeMustBeNumeric">当数据为数值时，{0} 必须为数值向量。</entry>
+  </message>
+</rsccat>

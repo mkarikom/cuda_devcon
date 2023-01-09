@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PrintDialogFailed">印刷ダイアログを開く際にエラー ({0,number,integer}) が発生しました。</entry>
+    <entry key="BadPrinterName">無効なプリンター名 ''{0}'' です。\n</entry>
+  </message>
+</rsccat>

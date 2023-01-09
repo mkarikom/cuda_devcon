@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="maxrhs">입력 인수가 너무 많습니다.</entry>
+    <entry key="badSecondOpt">두 번째 입력값은 생성기 이름여야 합니다.</entry>
+    <entry key="badFirstOpt">첫 번째 입력값은 다음 중 하나여야 합니다. 2^32보다 작은 음이 아닌 정수 시드(seed), ''shuffle'', ''default'', S = RNG를 사용하여 이전에 캡처한 생성기 설정.</entry>
+    <entry key="badSeed">SD는 2^32보다 작은 음이 아닌 정수여야 합니다.</entry>
+    <entry key="unknownRNGType">''{0}''은(는) 유효한 생성기 유형이 아닙니다.</entry>
+    <entry key="badSettings">S는 S = RNG를 사용하여 이전에 캡처한 생성기 설정을 포함해야 합니다.</entry>
+    <entry key="reseedLegacy">현재 난수 생성기는 레거시 생성기입니다.  MATLAB의 레거시 난수 동작을 활성화하는 rand(''state'',0)과 같은 명령이 실행되었으므로 레거시 생성기가 사용되었습니다.  레거시 난수 생성기의 시드값은 RNG를 사용하여 다시 지정할 수 없습니다.\n\nrng(''default'')를 사용하여 난수 생성기를 다시 초기화하거나 rng(seed,''{0}'')과(와) 같은 특정 생성기 유형을 사용하여 RNG를 호출하십시오.</entry>
+    <entry key="createLegacy">''Legacy''는 GENERATOR에 대한 유효한 선택이 아닙니다.  rng(seed,''legacy'')를 사용해서는 레거시 생성기로 전환할 수 없습니다.\n\ns = rng; ... rng(s)를 통해 레거시 난수 생성기 설정을 저장하거나 복원할 수는 있습니다.  하지만, 레거시 난수 생성기 사용은 권장되지 않습니다.  대신 예를 들어 rng(seed,''{0}'')과(와) 같은 현재 생성기 중 하나를 사용하십시오.</entry>
+  </message>
+</rsccat>

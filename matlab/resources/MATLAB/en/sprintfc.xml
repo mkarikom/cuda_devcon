@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invalidFormatType">Numbered argument format conversions are not supported for sprintfc</entry>
+    <entry key="invalidInputAttribute">Function is not defined for sparse inputs.</entry>
+  <!--Resource entries for src/builtins-->
+    <entry key="invalidInputType">Function is not defined for ''{0}'' inputs.</entry>
+    <entry key="invalidThirdInputType">Third argument to sprintfc must be a logical</entry>
+  </message>
+</rsccat>

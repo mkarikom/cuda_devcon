@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EdgeBounds">边索引必须为不大于图中的边数({0})的正整数。</entry>
+    <entry key="NoNodeNames">图形未包含节点名称。</entry>
+    <entry key="UnknownNodeName">图形未包含名为 ''{0}'' 的节点。</entry>
+    <entry key="InconsistentNodeNames">节点 ID 必须均为数值或均为节点名称。</entry>
+    <entry key="maxLHS">输出参数太多。使用 3 个输入参数调用时，findedge 会返回一个输出参数。</entry>
+    <entry key="minLHS">必须对此语法使用两个输出。</entry>
+    <entry key="minRHS">输入参数的数目不足。</entry>
+    <entry key="nonNumericEdges">边索引必须为数值。</entry>
+    <entry key="CodegenComplexEdges">边索引必须为实数。</entry>
+  </message>
+</rsccat>

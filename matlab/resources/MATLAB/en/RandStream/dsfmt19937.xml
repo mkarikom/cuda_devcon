@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidState">Invalid state for a dsfmt19937 generator.</entry>
+    <entry key="InvalidParameter">The dsfmt19937 generator does not accept a parameter.</entry>
+    <entry key="MultipleStreams">Multiple dsfmt19937 streams not supported.</entry>
+  <!--Resource entries for src/mathrng/-->
+  </message>
+</rsccat>

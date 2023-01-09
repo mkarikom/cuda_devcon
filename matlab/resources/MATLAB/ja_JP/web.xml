@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoHelpBrowser">ヘルプ ブラウザーにドキュメンテーション ページを表示するには Java が必要ですが、起動オプションが原因で Java を使用できません。</entry>
+    <entry key="NoBrowser">Web ブラウザーが定義されていません。\n\nシステムの Web ブラウザーを設定するには、"preferences(''''Web'''')" と入力して基本設定ダイアログを表示してください。</entry>
+    <entry key="BrowserNotFoundConfigureInfo">MATLAB がシステムの Web ブラウザーを起動できませんでした。\n\n{0}\n\nシステムの Web ブラウザーを設定するには、"preferences(''''Web'''')" と入力して基本設定ダイアログを表示してください。</entry>
+    <entry key="BrowserNotFound">MATLAB は、システムの Web ブラウザーを起動できませんでした。\n\n{0}</entry>
+    <entry key="NoURL">URL が指定されていません。</entry>
+    <entry key="DialogTitleWarning">MATLAB 警告</entry>
+    <entry key="BrowserOuptputArgRemovedInFutureRelease">[STAT,H] = WEB(___) は、システム ブラウザーで開かれるページのハンドルを返しません。代わりに STAT = WEB(___) を使用してください。</entry>
+    <entry key="BrowserAndUrlOuptputArgsRemovedInFutureRelease">[STAT,H,URL] = WEB(___) は、システム ブラウザーで開かれるページのハンドルまたは URL を返しません。代わりに STAT = WEB(___) を使用してください。</entry>
+    <entry key="UnsupportedEnvironment">MATLAB は、システムの Web ブラウザーを起動できませんでした。\n\nサポートされていない環境です。</entry>
+  </message>
+</rsccat>

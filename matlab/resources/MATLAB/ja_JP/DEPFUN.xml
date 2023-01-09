@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoPrintFile">表示するファイル引数がありません。</entry>
+    <entry key="NoTraceArguments">トレースする引数がありません。</entry>
+    <entry key="InternalError">内部エラー。</entry>
+    <entry key="CannotOpenFileForWrite">ファイル {0} を開けません</entry>
+    <entry key="BadHGStructure">.fig ファイル {0} には複数の項目があります。</entry>
+    <entry key="NotAStringForCallback">名前 ''{0}'' のコールバックは文字ベクトルではありません。</entry>
+    <entry key="FileIsADirectory">''{0}'' 引数はディレクトリです。ファイルでなければなりません。</entry>
+    <entry key="FileDoesNotExist">ファイル ''{0}'' は存在しません。</entry>
+    <entry key="PathBeyondRoot">ファイル {0} はルート ディレクトリまたはドライブを越えた場所にあります。</entry>
+    <entry key="WrongClass">引数 {0,number,integer} は文字またはセル配列ではありません。</entry>
+    <entry key="WrongClassNotCellstr">引数 {0,number,integer} は文字ベクトルのセル配列ではありません。</entry>
+    <entry key="DeprecatedNographics">-nographics 引数はサポートされなくなりました</entry>
+    <entry key="DeprecatedAlwayslog">-alwayslog 引数はサポートされなくなりました</entry>
+    <entry key="FormatNone">[なし]\n</entry>
+    <entry key="FormatTopOnly">(一番上のみ)</entry>
+    <entry key="ReportFilesNotOnMATLABPATH">\n   MATLABPATH 上にないファイル:\n</entry>
+    <entry key="ReportHandleGraphicsFactoryCallbackNames">\n MATLAB グラフィックス要素のコールバック名:\n</entry>
+    <entry key="ReportBuiltinList">\n-&gt; 組み込みリスト:\n</entry>
+    <entry key="ReportMATLABClasses">\n-&gt; MATLAB クラス:\n</entry>
+    <entry key="ReportProblemList">\n-&gt; 問題のリスト:\n</entry>
+    <entry key="ReportProblemSymbolsNOTIMPLEMENTED">\n-&gt; 問題のシンボル:実装されていません\n</entry>
+    <entry key="ReportEvalStrings">\n-&gt; eval で使用する文字ベクトル:\n</entry>
+    <entry key="ReportCalledFromListbyTraceList">\n-&gt; リストからの呼び出し:(trace リストによる)\n</entry>
+    <entry key="ReportCallListbyTraceList">\n-&gt; 呼び出しリスト:(trace リストによる)\n</entry>
+    <entry key="ReportOpaqueClasses">\n-&gt; Opaque のクラス:\n</entry>
+    <entry key="ReportGeneratingHandleGraphicsCallbackNamesToAnalyzefigFil">-&gt; .fig ファイルを解析するため MATLAB グラフィックスのコールバック名を生成中. . .\n</entry>
+    <entry key="ReportDone">-&gt; 終了\n</entry>
+    <entry key="Deprecated">-{0} 引数はサポートされなくなりました。</entry>
+    <entry key="DeprecatedNotrace">-notrace はなくなりました。-toponly を使用してください。</entry>
+    <entry key="DeprecatedAPI">DEPFUN は削除されました。代わりに matlab.codetools.requiredFilesAndProducts を使用してください。</entry>
+    <entry key="DeprecatedDEPDIR">DEPDIR は削除されました。代わりに matlab.codetools.requiredFilesAndProducts を使用してください。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="argumentNotFilename">文件名参数必须为非空字符串或字符向量。</entry>
+    <entry key="notAScalarVariableSubset">第三个参数必须为标量 VariableSubset。</entry>
+    <entry key="NotAMATFile">无法读取 MAT 文件 {0}: 不是二进制 MAT 文件。\n</entry>
+    <entry key="StructSourcesAreExclusive">不支持从多个结构体进行保存。</entry>
+    <entry key="structArgNotScalarStruct">-STRUCT 的参数必须是标量结构体变量的名称。</entry>
+    <entry key="unsupportedTypeForAsciiFile">尝试将不支持的数据类型写入 ASCII 文件。\n\t变量 ''{0}'' 未写入文件。</entry>
+    <entry key="sparseUnsupportedForAsciiFile">不支持将稀疏数组保存到 ASCII 文件。\n\t变量 ''{0}'' 未写入文件。</entry>
+    <entry key="imaginaryDataIgnoredForAsciiFile">复数变量 ''{0}'' 的虚部未保存到 ASCII 文件。</entry>
+    <entry key="cantWriteFile">无法写入文件 ''{0}''。</entry>
+    <entry key="errorClosingFile">无法保存文件 ''{0}''。文件无法关闭，现在可能已损坏。</entry>
+    <entry key="unableToWriteToMatFile">无法写入文件 ''{0}''，因为它似乎已损坏。</entry>
+    <entry key="unableToWriteToVFSMatFile">无法写入 MAT 文件 {0}。</entry>
+    <entry key="unableToWriteToVFSMatFileAppend">无法写入 MAT 文件 {0}。如果是版本 7 或更早版本的 MAT 文件，请考虑使用 '-v7.3' 选项重新保存数据以便从远程位置访问数据。</entry>
+    <entry key="sizeTooBigForMATFile">未保存变量 ''{0}''。对于大于 2GB 的变量，请使用 MAT 文件版本 7.3 或更高版本。</entry>
+    <entry key="nameTooLongForV4MATFile">未保存变量 ''{0}''。对于超过 {1,number,integer} 个字符的名称，请使用 MAT 文件版本 6 或更高版本。</entry>
+    <entry key="illegalClassForV4MATFile">未保存变量 ''{0}''。对于 ''{1}'' 类型的变量，请使用 MAT 文件版本 6 或更高版本。</entry>
+    <entry key="illegalDataForMATFile">未保存变量 ''{0}''。此 MAT 文件版本不支持 ''{1}'' 类型的变量(或者其成员之一)。请使用更新的 MAT 文件版本。</entry>
+    <entry key="illegalDataForMATFileToStdio">无法将 ''{1}'' 类的变量 ''{0}'' 保存到 STDIO。</entry>
+    <entry key="unableToReadMatFileFromStdio">无法从 STDIO 读取 MAT。未知错误。</entry>
+    <entry key="sizeMismatch">右侧的大小与左侧的索引大小不匹配。</entry>
+    <entry key="patternNotMatched">没有与模式 ''{0}'' 匹配的变量。</entry>
+    <entry key="varNotFound">未找到变量 ''{0}''。</entry>
+    <entry key="invalidVarName">''{0}'' 不是有效的变量名称。</entry>
+    <entry key="patternNotMatchedInStruct">变量 ''{0}'' 不包含与模式 ''{1}'' 匹配的字段。</entry>
+    <entry key="fieldNotFoundInStruct">变量 ''{0}'' 不包含名为 ''{1}'' 的字段。</entry>
+    <entry key="illegalStructureField">结构体字段 ''{0}'' 不是有效的结构体字段。</entry>
+    <entry key="VersionsAreExclusive">无法将 -V{0} 选项与 -V{1} 选项结合使用。</entry>
+    <entry key="missingStructArg">-STRUCT 选项必须后跟标量结构体变量的名称。</entry>
+    <entry key="missingFromStructArg">-FROMSTRUCT 选项必须后跟标量结构体变量。</entry>
+    <entry key="filenameIsADirectory">''{0}'' 是一个文件夹名称。FILENAME 必须为有效的文件名。 </entry>
+    <entry key="noParentDir">由于 ''{1}'' 不存在，无法创建 ''{0}''。</entry>
+    <entry key="classMismatch">右侧的类和属性无法转换为文件中的变量的类型。</entry>
+    <entry key="cannotSaveEmptySubset">由于索引子集为空，无法保存变量 ''{0}''。</entry>
+    <entry key="cannotGrowDimensions">变量 ''{0}'' 在文件中的维度为 {1,number,integer}，这与索引下标中的维度 {2,number,integer} 不匹配。</entry>
+    <entry key="cannotSaveEmptyVariable">无法将空数组保存在变量 ''{0}'' 中。</entry>
+    <entry key="tooManyOpen">无法写入文件 {0}: 打开的文件太多。</entry>
+    <entry key="permissionDenied">无法写入文件 {0}: 权限被拒绝。</entry>
+    <entry key="couldNotWriteFile">无法写入文件 {0}: {1}。</entry>
+    <entry key="couldNotGrow">无法增加文件中的变量。</entry>
+    <entry key="SubsetNotSupportedFileType">无法将部分数组保存为 Pre-V7.3 文件格式。请考虑使用 -v7.3 保存您的数据。</entry>
+    <entry key="savingTo">\n正在保存到: {0}\n\n</entry>
+    <entry key="versionWithASCII">将忽略指定的版本。版本标志仅适用于 MAT 文件。</entry>
+    <entry key="versionWithAppend">将忽略指定的版本。使用 '-append' 标志时不需要版本标志。</entry>
+    <entry key="NocompressionNotSupported">此 MAT 文件版本不支持非压缩。请改用 v7 (默认值) 或 v7.3 版的 MAT 文件。</entry>
+    <entry key="UnsupportedSparseAssignment">在 MAT 文件对象中，不支持为稀疏矩阵的子集赋值。</entry>
+    <entry key="UnsupportedMATFileFormatForVFS">不支持在远程位置保存或追加到版本 7 和更早版本的 MAT 文件。请考虑使用 '-v7.3' 选项保存您的数据。</entry>
+    <entry key="UnsupportedOperationASCIIForVFS">不支持在远程位置保存或追加到 ASCII 文件。请考虑将您的数据保存在版本 7.3 的 MAT 文件中。</entry>
+    <entry key="UnsupportedFileExtensionForVFS">保存或追加到远程位置的 MAT 文件不支持 '.mat' 以外的文件扩展名。</entry>
+  </message>
+</rsccat>

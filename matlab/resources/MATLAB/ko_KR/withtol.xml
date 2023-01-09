@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidTolerance">허용오차 값은 음이 아닌 스칼라 duration형이어야 합니다.</entry>
+    <entry key="InvalidSubscripter">WITHTOL을 사용한 첨자는 타임테이블의 행을 선택할 때만 지원됩니다.</entry>
+    <entry key="MismatchRowTimesType">{0} 행 시간값을 갖는 타임테이블에 대한 첨자는 {1} 값을 사용하여 표현될 수 없습니다.</entry>
+    <entry key="LargeTolerance">허용오차가 가장 작은 첨자 시간값 간격의 절반을 초과하므로, 중복된 행이 선택될 수 있습니다. 허용오차는 {0}보다 작아야 합니다.</entry>
+    <entry key="TabularInput">timetable형은 유효한 입력 인수가 아닙니다. WITHTOL을 datetime형이나 duration형과 함께 호출하고, 출력값을 타임테이블에 대한 첨자로 사용하십시오.</entry>
+    <entry key="IncompatibleLoad">이 MATLAB 버전과 호환되지 않으므로 저장된 withtol 객체를 불러올 수 없음</entry>
+    <entry key="UIStringDispHeader">타임테이블의 &lt;a href="matlab:doc(''withtol'')"&gt;withtol&lt;/a&gt; 첨자:</entry>
+    <entry key="UIStringDispTimes">다음 시간값과 일치하는 타임테이블 행을 선택하십시오.</entry>
+    <entry key="UIStringDispTolerance">+/- {0}의 허용오차를 가짐</entry>
+    <entry key="UIStringDispSnipFooter">... 및 {0} 이상</entry>
+    <entry key="UIStringDispFooter">&lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','subscript-into-times-of-timetable.html'))"&gt;행 시간값 및 변수 유형을 기준으로 타임테이블 데이터 선택하기&lt;/a&gt;를 참조하십시오.</entry>
+    <entry key="LargeToleranceCodegen">허용오차가 가장 작은 첨자 시간값 간격의 절반을 초과하므로, 중복된 행이 선택될 수 있습니다.</entry>
+    <entry key="DatetimeNotSupported">코드 생성 시 datetime형 행 시간 값은 지원되지 않습니다. 행 시간값을 duration형 벡터로 대신 지정하십시오.</entry>
+    <entry key="TextInputsNotSupported">코드 생성 시 행 시간값 또는 허용오차를 문자형 벡터 또는 문자형 벡터로 구성된 셀형 배열로 지정할 수 없습니다. duration형을 대신 지정하십시오.</entry>
+  </message>
+</rsccat>

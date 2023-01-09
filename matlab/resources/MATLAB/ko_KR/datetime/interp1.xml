@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="XandXqBothDatetimes">X와 XQ는 모두 datetime형 배열이거나 모두 숫자형이어야 합니다.</entry>
+    <entry key="VandExtrapValBothDatetimes">V와 EXTRAPVAL은 모두 datetime형 배열이거나 모두 숫자형이어야 합니다.</entry>
+    <entry key="GridPointMinimumDifference">datetime형 그리드 점 X의 범위가 {0}이지만 점 간의 최소 차분이 {1}밖에 되지 않기 때문에 보간을 수행할 수 없습니다.</entry>
+  </message>
+</rsccat>

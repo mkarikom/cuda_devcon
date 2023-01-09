@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="badcell">Invalid cell array of time series. Cell array arguments must be cell vectors of time series objects.</entry>
+    <entry key="badinput">The second attribute of addts must be either an array or a time series object.</entry>
+    <entry key="badname" note="stringDatatypeUpdate">The time series name must be a character vector or a string.</entry>
+    <entry key="dupinputnames">The names of time series you are trying to add must be unique (after conversion to MATLAB variable names using matlab.lang.makeValidName)</entry>
+    <entry key="dupexistingname">The name of the time series you are trying to add (after conversion to a MATLAB variable name using matlab.lang.makeValidName) conflicts with the name of an existing member.</entry>
+    <entry key="baddata">Data is not compatible with tscollection length</entry>
+  </message>
+</rsccat>

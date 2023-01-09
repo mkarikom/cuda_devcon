@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UIStringCustomPropertiesHeader">カスタム プロパティ (t.Properties.CustomProperties.&lt;名前&gt; を使用してアクセス):</entry>
+    <entry key="UIStringNoCustomPropertiesHeader">カスタム プロパティが設定されていません。\n {0} と {1} を使用して CustomProperties を変更してください。</entry>
+  </message>
+</rsccat>

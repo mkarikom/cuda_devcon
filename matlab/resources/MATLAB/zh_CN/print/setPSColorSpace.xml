@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CharArgs">输入参数必须为字符向量。</entry>
+    <entry key="ColorSpace">ColorSpace 参数必须为 ''cmyk''、''gray'' 或 ''cmykgray''。</entry>
+    <entry key="InconsistentTypes">输出文件与输入文件的文件扩展名必须相同。</entry>
+    <entry key="BadInputFile">无法打开要读取的输入文件。</entry>
+    <entry key="NotPostScript">该输入文件似乎不是 PostScript 文件。</entry>
+    <entry key="NotFreeHEP">该输入文件似乎不是可以修改设置颜色空间的 PostScript 文件。</entry>
+    <entry key="BadOutputFile">无法打开要写入的输出文件。</entry>
+  </message>
+</rsccat>

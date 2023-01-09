@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InsufficientCopyArguments">The CLIPBOARD function requires two input arguments when copying.</entry>
+    <entry key="InvalidSecondArgument">The second argument to CLIPBOARD function must be a numeric array, character vector or string scalar.</entry>
+    <entry key="IncorrectUsage">Usage: CLIPBOARD(''copy'',stuffToCopy) or OUT = CLIPBOARD(''paste'')</entry>
+    <entry key="MatlabOnlineSupport">CLIPBOARD(''pastespecial'') not supported in MATLAB Online</entry>
+  </message>
+</rsccat>

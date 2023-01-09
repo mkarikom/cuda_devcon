@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadStringArg">{0}은(는) 문자형 벡터이거나 string형 스칼라여야 합니다.</entry>
+    <entry key="BadSyntax">관련 없는 인수가 입력되었습니다. 도움말 문서를 확인하십시오.</entry>
+    <entry key="BadFilename">Filterspec은 문자형 벡터, string형 배열 또는 셀형 배열이어야 합니다.</entry>
+    <entry key="EmptyDescriptors">파일 필터 설명자(File Filter Descriptor)는 비워둘 수 없습니다.</entry>
+  </message>
+</rsccat>

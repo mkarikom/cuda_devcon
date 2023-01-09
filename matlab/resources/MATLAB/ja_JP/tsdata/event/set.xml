@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invOutArg">出力引数は SET(E) または SET(E,Property) 内でのみ許容されます。</entry>
+    <entry key="invVarArg">SET の最初の引数は名前付き変数でなければなりません。</entry>
+    <entry key="invPropValPairs">プロパティ/値のペアは偶数でなければなりません。</entry>
+  </message>
+</rsccat>

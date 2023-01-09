@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CannotDisplayMoreThanOneFourFourAxes">144 より多くの座標軸を表示できません。演算式のダイアログを使用して列数を減らしてください。</entry>
+    <entry key="CannotShowTheCorrelationPlot">2 つの時系列が異なる長さをもつため相関プロットを表示できません。相関プロットを表示するには、時系列を編集してそれらが同じ長さをもつようにするか、他の選択を行ってください。</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="Versus">と</entry>
+    <entry key="Autocorrelation">自己相関</entry>
+    <entry key="Crosscorrelation">相互相関</entry>
+  </message>
+</rsccat>

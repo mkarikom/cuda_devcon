@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WrongNumberOfComponentsException">Cdata에는 1개, 3개 또는 4개의 요소가 있어야 함</entry>
+    <entry key="NumColorsNotEqualNumVertsException">색 개수는 꼭짓점 개수와 같아야 함</entry>
+    <entry key="NumColorsNotEqualNumVertsOrNumFacesException">색 개수는 꼭짓점 또는 면 개수와 같아야 함</entry>
+    <entry key="NumAlphaNotEqualNumVertsException">알파 값 개수는 꼭짓점 개수와 같아야 함</entry>
+    <entry key="NumAlphaNotEqualNumVertsOrNumFacesException">알파 값 개수는 꼭짓점 또는 면 개수와 같아야 함</entry>
+    <entry key="UnsupportedColorStyleException">이 색 스타일은 아직 구현되지 않음</entry>
+    <entry key="InterpColorFailure">새 꼭짓점에 대한 facecolor를 보간할 수 없음</entry>
+    <entry key="InterpNormalFailure">새 꼭짓점에 대한 vertexnormal을 보간할 수 없음</entry>
+    <entry key="mxArrayBadType">Faces 배열이 지원하지 않는 유형임</entry>
+    <entry key="MarkerFaceColorNotEqualToNumColors">MarkerFaceColor가 Flat일 경우 색 개수는 꼭짓점 개수와 같아야 함</entry>
+    <entry key="MarkerFaceColorNotEqualToNumColorsEmpty">값이 비어 있습니다. MarkerFaceColor가 Flat일 경우 색 개수는 꼭짓점 개수와 같아야 함</entry>
+    <entry key="FacesToVerticesDataInconsistency">Faces에 있는 값은 1에서 꼭짓점 개수까지의 범위 내에 있어야 함</entry>
+    <entry key="FaceVertexAlphaDataNull">FaceAlpha가 flat 또는 interp일 경우에는 FaceVertexAlphaData를 지정해야 합니다.</entry>
+    <entry key="FaceColorToAlphaInconsistency">FaceColor가 interp 인덱스 색상인 경우 flat 또는 interp 트루 알파는 지원되지 않음</entry>
+    <entry key="VertexNormalsToVerticesInconsistency">사용되는 조명 모드가 Gouraud일 경우 VertexNormals 크기는 Vertices 크기와 같아야 함</entry>
+    <entry key="InvalidVertexNormals">사용되는 조명 모드가 Gouraud일 경우 VertexNormals는 빈 배열일 수 없음</entry>
+    <entry key="FaceNormalsToFacesInconsistency">사용되는 조명 모드가 Flat일 경우 FaceNormals 크기는 Faces 크기와 같아야 함</entry>
+    <entry key="InvalidFaceNormals">사용되는 조명 모드가 Flat일 경우 FaceNormals는 빈 배열로 지정될 수 없음</entry>
+  </message>
+</rsccat>

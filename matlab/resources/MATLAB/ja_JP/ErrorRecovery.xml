@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ItemNoLongerOnPath">''{0}'' は現在のフォルダーまたは MATLAB パス上に見つかりませんが、次の場所にあります:\n {1}\n\n{2} または {3}。</entry>
+    <entry key="ItemNoLongerOnPathOnlyCD">''{0}'' is not found in the current folder or on the MATLAB path, but exists in:\n    {1}\n\n{2}.</entry>
+    <entry key="ItemNoLongerOnPathChangeCurrentFolder">MATLAB の現在のフォルダーを変更</entry>
+    <entry key="ItemNoLongerOnPathAddToPath">そのフォルダーを MATLAB パスに追加</entry>
+    <entry key="OutOfFileHandles">これ以上ファイルを開くことができません。MATLAB が不安定にならないようにファイルを閉じてください。</entry>
+    <entry key="ShadowedFunction">''{0}'' が関数と変数の両方として存在しています。これが意図的でない場合は、''{1}'' を使用して変数 ''{0}'' をワークスペースから削除してください。</entry>
+    <entry key="TimeoutValueNotValid">タイムアウト値は正のスカラー数値でなければなりません。</entry>
+    <entry key="UnlicensedFunctionInMultipleProducts">''{0}'' には次のいずれかが必要です:{1}</entry>
+    <entry key="UnlicensedFunctionInSingleProduct">''{0}'' には {1} が必要です。</entry>
+    <entry key="UnsupportedOperator">''{1}'' タイプのオペランドに対して、演算子 ''{0}'' はサポートされていません。</entry>
+    <entry key="UnsupportedUnaryOperator">''{1}'' タイプのオペランドに対して、単項演算子 ''{0}'' はサポートされていません。</entry>
+    <entry key="ValidArgumentTypeMissing">関数 ''{0}'' の呼び出しで、正しくない引数データ型または欠落した引数をチェックしてください。</entry>
+    <entry key="VariableNoLongerInWorkspace">''{0}'' は MATLAB ワークスペースにありませんが、以前には存在していました:\n\n{1} または {2}。</entry>
+    <entry key="VariableNoLongerInWorkspaceRecreate">{0} を再作成してください</entry>
+    <entry key="VariableNoLongerInWorkspaceCreateScript">{0} のスクリプトを作成してください</entry>
+    <entry key="NoLongerSupported">{0}</entry>
+    <entry key="ShadowedFunctionClear">clear {0}</entry>
+    <entry key="ShadowedFunctionBuiltinClear">builtin clear clear</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="VarEditorIndexOverflow">構造体配列は空のフィールドをもってはならないため、既存のフィールドのすぐ右側にしかデータを追加できません。\n新しいフィールドは使用可能な次の列に追加されます。</entry>
+    <entry key="InvalidVariableName">''{0}'' は有効な変数名ではありません。</entry>
+    <entry key="DuplicateVarnames">変数名が重複しています。</entry>
+    <entry key="InvalidSort">フィールドの値はすべて同じ型でなければなりません。</entry>
+    <entry key="VariableExists">変数名を変更できませんでした。\n\n "{0}" という名前の変数は既に存在します。
+</entry>
+    <entry key="InvalidRenameFieldOnEdit">フィールドの名前を変更できません。\n\n "{0}" は有効な MATLAB フィールド名ではありません。\n MATLAB フィールド名は以下を満たさなければなりません:\n
+</entry>
+    <entry key="InvalidRenameVarOnEdit">変数名を変更できません。\n\n "{0}" は有効な MATLAB 変数名ではありません。\n MATLAB 変数名は以下を満たさなければなりません:\n
+</entry>
+    <entry key="InvalidRenameMsgOnEdit">        
+    - 文字で始まる\n- 英数字とアンダースコアのみを含む\n- MATLAB キーワードではない\n- 長さが 63 文字を超えない
+</entry>
+    <entry key="EditFailedTitle">編集に失敗しました</entry>
+    <entry key="TooManyElements">&lt;要素が多すぎます&gt;</entry>
+  </message>
+</rsccat>

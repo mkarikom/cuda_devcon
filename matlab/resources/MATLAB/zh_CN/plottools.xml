@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidhandle">PLOTTOOLS 的第一个输入参数应为有效句柄</entry>
+    <entry key="UnsupportedPlatform">此平台不支持绘图工具。</entry>
+    <entry key="DlgPleaseEnterAVariableNameOrAValidMExpression">{0}\n\n请输入变量名称或有效的 MATLAB 表达式。</entry>
+    <entry key="DlgUnknownDataSource">未知数据源</entry>
+    <entry key="DlgMATLABError">MATLAB 错误</entry>
+    <entry key="DlgFirstArgumentToPlotExpressionsMustBeAnAxesHandle">plotExpressions 的第一个参数必须为坐标区句柄!</entry>
+    <entry key="DlgFirstArgumentMustBeAFigureHandle">第一个参数必须为图窗句柄!</entry>
+    <entry key="DlgFirstArgumentToGetBarAreaColorMustBeAFigureHandle">getBarAreaColor 的第一个参数必须为图窗句柄!</entry>
+    <entry key="BrowserOverflow">以及另外 {0,number,integer} 个...</entry>
+    <entry key="InvalidPlotToolsState">plottools 命令的状态无效。</entry>
+    <entry key="DlgLayoutNotSupported">TiledChartLayout 中的图不支持交互式子图排列。</entry>
+  </message>
+</rsccat>

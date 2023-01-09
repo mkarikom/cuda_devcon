@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="noarray">Only one object may be passed to set for information about possible property values.</entry>
+    <entry key="propValPairs">Property/value pairs must come in even number.</entry>
+    <entry key="nostruct">Time series properties cannot be assigned to structures or structure arrays</entry>
+    <entry key="noinplaceset">Cannot assign properties in-place when a timeseries is defined using an expression or a sub-referenced array.</entry>
+  </message>
+</rsccat>

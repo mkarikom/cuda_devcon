@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidLineSpec">Invalid marker specification. Type ''help plot''.</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="InvalidXYMatrices">X and Y must be 2-D.</entry>
+    <entry key="XYSizeMismatch">X and Y must have the same number of rows and pages.</entry>
+    <entry key="AutoResizeChildren">Adding a plotmatrix to a container with the ''AutoResizeChildren'' property set to ''on'' is not supported.</entry>
+  </message>
+</rsccat>

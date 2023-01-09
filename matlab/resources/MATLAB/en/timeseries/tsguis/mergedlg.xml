@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="Cancel">Cancel</entry>
+      <entry key="CreateNewTimeSeries">Create new time series</entry>
+      <entry key="DefineTimeSeries">Define Time series</entry>
+      <entry key="Empty">empty</entry>
+      <entry key="EmptyTimeVector">Empty time vector</entry>
+      <entry key="EndTime">End time:  {0}</entry>
+      <entry key="Help">Help</entry>
+      <entry key="IntersectionOfTimeVectorsOnTheInterval">Intersection of time vectors on the interval where they overlap</entry>
+      <entry key="InvalidTimeInterval">Invalid time interval</entry>
+      <entry key="Modifyyn">Modify (y/n)?</entry>
+      <entry key="NewTimeVector">New Time Vector</entry>
+      <entry key="NumberOfSamples">Number of samples</entry>
+      <entry key="OK">OK</entry>
+      <entry key="OverwriteSelectedTimeSeries">Overwrite selected time series</entry>
+      <entry key="Path">Path</entry>
+      <entry key="ResampleData">Resample Data</entry>
+      <entry key="ResamplingCannotProduceTimeSeries">Resampling cannot produce time series with only one sample or with more than 1e8 samples.</entry>     
+      <entry key="ResultingTimeVectorIsEmptyOperationAborted">Resulting time vector is empty. Operation aborted.</entry>
+      <entry key="SelectThePlot">Select the plot</entry>
+      <entry key="StartEnd">Start - end</entry>
+      <entry key="StartTime">Start time: {0}</entry>
+      <entry key="SpecifyNewTimeVector">Specify New Time Vector</entry>
+      <entry key="TimeSeries">Time series</entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+      <entry key="UniformTimeVectorWithTimeInterval">Uniform time vector with time interval</entry>
+      <entry key="UnionOfTimeVectorsOnTheIntervalWhereTheyOverlap">Union of time vectors on the interval where they overlap</entry>
+      <entry key="UseTimeVectorFromTimeSeries">Use time vector from time series</entry>
+      <entry key="YouCanOnlyResampleOneOrTwoTimeSeries">You can only resample one or two time series.</entry>
+  </message>
+</rsccat>

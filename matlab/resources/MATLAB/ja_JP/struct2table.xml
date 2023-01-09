@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonScalar">''AsArray'' が false の場合、入力構造体はスカラー構造体でなければなりません。</entry>
+    <entry key="NotVector">入力構造体はスカラー構造体であるか、1 つの列または 1 つの行をもつ構造体配列でなければなりません。</entry>
+    <entry key="UnequalFieldLengths">入力構造体はスカラーですが、そのフィールドの行数はさまざまです。1 行の table を作成するには、''AsArray'' を true に設定します。</entry>
+    <entry key="NonconstantAsArray">''AsArray'' パラメーター値は定数でなければなりません。</entry>
+  </message>
+</rsccat>

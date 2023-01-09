@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="sparseDimensionBad">用于串联的稀疏矩阵的维度必须 &lt;= 2。</entry>
+    <entry key="incompatibleType">要串联的数组具有不兼容的类。</entry>
+    <entry key="structFieldBadNumber">串联的结构体数组中的字段数不匹配。结构体数组串联要求这些数组包含相同的字段集。</entry>
+    <entry key="structFieldBadNames">串联的结构体数组中的字段名称不匹配。结构体数组串联要求这些数组包含相同的字段集。</entry>
+    <entry key="emptyArrayColumnsDimensionMismatch">此串联操作包含列数不正确的空数组。\n在未来的版本中，包含空数组的串联要求所有数组的列数相同。</entry>
+    <entry key="emptyArrayRowsDimensionMismatch">此串联操作包含行数不正确的空数组。\n在未来的版本中，包含空数组的串联要求所有数组的行数相同。</entry>
+    <entry key="cellDimensionMismatch">串联的元胞数组的维度不一致。</entry>
+    <entry key="sparseDimensionMismatch">串联涉及转换到具有 2 个以上维度的稀疏数组。</entry>
+    <entry key="opaqueDimensionMismatch">串联的对象数组的维度不一致。</entry>
+    <entry key="matrixDimensionMismatch">要串联的数组的维度不一致。</entry>
+    <entry key="implicitTypeConversionGivesDimensionMismatch">串联维度不一致，因为 {0} ''{1}'' 数组已转换为 {2} ''{3}'' 数组。请在串联之前考虑创建相同类型的数组。</entry>
+    <entry key="resultDimensionMismatch">生成数组的维度与串联的数组的维度不一致。</entry>
+    <entry key="maxNDims">DIM 输入超出了最大维数。</entry>
+    <entry key="invalidDimension">维度参数必须为正整数实标量。</entry>
+  </message>
+</rsccat>

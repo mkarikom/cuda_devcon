@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" decorate_cxx_names="1">
+  <message>
+      <entry key="InvalidType">Only numericPtr data types may have their dimensions set.</entry>
+      <entry key="TooManyDimensions">A max of 2 dimensions are supported.</entry>
+      <entry key="MustBeNumeric">Pointer data type must be a numericPtr type to reshape.</entry>
+  </message>
+</rsccat>

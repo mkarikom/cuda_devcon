@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="V6">The Version 6 property editor is no longer available. Sorry!</entry>
+    <entry key="NoopenFirst">The -noopen argument requires that you provide a handle.</entry>
+    <entry key="NoselectFirst">The -noselect argument requires that you provide a handle.</entry>
+    <entry key="TabFirst">The -t argument requires that you provide a handle.</entry>
+    <entry key="NeedsHandle" note="stringDatatypeUpdate">The first argument must be an object or a list of objects, not a character vector.</entry>
+    <entry key="NoValidHandles">No valid objects or handles were provided to propedit.</entry>
+    <entry key="InvalidObjectsPassed">No valid objects passed to propedit</entry>
+  </message>
+</rsccat>

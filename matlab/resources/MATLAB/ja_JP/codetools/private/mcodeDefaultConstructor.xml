@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UncommentLineToPreserveXlimits">Axes の X 軸の範囲を保持するために以下のラインのコメントを解除</entry>
+    <entry key="UncommentLineToPreserveylimits">Axes の Y 軸の範囲を保持するために以下のラインのコメントを解除</entry>
+    <entry key="UncommentLineToPreservezlimits">Axes の Z 軸の範囲を保持するために以下のラインのコメントを解除</entry>
+    <entry key="CurrentlyDoesNotSupportCodeGen">{0} は、現在コード生成をサポートしていません。''doc {1}'' と入力して構文を正しく入力してください</entry>
+    <entry key="InOrderToGenerateCodeUseGUIDE">{0} のコードの生成には GUIDE が使用できます。詳細については ''doc guide'' と入力してください</entry>
+    <entry key="SetRemainingAxesPropertiesComment">残りの座標軸プロパティの設定</entry>
+    <entry key="SetActiveDataSpaceComment">座標軸の {0} 側をアクティブにする</entry>
+  </message>
+</rsccat>

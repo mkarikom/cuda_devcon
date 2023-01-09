@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FileNotFound">XLS ファイル {0} を読み込めません。ファイルを開けません。</entry>
+    <entry key="FileEmpty">XLS ファイル {0} を読み込めません。ファイルは空です。</entry>
+    <entry key="FileFormat">XLS ファイル {0} を読み込めません。ファイルは認識可能な形式ではありません</entry>
+  </message>
+</rsccat>

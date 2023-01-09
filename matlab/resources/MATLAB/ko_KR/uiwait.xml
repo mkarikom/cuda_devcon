@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInputType">입력 인수는 Figure 유형이어야 함</entry>
+    <entry key="InvalidSecondInputType">두 번째 입력값은 숫자형이어야 함</entry>
+    <entry key="InvalidSecondInputValue">제한 시간 값은 1초보다 작을 수 없으므로 제한 시간 값이 1초로 변경됩니다.</entry>
+  </message>
+</rsccat>

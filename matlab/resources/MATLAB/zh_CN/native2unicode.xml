@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManyDimensions">参数必须为二维。</entry>
+    <entry key="NonVectorInput">必须至少有一个维度等于 1。</entry>
+    <entry key="InvalidType">输入必须为数值、字符向量或字符串标量。</entry>
+    <entry key="NonVectorOutput">输出中至少有一个维度必须等于 1。</entry>
+    <entry key="Encoding">编码</entry>
+    <entry key="InputTooLarge">输入必须包含少于 2^30 个元素。</entry>
+  </message>
+</rsccat>

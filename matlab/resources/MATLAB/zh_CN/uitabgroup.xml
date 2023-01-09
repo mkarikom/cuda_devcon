@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="OldVersion">uitabgroup 对象尚未公开，其部分属性在以后的版本中将被弃用。\n有关重写 uitabgroup 的现有代码以便使用更新的属性的帮助，请参阅此&lt;a href="{0}"&gt;链接&lt;/a&gt;。\n</entry>
+    <entry key="DeprecatedFunction">uitabgroup 的此实现已弃用，不再受支持。</entry>
+    <entry key="InvalidParent">父级必须为图窗、uipanel 或 uitab</entry>
+    <entry key="InvalidChild">子级必须为 UITab</entry>
+    <entry key="MigratingFunction">uitabgroup 已废弃 v0 标志。要继续使用此功能，请删除作为第一个参数的 v0</entry>
+    <entry key="MigratedFunction">不再支持 v0 选项。要继续使用此功能，请删除作为第一个参数的 ''v0''</entry>
+  </message>
+</rsccat>

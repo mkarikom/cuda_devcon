@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invts">append 메서드의 모든 인수는 timeseries 객체여야 합니다.</entry>
+    <entry key="nooverlap">지정한 시계열의 시간 벡터는 연속적이어야 합니다.</entry>
+    <entry key="errdim">데이터 배열은 샘플 크기가 동일해야 합니다.</entry>
+  </message>
+</rsccat>

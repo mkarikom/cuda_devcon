@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AddPlot">プロットの追加</entry>
+    <entry key="Correlations">相関</entry>
+    <entry key="CorrelationPlot">相関プロット: </entry>
+    <entry key="CurrentPlots">現在のプロット</entry>
+    <entry key="Dimensions">次元</entry>
+    <entry key="DomainLimits">領域制限</entry>
+    <entry key="EditPlot">プロットの編集...</entry>
+    <entry key="Histogram">ヒストグラム: </entry>
+    <entry key="Histograms">ヒストグラム</entry>
+    <entry key="MoveTimeSeries">時系列の移動</entry>
+    <entry key="NewPlot">新規プロット...</entry>
+    <entry key="NodeLabel">ノード ラベル</entry>
+    <entry key="Path">パス</entry>
+    <entry key="RemovePlot">プロットの削除</entry>
+    <entry key="RescaleTimeSeries">時系列の再スケーリング</entry>
+    <entry key="SelectData">データの選択</entry>
+    <entry key="SelectFrequencyIntervals">周波数間隔の選択</entry>
+    <entry key="SelectPoints">ポイントの選択</entry>
+    <entry key="SelectTimeIntervals">時間間隔の選択</entry>
+    <entry key="SelectYRangeInterval">Y の範囲区間の選択</entry>
+    <entry key="SpectralPlot">スペクトル プロット: </entry>
+    <entry key="SpectralPlots">スペクトル プロット</entry>
+    <entry key="TheSpecifiedNameConflicts">指定した名前は、同じタイプの既存のプロットの名前と競合しています。競合を解決するために接尾辞が追加されます。</entry>
+    <entry key="TimePlot">時間プロット: </entry>
+    <entry key="TimePlots">時間プロット</entry>
+    <entry key="TimeSeries">時系列</entry>
+    <entry key="TimeSeriesInSelectedView">選択したビュー内の時系列</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="Title">タイトル</entry>
+    <entry key="XYPlots">XY プロット</entry>
+    <entry key="XYPlot">XY プロット: </entry>
+    <entry key="CopyOf">Copy_of_{0}</entry>
+    <entry key="CopyOfNumber">Copy_of_{0,number,integer}_{1}</entry>
+    <entry key="ViewNumber">View{0,number,integer}</entry>
+  </message>
+</rsccat>

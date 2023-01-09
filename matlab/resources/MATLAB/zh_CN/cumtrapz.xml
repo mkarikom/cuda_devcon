@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="xNotVector">X 必须为向量。</entry>
+    <entry key="LengthXMismatchY">点间距必须为指定均匀间距的标量，或者为每个数据点的 x 坐标向量。</entry>
+  </message>
+</rsccat>

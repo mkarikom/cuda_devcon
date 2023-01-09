@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidArgs">入力引数の数が正しくありません。</entry>
+    <entry key="CannotSpecifyPVPairsWithNumericConvenienceArg">数値の Figure のハンドルはパラメーターと値のペアではサポートされません。</entry>
+    <entry key="InvalidConvenienceArgHandle">最初の引数は、figure オブジェクトや panel オブジェクトなどの有効な親でなければなりません。</entry>
+    <entry key="InvalidFigureArgHandle">引数は figure オブジェクトまたは正の整数でなければなりません。</entry>
+    <entry key="CannotSpecifyPVPairsWithNonParentConvenienceArg">入力の組み合わせが無効です。パラメーターと値のペアは、figure オブジェクトまたは panel オブジェクトなどの有効な親で指定しなければなりません。</entry>
+    <entry key="CannotSpecifyConvenienceArg">入力引数はパラメーターと値のペアでなければなりません。各パラメーター名の後には対応する値が必要です。</entry>
+    <entry key="ObjectIsNotParentedToAFigure">オブジェクトはまだ Figure の親になっていません。</entry>
+    <entry key="NoDefaultPropertyAvailable">There is no Default property ''{0}'' for the ''{1}'' class.</entry>
+    <entry key="PropertyDoesNotExist">There is no ''{0}'' property in the ''{1}'' class.</entry>
+    <entry key="DoubleConvertibleArgument">非数値データは ''{0}'' でサポートされていません。</entry>
+    <entry key="DoubleConvertibleArgumentDatetime">データは数値、datetime、duration であるか、double に変換可能な配列でなければなりません。</entry>
+  </message>
+</rsccat>

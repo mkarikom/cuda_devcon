@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedMode">方向は ''ascend'' または ''descend'' であるか、それらの方向を含む string 配列または cell 配列でなければなりません。</entry>
+    <entry key="WrongLengthMode">方向は、並べ替える変数ごとに 1 つの要素をもたなければなりません。</entry>
+    <entry key="EmptyRowNames">入力 table に行名が含まれていないため、入力を並べ替えなしで返します。</entry>
+    <entry key="BadNumericVarIndices">数値変数のインデックスは、正または負の整数でなければなりません。</entry>
+    <entry key="NDVar">並べ替え変数 ''{0}'' は 2 より大きい次元をもちます。</entry>
+    <entry key="SortOnVarFailed">型が ''{1}'' である変数 ''{0}'' を並べ替えるときにエラーが発生しました。</entry>
+    <entry key="SortrowsOnVarFailed">型が ''{1}'' である変数 ''{0}'' の行を並べ替えるときにエラーが発生しました。</entry>
+    <entry key="NonConstantVars">In code generation, sorting variables must be specified as constant.</entry>
+    <entry key="MultiColumnCellstr">Sortrows does not support multi-column cellstr variables in code generation.</entry>
+    <entry key="NVPairsCellstr">Sortrows only supports specifying direction for cellstr variables. Other parameters are not supported in code generation.</entry>
+  </message>
+</rsccat>

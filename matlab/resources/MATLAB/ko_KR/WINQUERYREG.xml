@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidarg">인수는 유효한 문자형 벡터 또는 string형 스칼라여야 합니다.</entry>
+    <entry key="invalidnumargMsg1">두 개의 인수가 필요합니다.</entry>
+    <entry key="invalidnumargMsg2">'name' 뒤에 두 개의 인수가 필요합니다.</entry>
+    <entry key="invalidkey">지정된 키가 유효하지 않습니다.</entry>
+    <entry key="stringerror">환경 변수를 확장할 수 없습니다.</entry>
+    <entry key="queryerrorMsg1">유형 REG_BINARY의 값을 쿼리할 수 없습니다.</entry>
+    <entry key="queryerrorMsg2">유형 REG_BIG_ENDIAN의 값을 쿼리할 수 없습니다.</entry>
+    <entry key="queryerrorMsg3">유형 REG_LINK의 값을 쿼리할 수 없습니다.</entry>
+    <entry key="queryerrorMsg4">유형 REG_MULTI_SZ의 값을 쿼리할 수 없습니다.</entry>
+    <entry key="queryerrorMsg5">유형 REG_NONE의 값을 쿼리할 수 없습니다.</entry>
+    <entry key="queryerrorMsg6">유형 REG_RESOURCE_LIST의 값을 쿼리할 수 없습니다.</entry>
+    <entry key="queryerrorMsg7">알 수 없는 유형의 값을 쿼리할 수 없습니다.</entry>
+    <entry key="invalidnumarg">{0}</entry>
+    <entry key="queryerror">{0}</entry>
+  </message>
+</rsccat>

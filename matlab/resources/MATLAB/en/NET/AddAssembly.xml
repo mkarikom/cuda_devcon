@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\schema\msgcat.xsd" decorate_cxx_names="1">
+   <message>
+    <entry key="LoadError">Could not load the assembly ''{0}''.</entry>
+    <entry key="EmptyAssemblyName">Assembly name cannot be empty.</entry>
+    <entry key="InvalidAssemblyName"  note="stringDatatypeUpdate">Input to NET.addAssembly must be a character vector or an instance of ''System.Reflection.AssemblyName'' class.</entry>
+    <entry key="nameConflict">Assembly ''{0}'' has already been added from location ''{1}''.</entry>
+    <entry key="GACLoadError">''{0}'' could not be found in the .NET Global Assembly Cache (GAC).</entry>
+   </message>
+ </rsccat>

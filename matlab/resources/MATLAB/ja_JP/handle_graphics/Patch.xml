@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WrongNumberOfComponentsException">Cdata は、1、3 または 4 コンポーネントをもつ必要があります</entry>
+    <entry key="NumColorsNotEqualNumVertsException">色数は頂点の数と等しくなければなりません</entry>
+    <entry key="NumColorsNotEqualNumVertsOrNumFacesException">色数は頂点の数または面の数と等しくなければなりません</entry>
+    <entry key="NumAlphaNotEqualNumVertsException">アルファ値の数は頂点の数と等しくなければなりません</entry>
+    <entry key="NumAlphaNotEqualNumVertsOrNumFacesException">アルファ値の数は頂点の数または面の数と等しくなければなりません</entry>
+    <entry key="UnsupportedColorStyleException">この色のスタイルはまだ実装されていません</entry>
+    <entry key="InterpColorFailure">新しい頂点に対する facecolor を内挿できませんでした</entry>
+    <entry key="InterpNormalFailure">新しい頂点に対する vertexnormal を内挿できませんでした</entry>
+    <entry key="mxArrayBadType">Faces 配列でサポートされていない型</entry>
+    <entry key="MarkerFaceColorNotEqualToNumColors">MarkerFaceColor が Flat の場合、色数は頂点の数と等しくなければなりません</entry>
+    <entry key="MarkerFaceColorNotEqualToNumColorsEmpty">値は空であり、MarkerFaceColor が Flat の場合、色数は頂点の数と等しくなければなりません</entry>
+    <entry key="FacesToVerticesDataInconsistency">Faces の値は、1 から頂点の数までの範囲内になければなりません</entry>
+    <entry key="FaceVertexAlphaDataNull">FaceAlpha が flat または interp の場合は、FaceVertexAlphaData を指定しなければなりません</entry>
+    <entry key="FaceColorToAlphaInconsistency">FaceColor に interp でインデックス化されている場合、flat または interp が true の alpha はサポートされません。</entry>
+    <entry key="VertexNormalsToVerticesInconsistency">使用するライティング モードが Gouraud の場合、VertexNormals と Vertices のサイズは同じでなければなりません</entry>
+    <entry key="InvalidVertexNormals">使用するライティング モードが Gouraud の場合、VertexNormals は空の配列にできません</entry>
+    <entry key="FaceNormalsToFacesInconsistency">使用するライティング モードが Flat の場合、FaceNormals と Faces のサイズは同じでなければなりません</entry>
+    <entry key="InvalidFaceNormals">使用するライティング モードが Flat の場合、FaceNormals を空の配列として指定することはできません</entry>
+  </message>
+</rsccat>

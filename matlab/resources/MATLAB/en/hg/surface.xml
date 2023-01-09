@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="BadCDataDimensions">CData must be an M-by-N matrix or M-by-N-by-3 array.</entry>
+    <entry key="MatrixDimensionsMustAgree">Matrix dimensions must agree, not rendering mesh</entry>
+    <entry key="ZMustNotBeScalarOrVector">Z must not be a scalar or vector, not rendering surface</entry>
+    <entry key="CDataMustBeDoubleOrSingleUnlessTextureData">CData must be double or single unless it is used only as a texture data</entry>
+    <entry key="CDataMustBeDoubleOrUint8">CData must be double or uint8.</entry>
+    <entry key="CDataSizeMustEqualZDataSizeForInterpolatedShading">size(CData) must equal size(ZData) for interpolated shading</entry>
+    <entry key="AlphaDataSizeMustEqualZDataSizeForInterpolatedAlpha">size(AlphaData) must equal size(ZData) for interpolated alpha</entry>
+    <entry key="CDataSizeMustEqualZDataSizeForMarkerFlatColoring">size(CData) must equal size(ZData) for marker flat coloring</entry>
+    <entry key="CDataSizeMustEqualZDataSizeForFlagShading">size(CData) must equal size(ZData) or size(ZData)-1 for flat shading</entry>
+    <entry key="AlphaDataSizeMustEqualZDataSizeForFlatAlpha">size(AlphaData) must equal size(ZData) or size(ZData)-1 for flat alpha</entry>
+    <entry key="FaceAlphaTextureNotPossible1">FaceAlpha Texture is only possible if FaceColor is Texture and if size(AlphaData) equals size(CData)</entry>
+    <entry key="FaceAlphaTextureNotPossible2">FaceAlpha Texture is only possible if FaceColor is Texture and if size(AlphaData) equals size(CData)</entry>
+    <entry key="RGBCDataNotSupported">RGB CData not yet supported in Painter''s mode</entry>
+    <entry key="VertexNormalsDimensionsMustBe3">The number of dimensions for VertexNormals must be 3 </entry>
+    <entry key="BadVertexNormalsSize">size(VertexNormals) must equal size(ZData)x 3 </entry>
+    <entry key="FaceNormalsDimensionsMustBe2">The number of dimensions for FaceNormals must be 2 </entry>
+    <entry key="BadFaceNormalsSize">size(FaceNormals) must equal 2(m-1)(n-1) x 3</entry>
+    <entry key="NotEnoughMemoryForNormals">There was not enough memory for normals. Not rendering</entry>
+    <entry key="BadArguments">Arguments that are not parameter-value pairs must be numeric.</entry>
+    <entry key="CannotBeComplex">X, Y, Z, and C cannot be complex.</entry>
+    <entry key="MustBeMatrix">Z must be a matrix, not a scalar or vector.</entry>
+    <entry key="OutOfMemory">Out of memory. For more information, see &lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/memory.html'))\"&gt;memory&lt;/a&gt;.</entry>
+    <entry key="InvalidDataDimensions">Data dimensions must agree.</entry>
+    <entry key="IncompatibleProperties">Incompatible properties.</entry>
+    <entry key="FaceColorToAlphaFlatInconsistency">When FaceColor is ''flat'', FaceAlpha must be ''flat'' or a numeric value between 0 and 1.</entry>
+    <entry key="FaceColorToAlphaInterpInconsistency">When FaceColor is ''interp'', FaceAlpha must be ''interp'' or a numeric value between 0 and 1.</entry>
+    <entry key="FaceColorToAlphaTexturemapInconsistency">When FaceColor is ''texturemap'', FaceAlpha must be ''texturemap'' or a numeric value between 0 and 1.</entry>
+    <entry key="VertexNormalsToVerticesInconsistency">Size of VertexNormals must be equal to the size of Vertices when lighting mode used is Gouraud</entry>
+    <entry key="InvalidVertexNormals">VertexNormals cannot be specified as an empty array when lighting mode used is Gouraud</entry>
+    <entry key="FaceNormalsToFacesInconsistency">Size of FaceNormals must be equal to the size of Faces when lighting mode used is Flat</entry>
+    <entry key="InvalidFaceNormals">FaceNormals cannot be specified as an empty array when lighting mode used is Flat</entry>
+  </message>
+</rsccat>

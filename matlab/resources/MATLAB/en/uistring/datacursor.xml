@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="DialogErrorWhileSavingData">An error occurred while saving the data.</entry>
+      <entry key="DialogInvalidVariableName">Invalid variable name "{0}".</entry>
+      <entry key="DialogCursorDataExportError">Cursor Data Export Error</entry>
+      <entry key="DialogSelectFile">Select the MATLAB file</entry>
+      <entry key="EnterVariableName">Enter the variable name</entry>
+      <entry key="WarningVariableExists">A variable named "{0}" already exists in the MATLAB Workspace.\nIf you continue, you will overwrite the instance of "{1}" in your\nworkspace.</entry>
+      <entry key="InvalidVariableName">Invalid variable name "{0}".</entry>
+      <entry key="ExportError">Cursor Data Export Error</entry>
+      <entry key="MenuSelectionStyle">Selection Style</entry>
+      <entry key="MenuMousePosition">Mouse Position</entry>
+      <entry key="MenuSnapToNearestDataVertex">Snap to Nearest Data Vertex</entry>
+      <entry key="MenuDisplayStyle">Display Style</entry>
+      <entry key="MenuWindowInsideFigure">Window Inside Figure</entry>
+      <entry key="MenuDatatip">Data Tip</entry>
+      <entry key="MenuCreateNewDatatip">Create New Data Tip             Alt-Click</entry>
+      <entry key="MenuCreateNewDatatipShift">Create New Data Tip           Shift-Click</entry>
+      <entry key="MenuDeleteCurrentDatati">Delete Current Data Tip            Delete</entry>
+      <entry key="MenuDeleteCurrentDatatipNoAccelerator">Delete Current Data Tip</entry>
+      <entry key="MenuDeleteAllDatatips">Delete All Data Tips</entry>
+      <entry key="MenuExportCursorDataToWorkspace">Export Cursor Data to Workspace...</entry>
+      <entry key="MenuTextUpdateFunction">Update Function</entry>
+      <entry key="MenuEditTextUpdateFunction">Edit...</entry>
+      <entry key="MenuSelectTextUpdateFunction">Choose from File...</entry>
+      <entry key="MenuDeleteTextUpdateFunction">Delete</entry>
+      <entry key="TitleExportCursorDataToWorkspace">Export Cursor Data to Workspace</entry>
+      <entry key="LabelMouseClickOnPlottedData">Mouse Click on Plotted Data...</entry>
+      <entry key="MenuEditContentStyle">Edit Content and Style...</entry>
+      <entry key="Type">Type:</entry>
+   </message>
+</rsccat>

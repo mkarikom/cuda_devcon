@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- Copyright 2020-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ArrayDimsMatch">Array dimensions must match.</entry>
+    <entry key="CannotSlice">Unable to access scalar elements for type {0}.</entry>
+    <entry key="CannotHash">Unable to hash scalar elements for type {0}.</entry>
+    <entry key="CannotCombine">Unable to combine entry parts.</entry>
+    <entry key="ConversionInconsistent">Conversion from {0} to {1} did not return {1}.</entry>
+    <entry key="IncorrectNumberInputs">Incorrect number of inputs specified.</entry>
+    <entry key="IncorrectNumberOfSubscripts">Number of subscripts, {0,number,integer}, must match the number of key parts, {1,number,integer}.</entry>
+    <entry key="InputMustBeLogicalScalar">Input must be logical scalar.</entry>
+    <entry key="InputMustBeNonemptyCell">Input must be nonempty cell array.</entry>
+    <entry key="InputNotSupported">Input type not supported.</entry>
+    <entry key="InternalCannotHash">Unable to hash scalar elements.</entry>
+    <entry key="InvalidIndexingForUninitialized">Indexing on an uninitialized dictionary is invalid.</entry>
+    <entry key="InvalidMethodForUninitialized">Calling ''{0}'' on an uninitialized dictionary is invalid.</entry>
+    <entry key="KeyNotFound">Key in position {0,number,integer} not found.</entry>
+    <entry key="UndefinedFunction">Unrecognized function or variable ''dictionary''.</entry>
+    <entry key="UnsupportedFunctionality">Operation is not supported.</entry>
+    <entry key="WithManyEntries" note="Example: dictionary with 5 entries. Note that dictionary is a hard coded and hotlinked class name."> with {0,number,integer} entries:</entry>
+    <entry key="WithOneEntry" note="Example: dictionary with 1 entry. Note that dictionary is a hard coded and hotlinked class name."> with 1 entry:</entry>
+    <entry key="WithZeroEntries" note="Example: dictionary with no entries. Note that dictionary is a hard coded and hotlinked class name."> with no entries.</entry>
+  </message>
+</rsccat>

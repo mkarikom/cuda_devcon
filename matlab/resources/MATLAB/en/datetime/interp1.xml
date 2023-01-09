@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="XandXqBothDatetimes">X and XQ must both be datetime arrays, or both be numeric.</entry>
+    <entry key="VandExtrapValBothDatetimes">V and EXTRAPVAL must both be datetime arrays, or both be numeric.</entry>
+    <entry key="GridPointMinimumDifference">Interpolation is not possible because the datetime grid points X have a range of {0}, but the minimum difference between points is only {1}.</entry>
+  </message>
+</rsccat>

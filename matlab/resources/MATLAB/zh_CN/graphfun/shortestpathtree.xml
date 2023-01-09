@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AllToAll">源节点或目标节点必须为标量。</entry>
+    <entry key="DijkstraNonNegative">只有当所有边权重都为非负值时，Method 值才能为 ''positive''。</entry>
+    <entry key="DuplicateSRC">源节点 ID 必须唯一。</entry>
+    <entry key="DuplicateTARG">目标节点 ID 必须唯一。</entry>
+    <entry key="InvalidWeights">图形边权重包含 NaN。</entry>
+    <entry key="KeyWithoutValue">没有为 {0} 提供任何值。</entry>
+    <entry key="NegativeWeights">图形边权重必须为非负值。</entry>
+    <entry key="NegCycle">未定义最短路径距离，因为图形包含长度为 {0} 的负循环(节点 {1})。</entry>
+    <entry key="NotDAG">当 Method 值为 ''acyclic'' 时，有向图必须是无环的。</entry>
+    <entry key="ParseFlags">参数名称必须为 ''Method'' 或 ''OutputForm''。</entry>
+    <entry key="ParseMethodDir">Method 值必须为 ''auto''、''unweighted''、''positive''、''mixed'' 或 ''acyclic''。</entry>
+    <entry key="ParseMethodUndir">Method 值必须为 ''auto''、''unweighted'' 或 ''positive''。</entry>
+    <entry key="ParseOutput">Method 值必须为 ''cell''、''tree'' 或 ''vector''。</entry>
+  </message>
+</rsccat>

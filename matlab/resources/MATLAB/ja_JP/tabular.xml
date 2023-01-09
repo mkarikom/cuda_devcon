@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CannotLoadVariable">\n\n変数 ''{0}'' の読み込みに失敗し、空の配列で置き換えられました。これは、クラスがパスに存在しないために発生した可能性があります。</entry>
+    <entry key="CannotLoadVariables">\n\n一部の変数の読み込みに失敗し、空の配列で置き換えられました。これは、クラスがパスに存在しないために発生した可能性があります。</entry>
+    <entry key="InvalidInput">最初の入力は table でなければなりません。</entry>
+    <entry key="MultipleSubscripts">添字が複数の変数名を返しました。ドット添字には単一の変数名が必要です。</entry>
+  </message>
+</rsccat>

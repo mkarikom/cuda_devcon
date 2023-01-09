@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="TwoDimInput">Input must be a 2-D matrix.</entry>
+    <entry key="VectorInput">Second input must be a vector of column indices.</entry>
+    <entry key="SparseInput">Inputs must be non-sparse.</entry>
+    <entry key="ComplexInput">Inputs must be real.</entry>
+    <entry key="ComplexIntegers">Complex integers not supported.</entry>
+    <entry key="ColNotNumeric">Second argument must be double.</entry>
+    <entry key="ColSize">Number of columns in both inputs must be same.</entry>
+    <entry key="InputType">First argument must be numeric, logical, or char.</entry>
+    <entry key="NaNFlag">Third argument must be 0, 1, or 2.</entry>
+    <entry key="CompareFlag">Fourth argument must be 0, 1, or 2.</entry>
+    <entry key="ColNotInteger">Second argument must contain valid integer column indices.</entry>
+  </message>
+</rsccat>

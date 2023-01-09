@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownPolicy">알 수 없는 디렉터리 새로 고침 정책입니다.\n''Reload'', ''TimecheckDir'', ''None'' 또는 ''Status''를 지정하십시오.</entry>
+    <entry key="notEnoughInputs">''Reload'', ''TimecheckDir'', ''TimecheckDirFile'', ''TimecheckFile'', ''None'', ''Status'' 중 하나를 지정해야 함</entry>
+  </message>
+</rsccat>

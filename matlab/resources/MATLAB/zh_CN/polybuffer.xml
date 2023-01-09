@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nameValueError">输入参数的数目不正确。参数名称和值必须成对出现。</entry>
+    <entry key="bufferParameter">参数名称必须为 'JointType' 或 'MiterLimit'。</entry>
+    <entry key="bufferDistanceError">缓冲区距离参数必须为实数数值正有限标量。</entry>
+    <entry key="bufferJointError">'JointType' 值必须为 'round'、'miter' 或 'square'。</entry>
+    <entry key="bufferMiterValue">'MiterLimit' 值必须为不小于 2 的实数数值标量。</entry>
+    <entry key="bufferMiterType">指定 'MiterLimit' 时，'JointType' 值必须为 'miter'。</entry>
+    <entry key="secondInputError">第二个输入参数必须为 'lines' 或 'points'。</entry>
+    <entry key="nameValueNotAllowed">当第二个输入参数为 'points' 时，不支持 'JointType' 和 'MiterLimit'。</entry>
+    <entry key="coordEmptyError">x 和 y 坐标矩阵为空。</entry>
+    <entry key="coord2ColError">x 和 y 坐标矩阵必须为 2 列数值数组。</entry>
+    <entry key="coordError">x 和 y 坐标必须为实数数值有限数组。</entry>
+    <entry key="sparseError">不支持稀疏数组。</entry>
+    <entry key="lineMin2Points">x 和 y 坐标矩阵必须具有 2 列，并且至少包含 2 行。</entry>
+    <entry key="nanInconsistent">线条参数的 x 和 y 坐标中的 NaN 位置必须相同。</entry>
+    <entry key="missing1stArgument">输入参数的数目不足。请将 x 和 y 坐标矩阵指定为第一个参数。</entry>
+    <entry key="missing2ndArgument">输入参数的数目不足。请将 'lines' 或 'points' 指定为第二个参数。</entry>
+    <entry key="missing3rdArgument">输入参数的数目不足。请将缓冲区距离指定为第三个参数。</entry>
+  </message>
+</rsccat>

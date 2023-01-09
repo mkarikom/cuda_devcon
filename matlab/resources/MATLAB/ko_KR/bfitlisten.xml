@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoData">Figure에 데이터가 없습니다.</entry>
+    <entry key="NoDataInFigure">Figure에 제거할 데이터가 없습니다.</entry>
+    <entry key="InconsistentState">Figure에 GUI에 대한 현재 데이터 세트가 없으며 상태가 일치하지 않습니다.</entry>
+  </message>
+</rsccat>

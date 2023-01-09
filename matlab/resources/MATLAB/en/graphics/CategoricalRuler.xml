@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2016-2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="Limits">Value must be a 2-element vector of increasing or equal categorical values as ordered by the ruler Categories property.</entry>
+    <entry key="Ticks">Value must be a vector of increasing categorical values as ordered by the ruler Categories property.</entry>
+    <entry key="Categories">Value must be a categorical vector of unique categories.</entry>
+    <entry key="NonNumericType">Value to convert must be a numeric or categorical array.</entry>
+    <entry key="OrdinalDataNonOrdinalRuler">Ordinal data must be converted to the axes non-ordinal categories.</entry>
+    <entry key="OrdinalRulerNonOrdinalData">Non-ordinal data must be converted to the axes ordinal categories.</entry>
+    <entry key="OrdinalMismatch">Ordinal categories must be compatible with the axes categories.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Package">패키지</entry>
+    <entry key="Code">코드</entry>
+    <entry key="Description">설명</entry>
+    <entry key="QualityCodeDescNotSynchronized">품질 코드와 설명이 동기화되지 않았습니다.</entry>
+    <entry key="NoQualityCodeDefined">정의된 품질 코드가 없습니다.</entry>
+    <entry key="NoQualityDescDefined">정의된 품질 설명이 없습니다.</entry>
+    <entry key="CommonProperties">공통 속성</entry>
+    <entry key="MoreProperties">추가 속성</entry>
+    <entry key="Methods">메서드</entry>
+  </message>
+</rsccat>

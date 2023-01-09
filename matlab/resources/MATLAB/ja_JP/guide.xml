@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoSwingSupport">Java Swing を利用できないので、GUIDE を起動できません。\n{0}</entry>
+    <entry key="InvalidFileExtension">ファイル ''{0}'' に拡張子 {1} がありません。</entry>
+    <entry key="InvalidFileName">ファイル ''{0}'' が見つかりません。</entry>
+    <entry key="InvalidFigureHandle">1 つまたは複数の要素は Figure のハンドルではありません。</entry>
+    <entry key="GUIDEWillBeRemovedUseAppDesigner">GUIDE は将来のリリースで削除される予定です。代わりに APPDESIGNER を使用してください。</entry>
+    <entry key="StateFieldNotFound">gui_State 構造体のフィールド ''{0}'' が GUI MATLAB ファイル {1} 内で見つかりません</entry>
+    <entry key="InvalidSecondArgument">2 番目の入力引数はオプション構造体か ''edit'' でなければなりません</entry>
+    <entry key="TooManyInputs">入力引数が多すぎます</entry>
+    <entry key="UnknownInput">GUIDEOPTS に認識されない入力</entry>
+    <entry key="UnknownResize">不明なサイズ変更方法: ''{0}''</entry>
+    <entry key="CodeFileNotFound">MATLAB コード ファイル ''{0}'' が存在しません。</entry>
+    <entry key="CodeFileNotWritable">MATLAB コード ファイル ''{0}'' が存在しないか、書き込めません。</entry>
+    <entry key="ExportWriteFailed">エクスポートする MATLAB コード ファイルに書き込みできませんでした。\n{0}</entry>
+    <entry key="CannotMakeDirectory">エクスポートするディレクトリに作成できませんでした。\n{0}</entry>
+    <entry key="SaveAsDialogTitle">名前を付けて保存</entry>
+    <entry key="OpenDialogTitle">開く</entry>
+    <entry key="GuiFileDescription">Figure ファイル (*.fig)</entry>
+    <entry key="SelectFigFile">GUIDE .fig ファイルを選択してください</entry>
+    <entry key="InvalidFilePath">2 番目の入力引数は、有効な MATLAB ファイル名でなければなりません。</entry>
+    <entry key="ComponentName">GUIDE</entry>
+  </message>
+</rsccat>

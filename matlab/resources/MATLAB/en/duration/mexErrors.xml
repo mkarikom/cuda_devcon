@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed">
+  <message>
+    <entry key="InvalidInput">Invalid input.</entry>
+    <entry key="FormatError" note="stringDatatypeUpdate">Unable to format duration character vector or string using the format ''{0}'': {1}.</entry>
+    <entry key="ICUError">ICU error: {0}, err=''{1}''.</entry>
+ </message>
+</rsccat>

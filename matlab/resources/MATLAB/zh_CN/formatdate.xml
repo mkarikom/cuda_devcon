@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="yearFormat">年份格式无法识别。格式: {0}。</entry>
+    <entry key="quarterFormat">季度格式无法识别。格式: {0}。</entry>
+    <entry key="monthFormat">月份格式无法识别。格式: {0}。</entry>
+    <entry key="dayFormat">日格式无法识别。格式: {0}。</entry>
+    <entry key="ampmFormat">AM/PM 格式无法识别。格式: {0}。</entry>
+    <entry key="hourFormat">小时格式无法识别。格式: {0}。</entry>
+    <entry key="minuteFormat">分钟格式无法识别。格式: {0}。</entry>
+    <entry key="secondFormat">秒格式无法识别。格式: {0}。</entry>
+    <entry key="millisecondFormat">毫秒格式无法识别。格式: {0}。</entry>
+    <entry key="quarterFormatMismatch">仅年份格式可以与季度格式一起使用。格式: {0}。</entry>
+  </message>
+</rsccat>

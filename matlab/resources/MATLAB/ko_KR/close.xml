@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WindowNotFound">지정된 창이 존재하지 않습니다.</entry>
+    <entry key="InvalidFigureHandle">유효하지 않은 Figure 핸들입니다.</entry>
+    <entry key="InvalidValueIgnoreCloseAll">IgnoreCloseAll에 대해 인식할 수 없는 값임 - 유효한 값은 1 또는 2</entry>
+    <entry key="UnexpectedInvalidHandle">유효하지 않은 핸들이 request_close_helper에 전달됨</entry>
+    <entry key="UnexpectedValue">예기치 않은 값이 request_close_helper에 전달됨</entry>
+  </message>
+</rsccat>

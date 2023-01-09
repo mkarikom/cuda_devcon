@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnableToFindFigureMenuBar">パス上で FigureMenuBar.fig が見つかりません - 組み込みメニューを追加しません</entry>
+    <entry key="UnableToFindFigureToolBar">パス上で FigureToolBar.fig が見つかりません - 組み込みツール バーを追加しません</entry>
+    <entry key="OpenGLRenderingAdvised">OpenGL のレンダリングが通知されました。詳細は、''help opengl'' と入力してください</entry>
+    <entry key="OpenGLNotAvailable">OpenGL は利用できません。ZBuffer を使用してください</entry>
+    <entry key="FigureNotInZBufferMode">Figure は zbuffer モードではありません</entry>
+  </message>
+</rsccat>

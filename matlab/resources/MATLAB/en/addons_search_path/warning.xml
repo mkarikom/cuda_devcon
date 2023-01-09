@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="FileNotFound">The file ''{0}'' does not exist. You might not be able to run installed add-ons</entry><!-- The message does not suggest potential solutions for the user because we have not implemented any solutions. -->
+    <entry key="FileNotReadable">Unable to open the file ''{0}'' for reading. You might not be able to run installed add-ons.</entry><!-- The message does not suggest potential solutions for the user because we have not implemented any solutions. -->
+    <entry key="InvalidFolder">''{0}'' is not a valid folder. You might not be able to run installed add-ons</entry><!-- The message does not suggest potential solutions for the user because we have not implemented any solutions. -->
+    <entry key="ErrorReadingFile">Error reading file: {0}</entry><!-- The message does not suggest potential solutions for the user because we have not implemented any solutions. -->
+  </message>
+</rsccat>

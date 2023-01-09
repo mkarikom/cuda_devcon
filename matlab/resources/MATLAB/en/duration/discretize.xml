@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CategoryNamesInvalidSize">Fourth argument, category names, must be a cell array whose length is equal to the number of bins, {0,number,integer}.</entry>
+    <entry key="DefaultCategoryNamesNotUnique">Unable to create unique category names using the display format of the input argument. Specify category names or change the ''Format'' property of the input.</entry>
+    <entry key="InvalidDur">Second argument, uniform bin size, must be a positive finite scalar duration, or can be one of: 'second', 'minute', 'hour', 'day', or 'year'.</entry>
+    <entry key="InvalidEdges">Second argument, bin edges, must be a duration vector with at least 2 elements.</entry>
+    <entry key="InvalidSecondInput">Second argument must be either a scalar integer, scalar duration, scalar string, or character vector.</entry>
+    <entry key="UnsortedEdges">Second argument, bin edges, must be a sorted duration vector that does not contain NaNs.</entry>
+    <entry key="ValuesInvalidSize">Third argument, bin values, must be a vector whose length is equal to the number of bins, {0,number,integer}.</entry>
+    <entry key="ValuesClassNoNaN">If the third argument, bin values, is of type {0}, then all of the input data must belong to a bin.</entry>
+    <entry key="XNotDuration">First argument must be a duration array.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidReduction">Reduction must be [Rx Ry Rz] or R</entry>
+    <entry key="ReductionMustBeInt">Reduction values must be integers greater than or equal to 2</entry>
+    <entry key="ReductionTooHigh">Reduction too high. Try a smaller reduction.</entry>
+    <entry key="WrongNumberInputs">Wrong number of input arguments.</entry>
+  </message>
+</rsccat>

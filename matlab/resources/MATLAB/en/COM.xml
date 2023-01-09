@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="AmbiguousPropertyException" translate="false">{0}</entry>
+    <entry key="invalidArg">Argument must be a character vector or string scalar.</entry> <!--actxGetRunningServer-->
+    <entry key="invalidinputhandle">Invalid input handle.</entry>
+    <entry key="noeventstounregister">No events to unregister.</entry>
+    <entry key="InvalidFigureContainer">Parent must be a handle to a figure or block diagram.</entry>
+    <entry key="InvalidFigureContainerCanvas">Unable to get ActiveX canvas from figure.</entry>
+    <entry key="InvalidFigureContainerWindow">Cannot get window handle for ActiveX container.</entry>
+    <entry key="invalideventhandlerEmpty">eventhandler cannot be empty.</entry>
+    <entry key="invalideventhandler" note="stringDatatypeUpdate">Event name must be a character vector, string scalar or a cell array of character vectors.</entry>
+    <entry key="invalidnumberofarguments">Error: Invalid number of arguments. This method can take maximum {0,number,integer} arguments.</entry>
+    <entry key="invalidnumparamsControl">Invalid number of parameters. Control creation failed.</entry>
+    <entry key="invalidnumparamsCOM">Invalid number of parameters. COM object creation failed.</entry>
+    <entry key="invaliddateinput">ActiveX - Invalid date input</entry>
+    <entry key="invalidnumparamsDate">Invalid number of parameters. You must specify the date.</entry>
+    <entry key="invalidnumparams" translate="false">{0}</entry>
+    <entry key="errorregisterevents" translate="false">{0}</entry>
+    <entry key="errorregistereventsConnectionPointContainer">Error registering event(s), Invalid ConnectionPointContainer</entry>
+    <entry key="errorregistereventsConnectionPoint">Error registering event(s), Invalid ConnectionPoint</entry>
+    <entry key="errorregistereventsAdvise">Error registering event(s), Advise failed</entry>
+    <entry key="errorregistereventsNoArgs">Error registering event(s)</entry>
+    <entry key="errorcallingmethod">COM object threw an exception while invoking a method</entry>
+    <entry key="toomanyinargs">Too many input arguments.</entry>
+    <entry key="invalidinargs">The second input argument needs to be logical.</entry>
+    <entry key="positionemptyerror">Position vector cannot be empty.</entry>
+    <entry key="serializationerror">Serialization of COM object failed.</entry>
+    <entry key="invalidnumargs">Invalid number of arguments.</entry>
+    <entry key="invalidpropcall">Invalid property name or number of arguments.</entry>
+    <entry key="invalidruntimeproperty">Error: Invalid run-time property ''{0}'' </entry>
+    <entry key="invalidnumoutargs">Invalid number of output arguments</entry>
+    <entry key="moveerror">Error moving the window</entry>
+    <entry key="invalidmethodname">Invalid method name.</entry>
+    <entry key="propertynameerror">Name of the property cannot be empty.</entry>
+    <entry key="propertyemptyerror">Property name cannot be empty.</entry>
+    <entry key="propertyexisterror">Error: property ''{0}'' already exists in this class</entry>
+    <entry key="invalidmethodsignature">No method with matching signature found.</entry>
+    <entry key="invalidcustommethodcall">Invalid attempt to call a method via uninitialized IUnknown interface.</entry>
+    <entry key="invalidparamdatatype">Invalid parameter data type.</entry>
+    <entry key="loadobjnotsupported">Can not load COM Interface objects.</entry>
+    <entry key="invalidhandle">Invalid handle.</entry>
+    <entry key="invalidcustompropertycall">Invalid attempt to call a property via uninitialized IUnknown interface.</entry>
+    <entry key="newclasserror">New classes can not be added to the {0} package</entry>
+    <entry key="classnotfound">Class not found</entry>
+    <entry key="invalidactxprogid">Input PROGID does not represent an Activex control.\nIf this PROGID used to work before, please check vendor's documentation for equivalent activex control progid.</entry>
+    <entry key="controlcreationfailed">ActiveX - control creation failed.</entry>
+    <entry key="controlcreationfailedProgid">Control creation failed. Invalid ProgID ''{0}''.</entry>
+    <entry key="invalidprogid">Invalid PROGID ''{0}''</entry>
+    <entry key="invalidprogidControl" note="stringDatatypeUpdate">ActiveX - control name (PROGID) must be a character vector or string scalar.</entry>
+    <entry key="invalidprogidServer" note="stringDatatypeUpdate">ActiveX - server name (PROGID) must be a character vector.</entry>
+    <entry key="invalidprogidNameAndErrcode">ActiveX - invalid PROGID ''{0}''; Error Code = {1}</entry>
+    <entry key="norunningserver">The server ''{0}'' is not running on this system.</entry>
+    <entry key="invalidpositionvector">ActiveX - invalid position vector</entry>
+    <entry key="invalidcontainerhandle">Invalid container handle. Control creation failed.</entry>
+    <entry key="invalidfilename" note="stringDatatypeUpdate">ActiveX - filename must be a character vector.</entry>
+    <entry key="invalidlicensekey" note="stringDatatypeUpdate">ActiveX - licensekey must be a character vector.</entry>
+    <entry key="serializefileerror">ActiveX - can't open control initialization file</entry>
+    <entry key="servercreationfailed" translate="false">{0}</entry>
+    <entry key="servercreationfailedMsg">ActiveX - server creation failed.</entry>
+    <entry key="servercreationfailedSysMsg">Server Creation Failed: {0}</entry>
+    <entry key="servercreationfailedProgid">Server creation failed. Invalid ProgID ''{0}''.</entry>
+    <entry key="invalidargumenttype">ActiveX - invalid argument type or value</entry>
+    <entry key="mxCreateCellArray_Failed">mxCreateCellArray failed</entry>
+    <entry key="variant_conversion_failed" translate="false">{0}</entry>
+    <entry key="variant_conversion_failedBYREF">ActiveX - "BYREF" VARIANT conversion failed - substituting NAN</entry>
+    <entry key="variant_conversion_failedString" note="stringDatatypeUpdate">ActiveX - String/FileTime/Decimal/Date VARIANT conversion failed - substituting NAN</entry>
+    <entry key="variant_conversion_failedCY">ActiveX - CY/HRESULT/ERROR VARIANT type conversion failed - substituting NAN</entry>
+    <entry key="unsupported_safearray_type">ActiveX - attempt to convert unsupported SAFEARRAY type failed - substituting NAN</entry>
+    <entry key="unsupportedVARIANTtype">ActiveX - unsupported VARIANT type encountered</entry>
+    <entry key="sparse_array_notsupported">ActiveX - Sparse array not supported</entry>
+    <entry key="cell_invalid_dimensions">ActiveX - Elements of cell array must have 2 dimensions.</entry>
+    <entry key="cell_invalid_contents">ActiveX - Element of a cell array cannot be a character matrix.</entry>
+    <entry key="noPropPage">COM object has no property pages</entry>
+    <entry key="propPageError">COM error creating property page</entry>
+    <entry key="pageCreateFrameError">COM error creating property page frame</entry>
+    <entry key="unsupported64bit">Custom interface is not supported on a 64-bit version of MATLAB.</entry>
+    <entry key="DISP_E_UNKNOWNNAME_ErrMsg">Invoke Error: Unknown name or named argument</entry>
+    <entry key="DISP_E_BADPARAMCOUNT_ErrMsg">Invoke Error: Incorrect number of arguments</entry>
+    <entry key="DISP_E_MEMBERNOTFOUND_ErrMsg">Error: method or property not found</entry>
+    <entry key="DISP_E_OVERFLOW_ErrMsg">Error: Overflow while coercing argument values</entry>
+    <entry key="DISP_E_NONAMEDARGS_ErrMsg">Error: Object implementation does not support named arguments</entry>
+    <entry key="DISP_E_UNKNOWNLCID_ErrMsg">Error: The locale ID is unknown</entry>
+    <entry key="DISP_E_PARAMNOTOPTIONAL_ErrMsg">Error: Missing a required parameter</entry>
+    <entry key="DISP_E_PARAMNOTFOUND_ErrMsg">Error: Argument not found, argument {0,number,integer}</entry>
+    <entry key="DISP_E_TYPEMISMATCH_ErrMsg">Error: Type mismatch, argument {0,number,integer}</entry>
+    <entry key="DISP_E_EXCEPTION_ErrMsg">Invoke Error, Dispatch Exception: {0}</entry>
+    <entry key="DISP_E_EXCEPTION_ErrMsgNL">Invoke Error, Dispatch Exception: \n{0}</entry>    
+    <entry key="DISP_E_EXCEPTION_PartSourceMsg">Source: {0}</entry>
+    <entry key="DISP_E_EXCEPTION_PartDescriptionMsg">\nDescription: {0}</entry>
+    <entry key="DISP_E_EXCEPTION_PartHelpFileMsg">\nHelp File: {0}</entry>
+    <entry key="DISP_E_EXCEPTION_PartHelpContextID">\nHelp Context ID: {0}</entry>
+    <entry key="DISP_E_default_ErrMsg">Error: {0}</entry>
+    <entry key="DISP_E_default_ErrMsgErrCode">Error: Object returned error code: 0x{0}</entry>
+    <entry key="unableToCreateClassSpecificObject">Unable to create class specific object.</entry>
+    <entry key="unableToConvertVariant">Unable to convert variant.</entry>
+    <entry key="debugQuit">User quit MATLAB debug session.</entry>
+	<entry key="QueryError">Specifying 'User' is not supported with comserver('query').</entry>
+	<entry key="AdminRegisterError">You need administrative privileges to register MATLAB as a COM server for all users.</entry>
+	<entry key="AdminUnregisterError">You need administrative privileges to unregister MATLAB as a COM server for all users.</entry>
+    <entry key="NonWindowsError">This function is applicable only on Microsoft Windows.</entry>
+  </message>
+</rsccat>

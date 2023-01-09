@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonconsecutiveCategories">범주가 순서형일 때는 비연속적 범주를 병합할 수 없습니다.</entry>
+    <entry key="UndefinedLabel">NEW는 ''{0}''일 수 없습니다.</entry>
+    <entry key="InvalidNewCategory">NEW는 비어 있지 않은 새 범주 이름을 포함하는 문자형 벡터 또는 string형이어야 합니다.</entry>
+  </message>
+</rsccat>

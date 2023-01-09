@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadTeXString">TeX 文本字符向量中的 {0}: \n''{1}''</entry>
+    <entry key="UnsupportedFont">不支持字体 {0}。</entry>
+    <entry key="UnableToInterpretTeXString">无法解释 TeX 字符向量 \"{0}\"</entry>
+    <entry key="UnableToInterpretTeX">无法解释 TeX 字符向量</entry>
+    <entry key="UnableToInterpretLaTeXString">无法解释 LaTeX 字符向量 \"{0}\"</entry>
+    <entry key="UnableToInterpretLaTeX">无法解释 LaTeX 字符向量</entry>
+  </message>
+</rsccat>

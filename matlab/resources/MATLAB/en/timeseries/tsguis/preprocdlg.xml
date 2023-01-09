@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="Abort">Abort</entry>
+      <entry key="ACoefficients">A coefficients</entry>
+      <entry key="All">All</entry>
+      <entry key="Any">Any</entry>
+      <entry key="Apply">Apply</entry>
+      <entry key="BCoefficients">B coefficients</entry>
+      <entry key="CannotParseColumnsDefinedForTimeSeries">Cannot parse columns defined for time series {0}</entry>
+      <entry key="ClickApplyToProcessTheData">Click Apply in each tab to process the data</entry>
+      <entry key="Close">Close</entry>
+      <entry key="Constant">Constant</entry>
+      <entry key="Continue">Continue</entry>
+      <entry key="DenominatorCoefficients">denominator coefficients</entry>
+      <entry key="Detrend">Detrend</entry>
+      <entry key="DetrendingTimeSeries">Detrending time series</entry>
+      <entry key="DiscreteTransfer">Discrete transfer fcn (B(z^-1)/A(z^-1))</entry>
+      <entry key="Filter">Filter</entry>
+      <entry key="FilteringOperationFailedErrorWas">Filtering operation failed. Error from filter methods was {0}</entry>
+      <entry key="FilteringOperationFailedNaNs">Filtering operation failed because one of the selected time series contains NaN(s) at the beginning or end.</entry>
+      <entry key="FilteringTimeSeries">Filtering time series</entry>
+      <entry key="FilterType">Filter type</entry>
+      <entry key="FirstOrder">First order (1/(1+ time constant * s))</entry>
+      <entry key="FrequencyRange">frequency range</entry>
+      <entry key="Help">Help</entry>
+      <entry key="IdealPassOrStop">Ideal pass or stop</entry>
+      <entry key="Interpolate">Interpolate</entry>
+      <entry key="InterpolatingMissingData">Interpolating missing data</entry>
+      <entry key="InterpolateMissingDataWithDataFrom">Interpolate missing data with data from:</entry>
+      <entry key="InvalidColumnsEnteredInRow0numberinteger">Invalid columns entered in row {0,number,integer}.</entry>
+      <entry key="Linear">Linear</entry>
+      <entry key="Modifyyn">Modify (y/n)?</entry>
+      <entry key="NumeratorCoefficients">numerator coefficients</entry>
+      <entry key="OneOrMoreSelectedTimeSeries">One or more selected time series with non-uniform time vectors will be resampled to uniform in order to perform the selected filtering operation</entry>
+      <entry key="Path">Path</entry>
+      <entry key="ProcessData">Process Data</entry>
+      <entry key="Range">Range</entry>
+      <entry key="RemoveMissingData">Remove Missing Data</entry>
+      <entry key="RemovingRows">Removing rows</entry>
+      <entry key="RemoveTimeRowsWhereDataIsMissing">Remove time rows where data is missing any or all cells:</entry>
+      <entry key="RemoveTrendType">Remove trend type:</entry>
+      <entry key="SelectedColumns">Selected Column(s)</entry>
+      <entry key="SelectTimeSeries">Select Time Series</entry>
+      <entry key="SelectView">Select view:</entry>
+      <entry key="SpecifyPassstopBand">Specify pass/stop band</entry>
+      <entry key="TimeConstant">Time constant</entry>
+      <entry key="TimeConstantLowerCase">time constant</entry>
+      <entry key="TimeSeries">Time Series</entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+      <entry key="TimeSeriesWithEqualNumberOfColumns">Time series with equal number of columns </entry>
+      <entry key="ThisTimeSeries">This time series</entry>
+      <entry key="Undo">Undo</entry> 
+   </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="ObsoleteFunction">MEXDEBUG is obsolete.  Use DBMEX instead.</entry>
+      <entry key="MATLABMustBeRunWithinDebugger">In order to debug MEX-files, MATLAB must be run within a debugger.</entry>
+      <entry key="ToRunMATLABWithinADebugger">To run MATLAB within a debugger start it by typing:</entry>
+      <entry key="WhereDebuggerIsTheDebuggerYouWishToUse">where "debugger" is the name of the debugger you wish to use.</entry>
+   </message>
+</rsccat>

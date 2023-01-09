@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="ShowUnspecified">You need to specify the slide show to play, for example: playshow intro</entry>
+      <entry key="unsupportedOption">The second argument must be ''axes'',''smalltext'', ''largetext'', or ''echo''.</entry>
+      <entry key="FigureSlideshowPlayer">Slideshow Player</entry>
+      <entry key="NotAValidPLAYSHOWFile">"{0}" is not a valid PLAYSHOW file.</entry>
+      <entry key="NotOnThePath">"{0}" is not on the path.</entry>
+      <entry key="SlideNumberOfN">Slide {0,number,integer} of {1,number,integer}</entry>
+      <entry key="ErrorInSlideshow">\nError in slideshow.\n{0}\n\n</entry>
+      <entry key="ButtonStart">Start &gt;&gt;</entry>
+      <entry key="ButtonNext">Next &gt;&gt;</entry>
+      <entry key="ButtonReset">Reset</entry>
+      <entry key="ButtonViewCode">View code</entry>
+      <entry key="ButtonMoreInfo">More info</entry>
+      <entry key="PressAnyKeyToContinue">Press any key to continue.</entry>
+      <entry key="EndOfDemo">End of demo</entry>
+   </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidPosition">位置必须包含 2 个或 3 个元素</entry>
+    <entry key="invalidOrientation">Cursorbar 的方向只能设置为 ''vertical'' 或 ''horizontal''</entry>
+    <entry key="invalidInput">第二个输入必须为线对象的句柄。</entry>
+  </message>
+</rsccat>

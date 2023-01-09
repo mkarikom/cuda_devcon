@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">입력 인수는 숫자형 또는 categorical형 배열이어야 합니다.</entry>
+    <entry key="InvalidLink">비벡터 데이터에는 히스토그램을 연결할 수 없습니다.</entry>
+    <entry key="OrdinalMismatch">X와 Y는 모두 순서형이거나 모두 순서형이 아니어야 합니다.</entry>
+    <entry key="InvalidCategories">X는 categorical형 배열이거나 유효한 범주 이름을 포함하는 string형 배열 또는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="UnrecognizedCategories">Y에 없는 범주가 X에 포함되어 있습니다.</entry>
+  </message>
+</rsccat>

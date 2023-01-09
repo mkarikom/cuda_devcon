@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidFirstArgument">First argument must be a scalar axes handle.</entry>
+    <entry key="NeedScalarAxesHandle">First argument must be a scalar axes handle.</entry>
+    <entry key="InvalidVector">Must be two element row vector.</entry>
+    <entry key="NeedsRowVector">Must be two element row vector.</entry>
+    <entry key="InvalidNumberElements">Must be two element row vector.</entry>
+  </message>
+</rsccat>

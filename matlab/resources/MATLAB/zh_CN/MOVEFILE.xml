@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RemovedFromPath">已将 ''{0}'' 从此 MATLAB 会话的 MATLAB 路径中删除。\n\t有关详细信息，请参阅“文档路径”。</entry>
+    <entry key="FailedToDeleteDirectory">删除 ''{0}'' 失败。</entry>
+  </message>
+</rsccat>

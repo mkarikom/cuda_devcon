@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelODE">상미분 방정식</entry>
+    <entry key="LabelDAE">미분대수 방정식(DAE)</entry>
+    <entry key="LabelIDE">음함수 미분 방정식</entry>
+    <entry key="LabelDDE">지연 미분 방정식</entry>
+    <entry key="LabelBVP">경계값 문제</entry>
+    <entry key="LabelPDE">편미분 방정식</entry>
+    <entry key="LabelBallode">ballode    - 단순한 이벤트 위치(튀어 오르는 공의 궤적)</entry>
+    <entry key="LabelBatonode">batonode   - 시간/상태 종속 질량 행렬에 대한 ODE(상미분 방정식) </entry>
+    <entry key="LabelBrussode">brussode   - 대규모 경직성(Stiff) 문제(화학 반응의 확산)</entry>
+    <entry key="LabelBurgersode">burgersode - 상태 종속성이 강한 질량 행렬에 대한 ODE(상미분 방정식)</entry>
+    <entry key="LabelFem1ode">fem1ode    - 시간 종속 질량 행렬의 경직성(Stiff) 문제</entry>
+    <entry key="LabelFem2ode">fem2ode    - 상수 질량 행렬의 경직성(Stiff) 문제</entry>
+    <entry key="LabelHb1ode">hb1ode     - 상당히 긴 구간에 대해 해를 구하는 경직성(Stiff) 문제</entry>
+    <entry key="LabelKneeode">kneeode    - 비음(Non-negativity) 제약 조건의 "무릎 문제(knee problem)"</entry>
+    <entry key="LabelOrbitode">orbitode   - 복잡한 이벤트 위치(제한된 3체(Three Body) 문제)</entry>
+    <entry key="LabelRigidode">rigidode   - 비경직성(Nonstiff) 문제(오일러(Euler) 운동 방정식)</entry>
+    <entry key="LabelVdpode">vdpode     - 경직성(Stiff) 문제(반데르폴 방정식(van der Pol Equation))</entry>
+    <entry key="LabelAmp1dae">amp1dae - 경직성 미분대수 방정식(Stiff DAE) - 전기 회로</entry>
+    <entry key="LabelHb1daew">hb1dae  - 보존 법칙에 기반을 둔 경직성 미분대수 방정식(Stiff DAE)</entry>
+    <entry key="LabelIburgersode">iburgersode - 음함수 ODE(상미분 방정식) 시스템 형식으로 해를 구하는 버거스 방정식(Burgers'' Equation)</entry>
+    <entry key="LabelIhb1dae">ihb1dae  - 보존 법칙에 기반을 둔 경직성 음함수 미분대수 방정식(Stiff Implicit DAE)</entry>
+    <entry key="LabelDdex1">ddex1 - 상수 내역을 갖는 경우에 대한 DDE(지연 미분 방정식)</entry>
+    <entry key="LabelDdex2">ddex2 - 불연속을 갖는 경우에 대한 DDE(지연 미분 방정식)</entry>
+    <entry key="LabelDdex3">ddex3 - 상태 종속 지연을 갖는 경우에 대한 DDE(지연 미분 방정식)</entry>
+    <entry key="LabelDdex4">ddex4 - 2개의 지연을 갖는 중립 DDE</entry>
+    <entry key="LabelDdex5">ddex5 - 초기값 유형의 중립 DDE</entry>
+    <entry key="LabelEmdenbvp">emdenbvp - 엠덴 방정식(Emden''s Equation) - 특이항을 갖는 경우에 대한 BVP(경계값 문제)</entry>
+    <entry key="LabelEmdenbvp5c">emdenbvp(''bvp5c'') - BVP5C로 해를 구하는 엠덴 방정식(Emden''s Equation)</entry>
+    <entry key="LabelFsbvp">fsbvp    - 무한 구간의 포크너-스칸(Falkner-Skan) BVP(경계값 문제)</entry>
+    <entry key="LabelFsbvp5C">fsbvp(''bvp5c'') - BVP5C로 해를 구하는 포크너-스칸(Falkner-Skan) BVP(경계값 문제)</entry>
+    <entry key="LabelMat4bvp">mat4bvp  - 마슈 방정식(Mathieu''s Equation)의 4차 고유함수</entry>
+    <entry key="LabelMat4bvp5c">mat4bvp(''bvp5c'') - BVP5C로 해를 구하는 마슈 방정식(Mathieu''s Equation)</entry>
+    <entry key="LabelRcbvp">rcbvp - BVP4C와 BVP5C를 비교하는 예제</entry>
+    <entry key="LabelShockbvp">shockbvp - x=0에 가까운 충격층이 해에 포함</entry>
+    <entry key="LabelShockbvp5c">shockbvp(''bvp5c'') - 충격층을 BVP5C로 계산</entry>
+    <entry key="LabelThreebvp">threebvp - 3개 점 경계값 문제</entry>
+    <entry key="LabelThreebvp5c">threebvp(''bvp5c'') - BVP5C로 해를 구하는 3개 점 BVP(경계값 문제)</entry>
+    <entry key="LabelTwobvp">twobvp   - 정확하게 2개의 해를 갖는 문제</entry>
+    <entry key="LabelPdex1">pdex1 - 1계 PDE(편미분 방정식)--기본 예제</entry>
+    <entry key="LabelPdex2">pdex2 - 1계 PDE(편미분 방정식)--불연속을 갖는 경우에 대한 예제</entry>
+    <entry key="LabelPdex3">pdex3 - 1계 PDE(편미분 방정식)-u(x,t)와 Du(x,t)/Dx의 근사치</entry>
+    <entry key="LabelPdex4">pdex4 - 2계 PDE(편미분 방정식)--기본 예제</entry>
+    <entry key="LabelPdex5">pdex5 - 2계 PDE(편미분 방정식)--장시간 동작에 대한 예제</entry>
+    <entry key="TitleDifferentialEquationsExamples">미분 방정식 예제</entry>
+    <entry key="LabelExamplesOf">다음에 대한 예제:</entry>
+    <entry key="LabelViewCode">코드 보기</entry>
+    <entry key="LabelRunExample">예제 실행</entry>
+    <entry key="LabelClose">닫기</entry>
+  </message>
+</rsccat>

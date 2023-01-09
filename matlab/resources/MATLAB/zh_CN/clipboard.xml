@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InsufficientCopyArguments">CLIPBOARD 函数在复制时需要两个输入参数。</entry>
+    <entry key="InvalidSecondArgument">CLIPBOARD 函数的第二个参数必须为数值数组、字符向量或字符串标量。</entry>
+    <entry key="IncorrectUsage">用法: CLIPBOARD(''copy'',stuffToCopy) 或 OUT = CLIPBOARD(''paste'')</entry>
+    <entry key="MatlabOnlineSupport">MATLAB Online 不支持 CLIPBOARD(''pastespecial'')</entry>
+  </message>
+</rsccat>

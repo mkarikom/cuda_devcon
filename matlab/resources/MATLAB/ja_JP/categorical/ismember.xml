@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TypeMismatch">ISMEMBER への入力が両方ともカテゴリカル配列であるか、いずれかの入力がスカラー string か文字ベクトルのセル配列でなければなりません。</entry>
+    <entry key="OrdinalMismatch">ISMEMBER へのカテゴリカル入力は両方とも順序配列であるか、両方とも順序配列以外でなければなりません。</entry>
+  </message>
+</rsccat>

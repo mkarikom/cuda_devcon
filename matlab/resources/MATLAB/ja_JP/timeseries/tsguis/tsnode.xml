@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Abort">中止</entry>
+    <entry key="AddEvent">イベントの追加</entry>
+    <entry key="AddNewEvent">新規イベントの追加</entry>
+    <entry key="AddRow">行の追加</entry>
+    <entry key="Attributes">属性...</entry>
+    <entry key="CannotChangeTheTimeSeriesName">1 つまたは複数のプロット内の時系列名は変更できません。</entry>
+    <entry key="Copy">コピー</entry>
+    <entry key="DeleteEvent">イベントの削除</entry>
+    <entry key="DeleteRows">行の削除</entry>
+    <entry key="DeleteRowsFromTimeseries">時系列 ''{0}'' から行を削除</entry>
+    <entry key="DeleteTscollectionMember">Tscollection メンバーの削除</entry>
+    <entry key="Detrend">トレンド除去...</entry>
+    <entry key="Description">説明</entry>
+    <entry key="DuplicatedVariableDetected">重複する変数が検出されました</entry>
+    <entry key="EditDataFor">{0} のデータを編集</entry>
+    <entry key="Export">エクスポート</entry>
+    <entry key="Filter">フィルター...</entry>
+    <entry key="Interpolate">内挿...</entry>
+    <entry key="ModifyingEventDescription">イベントの説明を変更しています</entry>
+    <entry key="ModifyingEventName">イベント名を変更しています</entry>
+    <entry key="ModifyingEventTime">イベント時間を変更しています</entry>
+    <entry key="Name">名前</entry>
+    <entry key="NamesMustBeUnique">時系列内のイベント名は一意でなければなりません</entry>
+    <entry key="NewNodeName">新規ノード名</entry>
+    <entry key="ObjectWasExported">オブジェクト ''{0}'' はベース ワークスペースにエクスポートされました。</entry>
+    <entry key="Overwrite">上書き</entry>
+    <entry key="Paste">貼り付け</entry>
+    <entry key="Remove">削除</entry>
+    <entry key="RemoveMissingData">欠損値の削除...</entry>
+    <entry key="Rename">名前の変更</entry>
+    <entry key="Resample">リサンプリング...</entry>
+    <entry key="ShowEventTable">イベント テーブルを表示</entry>
+    <entry key="Time">時間</entry>
+    <entry key="TimeSeriesNode">時系列ノード</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="ToFile">ファイルへ...</entry>
+    <entry key="ToWorkspace">ワークスペースへ</entry>
+    <entry key="TransformAlgebraically">代数的な変換...</entry>
+    <entry key="UniformTimeVector">等間隔時間ベクトル...</entry>
+    <entry key="VariableNameExists">名前 {0} の変数が既にワークスペースに存在します。既存の変数に上書きするか、この操作を中止しますか?</entry>
+  </message>
+</rsccat>

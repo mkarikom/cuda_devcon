@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nodeploy">不能在部署的应用程序中链接绘图，因为链接的绘图需要 MATLAB 工作区。</entry>
+    <entry key="InvalidSingleArg">参数必须为 figure、''on'' 或 ''off''。</entry>
+    <entry key="InvalidFigure">第一个输入应为图窗句柄。</entry>
+    <entry key="InvalidState">状态必须为 ''on''、''off''、''toggle'' 或 ''showdialog''。</entry>
+    <entry key="InvalidArgsForOutput">未随这些输入参数一起指定一个输出参数。</entry>
+  </message>
+</rsccat>

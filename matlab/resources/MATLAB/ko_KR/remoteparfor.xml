@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ParforRunningLocally">원격 parfor 코드를 생성(Construct)하는 중 오류가 발생했습니다.\nparfor 생성(Construct) 구문은 이제 원격 병렬 풀(Remote Parallel Pool)이 아닌 로컬로 실행됩니다. 이 문제의 가장 가능성 있는 원인은 직렬화 오류 때문에 워커에 입력 인수를 전송할 수 없다는 데 있습니다. caught error 오류 리포트:\n{0}</entry>
+    <entry key="ParforWorkerAborted">parfor 루프 실행 중 워커가 중단되었습니다. parfor 루프가 이제 나머지 워커에서 다시 실행됩니다.</entry>
+    <entry key="AllParforWorkersAborted">parfor 루프 실행 중 모든 워커가 중단되었습니다.</entry>
+  </message>
+</rsccat>

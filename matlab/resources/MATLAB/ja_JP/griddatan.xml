@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="HigherDimArray">1 番目と 3 番目の引数は行列でなければなりません。</entry>
+    <entry key="SampleValuesMustBeVector">Second argument must be a column vector.</entry>
+    <entry key="InputSizeMismatch">最初の 2 つの引数の行数は同じでなければなりません。</entry>
+    <entry key="XLowColNum">1 番目の引数は少なくとも 2 列をもたなければなりません。</entry>
+    <entry key="CannotTessellateInfOrNaN">Sample points must be finite.</entry>
+    <entry key="InvalidMethod">内挿法は、''linear'' または ''nearest'' のいずれかでなければなりません。</entry>
+    <entry key="OptsNotStringCell">Options argument must be a cell array of character vectors.</entry>
+    <entry key="CannotTriangulate">データを三角形にはできません。</entry>
+    <entry key="DuplicateDataPoints">Duplicate sample points detected: using the average of the sample values.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="InvalidPatchHandle">The handle supplied must be a patch handle</entry>
+      <entry key="WrongNumberOfInputs">Wrong number of input arguments.</entry>
+      <entry key="RGBSizeMismatch">R,G,B must all be the same size.</entry>
+      <entry key="InvalidColorDimensions">Color arrays must all be a 3D</entry>
+      <entry key="InvalidColorSizes">Color arrays must be size 2x2x2 or greater.</entry>
+      <entry key="InputsEmptyMismatch">X,Y,Z must all be empty or all non-empty.</entry>
+      <entry key="XSizeMismatch">The size of X must match the size of R or the number of columns of R.</entry>
+      <entry key="YSizeMismatch">The size of Y must match the size of R or the number of rows of R.</entry>
+      <entry key="ZSizeMismatch">The size of Z must match the size of R or the number of pages of R.</entry>
+   </message>
+</rsccat>

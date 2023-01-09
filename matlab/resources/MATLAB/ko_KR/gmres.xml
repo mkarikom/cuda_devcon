@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NumInputs">입력 인수가 부족합니다.</entry>
+    <entry key="SquareMatrix">행렬은 정사각 행렬이어야 합니다.</entry>
+    <entry key="VectorSize">계수 행렬과 일치시키려면 우변은 {0,number,integer} 길이로 구성된 열 벡터여야 합니다.</entry>
+    <entry key="Vector">우변은 열 벡터여야 합니다.</entry>
+    <entry key="tooSmallTolerance">GMRES가 입력 인수 tol을 달성하지 못할 수 있습니다.\n 더 큰 허용오차를 사용해 보십시오.</entry>
+    <entry key="tooBigTolerance">입력 인수 tol이 1보다 큽니다. \n 더 작은 허용오차를 사용해 보십시오.</entry>
+    <entry key="tooManyInnerItsRestart">RESTART는 {0,number,integer}이지만 SIZE(A,1)의 범위 내에 있어야 합니다.\n  RESTART가 {1,number,integer}(으)로 설정됩니다.</entry>
+    <entry key="tooManyInnerItsMaxit">MAXIT는 {0,number,integer}이지만 SIZE(A,1)의 범위 내에 있어야 합니다.\n MAXIT가 {1,number,integer}(으)로 설정됩니다.</entry>
+    <entry key="PreConditioner1Size">문제 크기와 일치시키려면 선조건자(Preconditioner)가 {0,number,integer} 크기로 구성된 정사각 행렬이어야 합니다.</entry>
+    <entry key="PreConditioner2Size">문제 크기와 일치시키려면 선조건자(Preconditioner)가 {0,number,integer} 크기로 구성된 정사각 행렬이어야 합니다.</entry>
+    <entry key="XoSize">문제 크기와 일치시키려면 초기 추측값은 {0,number,integer} 길이의 열 벡터여야 합니다.</entry>
+    <entry key="TooManyInputs">입력 인수가 너무 많습니다.</entry>
+  </message>
+</rsccat>

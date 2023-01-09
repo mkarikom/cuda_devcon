@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="operandsNotNumeric">BIT Op에 대한 피연산자는 숫자형이어야 합니다.</entry>
+    <entry key="complexOperands">Bit AND/OR/XOR은 복소수 피연산자를 허용하지 않습니다.</entry>
+    <entry key="mixedClasses">입력값들은 같은 클래스의 정수이거나 double형 정수 스칼라여야 하며 부호가 있거나 없을 수 있습니다.</entry>
+    <entry key="sizeMismatch">입력값은 크기가 동일해야 합니다.</entry>
+    <entry key="sparseArgs">입력값은 비희소(Full) 형식이어야 합니다.</entry>
+    <entry key="outOfRangeMixedType"> double형 입력값이 정수 입력값과 혼용되어 있을 때 double형 입력값은 정수 범위 내의 정수 값을 가지고 있어야 합니다.</entry>
+    <entry key="outOfRange">double형 입력값은 ASSUMEDTYPE 범위 내의 정수 값을 가지고 있어야 합니다.</entry>
+    <entry key="unknownTypeString">ASSUMEDTYPE은 정수형 이름이어야 합니다.</entry>
+    <entry key="invalidTypeString">정수 입력값은 정수 자체 유형 이외 다른 유형으로는 인식되지 않습니다.</entry>
+  </message>
+</rsccat>

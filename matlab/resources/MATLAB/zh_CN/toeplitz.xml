@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DiagonalConflict">输入列的第一个元素与输入行的第一个元素不匹配。\n         在对角线冲突中，列具有更高优先级。</entry>
+    <entry key="nonNumericInputs">输入必须为数值。</entry>
+  </message>
+</rsccat>

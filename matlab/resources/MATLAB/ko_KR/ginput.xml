@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NeedPositiveInt">양의 정수가 필요합니다.</entry>
+    <entry key="InputArgumentZero">GINPUT(N)에는 양의 정수, 스칼라 입력값이 필요합니다. 사용자 입력값이 수집되지 않은 채 반환 중입니다.\n향후 릴리스에서는 오류로 간주됩니다.</entry>
+    <entry key="Interrupted">중단됨</entry>
+    <entry key="FigureDeletionPause">Figure 삭제로 인해 중단되었습니다.</entry>
+    <entry key="FigureUnavailable">마우스/키 이벤트를 처리하는 데 사용할 수 있는 Figure가 없음</entry>
+    <entry key="InvalidSelection">유효하지 않은 마우스 선택입니다.</entry>
+  </message>
+</rsccat>

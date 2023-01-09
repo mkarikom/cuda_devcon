@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ConversationalNameForArguments">附加参数</entry>
+    <entry key="ConversationalNameForIdentifier">标识符</entry>
+    <entry key="ConversationalNameForMethodToConvert">方法名称</entry>
+    <entry key="ConversationalNameForReplacement">替换</entry>
+    <entry key="InvalidIdentifierName">{0} 必须为有效的 MATLAB 名称。''{1}'' 无效。</entry>
+    <entry key="MustBeCorrectionScalar">Correction 必须为 matlab.lang.correction.Correction 标量。</entry>
+    <entry key="MustBeTextScalar">{0} 必须为字符串标量或字符向量。</entry>
+    <entry key="MustBeTextVector">{0} 必须为字符串向量、字符向量或字符向量元胞向量。</entry>
+    <entry key="MustUseCorrectSyntax">{0} 必须使用正确的 MATLAB 语法。''{1}'' 无效。</entry>
+  </message>
+</rsccat>

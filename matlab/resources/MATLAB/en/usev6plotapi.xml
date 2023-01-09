@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="DeprecatedV6Compatibility">You have enabled V6 compatibility mode for graphics. This will become an error in a future release.</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="DeprecatedV6Argument">The ''v6'' argument is deprecated, and will no longer be supported in a future release.</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="DeprecatedMode">You have enabled V6 compatibility mode for graphics. This option will be removed in a future version of MATLAB.</entry>
+    <entry key="DeprecatedV6ArgumentForFilename">The ''v6'' argument to {0} is deprecated, and will no longer be supported in a future release.</entry>
+
+    <entry key="IgnoringV6Argument">Ignoring the ''v6'' argument.  This will become an error in a future release.</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="IgnoringV6ArgumentForFilename">Ignoring the ''v6'' argument to {0}.  This will become an error in a future release.</entry>
+  </message>
+</rsccat>

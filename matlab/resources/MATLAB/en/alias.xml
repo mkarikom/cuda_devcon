@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!-- Copyright 2011-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="OldNameExists"> Unable to use old name ''{0}'' for class ''{1}'' because ''{0}'' already exists in folder ''{2}'' as a class or function.</entry>
+    <entry key="OldNameDuplicatesBuiltinOrOtherLanguageClass"> Renaming ''{0}'' to ''{1}'' using class aliasing is not supported because ''{0}'' is built-in or created in another language.</entry>
+    <entry key="InvalidAliasDefinition">The alias definition file ''{0}'' has invalid syntax.</entry>
+    <entry key="ChainingDirect"> Illegal alias configuration. ''{0}'' ''{1}'' is an alias for class ''{2}'', but ''{1}'' is itself a real name for another class. This is not allowed.</entry>
+    <entry key="InvalidAliasConfigurationChaining"> Invalid alias configuration found for class ''{0}''.  When renaming a class multiple times, use a single call to addAlias with all old names specified.</entry>
+    <entry key="InvalidAliasConfigurationUseChaining"> Invalid alias configuration.  Use ''{0}'' on one line instead.</entry>
+    <entry key="ChainingReverse"> Illegal alias configuration. Class ''{0}'' is an alias for class ''{1}'', but ''{1}'' is itself an alias for another class. This is not allowed.</entry>
+    <entry key="WarnPackageAliasing"> Discuss with MCOS team before use package aliasing</entry>
+    <entry key="InvalidAliasDefinitionWithLineNumberText"> File ''{0}''\n Line: ''{1}'' Column ''{2}''  ''{3}''</entry>
+    <entry key="InvalidAliasKeyword">  ''{0}''\n  ''{1}''</entry>
+    <entry key="SameOldAndNewNames"> ''{0}'' alias name ''{1}'' and current name ''{1}'' are the same.</entry>
+    <entry key="DuplicateAlias"> Invalid alias configuration:  Class ''{0}'' cannot be used as an alias for more than one class.</entry>
+    <entry key="AliasFileSystemError"> File system error opening alias file ''{0}''. Unable to create aliases from this file.</entry>
+    <entry key="AliasShadowsBuiltin"> Naming a class ''{0}'' is incorrect because the name is already a registered alias for the built-in class ''{1}''.</entry>
+    <entry key="MissingNewClass"> Unable to use alias ''{0}'' of class ''{1}''  because there is no class definition with the new name ''{1}'' in folder ''{2}''.</entry>
+	<entry key="DuplicateNewName"> Invalid alias configuration: Class ''{0}'' is used as the target of two or more aliases. The later alias definitions will be skipped.</entry>
+  </message>
+</rsccat>

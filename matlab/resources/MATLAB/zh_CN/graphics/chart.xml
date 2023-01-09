@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="HandleVisibilityMustBeOn">无法将 HandleVisibility 设置为 'off' 或 'callback'。</entry>
+    <entry key="MatrixSizeMismatch">所有二维矩阵输入必须具有相同的大小。</entry>
+    <entry key="ScalarOtherInputsVectors">当一个输入是标量时，所有其他输入必须为标量或向量。</entry>
+    <entry key="AllVectorSizeMismatch">所有向量输入的长度必须相同。</entry>
+    <entry key="VectorDoesNotMatchDimOtherInputs">所有向量输入的长度必须与所有二维矩阵输入的行数或列数相匹配。</entry>
+    <entry key="NumVariablesMismatch">The number of variables specified for ''{0}'' did not match the number of variables specified in one of the previous arguments.</entry>
+    <entry key="VariableNotFound">The variable ''{0}'' was not found.</entry>
+    <entry key="DoubleHandleParentNotSupported">Specifying parent as double value is not supported.</entry>
+    <entry key="TableToMatrixNotSupported">不支持在 ''{1}'' 属性为非空时设置 ''{0}'' 属性。</entry>
+    <entry key="MatrixToTableNotSupported">不支持在 ''{1}'' 属性设置为 '手动' 时设置 ''{0}'' 属性。</entry>
+    <entry key="MustBeVector">{0} 数据必须为向量。</entry>
+    <entry key="FailedToConvertToDouble">''{0}'' 的值必须为双精度类型或可转换为双精度类型。</entry>
+    <entry key="ComplexNotSupported">''{0}'' 不支持复数值。</entry>
+    <entry key="InvalidSourceTable">''SourceTable'' 值必须为表。</entry>
+    <entry key="NonScalarTableSubscript">''{0}'' 值必须引用源表中的单精度变量。</entry>
+    <entry key="MixingChannelDataType">不支持混合使用 {0} 和 {1} 数据。为 ''{2}'' 指定的数据必须具有相同的数据类型或为数值。</entry>
+    <entry key="InvalidSubscriptForChannel">{0} 的下标无效。{1}</entry>
+    <entry key="InvalidSubscriptValue">请将数值下标指定为正整数。</entry>
+    <entry key="SubscriptOutOfBounds">索引超出数组范围。</entry>
+    <entry key="InvalidSubscriptType">不支持 {0} 类型的下标。</entry>
+  </message>
+</rsccat>

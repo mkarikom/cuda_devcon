@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="dimensionMustBePositiveInteger">维度参数必须是处于索引范围内的正整数标量。</entry>
+    <entry key="vecDimsMustBeUniquePositiveIntegers">维向量的元素必须唯一。</entry>
+    <entry key="invalidDim">维度参数必须为正整数标量、由唯一正整数组成的向量或 'all'。</entry>
+  </message>
+</rsccat>

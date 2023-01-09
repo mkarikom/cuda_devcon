@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidShrinkFactor">無効な縮小係数です。</entry>
+    <entry key="InvalidInput">入力は認められた入力形式のいずれとも一致しません。</entry>
+    <entry key="InvalidPointsMatrix">入力ポイント P は行列でなければなりません。</entry>
+    <entry key="EmptyInpPtsErrId">入力点の配列が空です。</entry>
+    <entry key="NonColVecInpPtsErrId">入力点は、列ベクトルの形式で指定されなければなりません。</entry>
+    <entry key="Non2D3DInputErrId">入力点は、numpoints 行 ndim 列の形式の 2 次元または 3 次元座標でなければなりません。</entry>
+  </message>
+</rsccat>

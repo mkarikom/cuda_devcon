@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Label_Standard_NewFigure">新規</entry>
+    <entry key="Label_Standard_FileOpen">開く</entry>
+    <entry key="Label_Standard_SaveFigure">保存</entry>
+    <entry key="Label_Standard_PrintFigure">印刷</entry>
+    <entry key="Label_Standard_EditPlot">プロット編集</entry>
+    <entry key="Label_Exploration_ZoomIn">ズーム イン</entry>
+    <entry key="Label_Exploration_ZoomOut">ズーム アウト</entry>
+    <entry key="Label_Exploration_ZoomX">X 軸ズーム</entry>
+    <entry key="Label_Exploration_ZoomY">Y 軸ズーム</entry>
+    <entry key="Label_Exploration_Pan">移動</entry>
+    <entry key="Label_Exploration_Rotate">回転</entry>
+    <entry key="Label_Exploration_DataCursor">データ ヒント</entry>
+    <entry key="Label_Exploration_Brushing">データのブラシ選択</entry>
+    <entry key="Label_DataManager_Linking">リンク プロット</entry>
+    <entry key="Label_Annotation_InsertColorbar">カラー バー</entry>
+    <entry key="Label_Annotation_InsertLegend">凡例</entry>
+    <entry key="Label_Annotation_InsertRectangle">四角形</entry>
+    <entry key="Label_Annotation_InsertEllipse">楕円</entry>
+    <entry key="Label_Annotation_InsertTextbox">テキストボックス</entry>
+    <entry key="Label_Annotation_InsertTextArrow">テキスト矢印</entry>
+    <entry key="Label_Annotation_InsertDoubleArrow">双方向矢印</entry>
+    <entry key="Label_Annotation_InsertArrow">矢印</entry>
+    <entry key="Label_Annotation_InsertLine">ライン</entry>
+    <entry key="Label_Annotation_Pin">固定</entry>
+    <entry key="Label_Annotation_AlignDistribute">配置</entry>
+    <entry key="Label_Plottools_PlottoolsOff">プロット ツールの非表示</entry>
+    <entry key="Label_Plottools_PlottoolsOn">プロット ツールの表示</entry>
+  </message>
+</rsccat>

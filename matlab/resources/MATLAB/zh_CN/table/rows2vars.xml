@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidNewVarNamesSpec">将输入表中的一个变量指定为输出表中的新变量名称。请使用正整数、变量名称或包含单个 true 值的逻辑向量。</entry>
+    <entry key="InvalidNewVarNames">无法将指定为 ''VariableNamesSource'' 的变量转换为变量名称。</entry>
+    <entry key="IncorrectNumVarNames">指定为 ''VariableNamesSource'' 的变量必须为输入表中的每一行都提供一段唯一的文本。不支持使用多维数组变量。</entry>
+    <entry key="DataVarsIncludeVarNames">指定为 ''VariableNamesSource'' 的变量不能包含在数据变量中。</entry>
+    <entry key="CannotTransposeTableInTable">输入表不能包含其本身是表的变量。请考虑先使用 splitvars 创建单独的变量，然后再调用 rows2vars。</entry>
+    <entry key="CannotTransposeMulticolumnVar">输入表不能包含属于多列或 N 维数组的变量。请考虑先使用 splitvars 创建单独的变量，然后再调用 rows2vars。</entry>
+    <entry key="CannotTransposeNoColumnVar">输入表不能包含宽度为零的变量。</entry>
+    <entry key="VarsizeTable">输入表中的行数必须在编译时固定。</entry>
+    <entry key="UnsupportedVarNamesSource">代码生成中不支持 ''VariableNamesSource''。</entry>
+    <entry key="NonconstantDataVars">''DataVariables'' 值必须为常量。</entry>
+    <entry key="NonconstantNamingRule">变量命名规则必须为常量。</entry>
+    <entry key="NonconstantRowNames">输入表中的行名称必须为常量。</entry>
+  </message>
+</rsccat>

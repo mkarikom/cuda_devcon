@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="XDataSizeMismatch">X 데이터는 Y 데이터와 크기가 동일해야 합니다.</entry>
+    <entry key="InvalidNumberDataInputs">데이터 인수의 개수가 올바르지 않습니다. 데이터 인수는 2개, 3개, 4개 또는 6개를 지정해야 합니다.</entry>
+    <entry key="InvalidUseOfOrientation">방향 플래그는 2개, 3개, 4개의 데이터 인수에 대해서만 사용할 수 있습니다.</entry>
+    <entry key="ErrorLabel">오차</entry>
+    <entry key="DeltaArgumentSizeMismatch">오차 인수 ''{0}''은(는) 비어 있거나 데이터와 크기가 동일해야 합니다.</entry>
+    <entry key="CategoricalDeltaArgumentNotSupported">데이터가 categorical형인 경우 오차 인수 ''{0}''은(는) 비어 있어야 합니다.</entry>
+    <entry key="DeltaArgumentTypeMustBeDuration">데이터가 datetime형 또는 duration형인 경우 오차 인수 ''{0}''은(는) duration형 벡터여야 합니다.</entry>
+    <entry key="DeltaArgumentTypeMustBeNumeric">데이터가 숫자형인 경우 오차 인수 ''{0}''은(는) 숫자형 벡터여야 합니다.</entry>
+    <entry key="DeltaSizeMismatch">{0}은(는) 비어 있거나 YData와 크기가 동일해야 합니다.</entry>
+    <entry key="CategoricalDeltaNotSupported">데이터가 categorical형인 경우 {0}은(는) 비어 있어야 합니다.</entry>
+    <entry key="DeltaTypeMustBeNumericOrDuration">{0}은(는) 숫자형 벡터이거나 duration형 벡터여야 합니다.</entry>
+    <entry key="DeltaTypeMustBeDuration">데이터가 datetime형 또는 duration형인 경우 {0}은(는) duration형 벡터여야 합니다.</entry>
+    <entry key="DeltaTypeMustBeNumeric">데이터가 숫자형인 경우 {0}은(는) 숫자형 벡터여야 합니다.</entry>
+  </message>
+</rsccat>

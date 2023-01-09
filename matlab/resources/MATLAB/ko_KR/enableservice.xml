@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidService">서비스는 ''DDEServer'' 또는 ''AutomationServer''여야 함</entry>
+    <entry key="InvalidInput">서비스는 문자형 벡터 또는 string형 스칼라여야 하며, 상태는 true 또는 false여야 합니다.</entry>
+    <entry key="InvalidInput2">상태는 true여야 함</entry>
+  </message>
+</rsccat>

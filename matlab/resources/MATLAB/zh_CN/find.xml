@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="singleIndex">矩阵太大，无法返回线性索引。\n请对稀疏矩阵使用 [i,j] = find(S)。</entry>
+    <entry key="NotScalarInt">第二个参数必须为正标量整数。</entry>
+    <entry key="InputClass">选项必须为字符类型。</entry>
+    <entry key="InvalidOption">搜索选项无效。必须为 ''first'' 或 ''last''。</entry>
+  </message>
+</rsccat>

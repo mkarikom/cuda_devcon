@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NumOutNotEqualNumDims">输出参数的数目不正确。输出参数的数量必须等于输入维度参数的数量。</entry>
+    <entry key="invalidDim">维度参数必须为正整数标量或正整数向量。</entry>
+  </message>
+</rsccat>

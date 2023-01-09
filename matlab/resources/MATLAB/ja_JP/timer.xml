@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="alreadystarted">既に実行しているため、タイマーを開始できません。</entry>
+    <entry key="badcallback">{0} (タイマー ''{1}'') を実行中にエラーが発生 \n\n{2}\n</entry>
+    <entry key="cannotBeSetWhileTimerRunning">タイマーの実行中は {0} を設定できません。</entry>
+    <entry key="cannotSetEmptyTimerFcnWhileRunning">実行中のタイマーの ''TimerFcn'' を空に設定することはできません</entry>
+    <entry key="cannotStartTimerWithNoTimerFcn">''TimerFcn'' コールバックを指定せずにタイマーを開始することはできません。</entry>
+    <entry key="creatematrix">タイマー オブジェクトの行、または列ベクトルのみ作成可能です。</entry>
+    <entry key="deleterunning">1 つ以上の実行されているタイマー オブジェクトを削除しています。MATLAB は削除前に自動的にそれらのタイマーを停止しました。</entry>
+    <entry key="dlg_InspectionError">検査エラー</entry>
+    <entry key="dlg_InvalidObject">無効なオブジェクト</entry>
+    <entry key="dlg_TimerObjectIsInvalid">タイマー オブジェクトが無効です。</entry>
+    <entry key="emptyTimerObject">\n 空の timer オブジェクト: 0 行 0 列\n\n</entry>
+    <entry key="errorinobjectarray">いくつかのオブジェクトは、開始できないか、既に開始しています。</entry>
+    <entry key="floorOfTasksToExecuteMustBePositive">Taking the ''floor'' of ''TasksToExecute'' should be positive </entry>
+    <entry key="incompatibleTimerLoad">保存されているタイマーを読み込めません。無効であるか、このバージョンの MATLAB と互換性がありません。timer オブジェクトを再作成するか、R2009a ～ R2019b のリリースの timer オブジェクトを再び読み込んで保存してください。</entry>
+    <entry key="incompletepvpair">不完全なプロパティと値のペアです。</entry>
+    <entry key="incorrectCallbackInput">timer のコールバックの 3 番目の引数は、string スカラー、文字配列、関数ハンドル、または cell 配列でなければなりません。</entry>
+    <entry key="incorrectCallbackInputForCallbackType">{0} コールバックは、string スカラー、関数ハンドル、または 1 行 N 列の cell 配列でなければなりません。1 行 N 列の cell 配列の最初の要素は、コールバック関数の名前またはハンドルでなければなりません。</entry>
+    <entry key="infinitetimer">無限の TasksToExecute をもつタイマーを待つことはできません。</entry>
+    <entry key="invalid">タイマー オブジェクトが無効です。このオブジェクトを削除し、CLEAR を使ってワークスペースから削除する必要があります。</entry>
+    <entry key="invaliddatesyntax">シリアル日付値の指定にエラーがあります。TIMER/STARTAT のヘルプを参照してください。</entry>
+    <entry key="miliSecPrecNotAllowed">{0} プロパティの精度は 1 ミリ秒に制限されています。ミリ秒未満の精度は無視されます。</entry>
+    <entry key="noTimerObj">OBJ はタイマー オブジェクトでなければなりません。</entry>
+    <entry key="notenoughparameters">STARTAT は、少なくとも 2 つのパラメーターが必要です。TIMER/STARTAT のヘルプを参照してください。</entry>
+    <entry key="numtimersanddelaymismatch">STARTAT は、開始の遅延値をスカラーにする、または OBJ の長さと等しくする必要があります。TIMER/STARTAT のヘルプを参照してください。</entry>
+    <entry key="onlyOneStructInput">timerfind/timerfindall への入力はスカラー struct または名前と値のペアにすることができます。struct のベクトルは許可されていません。</entry>
+    <entry key="someinvalid">入力配列内にいくつかの無効なタイマー オブジェクトがあります。</entry>
+    <entry key="startdelaynegative">指定した開始時間は、既に過ぎています。</entry>
+    <entry key="unableToLoad">保存されているタイマーを読み込めません。</entry>
+    <entry key="unableToExecuteErrorFcn">''ErrorFcn'' を実行できません。</entry>
+  </message>
+</rsccat>

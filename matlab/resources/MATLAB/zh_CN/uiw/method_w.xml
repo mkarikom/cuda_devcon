@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DiskFull">磁盘中没有足够的空间</entry>
+    <entry key="RecreatingPeerDuringPaint">在绘画事件期间重新创建对等窗口</entry>
+    <entry key="OutOfMemory">内存不足 - 无法创建字体</entry>
+    <entry key="UnsupportedMethod">16 色模式下不支持 ''getframe''</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EmptyMatrixDisplay">空の {0} 行列:</entry>
+    <entry key="EmptyArrayDisplay">空の {0} 配列:</entry>
+    <entry key="DisplaySizeSeparator"> x </entry>
+    <entry key="DisplayColumnHeader">  {0,number,integer} 列から {1,number,integer} 列</entry>
+    <entry key="DisplayColumnHeaderShort">  列 {0,number,integer}</entry>
+    <entry key="TZTableCaption">{0} 地域の IANA タイム ゾーン リスト</entry>
+    <entry key="TZTableAllCaption">すべての地域の IANA タイム ゾーン リスト</entry>
+    <entry key="TZNameHeader">タイム ゾーン名</entry>
+    <entry key="UTCOffsetHeader1">UTC からのオフセット</entry>
+    <entry key="UTCOffsetHeader2">(時間、東が正方向)</entry>
+    <entry key="DSTOffsetHeader1">DST オフセット</entry>
+    <entry key="DSTOffsetHeader2">(時間)</entry>
+    <entry key="TZMoreInfoDoc">詳細については、MATLAB® ドキュメンテーションで &lt;code&gt;datetime.TimeZone&lt;/code&gt; を参照してください。</entry>
+    <entry key="TZPropertiesUTCOffsetUnit">時間 (東が正方向)</entry>
+    <entry key="TZPropertiesDSTOffsetUnit">時間</entry>
+  </message>
+</rsccat>

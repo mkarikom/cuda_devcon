@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011-2016 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="UnknownOption">Unknown command option {0}.</entry>
+      <entry key="WrongNumberElements">Vector must have 4, 6, or 8 elements.</entry>
+      <entry key="ObsoleteState">AXIS(''STATE'') is obsolete and will be eliminated in future versions. Use GET(GCA,...) instead.</entry>
+      <entry key="CartesianAxes">Command option {0} is only available for Cartesian axes.</entry>
+      <entry key="NumericAxes">Command option {0} is only available for numeric axes.</entry>
+      <entry key="Mixed2D">x-axis and y-axis limits have different data types. Use &lt;a href="matlab:helpview([docroot '/matlab/ref/xlim.html'])"&gt;xlim&lt;/a&gt; and &lt;a href="matlab:helpview([docroot '/matlab/ref/ylim.html'])"&gt;ylim&lt;/a&gt; functions instead.</entry>
+      <entry key="Mixed3D">x-axis, y-axis and z-axis limits have different data types. Use &lt;a href="matlab:helpview([docroot '/matlab/ref/xlim.html'])"&gt;xlim&lt;/a&gt;, &lt;a href="matlab:helpview([docroot '/matlab/ref/ylim.html'])"&gt;ylim&lt;/a&gt; and &lt;a href="matlab:helpview([docroot '/matlab/ref/zlim.html'])"&gt;zlim&lt;/a&gt; functions instead.</entry>
+      <entry key="NonAxisGraphicsHandle">First argument must be an Axes object. </entry>
+   </message>
+</rsccat>

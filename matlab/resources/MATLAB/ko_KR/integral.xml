@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="funArgNotHandle">첫 번째 입력 인수는 함수 핸들이어야 합니다.</entry>
+    <entry key="invalidEndpoint">적분 한계는 double형 또는 single형 스칼라여야 합니다.</entry>
+    <entry key="nonFiniteContourError">등고선 끝점과 중간점은 유한해야 합니다.</entry>
+    <entry key="NonFiniteValue">Inf or NaN value encountered.</entry>
+    <entry key="UnsupportedClass">입력 함수는 ''double''형 또는 ''single''형 값을 반환해야 합니다. ''{0}''을(를) 발견했습니다.</entry>
+    <entry key="FxNotSameSizeAsX">함수 출력값은 입력값과 같은 크기여야 합니다. FUN이 배열 값을 가진 피적분 함수일 경우 'ArrayValued' 옵션은 true로 설정하십시오.</entry>
+    <entry key="invalidAbsTol">''AbsTol'' 값은 음이 아닌 double형 또는 single형 스칼라여야 합니다.</entry>
+    <entry key="invalidRelTol">''RelTol'' 값은 음이 아닌 double형 또는 single형 스칼라여야 합니다.</entry>
+    <entry key="MaxIntervalCountReached">사용 중에 최대 구간 개수에 도달했습니다. 오차의 근사 범위는 {0}입니다. 적분이 존재하지 않거나 요청된 정확도만큼 숫자상으로 근사치를 계산하기 어려울 수 있습니다.</entry>
+    <entry key="MinStepSize">x = {0} 근처에서 최소 스텝 크기에 도달했습니다. 이 문제에 대한 허용오차가 너무 작은 경우이거나, 특이점인 경우일 수 있습니다.</entry>
+    <entry key="invalidWaypoints">''Waypoints'' 값은 요소 값이 모두 유한한 벡터여야 합니다.</entry>
+    <entry key="invalidArrayValued">''ArrayValued'' 값은 true 또는 false여야 합니다.</entry>
+    <entry key="unsuccessful">적분에 실패했습니다.</entry>
+  </message>
+</rsccat>

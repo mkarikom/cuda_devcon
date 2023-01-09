@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="KeyWithoutValue">{0} に値が指定されていません。</entry>
+    <entry key="ParseFlagsUndir">パラメーター名は ''OutputForm'' でなければなりません。</entry>
+    <entry key="ParseOutput">OutputForm の値は ''vector'' または ''cell'' でなければなりません。</entry>
+  </message>
+</rsccat>

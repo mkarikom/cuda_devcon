@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SyntaxError">UNIX에 알 수 없는 사용자 문자가 있습니다.</entry>
+    <entry key="SyntaxWarning">Windows에서 파일 사용자 문자가 무시되었습니다.</entry>
+    <entry key="ModeSyntaxError">현재 플랫폼에 유효하지 않은 파일 모드 문자가 있습니다.</entry>
+    <entry key="ModifierSyntaxError">유효하지 않은 수정자입니다.</entry>
+    <entry key="CannotFindFile">해당 파일 또는 디렉터리가 없습니다.</entry>
+    <entry key="CouldNotSetAttributes">작업이 허용되지 않습니다.</entry>
+  </message>
+</rsccat>

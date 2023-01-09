@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" decorate_cxx_names="true">
+  <message>
+  <!--Resource entries for src/hgbuiltins-->
+    <entry key="FigureDoubleCreation">Creating a figure with an assigned double handle is deprecated</entry>
+    <entry key="SetMethodUnknown">Cannot find ''set'' method for {0} class.</entry>
+    <entry key="SetMethodFailed">Set failed on {0} class.</entry>
+    <entry key="GetMethodUnknown">Cannot find ''get'' method for {0} class.</entry>
+    <entry key="GetMethodFailed">Get failed on {0} class.</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="invalidMode">Function getDefaultHGUsingMATLABClassesHandle, should be invoked in HGUsingMATLABClasses mode</entry>
+    <entry key="tex">{0} does not exist</entry>
+    <entry key="proplink">Invalid handle vector</entry>
+    <entry key="deserializeDatatips">The previously accessible function "{0}" is now inaccessible.\n The default data cursor update function will be used instead.</entry>
+  <!--Resource entries for toolbox\matlab\datamanager-->
+    <entry key="linkplotdata">This feature is not supported</entry>
+  <!--Resource entries for src/hgbuiltins-->
+    <entry key="DeprecatedHitTest">hittest(f, {0}) is deprecated and will be removed in a future release.</entry>
+    <entry key="DeprecatedNoReplacement">{0} will be removed in a future release.</entry>
+  <!--Resource entries for src/hgutils-->
+    <entry key="DoubleHandleConversionError">Can''t find conversion for double handle</entry>
+    <entry key="CannotConvertDoubleToHandle">Cannot convert double value {0} to a handle</entry>
+  <!--temporary drawnow warning - should not be seen by users-->
+    <entry key="drawnowTimeout" translate="false">drawnow timeout: waited {0} seconds for {1} ACT {2}. {3}</entry>
+  <!--customer facing timeout that occurs during drawnow -->
+    <entry key="timeoutDuringDrawnow">Graphics timeout occurred. To share details of this issue with MathWorks technical support, please include that this is {0} with your service request.</entry>
+  <!--TerminatingCondition errors-->
+    <entry key="stallTimeout" translate="false">stall timeout in {0}: waited {1} seconds for response</entry>
+    <entry key="reconnect">Unable to communicate with figure</entry>
+    <entry key="newView">Unable to communicate with figure</entry>
+  <!--startup plugin errors-->
+    <entry key="GraphicsBackgroundInitError">Error occurred during background graphics initialization: {0}</entry>
+    <entry key="GraphicsInitError">Error occurred during graphics initialization: {0}</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidCellArray">PREF セル配列は文字ベクトルを含まなければなりません</entry>
+    <entry key="InvalidPREFinput">PREF は、文字ベクトル、string 配列、または文字ベクトルの cell 配列でなければなりません</entry>
+    <entry key="InvalidValueType">VALUE のタイプは PREF と一致していなければなりません</entry>
+    <entry key="InvalidGroupInput">GROUP は文字ベクトルまたは string スカラーでなければなりません。</entry>
+  </message>
+</rsccat>

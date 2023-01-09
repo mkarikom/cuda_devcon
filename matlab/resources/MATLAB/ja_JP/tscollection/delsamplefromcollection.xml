@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="needinteger">インデックスは整数ベクトルで指定しなければなりません。</entry>
+    <entry key="badindex">指定されたインデックスは整数でないか、範囲外、または負になっています。</entry>
+    <entry key="badvalue">時間は数値でなければなりません。</entry>
+    <entry key="badtimeformat">無効な時間形式</entry>
+    <entry key="badformat">指定した時刻形式が時系列の時刻形式と一致しません。</entry>
+    <entry key="badsyntax">各サンプルを削除するためのサンプルのインデックスか時間を指定しなければなりません。</entry>
+    <entry key="badmethod">2 番目の引数は、削除するサンプルの識別メソッドを指定する文字ベクトルまたは string でなければなりません。</entry>
+  </message>
+</rsccat>

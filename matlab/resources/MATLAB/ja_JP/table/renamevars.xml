@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoLHS">ワークスペース変数に代入せずに RENAMEVARS を使用すると、table の変数名は変更されません。t = renamevars(t,vars,newnames) を使用してください。</entry>
+    <entry key="NumNamesMismatch">新しい変数名の数は、指定した変数の数と一致しなければなりません。</entry>
+    <entry key="InvalidVarSubscript">table 変数の添字は、実数の正の整数を含む数値配列、logical 配列、文字ベクトル、string 配列、文字ベクトルの cell 配列または vartype サブスクリプター オブジェクトでなければなりません。</entry>
+    <entry key="RenameDim">RENAMEVARS を使用した次元名の変更はサポートされていません。</entry>
+    <entry key="NamesNotText">新しい変数名はテキストでなければなりません。</entry>
+    <entry key="NewVarNamesMustBeConstant">Specify 'NewVariableNames' as Constant.</entry>
+  </message>
+</rsccat>

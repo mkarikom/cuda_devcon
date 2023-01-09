@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invPropStr">속성 이름은 단일 라인 문자형 벡터 또는 string형이어야 합니다.</entry>
+    <entry key="invPropName">''{0}''은(는) 유효하지 않은 속성 이름임</entry>
+    <entry key="ambPropName">''{0}''은(는) 모호한 속성 이름입니다. 더 많은 문자를 제공하십시오.</entry>
+  </message>
+</rsccat>

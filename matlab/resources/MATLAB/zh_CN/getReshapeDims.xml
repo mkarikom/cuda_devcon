@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="sizeVector">大小向量必须包含至少两个元素。</entry>
+    <entry key="unknownDim">大小只能具有一个未知维度。</entry>
+    <entry key="notDivisible">已知维度的乘积 {0,number,integer} 不能被元素总数 {1,number,integer} 整除。</entry>
+    <entry key="notSameNumel">元素数不能更改。请使用 [] 作为大小输入之一，以自动计算该维度的适当大小。</entry>
+    <entry key="notRealInt">大小参数必须为整型实数。</entry>
+  </message>
+</rsccat>

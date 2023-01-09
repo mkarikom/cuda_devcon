@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AmbiguousName">색 테이블에 지정한 string형 스칼라 또는 문자형 벡터와 일치하는 이름이 여러 개 있습니다.</entry>
+    <entry key="ParseError">색 이름 또는 16진수 색 코드가 유효하지 않습니다. 유효한 이름에는 'red', 'green', 'blue', 'cyan', 'magenta', 'yellow', 'black', 'white' 및 'none'이 있습니다. 유효한 16진수 색 코드는 '#'과 그 뒤에 오는 3자리 또는 6자리 16진수로 구성되어야 합니다.</entry>
+    <entry key="ValueMustBe3or4ElementVector">유효하지 않은 RGB 3색입니다. 0과 1 사이의 값으로 구성된 요소를 3개 가진 벡터를 지정하십시오.</entry>
+  </message>
+</rsccat>

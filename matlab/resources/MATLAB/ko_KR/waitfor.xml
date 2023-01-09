@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadProperty1">유효하지 않은 속성임</entry>
+    <entry key="BadProperty2">유효하지 않은 속성임</entry>
+    <entry key="BadProperty3">유효하지 않은 속성임</entry>
+    <entry key="BadProperty">유효하지 않은 속성임.</entry>
+    <entry key="InvalidObject">유효하지 않은 객체입니다.</entry>
+    <entry key="AmbiguousProperty">모호한 속성임.</entry>
+  </message>
+</rsccat>

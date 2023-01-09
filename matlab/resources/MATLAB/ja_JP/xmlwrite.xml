@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="IncorrectFilenameType">ファイル名は文字ベクトル、string スカラー、または java.io.Writer か java.io.OutputStream のサブクラスでなければなりません。</entry>
+    <entry key="TildePathsNotSupported">相対パスはサポートされていません。ファイル名を含む絶対パスを指定するか、現在のファルダーに書き込むにはファイル名のみを指定します。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Vs"> 与 </entry>
+    <entry key="SpecifyDataSource">将 X、Y 和 Z 的数据源指定为工作区中的变量。</entry>
+    <entry key="DialogTitle">链接的绘图数据源</entry>
+    <entry key="OKLabel">确定</entry>
+    <entry key="CancelLabel">取消</entry>
+    <entry key="LinkDataError">大小不匹配</entry>
+    <entry key="ImmediateApplyLabel">立即应用</entry>
+    <entry key="HelpLabel">帮助</entry>
+    <entry key="FailingLinks">无效的链接</entry>
+    <entry key="DifferentXYZSize">{0} 和 {1} 具有不同的大小</entry>
+    <entry key="DisplayNameLabel">显示名称</entry>
+    <entry key="CannotLinkData">无法链接数据。没有图形对象具有数据源。</entry>
+    <entry key="CannotLinkTableData">当数据来自表时，不支持链接数据。</entry>
+    <entry key="CannotDeleteBrushedTableData">当数据来自表时，不支持删除刷亮的数据。</entry>
+  </message>
+</rsccat>

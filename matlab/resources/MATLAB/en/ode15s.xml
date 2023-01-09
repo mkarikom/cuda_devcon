@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotEnoughInputs">Not enough input arguments.  See ODE15s.</entry>
+    <entry key="MassMatrixAllZero">The mass matrix must have some non-zero entries.</entry>
+    <entry key="YoYPoLengthMismatch">y0 and yp0 have different lengths.</entry>
+  <!--Resource entries for toolbox/matlab/funfun-->
+    <entry key="NonNegativeIgnoredForLinearlyImplicitSystems">For linearly implicit systems, ODE15S does not constrain the solution.\n         Option ''NonNegative'' will be ignored.</entry>
+    <entry key="IntegrationTolNotMet">Failure at t={0}.  Unable to meet integration tolerances without reducing the step size below the smallest value allowed ({1}) at time t.</entry>
+  </message>
+</rsccat>

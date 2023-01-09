@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadArguments">핸들 값은 음수일 수 없음</entry>
+    <entry key="IntegerHandleArrayFull">핸들 배열에 할당된 정수 값이 가득참. 사용할 수 있는 핸들이 없음</entry>
+    <entry key="OutOfUniqueHandles">모든 핸들이 적어도 한 번은 사용되었으므로, 이제부터 핸들이 재사용됩니다.</entry>
+    <entry key="AllocationFailed">핸들 할당 실패: 너무 많은 핸들이 사용 중임</entry>
+  </message>
+</rsccat>

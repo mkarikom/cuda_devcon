@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed">
+  <message>
+    <entry key="AddClasspath">In order to use {0}, you must run &lt;a href="matlab:javaaddpath(''{1}'')">javaaddpath(''{2}'')&lt;/a>.</entry>
+    <entry key="AddPath">In order to use {0}, you must run &lt;a href="matlab:addpath(''{1}'')">addpath(''{2}'')&lt;/a>.</entry>
+    <entry key="AnotherJar">In order to use {0}, you must have {1} on your Java classpath, but the current classpath has {2} which contains a different version of the generated code.</entry>
+    <entry key="ArgMustBeString" note="stringDatatypeUpdate">Argument {0,number,integer} must be a string or character vector.</entry>
+    <entry key="BadCertificateFile">The certificate file ({0}) does not contain any valid certificates. Check that the file is in PEM format.</entry>
+    <entry key="BadMediaType">The media type ''{0}'' has an invalid character or syntax. It should be of the form ''type/subtype''.</entry>
+    <entry key="BadMediaTypeParameter">The media type parameter ''{0}'' has an invalid character or syntax. It should be of the form ''name=value''.</entry>
+    <entry key="BadSilentOption">Parameter 3, if present, must be 'silent'.</entry>
+    <entry key="BadXml">WSDL parse exception: {0}</entry>
+    <entry key="BasicAuthenticationFailed">The server at URL ''{0}'' issued an authentication error. Either {1} authentication is not supported or the provided authentication parameters, {2} and {3}, are incorrect.</entry>
+    <entry key="BytesOfData">&lt;&lt; {0} bytes of data &gt;&gt;</entry>
+    <entry key="CalDurationSigns">Properties of calendarDuration must not have conflicting signs: {0}</entry>
+    <entry key="CannotAccessWSDL">Cannot access WSDL at {0}.\n{1}</entry>
+    <entry key="CannotConvertValueToString" note="stringDatatypeUpdate">The value of parameter ''{0}'' cannot be converted to a string.</entry>
+    <entry key="CannotFindClass">The Java function {0} was not found. Issue 'clear java' and try again.</entry>
+    <entry key="CertificateFailedVerification">The server certificate failed verification. The certificate's domain name "{0}" does not match the domain name of the host "{1}".</entry>
+    <entry key="CertificateFileNotFound">The certificate file ({0}) was not found or could not be opened for reading. Check the value of options.CertificateFilename.</entry>
+    <entry key="ClassOnWrongPath">{0} was found in your path, which could shadow {1}. Before using {2} you should remove the other definition and issue clear classes.</entry>
+    <entry key="ConnectionRefused" note="{0} is a URL, {1} is some other non-translated message">Error connecting to {0}: {1}</entry>
+    <entry key="ConnectionFailed">Error downloading content from {0}. Your network connection may be down or your proxy settings improperly configured.</entry>
+    <entry key="CopyContentToDataStreamError">The error "{0}" occurred while communicating with URL ''{1}''.</entry>
+    <entry key="ContentTypeMismatch">The {0} value, ''{1}'', does not match the ''{2}'' content type obtained from URL, ''{3}''. Set {4} to ''{5}''.</entry>
+    <entry key="ContentTypeReaderError">The content reader issued the error message: "{0}", while reading the content downloaded from URL ''{1}''. Use the function {2} to save the content to a file.</entry>
+    <entry key="CouldNotDetermineToolVersion">Warning: could not determine whether {1} is the correct version of {0}:\n{2}</entry>
+    <entry key="CouldNotExecuteTool">Attempt to execute {0} returned an error:\n{1}</entry>
+    <entry key="CouldNotFindElement">WSDL Parsing Failure: Could not find element ''{0}'' referenced by element ''{1}''.</entry>
+    <entry key="CouldNotFindTool">The path ''{0}'' does not seem to be a {1} folder.</entry>
+    <entry key="CouldNotMoveToDest">Could not replace the folder {0} because: "{1}"  Attempting to copy files into it instead.</entry>
+    <entry key="CreatedX">Created &lt;a href="matlab:doc {0}">{1}&lt;/a>.</entry>
+    <entry key="CreatedXInY">Created &lt;a href="matlab:doc {0}">{1}&lt;/a> in {2}.</entry>
+    <entry key="CreatedXForZ">Created &lt;a href="matlab:doc {0}">{1}&lt;/a> for {2}.</entry>
+    <entry key="CreatedXInYForZ">Created &lt;a href="matlab:doc {0}">{1}&lt;/a> in {2} for {3}.</entry>
+    <entry key="CurrentFolder">current folder</entry>
+    <entry key="DecodingError">Format error in {0} content: "{1}"</entry>
+    <entry key="DuplicateStructFields">More than one ''FIELDS'' parameter specified.</entry>
+    <entry key="FunctionToBeRemoved">createClassFromWsdl will be removed in a future release. Use matlab.wsdl.createWSDLClient instead.</entry>
+    <entry key="EmptyArg">''{0}'' must not be empty.</entry>
+    <entry key="EmptyValue">The "{0}" header field has an empty value.</entry>
+    <entry key="EmptyName">The header field with the value "{0}" has an empty name.</entry>
+    <entry key="EmptyParameter">Error in {0}: required argument ''{1}'' of type ''{2}'' may not be empty.</entry>
+    <entry key="EncodedCannotHaveOtherProps">The ''Encoded'' property of an AuthInfo can only appear for the ''Basic'' Scheme and it must be the only other property.</entry>
+    <entry key="EncodingFailure">Could not convert "{0}" to encoding "{1}". The reason is: "{2}".</entry>
+    <entry key="EnterPkgName">Please enter a package name for support classes:</entry>
+    <entry key="Exception">Exception processing WSDL: {0}</entry>
+    <entry key="ExpectedFormEncode" note="stringDatatypeUpdate">Expected {0} to be ''{1}'' for Name-Value pairs. Either set {2} to ''{3}'' or create a single encoded string from the Name-Value pairs.</entry>
+    <entry key="ExpectedHostname">Expected URL, ''{0}'', to contain a host name (such as ''{1}'').</entry>
+    <entry key="ExpectedJSONMediaType">Expected {0} to be a JSON media type such as ''application/json'' or ''application/javascript''.</entry>
+    <entry key="ExpectedNonempty">Expected {0} to be nonempty.</entry>
+    <entry key="ExpectedNonemptyHeader" note="stringDatatypeUpdate">Expected HeaderFields to have nonempty strings in first column and strings in second column.</entry>
+    <entry key="ExpectedPairs">Each {0} must be given a corresponding {1}.</entry>
+    <entry key="ExpectedPostRequestMethod">Expected {0} to have the value ''post''. Use the function {1} to get data from a web service or set {2} to the value ''post''.</entry>
+    <entry key="ExpectedProtocol">The ''{0}'' protocol specified in URL, ''{1}'', is not supported. Specify the URL with the protocol ''{2}'' or ''{3}''.</entry>
+    <entry key="ExpectedXMLMediaType">Expected {0} to be an XML media type such as ''text/xml'' or ''application/xml''.</entry>
+    <entry key="FailedToCompile">Failed to compile generated Java code. This may be due to unusual characters in an identifier in the WSDL file.</entry>
+    <entry key="FileExistsCantCreateFolder">Can't create the folder ''{0}'' because a file by that name exists.</entry>
+    <entry key="FileNotFound">The server at URL ''{0}'' did not find a resource to match this request.</entry>
+    <entry key="FileProtocolNotAccepted">The file:// protocol is not accepted. Copy the file locally and specify its pathname.</entry>
+    <entry key="FolderNotFound">The path ''{0}'' has been saved but the folder was not found.</entry>
+    <entry key="IllegalArgType">Illegal argument of type ''{0}'' for parameter of type ''{1}'':\n{2}</entry>
+    <entry key="IllegalArgTypeNoMsg">Error in {0}: Illegal argument of type ''{1}'' for parameter ''{2}'' of type ''{3}''.</entry>
+    <entry key="IllegalArgument">Illegal argument. Value must be one of: {0}.</entry>
+    <entry key="IllegalCharInToken">Illegal character ''{0}'' found in token ''{1}''.</entry>
+    <entry key="InternalError" translate="false">Internal error: {0}.</entry>
+    <entry key="InternalErrorType">Internal error: object of unexpected type {0} returned for field of type {1}.</entry>
+    <entry key="InternalErrorGeneratedFileMissing">Internal error: could not find generated {0} or {1}</entry>
+    <entry key="InvalidFilename">Unable to open output file: ''{0}'' for writing. Common reasons include that the file exists and does not have write permission or the folder does not have write permissions.</entry>
+    <entry key="InvalidJSON" note="stringDatatypeUpdate">Unable to parse the JSON data: ''{0}''.</entry>
+    <entry key="InvalidCharacterEncodingSpecified">Invalid {0} specified: ''{1}''. Common values are: {2}</entry>
+    <entry key="JSONConversion">The input cannot be converted to JSON.</entry>
+    <entry key="MalformedURL">Invalid URL: ''{0}''.</entry>
+    <entry key="MissingQName">WSDL Parsing Failure: missing QName on message part "{0}"</entry>
+    <entry key="MissingValue">Missing value for ''{0}'' parameter.</entry>
+    <entry key="ncMustBeNumber">The nc property value ''{0}'' in AuthInfo does not evaluate to an integer</entry>
+    <entry key="NoAnonymousTypes">The element ''{0}'' in ''{1}'' is defined with an anonymous complex type, which is not supported. References to ''{2}'' may generate errors. Edit the schema to use a named type.</entry>
+    <entry key="NoCustomConversion">Cannot use the convert method for a ''{0}'' HeaderField because there is no custom subclass in the matlab.net.http.field package.</entry>
+    <entry key="NoRPCEncoded">RPC/Encoded WSDLs are not supported. If the service has a REST API, use webread instead.</entry>
+    <entry key="NoElementType">WSDL Parsing Failure: Type ''{0}'' for element ''{1}'' not found in schema.</entry>
+    <entry key="NoImports">The WSDL file imports other WSDL files. If these imported files define any schema types, use of those types may generate errors.</entry>
+    <entry key="NoSimpleContent">Ignoring the complex type ''{0}'' because it contains simpleContent. Only complexContent supported. This may cause later errors if the type is used.</entry>
+    <entry key="OperationTerminatedByUser">Web service operation terminated by user while accessing URL ''{0}''.</entry>
+    <entry key="OperationTerminatedByConsumer">Web service operation terminated by ContentConsumer while accessing URL ''{0}''.</entry>
+    <entry key="PartialFileWarning">The server returned "{0}" bytes, but "{1}" were expected. The reason is "{2}";</entry>
+    <entry key="PathMissingFor">Folder for {0} must be specified</entry>
+    <entry key="RandomError">An error occurred while communicating with {0}. The server has returned a bad header or MATLAB is out of memory.</entry>
+    <entry key="RequiredFieldNotSet">Required field {0} not set in &lt;a href="matlab:doc {1}">{2}&lt;/a>.</entry>
+    <entry key="SchemeMissing">The structure for an AuthInfo must have a ''Scheme'' field.</entry>
+    <entry key="SimpleTypeNotXML">The simpleType ''{0}'' is not an XML builtin type. There may be subsequent errors.</entry>
+    <entry key="SimpleTypeRestrictionNotXML">The simpleType ''{0}'' has a restriction ''{1}'' that is not an XML builtin type. There may be subsequent errors.</entry>
+    <entry key="SSLConnectionFailure">Could not establish a secure connection to "{0}". The reason is "{1}". Check your certificate file ({2}) for expired, missing or invalid certificates.</entry>
+    <entry key="SSLConnectionSystemFailure">Secure connection to "{0}" not established because "{1}". Check your system certificates for expired, missing, or invalid certificates.</entry>
+    <entry key="SSLConnectionNoFile">Could not establish a secure connection to "{0}". The reason is "{1}". Perhaps the server does not accept HTTPS connections.</entry>
+    <entry key="StatusError">The server returned the status {0,number,integer} with message "{1}" in response to the request to URL {2}.</entry>
+    <entry key="TempFolderNotRemoved">Note: The temporary folder {0} could not be removed.</entry>
+    <entry key="TheValueOf">the value of query parameter ''{0}''</entry>
+    <entry key="TheValueOfElement">element {0,number,integer} in the cell array value for query parameter ''{1}''</entry>
+    <entry key="Timeout">The connection to URL ''{0}'' timed out after {1} seconds. The reason is "{2}". Perhaps the server is not responding or {3} needs to be set to a higher value.</entry>
+    <entry key="TimeoutReasonResponseHeader" note="fragment appears as {2} in Timeout message above">Waiting for response header</entry>
+    <entry key="TimeoutReasonStoppedSending" note="fragment appears as {2} in Timeout message above">Server stopped sending data</entry>
+    <entry key="TimeoutReasonSystemLimit" note="fragment appears as {2} in Timeout message above">System TCP connect time exceeded</entry>
+    <entry key="TimeoutSystemTCP" note="fragment appears as {3} in Timeout message above">the system TCP timeout</entry>
+    <entry key="TooFewArgs">Too few arguments: ''{0}'' required.</entry>
+    <entry key="ToolUnspecified">Location of {0} was not specified. See &lt;a href="matlab:doc matlab.wsdl.setWSDLToolPath">matlab.wsdl.setWSDLToolPath&lt;/a> for more information.</entry>
+    <entry key="ToolNotFound">Could not find {0} at {1}. See &lt;a href="matlab:doc matlab.wsdl.setWSDLToolPath">matlab.wsdl.setWSDLToolPath&lt;/a> for more information.</entry>
+    <entry key="TotalCharsOfData">&lt;&lt; {0} total characters of data &gt;&gt;</entry>
+    <entry key="TryDeletingDir">Failed to compile the generated Java code. Try deleting the {0} folder and specify an output folder name.</entry>
+    <entry key="UnexpectedMediaType">The media type ''{0}'' is not permissible for numeric or logical data.</entry>
+    <entry key="UnexpectedSubtype">Unexpected type Java type {0} received for {1}.</entry>
+    <entry key="UnknownHost">Could not access server. {0}.</entry>
+    <entry key="URLNotFound">Document not found on server.</entry>
+    <entry key="UrlParamContainsSeparator">Invalid {0}. It should contain characters other than: {1}.</entry>
+    <entry key="VarShouldBeAType">''{0}'' should be a &lt;a href="matlab:doc {1}">{2}&lt;/a>.</entry>
+    <entry key="WriteError">Error writing to {0}: {1}</entry>
+    <entry key="WrongToolVersion" note="{1} is a pathname">The version of {0} at {1} is {2}, which is not supported. Version {3} required.</entry>
+    <entry key="WSDLError">Error processing WSDL:\n{0}</entry>
+    <entry key="WSDLDeprecationWarning">''{0}'' will be removed in a future release. Use &lt;a href="matlab:doc matlab.wsdl.createWSDLClient">matlab.wsdl.createWSDLClient&lt;/a> instead.</entry>
+    <entry key="WSDLDeprecationError">''{0}'' has been removed. Use &lt;a href="matlab:doc matlab.wsdl.createWSDLClient">matlab.wsdl.createWSDLClient&lt;/a> instead.</entry>
+  </message>
+</rsccat>

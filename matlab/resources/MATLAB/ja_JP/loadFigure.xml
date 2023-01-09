@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFigFile">無効な Figure ファイル形式。</entry>
+    <entry key="ForwardCompatibility">ファイル {0} に含まれるオブジェクトは、MATLAB の将来のバージョン ({1} 以降) で保存されています。このバージョンのファイルを読み込むには、hgsave で互換性のあるフラグを使用してファイルを保存しなければなりません。</entry>
+    <entry key="FileVersion">新しいバージョン ({0} 以降) の MATLAB で作成された Figure ファイルです。</entry>
+  </message>
+</rsccat>

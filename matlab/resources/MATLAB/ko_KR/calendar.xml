@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonScalarDate">DATE는 숫자형 스칼라, 문자형 벡터 또는 string형 스칼라여야 합니다.</entry>
+    <entry key="NonScalarArgs">YEAR와 MONTH는 숫자형 스칼라여야 합니다.</entry>
+    <entry key="InvalidMonth">MONTH는 1에서 12 사이의 값을 포함해야 합니다.</entry>
+  </message>
+</rsccat>

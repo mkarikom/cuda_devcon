@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ParforRunningLocally">在构造远程 parfor 代码期间捕获到错误。\nparfor 构造将立即在本地运行，而不是在远程并行池中运行。出现这种情况最可能的原因是由于序列化错误而无法向工作进程发送输入参数。所捕获的错误的出错报告为:\n{0}</entry>
+    <entry key="ParforWorkerAborted">执行 parfor 循环期间中止了一项工作进程。parfor 循环将立即在其余工作进程上再次运行。</entry>
+    <entry key="AllParforWorkersAborted">执行 parfor 循环期间中止了所有工作进程。</entry>
+  </message>
+</rsccat>

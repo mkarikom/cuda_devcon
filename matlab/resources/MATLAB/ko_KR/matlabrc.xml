@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ProductInformationMessage">  제품 정보는 www.mathworks.com을 방문하십시오.</entry>
+    <entry key="ToGetStartedMessage">  시작하려면 doc를 입력하십시오.</entry>
+    <entry key="ForOnlineDocumentation">  온라인 문서를 보려면 https://www.mathworks.com/support를 참조하십시오.</entry>
+    <entry key="SuspectedPathProblem">  MATLAB이 검색 경로를 성공적으로 설정하지 못했을 수 있습니다. MATLAB의 이 세션을 복원하려면 "restoredefaultpath;matlabrc"를 입력하십시오. 다음에 MATLAB를 시작할 때 이 경고를 표시하지 않는 방법을 알아보려면 이 세션을 복원한 후에 "docsearch problem path"를 입력하십시오.</entry>
+    <entry key="InitHandleGraphics">  MATLAB 그래픽스를 초기화하는 데 실패했습니다.\n이로 인해 사용자의 MATLAB 설정에 심각한 문제가 발생할 수 있으므로 가능한 한 빨리 해결하십시오. 다음과 같은 오류가 발견됨:\n{0}\n{1}</entry>
+    <entry key="RecursionLimit">  matlabrc에서 반복 제한을 설정하는데 실패했습니다.\n이로 인해 사용자의 MATLAB 설정에 심각한 문제가 발생할 수 있으므로 가능한 한 빨리 해결하십시오.  다음과 같은 오류가 발견됨:\n{0}\n{1}</entry>
+    <entry key="InitJava">  matlabrc에서 Java 기본 설정을 초기화하는데 실패했습니다.\n이로 인해 사용자의 MATLAB 설정에 심각한 문제가 발생할 수 있으므로 가능한 한 빨리 해결하십시오.  다음과 같은 오류가 발견됨:\n{0}\n{1}</entry>
+    <entry key="InitPreferences">  matlabrc에서 기본 설정을 초기화하는데 실패했습니다.\n이로 인해 사용자의 MATLAB 설정에 심각한 문제가 발생할 수 있으므로 가능한 한 빨리 해결하십시오.    다음과 같은 오류가 발견됨:\n{0}\n{1}</entry>
+    <entry key="ProfilerFilters">  디폴트 프로파일러 필터를 추가하는데 실패했습니다.</entry>
+    <entry key="DisableWarnings">  matlabrc에서 경고를 사용/사용 안 함으로 설정하는데 실패했습니다.\n이로 인해 사용자의 MATLAB 설정에 심각한 문제가 발생할 수 있으므로 가능한 한 빨리 해결하십시오.  다음과 같은 오류가 발견됨:\n{0}\n{1}</entry>
+    <entry key="Startup">  matlabrc에서 시작을 실행하는데 실패했습니다.\n이로 인해 사용자의 MATLAB 설정에 심각한 문제가 발생할 수 있으므로 가능한 한 빨리 해결하십시오.  다음과 같은 오류가 발견됨:\n{0}\n{1}</entry>
+  </message>
+</rsccat>

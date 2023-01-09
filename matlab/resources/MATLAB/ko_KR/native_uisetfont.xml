@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TitleMustBeLastParam">제목은 uisetfont로 전달되는 마지막 파라미터여야 함</entry>
+    <entry key="FontSelectionNotSupported">글꼴 선택은 {0} 객체에 대해 지원되지 않고 axes, text, uicontrol에 대해서만 지원됨</entry>
+    <entry key="InternalErrorInNMGetFont">nmGetFont의 내부 오류(어설션이어야 함):\n객체 유형이 현재 잘못됨(이전 테스트 전달 이후)</entry>
+    <entry key="BadArguments">두 번째 인수(대화 상자 제목)는 문자형 벡터여야 함</entry>
+  </message>
+</rsccat>

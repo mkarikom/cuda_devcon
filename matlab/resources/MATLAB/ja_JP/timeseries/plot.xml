@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">plot メソッドは、単一の timeseries オブジェクトにのみ使用できます</entry>
+    <entry key="emptyplot">空の時系列のハンドルをプロットできません。</entry>
+    <entry key="nonnumeric">非数値データをもつ timeseries 上で数値演算を行うことはできません。</entry>
+    <entry key="invaliddata">非数値または多次元 (ndims&gt;2) データに対してサポートされていません。</entry>
+    <entry key="notimeseriesdata">空のデータを使用して timeseries をプロットできません</entry>
+    <entry key="notimeseriestime">空の時刻を使用して timeseries をプロットできません</entry>
+    <entry key="TimeSeriesPlot">時系列プロット</entry>
+    <entry key="Event">イベント</entry>
+    <entry key="Time">時間</entry>
+    <entry key="unnamed">名前なし</entry>
+  </message>
+</rsccat>

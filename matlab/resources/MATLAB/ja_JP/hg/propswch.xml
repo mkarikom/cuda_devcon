@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PropertyTypeEntryOutOfPlace">プロパティタイプの入力 {0,number,integer} は IsDefaultFtnsTableValid と合いません</entry>
+    <entry key="PropertyError">{0} \nオブジェクト名:{1}\nプロパティ名:''{2}''\n{3}。</entry>
+    <entry key="FindObjFailed">{0} \nオブジェクト名:{1}\nプロパティ名: ''{2}''。</entry>
+    <entry key="NoGet_convert_fcnForDataType">内部エラー:このデータ型に対する get_convert_fcn はありません (アサーションである必要があります)</entry>
+    <entry key="DefaultCanNotBeQueried">既定の設定を確認できません。</entry>
+    <entry key="ReadAccessDenied">読み取り禁止です。</entry>
+    <entry key="AttemptToModifyReadOnlyProperty">読み取り専用のプロパティを変更しようとしています。</entry>
+    <entry key="DefaultCanNotBeSet">既定の設定を設定できません。</entry>
+    <entry key="BadPropertyValueFound">無効なプロパティ値が見つかりました。</entry>
+  </message>
+</rsccat>

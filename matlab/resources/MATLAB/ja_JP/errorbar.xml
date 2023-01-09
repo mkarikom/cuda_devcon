@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="XDataSizeMismatch">X データは Y データと同じサイズでなければなりません。</entry>
+    <entry key="InvalidNumberDataInputs">データ引数の数が無効です。2、3、4、または 6 個のデータ引数を指定しなければなりません。</entry>
+    <entry key="InvalidUseOfOrientation">方向フラグは、2、3、または 4 個のデータ引数にのみ使用できます。</entry>
+    <entry key="ErrorLabel">エラー</entry>
+    <entry key="DeltaArgumentSizeMismatch">エラー引数 ''{0}'' は空であるかデータと同じサイズでなければなりません。</entry>
+    <entry key="CategoricalDeltaArgumentNotSupported">データが categorical の場合、エラー引数 ''{0}'' は空でなければなりません。</entry>
+    <entry key="DeltaArgumentTypeMustBeDuration">データが datetime または duration の場合、エラー引数 ''{0}'' は duration ベクトルでなければなりません。</entry>
+    <entry key="DeltaArgumentTypeMustBeNumeric">データが数値の場合、エラー引数 ''{0}'' は数値ベクトルでなければなりません。</entry>
+    <entry key="DeltaSizeMismatch">{0} は空または YData と同じサイズでなければなりません。</entry>
+    <entry key="CategoricalDeltaNotSupported">データが categorical の場合、{0} は空でなければなりません。</entry>
+    <entry key="DeltaTypeMustBeNumericOrDuration">{0} は数値ベクトルまたは duration ベクトルでなければなりません。</entry>
+    <entry key="DeltaTypeMustBeDuration">データが datetime または duration の場合、{0} は duration ベクトルでなければなりません。</entry>
+    <entry key="DeltaTypeMustBeNumeric">データが数値の場合、{0} は数値ベクトルでなければなりません。</entry>
+  </message>
+</rsccat>

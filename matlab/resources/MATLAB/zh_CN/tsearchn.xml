@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidDimensions">X 和 XI 包含的列数必须相同。</entry>
+    <entry key="InvalidTessellation">三角剖分 T 的列数必须比 X 的列数多一列。</entry>
+  </message>
+</rsccat>

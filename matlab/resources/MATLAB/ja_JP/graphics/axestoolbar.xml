@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidParentAxes">親は有効な axes オブジェクトでなければなりません。</entry>
+    <entry key="InvalidAxesToolbar">親は有効な AxesToolbar オブジェクトでなければなりません。</entry>
+    <entry key="InvalidToolbarButton">ツール バー ボタンのスタイルは ''push'' または ''state'' でなければなりません。</entry>
+    <entry key="CannotModifyDefaultAxesToolbar">既定の座標軸ツール バーの変更はサポートされていません。</entry>
+    <entry key="UnknownProperty">不明なプロパティ: {0}</entry>
+    <entry key="InvalidPropertyName">プロパティ名は文字ベクトルまたは string でなければなりません。</entry>
+    <entry key="InvalidButtonEnum">列挙値が無効です。値を ''default''、または次の値のうち 1 つ以上を含む cell 配列として指定します: \n ''zoomin'' | ''zoomout'' | ''pan'' | ''rotate'' | ''datacursor'' | ''brush'' | ''restoreview'' | ''export''</entry>
+    <entry key="InvalidButtonType">{0} は有効な値ではありません。値を ''default''、または次の値のうち 1 つ以上を含む cell 配列として指定します: \n ''zoomin'' | ''zoomout'' | ''pan'' | ''rotate'' | ''datacursor'' | ''brush'' | ''restoreview'' | ''export''</entry>
+    <entry key="InvalidGeoButtonEnum">列挙値が無効です。値を ''default''、または次の値のうち 1 つ以上を含む cell 配列として指定します: \n ''stepzoomin'' | ''stepzoomout'' | ''datacursor'' | ''restoreview'' | ''export''</entry>
+    <entry key="InvalidGeoButtonType">{0} は有効な値ではありません。値を ''default''、または次の値のうち 1 つ以上を含む cell 配列として指定します: \n ''stepzoomin'' | ''stepzoomout'' | ''datacursor'' | ''restoreview'' | ''export''</entry>
+    <entry key="InvalidIndexedIcon">Icon プロパティの行列値の範囲は、整数型の場合に 0 ～ 63、浮動小数点型の場合に 1 ～ 64 でなければなりません。</entry>
+    <entry key="InvalidRGBIcon">Icon プロパティの RGB 値は、M x N x 3 の配列でなければなりません。</entry>
+    <entry key="InvalidIcon">Icon プロパティは、組み込み型、ファイル名、または数値でなければなりません。</entry>
+    <entry key="ErrorWhileEvaluating">{0}\n座標軸ツール バーの {1} の評価でエラーが発生しました。</entry>
+    <entry key="ToolbarDropdownChildError">子は、有効な ToolbarPushButton オブジェクトでなければなりません</entry>
+    <entry key="PrintWarning">エクスポートされたイメージには座標軸ツール バーが表示されています。イメージから座標軸ツール バーを削除するには、再度エクスポートしてください。</entry>
+  </message>
+</rsccat>

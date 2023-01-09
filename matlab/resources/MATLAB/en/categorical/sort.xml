@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="sortDirection">MODE must be ''ascend'' or ''descend''.</entry>
+    <entry key="notPosInt">DIM must be a positive integer scalar.</entry>
+    <!-- following only happen with invalid categorical object -->
+    <entry key="ElementTooLarge">Elements of first argument X of CATEGORICALSORT must be between 0 and N.</entry>
+    <entry key="firstArgType">First argument of CATEGORICALSORT must be a full, real array of type uint8, uint16 or uint32.</entry>
+    <entry key="secondArgType">Second argument of CATEGORICALSORT must be a scalar, positive integer between 0 and intmax(class(X)).</entry>
+  </message>
+</rsccat>

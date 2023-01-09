@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidInputType">Invalid data type. First argument must be double, single, int8, uint8, int16, uint16, int32, uint32, or logical.</entry>
+    <entry key="InvalidSecondInputType">Invalid data type. Second argument must be double, single, int8, uint8, int16, uint16, int32, uint32, or logical.</entry>
+    <entry key="UnknInput">Scale option must be ''biased'', ''unbiased'', ''normalized'', or ''none''.</entry>
+    <entry key="BMustBeVector">Second argument must be a vector.</entry>
+    <entry key="MismatchedAB">First argument must be a vector.</entry>
+    <entry key="MaxLagMustBeScalar">Maximum lag must be a scalar.</entry>
+    <entry key="MaxLagMustBeInteger">Maximum lag must be an integer.</entry>
+    <entry key="NoScale">Scale option must be ''none'' for input vectors of different lengths.</entry>
+    <!-- For code generation -->
+    <entry key="DimChangeNotSupported">For code generation, the dimension to operate along must not change. When {0} is a vector input, consider passing in {0}(:) or {0}(:).' instead.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Wildcard">파일 {0}을(를) 찾을 수 없습니다. XLSREAD에서는 와일드카드를 사용할 수 없습니다.</entry>
+    <entry key="FileNotFound">파일 ''{0}''을(를) 열 수 없습니다.\n{1}</entry>
+    <entry key="FileDoesNotExist">파일 ''{0}''을(를) 찾을 수 없습니다.</entry>
+    <entry key="FileName">파일 이름을 지정해야 합니다.</entry>
+    <entry key="ActiveX">가져오기를 위해 Excel 서버를 시작할 수 없습니다. ''basic'' 모드가 사용됩니다. 자세한 내용은 HELP XLSREAD를 입력하여 참조하십시오.</entry>
+    <entry key="RangeIncompatible">''basic'' 모드에서는 범위를 사용할 수 없습니다.  전체 시트를 불러옵니다.</entry>
+    <entry key="InteractiveIncompatible">''basic'' 모드에서는 대화형 방식의 선택 기능을 사용할 수 없습니다. 첫 번째 시트를 불러옵니다.</entry>
+    <entry key="Incompatible">''basic'' 모드에서는 사용자 지정 함수를 사용할 수 없습니다.  사용자 지정 함수의 인수는 무시됩니다.</entry>
+    <entry key="NotHandle">XLSREAD에 대한 다섯 번째 인수는 함수 핸들이어야 합니다.</entry>
+    <entry key="FileFormat">파일 {0}은(는) Microsoft Excel 형식이 아닙니다.</entry>
+    <entry key="RangeSelection">데이터 범위 ''{0}''은(는) 유효하지 않습니다.</entry>
+    <entry key="InvalidFileName">파일 이름은 string형이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="InvalidSheet">시트 인수는 string형 스칼라, 문자형 벡터 또는 정수여야 합니다.</entry>
+    <entry key="InvalidRange">범위 인수는 string형이거나 문자형 벡터여야 합니다. HELP XLSREAD를 입력하여 참조하십시오.</entry>
+    <entry key="InvalidMode">가져오기 모드가 유효하지 않습니다. XLSREAD가 모드를 normal로 재설정했습니다.</entry>
+    <entry key="InvalidSheetBasicMode">basic 모드에서는 시트 인수가 string형이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="WorksheetNotActivated">Excel 워크시트를 활성화할 수 없습니다.</entry>
+    <entry key="WorksheetNotFound">''{0}'' 워크시트를 찾을 수 없습니다.</entry>
+    <entry key="NoHandleForCustom">함수 핸들 입력값이 없으면 사용자 지정 출력값을 반환할 수 없습니다.</entry>
+    <entry key="DialgoDataSelectionDialogue">데이터 선택 대화 상자</entry>
+    <entry key="DlgSelectDataRegion">Excel 워크시트에서 데이터 범위를 선택합니다.</entry>
+    <entry key="DlgClickOKToContinueInMATLAB">MATLAB에서 계속하려면 [확인]을 클릭</entry>
+    <entry key="UnableToOpenFile">파일 {0}을(를) 열 수 없습니다.\n{1}</entry>
+    <entry key="UnableToReadSheet">시트 {0}을(를) 읽을 수 없습니다.\n{1}</entry>
+    <entry key="WorksheetNotOpened">시트 ''{0}''을(를) 읽을 수 없습니다.\n{1}</entry>
+    <entry key="noJVM">이 유형의 Excel 파일을 불러오려면 Java가 필요합니다.</entry>
+    <entry key="thirdArgument">두 번째 입력값이 범위이므로 세 번째 입력값은 무시됩니다. 워크시트와 범위를 모두 지정하려면 먼저 시트를 나열한 후 범위를 지정하십시오.</entry>
+    <entry key="spreadsheetSynchronous">향후 릴리스에서는 스프레드시트 파일에 대한 uiimport 함수의 동기 실행이 더 이상 사용되지 않을 예정입니다. 대신 비동기 uiimport 구문을 사용할 수 있습니다.</entry>
+    <entry key="NoRangeSelected">데이터 영역이 선택되지 않았습니다.</entry>
+    <entry key="FirstArgumentNotString">첫 번째 인수는 string형이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="NamedRangeNotSupported">명명된 범위 ''{0}''은(는) ''{1}''(으)로 해석되며 이 모드에서는 지원되지 않습니다.</entry>
+    <entry key="invalidList">입력값 ''{0}''은(는) 유효하지 않습니다.</entry>
+    <entry key="NamedRangeNotInScope">명명된 범위 ''{0}''은(는) 요청된 입력 시트 {2}과(와) 일치하지 않는 시트 {1}(으)로 설정됩니다.</entry>
+    <entry key="SpreadsheetTooLarge">스프레드시트가 너무 커서 읽을 수 없습니다. 더 작은 범위의 데이터를 읽어 보십시오.</entry>
+  </message>
+</rsccat>

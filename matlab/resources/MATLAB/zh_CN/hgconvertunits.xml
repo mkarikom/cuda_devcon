@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidTarget">要转换的值必须采用 [x y w h] 格式。</entry>
+    <entry key="InvalidFromUnits">要从其转换的单位必须为英寸、厘米、标准单位、点、像素或字符。</entry>
+    <entry key="InvalidUnits">要转换到的单位必须为英寸、厘米、标准单位、点、像素或字符。</entry>
+    <entry key="InvalidFigure">第一个输入参数必须为图窗句柄。</entry>
+    <entry key="InvalidRefObj">引用对象无效。</entry>
+    <entry key="InvalidObj">提供的对象无效。检查是否在此次调用期间删除了对象。</entry>
+  </message>
+</rsccat>

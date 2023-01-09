@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ClassNotLibrary">Class specified is not a library.</entry>
+    <entry key="IsInUse">Cannot unload a library that has outstanding objects.</entry>
+    <entry key="ClassNotFound">Could not find library class to unload it.</entry>
+    <entry key="NameMustBeSpecified">Library name must be specified.</entry>
+  </message>
+</rsccat>

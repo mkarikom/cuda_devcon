@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ClassNotFound">クラス ''{0}'' は存在しないか、または MATLAB パス上にありません。</entry>
+    <entry key="ClassNotEditable">クラス ''{0}'' は組み込みクラスまたは P ファイルであり、MATLAB エディターで開くことができません。</entry>
+    <entry key="ClassHasParseError">クラス ''{0}'' に解析エラーがあります。解析エラーの詳細: {1}</entry>
+    <entry key="PropertyNotFound">クラス ''{0}'' はプロパティ ''{1}'' をもちません。</entry>
+    <entry key="EventNotFound">クラス ''{0}'' にはイベント ''{1}'' がありません。</entry>
+    <entry key="EnumerationMemberNotFound">クラス ''{0}'' には列挙型メンバー ''{1}'' がありません。</entry>
+    <entry key="MethodNotFound">クラス ''{0}'' はメソッド ''{1}'' をもちません。</entry>
+  </message>
+</rsccat>

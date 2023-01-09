@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ZNot2D">{0} は 2 次元配列でなければなりません。</entry>
+    <entry key="ZPlanar">{0} は 2 x 2 以上のサイズでなければなりません。</entry>
+    <entry key="XZSizeMismatch">X のサイズは、{0} のサイズ、または {1} の列数と一致しなければなりません。</entry>
+    <entry key="YZSizeMismatch">Y のサイズは、{0} のサイズ、または {1} の行数と一致しなければなりません。</entry>
+    <entry key="XYMixedEmpty">X、Y は、両方とも空にするか、両方とも空でない行列にしなければなりません。</entry>
+  </message>
+</rsccat>

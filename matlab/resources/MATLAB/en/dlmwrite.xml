@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="Nargin">Requires at least 2 input arguments.</entry>
+    <entry key="InputClass" note="stringDatatypeUpdate">FILENAME must be a character vector or string scalar.</entry>
+    <entry key="CellArrayMismatch">The input cell array cannot be converted to a matrix.</entry>
+    <entry key="FileOpenFailure">Cannot open file {0}.</entry>
+    <entry key="AttributeList">Attribute {0} requires a matching value.</entry>
+    <entry key="Attribute">Invalid attribute tag: {0}.</entry>
+    <entry key="newline">Newline must be either ''pc'' or ''unix''.</entry>
+    <entry key="delimiter">{0} is not a valid attribute or delimiter. Delimiter must be a single character.</entry>
+    <entry key="rowOffset">{0} is not a valid attribute or row offset.</entry>
+    <entry key="columnOffset">{0} is not a valid attribute or column offset.</entry>
+  </message>
+</rsccat>

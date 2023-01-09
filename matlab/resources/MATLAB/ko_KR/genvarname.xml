@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MissingNames">첫 번째 입력 인수에는 {0} 값을 사용할 수 없습니다.</entry>
+    <entry key="wrongVarnameType">첫 번째 인수는 string형 배열, 문자형 벡터, 문자형 벡터로 구성된 셀형 배열 중 하나여야 합니다.</entry>
+    <entry key="wrongProtectedType">두 번째 인수는 string형 배열, 문자형 벡터 또는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+  </message>
+</rsccat>

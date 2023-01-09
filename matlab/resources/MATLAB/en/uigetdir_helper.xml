@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="BadStringArg" note="stringDatatypeUpdate">{0} must be a character vector or a string scalar.</entry>
+    <entry key="BadSyntax">Extraneous arguments entered, please check the documentation.</entry>
+    <entry key="BadFilename" note="stringDatatypeUpdate">Filterspec must be a character vector, string array or a cell array.</entry>
+    <entry key="EmptyDescriptors">File filter descriptors may not be empty.</entry>
+  </message>
+</rsccat>

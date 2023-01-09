@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFigureHandle">Figure のハンドルが無効です。</entry>
+    <entry key="ConserveMemory">印刷プレビューは、メモリを節約するためにこのページを低解像度でスクリーンに描画しています。\n印刷するページの品質には影響しません。</entry>
+    <entry key="PrintPreviewDlg">印刷プレビュー - {0}</entry>
+    <entry key="PrintButton">印刷</entry>
+    <entry key="PageSetupButton">ページ設定...</entry>
+    <entry key="HeaderButton">ヘッダー...</entry>
+    <entry key="RefreshButton">更新</entry>
+    <entry key="CloseButton">閉じる</entry>
+    <entry key="NormalizedPaperUnitsNotSupported">印刷プレビューでは、PaperUnits の ''normalized'' 指定はサポートされていません。Figure の PaperUnits は ''{0}'' に変更されました。</entry>
+  </message>
+</rsccat>

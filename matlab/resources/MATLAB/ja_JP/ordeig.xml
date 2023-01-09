@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="matrixWithNaNInf">ORDEIG への入力は、NaN または Inf を含んではいけません。</entry>
+    <entry key="inputMustBe2DStandard">入力は 2 次元でなければなりません。</entry>
+    <entry key="inputMustBeSquareStandard">入力は正方行列でなければなりません。</entry>
+    <entry key="inputMustBeFullStandard">入力は非スパースでなければなりません。</entry>
+    <entry key="inputMustBeUpperTriStandard">ORDEIG(A) では、A が複素数である場合は上三角行列でなければなりません。</entry>
+    <entry key="inputMustBeBlockUpperTriStandard">ORDEIG(A) では、A が実数の場合、対角上の 1 行 1 列および 2 行 2 列のブロックの上三角行列でなければなりません。</entry>
+    <entry key="inputTypeGeneralized">入力は単精度または倍精度でなければなりません。</entry>
+    <entry key="inputMustBe2DGeneralized">入力は 2 次元でなければなりません。</entry>
+    <entry key="inputMustBeSquareGeneralized">入力は正方行列でなければなりません。</entry>
+    <entry key="inputMustBeSameSizeGeneralized">入力は同じサイズでなければなりません。</entry>
+    <entry key="inputMustBeFullGeneralized">入力は非スパースでなければなりません。</entry>
+    <entry key="inputMustBeUpperTriGeneralized">ORDEIG(A,B) では、A または B が複素数である場合、A と B は上三角行列でなければなりません。</entry>
+    <entry key="inputMustBeBlockUpperTriGeneralized">ORDEIG(A,B) では、A と B が実数の場合、A は対角上の 1 行 1 列および 2 行 2 列のブロックの上三角行列でなければなりません。また、B は上三角行列でなければなりません。</entry>
+  </message>
+</rsccat>

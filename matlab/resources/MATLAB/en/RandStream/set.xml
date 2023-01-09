@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="UnrecognizedProperty">Unrecognized property ''{0}''.</entry>
+    <entry key="IllegalPropertyAssignment">The ''{0}'' property is read-only, and can only be set when you create a stream.</entry>
+    <entry key="IllegalSeedAssignment">The ''Seed'' property is read-only, and can only be set when you create a stream, or with the RESET method.</entry>
+    <entry key="MaxLHS">Too many output arguments.</entry>
+    <entry key="WrongNumberArgs">Wrong number of arguments.</entry>
+    <entry key="InvalidNumStateComponents">State array is invalid for a {0} generator.</entry>
+    <entry key="InvalidStateLen">State array length is invalid for a {0} generator.</entry>
+    <entry key="InvalidStateClass">State array class is invalid for a {0} generator.</entry>
+    <entry key="InvalidSubstreamIndex">Substream index must be a positive scalar integer value.</entry>
+    <entry key="InvalidRandnAlg" note="stringDatatypeUpdate">NormalTransform must be a character vector.</entry>
+    <entry key="InvalidAntithetic">Antithetic must be a logical scalar.</entry>
+    <entry key="InvalidFullPrecision">FullPrecision must be a logical scalar.</entry>
+    <!--Resource entries for src/mathrng-->
+    <entry key="CantInitRandnAlg">Unable to initialize NormalTransform to ''{0}'' for a {1} generator.</entry>
+    <entry key="InvalidStateBufLen">State buffer length is invalid for this generator.</entry>
+    <entry key="UnknownRandnAlg">Unknown NormalTransform ''{0}''.</entry>
+    <entry key="SubstreamsNotSupported">Substreams are not supported by the {0} generator.</entry>
+    <entry key="LegacyPrecision">Cannot set the precision of the legacy generator.</entry>
+    <entry key="LegacyNormalTransform">Cannot set the normal transformation algorithm for the legacy generator.</entry>
+    <!--Resource entries for src/mathrng/-->
+  </message>
+</rsccat>

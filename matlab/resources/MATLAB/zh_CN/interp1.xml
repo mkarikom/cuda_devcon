@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nargin">输入参数的数目不正确。</entry>
+    <entry key="ppOutput">PP=INTERP1(X,V,METHOD,''pp'') 使用 4 个输入。</entry>
+    <entry key="ppAkima">修正 Akima 三次插值不支持 ''pp'' 选项。</entry>
+    <entry key="Xvector">X 必须为向量。</entry>
+    <entry key="YVectorInvalidNumRows">X 和 V 的长度必须相同。</entry>
+    <entry key="YInvalidNumRows">LENGTH(X) 和 SIZE(V,1) 必须相同。</entry>
+    <entry key="NotEnoughPts">至少需要两个数据点。</entry>
+    <entry key="InvalidMethod">插值方法无效。</entry>
+    <entry key="InvalidSpecPPExtrap">字符向量参数无效。是否指 ''pp'' 或 ''extrap''?</entry>
+    <entry key="NonScalarExtrapValue">EXTRAP 选项必须为标量。</entry>
+    <entry key="Xnumeric">X 必须为双精度或单精度类型的向量。</entry>
+    <entry key="NonFloatValues">值 V 必须为双精度或单精度类型。</entry>
+    <entry key="ExtrapNoMethod">必须使用 ''extrap'' 指定插值方法。</entry>
+    <entry key="NaNstrip">包含 NaN 值的数据列在插值期间已被忽略。</entry>
+    <entry key="NoExtrapForV5cubic">'cubic' 和 'v5cubic' 方法不支持外插。</entry>
+    <entry key="ComplexX">X 应为实数向量。</entry>
+    <entry key="ComplexInterpPts">插值点 Xq 应为实数。</entry>
+    <entry key="NaNinX">NaN 不是 X 的正确值。</entry>
+    <entry key="RepeatedValuesX">X 的值应不同。</entry>
+    <entry key="InvalidExtrap">extrap 选项无效。</entry>
+    <entry key="NaNinY">在 V 中发现 NaN，未定义的值中的插值将生成未定义的值。</entry>
+    <entry key="ppGriddedInterpolantNext">不支持 INTERP1(...,'next','PP')。请改用 GRIDDEDINTERPOLANT。</entry>
+    <entry key="ppGriddedInterpolantPrevious">不支持 INTERP1(...,'previous','PP')。请改用 GRIDDEDINTERPOLANT。</entry>
+  </message>
+</rsccat>

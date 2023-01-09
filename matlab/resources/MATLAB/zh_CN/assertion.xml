@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LogicalScalar">条件输入参数必须可转换为标量逻辑值。</entry>
+    <entry key="emptyMessageNotAllowed">条件之后的输入参数不能为空。</entry>
+    <entry key="failed">断言失败。</entry>
+  </message>
+</rsccat>

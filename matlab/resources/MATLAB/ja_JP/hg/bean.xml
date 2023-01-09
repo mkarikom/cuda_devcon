@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadHandle">無効なハンドル</entry>
+    <entry key="ExpectedJavaObject">java オブジェクトが必要です。</entry>
+    <entry key="CannotFindGetCallbackDataMethod">getCallbackData メソッドが見つかりません</entry>
+    <entry key="CannotFindAddCallbackMethod">addCallback メソッドが見つかりません</entry>
+    <entry key="CannotFindRemoveCallbackMethod">removeCallback メソッドが見つかりません</entry>
+    <entry key="SendEventToMatlabNativeMethodNotRegistered">ネイティブの SendEventToMatlabNativeMethod は登録されていません。クラスが見つかりません</entry>
+    <entry key="CannotFindBeanIndexField">beanIndex フィールドが見つかりません</entry>
+    <entry key="CannotFindCallbackIndexField">callbackIndex フィールドが見つかりません</entry>
+    <entry key="CannotFindEventDataField">eventData フィールドが見つかりません</entry>
+    <entry key="CannotFindCallbackDataClass">クラス CallbackData が見つかりません</entry>
+    <entry key="ClassNameInUse">''{0}'' のクラス名は既に使用されています</entry>
+    <entry key="CannotGetProperties">{0} に対する bean プロパティを取得できません</entry>
+    <entry key="CannotRegisterBean1">bean {0} を登録できません</entry>
+    <entry key="ClassAlreadyRegistered">クラス ''{0}'' は既に登録されています</entry>
+    <entry key="CannotRemoveBuiltinClass">組み込みクラス ''{0}'' を削除できません</entry>
+    <entry key="CannotRemoveClass">''{0}'' クラスは、''{1}'' オブジェクトが存在するため削除できません</entry>
+    <entry key="ClassNotRegistered">登録された Handle Graphics クラス ''{0}'' はありません - hregister を使用</entry>
+    <entry key="CannotCreateObject">{0} オブジェクトを作成できません</entry>
+    <entry key="CannotCreateClass">{0} クラスの作成方法がわかりません</entry>
+    <entry key="JavaBeansNotSupported1">Java Beans はこのプラットフォームではサポートされません</entry>
+    <entry key="JavaBeansNotSupported2">Java Beans はこのプラットフォームではサポートされません</entry>
+  </message>
+</rsccat>

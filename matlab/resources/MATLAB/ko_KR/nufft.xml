@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nufftNoSparseArrays">희소 배열은 지원되지 않습니다.</entry>
+    <entry key="nufftSamplePointsMismatch">샘플 점은 첫 번째 입력 인수의 연산 차원과 요소 개수가 동일해야 합니다.</entry>
+    <entry key="nufftnScatteredSamplePointsMismatch">샘플 점 행렬의 행 개수는 첫 번째 입력 인수의 요소 개수와 일치해야 합니다.</entry>
+    <entry key="nufftnSamplePointsMismatch">샘플 점의 총 개수는 첫 번째 입력 인수의 요소 개수와 일치해야 합니다.</entry>
+    <entry key="nodesNotFullReal">샘플 점과 쿼리 점은 유한 실수형 값으로 구성된 비희소 벡터여야 합니다.</entry>
+    <entry key="ndGridVectorsNotFullReal">샘플 점 그리드 벡터와 쿼리 점 그리드 벡터는 유한 실수형 값으로 구성된 비희소 벡터여야 합니다.</entry>
+    <entry key="ndScatteredNodesNotFullReal">행렬로 지정된 샘플 점과 쿼리 점은 비희소 형식이어야 하고 유한한 실수 값을 포함해야 합니다.</entry>
+    <entry key="invalidNodeDataType">샘플 점과 쿼리 점은 double형이거나 single형이어야 합니다.</entry>
+    <entry key="invalidGridVectorDataType">샘플 점 벡터와 쿼리 점 벡터는 double형이거나 single형이어야 합니다.</entry>
+    <entry key="fmmInvalidTransformInfo">코탄젠트 변환 정보가 유효하지 않습니다.</entry>
+    <entry key="fmmInvalidScalingOffset">코탄젠트 변환에 대한 스케일링 오프셋은 스칼라여야 합니다.</entry>
+    <entry key="fmmInvalidScalingParameters">코탄젠트 변환에 대한 스케일링 파라미터가 유효하지 않습니다.</entry>
+    <entry key="nodeClassMismatch">노드는 입력 배열과 동일한 부동소수점 형식이어야 합니다.</entry>
+    <entry key="nodesNonVector">노드는 벡터여야 합니다.</entry>
+    <entry key="fmmScalingClassMismatch">스케일링 인자는 입력 배열과 동일한 부동소수점 형식이어야 합니다.</entry>
+    <entry key="fmmScalingNotFull">스케일링 인자는 비희소 형식이어야 합니다.</entry>
+    <entry key="fmmScalingNonVector">스케일링 인자는 벡터여야 합니다.</entry>
+    <entry key="fmmNonComplexScaling">스케일링 인자는 복소수여야 합니다.</entry>
+    <entry key="fmmInputScalingMismatch">입력 스케일링 인자는 샘플 점의 개수와 같은 개수의 요소를 가져야 합니다.</entry>
+    <entry key="fmmOutputScalingMismatch">출력 스케일링 인자는 쿼리 점의 개수와 같은 개수의 요소를 가져야 합니다.</entry>
+    <entry key="ndGridVectorCountWrong">그리드 벡터의 개수는 차원 개수와 같아야 합니다.</entry>
+    <entry key="ndNodeMatrixBadNumColumns">노드 행렬의 열 수는 변환 행렬에 있는 차원 수와 같아야 합니다.</entry>
+    <entry key="ndNumDims">차원 수는 양의 스칼라여야 합니다.</entry>
+    <entry key="badGaussianParameters">가우스 보간 파라미터가 유효하지 않습니다.</entry>
+    <entry key="invalidGridSpecification">균일 그리드 지정이 유효하지 않습니다.</entry>
+    <entry key="inputDisagreesWithDefaultGrid">입력 배열의 요소 개수가 잘못되었습니다.</entry>
+    <entry key="bothPointsNonEmpty">쿼리 점 또는 샘플 점이 비어 있어야 합니다.</entry>
+    <entry key="finalGridTooSmall">등간격 출력 그리드는 오버샘플링된 그리드보다 작아야 합니다.</entry>
+  </message>
+</rsccat>

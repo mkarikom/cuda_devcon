@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="matrixWithNaNInf">入力行列に NaN または Inf が含まれています。</entry>
+    <entry key="unknownOption">3 番目の引数は、''real'' または ''complex'' でなければなりません。</entry>
+    <entry key="ignoreRealOption">複素数行列をもつ ''real'' オプションを無視します。</entry>
+    <entry key="noConvergence">アルゴリズムは成功しませんでした。\n ライブラリ MKL LAPACK の内部エラーです。info = {0,number,integer}。</entry>
+    <entry key="qzNoConvergence">アルゴリズムは成功しませんでした。\n ライブラリ MKL LAPACK の内部エラーです。info = {0,number,integer}。</entry>
+    <entry key="noQZsparse">スパース行列はサポートされていません。</entry>
+    <entry key="inputMustBe2D">入力配列は 2 次元でなければなりません。</entry>
+    <entry key="inputType">データ型が無効です。最初と 2 番目の引数は double または single でなければなりません。</entry>
+  </message>
+</rsccat>

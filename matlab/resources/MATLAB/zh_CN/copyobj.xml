@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="arrowlineCopyError">复制箭头线时出错</entry>
+    <entry key="CopyError">复制坐标区时出错: {0}</entry>
+    <entry key="NeedHandle">必须提供 HGOBJ 或 HGOBJ 对象的句柄</entry>
+    <entry key="FigureDoesNotHaveRootParent">图窗没有 Root 父级</entry>
+    <entry key="CopyobjFailed">Copyobj 无法创建以下类的对象: {0}\n</entry>
+    <entry key="BadConversionFromDouble">无法将双精度值转换为句柄</entry>
+    <entry key="VectorLengthNotEqual">父输入向量和子输入向量的长度必须相等。</entry>
+    <entry key="InvalidChildHandle">子句柄参数无效</entry>
+    <entry key="InvalidParentHandle">父句柄参数无效</entry>
+    <entry key="DegenerateCopy">无法将同一对象多次复制到同一父级。请改为尝试调用 COPYOBJ 两次。</entry>
+    <entry key="InvalidReturnType">类 {0} 的 copyElement 方法返回了无效的类型。</entry>
+    <entry key="IncorrectlyAllocatedCopy">类 {0} 的 copyElement 方法未通过 copyElement@matlab.graphics.mixin.internal.Copyable 分配副本。</entry>
+    <entry key="ObjectNotCopied">无法复制此 {0}。请查看使用 &lt;a href="matlab: helpview ([docroot filesep 'matlab' filesep 'ref' filesep 'copyobj.html'])"&gt;COPYOBJ&lt;/a&gt; 能够复制的内容以及不能够复制的内容。</entry>
+  </message>
+</rsccat>

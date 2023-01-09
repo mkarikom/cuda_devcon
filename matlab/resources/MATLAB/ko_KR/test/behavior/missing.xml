@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SameClass">MissingValue와 PrototypeValue는 동일한 클래스여야 합니다.</entry>
+    <entry key="IsMissingValue">ismissing(MissingValue)는 true여야 합니다.</entry>
+    <entry key="PrototypeNotMissing">PrototypeValue는 누락되어서는 안 됩니다.</entry>
+    <entry key="ScalarConversion">{0}(missing)은 MissingValue를 반환해야 합니다.</entry>
+    <entry key="MatrixConversion">{0}은(는) 누락값에 대해 입력값의 형태를 유지하는 행렬 변환을 가져야 합니다.</entry>
+    <entry key="MissingConversion">missing({0})은(는) MATLAB:UnableToConvert를 발생시켜야 합니다.</entry>
+    <entry key="ConversionConversion">{0}(missing)은 {0}의 누락값을 반환해야 합니다.</entry>
+    <entry key="ConversionRoundTrip">{0}({1}(missing))은 {0}(missing)을 반환해야 합니다.</entry>
+    <entry key="ScalarAssignment">누락값을 인덱스에 대입하면 인덱스가 MissingValue로 설정되어야 합니다.</entry>
+    <entry key="ExpansionAssignment">누락값 스칼라를 인덱스의 배열에 대입하면 인덱스가 MissingValue로 설정되어야 합니다.</entry>
+    <entry key="ArrayAssignment">누락값의 배열을 인덱스의 배열에 대입하면 인덱스가 MissingValue로 설정되어야 합니다.</entry>
+    <entry key="Horzcat">[PrototypeValue, missing]은 ([PrototypeValue, MissingValue]를 생성해야 합니다.</entry>
+    <entry key="Cat2">cat(2, PrototypeValue, missing)은 [PrototypeValue, MissingValue]를 반환해야 합니다.</entry>
+    <entry key="Vertcat">[PrototypeValue; missing]은 [PrototypeValue; MissingValue]를 생성해야 합니다.</entry>
+    <entry key="Cat1">cat(1, PrototypeValue, missing)은 [PrototypeValue; MissingValue]를 반환해야 합니다.</entry>
+    <entry key="EqualFalse">모든 누락값이 다르기 때문에 MissingValue == MissingValue는 false여야 합니다.</entry>
+    <entry key="NotEqualTrue">모든 누락값이 다르기 때문에 MissingValue ~= MissingValue는 true여야 합니다.</entry>
+    <entry key="LessThanFalse">MissingValue &lt; MissingValue는 false여야 합니다.</entry>
+    <entry key="GreaterThanFalse">MissingValue &gt; MissingValue는 false여야 합니다.</entry>
+    <entry key="LessThanOrEqualFalse">모든 누락값이 다르기 때문에 MissingValue &lt;= MissingValue는 false여야 합니다.</entry>
+    <entry key="GreaterThanOrEqualFalse">모든 누락값이 다르기 때문에 MissingValue &gt;= MissingValue는 false여야 합니다.</entry>
+    <entry key="IsEqualMissingValueMissing">모든 누락값이 다르기 때문에 isequal(MissingValue, missing)은 false를 반환해야 합니다.</entry>
+    <entry key="IsEqualMissingMissingValue">모든 누락값이 다르기 때문에 isequal(missing, MissingValue)는 false를 반환해야 합니다.</entry>
+    <entry key="IsEqualMissingValueMissingValue">모든 누락값이 다르기 때문에 isequal(MissingValue, MissingValue)는 false를 반환해야 합니다.</entry>
+    <entry key="IsEqualnMissingValueMissing">isequaln(MissingValue, missing)은 true를 반환해야 합니다.</entry>
+    <entry key="IsEqualnMissingMissingValue">isequaln(missing, MissingValue)는 true를 반환해야 합니다.</entry>
+    <entry key="IsEqualnMissingValueMissingValue">isequaln(MissingValue, MissingValue)는 true를 반환해야 합니다.</entry>
+    <entry key="IsMissingMissingIndicator">ismissing(MissingValue, missing)은 true를 반환해야 합니다.</entry>
+    <entry key="IsMissingMissingValueIndicator">ismissing(MissingValue, MissingValue)는 true를 반환해야 합니다.</entry>
+    <entry key="IsNotMissingMissingIndicator">ismissing(PrototypeValue, missing)은 false를 반환해야 합니다.</entry>
+    <entry key="IsMissingPrototypeIndicator">ismissing(PrototypeValue, PrototypeValue)는 true를 반환해야 합니다.</entry>
+    <entry key="FillValue">대입에서 배열을 증가시키는 채우기 값은 MissingValue여야 합니다.</entry>
+    <entry key="AssignToEmptyMissing">PrototypeValue를 비어 있는 누락값 배열에 대입하면 MATLAB:UnableToConvert가 발생되어야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidMexFile">未找到 mex-file。</entry>
+    <entry key="InvalidNumberOfInputs">未定义输入参数 \"A\"。</entry>
+    <entry key="TooManyInputs">输入参数太多。</entry>
+    <entry key="InvalidNumberOfOutputs">输出参数太多。</entry>
+    <entry key="InvalidMode">第二个输入参数必须为 ''sym''、''col''、''row'' 或 ''lo''。</entry>
+    <entry key="InvalidInput">矩阵必须为方阵。</entry>
+    <entry key="CHOLMODerror">etree 失败: CHOLMOD 内部错误!</entry>
+  </message>
+</rsccat>

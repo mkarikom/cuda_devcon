@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">addsample 方法只能用于单时序对象</entry>
+    <entry key="pvsetNoValue">指定的属性缺少对应值。</entry>
+    <entry key="pvsetInvalid">至少有一个指定属性无效。</entry>
+    <entry key="noSampleStruct">新样本必须指定为结构体或属性-值对组。</entry>
+    <entry key="dataMissing">缺少数据。</entry>
+    <entry key="timeMissing">缺少时间。</entry>
+    <entry key="emptyData">数据不能为空。</entry>
+    <entry key="emptyTime">时间不能为空。</entry>
+    <entry key="overwriteFlg">覆盖标志必须为逻辑值。</entry>
+    <entry key="datasamplesize">已添加数据的样本大小与时序对象的样本大小不匹配。</entry>
+    <entry key="qualitysamplesize">已添加 Quality 属性的样本大小与时序对象的 Quality 属性不匹配。</entry>
+    <entry key="numericValTime">时间必须为数值。</entry>
+    <entry key="timeVector">时间必须为向量。</entry>
+    <entry key="invalidTimeFormat">时间格式无效</entry>
+    <entry key="mandatoryFirstArg">第一个参数必须指定非空数据值。</entry>
+    <entry key="first">数据数组的第一个维度必须与时间向量的长度相同。</entry>
+    <entry key="last">数据数组的最后一个维度必须与时间向量的长度相同。</entry>
+    <entry key="intQualityAttributes">Quality 属性必须由整数值指定。</entry>
+    <entry key="nonnull">不能将具有非空 Quality 属性的样本添加到具有空 Quality 向量的时序中。</entry>
+  </message>
+</rsccat>

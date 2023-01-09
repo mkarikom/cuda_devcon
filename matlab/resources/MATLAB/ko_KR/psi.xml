@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonFloatInput">입력값은 single형 또는 double형이어야 합니다.</entry>
+    <entry key="notReal">입력값은 실수여야 합니다.</entry>
+    <entry key="notFull">입력값은 비희소(Full) 형식이어야 합니다.</entry>
+    <entry key="validOrder">차수는 2^31-1보다 작고 음이 아닌 정수 값이어야 합니다.</entry>
+    <entry key="kScalar">K는 스칼라여야 합니다.</entry>
+    <entry key="negativeX">X는 음수가 아니여야 합니다.</entry>
+  </message>
+</rsccat>

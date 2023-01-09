@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SavingLegacyStream">레거시 스트림을 파일에 저장할 수 없습니다.</entry>
+    <entry key="SaveError">다음 이유로 인해 RandStream 객체를 저장할 수 없습니다.\n\n{0}</entry>
+  </message>
+</rsccat>

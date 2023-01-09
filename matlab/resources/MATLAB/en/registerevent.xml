@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="EmptyEventHandler">eventhandler cannot be empty</entry>
+    <entry key="InvalidEventHandler" note="stringDatatypeUpdate">eventhandler must be a character vector, string scalar or a cell array of character vectors</entry>
+    <entry key="invalidinputhandle">Input must be a scalar handle.</entry>
+    <entry key="InvalidNumEventArgs">Number of event handler pairs should be even.</entry>
+    <entry key="InvalidNumEventArgsSize">Invalid event handler argument size.</entry>
+    <entry key="InvalidEventname">Error registering events. Invalid event name.</entry>
+    <entry key="InvalidEventname2">Error registering events. ''{0}'' is not a valid event name.</entry>
+  </message>
+</rsccat>

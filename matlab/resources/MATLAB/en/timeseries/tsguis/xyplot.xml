@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="BestFitLine">Best fit line</entry>
+      <entry key="Cancel">Cancel</entry>
+      <entry key="CannotDisplayDifferingNumberOfSamples">Time series with differing numbers of samples cannot display on an xy view. Length of {0} is {1,number,integer}. Length of {2} is {3,number,integer}.</entry>
+      <entry key="Detrend">Detrend...</entry>
+      <entry key="DoYouWantToOpenTheMergeDialog">Do you want to open the merge dialog to synchronize the lengths?</entry>
+      <entry key="Filter">Filter...</entry>
+      <entry key="Interpolate">Interpolate...</entry>
+      <entry key="NotRemovingAllPoints">Removing all points would create an empty time series. No action taken.</entry>
+      <entry key="OK">OK</entry>
+      <entry key="ResampleData">Resample Data...</entry>
+      <entry key="RemoveMissingData">Remove Missing Data...</entry>
+      <entry key="SelectData">Select Data...</entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+      <entry key="TooManyAxes">Cannot display more than 144 axes. Use the arithmetic expression dialog to reduce the number of columns.</entry>
+      <entry key="XYPlot">XY Plot {0} - {1}</entry>
+      <entry key="XYPlotPlain">XY Plot</entry>
+   </message>
+</rsccat>

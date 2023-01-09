@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotHG2Figure">Figure の階層が有効な hg2 を使用せずに hg2gcv を呼び出すべきではありません。</entry>
+    <entry key="InvalidArgument">Figure の階層は、hg2 内のオブジェクトで hg2gcv を呼び出す場合にのみ有効です。</entry>
+    <entry key="hg2NotEnabled">hg2 を有効にせずに hg2gcv を呼び出すべきではありません。</entry>
+    <entry key="DeletedInputObject">入力は削除されたオブジェクトにすることはできません。</entry>
+  </message>
+</rsccat>

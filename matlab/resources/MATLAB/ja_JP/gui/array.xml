@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NullArray">配列が null です</entry>
+    <entry key="InvalidArrayShape">配列の形状またはサイズが正しくありません</entry>
+    <entry key="InvalidArrayClass">配列が必要なクラスに属していません</entry>
+    <entry key="InvalidArrayData">配列に無効なデータ値が含まれています</entry>
+  </message>
+</rsccat>

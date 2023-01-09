@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ClassNotFound">Failed to find the class name specified.</entry>
+    <entry key="IncorrectUsage"><![CDATA[\nusage: \n1. awtcreate(''<className>'')\n   - className is a string specifying the class to be instantiated\n     and invokes the no argument constructor\n2. awtcreate(''<classname>'', ''<signature>'', <arg1>, ...)\n   - className is same as above\n   - signature is a string specifying the signature of the costructor to be invoked\n   - args are the arguments corresponding to the specified signature\n\nSee help on awtcreate for more information]]></entry>
+  </message>
+</rsccat>

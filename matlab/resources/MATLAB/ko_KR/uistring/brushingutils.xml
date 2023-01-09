@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ReplaceWith">바꾸기</entry>
+    <entry key="NaNs">NaN</entry>
+    <entry key="DefineAConstant">상수 정의...</entry>
+    <entry key="Remove">브러싱된 항목 제거</entry>
+    <entry key="RemoveUnbrushed">브러싱되지 않은 항목 제거</entry>
+    <entry key="CreateVariable">브러싱된 데이터 내보내기...</entry>
+    <entry key="PasteDataToCommandLine">명령줄에 데이터 붙여넣기</entry>
+    <entry key="CopyDataToClipboard">클립보드에 데이터 복사</entry>
+    <entry key="ClearAllBrushing">모든 브러싱 지우기</entry>
+    <entry key="Color">색...</entry>
+  </message>
+</rsccat>

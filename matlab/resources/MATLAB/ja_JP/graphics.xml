@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FigureDoubleCreation">割り当てられた double のハンドルを使用した Figure の作成は廃止される予定です</entry>
+    <entry key="SetMethodUnknown">{0} クラスの ''set'' メソッドが見つかりません。</entry>
+    <entry key="SetMethodFailed">{0} クラスで設定できませんでした。</entry>
+    <entry key="GetMethodUnknown">{0} クラスの ''get'' メソッドが見つかりません。</entry>
+    <entry key="GetMethodFailed">{0} クラスで取得できませんでした。</entry>
+    <entry key="invalidMode">関数 getDefaultHGUsingMATLABClassesHandle は HGUsingMATLABClasses モードでび出さなければなりません。</entry>
+    <entry key="tex">{0} が存在しません</entry>
+    <entry key="proplink">無効なハンドル ベクトル</entry>
+    <entry key="deserializeDatatips">以前アクセス可能であった関数 "{0}" は、今はアクセスできません。\n 代わりに既定のデータ カーソルの更新関数を使用します。</entry>
+    <entry key="linkplotdata">この機能はサポートされません</entry>
+    <entry key="DeprecatedHitTest">hittest(f, {0}) は廃止予定で、将来のリリースで削除されます。</entry>
+    <entry key="DeprecatedNoReplacement">{0} は将来のリリースで削除される予定です。</entry>
+    <entry key="DoubleHandleConversionError">double のハンドルの変換が見つかりません</entry>
+    <entry key="CannotConvertDoubleToHandle">double 値 {0} をハンドルに変換できません</entry>
+    <entry key="timeoutDuringDrawnow">グラフィックスのタイムアウトが発生しました。問題の詳細について MathWorks テクニカル サポートと共有するには、これが {0} であることをサービス リクエストに含めてください。</entry>
+    <entry key="reconnect">Figure と通信できません</entry>
+    <entry key="newView">Figure と通信できません</entry>
+    <entry key="GraphicsBackgroundInitError">バッググラウンドのグラフィックス初期化中にエラーが発生しました: {0}</entry>
+    <entry key="GraphicsInitError">グラフィックス初期化中にエラーが発生しました: {0}</entry>
+    <entry key="drawnowTimeout">drawnow timeout: waited {0} seconds for {1} ACT {2}. {3}</entry>
+    <entry key="stallTimeout">stall timeout in {0}: waited {1} seconds for response</entry>
+  </message>
+</rsccat>

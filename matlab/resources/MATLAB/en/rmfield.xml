@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="Arg1NotStructArray">S must be a structure array.</entry>
+    <entry key="FieldnamesNotStrings">FIELDNAMES must be string, a character vector, or a cell array of character vectors.</entry>
+    <entry key="FieldnameTooLong">The string ''{0}'' is longer than the maximum MATLAB name length.  It is not a valid fieldname.</entry>
+    <entry key="InvalidFieldname">A field named ''{0}'' doesn''t exist.</entry>
+  </message>
+</rsccat>

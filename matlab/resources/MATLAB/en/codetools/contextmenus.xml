@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2017-2021 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="OpenVariableAction">Open Selection</entry>
+      <entry key="SaveVariablesAction">Save As...</entry>
+      <entry key="DuplicateVariableAction">Duplicate</entry>
+      <entry key="DeleteVariableAction">Delete</entry>
+      <entry key="InsertVariableAction">Insert</entry>
+      <entry key="NewDoubleVariableAction">New</entry>
+      <entry key="SaveAllVariablesAction">Save</entry>
+      <entry key="NewFromSelection">New from Selection</entry>
+      <entry key="ClearWorkspaceAction">Clear Workspace</entry>
+      <entry key="SelectAllDataAction">Select All</entry>
+      <entry key="InvertSelection">Invert Selection</entry> 
+
+      <entry key="RefreshWorkspaceAction">Refresh</entry>
+      <entry key="RenameAction">Rename</entry> 
+      <entry key="EditValueAction">Edit Value</entry>
+      <entry key="PrintAction">Print...</entry>
+      
+      <entry key="Field">Field</entry>      
+      <entry key="Name">Name</entry>
+      <entry key="Value">Value</entry>
+      <entry key="Size">Size</entry>
+      <entry key="Bytes">Bytes</entry>
+      <entry key="Class">Class</entry>
+      <entry key="Property">Property</entry>
+      <entry key="Min" note="Minimum">Min</entry>
+      <entry key="Max" note="Maximum">Max</entry>
+      <entry key="Mean">Mean</entry>
+      <entry key="Median">Median</entry>
+      <entry key="Mode">Mode</entry>
+      <entry key="Range" note="Range of values">Range</entry>
+      <entry key="Var" note="Variance">Var</entry>
+      <entry key="Std" note="Standard deviation">Std</entry>
+      <!-- Table menus -->
+      <entry key="SortAscending">Sort Ascending</entry>     
+      <entry key="SortDescending">Sort Descending</entry>     
+      <entry key="DeleteColumnVariable">Delete Table Column Variable(s)</entry>     
+      <entry key="DeleteRowVariable">Delete Row(s)</entry>
+      <entry key="NewWorkspaceVariable">New Workspace Variable From Selection</entry>
+      <entry key="NewTable">New Table</entry>
+      <entry key="NewTimeTable">New Timetable</entry>
+      <entry key="SeparateWorkspaceVariable">Separate Workspace Variable(s)</entry>     
+      <entry key="ConvertTo">Convert To</entry>     
+      <entry key="NewNumericArray">New Numeric Array</entry>     
+      <entry key="NewCharacterArray">New Character Array</entry>     
+      <entry key="NewCellArray">New Cell Array</entry>
+      <entry key="NewStringArray">New String Array</entry>
+      <entry key="UngroupColumnVariable">Ungroup Table Column Variable(s)</entry>
+      <entry key="GroupColumnVariable">Group Table Column Variables</entry>
+      <entry key="TransformColumn">Compute New/Transform Column Variable</entry>
+      
+      <!-- All other datatypes supported by VE -->
+      <entry key="DeleteColumn">Delete Column(s)</entry>     
+      <entry key="DeleteRow">Delete Row(s)</entry>
+      <entry key="ReplaceWithText">Replace with...</entry>     
+      <entry key="ReplaceWithZero">Replace with Zero</entry>  
+      <entry key="Zero">Zero</entry>  
+      <entry key="NaNs">NaNs</entry>
+      <entry key="Constant">Constant...</entry>  
+
+      <entry key="ReplaceWithMissing">Replace with Missing</entry>
+      <entry key="ReplaceWithEmpty">Replace with Empty</entry>
+      <entry key="Transpose">Transpose Variable</entry>
+      <entry key="InsertColumnLeft">Insert Column to the Left</entry>
+      <entry key="InsertColumnRight">Insert Column to the Right</entry>
+      <entry key="InsertRowAbove">Insert Row Above</entry>
+      <entry key="InsertRowBelow">Insert Row Below</entry>
+      
+      <entry key="NewCategoricalArray">New Categorical Array</entry>
+      <entry key="NewDatetimeArray">New Datetime Array</entry>
+      <entry key="NewDurationArray">New Duration Array</entry>
+      <entry key="NewCalendarDurationArray">New Calendar Duration Array</entry>
+      <entry key="NewStructureArray">New Structure Array</entry>
+
+      <entry key="NewRowVectors">New Row Vectors</entry>
+      <entry key="NewColumnVectors">New Column Vectors</entry>
+      <entry key="OpenSelection">Open Selection</entry>
+      
+      <entry key="DeleteField">Delete Field</entry>
+      <entry key="BrushingOn">Brushing On</entry>
+   </message>
+</rsccat>

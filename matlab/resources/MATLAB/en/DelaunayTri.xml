@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NastyDuplicates">Duplicate data points have been detected and removed.\n Constraints have not been imposed because point indices are invalid due to the presence of duplicates.</entry>
+    <entry key="featureEdgesNotSupported">DelaunayTri does not support the featureEdges method.</entry>
+  <!--Resource entries for src/mathcgeo/-->
+  </message>
+</rsccat>

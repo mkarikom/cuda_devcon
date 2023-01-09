@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputClass">データ型が無効です。最初の引数と 2 番目の引数は数値または論理値でなければなりません。</entry>
+    <entry key="StrideClass">データ型が無効です。stride は数値または論理値でなければなりません。</entry>
+    <entry key="RangeIndexClass">データ型が無効です。範囲のインデックスは数値または論理値でなければなりません。</entry>
+    <entry key="SparseInput">スパース行列はサポートされていません。</entry>
+    <entry key="InvalidStride">stride は実数の正の整数でなければなりません。</entry>
+    <entry key="InvalidRangeIndex">出力範囲のインデックスは、実数の正の整数でなければなりません。</entry>
+    <entry key="InvalidOptionString">演算タイプは 'corr' または 'conv' でなければなりません。</entry>
+  </message>
+</rsccat>

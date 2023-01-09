@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WrongSize">{0} 仅支持一个级别的索引。</entry>
+    <entry key="TypeField">Subsasgn 输入结构体的字段 ''type'' 必须包含字符数组。</entry>
+    <entry key="SubsField">Subsasgn 输入结构体的字段 ''subs'' 必须包含元胞数组或字符数组。</entry>
+    <entry key="SmoothParenAssignmentOnly">仅 ''()'' 索引支持为 {0} 赋值。</entry>
+    <entry key="KeysPropAccess">无法修改 Map 的键值，而只能进行添加或删除。\n请通过以下方式修改 Map 的内容:  mapObj(key) = 值。</entry>
+    <entry key="ValuesPropAccess">只能针对单个键设置 Map 的值。\n请通过以下方式设置键值:  mapObj(key) = 值。</entry>
+    <entry key="NonScalarAssign">无法将 {0} 对象分配给数组。</entry>
+  </message>
+</rsccat>

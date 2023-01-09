@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ClassNotSupport">入力のクラスはサポートされていません。</entry>
+    <entry key="differenceOrderMustBePositiveInteger">微分の次数 N は正の整数のスカラーでなければなりません。</entry>
+    <entry key="unsupportedClass">関数 ''diff'' は、クラス ''{0}'' に対してサポートされていません。</entry>
+    <entry key="complexIntegersNotSupported">複素数の整数の差はサポートされていません。</entry>
+  </message>
+</rsccat>

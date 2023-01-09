@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputMustBeText">入力は string 配列、文字配列、または文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="UnknownParameter">strjust への 2 番目の引数は、left、right、center のいずれかでなければなりません。</entry>
+  </message>
+</rsccat>

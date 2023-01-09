@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="cmoptserror"> cmopts has been removed.  Use MathWorks built-in source control integration instead.</entry>
+    <entry key="customverctrlerror"> customverctrl has been removed.  Use MathWorks built-in source control integration instead.</entry>
+    <entry key="checkinerror"> checkin has been removed.  Use MathWorks built-in source control integration instead.</entry>
+    <entry key="checkouterror"> checkout has been removed.  Use MathWorks built-in source control integration instead.</entry>
+    <entry key="undocheckouterror"> undocheckout has been removed.  Use MathWorks built-in source control integration instead.</entry>
+    <entry key="VerctrlDeprecationWindows">verctrl  has been removed. Use MathWorks built-in source control integration or the <![CDATA[<a href="matlab:matlab.addons.supportpackage.internal.explorer.showSupportPackages('SL_MS_SCCI','Verctrl2_L_MS_SCCI')">Microsoft Source Code Control Interface (MSSCCI)</a>]]> add-on instead.</entry>
+  </message>
+</rsccat>

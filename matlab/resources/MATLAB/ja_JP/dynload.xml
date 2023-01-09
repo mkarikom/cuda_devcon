@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="glibcFailedLoadBug">{0}\n\n*** MATLAB は Linux オペレーティング システムのバグに遭遇しました。このバグはいずれ MATLAB のクラッシュを引き起こします。このエラーを発生させたコマンドを繰り返さないでください。繰り返した場合直ちにクラッシュが発生する可能性があります。今すぐ作業内容を保存して MATLAB を再起動してください。</entry>
+  </message>
+</rsccat>

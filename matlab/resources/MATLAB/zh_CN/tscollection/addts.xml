@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badcell">时序元胞数组无效。元胞数组参数必须是时序对象元胞向量。</entry>
+    <entry key="badinput">addts 的第二个属性必须是数组或时序对象。</entry>
+    <entry key="badname">时序名称必须为字符向量或字符串。</entry>
+    <entry key="dupinputnames">您尝试添加的时序名称必须唯一(在使用 matlab.lang.makeValidName 转换为 MATLAB 变量名称后)</entry>
+    <entry key="dupexistingname">您尝试添加的时序名称(在使用 matlab.lang.makeValidName 转换为 MATLAB 变量名称后)与现有成员的名称冲突。</entry>
+    <entry key="baddata">数据与 tscollection 长度不兼容</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DataVariablesArray">只有表输入支持 ''DataVariables'' 参数。</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' 函数句柄必须返回逻辑标量。</entry>
+    <entry key="DataVariablesTableSubscript">''DataVariables'' 值无效。</entry>
+    <entry key="FirstInputInvalid">第一个参数必须为 numeric、logical、datetime、duration、calendarDuration、categorical、char、cellstr、string、table 或 timetable。</entry>
+    <entry key="NameValueNames">参数名称必须为 ''DataVariables''。</entry>
+    <entry key="NameValuePairs">输入参数的数目不正确。参数名称和值必须成对出现。</entry>
+    <entry key="InvalidInputsCodegen">第一个参数必须为数值、逻辑值、持续时间、字符串、分类、字符或表。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RequireStruct">構造体が必要です。</entry>
+    <entry key="ScalarStructRequired">シンプルなデータ型の構造体配列のみがサポートされています。</entry>
+    <entry key="FieldMismatch">フィールドは構造体のフィールドと一致しません。</entry>
+    <entry key="InvalidStructureInfo">無効な構造体定義です。すべての構造体の定義は、タイプ struct でなければなりません。</entry>
+    <entry key="CannotUnloadInUse">未解決オブジェクトをもつ struct クラスの読み込みを解除できません。</entry>
+    <entry key="TypesMustMatch">構造体のタイプは一致しなければなりません。</entry>
+    <entry key="InputMustBeStruct">入力は構造体、または構造体を指すポインターでなければなりません。</entry>
+    <entry key="InvalidFieldValue">エラーのためフィールド {0} のデータ値に変換できません:\n{1}</entry>
+  </message>
+</rsccat>

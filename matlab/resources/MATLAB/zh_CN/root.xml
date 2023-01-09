@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadPointerLocation">PointerLocation 值太大。</entry>
+    <entry key="InvalidParent">无法为根设置父级</entry>
+    <entry key="ValidFigureHandle">指定的参数必须为有效的图窗句柄</entry>
+    <entry key="InvalidCurrentFigureHandle">{0} 句柄传递给了 ''CurrentFigure'' 属性 - 需要有效的图窗句柄</entry>
+    <entry key="InvalidFigureHandle">对象必须为图窗</entry>
+    <entry key="HandleAssignment">根句柄赋值失败</entry>
+    <entry key="InvalidProperty">此属性未在 ''root'' 类中定义</entry>
+    <entry key="CopyNotAllowed">无法复制类型 ''matlab.ui.Root'' 的对象</entry>
+    <entry key="Creation">无法创建根对象。</entry>
+    <entry key="Deleted">找不到根对象。</entry>
+    <entry key="SetZeroNotAllowed">不允许调用 set(0,''{0}'', ...)</entry>
+    <entry key="ScreenPixelsPerInchReadOnly">ScreenPixelsPerInch 属性在 R2015b 中已变为只读属性。要更改屏幕中的文本和其他元素的大小，请在您的操作系统设置中调整屏幕分辨率。有关详细信息，请参阅&lt;a href=\"matlab:helpview([docroot, ''/matlab/helptargets.map''], ''sppireadonly'')\"&gt;根 ScreenPixelsPerInch 属性&lt;/a&gt;。</entry>
+  </message>
+</rsccat>

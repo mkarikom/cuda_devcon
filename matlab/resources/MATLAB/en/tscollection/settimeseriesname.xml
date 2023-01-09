@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="badsyntax">You must specify a non-empty old name and a valid new name as the second and third arguments of settimeseriesnames, respectively.</entry>
+    <entry key="onlychars" note="stringDatatypeUpdate">Both the old name and the new name must be character vectors or strings.</entry>
+    <entry key="badmember">Time series ''{0}'' is not a member of the tscollection.</entry>
+  </message>
+</rsccat>

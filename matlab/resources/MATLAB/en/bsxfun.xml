@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NdSparseOutput">N-D sparse output arrays are not supported.</entry>
+    <entry key="sparseInteger">Sparse integer array arithmetic operations are not supported.</entry>
+    <entry key="sparseSingle">Sparse single array arithmetic operations are not supported.</entry>
+    <entry key="InvalidOutputDimensions">Specified function handle produces invalid output dimensions. The function handle must be a binary elementwise function.</entry>
+    <entry key="InconsistentClass">Output class is not consistent.</entry>
+    <entry key="InconsistentSparsity">Output has to be consistently full or consistently sparse.</entry>
+    <entry key="NonNumericOutput">Output is not numeric.</entry>
+    <entry key="SparseOutput">Output cannot be sparse when inputs are full.</entry>
+    <entry key="complexAndOrXor">Operands must be real for &amp;,|,xor.</entry>
+    <entry key="complexInts">Complex integer arithmetic is not supported.</entry>
+    <entry key="integerAtan2">Integer arguments not supported for ATAN2.</entry>
+    <entry key="integerAtan2D">Integer arguments not supported for ATAN2D.</entry>
+    <entry key="integerHypot">Integer arguments not supported for HYPOT.</entry>
+    <entry key="nonnumericOperands">Operands must be numeric arrays.</entry>
+    <entry key="invalidFunction">Undefined function ''{0}'' for input arguments of type ''{1}''.</entry>
+    <entry key="nonFunctionHandle">First Argument must be a function handle.</entry>
+    <entry key="arrayDimensionsMustMatch">Non-singleton dimensions of the two input arrays must match each other.</entry>
+    <entry key="mixedIntegerClass">Mixed integer class inputs are not supported.</entry>
+    <entry key="unsupportedClass">Classes of operands are not supported.</entry>
+    <entry key="unknownOperator">Unknown operator.</entry>
+  </message>
+</rsccat>

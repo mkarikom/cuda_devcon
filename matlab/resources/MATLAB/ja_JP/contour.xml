@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="YMustNotBeScalar">Y をスカラーにしてはなりません。</entry>
+    <entry key="YMustBeFinite">Y 値は有限でなければなりません。</entry>
+    <entry key="TextListMustBeVectorOrScalar">テキストのリスト値はベクトルかスカラーでなければなりません。</entry>
+    <entry key="TextListMustBeFinite">テキストのリスト値は有限でなければなりません。</entry>
+    <entry key="ZMustBeAtLeast2x2Matrix">Z は少なくとも 2 行 2 列 の行列でなければなりません。</entry>
+    <entry key="DataMustBeNonNegative">{0} は非負でなければなりません。</entry>
+    <entry key="LMustBeVectorOrScalar">等高線のレベル値はベクトルかスカラーでなければなりません。</entry>
+    <entry key="LMustBeFinite">等高線のレベル値は、有限でなければなりません。</entry>
+    <entry key="InputsMustBeReal">入力引数は実数でなければなりません。関数 REAL を使用して入力の実数部を取得します。</entry>
+    <entry key="InputsMustHaveAtMost2Dimensions">入力引数の次元数は 2 を超えてはなりません。</entry>
+    <entry key="NonFiniteData">等高線図は、ZData が非有限の場合はレンダリングされません</entry>
+    <entry key="ConstantData">等高線図は ZData が定数の場合はレンダリングされません</entry>
+    <entry key="XMustNotBeScalar">X をスカラーにしてはなりません。</entry>
+    <entry key="XMustBeFinite">X 値は有限でなければなりません。</entry>
+    <entry key="UnknownOption">不明なオプション "{0}" です。</entry>
+    <entry key="LengthOfXandYMustMatchColsAndRowsInZ">''XData'' および ''YData'' の値の数は、それぞれ ''ZData'' の列数および行数と等しくなければなりません。</entry>
+    <entry key="LengthOfXMustMatchColsInZ">''XData'' の値の数は、''ZData'' の列数と等しくなければなりません。</entry>
+    <entry key="LengthOfYMustMatchRowsInZ">''YData'' の値の数は、''ZData'' の行数と等しくなければなりません。</entry>
+    <entry key="VectorXMustBeUniqueMonotone">ベクトル X は値の繰り返しなしで厳密に増加または減少しなければなりません。</entry>
+    <entry key="VectorYMustBeUniqueMonotone">ベクトル Y は値の繰り返しなしで厳密に増加または減少しなければなりません。</entry>
+    <entry key="NMustNotBeNegative">等高線のレベル数は非負でなければなりません。</entry>
+    <entry key="InvalidNumericMatrix">最初の 3 つの引数 (X、Y、Z) は、2 次元の実数による空でない数値行列でなければなりません。</entry>
+    <entry key="SizeMismatch">最初の 3 つの引数 (X、Y、Z) は同じサイズでなければなりません。</entry>
+    <entry key="InvalidLevel">レベルの入力は数値スカラーでなければなりません。</entry>
+    <entry key="ErrorProcessingContour">等高線の処理に失敗しました。</entry>
+    <entry key="LevelStepLabel">等高線の間隔</entry>
+    <entry key="FillLabel">等高線間の塗りつぶし</entry>
+    <entry key="MeshDensityLabel">方向ごとの評価点の数</entry>
+    <entry key="ShowTextLabel">等高線のラベル</entry>
+    <entry key="LabelSpacingLabel">ラベルの間隔</entry>
+    <entry key="InterpMethod">内挿法</entry>
+    <entry key="TextStepLabel">ラベルを付ける等高線の間隔</entry>
+    <entry key="ShowContoursLabel">プロットの下に等高線図を表示</entry>
+  </message>
+</rsccat>

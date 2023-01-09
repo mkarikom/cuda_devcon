@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidArguments">First argument must be a table or numeric vector.</entry>
+    <entry key="MustBeVector">The ''{0}'' argument must be a vector.</entry>
+    <entry key="BadTypeLabel">必须将 ''labels'' 参数指定为字符串向量或字符向量元胞数组。</entry>
+    <entry key="BadTypeGroup">必须将 ''groups'' 参数指定为字符向量元胞数组，或由字符串、分类、数值或逻辑值组成的向量。</entry>
+    <entry key="SizeMismatch">''{0}'' 参数的长度必须与 ''sz'' 参数的长度匹配。</entry>
+    <entry key="InvalidLabelData">当不使用表时，请将标签指定为字符串、字符向量元胞数组或可转换为字符串的数组。</entry>
+    <entry key="InvalidGroupData">当不使用表时，请将组指定为字符串、字符向量元胞数组、分类向量、数值向量或逻辑向量。</entry>
+    <entry key="SizeNonNegativeNumeric">将气泡大小指定为由非负数组成的向量。</entry>
+    <entry key="BadTableVarPropAmbiguous">{0} is not a valid table variable or property name.</entry>
+    <entry key="PropertySizeMismatch">The length of ''{0}'' must match the length of ''{1}''.</entry>
+    <entry key="DatatipSize">大小</entry>
+    <entry key="DatatipLabel">标签</entry>
+    <entry key="DatatipGroup">组</entry>
+    <entry key="VectorWorkflow">不支持在设置 ''SizeData'' 属性后设置 ''{0}'' 属性。</entry>
+    <entry key="TableWorkflow">不支持在设置 ''SourceTable'' 属性后设置 ''{0}'' 属性。</entry>
+  </message>
+</rsccat>

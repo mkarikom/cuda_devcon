@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadXml">服务器的响应不是有效的 XML:\n\n{0}</entry>
+    <entry key="SoapFault">SOAP 错误: {0}</entry>
+    <entry key="NonUnique">非特征元素。</entry>
+    <entry key="BadBoolean">布尔值既不为 true，也不为 false。</entry>
+  </message>
+</rsccat>

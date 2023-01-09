@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- Added messages: src/m_interpreter, src/m_lxe -->
+    <entry key="notInAfunction">Cannot return call site information if not in an active function.</entry>
+    <entry key="notSupportedInScript">Calling matlab.internal.lang.getCallSiteInfo from scripts is not supported.</entry>
+  </message>
+</rsccat>

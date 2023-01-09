@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SizeGreaterThanZero">値は有限で、0 より大きくなければなりません</entry>
+    <entry key="UnitsStringConversion">タイプ Units に対する文字ベクトル変換がありません</entry>
+    <entry key="UnitsConversionFailed">FontUnits プロパティの初期値を変換できませんでした\n</entry>
+    <entry key="NameStringConversion">タイプ FontName に対する文字ベクトル変換がありません</entry>
+    <entry key="NameConversionFailed">FontName プロパティの初期値の変換に失敗しました\n</entry>
+    <entry key="WeightStringConversion">タイプ FontWeight に対する文字ベクトル変換がありません</entry>
+    <entry key="WeightConversionFailed">FontWeight プロパティの初期値を変換できませんでした\n</entry>
+    <entry key="AngleStringConversion">タイプ FontAngle に対する文字ベクトル変換がありません</entry>
+    <entry key="AngleConversionFailed">FontAngle プロパティの初期値を変換できませんでした\n</entry>
+  </message>
+</rsccat>

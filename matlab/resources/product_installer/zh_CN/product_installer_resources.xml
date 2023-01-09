@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2022 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="product_installer" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="agreeToLicenseErrorMsg">要使用输入文件进行安装，请设置 agreeToLicense=yes 并取消注释该行以接受许可协议。</entry>
+    <entry key="fikNotProvidedErrorMsg">未检测到文件安装密钥。在 mathworks.com 上的许可证中心生成密钥，并取消注释该行。</entry>
+    <entry key="fikInvalidMsg">不是有效密钥。有关如何获取有效密钥的详细信息，请参阅相应的 &lt;a HREF="https://www.mathworks.com/pi_infik_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;。</entry>
+    <entry key="invalidLicenseMsg">选定的许可证文件似乎无效 </entry>
+    <entry key="invalidEntitlementMsg">选定的授权似乎无效 </entry>
+    <entry key="notALicenseFileMsg">这不是许可证文件</entry>
+    <entry key="cannotReadLicenseFileMsg">无法读取许可证文件</entry>
+    <entry key="missingHostIDTitle">hostid 缺失</entry>
+    <entry key="HostIDMismatchTitle">hostid 不匹配</entry>
+    <entry key="missingHostIDMsg">在您的许可证文件中找不到 hostid。安装后，必须在您的许可证文件中手动编辑 SERVER 行。(位于 {0})</entry>
+    <entry key="HostIDMismatchMsg">许可证文件中的 hostid 必须适用于此计算机。请从您的许可证管理员处或 MathWorks 许可证中心获取为此计算机的 hostid ({0})生成的新许可证文件。</entry>
+    <entry key="invalidActivationKey">您的许可证的激活密钥无效</entry>
+    <entry key="standardErrorTitle">错误</entry>
+    <entry key="folderNonEnglishCharacter">文件夹名称不能包含非英语字符。</entry>
+    <entry key="folderInvalidCharacterWin">文件夹名称不能包含 {0}，并且目标不能命名为 "private"。</entry>
+    <entry key="folderInvalidCharacterLinuxMac">文件夹名称只能包含字母数字字符和 {0}。目标无法命名为 "private"。</entry>
+    <entry key="folderWritePermission">无法写入所选文件夹。</entry>
+    <entry key="folderCreationFailed">无法创建指定的文件夹。要继续，请选择其他文件夹。</entry>
+    <entry key="folderNotAbsolutePath">指定目标文件夹的完整路径。</entry>
+    <entry key="folderNotADirectory">该文件夹不是目录。</entry>
+    <entry key="rootDriveWarningMsg">您已选择 {0} &lt;br&gt;&lt;br&gt;我们建议安装在以下位置: {1}</entry>
+    <entry key="rootDriveWarningTitle">警告</entry>
+    <entry key="controllingProductConflictMsg">所选文件夹已安装 {1}。{0} 必须安装在单独的文件夹中。</entry>
+    <entry key="hasUnsuccessfulInstallationMsg">无法在指定的文件夹中安装。请删除现有文件或安装在不同文件夹中。</entry>
+    <entry key="overwriteErrorTitle">覆盖错误</entry>
+    <entry key="overwriteErrorMsg">无法在指定的文件夹中安装。要继续，请选择一个空文件夹。</entry>
+    <entry key="selectedProductNotAvailable">下列产品的安装文件不可用: {0}。请在输入文件中注释掉这些产品，然后重新开始安装。如果您需要安装这些缺失的产品，请先使用 MathWorks 产品安装程序用户界面中的 "仅下载" 选项下载它们。</entry>
+    <entry key="selectedProductNotEntitled">指定的文件安装密钥不允许访问下列产品: {0}。从输入文件中注释掉这些产品，然后重新开始安装。</entry>
+    <entry key="missingControllingProductsMsg">需要下列产品才能继续: &lt;br&gt; {0} &lt;br&gt;点击&lt;b&gt;添加&lt;/b&gt;以将这些产品包括在您的安装中。&lt;br&gt;您也可以选择包含所需产品的文件夹。点击&lt;b&gt;取消&lt;/b&gt;并转至&lt;b&gt;目标&lt;/b&gt;。&lt;br&gt;</entry>
+    <entry key="missingDependentProductsMsg">某些选定的产品依赖于: &lt;br&gt; {0}&lt;br&gt;点击&lt;b&gt;添加&lt;/b&gt;以将这些产品包括在您的安装中。&lt;br&gt;点击&lt;b&gt;不添加&lt;/b&gt;以继续而不添加这些产品。&lt;br&gt;</entry>
+    <entry key="productSelectionSpaceWarningMsg">磁盘空间不足。&lt;br&gt;&lt;br&gt;位置: {0} &lt;br&gt;&lt;br&gt;所需空间: {1} &lt;br&gt;&lt;br&gt;请增大磁盘空间，选择较少的产品，或选择其他目标位置。</entry>
+    <entry key="productSelectionSpaceWarningTitle">警告</entry>
+    <entry key="missingFileTitle">"未找到文件" 错误</entry>
+    <entry key="missingInstallationFilesTitle">缺少安装文件</entry>
+    <entry key="missingInstallationFilesMsg">无法加载产品文件。产品文件必须与输入文件位于同一文件夹中。有关如何获取产品文件的帮助，请参阅 &lt;a HREF="https://www.mathworks.com/pi_noprode_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt; 上的安装文档。</entry>
+    <entry key="DownloadErrorTitle">下载错误</entry>
+    <entry key="ExtractErrorTitle">提取错误</entry>
+    <entry key="confirmationTitle">确认选择</entry>
+    <entry key="destinationFolderTitle">目标</entry>
+    <entry key="productsTitle">产品</entry>
+    <entry key="numberOfProductsSelectedMsg">已选定 {0} 个产品，共 {1} 个</entry>
+    <entry key="platformsTitle">平台</entry>
+    <entry key="systemFailureErrorTitle">出现了异常情况</entry>
+    <entry key="systemFailureErrorMsg">要解决此问题，请联系&lt;a HREF="https://www.mathworks.com/pi_gene_mpi_{0}_{1}" target="_blank"&gt;客户支持&lt;/a&gt;。</entry>
+    <entry key="authenticationHeader">身份验证选项: </entry>
+    <entry key="activateNow">立即授权此计算机</entry>
+    <entry key="activateLater">每次启动软件时都需要身份验证(登录)</entry>
+    <entry key="winSystemUsername">Windows 用户名: </entry>
+    <entry key="systemUsername">登录名: </entry>
+    <entry key="requiredSizeMsg">需要 {0}。</entry>
+    <entry key="connectionErrorTitle">连接错误</entry>
+    <entry key="noProductsAlertTitle">下载错误</entry>
+    <entry key="noProductsAlertMsg">无法连接到 MathWorks。有关帮助，请参阅相应的 &lt;a HREF="https://www.mathworks.com/pi_dwsconn_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;。</entry>
+    <entry key="productExecutableRunningErrorMsg">此计算机上存在正在运行的 MATLAB 会话。要继续，您必须关闭所有正在运行的 MATLAB 会话。</entry>
+    <entry key="ProxyError">用户名或密码无效。</entry>
+    <entry key="privacyPolicyURL">&lt;a HREF="http://www.mathworks.com/pi_uo_pi_{0}_{1}" target="_blank"&gt;了解更多信息&lt;/a&gt;</entry>
+    <entry key="reinstallWarningTitle">已安装的产品</entry>
+    <entry key="ServiceErrorTitle">服务错误</entry>
+    <entry key="excessEntitlementsWarningMsg">错误 {0}: {1}。</entry>
+    <entry key="installTitle">已安装</entry>
+    <entry key="downloadTitle">已下载</entry>
+    <entry key="downloadInstallerTitle">正在下载安装程序</entry>
+    <entry key="progressMessage">{1} 的 {0}</entry>
+    <entry key="downloadCompletedMessage">下载完毕</entry>
+    <entry key="downloadInstallerMessage">正在准备并提取文件...</entry>
+    <entry key="installCompletedMessage">正在执行安装后任务。这可能需要几分钟...</entry>
+    <entry key="LMServiceExistsMessage">{0} 已存在，但安装在不同位置。&lt;br&gt;在安装新服务之前，您必须删除该服务。</entry>
+    <entry key="setupLicenseManagerServiceWin">网络许可证管理器已作为一项服务安装在您的计算机上。此服务尚未启动。在运行 {0} 之前，您必须使用 lmtools.exe (位于此安装的 etc\\win64 文件夹中)手动启动许可证管理器。请参阅&lt;a HREF="http://www.mathworks.com/pi_snlm_nlm_{1}_{2}"&gt;启动网络许可证管理器&lt;/a&gt;。&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupLicenseManagerFilesWin">网络许可证管理器已安装在此安装的 etc\\win64 文件夹中，但尚未在您的计算机上配置为服务。在运行 {0} 之前，您必须将许可证管理器配置为在计算机启动时自动作为服务启动。请参阅&lt;a HREF="http://www.mathworks.com/pi_cnlm_nlm_{1}_{2}"&gt;将许可证管理器配置为服务&lt;/a&gt;。&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupLicenseManagerLinux">网络许可证管理器已安装，但尚未启动。在运行 {0} 之前，您必须手动启动许可证管理器。请参阅&lt;a HREF="http://www.mathworks.com/pi_snlm_nlm_{1}_{2}"&gt;启动网络许可证管理器&lt;/a&gt;。要将许可证管理器配置为自动启动，请参阅同一节中的说明。&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupLicenseManagerMac">网络许可证管理器已安装，但尚未启动。在运行 {0} 之前，您必须手动启动许可证管理器。请参阅&lt;a HREF="http://www.mathworks.com/pi_snlm_nlm_{1}_{2}"&gt;启动网络许可证管理器&lt;/a&gt;。要将许可证管理器配置为自动启动，请参阅同一节中的说明。&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="installerDownloadFailedTitle">下载错误</entry>
+    <entry key="installerDownloadFailedMessage">下载安装程序时出错。&lt;br&gt;&lt;br&gt;有关帮助，请参阅相应的 &lt;a HREF="https://www.mathworks.com/pi_dwe_pi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt; 或联系 &lt;a HREF="https://www.mathworks.com/pi_gene_mpi_{0}_{1}" target="_blank"&gt;MathWorks 支持&lt;/a&gt;。</entry>
+    <entry key="missingInstallationFilesInteractiveMsg">无法加载请求的产品文件。&lt;br&gt;有关帮助，请参阅相应的 &lt;a HREF="https://www.mathworks.com/pi_noprode_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;。</entry>
+    <entry key="productDependenciesTitle">产品依赖项</entry>
+    <entry key="missingControllingProductNotInstallableMsg">要继续，您必须选择安装了以下产品的目标: &lt;br&gt; &lt;br&gt; {0} &lt;br&gt;</entry>
+    <entry key="missingDependentProductNotInstallableMsg">点击&lt;b&gt;取消&lt;/b&gt;，然后选择安装了以下产品的目标: &lt;br&gt; &lt;br&gt; {0} &lt;br&gt;点击&lt;b&gt;继续&lt;/b&gt;以继续安装但不安装这些相关产品。</entry>
+    <entry key="folderContainsUsersDefaultAppData">Unable to install into the user profile folder. To continue, select a different folder.</entry>
+    <entry key="folderIsInstallerRoot">Unable to install into the same folder as the installer. To continue, select a different folder.</entry>
+    <entry key="missingFileMessage">Unable to find:&lt;br&gt;{0}&lt;br&gt;&lt;br&gt;Learn more:&lt;a HREF="https://www.mathworks.com/pi_siae_mpi_{1}_{2}"&gt;MATLAB Answer&lt;/a&gt;&lt;br&gt;For help:&lt;a HREF="https://www.mathworks.com/pi_gene_mpi_{1}_{2}" target="_blank"&gt;MathWorks Support&lt;/a&gt;.</entry>
+    <entry key="DownloadErrorMsg">There was an error downloading product files.&lt;br&gt;Check your internet connection and then rerun the Installer.&lt;br&gt;&lt;br&gt;For help, see this &lt;a HREF="https://www.mathworks.com/pi_siae_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;&lt;br&gt;.</entry>
+    <entry key="ExtractErrorMsg">There was an error while extracting product files.&lt;br&gt;Try rerunning the Installer.&lt;br&gt;&lt;br&gt;For help, see this &lt;a HREF="https://www.mathworks.com/pi_siae_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;&lt;br&gt;.</entry>
+    <entry key="progressErrorMsg">Something unexpected occurred.&lt;br&gt;Try rerunning the Installer.&lt;br&gt;&lt;br&gt;For help, see this &lt;a HREF="https://www.mathworks.com/pi_siae_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;&lt;br&gt;.</entry>
+    <entry key="connectionErrorMsg">Unable to connect to MathWorks.&lt;br&gt;For more information on resolving this issue, see this &lt;a HREF="http://www.mathworks.com/pi_ce_pi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;.</entry>
+    <entry key="reinstallWarningMsg">All selected products are already installed.&lt;br&gt;&lt;br&gt;To reinstall products, see this &lt;a HREF="https://www.mathworks.com/pi_reinst_mpi_{0}_{1}"&gt;MATLAB Answer.&lt;/a&gt;.</entry>
+    <entry key="installerExtractionInstruction">For instructions on how to extract installers for non-Windows platforms, see this &lt;a HREF="https://www.mathworks.com/pi_dwe_pi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;.&lt;br&gt;</entry>
+  </message>
+</rsccat>

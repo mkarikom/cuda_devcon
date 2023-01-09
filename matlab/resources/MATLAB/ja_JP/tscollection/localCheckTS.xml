@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badstartdate">追加する時系列には、有効な StartDate プロパティが含まれなければなりません。</entry>
+    <entry key="ignorestartdate">tscollection は日付を使用しないため、追加した時系列の StartDate プロパティが無視されました。</entry>
+    <entry key="badtime">追加する時系列の時間ベクトルは、tscollection の時間ベクトルと一致しなければなりません。</entry>
+    <entry key="classchange">追加する時系列の TimeInfo プロパティは、tscollection と一致させるために変更されました。</entry>
+  </message>
+</rsccat>

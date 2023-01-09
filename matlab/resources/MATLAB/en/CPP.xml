@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" string_type_for_hole="mixed" version="1.0">
+   <message>
+      <entry key="LibraryNotFound"              >Library file ''{0}'' does not exist.</entry>
+      <!--entry key="ImportLibNotFound">Import file {0} not found.</entry-->
+      <entry key="HeaderParseError"             >Errors parsing interface generation files.\n{0}</entry>
+      <!--entry key="MissingLibraryDependencies">Library dependencies not found.</entry-->
+      <entry key="UserLibExceptionWithMessage"  >User Library threw {0} with message:''{1}''.</entry>
+      <entry key="UserLibExceptionWithNoMessage">User Library threw {0}.</entry>
+      <entry key="Filename"                     >File name must be specified.</entry>
+      <entry key="FileNotFound"                 >Unable to open ''{0}''.</entry>
+      <entry key="MultiHeadersPackageName"      >Unable to determine package name because multiple files for generating interface are specified. Use the ''PackageName'' option to specify a valid package name.</entry>
+      <entry key="InferredInvalidPackageName"   >Inferred PackageName ''{0}'' is invalid. Use the ''PackageName'' option to specify a valid package name.</entry>
+      <entry key="InvalidInputType"             >''{0}'' must be a character vector, 1xN string array or 1xN cellstr of character vector.</entry>
+      <entry key="InvalidPackageName" translate="false" note="translate=false set due no translatable content"></entry>
+      <entry key="DefinitionFilesExist"         >Definition files ''{0}'' and ''{1}'' exist in folder ''{2}'' and must be deleted or renamed before generating new definition files.\n\nTo delete the existing files, call clibgen.generateLibraryDefinition again with the ''OverwriteExistingDefinitionFiles'' name value option.</entry>
+      <entry key="DefinitionFileExists"         >''{0}'' exists and must be deleted or renamed before generating new definition files.\n\nTo delete the existing file, call clibgen.generateLibraryDefinition again with the ''OverwriteExistingDefinitionFiles'' name value option.</entry>
+      <entry key="DefinitionFileReadOnly"       >''{0}'' is read-only and must be manually deleted or renamed before generating new definition files.</entry>
+      <entry key="FileExistsWithPackageName"    >''{0}'' exists. A subfolder with package name cannot be created during build. Specify a different OutputFolder or PackageName.</entry>
+      <!-- <entry key="InterfaceFileExist"           >''{0}'' exists. Rename or delete the file before building a new interface file.</entry> -->
+      <entry key="InvalidObject"                >Attempting to access the property or method of an invalid object.</entry>
+      <entry key="InvalidOutputFolder"          >OutputFolder must be a valid directory path to a new or existing folder.</entry>
+      <entry key="AccessDenied"                 >Access denied; check that you have permission to access ''{0}''.</entry>
+      <entry key="PathNotFound"                 >{0} does not exist.</entry>
+      <entry key="CompilerUsed"                 >C++ compiler set to ''{0}''.</entry>
+      <entry key="FilesGenerated_link"          >Definition file &lt;a href="matlab: open(''{0}'')"&gt;{1}&lt;/a&gt; contains definitions for {2} constructs supported by MATLAB.</entry>
+      <entry key="FilesGenerated"               >Definition file ''{0}'' contains definitions for {1} constructs supported by MATLAB.</entry>
+      <entry key="ConstructsDefined"            >- {0} construct(s) are fully defined.</entry>
+      <entry key="ConstructsNeedDefinition_link">- {0} construct(s) partially defined and commented out.\n\nTo include the {3} undefined construct(s) in the interface, uncomment and complete the definitions in &lt;a href="matlab: open(''{1}'')"&gt;{2}&lt;/a&gt;.</entry>
+      <entry key="ConstructsNeedDefinition"     >- {0} construct(s) partially defined and commented out.\n\nTo include the {2} undefined construct(s) in the interface, uncomment and complete the definitions in ''{1}''.</entry>
+      <entry key="BuildCmd"                     >To build the interface, call build({0}).</entry>
+      <entry key="GenerationError"              >Error generating {0} file: {1}.</entry>
+      <entry key="BuildStarted"                 >Building interface file ''{0}'' for clib package ''{1}''.</entry>
+      <entry key="BuildCmdSuccess_link" translate="false">&lt;a href="matlab: matlab.internal.language.commandline.executeCode(''addpath(''''{0}'''')'')"&gt;addpath(''{0}'')&lt;/a&gt;</entry>
+      <entry key="BuildCmdSuccess"              >Interface file ''{0}'' built in folder ''{1}''.\n\nTo use the library, add the interface file folder to the MATLAB path.</entry>
+      <entry key="BuildCmdFailure"              >Build failed with error:\n''{0}''.</entry>
+      <entry key="ArgValidationFail"            >''{0}'' is not a recognized parameter. For a list of valid arguments, see the documentation for buildInterface.</entry>
+      <entry key="LostConnection"               >Library is not available.</entry>
+      <entry key="InitializeClass"              >Unable to initialize class ''{0}''.</entry>
+      <entry key="InvalidInterface"             >Interface file ''{0}'' not valid.</entry>
+      <entry key="CannotReadInterface"          >Unable to read interface file ''{0}''.</entry>
+      <entry key="UnsupportedType"              >&#160;&#160;{1}''{0}'' is not a supported type.\n</entry>
+      <entry key="UnsupportedTemplateType_link" >&#160;&#160;{4}Instantiation ''{0}'' for template class at &lt;a href="matlab: matlab.desktop.editor.openAndGoToLine(''{3}'',{2});"&gt;{1}:{2}&lt;/a&gt; not provided.\n</entry>
+      <entry key="UnsupportedTemplateType"      >&#160;&#160;{3}Instantiation ''{0}'' for template class at {1}:{2} not provided.\n</entry>
+      <entry key="EnumerationDoesnotExist"      >Invalid enumeration value.</entry>
+      <entry key="RestrictedAccess"             >Cannot access method ''{0}'' in class ''{1}''.</entry>
+      <entry key="ShadowFunction"               >{0} ''{1}'' shadows {2} ''{3}''.\n</entry>
+      <entry key="IncorrectExtension"           >Valid data file extension is .xml.</entry>
+      <entry key="ClassNotFound"                >''{0}'' class not found in ''{1}'' library.</entry>
+      <entry key="FunctionNotFound"             >''{0}'' function not found in ''{1}'' library.</entry>
+      <entry key="MethodNotFound"               >''{0}'' method not found in ''{1}'' class.</entry>
+      <entry key="ClassExists"                  >''{0}'' class exists. Class must be unique.</entry>
+      <entry key="FunctionExists"               >''{0}'' function exists. Function must be unique.</entry>
+      <entry key="PropertyExists"               >''{0}'' property exists. Property must be unique.</entry>
+      <entry key="InvalidName"                  >Invalid type specified for name. Type must be a character vector or a non-missing string.</entry>
+      <entry key="NameConflict"                 >MATLABName ''{0}'' exists in {1} library. Name must be unique.</entry>
+      <entry key="MissingClass"                 >Invalid function ''{0}''. Class {1} does not exist.</entry>
+      <entry key="InvalidLibrary"               >Invalid library ''{0}''.</entry>
+      <entry key="InvalidNewMATLABName"         >Invalid MATLAB name ''{0}''. You can only modify ''{1}'' in ''{2}''.</entry>
+      <entry key="InvalidRunningMode"           >Invalid value specified for the running mode. Allowed values are "true" or "false".</entry> 
+      <entry key="InvalidArgumentDirection"     >The direction of the argument is invalid. It can only be "input", "output" or "inputoutput".</entry>
+      <entry key="InvalidArgumentShape"         >The specified shape is invalid. It can only be a non-empty string, numeric values or a cell array of string and numeric values.</entry>
+      <entry key="PropertyDoesNotExist"         > The property ''{0}'' that is being added does not exist in the class.</entry>
+      <entry key="InvalidPropertyType"          >The MATLABType of the property ''{0}'' is incorrect. The expected property type is ''{1}''.</entry>
+      <entry key="InvalidPropertyTypeMultiple"  >The MATLABType of the property ''{0}'' is incorrect. The expected property type is one of the following: ''{1}''.</entry>
+      <entry key="EmptyClassMlName"             >MATLABName of a class cannot be empty.</entry>
+      <entry key="RenamingNotSupported"         >Renaming ''{0}'' not supported because it has nested classes or enums.</entry>
+      <entry key="EmptyMlName"                  >MATLABName of a ''{0}'' cannot be empty.</entry>
+      <entry key="InvalidArgumentType"          >Invalid MATLABType specified for argument ''{0}''. The expected type is ''{1}''.</entry>
+      <entry key="InvalidArgumentTypeMultiple"  >Invalid MATLABType specified for argument ''{0}''. The expected type is one of the following: "{1}".</entry>
+      <entry key="OutputAbsent"                 >Function ''{0}'' does not have a return type.</entry>
+      <entry key="ArgumentNotFound"             >Argument ''{0}'' not found in function ''{1}''.</entry>
+      <entry key="UndefinedArgument"            >Argument ''{0}'' is not fully defined.</entry>
+      <entry key="UndefinedOutput"              >Output is not fully defined.</entry>
+      <entry key="SelfShapeArgument"            >Shape of a pointer parameter cannot be the parameter itself.</entry>
+      <entry key="InvalidArgumentShapeQuotedNumeric">Invalid shape ''{0}''. Remove quotes when setting shape to an integer value.</entry>
+      <entry key="InvalidArgumentShapeArgNotFound">Invalid shape ''{0}''. Shape value ''{0}'' is not found. Set shape to an array of one or more argument names or fixed values of integer type representing the dimensions of ''{1}''.</entry>
+      <entry key="InvalidArgumentNameShape"     >Invalid shape ''{0}''. Shape value ''{0}'' is not an integer type. Set shape to an array of one or more argument names or fixed values of integer type representing the dimensions of ''{1}''.</entry>
+      <entry key="InvalidAdditionalArgument"    >Additional shape value cannot be specified with the value ''{0}''.</entry>
+      <entry key="InvalidShapeString"           >Shape ''{0}'' can only be used for C-style strings.</entry>
+      <entry key="InvalidNumericShapeValue"     >Integer value specified for shape must be a positive value greater than zero.</entry>
+      <entry key="InvalidShapeForRefAndValue"   >Invalid shape specified for value or reference type. Shape must be 1.</entry>
+      <entry key="UnspecifiedShape"             >Shape must be specified for pointer types.</entry>
+      <entry key="InvalidDirectionValue"        >Invalid direction specified for argument ''{0}''. Expected direction is ''{1}''.</entry>
+      <entry key="DirectionAbsent"              >Direction must be specified for argument ''{0}''.</entry>
+      <entry key="ShapeAbsent"                  >Shape must be specified for ''{0}''.</entry>
+      <entry key="InvalidMethodCall"            >Member function ''{0}'' is a constructor. To add it, use "addConstructor" function.</entry>
+      <entry key="InvalidConstructorCall"       >Member function ''{0}'' is not a constructor. To add it, use "addMethod" function.</entry>
+      <entry key="NoReturnType"                 >Function ''{0}'' does not have a return type.</entry>
+      <entry key="ReturnTypeNameMismatch"       >Return type name must be ''{0}''.</entry>
+      <entry key="InvalidOutputType"            >Invalid MATLAB type specified for the return value of the function ''{0}''. Expected type is ''{1}''.</entry>
+      <entry key="InvalidOutputTypeMultiple"    >Invalid MATLAB type specified for the return value of the function ''{0}''. Expected type is one of the following: ''{1}''.</entry>
+      <entry key="NonconstArrayReturn"          >Nonconst array not supported. Shape must be 1.</entry>
+      <entry key="PropertyTypeAbsent"           >Type ''{0}'' of property ''{1}'' not in library.</entry>
+      <entry key="AmbiguousConversion"          >Access to base class is ambiguous.</entry>
+      <entry key="AccessViolation"              >Access to private/protected base class is prohibited.</entry>
+      <entry key="InvalidLinuxLibName"          >Library name must be prefixed with lib.</entry>
+      <entry key="EnumExists"                   >Enumeration ''{0}'' exists. Enumeration must be unique.</entry>
+      <entry key="InvalidEnumMlName"            >Invalid MATLAB name ''{0}''. You can only modify ''{1}'' in ''{2}''.</entry>
+      <entry key="EnumNotFound"                 >Enumeration ''{0}'' not found.</entry>
+      <entry key="InvalidEnumEntry"             >Entry ''{0}'' not in enumeration ''{1}''.</entry>
+      <entry key="InvalidEnumEntryType"         >Enum entries must be non-empty and non-missing strings.</entry>
+      <entry key="InvalidEnumEntryCount"        >Invalid number of entries specified in enumeration ''{0}''. Expected ''{1}'' entries.</entry>
+      <entry key="InvalidEnumMlType"            >Invalid MATLAB type specified for enumeration. Expected type is ''{0}''.</entry>
+      <entry key="InvalidArrayShapeNum"         >Invalid number of dimensions specified for shape of the array ''{0}''.</entry>
+      <entry key="InvalidArrayShapeValue"       >Invalid value specified for shape of array at index ''{0}''. Expected value is ''{1}''.</entry>
+      <entry key="InvalidCPPNameForMATLAB_link" >&#160;&#160;C++ name ''{1}'' at  &lt;a href="matlab: matlab.desktop.editor.openAndGoToLine(''{4}'',{3});"&gt;{2}:{3}&lt;/a&gt; is an invalid MATLAB name. Rename the {0} in the C++ library.\n</entry>
+      <entry key="InvalidCPPNameForMATLAB"      >&#160;&#160;C++ name ''{1}'' at {2}:{3} is an invalid MATLAB name. Rename the {0} in the C++ library.\n</entry>
+      <entry key="Class"                        >class</entry>
+      <entry key="Namespace"                    >namespace</entry>
+      <entry key="Function"                     >function</entry>
+      <entry key="Constructor"                  >constructor</entry>
+      <entry key="MemberFunction"               >member function</entry>
+      <entry key="Enum"                         >enum</entry>
+      <entry key="SuperClass"                   >superclass</entry>
+      <entry key="DataMember"                   >data member</entry>
+      <entry key="ParameterType"                >parameter type</entry>
+      <entry key="ReturnType"                   >return type</entry>
+      <entry key="DataMemberType"               >data member type</entry>
+      <entry key="AddFailed_link"               >Did not add ''{0}'' at &lt;a href="matlab: matlab.desktop.editor.openAndGoToLine(''{3}'',str2num(''{2}''));"&gt;{1}:{2}&lt;/a&gt;.</entry>
+      <entry key="AddFailed"                    >Did not add ''{0}'' at {1}:{2}.</entry>
+      <entry key="AddMemberFailed_link"         >Did not add member ''{0}'' to class ''{1}'' at &lt;a href="matlab: matlab.desktop.editor.openAndGoToLine(''{4}'',str2num(''{3}''));"&gt;{2}:{3}&lt;/a&gt;.</entry>
+      <entry key="AddMemberFailed"              >Did not add member ''{0}'' to class ''{1}'' at {2}:{3}.</entry>
+      <entry key="AddConstructorFailed_link"    >Did not add constructor to class ''{0}'' at &lt;a href="matlab: matlab.desktop.editor.openAndGoToLine(''{3}'',str2num(''{2}''));"&gt;{1}:{2}&lt;/a&gt;.</entry>   
+      <entry key="AddConstructorFailed"         >Did not add constructor to class ''{0}'' at {1}:{2}.</entry>
+      <entry key="ClassCreationFailed"          >Failed to create object of class ''{0}''</entry>
+      <entry key="WarningsFromHeader_link"      >Some C++ language constructs in the files for generating interface file are &lt;a href="matlab: helpview(strcat(docroot, '/matlab/matlab_external/matlab_external.map'),''cpp_interface_limitations'')"&gt;not supported&lt;/a&gt; and not imported.\n{0}</entry>
+      <entry key="WarningsFromHeader"           >Some C++ language constructs in the files for generating interface are not supported and not imported.\n{0}</entry>
+      <entry key="UndefinedTemplateType_link"   >&#160;&#160;template {0} at &lt;a href="matlab: matlab.desktop.editor.openAndGoToLine(''{3}'',{2});"&gt;{1}:{2}&lt;/a&gt; does not have a definition. See &lt;a href="matlab: helpview(strcat(docroot, '/matlab/matlab_external/matlab_external.map'),''cpp_interface_troubleshooting'')"&gt;troubleshooting&lt;/a&gt; for more information.\n</entry>
+      <entry key="UndefinedTemplateType"        >&#160;&#160;template {0} at {1}:{2} does not have a definition. See troubleshooting for more information.\n</entry>
+      <entry key="NullptrToNonPointer"          >C++ type ''{0}'' is incompatible with nullptr.</entry>  
+      <entry key="InvalidStringValue"           >Value must be string or char vector.</entry>
+      <entry key="InvalidOptionForSummary"      >Invalid option for summary, value must be "mapping".</entry>
+      <entry key="CppCharOutOfRange"            >Only ASCII characters can be converted from MATLAB char to C++ char as a scalar or an array.</entry>
+      <entry key="UnsupportedDataMember"        >&#160;&#160;''{0}'' is a std::vector and reference is not supported.\n</entry>
+      <entry key="InvalidShapeParamAfterVal"    >Shape is invalid. Specify shape argument names before numeric values.</entry>
+      <entry key="ArraySizeMismatch"            >Arrays defined to have the same size have different sizes.</entry>
+      <entry key="InvalidBoxedArrayShapeParam"  >For each boxed element [], shape defined by a function argument must be 1 element.</entry>
+      <entry key="InvalidCStringShape"          >Shape for C-style strings must be ''nullTerminated''.</entry>
+      <entry key="CPPObjectRequired"            >Input must be a C++ class object.</entry>
+      <entry key="NoSizeOfBoxedArrayDimension"  >&#160;&#160;Size of first dimension must be fixed size for parameter ''{0}'' in C++ function declaration.</entry>
+      <entry key="OutOfAccessScope_link"        >&#160;&#160;Type ''{0}'' at  &lt;a href="matlab: matlab.desktop.editor.openAndGoToLine(''{3}'',{2});"&gt;{1}:{2}&lt;/a&gt; is not accessible because it is private or protected.\n</entry>
+      <entry key="OutOfAccessScope"             >&#160;&#160;Type ''{0}'' at {1}:{2} is not accessible because it is private or protected.\n</entry>
+      <entry key="UnsupportedCompiler"          >''{0}'' is not supported.</entry>
+      <entry key="MLSignatureOverload"          >MATLAB signature of {0} with CPP signature ''{1}'' is shadowed by  MATLAB signature of {0} with CPP signature ''{2}''. Redefine parameters or remove one of them from definition file.\n</entry>
+      <entry key="UseVerboseMode"               >Use the ''Verbose'' option to see the warnings generated while parsing the files for generating interface.</entry>
+      <entry key="ConsiderGenerateAndBuild"     >{0} construct(s) need(s) further definition to be included in the interface. Use clibgen.generateLibraryDefinition to provide definitions.</entry>
+      <entry key="OperatorsNotSupported"        >{0} is not supported for class {1}.</entry>
+      <entry key="StdNamespaceNotSupported"     >&#160;&#160;{1}Type ''{0}'' is from std namespace or system header and is not supported.\n</entry>
+      <entry key="NoArraySupportForType"        >Array of type {0} is not supported. Only '1' is allowed for shape.</entry>
+      <entry key="CompilerError"                >{0}({1}):\nerror: {2}\n</entry>
+      <entry key="CompilerWarning"              >{0}({1}):\nwarning: {2}\n</entry>
+      <entry key="FunctionNotSupported"         >Function or method {0} is not supported.</entry>
+      <entry key="InvalidSuperClass_link"       >Superclass ''{0}'' at  &lt;a href="matlab: matlab.desktop.editor.openAndGoToLine(''{3}'',{2});"&gt;{1}:{2}&lt;/a&gt; is undefined, defined in an unsupported namespace or has an invalid superclass.\n</entry>
+      <entry key="InvalidSuperClass"            >Superclass ''{0}'' at {1}:{2} is undefined, defined in an unsupported namespace or has an invalid superclass.\n</entry>
+      <entry key="NoSourceFound"                >&#160;&#160;C++ Source information for type ''{0}'' is not available.\n</entry>
+      <entry key="UnnamedScope_link"            >&#160;&#160;C++ symbol ''{0}'' at  &lt;a href="matlab: matlab.desktop.editor.openAndGoToLine(''{3}'',{2});"&gt;{1}:{2}&lt;/a&gt; is in an unnamed namespace or class.\n</entry>
+      <entry key="UnnamedScope"                 >&#160;&#160;C++ symbol ''{0}'' at {1}:{2} is in an unnamed namespace or class.\n</entry>
+      <entry key="UndefinedValueType_link"      >&#160;&#160;{4}{0} at &lt;a href="matlab: matlab.desktop.editor.openAndGoToLine(''{3}'',{2});"&gt;{1}:{2}&lt;/a&gt; cannot be used as parameter/return value type or vector/array element type because it does not have a definition. See &lt;a href="matlab: helpview(strcat(docroot, '/matlab/matlab_external/matlab_external.map'),''cpp_interface_troubleshooting'')"&gt;troubleshooting&lt;/a&gt; for more information.\n</entry>
+      <entry key="UndefinedValueType"           >&#160;&#160;{3}{0} at {1}:{2} cannot be used as parameter/return value type or vector/array element type because it does not have a definition. See troubleshooting for more information.\n</entry>
+      <entry key="ReadOnly"                     >read-only</entry>
+      <entry key="Nullptr"     translate="false">null</entry>
+      <entry key="ReadOnlyHeaderWithProperties" >&#160;&#160;read-only {0} with properties:\n</entry>
+      <entry key="ReadOnlyHeaderNoProperties"   >&#160;&#160;read-only {0} with no properties.\n</entry>
+      <entry key="NullHeader"                   >&#160;&#160;null {0}\n\n</entry>
+      <entry key="ReadOnlyNullHeader"           >&#160;&#160;read-only null {0}\n\n</entry>
+      <entry key="SetPropertyOfReadOnlyClass"   >Setting the property ''{0}'' of read-only object ''{1}'' not supported.</entry>
+      <entry key="NonconstCallToReadOnlyClass"  >Calling nonconst method ''{0}'' of read-only object ''{1}'' not supported.</entry>
+      <entry key="PassingReadOnlyNonconstInput" >Passing read-only object ''{1}'' to nonconst input parameter ''{0}'' not supported.</entry>
+      <entry key="CallMethodOnNullObject"       >Calling method ''{0}'' of null object ''{1}'' not supported.</entry>
+      <entry key="PassNullObjToNonPointerArg"   >Passing null object ''{1}'' by value or reference to parameter ''{0}'' not supported.</entry>
+      <entry key="AccessPropertyOnNullObject"   >Accessing the property ''{0}'' of null object ''{1}'' not supported.</entry>
+      <entry key="NonScalarDimsNotSupported"    >Each dimension in shape must be a scalar.</entry>
+      <entry key="SpaceInMacro"                 >Space in name or value of macro ''{0}'' not allowed.</entry>
+      <entry key="LeadingNumberInMacro"         >Leading number in macro name ''{0}'' not allowed.</entry>
+      <entry key="InvalidCharacterInMacro"      >Invalid character ''{0}'' in macro name ''{1}''. Macro names must be combinations of 'a-z','A-Z','1-9', and '_'.</entry>
+      <entry key="UndefineAssignmentNotAllowed" >Assignment of undefined macro ''{0}'' not allowed.</entry>
+      <entry key="TypedefToType"                >''{0}'' is an alias of type ''{1}''.&#160;</entry>
+      <entry key="UnsupportedSharedPtrElementType">&#160;&#160;''{0}'' is not supported for element type of std::shared_ptr.\n</entry>
+      <entry key="PassUnOwnedObjToSharedPtr"    >Unable to call ''{0}'' because of the way input {1} of type {2} is created. For more information see this &lt;a href="matlab: helpview(strcat(docroot, '/matlab/matlab_external/matlab_external.map'),''cpp_interface_limitations'')"&gt;topic&lt;/a&gt;.</entry>
+      <entry key="CannotReleaseValue"           >Input ''{0}'' is a value type. Only pointers and references to a class type can be released.</entry>
+      <entry key="CannotSpecifyDeleteFcn"       >Specify DeleteFcn only for a pointer or reference to a class type.</entry>
+      <entry key="CannotDeleteConst"            >DeleteFcn for const output not supported.</entry>
+      <entry key="DeleteFcnNotFound"            >DeleteFcn ''{0}'' specified for output of function ''{1}'' not found in the library. Specify a function from the definition file.</entry>
+      <entry key="InvalidDeleteFcn"             >Function ''{0}'' is not a valid DeleteFcn. DeleteFcn must take a single input of pointer or reference of type ''{1}'' and return no outputs.</entry>
+      <entry key="IncorrectInputs"             >Incorrect number of inputs specified for {0}.</entry>
+      <entry key="InvalidHandle"                >Invalid or deleted object.</entry>
+      <entry key="UnsupportedVectorType"        >&#160;&#160;''{0}'' is not supported for element type of vector.\n</entry>
+      <entry key="InvalidShapeForVector"        >Invalid shape specified for vector. Shape must be 1.</entry>
+      <entry key="ElementTypeNameRequired"      >The first argument must be a fully qualified clib array element type name, which follows the format of ''{0}'', where ''{1}'' is your library name and ''{2}'' is the element type of your array.</entry>
+      <entry key="ElementTypeLibraryUnknown"    >Invalid typename ''{0}''. Library interface ''{1}'' does not exist or is not loaded.</entry>
+      <entry key="InvalidDimension"             >The dimensions must be a vector of positive integers.</entry>
+      <entry key="UnconstructibleArray"         >Array object for ''{0}'' is not supported.</entry>
+      <entry key="MustBeFundamental"            >Only numerical and logical arrays can be converted.</entry>
+      <entry key="InvalidIndexing"              >The indexing must be a single pair of parentheses.</entry>
+      <entry key="IndexDimSizeMismatch"         >The number of indices must be {0,number,integer}.</entry>
+      <entry key="IndexOutOfRange"              >Index in position {0,number,integer} must be a number between 1 and {1,number,integer}.</entry>
+      <entry key="IndexingEmptyArray"           >Array is empty.</entry>
+      <entry key="SetElemOfReadOnlyArray"       >Assigning a value to a read-only array is not allowed.</entry>
+      <entry key="ResizeNonResizableArray"      >Array is not resizable. Appending or removing an element is not allowed.</entry>
+      <entry key="RemoveLastFromEmpty"          >Removing an element from an empty array not allowed.</entry>
+      <entry key="NoMemberForFundamental"       >Fundamental type does not have methods or properties.</entry>
+      <entry key="InvalidCPPMember"             >Invalid method or member.</entry>
+      <entry key="NoAssignOperatorElement"      >Assignment of C++ object without assignment operator is not allowed.</entry>
+      <entry key="AppendNoDefCtorElement"       >Append value required for a class without a default constructor.</entry>
+      <entry key="InvalidPropertyShapeScalar"   >Invalid shape specified for property ''{0}''. Shape must be 1.</entry>
+      <entry key="InvalidShapePropAfterVal"     >Shape is invalid. Specify shape property names before numeric values.</entry>
+      <entry key="PropertyShapeAbsent"          >Specify shape for property ''{0}''.</entry>
+      <entry key="ResizableArrayHeader"         >&#160;&#160;{0} with properties:\n</entry>
+      <entry key="NullArrayHeader"              >&#160;&#160;null {0}\n</entry>
+      <entry key="ReadOnlyNullArrayHeader"      >&#160;&#160;read-only null {0}\n</entry>
+      <entry key="IncompatibleDefinition"       >Invalid or incompatible definition, possibly created in a newer version of MATLAB. Regenerate the definition for the current version using clibgen.generateLibraryDefinition.</entry>
+      <entry key="InvalidElementType"           >Invalid typename ''{0}''. Library interface ''{1}'' does not contain any instances of type ''{2}''.</entry>
+      <entry key="InvalidElementTypeIsLower"    >Invalid typename ''{0}''. The first letter of type ''{1}'' must be capitalized.</entry>
+      <entry key="InvalidConversionType"        >Converting ''{1}'' to ''{0}'' not supported.</entry>
+      <entry key="EnablingBigobjFlag"           >Interface file too big. Rebuilding with /bigobj flag.</entry>
+      <entry key="MultipleDefinitionError"      >Symbols already defined. Remove the ''Libraries'' or ''SupportingSourceFiles'' option file that contains the duplicate definition.</entry>
+      <entry key="IncorrectSourceExtension"     >Valid file extensions are .cpp and .cxx.</entry>
+      <entry key="IncorrectFileExtension"       >Invalid interface generation file ''{0}''. Valid file extensions are .h, .hpp, .hxx, or .cpp, .cxx.</entry>
+	  <entry key="DuplicateSourceFiles"         >Duplicate source files. Remove duplicate copy of {0} from either interface generation files or the ''SupportingSourceFiles'' option.</entry>
+      <entry key="ReservedNameError"            >&#160;&#160;''{0}'' defined in interface generation file not supported. Remove the definition from the file.</entry>
+      <entry key="InvalidShapePropNumericString">Invalid shape. Use a string array to specify property names only. Use a cell array to specify both names and fixed values.</entry>
+      <entry key="InvalidShapeParamNumericString">Invalid shape. Use a string array to specify parameter names only. Use a cell array to specify both names and fixed values.</entry>
+      <entry key="IncompatibleVersion"          >&#160;&#160;''{0}'' not supported with interface libraries built with ''{1}''. Use with interface libraries built with ''{2}'' or later.</entry>
+	  <entry key="InvalidHeaderFiles"           >Invalid interface generation file ''{0}''.</entry>
+	  <entry key="InvalidHeaderInputType"       >Interface generation file must be a character vector, 1xN string array or 1xN cellstr of character vector.</entry>
+	  <entry key="DuplicateHeaderEntry"         >Duplicate files. Remove duplicate reference to {0} from interface generation files.</entry>
+	  <entry key="DuplicateSourceEntry"         >Remove duplicate copy of {0} from ''SupportingSourceFiles'' option.</entry>
+	  <entry key="EmptyHeaderFiles"             >No interface generation files specified. </entry>
+      <entry key="MissingHeaderGuard"           >One or more interface generation files ''{0}'' included without header guards. Consider using #ifdef guards or #pragma.</entry>
+      <entry key="InvalidArgumentTypeStringForVoid">Invalid MATLABType specified for argument ''{0}''. 'string' type is not allowed as MATLABType for void* input. Expected type is 'int8', 'char', or ''{1}''. Use 'int8' or ''{1}'' for 8-bit character arrays or 'char' for wide-character arrays.</entry>
+      <entry key="InvalidArgumentTypeEnumForVoid"  >Invalid function ''{0}''. Enumeration ''{1}'' is not allowed as MATLABType for void* input.</entry>
+      <entry key="UnsupportedLoad"              >Unable to load C++ object. Saving (serializing) C++ objects into a MAT-file is not supported.</entry>
+      <entry key="AutoConversionNotAllowed"     >Unable to resolve overloads. Auto conversion from MATLAB array to clib.array is not allowed for coder service.</entry>
+      <entry key="RequiresDimensionSizeInfo"    >Unable to resolve overloads. Requires complete dimension information to resolve multiple potential methods.</entry>
+      <entry key="InvalidDimensionForString"    >The number of dimensions must be 1 for C++ string array.</entry>
+      <entry key="InvalidDirectionForConstructor">Direction ''{0}'' not allowed for primitive pointer/array inputs in constructor. Specify direction as 'input' or specify ''{1}'' as MATLABType with direction as 'input'.</entry>
+      <entry key="InvalidDirectionForVoidPtrInputInCtor">Direction ''{0}'' not allowed for primitive MATLABType inputs for void* input in constructor. Specify direction as 'input'.</entry>
+      <entry key="UnsupportedLibraryForCompiler">Generating library from a DLL file is supported only for Microsoft Visual Studio compiler. Specify LIB file, or use the 'mex -setup c++' command to select Microsoft Visual Studio C++ compiler.</entry>
+      <entry key="CreatingLibFromDLL"           >Rebuilding the interface file with generated library from ''{0}''.</entry>
+      <entry key="InvalidDLLFile"               >DLL ''{0}'' is invalid because symbols were not exported from header file.</entry>
+      <entry key="CStringArrayLastDimension"    >The last dimension of array of C-style string must be "nullTerminated".</entry>
+      <entry key="CStringArrayDimensions"       >The number of dimensions of array of C-style string must be 1.</entry>
+      <entry key="InterfaceLibraryNotFound"     >Unable to locate interface package ''clib.{0}''. Check if the location of ''{1}'' is on the MATLAB path.</entry>
+      <entry key="InterfaceLibraryNotLoaded"    >Unable to load interface library: ''{0}''. Reason: The specified module could not be found. \nEnsure the C++ dependent libraries for the interface library are added to run-time path.</entry>
+      <entry key="InterfaceLibraryIncompatible">Invalid or incompatible interface library, possibly created in a newer version of MATLAB. Rebuild the interface library for the current version.</entry>
+      <entry key="OpaqueTypeNotFound"           >''{0}'' OpaqueType not found in ''{1}'' library.</entry>
+      <entry key="OpaqueTypeExists"             >''{0}'' OpaqueType exists. OpaqueType must be unique.</entry>
+      <entry key="MissingOpaqueType"            >Invalid function ''{0}''. OpaqueType {1} does not exist.</entry>
+      <entry key="InvalidMATLABTypeForNonVoidPtrArgument"> Invalid MATLABType for argument ''{0}''. Use a string scalar or character vector to specify MATLABType.</entry>
+      <entry key="DuplicateMATLABTypeForVoidPtrArgument">Duplicate MATLABType for void* input. Remove duplicate MATLABTypes for argument ''{0}'' .</entry>
+      <entry key="NameConflictsForOpaqueTypeReturn"   >Invalid MATLAB type specified for the return value of the function ''{0}''. Expected type is one of the following: an existing typedef name for void* or a new typedef name for void*.</entry>
+      <entry key="OpaqueTypeHeader"      		>&#160;&#160;{0} is an &lt;a href="matlab: helpview(strcat(docroot, '/matlab/helptargets.map'), ''opaque_objects'')"&gt;opaque&lt;/a&gt; object.\n</entry>
+      <entry key="InvalidArgumentTypeMultipleForVoidPtr"  >Invalid function ''{0}''. Invalid MATLABType specified for argument ''{1}''. Expected type is one of the following: {2}.</entry>
+      <entry key="ErrorMessageVoidPtrInputWithoutTypedef" note="Use for {1}/{2} in Expected type is one of the following: {1} in InvalidMLTypeForVoidPtrArgument, {2} in InvalidArgumentTypeMultipleForVoidPtr"  >primitive type, user-defined type, clib.array type, or a list of existing typedef names for void*</entry>
+      <entry key="ErrorMessageVoidPtrInputTypedef" note="Use for {1}/{2} in Expected type is one of the following: {1} in InvalidMLTypeForVoidPtrArgument, {2} in InvalidArgumentTypeMultipleForVoidPtr"  >primitive type, user-defined type, or clib.array type</entry>
+      <entry key="FunctionTypeNotFound"         >Function Type ''{0}'' not found.</entry>
+      <entry key="InvalidInputForFcnType"       >Unable to call ''{0}''. ''{1}'' is not a valid function for the function type input. To determine a valid function, &lt;a href="matlab: matlab.internal.language.commandline.executeCode(''help(''''{2}'''')'')"&gt;help {2}&lt;/a&gt;.</entry>
+      <entry key="OverloadInputNotAllowedForStdFunction">Unable to call ''{0}''. ''{1}'' is an overload function and not allowed for the function type input which is std::function. To determine a valid function, &lt;a href="matlab: matlab.internal.language.commandline.executeCode(''help(''''{2}'''')'')"&gt;help {2}&lt;/a&gt;.</entry>
+      <entry key="FcnTypeUsageInFcnType"        >&#160;&#160;{1}''{0}'' used in another function type is not supported.\n</entry>
+      <entry key="FcnTypeUsageInMemberOrReturnType">&#160;&#160;{1}''{0}'' as data member or return type not supported.\n</entry>
+      <entry key="UnsupportedTemplateArgKind"   >&#160;&#160;Instantiated template ''{0}'' is unsupported because there is a template template parameter at position ''{1}''.</entry>
+      <entry key="NewNameAlreadyExists"         >Specified ''{0}'' value ''{1}'' is already used as ''{2}''. The values for ''{0}'' and ''{2}'' must be unique.</entry>
+      <entry key="InaccessibleTemplateArgType_link" >&#160;&#160;{4}Instantiation ''{0}'' for template type at &lt;a href="matlab: matlab.desktop.editor.openAndGoToLine(''{3}'',{2});"&gt;{1}:{2}&lt;/a&gt; with template argument as private or protected type not supported.\n</entry>
+      <entry key="InaccessibleTemplateArgType"  >&#160;&#160;{3}Instantiation ''{0}'' for template type at {1}:{2} with template argument as private or protected type not supported.\n</entry>
+      <entry key="InvalidDLLFileNot64Bit"       >''{0}'' is invalid because MATLAB only supports 64-bit libraries.</entry>
+      <entry key="InvalidMLTypeForVoidPtrArgument"  >Invalid MATLABType specified for argument ''{0}''. Expected type is one of the following: {1}.</entry>
+      <entry key="InvalidOutputTypeForVoidPtr"    >Invalid MATLAB type specified for the return value of the function ''{0}''. Expected type is one of the following: an existing typedef name for void* or a new typedef name to void*.</entry>
+      <entry key="ErrorMessageVoidPtrInputTypedefIncludeTypedef" note="Use for {1}/{2} in Expected type is one of the following: {1} in InvalidMLTypeForVoidPtrArgument, {2} in InvalidArgumentTypeMultipleForVoidPtr"  >{0}, primitive type, user-defined type, or clib.array type</entry>
+      <entry key="UndefinedForCoderService"     >Undefined behavior for coder service.</entry>
+      <entry key="RebuildErrorBuildInterface"   >Package ''{0}'' is already loaded in MATLAB. Restart MATLAB to rebuild ''{1}''. Or use the "PackageName" option to create an interface with a new name.   </entry>
+      <entry key="RebuildErrorDefineAndBuild"   >Package ''{0}'' is already loaded in MATLAB. Restart MATLAB to rebuild ''{1}''.</entry>
+      <entry key="CannotSpecifyAddTrailingDimensions"  >Specify AddTrailingSingletons only for pointer or array of MATLAB types. </entry>
+      <entry key="ErrMsgVoidPtrOutputWithoutTypedef"  note="Use for {1} in Expected type is one of the following: {1} in InvalidMLTypeForVoidPtrArgument" >an existing typedef name for void* or a new typedef name for void*</entry>
+      <entry key="NameConflictsForOpaqueTypeArgument"   >Invalid MATLABType specified for function ''{0}'' argument ''{1}''. Expected type is one of the following: an existing typedef name for void* or a new typedef name for void*.</entry>
+      <entry key="CannotSpecifyDeleteFcnForArgument"    >Specify DeleteFcn only for a double pointer argument to a class type.</entry>
+      <entry key="UnresolvedMethodOverload"     >No method ''{0}'' with matching signature found.\n\n&lt;a href="matlab:matlab.internal.language.commandline.executeCode(''help(''''{0}'''')'')"&gt;help {0}&lt;/a&gt;</entry>
+      <entry key="ReportDeletedFile"            >Deleted file ''{0}''.</entry>      
+      <entry key="BufferSizeNotAllowed"         >"NumElementsInBuffer" is only valid when MLTYPE is "string" and DIRECTION is "output".</entry>
+      <entry key="InvalidBufferSize"            >Value of "NumElementsInBuffer" must be a positive integer value or a function argument with integer type.</entry>
+      <entry key="BufferSizeAbsent"             >"NumElementsInBuffer" must be specified for argument ''{0}'' because it returns a value of string type.</entry>
+      <entry key="InvalidArrayBufferSizeValue"  >Invalid value specified for "NumElementsInBuffer". Expected value is ''{0}''.</entry>
+      <entry key="InvalidArgumentNameBufferSize">Function argument ''{0}'' is not found. Set "NumElementsInBuffer" to a positive integer value or a function argument with integer type.</entry>
+      <entry key="InvalidArgumentTypeBufferSize">Function argument ''{0}'' is not of integer type. Set "NumElementsInBuffer" to a positive integer value or a function argument with integer type.</entry>
+      <entry key="BufferSizeValueInQuote"       >Invalid buffer size ''{0}''. Remove quotes when setting "NumElementsInBuffer" to an integer value.</entry>
+      <entry key="InvalidDirectionForString"    >Invalid DIRECTION specified for argument ''{0}''. "inputoutput" not supported.</entry>
+      <entry key="OutputArgInConstructor"       >Invalid DIRECTION "{0}" specified for argument ''{1}''. Return values for constructor not supported.</entry>
+	  <entry key="InvalidDimensionSpecified"    > Invalid shape ''{0}'' specified for the return value of ''{1}''. </entry>
+      <entry key="FunctionTypeExists"           >''{0}'' function type exists. Function type must be unique.</entry>
+      <entry key="ShapeForStaticDims" note="Use for {1} in ShapeNotFoundForStaticProp, InvalidPropAsShape, InvalidMethodAsShape, InvalidMethodWithInputsAsShape">Set shape to public static property of integer type or public static method that takes no inputs and returns integer type.</entry>
+      <entry key="ShapeForNonStaticDims" note="Use for {1} in ShapeNotFoundForNonStaticProp, InvalidPropAsShape, InvalidMethodAsShape, InvalidMethodWithInputsAsShape">Set shape to public non-static property of integer type or public non-static method that takes no inputs and returns integer type.</entry>
+      <entry key="ShapeNotFoundForProp"         >Invalid shape ''{0}''. Shape value ''{0}'' not found. ''{1}''</entry>
+      <entry key ="InvalidPropAsShape"          >Invalid shape ''{0}''. Shape value ''{0}'' is not an integer type. ''{1}''</entry>
+      <entry key ="InvalidMethodAsShape"        >Invalid shape ''{0}''. Shape value ''{0}'' is not a method that returns integer type. ''{1}''</entry>
+	  <entry key ="InvalidMethodWithInputsAsShape">Invalid shape ''{0}''. Shape value ''{0}'' is not a valid method. ''{1}''</entry>
+      <entry key="InvalidShapeForStaticProp"    >Invalid shape ''{0}''. Use static property or method as shape for static property ''{1}''.</entry>
+      <entry key="InvalidShapeForNonStaticProp" >Invalid shape ''{0}''. Use non-static property or method as shape for non-static property ''{1}''.</entry>
+      <entry key="InvalidShapeForStaticMeth"    >Invalid shape ''{0}''. Use static property or method as shape for static method ''{1}''.</entry>
+      <entry key="InvalidShapeForNonStaticMeth" >Invalid shape ''{0}''. Use non-static property or method as shape for non-static method ''{1}''.</entry>
+      <entry key="CannotSpecifyReleaseOnCall"   >Input ''{0}'' cannot be released. "ReleaseOnCall" can only be specified for pointers and references to a class type with DIRECTION as "input".</entry>
+  </message>
+</rsccat>
+<!-- LocalWords:  repeat:template subfolder inputoutput Nonconst clibgen nonconst resizable
+     LocalWords:  nonstatic bigobj cxx hxx clib helptargets commandline MLTYPE
+-->

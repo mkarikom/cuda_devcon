@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="Column">Column {0,number,integer}</entry>
+    <entry key="DisplayVariablesTablesOnly">To use 'DisplayVariables', plot input must be a table or timetable.</entry>
+    <entry key="DuplicateDisplayVariables">Variables to plot must not specify any variable more than once.</entry>
+    <entry key="InvalidDisplayVariables">Variables to plot must be variables of the input table or timetable.</entry>
+    <entry key="InvalidDisplayVariablesIndices">Variables to plot, when specified as an array of numeric indices, must be positive integers less than or equal to {0,number,integer}.</entry>
+    <entry key="DisplayVariablesEmptyCells">Variables to plot must not contain empty cells.</entry>
+    <entry key="DisplayVariablesInvalidType">Variables to plot must be a valid data type.</entry>
+    <entry key="UnplottableDisplayVariables">Variables to plot must specify variables that are numeric, logical, datetime, duration, or categorical arrays, or are themselves tables or timetables, with at least one column.</entry>
+    <entry key="InvalidDisplayLabels">'DisplayLabels' value must either be a string array, or a cell array containing character vectors or numeric vectors.</entry>
+    <entry key="LogicalArraySize">When specifying {0} as a logical array, its length must be equal to {1,number,integer}</entry>
+    <entry key="XLimitsNonIncreasing">'XLimits' value must contain monotonically increasing values.</entry>
+    <entry key="XVariableTablesOnly">To use 'XVariable', plot input must be a table.</entry>
+    <entry key="InvalidXVariable">To use 'XVariable', specify a variable of the input table.</entry>
+    <entry key="InvalidLogicalXVariable">If the value of 'XVariable' is a logical array, then it must contain one true element.</entry>
+    <entry key="XVariableInvalidType">'XVariable' value must be a character vector, a string scalar, a positive integer, or a logical array with one true element.</entry>
+    <entry key="UnplottableXVariable">'XVariable' value must specify a table variable that is a numeric, logical, datetime, or duration column vector.</entry>
+    <entry key="InvalidLineProperties">'LineProperties' value must have the same length as the number of axes.</entry>
+    <entry key="InvalidAxesProperties">'AxesProperties' value must have the same length as the number of axes.</entry>
+    <entry key="InvalidColorMatrix">'Color' value must either be a 1-by-3 row vector or a N-by-3 matrix where N is the number of plots in the axes.</entry>
+    <entry key="InvalidMarkerFaceColorMatrix">'MarkerFaceColor' value must either be a 1-by-3 row vector or a N-by-3 matrix where N is the number of plots in the axes.</entry>
+    <entry key="InvalidMarkerEdgeColorMatrix">'MarkerEdgeColor' value must either be a 1-by-3 row vector or a N-by-3 matrix where N is the number of plots in the axes.</entry>
+    <entry key="InvalidLineStyleArray">'LineStyle' value must be either a character vector or a cell array of character vectors with length equal to the number of plots in the axes.</entry>
+    <entry key="InvalidLineWidthArray">'LineWidth' value must be either a scalar or a vector with length equal to the number of plots in the axes.</entry>
+    <entry key="InvalidMarkerStyleArray">'Marker' value must be either a character vector or a cell array of character vectors with length equal to the number of plots in the axes.</entry>
+    <entry key="InvalidMarkerSizeArray">'MarkerSize' value must be either a scalar or a vector with length equal to the number of plots in the axes.</entry>
+    <entry key="InvalidPlotTypeArray">'PlotType' value must be either a character vector or a cell array of character vectors with length equal to the number of plots in the axes.</entry>
+    <entry key="IncompatibleTableInput">Unable to specify 'SourceTable' value when the 'XData' and 'YData' values are nonempty.</entry>
+    <entry key="IncompatibleArrayInput">Unable to specify 'XData' and 'YData' values when the 'SourceTable' value is nonempty.</entry>
+    <entry key="InvalidParent">Parent container must be a figure, uipanel, or uitab.</entry>
+    <entry key="DeletedParent">Parent container is a deleted graphics object.</entry>
+    <entry key="LegendLabelsInvalidType">'LegendLabels' value must be a string array or cell array of character vectors.</entry>
+    <entry key="LegendLabelsInvalidSize">'LegendLabels' value must be a vector with length equal to the number of plots in the axes.</entry>
+    <entry key="OverlaidNestedTable">Unable to plot variables that are nested tables or timetables using the same axes as the other variables.</entry>
+    <entry key="IncompatibleOverlaidTypes">Table variables plotted in the same axes must have compatible types.</entry>
+    <entry key="XDataYDataMismatch">X must have length equal to the number of rows in Y.</entry>
+    <entry key="OneVariableNotShown">{0} not shown.</entry>
+    <entry key="TwoVariablesNotShown">{0} and {1} not shown.</entry>
+    <entry key="ThreeVariablesNotShown">{0}, {1}, and 1 more variable not shown.</entry>
+    <entry key="MoreVariablesNotShown">{0}, {1}, and {2,number,integer} more variables not shown.</entry>
+  </message>
+</rsccat>

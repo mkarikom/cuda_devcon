@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- matlab/engine/__init__.py-->
+    <entry key="StartupOptionShouldBeStr">MATLAB startup option should be a string</entry>
+    <!-- matlab/engine/enginehelper.py-->
+    <entry key="BackgroundMustBeBool">'background' must be boolean</entry>
+    <entry key="EitherAsyncOrBackground">use either 'async' or 'background'</entry>
+    <entry key="AsyncWillDeprecate">the 'async' keyword will be removed in a future release. Use 'background' instead</entry>
+    <entry key="AsyncMustBeBool">'async' must be boolean</entry>
+    <!-- matlab/engine/matlabengine.py-->
+    <entry key="AttrCannotBeAddedToM">attribute cannot be added to MatlabEngine</entry>
+    <entry key="NargoutMustBeInt">'nargout' must be integer, not {0}</entry>
+    <entry key="NargoutCannotBeLessThanZero">'nargout' must be greater than or equal to 0</entry>
+    <entry key="InvalidKwargs">invalid keyword argument {0}</entry>
+    <entry key="StdoutMustBeStringIO">'stdout' must be {0}, not {1}</entry>
+    <entry key="StderrMustBeStringIO">'stderr' must be {0}, not {1}</entry>
+    <entry key="VarNameMustBeStr">variable name must be string, not {0}</entry>
+    <entry key="VarNameNotValid">variable name is not valid in MATLAB</entry>
+    <entry key="AttrCannotBeAddedToMWS">attribute cannot be added to MatlabWorkSpace</entry>
+    <entry key="MatlabTerminated">MATLAB has already terminated</entry>
+    <!-- matlab/engine/futureresult.py-->
+    <entry key="MatlabFunctionCancelled">the MATLAB function has been cancelled</entry>
+    <entry key="MatlabFunctionTimeout">timeout from execution of the MATLAB function</entry>
+    <entry key="TimeoutMustBeNumeric">'timeout' must be numeric, not {0}</entry>
+    <entry key="TimeoutCannotBeNegative">'timeout' cannot be a negative number</entry>
+    <!-- matlab/engine/futurematlab.py-->
+    <entry key="LaunchMatlabTimeout">timeout from launch of the MATLAB</entry>
+    <entry key="ConnectMatlabTimeout">timeout from connection of the shared MATLAB session</entry>
+    <entry key="LaunchMatlabCancelled">launch of MATLAB has been cancelled</entry>
+    <entry key="ConnectMatlabCancelled">connection to the shared MATLAB session has been cancelled</entry>
+    <!-- c++ headers -->
+    <entry key="StartupOptionShouldBePO">MATLAB startup option should be a Python object</entry>
+    <entry key="StartupOptionShouldBeLS">MATLAB startup option should be a list of strings</entry>
+    <entry key="HandleToMatlabShouldBeLI">handle to MATLAB instance should be a long integer</entry>
+    <entry key="FevalTakes3Args">mwEvaluateFunction takes at least 3 arguments</entry>
+    <entry key="FuncShouldBeASCII">MATLAB function should be a string of ASCII characters</entry>
+    <entry key="NumOutShouldBeInt">number of outputs should be an integer</entry>
+    <entry key="KeywordShouldBeStr">keyword should be a string</entry>
+    <entry key="FevalResultTakes3Args">mwGetFEvalResult takes exactly 3 positional arguments</entry>
+    <entry key="HandleToResultShouldBeLI">handle to the future result should be a long integer</entry>
+    <entry key="HandleToConOutShouldBeLI">handle to the console output should be a long integer</entry>
+    <entry key="HandleToConErrShouldBeLI">handle to the console error should be a long integer</entry>
+    <entry key="HandleShouldBeTuple">handles should be stored as a tuple</entry>
+    <entry key="TimtoutShouldBeIntFloat">timeout length in seconds should be an integer or float or None</entry>
+    <entry key="StringIODoesNotExist">StringIO does not exist</entry>
+    <entry key="StringIOForConErr">StringIO is required for console error</entry>
+    <entry key="StringIOForConOut">StringIO is required for console output</entry>
+    <entry key="MatlabFunctionNotEvaluated">MATLAB function cannot be evaluated</entry>
+    <entry key="VarNameShouldBeStr">variable name should be a string</entry> 
+    <entry key="UnsupportedMatlabType">unsupported data type returned from MATLAB</entry>    
+    <entry key="FHNotSupportedFromMatlab">function handle cannot be returned from MATLAB</entry>
+  </message>
+</rsccat>

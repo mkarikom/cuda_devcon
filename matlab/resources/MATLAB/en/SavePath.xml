@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="PathNotSaved">Unable to save path to file ''{0}''. You can save your path to a different location by calling SAVEPATH with an input argument that specifies the full path. For MATLAB to use that path in future sessions, save the path to ''pathdef.m'' in your MATLAB startup folder.</entry>
+  </message>
+</rsccat>

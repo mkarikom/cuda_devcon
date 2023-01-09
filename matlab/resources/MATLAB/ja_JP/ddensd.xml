@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">入力引数が不足しています。</entry>
+    <entry key="DdefunNotFunctionHandle">最初の引数 DDEFUN は関数ハンドルでなければなりません。</entry>
+    <entry key="DelyInvalidType">2 番目の引数 DELY は関数ハンドルか、定数ベクトルのどちらかでなければなりません。</entry>
+    <entry key="DelypInvalidType">3 番目の引数 DELYP は関数ハンドルか、定数ベクトルのどちらかでなければなりません。</entry>
+    <entry key="HistoryInvalidType">HISTORY に無効なデータ型があります。HISTORY に使用できるデータ型のリストは、DDENSD のヘルプを参照してください。</entry>
+    <entry key="HistoryNotFromDDENSD">HISTORY 構造体は、DDENSD で作成されなければなりません。</entry>
+    <entry key="NotContinueFromHistoryEnd">HISTORY 構造体を使用するとき、DDENSD は到達した最後の点から続行しなければなりません。</entry>
+    <entry key="InconsistentDataType">DDENSD への呼び出し内に、''t0''、''y0''、''y(dy(t0,y0))''、''yp(dyp(t0,y0))'' および ''f(t0,y0,dy0,dyp0)'' に対する single と double のデータが混在しています。</entry>
+    <entry key="JumpsOptionNotAvailable">JUMPS オプションは、DDENSD で利用できません。JUMPS の各エントリで再開して問題を解決してください。</entry>
+    <entry key="OptRelTolNotPosScalar">オプション ''RelTol'' は正のスカラーでなければなりません。</entry>
+    <entry key="RelTolIncrease">DDENSD は中程度の精度を目的としています。RelTol は {0} に増加しました。</entry>
+    <entry key="DELYLessThanT0">T0 より小さい解の遅延 DELY のある t={0} で失敗しました。初期値 NDDE で解くとき、DELY は T0 以上でなければなりません。</entry>
+    <entry key="DELYPLessThanT0">T0 より小さい導関数の遅延 DELYP のある t={0} で失敗しました。初期値 NDDE で解くとき、DELYP は T0 以上でなければなりません。</entry>
+    <entry key="DELYPGreaterThanT">T より大きい導関数の遅延 DELYP のある t={0} で失敗しました。DELYP は、T=T0 の初期値 NDDE の場合のみ T と等しくなることができます。それ以外の場合、DELYP は T より小さくなければなりません。</entry>
+    <entry key="DELYPEqualT">T と等しい導関数の遅延 DELYP のある t={0} で失敗しました。DELYP は、T=T0 の初期値 NDDE の場合にのみ T と等しくなることができます。それ以外の場合、DELYP は T より小さくなければなりません。</entry>
+    <entry key="IVPDELYPEqualT">T&gt;T0 の場合、T と等しい導関数の遅延 DELYP のある t={0} で失敗しました。DELYP は、T=T0 の初期値 NDDE の場合にのみ T と等しくなることができます。それ以外の場合、DELYP は T より小さくなければなりません。</entry>
+  </message>
+</rsccat>

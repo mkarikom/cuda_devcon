@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidNumericInput">サイズの入力は数値でなければなりません。</entry>
+    <entry key="invalidStringInput">CLASSNAME の入力は有効な数値クラス名または論理クラス名でなければなりません。</entry>
+    <entry key="invalidNonStringInput">''like'' に続く入力が数値配列または論理配列ではありません。</entry>
+    <entry key="unsupportedNd">n 次元配列はサポートされていません。</entry>
+  </message>
+</rsccat>

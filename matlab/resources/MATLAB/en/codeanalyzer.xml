@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2020 The MathWorks, Inc. -->
+
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!--Resource entries for toolbox/matlab/codeanalysis/tools-->
+     <entry key="SyntaxError">Input code contains one or more syntax errors.</entry>
+     <entry key="SyntaxErrorCause">Line {0,number,integer} (Column {1,number,integer}): {2}</entry>
+  </message>
+</rsccat>

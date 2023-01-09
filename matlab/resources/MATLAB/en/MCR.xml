@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidWarningState">Attempt to set warning ''{0}'' to invalid state ''{1}''.</entry>
+    <entry key="BadWarningStatus" note="stringDatatypeUpdate">Warning status character vector ''{0}'' invalid.</entry>
+    <entry key="CantSetMATLAB_JDB">Unable to set MATLAB_JDB</entry>
+    <entry key="CantSetMATLAB_JDB_PORT">Unable to set MATLAB_JDB_PORT</entry>
+    <entry key="WaitforcallbacksDeprecated">Built-in waitforcallbacks is deprecated.</entry>
+    <entry key="DirectoryNotFound">Cannot find the Windows folder {0}.</entry>
+    <entry key="DesktopStartupFailed">Internal Error: Failure occurs during desktop startup. Details: {0}.</entry>
+    <entry key="JavaInitializationFailed">Internal Error: Matlab-Java interface initialization failed.</entry>
+    <entry key="UnrecognizedOption">Unrecognized MATLAB option {0}.</entry>
+    <entry key="NoHGVersion">Handle Graphics version must be specified, defaulting to version {0,number,integer}.</entry>
+    <entry key="InvalidHGVersion">Handle Graphics version {0} is not valid, defaulting to version {1,number,integer}.</entry>
+    <entry key="RunningModeNotAllowed">Running as a {0} in /{1} mode not allowed.  Disabling automation support.</entry>
+    <entry key="WaitforcallbacksNestError">Function {0} must be called before {1}.</entry>
+    <entry key="FailedLoadMwLocaleDatabase">Failed to load MathWorks locale database. Using MathWorks default locale setting instead.</entry>
+    <entry key="EventThreadAbsent">Cannot process event of type {0}, because the event-handling thread is not running.</entry>
+    <entry key="EventThreadNotInitialized">Cannot enter event loop because the event thread has not been initialized.</entry>
+    <entry key="BadSetCtfxTargetEnvironmentArg">This feature takes only doubles as input.</entry>
+    <entry key="BadCtfxTargetEnvironment">Could not turn on the CTFX feature due to system error.</entry>
+    <entry key="UnrecognizedCommandLineOption">Unrecognized command line option: {0}.</entry>
+    <entry key="IgnoringUseStartupFolderPref">Command line argument -sd has already been specified. -useStartupFolderPref will be ignored.</entry>
+    <entry key="IgnoringSD">Command line argument -useStartupFolderPref has already been specified. -sd will be ignored.</entry>
+    <entry key="MissingFolderSpec">Missing folder specification for -sd command line argument.</entry>
+    <entry key="MissingEndFile">No end file specified for -endfile command line argument.  The default end file, finish, will be used.</entry>
+    <entry key="MissingBeginFile">No begin file specified for -beginfile command line argument.  The default begin file, matlabrc, will be used.</entry>
+    <entry key="MissingCommand">No MATLAB command specified for -{0} command line argument.</entry>
+    <entry key="MissingCacheMaxSize">No MATLAB Cache Max Size specified for -CodeCacheMaxSize command line argument. Using default instead.</entry>
+    <entry key="InvalidCacheMaxSize">Invalid MATLAB Cache Max Size specified for -CodeCacheMaxSize command line argument. Using default instead.</entry>
+    <entry key="MissingGrowthStep">No MATLAB Code Cache growthStep Size specified for -CodeCacheGrowthStepSize command line argument. Using default instead.</entry>
+    <entry key="InvalidGrowthStep">Invalid MATLAB Code Cache growthStep Size specified for -CodeCacheGrowthStepSize command line argument. Using default instead.</entry>
+    <entry key="MissingStartupSize">No MATLAB Code Cache Startup Size specified for -CodeCacheStartUpSize command line argument. Using default instead.</entry>
+    <entry key="InvalidStartupSize">Invalid MATLAB Code Cache Startup Size specified for -CodeCacheStartUpSize command line argument. Using default instead.</entry>
+    <entry key="NoLicmode">No licmode specified for -licmode command line argument.</entry>
+    <entry key="NoLicenseFile">No license file specified for -c command line argument.</entry>
+    <entry key="InvalidPort">Invalid port number for -jdb command line argument. Using default instead.</entry>
+    <entry key="IncompatibleCommands">Command line argument -{0} cannot be combined with subsequent -{1} argument.</entry>
+  </message>
+</rsccat>

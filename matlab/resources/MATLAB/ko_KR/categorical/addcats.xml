@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoBeforeOrAfter">순서형 배열에는 'Before' 또는 'After'를 지정해야 합니다.</entry>
+    <entry key="BeforeAndAfter">'Before'와 'After' 중 하나만 지정하십시오.</entry>
+    <entry key="InvalidCategoryName">{0}은(는) 문자형 벡터이거나 string형 스칼라여야 합니다.</entry>
+    <entry key="UnrecognizedCategory">''{0}''은(는) A의 범주가 아닙니다.</entry>
+  </message>
+</rsccat>

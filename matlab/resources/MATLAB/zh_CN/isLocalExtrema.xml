@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ComplexInputArray">不支持复数输入参数。</entry>
+    <entry key="FirstInputInvalid">第一个参数必须为数值或逻辑数组、表或者时间表。</entry>
+    <entry key="NonVectorTableVariable">表变量必须为列向量。</entry>
+    <entry key="DimensionTable">第一个参数为表或时间表时不支持维度。</entry>
+    <entry key="DimensionInvalid">维度必须为正整数。</entry>
+    <entry key="NameValuePairs">输入参数的数目不正确。参数名称和值必须成对出现。</entry>
+    <entry key="InvalidNameArray">参数名称必须为 ''MaxNumExtrema''、''MinSeparation''、''MinProminence''、''FlatSelection'' 或 ''SamplePoints''。</entry>
+    <entry key="InvalidNameTable">参数名称必须为 ''MaxNumExtrema''、''MinSeparation''、''MinProminence''、''FlatSelection''、''SamplePoints'' 或 ''DataVariables''。</entry>
+    <entry key="MaxNumInvalid">''MaxNumExtrema'' 值必须为正整数。</entry>
+    <entry key="MinProminenceInvalid">''MinProminence'' 值必须为非负数值标量。</entry>
+    <entry key="MinSeparationInvalid">''MinSeparation'' 值必须为非负的实数有限标量。</entry>
+    <entry key="ProminenceWindowLengthInvalid">''ProminenceWindow'' 值必须为正标量，或者为由非负标量组成的 2 元素向量。</entry>
+    <entry key="ProminenceWindowMustBeDuration">如果 ''SamplePoints'' 值为日期时间或持续时间，则 ''ProminenceWindow'' 值必须为持续时间。</entry>
+    <entry key="ProminenceWindowCannotBeDuration">如果 ''SamplePoints'' 值为数值，则 ''ProminenceWindow'' 值必须为数值。</entry>
+    <entry key="ProminenceWindowMustBeDurationTimetable">如果第一个输入参数为时间表，''ProminenceWindow'' 值必须为持续时间。</entry>
+    <entry key="SeparationMustBeDuration">如果 ''SamplePoints'' 值为日期时间或持续时间，则 'MinSeparation'' 值必须为持续时间标量。</entry>
+    <entry key="SeparationCannotBeDuration">如果 ''SamplePoints'' 值为数值，则 'MinSeparation'' 值必须为数值标量。</entry>
+    <entry key="SeparationMustBeDurationTimetable">当第一个输入参数为时间表时，''MinSeparation'' 值必须为持续时间标量。</entry>
+    <entry key="FlatSelectionInvalid">''FlatSelection'' 必须为 ''first''、''center''、''last'' 或 ''all''。</entry>
+    <entry key="SamplePointsInvalidDatatype">数据类型无效。''SamplePoints'' 值必须为双精度、单精度、日期时间或持续时间向量。</entry>
+    <entry key="SamplePointsLength">''SamplePoints'' 值中的元素数目必须与第一个参数在运算维度上的大小相同。</entry>
+    <entry key="SamplePointsFinite">''SamplePoints'' 值包含非有限元。</entry>
+    <entry key="SamplePointsComplex">''SamplePoints'' 值必须为实数。</entry>
+    <entry key="SamplePointsSparse">不支持稀疏 ''SamplePoints'' 值。</entry>
+    <entry key="SamplePointsDuplicate">''SamplePoints'' 值包含重复项。</entry>
+    <entry key="SamplePointsSorted">必须对 ''SamplePoints'' 值按升序排序。</entry>
+    <entry key="RowTimesFinite">行时间必须为有限值。</entry>
+    <entry key="RowTimesDuplicate">行时间包含重复项。</entry>
+    <entry key="RowTimesSorted">行时间必须按升序排序。</entry>
+    <entry key="SamplePointsTimeTable">当第一个输入参数为时间表时，不支持 ''SamplePoints'' 参数。</entry>
+    <entry key="DataVariablesArray">仅当第一个输入参数为表或时间表时，才支持 ''DataVariables'' 参数。</entry>
+    <entry key="NonNumericTableVar">表变量必须为数值。</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' 函数句柄必须返回逻辑标量。</entry>
+    <entry key="DataVariablesTableSubscript">''DataVariables'' 值无效。</entry>
+    <entry key="PromWindowNotSupported">''ProminenceWindow'' 不支持代码生成。</entry>
+    <entry key="DataVarsMustBeUnique">进行代码生成时，'DataVariables' 参数不能包含重复项。</entry>
+  </message>
+</rsccat>

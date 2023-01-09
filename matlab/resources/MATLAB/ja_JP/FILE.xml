@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SourceArgumentIsEmpty">最初の引数を空にはできません。</entry>
+    <entry key="SourceAndDestinationSame">ファイルまたはディレクトリをそれ自身にコピーしたり移動することはできません。</entry>
+    <entry key="FileDoesNotExist">一致するファイルが見つかりません。</entry>
+    <entry key="FileNotFound">''{0}'' という名前の一致するファイルは見つかりませんでした。</entry>
+    <entry key="ReadOnly">出力先 {0} に書き込みできません。オーバーライドするには ''f'' オプションを使用してください。</entry>
+    <entry key="PATHMAX">最大のパスの長さを超過しました。</entry>
+    <entry key="ReadOnlyDestination">出力先 {0} に書き込みできません。オーバーライドするには ''f'' オプションを使用してください。</entry>
+    <entry key="ReadOnlySource">ソースから書き込むことができません: {0}。オーバーライドするには ''f'' オプションを使用してください。</entry>
+    <entry key="SourceIsAncestorOfDestination">ソースを移動先の先祖にすることはできません。</entry>
+    <entry key="ResourceExists">移動先 ''{0}'' は存在するため、これに書き込むことはできません。オーバーライドするには ''f'' オプションを使用してください。</entry>
+    <entry key="DestNotAFolder">移動先 {0} がフォルダーではありません。\nソース フォルダーを移動する場合、移動先もフォルダーでなければなりません。</entry>
+    <entry key="NeitherFileNorFolder">ファイル名、ディレクトリ名、またはボリューム ラベルの構文が正しくありません。</entry>
+    <entry key="ReadPermissionError">ソースから読み取ることができません: {0}。\nオーバーライドするには ''f'' オプションを使用してください。</entry>
+    <entry key="ReadPermissionErrorWithFlag">ソースから読み取ることができません: {0}。</entry>
+    <entry key="WritePermissionError">出力先に書き込みできません: {0}。\nオーバーライドするには ''f'' オプションを使用してください。</entry>
+    <entry key="WritePermissionErrorWithFlag">出力先 {0} に書き込みできません。</entry>
+    <entry key="FolderPermissionError">{0}: アクセスが許可されていません。\nオーバーライドするには ''f'' オプションを使用してください。</entry>
+    <entry key="FolderPermissionErrorWithFlag">{0}: アクセスが許可されていません。</entry>
+  </message>
+</rsccat>

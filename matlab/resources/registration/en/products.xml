@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="registration">
+  <message>
+    <entry key="setupCompilerRecommended">To accelerate computations with the following products, a &lt;a HREF="http://www.mathworks.com/pi_scl_3_{0}_{1}"&gt;supported compiler&lt;/a&gt; is required:&lt;br&gt;&lt;br&gt;{2}&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupCompilerRequired">The following products require a &lt;a href="http://www.mathworks.com/pi_scl_1_{0}_{1}"&gt;supported compiler&lt;/a&gt;:&lt;br&gt;&lt;br&gt;{2}&lt;br&gt;&lt;br&gt;</entry>
+    <!-- <entry key="setupLicenseManagerServiceWin">The network license manager has been installed as a service on your computer.  Before running {0}, you must manually start the license manager
+         by using lmtools.exe (found in the etc folder of your installation folder), or by rebooting your computer.  For more information see the Installation Guide.&lt;br&gt;&lt;br&gt;</entry>
+         <entry key="setupLicenseManagerFilesWin">The network license manager files have been installed in the etc folder, but have not been installed as a service on your computer.
+         Before running {0}, you will need to configure and start the license manager using lmtools.exe found in the etc folder.  For more information see the Installation Guide.&lt;br&gt;&lt;br&gt;</entry>
+         <entry key="setupLicenseManagerLinux">You have installed the network license manager, but it has not been started.  Before you can run {0}, you will need to start the license manager.
+         To start the license manager manually, open a terminal window and run the following command {1}/etc/lmstart. To learn how to configure the license manager to start automatically
+         at boot time, see the Installation Guide.&lt;br&gt;&lt;br&gt;</entry>
+         <entry key="setupLicenseManagerMac">You have installed the network license manager, but it has not been started.  Before you can run {0}, you will need to start the license manager.
+         To start the license manager manually, open a terminal window and run the following command {1}/etc/lmstart. To learn how to configure the license manager to start automatically
+         at boot time, see the Installation Guide.&lt;br&gt;&lt;br&gt;</entry> -->
+    <entry key="setupMATLABCompiler">{0} requires a &lt;a HREF="http://www.mathworks.com/pi_scl_4_{1}_{2}"&gt;supported compiler&lt;/a&gt; for creation of Excel add-ins.&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupMATLABCompilerSDKWin">{0} requires the following:&lt;br&gt;&lt;br&gt;
+    \u25CF  &lt;a HREF="http://www.mathworks.com/pi_scl_5_{1}_{2}"&gt;.NET framework&lt;/a&gt; for creation of .NET assemblies and deployable archives with Excel integration&lt;br&gt;
+    \u25CF  a &lt;a HREF="http://www.mathworks.com/pi_scl_5_{1}_{2}"&gt;supported compiler&lt;/a&gt; for creation of COM components, C and C++ Shared libraries&lt;br&gt;
+    \u25CF  a &lt;a HREF="http://www.mathworks.com/pi_scl_6_{1}_{2}"&gt;Java JDK&lt;/a&gt; for creation of Java packages&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupMATLABCompilerSDKLinux"> {0} requires the following: &lt;br&gt;&lt;br&gt;
+    \u25CF  a &lt;a HREF="http://www.mathworks.com/pi_scl_5_{1}_{2}"&gt;supported compiler&lt;/a&gt; for creation of C and C++ Shared libraries&lt;br&gt;
+    \u25CF  a &lt;a HREF="http://www.mathworks.com/pi_scl_6_{1}_{2}"&gt;Java JDK&lt;/a&gt; for creation of Java packages&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupNotesTopLabel">&lt;b&gt;Your installation may require additional configuration steps.&lt;/b&gt;&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupParallelServer">After this installation is complete, you should continue with your configuration of the MATLAB Parallel Server as outlined in the instructions obtained from &lt;a HREF="{0}"&gt;www.mathworks.com/distconfig&lt;/a&gt;&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupProductionServer">&lt;i&gt;&lt;b&gt;Important:&lt;/i&gt;&lt;/b&gt;&lt;br&gt;Before you can use MATLAB Production Server, you must set up your environment.&lt;br&gt;
+    &lt;br&gt;a. &lt;a HREF="http://www.mathworks.com/pi_mps_mcr_pi_{1}_{2}"&gt;Download and install the MATLAB Runtime&lt;/a&gt;&lt;br&gt;
+    - Install the MATLAB Runtime in the default location&lt;br&gt;
+    - MATLAB Production Server will work with the last six versions of the MATLAB Runtime from the &lt;a HREF="http://www.mathworks.com/pi_mps_lsv_pi_{1}_{2}"&gt;most recent version&lt;/a&gt;&lt;br&gt;
+    &lt;br&gt;b. At the system command line, run mps-setup from the script folder. The script folder is located at {0}script.&lt;br&gt;
+    &lt;br&gt;c. For detailed instructions, download the &lt;a HREF="http://www.mathworks.com/pi_mps_qsg_pi_{1}_{2}"&gt;Quick Start Guide&lt;/a&gt;.&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupSimulinkCompiler">Simulink requires a C compiler for simulation acceleration, model reference, and MATLAB Function Block capabilities. It is recommended that you install a &lt;a HREF="http://www.mathworks.com/pi_scl_2_{0}_{1}"&gt;supported compiler&lt;/a&gt; on your machine.&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupWebAppServer"> Instructions to Set Up MATLAB Web App Server&lt;br&gt;&lt;br&gt;
+    a. &lt;a HREF="http://www.mathworks.com/pi_mwas_mcr_pi_{1}_{2}"&gt;Download MATLAB Runtime&lt;/a&gt; and install it in the default location.&lt;br&gt;
+    - MATLAB Runtime starting from R2019b up until the &lt;a HREF="http://www.mathworks.com/pi_mwas_lsv_pi_{1}_{2}"&gt;most recent release&lt;/a&gt; is supported.&lt;br&gt;&lt;br&gt;
+    b. Run the setup script from the command line by typing: &lt;i&gt;webapps-setup&lt;/i&gt; &lt;br&gt;
+    - The setup script is located at: &lt;i&gt;{0}script&lt;/i&gt;.&lt;br&gt;&lt;br&gt;
+    c. For detailed instructions, download the &lt;a HREF="http://www.mathworks.com/pi_mwas_qsg_pi_{1}_{2}"&lt;/a&gt;Quick Start Guide&lt;/a&gt;.&lt;br&gt;&lt;br&gt;
+    d. For the web documentation, see &lt;a HREF="http://www.mathworks.com/pi_mwas_doc_pi_{1}_{2}"&gt;MATLAB Web App Server.&lt;/a&gt;&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="startupAcceleratorDesc">Startup Accelerator for faster MATLAB startup</entry>
+    <entry key="startupAcceleratorName">MATLAB {0} Startup Accelerator</entry>
+    <entry key="commentForMATLABShortcut">Start MATLAB - The Language of Technical Computing</entry>
+    <entry key="commentForPolySpaceShortcut">Start Polyspace</entry>
+    <entry key="newLine">&lt;br&gt;</entry>
+  </message>
+</rsccat>

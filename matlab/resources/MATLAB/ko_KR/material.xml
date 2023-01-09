@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="IncorrectCall">a=material 또는 a=material(matname)으로 호출함</entry>
+    <entry key="TooFewInputs">입력 인수가 부족함</entry>
+    <entry key="TooManyInputs">입력 인수가 너무 많음</entry>
+    <entry key="TooManyOutputs">출력 인수가 너무 많음</entry>
+    <entry key="InvalidVectorSize">Material 벡터의 크기는 1x3, 1x4, 1x5 중 하나여야 함</entry>
+    <entry key="InvalidMaterialsName">Material은 문자형 벡터 이름 또는 벡터여야 함</entry>
+    <entry key="FileNotFound">Material 이름을 찾을 수 없음</entry>
+  </message>
+</rsccat>

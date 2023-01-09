@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RelativePathIsNotSupported">MATLAB_PREFDIR 必须为绝对路径。无法将预设目录设置为相对路径 {0}。</entry>
+    <entry key="ErrorMigratePrefsBetweenReleases">将版本 {0} 中的预设迁移到版本 {1} 失败。</entry>
+    <entry key="ErrorCreatePreferenceDirectoryTimeStamp">创建预设文件夹时间戳文件 {0} 失败。\n详细信息: {1}。</entry>
+    <entry key="PreferenceDirectoryNotExist">预设文件夹 {0} 应存在，但实际不存在。\n详细信息: {1}。</entry>
+    <entry key="SettingsUserDirectoryNotExist">未设置 Settings 用户目录。MATLAB 无法更新用户设置。</entry>
+    <entry key="ErrorOpenFileInPrefDir">无法打开文件 {0}。原因: {1}。 </entry>
+    <entry key="ErrorCloseFileInPrefDir">无法关闭文件 {0}。原因: {1}。 </entry>
+    <entry key="ErrorCopyFileInPrefDir">将 {0} 复制到 {1} 失败。原因: {2}。 </entry>
+    <entry key="ErrorOverwriteFileInPrefDir">无法写入文件 {0}。该文件已存在，覆盖权限被拒绝。 </entry>
+    <entry key="ErrorDetermineFileSizeInPrefDir">无法确定文件 {0} 的大小。原因: {1}。 </entry>
+    <entry key="ErrorOpenDirectoryInPrefDir">无法打开目录 {0}。原因: {1}。 </entry>
+    <entry key="FileLoadingError">加载 Settings 文件时出错。\n详细信息: {0}。 </entry>
+    <entry key="DataTypeNotMatch">尝试设置的值具有无效的类型 {1}。此设置的预期数据类型为 {0}。</entry>
+    <entry key="ValueIsNotInRange">无法验证 settings 数据。为键 {1} 传入的输入值 {0} 不在范围 [{2} {3}] 中。</entry>
+    <entry key="ValueIsNotOneOfTheChoices">无法验证 settings 数据。为键 {1} 传入的输入值 {0} 不是预定义选项 [{2}] 之一。</entry>
+    <entry key="DefaultValidationFailedOnVoidType">无法验证 settings 数据。为键 {0} 传入的值为空。</entry>
+    <entry key="DataArraySizeOutOfRange">无法验证 settings 数据。无法使用大小为 {1} 的数组为 {0} 设置值。setting 的值必须为大小处于范围 [{2} {3}] 内的数组。</entry>
+    <entry key="UnconvertibleType">Cannot convert the value for key, {0}, to data type {1}. \nDetails: {2}.</entry>
+    <entry key="CanNotCreateTempDirectory">Internal Error: Error create a temp directory under directory {0}. </entry>
+    <entry key="NoWritePermissionOnDirectory">Internal Error: No write permission on directory {0}. Details: {1}. </entry>
+    <entry key="CFunctionNotFound">Cannot find function, {0}, in library {1}.</entry>
+    <entry key="ExecEngineNotReadyForProcessingMFunction">Internal Error: MATLAB functions cannot be invoked because the execution engine is not initialized.</entry>
+    <entry key="MATLABFuncMustBeInvokedByExecEngine">Internal Error: MATLAB functions can be invoked in the main execution thread only.</entry>
+    <entry key="JVMNotReadyForProcessingJavaFunction">Internal Error: Java function cannot be invoked because JVM is not initialized.</entry>
+    <entry key="SettingsLibraryNotInitialized">Internal Error: Java settings library could not be initialized.\n{0}</entry>
+    <entry key="XMLMetaDataParserError">Error parsing metadata for key {0}. Min value {1}, is larger than max value {2}.</entry>
+    <entry key="XMLParserErrorIllegalTagName">While parsing the Settings node, {0}, found invalid tag, {1}, under tag {2}.</entry>
+    <entry key="XMLParserErrorUnexpectedTextContent">While parsing the Settings node, {0}, found unexpected text content in tag {1}.</entry>
+    <entry key="XMLParserErrorNumOfValueNotInRange">The expected data type for key, {0}, is an array of {1}. The number of values specified in the XML file is {2}, which it is not in the range defined as [{3}, {4}].</entry>
+    <entry key="TypeNotSpecifiedForNoneAnyType">The setting, {0},  is not an 'anytype' setting,  so data type tag must be specified. </entry>
+    <entry key="XMLParseErrorWrongValueForGivenType">Invalid value  for tag {0}. The value is {1}, which cannot be converted to type {2}.</entry>
+  </message>
+</rsccat>

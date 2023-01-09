@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="badstartdate">The time series you are adding must have a valid StartDate property.</entry>
+    <entry key="ignorestartdate">The StartDate property of the time series you are adding was ignored because the tscollection does not use dates.</entry>
+    <entry key="badtime">The time vector of the time series you are adding must match the tscollection time vector.</entry>
+    <entry key="classchange">The TimeInfo property of the added time series has been changed to match the tscollection.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InputClass">Invalid data type. First and second arguments must be numeric or logical.</entry>
+    <entry key="StrideClass">Invalid data type. Stride must be numeric or logical.</entry>
+    <entry key="RangeIndexClass">Invalid data type. Range index must be numeric or logical.</entry>
+    <entry key="SparseInput">Sparse matrices are not supported.</entry>
+    <entry key="InvalidStride">Stride must be a real positive integer.</entry>
+    <entry key="InvalidRangeIndex">Output range index must be a real positive integer.</entry>
+    <entry key="InvalidOptionString">Operation type must be 'corr' or 'conv'.</entry>
+  </message>
+</rsccat>

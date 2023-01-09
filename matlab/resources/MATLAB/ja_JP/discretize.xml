@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CategoryNamesInvalidSize">4 番目の引数であるカテゴリ名は、ビンの数 {0,number,integer} と等しい長さのセル配列でなければなりません。</entry>
+    <entry key="DefaultCategoryNamesNotUnique">有効桁数 5 桁を使用して一意のカテゴリ名を作成できません。カテゴリ名を引数として指定してください。</entry>
+    <entry key="EmptyOrScalarEdges">ビンのエッジには少なくとも 2 つの要素がなければなりません。</entry>
+    <entry key="InvalidN">ビン数は実数の正の整数でなければなりません。</entry>
+    <entry key="ValuesInvalidSize">3 番目の引数であるビンの値は、ビンの数 {0,number,integer} と等しい長さのベクトルでなければなりません。</entry>
+    <entry key="ValuesClassNoNaN">3 番目の引数であるビンの値が {0} 型の場合は、すべての入力データが 1 つのビンに属さなければなりません。</entry>
+    <entry key="invalidType">データ型が無効です。ビン化されるデータは、実数配列または logical 配列でなければなりません。</entry>
+    <entry key="InvalidSecondInput">ビンのエッジは、実数、数値または logical で単調増加のベクトルでなければなりません。</entry>
+    <entry key="ParseFlags">パラメーター名は ''IncludedEdge'' でなければなりません。</entry>
+    <entry key="KeyWithoutValue">入力引数の数が正しくありません。パラメーターの名前と値はペアでなければなりません。</entry>
+    <entry key="InvalidIncludedEdgeValue">''IncludedEdge'' の値は ''left'' または ''right'' でなければなりません。</entry>
+    <entry key="InvalidCatnames">カテゴリ名は、文字ベクトルの cell ベクトル、または string でなければなりません。</entry>
+    <entry key="InvalidValues">ビンの値はベクトルでなければなりません。</entry>
+    <entry key="InputNonFloatWithNumBins">ビン化されるデータが整数データ型である場合は、ビン数の代わりにビンのエッジを指定してください。</entry>
+    <entry key="NumbinsNotFixedSize">可変サイズのビンはコード生成でサポートされていません。</entry>
+  </message>
+</rsccat>

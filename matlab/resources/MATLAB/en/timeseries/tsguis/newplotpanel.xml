@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2012-2013 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="Abort">Abort</entry> 
+      <entry key="AddToExistingPlot">Add to existing plot</entry>
+      <entry key="AttemptingToPlotMore">Attempting to plot more than {0,number,integer} time series in a single axes may take time. Continue?</entry>
+      <entry key="Continue">Continue</entry>
+      <entry key="CreateNew">Create new</entry>
+      <entry key="Display">Display</entry>
+      <entry key="Name">Name:</entry>
+      <entry key="PlotTimeSeries">Plot time series</entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+      <entry key="Test">test</entry>
+      <entry key="Type">Type:</entry>
+      <entry key="View1" translate="false" note="TranslateFalseBatch;">View1</entry>
+      <entry key="ViewNumber" translate="false" note="TranslateFalseBatch;">View{0,number,integer}</entry>
+      <entry key="YouMustSpecifyANameForTheNewPlot">You must specify a name for the new plot.</entry>
+   </message>
+</rsccat>

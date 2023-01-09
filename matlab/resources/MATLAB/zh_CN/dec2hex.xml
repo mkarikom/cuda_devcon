@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SparseNotSupported">不支持稀疏数组。</entry>
+    <entry key="FirstArgIsInvalid">第一个参数必须包含有限整数。</entry>
+    <entry key="InvalidWidth">列宽必须为正标量数值。</entry>
+    <entry key="NegativeValueOutOfRange">第一个参数必须大于 intmin('int64')。</entry>
+    <entry key="ValueOutOfRange">第一个参数必须小于 2^96。</entry>
+  </message>
+</rsccat>

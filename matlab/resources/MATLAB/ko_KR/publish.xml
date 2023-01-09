@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoJvm">PUBLISH를 사용하려면 Java가 있어야 합니다.</entry>
+    <entry key="SourceNotFound">"{0}"을(를) 찾을 수 없습니다.</entry>
+    <entry key="InvalidOption">"{0}"은(는) 유효하지 않은 옵션입니다. 참고로, 옵션은 대/소문자를 구분합니다.</entry>
+    <entry key="NoGIFs">"gif"는 지원되는 imageFormat이 아닙니다.</entry>
+    <entry key="UnknownFormat">"{0}"은(는) 지원되는 형식이 아닙니다.</entry>
+    <entry key="StylesheetNotFound">지정한 스타일시트 "{0}"이(가) 존재하지 않습니다.</entry>
+    <entry key="InvalidBoolean">"{0}"의 값은 스칼라 논리값이어야 합니다. 즉, 문자형 벡터 ''true''가 아닌 true여야 합니다.</entry>
+    <entry key="InvalidMaxOutputLines">"maxOutputLines"의 값은 Inf 또는 음이 아닌 정수여야 합니다.</entry>
+    <entry key="MustBeEmptyOrPositiveInteger">옵션 ''{0}''은(는) 비어 있거나 양의 정수여야 합니다.</entry>
+    <entry key="VectorAndGetframe">imageFormat ''{0}''이(가) figureSnapMethod ''getframe''과 호환되지 않습니다.</entry>
+    <entry key="VectorSize">최대 이미지 높이 또는 너비 설정이 {0}-파일과 호환되지 않으며 무시됩니다.</entry>
+    <entry key="InvalidPDFImageFormat">BMP 또는 JPEG imageFormat만 PDF 출력이 지원됩니다.</entry>
+    <entry key="StopOnErrorDeprecated">stopOnError는 더 이상 지원되지 않습니다.  비슷한 효과를 거두려면 코드에서 TRY/CATCH를 사용하십시오.</entry>
+    <entry key="OffPath">evalCode 옵션이 설정되었지만 파일이 MATLAB 경로에 있지 않으므로 PUBLISH는 파일을 실행해야 합니다.</entry>
+    <entry key="Shadowed">파일이 {0}에 의해 가려져 있어 액세스할 수 없습니다.</entry>
+    <entry key="OnlyCode">MATLAB 코드만 퍼블리시할 수 있습니다.</entry>
+    <entry key="CannotDelete">"{0}"을(를) 삭제할 수 없습니다.</entry>
+    <entry key="CannotReadForThumbnail">최종 이미지 "{0}"을(를) 읽어 들일 수 없어 축소판 이미지를 만들 수 없습니다. {1}회 다시 시도합니다.</entry>
+    <entry key="RecursivePublish">퍼블리시 함수를 포함하는 스크립트는 퍼블리시할 수 없습니다.</entry>
+    <entry key="NoFileSpecified">include 마크업에 파일 이름이 지정되지 않았습니다.</entry>
+    <entry key="MkdirFailed">출력 디렉터리 "{0}"이(가) 존재하지 않으며 만들 수 없습니다.</entry>
+    <entry key="DirNotWritable">출력 디렉터리 "{0}"에는 쓰기가 불가능합니다.</entry>
+    <entry key="FileNotWritable">출력 파일 "{0}"에는 쓰기가 불가능합니다.</entry>
+    <entry key="BeginDifferences">==== 차이점 시작 ====</entry>
+    <entry key="EndDifferences">==== 차이점 끝 ====</entry>
+    <entry key="NewSystem">새 시스템을 스냅하는 중: "{0}".</entry>
+    <entry key="NewFigure">새 Figure {0}을(를) 스냅하는 중 , "{1}".</entry>
+    <entry key="ChangedSystem">변경된 시스템을 스냅하는 중: "{0}".</entry>
+    <entry key="ChangedFigure">변경된 Figure {0}을(를) 스냅하는 중, "{1}".</entry>
+    <entry key="WordPCOnly">Microsoft Word로의 퍼블리시는 PC에서만 지원됩니다.</entry>
+    <entry key="NoWord">이 형식을 퍼블리시하려면 Microsoft Word를 설치해야 합니다.</entry>
+    <entry key="PptPCOnly">Microsoft PowerPoint로의 퍼블리시는 PC에서만 지원됩니다.</entry>
+    <entry key="NoPpt">이 형식을 퍼블리시하려면 Microsoft PowerPoint를 설치해야 합니다.</entry>
+    <entry key="PptNotReady">Microsoft PowerPoint가 시작되기를 기다리는 동안 제한 시간이 초과되었습니다</entry>
+    <entry key="WordAlreadyOpen">Word에 이미 복사본이 열려 있기 때문에 파일 "{0}"을(를) 만들 수 없습니다. 문서를 닫고 다시 시도하십시오.</entry>
+    <entry key="PublishError">퍼블리시 오류</entry>
+    <entry key="NotImplemented">구현되지 않았음: {0}</entry>
+    <entry key="invalidXmlChar">.m 파일에는 유효한 XML 1.0 표준 문자가 포함되어야 합니다.</entry>
+    <entry key="CannotWriteImage">{0}에 쓸 수 없습니다.\nFILEATTRIB 출력값은 다음과 같습니다.\n{1}</entry>
+  </message>
+</rsccat>

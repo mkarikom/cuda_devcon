@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NameMustBeString">表示のための 2 番目の入力は、表示されている変数の名前を含む文字ベクトルでなければなりません。</entry>
+    <entry key="EmptyCustomDisplayGroup">プロパティがありません。</entry>
+    <entry key="TooFewElementsInStringArray">The number of elements in string array argument must be greater than ''{0}''.</entry>
+    <entry key="EmptyStringArray">The string array argument must contain at least one element if ''{0}'' is not an empty object.</entry>
+    <entry key="AnnotationRowMismatch">The number of rows in the annotation argument must match the number of rows in the ''{0}'' argument.</entry>
+    <entry key="StringArrayRowMismatch">The number of rows in the string array argument must match the number of rows in the ''{0}'' argument.</entry>
+    <entry key="StringArrayMustBeScalar">The string array argument must be a scalar string in single line display.</entry>
+    <entry key="InvalidStringArrayDimensions">The string array argument must be a matrix.</entry>
+    <entry key="AnnotationMustBeScalar">The annotation argument must be a scalar string in single line display.</entry>
+    <entry key="CustomCompactDisplayError">''{0}'' クラスのメソッド ''{1}'' の実行中に次のエラーが発生しました。\n{2}</entry>
+    <entry key="CompactDisplayRepresentationRequired">''{0}'' must return a CompactDisplayRepresentation object.</entry>
+  </message>
+</rsccat>

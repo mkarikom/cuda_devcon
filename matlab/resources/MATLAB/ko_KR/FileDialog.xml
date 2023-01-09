@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="IncorrectInputMultiSelectValue">MultiSelect 파라미터 값은 on/off를 지정하는 문자형 벡터여야 합니다.</entry>
+    <entry key="IncorrectInputLocationValue">위치 파라미터 값은 2 요소 벡터여야 합니다.</entry>
+    <entry key="IncorrectInputUnrecognizedArgs">인식할 수 없는 입력 인수입니다.</entry>
+    <entry key="IncorrectInputTitleString">TITLE 인수는 문자형 벡터여야 합니다.</entry>
+    <entry key="IncorrectInputStartPathString">STARTPATH 인수는 문자형 벡터여야 합니다.</entry>
+    <entry key="IncorrectInputFilterSpecSize">FILTERSPEC 인수는 문자형 벡터이거나 Mx1 또는 Mx2 셀형 배열이어야 합니다.</entry>
+    <entry key="IncorrectInputFilterSpecString">FILTERSPEC 셀형 배열의 모든 요소는 문자형 벡터여야 합니다.</entry>
+    <entry key="IncorrectInputFileString">파일 인수는 문자형 벡터여야 합니다.</entry>
+    <entry key="IncorrectInputNumericY">Y 인수는 숫자형이어야 합니다.</entry>
+    <entry key="IncorrectInputNumericX">X 인수는 숫자형이어야 합니다.</entry>
+    <entry key="IncorrectInputPosition">위치(Position)에 대해 X와 Y 인수를 지정해야 합니다.</entry>
+    <entry key="ObsoletedSyntax">이 구문은 더 이상 사용되지 않습니다. 새 구문에 대해 도움말(help 명령)이나 도움말 문서(doc 명령)를 참조하십시오.</entry>
+  </message>
+</rsccat>

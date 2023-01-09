@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011-2015 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="TraversingObjectHierarchyPleaseWait">Traversing object hierarchy, please wait...</entry>
+      <entry key="CodeGenerationError">Code Generation Error</entry>
+      <entry key="GeneratingSyntaxTreePleaseWait">Generating syntax tree, please wait...</entry>
+      <entry key="GeneratingVariableListpleaseWait">Generating variable list, please wait...</entry>
+      <entry key="GeneratingFinalTextRep">Generating final text representation, please wait...</entry>
+      <entry key="CodeGeneration">Code Generation</entry>
+      <entry key="CurrentlyDoesNotSupportCodeGen">{0} currently does not support code generation, enter ''doc {1}'' for correct input syntax</entry>
+      <entry key="ValidInputObjectRequired">Valid input object required</entry>
+      <entry key="ThisObjectDoesNotSupportCodeGeneration">This object does not support code generation</entry>
+      <entry key="MLintMessagesWereDetected">The following MLint Messages were detected:\n{0}</entry>
+      <entry key="IncorrectNumberOfInputArguments">Incorrect number of input arguments.</entry>
+      <entry key="InvalidFilename">Invalid filename</entry>
+      <entry key="MLintFlagMustBeTrueOrFalse">MLint flag must be true or false</entry>
+      <entry key="DebugFlagMustBeTrueOrFalse">Debug flag must be true or false</entry>
+      <entry key="InvalidInput">Invalid input</entry>
+      <entry key="CouldNotCreateFile">Could not create file: {0}</entry>
+   </message>
+</rsccat>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- For MATLAB nufft and package functions. -->
+    <entry key="nufftNoSparseArrays">Sparse arrays are not supported.</entry>
+    <entry key="nufftSamplePointsMismatch">Sample points must have the same number of elements as the operating dimension of the first input argument.</entry>
+    <entry key="nufftnScatteredSamplePointsMismatch">The number of rows in the sample points matrix must match the number of elements in the first input argument.</entry>
+    <entry key="nufftnSamplePointsMismatch">The total number of sample points must match the number of elements in the first input argument.</entry>
+    <!-- <entry key="nufftPointSpanInf">Sample and query points must span a finite interval.</entry> -->
+    <entry key="nodesNotFullReal">Sample and query points must be full vectors of real, finite values.</entry>
+    <entry key="ndGridVectorsNotFullReal">Sample and query point grid vectors must be full vectors of real, finite values.</entry>
+    <entry key="ndScatteredNodesNotFullReal">Sample and query points specified as a matrix must be full and contain real, finite values.</entry>
+    <entry key="invalidNodeDataType">Sample and query points must be double or single.</entry>
+    <entry key="invalidGridVectorDataType">Sample and query point vectors must be double or single.</entry>
+    <!-- For package functions only. -->
+    <entry key="fmmInvalidTransformInfo">Invalid cotangent transformation information.</entry>
+    <entry key="fmmInvalidScalingOffset">Scaling offset for cotangent transformation must be a scalar.</entry>
+    <entry key="fmmInvalidScalingParameters">Invalid scaling parameters for cotangent transformation.</entry>
+    <entry key="nodeClassMismatch">Nodes must have the same floating point type as the input array.</entry>
+    <entry key="nodesNonVector">Nodes must be a vector.</entry>
+    <entry key="fmmScalingClassMismatch">Scaling factors must have the same floating point type as the input array.</entry>
+    <entry key="fmmScalingNotFull">Scaling factors must be full.</entry>
+    <entry key="fmmScalingNonVector">Scaling factors must be a vector.</entry>
+    <entry key="fmmNonComplexScaling">Scaling factors must be complex.</entry>
+    <entry key="fmmInputScalingMismatch">Input scaling factors must have the same number of elements as the number of sample points.</entry>
+    <entry key="fmmOutputScalingMismatch">Output scaling factors must have the same number of elements as the number of query points.</entry>
+    <entry key="ndGridVectorCountWrong">Number of grid vectors must be equal to the number of dimensions.</entry>
+    <entry key="ndNodeMatrixBadNumColumns">Node matrix must have as many columns as there are dimensions in the transform.</entry>
+    <entry key="ndNumDims">Number of dimensions must be a positive scalar.</entry>
+    <entry key="badGaussianParameters">Invalid Gaussian interpolant parameters.</entry>
+    <entry key="invalidGridSpecification">Invalid uniform grid specification.</entry>
+    <entry key="inputDisagreesWithDefaultGrid">Input array has an incorrect number of elements.</entry>
+    <entry key="bothPointsNonEmpty">Either the query or sample points must be empty.</entry>
+    <entry key="finalGridTooSmall">Uniform output grid must be smaller than the oversampled grid.</entry>
+  </message>
+</rsccat>

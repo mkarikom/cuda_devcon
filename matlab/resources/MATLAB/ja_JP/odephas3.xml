@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotCalledWithInit">ODEPHAS3 は、初期化されていません。構文 ODEPHAS3(tspan,y0,''init'') を使用してください。</entry>
+    <entry key="ErrorUpdatingWindow">ODEPHAS3 ウィンドウの更新中にエラーが発生しました。解のデータは破損している可能性があります。 {0}</entry>
+    <entry key="UnrecognizedFlag">認識されないフラグ ''{0}'' が ODEPHAS3 に渡されました。</entry>
+    <entry key="ButtonStop">停止</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ClassNotSupport">지원되지 않는 입력값 클래스입니다.</entry>
+    <entry key="InvalidComparisonMethod">비교 방법은 ''auto'', ''abs'' 또는 ''real''이어야 합니다.</entry>
+    <entry key="InvalidFlagPosition">옵션은 이름-값 쌍 앞에 지정해야 합니다.</entry>
+    <entry key="mixedInputs">혼합 입력값은 single형과 double형의 혼합이거나 정수와 double형 스칼라의 혼합이어야 합니다. 다른 모든 조합은 허용되지 않습니다.</entry>
+    <entry key="TwoInTwoOutCaseNotSupported">MIN으로 비교할 두 행렬에는 두 개의 출력 인수가 지원되지 않습니다.</entry>
+    <entry key="caseNotSupported">두 개의 입력 배열이 제공되는 경우 차원 인수가 지원되지 않습니다.</entry>
+    <entry key="notSupportedSparse">MIN에서는 희소 형식 정수와 단일 피연산자는 지원되지 않습니다.</entry>
+    <entry key="complexIntegersNotSupported">복소수형 정수 최솟값은 지원되지 않습니다.</entry>
+    <entry key="unknownNaNFlag">옵션은 ''omitnan'' 또는 ''includenan''이어야 합니다.</entry>
+    <entry key="unknownFlag">옵션은 ''linear'', ''omitnan'' 또는 ''includenan''이어야 합니다.</entry>
+    <entry key="unknownOption">옵션은 ''all'', ''linear'', ''omitnan'' 또는 ''includenan''이어야 합니다.</entry>
+    <entry key="secondInputFlag">두 번째 인수가 유효하지 않습니다. 옵션을 지정할 경우 MIN(X,[],option)을 사용하십시오.</entry>
+    <entry key="wrongInput">유효하지 않은 데이터형입니다. 첫 번째 인수는 숫자형이거나 논리형이어야 합니다.</entry>
+    <entry key="wrongSecondInput">유효하지 않은 데이터형입니다. 두 번째 인수는 숫자형이거나 논리형이어야 합니다.</entry>
+    <entry key="secondOutputNotSupported">두 개의 출력값을 반환하고 차원이 벡터인 경우 ''linear'' 옵션을 지정하십시오.</entry>
+    <entry key="secondOutputNotSupportedSparse">이 크기의 행렬에는 두 번째 출력값이 지원되지 않습니다.</entry>
+    <entry key="InvalidAbsRealType">''ComparisonMethod'' 파라미터는 입력 배열이 숫자형이거나 논리형일 때만 지원됩니다.</entry>
+    <entry key="secondInputNVP">두 번째 인수가 유효하지 않습니다. 이름-값 쌍을 지정할 때는 MIN(X,[],"ComparisonMethod",method)를 사용하십시오.</entry>
+  </message>
+</rsccat>

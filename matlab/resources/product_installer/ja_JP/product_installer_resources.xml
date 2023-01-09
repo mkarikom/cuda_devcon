@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2022 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="product_installer" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="agreeToLicenseErrorMsg">入力ファイルを使ってインストールするには、agreeToLicense を yes に設定して行のコメントを解除し、ライセンス許諾に同意します。</entry>
+    <entry key="fikNotProvidedErrorMsg">ファイル インストール キーが検出されません。mathworks.com のライセンス センターでキーを生成して、行のコメントを解除してください。</entry>
+    <entry key="fikInvalidMsg">有効なキーではありません。有効なキーを入手する方法の詳細については、この &lt;a HREF="https://www.mathworks.com/pi_infik_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt; を参照してください。</entry>
+    <entry key="invalidLicenseMsg">選択したライセンス ファイルは無効のようです </entry>
+    <entry key="invalidEntitlementMsg">選択したエンタイトルメントは無効のようです </entry>
+    <entry key="notALicenseFileMsg">これはライセンス ファイルではありません</entry>
+    <entry key="cannotReadLicenseFileMsg">ライセンス ファイルを読み取ることができません</entry>
+    <entry key="missingHostIDTitle">ホスト ID が見つかりません</entry>
+    <entry key="HostIDMismatchTitle">ホスト ID が一致しません</entry>
+    <entry key="missingHostIDMsg">ライセンス ファイルにホスト ID が見つかりません。インストール後に、ライセンス ファイル ({0} に配置) の SERVER 行を手動で編集する必要があります。</entry>
+    <entry key="HostIDMismatchMsg">ライセンス ファイルのホスト ID はこのコンピューター用でなければなりません。ライセンス管理者または MathWorks ライセンス センターから、このコンピューターのホスト ID ({0}) 用に生成された新しいライセンス ファイルを取得してください。</entry>
+    <entry key="invalidActivationKey">ライセンスのアクティベーション キーが無効です</entry>
+    <entry key="standardErrorTitle">エラー</entry>
+    <entry key="folderNonEnglishCharacter">フォルダー名には英語以外の文字は使用できません。</entry>
+    <entry key="folderInvalidCharacterWin">フォルダー名に {0} を含めたり、インストール先に "private" という名前を付けることはできません。</entry>
+    <entry key="folderInvalidCharacterLinuxMac">フォルダー名には、英数字と {0} のみを含めることができます。インストール先に "private" という名前を付けることはできません。</entry>
+    <entry key="folderWritePermission">選択したフォルダーに書き込めません。</entry>
+    <entry key="folderCreationFailed">指定したフォルダーの作成に失敗しました。続行するには、別のフォルダーを選択してください。</entry>
+    <entry key="folderNotAbsolutePath">インストール先フォルダーの絶対パスを指定してください。</entry>
+    <entry key="folderNotADirectory">フォルダーはディレクトリではありません。</entry>
+    <entry key="rootDriveWarningMsg">{0} が選択されています &lt;br&gt;&lt;br&gt;次の場所にインストールすることを推奨します: {1}</entry>
+    <entry key="rootDriveWarningTitle">警告</entry>
+    <entry key="controllingProductConflictMsg">選択されたフォルダーには {1} がインストールされています。{0} は別のフォルダーにインストールしなければなりません。</entry>
+    <entry key="hasUnsuccessfulInstallationMsg">指定したフォルダー内にインストールできません。既存のファイルを削除するか、別のフォルダーにインストールしてください。</entry>
+    <entry key="overwriteErrorTitle">上書きエラー</entry>
+    <entry key="overwriteErrorMsg">指定したフォルダー内にインストールできません。続行するには空のフォルダーを選択してください。</entry>
+    <entry key="selectedProductNotAvailable">次の製品のインストール ファイルは使用できません: {0}。入力ファイルでこれらの製品をコメント アウトし、インストールを再開してください。不足しているこれらの製品をインストールする必要がある場合は、MathWorks 製品インストーラーのユーザー インターフェイスにある [ダウンロードのみ] オプションをまず使用して、それらをダウンロードしてください。</entry>
+    <entry key="selectedProductNotEntitled">指定されたファイル インストール キーでは次の製品へのアクセスが許可されていません: {0}。入力ファイルでこれらの製品をコメント アウトし、インストールを再開してください。</entry>
+    <entry key="missingControllingProductsMsg">続行するには次の製品が必要です: &lt;br&gt; {0} &lt;br&gt;これらの製品をインストールに含めるには、&lt;b&gt;[追加]&lt;/b&gt; をクリックしてください。&lt;br&gt;あるいは、必要な製品が含まれるフォルダーを選択することができます。&lt;b&gt;[キャンセル]&lt;/b&gt; をクリックして &lt;b&gt;[インストール先]&lt;/b&gt; に移動してください。&lt;br&gt;</entry>
+    <entry key="missingDependentProductsMsg">選択した製品の一部は次に依存します: &lt;br&gt; {0} &lt;br&gt;これらをインストールに含めるには &lt;b&gt;[追加]&lt;/b&gt; をクリックしてください。 &lt;br&gt;これらの製品なしで続行するには &lt;b&gt;[追加しない]&lt;/b&gt; をクリックしてください。&lt;br&gt;</entry>
+    <entry key="productSelectionSpaceWarningMsg">ディスク容量が不足しています。&lt;br&gt;&lt;br&gt;場所: {0} &lt;br&gt;&lt;br&gt;必要な容量: {1} &lt;br&gt;&lt;br&gt;ディスク容量を増やすか、選択する製品を減らすか、別のインストール先を選択してください。</entry>
+    <entry key="productSelectionSpaceWarningTitle">警告</entry>
+    <entry key="missingFileTitle">エラー: ファイルが見つかりません</entry>
+    <entry key="missingInstallationFilesTitle">見つからないインストール ファイル</entry>
+    <entry key="missingInstallationFilesMsg">製品ファイルを読み込めません。製品ファイルは入力ファイルと同じフォルダー内になければなりません。製品ファイルの入手のヘルプについては、&lt;a HREF="https://www.mathworks.com/pi_noprode_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt; のインストール ドキュメンテーションを参照してください。</entry>
+    <entry key="DownloadErrorTitle">ダウンロード エラー</entry>
+    <entry key="ExtractErrorTitle">展開エラー</entry>
+    <entry key="confirmationTitle">選択の確認</entry>
+    <entry key="destinationFolderTitle">インストール先</entry>
+    <entry key="productsTitle">製品</entry>
+    <entry key="numberOfProductsSelectedMsg">{1} 件中 {0} 件の製品</entry>
+    <entry key="platformsTitle">プラットフォーム</entry>
+    <entry key="systemFailureErrorTitle">予期せぬ問題の発生</entry>
+    <entry key="systemFailureErrorMsg">この問題を解決するには、&lt;a HREF="https://www.mathworks.com/pi_gene_mpi_{0}_{1}" target="_blank"&gt;カスタマー サポート&lt;/a&gt; にお問い合わせください。</entry>
+    <entry key="authenticationHeader">認証オプション: </entry>
+    <entry key="activateNow">今すぐこのコンピューターを承認</entry>
+    <entry key="activateLater">ソフトウェアが起動するたびに認証 (サインイン)</entry>
+    <entry key="winSystemUsername">Windows のユーザー名: </entry>
+    <entry key="systemUsername">ログイン名: </entry>
+    <entry key="requiredSizeMsg">{0} が必要です</entry>
+    <entry key="connectionErrorTitle">接続エラー</entry>
+    <entry key="noProductsAlertTitle">ダウンロード エラー</entry>
+    <entry key="noProductsAlertMsg">MathWorks に接続できません。ヘルプについては、こちらの &lt;a HREF="https://www.mathworks.com/pi_dwsconn_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt; を参照してください。</entry>
+    <entry key="productExecutableRunningErrorMsg">マシン上に実行中の MATLAB セッションがあります。続行するには、実行中の MATLAB セッションをすべて閉じなければなりません。</entry>
+    <entry key="ProxyError">ユーザー名またはパスワードが無効です</entry>
+    <entry key="privacyPolicyURL">&lt;a HREF="http://www.mathworks.com/pi_uo_pi_{0}_{1}" target="_blank"&gt;詳細&lt;/a&gt;</entry>
+    <entry key="reinstallWarningTitle">既にインストール済みの製品</entry>
+    <entry key="ServiceErrorTitle">サービス エラー</entry>
+    <entry key="excessEntitlementsWarningMsg">エラー {0}: {1}。</entry>
+    <entry key="installTitle">インストール済み</entry>
+    <entry key="downloadTitle">ダウンロード済み</entry>
+    <entry key="downloadInstallerTitle">インストーラーのダウンロード中</entry>
+    <entry key="progressMessage">{0}/{1}</entry>
+    <entry key="downloadCompletedMessage">ダウンロードの完了</entry>
+    <entry key="downloadInstallerMessage">ファイルの抽出と準備を実行中...</entry>
+    <entry key="installCompletedMessage">インストール後の作業を行います。これには数分かかることがあります...</entry>
+    <entry key="LMServiceExistsMessage">{0} は既に存在しますが、別の場所にインストールされています。&lt;br&gt;新しくインストールする前にサービスを削除しなければなりません。</entry>
+    <entry key="setupLicenseManagerServiceWin">ご利用のコンピューターにはサービスとしてネットワーク ライセンス マネージャーがインストールされています。このサービスが起動されていません。{0} の実行前に (インストール フォルダーの etc\\win64 フォルダーにある) lmtools.exe を使ってライセンス マネージャーを手動で起動しなければなりません。「&lt;a HREF="http://www.mathworks.com/pi_snlm_nlm_{1}_{2}"&gt;ネットワーク ライセンス マネージャーの起動&lt;/a&gt;」を参照してください。&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupLicenseManagerFilesWin">ネットワーク ライセンス マネージャーはこのインストールの etc\\win64 フォルダーにインストールされていますが、コンピューター上でサービスとして構成されていません。{0} を実行する前に、マシンの起動時にサービスとして自動的に起動されるようライセンス マネージャーを構成しなければなりません。「&lt;a HREF="http://www.mathworks.com/pi_cnlm_nlm_{1}_{2}"&gt;ライセンス マネージャーをサービスとして設定&lt;/a&gt;」を参照してください。&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupLicenseManagerLinux">ネットワーク ライセンス マネージャーはインストールされていますが、起動されていません。{0} を実行する前に、ライセンス マネージャーを手動で起動しなければなりません。「&lt;a HREF="http://www.mathworks.com/pi_snlm_nlm_{1}_{2}"&gt;ネットワーク ライセンス マネージャーの起動&lt;/a&gt;」を参照してください。ライセンス マネージャーが自動的に起動されるように構成するには、同じセクションの説明を参照してください。&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupLicenseManagerMac">ネットワーク ライセンス マネージャーはインストールされていますが、起動されていません。{0} を実行する前に、ライセンス マネージャーを手動で起動しなければなりません。「&lt;a HREF="http://www.mathworks.com/pi_snlm_nlm_{1}_{2}"&gt;ネットワーク ライセンス マネージャーの起動&lt;/a&gt;」を参照してください。ライセンス マネージャーが自動的に起動されるように構成するには、同じセクションの説明を参照してください。&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="installerDownloadFailedTitle">ダウンロード エラー</entry>
+    <entry key="installerDownloadFailedMessage">インストーラーのダウンロード中にエラーが発生しました。&lt;br&gt;&lt;br&gt;ヘルプについては、こちらの &lt;a HREF="https://www.mathworks.com/pi_dwe_pi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt; を参照するか、&lt;a HREF="https://www.mathworks.com/pi_gene_mpi_{0}_{1}" target="_blank"&gt;MathWorks サポート&lt;/a&gt;までお問い合わせください。</entry>
+    <entry key="missingInstallationFilesInteractiveMsg">要求された製品ファイルを読み込むことができません。&lt;br&gt;ヘルプについては、こちらの &lt;a HREF="https://www.mathworks.com/pi_noprode_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt; を参照してください。</entry>
+    <entry key="productDependenciesTitle">製品の依存関係</entry>
+    <entry key="missingControllingProductNotInstallableMsg">続行するには、以下の製品がインストールされているインストール先を選択しなければなりません。&lt;br&gt; &lt;br&gt; {0} &lt;br&gt;</entry>
+    <entry key="missingDependentProductNotInstallableMsg">&lt;b&gt;[キャンセル]&lt;/b&gt; をクリックしてから、次の製品がインストールされているインストール先を選択します。&lt;br&gt; &lt;br&gt; {0} &lt;br&gt;これらの依存関係なしでインストールするには、&lt;b&gt;[続行]&lt;/b&gt; をクリックします。</entry>
+    <entry key="folderContainsUsersDefaultAppData">Unable to install into the user profile folder. To continue, select a different folder.</entry>
+    <entry key="folderIsInstallerRoot">Unable to install into the same folder as the installer. To continue, select a different folder.</entry>
+    <entry key="missingFileMessage">Unable to find:&lt;br&gt;{0}&lt;br&gt;&lt;br&gt;Learn more:&lt;a HREF="https://www.mathworks.com/pi_siae_mpi_{1}_{2}"&gt;MATLAB Answer&lt;/a&gt;&lt;br&gt;For help:&lt;a HREF="https://www.mathworks.com/pi_gene_mpi_{1}_{2}" target="_blank"&gt;MathWorks Support&lt;/a&gt;.</entry>
+    <entry key="DownloadErrorMsg">There was an error downloading product files.&lt;br&gt;Check your internet connection and then rerun the Installer.&lt;br&gt;&lt;br&gt;For help, see this &lt;a HREF="https://www.mathworks.com/pi_siae_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;&lt;br&gt;.</entry>
+    <entry key="ExtractErrorMsg">There was an error while extracting product files.&lt;br&gt;Try rerunning the Installer.&lt;br&gt;&lt;br&gt;For help, see this &lt;a HREF="https://www.mathworks.com/pi_siae_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;&lt;br&gt;.</entry>
+    <entry key="progressErrorMsg">Something unexpected occurred.&lt;br&gt;Try rerunning the Installer.&lt;br&gt;&lt;br&gt;For help, see this &lt;a HREF="https://www.mathworks.com/pi_siae_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;&lt;br&gt;.</entry>
+    <entry key="connectionErrorMsg">Unable to connect to MathWorks.&lt;br&gt;For more information on resolving this issue, see this &lt;a HREF="http://www.mathworks.com/pi_ce_pi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;.</entry>
+    <entry key="reinstallWarningMsg">All selected products are already installed.&lt;br&gt;&lt;br&gt;To reinstall products, see this &lt;a HREF="https://www.mathworks.com/pi_reinst_mpi_{0}_{1}"&gt;MATLAB Answer.&lt;/a&gt;.</entry>
+    <entry key="installerExtractionInstruction">For instructions on how to extract installers for non-Windows platforms, see this &lt;a HREF="https://www.mathworks.com/pi_dwe_pi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;.&lt;br&gt;</entry>
+  </message>
+</rsccat>

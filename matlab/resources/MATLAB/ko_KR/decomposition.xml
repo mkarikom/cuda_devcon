@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidA">인수는 double형 또는 single형 행렬이어야 합니다.</entry>
+    <entry key="InvalidAForBanded">분해 유형 ''banded''에서 행렬은 double형 정사각 행렬이어야 합니다.</entry>
+    <entry key="InvalidAForChol">촐레스키 분해(Cholesky Decomposition)에서 입력 행렬은 양의 정부호 에르미트(Hermitian) 행렬이어야 합니다. 옵션 ''upper'' 또는 ''lower''를 사용하여 입력 행렬의 일부를 무시하십시오.</entry>
+    <entry key="InvalidAForCholSquare">촐레스키 분해에서 입력 행렬은 양의 정부호 에르미트 정사각 행렬이어야 합니다.</entry>
+    <entry key="InvalidAForCholSPD">촐레스키 분해(Cholesky Decomposition)에서 입력 행렬은 양의 정부호 행렬이어야 합니다.</entry>
+    <entry key="InvalidAForDiagonal">입력 행렬은 정사각 대각 행렬이어야 합니다.</entry>
+    <entry key="InvalidAForHessenberg">헤센베르크 분해(Hessenberg Decomposition)에는 바로 아래 하부대각선을 하나 가진 상부 삼각 형식의 조밀 입력 행렬이 필요합니다.</entry>
+    <entry key="InvalidAForLDL">LDL 분해에서 입력 행렬은 에르미트(Hermitian) 행렬이어야 합니다. 또는 옵션 ''upper'' 또는 ''lower''를 사용하여 입력 행렬의 일부를 무시하십시오.</entry>
+    <entry key="InvalidAForLDLSquare">LDL 분해에서 입력 행렬은 에르미트 정사각 행렬이어야 합니다.</entry>
+    <entry key="InvalidAForLDLDiag">LDL 분해에서 입력 행렬의 대각선은 실수여야 합니다.</entry>
+    <entry key="InvalidAForLU">LU 분해에서 입력 행렬은 정사각 행렬이어야 합니다.</entry>
+    <entry key="InvalidAForPermTriang">입력 행렬은 정사각 삼각 행렬의 치환 행렬이어야 합니다.</entry>
+    <entry key="InvalidAForTriang">입력 행렬은 삼각 행렬이어야 합니다. 입력 행렬의 일부를 무시하려면 옵션 ''upper'' 또는 ''lower''를 사용하십시오.</entry>
+    <entry key="InvalidAForTriangSquare">분해 유형 ''triangular''에서 입력 행렬은 정사각 행렬이어야 합니다.</entry>
+    <entry key="InvalidB">유효하지 않은 데이터형입니다. 인수는 double형 행렬 또는 single형 행렬이어야 합니다.</entry>
+    <entry key="InvalidDivisor">분해 객체는 double형 또는 single형의 스칼라 숫자로만 나눌 수 있습니다.</entry>
+    <entry key="InvalidLUPivot">''LUPivotTolerance'' 값은 스칼라 또는 요소를 2개 가진 벡터여야 합니다.</entry>
+    <entry key="InvalidMult">분해 객체에는 double형 또는 single형의 스칼라 숫자만 곱할 수 있습니다.</entry>
+    <entry key="LoadNotSupported">분해 객체는 불러올 수 없습니다. 불러온 객체는 빈 행렬에 대한 분해입니다.</entry>
+    <entry key="mldivide">행렬의 차원이 일치해야 합니다.</entry>
+    <entry key="mrdivide">행렬의 차원이 일치해야 합니다.</entry>
+    <entry key="NameWithoutValue">입력 인수의 개수가 올바르지 않습니다. 각 파라미터 이름 다음에는 대응값이 와야 합니다.</entry>
+    <entry key="QRmldivideTransp">분해 유형이 ''qr'인 경우에는 전치된 분해에 백슬래시를 사용할 수 없습니다. 유형 ''cod''를 사용하거나 전치된 행렬에 대한 분해를 구성하십시오.</entry>
+    <entry key="QRmrdivideTransp">슬래시는 분해 유형 ''qr''에서의 전치된 분해에만 사용할 수 있습니다. 유형 ''cod''를 사용하거나 전치된 행렬에 대한 분해를 구성하십시오.</entry>
+    <entry key="RcondNotSupported">''qr'' 유형 또는 ''cod'' 유형 분해는 지원되지 않습니다.</entry>
+    <entry key="RankNotSupported">유형 ''qr'' 또는 ''cod''의 분해에서만 지원됩니다.</entry>
+    <entry key="SaveNotSupported">분해 객체를 저장하는 것은 지원되지 않습니다.</entry>
+    <entry key="TransposeNotSupported">전치 연산자 .'는 분해에 사용할 수 없습니다. 켤레 복소수 전치 연산자 '를 대신 사용하십시오.</entry>
+    <entry key="genericError">Decomposition built-in error: {0}</entry>
+  </message>
+</rsccat>

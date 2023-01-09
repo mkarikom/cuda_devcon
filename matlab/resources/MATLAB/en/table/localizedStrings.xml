@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+<!--
+These two messages control the bold variable name headings in table's command
+window display, see g1092675. They should be translated to ja_JP, ko_KR and
+zh_CN as blank strings.
+-->
+    <entry key="StrongBegin" note="This key has already been translated by the developers and placed in the respective file.">&lt;strong&gt;</entry>
+    <entry key="StrongEnd" note="This key has already been translated by the developers and placed in the respective file.">&lt;/strong&gt;</entry>
+  </message>
+</rsccat>

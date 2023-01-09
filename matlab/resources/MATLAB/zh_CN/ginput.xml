@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NeedPositiveInt">需要正整数。</entry>
+    <entry key="InputArgumentZero">GINPUT(N) 需要正整数标量输入。将返回且不会收集任何用户输入。\n在未来的版本中，这将变为错误</entry>
+    <entry key="Interrupted">已中断</entry>
+    <entry key="FigureDeletionPause">已被图窗删除操作中断</entry>
+    <entry key="FigureUnavailable">没有可用于处理鼠标/键事件的图窗</entry>
+    <entry key="InvalidSelection">鼠标选择无效。</entry>
+  </message>
+</rsccat>

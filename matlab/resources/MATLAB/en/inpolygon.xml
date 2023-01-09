@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="PolygonVecDef">Polygon must be defined by vectors (XV, YV).</entry>
+    <entry key="ModelingWorldLower">The results from INPOLYGON may not be reliable. The size of the polygon is approaching the lower limit of what can be handled with reasonable accuracy.</entry>
+    <entry key="ModelingWorldUpper">The results from INPOLYGON may not be reliable. The size of the polygon is approaching the upper limit of what can be handled with reasonable accuracy.</entry>
+    <entry key="InvalidLoopDef">NaN separated edge loop definitions are not consistent in x and y.</entry>
+  </message>
+</rsccat>

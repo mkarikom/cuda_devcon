@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="EmptyDate" note="stringDatatypeUpdate">Usage of DATENUM with empty date character vectors or empty strings is not supported.\nResults may change in future versions.</entry>
+    <entry key="NotAStringArray" note="stringDatatypeUpdate">The input to DATENUM was not an array of character vectors or strings.</entry>
+    <entry key="YearFormat">Unrecognized year format</entry>
+    <entry key="Nargin">Incorrect number of arguments</entry>
+    <entry key="InconsistentInputs">Input arguments to DATENUM must match in size or be scalars.</entry>
+    <entry key="Failed">DATENUM failed.</entry>
+    <entry key="InputMustBeReal">Numeric input data must be real.</entry>
+  </message>
+</rsccat>

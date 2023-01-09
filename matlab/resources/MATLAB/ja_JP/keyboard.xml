@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="HandlerUnavailable">利用可能なキーボード コマンドはありません。</entry>
+    <entry key="IllegalArgument">不正な引数が keyboard コマンドに渡されました。</entry>
+    <entry key="NotAvailableInDemo">コマンドは、デモのバージョンで利用できません。</entry>
+    <entry key="NotAvailableInEngine">keyboard コマンドは、エンジンとして MATLAB を使った場合は利用できません。</entry>
+  </message>
+</rsccat>

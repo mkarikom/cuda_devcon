@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WhatsThis">这是什么</entry>
+    <entry key="SpecifyTimeVector">指定时间向量</entry>
+    <entry key="TimevectorSource">时间向量源</entry>
+    <entry key="CurrentVariable">当前变量</entry>
+    <entry key="DefineItNow">立即定义它</entry>
+    <entry key="AnotherVariable">另一变量</entry>
+    <entry key="TimeVectorObtainedUseDropdown">可以从不同源获得时间向量。使用该下拉列表选择源类型和配置以下源。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FunFailed">関数 ''{0}'' を変数 ''{1}'' に適用した際に、次のエラーが発生しました:\n\n{2}\n</entry>
+    <entry key="NotAScalarOutput">関数 ''{0}'' は、変数 ''{1}'' への適用時に非スカラーの値を返しました。</entry>
+    <entry key="MismatchInOutputTypes">関数 ''{0}'' は、変数 ''{3}'' への適用時に不整合な型 ({1}、想定は {2}) の値を返しました。</entry>
+    <entry key="VertcatFailed">関数 ''{0}'' を変数 ''{1}'' 内のグループに適用する際に返される、相互に不適合な値を連結できません:\n\n{2}\n</entry>
+    <entry key="InvalidFunction">最初の入力は関数ハンドルでなければなりません。</entry>
+    <entry key="InvalidOutputFormat">OUTPUTFORMAT は次のいずれかでなければなりません: 'uniform'、'table'、または 'cell'。</entry>
+    <entry key="InvalidInputVariablesFun">INPUTVARIABLES は論理スカラーを返さなければなりません。</entry>
+    <entry key="CharRowFunOutput">FUN から 1 行 M 列の文字ベクトルが返されました。文字ベクトルのセル配列を返すように FUN を変更するか、''OutputFormat'' パラメーターに ''cell'' を指定しなければなりません。</entry>
+    <entry key="TimetableCannotGrow">関数 ''{0}'' が、入力の timetable より多い行数で値を返しました。出力形式が 'timetable' である場合、varfun は余分な行に対し新しい行時間を作成できません。timetable の代わりに table を返すには、'OutputFormat' を 'table' に設定してください。</entry>
+    <entry key="RowLabelsCannotBeDataVar">行名は、データ変数としてはサポートされていません。</entry>
+    <entry key="RowLabelsCannotBeDataVarNondefaultName">認識されない変数名 ''{0}'' です。この table で ''{1}'' という名前が付けられている行名にアクセスしようとした可能性があります。しかし、行名はデータ変数としてはサポートされていません。</entry>
+    <entry key="FunFailedGrouped">関数 ''{0}'' を変数 ''{2}'' の {1} グループに適用した際に、次のエラーが発生しました。\n\n{3}\n</entry>
+    <entry key="NotAScalarOutputGrouped">関数 ''{0}'' は、変数 ''{2}'' の {1} グループへの適用時に非スカラーの値を返しました。</entry>
+    <entry key="MismatchInOutputTypesGrouped">関数 ''{0}'' は、変数 ''{4}'' の {3} グループへの適用時に不整合な型 ({1}、想定は {2}) の値を返しました。</entry>
+    <entry key="GroupRowsMismatch">関数 ''{0}'' は、変数 ''{2}'' の {1} グループに適用した際に、異なる行数をもつ値を返しました。</entry>
+    <entry key="NonConstantFun">FUN は定数でなければなりません。</entry>
+    <entry key="VarsizeInput">varfun で可変サイズの table または timetable はサポートされていません。</entry>
+    <entry key="NonConstantParamValue">''{0}'' の値は定数でなければなりません。</entry>
+    <entry key="NonConstantInputVarsFun">関数ハンドルを使用して InputVariables を指定する場合、関数の出力は定数でなければなりません。</entry>
+    <entry key="ErrorHandlerNotSupported">Error Handler is not supported for code generation.</entry>
+    <entry key="GroupedMixedTypes">GroupingVariables が指定されており、関数が各 InputVariable に対して異なる型を返す場合、コード生成では、OutputFormat 'cell' はサポートされていません。</entry>
+  </message>
+</rsccat>

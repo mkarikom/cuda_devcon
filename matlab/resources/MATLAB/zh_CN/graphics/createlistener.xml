@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="HG1Obj">对象为无效图形对象</entry>
+    <entry key="OldEvent">仅接受 HG2 事件</entry>
+    <entry key="InvalidHObj">第一个输入必须为图形句柄或图形句柄向量。</entry>
+    <entry key="InvalidCallback">回调必须为函数句柄。</entry>
+    <entry key="InvalidPropertyName">属性名称不能为元胞数组</entry>
+    <entry key="InvalidPropertyEvent">PropEvent 的值无效。</entry>
+    <entry key="HG2Obj">对象为无效图形对象</entry>
+  </message>
+</rsccat>

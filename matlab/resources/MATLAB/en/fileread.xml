@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="filenameNotString">Filename must be a string scalar or character vector.</entry>
+    <entry key="emptyFilename">Filename must not be empty.</entry>
+    <entry key="cannotOpenFile">Could not open file {0}. {1}.</entry>
+  </message>
+</rsccat>

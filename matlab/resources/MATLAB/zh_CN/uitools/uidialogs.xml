@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFigureHandle">图窗句柄无效或已删除。第一个参数必须为有效的图窗句柄</entry>
+    <entry key="NotAnAppWindowHandle">第一个参数必须为使用 uifigure 函数创建的图窗句柄。</entry>
+    <entry key="InvisibleFigure">图窗句柄的 ''Visible'' 值必须为 ''on''。</entry>
+    <entry key="InvisibleAppContainer">AppContainer 句柄 ''Visible'' 值必须为 true</entry>
+    <entry key="InvalidMessageText">''Message'' 必须为字符数组、字符串数组或字符向量元胞数组。</entry>
+    <entry key="InvalidTitleText">''Title'' 必须为字符数组或字符串标量。</entry>
+    <entry key="IncorrectNameValuePairs">名称-值对组的数目不正确。每个参数名称必须后跟相应的值。</entry>
+    <entry key="IncorrectParameter">参数名称必须为字符向量或字符串标量。</entry>
+    <entry key="IncorrectParameterName">参数名称 ''{0}'' 无效。有效名称为 ''{1}''。</entry>
+    <entry key="InvalidIconSpecified">图标值必须为 'error'、'warning'、'info'、'question'、'success'、'none'、有效文件路径或 m×n×3 颜色数据矩阵。</entry>
+    <entry key="invalidFourStringEnum">''{0}'' 值必须为 ''{1}''、''{2}''、''{3}'' 或 ''{4}''。</entry>
+    <entry key="UnableToReadIconFile">无法读取图标文件。继续而不读取图标文件。</entry>
+    <entry key="InvalidModalValue">''Modal'' 值必须为 true 或 false。</entry>
+    <entry key="InvalidCloseFcnValue">''CloseFcn'' 值必须为字符向量、函数句柄，或者为包含字符向量或函数句柄的元胞数组。</entry>
+    <entry key="ErrorEvaluatingCloseFcn">计算对话框的 ''CloseFcn'' 时出错。\n\n{0}\n</entry>
+    <entry key="OK">确定</entry>
+    <entry key="Cancel">取消</entry>
+    <entry key="CancelRequested">已请求取消</entry>
+    <entry key="InvalidOptionsValue">选项值必须为包含 1 个选项的字符向量或字符串标量，或是包含 1 到 4 个选项的字符向量元胞数组或字符串数组。</entry>
+    <entry key="InvalidDefaultOption">''{0}'' 必须为 'Options' 元胞数组中的字符向量或字符串标量，或者为 'Options' 元胞数组的索引</entry>
+    <entry key="errorInWeb">
+             
+            无法打开 URL ''{0}'': {1}
+        </entry>
+    <entry key="errorInWebEmpty"> 无法打开没有有效 URL 方案的 URL。
+        </entry>
+  </message>
+</rsccat>

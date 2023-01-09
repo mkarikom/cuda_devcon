@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DeletedParent">지정한 부모는 삭제된 그래픽스 객체입니다.</entry>
+    <entry key="IncorrectInputArgs">geoaxes를 생성하기 위한 입력값이 잘못되었습니다.</entry>
+    <entry key="InvalidObject">geoaxes 객체가 유효하지 않습니다.</entry>
+    <entry key="NoAncestorFigure">객체의 부모가 아직 Figure로 설정되지 않았습니다.</entry>
+  </message>
+</rsccat>

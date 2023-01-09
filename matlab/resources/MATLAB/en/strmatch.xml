@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidShape">The first argument to STRMATCH should be a row vector when using flag ''exact''.</entry>
+    <entry key="InvalidInput" note="stringDatatypeUpdate">Requires character array or cell array of character vectors as inputs.</entry>
+    <entry key="InvalidFlagInput" note="stringDatatypeUpdate">FLAG must be a character vector.</entry>
+    <entry key="InvalidFlagType" note="stringDatatypeUpdate">The third argument to STRMATCH is not valid and will not be recognized in a future version of MATLAB. Use the character vector ''exact'' instead.</entry>    
+    <entry key="InvalidFlag">Use flag ''exact'' in place of ''{0}''. Flag ''{1}'' is not valid and will not be recognized in a future version of MATLAB.</entry>    
+</message>
+</rsccat>

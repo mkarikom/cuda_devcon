@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="valuesConvertedToEmpty">memmapfile 객체를 지우면 MATLAB 메모리 부족 오류가 발생할 수 있습니다. 복구하려면 객체의 데이터 필드에서 파생된 하나 이상의 MATLAB 값을 빈 배열로 변경해야 합니다. 계속하기 전에 변수를 검토하고 확인해야 합니다.</entry>
+    <entry key="usage">사용법: remainingRefCount = memunmap(memstruct).</entry>
+    <entry key="cannotUnmap">지정된 파일/세그먼트의 매핑을 해제하지 못했습니다.</entry>
+  </message>
+</rsccat>

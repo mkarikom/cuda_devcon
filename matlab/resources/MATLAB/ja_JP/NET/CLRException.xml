@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MethodInvoke">{0}</entry>
+    <entry key="DelegateConstructor">{0}</entry>
+    <entry key="DelegateCombineMethod">{0}</entry>
+    <entry key="DelegateRemoveAllMethod">{0}</entry>
+    <entry key="DelegateRemoveMethod">{0}</entry>
+    <entry key="PropertyGet">{0}</entry>
+    <entry key="PropertySet">{0}</entry>
+    <entry key="FieldGet">{0}</entry>
+    <entry key="FieldSet">{0}</entry>
+    <entry key="CloneObject">{0}</entry>
+    <entry key="AddEnumerations">{0}</entry>
+    <entry key="AddSuperClasses">{0}</entry>
+    <entry key="AddConstructors">{0}</entry>
+    <entry key="AddProperties">{0}</entry>
+    <entry key="AddFields">{0}</entry>
+    <entry key="AddMethods">{0}</entry>
+    <entry key="AddEvents">{0}</entry>
+    <entry key="AddArrayConversions">{0}</entry>
+    <entry key="CreateObject">{0}</entry>
+    <entry key="BuildGenericType">{0}</entry>
+    <entry key="AddEventListener">{0}</entry>
+    <entry key="InvokeGenericMethod">{0}</entry>
+    <entry key="TypeError">{0}</entry>
+    <entry key="AddAssembly">{0}</entry>
+  </message>
+</rsccat>

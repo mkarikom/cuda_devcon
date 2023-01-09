@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badstartdate">您要添加的时序必须具有有效的 StartDate 属性。</entry>
+    <entry key="ignorestartdate">由于 tscollection 不使用日期，您要添加的时序 StartDate 属性已被忽略。</entry>
+    <entry key="badtime">您要添加的时序的时间向量必须与 tscollection 时间向量匹配。</entry>
+    <entry key="classchange">已添加时序的 TimeInfo 属性已更改为与 tscollection 匹配。</entry>
+  </message>
+</rsccat>

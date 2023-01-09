@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotDAG">Directed graph must be acyclic.</entry>
+    <entry key="ParseFlag">Parameter name must be ''Order''.</entry>
+    <entry key="ParseType">Order value must be ''fast'' or ''stable''.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RecursionLimitExceeded">侦听器以递归方式引发其触发事件的次数超出了其递归限制值 {0,number,integer}。</entry>
+    <entry key="MaximumRecursion">超出侦听器递归限制。\n侦听器操作被提前终止。\n\n</entry>
+  </message>
+</rsccat>

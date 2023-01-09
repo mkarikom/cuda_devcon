@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidNumberInputs">必须为 1 个、3 个或 4 个数值输入参数。</entry>
+    <entry key="InvalidNumberComponents">权重向量 k 必须具有四个分量。</entry>
+    <entry key="InvalidInput">X、Y 和 Z 必须至少为 3×3。</entry>
+    <entry key="MustSpecifyS">必须使用 [AZ,EL] 或 [Sx,Sy,Sz] 指定 S。</entry>
+    <entry key="UnknownLightingMethod">未知的光照方法 "{0}"。</entry>
+  </message>
+</rsccat>

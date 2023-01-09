@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadInput">参数必须为字符向量、字符串标量或函数句柄。</entry>
+    <entry key="doesNotApplyTextAnswer">{0} 不知道如何答复 nargin/nargout。</entry>
+    <entry key="doesNotApplyTextInformation">MATLAB 没有 {0} 的 nargin/nargout 信息</entry>
+    <entry key="functionDoesnotExist">函数 {0} 不存在。</entry>
+    <entry key="invalidType">{0} 不是有效类型。</entry>
+    <entry key="NoStack">您只能从 MATLAB 函数中调用 nargin/nargout。</entry>
+    <entry key="notValidMfile">不是有效的 MATLAB 文件。</entry>
+    <entry key="unknown">只有当调用函数也显式使用 nargin/nargout 时，您才能调用 nargin/nargout。</entry>
+    <entry key="unsupportedType">{0} 不支持类型 {1}。</entry>
+    <entry key="doesNotApply">{0}</entry>
+  </message>
+</rsccat>

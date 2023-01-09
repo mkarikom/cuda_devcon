@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EndValuesInvalidMethod">''EndValues'' 값은 ''extrap'', ''previous'', ''next'', ''nearest'', ''none'', 상수 중 하나여야 합니다.</entry>
+    <entry key="FirstInputInvalid">첫 번째 인수는 숫자형, 논리형, datetime형, duration형, calendarDuration형, string형, categorical형, 문자형, cellstr형, table형, timetable형 중 하나여야 합니다.</entry>
+    <entry key="CharRowVector">문자형 채우기 상수는 행 벡터여야 합니다.</entry>
+    <entry key="ConstantCalendarDuration">채우기 상수는 calendarDuration형이어야 합니다.</entry>
+    <entry key="ConstantCalendarDurationExtrap">''EndValues'' 값은 calendarDuration형이어야 합니다.</entry>
+    <entry key="ConstantCategorical">채우기 상수는 categorical형 배열, string형 배열, 문자형 행 벡터 또는 문자형 행 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="ConstantCategoricalCatMismatch">첫 번째 인수와 채우기 상수는 동일한 순서로 된 동일한 범주를 포함해야 합니다.</entry>
+    <entry key="ConstantCategoricalExtrap">categorical형 배열에는 ''EndValues'' 채우기 상수를 사용할 수 없습니다.</entry>
+    <entry key="ConstantCategoricalOrdMismatch">첫 번째 인수와 채우기 상수는 모두 순서형이거나 모두 순서형이 아니어야 합니다.</entry>
+    <entry key="ConstantCellstr">채우기 상수는 문자형 행 벡터이거나 문자형 행 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="ConstantCellstrExtrap">문자형 행 벡터로 구성된 셀형 배열에는 ''EndValues'' 채우기 상수를 사용할 수 없습니다.</entry>
+    <entry key="ConstantChar">채우기 상수는 문자형 배열이어야 합니다.</entry>
+    <entry key="ConstantCharExtrap">문자형 배열에는 ''EndValues'' 채우기 상수를 사용할 수 없습니다.</entry>
+    <entry key="ConstantDatetime">채우기 상수는 datetime형이어야 합니다.</entry>
+    <entry key="ConstantDatetimeExtrap">''EndValues'' 값은 datetime형이어야 합니다.</entry>
+    <entry key="ConstantDuration">채우기 상수는 duration형이어야 합니다.</entry>
+    <entry key="ConstantDurationExtrap">''EndValues'' 값은 duration형이어야 합니다.</entry>
+    <entry key="constantInput">입력 인수가 부족합니다. ''constant'' 메서드 다음에 채우기 값(Fill value)을 지정하십시오.</entry>
+    <entry key="ConstantNumeric">채우기 상수는 숫자형이거나 논리형이어야 합니다.</entry>
+    <entry key="ConstantNumericExtrap">''EndValues'' 값은 숫자형이거나 논리형이어야 합니다.</entry>
+    <entry key="ConstantString">채우기 상수는 string형이거나 string형 배열이어야 합니다.</entry>
+    <entry key="ConstantStringExtrap">string형 배열에는 ''EndValues'' 채우기 상수를 사용할 수 없습니다.</entry>
+    <entry key="ConstantInvalidTypeExtrap">''EndValues'' 값은 숫자형, datetime형, duration형, calendarDuration형 중 하나여야 합니다.</entry>
+    <entry key="ConstantInvalidType">유효하지 않은 채우기 상수 유형입니다.</entry>
+    <entry key="ConstantInvalidTypeForTableVariable">테이블 변수 {0}에 유효하지 않은 채우기 상수 유형입니다.</entry>
+    <entry key="DataVariablesArray">''DataVariables'' 파라미터는 테이블 입력값에 대해서만 지원됩니다.</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' 함수 핸들은 논리형 스칼라를 반환해야 합니다.</entry>
+    <entry key="DataVariablesTableSubscript">유효하지 않은 ''DataVariables'' 값입니다.</entry>
+    <entry key="DimensionInvalid">차원은 양의 정수여야 합니다.</entry>
+    <entry key="DimensionTable">첫 번째 인수가 table형이나 timetable형이면 Dimension 파라미터가 지원되지 않습니다.</entry>
+    <entry key="FunctionHandleEmptyInput">처음 두 개의 입력 인수가 비어 있는 경우 함수 핸들에 대한 호출은 유효하지 않습니다.</entry>
+    <entry key="FunctionHandleInput">입력 인수가 부족합니다. 함수 핸들 다음에 윈도우 크기를 지정하십시오.</entry>
+    <entry key="FunctionHandleNumberOfArguments">함수 핸들에는 적어도 3개의 입력 인수가 있어야 합니다.</entry>
+    <entry key="FunctionHandleInvalidOutputSize">함수 핸들 출력값의 길이는 1이거나 누락값 간격의 길이여야 합니다.</entry>
+    <entry key="FunctionHandleInvalidOutputType">함수 핸들의 출력값은 입력 데이터형과 일치해야 합니다.</entry>
+    <entry key="FunctionHandleInvalidWindow">윈도우 길이는 유한한 양의 스칼라이거나 음이 아닌 유한한 스칼라로 구성된, 요소를 2개 가진 벡터여야 합니다.</entry>
+    <entry key="FunctionHandleInvalidWindowDuration">윈도우 길이는 유한한 양의 스칼라이거나 음이 아닌 유한한 duration형 스칼라로 구성된, 요소를 2개 가진 벡터여야 합니다.</entry>
+    <entry key="HeterogeneousTable">차원 인수가 2인 경우 모든 테이블 변수는 동일한 유형이어야 합니다.</entry>
+    <entry key="HeterogeneousTableWithND">차원 인수가 2인 경우 모든 테이블 변수는 열 벡터여야 합니다.</entry>
+    <entry key="InterpolationInvalidArray">{1} 배열에는 ''{0}'' 채우기 방법을 사용할 수 없습니다.</entry>
+    <entry key="InterpolationInvalidTableVariable">''{0}'' 채우기 방법이 지원되지 않는 변수 유형이 테이블에 포함되어 있습니다.</entry>
+    <entry key="MaxGapDurationInvalid">''MaxGap'' data type must be compatible with ''SamplePoints'' data type.</entry>
+    <entry key="MaxGapInvalid">''MaxGap'' must be a positive numeric, duration, or calendarDuration scalar.</entry>
+    <entry key="MaxGapMissingLocations">''MaxGap'' is not supported when ''MissingLocations'' is specified.</entry>
+    <entry key="MethodInvalid">채우기 방법은 ''constant'', ''function_hande'', ''previous'', ''next'', ''nearest'', ''linear'', ''spline'', ''pchip'', ''makima'', ''movmean'' 또는 ''movmedian''이어야 합니다.</entry>
+    <entry key="MissingLocationsInteger">정수 입력값 또는 논리형 입력값과 함께 ''MissingLocations''를 사용하는 경우 채우기 방법은 ''constant'', ''function_handle'', ''previous'', ''next'' 또는 ''nearest''여야 합니다.</entry>
+    <entry key="MissingLocationsInvalid">''MissingLocations'' 값은 첫 번째 인수와 동일한 크기를 갖는 논리형 배열이어야 합니다.</entry>
+    <entry key="movmeanInput">입력 인수가 부족합니다. ''movmean'' 메서드 다음에 윈도우 크기를 지정하십시오.</entry>
+    <entry key="movmedianInput">입력 인수가 부족합니다. ''movmedian'' 메서드 다음에 윈도우 크기를 지정하십시오.</entry>
+    <entry key="NameValueNames">파라미터 이름은 ''EndValues'', ''SamplePoints'', ''DataVariables'', ''MissingLocations'' 또는 ''MaxGap''이어야 합니다.</entry>
+    <entry key="NameValuePairs">입력 인수의 개수가 올바르지 않습니다. 파라미터 이름과 값은 쌍으로 있어야 합니다.</entry>
+    <entry key="SamplePointsComplex">''SamplePoints'' 값은 실수여야 합니다.</entry>
+    <entry key="SamplePointsDuplicate">''{0}'' 값에 중복 항목이 있습니다.</entry>
+    <entry key="SamplePointsInvalidDatatype">''SamplePoints'' 값은 double형 벡터, single형 벡터, duration형 벡터, datetime형 벡터 중 하나여야 합니다.</entry>
+    <entry key="SamplePointsLength">''SamplePoints'' 값은 요소를 {0,number,integer}개 가진 벡터여야 합니다.</entry>
+    <entry key="SamplePointsNonFinite">{0} 값에 Inf 또는 {1}이(가) 포함되어 있습니다.</entry>
+    <entry key="SamplePointsSingle">duration형 배열과 datetime형 배열에는 single형의 ''SamplePoints''를 사용할 수 없습니다.</entry>
+    <entry key="SamplePointsSorted">''{0}'' 값은 오름차순으로 정렬되어야 합니다.</entry>
+    <entry key="SamplePointsSparse">''SamplePoints'' 값은 비희소 형식이어야 합니다.</entry>
+    <entry key="SamplePointsTimeTable">첫 번째 인수가 timetable형인 경우에는 ''SamplePoints'' 파라미터가 지원되지 않습니다.</entry>
+    <entry key="SizeConstantScalar">채우기 상수는 스칼라여야 합니다.</entry>
+    <entry key="SizeConstantScalarExtrap">''EndValues'' 값은 스칼라여야 합니다.</entry>
+    <entry key="SizeConstant">채우기 상수는 스칼라이거나 요소를 {0,number,integer}개 가진 벡터여야 합니다.</entry>
+    <entry key="SizeConstantExtrap">''EndValues'' 값은 스칼라이거나 요소를 {0,number,integer}개 가진 벡터여야 합니다.</entry>
+    <entry key="UnsupportedTableVariable">{0} 유형의 테이블 변수는 지원되지 않습니다.</entry>
+    <entry key="WinsizeNotDuration">유효하지 않은 데이터형입니다. ''SamplePoints'' 값이 {0}인 경우 윈도우 크기는 duration형이어야 합니다.</entry>
+    <entry key="makimaNotSupported">코드를 생성하려면 'makima' 채우기 방법을 사용할 수 없습니다.</entry>
+    <entry key="InvalidInputsCodegen">첫 번째 인수는 숫자형, 논리형, duration형, datetime형, string형, categorical형, 문자형, cellstr형 또는 table형이어야 합니다.</entry>
+  </message>
+</rsccat>

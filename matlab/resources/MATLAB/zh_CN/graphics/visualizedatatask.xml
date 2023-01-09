@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SelectVizLabel">选择可视化</entry>
+    <entry key="SearchPlaceholderText">搜索可视化</entry>
+    <entry key="AllLabel">全部</entry>
+    <entry key="ChartInPurposeLine">以交互方式创建 {0}</entry>
+    <entry key="NoVizFound">找不到可视化</entry>
+    <entry key="LinePlotsLabel">线图</entry>
+    <entry key="DataDistLabel">数据分布图</entry>
+    <entry key="DiscreteDataLabel">离散数据图</entry>
+    <entry key="GeoPlotsLabel">地理图</entry>
+    <entry key="PolarPlotsLabel">极坐标图</entry>
+    <entry key="ContourPlotsLabel">等高线图</entry>
+    <entry key="VectorFieldsLabel">向量场图</entry>
+    <entry key="SurfaceAndMeshLabel">曲面图和网格图</entry>
+    <entry key="StatisticsLabel">统计可视化</entry>
+    <entry key="AnimationLabel">动画</entry>
+    <entry key="ImagesLabel">图像</entry>
+    <entry key="RequiredFieldLabel">此字段为必填字段。</entry>
+    <entry key="SignalProcessingLabel">信号处理</entry>
+    <entry key="FilterCategoryLabel">按类别筛选</entry>
+    <entry key="SelectDataPanelLabel">选择数据</entry>
+    <entry key="SelectOptionalPanelLabel">选择可视化参数(可选)</entry>
+    <entry key="DataLabel">数据</entry>
+    <entry key="SelectVariableLabel">选择</entry>
+    <entry key="AllVariablesLabel">所有变量</entry>
+    <entry key="SizeChannel">大小</entry>
+    <entry key="ColorChannel">颜色</entry>
+    <entry key="ThetaChannel">Theta</entry>
+    <entry key="LatitudeChannel">纬度</entry>
+    <entry key="LongitudeChannel">经度</entry>
+    <entry key="RChannel">Rho</entry>
+    <entry key="FunctionChannel">函数</entry>
+    <entry key="TimeIntervalChannel">时间间隔</entry>
+    <entry key="XYIntervalChannel">XY 间隔</entry>
+    <entry key="LineStyleDesc">线型</entry>
+    <entry key="MarkerDesc">标记符号</entry>
+    <entry key="AlignVertexDesc">锐化垂直线和水平线</entry>
+    <entry key="MeshStyleDesc">要显示的边</entry>
+    <entry key="NoProperties">没有可供选择的参数</entry>
+    <entry key="SelectParametersTooltip">为所选可视化添加参数</entry>
+    <entry key="CreateLabel">创建</entry>
+    <entry key="AddLabel">添加</entry>
+    <entry key="RemoveVisualizationLabel">删除可视化</entry>
+    <entry key="WarningLabel">请选择数据</entry>
+    <entry key="CommentForAnnotations">添加 {0} 和 {1}</entry>
+    <entry key="ChartSummaryOneData">{1} 的 {0}</entry>
+    <entry key="ChartSummaryTwoData">{1} 和 {2} 的 {0}</entry>
+    <entry key="Tool_VisualizeDataTask_Label">创建绘图</entry>
+    <entry key="Tool_VisualizeDataTask_Description">以交互方式创建和探索可视化</entry>
+    <entry key="SpecifyZColor">指定 Z 和颜色</entry>
+    <entry key="SpecifyXYZ">指定 X、Y 和 Z</entry>
+    <entry key="SpecifyZ">指定 Z</entry>
+    <entry key="SpecifyColor">指定颜色</entry>
+    <entry key="SpecifyXYColor">指定 X、Y 和颜色</entry>
+    <entry key="SpecifyXYZColor">指定 X、Y、Z 和颜色</entry>
+    <entry key="SpecifyXYZVSlice">指定 X、Y、Z、三维体和切片</entry>
+    <entry key="SpecifyVXYZSlice">指定三维体和 XYZ 切片</entry>
+    <entry key="SpecifyFunctionInterval">指定函数和区间</entry>
+    <entry key="SpecifyXYZFunInterval">指定 XYZ 函数和区间</entry>
+    <entry key="ConfigurationLabel">配置</entry>
+    <entry key="SpecifyUV">指定 U 和 V</entry>
+    <entry key="SpecifyXYUV">指定 X、Y、U 和 V</entry>
+    <entry key="SpecifyXYUVWZ">指定 X、Y、U、V、W 和 Z</entry>
+    <entry key="SpecifyUVWZ">指定 U、V、W 和 Z</entry>
+    <entry key="SpecifySymmetric">对称</entry>
+    <entry key="SpecifyAssymetricVertical">不对称垂直</entry>
+    <entry key="SpecifyAssymetricHorVert">不对称水平和垂直</entry>
+    <entry key="UnsupportedLabel">{0} 不受支持</entry>
+    <entry key="OverlayTooltip">使用 {0} 叠加图</entry>
+    <entry key="UnsupportedTooltip">当前所选的可视化不支持使用 {0}</entry>
+    <entry key="ConfigurationTooltip">选择一种配置类型，将您的数据映射到所选图的视觉通道</entry>
+    <entry key="ConfigurationMapError">无法将所有所选工作区变量映射到此配置中的通道。从下拉列表中选择另一个配置。</entry>
+    <entry key="OverlaySummaryLine">在同一坐标区中叠加多个图</entry>
+    <entry key="NoVizCreatedError">请在尝试添加其他图之前创建可视化</entry>
+  </message>
+</rsccat>

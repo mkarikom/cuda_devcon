@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+    <message>
+        <entry key="Cut">Cut</entry>
+        <entry key="Copy">Copy</entry>
+        <entry key="Paste">Paste</entry>
+        <entry key="ClearAxes">Clear Axes</entry>
+        <entry key="Delete">Delete</entry>
+        <entry key="AddData">Add Data...</entry>
+        <entry key="ShowLegend">Show Legend</entry>
+        <entry key="HideLegend">Hide Legend</entry>
+        <entry key="EditTitle">Edit Title</entry>
+        <entry key="CapSize">Cap Size</entry>
+        <entry key="Color">Color</entry>
+        <entry key="ColorDotDotDot">Color...</entry>
+        <entry key="CloseFigure">Close Figure</entry>
+        <entry key="Font">Font</entry>
+        <entry key="FontDotDotDot">Font...</entry>
+        <entry key="Grid">Grid</entry>
+        <entry key="LineStyle">Line Style</entry>
+        <entry key="LineWidth">Line Width</entry>
+        <entry key="Marker">Marker</entry>
+        <entry key="MarkerSize">Marker Size</entry>
+        <entry key="FaceColor">Face Color</entry>
+        <entry key="FaceColorDotDotDot">Face Color...</entry>
+        <entry key="EdgeColor">Edge Color</entry>
+        <entry key="EdgeColorDotDotDot">Edge Color...</entry>
+        <entry key="TextColor">Text Color</entry>
+        <entry key="TextEdit">Text Edit </entry>
+        <entry key="TextColorDotDotDot">Text Color...</entry>
+        <entry key="BackgroundColor">Background Color</entry>
+        <entry key="BackgroundColorDotDotDot">Background Color...</entry>
+        <entry key="TextBackgroundColor">Text Background Color</entry>
+        <entry key="TextBackgroundColorDotDotDot">Text Background Color...</entry>
+        <entry key="Interpreter">Interpreter</entry>
+        <entry key="BarWidth">Bar Width</entry>
+        <entry key="Grouped">Grouped</entry>
+        <entry key="Stacked">Stacked</entry>
+        <entry key="BarLayout">Bar Layout</entry>
+        <entry key="Edit">Edit</entry>
+        <entry key="LineColor">Line Color</entry>
+        <entry key="LineColorDotDotDot">Line Color...</entry>
+        <entry key="Fill">Fill</entry>     
+        <entry key="ScaleFactor">Scale Factor</entry>     
+        <entry key="MarkerEdgeColor">Marker Edge Color</entry>   
+        <entry key="MarkerEdgeColorDotDotDot">Marker Edge Color...</entry>
+        <entry key="MarkerFaceColor">Marker Face Color</entry>                
+        <entry key="MarkerFaceColorDotDotDot">Marker Face Color...</entry>     
+        <entry key="ShowPropertyEditor">Show Property Editor</entry>
+        <entry key="OpenPropertyInspector">Open Property Inspector</entry>
+        <entry key="ShowCode">Show Code</entry>
+        <entry key="ReverseDirection">Reverse Direction</entry>
+        <entry key="HeadSize">Head Size</entry>
+        <entry key="HeadStyle">Head Style</entry>
+        <entry key="FitBoxToText">Fit Box to Text</entry>
+        <entry key="PinToAxes">Pin to Axes</entry>
+        <entry key="Unpin">Unpin</entry>
+        <entry key="Cool" translate="false" note="TranslateFalseBatch;">cool</entry>
+        <entry key="Gray" translate="false" note="TranslateFalseBatch;">gray</entry>
+        <entry key="Hot" translate="false" note="TranslateFalseBatch;">hot</entry>
+        <entry key="HSV" translate="false" note="TranslateFalseBatch;">hsv</entry>
+        <entry key="Jet" translate="false" note="TranslateFalseBatch;">jet</entry>
+        <entry key="Turbo" translate="false" note="TranslateFalseBatch;">turbo</entry>
+        <entry key="JetDefault">jet(default)</entry>
+        <entry key="ParulaDefault">parula(default)</entry>
+        <entry key="Location">Location</entry>
+        
+        <entry key="East">East</entry>
+        <entry key="West">West</entry>
+        <entry key="Northeast">Northeast</entry>
+        <entry key="Northwest">Northwest</entry>
+        <entry key="Southeast">Southeast</entry>
+        <entry key="Southwest">Southwest</entry>
+        <entry key="NorthOutside">North Outside</entry>
+        <entry key="SouthOutside">South Outside</entry>
+        <entry key="EastOutside">East Outside</entry>
+        <entry key="WestOutside">West Outside</entry>
+        <entry key="NortheastOutside">Northeast Outside</entry>
+        <entry key="NorthwestOutside">Northwest Outside</entry>
+        
+        <entry key="StandardColormaps">Standard Colormaps</entry>
+        <entry key="InteractiveColormapShift">Interactive Colormap Shift</entry>
+        <entry key="OpenColormapEditor">Open Colormap Editor</entry>
+        <entry key="Refresh">Refresh</entry>
+        <entry key="Best">Best</entry>
+        <entry key="Orientation">Orientation</entry>
+        <entry key="Vertical">Vertical</entry>
+        <entry key="Horizontal">Horizontal</entry>
+        <entry key="tex" translate="false" note="TranslateFalseBatch;">tex</entry>
+        <entry key="latex" translate="false" note="TranslateFalseBatch;">latex</entry>
+        <entry key="square">square</entry>
+        <entry key="diamond">diamond</entry> 
+        <entry key="pentagram">pentagram</entry> 
+        <entry key="hexagram">hexagram</entry>
+        <entry key="Plain">Plain</entry>
+        <entry key="V_Back">V-Back</entry>
+        <entry key="C_Back">C-Back</entry>
+        <entry key="Deltoid">Deltoid</entry>
+        <entry key="Diamond_2">Diamond</entry> 
+        <entry key="solid">solid</entry>
+        <entry key="dash">dash</entry>
+        <entry key="dot">dot</entry>
+        <entry key="dash_dot">dash-dot</entry>
+        <entry key="none">none</entry>
+        <entry key="None_2">None</entry>
+        <entry key="morebins">More Bins</entry>
+        <entry key="fewerbins">Fewer Bins</entry>
+        <entry key="XAxisOnly">X Axis Only</entry>
+        <entry key="YAxisOnly">Y Axis Only</entry>
+        <entry key="XAndYAxes">X And Y Axes</entry>
+        <entry key="morebinsx">More Bins (X Axis)</entry>
+        <entry key="morebinsy">More Bins (Y Axis)</entry>
+        <entry key="morebinsxy">More Bins (X and Y Axes)</entry>
+        <entry key="fewerbinsx">Fewer Bins (X Axis)</entry>
+        <entry key="fewerbinsy">Fewer Bins (Y Axis)</entry>
+        <entry key="fewerbinsxy">Fewer Bins (X and Y Axes)</entry>
+        <entry key="AlignBins">Align Bins</entry>
+        <entry key="DisplayStyle">Display Style</entry>
+        <entry key="bar" translate="false" note="TranslateFalseBatch;">bar</entry>
+        <entry key="stairs" translate="false" note="TranslateFalseBatch;">stairs</entry>
+        <entry key="bar3" translate="false" note="TranslateFalseBatch;">bar3</entry>
+        <entry key="tile" translate="false" note="TranslateFalseBatch;">tile</entry>
+        <entry key="DisplayOrder">Display Order</entry>
+        <entry key="BringToFront">Bring To Front</entry>
+        <entry key="SendToBack">Send To Back</entry>
+        <entry key="BringForward">Bring Forward</entry>
+        <entry key="SendBackward">Send Backward</entry>
+        <entry key="ShowEmptyBins">Show Empty Bins</entry>
+        <entry key="Undo">&amp;Undo</entry>
+        <entry key="Redo">&amp;Redo</entry>
+        <entry key="UndoName">&amp;Undo: {0}</entry>
+        <entry key="RedoName">&amp;Redo: {0}</entry>
+        <entry key="UndoPropertyChange">&amp;Undo Change: {0}</entry>
+        <entry key="RedoPropertyChange">&amp;Redo Change: {0}</entry>
+        <entry key="UndoPan">&amp;Undo: Pan</entry>
+        <entry key="RedoPan">&amp;Redo: Pan</entry>
+        <entry key="UndoZoomIn">&amp;Undo: Zoom In</entry>
+        <entry key="RedoZoomIn">&amp;Redo: Zoom In</entry>
+        <entry key="UndoZoomOut">&amp;Undo: Zoom Out</entry>
+        <entry key="RedoZoomOut">&amp;Redo: Zoom Out</entry>
+        <entry key="Undo3DZoom">&amp;Undo: 3-D Zoom</entry>
+        <entry key="Redo3DZoom">&amp;Redo: 3-D Zoom</entry>
+        <entry key="UndoResize">&amp;Undo: Resize</entry>
+        <entry key="RedoResize">&amp;Redo: Resize</entry>
+        <entry key="UndoMove">&amp;Undo: Move</entry>
+        <entry key="RedoMove">&amp;Redo: Move</entry>
+        <entry key="UndoRotate">&amp;Undo: Rotate</entry>
+        <entry key="RedoRotate">&amp;Redo: Rotate</entry>
+        <entry key="UndoPaste">&amp;Undo: Paste</entry>
+        <entry key="RedoPaste">&amp;Redo: Paste</entry>
+        <entry key="UndoNewObject">&amp;Undo: New Object</entry>
+        <entry key="RedoNewObject">&amp;Redo: New Object</entry>
+        <entry key="UndoCut">&amp;Undo: Cut</entry>
+        <entry key="RedoCut">&amp;Redo: Cut</entry>
+        <entry key="UndoDelete">&amp;Undo: Delete</entry>
+        <entry key="RedoDelete">&amp;Redo: Delete</entry>
+        <entry key="UndoPintoAxes">&amp;Undo: Pin to Axes</entry>
+        <entry key="RedoPintoAxes">&amp;Redo: Pin to Axes</entry>
+        <entry key="UndoUnpin">&amp;Undo: Unpin</entry>
+        <entry key="RedoUnpin">&amp;Redo: Unpin</entry>
+        <entry key="UndoReplacewithNaNs">&amp;Undo: Replace with NaNs</entry>
+        <entry key="RedoReplacewithNaNs">&amp;Redo: Replace with NaNs</entry>
+        <entry key="UndoReplacewithaconstant">&amp;Undo: Replace with a constant</entry>
+        <entry key="RedoReplacewithaconstant">&amp;Redo: Replace with a constant</entry>
+        <entry key="UndoRemovepoints">&amp;Undo: Remove points</entry>
+        <entry key="RedoRemovepoints">&amp;Redo: Remove points</entry>
+        <entry key="UndoRemoveunbrushedpoints">&amp;Undo: Remove unbrushed points</entry>
+        <entry key="RedoRemoveunbrushedpoints">&amp;Redo: Remove unbrushed points</entry>
+        <entry key="UndoInsertlegend">&amp;Undo: Insert Legend</entry>
+        <entry key="RedoInsertlegend">&amp;Redo: Insert Legend</entry>
+        <entry key="UndoInsertTitle">&amp;Undo: Insert Title</entry>
+        <entry key="RedoInsertTitle">&amp;Redo: Insert Title</entry>
+        <entry key="UndoInsertXlabel">&amp;Undo: Insert X Label</entry>
+        <entry key="RedoInsertXlabel">&amp;Redo: Insert X Label</entry>
+        <entry key="UndoInsertYlabel">&amp;Undo: Insert Y Label</entry>
+        <entry key="RedoInsertYlabel">&amp;Redo: Insert Y Label</entry>
+        <entry key="UndoInsertZlabel">&amp;Undo: Insert Z Label</entry>
+        <entry key="RedoInsertZlabel">&amp;Redo: Insert Z Label</entry>
+        <entry key="UndoInsertcolorbar">&amp;Undo: Insert Colorbar</entry>
+        <entry key="RedoInsertcolorbar">&amp;Redo: Insert Colorbar</entry>
+        <entry key="UndoInsertaxes">&amp;Undo: Insert Axes</entry>
+        <entry key="RedoInsertaxes">&amp;Redo: Insert Axes</entry>
+        <entry key="UndoSort" note="Undo a sort operation. The sort operation allows users to click an icon to sort a row/column in the data.">&amp;Undo: Sort</entry>
+        <entry key="RedoSort" note="Redo a sort operation. The sort operation allows users to click an icon to sort a row/column in the data.">&amp;Redo: Sort</entry>
+        <entry key="UndoRearrange" note="Undo a rearrange operation. The rearrange operation allows users to drag and drop items to change their order in the chart.">&amp;Undo: Rearrange</entry>
+        <entry key="RedoRearrange" note="Redo a rearrange operation. The rearrange operation allows users to drag and drop items to change their order in the chart.">&amp;Redo: Rearrange</entry>
+        <entry key="Auto">Auto</entry>
+        <entry key="NumColumns">Number of Columns</entry>
+    </message>
+</rsccat>

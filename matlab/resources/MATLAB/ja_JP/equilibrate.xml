@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">入力行列は、データ型 double または single の正方行列でなければなりません。</entry>
+    <entry key="NonFiniteInput">入力行列は有限でなければなりません。</entry>
+    <entry key="StructSingular">入力行列は構造的に特異でなければなりません。</entry>
+  </message>
+</rsccat>

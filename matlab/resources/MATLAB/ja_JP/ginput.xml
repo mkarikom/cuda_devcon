@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NeedPositiveInt">正の整数が必要です。</entry>
+    <entry key="InputArgumentZero">GINPUT(N) は正の整数でスカラーの入力でなければなりません。ユーザー入力は収集されずに戻されます。\nこれは将来のリリースでエラーになります。</entry>
+    <entry key="Interrupted">中止</entry>
+    <entry key="FigureDeletionPause">Figure の削除により中断</entry>
+    <entry key="FigureUnavailable">マウス/キー イベントの処理が可能な Figure がありません</entry>
+    <entry key="InvalidSelection">マウス選択が無効です。</entry>
+  </message>
+</rsccat>

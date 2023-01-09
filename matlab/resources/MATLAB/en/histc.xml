@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidInput">Edge vector must be monotonically non-decreasing.</entry>
+    <entry key="InvalidFirstNumericInput">First Input type not supported</entry>
+    <entry key="InvalidFirstInput">First Input must be a real non-sparse numeric array.</entry>
+    <entry key="InvalidSecondInput">Second Input must be a real non-sparse numeric array.</entry>
+    <entry key="InvalidSecondNumericInput">Second Input type not supported</entry>
+  </message>
+</rsccat>

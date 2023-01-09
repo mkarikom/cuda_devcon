@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- Copyright 2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+	<entry key="invalidIRI">''{0}'' is not a valid URL.</entry>
+	<entry key="unsupportedProvider">''{0}'' contains an unsupported provider.</entry>
+	<entry key="changeEventsNotSupported">Change events are not supported at ''{0}''.</entry>
+	<entry key="subscriptionError">A subscription error has occurred at ''{0}''.</entry>
+	<entry key="folderNotEmpty">The location ''{0}'' is not empty.</entry>
+	<entry key="invalidLocation">''{0}'' is not a valid location.</entry>
+	<entry key="permissionDenied">Permission denied at ''{0}''.</entry>
+	<entry key="resourceAlreadyExists">The resource ''{0}'' already exists.</entry>
+	<entry key="resourceNotFound">The location ''{0}'' was not found.</entry>
+	<entry key="readOnlyProvider">The location ''{0}'' is read only.</entry>
+	<entry key="fileTooLarge">The resource ''{0}'' is too large.</entry>
+	<entry key="resourceInUse">The resource ''{0}'' is currently in use.</entry>
+	<entry key="noSpaceLeft">There is no space left to perform the operation at ''{0}''.</entry>
+	<entry key="ioError">A low level error has occurred at ''{0}''.</entry>
+	<entry key="internalError">An internal error has occurred at ''{0}''.</entry>
+	<entry key="unsupportedOperation">This operation is unsupported at ''{0}''.</entry>
+	<entry key="unknownError">An unknown error has occurred at ''{0}''.</entry>
+  </message>
+</rsccat>

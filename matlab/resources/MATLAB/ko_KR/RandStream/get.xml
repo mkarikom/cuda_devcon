@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedProperty">''{0}''은(는) 인식할 수 없는 속성입니다.</entry>
+    <entry key="SubstreamIndexTooLarge">서브스트림 인덱스가 2^53-1보다 커서 uint64 클래스로 반환됩니다.</entry>
+    <entry key="InvalidNumStateComponents">상태 배열이 {0} 생성기에 유효하지 않습니다.</entry>
+    <entry key="InvalidStateBufLen">상태 버퍼 길이가 이 생성기에 유효하지 않습니다.</entry>
+  </message>
+</rsccat>

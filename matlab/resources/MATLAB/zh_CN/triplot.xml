@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EmptyTri">三角剖分为空。</entry>
+    <entry key="NonTriangles">三角剖分必须由三角形组成。</entry>
+    <entry key="NonSurfTri">三角剖分必须位于 3 维空间中。</entry>
+    <entry key="NonTetrahedra">三角剖分必须由四面体组成。</entry>
+    <entry key="NonPlanarTri">三角剖分必须位于 3 维空间中。</entry>
+  </message>
+</rsccat>

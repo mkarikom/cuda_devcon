@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="TooManyOutputs">Too many output arguments.</entry>
+      <entry key="OptionNotString" note="stringDatatypeUpdate">Option argument must be a character vector.</entry>
+      <entry key="TooManyParamsPerKeyword">Must query one parameter by keyword at a time.</entry>
+      <entry key="UnknownKeyword">Unknown keyword parameter {0}.</entry>
+      <entry key="ParamsMismatchKeywords">Number of parameters and keywords must agree.</entry>
+      <entry key="InvalidNewParams">Input must be a numeric vector of length {0,number,integer}.</entry>
+      <entry key="SparsfunNotAvailable">Function sparsfun has been removed. Use spparms instead.</entry>
+      <entry key="SparseMonitorOutputLevel">SParse MONItor output level {0}.\n</entry>
+      <entry key="NoSparseMonitorOutput">No SParse MONItor output.\n</entry>
+      <entry key="MmdThreshold">mmd: threshold = {0} * mindegree + {1},\n</entry>
+      <entry key="UsingExactDegreesInAprimeA">using exact degrees in A''*A,\n</entry>
+      <entry key="UsingApproximateDegreesInAprimeA">using approximate degrees in A''*A,\n</entry>
+      <entry key="SupernodeAmalgamationEveryNStages">supernode amalgamation every {0} stages,\n</entry>
+      <entry key="NoSupernodeAmalgamation">no supernode amalgamation,</entry>
+      <entry key="RowReductionEveryNStages">row reduction every {0} stages,\n</entry>
+      <entry key="NoRowReductionn">no row reduction,\n</entry>
+      <entry key="WithholdRowsAtLeastNPercentDenseInColmmd">withhold rows at least {0}% dense in colmmd.\n</entry>
+      <entry key="NoRowWithholdingInColmmd">no row withholding in colmmd.\n</entry>
+      <entry key="MinimumDegreeOrderingsUsedWithV4">Minimum degree orderings used with v4 chol, lu, and qr in \\ and /.\n</entry>
+      <entry key="NoAutomaticOrderingsUsedWithV4">No automatic orderings used with v4 chol, lu, and qr in \\ and /.\n</entry>
+      <entry key="ApproximateMinimumDegreeOrderingsUsedCholmodUmfpack">Approximate minimum degree orderings used with CHOLMOD and UMFPACK in \\ and /.\n</entry>
+      <entry key="NoAutomaticOrderingsUsedWithCholmodUmfpack">No automatic orderings used with CHOLMOD and UMFPACK in \\ and /.\n</entry>
+      <entry key="PivotToleranceOfUsedByUMFPACK">Pivot tolerance of {0} used by UMFPACK in \\ and /.\n</entry>
+      <entry key="BackslashUsesBandSolverIfBandDensityGT">Backslash uses band solver if band density is &gt; {0}\n</entry>
+      <entry key="UMFPACKUsedForLu">UMFPACK used for lu in \\ and /.\n</entry>
+      <entry key="V4AlgorithmUsedForLu">v4 algorithm used for lu in \\ and /.\n</entry>
+      <entry key="SymmetricPivotToleranceUsedByUMFPACK">Symmetric pivot tolerance of {0} used by UMFPACK in \\ and /.\n</entry>
+      <entry key="PivotToleranceUsedByMA57">Pivot tolerance of {0} used by MA57 in \\ and /.\n</entry>
+      <entry key="MetisOrderingUsedMA57">METIS ordering used by MA57 in \\ and /.\n</entry>
+      <entry key="ApproximateMinimumDegreeOrderingUsedMA57">Approximate minimum degree ordering used by MA57 in \\ and /.\n</entry>
+      <entry key="NoOrderingUsedMA57">No automatic orderings used by MA57 in \\ and /.\n</entry>
+	  <entry key="AutomaticOrderingUsedMA57">Automatic choice of ordering method used by MA57 in \\ and /.\n</entry>
+   </message>
+</rsccat>

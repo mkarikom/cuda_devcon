@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="APP_TASK_PREVIEW_LABEL">プレビュー</entry>
+    <entry key="APP_TASK_AXES_PANEL_TITLE">可視化のプレビュー</entry>
+    <entry key="APP_TASK_TABLE_PANEL_TITLE">表形式データのプレビュー</entry>
+    <entry key="CLEANED_TABLE_TITLE">クリーニング後のデータ</entry>
+    <entry key="ORIGINAL_TABLE_TITLE">クリーニング前のデータ</entry>
+    <entry key="CUSTOM_PP_DIALOG_TITLE">カスタム前処理の作成者</entry>
+    <entry key="CUSTOM_PP_DIALOG_NAME">名前</entry>
+    <entry key="CUSTOM_PP_DIALOG_DESCRIPTION">説明</entry>
+    <entry key="CUSTOM_PP_DIALOG_FUN_PREVIEW">関数プレビュー</entry>
+    <entry key="CUSTOM_PP_DIALOG_OUTPUT">出力</entry>
+    <entry key="CUSTOM_PP_DIALOG_FUNCTION">関数</entry>
+    <entry key="CUSTOM_PP_DIALOG_VARIABLE">変数</entry>
+    <entry key="CUSTOM_PP_DIALOG_INPUT">入力 {0}</entry>
+    <entry key="CUSTOM_PP_DIALOG_ADD_INPUT">別の入力の追加</entry>
+    <entry key="CUSTOM_PP_DIALOG_NAMED_PARAMETER">名前付きパラメーターですか?</entry>
+    <entry key="CUSTOM_PP_DIALOG_DELETE_INPUT">入力の削除</entry>
+    <entry key="CUSTOM_PP_DIALOG_OK">OK</entry>
+    <entry key="CUSTOM_PP_DIALOG_CANCEL">キャンセル</entry>
+    <entry key="CUSTOM_PP_DIALOG_ADDTOGALLERY">ギャラリーに追加しますか?</entry>
+    <entry key="CUSTOM_PP_DIALOG_NEWVARIABLENAME">新しい変数の接頭辞</entry>
+    <entry key="CUSTOM_PP_DIALOG_VARIABLENAME">変数名</entry>
+    <entry key="CUSTOM_PP_DIALOG_TABLEVARNAME">table 変数名</entry>
+    <entry key="CUSTOM_PP_DIALOG_TABLEANDVAR">table.(変数)</entry>
+    <entry key="CUSTOM_PP_DIALOG_TABLEANDNEWVAR">table.(新しい変数)</entry>
+    <entry key="CUSTOM_PP_DIALOG_VARCOLUMN">variable(列)</entry>
+    <entry key="CUSTOM_PP_DIALOG_USER_INPUT">ユーザー入力</entry>
+    <entry key="CUSTOM_PP_DIALOG_CONSTANT">定数</entry>
+    <entry key="CUSTOM_PP_DIALOG_CONSTANT_VALUE">定数値</entry>
+    <entry key="CUSTOM_PP_DIALOG_SELECT_DATA_GROUP">データの選択</entry>
+    <entry key="CUSTOM_PP_DIALOG_INPUT_ARGS_GROUP">入力引数</entry>
+    <entry key="USER_AUTHORED_TASKS_SELECT_A_VARIABLE">変数の選択</entry>
+    <entry key="CUSTOM_CODE_TASK_VARIABLENAME">変数名</entry>
+    <entry key="CUSTOM_CODE_TASK_DESCRIPTION">説明</entry>
+    <entry key="CUSTOM_CODE_TASK_REQUIRED_DESCRIPTION">[説明] は必須フィールドです</entry>
+    <entry key="CUSTOM_CODE_TASK_DEFAULT_DESCRIPTION">マイ カスタム コードの説明</entry>
+    <entry key="CUSTOM_CODE_TASK_CODE">コード</entry>
+    <entry key="CUSTOM_CODE_TASK_PREVIEW">プレビュー</entry>
+    <entry key="CUSTOM_CODE_TASK_TASKNAME">1 回限りのスクリプトの挿入</entry>
+    <entry key="CUSTOM_CODE_TASK_TASKDESCRIPTION">カスタム前処理のスクリプトを履歴に追加します</entry>
+    <entry key="CUSTOM_CODE_TASK_MODIFY_COMMENT">このコードを変更します</entry>
+    <entry key="CUSTOM_CODE_ERROR_DIALOG_TITLE">カスタム関数の実行中のエラー</entry>
+    <entry key="CUSTOM_CODE_ERROR_DUP_TIMESTAMPS_TITLE">タイムスタンプの重複</entry>
+    <entry key="CUSTOM_CODE_ERROR_DUP_TIMESTAMPS_MSG">timetable のタイムスタンプは一意でなければなりません。タイムスタンプを削除して再試行してください。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidTarget">ターゲットは axes オブジェクトでなければなりません。</entry>
+    <entry key="InvalidTitle">タイトルは、文字ベクトル、文字ベクトルの cell 配列、または string 配列でなければなりません。</entry>
+    <entry key="TargetParentNotEqual">指定された axes は、指定された 'Parent' プロパティとは異なる親オブジェクトの子です。</entry>
+    <entry key="InvalidNumBubbles">'NumBubbles' は 2 か 3 でなければなりません。</entry>
+    <entry key="InvalidLimitLabels">'LimitLabels' は 2 要素あるいは 3 要素からなる、文字ベクトルの cell 配列または string 配列でなければなりません。</entry>
+  </message>
+</rsccat>

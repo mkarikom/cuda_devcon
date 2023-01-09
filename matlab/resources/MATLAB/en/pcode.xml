@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ArgMustBeString" note="stringDatatypeUpdate">Input argument must be a nonempty string or character vector.</entry>
+    <entry key="UnknownFlag">Unknown flag ''{0}''.</entry>
+    <entry key="BadPath">Skipping ''{0}'', neither ''?'' nor ''..'' allowed in arg.</entry>
+    <entry key="Ambiguous">''{0}'' names both a MATLAB code file and directory.</entry>
+    <entry key="NotPath">Skipping argument ''{0}'' (invalid pathname).</entry>
+    <entry key="NotFileName">Skipping argument ''{0}'' because ''{1}'' is not a file name.</entry>
+    <entry key="FileUnsupported">Skipping argument ''{0}'', not a MATLAB code file.</entry>
+    <entry key="FileNotFound">Skipping argument ''{0}'', no MATLAB code found.</entry>
+    <entry key="NotaMatlabFunction">The function specified is not a MATLAB function with m source code.</entry>
+    <entry key="FunctionNotFound">The function {0} could not be found on the search path.</entry>
+    <entry key="NoInputFileNameSpecified">The input file name must be specified.</entry>
+    <entry key="InvalidPfileNameSpecified">The pfile output name of ''{0}'' is not valid.</entry>
+    <entry key="cannotCacheClassdef" context="error">Files that define a class using a classdef statement cannot currently be cached.</entry>
+  </message>
+</rsccat>

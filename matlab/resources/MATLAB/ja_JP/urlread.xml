@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PostFailed">URL に POST できません。</entry>
+    <entry key="Timeout">接続がタイムアウトしました。</entry>
+    <entry key="UnknownHost">"{0}" の IP アドレスを特定できません。</entry>
+    <entry key="FileNotFound">サーバーはこの要求を満たすリソースを検出しませんでした。</entry>
+    <entry key="ConnectionFailed">URL のダウンロード エラー。ネットワークの接続が停止しているか、不適切なプロキシが設定されている可能性があります。</entry>
+    <entry key="InvalidInput">パラメーター/値のペアの引数が無効です。</entry>
+    <entry key="InvalidUrl">この URL を解析できないか、プロトコルがサポートされていません。</entry>
+    <entry key="AuthenticationFailed">指定された認証方法がサポートされていないか、指定されたユーザー名またはパスワードが正しくありません。</entry>
+    <entry key="ReplacingSpaces">空白を %20 で置き換えます</entry>
+  </message>
+</rsccat>

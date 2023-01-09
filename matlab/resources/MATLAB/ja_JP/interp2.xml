@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nargin">入力引数の数が正しくありません。</entry>
+    <entry key="NtimesInvalid">NTIMES は単一の数値でなければなりません。</entry>
+    <entry key="InvalidMeshgrid">入力グリッドは有効な MESHGRID ではありません。</entry>
+    <entry key="NotEnoughPointsNanStrip">内挿するための有限値の数が不十分です。</entry>
+    <entry key="DegenerateGrid">内挿には次元ごとに少なくとも 2 つのサンプル点が必要です。\nX または Y が含まれる定数座標の次元を、消去して削減できる場合は、INTERP1 の使用を検討してください。 </entry>
+    <entry key="InvalidExtrapval">EXTRAPVAL はスカラーでなければなりません。</entry>
+    <entry key="NaNstrip">NaN 値を含むデータの列が内挿中に無視されました。</entry>
+    <entry key="extrapvalNotNumeric">EXTRAPVAL は数値でなければなりません。</entry>
+    <entry key="XorYNotMonotonic">X と Y は、単調なベクトル、または MESHGRID で生成された行列でなければなりません。</entry>
+    <entry key="InvalidMethod">{0} は無効なメソッドです。</entry>
+    <entry key="meshgrid">X および Y は、MESHGRID で作成された行列でなければなりません。散布データに対して、INTERP2 の代わりに\n TriScatteredInterp を使用してください。</entry>
+  </message>
+</rsccat>

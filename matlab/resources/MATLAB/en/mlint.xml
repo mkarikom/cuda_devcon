@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2010-2017 The MathWorks, Inc. -->
+
+<!--
+This file should contain only actual error messages
+produce by user visible code.
+The text of the messages produced by the Code Analyzer
+are contained within another component
+-->
+
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!--Resource entries for toolbox/matlab/codetools-->
+    <entry key="TooManyCellArgs">Multiple cell arrays of character vectors or string arrays not supported. Specify file name as one or more character vectors, one string array, or one cell array of character vectors. All other arguments must be either a character vector or a scalar string.</entry>
+    <entry key="NoFile">No file name provided.</entry>
+    <entry key="InvalidInput">-TEXT requires one argument with text, and a second one with a .m filename</entry>
+    <entry key="FileNotFound">Unable to open file "{0}". File is not found or is not a supported MATLAB code file.</entry>
+    <entry key="InvalidInputFilename">Expected input filename to be a char array, but found value of class "{0}".</entry>
+    <entry key="NestedCell">Input arguments to checkcode should not contain nested cell arrays.</entry>
+    <entry key="CheckCodeInputMustBeOfCharType">Arguments must be character vectors or string scalars. File name arguments can also be string arrays or cell arrays of character vectors.</entry>
+    <entry key="TooManyOutputArguments">The -DISP option does not assign values to output variables. \nUse -STRING or -STRUCT to assign the output to a variable.</entry>
+    <entry key="UnusedArgs">The following arguments were ignored:{0}.</entry>
+    <entry key="MissingString">&lt;missing&gt; string element not supported.</entry>
+    <entry key="EmptyInput">Empty arguments not supported.</entry>
+    <entry key="NotCharacterRowVector">Character vector arguments must be row vectors.</entry>
+
+    <entry key="ExpectCell">Input arguments must be a Nx1 cell array.</entry>
+    <entry key="NonChar">Input cell array contains a non-character element.</entry>
+    <entry key="OutputArg">-STRUCT requires an output argument.</entry>
+    <entry key="MTreeInput" note="stringDatatypeUpdate">Input argument(s) must be character vectors.</entry>
+    <entry key="MTreeFileType">Unable to find mtree.Type enumeration to assign FileType property in mtree.</entry>
+
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CannotFindXVisual">X 비주얼을 찾지 못했습니다.</entry>
+    <entry key="BadBitDepth">MATLAB에서는 8보다 작거나 같은 비트 심도(Bit Depth)가 지원되지 않습니다.\nFigure 창을 사용하지 못할 수 있음</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="sl_diagnostic" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownDiagnostic">不明なエラー</entry>
+    <entry key="MultipleDiagnostics">複数の診断</entry>
+    <entry key="OutOfRange">範囲外です。インデックス {0, number, integer} が要求されましたが、最大値は {1, number, integer} です</entry>
+    <entry key="Simulation_Stage_Name">シミュレーション</entry>
+    <entry key="Build_Stage_Name">ビルド</entry>
+    <entry key="Subsys_Build_Stage_Name">サブシステムのビルド</entry>
+    <entry key="Model_Load_Stage_Name">モデルの読み込み</entry>
+    <entry key="Update_Diagram_Stage_Name">ブロック線図の更新</entry>
+    <entry key="HotlinkTemplate">&lt;a href="{0}"&gt;{1}&lt;/a&gt;</entry>
+    <entry key="HotlinkTemplateArg">&lt;a href="{0}({1})"&gt;{2}&lt;/a&gt;</entry>
+    <entry key="Wrapper">{0}{1}</entry>
+  </message>
+</rsccat>

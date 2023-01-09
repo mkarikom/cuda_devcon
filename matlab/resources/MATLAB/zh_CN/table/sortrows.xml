@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedMode">Direction 必须为 ''ascend'' 或 ''descend''，或者为包含这些方向的字符串数组或元胞数组。</entry>
+    <entry key="WrongLengthMode">对要排序的每个变量，Direction 必须具有一个与之对应的元素。</entry>
+    <entry key="EmptyRowNames">输入表未包含行名称，将返回未排序的输入。</entry>
+    <entry key="BadNumericVarIndices">数值变量索引必须为正整数或负整数。</entry>
+    <entry key="NDVar">排序变量 ''{0}'' 的维度超过二维。</entry>
+    <entry key="SortOnVarFailed">对类型为 ''{1}'' 的变量 ''{0}'' 进行排序时出错。</entry>
+    <entry key="SortrowsOnVarFailed">对类型为 ''{1}'' 的变量 ''{0}'' 的行进行排序时出错。</entry>
+    <entry key="NonConstantVars">In code generation, sorting variables must be specified as constant.</entry>
+    <entry key="MultiColumnCellstr">Sortrows does not support multi-column cellstr variables in code generation.</entry>
+    <entry key="NVPairsCellstr">Sortrows only supports specifying direction for cellstr variables. Other parameters are not supported in code generation.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DefaultPropertyHelp">{0} はプロパティです。\n</entry>
+    <entry key="DefaultEventHelp">{0} はイベントです。\n</entry>
+    <entry key="DefaultEnumerationHelp">{0} は列挙値です。\n</entry>
+    <entry key="DefaultScriptHelp">{0} はスクリプトです。\n</entry>
+    <entry key="DefaultFunctionHelp">{0} は関数です。\n {1}\n</entry>
+    <entry key="DefaultNoArgFunctionHelp">{0} は関数です。\n</entry>
+    <entry key="DefaultLocalFunctionHelp">{0} はローカル関数です。\n {1}\n</entry>
+    <entry key="DefaultNoArgLocalFunctionHelp">{0} はローカル関数です。\n</entry>
+    <entry key="DefaultClassHelp">{0} はクラスです。\n</entry>
+    <entry key="DefaultFullConstructorHelp">{0} はコンストラクターです。\n {1}\n</entry>
+    <entry key="DefaultConstructorHelp">{0} はクラスです。\n {1}\n</entry>
+    <entry key="DefaultFolderHelp">{0} はフォルダーです。\n</entry>
+    <entry key="DefaultPackageHelp">{0} はパッケージです。\n</entry>
+    <entry key="DefaultBuiltinHelp">{0} はドキュメンテーションにない組み込みの {1} です。\n</entry>
+    <entry key="DefaultMatfileHelp">{0} は MAT ファイルです。</entry>
+    <entry key="DefaultMexHelp">{0} は MEX ファイルです。\n</entry>
+    <entry key="DefaultPHelp">{0} は P コード ファイルです。\n</entry>
+    <entry key="DefaultSLXHelp">{0} は Simulink {1} です。\n</entry>
+    <entry key="DefaultNoSLXHelp">{0} は Simulink モデルまたはライブラリ ファイルです。\n</entry>
+    <entry key="DefaultInvalidFileHelp">{0} は有効な MATLAB ファイルではありません。\n</entry>
+    <entry key="InputIsA">    入力は {0} 型の値です。\n</entry>
+    <entry key="InstanceIsA">    {0} は {1} 型の変数です。\n</entry>
+    <entry key="TooManyCommands">1 つのコマンド オプションのみが指定された可能性があります</entry>
+    <entry key="TooManyInputsWithLinks">ヘルプでは 1 つのトピックの検索しかサポートされていません\n\n&lt;a href="matlab:{0}"&gt;ドキュメンテーションを検索&lt;/a&gt;するには、ヘルプ ブラウザーの検索フィールドを使用してください。</entry>
+    <entry key="TooManyInputsNoLinks">ヘルプでは 1 つのトピックの検索しかサポートされていません\n\nドキュメンテーションを検索するには、ヘルプ ブラウザーの検索フィールドを使用してください。</entry>
+    <entry key="HelpForBanner">--- {0} のヘルプ ---\n\n</entry>
+    <entry key="HelpForTypoBanner">--- {0} が見つかりません。代わりに {1} のヘルプを表示しています。 ---\n\n</entry>
+    <entry key="IsBothBanner">\n\n{0} はディレクトリと関数の両方です。\n\n</entry>
+    <entry key="MatfileBanner">{0} は MAT ファイルです。\n\n変数を含みます:\n\n</entry>
+    <entry key="MethodsBanner">{0} メソッド:\n\n</entry>
+    <entry key="ContentsBanner">{0} の内容:\n\n</entry>
+    <entry key="PackageBanner">{0} パッケージの内容:\n\n</entry>
+    <entry key="HelpTopics">ヘルプ トピック:\n\n</entry>
+    <entry key="MustBeSingleString">string 入力はスカラーでなければなりません。</entry>
+    <entry key="MustBeCharVector">char 入力はベクトルでなければなりません。</entry>
+  </message>
+</rsccat>

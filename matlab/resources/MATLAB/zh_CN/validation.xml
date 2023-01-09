@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnableToConvertMessage">值必须为 {0} 类型或可转换为 {0}。</entry>
+    <entry key="ShortStringChoices">
+  值必须为以下项目之一:\n{0}
+</entry>
+    <entry key="SixStringChoices">
+  值必须为 ''{0}''、''{1}''、''{2}''、''{3}''、''{4}'' 或 ''{5}''。
+</entry>
+    <entry key="FiveStringChoices">
+  值必须为 ''{0}''、''{1}''、''{2}''、''{3}'' 或 ''{4}''。
+</entry>
+    <entry key="FourStringChoices">
+  值必须为 ''{0}''、''{1}''、''{2}'' 或 ''{3}''。
+</entry>
+    <entry key="ThreeStringChoices">
+  值必须为 ''{0}''、''{1}'' 或 ''{2}''。
+</entry>
+    <entry key="TwoStringChoices">
+  值必须为 ''{0}'' 或 ''{1}''。
+</entry>
+    <entry key="OneStringChoice">
+  值必须为 ''{0}''。
+</entry>
+    <entry key="LongEnumConversionMessageWithHyperlink">
+  请查看&lt;a href="matlab:enumeration(''{0}'');"&gt;有效选项列表&lt;/a&gt;。
+</entry>
+    <entry key="LongEnumConversionMessageWithoutHyperlink">
+  要查看有效选项的列表，请键入 enumeration(''{0}'')。
+</entry>
+    <entry key="ShortEnumConversionMessageForTextInput">
+  ''{0}'' 无效。{1}
+</entry>
+    <entry key="LongEnumConversionMessageWithHyperlinkForTextInput">
+  ''{0}'' 不是有效值。请查看&lt;a href="matlab:enumeration(''{1}'');"&gt;有效选项列表&lt;/a&gt;。
+</entry>
+    <entry key="LongEnumConversionMessageWithoutHyperlinkForTextInput">
+  ''{0}'' 不是有效值。要查看有效选项的列表，请键入 enumeration(''{1}'')。
+</entry>
+    <entry key="AmbiguousEnumMessage">
+  ''{0}'' 具有多义性。{1}
+</entry>
+    <entry key="NotScalar">值必须为标量。</entry>
+    <entry key="NotVector">值必须为向量。</entry>
+    <entry key="NotMatrix">值必须为矩阵。</entry>
+    <entry key="NotVectorOfFixedLength">值必须为具有 {0} 个元素的向量。</entry>
+    <entry key="NotMatrixOfFixedRowLength">值必须为具有 {0} 个行的矩阵。</entry>
+    <entry key="NotMatrixOfFixedColumnLength">值必须为具有 {0} 个列的矩阵。</entry>
+    <entry key="NotMatrixOfFixedDimensionLength">值必须是大小为 {0} 的矩阵。</entry>
+    <entry key="Not3d">值必须为三维数组。</entry>
+    <entry key="InvalidSizeWithUnfixedDimensions">值必须是大小为 {0} 的数组，其中 * 表示任何大小的维度。</entry>
+    <entry key="InvalidSizeWithFixedDimensions">值必须是大小为 {0} 的数组。</entry>
+    <entry key="IndexingLimitExceeded">维度值必须小于 2^48。</entry>
+    <entry key="NameWithQuote">
+      ''{0}''
+    </entry>
+    <entry key="ShortEnumConversionMessage">
+      {0}
+    </entry>
+  </message>
+</rsccat>

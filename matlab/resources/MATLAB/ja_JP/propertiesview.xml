@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownClassOrProperty">{0} "{1}" が見つからないか、{2} の表示可能なプロパティがありません。</entry>
+    <entry key="InvalidInput">propertiesview は、classdef 構文を使用して定義された MATLAB クラスでのみサポートされます。</entry>
+    <entry key="TitlePropertiesForClass">クラス {0} のプロパティ</entry>
+    <entry key="LabelInheritedFrom">継承元</entry>
+    <entry key="LabelName">名前</entry>
+    <entry key="LabelType">クラス</entry>
+    <entry key="LabelSetAccess">set アクセス</entry>
+    <entry key="LabelDescription">説明</entry>
+    <entry key="LabelValue">値</entry>
+  </message>
+</rsccat>

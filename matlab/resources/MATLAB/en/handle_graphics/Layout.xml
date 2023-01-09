@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="fl_ustring">
+  <message>
+    <entry key="NoPositionSetInTiledChartLayout">Unable to set 'Position', 'InnerPosition', 'OuterPosition', or 'PositionConstraint' for objects in a TiledChartLayout</entry>
+    <entry key="NoGridSizeSetUnlessLayoutIsEmpty">Unable to set GridSize when TiledChartLayout is not empty</entry>
+    <entry key="UnsupportedChart">This functionality is not supported in TiledChartLayout. </entry>
+  </message>
+</rsccat>

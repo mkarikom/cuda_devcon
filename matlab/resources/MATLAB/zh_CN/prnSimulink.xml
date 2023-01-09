@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="openSystem">在此版本的 MATLAB 中，无法使用 Simulink。</entry>
+    <entry key="opnMdlName">Simulink 系统名称 ''{0}'' 不存在或未公开。</entry>
+    <entry key="sysName">Simulink 系统名称 ''{0}'' 不是唯一的。</entry>
+    <entry key="sysNameUnopened">Simulink 系统名称 ''{0}'' 不是公开的框图或子系统。</entry>
+    <entry key="argOpt">没有可通过 -s 选项打印的 Simulink 系统。</entry>
+    <entry key="expBlkName">需要 Simulink 系统名称而不是块名称 ''{0}''。</entry>
+  </message>
+</rsccat>

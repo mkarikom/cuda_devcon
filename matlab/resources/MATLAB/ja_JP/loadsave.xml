@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="notAScalarSubset">スカラーのサブセットのみが現在サポートされています。</entry>
+    <entry key="SubsetTypeNotSupported">MAT ファイルへの ''()'' のインデックス付けのみが現在サポートされています。''{0}'' のインデックス付けが使われました。</entry>
+    <entry key="MatfileFormatNotSupported"> バージョンは 'v6'、'v7' または 'v7.3' として指定しなければなりません</entry>
+    <entry key="noSuchProperty">シリアル化のカスタマイズ中に、適切なプロパティ {0} がクラス {1} のシリアル化コンテンツ内にありません。</entry>
+    <entry key="propertyExists">シリアル化のカスタマイズ中に、シリアル化プロパティ名 {0} がクラス {1} のシリアル化コンテンツ内に既に存在します。</entry>
+    <entry key="nonStaticObjectCustomizationMethod"> シリアル化のカスタマイズ中に、メソッド {0} がクラス {1} で ''Static'' として定義されておらず、シリアル化中に無視されています</entry>
+    <entry key="interruption"> ユーザーによる割り込みのため、保存-読み込み処理を終了しています</entry>
+    <entry key="numberOfElementsMismatch"> Number of elements in the input property name {0} is not equal to number of elements in the serialization content array for {1} class" </entry>
+    <entry key="badPropertyName"> シリアル化プロパティ {0} の名前が無効です </entry>
+    <entry key="operationNotSupportedOnHetArray"> 入力引数は、同種のオブジェクト配列を表すシリアル化コンテンツ配列でなければなりません </entry>
+    <entry key="saveRecursionLimit">クラスのインスタンスを MAT ファイルに保存しているときに再帰限界値を超えました。非常に長い参照のチェーンがインスタンスに含まれているか、クラス定義にエラーがあるかのいずれかが原因です。</entry>
+    <entry key="unexpectedOutputType"> クラス {1} によって定義されたカスタマイズ メソッド ''{0}'' から予期せぬ出力タイプが返されました。カスタマイズは無視され、オブジェクトからの名前と値のペアが保存されます。 </entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MustBeFinite">値は double 有限数でなければなりません。</entry>
+    <entry key="MustBeNotNegative">値は 0 以上の double の数値でなければなりません。 </entry>
+    <entry key="MustBePositive"> 値は 0 より大きい double の数値でなければなりません。</entry>
+    <entry key="MustBeANumericScalar">値は数値のスカラーでなければなりません。</entry>
+    <entry key="MustBeNotNaN"> 値は数値でなければなりません。 </entry>
+  </message>
+</rsccat>

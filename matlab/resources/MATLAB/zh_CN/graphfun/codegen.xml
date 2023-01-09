@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NodeNamesNotSupported">代码生成不支持节点名称。</entry>
+    <entry key="MethodNotSupported">代码生成不支持方法。</entry>
+    <entry key="PropertiesCannotBeAdded">在构造图或有向图后，无法添加属性。</entry>
+    <entry key="PropertiesMissing">必须为代码生成指定所有属性值。</entry>
+    <entry key="SparseNodePairs">代码生成不支持稀疏节点对组。</entry>
+    <entry key="ComplexNodeID">数值节点 ID 必须为实数。</entry>
+  </message>
+</rsccat>

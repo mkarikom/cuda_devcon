@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" decorate_cxx_names="true">
+  <message>
+    <entry key="ambiguous">Ambiguous property name ''{0}'' for the ''{1}'' class.\n</entry>
+  <!--Resource entries for src/hgbuiltins-->
+    <entry key="OutOfMemory">Out of memory. For more information, see &lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/memory.html'))\"&gt;memory&lt;/a&gt;.</entry>
+    <entry key="MethodCallFailed">Unable to call the specified method on the object(s).</entry>
+    <entry key="param_value_pairs">Size mismatch in Param Cell / Value Cell pair</entry>
+    <entry key="waitfor">The input object must be a valid MATLAB Graphics object or handle object</entry>
+    <entry key="incorrect_axes_args">Incorrect input args for constructing axes object\n</entry>
+    <entry key="HGObjectFactory">Cannot parse argument type.</entry>
+    <entry key="InvalidCopyobjArguments">Parent and child objects are incompatible.</entry>
+    <entry key="CannotFindParentForObject">Can''t find parent for object {0}.</entry>
+    <entry key="InvalidHandle">Invalid handle.</entry>
+    <entry key="doubleToMCOSConversion">Cannot find double to MCOS converter. Should not call hg2gcv without hg2 enabled.</entry>
+    <entry key="findParent">Called findParent twice</entry>
+    <entry key="NotEnoughInputArguments">Not enough input arguments.</entry>
+    <entry key="NonScalarParent">Parent must be a scalar graphics handle.</entry>
+    <entry key="BadParentPropertyValue">Bad value for property: ''Parent''</entry>
+    <entry key="ConversionError">Unable to convert double to handle.</entry>
+    <entry key="MixedHandleMode">Unable to convert double to handle.</entry>
+    <entry key="NoAppdataProp">The {0} object does not support application data.</entry>
+    <entry key="InvalidFirstInput">Invalid data argument.</entry>
+    <entry key="InvalidSecondInput">Invalid data argument.</entry>
+    <entry key="InvalidThirdInput">Invalid data argument.</entry>
+    <entry key="InvalidColorArgument">Invalid color argument</entry>
+    <entry key="InvalidNumberOfArgs">Incorrect number of input arguments</entry>
+    <entry key="ParseErrorExpectedDoubles">First two or three arguments must be numeric doubles.</entry>
+    <entry key="ParseErrorTooManyNonPV">Too many non-property/value arguments.</entry>  
+    <entry key="AddlistenerInvalidNumberOfArgs">Incorrect number of arguments for Addlistener</entry>
+    <entry key="AddlistenerInvalidProperty" note="stringDatatypeUpdate">Property names must be string arrays or cell arrays of character vectors only.</entry>
+    <entry key="AddlistenerInvalidPropertyCell" note="stringDatatypeUpdate">Specify property names as character vectors, string arrays, or cell arrays of character vectors.</entry>
+    <entry key="AddlistenerInvalidPropertyCallback">Callback types have to be one of ''PostSet'',''PostGet'',''PreGet'',''PreSet'' and match case.</entry>
+    <entry key="AddlistenerInvalidPropertyCallbackStrings" note="stringDatatypeUpdate">Specify the callback type as a string scalar or a character vector.</entry>
+    <entry key="AddlistenerInvalidPropertyEventNames" note="stringDatatypeUpdate">Specify event names as string scalars or character vectors.</entry>
+    <entry key="AddlistenerUndefined">No method 'addlistener' with matching signature found. Callback must be a function handle.</entry>
+    <entry key="AddlistenerInvalidInput">Double input must be an HG handle</entry>
+    <entry key="AddlistenerInvalidEvent">The specified event is not supported by the object</entry>
+    <entry key="AddlistenerInvalidEventVector">The specified event is not supported by this vector of objects</entry>
+    <entry key="AddlistenerInvalidInputHGOrJava">Input needs to be a valid HG handle or a raw java object</entry>    
+    <entry key="AddlistenerInvalidInputVectorHG">Input needs to be a valid vector of HG handles</entry>
+    <entry key="AddlistenerInvalidInputArgsJava">Addlistener operating on java objects could take 1 or 3 arguments</entry>
+    <entry key="AddlistenerInvalidInputVectorHGHandles">Addlistener does not support vector of hg handles</entry>
+    <entry key="AddlistenerInvalidInputFirstArg">First argument provided is not valid for addlistener. (Check its type or validity)</entry>    
+  </message>
+</rsccat>

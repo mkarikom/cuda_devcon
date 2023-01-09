@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidinput">入力はスカラーの数値または配列の次元のベクトルでなければなりません。</entry>
+    <entry key="naninf">入力はスカラーの数値または配列の次元のベクトルでなければなりません。NaN と Inf は使えません。</entry>
+    <entry key="negative">入力はスカラーの数値または配列の次元のベクトルでなければなりません。負の入力はゼロで置き換えられます。</entry>
+    <entry key="noninteger">サイズ ベクトルは、整数の要素をもつ行ベクトルでなければなりません。これは将来のリリースではエラーを返します。</entry>
+    <entry key="NonScalarInput">入力の引数はスカラーでなければなりません。これは将来のリリースではエラーを返します。</entry>
+  </message>
+</rsccat>

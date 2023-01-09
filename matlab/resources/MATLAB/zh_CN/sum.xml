@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nativeAccumOnChar">不支持对字符数组进行本机累积。</entry>
+    <entry key="nonNumericSecondInput">维度参数必须为正整数标量、由唯一正整数组成的向量或 'all'。</entry>
+    <entry key="unknownFlag">选项无效。选项必须为 ''double''、''native''、''default''、''omitnan'' 或 ''includenan''。</entry>
+    <entry key="unknownOption">选项无效。选项必须为 ''all''、''double''、''native''、''default''、''omitnan'' 或 ''includenan''。</entry>
+    <entry key="repeatedFlagNaN">选项组合无效。只能设置 ''omitnan'' 和 ''includenan'' 之一。</entry>
+    <entry key="repeatedFlagOutType">选项组合无效。只能设置 ''double''、''native'' 和 ''default'' 之一。</entry>
+    <entry key="complexIntegersNotSupported">不支持复整数求和。</entry>
+    <entry key="wrongInput">数据类型无效。第一个参数必须为数值或逻辑值。</entry>
+  </message>
+</rsccat>

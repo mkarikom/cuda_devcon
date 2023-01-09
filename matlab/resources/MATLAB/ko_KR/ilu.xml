@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ZeroPivot">0과 동일한 피벗이 있습니다.  기각 허용오차를 감소시켜 보거나 \''udiag\'' 옵션을 사용해 보십시오.</entry>
+    <entry key="FirstArgNotSparse">첫 번째 인수는 희소 형식이어야 합니다.</entry>
+    <entry key="FirstArgNotDouble">첫 번째 인수는 double형이어야 합니다.</entry>
+    <entry key="SecondArgNotStruct">두 번째 인수는 설정 구조체(setup structure)여야 합니다.</entry>
+    <entry key="StructTooManyFields">설정 구조체에 필드가 너무 많습니다.</entry>
+    <entry key="StructTypeNotString">설정 구조체의 type 필드는 ''nofill'', ''crout'' 또는 ''ilutp''여야 합니다.</entry>
+    <entry key="pivotThreshOutOfRange">설정 구조체의 thresh 필드는 0과 1 사이여야 합니다.</entry>
+    <entry key="nonNumericUDIAG">설정 구조체의 udiag 필드는 숫자형이어야 합니다.</entry>
+    <entry key="UDIAGOptionOutOfRange">설정 구조체의 udiag 필드는 0 또는 1이어야 합니다.</entry>
+    <entry key="StructMiluInvalidOption">설정 구조체의 milu 필드는 ''row'', ''col'' 또는 ''off''여야 합니다.</entry>
+    <entry key="nonNumericDropTol">설정 구조체의 droptol 필드는 숫자형이어야 합니다.</entry>
+    <entry key="NegDropTol">설정 구조체의 droptol 필드는 음수가 아니어야 합니다.</entry>
+    <entry key="nonNumericThresh">설정 구조체의 thresh 필드는 숫자형이어야 합니다.</entry>
+    <entry key="nonScalarPivotThresh">설정 구조체의 thresh 필드는 스칼라여야 합니다.</entry>
+    <entry key="nonScalarDropTol">설정 구조체의 droptol 필드는 스칼라여야 합니다.</entry>
+    <entry key="nonScalarUdiag">설정 구조체의 udiag 필드는 스칼라여야 합니다.</entry>
+    <entry key="InvalidField">설정 구조체 필드 {0}은(는) 지원되지 않습니다. 지원되는 필드는 ''type'', ''droptol'', ''milu'', ''udiag'', ''thresh''입니다.</entry>
+  </message>
+</rsccat>

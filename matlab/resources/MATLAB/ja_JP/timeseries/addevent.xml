@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">addevent メソッドは、単一の timeseries オブジェクトに対してのみ使用できます</entry>
+    <entry key="badtype">addevent の 2 番目の引数は、tsdata.event オブジェクトでなければなりません。</entry>
+    <entry key="cellarrayname">名前でイベントを追加する場合、名前は文字ベクトルのセル配列または string 配列を使って指定しなければなりません。</entry>
+    <entry key="times">名前でイベントを追加する場合、時間の値は日付文字ベクトルのセル配列、string 配列、または数値時間の配列を使って指定しなければなりません。</entry>
+    <entry key="size">名前でイベントを追加する場合、名前と時間のセル配列のサイズを同じにしなければなりません。</entry>
+    <entry key="name">名前でイベントを追加する場合、名前は文字ベクトルまたは string、あるいは文字ベクトルまたは string のセル配列として指定しなければなりません。</entry>
+  </message>
+</rsccat>

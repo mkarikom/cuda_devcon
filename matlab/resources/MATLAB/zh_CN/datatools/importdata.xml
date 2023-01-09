@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ImportDataTitle">导入数据</entry>
+    <entry key="ImportDataQuestion">导入 {0}</entry>
+    <entry key="ImportButton">导入</entry>
+    <entry key="CancelButton">取消</entry>
+    <entry key="PreviewLabel">预览:</entry>
+    <entry key="VariablesLabel">要导入的变量:</entry>
+    <entry key="VariableLabel">要导入的变量:</entry>
+    <entry key="DontShowLabel">导入 {0} 时不再显示此对话框</entry>
+    <entry key="PreviewUnavailable">预览不可用</entry>
+    <entry key="SelectAllLabel">全选</entry>
+    <entry key="AudioTooLong">音频文件太长，无法预览</entry>
+  </message>
+</rsccat>

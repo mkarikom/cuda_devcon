@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noJVM">この機能は -nojvm 起動オプションではサポートされていません。</entry>
+    <entry key="MacNoX11">この機能は、この MATLAB インスタンスの開始に使用したオプションではサポートされなくなりました。詳細は、『MATLAB Release Notes』の「Startup Option Changes on Mac」を参照してください。ご利用のシステムのブラウザーにリリース ノートを表示するには、Web(''http://www.mathworks.com/help/matlab/release-notes.html#startup_options_changes'', ''-browser'') を実行してください。</entry>
+    <entry key="ObjectDestroyed">オブジェクトは破棄されました。</entry>
+    <entry key="CALLBACK">コールバックの評価中に不明なエラー コードが返されました。</entry>
+    <entry key="UicontrolUnitsAfterPosition">UICONTROL は、''Position'' の後の ''Units'' についてプロパティ/値の組み合わせを受け取りました:\n         下位互換性のために、位置は新規の単位であるものと解釈されます。次の MATLAB リリースでは、UICONTROL が既定の単位で ''position'' 値を解釈し、それに続く ''units'' プロパティ/値の組み合わせによって初期位置が指定の単位に変換されるようになります。</entry>
+    <entry key="IteratorOutOfBoundsError">iterator が利用可能なデータの終わりに達しました。</entry>
+    <entry key="hgError">{0} を {1} の子にすることはできません。</entry>
+    <entry key="UnsupportedComponentUsePanel">{0} は {1} をサポートしていません。{0} の子としてパネルを作成し、そのパネル内に {1} を配置してください。</entry>
+  </message>
+</rsccat>

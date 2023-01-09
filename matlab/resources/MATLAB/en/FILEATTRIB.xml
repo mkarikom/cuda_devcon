@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="SyntaxError">Unknown user characters on UNIX.</entry>
+    <entry key="SyntaxWarning">File user characters ignored on Windows.</entry>
+    <entry key="ModeSyntaxError">Invalid file mode characters on the current platform.</entry>
+    <entry key="ModifierSyntaxError" note="stringDatatypeUpdate">Invalid modifier.</entry>
+    <entry key="CannotFindFile">No such file or directory.</entry>
+    <entry key="CouldNotSetAttributes">Operation not permitted.</entry>
+  </message>
+</rsccat>

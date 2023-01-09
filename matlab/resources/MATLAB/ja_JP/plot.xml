@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DataDimensionError">データの次元数を 2 より大きくすることはできません。</entry>
+    <entry key="IgnoreImaginaryXYZPart">複素数引数 X、Y、Z の虚数部は無視されます。</entry>
+    <entry key="IgnoreImaginaryXYPart">複素数引数 X や Y の虚数部は無視されます。</entry>
+    <entry key="InvalidSwitchCasePlotFcn">gsPlotFcn の内部エラー (アサーションでなければなりません)。\ngsPlotFcn 内の関数の数が不明です。</entry>
+    <entry key="UnrecognizedLineStyleParameter">色またはラインのスタイルが無効です。</entry>
+    <entry key="VectorLengthMismatch">ベクトルは同じ長さでなければなりません。</entry>
+    <entry key="ParentAxesDestroyedDuringCreation">親の Axes は {0} の作成中に破棄されました。</entry>
+    <entry key="ObjectDestroyedDuringCreation">{0} は作成中に破棄されました。</entry>
+    <entry key="InvalidSwitchCase">{0} の内部エラー (アサーションでなければなりません)。\n{1} 内の関数の数が不明です。</entry>
+    <entry key="InvalidFirstInput">最初のデータ引数が無効です。</entry>
+    <entry key="DataPairsMismatch">データは y 値の単一の入力か、x 値と y 値の 1 つ以上のペアでなければなりません。</entry>
+    <entry key="DataDimesionError">データの次元数を 2 より大きくすることはできません。</entry>
+    <entry key="IllegalPropValuePair">無効なパラメーターと値のペアです。</entry>
+    <entry key="ParentDestroyedDuringCreation">親は line の作成中に破棄されました。</entry>
+    <entry key="InvalidPropertyValue">無効なプロパティ値です。</entry>
+    <entry key="NoRulerForFormat">指定したカスタムの目盛り形式では、クラス ''{0}'' を使ってデータをプロットする必要があります。</entry>
+    <entry key="missingpackage">適切な \"@graph2d\" ディレクトリが見つかりません。</entry>
+    <entry key="ImaginaryPartsOfXYAndOrZIgnored">複素数引数 X、Y、Z の虚数部は無視されます。</entry>
+    <entry key="ImaginaryPartsOfXAndOrYIgnored">複素数引数 X や Y の虚数部は無視されます。</entry>
+    <entry key="ArgNameValueMismatch">後続の入力引数は名前と値のペアでなければなりません。</entry>
+    <entry key="InvalidTallData">tall 入力は実数の列ベクトルでなければなりません。</entry>
+    <entry key="minrhs">入力引数が不足しています。</entry>
+    <entry key="maxrhs">入力引数が多すぎます。</entry>
+    <entry key="samelen">ベクトルは同じ長さでなければなりません。</entry>
+    <entry key="IgnoringArgument">{1} への {0} 引数を無視します。これは将来のリリースではエラーとなります。</entry>
+    <entry key="DeprecatedV6Argument">{0} への引数 ''v6'' の利用は推奨されません。これは将来のリリースではサポート廃止の予定です。</entry>
+    <entry key="DeprecatedGroupArgument">{0} への引数 ''group'' は不要なため、将来のリリースではサポート廃止の予定です。</entry>
+    <entry key="BadPropertyValueFound">無効なプロパティ値が見つかりました。</entry>
+    <entry key="AmbiguousPropertyFound">あいまいなプロパティが見つかりました。</entry>
+    <entry key="XNotMonotonicIncreasing">X は単調増加で、非欠損データのみを含んでいなければなりません。X が非増加のデータをプロットするには、SCATTER または BINSCATTER を使用してください。</entry>
+  </message>
+</rsccat>

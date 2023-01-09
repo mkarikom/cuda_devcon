@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="factorFailed">UMFPACK factorization FAILED.</entry>
+    <entry key="solveFailed">UMFPACK solve FAILED.</entry>
+    <entry key="invalidSymbolic">Invalid Symbolic Factorization from sparse LU.</entry>
+    <entry key="invalidNumeric">Invalid Numeric Factorization from sparse LU.</entry>
+    <entry key="internalError">Sparse LU failed.</entry>
+  </message>
+</rsccat>

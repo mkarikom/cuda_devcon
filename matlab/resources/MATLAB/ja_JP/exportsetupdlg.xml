@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidFigure">渡された Figure のハンドルが無効です。</entry>
+    <entry key="ExportSetupTitle">エクスポート設定</entry>
+    <entry key="PropertiesPanel">プロパティ</entry>
+    <entry key="ExportStylesPanel">スタイルのエクスポート</entry>
+    <entry key="LoadButton">読み込み</entry>
+    <entry key="LoadSettingsFromLabel">設定の読み込み:</entry>
+    <entry key="SaveAsStyleNamedLabel">スタイル名として保存:</entry>
+    <entry key="SaveButton">保存</entry>
+    <entry key="DeleteButton">削除</entry>
+    <entry key="DeleteAStyleLabel">スタイルの削除:</entry>
+    <entry key="ApplyToFigureButton">Figure に適用</entry>
+    <entry key="RestoreFigureButton">Figure を元に戻す</entry>
+    <entry key="ExportButton">エクスポート...</entry>
+    <entry key="HelpButton">ヘルプ</entry>
+    <entry key="CancelButton">キャンセル</entry>
+    <entry key="OKButton">OK</entry>
+    <entry key="ExpandAxesToFillFigureCheckBox">Figure に合わせて軸を拡張</entry>
+    <entry key="UnableToLoadStyleErrorDlg">スタイル {0} を読み込むことができません。</entry>
+    <entry key="CMYKColorDropdown">CMYK カラー</entry>
+    <entry key="RGBColorDropdown">RGB カラー</entry>
+    <entry key="BlackAndWhiteDropdown">モノクロ</entry>
+    <entry key="GrayscaleDropdown">グレースケール</entry>
+    <entry key="PaintersDropdown">painters (ベクトル形式)</entry>
+    <entry key="OpenGLDropdown">OpenGL (ビットマップ形式)</entry>
+    <entry key="ZbufferDropdown">zbuffer (ビットマップ形式)</entry>
+    <entry key="ConvertSolidLinesCheckBox">実線からライン スタイルを周期的に繰り返すように変換する</entry>
+    <entry key="CustomAngleCheckBox">フォントの角度:</entry>
+    <entry key="CustomColorCheckBox">カスタム色:</entry>
+    <entry key="CustomNameCheckBox">フォント名:</entry>
+    <entry key="CustomRendererCheckBox">カスタム レンダラー:</entry>
+    <entry key="CustomSizeCheckBox">フォント サイズ:</entry>
+    <entry key="CustomWeightCheckBox">フォントの太さ:</entry>
+    <entry key="CustomWidthCheckBox">ライン幅:</entry>
+    <entry key="AutoText">自動</entry>
+    <entry key="DefaultText">既定の設定</entry>
+    <entry key="ScreenText">スクリーン</entry>
+    <entry key="KeepAxisLimitsCheckBox">座標軸の範囲を保持</entry>
+    <entry key="ScaleFontByLabel">フォントのスケーリング </entry>
+    <entry key="ScaleLineWidthByLabel">ライン幅のスケーリング</entry>
+    <entry key="ShowUicontrolsCheckBox">Uicontrol を表示</entry>
+    <entry key="UseFixedFontSizeLabel">固定フォントサイズを使用</entry>
+    <entry key="UseFixedLineWidthLabel">固定ライン幅の使用</entry>
+    <entry key="PointsDropdown">ポイント</entry>
+    <entry key="CentimetersDropdown">センチメートル</entry>
+    <entry key="InchesDropdown">インチ</entry>
+    <entry key="DemiDropdown">中太</entry>
+    <entry key="ItalicDropdown">イタリック</entry>
+    <entry key="ObliqueDropdown">斜体</entry>
+    <entry key="LightDropdown">細</entry>
+    <entry key="NormalDropdown">標準</entry>
+    <entry key="BoldDropdown">太</entry>
+    <entry key="FontsDropdown">フォント</entry>
+    <entry key="LinesDropdown">ライン</entry>
+    <entry key="RenderingDropdown">レンダリング</entry>
+    <entry key="SizeDropdown">サイズ</entry>
+    <entry key="WithMinimumOfLabel">最小値</entry>
+    <entry key="ResolutiondpiLabel">解像度 (dpi):</entry>
+    <entry key="ColorspaceLabel">色空間:</entry>
+    <entry key="HeightLabel">高さ:</entry>
+    <entry key="UnitsLabel">単位:</entry>
+    <entry key="WidthLabel">幅:</entry>
+    <entry key="Documents">ドキュメント</entry>
+    <entry key="Presentations">表現</entry>
+  </message>
+</rsccat>

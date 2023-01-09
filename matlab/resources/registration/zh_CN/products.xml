@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="registration" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="setupCompilerRecommended">要加快以下产品的计算速度，需要&lt;a HREF="http://www.mathworks.com/pi_scl_3_{0}_{1}"&gt;支持的编译器&lt;/a&gt;:&lt;br&gt;&lt;br&gt;{2}&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupCompilerRequired">以下产品需要&lt;a href="http://www.mathworks.com/pi_scl_1_{0}_{1}"&gt;支持的编译器&lt;/a&gt;:&lt;br&gt;&lt;br&gt;{2}&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupMATLABCompiler">{0} 需要&lt;a HREF="http://www.mathworks.com/pi_scl_4_{1}_{2}"&gt;支持的编译器&lt;/a&gt;来创建 Excel 加载项。&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupNotesTopLabel">&lt;b&gt;您的安装可能需要额外的配置步骤。&lt;/b&gt;&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupParallelServer">此安装完成后，应按照从 &lt;a HREF="{0}"&gt;www.mathworks.com/distconfig&lt;/a&gt; 获取的说明中所述继续配置 MATLAB Parallel Server&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupSimulinkCompiler">Simulink 需要使用 C 编译器以实现仿真加速、模型引用和 MATLAB Function 模块功能。建议您在计算机上安装&lt;a HREF="http://www.mathworks.com/pi_scl_2_{0}_{1}"&gt;支持的编译器&lt;/a&gt;。&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupWebAppServer"> 设置 MATLAB Web App Server 的说明&lt;br&gt;&lt;br&gt; a. &lt;a HREF="http://www.mathworks.com/pi_mwas_mcr_pi_{1}_{2}"&gt;下载 MATLAB Runtime&lt;/a&gt; 并将其安装在默认位置。&lt;br&gt; - 支持从 R2019b 开始直到&lt;a HREF="http://www.mathworks.com/pi_mwas_lsv_pi_{1}_{2}"&gt;最新版本&lt;/a&gt;的 MATLAB Runtime。&lt;br&gt;&lt;br&gt; b.在命令行中键入以下命令来运行设置脚本: &lt;i&gt;webapps-setup&lt;/i&gt; &lt;br&gt; - 设置脚本位于: &lt;i&gt;{0}script&lt;/i&gt;。&lt;br&gt;&lt;br&gt; c.有关详细说明，请下载&lt;a HREF="http://www.mathworks.com/pi_mwas_qsg_pi_{1}_{2}"&lt;/a&gt;快速入门指南&lt;/a&gt;。&lt;br&gt;&lt;br&gt; d.有关 Web 文档，请参阅 &lt;a HREF="http://www.mathworks.com/pi_mwas_doc_pi_{1}_{2}"&gt;MATLAB Web App Server。&lt;/a&gt;&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="startupAcceleratorDesc">启动加速器用于加速 MATLAB 启动</entry>
+    <entry key="startupAcceleratorName">MATLAB {0} 启动加速器</entry>
+    <entry key="commentForMATLABShortcut">启动 MATLAB - 技术计算的语言</entry>
+    <entry key="commentForPolySpaceShortcut">启动 Polyspace</entry>
+    <entry key="newLine">&lt;br&gt;</entry>
+    <entry key="setupMATLABCompilerSDKWin">{0} requires the following:&lt;br&gt;&lt;br&gt;
+    \u25CF  &lt;a HREF="http://www.mathworks.com/pi_scl_5_{1}_{2}"&gt;.NET framework&lt;/a&gt; for creation of .NET assemblies and deployable archives with Excel integration&lt;br&gt;
+    \u25CF  a &lt;a HREF="http://www.mathworks.com/pi_scl_5_{1}_{2}"&gt;supported compiler&lt;/a&gt; for creation of COM components, C and C++ Shared libraries&lt;br&gt;
+    \u25CF  a &lt;a HREF="http://www.mathworks.com/pi_scl_6_{1}_{2}"&gt;Java JDK&lt;/a&gt; for creation of Java packages&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupMATLABCompilerSDKLinux"> {0} requires the following: &lt;br&gt;&lt;br&gt;
+    \u25CF  a &lt;a HREF="http://www.mathworks.com/pi_scl_5_{1}_{2}"&gt;supported compiler&lt;/a&gt; for creation of C and C++ Shared libraries&lt;br&gt;
+    \u25CF  a &lt;a HREF="http://www.mathworks.com/pi_scl_6_{1}_{2}"&gt;Java JDK&lt;/a&gt; for creation of Java packages&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupProductionServer">&lt;i&gt;&lt;b&gt;Important:&lt;/i&gt;&lt;/b&gt;&lt;br&gt;Before you can use MATLAB Production Server, you must set up your environment.&lt;br&gt;
+    &lt;br&gt;a. &lt;a HREF="http://www.mathworks.com/pi_mps_mcr_pi_{1}_{2}"&gt;Download and install the MATLAB Runtime&lt;/a&gt;&lt;br&gt;
+    - Install the MATLAB Runtime in the default location&lt;br&gt;
+    - MATLAB Production Server will work with the last six versions of the MATLAB Runtime from the &lt;a HREF="http://www.mathworks.com/pi_mps_lsv_pi_{1}_{2}"&gt;most recent version&lt;/a&gt;&lt;br&gt;
+    &lt;br&gt;b. At the system command line, run mps-setup from the script folder. The script folder is located at {0}script.&lt;br&gt;
+    &lt;br&gt;c. For detailed instructions, download the &lt;a HREF="http://www.mathworks.com/pi_mps_qsg_pi_{1}_{2}"&gt;Quick Start Guide&lt;/a&gt;.&lt;br&gt;&lt;br&gt;</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">入力引数が不足しています。</entry>
+    <entry key="SingJac">連結式を解くことができません -- 特異なヤコビアンが発生しました</entry>
+    <entry key="RelTolNotMet">{0,number,integer} より多いメッシュ点を使用せずに許容誤差を満たすことはできません。\n {1,number,integer} 点の最後のメッシュと解は、出力引数で利用可能です。\n 最大誤差は {2} で、要求精度は {3} です。</entry>
+    <entry key="SolutionWasObtained">解は {0} 点のメッシュ上で得られました。\n</entry>
+    <entry key="MaximumError">最大誤差は {0} です。\n</entry>
+    <entry key="CallsToODEFunctionn">ODE 関数への {0} 回の呼び出しがあります。\n</entry>
+    <entry key="CallsToBCFunctionn">BC 関数への {0} 回の呼び出しがあります。\n</entry>
+  </message>
+</rsccat>

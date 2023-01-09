@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="KeepObservations">観測データを保持</entry>
+    <entry key="TimeIn">{0} 内の時間: {1}</entry>
+    <entry key="RemoveObservations">観測値を削除</entry>
+    <entry key="ReplaceWithNaNs">NaN に置き換え</entry>
+  </message>
+</rsccat>

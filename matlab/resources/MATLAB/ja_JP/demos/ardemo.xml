@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelWaitWhile2DDataLoaded">2D データが読み込まれるまでお待ちください</entry>
+    <entry key="LabelWaitWhile3DDataLoaded">3 次元データが読み込まれるまでお待ちください</entry>
+    <entry key="LabelUseTheControlsToSeeEffects3d">3 次元プロットのさまざまな Axes プロパティの効果を参照するには、GUI を使用してください</entry>
+    <entry key="LabelUserDefinedPlot">ユーザー定義プロット</entry>
+    <entry key="PromptEnterAValidPlotCommandOrFunction">有効なプロット コマンドまたは関数を入力してください</entry>
+    <entry key="LabelSelectPlotType">プロット タイプの選択</entry>
+    <entry key="Label2DDefault">2 次元の既定の設定</entry>
+    <entry key="Label3DDefault">3 次元の既定の設定</entry>
+    <entry key="LabelDataAspectRatio">データの縦横比</entry>
+    <entry key="LabelDARMode">DAR モード</entry>
+    <entry key="LabelPlotBoxAspectRatio">プロット ボックスの縦横比</entry>
+    <entry key="LabelPBARMode">PBAR モード</entry>
+    <entry key="LabelXAxisLimit">X 軸の範囲</entry>
+    <entry key="LabelXLimMode">XLim モード</entry>
+    <entry key="LabelYAxisLimit">Y 軸の範囲</entry>
+    <entry key="LabelYLimMode">YLim モード</entry>
+    <entry key="LabelZAxisLimit">Z 軸の範囲</entry>
+    <entry key="LabelZLimMode">ZLim モード</entry>
+    <entry key="ComboBoxAutoManual">自動|手動</entry>
+    <entry key="LabelDefault3DView">既定の 3 次元表示</entry>
+    <entry key="WarningInvalidPropertyValue">警告: 無効なプロパティ値が入力されています。{0} = {1} に戻しています</entry>
+    <entry key="LabelModeChangedToManual">{0} モードが手動に変更されました</entry>
+    <entry key="LabelModeChangedToAuto">{0} モードが自動に変更されました</entry>
+    <entry key="LabelManuallyChangedTo">{0} を手動で {1} に変更しました</entry>
+    <entry key="FigureAxesPropertiesDemonstration">Axes プロパティのデモ</entry>
+    <entry key="LabelUseTheControlsToSeeEffects2d">2 次元プロットのさまざまな Axes プロパティの効果を参照するには、GUI を使用してください</entry>
+  </message>
+</rsccat>

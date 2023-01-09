@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFirstInputRange">유효하지 않은 데이터형입니다. 첫 번째 인수는 실수 숫자형 배열이거나 논리형 배열, table형 또는 timetable형이어야 합니다.</entry>
+    <entry key="InvalidFirstInputRobust">유효하지 않은 데이터형입니다. 첫 번째 인수는 double형 또는 single형으로 구성된 실수형 배열, table형 또는 timetable형이어야 합니다.</entry>
+    <entry key="InvalidFirstInput">유효하지 않은 데이터형입니다. 첫 번째 인수는 double형, single형, table형 또는 timetable형이어야 합니다.</entry>
+    <entry key="UnsupportedTableVariableRange">테이블 변수는 실수 숫자형 배열이거나 논리형 배열이어야 합니다.</entry>
+    <entry key="UnsupportedTableVariableRobust">테이블 변수는 double형 또는 single형으로 구성된 실수형 배열이어야 합니다.</entry>
+    <entry key="UnsupportedTableVariable">테이블 변수는 double형 또는 single형이어야 합니다.</entry>
+    <entry key="NonVectorTableVariable">테이블 변수는 열 벡터여야 합니다.</entry>
+    <entry key="InvalidDIM">차원은 양의 정수여야 합니다.</entry>
+    <entry key="TableDIM">첫 번째 인수가 table형이나 timetable형이면 Dimension을 사용할 수 없습니다.</entry>
+    <entry key="KeyWithoutValue">입력 인수의 개수가 올바르지 않습니다. 파라미터 이름과 값은 쌍으로 있어야 합니다.</entry>
+    <entry key="ParseFlags">파라미터 이름은 ''DataVariables''여야 합니다.</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' 함수 핸들은 논리형 스칼라를 반환해야 합니다.</entry>
+    <entry key="DataVariablesTableSubscript">유효하지 않은 ''DataVariables'' 값입니다.</entry>
+    <entry key="DataVariablesArray">''DataVariables'' 파라미터는 테이블 입력값과 타임테이블 입력값에만 사용할 수 있습니다.</entry>
+    <entry key="IncorrectNumInputsArray">입력 인수의 개수가 올바르지 않습니다.</entry>
+    <entry key="MethodAfterOptions">정규화 방법은 이름-값 쌍 앞에 와야 합니다.</entry>
+    <entry key="InvalidMethod">정규화 방법은 ''zscore'', ''norm'', ''center'', ''scale'', ''range'' 또는 ''medianiqr''이어야 합니다.</entry>
+    <entry key="InvalidDoubleMethod">유효하지 않은 입력값 조합입니다. 동시에 지정할 수 있는 유일한 방법은 ''center''와 ''scale''입니다.</entry>
+    <entry key="InvalidNormType">노름은 양의 실수형 스칼라이거나 Inf여야 합니다.</entry>
+    <entry key="InvalidRangeType">범위 구간은 증가하는 값으로 구성된, 두 개의 요소를 포함하는 실수형 벡터여야 합니다.</entry>
+    <entry key="InvalidCenterType">''center'' 방법 유형은 ''mean'', ''median'', 중심화 값으로 구성된 숫자형 배열 또는 중심화 값으로 구성된 테이블(첫 번째 입력값이 table형인 경우)이어야 합니다.</entry>
+    <entry key="InvalidScaleType">''scale'' 방법은 ''std'', ''mad'', ''iqr'', ''first'', 스케일링 값으로 구성된 숫자형 배열 또는 스케일링 값으로 구성된 테이블(첫 번째 입력값이 table형인 경우)이어야 합니다.</entry>
+    <entry key="InvalidCenterScaleType">''center'' 및 ''scale'' 방법 유형이 테이블인 경우 테이블의 변수 이름이 동일한지 확인하십시오. 또는 ''DataVariables''를 지정하여 연산을 수행할 변수의 서브셋을 나타내십시오.</entry>
+    <entry key="InvalidCenterScaleTypeWithDataVars">''DataVariables''로 지정된 변수의 데이터를 정규화하려면 변수가 정규화 테이블뿐만 아니라 데이터에도 있어야 합니다.</entry>
+    <entry key="InvalidCenterScaleTypeFirstInput">''center'' 및 ''scale'' 방법 유형이 테이블인 경우 데이터에 테이블 변수 이름이 있는지 확인하십시오. 또는 ''DataVariables''를 지정하여 연산을 수행할 변수의 서브셋을 나타내십시오.</entry>
+    <entry key="InvalidZscoreType">zscore 유형은 ''std'' 또는 ''robust''여야 합니다.</entry>
+    <entry key="DataVarsMustBeUnique">코드 생성 시 'DataVariables' 파라미터는 중복 항목을 포함할 수 없습니다.</entry>
+  </message>
+</rsccat>

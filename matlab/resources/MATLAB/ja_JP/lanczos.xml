@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ProFailed">qk の m 次直交の再直交化に失敗しました。</entry>
+    <entry key="FactorizationFailed">シフト {3} で大きい因子対角比 {2} が発生しました (試行 {0}/{1})</entry>
+    <entry key="QRFailedKp1">qk+1 の m 次直交の再直交化が、コード {0} で失敗しました。</entry>
+    <entry key="ProQRFailedKp1">qk+1 の m 次直交の再直交化が、部分的再直交化の後に失敗しました。</entry>
+    <entry key="SoQRFailedKp1">qk+1 の m 次直交の再直交化が、選択的再直交化の後に失敗しました。</entry>
+    <entry key="NeedKM">K と M の両方を指定しなければなりません。</entry>
+    <entry key="KMSparseDouble">K と M はスパースかつ double でなければなりません。</entry>
+    <entry key="NotSquare">K と M は正方かつ同じサイズでなければなりません。</entry>
+    <entry key="NoOpts">3 番目の引数はオプションの struct 配列でなければなりません。</entry>
+    <entry key="OutsideShift">シフトはすべての区間の外部にあります。</entry>
+    <entry key="NotAllFound">一部の固有値が見つかりませんでした。FrequencyRange を減らすか、MaxShift を増やしてください。</entry>
+    <entry key="BadFactor">因数分解は、おそらく問題が不良設定であるため失敗しました。</entry>
+    <entry key="MassIndefinite">質量行列が不定値です。</entry>
+    <entry key="Overfull">ある区間に見つかった固有値が多すぎます。</entry>
+    <entry key="BadLeft">FrequencyRange の左の端点を調整して、固有値のクラスターを回避します。</entry>
+    <entry key="BadRight">FrequencyRange の右の端点を調整して、固有値のクラスターを回避します。</entry>
+    <entry key="BeginningBanner">ランチョスの反復 {0}: 範囲 ({4}, {5}) 内で {1} 個の固有値 (左に {2} 個、右に {3} 個) を求める</entry>
+    <entry key="BeginningLanczosParameters">ランチョスの反復パラメーター:\n シフト: {0}、慣性: {1}、因子対角比: {2}\n ブロック サイズ: {3}\n 最小ステップ数: {4}\n 最大ステップ数: {5}\n 選択的直交化の固有対の数: {6}</entry>
+    <entry key="BeginningSOTitle">-- SO 固有値 ----- シフト ------ 残差の境界 ----</entry>
+    <entry key="ProgressBanner">ステップ {0}: {1} 個の固有値が収束しました (左で {2} 個、右で {3} 個)。</entry>
+    <entry key="ProgressEvalTitle">----- T 固有値 ----- 固有値 ------- 残差 -----</entry>
+    <entry key="CostBanner">次の {0} ステップにおける Ritz 値あたりの予測コスト:</entry>
+    <entry key="SummaryBanner">ランチョス反復が終了コード {0} で完了しました:\n 検出した固有値: {1}\n センチネル: ({2}, {3})\n ステップ数: {4}\n部分的再直交化: {5}</entry>
+    <entry key="BlockSizeReduced">この反復では固有値が見つかりませんでした。ブロック サイズを {0} に縮小します。</entry>
+    <entry key="TerminateCost">コストのため、反復を終了します。</entry>
+    <entry key="DisplayEmptyIntervalInfo">区間 {0}: 空 ({1}/{2} 個の固有値を検出)\n 端点: [{3}, {4}]\n センチネル: [{5}, {6}]\n Sturm 数: [{7}, {8}]</entry>
+    <entry key="DisplayPartialIntervalInfo">区間 {0}: 部分的 ({1}/{2} 個の固有値を検出)\n 端点: [{3}, {4}]\n センチネル: [{5}, {6}]\n Sturm 数: [{7}, {8}]</entry>
+    <entry key="DisplayFullIntervalInfo">区間 {0}: 完全 ({1}/{2} 個の固有値を検出)\n 端点: [{3}, {4}]\n センチネル: [{5}, {6}]\n Sturm 数: [{7}, {8}]</entry>
+    <entry key="DisplayOverfullIntervalInfo">区間 {0}: 過完全 ({1}/{2} 個の固有値を検出)\n 端点: [{3}, {4}]\n センチネル: [{5}, {6}]\n Sturm 数: [{7}, {8}]</entry>
+    <entry key="AllFound">すべての固有値が求められました。</entry>
+  </message>
+</rsccat>

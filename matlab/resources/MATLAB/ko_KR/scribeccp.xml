@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CannotCutDelete">Figure 또는 루트를 잘라내거나 삭제할 수 없습니다.</entry>
+    <entry key="PLOTEDITisOff">PLOTEDIT 모드가 켜져 있어야 합니다.</entry>
+    <entry key="CurrentFigureEmpty">현재 Figure(gcf)가 존재하지 않습니다.</entry>
+  </message>
+</rsccat>

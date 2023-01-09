@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed">
+  <message>
+    <entry key="SourceArgumentIsEmpty">First argument must be non-empty.</entry>
+    <entry key="SourceAndDestinationSame">Cannot copy or move a file or directory onto itself.</entry>
+    <entry key="FileDoesNotExist">No matching files were found.</entry>
+    <entry key="FileNotFound">No matching files named ''{0}'' were found.</entry>
+    <entry key="ReadOnly">Cannot write to destination: {0}.  Use the ''f'' option to override.</entry>
+    <entry key="PATHMAX">Maximum path length exceeded.</entry>
+    <entry key="ReadOnlyDestination">Cannot write to destination: {0}.  Use the ''f'' option to override.</entry>
+    <entry key="ReadOnlySource">Cannot write from source: {0}.  Use the ''f'' option to override.</entry>
+    <entry key="SourceIsAncestorOfDestination">Source cannot be an ancestor of destination.</entry>
+    <entry key="ResourceExists">Cannot write to destination ''{0}'' since it exists. Use the ''f'' option to override.</entry>
+    <entry key="DestNotAFolder">Destination {0} is not a folder.\nWhen moving a source folder, the destination must also be a folder.</entry>
+    <entry key="NeitherFileNorFolder">The filename, directory name, or volume label syntax is incorrect.</entry>
+    <entry key="ReadPermissionError">Cannot read from source: {0}.\nUse the ''f'' option to override.</entry>
+    <entry key="ReadPermissionErrorWithFlag">Cannot read from source: {0}.</entry>
+    <entry key="WritePermissionError">Cannot write to destination: {0}.\nUse the ''f'' option to override.</entry>
+    <entry key="WritePermissionErrorWithFlag">Cannot write to destination: {0}.</entry>
+    <entry key="FolderPermissionError">{0}: Permission Denied.\nUse the ''f'' option to override.</entry>
+    <entry key="FolderPermissionErrorWithFlag">{0}: Permission Denied.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="stringInput">文字ベクトルの入力引数はサポートされません。</entry>
+    <entry key="inputType">サイズと範囲の入力は数値でなければなりません。</entry>
+    <entry key="invalidLimits">最初の入力は正の整数のスカラー値 IMAX でなければなりません。または、IMAX 以下の IMIN をもつ 2 つの整数値 [IMIN IMAX] でなければなりません。</entry>
+    <entry key="invalidOutputType">クラス {0} の出力はサポートされません。</entry>
+    <entry key="invalidClassname">CLASSNAME 入力は、''single''、''double''、''uint8''、''int8'' など RANDI をサポートするクラスでなければなりません。</entry>
+    <entry key="invalidPrototype">''like'' に続く入力は RANDI をサポートする型の変数でなければなりません。 </entry>
+    <entry key="complexOrSparsePrototype">''like'' に続く複素数やスパースの入力はサポートされていません。</entry>
+  </message>
+</rsccat>

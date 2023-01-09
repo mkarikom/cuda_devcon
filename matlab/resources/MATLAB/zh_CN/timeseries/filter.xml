@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="singletimeseriesobject">filter 方法只能用于单时序对象</entry>
+    <entry key="nonnumeric">不能对具有非数值数据的时序执行数值运算</entry>
+    <entry key="noarray">filter 不能应用于数据维度高于 2 的时序。</entry>
+    <entry key="allnans">时序数据不能以 NaN 开始或结束。</entry>
+  </message>
+</rsccat>

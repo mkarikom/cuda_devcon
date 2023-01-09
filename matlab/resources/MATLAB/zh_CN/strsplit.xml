@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidStringType">第一个输入必须为字符向量或字符串标量。</entry>
+    <entry key="InvalidDelimiterType">分隔符必须为字符向量、字符向量元胞数组或字符串数组。</entry>
+  </message>
+</rsccat>

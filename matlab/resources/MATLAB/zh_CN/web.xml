@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoHelpBrowser">在帮助浏览器中显示文档页需要安装 Java，后者由于启动选项问题不可用。</entry>
+    <entry key="NoBrowser">未定义 Web 浏览器。\n\n要设置系统 Web 浏览器，请键入 "preferences(''''Web'''')" 以显示“预设项”对话框。</entry>
+    <entry key="BrowserNotFoundConfigureInfo">MATLAB 无法启动系统 Web 浏览器:\n\n{0}\n\n要配置系统 Web 浏览器，请键入 "preferences(''''Web'''')" 以显示“预设项”对话框。</entry>
+    <entry key="BrowserNotFound">MATLAB 无法启动系统 Web 浏览器:\n\n{0}</entry>
+    <entry key="NoURL">未指定 URL。</entry>
+    <entry key="DialogTitleWarning">MATLAB 警告</entry>
+    <entry key="BrowserOuptputArgRemovedInFutureRelease">[STAT,H] = WEB(___) 不返回在系统浏览器中打开的网页的句柄。请改用 STAT = WEB(___)。</entry>
+    <entry key="BrowserAndUrlOuptputArgsRemovedInFutureRelease">[STAT,H,URL] = WEB(___) 不返回在系统浏览器中打开的网页的句柄或 URL。请改用 STAT = WEB(___)。</entry>
+    <entry key="UnsupportedEnvironment">MATLAB 无法启动您的系统 Web 浏览器:\n\n不支持环境。</entry>
+  </message>
+</rsccat>

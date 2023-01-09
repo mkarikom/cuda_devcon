@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright 2016-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="UnrecognizedMode" note="stringDatatypeUpdate">Sorting direction must be ''ascend'', ''descend'', ''monotonic'', ''strictascend'', ''strictdescend'', or ''strictmonotonic''.</entry>
+    <entry key="WrongLengthMode">Direction must have one element for each variable you sort on.</entry>
+    <entry key="EmptyRowNames">The input table does not contain row names, returning TRUE.</entry>
+    <entry key="BadNumericVarIndices">Numeric variable indices must be either positive or negative integers.</entry>
+    <entry key="NDVar">Variable ''{0}'' must be a 2-dimensional matrix.</entry>
+    <entry key="IssortedOnRowFailed">Issorted on the row labels failed.</entry>
+    <entry key="IssortedOnVarFailed">Issorted on variable ''{0}'' failed, its class is ''{1}''.</entry>
+    <entry key="CellstrVar">Cellstr variables not supported. Alternatively, you can convert the cellstr variable ''{0}'' to a string array.</entry>
+    <!-- codegen -->
+    <entry key="NonConstantVarWidth">Issorted on variable ''{0}'' failed, it contains variable number of columns. Sorting variables must have fixed width.</entry>
+  </message>
+</rsccat>

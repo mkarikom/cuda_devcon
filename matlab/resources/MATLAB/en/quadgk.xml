@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="funArgNotHandle">First input argument must be a function handle.</entry>
+    <entry key="invalidEndpoint">A and B must be scalar floats.</entry>
+    <entry key="nonFiniteContourError">Contour endpoints and waypoints must be finite.</entry>
+    <entry key="NonFiniteValue">Infinite or Not-a-Number value encountered.</entry>
+    <entry key="UnsupportedClass">Supported classes are ''double'' and ''single''.</entry>
+    <entry key="FxNotSameSizeAsX">Output of the function must be the same size as the input.</entry>
+    <entry key="invalidAbsTol">Invalid AbsTol</entry>
+    <entry key="invalidRelTol">Invalid RelTol</entry>
+    <entry key="invalidMaxIntervalCount">MaxIntervalCount must be a positive integer scalar.</entry>
+    <entry key="increasedRelTol">RelTol was increased to 100*eps(''{0}'') = {1}.</entry>
+    <entry key="MaxIntervalCountReached">Reached the limit on the maximum number of intervals in use. Approximate bound on error is{0}. The integral may not exist, or it may be difficult to approximate numerically. Increase MaxIntervalCount to {1,number,integer} to enable QUADGK to continue for another iteration.</entry>
+    <entry key="MinStepSize">Minimum step size reached near x = {0}; singularity possible.</entry>
+    <entry key="WaypointsNotVector">Waypoints must be a vector.</entry>
+    <entry key="WaypointsNotFinite">Waypoints must be finite.</entry>
+  </message>
+</rsccat>
+

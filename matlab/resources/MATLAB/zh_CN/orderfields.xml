@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="arg1NotStruct">第一个参数必须为结构体。</entry>
+    <entry key="InvalidPermLength">Permutation 向量的长度必须与结构体中字段的数目相同。</entry>
+    <entry key="StructFieldMismatch">两个结构体的字段必须完全相同。</entry>
+    <entry key="CellStrMismatchFieldnames">第二个输入中的文本必须与结构体的字段名称匹配。</entry>
+    <entry key="InvalidArg2">第二个参数必须为结构体、字符串、字符向量元胞数组或置换向量。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="appFigureName">MathWorks 라이선스 대여</entry>
+    <entry key="prodStatus">제품 상태</entry>
+    <entry key="borrowButton">대여</entry>
+    <entry key="returnButton">반환</entry>
+    <entry key="autoOnButton">자동 대여 활성화</entry>
+    <entry key="autoOffButton">자동 대여 비활성화</entry>
+    <entry key="closeButton">닫기</entry>
+    <entry key="borrowOffDlgTitle">자동 대여가 비활성화됨</entry>
+    <entry key="borrowOffDlgMsg">제품이 성공적으로 대여되었습니다. 오프라인으로 작업하기 전에 모든 제품이 설치되었는지 확인하십시오.</entry>
+    <entry key="returnWarnTitle">제품을 반환할 수 없음</entry>
+    <entry key="returnWarnMsg">제품을 대여한 MATLAB 세션 중에는 제품을 반환할 수 없습니다. 제품을 반환하려면 MATLAB을 다시 시작하십시오.</entry>
+    <entry key="untilDateLabel">(종료: {0})</entry>
+    <entry key="borrowPeriodLabel">대여 기간 지정</entry>
+    <entry key="borrowDateSpinnerLabel">대여할 일수</entry>
+    <entry key="prodColumnHeading">제품 이름</entry>
+    <entry key="inuseColumnHeading">사용 중</entry>
+    <entry key="statusColumnHeading">대여 상태</entry>
+    <entry key="dateColumnHeading">반환 날짜</entry>
+    <entry key="fromListRadioLabel">목록에서 선택하여 선택한 제품을 대여합니다.</entry>
+    <entry key="fromListRadioText">대여할 제품을 선택합니다. 선택한 제품만 대여됩니다.</entry>
+    <entry key="autoRadioLabel">제품을 사용하면 자동으로 제품 라이선스를 대여받습니다.</entry>
+    <entry key="autoRadioText">현재 사용 중인 모든 제품 라이선스를 대여받고 제품을 사용하면 자동으로 계속 제품 라이선스를 대여받습니다.</entry>
+    <entry key="returnRadioLabel">대여한 제품을 조기에 반환합니다.</entry>
+    <entry key="returnRadioText">선택한 제품을 반환합니다. 현재 제품을 사용 중인 경우 MATLAB을 닫을 때까지 제품이 체크인되지 않습니다.</entry>
+    <entry key="autoBorrowText">자동 대여가 활성화되었습니다.\n제품을 사용하여 작업을 계속하면 제품이 자동으로 대여됩니다.\n이 창을 닫을 수 있으며, 창을 닫아도 대여 모드는 계속 유지됩니다.\n필요한 모든 제품을 대여한 경우, 상태 테이블을 표시하려면 "자동 대여 비활성화"를 클릭하십시오.</entry>
+    <entry key="borrowErrorTitle">라이선스 대여 오류</entry>
+    <entry key="borrowErrorMsg">{0} 라이선스를 대여하는 중 오류가 발생했습니다.\n{1}</entry>
+    <entry key="returnErrorTitle">라이선스 반환 오류</entry>
+    <entry key="returnErrorMsg">{0} 라이선스를 반환하는 중 오류가 발생했습니다.\n{1}</entry>
+    <entry key="yesLabel">예</entry>
+    <entry key="individual">개별</entry>
+    <entry key="borrowed">대여됨</entry>
+  </message>
+</rsccat>

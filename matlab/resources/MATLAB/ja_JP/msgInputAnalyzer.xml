@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badMessageArgument">メッセージ識別子には、文字ベクトルまたは string スカラーであるメッセージが続かなければなりません。</entry>
+    <entry key="identifierTooLong">指定の識別子は、最大が可能な {0,number,integer} 個の文字数より長くなっています。</entry>
+    <entry key="invalidMessageType">メッセージには、文字ベクトル、string スカラー、メッセージ構造体のいずれかを指定しなければなりません。</entry>
+    <entry key="missingMessageArgument">メッセージ識別子の引数を指定する場合は、メッセージ テキストの引数を指定しなければなりません。</entry>
+    <entry key="nonScalarInput">書式付き引数はスカラーでなければなりません。</entry>
+    <entry key="unexpectedArguments">入力引数をメッセージ構造体の入力の後に使用することはできません。</entry>
+  </message>
+</rsccat>

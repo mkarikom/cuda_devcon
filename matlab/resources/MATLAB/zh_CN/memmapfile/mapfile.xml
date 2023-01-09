@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="cannotStatFile">无法获取文件 ''{0}'' 的信息: {1}。</entry>
+    <entry key="cannotMap">无法映射文件 ''{0}'': {1}。</entry>
+    <entry key="usage">用法: hMapfile(memstruct)，其中 memstruct 包含以下字段: dataHandle、filename、可写: true/false，numElements，格式: 'u/int8/logical'\n\t\t | 'u/int16/char'\n\t\t | 'u/int32'\n\t\t | 'u/int64'\n\t\t | 'single'\n\t\t | 'double',\n\t\t [可选: 偏移量]。</entry>
+    <entry key="exceededMaxSize">映射的总字节数不能超过 {0}\n(包括从偏移位置到下一最低页边界的填充量)。</entry>
+  </message>
+</rsccat>

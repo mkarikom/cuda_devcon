@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry note="This symbol is used to separate array dimensions in error messages. For example, to display the size of an array with 4 rows and 3 columns, we will create the string “4-by-3” by concatenating the strings “4”, “-by-“ (from this message), and “3”; similarly, the size of a four-dimensional array will be displayed as “2-by-3-by-6-by-4”.  In g1794377, we decided to translate “-by-“ to “x” in Chinese, Japanese, and Korean." key="dimension_separator">-by-</entry>
+    <entry key="warning_message_prefix">Warning: </entry>
+    <entry note="the string ''warning off {0}'' must not be translated" key="toDisableWarning">\n(Type ''warning off {0}'' to suppress this warning.)</entry>
+    <entry key="arrayScalIntReq">Scalar integer value required, but value is an array.</entry>
+    <entry key="complexScalIntReq">Scalar integer value required, but value is complex.</entry>
+    <entry key="nonIntegerInput">Size inputs must be integers.</entry>
+    <entry key="nonRealInput">Size vector should be a row vector with real elements.</entry>
+    <entry key="badTypeIndices">Array indices must be positive integers or logical values.</entry>
+    <entry key="badTypeIndicesPosition">Index in position {0, number, integer} is invalid. Array indices must be positive integers or logical values.</entry>
+    <entry key="indexExceedsDims">Index exceeds array bounds.</entry>
+    <entry key="indexExceedsDimsPosition">Index in position {0, number, integer} exceeds array bounds.</entry>
+    <entry key="indexExceedsDimsPositionSize">Index in position {0, number, integer} exceeds array bounds. Index must not exceed {1, number, integer}.</entry>
+    <entry key="indexExceedsDimsLinear">Index exceeds the number of array elements. Index must not exceed {0, number, integer}.</entry>
+    <entry key="indexTooLarge">One or more indices are invalid. Indices must be less than 2^48.</entry>
+    <entry key="indexTooLargePosition">Index in position {0, number, integer} is invalid. Indices must be less than 2^48.</entry>
+    <entry key="logicalIndexExceedsDims">The logical indices contain a true value outside of the array bounds.</entry>
+    <entry key="logicalIndexExceedsDimsPosition">The logical indices in position {0, number, integer} contain a true value outside of the array bounds.</entry>
+    <entry key="singleSubscriptNumelMismatch">Unable to perform assignment because the left and right sides have a different number of elements.</entry>
+    <entry key="subsassigndimmismatchWithSizes">Unable to perform assignment because the size of the left side is {0} and the size of the right side is {1}.</entry>
+    <entry key="accessBadTypeIndices">Attempted to access {0}({1}); index must be a positive integer or logical.</entry>
+    <entry key="accessIndexOutOfBoundsNumel">Attempted to access {0}({1}); index out of bounds because numel({2})={3}.</entry>
+    <entry key="accessIndexOutOfBoundsSize">Attempted to access {0}({1}); index out of bounds because size({2})=[{3}].</entry>
+    <entry key="namelengthmaxexceeded">''{0}'' exceeds MATLAB''s maximum name length of {1,number,integer} characters and has been truncated to ''{2}''.</entry>
+    <entry key="UndefinedFunctionForClass">Function ''{0}'' is not defined for values of class ''{1}''.</entry>
+    <entry key="ambiguousArrayGrowth">Attempt to grow array along ambiguous dimension.</entry>
+    <entry key="warning_unexpected_end_of_file">Unexpected end-of-file while reading compressed data.</entry>
+    <entry key="object_wont_fit_down_pipe">Attempt to serialize object requiring subsystem-data on Sequential Stream.</entry>
+    <entry key="badUndocumentedFunctionInput">A mex function called the undocumented function {0} with invalid arguments.</entry>
+    <entry key="illegalComplexArray">Array must not be complex.</entry>
+    <entry key="unableToUseTypeAsIndex">Unable to use a value of type {0} as an index.</entry>
+    <entry key="invalidSubsindexReturnType">Method subsindex of class {0} must return a numeric array.</entry>
+  </message>
+</rsccat>

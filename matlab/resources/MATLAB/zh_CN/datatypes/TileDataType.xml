@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ParseError">指定的值不是有效的图块。</entry>
+    <entry key="ValueNumber">图块必须为小于 intmax 的正整数。</entry>
+    <entry key="ValueString">请将 tile 指定为 ''north''、''east''、''south'' 或 ''west''。</entry>
+    <entry key="IsEqual">TileDataType::IsEqual 出现未知异常</entry>
+  </message>
+</rsccat>

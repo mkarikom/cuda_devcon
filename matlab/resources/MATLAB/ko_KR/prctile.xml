@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadPercents" context="error">P는 스칼라이거나 0과 100 사이의 실수 값으로 구성된 비어 있지 않은 벡터여야 함</entry>
+    <entry key="NoApproximateTall" context="error">Dim이 1이 아니면(즉, tall이 아닌 차원이면), 정확한 계산이 더 효율적으로 수행됩니다. 'Method' 파라미터를 'exact'로 대신 설정해 보십시오.</entry>
+    <entry key="MustBeColumn" context="error">tall형 배열의 첫 번째 차원 백분위수 또는 분위수는 tall형 열 벡터에 대해서만 지원됩니다.</entry>
+    <entry key="NoComplexNamed" context="error">{0}의 값은 복소수가 아니어야 합니다.</entry>
+    <entry key="NoSparseNamed" context="error">{0}의 값은 희소 형식이 아니어야 합니다.</entry>
+    <entry key="NoObjectsNamed" context="error">{0}의 값은 객체가 아니어야 합니다.</entry>
+    <entry key="NoGPUArrayNamed" context="error">{0}의 값은 gpuArray가 아니어야 합니다.</entry>
+    <entry key="FloatRequiredNamed" context="error">{0}의 값은 부동소수점 배열이어야 합니다.</entry>
+    <entry key="NumericRequiredNamed" context="error">{0}의 값은 숫자형 배열이어야 합니다.</entry>
+  </message>
+</rsccat>

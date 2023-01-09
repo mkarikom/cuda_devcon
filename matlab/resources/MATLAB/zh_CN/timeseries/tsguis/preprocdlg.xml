@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Abort">中止</entry>
+    <entry key="ACoefficients">系数</entry>
+    <entry key="All">所有</entry>
+    <entry key="Any">任何</entry>
+    <entry key="Apply">应用</entry>
+    <entry key="BCoefficients">B 系数</entry>
+    <entry key="CannotParseColumnsDefinedForTimeSeries">无法解析为时序 {0} 定义的列</entry>
+    <entry key="ClickApplyToProcessTheData">单击每个选项卡中的“应用”可处理数据</entry>
+    <entry key="Close">关闭</entry>
+    <entry key="Constant">常量</entry>
+    <entry key="Continue">继续</entry>
+    <entry key="DenominatorCoefficients">分母系数</entry>
+    <entry key="Detrend">去除趋势</entry>
+    <entry key="DetrendingTimeSeries">去除时序的趋势</entry>
+    <entry key="DiscreteTransfer">离散传输 fcn (B(z^-1)/A(z^-1))</entry>
+    <entry key="Filter">筛选</entry>
+    <entry key="FilteringOperationFailedErrorWas">筛选操作失败。filter 方法的错误是 {0}</entry>
+    <entry key="FilteringOperationFailedNaNs">由于所选时序之一在开头或结尾包含 NaN，筛选操作失败。</entry>
+    <entry key="FilteringTimeSeries">筛选时序</entry>
+    <entry key="FilterType">筛选类型</entry>
+    <entry key="FirstOrder">一阶(1/(1+ 时间常量 * s))</entry>
+    <entry key="FrequencyRange">频率范围</entry>
+    <entry key="Help">帮助</entry>
+    <entry key="IdealPassOrStop">理想带通或停止</entry>
+    <entry key="Interpolate">插值</entry>
+    <entry key="InterpolatingMissingData">插入缺少的数据</entry>
+    <entry key="InterpolateMissingDataWithDataFrom">通过以下源的数据插入缺少的数据:</entry>
+    <entry key="InvalidColumnsEnteredInRow0numberinteger">行 {0,number,integer} 中输入的列无效。</entry>
+    <entry key="Linear">线性</entry>
+    <entry key="Modifyyn">修改(是/否)?</entry>
+    <entry key="NumeratorCoefficients">分子系数</entry>
+    <entry key="OneOrMoreSelectedTimeSeries">要执行所选的筛选操作，将对所选的一个或多个带有非统一时间向量的时序重采样以实现统一</entry>
+    <entry key="Path">路径</entry>
+    <entry key="ProcessData">处理数据</entry>
+    <entry key="Range">范围</entry>
+    <entry key="RemoveMissingData">删除缺少的数据</entry>
+    <entry key="RemovingRows">删除行</entry>
+    <entry key="RemoveTimeRowsWhereDataIsMissing">删除任何或所有单元格缺少数据的时间行:</entry>
+    <entry key="RemoveTrendType">去趋势类型:</entry>
+    <entry key="SelectedColumns">所选列</entry>
+    <entry key="SelectTimeSeries">选择时序</entry>
+    <entry key="SelectView">选择视图:</entry>
+    <entry key="SpecifyPassstopBand">指定通带/阻带</entry>
+    <entry key="TimeConstant">时间常量</entry>
+    <entry key="TimeConstantLowerCase">时间常量</entry>
+    <entry key="TimeSeries">时序</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="TimeSeriesWithEqualNumberOfColumns">列数相等的时序 </entry>
+    <entry key="ThisTimeSeries">该时序</entry>
+    <entry key="Undo">撤消</entry>
+  </message>
+</rsccat>

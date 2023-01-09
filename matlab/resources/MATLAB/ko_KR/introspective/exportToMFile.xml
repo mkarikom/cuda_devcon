@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidOutputDirectory">두 번째 입력 인수는 디렉터리에 대한 유효한 경로여야 함</entry>
+    <entry key="MFileCreationFailed">{0}에서 파일을 만들 수 없음</entry>
+  </message>
+</rsccat>

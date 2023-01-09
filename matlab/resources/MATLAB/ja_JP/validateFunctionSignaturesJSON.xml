@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="emptyFileName">無効な空のファイル名です。</entry>
+    <entry key="emptyString">空の string は無効です。</entry>
+    <entry key="nameInvalid">"{0}" プロパティが無効です。</entry>
+    <entry key="nameDuplicated">重複するプロパティ "{0}" が無効です。</entry>
+    <entry key="nameRemoved">"{0}" は削除されました。</entry>
+    <entry key="nameRenamed">"{0}" の名前は "{1}" に変更されました。</entry>
+    <entry key="listExpected">リスト ("[") の宣言が必要です。</entry>
+    <entry key="objectExpected">オブジェクト ("'{'") の宣言が必要です。</entry>
+    <entry key="objectOrListExpected">オブジェクト ("'{'") またはリスト ("[") の宣言が必要です。</entry>
+    <entry key="stringExpected">string が必要です。</entry>
+    <entry key="trueOrFalseExpected">true または false が必要です。</entry>
+    <entry key="equalExpectedInsteadOfEqualEqual">"==" の代わりに "=" が必要です。</entry>
+    <entry key="cannotOpenFile">ファイル ''{0}'' を開くことができません。</entry>
+    <entry key="matlabExpressionInvalid">"{0}" は無効な MATLAB 式です。</entry>
+    <entry key="schemaUnexpectedLocation">"_schemaVersion" はファイル内の最初のプロパティでなければなりません。</entry>
+    <entry key="schemaUnexpectedValue">"_schemaVersion" は "1.0.0" または "1.1.0" でなければなりません。</entry>
+    <entry key="noOutputAtCompletion">validateFunctionSignaturesJSON はメッセージを出力せずに完了しました。</entry>
+    <entry key="jsonShadowed">{0} より {1} が優先されます。</entry>
+    <entry key="fileInClassOrPackageFolder">ファイル {0} のフォルダーの場所が無効です。ファイルは、'@' または '+' で始まるフォルダーの親フォルダー内になければなりません。</entry>
+    <entry key="pathToFileInvalid">フォルダー "{1}" に対し相対的にファイル "{0}" が存在しなければなりません。</entry>
+    <entry key="functionNotFound">関数 "{0}" が "which" により認識されません。メソッドの場合は、先頭にクラス名を付加してください。</entry>
+    <entry key="classWithoutMetadata">名前 "{0}" のメタデータを取得できません。名前が存在し、構文エラーがないことを確認してください。</entry>
+    <entry key="methodNameInvalid">クラス "{1}" のメソッド名 "{0}" が無効です。</entry>
+    <entry key="methodWithoutMetadata">クラス "{1}" のメソッド "{0}" のメタデータを取得できません。</entry>
+    <entry key="methodGivenForWrongOverload">メソッド "{2}" はクラス "{3}" で定義されていますが、クラス "{4}" では定義されていないため、"{0}" を "{1}" に置き換えます。</entry>
+    <entry key="expectedIsA">"{0}" は "{1}" でなければなりません。</entry>
+    <entry key="invalidMessageId">メッセージ識別子 "{0}" が存在しなければなりません。</entry>
+    <entry key="separatorRemoved">"separator" は不要であるため削除されました。</entry>
+    <entry key="multiplicityReplaced">"multiplicity" は "repeating" に置き換えられました。</entry>
+    <entry key="valueInvalid">"{0}" の値 "{1}" が無効です。</entry>
+    <entry key="requireInputAttributeMissing">"name"、"kind"、"mutuallyExclusiveGroup"、または "tuple" が必要です。</entry>
+    <entry key="notAfterNameValueOrFlag">"{0}" 引数は、すべての "namevalue" 引数と "flag" 引数の前になければなりません。</entry>
+    <entry key="notAfterPositional">"{0}" 引数は、すべての "positional" 引数の前になければなりません。</entry>
+    <entry key="notAfterSeparator">"{0}" 引数は "separator" 引数の前になければなりません。</entry>
+    <entry key="propertiesMustBeLast">"properties" は引数のリストの最後でなければなりません。</entry>
+    <entry key="inferredFromNameDoesNotExist">"inferredFrom" 参照が無効です。"{0}" は "inputs" の "name" を参照しなければなりません。</entry>
+    <entry key="prototypeArgumentDoesNotExist">サポートされている次の "name" をもつ引数が "inputs" に含まれていない限り、"fromPrototypeOrClassname" は無効です: "typename"、"classname"、または "'like'"。</entry>
+    <entry key="doNotUseNumericInOutputs">"outputs" には、"numeric" の "type" を指定しないでください。クラスを指定するか、代わりに "inferredFrom" を使用してください。</entry>
+    <entry key="doNotSpecifyKindForOutputs">"outputs" には "kind" を指定しないでください。"kind" は常に暗黙的に "ordered" となります。</entry>
+    <entry key="listsNestedTooDeeply">リストの "type" の入れ子が深すぎます。</entry>
+    <entry key="argumentIsIndexed">引数名 "{0}" がインデックス式 "{1}" で使用されています。"{0}" が関数より優先される場合は、引数 "{0}" の名前を変更します。</entry>
+    <entry key="functionHandleCanBeAvoided">"{0}" は "{1}" に置き換えることができます。</entry>
+    <entry key="fileDoesNotNeedWildcard">任意のファイル名を使用できるようにするには、ワイルドカードを指定せずに "file" を使用してください。</entry>
+    <entry key="fileWildcardFormatInvalid">ファイル名のワイルドカードには "*.ext[,*.ext...]" の形式を使用します。</entry>
+    <entry key="attributeOrClassUnknown">属性またはクラス "{0}" が不明です。</entry>
+    <entry key="jsonParsingError">{0}</entry>
+    <entry key="cannotIntegrateDoc">{0}</entry>
+  </message>
+</rsccat>

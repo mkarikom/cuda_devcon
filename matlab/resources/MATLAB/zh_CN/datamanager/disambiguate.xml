@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NumberOfBrushedPoints">已刷亮的点数</entry>
+    <entry key="NumberInteger">{0,number,integer} 个(共 {1,number,integer} 个)</entry>
+    <entry key="ExportDialogTitle">标识刷亮的数据</entry>
+    <entry key="TableLabel">选择要导出的刷亮数据。</entry>
+    <entry key="OKButton">确定</entry>
+  </message>
+</rsccat>

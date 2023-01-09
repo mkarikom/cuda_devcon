@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoPCT">只有安装了并行计算工具箱后，才能使用 SPMD</entry>
+    <entry key="InvalidLoadFunctionCall">错误: {0}在 spmd 块中，不支持使用不带输出结构体的 load 函数。有关详细信息，请参阅 {1}。</entry>
+    <entry key="InvalidInputnameFunctionCall">错误: {0}不支持在 spmd 块中使用 inputname。有关详细信息，请参阅 {1}。</entry>
+  </message>
+</rsccat>

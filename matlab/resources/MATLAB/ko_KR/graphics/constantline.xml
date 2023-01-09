@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MatrixOfValues">Specify multiple values as a vector instead of a matrix.</entry>
+    <entry key="NoValues">값을 전달해야 합니다.</entry>
+    <entry key="InvalidParent">부모는 axes여야 합니다.</entry>
+    <entry key="DeletedParent">부모가 삭제된 그래픽스 객체입니다.</entry>
+    <entry key="IgnoredMarker">마커 입력값이 무시되었습니다.</entry>
+    <entry key="NaNValue">NaN은 유효한 값이 아닙니다.</entry>
+    <entry key="FiniteComplexValue"> 'Value'는 유한해야 하고 실수여야 합니다.</entry>
+    <entry key="InvalidData">값은 다음 중 하나여야 함: 'numeric' | 'datetime' | 'categorical' | 'duration'</entry>
+    <entry key="EmptyInput">값은 비어 있지 않아야 합니다.</entry>
+    <entry key="LabelsMismatchNumberOfValues">When Values and Labels both contain multiple elements, they must be the same size.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="notInAfunction">无法返回不在活动函数中的调用位置信息。</entry>
+    <entry key="notSupportedInScript">不支持从脚本调用 matlab.internal.lang.getCallSiteInfo。</entry>
+  </message>
+</rsccat>

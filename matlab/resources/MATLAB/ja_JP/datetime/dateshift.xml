@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidUnit">UNIT は、''second''、''minute''、''hour''、''day''、''week''、''month''、''quarter'' または ''year'' でなければなりません。</entry>
+    <entry key="AmbiguousUnit">UNIT の値があいまいです: ''{0}''。</entry>
+    <entry key="InputSizeMismatch">T と RULE は同じサイズでなければならず、そうでない場合は一方をスカラーにすることができます。</entry>
+    <entry key="InvalidRule">RULE は、整数値、整数値の配列、または ''next''、''previous''、''current''、''nearest'' のいずれかでなければなりません。</entry>
+    <entry key="InvalidDOW">曜日は 1 から 7 までの数字か曜日名でなければなりません。</entry>
+    <entry key="AmbiguousDOW">曜日の値があいまいです: ''{0}''。</entry>
+    <entry key="InvalidWhereTo">2 番目の入力は ''start''、''end'' または ''dayofweek'' でなければなりません。</entry>
+    <entry key="InvalidRuleForWeekDayWeekEnd">RULE must be ''next'', ''previous'', or ''nearest'' when shifting with ''weekday'' or ''weekend''.</entry>
+    <entry key="InvalidNumericRuleForWeekDayWeekEnd">A numeric RULE of 0 is not supported when shifting with ''weekday'' or ''weekend''.</entry>
+  </message>
+</rsccat>

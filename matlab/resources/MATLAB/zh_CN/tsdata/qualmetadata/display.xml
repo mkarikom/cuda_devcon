@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Package">包</entry>
+    <entry key="Code">代码</entry>
+    <entry key="Description">说明</entry>
+    <entry key="QualityCodeDescNotSynchronized">Quality 代码与说明不同步。</entry>
+    <entry key="NoQualityCodeDefined">未定义 Quality 代码。</entry>
+    <entry key="NoQualityDescDefined">未定义 Quality 说明。</entry>
+    <entry key="CommonProperties">常见属性</entry>
+    <entry key="MoreProperties">更多属性</entry>
+    <entry key="Methods">方法</entry>
+  </message>
+</rsccat>

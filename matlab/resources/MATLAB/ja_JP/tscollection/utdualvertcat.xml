@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badmembernumber">連結しようとしている各 tscollection のメンバー数を同じにしなければなりません。</entry>
+    <entry key="badmembername">tscollection は異なる名前のメンバーをもたなければなりません。</entry>
+    <entry key="overlaptime">指定した時系列の時間ベクトルは、オーバーラップせず、連続していなければなりません。</entry>
+    <entry key="badsamplesize">サンプル サイズ、または {0} のデータ型は、tscollection の他のメンバーと一致しません。</entry>
+  </message>
+</rsccat>

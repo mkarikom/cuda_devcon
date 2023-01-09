@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotString" note="stringDatatypeUpdate">The input must be a character vector.</entry>
+    <entry key="ExternalEditorNotFound">Could not find external editor ''{0}''.</entry>
+    <entry key="ExternalEditorFailure">Could not open external editor ''{0}''.</entry>
+    <entry key="SlxFile">Cannot edit the Simulink file ''{0}''.</entry>
+    <entry key="SLTXFile">Cannot edit the Simulink template file ''{0}''.</entry>
+    <entry key="MlprojFile">Cannot edit the Project Archive ''{0}''.</entry>
+    <entry key="MdlErr">Cannot edit the Simulink file ''{0}'' unless you include the file extension.</entry>
+    <entry key="PkgErr">Cannot edit the package directory ''{0}''.</entry>
+    <entry key="PFile">Cannot edit the P-file ''{0}''.</entry>
+    <entry key="MexFile">Cannot edit the MEX-file ''{0}''.</entry>
+    <entry key="MATFile">Cannot edit the MAT-file ''{0}''.</entry>
+    <entry key="FigFile">Cannot edit the fig file ''{0}''.</entry>
+    <entry key="ProtectedModel">Cannot edit the Simulink Protected Model file ''{0}''.</entry>
+    <entry key="SscpFile">Cannot edit the Simscape protected file ''{0}''.</entry>
+    <entry key="BadDir">Cannot edit the directory ''{0}''.</entry>
+    <entry key="BadChars">File ''{0}'' contains invalid characters.</entry>
+    <entry key="NotSupported">The MATLAB Editor is not supported without Java.</entry>
+    <entry key="FileNotFound">File ''{0}'' not found.</entry>
+    <entry key="FilesNotFound">Neither ''{0}'' nor ''{1}'' could be found.</entry>
+    <entry key="EditorInstantiationFailure">Failed to open MATLAB Editor.</entry>
+    <entry key="NotABreakpoint">Input argument should be a com.mathworks.mde.editor.breakpoints.MatlabBreakpoint.</entry>
+    <entry key="NotACollection">Input argument should be a java.util.Collection.</entry>
+    <entry key="NotAFilename">Input argument should be a MATLAB char array.</entry>
+    <entry key="SLDDFile">Edit of data dictionary file ''{0}'' not supported.</entry>
+  </message>
+</rsccat>

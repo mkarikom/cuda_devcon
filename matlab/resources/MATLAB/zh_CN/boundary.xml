@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidShrinkFactor">收缩因子无效。</entry>
+    <entry key="InvalidInput">输入与任何允许的输入格式都不匹配。</entry>
+    <entry key="InvalidPointsMatrix">输入点 P 必须为矩阵。</entry>
+    <entry key="EmptyInpPtsErrId">输入点数组为空。</entry>
+    <entry key="NonColVecInpPtsErrId">必须以列向量格式指定输入点。</entry>
+    <entry key="Non2D3DInputErrId">输入点必须为 numpoints-by-ndim 格式的二维或三维坐标。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadColorOrder">ColorOrder에 색이 하나 이상 포함되어야 함</entry>
+    <entry key="ParamMustBeNumeric">{0}은(는) 숫자형이어야 함</entry>
+    <entry key="ParamMustBe3ElementNumericVector">{0}은(는) 3 요소 숫자형 벡터여야 함</entry>
+    <entry key="ParamMustBePositiveFinite">{0} 값은 유한하거나 0보다 커야 함</entry>
+    <entry key="BadMatrixDimensions">XForm 속성에는 4x4 행렬이 필요함</entry>
+    <entry key="Expected3ElementNumericVector">3 요소 숫자형 벡터가 필요함</entry>
+    <entry key="ExpectedNumeric">[azimuth elevation] 보기는 숫자형이어야 함</entry>
+    <entry key="ExpectedTwoElementVector">[azimuth elevation] 보기는 2 요소 벡터여야 함</entry>
+    <entry key="BadArguments">{0} {1} 속성: ''{2}''\n{3}</entry>
+    <entry key="MustBeChild">{0}은(는) axes의 기존 text 자식이어야 함</entry>
+    <entry key="BadAxesHandle">유효하지 않은 axes 핸들임</entry>
+    <entry key="CannotBeCurrentAxes">{0} 유형의 핸들은 현재 좌표축(Current Axes)으로 설정할 수 없습니다.</entry>
+    <entry key="MustHaveFigureParent">축에는 현재 항목으로 만들 Figure 부모가 있어야 함</entry>
+    <entry key="BadHandle">유효하지 않은 핸들 객체임</entry>
+  </message>
+</rsccat>

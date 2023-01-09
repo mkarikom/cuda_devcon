@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" decorate_cxx_names="true">
+  <message>
+    <entry key="JavaSetHGProperty">Deprecated use of get/set on a Java object with an HG Property "UserData".</entry>
+    <entry key="PossibleDeprecatedJavaSetHGProperty">Possible deprecated use of {0} on a Java object with an HG Property ''{1}''.</entry>
+    <entry key="isHandleShouldNotBeUsed">ishandle should not be used with MCOS handles. Use 'isa' instead.</entry>
+    <entry key="CannotDock">Cannot dock non-Java figure.</entry>
+    <entry key="NullPropInfo">Mixin had a null propinfo.</entry>
+    <entry key="BadProperty">Error creating property for mixin.</entry>
+    <entry key="NullMethodInfo">Mixin had a null methodinfo.</entry>
+    <entry key="BadMethod">Error creating method for mixin.</entry>
+    <!--Resource entries for src/hg-->
+    <entry key="uipanel">Border width cannot have negative values.</entry>
+    <entry key="BadValue">Only empty values are allowed.</entry>
+    <entry key="WidthVectorDataInvalid">Invalid value for TableColumnWidth type.</entry>
+    <entry key="FormatVectorDataInvalid">Invalid value for TableColumnFormat type.</entry>
+    <entry key="Copyobj">The object can not be copied.</entry>
+    <entry key="EditableVectorDataInvalid">Invalid value for TableColumnEditable type.</entry>
+    <entry key="InvalidSelectedObjectComponent">Must set the SelectedObject to a Radio Button or a Toggle Button.</entry>
+    <entry key="InvalidSelectedObjectType">Must set the SelectedObject to a Radio Button or a Toggle Button.</entry>
+    <entry key="InvalidSelectedObjectParent">SelectedObject must be a child of this UIButtonGroup.</entry>
+    <entry key="NotFoundInToolbox">File uitools/private/javasetget.m not found.</entry>
+    <entry key="JavaSetHGPropertyParamValue">Possible deprecated use of {0}(''{1}'',''{2}'') on Java boolean property: use jobj.{3}{4}{5}({6}) instead.</entry>
+    <entry key="JavaSetHGPropertyParent">Deprecated use of {0} on a Java object with HG property ''Parent''.</entry>
+    <entry key="UIControlValueCellArrayConversion">This is not a valid UIControlValue value. Conversion to double from cell is not possible.</entry>
+    <entry key="UIControlValueCharArrayNonNumeric">This is not a valid UIControlValue value. Value must be numeric.</entry>
+    <entry key="UIControlValueCharArrayString">This is not a valid UIControlValue value. Value must be numeric.</entry>
+    <entry key="UIControlValueComplex">This is not a valid UIControlValue value. Complex inputs are not supported.</entry>
+    <entry key="UIControlValueSparse">This is not a valid UIControl value. Sparse inputs are not supported.</entry>
+    <entry key="UIControlValueDimensions_M">This is not a valid UIControlValue value. The input must have 1 rows.</entry>
+    <entry key="DataTypeMismatchUIControlValueLogical">This is not a valid UIControlValue value. This is not an expected input data type.</entry>
+    <entry key="DataTypeMismatchUIControlValueScalar">This is not a valid UIControlValue value. This is not an expected input data type.</entry>
+    <entry key="UnknownFeature">An unknown feature was specified.\n&lt;a href=\"matlab:helpview([docroot,''/techdoc/graphics_csh/error_pages/java_figures_errorpage.html''],''CSHelpWindow'')\"&gt;Please click for more information&lt;/a&gt;</entry>
+    <entry key="CantSetShowFigures">ShowFigureWindows is read-only.</entry>
+    <entry key="ReadOnlyFeature">The ReadOnly feature {0} may not be modified.</entry>
+    <entry key="InvalidHGVersion">An invalid Handle Graphics version ({0,number,integer}) was specified. The valid versions are 1 and 2.</entry>
+    <entry key="Position">Position cannot be negative.</entry>
+    <entry key="Size">Size must be positive.</entry>
+    <entry key="BadArgType">Argument must be {0}.</entry>
+    <entry key="Accelerator">Accelerator can''t be more than one character.</entry>
+    <entry key="Group">Bad value for ApplicationData property.</entry>
+    <entry key="PACKAGE">Could not find MCOS package.</entry>
+    <entry key="UIControlSliderStepValueSizeNull">Value must be a 2 element vector.</entry>
+    <entry key="UIControlSliderStepValueSizeDimension">Value must be a 2 element vector.</entry>
+    <entry key="UIControlSliderStepValueNull">Value cannot be null.</entry>
+    <entry key="UIControlSliderStepValueSparse">Value may not be a sparse array.</entry>
+    <entry key="UIControlSliderStepValueSize">Value must be a 2 element vector.</entry>
+    <entry key="UIControlSliderStepValueNumeric">Value must be numeric.</entry>
+    <entry key="UIControlSliderStepValueDifference">Sliderstep(2) cannot be less than sliderstep(1).</entry>
+    <entry key="UIControlSliderStepIncrement">Slider step line increment must be between 0 and 1.</entry>
+    <entry key="VectorDataInvalid">Invalid value for TableData type.</entry>
+    <entry key="BadProp">Error converting property value.</entry>
+    <entry key="UnitTest" translate="false">ErrorDuringUpdate</entry>
+    <entry key="ColorSpec_None">Cannot set {0} BackgroundColor to ''none''.</entry>
+    <entry key="Javacomponent">This method is undocumented and its behavior will change in a future release. Use Visible property instead.</entry>
+    <entry key="uitable">This functionality is not supported under the -nojvm or -nodisplay startup option.</entry>
+    <entry key="JavaSetUnknown">Unknown handle conversion error.</entry>
+    <entry key="lightCannotSetNaN">Cannot set elements of light position to NaN.</entry>
+    <entry key="Ambiguous">Ambiguous.</entry>
+    <entry key="Invalid">Invalid.</entry>
+    <entry key="UnableToLoadGraphicsSettings">Unable to load graphics settings to initialize factory default values.</entry>
+   <!--Resource entries for src/handle_graphics-->
+    <entry key="EraseModeIgnored">The {0} property is no longer supported and will error in a future release. </entry>
+    <entry key="willberemoved">The {0} property will be removed in a future release.</entry>
+    <entry key="WillBeRemovedReplaceWith">The {0} property will be removed in a future release. Use the {1} property instead.</entry>
+    <entry key="notrecommended">The {0} property is not recommended.</entry>
+    <entry key="MarkDirtyFailure">Object could not be marked dirty when property value changed.</entry>
+    <entry key="InvalidPoint">The return value of the NextPoints method should be a 1x3 array of doubles.</entry>
+    <entry key="QtNotInitialized">The Qt environment is not initialized correctly.</entry>
+    <entry key="ModificationDuringUpdate">Attempt to modify the tree during an update traversal.</entry>
+    <entry key="UnitConversionRequiresUpdate">Unit conversion requires information which is not available due to a missing Camera or Scene Viewer. Using unconverted values.</entry>
+    <entry key="InvalidColorData">ColorSpace transform methods must return a ColorData object.</entry>
+    <entry key="InvalidColorsIterator">ColorSpace was given an invalid handle to a ColorsIterator.</entry>
+    <entry key="InvalidSupportsColormappingValue">doSupportsColormapping method must return a scalar logical value.</entry>
+    <entry key="hgError">Invalid parent.</entry>
+    <entry key="ParentNotFound">Can''t find Axes parent.</entry>
+    <entry key="BadTransformMatrix">Invalid value for Matrix property.</entry>
+    <entry key="DiceyTransformMatrix">The new value for the Matrix property may cause rendering problems.</entry>
+    <entry key="InvalidPointsIterator">DataSpace was given an invalid handle to a PointsIterator.</entry>
+    <entry key="MissingProperty">Could not find {0} property on {1} object.</entry>
+    <entry key="NullChildProperty">Value must be a non-empty handle.</entry>
+    <entry key="NonNumeric">Input {0} value must be numeric.</entry>
+    <entry key="UnsupportedLayerName">This StackManager does not support that layer name.</entry>
+    <entry key="TryingToReparentConnectedObject">Trying to reparent an already connected internal component object.</entry>
+    <entry key="ReparentError">Error occurred while moving node between canvases.</entry>
+    <entry key="BadIndex">Invalid index encountered.</entry>
+    <entry key="UnsupportedClass">Unsupported array class.</entry>
+    <entry key="UnsupportedShape">Unsupported array dimensions.</entry>
+    <entry key="EmptyIterator">NextPoint called on an iterator with no points.</entry>
+    <entry key="XYZEmptyIterator">graphics::axis::dataspace::XYZPointsIterator::NextPoint called on an iterator with no points, xxnumpoints = {0,number,integer}, fCurrIndex = {1,number,integer}.</entry>
+    <entry key="UpdateRecursion">Attempt to start an update traversal on a SceneViewer that is already processing an update traversal.</entry>
+    <entry key="UpdateIterationLimit">Canvas update iteration limit exceeded. This can occur if the scene is marked dirty during a drawnow.</entry>
+    <entry key="ScreenResolution">ScreenPixelsPerInch must be between 0 and 1200. 0 uses system screen resolution.</entry>
+    <entry key="UpdateStats">UpdateStats can only be set to [].</entry>
+    <entry key="RenderStats">RenderStats can only be set to [].</entry>
+    <entry key="StructTraversalStats">StructTraversalStats can only be set to [].</entry>
+  <!--Resource entries for src/hgutils-->
+    <entry key="InvalidObject">The UIContextMenu''s parent figure is not the same as the parent figure of this object.</entry>
+    <entry key="DeletedObjectDoubleHandle">Attempt to call set with a double handle to a deleted object.</entry>
+    <entry key="DeletedObject">Cannot set property to a deleted object.</entry>
+    <entry key="InvalidObjectHandle">Value must be a handle.</entry>
+    <entry key="FailedMxArrayCreate">Can't create MCOS mxArray.</entry>
+    <entry key="BadInitialValue">Bad Initial value for {0} property.</entry>
+    <entry key="InvalidProperty">Unrecognized property {0} for class {1}.</entry>
+    <entry key="DefaultCannotBeSetGet">SET or GET of default values is not permitted on the {0} property of the {1} class.</entry>
+  <!--Resource entries for src/hgbuiltins-->
+    <entry key="BadTypeName">The first argument to hgcastvalue must be the name of a datatype.</entry>
+    <entry key="badconvertmethod">The \"convertFromMATLABArray\" method must be static.</entry>
+    <entry key="InvalidArray">Input was not a valid graphics object.</entry>
+    <entry key="AmbiguousProperty">Ambiguous {0} property: ''{1}''.</entry>
+    <entry key="SelectMoveResizeFunctionRemoved">The function SELECTMOVERESIZE has been removed. Use PLOTEDIT instead.</entry>
+  <!--Resource entries for src/hg-->
+    <entry key="TerminalSupport">Terminal mode is no longer supported.</entry>
+    <entry key="NoDisplayNoFigureSupport">{0} is not supported because MATLAB was started with the -nodisplay or -noFigureWindows option or there is no display.</entry>
+    <entry key="NoDisplayNoFigureSupportSeeReleaseNotes">{0} is no longer supported when MATLAB is started with the -nodisplay or -noFigureWindows option or there is no display. For more information, see "Changes to -nodisplay and -noFigureWindows Startup Options" in the MATLAB Release Notes. To view the release note in your system browser, run web(''www.mathworks.com/help/matlab/release-notes.html#br5ktrh-3'', ''-browser'').</entry>
+    <entry key="RemovedFunction">{0} has been removed.</entry>
+  <!--Resource entries for src/hgdatatypes-->
+    <entry key="ChildPropNotFound">Property {0} does not exist on child.</entry>
+    <entry key="CALLBACK">Unknown error code returned while evaluating callback.</entry>
+    <entry key="MCOSPackageNotFound">Could not find MCOS package.</entry>
+    <entry key="ChildModePropNotFound">Property {0} does not exist on child property.</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="InvalidListenerState">Invalid listener state.</entry>
+  <!--Resource entries for src/hgbuiltins-->
+    <entry key="WaitForBypassFcn">WaitForBypassFcn must be a function handle or an empty matrix.</entry>
+  <!--Resource entries for src/hgutils-->
+    <entry key="BadChildren">Children must be either be a valid double array or an object array.</entry>
+    <entry key="BadChildrenPermutation">Children may only be set to a permutation of itself.</entry>
+  <!--Resource entries for src/chart-->
+    <entry key="lineseriesNoMethod">Cannot find or access addBrushContextMenuCallback method on the path.</entry>
+  <!--Resource entries for src/osgserver-->
+    <entry key="InvalidTransferFunction">Using default transfer function.</entry>
+    <entry key="InvalidParent">{0} cannot be a child of {1}.</entry>
+  <!--Resource entries for hgrc-->
+    <entry key="hgVersionWarn">The -hgVersion startup option will be removed in the R2014b general release.</entry>
+    <entry key="AutoSoftwareOpenGL">MATLAB has disabled some advanced graphics rendering features by switching to software OpenGL. For more information, click &lt;a href="matlab:opengl('problems')"&gt;here&lt;/a&gt;.</entry>
+  </message>
+</rsccat>

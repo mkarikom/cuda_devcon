@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ErrorInCustomFunction">사용자 지정 업데이트 함수를 사용하여\n 데이터팁을 업데이트할 수 없음</entry>
+    <entry key="InvalidIndex">인덱스는 0보다 큰 정수 스칼라 값이어야 합니다.</entry>
+    <entry key="InvalidPixelPosition">위치는 1x2 숫자형 벡터여야 합니다.</entry>
+    <entry key="InvalidPositionPolygon">위치 다각형은 적어도 3개의 열을 가진 2xn 행렬이어야 합니다.</entry>
+    <entry key="InvalidDirection">방향은 ''up'', ''down'', ''left'', ''right'' 중 하나여야 합니다.</entry>
+    <entry key="InvalidPrimitivePosition">위치는 스칼라 PrimitivePoint 객체여야 합니다.</entry>
+    <entry key="InvalidBehaviorHelper">DataCursorBehaviorHelper 객체를 생성할 수 없습니다.</entry>
+    <entry key="MethodNotImplemented">DataAnnotatable 인터페이스에 보호 메서드 "{0}"을(를) 구현해야 합니다.</entry>
+  </message>
+</rsccat>

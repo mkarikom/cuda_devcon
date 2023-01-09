@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AppDesigner">앱 디자이너</entry>
+    <entry key="StartPage">앱 디자이너 시작 페이지</entry>
+    <entry key="AppDesignerStartFailed">내부 오류로 인해 앱 디자이너를 시작할 수 없습니다. \n\n {0}</entry>
+    <entry key="InvalidFileExtension">''{0}'' 파일 형식은 MATLAB 앱(*.mlapp)이어야 합니다.</entry>
+    <entry key="InvalidFileExtensionCase">''{0}'' 파일 형식은 MATLAB 앱(*.mlapp)이어야 합니다. 확장자는 대/소문자를 구분합니다.</entry>
+    <entry key="InvalidGeneralFileExtension">파일 ''{0}''은(는) {1} 확장자를 가져야 함</entry>
+    <entry key="InvalidExportFileExtension">앱은 MATLAB 코드 파일(*.m)로 내보내야 합니다.</entry>
+    <entry key="InvalidFileName">파일 ''{0}''을(를) 찾을 수 없습니다.</entry>
+    <entry key="InvalidFilePath">파일 경로가 유효하지 않습니다.</entry>
+    <entry key="InvalidInput">입력 인수는 전체 파일 경로, 부분 파일 경로, 파일 이름 중 하나여야 합니다.</entry>
+    <entry key="NotWritableLocation">{0} 쓰기 오류입니다.\n디렉터리가 읽기 전용인지, 아니면 제거되었거나 삭제되었는지 확인하십시오.</entry>
+    <entry key="ReadOnlyFile">''{0}'' 쓰기 오류입니다.\n파일이 읽기 전용입니다.</entry>
+    <entry key="SaveFailedMATLABCode">코드를 ''{0}''에 저장하는 중 오류가 발생했습니다.</entry>
+    <entry key="SaveFailedAppData">구성요소와 코드 데이터를 ''{0}''에 저장하는 중 오류가 발생했습니다.</entry>
+    <entry key="SaveFailedAppMetaData">메타데이터를 ''{0}''에 저장하는 중 오류가 발생했습니다.</entry>
+    <entry key="SaveFailedAppScreenShot">스크린샷을 ''{0}''에 저장하는 중 오류가 발생했습니다.</entry>
+    <entry key="SaveFailed">''{0}''을(를) 저장하는 중 오류가 발생했습니다.</entry>
+    <entry key="LoadFailed">''{0}''을(를) 불러오는 중 오류가 발생했습니다.</entry>
+    <entry key="RunFailedFileNotFound">''{0}''을(를) 실행하는 중 오류가 발생했습니다.\n{1}을(를) 찾을 수 없습니다.</entry>
+    <entry key="TransferOfDataFailed">''{0}''에서 데이터가 올바르게 캡처되지 않았습니다.</entry>
+    <entry key="NotReadableLocation">{0}은(는) 읽을 수 있는 위치가 아닙니다.</entry>
+    <entry key="InvalidFolder">폴더 {0}에 문제가 있음: {1}.</entry>
+    <entry key="FileNameFailsIsVarName">파일 이름 ''{0}''은(는) 영문자로 시작하고, 영문자, 숫자, 밑줄만 포함해야 하며, 63자 미만이어야 합니다.</entry>
+    <entry key="FileNameFailsIsKeyword">이름은 MATLAB 예약어일 수 없습니다. 파일 이름을 바꾼 다음 여십시오.</entry>
+    <entry key="BrowserNotFound">웹 브라우저를 열어 {0}을(를) 표시할 수 없습니다.</entry>
+    <entry key="UnsupportedBrowser">이 브라우저에서는 앱 디자이너가 지원되지 않습니다. Google Chrome을 사용하십시오.</entry>
+    <entry key="CompileAppError">앱 컴파일 오류</entry>
+    <entry key="CompileAppFolderNotWritable">컴파일러 프로젝트 파일 ''{0}''을(를) 만들 수 없습니다.</entry>
+    <entry key="CompileAppFailed">''{0}''을(를) 컴파일할 수 없습니다.\n알 수 없는 컴파일러 오류입니다.</entry>
+    <entry key="CompileAppCompileFileNotFound">컴파일러 프로젝트 파일 ''{0}''을(를) 찾을 수 없습니다.</entry>
+    <entry key="PackageAppFolderNotWritable">''{0}''을(를) 패키징할 수 없습니다.\n폴더에 쓰기 권한이 없습니다.</entry>
+    <entry key="PackageAppFailed">''{0}''을(를) 패키징할 수 없습니다.\n알 수 없는 패키징 오류입니다.</entry>
+    <entry key="PackageAppPackageFileNotFound">''{0}''을(를) 패키징할 수 없습니다.\n패키지 파일을 찾을 수 없습니다.</entry>
+    <entry key="UnknownComponentType">''{0}'' 유형의 구성요소에는 콜백을 생성할 수 없습니다. 알 수 없는 구성요소 유형입니다.</entry>
+    <entry key="UnknownCallbackProperty">''{0}'' 유형의 구성요소에는 콜백을 생성할 수 없습니다. ''{1}''은(는) 알 수 없는 속성입니다.</entry>
+    <entry key="IncompatibleAppVersion">이 앱은 이 릴리스에서 지원되지 않는 기능을 포함하고 있습니다. {0} 이상 버전의 MATLAB에서만 편집 가능합니다.</entry>
+    <entry key="CovertAppFailedIncompatibleAppVersion">이 앱은 {0}에서 지원되지 않는 기능을 포함하고 있기 때문에 변환할 수 없습니다. {1} 이상 버전의 MATLAB에서만 편집 가능합니다.</entry>
+    <entry key="SetInvalidSetting">설정값 {0}.{1}은(는) 존재하지 않으므로 설정할 수 없습니다.</entry>
+    <entry key="SameNameAppRunning">이름이 ''{0}''인 앱이 이미 실행 중입니다. 이 이름을 가진 다른 앱을 실행하기 전에 먼저 이 앱을 닫으십시오.</entry>
+    <entry key="AppNameShadowedByCWD">현재 작업 폴더에서 {0}이(가) 앱을 가리고 있어 \n앱 디자이너가 해당 앱을 실행할 수 없습니다.\n\n앱을 실행하려면 MATLAB 현재 폴더를 변경해야 합니다.</entry>
+    <entry key="TooFewAppArgumentsError">제공된 입력 인수로 실행할 수 없습니다.</entry>
+    <entry key="MissingFile">원래 앱 ''{0}''이(가) 없습니다. 파일이 이동한 경우, 앱을 닫았다가 새 위치에서 다시 여십시오.</entry>
+    <entry key="SaveObjWarning">앱 디자이너의 앱 객체를 저장할 수 없습니다. matlab.apps.AppBase 객체에 대한 저장이 지원되지 않습니다.</entry>
+    <entry key="LoadObjWarning">앱 디자이너의 앱 객체를 불러올 수 없습니다. matlab.apps.AppBase 객체에 대한 불러오기가 지원되지 않습니다.</entry>
+    <entry key="fileNotFoundOnMatlabPathWithSuggestion">앱을 편집하거나 실행하는 동안 {0} 파일은 MATLAB 경로에 있어야 합니다. 앱 디자이너에서 파일을 사용하려면 먼저 ''addpath'' 명령으로 파일을 경로에 추가하십시오.</entry>
+  </message>
+</rsccat>

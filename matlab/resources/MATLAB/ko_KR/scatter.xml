@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidXYData">{0}과(와) {1}은(는) 동일한 길이의 벡터이거나, 동일한 크기의 행렬이거나, 벡터 길이가 행렬의 행 개수 또는 열 개수와 일치하는 벡터와 행렬의 조합이어야 합니다.</entry>
+    <entry key="InvalidSData">S는 스칼라이거나, X와 같은 길이의 벡터여야 합니다.</entry>
+    <entry key="InvalidCData">색은 RGB 3색이거나, 산점당 색이 하나씩 있는 RGB 3색의 m×3 행렬이거나, 산점당 값이 하나씩 있는 m×1 벡터여야 합니다.</entry>
+    <entry key="NoDataInputs">X와 Y를 첫 번째 인수로 제공해야 합니다.</entry>
+    <entry key="DataLengthMustMatch">데이터 길이가 일치해야 합니다.</entry>
+    <entry key="SizeColorType">영역 인수와 색 인수는 숫자형이거나, double형으로 변환될 수 있는 객체여야 합니다.</entry>
+    <entry key="ArgNameValueMismatch">후행 입력 인수는 이름-값 쌍이어야 합니다.</entry>
+    <entry key="CDataMustBeSingleColorSpec">CData는 RGB 3색이어야 합니다.</entry>
+    <entry key="InvalidTallData">tall형 입력값은 실수형 열 벡터여야 합니다.</entry>
+    <entry key="InvalidJittertype">유효하지 않은 지터 값입니다. 밀도 지터 유형을 2차원 산점도의 경우 1차원으로, 3차원 산점도의 경우 2차원으로 지정하십시오.</entry>
+    <entry key="InvalidSwarmData">{0}은(는) 숫자형 또는 categorical형이어야 합니다.</entry>
+    <entry key="MultipleColorSpecs">명명된 색을 하나만 지정하거나 또는 RGB 3색의 m×3 행렬을 사용하여 여러 색을 지정하십시오.</entry>
+    <entry key="MultipleMarkerSpecs">마커를 하나만 지정하십시오.</entry>
+    <entry key="InvalidXYSizeData">{0}, {1} 및 마커 크기 인수는 동일한 길이의 벡터이거나, 동일한 크기의 행렬이거나, 벡터 길이가 행렬의 행 개수 또는 열 개수와 일치하는 벡터와 행렬의 혼합 형태여야 합니다.</entry>
+    <entry key="LocationDesc">산점도 플롯의 위치</entry>
+    <entry key="InvalidTableArguments">테이블과 함께 {0}을(를) 사용하려면 테이블 다음에 {1} 변수와 {2} 변수가 오도록 지정하십시오. 이름-값 쌍을 사용하여 크기와 색을 지정할 수 있습니다.</entry>
+  </message>
+</rsccat>

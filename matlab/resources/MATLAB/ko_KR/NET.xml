@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArrayConversionError">배열 변환에 실패했습니다.</entry>
+    <entry key="ArrayDimSizeMismatchError">소스와 대상의 배열 차원 크기가 일치하지 않습니다.</entry>
+    <entry key="ArrayLengthMismatchError">소스와 대상의 배열 길이가 일치하지 않습니다.</entry>
+    <entry key="ArrayNumDimsMismatchError">소스와 대상의 차원 수가 일치하지 않습니다.</entry>
+    <entry key="UnsupportedAssignmentIndexingArray">셀형 배열이 아닌 객체의 셀 내용에 값을 대입하고 있습니다.</entry>
+    <entry key="UnsupportedReferenceIndexingArray">셀형 배열이 아닌 객체의 셀 내용을 참조하고 있습니다.</entry>
+    <entry key="DATA_MARSHAL_ERR">.NET 객체를 마샬링하는 중 오류가 발생했습니다.\n ''{0}''</entry>
+    <entry key="EMPTYOBJECT">빈 .NET 객체를 생성하는 기능은 지원되지 않습니다.</entry>
+    <entry key="InvalidArrayIndex">배열 인덱스는 양의 정수여야 합니다.</entry>
+    <entry key="InvalidClassName">''{0}'' 클래스를 찾을 수 없습니다.</entry>
+    <entry key="InvalidGenericParameterType">유효하지 않은 일반 파라미터 유형 인수입니다.</entry>
+    <entry key="INVALIDMEMBER">''{1}'' 클래스에 적절한 메서드, 속성, 필드 ''{0}''이(가) 없습니다.</entry>
+    <entry key="INVALIDOBJECT">유효하지 않은 객체의 속성 또는 메서드에 액세스하려 하고 있습니다.</entry>
+    <entry key="INVALIDPROPERTY">이름 ''{0}''은(는) ''{1}'' 클래스의 인스턴스에서 액세스할 수 있는 속성이 아닙니다.</entry>
+    <entry key="InvalidStaticPropertyAccess">''{1}'' 클래스에서는 정적 속성 ''{0}''에 액세스할 수 없습니다.</entry>
+    <entry key="InvalidStaticPropName">''{1}'' 클래스에 대한 정적 속성 또는 필드 ''{0}''을(를) 찾을 수 없습니다.</entry>
+    <entry key="InvalidStaticPropNameArg">''{0}''은(는) 유효하지 않은 정적 속성 이름입니다.</entry>
+    <entry key="SETSTATICPROPERTY_ERR">''{1}'' 클래스의 인스턴스에서는 정적 속성 ''{0}''을(를) 설정할 수 없습니다.</entry>
+    <entry key="NAMESPACE_ERR">유형 ''{1}''에 대한 네임스페이스 ''{0}''을(를) 찾을 수 없습니다.</entry>
+    <entry key="NoGenericMethod">제네릭 메서드 ''{0}''을(를) 찾을 수 없습니다.</entry>
+    <entry key="NoMatchingGenericMethod">시그니처가 일치하는 제네릭 메서드 ''{0}''을(를) 찾을 수 없습니다.</entry>
+    <entry key="NonStaticPropertyAccess">속성 또는 필드 ''{0}''은(는) 정적이 아닙니다.</entry>
+    <entry key="GenericObjectCreationError">시그니처가 일치하는 생성자 ''{0}''을(를) 찾을 수 없습니다.</entry>
+    <entry key="NONAMESPACE">유형 ''{0}''에 대한 네임스페이스가 존재하지 않습니다. MATLAB에서는 모든 .NET 유형이 하나의 네임스페이스 내에 있어야 합니다.</entry>
+    <entry key="NullObjectIndexing">''null'' 객체를 인덱싱하려고 했습니다.</entry>
+    <entry key="ObjectCreationError">객체 생성에 실패했습니다.</entry>
+    <entry key="GetPackageError">패키지 {0}을(를) 가져올 수 없습니다.</entry>
+    <entry key="SECURITY">이 컴퓨터의 .NET 보안 정책 설정에 따라 네트워크 드라이브에서는 .NET 명령에 대해 MATLAB 인터페이스를 실행하는 것이 허용되지 않습니다. 자세한 내용은 다음 도움말 문서를 참조하십시오. &lt;a href="matlab: helpview([docroot ''/techdoc/matlab_external/matlab_external.map''],''NET_security_policy_settings'')"&gt; .NET Security Policy Settings &lt;/a&gt;</entry>
+    <entry key="TYPELOAD_ERR">유형 ''{0}''을(를) 불러올 수 없습니다.</entry>
+    <entry key="UnsupportedDelegateType">MATLAB에서는 비표준 대리자 정의(Delegate Definition)를 포함한 .NET 이벤트가 지원되지 않습니다.</entry>
+    <entry key="UnsupportedArrayFormation">.NET 객체에서는 배열 구성이 허용되지 않습니다.</entry>
+    <entry key="UnsupportedEndIndexingArray">.NET 객체에는 ''end'' 인덱스가 지원되지 않습니다.</entry>
+    <entry key="UnsupportedIndexing">.NET 객체에서는 배열 구성과 인덱싱이 허용되지 않습니다.</entry>
+    <entry key="UnsupportedIndexingArray">.NET 객체에서는 배열 구성과 인덱싱이 허용되지 않습니다.  Set 메서드와 Get 메서드를 사용하여 .NET 배열 요소에 액세스하십시오.</entry>
+    <entry key="UnsupportedIndexingCustom">.NET 객체에서는 배열 구성과 인덱싱이 허용되지 않습니다.  Item 메서드를 사용하여 이 객체로 인덱싱하십시오.</entry>
+    <entry key="UnsupportedInputArrayTypeError">''{0}'' 배열 유형에서 변환하는 것은 지원되지 않습니다.</entry>
+    <entry key="UnsupportedOutputArrayTypeError">''{0}'' 배열 유형으로 변환하는 것은 지원되지 않습니다.</entry>
+    <entry key="DelegateInvocationError">대리자(Delegate) 콜백을 실행하는 동안 다음과 같은 오류가 발생하였습니다.\n{0}</entry>
+    <entry key="DynamicMethodCallError">메서드를 실행하는 동안 다음과 같은 오류가 발생하였습니다.\n{0}</entry>
+    <entry key="UnsupportedDotNetInterfaceImpl">.NET 인터페이스의 구현은 지원되지 않습니다.</entry>
+    <entry key="UnsupportedInterfaceProperties">속성을 정의하는 .NET 인터페이스의 구현은 지원되지 않습니다.</entry>
+    <entry key="UnsupportedInterfaceIndexers">인덱서를 정의하는 .NET 인터페이스의 구현은 지원되지 않습니다.</entry>
+    <entry key="UnsupportedInterfaceEvents">이벤트를 정의하는 .NET 인터페이스의 구현은 지원되지 않습니다.</entry>
+    <entry key="UnsupportedGenericInterfaceImpl">일반 .NET 인터페이스의 구현은 지원되지 않습니다.</entry>
+    <entry key="UnsupportedGenericInterfaceMethods">제네릭 메서드를 정의하는 .NET 인터페이스의 구현은 지원되지 않습니다.</entry>
+    <entry key="UnsupportedCOMInterfaceImpl">.NET COM 인터페이스의 구현은 지원되지 않습니다.</entry>
+    <entry key="UnsupportedNonHandleInterfaceImplClass">.NET 인터페이스를 구현하는 클래스는 핸들의 서브클래스여야 합니다.</entry>
+    <entry key="AmbiguousMethod">{0}에 대한 호출에 지정되지 않은 선택적 인수가 있기 때문에 다음 .NET 메서드 시그니처 중에서 선택할 수 없음\n\n 일치하는 .NET 메서드가 하나만 있도록 충분한 추가 선택적 인수를 지정하여 이러한 모호성을 해결할 수 있습니다.</entry>
+    <entry key="UndefinedFunction">''{1}'' 클래스에 대해 시그니처가 일치하는 메서드 ''{0}''을(를) 찾을 수 없습니다.</entry>
+    <entry key="DisplayMethodNETAssemblyHandle">NET.Assembly 핸들</entry>
+    <entry key="DisplayMethodPackageNETn">\n  패키지: NET\n</entry>
+    <entry key="UnsupportedDotNetSuperclass">''{0}'' 클래스가 .NET 클래스 ''{1}''을(를) 슈퍼클래스로 선언합니다. .NET 클래스의 MATLAB 서브클래스를 생성하는 것은 지원되지 않습니다.</entry>
+    <entry key="InvalidFrameworkVersion">.NET 명령에는 Framework 4.0 이상이 필요합니다. .NET 명령을 실행하기 전에 Framework 버전 4.0 이상을 설치하십시오.\n</entry>
+    <entry key="InvalidParameterName">메서드 'cell'의 선택적 파라미터 이름 {0}이(가) 유효하지 않습니다. 사용 가능한 파라미터는 'ConvertTypes'입니다.</entry>
+    <entry key="InvalidParameterValue">변환을 위해 지정된 .NET 유형 {0}이(가) 유효하지 않습니다. 값은 ''all''을 포함하는 셀형 배열이거나 지원되는 유형인 ''System.String'' 또는 ''System.Datetime''이어야 합니다.</entry>
+    <entry key="InvalidValueType">.NET 유형으로 구성된 셀형 배열이 MATLAB 유형으로 변환되어야 합니다.</entry>
+    <entry key="IncorrectArgCount">'System.Object[,]' 클래스에 대해 시그니처가 일치하는 메서드 'cell'을 찾을 수 없습니다.</entry>
+    <entry key="UnknownError">"알 수 없는 오류입니다."</entry>
+    <entry key="NETExceptionMessage">메시지: {0}\n소스: {1}\n도움말 링크: {2}</entry>
+    <entry key="UnknownMethodInvocation">"알 수 없는 메서드 호출 오류입니다."</entry>
+    <entry key="UnknownDelegateInvocation">"알 수 없는 대리자(Delegate) 호출 오류입니다."</entry>
+    <entry key="UnsupportedLoad">.NET 객체를 불러올 수 없습니다. .NET 객체를 MAT 파일로 저장(직렬화)하는 것은 지원되지 않습니다.</entry>
+    <entry key="CLRException">{0}</entry>
+    <entry key="invokeStaticGenericMethod">{0}</entry>
+    <entry key="ExecuteSecurity">{0}</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="WrongNumberArguments">Wrong number of arguments</entry>
+    <entry key="MustBeHandle">H must be a handle to a single light or axes object.</entry>
+    <entry key="InvalidNumberOutput">Wrong number of output arguments</entry>
+    <entry key="InputsMustBeScalar">AZ and EL must both be scalars</entry>
+  </message>
+</rsccat>

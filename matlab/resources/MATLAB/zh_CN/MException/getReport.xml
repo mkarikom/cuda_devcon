@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidParameter">''{0}'' 不是 getReport 的有效参数。</entry>
+    <entry key="invalidReportOption">getReport 方法只能接受 ''basic'' 或 ''extended'' 报告类型。</entry>
+    <entry key="invalidType">必须以参数值对或结构体的形式指定 getReport 的参数。</entry>
+    <entry key="invalidValue">超链接必须为 ''on''、''off'' 或 ''default''。</entry>
+    <entry key="mustBeScalarStruct">必须以标量结构体形式指定 getReport 参数。</entry>
+    <entry key="parameterWithoutValue">getReport 参数 ''{0}'' 不包含值。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- ui strings -->
+    <entry key="UIStringCustomPropertiesHeader" note="Do NOT translate 'Custom Properties' and 't.Properties.CustomProperties.&lt;name&gt;': The former is an informal reference to a class name, the latter is a code example.">Custom Properties (access using t.Properties.CustomProperties.&lt;name&gt;):</entry>
+    <entry key="UIStringNoCustomPropertiesHeader" note="Do NOT translate 'CustomProperties': it is a class names. The holes {0} and {1} are filled with the names of two functions ('addprop' and 'rmprop').">No custom properties are set.\n      Use {0} and {1} to modify CustomProperties.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="fl_ustring">
+  <message>
+    <entry key="standardStream">TEXTSCAN cannot read from stdin, stdout, or stderr.</entry>
+    <entry key="NotAnIntegerValue">{0} must be integer-valued.</entry>
+    <entry key="NotAString">{0} must be a character vector or a non-missing string scalar.</entry>
+    <entry key="IncorrectEscapeConstant">{0} has incorrect \\ constant.</entry>
+    <entry key="LookforAndGetHeaderLines">Headerlines must be a positive integer.</entry>
+    <entry key="LookforAndGetHeaderColumns">Headercolumns must be a positive integer.</entry>
+    <entry key="LookforAndGetNumCharactersToSkip">NumCharactersToSkip must be a positive integer.</entry>
+    <entry key="NotNumericScalar">{0} must be a numeric scalar.</entry>
+    <entry key="NumericInTreatAsEmpty">The values for "TreatAsEmpty" character vectors cannot be numbers. </entry>
+    <entry key="NonStringCellsInTreatAsEmpty">Cell arguments to "TreatAsEmpty" must contain non-numeric character vectors.</entry>
+    <entry key="NonStringsInTreatAsEmpty">The value for "TreatAsEmpty" must be non-empty character vectors or cell arrays of character vectors.</entry>
+    <entry key="LookforAndGetEndofline">The value of "EndOfLine" must be a single character or "\\r\\n".</entry>
+    <entry key="NonStringCellsInCommentStyle">The value for "CommentStyle" can be a single character vector, or a cell array containing the pair of character vectors to use as the start and end of comments.</entry>
+    <entry key="DelimiterSpaceConflict">Characters can not be used in both whitespace and delimiter lists.\nRemoving delimiter chars from whitespace list.\n</entry>
+    <entry key="SkipComments">Unterminated comment found. Remainder of file ignored.</entry>
+    <entry key="BuildFormatString">Number of HeaderColumns is greater than number of columns in file.</entry>
+    <entry key="EmptyFormatString" >Empty format character vector is not supported at the end of a file.</entry>
+    <entry key="UnableToReadFile">Unable to read any data from the file. TEXTSCAN might not have read access.</entry>
+    <entry key="handleErrorAndShowInfo">Unable to parse a "{0}" field when reading row {1,number,integer}, field {2,number,integer}.\n   Actual Text: "{3}"\n   Expected: {4}</entry>
+        <!-- These messages appear after Hole #4 in handleErrorAndShowInfo based on type-->
+        <entry key="NumericFieldFailure">A number or literal "NaN", "Inf". (possibly signed, case insensitive)</entry>
+        <entry key="SetFieldFailure">One of the characters [{0}]. (case sensitive)</entry>
+        <entry key="NSetFieldFailure">Characters other than [{0}]. (case sensitive)</entry>
+        <entry key="LiteralFieldFailure">The literal text "{0}". (case sensitive)</entry>
+        <entry key="HexFieldFailure">Hexadecimal Characters [0-9A-F] with optional prefix 0x. (case insensitive)</entry>
+        <entry key="BinaryFieldFailure">Binary Characters '0' or '1' with optional prefix 0b. (case insensitive)</entry>
+    <entry key="SecondInput" >The second input must be a format character vector containing at least one specifier or a literal field.</entry>
+    <entry key="UnpairedParamsValues">Name-value pair arguments must come in pairs.</entry>
+    <entry key="UnknownOption">Unknown parameter "{0}".</entry>
+    <entry key="BadFormatString">Unable to parse the format character vector at position {0,number,integer} ==> {1}\n{2}</entry>
+        <!-- First hole is the position, second is format string, these fill the third-->
+        <entry key="ClosingSet">Character Set specifiers must contain at least one character and end in "]". (e.g. "%[abc]")</entry>        
+        <entry key="ClosingDateFormat">Date and Time formats must be of the form %D, %T, %'{'...'}'D, or %'{'...'}'T.</entry>
+        <entry key="IncompleteFormat">The format specifier must end with a valid type identifier (e.g. %f, %3c).</entry>
+        <entry key="UnsupportedSpecifier">Unsupported format specifier "%{0}". See the documentation for TEXTSCAN for supported formats.</entry>
+    <entry key="NoInput">First input can not be empty. Expected a non-empty character vector or a valid file-id.</entry>
+    <entry key="WrongInputType">First input must be a valid file-id or non-empty character vector.</entry>
+    <entry key="NotAStringOrCellOfStrings">{0} must be a character vector or cell array of character vectors.</entry>
+    <entry key="EmptyCellArrayInvalid">{0} cannot be an empty cell array.</entry>
+    <entry key="TooManyCategories">Cannot create a CATEGORICAL array with more than 65534 categories, consider using "%q" instead of "%C" for this field.</entry>
+    <entry key="AllNatSuggestFormat">Unable to determine the format of the DATETIME data.\nTry adding a format to the DATETIME specifier. e.g. "%'{'{0}'}'D".</entry>
+    <entry key="AllNatSuggestLocale">Unable to read the DATETIME data using the locale setting for your system: "{0}"\nIf the data contains month or day names in a language foreign to this locale, use the "DateLocale" parameter to specify the correct locale.</entry>
+    <entry key="AllNatSuggestOther">Unable to read the DATETIME data with the format "{0}". If the data is not a time, use %q to get text data.</entry>
+    <entry key="AllNaNDurationSuggestOther">Unable to read the DURATION data with the format "{0}". If the data is not a time, use %q to get text data.</entry>
+    <entry key="AllNaNDurationSuggestFormat">Unable to determine the format of the DURATION data.\nTry adding a format to the DURATION specifier. e.g. "%'{'{0}'}'T".</entry>
+    <entry key="DurationFormatInvalid">"{0}" is not a valid duration format</entry>
+    <entry key="UnableToGuessFormat" >The DATETIME data was created using format "{0}" but also matched "{1}".\nTo avoid ambiguity, use a format character vector. e.g. "%'{'{2}'}'D"</entry>
+    <entry key="TimeZoneSupport">The format character vector "{0}" contains a timezone field. TEXTSCAN does not support reading timezones. Use %q to read the data as text and create a datetime array using DATETIME with the "TimeZone" parameter.</entry>
+    <entry key="TextType">The value for "TextType" must be 'char' or 'string'.</entry>
+    <entry key="HexTruncationInvalid">Hex literal "{0}" specifies too many digits. Truncation of hex literals is not supported.</entry>
+    <entry key="BinaryTruncationInvalid">Binary literal "{0}" specifies too many digits. Truncation of binary literals is not supported.</entry>
+  </message>
+</rsccat>

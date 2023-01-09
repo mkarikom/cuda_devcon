@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" decorate_cxx_names="true">
+  <message>
+    <entry key="BadFaceDimensions">Patch Faces must be 2 dimensional</entry>
+    <entry key="BadFaceValues">Faces values must be &gt;= 1.0</entry>
+    <entry key="VerticesMustBe2D">Patch Vertices must be 2 dimensional</entry>
+    <entry key="VerticesMustHave2To3Columns">Vertices array must have at least 2 and at most 3 columns (or be empty)</entry>
+    <entry key="BadFaceVertexCDataDimensions">FaceVertexCData must be an Mx1 vector (indexed colors) or Mx3 matrix (RGB colors)</entry>
+    <entry key="BadFaceVertexAlphaDataDimensions">FaceVertexAlphaData must be an Mx1 vector of Alpha Values, or Alpha Map indices.</entry>
+    <entry key="VerticesArrayMustHave2To3Columns">Vertices array must have at least 2 and at most 3 columns - not rendering</entry>
+    <entry key="BadValuesInPatchFaces">Values in patch Faces must be in [1 : rows(Vertices)] - not rendering</entry>
+    <entry key="CannotUseFaceVertexCDataOfSize0">Patch FaceVertexCData of size 0 cannot be used with Flat shading</entry>
+    <entry key="PatchFaceVertexCDataLengthMustEqual1">Patch FaceVertexCData length ({0,number,integer}) must equal 1, Vertices length ({1,number,integer}), or Faces length ({2,number,integer}) for flat FaceColor</entry>
+    <entry key="RGBColorDataNotSupported">RGB color data not yet supported in Painter''s mode</entry>
+    <entry key="ColorDataNotSetForInterpolatedShading">Color Data is not set for Interpolated shading</entry>
+    <entry key="PatchFaceVertexCDataLengthMustEqualVerticesLength">Patch FaceVertexCData length ({0,number,integer}) must equal Vertices length ({1,number,integer}) for flat EdgeColor</entry>
+    <entry key="CannotUsePatchFaceVertexAlphaDataSize0">Patch FaceVertexAlphaData of size 0 cannot be used with Flat Alpha.</entry>
+    <entry key="PatchFaceVertexAlphaCDataLengthMustEqual1">Patch FaceVertexAlphaData length ({0,number,integer}) must equal 1, Vertices length ({1,number,integer}), or Faces length ({2,number,integer}) for flat Alpha.</entry>
+    <entry key="AlphaDataNotSetForInterpolatedShading">Alpha Data is not set for Interpolated shading</entry>
+    <entry key="ColorDataNotSetForMarkerFlatColoring">Color Data is not set for marker flat coloring</entry>
+    <entry key="VertexNormalsMustHave2Dimensions1">VertexNormals must have 2 dimensions</entry>
+    <entry key="BadVertexNormalsSize">size(VertexNormals) must equal rows(vertices) x 3 </entry>
+    <entry key="VertexNormalsMustHave2Dimensions2">VertexNormals must have 2 dimensions</entry>
+    <entry key="BadFaceNormalsSize">size(FaceNormals) must equal rows(faces) x 3</entry>
+    <entry key="NotEnoughMemoryForNormals">There was not enough memory for normals. Not rendering</entry>
+    <entry key="CannotAllocateTriangleStorage">Unable to allocate triangle storage; Hit test may be inaccurate</entry>
+  </message>
+</rsccat>

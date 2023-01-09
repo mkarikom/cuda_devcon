@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoDefaultParams">{0} 中没有默认参数。请改用 {1}({2},tspan,y0,...)。</entry>
+    <entry key="TspanNaNValues">积分区间包含 NaN。</entry>
+    <entry key="TspanEndpointsNotDistinct">tspan 中的最后一个元素必须与第一个元素不同。</entry>
+    <entry key="TspanNotMonotonic">tspan 中的元素必须严格递增或严格递减。</entry>
+    <entry key="FoMustReturnCol">{0} 必须返回列向量。</entry>
+    <entry key="RelTolNotPosScalar">RelTol 必须为正标量。</entry>
+    <entry key="AbsTolNotPos">AbsTol 必须为正数。</entry>
+    <entry key="NonScalarAbsTol">设定 NormControl 为 ''on'' 进行求解时，AbsTol 应该为一个标量。</entry>
+    <entry key="SizeAbsTol">求解 {0} 时，AbsTol 应该为一个标量或者一个长度为 {1,number,integer} 的向量</entry>
+    <entry key="MaxStepLEzero">选项 ''MaxStep'' 必须大于零。</entry>
+    <entry key="InitialStepLEzero">选项 ''InitialStep'' 必须大于零。</entry>
+    <entry key="TspanOrY0NotSupplied">如果 {0} 的第一个参数为函数句柄，则必须提供 tspan 和 y0 参数。</entry>
+    <entry key="SizeTspan">如果 {0} 的第一个参数为函数句柄，则 tspan 参数必须至少包含两个元素。</entry>
+    <entry key="SizeIC">{0} 返回的向量的长度为 {1,number,integer}，但初始条件向量的长度为 {2,number,integer}。{3} 返回的向量和初始条件向量的元素数目必须相同。</entry>
+    <entry key="RelTolIncrease">RelTol 已增加到 {0}。</entry>
+    <entry key="InconsistentDataType">在对 {2} 的调用中，{0} 和 {1} 混合使用了单精度和双精度数据。</entry>
+  </message>
+</rsccat>

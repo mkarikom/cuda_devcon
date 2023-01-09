@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ContourMatrixMustBeFull">等高線行列は非スパースでなければなりません。</entry>
+    <entry key="ContourMatrixMustBeReal">等高線行列は実数でなければなりません。</entry>
+    <entry key="ContourMatrixMustHaveAtMost2Dimensions">等高線行列の次数は 2 を超えてはなりません。</entry>
+    <entry key="ContourMatrixMustHave2Rows">等高線行列の行数は 2 でなければなりません。</entry>
+    <entry key="TextListMustBeVectorOrScalar">テキストのリスト値はベクトルかスカラーでなければなりません。</entry>
+    <entry key="TextListMustBeFinite">テキストのリスト値は有限でなければなりません。</entry>
+    <entry key="TextListMustBeUniqueSortedIncreasing">テキストのリスト値は固有で、ソートされ、昇順でなければなりません。</entry>
+    <entry key="LabelSpacingIgnoredManual">LabelSpacing プロパティは CLABEL への手動オプションでは無効です。</entry>
+    <entry key="LabelSpacingIgnoredAuto">LabelSpacing プロパティは、 CLABEL への Contour ハンドル引数が指定されていない場合は無効です。</entry>
+    <entry key="InvalidContourMatrixInput">最初の入力は有効な等高線図を記述する行列でなければなりません。</entry>
+    <entry key="ContourHandleInputs">等高線図のハンドルが不足しています。</entry>
+    <entry key="LabelHandleOutputs">等高線図のハンドルの引数が指定され、ラベルの配置が自動の場合、テキスト ハンドル出力はサポートされません。</entry>
+    <entry key="ReadOnlyTextProperty">次のテキスト プロパティは読み取り専用です: {0}。</entry>
+    <entry key="IgnoringTextProperty">次のテキスト プロパティは無視されます: {0}。</entry>
+    <entry key="IgnoringSpecialTextProperty">等高線図のハンドルの引数が指定され、ラベルの配置が自動の場合、{0} プロパティは無視されます。</entry>
+    <entry key="PleaseWaitAMoment">しばらくお待ちください...</entry>
+    <entry key="SelectContoursForLabeling">ラベル付けを行う等高線図を注意深く選択してください。</entry>
+    <entry key="WhenDonePressReturn">終了したら、グラフ ウィンドウをアクティブにして RETURN キーを押してください。</entry>
+  </message>
+</rsccat>

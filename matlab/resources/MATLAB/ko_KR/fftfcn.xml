@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WisdomImportFailed">FFTW wisdom 가져오기에 실패했습니다. 입력 문자형 벡터가 이전 버전의 MATLAB을 사용하여 생성되었기 때문일 수 있습니다.</entry>
+    <entry key="FirstInputNotString">첫 번째 입력값은 문자형 벡터여야 합니다.</entry>
+    <entry key="FirstInputInvalidString">인식할 수 없는 입력 문자형 벡터입니다.</entry>
+    <entry key="InvalidTrailingStringArgument">대칭 유형은 ''symmetric'' 또는 ''nonsymmetric''이어야 합니다.</entry>
+    <entry key="FFTWGuru">이는 복소수 2차원 FFT(고속 푸리에 변환)의 실수 실행에만 사용될 수 있습니다.</entry>
+    <entry key="InvalidFourthArgument">IFFT에 대한 4번째 인수는 ''symmetric'' 또는 ''nonsymmetric''이어야 합니다.</entry>
+    <entry key="lengthNotNonNegInt">FFT 길이는 음이 아닌 정수 스칼라여야 합니다.</entry>
+    <entry key="InvalidThirdArgument">IFFTN에 대한 3번째 인수는 ''symmetric'' 또는 ''nonsymmetric''이어야 합니다.</entry>
+    <entry key="outputSizeLessThanNdimsElements">FFTN 출력 크기에는 적어도 NDIMS 요소가 포함되어야 합니다.</entry>
+    <entry key="outputSizeNotRealIntRowVector">FFTN 출력 크기는 실수형 정수 행 벡터여야 합니다.</entry>
+    <entry key="outputSizeVectorNotNonNegInts">FFTN 출력 크기 벡터는 음이 아닌 정수를 포함해야 합니다.</entry>
+    <entry key="InvalidInputType">유효하지 않은 데이터형입니다. 첫 번째 인수는 double형, single형, int8형, uint8형, int16형, uint16형, int32형, uint32형 또는 논리형이어야 합니다.</entry>
+    <entry key="SparseInputType">희소 행렬은 지원되지 않습니다.</entry>
+    <entry key="UnknownAction">알 수 없는 옵션이 FFTW에 전달되었습니다.</entry>
+    <entry key="needRowsArg">행 청크 크기를 지정하십시오.</entry>
+    <entry key="invalidRowsArg">두 번째 입력값은 double형의 유한한 양의 실수여야 합니다.</entry>
+    <entry key="invalidWisdomArg">두 번째 입력값은 문자형 벡터 또는 []이어야 합니다.</entry>
+    <entry key="invalidPlannerArg">두 번째 입력값은 ''hybrid'', ''estimate'', ''measure'', ''patient'', ''exhaustive'' 중 하나여야 합니다.</entry>
+    <entry key="FFTWAssertionFailure">내부 FFTW 라이브러리 오류입니다.</entry>
+  </message>
+</rsccat>

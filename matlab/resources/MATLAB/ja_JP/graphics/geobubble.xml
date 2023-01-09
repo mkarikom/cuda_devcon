@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DataLengthMismatch">{0} は {1} と同数の要素を含んでいなければなりません。</entry>
+    <entry key="InvalidSourceTable">''SourceTable'' の値は table でなければなりません。</entry>
+    <entry key="MatrixWorkflow">''LatitudeData'' プロパティの設定後に ''{0}'' プロパティを設定することはサポートされていません。</entry>
+    <entry key="TableWorkflow">''SourceTable'' プロパティの設定後に ''{0}'' プロパティを設定することはサポートされていません。</entry>
+    <entry key="InvalidArguments">2 つの数値ベクトル、または後ろに 2 つの table の添字をもつ table が必要です。</entry>
+    <entry key="DeletedParent">親コンテナーは削除されたグラフィックス オブジェクトです。</entry>
+    <entry key="InvalidParent">親コンテナーは Figure、uipanel または uitab でなければなりません。</entry>
+    <entry key="SizeVariableNameValuePair">パラメーターの名前と値のペアを使用して ''SizeVariable'' を指定してください。</entry>
+    <entry key="ColorVariableNameValuePair">パラメーター名と値のペアを使用して ''ColorVariable'' を指定してください。</entry>
+    <entry key="InvalidTableArguments">入力引数が不足しています。table の引数には 2 つの table の添字が続かなければなりません。</entry>
+    <entry key="MapLayoutLabel">マップのレイアウト</entry>
+    <entry key="ScalebarVisibleLabel">スケール バーの可視性</entry>
+    <entry key="BasemapLabel">データがプロットされるマップ</entry>
+  </message>
+</rsccat>

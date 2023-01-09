@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInputHandle">대상은 Figure의 자식일 수 있는 차트 또는 좌표축 유형이어야 합니다.</entry>
+    <entry key="UnableToGetOutput">렌더러 정보를 제공할 수 없습니다.</entry>
+  </message>
+</rsccat>

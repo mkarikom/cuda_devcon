@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PorQNotPos">P와 Q는 모두 양수여야 합니다.</entry>
+    <entry key="InvalidC">C에 대한 값이 잘못되었습니다. COND를 지정하려면 C &gt;= 1로 설정하십시오.</entry>
+  </message>
+</rsccat>

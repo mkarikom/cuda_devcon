@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonPairedArgs">フィールドと値の入力引数は対でなければなりません。</entry>
+    <entry key="numberDimensionMismatch">入力 ''{0,number,integer}'' の次元数は入力 ''{1,number,integer}'' の次元数と一致するか、またはスカラーでなければなりません。</entry>
+    <entry key="arrayDimensionMismatch">入力 ''{0,number,integer}'' の配列の次元は入力 ''{1,number,integer}'' の配列の次元と一致するか、またはスカラーでなければなりません。</entry>
+  </message>
+</rsccat>

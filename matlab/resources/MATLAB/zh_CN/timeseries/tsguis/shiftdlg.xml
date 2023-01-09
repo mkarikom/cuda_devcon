@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Apply">应用</entry>
+    <entry key="AReferenceTimeSeriesMustBeSelectedForSynchronization">必须选择引用时序进行同步。</entry>
+    <entry key="Cancel">取消</entry>
+    <entry key="Help">帮助</entry>
+    <entry key="InvalidSyncTimeFor">{0} 的同步时间无效</entry>
+    <entry key="LimitedDoublePrecisionError">有限的双精度会在移动以下项之后导致时间重复: {0}。中止移动</entry>
+    <entry key="OK">确定</entry>
+    <entry key="PlotTimeUnits">绘制时间单位: {0}</entry>
+    <entry key="SelectTimePlot">选择时间图:</entry>
+    <entry key="SynchronizeTimeSeries">同步时序</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="TimeShift">时移</entry>
+    <entry key="YouMustSelectAtLeastTwoTimeSeries">您必须至少选择两个时序。</entry>
+    <entry key="InvalidDateStringFormat">Invalid date character vector format.</entry>
+  </message>
+</rsccat>

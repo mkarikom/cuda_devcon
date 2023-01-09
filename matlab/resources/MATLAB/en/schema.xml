@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CannotBeParent">A uitabgroup cannot be the parent of a {0}.\n Hence, the {1} has been reparented to the gcf</entry>
+    <entry key="InvalidIndex">Selected Index has to be between 1 and the number of tabs</entry>
+    <entry key="InvalidTab">SelectedTab must be a child of this parent</entry>
+    <entry key="CannotSetVisible">Cannot set the Visible property of the uitab.\nThis will become an error in a future release</entry>
+    <entry key="CannotSetBackgroundColor">Cannot set the BackgroundColor property of the uitab.\nThis will become an error in a future release</entry>
+  </message>
+</rsccat>

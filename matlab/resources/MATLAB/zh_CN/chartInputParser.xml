@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManyDataArgs">参数太多。</entry>
+    <entry key="TooFewDataArgs">参数太多。</entry>
+    <entry key="BadParent">父属性必须为有效的图形对象。</entry>
+    <entry key="InvalidCount">输入参数的数目无效。</entry>
+    <entry key="DataArgWrongType">DataArgumentPatterns 必须为包含 cellstrs 的模式的元胞数组。</entry>
+    <entry key="WrongName">{1} 中的属性名称 {0} 无效。</entry>
+    <entry key="AmbiguousPattern">指定的一个或多个数据参数模式不明确。</entry>
+    <entry key="UnspecifiedType">没有为属性 ''{0}'' 指定类型信息。</entry>
+    <entry key="InvalidNameValue">不支持属性名称: {0}。</entry>
+    <entry key="IncorrectDataArgs">数据参数不正确。</entry>
+    <entry key="InvalidLeadingFlags">前导标志必须为 cellstr 或字符串数组。</entry>
+    <entry key="InvalidChartName">ChartClassName 无效。请指定图类的完整包名称。</entry>
+    <entry key="AlreadyPresent">无法为 {0} 重新赋值。请考虑实例化一个新的 ChartInputParser 对象。</entry>
+    <entry key="BadTrailingFlagType">尾部标志必须指定为结构体、cellstr 或字符串数组。</entry>
+    <entry key="BadLineSpecification">LineSpecification 必须为最多包含三个字段的结构体，三个字段分别对应于线型、标记样式和颜色。</entry>
+    <entry key="RepeatedLineSpec"> 在 LineSpecification 中重复了 {0} 映射。将覆盖之前设置的值。</entry>
+  </message>
+</rsccat>

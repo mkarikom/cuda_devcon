@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="notFound">''{0}'' not found.\n</entry>
+    <entry key="errorInTransparentWorkspace">Using which to locate a variable in the transparent workspace is not supported.  To search for a file, use the following form: which('/someMATLABFile').</entry>
+  </message>
+</rsccat>

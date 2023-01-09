@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="registration" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="setupCompilerRecommended">다음 제품을 사용하여 계산을 가속화하려면 &lt;a HREF="http://www.mathworks.com/pi_scl_3_{0}_{1}"&gt;지원되는 컴파일러&lt;/a&gt;가 필요합니다:&lt;br&gt;&lt;br&gt;{2}&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupCompilerRequired">다음 제품을 사용하려면 &lt;a href="http://www.mathworks.com/pi_scl_1_{0}_{1}"&gt;지원되는 컴파일러&lt;/a&gt;가 필요합니다.&lt;br&gt;&lt;br&gt;{2}&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupMATLABCompiler">Excel 추가 기능을 만들려면 {0}에 &lt;a HREF="http://www.mathworks.com/pi_scl_4_{1}_{2}"&gt;지원되는 컴파일러&lt;/a&gt;가 필요합니다.&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupNotesTopLabel">&lt;b&gt;설치하려면 추가적인 구성 단계가 필요할 수 있습니다.&lt;/b&gt;&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupParallelServer">이 설치가 완료되면 &lt;a HREF="{0}"&gt;www.mathworks.com/distconfig&lt;/a&gt;에서 받은 지침에 따라 MATLAB Parallel Server의 구성을 진행해야 합니다.&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupSimulinkCompiler">시뮬레이션을 가속화하고, 모델 참조 기능과 MATLAB Function 블록 기능을 사용하려면 Simulink에 C 컴파일러가 필요합니다. 컴퓨터에 &lt;a HREF="http://www.mathworks.com/pi_scl_2_{0}_{1}"&gt;지원되는 컴파일러&lt;/a&gt;를 설치하는 것이 좋습니다.&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupWebAppServer"> MATLAB Web App Server 설정 지침&lt;br&gt;&lt;br&gt; a. &lt;a HREF="http://www.mathworks.com/pi_mwas_mcr_pi_{1}_{2}"&gt;MATLAB Runtime을 다운로드&lt;/a&gt;한 다음 디폴트 위치에 설치하십시오.&lt;br&gt; - R2019b부터 &lt;a HREF="http://www.mathworks.com/pi_mwas_lsv_pi_{1}_{2}"&gt;최신 릴리스&lt;/a&gt;까지의 MATLAB Runtime만 지원됩니다.&lt;br&gt;&lt;br&gt; b. 다음을 입력하여 명령줄에서 설정 스크립트를 실행하십시오. &lt;i&gt;webapps-setup&lt;/i&gt; &lt;br&gt; - 설정 스크립트는 &lt;i&gt;{0}script&lt;/i&gt;에 있습니다.&lt;br&gt;&lt;br&gt; c. 자세한 지침을 보려면 &lt;a HREF="http://www.mathworks.com/pi_mwas_qsg_pi_{1}_{2}"&lt;/a&gt;빠른 시작 가이드&lt;/a&gt;를 다운로드하십시오.&lt;br&gt;&lt;br&gt; d. 웹 도움말 문서를 보려면 &lt;a HREF="http://www.mathworks.com/pi_mwas_doc_pi_{1}_{2}"&gt;MATLAB Web App Server&lt;/a&gt;를 참조하십시오.&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="startupAcceleratorDesc">MATLAB 시작 속도를 높여주는 Startup Accelerator</entry>
+    <entry key="startupAcceleratorName">MATLAB {0} Startup Accelerator</entry>
+    <entry key="commentForMATLABShortcut">MATLAB 시작 - 테크니컬 컴퓨팅 언어</entry>
+    <entry key="commentForPolySpaceShortcut">Polyspace 시작</entry>
+    <entry key="newLine">&lt;br&gt;</entry>
+    <entry key="setupMATLABCompilerSDKWin">{0} requires the following:&lt;br&gt;&lt;br&gt;
+    \u25CF  &lt;a HREF="http://www.mathworks.com/pi_scl_5_{1}_{2}"&gt;.NET framework&lt;/a&gt; for creation of .NET assemblies and deployable archives with Excel integration&lt;br&gt;
+    \u25CF  a &lt;a HREF="http://www.mathworks.com/pi_scl_5_{1}_{2}"&gt;supported compiler&lt;/a&gt; for creation of COM components, C and C++ Shared libraries&lt;br&gt;
+    \u25CF  a &lt;a HREF="http://www.mathworks.com/pi_scl_6_{1}_{2}"&gt;Java JDK&lt;/a&gt; for creation of Java packages&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupMATLABCompilerSDKLinux"> {0} requires the following: &lt;br&gt;&lt;br&gt;
+    \u25CF  a &lt;a HREF="http://www.mathworks.com/pi_scl_5_{1}_{2}"&gt;supported compiler&lt;/a&gt; for creation of C and C++ Shared libraries&lt;br&gt;
+    \u25CF  a &lt;a HREF="http://www.mathworks.com/pi_scl_6_{1}_{2}"&gt;Java JDK&lt;/a&gt; for creation of Java packages&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupProductionServer">&lt;i&gt;&lt;b&gt;Important:&lt;/i&gt;&lt;/b&gt;&lt;br&gt;Before you can use MATLAB Production Server, you must set up your environment.&lt;br&gt;
+    &lt;br&gt;a. &lt;a HREF="http://www.mathworks.com/pi_mps_mcr_pi_{1}_{2}"&gt;Download and install the MATLAB Runtime&lt;/a&gt;&lt;br&gt;
+    - Install the MATLAB Runtime in the default location&lt;br&gt;
+    - MATLAB Production Server will work with the last six versions of the MATLAB Runtime from the &lt;a HREF="http://www.mathworks.com/pi_mps_lsv_pi_{1}_{2}"&gt;most recent version&lt;/a&gt;&lt;br&gt;
+    &lt;br&gt;b. At the system command line, run mps-setup from the script folder. The script folder is located at {0}script.&lt;br&gt;
+    &lt;br&gt;c. For detailed instructions, download the &lt;a HREF="http://www.mathworks.com/pi_mps_qsg_pi_{1}_{2}"&gt;Quick Start Guide&lt;/a&gt;.&lt;br&gt;&lt;br&gt;</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DestroyCallbackStomped">得られた他のいずれかの GObject DestroyCallback が使えません</entry>
+    <entry key="WriteCallbackStomped">得られた他のいずれかの GObject WriteCallback が使えません</entry>
+    <entry key="MustBeInSameFigure">オブジェクトとその uicontextmenu は、同じ Figure 内になければなりません</entry>
+    <entry key="BadHandleType">ハンドルは uicontextmenu でなければなりません</entry>
+    <entry key="DontNeedToSetInvalMethods">Inval メソッドを設定する必要はありません --&gt; 代わりに境界を設定してください</entry>
+    <entry key="TransformFcnNotSet">関数 Transform は {0} オブジェクトに対して設定されていません</entry>
+    <entry key="DestroyFcnNotSet">関数 Destroy は {0} オブジェクトに対して設定されていません</entry>
+    <entry key="ObjectInRectFcnNotSet">関数 ObjectInRect は {0} オブジェクトに対して設定されていません</entry>
+    <entry key="ComputeNormalsFcnNotSet">関数 ComputeNormals は {0} オブジェクトに対して設定されていません</entry>
+    <entry key="RenderFcnNotSet">関数 Render は {0} オブジェクトに対して設定されていません</entry>
+    <entry key="ZBufferRendererFcnNotSet">Zbuffer の関数 Render は {0} オブジェクトに対して設定されていません</entry>
+    <entry key="GetSubobjPolyFcnNotSet">関数 GetSubobjPoly は {0} オブジェクトに対して設定されていません</entry>
+    <entry key="OkToRenderFcnNotSet">関数 OkToRender は {0} オブジェクトに対して設定されていません</entry>
+    <entry key="CannotSetProperty">Factory プロパティは、検索のみで設定できません</entry>
+    <entry key="BadParent">無効な親</entry>
+    <entry key="TooManyObjectsCreatedWhileDeletingChildren">{0} の子を削除中に多くのオブジェクトが作成されました;\n無限ループを回避するためにすべての子孫の DeleteFcn を削除します。</entry>
+    <entry key="CannotDeleteObject">ルート オブジェクトは削除できません</entry>
+    <entry key="FunctionNotSet">関数は {0} オブジェクトに対して設定されていません</entry>
+    <entry key="SetupFunctionNotSet">セットアップ関数は {0} のオブジェクトに対して設定されていません</entry>
+    <entry key="UpdateFunctionNotSet">更新関数は {0} のオブジェクトに対して設定されていません</entry>
+    <entry key="MatrixDimensionMismatch">両方の引数がスカラーでない場合、行列のサイズは一致しなければなりません</entry>
+    <entry key="BadHandle1">無効なハンドル</entry>
+    <entry key="BadHandle2">無効なハンドル</entry>
+    <entry key="ParentCannotBeReset">親のリセットはできません</entry>
+    <entry key="ParentChildMismatchError">クラス {0} のオブジェクトはクラス {1} の子にはできません。</entry>
+    <entry key="ObjectCannotBeChild">オブジェクト {0}[{1,number,integer}] は親 {2}[{3,number,integer}] の子にはできません</entry>
+    <entry key="ChildrenMayOnlyBeSetToPermutationOfSelf">子はそれ自身の置換にのみ設定できます</entry>
+    <entry key="BadPropertyValueFound">無効なプロパティ値が見つかりました。</entry>
+    <entry key="AmbiguousPropertyFound">あいまいなプロパティが見つかりました。</entry>
+    <entry key="AttemptToModifyReadOnly">読み取り専用を変更しようとしています</entry>
+    <entry key="CannotCreateCopyOfInvalidHandle">Copyobj は、無効なハンドルのコピーを作成できません。\n</entry>
+    <entry key="sparseArgs">入力は非スパースでなければなりません。</entry>
+  </message>
+</rsccat>

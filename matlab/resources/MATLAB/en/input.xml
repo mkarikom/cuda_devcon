@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="StandaloneMode">INPUT command not allowed in standalone MATLAB.</entry>
+    <entry key="IsInEvalc">Cannot call INPUT from EVALC.</entry>
+    <entry key="NonCharInput" note="stringDatatypeUpdate">The first argument to INPUT must be a string or character vector.</entry>
+    <entry key="UnknownOption">The second argument to INPUT must be ''s''.</entry>
+    <entry key="EngineMode">INPUT command not available when using MATLAB as Engine or Notebook.</entry>
+  </message>
+</rsccat>

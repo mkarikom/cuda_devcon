@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <!-- publish.m -->
+      <entry key="NoJvm">PUBLISH requires Java.</entry>
+      <entry key="SourceNotFound">Unable to find "{0}".</entry>
+      <entry key="InvalidOption">Invalid option "{0}". Note that options are case sensitive.</entry>
+      <entry key="NoGIFs">"gif" is not a supported imageFormat.</entry>
+      <entry key="UnknownFormat">Unsupported format "{0}".</entry>
+      <entry key="StylesheetNotFound">The specified stylesheet, "{0}", does not exist.</entry>
+      <entry key="InvalidBoolean" note="stringDatatypeUpdate">The value of "{0}" must be a logical scalar, e.g. true and not the character vector ''true''.</entry>
+      <entry key="InvalidMaxOutputLines">The value of "maxOutputLines" must be Inf or a non-negative integer.</entry>
+      <entry key="MustBeEmptyOrPositiveInteger">The option ''{0}'' must be either empty or a positive integer.</entry>
+      <entry key="VectorAndGetframe">The imageFormat ''{0}'' is incompatible with the figureSnapMethod ''getframe''.</entry>
+      <entry key="VectorSize">Setting a maximum image height or width is incompatible with {0}-files and will be ignored.</entry>
+      <entry key="InvalidPDFImageFormat">PDF output only supports an imageFormat of BMP or JPEG.</entry>
+      <entry key="StopOnErrorDeprecated">stopOnError is no longer supported.  Use TRY/CATCH in your code for a similar effect.</entry>
+      <entry key="OffPath">PUBLISH needs to run the file because the evalCode option is set, but the file is not on the MATLAB path.</entry>
+      <entry key="Shadowed">Unable to access the file because it is shadowed by {0}.</entry>
+      <entry key="OnlyCode">Only MATLAB code can be published.</entry>
+      <entry key="CannotDelete">Unable to delete "{0}".</entry>
+      <entry key="CannotReadForThumbnail">Unable to read final image "{0}" for thumbnail creation. Will retry {1} times.</entry>
+      <entry key="RecursivePublish">Publishing a script that contains a publish function is not supported.</entry>
+      <entry key="NoFileSpecified">No filename specified in include markup.</entry>
+      <!-- prepareOutputLocation -->
+      <entry key="MkdirFailed">The output directory "{0}" does not exist and can''t be created.</entry>
+      <entry key="DirNotWritable">The output directory "{0}" is not writable.</entry>
+      <entry key="FileNotWritable">The output file "{0}" is not writable.</entry>
+
+      <!-- compareFigures -->
+      <entry key="BeginDifferences">==== Begin Differences ====</entry>
+      <entry key="EndDifferences">==== End Differences ====</entry>
+      <entry key="NewSystem">Snapping new system: "{0}".</entry>
+      <entry key="NewFigure">Snapping new figure {0}, "{1}".</entry>
+      <entry key="ChangedSystem">Snapping changed system: "{0}".</entry>
+      <entry key="ChangedFigure">Snapping changed figure {0}, "{1}".</entry>
+
+      <!-- mxdom2word, mxdom2ppt -->
+      <entry key="WordPCOnly">Publishing to Microsoft Word is only supported on the PC.</entry>
+      <entry key="NoWord">Microsoft Word must be installed to publish to this format.</entry>
+      <entry key="PptPCOnly">Publishing to Microsoft PowerPoint is only supported on the PC.</entry>
+      <entry key="NoPpt">Microsoft PowerPoint must be installed to publish to this format.</entry>
+      <entry key="PptNotReady">Timeout waiting for Microsoft PowerPoint to start</entry>
+      <entry key="WordAlreadyOpen">Unable to create the file "{0}" because there is already a copy open in Word.  Close the document and try again.</entry>
+      <entry key="PublishError">Publishing Error</entry>
+      <entry key="NotImplemented">Not implemented: {0}</entry>
+      <entry key="invalidXmlChar">.m file must contain valid XML 1.0 Standard characters.</entry>
+      <!-- PublishFigures -->
+      <entry key="CannotWriteImage">Unable to write to {0}.\nFILEATTRIB output is\n{1}</entry>
+   </message>
+</rsccat>

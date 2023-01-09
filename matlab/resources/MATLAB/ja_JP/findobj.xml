@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="notfound">findobj メソッドはクラス ハンドルで見つかりませんでした。</entry>
+    <entry key="NotSupported">クラス ''{0}'' では関数 findobj はサポートされていません。</entry>
+    <entry key="badinput">無効なハンドル配列</entry>
+    <entry key="SyntaxErr">findobj 内の構文エラー。</entry>
+    <entry key="FunctionHandleReturnValue">'-function' オプションと共に渡された関数は、logical スカラーを返さなければなりません。</entry>
+    <entry key="InvalidOption">''{0}'' は、findobj の有効なオプションではありません。</entry>
+    <entry key="DepthMustBeNumber">'-depth' の後は、数値のスカラーの検索深度を指定しなければなりません。</entry>
+    <entry key="FunctionHandle">'-function' オプションの後は、関数ハンドル、またはプロパティ名と関数ハンドルを指定しなければなりません。</entry>
+    <entry key="ClassNeeded">'-class' オプションを使用しているクラスがありません</entry>
+    <entry key="InvalidClass">'-class' オプションの後は、meta.class インスタンスまたは有効なクラス名を指定しなければなりません。</entry>
+    <entry key="InvalidIsa">'-isa' オプションの後は、meta.class インスタンスまたは有効なクラス名を指定しなければなりません。</entry>
+    <entry key="PropertyRequired">'-property' オプションの後は、プロパティ名を文字ベクトルまたは string スカラーとして指定しなければなりません。</entry>
+    <entry key="MethodRequired">'-method' オプションの後は、メソッド名を文字ベクトルまたは string スカラーとして指定しなければなりません。</entry>
+    <entry key="EventRequired">'-event' オプションの後は、イベント名を文字ベクトルまたは string スカラーとして指定しなければなりません。</entry>
+    <entry key="IncompletePVPair">パラメーターと値のペアが不完全です。</entry>
+    <entry key="noregexp">正規表現の比較は、''{0}'' プロパティに対してサポートされていません: 通常の比較を使用します。</entry>
+    <entry key="InvalidHeterogeneousArray">findobj 式と一致するオブジェクトの固有のクラスがそれぞれ異なるため、これらのクラスを結合して有効な 1 つの異種混合配列にすることはできません。</entry>
+    <entry key="mustReturnLogicalScalar">'-function' 命令と共に渡された関数は、論理スカラーを返さなければなりません</entry>
+  </message>
+</rsccat>

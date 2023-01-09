@@ -1,0 +1,81 @@
+#Libraries to load
+
+library(Seurat)
+library(ggplot2)
+library(RSoptSC)
+
+setwd("/workspaces/cuda_devcon/viky_stuff")
+datadir = "data"
+seur = readRDS(file.path(datadir,"saved","combined.RDS"))
+plotdir = "plots"
+dir.create(file.path(plotdir))
+
+SimilaritySeurat <- function(obj, minvar_gene=0,minvar_cell=0,...){
+  
+  # make sure there are no zero variance cells
+  genes = names(apply(Seurat::GetAssayData(obj)[which(apply(Seurat::GetAssayData(obj)[Seurat::VariableFeatures(obj),], 1, var)>minvar_gene),], 1, var))
+  cells = names(apply(Seurat::GetAssayData(obj)[,which(apply(Seurat::GetAssayData(obj)[Seurat::VariableFeatures(obj),], 2, var)>minvar_cell)], 2, var))
+  
+  SimilarityM(data=Seurat::GetAssayData(obj)[genes,cells],...)
+}
+
+sim = 
+  SimilaritySeurat(
+    obj=seur,
+    lambda = 0.05, 
+    dims = 3,
+    pre_embed_method = 'tsne',
+    perplexity = 20, 
+  )
+
+low_dim_mapping <- RepresentationMap(similarity_matrix = sim$W,
+                                     flat_embedding_method = 'tsne',
+                                     join_components = TRUE,
+                                     perplexity = 35,
+                                     theta = 0.5,
+                                     normalize = FALSE,
+                                     pca = TRUE,
+                                     pca_center = TRUE,
+                                     pca_scale = TRUE,
+                                     dims = 2,
+                                     initial_dims = 2)
+
+clusters <- ClusterCells(similarityMatrix = sim$W, n_comp = 15, .options='p')
+H <- clusters$H
+labels <- clusters$labels
+n_clusters <- length(unique(clusters$labels))
+
+
+pdf(file.path(plotdir,"eigs.pdf"))
+plot(c(1:20), 
+     clusters$ensemble$eigs$val[1:20],
+     xlab = NA,
+     ylab = 'eigenvalues',
+     main = 'Eigenvalues of the Graph Laplacian')
+dev.off()
+
+# define a scheme for the coloring.  This is a required parameter for plotting discrete (factor) data
+colorscale <- ColorHue(n = length(unique(labels)))
+colorscale <- colorscale$hex.1.n.
+# plot clusters
+
+pdf(file.path(plotdir,"feature_plot_clusters.pdf"))
+FeatureScatterPlot(flat_embedding = low_dim_mapping$flat_embedding,
+                   feature = as.factor(labels),
+                   title = "NMF Cluster Labeling",
+                   subtitle = "t-SNE Embedding",
+                   featurename = "Cluster ID",
+                   colorscale = colorscale)
+dev.off()
+
+markers <- GetMarkerTable(counts_data = Seurat::GetAssayData(seur),
+                          cluster_labels = labels,
+                          H = H,
+                          n_sorted = 25)
+
+pdf(file.path(plotdir,"marker_heatmap.pdf"))
+PlotTopN_Grid(data = Seurat::GetAssayData(seur),
+              cluster_labels = labels,
+              markers = markers$all,
+              n_features = 15)
+dev.off()

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidIntegrand">最初の入力引数は関数ハンドルでなければなりません。</entry>
+    <entry key="invalidXMin">XMIN は浮動小数点のスカラーでなければなりません。</entry>
+    <entry key="invalidXMax">XMAX は浮動小数点のスカラーでなければなりません。</entry>
+    <entry key="invalidYMin">YMIN は浮動小数点スカラーまたは関数ハンドルでなければなりません。</entry>
+    <entry key="invalidYMax">YMAX は浮動小数点スカラーまたは関数ハンドルでなければなりません。</entry>
+    <entry key="invalidZMin">ZMIN は浮動小数点スカラーまたは関数ハンドルでなければなりません。</entry>
+    <entry key="invalidZMax">ZMAX は浮動小数点スカラーまたは関数ハンドルでなければなりません。</entry>
+    <entry key="invalidAbsTol">無効な AbsTol</entry>
+    <entry key="invalidRelTol">無効な RelTol</entry>
+    <entry key="invalidMethod">メソッドは ''auto''、''tiled''、または ''iterated'' でなければなりません。</entry>
+    <entry key="unsuccessful">積分は失敗しました。</entry>
+  </message>
+</rsccat>

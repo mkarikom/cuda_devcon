@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNameValueMismatch">尾部输入参数必须以名称-值对组的形式出现。</entry>
+    <entry key="MixedTallData">X 和 Y 必须同时为 tall 数组，或者同时为内存数组。</entry>
+    <entry key="InvalidDatetimeOrDurationXLimits">XLimits 必须为二元排序的有限数组，并且必须与 X 数据具有相同的类。</entry>
+    <entry key="InvalidDatetimeOrDurationYLimits">YLimits 必须为二元排序的有限数组，并且必须与 Y 数据具有相同的类。</entry>
+    <entry key="InvalidTallData">tall 输入必须为实数列向量。</entry>
+    <entry key="NonEmptyNumBinsAutoMode">当 ''NumBinsMode'' 设置为 ''auto'' 时，无法设置 ''NumBins''。</entry>
+    <entry key="NonEmptyXLimitsAutoMode">当 ''XLimitsMode'' 设置为 ''auto'' 时，无法设置 ''XLimits''。</entry>
+    <entry key="NonEmptyYLimitsAutoMode">当 ''YLimitsMode'' 设置为 ''auto'' 时，无法设置 ''YLimits''。</entry>
+    <entry key="EmptyNumBinsManualMode">当 ''NumBinsMode'' 设置为 ''manual'' 时，必须设置 ''NumBins''。</entry>
+    <entry key="EmptyXLimitsManualMode">当 ''XLimitsMode'' 设置为 ''manual'' 时，必须设置 ''XLimits''。</entry>
+    <entry key="EmptyYLimitsManualMode">当 ''YLimitsMode'' 设置为 ''manual'' 时，必须设置 ''YLimits''。</entry>
+    <entry key="BinCounts">bin 计数</entry>
+  </message>
+</rsccat>

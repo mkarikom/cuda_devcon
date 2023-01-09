@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidSceneViewer">SceneViewer オブジェクトは適切に初期化されませんでした</entry>
+    <entry key="BadFilename">有効なファイル名ではありません</entry>
+    <entry key="BadFormat">有効な書式ではありません</entry>
+    <entry key="UnexpectedException">問題が発生しました</entry>
+    <entry key="InvalidRendererValueSpecified">必要なレンダリング値は 0 (opengl) または 1 (painters) です</entry>
+    <entry key="ViewportNotValid">表示域は有効な状態ではありません</entry>
+    <entry key="TooManyTokens">未解決の多くのジョブがあるため操作に失敗しました</entry>
+    <entry key="StatisticsListener">統計コレクション リスナーの無効な変更</entry>
+    <entry key="DebugLogListener">debuglog リスナーの無効な変更</entry>
+    <entry key="WaitingObjectReferenceInvalid">待機中のオブジェクトの参照は有効ではありません</entry>
+    <entry key="RenderingException">シーンの描画中にエラーが発生しました: {0}</entry>
+    <entry key="WebglException">Webgl は使用できません。context2d レンダラーに戻します</entry>
+    <entry key="CSRNotSupported">このキャンバスはクライアント側レンダリングをサポートしません</entry>
+    <entry key="HittestDisabled">このキャンバスで Hittest が有効になっていません</entry>
+    <entry key="SceneClientException">{0}</entry>
+  </message>
+</rsccat>

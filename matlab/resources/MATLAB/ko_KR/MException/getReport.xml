@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidParameter">''{0}''은(는) getReport에 유효한 파라미터가 아닙니다.</entry>
+    <entry key="invalidReportOption">getReport 메서드에는 ''basic'' 또는 ''extended'' 리포트 유형만 사용할 수 있습니다.</entry>
+    <entry key="invalidType">getReport의 파라미터는 파라미터 값 쌍 또는 구조체로 지정해야 합니다.</entry>
+    <entry key="invalidValue">Hyperlinks는 ''on'', ''off'', ''default'' 중 하나여야 합니다.</entry>
+    <entry key="mustBeScalarStruct">getReport 파라미터는 스칼라 구조체로 지정해야 합니다.</entry>
+    <entry key="parameterWithoutValue">getReport 파라미터 ''{0}''에 값이 없습니다.</entry>
+  </message>
+</rsccat>

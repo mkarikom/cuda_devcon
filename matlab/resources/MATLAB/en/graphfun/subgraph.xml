@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidInd" note="stringDatatypeUpdate">Nodes must be a vector of unique node indices, a vector of unique node names, or a logical vector of length equal to the number of nodes.</entry>
+  </message>
+</rsccat>

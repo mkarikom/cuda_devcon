@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonTimetableInput">データの入力は timetable でなければなりません。</entry>
+    <entry key="UnknownNewTimeStep">''{0}'' は、同期のターゲット時間ベクトルの有効な指定ではありません。</entry>
+    <entry key="UnknownNewTimeStepDuration">''{0}'' は、duration 行時間を含む timetable を同期するためのターゲット時間ベクトルの有効な指定ではありません。</entry>
+    <entry key="InvalidNewTimes">同期のターゲット時間ベクトルは、datetime ベクトルまたは duration ベクトルであるか、string または文字ベクトルを使用して指定しなければなりません。</entry>
+    <entry key="InvalidNewTimesForRetime">リタイミングのターゲット時間ベクトルは、datetime ベクトルまたは duration ベクトルであるか、タイム ステップを指定する string または文字ベクトルでなければなりません。</entry>
+    <entry key="UnrecognizedMethod">同期メソッドが認識されません: ''{0}''。</entry>
+    <entry key="InvalidMethod">同期メソッドは、文字ベクトル、string スカラー、または関数ハンドルでなければなりません。</entry>
+    <entry key="MixedTimeTypes">すべての入力の timetable には、同じデータ型の行時間がなければなりません。</entry>
+    <entry key="MixedTimeTypesNewTimes">すべての入力の timetable には、ターゲット時間ベクトルと同じデータ型の行時間がなければなりません。</entry>
+    <entry key="FunMustReturnOneRow">集計メソッド ''{0}'' が、厳密に 1 行ではない値を返しました。</entry>
+    <entry key="NotUnique">''{0}'' を使用して同期する場合、入力の timetable には一意の行時間が含まれていなければなりません。</entry>
+    <entry key="NotUniqueNewTimes">同期のターゲット時間ベクトルには、一意の時間が含まれていなければなりません。</entry>
+    <entry key="NotMonotonic">''{0}'' を使用して同期する場合、入力の timetable には増加または減少するよう並べ替えられた行時間が含まれていなければなりません。</entry>
+    <entry key="NotVectorNewTimes">同期のターゲット時間はベクトルでなければなりません。</entry>
+    <entry key="NotMonotonicNewTimes">同期のターゲット時間ベクトルは (増加または減少するよう) 並べ替えられなければならず、欠損している時間があってはなりません。</entry>
+    <entry key="TooFewTimesForAggregation">''{0}'' を使用して同期する場合、ターゲット時間ベクトルには少なくとも 2 つの時間が含まれていなければなりません。</entry>
+    <entry key="DecreasingNewTimesForAggregation">''{0}'' を使用して同期する場合、ターゲット時間ベクトルは増加するよう並べ替えられなければなりません。</entry>
+    <entry key="NotNumeric0">''{0}'' を使用して同期する場合、入力の timetable 内にあるすべての変数は数値、datetime、duration または順序カテゴリカルでなければなりません。</entry>
+    <entry key="NotNumeric0Mode">All variables in input timetables must be numeric, datetime, duration, or categorical when synchronizing using ''{0}''.</entry>
+    <entry key="NotNumeric1">''{0}'' を使用して同期する場合、入力の timetable 内にあるすべての変数は、数値、datetime または duration でなければなりません。</entry>
+    <entry key="NotNumeric2">''{0}'' を使用して同期する場合、入力の timetable 内にあるすべての変数は、数値または duration でなければなりません。</entry>
+    <entry key="NotNumeric3">''{0}'' を使用して同期する場合、入力の timetable 内にあるすべての変数は数値でなければなりません。</entry>
+    <entry key="NotMissingAware">''{0}'' を使用して同期する場合、入力の timetable 内にあるすべての変数は、欠損値 (浮動小数点、カテゴリカル、datetime、duration、テキストなど) をサポートしなければなりません。</entry>
+    <entry key="Interp1Failed">''{1}'' を使用した同期中に変数 ''{0}'' での内挿に失敗しました:\n\n{2}</entry>
+    <entry key="InvalidConstant">埋め込み定数はスカラーでなければなりません。</entry>
+    <entry key="InvalidEndValues">外挿の終了値をスカラーまたは ''extrap'' として指定してください。</entry>
+    <entry key="InvalidIncludedEdge">集計に含められた時間ビン エッジを ''left'' または ''right'' として指定してください。</entry>
+    <entry key="RegularWithoutParams">NEWTIMESTEP が ''regular'' の場合、タイム ステップまたはサンプルレートを指定しなければなりません。</entry>
+    <entry key="NonPositiveTimeStep">タイム ステップは正でなければなりません。</entry>
+    <entry key="UnsupportedNewTimeStepDatetime">コード生成時、datetime 行時間を含む timetable を同期するためのターゲット時間ベクトルとして ''{0}'' を指定することはサポートされていません。</entry>
+    <entry key="NonconstantNewTimes">string または文字ベクトルを使用して同期のターゲット時間ベクトルを指定する場合、その string または文字ベクトルは定数でなければなりません。</entry>
+    <entry key="NonconstantMethod">同期メソッドは定数でなければなりません。</entry>
+    <entry key="NonconstantConstant">FillWithConstant の埋め込み値を固定サイズのスカラー値として指定してください。</entry>
+    <entry key="NonconstantEndValues">既定の外挿を示す定数として ''extrap'' を指定するか、外挿の終了値を固定サイズのスカラー値として指定してください。</entry>
+    <entry key="NonconstantEndValuesCell">cell 変数の外挿では、終了値をスカラーの cell として指定してください。</entry>
+    <entry key="UnsupportedMethodCodegen">''{0}'' 同期メソッドはコード生成ではサポートされていません。</entry>
+    <entry key="CustomAggregationReturnsEmpty">同期メソッドが関数ハンドルの場合、実行時に、出力 timetable には少なくとも 1 行が含まれていなければなりません。</entry>
+    <entry key="VarsizeEmpty">コード生成では、''commonrange'' 時間基準または一定のタイム ステップを使用する場合、可変サイズの timetable 入力は実行時に空でなければなりません。</entry>
+    <entry key="Implicit0x0EmptyCodegen">コード生成では、''commonrange'' 時間基準または一定のタイム ステップを使用する場合、TimeStep または SampleRate が指定されている 0 行 0 列の空の timetable はサポートされません。</entry>
+    <entry key="CannotBeImplicit">規則的な行時間を作成できません。指定されたタイム ステップが入力 timetable の行時間に対して小さすぎるか、サンプル レートが大きすぎるか、それらが非有限であるためです。</entry>
+  </message>
+</rsccat>

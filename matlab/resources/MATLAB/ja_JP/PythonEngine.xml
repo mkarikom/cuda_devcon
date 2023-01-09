@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="StartupOptionShouldBeStr">MATLAB 起動オプションは文字列でなければなりません</entry>
+    <entry key="BackgroundMustBeBool">'background' は boolean でなければなりません</entry>
+    <entry key="EitherAsyncOrBackground">'async' または 'background' を使用してください</entry>
+    <entry key="AsyncWillDeprecate">キーワード 'async' は将来のリリースで削除される予定です。代わりに 'background' を使用してください</entry>
+    <entry key="AsyncMustBeBool">'async' は boolean でなければなりません</entry>
+    <entry key="AttrCannotBeAddedToM">属性を MatlabEngine に追加できません</entry>
+    <entry key="NargoutMustBeInt">'nargout' は {0} ではなく、整数でなければなりません</entry>
+    <entry key="NargoutCannotBeLessThanZero">'nargout' は 0 以上でなければなりません</entry>
+    <entry key="InvalidKwargs">無効なキーワード引数 {0}</entry>
+    <entry key="StdoutMustBeStringIO">'stdout' は {1} ではなく、{0} でなければなりません</entry>
+    <entry key="StderrMustBeStringIO">'stden' は {1} ではなく、{0} でなければなりません</entry>
+    <entry key="VarNameMustBeStr">変数名は {0} ではなく、string でなければなりません</entry>
+    <entry key="VarNameNotValid">MATLAB で有効な変数名ではありません</entry>
+    <entry key="AttrCannotBeAddedToMWS">属性を MatlabWorkSpace に追加できません</entry>
+    <entry key="MatlabTerminated">MATLAB は既に終了しています</entry>
+    <entry key="MatlabFunctionCancelled">MATLAB 関数はキャンセルされました</entry>
+    <entry key="MatlabFunctionTimeout">MATLAB 関数の実行がタイムアウトしました</entry>
+    <entry key="TimeoutMustBeNumeric">'timeout' は {0} ではなく、数値でなければなりません</entry>
+    <entry key="TimeoutCannotBeNegative">'timeout' を負の数値にはできません</entry>
+    <entry key="LaunchMatlabTimeout">MATLAB の起動がタイムアウトしました</entry>
+    <entry key="ConnectMatlabTimeout">MATLAB の共有セッションの接続がタイムアウトしました</entry>
+    <entry key="LaunchMatlabCancelled">MATLAB の起動がキャンセルされました</entry>
+    <entry key="ConnectMatlabCancelled">MATLAB の共有セッションへの接続がキャンセルされました</entry>
+    <entry key="StartupOptionShouldBePO">MATLAB 起動オプションは Python オブジェクトでなければなりません</entry>
+    <entry key="StartupOptionShouldBeLS">MATLAB 起動オプションは文字列のリストでなければなりません</entry>
+    <entry key="HandleToMatlabShouldBeLI">MATLAB インスタンスのハンドルは long 型整数でなければなりません</entry>
+    <entry key="FevalTakes3Args">mwEvaluateFunction は少なくとも 3 つの引数を取ります</entry>
+    <entry key="FuncShouldBeASCII">MATLAB 関数は ASCII 文字の文字列でなければなりません</entry>
+    <entry key="NumOutShouldBeInt">出力の数は整数でなければなりません</entry>
+    <entry key="KeywordShouldBeStr">キーワードは文字列でなければなりません</entry>
+    <entry key="FevalResultTakes3Args">mwGetFEvalResult は厳密に 3 つの位置引数を取ります</entry>
+    <entry key="HandleToResultShouldBeLI">今後の結果のハンドルは long 型整数でなければなりません</entry>
+    <entry key="HandleToConOutShouldBeLI">コンソール出力のハンドルは long 型整数でなければなりません</entry>
+    <entry key="HandleToConErrShouldBeLI">コンソール エラーのハンドルは long 型整数でなければなりません</entry>
+    <entry key="HandleShouldBeTuple">ハンドルはタプルとして格納する必要があります</entry>
+    <entry key="TimtoutShouldBeIntFloat">タイムアウトの長さ (秒) は、整数か浮動小数点か [なし] でなければなりません</entry>
+    <entry key="StringIODoesNotExist">StringIO は存在しません</entry>
+    <entry key="StringIOForConErr">StringIO はコンソール エラーに対して必要です</entry>
+    <entry key="StringIOForConOut">StringIO はコンソール出力に対して必要です</entry>
+    <entry key="MatlabFunctionNotEvaluated">MATLAB 関数を実行できません</entry>
+    <entry key="VarNameShouldBeStr">変数名は文字列でなければなりません</entry>
+    <entry key="UnsupportedMatlabType">サポートされていないデータ型が MATLAB から返されました</entry>
+    <entry key="FHNotSupportedFromMatlab">MATLAB から関数ハンドルを返すことはできません</entry>
+  </message>
+</rsccat>

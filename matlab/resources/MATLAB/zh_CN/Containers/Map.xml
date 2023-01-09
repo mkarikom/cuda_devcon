@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidHandle">{0} 无效或已删除。</entry>
+    <entry key="IncorrectIndexing">仅支持一维索引。</entry>
+    <entry key="needMoreRhsOutputs">等号右侧的输出数目不足，不满足赋值要求。</entry>
+    <entry key="IncorrectNumberInputs">输入的数目不等于指定的数目。</entry>
+    <entry key="Param">缺少参数名称 ''KeyType'' 或 ''ValueType''。\n使用语法: newMap = containers.Map(''KeyType'', myKeyType, ''ValueType'', myValueType)。</entry>
+    <entry key="NDCatNotSupported">{1} 不支持维度为 {0,number,integer} 的串联。</entry>
+    <entry key="MethodNotFound">未找到串联方法。</entry>
+    <entry key="HorzcatNotSupported">{0} 不支持水平串联。</entry>
+    <entry key="EndIndexingNotSupported">{0} 不支持使用 ''end'' 的索引。</entry>
+    <entry key="NumberKeysValuesMismatch">键和值的数目必须相同。</entry>
+    <entry key="NoKeyToRemove">此容器中不存在指定的键。</entry>
+    <entry key="NoKey">此容器中不存在指定的键。</entry>
+    <entry key="EmptyKey">此容器中不允许使用空键。</entry>
+    <entry key="Convert64BitIntToDouble">一个或多个输入数组将从 64 位整数转换为双精度值。这可能会导致精度损失。</entry>
+    <entry key="InvalidParameterName">未知的参数名称 {0} 将被忽略。有关已知的参数列表，请查看文档。</entry>
+    <entry key="EmptyValues">指定键时，必须同时指定值。</entry>
+    <entry key="ExpectScalarLogical">需要的 ''UniformValues'' 应为逻辑标量。</entry>
+    <entry key="UniformMismatch">当 ''UniformValues'' 为 true 时，值必须全部为字符数组或者全部为类型一致的标量。</entry>
+    <entry key="UniformNonScalar">当 ''UniformValues'' 为 true 时，值必须全部为字符数组或者全部为类型一致的标量。</entry>
+    <entry key="KeysUnsupportedType">指定的键不受支持。有关有效的键类型，请查看文档。</entry>
+    <entry key="KeysMismatchType">指定键的所有数据类型都必须相同。</entry>
+    <entry key="ValueUnsupportedType">指定的值类型 ''{0}'' 不受支持。有关有效的值类型，请查看文档。</entry>
+    <entry key="KeyUnsupportedType">指定的键类型 ''{0}'' 不受支持。有关有效的键类型，请查看文档。</entry>
+    <entry key="EmptySizeMustBeZero">至少要有一个维度为零。</entry>
+    <entry key="EmptySizeMustBeZeroByOne">空映射的大小必须为 0×1。</entry>
+    <entry key="SparseValuesNotAccepted">稀疏矩阵为不受支持的值类型。请使用 FULL(值) 进行转换。</entry>
+    <entry key="SparseKeysNotAccepted">稀疏矩阵为不受支持的密钥类型。请使用 FULL(键) 进行转换。</entry>
+    <entry key="InvalidKeySet">输入无效。KeySet 必须是数值标量、字符向量、字符串标量或由键组成的元胞数组。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadMatrix">이미지 CData에는 숫자형 또는 논리형 행렬이 필요합니다.</entry>
+    <entry key="BadSize">인덱싱된 CData의 크기는 m×n이어야 합니다. TrueColor CData의 크기는 m×n×3이어야 합니다.</entry>
+    <entry key="BadType">이미지 CData는 복소수일 수 없습니다.</entry>
+    <entry key="ElementOutOfRange">TrueColor CData가 범위 0.0 &lt;= 값 &lt;= 1.0 밖의 요소를 포함하고 있습니다.</entry>
+    <entry key="BadAlphaDataDimensions">AlphaData의 차원은 1x1이거나 CData와 일치해야 합니다.</entry>
+    <entry key="ImageDestroyed">이미지가 생성 중에 제거되었습니다.</entry>
+    <entry key="CDataNotValid">이미지 CData가 유효하지 않습니다.</entry>
+    <entry key="ExpectedVectors">이미지 X와 Y는 벡터여야 합니다.</entry>
+    <entry key="BadArguments">인수의 개수가 잘못되었습니다.</entry>
+    <entry key="BadCDataSize">색 데이터는 m×n×3 행렬이거나 m×n 행렬이어야 합니다.</entry>
+    <entry key="BadCDataMatrix">색 데이터는 숫자형 값이거나 논리값이어야 합니다.</entry>
+    <entry key="BadCDataComplex">복소수 값은 지원되지 않습니다. 색 데이터를 숫자형 값이나 논리값으로 지정하십시오.</entry>
+    <entry key="CDataElementOutOfRange">이미지의 TrueColor CData가 범위를 벗어났습니다.</entry>
+    <entry key="ExpectedXYDataVectors">이미지 XData와 YData는 벡터여야 합니다.</entry>
+  </message>
+</rsccat>

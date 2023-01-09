@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoTimeVector">要创建时间表，请提供 datetime 或 duration 行时间向量、duration 或 calendarDuration 时间步，或者提供正数值采样率。</entry>
+    <entry key="NoTimeVectorTableInput">请为行时间提供日期时间或持续时间向量以创建时间表。要将表转换为时间表，请使用 TABLE2TIMETABLE。</entry>
+    <entry key="StringParamNameNotSupported">您可能打算使用 "{0}" 指定参数名称。但是，时间表构造函数要求必须将参数名称指定为字符向量。请改用 timetable(..., ''{0}'', Value)。</entry>
+    <entry key="NoTimeVectorPreallocation">在为时间表预分配指定大小时，请指定一个行时间向量、时间步或采样率。</entry>
+    <entry key="InvalidTimes">将要添加下标的时间指定为日期时间或持续时间。</entry>
+    <entry key="InvalidRowTimes">行时间必须为日期时间或持续时间向量。</entry>
+    <entry key="MixedRowTimesAssignment">新的行时间必须为 {0} 向量。</entry>
+    <entry key="InvalidRowSubscriptsDatetime">时间表行下标必须为数值数组、逻辑数组、日期时间数组或时间范围下标器。</entry>
+    <entry key="InvalidRowSubscriptsDuration">时间表行下标必须为数值数组、逻辑数组、持续时间数组或时间范围下标器。</entry>
+    <entry key="InvalidRowIndicesDuration">数值数组索引必须为正整数。如果您想按时间来选择时间表的行，请使用 DURATION、MILLISECONDS、SECONDS、MINUTES、HOURS、DAYS 或 YEARS 从数值转换为持续时间。</entry>
+    <entry key="CannotRemoveRowTimes">不支持从时间表中删除行时间。</entry>
+    <entry key="IncorrectNumberOfRowTimes">对于时间表中的每一行，RowTimes 属性都必须包含一个时间。</entry>
+    <entry key="IncorrectNumberOfRowTimesPartial">对于重新分配的每一行，RowTimes 属性都必须包含一个时间。</entry>
+    <entry key="UnrecognizedRowTime">时间表未包含时间 ''{0}'' 的行。</entry>
+    <entry key="IncompatibleLoad">无法加载已保存的时间表，因为它与此版本的 MATLAB 不兼容</entry>
+    <entry key="IncompatibleLoadProperties">无法加载已保存的 TimetableProperties，因为它与此版本的 MATLAB 不兼容</entry>
+    <entry key="RowLabelsTypeMismatch">不支持将行时间为 {0} 的时间表与行时间为 {1} 的时间表进行串联。</entry>
+    <entry key="RowDimNameNondefault">无法识别时间表变量名称 ''{0}''。如果您想访问行时间，请对该时间表改用 ''{1}''。</entry>
+    <entry key="RowDimNameCase">无法识别时间表变量名称 ''{0}''。名称区分大小写。您可能想访问时间表中名为 ''{1}'' 的行。</entry>
+    <entry key="RowTimesParamConflict">请指定一个行时间向量、时间步或采样率，但只能指定其中一个。</entry>
+    <entry key="TimeStepSampleRateConflict">请将时间步指定为标量持续时间或 calendarDuration，或将采样率指定为正标量。</entry>
+    <entry key="InvalidSampleRate">采样率必须是以 Hz 为单位指定的正数值标量。</entry>
+    <entry key="InvalidTimeStep">时间步必须为标量持续时间或 calendarDuration。</entry>
+    <entry key="InvalidTimeStepNumeric">时间步必须为标量持续时间或 calendarDuration。请使用 SECONDS、MINUTES、HOURS、DAYS 或 YEARS 将数值转换为持续时间，或者使用 CALDAYS、CALWEEKS、CALMONTHS、CALQUARTERS 或 CALYEARS 将数值转换为 calendarDuration。</entry>
+    <entry key="InvalidStartTime">开始时间必须为标量持续时间或日期时间。</entry>
+    <entry key="InvalidStartTimeNumeric">开始时间必须为标量持续时间或日期时间。请使用 SECONDS、MINUTES、HOURS、DAYS 或 YEARS 将数值转换为持续时间，或者使用 DATETIME 进行转换。</entry>
+    <entry key="DurationStartTimeWithCalDurTimeStep">当时间步为 calendarDuration 时，将开始时间指定为日期时间。</entry>
+    <entry key="ImpureCalDurTimeStep">calendarDuration 时间步只能包含一个日历单位(例如天或月)。请使用 CALDAYS、CALWEEKS、CALMONTHS、CALQUARTERS 或 CALYEARS 来创建 calendarDuration 时间步。</entry>
+    <entry key="SamplingRateToBeRemoved">以后的版本中将会删除 ''SamplingRate''。请改用 ''SampleRate''。</entry>
+    <entry key="ts2timetable">使用 TS2TIMETABLE 将时序对象转换为时间表。</entry>
+    <entry key="extractTimetable">To construct a timetable, specify both data and duration row times vector, a duration or calendarDuration time step, or a positive numeric sample rate to create timetable. If you meant to construct a timetable from the signals in a Simulink.SimulationData.Dataset, use EXTRACTTIMETABLE.</entry>
+    <entry key="IrregularRowTimesAssignment">代码生成不支持在固定间隔的行时间和不固定间隔的行时间之间变换。</entry>
+    <entry key="UnsupportedDatetimeRowTimes">代码生成不支持将行时间指定为日期时间向量。请改为将行时间指定为持续时间向量。</entry>
+    <entry key="UnsupportedDatetimeStartTime">代码生成不支持将开始时间指定为日期时间标量。请改为将开始时间指定为持续时间标量。</entry>
+    <entry key="UnsupportedMethodCodegen">代码生成中的时间表不支持 {0} 方法。</entry>
+    <entry key="CannotBeImplicit">无法创建规则行时间。指定的开始时间、时间步或采样率是非有限值，或时间步相对于开始时间太小，或采样率太大。</entry>
+    <entry key="InvalidRowTimesType">RowTimes 类型必须为日期时间或持续时间列。</entry>
+    <entry key="IncorrectRowTimesTypeLength">RowTimes 类型的长度必须与时间表的高度相同。请使用 coder.resize 更改时间表高度。</entry>
+    <entry key="InvalidStartTimeType">StartTime 类型必须为日期时间或持续时间标量。</entry>
+    <entry key="InvalidSampleRateType">SampleRate 类型必须为双精度标量。</entry>
+    <entry key="InvalidTimeStepType">TimeStep 类型必须为持续时间标量。</entry>
+    <entry key="StringParamNameNotSupportedCodegen">您可能打算使用 "{0}" 指定参数名称。但是，时间表构造函数要求必须将参数名称指定为字符向量，并且在代码生成中不支持 Name=Value。请改用 timetable(..., ''{0}'', Value)。</entry>
+  </message>
+</rsccat>

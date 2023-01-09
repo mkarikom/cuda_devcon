@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PreambleForRuntimeInputError">参数列表无效。</entry>
+    <entry key="PreambleForRuntimePositionalError">位置 {0} 处的参数无效。</entry>
+    <entry key="PreambleForRuntimePositionalErrorWithDotInvocationOfInvalidObject">对象无效。</entry>
+    <entry key="PreambleForRuntimeNameValueError">名称-值参数 ''{0}'' 无效。</entry>
+    <entry key="PreambleForDefinitionError">{0} 中的函数参数定义存在错误。</entry>
+    <entry key="PreambleForDefaultValueError">参数 ''{0}'' 的默认值无效。</entry>
+    <entry key="ShortStringChoices">
+  名称必须为以下项之一:\n{0}
+</entry>
+    <entry key="SixStringChoices">
+  名称必须为 ''{0}''、''{1}''、''{2}''、''{3}''、''{4}'' 或 ''{5}''。
+</entry>
+    <entry key="FiveStringChoices">
+  名称必须为 ''{0}''、''{1}''、''{2}''、''{3}'' 或 ''{4}''。
+</entry>
+    <entry key="FourStringChoices">
+  名称必须为 ''{0}''、''{1}''、''{2}'' 或 ''{3}''。
+</entry>
+    <entry key="ThreeStringChoices">
+  名称必须为 ''{0}''、''{1}'' 或 ''{2}''。
+</entry>
+    <entry key="TwoStringChoices">
+  名称必须为 ''{0}'' 或 ''{1}''。
+</entry>
+    <entry key="OneStringChoice">
+  请使用 ''{0}''。
+</entry>
+    <entry key="NotEnoughInputsSuffix">函数需要 {0} 个输入。</entry>
+    <entry key="AmbiguousInputName">{0} 具有多义性的名称 ''{1}''。{2}</entry>
+    <entry key="InvalidClass">{0} 类 ''{1}'' 未定义或者不支持函数验证。</entry>
+    <entry key="RepeatingInputsNotInGroups">{0} 重复参数(如果指定)必须在 {1} 的组中。</entry>
+    <entry key="TooManyInputsGenericMessage">请检查位置参数的数目是否有误，以及位置参数是否误放在了名称-值对组的后面。此外，请检查是否有无效名称或未成对指定的名称-值对组。</entry>
+    <entry key="WrongNumberOfRequiredWithFollowingNameValueArguments">函数要求名称 ''{1}'' 之前恰好有 {0} 个位置输入。</entry>
+    <entry key="TooManyRequiredWithoutFollowingScalarText">函数需要恰好 {0} 个位置输入。</entry>
+    <entry key="TooManyRequiredWithFollowingNameValueArguments">函数要求名称 ''{1}'' 之前恰好有 {0} 个位置输入。</entry>
+    <entry key="TooManyOptionalWithFollowingNameValueArguments">函数要求名称 ''{2}'' 之前有 {0} 到 {1} 个位置输入。</entry>
+    <entry key="TooManyOptionalWithoutFollowingNameValueArguments">函数需要 {0} 到 {1} 个位置输入。</entry>
+    <entry key="NameValueNotInPairs">请确保名称-值参数是成对指定的。</entry>
+    <entry key="NameExpected">需要名称。</entry>
+    <entry key="MisspelledName">无法识别的名称 ''{0}''。{1}</entry>
+    <entry key="ClassWithoutPublicSettableProperty">函数 ''{0}'' 不接受输入参数，因为参数代码块中引用的类 ''{1}'' 没有公共可设置属性。</entry>
+    <entry key="NotEnoughInputs">输入参数的数目不足。函数需要 {0} 个位置输入。</entry>
+    <entry key="DuplicateNameStruct">{0}{1} 不支持将 ''{2}'' 同时作为名称-值参数结构体和位置参数。</entry>
+    <entry key="DuplicateArguments">{0}{1} 参数 ''{2}'' 被声明多次。</entry>
+    <entry key="ArgumentNotInScope">{0}{1} 在参数块中声明参数 ''{2}'' 之前就引用了此参数。</entry>
+    <entry key="NamedArgumentInValidator">{0}{1} 验证函数中的名称-值参数只支持点式名称 ''{2}''。</entry>
+    <entry key="NamedArgumentInDefault">{0}{1} 使用名称-值参数时不支持使用其默认值。</entry>
+    <entry key="NamedWithinRepeating">{0}{1} 重复参数块中不支持名称-值参数。</entry>
+    <entry key="RequiredAfterOptional">{0}{1} 具有必需参数和可选参数的函数必须先定义必需参数。</entry>
+    <entry key="RequiredAfterRepeating">{0}{1} 具有必需参数和重复参数的函数必须先定义必需参数。</entry>
+    <entry key="OptionalAfterRepeating">{0}{1} 具有可选参数和重复参数的函数必须先定义可选参数。</entry>
+    <entry key="RepeatingHasDefault">{0}{1} 重复参数块中不支持默认值。</entry>
+    <entry key="PositionalAfterNamed">{0}{1} 具有位置参数和名称-值参数的函数必须先定义位置参数。</entry>
+    <entry key="MismatchBetweenBlockAndLine">{0}{1} 参数块和函数行必须包含相同顺序的相同参数，包括忽略的参数。</entry>
+    <entry key="VararginNotAlone">{0}{1} 包含 varargin 的重复参数块不能包含其他参数。如果要指定多个重复参数，请不要使用 varargin 作为参数名称。</entry>
+    <entry key="ClassArgumentHasValidation">{0}{1} 当使用类名称指定名称-值参数时，不支持为参数指定验证。</entry>
+    <entry key="ClassArgumentHasDefaultValue">{0}{1} 当使用类名称指定名称-值参数时，不支持为参数指定默认值。</entry>
+    <entry key="MultipleRepeatingBlocks">{0}{1} 不支持多个重复参数块。</entry>
+    <entry key="MultipleClassArguments">{0}{1} 不支持使用 .? 语法和类名称指定多个名称-值结构体。</entry>
+    <entry key="VararginAsNonRepeating">{0}{1} varargin 只能在重复参数块内使用。</entry>
+    <entry key="VariableNotInScope">{0}{1} 变量 ''{2}'' 不是函数的输入，无法在参数块中使用。</entry>
+    <entry key="IgnoredAfterNamed">{0}{1} 重复参数块后或名称-值参数后不允许忽略的输入参数。</entry>
+    <entry key="DuplicateNamedArguments">{0}{1} 名称-值参数 ''{2}'' 被声明多次。</entry>
+    <entry key="ClassNameConflict">{0}{1} 不支持将名称 ''{2}'' 同时用作类和变量或函数。</entry>
+    <entry key="UnknownAttribute">{0}{1} 未知的函数参数属性 ''{2}''。</entry>
+    <entry key="DuplicateAttribute">{0}{1} 不支持为函数参数属性 ''{2}'' 多次赋值。</entry>
+    <entry key="InvalidAttributeValue">{0}{1} 参数块中的属性值必须为逻辑常量。</entry>
+    <entry key="NestedFunctionCall">{0}{1} 参数块中不支持调用嵌套函数。</entry>
+    <entry key="NestedFunctionArgumentsBlock">{0}{1} 不支持在嵌套函数声明中使用参数块。</entry>
+    <entry key="RestrictedExternalDocId">MATLAB 文档中的 "关于变量和函数访问的限制"</entry>
+    <entry key="RestrictedExternal">{0}{1} 参数块中不支持使用函数 ''{2}''。\n有关详细信息，请参阅 {3}。</entry>
+    <entry key="InvalidValidatorFunction">{0}{1} 将验证函数指定为一个引用局部函数或路径函数的 MATLAB 标识符。</entry>
+    <entry key="InvalidArgumentValidator">{0}{1} 验证函数只能使用以前声明的位置参数、正在验证的参数或字面值。</entry>
+    <entry key="ValidatorNoSelfReference">{0}{1} 验证函数必须使用参数 ''{2}''。</entry>
+    <entry key="InvalidSizeDimension">{0}{1} 参数 ''{2}'' 的维度大小无效。每个维度都必须为非负整数或冒号(:)。</entry>
+    <entry key="SizeTooFewDimensions">{0}{1} 参数 ''{2}'' 的大小声明无效。参数必须有两个或多个维度。</entry>
+    <entry key="IgnoredWithValidation">{0}{1} 不支持为忽略的参数指定验证或默认值。</entry>
+    <entry key="Period">,</entry>
+  </message>
+</rsccat>

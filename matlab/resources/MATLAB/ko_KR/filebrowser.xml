@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="filebrowserFailed">현재 폴더 브라우저를 열지 못했습니다.</entry>
+    <entry key="FixContentsUnknownOption">{0}은(는) 알 수 없는 옵션임</entry>
+    <entry key="MakeContentsFileOpenError">파일 오류: {0}</entry>
+    <entry key="MakeContentsFileExists">Contents.m 파일이 이미 존재함</entry>
+  </message>
+</rsccat>

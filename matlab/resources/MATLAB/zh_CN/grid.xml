@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FirstArgAxes">第一个参数必须为坐标区句柄。</entry>
+    <entry key="ScalarHandle">坐标区句柄必须为标量。</entry>
+    <entry key="UnknownOption">未知的命令选项。</entry>
+  </message>
+</rsccat>

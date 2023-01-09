@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidNumberInputs">1、3、または 4 つの数値の入力引数でなければなりません。</entry>
+    <entry key="InvalidNumberComponents">重みベクトル k は 4 つの要素をもたなければなりません。</entry>
+    <entry key="InvalidInput">X, Y, Z は少なくとも 3 行 3 列でなければなりません。</entry>
+    <entry key="MustSpecifyS">S は [AZ,EL] または [Sx,Sy,Sz] を使って指定しなければなりません。</entry>
+    <entry key="UnknownLightingMethod">不明なライティング手法 "{0}" です。</entry>
+  </message>
+</rsccat>

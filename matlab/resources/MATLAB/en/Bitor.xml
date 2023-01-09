@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="sizeMismatch">Inputs must have the same size.</entry>
+    <entry key="charInput">Inputs must be numeric or logical.</entry>
+    <entry key="complexInputs">Inputs must be real.</entry>
+    <entry key="operandsNotNumeric">Operands to BIT Ops must be numeric.</entry>
+    <entry key="complexOperands">Bit AND/OR/XOR do not accept complex operands.</entry>
+    <entry key="mixedClasses">Inputs must be signed or unsigned integers of the same class or scalar doubles.</entry>
+    <entry key="sparseArgs">Inputs must be full.</entry>
+    <entry key="outOfRangeMixedType"> Double inputs must have integer values in the integer range when mixed with integer inputs.</entry>
+    <entry key="outOfRange">Double inputs must have integer values in the range of ASSUMEDTYPE.</entry>
+    <entry key="unknownTypeString">ASSUMEDTYPE must be an integer type name.</entry>
+    <entry key="invalidTypeString">Integer inputs cannot be assumed as any other types than their own types.</entry>
+    <entry key="firstArgsNotInt">Invalid data type. First two arguments must be integer or double.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgMustBeString">输入参数必须为非空字符串或非空字符向量。</entry>
+    <entry key="UnknownFlag">未知标志 ''{0}''。</entry>
+    <entry key="BadPath">将跳过 ''{0}''，参数中不允许使用 ''?'' 和 ''..''。</entry>
+    <entry key="Ambiguous">''{0}'' 同时命名 MATLAB 代码文件和目录。</entry>
+    <entry key="NotPath">将跳过参数 ''{0}'' (无效路径名)。</entry>
+    <entry key="NotFileName">将跳过参数 ''{0}''，因为 ''{1}'' 不是文件名。</entry>
+    <entry key="FileUnsupported">将跳过参数 ''{0}''，而非 MATLAB 代码文件。</entry>
+    <entry key="FileNotFound">将跳过参数 ''{0}''，未找到 MATLAB 代码。</entry>
+    <entry key="NotaMatlabFunction">指定的函数不是具有 m 源代码的 MATLAB 函数。</entry>
+    <entry key="FunctionNotFound">搜索路径上找不到函数 {0}。</entry>
+    <entry key="NoInputFileNameSpecified">必须指定输入文件名。</entry>
+    <entry key="InvalidPfileNameSpecified">''{0}'' 的 P 文件输出名称无效。</entry>
+    <entry key="cannotCacheClassdef" context="error">当前无法缓存使用 classdef 语句定义类的文件。</entry>
+  </message>
+</rsccat>

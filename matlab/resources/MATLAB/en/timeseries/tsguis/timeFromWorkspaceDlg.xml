@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="Cancel">Cancel</entry>
+      <entry key="Column">column</entry>
+      <entry key="ColumnIndex">Column index : </entry>
+      <entry key="ColumnIndices">Column indices : </entry>
+      <entry key="DefineTimeVectorFromAWorkspaceVariable">Define time vector from a workspace variable :</entry>
+      <entry key="Help">Help</entry>
+      <entry key="InvalidTimeVectorSelected">Invalid time vector selected.</entry>
+      <entry key="VariableInformation">Variable Name : {0}      Length : {1}      Start Time : {2}      End Time : {3}</entry>
+      <entry key="Row">row</entry>
+      <entry key="RowIndex">Row index : </entry>
+      <entry key="RowIndices">Row indices : </entry>
+      <entry key="Select">Select</entry>
+      <entry key="SelectAColumnIf">Select a ''Column'' if the time vector is stored in a column of this variable.  Vise Versa.</entry>
+      <entry key="SelectTheColumnrowIndex">Select the column/row index</entry>
+      <entry key="SelectTimeVectorFrom">Select Time Vector From {0}</entry>
+      <entry key="SelectTimeVectorFromMATLABWorkspaceVariable">Select Time Vector From MATLAB Workspace Variable</entry>
+      <entry key="Step1HighlightTheVariable">Step 1: highlight the variable from the table and define the length in the edit box</entry>
+      <entry key="Step2ClickTheSelectButton">Step 2: click the Select button</entry>
+      <entry key="TimeIsArrangedBy">Time is arranged by :</entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+      <entry key="VariableName">  Variable Name : </entry>
+      <entry key="WhatsThis">What''s This</entry>
+   </message>
+</rsccat>

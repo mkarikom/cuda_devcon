@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!-- Copyright 2016-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InputTypesMismatch">Duration must be paired with duration inputs.</entry>  
+    <entry key="TimeZonesMismatch">Unable to combine a datetime that has a time zone with an unzoned datetime.</entry>
+    <entry key="UnitOfTimeTypesMismatch">Durations may only be used when specifying interval type. Use datetimes when specifying unit of time.</entry>
+    <entry key="TabularInput">{0} is not a valid input argument. Call TIMERANGE with two datetimes or two durations, and use output as a subscript for a timetable.</entry>
+    <entry key="NonScalarInput">Arguments must be scalars.</entry>
+    <entry key="AmbiguousUnitOfTime">Ambiguous value 'm' for unit of time. Do you mean: ''{0}'' or ''{1}''?</entry>
+    <entry key="InvalidIntervalType">Specify third argument either as interval type ('openright', 'openleft', 'open', 'closed') or as unit of time ('years', 'quarters', 'months', 'weeks', 'days', 'hours', 'minutes', 'seconds').</entry>
+    <entry key="InvalidSubscripter">Subscripting using TIMERANGE is only supported for selecting rows of a timetable.</entry>
+    <entry key="InvalidTimes">TIMERANGE endpoints must be datetime or duration scalars, or text representing datetime or duration scalars.</entry>
+    <entry key="MismatchRowTimesType">A timetable with {0} row times cannot be subscripted using {1} values.</entry>
+    <entry key="IncompatibleLoad" note="Do NOT add period ('.') at the end - it is intentionally left out.">Unable to load the saved timerange object because it is incompatible with this version of MATLAB</entry>
+
+<!-- ui strings -->
+    <entry key="UIStringDispHeader" note="Do NOT translate 'timetable' and 'timerange': they are class names. 'subscript' here means an array index.">timetable &lt;a href="matlab:doc(''timerange'')"&gt;timerange&lt;/a&gt; subscript:</entry>
+    <entry key="UIStringDispOpen">Select timetable rows with times in the open interval:\n\t\t({0}, {1})</entry>
+    <entry key="UIStringDispClosed">Select timetable rows with times in the closed interval:\n\t\t[{0}, {1}]</entry>
+    <entry key="UIStringDispLeftOpen">Select timetable rows with times in the half-open interval:\n\t\t({0}, {1}]</entry>
+    <entry key="UIStringDispRightOpen">Select timetable rows with times in the half-open interval:\n\t\t[{0}, {1})</entry>
+    <entry key="UIStringDispUnitOfTime">Select timetable rows with times in: {0}\n\t\t  Starting at, including:   {1}\n\t\t  Ending at, but excluding: {2}</entry>
+    <entry key="UIStringDispNaTNaNEndpoint">Select no rows because an endpoint is a {0}.</entry>
+    <entry key="UIStringDispNullRange">Select no rows because the left endpoint is at or after the right endpoint.</entry>
+    <entry key="UIStringDispFooter" note="Do NOT translate 'timetable': it is a class name">See &lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','subscript-into-times-of-timetable.html'))"&gt;Select Timetable Data by Row Time and Variable Type.&lt;/a&gt;</entry>
+    <!-- codegen -->
+    <entry key="TextInputsNotSupported">Code generation does not support specifying TIMERANGE endpoints as text. Specify duration endpoints instead.</entry>
+    <entry key="NonConstTypeOrUnit">Interval type and unit of time input must be constant.</entry>
+    <entry key="UnitOfTimeNotSupported">Code generation does not support specifying unit of time in TIMERANGE.</entry>
+  </message>
+</rsccat>

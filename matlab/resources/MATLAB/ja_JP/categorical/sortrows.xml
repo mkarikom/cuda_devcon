@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="thirdArgElements">COL は、0 と size(A, 2) 間の絶対値をもつ整数を含んでいなければなりません。</entry>
+    <entry key="thirdArgType">COL は非スパースの実数値ベクトルでなければなりません。</entry>
+    <entry key="firstArgType">CATEGORICALSORTROWS の最初の引数は、uint8、uint16 または uint32 型の非スパース実数行列でなければなりません。</entry>
+    <entry key="secondArgType">CATEGORICALSORTROWS の 2 番目の引数は、0 と intmax(class(X)) の間の正の実数のスカラーでなければなりません。</entry>
+    <entry key="ElementTooLarge">CATEGORICALSORT の最初の引数 X の要素は、0 と N の間でなければなりません。</entry>
+  </message>
+</rsccat>

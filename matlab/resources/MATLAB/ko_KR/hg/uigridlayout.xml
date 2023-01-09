@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WidthDoesNotMatchWeightsSize">Grid Layout Width {0,number,integer}이(가) 두께 크기 {1,number,integer}과(와) 일치하지 않음</entry>
+    <entry key="HeightDoesNotMatchWeightsSize">Grid Layout Height {0,number,integer}이(가) 두께 크기{1,number,integer}과(와) 일치하지 않음</entry>
+    <entry key="ChildrenDoNotFit">{1,number,integer}x{2,number,integer} 그리드에 레이아웃에 대한 {0,number,integer} 자식이 있습니다.</entry>
+  </message>
+</rsccat>

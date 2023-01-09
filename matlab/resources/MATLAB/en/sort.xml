@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InputType" note="stringDatatypeUpdate">Input argument must be a cell array of character vectors.</entry>
+    <entry key="TooManyInputs">Only one input argument is supported for cell arrays.</entry>
+    <entry key="sortDirection">Sorting direction must be ''ascend'' or ''descend''.</entry>
+    <entry key="sortDirectionIsSorted">Sorting direction must be ''ascend'', ''descend'', ''monotonic'', ''strictascend'', ''strictdescend'', or ''strictmonotonic''.</entry>
+    <entry key="complexIntegers">SORT on complex integers is not supported. </entry>
+  <!--Resource entries for src/mathcore-->
+    <entry key="InvalidAbsRealType">''ComparisonMethod'' parameter not supported when first argument is a {0} array.</entry>
+    <entry key="InvalidComparison">''ComparisonMethod'' value must be ''auto'', ''abs'', or ''real''.</entry>
+    <entry key="InvalidFirstLastType">''MissingPlacement'' parameter not supported when first argument is a {0} array.</entry>
+    <entry key="InvalidMissingPlace">''MissingPlacement'' value must be ''auto'', ''first'', or ''last''.</entry>
+    <entry key="NameValueNames">Parameter name must be 'ComparisonMethod' or 'MissingPlacement'.</entry>
+    <entry key="NameValuePairs">Incorrect number of arguments. Parameter names and values must occur in pairs.</entry>
+    <entry key="notPosInt">Dimension argument must be a positive integer.</entry>
+    <entry key="SecondArgumentType">Second argument must specify a dimension or a sorting direction.</entry>
+    <entry key="ThirdArgumentType">Sorting direction must be a character vector.</entry>
+  </message>
+</rsccat>

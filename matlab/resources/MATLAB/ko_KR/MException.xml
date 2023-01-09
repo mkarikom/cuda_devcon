@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badIdentifier">IDENTIFIER 입력값은 유효한 MATLAB 메시지 ID여야 합니다. 자세한 내용은 MATLAB 도움말에서 {0}을(를) 참조하십시오.</entry>
+    <entry key="MExceptionIdentifiers">MException 식별자</entry>
+    <entry key="BadValueForLast">마지막 메서드는 입력값으로 ''reset''만 허용할 수 있습니다.</entry>
+    <entry key="CorrectionLimitExceeded">MException은 2개 이상의 Correction을 가질 수 없습니다.</entry>
+    <entry key="MessageCTOR">메시지 객체를 만들 수 없습니다.</entry>
+    <entry key="MessageIdentifier">메시지 ID</entry>
+    <entry key="MessageMustBeChar">MESSAGE 입력값은 문자형 벡터이거나 string형 스칼라여야 합니다.</entry>
+    <entry key="MessageText">메시지 텍스트</entry>
+    <entry key="InvalidType">유효하지 않은 MException 유형입니다.</entry>
+    <entry key="MustCallLastFromCommandLine">last() 메서드는 명령 프롬프트에서만 호출할 수 있습니다.</entry>
+    <entry key="NonScalarCorrection">Correction은 스칼라 matlab.lang.correction.Correction 객체여야 합니다.</entry>
+    <entry key="nonScalarInput">서식 지정된 MESSAGE 입력값은 실수 숫자형 스칼라 값, 문자형 벡터 또는 string형 스칼라여야 합니다.</entry>
+    <entry key="NonScalarMException">MException은 스칼라여야 합니다.</entry>
+    <entry key="NonScalarMessage">메시지는 스칼라여야 합니다.</entry>
+    <entry key="ErrorIn">오류 발생:</entry>
+    <entry key="OperationTerminatedByUser">다음 작업 중 사용자에 의해 종료됨:</entry>
+    <entry key="In">다음에서:</entry>
+    <entry key="CausedBy">\n원인:\n</entry>
+    <entry key="ErrorCallingMethod">{0}/{1}을(를) 호출하는 중 오류가 발생했습니다.\n{2}</entry>
+    <entry key="MoreInformation">관련 문서</entry>
+  </message>
+</rsccat>

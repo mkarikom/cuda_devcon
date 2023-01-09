@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">ライブラリ名を指定しなければなりません。</entry>
+    <entry key="OptionsMustBeStrings">すべてのオプションの入力は文字ベクトルでなければなりません。</entry>
+    <entry key="thunkneeded">現在のプラットフォームでは thunk ファイルが必要ですが、thunkfile が空のため thunk ファイルが作成されません。</entry>
+    <entry key="InvalidOption">オプション {0} は、有効な loadlibrary オプションではありません。</entry>
+    <entry key="ClassRenamed">ライブラリ名は有効な名前ではありません。\nライブラリは "{0}" という名前になります。</entry>
+    <entry key="ClassCaseMismatch">ライブラリ名の大文字小文字がファイル名と一致しません。\nライブラリは "{0}" という名前になります。</entry>
+    <entry key="ClassIsLoaded">ライブラリのクラス ''{0}'' は既に存在します。クラス名のエイリアスを使用してください。</entry>
+    <entry key="InvalidSecondArgument">loadlibrary の 2 番目の引数は、C のヘッダー ファイル、ローダー関数、MAT ファイルのいずれかでなければなりません。</entry>
+    <entry key="NoHeaderAllowed">配布するアプリケーションは、ヘッダー ファイルの代わりにプロトタイプ ファイルを使用しなければなりません。プロトタイプを作成するには、loadlibrary mfilename オプションを使用します。コンパイルされたコードではプロトタイプ ファイルを使用します。詳細は、http://www.mathworks.com/help/compiler/matlab-library-loading.html を参照してください。</entry>
+    <entry key="invalid_mfilename">プロトタイプ ファイル名がライブラリ名と同じなので競合します。</entry>
+    <entry key="cppfailure">入力ファイルを前処理できません。\n プリプロセッサからの出力は {0} です</entry>
+    <entry key="cppoutput">C プリプロセッサからのメッセージ:\n{0}</entry>
+    <entry key="parsewarnings">解析中に警告メッセージが生成されました。正確性のために使用する関数をチェックしてください。警告テキストは、以下のコマンドを使って表示できます。\n [notfound,warnings]=loadlibrary(...)</entry>
+    <entry key="PrototypeFileNotFound">ライブラリを記述する MATLAB プログラム ファイルで、Perl またはファイル システムのエラーの可能性を検出できませんでした。</entry>
+    <entry key="EmptyThunkfileNames">thunkfile 名を空にすることはできません。</entry>
+    <entry key="CompileFailed">{0} をビルドできません。コンパイラの出力:\n{1}</entry>
+    <entry key="CoderLibrary">{0} を読み込むには、{2} を直接呼び出す代わりに {1} を使用します。</entry>
+    <entry key="OldStyleMfile">以前の MATLAB バージョンでビルドされた読み込みファイルが与えられましたが、将来のバージョンではサポートされません。</entry>
+    <entry key="nofunctions">ライブラリ内に関数はありません。</entry>
+    <entry key="UnsupportedCompiler">選択したコンパイラは loadlibrary でサポートされていません。</entry>
+    <entry key="FileNotFound">ファイル {0} が見つかりません。</entry>
+    <entry key="TypeNotFound">データ型 ''{0}'' (関数 {1} で使用) は存在しません。</entry>
+    <entry key="EnumExists">列挙値 ''{0}'' は既に存在するため作成されません</entry>
+    <entry key="InvalidFunctionStructure">loadlibrary 内に渡された関数情報に情報がありません。</entry>
+    <entry key="InvalidCallType">関数の呼び出しタイプ {0} はサポートされません</entry>
+    <entry key="TooManyReturnValues">関数 ''{0}'' は、多すぎる戻り値を指定しようとしています。</entry>
+    <entry key="FunctionNotFound">関数 ''{0}'' がライブラリ内で見つかりません。</entry>
+    <entry key="ThunkFunctionNotFound">thunk({0}) (関数 ''{1}'') がライブラリ内で見つかりません</entry>
+    <entry key="InvalidFunctionReturnType">出力タイプ ''{0}'' は関数 {1} でサポートされていません。</entry>
+    <entry key="DirectoryCleanupFailed">一時ディレクトリを削除できません。エラーを取得:\n{0}</entry>
+    <entry key="ThreeInputsNeeded">少なくとも 3 つの入力を loadlibrary に渡さなければなりません。</entry>
+    <entry key="AliasMustBeString">ライブラリのエイリアスは文字ベクトルでなければなりません。</entry>
+    <entry key="TypeExists">データ型 ''{0}'' は既に MATLAB 内に存在します。既存のタイプを使用します。</entry>
+    <entry key="TypeNotFoundForStructure">データ型 ''{0}'' (構造体 {1} で使用) は存在しません。この構造体は使用できない可能性があります。</entry>
+    <entry key="StructTypeExists">構造体タイプ ''{0}'' は既に存在します。\n既存のタイプが再利用されます。</entry>
+    <entry key="IntermediateOutputFollows">ライブラリの中間出力の後を読み込み中にエラーが発生しました。</entry>
+    <entry key="ActualErrorAtEndOfOutput">実際のエラーは、この出力の最後にあります。</entry>
+    <entry key="ErrorRunningLoaderFile">ローダー ファイルの実行中にエラーが発生しました。mfilename オプションを使用し、必要に応じてデバッグや修正ができるファイルを生成してください。この関数を改善できるように、このエラーを MathWorks へご報告ください。</entry>
+    <entry key="ErrorLoadingLibrary">ライブラリ "{0}" の読み込み中にエラーが発生しました。\n{1}</entry>
+    <entry key="ThunkfileNotSupportedbyMSVC6">Microsoft Visual C 6.0 コンパイラは、thunk ファイルのビルドには使用できません。</entry>
+    <entry key="ThunkfileNotSupportedbyLCC">LCC コンパイラは、thunk ファイルのビルドには使用できません。</entry>
+    <entry key="ErrorInHeader">{0}\nエラー ==&gt;{1} {2,number,integer}</entry>
+    <entry key="ErrorRunningFromCommandLine">{0} の実行中にエラーが発生しました。\nコマンド ラインから {1} を実行してエラーを再現し、修正してください。</entry>
+    <entry key="cannotgeneratemfile">Perl を呼び出せません。ヘッダー ファイル処理中のエラーの可能性があります。\nPerl コマンドの出力:\n{0}</entry>
+    <entry key="TooManyArguments">SimpleFunctionThunk に渡す入力が多すぎます。</entry>
+    <entry key="MustBeInRange">値はデータ型の有効な範囲を超えています。</entry>
+    <entry key="LoadFailed">{0}</entry>
+    <entry key="ThunkLoadFailed">{0}</entry>
+  </message>
+</rsccat>

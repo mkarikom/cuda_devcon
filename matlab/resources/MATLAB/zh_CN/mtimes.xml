@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="integerNotSupported">MTIMES (*) 不完全支持整数类。至少一个参数必须为标量。</entry>
+    <entry key="sparseSingleNotSupported">MTIMES (*) 不支持一个稀疏参数和一个单精度参数。</entry>
+    <entry key="inputsMustBe2D">参数必须为二维参数，或者至少一个参数必须为标量。请使用 TIMES (.*)执行按元素相乘，或使用 PAGEMTIMES 将矩阵乘法应用于 N 维数组的页。</entry>
+    <entry key="logicalInputsMustBeScalar">两个逻辑参数都必须为标量。请使用 TIMES (.*) 执行按元素相乘。</entry>
+    <entry key="MixedClassNotSupport">不支持参数类。</entry>
+  </message>
+</rsccat>

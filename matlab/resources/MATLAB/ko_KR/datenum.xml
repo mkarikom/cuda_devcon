@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EmptyDate">빈 날짜 문자형 벡터 또는 빈 string형이 있는 DATENUM은 사용할 수 없습니다.\n향후 버전에서는 지원 내용이 변경될 수 있습니다.</entry>
+    <entry key="NotAStringArray">DATENUM에 대한 입력값이 문자형 벡터 또는 string형으로 구성된 배열이 아닙니다.</entry>
+    <entry key="YearFormat">인식할 수 없는 연도 형식임</entry>
+    <entry key="Nargin">인수의 개수가 올바르지 않음</entry>
+    <entry key="InconsistentInputs">DATENUM에 대한의 입력 인수는 크기 또는 스칼라에서 일치해야 합니다.</entry>
+    <entry key="Failed">DATENUM 실패.</entry>
+    <entry key="InputMustBeReal">Numeric input data must be real.</entry>
+  </message>
+</rsccat>

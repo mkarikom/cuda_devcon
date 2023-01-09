@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalid_lib">"{0}"은(는) 유효한 공유 라이브러리가 아닙니다.</entry>
+    <entry key="not_64bit">''{0}''에 호스트와 다른 아키텍처가 있습니다.</entry>
+    <entry key="missing_deps">누락된 종속 공유 라이브러리:</entry>
+    <entry key="lib_req">''{0}''은(는) ''{1}''에 필요함</entry>
+    <entry key="missing_sym_win">''{1}''의 누락된 기호 ''{0}''이(가) ''{2}''에 필요함</entry>
+    <entry key="missing_sym_linux">누락된 기호 ''{0}''이(가) ''{1}''에 필요함</entry>
+  </message>
+</rsccat>

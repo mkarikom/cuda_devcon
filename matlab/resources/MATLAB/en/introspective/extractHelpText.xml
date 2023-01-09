@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="SameFile">Output file and input file can not be the same</entry>
+      <entry key="CannotDeleteFile">Previous version of output file exists and can not be overwritten</entry>
+      <entry key="FilePathMustBeAString" note="stringDatatypeUpdate">File path must be a character vector</entry>
+      <entry key="HelpContainerFactoryInvalidFilePath">{0} must be the full path to a file on the MATLAB Search Path</entry>
+      <entry key="FileNotFound">Input file does not exist</entry>
+   </message>
+</rsccat>

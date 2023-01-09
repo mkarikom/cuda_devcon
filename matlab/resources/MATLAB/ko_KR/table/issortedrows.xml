@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedMode">정렬 방향은 ''ascend'', ''descend'', ''monotonic'', ''strictascend'', ''strictdescend'' 또는 ''strictmonotonic''이어야 합니다.</entry>
+    <entry key="WrongLengthMode">방향에는 정렬하는 각 변수별로 하나의 요소가 있어야 합니다.</entry>
+    <entry key="EmptyRowNames">입력 테이블은 행 이름을 포함하지 않으며 TRUE를 반환합니다.</entry>
+    <entry key="BadNumericVarIndices">숫자형 변수 인덱스는 양의 정수이거나 음의 정수여야 합니다.</entry>
+    <entry key="NDVar">변수 ''{0}''은(는) 2차원 행렬이어야 합니다.</entry>
+    <entry key="IssortedOnRowFailed">행 레이블에 대한 issorted에 실패했습니다.</entry>
+    <entry key="IssortedOnVarFailed">변수 ''{0}''에 대한 issorted에 실패했습니다. 이 변수의 클래스는 ''{1}''입니다.</entry>
+    <entry key="CellstrVar">cellstr형 변수는 지원되지 않습니다. 또는, cellstr형 변수 ''{0}''을(를) string형 배열로 변환할 수 있습니다.</entry>
+    <entry key="NonConstantVarWidth">변수 ''{0}''에 대한 issorted에 실패했습니다. 열 개수가 가변적입니다. 정렬 변수는 고정 너비를 가져야 합니다.</entry>
+  </message>
+</rsccat>

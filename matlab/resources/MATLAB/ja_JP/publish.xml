@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoJvm">パブリッシュには Java が必要です。</entry>
+    <entry key="SourceNotFound">"{0}" が見つかりません。</entry>
+    <entry key="InvalidOption">オプション "{0}" が無効です。オプションは大文字小文字を区別することに注意してください。</entry>
+    <entry key="NoGIFs">"gif" は、サポートされている imageFormat ではありません。</entry>
+    <entry key="UnknownFormat">形式 "{0}" はサポートされません。</entry>
+    <entry key="StylesheetNotFound">指定したスタイルシート "{0}" は存在しません。</entry>
+    <entry key="InvalidBoolean">"{0}" の値は true などの論理スカラーでなければなりませんが、文字ベクトル ''true'' ではありません。</entry>
+    <entry key="InvalidMaxOutputLines">"maxOutputLines" の値は Inf または非負の整数でなければなりません。</entry>
+    <entry key="MustBeEmptyOrPositiveInteger">オプション ''{0}'' は空または正の整数でなければなりません。</entry>
+    <entry key="VectorAndGetframe">imageFormat ''{0}'' は、figureSnapMethod の ''getframe'' と互換性がありません。</entry>
+    <entry key="VectorSize">イメージの高さまたは幅の最大値を設定すると、{0} ファイルと互換性がなくなるため、無視されます。</entry>
+    <entry key="InvalidPDFImageFormat">PDF 出力でサポートされる imageFormat は、BMP または JPEG のみです。</entry>
+    <entry key="StopOnErrorDeprecated">stopOnError はサポートされなくなりました。同様の効果を得るには、コード内で TRY/CATCH を使用します。</entry>
+    <entry key="OffPath">パブリッシュは、evalCode オプションが設定されているためファイルを実行する必要がありますが、ファイルが MATLAB パス上にありません。</entry>
+    <entry key="Shadowed">ファイルは {0} より優先度が低いため、アクセスできません。</entry>
+    <entry key="OnlyCode">MATLAB コードのみをパブリッシュできます。</entry>
+    <entry key="CannotDelete">"{0}" を削除できません。</entry>
+    <entry key="CannotReadForThumbnail">サムネイル作成のための最後のイメージ "{0}" を読み取れません。{1} 回まで再試行します。</entry>
+    <entry key="RecursivePublish">関数 publish を含むスクリプトのパブリッシュはサポートされていません。</entry>
+    <entry key="NoFileSpecified">インクルード マークアップにファイル名が指定されていません。</entry>
+    <entry key="MkdirFailed">出力ディレクトリ "{0}" は存在しないため、作成できません。</entry>
+    <entry key="DirNotWritable">出力ディレクトリ "{0}" は書き込み可能ではありません。</entry>
+    <entry key="FileNotWritable">出力ファイル "{0}" は書き込み可能ではありません。</entry>
+    <entry key="BeginDifferences">==== 差分開始 ====</entry>
+    <entry key="EndDifferences">==== 差分終了 ====</entry>
+    <entry key="NewSystem">新規システムのスナップ中: "{0}"。</entry>
+    <entry key="NewFigure">新規 Figure {0} のスナップ中、"{1}"。</entry>
+    <entry key="ChangedSystem">変更したシステムのスナップ中: "{0}"。</entry>
+    <entry key="ChangedFigure">変更した Figure {0} のスナップ中、"{1}"。</entry>
+    <entry key="WordPCOnly">Microsoft Word へのパブリッシュは、PC でのみサポートされます。</entry>
+    <entry key="NoWord">この形式にパブリッシュするには、Microsoft Word がインストールされていなければなりません。</entry>
+    <entry key="PptPCOnly">Microsoft PowerPoint へのパブリッシュは、PC でのみサポートされます。</entry>
+    <entry key="NoPpt">この形式にパブリッシュするには、Microsoft PowerPoint がインストールされていなければなりません。</entry>
+    <entry key="PptNotReady">Timeout waiting for Microsoft PowerPoint to start</entry>
+    <entry key="WordAlreadyOpen">Word でファイルが既に開かれているため、ファイル "{0}" を作成できません。ドキュメントを閉じて再度実行してください。</entry>
+    <entry key="PublishError">パブリッシュ中のエラー</entry>
+    <entry key="NotImplemented">実装されていません: {0}</entry>
+    <entry key="invalidXmlChar">.m ファイルには有効な XML 1.0 標準文字が含まれなければなりません。</entry>
+    <entry key="CannotWriteImage">{0} に書き込めません。\nFILEATTRIB 出力は次のとおりです\n{1}</entry>
+  </message>
+</rsccat>

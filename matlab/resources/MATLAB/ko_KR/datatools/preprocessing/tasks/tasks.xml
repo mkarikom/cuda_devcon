@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="APP_TASK_PREVIEW_LABEL">미리보기</entry>
+    <entry key="APP_TASK_AXES_PANEL_TITLE">미리보기 시각화</entry>
+    <entry key="APP_TASK_TABLE_PANEL_TITLE">테이블 형식 데이터 미리보기</entry>
+    <entry key="CLEANED_TABLE_TITLE">정리 후 데이터</entry>
+    <entry key="ORIGINAL_TABLE_TITLE">정리 전 데이터</entry>
+    <entry key="CUSTOM_PP_DIALOG_TITLE">사용자 지정 전처리 생성기</entry>
+    <entry key="CUSTOM_PP_DIALOG_NAME">이름</entry>
+    <entry key="CUSTOM_PP_DIALOG_DESCRIPTION">설명</entry>
+    <entry key="CUSTOM_PP_DIALOG_FUN_PREVIEW">함수 미리보기</entry>
+    <entry key="CUSTOM_PP_DIALOG_OUTPUT">출력값</entry>
+    <entry key="CUSTOM_PP_DIALOG_FUNCTION">함수</entry>
+    <entry key="CUSTOM_PP_DIALOG_VARIABLE">변수</entry>
+    <entry key="CUSTOM_PP_DIALOG_INPUT">입력값 {0}</entry>
+    <entry key="CUSTOM_PP_DIALOG_ADD_INPUT">다른 입력값 추가</entry>
+    <entry key="CUSTOM_PP_DIALOG_NAMED_PARAMETER">명명된 파라미터?</entry>
+    <entry key="CUSTOM_PP_DIALOG_DELETE_INPUT">입력값 삭제</entry>
+    <entry key="CUSTOM_PP_DIALOG_OK">확인</entry>
+    <entry key="CUSTOM_PP_DIALOG_CANCEL">취소</entry>
+    <entry key="CUSTOM_PP_DIALOG_ADDTOGALLERY">갤러리에 추가하시겠습니까?</entry>
+    <entry key="CUSTOM_PP_DIALOG_NEWVARIABLENAME">새 변수 접두사</entry>
+    <entry key="CUSTOM_PP_DIALOG_VARIABLENAME">변수 이름</entry>
+    <entry key="CUSTOM_PP_DIALOG_TABLEVARNAME">테이블 변수 이름</entry>
+    <entry key="CUSTOM_PP_DIALOG_TABLEANDVAR">Table.(Variable)</entry>
+    <entry key="CUSTOM_PP_DIALOG_TABLEANDNEWVAR">Table.(New Variable)</entry>
+    <entry key="CUSTOM_PP_DIALOG_VARCOLUMN">Variable(Column)</entry>
+    <entry key="CUSTOM_PP_DIALOG_USER_INPUT">사용자 입력값</entry>
+    <entry key="CUSTOM_PP_DIALOG_CONSTANT">상수</entry>
+    <entry key="CUSTOM_PP_DIALOG_CONSTANT_VALUE">상수 값</entry>
+    <entry key="CUSTOM_PP_DIALOG_SELECT_DATA_GROUP">데이터 선택</entry>
+    <entry key="CUSTOM_PP_DIALOG_INPUT_ARGS_GROUP">입력 인수</entry>
+    <entry key="USER_AUTHORED_TASKS_SELECT_A_VARIABLE">변수 선택</entry>
+    <entry key="CUSTOM_CODE_TASK_VARIABLENAME">변수 이름</entry>
+    <entry key="CUSTOM_CODE_TASK_DESCRIPTION">설명</entry>
+    <entry key="CUSTOM_CODE_TASK_REQUIRED_DESCRIPTION">설명은 필수 필드입니다.</entry>
+    <entry key="CUSTOM_CODE_TASK_DEFAULT_DESCRIPTION">사용자 지정 코드 설명</entry>
+    <entry key="CUSTOM_CODE_TASK_CODE">코드</entry>
+    <entry key="CUSTOM_CODE_TASK_PREVIEW">미리보기</entry>
+    <entry key="CUSTOM_CODE_TASK_TASKNAME">일회성 스크립트 삽입</entry>
+    <entry key="CUSTOM_CODE_TASK_TASKDESCRIPTION">사용자 지정 전처리 스크립트를 내역에 추가합니다.</entry>
+    <entry key="CUSTOM_CODE_TASK_MODIFY_COMMENT">이 코드 수정</entry>
+    <entry key="CUSTOM_CODE_ERROR_DIALOG_TITLE">사용자 지정 함수 실행 오류</entry>
+    <entry key="CUSTOM_CODE_ERROR_DUP_TIMESTAMPS_TITLE">중복된 타임스탬프</entry>
+    <entry key="CUSTOM_CODE_ERROR_DUP_TIMESTAMPS_MSG">타임테이블은 고유한 타임스탬프를 가져야 합니다. 타임스탬프를 정리하고 다시 시도하십시오.</entry>
+  </message>
+</rsccat>

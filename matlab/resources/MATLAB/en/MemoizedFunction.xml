@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed">
+  <message>
+    <entry key="InvalidCachePolicy">Unknown caching policy.</entry>
+    <entry key="InvalidVersion">Unable to load MemoizedFunction.</entry>
+    <entry key="UnsupportedHandle">Function handle must be resolvable when it is created or must be a built-in.</entry>
+    <entry key="OverwriteOnLoad">Caches for "@{0}" will be overwritten with values being loaded.</entry>
+  </message>
+</rsccat>

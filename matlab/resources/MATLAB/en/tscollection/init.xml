@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="pvsetNoValue">A specified property has no corresponding value.</entry>
+    <entry key="nonScalarDatenum">IsDatenum property must be a logical scalar value.</entry>
+    <entry key="pvsetInvalid">Invalid property name</entry>
+    <entry key="emptytimeseries">Empty timeseries cannot be added to a tscollection.</entry>
+    <entry key="nosingleton">The tscollection must have a non-empty time vector.</entry>
+    <entry key="notimevectornocellarray">The second argument must either be a time vector, a time series object, or a cell array of timeseries objects.</entry>
+  </message>
+</rsccat>

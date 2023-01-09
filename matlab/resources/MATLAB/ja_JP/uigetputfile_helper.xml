@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WrongType">不正なタイプが uigetputfile に対して入力されました。</entry>
+    <entry key="xyobsolete">位置パラメーターとしての ''x'' と ''y'' の使用は旧式のため無視されます。</entry>
+    <entry key="locationobsolete">''Location'' は旧式のため無視されます。</entry>
+    <entry key="badmultiselect">''MultiSelect'' の有効な値は ''on'' と ''off'' です。</entry>
+    <entry key="multiselectgetonly">''MultiSelect'' は、ファイルが開いている場合にのみ使われる可能性があります。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badMessageStyle">네 번째 입력값은 ''struct'' 또는 ''string''이어야 합니다.</entry>
+    <entry key="invalidOutputs">두 개의 입력값을 사용하는 nargoutchk에서는 출력 인수가 허용되지 않습니다.</entry>
+    <entry key="notEnoughOutputs">출력 인수가 부족합니다.</entry>
+    <entry key="tooManyOutputs">출력 인수가 너무 많습니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadEndNodes">테이블의 첫 번째 변수는 2열 숫자형 배열이거나 노드 이름으로 구성된 2열 배열(셀형 또는 string형)이어야 합니다.</entry>
+    <entry key="DuplicateEdge">중복 간선은 지원되지 않습니다. </entry>
+    <entry key="DuplicateEndNodes">EndNodes에 대한 중복된 정의가 있습니다. 2개의 입력값을 사용하거나 EdgeTable에서 변수 EndNodes를 제거하십시오.</entry>
+    <entry key="EdgeExists">간선 ({0}, {1})은(는) 이미 그래프에 있습니다.</entry>
+    <entry key="FourthInput">유효하지 않은 데이터형입니다. 가중치는 double형 또는 single형이어야 합니다.</entry>
+    <entry key="InconsistentNodeNames">노드 ID는 모두 숫자형 벡터이거나 모두 노드 이름(string형 벡터, 문자형 벡터 또는 문자형 벡터의 셀형 배열로 지정됨)이거나 모두 categorical형이어야 합니다.</entry>
+    <entry key="InvalidNodeID">숫자형 노드 ID는 양의 정수여야 합니다.</entry>
+    <entry key="NoOutput">입력 그래프가 수정되지 않았습니다. 수정된 그래프를 반환하도록 출력 인수를 사용하십시오.</entry>
+    <entry key="NoWeights">비가중 그래프(Unweighted Graph)에는 가중치 간선을 추가할 수 없습니다.</entry>
+    <entry key="NumWeightsMismatch">가중치 인수는 지정된 각 간선에 대해 한 요소를 포함해야 하거나 스칼라일 수 있습니다.</entry>
+    <entry key="SpecifyWeight">가중 그래프(Weighted Graph)에 간선을 추가할 때는 가중치를 지정해야 합니다.</entry>
+    <entry key="TableFirstVar">테이블의 첫 번째 변수는 EndNodes여야 합니다.</entry>
+    <entry key="TableMaxRHS">간선 테이블은 마지막 인수여야 합니다.</entry>
+    <entry key="TableSize">간선 테이블에는 적어도 하나의 열이 있어야 합니다.</entry>
+  </message>
+</rsccat>

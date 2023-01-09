@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="IncorrectInputMultiSelectValue">MultiSelect パラメーターの値は、on/off を指定する文字ベクトルでなければなりません。</entry>
+    <entry key="IncorrectInputLocationValue">Location パラメーターの値は、2 要素のベクトルでなければなりません。</entry>
+    <entry key="IncorrectInputUnrecognizedArgs">認識されない入力引数</entry>
+    <entry key="IncorrectInputTitleString">引数 TITLE は文字ベクトルでなければなりません。</entry>
+    <entry key="IncorrectInputStartPathString">引数 STARTPATH は文字ベクトルでなければなりません。</entry>
+    <entry key="IncorrectInputFilterSpecSize">引数 FILTERSPEC は、文字ベクトルまたは M 行 1 列か M 行 2 列のセル配列でなければなりません。</entry>
+    <entry key="IncorrectInputFilterSpecString">セル配列 FILTERSPEC のすべての要素は文字ベクトルでなければなりません。</entry>
+    <entry key="IncorrectInputFileString">ファイル引数は文字ベクトルでなければなりません。</entry>
+    <entry key="IncorrectInputNumericY">Y の引数は数値でなければなりません</entry>
+    <entry key="IncorrectInputNumericX">X の引数は数値でなければなりません</entry>
+    <entry key="IncorrectInputPosition">X と Y のどちらの引数も位置を指定しなければなりません。</entry>
+    <entry key="ObsoletedSyntax">この構文は旧式です。新しい構文については、ヘルプまたはドキュメンテーションを参照してください。</entry>
+  </message>
+</rsccat>

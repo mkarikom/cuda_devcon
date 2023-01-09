@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FigureName">도구 모음 편집기</entry>
+    <entry key="ToolbarLayoutTitle">도구 모음 레이아웃</entry>
+    <entry key="ToolbarLayoutHelp">여기에 툴(도구)을 추가하여 도구 모음을 만듭니다. 팔레트에서 끌어서 놓거나 [추가] 버튼을 누르십시오.</entry>
+    <entry key="PalettePushTool">푸시 툴</entry>
+    <entry key="PaletteToggleTool">토글 툴</entry>
+    <entry key="ToolPropertyPanelTitle">툴 속성</entry>
+    <entry key="ToolbarPropertyPanelTitle">도구 모음 속성</entry>
+    <entry key="ToolbatDeletionConfirmation">이 도구 모음을 삭제하면 도구 모음에 들어 있는 모든 툴도 삭제됩니다. \n\n계속하시겠습니까?</entry>
+    <entry key="ToolPalettePanelTitle">툴 팔레트</entry>
+    <entry key="CustomToolSectionTitle">사용자 지정 툴</entry>
+    <entry key="PredefinedToolSectionTitle">미리 정의된 툴</entry>
+    <entry key="ActionOK">확인</entry>
+    <entry key="ActionAdd">추가</entry>
+    <entry key="ActionAddTooltip">선택한 팔레트 항목을 도구 모음에 추가합니다.</entry>
+    <entry key="ActionDelete">삭제</entry>
+    <entry key="ActionDeleteTooltip">선택한 도구 모음 항목을 제거합니다.</entry>
+    <entry key="ActionSendtoFirst">맨 앞으로 보내기</entry>
+    <entry key="ActionSendtoFirstTooltip">선택한 도구 모음 항목을 시작 부분으로 이동합니다.</entry>
+    <entry key="ActionSendtoLast">맨 끝으로 보내기</entry>
+    <entry key="ActionSendtoLastTooltip">선택한 도구 모음 항목을 끝 부분으로 이동합니다.</entry>
+    <entry key="ActionMovetotheRight">오른쪽으로 이동</entry>
+    <entry key="ActionMovetotheRightTooltip">선택한 도구 모음 항목을 오른쪽으로 이동합니다.</entry>
+    <entry key="ActionMovetotheLeft">왼쪽으로 이동</entry>
+    <entry key="ActionMovetotheLeftTooltip">선택한 도구 모음 항목을 왼쪽으로 이동합니다.</entry>
+    <entry key="ActionDeleteToolbar">도구 모음 삭제</entry>
+    <entry key="ActionDeleteToolbarTooltip">이 도구 모음과 이 도구 모음에 들어 있는 모든 툴을 삭제합니다.</entry>
+    <entry key="ActionAddToolbar">도구 모음 추가</entry>
+    <entry key="ActionAddToolbarTooltip">새 빈 도구 모음을 추가합니다.</entry>
+    <entry key="ActionShiftPreviewToolRight">미리보기 툴을 오른쪽으로 이동</entry>
+    <entry key="ActionShiftPreviewToolRightTooltip">지정된 위치를 기준으로 미리보기 툴을 오른쪽으로 이동합니다.</entry>
+    <entry key="ActionShiftPreviewToolLeft">미리보기 툴을 왼쪽으로 이동</entry>
+    <entry key="ActionShiftPreviewToolLeftTooltip">지정된 위치를 기준으로 미리보기 툴을 왼쪽으로 이동합니다.</entry>
+    <entry key="ActionEditIcon">아이콘 편집</entry>
+    <entry key="ActionEditIconTooltip">선택한 도구 모음 항목의 아이콘을 변경합니다. </entry>
+    <entry key="ActionEditTooltip">툴팁 편집</entry>
+    <entry key="ActionEditTooltipTooltip">선택한 도구 모음 항목의 툴팁을 변경합니다. </entry>
+    <entry key="ActionShowSeparator">구분선 표시</entry>
+    <entry key="ActionShowSeparatorTooltip">선택한 도구 모음 항목에 대한 구분선을 켜거나 끄기 </entry>
+    <entry key="ActionMorePropertiesTooltip">인스펙터의 모든 속성 편집</entry>
+    <entry key="ActionMoreProperties">추가 속성...</entry>
+    <entry key="EditCallback">보기</entry>
+    <entry key="RestoreDefaults">디폴트 값 복원</entry>
+    <entry key="RestoreDefaultsTooltip">이 미리 정의된 툴의 디폴트 동작으로 돌아갑니다.</entry>
+    <entry key="PropertyCData">CData(아이콘):</entry>
+    <entry key="PropertyEnablethistool">이 툴 활성화</entry>
+    <entry key="PropertyOffCallback">끌 때 콜백:</entry>
+    <entry key="PropertyOnCallback">켤 때 콜백:</entry>
+    <entry key="PropertySeparatoronleftside">왼쪽에 구분선</entry>
+    <entry key="PropertyTag">태그:</entry>
+    <entry key="PropertyTooltipString">툴팁 텍스트:</entry>
+    <entry key="PropertyClickedCallback">클릭 때 콜백</entry>
+    <entry key="PropertyMaketoolbarvisible">도구 모음 표시</entry>
+    <entry key="PropertyEditIcon">편집...</entry>
+    <entry key="RestoreDefaultConfirmation">선택한 도구 모음 툴은 팔레트의 미리 정의된 툴에서 만들어졌습니다. 디폴트 동작으로 복원하면 모든 변경 내용이 제거됩니다.\n\n계속하시겠습니까?</entry>
+    <entry key="ActionOKTooltip"/>
+  </message>
+</rsccat>

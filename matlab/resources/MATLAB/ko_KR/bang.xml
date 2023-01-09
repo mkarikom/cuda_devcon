@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnableToOpenMasterDevice">MATLAB이 의사 터미널(Pseudo-tty, Pseudo-terminal) 마스터 장치 {0}을(를) 열지 못했습니다.\n따라서 이 MATLAB 세션에서는 unix() 및 ! 명령이 작동되지 않습니다.  unix() 및 ! 명령에 종속된 다른 명령도 작동되지 않습니다.  시스템 관리자에게 문의하여 이 장치가 적절한 권한을 가지고 있는지 확인하십시오.</entry>
+    <entry key="UnableToOpenTtyDevice">MATLAB이 의사 터미널(Pseudo-tty, Pseudo-terminal)을 열 수 없음: {0} [{1,number,integer},{2,number,integer}]\n따라서 이 MATLAB 세션에서는 unix() 및 ! 명령이 작동되지 않습니다. unix() 및 ! 명령에 종속된 다른 명령도 작동되지 않습니다. 시스템이 리소스 부족 상태에서 실행 중일 수 있습니다. 재부팅 후에도 문제가 지속될 경우, 시스템 관리자에게 문의하여 pty 서브시스템이 제대로 구성되어 있는지 확인하십시오.</entry>
+    <entry key="SystemError">예기치 않은 시스템 오류: {0}</entry>
+    <entry key="UnableToReopenPtyDevice">pty 다시 열기 시도 실패</entry>
+    <entry key="UnableToInitializePseudotty">MATLAB이 의사 터미널(Pseudo-tty, Pseudo-terminal)을 초기화하지 못함: BinArchDir이 없습니다.\n따라서 이 MATLAB 세션에서는 unix() 및 ! 명령이 작동되지 않습니다.  unix() 및 ! 명령에 종속된 다른 명령도 작동되지 않습니다. 이 문제는 support@mathworks.com으로 보고하십시오.</entry>
+    <entry key="CommandsDisabled">unix() 및 ! 명령을 사용할 수 없습니다.</entry>
+    <entry key="UnknownError">알 수 없는 오류</entry>
+    <entry key="UnrecognizedOption">인식할 수 없는 옵션임: {0}</entry>
+    <entry key="SignalReceived">{0}: {1}</entry>
+  </message>
+</rsccat>

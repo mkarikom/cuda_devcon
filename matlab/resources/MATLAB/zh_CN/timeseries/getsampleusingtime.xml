@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">getsampleusingtime 方法只能用于单时序对象</entry>
+    <entry key="invalidpv">属性-值对组无效。</entry>
+    <entry key="invalidrelativetime">开始时间和结束时间必须是数值。</entry>
+    <entry key="invalidabsolutetime">开始时间格式无效</entry>
+    <entry key="invalidduptimes">指定的时间值在时序中是重复的，但 AllowDuplicateTimes 标志设置为 false。要获取重复时间处的样本，请在调用 GETSAMPLEUSINGTIME 时将 AllowDuplicateTimes 标志设置为 true</entry>
+    <entry key="castduptimeflag">ALLOWDUPLICATETIMES 标志没有逻辑类型。将转换为逻辑值</entry>
+  </message>
+</rsccat>

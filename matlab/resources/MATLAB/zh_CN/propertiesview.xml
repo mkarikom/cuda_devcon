@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownClassOrProperty">找不到 {0} "{1}"，或没有对 {2} 可见的属性。</entry>
+    <entry key="InvalidInput">仅使用 classdef 语法定义的 MATLAB 类支持 propertiesview。</entry>
+    <entry key="TitlePropertiesForClass">类 {0} 的属性</entry>
+    <entry key="LabelInheritedFrom">继承于</entry>
+    <entry key="LabelName">名称</entry>
+    <entry key="LabelType">类</entry>
+    <entry key="LabelSetAccess">设置访问权限</entry>
+    <entry key="LabelDescription">说明</entry>
+    <entry key="LabelValue">值</entry>
+  </message>
+</rsccat>

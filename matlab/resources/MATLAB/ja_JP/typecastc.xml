@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="firstArgMustBeVector">1 番目の入力引数は、ベクトルでなければなりません。</entry>
+    <entry key="secondArgMustBeCharArray">2 番目の入力引数は MATLAB のデータ型 (''double'' など) を表す文字配列または string でなければなりません。</entry>
+    <entry key="unsupportedClass">変換がサポートされないデータ型です。</entry>
+    <entry key="notEnoughInputElements">最初の入力に、{1} ({2,number,integer} ビット) から {3} ({4,number,integer} ビット) に変換する {0,number,integer} の倍数個の要素を含めなければなりません。</entry>
+    <entry key="firstArgMustBeFullNumArray">1 番目の入力引数は、非スパースで複素数でない数値でなければなりません。</entry>
+  </message>
+</rsccat>

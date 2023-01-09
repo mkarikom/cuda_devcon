@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">需要至少 2 个输入。</entry>
+    <entry key="OutvalNotScalarDouble">OUTVAL 必须为标量双精度值</entry>
+    <entry key="CoptionsNotStringCell">凸包选项必须为字符向量元胞数组或字符串数组。</entry>
+    <entry key="DoptionsNotStringCell">DOPTIONS 应为字符向量元胞数组。</entry>
+    <entry key="XandXIColSizeMismatch">X 和 XI 应具有相同的列维度。</entry>
+    <entry key="InvalidSizeT">T 的大小不正确，不能成为 X 的三角剖分。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="standardStream">stdin, stdout 또는 stderr에서 TEXTSCAN이 읽기를 수행할 수 없습니다.</entry>
+    <entry key="NotAnIntegerValue">{0}은(는) 정수 값이어야 합니다.</entry>
+    <entry key="NotAString">{0}은(는) 문자형 벡터이거나 누락값이 아닌 string형 스칼라여야 합니다.</entry>
+    <entry key="IncorrectEscapeConstant">{0}에 올바르지 않은 \\ 상수가 있습니다.</entry>
+    <entry key="LookforAndGetHeaderLines">Headerlines는 양의 정수여야 합니다.</entry>
+    <entry key="LookforAndGetHeaderColumns">Headercolumns는 양의 정수여야 합니다.</entry>
+    <entry key="LookforAndGetNumCharactersToSkip">NumCharactersToSkip은 양의 정수여야 합니다.</entry>
+    <entry key="NotNumericScalar">{0}은(는) 숫자형 스칼라여야 합니다.</entry>
+    <entry key="NumericInTreatAsEmpty">"TreatAsEmpty" 문자형 벡터의 값은 숫자일 수 없습니다. </entry>
+    <entry key="NonStringCellsInTreatAsEmpty">"TreatAsEmpty"에 대한 셀형 인수는 숫자형이 아닌 문자형 벡터를 포함해야 합니다.</entry>
+    <entry key="NonStringsInTreatAsEmpty">"TreatAsEmpty"의 값은 비어 있지 않은 문자형 벡터이거나 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="LookforAndGetEndofline">"EndOfLine"의 값은 단일 문자이거나 "\\r\\n"이어야 합니다.</entry>
+    <entry key="NonStringCellsInCommentStyle">"CommentStyle"의 값은 단일 문자형 벡터이거나, 주석의 시작과 끝으로 사용할 문자형 벡터의 쌍을 포함하는 셀형 배열일 수 있습니다.</entry>
+    <entry key="DelimiterSpaceConflict">공백 및 구분 기호 목록 모두에는 문자를 사용할 수 없습니다.\n공백 목록에서 구분 기호 문자를 제거하는 중입니다.\n</entry>
+    <entry key="SkipComments">종결되지 않은 주석을 발견했습니다.  파일의 나머지가 무시됩니다.</entry>
+    <entry key="BuildFormatString">HeaderColumns 수가 파일에 있는 열 수보다 많습니다.</entry>
+    <entry key="EmptyFormatString">파일 끝에는 빈 형식의 문자형 벡터가 지원되지 않습니다.</entry>
+    <entry key="UnableToReadFile">파일에서 데이터를 읽을 수 없습니다. TEXTSCAN을 수행할 읽기 권한이 없을 수 있습니다.</entry>
+    <entry key="handleErrorAndShowInfo">{1,number,integer}행, {2,number,integer}번 필드를 읽어 들일 때 "{0}" 필드를 구문 분석할 수 없습니다.\n 실제 텍스트: "{3}"\n 예상 텍스트: {4}</entry>
+    <entry key="NumericFieldFailure">숫자 또는 리터럴 "NaN", "Inf". (부호가 있을 수 있음, 대/소문자 구분 안 함)</entry>
+    <entry key="SetFieldFailure">문자 [{0}] 중 하나. (대/소문자 구분)</entry>
+    <entry key="NSetFieldFailure">[{0}] 이외의 다른 문자. (대/소문자 구분)</entry>
+    <entry key="LiteralFieldFailure">리터럴 텍스트 "{0}". (대/소문자 구분)</entry>
+    <entry key="HexFieldFailure">접두사 0x(선택 사항)를 갖는 16진수 문자 [0-9A-F]. (대/소문자 구분 안 함)</entry>
+    <entry key="BinaryFieldFailure">접두사 0b(선택 사항)를 갖는 이진 문자 '0' 또는 '1'. (대/소문자 구분 안 함)</entry>
+    <entry key="SecondInput">두 번째 입력값은 적어도 하나의 지정자나 리터럴 필드가 포함된 형식 문자형 벡터여야 합니다.</entry>
+    <entry key="UnpairedParamsValues">이름-값 쌍의 인수는 반드시 짝을 이루어야 합니다.</entry>
+    <entry key="UnknownOption">"{0}"은(는) 알 수 없는 파라미터입니다.</entry>
+    <entry key="BadFormatString">위치 {0,number,integer}에서 형식 문자형 벡터 {1}을(를) 구문 분석할 수 없습니다.\n{2}</entry>
+    <entry key="ClosingSet">문자 집합 지정자는 적어도 하나의 문자를 포함하고 "]"로 끝나야 합니다. (예: "%[abc]")</entry>
+    <entry key="ClosingDateFormat">날짜/시간은 %D, %T, %'{'...'}'D 또는 %'{'...'}'T 형식이어야 합니다.</entry>
+    <entry key="IncompleteFormat">형식 지정자는 유효한 유형 식별자로 끝나야 합니다(예: %f, %3c).</entry>
+    <entry key="UnsupportedSpecifier">"%{0}"은(는) 지원되지 않는 형식 지정자입니다. 지원되는 형식을 보려면 도움말 문서에서 TEXTSCAN을 참조하십시오.</entry>
+    <entry key="NoInput">첫 번째 입력값은 비어 있을 수 없습니다. 비어 있지 않은 문자형 벡터이거나 유효한 파일 ID여야 합니다.</entry>
+    <entry key="WrongInputType">첫 번째 입력값은 유효한 파일 ID이거나 비어 있지 않은 문자형 벡터여야 합니다.</entry>
+    <entry key="NotAStringOrCellOfStrings">{0}은(는) 문자형 벡터이거나 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="EmptyCellArrayInvalid">{0}은(는) 빈 셀형 배열일 수 없습니다.</entry>
+    <entry key="TooManyCategories">범주가 65534개를 초과하는 categorical형 배열은 생성할 수 없습니다. 이 필드에 "%C" 대신 "%q"를 사용해 보십시오.</entry>
+    <entry key="AllNatSuggestFormat">DATETIME 데이터의 형식을 확인할 수 없습니다.\nDATETIME 지정자에 형식을 추가해 보십시오(예: "%'{'{0}'}'D").</entry>
+    <entry key="AllNatSuggestLocale">시스템의 로캘 설정을 사용하여 DATETIME 데이터를 읽을 수 없습니다. "{0}"\n데이터에 이 로캘과 다른 언어로 된 월 이름 또는 요일 이름이 포함된 경우에는 "DateLocale" 파라미터를 사용하여 올바른 로캘을 지정하십시오.</entry>
+    <entry key="AllNatSuggestOther">형식이 "{0}"인 DATETIME 데이터를 읽을 수 없습니다. 데이터가 시간 데이터가 아니라면 %q를 사용하여 텍스트 데이터를 가져오십시오.</entry>
+    <entry key="AllNaNDurationSuggestOther">형식이 "{0}"인 DURATION 데이터를 읽을 수 없습니다. 데이터가 시간 데이터가 아니라면 %q를 사용하여 텍스트 데이터를 가져오십시오.</entry>
+    <entry key="AllNaNDurationSuggestFormat">DURATION 데이터의 형식을 확인할 수 없습니다.\nDURATION 지정자에 형식을 추가해 보십시오(예: "%'{'{0}'}'T").</entry>
+    <entry key="DurationFormatInvalid">"{0}"은(는) 유효한 기간 형식이 아닙니다</entry>
+    <entry key="UnableToGuessFormat">DATETIME 데이터는 형식 "{0}"을(를) 사용하여 만들어졌지만 "{1}"과(와)도 일치합니다.\n모호성을 방지하려면 형식 문자형 벡터를 사용하십시오. (예: "%'{'{2}'}'D")</entry>
+    <entry key="TimeZoneSupport">형식 문자형 벡터 "{0}"에 표준 시간대 필드가 포함되어 있습니다. TEXTSCAN은 표준 시간대 읽기를 지원하지 않습니다. %q를 사용하여 데이터를 텍스트로 읽고 DATETIME을 "TimeZone" 파라미터와 함께 사용하여 datetime형 배열을 생성하십시오.</entry>
+    <entry key="TextType">"TextType"의 값은 'char' 또는 'string'이어야 합니다.</entry>
+    <entry key="HexTruncationInvalid">16진수 리터럴 "{0}"에 지정된 자릿수가 너무 많습니다. 16진수 리터럴의 끝자리는 자를 수 없습니다.</entry>
+    <entry key="BinaryTruncationInvalid">Binary literal "{0}" specifies too many digits. Truncation of binary literals is not supported.</entry>
+  </message>
+</rsccat>

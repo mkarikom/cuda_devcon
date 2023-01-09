@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="schurNoConvergence">SCHUR 未在 index = {0,number,integer} 处收敛。</entry>
+    <entry key="matrixWithNaNInf">SCHUR 的输入不能包含 NaN 或 Inf。</entry>
+    <entry key="unknownOption">第二个输入必须为 ''real'' 或 ''complex''。</entry>
+    <entry key="realOptionIgnored">将对复矩阵忽略 ''real'' 选项。</entry>
+    <entry key="noSchurSparse">第一个输入必须为满矩阵。请使用 SCHUR(FULL(S))。</entry>
+    <entry key="inputType">第一个输入必须为单精度值或双精度值。</entry>
+    <entry key="inputMustBe2D">第一个输入必须为二维。</entry>
+    <entry key="inputMustBeSquare">第一个输入必须为方阵。</entry>
+  </message>
+</rsccat>

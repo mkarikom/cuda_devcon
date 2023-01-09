@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="getPickableAncestorInvalidNonScalarObject">The input object must be a scalar handle.</entry>
+    <entry key="getPickableAncestorInvalidNonHandleObject">The input object must be a handle object.</entry>
+    <entry key="getPickableAncestorInvalidObject">The input object must be a subclass of SceneNode.</entry>
+    <entry key="getChildExtentsInvalidNonScalarObject">The input object must be a scalar handle.</entry>
+    <entry key="getChildExtentsInvalidNonHandleObject">The input object must be a handle object.</entry>
+    <entry key="getChildExtentsInvalidObject">The input object must be a subclass of SceneNode.</entry>
+    <entry key="getChildExtentsInvalidNonScalarExcludedObject">The excluded object must be a scalar handle.</entry>
+    <entry key="getChildExtentsInvalidNonHandleExcludedObject">The excluded object must be a handle object.</entry>
+    <entry key="getChildExtentsInvalidExcludedObject">The excluded object must be a subclass of SceneNode.</entry>
+  </message>
+</rsccat>

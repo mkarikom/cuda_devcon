@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidThirdArgument">3 番目の入力引数は ''invisible'' か ''visible'' でなければなりません。</entry>
+    <entry key="InvalidSecondArgument">2 番目の入力引数は ''new'' か ''reuse'' でなければなりません。</entry>
+    <entry key="FigFileExpected">引数は .fig ファイルでなければなりません</entry>
+    <entry key="InvalidOption">''{0}'' は認識されたオプションではありません。</entry>
+  </message>
+</rsccat>

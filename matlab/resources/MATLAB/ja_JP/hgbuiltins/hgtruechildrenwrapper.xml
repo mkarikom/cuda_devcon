@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidinput">厳密に 1 つの入力配列がなければなりません。</entry>
+    <entry key="nonscalarinput">入力はスカラーのハンドルでなければなりません。</entry>
+    <entry key="mustbehandle">入力は有効なハンドルでなければなりません。</entry>
+  </message>
+</rsccat>

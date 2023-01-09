@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Annotations">注释</entry>
+    <entry key="Cancel">取消</entry>
+    <entry key="DefineNewEvent">定义新事件</entry>
+    <entry key="EditPlot">编辑绘图</entry>
+    <entry key="EmptyNamesNotAllowed">不允许使用空名。请选择其他名称。</entry>
+    <entry key="EnterNewName">输入新名称</entry>
+    <entry key="EventNameCannotBeEmpty">事件名称不能为空。</entry>
+    <entry key="Help">帮助</entry>
+    <entry key="InitializingTimeSeriesTools">正在初始化时序工具...</entry>
+    <entry key="InvalidCellArray">元胞数组无效。所有元素都必须是具有不同名称的有效时序。</entry>
+    <entry key="InvalidDateStringFormat">日期字符向量格式无效</entry>
+    <entry key="InvalidInputArguments">输入参数无效。返回的错误为: {0}</entry>
+    <entry key="Name">名称</entry>
+    <entry key="NameAlreadyDefined">''{0}'' 已定义。请选择其他名称。</entry>
+    <entry key="OK">确定</entry>
+    <entry key="PassBand">带通</entry>
+    <entry key="Redo">重做</entry>
+    <entry key="SlashesNotAllowed">不允许在名称中使用斜杠 (''/'')。请选择其他名称。</entry>
+    <entry key="StopBand">停止</entry>
+    <entry key="TheMINLimitMustBeSmallerThanTheMAXLimit">MIN 限制必须小于 MAX 限制</entry>
+    <entry key="TimeCannotBeEmpty">时间不能为空。</entry>
+    <entry key="TimeDate">时间/日期</entry>
+    <entry key="TimeMustEvaluateToANonemptyFiniteScalar">时间的计算结果必须为非空有限标量。</entry>
+    <entry key="TimeSeries">时序</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="Undo">撤消</entry>
+    <entry key="UnknownObjectType">指定了未知的对象类型。所有元素都必须是有效的数据对象:\n{0}，{1}。</entry>
+    <entry key="TstoolDeprecation">tstool 已删除。有关替代工具的详细信息，请参阅 R2014a 发行说明。</entry>
+    <entry key="TstoolRemove">tstool 已删除。有关替代工具的详细信息，请参阅 R2013b 发行说明。</entry>
+  </message>
+</rsccat>

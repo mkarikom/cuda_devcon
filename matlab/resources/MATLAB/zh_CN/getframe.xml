@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RequestedRectangleExceedsFigureBounds">指定矩形未完全包含在此图窗中。MATLAB 不再支持此功能。</entry>
+    <entry key="FigureWindowsMustBeEnabledForDecorations">MATLAB 图窗窗口已禁用。除非显示图窗窗口，否则 GETFRAME 无法捕获图窗框架、菜单或工具栏的任何部分。</entry>
+    <entry key="FigureWindowsMustBeEnabledForUIControls">MATLAB 图窗窗口已禁用。除非显示图窗窗口，否则 GETFRAME 无法捕获带有 UI 控件的图窗。</entry>
+    <entry key="ContentOutsideFigure">指定的矩形区域必须在图窗的 Position 属性的边界内。此参数将被忽略。</entry>
+  </message>
+</rsccat>

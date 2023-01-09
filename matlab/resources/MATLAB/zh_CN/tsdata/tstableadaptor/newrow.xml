@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidTableEntryDataNumericTimesScalar">表输入无效。数据必须为数值，时间必须为不同的标量或日期</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="AddNewRowToTimeseries">将新行添加到时序中</entry>
+  </message>
+</rsccat>

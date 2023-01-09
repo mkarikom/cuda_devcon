@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="WrongInputNum">Wrong number of input arguments.</entry>
+    <entry key="InputSizeMismatch">R,G,B must all be the same size.</entry>
+    <entry key="invalidInputSize">Input must be a Mx3 array for MAP or a MxNx3 array for RGB.</entry>
+    <entry key="invalidInputSizeRGB">RGB must be a MxNx3 array.</entry>
+    <entry key="invalidSizeForColormap">MAP must be a Mx3 array.</entry>
+    <entry key="badMapValues">Valid colormaps cannot have values outside the range [0,1].</entry>
+  </message>
+</rsccat>

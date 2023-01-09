@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelSound">声音</entry>
+    <entry key="LabelDisplay">显示</entry>
+    <entry key="ButtonPlaySound">播放声音</entry>
+    <entry key="SliderVolume">音量</entry>
+    <entry key="LabelSamples">样本</entry>
+    <entry key="PopupBirdChirps">鸟叫</entry>
+    <entry key="PopupChineseGong">中国锣</entry>
+    <entry key="PopupHallelujah">哈利路亚</entry>
+    <entry key="PopupDroppingEgg">鸡蛋掉落</entry>
+    <entry key="PopupTrainWhistle">火车鸣笛</entry>
+    <entry key="PopupLaughter">笑声</entry>
+    <entry key="PopupBeats">节拍</entry>
+    <entry key="TitleSamples">{0} 个采样</entry>
+    <entry key="PopupTimeSequence">时间序列</entry>
+    <entry key="PopupPowerSpectralDensity">功率谱密度</entry>
+    <entry key="PopupSpectrogram">频谱图</entry>
+    <entry key="PopupFM">FM</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidExpression">输入必须为函数句柄或符号函数。</entry>
+    <entry key="InvalidPairs">参数名称-值对组无效。</entry>
+    <entry key="InvalidParameter">参数 ''{0}'' 无效。</entry>
+    <entry key="MarkersNotSupported">不支持标记。</entry>
+    <entry key="NonScalarFunction">函数必须将标量输入映射到标量输出</entry>
+    <entry key="NotVectorized">函数处理数组输入时行为异常。要改善性能，请将您的函数正确向量化，以返回大小和形状与输入参数相同的输出。</entry>
+    <entry key="RangeVector">范围值必须为递增的 2 元素有限实数行向量。</entry>
+    <entry key="StringFunctionsDeprecated">在以后的版本中，fplot 将不接受字符向量或字符串输入。请改用 fplot({0})。</entry>
+    <entry key="TwoOutputsDeprecated">以后的版本中将会删除 fplot 带有两个输出参数的情况。请改用 XData 和 YData 属性。</entry>
+    <entry key="ToleranceDeprecated">fplot 的容差参数输入已删除。</entry>
+    <entry key="TooManyFunctions">函数太多。</entry>
+    <entry key="TooManyVariables">输入必须为一个或多个包含单个变量的函数。</entry>
+  </message>
+</rsccat>

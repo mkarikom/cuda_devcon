@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidNewVarNamesSpec">入力 table の変数を 1 つ指定して出力 table での新しい変数名とします。正の整数、変数名、または true 値が 1 つのみ含まれる logical ベクトルを使用してください。</entry>
+    <entry key="InvalidNewVarNames">''VariableNamesSource'' として指定された変数を変数名に変換できません。</entry>
+    <entry key="IncorrectNumVarNames">''VariableNamesSource'' として指定されている変数は、入力 table の各行に対して一意のテキストを 1 つ指定しなければなりません。多次元配列である変数の使用はサポートされていません。</entry>
+    <entry key="DataVarsIncludeVarNames">''VariableNamesSource'' として指定した変数をデータ変数に含めてはなりません。</entry>
+    <entry key="CannotTransposeTableInTable">入力 table に、それ自身が table である変数を含めてはなりません。rows2vars を呼び出す前に splitvars を使用して変数を個別に作成することを検討してください。</entry>
+    <entry key="CannotTransposeMulticolumnVar">入力 table に、複数列または N 次元の配列である変数を含めてはなりません。rows2vars を呼び出す前に splitvars を使用して変数を個別に作成することを検討してください。</entry>
+    <entry key="CannotTransposeNoColumnVar">入力 table に幅がゼロの変数を含めてはなりません。</entry>
+    <entry key="VarsizeTable">The number of rows in the input table must be fixed at compile time.</entry>
+    <entry key="UnsupportedVarNamesSource">''VariableNamesSource'' is not supported in code generation.</entry>
+    <entry key="NonconstantDataVars">''DataVariables'' value must be constant.</entry>
+    <entry key="NonconstantNamingRule">Variable naming rule must be constant.</entry>
+    <entry key="NonconstantRowNames">Row names in input table must be constant.</entry>
+  </message>
+</rsccat>

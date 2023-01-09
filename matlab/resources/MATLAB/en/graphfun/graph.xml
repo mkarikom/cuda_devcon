@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="DuplicateEdges">Duplicate edges not supported.</entry>
+    <entry key="DuplicateOmitSelfLoops">Specify ''omitselfloops'' only once.</entry>
+    <entry key="DuplicateUpperLower">Invalid option combination. Specify ''upper'' or ''lower''.</entry>
+    <entry key="EdgeListFourthArg">Node information must be a string vector, cell array of character vectors, a table, or a number of nodes.</entry>
+    <entry key="EdgeListNumNodes">Number of nodes argument not supported when edges are specified as node names.</entry>
+    <entry key="EdgePropsHasEndNodes">Edge properties must not contain an EndNodes variable.</entry>
+    <entry key="EdgesNeedTwoInputs">Not enough input arguments.</entry>
+    <entry key="EditEdges">Direct editing of edges is not supported. Use addedge or rmedge instead.</entry>
+    <entry key="InvalidAdjacencyType">Invalid data type. Adjacency matrix must be double, single, or logical.</entry>
+    <entry key="InvalidEdgeProps">Edge properties must be a table.</entry>
+    <entry key="InvalidEdges">Node IDs must both be numeric vectors, both be node names (specified as string vectors, character vectors, or cell arrays of character vectors), or both be categoricals.</entry>
+    <entry key="InvalidFlag">Option must be ''omitselfloops''.</entry>
+    <entry key="InvalidFlagAdjacency">Option must be ''upper'', ''lower'', or ''omitselfloops''.</entry>
+    <entry key="InvalidNames">Node names must not contain missing string (shown as &lt;missing&gt;).</entry>
+    <entry key="InvalidCategorical">Node names must not contain undefined categoricals (shown as &lt;undefined&gt;).</entry>
+    <entry key="CategoricalMixedOrdinal">Categorical arrays must both be ordinal or both not be ordinal.</entry>
+    <entry key="CategoricalOrdinalMismatch">Ordinal categorical arrays must have the same categories, including their order.</entry>
+    <entry key="InvalidNodeID">Numeric node IDs must be positive integers not greater than the number of nodes in the graph ({0}).</entry>
+    <entry key="InvalidNodeNames">Number of node names must match size of adjacency matrix.</entry>
+    <entry key="InvalidNumNodeTableRows">Number of rows in nodes table must match size of adjacency matrix.</entry>
+    <entry key="InvalidNodeRefd">Edge list contains a name not present in the node names argument.</entry>
+    <entry key="InvalidNumNodeNames">Not enough node names specified.  Specify at least {0} names.</entry>
+    <entry key="InvalidNumNodes">Number of nodes specified is too small.  Specify at least {0} nodes.</entry>
+    <entry key="InvalidNumNodesProps">Number of nodes specified must be real, finite, and nonnegative.</entry>
+    <entry key="InvalidNumNodesTable">Number of rows in nodes table is too small.  Specify at least {0} rows.</entry>
+    <entry key="InvalidSizeWeight">Weight must have as many elements as edge list or be a scalar.</entry>
+    <entry key="InvalidTableFormat">First variable in edge information table must be called EndNodes.</entry>
+    <entry key="InvalidTableSize">First variable in edge information table must be a 2-column array (numeric, cell, or string) of node names.</entry>
+    <entry key="InvalidWeights">Graph edge weights must be double or single, real, and not sparse.</entry>
+    <entry key="NodesTableNameShape">Name variable in node table must have one column.</entry>
+    <entry key="InvalidNameType">Node names must be a string vector or a cell array of character vectors.</entry>
+    <entry key="NodesTableNeedsName">Node table must have a Name variable.</entry>
+    <entry key="NonUniqueNames">Node names must be unique.</entry>
+    <entry key="NonColumnWeights">Weight must be a column vector with as many entries as there are edges in the graph.</entry>
+    <entry key="ScalarObject">Indexing not supported.</entry>
+    <entry key="SecondNotTable">Node information must be a table when edge information is a table.</entry>
+    <entry key="SetEdges">Direct editing of edges not supported. Use addedge or rmedge instead.</entry>
+    <entry key="SetNodes">Direct editing of nodes not supported. Use addnode or rmnode instead.</entry>
+    <entry key="SquareAdjacency">Adjacency matrix must be square.</entry>
+    <entry key="SymmetricAdjacency">Adjacency matrix must be symmetric. Alternatively, use option 'upper' or 'lower' to ignore part of the input matrix.</entry>
+    <entry key="OnlyDigraphSupported">Input graph must be directed.</entry>
+    <entry key="NoInDegreeUndir">In-degree of nodes is not supported for undirected graphs. Use degree instead.</entry>
+    <entry key="NoInEdgesUndir">By convention, nodes in an undirected graph only have outgoing edges. Use outedges instead.</entry>
+    <entry key="NoOutDegreeUndir">Out-degree of nodes is not supported for undirected graphs. Use degree instead.</entry>
+    <entry key="NoPredecessorsUndir">Node predecessors are not supported for undirected graphs. Use neighbors instead.</entry>
+    <entry key="NoSuccessorsUndir">Node successors are not supported for undirected graphs. Use neighbors instead.</entry>
+    <entry key="UnknownNodeName">Graph does not contain a node named ''{0}''.</entry>
+    <entry key="IncompatibleVersion">Unable to load graph because it is incompatible with this version of MATLAB.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidHandle">句柄无效</entry>
+    <entry key="ActionStringUnknown">未知的操作字符向量。</entry>
+    <entry key="UnknownString">未知的操作字符向量。</entry>
+    <entry key="InvalidInputAxes">输入必须为坐标区句柄</entry>
+    <entry key="InvalidInputZeroOne">输入必须为坐标区句柄</entry>
+    <entry key="InvalidInputForOutArg">未随这些输入参数一起指定一个输出参数。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FaceVertexCDataInvalidDataType">면, 꼭짓점, CData 좌표는 숫자형이어야 합니다.</entry>
+    <entry key="XYZInvalidDataType">X,Y,Z 좌표는 숫자형이어야 합니다.</entry>
+    <entry key="PatchFacesElementExceedsVerticesLength">패치 면 요소({1,number,integer},{2,number,integer})의 값({0})이 꼭짓점 길이({3,number,integer})를 초과함</entry>
+  </message>
+</rsccat>

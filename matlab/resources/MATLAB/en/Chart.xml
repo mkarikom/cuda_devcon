@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!-- Copyright 2016-2018 The MathWorks, Inc. -->
+<!-- Help strings for matlab.graphics.chart.Chart -->
+
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+  <!-- For the following, {0} is the name of the convenience function, {1} is the Type of the chart -->
+    <entry key="ConvenienceNoOutputs">Output arguments are not supported when using {0} with {1}.</entry>
+    <entry key="ConvenienceTooManyInputs">Too many input arguments specified when using {0} with {1}.</entry>
+	<entry key="ConvenienceNoInputs">Input arguments are required when using {0} with {1}.</entry>
+    <entry key="UnsupportedConvenienceFunction">Using {0} with {1} is not supported.</entry>
+    <entry key="UnsupportedArgument">Invalid option specified when using {0} with {1}. </entry>
+
+    <!-- In the following messages, {0} is the name of a property, such as XVariable or YVariable. -->
+    <entry key="InvalidTableSubscript" note="{0} is a property name, such as XVariable">''{0}'' value is an invalid table subscript.</entry>
+    <entry key="RowTimesNotSupported">Accessing the time vector in a timetable is not supported.</entry>
+    <entry key="NonScalarTableSubscript" note="{0} is a property name, such as XVariable, 'single variable' means 'only one variable', the datatype of the variable is irrelevant">''{0}'' value must reference a single variable in the source table.</entry>
+    <entry key="NotColumnVector" note="{0} is a property name, such as XVariable">''{0}'' value must refer to a variable in the source table that is a column vector.</entry>
+    <entry key="TableSubscriptInvalid" note="{0} is a property name, such as XVariable">''{0}'' value does not refer to a valid variable in the source table.</entry>
+    
+    <!-- Tool tip strings used for interactivity in heatmap -->
+    <entry key="TooltipSortRowAscending">Sort row in ascending order</entry>
+    <entry key="TooltipSortRowDescending">Sort row in descending order</entry>
+    <entry key="TooltipSortRowUndo">Undo row sorting</entry>
+    <entry key="TooltipSortColumnAscending">Sort column in ascending order</entry>
+    <entry key="TooltipSortColumnDescending">Sort column in descending order</entry>
+    <entry key="TooltipSortColumnUndo">Undo column sorting</entry>
+    <entry key="TooltipDragReorderRows">Click and drag to reorder rows</entry>
+    <entry key="TooltipDragReorderColumns">Click and drag to reorder columns</entry>
+    <entry key="TooltipResetView">Reset row and column order</entry>
+    
+    <!-- Strings used within interactive datatips in charts 
+         with custom datatips including heatmap and geobubble.
+         For example, a datatip may look like this:
+         +- - - - - - - - - - -+
+         | Location: New York  |
+         | Month: February     |
+         | Count: 15           |
+         | Row: 100            |
+         | Sum: 27             |
+         +- - - - - - - - - - -+
+    -->
+    <entry key="DatatipRow" note="Used for datatip. A data-derived numeric value follows.">Row</entry>
+    <entry key="DatatipSize" note="Used for datatip. A data-derived numeric value follows.">Size</entry>
+    <entry key="DatatipColor" note="Used for datatip.  A data-derived string follows.">Color</entry>
+    <entry key="DatatipGroup" note="Used for datatip.  A data-derived string follows.">Group</entry>
+    <entry key="DatatipCount" note="Used for datatip.  A data-derived numeric value follows.">Count</entry>
+    <entry key="DatatipMean" note="Used for datatip.  A data-derived numeric value follows.">Mean</entry>
+    <entry key="DatatipMedian" note="Used for datatip.  A data-derived numeric value follows.">Median</entry>
+    <entry key="DatatipNone" note="Used for datatip.  A data-derived numeric value follows.">Value</entry>
+    <entry key="DatatipSum" note="Used for datatip.  A data-derived numeric value follows.">Sum</entry>
+    <entry key="DatatipMin" note="Used for datatip.  A data-derived numeric value follows.">Minimum</entry>
+    <entry key="DatatipMax" note="Used for datatip.  A data-derived numeric value follows.">Maximum</entry>
+	<entry key="DatatipValue" note="Used for datatip.  A data-derived numeric value follows.">Value</entry>
+	<entry key="DatatipBinEdges" note="Used for datatip.  A data-derived numeric value follows.">BinEdges</entry>
+	<entry key="DatatipBinWidth" note="Used for datatip.  A data-derived numeric value follows.">BinWidth</entry>
+    
+    <!-- Shared by several chart primitive objects. -->
+    <entry key="SavingDisabled" note="{0} is a full class name">Saving an object of class ''{0}'' is not supported.</entry>
+  </message>
+</rsccat>

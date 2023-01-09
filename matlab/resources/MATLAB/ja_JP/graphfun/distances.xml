@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DijkstraNonNegative">すべてのエッジの重みが非負である場合にのみ、Method の値に ''positive'' を指定できます。</entry>
+    <entry key="DuplicateSRC">ソース ノード ID は一意でなければなりません。</entry>
+    <entry key="DuplicateTARG">ターゲット ノード ID は一意でなければなりません。</entry>
+    <entry key="InvalidWeights">グラフ エッジの重みに NaN が含まれています。</entry>
+    <entry key="JohnsonOverflow">エッジの重みが正しくスケーリングされていないため、計算できません。</entry>
+    <entry key="KeyWithoutValue">Method に値が指定されていません。</entry>
+    <entry key="NegativeWeights">グラフ エッジの重みは非負でなければなりません。</entry>
+    <entry key="NegCycle">グラフに長さ {0} の負の閉路 (ノード {1}) が含まれているため、最短パスの距離が未定義です。</entry>
+    <entry key="NotDAG">Method の値が ''acyclic'' である場合、有向グラフは非循環でなければなりません。</entry>
+    <entry key="ParseFlags">パラメーター名は ''Method'' でなければなりません。</entry>
+    <entry key="ParseMethodDir">Method の値は ''auto''、''unweighted''、''positive'' または ''mixed'' でなければなりません。</entry>
+    <entry key="ParseMethodUndir">Method の値は ''auto''、''unweighted'' または ''positive'' でなければなりません。</entry>
+    <entry key="ParseOutput">Method の値は ''cell''、''tree'' または ''vector'' でなければなりません。</entry>
+    <entry key="UnrecognizedParameter">パラメーター名 {0} が認識されません。</entry>
+  </message>
+</rsccat>

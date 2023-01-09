@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- This error is purposely empty.  It lets us have a single error id with different failure modes. -->
+    <entry key="borrowerror" translate="false">{0}</entry>
+    <!-- This error is purposely empty.  It lets us have a single checkout error id with different failure modes. -->
+    <entry key="checkouterror" translate="false">{0}</entry>
+    <entry key="badstate">This must only be called when not already in Licensed User mode.</entry>
+    <entry key="emptyusername">A valid user name must supplied.</entry>
+    <entry key="missingcheckoutfeature">The ''checkout'' option requires a feature name.</entry>
+    <entry key="missingquerycheckout">The ''queryCheckoutState'' option requires a feature name.</entry>
+    <entry key="missingquerytest">The ''queryTestState'' option requires a feature name.</entry>
+    <entry key="missingtestfeature">The ''test'' option requires a feature name.</entry>
+    <!-- This error is purposely empty.  It lets us have a single error id with different failure modes. -->
+    <entry key="returnerror" translate="false">{0}</entry>
+    <entry key="toomanychars">Feature name must be less than 28 characters.</entry>
+    <entry key="toomanyregistrations">(Internal error) Trying to register too many objects.</entry>
+    <entry key="SERVICES_LMGR_ERROR_CHECKOUT_FAILED" translate="false">License checkout failed.</entry>
+    <entry key="SERVICES_LMGR_ERROR_EMPTY_MSG" translate="false">{0}</entry>
+    <entry key="SERVICES_LMGR_ERROR_DIAG_INFO" translate="false">Feature: {0} \nLicense path: {1} \nLicensing error: {2,number,integer},{3,number,integer}.</entry>
+    <entry key="SERVICES_LMGR_ERROR_DIAG_TITLE" translate="false">Diagnostic Information:</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_BADCODE" translate="false">Make sure the HostID of the license file matches this machine, and that the HostID on the SERVER line matches the HostID of the license file.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_BADCOMM" translate="false">Make sure your machine can communicate with the license server.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_BADDATE" translate="false">Check that the formatting of the license file is correct.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_BADFEATPARAM" translate="false">The port number on the SERVER line is incorrect. \nMake sure the SERVER line in your license file matches the SERVER line on the license server.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_BADFILE" translate="false">Make sure that the formatting of the license file is correct. \nWhen editing the license file use a basic text editor.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_BADHOST" translate="false">Make sure your machine can communicate with the license server.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_BADSYSDATE" translate="false">The date on the computer is set for an earlier date than the license file was generated for. \nMake sure your system date is correct.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_BORROW_MATCH_ERR" translate="false">Error, borrowed license does not match any known server license.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_BORROW_RETURN_SERVER_ERR" translate="false">Error returning borrowed license.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_BORROW_TOOLONG" translate="false">Cannot borrow product for that long.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_CANTCONNECT" translate="false">Unable to connect to the license server. \nCheck that the network license manager has been started, and that the client machine can communicate with the license server.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_CANTREAD" translate="false">Make sure the vendor daemon path in the license file is correct.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_CANTWRITE" translate="false">Make sure the license server port specified in the SERVER line of the license.dat file is not in use by another application. \nTry changing this port number and restarting the license manager.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_FEATEXCLUDE" translate="false">The user/host has been excluded from {0} in the options file on the license server. \nContact your License Administrator to review the Options File.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_FEATNOTINCLUDE" translate="false">User/host not on INCLUDE list for {0}. \nContact your License Administrator to review the Options File.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_FUTURE_FILE" translate="false">The formatting in the license file is incorrect. \nMake sure each instance of #, SERVER, DAEMON, and INCREMENT are left justified on a new line.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_HOSTDOWN" translate="false">Unable to connect to the license server. \nMake sure that the client machine can communicate with the hostname listed in the SERVER line of the license file, and that the port listed in the SERVER line is not blocked by a firewall.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_LONGGONE" translate="false">Your license for {0} has expired. \nIf you are not using a trial license contact your License Administrator to obtain an updated license. \nOtherwise, contact your Sales Representative for a trial extension.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_MAXLIMIT" translate="false">Checkout exceeds MAX specified in options file. \nContact your License Administrator to review the Options File.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_MAXUSERS" translate="false">Maximum number of users for {0} reached. \nTry again later.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_NOBORROWSUPP" translate="false">Could not borrow the product because borrowing is disabled for this product.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_NOCONFFILE" translate="false">The license.dat file cannot be found.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_NOFEATURE" translate="false">Cannot find a license for {0}.</entry>
+    <!-- This error is only used for passing the message to the dispatcher.  0 is a function name, 1 is a feature name.  This message is translated. -->
+    <entry key="NoFeature" >{0} requires a {1} license.</entry> 
+    <entry key="SERVICES_LMGR_ERROR_LM_NONETOBORROW" translate="false">No licenses available to borrow.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_NOSERVER" translate="false">Unable to connect to the license server. \nMake sure the vendor daemon path in the DAEMON line of the license file is correct.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_NOTTHISHOST_DEFAULT" translate="false">This error may occur when: \n-The hostid of this computer does not match the hostid in the license file. \n-A Designated Computer installation is in use by another user. \nIf no other user is currently running this program, you may need to activate.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_NOTTHISHOST_HOSTID" translate="false">The hostid of your computer ({0}) does not match the hostid of the license file ({1}). \nTo run on this computer, you must run the Activation client to reactivate your license.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_NOTTHISHOST_USERNAME_EXPNAME" translate="false">Your username does not match the username in the license file ({0}). \nTo run on this computer, you must run the Activation client to reactivate your license.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_NOTTHISHOST_USERNAME_NONAMES" translate="false">Your username does not match the username in the license file. \nTo run on this computer, you must run the Activation client to reactivate your license.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_NOT_THIS_HOST" translate="false">Unable to connect to the license server. \nMake sure you can resolve the hostname of your machine. \nIf you are unable to resolve the hostname, contact your System Administrator.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_NO_SERVER_IN_FILE" translate="false">SERVER and DAEMON lines are missing from the license file. \nYou will need to reinstall the network license manager to have these lines automatically added to the license file.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_NOSOCKET" translate="false">A new version of the network license manager is required. \nUpdate the license manager to the latest version.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_OLDVER" translate="false">This version is newer than the version of the license file and/or network license manager on the server machine. \nMake sure the license manager has been updated to the latest release.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_PLATNOTLIC" translate="false">The license file has been generated for a platform/processor that differs from this machine.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_SERVER_REMOVED" translate="false">Verify that the HostID of the license file matches this machine, and that the HostID on the SERVER line matches the HostID of the license file.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_SERVLONGGONE" translate="false">This version is newer than the version of the license.dat file and/or network license manager on the server machine. \nMake sure the license manager has been updated to the latest release.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_SERVOLDVER" translate="false">This version is newer than the version of the license.dat file and/or network license manager on the server machine. \nMake sure the license manager has been updated to the latest release.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_SIGN_REQ" translate="false">This release requires a network license manager update and a new license file from the License Center.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_TOOEARLY" translate="false">The license start date is in the future. \nMake sure the system date on your computer is correct.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_USER_BASED" translate="false">USER_BASED license has no specified users. \nMake sure the Options File exists and that the path to it is correctly listed in the DAEMON line of the license file.</entry>
+    <entry key="SERVICES_LMGR_ERROR_LM_VENDOR_DOWN" translate="false">License Manager cannot start. \nCheck that the ports specified in the license file are not already in use. \nRestarting your machine may clear the ports.</entry>
+    <entry key="SERVICES_LMGR_ERROR_NO_DIAG_INFO" translate="false">No diagnostic information available.</entry>
+    <entry key="SERVICES_LMGR_ERROR_SOLUTION_URLANDBUTTON" translate="false">Troubleshoot this issue by selecting the button below or visiting: \n{0}</entry>
+    <entry key="SERVICES_LMGR_ERROR_SOLUTION_URLONLY" translate="false">Troubleshoot this issue by visiting: \n{0}</entry>
+    <entry key="SERVICES_LMGR_ERROR_SYSERR" translate="false">System Error: {0,number,integer}</entry>
+    <entry key="SERVICES_LMGR_ERROR_TITLE" translate="false">License Manager Error {0,number,integer}</entry>
+    <entry key="SERVICES_LMGR_ERROR_UNKNOWN" translate="false">Unknown license manager error.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TypeMismatch">{0}에 대한 입력값은 categorical형 배열이거나 문자형 벡터로 구성된 셀형 배열, string형 스칼라여야 합니다.</entry>
+    <entry key="OrdinalMismatch">{0}에 대한 입력값은 모두 순서형이거나 모두 순서형이 아니어야 합니다.</entry>
+    <entry key="UnknownInput">유효하지 않은 입력값입니다. 유효한 플래그는 문자형 벡터여야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnsupportedPlatform">ヘルプ ブラウザーはこのプラットフォームでサポートされません。代わりに、helpdesk または helpwin を試してください。</entry>
+    <entry key="HelpBrowserFailed">ヘルプ ブラウザーを開けません</entry>
+    <entry key="FunctionToBeRemoved">HELPBROWSER は将来のリリースで削除される予定です。代わりに DOC を使用してください。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidCellSelection">cell の選択インデックスは N 行 2 列の数値配列でなければなりません。</entry>
+    <entry key="InvalidRowSelection">行の選択インデックスは 1 行 N 列の数値配列でなければなりません。</entry>
+    <entry key="InvalidColumnSelection">列の選択インデックスは 1 行 N 列の数値配列でなければなりません。</entry>
+    <entry key="SelectionOutOfBoundary">選択インデックスがデータの範囲外です。</entry>
+    <entry key="InvalidSingleSelection">'Multiselect' が 'off' の場合、'Selection' は空にするか、または 'row' および 'column' 選択タイプではスカラー数値、'cell' 選択タイプでは 1 行 2 列の数値配列にしなければなりません。</entry>
+  </message>
+</rsccat>

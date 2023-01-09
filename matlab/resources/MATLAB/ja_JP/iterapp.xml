@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidOp">演算が無効です。</entry>
+    <entry key="InvalidInput">ユーザーが指定した {0} ==&gt; {1} は、以下のエラーで失敗しました。\n \n {2}</entry>
+    <entry key="MustReturnColumn">ユーザーが指定した {0} ==&gt; {1} は、列ベクトルを返さなければなりません。</entry>
+  </message>
+</rsccat>

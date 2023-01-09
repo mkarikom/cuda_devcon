@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ActivatingSpecialPlotFeatures">激活特殊的绘图功能</entry>
+    <entry key="AddingLayoutManager">添加“布局管理器”</entry>
+    <entry key="Completed">已完成</entry>
+    <entry key="Copy">复制</entry>
+    <entry key="DefineDisplayedTimeSeries">定义显示的时序</entry>
+    <entry key="Delete">删除</entry>
+    <entry key="Detrend">去除趋势...</entry>
+    <entry key="DragAndDropToView">将时序节点拖放到视图</entry>
+    <entry key="EditPlot">编辑绘图...</entry>
+    <entry key="Filter">筛选...</entry>
+    <entry key="InitializingTimeSeriesPlot">初始化时序图</entry>
+    <entry key="Interpolate">插值...</entry>
+    <entry key="InvalidSubplotIndex">子图索引无效</entry>
+    <entry key="NewNodeName">新节点名称</entry>
+    <entry key="Paste">粘贴</entry>
+    <entry key="Path">路径</entry>
+    <entry key="PlotIsEmpty">绘图为空。编辑绘图之前将时序拖放到绘图窗口中。</entry>
+    <entry key="ProcessData">处理数据</entry>
+    <entry key="RemoveMissingData">删除缺少的数据...</entry>
+    <entry key="RemoveTimeSeriesFromView">从视图中删除时序</entry>
+    <entry key="Rename">重命名</entry>
+    <entry key="ResampleData">重采样数据...</entry>
+    <entry key="Size">大小</entry>
+    <entry key="ThePropertyEditorCanBeUsed">“属性编辑器”可用于自定义\n时序图的外观和行为。\n是否打开“属性编辑器”?</entry>
+    <entry key="TheLargestSubplotIndex">最大的子图索引向量不能大于绘图中所有时序的所有列的总和:{0,number,integer}</entry>
+    <entry key="TheLengthOfTheSubplotIndex">子图索引向量的长度必须等于时序中的列数 ({0,number,integer})</entry>
+    <entry key="TimeSeries">时序</entry>
+    <entry key="TimeSeriesAreAlreadyDisplayedInThePlot">时序 {0} 已显示在绘图中。</entry>
+    <entry key="TimeSeriesPlot">时序图</entry>
+    <entry key="TimeSeriesPlots">时序图</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="SubplotIndex">子图索引</entry>
+    <entry key="UpdatingPlot">正在更新绘图...</entry>
+    <entry key="ViewNode">视图节点</entry>
+    <entry key="Visible">是否可见?</entry>
+  </message>
+</rsccat>

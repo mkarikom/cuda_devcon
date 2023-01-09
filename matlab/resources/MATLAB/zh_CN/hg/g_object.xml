@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DestroyCallbackStomped">其他人的 GObject DestroyCallback 被覆盖</entry>
+    <entry key="WriteCallbackStomped">其他人的 GObject WriteCallback 被覆盖</entry>
+    <entry key="MustBeInSameFigure">对象及其 uicontextmenu 必须位于同一图窗中</entry>
+    <entry key="BadHandleType">句柄必须为 uicontextmenu</entry>
+    <entry key="DontNeedToSetInvalMethods">我们不需要设置 Inval 方法 --&gt; 应设置 bounds</entry>
+    <entry key="TransformFcnNotSet">未为 {0} 对象设置 Transform fcn</entry>
+    <entry key="DestroyFcnNotSet">未为 {0} 对象设置 Destroy fcn</entry>
+    <entry key="ObjectInRectFcnNotSet">未为 {0} 对象设置 ObjectInRect fcn</entry>
+    <entry key="ComputeNormalsFcnNotSet">未为 {0} 对象设置 ComputeNormals</entry>
+    <entry key="RenderFcnNotSet">未为 {0} 对象设置 Render fcn</entry>
+    <entry key="ZBufferRendererFcnNotSet">未为 {0} 对象设置 Zbuffer 渲染器</entry>
+    <entry key="GetSubobjPolyFcnNotSet">未为 {0} 对象设置 GetSubobjPoly fcn</entry>
+    <entry key="OkToRenderFcnNotSet">未为 {0} 对象设置 OkToRender fcn</entry>
+    <entry key="CannotSetProperty">出厂属性只能进行查询，不能设置</entry>
+    <entry key="BadParent">父级无效</entry>
+    <entry key="TooManyObjectsCreatedWhileDeletingChildren">删除 {0} 子级时创建的对象太多；\n将删除所有后代的 DeleteFcn 以防止出现无限循环</entry>
+    <entry key="CannotDeleteObject">不能删除根对象</entry>
+    <entry key="FunctionNotSet">未为 {0} 对象设置函数</entry>
+    <entry key="SetupFunctionNotSet">未为 {0} 对象设置 Setup 函数</entry>
+    <entry key="UpdateFunctionNotSet">未为 {0} 对象设置 Update 函数</entry>
+    <entry key="MatrixDimensionMismatch">当两个参数都不为标量时，矩阵大小必须匹配</entry>
+    <entry key="BadHandle1">句柄无效</entry>
+    <entry key="BadHandle2">句柄无效</entry>
+    <entry key="ParentCannotBeReset">无法重置父级</entry>
+    <entry key="ParentChildMismatchError">类 {0} 的对象，不能是类 {1} 的子级。</entry>
+    <entry key="ObjectCannotBeChild">对象 {0}[{1,number,integer}] 不能是父 {2}[{3,number,integer}] 的子级</entry>
+    <entry key="ChildrenMayOnlyBeSetToPermutationOfSelf">子级只能设置为自身的排列</entry>
+    <entry key="BadPropertyValueFound">找到错误的属性值。</entry>
+    <entry key="AmbiguousPropertyFound">找到具有多义性的属性。</entry>
+    <entry key="AttemptToModifyReadOnly">尝试修改只读属性</entry>
+    <entry key="CannotCreateCopyOfInvalidHandle">Copyobj 无法创建无效句柄的副本。\n</entry>
+    <entry key="sparseArgs">输入必须为满矩阵。</entry>
+  </message>
+</rsccat>

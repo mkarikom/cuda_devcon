@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidSize">大小向量必须包含至少 2 个元素。</entry>
+    <entry key="SubscriptVectorSize">下标向量的大小必须相同。</entry>
+    <entry key="IndexOutOfRange">下标超出范围。</entry>
+  </message>
+</rsccat>

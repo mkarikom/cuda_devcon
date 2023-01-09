@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="DropDownLabel">Data</entry>
+      <entry key="NormalizeXData">Center and scale x-axis data</entry>
+      <entry key="HelpLabel">Help</entry>
+      <entry key="Equation">Equation</entry>
+      <entry key="Coefficients">Coefficients</entry>
+      <entry key="FitTypes">TYPES OF FIT</entry>
+      <entry key="Results">FIT RESULTS</entry>
+      <entry key="Residuals">ERROR ESTIMATION (RESIDUALS)</entry>
+      <entry key="Evaluate">INTERPOLATE / EXTRAPOLATE DATA</entry>
+      <entry key="XData">X</entry>
+      <entry key="NormalizeXTooltip">Improve the precision of the computed parameters</entry>
+      <entry key="Digits">Significant digits</entry>
+      <entry key="ExportResultsToWorkspace">Export Results to Workspace...</entry>
+      <entry key="ExportEvaluationToWorkspace">Export Evaluation to Workspace...</entry>
+      <entry key="FigureName">Basic Fitting</entry>
+      <entry key="LinearFit">Linear</entry>
+      <entry key="QuadraticFit">Quadratic</entry>
+      <entry key="CubicFit">Cubic</entry>
+      <entry key="SplineFit">Spline interpolant</entry>
+      <entry key="ShapeFit">Shape-preserving interpolant</entry>
+      <entry key="Degree4Fit">4th degree polynomial</entry>
+      <entry key="Degree5Fit">5th degree polynomial</entry>
+      <entry key="Degree6Fit">6th degree polynomial</entry>
+      <entry key="Degree7Fit">7th degree polynomial</entry>
+      <entry key="Degree8Fit">8th degree polynomial</entry>
+      <entry key="Degree9Fit">9th degree polynomial</entry>
+      <entry key="Degree10Fit">10th degree polynomial</entry>
+      <entry key="PlotStyleLabel">Plot Style</entry>
+      <entry key="PlotLocationLabel">Plot Location</entry>
+      <entry key="NewDataFieldTooltip">Enter value(s) or a valid MATLAB expression such as x,1:2:10 or [10,15]</entry>
+      <entry key="PlotDataCheckboxLabel">Plot evaluated data</entry>
+      <entry key="PlotDataCheckboxTooltip">Plot interpolated/extrapolated data points</entry>
+      <entry key="ShowEquationTooltip">Show Equation on chart</entry>
+      <entry key="ShowR2Tooltip">Show R-squared on chart</entry>
+      <entry key="ExportToWorkspace">Export to Workspace...</entry>
+      <entry key="FitResults">Fit Results</entry>
+      <entry key="ProgressLabel">Please wait - Initializing</entry>
+      <entry key="LoadLabel">Loading</entry>
+      <entry key="FinishLabel">Finishing</entry>
+      <entry key="InitialLabel">Opening for the first time</entry>
+      <entry key="NoResultsFound">no results to display</entry>
+      <entry key="cubictab">Cubic</entry>
+      <entry key="lineartab">Linear</entry>
+      <entry key="quadratictab">Quadratic</entry>
+      <entry key="ntab">{0}th degree</entry>
+      <entry key="shapetab">Shape-preserving</entry>
+      <entry key="splinetab">Spline</entry>
+      <entry key="noneVal" note="as in no chart">None</entry>
+      <entry key="barVal" note="as a chart type like bar chart">Bar</entry>
+      <entry key="scatterVal" note="as a chart type like scatter chart">Scatter</entry>
+      <entry key="lineVal" note="as a chart type like line chart">Line</entry>
+      <entry key="subplotVal">Subplot</entry>
+      <entry key="newFigureVal">New Figure</entry>
+      <entry key="expandResults">Expand Results...</entry>
+      <entry key="NormOfResidualsLabel">Norm of residuals</entry>
+      <entry key="NormOfResidualsTooltip">Show norm of residuals</entry>
+   </message>
+</rsccat>

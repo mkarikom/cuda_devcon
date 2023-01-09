@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011, 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="WrongNumberOfComponentsException">Cdata should have 1, 3, or 4 components</entry>
+    <entry key="NumColorsNotEqualNumVertsException">Number of colors must equal number of vertices</entry>
+    <entry key="NumColorsNotEqualNumVertsOrNumFacesException">Number of colors must equal number of vertices or faces</entry>
+    <entry key="NumAlphaNotEqualNumVertsException">Number of alpha values must equal number of vertices</entry>
+    <entry key="NumAlphaNotEqualNumVertsOrNumFacesException">Number of alpha values must equal number of vertices or faces</entry>
+    <entry key="UnsupportedColorStyleException">This color style isn't implemented yet</entry>
+    <entry key="InterpColorFailure">Could not interpolate facecolor for new vertex</entry>
+    <entry key="InterpNormalFailure">Could not interpolate vertexnormal for new vertex</entry>
+    <entry key="mxArrayBadType">Unsupported type for Faces array</entry>
+    <entry key="MarkerFaceColorNotEqualToNumColors">number of colors  must be equal to number of vertices when MarkerFaceColor is Flat</entry>
+    <entry key="MarkerFaceColorNotEqualToNumColorsEmpty">value was empty, number of colors must be equal to number of vertices, when MarkerFaceColor is Flat</entry>
+    <entry key="FacesToVerticesDataInconsistency">Values in Faces must lie within the range, 1 and number of vertices</entry>
+    <entry key="FaceVertexAlphaDataNull">FaceVertexAlphaData must be specified when FaceAlpha is flat or interp</entry>
+    <entry key="FaceColorToAlphaInconsistency">Flat or interp true alpha is not supported when the FaceColor is interp indexed</entry>
+    <entry key="VertexNormalsToVerticesInconsistency">Size of VertexNormals must be equal to the size of Vertices when lighting mode used is Gouraud</entry>
+    <entry key="InvalidVertexNormals">VertexNormals cannot be an empty array when lighting mode used is Gouraud</entry>
+    <entry key="FaceNormalsToFacesInconsistency">Size of FaceNormals must be equal to the size of Faces when lighting mode used is Flat</entry>
+    <entry key="InvalidFaceNormals">FaceNormals cannot be specified as an empty array when lighting mode used is Flat</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonTable">入力引数は table でなければなりません。</entry>
+    <entry key="AllCellVariables">コード生成では、table2array は変数がすべて cell 配列である table は、サポートされません。</entry>
+  </message>
+</rsccat>

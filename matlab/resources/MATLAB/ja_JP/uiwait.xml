@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInputType">入力引数は Figure のタイプでなければなりません</entry>
+    <entry key="InvalidSecondInputType">2 番目の入力は数値でなければなりません</entry>
+    <entry key="InvalidSecondInputValue">タイムアウト値を 1 秒より小さくすることはできないため、タイムアウト値を 1 秒に変更しています。</entry>
+  </message>
+</rsccat>

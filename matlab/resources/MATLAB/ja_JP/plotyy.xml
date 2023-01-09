@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidAxesHandleSyntax">関数 ''{0}'' は、親 Axes の仕様に対する共通の構文を許可しません。Axes のハンドルは、最初の入力引数でなければならないか、あるいは、プロパティ/値の組み合わせで指定されなければなりません。詳細は、以下のエラーを参照してください。\n</entry>
+    <entry key="AutoResizeChildren">''AutoResizeChildren'' プロパティが ''on'' に設定されたコンテナー内で plotyy を使用することはサポートされていません。</entry>
+  </message>
+</rsccat>

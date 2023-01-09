@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFirstFigureHandle">第一个参数必须为图窗</entry>
+    <entry key="InvalidAction">字符向量必须为 ''on''、''off''、''togglesnap''、''toggleview'' 或 ''noaction''</entry>
+    <entry key="InvalidFigureHandle">句柄参数必须为有效图窗</entry>
+    <entry key="InvalidOnOff">字符向量必须为 ''on'' 或 ''off''</entry>
+    <entry key="NoFigures">必须有可启用“对齐网格”的图窗</entry>
+  </message>
+</rsccat>

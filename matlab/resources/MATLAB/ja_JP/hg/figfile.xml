@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SizeMismatch">親配列のサイズは、構造体配列のサイズと一致しなければなりません</entry>
+    <entry key="BadHandle">無効な親ハンドル</entry>
+    <entry key="OutOfMemory">メモリが足りません。詳細については、&lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/memory.html'))\"&gt;memory&lt;/a&gt;を参照してください。</entry>
+    <entry key="FigFileOptArgMustBeAll">オプション引数は ''all'' でなければなりません。</entry>
+    <entry key="FigFileOptArgMustBeConvertOrAll">オプション引数は ''convert'' または ''all''、あるいはその両方でなければなりません。</entry>
+    <entry key="FigFileUnrelatedObjectHandles">ハンドルは無関係のオブジェクトに属していなければなりません。</entry>
+    <entry key="FigFileInvalidStruct">グラフィカル オブジェクトの構造体形式が無効です。</entry>
+    <entry key="FigFileArgMustBeArrayOfParents">2 番目の引数は、親ハンドルの配列でなければなりません。</entry>
+    <entry key="AmbiguousPropertyFound">あいまいなプロパティが見つかりました。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="tooFewInputs">Figure 또는 블록 다이어그램과 파일 이름에 대한 핸들이 필요합니다.</entry>
+    <entry key="badFormat">지원되지 않는 형식 또는 확장자임: {0}</entry>
+    <entry key="invalidHandle">유효하지 않은 핸들입니다.</entry>
+    <entry key="invalidFigureHandle">유효하지 않은 Figure 핸들입니다.</entry>
+    <entry key="invalidSimulinkHandle">Simulink 핸들이 유효하지 않습니다.</entry>
+    <entry key="invalidFilename">파일 이름이 유효하지 않습니다.</entry>
+    <entry key="invalidFilenameFile">유효하지 않은 파일 이름임: {0}</entry>
+    <entry key="invalidFilenameAsterisk">유효하지 않은 파일 이름임: {0}. *는 유효한 파일 이름 문자가 아닙니다.</entry>
+    <entry key="invalidFilenameExtension">유효하지 않은 확장자임: {0}</entry>
+    <entry key="invalidFilenameBadPath">잘못되었거나 누락된 경로임: {0}</entry>
+  </message>
+</rsccat>

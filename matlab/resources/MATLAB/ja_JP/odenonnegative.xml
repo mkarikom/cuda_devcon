@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonNegativeViolatedAtT0">非負の制約は t0 で違反しました。</entry>
+    <entry key="NonNegativeIndicesInvalid">ODESET(''NonNegative'',idx) に指定されたすべてのインデックスは、1 &lt;= idx &lt;= neq を満たさなければなりません</entry>
+  </message>
+</rsccat>

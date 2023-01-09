@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="mf0">
+  <message>
+    <entry key="UniquenessConstraint">Violated uniqueness constraint.</entry>
+    <entry key="CannotAddSecondObject">Cannot add second instance of this object.</entry>
+    <entry key="CannotAddIncompatibleObjectSubset">Cannot add the object that does not match the filter into the subset collection.</entry>
+    <entry key="CannotChangeModel">Cannot move object to another model.</entry>
+    <entry key="CannotCreateWithoutModel">Cannot create an object without a model.</entry>
+    <entry key="CircularContainment">Object cannot be indirectly contained by itself.</entry>
+    <entry key="UnsupportedQualification">Property qualification of type ''{0}'' is not supported.</entry>
+    <entry key="DuplicateTypeInRegistry">Cannot register type ''{0}'', type with the same qualified name already exists.</entry>
+    <entry key="CannotSetReadOnlyProperty">Cannot set read-only property ''{0}''.</entry>
+    <entry key="CannotAddIncompatibleTypes">Cannot add object of an incompatible type ''{0}'' while expecting ''{1}''.</entry>
+    <entry key="CannotAddNonExistentObject">Cannot add nonexistent object.</entry>
+    <entry key="CannotCastIncompatibleTypes">Incompatible type, expecting ''{0}''.</entry>
+    <entry key="NoOpenTransaction">Transaction is not open.</entry>
+    <entry key="ChangesProhibited">Changes are not allowed at this phase of the transaction.</entry>
+    <entry key="UUIDConflict">UUID Conflict.</entry>
+    <entry key="CannotUsePropertyWithoutType">Cannot use property ''{0}'' without a type.</entry>
+    <entry key="NoSuchOperation">No operation ''{0}'' has been found for object of type ''{1}''.</entry>
+    <entry key="NoSuchProperty">No property ''{0}'' has been found for object of type ''{1}''.</entry>
+    <entry key="NoSuchExtension">No extension ''{0}'' has been found for object of type ''{1}''.</entry>
+    <entry key="NoSuchType">Type ''{0}'' has not been found in the registry.</entry>
+    <entry key="InvalidIndex">Invalid index.</entry>
+    <entry key="InvalidValue">The property value is invalid.</entry>
+    <entry key="UnknownClass">Unknown class: ''{0}''.</entry>
+    <entry key="UnknownProperty">Unknown property ''{0}'' of class ''{1}''.</entry>
+    <entry key="NoQualifiedName">Object has no qualified name.</entry>
+    <entry key="ConstraintQueryMismatch">Constraint cannot be added to this query.</entry>
+    <entry key="NoSetterForCollections">Setters for collections are unsupported. Use a getter instead and work on the returned collection.</entry>
+    <entry key="ClassNameMustBeAString">Class name must be a string.</entry>
+    <entry key="CyclicInheritance">Cyclic inheritance of class ''{0}'' detected.</entry>
+    <entry key="ExtensionMustHaveName">Cannot add a dynamic property without a name</entry>
+    <entry key="ExtensionMustHaveDefaultValue">Single-valued dynamic primitive property must have a default value</entry>
+    <entry key="ExtensionNameMustBeUnique">Cannot add a dynamic property: a dynamic property with that name already exists</entry>
+    <entry key="CannotInstantiateCollection">Cannot instantiate a collection of type ''{0}''</entry>
+    <entry key="ModelFrozen">Model is frozen and cannot be changed</entry>
+    <entry key="CanOnlyCallOnScalar">Only scalar input is supported</entry>
+    <entry key="CannotAssignMapKey">Cannot add a value with a key: the actual key is derived from the value</entry>
+    <entry key="DefaultDispCategoryTitle">Miscellaneous:</entry>
+    <entry key="CannotJoinShallowTransaction">Cannot join a shallow transaction</entry>
+    <entry key="CannotMigrateModel">Model cannot join this constellation</entry>
+    <entry key="CannotCreateCrossModelAssociation">Cannot create a cross-model association to this object</entry>
+    <entry key="CannotModifyProxy">Cannot modify an unresolved proxy</entry>
+    <entry key="DuplicateFQN">Duplicate FQN detected: ''{0}''.</entry>
+    <entry key="InvalidURI">Invalid Package URI detected: ''{0}''.</entry>
+    <entry key="CreateWithDestroyAll">Cannot create an element in the same transaction with destroyAllContents()</entry>
+    <entry key="GetOldValueFromNonDeep">Cannot call getOldValue() from non-deep transaction</entry>
+    <entry key="CannotDetachDataSourceInTransaction">Cannot detach data source while in transaction</entry>
+    <entry key="DuplicateCorrelationId">Cannot send correlated packet: correlation id already in use</entry>
+    <entry key="CorrelatedPacketTimedOut">Timed out waiting for correlated packet response</entry>
+    <entry key="NoTransportAvailable">No transport available to send message</entry>
+    <entry key="DuplicateEndpointImplementation">An implementation of this endpoint is already attached to this model. Duplicate endpoints are not allowed.</entry>
+    <entry key="EndpointImplementationNotFound">No implementation of the endpoint was attached to the model.</entry>
+    <entry key="RemoteError">An exception has been thrown by a remote endpoint invocation.</entry>
+
+</message>
+</rsccat>

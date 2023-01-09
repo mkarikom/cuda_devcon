@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WhatsThis">这是什么</entry>
+    <entry key="FirstTimeValuesAreInvalid">前 {0,number,integer} 个时间值无效。自动选择从行 {1,number,integer} 开始。</entry>
+    <entry key="SpecifyData">指定数据</entry>
+    <entry key="CurrentVariableDataOrganizedByRowColumn">如果当前变量中的数据按列排列，请选择“列”，否则选择“行”。</entry>
+    <entry key="DataBlockDefinedBy">数据块定义依据: </entry>
+    <entry key="TopleftCell">左上单元格</entry>
+    <entry key="KeyInTopleftCornerOfDesiredBlock">所需块左上角的键，使用 MS Excel A1 引用样式(例如 A12)。</entry>
+    <entry key="BottomrightCell">右下单元格</entry>
+    <entry key="KeyInBottomrightCornerOfDesiredBlock">所需块右下角的键，使用 MS Excel A1 引用样式(例如 B34)。</entry>
+    <entry key="UseStandardExcelCellIndexingFormat">使用标准 Excel 单元格索引格式，例如 A12</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="SpecifyRow">指定行: </entry>
+    <entry key="SpecifyColumn">指定列: </entry>
+    <entry key="xlate_DataIsArrangedBy">数据排列依据: </entry>
+    <entry key="xlate_Columns">列</entry>
+    <entry key="xlate_Rows">行</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidCodeInput">유효하지 않은 입력값입니다. 코드 문자열은 문자형, cellstr형 또는 누락값이 없는 string형 배열이거나, Python 코드 객체여야 합니다.</entry>
+    <entry key="InvalidOutputList">Invalid input. PYOUTVARS must be a char, cellstr or a string array without missing values.</entry>
+    <entry key="InvalidVariableInitialization">{0}</entry>
+  </message>
+</rsccat>

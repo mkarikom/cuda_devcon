@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Package">패키지</entry>
+    <entry key="EmptyTimeseriesTimeMetaDataObject">timeseries TimeMetaData 객체가 비어 있습니다.</entry>
+    <entry key="UniformTime">등간격 시간</entry>
+    <entry key="NonUniformTime">비등간격 시간</entry>
+    <entry key="TimeRange">시간 범위</entry>
+    <entry key="CommonProperties">공통 속성</entry>
+    <entry key="MoreProperties">추가 속성</entry>
+    <entry key="Methods">메서드</entry>
+    <entry key="ImproperUnitsIncrementWarning">Units 속성의 형식이 잘못되었기 때문에 Increment를 표시할 수 없습니다.</entry>
+    <entry key="ImproperUnitsStartEndTimeWarning">Units 속성의 형식이 잘못되었기 때문에 StartTime 및 EndTime을 표시할 수 없습니다.</entry>
+    <entry key="ImproperUnitsStartDateWarning">Units 속성의 형식이 잘못되었기 때문에 StartDate를 표시할 수 없습니다.</entry>
+    <entry key="ImproperUnitsFormatWarning">Units 속성의 형식이 잘못되었기 때문에 Format을 표시할 수 없습니다.</entry>
+    <entry key="ImproperUnitsWarning">Units 속성의 형식이 잘못되었기 때문에 Units를 표시할 수 없습니다.</entry>
+  </message>
+</rsccat>

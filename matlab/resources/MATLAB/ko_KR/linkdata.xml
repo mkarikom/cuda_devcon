@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nodeploy">연결된 플롯에 MATLAB 작업 공간이 필요하므로 배포용 응용 프로그램에서 플롯을 연결할 수 없습니다.</entry>
+    <entry key="InvalidSingleArg">인수는 Figure이거나 ''on'', ''off'' 중 하나여야 합니다.</entry>
+    <entry key="InvalidFigure">첫 번째 입력값은 Figure 핸들이어야 합니다.</entry>
+    <entry key="InvalidState">상태는 ''on'', ''off'', ''toggle'' 또는 ''showdialog''여야 합니다.</entry>
+    <entry key="InvalidArgsForOutput">이러한 입력 인수와 함께 출력 인수를 지정하지 마십시오.</entry>
+  </message>
+</rsccat>

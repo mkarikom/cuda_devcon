@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed">
+  <message>
+    <!-- input.m -->
+    <entry key="InputNotSupported">'input' command is not supported for MATLAB launched by Engine without Desktop.</entry>
+    <entry key="ProcessSessionNotInitialized">MATLAB process session cannot be initialized.</entry>
+    <entry key="SharedMatlabNotFound">MATLAB session ''{0}'' cannot be found.</entry>
+    <entry key="SharedMatlabNotConnected">Unable to connect to MATLAB session ''{0}''.</entry>
+    <entry key="MatlabProcessNotCreated">MATLAB process cannot be created.</entry>
+    <entry key="MatlabCommandNotEvaluated">MATLAB command cannot be evaluated.</entry>
+    <entry key="InterruptedException">The execution of the MATLAB command was interrupted.</entry>
+    <entry key="CancelledException">The MATLAB command was cancelled.</entry>
+    <entry key="TimeoutException">Timeout from the execution of the MATLAB command.</entry>
+    <entry key="ProcessSessionNotTerminated">MATLAB process session cannot be terminated.</entry>
+    <entry key="MatlabProcessNotTerminated">MATLAB process cannot be terminated.</entry>
+    <entry key="MatlabProcessNotExist">MATLAB process does not exist.</entry>
+    <entry key="FutureResultNotExist">Future result does not exist.</entry>
+    <entry key="MatlabExecutionError" translate="false" note="TranslateFalseBatch;">{0}</entry>
+    <entry key="MatlabSyntaxError" translate="false" note="TranslateFalseBatch;">{0}</entry>
+    <entry key="StringInput">Name of MATLAB session must be valid MATLAB variable name.</entry>
+    <entry key="SharingFailed">Failed to share current MATLAB process.</entry>
+    <entry key="SessionNameConflict">MATLAB session ''{0}'' already exists.  Current MATLAB session is now shared with default name ''{1}''.</entry>
+    <entry key="SessionSharedAlready">The current MATLAB session is shared already.  To share a session with a different name, launch a new MATLAB session, and then specify the name when you share it.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInvocationLocation">PACK은 MATLAB 명령줄에서만 사용할 수 있습니다.</entry>
+    <entry key="NonStringInput">PACK에 대한 입력값은 문자형 벡터여야 합니다.</entry>
+    <entry key="UnsuccessfulSave">pack이 일부 변수를 임시 파일에 저장하지 못했습니다. pack은 작업공간을 지우고 다시 불러오지는 않습니다.</entry>
+  </message>
+</rsccat>

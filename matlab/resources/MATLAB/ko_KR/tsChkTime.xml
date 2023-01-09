@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="manytimedim">시간 벡터는 3차원 이상일 수 없습니다.</entry>
+    <entry key="shorttime">시간 벡터는 비어 있을 수 없습니다.</entry>
+    <entry key="matrixtime">시간 벡터는 1xn 또는 nx1 벡터여야 합니다.</entry>
+    <entry key="inftime">시간 벡터는 유한한 값만 포함해야 합니다.</entry>
+    <entry key="realtime">시간 벡터는 실수 값만 포함해야 합니다.</entry>
+  </message>
+</rsccat>

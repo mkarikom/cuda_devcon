@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidShape">使用标志 ''exact'' 时，STRMATCH 的第一个参数应为行向量。</entry>
+    <entry key="InvalidInput">需要使用字符数组或字符向量元胞数组作为输入。</entry>
+    <entry key="InvalidFlagInput">FLAG 必须为字符向量。</entry>
+    <entry key="InvalidFlagType">STRMATCH 的第三个参数无效，在未来版本的 MATLAB 中将无法识别。请改用字符向量 ''exact''。</entry>
+    <entry key="InvalidFlag">使用标志 ''exact'' 代替 ''{0}''。标志 ''{1}'' 无效，在未来版本的 MATLAB 中将无法识别。</entry>
+  </message>
+</rsccat>

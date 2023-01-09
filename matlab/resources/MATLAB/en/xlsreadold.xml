@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+  <message>
+    <entry key="ErrorReadingRecordID">File could not be read by biffparse.  Error reading record ID.\n</entry>
+    <entry key="FormatError">File could not be read by biffparse.  Invalid record ID.\n</entry>
+    <entry key="ErrorReadingRecordLength">File could not be read by biffparse.  Error reading record length.\n</entry>
+    <entry key="UnexpectedRecordLength">File contains unexpected record length.  Try saving as Excel 98.\n</entry>
+    <entry key="UnexpectedRecordSize">Unknown record size for cells starting at column {0}.  Try saving as Excel 98.\n</entry>
+    <entry key="UnknownFileReadError">Unknown error reading from file ({0}).\n</entry>
+    <entry key="UnknownRecordOrder">XLS File contains unrecognized record order.</entry>
+    <entry key="MismatchRowColVals" note="stringDatatypeUpdate">Mismatch in max row and column values</entry>
+    <entry key="SheetNameNotInit">requestedSheetName not initialized"</entry>
+    <entry key="SheetNotFound">Requested sheet: ''{0}'' not found.\n</entry>
+    <entry key="SSTTableNotInit">SST table not initialized.</entry>
+    <entry key="CellFlagsNotInit">cellFlags not initialized</entry>
+    <entry key="FlagFieldsIndexing">flag fields indexing error</entry>
+    <entry key="DataPointerNotInit">Numeric data pointer not initialized</entry>
+    <entry key="RecordDecomp">Internal error decomposing MULRK record - colCount not as expected.\n</entry>
+    <entry key="XLSUnicodeUnsupported0">XLS File contains unicode text which is not yet supported.\n</entry>
+    <entry key="Truncation">XLS File contains unicode text which is not yet supported. ({0},{1},{2})\n</entry>
+    <entry key="Usage" note="stringDatatypeUpdate">usage: [numericData, textData] = biffparse(biffvector [,'sheetName'])\n</entry>
+    <entry key="TooManyRecords">Exiting with too many records found.\n</entry>
+    <entry key="UnrecognizedData">File does not contain recognized Excel data.  Try saving as Excel 98.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ImproperType">类型必须为以下项之一: ''''()''''、''''.''''、'''''{}'''''。</entry>
+    <entry key="indexNotCell">索引必须为元胞数组。</entry>
+    <entry key="ImproperIndexCell">索引元胞数组必须指定变量的所有维度的范围。不支持线性索引。</entry>
+    <entry key="ImproperIndexBounds">索引范围必须为一组两元或三元数值。</entry>
+    <entry key="MinMax">索引范围的起始值必须小于结束值。</entry>
+    <entry key="ImproperIndexCellForStructs">索引元胞数组必须为有效的 MATLAB 变量名称行向量。</entry>
+    <entry key="indexNotFieldname">索引元素 {0,number,integer} 不是有效的 MATLAB 变量名称。</entry>
+    <entry key="IndexBoundsInvalid">维度 {0,number,integer} 的索引范围无效。\n有关详细信息，请参阅以下原因。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">입력 인수가 부족합니다.</entry>
+    <entry key="SingJac">연결 방정식(Collocation Equation)의 해를 구할 수 없음(특이 야코비 행렬 발생)</entry>
+    <entry key="RelTolNotMet">{0,number,integer}보다 큰 개수의 메시 점을 사용해야만 허용오차가 충족될 수 있습니다. \n {1,number,integer}개 점의 마지막 메시와 해는 출력 인수에서 확인할 수 있습니다. \n 최대 오류는 {2}인데 요청된 정확도는 {3}입니다.</entry>
+    <entry key="SolutionWasObtained">{0}개 점의 메시에서 해를 구했습니다.\n</entry>
+    <entry key="MaximumError">최대 오류는 {0}입니다. \n</entry>
+    <entry key="CallsToODEFunctionn">ODE 함수에 {0}개의 호출이 있습니다. \n</entry>
+    <entry key="CallsToBCFunctionn">BC 함수에 {0}개 호출이 있습니다. \n</entry>
+  </message>
+</rsccat>

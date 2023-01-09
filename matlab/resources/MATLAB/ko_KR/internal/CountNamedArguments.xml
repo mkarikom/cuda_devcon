@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="notInAfunction">활성 함수에 있지 않은 경우에는 명명된 인수의 개수를 반환할 수 없습니다.</entry>
+    <entry key="notSupportedInScript">스크립트에서는 CountNamedArguments를 호출할 수 없습니다.</entry>
+    <entry key="notSupportedInParfor">parfor 루프 내에서는 CountNamedArguments를 호출할 수 없습니다.</entry>
+  </message>
+</rsccat>

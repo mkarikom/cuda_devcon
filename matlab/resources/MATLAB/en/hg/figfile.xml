@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="SizeMismatch">Size of parent array must agree with size of structure array</entry>
+    <entry key="BadHandle">Invalid parent handle</entry>
+    <entry key="OutOfMemory">Out of memory. For more information, see &lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/memory.html'))\"&gt;memory&lt;/a&gt;.</entry>
+    <entry key="FigFileOptArgMustBeAll">The optional argument must be ''all''</entry>
+    <entry key="FigFileOptArgMustBeConvertOrAll">The optional arguments must be ''convert'' and/or ''all''</entry>
+    <entry key="FigFileUnrelatedObjectHandles">Handles must belong to unrelated objects</entry>
+    <entry key="FigFileInvalidStruct">Invalid structure format for graphical object</entry>
+    <entry key="FigFileArgMustBeArrayOfParents">Second argument must be an array of parent handles</entry>
+    <entry key="AmbiguousPropertyFound">Ambiguous property found.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015-2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ArgNameValueMismatch">Trailing input arguments must occur in name-value pairs.</entry>
+    <entry key="ArrowSizeDigraphOnly">Changing ''ArrowSize'' value is not supported for undirected graphs.</entry>
+    <entry key="ArrowPositionDigraphOnly">Changing ''ArrowPosition'' value is not supported for undirected graphs.</entry>
+    <entry key="EdgeLabelsInvalidSize">Labels must be scalar, or a vector of length equal to the number of specified edges.</entry>
+    <entry key="NoNodeNames">Graph does not contain node names.</entry>
+    <entry key="HighlightEdgeColor" note="stringDatatypeUpdate">''EdgeColor'' value must be a numeric RGB value or a color name.</entry>
+    <entry key="HighlightEdgeLabelColor">''EdgeLabelColor'' value must be a numeric RGB value or a color name.</entry>
+    <entry key="HighlightEdgeColorDisabledFlat">Setting edge colors is not available because the EdgeCData property was previously specified. Set the EdgeColor property of the GraphPlot object to a color to stop using EdgeCData, then reexecute the command that produced this error.</entry>
+    <entry key="HighlightEdgeColorDisabledNone">Unable to highlight edges because the EdgeColor property of the GraphPlot object is ''none''. To make only the highlighted edges in a GraphPlot object visible, set the EdgeColor property to a value other than ''none'', set the LineStyle property to ''none'', and then specify the LineStyle in the call to highlight.</entry>
+    <entry key="HighlightInvalidSubgraph">G must have the same nodes and a subset of the edges of the plotted graph.</entry>
+    <entry key="HighlightNodeColor" note="stringDatatypeUpdate">''NodeColor'' value must be a numeric RGB value or a color name.</entry>
+    <entry key="HighlightNodeLabelColor">''NodeLabelColor'' value must be a numeric RGB value or a color name.</entry>
+    <entry key="HighlightNodeColorDisabledFlat">Setting node colors is not available because the NodeCData property was previously specified. Set the NodeColor property of the GraphPlot object to a color to stop using NodeCData, then reexecute the command that produced this error.</entry>
+    <entry key="HighlightNodeColorDisabledNone">Unable to highlight nodes because the NodeColor property of the GraphPlot object is ''none''. To make only the highlighted nodes in a GraphPlot object visible, set the NodeColor property to a value other than ''none'', set the Marker property to ''none'', and then specify the Marker in the call to highlight.</entry>
+    <entry key="HighlightNoneEdgeColor" note="stringDatatypeUpdate">Unable to set ''EdgeColor'' value to ''none''. To make the highlighted edges invisible, specify ''LineStyle'' value as ''none''.</entry>
+    <entry key="HighlightNoneNodeColor" note="stringDatatypeUpdate">Unable to set ''NodeColor'' value to ''none''. To make the highlighted nodes invisible, specify ''Marker'' value as ''none''.</entry>
+    <entry key="HighlightNonCharLineStyle" note="stringDatatypeUpdate">When using highlighting, specify a single ''LineStyle'' value of ''-'', ''--'', '':'', ''-.'', or ''none''.</entry>
+    <entry key="HighlightNonCharMarker" note="stringDatatypeUpdate">'When using highlighting, specify a single ''Marker'' value of ''+'', ''o'', ''*'', ''.'', ''x'', ''square'', ''diamond'', ''v'', ''^'', ''&gt;'', ''&lt;'', ''pentagram'', ''hexagram'', or ''none''.</entry>
+    <entry key="HighlightScalarNumber">''{0}'' must be a numeric scalar.</entry>
+    <entry key="HighlightUndirectedSubgraph">If the plotted graph is directed, then the graph to highlight must also be directed.</entry>
+    <entry key="HighlightNoSelection">Specify nodes or edges to highlight.</entry>
+    <entry key="HighlightInvalidEdgeIndices">''Edges'' value must be a scalar edge index, a vector of edge indices, or a logical vector of length equal to the number of edges.</entry>
+    <entry key="LabeledgeInvalidEdgeIndices">Edge indices must be a scalar edge index, a vector of edge indices, or a logical vector of length equal to the number of edges.</entry>
+    <entry key="DuplicateEdgeArgs">Specify either node pairs or edges to highlight, but not both.</entry>
+    <entry key="InvalidBasicGraph">BasicGraph input must be of type matlab.internal.graph.MLGraph or matlab.internal.graph.MLDigraph.</entry>
+    <entry key="InvalidEdgeColor">EdgeColor must be a color name, an RGB triplet, or a {0}-by-3 matrix where each row is an RGB triplet specifying the color of one edge.</entry>
+    <entry key="InvalidEdgeLabelColor">''EdgeLabelColor'' value must be a color name, an RGB triplet, or a {0}-by-3 matrix where each row is an RGB triplet specifying the color of one edge.</entry>
+    <entry key="InvalidNodeLabelColor">''NodeLabelColor'' value must be a color name, an RGB triplet, or a {0}-by-3 matrix where each row is an RGB triplet specifying the color of one node.</entry>
+    <entry key="InvalidEdgeLabel" note="stringDatatypeUpdate">EdgeLabel value must be numeric, a cell array of character vectors, or a string vector.</entry>
+    <entry key="InvalidEdges">s and t must specify edges in the graph.</entry>
+    <entry key="InvalidLabels" note="stringDatatypeUpdate">Labels must be a cell vector of character vectors, or a string vector.</entry>
+    <entry key="InvalidNodeColor">NodeColor must be a color name, an RGB triplet, or a {0}-by-3 matrix where each row is an RGB triplet specifying the color of one node.</entry>
+    <entry key="InvalidNodeLabel" note="stringDatatypeUpdate">NodeLabel must be numeric, a cell array of character vectors, or a string vector.</entry>
+    <entry key="InvalidNodeNames">Input node names do not match node names in graph.</entry>
+    <entry key="InvalidParent">Parent must be a scalar graphics handle.</entry>
+    <entry key="InvalidSinks">Sinks must be a non-empty set of unique nodes.</entry>
+    <entry key="InvalidSources">Sources must be a non-empty set of unique nodes.</entry>
+    <entry key="InvalidSourcesSinks">Sources and sinks must be disjoint sets of nodes.</entry>
+    <entry key="InvalidST" note="stringDatatypeUpdate">Node IDs must both be numeric indices or both be node names.</entry>
+    <entry key="InvalidSTSize">s and t must be scalars or vectors of the same length.</entry>
+    <entry key="LayoutOptsWithoutLayout">{0} is not supported with 'auto' layout.</entry>
+    <entry key="LayoutWithXDataAndYData">Layout must not be specified together with XData, YData or ZData.</entry>
+    <entry key="ScalarOrVectorOfLength">''{0}'' value must be a scalar or a vector of length {1,number,integer}.</entry>
+    <entry key="InvalidEdgeFontWeight">''EdgeFontWeight'' value must be ''normal'', ''bold'', or a cell array or string vector containing ''normal'' or ''bold'' for each edge.</entry>
+    <entry key="InvalidEdgeFontAngle">''EdgeFontAngle'' value must be ''normal'', ''italic'', or a cell array or string vector containing ''normal'' or ''italic'' for each edge.</entry>
+    <entry key="InvalidNodeFontWeight">''NodeFontWeight'' value must be ''normal'', ''bold'', or a cell array or string vector containing ''normal'' or ''bold'' for each node.</entry>
+    <entry key="InvalidNodeFontAngle">''NodeFontAngle'' value must be ''normal'', ''italic'', or a cell array or string vector containing ''normal'' or ''italic'' for each node.</entry>
+    <entry key="MissingXDataOrYData">XData and YData inputs must be specified together.</entry>
+    <entry key="MissingXStartOrYStart">XStart and YStart inputs must be specified together.</entry>
+    <entry key="MissingXStartYStartOrZStart">XStart, YStart and ZStart inputs must be specified together.</entry>
+    <entry key="NodeLabelsInvalidSize">Labels must be scalar, or a vector of length equal to the number of specified nodes.</entry>
+    <entry key="NodesInvalidSize" note="stringDatatypeUpdate">Nodes must be a numeric vector, a vector of node names, or a logical vector of length equal to the number of nodes.</entry>
+    <entry key="NoOptionalInput">The ''{0}'' layout method does not support optional input arguments.</entry>
+    <entry key="ShowArrowsDigraphOnly">Changing ''ShowArrows'' value is not supported for undirected graphs.</entry>
+    <entry key="UninitializedEdgeCData">Expect EdgeCData to be nonempty when setting EdgeColor to ''flat''.</entry>
+    <entry key="UninitializedNodeCData">Expect NodeCData to be nonempty when setting NodeColor to ''flat''.</entry>
+    <entry key="UnknownNodeName">Graph does not contain a node named ''{0}''.</entry>
+    <entry key="ZDataWithoutXDataAndYData">ZData input must be specified together with XData and YData.</entry>
+    <entry key="IncompatibleVersion">Unable to load GraphPlot because it is incompatible with this version of MATLAB.</entry>
+
+<!-- Field names used in data cursor -->
+    <entry key="Node">Node</entry>
+    <entry key="Degree">Degree</entry>
+    <entry key="InDegree">In Degree</entry>
+    <entry key="OutDegree">Out Degree</entry>
+  </message>
+</rsccat>

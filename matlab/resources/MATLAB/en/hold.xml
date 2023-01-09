@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="UnknownOption">Command option must be 'on' or 'off'.</entry>
+    <entry key="CurrentPlotReleased">Current plot released</entry>
+    <entry key="CurrentPlotHeld">Current plot held</entry>
+    <entry key="InvalidFirstArg">First argument must be an axes object.</entry>
+    <!-- {0} is the Type of an object that does not support subplot -->
+    <entry key="UnsupportedCurrentAxes">Using hold with {0} is not supported.</entry>
+  </message>
+</rsccat>

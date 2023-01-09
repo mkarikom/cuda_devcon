@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="noarray">The setuniformtime method can only be used for a single timeseries object</entry>
+    <entry key="invargs">setuniformtime requires at least one property-value pair.</entry>
+    <entry key="nonempty">setuniformtime requires a timeseries with at least one sample.</entry>
+    <entry key="pvsetNoValue">A specified property has no corresponding value.</entry>
+    <entry key="propnostr" note="stringDatatypeUpdate">Properties must be specified as character vectors or strings.</entry>
+    <entry key="starttime">StartTime property must be a numeric scalar.</entry>
+    <entry key="endtime">EndTime property must be a numeric scalar.</entry>
+    <entry key="interval">Interval property must be a numeric scalar.</entry>
+    <entry key="pvsetInvalidUniformtime">Invalid uniform time property.</entry>
+  </message>
+</rsccat>

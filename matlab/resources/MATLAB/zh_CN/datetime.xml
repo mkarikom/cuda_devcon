@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidLocaleString">无法识别的区域设置: ''{0}''。</entry>
+    <entry key="InvalidLocale">必须将区域设置指定为非空字符串或字符向量。</entry>
+    <entry key="InvalidFormat">日期时间格式必须指定为非空且非缺失字符串或字符行向量。</entry>
+    <entry key="UnsupportedSymbol">格式 ''{0}'' 包含不受支持的符号: ''{1}''。{2}</entry>
+    <entry key="UnsupportedIdentifier">格式 ''{0}'' 包含不受支持的标识符: ''{1}''。{2}</entry>
+    <entry key="UnrecognizedFormat">格式 ''{0}'' 无效。{1}</entry>
+    <entry key="LinkToFormatDoc">有关日期时间格式中使用的标识符的完整说明，请参阅 &lt;a href="matlab:doc(''datetime.Format'')"&gt;datetime.Format 属性&lt;/a&gt;。</entry>
+    <entry key="InvalidPivotYear">基准年份必须为标量整数。</entry>
+    <entry key="UnrecognizedDateStringSuggestLocale">无法识别 ''{0}'' 的日期/时间格式。您可以使用 ''InputFormat'' 参数指定格式。如果日期/时间文本包含的日期、月份或时区名称所采用的语言不同于 ''{1}'' 区域设置，则可能无法识别这些名称。您可以使用 ''Locale'' 参数指定不同的区域设置。</entry>
+    <entry key="UnrecognizedDateStringsSuggestLocale">无法识别日期/时间文本的格式。您可以使用 ''InputFormat'' 参数指定格式。如果日期/时间文本包含的日期、月份或时区名称所采用的语言不同于 ''{0}'' 区域设置，则可能无法识别这些名称。您可以使用 ''Locale'' 参数指定不同的区域设置。</entry>
+    <entry key="UnrecognizedDateStringWithLocale">无法使用区域设置 ''{1}'' 识别 ''{0}'' 的日期/时间格式。您可以使用 ''InputFormat'' 参数指定格式。</entry>
+    <entry key="UnrecognizedDateStringsWithLocale">无法使用区域设置 ''{0}'' 识别日期/时间文本的格式。您可以使用 ''InputFormat'' 参数指定格式。</entry>
+    <entry key="ParseErr">无法使用格式 ''{1}'' 将 ''{0}'' 转换为日期时间。</entry>
+    <entry key="ParseErrs">无法使用格式 ''{0}'' 将文本转换为日期时间。</entry>
+    <entry key="ParseErrSuggestLocale">无法使用格式 ''{1}'' 将 ''{0}'' 转换为日期时间。如果日期/时间文本包含的日期、月份或时区名称所采用的语言不同于 ''{2}'' 区域设置，则可能无法识别这些名称。您可以使用 ''Locale'' 参数指定不同的区域设置。</entry>
+    <entry key="ParseErrsSuggestLocale">无法使用格式 ''{0}'' 将文本转换为日期时间。如果日期/时间文本包含的日期、月份或时区名称所采用的语言不同于 ''{1}'' 区域设置，则可能无法识别这些名称。您可以使用 ''Locale'' 参数指定不同的区域设置。</entry>
+    <entry key="ParseErrWithLocale">无法使用格式 ''{1}'' 和区域设置 ''{2}'' 将 ''{0}'' 转换为日期时间。</entry>
+    <entry key="ParseErrsWithLocale">无法使用格式 ''{0}'' 和区域设置 ''{1}'' 将文本转换为日期时间。</entry>
+    <entry key="AmbiguousDateString">已成功使用格式 ''{0}'' 将文本转换为日期时间，但该格式具有多义性，也可能为 ''{1}''。要使用特定的格式从文本创建日期时间，请执行以下操作:\n\n datetime(textinput,''InputFormat'',infmt)\n</entry>
+    <entry key="IncompatibleTZ">不能将具有时区的日期时间数组与没有时区的日期时间数组进行合并或比较。</entry>
+    <entry key="IncompatibleEpochTZ">纪元和输入日期时间数组必须都具有时区，或者必须都未划分时区。</entry>
+    <entry key="IncompatibleTZLeapSeconds">无法将具有闰秒的日期时间数组与没有闰秒的日期时间数组结合使用或进行比较。</entry>
+    <entry key="IncompatibleEpochTZLeapSeconds">纪元和输入日期时间数组必须都设置为 'UTCLeapSeconds' 时区。</entry>
+    <entry key="ExcelTimeOutOfRange">Excel 连续天数的输入值必须为正数。</entry>
+    <entry key="YYYYMMDDOutOfRange">YYYYMMDD 数值输入值必须为正数。</entry>
+    <entry key="MustConvertFromUint64">从 {0} 时间进行转换的输入必须为 uint64。</entry>
+    <entry key="ConversionOutOfRange">对于缺失值或区间 [{1}, {2}) 之外的日期时间，不支持转换为 {0} 时间。</entry>
+    <entry key="YYYYMMDDConversionOutOfRange">对于缺失值或 {0} 之前的日期时间，不支持转换为 YYYYMMDD 数值。</entry>
+    <entry key="EpochTimeConversionOutOfRange">对于缺失值或指定纪元之前或之后超过 2^63-1 个刻度的日期时间，不支持转换为纪元时间。</entry>
+    <entry key="EpochTimeConversionFlintOverflow">对于指定纪元之前或之后超过 285Ky 的时间，不支持转换为纪元时间或从纪元时间进行转换。</entry>
+    <entry key="InvalidEpoch">纪元必须为日期/时间字符向量、字符串标量或日期时间标量。</entry>
+    <entry key="NonScalarEpoch">纪元必须为标量。</entry>
+    <entry key="InvalidTicksPerSec">TicksPerSecond 必须为介于 1 与 2^32 之间的整数值。</entry>
+    <entry key="UnrecognizedConversionType">无法识别转换类型:  ''{0}''。</entry>
+    <entry key="InvalidConversionType">转换类型必须为字符串或字符向量。</entry>
+    <entry key="InputSizeMismatch">数据输入必须具有相同的大小，其中的任意一个输入也可以标量。</entry>
+    <entry key="InvalidData">输入数据必须为数值数组、字符串数组、包含字符向量的元胞数组或字符矩阵。</entry>
+    <entry key="InvalidNumericData">数值输入数据必须为包含三列或六列的矩阵，或者为三个、六个或七个单独的数值数组。您也可以根据单个数值数组使用 ''ConvertFrom'' 参数创建日期时间。</entry>
+    <entry key="WrongNumInputsConversion">从其他日期/时间表示形式转换时，输入数据必须为一个数值矩阵。</entry>
+    <entry key="InvalidUTCLeapSecsFormatString">UTCLeapSeconds 日期时间的日期格式必须为 'uuuu-MM-dd''T''HH:mm:ss''Z'''，或者最多包含 9 位小数秒 'uuuu-MM-dd''T''HH:mm:ss.SSSSSSSSS''Z'''。</entry>
+    <entry key="InvalidNumericConversion">未给 'datetime' 类型的输入参数定义函数 ''{0}''。要从日期时间转换为数值，请首先减去起始日期时间，然后使用 SECONDS、MINUTES、HOURS、DAYS 或 YEARS 函数转换为数值。</entry>
+    <entry key="InvalidFormatIdentifier">第一个输入项必须为 ''default''、''defaultdate'' 或 ''reset''。</entry>
+    <entry key="AutoConvertString">无法将文本 ''{0}'' 转换为日期时间值，因为无法识别该文本的格式。</entry>
+    <entry key="AutoConvertStrings">无法将文本数组转换为日期时间数组，因为无法识别文本数组的格式。</entry>
+    <entry key="AutoConvertStringAdd">无法将该文本转换为持续时间以进行相加。</entry>
+    <entry key="AutoConvertStringScalar">有多个表示为文本的时间戳未被自动转换。请使用 datetime 函数转换，并可以选择指定 ''Format'' 参数。</entry>
+    <entry key="NoMonthsMethod">未给 'datetime' 类型的输入参数定义函数 ''months''。要计算以月为单位的日期时间之差，请使用 BETWEEN 或 CALDIFF 函数。</entry>
+    <entry key="NoTimeZoneMethod">未给 'datetime' 类型的输入参数定义函数 ''timezone''。要访问日期时间数组的时区，请使用其 TimeZone 属性，例如 t.TimeZone。</entry>
+    <entry key="NoFormatMethod">未给 'datetime' 类型的输入参数定义函数 ''format''。要访问日期时间数组的显示格式，请使用其 Format 属性，例如 t.Format。</entry>
+    <entry key="UseDateshiftMethod">未给 'datetime' 类型的输入参数定义函数 ''{0}''。请改用 DATESHIFT 函数。</entry>
+    <entry key="InvalidPreserveInput">参数无效。只有在通过文本输入创建日期时间时，才能使用 'preserveinput'。</entry>
+    <entry key="InvalidJulianDateType">儒略日期类型必须是 'juliandate' 或 'modifiedjuliandate'。</entry>
+    <entry key="InvalidYearType">年份类型必须是 'iso' 或 'gregorian'。</entry>
+    <entry key="InvalidMonthType">月份类型必须是 'monthofyear'、'name' 或 'shortname'。</entry>
+    <entry key="InvalidWeekType">星期类型必须是 'weekofmonth' 或 'weekofyear'。</entry>
+    <entry key="InvalidDayType">日期的类型必须是 'dayofmonth'、'dayofweek'、'dayofyear'、'name' 或 'shortname'。</entry>
+    <entry key="InvalidSecondType">秒的类型必须是 'secondofday' 或 'secondofminute'。</entry>
+    <entry key="InvalidDim">DIM 必须为正整数值。</entry>
+    <entry key="InvalidVecDim">维度参数必须为正整数标量、由唯一正整数组成的向量或 'all'。</entry>
+    <entry key="InvalidComponents">COMPONENTS 必须为 ''Years''、''Quarters''、''Months''、''Weeks''、''Days'' 或 ''Time''，或者为包含这些分量的字符串数组或元胞数组。</entry>
+    <entry key="InvalidComponentsOrder">COMPONENTS 必须按降序指定日期和时间单位。</entry>
+    <entry key="InvalidSingleComponent">COMPONENT 必须为 ''Years''、''Quarters''、''Months''、''Weeks''、''Days'' 或 ''Time''。</entry>
+    <entry key="InvalidTextInput">无法识别 ''{0}'' 的日期/时间格式。请将文本转换为日期时间或持续时间。</entry>
+    <entry key="MustBeTimeVector">输入必须为日期时间或持续时间向量。</entry>
+    <entry key="InvalidTZArea">AREA 必须为 ''Africa''、''America''、''Antarctica''、''Arctic''、''Asia''、''Atlantic''、''Australia''、''Etc''、''Europe''、''Indian'' 或 ''Pacific''</entry>
+    <entry key="InvalidSubscriptExpr">在索引表达式中，()-索引不能后跟 () 或 '{}'。</entry>
+    <entry key="UnrecognizedProperty">无法识别属性:  ''{0}''。</entry>
+    <entry key="InvalidPropertyName">属性名称必须为字符串或字符向量。</entry>
+    <entry key="CellReferenceNotAllowed">元胞内容引用自非元胞数组。</entry>
+    <entry key="CellAssignmentNotAllowed">元胞内容赋给非元胞数组。</entry>
+    <entry key="ReadOnlyProperty">您不能向 ''{0}'' 属性赋值。</entry>
+    <entry key="SubArrayPropertyAssignment">您不能设置日期时间数组的单个元素的 ''{0}'' 属性。使用 T.{0} = VALUE 而不是 T(...).{0} = VALUE。</entry>
+    <entry key="PropertyAssignmentResize">向日期时间数组的 ''{0}'' 属性赋值不能更改该属性的大小。</entry>
+    <entry key="InvalidAssignmentLHS">用于从 {0} 数组赋值的 LHS 无效。</entry>
+    <entry key="InvalidNumericAssignment">您无法将数值赋给 {0} 数组。向数组的 Year、Month、Day、Hour、Minute 或 Second 属性赋值，或者使用 datetime(x,'ConvertFrom',...) 创建日期时间值来进行赋值。</entry>
+    <entry key="InvalidAssignment">赋值的右侧必须为日期时间数组或表示日期和时间的文本。</entry>
+    <entry key="IllegalDotMethod">无法识别的日期时间属性 ''{0}''。如果您打算调用 {1} 方法，则必须使用函数语法，例如 {1}(dt,...)。有关详细信息，请参阅&lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;方法调用&lt;/a&gt;。</entry>
+    <entry key="IllegalDotMethodNoCorrection">无法识别的日期时间属性 ''{0}''。如果您打算调用 {1} 方法，则必须使用函数语法。有关详细信息，请参阅&lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;方法调用&lt;/a&gt;。</entry>
+    <entry key="DurationConversion">日期和时间算术运算的数值转换无效。</entry>
+    <entry key="ComplexNumeric">日期和时间算术运算的数值输入必须为实数。</entry>
+    <entry key="InvalidComparison">没有在 {0} 和 {1} 数组之间定义比较。</entry>
+    <entry key="DatetimeAdditionNotDefined">没有在日期时间数组之间定义加法。</entry>
+    <entry key="AdditionNotDefined">无法将 {0} 数组和 {1} 数组相加。</entry>
+    <entry key="SubtractionNotDefined">无法从 {1} 数组减去 {0} 数组。</entry>
+    <entry key="TwoInTwoOutCaseNotSupported">在具有两个日期时间数组和两个输出参数的情况下 {0} 不支持比较。</entry>
+    <entry key="TwoInWithDimCaseNotSupported">在具有两个日期时间数组和一个要进行比较操作的维的情况下 {0} 不支持比较。</entry>
+    <entry key="UnknownNaNFlag">尾部输入标志必须为 ''includenat''、''includenan''、''omitnat'' 或 ''omitnan''。</entry>
+    <entry key="UnknownNaNFlagAllFlag">选项无效。选项必须为 "all"、"includenat"、"includenan"、"omitnat" 或 "omitnan"。</entry>
+    <entry key="UnknownMeanOption">尾部输入标志必须为 ''includenat''、''includenan''、''omitnat'' 或 ''omitnan'' 之一，或者为 ''native'' 或 ''default'' 之一。</entry>
+    <entry key="UnknownMeanOptionAllFlag">选项无效。选项必须为 ''all''，或者为 ''includenat''、''includenan''、''omitnat'' 或 ''omitnan'' 之一，或者为 ''native'' 或 ''default'' 之一。</entry>
+    <entry key="CompareTimeOfDay">不支持在日期时间和持续时间之间进行比较。要比较一天中的时间，请使用 HOURS 函数，例如\n\n hours(datetime(''now'')) &lt; 12\n\n或者使用 TIMEOFDAY 函数，例如\n\n timeofday(datetime(''now'')) &lt; ''12:30:00''</entry>
+    <entry key="InputMustBeReal">数值输入数据必须为实数。</entry>
+    <entry key="UnknownTimeZone">无法创建指定的时区: ''{0}''。有关指定时区的详细信息，请参阅 &lt;a href="matlab:doc(''datetime.TimeZone'')"&gt;datetime.TimeZone 属性&lt;/a&gt;。</entry>
+    <entry key="UnknownSystemTimeZone">系统时区设置 ''{0}'' 无效。有关指定时区的详细信息，请参阅 &lt;a href="matlab:doc(''datetime.TimeZone'')"&gt;datetime.TimeZone 属性&lt;/a&gt;。</entry>
+    <entry key="NonstandardTimeZone">''{0}'' 未明确指定单个时区。该序列将被视为 ''{1}''。有关指定时区的详细信息，请参阅 &lt;a href="matlab:doc(''datetime.TimeZone'')"&gt;datetime.TimeZone 属性&lt;/a&gt;。</entry>
+    <entry key="NonstandardSystemTimeZone">系统时区设置 ''{0}'' 未明确指定单个时区。该序列将被视为 ''{1}''。有关指定时区的详细信息，请参阅 &lt;a href="matlab:doc(''datetime.TimeZone'')"&gt;datetime.TimeZone 属性&lt;/a&gt;。</entry>
+    <entry key="NonstandardTimeZoneFixed">''{0}'' 指定一个相对于 UTC 具有固定偏移量 {1} 的时区。该时区不遵循夏令时，因此可能产生意外结果。有关指定时区的详细信息，请参阅 &lt;a href="matlab:doc(''datetime.TimeZone'')"&gt;datetime.TimeZone 属性&lt;/a&gt;。</entry>
+    <entry key="NonstandardSystemTimeZoneFixed">系统时区设置 ''{0}'' 指定一个相对于 UTC 具有固定偏移量 {1} 的时区。该时区不遵循夏令时，因此可能产生意外结果。有关指定时区的详细信息，请参阅 &lt;a href="matlab:doc(''datetime.TimeZone'')"&gt;datetime.TimeZone 属性&lt;/a&gt;。</entry>
+    <entry key="InvalidTimeZone">必须将时区指定为字符串或字符向量。</entry>
+    <entry key="InvalidSystemTimeZone">无法识别系统时区设置 ''{0}''，将会改用 ''UTC''。访问当前时间(例如 datetime(''now''))或设置日期时间数组的时区属性(例如 datetime(Y,M,D,''TimeZone'',''local''))可能会返回不正确的结果。</entry>
+    <entry key="InvalidFractionalSeconds">小数秒在日期时间格式中必须是连续的。</entry>
+    <entry key="MustBeInteger">年、月、日、小时和分钟分量必须为整数值。</entry>
+    <entry key="MustBeIntegerSecond">如果指定了毫秒、则年、月、日、小时、分钟和秒分量必须为整数值。</entry>
+    <entry key="PivotYearOutOfRange">基准年份 {0,number,integer} 超出范围。</entry>
+    <entry key="PivotYearOutOfRange2">Pivot year out of range.</entry>
+    <entry key="FormatConflict_Zz">''{0}'' 格式包含时区偏移量的字段。当存在该字段时，必须使用 ''TimeZone'' 输入参数在特定时区中创建日期时间数组。然后，可以通过将其 'TimeZone' 属性设置为 ''''，来将该数组转换为未划分时区的数组。</entry>
+    <entry key="FormatConflict_Ha">格式 ''{0}'' 包含一天 24 小时(H)和日期时段(a)的字段。这将导致在从文本进行转换时产生意外的结果。{1}</entry>
+    <entry key="FormatConflict_uG">格式 ''{0}'' 包含 ISO 年份(u)和年代(G)的字段。这将导致在从文本进行转换时产生意外的结果。{1}</entry>
+    <entry key="FormatConflict_MD">格式 ''{0}'' 包含月份(M)和年中某天(D)的字段。这将导致在从文本进行转换时产生意外的结果。{1}</entry>
+    <entry key="FormatConflict_dD">格式 ''{0}'' 包含月中某天(d)和年中某天(D)的字段。这将导致在从文本进行转换时产生意外的结果。{1}</entry>
+    <entry key="FormatConflict_mM">格式 ''{0}'' 内似乎为日期的部分包含分钟(m)的字段。您可能本打算使用月份(M)符号而不是分钟(m)符号。{1}</entry>
+    <entry key="FormatConflict_Mm">格式 ''{0}'' 内似乎为时间的部分包含月份(M)的字段。您可能本打算使用分钟(m)符号而不是月份(M)符号。{1}</entry>
+    <entry key="FormatConflict_Yy">格式 ''{0}'' 包含“年中某周”日历中的年份(Y)的字段，但没有年中某周(w)的字段。这将导致产生意外的结果。您可能本打算使用公历年份(y)符号。{1}</entry>
+    <entry key="FormatConflict_Dy">格式 ''{0}'' 包含年中某天(D)和公历年份(y)的字段。这将导致在从文本进行转换时产生意外的结果。请使用 ISO 年份(u)来代替公历年份(y)。{1}</entry>
+    <entry key="InvalidFromVE">日期时间格式无法识别。</entry>
+    <entry key="TextConstructionCodegen">代码生成中不支持基于文本输入创建日期时间。</entry>
+    <entry key="UnzonedCodegen">代码生成中的所有日期时间都不能设置时区。</entry>
+    <entry key="UnsupportedMethodCodegen">代码生成中的日期时间不支持 {0} 方法。</entry>
+    <entry key="FormatNotSupportedCodegen">代码生成中不支持指定显示格式。</entry>
+    <entry key="TimeZoneNotSupportedCodegen">代码生成中不支持指定日期时间数组的时区。</entry>
+    <entry key="DoubleDoubleAssertionCodegen">第二个输入超出此双精度运算的范围。</entry>
+    <entry key="PropertyChangeCodegen">代码生成中的日期时间不支持设置 {0} 属性。</entry>
+    <entry key="ColonInputsCodegen">Specifying the duration step size is required in code generation.</entry>
+    <entry key="CalendarDurationUnitCodegen">代码生成中不支持指定日历单位。</entry>
+    <entry key="BinaryMinMaxCodegen"> 代码生成中不支持带日期时间的二进制 {0}。</entry>
+    <entry key="LinearFlagCodegen">代码生成中不支持 'linear' 选项。</entry>
+    <entry key="DimFlagConstCodegen">维度参数必须为常量。</entry>
+  </message>
+</rsccat>

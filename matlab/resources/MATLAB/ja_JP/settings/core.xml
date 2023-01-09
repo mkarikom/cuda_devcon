@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RelativePathIsNotSupported">MATLAB_PREFDIR は絶対パスでなければなりません。基本設定ディレクトリを相対パス {0} に設定できません。</entry>
+    <entry key="ErrorMigratePrefsBetweenReleases">基本設定を、リリース {0} からリリース {1} に移行できません。</entry>
+    <entry key="ErrorCreatePreferenceDirectoryTimeStamp">基本設定フォルダーのタイムスタンプ ファイル {0} を作成できません。\n詳細:  {1}.</entry>
+    <entry key="PreferenceDirectoryNotExist">基本設定フォルダー {0} が存在すべきですが、存在しません。\n詳細: {1}.</entry>
+    <entry key="SettingsUserDirectoryNotExist">ユーザー ディレクトリ設定が設定されていません。MATLAB はユーザー設定を更新できません。</entry>
+    <entry key="ErrorOpenFileInPrefDir">ファイル {0} を開けません。原因:  {1}. </entry>
+    <entry key="ErrorCloseFileInPrefDir">ファイル {0} を閉じることができません。原因:  {1}. </entry>
+    <entry key="ErrorCopyFileInPrefDir">{0} を {1} へコピーできませんでした。原因: {2} 。 </entry>
+    <entry key="ErrorOverwriteFileInPrefDir">ファイル {0} に書き込みできません。ファイルは存在しますが、上書きの権限が拒否されました。 </entry>
+    <entry key="ErrorDetermineFileSizeInPrefDir">ファイル {0} のサイズを特定できません。原因:  {1}. </entry>
+    <entry key="ErrorOpenDirectoryInPrefDir">ディレクトリ {0} を開けません。原因:  {1}. </entry>
+    <entry key="FileLoadingError">設定ファイルの読み込み中にエラーが発生しました。\n詳細: {0}. </entry>
+    <entry key="DataTypeNotMatch">無効な型 {1} の値を設定しようとしました。この設定に必要なデータ型は {0} です。</entry>
+    <entry key="ValueIsNotInRange">Settings データを検証できません。キー {1} に対し渡された入力値 {0} が範囲 [{2} {3}] にありません。</entry>
+    <entry key="ValueIsNotOneOfTheChoices">Settings データを検証できません。キー {1} に対し渡された入力値 {0} が、事前定義された選択肢 [{2}] のいずれでもありません。</entry>
+    <entry key="DefaultValidationFailedOnVoidType">Settings データを検証できません。キー {0} に対し渡された値が無効です。</entry>
+    <entry key="DataArraySizeOutOfRange">Settings データを検証できません。サイズ {1} の配列を使用して {0} の値を設定できませんでした。設定の値は、サイズが [{2} {3}] の範囲内の配列でなければなりません。</entry>
+    <entry key="UnconvertibleType">Cannot convert the value for key, {0}, to data type {1}. \nDetails: {2}.</entry>
+    <entry key="CanNotCreateTempDirectory">Internal Error: Error create a temp directory under directory {0}. </entry>
+    <entry key="NoWritePermissionOnDirectory">Internal Error: No write permission on directory {0}. Details: {1}. </entry>
+    <entry key="CFunctionNotFound">Cannot find function, {0}, in library {1}.</entry>
+    <entry key="ExecEngineNotReadyForProcessingMFunction">Internal Error: MATLAB functions cannot be invoked because the execution engine is not initialized.</entry>
+    <entry key="MATLABFuncMustBeInvokedByExecEngine">Internal Error: MATLAB functions can be invoked in the main execution thread only.</entry>
+    <entry key="JVMNotReadyForProcessingJavaFunction">Internal Error: Java function cannot be invoked because JVM is not initialized.</entry>
+    <entry key="SettingsLibraryNotInitialized">Internal Error: Java settings library could not be initialized.\n{0}</entry>
+    <entry key="XMLMetaDataParserError">Error parsing metadata for key {0}. Min value {1}, is larger than max value {2}.</entry>
+    <entry key="XMLParserErrorIllegalTagName">While parsing the Settings node, {0}, found invalid tag, {1}, under tag {2}.</entry>
+    <entry key="XMLParserErrorUnexpectedTextContent">While parsing the Settings node, {0}, found unexpected text content in tag {1}.</entry>
+    <entry key="XMLParserErrorNumOfValueNotInRange">The expected data type for key, {0}, is an array of {1}. The number of values specified in the XML file is {2}, which it is not in the range defined as [{3}, {4}].</entry>
+    <entry key="TypeNotSpecifiedForNoneAnyType">The setting, {0},  is not an 'anytype' setting,  so data type tag must be specified. </entry>
+    <entry key="XMLParseErrorWrongValueForGivenType">Invalid value  for tag {0}. The value is {1}, which cannot be converted to type {2}.</entry>
+  </message>
+</rsccat>

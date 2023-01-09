@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CanvasTitle">キャンバス</entry>
+    <entry key="ShowGrid">次の間隔でグリッドを表示:</entry>
+    <entry key="GridUnits">ピクセル</entry>
+    <entry key="SnapToGrid">グリッドにスナップ</entry>
+    <entry key="ShowAlignmentHints">整列のヒントの表示</entry>
+    <entry key="ShowResizingHints">サイズ変更のヒントの表示</entry>
+    <entry key="EditorTitle">エディター</entry>
+    <entry key="FontSize">フォント サイズ:</entry>
+    <entry key="ChangeEditorFontSizeLabel">エディターのフォント サイズを変更</entry>
+    <entry key="EnableAppCodingAlerts">アプリ コーディングの警告を有効化</entry>
+    <entry key="ComponentBrowserTitle">コンポーネント ブラウザー</entry>
+    <entry key="IncludeLabelsInComponentBrowser">コンポーネント ブラウザーにコンポーネントのラベルを含める</entry>
+    <entry key="MRUTitle">最近利用したファイルのリスト</entry>
+    <entry key="NumberOfEntries">入力数:</entry>
+    <entry key="AutoSaveTitle">自動的にファイルを変更</entry>
+    <entry key="SaveOnClickAway">アプリ以外の場所のクリックで変更を保存</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ZNot2D">{0}은(는) 2차원 배열이어야 합니다.</entry>
+    <entry key="ZPlanar">{0}의 크기는 2x2보다 커야 합니다.</entry>
+    <entry key="XZSizeMismatch">X의 크기는 {0}의 크기 또는 {1}의 열 개수와 일치해야 합니다.</entry>
+    <entry key="YZSizeMismatch">Y의 크기는 {0}의 크기 또는 {1}의 행 개수와 일치해야 합니다.</entry>
+    <entry key="XYMixedEmpty">X,Y는 둘 다 빈 행렬이거나 둘 다 비어 있지 않은 행렬이어야 합니다.</entry>
+  </message>
+</rsccat>

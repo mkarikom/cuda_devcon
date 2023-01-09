@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidTolerance">許容誤差の値は非負のスカラーの duration でなければなりません。</entry>
+    <entry key="InvalidSubscripter">WITHTOL を使用した添字は、timetable の行の選択でのみサポートされています。</entry>
+    <entry key="MismatchRowTimesType">{0} の行時間をもつ timetable では、{1} の値を使用した添字はできません。</entry>
+    <entry key="LargeTolerance">許容誤差は添字時間の間の最小間隔の半分を超えているため、重複行が選択される結果になる可能性があります。許容誤差は {0} より小さくなければなりません。</entry>
+    <entry key="TabularInput">timetable は有効な入力引数ではありません。datetime または duration を指定して WITHTOL を呼び出し、出力を timetable の添字として使用してください。</entry>
+    <entry key="IncompatibleLoad">このバージョンの MATLAB と互換性がないため、保存された withtol オブジェクトを読み込むことができません</entry>
+    <entry key="UIStringDispHeader">timetable の &lt;a href="matlab:doc(''withtol'')"&gt;withtol&lt;/a&gt; 添字:</entry>
+    <entry key="UIStringDispTimes">次の時間と一致する timetable の行を選択してください。</entry>
+    <entry key="UIStringDispTolerance">+/- {0} の許容誤差</entry>
+    <entry key="UIStringDispSnipFooter">.. およびその他 {0} 個</entry>
+    <entry key="UIStringDispFooter">「&lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','subscript-into-times-of-timetable.html'))"&gt;Select Timetable Data by Row Time and Variable Type&lt;/a&gt;」を参照してください。</entry>
+    <entry key="LargeToleranceCodegen">許容誤差は添字時間の間の最小間隔の半分を超えているため、重複行が選択される結果になる可能性があります。</entry>
+    <entry key="DatetimeNotSupported">コード生成では datetime の行時間がサポートされていません。代わりに、行時間を duration ベクトルとして指定してください。</entry>
+    <entry key="TextInputsNotSupported">コード生成で、行時間または許容誤差を char ベクトル、または char ベクトルの cell 配列として指定することはサポートされていません。代わりに duration として指定してください。</entry>
+  </message>
+</rsccat>

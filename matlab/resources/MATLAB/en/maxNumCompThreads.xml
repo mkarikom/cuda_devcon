@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invalidInput">Input to maxNumCompThreads must be a positive numeric integer-valued scalar or ''automatic''.</entry>
+    <entry key="setMaxNumInput">maxNumCompThreads(N) exceeds the limit of {0,number,integer} the maximum number of computational threads allowed.</entry>
+  </message>
+</rsccat>

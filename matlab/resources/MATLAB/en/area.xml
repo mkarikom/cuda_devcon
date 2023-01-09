@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="NotEnoughInputs">Not enough input arguments.</entry>
+      <entry key="InvalidLevel">Level argument must be a finite scalar.</entry>
+      <entry key="NoDataInputs">Must supply Y data or X and Y data as first argument(s).</entry>
+      <entry key="XDataSizeMismatch">XData must be the same size as YData.</entry>
+      <entry key="DifferentParents">All members of an area group must have the same parent.</entry>
+      <entry key="BaseValueLabel">Baseline value</entry>
+      <entry key="ShowBaseLine">Baseline visibility</entry>
+   </message>
+</rsccat>

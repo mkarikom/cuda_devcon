@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadExtension">无法使用文件 ''{0}''，因为它没有 XML 扩展名。</entry>
+    <entry key="DirSpecified">无法将目录 ''{0}'' 用作日志文件。</entry>
+    <entry key="EmptyName">未为日志文件指定名称。</entry>
+    <entry key="FileNotOpen">文件 ''{0}'' 不是已打开的日志。</entry>
+    <entry key="FileOpen">文件 ''{0}'' 为已打开的日志。</entry>
+    <entry key="FileOpenCase">文件 ''{0}'' 仅在大小写方面与已打开的日志有差别。</entry>
+    <entry key="FileRead">从日志文件 ''{0}'' 读取时出错: {1}</entry>
+    <entry key="FileSeek">查找日志文件 ''{0}'' 时出错: {1}</entry>
+    <entry key="FileWrite">写入日志文件 ''{0}'' 时出错: {1}</entry>
+    <entry key="OpenFileRead">无法打开要读取的文件 ''{0}'': {1}</entry>
+    <entry key="OpenFileWrite">无法打开要写入的文件 ''{0}'': {1}</entry>
+    <entry key="OpenFileAppend">无法打开要附加的文件 ''{0}'': {1}</entry>
+  </message>
+</rsccat>

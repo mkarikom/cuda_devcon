@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="IllegalName">所有参数都必须为非空字符向量或字符串标量。</entry>
+    <entry key="NullCharacterInName">路径无效。路径不能包含空字符。</entry>
+    <entry key="DirectoryExists">目录已存在。</entry>
+    <entry key="UnknownError">出现未知错误。</entry>
+    <entry key="GetLastErrorFailed">{0} 失败: GetLastError 返回 {1,number,integer}。\n</entry>
+    <entry key="CouldNotRemove">无法删除 {0}。\n</entry>
+    <entry key="NotADirectory">{0} 不是目录。\n</entry>
+    <entry key="ReadOnly">{0} 为只读或包含只读对象。\n</entry>
+    <entry key="FileAlreadyExists">''{0}'' 已存在。\n</entry>
+    <entry key="NonExistentDirectory">''{0}'' 目录不存在。\n</entry>
+    <entry key="OSError">{0}</entry>
+  </message>
+</rsccat>

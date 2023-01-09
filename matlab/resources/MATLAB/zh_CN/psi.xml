@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonFloatInput">输入必须为单精度值或双精度值。</entry>
+    <entry key="notReal">输入必须为实数。</entry>
+    <entry key="notFull">输入必须为满矩阵。</entry>
+    <entry key="validOrder">阶必须是小于 2^31-1 的非负整数值。</entry>
+    <entry key="kScalar">K 必须为标量。</entry>
+    <entry key="negativeX">X 必须为非负值。</entry>
+  </message>
+</rsccat>

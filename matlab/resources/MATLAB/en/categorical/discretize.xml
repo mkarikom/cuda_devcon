@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2013-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="WrongNumCategoryNames">With {0,number,integer} bin edges, you must specify {1,number,integer} category names.</entry>
+    <entry key="ValuesetAndEdges">Specify either unique data values or bin edges, but not both.</entry>
+    <entry key="NonnumericData">Input data must be a real numeric array when you specify bin edges.</entry>
+    <entry key="InvalidEdges">Bin edges must be a real numeric vector with at least two elements.</entry>
+    <entry key="CantCreateCategoryNames">Unable to create unique category names from the bin edges using 5 significant digits.  Specify category names using the CATEGORYNAMES input argument.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNameValueMismatch">후행 입력 인수는 이름-값 쌍이어야 합니다.</entry>
+    <entry key="BinCountsInvalidSize">''NumBins'', ''BinWidth'', ''BinMethod'', ''XBinLimits'', ''YBinLimits'' 중 하나라도 설정되어 있으면 ''BinCounts''를 설정할 수 없으며, 이는 [length(XBinEdges)-1 length(YBinEdges)-1] 크기의 행렬이어야 합니다.</entry>
+    <entry key="EmptyBinCountsManualMode">''BinCountsMode''가 ''manual''로 설정되어 있으면 ''BinCounts''를 설정해야 합니다.</entry>
+    <entry key="EmptyXBinLimitsManualMode">''XBinLimitsMode''가 ''manual''로 설정되어 있으면 ''XBinEdges''와 ''XBinLimits'' 중 하나를 설정해야 합니다.</entry>
+    <entry key="EmptyYBinLimitsManualMode">''YBinLimitsMode''가 ''manual''로 설정되어 있으면 ''YBinEdges''와 ''YBinLimits'' 중 하나를 설정해야 합니다.</entry>
+    <entry key="EmptyOrScalarXBinEdges">XBinEdges는 길이가 2보다 크거나 같은 벡터여야 합니다.</entry>
+    <entry key="EmptyOrScalarYBinEdges">YBinEdges는 길이가 2보다 크거나 같은 벡터여야 합니다.</entry>
+    <entry key="InvalidTileFaceColor">''DisplayStyle''이 ''tile''로 설정된 경우 FaceColor는 ''flat''이어야 합니다.</entry>
+    <entry key="InvalidTileFaceLighting">''DisplayStyle''이 ''tile''로 설정된 경우 FaceLighting은 ''none''이어야 합니다.</entry>
+    <entry key="InvalidBinMethod">BinMethod를 ''manual''로 설정할 수 없습니다.</entry>
+    <entry key="InvalidColor">{0} 입력값은 유효한 색이 아닙니다.</entry>
+    <entry key="InvalidMixedXBinInputs">''XBinEdges'' 입력값 다음에는 ''NumBins'', ''BinWidth'', ''BinMethod'', ''XBinLimits''가 올 수 없습니다.</entry>
+    <entry key="InvalidMixedYBinInputs">''YBinEdges'' 입력값 다음에는 ''NumBins'', ''BinWidth'', ''BinMethod'', ''YBinLimits''가 올 수 없습니다.</entry>
+    <entry key="BinCountsXEdgesMismatch">''BinCountsMode''가 ''manual''인 경우 ''XBinEdges''의 길이는 ''BinCounts''의 행 개수보다 1만큼 더 길어야 합니다.</entry>
+    <entry key="BinCountsYEdgesMismatch">''BinCountsMode''가 ''manual''인 경우 ''YBinEdges''의 길이는 ''BinCounts''의 열 개수보다 1만큼 더 길어야 합니다.</entry>
+    <entry key="MixedDataBinCounts">X 입력값과 Y 입력값이 비어 있지 않으면 BinCounts를 설정할 수 없습니다.</entry>
+    <entry key="MissingYInput">X 입력값과 Y 입력값은 숫자형이거나 논리형이어야 하며 크기가 동일해야 합니다.</entry>
+    <entry key="NonEmptyBinCountsAutoMode">''BinCountsMode''가 ''auto''로 설정되어 있으면 ''BinCounts''를 설정할 수 없습니다.</entry>
+    <entry key="NonEmptyXBinLimitsAutoMode">''XBinLimitsMode''가 ''auto''로 설정되어 있으면 ''XBinEdges''나 ''XBinLimits''를 설정할 수 없습니다.</entry>
+    <entry key="NonEmptyYBinLimitsAutoMode">''YBinLimitsMode''가 ''auto''로 설정되어 있으면 ''YBinEdges''나 ''YBinLimits''를 설정할 수 없습니다.</entry>
+    <entry key="ReadOnlyPropertyManualBinCounts">BinCountsMode가 ''manual''이면 {0}을(를) 설정할 수 없습니다.</entry>
+    <entry key="TransparencyNotSupported">투명도는 소프트웨어 OpenGL 렌더러에서 지원되지 않습니다. Figure 렌더러를 ''painters''로 설정해 보십시오.</entry>
+    <entry key="UnsupportedMethodManualBinCounts">BinCountsMode가 ''manual''이면 {0}이(가) 지원되지 않습니다.</entry>
+    <entry key="Value">값</entry>
+    <entry key="XBinEdges">X Bin 경계값</entry>
+    <entry key="YBinEdges">Y Bin 경계값</entry>
+  </message>
+</rsccat>

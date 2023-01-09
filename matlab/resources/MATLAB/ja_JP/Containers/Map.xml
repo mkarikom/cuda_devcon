@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidHandle">無効であるか削除された {0} です。</entry>
+    <entry key="IncorrectIndexing">1 次元のインデックス付けのみサポートされます。</entry>
+    <entry key="needMoreRhsOutputs">等号の右辺からの出力数は代入を満たすには不十分です。</entry>
+    <entry key="IncorrectNumberInputs">指定した入力数が正しくありません。</entry>
+    <entry key="Param">パラメーター名 ''KeyType'' または ''ValueType'' が見つかりません。\n次の構文を使用します。newMap = containers.Map(''KeyType'', myKeyType, ''ValueType'', myValueType)</entry>
+    <entry key="NDCatNotSupported">次元 {0,number,integer} の結合は、{1} ではサポートされません。</entry>
+    <entry key="MethodNotFound">連結方法が見つかりません。</entry>
+    <entry key="HorzcatNotSupported">水平方向の結合は {0} ではサポートされません。</entry>
+    <entry key="EndIndexingNotSupported">''end'' を使ったインデックス付けは {0} ではサポートされません。</entry>
+    <entry key="NumberKeysValuesMismatch">キーと値の数は同じでなければなりません。</entry>
+    <entry key="NoKeyToRemove">指定したキーは、このコンテナー内に存在しません。</entry>
+    <entry key="NoKey">指定したキーは、このコンテナー内に存在しません。</entry>
+    <entry key="EmptyKey">空のキーは、このコンテナーでは許可されません。</entry>
+    <entry key="Convert64BitIntToDouble">1 または複数の入力配列は、64 ビット整数から double に変換されます。これは桁落ちする可能性があります。</entry>
+    <entry key="InvalidParameterName">不明なパラメーター名 {0} は無視されます。既知のパラメーターのリストについては、ドキュメンテーションを参照してください。</entry>
+    <entry key="EmptyValues">キーを指定する場合は、値も指定しなければなりません。</entry>
+    <entry key="ExpectScalarLogical">''UniformValues'' は論理スカラーでなければなりません。</entry>
+    <entry key="UniformMismatch">''UniformValues'' が true の場合、値はすべて文字配列であるか、すべて同じタイプのスカラーでなければなりません。</entry>
+    <entry key="UniformNonScalar">''UniformValues'' が true の場合、値はすべて文字配列であるか、すべて同じタイプのスカラーでなければなりません。</entry>
+    <entry key="KeysUnsupportedType">指定したキーはサポートされません。有効なキーのタイプについては、ドキュメンテーションを参照してください。</entry>
+    <entry key="KeysMismatchType">指定したキーは、すべて同じデータ型でなければなりません。</entry>
+    <entry key="ValueUnsupportedType">指定した ValueType ''{0}'' はサポートされていません。有効な値のタイプについては、ドキュメンテーションを参照してください。</entry>
+    <entry key="KeyUnsupportedType">指定した KeyType ''{0}'' はサポートされていません。有効なキーのタイプについては、ドキュメンテーションを参照してください。</entry>
+    <entry key="EmptySizeMustBeZero">少なくとも 1 つの次元が 0 でなければなりません。</entry>
+    <entry key="EmptySizeMustBeZeroByOne">空のマップはサイズが 0 行 1 列でなければなりません。</entry>
+    <entry key="SparseValuesNotAccepted">スパース行列はサポートされている値のタイプではありません。FULL(値) を使って変換してください。</entry>
+    <entry key="SparseKeysNotAccepted">スパース行列はサポートされているキーのタイプではありません。FULL(キー) を使って変換してください。</entry>
+    <entry key="InvalidKeySet">入力が無効です。KeySet は数値スカラー、char ベクトル、string スカラー、またはキーの cell 配列でなければなりません。</entry>
+  </message>
+</rsccat>

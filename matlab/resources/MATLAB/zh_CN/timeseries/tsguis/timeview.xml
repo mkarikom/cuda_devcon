@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AddANewEvent">添加新事件</entry>
+    <entry key="AddNewEvent">添加新事件...</entry>
+    <entry key="Amplitude">幅值: {0}</entry>
+    <entry key="KeepObservations">保留观测值</entry>
+    <entry key="RemoveObservations">删除观测值</entry>
+    <entry key="ReplaceWithNaNs">替换为 NaN</entry>
+    <entry key="Time">时间 ({0}): {1}</entry>
+    <entry key="Timedate">时间/日期: {0}</entry>
+    <entry key="TimeSeries">时序: {0}</entry>
+    <entry key="TimeSeriesColumn">时序: {0} 列: {1,number,integer}</entry>
+  </message>
+</rsccat>

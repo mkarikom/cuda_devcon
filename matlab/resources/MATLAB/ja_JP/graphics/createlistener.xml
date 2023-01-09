@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="HG1Obj">オブジェクトが有効なグラフィックス オブジェクトではありません</entry>
+    <entry key="OldEvent">HG2 イベントのみが承認されます</entry>
+    <entry key="InvalidHObj">最初の入力は、グラフィックス ハンドル、またはグラフィックス ハンドルのベクトルでなければなりません。</entry>
+    <entry key="InvalidCallback">Callback は関数ハンドルでなければなりません。</entry>
+    <entry key="InvalidPropertyName">プロパティ名をセル配列にすることはできません。</entry>
+    <entry key="InvalidPropertyEvent">PropEvent に対する値が無効です。</entry>
+    <entry key="HG2Obj">オブジェクトが有効なグラフィックス オブジェクトではありません</entry>
+  </message>
+</rsccat>

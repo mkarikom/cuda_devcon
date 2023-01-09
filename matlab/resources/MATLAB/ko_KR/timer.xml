@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="alreadystarted">이미 실행 중이므로 타이머를 시작할 수 없습니다.</entry>
+    <entry key="badcallback">타이머 ''{1}''에 대해 {0}을(를) 실행하는 동안 오류 발생 \n\n{2}\n</entry>
+    <entry key="cannotBeSetWhileTimerRunning">타이머를 실행하는 동안에는 {0}을(를) 설정할 수 없습니다.</entry>
+    <entry key="cannotSetEmptyTimerFcnWhileRunning">실행 중인 타이머의 ''TimerFcn''을 빈 값으로 설정할 수 없습니다.</entry>
+    <entry key="cannotStartTimerWithNoTimerFcn">''TimerFcn'' 콜백을 지정하지 않고 타이머를 시작할 수 없습니다.</entry>
+    <entry key="creatematrix">timer 객체의 행 벡터 또는 열 벡터만 만들 수 있습니다.</entry>
+    <entry key="deleterunning">실행 중인 timer 객체를 하나 이상 삭제하고 있습니다.  삭제하기 전에 MATLAB이 자동으로 해당 객체를 중지했습니다.</entry>
+    <entry key="dlg_InspectionError">검사 오류</entry>
+    <entry key="dlg_InvalidObject">유효하지 않은 객체임</entry>
+    <entry key="dlg_TimerObjectIsInvalid">timer 객체가 유효하지 않습니다.</entry>
+    <entry key="emptyTimerObject">\n 빈 timer 객체임: 0×0\n\n</entry>
+    <entry key="errorinobjectarray">하나 이상의 객체를 시작할 수 없거나 이미 시작되었습니다.</entry>
+    <entry key="floorOfTasksToExecuteMustBePositive">Taking the ''floor'' of ''TasksToExecute'' should be positive </entry>
+    <entry key="incompatibleTimerLoad">저장된 타이머를 불러올 수 없습니다. 유효하지 않거나 이 버전의 MATLAB과 호환되지 않습니다. R2009a ~ R2019b 사이의 릴리스에서 timer 객체를 다시 생성하거나 timer 객체를 다시 불러오고 저장하십시오.</entry>
+    <entry key="incompletepvpair">속성-값 쌍의 짝이 맞지 않습니다.</entry>
+    <entry key="incorrectCallbackInput">타이머 콜백의 세 번째 인수는 string형 스칼라, 문자형 배열, 함수 핸들 또는 셀형 배열이어야 합니다.</entry>
+    <entry key="incorrectCallbackInputForCallbackType">{0} 콜백은 string형 스칼라, 함수 핸들 또는 1×N 셀형 배열로 설정되어야 합니다. 1×N 셀형 배열의 첫 번째 요소는 콜백 함수 이름 또는 핸들이어야 합니다.</entry>
+    <entry key="infinitetimer">무한 TasksToExecute를 가진 타이머를 기다릴 수 없습니다.</entry>
+    <entry key="invalid">유효하지 않은 timer 객체입니다. 이 객체는 삭제되었습니다. CLEAR를 사용하여 작업 공간에서 제거되어야 합니다.</entry>
+    <entry key="invaliddatesyntax">날짜 일련 번호에 오류가 있습니다. help TIMER/STARTAT을 참조하십시오.</entry>
+    <entry key="miliSecPrecNotAllowed">{0} 속성은 1밀리초 단위로 제한됩니다. 1밀리초보다 작은 단위는 무시됩니다.</entry>
+    <entry key="noTimerObj">OBJ는 timer 객체여야 합니다.</entry>
+    <entry key="notenoughparameters">STARTAT에는 최소 두 개의 파라미터가 필요합니다. help TIMER/STARTAT을 참조하십시오.</entry>
+    <entry key="numtimersanddelaymismatch">STARTAT에는 스칼라이거나 OBJ 길이와 같은 시작 지연 값이 필요합니다. help TIMER/STARTAT을 참조하십시오.</entry>
+    <entry key="onlyOneStructInput">timerfind/timerfindall에 대한 입력값은 스칼라 구조체 또는 이름-값 쌍일 수 있습니다. 구조체로 구성된 벡터는 허용되지 않습니다.</entry>
+    <entry key="someinvalid">하나 이상의 유효하지 않은 timer 객체가 입력 배열에 있습니다.</entry>
+    <entry key="startdelaynegative">지정된 시작 시간이 이미 경과되었습니다.</entry>
+    <entry key="unableToLoad">저장된 타이머를 불러올 수 없습니다.</entry>
+    <entry key="unableToExecuteErrorFcn">''ErrorFcn''을 실행할 수 없습니다.</entry>
+  </message>
+</rsccat>

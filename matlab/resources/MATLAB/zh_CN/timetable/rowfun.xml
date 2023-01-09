@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RowLabelsCannotBeDataVar">不支持使用行时间作为输入变量。</entry>
+    <entry key="RowLabelsCannotBeDataVarNondefaultName">变量名称 ''{0}'' 无法识别。您可能想访问该时间表中名称为 ''{1}'' 的行时间。但是，不支持使用行时间作为输入变量。</entry>
+    <entry key="InvalidOutputFormat">OUTPUTFORMAT 必须为以下项之一: 'uniform'、'table'、'cell' 或 'timetable'。</entry>
+  </message>
+</rsccat>

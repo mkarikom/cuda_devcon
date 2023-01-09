@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="AddPlot">Add Plot</entry>
+      <entry key="CopyOf" translate="false" note="TranslateFalseBatch;">Copy_of_{0}</entry>
+      <entry key="CopyOfNumber" translate="false" note="TranslateFalseBatch;">Copy_of_{0,number,integer}_{1}</entry>
+      <entry key="Correlations">Correlations</entry>
+      <entry key="CorrelationPlot">Correlation plot: </entry>
+      <entry key="CurrentPlots">Current Plots</entry>
+      <entry key="Dimensions">Dimensions</entry>
+      <entry key="DomainLimits">Domain Limits</entry>
+      <entry key="EditPlot">Edit Plot...</entry>
+      <entry key="Histogram">Histogram: </entry>
+      <entry key="Histograms">Histograms</entry>
+      <entry key="MoveTimeSeries">Move time series</entry>
+      <entry key="NewPlot">New Plot...</entry>
+      <entry key="NodeLabel">Node Label</entry>
+      <entry key="Path">Path</entry>
+      <entry key="RemovePlot">Remove Plot</entry>
+      <entry key="RescaleTimeSeries">Rescale time series</entry>
+      <entry key="SelectData">Select data</entry>
+      <entry key="SelectFrequencyIntervals">Select frequency interval(s)</entry>
+      <entry key="SelectPoints">Select points</entry>
+      <entry key="SelectTimeIntervals">Select time interval(s)</entry>
+      <entry key="SelectYRangeInterval">Select Y range interval</entry>
+      <entry key="SpectralPlot">Spectral plot: </entry>
+      <entry key="SpectralPlots">Spectral Plots</entry>
+      <entry key="TheSpecifiedNameConflicts">The specified name conflicts with the name of an existing plot of the same type. A suffix will be added to resolve the conflict.</entry>
+      <entry key="TimePlot">Time plot: </entry>
+      <entry key="TimePlots">Time Plots</entry>
+      <entry key="TimeSeries">Time Series</entry>
+      <entry key="TimeSeriesInSelectedView">Time Series in Selected View</entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+      <entry key="Title">Title</entry>
+      <entry key="ViewNumber" translate="false" note="TranslateFalseBatch;">View{0,number,integer}</entry>
+      <entry key="XYPlots">XY Plots</entry>
+      <entry key="XYPlot">XY plot: </entry>
+   </message>
+</rsccat>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ErrordlgErrorExecuting">기본 피팅 실행 중 오류 발생: {0}</entry>
+    <entry key="ErrordlgError">오류</entry>
+    <entry key="MsgSaveFitToWorkspace">작업 공간에 피팅 저장</entry>
+    <entry key="MsgSaveSaveFitAsStruct">다음 이름의 MATLAB 구조체로 피팅 저장:</entry>
+    <entry key="MsgSaveNormOfResiduals">잔차의 노름(Norm)을 다음 이름의 MATLAB 변수로 저장:</entry>
+    <entry key="MsgSaveResiduals">잔차를 다음 이름의 MATLAB 변수로 저장:</entry>
+    <entry key="WarndlgCannotPlotWithRepeatedXValue">X값이 반복되면 잔차의 막대 플롯이 허용되지 않습니다.\n산점도 플롯 또는 선 플롯을 사용하거나 반복된 X 값을 제거하십시오.</entry>
+    <entry key="TitleBasicFitting">기본 피팅</entry>
+    <entry key="DisplayNameCubic">3차</entry>
+    <entry key="DisplayNameLinear">1차</entry>
+    <entry key="DisplayNameQuadratic">2차</entry>
+    <entry key="DisplayNameNthDegree">{0}차</entry>
+    <entry key="DisplayNameShapePreserving">형태 보존</entry>
+    <entry key="DisplayNameSpline">스플라인</entry>
+    <entry key="ErrorUnableToDisplayHelpForBasicFitting">기본 피팅에 대한 도움말을 표시할 수 없음\n{0}</entry>
+    <entry key="ErrorUnableToDisplayHelpForDataStatistics">데이터 통계량에 대한 도움말을 표시할 수 없음\n{0}</entry>
+    <entry key="TitleDataStatistics">데이터 통계량</entry>
+    <entry key="LegendStringMax">최댓값</entry>
+    <entry key="LegendStringMean">평균</entry>
+    <entry key="LegendStringMedian">중앙값</entry>
+    <entry key="LegendStringMin">최솟값</entry>
+    <entry key="LegendStringMode">최빈값</entry>
+    <entry key="LegendStringStd">표준편차</entry>
+    <entry key="DisplayNameData">데이터 {0}</entry>
+    <entry key="ErrorEvaluateInBaseWorkspaceFailed">다음 오류로 인해 MATLAB 기본 작업 공간에서 표현식을 실행하는 데 실패함:\n\n{0}</entry>
+    <entry key="WarningImaginaryPartIgnored">표현식의 허수부는 무시됩니다.</entry>
+    <entry key="ErrorEvaluatingCausedFitToBeDeleted">표현식 실행으로 인해 피팅이 삭제되었습니다.</entry>
+    <entry key="ErrorMustEvaluateToReal">표현식은 실수형 스칼라, 벡터, 행렬 중 하나여야 합니다.</entry>
+    <entry key="ResidualDisplayNthDegreeNorm">{0,number,integer}차: 잔차의 노름(Norm) = {1}</entry>
+    <entry key="ResidualDisplayCubicNorm">3차: 잔차의 노름(Norm) = {0}</entry>
+    <entry key="ResidualDisplayLinearNorm">1차: 잔차의 노름(Norm) = {0}</entry>
+    <entry key="ResidualDisplayQuadraticNorm">2차: 잔차의 노름(Norm) = {0}</entry>
+    <entry key="ResidualDisplayShapepreservingNorm">형태 보존: 잔차의 노름(Norm) = 0</entry>
+    <entry key="ResidualDisplaySplineNorm">스플라인: 잔차의 노름(Norm) = 0</entry>
+    <entry key="MsgNormOfResidualsEqual0">{0}{1}\n\n잔차의 노름(Norm) = 0</entry>
+    <entry key="MsgNormOfResiduals">{0}\n잔차의 노름(Norm) = \n</entry>
+    <entry key="MsgCoefficients">{0}\n\n계수:\n</entry>
+    <entry key="MsgCenteredAndScaledVariable">\n\n정규화된 변수를 사용\n\nz = (x-mu)/sigma\nmu = {0}\nsigma = {1}</entry>
+    <entry key="MsgZIsCenteredAndScaled">\n\nz는 정규화된 결과를 나타냄.\n\nz = (x-mu)/sigma\nmu = {0}\nsigma = {1}</entry>
+    <entry key="DisplayShapePreservingInterpolant">형태 보존 보간</entry>
+    <entry key="DisplaySplineInterpolant">스플라인 보간</entry>
+    <entry key="ErrorTwoPointsRequiredWCubic">3차 보간 스플라인으로 피팅 시에는 적어도 2개의 데이터 점이 필요합니다. 스플라인으로 피팅할 데이터 점을 더 추가하십시오.</entry>
+    <entry key="ErrorTwoPointsRequiredWShapePres">형태 보존 보간으로 피팅하려면 적어도 2개의 데이터 점이 필요합니다. 데이터 점을 더 추가하십시오.</entry>
+    <entry key="WarningPolynomialBadlyConditionedCenterScale">다항식의 조건이 나쁩니다. 다른 X값을 갖는 점들을 추가하거나, 차수가 더 낮은 다항식을 선택하거나, "X 데이터 정규화"를 선택하십시오.</entry>
+    <entry key="ErrorRepeatedXValuesNotPermittedWCubicInt">3차 보간 스플라인으로 피팅하는 경우 반복된 X 값이 허용되지 않습니다. 반복된 값을 제거하십시오.</entry>
+    <entry key="ErrorRepeatedXValuesNotPermittedWShapePres">형태 보존 보간으로 피팅하는 경우에는 반복된 X값이 허용되지 않습니다. 반복된 값을 제거하십시오.</entry>
+    <entry key="WarningPointsWithNaNCoordsIgnored">NaN 좌표가 있는 데이터 점은 무시됩니다.</entry>
+    <entry key="WarningPolynomialIsBadlyConditionedUseLowerDegree">다항식의 조건이 나쁩니다. 다른 X값을 가진 점들을 추가하거나 차수가 더 낮은 다항식을 선택하십시오.</entry>
+    <entry key="CommentShowEquationsWasSelected">"수식 표시"가 선택됨</entry>
+    <entry key="CommentShowNormOfResidualsWasSelected">"잔차의 노름(Norm) 표시"가 선택됨</entry>
+    <entry key="CommentCalculateAndSaveResidualsEvaluateUsingOriginalXdata">잔차를 계산하고 저장함 - 원래의 xdata를 사용하여 실행</entry>
+    <entry key="CommentComputeBoundsAsMeanStd">평균 +/- 표준편차로 범위를 계산</entry>
+    <entry key="CommentCreateASeparateFigureForResiduals">잔차에 대하여 별도의 Figure를 생성</entry>
+    <entry key="CommentEvaluateInput">입력값 실행</entry>
+    <entry key="CommentEvaluatePiecewisePolynomial">조각별 다항식 실행</entry>
+    <entry key="CommentEvaluatePolynomial">다항식 실행</entry>
+    <entry key="CommentFindCoefficientsForPolynomialUsingNormData">정규화된 데이터를 사용하여 다항식(차수= {0,number,integer})의 계수 구하기</entry>
+    <entry key="CommentFindCoefficientsForPolynomial">다항식(차수 = {0,number,integer})의 계수 구하기</entry>
+    <entry key="CommentFindCoefficientsForShapePresInterpolantUsingNorm">정규화된 데이터를 사용하여 형태 보존 보간의 계수 구하기</entry>
+    <entry key="CommentFindCoefficientsForShapepreservingInterpolant">형태 보존 보간의 계수 구하기</entry>
+    <entry key="CommentFindCoefficientsForSplineInterpolantUsingNormalizedData">정규화된 데이터를 사용하여 스플라인 보간법의 계수 구하기</entry>
+    <entry key="CommentFindCoefficientsForSplineInterpolant">스플라인 보간법의 계수 구하기</entry>
+    <entry key="CommentFindTheString">{0} 구하기</entry>
+    <entry key="CommentFindXValuesForPlottingTheFitBasedOnXlim">xlim을 기준으로 피팅을 플로팅하기 위해 x값 구하기</entry>
+    <entry key="CommentGetAxesXlim">axes의 xlim 가져오기</entry>
+    <entry key="CommentGetAxesYlim">axes의 ylim 가져오기</entry>
+    <entry key="CommentGetCoordinatesForLine">{0} 선의 좌표 가져오기</entry>
+    <entry key="CommentGetCoordinatesForTheStdBoundsLine">표준편차 경계선의 좌표 가져오기</entry>
+    <entry key="CommentGetTheAxesChildren">axes의 자식 가져오기</entry>
+    <entry key="CommentGetTheIndexToTheAssociatedLine">associatedLine에 대한 인덱스 가져오기</entry>
+    <entry key="CommentGetXdataFromPlotForDataStatistics">데이터 통계량 계산을 위해 플롯에서 xdata 가져오기</entry>
+    <entry key="CommentGetXdataFromPlot">플롯에서 xdata 가져오기</entry>
+    <entry key="CommentGetYdataFromPlotForDataStatistics">데이터 통계량 계산를 위해 플롯에서 ydata 가져오기</entry>
+    <entry key="CommentGetYdataFromPlot">플롯에서 ydata 가져오기</entry>
+    <entry key="CommentMakeSureDataAreColumnVectors">데이터가 열 벡터인지 확인</entry>
+    <entry key="CommentMakeSureInputArgumentIsAColumn">입력 인수가 열인지 확인</entry>
+    <entry key="CommentMakeSureValueIsAColumn">값이 열인지 확인</entry>
+    <entry key="CommentNormalizeValue">값을 정규화하기</entry>
+    <entry key="CommentNormalizeXdata">xdata를 정규화하기</entry>
+    <entry key="CommentPlotResidualsInABarPlot">막대 플롯으로 잔차를 플로팅하기</entry>
+    <entry key="CommentPlotResidualsInALinePlot">선 플롯으로 잔차를 플로팅하기</entry>
+    <entry key="CommentPlotResidualsInAScatterPlot">산점도 플롯으로 잔차를 플로팅하기</entry>
+    <entry key="CommentPlotTheString">{0}을(를) 플로팅하기</entry>
+    <entry key="CommentPlotTheBounds">경계를 플로팅하기</entry>
+    <entry key="CommentPlotTheEvaluatedResults">실행된 결과를 플로팅하기</entry>
+    <entry key="CommentPlotTheFit">피팅을 플로팅하기</entry>
+    <entry key="CommentPreallocateForShowEquationsCoefficients">"수식 표시" 계수를 위해 사전할당(Preallocation)</entry>
+    <entry key="CommentPrepareForPlottingResiduals">잔차 플로팅을 준비</entry>
+    <entry key="CommentPrepareValuesToPlotStdFirstFindTheMean">표준편차를 플로팅할 값 준비. 먼저 평균값 구하기</entry>
+    <entry key="CommentRemoveNaNValuesAndWarn">NaN 값을 제거하고 경고</entry>
+    <entry key="CommentRemoveTheNewLine">새 줄(Newline) 제거</entry>
+    <entry key="CommentReorderLinesSoTheNewLineAppearsWithAssociatedData">새 줄(Newline)이 연결된 데이터와 함께 표시되도록 라인 다시 정리</entry>
+    <entry key="CommentRepositionResidualFigure">잔차 Figure의 위치 변경 </entry>
+    <entry key="CommentResetLineOrderForLegend">범례의 순서 재설정</entry>
+    <entry key="CommentResetUnits">단위 재설정</entry>
+    <entry key="CommentSaveCoefficientsForShowEquation">"수식 표시"의 계수 저장</entry>
+    <entry key="CommentSaveCurrentAxisUnitsThenSetToNormalized">현재 축의 단위를 저장한 다음 정규화로 설정</entry>
+    <entry key="CommentSaveTypeOfFitForShowEquations">"수식 표시"의 피팅 유형 저장</entry>
+    <entry key="CommentSaveTypeOfFitForShowNormOfResidualsAndShowEquations">"잔차의 노름(Norm) 표시"와 "수식 표시"의 피팅 유형 저장</entry>
+    <entry key="CommentSaveTypeOfFitForShowNormOfResiduals">"잔차의 노름(Norm) 표시"의 피팅 유형 저장</entry>
+    <entry key="CommentSetColorsToMatchFitLinesAndSetDisplayNames">피팅 선에 맞게 색을 설정하고 표시 이름을 설정</entry>
+    <entry key="CommentSetColorsToMatchFitLines">피팅 선에 맞게 색을 설정</entry>
+    <entry key="CommentSetNewLineInProperPosition">적절한 위치에 새 줄(Newline)을 설정</entry>
+    <entry key="CommentSetResidualPlotAxisTitle">잔차 플롯 축의 제목 설정</entry>
+    <entry key="CommentSetTheChildren">자식 설정:</entry>
+    <entry key="CommentShowLegendOnResidualPlot">잔차 플롯에 범례 표시</entry>
+    <entry key="CommentSortResiduals">잔차 정렬</entry>
+    <entry key="CommentAssociatedLine">연결된 라인</entry>
+    <entry key="CommentAxesForResiduals">잔차의 좌표축</entry>
+    <entry key="CommentAxes">좌표축</entry>
+    <entry key="CommentCoefficients">계수</entry>
+    <entry key="CommentGetShowNormOfResidualsString">"잔차의 노름(Norm) 표시" 텍스트 가져오기</entry>
+    <entry key="CommentGetShowEquationString">"수식 표시" 텍스트 가져오기</entry>
+    <entry key="CommentNewLine">새 줄(Newline)</entry>
+    <entry key="CommentNormOfResiduals">잔차의 노름(Norm)</entry>
+    <entry key="CommentNumberOfSignificantDigits">유효 자릿수</entry>
+    <entry key="CommentSetLineOrder">선 순서 설정</entry>
+    <entry key="CommentShowEquations">수식 표시</entry>
+    <entry key="CommentShowNormOfResiduals">잔차의 노름(Norm) 표시</entry>
+    <entry key="CommentTypeOfFit">피팅 유형</entry>
+    <entry key="CommentTypesOfFits">피팅들의 유형</entry>
+    <entry key="CommentXData">X 데이터</entry>
+    <entry key="CommentGetStringFromMessageCatalog">메시지 카탈로그에서 텍스트를 가져옵니다.</entry>
+    <entry key="TitleResiduals">잔차</entry>
+    <entry key="DlgSaveXStats">X 통계를 다음 이름의 MATLAB 구조체로 저장:</entry>
+    <entry key="DlgSaveYStats">Y 통계를 다음 이름의 MATLAB 구조체로 저장:</entry>
+    <entry key="DlgSaveStatisticsToWorkspace">통계량을 작업 공간에 저장</entry>
+    <entry key="CubicSplineInterpolant">3차 스플라인 보간</entry>
+    <entry key="ShapePreservingInterpolant">형태 보존 보간</entry>
+    <entry key="DataChangedFitsResultsDeleted">''{0}'' 데이터가 변경되었습니다. 피팅과 결과가 삭제됩니다.</entry>
+    <entry key="DataChanged">데이터 변경됨</entry>
+    <entry key="evaluated">실행됨: {0}</entry>
+    <entry key="InputValueMustEvaluateToReal">입력값은 실수형 스칼라, 벡터, 행렬이어야 합니다.</entry>
+    <entry key="ImaginaryPartOfInputIgnored">입력값의 허수부는 무시됩니다.</entry>
+    <entry key="SaveResultsToWorkspace">결과를 작업 공간에 저장</entry>
+    <entry key="SaveXinVariable">x를 다음 이름의 MATLAB 변수로 저장:</entry>
+    <entry key="SaveFofXinVariable">y를 다음 이름의 MATLAB 변수로 저장:</entry>
+  </message>
+</rsccat>

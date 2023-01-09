@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotVectorized">함수가 배열 입력값을 실행하는 데 실패했습니다. 함수를 벡터화하면 실행 속도를 높일 수 있으며 배열 요소를 순환하며 실행할 필요가 없습니다.</entry>
+  </message>
+</rsccat>

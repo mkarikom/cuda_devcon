@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">적어도 2개의 입력값이 필요합니다.</entry>
+    <entry key="OutvalNotScalarDouble">OUTVAL은 double형 스칼라여야 합니다.</entry>
+    <entry key="CoptionsNotStringCell">볼록 껍질 옵션은 문자형 벡터로 구성된 셀형 배열이거나 string형 배열이어야 합니다.</entry>
+    <entry key="DoptionsNotStringCell">DOPTIONS는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="XandXIColSizeMismatch">X 및 XI는 동일한 열 차원을 가지고 있어야 합니다.</entry>
+    <entry key="InvalidSizeT">T는 X의 삼각분할이 될 올바른 크기를 가지고 있지 않습니다.</entry>
+  </message>
+</rsccat>

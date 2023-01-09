@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MatrixOfXData">x 数据的矩阵</entry>
+    <entry key="VectorOfXData">x 数据的向量</entry>
+    <entry key="MatrixOfYData">y 数据的矩阵</entry>
+    <entry key="VectorOfYData">y 数据的向量</entry>
+    <entry key="MatrixOfZData">z 数据的矩阵</entry>
+    <entry key="VectorOfZData">z 数据的向量</entry>
+    <entry key="CreateMultipleLinesUsingMatrix">使用 {0} 的矩阵输入创建多行</entry>
+  </message>
+</rsccat>

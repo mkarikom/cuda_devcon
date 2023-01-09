@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="null_self">尝试对空值调用方法</entry>
+    <entry key="must_be_string">条目编号 {0,number,integer} 必须为字符向量</entry>
+    <entry key="must_be_cell_array">参数必须为元胞数组</entry>
+    <entry key="no_duplicates">字符向量 {0} 已位于该集合中。</entry>
+  </message>
+</rsccat>

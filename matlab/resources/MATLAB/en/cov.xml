@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotEnoughInputs">Not enough input arguments.</entry>
+    <entry key="TooManyInputs">Too many input arguments.</entry>
+    <entry key="InputDim">Inputs must be 2-D.</entry>
+    <entry key="unknownFlag">Invalid option. Option must be ''includenan'', ''omitrows'', or ''partialrows''.</entry>
+    <entry key="notScalarFlag" note="stringDatatypeUpdate">Third input must be 0, 1, or a flag character vector.</entry>
+    <entry key="XYlengthMismatch">The number of elements in x and y must match.</entry>
+  </message>
+</rsccat>

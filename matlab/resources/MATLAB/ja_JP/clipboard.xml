@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InsufficientCopyArguments">CLIPBOARD 関数は、コピー時に 2 つの入力引数を必要とします。</entry>
+    <entry key="InvalidSecondArgument">関数 CLIPBOARD の 2 番目の引数は、数値配列、文字ベクトルまたは string スカラーでなければなりません。</entry>
+    <entry key="IncorrectUsage">使用法: CLIPBOARD(''copy'',stuffToCopy) または OUT = CLIPBOARD(''paste'')</entry>
+    <entry key="MatlabOnlineSupport">CLIPBOARD(''pastespecial'') は MATLAB Online ではサポートされていません</entry>
+  </message>
+</rsccat>

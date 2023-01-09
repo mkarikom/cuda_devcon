@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EmptyEventHandler">eventhandler 不能为空</entry>
+    <entry key="InvalidEventHandler">eventhandler 必须为字符向量、字符串标量或字符向量元胞数组</entry>
+    <entry key="invalidinputhandle">输入必须为标量句柄。</entry>
+    <entry key="InvalidNumEventArgs">事件处理程序对的数目应为偶数。</entry>
+    <entry key="InvalidNumEventArgsSize">事件处理程序参数大小无效。</entry>
+    <entry key="InvalidEventname">注册事件时出错。事件名称无效。</entry>
+    <entry key="InvalidEventname2">注册事件时出错。''{0}'' 不是有效的事件名称。</entry>
+  </message>
+</rsccat>

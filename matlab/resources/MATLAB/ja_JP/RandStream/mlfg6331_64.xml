@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnableToComputeALFGState">ALFG の状態を計算できません。</entry>
+    <entry key="InvalidState">mlfg6331_64 ジェネレーターに対する状態が無効です。</entry>
+    <entry key="SubstreamsIndexOutOfRange">mlfg6331_64 ストリームは、2^51 のサブストリームのみ持っています。</entry>
+    <entry key="InvalidParameter">mlfg6331_64 ジェネレーターはパラメーターを受け入れません。</entry>
+    <entry key="TooManyStreams">2^61 を超える mlfg6331_64 ストリームは作成できません。</entry>
+  </message>
+</rsccat>

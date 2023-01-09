@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="firstInputMustBe2D">第一个输入必须为二维。</entry>
+    <entry key="kthDiagInputNotInteger">在第 K 条对角线上必须输入整数标量。</entry>
+    <entry key="kthDiagInputNotFinite">对于 DIAG 的向量输入形式，在第 K 条对角线上必须输入有限值。</entry>
+  </message>
+</rsccat>

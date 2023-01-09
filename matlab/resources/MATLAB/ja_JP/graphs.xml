@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadVertexID">
+ID が {0,number,integer} の頂点はそのグラフに存在しません。削除された可能性があります。
+ </entry>
+    <entry key="OrphanVertex">
+この頂点が属するグラフが存在しません。
+ </entry>
+    <entry key="OrphanEdge">
+このエッジが属するグラフが存在しません。
+ </entry>
+    <entry key="NoVertexData">
+頂点のデータがありません。
+ </entry>
+    <entry key="NoEdgeData">
+エッジのデータがありません。
+ </entry>
+    <entry key="BadEdgeTarget">
+エッジが無効です。ターゲットの頂点が存在しません。
+ </entry>
+    <entry key="BadEdgeSource">
+エッジが無効です。ソースの頂点が存在しません。
+ </entry>
+    <entry key="InvalidEdge">
+頂点 ID {0,number,integer} から頂点 ID {1,number,integer} へのエッジがそのグラフにありません。
+ </entry>
+    <entry key="BadVertexDescriptor">
+記述子が {0,number,integer} の頂点はそのグラフに存在しません。削除された可能性があります。
+ </entry>
+    <entry key="VertexIDOutOfRange">
+範囲外の頂点 ID ({0,number,integer}) です。有効な範囲は {1,number,integer} ～ {2,number,integer} です。
+ </entry>
+    <entry key="RemoveEmptyVertex">
+グラフから空の頂点を削除できません。Graph.vertex() を使用して有効な頂点オブジェクトを取得するか、有効な頂点 ID を指定してください。
+ </entry>
+    <entry key="RemoveEmptyEdge">
+グラフから空のエッジを削除できません。Graph.edge() を使用して有効な頂点オブジェクトを取得するか、ソースとターゲットの有効な頂点 ID を指定してください。
+ </entry>
+    <entry key="BadVertexIDSize">
+予期せぬサイズの頂点識別子です: {0,number,integer} バイト。有効なバイト数の値を指定してください: {1}。
+ </entry>
+    <entry key="EmptyVertexID">
+頂点 ID を空にすることはできません。double または int32 などの数値型を使用してください。
+ </entry>
+    <entry key="BadVertexIDType">
+{0} 型のデータから頂点 ID を作成することはできません。double または int32 などの数値型を使用してください。
+ </entry>
+    <entry key="BadEdgeVertex">
+{0,number,integer} と {1,number,integer} のいずれかが無効の頂点であるため、この 2 つの間にエッジはありません。有効な頂点 ID の範囲は、{2,number,integer} ～ {3,number,integer} です。
+ </entry>
+    <entry key="PropertyCountWrong">
+プロパティの数が正しくありません。現在の数:{0,number,integer}。必要な数:{1,number,integer} または 1。
+ </entry>
+    <entry key="ValueCountWrong">
+値の数が正しくありません。現在の数:{0,number,integer}。必要な数:{1,number,integer} または 1。
+ </entry>
+    <entry key="EmptyGraph">
+グラフは空です。頂点とエッジを追加してください。
+ </entry>
+    <entry key="DullGraph">
+グラフには、頂点 {0,number,integer} から頂点 {1,number,integer} へのエッジがありません。グラフの関数 add_edge を呼び出してこのエッジを追加してから参照してください。
+ </entry>
+    <entry key="ArgMustBeScalar">
+引数 {0,number,integer} はスカラーでなければなりません。これは {1,number,integer} 次元配列です。
+ </entry>
+    <entry key="ArgMustBeNumeric">
+引数 {0,number,integer} は数値でなければなりません。代わりに {1} が見つかりました。
+ </entry>
+    <entry key="SearchEventRequired">
+トラバーサル イベントを指定してください。指定できる値として 'DiscoverVertex' (頂点をはじめて参照するとき) や 'BackEdge' (サイクルが検出されるとき) などがあります。完全なリストはドキュメンテーションを参照してください。現在データを利用できるイベントのリストについては、この visitor の ActiveEvents プロパティを参照してください。
+ </entry>
+    <entry key="SearchEventMustBeChar">
+トラバーサル イベントの名前には文字ベクトルが必要です。タイプ {0} のオブジェクトが指定されています。
+ </entry>
+    <entry key="PartPropertyMustBeChar">
+パーツ プロパティの名前には文字ベクトルが必要です。タイプ {0} のオブジェクトが指定されています。
+ </entry>
+    <entry key="PartPropertyMustBeVector">
+パーツ プロパティの名前には 1 行 N 列または N 行 1 列の文字 (文字ベクトル) が必要です。最初の 2 次元が {1,number,integer} 行 {2,number,integer} 列である {0,number,integer} 次元の配列が指定されました。
+ </entry>
+    <entry key="InvalidPartReferant">
+タイプ {0} のデータを使ってグラフの頂点またはエッジを識別できません。グラフの頂点とエッジは、ID、頂点オブジェクト、エッジ オブジェクトまたは関連するユーザー データを使って指定してください。 
+ </entry>
+    <entry key="PartIdMustBeNumeric">
+エッジと頂点の識別子は数値でなければなりません。タイプ {0} のデータが指定されています。
+ </entry>
+    <entry key="PartIdMustBeNumericOrChar">
+パーツ指定子は数値配列 (頂点の場合は M 行 1 列、エッジの場合は M 行 2 列) または文字ベクトル ('Edge' または 'Vertex') でなければなりません。タイプ {0} のオブジェクトが指定されています。
+ </entry>
+    <entry key="PartIdMustBeMatrix">
+パーツ ID は行列 (VertexID の場合は M 行 1 列、EdgeID の場合は M 行 2 列) でなければなりません。最初の 2 次元が {1,number,integer} 行 {2,number,integer} 列である {0,number,integer} の配列が指定されました。
+ </entry>
+    <entry key="InvalidPropertyName">
+プロパティ名は 'value' または 'data' でなければなりません。{0} が指定されています。
+ </entry>
+    <entry key="PartTypeMustBeChar">
+パーツ タイプの名前には文字ベクトルが必要です。タイプ {0} のオブジェクトが指定されています。
+ </entry>
+    <entry key="InternalNullPredicate">
+内部エラー: 頂点またはエッジの述語が予期に反して NULL です。操作がキャンセルされました。
+ </entry>
+    <entry key="PredicateMustBeFcn">
+述語引数は boolean を返す関数でなければなりません。タイプ {0} のオブジェクトが指定されています。
+ </entry>
+    <entry key="PredicateArgSizeMismatch">
+述語関数には {0,number,integer} 個の入力が必要ですが、パーツには {1,number,integer} 個しかありません。述語を変更して最大 {2,number,integer} 個の入力があるようにしてください。
+ </entry>
+    <entry key="DataAlreadySet">
+引数リストにある MATLAB 構造体配列が多すぎます。引数リストは最大 1 つの MATLAB 構造体配列を含むことができ、それを使ってユーザー データを設定します。引数 {0,number,integer} は構造体配列にすることができません。削除するか、またはタイプを変更してください。
+ </entry>
+    <entry key="ValueAlreadySet">
+引数リストにある MATLAB の double 配列が多すぎます。引数リストは最大 1 つの MATLAB の double 配列を含むことができ、それを使って値を設定します。引数 {0,number,integer} は double 配列にすることができません。削除するか、またはタイプを変更してください。
+ </entry>
+    <entry key="FindIfSearchDataAlreadySet">
+引数のタイプの不一致:入力番号 {0,number,integer} はセル配列ですが、findIf 検索データは既に設定されています。findIf への 1 つの入力のみをセル配列にすることができます。
+ </entry>
+    <entry key="FindIfPartAlreadySet">
+引数のタイプの不一致: 入力番号 {0,number,integer} は文字ベクトルですが、findIf のパーツ タイプが既に設定されています。findIf への 1 つの入力のみを文字ベクトルにすることができ、'edge' または 'vertex' を指定しなければなりません。
+ </entry>
+    <entry key="FindIfCountMustBeScalar">
+引数のタイプの不一致:入力番号 {0,number,integer} は数値ですが、スカラーではありません ({1,number,integer} 個の要素があります)。findIf への 1 つの入力のみを数値にすることができ、その数値はスカラーでなければなりません。パーツの最大数が返されます。
+ </entry>
+    <entry key="FindIfCountAlreadySet">
+引数のタイプの不一致:入力番号 {0,number,integer} は数値ですが、findIf が返す数は既に設定されています。findIf への 1 つの入力のみを数値にすることができ、返すパーツの最大数を指定しなければなりません。
+ </entry>
+    <entry key="FindIfCountOutOfBounds">
+検出するパーツ数は、{0,number,integer} ～ {1,number,integer} でなければなりません。{2,number,integer} が指定されています。
+ </entry>
+    <entry key="InvalidPartType">
+グラフのパーツ タイプは 'vertex' または 'edge' でなければなりません。"{0}" が指定されています。
+ </entry>
+    <entry key="SourceAndTargetSizeMismatch">
+開始の頂点と終了の頂点のリストはスカラーまたはベクトル (1 行 N 列または M 行 1 列) になります。両方とも非スカラーの場合、厳密に同じ数の要素を含んでいなければなりません。ここでは一致していません。length(start):{0,number,integer}。length(finish):{1,number,integer}。
+ </entry>
+    <entry key="ValueAndDataSizeMismatch">
+値配列とデータ配列はスカラーまたはベクトル (1 行 N 列または M 行 1 列) になります。両方とも非スカラーの場合、厳密に同じサイズでなければなりません。ここでは一致していません。length(values):{0,number,integer}。length(data):{1,number,integer}。
+ </entry>
+    <entry key="DataMustBeStructVector">
+新規頂点のユーザー データには 1 行 N 列または N 行 1 列の構造体配列が必要です。最初の 2 次元が {2,number,integer} 行 {3,number,integer} 列であるタイプ {1} の {0,number,integer} 次元の配列が指定されました。
+ </entry>
+    <entry key="ValuesMustBeDoubleVector">
+新規頂点の値には double の 1 行 N 列または N 行 1 列のベクトルが必要です。最初の 2 次元が {2,number,integer} 行 {3,number,integer} 列であるタイプ {1} の {0,number,integer} 次元の配列が指定されました。
+ </entry>
+    <entry key="PartTypeMustBeVector">
+パーツ タイプの名前には 1 行 N 列または N 行 1 列の文字 (文字ベクトル) が必要です。最初の 2 次元が {1,number,integer} 行 {2,number,integer} 列である {0,number,integer} 次元の配列が指定されました。
+ </entry>
+    <entry key="SearchEventMustBeVector">
+トラバーサル イベントの名前には 1 行 N 列または N 行 1 列の文字ベクトルが必要です。最初の 2 次元が {1,number,integer} 行 {2,number,integer} 列である {0,number,integer} 次元の配列が指定されました。
+ </entry>
+    <entry key="NumericMustBeNumeric">
+数値が必要です。タイプ {0} のオブジェクトが指定されています。
+ </entry>
+    <entry key="LogicalMustBeLogical">
+論理値 (boolean) が必要です。タイプ {0} のオブジェクトが指定されています。
+ </entry>
+    <entry key="LogicalMustBeScalar">
+スカラー論理値 (boolean) が必要です。{0,number,integer} 要素のある配列が指定されています。
+ </entry>
+    <entry key="NumericMustBeScalar">
+スカラー数が必要です。{0,number,integer} 要素のある数値配列が指定されています。
+ </entry>
+    <entry key="StringMustBeString">
+文字ベクトルが必要です。タイプ {0} のオブジェクトが指定されています。
+ </entry>
+    <entry key="StringMustBeVector">
+1 行 N 列または N 行 1 列の文字ベクトルが必要です。最初の 2 次元が {1,number,integer} 行 {2,number,integer} 列である {0,number,integer} 次元の配列が指定されました。
+ </entry>
+    <entry key="ArgMustBeStruct">
+引数 {0,number,integer} は構造体でなければなりません。
+ </entry>
+    <entry key="UnexpectedArgType">
+{1} の引数 {0,number,integer} は {2} でなければなりません。{3} が指定されています。
+ </entry>
+    <entry key="InvalidArgType">
+引数 {0,number,integer} でタイプが一致しません。この関数は、タイプ {1} の引数を受け入れません。
+ </entry>
+    <entry key="ArgMustBeStructOrNumeric">
+引数 {0,number,integer}: データを指定するには構造体配列を、値を設定するには double の配列を指定してください。不適切なタイプ: {1}。
+ </entry>
+    <entry key="InvalidVisitEvent">
+{1} グラフ トラバーサルのイベント {0} はありません。有効なイベントを指定してください。
+ </entry>
+    <entry key="VisitorRequiresGraph">
+{0} を送信してグラフを参照する場合、グラフを指定する必要があります。2 つの引数、visitor オブジェクトと graph を使って visit() を呼び出してください。たとえば以下のように入力します。values = visit(visitor, graph)
+ </entry>
+    <entry key="VerticesRequireVisit">
+visitor を送信してグラフを参照するまで、参照した頂点を visitor に要求できません。この {0} はグラフを一度も参照していません。graph g と visitor v がある場合、visit(v, g) を呼び出してグラフのトラバーサルを開始してください。
+ </entry>
+    <entry key="ValuesRequireVisit">
+visitor を送信してグラフを参照するまで、グラフのトラバーサル中に収集した値を visitor に要求できません。この {0} はグラフを一度も参照していません。graph g と visitor v がある場合、visit(v, g) を呼び出してグラフのトラバーサルを開始してください。
+ </entry>
+    <entry key="VisitorRequiresCallbackStruct">
+{0} visitor を作成するとき、visitor がグラフのトラバーサル中にあらかじめ定義された回数呼び出すコールバック配列を指定できます。コールバック配列は、'event'、'callback'、'state' の 3 フィールドをもつ構造体でなければなりません。'state' だけは空にできます。
+ </entry>
+    <entry key="WrongNumberFcnArgs">
+関数 {0} には {1} 個の引数が必要です。{2,number,integer} 個指定されています。
+ </entry>
+    <entry key="WrongNumberExeArgs">
+プログラム {0} には {1,number,integer} 個の引数が必要です。{2,number,integer} 個指定されています。
+ </entry>
+    <entry key="WrongNumberConstructorArgs">
+{0} のコンストラクターには {1} 個の引数が必要です。{2,number,integer} 個指定されています。
+ </entry>
+    <entry key="NoDirection">
+グラフのエッジ方向 (有方向または無方向) を {0} への入力から判別できません。有方向のグラフには ('directed', true)、無方向のグラフには ('directed', false) を指定します。
+ </entry>
+    <entry key="BadInputs">
+{0} に対する入力引数のリストが無効です。
+ </entry>
+    <entry key="NotANumericType">
+数値型を必要とする操作に {0} のデータ型が指定されました。
+ </entry>
+    <entry key="MissingVertexEdgeData">
+{1,number,integer} 個の引数で {0} を呼び出す場合、頂点の数またはエッジのベクトルを指定しなければなりません。どちらも引数のリストにありません。
+ </entry>
+    <entry key="MissingUserData">
+{1,number,integer} 個の引数で {0} を呼び出す場合、このうちの 1 つはユーザー データを指定する MATLAB 構造体でなければなりません。引数のリストには MATLAB 構造体が含まれていません。
+ </entry>
+    <entry key="MissingCallbackState">
+グラフ {0} の visitor コールバックは、状態の変更を保つために順番に状態引数を返さなければなりません。コールバックの形式は [value, state] = @(part, graph, state) となります (part は、コールバックのタイプによって頂点またはエッジとなります)。
+ </entry>
+    <entry key="NoCallbackData">
+{0} グラフのトラバーサル コールバック {1} に利用できるデータはありません。このイベントのコールバックを指定しなかった可能性があります。
+ </entry>
+    <entry key="GraphTooBigForTC">
+{1,number,integer} 個の頂点と {2,number,integer} 個のエッジのあるグラフの {0,number,integer} 個の推移閉包を計算するには、メモリが不足しています。グラフをさらに小さく分割してください。
+ </entry>
+    <entry key="CannotGrowResult">
+結果のベクトルを {0,number,integer} 要素にするにはメモリが不足しています。操作がキャンセルされました。
+ </entry>
+    <entry key="CannotCreateGraphData">
+{0,number,integer} 個の頂点と {1,number,integer} 個のエッジのあるグラフのグラフ データ配列を作成するには、メモリが不足しています。{2} 操作がキャンセルされました。       
+ </entry>
+    <entry key="CannotCreateVertexData">
+{0,number,integer} 個の頂点のデータ配列を作成するには、メモリが不足しています。頂点 #{1,number,integer}、フィールド {2} の処理中に失敗しました。)
+ </entry>
+    <entry key="CannotCreateEdgeData">
+{0,number,integer} 個のエッジのデータ配列を作成するには、メモリが不足しています。エッジ #{1,number,integer}、フィールド {2} の処理中に失敗しました。
+ </entry>
+    <entry key="EdgeTooLarge">
+{0,number,integer} バイトのエッジ サイズは大きすぎるため、メモリ ({1,number,integer} バイト) に収まりません。より小さなサイズを選択してください。通常、エッジサイズは 64 または 128 バイトです (頂点 2 つのサイズに相当)。
+ </entry>
+    <entry key="FailedToRetrieveSerializeData">
+{0} データを取得できません。グラフを直列化 (保存) できません。
+ </entry>
+    <entry key="VertexInitRequiresEmptyGraph">
+空のグラフの頂点データのみを設定できます。このグラフには既に {0,number,integer} 個の頂点があります。
+ </entry>
+    <entry key="InitDataEmpty">
+入力の構造体が空または NULL のため、{0} データを初期化できません。
+ </entry>
+    <entry key="InitDataMustBeStruct">
+{0} 初期化データは MATLAB 構造体でなければなりません。{1} が指定されています。
+ </entry>
+    <entry key="InitDataMissingField">
+{0} データを初期化できません。入力の構造体には、必要なフィールド {1} がありません。
+ </entry>
+    <entry key="InitMatrixWrongDims">
+グラフの {0} データを初期化できません。{1} 行列の次元数が正しくありません。{2,number,integer} が必要ですが {3,number,integer} が見つかりました。
+ </entry>
+    <entry key="InitMatrixWrongShape">
+グラフの {0} データを初期化できません。{1} 行列の形状が正しくありません。{2}x{3} が必要ですが、{4,number,integer}x{5,number,integer} が見つかりました。
+ </entry>
+    <entry key="InitDataWrongSize">
+グラフの {0} データを初期化できません。{1} リストのサイズが正しくありません。{2,number,integer} 個の要素が必要ですが {3,number,integer} 個見つかりました。
+ </entry>
+    <entry key="NoSuchStructField">
+存在しない構造体フィールド ''{0}'' を参照しようとしています。
+ </entry>
+    <entry key="InitDataBadStructure">
+グラフの {0} データを初期化できません。入力の構造体は、{1,number,integer} 個のフィールドをもっていなければなりません。対象の構造体は、{2,number,integer} 個のフィールドをもっています。
+ </entry>
+    <entry key="EdgeInitRequiresUnconnectedGraph">
+接続されていないグラフのエッジ データのみを設定できます。このグラフには既に {0,number,integer} 個のエッジがあります。
+ </entry>
+    <entry key="EdgeInitRequiresVertices">
+頂点が 0 個のグラフのエッジ データを設定できません。setVertexData を呼び出して頂点を追加してからエッジ データを追加してください。
+ </entry>
+    <entry key="FieldTypeWrong">
+{0} 構造体の {1} フィールドのタイプが正しくありません。{2} が必要です。{4,number,integer} {3}{5} が見つかりました。
+ </entry>
+    <entry key="UndirectedTopoSort">
+無方向グラフは位相的に並べ替えられません。
+ </entry>
+    <entry key="InternalZeroEdgesToRead">
+内部エラー: グラフのエッジ リスト ファイル {0} から読み取るエッジがありません。無限ループを回避しています。バッファー サイズ: {1,number,integer}、エッジのバイト数: {2,number,integer}、残りのエッジ: {3,number,integer}。
+ </entry>
+    <entry key="InternalBadFcnName">
+内部エラー:関数名 {0} から関数ハンドルを作成できませんでした。
+ </entry>
+    <entry key="InternalPairTypeMismatch">
+内部エラー:異なるタイプの項目のペアを作成しようとしました。これは許可されていないため、常に失敗します。
+ </entry>
+    <entry key="InternalBadScalarIteratorType">
+内部エラー:スカラーの配列リーダーはタイプ {0} の配列を処理できません。
+ </entry>
+    <entry key="InternalBadIteratorType">
+内部エラー:配列タイプ {1} から C++ 値タイプ {0} の Iterator を作成しようとしました。これらのタイプには互換性がありません。
+ </entry>
+    <entry key="InternalNoCallback">
+内部エラー:グラフの visitor コールバック関数は NULL です。
+ </entry>
+    <entry key="InternalBadListenerType">
+内部エラー:コンストラクターは不適切なタイプのリスナー オブジェクトを受信したため、グラフのトラバーサル関数を作成できません。
+ </entry>
+    <entry key="InternalBadVisitorValueSize">
+内部エラー:グラフの visitor 値のセル配列のサイズが正しくありません。{0,number,integer} 個の要素が必要ですが {1,number,integer} 個見つかりました。
+ </entry>
+    <entry key="InternalBadVertexListSize">
+内部エラー:頂点リストのサイズが正しくありません。{0,number,integer} 個の要素が必要ですが {1,number,integer} 個見つかりました。
+ </entry>
+    <entry key="InternalPartitionBreach">
+内部エラー: 連結要素の整合性に問題があります。要素 {1,number,integer} のエッジのソース頂点 {0,number,integer} は、要素 {3,number,integer} のターゲット頂点 {2,number,integer} に接続しています。エッジは連結要素の境界を越えてはいけません。
+ </entry>
+    <entry key="InternalUnmappedVertex">
+内部エラー: {1} 頂点マップに頂点 {0,number,integer} が必要です。
+ </entry>
+    <entry key="InternalBadEdgeListSize">
+内部エラー:エッジ リストのサイズが正しくありません。{0,number,integer} 個の要素が必要ですが {1,number,integer} 個見つかりました。
+ </entry>
+    <entry key="InternalBadEventNameSize">
+内部エラー:イベント名の配列サイズが正しくありません。{0,number,integer} 個の要素が必要ですが {1,number,integer} 個見つかりました。
+ </entry>
+    <entry key="InternalNullPtr">
+内部エラー:予期せぬ NULL ポインターがあります。関数: {0}. 変数: {1}.
+ </entry>
+    <entry key="InternalNoFactoryFcn">
+内部エラー:関数 factory は {1} と {2} から {0} を作成できません。ビット数が不足しているようです。
+ </entry>
+    <entry key="InternalEmptyProduct2">
+内部エラー:{0} を {1} と {2} から作成するはずの関数 factory は、何も作成しませんでした。 
+ </entry>
+    <entry key="InternalBadVertexID">
+内部エラー:予期せぬ頂点 ID:{0,number,integer}。必要な ID:{1,number,integer}。
+ </entry>
+    <entry key="InternalNoFields">
+内部エラー: 構造体でない配列でフィールドを参照しようとしています。入力配列のタイプ: {0}。
+ </entry>
+    <entry key="CannotOpenFile">
+ファイル "{0}" を開けません。ファイルが存在し、ファイルの読み取り権限を保有していることを確認してください。原因: {1}。
+ </entry>
+    <entry key="CannotCreateFile">
+ファイル "{0}" を作成できません。パス内にすべてのフォルダが存在すること、指定ディレクトリへの書き込み権限を保有していること、および既存のファイルを上書きできることを確認してください。原因: {1}。
+ </entry>
+    <entry key="CannotWriteFile">
+ファイル "{0}" に書き込めません。ファイルが存在すること、書き込み権限を保有していること、およびディスクに空き容量があることを確認してください。原因: {1}。
+ </entry>
+    <entry key="CannotCloseFile">
+ファイル "{0}" を閉じれません。ファイルが存在すること、書き込み権限を保有していること、およびディスクに空き容量があることを確認してください。原因: {1}。
+ </entry>
+    <entry key="CannotReadFileNBytes">
+ファイル "{1}" から {0,number,integer} バイトの読み取り中にエラーが発生しました。{2,number,integer} バイト読み取りました。ファイルが存在し、ファイルの読み取り権限を保有していることを確認してください。原因: {3}。
+ </entry>
+    <entry key="CannotWriteFileNBytes">
+ファイル "{1}" に {0,number,integer} バイトの書き込み中にエラーが発生しました。{2,number,integer} バイト書き込みました。ファイルが存在し、ファイルの書き込み権限を保有していることを確認してください。原因: {3}。
+ </entry>
+    <entry key="CannotReadFile">
+ファイル "{0}" から読み取れません。ファイルが存在し、ファイルの読み取り権限を保有していることを確認してください。原因: {1}。
+ </entry>
+  </message>
+</rsccat>

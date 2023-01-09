@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="braceNotSupported">遅延コロン記述子への中かっこのインデックス付けはサポートされていません。</entry>
+    <entry key="indexIntoEmptyObject">空のコロン記述子にインデックスを付けることはサポートされていません。</entry>
+    <entry key="methodNotSupported">遅延コロン記述子ではメソッド {0} はサポートされていません。</entry>
+    <entry key="onlyOneIndex">1 つの遅延コロン記述子に対して 1 つのインデックスのみがサポートされます。</entry>
+    <entry key="parenReferenceUnsupported">遅延コロンのインデックス指定と parenReference の組み合わせはサポートされていません。</entry>
+    <entry key="subscriptedAssignmentNotSupported">遅延コロン記述子の要素への代入はサポートされていません。</entry>
+    <entry key="singlePrecisionMaxIndexExceeded">単精度のインデックス値は 2^24 未満でなければなりません。</entry>
+    <entry key="doublePrecisionMaxIndexExceeded">インデックス値は 2^53 未満でなければなりません。</entry>
+  </message>
+</rsccat>

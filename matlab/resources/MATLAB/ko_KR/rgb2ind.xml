@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="tooManyColors">색이 너무 많음. 허용오차가 {0}(으)로 증가됨</entry>
+    <entry key="obsoleteSyntaxNeedMoreArgs">RGB2IND(RGB)는 더 이상 사용되지 않는 구문입니다.\n색 개수, 허용오차 또는 컬러맵을 지정하십시오.</entry>
+    <entry key="invalidInputArgs">유효하지 않은 입력 인수입니다.</entry>
+    <entry key="rgbNotMbyNby3">RGB 이미지는 M×N×3 배열이어야 합니다.</entry>
+    <entry key="negativeValuesInMap">컬러맵, 색 개수 또는 허용오차는 음수가 아니어야 합니다.</entry>
+    <entry key="invalidNumberOfColors">컬러맵의 색 개수는 음이 아닌 정수여야 합니다.</entry>
+    <entry key="invalidMapSize">입력 컬러맵은 최소 2개 행과 정확히 3개 열을 가진 2차원 배열이어야 합니다.</entry>
+    <entry key="invalidMapIntensities">모든 컬러맵 농도는 0과 1 사이여야 합니다.</entry>
+    <entry key="unknownDitherOption">알 수 없는 디더 옵션임: {0}</entry>
+    <entry key="ambiguousDitherOption">모호한 디더 옵션임: {0}</entry>
+    <entry key="ditherOptionNotString">디더 옵션은 문자형 벡터여야 합니다.</entry>
+  </message>
+</rsccat>

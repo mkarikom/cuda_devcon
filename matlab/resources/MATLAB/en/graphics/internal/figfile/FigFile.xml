@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidFigFormat">FigFormat property must be one of the values -1, 2 or 3.</entry>
+    <entry key="InvalidMatVersion">MatVersion property must be empty, ''-v6'', ''-v7'' or ''-v7.3''.</entry>
+    <entry key="InvalidRequiredMatlabVersion">RequiredMatlabVersion property must be a scalar integer with at least 5 digits.</entry>
+    <entry key="InvalidFormat2Data">Format2Data property must contain a structure with the fields ''type'', ''handle'',, ''properties'', ''children'' and ''special''.</entry>
+    <entry key="InvalidFormat3Data">Format3Data property must contain a row vector of figure handles.</entry>
+    <entry key="EmptyFilename" note="stringDatatypeUpdate">Filename must be a non-empty string scalar or a character vector.</entry>
+    <entry key="UnsetRequiredMatlabVersion">RequiredMatlabVersion property must be set to a value greater than zero before data can be written.</entry>
+    <entry key="UnsetFigFormat">FigFormat property must be one of the values 2 or 3 before data can be written.</entry>  
+  </message>
+</rsccat>

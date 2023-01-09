@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidN">GALLERY(N)의 N이 유효하지 않습니다.</entry>
+    <entry key="parametersRequired">입력 인수가 부족합니다.</entry>
+    <entry key="invalidMatName">유효하지 않은 행렬 이름입니다.</entry>
+    <entry key="invalidClassName">유효하지 않은 클래스 이름입니다.</entry>
+    <entry key="SparseSingle">''single''형 클래스의 희소 배열은 지원되지 않음</entry>
+  </message>
+</rsccat>

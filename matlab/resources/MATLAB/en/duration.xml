@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" decorate_cxx_names="1" string_type_for_hole="mixed">
+  <message>
+    <entry key="InvalidFormat" note="stringDatatypeUpdate">A duration display format must be a character vector or string scalar.</entry>
+    <entry key="UnrecognizedFormat" note="stringDatatypeUpdate">The format ''{0}'' is not valid.</entry>
+    <entry key="InvalidData">Input data must be numeric, or a cell or string array containing duration text.</entry>
+    <entry key="InvalidNumericData">Numeric input data must be a matrix with three columns, or else three or four separate numeric arrays. You can also create durations from a single numeric array using the YEARS, DAYS, HOURS, MINUTES, or SECONDS functions.</entry>
+    <entry key="InputSizeMismatch">Numeric input data arrays must be equal sizes, or any of them can be a scalar.</entry>
+    <entry key="InputMustBeReal">Numeric input data must be real.</entry>
+    <entry key="InvalidDim">DIM must be a positive integer value.</entry>
+    <!-- from seconds, minutes, hours, days, years -->
+    <entry key="CalendarDurationInputYears">Input data must be a real, numeric array, or a duration array. Use CALYEARS to extract whole calendar year numbers from a calendarDuration array.</entry>
+    <entry key="CalendarDurationInputDays">Input data must be a real, numeric array, or a duration array. Use CALDAYS to extract whole calendar day numbers from a calendarDuration array.</entry>
+    <entry key="CalendarDurationInputTime">Input data must be a real, numeric array, or a duration array. Use TIME or SPLIT to extract durations from a calendarDuration array.</entry>
+    <entry key="DatetimeInputYears">Input data must be a real, numeric array, or a duration array. Use YEAR to extract year numbers from a datetime array.</entry>
+    <entry key="DatetimeInputDays">Input data must be a real, numeric array, or a duration array. Use DAY to extract day numbers from a datetime array.</entry>
+    <entry key="DatetimeInputHours">Input data must be a real, numeric array, or a duration array. Use HOUR to extract hour numbers from a datetime array.</entry>
+    <entry key="DatetimeInputMinutes">Input data must be a real, numeric array, or a duration array. Use MINUTE to extract minute numbers from a datetime array.</entry>
+    <entry key="DatetimeInputSeconds">Input data must be a real, numeric array, or a duration array. Use SECOND to extract second numbers from a datetime array.</entry>
+    <entry key="InvalidDurationData">Input data must be a real, numeric array, or a duration array.</entry>
+    <entry key="InvalidNumericConversion">Undefined function ''{0}'' for input arguments of type 'duration'. To convert from durations to numeric, use the SECONDS, MINUTES, HOURS, DAYS, or YEARS functions.</entry>
+    <entry key="MonthsNotSupported">Undefined function ''{0}'' for input arguments of type 'duration'. Durations cannot represent calendar months. Use calendar durations instead.\n\nFor example, to find the difference between two datetimes in units of calendar months, use the BETWEEN function instead of subtraction.</entry>
+    <!-- from subsref, subsasgn, and numel -->
+    <entry key="CellReferenceNotAllowed">Cell contents reference from a non-cell array.</entry>
+    <entry key="CellAssignmentNotAllowed">Cell contents assignment to a non-cell array.</entry>
+    <entry key="UnrecognizedProperty">Unrecognized property: ''{0}''.</entry>
+    <entry key="InvalidPropertyName">Invalid property name.</entry>
+    <entry key="InvalidSubscriptExpr">()-indexing may not be followed by () or '{}' in an index expression.</entry>
+    <entry key="SubArrayPropertyAssignment">You may not assign to the ''{0}'' property of the elements of a duration array. Use d.{0} = ... instead.</entry>
+    <entry key="InvalidAssignmentLHS">Invalid LHS for assignment from a {0} array.</entry>
+    <entry key="InvalidAssignment">Right hand side of an assignment must be a duration array, numeric array representing days, or text representing durations in timer formats (e.g. 'hh:mm:ss').</entry>
+    <entry key="IllegalDotMethod">Unrecognized duration property ''{0}''. If you intended to call the {1} method, you must use a functional syntax such as {1}(d,...). See &lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;Method Invocation&lt;/a&gt; for more information.</entry>
+    <entry key="IllegalDotMethodNoCorrection">Unrecognized duration property ''{0}''. If you intended to call the {1} method, you must use a functional syntax. See &lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;Method Invocation&lt;/a&gt; for more information.</entry>
+    <!-- arithmetic -->
+    <entry key="InvalidComparison">Comparison is not defined between {0} and {1} arrays.</entry>
+    <entry key="AdditionNotDefined">Addition is not defined between {0} and {1} arrays.</entry>
+    <entry key="SubtractionNotDefined">Subtraction is not defined between {0} and {1} arrays.</entry>
+    <entry key="DurationMultiplicationNotDefined">Multiplication is not defined between two duration arrays.</entry>
+    <entry key="MultiplicationNotDefined">Multiplication is not defined between {0} and {1} arrays.</entry>
+    <entry key="DurationDivisionNotDefined">Cannot divide a {0} array by a duration array.</entry>
+    <entry key="DivisionNotDefined">Division is not defined between {0} and {1} arrays.</entry>
+    <entry key="MatrixDivisionNotDefined">The denominator in matrix division for duration arrays must be a real scalar double value.</entry>
+    <!-- variable editor -->
+    <entry key="InvalidFromVE">Unrecognized duration format.</entry>
+    <!-- text parsing -->
+    <entry key="UndetectableFormat">Could not recognize the format of {0}.\nExpected data of the form ''{1}'' or ''{2}''.</entry>
+    <entry key="DetectedTwoPart">The duration text format is ambiguous. Specify ''InputFormat'' with ''{0}'' or ''{1}''.</entry>
+    <entry key="DataMismatchedFormat">Unable to parse {0} using the format ''{1}''.</entry>
+    <entry key="InvalidInputFormat">A duration InputFormat must be a character vector or string scalar.</entry>
+    <entry key="UnrecognizedInputFormat">Unsupported format ''{0}''. See the documentation of ''InputFormat'' for valid formats.</entry>
+    <entry key="AutoConvertString">Unable to convert the text ''{0}'' to a duration value because its format was not recognized.</entry>
+    <entry key="IgnoredInputFormat">The 'InputFormat' parameter has no affect when creating a duration array from non-text data. It will be ignored.</entry>
+    <!-- Used to fill holes in messages DataMismatchedFormat {0} & UndetectableFormat {0} --><entry key="DurationTextLiteral">duration text</entry>
+    <!-- codegen -->
+     <entry key="UnsupportedMethodCodegen">The {0} method is not supported for duration in code generation.</entry>
+     <entry key="TextConstructionCodegen">Creating durations from text inputs is not supported in code generation.</entry>
+     <entry key="InvalidConversionCodegen">Conversion to duration from {0} is not possible.</entry>
+     <entry key="MustBeRealMillis">The milliseconds must always be a real value.</entry>
+  </message>
+</rsccat>

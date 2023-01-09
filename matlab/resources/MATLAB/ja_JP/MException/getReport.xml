@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidParameter">''{0}'' は getReport に対する有効なパラメーターではありません。</entry>
+    <entry key="invalidReportOption">getReport メソッドは ''basic'' または ''extended'' のレポート タイプのみを受け入れることができます。</entry>
+    <entry key="invalidType">getReport のパラメーターは、パラメーター値の組み合わせか構造体で指定されなければなりません。</entry>
+    <entry key="invalidValue">ハイパーリンクは、''on''、''off''、''default'' のいずれかでなければなりません。</entry>
+    <entry key="mustBeScalarStruct">getReport パラメーターは、スカラーの構造体で指定されなければなりません。</entry>
+    <entry key="parameterWithoutValue">getReport パラメーター ''{0}'' は値がありません。</entry>
+  </message>
+</rsccat>

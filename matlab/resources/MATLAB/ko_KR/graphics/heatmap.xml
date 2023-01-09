@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="XDataMismatch">x 값의 개수는 ''ColorData''의 열 개수와 같아야 합니다.</entry>
+    <entry key="YDataMismatch">y 값의 개수는 ''ColorData''의 행 개수와 같아야 합니다.</entry>
+    <entry key="DuplicateValues">{0} 값의 벡터에 중복된 값이 포함되어 있습니다.</entry>
+    <entry key="MissingValues">{0} 값의 벡터에 누락값이 포함되어 있습니다.</entry>
+    <entry key="EmptyStrings">공백만 포함한 string형과 빈 string형은 유효하지 않은 {0} 값입니다.</entry>
+    <entry key="InvalidSourceTable">''SourceTable'' 값은 table형이어야 합니다.</entry>
+    <entry key="MatrixWorkflow">''ColorData'' 속성을 설정한 후에는 ''{0}'' 속성을 설정할 수 없습니다.</entry>
+    <entry key="TableWorkflow">''SourceTable'' 속성을 설정한 후에는 ''{0}'' 속성을 설정할 수 없습니다.</entry>
+    <entry key="LimitsNotData">''{0}'' 벡터의 두 요소가 모두 ''{1}'' 벡터에 있어야 합니다.</entry>
+    <entry key="ResettingLimits">기존의 ''{0}'' 값이 새 ''{1}'' 벡터와 호환되지 않습니다. ''{0}'' 값이 ''{1}'' 벡터의 전체 범위로 재설정됩니다.</entry>
+    <entry key="InvalidLimits">''{0}'' 값은 요소를 2개 가진 벡터로서, 요소의 값은 ''{1}'' 벡터에서와 마찬가지로 같거나 증가해야 합니다.</entry>
+    <entry key="LabelsMismatch">''{0}'' 벡터는 ''{1}'' 벡터와 동일한 개수의 요소를 포함해야 함</entry>
+    <entry key="InvalidSortingVector">정렬 벡터를 문자형 벡터, string형 배열 또는 문자형 벡터로 구성된 셀형 배열로 지정하십시오.</entry>
+    <entry key="ElementsNotData">정렬 벡터에 있는 모든 요소는 ''{0}'' 또는 ''{1}'' 벡터에 있어야 합니다.</entry>
+    <entry key="InvalidString">&lt;a href=\"matlab:doc string\"&gt;string&lt;/a&gt; 함수가 {0} 값을 string형으로 변환하지 못했습니다. {0} 값을 string형이나 문자형 벡터로 구성된 셀형 배열 또는 string형으로 변환할 수 있는 배열로 지정하십시오.</entry>
+    <entry key="InvalidCategoryNames">&lt;a href=\"matlab:doc string\"&gt;categorical&lt;/a&gt; 함수가 {0} 값을 유효한 범주 이름으로 변환할 수 없습니다.</entry>
+    <entry key="DuplicateDataWithNone">테이블에 각 x, y 값 쌍의 인스턴스가 둘 이상 포함된 경우에는 ''ColorMethod'' 값을 ''none''으로 설정할 수 없습니다.</entry>
+    <entry key="NoColorVariable">''ColorMethod'' 값이 ''{0}''인 경우에는 ''ColorVariable''을 지정해야 합니다.</entry>
+    <entry key="InvalidCategoricalData">&lt;a href=\"matlab:doc categorical\"&gt;categorical&lt;/a&gt; 함수가 소스 테이블 변수 ''{0}''을(를) categorical형으로 변환하지 못했습니다.</entry>
+    <entry key="InvalidColorVariable">''ColorVariable'' 값은 소스 테이블의 실수 숫자형 변수를 참조해야 합니다.</entry>
+    <entry key="MissingValueIndicatorInData">누락값 표시자 때문에 소스 테이블 변수 ''{0}''의 값을 categorical형으로 변환할 수 없습니다. 누락값 표시자에 대한 자세한 내용은 &lt;a href=\"matlab:doc ismissing\"&gt;ismissing&lt;/a&gt;을 참조하십시오.</entry>
+    <entry key="NonDiscretizedData">소스 테이블 변수 ''{0}''의 값이 이산 범주로 그룹화되지 않았습니다. &lt;a href=\"matlab:doc discretize\"&gt;discretize&lt;/a&gt; 함수를 사용하여 값을 그룹화하십시오.</entry>
+    <entry key="CountTitle">{0}과(와) {1}의 개수</entry>
+    <entry key="MeanTitle">{0}의 평균</entry>
+    <entry key="MedianTitle">{0}의 중앙값</entry>
+    <entry key="MinTitle">{0}의 최솟값</entry>
+    <entry key="MaxTitle">{0}의 최댓값</entry>
+    <entry key="SumTitle">{0}의 합</entry>
+    <entry key="NegativeColorDataInLogScale">음수 색 데이터는 무시됩니다.</entry>
+    <entry key="InvalidArguments">인수는 테이블 뒤에 2개의 테이블 첨자가 나오거나, 2차원 숫자형 행렬이거나, 2개의 벡터 뒤에 2차원 숫자형 행렬이 나와야 합니다.</entry>
+    <entry key="InvalidTableArguments">입력 인수가 부족합니다. 테이블 인수 다음에는 2개의 테이블 첨자가 와야 합니다.</entry>
+    <entry key="ColorVariableNameValuePair">파라미터 이름-값 쌍을 사용하여 ''ColorVariable''을 지정하십시오.</entry>
+    <entry key="InvalidParent">부모 컨테이너는 Figure, uipanel 또는 uitab이어야 합니다.</entry>
+    <entry key="DeletedParent">부모 컨테이너가 삭제된 그래픽스 객체입니다.</entry>
+    <entry key="InvalidColorData">''ColorData''는 2차원 숫자형 행렬이어야 합니다.</entry>
+    <entry key="InvalidLabelColorData">''ColorData'' 값은 ''Strings'' 값의 길이와 동일한 개수의 열을 가진 uint8형의 4행 행렬이어야 합니다.</entry>
+    <entry key="InvalidLabelVertexData">''VertexData'' 값은 ''Strings'' 값의 길이와 동일한 개수의 열을 가진 single형의 3행 행렬이어야 합니다.</entry>
+    <entry key="ColorMethodLabel">색 데이터 계산 방법</entry>
+  </message>
+</rsccat>

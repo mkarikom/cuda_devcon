@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EmptyV6OutputArgument">{0} からの V6 互換出力引数が空の行列に設定されました。これは将来のリリースでエラーになります。</entry>
+    <entry key="DeprecatedV6OutputArgument">{0} からの V6 互換出力引数は廃止予定です。これは将来のリリースではサポートされません。</entry>
+    <entry key="EmptyInput">入力引数が空です</entry>
+    <entry key="NonFiniteData">等高線図は有限でない ZData の場合は描画されません</entry>
+    <entry key="ConstantData">等高線図は定数の ZData の場合は描画されません</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidumberOfArguments">Value must be provided for ''update''.</entry>
+    <entry key="InvalidValueRange">Value must be between 0 and 100.</entry>
+    <entry key="InvalidPositionVector">Unsupported Position vector. Value must be a [1x4] vector.</entry>
+    <entry key="InvalidColorVector">Unsupported Color vector. Value must be a [1x3] vector.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed">
+  <message>
+    <entry key="InvalidRecycleState">Valid inputs to recycle are 'on' or 'off'.</entry>
+    <entry key="MoveFileFailure">Cannot recycle file(s): {0}.</entry>
+    <entry key="RecycleDirFailure">Cannot recycle file(s). Cannot create recycle directory "{0}".</entry>
+    <entry key="State" note="Used to fill hole in MATLAB:string:MustBeSingleString">State</entry>
+  </message>
+</rsccat>

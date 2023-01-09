@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011-2013 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="AtLeastOneGraphicObjectMustBeBrushed">At least one graphic object must be brushed.</entry>
+      <entry key="ReplaceWithNaNs">Replace with NaNs</entry>
+      <entry key="ReplaceWithAConstant">Replace with a constant</entry>
+      <entry key="RemovePoints">Remove points</entry>
+      <entry key="RemoveUnbrushedPoints">Remove unbrushed points</entry>
+      <entry key="NoRemoveNoBrush">There is nothing to remove since no rows or columns are fully unbrushed.\nReduce your selection so that at least one full row or column is unbrushed.</entry>
+      <entry key="NoRemoveBrush">There is nothing to remove since no rows or columns are fully brushed.\nExpand your selection so that at least one full row or column is brushed.</entry>
+  </message>
+</rsccat>

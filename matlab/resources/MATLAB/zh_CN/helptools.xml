@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Tool_docCenterAdoc_Label">将 Bdoc 设置为 docroot</entry>
+    <entry key="Tool_docCenterAdoc_Description">这是文档的最新设置</entry>
+    <entry key="Tool_doccrawlerdebug_Label">调试文档搜索爬网程序</entry>
+    <entry key="Tool_doccrawlerdebug_Description">用于调查文档搜索索引问题的工具</entry>
+    <entry key="Tool_htmlpaneldebugger_Label">HTML 面板调试工具</entry>
+    <entry key="Tool_htmlpaneldebugger_Description">在 MATLAB 桌面上调试 HTML 面板实例的工具</entry>
+    <entry key="Tool_linkchecker_Label">文档链接检查器</entry>
+    <entry key="Tool_linkchecker_Description">用于检查文档链接的 GUI</entry>
+    <entry key="Tool_linkcheckerdoc_Label">链接检查器文档</entry>
+    <entry key="Tool_linkcheckerdoc_Description">查看有关文档链接检查器的帮助</entry>
+    <entry key="Tool_examplemanager_Label">示例管理器</entry>
+    <entry key="Tool_examplemanager_Description">浏览内部生成的示例</entry>
+  </message>
+</rsccat>

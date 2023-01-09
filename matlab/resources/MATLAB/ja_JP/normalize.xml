@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFirstInputRange">データ型が無効です。最初の引数は実数の数値配列、logical 配列、table、または timetable でなければなりません。</entry>
+    <entry key="InvalidFirstInputRobust">データ型が無効です。最初の引数は double 型または single 型の実数配列、table、または timetable でなければなりません。</entry>
+    <entry key="InvalidFirstInput">データ型が無効です。最初の引数の型は double、single、table または timetable でなければなりません。</entry>
+    <entry key="UnsupportedTableVariableRange">table 変数は実数値の配列または logical 配列でなければなりません。</entry>
+    <entry key="UnsupportedTableVariableRobust">table 変数は double 型または single 型の実数配列でなければなりません。</entry>
+    <entry key="UnsupportedTableVariable">table 変数は double 型または single 型でなければなりません。</entry>
+    <entry key="NonVectorTableVariable">table 変数は列ベクトルでなければなりません。</entry>
+    <entry key="InvalidDIM">次元は正の整数でなければなりません。</entry>
+    <entry key="TableDIM">次元は、最初の引数が table または timetable である場合にはサポートされません。</entry>
+    <entry key="KeyWithoutValue">入力引数の数が正しくありません。パラメーターの名前と値はペアでなければなりません。</entry>
+    <entry key="ParseFlags">パラメーター名は ''DataVariables'' でなければなりません。</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' 関数ハンドルは logical スカラーを返さなければなりません。</entry>
+    <entry key="DataVariablesTableSubscript">''DataVariables'' の値が無効です。</entry>
+    <entry key="DataVariablesArray">''DataVariables'' パラメーターは、table と timetable の入力に対してのみサポートされます。</entry>
+    <entry key="IncorrectNumInputsArray">入力引数の数が正しくありません。</entry>
+    <entry key="MethodAfterOptions">正規化方式は名前と値のペアの前になければなりません。</entry>
+    <entry key="InvalidMethod">正規化方式は ''zscore''、''norm''、''center''、''scale''、''range''、または ''medianiqr'' でなければなりません。</entry>
+    <entry key="InvalidDoubleMethod">入力の組み合わせが無効です。同時に指定できるメソッドは ''center'' と ''scale'' だけです。</entry>
+    <entry key="InvalidNormType">ノルムは正の実数スカラーまたは Inf でなければなりません。</entry>
+    <entry key="InvalidRangeType">範囲区間は、値が増加する 2 つの要素をもつ実数ベクトルでなければなりません。</entry>
+    <entry key="InvalidCenterType">''center'' メソッドのタイプは、''mean''、''median''、センタリング値の数値配列、センタリング値の table (最初の入力が table の場合) のいずれかでなければなりません。</entry>
+    <entry key="InvalidScaleType">''scale'' メソッドのタイプは、''std''、''mad''、''iqr''、''first''、スケーリング値の数値配列、スケーリング値の table (最初の入力が table の場合) のいずれかでなければなりません。</entry>
+    <entry key="InvalidCenterScaleType">''center'' および ''scale'' メソッドのタイプが table の場合、table の変数名が同じであることを確認するか、''DataVariables'' を指定して操作対象とする変数のサブセットを指定してください。</entry>
+    <entry key="InvalidCenterScaleTypeWithDataVars">''DataVariables'' で指定された変数のデータのセンタリングとスケーリングを行うには、変数がデータ内だけではなく、センタリング table とスケーリング table にも存在していなければなりません。</entry>
+    <entry key="InvalidCenterScaleTypeFirstInput">''center'' および ''scale'' メソッドのタイプが table の場合、table の変数名がデータ内にも存在することを確認するか、''DataVariables'' を指定して処理対象とする変数のサブセットを指定してください。</entry>
+    <entry key="InvalidZscoreType">zscore タイプは ''std'' または ''robust'' でなければなりません。</entry>
+    <entry key="DataVarsMustBeUnique">コード生成では、'DataVariables' パラメーターに重複を含めることができません。</entry>
+  </message>
+</rsccat>

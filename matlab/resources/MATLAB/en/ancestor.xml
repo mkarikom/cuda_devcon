@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="Assert">First arg must be a vector of handles, not an array.</entry>
+  <!--Resource entries for src/hgbuiltins-->
+    <entry key="NoAncestorSpecified">No ancestor type specified</entry>
+    <entry key="InvalidSecondInputArgumentType" note="stringDatatypeUpdate">Specify the graphics object types as a character vector, string array, or cell array of character vectors</entry>
+    <entry key="InvalidArgument" note="stringDatatypeUpdate">Third argument to ''ancestor'' must be the character vector, ''toplevel''</entry>
+  </message>
+</rsccat>

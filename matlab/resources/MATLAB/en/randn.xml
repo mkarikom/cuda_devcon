@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invalidState">State must be a double scalar or the output of RANDN(''state'').</entry>
+    <entry key="invalidSeed">Seed must be a double scalar.</entry>
+    <entry key="inputType">Size inputs must be numeric.</entry>
+    <entry key="invalidOutputType">CLASSNAME input must be a class that supports RANDN, for example, ''single'' or ''double''.</entry>
+    <entry key="invalidPrototype">Input following ''like'' must be a variable of a type that supports RANDN. For example, double and single variables support RANDN.</entry>
+    <entry key="complexOrSparsePrototype">Complex or sparse input following ''like'' is not supported.</entry>
+  </message>
+</rsccat>

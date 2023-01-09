@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NdSparseOutput">不支持 N 维稀疏输出数组。</entry>
+    <entry key="sparseInteger">不支持稀疏整数数组算术运算。</entry>
+    <entry key="sparseSingle">不支持稀疏单精度数组算术运算。</entry>
+    <entry key="InvalidOutputDimensions">指定的函数句柄生成的输出维度无效。函数句柄必须为二进制按元素运算函数。</entry>
+    <entry key="InconsistentClass">输出类不一致。</entry>
+    <entry key="InconsistentSparsity">输出必须全部为完全输出或者全部为稀疏输出。</entry>
+    <entry key="NonNumericOutput">输出不是数值。</entry>
+    <entry key="SparseOutput">当输入是完全输入时，输出不能是稀疏输出。</entry>
+    <entry key="complexAndOrXor">对于 &amp;、|、xor，操作数必须为实数。</entry>
+    <entry key="complexInts">不支持复整数算术运算。</entry>
+    <entry key="integerAtan2">ATAN2 不支持整数参数。</entry>
+    <entry key="integerAtan2D">ATAN2D 不支持整数参数。</entry>
+    <entry key="integerHypot">HYPOT 不支持整数参数。</entry>
+    <entry key="nonnumericOperands">操作数必须为数值数组。</entry>
+    <entry key="invalidFunction">未定义与 ''{1}'' 类型的输入参数相对应的函数 ''{0}''。</entry>
+    <entry key="nonFunctionHandle">第一个参数必须为函数句柄。</entry>
+    <entry key="arrayDimensionsMustMatch">两个输入数组的非单一维度必须相互匹配。</entry>
+    <entry key="mixedIntegerClass">不支持混合的整数类输入。</entry>
+    <entry key="unsupportedClass">不支持操作数的类。</entry>
+    <entry key="unknownOperator">未知的运算符。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SyntaxError">UNIX 中的未知用户字符。</entry>
+    <entry key="SyntaxWarning">Windows 中将忽略文件用户字符。</entry>
+    <entry key="ModeSyntaxError">当前平台中的文件模式字符无效。</entry>
+    <entry key="ModifierSyntaxError">修饰符无效。</entry>
+    <entry key="CannotFindFile">没有此类文件或目录。</entry>
+    <entry key="CouldNotSetAttributes">不允许的操作。</entry>
+  </message>
+</rsccat>

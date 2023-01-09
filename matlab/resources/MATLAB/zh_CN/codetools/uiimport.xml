@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SelectADataInputSource">选择数据输入源。</entry>
+    <entry key="SelectSource">选择源</entry>
+    <entry key="TwentyThousand">两万</entry>
+    <entry key="PreviewTooLargeToBeDisplayed">内容太大，无法预览。</entry>
+    <entry key="UnknownResultOfClassEncountered">遇到类 {0} 的未知结果。</entry>
+    <entry key="PreviewTruncatedAtTwentyThousandCharacters">预览内容已在 {0} 个字符处截断。</entry>
+    <entry key="ImportWizardCreatedVariables">导入向导在当前工作区中创建了变量。</entry>
+    <entry key="CannotImportFromEmptyFile">无法从空输入文件导入</entry>
+    <entry key="UndocUsage">v1 功能不受支持，在未来的版本中将会被删除。</entry>
+    <entry key="ImportWizard">导入向导</entry>
+    <entry key="FileContainsUninterpretableData">文件包含无法解释的数据。</entry>
+    <entry key="Blank">空白</entry>
+    <entry key="File">文件</entry>
+    <entry key="Clipboard">剪贴板</entry>
+    <entry key="Cancel">取消</entry>
+    <entry key="TheImportWizardNotSupported">不支持“导入向导”，因为没有显示可用。</entry>
+    <entry key="alreadyOpenFile">无法在文件中打开“导入向导”，因为“导入向导”已打开。</entry>
+    <entry key="alreadyOpenClipboard">当“导入向导”已打开时，无法在剪贴板中打开该向导。</entry>
+    <entry key="incompatibleInstances">无法通过输出参数打开“导入向导”，因为“导入向导”已打开。</entry>
+    <entry key="FileNotFound">未找到文件 ''{0}''。</entry>
+    <entry key="RecognizedDataFilesStr">可识别的数据文件</entry>
+    <entry key="AudioFormatStr">音频</entry>
+    <entry key="CursorFormatStr">光标格式</entry>
+    <entry key="HDFFormatStr">HDF 或 HDF-EOS</entry>
+    <entry key="IconFormatStr">图标格式</entry>
+    <entry key="JPEGFormatStr">JPEG 兼容格式</entry>
+    <entry key="MATFileStr">MATLAB 数据文件</entry>
+    <entry key="SpreadsheetFormatStr">电子表格</entry>
+    <entry key="TIFFormatStr">带标记的图像文件格式</entry>
+    <entry key="TextFormatStr">文本</entry>
+    <entry key="VideoFormatStr">视频</entry>
+    <entry key="BitMapStr">Windows 或 OS/2 位图</entry>
+    <entry key="AllFilesStr">所有文件</entry>
+    <entry key="MatlabOnlineSupport">{0} 中不支持 UIIMPORT(''-pastespecial'')</entry>
+    <entry key="FileChooserTitle">导入数据</entry>
+    <entry key="ErrorTitle">导入</entry>
+    <entry key="CGIFormatStr">CompuServe Graphics Interchange</entry>
+    <entry key="PNGFormatStr">Portable Network Graphics</entry>
+    <entry key="ZsoftPaintbrushStr">Zsoft Paintbrush</entry>
+  </message>
+</rsccat>

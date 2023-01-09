@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">addsample 메서드는 단일 timeseries 객체에만 사용될 수 있음</entry>
+    <entry key="pvsetNoValue">지정한 속성에 대응값이 누락되었습니다.</entry>
+    <entry key="pvsetInvalid">지정한 속성 중 적어도 하나의 속성이 유효하지 않습니다.</entry>
+    <entry key="noSampleStruct">새 샘플은 구조체로 지정되거나 속성-값 쌍을 사용하여 지정되어야 합니다.</entry>
+    <entry key="dataMissing">데이터가 누락되었습니다.</entry>
+    <entry key="timeMissing">시간이 누락되었습니다.</entry>
+    <entry key="emptyData">데이터는 비어 있을 수 없습니다.</entry>
+    <entry key="emptyTime">시간은 비어 있을 수 없습니다.</entry>
+    <entry key="overwriteFlg">덮어쓰기(Overwrite) 플래그는 논리형이어야 합니다.</entry>
+    <entry key="datasamplesize">추가된 데이터의 샘플 크기가 시계열 객체의 샘플 크기와 일치하지 않습니다.</entry>
+    <entry key="qualitysamplesize">추가된 품질 특성(Attribute)의 샘플 크기가 시계열 객체의 품질 특성(Attribute)과 일치하지 않습니다.</entry>
+    <entry key="numericValTime">시간은 숫자 값이어야 합니다.</entry>
+    <entry key="timeVector">시간은 벡터여야 합니다.</entry>
+    <entry key="invalidTimeFormat">유효하지 않은 시간 형식임</entry>
+    <entry key="mandatoryFirstArg">첫 번째 인수에는 비어 있지 않은 데이터 값을 지정해야 합니다.</entry>
+    <entry key="first">데이터 배열의 첫 번째 차원은 시간 벡터와 길이가 동일해야 합니다.</entry>
+    <entry key="last">데이터 배열의 마지막 차원은 시간 벡터와 길이가 동일해야 합니다.</entry>
+    <entry key="intQualityAttributes">Quality 특성(Attribute)은 정수 값으로 지정해야 합니다.</entry>
+    <entry key="nonnull">null이 아닌 품질 특성(Attribute)이 있는 샘플을 비어 있는 품질 벡터가 있는 시계열에 추가할 수 없습니다.</entry>
+  </message>
+</rsccat>

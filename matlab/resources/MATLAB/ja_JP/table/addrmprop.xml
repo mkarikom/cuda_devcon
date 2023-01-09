@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NumDimsMismatch">リストされた要素数は、新しいカスタム プロパティ名の数と一致しなければなりません。新しいカスタム プロパティごとに ''table'' または ''variable'' を指定してください。</entry>
+    <entry key="PropNamesMustBeText">カスタム プロパティ名は、文字ベクトル、string 配列、または文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="MultiplicityMustBeText">カスタム プロパティごとに ''variable'' または ''table'' を指定し、プロパティが変数に適用されるのか、あるいは table 全体に適用されるのかを示します。これらの設定は string 配列または文字ベクトルの cell 配列で指定してください。</entry>
+    <entry key="DuplicateCustomProps">Duplicate custom property name: ''{0}''</entry>
+    <entry key="DuplicatesExistingCustomProps"> New custom property name ''{0}'' conflicts with existing ''{1}'' custom property ''{0}''.</entry>
+    <entry key="NoLHS">ワークスペース変数に代入せずに {0} を使用すると、table のカスタム プロパティは変更されません。t = {0}(t{1}) を使用してください。</entry>
+    <entry key="InvalidPropName">''{0}'' は有効なカスタム プロパティ名ではありません。</entry>
+  </message>
+</rsccat>

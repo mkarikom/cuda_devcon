@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+   <message>
+      <entry key="JoinInvalidInput">First argument must be a timetable, and the second argument must be either a timetable or a table.</entry>
+      <entry key="InnerOuterJoinInvalidInput">Unable to innerjoin or outerjoin a timetable and a table. Both arguments must be timetables.</entry>
+      <entry key="InvalidTimeKeys">Invalid key specified. Timetables may only be joined by their row times. You can specify the name of the row times with the 'Keys' parameter, or 'LeftKeys' and 'RightKeys' if the two timetables have row times with different names.  To join by other key variables, convert from timetable to table first.</entry>
+      <entry key="InvalidVariableKeys">To join timetable and table, key variable cannot be the time vector in the timetable.</entry>
+      <entry key="MergeKeysMustBeTrue">To outerjoin two timetables, ''MergeKeys'' must be set to true.</entry>
+      <entry key="RowLabelsCannotBeDataVar">Row times are not supported in ''LeftVariables'' or ''RightVariables''.</entry>
+      <entry key="RowLabelsCannotBeDataVarNondefaultName">Unrecognized variable name ''{0}''. You may have intended to access the row times, which are named ''{1}'' in this timetable. However, row times are not supported in ''LeftVariables'' or ''RightVariables''.</entry>
+   </message>
+</rsccat>

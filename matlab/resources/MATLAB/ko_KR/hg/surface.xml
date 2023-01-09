@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadCDataDimensions">CData는 M×N 행렬이거나 M×N×3 배열이어야 합니다.</entry>
+    <entry key="MatrixDimensionsMustAgree">행렬의 차원이 일치해야 합니다. 메시가 렌더링되지 않습니다.</entry>
+    <entry key="ZMustNotBeScalarOrVector">Z는 스칼라 또는 벡터가 아니어야 합니다. 곡면이 렌더링되지 않습니다.</entry>
+    <entry key="CDataMustBeDoubleOrSingleUnlessTextureData">CData는 텍스처 데이터로 사용되는 경우를 제외하고 double형 또는 single형이어야 합니다.</entry>
+    <entry key="CDataMustBeDoubleOrUint8">CData는 double형 또는 uint8형이어야 합니다.</entry>
+    <entry key="CDataSizeMustEqualZDataSizeForInterpolatedShading">보간 음영의 경우 size(CData)는 size(ZData)와 같아야 함</entry>
+    <entry key="AlphaDataSizeMustEqualZDataSizeForInterpolatedAlpha">보간된 알파의 경우 size(AlphaData)는 size(ZData)와 같아야 함</entry>
+    <entry key="CDataSizeMustEqualZDataSizeForMarkerFlatColoring">마커 단순 채색의 경우 size(CData)는 size(ZData)와 같아야 함</entry>
+    <entry key="CDataSizeMustEqualZDataSizeForFlagShading">단순 음영의 경우 size(CData)는 size(ZData) 또는 size(ZData)-1과 같아야 함</entry>
+    <entry key="AlphaDataSizeMustEqualZDataSizeForFlatAlpha">평면 알파의 경우 size(AlphaData)는 size(ZData) 또는 size(ZData)-1과 같아야 함</entry>
+    <entry key="FaceAlphaTextureNotPossible1">FaceAlpha Texture는 FaceColor가 Texture이고 size(AlphaData)가 size(CData)와 같은 경우에만 가능함</entry>
+    <entry key="FaceAlphaTextureNotPossible2">FaceAlpha Texture는 FaceColor가 Texture이고 size(AlphaData)가 size(CData)와 같은 경우에만 가능함</entry>
+    <entry key="RGBCDataNotSupported">Painter''s 모드에서는 아직 RGB CData가 지원되지 않음</entry>
+    <entry key="VertexNormalsDimensionsMustBe3">VertexNormals의 차원 수는 3차원이어야 함 </entry>
+    <entry key="BadVertexNormalsSize">size(VertexNormals)는 size(ZData)x3과 같아야 함 </entry>
+    <entry key="FaceNormalsDimensionsMustBe2">FaceNormals의 차원 수는 2차원이어야 함 </entry>
+    <entry key="BadFaceNormalsSize">size(FaceNormals)는 2(m-1)(n-1)x3과 같아야 함</entry>
+    <entry key="NotEnoughMemoryForNormals">Normals에 대한 메모리가 부족합니다. 렌더링되지 않음</entry>
+    <entry key="BadArguments">파라미터-값 쌍이 아닌 인수는 숫자형이어야 합니다.</entry>
+    <entry key="CannotBeComplex">X, Y, Z, C는 복소수일 수 없습니다.</entry>
+    <entry key="MustBeMatrix">Z는 스칼라 또는 벡터가 아닌 행렬이어야 합니다.</entry>
+    <entry key="OutOfMemory">메모리가 부족합니다. 자세한 내용은 &lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/memory.html'))\"&gt;메모리&lt;/a&gt;를 참조하십시오.</entry>
+    <entry key="InvalidDataDimensions">데이터의 차원이 일치해야 합니다.</entry>
+    <entry key="IncompatibleProperties">호환되지 않는 속성입니다.</entry>
+    <entry key="FaceColorToAlphaFlatInconsistency">FaceColor가 ''flat''이면 FaceAlpha는 ''flat''이거나 0과 1 사이의 숫자형 값이어야 합니다.</entry>
+    <entry key="FaceColorToAlphaInterpInconsistency">FaceColor가 ''interp''이면 FaceAlpha는 ''interp''이거나 0과 1 사이의 숫자형 값이어야 합니다.</entry>
+    <entry key="FaceColorToAlphaTexturemapInconsistency">FaceColor가 ''texturemap''이면 FaceAlpha는 ''texturemap''이거나 0과 1 사이의 숫자형 값이어야 합니다.</entry>
+    <entry key="VertexNormalsToVerticesInconsistency">사용되는 조명 모드가 Gouraud일 경우 VertexNormals 크기는 Vertices 크기와 같아야 함</entry>
+    <entry key="InvalidVertexNormals">사용되는 조명 모드가 Gouraud일 경우 VertexNormals는 빈 배열로 지정될 수 없음</entry>
+    <entry key="FaceNormalsToFacesInconsistency">사용되는 조명 모드가 Flat일 경우 FaceNormals 크기는 Faces 크기와 같아야 함</entry>
+    <entry key="InvalidFaceNormals">사용되는 조명 모드가 Flat일 경우 FaceNormals는 빈 배열로 지정될 수 없음</entry>
+  </message>
+</rsccat>

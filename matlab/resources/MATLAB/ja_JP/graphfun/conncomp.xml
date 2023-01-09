@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="KeyWithoutValue">{0} に値が指定されていません。</entry>
+    <entry key="ParseFlagsDir">パラメーター名は ''Type'' または ''OutputForm'' でなければなりません。</entry>
+    <entry key="ParseFlagsUndir">パラメーター名は ''OutputForm'' でなければなりません。</entry>
+    <entry key="ParseOutput">OutputForm の値は ''vector'' または ''cell'' でなければなりません。</entry>
+    <entry key="ParseTypeDir">Type の値は ''strong'' または ''weak'' でなければなりません。</entry>
+    <entry key="ParseTypeUndir">パラメーター名 ''Type'' は無向グラフではサポートされていません。</entry>
+    <entry key="CodegenCellNotSupported">cell 出力はコード生成でサポートされていません。</entry>
+  </message>
+</rsccat>

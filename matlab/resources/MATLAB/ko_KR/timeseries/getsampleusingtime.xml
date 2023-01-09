@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">getsampleusingtime 메서드는 단일 timeseries 객체에 대해서만 사용할 수 있음</entry>
+    <entry key="invalidpv">유효하지 않은 속성-값 쌍입니다.</entry>
+    <entry key="invalidrelativetime">시작 시간과 종료 시간은 숫자 값이어야 합니다.</entry>
+    <entry key="invalidabsolutetime">유효하지 않은 시작 시간 형식임</entry>
+    <entry key="invalidduptimes">timeseries에서 지정된 시간 값이 중복되지만 AllowDuplicateTimes 플래그가 false로 설정되어 있습니다. 중복된 시간에서 샘플을 구하려면 GETSAMPLEUSINGTIME을 호출할 때 AllowDuplicateTimes 플래그를 true로 설정하십시오.</entry>
+    <entry key="castduptimeflag">ALLOWDUPLICATETIMES 플래그가 논리형이 아닙니다. 논리형으로 형변환됩니다.</entry>
+  </message>
+</rsccat>

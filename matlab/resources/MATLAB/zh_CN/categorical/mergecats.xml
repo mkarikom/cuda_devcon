@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonconsecutiveCategories">无法合并非连续类别(当这些类别为有序类别时)。</entry>
+    <entry key="UndefinedLabel">NEW 不能为 ''{0}''。</entry>
+    <entry key="InvalidNewCategory">NEW 必须为包含非空新类别名称的字符串或字符向量。</entry>
+  </message>
+</rsccat>

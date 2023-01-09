@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">plot 메서드는 단일 timeseries 객체에 대해서만 사용할 수 있음</entry>
+    <entry key="emptyplot">비어 있는 timeseries 핸들은 플로팅할 수 없습니다.</entry>
+    <entry key="nonnumeric">숫자형이 아닌 데이터가 있는 timeseries에 대해서는 수치 연산을 수행할 수 없음</entry>
+    <entry key="invaliddata">숫자형이 아니거나 다차원(ndims&gt;2)인 데이터에 대해서는 지원되지 않습니다.</entry>
+    <entry key="notimeseriesdata">빈 데이터로 timeseries를 플로팅할 수 없음</entry>
+    <entry key="notimeseriestime">빈 시간으로 timeseries를 플로팅할 수 없음</entry>
+    <entry key="TimeSeriesPlot">시계열 플롯</entry>
+    <entry key="Event">이벤트</entry>
+    <entry key="Time">시간</entry>
+    <entry key="unnamed">이름 없음</entry>
+  </message>
+</rsccat>

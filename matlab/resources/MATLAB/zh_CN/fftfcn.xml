@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WisdomImportFailed">FFTW wisdom 导入失败，可能是因为输入字符向量是使用以前版本的 MATLAB 创建的。</entry>
+    <entry key="FirstInputNotString">第一个输入必须为字符向量。</entry>
+    <entry key="FirstInputInvalidString">输入字符向量无法识别。</entry>
+    <entry key="InvalidTrailingStringArgument">对称类型必须为 ''symmetric'' 或 ''nonsymmetric''。</entry>
+    <entry key="FFTWGuru">这仅适用于实数到复数 2d fft 的计算。</entry>
+    <entry key="InvalidFourthArgument">IFFT 的第四个参数必须为 ''symmetric'' 或 ''nonsymmetric''。</entry>
+    <entry key="lengthNotNonNegInt">FFT 长度必须为非负整数标量。</entry>
+    <entry key="InvalidThirdArgument">IFFTN 的第三个参数必须为 ''symmetric'' 或 ''nonsymmetric''。</entry>
+    <entry key="outputSizeLessThanNdimsElements">FFTN 输出大小必须至少包含 NDIMS 元素。</entry>
+    <entry key="outputSizeNotRealIntRowVector">FFTN 输出大小必须为实整数行向量。</entry>
+    <entry key="outputSizeVectorNotNonNegInts">FFTN 输出大小向量必须包含非负整数。</entry>
+    <entry key="InvalidInputType">数据类型无效。第一个参数必须为双精度值、单精度值、int8、uint8、int16、uint16、int32、uint32 或逻辑值。</entry>
+    <entry key="SparseInputType">不支持稀疏矩阵。</entry>
+    <entry key="UnknownAction">传递给 FFTW 的选项未知。</entry>
+    <entry key="needRowsArg">指定行的块大小。</entry>
+    <entry key="invalidRowsArg">第二个输入必须为双精度正有限实数。</entry>
+    <entry key="invalidWisdomArg">第二个输入必须为字符向量或 []。</entry>
+    <entry key="invalidPlannerArg">第二个输入必须为 ''hybrid''、''estimate''、''measure''、''patient'' 或 ''exhaustive'' 之一。</entry>
+    <entry key="FFTWAssertionFailure">内部 FFTW 库错误。</entry>
+  </message>
+</rsccat>

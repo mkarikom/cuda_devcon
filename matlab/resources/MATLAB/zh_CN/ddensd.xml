@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">输入参数的数目不足。</entry>
+    <entry key="DdefunNotFunctionHandle">第一个参数 DDEFUN 必须为函数句柄。</entry>
+    <entry key="DelyInvalidType">第二个参数 DELY 必须为函数句柄或者常向量。</entry>
+    <entry key="DelypInvalidType">第三个参数 DELYP 必须为函数句柄或者常向量。</entry>
+    <entry key="HistoryInvalidType">HISTORY 具有无效数据类型。有关 HISTORY 允许使用的数据类型的列表，请参阅 DDENSD 的帮助。</entry>
+    <entry key="HistoryNotFromDDENSD">HISTORY 结构体必须由 DDENSD 生成。</entry>
+    <entry key="NotContinueFromHistoryEnd">使用 HISTORY 结构体时，DDENSD 必须从上次到达的位置继续。</entry>
+    <entry key="InconsistentDataType">在对 DDESD 的调用中为 ''t0''、''y0''、''y(dy(t0,y0))''、''yp(dyp(t0,y0))'' 和 ''f(t0,y0,dy0,dyp0)'' 混合使用了单精度和双精度数据。</entry>
+    <entry key="JumpsOptionNotAvailable">JUMPS 选项在 DDENSD 中不可用。通过在每次进入 JUMPS 时重新启动来解决该问题。</entry>
+    <entry key="OptRelTolNotPosScalar">选项 ''RelTol'' 必须为正标量。</entry>
+    <entry key="RelTolIncrease">DDENSD 仅用于适中准确度。RelTol 已增加到 {0}。</entry>
+    <entry key="DELYLessThanT0">在 t={0} 处失败，并且求解时滞 DELY 小于 T0。对初始值 NDDE 求解时，DELY 必须保持大于或等于 T0。</entry>
+    <entry key="DELYPLessThanT0">在 t={0} 处失败，并且导数时滞 DELYP 小于 T0。对初始值 NDDE 求解时，DELYP 必须保持大于或等于 T0。</entry>
+    <entry key="DELYPGreaterThanT">在 t={0} 处失败，并且导数时滞 DELYP 大于 T。仅对于 T=T0 时的初始值 NDDE，DELYP 才可以等于 T。 在所有其他情况下，DELYP 必须小于 T。</entry>
+    <entry key="DELYPEqualT">在 t={0} 处失败，并且导数时滞 DELYP 等于 T。仅对于 T=T0 时的初始值 NDDE，DELYP 才可以等于 T。在所有其他情况下，DELYP 必须小于 T。</entry>
+    <entry key="IVPDELYPEqualT">在 t={0} 处失败，并且在 T&gt;T0 的情况下导数时滞 DELYP 等于 T。仅对于 T=T0 时的初始值 NDDE，DELYP 才可以等于 T。 在所有其他情况下，DELYP 必须小于 T。</entry>
+  </message>
+</rsccat>

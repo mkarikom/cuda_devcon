@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNameValueMismatch">引数は名前-値のペアでなければなりません。</entry>
+    <entry key="PropNameNotString">引数 {0,number,integer} には、string または文字ベクトルが必要です。</entry>
+    <entry key="InvalidPropName">プロパティ名 ''{0}'' が認識されません。</entry>
+    <entry key="NoValueForProp">プロパティ ''{0}'' に対する値が必要です。</entry>
+    <entry key="NoPropNameOrStruct">引数 {0,number,integer} には、BVPSET で作成された string、文字ベクトルまたはオプション構造体が必要です。</entry>
+    <entry key="AmbiguousPropName">あいまいなプロパティ名 ''{0}'' ({1}) です。</entry>
+  </message>
+</rsccat>

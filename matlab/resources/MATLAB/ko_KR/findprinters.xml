@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="unrecognizedDefaultPrinterIgnored">인식할 수 없는 디폴트 프린터(''{0}'')이므로 무시됩니다.</entry>
+    <entry key="unrecognizedDefaultPrinterReplaced">인식할 수 없는 디폴트 프린터(''{0}'')가 지정되었습니다. 대신 ''{1}''을(를) 사용하십시오.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadHandle">句柄无效</entry>
+    <entry key="ExpectedJavaObject">需要 java 对象</entry>
+    <entry key="CannotFindGetCallbackDataMethod">找不到 getCallbackData 方法</entry>
+    <entry key="CannotFindAddCallbackMethod">找不到 addCallback 方法</entry>
+    <entry key="CannotFindRemoveCallbackMethod">找不到 removeCallback 方法</entry>
+    <entry key="SendEventToMatlabNativeMethodNotRegistered">未注册本机 SendEventToMatlabNativeMethod。未找到类</entry>
+    <entry key="CannotFindBeanIndexField">找不到 beanIndex 字段</entry>
+    <entry key="CannotFindCallbackIndexField">找不到 callbackIndex 字段</entry>
+    <entry key="CannotFindEventDataField">找不到 eventData 字段</entry>
+    <entry key="CannotFindCallbackDataClass">未找到类 CallbackData</entry>
+    <entry key="ClassNameInUse">''{0}'' 类名已在使用中</entry>
+    <entry key="CannotGetProperties">无法获取 {0} 的 bean 属性</entry>
+    <entry key="CannotRegisterBean1">无法注册 bean {0}。</entry>
+    <entry key="ClassAlreadyRegistered">类 ''{0}'' 已注册</entry>
+    <entry key="CannotRemoveBuiltinClass">无法删除内置的类 ''{0}''</entry>
+    <entry key="CannotRemoveClass">无法删除 ''{0}'' 类，因为已存在 ''{1}'' 对象</entry>
+    <entry key="ClassNotRegistered">未注册 Handle Graphics 类 ''{0}'' - 使用 hregister</entry>
+    <entry key="CannotCreateObject">无法创建 {0} 对象</entry>
+    <entry key="CannotCreateClass">不知道如何创建 {0} 类</entry>
+    <entry key="JavaBeansNotSupported1">此平台不支持 Java Bean</entry>
+    <entry key="JavaBeansNotSupported2">此平台不支持 Java Bean</entry>
+  </message>
+</rsccat>

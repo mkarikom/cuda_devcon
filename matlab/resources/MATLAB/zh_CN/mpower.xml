@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="integerNotSupported">MPOWER (^) 不完全支持整数类。两个参数都必须为标量。请使用 POWER (.^) 执行按元素求幂。</entry>
+    <entry key="inputsMustBe2D">参数必须为二维参数。请使用 POWER (.^) 执行按元素求幂。</entry>
+    <entry key="negRealEig">没有为具有负实数特征值的矩阵定义主矩阵幂。返回了一个非主矩阵幂。</entry>
+    <entry key="notScalarAndSquareMatrix">用于对矩阵求幂的维度不正确。请检查并确保矩阵为方阵并且幂为标量。要执行按元素矩阵求幂，请使用 '.^'。</entry>
+    <entry key="sparseSingleNotSupported">MPOWER (^) 不支持一个稀疏参数和一个单精度参数。</entry>
+    <entry key="tooManyMatrixSquareRoots">超出了矩阵平方根的最大数目。结果可能不准确。</entry>
+    <entry key="zeroEig">奇异矩阵可能不存在矩阵幂。</entry>
+  </message>
+</rsccat>

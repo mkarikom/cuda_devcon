@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="funArgNotHandle">1 番目の入力引数は関数ハンドルでなければなりません。</entry>
+    <entry key="invalidEndpoint">A と B はスカラーの浮動小数点でなければなりません。</entry>
+    <entry key="nonFiniteContourError">等高線図の終点とウェイポイントは、有限でなければなりません。</entry>
+    <entry key="NonFiniteValue">無限 (Inf)、または数でない (NaN) 値がありました。</entry>
+    <entry key="UnsupportedClass">サポートするクラスは、''double'' と ''single'' です。</entry>
+    <entry key="FxNotSameSizeAsX">関数の出力は、入力と同じサイズでなければなりません。</entry>
+    <entry key="invalidAbsTol">無効な AbsTol</entry>
+    <entry key="invalidRelTol">無効な RelTol</entry>
+    <entry key="invalidMaxIntervalCount">MaxIntervalCount は、正の整数のスカラーでなければなりません。</entry>
+    <entry key="increasedRelTol">RelTol は 100*eps(''{0}'') = {1} に増加しました。</entry>
+    <entry key="MaxIntervalCountReached">使用中に最大反復回数の制限に達しました。誤差の近似範囲は {0} です。積分は存在しないか、または数値的に近似することが困難である可能性があります。別の反復で継続するように QUADGK を有効にするには、MaxIntervalCount を {1,number,integer} に増加させてください。</entry>
+    <entry key="MinStepSize">最小ステップ サイズが x = {0} の近傍に達しました。特異点の可能性があります。</entry>
+    <entry key="WaypointsNotVector">途中点はベクトルでなければなりません。</entry>
+    <entry key="WaypointsNotFinite">途中点は有限でなければなりません。</entry>
+  </message>
+</rsccat>

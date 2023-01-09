@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Cancel">キャンセル</entry>
+    <entry key="DefineDisplayedTimeSeries">表示される時系列の定義</entry>
+    <entry key="EditPlot">プロットの編集...</entry>
+    <entry key="Name">名前</entry>
+    <entry key="NumberOfColumns">列数</entry>
+    <entry key="OK">OK</entry>
+    <entry key="PlotIsEmpty">プロットが空です。プロットを編集する前にプロット ウィンドウに時系列をドラッグ アンド ドロップしてください。</entry>
+    <entry key="ReplaceTimeSeries">時系列を置換しますか?</entry>
+    <entry key="ReplaceWhichTimeSeries">時系列を置換しますか?</entry>
+    <entry key="Select">選択</entry>
+    <entry key="TheFollowingTimeSeriesObjectHasBeenLoaded">{0} の時系列オブジェクトが読み込まれました。別のオブジェクトを追加してください。</entry>
+    <entry key="TimeSeriesAlignedWithXAxis">X 座標で整列した時系列</entry>
+    <entry key="TimeSeriesAlignedWithYAxis">Y 座標で整列した時系列</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="TimeSeriesXyplot">時系列 xyplot</entry>
+    <entry key="XYPlot">XY プロット</entry>
+  </message>
+</rsccat>

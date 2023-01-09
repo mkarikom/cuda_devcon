@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidExtent">範囲は、実数 (1 行 2 列) の倍精度のベクトルでなければなりません。</entry>
+    <entry key="InvalidSize">サイズは、正の実数 (1 行 2 列) の倍精度のベクトルでなければなりません。</entry>
+    <entry key="InvalidIndex">インデックスは実数の倍精度のスカラーでなければなりません。</entry>
+  </message>
+</rsccat>

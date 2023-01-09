@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidInput">X must be an array of double or single numeric values.</entry>
+    <entry key="BadDim">Dimension argument must be a positive integer scalar, a vector of unique positive integers, or ''all''.</entry>
+    <entry key="vecDimsMustBeUniquePositiveIntegers">Elements of a dimension vector must be unique.</entry>
+    <entry key="wrongInput">Invalid data type. First argument must be numeric.</entry>
+  </message>
+</rsccat>

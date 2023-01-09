@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DesktopRequired">履歴はデスクトップなしでは利用できません。</entry>
+    <entry key="LastLineRemoved">The last line from the history cannot be used in a script because it was an error.</entry>
+    <entry key="LineRemoved">Line {0} from the history cannot be used in a script because it was an error.</entry>
+    <entry key="LineTooHigh">Specified line {0} cannot be used because there are only {1} lines in the history.</entry>
+    <entry key="VariableNotFound">履歴に変数 ''{0}'' が見つかりません。</entry>
+  </message>
+</rsccat>

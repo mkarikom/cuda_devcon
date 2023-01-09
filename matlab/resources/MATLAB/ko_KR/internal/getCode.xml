@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="filenameNotString">파일 이름은 문자형 벡터여야 합니다.</entry>
+    <entry key="emptyFilename">파일 이름은 비어 있지 않아야 합니다.</entry>
+    <entry key="invalidFile">파일 {0}에서 코드를 읽는 기능은 지원되지 않습니다.</entry>
+    <entry key="errorReadingCodeFile">파일 {0}에서 코드를 읽는 중 오류가 발생함: {1}.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonTable">첫 번째 인수는 table형이어야 합니다.</entry>
+    <entry key="NoTimeVarFound">입력 테이블은 행 시간값으로 datetime형 벡터나 duration형 벡터를 포함해야 합니다.</entry>
+    <entry key="IncorrectNumberOfRowTimes">행 시간값은 입력 타임테이블의 각 행마다 하나의 시간값을 갖는 datetime형 벡터나 duration형 벡터여야 합니다.</entry>
+    <entry key="InvalidRowTimes">행 시간값은 변수 이름 또는 변수 인덱스로 지정되거나, datetime형 벡터 또는 duration형 벡터로 지정되어야 합니다.</entry>
+    <entry key="VariableNamesNotAccepted">''VariableNames''는 유효한 인수가 아닙니다.</entry>
+  </message>
+</rsccat>

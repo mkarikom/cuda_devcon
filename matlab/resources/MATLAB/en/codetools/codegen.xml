@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidState">Invalid state</entry>
+    <entry key="InvalidInputRequiresCellArrayOfStrings" note="stringDatatypeUpdate">Invalid input, requires cell array of character vectors</entry>
+    <entry key="InvalidProperty">Invalid property {0}</entry>
+    <entry key="InvalidInputStringRequired" note="stringDatatypeUpdate">Invalid input, character vector required</entry>
+    <entry key="IncorrectProperty">The ''{0}'' property may not be set if the ''{1}'' property has been registered.</entry>
+    <entry key="InvalidRegistration">The current variable has already been registered in the variable table.</entry>
+    <entry key="DirectCodeGenNotSupported">Direct code generation not supported for class:</entry>
+   </message>
+</rsccat>

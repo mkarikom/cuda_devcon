@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoTimeSeriesIdentifierProvided">時系列の識別子が式に指定されていません</entry>
+    <entry key="MATLABExpressionReturnedNoOutput">MATLAB 式は出力を返しません。</entry>
+    <entry key="ExpressionReturnedNoOutput">式は出力を返しません。</entry>
+    <entry key="OutputTimeSeriesNamesMustBeDefined">出力の時系列名が定義されなければなりません。</entry>
+    <entry key="TimeVectorShiftedToStartAtZero">2 つ以上の時系列は開始時間が異なるため、出力時系列の時間ベクトルはシフトされてゼロから開始します。</entry>
+    <entry key="CannotOverwriteDataInSelectedTimeSeries">選択した時系列内のデータを新規データで上書きできません。最も考えられる理由は、既存の時間ベクトルが新規データのサイズと一致していないことです。</entry>
+    <entry key="InvalidSelectedTimeSeries">選択した時系列は無効です</entry>
+    <entry key="ApplicationOfMATLABFunctionarithmetic">MATLAB 関数/演算アプリケーション</entry>
+    <entry key="TimeSeriesHaveDifferingLengths">時系列の長さが異なります。</entry>
+    <entry key="CannotEvaluateExpressionErrorReturned">式を評価できません。次のエラーが返されました:  {0}</entry>
+    <entry key="ScalarValueReturnedToTheWorkspace">スカラー値は、値をもつ変数 ans としてワークスペースに出力されました</entry>
+    <entry key="MatrixValueReturnedToTheWorkspace">行列の値は以下のサイズの変数 ans としてワークスペースに返されました:  {0}.</entry>
+    <entry key="MatrixValueReturnedDisplayedInWorkspace">行列の値は以下のサイズの変数 ans としてワークスペースに返されました: {0}. 行列はワークスペースに表示されています。</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="TimeVectorsMismatch">時間ベクトルが一致しません。</entry>
+  </message>
+</rsccat>

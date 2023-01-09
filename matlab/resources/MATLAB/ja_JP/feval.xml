@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="argMustBeScalar">関数ハンドルの引数はスカラーでなければなりません。</entry>
+    <entry key="argMustBeStringOrHandle">評価対象の関数は、string スカラー、文字ベクトルまたは function_handle オブジェクトで表さなければなりません。</entry>
+    <entry key="invalidFunctionName">関数名 ''{0}'' が無効です。</entry>
+    <entry key="QEArgShareable">QEinCallFcnReuse への引数は、共有可能にはできません</entry>
+  </message>
+</rsccat>

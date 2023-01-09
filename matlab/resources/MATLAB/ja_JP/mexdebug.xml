@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ObsoleteFunction">MEXDEBUG は旧式です。代わりに DBMEX を使用してください。</entry>
+    <entry key="MATLABMustBeRunWithinDebugger">MEX ファイルをデバッグするには、MATLAB はデバッガー内で実行されなければなりません。</entry>
+    <entry key="ToRunMATLABWithinADebugger">デバッガー内で MATLAB を実行するには、以下のように入力して開始します。</entry>
+    <entry key="WhereDebuggerIsTheDebuggerYouWishToUse">ここで、"debugger" は使用するデバッガーの名前です。</entry>
+  </message>
+</rsccat>

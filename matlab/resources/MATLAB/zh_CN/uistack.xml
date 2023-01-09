@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PassedInvalidHandles">传递给 UISTACK 的句柄无效。</entry>
+    <entry key="ParentMustBeSame">传递给 UISTACK 的所有句柄的父级必须相同。</entry>
+    <entry key="InvalidStackOption">UISTACK 的 Stack 选项无效</entry>
+  </message>
+</rsccat>

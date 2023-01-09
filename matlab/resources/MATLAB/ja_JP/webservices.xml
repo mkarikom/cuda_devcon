@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AddClasspath">{0} を使用するには、&lt;a href="matlab:javaaddpath(''{1}'')"&gt;javaaddpath(''{2}'')&lt;/a&gt; を実行しなければなりません。</entry>
+    <entry key="AddPath">{0} を使用するには、&lt;a href="matlab:addpath(''{1}'')"&gt;addpath(''{2}'')&lt;/a&gt; を実行しなければなりません。</entry>
+    <entry key="AnotherJar">{0} を使用するには、Java クラスパス上に {1} がなければなりませんが、現在のクラスパスには別バージョンの生成コードを含む {2} があります。</entry>
+    <entry key="ArgMustBeString">引数 {0,number,integer} は string または文字ベクトルでなければなりません。</entry>
+    <entry key="BadCertificateFile">証明書ファイル ({0}) に有効な証明書が含まれていません。ファイルが PEM 形式であることを確認してください。</entry>
+    <entry key="BadMediaType">メディア タイプ ''{0}'' に無効な文字または構文があります。形式は ''type/subtype'' でなければなりません。</entry>
+    <entry key="BadMediaTypeParameter">メディア タイプ パラメーター ''{0}'' に無効な文字または構文があります。形式は ''name=value'' でなければなりません。</entry>
+    <entry key="BadSilentOption">パラメーター 3 は、存在する場合は 'silent' でなければなりません。</entry>
+    <entry key="BadXml">WSDL 解析の例外: {0}</entry>
+    <entry key="BasicAuthenticationFailed">URL ''{0}'' のサーバーが認証エラーを発行しました。{1} の認証がサポートされていないか、指定された認証パラメーター {2} および {3} が正しくありません。</entry>
+    <entry key="BytesOfData">&lt;&lt; {0} バイトのデータ &gt;&gt;</entry>
+    <entry key="CalDurationSigns">calendarDuration のプロパティには競合する符号を含めないでください: {0}</entry>
+    <entry key="CannotAccessWSDL">{0} で WSDL にアクセスできません。\n{1}</entry>
+    <entry key="CannotConvertValueToString">パラメーター ''{0}'' の値を文字列に変換できません。</entry>
+    <entry key="CannotFindClass">Java 関数 {0} が見つかりませんでした。'clear java' を実行して、もう一度試してください。</entry>
+    <entry key="CertificateFailedVerification">このサーバー証明書は検証に失敗しました。証明書のドメイン名 "{0}" がホスト "{1}" のドメイン名と一致しません。</entry>
+    <entry key="CertificateFileNotFound">証明書ファイル ({0}) が見つからないか、編集用に開けませんでした。options.CertificateFilename の値を確認してください。</entry>
+    <entry key="ClassOnWrongPath">パスで {0} が見つかったため、{1} の優先順位が下がる可能性があります。{2} を使用する前に他の定義を削除し、クラスをクリアする必要があります。</entry>
+    <entry key="ConnectionRefused">{0} への接続中にエラーが発生しました: {1}</entry>
+    <entry key="ConnectionFailed">{0} からコンテンツをダウンロード中にエラーが発生しました。ネットワークの接続が停止しているか、不適切なプロキシが設定されている可能性があります。</entry>
+    <entry key="CopyContentToDataStreamError">URL ''{1}'' との通信中にエラー "{0}" が発生しました。</entry>
+    <entry key="ContentTypeMismatch">{0} の値 ''{1}'' は URL ''{3}'' から取得した ''{2}'' のコンテンツ タイプと一致しません。{4} を ''{5}'' に設定してください。</entry>
+    <entry key="ContentTypeReaderError">コンテンツ リーダーは次のエラー メッセージを発行しました: URL ''{1}'' からダウンロードしたコンテンツの読み取り中に "{0}"。関数 {2} を使用してコンテンツをファイルに保存してください。</entry>
+    <entry key="CouldNotDetermineToolVersion">警告: {1} が {0} の正しいバージョンかどうか判断できませんでした:\n{2}</entry>
+    <entry key="CouldNotExecuteTool">{0} を実行しようとしましたがエラーが返されました:\n{1}</entry>
+    <entry key="CouldNotFindElement">WSDL の解析エラー: 要素 ''{1}'' で参照されている要素 ''{0}'' が見つかりませんでした。</entry>
+    <entry key="CouldNotFindTool">パス ''{0}'' は {1} フォルダーではないようです。</entry>
+    <entry key="CouldNotMoveToDest">次の理由により、フォルダー {0} を置換できませんでした: "{1}" 代わりに、フォルダーへのファイルのコピーを試みています。</entry>
+    <entry key="CreatedX">&lt;a href="matlab:doc {0}"&gt;{1}&lt;/a&gt; が作成されました。</entry>
+    <entry key="CreatedXInY">{2} に &lt;a href="matlab:doc {0}"&gt;{1}&lt;/a&gt; が作成されました。</entry>
+    <entry key="CreatedXForZ">{2} に対して &lt;a href="matlab:doc {0}"&gt;{1}&lt;/a&gt; が作成されました。</entry>
+    <entry key="CreatedXInYForZ">{3} に対して {2} に &lt;a href="matlab:doc {0}"&gt;{1}&lt;/a&gt; が作成されました。</entry>
+    <entry key="CurrentFolder">現在のフォルダー</entry>
+    <entry key="DecodingError">{0} のコンテンツに形式エラーがあります: "{1}"</entry>
+    <entry key="DuplicateStructFields">複数の ''FIELDS'' パラメーターが指定されています。</entry>
+    <entry key="FunctionToBeRemoved">createClassFromWsdl は将来のリリースで削除される予定です。代わりに matlab.wsdl.createWSDLClient を使用してください。</entry>
+    <entry key="EmptyArg">''{0}'' を空にしてはなりません。</entry>
+    <entry key="EmptyValue">"{0}" ヘッダー フィールドに空の値があります。</entry>
+    <entry key="EmptyName">値が "{0}" のヘッダー フィールドは空の名前をもっています。</entry>
+    <entry key="EmptyParameter">{0} でのエラー: タイプ ''{2}'' の必須引数 ''{1}'' は空にできません。</entry>
+    <entry key="EncodedCannotHaveOtherProps">AuthInfo の ''Encoded'' プロパティは ''Basic'' スキームのみに現われ、必ずこれだけ別個のプロパティになります。</entry>
+    <entry key="EnterPkgName">サポート クラスにパッケージ名を入力してください。</entry>
+    <entry key="Exception">WSDL の処理中に例外が発生しました: {0}</entry>
+    <entry key="ExpectedFormEncode">{0} を名前と値のペアの ''{1}'' にする必要があります。{2} を ''{3}'' に設定するか、名前と値のペアから単一のエンコード文字列を作成します。</entry>
+    <entry key="ExpectedHostname"> URL ''{0}'' にはホスト名 (''{1}'' など) を含める必要があります。</entry>
+    <entry key="ExpectedJSONMediaType">{0} は、''application/json'' や ''application/javascript'' などの JSON メディア タイプでなければなりません。</entry>
+    <entry key="ExpectedNonempty">{0} を空にはできません。</entry>
+    <entry key="ExpectedNonemptyHeader">HeaderFields の最初の列には空でない文字列が、2 番目の列には文字列が必要です。</entry>
+    <entry key="ExpectedPairs">各 {0} には、対応する {1} が指定されなければなりません。</entry>
+    <entry key="ExpectedPostRequestMethod">{0} は、値 ''post'' をもたなければなりません。関数 {1} を使用して Web サービスからデータを取得するか、{2} を値 ''post'' に設定します。</entry>
+    <entry key="ExpectedProtocol">URL ''{1}'' で指定された ''{0}'' プロトコルはサポートされていません。''{2}'' または ''{3}'' のプロトコルを使用して URL を指定してください。</entry>
+    <entry key="ExpectedXMLMediaType">{0} は、''text/xml'' や ''application/xml'' などの XML メディア タイプにする必要があります。</entry>
+    <entry key="FailedToCompile">生成された Java コードをコンパイルできませんでした。WSDL ファイルの識別子に使用されている通常と異なる文字が原因となっている可能性があります。</entry>
+    <entry key="FileExistsCantCreateFolder">指定された名前のファイルが既に存在するため、フォルダー ''{0}'' を作成できません。</entry>
+    <entry key="FileNotFound">URL ''{0}'' のサーバーはこの要求を満たすリソースを検出しませんでした。</entry>
+    <entry key="FileProtocolNotAccepted">file:// のプロトコルは受け入れられません。ファイルをローカルにコピーし、そのパス名を指定してください。</entry>
+    <entry key="FolderNotFound">パス ''{0}'' は保存されていますが、フォルダーは見つかりませんでした。</entry>
+    <entry key="IllegalArgType">タイプ ''{1}'' のパラメーターに対し引数のタイプ ''{0}'' が無効です:\n{2}</entry>
+    <entry key="IllegalArgTypeNoMsg">{0} でのエラー: タイプ ''{3}'' のパラメーター ''{2}'' に対し引数のタイプ ''{1}'' が無効です。</entry>
+    <entry key="IllegalArgument">無効な引数です。値は次のいずれかでなければなりません: {0}。</entry>
+    <entry key="IllegalCharInToken">トークン ''{1}'' に無効な文字 ''{0}'' が見つかりました。</entry>
+    <entry key="InternalErrorType">内部エラー: 予期しないタイプ {0} のオブジェクトが、タイプ {1} のフィールドに返されました。</entry>
+    <entry key="InternalErrorGeneratedFileMissing">内部エラー: 生成された {0} または {1} が見つかりませんでした</entry>
+    <entry key="InvalidFilename">出力ファイル ''{0}'' を開いて書き込むことができません。一般的な理由として、ファイルが存在しているが書き込み権限がない、あるいはフォルダに書き込み権限がないなどがあります。</entry>
+    <entry key="InvalidJSON">JSON データを解析できません: ''{0}''。</entry>
+    <entry key="InvalidCharacterEncodingSpecified">無効な {0} が指定されました: ''{1}''。一般的な値: {2}</entry>
+    <entry key="JSONConversion">入力は JSON に変換できません。</entry>
+    <entry key="MalformedURL">無効な URL: ''{0}''。</entry>
+    <entry key="MissingQName">WSDL の解析エラー: メッセージ部分 "{0}" に QName がありません</entry>
+    <entry key="MissingValue">''{0}'' パラメーターの値がありません。</entry>
+    <entry key="ncMustBeNumber">AuthInfo の nc プロパティ値 ''{0}'' の評価結果は整数になりません</entry>
+    <entry key="NoAnonymousTypes">''{1}'' の要素 ''{0}'' は匿名の複素数型によって定義されていますが、これはサポートされていません。''{2}'' への参照はエラーを発生する可能性があります。名前付きの型を使用するようにスキーマを編集してください。</entry>
+    <entry key="NoCustomConversion">matlab.net.http.field パッケージにカスタム サブクラスがないため、変換メソッドは ''{0}'' HeaderField には使用できません。</entry>
+    <entry key="NoRPCEncoded">RPC やエンコードされた WSDL はサポートされていません。サービスに REST API がある場合は、代わりに webread を使用してください。</entry>
+    <entry key="NoElementType">WSDL の解析エラー: 要素 ''{1}'' のタイプ ''{0}'' がスキーマで見つかりません。</entry>
+    <entry key="NoImports">WSDL ファイルは他の WSDL ファイルをインポートします。インポートされたファイルにスキーマ型が定義されている場合、その型の使用によりエラーが発生する場合があります。</entry>
+    <entry key="NoSimpleContent">複素数型 ''{0}'' には simpleContent が含まれているため無視されます。サポートされているのは complexContent のみです。そのため、この型が後で使用されるとエラーが発生する可能性があります。</entry>
+    <entry key="OperationTerminatedByUser">Web サービス操作は、URL ''{0}'' にアクセス中にユーザーによって停止されました。</entry>
+    <entry key="OperationTerminatedByConsumer">Web サービス操作は、URL ''{0}'' にアクセス中に ContentConsumer によって停止されました。</entry>
+    <entry key="PartialFileWarning">サーバーは "{0}" バイトを返しましたが、"{1}" が必要でした。原因は "{2}" です。</entry>
+    <entry key="PathMissingFor">{0} のフォルダーを指定しなければなりません</entry>
+    <entry key="RandomError">{0} との通信中にエラーが発生しました。サーバーが不適切なヘッダーを返したか、または MATLAB でメモリが足りません。</entry>
+    <entry key="RequiredFieldNotSet">必須フィールド {0} が &lt;a href="matlab:doc {1}"&gt;{2}&lt;/a&gt; で設定されていません。</entry>
+    <entry key="SchemeMissing">AuthInfo の構造体には ''Scheme'' フィールドがなければなりません。</entry>
+    <entry key="SimpleTypeNotXML">simpleType ''{0}'' は XML 組み込みの型ではありません。後でエラーが発生する可能性があります。</entry>
+    <entry key="SimpleTypeRestrictionNotXML">simpleType ''{0}'' には、XML 組み込みの型ではない制限 ''{1}'' があります。後でエラーが発生する可能性があります。</entry>
+    <entry key="SSLConnectionFailure">"{0}" への安全な接続を確立できませんでした。原因は "{1}" です。証明書ファイル ({2}) の証明書について、有効期限が切れていないこと、欠落がないこと、無効でないことを確認してください。</entry>
+    <entry key="SSLConnectionSystemFailure">"{1}" のため、"{0}" への安全な接続が確立されていません。システム証明書について、期限切れ、不足または無効の証明書がないかを確認してください。</entry>
+    <entry key="SSLConnectionNoFile">"{0}" への安全な接続を確立できませんでした。原因は "{1}" です。サーバーで HTTPS 接続が許可されていない可能性があります。</entry>
+    <entry key="StatusError">URL {2} への要求に対して、サーバーからステータス {0,number,integer}、メッセージ "{1}" が返されました。</entry>
+    <entry key="TempFolderNotRemoved">注意: 一時フォルダー {0} を削除できませんでした。</entry>
+    <entry key="TheValueOf">クエリ パラメーター ''{0}'' の値</entry>
+    <entry key="TheValueOfElement">クエリ パラメーター ''{1}'' のセル配列値の要素 {0,number,integer}</entry>
+    <entry key="Timeout">URL ''{0}'' への接続が {1} 秒後にタイム アウトしました。原因は "{2}" です。おそらく、サーバーが応答していないか、{3} をより高い値に設定する必要があります。</entry>
+    <entry key="TimeoutReasonResponseHeader">応答ヘッダー待ち</entry>
+    <entry key="TimeoutReasonStoppedSending">サーバーのデータ送信停止</entry>
+    <entry key="TimeoutReasonSystemLimit">システム TCP の接続時間超過</entry>
+    <entry key="TimeoutSystemTCP">システム TCP のタイムアウト</entry>
+    <entry key="TooFewArgs">引数が少なすぎます。''{0}'' 個必要です。</entry>
+    <entry key="ToolUnspecified">{0} の場所が指定されていません。詳細は、&lt;a href="matlab:doc matlab.wsdl.setWSDLToolPath"&gt;matlab.wsdl.setWSDLToolPath&lt;/a&gt; を参照してください。</entry>
+    <entry key="ToolNotFound">{0} が {1} で見つかりませんでした。詳細は、&lt;a href="matlab:doc matlab.wsdl.setWSDLToolPath"&gt;matlab.wsdl.setWSDLToolPath&lt;/a&gt; を参照してください。</entry>
+    <entry key="TotalCharsOfData">&lt;&lt; 合計 {0} 文字のデータ &gt;&gt;</entry>
+    <entry key="TryDeletingDir">生成された Java コードをコンパイルできませんでした。{0} フォルダーを削除して出力フォルダー名を指定してください。</entry>
+    <entry key="UnexpectedMediaType">メディア タイプ ''{0}'' は、数値データまたは論理データには使用できません。</entry>
+    <entry key="UnexpectedSubtype">予期せぬタイプの Java タイプ {0} が {1} で受信されました。</entry>
+    <entry key="UnknownHost">サーバーにアクセスできませんでした。{0}。</entry>
+    <entry key="URLNotFound">ドキュメントがサーバーで見つかりません。</entry>
+    <entry key="UrlParamContainsSeparator">{0} が無効です。次の文字以外を含んでいなければなりません: {1}。</entry>
+    <entry key="VarShouldBeAType">''{0}'' は &lt;a href="matlab:doc {1}"&gt;{2}&lt;/a&gt; でなければなりません。</entry>
+    <entry key="WriteError">{0} への書き込みエラー: {1}</entry>
+    <entry key="WrongToolVersion">{1} にある {0} のバージョンは {2} ですが、これはサポートされていません。Version {3} が必要です。</entry>
+    <entry key="WSDLError">WSDL の処理エラー:\n{0}</entry>
+    <entry key="WSDLDeprecationWarning">''{0}'' は将来のリリースで削除される予定です。代わりに、&lt;a href="matlab:doc matlab.wsdl.createWSDLClient"&gt;matlab.wsdl.createWSDLClient&lt;/a&gt; を使用してください。</entry>
+    <entry key="WSDLDeprecationError">''{0}'' has been removed. Use &lt;a href="matlab:doc matlab.wsdl.createWSDLClient"&gt;matlab.wsdl.createWSDLClient&lt;/a&gt; instead.</entry>
+    <entry key="EncodingFailure">Could not convert "{0}" to encoding "{1}". The reason is: "{2}".</entry>
+    <entry key="InternalError">Internal error: {0}.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ReferenceDoesNotExist">reference to the MATLAB object does not exist</entry>
+    <entry key="NumIndexEqualToNumDim">number of indices should be equal to the number of dimensions</entry>
+    <entry key="RecurListNotSupported">recursive list cannot be passed to MATLAB</entry>
+    <entry key="InvalidStructField">invalid field for MATLAB struct</entry>
+    <entry key="RecurDictNotSupported">recursive dictionary cannot be passed to MATLAB</entry>
+    <entry key="NoneNotSupported">None cannot be passed to MATLAB</entry>
+    <entry key="MVNotSupported">memoryview cannot be passed to MATLAB</entry>
+    <entry key="UnsupportedPythonData">unsupported Python data type: {0}</entry>
+    <entry key="CharArrayFromMatlab">only 1xN and Nx1 char arrays can be returned from MATLAB</entry>
+    <entry key="CellArrayFromMatlab">only 1xN and Nx1 cell arrays can be returned from MATLAB</entry>
+    <entry key="StringArrayFromMatlab">only 1xN and Nx1 string arrays can be returned from MATLAB</entry>
+    <entry key="UnsupportedMatlabType">unsupported data type returned from MATLAB</entry>
+    <entry key="StructArrayFromMatlab">only a scalar struct can be returned from MATLAB</entry>
+    <entry key="Int64ArrayNotSupported">array of MATLAB int64 type cannot be returned on this platform</entry>
+    <entry key="Uint64ArrayNotSupported">array of MATLAB uint64 type cannot be returned on this platform</entry>
+    <entry key="CompareObjectOnly">comparison can only be made between objects of type 'matlab.object'</entry>
+    <entry key="ObjectCantLessThan">'less than' comparison is not supported by 'matlab.object'</entry>
+    <entry key="ObjectCantLessEqual">'less than or equal to' comparison is not supported by 'matlab.object'</entry>
+    <entry key="ObjectCantGreaterThan">'greater than' comparison is not supported by 'matlab.object'</entry>
+    <entry key="ObjectCantGreaterEqual">'greater than or equal to' comparison is not supported by 'matlab.object'</entry>
+    <entry key="IndexExceedsDim">index exceeds matrix dimensions</entry>
+    <entry key="AttributeNotRetrieved">attribute cannot be retrieved</entry>
+    <entry key="MethodNotCalled">method cannot be called</entry>
+  </message>
+ </rsccat>

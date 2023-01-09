@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="fileNameIsEmpty">ファイル名が与えられていません。</entry>
+    <entry key="fileIsNotThere">{0} が見つかりません。</entry>
+    <entry key="permissionDenied">{0} を開けません。アクセスが許可されていません。</entry>
+    <entry key="isADirectory">{0} を開けませんでした。これはフォルダーです。</entry>
+    <entry key="notValidMatFile">有効な MAT ファイルとして {0} を開けません。</entry>
+    <entry key="VariableTooBigForArch">変数 ''{0}'' はアーキテクチャに対して長すぎます。\nスキップしています...</entry>
+    <entry key="UnableToRead">不明な MAT ファイル エラーにより、変数のいくつかを読み込むことができません。\n</entry>
+    <entry key="multipleFilesDetected">複数の ''-file'' オプションが指定されています。受け入れられるのは 1 つのみです。</entry>
+    <entry key="yourVariablesAre">\n変数:\n</entry>
+    <entry key="badVariableName">いくつかの変数を読み取ることができません。変数名の長さは、MATLAB における名前の最大長である 63 文字以下でなければなりません。</entry>
+  </message>
+</rsccat>

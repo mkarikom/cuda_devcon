@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInputHandle">目标必须是某一类型的坐标区，或者是一个可作为图窗子级的图。</entry>
+    <entry key="UnableToGetOutput">无法提供渲染器信息。</entry>
+  </message>
+</rsccat>

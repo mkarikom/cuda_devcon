@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotPosInt">Input arguments must be nonnegative integers less than MAXSIZE as defined by COMPUTER.  Use HELP COMPUTER for more details.</entry>
+    <entry key="InvalidInputFormat">Please use SPEYE(N), SPEYE(M,N) or SPEYE([M,N]).</entry>
+    <entry key="ComplexInput">Complex inputs are not allowed for SPEYE.</entry>
+  <!--Resource entries for src/mathcore-->
+    <entry key="NonNumericInput">Input must be numeric.</entry>
+  </message>
+</rsccat>

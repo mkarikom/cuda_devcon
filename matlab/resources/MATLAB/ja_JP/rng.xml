@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="maxrhs">入力引数が多すぎます。</entry>
+    <entry key="badSecondOpt">2 番目の入力はジェネレーター名でなければなりません。</entry>
+    <entry key="badFirstOpt">最初の入力は、2^32 より小さい非負の整数シード、''shuffle''、''default''、または S = RNG を使用して以前にキャプチャされたジェネレーターの設定でなければなりません。</entry>
+    <entry key="badSeed">SD は 2^32 より小さい非負の整数シードでなければなりません。</entry>
+    <entry key="unknownRNGType">''{0}'' は有効なジェネレーター タイプではありません。</entry>
+    <entry key="badSettings">S は S = RNG を使用して以前にキャプチャされたジェネレーターの設定を含まなければなりません。</entry>
+    <entry key="reseedLegacy">現在の乱数発生器は古い形式のジェネレーターです。これは rand(''state'',0) のようなコマンドを実行したためです。こうすると、MATLAB の古い形式の乱数動作がアクティブになります。RNG を使用して古い形式の乱数発生器をリシードできません。\n\nrng(''default'') を使用して乱数発生器をその起動設定に再初期化するか rng(seed,''{0}'') のような特定のジェネレーター タイプを使用して RNG を呼び出してください。</entry>
+    <entry key="createLegacy">''Legacy'' は GENERATOR に対して有効な選択ではありません。rng(seed,''legacy'') を使用しての古い形式のジェネレーターへの切り替えはできません。\n\n古い形式の乱数発生器の設定は s = rng; ... rng(s) によって保存および復元できます。ただし、古い形式の乱数発生器の使用は推奨しません。代わりに、rng(seed,''{0}'') のような現在のジェネレーターのいずれかを使用してください。</entry>
+  </message>
+</rsccat>

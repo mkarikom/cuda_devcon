@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputType">入力引数は文字ベクトルのセル配列でなければなりません。</entry>
+    <entry key="TooManyInputs">cell 配列では 1 つの入力引数のみサポートされています。</entry>
+    <entry key="sortDirection">並べ替えの方向は、''ascend'' または ''descend'' でなければなりません。</entry>
+    <entry key="sortDirectionIsSorted">並べ替えの方向は、''ascend''、''descend''、''monotonic''、''strictascend''、''strictdescend'' または ''strictmonotonic'' でなければなりません。</entry>
+    <entry key="complexIntegers">複素数の整数の SORT はサポートされていません。 </entry>
+    <entry key="InvalidAbsRealType">''ComparisonMethod'' パラメーターは、最初の引数が {0} 配列である場合にはサポートされません。</entry>
+    <entry key="InvalidComparison">''ComparisonMethod'' の値は、''auto''、''abs'' または ''real'' でなければなりません。</entry>
+    <entry key="InvalidFirstLastType">''MissingPlacement'' パラメーターは、最初の引数が {0} 配列である場合にはサポートされません。</entry>
+    <entry key="InvalidMissingPlace">''MissingPlacement'' の値は、''auto''、''first'' または ''last'' でなければなりません。</entry>
+    <entry key="NameValueNames">パラメーター名は、'ComparisonMethod' または 'MissingPlacement' でなければなりません。</entry>
+    <entry key="NameValuePairs">引数の数が正しくありません。パラメーターの名前と値はペアでなければなりません。</entry>
+    <entry key="notPosInt">次元引数は正の整数でなければなりません。</entry>
+    <entry key="SecondArgumentType">2 番目の引数は次元または並べ替えの方向を指定しなければなりません。</entry>
+    <entry key="ThirdArgumentType">並べ替えの方向は文字ベクトルでなければなりません。</entry>
+  </message>
+</rsccat>

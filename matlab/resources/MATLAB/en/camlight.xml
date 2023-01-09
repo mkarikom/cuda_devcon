@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="TooManyInputs">Too many input arguments</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="InvalidNumberOfArguments">Invalid arguments</entry>
+    <entry key="InvalidArgument">{0} is an invalid argument</entry>
+    <entry key="NotValidArguments">{0} and {1} are not valid arguments</entry>
+  </message>
+</rsccat>

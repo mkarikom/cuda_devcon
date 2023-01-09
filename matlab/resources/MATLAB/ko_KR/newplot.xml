@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidHandle">인수는 기존 그래픽스 객체에 대한 스칼라 핸들이어야 합니다.</entry>
+    <entry key="NoAxesParent">Figure를 재설정할 때, 지정된 좌표축이 별도의 프로세스에 의해 삭제되었습니다.</entry>
+    <entry key="HoldOnMixing">{0}에는 카테시안 플롯을 추가할 수 없습니다.</entry>
+    <entry key="HoldOnMixingPolar">{0}에는 극좌표 플롯을 추가할 수 없습니다.</entry>
+    <entry key="HoldOnMixingAxesGeneric">{1}에는 {0}을(를) 추가할 수 없습니다. hold를 해제하십시오.</entry>
+  </message>
+</rsccat>

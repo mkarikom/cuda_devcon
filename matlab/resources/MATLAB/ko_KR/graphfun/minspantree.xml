@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="KeyWithoutValue">{0}에 대한 값이 지정되지 않았습니다.</entry>
+    <entry key="ParseFlags">파라미터 이름은 ''Method'', ''Root'', ''Type'' 중 하나여야 합니다.</entry>
+    <entry key="ParseMethod">Method 값은 ''dense'' 또는 ''sparse''여야 합니다.</entry>
+    <entry key="ParseRoot">Root 값은 유효한 노드 ID여야 합니다. </entry>
+    <entry key="ParseType">Type 값은 ''tree'' 또는 ''forest''여야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AtLeastOneGraphicObjectMustBeBrushed">少なくとも 1 つのグラフィックス オブジェクトがブラシ選択されていなければなりません。</entry>
+    <entry key="ReplaceWithNaNs">NaN に置き換え</entry>
+    <entry key="ReplaceWithAConstant">定数に置き換える</entry>
+    <entry key="RemovePoints">選択点の削除</entry>
+    <entry key="RemoveUnbrushedPoints">ブラシ未選択点を削除</entry>
+    <entry key="NoRemoveNoBrush">全体がブラシ未選択になっている行または列がないため、何も削除されません。\n少なくとも 1 つの行または列全体がブラシ未選択になるように、選択を減らしてください。</entry>
+    <entry key="NoRemoveBrush">全体がブラシ選択されている行または列がないため、何も削除されません。\n少なくとも 1 つの行または列全体がブラシ選択されるように、選択を増やしてください。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="nonNumericInput">Input arguments must be numeric.</entry>
+    <entry key="non2DInput">Inputs must be 2-D.</entry>
+    <entry key="nonComplexVectorInput">Only complex vectors are supported.</entry>
+    <entry key="lengthXDoesNotMatchNumRowsY">The length of X must match the number of rows of Y.</entry>
+    <entry key="lengthXDoesNotMatchNumAnyDimY">The length of X must match either the number of rows or the number of columns of Y.</entry>
+    <entry key="XAndYLengthMismatch">X must be same length as Y.</entry>
+    <entry key="XAndYSizeMismatch">X and Y must be the same size.</entry>
+    <entry key="XNotAVector">X must be a vector.</entry>
+    <entry key="YNotAVectorScalarX">When X is a scalar, Y must be a vector.</entry>
+  </message>
+</rsccat>

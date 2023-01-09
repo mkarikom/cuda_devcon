@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015 The MathWorks, Inc. -->
+<!-- This file is NOT translated, place translatable strings in profiler.xml -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+	<entry key="MMex" translate="false">mmex</entry>
+	<entry key="BuiltIn" translate="false" note="TranslateFalseBatch;">builtin</entry>
+	<entry key="None" translate="false" note="TranslateFalseBatch;">none</entry>
+	<entry key="CPU" translate="false" note="TranslateFalseBatch;">cpu</entry>
+	<entry key="Real" translate="false" note="TranslateFalseBatch;">real</entry>
+	<entry key="Performance">performance</entry>
+	<entry key="Processor">processor</entry>
+	<entry key="Off" translate="false" note="TranslateFalseBatch;">off</entry>
+	<entry key="On" translate="false" note="TranslateFalseBatch;">on</entry>
+	<entry key="Timestamp" translate="false" note="TranslateFalseBatch;">timestamp</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ImageMatrixMustBeDoublePrecision2D">image matrix must be double-precision and 2-D</entry>
+    <entry key="ImageMatrixElementOutsideColormapRange">Image matrix element is outside of colormap range</entry>
+    <entry key="CDataValuesMustBeLegalColormapIndices">double-precision indexed CData values must be legal colormap indices: 1.0 &lt;= value &lt;= length(colormap)</entry>
+    <entry key="CDataValuesMustBeBetween0And1">double-precision truecolor CData values must be in the range 0.0 &lt;= value &lt;= 1.0</entry>
+    <entry key="ExpectedMatrixTypeDoubleOrUint8">Can only make movie frames from image matrices of type double or uint8</entry>
+  </message>
+</rsccat>

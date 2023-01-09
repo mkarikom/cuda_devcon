@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MATLABEditorTitle">MATLAB 편집기</entry>
+    <entry key="NotAvailable">Java가 설치되어 있지 않으면 MATLAB 편집기를 사용할 수 없습니다.</entry>
+    <entry key="NoFilename">문서를 가져오려면 파일 이름을 지정하십시오.</entry>
+    <entry key="PartialPath">열기 작업을 수행하려면 {0}이(가) 절대 경로여야 합니다.</entry>
+    <entry key="EmptyEditor">MATLAB 편집기는 비어 있을 수 없습니다.</entry>
+    <entry key="InvalidDocumentInput">{0} 인수는 matlab.desktop.editor.Document의 인스턴스여야 합니다.</entry>
+    <entry key="InvalidSelection">[startLine startColumn endLine endColumn] 형식으로 선택 사항을 지정하십시오.</entry>
+    <entry key="InvalidMatrixDimensions">행렬의 차원이 일치해야 합니다.</entry>
+    <entry key="NonScalarInput">이 메서드는 스칼라 입력값인 경우에만 동작합니다.</entry>
+    <entry key="NonNumericScalarInput">{0} 인수는 숫자형 스칼라여야 합니다.</entry>
+    <entry key="Uneditable">문서를 편집할 수 없습니다. &lt;a href="matlab:help matlab.desktop.editor.Document.Editable"&gt;Document.Editable&lt;/a&gt; 속성을 사용하여 문서를 편집 가능으로 설정하십시오.</entry>
+    <entry key="ReadonlyPosition">지정된 위치는 읽기 전용입니다.</entry>
+    <entry key="InaccessiblePosition">지정된 위치로 커서를 이동할 수 없습니다.</entry>
+    <entry key="NonexistentPosition">지정된 위치가 존재하지 않습니다.</entry>
+    <entry key="EditorClosed">문서를 열 수 없습니다. &lt;a href="matlab:help matlab.desktop.editor.openDocument"&gt;matlab.desktop.editor.openDocument&lt;/a&gt; 속성을 사용하여 새 문서 객체를 생성하십시오.</entry>
+    <entry key="JavaCollectionBadInput">입력값이 Java Collection이 아닙니다.</entry>
+    <entry key="NonStringInput">{0} 인수는 문자형 벡터여야 합니다.</entry>
+    <entry key="NonCellInput">입력 인수는 텍스트 라인의 셀형 배열이어야 합니다.</entry>
+    <entry key="Invalid32BitInteger">{0} 인수는 정수 최댓값(2147483647)보다 작거나 같은 정수여야 합니다.</entry>
+    <entry key="Invalid32BitNegativeInteger">{0} 인수는 정수 최댓값(2147483647)보다 작거나 같은 음이 아닌 정수여야 합니다.</entry>
+    <entry key="InvalidChildForAnimation">AllowFigureAnimation 설정이 true로 설정된 경우, uicontrols, uipanels, uitables가 포함된 Figure가 올바로 렌더링되지 않습니다.</entry>
+    <entry key="InvalidUIFigureForAnimation">AllowFigureAnimation 설정이 true로 설정된 경우, uifigure 함수로 만든 Figure가 올바로 렌더링되지 않습니다.</entry>
+    <entry key="CannotOpenDirectory">{0}은(는) 폴더이므로 편집할 수 없습니다. \n\n제목 없는 문서를 만드시겠습니까?</entry>
+    <entry key="IgnoringReuseWebWindow">'Visible' 값이 'on'인 경우 'ReuseWebWindow' 파라미터가 무시됩니다.</entry>
+    <entry key="DialogYes">예</entry>
+    <entry key="DialogNo">아니요</entry>
+    <entry key="CloseFailed">문서에 저장되지 않은 변경 내용이 포함되어 있습니다. close를 호출하기 전에 변경 내용을 저장하거나, 변경 내용을 저장하지 않고 문서를 닫으려면 closeNoPrompt를 대신 사용하십시오.</entry>
+    <entry key="ReloadFailed">{0}을(를) 찾을 수 없습니다. 문서가 저장되지 않았으면 문서를 다시 불러오기 전에 먼저 저장하십시오.</entry>
+    <entry key="SaveFailedUntitledBuffer">{0}을(를) 저장할 수 없습니다. 문서가 제목 없는(Untitled) 버퍼이면 saveAs 메서드를 사용하여 문서를 저장하십시오.</entry>
+    <entry key="SaveFailedReadOnly">파일이 읽기 전용이기 때문에 {0}을(를) 저장할 수 없습니다.</entry>
+    <entry key="SaveFailedPermissionDenied">Unable to save {0} because of insufficient permissions.</entry>
+    <entry key="SaveFailedUnknown">{0}을(를) 저장할 수 없습니다. 폴더 사용 권한과 여유 공간이 충분한지 확인하십시오.</entry>
+    <entry key="SaveAsFailedNotAbsoulutePath">파일 이름은 정규화된 이름이어야 합니다.</entry>
+    <entry key="PerformActionTimeout">{0} 동작을 수행할 수 없습니다. 편집기가 요청에 응답하지 않습니다.</entry>
+    <entry key="OpenLoadTimeout">편집기를 열거나 불러올 수 없습니다.</entry>
+    <entry key="AppStateTimeout">AppContainer가 AppState를 RUNNING으로 반환할 때까지 기다리는 중 제한 시간이 초과되었습니다.</entry>
+    <entry key="OpenAsTextOnPcodedFileWarning">파일 {0}을(를) 열 수 없습니다.\n해독하기 어렵게 만든 P 코드 파일입니다.\n</entry>
+  </message>
+</rsccat>

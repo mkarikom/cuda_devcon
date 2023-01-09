@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="openSystem">Simulink はこのバージョンの MATLAB で利用できません。</entry>
+    <entry key="opnMdlName">Simulink システム名 ''{0}'' が存在しないか、開いていません。</entry>
+    <entry key="sysName">Simulink システム名 ''{0}'' が固有ではありません。</entry>
+    <entry key="sysNameUnopened">Simulink システム名 ''{0}'' は、ブロック線図でもサブシステムでもありません。</entry>
+    <entry key="argOpt">-s オプションで印刷される Simulink システムがありません</entry>
+    <entry key="expBlkName">ブロック名 ''{0}'' ではなく、Simulink システム名が必要です。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidNames">OLDNAMES は既存のカテゴリのサブセットでなければなりません。</entry>
+    <entry key="IncorrectNumNames">NEWNAMES は A 内のカテゴリごとに 1 つの名前をもたなければなりません。</entry>
+    <entry key="IncorrectNumNamesPartial">NEWNAMES は OLDNAMES 内のカテゴリごとに 1 つの名前をもたなければなりません</entry>
+    <entry key="DuplicateNames">カテゴリ名 ''{0}'' を ''{1}'' に変更できません。このカテゴリ名は既に存在しています。</entry>
+  </message>
+</rsccat>

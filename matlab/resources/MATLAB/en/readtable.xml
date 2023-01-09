@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <entry key="AmbiguousFileType">The 'FileType' ''{0}'' is ambiguous.</entry>
+        <entry key="RowNamesNotSupported">Unsupported parameter ''{0}''. To read a TABLE with row names use READTABLE.</entry>
+        <entry key="VariableNamesNotSupported">Unsupported parameter ''{0}''. To read a TABLE or TIMETABLE with variable names use READTABLE or READTIMETABLE.</entry>
+        <entry key="UnrecognizedFileExtension">File extension ''{0}'' is not recognized. Use 'FileType' to specify the type to read.</entry>
+        <entry key="UnrecognizedFileType">FileType ''{0}'' is not recognized.</entry>
+        <entry key="BadFileFormat">Reading failed at line {0,number,integer}. All lines of a text file must have the same number of delimiters. Line {1,number,integer} has {2,number,integer} delimiters, while preceding lines have {3,number,integer}.</entry>
+        <entry key="InvalidHeaderLines">NUMHEADERLINES must be a non-negative integer.</entry>
+        <entry key="InvalidTreatAsEmpty">TREATASMISSING must be a string array, character vector, or a cell array of character vectors.</entry>
+        <entry key="NumericTreatAsEmpty" note="stringDatatypeUpdate">TREATASMISSING must not contain numeric literals.</entry>
+        <entry key="OpenFailed">Unable to open file ''{0}''.</entry>
+        <entry key="ReadVarNamesFailed" note="stringDatatypeUpdate">Cannot interpret data in the file ''{0}''. Found {2} variable names but {1} data columns. You may need to specify a different format, delimiter, or number of header lines.</entry>
+        <entry key="RowNamesVarNotString" note="stringDatatypeUpdate">Cannot convert ''{0}'' into row names.</entry>
+        <entry key="CouldNotReadEntireFileWithFormat" note="stringDatatypeUpdate">Unable to read the entire file. You may need to specify a different format, delimiter, or number of header lines.</entry>
+        <entry key="ReadErrorOnLine">Reading failed at line {0,number,integer}. A field on that line may have contained the wrong type of value.</entry>
+        <entry key="UnequalVarLengthsFromFileNoFormat">The data in this file does not appear to be tabular, with the same number of fields in each row and in each column. You might need to specify or modify the delimiter or number of header lines.</entry>
+        <entry key="UnequalVarLengthsFromFileWithFormat" note="stringDatatypeUpdate">The data in this file does not appear to be tabular, with the same number of fields in each row and in each column. You might need to specify or modify the format, delimiter, or number of header lines.</entry>
+        <entry key="UnexpectedClass" note="stringDatatypeUpdate">Unable to convert value of class {0} to character vector.</entry>
+        <entry key="InvalidDelimiter" note="stringDatatypeUpdate">The delimiter must be a string scalar, character vector, cell array of character vectors, or one of these values ''tab'', ''space'', ''comma'', ''semi'', ''bar''.</entry>
+        <entry key="InvalidSheet" note="stringDatatypeUpdate">The sheet must be a string scalar, character vector, or a positive integer.</entry>
+        <entry key="InvalidRange" note="stringDatatypeUpdate">The range must be a string scalar or character vector.</entry>
+        <entry key="ParameterListHeader">Note: readtable detected the following parameters:\n</entry>
+        <entry key="NoTimeVarFound">Unable to detect datetime or duration data in file ''{0}'' for row times.</entry>
+        <entry key="AllNaTVariable">Unable to convert one or more variables to datetime. Specify the correct InputFormat and DatetimeLocale properties in the DatetimeVariableImportOptions.</entry>
+        <entry key="LegacyFormatFileTypes">''Format'' only supported for text and spreadsheet files.</entry>
+    </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="argMustBeScalar">Function_handle 参数必须为标量。</entry>
+    <entry key="argMustBeStringOrHandle">要计算的函数必须表示为字符串标量、字符向量或 function_handle 对象。</entry>
+    <entry key="invalidFunctionName">函数名称 ''{0}'' 无效。</entry>
+    <entry key="QEArgShareable">QEinCallFcnReuse 的参数不能共享</entry>
+  </message>
+</rsccat>

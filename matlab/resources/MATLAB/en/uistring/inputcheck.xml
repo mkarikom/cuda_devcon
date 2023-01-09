@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="MoreInformation">For more information, please see the &lt;a href="http://www.mathworks.com/support/contact_us/dev/obsoleteprintdevices.html?device={0}"&gt;obsolete output formats&lt;/a&gt; resource on the MathWorks web site.</entry>
+      <entry key="ThePrintDeviceWillBeRemovedInAFutureRelease">The ''{0}'' print device will be removed in a future release of MATLAB.</entry>
+      <entry key="TheGraphicExportFormatWillBeRemovedInAFutureRelease">The ''{0}'' graphic export format will be removed in a future release of MATLAB.</entry>
+      <entry key="ThedillPrintDeviceWillBeRemovedInAFutureRelease">The ''-dill'' print device will be removed in a future release. Use Encapsulated PostScript (''-depsc'') instead.</entry>
+      <entry key="ThePrintDeviceHasBeenRemoved">Support for the ''{0}'' print device has been removed from MATLAB.</entry>
+      <entry key="TheGraphicExportFormatHasBeenRemoved">Support for the ''{0}'' graphic export format has been removed from MATLAB.</entry>
+      <entry key="ThedillPrintDeviceHasBeenRemoved">Support for the ''-dill'' graphic export format has been removed from MATLAB. Use Encapsulated PostScript (''-depsc'') instead.</entry>
+   </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonCharLibname">ライブラリ名は string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="NonExistLibname">ライブラリ名が無効です。サポートされているライブラリ名のリストを参照するには、VERSION(''-libraryList'') を使用してください。</entry>
+    <entry key="InvalidOutput">ライブラリ バージョンの出力は文字ベクトルでなければなりません。</entry>
+    <entry key="InvalidOption">''version'' コマンドに無効なオプションが渡されました</entry>
+    <entry key="SupportedLibrariesAre">\nサポートされているライブラリ:\n</entry>
+  </message>
+</rsccat>

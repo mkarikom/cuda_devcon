@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="directoryNameTooLong">ディレクトリ名 {0} が長すぎます。 </entry>
+    <entry key="methodDirectoriesNotAllowedOnPath">メソッド ディレクトリは MATLAB パスでは許可されていません: {0}</entry>
+    <entry key="packageDirectoriesNotAllowedOnPath">パッケージ ディレクトリは MATLAB パスでは許可されていません: {0}</entry>
+    <entry key="privateDirectoriesNotAllowedOnPath">private ディレクトリは MATLAB パスでは許可されていません: {0}</entry>
+    <entry key="resourcesDirectoriesNotAllowedOnPath">パスに 'resources' という名前のフォルダーを追加することはサポートされていません: {0}</entry>
+    <entry key="directoryPermissionDenied">ディレクトリのアクセスが許可されていません: {0}</entry>
+    <entry key="nameNonexistentOrNotADirectory">名前が存在しないか、ディレクトリではありません {0}</entry>
+    <entry key="directoryAccessFailure">ディレクトリ アクセス エラー: {0}</entry>
+    <entry key="cannotAbsolutizePath">{0} を絶対パスにできませんでした。 </entry>
+    <entry key="invalidLocation">ファイルまたはフォルダーに指定した場所 {0} が無効です。</entry>
+    <entry key="ToolboxCacheFileWrongFormat">ツールボックス パス キャッシュ {0} を読み込めません。キャッシュ ファイルの形式が正しくありません。これは MATLAB を終了すると再生成されます。</entry>
+    <entry key="PathAlterationNotSupported">検索パスの変更は MATLAB Compiler でサポートされていません。MATLAB コードから、検索パスを変更する関数を削除してください。配布するアプリケーションでファイルを認識できるようにするには、MATLAB セッションに親フォルダーを追加します。</entry>
+    <entry key="UnableToModifyMatlabpath">前の変更が完了するまで、MATLAB 検索パスを変更できません。</entry>
+    <entry key="CannotAddComponentsToSearchPath">{0} はコンポーネント メンバー フォルダーであるため、MATLAB 検索パスに追加できません。コンポーネントは {1} に定義されています。</entry>
+    <entry key="UnableToLocatePersonalFolder">Unable to locate a personal folder for {0}.</entry>
+    <entry key="UnableToCreatePersonalMATLABWorkFolder">Unable to create personal MATLAB work folder {0}.</entry>
+  </message>
+</rsccat>

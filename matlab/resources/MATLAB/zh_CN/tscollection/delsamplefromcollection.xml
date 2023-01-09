@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="needinteger">索引必须由整数向量指定。</entry>
+    <entry key="badindex">指定的索引不是整数、超出范围或为负值。</entry>
+    <entry key="badvalue">时间必须为数值。</entry>
+    <entry key="badtimeformat">时间格式无效</entry>
+    <entry key="badformat">指定的时间格式与时序的时间格式不匹配。</entry>
+    <entry key="badsyntax">必须指定样本索引或时间才能删除每个样本。</entry>
+    <entry key="badmethod">第二个参数必须为字符向量或字符串，用于指定标识要删除的样本的方法。</entry>
+  </message>
+</rsccat>

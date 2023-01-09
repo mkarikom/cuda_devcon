@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Assert">最初の引数は、配列ではなく、ハンドルのベクトルでなければなりません。</entry>
+    <entry key="NoAncestorSpecified">先祖のタイプが指定されていません</entry>
+    <entry key="InvalidSecondInputArgumentType">グラフィックス オブジェクトの型を、文字ベクトル、string 配列、または文字ベクトルの cell 配列として指定してください</entry>
+    <entry key="InvalidArgument">''ancestor'' の 3 番目の引数は、文字ベクトル ''toplevel'' でなければなりません</entry>
+  </message>
+</rsccat>

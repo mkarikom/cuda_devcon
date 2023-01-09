@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NeedsMoreInfo">ADJUSTBACKGROUND에는 ''save'' 또는 ''restore'' 여부가 지정되어야 함</entry>
+    <entry key="InconsistentClasses">ADJUSTBACKGROUND ''save''를 실행할 때 ADJUSTBACKGROUND ''restore''에 대한 HGUsingMATLABClasses 상태가 동일하지 않기 때문에 계속 할 수 없습니다.</entry>
+  </message>
+</rsccat>

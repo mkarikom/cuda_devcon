@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnsupportedConversion">MATLAB ''{0}'' の Python への変換はサポートされていません。</entry>
+    <entry key="UnsupportedInputArraySizeError">MATLAB ''{0}'' の Python への変換は、1-N ベクトルに対してのみサポートされています。</entry>
+    <entry key="UnsupportedInputArrayTypeError">MATLAB ''{0}'' 配列の Python への変換はサポートされていません。</entry>
+    <entry key="UnsupportedComplexConversionError">複素数 MATLAB ''{0}'' の Python への変換はサポートされていません。</entry>
+    <entry key="UnsupportedOutputArrayTypeError">''{0}'' 配列への変換はサポートされていません。</entry>
+    <entry key="PyargsError">''{0}'' は最後の入力引数でなければなりません。</entry>
+    <entry key="InvalidClassName">クラス ''{0}'' が見つかりません。</entry>
+    <entry key="DispatchError">無効なオブジェクトのプロパティまたはメソッドにアクセスしようとしています。</entry>
+    <entry key="PyException">Python エラー: {0}</entry>
+    <entry key="PyExceptionWithMsg">Python エラー: {0}: {1}</entry>
+    <entry key="ConverterError">Python の ''{0}'' 型から MATLAB ''{1}'' への変換は、実数と logical の場合にのみサポートされます。</entry>
+    <entry key="AutoConversionFailure_Link">Python 関数 ''{0}'' は、位置 {1, number, integer} にある少なくとも 1 つの入力引数を受け入れることができません。この関数では、MATLAB 配列から作成可能な特定のデータ型が必要になる場合があります。詳細については、Python 関数 ''{0}'' と、&lt;a href="matlab:helpview([docroot '/matlab/helptargets.map'], 'python_NDarray')"&gt;Python 配列の取り扱い&lt;/a&gt;に関するドキュメンテーションを参照してください。</entry>
+    <entry key="AutoConversionFailure">Python 関数 ''{0}'' は、位置 {1, number, integer} にある少なくとも 1 つの入力引数を受け入れることができません。この関数では、MATLAB 配列から作成可能な特定のデータ型が必要になる場合があります。詳細については、Python 関数 ''{0}'' と、Python 配列の取り扱いに関するドキュメンテーションを参照してください。</entry>
+    <entry key="PyExceptionWithNDArrayInfoAndMsg_Link">Python エラー: {0}: {1} \n Python 関数 ''{2}'' は、位置 {3, number, integer} にある少なくとも 1 つの入力引数を受け入れることができない可能性があります。この関数では、MATLAB 配列から作成可能な特定のデータ型が必要になる場合があります。詳細については、Python 関数 ''{2}'' と、&lt;a href="matlab:helpview([docroot '/matlab/helptargets.map'], 'python_NDarray')"&gt;Python 配列の取り扱い&lt;/a&gt;に関するドキュメンテーションを参照してください。</entry>
+    <entry key="PyExceptionWithNDArrayInfoAndMsg">Python エラー: {0}: {1} \n Python 関数 ''{2}'' は、位置 {3, number, integer} にある少なくとも 1 つの入力引数を受け入れることができない可能性があります。この関数では、MATLAB 配列から作成可能な特定のデータ型が必要になる場合があります。詳細については、Python 関数 ''{2}'' と、Python 配列の取り扱いに関するドキュメンテーションを参照してください。</entry>
+    <entry key="PyExceptionWithNDArrayInfo_Link">Python エラー: {0} \n Python 関数 ''{1}'' は、位置 {2, number, integer} にある少なくとも 1 つの入力引数を受け入れることができない可能性があります。この関数では、MATLAB 配列から作成可能な特定のデータ型が必要になる場合があります。詳細については、Python 関数 ''{1}'' と、&lt;a href="matlab:helpview([docroot '/matlab/helptargets.map'], 'python_NDarray')"&gt;Python 配列の取り扱い&lt;/a&gt;に関するドキュメンテーションを参照してください。</entry>
+    <entry key="PyExceptionWithNDArrayInfo">Python エラー: {0} \n Python 関数 ''{1}'' は、位置 {2, number, integer} にある少なくとも 1 つの入力引数を受け入れることができない可能性があります。この関数では、MATLAB 配列から作成可能な特定のデータ型が必要になる場合があります。詳細については、Python 関数 ''{1}'' と、Python 配列の取り扱いに関するドキュメンテーションを参照してください。</entry>
+    <entry key="UnknownExceptionClass">&lt;不明な例外クラス&gt;</entry>
+    <entry key="UnprintableExceptionObject">&lt;出力できない例外オブジェクト&gt;</entry>
+    <entry key="PyDisplayBufferObject">Python {0}:</entry>
+    <entry key="PyDisplayBufferObjectFooterDetails">Python オブジェクトのプロパティを表示するには、関数 {0} を使用します。</entry>
+    <entry key="PyDisplayBufferObjectFooterConversion">MATLAB 配列に変換するには、関数 {0} を使用します。</entry>
+    <entry key="PyDisplayWithProps">Python {0} とそのプロパティ:</entry>
+    <entry key="PyDisplayWithNoProps">Python {0} にはプロパティがありません。</entry>
+    <entry key="UnsupportedPythonSuperclass">クラス ''{0}'' は Python クラス ''{1}'' をスーパークラスとして宣言します。Python クラスの MATLAB サブクラスの作成はサポートされていません。</entry>
+    <entry key="InvalidPropertyName">''{0}'' は有効な動的プロパティ名ではありません。プロパティ名は文字で始まり、文字、数字、アンダースコアで構成されなければなりません。</entry>
+    <entry key="NameInUse">''{0}'' は既にメソッドとして定義されています。</entry>
+    <entry key="PythonUnavailable">Python コマンドには、サポートされているバージョンの CPython が必要です。「&lt;a href="matlab:helpview([docroot '/matlab/helptargets.map'], 'getting_started_python_interface')"&gt;Python を使う&lt;/a&gt;」を参照してください。</entry>
+    <entry key="PythonSDK">MATLAB から Python ライブラリを呼び出す機能は、Python 用 MATLAB Compiler SDK では使用できません。</entry>
+    <entry key="UnsupportedLoad">Python オブジェクトを読み込めません。MAT ファイルへの Python オブジェクトの保存 (シリアル化) はサポートされていません。</entry>
+    <entry key="BadSubscript">添字インデックスは正の実数の整数でなければなりません。</entry>
+    <entry key="InvalidLogicalIndex">クラス ''{0}'' の Python オブジェクトでは、論理値の添字インデックスは許可されません。実数、正の整数を使用してください。</entry>
+    <entry key="InvalidArrayIndex">配列の添字インデックスは、クラス ''{0}'' の Python オブジェクトで制限されています。開始、停止、固定のインクリメントを含む等間隔ベクトルを使用します。</entry>
+    <entry key="UnsupportedParenAssignment">かっこスタイル ''()'' のインデックスを使用した要素の代入は、クラス ''{0}'' の Python オブジェクトではサポートされていません。</entry>
+    <entry key="UnsupportedCommaSeparatedList">中かっこスタイル ''{1}'' のインデックスを使用した複数要素へのアクセスは、クラス ''{0}'' の Python オブジェクトではサポートされていません。かっこスタイル ''()'' のインデックスを使用してください。</entry>
+    <entry key="UnsupportedParenIndexing">かっこスタイル ''()'' のインデックスは、クラス ''{0}'' の Python オブジェクトでは使用できません。中かっこスタイル ''{1}'' のインデックスを使用してください。</entry>
+    <entry key="TooManyKeys">クラス ''{0}'' の Python オブジェクトをインデックス処理する場合、複数のキーは使用できません。単一のキーを使用してください。</entry>
+    <entry key="InvalidEndIndex">end インデックスは、クラス ''{0}'' の Python オブジェクトでは使用できません。</entry>
+    <entry key="FuncHandleType">MATLAB 関数 ''{0}'' のハンドルはサポートされていません。Python 関数のハンドルを使用します。</entry>
+    <entry key="FuncHandleSearch">関数 ''{0}'' が見つかりません。</entry>
+    <entry key="NotCallable">クラス ''{0}'' の Python オブジェクトを関数として呼び出すことはできません。</entry>
+    <entry key="DocPostfixMsg">この内容は外部言語のドキュメンテーションからのものです。一部の例と説明は、MATLAB には当てはまらない場合があります。</entry>
+  </message>
+</rsccat>

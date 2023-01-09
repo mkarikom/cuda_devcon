@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoLHS">작업 공간 변수에 값을 대입하지 않고 RENAMEVARS를 사용하면 테이블의 변수 이름이 변경되지 않습니다. t = renamevars(t,vars,newnames)를 사용하십시오.</entry>
+    <entry key="NumNamesMismatch">새 변수 이름의 개수는 지정된 변수 이름 개수와 일치해야 합니다.</entry>
+    <entry key="InvalidVarSubscript">테이블 변수 첨자는 실수형 양의 정수가 포함된 숫자형 배열, 논리형 배열, 문자형 벡터, string형 배열, 문자형 벡터로 구성된 셀형 배열 또는 vartype 첨자 객체여야 합니다.</entry>
+    <entry key="RenameDim">RENAMEVARS를 사용하여 차원 이름을 바꿀 수 없습니다.</entry>
+    <entry key="NamesNotText">새 변수 이름은 텍스트여야 합니다.</entry>
+    <entry key="NewVarNamesMustBeConstant">Specify 'NewVariableNames' as Constant.</entry>
+  </message>
+</rsccat>

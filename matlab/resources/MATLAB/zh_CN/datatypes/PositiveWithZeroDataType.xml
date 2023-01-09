@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MustBeFinite">值应为有限的双精度数。</entry>
+    <entry key="MustBeNotNegative">值应为大于或等于 0 的双精度数。 </entry>
+    <entry key="MustBePositive"> 值应为大于 0 的双精度数。</entry>
+    <entry key="MustBeANumericScalar">值应为数值标量。</entry>
+    <entry key="MustBeNotNaN"> 值应为数值。 </entry>
+  </message>
+</rsccat>

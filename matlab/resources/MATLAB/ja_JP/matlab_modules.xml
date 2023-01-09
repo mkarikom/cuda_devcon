@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="addpathFailedToCreateNewModule">{0} のモジュールは既にパス上にあるか登録済みなので、新しいモジュールをインスタンス化できません。MATLAB が矛盾した状態にあります。このモジュールをパスから削除してください。</entry>
+    <entry key="rmpathFailedToRemoveModule">{0} で有効なモジュールが見つかりません。このモジュールは以前に正しくインスタンス化されていません。</entry>
+    <entry key="missingModuleDefinition">モジュールの定義ファイルが場所 {0} にないか、正しくありません。</entry>
+    <entry key="cannotUnregisterNonRegisteredModuleFromRoot">場所 {0} に現在登録されているモジュールはありません。</entry>
+    <entry key="unregisterModuleNameNotFound">{0} という名前のモジュールは現在登録されていません。 </entry>
+    <entry key="unregisterModuleVersionMismatch">モジュール {0} は現在実行中のため、登録解除できません。 </entry>
+    <entry key="cannotUnregisterModuleFromNonRoot">モジュール以外のルートの場所からモジュールの登録解除はできません。</entry>
+    <entry key="moduleIdentifierHasAlreadyBeenClaimed">このモジュールを登録できません。{0} にある他のモジュールが、このモジュールと同じモジュール名、プロバイダーおよびバージョンを使用しています。</entry>
+    <entry key="registrationFailureSubfolderOnPath">モジュール {0} を登録できません。そのサブフォルダー {1} が現在パス上にあるためです。</entry>
+  </message>
+</rsccat>

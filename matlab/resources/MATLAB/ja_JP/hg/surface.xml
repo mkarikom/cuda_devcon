@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadCDataDimensions">CData は M 行 N 列の行列か M x N x 3 の配列でなければなりません。</entry>
+    <entry key="MatrixDimensionsMustAgree">行列の次元は一致しなければなりません。メッシュをレンダリングしません</entry>
+    <entry key="ZMustNotBeScalarOrVector">Z はレンダリング面ではないため、スカラーにもベクトルにもできません</entry>
+    <entry key="CDataMustBeDoubleOrSingleUnlessTextureData">CData は、テクスチャ データとしてのみ使用しない場合、倍精度か単精度でなければなりません</entry>
+    <entry key="CDataMustBeDoubleOrUint8">CData は、double か uint8 でなければなりません。</entry>
+    <entry key="CDataSizeMustEqualZDataSizeForInterpolatedShading">size(CData) は、内挿されたシェーディングに対して size(ZData) と等しくなければなりません</entry>
+    <entry key="AlphaDataSizeMustEqualZDataSizeForInterpolatedAlpha">size(AlphaData) は、内挿された alpha に対して size(ZData) と等しくなければなりません</entry>
+    <entry key="CDataSizeMustEqualZDataSizeForMarkerFlatColoring">size(CData) は、マーカーの flat の色付けに対して size(ZData) に等しくなければなりません</entry>
+    <entry key="CDataSizeMustEqualZDataSizeForFlagShading">size(CData) は、flat のシェーディングに対して size(ZData)、または size(ZData)-1 に等しくなければなりません</entry>
+    <entry key="AlphaDataSizeMustEqualZDataSizeForFlatAlpha">size(AlphaData) は、flat の alpha に対して size(ZData)、または size(ZData)-1 と等しくなければなりません</entry>
+    <entry key="FaceAlphaTextureNotPossible1">FaceAlpha の Texture は、FaceColor が Texture で、size(AlphaData) が size(CData) と等しい場合にのみ可能です</entry>
+    <entry key="FaceAlphaTextureNotPossible2">FaceAlpha の Texture は、FaceColor が Texture で、size(AlphaData) が size(CData) と等しい場合にのみ可能です</entry>
+    <entry key="RGBCDataNotSupported">RGB の CData は Painter''s モードでまだサポートされていません</entry>
+    <entry key="VertexNormalsDimensionsMustBe3">VertexNormals に対する次元数は 3 でなければなりません </entry>
+    <entry key="BadVertexNormalsSize">size(VertexNormals) は size(ZData)x 3 と等しくなければなりません </entry>
+    <entry key="FaceNormalsDimensionsMustBe2">FaceNormals に対する次元数は 2 でなければなりません </entry>
+    <entry key="BadFaceNormalsSize">size(FaceNormals) は 2(m-1)(n-1) x 3 に等しくなければなりません</entry>
+    <entry key="NotEnoughMemoryForNormals">normal に十分なメモリがありません。レンダリングしません</entry>
+    <entry key="BadArguments">パラメーターと値のペア以外の引数は、数値でなければなりません。</entry>
+    <entry key="CannotBeComplex">X、Y、Z、C に複素数は使用できません。</entry>
+    <entry key="MustBeMatrix">Z はスカラーでもベクトルでもなく、行列でなければなりません。</entry>
+    <entry key="OutOfMemory">メモリが足りません。詳細については、&lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/memory.html'))\"&gt;memory&lt;/a&gt;を参照してください。</entry>
+    <entry key="InvalidDataDimensions">データの次元は一致しなければなりません。</entry>
+    <entry key="IncompatibleProperties">互換性のないプロパティです。</entry>
+    <entry key="FaceColorToAlphaFlatInconsistency">FaceColor が ''flat'' の場合、FaceAlpha は ''flat'' または 0 と 1 の間の数値でなければなりません。</entry>
+    <entry key="FaceColorToAlphaInterpInconsistency">FaceColor が ''interp'' の場合、FaceAlpha は ''interp'' または 0 と 1 の間の数値でなければなりません。</entry>
+    <entry key="FaceColorToAlphaTexturemapInconsistency">FaceColor が ''texturemap'' の場合、FaceAlpha は ''texturemap'' または 0 と 1 の間の数値でなければなりません。</entry>
+    <entry key="VertexNormalsToVerticesInconsistency">使用するライティング モードが Gouraud の場合、VertexNormals と Vertices のサイズは同じでなければなりません</entry>
+    <entry key="InvalidVertexNormals">使用するライティング モードが Gouraud の場合、VertexNormals を空の配列として指定することはできません</entry>
+    <entry key="FaceNormalsToFacesInconsistency">使用するライティング モードが Flat の場合、FaceNormals と Faces のサイズは同じでなければなりません</entry>
+    <entry key="InvalidFaceNormals">使用するライティング モードが Flat の場合、FaceNormals を空の配列として指定することはできません</entry>
+  </message>
+</rsccat>

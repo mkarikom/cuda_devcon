@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PXFileCreationFailed">ファイル {0} に書き込めません。</entry>
+    <entry key="FileTooLarge">{0}PX コード化するにはファイルが大きすぎるか、複雑すぎます。</entry>
+    <entry key="PXFileReadFailed">Unable to read file {0}.</entry>
+    <entry key="ReleaseLocked">ファイル {0} は異なるリリースの MATLAB にロックされています。このファイルを実行するには MATLAB {1} を使用してください。</entry>
+    <entry key="InvalidUseOfBinaryAt"> {0}バイナリ @ の使用は、プロパティ検証ではサポートされていません </entry>
+    <entry key="ParforNotSupportedInScripts">{0}parfor ループは PX コード化されたスクリプト内ではサポートされていません。</entry>
+    <entry key="SPMDNotSupportedInScripts">{0}spmd ステートメントは PX コード化されたスクリプト内ではサポートされていません。</entry>
+    <entry key="InternalError">{0}</entry>
+  </message>
+</rsccat>

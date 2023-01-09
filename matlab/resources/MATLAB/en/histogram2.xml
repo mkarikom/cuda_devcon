@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ArgNameValueMismatch">Trailing input arguments must occur in name-value pairs.</entry>
+    <entry key="BinCountsInvalidSize">'BinCounts'' cannot be set if any of ''NumBins'',''BinWidth'', ''BinMethod'', ''XBinLimits'', or ''YBinLimits'' is set, and it must be a matrix of size [length(XBinEdges)-1 length(YBinEdges)-1].</entry>    
+    <entry key="EmptyBinCountsManualMode">When ''BinCountsMode'' is set to ''manual'', ''BinCounts'' must be set.</entry>
+    <entry key="EmptyXBinLimitsManualMode">When ''XBinLimitsMode'' is set to ''manual'', ''XBinEdges'' or ''XBinLimits'' must be set.</entry>
+    <entry key="EmptyYBinLimitsManualMode">When ''YBinLimitsMode'' is set to ''manual'', ''YBinEdges'' or ''YBinLimits'' must be set.</entry>
+    <entry key="EmptyOrScalarXBinEdges">XBinEdges must be a vector of length greater than or equal to 2.</entry>
+    <entry key="EmptyOrScalarYBinEdges">YBinEdges must be a vector of length greater than or equal to 2.</entry>
+    <entry key="InvalidTileFaceColor">FaceColor must be ''flat'' when ''DisplayStyle'' is set to ''tile''.</entry>
+    <entry key="InvalidTileFaceLighting">FaceLighting must be ''none'' when ''DisplayStyle'' is set to ''tile''.</entry>
+    <entry key="InvalidBinMethod">BinMethod cannot be set to ''manual''.</entry>
+    <entry key="InvalidColor">{0} input is not a valid color.</entry>
+    <entry key="InvalidMixedXBinInputs">''XBinEdges'' input cannot be followed by any of ''NumBins'',''BinWidth'', ''BinMethod'', or ''XBinLimits''.</entry>
+    <entry key="InvalidMixedYBinInputs">''YBinEdges'' input cannot be followed by any of ''NumBins'',''BinWidth'', ''BinMethod'', or ''YBinLimits''.</entry>
+	<entry key="BinCountsXEdgesMismatch">The length of ''XBinEdges'' must be one longer than the number of rows of ''BinCounts'' when ''BinCountsMode'' is ''manual''.</entry>
+	<entry key="BinCountsYEdgesMismatch">The length of ''YBinEdges'' must be one longer than the number of columns of ''BinCounts'' when ''BinCountsMode'' is ''manual''.</entry>
+    <entry key="MixedDataBinCounts">When X and Y inputs are non-empty, BinCounts cannot be set.</entry>
+    <entry key="MissingYInput">X and Y inputs must be numeric or logical and they must have the same size.</entry>
+    <entry key="NonEmptyBinCountsAutoMode">When ''BinCountsMode'' is set to ''auto'', ''BinCounts'' cannot be set.</entry>
+    <entry key="NonEmptyXBinLimitsAutoMode">When ''XBinLimitsMode'' is set to ''auto'', ''XBinEdges'' or ''XBinLimits'' cannot be set.</entry>
+    <entry key="NonEmptyYBinLimitsAutoMode">When ''YBinLimitsMode'' is set to ''auto'', ''YBinEdges'' or ''YBinLimits'' cannot be set.</entry>
+    <entry key="ReadOnlyPropertyManualBinCounts">{0} cannot be set when BinCountsMode is ''manual''.</entry>
+    <entry key="TransparencyNotSupported">Transparency is not supported with software OpenGL renderer. Consider setting figure renderer to ''painters''.</entry>
+    <entry key="UnsupportedMethodManualBinCounts">{0} is not supported when BinCountsMode is ''manual''.</entry>
+	<entry key="Value" note="For data tips">Value</entry>
+	<entry key="XBinEdges" note="For data tips">X bin edges</entry>
+	<entry key="YBinEdges" note="For data tips">Y bin edges</entry>
+  </message>
+</rsccat>

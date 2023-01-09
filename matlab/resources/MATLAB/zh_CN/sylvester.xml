@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="inputType">输入必须为单精度值或双精度值。</entry>
+    <entry key="inputMustBe2D">输入必须为二维。</entry>
+    <entry key="inputMustBeFull">输入必须为满矩阵。</entry>
+    <entry key="inputMustBeSquare">第一个输入项和第二个项输入必须为方阵。</entry>
+    <entry key="inputMustBeCompatibleSize">各输入项的大小必须兼容。</entry>
+    <entry key="inputWithNaNInf">第一个输入项和第二个输入项不能包含 NaN 或 Inf。</entry>
+    <entry key="inputTypeFlag">输入必须为单精度值、双精度值或 "I" (指定单位矩阵)。</entry>
+    <entry key="inputDouble">输入必须为双精度值。</entry>
+    <entry key="unsupportedIDCombination">仅在 SYLVESTER_TRI(A, B, C, ''I'', ''I'') 和 SYLVESTER_TRI(A, ''I'', C, ''I'', F) 的组合中支持用 'I' 代替矩阵。</entry>
+    <entry key="inputOption">选项必须为 "transp" 或 "notransp"。</entry>
+  </message>
+</rsccat>

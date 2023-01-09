@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">입력 인수가 부족합니다.  BVPXTEND룰 참조하십시오.</entry>
+    <entry key="XnewInsideInterval">XNEW는 이전 적분 구간 내에 있습니다.</entry>
+    <entry key="UnexpectedExtrapolationMethod">적합하지 않은 외삽 방법이 지정됨: {0}.</entry>
+    <entry key="YnewIncorrectType">YNEW는 숫자형 벡터, string형 또는 문자형 벡터여야 합니다.</entry>
+    <entry key="UnrecognizedSolverInSol">솔버에서 생성한 솔루션을 확장할 수 없음: {0}.</entry>
+    <entry key="NoSolverInSol">솔루션 구조체에 솔버 정보가 없습니다. 외삽법 플래그를 사용할 수 없음: ''{0}''.</entry>
+  </message>
+</rsccat>

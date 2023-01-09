@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidAxes">当指定了 2 个输入参数时，第一个参数必须为坐标区。</entry>
+    <entry key="InvalidObject">图形对象无效或已删除。</entry>
+    <entry key="MixedAxesVector">当第一个输入参数是坐标区向量时，这些坐标区的类型必须都相同。</entry>
+    <entry key="PolarAxes">极坐标区不支持 {0}。</entry>
+    <entry key="PolarAxesAlternative">极坐标区不支持 {0}。请改用 &lt;a href="matlab:doc {1}"&gt;{1}&lt;/a&gt;。</entry>
+    <entry key="CartesianAxes">笛卡尔坐标区不支持 {0}。请改用 &lt;a href="matlab:doc {1}"&gt;{1}&lt;/a&gt;。</entry>
+    <entry key="ColorBar">颜色栏不支持 {0}。</entry>
+    <entry key="Categorical">分类标尺不支持 {0}。</entry>
+    <entry key="NumberAsString">指定数值时，请将输入参数括在括号中。</entry>
+    <entry key="InvalidNumericLimits">范围必须为包含递增的数值的 2 元素向量。</entry>
+    <entry key="InvalidDatetimeLimits">范围必须为包含递增的日期时间值的 2 元素向量。</entry>
+    <entry key="InvalidDurationLimits">Limits 必须为包含递增的持续时间的 2 元素向量。</entry>
+    <entry key="InvalidCategoricalLimits">Limits 必须为一个 2 元素向量，其中包含按标尺的 Categories 属性排序的递增或相等类别。</entry>
+    <entry key="InvalidLimitsMode">指定范围或 'mode'、'auto'、'manual' 选项之一，或指定 'tight'、'tickaligned' 或 'padded' 限制方法。</entry>
+    <entry key="InvalidLimitsModeOnly">指定范围或 'mode'、'auto'、'manual' 选项之一。</entry>
+    <entry key="InvalidTicks">刻度值无效。要设置刻度标签，请使用 &lt;a href="matlab:doc {0}"&gt;{0}&lt;/a&gt;。</entry>
+    <entry key="InvalidNumericTicks">刻度值必须为包含递增的数值的向量。</entry>
+    <entry key="InvalidDatetimeTicks">刻度值必须为包含递增的日期时间值的向量。</entry>
+    <entry key="InvalidDurationTicks">刻度值必须为包含递增的持续时间的向量。</entry>
+    <entry key="InvalidCategoricalTicks">刻度值必须为一个包含递增的分类值的向量。</entry>
+    <entry key="InvalidTicksMode">指定刻度值或以下选项之一: 'mode'、'auto'、'manual'。</entry>
+    <entry key="InvalidTickLabels">将刻度标签指定为字符向量元胞数组、字符串数组，或者从 'mode'、'auto' 或 'manual' 选项中指定一个。</entry>
+    <entry key="InvalidAngle">旋转值必须是以度为单位的标量角度。</entry>
+    <entry key="InvalidNumericFormat">数值刻度标签格式无效。</entry>
+    <entry key="InvalidDatetimeFormat">日期或时间格式无效。</entry>
+    <entry key="InvalidDurationFormat">持续时间格式无效。</entry>
+  </message>
+</rsccat>

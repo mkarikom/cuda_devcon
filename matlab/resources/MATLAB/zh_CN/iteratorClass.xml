@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="funArgNotHandle">第一个输入必须为函数句柄。</entry>
+    <entry key="functionHandleEmpty">Function handle must be non-empty.</entry>
+    <entry key="errorHandlerEmpty">Error handler must be a non-empty function handle.</entry>
+    <entry key="UnequalDimensions">所有输入参数都必须具有相同的大小和形状。\n以前的输入的维度为 {0}。输入 #{1} 具有 {2}</entry>
+    <entry key="UnequalSize">所有输入参数都必须具有相同的大小和形状。\n以前的输入在维度 {1} 上的大小为 {0}。输入 #{2} 具有大小 {3}</entry>
+    <entry key="SparseNotSupported">不支持稀疏数组。请参阅 SPFUN。</entry>
+    <entry key="MismatchInOutputTypes">输出类型不匹配(在索引 {0} 处，输出 {1} ({2} 与 {3}))。\n请将 'UniformOutput' 设置为 false。</entry>
+    <entry key="NotAScalarOutput">Uniform 输出中存在非标量值(在索引 {0} 处，输出 {1})。\n请将 'UniformOutput' 设置为 false。</entry>
+    <entry key="structFieldNumberMismatch">在索引 {0} 处，输出 {1}，即结构体字段的数目，与以前的字段数目不匹配。请将 'UniformOutput' 设置为 false。</entry>
+    <entry key="structFieldNameMismatch">在索引 {0} 处，输出 {1}，即结构体字段 ''{2}'' 的名称，与以前的名称 ''{3}'' 并不匹配。请将 'UniformOutput' 设置为 false。</entry>
+    <entry key="UnimplementedOutputArrayType">不支持 {0} 输出类型。请将 'UniformOutput' 设置为 false。</entry>
+    <entry key="SubsasgnProblem">无法在索引 {1} 处为 Uniform 输出数组 {0} 赋值。请将 'UniformOutput' 设置为 false。</entry>
+    <entry key="NoOutput">使用 Uniform 输出时，索引 {0} 处应有输出，但是未返回该输出。请将 'UniformOutput' 设置为 false。</entry>
+    <entry key="UnexpectedOutput">使用 Uniform 输出时，在索引 {0} 处返回异常的输出。请将 'UniformOutput' 设置为 false。</entry>
+    <entry key="NotAParameterPair">输入 #{0, number, integer} 应为参数 ''{2}'' 的 {1} 值。</entry>
+    <entry key="InvalidOverloadedSize">重载的 Size 方法必须返回非空的双精度正数组。</entry>
+    <entry key="NotACell">输入 #{0} 应为元胞数组，而不是 {1}。</entry>
+    <entry key="NotACellOrParameter">输入 #{0} 是字符行向量。如果它要作为参数名称，则它必须为 'UniformOutput' 或 'ErrorHandler'。如果它要作为数据输入，则它必须为元胞数组。</entry>
+    <entry key="UnsupportedType">不受支持的 ARRAYFUN 输入类型: {0}</entry>
+    <entry key="SparseInputNotSupported">ARRAYFUN 不支持稀疏输入。</entry>
+    <entry key="NonStruct">STRUCTFUN 的输入必须为标量结构体。</entry>
+    <entry key="NonScalar">STRUCTFUN 的输入必须为标量结构体。</entry>
+    <entry key="UnknownArguments">STRUCTFUN 仅在一个结构体的字段上进行迭代。</entry>
+  </message>
+</rsccat>

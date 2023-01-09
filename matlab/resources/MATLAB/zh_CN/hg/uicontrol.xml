@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ParameterValuesMustBeValid">{0} 控制 {1}\n只有控件的所有参数值都有效时，才会渲染该控件</entry>
+    <entry key="ListboxTopMustBeWithinStringRange">此 uicontrol 的 ListboxTop 值({0,number,integer})必须介于字符向量范围({1,number,integer}:{2,number,integer})内\n只有控件的所有参数值都有效时，才会呈现该控件</entry>
+    <entry key="SingleLineEditCannotHaveMultiLineText">单行编辑控件不能有多行文本</entry>
+    <entry key="BadType">图像 CData 需要数值矩阵</entry>
+    <entry key="ExpectedTruecolor">uicontrol CData 属性必须为真彩色</entry>
+    <entry key="ElementOutOfRange">真彩色 CData 包含超出 0.0 &lt;= 值 &lt;= 1.0 这一范围的元素</entry>
+    <entry key="LineIncrementOutOfRange">滑块步进行增量必须介于 0 与 1 之间(包括二者)</entry>
+    <entry key="PageIncrementOutOfRange">滑块步进页增量必须大于 0</entry>
+    <entry key="ValueMustBeScalar">{0} 控件要求标量值。\n只有控件的所有参数值都有效时，才会呈现该控件</entry>
+    <entry key="ValueMustBeInRange">{0} 控件的 'Value' 值不能超出 'Min'-'Max' 的范围\n只有控件的所有参数值都有效时，才会呈现该控件</entry>
+    <entry key="MinMustBeLessThanMax">{0} 控件要求 'Min' 小于 'Max' \n只有控件的所有参数值都有效时，才会呈现该控件</entry>
+    <entry key="ValueMustBeWithinStringRange">{0} 控件要求 'Value' 为字符向量范围内的整数\n只有控件的所有参数值都有效时，才会呈现该控件</entry>
+    <entry key="StringMustBeNonEmpty">{0} 控件要求非空字符向量\n只有控件的所有参数值都有效时，才会呈现该控件</entry>
+  </message>
+</rsccat>

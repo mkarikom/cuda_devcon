@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ArgNameValueMismatch">Trailing input arguments must occur in name-value pairs.</entry>
+    <entry key="EmptyOrScalarBinEdges">Bin edges must be a vector of length greater than or equal to 2.</entry>
+    <entry key="InvalidBinLimits">Bin limits must be a finite and sorted datetime vector with 2 elements.</entry>
+    <entry key="InvalidBinWidth">Bin width must be a scalar duration or calendarDuration, and must be positive and finite.</entry>
+    <entry key="InvalidEdges">Bin edges must be a datetime vector with at least two elements.</entry>
+    <entry key="InvalidMixedBinInputs">''BinEdges'' input cannot be followed by any of ''NumBins'',''BinWidth'', ''BinMethod'', or ''BinLimits''.</entry>
+    <entry key="NonDatetimeEdges">EDGES must be a datetime array.</entry>
+    <entry key="NonDatetimeInput">X must be a datetime array.</entry>
+    <entry key="UnsortedEdges">Bin edges must be a sorted datetime vector that does not contain NaTs.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- Errors -->
+    <entry key="BadCondition">Input matrix is badly conditioned. It may contain Inf or NaN.</entry>
+    <entry key="BothU0andV0">Specify either u0 field or v0 field in the options structure, but not both.</entry>
+    <entry key="FhandleNoLargest">Function handles only supported for mode ''largest''.</entry>
+    <entry key="InvalidA">First input must be either a double matrix or a function handle.</entry>
+    <entry key="InvalidFhandleOutput">Unexpected output of function handle with flag ''{0}''. The expected output is a column vector of length {1} and of type double.</entry>
+    <entry key="InvalidK">The number of singular values to compute must be a positive integer.</entry>
+    <entry key="InvalidMaxit">maxit field in the options structure must be a positive integer.</entry>
+    <entry key="InvalidMN">When using function handles, the second input must be a 1-by-2 vector of integers representing the matrix size.</entry>
+    <entry key="InvalidP">p field in the options structure must be a nonnegative integer.</entry>
+    <entry key="InvalidSigma">Scalar shift SIGMA can be ''largest'', ''smallest'', smallestnz'', or a finite real double.</entry>
+    <entry key="InvalidTol">tol field in the options structure must be a nonnegative real number.</entry>
+    <entry key="InvalidStartingVector">Invalid starting vector. </entry>
+    <entry key="InvalidU0">u0 field in the options structure must be a column vector with length equal to the number of rows in the input matrix.</entry>
+    <entry key="InvalidV0">v0 field in the options structure must be a column vector with length equal to the number of columns in the input matrix.</entry>
+    <entry key="InvalidDisp">disp field in the options structure must be 0 or 1.</entry>
+
+    <entry key="PlessK">p field in the options structure must be greater than or equal to K + 2, where K is the number of singular values.</entry>
+    <entry key="ParseFlags">Parameter name must be ''Tolerance'', ''MaxIterations'', ''SubspaceDimension'', ''LeftStartVector'', ''RightStartVector'', ''Display'', or ''FailureTreatment''.</entry>
+    <entry key="KeyWithoutValue">Incorrect number of input arguments. Each parameter name must be followed by a corresponding value.</entry>
+    <entry key="BothU0andV0NameValue">Specify either ''LeftStartVector'' parameter or ''RightStartVector'' parameter, but not both.</entry>
+    <entry key="InvalidMaxitNameValue">''MaxIterations'' value must be a positive integer.</entry>
+    <entry key="InvalidPNameValue">''SubspaceDimension'' value must be a nonnegative integer.</entry>
+    <entry key="InvalidTolNameValue">''Tolerance'' value must be a nonnegative real number.</entry>
+    <entry key="InvalidU0NameValue">''LeftStartVector'' value must be a numeric vector with length equal to the number of rows in the input matrix.</entry>
+    <entry key="InvalidV0NameValue">''RightStartVector'' value must be a numeric vector with length equal to the number of columns in the input matrix.</entry>
+    <entry key="InvalidDispNameValue">''Display'' value must be 0 or 1.</entry>
+    <entry key="PlessKNameValue">''SubspaceDimension'' value must be greater than or equal to K + 2, where K is the number of singular values.</entry>
+    <entry key="InvalidFailureTreatment">fail field in the options structure must be ''replacenan'', ''keep'', or ''drop''.</entry>
+    <entry key="InvalidFailureTreatmentNameValue">''FailureTreatment'' value must be ''replacenan'', ''keep'', or ''drop''.</entry>
+    <entry key="NoFailNumSigma">For numeric scalar shift, value of fail field in the options structure must be ''drop''.</entry>
+    <entry key="NoFailNumSigmaNameValue">For numeric scalar shift, ''FailureTreatment'' value must be ''drop''.</entry>
+    
+    <!-- Warnings -->
+    <entry key="PartialConvergence">Only {0,number,integer} of the {1,number,integer} requested singular values converged. Singular values that did not converge are NaN.</entry>
+    <entry key="PartialConvKeep">Only {0,number,integer} of the {1,number,integer} requested singular values converged. Specify convergence flag output to determine the values that did not converge.</entry>
+    <entry key="PartialConvDrop">Only {0,number,integer} of the {1,number,integer} requested singular values converged. Singular values that did not converge are removed.</entry>
+    <entry key="SigmaZero">Results might be inaccurate. To compute the singular values closest to 0, use option ''smallest'' instead.</entry>
+    <entry key="BadResidual">Large residual norm detected. This is likely due to bad condition of the input matrix (condition number {0}).</entry>
+    <entry key="MultNotCorrectLargest">Returned singular values might not be the largest. Increase ''MaxIterations'' value.</entry>
+    <entry key="MultNotCorrectSmallest">Returned singular values might not be the smallest. Increase ''MaxIterations'' value.</entry>
+    <entry key="SigmaTooSmall">Only {0} singular values found. Try increasing the scalar shift SIGMA.</entry>
+    
+    <!-- Inherited errID from old SVDS: only reachable from matlab.internal.math.svdsUsingEigs -->
+    <entry key="InvalidArg3" note="stringDatatypeUpdate">Third argument must be a real scalar or the character ''L''.</entry>
+    <entry key="Arg4NotOptionsStruct">Options must be a structure.</entry>
+    
+    <!-- Diagnostic messages displayed when 'Display' is used -->
+    <entry key="Title">Singular value decomposition A*v = sigma*u, A'*u = sigma*v</entry>
+
+    <entry key="KandSigmaLargest">Computing {0} largest singular values of {1}-by-{2} matrix A.</entry>
+    <entry key="KandSigmaSmallest">Computing {0} smallest singular values of {1}-by-{2} matrix A.</entry>
+    <entry key="KandSigmaSmallestNz">Computing {0} smallest non-zero singular values of {1}-by-{2} matrix A.</entry>
+    <entry key="KandSigmaNum">Computing {0} singular values closest to {3} of {1}-by-{2} matrix A.</entry>
+    
+    <entry key="ListParam">Parameters:\n  Maximum number of iterations: {0}\n  Tolerance: {1}\n  Subspace Dimension: {2}</entry>
+
+    <entry key="SVDFallbackLargest">Compute SVDS by calling SVD, because the subspace dimension is equal to the minimum matrix size.</entry>
+    <entry key="SVDFallbackSmallest">Compute SVDS by calling SVD, because the subspace dimension is larger than or equal to the size of matrix R.</entry>
+
+    <entry key="EquationLargest">Find largest singular values for A*v = sigma*u, A'*u = sigma * v.</entry>
+    <entry key="EquationSmallest">Find largest singular values for R\\v = sigma*u, R'\\u = sigma * v, with A = Q*R*P.\nCompute QR decomposition of A...</entry>
+    <entry key="EquationSmallestTransp">Find largest singular values for R\\v = sigma*u, R'\\u = sigma * v, with A' = Q*R*P.\nCompute QR decomposition of A'...</entry>
+    <entry key="EquationNumeric">Find eigenvalues closest to {0} of matrix [0 A; A' 0]*x = lambda*x. Call EIGS to compute eigenvalues...</entry>
+
+    <!-- 'Display' for 'smallest' case: pre- and post-processing -->
+    <entry key="RankSmallestAllZero">Matrix A has rank {0}, therefore all {1} requested singular values are zero.</entry>
+    <entry key="RankSmallestSomeZero">Matrix A has rank {0}, therefore {1} of the {2} requested singular values are zero.</entry>
+    <entry key="RankSmallestNzTooFew">Matrix A has rank {0}, therefore only {1} instead of the requested {2} non-zero singular values can be returned.</entry>
+    <entry key="ResidualCheck">Bad condition suspected. Check residuals using A instead of matrix R from QR decomposition. Maximum relative residual: {0}</entry>
+    
+    <!-- 'Display' for Lanczos bidiagonalization method -->
+    <entry key="StartLanczosBD">Start of Lanczos bidiagonalization method</entry>
+    <entry key="LanczosBDIter">Iteration {0}: {1} of {2} singular values converged. Smallest non-converged residual {3} (tolerance {4}).</entry>
+    <entry key="LanczosBDLastIter">Iteration {0}: {1} of {2} singular values converged.</entry>
+    <entry key="CheckMult">To check if singular value multiplicities were missed, restart the method, looking for k+1 singular values.</entry>
+    <entry key="MultCheckSuccess">No additional multiple singular values found. Successful return.</entry>
+    <entry key="MultCheckRepeat">Some additional multiple singular values were found. Restart again to check for more.</entry>
+
+    <!-- 'Display' for numeric sigma post-processing -->
+    <entry key="SingValsFromEigVals">Found {0} candidates for singular values: {1} are positive and {2} are approximately zero.</entry>
+    <entry key="ResidualDecisionAccept">Check residuals of singular value candidates: All accepted.</entry>
+    <entry key="ResidualDecision">Check residuals of singular value candidates: {0} not accurate enough (greater than or equal to {1}).</entry>
+
+    </message>
+</rsccat>

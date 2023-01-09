@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ClassConstructorNotFound">找不到用于 MATLAB 类 {0} 的构造函数。</entry>
+    <entry key="InvalidArrayType">该数组未被识别为标量、向量或更高维数组。</entry>
+    <entry key="CannotDetermineReadType">无法读取 {0}。输入必须为路径中的有效包名称、类名称或函数名称的列表。</entry>
+    <entry key="FileWriteError">无法将生成的 CPP 代码写入指定文件: {0}。</entry>
+    <entry key="RegularMethodHasNoInputArgs">方法 {0} 没有输入参数。非静态 MATLAB 方法需要至少一个输入参数。</entry>
+    <entry key="MethodNoInputArgMetaData">在方法 {0} 中找不到输入参数的元数据。请验证该方法具有有效的参数块。</entry>
+    <entry key="MethodVararginNotSupported">不支持方法 {0} 中有可变数量的输入参数。</entry>
+    <entry key="MethodHasPartialMetaData">方法 {0} 的参数包含缺失元数据。请验证该方法具有有效的参数块。</entry>
+    <entry key="MethodArgHasNoType">方法 "{1}" 的位置 {0} 处的输入参数没有指定 MATLAB 类型。请考虑在方法定义中添加类型验证数据。</entry>
+    <entry key="MethodArgHasNoSize">方法 "{1}" 的位置 {0} 处的输入参数没有指定大小/维度。请考虑在方法定义中添加大小验证数据。</entry>
+    <entry key="FunctionNoInputArgMetaData">在函数 {0} 中找不到输入参数的元数据。请验证该函数具有有效的参数块。</entry>
+    <entry key="FunctionVararginNotSupported">不支持函数 {0} 中有可变数量的输入参数。</entry>
+    <entry key="FunctionHasPartialMetaData">函数 {0} 的参数缺少元数据。请验证该函数具有有效的参数块。</entry>
+    <entry key="FunctionArgHasNoType">函数 "{1}" 的位置 {0} 处的输入参数未指定 MATLAB 类型。请考虑在函数定义中添加类型验证数据。</entry>
+    <entry key="FunctionArgHasNoSize">函数 "{1}" 的位置 {0} 处的输入参数未指定大小/维度。请考虑在函数定义中添加大小验证数据。</entry>
+    <entry key="InternalLogicError">CPP 代码生成器遇到内部逻辑错误。请向 MathWorks 技术支持部门报告此错误。</entry>
+    <entry key="PropertyHasNoMetaData">未检测到类 "{1}" 中属性 "{0}" 的元数据。请验证此类的属性块是否有效。</entry>
+    <entry key="PropertyHasNoValidationData">未检测到类 "{1}" 中属性 "{0}" 的大小或类元数据。请考虑在其定义中为此属性添加验证数据。</entry>
+    <entry key="PropertyHasNoSizeValidationData">未检测到类 "{1}" 中属性 "{0}" 的大小元数据。请考虑在其定义中为此属性添加大小验证数据。</entry>
+    <entry key="PropertyHasNoClassValidationData">未检测到类 "{1}" 中属性 "{0}" 的类/类型元数据。请考虑在其定义中为此属性添加类/类型验证数据。</entry>
+    <entry key="ArgumentHasInvalidDimensions">"{0}" 中的参数具无效维度。请验证 "{0}" 的参数块是否有效。</entry>
+    <entry key="EnumsNotSupported">不支持枚举转换。</entry>
+    <entry key="GeneratorHasUnresolvedClassDependencies">检测到未解析的类依存关系。需生成或提供以下类，否则生成的代码可能无法编译: {0}</entry>
+    <entry key="ClassCouldNotFindFriend">类 {0} 需要在 CPP 生成时访问 {1} 的受保护成员，但找不到类 {1}。需生成或提供类 {1}，否则生成的代码可能无法编译。</entry>
+    <entry key="MethodNameConflictWithPropertyAccessors">将不会生成 MATLAB {0} 类的以下方法: {1}。方法名称与属性访问方法冲突。</entry>
+    <entry key="ClassNameConflictWithPropertyAccessors">将不会生成 {0} 类的以下属性访问方法: {1}。属性访问方法名称与类名称冲突。</entry>
+    <entry key="NameConflictWithCPPKeyword">由于与 C++ 关键字名称冲突，将不会生成 MATLAB 标记。请重命名以下标记，以防止在生成的 C++ 代码中出现可能的编译或运行时错误: {0}。</entry>
+    <entry key="MethodArgNameConflictWithCPPKeyword">为了避免 C++ 关键字冲突，将在生成的 C++ 代码中修改这些 MATLAB 方法参数名称: {0}。</entry>
+    <entry key="FunctionArgNameConflictWithCPPKeyword">为了避免 C++ 关键字冲突，将在生成的 C++ 代码中修改以下 MATLAB 函数参数名称: {0}。</entry>
+    <entry key="BuiltinMethodNotSupported">不支持内置方法 {0}。</entry>
+    <entry key="BuiltinFunctionNotSupported">不支持内置函数 {0}。</entry>
+    <entry key="NoInputList">必须以名称-值对组格式提供至少一个包、类或函数的输入列表。</entry>
+    <entry key="InvalidListType">输入列表是无效类型。列表必须为字符串数组。</entry>
+    <entry key="InvalidInputPackageNames">无效的输入包名称: {0}。名称必须为 MATLAB 搜索路径中的有效包。</entry>
+    <entry key="InvalidInputClassNames">无效的输入类名称: {0}。名称必须为 MATLAB 搜索路径中的有效类。</entry>
+    <entry key="InvalidInputFunctionNames">无效的输入函数名称: {0}。名称必须为 MATLAB 搜索路径中的有效函数。</entry>
+    <entry key="MethodDefinitionNotFound">找不到包含方法 {0} 定义的文件。</entry>
+    <entry key="FunctionDefinitionNotFound">找不到包含函数 {0} 定义的文件。</entry>
+    <entry key="CannotGetNumArguments">{0} 的输入参数未确定。函数或方法必须与 nargin 兼容。</entry>
+  </message>
+</rsccat>

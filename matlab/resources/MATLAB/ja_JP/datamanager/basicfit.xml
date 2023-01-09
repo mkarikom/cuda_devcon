@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DropDownLabel">データ</entry>
+    <entry key="NormalizeXData">x 軸データのセンタリングとスケーリング</entry>
+    <entry key="HelpLabel">ヘルプ</entry>
+    <entry key="Equation">式</entry>
+    <entry key="Coefficients">係数</entry>
+    <entry key="FitTypes">近似タイプ</entry>
+    <entry key="Results">近似の結果</entry>
+    <entry key="Residuals">誤差推定 (残差)</entry>
+    <entry key="Evaluate">データの内挿/外挿</entry>
+    <entry key="XData">X</entry>
+    <entry key="NormalizeXTooltip">計算されるパラメーターの精度を改善する</entry>
+    <entry key="Digits">有効桁数</entry>
+    <entry key="ExportResultsToWorkspace">結果をワークスペースにエクスポート...</entry>
+    <entry key="ExportEvaluationToWorkspace">評価をワークスペースにエクスポート...</entry>
+    <entry key="FigureName">基本的な近似</entry>
+    <entry key="LinearFit">線形</entry>
+    <entry key="QuadraticFit">2 次</entry>
+    <entry key="CubicFit">3 次</entry>
+    <entry key="SplineFit">スプライン内挿</entry>
+    <entry key="ShapeFit">形状維持内挿</entry>
+    <entry key="Degree4Fit">4 次多項式</entry>
+    <entry key="Degree5Fit">5 次多項式</entry>
+    <entry key="Degree6Fit">6 次多項式</entry>
+    <entry key="Degree7Fit">7 次多項式</entry>
+    <entry key="Degree8Fit">8 次多項式</entry>
+    <entry key="Degree9Fit">9 次多項式</entry>
+    <entry key="Degree10Fit">10 次多項式</entry>
+    <entry key="PlotStyleLabel">プロット スタイル</entry>
+    <entry key="PlotLocationLabel">プロット位置</entry>
+    <entry key="NewDataFieldTooltip">x には 1:2:10 や [10,15] などの値、または有効な MATLAB 式を入力する</entry>
+    <entry key="PlotDataCheckboxLabel">評価データのプロット</entry>
+    <entry key="PlotDataCheckboxTooltip">内挿/外挿されたデータ点のプロット</entry>
+    <entry key="ShowEquationTooltip">チャートに式を表示</entry>
+    <entry key="ShowR2Tooltip">チャートに決定係数を表示</entry>
+    <entry key="ExportToWorkspace">ワークスペースにエクスポート...</entry>
+    <entry key="FitResults">近似の結果</entry>
+    <entry key="ProgressLabel">お待ちください - 初期化中</entry>
+    <entry key="LoadLabel">読み込み中</entry>
+    <entry key="FinishLabel">終了中</entry>
+    <entry key="InitialLabel">はじめて開いています</entry>
+    <entry key="NoResultsFound">表示する結果がありません</entry>
+    <entry key="cubictab">3 次</entry>
+    <entry key="lineartab">線形</entry>
+    <entry key="quadratictab">2 次</entry>
+    <entry key="ntab">{0} 次</entry>
+    <entry key="shapetab">形状維持</entry>
+    <entry key="splinetab">Spline</entry>
+    <entry key="noneVal">なし</entry>
+    <entry key="barVal">バー</entry>
+    <entry key="scatterVal">散布</entry>
+    <entry key="lineVal">ライン</entry>
+    <entry key="subplotVal">サブプロット</entry>
+    <entry key="newFigureVal">新規 Figure</entry>
+    <entry key="expandResults">結果を展開...</entry>
+    <entry key="NormOfResidualsLabel">残差ノルム</entry>
+    <entry key="NormOfResidualsTooltip">残差ノルムの表示</entry>
+  </message>
+</rsccat>

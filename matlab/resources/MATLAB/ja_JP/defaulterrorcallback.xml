@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ErrorUpdating">{0} の更新中にエラーが発生しました。</entry>
+    <entry key="ErrorInProperty">{0} の作成中または更新中のエラー \n プロパティ {1} の値のエラー \n {2}</entry>
+    <entry key="ErrorInMultipleProperties">{0} の作成中または更新中のエラー \n 次のプロパティの 1 つまたは複数の値のエラー: {1} \n {2}</entry>
+  </message>
+</rsccat>

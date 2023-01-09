@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Nargin">少なくとも 2 つの入力引数が必要です。</entry>
+    <entry key="InputClass">ファイル名は文字ベクトルまたは string スカラーでなければなりません。</entry>
+    <entry key="CellArrayMismatch">入力のセル配列は、行列に変換できません。</entry>
+    <entry key="FileOpenFailure">ファイル {0} を開けません。</entry>
+    <entry key="AttributeList">属性 {0} は一致する値が必要です。</entry>
+    <entry key="Attribute">無効な属性タグ: {0}。</entry>
+    <entry key="newline">新規の行は ''pc'' または ''unix'' のいずれかでなければなりません。</entry>
+    <entry key="delimiter">{0} は有効な属性または区切り文字ではありません。区切り文字は単一の文字でなければなりません。</entry>
+    <entry key="rowOffset">{0} は有効な属性または行のオフセットではありません。</entry>
+    <entry key="columnOffset">{0} は有効な属性または列のオフセットではありません。</entry>
+  </message>
+</rsccat>

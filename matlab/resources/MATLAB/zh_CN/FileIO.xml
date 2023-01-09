@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ValueTruncated">在从双精度值转换为字符的过程中超出范围或非整数值被截断</entry>
+    <entry key="InvalidIntPrecision">请使用 bit* 代替 int*</entry>
+    <entry key="InvalidUIntPrecision">请使用 ubit* 代替 uint*</entry>
+    <entry key="InvalidDOSName">您为文件名选择了保留的 DOS 设备名称。\n请选择其他的有效文件名。</entry>
+    <entry key="InvalidFid">文件标识符无效。使用 fopen 生成有效的文件标识符。</entry>
+    <entry key="sizeMustBeNumeric">大小必须为实数。</entry>
+    <entry key="NoHelp">抱歉! 没有帮助指出问题的信息。 . .</entry>
+    <entry key="CannotOpenFile">无法打开文件。是否存在? 是否有权限? 是否有足够内存? . . .</entry>
+    <entry key="IsOpenRead">要读取的文件是否已打开? . . .</entry>
+    <entry key="EndOfFile">在文件结尾。</entry>
+    <entry key="IsOpenWrite">要写入的文件是否已打开? . . .</entry>
+    <entry key="NoSpace">设备上没有剩余空间。</entry>
+    <entry key="FlushError">刷新时出错。</entry>
+    <entry key="InvalidFormat">格式无效。</entry>
+    <entry key="MatchingFailure">格式匹配失败。</entry>
+    <entry key="SizeTooBig">格式大小太大 - 无法分配内存。</entry>
+    <entry key="NoMemory">没有可用于打印数值的足够内存。</entry>
+    <entry key="NoMemoryForString">没有可用于打印字符向量的足够内存。</entry>
+    <entry key="NotEnoughArgs">格式的参数数目不足。</entry>
+    <entry key="UnsupportedDirective">指令格式不受支持。</entry>
+    <entry key="BadWidthNaN">宽度错误 - NaN。</entry>
+    <entry key="BadWidthNegInf">宽度错误 - Inf。</entry>
+    <entry key="BadWidthInf">宽度错误 - Inf。</entry>
+    <entry key="BadWidthInt">宽度错误 - 超出整数范围。</entry>
+    <entry key="BadWidthEmptyArg">宽度错误 - 参数为空。</entry>
+    <entry key="BadPrecisionNaN">精度错误 - NaN。</entry>
+    <entry key="BadPrecisionNegInf">精度错误 - Inf。</entry>
+    <entry key="BadPrecisionInf">精度错误 - Inf。</entry>
+    <entry key="BadPrecisionInt">精度错误 - 超出整数范围。</entry>
+    <entry key="BadPrecisionEmptyArg">精度错误 - 参数为空。</entry>
+    <entry key="BadOffsetNaN">偏移量错误 - NaN。</entry>
+    <entry key="BadOffsetBeforeBegin">偏移量错误 - 文件开始之前。</entry>
+    <entry key="BadOffsetAfterEnd">偏移量错误 - 写入文件结尾或最后一个字符之后。</entry>
+    <entry key="BadOffsetInt">偏移量不为整数。</entry>
+    <entry key="EmptyArg">参数为空。</entry>
+    <entry key="UngetcFailed">Ungetc 失败。</entry>
+    <entry key="WriteCarryByteFailed">写入承载字节失败。</entry>
+    <entry key="RequireBinaryFile">操作需要二进制文件。</entry>
+    <entry key="FseekFailed">Fseek 相对于当前位置偏移 0 失败。</entry>
+    <entry key="ReadFailed">更新时读取失败。</entry>
+    <entry key="FseekFailedNegOne">Fseek 相对于当前位置偏移 -1 失败。</entry>
+    <entry key="FseekFailedSkip">Fseek 在写入时跳过失败。</entry>
+    <entry key="InternalError">内部错误 - 请将此问题报告给 MATHWORKS!</entry>
+    <entry key="InvalidChar">转换 Unicode 期间遇到无效字符。</entry>
+    <entry key="TruncatedChar">转换 Unicode 期间遇到截断的字符。</entry>
+    <entry key="IllegalChar">转换 Unicode 期间遇到非法的字符。</entry>
+    <entry key="InvalidTableFormat">转换 Unicode 期间遇到无效的表格式。</entry>
+    <entry key="BufferOverflow">转换 Unicode 期间遇到缓冲区溢出。</entry>
+    <entry key="UnknownError">转换 Unicode 期间遇到未知错误。</entry>
+    <entry key="NonScalarNumbered">指定的编号参数不能与非标量参数一起使用。</entry>
+    <entry key="NumberedMoreThanArgc">指定的编号参数大于参数数目。</entry>
+    <entry key="HDFSReadWriteNotSupported">Hadoop 不支持以 ''r+''、''w+'' 或 ''a+'' 模式打开文件。</entry>
+    <entry key="InvalidRemoteLocation">找不到远程文件。确保文件存在且路径有效。</entry>
+    <entry key="HadoopNotInitialized">找不到 Hadoop。请将 HADOOP_PREFIX、HADOOP_HOME 或 MATLAB_HADOOP_INSTALL 环境变量设置为有效的 Hadoop 安装文件夹，然后重试。</entry>
+    <entry key="InvalidURLScheme">文件名包含无效的 URL 模式。</entry>
+    <entry key="UnableToSeek">无法使用提供的偏移量从提供的原点进行查找。</entry>
+    <entry key="DeletedAfterOpening">无法读取或写入文件。可能的原因包括在文件打开后将其删除。</entry>
+    <entry key="Errno">{0}</entry>
+  </message>
+</rsccat>

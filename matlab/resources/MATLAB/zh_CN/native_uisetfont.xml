@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TitleMustBeLastParam">标题必须是传递给 uisetfont 的最后一个参数</entry>
+    <entry key="FontSelectionNotSupported">{0} 对象不支持字体选择，只有坐标区、文本和 uicontrol 支持字体选择</entry>
+    <entry key="InternalErrorInNMGetFont">nmGetFont 中出现内部错误(应为断言):\n对象类型现在是错误的(在通过前一个测试后)</entry>
+    <entry key="BadArguments">第二个参数(对话框标题)必须为字符向量</entry>
+  </message>
+</rsccat>

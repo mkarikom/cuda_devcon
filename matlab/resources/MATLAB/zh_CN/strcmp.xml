@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RowsElementsMismatch">字符矩阵的行数必须与另一个数组中的元素数相匹配。</entry>
+    <entry key="InputsSizeMismatch">输入必须具有相同的大小，或者任意一个输入可以为标量。</entry>
+    <entry key="SizeMustBeInt">要匹配的字符数必须为整数。</entry>
+  </message>
+</rsccat>

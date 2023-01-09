@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonDoubleInput">関数 tsrchnmx は double の配列のみを受け入れます。</entry>
+    <entry key="InvalidDimensions">X と XI は同じ次元でなければなりません。</entry>
+    <entry key="InvalidTessellation">三角形分割 TRI は X より 1 つ高い次元でなければなりません。</entry>
+    <entry key="InvalidInputArguments">点-三角行列はスパースでなければなりません。</entry>
+    <entry key="DidNotConverge">1 つまたは複数の点が収束しませんでした。</entry>
+  </message>
+</rsccat>

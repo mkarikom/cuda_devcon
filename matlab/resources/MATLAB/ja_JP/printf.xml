@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="OctalCharCodeOutOfRange">指定した 8 進数値は、文字セットの範囲外です。</entry>
+    <entry key="OctalCharCodeInvalid">有効な 8 進数値は 0 ～ 7 です。</entry>
+    <entry key="HexCharCodeOutOfRange">指定した 16 進数値は、文字セットの範囲外です。</entry>
+    <entry key="HexCharCodeInvalid">有効な 16 進数値は 0 ～ 9 と A ～ F です。</entry>
+    <entry key="BadEscapeSequenceInFormat">エスケープ文字 ''\\{0}'' は有効ではありません。サポートされる特殊文字については、''doc sprintf'' を参照してください。</entry>
+    <entry key="NoControlCharacterInFormat">バックスラッシュ ''\\'' が単独で末尾にある場合、有効な制御文字にはなりません。書式文字列で有効な制御文字については 'doc sprintf' を参照してください。</entry>
+    <entry key="invalidInputType">関数は ''{0}'' の入力に対して定義されません。</entry>
+    <entry key="invalidInputAttribute">関数はスパースの入力に対して定義されません。</entry>
+    <entry key="invalidSizeResult">少なくとも 2 つの要素をもつ double ベクトルを返すために {0} で必要なサイズです。</entry>
+    <entry key="UnableToConvertToOneElement">''{0}'' 要素を厳密に ''{1}'' 型の 1 つの要素に変換できません。</entry>
+    <entry key="OutOfSpace">ファイル ''{0}'' に書き込めません。デバイスに容量が残っていません。</entry>
+  </message>
+</rsccat>

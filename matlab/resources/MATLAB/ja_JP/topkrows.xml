@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MustBeMatrix">入力配列はベクトルまたは行列でなければなりません。</entry>
+    <entry key="complexIntegers">複素数の整数はサポートされません。 </entry>
+    <entry key="MustNotBeCell">cell 配列は文字ベクトルを含まなければなりません。</entry>
+    <entry key="InvalidK">返す行数は非負の整数でなければなりません。</entry>
+    <entry key="ColNotIndexVec">列並べ替えベクトルは、1 から最初の引数の列数までに正の整数を含まなければなりません。</entry>
+    <entry key="SortRowsMode">並べ替えの方向は ''descend'' または ''ascend'' でなければなりません。</entry>
+    <entry key="NumDirectionsThird">並べ替えの方向は、1 つの方向か、最初の引数の列ごとに 1 つの方向を指定しなければなりません。</entry>
+    <entry key="NumDirectionsFourth">並べ替えの方向は、1 つの方向か、列並べ替えベクトルの要素ごとに 1 つの方向を指定しなければなりません。</entry>
+    <entry key="ThirdArgumentType">3 番目の引数は、列の並べ替えベクトルまたは並べ替えの方向を指定しなければなりません。</entry>
+    <entry key="FourthArgumentType">並べ替えの方向は、文字ベクトルまたは文字ベクトルのセル配列でなければなりません。</entry>
+    <entry key="InvalidAbsRealType">''ComparisonMethod'' パラメーターは、入力配列が数値または論理値である場合にのみサポートされます。</entry>
+    <entry key="InvalidComparison">''ComparisonMethod'' の値は、''auto''、''abs'' または ''real'' でなければなりません。</entry>
+    <entry key="NameValueNames">パラメーター名は 'ComparisonMethod' でなければなりません。</entry>
+    <entry key="NameValuePairs">入力引数の数が正しくありません。パラメーターの名前と値はペアでなければなりません。</entry>
+    <entry key="InvalidX">データ型が無効です。最初の引数は、数値配列、logical 配列、categorical 配列、文字配列または文字 cell 配列でなければなりません。</entry>
+    <entry key="CellsNotSupported">コード生成では、'topkrows' への cell 配列入力がサポートされていません。</entry>
+  </message>
+</rsccat>

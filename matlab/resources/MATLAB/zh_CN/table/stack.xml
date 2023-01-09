@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CantStackTabularVariable">Stacking table or timetable variables is not supported. Use SPLITVARS to split ''{0}'' into multiple variables.</entry>
+    <entry key="ConflictingConstAndDataVars">要堆叠的一系列变量不能包含同时指定为常量的任何变量。</entry>
+    <entry key="ConflictingIndVarName">索引变量名称 ''{0}'' 与结果中的其他变量名称冲突。</entry>
+    <entry key="ConflictingNewDataVarName">数据变量名称 ''{0}'' 与结果中的其他变量名称冲突。</entry>
+    <entry key="ConflictingNewDataVarNames">The new data variable names conflict with other variable names in the result.</entry>
+    <entry key="InterleavingDataVarsFailed">将数据变量 ''{0}'' 入栈时出错。</entry>
+    <entry key="UnequalSizeDataVarsSets">All groups of variables to stack must be the same size.</entry>
+    <entry key="CantStackRowLabels">不支持堆叠表行名称。创建一个将这些行名称作为一个变量包含在内的表。</entry>
+    <entry key="UndefOrMissingString">变量名称 '&lt;undefined&gt;' 或 '&lt;missing&gt;' 不能为堆叠表中的指示符值，因为它们不允许作为分类值，以免与 &lt;undefined&gt; 分类数据混淆。请先修改变量名称，然后再调用 stack。</entry>
+    <entry key="ScalarIndexName">索引变量名称必须为非空字符向量或标量字符串。</entry>
+    <entry key="NewDataVarNameLengthMismatch">请使用 NEWDATAVARIABLENAME 名称-值对组为 {0} 个堆叠数据变量指定 {0} 个变量名称。</entry>
+    <entry key="NewDataVarNamesEmptyDataVars">当没有要堆叠的变量时，新数据变量名称应为空。</entry>
+    <entry key="IndexVarNameEmptyDataVars">当没有要堆叠的变量时，指示变量名称应为空。</entry>
+    <entry key="NonConstantDataVars">The input argument that specifies the set of variables to stack must be constant.</entry>
+    <entry key="NonConstantArg">''ConstantVariables''、''NewDataVariableNames'' 和 ''IndexVariableName'' 参数必须为常量。</entry>
+  </message>
+</rsccat>

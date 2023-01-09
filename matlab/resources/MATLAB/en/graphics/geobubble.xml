@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- Copyright 2016-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+      <entry key="DataLengthMismatch">{0} must contain the same number of elements as {1}.</entry>
+      
+      <!-- In the following messages, {0} is the name of a property, such as LatitudeData or ColorData.
+         For example: Setting ''ColorData'' property after setting ''SourceTable'' property is not supported. -->
+      <entry key="InvalidSourceTable">''SourceTable'' value must be a table.</entry>
+      <entry key="MatrixWorkflow" note="{0} is a property name, such as SourceTable">Setting the ''{0}'' property after setting the ''LatitudeData'' property is not supported.</entry>
+      <entry key="TableWorkflow" note="{0} is a property name, such as LatitudeData">Setting the ''{0}'' property after setting the ''SourceTable'' property is not supported.</entry>
+      
+      <!-- Used by geobubble function -->
+      <entry key="InvalidArguments">Expected 2 numeric vectors or a table followed by 2 table subscripts.</entry>
+      <entry key="DeletedParent">Parent container is a deleted graphics object.</entry>
+      <entry key="InvalidParent">Parent container must be a figure, uipanel, or uitab.</entry>      
+      <entry key="SizeVariableNameValuePair">Specify the ''SizeVariable'' using a parameter name and value pair.</entry>
+      <entry key="ColorVariableNameValuePair">Specify the ''ColorVariable'' using a parameter name and value pair.</entry>
+      <entry key="InvalidTableArguments">Not enough input arguments. Table argument must be followed by 2 table subscripts.</entry>
+      <entry key="MapLayoutLabel">Layout of map</entry>
+      <entry key="ScalebarVisibleLabel">Visibility of the scale bar</entry>
+      <entry key="BasemapLabel">Map on which to plot data</entry>
+  </message>
+</rsccat>

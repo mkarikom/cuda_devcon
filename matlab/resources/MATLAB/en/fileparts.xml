@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="MustBeChar">Input must be a row vector of characters, or a string scalar, or a cellstr, or a string matrix.</entry>
+      <entry key="StringMissingUnsupported">Missing string inputs are unsupported. Remove missing values from string arrays using &lt;a href=&quot;https://www.mathworks.com/help/matlab/ref/rmmissing.html&quot;&gt;rmmissing&lt;/a&gt;.</entry>
+      <entry key="Builtin">built-in</entry>
+   </message>
+</rsccat>

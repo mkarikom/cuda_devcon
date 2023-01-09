@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="appFigureName">MathWorks 许可证借用方式</entry>
+    <entry key="prodStatus">产品状态</entry>
+    <entry key="borrowButton">借用</entry>
+    <entry key="returnButton">返还</entry>
+    <entry key="autoOnButton">打开自动借用功能</entry>
+    <entry key="autoOffButton">关闭自动借用功能</entry>
+    <entry key="closeButton">关闭</entry>
+    <entry key="borrowOffDlgTitle">自动借用功能已关闭</entry>
+    <entry key="borrowOffDlgMsg">产品已成功借用。在离线工作之前，请确保已安装所有产品。</entry>
+    <entry key="returnWarnTitle">无法返还产品</entry>
+    <entry key="returnWarnMsg">产品仍处于借用该产品的 MATLAB 会话期间，无法返还。请重启 MATLAB 以返还产品。</entry>
+    <entry key="untilDateLabel">(结束日期: {0})</entry>
+    <entry key="borrowPeriodLabel">指定借用期限</entry>
+    <entry key="borrowDateSpinnerLabel">要借用的天数</entry>
+    <entry key="prodColumnHeading">产品名称</entry>
+    <entry key="inuseColumnHeading">正在使用</entry>
+    <entry key="statusColumnHeading">借用状态</entry>
+    <entry key="dateColumnHeading">返还日期</entry>
+    <entry key="fromListRadioLabel">从列表中选择要借用的产品。</entry>
+    <entry key="fromListRadioText">您可选择要借用的产品。将仅借用选定的产品。</entry>
+    <entry key="autoRadioLabel">使用产品时自动借用产品。</entry>
+    <entry key="autoRadioText">借用当前正在使用的所有产品，并继续在使用产品时自动借用产品。</entry>
+    <entry key="returnRadioLabel">提早返还借用的产品。</entry>
+    <entry key="returnRadioText">返还选定的产品。如果您当前正在使用这些产品，它们将不会签入，直到您关闭 MATLAB。</entry>
+    <entry key="autoBorrowText">已启用自动借用功能。\n请继续工作，产品将在您使用时自动借用。\n您可以关闭此窗口，借用将继续。\n在您借用了所有需要的产品后，点击 "关闭自动借用功能" 以显示状态表。</entry>
+    <entry key="borrowErrorTitle">借用许可证时出错</entry>
+    <entry key="borrowErrorMsg">为 {0} 借用许可证时出错。\n{1}</entry>
+    <entry key="returnErrorTitle">返还许可证时出错</entry>
+    <entry key="returnErrorMsg">返还 {0} 的许可证时出错。\n{1}</entry>
+    <entry key="yesLabel">是</entry>
+    <entry key="individual">个人</entry>
+    <entry key="borrowed">已借用</entry>
+  </message>
+</rsccat>

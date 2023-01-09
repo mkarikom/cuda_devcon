@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">入力引数は、軸に対して有効なハンドルではありません</entry>
+    <entry key="InvalidCamera">入力軸にカメラが関連付けられていません。変換行列を計算するには、有効なカメラが関連付けられていなければなりません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedMode">並べ替えの方向は、''ascend''、''descend''、''monotonic''、''strictascend''、''strictdescend'' または ''strictmonotonic'' でなければなりません。</entry>
+    <entry key="WrongLengthMode">方向は、並べ替える変数ごとに 1 つの要素をもたなければなりません。</entry>
+    <entry key="EmptyRowNames">入力 table に行名が含まれていないため、TRUE を返します。</entry>
+    <entry key="BadNumericVarIndices">数値変数のインデックスは、正または負の整数でなければなりません。</entry>
+    <entry key="NDVar">変数 ''{0}'' は 2 次元行列でなければなりません。</entry>
+    <entry key="IssortedOnRowFailed">行ラベルでの issorted が失敗しました。</entry>
+    <entry key="IssortedOnVarFailed">変数 ''{0}'' での issorted が失敗しました。この変数のクラスは ''{1}'' です。</entry>
+    <entry key="CellstrVar">cellstr 変数はサポートされていません。代わりに、cellstr 変数 ''{0}'' を string 配列に変換できます。</entry>
+    <entry key="NonConstantVarWidth">変数 ''{0}'' には issorted が機能しません。可変の列数が含まれています。並べ替え変数は固定幅でなければなりません。</entry>
+  </message>
+</rsccat>

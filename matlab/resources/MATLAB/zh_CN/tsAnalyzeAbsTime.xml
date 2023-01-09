@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidformat">日期字符向量格式无效</entry>
+    <entry key="invalidrefpoint">引用时间点应为字符向量。</entry>
+    <entry key="invalidstartdateformat">开始日期的格式无法识别。</entry>
+  </message>
+</rsccat>

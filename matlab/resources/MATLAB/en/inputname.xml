@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- Added messages: src/m_interpreter, src/m_lxe -->
+    <entry key="argNumberNotValid">Argument number is not valid.</entry>
+    <entry key="notInAfunction">Cannot return input name if not in an active function.</entry>
+    <entry key="notSupportedInThisFunction">Calling inputname from the indexing overload {0} is not supported.</entry>
+    <entry key="notSupportedInScript">Calling inputname from scripts is not supported</entry>    
+  </message>
+</rsccat>

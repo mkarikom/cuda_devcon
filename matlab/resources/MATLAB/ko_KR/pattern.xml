@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BackreferenceNotSupported">regexpPattern에서는 역방향 참조가 지원되지 않습니다.</entry>
+    <entry key="CannotConvertMissingToPattern">요소 {0}을(를) &lt;missing&gt;에서 패턴으로 변환하는 것은 지원되지 않습니다.</entry>
+    <entry key="ConditionalReferenceNotSupported">regexpPattern에서는 조건부 참조가 지원되지 않습니다.</entry>
+    <entry key="DimensionMismatch">{0} 인수의 차원은 패턴 인수의 차원과 일치하거나 1이어야 합니다.</entry>
+    <entry key="InvalidBoundaryOption">옵션은 'start', 'end' 또는 'either'여야 합니다.</entry>
+    <entry key="InvalidAssignmentDimensions">우변의 각 차원은 1이거나 좌변의 차원과 일치해야 합니다.</entry>
+    <entry key="InvalidLimitRange">최소 수량자 {0}은(는) 최대 수량자 {1}보다 작거나 같아야 합니다.</entry>
+    <entry key="InvalidRangeInput">범위의 {0}은(는) 문자를 하나만 포함해야 합니다.</entry>
+    <entry key="InvalidRangeChar">범위의 시작은 범위의 끝보다 문자 코드상으로 순서가 앞서야 합니다.</entry>
+    <entry key="InvalidPatternName">패턴 이름은 유효한 MATLAB 식별자여야 합니다.</entry>
+    <entry key="MaskConflict">범위 내의 동일한 마스크 표시는 패턴이 동일해야 합니다.</entry>
+    <entry key="MaskedPatterns">마스크 처리된 패턴</entry>
+    <entry key="Matching">일치</entry>
+    <entry key="MatchingWithHole">{0} 일치</entry>
+    <entry key="MissingName">이름 없이 생성된 명명된 패턴을 사용하려면 패턴이 작업 공간 변수여야 합니다.</entry>
+    <entry key="MissingMask">마스크 없이 생성된 마스크 처리된 패턴을 사용하려면 패턴이 작업 공간 변수여야 합니다.</entry>
+    <entry key="MustBeNonnegativeInteger">{0}은(는) 음이 아닌 정수여야 합니다.</entry>
+    <entry key="MustBeNonnegativeIntegerScalar">{0}은(는) 음이 아닌 정수 스칼라여야 합니다.</entry>
+    <entry key="MustBePattern">{0}은(는) 패턴 배열이어야 합니다.</entry>
+    <entry key="MustBeStruct">{0}은(는) 구조체형 배열이어야 합니다.</entry>
+    <entry key="MustBeTextOrPattern">{0}은(는) 텍스트이거나 패턴이어야 합니다.</entry>
+    <entry key="MustBeTextOrPatternScalar">{0}은(는) 텍스트 또는 패턴 스칼라여야 합니다.</entry>
+    <entry key="NameConflict">범위 내의 동일한 이름은 패턴이 동일해야 합니다.</entry>
+    <entry key="NamedPatternDetails">명명된 패턴 세부 정보</entry>
+    <entry key="NOTOperationNotSupported">단항 연산자 ''~''는 경계 패턴에만 지원됩니다.</entry>
+    <entry key="ShowAllDetails">모든 세부 정보 표시</entry>
+    <entry key="ShowMoreDetails">추가 세부 정보 표시</entry>
+    <entry key="UsingNamedPatterns">명명된 패턴 사용</entry>
+    <entry key="UseDetailsToShowMore">{0}을(를) 사용하여 추가 정보 표시</entry>
+    <entry key="UnableToLoadPattern">패턴 변수를 불러올 수 없습니다.</entry>
+    <entry key="UnableToLoadPatternArgument">함수 ''{0}''의 알 수 없는 인수로 인해 패턴 변수를 불러올 수 없습니다. 이 패턴은 최신 버전의 MATLAB에서 저장되었을 수 있습니다.</entry>
+    <entry key="UnableToLoadPatternValue">함수 ''{0}''의 유효하지 않은 인수 값으로 인해 패턴 변수를 불러올 수 없습니다. 이 패턴은 최신 버전의 MATLAB에서 저장되었을 수 있습니다.</entry>
+    <entry key="UnableToLoadPatternFunction">알 수 없는 함수 ''{0}''(으)로 인해 패턴 변수를 불러올 수 없습니다. 이 패턴은 최신 버전의 MATLAB에서 저장되었을 수 있습니다.</entry>
+    <entry key="UndefinedName">존재하지 않는 이름 ''{0}''에 대한 참조입니다.</entry>
+    <entry key="ShowDetailsInvalidValue">변수 {0}이(가) 더 이상 pattern형 스칼라가 아니기 때문에 이 변수에 대한 세부 정보를 표시할 수 없습니다.</entry>
+    <entry key="ShowDetailsNoLongerExists">변수 {0}이(가) 더 이상 존재하지 않기 때문에 이 변수에 대한 세부 정보를 표시할 수 없습니다.</entry>
+    <entry key="ShowDetailsNoMoreDetails">변수 {0}에 추가 세부 정보가 더 이상 없기 때문에 이 변수에 대한 세부 정보를 표시할 수 없습니다.</entry>
+    <entry key="BoundaryType">경계 유형</entry>
+    <entry key="End">끝</entry>
+    <entry key="MaskDisplay_UpperCase">마스크 표시</entry>
+    <entry key="MaskDisplay_LowerCase">마스크 표시</entry>
+    <entry key="MaximumQuantifier">최대 수량자</entry>
+    <entry key="MinimumQuantifier">최소 수량자</entry>
+    <entry key="MatchRange">일치 범위</entry>
+    <entry key="PatternName">패턴 이름</entry>
+    <entry key="ExceptOption">''Except'' 옵션</entry>
+    <entry key="PatternDescription">패턴 설명</entry>
+    <entry key="Quantifier">수량자</entry>
+    <entry key="Start">시작</entry>
+    <entry key="InternalError">{0}</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ThreeDZoom">三维缩放</entry>
+    <entry key="ZoomOutShiftClick">缩小       shift-单击</entry>
+    <entry key="ZoomInShiftClick">放大       shift-单击</entry>
+    <entry key="ZoomIn">放大</entry>
+    <entry key="ZoomOut">缩小</entry>
+    <entry key="ZoomOptions">缩放选项</entry>
+    <entry key="UnconstrainedZoom">自由缩放</entry>
+    <entry key="HorizontalZoom">水平缩放</entry>
+    <entry key="VerticalZoom">垂直缩放</entry>
+    <entry key="ZoomConstraints">缩放约束</entry>
+    <entry key="XZoom">X 缩放</entry>
+    <entry key="YZoom">Y 缩放</entry>
+    <entry key="ZZoom">Z 缩放</entry>
+    <entry key="XYZoom">XY 缩放</entry>
+    <entry key="YZZoom">YZ 缩放</entry>
+    <entry key="XZZoom">XZ 缩放</entry>
+  </message>
+</rsccat>

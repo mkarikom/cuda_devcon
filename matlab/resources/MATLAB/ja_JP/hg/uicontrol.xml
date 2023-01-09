@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ParameterValuesMustBeValid">{0} control {1}\nコントロールは、すべてのパラメーター値が有効でない場合レンダリングされません</entry>
+    <entry key="ListboxTopMustBeWithinStringRange">この uicontrol の ListboxTop 値 ({0,number,integer}) は、文字ベクトルの範囲 ({1,number,integer}:{2,number,integer}) 内になければなりません\nコントロールは、すべてのパラメーター値が有効でない限り描画されません</entry>
+    <entry key="SingleLineEditCannotHaveMultiLineText">1 行の Edit Control は、複数行のテキストをもつことはできません</entry>
+    <entry key="BadType">イメージの CData は数値行列が必要です</entry>
+    <entry key="ExpectedTruecolor">uicontrol の CData プロパティはトゥルーカラーでなければなりません</entry>
+    <entry key="ElementOutOfRange">トゥルーカラーの CData は 0.0 &lt;= 値 &lt;= 1.0 の範囲外の要素を含んでいます</entry>
+    <entry key="LineIncrementOutOfRange">スライダーのステップ ラインの増分は、0 以上 1 以下でなければなりません</entry>
+    <entry key="PageIncrementOutOfRange">スライダーのステップ ページの増分は、0 より大きくなければなりません</entry>
+    <entry key="ValueMustBeScalar">{0} コントロールにはスカラーの Value が必要です。\nコントロールは、すべてのパラメーター値が有効でない限り描画されません</entry>
+    <entry key="ValueMustBeInRange">{0} コントロールは、'Min'-'Max' の範囲外の 'Value' を取れません\nコントロールは、すべてのパラメーター値が有効でない限り描画されません</entry>
+    <entry key="MinMustBeLessThanMax">{0} コントロールでは、 'Min' を 'Max' より小さくする必要があります\nコントロールは、すべてのパラメーター値が有効でない限り描画されません</entry>
+    <entry key="ValueMustBeWithinStringRange">{0} コントロールでは、'Value' を文字ベクトルの範囲内の整数にする必要があります\nコントロールは、すべてのパラメーター値が有効でない限り描画されません</entry>
+    <entry key="StringMustBeNonEmpty">{0} コントロールには、空でない文字ベクトルが必要です\nコントロールは、すべてのパラメーター値が有効でない限り描画されません</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="MethodCallOnClassWithSameNameAsBuiltin">[[[ MathWorks Internal Warning ]]]\nAttempt to call HG specific method on class with same name as HG built-in.\nClass name is \"{0}\"</entry>
+  </message>
+</rsccat>

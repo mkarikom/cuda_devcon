@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidobject">입력값이 속성 인스펙터에서 지원되지 않습니다. 속성을 보려면 get() 명령을 사용하고 속성을 변경하려면 set() 명령을 사용하십시오.</entry>
+    <entry key="invalidinput">검사할 입력값은 ISHANDLE에 의해 정의된 유효한 객체여야 합니다.</entry>
+    <entry key="invalidinputnotobject">검사할 입력값은 유효한 객체여야 합니다.</entry>
+    <entry key="invalidarguments">검사할 입력값은 유효한 객체 이름과 작업 공간이어야 합니다.</entry>
+    <entry key="InvalidSyntax">inspect(''newinspector'',...) 구문은 더 이상 지원되지 않습니다.</entry>
+    <entry key="InvalidTreeTableSyntax">inspect(''newtreetable'',...) 구문은 더 이상 지원되지 않습니다.</entry>
+    <entry key="ThePropertyInspector">속성 인스펙터</entry>
+    <entry key="WidthLabel">너비</entry>
+    <entry key="HeightLabel">높이</entry>
+    <entry key="MinLabel">최솟값</entry>
+    <entry key="MaxLabel">최댓값</entry>
+    <entry key="UnsupportedInLiveEditor">라이브 편집기에서는 inspect가 지원되지 않음</entry>
+    <entry key="JavaUnsupportedInFuture">Java 객체를 검사하는 기능은 향후 릴리스에서 더 이상 지원되지 않을 예정입니다.</entry>
+    <entry key="XLabel">x</entry>
+    <entry key="YLabel">y</entry>
+    <entry key="ZLabel">z</entry>
+  </message>
+</rsccat>

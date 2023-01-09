@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DeprecatedFunction">この uitable の実装は使用されない予定で、サポートされなくなりました。</entry>
+    <entry key="InputMustBeScalar">UITABLE を使用する場合、numrows と numcols は数値のスカラーでなければなりません</entry>
+    <entry key="MustMatchInfo">列の名前の数はデータの列数と一致しなければなりません</entry>
+    <entry key="InvalidCellArray">UITABLE の列を使用する場合、データは 1xn のセル配列でなければなりません</entry>
+    <entry key="NumrowsMustBeScalar">numrows はスカラーでなければなりません</entry>
+    <entry key="NumcolumnsMustBeScalar">numcolumns はスカラーでなければなりません</entry>
+    <entry key="InvalidString">gridcolor は有効な文字ベクトルでなければなりません</entry>
+    <entry key="RowheightMustBeScalar">rowheight はスカラーでなければなりません</entry>
+    <entry key="InvalidParent">親は、有効なハンドルでなければなりません。</entry>
+    <entry key="ParentMustBeFigureOrUIContainer">親は Figure または UIContainer でなければなりません</entry>
+    <entry key="InvalidPosition">position は 1x4 の数値配列でなければなりません</entry>
+    <entry key="ColumnwidthMustBeScalar">columnwidth はスカラーでなければなりません</entry>
+    <entry key="NoDataProvided">ColumnNames と共に Dataが 与えられていません</entry>
+    <entry key="OldTableUsage">uitable の旧式のバージョンを使用しているようです。\n正しい uitable の使用については、ドキュメンテーションを参照してください:\n  &lt;a href="{0}"&gt;help uitable&lt;/a&gt; および &lt;a href="{1}"&gt;doc uitable&lt;/a&gt;\n\n詳細については、&lt;a href="{2}"&gt;ここ&lt;/a&gt;をクリックしてください\n</entry>
+    <entry key="ColumnFormatNotSupported">''Data'' 値が table 配列の場合、''ColumnFormat'' 値は効果がありません。</entry>
+    <entry key="FailedMxArrayCreate">MCOS mxArray を作成できません</entry>
+    <entry key="BadArguments">引数は Figure、uicontainer、uitable のいずれかのハンドルと、パラメーター/値の組み合わせのみが含まれます</entry>
+    <entry key="BadHandle">無効な Figure または uitable のハンドル</entry>
+    <entry key="NeedSameNumberColumns">Data と ColumnNames の両方の列数は一致させなければなりません。</entry>
+    <entry key="getPrintImage">getPrintImage は、有効な uitable のハンドル上で呼び出されなければなりません</entry>
+    <entry key="getGUIDEView">getGUIDEView は、有効な uitable のハンドル上で呼び出されなければなりません</entry>
+    <entry key="TableDataNotEditable">テーブル データは、この位置で編集可能ではありません。</entry>
+    <entry key="NonEditableDataTypes">Data が table 配列の場合、ColumnEditable は次のデータ型の単一のベクトルからなる列に対してのみ true となります。\n数値、logical、datetime、categorical、string、文字ベクトルの cell 配列。
+</entry>
+  </message>
+</rsccat>

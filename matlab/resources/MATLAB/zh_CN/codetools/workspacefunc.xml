@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="cellstr_PreviewTruncatedAt">&lt;预览内容截断于 </entry>
+    <entry key="ErrorDisplayingValue">&lt;显示值时出错&gt;</entry>
+    <entry key="ErrorRetrievingValue">&lt;检索值时出错&gt;</entry>
+    <entry key="PreviewTruncatedAtCharacters">&lt;预览内容在 {0} 个字符处截断&gt;</entry>
+    <entry key="TooManyElements">&lt;元素太多&gt;</entry>
+    <entry key="AllVariablesMustHaveSameID">所有变量的工作区 ID 必须相同</entry>
+    <entry key="GettingVariablesfromDefaultWorkspaceNotImplemented">从默认工作区获取变量未实现。</entry>
+    <entry key="ArgumentToGetWorkspaceIDCannotBeEmpty">getWorkspaceID 的参数不能为空</entry>
+    <entry key="WorkspaceStorageErrorTooManyWorkspacesFound">工作区存储错误 - 找到的工作区太多</entry>
+    <entry key="UnexpectedInput">意外输入: {0}</entry>
+    <entry key="Unevaluated">未计算</entry>
+  </message>
+</rsccat>

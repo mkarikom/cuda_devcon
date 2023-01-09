@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidCost">Cost는 double형 또는 single형의 실수 행렬이어야 합니다.</entry>
+    <entry key="NonFiniteCost">Cost는 NaN을 포함해서는 안 됩니다.</entry>
+    <entry key="InvalidCostUnmatched">costUnmatched는 double형 또는 single형의 실수형 스칼라여야 합니다.</entry>
+    <entry key="NonFiniteCostUnmatched">costUnmatched는 유한해야 합니다.</entry>
+    <entry key="InvalidOption">옵션은 ''min'' 또는 ''max''여야 합니다.</entry>
+  </message>
+</rsccat>

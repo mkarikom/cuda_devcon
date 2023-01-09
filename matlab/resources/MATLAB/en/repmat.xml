@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NdSparseOutput">N-D sparse output arrays are not supported.</entry>
+    <entry key="nonNumericReplications">Replication factors must be numeric.</entry>
+    <entry key="complexReplications">Complex replication factors are not supported.</entry>
+    <entry key="invalidReplications">Replication factors must be a row vector of integers or integer scalars.</entry>
+  </message>
+</rsccat>

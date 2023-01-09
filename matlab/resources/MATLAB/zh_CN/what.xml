@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CurrDir">当前文件夹 {1} 中的 {0}\n</entry>
+    <entry key="NotcurrDir">文件夹 {1} 中的 {0}\n</entry>
+    <entry key="NotFound">未找到 {0}。\n</entry>
+    <entry key="Directory">目录</entry>
+  </message>
+</rsccat>

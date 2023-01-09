@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="argNotProfilerObjHandle">入力引数は、プロファイラー オブジェクトのハンドルでなければなりません。</entry>
+    <entry key="cannotReport">プロファイラーの実行中にその統計量をレポートすることはできません。</entry>
+    <entry key="cpuFrequencyNotSupported">CPU 周波数 (ClockSpeed) の情報はこのプラットフォームでサポートされていません。返された値は {0} です。</entry>
+    <entry key="FullFilePath">ファイルのフィルター処理には絶対パス名が必要です。</entry>
+    <entry key="FullPath">ディレクトリのフィルター処理には絶対パス名が必要です。</entry>
+    <entry key="FunctionNotFound">指定された関数はパス内で見つかりませんでした。</entry>
+    <entry key="noChangeNonMatlab">MATLAB でないプロファイラーの詳細なレベルを変更できません。</entry>
+    <entry key="noChangeonFly">プロファイラーの実行中に {0} を変更することはできません。</entry>
+    <entry key="noResetWhileRunning">実行中にプロファイラーをリセットすることはできません。</entry>
+    <entry key="no_mem_support">メモリ追跡のサポートは現在、メモリ マネージャーで利用できません。</entry>
+    <entry key="stdException">メッセージ付きの標準の例外: callstats {1} 内の {0} ...</entry>
+    <entry key="takeItEasy">行数のトラッキングを明示的に有効にする必要はありません。</entry>
+  </message>
+</rsccat>

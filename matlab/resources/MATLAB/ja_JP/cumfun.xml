@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="complexIntegers">複素数の整数はサポートされていません。</entry>
+    <entry key="wrongInput">データ型が無効です。最初の入力引数は数値または論理値でなければなりません。</entry>
+    <entry key="wrongFlag">オプションが無効です。オプションは 'forward'、'reverse'、'omitnan' または 'includenan' でなければなりません。</entry>
+    <entry key="wrongDirection">オプションが無効です。オプションは 'forward' または 'reverse' でなければなりません。</entry>
+    <entry key="duplicateDirection">'forward' または 'reverse' のいずれか 1 つのみを指定してください。</entry>
+    <entry key="duplicateNaNFlag">'omitnan' または 'includenan' のいずれか 1 つのみを指定してください。</entry>
+  </message>
+</rsccat>

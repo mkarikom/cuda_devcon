@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadValidator">유효성 검사기(validator)는 함수 핸들이어야 합니다.</entry>
+    <entry key="CaseSensitiveSwitch">''CaseSensitive''를 false로 설정하면 같은 이름의 파라미터가 여러 개 생성될 수 있습니다. CaseSensitive(대/소문자 구분) 값을 변경할 수 없습니다.</entry>
+    <entry key="failedWithError">''{0}''의 값이 유효하지 않습니다. {1}</entry>
+    <entry key="ArgumentFailedValidation">''{0}''의 값이 유효하지 않습니다. 다음 함수를 충족하는 값이어야 함: {1}.</entry>
+    <entry key="ArgumentFailedDefaultValidation">인수 ''{0}''은(는) string형 스칼라이거나 문자형 벡터이고, 파라미터 이름과 일치하지 않습니다. 인수 ''{1}''에 대한 유효성 검사에 실패했습니다.</entry>
+    <entry key="InvalidName">파라미터 이름은 string형 스칼라이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="MustBeChar">디폴트는 문자로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="mustBeScalar">함수에 대한 입력 구조체는 스칼라여야 합니다.</entry>
+    <entry key="NameMustBeChar">인수 이름은 string형 스칼라이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="notEnoughInputs">입력 인수가 부족합니다.</entry>
+    <entry key="NotAValidFieldName">첫 번째 인수는 필드 이름을 나타낼 수 있는 string형 스칼라 또는 문자형 벡터여야 합니다.</entry>
+    <entry key="UnmatchedNotAValidFieldName">일치하지 않는 파라미터 이름 ''{0}''은(는) 필드 이름을 나타낼 수 있는 string형 스칼라 또는 문자형 벡터여야 합니다.</entry>
+    <entry key="ParamAlreadyExists">''{0}''과(와) 동일한 파라미터 이름이 입력값 구문 분석기(Input Parser)에 이미 존재합니다. 파라미터의 재정의는 허용되지 않습니다.</entry>
+    <entry key="ParamMissingValue">''{0}''에 대한 값이 지정되지 않았습니다. 이름-값 쌍의 인수는 이름, 값 순서로 지정되어야 합니다.</entry>
+    <entry key="ParamMustBeChar">파라미터 이름은 string형 스칼라이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="missingValueInParameter">파라미터 이름은 누락값이 아니어야 합니다.</entry>
+    <entry key="UnknownParameterName">''{0}''은(는) 인식할 수 없는 파라미터입니다. 예상: ''{1}''.</entry>
+    <entry key="PartialMatchPriorityRealScalarInt">''{0}''의 값이 유효하지 않습니다. 양의 정수 값이어야 합니다.</entry>
+    <entry key="AmbiguousParameter">''{0}''이(가) 여러 파라미터 이름과 일치함: {1}. {2}</entry>
+    <entry key="AmbiguousSelection">이름이 애매모호해 ''{0}''(으)로 가정됩니다.</entry>
+    <entry key="AmbiguousRejection">모호성을 방지하려면 파라미터의 전체 이름을 지정하십시오.</entry>
+    <entry key="UnmatchedParameter">''{0}''은(는) 인식할 수 없는 파라미터입니다. {1}</entry>
+    <entry key="ValidParameters">유효한 이름-값 쌍의 인수 목록은 도움말 문서에서 {0}을(를) 참조하십시오.</entry>
+    <entry key="NoValidParameters">{0}에 대해서는 이름-값 쌍의 인수가 허용되지 않습니다.</entry>
+    <entry key="THIS_FUNCTION_LITERAL">이 함수</entry>
+  </message>
+</rsccat>

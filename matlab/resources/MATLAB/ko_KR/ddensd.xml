@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">입력 인수가 부족합니다.</entry>
+    <entry key="DdefunNotFunctionHandle">첫 번째 인수(DDEFUN)는 함수 핸들이어야 합니다.</entry>
+    <entry key="DelyInvalidType">두 번째 인수(DELY)는 함수 핸들이거나 상수 벡터여야 합니다.</entry>
+    <entry key="DelypInvalidType">세 번째 인수(DELYP)는 함수 핸들이거나 상수 벡터여야 합니다.</entry>
+    <entry key="HistoryInvalidType">HISTORY에 유효하지 않은 데이터형이 포함되어 있습니다. HISTORY에 허용되는 데이터형 목록은 DDENSD에 대한 도움말을 참조하십시오.</entry>
+    <entry key="HistoryNotFromDDENSD">HISTORY 구조체는 DDENSD로 만들어져야 합니다.</entry>
+    <entry key="NotContinueFromHistoryEnd">HISTORY 구조체를 사용할 경우 DDENSD는 마지막으로 도달한 지점에서부터 계속되어야 합니다.</entry>
+    <entry key="InconsistentDataType">DDENSD 호출에서 ''t0'', ''y0'', ''y(dy(t0,y0))'', ''yp(dyp(t0,y0))'', ''f(t0,y0,dy0,dyp0)''에 대해 single형 데이터와 double형 데이터가 혼합되어 있습니다.</entry>
+    <entry key="JumpsOptionNotAvailable">DDENSD에서는 JUMPS 옵션을 사용할 수 없습니다. JUMPS의 각 항목에서 다시 시작하여 문제를 해결하십시오.</entry>
+    <entry key="OptRelTolNotPosScalar">옵션 ''RelTol''은 양의 스칼라여야 합니다.</entry>
+    <entry key="RelTolIncrease">DDENSD는 보통 정도의 정확도에만 사용해야 합니다. RelTol이 {0}(으)로 증가되었습니다.</entry>
+    <entry key="DELYLessThanT0">해 지연 DELY가 T0보다 작아 t={0}에 실패했습니다. 초기값 NDDE 문제의 해를 구할 경우 DELY는 T0보다 크거나 같아야 합니다.</entry>
+    <entry key="DELYPLessThanT0">도함수 지연 DELYP가 T0보다 작아 t={0}에 실패했습니다. 초기값 NDDE 문제의 해를 구할 경우 DELYP는 T0보다 크거나 같아야 합니다.</entry>
+    <entry key="DELYPGreaterThanT">도함수 지연 DELYP가 T보다 커서 t={0}에 실패했습니다. T=T0인 경우에 초기값 NDDE에 대해 DELYP는 T와 같을 수 있습니다. 그러나 다른 모든 경우 DELYP는 T보다 작아야 합니다.</entry>
+    <entry key="DELYPEqualT">도함수 지연 DELYP가 T와 같아서 t={0}에 실패했습니다. T=T0인 경우에 초기값 NDDE에 대해 DELYP는 T와 같을 수 있습니다. 그러나 다른 모든 경우 DELYP는 T보다 작아야 합니다.</entry>
+    <entry key="IVPDELYPEqualT">T&gt;T0인 T가 도함수 지연 DELYP와 동일하여 t={0}에 실패했습니다. T=T0인 경우에 초기값 NDDE에 대해 DELYP는 T와 같을 수 있습니다. 그러나 다른 모든 경우 DELYP는 T보다 작아야 합니다.</entry>
+  </message>
+</rsccat>

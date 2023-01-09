@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noDataFileFound">比較データを含んでいる bench.dat データ ファイルは利用できません。</entry>
+    <entry key="display10BestTrials">BENCH は、グラフおよび表が過密にならないように、Figure ウィンドウの比較グラフ上および結果の表に10 個の最良の結果のみを表示します。しかし、BENCH の出力引数には、{0,number,integer} 回のすべての試行データが含まれています。</entry>
+    <entry key="LabelComputerType">コンピューターのタイプ</entry>
+    <entry key="ThisMachine">ご利用のマシン {0}</entry>
+    <entry key="YourMachine">ご利用のマシンで MATLAB {0} を実行した結果です。</entry>
+    <entry key="ThisMachineRunN">ご利用のマシン (実行 {0} 回目){1}</entry>
+    <entry key="YourMachineRunN">ご利用のマシンで MATLAB {0} を {1} 回目に実行した結果です。</entry>
+    <entry key="LUOfMatrix">{0,number,integer} 行 {1,number,integer} 列の行列の LU</entry>
+    <entry key="FFTOfVector">{0,number,integer}-要素ベクトルの FFT</entry>
+    <entry key="SolutionFromTo">t=0 から t={0} までの解</entry>
+    <entry key="SolvingSparseLinearSystem">{0,number,integer} 行 {1,number,integer} 列のスパース線形システムの解</entry>
+    <entry key="sprintf_PlaceTheCursorNearAComputerNameForSystemAndVersionDetai">コンピューター名の近くにカーソルを置くと、システムとバージョンの詳細が表示されます。このデータを使用して\nさまざまな MATLAB バージョンを比較したり、アップデートされたタイミング データ ファイルをダウンロードする前に、\nMATLAB のプロンプトで ''''help bench'''' を入力すると関数 bench のヘルプを参照できます。</entry>
+    <entry key="BernsteinPolynomialGraph">Bernstein 多項式グラフ</entry>
+    <entry key="AnimatedLshapedMembrane">アニメーション化された L 型膜</entry>
+    <entry key="MATLABBenchmark">MATLAB ベンチマーク</entry>
+    <entry key="MATLABBenchmarkTimes">MATLAB ベンチマーク (時間は秒単位)</entry>
+    <entry key="RelativeSpeed">相対速度</entry>
+    <entry key="LissajousPlots">リサージュ プロット</entry>
+    <entry key="LU">LU</entry>
+    <entry key="FFT">FFT</entry>
+    <entry key="ODE">ODE</entry>
+    <entry key="Sparse">Sparse</entry>
+    <entry key="twoD">2-D</entry>
+    <entry key="threeD">3-D</entry>
+  </message>
+</rsccat>

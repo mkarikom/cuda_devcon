@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ClassConstructorNotFound">MATLAB クラス {0} のコンストラクターが見つかりません。</entry>
+    <entry key="InvalidArrayType">配列はスカラー配列、ベクトル配列、または高次元配列として認識されませんでした。</entry>
+    <entry key="CannotDetermineReadType">{0} を読み取ることができません。入力は、パス上の有効なパッケージ名、クラス名、または関数名のリストでなければなりません。</entry>
+    <entry key="FileWriteError">生成された CPP コードを指定されたファイルに書き込めません: {0}。</entry>
+    <entry key="RegularMethodHasNoInputArgs">メソッド {0} に入力引数がありません。静的でない MATLAB メソッドには少なくとも 1 つの入力引数が必要です。</entry>
+    <entry key="MethodNoInputArgMetaData">メソッド {0} で入力引数のメタデータが見つかりませんでした。メソッドに有効な引数ブロックがあることを確認してください。</entry>
+    <entry key="MethodVararginNotSupported">メソッド {0} で可変個の入力引数を使用することはサポートされていません。</entry>
+    <entry key="MethodHasPartialMetaData">メソッド {0} の引数でメタデータが不足しています。メソッドに有効な引数ブロックがあることを確認してください。</entry>
+    <entry key="MethodArgHasNoType">メソッド "{1}" の位置 {0} にある入力引数で MATLAB 型が指定されていません。メソッド定義に型の検証データを追加することを検討してください。</entry>
+    <entry key="MethodArgHasNoSize">メソッド "{1}" の位置 {0} にある入力引数でサイズ/次元が指定されていません。メソッド定義にサイズの検証データを追加することを検討してください。</entry>
+    <entry key="FunctionNoInputArgMetaData">関数 {0} で入力引数のメタデータが見つかりませんでした。関数に有効な引数ブロックがあることを確認してください。</entry>
+    <entry key="FunctionVararginNotSupported">関数 {0} で可変個の入力引数を使用することはサポートされていません。</entry>
+    <entry key="FunctionHasPartialMetaData">関数 {0} の引数にメタデータがありません。関数に有効な引数ブロックがあることを確認してください。</entry>
+    <entry key="FunctionArgHasNoType">関数 "{1}" の位置 {0} にある入力引数で MATLAB 型が指定されていません。関数定義に型の検証データを追加することを検討してください。</entry>
+    <entry key="FunctionArgHasNoSize">関数 "{1}" の位置 {0} にある入力引数でサイズ/次元が指定されていません。関数定義にサイズの検証データを追加することを検討してください。</entry>
+    <entry key="InternalLogicError">CPP コード ジェネレーターで内部論理エラーが発生しました。このエラーを MathWorks テクニカル サポートに報告してください。</entry>
+    <entry key="PropertyHasNoMetaData">クラス "{1}" でプロパティ "{0}" のメタデータが検出されませんでした。このクラスのプロパティ ブロックが有効であることを確認してください。</entry>
+    <entry key="PropertyHasNoValidationData">クラス "{1}" でプロパティ "{0}" に関するサイズまたはクラスのメタデータが検出されませんでした。このプロパティの定義に検証データを追加することを検討してください。</entry>
+    <entry key="PropertyHasNoSizeValidationData">クラス "{1}" でプロパティ "{0}" のサイズのメタデータが検出されませんでした。このプロパティの定義にサイズの検証データを追加することを検討してください。</entry>
+    <entry key="PropertyHasNoClassValidationData">クラス "{1}" でプロパティ "{0}" のクラス/型のメタデータが検出されませんでした。このプロパティの定義にクラス/型の検証データを追加することを検討してください。</entry>
+    <entry key="ArgumentHasInvalidDimensions">"{0}" 内の引数には無効な次元があります。"{0}" の引数ブロックが有効であることを確認してください。</entry>
+    <entry key="EnumsNotSupported">列挙型は変換ではサポートされません。</entry>
+    <entry key="GeneratorHasUnresolvedClassDependencies">未解決のクラス依存関係が検出されました。次のクラスを生成または指定しないと、生成されたコードがビルドされない場合があります: {0}</entry>
+    <entry key="ClassCouldNotFindFriend">クラス {0} は CPP 生成で {1} の保護されたメンバーにアクセスする必要がありますが、クラス {1} が見つかりませんでした。クラス {1} を生成または指定しないと、生成されたコードがビルドされない場合があります。</entry>
+    <entry key="MethodNameConflictWithPropertyAccessors">MATLAB クラス {0} の次のメソッドは生成されません: {1}。メソッド名がプロパティ アクセス メソッドと競合しています。</entry>
+    <entry key="ClassNameConflictWithPropertyAccessors">クラス {0} の次のプロパティ アクセス メソッドは生成されません: {1}。プロパティ アクセス メソッド名がクラス名と競合しています。</entry>
+    <entry key="NameConflictWithCPPKeyword">C++ キーワードの名前の競合が原因で、MATLAB トークンは生成されません。生成された C++ コード内でビルド エラーまたはランタイム エラーが発生しないようにするため、次のトークンの名前を変更してください: {0}。</entry>
+    <entry key="MethodArgNameConflictWithCPPKeyword">C++ キーワードの競合を回避するため、次の MATLAB メソッドの引数名は、生成された C++ コード内で変更されます: {0}。</entry>
+    <entry key="FunctionArgNameConflictWithCPPKeyword">C++ キーワードの競合を回避するため、次の MATLAB 関数の引数名は、生成された C++ コード内で変更されます: {0}。</entry>
+    <entry key="BuiltinMethodNotSupported">組み込みメソッド {0} はサポートされていません。</entry>
+    <entry key="BuiltinFunctionNotSupported">組み込み関数 {0} はサポートされていません。</entry>
+    <entry key="NoInputList">Packages、Classes、または Functions の少なくとも 1 つの入力リストを名前と値のペアの形式で指定しなければなりません。</entry>
+    <entry key="InvalidListType">入力リストの型が無効です。リストは string 配列でなければなりません。</entry>
+    <entry key="InvalidInputPackageNames">入力パッケージ名が無効です: {0}。MATLAB 検索パス上の有効なパッケージの名前でなければなりません。</entry>
+    <entry key="InvalidInputClassNames">入力クラス名が無効です: {0}。MATLAB 検索パス上の有効なクラスの名前でなければなりません。</entry>
+    <entry key="InvalidInputFunctionNames">入力関数名が無効です: {0}。MATLAB 検索パス上の有効な関数の名前でなければなりません。</entry>
+    <entry key="MethodDefinitionNotFound">メソッド {0} の定義を含むファイルが見つかりません。</entry>
+    <entry key="FunctionDefinitionNotFound">関数 {0} の定義を含むファイルが見つかりません。</entry>
+    <entry key="CannotGetNumArguments">{0} の入力引数が特定されません。関数またはメソッドは nargin と互換性がなければなりません。</entry>
+  </message>
+</rsccat>

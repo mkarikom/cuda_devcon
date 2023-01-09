@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="inputDimensionMismatch">First argument must be a 2-dimensional matrix.</entry>
+    <entry key="COLnotNumeric">COL must be numeric.</entry>
+    <entry key="COLmismatchX">Column sorting vector must contain integers with absolute value between 1 and the number of columns in the first argument.</entry>
+    <entry key="nonScalarCell">Some cells in X contain non-scalar values and cannot be sorted.</entry>
+    <entry key="DIRnotRecognized">Sorting direction must be ''ascend'' or ''descend''.</entry>
+    <entry key="DIRnotString">DIR option must be a Character Vector, Cell Character Vector or String array.</entry>
+    <entry key="DIRmismatchCOL">DIR option must be of the same size as COL.</entry>
+    <entry key="DIRmustbescalar">DIR option must be a scalar if used as second argument.</entry>
+    <entry key="InvalidAbsRealType">''ComparisonMethod'' parameter not supported when first argument is a {0} array.</entry>
+    <entry key="InvalidComparison">''ComparisonMethod'' value must be ''auto'', ''abs'', or ''real''.</entry>
+    <entry key="InvalidFirstLastType">''MissingPlacement'' parameter not supported when first argument is a {0} array.</entry>
+    <entry key="InvalidMissingPlace">''MissingPlacement'' value must be ''auto'', ''first'', or ''last''.</entry>
+    <entry key="NameValueNames">Parameter name must be 'ComparisonMethod' or 'MissingPlacement'.</entry>
+    <entry key="NameValuePairs">Incorrect number of arguments. Parameter names and values must occur in pairs.</entry>
+    <entry key="NumDirectionsSecond">Sorting direction must specify one direction or a direction for each column in the first argument.</entry>
+    <entry key="NumDirectionsThird">Sorting direction must specify one direction or a direction for each element of the column sorting vector.</entry>
+    <entry key="SecondArgumentType">Second argument must specify a column sorting vector or sorting direction.</entry>
+    <entry key="ThirdArgumentType">Sorting direction must be a character vector or cell array of character vectors.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- For assignment to empty variable using colon index. -->
+    <entry key="assignment_to_empty_using_colon">Comma-separated list assignment to an empty variable is not supported when any index is a colon (:). Use explicit indices or initialize the variable with a non-empty value before performing the assignment.</entry>
+    <!-- For assignment to uninitialized variable using colon index. -->
+    <entry key="assignment_to_uninitialized_using_colon">Comma-separated list assignment to a nonexistent variable is not supported when any index is a colon (:). Use explicit indices or define the variable before performing the assignment.</entry>
+    <entry key="assignmentToTemporary">Assignment not supported because the result of method ''{0}'' is a temporary value.</entry>
+    <entry key="badAllocationStrategy">The maximum threshold must be a power of two.</entry>
+    <entry key="badIndexingContext">The third argument must be a scalar of class matlab.indexing.IndexingContext.</entry>
+    <entry key="badListLength">An indexing operation failed because numArgumentsFromSubscript did not return a nonnegative integer. numArgumentsFromSubscript is called to determine the number of outputs of an indexing expression or statement, or the number of expected inputs to an indexed assignment.</entry>
+    <entry key="brace_index">brace '''{}''' indexing</entry>
+    <entry key="braceIndexingFailed">A brace indexing operation failed for the class ''{0}''.</entry>
+    <entry key="cannot_inherit_from_class">If a class inherits from ''{0}'', it cannot inherit from ''{1}''.</entry>
+    <entry key="classAttributeNotSupported">Use of the ''{0}'' attribute in class ''{1}'' is not supported.</entry>
+    <entry key="ctransposeNotSupported">The conjugate transpose method is not supported for objects of type ''{0}''.</entry>
+    <entry key="deletedIndexee">Unable to complete assignment because an object or property was destroyed.</entry>
+    <entry key="dot_index">dot ''.'' indexing</entry>
+    <entry key="dotIndexingFailed">A dot indexing operation failed for the class ''{0}''.</entry>
+    <entry key="dotParenArgsMustBeStringScalarOrCharacterVector">Dynamic field or property name must be a string scalar or character vector.</entry>
+    <entry key="emptyIndexingOperation">Forwarding an empty indexing operation is not supported.</entry>
+    <!-- For final assignment without xlist on lhs. -->
+    <entry key="expected_one_output_for_assignment">Assigning to {0,number,integer} elements using a simple assignment statement is not supported. Consider using comma-separated list assignment.</entry>
+    <entry key="expected_one_output_from_expression">Dot ''.'' or brace '''{}''' indexing expression must produce a single value, but the expression produced {0,number,integer} values.</entry>
+    <entry key="forwardInvalidIndexing">Unable to forward indexing operations. Only dot indexing can follow parentheses indexing.</entry>
+    <!-- Intermediate reference and assignment cases. -->
+    <entry note="Message hole {0} is replaced by the message with key brace_index or dot_index." key="expected_one_output_from_intermediate_indexing">Intermediate {0} produced a comma-separated list with {1,number,integer} values, but it must produce a single value when followed by subsequent indexing operations.</entry>
+    <!-- For Final Reference in single context. -->
+    <entry note="Message hole {0} is replaced by the message with key brace_index or dot_index." key="expected_one_output_from_reference">A {0} expression produced a comma-separated list with {1,number,integer} values where only a single value is allowed.</entry>
+    <entry key="functionHandleDeleteUnsupported">Indexing to delete elements from an array of function handles is not supported.</entry>
+    <entry key="forbidDotMethodCallAssignment">Dot method call is not supported for objects of type ''{0}''.</entry>
+    <entry key="forbidDotMethodCallReference">Dot method call is not supported for objects of type ''{0}''. Consider using function call syntax.</entry>
+    <entry key="indexingOperationAssignmentNotSupported">Assigning to IndexingOperation objects is not supported.</entry>
+    <entry key="indexingOperationConcatenationNotSupported">Concatenating IndexingOperation objects is not supported.</entry>
+    <entry key="indexingOperationDeleteRHSMustBeLiteralEmpty">Unable to forward an IndexingOperation whose Type property is ParenDelete when the right-hand side of the assignment is not a literal empty (''[]'').</entry>
+    <entry key="indexingOperationIndicesNotSupported">The ''Indices'' property is only supported for indexing operations whose Type property is Paren, ParenDelete, or Brace.</entry>
+    <entry key="indexingOperationReshapeNotSupported">Reshaping IndexingOperation objects is not supported.</entry>
+    <entry key="indexingOperationNameNotSupported">The ''Name'' property is only supported for indexing operations whose Type property is Dot.</entry>
+    <entry key="indexingOperationTransposeNotSupported">Transposing IndexingOperation objects is not supported.</entry>
+    <!-- indexingOperationConversion is only used internally for diagnostic purposes -->
+    <entry key="indexingOperationConversion" translate="false">An indexing operation object was unexpectedly converted.</entry>
+    <entry key="intermediateForwarding">Forwarding is not supported in intermediate indexing. Perform forwarding at the end of an indexing expression.</entry>
+    <entry key="invalidBraceListLengthAssignmentContext">braceListLength must return a nonnegative integer. braceListLength was called to determine the number of expected inputs to a brace indexed assignment.</entry>
+    <entry key="invalidBraceListLengthReferenceContext">braceListLength must return a nonnegative integer. braceListLength was called to determine the number of outputs of a brace indexing expression or statement.</entry>
+    <entry key="invalidClassAttribute">The class ''{0}'' is invalid because it both inherits from ''{1}'' and has the attribute ''{2}'' set to true. Remove the attribute ''{2}'' from class ''{0}''.</entry>
+    <entry key="invalidDotListLengthAssignmentContext">dotListLength must return a nonnegative integer. dotListLength was called to determine the number of expected inputs to a dot indexed assignment.</entry>
+    <entry key="invalidDotListLengthReferenceContext">dotListLength must return a nonnegative integer. dotListLength was called to determine the number of outputs of a dot indexing expression or statement.</entry>
+    <entry key="invalidOverloadedIndexing">The class ''{0}'' is invalid because it both inherits from ''{1}'' and defines the method ''{2}''. Remove the definition of ''{2}'' from class ''{0}''.</entry>
+    <entry key="invalidParenListLengthAssignmentContext">parenListLength must return a nonnegative integer. parenListLength was called to determine the number of expected inputs to a parentheses indexed assignment.</entry>
+    <entry key="invalidParenListLengthReferenceContext">parenListLength must return a nonnegative integer. parenListLength was called to determine the number of outputs of a parentheses indexing expression or statement.</entry>
+    <!--Begin MATLAB builtin listLength-->
+    <entry key="mustBeIndexingContext">Invalid argument at position 3. Value must be a scalar of type matlab.indexing.IndexingContext.</entry>
+    <entry key="mustBeIndexingOperation">Invalid argument at position 2. Value must be of type IndexingOperation.</entry>
+    <entry key="mustBeNonEmptyIndexingOperation">Invalid argument at position 2. Value must not be empty.</entry>
+    <!--End MATLAB builtin listLength-->
+    <entry key="must_inherit_from_class">If a class inherits from ''{0}'', it must inherit from ''{1}''.</entry>
+    <entry key="parenDotAssignmentNotSupported">Compound indexed assignments that begin with parentheses are not supported for the class ''{0}''.</entry>
+    <entry key="parenDotAssignmentRequiresRedefinesParen">To support compound indexed assignments that begin with parentheses, the class ''{0}'' must inherit from 'matlab.mixin.indexing.RedefinesParen'.</entry>
+    <entry key="parenthesesIndexingFailed">A parentheses indexing operation failed for the class ''{0}''.</entry>
+    <!-- The message "propertiesSupportedForSomeElementsOnly" is for custom object display: there is intentionally no ending punctuation -->
+    <entry key="propertiesSupportedForSomeElementsOnly">Properties supported for some elements only</entry>
+    <entry key="reshapeNotSupported">The reshape method is not supported for objects of type ''{0}''.</entry>
+    <entry key="subsasgnForHandleMustReturnOriginal">Overloaded subsasgn for handle object must return the original handle object.</entry>
+    <entry key="transposeNotSupported">The transpose method is not supported for objects of type ''{0}''.</entry>
+    <entry key="UnableToConvertWithCause">Unable to perform assignment because value of type ''{0}'' is not convertible to ''{1}''.</entry>
+  </message>
+</rsccat>

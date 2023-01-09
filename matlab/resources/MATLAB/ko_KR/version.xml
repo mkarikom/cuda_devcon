@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonCharLibname">라이브러리 이름은 string형 스칼라이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="NonExistLibname">유효하지 않은 라이브러리 이름입니다. VERSION(''-libraryList'')을 사용하여 지원되는 라이브러리 이름 목록을 확인하십시오.</entry>
+    <entry key="InvalidOutput">라이브러리 버전 출력은 문자형 벡터여야 합니다.</entry>
+    <entry key="InvalidOption">유효하지 않은 옵션이 ''version'' 명령에 전달되었습니다.</entry>
+    <entry key="SupportedLibrariesAre">\n지원되는 라이브러리:\n</entry>
+  </message>
+</rsccat>

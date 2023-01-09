@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotACharacter">subsref の入力の構造体は、文字配列を含むフィールド ''type'' をもたなければなりません。</entry>
+    <entry key="NoSubsField">subsref の入力の構造体は、 ''subs'' フィールドを含んでいなければなりません。</entry>
+    <entry key="IncorrectStructSize">subsref の入力パラメーターは、1 行 N 列の構造体配列でなければなりません。</entry>
+    <entry key="IncorrectArguments">関数呼び出しの結果をさらにインデックス化することはできません。</entry>
+    <entry key="LimitedIndexing">''()'' のインデックスのみ {0} でサポートされます。</entry>
+    <entry key="DynamicSubsField">動的プロパティ アクセスは空でない文字ベクトルでなければなりません。</entry>
+  </message>
+</rsccat>

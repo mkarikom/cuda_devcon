@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidP">P must be a vector.</entry>
+    <entry key="RequiresS">S is required to compute error estimates.</entry>
+    <entry key="SizeS">S matrix must be n+2-by-n where n = length(p).</entry>
+  <!--Resource entries for toolbox/matlab/polyfun-->
+    <entry key="ZeroDOF">Zero degrees of freedom implies infinite error bounds.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFontSize">フォント サイズは {0} ポイントから {1} ポイントまでの数値か、{0} ポイントから {1} ポイントまでの数値に ''pt'' を追加したもの、または {2} ピクセルから {3} ピクセルまでの数値に ''px'' を追加したもののいずれかを表す string スカラーでなければなりません。</entry>
+    <entry key="InvalidFontStyle">フォント スタイル "{0}" と他のフォント スタイルを組み合わせることはサポートされていません。</entry>
+    <entry key="InvalidFontColor">フォントの色は、{0} から {1} までの間の整数値からなる 3 要素ベクトルか、{0} から {1} までの間の 3 つの整数値と、4 番目の値として {2} から {3} までの間の double 値からなる 4 要素ベクトルでなければなりません。</entry>
+  </message>
+</rsccat>

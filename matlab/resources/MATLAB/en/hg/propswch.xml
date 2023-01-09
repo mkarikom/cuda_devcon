@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="PropertyTypeEntryOutOfPlace">Property type entry {0,number,integer} out of place in IsDefaultFtnsTableValid</entry>
+    <entry key="PropertyError">{0} \nObject Name: {1}\nProperty Name: ''{2}''\n{3}.</entry>
+    <entry key="FindObjFailed">{0} \nObject Name: {1}\nProperty Name: ''{2}''.</entry>
+    <entry key="NoGet_convert_fcnForDataType">Internal Error: No get_convert_fcn for this data type (should be an assertion)</entry>
+    <entry key="DefaultCanNotBeQueried">Default can not be queried.</entry>
+    <entry key="ReadAccessDenied">Read access denied.</entry>
+    <entry key="AttemptToModifyReadOnlyProperty">Attempt to modify a property that is read-only.</entry>
+    <entry key="DefaultCanNotBeSet">Default can not be set.</entry>
+    <entry key="BadPropertyValueFound">Bad property value found.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InputExceedsFlintmax">Inputs representing integers greater than or equal to flintmax might not be represented exactly as double-precision floating-point values.</entry>
+    <entry key="InvalidBase">The base must be an integer value between 2 and 36.</entry>
+    <entry key="NumberOutsideRange" note="stringDatatypeUpdate">''{0}'' contains characters which cannot be converted to base {1, number, integer}.</entry>
+  </message>
+</rsccat>

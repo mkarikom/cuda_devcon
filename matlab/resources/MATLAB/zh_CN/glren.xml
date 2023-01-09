@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CreateDIBSection">CreateDIBSection 失败，出现 OpenGL 应用程序错误 (bmp{0},pix{1},gle{2})</entry>
+    <entry key="doubleBufferSlow">单缓冲区不可用，双缓冲区较慢。</entry>
+    <entry key="DoubleBufferVisualNotAvailable">双缓冲区视觉效果不可用</entry>
+    <entry key="ErrorIdentifyingOpenGLVisual">标识 OpenGL 视觉效果时出错</entry>
+    <entry key="OffScreenContext">glren:无法创建屏幕外渲染上下文</entry>
+    <entry key="OpenGLRequiresTrueColor">OpenGL 需要真彩色视觉效果才能实现可靠显示</entry>
+    <entry key="print">UIW_SetUpGLPrinting 出现问题</entry>
+    <entry key="PrintingVisual">无法创建用于打印的 OpenGL 视觉效果</entry>
+    <entry key="ServerHasNoGLXExtension">服务器没有 GLX 扩展</entry>
+    <entry key="SetStretchBltMode">SetStretchBltMode 失败，出现 OpenGL 应用程序错误 (gle{0})</entry>
+    <entry key="SingleBufferVisualNotAvailable">单缓冲区视觉效果不可用</entry>
+    <entry key="StretchDIBits">StretchDIBits 失败，出现 OpenGL 应用程序错误 (gle{0})</entry>
+  </message>
+</rsccat>

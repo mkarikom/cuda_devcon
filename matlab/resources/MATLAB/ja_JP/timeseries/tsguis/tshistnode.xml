@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Custom">カスタム</entry>
+    <entry key="InvalidBinVector">無効なビン ベクトル</entry>
+    <entry key="InvalidNumberOfBins">ビン数が無効です</entry>
+    <entry key="NumberOfBins">ビン数</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="UniformCenters">等間隔な中心位置</entry>
+    <entry key="VectorOfCenters">中心位置ベクトル</entry>
+    <entry key="DefineHistogramBins">ヒストグラム ビンの定義</entry>
+  </message>
+</rsccat>

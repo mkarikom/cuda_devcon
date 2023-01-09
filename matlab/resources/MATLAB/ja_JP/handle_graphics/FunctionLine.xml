@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="IncorrectFunctionInput">1 番目の引数は、1 つまたは 2 つの関数をもつセル配列でなければなりません。</entry>
+    <entry key="TooManyVariables">変数が多すぎます。</entry>
+    <entry key="Implicit">{0} を陰関数に設定することはできません。</entry>
+    <entry key="MeshDensityLabel">評価点の数</entry>
+    <entry key="ShowPolesLabel">極での漸近線の表示</entry>
+  </message>
+</rsccat>

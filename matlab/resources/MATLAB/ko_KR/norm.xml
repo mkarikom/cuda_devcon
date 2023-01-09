@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="unknownNorm">사용할 수 있는 유일한 행렬 노름(Norm)은 1, 2, inf 및 \''fro\''입니다.</entry>
+    <entry key="lessAccurate">SVD를 사용한 2-NORM 계산이 index = {0,number,integer}에서 수렴되지 않았습니다.</entry>
+    <entry key="spNorm2notAvailable">희소 행렬 S에 대해 norm(S,2)는 사용할 수 없습니다.</entry>
+    <entry key="inputType">첫 번째 인수는 single형 또는 double형이어야 합니다.</entry>
+    <entry key="inputMustBe2D">입력값은 2차원이어야 합니다.</entry>
+  </message>
+</rsccat>

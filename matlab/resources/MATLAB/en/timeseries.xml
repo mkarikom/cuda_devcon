@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2013 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="Annotations">Annotations</entry>
+    <entry key="Cancel">Cancel</entry>
+    <entry key="DefineNewEvent">Define New Event</entry>
+    <entry key="EditPlot">Edit Plot</entry>
+    <entry key="EmptyNamesNotAllowed">Empty names are not allowed. Please choose a different name.</entry>
+    <entry key="EnterNewName">Enter New Name</entry>
+    <entry key="EventNameCannotBeEmpty">Event name cannot be empty.</entry>
+    <entry key="Help">Help</entry>
+    <entry key="InitializingTimeSeriesTools">Initializing Time Series Tools...</entry>
+    <entry key="InvalidCellArray">Invalid cell array. All elements must be valid timeseries with distinct names.</entry>
+    <entry key="InvalidDateStringFormat" note="stringDatatypeUpdate">Invalid date character vector format</entry>
+    <entry key="InvalidInputArguments">Invalid input argument(s). Error returned was: {0}</entry>
+    <entry key="Name">Name</entry>
+    <entry key="NameAlreadyDefined">''{0}'' is already defined. Please choose a different name.</entry>
+    <entry key="OK">OK</entry>
+    <entry key="PassBand">pass</entry>
+    <entry key="Redo">Redo</entry>
+    <entry key="SlashesNotAllowed">Slashes (''/'') are not allowed in the names. Please choose a different name.</entry>
+    <entry key="StopBand">stop</entry>
+    <entry key="TheMINLimitMustBeSmallerThanTheMAXLimit">The MIN limit must be smaller than the MAX limit</entry>
+    <entry key="TimeCannotBeEmpty">Time cannot be empty.</entry>
+    <entry key="TimeDate">Time/Date</entry>
+    <entry key="TimeMustEvaluateToANonemptyFiniteScalar">Time must evaluate to a non-empty finite scalar.</entry>
+    <entry key="TimeSeries">Time series</entry>
+    <entry key="TimeSeriesTools">Time Series Tools</entry>
+    <entry key="Undo">Undo</entry>
+    <entry key="UnknownObjectType">Unknown object type specified. All elements must be valid data objects:\n{0}, {1}.</entry>
+	<entry key="TstoolDeprecation">tstool has been removed. For details on what to use instead, see the R2014a Release Notes.</entry> 
+	<entry key="TstoolRemove">tstool has been removed. For details on what to use instead, see the R2013b Release Notes.</entry> 
+</message>
+</rsccat>

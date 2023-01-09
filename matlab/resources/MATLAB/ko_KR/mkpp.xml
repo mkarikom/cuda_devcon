@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PPNumberMismatchCoeffs">요청한 다항식 조각의 개수 {0}이(가) 계수의 권장 크기 [{1}] 및 지정된 스칼라 계수의 개수 {2}과(와) 호환되지 않습니다.</entry>
+  </message>
+</rsccat>

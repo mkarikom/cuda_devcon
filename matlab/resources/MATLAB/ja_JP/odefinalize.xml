@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedSolver">認識されないソルバー: {0}</entry>
+    <entry key="LogSuccessfulSteps">{0} の成功したステップ\n</entry>
+    <entry key="LogFailedAttempts">{0} の失敗した試行\n</entry>
+    <entry key="LogFunctionEvaluations">{0} の関数評価\n</entry>
+    <entry key="LogPartialDerivatives">{0} 偏微分\n</entry>
+    <entry key="LogLUDecompositions">{0} の LU 分解\n</entry>
+    <entry key="LogSolutionsOfLinearSystems">{0} の線形システムの解\n</entry>
+  </message>
+</rsccat>

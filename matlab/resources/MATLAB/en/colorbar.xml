@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="DeprecatedV6Argument">The ''v6'' argument to COLORBAR is deprecated, and will no longer be supported in a future release.</entry>
+    <entry key="InvalidHandleInput">The colorbar handle must be followed by either ''delete'', ''hide'' or ''off''.</entry>
+    <entry key="InvalidInput">Unrecognized input or invalid parameter/value pair arguments.</entry>
+    <entry key="ParentNotHandle">''Parent'' must be followed by a scalar graphics handle.</entry>
+    <entry key="InvalidParent">A Colorbar can not be a child of an object of type {0}.</entry>
+    <entry key="InvalidPropertyName" note="stringDatatypeUpdate">Property names must be character vectors</entry>
+    <entry key="InvalidPeer">''peer'' must be followed by an axes handle.</entry>
+    <entry key="TooManyOutputs">Too many outputs.</entry>
+    <entry key="TooFewInputs">The colorbar handle must be followed by either ''delete'', ''hide'' or ''off''.</entry>
+    <entry key="UnknownProperty">Unknown property ''{0}''.</entry>
+    <entry key="InvalidRulerLocation">Labels cannot be on the {0} of a {1} colorbar.</entry>
+    <entry key="ParentMustBeSameAsAxes">A colorbar and its associated axes must have the same parent.</entry>
+    <entry key="AxesMustBeCopied">A colorbar must be copied with its associated axes. Use a vector input with COPYOBJ in order to copy the colorbar and axes together.</entry>
+  </message>
+</rsccat>

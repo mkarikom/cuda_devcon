@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidEnumValue">''{0}''은(는) 유효한 값이 아닙니다. 다음 값 중 하나를 사용하십시오. {1}.</entry>
+    <entry key="InvalidEnumValueFor">유효한 열거형 값이 아닙니다. 다음 값 중 하나를 사용하십시오. {0}.</entry>
+    <entry key="InvalidValue">값은 비어 있을 수 없습니다. 다음 값 중 하나를 사용하십시오. {0}.</entry>
+    <entry key="InvalidFiniteValue">값은 유한한 실수여야 합니다.</entry>
+    <entry key="invalidLightingStrength">값이 숫자형 스칼라가 아님</entry>
+    <entry key="invalidPositive">값이 숫자형 스칼라가 아님</entry>
+    <entry key="invalidPositiveInteger">값이 숫자형 스칼라가 아님</entry>
+    <entry key="invalidNoNaN">값이 숫자형 스칼라가 아님</entry>
+    <entry key="invalidZeroToOne">값이 숫자형 스칼라가 아님</entry>
+    <entry key="MustBeString">입력값은 string형 배열이어야 합니다.</entry>
+    <entry key="OutOfMemory">메모리가 부족합니다. "help memory"를 입력해 옵션을 확인하십시오.</entry>
+    <entry key="OutsideRangeFiniteGreater0">값은 0보다 큰 유한수여야 함</entry>
+    <entry key="OutsideRangeIntegerGreater0">값은 0보다 큰 정수여야 함</entry>
+    <entry key="OutsideRange0to1">값은 0과 1 사이여야 함</entry>
+    <entry key="OutsideRangeNaN0to1">값이 NaN이거나, 0.0 &lt;= 값 &lt;= 1.0 범위를 벗어남</entry>
+    <entry key="OutsideRangeValidNumber">값은 유효한 숫자여야 함</entry>
+    <entry key="ParseException">{0}의 값을 구문 분석할 수 없음</entry>
+    <entry key="superiorfloat">입력값은 부동소수점, 즉 single형이나 double형이어야 합니다.</entry>
+    <entry key="UnhandledMxArrayToStringConversion">MxArray를 문자형 벡터로 변환할 수 없습니다.</entry>
+    <entry key="InvalidZLocationValue">ZLocation 값은 ''zmin'', ''zmax'' 또는 숫자형 스칼라여야 합니다.</entry>
+    <entry key="AmbiguousChoice">모호한 입력값임: ''{0}''.</entry>
+  </message>
+</rsccat>

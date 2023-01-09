@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidIntegrand">첫 번째 입력 인수는 함수 핸들이어야 합니다.</entry>
+    <entry key="invalidXMin">XMIN은 부동소수점 스칼라여야 합니다.</entry>
+    <entry key="invalidXMax">XMAX는 부동소수점 스칼라여야 합니다.</entry>
+    <entry key="invalidYMin">YMIN은 부동소수점 스칼라 또는 함수 핸들이어야 합니다.</entry>
+    <entry key="invalidYMax">YMAX는 부동소수점 스칼라 또는 함수 핸들이어야 합니다.</entry>
+    <entry key="invalidZMin">ZMIN은 부동소수점 스칼라 또는 함수 핸들이어야 합니다.</entry>
+    <entry key="invalidZMax">ZMAX는 부동소수점 스칼라 또는 함수 핸들이어야 합니다.</entry>
+    <entry key="invalidAbsTol">유효하지 않은 AbsTol임</entry>
+    <entry key="invalidRelTol">유효하지 않은 RelTol임</entry>
+    <entry key="invalidMethod">메서드는 ''auto'', ''tiled'', ''iterated'' 중 하나여야 합니다.</entry>
+    <entry key="unsuccessful">적분에 실패했습니다.</entry>
+  </message>
+</rsccat>

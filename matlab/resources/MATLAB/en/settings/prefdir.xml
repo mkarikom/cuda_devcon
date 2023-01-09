@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2016-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CreateFolderError">Unable to create the preferences folder in {0}.</entry>
+    <entry key="RelativePathErrorSuffix">Preferences folder location must be a valid full path.</entry>
+    <entry key="RelativePathErrorOnLinux">Unable to create preferences folder in {0}. Preferences folder location must be a valid full path. Ensure that your HOME environment variable is set to a full path.</entry>
+    <entry key="TempPrefdirWarningCannotCreate"><![CDATA[Unable to create preferences folder in {0}. {1} Using a temporary preferences folder for this MATLAB session. See the <a href="matlab: helpview([docroot '/matlab/helptargets.map'],'matlabenvironment_prefdir_location')">preferences documentation</a> for more details.]]></entry>
+    <entry key="TempPrefdirWarningNotWritable"><![CDATA[Unable to access preferences folder {0}. Preferences folder must be writable. Using a temporary preferences folder for this MATLAB session. See the <a href="matlab: helpview([docroot '/matlab/helptargets.map'],'matlabenvironment_prefdir_location')">preferences documentation</a> for more details.]]></entry>
+    <entry key="CreateTempPrefdirErrorSuffix">Preferences folder location must be writable.</entry>
+    <entry key="PrefdirNotWritableOnLinux">Unable to access preferences folder {0}. Preferences folder must be writable.</entry>
+    <entry key="FileNameTooLarge">Preference folder path name is too long.</entry>
+    <entry key="InvalidArgument">Preference folder path is invalid.</entry>
+    <entry key="FileNameConversionFailure">Unable to create preference folder.</entry>
+    <entry key="PathNotFound">Location does not exist.</entry>
+    <entry key="BadAlloc">Insufficient memory.</entry>
+    <entry key="DefaultError">Unknown Error.</entry>
+    <entry key="SystemError">A system error has occurred.</entry>
+    <entry key="ErrorTitle">Error Starting MATLAB</entry>
+    <entry key="ExitButton">Exit MATLAB</entry>
+    <entry key="NoWritePermission">''{0}'' is read-only.  Personal settings will not be saved.</entry>
+  </message>
+</rsccat>

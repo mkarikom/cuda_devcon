@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFigureHandle">유효하지 않은 Figure 핸들입니다.</entry>
+    <entry key="ConserveMemory">인쇄 미리보기가 메모리 절약을 위해 낮은 해상도의 화면에서 이 페이지를 렌더링하고 있습니다. \n인쇄된 페이지의 품질에는 영향을 미치지 않습니다.</entry>
+    <entry key="PrintPreviewDlg">인쇄 미리보기 - {0}</entry>
+    <entry key="PrintButton">인쇄</entry>
+    <entry key="PageSetupButton">페이지 설정...</entry>
+    <entry key="HeaderButton">머리글...</entry>
+    <entry key="RefreshButton">새로 고침</entry>
+    <entry key="CloseButton">닫기</entry>
+    <entry key="NormalizedPaperUnitsNotSupported">인쇄 미리보기는 ''정규화된'' PaperUnits를 지원하지 않습니다. Figure의 PaperUnits가 ''{0}''(으)로 변경되었습니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ConnectionRefused">连接被拒绝。</entry>
+    <entry key="UrlNotFound">未在此服务器上找到请求的 URL。</entry>
+    <entry key="UnknownHost">未知主机: {0}</entry>
+    <entry key="Unsupported">"{0}" 是以递归方式定义的。</entry>
+    <entry key="WriteError">写入文件 {0} 时出错</entry>
+    <entry key="BadXml">无法解析 XML: {0}</entry>
+    <entry key="Exception">未指定的异常: {0}</entry>
+    <entry key="WsdlParsingFailure">WSDL 解析失败:不受支持的 wsdl</entry>
+  </message>
+</rsccat>

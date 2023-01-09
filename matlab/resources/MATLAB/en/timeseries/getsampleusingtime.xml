@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="noarray">The getsampleusingtime method can only be used for a single timeseries object</entry>
+    <entry key="invalidpv">Invalid property-value pair.</entry>
+    <entry key="invalidrelativetime">The start and end times must be numeric values.</entry>
+    <entry key="invalidabsolutetime">Invalid start time format</entry>
+    <entry key="invalidduptimes">The specified time value is duplicated in the timeseries but the AllowDuplicateTimes flag is set to false. Set the AllowDuplicateTimes flag to true when calling GETSAMPLEUSINGTIME to obtain samples at a duplicate time</entry>
+    <entry key="castduptimeflag">The ALLOWDUPLICATETIMES flag does not have logical type. Casting to logical</entry>
+  </message>
+</rsccat>

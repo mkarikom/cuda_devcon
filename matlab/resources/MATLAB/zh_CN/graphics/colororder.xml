@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidTarget">目标必须为图窗或坐标区。</entry>
+    <entry key="InvalidColorString">''{0}'' 不是有效的颜色设定。</entry>
+    <entry key="InvalidColors">颜色必须为 RGB 三元组的三列矩阵、关键字 'default'、字符向量元胞数组或字符串数组。</entry>
+    <entry key="DeletedTarget">目标对象已删除。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NodeNamesNotSupported">ノード名はコード生成でサポートされていません。</entry>
+    <entry key="MethodNotSupported">メソッドはコード生成でサポートされていません。</entry>
+    <entry key="PropertiesCannotBeAdded">グラフまたはダイグラフの作成後はプロパティを追加できません。</entry>
+    <entry key="PropertiesMissing">コード生成では、すべてのプロパティ値を指定しなければなりません。</entry>
+    <entry key="SparseNodePairs">スパースなノード ペアはコード生成でサポートされていません。</entry>
+    <entry key="ComplexNodeID">Numeric node IDs must be real.</entry>
+  </message>
+</rsccat>

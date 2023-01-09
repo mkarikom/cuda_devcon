@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!-- Copyright 2016-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NoTimeVector">Provide a datetime or duration row times vector, a duration or calendarDuration time step, or a positive numeric sample rate to create timetable.</entry>
+    <entry key="NoTimeVectorTableInput">Provide datetime or duration vector for row times to create timetable. To convert table to timetable, use TABLE2TIMETABLE.</entry>
+    <entry key="StringParamNameNotSupported">You might have intended "{0}" to specify a parameter name. However, the timetable constructor requires parameter names to be specified as character vectors. Use timetable(..., ''{0}'', Value) instead.</entry>
+    <entry key="NoTimeVectorPreallocation">Specify a row times vector, time step, or sample rate when preallocating a timetable to a specified size.</entry>
+    <entry key="InvalidTimes">Specify times for subscripting as datetime or duration.</entry> 
+    <entry key="InvalidRowTimes">Row times must be datetime or duration vector.</entry>
+    <entry key="MixedRowTimesAssignment">New row times must be {0} vector.</entry>
+    <entry key="InvalidRowSubscriptsDatetime">Timetable row subscript must be a numeric, logical, or datetime array, or a timerange subscripter.</entry>
+    <entry key="InvalidRowSubscriptsDuration">Timetable row subscript must be a numeric, logical, or duration array, or a timerange subscripter.</entry>
+    <entry key="InvalidRowIndicesDuration">Numeric array indices must be positive integers. If you intended to select rows of the timetable by time, use DURATION, MILLISECONDS, SECONDS, MINUTES, HOURS, DAYS, or YEARS to convert from numeric to duration.</entry>
+    <entry key="CannotRemoveRowTimes">Deleting row times from timetable is not supported.</entry>
+    <entry key="IncorrectNumberOfRowTimes">RowTimes property must contain one time for each row in the timetable.</entry>
+    <entry key="IncorrectNumberOfRowTimesPartial">RowTimes property must contain one time for each row being reassigned.</entry>
+    <entry key="UnrecognizedRowTime">Timetable does not contain a row for the time ''{0}''.</entry>
+    <entry key="IncompatibleLoad" note="Do NOT add period ('.') at the end - it is intentionally left out.">Unable to load the saved timetable because it is incompatible with this version of MATLAB</entry>
+    <entry key="IncompatibleLoadProperties" note="Do NOT add period ('.') at the end - it is intentionally left out.">Unable to load the saved TimetableProperties because it is incompatible with this version of MATLAB</entry>    
+    <entry key="RowLabelsTypeMismatch">Concatenating a timetable whose row times are {0} with a timetable whose row times are {1} is not supported.</entry>
+    <entry key="RowDimNameNondefault">Unrecognized timetable variable name ''{0}''. If you intended to access the row times, use ''{1}'' for this timetable instead.</entry>
+    <entry key="RowDimNameCase">Unrecognized timetable variable name ''{0}''. Names are case sensitive. You may have intended to access the timetable's row times as ''{1}''.</entry>
+    <entry key="RowTimesParamConflict">Specify either a row times vector, or a time step, or a sample rate, but not more than one.</entry>
+    <entry key="TimeStepSampleRateConflict">Specify either the time step as a scalar duration or calendarDuration, or the sample rate as a positive scalar.</entry>
+    <entry key="InvalidSampleRate">The sample rate must be a positive numeric scalar, specified in Hz.</entry>
+    <entry key="InvalidTimeStep">The time step must be a scalar duration or calendarDuration.</entry>
+    <entry key="InvalidTimeStepNumeric">The time step must be a scalar duration or calendarDuration. Convert a numeric value to a duration using SECONDS, MINUTES, HOURS, DAYS, or YEARS, or convert to a calendarDuration using CALDAYS, CALWEEKS, CALMONTHS, CALQUARTERS, or CALYEARS.</entry>
+    <entry key="InvalidStartTime">The start time must be a scalar duration or datetime.</entry>
+    <entry key="InvalidStartTimeNumeric">The start time must be a scalar duration or datetime. Convert a numeric value to a duration using SECONDS, MINUTES, HOURS, DAYS, or YEARS, or convert using DATETIME.</entry>
+    <entry key="DurationStartTimeWithCalDurTimeStep">Specify the start time as a datetime when the time step is a calendarDuration.</entry>
+    <entry key="ImpureCalDurTimeStep">A calendarDuration time step must be made up of only one calendar unit such as days or months. Use CALDAYS, CALWEEKS, CALMONTHS, CALQUARTERS, or CALYEARS to create a calendarDuration time step.</entry>
+    <entry key="SamplingRateToBeRemoved">''SamplingRate'' will be removed in a future release. Use ''SampleRate'' instead.</entry>
+    <entry key="ts2timetable">Use TS2TIMETABLE to convert timeseries objects into timetables.</entry>
+    <entry key="extractTimetable">To construct a timetable, specify both data and duration row times vector, a duration or calendarDuration time step, or a positive numeric sample rate to create timetable. If you meant to construct a timetable from the signals in a Simulink.SimulationData.Dataset, use EXTRACTTIMETABLE.</entry>
+    <!-- codegen -->
+    <entry key="IrregularRowTimesAssignment">Code generation does not support changing between regularly spaced RowTimes and irregularly spaced row times.</entry>
+    <entry key="UnsupportedDatetimeRowTimes">Code generation does not support specifying row times as a datetime vector. Specify row times as a duration vector instead.</entry>
+    <entry key="UnsupportedDatetimeStartTime">Code generation does not support specifying start time as a datetime scalar. Specify start time as a duration scalar instead.</entry>
+    <entry key="UnsupportedMethodCodegen">The {0} method is not supported for timetable in code generation.</entry>
+    <entry key="CannotBeImplicit">Unable to create regular row times. Either the specified start time, time step, or sample rate is nonfinite, or the time step is too small relative to the start time, or the sample rate is too large.</entry>
+    <entry key="InvalidRowTimesType">The RowTimes type must be a datetime or duration column.</entry>
+    <entry key="IncorrectRowTimesTypeLength">The RowTimes type must have the same length as the timetable height. Use coder.resize to change the timetable height.</entry>
+    <entry key="InvalidStartTimeType">The StartTime type must be a datetime or duration scalar.</entry>
+    <entry key="InvalidSampleRateType">The SampleRate type must be a double scalar.</entry>
+    <entry key="InvalidTimeStepType">The TimeStep type must be a duration scalar.</entry>
+    <entry key="StringParamNameNotSupportedCodegen">You might have intended "{0}" to specify a parameter name. However, the timetable constructor requires parameter names to be specified as character vectors, and Name=Value is not supported in code generation. Use timetable(..., ''{0}'', Value) instead.</entry>
+  </message>
+</rsccat>

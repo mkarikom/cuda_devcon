@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidExpression">입력값은 함수 핸들이거나 기호 함수여야 합니다.</entry>
+    <entry key="InvalidPairs">유효하지 않은 파라미터 이름-값 쌍입니다.</entry>
+    <entry key="InvalidParameter">''{0}''은(는) 유효하지 않은 파라미터입니다.</entry>
+    <entry key="MarkersNotSupported">마커는 지원되지 않습니다.</entry>
+    <entry key="NonScalarFunction">함수는 스칼라 입력값을 스칼라 출력값에 매핑해야 합니다.</entry>
+    <entry key="NotVectorized">배열 입력값에 대해 함수가 예기치 않게 동작하고 있습니다. 성능을 개선하려면 입력 인수와 같은 차원의 출력값을 반환하도록 함수를 적절히 벡터화하십시오.</entry>
+    <entry key="RangeVector">범위 값은 증가하는 유한한 실수 요소를 2개 가진 행 벡터여야 합니다.</entry>
+    <entry key="StringFunctionsDeprecated">fplot은 향후 릴리스에서 문자형 벡터나 string형 입력값을 허용하지 않을 예정입니다. fplot({0})을(를) 대신 사용하십시오.</entry>
+    <entry key="TwoOutputsDeprecated">fplot에 대한 출력 인수를 2개 지원하는 기능은 향후 릴리스에서 제거될 예정입니다. XData 및 YData 속성을 대신 사용하십시오.</entry>
+    <entry key="ToleranceDeprecated">fplot에 대한 허용오차 파라미터 입력은 제거되었습니다.</entry>
+    <entry key="TooManyFunctions">함수가 너무 많습니다.</entry>
+    <entry key="TooManyVariables">입력값은 단일 변수로 구성된 함수여야 합니다.</entry>
+  </message>
+</rsccat>

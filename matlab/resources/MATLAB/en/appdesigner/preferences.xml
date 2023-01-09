@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- Copyright 2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>        
+        <!-- All related to MATLAB preference panel -->
+        
+        <entry key="CanvasTitle">Canvas</entry>        
+        <entry key="ShowGrid">Show grid with interval:</entry>        
+        <entry key="GridUnits">pixels</entry>        
+        <entry key="SnapToGrid">Snap to grid</entry>        
+        <entry key="ShowAlignmentHints">Show alignment hints</entry>                
+        <entry key="ShowResizingHints">Show resizing hints</entry>        
+        
+        <entry key="EditorTitle">Editor</entry>                
+        <entry key="FontSize">Font size:</entry>
+        <entry key="ChangeEditorFontSizeLabel">Change Editor Font Size</entry>
+        <entry key="EnableAppCodingAlerts">Enable app coding alerts</entry>        
+        
+        <entry key="ComponentBrowserTitle">Component Browser</entry>        
+        <entry key="IncludeLabelsInComponentBrowser">Include component labels in Component Browser</entry>                
+        
+        <entry key="MRUTitle">Most recently used file list</entry>        
+        <entry key="NumberOfEntries">Number of entries:</entry>        
+        
+        <entry key="AutoSaveTitle">Automatic file changes</entry>        
+        <entry key="SaveOnClickAway">Save changes upon clicking away from an app</entry>                                
+    </message>
+</rsccat>

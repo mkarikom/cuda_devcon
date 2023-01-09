@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AmbiguousName">カラー テーブルに、指定した文字ベクトルと一致する名前が複数含まれています。</entry>
+    <entry key="ParseError">色名または 16 進数色コードが無効です。有効な名前は 'red'、'green'、'blue'、'cyan'、'magenta'、'yellow'、'black'、'white'、'auto'、'none' などです。有効な 16 進数色コードの構成は、'#' で始まり、3 桁または 6 桁の 16 進数が続きます。</entry>
+    <entry key="ValueMustBe3ElementVector">RGB 3 成分が無効です。0 から 1 の間の値からなる 3 要素ベクトルを指定してください。</entry>
+  </message>
+</rsccat>

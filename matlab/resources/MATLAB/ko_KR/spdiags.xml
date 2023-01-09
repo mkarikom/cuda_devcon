@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidSizeBThreeInput">구문 spdiags(B,d,A)에서 B의 크기는 min(size(A))×length(d)여야 합니다.</entry>
+    <entry key="InvalidSizeBFourInput">구문 spdiags(B,d,m,n)에서 B의 크기는 min(m,n)×length(d)여야 합니다.</entry>
+  </message>
+</rsccat>

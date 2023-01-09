@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="unsupported">Function MEMORY is not available on this platform.</entry>
+    <entry key="limitedByContiguousAddressSpaceLine">Limited by contiguous virtual address space available.</entry>
+    <entry key="limitedBySystemMemoryLine">Limited by System Memory (physical + swap file) available.</entry>
+    <entry key="limitedByVirtualAddressSpaceLine">Limited by virtual address space available.</entry>
+    <entry key="maxPossibleArrayLine">Maximum possible array:         </entry>
+    <entry key="memoryAvailableAllArraysLine">Memory available for all arrays:</entry>
+    <entry key="memoryUsedMatlabLine">Memory used by MATLAB:          </entry>
+    <entry key="notAvailableOnPlatformLine">Not available on this platform.</entry>
+    <entry key="physicalMemoryLine">Physical Memory (RAM):          </entry>
+  </message>
+</rsccat>

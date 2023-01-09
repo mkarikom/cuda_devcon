@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<!-- Copyright 2018-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+
+  <message>
+    <!--Context-independent messages-->
+    <entry key="emptyFileName">Invalid empty file name.</entry>
+    <entry key="emptyString">Invalid empty string.</entry>
+    <entry key="nameInvalid">Invalid property "{0}".</entry>
+    <entry key="nameDuplicated">Invalid duplicate property "{0}".</entry>
+    <entry key="nameRemoved">"{0}" has been removed.</entry>
+    <entry key="nameRenamed">"{0}" has been renamed "{1}".</entry>
+    <entry key="listExpected">Expected list ("[") declaration.</entry>
+    <entry key="objectExpected">Expected object ("'{'") declaration.</entry>
+    <entry key="objectOrListExpected">Expected object ("'{'") or list ("[") declaration.</entry>
+    <entry key="stringExpected">Expected string.</entry>
+    <entry key="trueOrFalseExpected">Expected true or false.</entry>
+    <entry key="equalExpectedInsteadOfEqualEqual">Expected "=" instead of "==".</entry>
+    
+    <!--Overall messages-->
+    <entry key="cannotOpenFile">Unable to open file ''{0}''.</entry>
+    <entry key="jsonParsingError" translate="false" note="translate=false set due no translatable content">{0}</entry>
+    <entry key="matlabExpressionInvalid">"{0}" is an invalid MATLAB expression.</entry>
+    <entry key="schemaUnexpectedLocation" note="'_schemaVersion' is a keyword; do not translate">"_schemaVersion" must be the first property in the file.</entry>
+    <entry key="schemaUnexpectedValue" note="'_schemaVersion' is a keyword; do not translate">"_schemaVersion" must be "1.0.0" or "1.1.0".</entry>
+    <entry key="noOutputAtCompletion">validateFunctionSignaturesJSON completed without producing any messages.</entry>
+    <entry key="jsonShadowed">{0} is shadowed by {1}.</entry>
+    <entry key="fileInClassOrPackageFolder">Invalid folder location for file {0}. File must be located in the parent folder of a folder beginning with '@' or '+'.</entry>
+    <entry key="pathToFileInvalid">File "{0}" relative to folder "{1}" must exist.</entry>
+    
+    <!--Messages specific to function/method names-->
+    <entry key="functionNotFound" note="'which' is a keyword; do not translate">Function "{0}" unrecognized by "which". If it is method, prepend the class name.</entry>
+    <entry key="classWithoutMetadata">Unable to get metadata for name "{0}". Check that the name exists and is free of syntax errors.</entry>
+    <entry key="methodNameInvalid">Invalid method name "{0}" of class "{1}".</entry>
+    <entry key="methodWithoutMetadata">Unable to get metadata for method "{0}" of class "{1}".</entry>
+    <entry key="methodGivenForWrongOverload">Replace "{0}" with "{1}" because method "{2}" is defined in class "{3}" and not in class "{4}".</entry>
+    <entry key="expectedIsA">"{0}" must be a "{1}".</entry>
+    <entry key="invalidMessageId">Message identifier "{0}" must exist.</entry>
+    
+    <!--Messages specific to input/output attributes-->
+    <entry key="separatorRemoved" note="'separator' is a keyword; do not translate">"separator" is unnecessary and has been removed.</entry>
+    <entry key="multiplicityReplaced" note="'multiplicity' and 'repeating' are keywords; do not translate">"multiplicity" has been replaced with "repeating".</entry>
+    <entry key="valueInvalid">Invalid "{0}" value "{1}".</entry>
+    <entry key="requireInputAttributeMissing" note="'name', 'kind', 'mutuallyExclusiveGroup' and 'tuple' are keywords; do not translate">Expected "name", "kind", "mutuallyExclusiveGroup", or "tuple".</entry>
+    <entry key="notAfterNameValueOrFlag" note="'namevalue' and 'flag' are keywords; do not translate">"{0}" argument must appear before all "namevalue" and "flag" arguments.</entry>
+    <entry key="notAfterPositional" note="'positional' is a keyword; do not translate">"{0}" argument must appear before all "positional" arguments.</entry>
+    <entry key="notAfterSeparator" note="'separator' is a keyword; do not translate">"{0}" argument must appear before "separator" argument.</entry>
+    <entry key="propertiesMustBeLast" note="'properties' is a keyword; do not translate">"properties" must appear last in the list of arguments.</entry>
+    <entry key="inferredFromNameDoesNotExist" note="'inferredFrom', 'name', and 'inputs' are keywords; do not translate">Invalid "inferredFrom" reference. "{0}" must refer to a "name" in "inputs".</entry>
+    <entry key="prototypeArgumentDoesNotExist" note="All quoted names are keywords; do not translate">"fromPrototypeOrClassname" is invalid unless "inputs" contains an argument with a supported "name": "typename", "classname", or "'like'".</entry>
+    <entry key="doNotUseNumericInOutputs" note="All quoted names are keywords; do not translate">Do not specify a "type" of "numeric" for "outputs". Specify a class or use "inferredFrom" instead.</entry>
+    <entry key="doNotSpecifyKindForOutputs" note="All quoted names are keywords; do not translate">Do not specify a "kind" for "outputs". Their "kind" is always implicitly "ordered".</entry>
+    
+    <!--Messages specific to input/output type attributes-->
+    <entry key="listsNestedTooDeeply">Lists nested too deeply for "type".</entry>
+    <entry key="argumentIsIndexed">Argument name "{0}" is used in indexing expression "{1}". If "{0}" shadows a function, rename argument "{0}".</entry>
+    <entry key="functionHandleCanBeAvoided">"{0}" can be replaced with "{1}".</entry>
+    <entry key="fileDoesNotNeedWildcard" note="'file' is a keyword; do not translate">Use "file" without wildcards to allow any file name.</entry>
+    <entry key="fileWildcardFormatInvalid">Use the form "*.ext[,*.ext...]" for file name wildcards.</entry>
+    <entry key="attributeOrClassUnknown">Unknown attribute or class "{0}".</entry>
+    
+    <!--Messages specific to integrating argument names with documentation-->
+    <entry key="cannotIntegrateDoc" translate="false" note="translate=false set due no translatable content">{0}</entry>
+  </message>
+</rsccat>
+
+<!-- LocalWords: namevalue -->

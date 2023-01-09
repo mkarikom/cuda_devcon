@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNameValueMismatch">後続の入力引数は名前と値のペアでなければなりません。</entry>
+    <entry key="EmptyOrScalarBinEdges">BinEdges は 2 以上の長さのベクトルでなければなりません。</entry>
+    <entry key="InvalidMixedBinInputs">''NumBins''、''BinWidth''、''BinMethod'' または ''BinLimits'' のいずれも、''BinEdges'' 入力の後ろに続けることはできません。</entry>
+    <entry key="NonNumericInput">X は数値配列でなければなりません。</entry>
+    <entry key="InputOutOfIntRange">''整数の'' BinMethod は、各入力要素の絶対値が FLINTMAX/2 以下の場合にのみサポートされます。</entry>
+  </message>
+</rsccat>

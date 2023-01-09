@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="JoinInvalidInput">最初の引数は timetable、2 番目の引数は timetable または table でなければなりません。</entry>
+    <entry key="InnerOuterJoinInvalidInput">timetable と table を内部連結または外部連結できません。両方の引数が timetable でなければなりません。</entry>
+    <entry key="InvalidTimeKeys">無効なキーが指定されました。timetable は行時間によってのみ結合できます。行時間の名前は、'Keys' パラメーターによって、あるいは 2 つの timetable に異なる名前の行時間がある場合は 'LeftKeys' と 'RightKeys' によって指定できます。他のキー変数を使って結合するには、まず timetable から table に変換してください。</entry>
+    <entry key="InvalidVariableKeys">timetable と table を連結する場合、キー変数を timetable の時間ベクトルにすることはできません。</entry>
+    <entry key="MergeKeysMustBeTrue">2 つの timetable を外部連結する場合、''MergeKeys'' を true に設定しなければなりません。</entry>
+    <entry key="RowLabelsCannotBeDataVar">行時間は ''LeftVariables'' または ''RightVariables'' ではサポートされていません。</entry>
+    <entry key="RowLabelsCannotBeDataVarNondefaultName">認識されない変数名 ''{0}'' です。この timetable で ''{1}'' という名前が付けられている行時間にアクセスしようとした可能性があります。しかし、行時間は ''LeftVariables'' または ''RightVariables'' ではサポートされていません。</entry>
+  </message>
+</rsccat>

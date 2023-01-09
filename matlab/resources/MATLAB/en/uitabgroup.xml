@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="OldVersion">The uitabgroup object is undocumented and some of its properties will become obsolete in a future release.\nSee this &lt;a href="{0}"&gt;link&lt;/a&gt; for help in rewriting existing code for uitabgroup to use the updated properties.\n</entry>
+    <entry key="DeprecatedFunction">This implementation of uitabgroup has been deprecated and is no longer supported.</entry>
+  <!--Resource entries for src/hg-->
+    <entry key="InvalidParent">Parent must be a figure, uipanel or a uitab</entry>
+    <entry key="InvalidChild">Child must be a UITab</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="MigratingFunction">v0 flag is obsoleted for the uitabgroup. To continue using this function, remove v0 as the first argument</entry>
+    <entry key="MigratedFunction">v0 option is no longer supported. To continue to use this functionality, remove ''v0'' as the first argument</entry>
+  </message>
+</rsccat>

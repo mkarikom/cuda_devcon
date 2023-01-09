@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadSubscriptingIndex">下标索引错误。</entry>
+    <entry key="exceedFloatPtIntLimit">元素的数目超出最大值 flint 2^53-1。\n结果可能不精确。</entry>
+  </message>
+</rsccat>

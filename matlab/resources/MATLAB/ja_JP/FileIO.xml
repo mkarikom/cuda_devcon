@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ValueTruncated">範囲外の値または整数でない値は、倍精度から文字への変換中に切り捨てられました。</entry>
+    <entry key="InvalidIntPrecision">int* の代わりに bit* を使用してください</entry>
+    <entry key="InvalidUIntPrecision">uint* の代わりに ubit* を使用してください</entry>
+    <entry key="InvalidDOSName">予約された DOS デバイス名がファイル名に選択されています。\n別の有効なファイル名を選択してください。</entry>
+    <entry key="InvalidFid">ファイルの識別子が無効です。有効なファイルの識別子を生成するには fopen を使用してください。</entry>
+    <entry key="sizeMustBeNumeric">サイズは実数でなければなりません。</entry>
+    <entry key="NoHelp">問題を特定できません . . .</entry>
+    <entry key="CannotOpenFile">ファイルを開くことができません。存在しますか? アクセスは許可されていますか? メモリは適切ですか? . . .</entry>
+    <entry key="IsOpenRead">読み取る対象のファイルが開かれていますか? . . .</entry>
+    <entry key="EndOfFile">ファイルの終わりです。</entry>
+    <entry key="IsOpenWrite">書き込み対象のファイルが開かれていますか? . . .</entry>
+    <entry key="NoSpace">デバイスに容量が残っていません。</entry>
+    <entry key="FlushError">フラッシュのエラーです。</entry>
+    <entry key="InvalidFormat">形式が無効です。</entry>
+    <entry key="MatchingFailure">形式が一致しませんでした。</entry>
+    <entry key="SizeTooBig">形式サイズが大きすぎるため、メモリを割り当てられませんでした。</entry>
+    <entry key="NoMemory">数値を印刷するために十分なメモリがありません。</entry>
+    <entry key="NoMemoryForString">文字ベクトルを印刷するために十分なメモリがありません。</entry>
+    <entry key="NotEnoughArgs">形式に対する引数が不足しています。</entry>
+    <entry key="UnsupportedDirective">サポートされていない命令形式です。</entry>
+    <entry key="BadWidthNaN">幅が正しくありません - NaN。</entry>
+    <entry key="BadWidthNegInf">幅が正しくありません - -Inf。</entry>
+    <entry key="BadWidthInf">幅が正しくありません - Inf。</entry>
+    <entry key="BadWidthInt">幅が正しくありません - 整数の範囲外。</entry>
+    <entry key="BadWidthEmptyArg">幅が正しくありません - 空の引数。</entry>
+    <entry key="BadPrecisionNaN">精度が正しくありません - NaN。</entry>
+    <entry key="BadPrecisionNegInf">精度が正しくありません - -Inf。</entry>
+    <entry key="BadPrecisionInf">精度が正しくありません - Inf。</entry>
+    <entry key="BadPrecisionInt">精度が正しくありません - 整数の範囲外。</entry>
+    <entry key="BadPrecisionEmptyArg">精度が正しくありません - 空の引数。</entry>
+    <entry key="BadOffsetNaN">オフセットが正しくありません - NaN。</entry>
+    <entry key="BadOffsetBeforeBegin">オフセットが正しくありません - ファイルの先頭より前になっています。</entry>
+    <entry key="BadOffsetAfterEnd">オフセットが正しくありません - ファイルの終わりまたは書き込まれている最後の文字より後ろになっています。</entry>
+    <entry key="BadOffsetInt">オフセットが整数ではありません。</entry>
+    <entry key="EmptyArg">引数が空です。</entry>
+    <entry key="UngetcFailed">ungetc が失敗しました。</entry>
+    <entry key="WriteCarryByteFailed">キャリー バイトの書き込みに失敗しました。</entry>
+    <entry key="RequireBinaryFile">操作にはバイナリ ファイルが必要です。</entry>
+    <entry key="FseekFailed">fseek は現在の位置から 0 オフセットで失敗しました。</entry>
+    <entry key="ReadFailed">更新時に読み取りできませんでした。</entry>
+    <entry key="FseekFailedNegOne">fseek は現在の位置から -1 オフセットで失敗しました。</entry>
+    <entry key="FseekFailedSkip">fseek は書き込み時にスキップできませんでした。</entry>
+    <entry key="InternalError">内部エラー - MathWorks にこの問題をご報告ください。</entry>
+    <entry key="InvalidChar">Unicode 変換中に無効な文字が発生しました。</entry>
+    <entry key="TruncatedChar">Unicode 変換中に文字の打ち切りが発生しました。</entry>
+    <entry key="IllegalChar">Unicode 変換中に正しくない文字が見つかりました。</entry>
+    <entry key="InvalidTableFormat">Unicode 変換中に無効なテーブル形式が見つかりました。</entry>
+    <entry key="BufferOverflow">Unicode 変換中にバッファー オーバーフローが発生しました。</entry>
+    <entry key="UnknownError">Unicode 変換中に不明なエラーが発生しました。</entry>
+    <entry key="NonScalarNumbered">引数指定の番号は、非スカラー引数では使用できません。</entry>
+    <entry key="NumberedMoreThanArgc">引数の数より多い引数指定の番号が付けられました。</entry>
+    <entry key="HDFSReadWriteNotSupported">Hadoop は ''r+''、''w+''、または ''a+'' のモードでファイルを開くことをサポートしていません。</entry>
+    <entry key="InvalidRemoteLocation">リモート ファイルが見つかりません。ファイルが存在し、パスが有効であることを確認してください。</entry>
+    <entry key="HadoopNotInitialized">Hadoop が見つかりません。環境変数 HADOOP_PREFIX、HADOOP_HOME または MATLAB_HADOOP_INSTALL を有効な Hadoop インストール フォルダーに設定して、もう一度試してください。</entry>
+    <entry key="InvalidURLScheme">ファイル名に無効な URL スキームが含まれています。</entry>
+    <entry key="UnableToSeek">指定のオフセットをもつ与えられた原点からシークできません。</entry>
+    <entry key="DeletedAfterOpening">ファイルの読み取りまたは書き込みができません。原因として、ファイルを開いた後に削除したことが考えられます。</entry>
+    <entry key="Errno">{0}</entry>
+  </message>
+</rsccat>

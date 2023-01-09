@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="SolNotFromDiffEqSolver">{0} must be a structure returned by a differential equation solver.</entry>
+    <entry key="IDXInvalidSolComp">Incorrect solution component requested in {0}.</entry>
+    <entry key="InvalidSolver">Unrecognized solver name ''{0}'' in {1}.solver.</entry>
+  <!--Resource entries for toolbox/matlab/funfun-->
+    <entry key="MissingSolverField">Missing ''solver'' field in the structure {0}.\n         DEVAL will treat {1} as an output of the MATLAB R12 version of BVP4C.</entry>
+    <entry key="NoSolverInStruct">Missing ''solver'' field in the structure {0}.</entry>
+    <entry key="SolOutsideInterval">Attempting to evaluate the solution outside the interval [{0}, {1}] where it is defined.\n</entry>
+    <entry key="NonuniqueSolution">At the interface XC = {0} the solution might not be continuous.\n         DEVAL returns the average of the limits from the left and from the right of the interface. To approximate the limit values, call DEVAL for XC-EPS(XC) or XC+EPS(XC).\n</entry>
+  </message>
+</rsccat>

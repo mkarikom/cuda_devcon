@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="argNumberNotValid">参数数目无效。</entry>
+    <entry key="notInAfunction">如果未在活动函数中，则无法返回输入名称。</entry>
+    <entry key="notSupportedInThisFunction">不支持通过索引重载 {0} 来调用 inputname。</entry>
+    <entry key="notSupportedInScript">不支持从脚本调用 inputname</entry>
+  </message>
+</rsccat>

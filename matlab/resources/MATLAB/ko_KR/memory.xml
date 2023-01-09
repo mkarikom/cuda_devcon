@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="unsupported">이 플랫폼에서는 함수 메모리를 사용할 수 없습니다.</entry>
+    <entry key="limitedByContiguousAddressSpaceLine">사용 가능한 연속 가상 주소 공간에 제한이 있습니다.</entry>
+    <entry key="limitedBySystemMemoryLine">사용 가능한 시스템 메모리(물리적 파일 + 스왑 파일)에 제한이 있습니다.</entry>
+    <entry key="limitedByVirtualAddressSpaceLine">사용 가능한 가상 주소 공간에 제한이 있습니다.</entry>
+    <entry key="maxPossibleArrayLine">사용 가능한 최대 배열:         </entry>
+    <entry key="memoryAvailableAllArraysLine">모든 배열에 사용 가능한 메모리:</entry>
+    <entry key="memoryUsedMatlabLine">MATLAB이 사용하는 메모리:          </entry>
+    <entry key="notAvailableOnPlatformLine">이 플랫폼에서는 사용할 수 없습니다.</entry>
+    <entry key="physicalMemoryLine">물리적 메모리(RAM):          </entry>
+  </message>
+</rsccat>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ColorOrderMustHaveOneElement">ColorOrder には少なくとも 1 つの要素が必要です</entry>
+    <entry key="InvalidColorOrder">ColorOrder の無効な値</entry>
+    <entry key="NullColorOrder">NULL は ColorOrder の有効な値ではありません</entry>
+    <entry key="InvalidFontName">無効なフォント名</entry>
+    <entry key="ArraySizeMustEqual2">配列のサイズが 2 に等しくありません: {0}</entry>
+    <entry key="EmptyArrayInvalid">空の配列は有効な値ではありません</entry>
+    <entry key="InvalidTickLength">TickLength の無効な値</entry>
+    <entry key="MonotonicallyIncrease">値は単調増加しなければなりません</entry>
+    <entry key="NullEnumerated">NULL は、列挙型 {0} のオブジェクトの有効な値ではありません</entry>
+    <entry key="InputMustNotBeNull">{0} の入力パラメーターを、ファイル {1} の {2} 行目で NULL にしないでください</entry>
+    <entry key="InputParameterInstance">入力パラメーターは {0} のインスタンスでなければなりません</entry>
+    <entry key="InputParameterInstanceFile">入力パラメーターは、ファイル {1} の {2} 行目における {0} のインスタンスでなければなりません</entry>
+    <entry key="InvalidStyle">{0} のスタイルが無効です: ファイル {2} の {3} 行目における {1}</entry>
+    <entry key="InvalidValue">値が無効です: NULL</entry>
+    <entry key="InvalidValueFor">{0} 型に対する値が無効です: NULL</entry>
+    <entry key="JNIClassNotFound">JNI は、ファイル {1} の {2} 行目でクラス {0} を見つけられません。</entry>
+    <entry key="JNIFailedCallingMethod">JNI は、ファイル {2} の {3} 行目でクラス {1} のメソッド {0} の呼び出しに失敗しました。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LinkedUnlinkedNoCopy">연결된 그래픽스 조합, 연결 해제된 그래픽스 조합, 표현식에 연결된 그래픽스 조합 중 하나로부터 데이터를 복사하려고 시도 중입니다. 복사에 사용하려는 유형을 선택하십시오.</entry>
+    <entry key="Linked">연결됨</entry>
+    <entry key="Unlinked">연결 해제됨</entry>
+    <entry key="Abort">중단</entry>
+    <entry key="MATLAB">MATLAB</entry>
+  </message>
+</rsccat>

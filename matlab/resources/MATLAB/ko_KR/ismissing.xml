@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FirstInputInvalid">첫 번째 인수는 숫자형, 논리형, datetime형, duration형, calendarDuration형, string형, categorical형, 문자형, cellstr형, table형, timetable형 중 하나여야 합니다.</entry>
+    <entry key="IndicatorsCalendarDuration">calendarDuration형 표시자는 지원되지 않습니다.</entry>
+    <entry key="IndicatorsCategorical">두 번째 인수는 string형, string형 배열, 문자형 행 벡터, 문자형 행 벡터로 구성된 셀형 배열 중 하나여야 합니다.</entry>
+    <entry key="IndicatorsCellstr">두 번째 인수는 문자형 행 벡터이거나 문자형 행 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="IndicatorsChar">두 번째 인수는 문자형 벡터여야 합니다.</entry>
+    <entry key="IndicatorsCharRowVector">문자형 벡터 표시자는 행 벡터여야 합니다.</entry>
+    <entry key="IndicatorsDatetime">두 번째 인수는 datetime형이어야 합니다.</entry>
+    <entry key="IndicatorsDouble">두 번째 인수는 숫자형이거나 논리형이어야 합니다.</entry>
+    <entry key="IndicatorsDuration">두 번째 인수는 duration형이어야 합니다.</entry>
+    <entry key="IndicatorsIntegerLogical">두 번째 인수는 {0}형이거나 double형이어야 합니다.</entry>
+    <entry key="IndicatorsInvalidType">{0} 유형의 표시자는 지원되지 않습니다.</entry>
+    <entry key="IndicatorsSingle">두 번째 인수는 single형이거나 double형이어야 합니다.</entry>
+    <entry key="IndicatorsString">두 번째 인수는 string형이거나 string형 배열이어야 합니다.</entry>
+    <entry key="StdizeCalendarDuration">calendarDuration형은 지원되지 않습니다.</entry>
+    <entry key="InvalidInputsCodegen">첫 번째 인수는 숫자형, 논리형, duration형, string형, 범주형, 문자형, cellstr형 또는 table형이어야 합니다.</entry>
+    <entry key="StringNeedsIndicatorCodegen">첫 번째 인수가 string형인 경우 코드 생성을 위해 표시자가 필요합니다.</entry>
+    <entry key="CellIndicatorsMustBeConstant">코드를 생성하려면 셀형 배열로 지정된 표시자가 상수여야 함</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invalidaxes">The first input argument must be an axes handle.</entry>
+    <entry key="InvalidCamera">The camera handle must be of class matlab.graphics.axis.camera.Camera.</entry>
+    <entry key="InvalidDataSpace">The dataspace handle must be of class matlab.graphics.axis.dataspace.DataSpace</entry>
+  </message>
+</rsccat>

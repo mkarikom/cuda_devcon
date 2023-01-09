@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="badMessageStyle">The fourth input must be either ''struct'' or ''string''.</entry>
+    <entry key="invalidOutputs">No output arguments are allowed in the two input usage of nargoutchk.</entry>
+    <entry key="notEnoughOutputs">Not enough output arguments.</entry>
+    <entry key="tooManyOutputs">Too many output arguments.</entry>
+  </message>
+</rsccat>

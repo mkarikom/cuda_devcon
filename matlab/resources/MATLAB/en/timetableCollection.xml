@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- Copyright 2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+<!--
+These messages are for a feature that is at risk of not shipping in R2019b.
+So it is probably best to not translate them yet. We will create a geck to
+give the go-ahead.
+-->
+    <entry key="NoPlotMethod">The plot function does not work with a timetable collection. To plot data in a timetable collection, either ...\n  * Use the stackedplot function, or\n  * Synchronize the timetables in the collection and plot data from the synchronized timetable.</entry>
+    <entry key="TablesNotSupported">Tables are not supported as members of a timetable collection.</entry>
+    <entry key="ShapeParamNotValid">timetableCollection does not support the MemberShape input.</entry>
+    <entry key="TypeParamNotValid">timetableCollection does not support the MemberType input.</entry>
+    <entry key="MustBeTimetables">All data inputs must be timetables.</entry>
+    <entry key="StackedplotMode">Second input must be ''byvariable'' or ''bytimetable''.</entry>
+    <entry key="SelectDataError">There was an error selecting data from member {0,number,integer} of the timetable collection:</entry>
+    <entry key="AssignDataError">There was an error assigning data to member {0,number,integer} of the timetable collection:</entry>
+    <entry key="ConditionFunError">There was an error selecting rows in member {0,number,integer} of the timetable collection:</entry>
+    <entry key="NoCondition">Provide either ''Variables'', ''RowTimeRange'', ''IntersectedRowTimes'', or ''Condition''.</entry>
+    <entry key="InvalidConditionFun">Condition must be a function handle to a function accepting a timetable, and returning a logical scalar.</entry>
+    <entry key="InvalidVariablesCondition">Variables must be one or more variable names, a vartype, or a function handle.</entry>
+    <entry key="InvalidRowTimeRangeCondition">RowTimeRange must be a timerange subscripter.</entry>
+    <entry key="InvalidIntersectedRowTimesCondition">IntersectedRowTimes must be a scalar datetime or duration, or a timerange subscripter.</entry>
+   </message>
+</rsccat>

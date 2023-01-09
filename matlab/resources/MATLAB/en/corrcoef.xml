@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotEnoughInputs">Not enough input arguments.</entry>
+    <entry key="XYmismatch">X and Y must have the same number of elements.</entry>
+    <entry key="InputDim">Inputs must be 2-D.</entry>
+    <entry key="ComplexInputs">Cannot compute p-values for complex inputs.</entry>
+    <entry key="unmatchedPVPair">Unmatched parameter name/value pair.</entry>
+    <entry key="invalidArgName">Valid parameters are ''alpha'' and ''rows''.</entry>
+    <entry key="invalidAlpha">The ''alpha'' parameter must be a scalar between 0 and 1.</entry>
+    <entry key="invalidRowChoice">Valid row choices are ''all'', ''complete'', and ''pairwise''.</entry>
+  </message>
+</rsccat>

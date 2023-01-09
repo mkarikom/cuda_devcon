@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidSizeBThreeInput">For the syntax spdiags(B,d,A), the size of B must be min(size(A))-by-length(d).</entry>
+    <entry key="InvalidSizeBFourInput">For the syntax spdiags(B,d,m,n), the size of B must be min(m,n)-by-length(d).</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badtime">您尝试串联的 tscollection 时间向量必须相同。</entry>
+    <entry key="baddata">要串联这些 tscollection，常用的 tscollection 成员 {0} 必须拥有相同的数据。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EndValuesInvalidMethod">''EndValues'' 值必须为 ''extrap''、''previous''、''next''、''nearest''、''none'' 或常量。</entry>
+    <entry key="FirstInputInvalid">第一个参数必须为 numeric、logical、datetime、duration、calendarDuration、string、categorical、char、cellstr、table 或 timetable。</entry>
+    <entry key="CharRowVector">字符填充常量必须为行向量。</entry>
+    <entry key="ConstantCalendarDuration">填充常量必须为 calendarDuration。</entry>
+    <entry key="ConstantCalendarDurationExtrap">''EndValues'' 值必须为 calendarDuration。</entry>
+    <entry key="ConstantCategorical">填充常量必须为分类数组、字符串数组、字符行向量或字符行向量元胞数组。</entry>
+    <entry key="ConstantCategoricalCatMismatch">第一个参数和填充常量必须为顺序相同的相同类别。</entry>
+    <entry key="ConstantCategoricalExtrap">分类数组不支持 ''EndValues'' 填充常量。</entry>
+    <entry key="ConstantCategoricalOrdMismatch">第一个参数和填充常量必须均为有序，或均为无序。</entry>
+    <entry key="ConstantCellstr">填充常量必须为字符行向量或字符行向量元胞数组。</entry>
+    <entry key="ConstantCellstrExtrap">字符行向量元胞数组不支持 ''EndValues'' 填充常量。</entry>
+    <entry key="ConstantChar">填充常量必须为字符数组。</entry>
+    <entry key="ConstantCharExtrap">字符数组不支持 ''EndValues'' 填充常量。</entry>
+    <entry key="ConstantDatetime">填充常量必须为日期时间。</entry>
+    <entry key="ConstantDatetimeExtrap">''EndValues'' 值必须为日期时间。</entry>
+    <entry key="ConstantDuration">填充常量必须为持续时间。</entry>
+    <entry key="ConstantDurationExtrap">''EndValues'' 值必须为持续时间。</entry>
+    <entry key="constantInput">输入参数的数目不足。请在 ''constant'' 方法后指定填充值。</entry>
+    <entry key="ConstantNumeric">填充常量必须为数值或逻辑值。</entry>
+    <entry key="ConstantNumericExtrap">''EndValues'' 值必须为数值或逻辑值。</entry>
+    <entry key="ConstantString">填充常量必须为字符串或字符串数组。</entry>
+    <entry key="ConstantStringExtrap">字符串数组不支持 ''EndValues'' 填充常量。</entry>
+    <entry key="ConstantInvalidTypeExtrap">''EndValues'' 值必须为数值、日期时间、持续时间或 calendarDuration。</entry>
+    <entry key="ConstantInvalidType">填充常量类型无效。</entry>
+    <entry key="ConstantInvalidTypeForTableVariable">表变量 {0} 的填充常量类型无效。</entry>
+    <entry key="DataVariablesArray">只有表输入支持 ''DataVariables'' 参数。</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' 函数句柄必须返回逻辑标量。</entry>
+    <entry key="DataVariablesTableSubscript">''DataVariables'' 值无效。</entry>
+    <entry key="DimensionInvalid">维度必须为正整数。</entry>
+    <entry key="DimensionTable">第一个实参为表或时间表时不支持维度形参。</entry>
+    <entry key="FunctionHandleEmptyInput">当前两个输入参数为空时，对函数句柄的调用无效。</entry>
+    <entry key="FunctionHandleInput">输入参数的数目不足。在函数句柄后指定窗口大小。</entry>
+    <entry key="FunctionHandleNumberOfArguments">函数句柄必须有至少三个输入参数。</entry>
+    <entry key="FunctionHandleInvalidOutputSize">函数句柄的输出长度必须为 1，或必须为缺失值空缺的长度。</entry>
+    <entry key="FunctionHandleInvalidOutputType">函数句柄的输出必须与输入数据类型匹配。</entry>
+    <entry key="FunctionHandleInvalidWindow">窗口长度必须为有限正标量，或者为包含有限非负标量的 2 元素向量。</entry>
+    <entry key="FunctionHandleInvalidWindowDuration">窗口长度必须为有限正标量，或者为包含持续时间类型的有限非负标量的二元素向量。</entry>
+    <entry key="HeterogeneousTable">当维度参数为 2 时，所有表变量都必须具有相同的类型。</entry>
+    <entry key="HeterogeneousTableWithND">当维度参数为 2 时，所有表变量都必须为列向量。</entry>
+    <entry key="InterpolationInvalidArray">{1} 数组不支持 ''{0}'' 填充方法。</entry>
+    <entry key="InterpolationInvalidTableVariable">表包含的变量类型不支持 ''{0}'' 填充方法。</entry>
+    <entry key="MaxGapDurationInvalid">''MaxGap'' data type must be compatible with ''SamplePoints'' data type.</entry>
+    <entry key="MaxGapInvalid">''MaxGap'' must be a positive numeric, duration, or calendarDuration scalar.</entry>
+    <entry key="MaxGapMissingLocations">''MaxGap'' is not supported when ''MissingLocations'' is specified.</entry>
+    <entry key="MethodInvalid">填充方法必须为 ''constant''、''function_hande''、''previous''、''next''、''nearest''、''linear''、''spline''、''pchip''、''makima''、''movmean'' 或 ''movmedian''。</entry>
+    <entry key="MissingLocationsInteger">当 ''MissingLocations'' 与整数或逻辑输入一起使用时，填充方法必须为 ''constant''、''function_handle''、''previous''、''next'' 或 ''nearest''。</entry>
+    <entry key="MissingLocationsInvalid">''MissingLocations'' 值必须为大小与第一个参数的大小相同的逻辑数组。</entry>
+    <entry key="movmeanInput">输入参数的数目不足。请在 ''movmean'' 方法后指定窗口大小。</entry>
+    <entry key="movmedianInput">输入参数的数目不足。请在 ''movmedian'' 方法后指定窗口大小。</entry>
+    <entry key="NameValueNames">参数名称必须为 ''EndValues''、''SamplePoints''、''DataVariables''、''MissingLocations'' 或 ''MaxGap''。</entry>
+    <entry key="NameValuePairs">输入参数的数目不正确。参数名称和值必须成对出现。</entry>
+    <entry key="SamplePointsComplex">''SamplePoints'' 值必须为实数。</entry>
+    <entry key="SamplePointsDuplicate">''{0}'' 值包含重复项。</entry>
+    <entry key="SamplePointsInvalidDatatype">''SamplePoints'' 值必须是双精度、单精度、持续时间或日期时间类型的向量。</entry>
+    <entry key="SamplePointsLength">''SamplePoints'' 值必须为 {0,number,integer} 元素向量。</entry>
+    <entry key="SamplePointsNonFinite">{0} 值包含 Inf 或 {1}。</entry>
+    <entry key="SamplePointsSingle">持续时间和日期时间数组不支持单精度类型的 ''SamplePoints''。</entry>
+    <entry key="SamplePointsSorted">必须对 ''{0}'' 值按升序排序。</entry>
+    <entry key="SamplePointsSparse">''SamplePoints'' 值必须为满的。</entry>
+    <entry key="SamplePointsTimeTable">第一个实参为时间表时不支持 ''SamplePoints'' 形参。</entry>
+    <entry key="SizeConstantScalar">填充常量必须为标量。</entry>
+    <entry key="SizeConstantScalarExtrap">''EndValues'' 值必须为标量。</entry>
+    <entry key="SizeConstant">填充常量必须为标量或 {0,number,integer} 元素向量。</entry>
+    <entry key="SizeConstantExtrap">''EndValues'' 值必须为标量或 {0,number,integer} 元素向量。</entry>
+    <entry key="UnsupportedTableVariable">不支持 {0} 类型的表变量。</entry>
+    <entry key="WinsizeNotDuration">数据类型无效。如果 ''SamplePoints'' 值为 {0}，则窗口大小必须为持续时间。</entry>
+    <entry key="makimaNotSupported">代码生成不支持填充方法 'makima'。</entry>
+    <entry key="InvalidInputsCodegen">第一个参数必须为数值、逻辑值、持续时间、日期时间、字符串、分类、字符、cellstr 或表。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- Copyright 2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+      <entry key="InputType">All inputs to TIMESERIES2TIMETABLE must be timeseries objects.</entry>
+      <entry key="NonscalarInput">If multiple inputs are given to TIMESERIES2TIMETABLE, they all must be scalar timeseries objects.</entry>
+      <entry key="InvalidUnit">The unit specified in the timeseries DataInfo is not supported in timetable. A timetable variable unit must be scalar text.</entry>
+      <entry key="InvalidTimeUnit" note="Do not translate 'week', 'day', etc. They are a fixed set of allowed names.">The unit specified in the timeseries TimeInfo is not valid for constructing a duration. The allowed units are: 'weeks', 'days', 'hours', 'minutes', 'seconds', 'milliseconds', 'microseconds', and 'nanoseconds'.</entry>
+      <entry key="InvalidTime">The time vector or start value specified in the timeseries TimeInfo are not valid for constructing a timetable. Both values are expected to be numeric.</entry>
+      <entry key="InvalidInterpMethod">The interpolation method specified in the timeseries DataInfo is not valid for a timetable. The allowed methods are: '', 'linear', and 'zoh'. </entry>
+      <entry key="IgnoringEvents">Timeseries Events are not supported in timetables. They are ignored when constructing a timetable.</entry>
+      <entry key="IgnoringQuality">Timeseries Quality is not supported in timetables. They are ignored when constructing a timetable.</entry>
+      <entry key="TimeVectorMismatch">All inputs must have the same time vector, TimeInfo Units, and TimeInfo StartDate. Separately convert each timeseries to a timetable, and then use the SYNCHRONIZE function to combine the timetables.</entry>
+      <entry key="NumberOfRowsMismatch">All timeseries time vectors must be the same length. Separately convert each timeseries to a timetable, and then use the SYNCHRONIZE function to combine the timetables.</entry>
+      <entry key="EmptyTimeVector">All inputs must have nonempty time vectors.</entry>
+      <entry key="EmptyTimeseriesArray">timeseries array input must be non-empty.</entry>
+  </message>
+</rsccat>

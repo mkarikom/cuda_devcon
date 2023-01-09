@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EdgeBounds">간선 인덱스는 그래프에 있는 간선의 개수({0})보다 크지 않은 양의 정수여야 합니다.</entry>
+    <entry key="NoNodeNames">그래프에 노드 이름이 포함되어 있지 않습니다.</entry>
+    <entry key="UnknownNodeName">이름이 ''{0}''인 노드가 그래프에 포함되어 있지 않습니다.</entry>
+    <entry key="InconsistentNodeNames">노드 ID는 모두 숫자형이거나 모두 노드 이름이어야 합니다.</entry>
+    <entry key="maxLHS">출력 인수가 너무 많습니다. 세 개의 입력 인수를 사용하여 호출될 경우 findedge는 하나의 출력 인수를 반환합니다.</entry>
+    <entry key="minLHS">이 구문에는 두 개의 출력값을 사용해야 합니다.</entry>
+    <entry key="minRHS">입력 인수가 부족합니다.</entry>
+    <entry key="nonNumericEdges">간선 인덱스는 숫자형이어야 합니다.</entry>
+    <entry key="CodegenComplexEdges">간선 인덱스는 실수여야 합니다.</entry>
+  </message>
+</rsccat>

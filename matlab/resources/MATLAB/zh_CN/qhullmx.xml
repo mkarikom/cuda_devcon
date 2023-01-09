@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MexFileNotFound">未找到 mex-file</entry>
+    <entry key="PrintCenter">索引超出范围。</entry>
+    <entry key="ProduceConvexHull">不支持合并 collinear/coplanar/cohyperplanar 凸包面。请考虑使用 Qt 选项。</entry>
+    <entry key="NonDoubleInput">第一个输入参数必须为双精度数组。</entry>
+    <entry key="InvalidNumberOfOutputs">输出参数太多。</entry>
+    <entry key="DegenerateData">数据至少在一个维度中是退化的 - 位于(N+1)维空间中的 N 维点集。</entry>
+    <entry key="InputSizeTooLarge">超出了函数允许的最大变量大小。\n要请求在此函数中支持 64 位数组，请将该错误发送到 64bit_support@mathworks.com。</entry>
+    <entry key="ProduceDelaunayM">M 索引超出范围。</entry>
+    <entry key="ProduceDelaunayN">N 索引超出范围。</entry>
+    <entry key="ProduceVoronoi">索引超出范围。</entry>
+    <entry key="ProduceVoronoiVert">顶点索引超出范围。</entry>
+    <entry key="OutputTooLarge">The computed output size is too large.</entry>
+    <entry key="TooFewInputs">输入参数太少。</entry>
+    <entry key="UndefinedError">{0}</entry>
+    <entry key="InternalWarning">{0}</entry>
+  </message>
+</rsccat>

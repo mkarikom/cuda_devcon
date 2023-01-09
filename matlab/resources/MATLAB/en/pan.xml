@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="FigureUnknown">Unknown figure.</entry>
+    <entry key="unrecognizedinput" note="stringDatatypeUpdate">Unknown action character vector.</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="InvalidInputAxes">Input must be an axes handle.</entry>
+    <entry key="InvalidInputZeroOne">Input must be either 0 or 1.</entry>
+    <entry key="InvalidInputForOutArg">Do not specify an output argument with these input arguments.</entry>
+  </message>
+</rsccat>

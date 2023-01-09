@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ACellArrayOfDataObjectsExpectedRedoAborted">应是数据对象的元胞数组。重做中止。</entry>
+    <entry key="ACellArrayOfDataObjectsExpectedUndoAborted">应是数据对象的元胞数组。撤消中止。</entry>
+    <entry key="ObjectListCellArrayIsEmptyCannotRedo">对象列表元胞数组为空。无法重做。</entry>
+    <entry key="ObjectListCellArrayIsEmptyCannotUndo">对象列表元胞数组为空。无法撤消。</entry>
+    <entry key="TheParentNodeSuppliedForRedoIsInvalid">为重做提供的父节点无效。</entry>
+    <entry key="TheParentNodeSuppliedForUndoIsInvalid">为撤消提供的父节点无效。</entry>
+  </message>
+</rsccat>

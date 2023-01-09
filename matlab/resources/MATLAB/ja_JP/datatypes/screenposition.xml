@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFormat">入力値は [x y w h] の形式ではありません</entry>
+    <entry key="NullDataPointer">入力配列は NULL のデータ ポインターをもっています</entry>
+    <entry key="InvalidWidthAndHeight">Width または Height の値を 0 未満にすることはできません。</entry>
+    <entry key="InvalidDataType">データ型が無効です。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoTimeSeriesIdentifierProvided">未在表达式中提供时序标识符</entry>
+    <entry key="MATLABExpressionReturnedNoOutput">MATLAB 表达式未返回输出。</entry>
+    <entry key="ExpressionReturnedNoOutput">表达式未返回输出。</entry>
+    <entry key="OutputTimeSeriesNamesMustBeDefined">必须定义输出时序名称</entry>
+    <entry key="TimeVectorShiftedToStartAtZero">由于两个或更多时序的开始时间不同，输出时序的时间向量已移动到从 0 开始的位置</entry>
+    <entry key="CannotOverwriteDataInSelectedTimeSeries">无法用新数据覆盖所选时序中的数据。最可能的原因是现有时间向量与新数据大小不兼容</entry>
+    <entry key="InvalidSelectedTimeSeries">所选时序无效</entry>
+    <entry key="ApplicationOfMATLABFunctionarithmetic">MATLAB 函数/算术应用</entry>
+    <entry key="TimeSeriesHaveDifferingLengths">时序具有不同的长度。</entry>
+    <entry key="CannotEvaluateExpressionErrorReturned">无法计算表达式，返回的错误为:  {0}</entry>
+    <entry key="ScalarValueReturnedToTheWorkspace">标量值作为带有值的变量 ans 返回至工作区</entry>
+    <entry key="MatrixValueReturnedToTheWorkspace">矩阵值作为带有大小的变量 ans 返回至工作区: {0}。</entry>
+    <entry key="MatrixValueReturnedDisplayedInWorkspace">矩阵值作为带有大小的变量 ans 返回至工作区: {0}。矩阵已显示在工作区中。</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="TimeVectorsMismatch">时间向量不匹配。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ParseError">지정된 값은 유효한 타일이 아닙니다.</entry>
+    <entry key="ValueNumber">타일은 intmax보다 작은 양의 정수여야 합니다.</entry>
+    <entry key="ValueString">타일을 ''north'', ''east'', ''south'' 또는 ''west''로 지정하십시오.</entry>
+    <entry key="IsEqual">TileDataType::IsEqual에서 알 수 없는 예외가 발생함</entry>
+  </message>
+</rsccat>

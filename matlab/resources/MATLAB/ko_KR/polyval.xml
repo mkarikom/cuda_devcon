@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidP">P는 벡터여야 합니다.</entry>
+    <entry key="RequiresS">오차 추정값을 계산하는 데 S가 필요합니다.</entry>
+    <entry key="SizeS">S 행렬은 n+2×n이어야 합니다. n = length(p)입니다.</entry>
+    <entry key="ZeroDOF">자유도 0(Zero degrees of freedom)은 오차 범위에 한계가 없음을 나타냅니다.</entry>
+  </message>
+</rsccat>

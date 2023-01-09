@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="notInAfunction">호출 위치가 활성 함수에 존재하지 않는 경우 호출 위치 정보를 반환할 수 없습니다.</entry>
+    <entry key="notSupportedInScript">스크립트에서 matlab.internal.lang.getCallSiteInfo를 호출하는 것은 지원되지 않습니다.</entry>
+  </message>
+</rsccat>

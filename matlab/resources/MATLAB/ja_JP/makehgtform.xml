@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadTransformType">不明な変換タイプ: {0}</entry>
+    <entry key="InvalidParamTranslateNumeric">translate への引数は数値でなければなりません</entry>
+    <entry key="InvalidParamTranslate3D">translate への引数は 3 次元でなければなりません</entry>
+    <entry key="InvalidParamTranslateFinite">translate への引数は有限でなければなりません</entry>
+    <entry key="InvalidParamScaleNumeric">scale への引数は数値でなければなりません</entry>
+    <entry key="InvalidParamScaleFactor1D3D">倍率は 1 次元か 3 次元でなければなりません</entry>
+    <entry key="InvalidParamScaleFactorFinite">倍率は有限でなければなりません</entry>
+    <entry key="InvalidParamScaleFactorPositive">倍率は正でなければなりません</entry>
+    <entry key="InvalidParamXrotateNumeric">xrotate への引数は数値でなければなりません</entry>
+    <entry key="InvalidParamRotationScalar">回転角はスカラーでなければなりません</entry>
+    <entry key="InvalidParamRotationFinite">回転角は有限でなければなりません</entry>
+    <entry key="InvalidParamYrotateNumeric">yrotate への引数は数値でなければなりません</entry>
+    <entry key="InvalidParamZrotate">zrotate への引数は、数値でなければなりません</entry>
+    <entry key="InvalidParamAxisRotateNumeric">axisrotate への引数は数値でなければなりません</entry>
+    <entry key="BadAxis3D">回転の座標軸は 3 次元でなければなりません</entry>
+    <entry key="BadAxisFinite">回転の座標軸は有限でなければなりません</entry>
+    <entry key="UnrecognizedArg">認識されない引数: {0}</entry>
+    <entry key="InvalidArg">無効な引数</entry>
+  </message>
+</rsccat>

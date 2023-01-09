@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MATLABEditorTitle">MATLAB エディター</entry>
+    <entry key="NotAvailable">MATLAB エディターは、Java なしで使用できません。</entry>
+    <entry key="NoFilename">ドキュメントを取得するにはファイル名を指定してください。</entry>
+    <entry key="PartialPath">開くためには {0} は絶対パスでなければなりません。</entry>
+    <entry key="EmptyEditor">MATLAB エディターを空にすることはできません。</entry>
+    <entry key="InvalidDocumentInput">{0} 引数は matlab.desktop.editor.Document のインスタンスでなければなりません。</entry>
+    <entry key="InvalidSelection">選択を [startLine startColumn endLine endColumn] として指定します。</entry>
+    <entry key="InvalidMatrixDimensions">行列の次元は一致しなければなりません。</entry>
+    <entry key="NonScalarInput">このメソッドは、スカラーの入力のみ処理します。</entry>
+    <entry key="NonNumericScalarInput">{0} 引数は数値スカラーでなければなりません。</entry>
+    <entry key="Uneditable">ドキュメントは編集できません。&lt;a href="matlab:help matlab.desktop.editor.Document.Editable"&gt;Document.Editable&lt;/a&gt; プロパティを使用してドキュメントを編集可能に設定してください。</entry>
+    <entry key="ReadonlyPosition">指定した位置は読み取り専用です。</entry>
+    <entry key="InaccessiblePosition">指定した位置にカーソルを移動できません。</entry>
+    <entry key="NonexistentPosition">指定した位置が存在しません。</entry>
+    <entry key="EditorClosed">ドキュメントが開いていません。&lt;a href="matlab:help matlab.desktop.editor.openDocument"&gt;matlab.desktop.editor.openDocument&lt;/a&gt; を使用して、新しいドキュメント オブジェクトを作成してください。</entry>
+    <entry key="JavaCollectionBadInput">入力は Java Collection ではありません。</entry>
+    <entry key="NonStringInput">{0} 引数は文字ベクトルでなければなりません。</entry>
+    <entry key="NonCellInput">入力引数はテキスト行のセル配列でなければなりません。</entry>
+    <entry key="Invalid32BitInteger">{0} 引数は最大整数値 (2147483647) 以下の整数でなければなりません。</entry>
+    <entry key="Invalid32BitNegativeInteger">{0} 引数は最大整数値 (2147483647) 以下の非負の整数でなければなりません。</entry>
+    <entry key="InvalidChildForAnimation">uicontrol、uipanel および uitable を含む Figure は、AllowFigureAnimation 設定が true に設定されている場合に正しくレンダリングされません。</entry>
+    <entry key="InvalidUIFigureForAnimation">関数 uifigure で作成された Figure は、AllowFigureAnimation 設定が true に設定されている場合に正しくレンダリングされません。</entry>
+    <entry key="CannotOpenDirectory">{0} はフォルダーであるため編集できません。\n\nuntitled のドキュメントを作成しますか?</entry>
+    <entry key="IgnoringReuseWebWindow">'Visible' 値が 'on' の場合、'ReuseWebWindow' パラメーターは無視されます。</entry>
+    <entry key="DialogYes">はい</entry>
+    <entry key="DialogNo">いいえ</entry>
+    <entry key="CloseFailed">ドキュメントに未保存の変更が含まれています。close を呼び出す前に変更を保存するか、代わりに closeNoPrompt を使用して、変更を保存せずにドキュメントを閉じてください。</entry>
+    <entry key="ReloadFailed">{0} が見つかりません。ドキュメントが保存されていない場合は、まずドキュメントを保存してから再度読み込んでください。</entry>
+    <entry key="SaveFailedUntitledBuffer">{0} を保存できません。この document は、名前がなくバッファーにある場合、saveAs メソッドを使用して保存してください。</entry>
+    <entry key="SaveFailedReadOnly">読み取り専用のファイルであるため、{0} を保存できません。</entry>
+    <entry key="SaveFailedPermissionDenied">Unable to save {0} because of insufficient permissions.</entry>
+    <entry key="SaveFailedUnknown">{0} を保存できません。フォルダーの権限と、十分な空き領域があるかどうかをチェックしてください。</entry>
+    <entry key="SaveAsFailedNotAbsoulutePath">ファイル名は完全修飾名でなければなりません。</entry>
+    <entry key="PerformActionTimeout">{0} アクションを実行できません。エディターが要求に対して応答していません。</entry>
+    <entry key="OpenLoadTimeout">エディターを開く、または読み込むことができません。</entry>
+    <entry key="AppStateTimeout">AppContainer から RUNNING という AppState が返されるのを待機している間にタイムアウトが発生しました。</entry>
+    <entry key="OpenAsTextOnPcodedFileWarning">ファイル {0} を開けません。\nファイルはコンテンツを不明瞭化した P コード ファイルです。\n</entry>
+  </message>
+</rsccat>

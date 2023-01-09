@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidTranslation">평행 이동 행렬 생성을 위한 입력값이 유효하지 않음</entry>
+    <entry key="InvalidScale">스케일링 행렬 생성을 위한 입력값이 유효하지 않음</entry>
+    <entry key="InvalidRotation">회전 행렬 생성을 위한 입력값이 유효하지 않음</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="arrowlineCopyError">error copying arrowline</entry>
+    <entry key="CopyError">Error copying axes: {0}</entry>
+    <entry key="NeedHandle">must supply an HGOBJ or a handle to an HGOBJ object</entry>
+  <!--Resource entries for src/hgbuiltins-->
+    <entry key="FigureDoesNotHaveRootParent">Figure does not have Root parent</entry>
+    <entry key="CopyobjFailed">Copyobj failed to create an object of class: {0}\n</entry>
+    <entry key="BadConversionFromDouble">Failed to convert double to handle</entry>
+    <entry key="VectorLengthNotEqual">Parent and child input vectors must be equal length.</entry>
+    <entry key="InvalidChildHandle">Invalid child handle argument</entry>
+    <entry key="InvalidParentHandle">Invalid parent handle argument</entry>
+    <entry key="DegenerateCopy">Cannot copy the same object more than once to the same parent. Try calling COPYOBJ twice instead.</entry>
+    <entry key="InvalidReturnType">The copyElement method of class {0}  returned an invalid type.</entry>
+    <entry key="IncorrectlyAllocatedCopy">The copyElement method of class {0} did not allocate the copy with copyElement@matlab.graphics.mixin.internal.Copyable</entry>
+    <entry key="ObjectNotCopied"><![CDATA[This {0} cannot be copied. See what you can and cannot copy with <a href="matlab: helpview ([docroot filesep 'matlab' filesep 'ref' filesep 'copyobj.html'])">COPYOBJ</a>.]]></entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="isEqual">LogicalArray:isEqual에서 알 수 없는 예외가 발생함</entry>
+    <entry key="BadLogicalArrayRowVector">값은 행 벡터여야 함</entry>
+    <entry key="BadLogicalArray">값은 논리형이거나 논리형 배열이어야 함</entry>
+  </message>
+</rsccat>

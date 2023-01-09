@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MultithreadingDisabled">MATLAB の計算マルチスレッドは無効になっています。\nマルチスレッドを有効にするには、singleCompThread オプションを使用せずに MATLAB を再起動してください。</entry>
+    <entry key="IllegalNumComputationalThreads">{0, number, integer} ではなく、正のスレッド数でなければなりません。</entry>
+    <entry key="CannotChangeNumThreadsHere">Changing the number of computational threads is not supported in this context.</entry>
+  </message>
+</rsccat>

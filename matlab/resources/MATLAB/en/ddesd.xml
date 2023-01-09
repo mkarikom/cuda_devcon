@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotEnoughInputs">Not enough input arguments. See DDESD.</entry>
+    <entry key="TspandEndLTtspan1">Must have tspan(1) &lt; tspan(end).</entry>
+    <entry key="DdefunNotFunctionHandle">The first argument, DDEFUN, must be a function handle.</entry>
+    <entry key="NotContinueFromHistoryEnd">Must continue from last point reached.</entry>
+    <entry key="DDEOutputNotCol">DDEs must return column vectors.</entry>
+    <entry key="DDELengthMismatchHistory">Derivative and history vectors have different lengths.</entry>
+    <entry key="OptRelTolNotPosScalar">Option ''RelTol'' must be a positive scalar.</entry>
+    <entry key="OptAbsTolNotPos">Option ''AbsTol'' must be positive.</entry>
+    <entry key="NonScalarAbsTolNormControl">Solving with NormControl ''on'' requires a scalar AbsTol.</entry>
+    <entry key="OptMaxStepNotPos">Option ''MaxStep'' must be greater than zero.</entry>
+    <entry key="OptInitialStepNotPos">Option ''InitialStep'' must be greater than zero.</entry>
+    <entry key="OptEventsNotFunctionHandle">Option ''Events'' must be a function handle.</entry>
+    <entry key="OptOutputFcnNotFunctionHandle">Option ''OutputFcn'' must be a function handle.</entry>
+  <!--Resource entries for toolbox/matlab/funfun-->
+    <entry key="DelaysInvalidType">The second argument, DELAYS, must be either a function handle or a constant vector.</entry>
+    <entry key="HistoryInvalidType">HISTORY must be a constant vector, DDESD solution structure or a function handle.</entry>
+    <entry key="InconsistentDataType">Mixture of single and double data for ''t0'', ''y0'', ''y(d(t0,y0))'', and ''f(t0,y0,ylags)'' in call to DDESD.</entry>
+    <entry key="JumpsOptionNotAvailable">JUMPS option is not available in DDESD. Solve the problem by restarting at each entry of JUMPS.</entry>
+    <entry key="RelTolIncrease">RelTol has been increased to {0}.</entry>
+    <entry key="AbsTolSize">Solving {0} requires a scalar AbsTol, or a vector AbsTol of length {1,number,integer}</entry>
+    <entry key="IntegrationTolNotMet">Failure at t={0}.  Unable to meet integration tolerances without reducing the step size below the smallest value allowed ({1}) at time t.</entry>
+  </message>
+</rsccat>

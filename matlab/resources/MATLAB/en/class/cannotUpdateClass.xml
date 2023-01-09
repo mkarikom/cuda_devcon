@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" decorate_cxx_names="1">
+  <message>
+    <entry key="Changed">The class file for ''{0}'' has been changed, but the change cannot be applied because objects based on the old class file still exist. If you use those objects, you might get unexpected results. You can use the ''clear'' command to remove those objects. See ''help clear'' for information on how to remove those objects.</entry>
+    <entry key="Missing">Although the class file for ''{0}'' can no longer be found, the class cannot be destroyed because objects based on the old file still exist. If you use those objects, you might get unexpected results. See ''help clear'' for information on how to remove those objects.</entry>
+    <entry key="New">A new class file for ''{0}'' was found in directory ''{1}''. This is not the original class file in directory ''{2}''. Objects based on the original class file still exist, but if you use those objects, you might get unexpected results. To use the new class file, first use the ''clear'' command to remove those objects. See ''help clear'' for information on how to remove those objects.</entry>
+  </message>
+</rsccat>

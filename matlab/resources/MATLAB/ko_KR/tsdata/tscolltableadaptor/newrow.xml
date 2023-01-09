@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TimeSeriesTools">시계열 툴</entry>
+    <entry key="NaNsInsertedDataRowsTimeInfo">시간 = {0}에서 모든 시계열 멤버의 데이터 행에 NaN이 삽입되었습니다.</entry>
+  </message>
+</rsccat>

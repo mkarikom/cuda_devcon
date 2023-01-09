@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TimeVectorContainsBlankTimePoint">時間ベクトルは空白の時点が含まれています。すべての空白の時点を削除しますか?</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="Remove">削除</entry>
+    <entry key="Abort">中止</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CharArgs">입력 인수는 문자형 벡터여야 합니다.</entry>
+    <entry key="ColorSpace">ColorSpace 인수는 ''cmyk'', ''gray'', ''cmykgray'' 중 하나여야 합니다.</entry>
+    <entry key="InconsistentTypes">출력 파일은 입력 파일과 파일 확장자가 동일해야 합니다.</entry>
+    <entry key="BadInputFile">입력 파일을 열어서 읽을 수 없습니다.</entry>
+    <entry key="NotPostScript">입력 파일이 PostScript 파일로 나타나지 않습니다.</entry>
+    <entry key="NotFreeHEP">입력 파일이 컬러스페이스를 설정하기 위해 수정할 수 있는 PostScript 파일이 아닙니다.</entry>
+    <entry key="BadOutputFile">출력 파일을 열어서 쓸 수 없습니다.</entry>
+  </message>
+</rsccat>

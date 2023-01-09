@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AntiDiagonalConflict">입력 열의 마지막 요소가 입력 행의 첫 번째 요소와 일치하지 않습니다. \n         반 대각선(anti-diagonal) 요소가 불일치하면 열 요소가 우선적으로 사용됩니다.</entry>
+  </message>
+</rsccat>

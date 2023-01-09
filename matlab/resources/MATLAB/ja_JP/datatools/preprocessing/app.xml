@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TITLE">データ クリーニング</entry>
+    <entry key="HOME_TAB">ホーム</entry>
+    <entry key="FILE_SECTION">ファイル</entry>
+    <entry key="IMPORT_BUTTON_TEXT">インポート</entry>
+    <entry key="IMPORT_BUTTON_DESCRIPTION">データのインポート</entry>
+    <entry key="VIEW_SECTION">ビュー</entry>
+    <entry key="SHOW_SUMMARY">概要を表示</entry>
+    <entry key="LEGEND">凡例の表示</entry>
+    <entry key="CUSTOM_CATEGORY">カスタマイズ</entry>
+    <entry key="ADD_CUSTOM_FUNCTION">関数の追加</entry>
+    <entry key="EDIT_CUSTOM_FUNCTION">カスタム関数の編集</entry>
+    <entry key="EXPORT_SECTION">エクスポート</entry>
+    <entry key="EXPORT_BUTTON_TEXT">エクスポート</entry>
+    <entry key="EXPORT_BUTTON_DESCRIPTION">データのエクスポート</entry>
+    <entry key="EXPORT_VARIABLE_EXPORTED">変数 {0} は {1} として MATLAB ワークスペースにエクスポートされました</entry>
+    <entry key="EXPORT_SCRIPT_EXPORTED">スクリプトへのエクスポートが完了しました</entry>
+    <entry key="EXPORT_FUNCTION_EXPORTED">関数へのエクスポートが完了しました</entry>
+    <entry key="EXPORT_DIALOG_TITLE">エクスポートが完了しました</entry>
+    <entry key="TABULAR_DOC_GROUP_TITLE">表形式ビュー</entry>
+    <entry key="TABULAR_DOC_TITLE">変数: {0}</entry>
+    <entry key="PPTaskGroupTitle">クリーニング メソッド</entry>
+    <entry key="PPTaskPanelTitle">プレビュー</entry>
+    <entry key="PPTAB">クリーニング メソッド</entry>
+    <entry key="PPMODE_SECTION">データのクリーニング</entry>
+    <entry key="PPMODE_APPLY_BUTTON_TEXT">適用して閉じる</entry>
+    <entry key="PPMODE_APPLY_BUTTON_DESCRIPTION">クリーニングを適用してメイン画面に戻ります</entry>
+    <entry key="PPMODE_CANCEL_BUTTON_TEXT">キャンセル</entry>
+    <entry key="PPMODE_CANCEL_BUTTON_DESCRIPTION">クリーニングをキャンセルしてメイン画面に戻ります</entry>
+    <entry key="PPMODE_HELP_SECTION">ヘルプ</entry>
+    <entry key="PPMODE_HELP_BUTTON_TEXT">ヘルプ</entry>
+    <entry key="PPMODE_HELP_BUTTON_DESCRIPTION">このタスクに関連するドキュメンテーションを参照します</entry>
+    <entry key="PPMODE_HELP_NOHELP">このタスクについて利用可能なヘルプがありません</entry>
+    <entry key="PPMODE_SUBSET_SECTION">真部分集合である</entry>
+    <entry key="PPMODE_SUBSET_CHECKBOX_TEXT">サブセットを使用してプレビュー</entry>
+    <entry key="PPMODE_SUBSET_CHECKBOX_DESCRIPTION">パフォーマンス高速化のため、クリーニング タスク中にデータのサブセットを使用します</entry>
+    <entry key="PPMODE_SUBSET_START_TEXT">開始</entry>
+    <entry key="PPMODE_SUBSET_START_DESCRIPTION">サブセットの開始インデックス</entry>
+    <entry key="PPMODE_SUBSET_END_TEXT">終了</entry>
+    <entry key="PPMODE_SUBSET_END_DESCRIPTION">サブセットの終了インデックス</entry>
+    <entry key="PPMODE_SUBSET_STEP_TEXT">ステップ</entry>
+    <entry key="PPMODE_SUBSET_STEP_DESCRIPTION">サブセットのステップ。開始から終了まで項目が n 番目ごとに選択されます。</entry>
+    <entry key="VARIABLE_PANEL_TITLE">変数</entry>
+    <entry key="HISTORY_PANEL_TITLE">クリーニング ステップ</entry>
+    <entry key="PREPROCESSED_FIGURE_PANEL_TITLE">選択した変数の詳細</entry>
+    <entry key="TASK_GROUP_CLEANING">クリーニング</entry>
+    <entry key="TASK_GROUP_RESHAPING">形状変更</entry>
+    <entry key="TASK_GROUP_SYNCHRONIZING">同期中</entry>
+    <entry key="TASK_GROUP_USER">ユーザーによる作成</entry>
+    <entry key="CUSTOMPP_SECTION">カスタム前処理</entry>
+    <entry key="ADD_CUSTOMPP_BUTTON_TEXT">ギャラリーにカスタム関数を追加</entry>
+    <entry key="ADD_CUSTOMPP_BUTTON_DESCRIPTION">ギャラリーに新しいカスタム前処理タスクを作成します</entry>
+    <entry key="ADD_CUSTOMPP_ERROR">カスタム前処理の追加中にエラーが発生しました</entry>
+    <entry key="TASK_COLUMN_TRANSFORM_BUTTON_TEXT">列変数の計算</entry>
+    <entry key="TASK_COLUMN_TRANSFORM_BUTTON_DESCRIPTION">新しい列変数を作成するか、既存の列変数を計算値でオーバーライドします</entry>
+    <entry key="RETIME_NAME">timetable のリサンプリング</entry>
+    <entry key="USR_ACTION_ERROR_TITLE">無効なアクション</entry>
+    <entry key="USR_ACTION_ERROR_TEXT">アクションの結果、無効な状態となりました。ユーザー アクションを元に戻しています。</entry>
+    <entry key="USR_ACTION_ERROR_NO_NEW_WS_VARS">コードで新しい変数をワークスペースに追加できません。</entry>
+    <entry key="VARIABLE_SELECTOR_NAME">ワークスペースからインポート</entry>
+    <entry key="VARIABLE_SELECTOR_TEXT">table または timetable を選択</entry>
+    <entry key="VARIABLE_SELECTOR_SUB_TEXT">変数</entry>
+    <entry key="CANCEL_BUTTON_TEXT">キャンセル</entry>
+    <entry key="OK_BUTTON_TEXT">OK</entry>
+    <entry key="NO_VAR_WARNING">ワークスペースに table がありません</entry>
+    <entry key="NO_DATA_WARNING">利用可能なデータはありません</entry>
+    <entry key="STEP_RESET_WARNING_TEXT">このアクションによって、以前のステップがすべてクリアされます</entry>
+    <entry key="STEP_RESET_WARNING_PANEL_TITLE">警告</entry>
+    <entry key="STEP_RESET_WARNING_OK">OK</entry>
+    <entry key="STEP_RESET_WARNING_CANCEL">キャンセル</entry>
+    <entry key="STEP_DELETE_WARNING_TEXT">よろしいですか?</entry>
+  </message>
+</rsccat>

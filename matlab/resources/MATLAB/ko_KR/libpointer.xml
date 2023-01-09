@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ExternalPointerValueLost">포인터 값 할당으로 인해 외부 포인터가 교체되었습니다.</entry>
+    <entry key="NullPointerAccess">정의되지 않은 포인터를 통해 데이터에 액세스하려는 시도가 있었습니다.</entry>
+    <entry key="TypeDoesNotExist">지정된 데이터형이 존재하지 않습니다.</entry>
+    <entry key="InvalidPointerUse">유효하지 않은 포인터 사용입니다.</entry>
+    <entry key="PointerMustNotBeEmpty">빈 포인터는 오프셋이 될 수 없습니다.</entry>
+    <entry key="OutOfBounds">데이터가 가리키는 크기보다 더 큰 포인터를 오프셋할 수 없음</entry>
+    <entry key="ValueNotDefined">값을 가져오려면 먼저 데이터형과 값의 크기가 정의되어야 합니다.</entry>
+    <entry key="InvalidType">유형을 찾을 수 없습니다.</entry>
+    <entry key="PointerIsRequired">이 PtrPtr 유형에는 libpointer 객체만 전달될 수 있습니다.</entry>
+    <entry key="PointerTypeMustMatch">포인터 유형은 데이터형과 일치해야 함</entry>
+    <entry key="PointerValueTooSmall">포인터 값은 새 값과 크기가 동일하거나 커야 합니다.</entry>
+    <entry key="PointerTypesMustMatch">포인터 유형은 데이터형과 일치해야 합니다.</entry>
+    <entry key="IllegalConversion">배열은 숫자형 또는 논리형이거나 배열에 대한 포인터여야 함</entry>
+    <entry key="noComplex">복소수 데이터는 libpointer 객체에서 지원되지 않음</entry>
+    <entry key="MustBeString">파라미터를 문자형 벡터로 변환할 수 없음</entry>
+  </message>
+</rsccat>

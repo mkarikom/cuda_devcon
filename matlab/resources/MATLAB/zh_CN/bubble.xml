@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidData">{0}、{1} 和 Size 必须为相同长度的向量。</entry>
+    <entry key="InvalidData3">X、Y、Z 和 Size 必须为长度相同的向量。</entry>
+    <entry key="InvalidCData">CData 必须为 ColorSpec、RGB 三元组、与 X 长度相同的 N×1 向量或 N×3 矩阵。</entry>
+  </message>
+</rsccat>

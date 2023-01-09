@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidFirstArgument">PRINTJOBCONTENTCHANGES에는 ''set'' 또는 ''restore'' 여부가 지정되어야 함</entry>
+    <entry key="invalidSecondArgument">PRINTJOBCONTENTCHANGES에 처리할 수 있는 유효한 printjob 구조체가 필요함</entry>
+  </message>
+</rsccat>

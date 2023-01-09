@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidExpression">입력값은 문자형 벡터 표현식, 함수 이름, 함수 핸들, INLINE 객체 중 하나여야 합니다.</entry>
+    <entry key="NonXYPlot">{0}을(를) xy 평면에서 플로팅할 수 없습니다.</entry>
+    <entry key="NumericValues">ezplot에서는 {0}에 숫자형 값이 필요함</entry>
+    <entry key="ParametrizedSurface">파라미터화된 곡면 함수를 플로팅할 수 없습니다. ezsurf 함수를 사용해 보십시오.</entry>
+    <entry key="NonExplicitFunction">입력 문자형 벡터는 표현식이어야 합니다. 단일 변수의 음함수는 지원되지 않습니다.</entry>
+    <entry key="NoRealValues">{0}을(를) 플로팅할 수 없음: 이 함수에는 실수 값이 없습니다.</entry>
+    <entry key="NotVectorized">함수가 배열 입력값을 실행하는 데 실패했습니다. 함수를 벡터화하면 실행 속도를 높일 수 있으며 배열 요소를 순환하며 실행할 필요가 없습니다.</entry>
+  </message>
+</rsccat>

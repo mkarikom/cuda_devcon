@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="VariablesCreatedInCurrentWorkspace">変数が現在のワークスペースで作成されました。</entry>
+    <entry key="NoVariablesCreatedInCurrentWorkspace">現在のワークスペースで作成された変数がありません</entry>
+    <entry key="DialogOpen">開く</entry>
+    <entry key="ModelFiles">モデル ファイル (*.mdl、*.slx)</entry>
+    <entry key="AllFiles">すべてのファイル (*.*)</entry>
+    <entry key="Models">モデル (*.mdl,*.slx)</entry>
+    <entry key="Model">モデル (*.mdl,*.slx)</entry>
+    <entry key="StateflowFiles">Stateflow ファイル (*.cdr)</entry>
+    <entry key="SimulinkCoderFiles">Simulink Coder ファイル (*.rtw,*.tmf,*.tlc,*.c,*.h,*.adb,*.ads)</entry>
+    <entry key="AllMATLABFiles">すべての MATLAB ファイル</entry>
+    <entry key="MATLABFiles">MATLAB ファイル (*.m)</entry>
+    <entry key="Figures">Figure (*.fig)</entry>
+    <entry key="MATfiles">MAT ファイル (*.mat)</entry>
+  </message>
+</rsccat>

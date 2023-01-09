@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNameValueMismatch">후행 입력 인수는 이름-값 쌍이어야 합니다.</entry>
+    <entry key="BinCountsBinEdgesSizeMismatch">''BinCountsMode''가 ''manual''인 경우 ''BinEdges''의 길이는 ''BinCounts''보다 1만큼 더 길어야 합니다.</entry>
+    <entry key="BinCountsInvalidSize">''NumBins'', ''BinWidth'', ''BinMethod'', ''BinLimits'' 중 하나라도 설정되어 있으면 ''BinCounts''를 설정할 수 없으며, 이 길이는 length(BinEdges)-1과 같아야 합니다.</entry>
+    <entry key="DatetimeBinEdgesClass">{0} 데이터의 경우 Bin 경계값은 {0}이어야 합니다.</entry>
+    <entry key="DatetimeBinLimitsClass">{0} 데이터의 경우 Bin 제한은 {0}이어야 합니다.</entry>
+    <entry key="DatetimeNormalization">datetime형 데이터나 duration형 데이터에는 ''countdensity'' 및 ''pdf'' 정규화가 지원되지 않습니다.</entry>
+    <entry key="DatetimeBinMethod">datetime형 데이터나 duration형 데이터에는 ''integers'' Bin 메서드가 지원되지 않습니다.</entry>
+    <entry key="DurationBinMethod">duration형 데이터에는 ''{0}'' Bin 메서드가 지원되지 않습니다.</entry>
+    <entry key="EmptyBinCountsManualMode">''BinCountsMode''가 ''manual''로 설정되어 있으면 ''BinCounts''를 설정해야 합니다.</entry>
+    <entry key="EmptyBinLimitsManualMode">''BinLimitsMode''가 ''manual''로 설정되어 있으면 ''BinEdges'' 또는 ''BinLimits''를 설정해야 합니다.</entry>
+    <entry key="EmptyOrScalarBinEdges">BinEdges는 길이가 2보다 크거나 같은 벡터여야 합니다.</entry>
+    <entry key="FixedDataClass">데이터를 변경할 때 이전 값과 새 값은 모두 숫자이거나 같은 클래스를 가져야 합니다.</entry>
+    <entry key="InvalidStairsFaceColor">''DisplayStyle''이 ''stairs''로 설정된 경우 FaceColor는 ''none''이어야 합니다.</entry>
+    <entry key="InvalidBinMethod">BinMethod를 ''manual''로 설정할 수 없습니다.</entry>
+    <entry key="InvalidBinWidth">Bin 너비는 양의 유한한 스칼라여야 합니다.</entry>
+    <entry key="InvalidColor">{0} 입력값은 유효한 색이 아닙니다.</entry>
+    <entry key="InvalidDatetimeEdges">데이터가 datetime형 배열인 경우 Bin 경계값은 요소를 적어도 2개 가진 datetime형 벡터여야 합니다.</entry>
+    <entry key="InvalidDatetimeOrDurationBinLimits">데이터가 {0}인 경우 Bin 제한은 요소를 2개 가진 정렬된 유한한 {0} 벡터여야 합니다.</entry>
+    <entry key="InvalidDatetimeBinWidth">datetime형 데이터의 경우 Bin 너비는 스칼라 duration형 또는 calendarDuration형이어야 합니다.</entry>
+    <entry key="InvalidDurationBinWidth">duration형 데이터의 경우 Bin 너비는 스칼라 duration형이어야 합니다.</entry>
+    <entry key="InvalidDurationEdges">데이터가 duration형 배열인 경우 Bin 경계값은 요소를 적어도 2개 가진 duration형 벡터여야 합니다.</entry>
+    <entry key="InvalidMixedBinInputs">''BinEdges'' 입력값 다음에는 ''NumBins'', ''BinWidth'', ''BinMethod'', ''BinLimits''가 올 수 없습니다.</entry>
+    <entry key="ManualEdges">Bin 도수에 {1,number,integer}개의 요소가 있을 경우 Bin 경계값은 {0,number,integer}개의 요소를 가진 행 벡터여야 합니다.</entry>
+    <entry key="MixedDataBinCounts">X 입력값이 비어 있지 않으면 BinCounts를 설정할 수 없습니다.</entry>
+    <entry key="NonEmptyBinCountsAutoMode">''BinCountsMode''가 ''auto''로 설정되어 있으면 ''BinCounts''를 설정할 수 없습니다.</entry>
+    <entry key="NonEmptyBinLimitsAutoMode">''BinLimitsMode''가 ''auto''로 설정되어 있으면 ''BinEdges''나 ''BinLimits''를 설정할 수 없습니다.</entry>
+    <entry key="NumericBinEdgesClass">숫자형 데이터의 경우 Bin 경계값은 숫자형이어야 합니다.</entry>
+    <entry key="NumericBinWidthClass">숫자형 데이터의 경우 Bin 너비는 숫자형이어야 합니다.</entry>
+    <entry key="NumericBinLimitsClass">숫자형 데이터의 경우 Bin 제한은 숫자형이어야 합니다.</entry>
+    <entry key="NumericBinMethod">숫자형 데이터의 경우 Bin 메서드는 ''auto'', ''scott'', ''fd'', ''integers'', ''sqrt'', ''sturges'' 중 하나여야 합니다.</entry>
+    <entry key="OrientationMixedType">좌표축에 histogram이 아닌 객체가 있는 경우 datetime형 데이터나 duration형 데이터에는 방향이 지원되지 않습니다.</entry>
+    <entry key="OrientationYYAxes">두 y축에 datetime형 데이터나 duration형 데이터가 있는 히스토그램에 대해서는 ''방향'' 값을 변경할 수 없습니다.</entry>
+    <entry key="ReadOnlyPropertyManualBinCounts">BinCountsMode가 ''manual''이면 {0}을(를) 설정할 수 없습니다.</entry>
+    <entry key="UnsortedDatetimeEdges">Bin 경계값은 NaT가 포함되지 않은 정렬된 datetime형 벡터여야 합니다.</entry>
+    <entry key="UnsortedDurationEdges">Bin 경계값은 NaN이 포함되지 않은 정렬된 duration형 벡터여야 합니다.</entry>
+    <entry key="UnsupportedBinMethod">''{0}''은(는) {1} 데이터에 지원되는 Bin 메서드가 아닙니다.</entry>
+    <entry key="UnsupportedCategories">X 입력값이 숫자형이거나 논리형이면 ''Categories''가 지원되지 않습니다.</entry>
+    <entry key="UnsupportedDatetimeOrDurationNormalization">datetime형 데이터나 duration형 데이터에는 ''{0}'' 정규화 옵션이 지원되지 않습니다.</entry>
+    <entry key="UnsupportedMethodManualBinCounts">BinCountsMode가 ''manual''이면 {0}이(가) 지원되지 않습니다.</entry>
+    <entry key="UnsupportedOrientationInPolarCoordinates">극좌표의 히스토그램에는 가로 방향이 지원되지 않습니다.</entry>
+    <entry key="BinRangePolar">극좌표의 히스토그램에 유효하지 않은 'BinEdges' 값입니다. 최댓값과 최솟값 간의 차이는 2*pi보다 커서는 안 됩니다.</entry>
+    <entry key="BinLimitsRangePolar">극좌표의 히스토그램에 유효하지 않은 'BinLimits' 값입니다. 2*pi 이상 차이 나지 않는 값으로 구성된, 요소를 2개 가진 벡터를 지정하십시오.</entry>
+    <entry key="OrientationLabel">상자 차트의 방향</entry>
+    <entry key="BoxWidthLabel">개별 상자의 상대적 너비</entry>
+    <entry key="JitterOutliersLabel">이상값 마커 변위</entry>
+    <entry key="NotchLabel">중앙값 비교 표시</entry>
+    <entry key="NumBinsLabel">Bin 개수</entry>
+    <entry key="BinMethodLabel">비닝 알고리즘</entry>
+    <entry key="BinWidthLabel">Bin의 너비</entry>
+    <entry key="DisplayStyleLabel">히스토그램 표시 스타일</entry>
+    <entry key="ShowOthersLabel">표시되지 않은 범주에 대한 데이터 요약을 표시할지 여부</entry>
+    <entry key="BarOrientationLabel">막대의 방향</entry>
+    <entry key="BinEdges">Bin 경계값</entry>
+    <entry key="Value">값</entry>
+  </message>
+</rsccat>

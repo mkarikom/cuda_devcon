@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ODEfunNotFunctionHandle">{0}  导函数 ODEFUN 必须为函数句柄。</entry>
+    <entry key="BCfunNotFunctionHandle">{0}  边界条件函数 BCFUN 必须为函数句柄。</entry>
+    <entry key="SolverNameUnrecognized">内部错误 - 求解器名称无法识别: {0}。</entry>
+    <entry key="SolinitNotStruct">{0}  初始配置 SOLINIT 必须是结构体。</entry>
+    <entry key="NoXInSolinit">{0}  SOLINIT 中未提供字段 ''x''。</entry>
+    <entry key="NoYInSolinit">{0}  SOLINIT 中未提供字段 ''y''。</entry>
+    <entry key="SolinitXNotEnoughPts">{0}  SOLINIT.x 必须至少包含两个端点。</entry>
+    <entry key="SolinitXNotMonotonic">{0}  SOLINIT.x 中的条目必须增加或减少。</entry>
+    <entry key="SolinitYEmpty">{0}  SOLINIT.y 中未提供初始猜测值。</entry>
+    <entry key="SolXSolYSizeMismatch">{0}  SOLINIT.y 与 SOLINIT.x 不一致。</entry>
+    <entry key="ODEfunOutputSize">{0}  导函数 ODEFUN 应返回一个长度为 {1,number,integer} 的列向量。</entry>
+    <entry key="BCfunOutputSize">{0}  边界条件函数 BCFUN 应返回一个长度为 {1,number,integer} 的列向量。</entry>
+    <entry key="RelTolNotPos">{0}  OPTIONS 中的 RelTol 必须为正标量。</entry>
+    <entry key="RelTolIncrease">{0}  OPTIONS 中的 RelTol 已增加到 {1}。</entry>
+    <entry key="SizeAbsTol">{0}  对于此问题，OPTIONS 中的 AbsTol 必须为标量或者长度为 {1,number,integer} 的向量。</entry>
+    <entry key="AbsTolNotPos">{0}  OPTIONS 中的 AbsTol 必须为正数。</entry>
+    <entry key="ErrorCallingFun">调用 {0}(ODEFUN,BCFUN,SOLINIT{1})时出错:\n</entry>
+    <entry key="WarningCallingFun">调用 {0}(ODEFUN,BCFUN,SOLINIT{1})时出现警告:\n</entry>
+  </message>
+</rsccat>

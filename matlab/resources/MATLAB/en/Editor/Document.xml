@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="MATLABEditorTitle">MATLAB Editor</entry>
+    <entry key="NotAvailable">The MATLAB Editor is not available without Java.</entry>
+    <entry key="NoFilename">Specify a file name to get a document.</entry>
+    <entry key="PartialPath">Open requires that {0} be an absolute path.</entry>
+    <entry key="EmptyEditor">MATLAB Editor cannot be empty.</entry>
+    <entry key="InvalidDocumentInput">{0} argument must be an instance of matlab.desktop.editor.Document.</entry>
+    <entry key="InvalidSelection">Specify Selection as [startLine startColumn endLine endColumn].</entry>
+    <entry key="InvalidMatrixDimensions">Matrix dimensions must agree.</entry>
+    <entry key="NonScalarInput">This method works on scalar input only.</entry>
+    <entry key="NonNumericScalarInput">{0} argument must be a numeric scalar.</entry>
+    <entry key="Uneditable">The document is not editable. Set the document to editable using the <![CDATA[<a href="matlab:help matlab.desktop.editor.Document.Editable">Document.Editable</a>]]> property.</entry>
+    <entry key="ReadonlyPosition">Specified position is read-only.</entry>
+    <entry key="InaccessiblePosition">Unable to move cursor to specified position.</entry>
+    <entry key="NonexistentPosition">Specified position does not exist.</entry>
+    <entry key="EditorClosed">The document is not open. Create a new document object using <![CDATA[<a href="matlab:help matlab.desktop.editor.openDocument">matlab.desktop.editor.openDocument</a>]]>.</entry>
+    <entry key="JavaCollectionBadInput">Input is not a Java Collection.</entry>
+    <entry key="NonStringInput" note="stringDatatypeUpdate">{0} argument must be a character vector.</entry>
+    <entry key="NonCellInput">Input argument must be a cell array of text lines.</entry>
+    <entry key="Invalid32BitInteger">{0} argument must be an integer less than or equal to the largest integer value (2147483647).</entry>
+    <entry key="Invalid32BitNegativeInteger">{0} argument must be a non-negative integer less than or equal to the largest integer value (2147483647).</entry>
+    <entry key="InvalidChildForAnimation">Figures with uicontrols, uipanels, and uitables will not render correctly when the AllowFigureAnimation setting is set to true.</entry>
+    <entry key="InvalidUIFigureForAnimation">Figures created with the uifigure function will not render correctly when the AllowFigureAnimation setting is set to true.</entry>
+    <entry key="CannotOpenDirectory">Unable to edit {0} because it is a folder. \n\nDo you want to create an untitled document?</entry>
+    <entry key="IgnoringReuseWebWindow">'ReuseWebWindow' parameter ignored when 'Visible' value is 'on'.</entry>
+    <entry key="DialogYes">Yes</entry>
+    <entry key="DialogNo">No</entry>
+    <entry key="CloseFailed">Document contains unsaved changes. Save the changes before calling close or use closeNoPrompt instead to close the document without saving the changes.</entry>
+    <entry key="ReloadFailed">Unable to find {0}. If the document has never been saved, save the document first before reloading.</entry>
+    <entry key="SaveFailedUntitledBuffer">Unable to save {0}. If the document is an untitled buffer, save it using the saveAs method.</entry>
+    <entry key="SaveFailedReadOnly">Unable to save {0} because the file is read-only.</entry>
+    <entry key="SaveFailedPermissionDenied">Unable to save {0} because of insufficient permissions.</entry>
+    <entry key="SaveFailedUnknown">Unable to save {0}. Check the folder permissions and whether there is sufficient free space.</entry>
+    <entry key="SaveAsFailedNotAbsoulutePath">File name must be a fully qualified name.</entry>
+    <entry key="PerformActionTimeout">Unable to perform {0} action. The Editor is not responding to requests.</entry>
+    <entry key="OpenLoadTimeout">Unable to open or load the Editor.</entry>
+    <entry key="AppStateTimeout">Timeout occurred while waiting for AppContainer to return an AppState of RUNNING.</entry>
+    <entry key="OpenAsTextOnPcodedFileWarning">Unable to open file {0}.\nFile is a content-obscured P-code file.\n</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NonCharLibname" note="stringDatatypeUpdate">Library name must be a string scalar or character vector.</entry>
+    <entry key="NonExistLibname">Invalid library name. Use VERSION(''-libraryList'') to see the list of supported library names.</entry>
+    <entry key="InvalidOutput" note="stringDatatypeUpdate">Library version output must be a character vector.</entry>
+    <entry key="InvalidOption">Invalid option passed to ''version'' command</entry>
+    <entry key="SupportedLibrariesAre">\nThe supported libraries are:\n</entry>
+  </message>
+</rsccat>

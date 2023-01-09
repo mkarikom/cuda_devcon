@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2020 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="ColormapUIFigure">Colormap Editor</entry>
+      <entry key="EditorMenu">File</entry>
+      <entry key="Import">Import...</entry>
+      <entry key="Saveas">Save as...</entry>
+      <entry key="CustomColormap">Custom</entry>
+      <entry key="EditMenu">Edit</entry>
+      <entry key="OpenDoc">Open Documentation...</entry>
+      <entry key="Undo">Undo</entry>
+      <entry key="Redo">Redo</entry>
+      <entry key="ResetCurrent">Reset colormap of current axes</entry>
+      <entry key="ResetAll">Reset colormap of all axes</entry>
+      <entry key="HelpMenu">Help</entry>
+      <entry key="SelectLabel">Colormap</entry>
+      <entry key="SelectPanel">Select Colormap</entry>
+      <entry key="CustomizePanel">Customize Colormap</entry>
+      <entry key="EditSizePanel">Edit Size and Colorspace</entry>
+      <entry key="SetLimitsPanel">Set Colormap Limits</entry>
+      <entry key="Shift">Shift</entry>
+      <entry key="SpecifyColor">Specify Color</entry>
+      <entry key="CurrentColor">Current Color</entry>
+      <entry key="CurrentIndex">Current Index</entry>
+      <entry key="CurrentCData">Current CData</entry>
+      <entry key="Colorspace">Colorspace</entry>
+      <entry key="InterpolatingColorspace">Interpolating Colorspace</entry>
+      <entry key="Size">Size</entry>
+      <entry key="Reverse">Reverse</entry>
+      <entry key="ClimMin" note="CLim is a property of the axes">CLim Minimum</entry>
+      <entry key="ClimMax" note="CLim is a property of the axes">CLim Maximum</entry>
+      <entry key="ColorData">Color Data (CData) values</entry>
+      <entry key="MustNotEmpty">Colormap must not be empty</entry>
+      <entry key="ProgressLabel">Please wait - Initializing</entry>
+      <entry key="InitialLabel">Opening for the first time</entry>
+      <entry key="FinishLabel">Finishing</entry>
+      <entry key="ChooseColor">Choose a color</entry>
+      <entry key="ErrorSettingColorMsg">Use rgb values between 0 and 1 for setting color</entry>
+      <entry key="InvalidColor">Invalid Color</entry>
+      <entry key="SaveColormap">Save the colormap to workspace</entry>
+      <entry key="CancelButton">Cancel</entry>
+      <entry key="SelectColormapToImport">Select colormap:</entry>
+      <entry key="ImportFromWS">Import Colormap from Workspace</entry>
+      <entry key="ImportLabel">Import colormap from workspace</entry>
+      <entry key="ErrorWhileImport">Please select a colormap or hit Cancel to dismiss</entry>
+      <entry key="NoColormap">No Colormap Selected</entry>
+      <entry key="ErrorInSave">Error while updating colormap</entry>
+      <entry key="OkLabel">OK</entry>
+      <entry key="InvalidCLim">Error setting property 'CLim' of class 'Axes'. Value must be a 1x2 vector of numeric type in which the second element is greater than the first element or is Inf.</entry>
+   </message>
+</rsccat>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014-2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+<!-- This file should not be translated by the usual process, but instead should have TMS XML files (ex. resources/MATLAB/ja_JP/internal/localizedStrings_TMS.xml) submitted to Bi18n_integ.-->    
+    
+<!--
+These four messages are for datetime format and default format. The first two keys are used as the default factory setting, and the last two 
+are used to populate the list of formats in the preference panel for datetime. (see g1092675, g1112436 for more information).
+-->
+    <entry key="DefaultFormat" note="This key has already been translated by the developers and placed in the respective file.">dd-MMM-uuuu HH:mm:ss</entry>
+    <entry key="DefaultDateFormat" note="This key has already been translated by the developers and placed in the respective file.">dd-MMM-uuuu</entry>
+    
+<!--
+Each of the following two keys contains a list of datetime formats, separated by @. 
+Thus, the formats themselves cannot contain @. (In general, datetime formats may contain @, but not here)
+-->
+    <entry key="UIPrefsDefaultFormat" note="This key has already been translated by the developers and placed in the respective file.">dd-MMM-uuuu HH:mm:ss@dd-MMM-uuuu HH:mm:ss.SSS@uuuu-MMM-dd HH:mm:ss@uuuu-MM-dd HH:mm:ss@dd/MMM/uuuu HH:mm:ss@dd.MM.uuuu HH:mm:ss</entry>
+    <entry key="UIPrefsDefaultDateFormat" note="This key has already been translated by the developers and placed in the respective file.">dd-MMM-uuuu@uuuu-MMM-dd@uuuu-MM-dd@dd/MMM/uuuu@dd.MM.uuuu</entry>
+    
+<!--
+This key should stay the same regardless of localization. The message is used to populate the datetime locale box in the command window preferences.
+-->
+    <entry key="UIPrefsLocales" translate="false" note="TranslateFalseBatch; This key has already been translated by the developers and placed in the respective file.">en_US@zh_CN@ja_JP@ko_KR</entry>
+
+<!--
+This message tells datetime what locale it should localize to, see g1094319.
+-->
+    <entry key="Locale" note="This key has already been translated by the developers and placed in the respective file.">en_US</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NameAndFunctionNeeded">함수를 호출하려면 라이브러리 이름과 함수 이름이 필요합니다.</entry>
+    <entry key="InvalidReturnType">지원되지 않는 함수 반환 유형입니다.</entry>
+    <entry key="Unsupported">이 플랫폼에서는 공유 라이브러리 호출이 지원되지 않습니다.</entry>
+    <entry key="StdUnsupported">이 플랫폼에서는 Std 호출이 지원되지 않습니다.</entry>
+    <entry key="NotFound">라이브러리가 발견되지 않았습니다.</entry>
+    <entry key="MethodNotFound">메서드가 발견되지 않았습니다.</entry>
+    <entry key="AccessNotAllowed">메서드에 액세스하는 것이 허용되지 않습니다.</entry>
+    <entry key="MethodNotStatic">인스턴스 메서드를 정적 메서드로 호출할 수 없습니다.</entry>
+    <entry key="NoMatchingSignatureFound">시그니처가 일치하는 메서드가 없습니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DatetimeDurationSameAxes">无法在同一图表上同时绘制日期时间和持续时间。可将其中一种时间转换为数值。</entry>
+    <entry key="DataPairsMismatch">数据必须为单一日期时间矩阵 Y 或 X,Y 配对列表。</entry>
+    <entry key="DifferentTypeSameAxis">无法在同一轴上绘制其他类型的日期时间或持续时间。</entry>
+    <entry key="MultipleTickFormats">无法指定多个刻度格式参数。</entry>
+    <entry key="TickFormatMismatch">{0} 不是有效参数。</entry>
+    <entry key="UnmatchedTickFormat">没有为 ''{0}'' 提供值。名称-值对组参数需要一个名称并后跟一个值。</entry>
+    <entry key="LogScaleNotSupported">时间轴不支持对数刻度。轴刻度无法更改。 </entry>
+    <entry key="ItemDisabled">(对包含日期时间或持续时间绘图的图窗禁用)</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NDArray">入力配列は 2 次元行列でなければなりません。</entry>
+    <entry key="RowTimeRequired">行時間の datetime ベクトルまたは duration ベクトルを指定してください。</entry>
+    <entry key="IncorrectNumberOfRowTimes">行時間は、入力の timetable の各行に 1 つの時間を指定する datetime ベクトルまたは duration ベクトルでなければなりません。</entry>
+    <entry key="CodegenVarNames">コードを生成するときは、''VariableNames'' を指定しなければなりません。</entry>
+    <entry key="NonconstantVariableNames">timetable 変数名は定数でなければなりません。</entry>
+  </message>
+</rsccat>

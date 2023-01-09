@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NameForm">Weekday name form can only be short or long or shortloc or longloc.</entry>
+    <entry key="ArgumentMustContainString" note="stringDatatypeUpdate">Argument must be a character vector.</entry>
+    <entry key="InvalidLocale">Cannot obtain names of weekdays for current locale.</entry>
+  </message>
+</rsccat>

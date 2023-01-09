@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="deprecation">将来のリリースでは、timemetadata オブジェクトの Start プロパティは読み取り専用になります。等間隔の時間ベクトルを timeseries に割り当てるには、setuniformtime メソッドを使用します。</entry>
+  </message>
+</rsccat>

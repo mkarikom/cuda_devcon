@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RequireNetObject">最初の引数は、有効な .NET オブジェクトでなければなりません。</entry>
+    <entry key="InvalidCast">''{0}'' 型のオブジェクトを ''{1}'' 型のオブジェクトには変換できません。\n変換用に提供されているインターフェイス型を入力オブジェクトが実装していることを確認してください。</entry>
+    <entry key="ValueTypeUnsupported">値の型のオブジェクトはインターフェイス型に変換できません。</entry>
+    <entry key="UnsupportedInterfaceEvents">イベント リスナーはインターフェイス タイプのオブジェクトに追加できません。</entry>
+    <entry key="UnsupportedInterfaceConversion">インターフェイスを実装するオブジェクトを変換することはできません。</entry>
+    <entry key="UnsupportedClassToClass">オブジェクトは別のクラスのオブジェクトに変換できません。</entry>
+    <entry key="UnsupportedClassToGeneric">オブジェクトは .NET のジェネリック型に変換できません。</entry>
+  </message>
+</rsccat>

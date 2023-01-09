@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidsignalname">不允许在时序名称中使用斜杠 (''/'')。</entry>
+    <entry key="NDdata">时序 ''{0}'' 的数据大小为 [{1}]。\n已将更高维度作为时序工具中的额外列加入。</entry>
+    <entry key="nondoubledata">时序 ''{0}'' 中的数据已转换为双精度值。</entry>
+    <entry key="sparsedata">时序 ''{0}'' 中的数据已从稀疏转换为完全。</entry>
+    <entry key="largesparsedata">由于内存限制，时序 ''{0}'' 中的数据无法从稀疏转换为完全。</entry>
+    <entry key="infindata">时序 ''{0}'' 中的 Inf 已转换为 NaN。</entry>
+    <entry key="missingqualitydesc">由于未在 QualityInfo 中找到说明，QualityInfo 已从 ''{0}'' 中删除。</entry>
+    <entry key="eventunitsreconciled">事件 ''{0}'' 的单位已更改为时序 ''{1}'' 的单位。</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="CannotUseComplexvaluedTS">无法在时序工具内使用复数值时序。\n导入 ''{0}'' 失败。</entry>
+    <entry key="CannotUseTSWithEmptyNames">无法在时序工具内使用名称为空的时序。\n导入失败。</entry>
+    <entry key="TimeSeriesQualitySameSizeAsTimeVector">时序 Quality 必须与时序工具中的 Time 向量大小相同。\n导入失败。</entry>
+    <entry key="ConvertingSparseDataInTimeSeriesToDouble">正在将时序中的稀疏数据转换为双精度值...</entry>
+  </message>
+</rsccat>

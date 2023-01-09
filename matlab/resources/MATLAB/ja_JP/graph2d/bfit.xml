@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ErrordlgErrorExecuting">基本的な近似を実行中のエラー:  {0}</entry>
+    <entry key="ErrordlgError">エラー</entry>
+    <entry key="MsgSaveFitToWorkspace">近似をワークスペースに保存</entry>
+    <entry key="MsgSaveSaveFitAsStruct">近似を次の MATLAB 構造体に保存: </entry>
+    <entry key="MsgSaveNormOfResiduals">残差ノルムを次の MATLAB 変数に保存: </entry>
+    <entry key="MsgSaveResiduals">残差を次の MATLAB 変数に保存: </entry>
+    <entry key="WarndlgCannotPlotWithRepeatedXValue">残差の棒グラフでは、繰り返される X 値の使用が許可されません。\n散布図またはライン プロットを使用するか、繰り返される X 値を削除してください。</entry>
+    <entry key="TitleBasicFitting">基本的な近似</entry>
+    <entry key="DisplayNameCubic">3 次多項式</entry>
+    <entry key="DisplayNameLinear">線形</entry>
+    <entry key="DisplayNameQuadratic">2 次多項式</entry>
+    <entry key="DisplayNameNthDegree">{0} 次</entry>
+    <entry key="DisplayNameShapePreserving">形状維持</entry>
+    <entry key="DisplayNameSpline">スプライン</entry>
+    <entry key="ErrorUnableToDisplayHelpForBasicFitting">基本的な近似に対するヘルプを表示できません:\n{0}</entry>
+    <entry key="ErrorUnableToDisplayHelpForDataStatistics">データの統計に対するヘルプを表示できません:\n{0}</entry>
+    <entry key="TitleDataStatistics">データの統計</entry>
+    <entry key="LegendStringMax">最大値</entry>
+    <entry key="LegendStringMean">平均値</entry>
+    <entry key="LegendStringMedian">中央値</entry>
+    <entry key="LegendStringMin">最小値</entry>
+    <entry key="LegendStringMode">最頻値</entry>
+    <entry key="LegendStringStd">標準偏差</entry>
+    <entry key="DisplayNameData">データ {0}</entry>
+    <entry key="ErrorEvaluateInBaseWorkspaceFailed">MATLAB ベース ワークスペース内で式を評価しようとしましたが、以下のエラーにより失敗しました。\n\n{0}</entry>
+    <entry key="WarningImaginaryPartIgnored">式の虚数部は無視されます。</entry>
+    <entry key="ErrorEvaluatingCausedFitToBeDeleted">式の評価を行うと近似が削除されます。</entry>
+    <entry key="ErrorMustEvaluateToReal">式は実数のスカラー、ベクトル、または行列として評価されなければなりません。</entry>
+    <entry key="ResidualDisplayNthDegreeNorm">{0,number,integer} 次:残差ノルム = {1}</entry>
+    <entry key="ResidualDisplayCubicNorm">3 次: 残差ノルム = {0}</entry>
+    <entry key="ResidualDisplayLinearNorm">線形: 残差ノルム = {0}</entry>
+    <entry key="ResidualDisplayQuadraticNorm">2 次:  残差ノルム = {0}</entry>
+    <entry key="ResidualDisplayShapepreservingNorm">形状維持: 残差ノルム = 0</entry>
+    <entry key="ResidualDisplaySplineNorm">スプライン:残差ノルム = 0</entry>
+    <entry key="MsgNormOfResidualsEqual0">{0}{1}\n\n残差ノルム = 0</entry>
+    <entry key="MsgNormOfResiduals">{0}\n残差ノルム = \n</entry>
+    <entry key="MsgCoefficients">{0}\n\n係数:\n</entry>
+    <entry key="MsgCenteredAndScaledVariable">\n\nセンタリングと\nスケーリングされた変数を使用\n\nz = (x-mu)/sigma\nmu = {0}\nsigma = {1}</entry>
+    <entry key="MsgZIsCenteredAndScaled">\n\nここで、z はセンタリングと\nスケーリングされています:\n\nz = (x-mu)/sigma\nmu = {0}\nsigma = {1}</entry>
+    <entry key="DisplayShapePreservingInterpolant">形状維持内挿</entry>
+    <entry key="DisplaySplineInterpolant">スプライン内挿</entry>
+    <entry key="ErrorTwoPointsRequiredWCubic">3 次のスプライン内挿で近似する場合、少なくとも 2 つのデータ点が必要です。スプラインで近似するには、さらにデータ点を追加してください。</entry>
+    <entry key="ErrorTwoPointsRequiredWShapePres">形状維持内挿で近似する場合、少なくとも 2 つのデータ点が必要です。さらにデータ点を追加してください。</entry>
+    <entry key="WarningPolynomialBadlyConditionedCenterScale">多項式の条件が不適切です。異なる X 値をもつ点を追加するか、より低い次数の多項式を選択するか、[X データのセンタリングとスケーリング] を選択してください。</entry>
+    <entry key="ErrorRepeatedXValuesNotPermittedWCubicInt">3 次のスプライン内挿で近似する場合、X 値の繰り返しは許可されません。繰り返されている値を削除してください。</entry>
+    <entry key="ErrorRepeatedXValuesNotPermittedWShapePres">形状維持内挿で近似する場合、X 値の繰り返しは許可されません。繰り返されている値を削除してください。</entry>
+    <entry key="WarningPointsWithNaNCoordsIgnored">NaN 座標をもつデータ点は無視されます。</entry>
+    <entry key="WarningPolynomialIsBadlyConditionedUseLowerDegree">多項式の条件が不適切です。異なる X 値をもつ点を追加するか、より低い次数の多項式を選択してください。</entry>
+    <entry key="CommentShowEquationsWasSelected">[式の表示] が選択されました</entry>
+    <entry key="CommentShowNormOfResidualsWasSelected">[残差ノルムの表示] が選択されました</entry>
+    <entry key="CommentCalculateAndSaveResidualsEvaluateUsingOriginalXdata">残差の計算と保存 - 元の xdata を使って実行</entry>
+    <entry key="CommentComputeBoundsAsMeanStd">平均 +/- 標準偏差として範囲を計算</entry>
+    <entry key="CommentCreateASeparateFigureForResiduals">残差に対して別の Figure を作成</entry>
+    <entry key="CommentEvaluateInput">入力の評価</entry>
+    <entry key="CommentEvaluatePiecewisePolynomial">区分多項式の計算</entry>
+    <entry key="CommentEvaluatePolynomial">多項式の計算</entry>
+    <entry key="CommentFindCoefficientsForPolynomialUsingNormData">正規化データを使って多項式 (次数 = {0,number,integer}) に対する係数を検出</entry>
+    <entry key="CommentFindCoefficientsForPolynomial">多項式 (次数 = {0,number,integer}) に対する係数を検出</entry>
+    <entry key="CommentFindCoefficientsForShapePresInterpolantUsingNorm">正規化データを使って形状維持内挿の係数を検出</entry>
+    <entry key="CommentFindCoefficientsForShapepreservingInterpolant">形状維持内挿の係数を検出</entry>
+    <entry key="CommentFindCoefficientsForSplineInterpolantUsingNormalizedData">正規化データを使ってスプライン内挿の係数を検出</entry>
+    <entry key="CommentFindCoefficientsForSplineInterpolant">スプライン内挿の係数を検出</entry>
+    <entry key="CommentFindTheString">{0} を検索</entry>
+    <entry key="CommentFindXValuesForPlottingTheFitBasedOnXlim">xlim に基づく近似プロット用に x 値を検出</entry>
+    <entry key="CommentGetAxesXlim">座標軸の xlim を取得</entry>
+    <entry key="CommentGetAxesYlim">座標軸の ylim を取得</entry>
+    <entry key="CommentGetCoordinatesForLine">{0} のラインの座標を取得</entry>
+    <entry key="CommentGetCoordinatesForTheStdBoundsLine">標準偏差の範囲座標を取得</entry>
+    <entry key="CommentGetTheAxesChildren">座標軸の子を取得</entry>
+    <entry key="CommentGetTheIndexToTheAssociatedLine">associatedLine のインデックスを取得</entry>
+    <entry key="CommentGetXdataFromPlotForDataStatistics">プロットからデータ統計用 xdata を取得</entry>
+    <entry key="CommentGetXdataFromPlot">プロットから xdata を取得</entry>
+    <entry key="CommentGetYdataFromPlotForDataStatistics">プロットからデータ統計用 ydata を取得</entry>
+    <entry key="CommentGetYdataFromPlot">プロットから ydata を取得</entry>
+    <entry key="CommentMakeSureDataAreColumnVectors">データが列ベクトルであることを確認</entry>
+    <entry key="CommentMakeSureInputArgumentIsAColumn">入力引数が列ベクトルであることを確認</entry>
+    <entry key="CommentMakeSureValueIsAColumn">値が列ベクトルであることを確認</entry>
+    <entry key="CommentNormalizeValue">値の正規化</entry>
+    <entry key="CommentNormalizeXdata">xdata の正規化</entry>
+    <entry key="CommentPlotResidualsInABarPlot">残差をバー プロットでプロット</entry>
+    <entry key="CommentPlotResidualsInALinePlot">残差をライン プロットでプロット</entry>
+    <entry key="CommentPlotResidualsInAScatterPlot">残差を散布図でプロット</entry>
+    <entry key="CommentPlotTheString">{0} のプロット</entry>
+    <entry key="CommentPlotTheBounds">範囲のプロット</entry>
+    <entry key="CommentPlotTheEvaluatedResults">評価結果のプロット</entry>
+    <entry key="CommentPlotTheFit">近似のプロット</entry>
+    <entry key="CommentPreallocateForShowEquationsCoefficients">[式の表示] 係数に対する事前割り当て</entry>
+    <entry key="CommentPrepareForPlottingResiduals">残差プロットの準備</entry>
+    <entry key="CommentPrepareValuesToPlotStdFirstFindTheMean">標準偏差をプロットするための値を準備; 最初に平均を検出</entry>
+    <entry key="CommentRemoveNaNValuesAndWarn">NaN 値を削除して警告</entry>
+    <entry key="CommentRemoveTheNewLine">新規ラインを削除</entry>
+    <entry key="CommentReorderLinesSoTheNewLineAppearsWithAssociatedData">ラインを並べ替えて新規ラインをデータに対応させて表示</entry>
+    <entry key="CommentRepositionResidualFigure">残差 Figure の再配置 </entry>
+    <entry key="CommentResetLineOrderForLegend">凡例に合わせてラインの順番をリセット</entry>
+    <entry key="CommentResetUnits">単位のリセット</entry>
+    <entry key="CommentSaveCoefficientsForShowEquation">[式の表示] の係数を保存</entry>
+    <entry key="CommentSaveCurrentAxisUnitsThenSetToNormalized">現在の軸の単位を保存し、正規化を設定</entry>
+    <entry key="CommentSaveTypeOfFitForShowEquations">[式の表示] の近似タイプを保存</entry>
+    <entry key="CommentSaveTypeOfFitForShowNormOfResidualsAndShowEquations">[残差ノルムの表示] と [式の表示] の近似タイプを保存</entry>
+    <entry key="CommentSaveTypeOfFitForShowNormOfResiduals">[残差ノルムの表示] の近似タイプを保存。</entry>
+    <entry key="CommentSetColorsToMatchFitLinesAndSetDisplayNames">近似ラインの対応色と表示名を設定</entry>
+    <entry key="CommentSetColorsToMatchFitLines">近似ラインの対応色を設定</entry>
+    <entry key="CommentSetNewLineInProperPosition">新規ラインを適切な位置に設定</entry>
+    <entry key="CommentSetResidualPlotAxisTitle">残差プロットの軸タイトルを設定</entry>
+    <entry key="CommentSetTheChildren">子を設定:</entry>
+    <entry key="CommentShowLegendOnResidualPlot">残差プロットに凡例を表示</entry>
+    <entry key="CommentSortResiduals">残差の並べ替え</entry>
+    <entry key="CommentAssociatedLine">関連するライン</entry>
+    <entry key="CommentAxesForResiduals">残差に対する Axes</entry>
+    <entry key="CommentAxes">座標軸</entry>
+    <entry key="CommentCoefficients">係数</entry>
+    <entry key="CommentGetShowNormOfResidualsString">[残差ノルムの表示] のテキストを取得</entry>
+    <entry key="CommentGetShowEquationString">[式の表示] のテキストを取得</entry>
+    <entry key="CommentNewLine">新規ライン</entry>
+    <entry key="CommentNormOfResiduals">残差ノルム</entry>
+    <entry key="CommentNumberOfSignificantDigits">有効桁数</entry>
+    <entry key="CommentSetLineOrder">ラインの順番の設定</entry>
+    <entry key="CommentShowEquations">式の表示</entry>
+    <entry key="CommentShowNormOfResiduals">残差ノルムの表示</entry>
+    <entry key="CommentTypeOfFit">近似タイプ</entry>
+    <entry key="CommentTypesOfFits">近似タイプ</entry>
+    <entry key="CommentXData">X データ</entry>
+    <entry key="CommentGetStringFromMessageCatalog">メッセージ カタログからテキストを取得。</entry>
+    <entry key="TitleResiduals">残差</entry>
+    <entry key="DlgSaveXStats">X 統計値を MATLAB 構造体に次の名前で保存: </entry>
+    <entry key="DlgSaveYStats">Y 統計値を MATLAB 構造体に次の名前で保存: </entry>
+    <entry key="DlgSaveStatisticsToWorkspace">統計値をワークスペースに保存</entry>
+    <entry key="CubicSplineInterpolant">3 次スプライン内挿</entry>
+    <entry key="ShapePreservingInterpolant">形状維持内挿</entry>
+    <entry key="DataChangedFitsResultsDeleted">''{0}'' のデータは変更されています。近似と結果は削除されます。</entry>
+    <entry key="DataChanged">データが変更されました</entry>
+    <entry key="evaluated">評価済み: {0}</entry>
+    <entry key="InputValueMustEvaluateToReal">入力値は実数のスカラー、ベクトルまたは行列として評価されなければなりません。</entry>
+    <entry key="ImaginaryPartOfInputIgnored">入力の虚数部は無視されます。</entry>
+    <entry key="SaveResultsToWorkspace">結果をワークスペースに保存</entry>
+    <entry key="SaveXinVariable">x を次の名前の MATLAB 変数に保存:</entry>
+    <entry key="SaveFofXinVariable">y を次の名前の MATLAB 変数に保存:</entry>
+  </message>
+</rsccat>

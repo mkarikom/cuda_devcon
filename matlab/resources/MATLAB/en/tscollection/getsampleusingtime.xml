@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invalidpv">Invalid property-value pair.</entry>
+    <entry key="noScalars">All numeric times must be real scalars</entry>
+    <entry key="noNumericStart">The start time must be a numeric value.</entry>
+    <entry key="invStartFormat">Invalid start time format</entry>
+    <entry key="invalidduptimes">The specified time value is duplicated in the timeseries. Set the AllowDuplicateTimes flag when calling GETSAMPLEUSINGTIME to obtain samples at a duplicate time</entry>
+  </message>
+</rsccat>

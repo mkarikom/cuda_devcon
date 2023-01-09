@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AxesInput">父级必须为 geoaxes 对象。</entry>
+    <entry key="DataLengthMismatch">{0} 必须包含与 {1} 相同的元素数目。</entry>
+    <entry key="LongitudeRequired">纬度和经度输入均为必需的。</entry>
+    <entry key="NoDataInputs">必须提供纬度和经度数据参数。</entry>
+    <entry key="RadiusLabel">密度计算的影响半径</entry>
+  </message>
+</rsccat>

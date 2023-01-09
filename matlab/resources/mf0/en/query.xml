@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="mf0">
+  <message>
+	<entry key="LikePatternNotSingle">The pattern value for the LIKE relation must be mf::zero::ValueFlags::SINGLE.</entry>
+	<entry key="LikePatternNotString">The pattern value for the LIKE relation must be a string type.</entry>
+	<entry key="RelationAndTypeNotSupported">Relation ''{0}'' is not supported for type ''{1}''.</entry>
+	<entry key="PropertyRelationValueNotPrimitive">The value in the constraint is not a primitive type.</entry>
+	<entry key="PropertyRelationPropertyTypeMismatch">The types of the two properties in the constraint do not match.</entry>
+	<entry key="PropertyRelationObjectMultiValue">Constraints on object properties do not support multi-value properties.</entry>
+	<entry key="NoSuchInstanceId">Instance id passed to AddConstraint is not in query.</entry>
+	<entry key="NoSearchInstances">Query does not have any search classes.</entry>
+	<entry key="NoModel">Query is not associated with any model.</entry>
+	<entry key="QueryResultObjectNotFound">could not find query result object in MF0 model.</entry>
+	<entry key="UnsupportedEnumConstraintRelation">'equal' and 'notEqual' are the only supported value match relations for Enumerated type query constraints.</entry>
+	<entry key="UnsupportedObjectConstraintRelation">'equal' and 'notEqual' are the only supported value match relations for object type query constraints.</entry>
+	<entry key="InvalidSearchClass">Invalid class passed to addSearchClass()</entry>
+	<entry key="NoDataSourceForQuery">Cannot create data source query without a data source.</entry>
+	<entry key="UnsupportedSorting">Sorting by creation is not supported without a data source.</entry>
+	<entry key="DMRSelfJoinNotSupported">DMR data source query does not yet support self-join</entry>
+  </message>
+</rsccat>

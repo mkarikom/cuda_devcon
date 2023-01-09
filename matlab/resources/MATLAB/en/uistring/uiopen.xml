@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="VariablesCreatedInCurrentWorkspace">Variables created in current workspace.</entry>
+      <entry key="NoVariablesCreatedInCurrentWorkspace">No variables created in current workspace.</entry>
+      <entry key="DialogOpen">Open</entry>
+      <entry key="ModelFiles">Model Files (*.mdl,*.slx)</entry>
+      <entry key="AllFiles">All Files (*.*)</entry>
+      <!-- DA Studio dependencies -->
+      <entry key="Models">Models (*.mdl,*.slx)</entry>	      
+      <entry key="Model">Model (*.mdl,*.slx)</entry>	 
+      <entry key="StateflowFiles">Stateflow files (*.cdr)</entry>	 
+      <entry key="SimulinkCoderFiles">Simulink Coder files (*.rtw,*.tmf,*.tlc,*.c,*.h,*.adb,*.ads)</entry>
+      <entry key="AllMATLABFiles">All MATLAB Files</entry>	 
+      <entry key="MATLABFiles">MATLAB files (*.m)</entry>	 
+      <entry key="Figures">Figures (*.fig)</entry>	 
+      <entry key="MATfiles">MAT-files (*.mat)</entry>
+   </message>
+</rsccat>

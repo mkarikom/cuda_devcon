@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ExternalPointerValueLost">ポインターが外部ポインターに置き換えられました。</entry>
+    <entry key="NullPointerAccess">未定義ポインターを介してデータへのアクセスが試行されました。</entry>
+    <entry key="TypeDoesNotExist">指定したデータ型が存在しません。</entry>
+    <entry key="InvalidPointerUse">ポインターの使用が無効です。</entry>
+    <entry key="PointerMustNotBeEmpty">空のポインターはオフセットにはできません。</entry>
+    <entry key="OutOfBounds">ポインターをオフセットして、データの指定先サイズよりも大きくすることはできません</entry>
+    <entry key="ValueNotDefined">値のデータ型とサイズは値が取得される前に定義しなければなりません。</entry>
+    <entry key="InvalidType">タイプが見つかりません。</entry>
+    <entry key="PointerIsRequired">libpointer オブジェクトのみをこの PtrPtr タイプに渡すことができます。</entry>
+    <entry key="PointerTypeMustMatch">ポインターのタイプはデータ型と一致しなければなりません。</entry>
+    <entry key="PointerValueTooSmall">ポインター値は、新しい値と同じサイズであるか、新しい値より大きいサイズでなければなりません。</entry>
+    <entry key="PointerTypesMustMatch">ポインターのタイプはデータ型と一致しなければなりません。</entry>
+    <entry key="IllegalConversion">配列は、数値、論理値、または配列を指すポインターでなければなりません。</entry>
+    <entry key="noComplex">libpointer オブジェクトには複素数データがサポートされていません</entry>
+    <entry key="MustBeString">パラメーターは文字ベクトルに変換できません</entry>
+  </message>
+</rsccat>

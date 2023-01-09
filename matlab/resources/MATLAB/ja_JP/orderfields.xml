@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="arg1NotStruct">1 番目の引数は構造体でなければなりません。</entry>
+    <entry key="InvalidPermLength">置換ベクトルの長さは、構造体内のフィールドの数と同じでなければなりません。</entry>
+    <entry key="StructFieldMismatch">両方の構造体は、厳密に同じフィールドでなければなりません。</entry>
+    <entry key="CellStrMismatchFieldnames">2 番目の入力のテキストは、struct のフィールド名と一致しなければなりません。</entry>
+    <entry key="InvalidArg2">2 番目の引数は、struct、string、文字ベクトルの cell 配列、または置換ベクトルでなければなりません。</entry>
+  </message>
+</rsccat>

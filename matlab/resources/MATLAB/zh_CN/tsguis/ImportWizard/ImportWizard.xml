@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ImportWizardRequires800x600Resolution">导入向导至少需要 800×600 分辨率。</entry>
+    <entry key="FileNameNotSpecified">文件名尚未指定。</entry>
+    <entry key="FileDoesNotExist">文件不存在。</entry>
+    <entry key="SelectedTimesInvalid">所选时间无效。</entry>
+    <entry key="NoDataBlockSelected">尚未选择数据块。</entry>
+    <entry key="NoVariableSelected">尚未选择变量。</entry>
+    <entry key="InvalidExcelWorkbook">这不是有效的 Excel 工作簿。</entry>
+    <entry key="InvalidFileNameOrExtension">文件名无效或文件扩展名与所选的文件类型不匹配。</entry>
+    <entry key="Back">返回</entry>
+    <entry key="Next">下一个</entry>
+    <entry key="Help">帮助</entry>
+    <entry key="Finish">完成</entry>
+    <entry key="CurrentStep">当前步骤</entry>
+    <entry key="Step3CreateTimeseriesObjectsAndImport">步骤 3: 创建时序对象并导入。</entry>
+    <entry key="Step2SpecifyDataAndTime">步骤 2: 指定数据和时间。</entry>
+    <entry key="Step1ChooseSourceWithTimeseriesData">步骤 1: 选择包含时序数据的源。</entry>
+    <entry key="TimeSeriesImportWizard">时序导入向导</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="Cancel">取消</entry>
+    <entry key="ValidatingExcelSpreadsheet">正在验证 Excel 电子表格，请稍候...</entry>
+  </message>
+</rsccat>

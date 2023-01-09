@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FapplyOutputMustBeACollection">FAPPLY 必须返回一个集合。''{0}'' 不是集合的子类。</entry>
+    <entry key="FapplyFunError">应用于集合的 {0} 成员时，函数出错。</entry>
+    <entry key="FapplyFunErrorFirstIter">fapply 的第一次迭代中应用的函数出错。该函数必须接受一个集合成员作为其输入，并返回一个值。在第一次迭代中，函数应用于集合的 {0} 成员。</entry>
+    <entry key="FapplynFunErrorFirstIter">fapplyn 的第一次迭代中应用的函数出错。该函数必须接受 {0,number,integer} 个输入，其中每个输入均为对应集合的一个成员，并返回一个值。在第一次迭代中，函数应用于集合的 {1} 成员。</entry>
+    <entry key="FapplyWrongNumInputs"> 应用于集合成员的函数必须接受 {0,number,integer} 个 ''{1}'' 输入。</entry>
+    <entry key="FapplynWrongNumInputs"> 应用于集合成员的函数必须接受 {0,number,integer} 个输入。</entry>
+    <entry key="FapplyFunNonScalarResult">该函数必须返回一个标量值。</entry>
+    <entry key="FapplyMissingMembers">无法将函数应用于同时包含数组和缺失值的集合的切片。</entry>
+    <entry key="FapplyFunReturnType">该函数必须返回其类型都相同的数组。</entry>
+    <entry key="FapplyConcatenationError">该函数必须返回可串联的数组。</entry>
+    <entry key="FapplyInvalidDim">工作维度必须为正整数、正整数向量、''elementwise'' 或 ''all''。</entry>
+    <entry key="FapplyInvalidOutputFormat">输出格式必须为 ''collection'' 或 ''uniform''。</entry>
+    <entry key="FapplyMustHaveCommonSize">所有输入集合必须大小相同。</entry>
+    <entry key="NamedIndexingOnTheFlyReshape">指定的下标数少于 {1,number,integer} 个时，不支持对维度 {0,number,integer} 进行命名索引。</entry>
+    <entry key="AsgnMustBeCollection">要赋给集合的值必须是包含类型为 ''{0}'' 的数组的集合或元胞数组。</entry>
+    <entry key="AsgnDeletionBraces">要赋给集合元素的值必须为 ''{0}'' 数组。如果您打算删除集合的某个元素，请使用圆括号进行赋值，例如 C(i) = []。如果您打算用缺失值替换集合的成员，请使用 missing 赋值，例如 C'{'i'}' = missing。</entry>
+    <entry key="AsgnMustBeMemberType">要赋给集合元素的值必须为 ''{0}'' 数组或标量缺失值。</entry>
+    <entry key="SubscriptedRefOnCSL">花括号下标在后跟更深层次的下标时，必须只选择集合中的一个数组。</entry>
+    <entry key="SubscriptedAsgnOnCSL">花括号下标赋值在后跟更深层次的下标时，必须只选择集合中的一个数组。</entry>
+    <entry key="InvalidMemberType">成员类型必须为 MATLAB 类名。</entry>
+    <entry key="InvalidMemberShapeParam">成员形状必须指定为 ''scalar''、''row''、''column''、''vector''、''matrix'' 或 ''any''。</entry>
+    <entry key="InvalidMemberShape">集合的成员必须具有 {0} 形状。</entry>
+    <entry key="MustBeMemberType">所有输入数组必须属于 ''{0}'' 类。</entry>
+    <entry key="DataMustBeInCell">COLLECTION 的所有输入数组都必须包含在一个元胞数组中。要将数组作为单独的输入传入，请使用 COLLECT。</entry>
+    <entry key="MustBeOneType">所有输入数组必须具有相同的类型。</entry>
+    <entry key="MustBeOneTypeCell">输入元胞数组的所有元素必须具有相同的类型。</entry>
+    <entry key="MustBeOneNonMissing">必须有至少一个非缺失输入数组，或者指定集合成员类型。</entry>
+    <entry key="InvalidSizeSyntax">不支持同时指定大小和输入数据。有关详细信息，请参阅集合文档。</entry>
+    <entry key="InvalidSize">大小必须为指定集合形状的非负整数值的向量。</entry>
+    <entry key="WrongNumNames">名称的数量必须为对应维度的长度。</entry>
+    <entry key="WrongLengthNamesCollection">集合成员名称必须指定为包含每个维度名称的集合。</entry>
+    <entry key="InvalidNames">集合成员名称必须为字符串数组。</entry>
+    <entry key="NonUniqueNames">集合成员名称在每个维度中必须唯一。</entry>
+    <entry key="GetSetNamesInvalidValue">集合名称必须指定为字符串向量的集合。</entry>
+    <entry key="GetSetNamesInvalidDim">维度必须指定为从 {0,number,integer} 到 {1,number,integer} 的整数。</entry>
+    <entry key="GetSetNamesNonVector">使用 ''vector'' 调用 getnames 或 setnames 时，集合必须为一行或一列。</entry>
+    <entry key="SetNamesNoLHS">使用 SETNAMES 而不赋给工作区变量不会修改集合的名称。使用 C = SETNAMES(C,NAMES,...)。</entry>
+    <entry key="DotMethodSubscripting">集合不支持点调用法。请使用 {0}(C,...) 对集合调用方法。</entry>
+    <entry key="DotNameSubscripting">集合不支持使用行名、列名等进行圆点下标索引。请使用 C'{'''{0}'''}' 按名称访问集合中的数组。</entry>
+    <entry key="DotSubscripting">仅 .Names 属性支持对集合使用圆点下标。请使用花括号下标按名称访问集合中的数组，或使用函数语法对集合调用方法。</entry>
+    <entry key="IndexOutOfRange">位置 {0,number,integer} 中的索引超出数组边界(不能超过 {1,number,integer})。</entry>
+    <entry key="UnrecognizedName">位置 {1,number,integer} 中有无法识别的名称 ''{0}''。</entry>
+    <entry key="InvalidNameSubscript">集合名称下标必须为字符串或字符向量。</entry>
+    <entry key="CatMustBeCollection">串联的所有输入必须为集合。</entry>
+    <entry key="CatMustBeSameTypes">串联的所有输入必须为包含相同类型的数组的集合。</entry>
+    <entry key="CatMustBeSameShapes">串联的所有输入必须为包含相同形状的数组的集合。</entry>
+    <entry key="CatNonUniqueNames">串联维度上的名称必须唯一。</entry>
+    <entry key="EqDimsMustAgree">集合维度必须一致。</entry>
+    <entry key="IsMemberMustBeCollection">第二个输入必须为集合。</entry>
+    <entry key="NoPlotMethod">集合不支持绘图函数。要绘制时间表集合中的数据，可采用以下方法:\n * 使用 stackedplot 函数，或\n * 先对集合中的时间表进行同步，然后基于同步后的时间表绘制数据。</entry>
+    <entry key="StackedplotMode">第二个输入必须为 ''byvariable'' 或 ''bytimetable''。</entry>
+    <entry key="CombineDifferentSizes">不支持合并大小不同的集合中的成员。</entry>
+    <entry key="CombineDimWithMultipleInputs">合并多个集合中的成员时，不支持维度输入。</entry>
+    <entry key="InvalidCombineMethod">方法必须为 ''vertcat''、''horzcat''、正整数或函数句柄。</entry>
+    <entry key="CombineMethodRequired">对集合中多个工作维度上的成员进行合并时，需要指定方法。</entry>
+    <entry key="UniteInputMustBeCollection">第一个输入必须为集合。</entry>
+    <entry key="UniteMethodRequired">必须指定方法。</entry>
+  </message>
+</rsccat>

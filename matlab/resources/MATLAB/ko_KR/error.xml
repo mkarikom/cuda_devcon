@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badIdentifier">입력 구조체의 \"identifier\" 필드는 유효한 MATLAB 메시지 ID를 포함해야 합니다.</entry>
+    <entry key="badMessage">입력 구조체의 \"message\" 필드는 문자형 벡터 또는 string형 스칼라를 포함해야 합니다.</entry>
+    <entry key="badStack">\"stack\" 필드는 m×1 배열이어야 합니다.</entry>
+    <entry key="badStackFile">\"stack\" 필드는 다음 필드를 포함해야 함: \"file\", \"name\", \"line\".</entry>
+    <entry key="badStackFileString">\"stack\" 필드의 \"file\" 필드는 문자형 벡터를 포함해야 합니다.</entry>
+    <entry key="badStackLine">\"stack\" 필드의 \"line\" 필드는 double형 스칼라를 포함해야 합니다.</entry>
+    <entry key="badStackName">\"stack\" 필드의 \"name\" 필드는 문자형 벡터를 포함해야 합니다.</entry>
+    <entry key="badStackStruct">입력 구조체의 \"stack\" 필드는 구조체를 포함해야 합니다.</entry>
+    <entry key="nonScalarInput">입력 구조체는 스칼라여야 합니다.</entry>
+  </message>
+</rsccat>

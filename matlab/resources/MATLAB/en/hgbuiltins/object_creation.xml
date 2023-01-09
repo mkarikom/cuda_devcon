@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidArgs">Incorrect number of input arguments.</entry>
+    <entry key="CannotSpecifyPVPairsWithNumericConvenienceArg">Numeric figure handles not supported with parameter-value pairs.</entry>
+    <entry key="InvalidConvenienceArgHandle">First argument must be a valid parent, such as a Figure or Panel object.</entry>
+    <entry key="InvalidFigureArgHandle">Argument must be a Figure object or a positive integer.</entry>
+    <entry key="CannotSpecifyPVPairsWithNonParentConvenienceArg">Invalid input combination. Parameter-value pairs must be specified with a valid parent, such as a Figure or Panel object.</entry>
+    <entry key="CannotSpecifyConvenienceArg">Input arguments must be parameter-value pairs. Each parameter name must be followed by a corresponding value.</entry>
+    <entry key="ObjectIsNotParentedToAFigure">Object is not parented to a figure yet.</entry>
+    <entry key="NoDefaultPropertyAvailable">There is no Default property ''{0}'' for the ''{1}'' class.</entry>
+    <entry key="PropertyDoesNotExist">There is no ''{0}'' property in the ''{1}'' class.</entry>
+    <entry key="DoubleConvertibleArgument">Non-numeric data is not supported in ''{0}''.</entry>
+    <entry key="DoubleConvertibleArgumentDatetime">Data must be numeric, datetime, duration or an array convertible to double.</entry>
+  </message>
+</rsccat>

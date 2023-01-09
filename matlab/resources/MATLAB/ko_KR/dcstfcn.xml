@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidSyntax">MROWS를 지정할 경우, NCOLS도 지정해야 합니다.</entry>
+    <entry key="InvalidInputType">유효하지 않은 데이터형입니다. 첫 번째 인수는 double형, single형, int8형, uint8형, int16형, uint16형, int32형, uint32형 또는 논리형이어야 합니다.</entry>
+    <entry key="SparseInputType">희소 배열은 지원되지 않습니다.</entry>
+    <entry key="DCT1Length1">The length of the DCT-I transform must be greater than 1. Use a longer transform length or a different variant of the DCT.</entry>
+    <entry key="DCT1NDLength1">The length of the DCT-I transform must be greater than 1 in every dimension. Use a longer transform length or a different variant of the DCT.</entry>
+    <entry key="DCSTLengthNotNonNegInt">Transform length must be a nonnegative integer scalar.</entry>
+    <entry key="InvalidVariantString">Unrecognized option; specify the transform type with 'Variant' followed by an integer between 1 and 4.</entry>
+    <entry key="InvalidVariantValue">Transform variant must be an integer scalar between 1 and 4.</entry>
+    <entry key="DCSToutputSizeLessThanNdimsElements">Transform output size must have at least NDIMS elements.</entry>
+    <entry key="DCSToutputSizeNotRealIntRowVector">Transform output size must be a real integer row vector.</entry>
+    <entry key="DCSToutputSizeVectorNotNonNegInts">Transform output size vector must contain non-negative integers.</entry>
+  </message>
+</rsccat>

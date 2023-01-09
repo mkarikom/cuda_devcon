@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputMustBeString">入力引数は文字ベクトル、string または文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="IllegalBinaryString">テキストは 0 と 1 の文字で構成されていなければならず、オプションで接頭辞 0b または型の接尾辞を含めることができます。さらに、入力は intmax 未満に変換されなければなりません。</entry>
+    <entry key="InputExceedsFlintmax">flintmax 以上の整数を表す 2 進数は、倍精度浮動小数点値で正確に表されない可能性があります。</entry>
+    <entry key="InvalidCharacters">バイナリ テキストは 0 および 1 の文字で構成されていなければなりません。</entry>
+    <entry key="TooManyDigits">明示的または暗黙的に指定された型の接尾辞に対して、バイナリ テキストの桁数が多すぎます。</entry>
+    <entry key="SuffixRequiresPrefix">バイナリ テキストで型の接尾辞を使用するには、接頭辞 0b を使用する必要があります。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CartesianOnly">非数値データは直交座標軸によってのみサポートされます</entry>
+    <entry key="MixingX">x 軸に対してプロットされる値は {0} の値でなければなりません。{1} の値を作成するには、関数 {2} を使用してください。</entry>
+    <entry key="MixingOther">少なくとも 1 つの軸の次元が {0} の値に対して構成されています。{1} の値を作成するには、関数 {2} を使用してください。</entry>
+    <entry key="Mixing">データ入力は軸の構成と一致しなければなりません。数値軸は数値データ入力であるか、double に変換可能なデータ入力でなければなりません。</entry>
+    <entry key="AxesToolbarParentError">AxesToolbar の親を空にすることはできません</entry>
+  </message>
+</rsccat>

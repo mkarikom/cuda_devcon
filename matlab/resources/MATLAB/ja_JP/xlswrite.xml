@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FileName">ファイル名に * を含めてはなりません。</entry>
+    <entry key="FileReadOnly">ファイルを読み取り専用にできません。</entry>
+    <entry key="EmptyFileName">ファイル名が空です。</entry>
+    <entry key="EmptyInput">入力配列が空です。</entry>
+    <entry key="InputDimension">入力配列の次元を 2 より大きくすることはできません。</entry>
+    <entry key="LockedFile">ファイル {0} は、書き込み可能ではありません。別のプロセスでロックされている可能性があります。</entry>
+    <entry key="AddSheet">指定したワークシートを追加しました。</entry>
+    <entry key="CalculateRange">無効なデータ範囲: {0}</entry>
+    <entry key="Dec2BaseInput">D は正のスカラー整数でなければなりません。</entry>
+    <entry key="InputClassFilename">ファイル名は string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="InputClass">入力データは、数値、セル、または論理配列でなければなりません。</entry>
+    <entry key="InputClassSheetArg">シートの引数は string スカラー、文字ベクトル、または 0 より大きい整数でなければなりません。</entry>
+    <entry key="dlmwrite">CSV 形式でのファイルの書き込み中にエラーが発生しました。Excel ファイルに書き込むには、データを table に変換し、writetable を使用してください。</entry>
+    <entry key="SelectDataRange">指定されたデータ範囲が無効であるか、大きすぎて指定されたファイル形式に書き込めません。XLSX ファイルへの書き込みを試してください。範囲の引数には Excel の A1 表記 (例: 'A1:D4') を使用します。</entry>
+    <entry key="InputClassRangeArg">範囲の引数は Excel の A1 表記法の string スカラーまたは文字ベクトルとして指定しなければなりません。</entry>
+    <entry key="NoCOMServer">Excel 形式に書き込めません。CSV 形式でのファイルの書き込みを試行しています。</entry>
+    <entry key="InvalidSheetName">シート名 ''{0}'' が無効です。シート名は 31 文字以内にする必要があり、次の文字を含めることはできません: ': \ / ? * [ ]'。</entry>
+  </message>
+</rsccat>

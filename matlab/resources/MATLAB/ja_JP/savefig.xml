@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidHandle">H は有効な Figure へのハンドルの配列でなければなりません。</entry>
+    <entry key="InvalidFilename">filename 引数は空でない string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="InvalidThirdArgument">3 番目の入力引数は "compact" でなければなりません</entry>
+    <entry key="FigFileExpected">引数は .fig ファイルでなければなりません</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadWorkingDirectory">工作目录错误。详细信息: {0}。</entry>
+    <entry key="ambiguousWithinFileName">文件 {1} 中的函数名称 "{0}" 具有多义性。</entry>
+    <entry key="CannotFindBuiltinFunction">找不到内置函数 ''{0}''</entry>
+    <entry key="cannotFindFunctionText">找不到函数 "{0}"。</entry>
+    <entry key="cannotFindFunctionTextWithin">在 "{1}" 中找不到函数 "{0}"。</entry>
+    <entry key="cannotFindFunctionTextLocal">找不到局部函数 "{0}"。</entry>
+    <entry key="conflictingFcnRegs">为 "{0}" 找到了多个冲突的 MATLAB_FCN_REG。\n    各个 MATLAB_FCN_REG 必须在名称、类型、属性或优先级方面有所不同。</entry>
+    <entry key="directoryNameTooLong">目录名称太长: "{0}"</entry>
+    <entry key="directoryNotFound">未找到目录名称: "{0}"</entry>
+    <entry key="extensionRequired">当指定不在 MATLAB 的当前搜索路径中的文件时，需要提供文件扩展名。</entry>
+    <entry key="findSymbolInLibrary">在 ''{1}'' 中未找到 ''{0}'' 的符号。\n{2}</entry>
+    <entry key="inmemArgument">inmem() 的元胞数组参数必须仅包含字符数组。</entry>
+    <entry key="invalidFunctionName">函数名称 ''{0}'' 无效</entry>
+    <entry key="invalidPath">路径 ''{0}'' 无效</entry>
+    <entry key="loadLibraryTextFunctionTableSize">针对 ''{0}'' 的函数表大小检查失败: 库声明的大小是 {1,number,integer}，注册表声明的大小是 {2}</entry>
+    <entry key="loadLibraryTextLibraryIntegrity">针对 ''{0}'' 的库完整性检查失败: 库生成了 {1}，注册表生成了 {2}</entry>
+    <entry key="loadLibraryTextLoad">无法加载 ''{0}'': {1}</entry>
+    <entry key="loadLibraryTextRCFileNotFound">找不到 ''{1}'' 所需的资源文件 ''{0}''</entry>
+    <entry key="loadLibraryTextReload">无法重新加载 ''{0}''</entry>
+    <entry key="mlockContext">必须从文件调用 "{0}"。</entry>
+    <entry key="mlockNotLocked">文件 ''{0}'' 未锁定。</entry>
+    <entry key="nameConflict">函数 {0} 与某个 MATLAB 内置函数同名。建议您重命名该函数以避免潜在的名称冲突。</entry>
+    <entry key="mFunctionShadowedByNonM">函数 "{0}" 不存在或者被遮蔽。</entry>
+    <entry key="NotFound">未提供 {0} 的签名。</entry>
+    <entry key="recursiveLoading">试图在文件 "{0}" 正在加载时加载该文件。</entry>
+    <entry key="ShadowedMEXExtension">在目录 "{0}" 中，{1} 现在遮蔽了 {2}。\n 请参阅 MATLAB 7.1 发行说明。</entry>
+    <entry key="UnableToResolve">在 {1} 内，无法为函数 {0} 确保有效的工作区。\n请重新创建 {2} 的函数句柄。\n</entry>
+    <entry key="UnableToResolveFile">找不到文件 {0}。</entry>
+    <entry key="UnableToResolveHiddenFunction">在 {1} 中找不到函数 {0}。</entry>
+    <entry key="undefinedFunction">在 MATLAB 路径中找不到作为函数的 {0}</entry>
+    <entry key="undefinedArgument">{0} 不是有效参数</entry>
+    <entry key="UnresolvedFunctionHandleText">在加载函数句柄的路径中找不到相应的函数</entry>
+    <entry key="UnresolvedFunctionHandleTextWithName">在加载函数句柄 {0}{1}{2} 的路径中找不到相应的函数</entry>
+    <entry key="noMatchingConstructor">未找到具有匹配签名的构造函数 ''{0}''。</entry>
+    <entry key="inferiortoSuperiortoContext">函数 ''{0}'' 只能从方法内调用。</entry>
+    <entry key="inferiortoSuperiortoSelf">类 ''{0}'' 不能用作其自身的子类或超类。</entry>
+    <entry key="inferiortoSuperiorChange">需要先键入 ''clear classes''，然后才能更改类 ''{0}'' 与 ''{1}'' 之间的优先级。</entry>
+    <entry key="unknownClass">''{0}'' 不是一个已知类。</entry>
+    <entry key="unknownClassInRelation">内置函数 ''{1}'' 中使用了未知类 ''{0}''。</entry>
+    <entry key="InvalidObjtagReuse">不调用 ''clear classes''，无法重新定义 ''{0}'' 类。</entry>
+    <entry key="InvalidBaseObject">用于 ''{0}'' 类的构造函数的基对象无效。</entry>
+    <entry key="BadBaseClass">''{0}'' 类不能用作其自身的类定义中的基类、属性值或特性值。</entry>
+    <entry key="FieldNameAsParent">尝试构造类 ''{0}'' 失败，因为它包含与父类的名称匹配的字段 ''{1}''。</entry>
+    <entry key="sameClassParent">多次指定了超类 ''{0}''。</entry>
+    <entry key="ParentObjectSize">要创建为对象的结构体数组的大小必须与父对象的大小一致。</entry>
+    <entry key="invalidClassContext">CLASS 函数必须从类构造函数内调用。</entry>
+    <entry key="classMustBeStruct">函数 CLASS 的第一个参数必须为结构体。</entry>
+    <entry key="invalidClassName">名称 ''{0}'' 不是有效类名。</entry>
+    <entry key="objectParentCount">需要先键入 ''clear classes''，然后才能更改类 ''{0}'' 的父级数目。</entry>
+    <entry key="objectMemberCount">需要先键入 ''clear classes''，然后才能更改类 ''{0}'' 的字段数目。</entry>
+    <entry key="objectChecksum">需要先键入 ''clear classes''，然后才能更改 ''{0}'' 类的字段名称和基类。</entry>
+    <entry key="tooManyOutputs">''{0}'' 类的构造函数必须仅返回一个输出值。</entry>
+    <entry key="pathNotInitialized">无法初始化 MATLAB 路径 {0}。正在退出 MATLAB。\n</entry>
+    <entry key="pathInitializationTime">  MATLAB 路径已在 {0} 秒内初始化。\n</entry>
+    <entry key="matlabpathIsDisabled"> 无法执行 matlabpath。该函数已在此 MATLAB 会话中被禁用。</entry>
+    <entry key="pathChangeLimitReached">无法确定 ''{0}'' 是否为函数。在搜索过程中，MATLAB 路径或当前文件夹更改了太多次数。</entry>
+    <entry key="cannotFindFunction">{0}</entry>
+    <entry key="loadLibrary">{0}</entry>
+    <entry key="UnresolvedFunctionHandle">{0}</entry>
+    <entry key="unresolvedDependency">Unable to find function ''{0}''. Component {1} has an unknown dependency {2}.</entry>
+    <entry key="unresolvedReexport">Unable to find file ''{0}''. Component {1} reexports unregistered component {2}.</entry>
+    <entry key="pathWarning">{0}</entry>
+    <entry key="pathError">{0}</entry>
+  </message>
+</rsccat>

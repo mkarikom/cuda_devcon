@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="inputType">入力は single または double でなければなりません。</entry>
+    <entry key="inputMustBe2D">入力は 2 次元でなければなりません。</entry>
+    <entry key="inputMustBeFull">入力は非スパースでなければなりません。</entry>
+    <entry key="inputMustBeSquare">1 番目と 2 番目の入力は正方行列でなければなりません。</entry>
+    <entry key="inputMustBeCompatibleSize">入力は適合するサイズでなければなりません。</entry>
+    <entry key="inputWithNaNInf">1 番目と 2 番目の入力に NaN または Inf を含めてはなりません。</entry>
+    <entry key="inputTypeFlag">単位行列を指定するには、入力を single、double、または ''I'' にしなければなりません。</entry>
+    <entry key="inputDouble">入力は double でなければなりません。</entry>
+    <entry key="unsupportedIDCombination">行列に対する ''I'' の代入は、SYLVESTER_TRI(A, B, C, ''I'', ''I'') と SYLVESTER_TRI(A, ''I'', C, ''I'', F) の組み合わせでのみサポートされます。</entry>
+    <entry key="inputOption">オプションは ''transp'' または ''notransp'' でなければなりません。</entry>
+  </message>
+</rsccat>

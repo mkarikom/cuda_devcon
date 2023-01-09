@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RequireWindowsPlatform">该 GUI 包含的 Windows 特定控件在该平台中不受支持。</entry>
+    <entry key="FailToRestoreActiveX">{0} ''{1}'' 无法恢复为其以前的状态。\n\n确保文件 {2} 与您的 GUI 位于同一目录中。</entry>
+    <entry key="ErrorDialogTitle">错误</entry>
+  </message>
+</rsccat>

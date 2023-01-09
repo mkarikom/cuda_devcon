@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AlreadyAttachable">已调用 shareEngine 命令来启用共享 MATLAB 访问。</entry>
+    <entry key="NameAlreadyExists">shareEngine 地址已在使用中: {0}</entry>
+    <entry key="UnexpectedError">shareEngine 中出现意外内部错误: {0}</entry>
+    <entry key="ShareEngineNotSupported">此 MATLAB 配置不支持 shareEngine 命令。</entry>
+  </message>
+</rsccat>

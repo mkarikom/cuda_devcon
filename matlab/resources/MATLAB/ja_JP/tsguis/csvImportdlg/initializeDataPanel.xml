@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WhatsThis">これはなに?</entry>
+    <entry key="FirstTimeValuesAreInvalid">最初の {0,number,integer} の時間の値が無効です。行 {1,number,integer} から自動選択を開始します。</entry>
+    <entry key="SpecifyData">データ指定</entry>
+    <entry key="CurrentVariableDataOrganizedByRowColumn">現在の変数内にあるデータが列で編成されている場合は ''列'' を、それ以外の場合は ''行'' を選択してください。</entry>
+    <entry key="DataBlockDefinedBy">データ ブロックの定義:  </entry>
+    <entry key="TopleftCell">左上のセル</entry>
+    <entry key="KeyInTopleftCornerOfDesiredBlock">MS Excel の A1 の参照スタイル (例: A12) を使って目的のブロックの左上隅に入力してください。</entry>
+    <entry key="BottomrightCell">右下のセル</entry>
+    <entry key="KeyInBottomrightCornerOfDesiredBlock">MS Excel の A1 の参照スタイル (例: B34) を使って目的のブロックの右下隅に入力してください。</entry>
+    <entry key="UseStandardExcelCellIndexingFormat">標準の Excel のセル インデックス形式を使用してください。例: A12</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="SpecifyRow">行を指定:  </entry>
+    <entry key="SpecifyColumn">列を指定:  </entry>
+    <entry key="xlate_DataIsArrangedBy">データ並び (方向):  </entry>
+    <entry key="xlate_Columns">列</entry>
+    <entry key="xlate_Rows">行</entry>
+  </message>
+</rsccat>

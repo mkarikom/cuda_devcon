@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">resample メソッドは、単一の timeseries オブジェクトにのみ使用できます</entry>
+    <entry key="norel">日付でリサンプリングする場合、時系列の StartDate プロパティは有効な日付文字ベクトルまたは string でなければなりません。</entry>
+    <entry key="badtime">時間は日付のセル配列、数値ベクトル、スカラーのいずれかで指定されなければなりません。</entry>
+    <entry key="invinterp">無効な内挿法</entry>
+    <entry key="noqual">特性ベクトルは初期化されなければなりません。</entry>
+    <entry key="round">指定した特性コードは整数に丸められました。</entry>
+    <entry key="invcode">この時系列に対して定義されない特性コードが指定されました。</entry>
+    <entry key="absentcode">この時系列に対して定義されない特性コードが指定されました。</entry>
+    <entry key="nonnumeric">非数値データをもつ timeseries 上で数値演算を行うことはできません。</entry>
+    <entry key="scalar">resample 関数を実行するには、少なくとも 2 つの元データのサンプルが必要です。</entry>
+  </message>
+</rsccat>

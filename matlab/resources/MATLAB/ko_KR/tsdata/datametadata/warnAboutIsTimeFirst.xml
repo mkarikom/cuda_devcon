@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="isTimeFirstDepWarning">향후 릴리스에서는 이 timeseries의 isTimeFirst 속성이 데이터에 기초하여 계산되므로 현재 표현과 다를 것입니다.</entry>
+    <entry key="isTimeFirstDeprecationError">IsTimeFirst 속성이 계산되었으며 저장된 표현과 다릅니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Ok">OK</entry>
+    <entry key="Cancel">キャンセル</entry>
+    <entry key="ClearPreference">削除しますか?</entry>
+    <entry key="DeletePreference">削除の確認</entry>
+    <entry key="ClearWSBConfirmation">すべての変数を削除します。</entry>
+    <entry key="DeleteVariableConfirmation">選択した変数を削除しますか?</entry>
+    <entry key="DeleteVariablesConfirmation">選択した変数を削除しますか?</entry>
+    <entry key="DeleteFieldConfirmation">選択したフィールドを削除しますか?</entry>
+    <entry key="DeleteFieldsConfirmation">選択したフィールドを削除しますか?</entry>
+  </message>
+</rsccat>

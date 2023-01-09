@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonNumericInput">입력 인수는 숫자형이어야 합니다.</entry>
+    <entry key="CAndZSizeMismatch">행렬 C는 Z와 같은 크기여야 합니다.</entry>
+    <entry key="lengthXAndYDoNotMatchSizeZ">X와 Y의 길이는 Z의 크기와 일치해야 합니다.</entry>
+    <entry key="lengthXDoesNotMatchNumColumnsZ">X의 길이는 Z의 열 개수와 일치해야 합니다.</entry>
+    <entry key="lengthYDoesNotMatchNumRowsZ">Y의 길이는 Z의 행 개수와 일치해야 합니다.</entry>
+    <entry key="XAndYShapeMismatch">X와 Y는 둘 다 벡터이거나 둘 다 행렬이어야 합니다.</entry>
+    <entry key="XYAndZSizeMismatch">행렬 X와 Y는 Z와 같은 크기여야 합니다.</entry>
+    <entry key="XYAndZShapeMismatch">Z가 벡터이면 X와 Y도 벡터여야 합니다.</entry>
+    <entry key="XYAndZLengthMismatch">X와 Y가 Z와 같은 길이이거나, X와 Y의 길이가 Z의 크기와 일치해야 합니다.</entry>
+    <entry key="XIAndYISizeMismatch">XI와 YI는 같은 크기이거나 다른 방향의 벡터여야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalid_lib">''{0}'' は有効な共有ライブラリではありません。</entry>
+    <entry key="not_64bit">''{0}'' はホストとは異なるアーキテクチャをもっています。</entry>
+    <entry key="missing_deps">依存する共有ライブラリがありません:</entry>
+    <entry key="lib_req">''{1}'' で必要とされる ''{0}''</entry>
+    <entry key="missing_sym_win">''{2}'' で必要とされる ''{1}'' にシンボル ''{0}'' がありません</entry>
+    <entry key="missing_sym_linux">''{1}'' で必要とされるシンボル ''{0}'' がありません</entry>
+  </message>
+</rsccat>

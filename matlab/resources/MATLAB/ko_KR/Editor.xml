@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotString">입력값은 문자형 벡터여야 합니다.</entry>
+    <entry key="ExternalEditorNotFound">외부 편집기 ''{0}''을(를) 찾을 수 없습니다.</entry>
+    <entry key="ExternalEditorFailure">외부 편집기 ''{0}''을(를) 열 수 없습니다.</entry>
+    <entry key="SlxFile">Simulink 파일 ''{0}''을(를) 편집할 수 없습니다.</entry>
+    <entry key="SLTXFile">Simulink 템플릿 파일 ''{0}''을(를) 편집할 수 없습니다.</entry>
+    <entry key="MlprojFile">프로젝트 아카이브 ''{0}''을(를) 편집할 수 없습니다.</entry>
+    <entry key="MdlErr">파일 확장자를 포함한 경우가 아니라면 Simulink 파일 ''{0}''을(를) 편집할 수 없습니다.</entry>
+    <entry key="PkgErr">패키지 디렉터리 ''{0}''을(를) 편집할 수 없습니다.</entry>
+    <entry key="PFile">P 파일 ''{0}''을(를) 편집할 수 없습니다.</entry>
+    <entry key="MexFile">MEX 파일 ''{0}''을(를) 편집할 수 없습니다.</entry>
+    <entry key="MATFile">Cannot edit the MAT-file ''{0}''.</entry>
+    <entry key="FigFile">Cannot edit the fig file ''{0}''.</entry>
+    <entry key="ProtectedModel">Simulink의 보호된 모델 파일 ''{0}''을(를) 편집할 수 없습니다.</entry>
+    <entry key="SscpFile">Simscape로 보호된 파일 ''{0}''을(를) 편집할 수 없습니다.</entry>
+    <entry key="BadDir">''{0}'' 디렉터리를 편집할 수 없습니다.</entry>
+    <entry key="BadChars">파일 ''{0}''에 유효하지 않은 문자가 포함되어 있습니다.</entry>
+    <entry key="NotSupported">Java가 없으면 MATLAB 편집기가 지원되지 않습니다.</entry>
+    <entry key="FileNotFound">파일 ''{0}''을(를) 찾을 수 없습니다.</entry>
+    <entry key="FilesNotFound">''{0}'' 및 ''{1}'' 모두를 찾을 수 없습니다.</entry>
+    <entry key="EditorInstantiationFailure">MATLAB 편집기를 여는데 실패했습니다.</entry>
+    <entry key="NotABreakpoint">입력 인수는 com.mathworks.mde.editor.breakpoints.MatlabBreakpoint여야 합니다.</entry>
+    <entry key="NotACollection">입력 인수는 java.util.Collection이어야 합니다.</entry>
+    <entry key="NotAFilename">입력 인수는 MATLAB 문자 배열이어야 합니다.</entry>
+    <entry key="SLDDFile">데이터 사전 파일 ''{0}''은(는) 편집할 수 없습니다.</entry>
+  </message>
+</rsccat>

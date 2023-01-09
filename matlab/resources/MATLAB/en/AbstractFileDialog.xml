@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="UnpairedParamsValues">Param/value pairs must come in pairs.</entry>
+    <entry key="InvalidLogicalValue">The file exist set should be logical</entry>
+    <entry key="UnableToSelectFiles">No Files Selected</entry>
+    <entry key="UnableToSelectFile">No File Selected</entry>
+    <entry key="InvalidNumberOfFiltersAdded">You can add only one filter at a time</entry>
+    <entry key="InvalidNumberOfFiltersRemoved">You can remove only one filter at a time</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="IllegalParameterType" note="stringDatatypeUpdate">Parameter at input {0,number,integer} must be a character vector.</entry>
+    <entry key="IllegalParameter">Parameter "{0}" is unrecognized.</entry>
+    <entry key="IllegalFileFilterParameter" note="stringDatatypeUpdate">File Filter should be either a character vector or a cell array of character vectors</entry>
+    <entry key="IllegalFileFilterSpecification">Incorrect File Filter specification</entry>
+    <entry key="InvalidAddFilterExtensionType">You can only add filters of the type FileExtensionFilter</entry>
+    <entry key="InvalidRemoveFilterExtensionType">You can only remove filters of the type FileExtensionFilter</entry>
+    <entry key="InvalidSelection">Invalid Selection</entry>
+    <entry key="MultipleFoldersSelected">You have selected files from different folders.\n\nPlease select all the files from the same folder.\n</entry>    
+  </message>
+</rsccat>

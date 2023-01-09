@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="IncorrectHoleCount"> ''{0}'' に対して指定されたパラメーター数が正しくありません。{1,number,integer} 個の指定が必要ですが {2,number,integer} 個しか指定されていません。</entry>
+    <entry key="FailedMessageFormat">''{0}'' のメッセージの書式設定に失敗しました。</entry>
+    <entry key="BadDataType">''{0}'' で指定されたデータ型はパラメーター '{'{1,number,integer}'}' に対して無効です。</entry>
+    <entry key="NonScalarInput">''{0}'' ではパラメーター '{'{1,number,integer}'}' は実数のスカラーでなければなりません。</entry>
+    <entry key="InvalidConstructorSignature">コンストラクターのシグネチャが無効です。</entry>
+    <entry key="InvalidMessageID">メッセージ ID の書式 ''{0}'' が無効です。</entry>
+    <entry key="InvalidCatalogID">カタログ ID の書式 ''{0}'' が無効です。</entry>
+    <entry key="MessageCatalogLoadFailed">メッセージ カタログ ''{0}'' を読み込むことができません。ファイルの場所と形式を確認してください。</entry>
+    <entry key="MessageNotFound">カタログ ''{1}'' でメッセージ キー ''{0}'' が見つかりません。</entry>
+    <entry key="StringInput">入力は文字ベクトルでなければなりません。</entry>
+    <entry key="UnknownMsgCatErr">メッセージ カタログにアクセス中に不明のエラーが発生しました。</entry>
+    <entry key="NoFloatingPointNumbers">{0} のホールの塗りつぶし中にエラーが発生しました。浮動小数点数はホールとして使用できません。文字ベクトルに変換しなければなりません。</entry>
+    <entry key="InputNotInIntegerRange">{0} のホールの塗りつぶし中にエラーが発生しました。数値 {1} はメッセージ カタログの引数としてサポートされていません。</entry>
+    <entry key="InvalidNumberOfArguments">メッセージ オブジェクトの後に提供される引数の個数が無効です。</entry>
+    <entry key="InputCellMatrix">入力としてのセル行列 {0} が必要です。</entry>
+    <entry key="MessageKeyNotProvided">メッセージ キーが指定されていません。</entry>
+    <entry key="CustomArgumentFormatterNotFound">カスタムのホール タイプ {0} に対するカスタムのフォーマッタが見つかりません。</entry>
+    <entry key="BadCatalogID">カタログ ID が正しくありません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ConvenienceNoOutputs">{0}을(를) {1}과(와) 함께 사용할 경우에는 출력 인수가 지원되지 않습니다.</entry>
+    <entry key="ConvenienceTooManyInputs">{0}을(를) {1}과(와) 함께 사용할 경우 지정된 입력 인수가 너무 많습니다.</entry>
+    <entry key="ConvenienceNoInputs">{0}을(를) {1}과(와) 함께 사용할 경우에는 입력 인수가 필요합니다.</entry>
+    <entry key="UnsupportedConvenienceFunction">{0}은(는) {1}과(와) 함께 사용할 수 없습니다.</entry>
+    <entry key="UnsupportedArgument">{0}을(를) {1}과(와) 함께 사용할 경우 지정된 옵션이 유효하지 않습니다. </entry>
+    <entry key="InvalidTableSubscript">''{0}'' 값은 유효하지 않은 테이블 첨자입니다.</entry>
+    <entry key="RowTimesNotSupported">타임테이블의 시간 벡터에 액세스하는 것은 지원되지 않습니다.</entry>
+    <entry key="NonScalarTableSubscript">''{0}'' 값은 소스 테이블의 단일 변수를 참조해야 합니다.</entry>
+    <entry key="NotColumnVector">''{0}'' 값은 소스 테이블에서 열 벡터인 변수를 참조해야 합니다.</entry>
+    <entry key="TableSubscriptInvalid">''{0}'' 값이 소스 테이블의 유효한 변수를 참조하지 않습니다.</entry>
+    <entry key="TooltipSortRowAscending">행을 오름차순으로 정렬합니다.</entry>
+    <entry key="TooltipSortRowDescending">행을 내림차순으로 정렬합니다.</entry>
+    <entry key="TooltipSortRowUndo">행 정렬을 실행 취소합니다.</entry>
+    <entry key="TooltipSortColumnAscending">열을 오름차순으로 정렬합니다.</entry>
+    <entry key="TooltipSortColumnDescending">열을 내림차순으로 정렬합니다.</entry>
+    <entry key="TooltipSortColumnUndo">열 정렬을 실행 취소합니다.</entry>
+    <entry key="TooltipDragReorderRows">행을 재정렬하려면 클릭하여 끌어서 놓습니다.</entry>
+    <entry key="TooltipDragReorderColumns">열을 재정렬하려면 클릭하여 끌어서 놓습니다.</entry>
+    <entry key="TooltipResetView">행과 열 순서를 재설정합니다.</entry>
+    <entry key="DatatipRow">행</entry>
+    <entry key="DatatipSize">크기</entry>
+    <entry key="DatatipColor">색</entry>
+    <entry key="DatatipGroup">그룹</entry>
+    <entry key="DatatipCount">도수</entry>
+    <entry key="DatatipMean">평균</entry>
+    <entry key="DatatipMedian">중앙값</entry>
+    <entry key="DatatipNone">값</entry>
+    <entry key="DatatipSum">합</entry>
+    <entry key="DatatipMin">최솟값</entry>
+    <entry key="DatatipMax">최댓값</entry>
+    <entry key="DatatipValue">값</entry>
+    <entry key="DatatipBinEdges">BinEdges</entry>
+    <entry key="DatatipBinWidth">BinWidth</entry>
+    <entry key="SavingDisabled">''{0}'' 클래스의 객체는 저장할 수 없습니다.</entry>
+  </message>
+</rsccat>

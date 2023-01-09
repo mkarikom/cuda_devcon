@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidDim">对于二维表，DIM 必须为 1 或 2。</entry>
+    <entry key="NonconstDim">生成代码时，维度参数必须为常量。</entry>
+    <entry key="Varsize0x0">在代码生成中，当串联表时，第一个变量大小表在运行时不能为 0×0。</entry>
+  </message>
+</rsccat>

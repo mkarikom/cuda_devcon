@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="singleIndex">Matrix is too large to return linear indices.\nUse [i,j] = find(S) for sparse matrix.</entry>
+    <entry key="NotScalarInt">Second argument must be a positive scalar integer.</entry>
+    <entry key="InputClass">Option must be of char type.</entry>
+    <entry key="InvalidOption">Invalid search option. Must be ''first'' or ''last''.</entry>
+  </message>
+</rsccat>

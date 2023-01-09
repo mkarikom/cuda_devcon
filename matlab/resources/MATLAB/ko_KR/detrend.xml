@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFirstInput">유효하지 않은 데이터형입니다. 첫 번째 인수는 double형 또는 single형이어야 합니다.</entry>
+    <entry key="BreakpointsInvalid">중단점은 샘플 점 값이 포함된 벡터이거나 논리형 벡터여야 합니다.</entry>
+    <entry key="InvalidTrendInputType">다항식 차수는 음이 아닌 정수 스칼라여야 합니다.</entry>
+    <entry key="KeyWithoutValue">입력 인수의 개수가 올바르지 않습니다. 파라미터 이름과 값은 쌍으로 있어야 합니다.</entry>
+    <entry key="ParseFlags">파라미터 이름은 ''Continuous'' 또는 ''SamplePoints''여야 합니다.</entry>
+    <entry key="SamplePointsComplex">''SamplePoints'' 값은 실수여야 합니다.</entry>
+    <entry key="SamplePointsDuplicate">''SamplePoints'' 값에 중복 항목이 있습니다.</entry>
+    <entry key="SamplePointsFinite">''SamplePoints'' 값은 유한해야 합니다.</entry>
+    <entry key="SamplePointsInvalidDatatype">''SamplePoints'' 값은 double형 벡터, single형 벡터, datetime형 벡터 또는 duration형 벡터여야 합니다.</entry>
+    <entry key="SamplePointsLength">''SamplePoints'' 값의 요소 개수는 첫 번째 차원의 첫 번째 인수 크기와 같아야 합니다.</entry>
+    <entry key="SamplePointsSorted">''SamplePoints'' 값은 오름차순으로 정렬되어야 합니다.</entry>
+    <entry key="SamplePointsSparse">희소 형식의 ''SamplePoints'' 값은 지원되지 않습니다.</entry>
+    <entry key="PolyNotUnique">다항식이 고유하지 않거나 조건이 나쁩니다. 고유한 샘플 점을 추가하거나 다항식 차수를 줄이십시오.</entry>
+    <entry key="InvalidTrendType">''{0}''은(는) 유효하지 않은 트렌드 유형입니다.</entry>
+  </message>
+</rsccat>

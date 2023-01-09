@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoPlotMethod">plot 함수는 타임테이블 컬렉션에 사용할 수 없습니다. 타임테이블 컬렉션에 포함된 데이터를 플로팅하려면 다음 중 하나를 수행하십시오.\n * stackedplot 함수를 사용합니다. 또는\n * 컬렉션에 포함된 타임테이블을 동기화하고 동기화된 타임테이블에서 데이터를 플로팅합니다.</entry>
+    <entry key="TablesNotSupported">테이블은 타임테이블 컬렉션의 멤버로 지원되지 않습니다.</entry>
+    <entry key="ShapeParamNotValid">timetableCollection은 MemberShape 입력값을 지원하지 않습니다.</entry>
+    <entry key="TypeParamNotValid">timetableCollection은 MemberType 입력값을 지원하지 않습니다.</entry>
+    <entry key="MustBeTimetables">모든 데이터 입력값은 timetable형이어야 합니다.</entry>
+    <entry key="StackedplotMode">두 번째 입력값은 ''byvariable'' 또는 ''bytimetable''이어야 합니다.</entry>
+    <entry key="SelectDataError">타임테이블 컬렉션의 멤버 {0,number,integer}에서 데이터를 선택하는 중 오류가 발생했습니다.</entry>
+    <entry key="AssignDataError">타임테이블 컬렉션의 멤버 {0,number,integer}에 데이터를 할당하는 중 오류가 발생했습니다.</entry>
+    <entry key="ConditionFunError">타임테이블 컬렉션의 멤버 {0,number,integer}에서 행을 선택하는 중 오류가 발생했습니다.</entry>
+    <entry key="NoCondition">''Variables'', ''RowTimeRange'', ''IntersectedRowTimes'' 또는 ''Condition''을 제공하십시오.</entry>
+    <entry key="InvalidConditionFun">Condition은 timetable형을 받고 논리형 스칼라를 반환하는 함수에 대한 함수 핸들이어야 합니다.</entry>
+    <entry key="InvalidVariablesCondition">Variables는 하나 이상의 변수 이름, vartype 또는 함수 핸들이어야 합니다.</entry>
+    <entry key="InvalidRowTimeRangeCondition">RowTimeRange는 timerange 첨자여야 합니다.</entry>
+    <entry key="InvalidIntersectedRowTimesCondition">IntersectedRowTimes는 datetime형 스칼라 또는 duration형 스칼라이거나 timerange 첨자여야 합니다.</entry>
+  </message>
+</rsccat>

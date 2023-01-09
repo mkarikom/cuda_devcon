@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="null_self">빈 값에 대해 메서드를 호출하려고 함</entry>
+    <entry key="must_be_string">항목 번호 {0,number,integer}은(는) 문자형 벡터여야 함</entry>
+    <entry key="must_be_cell_array">파라미터는 셀형 배열이어야 함</entry>
+    <entry key="no_duplicates">문자형 벡터 {0}은(는) 이미 이 세트에 있습니다.</entry>
+  </message>
+</rsccat>

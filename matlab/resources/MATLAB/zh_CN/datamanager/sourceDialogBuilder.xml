@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invVectorEntry">X 必须为向量</entry>
+    <entry key="invEntry">X 必须为向量或矩阵</entry>
+    <entry key="Vs"> 与</entry>
+    <entry key="ResolveAmbiguity">解析多义性</entry>
+    <entry key="AmbiguousDataSourceVariableExpression">选择具有多义性的数据源的变量表达式。</entry>
+    <entry key="SpecifyDataSourceProperties">指定数据源属性</entry>
+    <entry key="SpecifyGraphicsDataSource">编辑用于指定图形的数据源的表。</entry>
+  </message>
+</rsccat>

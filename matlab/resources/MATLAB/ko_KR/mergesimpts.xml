@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="unknownType">알 수 없는 ''type'' 인수입니다. ''type''은 ''first'' 또는 ''average''여야 합니다.</entry>
+    <entry key="tolsize">허용오차는 스칼라이거나 첫 번째 입력 인수 ''X''와 열 개수가 같은 벡터여야 합니다.</entry>
+    <entry key="firstNotDoubleReal">첫 번째 입력 인수 ''X''는 single형, 복소수 또는 희소 행렬이 될 수 없습니다. ''X''는 비희소 형식의 double형 실수 행렬이어야 합니다.</entry>
+    <entry key="secondNotDoubleReal">두 번째 입력 인수 ''tol''은 single형, 복소수 또는 희소 행렬이 될 수 없습니다. ''tol''은 비희소 형식의 double형 실수 스칼라이거나 행 벡터여야 합니다.</entry>
+    <entry key="thirdNotChar">세 번째 입력 인수 ''type''은 문자형 벡터여야 합니다. ''type''은 ''first'' 또는 ''average''여야 합니다.</entry>
+    <entry key="NegTol">허용오차는 음수가 될 수 없습니다.</entry>
+    <entry key="NaNTol">허용오차는 NaN이 될 수 없습니다.</entry>
+    <entry key="AllInfTol">모든 허용오차가 Inf입니다. 허용오차는 유한 값을 일부 포함해야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="RowsElementsMismatch">The number of rows of the character matrix must match the number of elements in the other array.</entry>
+  <!--Resource entries for src/builtins-->
+    <entry key="InputsSizeMismatch">Inputs must be the same size or either one can be a scalar.</entry>
+    <entry key="SizeMustBeInt">The number of characters to match must be an integer.</entry>
+  </message>
+</rsccat>

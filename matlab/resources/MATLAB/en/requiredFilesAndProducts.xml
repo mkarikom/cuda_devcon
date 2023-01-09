@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <rsccat version="1.0" locale="en_US" product="MATLAB">
+   <message>
+
+     <entry key="BadStringFlag" note="stringDatatypeUpdate">
+Flag "{0}" is not recognized. Use a valid flag.
+     </entry>
+	 
+     <entry key="NameMustBeChar" note="stringDatatypeUpdate">
+Invalid element(s) found in the first input argument: {0}.
+Use strings, a row character vector or a cell array of row character vectors for file names. 
+     </entry>
+     
+   </message>
+ </rsccat>

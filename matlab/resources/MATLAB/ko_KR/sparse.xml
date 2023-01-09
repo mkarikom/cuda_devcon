@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="charConversion">입력 행렬은 double형 또는 논리형이어야 합니다.</entry>
+    <entry key="charConstructor">세 번째 입력값은 double형 또는 논리형이어야 합니다.</entry>
+    <entry key="constructorMixedType">첨자의 데이터형은 동일해야 합니다(single형, double형 또는 정수).</entry>
+    <entry key="twoNonScalarInputs">Use sparse(m,n) to preallocate an m-by-n sparse matrix, or sparse(i,j,v) to specify the (i,j) locations of nonzero entries v.</entry>
+    <entry key="inputsMustBe2D">입력값은 2차원이어야 합니다.</entry>
+    <entry key="tooLargeForLinearIndex">행렬이 너무 커서 1차(선형) 인덱스로 변환할 수 없습니다.</entry>
+    <entry key="sizeTooLarge">Sparse matrix sizes must be nonnegative integer scalars less than MAXSIZE as defined by COMPUTER.  Use HELP COMPUTER for more details.</entry>
+  </message>
+</rsccat>

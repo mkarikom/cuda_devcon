@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonFloatInput">入力は単精度または倍精度でなければなりません。</entry>
+    <entry key="sparseInput">入力は非スパースでなければなりません。</entry>
+    <entry key="nonRealNU">NU は実数でなければなりません。</entry>
+    <entry key="NUAndZSizeMismatch">NU と Z は同じサイズであるか、もしくは一方がスカラーでなければなりません。</entry>
+    <entry key="ScaleNotZeroOrOne">SCALE は 0 か 1 でなければなりません。</entry>
+  </message>
+</rsccat>

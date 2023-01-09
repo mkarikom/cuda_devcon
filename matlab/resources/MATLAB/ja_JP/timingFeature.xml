@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="clockSpeedCyclesPerSec">clock() の速度は {0} サイクル/秒です。\n</entry>
+    <entry key="counterCycles">カウンターは {0} サイクルです。\n</entry>
+    <entry key="cpuFrequencyFeatureNotAvailable">この機能は、このプラットフォームでは利用できません。\n</entry>
+    <entry key="currentCpuSpeedCyclesPerSec">現在の CPU 速度は {0} サイクル/秒です。\n</entry>
+    <entry key="oldTicTocSpeedCyclesPerSec">従来の tic/toc の CPU 速度は {0} サイクル/秒でした。\n</entry>
+    <entry key="overheadTicTocCommand">Tic/Toc コマンドのオーバーヘッドは {0} 秒です。\n</entry>
+    <entry key="speedCyclesPerSec">速度は {0} サイクル/秒です。\n</entry>
+    <entry key="resolutionTicTocClock">Tic/Toc クロックの分解能は {0} 秒です。\n</entry>
+    <entry key="ticTocCpuSpeedCyclesPerSec">tic/toc の CPU 速度は {0} サイクル/秒です。\n</entry>
+    <entry key="timeInMsec">時間は {0} ミリ秒です。\n</entry>
+    <entry key="timeInNsec">時間は {0} ナノ秒です。\n</entry>
+    <entry key="timeInTics">時間は {0} tics です。\n</entry>
+    <entry key="timeInUsec">時間は {0} マイクロ秒です。\n</entry>
+    <entry key="timeIn100nsec">時間は {0} 単位 (100 ナノ秒) です。\n</entry>
+    <entry key="uint64Difference">uint64 difference は {0} です。\n</entry>
+    <entry key="wrongSecondInput">2 番目の引数は文字ベクトルでなければなりません</entry>
+    <entry key="wrongThirdInput">3 番目の引数は double でなければなりません</entry>
+    <entry key="wrongValueWin32">以下から 2 番目の引数を選択してください: \n ''resolution_tictoc'' - 秒単位の Tic/Toc クロックの分解能 (double)\n ''overhead_tictoc'' - 秒単位の Tic/Toc コマンドのオーバーヘッド (double)\n ''getcpuspeed_tictoc'' - 格納された CPU サイクル/秒 (double) [tic/toc で使用]\n ''cpuspeed'' - 現在の CPU サイクル/秒 (double) [簡略 MathWorks]\n ''unixtimeofday'' - 現在の時刻 (uint64) [gettimeofday の呼び出し]\n 単位: 1970 年 1 月 1 日以降のマイクロ秒 (UTC)\n ''clocks_per_sec'' - サイクル/秒単位の clock() のスピード [CLOCKS_PER_SEC]\n ''posixrtperftime'' - ナノ秒単位の Posix リアルタイム (uint64) [clock_gettime の呼び出し]\n ''posixrtperfspeed'' - Posix リアルタイム クロック スピード (double) [clock_getres の呼び出し]\n 単位: サイクル/秒\n以下から 2 番目と 3 番目の引数を選択してください: \n ''cpuspeed''、double num - 現在の CPU サイクル/秒 (double) [MathWorks - 反復数]\n ''setcpuspeed_tictoc''、double speed - CPU サイクル/秒の設定 [tic/toc で使用]\n uint64 arg2、uint64 arg3 - uint64 の差分 = arg2 - arg3 (uint64)</entry>
+    <entry key="wrongValueLinux">以下から 2 番目の引数を選択してください: \n ''resolution_tictoc'' - 秒単位の Tic/Toc クロックの分解能 (double)\n ''overhead_tictoc'' - 秒単位の Tic/Toc コマンドのオーバーヘッド (double)\n ''getcpuspeed_tictoc'' - 格納された CPU サイクル/秒 (double) [tic/toc で使用]\n ''cpuspeed'' - 現在の CPU サイクル/秒 (double) [簡略 MathWorks]\n ''unixtimeofday'' - 現在の時刻 (uint64) [gettimeofday の呼び出し]\n 単位: 1970 年 1 月 1 日以降のマイクロ秒 (UTC)\n ''clocks_per_sec'' - サイクル/秒単位の clock() のスピード [CLOCKS_PER_SEC]\n ''posixrtperftime'' - ナノ秒単位の Posix リアルタイム (uint64) [clock_gettime の呼び出し]\n ''posixrtperfspeed'' - Posix リアルタイム クロック スピード (double) [clock_getres の呼び出し]\n 単位: サイクル/秒\n以下から 2 番目と 3 番目の引数を選択してください: \n ''cpuspeed''、double num - 現在の CPU サイクル/秒 (double) [MathWorks - 反復数]\n ''setcpuspeed_tictoc''、double speed - CPU サイクル/秒の設定 [tic/toc で使用]\n uint64 arg2、uint64 arg3 - uint64 の差分 = arg2 - arg3 (uint64)</entry>
+    <entry key="wrongValueApple">以下から 2 番目の引数を選択してください: \n ''resolution_tictoc'' - 秒単位の Tic/Toc クロックの分解能 (double)\n ''overhead_tictoc'' - 秒単位の Tic/Toc コマンドのオーバーヘッド (double)\n ''getcpuspeed_tictoc'' - 格納された CPU サイクル/秒 (double) [tic/toc で使用]\n ''cpuspeed'' - 現在の CPU サイクル/秒 (double) [簡略 MathWorks]\n ''unixtimeofday'' - 現在の時刻 (uint64) [gettimeofday の呼び出し]\n 単位: 1970 年 1 月 1 日以降のマイクロ秒 (UTC)\n ''clocks_per_sec'' - サイクル/秒単位の clock() のスピード [CLOCKS_PER_SEC]\n ''macperftimeaudio'' - tics 単位の Mac リアルタイム (uint64) [AudioGetCurrentHostTime の呼び出し]\n ''macperftimeaudions'' - ナノ秒単位の Mac リアルタイム (uint64)\n [AudioConvertHostTimeToNanos(AudioGetCurrentHostTime) の呼び出し]\n ''macperfspeedaudio'' - Mac リアルタイム クロック スピード (double) [AudioGetHostClockFrequency の呼び出し]\n 単位: サイクル/秒\n ''macperftimemach'' - tics 単位の Mac リアルタイム (uint64) [mach_absolute_time の呼び出し]\n ''macperfspeedmach'' - Mac リアルタイム クロック スピード (double) [mach_timebase_info の呼び出し]\n 単位: サイクル/秒\n 以下から 2 番目と 3 番目の引数を選択してください: \n ''cpuspeed''、double num - 現在の CPU サイクル/秒 (double) [MathWorks - 反復数]\n ''setcpuspeed_tictoc''、double speed - CPU サイクル/秒の設定 [tic/toc で使用]\n uint64 arg2、uint64 arg3 - uint64 の差分 = arg2 - arg3 (uint64)</entry>
+    <entry key="wrongValue">以下から 2 番目の引数を選択してください: \n ''resolution_tictoc'' - 秒単位の Tic/Toc クロックの分解能 (double)\n ''overhead_tictoc'' - 秒単位の Tic/Toc コマンドのオーバーヘッド (double)\n ''getcpuspeed_tictoc'' - 格納された CPU サイクル/秒 (double) [tic/toc で使用]\n ''cpuspeed'' - 現在の CPU サイクル/秒 (double) [簡略 MathWorks]\n ''unixtimeofday'' - 現在の時刻 (uint64) [gettimeofday の呼び出し]\n 単位: 1970 年 1 月 1 日以降のマイクロ秒 (UTC)\n ''clocks_per_sec'' - サイクル/秒単位の clock() のスピード [CLOCKS_PER_SEC]\n 以下から 2 番目と 3 番目の引数を選択してください: \n ''cpuspeed''、double num - 現在の CPU サイクル/秒 (double) [MathWorks - 反復数]\n ''setcpuspeed_tictoc''、double speed - CPU サイクル/秒の設定 [tic/toc で使用]\n uint64 arg2、uint64 arg3 - uint64 の差分 = arg2 - arg3 (uint64)</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonScalar">当 ''AsArray'' 为 false 时，输入结构体必须为标量结构体。</entry>
+    <entry key="NotVector">输入结构体必须为标量结构体，或者为包含一列或一行的结构体数组。</entry>
+    <entry key="UnequalFieldLengths">输入结构体为标量，但其字段的行数不同。如果您想创建一个包含一行的表，请将 ''AsArray'' 设置为 true。</entry>
+    <entry key="NonconstantAsArray">''AsArray'' 参数值必须为常量。</entry>
+  </message>
+</rsccat>

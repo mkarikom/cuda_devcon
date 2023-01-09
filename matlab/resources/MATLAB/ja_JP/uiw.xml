@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="StretchDIBits">メタファイル StretchDIBits 内でエラー。最後のエラー {0} を取得します。</entry>
+    <entry key="BitBlt">BitBlt 内でエラー。最後のエラー コード {0}</entry>
+    <entry key="SetStretchBltMode">ビットマップの描画は SetStretchBltMode 内でエラー。blit を拡張できません (gle{0})</entry>
+    <entry key="SetStretchBltModeOperationNotSupported">ビットマップの描画は SetStretchBltMode 内でエラー。操作はデバイスでサポートされていません。</entry>
+    <entry key="StretchBlt">StretchBlt 内でエラー。最後のエラー コード {0}</entry>
+    <entry key="NoSetDIBits">デバイスは SetDIBits をサポートしません</entry>
+    <entry key="SetDIBits">SetDIBits (gle{0}) 内でエラー</entry>
+    <entry key="NoDCBitBlt">デバイスは BitBlt をサポートしません</entry>
+    <entry key="NoDCMemBitBlt">メモリ デバイスは BitBlt をサポートしません</entry>
+    <entry key="CloseEnhMetaFile">CloseEnhMetaFile 内でエラー。最後のエラー コード {0} (hDC {1} より)</entry>
+    <entry key="CreateCompatibleDC">CreateCompatibleDC 内でエラー。最後のエラー コード {0} (hDC {1} より)</entry>
+    <entry key="CreateCompatibleBitmap">CreateCompatibleBitmap 内でエラー。最後のエラー コード {0}</entry>
+    <entry key="BitBltWithReturnCode">BitBlt 内でエラー。最後のエラー コード {0}。リターン コード {1}</entry>
+    <entry key="BitBltMemory">メモリ BitBlt (gle{0}) 内でエラー</entry>
+    <entry key="FileExists">{0} は既に存在します。置き換えますか?</entry>
+    <entry key="SelectFileToWrite">書き込むファイルを選択</entry>
+  </message>
+</rsccat>

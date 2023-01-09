@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="charConversion">入力行列は double または logical でなければなりません。</entry>
+    <entry key="charConstructor">3 番目の入力は double または logical でなければなりません。</entry>
+    <entry key="constructorMixedType">添字は同じデータ型でなければなりません (single、double または整数)。</entry>
+    <entry key="twoNonScalarInputs">Use sparse(m,n) to preallocate an m-by-n sparse matrix, or sparse(i,j,v) to specify the (i,j) locations of nonzero entries v.</entry>
+    <entry key="inputsMustBe2D">入力は 2 次元でなければなりません。</entry>
+    <entry key="tooLargeForLinearIndex">行列は、線形インデックスに変換するには大きすぎます。</entry>
+    <entry key="sizeTooLarge">Sparse matrix sizes must be nonnegative integer scalars less than MAXSIZE as defined by COMPUTER.  Use HELP COMPUTER for more details.</entry>
+  </message>
+</rsccat>

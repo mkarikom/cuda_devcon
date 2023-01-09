@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidUnit">UNIT 必须为 ''second''、''minute''、''hour''、''day''、''week''、''month''、''quarter'' 或 ''year''。</entry>
+    <entry key="AmbiguousUnit">UNIT 的值具有多义性:  ''{0}''。</entry>
+    <entry key="InputSizeMismatch">T 和 RULE 必须具有相同的大小，或者二者中任意一项都可以为标量。</entry>
+    <entry key="InvalidRule">RULE 必须为整数值、整数值数组，或者为以下值之一: ''next''、''previous''、''current'' 或 ''nearest''。</entry>
+    <entry key="InvalidDOW">星期几必须为从 1 到 7 的数字，或者为星期名称。</entry>
+    <entry key="AmbiguousDOW">星期几的值不明确: "{0}"。</entry>
+    <entry key="InvalidWhereTo">第二个输入必须为 ''start''、''end'' 或 ''dayofweek''。</entry>
+    <entry key="InvalidRuleForWeekDayWeekEnd">当使用 ''weekday'' 或 ''weekend'' 进行移位时，RULE 必须为 ''next''、''previous'' 或 ''nearest''。</entry>
+    <entry key="InvalidNumericRuleForWeekDayWeekEnd">当使用 ''weekday'' 或 ''weekend'' 进行移位时，不支持数值 RULE 为 0。</entry>
+  </message>
+</rsccat>

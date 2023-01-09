@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NameMustBeString">표시할 두 번째 입력값은 표시하려는 변수의 이름을 포함하는 문자형 벡터여야 합니다.</entry>
+    <entry key="EmptyCustomDisplayGroup">속성이 없습니다.</entry>
+    <entry key="TooFewElementsInStringArray">The number of elements in string array argument must be greater than ''{0}''.</entry>
+    <entry key="EmptyStringArray">The string array argument must contain at least one element if ''{0}'' is not an empty object.</entry>
+    <entry key="AnnotationRowMismatch">The number of rows in the annotation argument must match the number of rows in the ''{0}'' argument.</entry>
+    <entry key="StringArrayRowMismatch">The number of rows in the string array argument must match the number of rows in the ''{0}'' argument.</entry>
+    <entry key="StringArrayMustBeScalar">string형 배열 인수는 단일 라인으로 표시되는 string형 스칼라여야 합니다.</entry>
+    <entry key="InvalidStringArrayDimensions">The string array argument must be a matrix.</entry>
+    <entry key="AnnotationMustBeScalar">The annotation argument must be a scalar string in single line display.</entry>
+    <entry key="CustomCompactDisplayError">''{0}'' 클래스 메서드 ''{1}''을(를) 실행하는 중 다음 오류가 발생했습니다:\n{2}</entry>
+    <entry key="CompactDisplayRepresentationRequired">''{0}''은(는) CompactDisplayRepresentation 객체를 반환해야 합니다.</entry>
+  </message>
+</rsccat>

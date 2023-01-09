@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="License">许可证</entry>
+    <entry key="LicenseNumber">许可证编号</entry>
+    <entry key="NotAString">参数必须为字符串标量或字符向量。</entry>
+    <entry key="NotFound">没有发现针对 ''{0}'' 具有正确格式的 Contents.m 文件</entry>
+    <entry key="OperatingSystem">操作系统</entry>
+    <entry key="Trial">试用版</entry>
+    <entry key="Version">版本</entry>
+    <entry key="ProductNameDeprecated">在以后的版本中将取消对 ver(''{0}'') 的支持。请改用 ver(''{1}'')。</entry>
+  </message>
+</rsccat>

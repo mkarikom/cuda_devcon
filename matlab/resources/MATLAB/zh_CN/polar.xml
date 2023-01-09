@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInputType">输入参数必须为数值。</entry>
+    <entry key="InvalidDataInputs">需要 2 或 3 个数据参数。</entry>
+    <entry key="InvalidInputDimensions">THETA 和 RHO 的大小必须相同。</entry>
+    <entry key="PolarAxes">POLAR 与 PolarAxes 类不兼容。请改用 POLARPLOT。</entry>
+  </message>
+</rsccat>

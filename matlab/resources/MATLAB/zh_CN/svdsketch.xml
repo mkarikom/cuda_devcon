@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidTolerance" context="error">容差必须为大于等于 sqrt(eps(class(A))) 且小于 1 的实数数值标量。</entry>
+    <entry key="InvalidBsize" context="error">块大小必须为正整数。</entry>
+    <entry key="InvalidMaxiter" context="error">最大迭代数必须是正整数。</entry>
+    <entry key="InvalidMaxdim" context="error">最大子空间维度必须为正整数。</entry>
+    <entry key="InvalidP" context="error">幂迭代次数必须为非负整数，但通常为 0、1 或 2。</entry>
+    <entry key="InvalidA" context="error">第一个输入必须为单精度或双精度类型的矩阵。</entry>
+    <entry key="NameWithoutValue" context="error">输入参数的数目不正确。每个参数名称必须后跟相应的值。</entry>
+  </message>
+</rsccat>

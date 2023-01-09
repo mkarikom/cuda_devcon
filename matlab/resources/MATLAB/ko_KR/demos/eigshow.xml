@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ButtonHelp">도움말</entry>
+    <entry key="ButtonClose">닫기</entry>
+    <entry key="LabelMakeAxPerpendicularToAy">A*x가 A*y에 수직이 되도록 합니다.</entry>
+    <entry key="LabelMakeAxParallelToX">A*x가 x에 평행이 되도록 합니다.</entry>
+    <entry key="InputSizeIncorrect">행렬은 2×2여야 함</entry>
+  </message>
+</rsccat>

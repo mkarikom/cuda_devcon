@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="HandlerUnavailable">키보드 명령을 사용할 수 없습니다.</entry>
+    <entry key="IllegalArgument">키보드 명령으로 부적절한 인수가 전달되었습니다.</entry>
+    <entry key="NotAvailableInDemo">데모 버전에서 사용할 수 없는 명령입니다.</entry>
+    <entry key="NotAvailableInEngine">엔진으로 MATLAB를 사용할 경우 키보드 명령을 사용할 수 없습니다.</entry>
+  </message>
+</rsccat>

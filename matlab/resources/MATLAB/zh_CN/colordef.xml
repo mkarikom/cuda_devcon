@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidOption">为 colordef 的第一个输入指定的选项无效。</entry>
+    <entry key="RootOrFigureHandle">colordef(FIG, OPTION) 需要根或图窗窗口句柄</entry>
+    <entry key="FigureHandleExpected">传递给 colordef 的句柄向量只能包含图窗句柄。</entry>
+    <entry key="InvalidHandle">图窗句柄无效。</entry>
+    <entry key="MustClearFigure">必须使用 CLF 清空图窗才能使用 COLORDEF(FIG, OPTION)。</entry>
+    <entry key="UnknownDefaultOption">未知的颜色默认选项: {0}。</entry>
+  </message>
+</rsccat>

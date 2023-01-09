@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonNumericInput">参数必须为数值。</entry>
+    <entry key="nonRealNU">NU 必须是实数。</entry>
+    <entry key="NUAndZSizeMismatch">NU 和 Z 必须是相同大小的。</entry>
+    <entry key="BesselhIerrRemoved">BESSELH 不再返回第二个输出。请改用 H = BESSELH(NU,Z)。</entry>
+    <entry key="BesseliIerrRemoved">BESSELI 不再返回第二个输出。请改用 I = BESSELI(NU,Z)。</entry>
+    <entry key="BesseljIerrRemoved">BESSELJ 不再返回第二个输出。请改用 J = BESSELJ(NU,Z)。</entry>
+    <entry key="BesselkIerrRemoved">BESSELK 不再返回第二个输出。请改用 K = BESSELK(NU,Z)。</entry>
+    <entry key="BesselyIerrRemoved">BESSELY 不再返回第二个输出。请改用 Y = BESSELY(NU,Z)。</entry>
+    <entry key="BesselhEmptyEdgeCase">BESSELH(NU,Z) 不再接受空数组与非标量输入的混合项。</entry>
+    <entry key="BesseliEmptyEdgeCase">BESSELI(NU,Z) 不再接受空数组与非标量输入的混合项。</entry>
+    <entry key="BesseljEmptyEdgeCase">BESSELJ(NU,Z) 不再接受空数组与非标量输入的混合项。</entry>
+    <entry key="BesselkEmptyEdgeCase">BESSELK(NU,Z) 不再接受空数组与非标量输入的混合项。</entry>
+    <entry key="BesselyEmptyEdgeCase">BESSELY(NU,Z) 不再接受空数组与非标量输入的混合项。</entry>
+    <entry key="BesselhRowColumnVectorCase">BESSELH(NU,Z) 不再接受行向量与列向量的混合项。请改用 BSXFUN、[NU1 Z1] = MESHGRID(NU, Z) 或 BESSELH(NU1,Z1)。</entry>
+    <entry key="BesseliRowColumnVectorCase">BESSELI(NU,Z) 不再接受行向量与列向量的混合项。请改用 BSXFUN、[NU1 Z1] = MESHGRID(NU, Z) 或 BESSELI(NU1,Z1)。</entry>
+    <entry key="BesseljRowColumnVectorCase">BESSELJ(NU,Z) 不再接受行向量与列向量的混合项。请改用 BSXFUN、[NU1 Z1] = MESHGRID(NU, Z) 或 BESSELJ(NU1,Z1)。</entry>
+    <entry key="BesselkRowColumnVectorCase">BESSELK(NU,Z) 不再接受行向量与列向量的混合项。请改用 BSXFUN、[NU1 Z1] = MESHGRID(NU, Z) 或 BESSELK(NU1,Z1)。</entry>
+    <entry key="BesselyRowColumnVectorCase">BESSELY(NU,Z) 不再接受行向量与列向量的混合项。请改用 BSXFUN、[NU1 Z1] = MESHGRID(NU, Z) 或 BESSELY(NU1,Z1)。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="dimensionMustBePositiveInteger">차원 인수는 양의 정수 스칼라여야 합니다.</entry>
+    <entry key="InputSizeMismatch">A와 B는 같은 크기여야 합니다.</entry>
+    <entry key="InvalidDimAorB">A와 B는 최소 1차원이어야 하며, 길이 3이어야 합니다.</entry>
+    <entry key="InvalidDimAorBForCrossProd">외적을 구하려면 A와 B의 차원의 길이는 3이어야 합니다.</entry>
+  </message>
+</rsccat>

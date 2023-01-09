@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CellsMustContainChars">元胞元素必须为字符向量。</entry>
+    <entry key="InvalidInputType">输入必须为字符向量、字符向量元胞数组或字符串数组。</entry>
+    <entry key="MultiRowInput">字符输入必须为行向量。</entry>
+    <entry key="NumericWithNonscalarString">同时指定了数值和字符串数组输入时，字符串输入必须为标量。</entry>
+    <entry key="InputsMustBeRowVectors">字符输入必须为行向量。</entry>
+    <entry key="InputsSizeMismatch">所有非标量输入的大小必须相同。</entry>
+  </message>
+</rsccat>

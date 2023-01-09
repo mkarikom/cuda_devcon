@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidCodeInput">输入无效。代码字符串必须为 char、cellstr 或字符串数组，并且没有缺失值或 Python 代码对象。</entry>
+    <entry key="InvalidOutputList">Invalid input. PYOUTVARS must be a char, cellstr or a string array without missing values.</entry>
+    <entry key="InvalidVariableInitialization">{0}</entry>
+  </message>
+</rsccat>

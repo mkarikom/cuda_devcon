@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FaceVertexCDataInvalidDataType">面と頂点の CData 座標は数値でなければなりません。</entry>
+    <entry key="XYZInvalidDataType">X、Y、Z 座標は数値でなければなりません。</entry>
+    <entry key="PatchFacesElementExceedsVerticesLength">Patch の Faces 要素 ({1,number,integer},{2,number,integer})) の値 ({0}) は、Vertices の長さ ({3,number,integer}) を超えています</entry>
+  </message>
+</rsccat>

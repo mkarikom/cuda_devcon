@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadXml">サーバーの応答は、有効な XML ではありません:\n\n{0}</entry>
+    <entry key="SoapFault">SOAP 障害: {0}</entry>
+    <entry key="NonUnique">固有でない要素です。</entry>
+    <entry key="BadBoolean">ブール値は true でも false でもありません。</entry>
+  </message>
+</rsccat>

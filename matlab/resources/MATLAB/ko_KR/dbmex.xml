@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badInput">부적절한 옵션(''{0}'')이 지정되었습니다.</entry>
+    <entry key="DebugMEXfiles">MEX 파일을 디버그하려면 디버거에서 MATLAB을 실행해야 합니다.</entry>
+    <entry key="ToRunMATLABWithinADebuggerStartItByTyping">    디버거에서 MATLAB을 실행하려면 다음을 입력하여 시작하십시오.</entry>
+    <entry key="NameOfTheDebugger">    여기서 "debugger"는 사용하려는 디버거의 이름입니다.</entry>
+    <entry key="MatlabDdebugger">           matlab -Ddebugger</entry>
+  </message>
+</rsccat>

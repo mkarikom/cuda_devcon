@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="FaceVertexCDataInvalidDataType">The Face Vertex CData coordinates must be numeric.</entry>
+    <entry key="XYZInvalidDataType">The X,Y,Z coordinates must be numeric.</entry>
+    <entry key="PatchFacesElementExceedsVerticesLength">Value ({0}) of Patch Faces element ({1,number,integer},{2,number,integer}) exceeds Vertices length ({3,number,integer})</entry>
+  </message>
+</rsccat>

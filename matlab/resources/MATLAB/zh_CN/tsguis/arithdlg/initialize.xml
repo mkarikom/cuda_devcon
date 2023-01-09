@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ReplaceSelectedTimeSeries">替换所选时序</entry>
+    <entry key="CreateNewTimeSeries">新建时序</entry>
+    <entry key="TransformDataAlgebraically">以代数方式变换数据</entry>
+    <entry key="EnterMATLABexpression">输入 MATLAB 表达式</entry>
+    <entry key="TimeSeries">时序</entry>
+    <entry key="Identifier">标识符</entry>
+    <entry key="Name">名称</entry>
+    <entry key="Path">路径</entry>
+    <entry key="Size">大小</entry>
+    <entry key="ExpressionUseIdentifierToReferTimeSeries">表达式: 使用标识符表示时序，例如 a*25</entry>
+    <entry key="NewTimeSeries">新建时序:</entry>
+    <entry key="NewName">新名称:</entry>
+    <entry key="Apply">应用</entry>
+    <entry key="Close">关闭</entry>
+    <entry key="Help">帮助</entry>
+  </message>
+</rsccat>

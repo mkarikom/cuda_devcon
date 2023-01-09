@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Tool_changePointsFinder_Label" context="uistring">変化点の検出</entry>
+    <entry key="Tool_changePointsFinder_Description">データ内の急激な変化を検出します</entry>
+    <entry key="Tool_dataSmoother_Label" context="uistring">データの平滑化</entry>
+    <entry key="Tool_dataSmoother_Description">ノイズを含むデータを平滑化します</entry>
+    <entry key="Tool_localExtremaFinder_Label" context="uistring">局所的極値の検出</entry>
+    <entry key="Tool_localExtremaFinder_Description">局所的最大値と局所的最小値を検出します</entry>
+    <entry key="Tool_missingDataCleaner_Label" context="uistring">欠損データの削除</entry>
+    <entry key="Tool_missingDataCleaner_Description">欠損データの検出、埋め込み、または削除を行います</entry>
+    <entry key="Tool_NormalizeDataTask_Label" context="uistring">データの正規化</entry>
+    <entry key="Tool_NormalizeDataTask_Description" context="uistring">データのセンタリングとスケーリングを行います</entry>
+    <entry key="Tool_outlierDataCleaner_Label" context="uistring">外れ値データの削除</entry>
+    <entry key="Tool_outlierDataCleaner_Description">外れ値の検出、埋め込み、または削除を行います</entry>
+    <entry key="Tool_trendRemover_Label" context="uistring">トレンドの除去</entry>
+    <entry key="Tool_trendRemover_Description" context="uistring">多項式のトレンドをデータから除去します</entry>
+    <entry key="Tool_tableJoiner_Label" context="uistring">table の連結</entry>
+    <entry key="Tool_tableJoiner_Description" context="uistring">キー変数を使用して 2 つの table を連結します</entry>
+    <entry key="Tool_tableStacker_Label" context="uistring">スタック (table 変数)</entry>
+    <entry key="Tool_tableStacker_Description" context="uistring">複数の table 変数からの値を結合して 1 つの table 変数にします</entry>
+    <entry key="Tool_tableUnstacker_Label" context="uistring">スタック解除 (table 変数)</entry>
+    <entry key="Tool_tableUnstacker_Description" context="uistring">1 つの table 変数からの値を複数の table 変数に分配します</entry>
+    <entry key="Tool_timetableRetimer_Label" context="uistring">timetable の時間再調整</entry>
+    <entry key="Tool_timetableRetimer_Description" context="uistring">timetable データをリサンプリングするか、集計します</entry>
+    <entry key="Tool_timetableSynchronizer_Label" context="uistring">timetable の同期</entry>
+    <entry key="Tool_timetableSynchronizer_Description" context="uistring">複数の timetable の時間を再調整して結合し、新しい time ベクトルにします</entry>
+    <entry key="Tool_ComputeByGroupTask_Label" context="uistring">グループ別に計算</entry>
+    <entry key="Tool_ComputeByGroupTask_Description" context="uistring">グループごとに要約、変換、またはフィルター処理を行います</entry>
+    <entry key="AllNumeric" context="uistring">すべての数値変数</entry>
+    <entry key="AllSupported" context="uistring">サポートされているすべての変数</entry>
+    <entry key="Asymmetric">非対称</entry>
+    <entry key="Centered">中央揃え</entry>
+    <entry key="CleanedData" context="uistring">クリーニング済みのデータ</entry>
+    <entry key="CleaningMethod" context="uistring">クリーニング メソッド</entry>
+    <entry key="Constantvalue">定数値</entry>
+    <entry key="DataDelimiter" context="uistring">データの選択</entry>
+    <entry key="DefaultValue">既定値</entry>
+    <entry key="Days">日</entry>
+    <entry key="Hours">時間</entry>
+    <entry key="InputData" context="uistring">入力データ</entry>
+    <entry key="InputDataTooltip">ワークスペース変数</entry>
+    <entry key="Linearinterpolation">線形内挿</entry>
+    <entry key="Makima" context="uistring">修正 Akima 3 次内挿</entry>
+    <entry key="ManualSelection" context="uistring">指定した変数</entry>
+    <entry key="Mean">平均</entry>
+    <entry key="Median">中央値</entry>
+    <entry key="MethodDelimiter" context="uistring">メソッドの指定</entry>
+    <entry key="MethodAndParametersDelimiter" context="uistring">メソッドとパラメーターの指定</entry>
+    <entry key="Milliseconds">ミリ秒</entry>
+    <entry key="Minutes">分</entry>
+    <entry key="Months">月</entry>
+    <entry key="Movingmean">移動平均値</entry>
+    <entry key="Movingmedian">移動中央値</entry>
+    <entry key="Movingwindow">移動ウィンドウ</entry>
+    <entry key="Nearestvalue">最も近い値</entry>
+    <entry key="Nextvalue">次の値</entry>
+    <entry key="None">なし</entry>
+    <entry key="NoVisualization" context="uistring">入力 {0} の可視化はサポートされていません</entry>
+    <entry key="NoVisualizationMulti" context="uistring">{0} 内の選択したいずれの変数でも可視化はサポートされていません</entry>
+    <entry key="OtherRemovedData" context="uistring">他の変数により削除</entry>
+    <entry key="Outputtable" context="uistring">出力 table</entry>
+    <entry key="ParametersDelimiter" context="uistring">パラメーターの指定</entry>
+    <entry key="Pchip">形状保持 3 次内挿 (PCHIP)</entry>
+    <entry key="PlotDropDownTooltip" context="uistring">プロット機能がサポートされている {0} 変数</entry>
+    <entry key="Previousvalue">前の値</entry>
+    <entry key="OutputType" context="uistring">出力形式</entry>
+    <entry key="OutputTypeSmallTable" context="uistring">選択した変数から {0} を新規作成</entry>
+    <entry key="OutputTypeSmallTableLogical" context="uistring">選択した変数のみの logical インデックス</entry>
+    <entry key="OutputTypeTable" context="uistring">クリーニング済みの選択した変数を含めて {0} をコピー</entry>
+    <entry key="OutputTypeVector" context="uistring">{1} からの {0} の抽出</entry>
+    <entry key="OutputTypeLogical" context="uistring">{0} の logical インデックス</entry>
+    <entry key="Quarters" context="uistring">四半期</entry>
+    <entry key="SamplePoints">X 軸</entry>
+    <entry key="SamplePointsTableVarTooltip" context="uistring">有限かつ昇順の {0} 変数</entry>
+    <entry key="SamplePointsTooltip" context="uistring">入力データに関連付けられた X 軸。既定は [1 2 3 ...] です。値は有限かつ昇順でなければなりません。</entry>
+    <entry key="SamplePointsTooltipDisabled" context="uistring">出力が timetable である場合、X 軸は timetable の行時間でなければなりません</entry>
+    <entry key="SamplePointsTooltipDisabledLogical" context="uistring">出力が複数の変数の logical インデックスである場合、X 軸は timetable の行時間でなければなりません</entry>
+    <entry key="Seconds">秒</entry>
+    <entry key="SelectVariable">変数の選択</entry>
+    <entry key="SelectedVariable" context="uistring">選択した変数</entry>
+    <entry key="Splineinterpolation">スプライン内挿</entry>
+    <entry key="TableVarTooltip">{1} からの変数 {0}</entry>
+    <entry key="VariableToDisplay" context="uistring">表示する変数</entry>
+    <entry key="Visualizeresults" context="uistring">結果の表示</entry>
+    <entry key="Weeks" context="uistring">週</entry>
+    <entry key="WindowSizeTooltip1">現在の要素の前のウィンドウ単位</entry>
+    <entry key="WindowSizeTooltip2">現在の要素の後のウィンドウ単位</entry>
+    <entry key="WindowSizeTooltipCentered" context="uistring">現在の要素を中心とするウィンドウ単位</entry>
+    <entry key="WindowTypeTooltip">ウィンドウのタイプ</entry>
+    <entry key="WindowUnitsTooltip">ウィンドウ単位のタイプ</entry>
+    <entry key="Years">年</entry>
+    <entry key="changePointsFinderChangePoints" context="uistring">変化点</entry>
+    <entry key="changePointsFinderFindchangepoints">変化点の検出</entry>
+    <entry key="changePointsFinderLinear">線形</entry>
+    <entry key="changePointsFinderLinearRegime" context="uistring">線形状態</entry>
+    <entry key="changePointsFinderMaxNum">変化点の最大数</entry>
+    <entry key="changePointsFinderMaxNumTooltip" context="uistring">より多くの可能な変化点を考慮して増やします</entry>
+    <entry key="changePointsFinderNumberofChangePoints" context="uistring">変化点の数</entry>
+    <entry key="changePointsFinderSegmentMean" context="uistring">セグメントの平均</entry>
+    <entry key="changePointsFinderPlotchangepoints">変化点のプロット</entry>
+    <entry key="changePointsFinderPlotsegments">変化点間のセグメントのプロット</entry>
+    <entry key="changePointsFinderSegments" context="uistring">変化点間のセグメント</entry>
+    <entry key="changePointsFinderSummaryLinear">{0} の線形状態の急激な変化</entry>
+    <entry key="changePointsFinderSummaryMean">{0} の平均の急激な変化</entry>
+    <entry key="changePointsFinderSummaryVariance">{0} の分散の急激な変化</entry>
+    <entry key="changePointsFinderThreshold">しきい値</entry>
+    <entry key="changePointsFinderThreshOrMaxTooltip">変化点の数を制御します</entry>
+    <entry key="changePointsFinderThresholdTooltip">しきい値を増やすと変化点の数が少なくなります</entry>
+    <entry key="changePointsFinderTypeofChange" context="uistring">変化のタイプ</entry>
+    <entry key="changePointsFinderVariance">分散</entry>
+    <entry key="dataSmootherDegreeTooltip">Savitzky-Golay フィルターの多項式の次数</entry>
+    <entry key="dataSmootherGaussianfilter">ガウス フィルター</entry>
+    <entry key="dataSmootherLocallinearregression" context="uistring">局所線形回帰 (Lowess)</entry>
+    <entry key="dataSmootherLocalquadraticregression" context="uistring">局所二次回帰 (Loess)</entry>
+    <entry key="dataSmootherPolynomialDegree" context="uistring">多項式の次数</entry>
+    <entry key="dataSmootherRobustlocallinearregression" context="uistring">ロバストな Lowess</entry>
+    <entry key="dataSmootherRobustlocalquadraticregression" context="uistring">ロバストな Loess</entry>
+    <entry key="dataSmootherSmoothingfactor">平滑化係数</entry>
+    <entry key="dataSmootherSmoothingFactorTooltip">増加するとより滑らかになります</entry>
+    <entry key="dataSmootherSmoothingMethod" context="uistring">平滑化法</entry>
+    <entry key="dataSmootherSavitzkyGolaypolynomialfilter">Savitzky-Golay 多項式フィルター</entry>
+    <entry key="dataSmootherSmoothedData" context="uistring">平滑化済みのデータ</entry>
+    <entry key="dataSmootherSmoothinputdata">入力データの平滑化</entry>
+    <entry key="dataSmootherSummary">ノイズを含み、{1} メソッドを使用して平滑化済みの {0} のデータ</entry>
+    <entry key="groupingACustomFunction" context="uistring">カスタム関数</entry>
+    <entry key="groupingAllNonGrouping" context="uistring">グループ化変数以外のすべての変数</entry>
+    <entry key="groupingAllVariables" context="uistring">すべての変数</entry>
+    <entry key="groupingbinEdges" context="uistring">ビンのエッジの指定</entry>
+    <entry key="groupingBinEdgesTooltip" context="uistring">昇順に並べ替えられた、2 以上の長さの数値ワークスペース ベクトル</entry>
+    <entry key="groupingBinEdgesTooltipDT" context="uistring">昇順に並べ替えられた、2 以上の長さの datetime ワークスペース ベクトル</entry>
+    <entry key="groupingBinEdgesTooltipDur" context="uistring">昇順に並べ替えられた、2 以上の長さの duration ワークスペース ベクトル</entry>
+    <entry key="groupingBinningTooltipbinEdges" context="uistring">ビンのエッジ {1} で {0} によってデータをグループ化</entry>
+    <entry key="groupingBinningTooltipbinWidth" context="uistring">{0} を使用して {1} {2} のビンにデータをグループ化</entry>
+    <entry key="groupingBinningTooltipnone" context="uistring">{0} の固有の値を使用してデータをグループ化</entry>
+    <entry key="groupingBinningTooltipnumBins" context="uistring">{0} を使用して {1} ビンにデータをグループ化</entry>
+    <entry key="groupingBinningTooltiptimeBins" context="uistring">{0} の {1} によってデータをグループ化</entry>
+    <entry key="groupingbinWidth" context="uistring">ビンの幅の選択</entry>
+    <entry key="groupingcentury" context="uistring">世紀</entry>
+    <entry key="groupingCodeCommentInputArray" context="uistring">{0} は計算対象とするデータの 1 つのグループ内のデータです</entry>
+    <entry key="groupingCodeCommentInputTable" context="uistring">{0} は計算対象とする 1 つの変数の 1 つのグループ内のデータです</entry>
+    <entry key="groupingCodeCommentFilterOutput" context="uistring">{0} は true、false、または {1} と同じ高さの logical 列ベクトルです</entry>
+    <entry key="groupingCodeCommentFilterExample1" context="uistring">例 1: 平均が 10 を超えるグループのみを保持する</entry>
+    <entry key="groupingCodeCommentFilterExample2" context="uistring">例 2: 各グループの非外れ値のみを保持する</entry>
+    <entry key="groupingCodeCommentSummaryOutput" context="uistring">{0} は最初の次元のサイズが 1 です</entry>
+    <entry key="groupingCodeCommentSummaryExample" context="uistring">例: 各グループの外れ値の数をカウントします</entry>
+    <entry key="groupingCodeCommentTransformOutput" context="uistring">{0} は {1} と同じサイズであるか、あるいは最初の次元のサイズが 1 です</entry>
+    <entry key="groupingCodeCommentTransformExample1" context="uistring">例 1: 各グループ メンバーをグループの平均で除算します</entry>
+    <entry key="groupingCodeCommentTransformExample2" context="uistring">例 2: グループ メンバーをグループの平均で置き換えます</entry>
+    <entry key="groupingcounts" context="uistring">カウント</entry>
+    <entry key="groupingCustomFunction" context="uistring">カスタム関数</entry>
+    <entry key="groupingDataDelimiter" context="uistring">計算対象とするグループとデータを選択する</entry>
+    <entry key="groupingDataVarLabel" context="uistring">計算対象</entry>
+    <entry key="groupingDataVarTooltip" context="uistring">計算対象とする入力 table の変数</entry>
+    <entry key="groupingDataVarWSDDTooltip" context="uistring">計算対象とするワークスペース変数</entry>
+    <entry key="groupingday" context="uistring">日</entry>
+    <entry key="groupingdayname" context="uistring">曜日名</entry>
+    <entry key="groupingdayofmonth" context="uistring">月間通算日</entry>
+    <entry key="groupingdayofweek" context="uistring">曜日</entry>
+    <entry key="groupingdayofyear" context="uistring">年間通算日</entry>
+    <entry key="groupingdecade" context="uistring">10 年</entry>
+    <entry key="groupingDispMessage" context="uistring">新しいローカル関数を選択または作成してください</entry>
+    <entry key="groupingFillMissing" context="uistring">欠損を埋める</entry>
+    <entry key="groupingFilteringFunctionTooltip" context="uistring">関数は、グループ メンバーをフィルターで除外するには false を返し、グループ メンバーを保持するには true を返さなければならない</entry>
+    <entry key="groupingFunctionDelimiter" context="uistring">グループに対する計算を選択する</entry>
+    <entry key="groupinggroupfilterComment" context="uistring">グループ別にデータをフィルター処理</entry>
+    <entry key="groupinggroupfilterLabel" context="uistring">グループ別に\nフィルター処理</entry>
+    <entry key="groupinggroupfilterSummary0" context="uistring">グループ別に {0} のデータをフィルター処理</entry>
+    <entry key="groupinggroupfilterSummary1" context="uistring">{1} でグループ化された {0} のデータをフィルター処理</entry>
+    <entry key="groupinggroupfilterSummary2" context="uistring">{1} および {2} でグループ化された {0} のデータをフィルター処理</entry>
+    <entry key="groupinggroupfilterTooltip" context="uistring">グループまたはグループ メンバーを削除する処理</entry>
+    <entry key="groupingGroupingVariable" context="uistring">グループ化</entry>
+    <entry key="groupinggroupsummaryComment" context="uistring">グループ要約の計算</entry>
+    <entry key="groupinggroupsummaryLabel" context="uistring">グループ別に\n統計値を\n計算</entry>
+    <entry key="groupinggroupsummarySummary0" context="uistring">{0} の各グループの {1} を計算</entry>
+    <entry key="groupinggroupsummarySummary1" context="uistring">{2} でグループ化された {0} の {1} を計算</entry>
+    <entry key="groupinggroupsummarySummary2" context="uistring">{2} および {3} でグループ化された {0} の {1} を計算</entry>
+    <entry key="groupinggroupsummaryTooltip" context="uistring">グループごとにスカラー出力を提供する処理</entry>
+    <entry key="groupinggrouptransformComment" context="uistring">グループ別にデータを変換</entry>
+    <entry key="groupinggrouptransformLabel" context="uistring">グループ別\nに変換</entry>
+    <entry key="groupinggrouptransformSummary0" context="uistring">{0} のデータのグループを {1}</entry>
+    <entry key="groupinggrouptransformSummary1" context="uistring">{2} でグループ化された {0} のデータを {1}</entry>
+    <entry key="groupinggrouptransformSummary2" context="uistring">{2} および {3} でグループ化された {0} のデータを {1}</entry>
+    <entry key="groupinggrouptransformTooltip" context="uistring">入力と同じサイズの出力を提供する処理</entry>
+    <entry key="groupingGroupWSDDTooltip" context="uistring">グループ化変数、またはグループ化変数を含む table または timetable</entry>
+    <entry key="groupinghandle" context="uistring">関数ハンドル</entry>
+    <entry key="groupinghour" context="uistring">時間</entry>
+    <entry key="groupinghourofday" context="uistring">時刻</entry>
+    <entry key="groupingIncludedEdge" context="uistring">含めるビン エッジ</entry>
+    <entry key="groupingIncludedEdgeTooltip" context="uistring">含められるビン区間の端</entry>
+    <entry key="groupingIncludeEmpty" context="uistring">空のグループを含める</entry>
+    <entry key="groupingIncludeEmptyTooltip" context="uistring">データが空のグループを表示</entry>
+    <entry key="groupingIncludeMissing" context="uistring">欠損グループを含める</entry>
+    <entry key="groupingIncludeMissingTooltip" context="uistring">グループ化変数に NaN や NaT などの欠損値が含まれるグループを表示</entry>
+    <entry key="groupingInputTable" context="uistring">入力 table</entry>
+    <entry key="groupingInputTooltip" context="uistring">グループ化変数、またはグループ化変数を含む table または timetable</entry>
+    <entry key="groupingLeft" context="uistring">左</entry>
+    <entry key="groupinglinearfill" context="uistring">グループ データの内挿により欠損を埋める</entry>
+    <entry key="groupinglocal" context="uistring">ローカル関数</entry>
+    <entry key="groupingmax" context="uistring">最大値</entry>
+    <entry key="groupingmean" context="uistring">平均</entry>
+    <entry key="groupingmeancenter" context="uistring">平均が 0 となるようなセンタリング</entry>
+    <entry key="groupingmeancentersummary" context="uistring">中央</entry>
+    <entry key="groupingmeanfill" context="uistring">グループ平均で欠損を埋める</entry>
+    <entry key="groupingmedian" context="uistring">中央値</entry>
+    <entry key="groupingMethodLabel1" context="uistring">グループごとの計算</entry>
+    <entry key="groupingMethodLabel2" context="uistring">グループごとの計算</entry>
+    <entry key="groupingMethodsChosen" context="uistring">{0} メソッドが選択されました</entry>
+    <entry key="groupingmin" context="uistring">最小値</entry>
+    <entry key="groupingminute" context="uistring">分</entry>
+    <entry key="groupingminuteofhour" context="uistring">1 時間における分</entry>
+    <entry key="groupingmode" context="uistring">モード</entry>
+    <entry key="groupingmonth" context="uistring">月</entry>
+    <entry key="groupingmonthname" context="uistring">月の名前</entry>
+    <entry key="groupingmonthofyear" context="uistring">年間通算月</entry>
+    <entry key="groupingMultipleStatistics" context="uistring">要約統計</entry>
+    <entry key="groupingNew" context="uistring">新規</entry>
+    <entry key="groupingnone" context="uistring">固有の値によるグループ化</entry>
+    <entry key="groupingnorm" context="uistring">2 ノルムによるスケーリング</entry>
+    <entry key="groupingnormsummary" context="uistring">スケール</entry>
+    <entry key="groupingnnz" context="uistring">非ゼロの数</entry>
+    <entry key="groupingnumBins" context="uistring">ビン数の選択</entry>
+    <entry key="groupingnummissing" context="uistring">欠損の数</entry>
+    <entry key="groupingOutputTable" context="uistring">出力 table</entry>
+    <entry key="groupingrange" context="uistring">範囲</entry>
+    <entry key="groupingquarter" context="uistring">四半期</entry>
+    <entry key="groupingquarterofyear" context="uistring">年間の四半期</entry>
+    <entry key="groupingReplaceValues" context="uistring">値を置換</entry>
+    <entry key="groupingReplaceValuesTooltip" context="uistring">元のデータを変換データで置き換えた table を出力</entry>
+    <entry key="groupingrescale" context="uistring">範囲を [0 1] に再スケーリング</entry>
+    <entry key="groupingrescalesummary" context="uistring">再スケーリング</entry>
+    <entry key="groupingRight" context="uistring">右</entry>
+    <entry key="groupingsecond" context="uistring">秒</entry>
+    <entry key="groupingsecondofminute" context="uistring">1 分間における秒</entry>
+    <entry key="groupingSelectall" context="uistring">すべて選択</entry>
+    <entry key="groupingStatisticDisabledTooltip" context="uistring">入力データ型ではこの統計は不許可</entry>
+    <entry key="groupingStatsFunctionTooltip" context="uistring">入力は 1 つのグループ内のデータです。出力は最初の次元のサイズが 1 です。</entry>
+    <entry key="groupingstd" context="uistring">標準偏差</entry>
+    <entry key="groupingsum" context="uistring">総和</entry>
+    <entry key="groupingtimeBins" context="uistring">データのビン化の単位の選択</entry>
+    <entry key="groupingTransform" context="uistring">変換</entry>
+    <entry key="groupingTransformFunctionTooltip" context="uistring">入力は 1 つのグループ内のデータです。出力は入力のサイズと一致しているか、最初の次元のサイズが 1 です。</entry>
+    <entry key="groupingvar" context="uistring">分散</entry>
+    <entry key="groupingweek" context="uistring">週</entry>
+    <entry key="groupingweekofmonth" context="uistring">月間通算週</entry>
+    <entry key="groupingweekofyear" context="uistring">年間通算週</entry>
+    <entry key="groupingyear" context="uistring">年</entry>
+    <entry key="groupingzscore" context="uistring">z スコアを使用して正規化</entry>
+    <entry key="groupingzscoresummary" context="uistring">正規化</entry>
+    <entry key="localExtremaFinderAll">すべて</entry>
+    <entry key="localExtremaFinderBoth">最大値と最小値</entry>
+    <entry key="localExtremaFinderCenter">中央</entry>
+    <entry key="localExtremaFinderExtremaType" context="uistring">極値のタイプ</entry>
+    <entry key="localExtremaFinderFirst">最初</entry>
+    <entry key="localExtremaFinderFindlocalmaxima">局所的最大値の検出</entry>
+    <entry key="localExtremaFinderFindlocalminima">局所的最小値の検出</entry>
+    <entry key="localExtremaFinderFlatSelection" context="uistring">平坦部の選択</entry>
+    <entry key="localExtremaFinderFlatTooltip">同一の連続する極値をもつ領域について選択された極値</entry>
+    <entry key="localExtremaFinderLast">最後</entry>
+    <entry key="localExtremaFinderLocalMaxima" context="uistring">局所的最大値</entry>
+    <entry key="localExtremaFinderLocalMinima" context="uistring">局所的最小値</entry>
+    <entry key="localExtremaFinderMaxima">最大値</entry>
+    <entry key="localExtremaFinderMaxNumExtrema" context="uistring">極値の最大数</entry>
+    <entry key="localExtremaFinderMaxNumTooltip" context="uistring">使用可能な極値がより多くなるよう増加します</entry>
+    <entry key="localExtremaFinderMinima">最小値</entry>
+    <entry key="localExtremaFinderMinProminence" context="uistring">最小プロミネンス</entry>
+    <entry key="localExtremaFinderMinProminenceTooltip" context="uistring">検出された極値が近傍点と比較して顕著になるよう増加します</entry>
+    <entry key="localExtremaFinderMinSeparation" context="uistring">最小間隔</entry>
+    <entry key="localExtremaFinderMinSeparationTooltip" context="uistring">検出された極値間の距離が長くなるよう増加します</entry>
+    <entry key="localExtremaFinderNumberofExtrema" context="uistring">極値の数</entry>
+    <entry key="localExtremaFinderParametersDelimiter" context="uistring">局所的極値の定義</entry>
+    <entry key="localExtremaFinderPlotlocalmaxima">局所的最大値のプロット</entry>
+    <entry key="localExtremaFinderPlotlocalminima">局所的最小値のプロット</entry>
+    <entry key="localExtremaFinderProminenceWindow" context="uistring">プロミネンス ウィンドウ</entry>
+    <entry key="localExtremaFinderSummaryBoth">{0} の局所的最大値と局所的最小値</entry>
+    <entry key="localExtremaFinderSummaryMax">{0} の局所的最大値</entry>
+    <entry key="localExtremaFinderSummaryMin">{0} の局所的最小値</entry>
+    <entry key="localExtremaFinderUnitTooltip" context="uistring">最小間隔およびプロミネンス ウィンドウの単位</entry>
+    <entry key="missingDataCleanerConstantUnitsTooltip">定数の埋め込み値の単位</entry>
+    <entry key="missingDataCleanerEndValues" context="uistring">終了値</entry>
+    <entry key="missingDataCleanerEndValuesTooltip">定数の終了値の単位</entry>
+    <entry key="missingDataCleanerFilledMissingData" context="uistring">埋められた欠損データ</entry>
+    <entry key="missingDataCleanerFilledMissingEntries" context="uistring">埋められた欠損エントリ</entry>
+    <entry key="missingDataCleanerFillmissingdata">欠損データを埋める</entry>
+    <entry key="missingDataCleanerFillmissing">欠損を埋める</entry>
+    <entry key="missingDataCleanerFillTooltip">欠損エントリの埋め込みメソッド</entry>
+    <entry key="missingDataCleanerFindmissingdata">欠損データの検出</entry>
+    <entry key="missingDataCleanerMaxGap" context="uistring">埋められるギャップの最大値</entry>
+    <entry key="missingDataCleanerMaxGapTooltip" context="uistring">データにあるギャップのうち、この値より大きなものは埋められない</entry>
+    <entry key="missingDataCleanerMaxGapUnitsTooltip" context="uistring">ギャップ サイズの単位</entry>
+    <entry key="missingDataCleanerMissingEntries" context="uistring">欠損エントリ</entry>
+    <entry key="missingDataCleanerMissingInputData" context="uistring">欠損している入力データ</entry>
+    <entry key="missingDataCleanerNonStandard" context="uistring">非標準のインジケーターの指定</entry>
+    <entry key="missingDataCleanerNumberofFilledMissingEntries" context="uistring">埋められた欠損エントリの数</entry>
+    <entry key="missingDataCleanerNumberofMissingEntries" context="uistring">欠損エントリの数</entry>
+    <entry key="missingDataCleanerNumberofRemovedMissingEntries" context="uistring">削除された欠損エントリの数</entry>
+    <entry key="missingDataCleanerOtherRemovedTooltip" context="uistring">他の変数に欠損エントリが含まれる行のデータ</entry>
+    <entry key="missingDataCleanerPlotfilledmissing">埋められた欠損エントリのプロット</entry>
+    <entry key="missingDataCleanerPlotmissingentries">欠損エントリのプロット</entry>
+    <entry key="missingDataCleanerPlototherremoved" context="uistring">他の変数に欠損エントリが含まれる行のデータをプロット</entry>
+    <entry key="missingDataCleanerPlotremovedmissing">削除された欠損エントリのプロット</entry>
+    <entry key="missingDataCleanerRemovemissingdata">欠損データの削除</entry>
+    <entry key="missingDataCleanerRemovedMissingEntries" context="uistring">削除された欠損エントリ</entry>
+    <entry key="missingDataCleanerRemovemissing">欠損の削除</entry>
+    <entry key="missingDataCleanerSameasfill">埋め込みメソッドと同じ</entry>
+    <entry key="missingDataCleanerStandardizeComment" context="uistring">欠損データの標準化</entry>
+    <entry key="missingDataCleanerStandardizeDelimiter" context="uistring">オプションの欠損値インジケーターの定義</entry>
+    <entry key="missingDataCleanerStandardizeIndicator" context="uistring">インジケーター</entry>
+    <entry key="missingDataCleanerStandardizeMethod" context="uistring">インジケーターの選択</entry>
+    <entry key="missingDataCleanerStandardizeTooltip1" context="uistring">標準インジケーターはデータ型に依存します。例: NaN、NaT、' '、&lt;missing&gt;、&lt;undefined&gt;</entry>
+    <entry key="missingDataCleanerStandardizeTooltip2" context="uistring">欠損として扱う値をコンマ区切りのリストにします。\n例: -99, "N/A"</entry>
+    <entry key="missingDataCleanerStandardOnly" context="uistring">標準インジケーターのみを使用</entry>
+    <entry key="missingDataCleanerSummaryFill">{1} メソッドを使用して埋められた {0} の欠損データ</entry>
+    <entry key="missingDataCleanerSummaryNone">{0} の欠損データ</entry>
+    <entry key="missingDataCleanerSummaryRemove">{0} から削除された欠損データ</entry>
+    <entry key="NormalizeCenter" context="uistring">センタリング</entry>
+    <entry key="NormalizeCenterAndScale" context="uistring">データのセンタリングとスケーリング</entry>
+    <entry key="NormalizeCenterShift" context="uistring">シフト値のセンタリング</entry>
+    <entry key="NormalizeCenterTooltipmean" context="uistring">入力データから平均値を減算</entry>
+    <entry key="NormalizeCenterTooltipmedian" context="uistring">入力データから中央値を減算</entry>
+    <entry key="NormalizeCenterTooltipnumeric" context="uistring">入力データから数値を減算</entry>
+    <entry key="NormalizeCenterTooltipworkspace" context="uistring">入力データからワークスペース値を減算</entry>
+    <entry key="NormalizeCenterType" context="uistring">タイプのセンタリング</entry>
+    <entry key="NormalizeFirst" context="uistring">最初の要素</entry>
+    <entry key="NormalizeFromWorkspace" context="uistring">ワークスペースから</entry>
+    <entry key="NormalizeInfinityNorm" context="uistring">無限大ノルム</entry>
+    <entry key="NormalizeIQR" context="uistring">四分位数間範囲</entry>
+    <entry key="NormalizeMAD" context="uistring">中央絶対偏差</entry>
+    <entry key="NormalizeMean" context="uistring">平均</entry>
+    <entry key="NormalizeMedian" context="uistring">中央値</entry>
+    <entry key="NormalizeMedianIQR" context="uistring">中央値 IQR</entry>
+    <entry key="NormalizeMethod" context="uistring">正規化方式</entry>
+    <entry key="NormalizeMethodTooltipcenter" context="uistring">中心のシフト値を減算</entry>
+    <entry key="NormalizeMethodTooltipcenterAndScale" context="uistring">中心のシフト値を減算してからスケール値で除算</entry>
+    <entry key="NormalizeMethodTooltipmedianiqr" context="uistring">中央値が 0、四分位数間範囲が 1 になるようなセンタリングとスケーリング</entry>
+    <entry key="NormalizeMethodTooltipnorm" context="uistring">データのノルムで除算</entry>
+    <entry key="NormalizeMethodTooltiprange" context="uistring">新しい範囲に再スケーリング</entry>
+    <entry key="NormalizeMethodTooltipscale" context="uistring">スケール値で除算</entry>
+    <entry key="NormalizeMethodTooltipzscore" context="uistring">z スコアを使用したデータのセンタリングとスケーリング</entry>
+    <entry key="NormalizeNorm" context="uistring">ノルム</entry>
+    <entry key="NormalizeNormTooltip" context="uistring">p ノルムでは値 p、無限大ノルムでは inf</entry>
+    <entry key="NormalizeNormalizedData" context="uistring">正規化されたデータ</entry>
+    <entry key="NormalizeNumeric" context="uistring">数値スカラー</entry>
+    <entry key="NormalizeOutputCenterAndScale" context="uistring">センタリング値とスケーリング値の出力</entry>
+    <entry key="NormalizeOutputCenterAndScaleTooltip" context="uistring">正規化に使用されたセンタリングとスケーリングを返す</entry>
+    <entry key="NormalizePNorm" context="uistring">p ノルム</entry>
+    <entry key="NormalizepNorm" context="uistring">{0} ノルム</entry>
+    <entry key="NormalizeRange" context="uistring">範囲</entry>
+    <entry key="NormalizeRangeLeft" context="uistring">左端</entry>
+    <entry key="NormalizeRangeRight" context="uistring">右端</entry>
+    <entry key="NormalizeScale" context="uistring">スケール</entry>
+    <entry key="NormalizeScaleTooltipfirst" context="uistring">データの 1 番目の要素で除算</entry>
+    <entry key="NormalizeScaleTooltipiqr" context="uistring">四分位数間範囲で除算</entry>
+    <entry key="NormalizeScaleTooltipmad" context="uistring">中央絶対偏差で除算</entry>
+    <entry key="NormalizeScaleTooltipnumeric" context="uistring">数値で除算</entry>
+    <entry key="NormalizeScaleTooltipstd" context="uistring">標準偏差で除算</entry>
+    <entry key="NormalizeScaleTooltipworkspace" context="uistring">ワークスペース値で除算</entry>
+    <entry key="NormalizeScaleFactor" context="uistring">スケール係数</entry>
+    <entry key="NormalizeScaleType" context="uistring">スケール タイプ</entry>
+    <entry key="NormalizeSTD" context="uistring">標準偏差</entry>
+    <entry key="NormalizeSummaryCenter1" context="uistring">{1} が 0 になるように {0} をセンタリング</entry>
+    <entry key="NormalizeSummaryCenter2" context="uistring">{0} から {1} を減算</entry>
+    <entry key="NormalizeSummaryCenterAndScale1" context="uistring">{1} が 0 になるように {0} をセンタリングし、{2} で除算</entry>
+    <entry key="NormalizeSummaryCenterAndScale2" context="uistring">{0} から {1} を減算した後に {2} で除算</entry>
+    <entry key="NormalizeSummaryCenterAndScale3" context="uistring">{1} が 0、{2} が 1 になるように {0} をセンタリングおよびスケーリング</entry>
+    <entry key="NormalizeSummaryRange" context="uistring">{0} ～ {1} の範囲をスケーリング</entry>
+    <entry key="NormalizeSummaryScale" context="uistring">{0} を {1} で除算</entry>
+    <entry key="NormalizeTiledLayout" context="uistring">個々の座標軸</entry>
+    <entry key="NormalizeTiledLayoutTooltip" context="uistring">入力データと正規化されたデータを 2 つの異なるサブプロットに表示</entry>
+    <entry key="NormalizeWorkspaceDDTooltipA" context="uistring">ワークスペース内の数値配列</entry>
+    <entry key="NormalizeWorkspaceDDTooltipT" context="uistring">指定された入力変数と一致する変数名をもつ数値配列または table 配列</entry>
+    <entry key="NormalizeZscore" context="uistring">Z スコア</entry>
+    <entry key="NormalizeZscoreTooltiprobust" context="uistring">中央値が 0、中央絶対偏差が 1 となるようなセンタリングとスケーリング</entry>
+    <entry key="NormalizeZscoreTooltipstd" context="uistring">平均が 0、標準偏差が 1 となるようなセンタリングとスケーリング</entry>
+    <entry key="NormalizeZscoreType" context="uistring">Z スコア タイプ</entry>
+    <entry key="outlierDataCleanerCentervalue">中心値</entry>
+    <entry key="outlierDataCleanerComputeThresholds" context="uistring">プロットの追加外れ値計算</entry>
+    <entry key="outlierDataCleanerClipvalue">しきい値までクリップ</entry>
+    <entry key="outlierDataCleanerDetectionMethod" context="uistring">検出メソッド</entry>
+    <entry key="outlierDataCleanerFilledOutliers" context="uistring">埋められた外れ値</entry>
+    <entry key="outlierDataCleanerFilloutliers">外れ値の埋め込み</entry>
+    <entry key="outlierDataCleanerFillTooltip">外れ値の埋め込みメソッド</entry>
+    <entry key="outlierDataCleanerFindoutliers">外れ値の検出</entry>
+    <entry key="outlierDataCleanerGesd">一般化極値スチューデント化偏差 (GESD)</entry>
+    <entry key="outlierDataCleanerGrubbs">Grubbs</entry>
+    <entry key="outlierDataCleanerHistogram" context="uistring">ヒストグラム</entry>
+    <entry key="outlierDataCleanerLine" context="uistring">ライン</entry>
+    <entry key="outlierDataCleanerLowerThreshold" context="uistring">下限しきい値</entry>
+    <entry key="outlierDataCleanerLowerTooltip" context="uistring">この百分位数未満のデータ点は外れ値と見なされる</entry>
+    <entry key="outlierDataCleanerNumberofOutliers" context="uistring">外れ値の数</entry>
+    <entry key="outlierDataCleanerOtherRemovedTooltip" context="uistring">他の変数に外れ値が含まれる行のデータ</entry>
+    <entry key="outlierDataCleanerOutlierCenter" context="uistring">外れ値の中心</entry>
+    <entry key="outlierDataCleanerOutliers">外れ値</entry>
+    <entry key="outlierDataCleanerOutlierThresholds" context="uistring">外れ値のしきい値</entry>
+    <entry key="outlierDataCleanerParametersDelimiter1" context="uistring">クリーニング メソッドの指定</entry>
+    <entry key="outlierDataCleanerParametersDelimiter2" context="uistring">外れ値の定義</entry>
+    <entry key="outlierDataCleanerPercentiles" context="uistring">百分位数</entry>
+    <entry key="outlierDataCleanerPlotfilledoutliers">埋められた外れ値のプロット</entry>
+    <entry key="outlierDataCleanerPlotremovedoutliers">削除された外れ値のプロット</entry>
+    <entry key="outlierDataCleanerPlototherremoved" context="uistring">他の変数に外れ値が含まれるラインにデータをプロット</entry>
+    <entry key="outlierDataCleanerPlotoutliercenter">外れ値の中心のプロット</entry>
+    <entry key="outlierDataCleanerPlotoutliers">外れ値のプロット</entry>
+    <entry key="outlierDataCleanerPlotoutlierthresholds">外れ値のしきい値のプロット</entry>
+    <entry key="outlierDataCleanerPlotTypeLabel" context="uistring">プロット スタイル</entry>
+    <entry key="outlierDataCleanerQuartiles">四分位数</entry>
+    <entry key="outlierDataCleanerRemoveoutliers">外れ値の削除</entry>
+    <entry key="outlierDataCleanerSummaryFill">{1} メソッドを使用して埋められた {0} の外れ値</entry>
+    <entry key="outlierDataCleanerSummaryNone">{0} の外れ値</entry>
+    <entry key="outlierDataCleanerSummaryRemove">{0} から削除された外れ値</entry>
+    <entry key="outlierDataCleanerThresholdFactor" context="uistring">しきい値の係数</entry>
+    <entry key="outlierDataCleanerThresholdTooltipG" context="uistring">外れ値テストの有意水準。増加するとより多くの外れ値を検出</entry>
+    <entry key="outlierDataCleanerThresholdTooltipMean" context="uistring">この標準偏差の数値の範囲外にあるデータ点は外れ値と見なされる</entry>
+    <entry key="outlierDataCleanerThresholdTooltipMedian" context="uistring">このスケーリングされた中央絶対偏差 (MAD) の数値の範囲外にあるデータ点は外れ値と見なされる</entry>
+    <entry key="outlierDataCleanerThresholdTooltipQ" context="uistring">この四分位数間範囲の数値の範囲外にあるデータ点は外れ値と見なされる</entry>
+    <entry key="outlierDataCleanerUpperThreshold" context="uistring">上限しきい値</entry>
+    <entry key="outlierDataCleanerUpperTooltip" context="uistring">この百分位数を超えるデータ点は外れ値と見なされる</entry>
+    <entry key="trendRemoverAxesTooltip" context="uistring">クリックしてブレークポイントを選択および選択解除\nドラッグして既存のブレークポイントを移動</entry>
+    <entry key="trendRemoverBreakpoints" context="uistring">ブレークポイント</entry>
+    <entry key="trendRemoverBreakPointsTooltip" context="uistring">ブレークポイントを指定して区分的なトレンドを除去</entry>
+    <entry key="trendRemoverBreakPointsSpinnerTooltip" context="uistring">ブレークポイントの数</entry>
+    <entry key="trendRemoverChoosefromworkspace" context="uistring">ワークスペースから選択</entry>
+    <entry key="trendRemoverClearBreakpoints" context="uistring">ブレークポイントのクリア</entry>
+    <entry key="trendRemoverConstant" context="uistring">定数</entry>
+    <entry key="trendRemoverContinuous" context="uistring">連続</entry>
+    <entry key="trendRemoverContinuousTooltip" context="uistring">ブレークポイントにおいてトレンドが連続でなければならないかどうかを指定</entry>
+    <entry key="trendRemoverCustom" context="uistring">カスタム</entry>
+    <entry key="trendRemoverCubic" context="uistring">3 次</entry>
+    <entry key="trendRemoverDegree" context="uistring">多項式タイプ</entry>
+    <entry key="trendRemoverDegreeSpinnerTooltip" context="uistring">データから削除される多項式の次数</entry>
+    <entry key="trendRemoverDeleteTooltip" context="uistring">クリックしてブレークポイントを削除</entry>
+    <entry key="trendRemoverDetrendedData" context="uistring">トレンド除去済みのデータ</entry>
+    <entry key="trendRemoverFillMissing" context="uistring">欠損データを無視</entry>
+    <entry key="trendRemoverLinear" context="uistring">線形</entry>
+    <entry key="trendRemoverLinearlyspaced" context="uistring">等間隔</entry>
+    <entry key="trendRemoverMissingTooltip" context="uistring">トレンドの計算時に NaN 値を無視する</entry>
+    <entry key="trendRemoverBPLabelTooltip" context="uistring">新規ブレークポイントは最も近いサンプル点に丸められる</entry>
+    <entry key="trendRemoverNumMissing" context="uistring">入力データにある欠損エントリの数</entry>
+    <entry key="trendRemoverParametersDelimiter" context="uistring">トレンド パラメーターの指定</entry>
+    <entry key="trendRemoverQuadratic" context="uistring">2 次</entry>
+    <entry key="trendRemoverRemovetrendfromdata" context="uistring">データからトレンドを除去</entry>
+    <entry key="trendRemoverSelectfromplot" context="uistring">プロットから選択</entry>
+    <entry key="trendRemoverSummarySmallDegree" context="uistring">{1} から {0} トレンドを除去</entry>
+    <entry key="trendRemoverSummaryLargeDegree" context="uistring">{1} から {0} 次多項式のトレンドを除去</entry>
+    <entry key="trendRemoverTrend" context="uistring">トレンド</entry>
+    <entry key="tableJoinerChooseInputTables" context="uistring">データの選択</entry>
+    <entry key="tableJoinerChooseJoinType" context="uistring">連結の指定</entry>
+    <entry key="tableJoinerFirstTable" context="uistring">左の table</entry>
+    <entry key="tableJoinerFullouterjoin" context="uistring">外部\n連結</entry>
+    <entry key="tableJoinerHorzcat" context="uistring">水平\n連結</entry>
+    <entry key="tableJoinerInnerjoin" context="uistring">内部\n連結</entry>
+    <entry key="tableJoinerInputtables" context="uistring">入力 table</entry>
+    <entry key="tableJoinerJoin" context="uistring">  \n連結</entry>
+    <entry key="tableJoinerKeys" context="uistring">マージ変数</entry>
+    <entry key="tableJoinerLeftouterjoin" context="uistring">左\n外部連結</entry>
+    <entry key="tableJoinerMergeKeys" context="uistring">マージ変数の結合</entry>
+    <entry key="tableJoinerMergeTables" context="uistring">table の連結</entry>
+    <entry key="tableJoinerOutputtable" context="uistring">出力 table</entry>
+    <entry key="tableJoinerRightouterjoin" context="uistring">右\n外部連結</entry>
+    <entry key="tableJoinerSecondTable" context="uistring">右の table</entry>
+    <entry key="tableJoinerSummaryHorzcat" context="uistring">水平連結</entry>
+    <entry key="tableJoinerSummaryInnerjoin" context="uistring">内部連結</entry>
+    <entry key="tableJoinerSummaryJoin" context="uistring">連結</entry>
+    <entry key="tableJoinerSummaryLine" context="uistring">{2} を使用して {0} と {1} を結合</entry>
+    <entry key="tableJoinerSummaryLeftouterjoin" context="uistring">左外部連結</entry>
+    <entry key="tableJoinerSummaryOuterjoin" context="uistring">外部連結</entry>
+    <entry key="tableJoinerSummaryRightouterjoin" context="uistring">右外部連結</entry>
+    <entry key="tableJoinerSummaryVertcat" context="uistring">垂直連結</entry>
+    <entry key="tableJoinerTooltipHorzcat" context="uistring">行数が一致し変数に異なる名前がある場合\n右の table を左の table に追加</entry>
+    <entry key="tableJoinerTooltipInnerjoin" context="uistring">両方の table から共通のキー値をもつ行をマッチングし\n他の行はすべて破棄</entry>
+    <entry key="tableJoinerTooltipJoin" context="uistring">キー値は両方の table で共通していなければならない\n左の table の変数はすべて保持し、右の table のコンテンツを追加</entry>
+    <entry key="tableJoinerTooltipKeyVariables" context="uistring">入力 table 間でのデータのマッチングと結合に使用されるキー変数</entry>
+    <entry key="tableJoinerTooltipKeyVariablesEmpty" context="uistring">右のキー変数は、左のキー変数と互換性がなければなりません</entry>
+    <entry key="tableJoinerTooltipLeftOuterjoin" context="uistring">両方の table から共通のキー値をもつ行をマッチングし\n左の table から残りの行を含める</entry>
+    <entry key="tableJoinerTooltipMergeKeys" context="uistring">左のキー変数と右のキー変数を出力 table 内の単一の変数に統合</entry>
+    <entry key="tableJoinerTooltipOuterjoin" context="uistring">両方の table から共通のキー値をもつ行をマッチングし\n他の行をすべて含める</entry>
+    <entry key="tableJoinerTooltipRightOuterjoin" context="uistring">両方の table から共通のキー値をもつ行をマッチングし\n右の table から残りの行を含める</entry>
+    <entry key="tableJoinerTooltipVertcat" context="uistring">変数名が一致しデータ型が互換である場合\n下の table を上の table に追加</entry>
+    <entry key="tableJoinerVertcat" context="uistring">垂直\n連結</entry>
+    <entry key="tableUnstackerAggCount" context="uistring">カウント</entry>
+    <entry key="tableUnstackerAggCustom" context="uistring">カスタム</entry>
+    <entry key="tableUnstackerAggFirst" context="uistring">最初</entry>
+    <entry key="tableUnstackerAggMax" context="uistring">最大値</entry>
+    <entry key="tableUnstackerAggMean" context="uistring">平均</entry>
+    <entry key="tableUnstackerAggMedian" context="uistring">中央値</entry>
+    <entry key="tableUnstackerAggMin" context="uistring">最小値</entry>
+    <entry key="tableUnstackerAggMode" context="uistring">最頻値</entry>
+    <entry key="tableUnstackerAggregationfunction" context="uistring">新しい table 変数値の集計</entry>
+    <entry key="tableUnstackerAggSum" context="uistring">総和</entry>
+    <entry key="tableUnstackerAggUnique" context="uistring">固有</entry>
+    <entry key="tableUnstackerConstant" context="uistring">定数</entry>
+    <entry key="tableUnstackerConstantTooltip" context="uistring">この table 変数の値は複製される</entry>
+    <entry key="tableUnstackerDatatounstack" context="uistring">新しい table 変数の値</entry>
+    <entry key="tableUnstackerDatatounstackTooltip" context="uistring">この table 変数の値は、新しい table 列変数に分散される</entry>
+    <entry key="tableUnstackerDiscard" context="uistring">破棄</entry>
+    <entry key="tableUnstackerDiscardTooltip" context="uistring">この table 変数は出力に含まれない</entry>
+    <entry key="tableUnstackerGroupby" context="uistring">グループ化</entry>
+    <entry key="tableUnstackerGroupTooltip" context="uistring">この変数の一意の値によって行のグループを定義する</entry>
+    <entry key="tableUnstackerIndicator" context="uistring">新しい table 変数の名前</entry>
+    <entry key="tableUnstackerIndicatorTooltip" context="uistring">この table 変数の値は、新しい table 列変数の名前として使用される</entry>
+    <entry key="tableUnstackerIndicatorTooltip2" context="uistring">この変数には一意の要素が多く含まれているため、新しい table 変数名として使用できません</entry>
+    <entry key="tableUnstackerInputTable" context="uistring">入力 table</entry>
+    <entry key="tableUnstackerKeepconstant" context="uistring">1 番目を保持</entry>
+    <entry key="tableUnstackerKeepconstantTooltip" context="uistring">この変数の値は各グループの 1 行目から取得される</entry>
+    <entry key="tableUnstackerSelecttable" context="uistring">table の選択</entry>
+    <entry key="tableUnstackerStack" context="uistring">スタック</entry>
+    <entry key="tableUnstackerStackRowDelimiter" context="uistring">スタックする table 変数を選択</entry>
+    <entry key="tableUnstackerStackSummary1" context="uistring">{0} の複数の table 変数からのデータを 1 つの変数にスタック</entry>
+    <entry key="tableUnstackerStackSummary2" context="uistring">{2} の {0} と {1} からのデータを 1 つの変数にスタック</entry>
+    <entry key="tableUnstackerStackSummary3" context="uistring">{3} の {0}、{1} および {2} からのデータを 1 つの変数にスタック</entry>
+    <entry key="tableUnstackerStackTooltip" context="uistring">この変数の値はスタックされる</entry>
+    <entry key="tableUnstackerStackvariables" context="uistring">変数をスタック</entry>
+    <entry key="tableUnstackerUITableTooltip" context="uistring">プレビューは 50 行に制限</entry>
+    <entry key="tableUnstackerUnstackRowDelimiter" context="uistring">スタック解除する table 変数を選択</entry>
+    <entry key="tableUnstackerUnstackSummary" context="uistring">{1} の {0} からのデータをスタック解除して複数の変数に入れる</entry>
+    <entry key="tableUnstackerUnstackvariables" context="uistring">変数をスタック解除</entry>
+    <entry key="timetableSynchronizerAdd" context="uistring">追加</entry>
+    <entry key="timetableSynchronizerAddOverrideTooltip" context="uistring">1 つ以上の timetable 変数の一般的な規則をオーバーライド</entry>
+    <entry key="timetableSynchronizerAggregatedata" context="uistring">データの集計</entry>
+    <entry key="timetableSynchronizerAggregateFcnTooltip" context="uistring">入力としてベクトルを受け入れ、スカラーまたは行ベクトルを返す関数を指定</entry>
+    <entry key="timetableSynchronizerBasis" context="uistring">timetable からの時間</entry>
+    <entry key="timetableSynchronizerCommonRange" context="uistring">共通範囲内の時間</entry>
+    <entry key="timetableSynchronizerCommentConcatenate" context="uistring">timetable 変数を連結して並べ替え</entry>
+    <entry key="timetableSynchronizerCommentDupes" context="uistring">重複した名前を使用して timetable 変数のコピーを作成</entry>
+    <entry key="timetableSynchronizerCommentOverrides" context="uistring">各オーバーライド変数を同じ時間ベクトルに時間調整</entry>
+    <entry key="timetableSynchronizerCommentSaveOrder" context="uistring">timetable 変数の元の順序を保存</entry>
+    <entry key="timetableSynchronizerConstant" context="uistring">定数</entry>
+    <entry key="timetableSynchronizerCount" context="uistring">値の数</entry>
+    <entry key="timetableSynchronizerCustom" context="uistring">カスタム</entry>
+    <entry key="timetableSynchronizerCustomtimestep" context="uistring">タイム ステップ</entry>
+    <entry key="timetableSynchronizerFillvalues" context="uistring">埋め込み値</entry>
+    <entry key="timetableSynchronizerFillwithconstant" context="uistring">定数で埋める</entry>
+    <entry key="timetableSynchronizerFillwithmissing" context="uistring">欠損値で埋める</entry>
+    <entry key="timetableSynchronizerFillwithnearest" context="uistring">最も近い値で埋める</entry>
+    <entry key="timetableSynchronizerFillwithnext" context="uistring">次の値で埋める</entry>
+    <entry key="timetableSynchronizerFillwithprevious" context="uistring">前の値で埋める</entry>
+    <entry key="timetableSynchronizerFirst" context="uistring">最初の timetable からの時間</entry>
+    <entry key="timetableSynchronizerFirstvalue" context="uistring">ビンの最初の値</entry>
+    <entry key="timetableSynchronizerFunctionHandle" context="uistring">関数ハンドル</entry>
+    <entry key="timetableSynchronizerInputtimetable" context="uistring">入力 timetable</entry>
+    <entry key="timetableSynchronizerInputtimetables" context="uistring">入力 timetable</entry>
+    <entry key="timetableSynchronizerInterpolatedata" context="uistring">データを内挿する</entry>
+    <entry key="timetableSynchronizerIntersection" context="uistring">交差</entry>
+    <entry key="timetableSynchronizerLast" context="uistring">最後の timetable からの時間</entry>
+    <entry key="timetableSynchronizerLastvalue" context="uistring">ビンの最後の値</entry>
+    <entry key="timetableSynchronizerLinear" context="uistring">線形内挿</entry>
+    <entry key="timetableSynchronizerMaximum" context="uistring">最大値</entry>
+    <entry key="timetableSynchronizerMean" context="uistring">平均</entry>
+    <entry key="timetableSynchronizerMethodDelimiter" context="uistring">データの調整法を選択</entry>
+    <entry key="timetableSynchronizerMethod" context="uistring">メソッド</entry>
+    <entry key="timetableSynchronizerMethodType" context="uistring">一般的な規則</entry>
+    <entry key="timetableSynchronizerMinimum" context="uistring">最小値</entry>
+    <entry key="timetableSynchronizerModifiedAkima" context="uistring">修正 Akima 3 次内挿</entry>
+    <entry key="timetableSynchronizerMonths" context="uistring">月</entry>
+    <entry key="timetableSynchronizerNewTimesDelimiter" context="uistring">新しい時間を指定</entry>
+    <entry key="timetableSynchronizerNewTimesTooltipDT" context="uistring">datetime 値のベクトル</entry>
+    <entry key="timetableSynchronizerNewTimesTooltipDur" context="uistring">duration 値のベクトル</entry>
+    <entry key="timetableSynchronizerOutputtimetable" context="uistring">出力 timetable</entry>
+    <entry key="timetableSynchronizerOverrides" context="uistring">例外</entry>
+    <entry key="timetableSynchronizerOverrideTTTooltip" context="uistring">入力 timetable</entry>
+    <entry key="timetableSynchronizerOverrideVarTooltip" context="uistring">入力 timetable からの変数</entry>
+    <entry key="timetableSynchronizerPchip" context="uistring">形状保持 3 次内挿 (PCHIP)</entry>
+    <entry key="timetableSynchronizerProduct" context="uistring">積</entry>
+    <entry key="timetableSynchronizerQuarters" context="uistring">四半期</entry>
+    <entry key="timetableSynchronizerRetimedData" context="uistring">時間再調整済みデータ</entry>
+    <entry key="timetableSynchronizerRetimetimetables" context="uistring">timetable の時間再調整</entry>
+    <entry key="timetableSynchronizerSamplerate" context="uistring">サンプルレート</entry>
+    <entry key="timetableSynchronizerSamplerateUnits" context="uistring">サンプル レートの単位</entry>
+    <entry key="timetableSynchronizerSelectfromworkspace" context="uistring">ワークスペースからの時間</entry>
+    <entry key="timetableSynchronizerSelectionmethod" context="uistring">選択方法</entry>
+    <entry key="timetableSynchronizerSpline" context="uistring">スプライン内挿</entry>
+    <entry key="timetableSynchronizerSum" context="uistring">総和</entry>
+    <entry key="timetableSynchronizerSummary1" context="uistring">{1} を使用した {0} の時間再調整</entry>
+    <entry key="timetableSynchronizerSummary2" context="uistring">{2} を使用した {0} と {1} の同期</entry>
+    <entry key="timetableSynchronizerSummary3" context="uistring">{0} を使用していくつかの timetable を同期</entry>
+    <entry key="timetableSynchronizerSummaryMethodAggregate" context="uistring">集計</entry>
+    <entry key="timetableSynchronizerSummaryMethodFill" context="uistring">埋め込み値</entry>
+    <entry key="timetableSynchronizerSummaryMethodInterp" context="uistring">内挿</entry>
+    <entry key="timetableSynchronizerSummaryMethodVariableContinuity" context="uistring">VariableContinuity プロパティ</entry>
+    <entry key="timetableSynchronizerSynchronizetimetables" context="uistring">timetable の同期</entry>
+    <entry key="timetableSynchronizerTimeStepUnits" context="uistring">タイム ステップの単位</entry>
+    <entry key="timetableSynchronizerTooltipfillwithconstant" context="uistring">新しい行を定数値で埋める</entry>
+    <entry key="timetableSynchronizerTooltipcount" context="uistring">各時間ビンの行数をカウント</entry>
+    <entry key="timetableSynchronizerTooltipCustom" context="uistring">関数ハンドルで指定される関数を使用</entry>
+    <entry key="timetableSynchronizerTooltipfirstvalue" context="uistring">各時間ビンの最初の値を使用</entry>
+    <entry key="timetableSynchronizerTooltiplinear" context="uistring">線形内挿を使用</entry>
+    <entry key="timetableSynchronizerTooltiplastvalue" context="uistring">各時間ビンの最後の値を使用</entry>
+    <entry key="timetableSynchronizerTooltipmakima" context="uistring">修正 Akima 3 次エルミート内挿を使用</entry>
+    <entry key="timetableSynchronizerTooltipmax" context="uistring">各時間ビン内の最大値を計算</entry>
+    <entry key="timetableSynchronizerTooltipmean" context="uistring">各時間ビン内の平均値を計算</entry>
+    <entry key="timetableSynchronizerTooltipmin" context="uistring">各時間ビン内の最小値を計算</entry>
+    <entry key="timetableSynchronizerTooltipfillwithmissing" context="uistring">欠損データ インジケーターを使って新しい行を埋める</entry>
+    <entry key="timetableSynchronizerTooltipnearest" context="uistring">入力 timetable 内の最も近い行からデータをコピー</entry>
+    <entry key="timetableSynchronizerTooltipnext" context="uistring">入力 timetable 内の次の行からデータをコピー</entry>
+    <entry key="timetableSynchronizerTooltippchip" context="uistring">形状維持区分的 3 次内挿を使用</entry>
+    <entry key="timetableSynchronizerTooltipprevious" context="uistring">入力 timetable 内の前の行からデータをコピー</entry>
+    <entry key="timetableSynchronizerTooltipprod" context="uistring">各時間ビン内の値の積を計算</entry>
+    <entry key="timetableSynchronizerTooltipspline" context="uistring">区分的 3 次スプライン内挿を使用</entry>
+    <entry key="timetableSynchronizerTooltipsum" context="uistring">各時間ビン内の値を合計</entry>
+    <entry key="timetableSynchronizerTooltipvc" context="uistring">入力 timetable の VariableContinuity プロパティで指定される、変数ごとのメソッドを使用します。</entry>
+    <entry key="timetableSynchronizerUnion" context="uistring">結合</entry>
+    <entry key="timetableSynchronizerVariableContinuity" context="uistring">VariableContinuity プロパティを使用</entry>
+    <entry key="timetableSynchronizerWeeks" context="uistring">週</entry>
+    <entry key="CustomDegree" context="uistring">次数</entry>
+    <entry key="FillMethod" context="uistring">埋め込みメソッド</entry>
+    <entry key="MovingWindowType" context="uistring">移動ウィンドウのタイプ</entry>
+    <entry key="SelectionMethod" context="uistring">選択方法</entry>
+    <entry key="TableVariable" context="uistring">table 変数</entry>
+    <entry key="TableVariables" context="uistring">table 変数</entry>
+    <entry key="SmoothingParameter" context="uistring">平滑化パラメーター</entry>
+    <entry key="Units">単位</entry>
+    <entry key="WindowLengthCentered" context="uistring">ウィンドウの長さ</entry>
+    <entry key="WindowLengthLeft" context="uistring">左半分のウィンドウの長さ</entry>
+    <entry key="WindowLengthRight" context="uistring">右半分のウィンドウの長さ</entry>
+  </message>
+</rsccat>

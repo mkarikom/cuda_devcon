@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputsMustBeDouble">{0} の入力引数は、''double'' 型でなければなりません。</entry>
+    <entry key="InputsMustBeFull">{0} の入力引数は非スパースでなければなりません。</entry>
+    <entry key="InputsMustBeReal">{0} の入力引数は実数でなければなりません。関数 REAL を使用して入力の実数部を取得します。</entry>
+    <entry key="InputsMustHaveAtMost2Dimensions">{0} の入力引数の次数は 2 を超えてはなりません。</entry>
+    <entry key="ZMustBeAtLeast2x2Matrix">Z は少なくとも 2 行 2 列 の行列でなければなりません。</entry>
+    <entry key="XMustBeVector">X はベクトルでなければなりません。</entry>
+    <entry key="YMustBeVector">Y はベクトルでなければなりません。</entry>
+    <entry key="LMustBeVectorOrScalar">等高線のレベル値はベクトルかスカラーでなければなりません。</entry>
+    <entry key="LengthOfXandYMustMatchColsAndRowsInZ">X と Y の長さは、それぞれ Z の列数と行数と一致しなければなりません。</entry>
+    <entry key="LengthOfXMustMatchColsInZ">X の長さは Z の列数と一致しなければなりません。</entry>
+    <entry key="LengthOfYMustMatchRowsInZ">Y の長さは Z の行数と一致しなければなりません。</entry>
+    <entry key="XMustBeFinite">X 値は有限でなければなりません。</entry>
+    <entry key="YMustBeFinite">Y 値は有限でなければなりません。</entry>
+    <entry key="LMustBeFinite">等高線のレベル値は、有限でなければなりません。</entry>
+    <entry key="XMustBeUniqueMonotone">X は値の繰り返しなしで厳密に増加または減少しなければなりません。</entry>
+    <entry key="YMustBeUniqueMonotone">Y は値の繰り返しなしで厳密に増加または減少しなければなりません。</entry>
+    <entry key="NMustBeNonNegative">等高線のレベル数は非負でなければなりません。</entry>
+  </message>
+</rsccat>

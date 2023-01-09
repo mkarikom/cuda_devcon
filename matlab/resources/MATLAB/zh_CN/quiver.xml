@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidCellInput">空元胞数组不是有效的输入参数。</entry>
+    <entry key="InvalidNumInputs">QUIVER 不支持 {0} 个前导数值输入。</entry>
+    <entry key="UnevenPvPairsCount">参数-值对组不一致。</entry>
+    <entry key="InvalidAutoScaleFactor">scale 参数必须为双精度标量或为 'off'。</entry>
+    <entry key="UVSizeMismatch">U 和 V 的大小必须相同。</entry>
+    <entry key="XYMixedEmpty">X、Y 必须都为空值或非空值。</entry>
+    <entry key="XUSizeMismatch">X 的大小必须与 U 的大小或 U 的列数匹配。</entry>
+    <entry key="YUSizeMismatch">Y 的大小必须与 U 的大小或 U 的行数匹配。</entry>
+    <entry key="ZUSizeMismatch">Z 和 U 的大小必须相同。</entry>
+    <entry key="VWSizeMismatch">V 和 W 的大小必须相同。</entry>
+    <entry key="XZSizeMismatch">X 的大小必须与 Z 的大小或 Z 的列数匹配。</entry>
+    <entry key="YZSizeMismatch">Y 的大小必须与 Z 的大小或 Z 的行数匹配。</entry>
+    <entry key="UnknownOption">未知选项 "{0}"。</entry>
+    <entry key="XYMixedFormatZ">X 和 Y 的大小必须与 Z 的大小匹配，或 X 和 Y 必须为长度分别与 Z 的列数和行数匹配的向量。</entry>
+    <entry key="XYMixedFormatU">X 和 Y 的大小必须与 U 的大小匹配，或 X 和 Y 必须为长度分别与 U 的列数和行数匹配的向量。</entry>
+    <entry key="XYMixedFormat">{0}</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">getqualitydesc 메서드는 단일 timeseries 객체에 대해서만 사용할 수 있음</entry>
+    <entry key="nodesc">하나 이상의 품질 값에 대응하는 코드나 설명이 없음</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManySpecified">指定的 y0 和 yp0 的分量不能超过 {0} 个。</entry>
+    <entry key="OptRelTolNotPosScalar">RelTol 必须为正标量。</entry>
+    <entry key="OptAbsTolNotPos">AbsTol 必须为正数。</entry>
+    <entry key="ConvergenceFail">DECIC 中出现收敛错误。</entry>
+    <entry key="TooManyFixed">请尝试释放 {0} 个固定分量。</entry>
+    <entry key="IndexGTOne">索引可能大于 1。</entry>
+    <entry key="RelTolIncrease">RelTol 已增加到 {0}。</entry>
+  </message>
+</rsccat>

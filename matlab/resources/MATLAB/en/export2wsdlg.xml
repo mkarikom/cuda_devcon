@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CellArrayRequired">CHECKBOXLABELS, DEFAULTVARIABLENAMES and ITEMSTOEXPORT must all be cell arrays</entry>
+    <entry key="BadDefaultNames">Default variable names must be unique</entry>
+    <entry key="BadSelected">SELECTED must be a logical array</entry>
+    <entry key="InputSizeMismatchLabelsNamesExportItems">CHECKBOXLABELS, DEFAULTVARIABLENAMES and ITEMSTOEXPORT must all be the same length</entry>
+    <entry key="InputSizeMismatchSelectedExportItems">SELECTED must be the same length as ITEMSTOEXPORT</entry>
+    <entry key="InputSizeMismatchFunctionListExportItems">FUNCTIONLIST must be the same length as ITEMSTOEXPORT</entry>
+  </message>
+</rsccat>

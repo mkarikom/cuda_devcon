@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="LabelInfo">Info</entry>
+      <entry key="LabelClose">Close</entry>
+      <entry key="LabelHelp">Help</entry>
+      <entry key="LabelFlag">Flag</entry>
+      <entry key="LabelNew">New</entry>
+      <entry key="LabelStart">Start</entry>
+      <entry key="LabelStop">Stop</entry>
+      <entry key="LabelReset">Reset</entry>
+      <entry key="LabelAutoPlay">AutoPlay</entry>
+      <entry key="LabelNext">Next</entry>
+      <entry key="LabelPrevious">Previous</entry>
+      <entry key="LabelDoneLC">done</entry>
+      <entry key="LabelSlowerLC">slower</entry>
+      <entry key="LabelFasterLC">faster</entry>
+      <entry key="CommentPressButtonsForExamplePlots"> % Press buttons at the right for example plots.</entry>
+      <entry key="TitleProdNameDemos">{0} Demos</entry>
+      <entry key="TitleInformation">Information</entry>
+      <entry key="LabelPage">Page {0}</entry>
+      <entry key="IllegalPlotNumber">Illegal plot number.</entry>
+      <entry key="IndexExceedsNumberOfSubplots">Index exceeds number of subplots.</entry>
+      <entry key="FinddemoFileNotFound">"{0}" could not be found.\nYour path cache may be out of date. Use "rehash toolboxcache" to update it.</entry>
+      <entry key="InputCountIncorrect">Wrong number of input arguments.</entry>
+   </message>
+</rsccat>

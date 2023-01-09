@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+   <message>
+      <entry key="NonTimetableInput">Data inputs must be timetables.</entry>
+      <entry key="UnknownNewTimeStep">''{0}'' is not a valid specification of target time vector for synchronization.</entry>
+      <entry key="UnknownNewTimeStepDuration">''{0}'' is not a valid specification of target time vector for synchronizing a timetable that has duration row times.</entry>
+      <entry key="InvalidNewTimes">Target time vector for synchronization must be a datetime or duration vector, or specified using a string or a character vector.</entry>
+      <entry key="InvalidNewTimesForRetime">Target time vector for retiming must be a datetime or duration vector, or a string or character vector that specifies a timestep.</entry>
+      <entry key="UnrecognizedMethod">Unrecognized synchronization method: ''{0}''.</entry>
+      <entry key="InvalidMethod">Synchronization method must be a character vector, string scalar, or function handle.</entry>
+      <entry key="MixedTimeTypes">All input timetables must have row times with the same data type.</entry>
+      <entry key="MixedTimeTypesNewTimes">All input timetables must have row times with the same data type as target time vector.</entry>
+      <entry key="FunMustReturnOneRow">Aggregation method ''{0}'' returned value that did not have exactly one row.</entry>
+      <entry key="NotUnique">Input timetables must contain unique row times when synchronizing using ''{0}''.</entry>
+      <entry key="NotUniqueNewTimes">Target time vector for synchronization must contain unique times.</entry>
+      <entry key="NotMonotonic">Input timetables must contain sorted (increasing or decreasing) row times when synchronizing using ''{0}''.</entry>
+      <entry key="NotVectorNewTimes">Target times for synchronization must be a vector.</entry>
+      <entry key="NotMonotonicNewTimes">Target time vector for synchronization must be sorted (increasing or decreasing) and cannot contain missing times.</entry>
+      <entry key="TooFewTimesForAggregation">Target time vector must contain at least two times when synchronizing using ''{0}''.</entry>
+      <entry key="DecreasingNewTimesForAggregation">Target time vector must be sorted in increasing order when synchronizing using ''{0}''.</entry>
+      <entry key="NotNumeric0">All variables in input timetables must be numeric, datetime, duration, or ordinal categorical when synchronizing using ''{0}''.</entry>
+      <entry key="NotNumeric0Mode">All variables in input timetables must be numeric, datetime, duration, or categorical when synchronizing using ''{0}''.</entry>
+      <entry key="NotNumeric1">All variables in input timetables must be numeric, datetime, or duration when synchronizing using ''{0}''.</entry>
+      <entry key="NotNumeric2">All variables in input timetables must be numeric or duration when synchronizing using ''{0}''.</entry>
+      <entry key="NotNumeric3">All variables in input timetables must be numeric when synchronizing using ''{0}''.</entry>
+      <entry key="NotMissingAware">All variables in input timetables must support missing values (e.g. floating point, categorical, datetime, duration, or text) when synchronizing using ''{0}''.</entry>
+      <entry key="Interp1Failed">Interpolation failed for the variable ''{0}'' when synchronizing using ''{1}'':\n\n{2}</entry>
+      <entry key="InvalidConstant">Fill constant must be a scalar.</entry>
+      <entry key="InvalidEndValues">Specify the end value for extrapolation as a scalar or as ''extrap''.</entry>
+      <entry key="InvalidIncludedEdge">Specify the included time bin edge for aggregation as ''left'' or ''right''.</entry>
+      <entry key="RegularWithoutParams">A time step or sample rate must be provided when NEWTIMESTEP is ''regular''.</entry>
+      <entry key="NonPositiveTimeStep">A time step must be positive.</entry>
+    <!-- codegen -->
+      <entry key="UnsupportedNewTimeStepDatetime">When generating code, ''{0}'' is not a supported specification of target time vector for synchronizing a timetable that has datetime row times.</entry>
+      <entry key="NonconstantNewTimes">When specifying target time vector for synchronization using a string or a character vector, the string or character vector must be constant.</entry>
+      <entry key="NonconstantMethod">Synchronization method must be constant.</entry>
+      <entry key="NonconstantConstant">Specify the fill value for FillWithConstant as a scalar value with constant size.</entry>
+      <entry key="NonconstantEndValues">Specify ''extrap'' as constant for default extrapolation, or specify the end value for extrapolation as a scalar value with constant size.</entry>
+      <entry key="NonconstantEndValuesCell">Specify the end value as a scalar cell for extrapolation of a cell variable.</entry>
+      <entry key="UnsupportedMethodCodegen">The ''{0}'' synchronization method is not supported in code generation.</entry>
+      <entry key="CustomAggregationReturnsEmpty">When synchronization method is a function handle, the output timetable must contain at least one row at runtime.</entry>
+      <entry key="VarsizeEmpty">In code generation, when using ''commonrange'' time basis or regular time steps, variable sized timetable inputs must not be empty at runtime.</entry>
+      <entry key="Implicit0x0EmptyCodegen">0x0 empty timetables with TimeStep or SampleRate specified are not supported in code generation when using ''commonrange'' time basis or regular time steps.</entry>
+      <entry key="CannotBeImplicit">Unable to create regular row times because the specified time step is too small relative to the input timetable row times, or the sample rate is too large, or they are nonfinite.</entry>
+   </message>
+</rsccat>

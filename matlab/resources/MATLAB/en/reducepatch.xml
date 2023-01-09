@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NonScalarReduction">Reduction must be a scalar.</entry>
+    <entry key="NonFinitePositiveReduction">Reduction must be finite and positive.</entry>
+    <entry key="FaceValuesTooSmall">Faces array must contain values &gt;=1 </entry>
+    <entry key="FaceValuesTooLarge">Faces array contains values which exceed vertices length</entry>
+    <entry key="InvalidFirstArgument">The first argument must be a patch handle or a struct containing faces and vertices.</entry>
+    <entry key="WrongNumberOfInputs">Wrong number of input arguments.</entry>
+  </message>
+</rsccat>

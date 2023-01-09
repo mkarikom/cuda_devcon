@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManyInputs">입력 인수가 너무 많습니다.</entry>
+    <entry key="TooFewInputs">입력 인수가 부족합니다.</entry>
+    <entry key="TooManyOutputs">출력 인수가 너무 많습니다.</entry>
+    <entry key="NonDoubleInput">cubicmx 함수는 double형 배열만 받습니다.</entry>
+    <entry key="InvalidInput1">X와 Y의 길이는 동일해야 합니다.</entry>
+    <entry key="InvalidInput2">XI와 YI는 크기가 동일해야 합니다.</entry>
+    <entry key="InvalidInput3">XI와 T는 크기가 동일해야 합니다.</entry>
+    <entry key="InvalidInput4">TRI는 M×3이어야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NonScalarHandle">Parent must be a scalar graphics handle.</entry>
+    <entry key="DeletedAxes">Attempt to plot into deleted Axes.</entry>
+    <entry key="DeletedObject">Attempt to plot into deleted graphics object.</entry>
+  </message>
+</rsccat>

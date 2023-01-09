@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="inputType">Inputs must be single or double.</entry>
+    <entry key="inputMustBe2D">Inputs must be 2-D.</entry>
+    <entry key="inputMustBeFull">Inputs must be full.</entry>
+    <entry key="inputMustBeSquare">First and second inputs must be square.</entry>    
+    <entry key="inputMustBeCompatibleSize">Inputs must have compatible size.</entry>
+    <entry key="inputWithNaNInf">First and second inputs must not contain NaN or Inf.</entry>
+    
+    <!-- Used by internal helper function -->
+    <entry key="inputTypeFlag">Inputs must be single, double, or ''I'' to specify an identity matrix.</entry>
+    <entry key="inputDouble">Inputs must be double.</entry>
+    <entry key="unsupportedIDCombination">Substituting ''I'' for a matrix is only supported in the combinations SYLVESTER_TRI(A, B, C, ''I'', ''I'') and SYLVESTER_TRI(A, ''I'', C, ''I'', F).</entry>
+    <entry key="inputOption">Option must be ''transp'' or ''notransp''.</entry>
+    
+  </message>
+</rsccat>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="interpreter">Bad value for text property: ''Interpreter''</entry>
+    <entry key="colormap">A Colormap must be specified when calling MSGBOX with 5 input arguments.</entry>
+    <entry key="customicon">Icon must be ''custom'' when specifying icon data in MSGBOX</entry>
+    <entry key="icondata">Must specify icon data when Icon is ''custom''.</entry>
+    <entry key="iconstring" note="stringDatatypeUpdate">Invalid character vector for Icon in MSGBOX.</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="IncorrectIconDataType">Must specify numeric data for icon when Icon is ''custom''.</entry>
+    <entry key="IncorrectIconColormap">Colormap must be an array of type double, float or sparse when Icon is ''custom''.</entry>
+    <entry key="InvalidInput">Must specify fields Interpreter and WindowStyle when passing struct as last input argument.</entry>
+  </message>
+</rsccat>

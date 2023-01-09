@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidIntegrand">첫 번째 입력 인수는 함수 핸들이어야 합니다.</entry>
+    <entry key="invalidA">A는 유한한 스칼라로, 부동소수점 상수여야 합니다.</entry>
+    <entry key="invalidB">B는 유한한 스칼라로, 부동소수점 상수여야 합니다.</entry>
+    <entry key="invalidC">C는 유한한 스칼라로, 부동소수점 상수이거나 함수 핸들이어야 합니다.</entry>
+    <entry key="invalidD">D는 유한한 스칼라로, 부동소수점 상수이거나 함수 핸들이어야 합니다.</entry>
+    <entry key="nonFiniteResult">결과가 유한하지 않습니다. 적분에 실패했습니다. 특이점일 가능성이 있습니다.</entry>
+    <entry key="minRectSizeFail">최소 사각형 크기에 도달했습니다. 결과가 전역 오차 테스트에 실패했습니다.</entry>
+    <entry key="minRectSizePass">최소 사각형 크기에 도달했습니다. 전역 오차 테스트 결과는 통과입니다.</entry>
+    <entry key="CSizeMismatch">하한 크기 불일치: 크기(C(x))와 크기(x)가 일치하지 않습니다.</entry>
+    <entry key="nonFiniteCx">C(x)는 유한한 값이어야 합니다.</entry>
+    <entry key="DSizeMismatch">상한 크기 불일치: 크기(D(x))와 크기(x)가 일치하지 않습니다.</entry>
+    <entry key="nonFiniteDx">D(x)는 유한한 값이어야 합니다.</entry>
+    <entry key="SizeMismatch">피적분 함수 출력값 크기가 입력값 크기와 일치하지 않습니다.</entry>
+    <entry key="invalidAbsTol">유효하지 않은 AbsTol임</entry>
+    <entry key="invalidRelTol">유효하지 않은 RelTol임</entry>
+    <entry key="invalidSingular">Singular 옵션은 true 또는 false여야 합니다.</entry>
+    <entry key="invalidFailurePlot">FailurePlot 옵션은 true 또는 false여야 합니다.</entry>
+    <entry key="invalidMaxFunEvals">MaxFunEvals는 양의 정수 스칼라여야 합니다.</entry>
+    <entry key="increasedRelTol">RelTol을 100*eps(''{0}'') = {1}(으)로 늘렸습니다.</entry>
+    <entry key="maxFunEvalsFail">함수 실행의 최대 횟수에 도달했습니다({0,number,integer}). 결과가 전역 오차 테스트에 실패했습니다.</entry>
+    <entry key="maxFunEvalsPass">함수 실행의 최대 횟수에 도달했습니다({0,number,integer}). 전역 오차 테스트 결과는 통과입니다.</entry>
+    <entry key="FunVectorization">다른 크기의 입력 행렬을 가진 서로 다른 2개의 호출에 동일한 입력값이 제공되는 경우 피적분 함수 출력값이 필요한 허용오차와 일치하지 않았습니다. 해당 함수가 제대로 벡터화되었는지 확인하십시오.</entry>
+  </message>
+</rsccat>

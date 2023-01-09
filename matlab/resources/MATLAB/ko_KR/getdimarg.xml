@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="dimensionMustBePositiveInteger">차원 인수는 인덱스 범위 내에 있는 양의 정수 스칼라여야 합니다.</entry>
+    <entry key="vecDimsMustBeUniquePositiveIntegers">차원 벡터의 요소는 고유해야 합니다.</entry>
+    <entry key="invalidDim">차원 인수는 양의 정수 스칼라, 고유한 양의 정수로 구성된 벡터 또는 ''all''이어야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotEnoughInputs">Not enough input arguments.</entry>
+    <entry key="nargin">Wrong number of input arguments.</entry>
+    <entry key="XLengthMismatchV">The lengths of the X1,X2,X3,... vectors must match V.</entry>
+    <entry key="sizeV">V must be at least 2-by-2-by-2-by-...</entry>
+    <entry key="YSizeMismatch">Y1,Y2,Y3, etc. must be the same size.</entry>
+  </message>
+</rsccat>

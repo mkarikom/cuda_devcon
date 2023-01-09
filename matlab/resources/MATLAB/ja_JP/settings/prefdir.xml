@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CreateFolderError">{0} に基本設定フォルダーを作成できません。</entry>
+    <entry key="RelativePathErrorSuffix">基本設定フォルダーの場所は有効な絶対パスでなければなりません。</entry>
+    <entry key="RelativePathErrorOnLinux">{0} に基本設定フォルダーを作成できません。基本設定フォルダーの場所は有効な絶対パスでなければなりません。環境変数 HOME が絶対パスに設定されていることを確認してください。</entry>
+    <entry key="TempPrefdirWarningCannotCreate">{0} に基本設定フォルダーを作成できません。{1} この MATLAB セッションでは一時基本設定フォルダーを使用します。詳細については、&lt;a href="matlab: helpview([docroot '/matlab/helptargets.map'],'matlabenvironment_prefdir_location')"&gt;基本設定のドキュメンテーション&lt;/a&gt;を参照してください。</entry>
+    <entry key="TempPrefdirWarningNotWritable">基本設定フォルダー {0} にアクセスできません。基本設定フォルダーは書き込み可能でなければなりません。この MATLAB セッションでは一時基本設定フォルダーを使用します。詳細については、&lt;a href="matlab: helpview([docroot '/matlab/helptargets.map'],'matlabenvironment_prefdir_location')"&gt;基本設定のドキュメンテーション&lt;/a&gt;を参照してください。</entry>
+    <entry key="CreateTempPrefdirErrorSuffix">基本設定フォルダーの場所は書き込み可能でなければなりません。</entry>
+    <entry key="PrefdirNotWritableOnLinux">基本設定フォルダー {0} にアクセスできません。基本設定フォルダーは書き込み可能でなければなりません。</entry>
+    <entry key="FileNameTooLarge">基本設定フォルダーのパス名が長すぎます。</entry>
+    <entry key="InvalidArgument">基本設定フォルダーのパスが無効です。</entry>
+    <entry key="FileNameConversionFailure">基本設定フォルダーを作成できません。</entry>
+    <entry key="PathNotFound">場所が存在しません。</entry>
+    <entry key="BadAlloc">メモリ不足。</entry>
+    <entry key="DefaultError">原因不明のエラー。</entry>
+    <entry key="SystemError">システム エラーが発生しました。</entry>
+    <entry key="ErrorTitle">MATLAB 起動中のエラー</entry>
+    <entry key="ExitButton">MATLAB の終了</entry>
+    <entry key="NoWritePermission">''{0}'' は読み取り専用です。個人用設定は保存されません。</entry>
+  </message>
+</rsccat>

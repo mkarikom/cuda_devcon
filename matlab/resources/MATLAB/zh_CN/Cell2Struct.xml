@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DimensionNumber">维数超出范围。</entry>
+    <entry key="NumberOfNamesMismatch">字段名称数目必须与新结构体中的字段数目匹配。</entry>
+    <entry key="Non2DCharArray">字段名称必须为 2 维字符数组。</entry>
+    <entry key="NonStringFieldNames">字段名称必须为非空字符向量或字符串标量。</entry>
+    <entry key="NonStringVector">字段名称必须为字符向量或字符串标量。</entry>
+    <entry key="InvalidFieldName">字段名称 \"{0}\" 无效。</entry>
+    <entry key="FirstArgNotACell">第一个参数必须为元胞数组。</entry>
+  </message>
+</rsccat>

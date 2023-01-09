@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" decorate_cxx_names="1">
+  <message>
+    <entry key="InvalidHandle">Invalid or deleted {0}.</entry>
+    <entry key="IncorrectIndexing">Only one-dimensional indexing is supported.</entry>
+    <entry key="needMoreRhsOutputs">Insufficient number of outputs from right hand side of equal sign to satisfy assignment.</entry>
+    <entry key="IncorrectNumberInputs">Incorrect number of inputs specified.</entry>
+    <entry key="Param">Missing parameter name ''KeyType'' or ''ValueType''. \nUse syntax: newMap = containers.Map(''KeyType'', myKeyType, ''ValueType'', myValueType).</entry>
+    <entry key="NDCatNotSupported">Concatenation in dimension {0,number,integer} is not supported by a {1}.</entry>
+    <entry key="MethodNotFound">Concatenation method not found.</entry>
+    <entry key="HorzcatNotSupported">Horizontal concatenation is not supported by a {0}.</entry>
+    <entry key="EndIndexingNotSupported">Indexing using ''end'' is not supported by a {0}.</entry>
+    <entry key="NumberKeysValuesMismatch">The number of keys and values must be the same.</entry>
+    <entry key="NoKeyToRemove">The specified key is not present in this container.</entry>
+    <entry key="NoKey">The specified key is not present in this container.</entry>
+    <entry key="EmptyKey">Empty keys are not allowed in this container.</entry>
+    <entry key="Convert64BitIntToDouble">One or more of the input arrays will be converted from a 64 bit integer to double.  This may result in a loss of precision.</entry>
+    <entry key="InvalidParameterName">Unknown parameter name {0} will be ignored.  Check documentation for list of known parameters.</entry>
+    <entry key="EmptyValues">When keys are specified, values must also be specified.</entry>
+    <entry key="ExpectScalarLogical">Expected ''UniformValues'' to be a logical scalar.</entry>
+    <entry key="UniformMismatch">When ''UniformValues'' is true, values must be all character arrays or all scalars of matching type.</entry>
+    <entry key="UniformNonScalar">When ''UniformValues'' is true, values must be all character arrays or all scalars of matching type.</entry>
+    <entry key="KeysUnsupportedType">Unsupported key specified.  See documentation for valid key types.</entry>
+    <entry key="KeysMismatchType">The specified keys must all be of the same data type.</entry>
+    <entry key="ValueUnsupportedType">Unsupported ValueType ''{0}'' specified.  See documentation for valid value types.</entry>
+    <entry key="KeyUnsupportedType">Unsupported KeyType ''{0}'' specified.  See documentation for valid key types.</entry>
+    <entry key="EmptySizeMustBeZero">At least one dimension must be zero.</entry>
+    <entry key="EmptySizeMustBeZeroByOne">Empty map must be of size 0-by-1.</entry>
+    <entry key="SparseValuesNotAccepted">Sparse matrices are not a supported value type. Please convert using FULL(values).</entry>
+    <entry key="SparseKeysNotAccepted">Sparse matrices are not a supported key type. Please convert using FULL(keys).</entry>
+    <entry key="InvalidKeySet">Invalid input. KeySet must be a numeric scalar, char vector, string scalar or cell array of keys.</entry>
+  </message>
+</rsccat>

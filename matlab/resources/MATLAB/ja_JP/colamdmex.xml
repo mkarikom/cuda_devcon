@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidNumberOfArguments">入力引数か出力引数の数、またはその両方が正しくありません。</entry>
+    <entry key="InvalidDataType">関数 colamdmex は double または logical の配列のみを受け入れます。</entry>
+    <entry key="InvalidInput2">入力行列は 2 次元でなければなりません。</entry>
+    <entry key="tooManyRows">スパース行列の行数が COLAMD には多すぎます。</entry>
+    <entry key="tooManyCols">COLAMD にはスパース行列の列数が多すぎます。</entry>
+    <entry key="tooManyNzs">COLAMD にはスパース行列のゼロ以外の要素数が多すぎます。</entry>
+    <entry key="negRecommendedVal">colamd_l_recommended() によって負の値が返されました。</entry>
+    <entry key="InvalidInput3">colamd エラー</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotPosInt">入力引数は、COMPUTER での定義に従って、MAXSIZE 未満の負ではない整数でなければなりません。詳細は HELP COMPUTER を使用して参照してください。</entry>
+    <entry key="InvalidInputFormat">SPEYE(N)、SPEYE(M,N)、または SPEYE([M,N]) を使用してください。</entry>
+    <entry key="ComplexInput">SPEYE では、複素数入力は許可されていません。</entry>
+    <entry key="NonNumericInput">入力は数値でなければなりません。</entry>
+  </message>
+</rsccat>

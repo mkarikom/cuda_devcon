@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ErrorOccurredWhileSavingData">데이터를 저장하는 중 오류가 발생했습니다.</entry>
+    <entry key="InvalidVariableName">''{0}''은(는) 유효하지 않은 변수 이름입니다.</entry>
+    <entry key="CursorDataExportError">커서 데이터 내보내기 오류</entry>
+    <entry key="SelectMATLABFile">MATLAB 파일 선택</entry>
+    <entry key="EnterVariableName">변수 이름 입력</entry>
+    <entry key="VariableNameAlreadyExists">"{0}"(이)라는 변수는 MATLAB 작업 공간에 이미 존재합니다.\n계속할 경우 작업 공간 내 "{1}"의 인스턴스를\n덮어씁니다.</entry>
+    <entry key="SelectionStyle">선택 스타일</entry>
+    <entry key="MousePosition">마우스 위치</entry>
+    <entry key="SnapToNearestDataVertex">가장 가까운 데이터 꼭짓점으로 맞춤</entry>
+    <entry key="DisplayStyle">디스플레이 스타일</entry>
+    <entry key="WindowInsideFigure">Figure 내에 창 표시</entry>
+    <entry key="Datatip">데이터팁</entry>
+    <entry key="CreateNewDatatip">새 데이터팁 만들기 Alt+Click</entry>
+    <entry key="DeleteCurrentDatatip">현재 데이터팁 삭제 Delete</entry>
+    <entry key="DeleteAllDatatips">모든 데이터팁 삭제</entry>
+    <entry key="ExportCursorDataToWorkspace1">커서 데이터를 작업 공간으로 내보내기...</entry>
+    <entry key="EditTextUpdateFunction">텍스트 업데이트 함수 편집...</entry>
+    <entry key="SelectTextUpdateFunction">텍스트 업데이트 함수 선택...</entry>
+    <entry key="ExportCursorDataToWorkspace2">커서 데이터를 작업 공간으로 내보내기</entry>
+  </message>
+</rsccat>

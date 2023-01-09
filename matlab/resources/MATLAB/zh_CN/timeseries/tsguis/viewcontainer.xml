@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AddPlot">添加绘图</entry>
+    <entry key="Correlations">相关性</entry>
+    <entry key="CorrelationPlot">相关图: </entry>
+    <entry key="CurrentPlots">当前绘图</entry>
+    <entry key="Dimensions">维度</entry>
+    <entry key="DomainLimits">域限制</entry>
+    <entry key="EditPlot">编辑绘图...</entry>
+    <entry key="Histogram">直方图: </entry>
+    <entry key="Histograms">直方图</entry>
+    <entry key="MoveTimeSeries">移动时序</entry>
+    <entry key="NewPlot">新建绘图...</entry>
+    <entry key="NodeLabel">节点标签</entry>
+    <entry key="Path">路径</entry>
+    <entry key="RemovePlot">删除绘图</entry>
+    <entry key="RescaleTimeSeries">重新缩放时序</entry>
+    <entry key="SelectData">选择数据</entry>
+    <entry key="SelectFrequencyIntervals">选择频率间隔</entry>
+    <entry key="SelectPoints">选择点</entry>
+    <entry key="SelectTimeIntervals">选择时间间隔</entry>
+    <entry key="SelectYRangeInterval">选择 Y 范围间隔</entry>
+    <entry key="SpectralPlot">频谱图: </entry>
+    <entry key="SpectralPlots">频谱图</entry>
+    <entry key="TheSpecifiedNameConflicts">指定的名称与相同类型的现有绘图的名称冲突。将添加后缀解决冲突。</entry>
+    <entry key="TimePlot">时间图: </entry>
+    <entry key="TimePlots">时间图</entry>
+    <entry key="TimeSeries">时序</entry>
+    <entry key="TimeSeriesInSelectedView">所选视图中的时序</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="Title">标题</entry>
+    <entry key="XYPlots">XY 绘图</entry>
+    <entry key="XYPlot">XY 绘图: </entry>
+    <entry key="CopyOf">Copy_of_{0}</entry>
+    <entry key="CopyOfNumber">Copy_of_{0,number,integer}_{1}</entry>
+    <entry key="ViewNumber">View{0,number,integer}</entry>
+  </message>
+</rsccat>

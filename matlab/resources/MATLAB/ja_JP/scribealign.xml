@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidAlignmentInput">2 番目の整列の入力が無効です。</entry>
+    <entry key="InvalidVerticalAlignment">垂直方向の整列タイプが正しくありません</entry>
+    <entry key="InvalidTargetHandle">最初の引数は、整列するハンドルのベクトルか、Figure のハンドルでなければなりません</entry>
+    <entry key="InvalidParent">整列するすべてのオブジェクトは同じ親 Figure をもたなければなりません。</entry>
+    <entry key="InvalidAlignType">整列タイプが無効です。</entry>
+    <entry key="BadInputHandle">入力のハンドルのオブジェクトが無効です。</entry>
+    <entry key="NoFigure">Figure の親が見つかりません。</entry>
+    <entry key="AlignDistributeToolTitle">オブジェクト整列ツール</entry>
+    <entry key="InvalidHorizontalAlignment">水平方向の整列タイプが無効です</entry>
+  </message>
+</rsccat>

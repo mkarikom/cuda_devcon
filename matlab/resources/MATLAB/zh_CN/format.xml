@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownOption">格式选项 {0} 无效。</entry>
+    <entry key="InvalidInput">数据类型无效。格式选项必须为字符向量、字符串标量或类 {0} 的实例。</entry>
+    <entry key="MissingOrInvalidClass">The class definition of {0} is corrupt or not on the MATLAB Path. </entry>
+  </message>
+</rsccat>

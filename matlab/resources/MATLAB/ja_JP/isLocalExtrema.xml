@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ComplexInputArray">複素数の入力引数はサポートされません。</entry>
+    <entry key="FirstInputInvalid">最初の引数は数値配列、論理配列、table、timetable のいずれかでなければなりません。</entry>
+    <entry key="NonVectorTableVariable">table 変数は列ベクトルでなければなりません。</entry>
+    <entry key="DimensionTable">次元は、最初の引数が table または timetable である場合にはサポートされません。</entry>
+    <entry key="DimensionInvalid">次元は正の整数でなければなりません。</entry>
+    <entry key="NameValuePairs">入力引数の数が正しくありません。パラメーターの名前と値はペアでなければなりません。</entry>
+    <entry key="InvalidNameArray">パラメーター名は、''MaxNumExtrema''、''MinSeparation''、''MinProminence''、''FlatSelection''、または ''SamplePoints'' でなければなりません。</entry>
+    <entry key="InvalidNameTable">パラメーター名は、''MaxNumExtrema''、''MinSeparation''、''MinProminence''、''FlatSelection''、''SamplePoints''、または ''DataVariables'' でなければなりません。</entry>
+    <entry key="MaxNumInvalid">''MaxNumExtrema'' の値は正の整数でなければなりません。</entry>
+    <entry key="MinProminenceInvalid">''MinProminence'' の値は非負の数値スカラーでなければなりません。</entry>
+    <entry key="MinSeparationInvalid">''MinSeparation'' の値は、非負で有限の実数スカラーでなければなりません。</entry>
+    <entry key="ProminenceWindowLengthInvalid">''ProminenceWindow'' の値は、正のスカラーか、非負のスカラーの 2 要素ベクトルでなければなりません。</entry>
+    <entry key="ProminenceWindowMustBeDuration">''SamplePoints'' の値が datetime または duration の場合、''ProminenceWindow'' の値は duration でなければなりません。</entry>
+    <entry key="ProminenceWindowCannotBeDuration">''SamplePoints'' の値が数値の場合、''ProminenceWindow'' の値は数値でなければなりません。</entry>
+    <entry key="ProminenceWindowMustBeDurationTimetable">最初の入力引数が timetable の場合、''ProminenceWindow'' の値は duration でなければなりません。</entry>
+    <entry key="SeparationMustBeDuration">''SamplePoints'' の値が datetime または duration の場合、''MinSeparation'' の値は duration スカラーでなければなりません。</entry>
+    <entry key="SeparationCannotBeDuration">''SamplePoints'' の値が数値の場合、''MinSeparation'' の値は数値スカラーでなければなりません。</entry>
+    <entry key="SeparationMustBeDurationTimetable">最初の入力引数が timetable の場合、''MinSeparation'' の値は duration スカラーでなければなりません。</entry>
+    <entry key="FlatSelectionInvalid">''FlatSelection'' は、''first''、''center''、''last'' または ''all'' でなければなりません。</entry>
+    <entry key="SamplePointsInvalidDatatype">データ型が無効です。''SamplePoints'' の値は、double、single、datetime または duration のベクトルでなければなりません。</entry>
+    <entry key="SamplePointsLength">''SamplePoints'' の値の要素数は、操作次元に沿った最初の引数のサイズと等しくなければなりません。</entry>
+    <entry key="SamplePointsFinite">''SamplePoints'' の値に非有限要素が含まれています。</entry>
+    <entry key="SamplePointsComplex">''SamplePoints'' の値は実数でなければなりません。</entry>
+    <entry key="SamplePointsSparse">スパースな ''SamplePoints'' の値はサポートされません。</entry>
+    <entry key="SamplePointsDuplicate">''SamplePoints'' の値に重複が含まれています。</entry>
+    <entry key="SamplePointsSorted">''SamplePoints'' の値は昇順に並べ替えなければなりません。</entry>
+    <entry key="RowTimesFinite">行時間は有限でなければなりません。</entry>
+    <entry key="RowTimesDuplicate">行時間に重複があります。</entry>
+    <entry key="RowTimesSorted">行時間は昇順に並べ替えなければなりません。</entry>
+    <entry key="SamplePointsTimeTable">最初の入力引数が timetable の場合、''SamplePoints'' パラメーターはサポートされません。</entry>
+    <entry key="DataVariablesArray">''DataVariables'' パラメーターは、最初の入力引数が table または timetable である場合にのみサポートされます。</entry>
+    <entry key="NonNumericTableVar">table 変数は数値でなければなりません。</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' 関数ハンドルは論理スカラーを返さなければなりません。</entry>
+    <entry key="DataVariablesTableSubscript">''DataVariables'' の値が無効です。</entry>
+    <entry key="PromWindowNotSupported">''ProminenceWindow'' はコード生成でサポートされていません。</entry>
+    <entry key="DataVarsMustBeUnique">コード生成では、'DataVariables' パラメーターに重複を含めることができません。</entry>
+  </message>
+</rsccat>

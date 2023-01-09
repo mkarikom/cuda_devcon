@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Arg1NotStructArray">S は構造体配列でなければなりません。</entry>
+    <entry key="FieldnamesNotStrings">FIELDNAMES は、string、文字ベクトル、または文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="FieldnameTooLong">string ''{0}'' は、MATLAB の名前の最大長を超えています。有効なフィールド名ではありません。</entry>
+    <entry key="InvalidFieldname">''{0}'' という名前のフィールドは存在しません。</entry>
+  </message>
+</rsccat>

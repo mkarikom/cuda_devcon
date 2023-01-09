@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoDataBlockSelectedGoToStep2">データ ブロックが選択されていません。ステップ 2 に戻ってデータを選択してください。</entry>
+    <entry key="NoExistingTimeSeriesSelected">既存の時系列が選択されていません</entry>
+    <entry key="RowIndexForRowVariableInteger">変数名が含まれる行の行インデックスは整数でなければなりません。</entry>
+    <entry key="VariableNamesAlphanumeric">変数名は英数字でなければなりません。</entry>
+    <entry key="CommonPartVariableBeMATLABvariable">変数名の共通部分は有効な MATLAB 変数名でなければなりません。</entry>
+    <entry key="NoDataBlockSelectedGoToPreviousStep">データ ブロックが選択されていません。前のステップへ戻って有効なデータ ブロックを選択してください。</entry>
+    <entry key="InvalidTimesSelectedGoToStep2">選択時間が無効です。ステップ 2 に戻ってください。</entry>
+    <entry key="TimeIntervalNumericGoBackToStep2">時間間隔は数値でなければなりません。ステップ 2 に戻って時間間隔を変更してください。</entry>
+    <entry key="LengthOfTimeSeriesIsZeroGoToStep2">時系列の長さが 0 です。ステップ 2 に戻って目的のデータ ブロックを選択してください。</entry>
+    <entry key="StartTimeNumericGoToStep2">開始時間は数値でなければなりません。ステップ 2 に戻って開始時間を変更してください。</entry>
+    <entry key="DataBlockNotCompatibleWithTimeVector">データ ブロックの長さが時間ベクトルの長さと一致しません。</entry>
+    <entry key="DataBlockEmptyToReselectGoToStep2">選択したデータ ブロックが空です。ステップ 2 に戻って再度選択してください。</entry>
+    <entry key="InvalidTimeFormatSelectTime">時間形式が無効です。時間ベクトルを再度選択してください。</entry>
+    <entry key="TimeVectorContainsDuplicatedTimePoints">時間ベクトルには重複する時点が含まれています。同じ時点に関連するサンプルには、最後のサンプル、またはサンプルの平均のインポートを選択できます。</entry>
+    <entry key="NewTimeVectorSelectedHasADifferentLength">選択した新規時間ベクトルは、既存の timeseries オブジェクトで使われている古い時間ベクトルと長さが異なります。</entry>
+    <entry key="NewTimeVectorSelectedIsDifferentFromOldTimeVector">選択した新規時間ベクトルは、既存の timeseries オブジェクトで使われている古い時間のベクトルと異なります。</entry>
+    <entry key="NotAllDataImportedInvalidVariablesSpecified">すべてのデータがインポートされていません。無効な変数名が指定されました。</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="TimeSeriesObjectAlreadyExistsInTstoo">同じ名前をもつ time series オブジェクトが既に tstool 内に存在します。内容を現在の選択と置き換えますか?</entry>
+    <entry key="ImportingTimeSeriesObjectsPleaseWait">Time Series オブジェクトのインポート中。お待ちください...</entry>
+    <entry key="ErrorCreatingTimeSeriesObjectInTstool">tstool で time series オブジェクトを作成中にエラー</entry>
+    <entry key="Replace">置き換え</entry>
+    <entry key="Abort">中止</entry>
+    <entry key="SelectLast">最新を選択</entry>
+    <entry key="SelectAverage">平均の選択</entry>
+    <entry key="UseOldTimeVector">古い時間ベクトルを使用</entry>
+    <entry key="UseNewTimeVector">新規時間ベクトルを使用</entry>
+    <entry key="StartTimeBeDateStringGoToStep2">The start time must be a date character vector.  Go back to Step 2 to change the start time.</entry>
+  </message>
+</rsccat>

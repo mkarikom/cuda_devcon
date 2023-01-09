@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="needDoubleOrLogical">Input matrix must be double or logical.</entry>
+    <entry key="needMatrix">Input matrix must be square.</entry>
+    <entry key="needNumeric">''{0}'' value must be numeric.</entry>
+    <entry key="needRealScalar">''{0}'' value must be a real numeric scalar.</entry>
+    <entry key="numberOfArguments">Incorrect number of input arguments. Each parameter name must be followed by a corresponding value.</entry>
+    <entry key="MaxImbalanceVal">''MaxImbalance'' value must be an integer multiple of 0.001 between 1.001 and 1.999, inclusive.</entry>
+    <entry key="MaxDegreeVal">''MaxDegreeThreshold'' value must be a nonnegative integer.</entry>
+    <entry key="NumIterationsVal">''NumIterations'' value must be an integer greater than or equal to 1.</entry>
+    <entry key="NumSeparatorsVal">''NumSeparators'' value must be an integer greater than or equal to 1.</entry>
+    <entry key="VwgtsNotVector">''VertexWeights'' value must be a real vector the same length as the number of rows of the input matrix.</entry>
+    <entry key="VwgtsNotInteger">''VertexWeights'' value must be a vector of integers greater than or equal to 1.</entry>
+    <entry key="InvalidName">Parameter name must be ''VertexWeights'', ''NumSeparators'', ''NumIterations'', ''MaxImbalance'', or ''MaxDegreeThreshold''.</entry>
+  </message>
+</rsccat>

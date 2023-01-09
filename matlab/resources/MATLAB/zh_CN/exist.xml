@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="firstInputString">存在的第一个输入必须为字符串标量或字符向量。</entry>
+    <entry key="secondOptionalInputString">存在的第二个输入(可选)必须为 ''var''、''builtin''、''class''、''dir'' 或 ''file''。</entry>
+    <entry key="errorInTransparentWorkspace">不支持使用 exist 来检查透明工作区中的变量。要检查函数、文件夹、文件或类，请指定相应存在的第二个输入参数: ''builtin''、''class''、''dir'' 或 ''file''。</entry>
+  </message>
+</rsccat>

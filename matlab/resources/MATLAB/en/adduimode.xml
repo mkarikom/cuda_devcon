@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidMode">The second input argument must be a mode object.</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="ExistingFigureMode">A mode by this name is already registered with the figure.</entry>
+    <entry key="ExistingMode">A mode by this name is already registered with the mode.</entry>
+  </message>
+</rsccat>

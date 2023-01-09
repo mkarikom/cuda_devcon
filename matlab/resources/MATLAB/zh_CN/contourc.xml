@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputsMustBeDouble">{0} 的输入参数必须为 ''double'' 类型。</entry>
+    <entry key="InputsMustBeFull">{0} 的输入参数必须为完全数。</entry>
+    <entry key="InputsMustBeReal">{0} 的输入参数必须为实数。使用函数 REAL 可获取输入项的实部。</entry>
+    <entry key="InputsMustHaveAtMost2Dimensions">{0} 的输入参数必须最多具有 2 个维度。</entry>
+    <entry key="ZMustBeAtLeast2x2Matrix">Z 必须至少是 2x2 矩阵。</entry>
+    <entry key="XMustBeVector">X 必须为向量。</entry>
+    <entry key="YMustBeVector">Y 必须为向量。</entry>
+    <entry key="LMustBeVectorOrScalar">等高线层级值必须为向量或标量。</entry>
+    <entry key="LengthOfXandYMustMatchColsAndRowsInZ">X 和 Y 的长度必须分别与 Z 中的列数和行数匹配。</entry>
+    <entry key="LengthOfXMustMatchColsInZ">X 的长度必须与 Z 中的列数匹配。</entry>
+    <entry key="LengthOfYMustMatchRowsInZ">Y 的长度必须与 Z 中的行数匹配。</entry>
+    <entry key="XMustBeFinite">X 值必须是有限值。</entry>
+    <entry key="YMustBeFinite">Y 值必须是有限值。</entry>
+    <entry key="LMustBeFinite">等高线层级值必须是有限值。</entry>
+    <entry key="XMustBeUniqueMonotone">X 必须严格递增或严格递减，并且没有重复值。</entry>
+    <entry key="YMustBeUniqueMonotone">Y 必须严格递增或严格递减，并且没有重复值。</entry>
+    <entry key="NMustBeNonNegative">等高线层级的数目必须为非负数。</entry>
+  </message>
+</rsccat>

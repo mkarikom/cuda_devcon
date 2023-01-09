@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidThirdArgument">Third input argument must be ''invisible'' or ''visible''.</entry>
+    <entry key="InvalidSecondArgument">Second input argument must be ''new'' or ''reuse''.</entry>
+    <entry key="FigFileExpected">Argument must be a .fig file</entry>
+    <entry key="InvalidOption">''{0}'' is not a recognized option.</entry>
+  </message>
+</rsccat>

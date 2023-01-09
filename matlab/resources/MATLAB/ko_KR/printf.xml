@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="OctalCharCodeOutOfRange">지정된 8진수 값이 문자 집합의 범위를 벗어났습니다.</entry>
+    <entry key="OctalCharCodeInvalid">유효한 8진수 숫자는 0-7입니다.</entry>
+    <entry key="HexCharCodeOutOfRange">지정된 16진수 값이 문자 집합의 범위를 벗어났습니다.</entry>
+    <entry key="HexCharCodeInvalid">유효한 16진수 숫자는 0-9와 A-F입니다.</entry>
+    <entry key="BadEscapeSequenceInFormat">이스케이프 문자 ''\\{0}''이(가) 유효하지 않습니다. 지원되는 특수 문자를 보려면 ''doc sprintf''를 참조하십시오.</entry>
+    <entry key="NoControlCharacterInFormat">하나의 후행 백슬래시 ''\\''는 유효한 제어 문자가 아닙니다. 형식 문자열에 유효한 제어 문자는 'doc sprintf'를 참조하십시오.</entry>
+    <entry key="invalidInputType">''{0}'' 입력값에 대해 함수가 정의되지 않았습니다.</entry>
+    <entry key="invalidInputAttribute">희소 형식 입력값에 대해 함수가 정의되지 않았습니다.</entry>
+    <entry key="invalidSizeResult">2개 이상의 요소를 가진 double형 벡터를 반환하려면 {0}의 크기를 지정해야 합니다.</entry>
+    <entry key="UnableToConvertToOneElement">''{0}'' 요소를 ''{1}''형의 요소 하나로 변환할 수 없습니다.</entry>
+    <entry key="OutOfSpace">파일 ''{0}''에 쓸 수 없습니다. 장치에 공간이 남아 있지 않습니다.</entry>
+  </message>
+</rsccat>

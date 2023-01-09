@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NoOutputOnEnableDisable">No output arguments are permitted when enabling or disabling data cursor mode.</entry>
+    <entry key="maxrhs">Too many input arguments</entry>
+    <entry key="InvalidFigureHandle">Invalid figure handle</entry>
+    <entry key="InvalidInputForOutArg">Do not specify an output argument with these input arguments.</entry>
+    <entry key="UnrecognizedInput" note="stringDatatypeUpdate">Unknown action character vector.</entry>
+  </message>
+</rsccat>

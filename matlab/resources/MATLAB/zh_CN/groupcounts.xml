@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="GroupVariablesTableSubscript">分组变量无效。</entry>
+    <entry key="GroupVariablesFunctionHandle">分组变量函数句柄必须返回一个逻辑标量。</entry>
+    <entry key="FirstInputSize">第一个参数必须为向量、矩阵、包含列向量的元胞数组、表或时间表。</entry>
+    <entry key="GroupBinsEmpty">bin 划分方案无效。</entry>
+    <entry key="GroupBinsVarsDiffSize">指定一个 bin 划分方案，或者指定与分组变量一样多的 bin 划分方案。</entry>
+    <entry key="GroupBinsNoGroupVars">当分组变量为空时，不支持 bin 划分方案。</entry>
+    <entry key="GroupBinsError">无法将 bin 划分方法 "{0}" 应用于分组变量 "{1}"。</entry>
+    <entry key="GroupBinsScalarExpand">无法将 bin 划分方法应用于所有分组变量。使用元胞数组为每个分组变量指定 bin 划分方法，'none' 表示无 bin 划分。</entry>
+    <entry key="ParseFlags">参数名称必须为 ''IncludeMissingGroups''、''IncludeEmptyGroups'' 或 ''IncludedEdge''。</entry>
+    <entry key="KeyWithoutValue">输入参数的数目不正确。参数名称和值必须成对出现。</entry>
+    <entry key="IncludedEdgeNoGroupBins">仅当指定了 bin 划分方案时才支持 ''IncludedEdge''。</entry>
+  </message>
+</rsccat>

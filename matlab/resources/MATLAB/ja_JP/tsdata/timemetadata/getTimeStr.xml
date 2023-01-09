@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CurrentTime">現在の時間: {0} - {1}</entry>
+    <entry key="CurrentTimeNonuniform">現在の時間: 不等間隔 {0} - {1} {2}</entry>
+    <entry key="CurrentTimeUniform">現在の時間: 等間隔 {0} - {1} {2}</entry>
+  </message>
+</rsccat>

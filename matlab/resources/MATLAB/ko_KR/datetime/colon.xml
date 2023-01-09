@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonNumericStep">스텝 크기는 duration형 값, calendarDuration형 값, double형 실수 값 중 하나여야 합니다.</entry>
+    <entry key="InvalidColon">콜론 연산자에 대한 입력값은 datetime형 배열, 날짜/시간 문자형 벡터로 구성된 셀형 배열 또는 날짜/시간 string형이어야 합니다. 괄호를 사용하여 콜론 연산을 그룹화해야 할 수 있습니다.</entry>
+    <entry key="NonScalarInputs">입력값은 스칼라여야 합니다.</entry>
+  </message>
+</rsccat>

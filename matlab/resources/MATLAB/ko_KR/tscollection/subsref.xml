@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="indexOutOfRange">멤버 인덱스는 1과 tscollection의 총 멤버 수 사이의 정수여야 합니다.</entry>
+    <entry key="notMember">지정한 시계열 중 하나 이상이 tscollection의 멤버가 아닙니다.</entry>
+    <entry key="depthExceedsTwo">하위 참조의 수준은 2를 초과할 수 없습니다.</entry>
+    <entry key="badSep">콜론 연산자 또는 숫자형 인덱스를 사용하여 시계열에서 샘플을 지정하십시오.</entry>
+    <entry key="badIndex">각 시간 인덱스는 1과 tscollection 길이 사이의 정수여야 합니다.</entry>
+  </message>
+</rsccat>

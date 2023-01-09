@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedStringArg">인식할 수 없는 문자형 벡터 인수임: ''{0}''</entry>
+    <entry key="InvalidHandleArg">핸들 인수는 Figure 또는 uimenu 핸들이어야 함</entry>
+    <entry key="InvalidInputArg">입력 인수는 Figure 또는 uimenu 핸들이거나 ''콜백''이어야 함</entry>
+    <entry key="WindowMenuNotFound">창 메뉴를 찾을 수 없음</entry>
+    <entry key="RequiresFigureHandle">어설션: findwinmenu에는 Figure 핸들이 필요함</entry>
+    <entry key="UnexpectedObjType">morewindowscb에 예기치 않은 객체 유형이 발견됨: {0}</entry>
+  </message>
+</rsccat>

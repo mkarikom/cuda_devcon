@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="IncorrectHoleCount">Incorrect number of parameters supplied for ''{0}''. Expected {1,number,integer} but found {2,number,integer}.</entry>
+    <entry key="FailedMessageFormat">Message Formatting failed for ''{0}''.</entry>
+    <entry key="BadDataType">In ''{0}'', data type supplied is incorrect for parameter '{'{1,number,integer}'}'.</entry>
+    <entry key="NonScalarInput">In ''{0}'', parameter '{'{1,number,integer}'}' must be a real scalar.</entry>
+    <entry key="InvalidConstructorSignature">Invalid constructor signature.</entry>
+    <entry key="InvalidMessageID">Invalid Message ID format: ''{0}''.</entry>
+    <entry key="InvalidCatalogID">Invalid Catalog ID format: ''{0}''.</entry>
+    <entry key="MessageCatalogLoadFailed">Unable to load a message catalog ''{0}''. Please check the file location and format.</entry>
+    <entry key="MessageNotFound">Unable to find message key ''{0}'' in catalog ''{1}''.</entry>
+    <entry key="StringInput" note="stringDatatypeUpdate">Input must be a character vector.</entry>
+    <entry key="UnknownMsgCatErr">An unknown error occurred in accessing the Message Catalog.</entry>
+    <entry key="NoFloatingPointNumbers" note="stringDatatypeUpdate">Error filling holes for {0}. Floating point numbers are not allowed as holes. They should be converted to character vectors.</entry>
+    <entry key="InputNotInIntegerRange">Error filling holes for {0}. Number {1} not supported as an argument to message catalog.</entry>
+    <entry key="InvalidNumberOfArguments">Invalid Number of Arguments supplied after the message object.</entry>
+    <entry key="InputCellMatrix">Expecting a cell matrix as input to {0}.</entry>
+    <entry key="MessageKeyNotProvided">The message key was not provided.</entry>
+    <entry key="CustomArgumentFormatterNotFound">Custom formatter not found for custom hole type {0}.</entry>
+    <entry key="BadCatalogID">Bad Catalog ID.</entry>
+  </message>
+</rsccat>

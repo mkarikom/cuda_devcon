@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="inputType">输入必须为单精度或双精度矩阵。</entry>
+    <entry key="inputMustBeSquare">输入矩阵必须为方阵。</entry>
+    <entry key="inputMustBeFinite">矩阵元素必须为有限值。</entry>
+    <entry key="SingularMatrix">矩阵具有奇异性，可能没有平方根。</entry>
+  </message>
+</rsccat>

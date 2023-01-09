@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MATLABEditorTitle">MATLAB 编辑器</entry>
+    <entry key="NotAvailable">MATLAB 编辑器在未安装 Java 的情况下不可用。</entry>
+    <entry key="NoFilename">指定用于获取文档的文件名。</entry>
+    <entry key="PartialPath">打开要求 {0} 为绝对路径。</entry>
+    <entry key="EmptyEditor">MATLAB 编辑器不能为空。</entry>
+    <entry key="InvalidDocumentInput">{0} 参数必须为 matlab.desktop.editor.Document 的实例。</entry>
+    <entry key="InvalidSelection">将 Selection 指定为 [startLine startColumn endLine endColumn]。</entry>
+    <entry key="InvalidMatrixDimensions">矩阵维度必须一致。</entry>
+    <entry key="NonScalarInput">此方法仅对标量输入有效。</entry>
+    <entry key="NonNumericScalarInput">{0} 参数必须为数值标量。</entry>
+    <entry key="Uneditable">文档不可编辑。使用 &lt;a href="matlab:help matlab.desktop.editor.Document.Editable"&gt;Document.Editable&lt;/a&gt; 属性可将文档设置为可编辑。</entry>
+    <entry key="ReadonlyPosition">指定的位置为只读。</entry>
+    <entry key="InaccessiblePosition">无法将光标移至指定位置。</entry>
+    <entry key="NonexistentPosition">指定的位置不存在。</entry>
+    <entry key="EditorClosed">该文档未打开。使用 &lt;a href="matlab:help matlab.desktop.editor.openDocument"&gt;matlab.desktop.editor.openDocument&lt;/a&gt; 创建一个新文档对象。</entry>
+    <entry key="JavaCollectionBadInput">输入不是 Java 集合。</entry>
+    <entry key="NonStringInput">{0} 参数必须为字符向量。</entry>
+    <entry key="NonCellInput">输入参数必须为文本行元胞数组。</entry>
+    <entry key="Invalid32BitInteger">{0} 参数必须为小于或等于最大整数值(2147483647)的整数。</entry>
+    <entry key="Invalid32BitNegativeInteger">{0} 参数必须为小于或等于最大整数值(2147483647)的非负整数。</entry>
+    <entry key="InvalidChildForAnimation">当 AllowFigureAnimation 设置为 true 时，将无法正确显示包含 uicontrol、uipanel 和 uitable 的图窗。</entry>
+    <entry key="InvalidUIFigureForAnimation">当 AllowFigureAnimation 设置为 true 时，将无法正确显示使用 uifigure 函数创建的图窗。</entry>
+    <entry key="CannotOpenDirectory">无法编辑 {0}，因为它是文件夹。\n\n是否要创建无标题的文档?</entry>
+    <entry key="IgnoringReuseWebWindow">当 'Visible' 值为 'on' 时，将忽略 'ReuseWebWindow' 参数。</entry>
+    <entry key="DialogYes">是</entry>
+    <entry key="DialogNo">否</entry>
+    <entry key="CloseFailed">文档包含未保存的更改。请在调用 close 之前保存更改，或改用 closeNoPrompt 来关闭文档而不保存更改。</entry>
+    <entry key="ReloadFailed">找不到 {0}。如果文档从未保存过，请先保存文档，然后重新加载。</entry>
+    <entry key="SaveFailedUntitledBuffer">无法保存 {0}。如果文档是无标题缓冲区，请使用 saveAs 方法保存它。</entry>
+    <entry key="SaveFailedReadOnly">无法保存 {0}，因为该文件的状态为只读。</entry>
+    <entry key="SaveFailedPermissionDenied">Unable to save {0} because of insufficient permissions.</entry>
+    <entry key="SaveFailedUnknown">无法保存 {0}。请检查文件夹权限以及是否有足够的可用空间。</entry>
+    <entry key="SaveAsFailedNotAbsoulutePath">文件名必须为完全限定名称。</entry>
+    <entry key="PerformActionTimeout">无法执行 {0} 操作。编辑器未响应请求。</entry>
+    <entry key="OpenLoadTimeout">无法打开或加载编辑器。</entry>
+    <entry key="AppStateTimeout">等待 AppContainer 返回 AppState 为 RUNNING 时发生超时。</entry>
+    <entry key="OpenAsTextOnPcodedFileWarning">无法打开文件 {0}。\n文件是内容不明确的 P 代码文件。\n</entry>
+  </message>
+</rsccat>

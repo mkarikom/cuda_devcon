@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NaNData">向量数据 U、V、W 不能包含任何 NaN</entry>
+    <entry key="WrongNumberOfInputs">输入参数的数目不正确。</entry>
+    <entry key="InvalidSizeInput">[SCALE N] 必须为包含 2 个元素的向量。</entry>
+  </message>
+</rsccat>

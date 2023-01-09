@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badInput">指定了非法的选项 ''{0}''。</entry>
+    <entry key="DebugMEXfiles">为了调试 MEX 文件，必须在调试器中运行 MATLAB。</entry>
+    <entry key="ToRunMATLABWithinADebuggerStartItByTyping">    要在调试器中运行 MATLAB，请键入以下命令将其启动:</entry>
+    <entry key="NameOfTheDebugger">    其中，"debugger" 为要使用的调试器的名称。</entry>
+    <entry key="MatlabDdebugger">           matlab -Ddebugger</entry>
+  </message>
+</rsccat>

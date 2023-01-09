@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RequireDataAxes">不包括颜色栏、图例和非坐标区</entry>
+    <entry key="InvalidFirstArgument">必须至少存在一个有效坐标区。</entry>
+    <entry key="CartesianAxes">坐标区输入必须为笛卡尔输入。</entry>
+    <entry key="Requires2Dinput">linkaxes 需要将 2 维坐标区作为输入。使用 linkprop 进行常规属性链接。</entry>
+    <entry key="InvalidSecondArgument">第二个输入参数必须为 ''x''、''y''、''xy'' 或 ''off'' 之一。</entry>
+    <entry key="CompatibleData">linkaxes 需要所有坐标区的范围全部为数值、全部为日期时间或全部为持续时间值。</entry>
+    <entry key="CompatibleCategories">所有链接坐标区的类别必须相同。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CommandString">명령: {0}</entry>
+    <entry key="CommandExecutionFailed">"redo'' 실행 중 오류 발생: {0}</entry>
+    <entry key="CannotUndoCommand">"undo'' 실행 중 오류 발생: {0}</entry>
+    <entry key="CommentCalledBy">%% {0}에 의해 호출됨</entry>
+  </message>
+</rsccat>

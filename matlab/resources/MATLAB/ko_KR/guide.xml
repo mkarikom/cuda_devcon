@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoSwingSupport">Java Swing을 사용할 수 없으므로 GUIDE를 시작할 수 없습니다.\n{0}</entry>
+    <entry key="InvalidFileExtension">파일 ''{0}''에 {1} 확장자가 없습니다.</entry>
+    <entry key="InvalidFileName">파일 ''{0}''을(를) 찾을 수 없습니다.</entry>
+    <entry key="InvalidFigureHandle">하나 이상의 요소가 Figure 핸들이 아닙니다.</entry>
+    <entry key="GUIDEWillBeRemovedUseAppDesigner">GUIDE는 향후 릴리스에서 제거될 예정입니다. 대신 APPDESIGNER를 사용하십시오.</entry>
+    <entry key="StateFieldNotFound">GUI MATLAB-파일 {1}의 gui_State 구조체에서 필드 ''{0}''을(를) 찾을 수 없음</entry>
+    <entry key="InvalidSecondArgument">두 번째 입력 인수는 options 구조체이거나 ''edit''이어야 합니다.</entry>
+    <entry key="TooManyInputs">입력 인수가 너무 많음</entry>
+    <entry key="UnknownInput">GUIDEOPTS에 대한 인식할 수 없는 입력값임</entry>
+    <entry key="UnknownResize">알 수 없는 크기 조정 정책임: ''{0}''</entry>
+    <entry key="CodeFileNotFound">MATLAB-코드 파일 ''{0}''이(가) 존재하지 않습니다.</entry>
+    <entry key="CodeFileNotWritable">MATLAB-코드 파일 ''{0}''이(가) 존재하지 않거나 쓸 수 없습니다.</entry>
+    <entry key="ExportWriteFailed">내보내기 MATLAB-코드 파일을 쓸 수 없습니다.\n{0}</entry>
+    <entry key="CannotMakeDirectory">내보내기 디렉터리를 만들 수 없습니다.\n{0}</entry>
+    <entry key="SaveAsDialogTitle">다른 이름으로 저장</entry>
+    <entry key="OpenDialogTitle">열기</entry>
+    <entry key="GuiFileDescription">Figure 파일(*.fig)</entry>
+    <entry key="SelectFigFile">GUIDE .fig 파일 선택</entry>
+    <entry key="InvalidFilePath">두 번째 입력 인수는 유효한 MATLAB 파일 이름이어야 합니다.</entry>
+    <entry key="ComponentName">GUIDE</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="tooManyExceptFlags">''-except'' 플래그가 {0,number,integer} 및 {1,number,integer} 입력값에 대해 지정되었습니다. 이 플래그는 두 번 이상 지정될 수 없습니다.</entry>
+    <entry key="unknownFlag">플래그 ''{0}''은(는) 인식되지 않습니다.  지원되는 플래그를 확인하려면 "help {1}"을(를) 입력하십시오.</entry>
+    <entry key="FlagIgnored">플래그 ''-{1}''을(를) 지정하는 입력 숫자 {0, number, integer}은(는) 무시됩니다.  유효한 구문을 확인하려면 ''help {2}''을(를) 입력하십시오.</entry>
+  </message>
+</rsccat>

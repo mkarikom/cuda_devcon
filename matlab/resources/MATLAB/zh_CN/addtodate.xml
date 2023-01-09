@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Nargin">参数的数目无效。</entry>
+    <entry key="DateField">日期字段 "{0}" 无效。日期字段必须为 '{' {1}'}' 之一。</entry>
+    <entry key="InputDate">日期值必须为实数数值标量。</entry>
+    <entry key="InputQuantity">数量必须为小于或等于 10^16 的实数数值标量。</entry>
+    <entry key="InputDateField">日期字段必须为字符向量或字符串标量。</entry>
+    <entry key="NonIntegerValue">不支持非整数值的数量。{0} 将被截断为 {1,number,integer}。</entry>
+  </message>
+</rsccat>

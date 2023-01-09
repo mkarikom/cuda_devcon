@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Apply">应用</entry>
+    <entry key="ApplyingCombinedSelectionRules">应用合并的选择规则</entry>
+    <entry key="Cancel">取消</entry>
+    <entry key="ExpressionMustEvaluateToALogicalArray">表达式的计算结果必须为逻辑数组，</entry>
+    <entry key="Help">帮助</entry>
+    <entry key="InvalidColumnsEnteredForTimeSeries">为时序 {0} 输入的列无效。</entry>
+    <entry key="LengthMustBeAFiniteInteger">长度必须是 &gt;1 的有限整数，</entry>
+    <entry key="OK">确定</entry>
+    <entry key="Path">路径</entry>
+    <entry key="RestrictingRuleSelectionToSpecifiedColumns">规则选择限制为指定列</entry>
+    <entry key="SelectedColumns">所选列</entry>
+    <entry key="SelectFromyn">从(是/否)中选择?</entry>
+    <entry key="SelectDataUsingRules">使用规则选择数据</entry>
+    <entry key="SelectTheTimePlot">选择时间图</entry>
+    <entry key="SelectTheTimePlotAndTimeSeries">选择时间图和时序</entry>
+    <entry key="SpecifyDateTime">指定日期/时间</entry>
+    <entry key="TheCombinationOfTheSelectionRules">选择规则组合标识空集(未选定任何项)。</entry>
+    <entry key="TimeSeries">时序</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="DateStringsCanOnlyBeUsedForPlotsThatUseCalendarDates">Date character vectors can only be used for plots that use calendar dates.</entry>
+    <entry key="TimeBoundsMustBeValidDateStrings">Time bounds must be valid date character vectors.</entry>
+  </message>
+</rsccat>

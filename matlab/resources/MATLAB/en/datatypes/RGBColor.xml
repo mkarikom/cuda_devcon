@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="AmbiguousName" note="stringDatatypeUpdate">Color table contains several names that match the specified character vector.</entry>
+    <entry key="ParseError" note="stringDatatypeUpdate">Invalid color name or hexadecimal color code. Valid names include: 'red', 'green', 'blue', 'cyan', 'magenta', 'yellow', 'black', and 'white'. Valid hexadecimal color codes consist of '#' followed by three or six hexadecimal digits.</entry>
+    <entry key="ValueMustBe3ElementVector">Invalid RGB triplet. Specify a three-element vector of values between 0 and 1.</entry>
+    <entry key="isEqual">Unknown exception in RGBColor:isEqual</entry>
+  </message>
+</rsccat>

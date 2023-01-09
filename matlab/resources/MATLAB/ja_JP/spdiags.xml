@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidSizeBThreeInput">構文 spdiags(B,d,A) では、B のサイズは min(size(A)) 行 length(d) 列でなければなりません。</entry>
+    <entry key="InvalidSizeBFourInput">構文 spdiags(B,d,m,n) では、B のサイズは min(m,n) 行 length(d) 列でなければなりません。</entry>
+  </message>
+</rsccat>

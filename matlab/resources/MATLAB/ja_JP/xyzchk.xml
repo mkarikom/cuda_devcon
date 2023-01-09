@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonNumericInput">入力引数は数値でなければなりません。</entry>
+    <entry key="CAndZSizeMismatch">行列 C は、Z と同じサイズでなければなりません。</entry>
+    <entry key="lengthXAndYDoNotMatchSizeZ">X と Y の長さは、Z のサイズと一致しなければなりません。</entry>
+    <entry key="lengthXDoesNotMatchNumColumnsZ">X の長さは、Z の列数と一致しなければなりません。</entry>
+    <entry key="lengthYDoesNotMatchNumRowsZ">Y の長さは、Z の行数と一致しなければなりません。</entry>
+    <entry key="XAndYShapeMismatch">X と Y は、両方ともベクトル、または両方とも行列でなければなりません。</entry>
+    <entry key="XYAndZSizeMismatch">行列 X と Y は、Z と同じサイズでなければなりません。</entry>
+    <entry key="XYAndZShapeMismatch">Z がベクトルの場合、X と Y もベクトルでなければなりません。</entry>
+    <entry key="XYAndZLengthMismatch">X と Y は、Z と同じ長さでなければなりません。または、X と Y の長さは Z のサイズと一致しなければなりません。</entry>
+    <entry key="XIAndYISizeMismatch">XI と YI は、同じサイズ、または異なる方向のベクトルでなければなりません。</entry>
+  </message>
+</rsccat>

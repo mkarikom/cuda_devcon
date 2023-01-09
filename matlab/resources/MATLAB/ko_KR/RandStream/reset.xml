@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LegacySeedNotAllowed">레거시 스트림은 시드값을 사용하여 재설정할 수 없습니다.</entry>
+    <entry key="SeedNotAllowed">1보다 큰 NumStreams 값을 사용하여 생성된 스트림은 시드값을 사용하여 재설정할 수 없습니다.</entry>
+    <entry key="BadSeed">SEED는 2^32보다 작은 음이 아닌 정수 값이어야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2010-2021 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+  <message>
+    <entry key="DivideLengthIncorrect">The ''DIVIDE'' argument must evaluate to a row vector of length greater-than or equal-to ''W''. For more information, see ''parallel_function''.</entry><!-- unused -->
+    <entry key="DivideNotIncreasing">The ''DIVIDE'' argument must evaluate to a row vector of consecutive increasing integers between ''BASE'' and ''LIMIT''. For more information, see ''parallel_function''.</entry>
+    <entry key="ArgumentMissing">Incorrect number of input arguments. ''parallel_function'' expects ''RANGE'' and ''F'' arguments. For more information, see ''parallel_function''.</entry>
+    <entry key="InvalidArgumentRANGE">The ''RANGE'' argument must evaluate to a two element row vector of integers. For more information, see ''parallel_function''.</entry>
+    <entry key="InvalidArgumentReal">The ''BASE'' and ''LIMIT'' of the ''RANGE'' argument must be real numbers. For more information, see ''parallel_function''.</entry>
+    <entry key="InvalidArgumentInteger">The ''BASE'' and ''LIMIT'' of the ''RANGE'' argument must be integers. For more information, see ''parallel_function''.</entry>
+    <entry key="InvalidArgumentF">The ''F'' argument must be a function handle. For more information, see ''parallel_function''.</entry>
+    <entry key="InvalidArgument">The ''{0}'' argument must be a function handle or []. For more information, see ''parallel_function''.</entry>
+    <entry key="ArgumentNotSupplied">Incorrect number of arguments. If ''{0}'' is a function handle, ''{1}'' must be supplied. For more information, see ''parallel_function''.</entry>
+    <entry key="InvalidArgumentM">The ''M'' argument must be zero or a positive scalar integer. For more information, see ''parallel_function''.</entry>
+    <entry key="InvalidOutputArgument">Incorrect number of output arguments. At most 3 outputs are possible. For more information, see ''parallel_function''.</entry>
+    <entry key="InvalidArgsForThreeOutputs">Incorrect number of output arguments. Three output arguments require the ''REDUCE'' and the ''CONCAT'' input arguments. For more information, see ''parallel_function''.</entry>
+    <entry key="InvalidArgsForTwoOutputs">Incorrect number of output arguments. Two output arguments require the ''REDUCE'' or the ''CONCAT'' input argument. For more information, see ''parallel_function''.</entry>
+    <entry key="InvalidArgumentNumericDIVIDE">The ''DIVIDE'' argument must be a scalar integer greater than 0. For more information, see ''parallel_function''.</entry>
+    <entry key="InvalidArgumentFHandleDIVIDE">The function handle value of ''DIVIDE'' must take two or three arguments. For more information, see ''parallel_function''.</entry>
+    <entry key="InvalidArgumentDIVIDE">The ''DIVIDE'' argument must be a number, a function handle, or []. For more information, see ''parallel_function''.</entry>
+    <entry key="InvalidSecondArgument">Invalid argument for parfor. Second input argument for parfor must be the maximum number of workers specified as a nonnegative integer scalar or Inf, a set of parforOptions, or a parallel.Cluster object.</entry>
+    <entry key="maxWorkers">The maximum number of workers must be 0, a positive integer or Inf.</entry>
+    <entry key="sliced_function_handle">The sliced variable ''{0}'' must not be a function handle. To call the function handle in a parfor-loop, use "feval({1}, args)". For more information, see {2}.</entry>
+    <entry key="InvalidComposite">Composite objects are not supported in parfor-loops.</entry>
+    <entry key="SourceCodeNotAvailable">The source code ({0}) for the parfor-loop that is trying to execute on the worker could not be found.</entry>
+    <entry key="UndefinedFunctionOnWorker">An UndefinedFunction error was thrown on the workers for ''{0}''.  This might be because the file containing ''{1}'' is not accessible on the workers. Use addAttachedFiles(pool, files) to specify the required files to be attached.  For more information, see the documentation for ''parallel.Pool/addAttachedFiles''.</entry>
+
+    <!-- Begin New Front-End Runtime Error Messages -->
+    <entry key="range_not_consecutive">The range of the parfor-loop variable ''{0}'' must evaluate to a row vector of consecutive increasing integers. For more information, see {1}.</entry>
+    <entry key="range_must_be_row_vector">The range of the parfor-loop variable ''{0}'' must evaluate to a row vector. For more information, see {1}.</entry>
+    <entry key="range_endpoint">The endpoints of the parfor-loop variable range ''{0}'' must evaluate to integers. For more information, see {1}.</entry>
+    <entry key="InvalidParforLoopRangeStep">The range step of the parfor-loop variable range ''{0}'' must evaluate to the integer value 1. For more information, see {1}.</entry>
+    <entry key="range_exceeds_bounds">The parfor-loop variable ''{0}'' exceeds the supported range of the integer type in parfor-loops. For more information, see {1}.</entry>
+    <entry key="InvalidMixedNonDoubleParforLoopRange">The colon operands of the parfor-loop variable range ''{0}'' must all be the same type, or mixed with real scalar doubles. For more information, see {1}.</entry>
+    <entry key="InvalidNestedForLoopContext">Error: {0}When indexing the sliced variable ''{1}'' with the nested for-loop variable ''{2}'', the sliced variable must be inside a for-loop that defines the range of the for-loop variable. For more information, see {3}.</entry>
+    <entry key="InvalidMultipleNestedForLoopVariableDefintions">Error: {0}When indexing the sliced variable ''{1}'' with the nested for-loop variable ''{2}'', the for-loop variable must not be assigned other than by its for statement. For more information, see {3}</entry>
+    <entry key="InvalidNestedForLoopRangeDimensions">When indexing a sliced variable with the nested for-loop variable ''{0}'', the range of the for-loop variable must evaluate to a row vector. For more information, see {1}.</entry>
+    <entry key="InvalidNestedForLoopRangeValue">When indexing a sliced variable with the nested for-loop variable ''{0}'', the range of the for-loop variable must evaluate to a row vector of positive integers. For more information, see {1}.</entry>
+    <entry key="InvalidNestedForLoopRangeStep">When indexing a sliced variable with the nested for-loop variable ''{0}'', the range step of the for-loop variable range must evaluate to an integer. For more information, see {1}.</entry>
+    <entry key="InvalidNestedForLoopRangeEndpoint">When indexing a sliced variable with the for-loop variable ''{0}'', the endpoints of the for-loop variable range must evaluate to positive integers. For more information, see {1}.</entry>
+    <entry key="InvalidSlicedVariableOffset">When indexing the sliced variable ''{0}'', the sliced variable offset must evaluate to a constant integer. For more information, see {1}.</entry>
+    <entry key="InvalidMixedNonDoubleSlicedVariableOffset">When indexing a sliced variable with the offset value ''{0}'', the offset and the parfor-loop variable range must be the same type, or mixed with real scalar doubles. For more information, see {1}.</entry>
+    <entry key="UninitializedReductionVariable">The reduction variable ''{0}'' must be set before the parfor-loop. For more information, see {1}.</entry>
+    <!-- End New Front-End Runtime Error Messages -->
+
+    <!-- Begin New Front-End Static Error Messages -->
+    <entry key="InvalidNestedForLoopRange">Error: {0}When indexing the sliced variable ''{1}'', the range of the for-loop variable ''{2}'' must be a row vector of positive constant numbers or variables. For more information, see {3}.</entry>
+    <entry key="InvalidNestedForLoopVariableAssignment">Error: {0}Assigning to the for-loop variable ''{1}'' is not supported in parfor-loops. For more information, see {2}.</entry>
+    <entry key="InvalidNestedForLoopVariableIndexing">Error: {0}Indexing the for-loop variable ''{1}'' is not supported in parfor-loops. For more information, see {2}.</entry>
+    <entry key="AnsAsParforLoopVariable">Error: {0}Using ans as a parfor-loop variable is not supported. For more information, see {1}.</entry>
+    <entry key="AnsAsNestedForLoopVariable">Error: {0}Using ans as a for-loop variable is not supported in parfor-loops. For more information, see {1}.</entry>
+    <entry key="AnsAsReductionVariable">Error: {0}Using ans as a reduction variable is not supported in parfor-loops. For more information, see {1}.</entry>
+    <entry key="AnsAsSlicedVariable">Error: {0}Using ans as a sliced variable is not supported in parfor-loops. For more information, see {1}.</entry>
+    <entry key="InvalidSlicedOutputInsideAnonymousFunction">Error: {0}Using the sliced output variable ''{1}'' in an anonymous function is not supported in parfor-loops. For more information, see {2}.</entry>
+    <entry key="InvalidReductionOperationAssignment">Error: {0}Assigning to the reduction function ''{1}'' of a reduction statement is not supported in parfor-loops. For more information, see {2}.</entry>
+    <entry key="InvalidLoadFunctionCall">Error: {0}Using a load function that does not assign to an output variable is not supported in parfor-loops. For more information, see {1}.</entry>
+    <entry key="InvalidInputnameFunctionCall">Error: {0}Using inputname is not supported in parfor-loops. For more information, see {1}.</entry>
+    <entry key="InvalidBroadcastSlicedVariableArgument">When indexing the sliced variable ''{0}'' with the broadcast variable ''{1}'', the broadcast variable must evaluate to positive integers or logical values. For more information, see {2}.</entry>
+    <!-- End New Front-End Static Error Messages -->
+  </message>
+</rsccat>

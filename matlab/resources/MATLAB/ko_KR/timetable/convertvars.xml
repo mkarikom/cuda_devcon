@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RowLabelsCannotBeDataVar">행 시간값은 데이터 변수로 사용할 수 없습니다.</entry>
+    <entry key="RowLabelsCannotBeDataVarNondefaultName">''{0}''은(는) 인식할 수 없는 변수 이름입니다. 이 테이블의 ''{1}''(으)로 명명된 행 시간값에 액세스하려고 했을 수 있습니다. 그러나 행 시간값은 데이터 변수로 사용할 수 없습니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="IncorrectInputMultiSelectValue" note="stringDatatypeUpdate">The MultiSelect parameter value must be a character vector specifying on/off.</entry>
+    <entry key="IncorrectInputLocationValue">The Location parameter value must be a 2 element vector.</entry>
+    <entry key="IncorrectInputUnrecognizedArgs">Unrecognized input arguments.</entry>
+    <entry key="IncorrectInputTitleString" note="stringDatatypeUpdate">TITLE argument must be a character vector.</entry>
+    <entry key="IncorrectInputStartPathString" note="stringDatatypeUpdate">STARTPATH argument must be a character vector.</entry>
+    <entry key="IncorrectInputFilterSpecSize" note="stringDatatypeUpdate">FILTERSPEC argument must be a character vector or an M by 1 or M by 2 cell array.</entry>
+    <entry key="IncorrectInputFilterSpecString" note="stringDatatypeUpdate">All elements of FILTERSPEC cell array must be character vectors.</entry>
+    <entry key="IncorrectInputFileString" note="stringDatatypeUpdate">File argument must be a character vector.</entry>
+    <entry key="IncorrectInputNumericY">Y argument must be numeric</entry>
+    <entry key="IncorrectInputNumericX">X argument must be numeric</entry>
+    <entry key="IncorrectInputPosition">Both X and Y arguments must be specified for the position.</entry>
+    <entry key="ObsoletedSyntax">This syntax has been obsoleted. Please refer to help or documentation for new syntax.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="StringConversion">入力タイプを System.String タイプに変換中にエラーが発生しました。</entry>
+    <entry key="DecimalConversion">入力タイプを System.Decimal タイプに変換中にエラーが発生しました。</entry>
+    <entry key="ObjectConversion">入力タイプを System.Object タイプに変換中にエラーが発生しました。</entry>
+    <entry key="VectorConversion">入力タイプを System.Array タイプに変換中にエラーが発生しました。</entry>
+    <entry key="DelegateConversion">入力タイプを ''{0}'' に変換中にエラーが発生しました。</entry>
+    <entry key="CharArrayConversion">入力タイプを System.Char[] タイプに変換中にエラーが発生しました。</entry>
+    <entry key="NullableTypeConversion">入力タイプを ''{0}'' に変換中にエラーが発生しました。</entry>
+    <entry key="ArrayTypeConversion">入力タイプを {0} に変換中にエラーが発生しました。</entry>
+    <entry key="ObjectArrayConversion">入力タイプを {0} に変換中にエラーが発生しました。入力タイプはセル配列、System.Object Array、または空の double でなければなりません。</entry>
+    <entry key="StringArrayConversion">入力タイプを {0} に変換中にエラーが発生しました。入力タイプは cell 配列、MATLAB string 配列、System.String Array、または空の double でなければなりません。</entry>
+    <entry key="InvalidCellElement">入力 cell 配列は、System.String オブジェクト、MATLAB string、または MATLAB char 配列のみを含まなければなりません。</entry>
+    <entry key="UnsupportedCellElement">入力セル配列には、サポートされていないタイプが 1 または複数含まれています。サポートされるタイプについては、「&lt;a href="matlab: helpview([docroot '/techdoc/matlab_external/matlab_external.map'],'supported_cell_types_for_net')"&gt;Passing Cell Arrays to .NET&lt;/a&gt;」を参照してください。</entry>
+    <entry key="NonRectJaggedArray">入力タイプを {0} に変換中にエラーが発生しました。入力は矩形形状のジャグ配列でなければなりません。&lt;a href="matlab: helpview([docroot '/techdoc/ref/ref.map'],'cell_ref_page')"&gt;cell&lt;/a&gt; を呼び出すことを検討してください。</entry>
+    <entry key="UndefinedConversion">{1} から {0} に変換できません。詳細は、「&lt;a href="matlab:helpview([docroot '/techdoc/matlab_external/matlab_external.map'],'allowed_jagged_types_for_conversion')"&gt;「Converting .NET Jagged Arrays to MATLAB Arrays (.NET ジャグ配列の MATLAB 配列への変換)&lt;/a&gt;」を参照してください。</entry>
+    <entry key="COMConversion">{0}</entry>
+    <entry key="NullableConversion">{0}</entry>
+  </message>
+</rsccat>

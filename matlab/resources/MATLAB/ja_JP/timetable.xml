@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoTimeVector">timetable を作成するには、datetime または duration の行時間ベクトル、duration または calendarDuration のタイム ステップ、または正の数値のサンプルレートを指定してください。</entry>
+    <entry key="NoTimeVectorTableInput">timetable を作成するには、行時間の datetime ベクトルまたは duration ベクトルを指定してください。table を timetable に変換するには、TABLE2TIMETABLE を使用してください。</entry>
+    <entry key="StringParamNameNotSupported">"{0}" でパラメーター名を指定しようとした可能性があります。しかし、timetable コンストラクターでは、パラメーター名を文字ベクトルとして指定する必要があります。代わりに timetable(..., ''{0}'', Value) を使用してください。</entry>
+    <entry key="NoTimeVectorPreallocation">指定されたサイズに timetable を事前に割り当てる場合は、行時間ベクトル、タイム ステップまたはサンプルレートを指定してください。</entry>
+    <entry key="InvalidTimes">添字を付ける時間を datetime または duration として指定してください。</entry>
+    <entry key="InvalidRowTimes">行時間は datetime ベクトルまたは duration ベクトルでなければなりません。</entry>
+    <entry key="MixedRowTimesAssignment">新しい行時間は {0} ベクトルでなければなりません。</entry>
+    <entry key="InvalidRowSubscriptsDatetime">timetable の行の添字は、数値、logical または datetime の配列、または timerange サブスクリプターでなければなりません。</entry>
+    <entry key="InvalidRowSubscriptsDuration">timetable の行の添字は、数値、logical または duration の配列、または timerange サブスクリプターでなければなりません。</entry>
+    <entry key="InvalidRowIndicesDuration">数値配列インデックスは正の整数でなければなりません。timetable の行を時間で選択する場合は、DURATION、MILLISECONDS、SECONDS、MINUTES、HOURS、DAYS、または YEARS を使用して数値から duration に変換します。</entry>
+    <entry key="CannotRemoveRowTimes">timetable からの行時間の削除はサポートされていません。</entry>
+    <entry key="IncorrectNumberOfRowTimes">RowTimes プロパティには timetable の行ごとに時間を 1 つ指定しなければなりません。</entry>
+    <entry key="IncorrectNumberOfRowTimesPartial">RowTimes プロパティには再度割り当てられる行ごとに時間を 1 つ指定しなければなりません。</entry>
+    <entry key="UnrecognizedRowTime">timetable に時間 ''{0}'' の行が含まれていません。</entry>
+    <entry key="IncompatibleLoad">このバージョンの MATLAB と互換性がないため、保存した timetable を読み込むことができません</entry>
+    <entry key="IncompatibleLoadProperties">このバージョンの MATLAB と互換性がないため、保存した TimetableProperties を読み込むことができません</entry>
+    <entry key="RowLabelsTypeMismatch">行時間が {0} の timetable と行時間が {1} の timetable の連結はサポートされていません。</entry>
+    <entry key="RowDimNameNondefault">timetable の変数名 ''{0}'' が認識されません。行時間にアクセスする場合は、この timetable で代わりに ''{1}'' を使用してください。</entry>
+    <entry key="RowDimNameCase">timetable の変数名 ''{0}'' が認識されません。名前は大文字と小文字を区別します。timetable の行時間に ''{1}'' としてアクセスしようとした可能性があります。</entry>
+    <entry key="RowTimesParamConflict">行時間ベクトル、タイム ステップまたはサンプルレートのいずれか 1 つのみを指定してください。</entry>
+    <entry key="TimeStepSampleRateConflict">タイム ステップをスカラーの duration または calendarDuration として指定するか、サンプルレートを正のスカラーとして指定してください。</entry>
+    <entry key="InvalidSampleRate">サンプルレートは、Hz 単位で指定された正の数値スカラーでなければなりません。</entry>
+    <entry key="InvalidTimeStep">タイム ステップはスカラーの duration または calendarDuration でなければなりません。</entry>
+    <entry key="InvalidTimeStepNumeric">タイム ステップはスカラーの duration または calendarDuration でなければなりません。SECONDS、MINUTES、HOURS、DAYS、または YEARS を使用して数値を duration に変換するか、CALDAYS、CALWEEKS、CALMONTHS、CALQUARTERS、または CALYEARS を使用して calendarDuration に変換してください。</entry>
+    <entry key="InvalidStartTime">開始時間はスカラーの duration または datetime でなければなりません。</entry>
+    <entry key="InvalidStartTimeNumeric">開始時間はスカラーの duration または datetime でなければなりません。SECONDS、MINUTES、HOURS、DAYS、または YEARS を使用して数値を duration に変換するか、DATETIME を使用して変換してください。</entry>
+    <entry key="DurationStartTimeWithCalDurTimeStep">タイム ステップが calendarDuration の場合は、開始時間を datetime として指定してください。</entry>
+    <entry key="ImpureCalDurTimeStep">calendarDuration のタイム ステップは、日数や月数などのカレンダー単位 1 つのみで構成されていなければなりません。CALDAYS、CALWEEKS、CALMONTHS、CALQUARTERS、または CALYEARS を使用して、calendarDuration のタイム ステップを作成してください。</entry>
+    <entry key="SamplingRateToBeRemoved">''SamplingRate'' は将来のリリースで削除される予定です。代わりに ''SampleRate'' を使用してください。</entry>
+    <entry key="ts2timetable">TS2TIMETABLE を使用して timeseries オブジェクトを timetable に変換してください。</entry>
+    <entry key="extractTimetable">To construct a timetable, specify both data and duration row times vector, a duration or calendarDuration time step, or a positive numeric sample rate to create timetable. If you meant to construct a timetable from the signals in a Simulink.SimulationData.Dataset, use EXTRACTTIMETABLE.</entry>
+    <entry key="IrregularRowTimesAssignment">等間隔の RowTimes と非等間隔の行時間との切り替えは、コード生成でサポートされていません。</entry>
+    <entry key="UnsupportedDatetimeRowTimes">行時間を datetime ベクトルとして指定することは、コード生成でサポートされていません。代わりに、行時間を duration ベクトルとして指定してください。</entry>
+    <entry key="UnsupportedDatetimeStartTime">開始時間を datetime スカラーとして指定することは、コード生成でサポートされていません。代わりに、開始時間を duration スカラーとして指定してください。</entry>
+    <entry key="UnsupportedMethodCodegen">コード生成では、timetable に対して {0} メソッドがサポートされていません。</entry>
+    <entry key="CannotBeImplicit">規則的な行時間を作成できません。指定された開始時間、タイム ステップ、またはサンプル レートが非有限であるか、タイム ステップが開始時間に対して小さすぎるか、あるいはサンプル レートが大きすぎます。</entry>
+    <entry key="InvalidRowTimesType">RowTimes の型は datetime 列または duration 列でなければなりません。</entry>
+    <entry key="IncorrectRowTimesTypeLength">RowTimes の型の長さは、timetable の高さと同じでなければなりません。coder.resize を使用して timetable の高さを変更してください。</entry>
+    <entry key="InvalidStartTimeType">StartTime の型は datetime スカラーまたは duration スカラーでなければなりません。</entry>
+    <entry key="InvalidSampleRateType">SampleRate の型は double スカラーでなければなりません。</entry>
+    <entry key="InvalidTimeStepType">TimeStep の型は duration スカラーでなければなりません。</entry>
+    <entry key="StringParamNameNotSupportedCodegen">You might have intended "{0}" to specify a parameter name. However, the timetable constructor requires parameter names to be specified as character vectors, and Name=Value is not supported in code generation. Use timetable(..., ''{0}'', Value) instead.</entry>
+  </message>
+</rsccat>

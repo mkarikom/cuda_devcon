@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="firstInputMustBe2D">첫 번째 입력값은 2차원이어야 합니다.</entry>
+    <entry key="kthDiagInputNotInteger">K번째 대각선 입력값은 정수 스칼라여야 합니다.</entry>
+    <entry key="kthDiagInputNotFinite">K번째 대각선 입력값은 DIAG의 벡터 입력 형식에 대해 유한한 값이어야 합니다.</entry>
+  </message>
+</rsccat>

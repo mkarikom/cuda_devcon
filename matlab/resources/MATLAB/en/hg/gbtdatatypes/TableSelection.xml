@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2019 - 2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <entry key="InvalidCellSelection">Selection indices for cells must be a N-by-2 numeric array.</entry>
+        <entry key="InvalidRowSelection">Selection indices for rows must be a 1-by-N numeric array.</entry>
+        <entry key="InvalidColumnSelection">Selection indices for columns must be a 1-by-N numeric array.</entry>
+        <entry key="SelectionOutOfBoundary">Selection indices are out of data boundary.</entry>
+        <entry key="InvalidSingleSelection">When 'Multiselect' is 'off', 'Selection' must be empty, or a scalar number for 'row' and 'column' selection type, or a 1-by-2 numeric array for 'cell' selection type.</entry>
+    </message>
+</rsccat>

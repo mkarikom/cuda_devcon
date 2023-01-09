@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DiagZeroColZeroBreakdown">入力は、構造的にゼロでない対角を使用して構造的に非特異でなければいけません。</entry>
+    <entry key="Breakdown">非正のピボットがありました。</entry>
+    <entry key="FirstArgNotSparse">1 番目の引数はスパースでなければなりません。</entry>
+    <entry key="FirstArgNotDouble">1 番目の引数は倍精度でなければなりません。</entry>
+    <entry key="SecondArgNotStruct">2 番目の引数はオプション構造体でなければなりません。</entry>
+    <entry key="StructTooManyFields">1 つのオプション構造体にあるフィールド数が多すぎます。</entry>
+    <entry key="StructTypeNotString">type フィールドは、''nofill'' または ''ict''でなければなりません。</entry>
+    <entry key="StructMicholNotChar">修正オプションは ''on'' または ''off'' でなければなりません。</entry>
+    <entry key="StructDropTolNonNumeric">棄却許容値は数値でなければなりません。</entry>
+    <entry key="StructDropTolNotReal">棄却許容値は実数でなければなりません。</entry>
+    <entry key="StructDropTolNotScalar">棄却許容値はスカラーでなければなりません。</entry>
+    <entry key="StructDropTolNeg">棄却許容値は非負でなければなりません。</entry>
+    <entry key="StructShapeNotString">shape フィールドは、''lower'' または ''upper'' でなければなりません。</entry>
+    <entry key="StructDiagCompNonNumeric">対角補償器パラメーターは数値でなければなりません。</entry>
+    <entry key="StructDiagCompNotReal">対角補償器パラメーターは実数でなければなりません。</entry>
+    <entry key="StructDiagCompNotScalar">対角補償器パラメーターはスカラーでなければなりません。</entry>
+    <entry key="StructDiagCompNeg">対角補償器パラメーターは非負でなければなりません。</entry>
+    <entry key="InvalidField">オプション構造体のフィールド {0} が無効です。</entry>
+  </message>
+</rsccat>

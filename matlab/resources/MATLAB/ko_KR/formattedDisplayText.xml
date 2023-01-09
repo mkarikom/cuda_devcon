@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RequireCell">{0} 옵션을 사용할 경우 입력 배열은 셀형 배열이어야 합니다.</entry>
+    <entry key="RequireLogical">{0} 옵션을 사용할 경우 입력 배열은 논리형이어야 합니다.</entry>
+    <entry key="RequireText">{0} 옵션을 사용할 경우 입력 배열은 string형이거나 문자형이어야 합니다.</entry>
+    <entry key="DigitGroupSeparatorWrongFormat">The current display format is {0} but the {1} option can only be used with the following formats:{2}</entry>
+  </message>
+</rsccat>

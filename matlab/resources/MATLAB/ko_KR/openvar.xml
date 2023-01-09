@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TheVariableEditorNotSupported">Swing을 현재 사용할 수 없으므로 변수 편집기는 지원되지 않습니다.</entry>
+    <entry key="VariableNameAsString">VariableEditor에 대한 첫 번째 인수는 문자형 벡터여야 합니다.</entry>
+    <entry key="InvalidVariableName">VariableEditor의 첫 번째 인수는 유효한 변수 이름이어야 합니다.</entry>
+    <entry key="LocationMustBeNumericVector">위치는 1x2 숫자형 벡터여야 합니다: [X, Y]</entry>
+    <entry key="NonExistentVariable">변수 ''{0}''이(가) 지정된 작업 공간에 존재하지 않습니다.</entry>
+  </message>
+</rsccat>

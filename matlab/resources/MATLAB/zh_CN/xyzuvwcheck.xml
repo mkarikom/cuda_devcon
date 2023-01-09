@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UVWSizeMismatch">体数据参数的大小必须都相同。</entry>
+    <entry key="UVWNot3D">体数据参数必须为三维数组。</entry>
+    <entry key="UVWPlanar">体数据参数的大小必须为 2×2×2 或更大。</entry>
+    <entry key="XYZMixedEmpty">Volume data arguments must be all empty or all non-empty.</entry>
+    <entry key="XUSizeMismatch">x 坐标参数的大小必须与体数据参数的列大小(列数)相匹配。</entry>
+    <entry key="YUSizeMismatch">y 坐标参数的大小必须与体数据参数的行大小(行数)相匹配。</entry>
+    <entry key="ZUSizeMismatch">z 坐标参数的大小必须与体数据参数的页大小(页数)相匹配。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badMessageArgument">消息标识符必须后跟字符向量或字符串标量形式的消息。</entry>
+    <entry key="identifierTooLong">指定的标识符的长度大于允许的最大字符数 {0,number,integer}。</entry>
+    <entry key="invalidMessageType">必须将消息指定为字符向量、字符串标量或消息结构体。</entry>
+    <entry key="missingMessageArgument">如果您指定消息标识符参数，则还必须指定消息文本参数。</entry>
+    <entry key="nonScalarInput">格式化参数必须为标量。</entry>
+    <entry key="unexpectedArguments">输入参数不允许出现在信息结构体输入之后。</entry>
+  </message>
+</rsccat>

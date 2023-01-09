@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RequireNetObject">첫 번째 인수는 유효한 .NET 객체여야 합니다.</entry>
+    <entry key="InvalidCast">''{0}'' 유형의 객체를 ''{1}'' 유형의 객체로 변환할 수 없습니다.\n입력 객체가 변환을 위해 지정된 인터페이스 유형을 구현하는지 확인하십시오.</entry>
+    <entry key="ValueTypeUnsupported">값 유형 객체를 인터페이스 유형으로 변환할 수 없습니다.</entry>
+    <entry key="UnsupportedInterfaceEvents">이벤트 리스너를 인터페이스 유형의 객체에 추가할 수 없습니다.</entry>
+    <entry key="UnsupportedInterfaceConversion">인터페이스를 구현하는 객체를 변환할 수 없습니다.</entry>
+    <entry key="UnsupportedClassToClass">객체를 다른 클래스의 객체로 변환할 수 없습니다.</entry>
+    <entry key="UnsupportedClassToGeneric">객체를 .NET 일반 유형으로 변환할 수 없습니다.</entry>
+  </message>
+</rsccat>

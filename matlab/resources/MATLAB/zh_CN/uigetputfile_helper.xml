@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WrongType">为 uigetputfile 输入的类型不正确。</entry>
+    <entry key="xyobsolete">使用 ''x'' 和 ''y'' 作为位置参数已过时，将被忽略。</entry>
+    <entry key="locationobsolete">''Location'' 已过时，将被忽略。</entry>
+    <entry key="badmultiselect">''MultiSelect'' 的有效值为 ''on'' 和 ''off''。</entry>
+    <entry key="multiselectgetonly">''MultiSelect'' 只能在打开文件时使用。</entry>
+  </message>
+</rsccat>

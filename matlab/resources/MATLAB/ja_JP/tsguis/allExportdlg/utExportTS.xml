@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ErrorWritingToExcelWorkbook">Excel ワークブックの書き込みエラー</entry>
+    <entry key="TimeSeriesObjectName">Time Series オブジェクト名</entry>
+    <entry key="TimeVectorCharacteristics">時間ベクトル特性</entry>
+    <entry key="Length">長さ</entry>
+    <entry key="StartDate">開始日</entry>
+    <entry key="EndDate">終了日</entry>
+    <entry key="StartTime">開始時間</entry>
+    <entry key="EndTime">終了時間</entry>
+    <entry key="ReferenceStartDate">参照開始日</entry>
+    <entry key="DataCharacteristics">データ特性</entry>
+    <entry key="InterpolationMethod">内挿法</entry>
+    <entry key="Time">時間</entry>
+    <entry key="Data">データ</entry>
+    <entry key="XLSWRITEReturnedWarning">XLSWRITE は警告を返しました</entry>
+    <entry key="CouldNotWriteTimeseriesHeaderInfo">時系列のヘッダー情報を書き込めません。 </entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="SampleSize">SampleSize</entry>
+  </message>
+</rsccat>

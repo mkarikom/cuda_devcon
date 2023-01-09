@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!-- Copyright 2016-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="badArray">Invalid data type. First argument must be a numeric or logical array, a table, or a timetable.</entry>
+    <entry key="nonNumericTableVar">Table variables must be numeric.</entry>
+    <entry key="complexIntegers">Invalid data type. Complex inputs must be double or single arrays.</entry>
+    <entry key="invalidMethod">Smoothing method must be ''movmean'', ''movmedian'', ''gaussian'', ''lowess'', ''loess'', ''rlowess'', ''rloess'', or ''sgolay''.</entry>
+    <entry key="invalidWinsize">Window length must be a positive numeric or duration scalar or a 2-element numeric or duration vector.</entry>
+    <entry key="invalidNanflag">NaN condition must be ''omitnan'' or ''includenan''.</entry>
+    <entry key="invalidSamplePoints">''SamplePoints'' value must be a numeric, datetime, or duration vector.</entry>
+    <entry key="invalidSmoothingFactor">''SmoothingFactor'' value must be a numeric scalar between 0 and 1.</entry>
+    <entry key="invalidNVPair">Parameter name must be ''SamplePoints'' or ''SmoothingFactor''.</entry>
+    <entry key="invalidNVPairTable">Parameter name must be ''SamplePoints'', ''SmoothingFactor'', or ''DataVariables''.</entry>
+    <entry key="invalidNVPairSGolay">Parameter name must be ''SamplePoints'', ''SmoothingFactor'', or ''Degree''.</entry>
+    <entry key="invalidNVPairTableSGolay">Parameter name must be ''SamplePoints'', ''SmoothingFactor'', ''DataVariables'', or ''Degree''.</entry>
+    <entry key="methodAfterOptions">Method must come before Name-Value pairs.</entry>
+    <entry key="nanflagAfterOptions">NaN condition must come before Name-Value pairs.</entry>
+    <entry key="duplicateNanflag">Invalid option combination. Specify NaN condition once.</entry>
+    <entry key="nameNoValue">Incorrect number of input arguments. ''{0}'' must be followed by a corresponding value.</entry> 
+    <entry key="tuneAndWindow">''SmoothingFactor'' is not supported when the window length is specified.</entry>
+    <entry key="winsizeNotDuration">Invalid data type. Window length must be a duration if the ''SamplePoints'' values are {0}.</entry>
+    <entry key="winsizeIsDuration">Invalid data type. Window length must be numeric or logical if the ''SamplePoints'' values are numeric.</entry>
+    <entry key="noComplexWindows">Window length must be real.</entry>
+    <entry key="needsFiniteWindows">Window length must be finite.</entry>
+    <entry key="noComplex">{0} value must be real.</entry>
+    <entry key="needsFinites">{0} value must be finite.</entry>
+    <entry key="noSparseSamplePoints">Sparse ''SamplePoints'' values are not supported.</entry>
+    <entry key="SamplePointsLength">''SamplePoints'' value must be a vector of the same length as the input argument.</entry>
+    <entry key="SamplePointsDuplicate">{0} values must be unique.</entry>
+    <entry key="SamplePointsSorted">{0} values must be sorted in ascending order.</entry>
+    <entry key="negativeDegree">''Degree'' value must be a positive integer.</entry>
+    <entry key="degreeNoSgolay">''Degree'' value is only supported when the method is 'sgolay'.</entry>
+    <entry key="degreeAutoClash">''Degree'' value was larger than the maximum number of points in any window ({0,number,integer}) and was decreased to {1,number,integer}.</entry>
+    <entry key="degreeTooLarge">''Degree'' value must be less than the largest number of points in any window ({0,number,integer}).</entry>
+    <entry key="noDimForTable">Dimension is not supported when first argument is a table or timetable.</entry>
+    <entry key="DataVariablesArray">''DataVariables'' parameter is only supported for table and timetable inputs.</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' function handle must return a logical scalar.</entry>
+    <entry key="DataVariablesTableSubscript">Invalid ''DataVariables'' value.</entry>
+    <entry key="SamplePointsTimeTable">''SamplePoints'' parameter is not supported for timetable inputs.</entry>
+    <!-- Error messages for hidden builtins -->
+    <entry key="invalidWeighting">Weighting indicator must be a scalar logical.</entry>
+    <entry key="invalidRobust">Dimensions of robust weights must match the dimensions of the input array.</entry>
+    <entry key="invalidSigma">Gaussian width must be a positive scalar.</entry>
+    <entry key="noSparseInternal">{0} must be full.</entry>
+    <!-- Error messages for codegen -->
+    <entry key="badArrayCodeGen">Invalid data type. First argument must be a numeric or logical array, or a table.</entry>
+    <entry key="complexInputWithoutWindow">Window size must be specified for complex data in code generation.</entry>
+    <entry key="methodMustBeConstant">Method argument must be constant for code generation.</entry>
+    <entry key="noWindowDatetimeSP">Window size must be specified for code generation if sample points are datetimes.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Abort">中止</entry>
+    <entry key="AVariableAlreadyExists">名前 ''{0}'' をもつ変数が既にワークスペース内に存在します。既存の変数に上書きするか、この操作を中止しますか?</entry>
+    <entry key="CurrentTimeNonuniform">現在の時間: 不等間隔 {0} - {1} {2}</entry>
+    <entry key="CurrentTimeTo">現在の時間:{0} - {1}</entry>
+    <entry key="CurrentTimeUniform">現在の時間:等間隔 {0} - {1} {2}</entry>
+    <entry key="Description">説明</entry>
+    <entry key="DuplicatedVariableDetected">重複する変数が検出されました</entry>
+    <entry key="ImportTimeSeries">MATLAB ワークスペースから時系列/コレクションをインポート</entry>
+    <entry key="ImportRawData">生データのインポート...</entry>
+    <entry key="ImportWorkspaceObjects">ワークスペース オブジェクトのインポート...</entry>
+    <entry key="ListAllValid">メインの時系列ノード下の TSTOOL GUI で現在許可されているすべての有効な時系列データ オブジェクト (非 Simulink) のリスト。</entry>
+    <entry key="Members">{0,number,integer} メンバー</entry>
+    <entry key="Name">名前</entry>
+    <entry key="NamedSlashesAreNotAllowed">インポートするオブジェクト名にスラッシュ (''/'') は使用できません。''{0}'' からスラッシュを削除して、{1} をインポートしてください。</entry>
+    <entry key="NewChildNode">新規子ノード</entry>
+    <entry key="NonUniformlySampled">等間隔でないサンプル</entry>
+    <entry key="ObjectsHaveBeenExportedToTheBaseWorkspace">オブジェクトはベース ワークスペースにエクスポートされました。</entry>
+    <entry key="Overwrite">上書き</entry>
+    <entry key="Paste">貼り付け...</entry>
+    <entry key="Remove">削除</entry>
+    <entry key="SelectTheRowCorrespondingToTheObjectsYouWantToExport">エクスポートするオブジェクトに対応する行を選択してください。</entry>
+    <entry key="SlashesNotAllowed">インポートするオブジェクト名にスラッシュ (''/'') は使用できません。インポートする前に ''{0}'' からスラッシュを削除してください。</entry>
+    <entry key="TheTscollectionCannotBeImported">名前 {0} をもつ tscollection は、null の時間ベクトルをもち、インポートできません</entry>
+    <entry key="TimeseriesOneWord">時系列</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="TimeseriesWith10000ColumnsCannotBeUsed">10000 を超える列をもつ時系列は tstool で使用できません。インポートする前にデータの転置または列数の制限を試してください。</entry>
+    <entry key="TimeVector">時間ベクトル</entry>
+    <entry key="Type">タイプ</entry>
+    <entry key="UniformlySampled">インクリメント = {0} での等間隔サンプル</entry>
+    <entry key="CopyNumberOf">Copy_{0,number,integer}_of_{1}</entry>
+    <entry key="CopyOf">Copy_of_{0}</entry>
+    <entry key="Tscollection">Tscollection ({0})</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="notInAfunction">呼び出しサイト情報は、アクティブな関数内になければ返すことができません。</entry>
+    <entry key="notSupportedInScript">スクリプトからの matlab.internal.lang.getCallSiteInfo の呼び出しはサポートされていません。</entry>
+  </message>
+</rsccat>

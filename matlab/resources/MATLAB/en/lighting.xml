@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NeedAxesHandle">First argument must be an axes handle.</entry>
+    <entry key="HandleMustBeScalar">Axes handle must be a scalar</entry>
+    <entry key="InputMustBeHandle">First argument must be an axes handle.</entry>
+    <entry key="InvalidLightingMethod">Lighting methods are none, flat, and gouraud.</entry>
+  </message>
+</rsccat>

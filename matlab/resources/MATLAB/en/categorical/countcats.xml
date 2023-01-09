@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="DimArgRequired">For code generation, specify the array dimension as the second input argument. If the categorical array is a row vector, then use the syntax countcats(C,2). If it is a column vector, then use countcats(C,1).</entry>
+  </message>
+</rsccat>

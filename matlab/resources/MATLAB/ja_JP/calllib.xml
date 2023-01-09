@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NameAndFunctionNeeded">ライブラリ名と関数名の両方の関数を呼び出す必要があります。</entry>
+    <entry key="InvalidReturnType">関数出力タイプはサポートされていません。</entry>
+    <entry key="Unsupported">共有ライブラリの呼び出しは、このプラットフォームでサポートされません。</entry>
+    <entry key="StdUnsupported">std の呼び出しは、このプラットフォームでサポートされません。</entry>
+    <entry key="NotFound">ライブラリが見つかりません</entry>
+    <entry key="MethodNotFound">メソッドが見つかりません。</entry>
+    <entry key="AccessNotAllowed">メソッドへのアクセスは許可されていません。</entry>
+    <entry key="MethodNotStatic">インスタンス メソッドは、静的メソッドとして呼び出せません。</entry>
+    <entry key="NoMatchingSignatureFound">シグネチャと一致するメソッドがありません。</entry>
+  </message>
+</rsccat>

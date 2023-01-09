@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidColor">无效颜色。将颜色指定为颜色名称、RGB 三元组，或者为每一行是一个 RGB 三元组的矩阵。</entry>
+    <entry key="isEqual">GraphColor:isEqual 出现未知异常</entry>
+  </message>
+</rsccat>

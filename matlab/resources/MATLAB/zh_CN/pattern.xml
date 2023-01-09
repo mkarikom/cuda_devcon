@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BackreferenceNotSupported">regexpPattern 中不支持反向引用。</entry>
+    <entry key="CannotConvertMissingToPattern">不支持将元素 {0} 从 &lt;missing&gt; 转换为模式。</entry>
+    <entry key="ConditionalReferenceNotSupported">regexpPattern 中不支持条件引用。</entry>
+    <entry key="DimensionMismatch">{0} 参数的维度必须与模式参数的维度匹配或为 1。</entry>
+    <entry key="InvalidBoundaryOption">选项必须为 'start'、'end' 或 'either'。</entry>
+    <entry key="InvalidAssignmentDimensions">右侧的每个维度必须为 1 或与左侧的维度匹配。</entry>
+    <entry key="InvalidLimitRange">最小值限定符 {0} 必须小于或等于最大值限定符 {1}。</entry>
+    <entry key="InvalidRangeInput">范围的 {0} 只能包含一个字符。</entry>
+    <entry key="InvalidRangeChar">范围的开始必须早于范围的结束。</entry>
+    <entry key="InvalidPatternName">模式名称必须为有效的 MATLAB 标识符。</entry>
+    <entry key="MaskConflict">一个作用域内相同的掩码显示名必须包含相同的模式。</entry>
+    <entry key="MaskedPatterns">掩码模式</entry>
+    <entry key="Matching">匹配</entry>
+    <entry key="MatchingWithHole">匹配 {0}</entry>
+    <entry key="MissingName">如果在创建命名模式时没有指定名称，则该模式必须为工作区变量。</entry>
+    <entry key="MissingMask">如果在创建掩码模式时没有指定掩码，则该模式必须是工作区变量。</entry>
+    <entry key="MustBeNonnegativeInteger">{0} 必须为非负整数。</entry>
+    <entry key="MustBeNonnegativeIntegerScalar">{0} 必须为非负整数标量。</entry>
+    <entry key="MustBePattern">{0} 必须为模式数组。</entry>
+    <entry key="MustBeStruct">{0} 必须为结构体数组。</entry>
+    <entry key="MustBeTextOrPattern">{0} 必须为文本或模式。</entry>
+    <entry key="MustBeTextOrPatternScalar">{0} 必须为文本或模式标量。</entry>
+    <entry key="NameConflict">一个作用域内相同的名称必须包含相同的模式。</entry>
+    <entry key="NamedPatternDetails">命名模式详细信息</entry>
+    <entry key="NOTOperationNotSupported">边界模式仅支持一元运算符 ''~''。</entry>
+    <entry key="ShowAllDetails">显示所有详细信息</entry>
+    <entry key="ShowMoreDetails">显示更多详细信息</entry>
+    <entry key="UsingNamedPatterns">使用命名模式</entry>
+    <entry key="UseDetailsToShowMore">使用 {0} 显示更多详细信息</entry>
+    <entry key="UnableToLoadPattern">无法加载模式变量。</entry>
+    <entry key="UnableToLoadPatternArgument">由于函数 ''{0}'' 的参数未知，无法加载模式变量。此模式可能是用更高版本的 MATLAB 保存的。</entry>
+    <entry key="UnableToLoadPatternValue">由于函数 ''{0}'' 的参数值无效，无法加载模式变量。此模式可能是用更高版本的 MATLAB 保存的。</entry>
+    <entry key="UnableToLoadPatternFunction">由于函数 ''{0}'' 未知，无法加载模式变量。此模式可能是用更高版本的 MATLAB 保存的。</entry>
+    <entry key="UndefinedName">引用了不存在的名称 ''{0}''。</entry>
+    <entry key="ShowDetailsInvalidValue">无法显示变量 {0} 的详细信息，因为它不再是模式标量。</entry>
+    <entry key="ShowDetailsNoLongerExists">无法显示变量 {0} 的详细信息，因为该变量不再存在。</entry>
+    <entry key="ShowDetailsNoMoreDetails">无法显示变量 {0} 的详细信息，因为它不再有更多详细信息。</entry>
+    <entry key="BoundaryType">边界类型</entry>
+    <entry key="End">结束</entry>
+    <entry key="MaskDisplay_UpperCase">掩码显示名</entry>
+    <entry key="MaskDisplay_LowerCase">掩码显示名</entry>
+    <entry key="MaximumQuantifier">最大值限定符</entry>
+    <entry key="MinimumQuantifier">最小值限定符</entry>
+    <entry key="MatchRange">匹配范围</entry>
+    <entry key="PatternName">模式名称</entry>
+    <entry key="ExceptOption">''Except'' 选项</entry>
+    <entry key="PatternDescription">模式说明</entry>
+    <entry key="Quantifier">限定符</entry>
+    <entry key="Start">开始</entry>
+    <entry key="InternalError">{0}</entry>
+  </message>
+</rsccat>

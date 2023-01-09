@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BITOutOfRange">BIT 输入超出了指定数据类型的范围。</entry>
+    <entry key="firstArgNotInt">数据类型无效。第一个和第二个参数必须为整数或双精度值。</entry>
+    <entry key="sizeMismatch">各个输入的大小必须相同。</entry>
+  </message>
+</rsccat>

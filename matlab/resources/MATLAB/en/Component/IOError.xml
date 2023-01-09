@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="FolderNotWritable" translate="false">Permission denied creating folder {0}.</entry>
+    <entry key="FolderNotReadable" translate="false">Permission denied accessing folder {0}.</entry>
+    <entry key="ExistsAsFile" translate="false">{0} already exists as a file.</entry>
+    <entry key="ExistsAsFolder" translate="false">{0} already exists as a folder.</entry>
+    <entry key="InvalidFolderLocation" translate="false">Location {0} specified for a folder is invalid.</entry>
+    <entry key="UnrecognizedScheme" translate="false">{0} is not a supported URL scheme.</entry>
+    <entry key="FolderAccessFailure" translate="false">Folder access failure: {0}.</entry>
+    <entry key="CouldNotWriteToFile" translate="false">An error has occurred when writing to {0}.</entry>
+    <entry key="InvalidFileLocation" translate="false">Location {0} specified for a file is invalid.</entry>
+    <entry key="FileNotReadable" translate="false">Permission denied accessing file {0}.</entry>
+    <entry key="FileNotFound" translate="false">File {0} does not exist.</entry>
+    <entry key="FolderNotFound" translate="false">Folder {0} does not exist.</entry>
+    <entry key="FileIOError" translate="false">An I/O error occurred while accessing file {0}.</entry>
+    <entry key="FolderIOError" translate="false">An I/O error occurred while accessing folder {0}.</entry>
+  </message>
+</rsccat>

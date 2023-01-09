@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidTableEntryDataNumericTimesScalar">유효하지 않은 테이블 항목입니다. 데이터는 숫자형이어야 하며 시간은 각기 다른 스칼라 또는 날짜여야 함</entry>
+    <entry key="TimeSeriesTools">시계열 툴</entry>
+    <entry key="AddNewRowToTimeseries">timeseries에 새 행을 추가함</entry>
+  </message>
+</rsccat>

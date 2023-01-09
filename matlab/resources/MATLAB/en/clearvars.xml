@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="tooManyExceptFlags">The ''-except'' flag, which cannot be specified more than once, was specified for inputs {0,number,integer} and {1,number,integer}.</entry>
+    <entry key="unknownFlag">The flag ''{0}'' is not recognized.  Type "help {1}" to see what flags are supported.</entry>
+    <entry key="FlagIgnored">Input number {0, number, integer} specifying flag ''-{1}'' is being ignored.  Type ''help {2}'' to see the valid syntax.</entry>
+    <!--Resource entries for toolbox/matlab/general-->
+  </message>
+</rsccat>

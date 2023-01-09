@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="NotEnoughInputArgs">Not enough input arguments.  For MATLAB help, type ''help'' or ''helpbrowser''.</entry>
+      <entry key="InvalidFirstArg">First argument must be a product short name, map file, or fully qualified filename.</entry>
+      <entry key="InvalidPathArg">First argument must be a product short name or fully qualified filename.</entry>
+      <entry key="InvalidMapKey">Cannot locate topic map for mapkey: {0}.</entry>
+      <entry key="TopicIdRequired">Topic ID required to find topic path.</entry>
+      <entry key="InvalidThirdParameter">Third parameter must specify a window type.</entry>
+      <entry key="InvalidSecondParameter">Second parameter must specify a window type.</entry>
+      <entry key="UnspecifiedPosition">Position not specified</entry>
+      <entry key="InvalidPosition">Position must be [left bottom width height]</entry>
+      <entry key="UnspecifiedSize">Location not specified</entry>
+      <entry key="UnspecifiedLocation">Location not specified</entry>
+      <entry key="MapFileDoesNotExist">Specified map file does not exist:\n{0}</entry>
+      <entry key="TopicIdDoesNotExist">Topic ID ({0}) not found in {1}.</entry>
+      <entry key="SizeMustBeWidthHeight">Size must be [width height]</entry>
+      <entry key="SizeMustBePositive">Size must be &gt; 0</entry>
+      <entry key="LocationMustBeXY">Location must be [x y]</entry>
+      <entry key="LocationMustBePositive">Location must be &gt;= 0</entry>
+      <entry key="FileCouldNotBeConverted">The Documentation location is set to Web (www.mathworks.com) in your Help Preferences.  The file {0} cannot be viewed on the Web. Try setting your Help location to Local to see this file.</entry>
+   <entry key="Title">What's This Help</entry>
+</message>
+</rsccat>

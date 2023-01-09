@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FirstNumericInput">最初の引数は数値でなければなりません。</entry>
+    <entry key="LeadingNumericInputs">最初または 2 番目の引数は数値でなければなりません。</entry>
+    <entry key="LengthMismatch">X と Y は同じ長さでなければなりません。</entry>
+  </message>
+</rsccat>

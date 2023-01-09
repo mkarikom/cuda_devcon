@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="charConversion">Input matrix must be double or logical.</entry>
+    <entry key="charConstructor">Third input must be double or logical.</entry>
+    <entry key="constructorMixedType">Subscripts must be the same data type (single, double, or integer).</entry>
+    <entry key="twoNonScalarInputs">Use sparse(m,n) to preallocate an m-by-n sparse matrix, or sparse(i,j,v) to specify the (i,j) locations of nonzero entries v.</entry>
+    <entry key="inputsMustBe2D">Inputs must be 2-D.</entry>
+    <entry key="tooLargeForLinearIndex">Matrix is too large to convert to linear index.</entry>
+    <entry key="sizeTooLarge">Sparse matrix sizes must be nonnegative integer scalars less than MAXSIZE as defined by COMPUTER.  Use HELP COMPUTER for more details.</entry>
+  </message>
+</rsccat>

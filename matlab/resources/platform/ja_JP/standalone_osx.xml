@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="platform" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WindowMenuTitle">ウィンドウ</entry>
+    <entry key="MinimizeMenuItemTitle">最小化</entry>
+    <entry key="ZoomMenuItemTitle">ズーム</entry>
+    <entry key="BringAllToFrontMenuItemTitle">すべて前面へ移動</entry>
+    <entry key="AboutMenuItemTitle">MATLAB について...</entry>
+    <entry key="PreferencesMenuItemTitle">基本設定...</entry>
+    <entry key="ServicesMenuItemTitle">サービス</entry>
+    <entry key="HideMenuItemTitle">MATLAB を非表示</entry>
+    <entry key="HideOthersMenuItemTitle">その他を非表示</entry>
+    <entry key="ShowAllMenuItemTitle">すべて表示</entry>
+    <entry key="QuitMenuItemTitle">MATLAB の終了</entry>
+    <entry key="HelpMenuTitle">ヘルプ</entry>
+    <entry key="DocumentationMenuItemTitle">ドキュメンテーション</entry>
+    <entry key="CheckForUpdatesMenuItemTitle">更新の確認...</entry>
+    <entry key="CommandWindowDockMenuItemTitle">コマンド ウィンドウ</entry>
+    <entry key="OpenAdditionalInstanceOfMATLABDockMenuItemTitle">別の MATLAB インスタンスを開く</entry>
+  </message>
+</rsccat>

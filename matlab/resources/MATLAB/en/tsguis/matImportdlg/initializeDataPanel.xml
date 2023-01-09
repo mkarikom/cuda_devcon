@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="UseStandardMATLABIndexing">Use standard MATLAB indexing, e.g. [1:10]</entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+      <entry key="WhatsThis">What''s This</entry>
+      <entry key="SpecifyData">Specify data</entry>
+      <entry key="DataIsArrangedBy">Data is arranged by</entry>
+      <entry key="Columns">columns</entry>
+      <entry key="Rows">rows</entry>
+      <entry key="RefreshList">Refresh List</entry>
+      <entry key="SelectedRows">Selected row(s)</entry>
+      <entry key="KeyInRowIndices">Key in the row indices following the MATLAB supported format.</entry>
+      <entry key="SelectedColumns">Selected column(s)</entry>
+      <entry key="KeyInColumnIndices">Key in the column indices following the MATLAB supported format.</entry>
+      <entry key="SpecifyRowNumber">Specify row number</entry>
+      <entry key="SpecifyColumnNumber">Specify column number</entry>
+      <entry key="DataOrganizedByColumn">If data in the current variable is organized by column, select ''columns'', otherwise select ''rows''.</entry>
+   </message>
+</rsccat>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright 2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="KeyWithoutValue">Incorrect number of input arguments. ''{0}'' must
+be followed by a corresponding value.</entry>
+    <entry key="InvalidAggregationCombination">''AggregationVariables'' parameter is supported only when second argument is ''sum'' or ''mean''.</entry>
+    <entry key="InvalidAggregationVars">Invalid ''AggregationVariables'' value.</entry>
+    <entry key="InvalidAggregationFHandle">''AggregationVariables'' function handle must return a logical scalar.</entry>
+    <entry key="InvalidPickCombination">''PickVariable'' parameter is supported only when second input is ''min'' or ''max''.</entry>
+    <entry key="InvalidPickVars">''PickVariable'' value must be an index between 2 and the number of variables in the Edges table, or a variable name from the Edges table (other than ''EndNodes'').</entry>
+    <entry key="NoWeights">Input graph has no edge weights. Add edge weights to the graph or specify ''{0}'' parameter.</entry>
+    <entry key="InvalidEdgeVarType">Undefined function ''{0}'' for edge variable ''{1}'' of type {2}.</entry>
+    <entry key="PickVarNotColumn">''PickVariable'' value must be an edge variable that is a column vector.</entry>
+  </message>
+</rsccat>

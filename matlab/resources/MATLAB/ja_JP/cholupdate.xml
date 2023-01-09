@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="incorrectSecondInputArgument">2 番目の引数は、正方入力行列の列数 ({0,number,integer}) と同じ長さの列ベクトルでなければなりません。</entry>
+    <entry key="incorrectThirdInputArgument">3 番目の引数は、''+'' または ''-'' でなければなりません。</entry>
+    <entry key="downdatedMatrixNotPosDef">Downdated 行列は、正定値でなければなりません。</entry>
+    <entry key="singularCholeskyFactor">コレスキー因子は特異値です。</entry>
+    <entry key="inputType">データ型が無効です。最初と 2 番目の入力は double または single でなければなりません。</entry>
+    <entry key="inputSparse">スパース行列はサポートされていません。</entry>
+    <entry key="inputMustBe2D">入力配列は 2 次元でなければなりません。</entry>
+  </message>
+</rsccat>

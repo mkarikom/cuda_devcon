@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <entry key="InvalidFigureHandle">Invalid Figure handle.</entry>
+        <entry key="ConserveMemory">Print Preview is rendering this page on screen at lower resolution to conserve memory. \nThe quality of the printed page will not be affected.</entry>
+        <entry key="PrintPreviewDlg">Print Preview - {0}</entry>
+        <entry key="PrintButton">Print</entry>
+        <entry key="PageSetupButton">Page Setup...</entry>
+        <entry key="HeaderButton">Header...</entry>
+        <entry key="RefreshButton">Refresh</entry>
+        <entry key="CloseButton">Close</entry>
+        <entry key="NormalizedPaperUnitsNotSupported">Print Preview does not support ''normalized'' PaperUnits. The figure's PaperUnits have been changed to ''{0}''.</entry>
+    </message>
+</rsccat>

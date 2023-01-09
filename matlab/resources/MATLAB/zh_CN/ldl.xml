@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonRealDiag">矩阵必须具有实数对角线。</entry>
+    <entry key="inputMustBe2D">数组必须为二维。</entry>
+    <entry key="inputType">数据类型无效。第一个参数必须为双精度值或单精度值。</entry>
+    <entry key="tooManyOutputs">输出参数太多。如果输入矩阵为稠密矩阵，请最多指定三个输出参数。</entry>
+    <entry key="tooFewOutputs">输出参数的数目不足。如果输入矩阵为稀疏矩阵，请至少指定三个输出参数。</entry>
+    <entry key="complexSparseLDLnotAvailable">不支持复数稀疏输入矩阵。</entry>
+    <entry key="invalidPivotTol">主元容差必须为介于 0 与 0.5 之间(包括二者)的双精度实数标量。</entry>
+    <entry key="noPivotTolDense">只有稀疏矩阵才支持主元容差。</entry>
+  </message>
+</rsccat>

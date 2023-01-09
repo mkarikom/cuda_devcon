@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FileNotFound">ファイル ''{0}'' が見つかりません。</entry>
+    <entry key="Permission">ファイルが見つからないかアクセスが許可されていません</entry>
+    <entry key="DirectoryDeletion">''{0}'' はディレクトリです。ディレクトリを削除するには rmdir を使用してください。</entry>
+    <entry key="pathnameTooLong">パス名 ''{0}'' が長すぎます。</entry>
+  </message>
+</rsccat>

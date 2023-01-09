@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AtLeastOneGraphicObjectMustBeBrushed">적어도 하나의 그래픽 객체를 브러싱해야 합니다.</entry>
+    <entry key="ReplaceWithNaNs">NaN으로 바꾸기</entry>
+    <entry key="ReplaceWithAConstant">상수로 바꾸기</entry>
+    <entry key="RemovePoints">점 제거</entry>
+    <entry key="RemoveUnbrushedPoints">브러싱되지 않은 점 제거</entry>
+    <entry key="NoRemoveNoBrush">전체가 전혀 브러싱되지 않은 행 또는 열이 없어서 제거할 항목이 없습니다.\n전체가 전혀 브러싱되지 않은 행 또는 열이 적어도 하나 있도록 선택 항목을 줄이십시오.</entry>
+    <entry key="NoRemoveBrush">전체가 완전히 브러싱된 행 또는 열이 없어서 제거할 항목이 없습니다.\n전체가 완전히 브러싱된 행 또는 열이 적어도 하나 있도록 선택 항목을 확장하십시오.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="Abort">Abort</entry>
+      <entry key="AnotherVariable">another variable</entry>
+      <entry key="ATimeSeriesObjectAlreadyExists">A time series object with the same name already exists in tstool.  Do you want to replace its contents with the current selection?</entry>
+      <entry key="Columns">columns</entry>
+      <entry key="CurrentVariable">current variable</entry>
+      <entry key="DataIsArrangedBy">Data is arranged by : </entry>
+      <entry key="DataMustContainNumericValuesOnly">Data must contain numeric values only.</entry>
+      <entry key="DateStrings" note="stringDatatypeUpdate">Date Character Vectors</entry>
+      <entry key="Days">days</entry>
+      <entry key="DefineItNow">define it now</entry>
+      <entry key="EachTimePoint">Each time point in the time vector stored in a cell array must have the same size and same format.</entry>
+      <entry key="EnterTheColumnIndex">Enter the column index which stores the time vector: (e.g. 25)</entry>
+      <entry key="EnterTheRowIndex">Enter the row index which stores the time vector: (e.g. 34)</entry>
+      <entry key="ErrorInCreatingTimeSeriesObject">Error in creating time series object in tstool :</entry>
+      <entry key="Format">Format : </entry>
+      <entry key="Hours">hours</entry>
+      <entry key="IfDataIsOrganizedByColumn">If data in the current variable is organized by column, select ''columns'', otherwise select ''rows''.</entry>
+      <entry key="ImportingTimeSeriesObjectsPleaseWait">Importing Time Series Object(s), Please Wait...</entry>
+      <entry key="ImportTimeSeriesFromMATLABWorkspace">Import Time Series From MATLAB Workspace</entry>
+      <entry key="Interval">Interval : </entry>
+      <entry key="InvalidTimeRange">Invalid time range.</entry>
+      <entry key="InvalidTimePoints">Invalid time point(s) exist in your current selection.  To reselect it, go back to Step 2.</entry>
+      <entry key="InvalidTimesSelectedCorrectThem">Invalid times selected. Correct them or re-select the time vector.</entry>
+      <entry key="InvalidTimesSelectedSelectAgain">Invalid times selected.  To select again, go back to Step 2.</entry>
+      <entry key="KeyInTheColumnIndices">Key in the column indices following the Matlab supported format.</entry>
+      <entry key="KeyInTheRowIndices">Key in the row indices following the Matlab supported format</entry>
+      <entry key="LastValue">Last value </entry>
+      <entry key="Microseconds">microseconds</entry>
+      <entry key="Milliseconds">milliseconds</entry>
+      <entry key="Minutes">minutes</entry>
+      <entry key="More">More ...</entry>
+      <entry key="Nanoseconds">nanoseconds</entry>
+      <entry key="NoDataBlockHasBeenSelected">No data block has been selected.  To select data, go back to Step 2.</entry>
+      <entry key="NoExistingTimeSeriesIsSelected">No existing time series is selected</entry>
+      <entry key="NotAllDataWasImported">Not all data was imported. Invalid variable names were specified.</entry>
+      <entry key="NumericalTime">Numerical Time</entry>
+      <entry key="PutInTheEndingPoint">Put in the ending point of the time range in a proper format, and the import wizard will automatically locate the valid time points with the user-defined range.</entry>
+      <entry key="PutInTheStartingPoint">Put in the starting point of the time range in a proper format, and the import wizard will automatically locate the valid time points with the user-defined range.</entry>
+      <entry key="RefreshList">Refresh List</entry>
+      <entry key="Remove">Remove</entry>
+      <entry key="Replace">Replace</entry>
+      <entry key="Rows">rows</entry>
+      <entry key="Samples">Samples : </entry>
+      <entry key="Seconds">seconds</entry>
+      <entry key="SelectAProperTimeUnitOrDateFormat">Select a proper time unit or date format</entry>
+      <entry key="SelectARowColumnWhichContainsTheTimeVector">Select a row/column which contains the time vector.</entry>
+      <entry key="SelectedColumns">Selected column(s) : </entry>
+      <entry key="SelectedDataBlockIsEmpty">Selected data block is empty.  To reselect it, go back to Step 2.</entry>
+      <entry key="SelectedRows">Selected row(s) : </entry>
+      <entry key="SelectedTimeVector">Selected Time Vector</entry>
+      <entry key="SelectTheAverage">Select the average</entry>
+      <entry key="SelectTheLast">Select the last</entry>
+      <entry key="SelectVariable">Select Variable...</entry>
+      <entry key="SpecifyColumnNumber">Specify column number : </entry>
+      <entry key="SpecifyData">Specify data</entry>
+      <entry key="SpecifyRowNumber">Specify row number : </entry>
+      <entry key="SpecifyTimeVector">Specify time vector</entry>
+      <entry key="StartTime">Start Time : </entry>
+      <entry key="TheLengthOfDataBlockIsNotCompatible">The length of data block is not compatible with the length of the time vector.</entry>
+      <entry key="TheLengthOfTimeSeriesIsZero">The length of time series is zero. Go back to Step 2 to select the desired data block.</entry>
+      <entry key="TheNewTimeVectorHasADifferentLength">The new time vector you selected has a different length from the old time vector used in the existing timeseries object.</entry>
+      <entry key="TheNewTimeVectorIsDifferentFromTheOld">The new time vector you selected is different from the old time vector used in the existing timeseries object.</entry>
+      <entry key="TheRowIndexShouldBeAnInteger">The row index for the row containing variable names should be an integer.</entry>
+      <entry key="TheStartTimeMustBeADateString" note="stringDatatypeUpdate">The start time must be a date character vector.  Go back to Step 2 to change the start time.</entry>
+      <entry key="TheStartTimeMustBeANumericValue">The start time must be a numeric value.  Go back to Step 2 to change the Start Time.</entry>
+      <entry key="TheTimeIntervalMustBeADoubleValue">The time interval must be a double value.  Go back to Step 2 to change the Interval field.</entry>
+      <entry key="TheTimeIntervalMustBeANumericValue">The time interval must be a numeric value. Go back to Step 2 to change the time interval.</entry>
+      <entry key="TheTimeVectorCanBeObtained">The time vector can be obtained from different sources.  Use this drop-down list the select the type of source and configure the source below</entry>
+      <entry key="TheTimeVectorContainsBlankTimePoints">The time vector contains blank time points.  Do you want to remove all the blank points ?</entry>
+      <entry key="TheTimeVectorContainsDuplicatedTimePoints">The time vector contains duplicated time points.  For the samples related to the same time points, you can either select the last sample or the mean of the samples to import.</entry>
+      <entry key="TimeIsInColumn">Time is in column : </entry>
+      <entry key="TimeIsInRow">Time is in row : </entry>
+      <entry key="TimeIsNotAValidName">This is not a valid MATLAB variable name.</entry>
+      <entry key="TimeFirstValue">Time :   First value </entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+      <entry key="TimeVectorSource">Time-vector source : </entry>
+      <entry key="UnableToOpenTheWorkspaceBrowser">Unable to open the Workspace browser.</entry>
+      <entry key="Units">Units : </entry>
+      <entry key="Use">Use : </entry>
+      <entry key="UseStandardMATLABIndexing">Use standard MATLAB indexing, e.g. [1:10]</entry>
+      <entry key="UseTheOldTimeVector">Use the old time vector</entry>
+      <entry key="UseTheNewTimeVector">Use the new time vector</entry>
+      <entry key="VariableContainsTimeStringsWithAnInvalidFormatSpecifyA" note="stringDatatypeUpdate">Variable contains time character vectors with an invalid format. Specify a different variable as the time vector or define it manually.</entry>
+      <entry key="VariableNameShouldBeValid">The common part of the variable name should be a valid MATLAB variable name.</entry>
+      <entry key="Weeks">weeks</entry>
+      <entry key="WhatsThis">What''s This</entry>
+   </message>
+</rsccat>

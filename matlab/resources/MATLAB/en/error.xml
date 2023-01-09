@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="badIdentifier">Field \"identifier\" of input structure must contain a valid MATLAB message identifier.</entry>
+    <entry key="badMessage">Field \"message\" of input structure must contain a character vector or string scalar.</entry>
+    <entry key="badStack">The field \"stack\" must be an m-by-1 array.</entry>
+    <entry key="badStackFile">The field \"stack\" must contain the fields: \"file\", \"name\", \"line\".</entry>
+    <entry key="badStackFileString" note="stringDatatypeUpdate">The field \"file\" of the field \"stack\" must contain a character vector.</entry>
+    <entry key="badStackLine">The field \"line\" of the field \"stack\" must contain a scalar double.</entry>
+    <entry key="badStackName" note="stringDatatypeUpdate">The field \"name\" of the field \"stack\" must contain a character vector.</entry>
+    <entry key="badStackStruct">The field \"stack\" of the input structure must contain a structure.</entry>
+    <entry key="nonScalarInput">Input structure must be scalar.</entry>
+  </message>
+</rsccat> 

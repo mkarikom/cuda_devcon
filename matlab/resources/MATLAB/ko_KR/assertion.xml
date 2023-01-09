@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LogicalScalar">조건 입력 인수는 논리형 스칼라로 변환 가능해야 합니다.</entry>
+    <entry key="emptyMessageNotAllowed">조건 다음에 나오는 입력 인수는 비어 있을 수 없습니다.</entry>
+    <entry key="failed">어설션 결과: 실패.</entry>
+  </message>
+</rsccat>

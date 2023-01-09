@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="StartupOptionShouldBeStr">MATLAB 시작 옵션은 문자열이어야 함</entry>
+    <entry key="BackgroundMustBeBool">'background'는 부울형이어야 함</entry>
+    <entry key="EitherAsyncOrBackground">'async' 또는 'background'를 사용하십시오.</entry>
+    <entry key="AsyncWillDeprecate">'async' 키워드는 향후 릴리스에서 제거될 예정입니다. 'background'를 대신 사용하십시오.</entry>
+    <entry key="AsyncMustBeBool">'async'는 부울형이어야 함</entry>
+    <entry key="AttrCannotBeAddedToM">특성(Attribute)은 MatlabEngine에 추가할 수 없음</entry>
+    <entry key="NargoutMustBeInt">'nargout'은 {0}이(가) 아니라 정수여야 함</entry>
+    <entry key="NargoutCannotBeLessThanZero">'nargout'은 0보다 크거나 같아야 함</entry>
+    <entry key="InvalidKwargs">{0}은(는) 유효하지 않은 키워드 인수임</entry>
+    <entry key="StdoutMustBeStringIO">'stdout'은 {1}이(가) 아니라 {0}이어야 함</entry>
+    <entry key="StderrMustBeStringIO">'stderr'은 {1}이(가) 아니라 {0}이어야 함</entry>
+    <entry key="VarNameMustBeStr">변수 이름은 {0}이(가) 아니라 string형이어야 함</entry>
+    <entry key="VarNameNotValid">변수 이름이 MATLAB에서 유효하지 않음</entry>
+    <entry key="AttrCannotBeAddedToMWS">특성(Attribute)은 MatlabWorkSpace에 추가할 수 없음</entry>
+    <entry key="MatlabTerminated">MATLAB이 이미 종료됨</entry>
+    <entry key="MatlabFunctionCancelled">MATLAB 함수가 취소됨</entry>
+    <entry key="MatlabFunctionTimeout">MATLAB 함수 실행 제한 시간</entry>
+    <entry key="TimeoutMustBeNumeric">'timeout'은 {0}이(가) 아니라 숫자형이어야 함</entry>
+    <entry key="TimeoutCannotBeNegative">'timeout'은 음수일 수 없음</entry>
+    <entry key="LaunchMatlabTimeout">MATLAB 시작이 시간 초과됨</entry>
+    <entry key="ConnectMatlabTimeout">공유 MATLAB 세션의 연결 시간이 초과됨</entry>
+    <entry key="LaunchMatlabCancelled">MATLAB 시작이 취소됨</entry>
+    <entry key="ConnectMatlabCancelled">공유 MATLAB 세션의 연결이 취소됨</entry>
+    <entry key="StartupOptionShouldBePO">MATLAB 시작 옵션은 Python 객체여야 함</entry>
+    <entry key="StartupOptionShouldBeLS">MATLAB 시작 옵션은 문자열 목록이어야 함</entry>
+    <entry key="HandleToMatlabShouldBeLI">MATLAB 인스턴스에 대한 핸들은 long 형식의 정수여야 함</entry>
+    <entry key="FevalTakes3Args">mwEvaluateFunction은 최소 3개의 인수를 받음</entry>
+    <entry key="FuncShouldBeASCII">MATLAB 함수는 ASCII 문자로 구성된 문자열이어야 함</entry>
+    <entry key="NumOutShouldBeInt">출력값 개수는 정수여야 함</entry>
+    <entry key="KeywordShouldBeStr">키워드는 문자열이어야 함</entry>
+    <entry key="FevalResultTakes3Args">mwGetFEvalResult는 정확히 3개의 위치 인수를 받음</entry>
+    <entry key="HandleToResultShouldBeLI">Future result에 대한 핸들은 long 형식의 정수여야 함</entry>
+    <entry key="HandleToConOutShouldBeLI">콘솔 출력값에 대한 핸들은 long 형식의 정수여야 함</entry>
+    <entry key="HandleToConErrShouldBeLI">콘솔 오류에 대한 핸들은 long 형식의 정수여야 함</entry>
+    <entry key="HandleShouldBeTuple">핸들은 튜플로 저장되어야 함</entry>
+    <entry key="TimtoutShouldBeIntFloat">제한 시간 길이(초)는 정수 또는 float형이거나 None이어야 함</entry>
+    <entry key="StringIODoesNotExist">StringIO가 존재하지 않음</entry>
+    <entry key="StringIOForConErr">콘솔 오류에 StringIO가 필요함</entry>
+    <entry key="StringIOForConOut">콘솔 출력값에 StringIO가 필요함</entry>
+    <entry key="MatlabFunctionNotEvaluated">MATLAB 함수를 실행할 수 없음</entry>
+    <entry key="VarNameShouldBeStr">변수 이름은 문자열이어야 함</entry>
+    <entry key="UnsupportedMatlabType">지원되지 않는 데이터형이 MATLAB에서 반환됨</entry>
+    <entry key="FHNotSupportedFromMatlab">함수 핸들은 MATLAB에서 반환될 수 없음</entry>
+  </message>
+</rsccat>

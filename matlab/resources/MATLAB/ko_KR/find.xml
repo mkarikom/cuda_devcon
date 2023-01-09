@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="singleIndex">행렬이 너무 커서 선형 인덱스를 반환할 수 없습니다.\n희소 행렬에는 [i,j] = find(S)를 사용하십시오.</entry>
+    <entry key="NotScalarInt">두 번째 인수는 양의 정수 스칼라여야 합니다.</entry>
+    <entry key="InputClass">옵션은 문자형이어야 합니다.</entry>
+    <entry key="InvalidOption">유효하지 않은 검색 옵션입니다. ''first'' 또는 ''last''여야 합니다.</entry>
+  </message>
+</rsccat>

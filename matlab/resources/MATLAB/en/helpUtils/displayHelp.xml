@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="IsALiveScript">{0} is a live script.</entry>
+      <entry key="IsALiveFunction">{0} is a live function.</entry>
+      <entry key="OpenInLiveEditor">Open in Live Editor</entry>
+      <entry key="TopicNotFound">\n{0} not found.\n</entry>
+      <entry key="GettingStarted">New to MATLAB? See resources for &lt;a href="matlab:helpview(fullfile(docroot, '/matlab/helptargets.map'), 'matlab_getting_started')"&gt;Getting Started&lt;/a&gt;.\n\nTo view the documentation, &lt;a href="matlab:doc"&gt;open the Help browser&lt;/a&gt;.\n</entry>
+      <entry key="SearchMessageWithLinks">Use the Help browser search field to &lt;a href="matlab:{0}"&gt;search the documentation&lt;/a&gt;, or\ntype "&lt;a href="matlab:help help"&gt;help help&lt;/a&gt;" for help command options, such as help for methods.\n</entry>
+      <entry key="SearchMessageNoLinks">Use the Help browser search field to search the documentation, or\ntype "help help" for help command options, such as help for methods.\n</entry>
+      <entry key="ReferencePageFor">Documentation for {0}</entry>
+      <entry key="DocumentationFor">{0} Documentation</entry>
+      <entry key="FoldersNamed">Folders named {0}</entry>
+      <entry key="NoFoldersNamed">There are no folders named {0}.</entry>
+   </message>
+</rsccat>

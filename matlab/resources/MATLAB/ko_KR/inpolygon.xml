@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PolygonVecDef">다각형은 벡터(XV, YV)에 의해 정의되어야 합니다.</entry>
+    <entry key="ModelingWorldLower">INPOLYGON의 결과를 신뢰할 수 없습니다. 이 다각형의 크기는 타당한 정확도로 처리할 수 있는 하한에 근접합니다.</entry>
+    <entry key="ModelingWorldUpper">INPOLYGON의 결과를 신뢰할 수 없습니다. 이 다각형의 크기는 타당한 정확도로 처리할 수 있는 상한에 근접합니다.</entry>
+    <entry key="InvalidLoopDef">NaN 분리된 모서리 루프 정의가 x와 y에서 일치하지 않습니다.</entry>
+  </message>
+</rsccat>

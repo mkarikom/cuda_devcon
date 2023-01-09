@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ClassTitle">类详细信息</entry>
+    <entry key="ConstructorTitle">构造函数摘要</entry>
+    <entry key="MethodTitle">方法摘要</entry>
+    <entry key="Titleproperties">属性摘要</entry>
+    <entry key="Titleenumeration">枚举摘要</entry>
+    <entry key="Titleevents">事件摘要</entry>
+    <entry key="TitleDetailsproperties">属性详细信息</entry>
+    <entry key="TitleDetailsenumeration">枚举详细信息</entry>
+    <entry key="TitleDetailsevents">事件详细信息</entry>
+  </message>
+</rsccat>

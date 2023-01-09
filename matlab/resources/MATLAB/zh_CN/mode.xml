@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">X 必须为双精度数组或单精度数值。</entry>
+    <entry key="BadDim">维度参数必须为正整数标量、由唯一正整数组成的向量或 'all'。</entry>
+    <entry key="vecDimsMustBeUniquePositiveIntegers">维向量的元素必须唯一。</entry>
+    <entry key="wrongInput">数据类型无效。第一个参数必须为数值。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedProperty">プロパティ ''{0}'' が認識されません。</entry>
+    <entry key="SubstreamIndexTooLarge">2^53-1 より長いサブストリームのインデックスは、uint64 のクラスを返します。</entry>
+    <entry key="InvalidNumStateComponents">状態の配列が {0} ジェネレーターに対して無効です。</entry>
+    <entry key="InvalidStateBufLen">状態のバッファー長は、このジェネレーターに対して無効です。</entry>
+  </message>
+</rsccat>

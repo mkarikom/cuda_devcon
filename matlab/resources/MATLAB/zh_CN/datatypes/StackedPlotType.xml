@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonVectorCellArray">输入元胞数组必须为向量。</entry>
+    <entry key="InvalidString">''{0}'' 不是有效的绘图类型。绘图类型必须为 {1}，或由这些值组成的向量。</entry>
+    <entry key="InvalidValue">绘图类型必须为 {0}，或由这些值组成的向量。</entry>
+  </message>
+</rsccat>

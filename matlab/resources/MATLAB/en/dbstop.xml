@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed">
+  <message>
+    <!-- Added messages: src/m_interpreter, src/m_lxe -->
+    <entry key="dbBadCondition">The condition ''{0}'' contains a syntax error.</entry>
+    <entry key="dbNameNotSpecified">A file name must be specified.</entry>
+    <entry key="InvalidBreakpointCondition">Invalid breakpoint condition for ''{0}''.</entry>
+    <entry key="InvalidBreakpointData">Invalid breakpoint data for ''{0}''.</entry>
+    <entry key="InvalidStruct">Invalid structure. Field ''{0}'' is missing.</entry>
+    <entry key="InvalidStructBadCondition" note="stringDatatypeUpdate">Invalid structure. Condition must be a character vector.</entry>
+    <entry key="lineNumberNotApplicable">MATLAB debugger cannot set a breakpoint in "{0}" because it is not a MATLAB code file</entry>
+    <entry key="lineNumberAndLocalNestedCombinationInvalid">Invalid option combination.  Specify the line number or specify the local or nested function.</entry>
+  </message>
+</rsccat>

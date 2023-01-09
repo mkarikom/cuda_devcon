@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFormat">duration の表示形式は文字ベクトルまたは string スカラーでなければなりません。</entry>
+    <entry key="UnrecognizedFormat">形式 ''{0}'' は有効ではありません。</entry>
+    <entry key="InvalidData">入力データは数値か、期間のテキストを含む cell 配列または string 配列でなければなりません。</entry>
+    <entry key="InvalidNumericData">数値入力データは、3 列の行列、または 3 つか 4 つの個別の数値配列でなければなりません。関数 YEARS、DAYS、HOURS、MINUTES または SECONDS を使用して、単一の数値配列から期間を作成することもできます。</entry>
+    <entry key="InputSizeMismatch">数値入力データ配列は同じサイズでなければなりませんが、それらのいずれかがスカラーであってもかまいません。</entry>
+    <entry key="InputMustBeReal">数値入力データは実数でなければなりません。</entry>
+    <entry key="InvalidDim">DIM は正の整数値でなければなりません。</entry>
+    <entry key="CalendarDurationInputYears">入力データは実数の数値配列または duration 配列でなければなりません。CALYEARS を使用して、calendarDuration 配列から整数のカレンダー年数を抽出してください。</entry>
+    <entry key="CalendarDurationInputDays">入力データは実数の数値配列または duration 配列でなければなりません。CALDAYS を使用して、calendarDuration 配列から整数のカレンダー日数を抽出してください。</entry>
+    <entry key="CalendarDurationInputTime">入力データは実数の数値配列または duration 配列でなければなりません。TIME または SPLIT を使用して、calendarDuration 配列から期間を抽出してください。</entry>
+    <entry key="DatetimeInputYears">入力データは実数の数値配列または duration 配列でなければなりません。YEAR を使用して、datetime 配列から年番号を抽出してください。</entry>
+    <entry key="DatetimeInputDays">入力データは実数の数値配列または duration 配列でなければなりません。DAY を使用して、datetime 配列から日番号を抽出してください。</entry>
+    <entry key="DatetimeInputHours">入力データは実数の数値配列または duration 配列でなければなりません。HOUR を使用して、datetime 配列から時間番号を抽出してください。</entry>
+    <entry key="DatetimeInputMinutes">入力データは実数の数値配列または duration 配列でなければなりません。MINUTE を使用して、datetime 配列から分番号を抽出してください。</entry>
+    <entry key="DatetimeInputSeconds">入力データは実数の数値配列または duration 配列でなければなりません。SECOND を使用して、datetime 配列から秒番号を抽出してください。</entry>
+    <entry key="InvalidDurationData">入力データは実数の数値配列または duration 配列でなければなりません。</entry>
+    <entry key="InvalidNumericConversion">タイプ 'duration' の入力引数は、関数 ''{0}'' で定義されていません。期間から数値に変換するには、関数 SECONDS、MINUTES、HOURS、DAYS または YEARS を使用します。</entry>
+    <entry key="MonthsNotSupported">タイプ 'duration' の入力引数は、関数 ''{0}'' で定義されていません。期間はカレンダー月数を表現できません。代わりにカレンダー期間を使用してください。\n\nたとえば、カレンダー月の単位で表された 2 つの datetime の差を求めるには、減算ではなく関数 BETWEEN を使用します。</entry>
+    <entry key="CellReferenceNotAllowed">セルの内容が非セル配列から参照されています。</entry>
+    <entry key="CellAssignmentNotAllowed">セルの内容が非セル配列に代入されています。</entry>
+    <entry key="UnrecognizedProperty">プロパティが認識されません: ''{0}''。</entry>
+    <entry key="InvalidPropertyName">プロパティ名が無効です。</entry>
+    <entry key="InvalidSubscriptExpr">インデックス式では、()-インデックス付けの後に () や '{}' を続けることができません。</entry>
+    <entry key="SubArrayPropertyAssignment">duration 配列の要素の ''{0}'' プロパティに代入を行うことはできません。代わりに、d.{0} = ... を使用してください。</entry>
+    <entry key="InvalidAssignmentLHS">{0} 配列からの割り当ての LHS が無効です。</entry>
+    <entry key="InvalidAssignment">代入の右辺は、duration 配列、日数を表す数値配列、またはタイマー形式の持続時間を表すテキスト (例: 'hh:mm:ss') でなければなりません。</entry>
+    <entry key="IllegalDotMethod">duration プロパティ ''{0}'' を認識できません。{1} メソッドを呼び出す場合は、{1}(d,...) などの関数構文を使用しなければなりません。詳細については、「&lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;メソッドの呼び出し&lt;/a&gt;」を参照してください。</entry>
+    <entry key="IllegalDotMethodNoCorrection">duration プロパティ ''{0}'' を認識できません。{1} メソッドを呼び出す場合は、関数構文を使用しなければなりません。詳細については、「&lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;メソッドの呼び出し&lt;/a&gt;」を参照してください。</entry>
+    <entry key="InvalidComparison">{0} 配列と {1} 配列の間で比較は定義されていません。</entry>
+    <entry key="AdditionNotDefined">{0} 配列と {1} 配列の間で加算は定義されていません。</entry>
+    <entry key="SubtractionNotDefined">{0} 配列と {1} 配列の間で減算は定義されていません。</entry>
+    <entry key="DurationMultiplicationNotDefined">2 つの期間配列の間で乗算は定義されていません。</entry>
+    <entry key="MultiplicationNotDefined">{0} 配列と {1} 配列の間で乗算は定義されていません。</entry>
+    <entry key="DurationDivisionNotDefined">{0} 配列を duration 配列で除算することはできません。</entry>
+    <entry key="DivisionNotDefined">{0} 配列と {1} 配列の間で除算は定義されていません。</entry>
+    <entry key="MatrixDivisionNotDefined">duration 配列に対する行列除算の分母は double の実数スカラー値でなければなりません。</entry>
+    <entry key="InvalidFromVE">認識されない duration の形式です。</entry>
+    <entry key="UndetectableFormat">{0} の形式を認識できませんでした。\n必要なデータの形式は ''{1}'' または ''{2}'' です。</entry>
+    <entry key="DetectedTwoPart">duration のテキスト形式があいまいです。''InputFormat'' を ''{0}'' または ''{1}'' で指定してください。</entry>
+    <entry key="DataMismatchedFormat">形式 ''{1}'' を使用して {0} を解析できません。</entry>
+    <entry key="InvalidInputFormat">duration の InputFormat は文字ベクトルまたは string スカラーでなければなりません。</entry>
+    <entry key="UnrecognizedInputFormat">形式 ''{0}'' はサポートされません。有効な形式については、''InputFormat'' のドキュメンテーションを参照してください。</entry>
+    <entry key="AutoConvertString">テキスト ''{0}'' の形式が認識されなかったため、duration 値に変換できません。</entry>
+    <entry key="IgnoredInputFormat">非テキスト データから duration 配列を作成する場合、'InputFormat' パラメーターは影響しません。これは無視されます。</entry>
+    <entry key="DurationTextLiteral">duration のテキスト</entry>
+    <entry key="UnsupportedMethodCodegen">コード生成では、{0} メソッドが duration に対してサポートされていません。</entry>
+    <entry key="TextConstructionCodegen">テキスト入力からの duration の作成は、コード生成ではサポートされません。</entry>
+    <entry key="InvalidConversionCodegen">{0} から duration には変換できません。</entry>
+    <entry key="MustBeRealMillis">ミリ秒は常に実数値でなければなりません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016 The MathWorks, Inc. -->
+<rsccat decorate_cxx_names="1" xsi:noNamespaceSchemaLocation="..\..\schema\msgcat.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" product="MATLAB" locale="en_US" version="1.0">
+<message>
+<entry key="InvalidInput">Invalid input argument of type ''{0}''. Input must be a structure or a Java or COM object.</entry>
+</message>
+</rsccat>

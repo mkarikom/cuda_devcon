@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CreateDIBSection">CreateDIBSection 内で失敗しました。OpenGL アプリケーション エラー[ (bmp{0},pix{1},gle{2})</entry>
+    <entry key="doubleBufferSlow">シングル バッファーは利用できません。ダブル バッファーは遅くなります。</entry>
+    <entry key="DoubleBufferVisualNotAvailable">ダブル バッファーの表示を利用できません</entry>
+    <entry key="ErrorIdentifyingOpenGLVisual">OpenGL ビジュアルの識別エラー</entry>
+    <entry key="OffScreenContext">glren:オフスクリーンの描画コンテキストを作成できません</entry>
+    <entry key="OpenGLRequiresTrueColor">OpenGL で正しく表示するにはトゥルーカラーのビジュアルが必要です</entry>
+    <entry key="print">UIW_SetUpGLPrinting の問題</entry>
+    <entry key="PrintingVisual">印刷用 OpenGL ビジュアルを作成できません</entry>
+    <entry key="ServerHasNoGLXExtension">サーバーには GLX 拡張がありません</entry>
+    <entry key="SetStretchBltMode">SetStretchBltMode で失敗しました。OpenGL アプリケーション エラー (gle{0})</entry>
+    <entry key="SingleBufferVisualNotAvailable">シングル バッファーのビジュアルを利用できません</entry>
+    <entry key="StretchDIBits">StretchDIBits で失敗しました。OpenGL アプリケーション エラー (gle{0})</entry>
+  </message>
+</rsccat>

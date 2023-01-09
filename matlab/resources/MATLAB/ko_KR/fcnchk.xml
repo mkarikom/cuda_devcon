@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AmbiguousX">모호한 표현식 또는 함수 입력값입니다.\n 문자 ''x''는 ''x''라는 함수 이름(예: x.m)으로 해석되며 수학 표현식 ''x''(예: f(x)=x)로는 해석되지 않습니다. 수학 표현식을 의미한다면 익명 함수(@(x)x)를 사용하십시오.</entry>
+    <entry key="objectMissingFevalMethod">FUN이 MATLAB 객체일 경우 feval 메서드를 가지고 있어야 합니다.</entry>
+    <entry key="invalidFunctionSpecifier">FUN은 함수이거나, 유효한 문자형 벡터 표현식이거나, 인라인 함수 객체여야 합니다.</entry>
+  </message>
+</rsccat>

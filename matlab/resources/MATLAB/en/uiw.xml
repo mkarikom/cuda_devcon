@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" decorate_cxx_names="true">
+  <message>
+    <entry key="StretchDIBits">Failed in metafile StretchDIBits, get last error {0}</entry>
+    <entry key="BitBlt">Failed in BitBlt, last error code {0}</entry>
+    <entry key="SetStretchBltMode">Draw bitmap failed in SetStretchBltMode, stretch blit failed (gle{0})</entry>
+    <entry key="SetStretchBltModeOperationNotSupported">Draw bitmap failed in SetStretchBltMode, operation not supported by device</entry>
+    <entry key="StretchBlt">Failed in StretchBlt, last error code {0}</entry>
+    <entry key="NoSetDIBits">Device does not support SetDIBits</entry>
+    <entry key="SetDIBits">Failed in SetDIBits (gle{0})</entry>
+    <entry key="NoDCBitBlt">Device doesn't support BitBlt</entry>
+    <entry key="NoDCMemBitBlt">Memory device doesn't support BitBlt</entry>
+    <entry key="CloseEnhMetaFile">Failed in CloseEnhMetaFile, last error code {0} from-hDC {1}</entry>
+    <entry key="CreateCompatibleDC">Failed in CreateCompatibleDC, last error code {0} from-hDC {1}</entry>
+    <entry key="CreateCompatibleBitmap">Failed in CreateCompatibleBitmap, last error code {0}</entry>
+    <entry key="BitBltWithReturnCode">Failed in BitBlt, last error code {0}, return code {1}</entry>
+    <entry key="BitBltMemory">Failed in memory BitBlt (gle{0})</entry>
+    <entry key="FileExists">{0} already exists. Do you want to replace it?</entry>
+    <entry key="SelectFileToWrite">Select File To Write</entry> 
+  </message>
+</rsccat>

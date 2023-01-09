@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011-2020 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="SelectADataInputSource">Select a data input source.</entry>
+      <entry key="SelectSource">Select Source</entry>
+      <entry key="TwentyThousand">twenty thousand</entry>
+      <entry key="PreviewTooLargeToBeDisplayed">Preview too large to be displayed properly.</entry>
+      <entry key="UnknownResultOfClassEncountered">Unknown result of class {0} encountered.</entry>
+      <entry key="PreviewTruncatedAtTwentyThousandCharacters">Preview truncated at {0} characters.</entry>
+      <entry key="ImportWizardCreatedVariables">Import Wizard created variables in the current workspace.</entry>
+      <entry key="CannotImportFromEmptyFile">Cannot import from an empty input file</entry>
+      <entry key="UndocUsage">The v1 functionality is not supported and will be removed in a future release.</entry> 
+      <entry key="ImportWizard">Import Wizard</entry>
+      <entry key="FileContainsUninterpretableData">File contains uninterpretable data.</entry>
+      <entry key="Blank">Blank</entry>
+      <entry key="File">File</entry>
+      <entry key="Clipboard">Clipboard</entry>
+      <entry key="Cancel">Cancel</entry>
+      <entry key="TheImportWizardNotSupported">The Import Wizard is not supported because no display is available.</entry>
+      <entry key="alreadyOpenFile">Cannot open the Import Wizard on a file while the Import Wizard is open.</entry>
+      <entry key="alreadyOpenClipboard">Cannot open the Import Wizard on the clipboard while the Import Wizard is open.</entry>
+      <entry key="incompatibleInstances">Cannot open an Import Wizard with output arguments while another Import Wizard is open.</entry>
+      <entry key="FileNotFound">File ''{0}'' not found.</entry>
+      <entry key="RecognizedDataFilesStr">Recognized Data Files</entry>
+      <entry key="AudioFormatStr">Audio</entry>
+      <entry key="CGIFormatStr" translate="false" note="TranslateFalseBatch;">CompuServe Graphics Interchange</entry>
+      <entry key="CursorFormatStr">Cursor Format</entry>
+      <entry key="HDFFormatStr">HDF or HDF-EOS</entry>
+      <entry key="IconFormatStr">Icon Format</entry>
+      <entry key="JPEGFormatStr">JPEG Compliant</entry>
+      <entry key="MATFileStr">MATLAB Data File</entry>
+      <entry key="PNGFormatStr" translate="false" note="TranslateFalseBatch;">Portable Network Graphics</entry>
+      <entry key="SpreadsheetFormatStr">Spreadsheet</entry>
+      <entry key="TIFFormatStr">Tagged Image File Format</entry>
+      <entry key="TextFormatStr">Text</entry>
+      <entry key="VideoFormatStr">Video</entry>
+      <entry key="BitMapStr">Windows or OS/2 Bitmap</entry>
+      <entry key="ZsoftPaintbrushStr" translate="false" note="TranslateFalseBatch;">Zsoft Paintbrush</entry>
+      <entry key="AllFilesStr">All Files</entry> 
+      <entry key="MatlabOnlineSupport">UIIMPORT(''-pastespecial'') not supported in {0}</entry> 
+      <entry key="FileChooserTitle">Import Data</entry> 
+      <entry key="ErrorTitle">Import</entry> 
+   </message>
+</rsccat>

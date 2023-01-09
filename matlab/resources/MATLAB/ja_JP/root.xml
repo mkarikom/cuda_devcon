@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadPointerLocation">PointerLocation 値が大きすぎます。</entry>
+    <entry key="InvalidParent">ルートの親を設定できません</entry>
+    <entry key="ValidFigureHandle">指定した引数は有効な Figure のハンドルでなければなりません</entry>
+    <entry key="InvalidCurrentFigureHandle">{0} のハンドルが ''CurrentFigure'' プロパティに渡されました - 有効な Figure ハンドルが必要です</entry>
+    <entry key="InvalidFigureHandle">オブジェクトは Figure でなければなりません</entry>
+    <entry key="HandleAssignment">ルート ハンドルを割り当てできませんでした</entry>
+    <entry key="InvalidProperty">このプロパティは ''root'' クラスで定義されていません</entry>
+    <entry key="CopyNotAllowed">''matlab.ui.Root'' タイプのオブジェクトはコピーできません。</entry>
+    <entry key="Creation">Root オブジェクトを作成できません。</entry>
+    <entry key="Deleted">root オブジェクトが見つかりませんでした。</entry>
+    <entry key="SetZeroNotAllowed">set(0,''{0}'', ...) の呼び出しは許可されていません</entry>
+    <entry key="ScreenPixelsPerInchReadOnly">R2015b では、ScreenPixelsPerInch プロパティは読み取り専用になりました。画面上のテキストおよび他の要素のサイズを変更するには、オペレーティング システムの設定で画面の解像度を調整します。詳細は、「&lt;a href=\"matlab:helpview([docroot, ''/matlab/helptargets.map''], ''sppireadonly'')\"&gt;Root ScreenPixelsPerInch Property&lt;/a&gt;」を参照してください。</entry>
+  </message>
+</rsccat>

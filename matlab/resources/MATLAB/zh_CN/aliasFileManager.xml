@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AliasingSameName"> 不支持将类重命名为与其别名之一同名的 ''{0}''。</entry>
+    <entry key="NewNameIsBuiltinClass"> 不能为 ''{1}'' 定义别名 ''{0}''，因为 ''{1}'' 是 MATLAB 内置类。不支持将内置类用作别名定义的目标。</entry>
+    <entry key="AliasIsBuiltinClass"> 不支持创建与内置类同名的别名。</entry>
+    <entry key="CreateAliasFileFailed"> 无法在文件夹 ''{0}'' 中创建别名文件。</entry>
+    <entry key="OldNamesChanged">在类 ''{0}'' 的别名定义中，指定的别名列表不同于以前的定义。请确保 ''{0}'' 的所有以前的名称都以正确顺序指定为别名，较新的名称在前面。</entry>
+    <entry key="MissingNewClassInAliasFolder"> 无法在文件夹 ''{1}'' 中写入别名定义文件，因为该文件夹中未定义类 ''{0}''。</entry>
+    <entry key="NewNameDefinedMultipleTimes"> 新名称 ''{0}'' 已在现有别名定义中用作新名称。现有定义将被新别名定义中的别名替换。 </entry>
+    <entry key="MultipleAliasesFirstTimeRenaming"> 在类 ''{0}'' 的别名定义中，已指定多个旧名称。在第一次添加新别名时，应只有一个旧名称。请确保所有指定的旧名称均为 ''{0}'' 的旧名称，较新的名称在前面。</entry>
+    <entry key="NameNotValid"> 别名定义中的所有名称必须为有效的 MATLAB 标识符。''{0}'' 不是有效的 MATLAB 标识符。</entry>
+    <entry key="NonScalarDisplayHeader"> 显示新名称和旧名称的 {0} {1} 数组:</entry>
+    <entry key="MissingName">必须在对 addAlias 的调用中指定命名参数 ''{0}''。</entry>
+    <entry key="NoExistingAliasFile">找不到文件夹 ''{0}'' 的别名定义文件。请检查别名定义文件 'alias.json' 是否存在于 'resources' 子文件夹中。 </entry>
+    <entry key="NoFilePermission">无法访问文件夹 ''{0}'' 的别名定义文件。请检查文件读取权限。 </entry>
+    <entry key="OldNamesReordered">类 ''{0}'' 的别名定义中的别名顺序已更改。请确保 ''{0}'' 的所有以前的名称都以正确顺序指定为别名，较新的名称在前面。</entry>
+    <entry key="OldNamesDropped">类 ''{1}'' 的一个或多个现有别名({0})已被丢弃。请确保 ''{1}'' 的所有旧名称都以正确顺序指定为别名，较新的名称在前面。</entry>
+    <entry key="OldNamesAdded">已为类 ''{1}'' 添加多个其他别名({0})。请确保所有指定的旧名称均为 ''{1}'' 的旧名称。</entry>
+    <entry key="SameOldName">在类 ''{0}'' 的别名定义中，已多次指定相同的旧名称。</entry>
+    <entry key="RecentNameFirst"> When renaming a class multiple times, the most recent old name must be the first in the list of old names.</entry>
+    <entry key="NewNameIsExistingAlias">The name ''{0}'' is already in use as an old name in the alias definition for class ''{1}''. A name cannot be used as both a new class name and an alias.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ConnectionRefused">Connection refused.</entry>
+    <entry key="UrlNotFound">The requested URL was not found on this server.</entry>
+    <entry key="UnknownHost">Unknown host: {0}</entry>
+    <entry key="Unsupported">"{0}" is defined recursively.</entry>
+    <entry key="WriteError">Error writing file {0}</entry>
+    <entry key="BadXml">Could not parse XML: {0}</entry>
+    <entry key="Exception">Unspecified Exception: {0}</entry>
+    <entry key="WsdlParsingFailure">WSDL Parsing Failure: unsupported wsdl</entry>
+  </message>
+</rsccat>

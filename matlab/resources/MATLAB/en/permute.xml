@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="badIndexType">ORDER must be a numeric array.</entry>
+    <entry key="tooFewIndices">ORDER must have at least N elements for an N-D array.</entry>
+    <entry key="badIndex">ORDER contains an invalid permutation index.</entry>
+    <entry key="repeatedIndex">ORDER cannot contain repeated permutation indices.</entry>
+    <entry key="unsupportedType">Unsupported data type.</entry>
+    <entry key="sparseNDmatrix">ND-sparse arrays are not supported.</entry>
+    <entry key="complexIndex">ORDER must be real.</entry>
+    <entry key="nonIntegerIndex">ORDER must contain positive integer indices.</entry>
+  </message>
+</rsccat>

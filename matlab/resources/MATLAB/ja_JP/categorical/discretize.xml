@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WrongNumCategoryNames">ビンのエッジが {0,number,integer} 個の場合、{1,number,integer} 個のカテゴリ名を指定しなければなりません。</entry>
+    <entry key="ValuesetAndEdges">一意のデータ値またはビンのエッジのいずれかを指定し、両方は指定しないでください。</entry>
+    <entry key="NonnumericData">ビンのエッジを指定する場合、入力データは実数の数値配列でなければなりません。</entry>
+    <entry key="InvalidEdges">ビンのエッジは少なくとも 2 つの要素をもつ実数の数値ベクトルでなければなりません。</entry>
+    <entry key="CantCreateCategoryNames">有効桁数 5 桁を使用して、ビンのエッジから一意のカテゴリ名を作成することはできません。CATEGORYNAMES 入力引数を使用してカテゴリ名を指定してください。</entry>
+  </message>
+</rsccat>

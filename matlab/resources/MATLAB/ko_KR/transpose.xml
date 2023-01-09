@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NDArray">TRANSPOSE는 N차원 배열을 지원하지 않습니다. PAGETRANSPOSE/PAGECTRANSPOSE를 사용하여 페이지를 전치하거나 PERMUTE를 사용하여 N차원 배열의 차원을 다시 정렬하십시오.</entry>
+    <entry key="intType">켤레 복소수 전치는 정수 데이터형에서 지원되지 않습니다.</entry>
+    <entry key="notDefinedOnArrayWithOpaqueIndexing">모호한 인덱싱을 가진 배열의 전치는 정의되지 않았습니다.</entry>
+    <entry key="notImplemented">N차원 배열의 전치가 정의되지 않았습니다.</entry>
+  </message>
+</rsccat>

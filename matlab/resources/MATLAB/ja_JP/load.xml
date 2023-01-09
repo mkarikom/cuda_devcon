@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="emptyFileName">ファイル名が空です。</entry>
+    <entry key="emptyVariableName">変数名が空のため、変数を読み込めません。</entry>
+    <entry key="notBinaryFile">MAT ファイル {0} を読み込むことができません。バイナリの MAT ファイルではありません。テキストとして読み込むには load -ASCII を試してください。</entry>
+    <entry key="unableToReadMatFile">MAT ファイル {0} を読み込むことができません。ファイルが破損している可能性があります。</entry>
+    <entry key="SubsetNotSupportedFileType">変数のサブセットの読み込みは、V7.3 以降の MAT ファイル形式でのみサポートされています。</entry>
+    <entry key="NonScalarVariableSubset">MAT ファイルから配列のサブセットを読み込むには、VariableSubset がスカラーでなければなりません。</entry>
+    <entry key="variableNotFound">変数 ''{0}'' が見つかりません。</entry>
+    <entry key="variablePatternNotFound">''{0}'' と一致する変数が見つかりません</entry>
+    <entry key="NonScalarSubset">MAT ファイルへの複数レベルでのインデックス付けはサポートされていません。</entry>
+    <entry key="cantReadFile">ファイル {0} を読み取れません。</entry>
+    <entry key="cannotInstantiateLoadedVariable">変数 ''{0}'' は、元々は {1} として保存されていますが、オブジェクトとしてインスタンスを作成できないため {2} として読み込まれます。</entry>
+    <entry key="loadingKeywordVariable">変数 ''{0}'' はキーワードと同じ名前になります。''{1}'' として読み込まれます。</entry>
+    <entry key="unableToReadMatFileFromStdio">STDIO から読み取れません。原因不明のエラー。</entry>
+    <entry key="numColumnsNotSame">ファイル ''{0}'' を読み取れません。入力は、各行が同じ列数である数値データを含む MAT ファイルまたは ASCII ファイルでなければなりません。</entry>
+    <entry key="FileIsGrowing">ファイル {0} は別のプロセスまたはスレッドで使用されています。他のプロセスまたはスレッドがファイルを解放した後、データを読み込むことができるはずです。</entry>
+    <entry key="unknownText">{0,number,integer} 行目 (ASCII ファイル {1}) に不明なテキストがあります\n\"{2}\"</entry>
+    <entry key="errorClosingFile">ファイル {0} を閉じるときのエラー</entry>
+    <entry key="sizeMismatch">インデックスが行列の次元を超えています。</entry>
+    <entry key="classError">クラス ''{0}'' のオブジェクトの読み込み中:\n{1}</entry>
+    <entry key="classSaveError">クラス ''{0}'' のオブジェクトの保存中:\n{1}</entry>
+    <entry key="classNotFound">クラス ''{0}'' のオブジェクトを読み込めません:\nクラスが見つかりません。</entry>
+    <entry key="classErrorNoCtor">クラス ''{0}'' のオブジェクトを読み込めません:\n 一致するコンストラクターのシグネチャが見つかりません。</entry>
+    <entry key="FileInconsistent">MATLAB は読み込んだファイル内に矛盾を検出したため、いくつかの値が読み込まれていない可能性があります。</entry>
+    <entry key="InvalidMATFile">MATLAB によって、読み込み中のファイル内に矛盾が検出されました。{0}</entry>
+    <entry key="EmptyEnumNames">クラス {0} に空の列挙名があります。</entry>
+    <entry key="pathIsDirectory">ファイル ''{0}'' を読み取れません。入力にディレクトリを指定することはできません。</entry>
+    <entry key="unableToReadVFSASCIIFile">リモートの場所から読み込むことができるのは Version 7.3 の MAT ファイルのみです。</entry>
+    <entry key="unableToReadVFSFile">ファイル ''{0}'' を読み取れません。これが Version 7 以前の MAT ファイルである場合は、リモートの場所からアクセスするために、Version 7.3 の MAT ファイルでデータを新たに保存することを検討してください。</entry>
+    <entry key="unableToReadFile">ファイル ''{0}'' を読み取れません。</entry>
+    <entry key="couldNotReadFileSystemMessage">ファイル ''{0}'' を読み取れません: {1}。</entry>
+    <entry key="tooManyOpen">ファイル ''{0}'' を読み取れません。これ以上ファイルを開くことができません。</entry>
+    <entry key="permissionDenied">ファイル ''{0}'' を読み取れません。アクセスが許可されていません。</entry>
+    <entry key="couldNotReadFile">ファイルまたはディレクトリ ''{0}'' が見つかりません。</entry>
+    <entry key="loadingFrom">\n読み込み中:{0}\n\n</entry>
+    <entry key="badVariableName">ファイル ''{0}'' を読み取れません。変数名の長さは、MATLAB における名前の最大長である 63 文字以下でなければなりません。</entry>
+    <entry key="setValueFail"> プロパティ {0} に値を設定できませんでした。このプロパティを無視します</entry>
+    <entry key="protectedLoadingIllegalValue">''ProtectedLoading'' 引数は、値が ''true''、''false''、''1''、または ''0'' のスカラーでなければなりません。</entry>
+    <entry key="unableToLoadClassObjectInProtectedLoading">保護された読み込みモードではオブジェクトを読み込めません。空の double に置き換えられました。</entry>
+    <entry key="unableToLoadClassObjectsInProtectedLoading">保護された読み込みモードでは {0} オブジェクトを読み込めません。空の double に置き換えられました。</entry>
+  </message>
+</rsccat>

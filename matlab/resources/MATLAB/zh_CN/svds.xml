@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadCondition">输入矩阵为病态矩阵。它可能包含 Inf 或 NaN。</entry>
+    <entry key="BothU0andV0">指定 options 结构体中的 u0 字段或 v0 字段，但不能同时指定这两者。</entry>
+    <entry key="FhandleNoLargest">只有模式 ''largest'' 支持函数句柄。</entry>
+    <entry key="InvalidA">第一个输入必须为双精度矩阵或函数句柄。</entry>
+    <entry key="InvalidFhandleOutput">带有 ''{0}'' 标志的函数句柄的输出异常。预期的输出是一个长度为 {1} 且类型为双精度的列向量。</entry>
+    <entry key="InvalidK">要计算的奇异值的数目必须为正整数。</entry>
+    <entry key="InvalidMaxit">options 结构体中的 maxit 字段必须为正整数。</entry>
+    <entry key="InvalidMN">使用函数句柄时，第二个输入必须为一个包含整数(表示矩阵大小)的 1x2 向量。</entry>
+    <entry key="InvalidP">options 结构体中的 p 字段必须为非负整数。</entry>
+    <entry key="InvalidSigma">标量偏移值 SIGMA 可以为 ''largest''、''smallest''、''smallestnz'' 或双精度有限实数。</entry>
+    <entry key="InvalidTol">options 结构体中的 tol 字段必须为非负实数。</entry>
+    <entry key="InvalidStartingVector">起始向量无效。 </entry>
+    <entry key="InvalidU0">options 结构体中的 u0 字段必须为长度等于输入矩阵中的行数的列向量。</entry>
+    <entry key="InvalidV0">options 结构体中的 v0 字段必须为长度等于输入矩阵中的列数的列向量。</entry>
+    <entry key="InvalidDisp">options 结构体中的 disp 字段必须为 0 或 1。</entry>
+    <entry key="PlessK">options 结构体中的 p 字段必须大于或等于 K + 2，其中 K 为奇异值的数目。</entry>
+    <entry key="ParseFlags">参数名称必须为 ''Tolerance''、''MaxIterations''、''SubspaceDimension''、''LeftStartVector''、''RightStartVector''、''Display'' 或 ''FailureTreatment''。</entry>
+    <entry key="KeyWithoutValue">输入参数的数目不正确。每个参数名称必须后跟相应的值。</entry>
+    <entry key="BothU0andV0NameValue">指定 ''LeftStartVector'' 参数或 ''RightStartVector'' 参数，但不能同时指定这两者。</entry>
+    <entry key="InvalidMaxitNameValue">''MaxIterations'' 值必须为正整数。</entry>
+    <entry key="InvalidPNameValue">''SubspaceDimension'' 值必须为非负整数。</entry>
+    <entry key="InvalidTolNameValue">''Tolerance'' 值必须为非负实数。</entry>
+    <entry key="InvalidU0NameValue">''LeftStartVector'' 值必须为长度等于输入矩阵中的行数的数值向量。</entry>
+    <entry key="InvalidV0NameValue">''RightStartVector'' 值必须为长度等于输入矩阵中的列数的数值向量。</entry>
+    <entry key="InvalidDispNameValue">''Display'' 值必须为 0 或 1。</entry>
+    <entry key="PlessKNameValue">''SubspaceDimension'' 值必须大于或等于 K + 2，其中 K 为奇异值的数目。</entry>
+    <entry key="InvalidFailureTreatment">options 结构体中的 fail 字段必须为 ''replacenan''、''keep'' 或 ''drop''。</entry>
+    <entry key="InvalidFailureTreatmentNameValue">''FailureTreatment'' 值必须为 ''replacenan''、''keep'' 或 ''drop''。</entry>
+    <entry key="NoFailNumSigma">对于数值标量偏移，options 结构体中的 fail 字段的值必须为 ''drop''。</entry>
+    <entry key="NoFailNumSigmaNameValue">对于数值标量偏移，''FailureTreatment'' 值必须为 ''drop''。</entry>
+    <entry key="PartialConvergence">只有 {0,number,integer} 个(共 {1,number,integer} 个)请求的奇异值收敛。未收敛的奇异值为 NaN。</entry>
+    <entry key="PartialConvKeep">只有 {0,number,integer} 个(共 {1,number,integer} 个)请求的奇异值收敛。请指定收敛标志输出以确定未收敛的值。</entry>
+    <entry key="PartialConvDrop">只有 {0,number,integer} 个(共 {1,number,integer} 个)请求的奇异值收敛。未收敛的奇异值已删除。</entry>
+    <entry key="SigmaZero">结果可能不准确。要计算最接近 0 的奇异值，请改用选项 ''smallest''。</entry>
+    <entry key="BadResidual">检测到较大的残差范数。这可能是因为输入矩阵为病态矩阵(条件数 {0})。</entry>
+    <entry key="MultNotCorrectLargest">返回的奇异值可能不是最大的。请增加 ''MaxIterations'' 值。</entry>
+    <entry key="MultNotCorrectSmallest">返回的奇异值可能不是最小的。请增加 ''MaxIterations'' 值。</entry>
+    <entry key="SigmaTooSmall">仅找到 {0} 个奇异值。请尝试增加标量偏移 SIGMA。</entry>
+    <entry key="InvalidArg3">第三个参数必须为实数标量或字符 ''L''。</entry>
+    <entry key="Arg4NotOptionsStruct">选项必须为结构体。</entry>
+    <entry key="Title">奇异值分解 A*v = sigma*u、A'*u = sigma*v</entry>
+    <entry key="KandSigmaLargest">正在计算 {1}×{2} 矩阵 A 的 {0} 个最大奇异值。</entry>
+    <entry key="KandSigmaSmallest">正在计算 {1}×{2} 矩阵 A 的 {0} 个最小奇异值。</entry>
+    <entry key="KandSigmaSmallestNz">正在计算 {1}×{2} 矩阵 A 的 {0} 个最小非零奇异值。</entry>
+    <entry key="KandSigmaNum">正在计算 {1}×{2} 矩阵 A 的 {0} 个最接近 {3} 的奇异值。</entry>
+    <entry key="ListParam">参数:\n 最大迭代数: {0}\n 容差: {1}\n 子空间维度: {2}</entry>
+    <entry key="SVDFallbackLargest">通过调用 SVD 来计算 SVDS，因为子空间维度等于最小矩阵大小。</entry>
+    <entry key="SVDFallbackSmallest">通过调用 SVD 来计算 SVDS，因为子空间维度大于或等于矩阵 R 的大小。</entry>
+    <entry key="EquationLargest">求以下方程求的最大奇异值: A*v = sigma*u、A'*u = sigma * v。</entry>
+    <entry key="EquationSmallest">求以下方程的最大奇异值: R\\v = sigma*u、R'\\u = sigma * v，A = Q*R*P。\n计算 A 的 QR 分解...</entry>
+    <entry key="EquationSmallestTransp">求以下方程的最大奇异值: R\\v = sigma*u、R'\\u = sigma * v，A' = Q*R*P。\n计算 A' 的 QR 分解...</entry>
+    <entry key="EquationNumeric">求最接近矩阵 [0 A; A' 0]*x = lambda*x 的 {0} 的特征值。调用 EIGS 以计算特征值...</entry>
+    <entry key="RankSmallestAllZero">矩阵 A 的秩为 {0}，因此所有 {1} 个请求的奇异值都为零。</entry>
+    <entry key="RankSmallestSomeZero">矩阵 A 的秩为 {0}，因此 {1} 个(共 {2} 个)请求的奇异值为零。</entry>
+    <entry key="RankSmallestNzTooFew">矩阵 A 的秩为 {0}，因此只能返回 {1} 个非零奇异值，而不是请求的 {2} 个。</entry>
+    <entry key="ResidualCheck">怀疑条件错误。请使用 A 而不是矩阵 R 从 QR 分解检查残差。最大相对残差: {0}</entry>
+    <entry key="StartLanczosBD">启动 Lanczos 双对角化方法</entry>
+    <entry key="LanczosBDIter">迭代 {0}: {1} 个(共 {2} 个)奇异值已收敛。最小的未收敛残差 {3} (容差 {4})。</entry>
+    <entry key="LanczosBDLastIter">迭代 {0}: {1} 个(共 {2} 个)奇异值已收敛。</entry>
+    <entry key="CheckMult">要检查是否遗漏了奇异值重数，请重新启动该方法，并查找 k+1 个奇异值。</entry>
+    <entry key="MultCheckSuccess">未找到额外的多个奇异值。已成功返回。</entry>
+    <entry key="MultCheckRepeat">已找到额外的多个奇异值。请再次重新启动以检查更多奇异值。</entry>
+    <entry key="SingValsFromEigVals">为奇异值找到 {0} 个候选项: {1} 个为正数，{2} 个近似为零。</entry>
+    <entry key="ResidualDecisionAccept">检查奇异值候选项的残差: 已全部接受。</entry>
+    <entry key="ResidualDecision">检查奇异值候选项的残差: {0} 个不够精确(大于或等于 {1})。</entry>
+  </message>
+</rsccat>

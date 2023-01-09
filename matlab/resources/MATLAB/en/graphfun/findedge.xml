@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="EdgeBounds">Edge indices must be positive integers not greater than the number of edges in the graph ({0}).</entry>
+    <entry key="NoNodeNames">Graph does not contain node names.</entry>
+    <entry key="UnknownNodeName">Graph does not contain a node named ''{0}''.</entry>
+    <entry key="InconsistentNodeNames" note="stringDatatypeUpdate">Node IDs must both be numeric or both be node names.</entry>
+    <entry key="maxLHS">Too many output arguments. When called with 3 input arguments, findedge returns one output argument.</entry>
+    <entry key="minLHS">Must use two outputs with this syntax.</entry>
+    <entry key="minRHS">Not enough input arguments.</entry>
+    <entry key="nonNumericEdges">Edge indices must be numeric.</entry>
+    <entry key="CodegenComplexEdges">Edge indices must be real.</entry>
+  </message>
+</rsccat>

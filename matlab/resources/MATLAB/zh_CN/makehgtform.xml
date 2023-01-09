@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadTransformType">未知的转换类型: {0}</entry>
+    <entry key="InvalidParamTranslateNumeric">translate 的参数必须为数值</entry>
+    <entry key="InvalidParamTranslate3D">translate 的参数必须为 3 维</entry>
+    <entry key="InvalidParamTranslateFinite">translate 的参数必须为有限值</entry>
+    <entry key="InvalidParamScaleNumeric">scale 的参数必须为数值</entry>
+    <entry key="InvalidParamScaleFactor1D3D">缩放因子必须为 1 维或 3 维</entry>
+    <entry key="InvalidParamScaleFactorFinite">缩放因子必须为有限值</entry>
+    <entry key="InvalidParamScaleFactorPositive">缩放因子必须为正数</entry>
+    <entry key="InvalidParamXrotateNumeric">xrotate 的参数必须为数值</entry>
+    <entry key="InvalidParamRotationScalar">旋转角度必须为标量</entry>
+    <entry key="InvalidParamRotationFinite">旋转角度必须为有限值</entry>
+    <entry key="InvalidParamYrotateNumeric">yrotate 的参数必须为数值</entry>
+    <entry key="InvalidParamZrotate">zrotate 的参数必须为数值</entry>
+    <entry key="InvalidParamAxisRotateNumeric">axisrotate 的参数必须为数值</entry>
+    <entry key="BadAxis3D">旋转轴必须为 3 维</entry>
+    <entry key="BadAxisFinite">旋转轴必须为有限值</entry>
+    <entry key="UnrecognizedArg">参数无法识别: {0}</entry>
+    <entry key="InvalidArg">参数无效</entry>
+  </message>
+</rsccat>

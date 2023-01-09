@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidInputType">Input argument must be of type figure</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="InvalidSecondInputType">Second input must be numeric</entry>
+    <entry key="InvalidSecondInputValue">Timeout value cannot be less than one second thus changing timeout value to one second.</entry>
+  </message>
+</rsccat>

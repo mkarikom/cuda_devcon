@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadEndNodes">表中的第一个变量必须是 2 列数值数组或节点名称的 2 列数组(元胞或字符串)。</entry>
+    <entry key="DuplicateEdge">不支持重复的边。 </entry>
+    <entry key="DuplicateEndNodes">EndNodes 的定义重复。请使用两个输入或从 EdgeTable 中删除变量 EndNodes。</entry>
+    <entry key="EdgeExists">边({0}, {1})已位于图形中。</entry>
+    <entry key="FourthInput">数据类型无效。权重必须为双精度或单精度值。</entry>
+    <entry key="InconsistentNodeNames">节点 ID 必须均为数值向量、均为节点名称(指定为字符串向量、字符向量或字符向量元胞数组)，或者均为分类值。</entry>
+    <entry key="InvalidNodeID">数值节点 ID 必须为正整数。</entry>
+    <entry key="NoOutput">输入图形未修改。请使用输出参数返回修改后的图形。</entry>
+    <entry key="NoWeights">无法向未加权的图形中添加加权的边。</entry>
+    <entry key="NumWeightsMismatch">Weights 参数必须具有对应于每个指定边的元素，或者可以为标量。</entry>
+    <entry key="SpecifyWeight">向加权图形中添加边时必须指定权重。</entry>
+    <entry key="TableFirstVar">表中的第一个变量必须为 EndNodes。</entry>
+    <entry key="TableMaxRHS">边表必须为最后一个参数。</entry>
+    <entry key="TableSize">边表必须至少包含一列。</entry>
+  </message>
+</rsccat>

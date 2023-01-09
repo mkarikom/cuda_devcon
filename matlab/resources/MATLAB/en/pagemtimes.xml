@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invalidOption">Option must be ''transpose'', ''ctranspose'' or ''none''.</entry>
+    <entry key="invalidArray">Invalid data types. Input arrays must be double or single.</entry>
+    <entry key="sparseNotSupported">Sparse inputs are not supported.</entry>
+    <entry key="threeInputNotSupported">Incorrect number of input arguments. Specify either two or four input arguments.</entry>
+    <entry key="mismatchPageDimensions">Incorrect dimensions for matrix multiplication. Check that the number of columns in the first array matches the number of rows in the second array.</entry>
+    <entry key="mismatchImplicitExpansion">Arrays have incompatible sizes. For every dimension beyond the first two, the dimension sizes for both arrays must either be the same, or one of them must be 1.</entry>
+  </message>
+</rsccat>

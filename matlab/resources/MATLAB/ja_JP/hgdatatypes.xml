@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidMarkerLineStyle">値 ''{0}'' は有効なライン スタイルではありません。</entry>
+    <entry key="NotEnoughStyles">少なくとも 1 つのライン スタイルが存在しなければなりません。</entry>
+    <entry key="InvalidInput">値は ''|'' で区切られた文字ベクトル、string 配列、または文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="TextPositionConversionError">TextPosition の配列要素を NaN または Inf にはできません。</entry>
+    <entry key="matlab_graphics_datatype_FontWeight_demi">中太</entry>
+    <entry key="matlab_graphics_datatype_FontWeight_light">細</entry>
+    <entry key="matlab_graphics_datatype_FontWeight_normal">ノーマル</entry>
+    <entry key="matlab_graphics_datatype_FontWeight_bold">太</entry>
+    <entry key="matlab_graphics_datatype_FontAngle_oblique">斜体</entry>
+    <entry key="matlab_graphics_datatype_FontAngle_normal">ノーマル</entry>
+    <entry key="matlab_graphics_datatype_FontAngle_italic">イタリック</entry>
+    <entry key="matlab_graphics_datatype_BarLayout_grouped">グループ化</entry>
+    <entry key="matlab_graphics_datatype_BarLayout_stacked">スタック</entry>
+    <entry key="matlab_graphics_chart_datatype_BarLayoutType_grouped">グループ化</entry>
+    <entry key="matlab_graphics_chart_datatype_BarLayoutType_stacked">スタック</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_none">なし</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_plain">平面</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_diamond">菱形</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_rectangle">四角形</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_ellipse">楕円</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_rose">バラ形</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_hypocycloid">内サイクロイド</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_astroid">星芒形</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_deltoid">デルタ字形</entry>
+    <entry key="matlab_graphics_datatype_AutoManual_auto">自動</entry>
+    <entry key="matlab_graphics_datatype_AutoManual_manual">手動</entry>
+    <entry key="matlab_graphics_datatype_AxisScale_linear">線形</entry>
+    <entry key="matlab_graphics_datatype_AxisScale_log">対数</entry>
+    <entry key="matlab_graphics_datatype_AxisXLocation_bottom">下</entry>
+    <entry key="matlab_graphics_datatype_AxisXLocation_top">上</entry>
+    <entry key="matlab_graphics_datatype_AxisXLocation_origin">原点</entry>
+    <entry key="matlab_graphics_datatype_AxisYLocation_left">左</entry>
+    <entry key="matlab_graphics_datatype_AxisYLocation_right">右</entry>
+    <entry key="matlab_graphics_datatype_AxisYLocation_origin">原点</entry>
+    <entry key="matlab_graphics_datatype_FontUnits_inches">インチ</entry>
+    <entry key="matlab_graphics_datatype_FontUnits_centimeters">センチメートル</entry>
+    <entry key="matlab_graphics_datatype_FontUnits_normalized">正規化</entry>
+    <entry key="matlab_graphics_datatype_FontUnits_points">ポイント</entry>
+    <entry key="matlab_graphics_datatype_FontUnits_pixels">ピクセル</entry>
+    <entry key="matlab_graphics_datatype_HorizontalAlignment_left">左</entry>
+    <entry key="matlab_graphics_datatype_HorizontalAlignment_center">中央</entry>
+    <entry key="matlab_graphics_datatype_HorizontalAlignment_right">右</entry>
+    <entry key="matlab_graphics_datatype_CDataMapping_direct">direct -- Figure のカラーマップのインデックス</entry>
+    <entry key="matlab_graphics_datatype_LightStyle_infinite">無限大</entry>
+    <entry key="matlab_graphics_datatype_LightStyle_local">ローカル</entry>
+    <entry key="matlab_graphics_chart_datatype_LegendOrientationType_horizontal">水平方向</entry>
+    <entry key="matlab_graphics_chart_datatype_LegendOrientationType_vertical">垂直方向</entry>
+    <entry key="matlab_graphics_datatype_LineStyle_none">なし</entry>
+    <entry key="matlab_graphics_datatype_MarkerStyle_square">正方形</entry>
+    <entry key="matlab_graphics_datatype_MarkerStyle_diamond">菱形</entry>
+    <entry key="matlab_graphics_datatype_MarkerStyle_pentagram">星型五角形</entry>
+    <entry key="matlab_graphics_datatype_MarkerStyle_hexagram">星型六角形</entry>
+    <entry key="matlab_graphics_datatype_MarkerStyle_none">なし</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_vback1">vback1</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_vback2">vback2</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_vback3">vback3</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_cback1">cback1</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_cback2">cback2</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_cback3">cback3</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_fourstar">fourstar</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_star4">star4</entry>
+    <entry key="matlab_graphics_datatype_CDataMapping_scaled">scaled</entry>
+  </message>
+</rsccat>

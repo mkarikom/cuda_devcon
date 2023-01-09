@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">입력값은 파일 이름 또는 URL이어야 합니다.</entry>
+    <entry key="DoctypeDisabled">{0}은(는) XML DOCTYPE 선언을 포함합니다. DOCTYPE 선언을 포함하는 XML 문서를 읽을 수 있으려면 'AllowDoctype'을 true로 설정하십시오.</entry>
+  </message>
+</rsccat>

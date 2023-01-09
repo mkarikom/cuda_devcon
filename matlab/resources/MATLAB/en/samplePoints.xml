@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Copyright 2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="SamplePointsComplex">''SamplePoints'' value must be real.</entry>
+    <entry key="SamplePointsDatetimeLinear">''SamplePoints'' of type datetime not supported when method is ''linear''.</entry>
+    <entry key="SamplePointsDuplicate">''{0}'' value contains duplicates.</entry>
+    <entry key="SamplePointsFunctionHandle">''SamplePoints'' function handle must return a logical scalar.</entry>
+    <entry key="SamplePointsInvalidDatatype">''SamplePoints'' value must be a vector of type double, single, duration, or datetime.</entry>
+    <entry key="SamplePointsLength">''SamplePoints'' value must be a {0,number,integer}-element vector.</entry>
+    <entry key="SamplePointsNonDuration">Window length argument must be a duration scalar or a 2-element duration vector when ''SamplePoints'' value is a datetime or duration vector.</entry>
+    <entry key="SamplePointsNonFinite">{0} value must not contain Inf or {1}.</entry>
+    <entry key="SamplePointsSingle">''SamplePoints'' of type single are not supported for duration and datetime arrays.</entry>
+    <entry key="SamplePointsSorted">''{0}'' value must be sorted in ascending order.</entry>
+    <entry key="SamplePointsSparse">''SamplePoints'' value must be full.</entry>
+    <entry key="SamplePointsTableSubscript">Invalid ''SamplePoints'' table subscript.</entry>
+    <entry key="SamplePointsTimeTable">''SamplePoints'' parameter not supported when first argument is a timetable.</entry>
+  </message>
+</rsccat>

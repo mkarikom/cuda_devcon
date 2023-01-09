@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badstartdate">추가하려는 시계열에 유효한 StartDate 속성이 있어야 합니다.</entry>
+    <entry key="ignorestartdate">tscollection이 날짜를 사용하지 않으므로 추가하려는 시계열의 StartDate 속성이 무시되었습니다.</entry>
+    <entry key="badtime">추가하려는 시계열의 시간 벡터가 tscollection 시간 벡터와 일치해야 합니다.</entry>
+    <entry key="classchange">추가된 시계열의 TimeInfo 속성이 tscollection에 맞게 변경되었습니다.</entry>
+  </message>
+</rsccat>

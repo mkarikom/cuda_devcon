@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="notSparse">피벗 임계값 인수는 입력 행렬이 희소 행렬일 때만 지원됩니다.</entry>
+    <entry key="pivotThreshold">피벗 임계값 인수는 0과 1 사이(구간의 끝점 포함)여야 합니다.</entry>
+    <entry key="pivotSize">피벗 임계값 인수는 스칼라이거나 길이가 2인 벡터여야 합니다.</entry>
+    <entry key="inputMustBe2D">배열은 2차원이어야 합니다.</entry>
+    <entry key="inputType">유효하지 않은 데이터형입니다. 첫 번째 인수는 double형이거나 single형이어야 합니다.</entry>
+    <entry key="pivotThresholdType">유효하지 않은 데이터형입니다. 피벗 임계값은 double형 또는 single형이어야 합니다.</entry>
+    <entry key="nonScalarPivotThresh">3개의 출력값이 지정된 경우 피벗 임계값은 스칼라여야 합니다.</entry>
+    <entry key="DenseTwoInputOnly">Too many input arguments. For dense input matrices, you can specify one or two input arguments.
+    </entry>
+    <entry key="DenseThreeOutputOnly">Fourth output only available for sparse input matrices.</entry>
+  </message>
+</rsccat>

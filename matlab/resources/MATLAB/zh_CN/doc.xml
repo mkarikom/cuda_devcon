@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="HelpErrorPageNotFound">未找到 {0}。</entry>
+    <entry key="InvalidTopic">无效的文档主题: {0}</entry>
+    <entry key="DocNotInstalled">此帮助位置未安装任何产品。\n不与某个产品关联的文档将不会显示在帮助浏览器中。</entry>
+    <entry key="CreatedSearchDatabase">已成功创建了搜索数据库。</entry>
+    <entry key="SpecifiedDirectoryDoesNotExist">指定的目录不存在。</entry>
+    <entry key="CouldNotWriteSearchDatabase">无法写入搜索数据库。</entry>
+    <entry key="UnsupportedPlatform">{0} 当前不可用。</entry>
+    <entry key="MustBeSingleString">字符串输入必须为标量。</entry>
+    <entry key="FileDoesNotExist">{0} 不存在。</entry>
+    <entry key="PatchedDemoXmlFile">已成功填充 demos.xml 文件。</entry>
+    <entry key="NoCharDataInDemoXmlFile">demos.xml 文件中没有字符数据。</entry>
+  </message>
+</rsccat>

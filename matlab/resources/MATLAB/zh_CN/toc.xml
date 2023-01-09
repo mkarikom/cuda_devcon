@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badTictocGlobal">Global TICTOC 必须是由 CLOCK 返回的向量。</entry>
+    <entry key="wrongTocArgument">TOC 的参数必须为 uint64 标量。</entry>
+    <entry key="callTicFirst">必须先调用 TIC，然后再调用 TOC。</entry>
+    <entry key="callTicFirstNoInputs">必须先调用不带输出参数的 TIC，然后再调用不带输入参数的 TOC。</entry>
+  </message>
+</rsccat>

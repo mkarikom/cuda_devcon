@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="indexOutOfRange">The member index must be integers between 1 and the total number of members of the tscollection.</entry>
+    <entry key="notMember">One or more of the specified time series are not members of the tscollection.</entry>
+    <entry key="depthExceedsTwo">Sub-referencing depth cannot exceed two.</entry>
+    <entry key="badSep">Use a colon operator or a numeric index to specify the samples in the time series.</entry>
+    <entry key="badIndex">Each time index must be an integer between 1 and the tscollection length.</entry>
+  </message>
+</rsccat>

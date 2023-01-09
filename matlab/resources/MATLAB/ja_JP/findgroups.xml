@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CharData">文字配列はグループ化変数として使用できません。まず、cellstr を使用して文字配列を文字ベクトルのセル配列に変換します。その後、セル配列をグループ化変数として指定してください。</entry>
+    <entry key="GroupingVarNotVector">グループ化変数はベクトルでなければなりません。</entry>
+    <entry key="GroupTypeIncorrect">クラス ''{0}'' のグループ化変数はサポートされていません。</entry>
+    <entry key="InputSizeMismatch">すべてのグループ化変数は同じサイズでなければなりません。</entry>
+    <entry key="VarUniqueMethodFailed">入力変数の固有の値を使用した行のグループ化ができません。UNIQUE はエラーを返しました。</entry>
+    <entry key="VarUniqueMethodFailedNumRows">入力変数の固有の値を使用した行のグループ化ができません。UNIQUE メソッドで返された値の行数が正しくありません。</entry>
+  </message>
+</rsccat>

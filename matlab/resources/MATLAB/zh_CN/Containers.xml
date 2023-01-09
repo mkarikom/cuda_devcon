@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TypeMismatch">指定的 {0} 类型与此容器所需的类型不匹配。</entry>
+    <entry key="NaNNotAllowed">此容器不允许使用 NaN 值 {0}。</entry>
+    <entry key="InvalidParentToChild">您正尝试将父属性设置为后代子对象。</entry>
+  </message>
+</rsccat>

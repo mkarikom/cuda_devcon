@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="WhatsThis">What''s This</entry>
+      <entry key="CreateNewTimeSeriesWithName">Create a new time series with the name</entry>
+      <entry key="EnterNameOfTimeSeriesObjectToBeImported">Key in the name of the time series object to be imported.</entry>
+      <entry key="CreateSeveralTimeSeries">Create several time series using</entry>
+      <entry key="NamesInDataSource">names in data source</entry>
+      <entry key="CommonNameAndNumber">common name + number</entry>
+      <entry key="TimeseriesRowcolumnVariableNamesOption">If a row/column contains variable names and you want to use them for the time series objects, select the first drop-down menu item, otherwise, select the second menu item.</entry>
+      <entry key="SpecifyRow">Specify row</entry>
+      <entry key="SpecifyColumn">Specify column</entry>
+      <entry key="KeyInRowNumbercolumnLetterOrCommonPart">Key in the row number/column letter. Or specify the common part of the names for the time series objects.</entry>
+      <entry key="AppendDataToAnExistingTimeSeries">Append data to an existing time series</entry>
+      <entry key="SelectTimeSeriesObjectFromList">Select a time series object from the drop-down list and insert selected data samples</entry>
+      <entry key="RefreshList">Refresh List</entry>
+      <entry key="CommonName">Common name</entry>
+   </message>
+</rsccat>

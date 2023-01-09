@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="DesktopQueryFailure">Failed to query the Desktop</entry>
+    <entry key="DesktopFailure">Failed to open Desktop</entry>
+  <!--Resource entries for toolbox/matlab/general-->
+    <entry key="FirstArgInvalid">DESKTOP input argument must be ''-inuse'' or ''-norestore''</entry>
+  </message>
+</rsccat>

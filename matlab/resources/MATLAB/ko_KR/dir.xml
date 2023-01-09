@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="filesFoundIn">파일을 찾은 위치: {0}</entry>
+    <entry key="filesFoundInCurrentFolder">현재 폴더에서 찾은 파일:</entry>
+    <entry key="fileOrDirNotFound">''{0}''을(를) 찾을 수 없습니다.</entry>
+    <entry key="invalidGlob">** 와일드카드 바로 옆에 있는 문자는 파일 구분 기호여야 합니다.</entry>
+    <entry key="locationEmpty">위치가 비어 있습니다.</entry>
+    <entry key="noPatternMatches">패턴 ''{0}''과(와) 일치하는 항목이 없습니다.</entry>
+    <entry key="pathnameTooLong">''{0}'' 경로 이름이 너무 깁니다.</entry>
+    <entry key="SuccessiveGlobs">재귀적 패턴 ''**''는 파일 구분 기호로만 구분되는 경우 두 번 이상 지정할 수 없습니다.</entry>
+  </message>
+</rsccat>

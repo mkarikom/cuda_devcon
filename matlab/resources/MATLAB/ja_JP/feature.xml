@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="duplicateFeature">機能 ''{0}'' は既に登録されています。</entry>
+    <entry key="failedToAddFeature">機能を追加できません: {0}.</entry>
+    <entry key="FeatureCallCount">機能名は文字ベクトルでなければなりません</entry>
+    <entry key="unknownFeature">機能 {0} が見つかりません</entry>
+    <entry key="InterestDispatchInDrawnow">InterestDispatchInDrawnow に対する値が無効です。有効な値は [0,1] です。</entry>
+    <entry key="InstrumentDroppedMessages">InstrumentDroppedMessages の値が無効です。有効な値は [1,2] です。</entry>
+    <entry key="featureTestError">割り込みを有効にする必要があります - 前のテストで utSetInterruptEnabled の状態が false になりました</entry>
+    <entry key="wrongInput">入力は文字ベクトルかスカラーの double のいずれかでなければなりません</entry>
+    <entry key="EnableJavaAsGObject">EnableJavaAsGObject に対する値が無効です。有効な値は [0:4] です。</entry>
+  </message>
+</rsccat>

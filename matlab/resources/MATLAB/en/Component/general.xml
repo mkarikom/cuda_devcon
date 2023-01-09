@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright 2019-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="UnknownDependency" translate="false">Cannot use component {0} because it depends on an unknown component {1}.</entry>
+    <entry key="UnregisteredComponent" translate="false">Unregistered component with identifier {0} and version {1}.</entry>
+    <entry key="ResourceFileIsInvalid" translate="false">Cannot register component at {0} because file {1} is invalid.</entry>
+    <entry key="HandleToUnregisteredComponent" translate="false">handle to unregistered component {0} with identifier {1} and version {2}</entry>
+    <entry key="ComparisonNotDefined" translate="false">Comparison between {0} and {1} is not supported.</entry>
+    <entry key="StringOrCharExpected" translate="false">Argument must be a string or a character vector.</entry>
+    <entry key="ComponentClaimsFolderOnSearchPath" translate="false">The following folder(s) claimed by the component are on the MATLAB search path:\n\n{0}</entry>
+    <entry key="ComponentClaimsOtherComponentFolders" translate="false">The following folder(s) claimed by the component are already claimed by other component(s):\n\n{0}</entry>
+    <entry key="AmbiguousFunctionName" translate="false">Reference to function ''{0}'' at this location is ambiguous.\nDefinitions of the function are exported by the following components:\n\n{1}</entry>
+    <entry key="CanUseSearchSpaceBeingFalseIsUnsupported" translate="false">The property 'CanUseSearchSpace' is unsupported in this beta release of MATLAB. Components with 'CanUseSearchSpace' set to false may not work as expected. We suggest setting the 'CanUseSearchSpace' property to true.</entry>
+  </message>
+</rsccat>

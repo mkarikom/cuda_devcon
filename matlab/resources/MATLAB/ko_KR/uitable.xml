@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DeprecatedFunction">uitable 구현은 더 이상 사용되지 않으며 지원되지 않습니다.</entry>
+    <entry key="InputMustBeScalar">UITABLE을 사용할 때 numrows 및 numcols는 숫자형 스칼라여야 합니다.</entry>
+    <entry key="MustMatchInfo">열 이름 개수는 데이터의 열 개수와 일치해야 함</entry>
+    <entry key="InvalidCellArray">UITABLE을 사용할 때 열 데이터는 1xn 셀형 배열이어야 합니다.</entry>
+    <entry key="NumrowsMustBeScalar">numrows는 스칼라여야 합니다.</entry>
+    <entry key="NumcolumnsMustBeScalar">numcolumns는 스칼라여야 합니다.</entry>
+    <entry key="InvalidString">gridcolor는 유효한 문자형 벡터여야 함</entry>
+    <entry key="RowheightMustBeScalar">rowheight는 스칼라여야 합니다.</entry>
+    <entry key="InvalidParent">부모는 유효한 핸들이어야 합니다.</entry>
+    <entry key="ParentMustBeFigureOrUIContainer">부모는 Figure 또는 UIContainer여야 함</entry>
+    <entry key="InvalidPosition">위치는 1x4 숫자형 배열이어야 합니다.</entry>
+    <entry key="ColumnwidthMustBeScalar">columnwidth는 스칼라여야 합니다.</entry>
+    <entry key="NoDataProvided">ColumnNames와 함께 제공된 데이터가 없음</entry>
+    <entry key="OldTableUsage">더 이상 사용되지 않는 uitable 버전을 사용하고 있습니다.\n다음 명령으로 도움말(help 명령)이나 도움말 문서(doc 명령)를 참조해 올바른 uitable을 사용하십시오.\n &lt;a href="{0}"&gt;help uitable&lt;/a&gt; 및 &lt;a href="{1}"&gt;doc uitable&lt;/a&gt;\n\n자세한 내용은 &lt;a href="{2}"&gt;여기&lt;/a&gt;를 클릭하십시오.\n</entry>
+    <entry key="ColumnFormatNotSupported">''Data'' 값이 table형 배열인 경우 ''ColumnFormat'' 값은 아무런 영향을 미치지 않습니다.</entry>
+    <entry key="FailedMxArrayCreate">MCOS mxArray를 만들 수 없습니다.</entry>
+    <entry key="BadArguments">인수는 Figure, uicontainer 또는 uitable 핸들 및 파라미터/값 쌍만 포함할 수 있습니다.</entry>
+    <entry key="BadHandle">유효하지 않은 figure 또는 uitable 핸들임</entry>
+    <entry key="NeedSameNumberColumns">Data 및 ColumnNames의 열 개수는 일치해야 합니다.</entry>
+    <entry key="getPrintImage">getPrintImage는 유효한 uitable 핸들에서 호출되어야 합니다.</entry>
+    <entry key="getGUIDEView">getGUIDEView는 유효한 uitable 핸들에서 호출되어야 합니다.</entry>
+    <entry key="TableDataNotEditable">이 위치에서는 테이블 데이터를 편집할 수 없습니다.</entry>
+    <entry key="NonEditableDataTypes">Data가 table형 배열인 경우 ColumnEditable은 다음 데이터형을 갖는 단일 벡터로 구성된 열에 대해서만 true일 수 있습니다.\n숫자형, 논리형, datetime형, categorical형, string형 또는 문자형 벡터로 구성된 셀형 배열.
+</entry>
+  </message>
+</rsccat>

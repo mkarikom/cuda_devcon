@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="DataDimensionError">Data cannot have more than 2 dimensions.</entry>
+    <entry key="IgnoreImaginaryXYZPart">Imaginary parts of complex X, Y, and/or Z arguments ignored.</entry>
+    <entry key="IgnoreImaginaryXYPart">Imaginary parts of complex X and/or Y arguments ignored.</entry>
+    <entry key="InvalidSwitchCasePlotFcn">Internal error in gsPlotFcn (must be an assertion).\nUnknown function number in gsPlotFcn.</entry>
+    <entry key="UnrecognizedLineStyleParameter">Invalid color or line style.</entry>
+    <entry key="VectorLengthMismatch">Vectors must be the same length.</entry>
+    <entry key="ParentAxesDestroyedDuringCreation">Parent axes destroyed during {0} creation.</entry>
+    <entry key="ObjectDestroyedDuringCreation">{0} destroyed during creation.</entry>
+    <entry key="InvalidSwitchCase">Internal error in {0} (must be an assertion).\nUnknown function number in {1}.</entry>
+    <entry key="InvalidFirstInput">Invalid first data argument.</entry>
+    <entry key="DataPairsMismatch">Data must be a single input of y-values or one or more pairs of x- and y-values.</entry>
+    <entry key="DataDimesionError">Data cannot have more than 2 dimensions.</entry>
+    <entry key="IllegalPropValuePair">Illegal parameter-value pair.</entry>
+    <entry key="ParentDestroyedDuringCreation">Parent destroyed during line creation.</entry>
+    <entry key="InvalidPropertyValue">Invalid property value.</entry>
+    <entry key="NoRulerForFormat">The specified custom tick format requires plotting data with class ''{0}''.</entry>
+    <entry key="missingpackage">Unable to find the proper \"@graph2d\" directory.</entry>
+    <entry key="ImaginaryPartsOfXYAndOrZIgnored">Imaginary parts of complex X, Y, and/or Z arguments ignored.</entry>
+    <entry key="ImaginaryPartsOfXAndOrYIgnored">Imaginary parts of complex X and/or Y arguments ignored.</entry>
+    <entry key="ArgNameValueMismatch">Trailing input arguments must occur in name-value pairs.</entry>
+    <entry key="InvalidTallData">Tall inputs must be real column vectors.</entry>
+    <!--Resource entries for src/hgbuiltins-->
+    <entry key="minrhs">Not enough input arguments.</entry>
+    <entry key="maxrhs">Too many input arguments.</entry>
+    <entry key="samelen">Vectors must be the same length.</entry>
+    <entry key="IgnoringArgument">Ignoring the {0} argument to {1}.  This will become an error in a future release.</entry>
+    <!--Resource entries for src/hg-->
+    <entry key="DeprecatedV6Argument">The ''v6'' argument to {0} is deprecated, and will no longer be supported in a future release.</entry>
+    <entry key="DeprecatedGroupArgument">The ''group'' argument to {0} is not necessary, and will no longer be supported in a future release.</entry>
+    <entry key="BadPropertyValueFound">Bad property value found.</entry>
+    <entry key="AmbiguousPropertyFound">Ambiguous property found.</entry>
+    <entry key="XNotMonotonicIncreasing">X must be monotonically increasing and contain only non-missing data. Use SCATTER or BINSCATTER to plot data where X is nonincreasing.</entry>
+  </message>
+</rsccat>

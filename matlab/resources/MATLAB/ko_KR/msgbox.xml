@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="interpreter">텍스트 속성에 대한 잘못된 값임: ''Interpreter''</entry>
+    <entry key="colormap">5개의 입력 인수로 MSGBOX를 호출할 경우 컬러맵을 지정해야 합니다.</entry>
+    <entry key="customicon">MSGBOX에 아이콘 데이터를 지정할 경우 아이콘은 ''custom''이 되어야 함</entry>
+    <entry key="icondata">아이콘이 ''custom''일 경우에는 아이콘 데이터를 지정해야 합니다.</entry>
+    <entry key="iconstring">MSGBOX에 지정한 아이콘 문자형 벡터가 유효하지 않습니다.</entry>
+    <entry key="IncorrectIconDataType">아이콘이 ''custom''일 경우에는 해당 아이콘에 대해 숫자형 데이터를 지정해야 합니다.</entry>
+    <entry key="IncorrectIconColormap">아이콘이 ''custom''일 경우 컬러맵은 double형, float형, 희소 형식으로 구성된 배열이어야 합니다.</entry>
+    <entry key="InvalidInput">마지막 입력 인수를 구조체로 전달할 경우 Interpreter 필드와 WindowStyle 필드를 지정해야 합니다.</entry>
+  </message>
+</rsccat>

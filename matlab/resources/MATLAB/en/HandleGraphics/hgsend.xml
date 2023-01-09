@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invalidCallback">\"{0}\" is an unrecognized callback.</entry>
+    <entry key="NoScrollCount">VerticalScrollCount must be specified when providing the EventData structure.</entry>
+    <entry key="VerticalScrollCountNotScalar">VerticalScrollCount must be scalar.</entry>
+    <entry key="VerticalScrollCountNotNumeric">VerticalScrollCount must be numeric (typically an integer).</entry>
+    <entry key="NoScrollAmount">VerticalScrollAmount must be specified when providing the EventData structure.</entry>
+    <entry key="VerticalScrollAmountNotScalar">VerticalScrollAmount must be scalar.</entry>
+    <entry key="VerticalScrollAmountNotNumeric">VerticalScrollAmount must be numeric (typically a positive integer).</entry>
+    <entry key="invalidSelectionType">Invalid SelectionType. Valid values are ''normal'', ''open'', ''extend'', and ''alt''</entry>
+    <entry key="NoSelectionType">SelectionType must be specified when providing the EventData structure.</entry>
+    <entry key="EmptySelectionType">SelectionType must not be empty.</entry>
+    <entry key="MustBeChar" note="stringDatatypeUpdate">'SelectionType' value must be ''normal'', ''extend'', ''alt'', or ''open''.</entry>
+    <entry key="StringTooLong">Invalid SelectionType. Valid values are ''normal'', ''open'', ''extend'', and ''alt''</entry>
+    <entry key="NoCurrentPixelPoint">CurrentPixelPoint must be specified when providing the EventData structure.</entry>
+    <entry key="EmptyCurrentPixelPoint">CurrentPixelPoint must not be empty.</entry>
+    <entry key="CurrentPixelPointNotNumeric">CurrentPixelPoint must be a numeric value.</entry>
+    <entry key="CurrentPixelPointWrongSize">CurrentPixelPoint should be a 1x2 double array in pixel units</entry>
+    <entry key="CurrentPixelPointOverflow">CurrentPixelPoint is too large.</entry>
+    <entry key="KeyNotProvided">Key must be specified when providing the EventData structure.</entry>
+    <entry key="InvalidKey" note="stringDatatypeUpdate">Key value must be an empty array, a string scalar, or a character vector of a key name, such as ''A'', ''B'', ''return'', ''escape'', and so on.</entry>
+    <entry key="TabIndexNotScalarNumeric">Tab index must be a scalar numeric value.</entry>
+    <entry key="MustBeTabGroup">Source object of the SelectionChangedFcn must be a uitabgroup.</entry>
+    <entry key="TabIndexOutOfBounds">Specified tab index is out of bounds.</entry>
+    <entry key="NoIndices">Indices must be specified when providing the EventData structure.</entry>
+    <entry key="EmptyIndices">Indices must not be empty.</entry>
+    <entry key="IndicesNotNumeric">Indices must be a numeric value.</entry>
+    <entry key="CellSelectionIndicesWrongSize">Indices should be an nx2 array denoting a valid cell selection</entry>
+    <entry key="CellEditIndicesWrongSize">Indices should be a 1x2 array denoting a valid cell edit target</entry>
+    <entry key="NoEditData">EditData must be specified when providing the EventData structure.</entry>
+    <entry key="EditDataInvalidType" note="stringDatatypeUpdate">'EditData' value must be a string scalar, a character vector, or a logical value.</entry>
+    <entry key="InvalidObject">Invalid HG object</entry>
+    <entry key="MustBeScalar">HG object must be scalar.</entry>
+    <entry key="RootNotSupported">You cannot hgsend anything to the root object.</entry>
+    <entry key="incorrect_usage">Second input to hgsend must be of type char</entry>
+    <entry key="invalidEventData">Event data must be non-empty struct</entry>
+    <entry key="GetError">Unknown error calling get</entry>
+    <entry key="SetError">Unknown error calling set</entry>
+    <entry key="componentShouldBeVisible">Component must be visible before sending Window events to it</entry>
+    <entry key="unsupportedCallback">Event data not supported for callbacks of type {0}</entry>
+    <entry key="InvalidVerticalScrollAmount">Event data must have field VerticalScrollAmount (an integer - typically 1)</entry>
+    <entry key="InvalidVerticalScrollCount">Event data must have field VerticalScrollCount (an integer - typically 1 or -1)</entry>
+    <entry key="InvalidModifiers" note="stringDatatypeUpdate">Event data must have field Modifiers (an empty array, a string scalar, or a cell array with character vectors: control, shift, alt)</entry>
+    <entry key="InvalidCurrentPixelPoint">Event data must have field CurrentPixelPoint (a 1x2 double array - pixel units)</entry>
+    <entry key="UnrecognizedModifier">Invalid option {0}. Specify the modifier as ''control'', ''shift'', or ''alt''.</entry>
+    <entry key="ModifierMustBeChar">Specify the modifier as ''control'', ''shift'', or ''alt''.</entry>
+    <entry key="UnknownEventRecord">Error initializing event record</entry>
+    <entry key="NotHGSendPollable">Cannot find isFinished method on java event. Does this event implement HGSendPOllable?</entry>
+    <entry key="FigureBeingDestroyed">Figure destroyed while waiting for event reply</entry>
+    <entry key="PollingFailure">Timeout waiting for event reply (10s)</entry>
+    <entry key="NotEventChain">In HG2 qehgsend only supports GBT Objects. Please use the higher level qehgtools (qehgclick, qehgtype, qehgdrag, etc) when interacting with axes or axes children.</entry>
+    <entry key="InvalidHandleArray">Invalid handle passed to qehgsend.</entry>
+    <entry key="PropertyNameIsUnrecognised">Property name is Unrecognized.</entry>
+    <entry key="InvalidPropertyFound">Invalid property found.</entry>
+    <entry key="IllformedJavaEvent">A JavaEvent could not be constructed for this component.</entry>
+    <entry key="UnsupportedJavaEvent">The specified event is not supported by the Java Event implementation of hgsend.</entry>
+    <!--Resource entries for src/hgbuiltins-->
+  </message>
+</rsccat>

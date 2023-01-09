@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NdSparseOutput">N 次元スパースの出力配列はサポートされません。</entry>
+    <entry key="sparseInteger">スパースの整数配列演算の処理はサポートされていません。</entry>
+    <entry key="sparseSingle">スパースの単精度配列演算の処理はサポートされていません。</entry>
+    <entry key="InvalidOutputDimensions">指定された関数ハンドルは無効な出力次元の原因となります。関数ハンドルはバイナリの要素単位の関数でなければなりません。</entry>
+    <entry key="InconsistentClass">出力のクラスが一致しません。</entry>
+    <entry key="InconsistentSparsity">出力は、常に非スパースか、常にスパースでなければなりません。</entry>
+    <entry key="NonNumericOutput">出力は数値ではありません。</entry>
+    <entry key="SparseOutput">出力は、入力が full の場合、スパースにはできません。</entry>
+    <entry key="complexAndOrXor">オペランドは &amp;,|,xor に対して実数でなければなりません。</entry>
+    <entry key="complexInts">複素数の整数演算はサポートされていません。</entry>
+    <entry key="integerAtan2">整数の引数は ATAN2 に対してサポートされていません。</entry>
+    <entry key="integerAtan2D">整数の引数は ATAN2D に対してサポートされていません。</entry>
+    <entry key="integerHypot">整数の引数は HYPOT に対してサポートされていません。</entry>
+    <entry key="nonnumericOperands">オペランドは数値配列でなければなりません。</entry>
+    <entry key="invalidFunction">未定義の関数 ''{0}'' (タイプ''{1}'' の入力引数)。</entry>
+    <entry key="nonFunctionHandle">1 番目の引数は関数ハンドルでなければなりません。</entry>
+    <entry key="arrayDimensionsMustMatch">2 つの入力配列の大きさが 1 でない次元は互いに一致しなければなりません。</entry>
+    <entry key="mixedIntegerClass">混在した整数クラスの入力はサポートされません。</entry>
+    <entry key="unsupportedClass">オペランドのクラスはサポートされていません。</entry>
+    <entry key="unknownOperator">不明な演算子です。</entry>
+  </message>
+</rsccat>

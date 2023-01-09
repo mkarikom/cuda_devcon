@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Nargin">入力引数が足りません。2 つの入力が必要です。</entry>
+    <entry key="WrongCellArrayDimensions">入力のセル配列は、1 列または 1 行のいずれかでなければなりません。</entry>
+    <entry key="PivotYearEmpty">基軸年はスカラーの double でなければなりません。</entry>
+    <entry key="ConvertString">テキストから日付値に変換できませんでした。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="BadHandle">Invalid argument -- please use a valid object handle</entry>
+  <!--Resource entries for src/hgbuiltins-->
+    <entry key="InvalidInput">reset for double, requires a scalar double input</entry>
+    <entry key="InvalidMethod">object has not public method reset.</entry>
+  <!--Resource entries for src/hgbuiltins-->
+    <entry key="InvalidHandle">Value must be a handle.</entry>
+    <entry key="DestroyedHandle">The object corresponding to the input value has been destroyed</entry>
+  </message>
+</rsccat>

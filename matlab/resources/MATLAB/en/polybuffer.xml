@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="nameValueError">Incorrect number of input arguments. Parameter names and values must occur in pairs.</entry>
+    <entry key="bufferParameter">Parameter name must be 'JointType' or 'MiterLimit'.</entry>
+    <entry key="bufferDistanceError">Buffer distance argument must be a numeric, real, positive and finite scalar.</entry>
+    <entry key="bufferJointError">'JointType' value must be 'round', 'miter', or 'square'.</entry>
+    <entry key="bufferMiterValue">'MiterLimit' value must be a real, numeric scalar no less than 2.</entry>
+    <entry key="bufferMiterType">'JointType' value must be 'miter' when 'MiterLimit' is specified.</entry>
+    <entry key="secondInputError">Second input argument must be 'lines' or 'points'.</entry>
+	<entry key="nameValueNotAllowed">'JointType' and 'MiterLimit' are not supported when the second input argument is 'points'.</entry>
+	<entry key="coordEmptyError">x- and y-coordinate matrix is empty.</entry>
+    <entry key="coord2ColError">x- and y-coordinate matrix must be a 2-column numeric array.</entry>
+	<entry key="coordError">x- and y-coordinates must be a numeric, real and finite array.</entry>
+	<entry key="sparseError">Sparse arrays are not supported.</entry>
+    <entry key="lineMin2Points">x- and y-coordinate matrix must have 2 columns with at least 2 rows.</entry>
+	<entry key="nanInconsistent">NaN placement in x- and y-coordinate of line argument must be the same.</entry>
+	<entry key="missing1stArgument">Not enough input arguments. Specify x- and y-coordinate matrix as the first argument.</entry>
+	<entry key="missing2ndArgument">Not enough input arguments. Specify 'lines' or 'points' as the second argument.</entry>
+	<entry key="missing3rdArgument">Not enough input arguments. Specify buffer distance as the third argument.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="KeyWithoutValue">No value given for {0}.</entry>
+    <entry key="NonScalarSource">Source must specify one node.</entry>
+    <entry key="NonScalarTarg">Target must specify one node.</entry>
+    <entry key="nomem">内存不足。请考虑使用 ''MaxNumPaths'' 来限制要计算的路径数量。</entry>
+  </message>
+</rsccat>

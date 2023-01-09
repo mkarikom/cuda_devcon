@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MissingPLogFileString">로그 파일에 입력할 문자형 벡터를 제공해야 함</entry>
+    <entry key="MissingPCovSetFileName">파일 이름을 제공해야 함</entry>
+    <entry key="MissingQSaveFileName">파일 이름을 제공해야 함</entry>
+  </message>
+</rsccat>

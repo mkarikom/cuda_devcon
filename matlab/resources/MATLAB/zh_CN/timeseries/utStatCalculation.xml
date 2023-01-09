@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">utStatCalculation 方法只能用于单时序对象</entry>
+    <entry key="pvsetNoValue">指定的属性缺少对应值。</entry>
+    <entry key="missingdata">MissingData 参数必须为 ''interpolate'' 或 ''remove''。</entry>
+    <entry key="quality">Quality 参数必须为整数。</entry>
+    <entry key="weighting">Weighting 参数必须为 ''none'' 或 ''time''。</entry>
+    <entry key="pvsetInvalidVal">至少有一个指定属性无效。</entry>
+    <entry key="noqualitycode">由于未在该时序中找到输入 Quality 代码，该代码将被忽略。</entry>
+    <entry key="noquality">未在该时序中赋予 Quality 值。将忽略输入 Quality 代码。</entry>
+    <entry key="method">方法参数无效</entry>
+  </message>
+</rsccat>

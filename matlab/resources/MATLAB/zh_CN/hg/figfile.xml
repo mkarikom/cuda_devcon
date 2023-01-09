@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SizeMismatch">父数组的大小必须与结构体数组的大小一致</entry>
+    <entry key="BadHandle">父句柄无效</entry>
+    <entry key="OutOfMemory">内存不足。有关详细信息，请参阅&lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/memory.html'))\"&gt;内存&lt;/a&gt;。</entry>
+    <entry key="FigFileOptArgMustBeAll">可选参数必须为 ''all''。</entry>
+    <entry key="FigFileOptArgMustBeConvertOrAll">可选参数必须为 ''convert'' 和/或 ''all''</entry>
+    <entry key="FigFileUnrelatedObjectHandles">句柄必须属于不相关的对象</entry>
+    <entry key="FigFileInvalidStruct">图形对象的结构体格式无效</entry>
+    <entry key="FigFileArgMustBeArrayOfParents">第二个参数必须为父句柄数组</entry>
+    <entry key="AmbiguousPropertyFound">找到具有多义性的属性。</entry>
+  </message>
+</rsccat>

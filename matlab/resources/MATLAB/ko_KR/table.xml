@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FunAsVariable">테이블 변수는 함수 핸들이 아니어야 합니다. 셀형 배열을 사용하여 함수 핸들을 포함시키십시오.</entry>
+    <entry key="UnequalFieldLengths">스칼라 구조체 내 필드는 행의 개수가 동일해야 합니다.</entry>
+    <entry key="UnequalVarLengths">모든 테이블 변수는 행 수가 동일해야 합니다.</entry>
+    <entry key="StringParamNameNotSupported">"{0}"을(를) 사용하여 파라미터 이름을 지정하려고 했을 수 있습니다. 그러나 table 생성자에서는 파라미터 이름을 문자형 벡터로 지정해야 합니다. 대신 table(..., ''{0}'', Value)를 사용하십시오.</entry>
+    <entry key="ConstructingFromCharRowData">문자형 벡터 "{0}"을(를) 테이블의 변수로 포함하는 한 행 크기의 테이블을 생성하려고 했을 수 있습니다. 테이블에 텍스트 데이터를 저장하려면, 문자형 배열보다는 string형 배열 또는 문자형 벡터로 구성된 셀형 배열을 사용하십시오. 아니면, 하나의 행으로 구성된 셀형 배열을 만들고 CELL2TABLE을 사용하여 테이블로 변환하십시오.</entry>
+    <entry key="UndefinedFunction">함수 ''{0}''은(는) ''{1}''형 입력 인수에 대해 정의되지 않았습니다.</entry>
+    <entry key="InvalidNumericConversion">함수 ''{0}''은(는) ''{1}''형 입력 인수에 대해 정의되지 않았습니다. 숫자형으로 변환하려면 TABLE2ARRAY 함수를 사용하거나, 점 첨자 또는 중괄호 첨자를 사용하여 데이터를 추출하십시오.</entry>
+    <entry key="UndefinedLengthFunction">함수 ''LENGTH''는 ''{0}''형 입력 인수에 대해 정의되지 않았습니다. height, width 또는 size 함수를 대신 사용하십시오.</entry>
+    <entry key="UndefinedSortFunction">함수 ''SORT''는 ''{0}''형 입력 인수에 대해 정의되지 않았습니다. SORTROWS 함수를 대신 사용하십시오.</entry>
+    <entry key="UndefinedCellFunction">함수 ''CELL''은 ''{0}''형 입력 인수에 대해 정의되지 않았습니다. TABLE2CELL 함수를 대신 사용하십시오.</entry>
+    <entry key="UndefinedStructFunction">함수 ''STRUCT''는 ''{0}''형 입력 인수에 대해 정의되지 않았습니다. TABLE2STRUCT 함수를 대신 사용하십시오.</entry>
+    <entry key="UndefinedTransposeFunction">함수 ''{0}''은(는) ''{1}''형 입력 인수에 대해 정의되지 않았습니다. ROWS2VARS 함수를 대신 사용하십시오.</entry>
+    <entry key="VarEditorIndexOverflow">데이터는 테이블에서 기존 변수의 바로 오른쪽에 추가되어야 합니다. 새 테이블 변수는 사용 가능한 다음 열에 추가됩니다.</entry>
+    <entry key="NoPlotMethod">테이블과 타임테이블에는 plot 메서드가 없습니다. 테이블 또는 타임테이블을 플로팅하려면 &lt;a href="matlab:helpview(fullfile(docroot,'matlab','ref','stackedplot.html'))"&gt;stackedplot&lt;/a&gt; 함수를 사용하십시오. 또는, 점 첨자 또는 중괄호 첨자를 사용하여 테이블 변수 또는 타임테이블 변수를 추출한 후 입력 변수로서 plot 함수에 전달할 수 있습니다.</entry>
+    <entry key="IncompatibleLoad">이 MATLAB 버전과 호환되지 않으므로 저장된 테이블을 불러올 수 없음</entry>
+    <entry key="IncompatibleLoadProperties">이 MATLAB 버전과 호환되지 않으므로 저장된 TableProperties를 불러올 수 없음</entry>
+    <entry key="ObjectConstructorFailed">''{0}'' 생성자가 입력값 없이 호출되어 디폴트 값을 생성할 때 오류를 반환했습니다.</entry>
+    <entry key="AssignmentDimensionMismatch">좌변에 있는 변수의 크기가 {1}이고 우변의 대응하는 변수의 크기가 {2}이므로 테이블 변수 ''{0}''에 값을 대입할 수 없습니다.</entry>
+    <entry key="CharAssignFromCellRHS">우변 값이 table형인 경우에만 테이블의 문자형 변수에 값을 대입할 수 있습니다. 텍스트 데이터에 대해 테이블에 string형 변수를 사용해 보십시오.</entry>
+    <entry key="RowsAddedExistingVars">대입식에서 테이블에 행을 추가했지만 테이블에 있는 모든 기존 변수에 값을 대입하지는 않았습니다. 이 변수들은 디폴트 값이 포함된 행으로 확장됩니다.</entry>
+    <entry key="RowsAddedNewVars">테이블에 추가되는 새 변수의 행 개수가 테이블보다 적습니다. 이 변수들은 디폴트 값이 포함된 행으로 확장되었습니다.</entry>
+    <entry key="IllegalPropertyReference">.Properties.{0} 점 첨자를 사용하여 테이블의 ''{0}'' 속성에 액세스하십시오.</entry>
+    <entry key="IllegalPropertyReferenceCase">''{0}''은(는) 인식할 수 없는 테이블 변수 이름입니다. ''{1}'' 속성에 액세스하려고 했을 수 있습니다. .Properties.{1} 점 첨자를 사용하여 해당 속성에 액세스하십시오.</entry>
+    <entry key="UnknownPropertyCase">''{0}''은(는) 인식할 수 없는 테이블 속성 이름입니다. 속성 이름은 대/소문자를 구분합니다. ''{1}'' 속성에 액세스하려는 시도로 여겨집니다.</entry>
+    <entry key="IllegalVarSubscript">테이블 변수 이름은 string형이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="IllegalVarIndex">변수 인덱스는 양의 실수형 정수여야 합니다.</entry>
+    <entry key="NestedSubscriptingWithDotVariables">''.{0}''을(를) 한 수준을 넘어선 첨자 지정과 함께 사용할 수 없습니다. 대신 테이블에서 직접 중괄호 첨자를 사용하십시오.</entry>
+    <entry key="NestedSubscriptingWithDotRowsDeletion">''.{0}''을(를) 한 수준을 넘어선 첨자 지정과 함께 사용하여 테이블의 행을 삭제할 수 없습니다. 대신 테이블에서 직접 소괄호 첨자를 사용하십시오.</entry>
+    <entry key="InvalidEmptyAssignment">[]을 값으로 대입하여 행이나 변수를 삭제할 경우 적어도 하나의 첨자가 '':''이어야 합니다.</entry>
+    <entry key="EmptyAssignmentToSubarrayVar">테이블의 부분배열에 []을 값으로 대입함으로써 테이블에서 변수를 삭제할 수는 없습니다. 대신 T(:,VAR) = [] 또는 T.VAR = []를 사용하십시오.</entry>
+    <entry key="InvalidLinearIndexing">행 레이블을 사용하여 테이블 변수로 선형 인덱싱하는 것은 변수에 열이 1개 있을 때만 가능합니다.</entry>
+    <entry key="PropertiesAssignmentToSubarray">테이블의 부분배열에 대해서는 .Properties로 값을 대입할 수 없습니다. 대신 T.PROPERTIES.PROPERTYNAME = VALUE 또는 T.PROPERTIES = PROPERTYVALUES를 사용하십시오.</entry>
+    <entry key="InvalidPropertiesAssignment">.Properties에 대입하는 값은 해당 필드가 {1} 속성과 일치하는 스칼라 구조체이거나 {0} 객체여야 합니다.</entry>
+    <entry key="InvalidPropertyAssignment">.Properties.{0} 점 첨자를 사용하여 테이블의 ''{0}'' 속성에 값을 대입하십시오.</entry>
+    <entry key="InvalidRHS">테이블 대입식의 우변은 또 다른 테이블이거나 셀형 배열이어야 합니다.</entry>
+    <entry key="InvalidSubscriptExpr">() 인덱싱은 테이블 인덱스 표현식에서 마지막에 와야 합니다.</entry>
+    <entry key="InvalidContentsReshape">'{}' 첨자 다음에 세부 수준의 첨자를 사용하여 여러 테이블 변수의 내용에 값을 대입할 때는 그 변수 내용의 크기를 변경할 수 없습니다.</entry>
+    <entry key="InvalidExpansion">() 또는 '{}' 첨자 다음에 추가 첨자 수준이 나오는 대입식을 통해 테이블에 행 또는 변수를 추가할 수 없습니다.</entry>
+    <entry key="InvalidExpansionDot">변수의 필드 또는 속성에 값을 대입하는 방식으로 테이블에 새 변수를 생성할 수 없습니다.</entry>
+    <entry key="InvalidExpansionDotSuggest">변수의 필드 또는 속성에 값을 대입하는 방식으로 테이블에 새 변수를 생성할 수 없습니다. {0}</entry>
+    <entry key="InvalidExpansionDotDepth">점 첨자 다음 2 수준 이상의 첨자에 대한 대입식을 통해 테이블에 새 변수를 생성할 수 없습니다.</entry>
+    <entry key="InvalidExpansionDotDepthSuggest">테이블의 새 변수는 한 수준을 넘어선 점 첨자 지정의 대입식을 사용해 생성할 수 없습니다. {0}</entry>
+    <entry key="IntendedPropertiesAssignment">테이블의 속성에 값을 대입하려고 했을 수 있습니다. ''.Properties''를 사용하십시오.</entry>
+    <entry key="IntendedPropertyAssignment">테이블의 ''{0}'' 속성에 값을 대입하려고 했을 수 있습니다. ''.Properties.{0}''을(를) 사용하여 값을 대입하십시오.</entry>
+    <entry key="IntendedVarAssignment">''{0}'' 테이블 변수에 값을 대입하려고 했을 수 있습니다.</entry>
+    <entry key="IntendedRowDimAssignment">''{0}''(으)로 행 이름을 할당하려고 했을 수 있습니다.</entry>
+    <entry key="NDCell">테이블 대입식의 우변에 있는 셀형 배열은 2차원이어야 합니다.</entry>
+    <entry key="NDSubscript">테이블에는 t(i,j,k)처럼 3개 이상의 첨자를 사용할 수 없습니다. t(rows,vars)처럼 항상 행 첨자와 변수 첨자를 각각 하나씩 지정하십시오.</entry>
+    <entry key="LinearSubscript">Subscripting into a table using one subscript (as in t(i)) is not supported. Specify a row subscript and a variable subscript, as in t(rows,vars). To select variables, use t(:,i) or for one variable t.(i). To select rows, use t(i,:).</entry>
+    <entry key="RowDimensionMismatch">테이블에 변수를 할당하거나 생성하려면 행 개수가 테이블 높이와 일치해야 합니다.</entry>
+    <entry key="RowDimensionMismatchSuggest">테이블에 변수를 할당하거나 생성하려면 행 개수가 테이블 높이와 일치해야 합니다. {0}</entry>
+    <entry key="EmptyAssignmentToVariableRows">인덱스 참조 값 할당을 사용하여 테이블 변수에서 요소를 삭제할 때 행 개수가 변경되어서는 안 됩니다. 첫 번째 첨자를 콜론(':')으로 지정하고 콜론이 아닌 다른 첨자를 정확히 한 개 지정하십시오.</entry>
+    <entry key="TooManyOutputs">출력값이 너무 많습니다.</entry>
+    <entry key="VarDimensionMismatch">대입식 내 테이블 변수의 개수가 일치해야 합니다.</entry>
+    <entry key="WrongNumberRHSCols">대입식 우변에 있는 값의 너비가 잘못되었습니다. 대입식에는 너비가 {0,number,integer}인 값이 필요합니다.</entry>
+    <entry key="WrongSizeRHS">대입식의 우변에 있는 값은 좌변에 있는 값과 모든 차원에서 크기가 동일해야 합니다.</entry>
+    <entry key="IllegalDotMethod">''{0}''은(는) 인식할 수 없는 테이블 변수 이름입니다. {1} 메서드를 호출하려고 했다면 {1}(t,...) 같은 함수 구문을 사용해야 합니다. 자세한 내용은 &lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;메서드 호출&lt;/a&gt;을 참조하십시오.</entry>
+    <entry key="IllegalDotMethodNoCorrection">''{0}''은(는) 인식할 수 없는 테이블 변수 이름입니다. {1} 메서드를 호출하려고 했다면 함수 구문을 사용해야 합니다. 자세한 내용은 &lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;메서드 호출&lt;/a&gt;을 참조하십시오.</entry>
+    <entry key="BracesAssignDelete">대입식 우변에 있는 값에는 {0,number,integer}개의 열이 있어야 합니다. []을 값으로 대입하여 행이나 변수를 삭제할 때는 '{}' 대신 () 첨자를 사용하십시오.</entry>
+    <entry key="CannotRemoveVarNames">테이블에서 변수 이름은 삭제할 수 없습니다.</entry>
+    <entry key="CannotRemoveDimNames">테이블에서 차원 이름은 삭제할 수 없습니다.</entry>
+    <entry key="RowDimNameNondefault">''{0}''은(는) 인식할 수 없는 테이블 변수 이름입니다. 행 이름에 액세스하려고 했다면 이 테이블에 ''{1}"을(를) 대신 사용하십시오. </entry>
+    <entry key="VariablesDimNameNondefault">''{0}''은(는) 인식할 수 없는 테이블 변수 이름입니다. 이러한 변수에 액세스하려고 했다면 이 테이블에 ''{1}''을(를) 대신 사용하십시오. </entry>
+    <entry key="RowDimNameCase">''{0}''은(는) 인식할 수 없는 테이블 변수 이름입니다. 이름은 대/소문자를 구분합니다. 테이블의 행 이름에 ''{1}''(으)로 액세스하려고 했을 수 있습니다.</entry>
+    <entry key="VariablesDimNameCase">''{0}''은(는) 인식할 수 없는 테이블 변수 이름입니다. 이름은 대/소문자를 구분합니다. 전체 테이블의 내용을 ''{1}''(이)라는 배열로 액세스하려고 했을 수 있습니다.</entry>
+    <entry key="TooManyOutputsBracesIndexing">출력 인수가 너무 많습니다. 중괄호를 사용하여 테이블과 타임테이블을 인덱싱하면 한 개의 배열이 반환됩니다. 자세한 내용은 &lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','access-data-in-a-table.html'))"&gt;테이블 데이터에 액세스하기&lt;/a&gt;를 참조하십시오.</entry>
+    <entry key="ReservedVarnameColon">':'은 유효한 변수 이름이 아닙니다. ':'은 배열 첨자로 예약되어 있습니다.</entry>
+    <entry key="DuplicateDimNames">중복되는 테이블 차원 이름임: ''{0}''.</entry>
+    <entry key="DuplicateRowNames">중복되는 테이블 행 이름임: ''{0}''.</entry>
+    <entry key="DuplicateVarNames">중복되는 테이블 변수 이름임: ''{0}''.</entry>
+    <entry key="ReservedVarNameConflict">테이블 변수 이름이 예약된 이름 ''{0}''과(와) 충돌합니다.</entry>
+    <entry key="ReservedDimNameConflict">테이블 차원 이름이 예약된 이름 ''{0}''과(와) 충돌합니다.</entry>
+    <entry key="ReservedRowNameConflict">테이블 행 이름은 ''{0}''일 수 없습니다. 이 이름은 테이블 첨자로 예약되어 있습니다.</entry>
+    <entry key="ExtractDataDimensionMismatch">모든 테이블 변수는 차원 수가 동일해야 합니다.</entry>
+    <entry key="ExtractDataSizeMismatch">모든 테이블 변수는 두 번째 차원을 제외한 모든 차원에서 길이가 동일해야 합니다.</entry>
+    <entry key="ExtractDataCatError">지정한 테이블 변수를 결합할 수 없습니다.</entry>
+    <entry key="ExtractDataIncompatibleTypeError">테이블 변수 ''{0}''과(와) ''{1}''은(는) 해당 유형이 {2}과(와) {3}이므로 결합할 수 없습니다.</entry>
+    <entry key="InvalidSubscript">첨자에 유효하지 않은 구조체입니다.</entry>
+    <entry key="UnrecognizedCustomProperty">''{0}''은(는) 인식할 수 없는 사용자 지정 테이블 속성 이름입니다.</entry>
+    <entry key="InvalidDimName">A table dimension name subscript must be a character vector, string array, or cell array of character vectors, with each name in the subscript containing one or more characters.</entry>
+    <entry key="InvalidDimSubscript">테이블 차원 첨자는 실수형 양의 정수가 포함된 숫자형 배열, 논리형 배열, 문자형 벡터, string형 배열 또는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="DimIndexOutOfRange">차원 인덱스가 테이블의 차원 수를 초과합니다.</entry>
+    <entry key="UnrecognizedDimName">''{0}''은(는) 인식할 수 없는 테이블 차원 이름입니다.</entry>
+    <entry key="InvalidRowName">테이블 행 이름 첨자는 문자형 벡터, string형 배열 또는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="InvalidRowSubscript">테이블 행 첨자는 실수형 양의 정수가 포함된 숫자형 배열, 논리형 배열, 문자형 벡터, string형 배열 또는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="RowIndexOutOfRange">행 인덱스가 테이블의 차원을 초과합니다.</entry>
+    <entry key="UnrecognizedRowName">''{0}''은(는) 인식할 수 없는 테이블 행 이름입니다.</entry>
+    <entry key="DiscontiguousVars">인접하지 않은 인덱스가 있는 테이블 변수를 생성할 수 없습니다.</entry>
+    <entry key="InvalidVarName">테이블 변수 이름 첨자는 첨자의 각 이름에 하나 이상의 문자가 포함된 문자형 벡터, string형 배열 또는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="InvalidVarSubscript">테이블 변수 첨자는 실수형 양의 정수가 포함된 숫자형 배열, 논리형 배열, 문자형 벡터, string형 배열 또는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="UnrecognizedVarName">''{0}''은(는) 인식할 수 없는 테이블 변수 이름입니다.</entry>
+    <entry key="UnrecognizedVarNameDeleting">''{0}''이(가) 존재하지 않으므로 테이블에서 삭제할 수 없습니다. 테이블의 변수에 리터럴 값 []을 대입하면 변수가 삭제됩니다. 테이블에 [] 값을 갖는 새 변수를 생성하려면 T.{0} = zeros(0)을 사용하거나, 먼저 임시 작업 공간 변수에 값을 대입하십시오.</entry>
+    <entry key="UnrecognizedVarNamePropertiesCase">''{0}''은(는) 인식할 수 없는 테이블 변수 이름입니다. 테이블의 속성에 액세스하려면 '.Properties'를 사용하십시오.</entry>
+    <entry key="UnrecognizedVarNameCase">''{0}''은(는) 인식할 수 없는 테이블 변수 이름입니다. 변수 이름은 대/소문자를 구분합니다. ''{1}'' 변수에 액세스하려고 했을 수 있습니다.</entry>
+    <entry key="VarIndexOutOfRange">변수 인덱스가 테이블의 차원을 초과합니다.</entry>
+    <entry key="NoRowLabels">입력 테이블에 행 이름이 없기 때문에 행 이름을 그룹화 변수 또는 키 변수로 사용할 수 없습니다.</entry>
+    <entry key="AmbiguousProperty">모호한 테이블 속성 이름임: {0}.</entry>
+    <entry key="InvalidPropertyName">유효하지 않은 테이블 속성 이름입니다.</entry>
+    <entry key="UnknownProperty">알 수 없는 테이블 속성임: {0}</entry>
+    <entry key="ReplaceDataHorzcatError">지정한 테이블 변수를 가로로 결합할 수 없습니다.</entry>
+    <entry key="ReplaceDataFunOutputSizeMismatch">FUN은 행과 열의 개수가 입력 배열과 동일한 배열을 생성해야 합니다.</entry>
+    <entry key="ReplaceDataDataRowSizeMismatch">치환 데이터는 행 개수가 테이블과 동일해야 합니다.</entry>
+    <entry key="ReplaceDataDataColSizeMismatch">테이블에서 치환되는 변수는 열의 총수가 치환 데이터와 동일해야 합니다.</entry>
+    <entry key="ReplaceDataFunError">함수 ''{0}''을(를) 실행하는 중 오류가 발생했습니다.</entry>
+    <entry key="InvalidLogicalVal">''{0}'' 파라미터는 논리값 1(true) 또는 논리값 0(false)이어야 합니다.</entry>
+    <entry key="InvalidDescription">Description 속성은 string형이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="InvalidDimNames">DimensionNames 속성은 각 이름에 하나 이상의 문자가 포함된 셀형 배열 또는 string형 배열이어야 합니다.</entry>
+    <entry key="IncorrectNumberOfDimNames">DimensionNames 속성에는 테이블 내 각 차원별로 하나의 이름이 포함되어야 합니다.</entry>
+    <entry key="IncorrectNumberOfDimNamesPartial">DimensionNames 속성에는 이름을 변경할 각 차원별로 이름이 하나씩 포함되어야 합니다.</entry>
+    <entry key="IncorrectNumberOfRowNames">RowNames 속성은 테이블 내 각 행별로 하나의 이름을 포함해야 합니다.</entry>
+    <entry key="IncorrectNumberOfRowNamesPartial">RowNames 속성은 이름을 바꾸려는 행별로 하나의 이름을 포함해야 합니다.</entry>
+    <entry key="InvalidRowNames">RowNames 속성은 각 이름에 하나 이상의 문자가 포함된 셀형 배열 또는 string형 배열이어야 합니다.</entry>
+    <entry key="InvalidUnits">VariableUnits 속성은 string형 배열 또는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="IncorrectNumberOfUnits">VariableUnits 속성에는 테이블 내 각 변수별로 요소가 하나씩 있어야 합니다.</entry>
+    <entry key="InvalidContinuityAssignment">VariableContinuity 속성에 할당하려면 string형 배열, 문자형 벡터로 구성된 셀형 벡터 또는 matlab.tabular.Continuity 벡터를 사용하십시오.</entry>
+    <entry key="InvalidContinuityFullAssignment">VariableContinuity 속성에 할당하려면 string형 배열, 문자형 벡터로 구성된 셀형 벡터 또는 matlab.tabular.Continuity 벡터를 사용하십시오. 문자형 벡터는 속성의 개별 요소에만 할당할 수 있습니다.</entry>
+    <entry key="IncorrectNumberOfContinuity">VariableContinuity 속성에는 테이블 내 각 변수에 대응하는 요소가 하나씩 있어야 합니다.</entry>
+    <entry key="InvalidContinuityValue">VariableContinuity 속성은 ''continuous'', ''step'', ''event'' 또는 ''unset''으로 지정해야 합니다.</entry>
+    <entry key="InvalidVarDescr">VariableDescriptions 속성은 string형 배열 또는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="IncorrectNumberOfVarDescrs">VariableDescriptions 속성은 테이블 내 각 변수별로 요소가 하나씩 있어야 합니다.</entry>
+    <entry key="IncorrectNumberOfVarCustomProps">사용자 지정 속성 ''{0}''은(는) 테이블의 각 변수에 대응하는 요소가 하나씩 있는 벡터이거나 빈 0x0(예: [], '{}')이어야 합니다.</entry>
+    <entry key="TableAsPerVarProp">{0}은(는) 각 변수의 사용자 지정 속성으로 사용할 수 없습니다.</entry>
+    <entry key="CharAsPerVarProp">문자로 구성된 벡터는 각 변수의 사용자 지정 속성으로 사용할 수 없습니다. 문자형 벡터로 구성된 셀형 배열 또는 string형으로 구성된 벡터를 사용하십시오.</entry>
+    <entry key="IncorrectNumberOfVarNames">VariableNames 속성은 테이블 내 각 변수별로 하나의 이름을 포함해야 합니다.</entry>
+    <entry key="IncorrectNumberOfVarNamesPartial">VariableNames 속성은 이름이 바뀐 각 변수별로 하나의 이름을 포함해야 합니다.</entry>
+    <entry key="InvalidVarNames">VariableNames 속성은 문자형 벡터로 구성된 셀형 배열입니다. 여러 개의 변수 이름을 할당하려면 string형 배열 또는 문자형 벡터로 구성된 셀형 배열로 비어 있지 않은 이름을 지정하십시오.</entry>
+    <entry key="InvalidVarNameBraces">VariableNames 속성은 문자형 벡터로 구성된 셀형 배열입니다. 단일 변수 이름을 중괄호 첨자로 설정하려면 비어 있지 않은 문자형 벡터를 할당하십시오.</entry>
+    <entry key="GroupingVarNotColumn">그룹화 변수는 열 벡터이거나 문자형 배열이어야 합니다.</entry>
+    <entry key="GroupTypeIncorrect">그룹화 변수는 categorical형 벡터, 숫자형 벡터, 논리형 벡터, datetime형 벡터, duration형 벡터, string형 벡터, 문자형 벡터로 구성된 셀형 벡터, 2차원 문자형 배열 중 하나여야 합니다.</entry>
+    <entry key="VarUniqueMethodFailed">테이블 변수 ''{0}''의 고유한 값을 사용하여 행을 그룹화할 수 없습니다.  UNIQUE가 오류를 반환했습니다.</entry>
+    <entry key="VarUniqueMethodFailedCellRows">테이블 변수 ''{0}''은(는) 두 개 이상의 열이 있는 셀형 배열이므로 이 변수의 고유한 값을 사용하여 행을 그룹화할 수 없습니다. </entry>
+    <entry key="VarUniqueMethodFailedNumRows">테이블 변수 ''{0}''의 고유한 값을 사용하여 행을 그룹화할 수 없습니다.  UNIQUE 메서드에서 반환된 값에 잘못된 개수의 행이 있었습니다.</entry>
+    <entry key="InvalidVariableName">''{0}''은(는) 유효한 테이블 변수 이름이 아닙니다.</entry>
+    <entry key="VariableNameNotValidIdentifier">''{0}''은(는) 유효한 테이블 변수 이름이 아닙니다. 자세한 내용은 isvarname 또는 matlab.lang.makeValidName에 대한 문서를 참조하십시오.</entry>
+    <entry key="VariableNameLengthMax">''{0}''이(가) 테이블 변수 이름에 허용되는 최대 길이보다 깁니다.</entry>
+    <entry key="ModifiedVarnames">유효한 MATLAB 식별자가 아닌 테이블 변수 이름이 수정되었습니다. 테이블 변수 이름은 고유해야 하기 때문에 새 식별자와 일치하는 테이블 변수 이름도 수정되었습니다.</entry>
+    <entry key="ModifiedVarnamesUnstack">유효한 MATLAB 식별자가 아닌 테이블 변수 이름이 수정되었습니다. 테이블 변수 이름은 고유해야 하기 때문에 새 식별자와 일치하는 테이블 변수 이름도 수정되었습니다.\n원래 INDVAR 값을 테이블 변수 이름으로 사용하려면 ''VariableNamingRule''을 ''preserve''로 설정하십시오.</entry>
+    <entry key="ModifiedVarnamesRows2Vars">유효한 MATLAB 식별자가 아닌 테이블 변수 이름이 수정되었습니다. 테이블 변수 이름은 고유해야 하기 때문에 새 식별자와 일치하는 테이블 변수 이름도 수정되었습니다.\n원래 행 이름을 새 변수 이름으로 사용하려면 ''VariableNamingRule''을 ''preserve''로 설정하십시오.</entry>
+    <entry key="ModifiedVarnamesLengthMax">테이블 변수 이름이 namelengthmax 길이로 잘렸습니다.</entry>
+    <entry key="ModifiedVarnamesReservedConflict">예약된 이름 ''{0}''과(와) 충돌하지 않도록 테이블 변수 이름이 수정되었습니다.</entry>
+    <entry key="ModifiedAndSavedVarnames">테이블에 대한 변수 이름을 생성하기 전에 파일의 열 제목이 유효한 MATLAB 식별자가 되도록 수정되었습니다. 원래 열 제목은 VariableDescriptions 속성에 저장되어 있습니다.\n원래 열 제목을 테이블 변수 이름으로 사용하려면 ''VariableNamingRule''을 ''preserve''로 설정하십시오.</entry>
+    <entry key="ModifiedAndSavedVarnamesReserved">예약된 이름 ''{0}''과(와) 충돌하지 않도록 테이블 변수 이름이 수정되었습니다. 원래 이름은 VariableDescriptions 속성에 저장되었습니다.</entry>
+    <entry key="ModifiedAndSavedVarnamesLengthMax">테이블 변수 이름이 namelengthmax 길이로 잘렸습니다. 원래 이름은 VariableDescriptions 속성에 저장되었습니다.</entry>
+    <entry key="ZeroLengthVarname">테이블 변수 이름은 비어 있지 않은 텍스트여야 합니다.</entry>
+    <entry key="ModifiedDimnames">이름 ''{0}''이(가) 유효한 MATLAB 식별자가 될 수 있도록 DimensionNames 속성이 수정되었습니다.</entry>
+    <entry key="DimNameNotValidIdentifier">''{0}''은(는) 유효한 테이블 차원 이름이 아닙니다. 자세한 내용은 isvarname 또는 matlab.lang.makeValidName에 대한 문서를 참조하십시오.</entry>
+    <entry key="DimNameLengthMax">''{0}''이(가) 테이블 차원 이름에 허용되는 최대 길이보다 깁니다.</entry>
+    <entry key="RowNameReservedBackCompat">콜론은 배열 첨자일 수도 있기 때문에 행 이름 ':'이 변경되었습니다. 행 이름으로 ':'을 할당하면 이제 오류가 발생합니다.</entry>
+    <entry key="DuplicateDimNamesVarNames">중복된 차원 이름과 변수 이름: ''{0}''.</entry>
+    <entry key="DuplicateDimNamesVarNamesWarn">차원 이름과 변수 이름의 충돌을 피하기 위해 DimensionNames 속성이 수정됨: ''{0}''.</entry>
+    <entry key="DimNameNotValidIdentifierBackCompat">이름 ''{0}''이(가) 유효한 MATLAB 식별자가 될 수 있도록 DimensionNames 속성이 수정되었습니다. 자세한 내용은 &lt;a href="matlab:helpview(fullfile(docroot,''matlab'',''helptargets.map''),''changes_to_dimension_names_property_in_r2016b'')"&gt;R2016b에서 생긴 DimensionNames 속성에 대한 변경 사항&lt;/a&gt;을 참조하십시오. 향후 릴리스에서는 오류로 간주됩니다.</entry>
+    <entry key="DimnamesReservedNameConflictBackCompat">이름 ''{0}''이(가) 예약된 이름이므로 DimensionNames 속성이 수정되었습니다. 자세한 내용은 &lt;a href="matlab:helpview(fullfile(docroot,''matlab'',''helptargets.map''),''changes_to_dimension_names_property_in_r2016b'')"&gt;R2016b에서 생긴 DimensionNames 속성에 대한 변경 사항&lt;/a&gt;을 참조하십시오. 향후 릴리스에서는 오류로 간주됩니다.</entry>
+    <entry key="DuplicateDimnamesVarnamesBackCompat">차원 이름과 변수 이름의 충돌을 피하기 위해 DimensionNames 속성이 수정됨: ''{0}''. 자세한 내용은 &lt;a href="matlab:helpview(fullfile(docroot,''matlab'',''helptargets.map''),''changes_to_dimension_names_property_in_r2016b'')"&gt;R2016b에서 생긴 DimensionNames 속성에 대한 변경 사항&lt;/a&gt;을 참조하십시오. 향후 릴리스에서는 오류로 간주됩니다.</entry>
+    <entry key="InvalidSize">크기는 행의 개수와 변수의 개수를 지정하는 음이 아닌 정수 값으로 구성된 요소를 2개 가진 벡터여야 합니다.</entry>
+    <entry key="MissingVariableTypes">지정된 크기를 사용하여 테이블을 생성할 때는 변수 유형을 지정하십시오.</entry>
+    <entry key="IncorrectVariableTypesSyntax">지정된 변수 유형을 사용하여 테이블을 생성할 때는 크기를 지정하십시오.</entry>
+    <entry key="InvalidVariableTypes">변수 유형을 string형 배열 또는 문자형 벡터로 구성된 셀형 배열(예: ["string", "datetime", "double"])로 지정하십시오.</entry>
+    <entry key="InvalidSizeSyntax">크기와 입력 데이터 변수를 둘 다 지정할 수는 없습니다. 자세한 내용은 &lt;a href="matlab:helpview(fullfile(docroot,'matlab','ref','table.html'))"&gt;table 도움말 문서&lt;/a&gt;를 참조하십시오.</entry>
+    <entry key="VariableTypesAndSizeMismatch">변수 유형의 개수는 크기에 지정된 변수의 개수와 일치해야 합니다.</entry>
+    <entry key="InvalidPreallocationVariableType">''{0}'' 유형의 변수를 생성할 수 없습니다. 테이블을 사전할당할 때 각 변수 유형은 빈 메서드를 지원하는 클래스여야 합니다. {0}.empty가 다음 오류를 반환했습니다.\n\n{1}\n\n자세한 내용은 &lt;a href="matlab:helpview(fullfile(docroot,'matlab','ref','table.html'))"&gt;table 도움말 문서&lt;/a&gt;를 참조하십시오.</entry>
+    <entry key="PreAllocationClassnameCase">''{0}'' 유형의 변수를 생성할 수 없습니다. ''{0}'' 클래스와 정확히 일치하는 항목(대/소문자 구분)이 없습니다. ''{1}'' 유형의 변수를 생성하려고 했을 수 있습니다.</entry>
+    <entry key="PreAllocationUndefinedClass">''{0}'' 유형의 변수를 생성할 수 없습니다. ''{0}'' 클래스가 정의되어 있지 않습니다.</entry>
+    <entry key="ScalarTextAmbiguity">문자형 행 벡터인 변수를 포함하는 테이블을 생성했습니다. 사용자는 ''{0}''을(를) 선택적 인수 이름으로 사용하려 했을 수 있지만, 그 다음에 오는 일부 입력값이 허용되는 이름-값 쌍 인수와 일치하지 않습니다. 지원되는 구문은 &lt;a href="matlab:helpview(fullfile(docroot,'matlab','ref','table.html'))"&gt;table 도움말 문서&lt;/a&gt;를 참조하십시오.</entry>
+    <entry key="PreallocateCharWarning">데이터형 'char'를 사용하여 사전할당하면 문자형 배열이 아니라 문자형 벡터로 구성된 셀형 배열인 테이블 변수가 생성됩니다. 텍스트 데이터를 테이블에 문자형 배열로 저장하는 것은 권장되지 않습니다. 테이블이나 타임테이블에서 텍스트 데이터를 사용하는 경우 string형 배열이나 categorical형 배열을 사용해 보십시오.</entry>
+    <entry key="InvalidCustomPropDim">각 사용자 지정 속성의 경우, ''variable'' 또는 ''table''을 지정하여 속성이 변수에 적용되는지 아니면 테이블 전체에 적용되는지를 표시하십시오. 이 설정은 string형 배열 또는 문자형 벡터로 구성된 셀형 배열로 지정하십시오.</entry>
+    <entry key="InvalidCustomPropName">유효하지 않은 사용자 지정 속성 이름입니다. 데이터를 추가하기 전에 ADDPROP를 사용하여 새 사용자 지정 속성을 생성하십시오.</entry>
+    <entry key="InvalidCustomPropertiesAssignment">.Properties.CustomProperties에 대입하는 값은 matlab.tabular.CustomProperties 객체여야 합니다.</entry>
+    <entry key="NonScalarStruct">유효하지 않은 데이터형입니다. 입력값은 스칼라 구조체여야 합니다.</entry>
+    <entry key="MissingVariableNames">코드 생성 시 테이블 변수 이름을 지정해야 합니다.</entry>
+    <entry key="AssignmentVarIndexOutOfRange">변수 인덱스가 테이블의 차원을 초과합니다. 코드 생성 시 대입을 통해 테이블 변수를 추가하는 것은 지원되지 않습니다.</entry>
+    <entry key="AssignmentRowIndexOutOfRange">행 인덱스가 테이블의 차원을 초과합니다. 코드 생성 시 대입을 통해 테이블 행을 추가하는 것은 지원되지 않습니다.</entry>
+    <entry key="UnrecognizedIndexingVarName">''{0}''은(는) 인식할 수 없는 테이블 변수 이름입니다.</entry>
+    <entry key="UnrecognizedIndexingRowName">''{0}''은(는) 인식할 수 없는 테이블 행 이름입니다.</entry>
+    <entry key="UnrecognizedIndexingDimName">''{0}''은(는) 인식할 수 없는 테이블 차원 이름입니다.</entry>
+    <entry key="UnrecognizedIndexingNonconstantVarName">인식할 수 없는 테이블 변수 이름입니다.</entry>
+    <entry key="UnrecognizedIndexingNonconstantRowName">인식할 수 없는 테이블 행 이름입니다.</entry>
+    <entry key="UnrecognizedIndexingNonconstantDimName">인식할 수 없는 테이블 차원 이름입니다.</entry>
+    <entry key="UnrecognizedAssignmentVarName">''{0}''은(는) 인식할 수 없는 테이블 변수 이름입니다. 코드 생성 시 대입을 통해 테이블 변수를 추가하는 것은 지원되지 않습니다.</entry>
+    <entry key="UnrecognizedAssignmentRowName">''{0}''은(는) 인식할 수 없는 테이블 행 이름입니다. 코드 생성 시 대입을 통해 테이블 행을 추가하는 것은 지원되지 않습니다.</entry>
+    <entry key="UnrecognizedAssignmentNonconstantVarName">인식할 수 없는 테이블 변수 이름입니다. 코드 생성 시 대입을 통해 테이블 변수를 추가하는 것은 지원되지 않습니다.</entry>
+    <entry key="UnrecognizedAssignmentNonconstantRowName">인식할 수 없는 테이블 행 이름입니다. 코드 생성 시 대입을 통해 테이블 행을 추가하는 것은 지원되지 않습니다.</entry>
+    <entry key="NonconstantVarIndex">테이블에 대한 변수 인덱스는 상수여야 합니다.</entry>
+    <entry key="NonconstantVarSpec">테이블 변수 이름 또는 인덱스는 상수여야 합니다.</entry>
+    <entry key="NonconstantVariableNames">테이블 변수 이름은 상수여야 합니다.</entry>
+    <entry key="NonconstantDimensionNames">테이블 차원 이름은 상수여야 합니다.</entry>
+    <entry key="NonconstantVariableTypes">테이블을 사전할당할 때 변수 유형 입력값은 상수여야 합니다.</entry>
+    <entry key="NonconstantParameterName">파라미터 이름은 상수여야 합니다.</entry>
+    <entry key="NonconstantRowDimLength">테이블 행 차원 길이는 상수여야 합니다.</entry>
+    <entry key="NDCellIndexing">코드 생성 시, 하나 이상의 N차원 셀형 변수를 추출하는 중괄호 첨자는 지원되지 않습니다.</entry>
+    <entry key="UnsupportedPropertyChange">코드 생성 시, 테이블이 생성된 후에는 ''{0}'' 테이블 속성을 변경할 수 없습니다.</entry>
+    <entry key="UnsupportedMethodCodegen">코드 생성 시 테이블에는 {0} 메서드가 지원되지 않습니다.</entry>
+    <entry key="PreAllocationUnsupportedClass">코드 생성 시 테이블을 사전 할당할 때 ''{0}''은(는) 지원되는 변수 유형이 아닙니다.</entry>
+    <entry key="PreAllocationUnsupportedCell">코드 생성 시 테이블을 사전 할당할 때 ''cell''은 지원되는 변수 유형이 아닙니다. 문자형 벡터로 구성된 셀형 배열 변수를 사전 할당하려면 ''cellstr''을 대신 지정하십시오.</entry>
+    <entry key="UnsupportedDelete">코드 생성 시 []을 대입하여 값을 삭제할 수 없습니다.</entry>
+    <entry key="ExtractDataIncompatibleTypeVarIndices">테이블 변수 {0,number,integer}과(와) {1,number,integer}의 유형이 각각 {2} 및 {3}이므로 이 두 변수를 결합할 수 없습니다.</entry>
+    <entry key="NonconstantCellAssignment">이종 셀형 배열인 테이블 변수에 값을 대입할 경우 행 인덱스는 상수여야 합니다.</entry>
+    <entry key="NonconstantCellAssignmentByRowName">이종 셀형 배열인 테이블 변수에 값을 대입하고 행 이름을 사용하여 인덱싱할 경우 테이블의 행 이름은 상수여야 합니다.</entry>
+    <entry key="CodegenPropertySizeMismatch">{0}의 크기는 변경되어서는 안 됩니다.</entry>
+    <entry key="EmptyMustBeFixedSize">입력값이 가변 크기인 경우 런타임에 비어 있지 않아야 합니다. 빈 입력값은 고정 크기여야 합니다.</entry>
+    <entry key="CodegenVariableNameLengthMax">One or more table variable name(s) is longer than the maximum allowed length.</entry>
+    <entry key="CodegenDimNameLengthMax">하나 이상의 테이블 차원 이름이 허용된 최대 길이보다 깁니다.</entry>
+    <entry key="UnsupportedDefaultValues">코드 생성 시 디폴트 값을 사용하여 ''{0}'' 클래스의 배열을 만들 수 없습니다.</entry>
+    <entry key="InvalidDataType">Data 유형은 셀형 행 벡터여야 하며, 테이블 너비({0,number,integer})와 길이가 동일해야 합니다.</entry>
+    <entry key="InvalidDescriptionType">Description 유형은 문자형 행 벡터여야 합니다.</entry>
+    <entry key="InvalidDimNamesType">DimensionNames 유형은 비어 있지 않은 문자형 벡터로 구성된, 요소를 2개 가진 셀형 행 벡터여야 합니다.</entry>
+    <entry key="InvalidVarNamesType">VariableNames 유형은 비어 있지 않은 문자형 벡터로 구성된 셀형 행 벡터여야 하며, 테이블 너비({0,number,integer})와 길이가 동일해야 합니다.</entry>
+    <entry key="InvalidCellstrRowType">{0} 유형은 문자형 벡터로 구성된 셀형 행 벡터여야 하며, 테이블 너비({1,number,integer})와 길이가 동일해야 합니다.</entry>
+    <entry key="InvalidContinuityType">VariableContinuity 유형은 ''matlab.internal.coder.tabular.Continuity'' 클래스의 행 벡터이거나, 이 클래스로 변환할 수 있는 문자형 벡터로 구성된 셀형 행 벡터여야 합니다. 또한 테이블 너비({0,number,integer})와 길이가 동일해야 합니다.</entry>
+    <entry key="InvalidRowNamesType">RowNames 유형은 비어 있지 않은 문자형 벡터로 구성된 셀형 열 벡터이거나 0×0의 빈 셀이어야 합니다.</entry>
+    <entry key="IncorrectRowNamesTypeLength">RowNames 유형은 테이블 높이와 길이가 동일해야 합니다. 테이블 높이를 변경하려면 coder.resize를 사용하십시오.</entry>
+    <entry key="IncorrectDataTypeHeight">Data 유형 셀 요소는 테이블 높이와 행 개수가 동일해야 합니다. 테이블 높이를 변경하려면 coder.resize를 사용하십시오.</entry>
+    <entry key="StringGroupType">코드 생성 시 string형 변수는 그룹화 변수일 수 없습니다.</entry>
+    <entry key="StringParamNameNotSupportedCodegen">"{0}"을(를) 사용하여 파라미터 이름을 지정하려고 했을 수 있습니다. 그러나 table 생성자에서는 파라미터 이름을 문자형 벡터로 지정해야 하고, 코드 생성 시 Name=Value는 지원되지 않습니다. 대신 table(..., ''{0}'', Value)를 사용하십시오.</entry>
+    <entry key="IncompatibleTableTypeWidth">너비가 서로 다른 table 또는 timetable의 유형 객체를 병합할 수 없습니다.</entry>
+    <entry key="AssignmentDimensionMismatchCodegen">첨자를 사용한 대입식의 차원이 테이블 변수 ''{0}''과(와) 일치하지 않습니다.</entry>
+  </message>
+</rsccat>

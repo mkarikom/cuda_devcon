@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DefaultPropertyHelp">{0} 是一个属性。\n</entry>
+    <entry key="DefaultEventHelp">{0} 是一个事件。\n</entry>
+    <entry key="DefaultEnumerationHelp">{0} 是一个枚举。\n</entry>
+    <entry key="DefaultScriptHelp">{0} 是一个脚本。\n</entry>
+    <entry key="DefaultFunctionHelp">{0} 是一个函数。\n {1}\n</entry>
+    <entry key="DefaultNoArgFunctionHelp">{0} 是一个函数。\n</entry>
+    <entry key="DefaultLocalFunctionHelp">{0} 是局部函数。\n {1}\n</entry>
+    <entry key="DefaultNoArgLocalFunctionHelp">{0} 是局部函数。\n</entry>
+    <entry key="DefaultClassHelp">{0} 是一个类。\n</entry>
+    <entry key="DefaultFullConstructorHelp">{0} 是一个构造函数。\n {1}\n</entry>
+    <entry key="DefaultConstructorHelp">{0} 是一个类。\n {1}\n</entry>
+    <entry key="DefaultFolderHelp">{0} 是一个文件夹。\n</entry>
+    <entry key="DefaultPackageHelp">{0} 是一个包。\n</entry>
+    <entry key="DefaultBuiltinHelp">{0} 是未公开的内置 {1}。\n</entry>
+    <entry key="DefaultMatfileHelp">{0} 是 MAT 文件。</entry>
+    <entry key="DefaultMexHelp">{0} 是 MEX 文件。\n</entry>
+    <entry key="DefaultPHelp">{0} 是 P 代码文件。\n</entry>
+    <entry key="DefaultSLXHelp">{0} 是 Simulink {1}。\n</entry>
+    <entry key="DefaultNoSLXHelp">{0} 是 Simulink 模型或库文件。\n</entry>
+    <entry key="DefaultInvalidFileHelp">{0} 不是有效的 MATLAB 文件名。\n</entry>
+    <entry key="InputIsA">    输入是一个 {0} 类型的值。\n</entry>
+    <entry key="InstanceIsA">    {0} 是一个 {1} 类型的变量。\n</entry>
+    <entry key="TooManyCommands">只能指定一个命令选项</entry>
+    <entry key="TooManyInputsWithLinks">帮助仅支持搜索一个主题\n\n请使用帮助浏览器搜索字段来&lt;a href="matlab:{0}"&gt;搜索文档&lt;/a&gt;。</entry>
+    <entry key="TooManyInputsNoLinks">帮助仅支持搜索一个主题\n\n请使用帮助浏览器搜索字段来搜索文档。</entry>
+    <entry key="HelpForBanner">--- {0} 的帮助 ---\n\n</entry>
+    <entry key="HelpForTypoBanner">--- 未找到 {0}。改为显示 {1} 的帮助。---\n\n</entry>
+    <entry key="IsBothBanner">\n\n{0} 既是目录也是函数。\n\n</entry>
+    <entry key="MatfileBanner">{0} 是 MAT 文件。\n\n包含变量:\n\n</entry>
+    <entry key="MethodsBanner">{0} 方法:\n\n</entry>
+    <entry key="ContentsBanner">{0} 的内容:\n\n</entry>
+    <entry key="PackageBanner">{0} 包的内容:\n\n</entry>
+    <entry key="HelpTopics">帮助主题:\n\n</entry>
+    <entry key="MustBeSingleString">字符串输入必须为标量。</entry>
+    <entry key="MustBeCharVector">字符输入必须为向量。</entry>
+  </message>
+</rsccat>

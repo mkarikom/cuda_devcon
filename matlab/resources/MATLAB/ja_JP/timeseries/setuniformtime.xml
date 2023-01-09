@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">setuniformtime メソッドは、単一の timeseries オブジェクトにのみ使用できます</entry>
+    <entry key="invargs">setuniformtime は少なくとも 1 つのプロパティ/値のペアを必要とします。</entry>
+    <entry key="nonempty">setuniformtime は少なくとも 1 つのサンプルをもつ timeseries を必要とします。</entry>
+    <entry key="pvsetNoValue">指定されたプロパティに対応する値がありません。</entry>
+    <entry key="propnostr">プロパティは文字ベクトルまたは string として指定しなければなりません。</entry>
+    <entry key="starttime">StartTime プロパティは、数値のスカラーでなければなりません。</entry>
+    <entry key="endtime">EndTime プロパティは、数値のスカラーでなければなりません。</entry>
+    <entry key="interval">Interval プロパティは、数値のスカラーでなければなりません。</entry>
+    <entry key="pvsetInvalidUniformtime">等間隔の時間プロパティが無効です。</entry>
+  </message>
+</rsccat>

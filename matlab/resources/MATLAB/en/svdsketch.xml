@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2019-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- Errors -->
+    <entry key="InvalidTolerance" context="error">The tolerance must be a real numeric scalar in the range sqrt(eps(class(A))) &lt;= tolerance &lt; 1.</entry>
+    <entry key="InvalidBsize" context="error">The block size must be a positive integer.</entry>
+    <entry key="InvalidMaxiter" context="error">Maximum number of iterations must be a positive integer.</entry>
+    <entry key="InvalidMaxdim" context="error">Maximum subspace dimension must be a positive integer.</entry>
+    <entry key="InvalidP" context="error">Number of power iterations must be a nonnegative integer, but is typically 0, 1, or 2.</entry>
+    <entry key="InvalidA" context="error">First input must be a matrix of type single or double.</entry>
+    <entry key="NameWithoutValue" context="error">Incorrect number of input arguments. Each parameter name must be followed by a corresponding value.</entry>
+  </message>
+</rsccat>

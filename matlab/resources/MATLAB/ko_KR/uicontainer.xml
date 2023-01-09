@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidParentChildObject">부모 속성을 후손 자식 객체에 설정하려고 시도 중입니다.</entry>
+    <entry key="InvalidInputArgument">인수가 부모 핸들과 파라미터/값 쌍만 포함할 수 있음</entry>
+    <entry key="InvalidParent">부모 핸들은 figure, uicontainer 또는 ibuttongroup이어야 합니다.</entry>
+    <entry key="InvalidParentFigure">부모는 Figure 또는 UIContainer여야 함</entry>
+    <entry key="InvalidParentToChild">부모 속성을 후손 자식 객체에 설정하려고 시도 중입니다.</entry>
+    <entry key="UnsupportedFeature">이 기능은 현재 지원되지 않습니다.</entry>
+    <entry key="SetScrollable">figure 함수와 그 자식으로 생성된 Figure는 스크롤을 지원하지 않습니다.</entry>
+    <entry key="ScrollableOff">프로그래밍 방식으로 스크롤하려면 'Scrollable'이 'on'이어야 합니다.</entry>
+    <entry key="InvalidScrollTarget">유효하지 않은 위치</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">모서리 벡터는 단조 비감소 벡터여야 합니다.</entry>
+    <entry key="InvalidFirstNumericInput">첫 번째 입력값으로 지원되지 않는 유형임</entry>
+    <entry key="InvalidFirstInput">첫 번째 입력값은 비희소 형식의 실수 숫자형 배열이어야 합니다.</entry>
+    <entry key="InvalidSecondInput">두 번째 입력값은 비희소 형식의 실수 숫자형 배열이어야 합니다.</entry>
+    <entry key="InvalidSecondNumericInput">두 번째 입력값으로 지원되지 않는 유형임</entry>
+  </message>
+</rsccat>

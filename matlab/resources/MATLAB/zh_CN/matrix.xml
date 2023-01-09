@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="dimension_separator">×</entry>
+    <entry key="warning_message_prefix">警告: </entry>
+    <entry key="toDisableWarning">\n(键入 ''warning off {0}'' 以禁用此警告。)</entry>
+    <entry key="arrayScalIntReq">Scalar integer value required, but value is an array.</entry>
+    <entry key="complexScalIntReq">Scalar integer value required, but value is complex.</entry>
+    <entry key="nonIntegerInput">Size 输入必须为整数。</entry>
+    <entry key="nonRealInput">大小向量应为包含实数元素的行向量。</entry>
+    <entry key="badTypeIndices">数组索引必须为正整数或逻辑值。</entry>
+    <entry key="badTypeIndicesPosition">位置 {0, number, integer} 处的索引无效。数组索引必须为正整数或逻辑值。</entry>
+    <entry key="indexExceedsDims">索引超出数组范围。</entry>
+    <entry key="indexExceedsDimsPosition">位置 {0, number, integer} 处的索引超出数组边界。</entry>
+    <entry key="indexExceedsDimsPositionSize">Index in position {0, number, integer} exceeds array bounds. Index must not exceed {1, number, integer}.</entry>
+    <entry key="indexExceedsDimsLinear">Index exceeds the number of array elements. Index must not exceed {0, number, integer}.</entry>
+    <entry key="indexTooLarge">One or more indices are invalid. Indices must be less than 2^48.</entry>
+    <entry key="indexTooLargePosition">Index in position {0, number, integer} is invalid. Indices must be less than 2^48.</entry>
+    <entry key="logicalIndexExceedsDims">逻辑索引包含一个超出数组范围的 true 值。</entry>
+    <entry key="logicalIndexExceedsDimsPosition">位置 {0, number, integer} 处的逻辑索引包含一个在数组边界之外的 true 值。</entry>
+    <entry key="singleSubscriptNumelMismatch">无法执行赋值，因为左侧和右侧的元素数目不同。</entry>
+    <entry key="subsassigndimmismatchWithSizes">无法执行赋值，因为左侧的大小为 {0}，右侧的大小为 {1}。</entry>
+    <entry key="accessBadTypeIndices">试图访问 {0}({1})；索引必须为正整数或逻辑值。</entry>
+    <entry key="accessIndexOutOfBoundsNumel">试图访问 {0}({1})；由于 numel({2})={3}，索引超出范围。</entry>
+    <entry key="accessIndexOutOfBoundsSize">试图访问 {0}({1})；由于 size({2})=[{3}]，索引超出范围。</entry>
+    <entry key="namelengthmaxexceeded">''{0}'' 超过 MATLAB 的最大名称长度({1,number,integer} 个字符)并且已截断为 ''{2}''。</entry>
+    <entry key="UndefinedFunctionForClass">没有为类 ''{1}'' 的值定义函数 ''{0}''。</entry>
+    <entry key="ambiguousArrayGrowth">试图沿模糊的维增大数组。</entry>
+    <entry key="warning_unexpected_end_of_file">读取压缩数据时出现意外的文件结尾。</entry>
+    <entry key="object_wont_fit_down_pipe">尝试在连续流上对需要子系统-数据的对象进行串行化。</entry>
+    <entry key="badUndocumentedFunctionInput">mex 函数使用无效的参数调用了尚未公开的函数 {0}。</entry>
+    <entry key="illegalComplexArray">数组不能为复数。</entry>
+    <entry key="unableToUseTypeAsIndex">无法将类型为 {0} 的值用作索引。</entry>
+    <entry key="invalidSubsindexReturnType">类 {0} 的方法子索引必须返回数值数组。</entry>
+  </message>
+</rsccat>

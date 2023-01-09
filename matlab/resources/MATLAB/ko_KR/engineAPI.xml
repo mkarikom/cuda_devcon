@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputNotSupported">데스크탑 없이 Engine으로 구동된 MATLAB에서는 'input' 명령이 지원되지 않습니다.</entry>
+    <entry key="ProcessSessionNotInitialized">MATLAB 프로세스 세션을 초기화할 수 없습니다.</entry>
+    <entry key="SharedMatlabNotFound">MATLAB 세션 ''{0}''을(를) 찾을 수 없습니다.</entry>
+    <entry key="SharedMatlabNotConnected">MATLAB 세션 ''{0}''에 연결할 수 없습니다.</entry>
+    <entry key="MatlabProcessNotCreated">MATLAB 프로세스를 생성할 수 없습니다.</entry>
+    <entry key="MatlabCommandNotEvaluated">MATLAB 명령을 실행할 수 없습니다.</entry>
+    <entry key="InterruptedException">MATLAB 명령 실행이 중단되었습니다.</entry>
+    <entry key="CancelledException">MATLAB 명령이 취소되었습니다.</entry>
+    <entry key="TimeoutException">MATLAB 명령 실행이 시간 초과되었습니다.</entry>
+    <entry key="ProcessSessionNotTerminated">MATLAB 프로세스 세션을 종료할 수 없습니다.</entry>
+    <entry key="MatlabProcessNotTerminated">MATLAB 프로세스를 종료할 수 없습니다.</entry>
+    <entry key="MatlabProcessNotExist">MATLAB 프로세스가 존재하지 않습니다.</entry>
+    <entry key="FutureResultNotExist">Future result가 존재하지 않습니다.</entry>
+    <entry key="StringInput">MATLAB 세션의 이름은 유효한 MATLAB 변수 이름이어야 합니다.</entry>
+    <entry key="SharingFailed">현재 MATLAB 프로세스를 공유하지 못했습니다.</entry>
+    <entry key="SessionNameConflict">MATLAB 세션 ''{0}''이(가) 이미 있습니다. 현재 MATLAB 세션은 이제 디폴트 이름 ''{1}''과(와) 공유됩니다.</entry>
+    <entry key="SessionSharedAlready">현재 MATLAB 세션은 이미 공유되어 있습니다. 새 MATLAB 세션을 시작한 다음, 세션을 공유할 이름을 새로 지정하면 그 이름으로 세션을 공유할 수 있습니다.</entry>
+    <entry key="MatlabExecutionError">{0}</entry>
+    <entry key="MatlabSyntaxError">{0}</entry>
+  </message>
+</rsccat>

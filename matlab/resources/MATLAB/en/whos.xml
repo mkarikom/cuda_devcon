@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed">
+  <message>
+    <entry key="fileNameIsEmpty">File name wasn''t provided.</entry>
+    <entry key="fileIsNotThere">Could not find {0}.</entry>
+    <entry key="permissionDenied">Could not open {0}. Permission denied.</entry>
+    <entry key="isADirectory">Could not open {0}. It is a folder.</entry>
+    <entry key="notValidMatFile">Could not open {0} as a valid MAT-file.</entry>
+    <entry key="VariableTooBigForArch">Variable ''{0}'' too large for architecture.\nSkipping...</entry>
+    <entry key="UnableToRead">Unable to read some of the variables due to unknown MAT-file error.\n</entry>
+    <entry key="multipleFilesDetected">More than one ''-file'' option is specified. Only one is allowed.</entry>
+    <entry key="yourVariablesAre">\nYour variables are:\n</entry>
+    <entry key="badVariableName">Unable to read some variables. Variable name lengths must be less than or equal to MATLAB maximum name length of 63 characters.</entry>
+  </message>
+</rsccat>

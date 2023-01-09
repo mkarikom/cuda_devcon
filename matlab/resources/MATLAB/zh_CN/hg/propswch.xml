@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PropertyTypeEntryOutOfPlace">属性类型条目 {0,number,integer} 未处于 IsDefaultFtnsTableValid 中的相应位置。</entry>
+    <entry key="PropertyError">{0} \n对象名称: {1}\n属性名称: ''{2}''\n{3}。</entry>
+    <entry key="FindObjFailed">{0} \n对象名称: {1}\n属性名称: ''{2}''。</entry>
+    <entry key="NoGet_convert_fcnForDataType">内部错误: 此数据类型没有 get_convert_fcn (应为断言)</entry>
+    <entry key="DefaultCanNotBeQueried">无法查询默认值。</entry>
+    <entry key="ReadAccessDenied">读取访问被拒绝。</entry>
+    <entry key="AttemptToModifyReadOnlyProperty">尝试修改只读属性。</entry>
+    <entry key="DefaultCanNotBeSet">无法设置默认值。</entry>
+    <entry key="BadPropertyValueFound">找到错误的属性值。</entry>
+  </message>
+</rsccat>

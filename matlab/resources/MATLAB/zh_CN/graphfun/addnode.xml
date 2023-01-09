@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidNrNodes">要添加的节点数必须为实型非负整数。</entry>
+    <entry key="NoOutput">输入图形未修改。请使用输出参数返回修改后的图形。</entry>
+    <entry key="SecondInput">要添加的节点必须为节点名称数组、节点数或节点属性表。</entry>
+    <entry key="NonUniqueDefaultNames">新节点的默认名称与现有节点名称相同。请为新节点指定唯一节点名称。</entry>
+  </message>
+</rsccat>

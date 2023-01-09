@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="bad_event">hwtic(''{0}'') is not supported.</entry>
+  <!--Resource entries for src/builtins-->
+    <entry key="hwticUnsupported">hwtic is not supported.</entry>
+    <entry key="hwtocUnsupported">hwtoc is not supported.</entry>
+  </message>
+</rsccat>

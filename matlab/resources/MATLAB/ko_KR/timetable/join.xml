@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="JoinInvalidInput">첫 번째 인수는 timetable형이어야 하고, 두 번째 인수는 timetable형이거나 table형이어야 합니다.</entry>
+    <entry key="InnerOuterJoinInvalidInput">타임테이블과 테이블은 내부 결합(innerjoin)하거나 외부 결합(outerjoin)할 수 없습니다. 두 인수가 모두 timetable형이어야 합니다.</entry>
+    <entry key="InvalidTimeKeys">유효하지 않은 키가 지정되었습니다. 타임테이블은 자신의 행 시간값을 기준으로만 결합할 수 있습니다. 'Keys' 파라미터를 사용하여 행 시간값의 이름을 지정하거나, 또는 두 개의 타임테이블이 서로 다른 이름의 행 시간값을 갖는 경우 'LeftKeys'와 'RightKeys'를 사용하여 행 시간값의 이름을 지정할 수 있습니다. 다른 키 변수를 기준으로 결합하려면 먼저 타임테이블에서 테이블로 변환하십시오.</entry>
+    <entry key="InvalidVariableKeys">타임테이블과 테이블을 결합하려면 키 변수가 타임테이블에서 시간 벡터일 수 없습니다.</entry>
+    <entry key="MergeKeysMustBeTrue">두 개의 타임테이블을 외부 결합(outerjoin)하려면 ''MergeKeys''를 true로 설정해야 합니다.</entry>
+    <entry key="RowLabelsCannotBeDataVar">''LeftVariables'' 또는 ''RightVariables''에서는 행 시간값이 지원되지 않습니다.</entry>
+    <entry key="RowLabelsCannotBeDataVarNondefaultName">''{0}''은(는) 인식할 수 없는 변수 이름입니다. 이 타임테이블의 ''{1}''(이)라는 행 시간값에 액세스하려고 했을 수 있습니다. 그러나 ''LeftVariables'' 또는 ''RightVariables''에서는 행 시간값이 지원되지 않습니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ClassConstructorNotFound">MATLAB 클래스 {0}에 대한 생성자를 찾을 수 없습니다.</entry>
+    <entry key="InvalidArrayType">배열이 스칼라, 벡터 또는 보다 높은 차원의 배열로 인식되지 않았습니다.</entry>
+    <entry key="CannotDetermineReadType">{0}을(를) 읽을 수 없습니다. 입력값은 경로에 있는 유효한 패키지 이름, 클래스 이름 또는 함수 이름으로 구성된 목록이어야 합니다.</entry>
+    <entry key="FileWriteError">생성된 CPP 코드를 지정된 파일에 쓸 수 없음: {0}.</entry>
+    <entry key="RegularMethodHasNoInputArgs">메서드 {0}에 입력 인수가 없습니다. 정적이 아닌 MATLAB 메서드에는 적어도 하나의 입력 인수가 필요합니다.</entry>
+    <entry key="MethodNoInputArgMetaData">메서드 {0}의 입력 인수에 대한 메타데이터를 찾을 수 없습니다. 메서드에 유효한 arguments 블록이 있는지 확인하십시오.</entry>
+    <entry key="MethodVararginNotSupported">메서드 {0}에는 가변 개수의 입력 인수가 지원되지 않습니다.</entry>
+    <entry key="MethodHasPartialMetaData">메서드 {0}의 인수에 누락된 메타데이터가 있습니다. 메서드에 유효한 arguments 블록이 있는지 확인하십시오.</entry>
+    <entry key="MethodArgHasNoType">메서드 "{1}"의 위치 {0}에 있는 입력 인수에 MATLAB 유형이 지정되지 않았습니다. 유형 유효성 검사 데이터를 메서드 정의에 추가해 보십시오.</entry>
+    <entry key="MethodArgHasNoSize">메서드 "{1}"의 위치 {0}에 있는 입력 인수에 크기/차원이 지정되지 않았습니다. 크기 유효성 검사 데이터를 메서드 정의에 추가해 보십시오.</entry>
+    <entry key="FunctionNoInputArgMetaData">함수 {0}의 입력 인수에 대한 메타데이터를 찾을 수 없습니다. 함수에 유효한 arguments 블록이 있는지 확인하십시오.</entry>
+    <entry key="FunctionVararginNotSupported">함수 {0}에는 가변 개수의 입력 인수가 지원되지 않습니다.</entry>
+    <entry key="FunctionHasPartialMetaData">함수 {0}의 인수에 누락된 메타데이터가 있습니다. 함수에 유효한 arguments 블록이 있는지 확인하십시오.</entry>
+    <entry key="FunctionArgHasNoType">함수 "{1}"의 위치 {0}에 있는 입력 인수에 MATLAB 유형이 지정되지 않았습니다. 유형 유효성 검사 데이터를 함수 정의에 추가해 보십시오.</entry>
+    <entry key="FunctionArgHasNoSize">함수 "{1}"의 위치 {0}에 있는 입력 인수에 크기/차원이 지정되지 않았습니다. 크기 유효성 검사 데이터를 함수 정의에 추가해 보십시오.</entry>
+    <entry key="InternalLogicError">CPP 코드 생성기에서 내부 논리 오류가 발생했습니다. MathWorks 기술 지원팀에 이 오류를 보고해 주십시오.</entry>
+    <entry key="PropertyHasNoMetaData">"{1}" 클래스의 속성 "{0}"에 대한 메타데이터를 찾을 수 없습니다. 이 클래스에 대한 properties 블록이 유효한지 확인하십시오.</entry>
+    <entry key="PropertyHasNoValidationData">"{1}" 클래스의 속성 "{0}"에 대한 크기 메타데이터 또는 클래스 메타데이터를 찾을 수 없습니다. 이 속성에 대한 유효성 검사 데이터를 해당 정의에 추가해 보십시오.</entry>
+    <entry key="PropertyHasNoSizeValidationData">"{1}" 클래스의 속성 "{0}"에 대한 크기 메타데이터를 찾을 수 없습니다. 이 속성에 대한 크기 유효성 검사 데이터를 해당 정의에 추가해 보십시오.</entry>
+    <entry key="PropertyHasNoClassValidationData">"{1}" 클래스의 속성 "{0}"에 대한 클래스/유형 메타데이터를 찾을 수 없습니다. 이 속성에 대한 클래스/유형 유효성 검사 데이터를 해당 정의에 추가해 보십시오.</entry>
+    <entry key="ArgumentHasInvalidDimensions">"{0}"의 인수에 유효하지 않은 차원이 포함되어 있습니다. "{0}"에 대한 arguments 블록이 유효한지 확인하십시오.</entry>
+    <entry key="EnumsNotSupported">Enum은 변환에 지원되지 않습니다.</entry>
+    <entry key="GeneratorHasUnresolvedClassDependencies">확인되지 않은 클래스 종속 관계가 발견되었습니다. 다음 클래스를 생성하거나 지정하십시오. 그러지 않으면 생성된 코드가 빌드되지 않을 수 있습니다: {0}</entry>
+    <entry key="ClassCouldNotFindFriend">CPP 생성 시 {0} 클래스가 {1}의 보호 멤버에 액세스해야 합니다. 그러나 {1} 클래스를 찾을 수 없습니다. {1} 클래스를 생성하거나 지정하십시오. 그러지 않으면 생성된 코드가 빌드되지 않을 수 있습니다.</entry>
+    <entry key="MethodNameConflictWithPropertyAccessors">MATLAB 클래스 {0}에 다음 메서드가 생성되지 않습니다: {1}. 메서드 이름이 속성 액세스 메서드와 충돌합니다.</entry>
+    <entry key="ClassNameConflictWithPropertyAccessors">{0} 클래스에 다음 속성 액세스 메서드가 생성되지 않습니다: {1}. 속성 액세스 메서드 이름이 클래스 이름과 충돌합니다.</entry>
+    <entry key="NameConflictWithCPPKeyword">C++ 키워드 이름 충돌로 인해 MATLAB 토큰이 생성되지 않습니다. 생성된 C++ 코드에 발생할 수 있는 빌드 또는 런타임 오류를 방지하려면 다음 토큰의 이름을 바꾸십시오: {0}.</entry>
+    <entry key="MethodArgNameConflictWithCPPKeyword">C++ 키워드 충돌을 피하기 위해 생성된 C++ 코드에서 다음 MATLAB 메서드 인수 이름이 수정됩니다: {0}.</entry>
+    <entry key="FunctionArgNameConflictWithCPPKeyword">C++ 키워드 충돌을 피하기 위해 생성된 C++ 코드에서 다음 MATLAB 함수 인수 이름이 수정됩니다: {0}.</entry>
+    <entry key="BuiltinMethodNotSupported">Built-in method {0} not supported.</entry>
+    <entry key="BuiltinFunctionNotSupported">내장 함수 {0}은(는) 지원되지 않습니다.</entry>
+    <entry key="NoInputList">패키지, 클래스 또는 함수로 구성된 하나 이상의 입력 목록을 이름-값 쌍 형식으로 지정해야 합니다.</entry>
+    <entry key="InvalidListType">입력 목록 유형이 유효하지 않습니다. 목록은 string형 배열이어야 합니다.</entry>
+    <entry key="InvalidInputPackageNames">유효하지 않은 입력 패키지 이름임: {0}. 이름은 MATLAB 검색 경로에 있는 유효한 패키지여야 합니다.</entry>
+    <entry key="InvalidInputClassNames">유효하지 않은 입력 클래스 이름임: {0}. 이름은 MATLAB 검색 경로에 있는 유효한 클래스여야 합니다.</entry>
+    <entry key="InvalidInputFunctionNames">유효하지 않은 입력 함수 이름임: {0}. 이름은 MATLAB 검색 경로에 있는 유효한 함수여야 합니다.</entry>
+    <entry key="MethodDefinitionNotFound">메서드 {0} 정의가 포함된 파일을 찾을 수 없습니다.</entry>
+    <entry key="FunctionDefinitionNotFound">함수 {0} 정의가 포함된 파일을 찾을 수 없습니다.</entry>
+    <entry key="CannotGetNumArguments">{0}에 대한 입력 인수를 확인할 수 없습니다. 함수 또는 메서드는 nargin과 호환되어야 합니다.</entry>
+  </message>
+</rsccat>

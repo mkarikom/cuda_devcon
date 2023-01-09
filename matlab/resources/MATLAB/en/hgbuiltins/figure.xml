@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CreateFromNonFigure">Figures cannot be created from non-figure handles.</entry>
+  <!--Resource entries for src/hgbuiltins-->
+    <entry key="InputMustBeAFigureHandle">Single input must be an existing figure handle or a scalar integer from 1 to 2147483646</entry>
+    <entry key="numargs">Wrong number of arguments</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">入力引数が不足しています。</entry>
+    <entry key="InvalidLevel">レベルの引数は有限のスカラーでなければなりません。</entry>
+    <entry key="NoDataInputs">最初の引数として Y データ、または X と Y データを指定しなければなりません。</entry>
+    <entry key="XDataSizeMismatch">XData は YData と同じサイズでなければなりません。</entry>
+    <entry key="DifferentParents">エリア グループのメンバーはすべて同じ親をもたなければなりません。</entry>
+    <entry key="BaseValueLabel">ベースライン値</entry>
+    <entry key="ShowBaseLine">ベースラインの可視性</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadColorOrder">ColorOrder 必须包含至少一种颜色</entry>
+    <entry key="ParamMustBeNumeric">{0} 必须为数值</entry>
+    <entry key="ParamMustBe3ElementNumericVector">{0} 必须为包含 3 个元素的数值向量</entry>
+    <entry key="ParamMustBePositiveFinite">{0} 值必须是有限的并且大于零</entry>
+    <entry key="BadMatrixDimensions">XForm 属性需要 4x4 矩阵</entry>
+    <entry key="Expected3ElementNumericVector">需要包含 3 个元素的数值向量</entry>
+    <entry key="ExpectedNumeric">View [方位仰角] 必须为数值</entry>
+    <entry key="ExpectedTwoElementVector">View [方位仰角] 必须为包含 2 个元素的向量</entry>
+    <entry key="BadArguments">{0} {1} 属性: ''{2}''\n{3}</entry>
+    <entry key="MustBeChild">{0} 必须为坐标区的现有文本子级</entry>
+    <entry key="BadAxesHandle">坐标区句柄无效</entry>
+    <entry key="CannotBeCurrentAxes">类型为 {0} 的句柄不能作为当前坐标区。</entry>
+    <entry key="MustHaveFigureParent">轴必须有图窗父级才可设置为当前项。</entry>
+    <entry key="BadHandle">句柄对象无效</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotHG2Figure">Should not call hg2gcv without a hg2 enabled figure hierarchy.</entry>
+    <entry key="InvalidArgument">Only call hg2gcv with a object in a hg2 enabled figure hierarchy.</entry>
+    <entry key="hg2NotEnabled">Should not call hg2gcv without hg2 enabled.</entry>
+    <entry key="DeletedInputObject">Input cannot be a deleted object.</entry>
+  </message>
+</rsccat>

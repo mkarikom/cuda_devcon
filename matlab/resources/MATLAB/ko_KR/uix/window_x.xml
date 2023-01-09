@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="OutOfMemory">콜백에서 메모리가 부족함</entry>
+    <entry key="AddWindowManagedDeleteProtocolFailed">창 매니저 삭제 프로토콜을 추가할 수 없습니다.  창 매니저가 실행 중입니까?</entry>
+    <entry key="FeatureUnavailable">이 기능은 더 이상 사용할 수 없습니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MustBeStringArray">입력값은 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="MustBeMatrix">첫 번째 인수는 벡터이거나 2차원 행렬이어야 합니다.</entry>
+    <entry key="complexIntegers">복소수형 정수는 지원되지 않습니다.</entry>
+    <entry key="DimIsSpecified">첫 번째 인수가 셀형 배열인 경우 입력 인수가 너무 많습니다.</entry>
+    <entry key="TooManyInputsRows">'rows' 옵션이 지정된 경우 입력 인수가 너무 많습니다. 추가 인수를 지정할 때 &lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/issortedrows.html'))\"&gt;issortedrows&lt;/a&gt;를 사용하여 행 정렬을 결정하십시오. </entry>
+    <entry key="MustBeVector">입력 인수는 행/열 벡터여야 합니다.</entry>
+    <entry key="vector">입력값이 벡터이거나, ''rows''가 지정되어야 합니다.</entry>
+    <entry key="flag">알 수 없는 플래그입니다.</entry>
+  </message>
+</rsccat>

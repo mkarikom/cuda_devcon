@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- Copyright 2016-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidTolerance">Tolerance value must be a nonnegative scalar duration.</entry>
+    <entry key="InvalidSubscripter">Subscripting using WITHTOL is only supported for selecting rows of a timetable.</entry>
+    <entry key="MismatchRowTimesType">A timetable with {0} row times cannot be subscripted using {1} values.</entry>
+    <entry key="LargeTolerance">Tolerance exceeds half the smallest interval between subscript times, and might result in selecting duplicate rows. Tolerance must be less than {0}.</entry>
+    <entry key="TabularInput">Timetable is not a valid input argument. Call WITHTOL with datetimes or durations, and use output as a subscript for a timetable.</entry>
+    <entry key="IncompatibleLoad" note="Do NOT add period ('.') at the end - it is intentionally left out.">Unable to load the saved withtol object because it is incompatible with this version of MATLAB</entry>
+
+<!-- ui strings -->
+    <entry key="UIStringDispHeader" note="Do NOT translate 'timetable' and 'withtol': they are class names. 'subscript' here means an array index.">timetable &lt;a href="matlab:doc(''withtol'')"&gt;withtol&lt;/a&gt; subscript:</entry>
+    <entry key="UIStringDispTimes">Select timetable rows matching the following times:</entry>
+    <entry key="UIStringDispTolerance">with tolerance of +/- {0}</entry>
+    <entry key="UIStringDispSnipFooter">... and {0} more</entry>
+    <entry key="UIStringDispFooter" note="Do NOT translate 'timetable': it is a class name">See &lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','subscript-into-times-of-timetable.html'))"&gt;Select Timetable Data by Row Time and Variable Type.&lt;/a&gt;</entry>
+<!-- codegen -->
+    <entry key="LargeToleranceCodegen">Tolerance exceeds half the smallest interval between subscript times, and might result in selecting duplicate rows.</entry>
+    <entry key="DatetimeNotSupported">Code generation does not support datetime row times. Specify row times as a duration vector instead.</entry>
+    <entry key="TextInputsNotSupported">Code generation does not support specifying row times or tolerance as char vectors or cell arrays of char vectors. Specify as duration instead.</entry>
+  </message>
+</rsccat>

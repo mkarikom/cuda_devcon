@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CategoryNamesInvalidSize">第四个参数(类别名称)必须为长度等于 bin 数 {0,number,integer} 的元胞数组。</entry>
+    <entry key="DefaultCategoryNamesNotUnique">无法使用 5 位有效数字创建唯一的类别名称。请将类别名称指定为参数。</entry>
+    <entry key="EmptyOrScalarEdges">bin 边界必须包含至少 2 个元素。</entry>
+    <entry key="InvalidN">bin 数目必须为正实整数。</entry>
+    <entry key="ValuesInvalidSize">第三个参数 bin values 必须为长度等于 bin 数 {0,number,integer} 的向量。</entry>
+    <entry key="ValuesClassNoNaN">如果第三个参数 bin values 的类型为 {0}，则所有输入数据都必须属于某个 bin。</entry>
+    <entry key="invalidType">数据类型无效。要划分 bin 的数据必须为实数数值数组或逻辑数组。</entry>
+    <entry key="InvalidSecondInput">bin 边界必须为实数数值向量或逻辑向量并且单调递增。</entry>
+    <entry key="ParseFlags">参数名称必须为 ''IncludedEdge''。</entry>
+    <entry key="KeyWithoutValue">输入参数的数目不正确。参数名称和值必须成对出现。</entry>
+    <entry key="InvalidIncludedEdgeValue">''IncludedEdge'' 值必须为 ''left'' 或 ''right''。</entry>
+    <entry key="InvalidCatnames">类别名称必须为字符向量元胞向量或者为字符串。</entry>
+    <entry key="InvalidValues">bin 值必须为向量。</entry>
+    <entry key="InputNonFloatWithNumBins">当要划分 bin 的数据为整数数据类型时，请指定 bin 边界而不是 bin 数目。</entry>
+    <entry key="NumbinsNotFixedSize">代码生成不支持可变大小的 bin。</entry>
+  </message>
+</rsccat>

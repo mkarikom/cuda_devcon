@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SparseNotSupported">スパース配列はサポートされません。</entry>
+    <entry key="FirstArgIsInvalid">1 番目の引数は、有限の整数を含まなければなりません。</entry>
+    <entry key="InvalidWidth">列幅は正のスカラー数値でなければなりません。</entry>
+    <entry key="NegativeValueOutOfRange">最初の引数は intmin('int64') より大きくなければなりません。</entry>
+    <entry key="ValueOutOfRange">最初の引数は 2^96 より小さくなければなりません。</entry>
+  </message>
+</rsccat>

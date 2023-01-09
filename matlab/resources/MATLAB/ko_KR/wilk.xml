@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManyOutputsForFive">GALLERY(''WILK'',5)는 하나의 출력값만 지원합니다.</entry>
+    <entry key="TooManyOutputsForTwentyOne">GALLERY(''WILK'',21)은 하나의 출력값만 지원합니다.</entry>
+    <entry key="InvalidN">죄송합니다. 해당 N 값은 사용할 수 없습니다.</entry>
+  </message>
+</rsccat>

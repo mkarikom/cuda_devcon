@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!-- Copyright 2020-2021 MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <entry key="Label">Workspace</entry>
+        <entry key="SaveVariablesAsScripts">Saving variables as MATLAB script files</entry>
+        <entry key="SaveVariablesThreshhold">Thresholds for saving variables to MATLAB script</entry>
+        <entry key="SaveVariablesThreshholdHelper">Variables exceeding these thresholds are saved in the companion MAT-file.</entry>
+        <entry key="MaxArraySize">Maximum array size:</entry>
+        <entry key="MaxNestingValue">Maximum struct/object nesting levels:</entry>
+        <entry key="MultiDimArrayFormatting">Multidimensional array formatting</entry>
+        <entry key="RowVectorReshape">Row Vector with reshape (compactness and efficiency)</entry>
+        <entry key="DimsForSaving2DPages">As 2-D pages (readability)</entry>
+        <entry key="ArrayDimsFor2DPages">Array Dimensions to appear in 2-D pages</entry>
+        <entry key="FileFormatting">File formatting</entry>
+        <entry key="MaxCharactersPerLine">Maximum characters per line:</entry>
+        <entry key="StatisticalCalc">Statistical calculations</entry>
+        <entry key="ShowArrayStatsHelper">element and smaller arrays show statistics</entry>
+        <entry key="HandleNaNInCalculations">Handling NaN values in calculations:</entry>
+        <entry key="UseNansInCalculatingStats">Use NaNs when calculating statistics</entry>
+        <entry key="IgnoreNansWhenCalculatingSttas">Ignore NaNs when calculating statistics</entry>
+        <entry key="ArraySizeLimit">MATLAB array size limit</entry>
+        <entry key="LimitMaxArarySizeToRam">Limit the maximum array size to a percentage of RAM</entry>
+        <entry key="ArrayLimitTooltip">The values must fall between 1 and 32, and the first value must be smaller than the second</entry>
+    </message>
+</rsccat>

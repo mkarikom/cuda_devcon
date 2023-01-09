@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Custom">自定义</entry>
+    <entry key="InvalidBinVector">bin 向量无效</entry>
+    <entry key="InvalidNumberOfBins">bin 数目无效</entry>
+    <entry key="NumberOfBins">bin 数</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="UniformCenters">统一中心</entry>
+    <entry key="VectorOfCenters">中心向量</entry>
+    <entry key="DefineHistogramBins">定义直方图 bin 数目</entry>
+  </message>
+</rsccat>

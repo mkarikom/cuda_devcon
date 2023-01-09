@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invOutArg">Output argument allowed only in SET(H) or SET(H,Property).</entry>
+    <entry key="invVarArg">First argument to SET must be a named variable. To set properties of metadata stored within timeseries objects use the dot assignment notation.</entry>
+    <entry key="invPropValPairs">Property/value pairs must come in even number.</entry>
+  </message>
+</rsccat>

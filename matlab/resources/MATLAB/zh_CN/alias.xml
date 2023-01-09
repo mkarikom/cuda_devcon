@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="OldNameExists"> 无法对类 ''{1}'' 使用旧名称 ''{0}''，因为 ''{0}'' 已作为类或函数在文件夹 ''{2}'' 中存在。</entry>
+    <entry key="OldNameDuplicatesBuiltinOrOtherLanguageClass"> 不支持使用类别名将 ''{0}'' 重命名为 ''{1}''，因为 ''{0}'' 是内置的或用另一种语言创建的。</entry>
+    <entry key="InvalidAliasDefinition">别名定义文件 ''{0}'' 的语法无效。</entry>
+    <entry key="ChainingDirect"> 别名配置非法。''{0}'' ''{1}'' 是类 ''{2}'' 的别名，但 ''{1}'' 本身是另一个类的实际名称。这是不允许的。</entry>
+    <entry key="InvalidAliasConfigurationChaining"> 为类 ''{0}'' 找到的别名配置无效。在多次重命名类时，请使用对 addAlias 的单个调用并指定所有旧名称。</entry>
+    <entry key="InvalidAliasConfigurationUseChaining"> 别名配置无效。请改为在一行中使用 ''{0}''。</entry>
+    <entry key="ChainingReverse"> 别名配置非法。类 ''{0}'' 是类 ''{1}'' 的别名，但 ''{1}'' 本身又是另一个类的别名。这是不允许的。</entry>
+    <entry key="WarnPackageAliasing"> 使用包别名机制前请与 MCOS 小组讨论</entry>
+    <entry key="InvalidAliasDefinitionWithLineNumberText"> 文件 ''{0}''\n 行: ''{1}'' 列 ''{2}'' ''{3}''</entry>
+    <entry key="InvalidAliasKeyword">  ''{0}''\n ''{1}''</entry>
+    <entry key="SameOldAndNewNames"> ''{0}'' 别名 ''{1}'' 和当前名称 ''{1}'' 相同。</entry>
+    <entry key="DuplicateAlias"> 别名配置无效: 类 ''{0}'' 不能用作多个类的别名。</entry>
+    <entry key="AliasFileSystemError"> 打开别名文件 ''{0}'' 时文件系统出错。无法从此文件创建别名。</entry>
+    <entry key="AliasShadowsBuiltin"> 将类命名为 ''{0}'' 不正确，因为该名称已是内置类 ''{1}'' 的注册别名。</entry>
+    <entry key="DuplicateNewName"> 别名配置无效: 类 ''{0}'' 用作两个或多个别名的目标。将跳过后面的别名定义。</entry>
+    <entry key="MissingNewClass"> Unable to use alias ''{0}'' of class ''{1}''  because there is no class definition with the new name ''{1}'' in folder ''{2}''.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadCallOrder">system_dependent(''memtoc'') を呼び出す前に system_dependent(''memtic'') を呼び出してください</entry>
+    <entry key="MemoryUsageGrown">メモリ使用量は memtic 以降、増加しました。\n</entry>
+  </message>
+</rsccat>

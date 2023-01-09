@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="minrhs">입력 인수가 부족합니다.</entry>
+    <entry key="InvalidRoundingOption">반올림 옵션을 인식할 수 없습니다.</entry>
+    <entry key="dimagree">행렬의 차원이 일치해야 합니다.</entry>
+    <entry key="OneArgumentMustBeInteger">적어도 하나의 인수는 정수형 클래스에 속해야 합니다.</entry>
+    <entry key="complexInts">복소수형 정수 연산은 지원되지 않습니다.</entry>
+    <entry key="mixedClasses">정수는 같은 클래스의 정수나 double형 스칼라와만 결합될 수 있습니다.</entry>
+    <entry key="scalarDoubleWith64BitInt">64비트 정수와 double형 스칼라가 혼용된 입력값은 지원되지 않습니다. 64비트 정수는 같은 클래스의 정수와만 결합될 수 있습니다.</entry>
+  </message>
+</rsccat>

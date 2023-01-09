@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="NoDataBlockToSelectDataGoBackToStep2">No data block has been selected.  To select data, go back to Step 2.</entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+      <entry key="TimeSeriesObjectWithSameNameAlreadyExists">A time series object with the same name already exists in tstool.  Do you want to replace its contents with the current selection?</entry>
+      <entry key="NoExistingTimeSeriesSelected">No existing time series is selected</entry>
+      <entry key="Replace">Replace</entry>
+      <entry key="Abort">Abort</entry>
+      <entry key="RowIndexShouldBeAnInteger">The row index for the row containing variable names should be an integer.</entry>
+      <entry key="VariableNamesMustBeAlphanumeric">Variable names must be alphanumeric.</entry>
+      <entry key="CommonPartValidMATLABvariableName">The common part of the variable name should be a valid MATLAB variable name.</entry>
+      <entry key="ImportingTimeSeriesObjectsPleaseWait">Importing Time Series Object(s), Please Wait...</entry>
+      <entry key="NoDataBlockSelectedGoBackToThePreviousStep">No data block is selected.  Please go back to the previous step to select a valid data block.</entry>
+      <entry key="InvalidTimesSelectedGoBackToStep2">Invalid times selected. Go back to Step 2.</entry>
+      <entry key="StartTimeMustBeDateStringGoBackToStep2" note="stringDatatypeUpdate">The start time must be a date character vector.  Go back to Step 2 to change the start time.</entry>
+      <entry key="TimeIntervalMustBeNumericGoBackToStep2">The time interval must be a numeric value. Go back to Step 2 to change the time interval.</entry>
+      <entry key="LengthOfTimeSeriesIsZeroGoBackToStep2">The length of time series is zero. Go back to Step 2 to select the desired data block.</entry>
+      <entry key="StartTimeMustBeNumericGoBackToStep2">The start time must be a numeric value.  Go back to Step 2 to change the Start Time.</entry>
+      <entry key="LengthOfDataBlockNotCompatibleWithTime">The length of data block is not compatible with the length of the time vector.</entry>
+      <entry key="SelectedDataBlockEmptyToReselectGoBackToStep2">Selected data block is empty.  To reselect it, go back to Step 2.</entry>
+      <entry key="InvalidTimeFormatSelectTimeVectorAgain">Invalid time format.  Select the time vector again.</entry>
+      <entry key="TimeVectorContainsDuplicatedTimePoints">The time vector contains duplicated time points.  For the samples related to the same time points, you can either select the last sample or the mean of the samples to import.</entry>
+      <entry key="SelectTheLast">Select the last</entry>
+      <entry key="SelectTheAverage">Select the average</entry>
+      <entry key="ErrorCreatingTimeSeriesObjectInTstool">Error in creating time series object in tstool</entry>
+      <entry key="UseOldTimeVector">Use the old time vector</entry>
+      <entry key="NewTimeVectorDifferentLengthFromOld">The new time vector you selected has a different length from the old time vector used in the existing time series object.</entry>
+      <entry key="NotAllDataImported">Not all data was imported. Invalid variable names were specified.</entry>
+      <entry key="UseNewTimeVector">Use the new time vector</entry>
+   </message>
+</rsccat>

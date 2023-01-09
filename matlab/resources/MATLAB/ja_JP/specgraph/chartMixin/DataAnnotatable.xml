@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ErrorInCustomFunction">カスタムの更新関数を使用して\nデータのヒントを更新できません</entry>
+    <entry key="InvalidIndex">インデックスは 0 より大きいスカラー整数値でなければなりません。</entry>
+    <entry key="InvalidPixelPosition">位置は 1 行 2 列の数値ベクトルでなければなりません。</entry>
+    <entry key="InvalidPositionPolygon">位置の多角形は、列数が 3 以上の 2 行 n 列の行列が格納されていなければなりません。</entry>
+    <entry key="InvalidDirection">方向は ''up''、''down''、''left''、''right'' のいずれかでなければなりません。</entry>
+    <entry key="InvalidPrimitivePosition">位置はスカラーの PrimitivePoint オブジェクトでなければなりません。</entry>
+    <entry key="InvalidBehaviorHelper">DataCursorBehaviorHelper オブジェクトを作成できません。</entry>
+    <entry key="MethodNotImplemented">保護されたメソッド "{0}" が DataAnnotatable インターフェイスに実装されていければなりません。</entry>
+  </message>
+</rsccat>

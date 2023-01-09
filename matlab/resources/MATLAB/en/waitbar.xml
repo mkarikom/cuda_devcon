@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidArguments">Input arguments not valid.</entry>
+    <entry key="InvalidOptionalArgsPass">Optional initialization arguments must be passed in pairs.</entry>
+    <entry key="WaitbarHandlesNotFound">Couldn''t find waitbar handles.</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="InvalidFirstInput">The first argument must be a numeric value between 0 and 1.</entry>
+    <entry key="InvalidSecondInput" note="stringDatatypeUpdate">The second argument must be a message character vector or a handle to an existing waitbar.</entry>
+      <entry key="ImproperArguments">Improper arguments for waitbar.</entry>
+  </message>
+</rsccat>

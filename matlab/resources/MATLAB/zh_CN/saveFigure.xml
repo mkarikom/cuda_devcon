@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidHandle">H 必须是有效图窗的句柄数组。</entry>
+    <entry key="InvalidFilename">文件名参数必须为非空字符串标量或字符向量。</entry>
+    <entry key="FunctionToBeRemoved">未来的版本中将会删除 saveFigure。请改用 savefig。</entry>
+  </message>
+</rsccat>

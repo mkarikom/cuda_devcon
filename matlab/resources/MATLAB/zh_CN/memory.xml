@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="unsupported">无法在此平台上使用函数 MEMORY。</entry>
+    <entry key="limitedByContiguousAddressSpaceLine">受可用的连续虚拟地址空间限制。</entry>
+    <entry key="limitedBySystemMemoryLine">受可用的系统内存(物理内存 + 交换文件)限制。</entry>
+    <entry key="limitedByVirtualAddressSpaceLine">受可用的虚拟地址空间限制。</entry>
+    <entry key="maxPossibleArrayLine">可能的最大数组:         </entry>
+    <entry key="memoryAvailableAllArraysLine">可用于所有数组的内存:</entry>
+    <entry key="memoryUsedMatlabLine">MATLAB 使用的内存:          </entry>
+    <entry key="notAvailableOnPlatformLine">此平台上不可用。</entry>
+    <entry key="physicalMemoryLine">物理内存(RAM):          </entry>
+  </message>
+</rsccat>

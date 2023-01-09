@@ -1,0 +1,160 @@
+{
+    "ML": {
+        "ProductName": "MATLAB",
+        "RegistryKeyRoot": "Matlab",
+        "RegistryKey": "MATLABROOT",
+        "RelativeProductPath": {
+            "win64": "MATLAB",
+            "glnxa64": "MATLAB",
+            "maci64": "MATLAB"
+        },
+        "StartUpShortcutName": "MATLAB",
+        "StartUpShortcutPath": {
+            "win64": "bin\\matlab.exe",
+            "glnxa64": "bin/matlab",
+            "maci64": "bin/matlab"
+        },
+        "ActivateShortcutName": "Activate MATLAB",
+        "ActivateShortcutPath": {
+            "win64": "bin\\win64\\activate_matlab.exe",
+            "glnxa64": "bin/glnxa64/activate_matlab",
+            "maci64": "bin/maci64/activate_matlab"
+        },
+        "DeactivateShortcutName": "Deactivate MATLAB",
+        "DeactivateShortcutPath": {
+            "win64": "uninstall\\bin\\win64\\deactivate_matlab.exe",
+            "glnxa64": "uninstall/bin/glnxa64/deactivate_matlab",
+            "maci64": "uninstall/bin/maci64/deactivate_matlab"
+        },
+        "SymbolicLinks": [ "matlab", "mex" ],
+        "DetectRunningExe": {
+            "win64": "bin\\win64\\MATLAB.exe",
+            "glnxa64": "bin/glnxa64/MATLAB",
+            "maci64": "bin/maci64/MATLAB"
+        },
+        "DeletePreferencesOption": true,
+        "DisplayDesktopShortcutOption": true,
+        "IsRequiredForMacOSApp": true
+    },
+    "DW": {
+        "ProductName": "MATLAB Parallel Server",
+        "RegistryKeyRoot": "MATLAB",
+        "RegistryKey": "MATLABROOT",
+        "RelativeProductPath": {
+            "win64": "MATLAB",
+            "glnxa64": "MATLAB",
+            "maci64": "MATLAB"
+        },
+        "StartUpShortcutName": null,
+        "StartUpShortcutPath": null,
+        "ActivateShortcutName": null,
+        "ActivateShortcutPath": null,
+        "DeactivateShortcutName": null,
+        "DeactivateShortcutPath": null,
+        "SymbolicLinks": null,
+        "DetectRunningExe": {
+            "win64": "bin\\win64\\MATLAB.exe",
+            "glnxa64": "bin/glnxa64/MATLAB",
+            "maci64": "bin/maci64/MATLAB"
+        },
+        "DeletePreferencesOption": true,
+        "DisplayDesktopShortcutOption": false,
+        "IsRequiredForMacOSApp": true
+    },
+    "PR": {
+        "ProductName": "MATLAB Production Server",
+        "RegistryKeyRoot": "MATLAB Production Server",
+        "RegistryKey": "MATLABROOT",
+        "RelativeProductPath": {
+            "win64": "MATLAB\\MATLAB Production Server",
+            "glnxa64": "MATLAB/MATLAB_Production_Server",
+            "maci64": "MATLAB/MATLAB_Production_Server"
+        },
+        "StartUpShortcutName": null,
+        "StartUpShortcutPath": null,
+        "ActivateShortcutName": null,
+        "ActivateShortcutPath": null,
+        "DeactivateShortcutName": null,
+        "DeactivateShortcutPath": null,
+        "SymbolicLinks": null,
+        "DetectRunningExe": null,
+        "DeletePreferencesOption": false,
+        "DisplayDesktopShortcutOption": false,
+        "IsRequiredForMacOSApp": false
+    },
+    "MW": {
+        "ProductName": "MATLAB Web App Server",
+        "RegistryKeyRoot": "MATLAB Web App Server",
+        "RegistryKey": "MATLABROOT",
+        "RelativeProductPath": {
+            "win64": "MATLAB\\MATLAB Web App Server",
+            "glnxa64": "MATLAB/MATLAB_Web_App_Server",
+            "maci64": "MATLAB/MATLAB_Web_App_Server"
+        },
+        "StartUpShortcutName": null,
+        "StartUpShortcutPath": null,
+        "ActivateShortcutName": null,
+        "ActivateShortcutPath": null,
+        "DeactivateShortcutName": null,
+        "DeactivateShortcutPath": null,
+        "SymbolicLinks": null,
+        "DetectRunningExe": null,
+        "DeletePreferencesOption": false,
+        "DisplayDesktopShortcutOption": false,
+        "IsRequiredForMacOSApp": false
+    },
+    "BD": {
+        "ProductName": "Polyspace Bug Finder",
+        "RegistryKeyRoot": "Polyspace",
+        "RegistryKey": "POLYSPACEROOT",
+        "RelativeProductPath": {
+            "win64": "Polyspace",
+            "glnxa64": "Polyspace",
+            "maci64": "Polyspace"
+        },
+        "StartUpShortcutName": "Polyspace",
+        "StartUpShortcutPath": {
+            "win64": "polyspace\\bin\\polyspace.exe",
+            "glnxa64": "polyspace/bin/polyspace",
+            "maci64": "polyspace/bin/polyspace"
+        },
+        "ActivateShortcutName": "Activate Polyspace",
+        "ActivateShortcutPath": {
+            "win64": "bin\\win64\\activate_matlab.exe",
+            "glnxa64": "bin/glnxa64/activate_matlab",
+            "maci64": "bin/maci64/activate_matlab"
+        },
+        "DeactivateShortcutName": "Deactivate Polyspace",
+        "DeactivateShortcutPath": {
+            "win64": "uninstall\\bin\\win64\\deactivate_matlab.exe",
+            "glnxa64": "uninstall/bin/glnxa64/deactivate_matlab",
+            "maci64": "uninstall/bin/maci64/deactivate_matlab"
+        },
+        "SymbolicLinks": null,
+        "DetectRunningExe": null,
+        "DeletePreferencesOption": false,
+        "DisplayDesktopShortcutOption": true,
+        "IsRequiredForMacOSApp": false
+    },
+    "BS": {
+        "ProductName": "Polyspace Bug Finder Server",
+        "RegistryKeyRoot": "Polyspace Server",
+        "RegistryKey": "POLYSPACEROOT",
+        "RelativeProductPath": {
+            "win64": "Polyspace Server",
+            "glnxa64": "Polyspace_Server",
+            "maci64": "Polyspace_Server"
+        },
+        "StartUpShortcutName": null,
+        "StartUpShortcutPath": null,
+        "ActivateShortcutName": null,
+        "ActivateShortcutPath": null,
+        "DeactivateShortcutName": null,
+        "DeactivateShortcutPath": null,
+        "SymbolicLinks": null,
+        "DetectRunningExe": null,
+        "DeletePreferencesOption": false,
+        "DisplayDesktopShortcutOption": false,
+        "IsRequiredForMacOSApp": false
+    }
+}

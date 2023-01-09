@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PXFileCreationFailed">无法写入文件 {0}。</entry>
+    <entry key="FileTooLarge">{0}文件太大或太复杂，无法生成 PX 代码。</entry>
+    <entry key="PXFileReadFailed">Unable to read file {0}.</entry>
+    <entry key="ReleaseLocked">文件 {0} 锁定至另一版本的 MATLAB。要运行此文件，请使用 MATLAB {1}。</entry>
+    <entry key="InvalidUseOfBinaryAt"> {0}属性验证不支持使用二进制 @ 字符 </entry>
+    <entry key="ParforNotSupportedInScripts">{0}PX 编码脚本中不支持 parfor 循环。</entry>
+    <entry key="SPMDNotSupportedInScripts">{0}PX 编码脚本中不支持 spmd 语句。</entry>
+    <entry key="InternalError">{0}</entry>
+  </message>
+</rsccat>

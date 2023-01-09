@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NumberOfBrushedPoints">브러싱된 점 개수</entry>
+    <entry key="NumberInteger">{1,number,integer}(으)로부터 {0,number,integer}</entry>
+    <entry key="ExportDialogTitle">브러싱된 데이터 식별</entry>
+    <entry key="TableLabel">내보낼 브러싱된 데이터를 선택하십시오.</entry>
+    <entry key="OKButton">확인</entry>
+  </message>
+</rsccat>

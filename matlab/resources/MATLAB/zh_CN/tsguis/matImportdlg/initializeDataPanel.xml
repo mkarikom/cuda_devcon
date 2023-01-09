@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UseStandardMATLABIndexing">使用标准 MATLAB 索引，例如 [1:10]</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="WhatsThis">这是什么</entry>
+    <entry key="SpecifyData">指定数据</entry>
+    <entry key="DataIsArrangedBy">数据排列依据</entry>
+    <entry key="Columns">列</entry>
+    <entry key="Rows">行</entry>
+    <entry key="RefreshList">刷新列表</entry>
+    <entry key="SelectedRows">所选行</entry>
+    <entry key="KeyInRowIndices">行索引中的键遵循 MATLAB 支持的格式。</entry>
+    <entry key="SelectedColumns">所选列</entry>
+    <entry key="KeyInColumnIndices">列索引中的键遵循 MATLAB 支持的格式。</entry>
+    <entry key="SpecifyRowNumber">指定行数</entry>
+    <entry key="SpecifyColumnNumber">指定列数</entry>
+    <entry key="DataOrganizedByColumn">如果当前变量中的数据按列排列，请选择“列”，否则选择“行”。</entry>
+  </message>
+</rsccat>

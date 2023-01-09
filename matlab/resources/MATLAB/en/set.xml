@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="PVPairSizeMismatch">Size mismatch in Param Cell / Value Cell pair</entry>
+    <entry key="BadPVPair1">Invalid parameter/value pair arguments</entry>
+    <entry key="ValueDimensionMustMatchVectoLength">Value cell array handle dimension must match handle vector length</entry>
+    <entry key="ExpectedMatchingPairs">Value cell array must have one value for each property specified</entry>
+    <entry key="BadPVPair2">Invalid parameter/value pair arguments</entry>
+    <entry key="BadPVPair3">Bad param/value pairs</entry>
+    <entry key="EmptyCellsNotAllowed">Empty cells not allowed in cell array of parameter names</entry>
+    <entry key="BadPVPair4">Invalid parameter/value pair arguments</entry>
+    <entry key="BadHandle1">Invalid handle</entry>
+    <entry key="BadPropertyName">Invalid property name</entry>
+    <entry key="BadHandle2">Invalid handle</entry>
+    <entry key="VectorNotAllowed">Vector of handles not permitted for set(h)</entry>
+    <entry key="BadHandleType">Handle must be a scalar when using set to retrieve information</entry>
+  </message>
+</rsccat>

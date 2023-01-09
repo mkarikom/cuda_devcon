@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotCalledWithInit">ODEPHAS2가 초기화되지 않았습니다. ODEPHAS2(tspan,y0,''init'') 구문을 사용하십시오.</entry>
+    <entry key="ErrorUpdatingWindow">ODEPHAS2 창을 업데이트하는 중 오류가 발생했습니다. 솔루션 데이터가 손상되었을 수 있습니다. {0}</entry>
+    <entry key="UnrecognizedFlag">인식할 수 없는 플래그 ''{0}''이(가) ODEPHAS2에 전달되었습니다.</entry>
+    <entry key="ButtonStop">중지</entry>
+  </message>
+</rsccat>

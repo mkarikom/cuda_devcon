@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Copyright 2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidNewVarNamesSpec">Specify one variable in the input table to become the new variable names in the output table. Use a positive integer, a variable name, or a logical vector containing a single true value.</entry>
+    <entry key="InvalidNewVarNames">Unable to convert the variable specified as ''VariableNamesSource'' to variable names.</entry>
+    <entry key="IncorrectNumVarNames">The variable specified as ''VariableNamesSource'' must provide one unique piece of text for each row of the input table. Using a variable that is a multidimensional array is not supported.</entry>
+    <entry key="DataVarsIncludeVarNames">The variable specified as ''VariableNamesSource'' must not be included in the data variables.</entry>
+    <entry key="CannotTransposeTableInTable">Input table must not contain variables that are themselves tables. Consider using splitvars to create separate variables before calling rows2vars.</entry>
+    <entry key="CannotTransposeMulticolumnVar">Input table must not contain variables that are multicolumn or N-dimensional arrays. Consider using splitvars to create separate variables before calling rows2vars.</entry>
+    <entry key="CannotTransposeNoColumnVar">Input table must not contain variables with zero width.</entry>
+    <!-- codegen -->
+    <entry key="VarsizeTable">The number of rows in the input table must be fixed at compile time.</entry>  
+    <entry key="UnsupportedVarNamesSource">''VariableNamesSource'' is not supported in code generation.</entry>
+    <entry key="NonconstantDataVars">''DataVariables'' value must be constant.</entry>
+    <entry key="NonconstantNamingRule">Variable naming rule must be constant.</entry>
+    <entry key="NonconstantRowNames">Row names in input table must be constant.</entry>  
+  </message>
+</rsccat>

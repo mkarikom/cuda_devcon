@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="scl" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="HasherNeedsToBeReset">
+  ハッシャーの準備ができていません。データ処理を続行する前に、Reset を呼び出さなければなりません。 
+</entry>
+    <entry key="cannotComputeChecksumForFile">ファイル {0} のチェックサムを確認できません。</entry>
+  </message>
+</rsccat>

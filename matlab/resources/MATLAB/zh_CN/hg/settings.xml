@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CannotContinuePrinting">无法继续打印已删除对象的属性</entry>
+    <entry key="CannotResolveObjectType">无法解析默认属性 ''{0}'' 中的对象类型</entry>
+    <entry key="CanOnlyQueryOnRoot">只能查询根对象的出厂属性</entry>
+    <entry key="InvalidPropertyFound">找到无效的属性。</entry>
+    <entry key="AmbiguousPropertyFound">找到具有多义性的属性。</entry>
+    <entry key="InvalidDefaultPropertyFor">以下项目的默认属性无效</entry>
+  </message>
+</rsccat>

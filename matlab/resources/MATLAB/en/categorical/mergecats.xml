@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2013-2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NonconsecutiveCategories">Cannot merge nonconsecutive categories when the categories are ordinal.</entry>
+    <entry key="UndefinedLabel" note="stringDatatypeUpdate">NEW cannot be ''{0}''.</entry>
+    <entry key="InvalidNewCategory" note="stringDatatypeUpdate">NEW must be a string or character vector containing a non-blank new category name.</entry>
+  </message>
+</rsccat>

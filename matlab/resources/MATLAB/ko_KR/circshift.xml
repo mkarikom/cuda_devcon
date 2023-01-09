@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidShiftType">유효하지 않은 시프트 유형임: 유형은 유한한 실수형 정수 벡터여야 합니다.</entry>
+    <entry key="NonScalarDim">CIRCSHIFT(X,K,DIM)에서 K와 DIM은 스칼라여야 합니다.</entry>
+  </message>
+</rsccat>

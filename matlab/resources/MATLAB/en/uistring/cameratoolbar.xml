@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011-2013 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+    <message>
+        <entry key="Ok">OK</entry>
+        <entry key="Help">Help</entry>
+        <entry key="PreferenceDialogHeading">Aspect Ratio Adjustment</entry>
+        <entry key="PreferenceDialog">Plots may change appearance so that aspect ratios remain\nunchanged during 3D rotation. Click the "Reset Camera and\nScene Light" toolbar item to have the axes reshape to fit\nthe figure.</entry>
+        <entry key="OrbitCamera">Orbit Camera</entry>
+        <entry key="OrbitSceneLight">Orbit Scene Light</entry>      
+        <entry key="PanTiltCamera">Pan/Tilt Camera</entry>
+        <entry key="MoveCameraHorizontallyVertically">Move Camera Horizontally/Vertically</entry>
+        <entry key="MoveCameraForwardBack">Move Camera Forward/Back</entry>
+        <entry key="ZoomCamera">Zoom Camera</entry>
+        <entry key="RollCamera">Roll Camera</entry>
+        <entry key="WalkCamera">Walk Camera</entry>
+        <entry key="PrincipalAxisX">Principal Axis X</entry>
+        <entry key="PrincipalAxisY">Principal Axis Y</entry>
+        <entry key="PrincipalAxisZ">Principal Axis Z</entry>
+        <entry key="NoPrincipalAxis">No Principal Axis</entry>
+        <entry key="ToggleSceneLight">Toggle Scene Light</entry>
+        <entry key="OrthographicProjection">Orthographic Projection</entry>
+        <entry key="PerspectiveProjection">Perspective Projection</entry>
+        <entry key="ResetCameraAndSceneLight">Reset Camera and Scene Light</entry>
+        <entry key="StopCameraLightMotion">Stop Camera/Light Motion</entry>
+        <entry key="CameraMotion">Camera Motion</entry>
+        <entry key="PanTurnTilt">Pan - Turn/Tilt</entry>
+        <entry key="MoveHorizontallyVertically">Move - Horizontally/Vertically</entry>
+        <entry key="MoveForwardBack">Move - Forward/Back</entry>
+        <entry key="Zoom_1">Zoom</entry>
+        <entry key="Roll_1">Roll</entry>
+        <entry key="CameraAxes">Camera Axes</entry>
+        <entry key="XPrincipalAxis">X Principal Axis</entry>
+        <entry key="YPrincipalAxis">Y Principal Axis</entry>
+        <entry key="ZPrincipalAxis">Z Principal Axis</entry>
+        <entry key="CameraReset">Camera Reset</entry>
+        <entry key="ResetCameraSceneLight">Reset Camera &amp; Scene Light</entry>
+        <entry key="ResetTargetPoint">Reset Target Point</entry>
+        <entry key="ResetSceneLight">Reset Scene Light</entry>
+        <entry key="Projection">Projection</entry>
+        <entry key="Orthographic">Orthographic</entry>
+        <entry key="Perspective">Perspective</entry>      
+    </message>
+</rsccat>

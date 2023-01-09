@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badMessageStyle">4 番目の入力は ''struct'' または ''string'' でなければなりません。</entry>
+    <entry key="invalidOutputs">NARGOUTCHK の 2 つの入力に使用できる出力引数はありません。</entry>
+    <entry key="notEnoughOutputs">出力引数が不足しています。</entry>
+    <entry key="tooManyOutputs">出力引数が多すぎます。</entry>
+  </message>
+</rsccat>

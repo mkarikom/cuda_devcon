@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="Abort">Abort</entry>
+      <entry key="AddEvent">Add event</entry>
+      <entry key="AddNewEvent">Add a new event</entry>
+      <entry key="AddRow">Add row</entry>
+      <entry key="Attributes">Attributes...</entry>
+      <entry key="CannotChangeTheTimeSeriesName">Cannot change the name of a time series which appears in one or more plots.</entry>
+      <entry key="Copy">Copy</entry>
+      <entry key="DeleteEvent">Delete event</entry>
+      <entry key="DeleteRows">Delete row(s)</entry>
+      <entry key="DeleteRowsFromTimeseries">Delete rows from timeseries ''{0}''</entry>
+      <entry key="DeleteTscollectionMember">Delete Tscollection Member</entry>
+      <entry key="Detrend">Detrend...</entry>
+      <entry key="Description">Description</entry>
+      <entry key="DuplicatedVariableDetected">Duplicated Variable Detected</entry>
+      <entry key="EditDataFor">Edit data for {0}</entry>
+      <entry key="Export">Export</entry>
+      <entry key="Filter">Filter...</entry>
+      <entry key="Interpolate">Interpolate...</entry>
+      <entry key="ModifyingEventDescription">Modifying event description</entry>
+      <entry key="ModifyingEventName">Modifying event name</entry>
+      <entry key="ModifyingEventTime">Modifying event time</entry>
+      <entry key="Name">Name</entry>
+      <entry key="NamesMustBeUnique">The names of events within a time series must be unique</entry>
+      <entry key="NewNodeName">New node name</entry>
+      <entry key="ObjectWasExported">Object ''{0}'' was exported to the base workspace.</entry>
+      <entry key="Overwrite">Overwrite</entry>
+      <entry key="Paste">Paste</entry>
+      <entry key="Remove">Remove</entry>
+      <entry key="RemoveMissingData">Remove Missing Data...</entry>
+      <entry key="Rename">Rename</entry>
+      <entry key="Resample">Resample...</entry>
+      <entry key="ShowEventTable">Show event table</entry>
+      <entry key="Time">Time</entry>
+      <entry key="TimeSeriesNode">Time Series Node</entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+      <entry key="ToFile">To File...</entry>
+      <entry key="ToWorkspace">To Workspace</entry>                                       
+      <entry key="TransformAlgebraically">Transform Algebraically...</entry>
+      <entry key="UniformTimeVector">Uniform Time Vector...</entry>   
+      <entry key="VariableNameExists">A variable with the name of {0} already exists in the workspace.  Do you want to overwrite the existing variable or abort this operation?</entry>
+   </message>
+</rsccat>

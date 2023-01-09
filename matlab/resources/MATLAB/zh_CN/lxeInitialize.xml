@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="cannotInitializeAfterlxeFeval">lxeInitialize 只能在首次调用 lxeFeval 之前调用。</entry>
+    <entry key="configurationMustBeString">该配置必须包含字符向量。</entry>
+    <entry key="configurationNotRecognized">配置选项区分大小写，并且必须为 Default、BoxInterp 或 BoxDua 之一</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidShiftType">Invalid shift type: must be a real finite integer vector.</entry>
+    <entry key="NonScalarDim">In CIRCSHIFT(X,K,DIM), K and DIM must be scalars.</entry>
+    </message>
+</rsccat>

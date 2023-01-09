@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="integerLinearAlgebra">정수 데이터형에는 선형 대수가 지원되지 않습니다. 요소별 왼쪽 나눗셈 연산을 수행하려면 LDIVIDE (.\\)를 사용하십시오.</entry>
+    <entry key="inputsMustBe2D">인수는 2차원이거나 또는 적어도 하나의 인수가 스칼라여야 합니다. 요소별 왼쪽 나눗셈 연산을 수행하려면 LDIVIDE (.\\)를 사용하십시오.</entry>
+    <entry key="sparseSingleNotSupported">희소 형식 single형 배열 연산은 지원되지 않습니다.</entry>
+    <entry key="inputMustBeNumericCharLogical">인수는 숫자형, 문자형 또는 논리형이어야 합니다.</entry>
+  </message>
+</rsccat>

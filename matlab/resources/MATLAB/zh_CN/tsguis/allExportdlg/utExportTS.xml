@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ErrorWritingToExcelWorkbook">写入 Excel 工作簿时出错</entry>
+    <entry key="TimeSeriesObjectName">时序对象名称</entry>
+    <entry key="TimeVectorCharacteristics">时间向量特性</entry>
+    <entry key="Length">长度</entry>
+    <entry key="StartDate">开始日期</entry>
+    <entry key="EndDate">结束日期</entry>
+    <entry key="StartTime">开始时间</entry>
+    <entry key="EndTime">结束时间</entry>
+    <entry key="ReferenceStartDate">引用开始日期</entry>
+    <entry key="DataCharacteristics">数据特性</entry>
+    <entry key="InterpolationMethod">插值方法</entry>
+    <entry key="Time">时间</entry>
+    <entry key="Data">数据</entry>
+    <entry key="XLSWRITEReturnedWarning">XLSWRITE 返回警告</entry>
+    <entry key="CouldNotWriteTimeseriesHeaderInfo">无法写入时序标题信息。 </entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="SampleSize">SampleSize</entry>
+  </message>
+</rsccat>

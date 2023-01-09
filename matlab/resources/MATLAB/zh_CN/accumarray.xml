@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badFillvalInput">第五个输入 FILLVALUE 必须为数值、逻辑值、字符值或元胞。</entry>
+    <entry key="outputSizeTooLarge">维度乘积大于最大整数。</entry>
+    <entry key="nonPosIntIndValues">第一个输入 SUBS 必须包含正整数下标。</entry>
+    <entry key="subsValuesTooLarge">第一个输入 SUBS 和第三个输入 SZ 必须满足 ALL(MAX(SUBS)&lt;=SZ)。</entry>
+    <entry key="badIndValues">第一个输入 SUBS 必须包含数值下标。</entry>
+    <entry key="badClassValInputDfltFun">没有为类 {0} 的值定义函数 ''sum''。</entry>
+    <entry key="pmaxsize">超出了程序允许的最大变量值。</entry>
+    <entry key="nonmatrixSparseOutput">要输出稀疏矩阵，第一个输入 SUBS 的列数不能超过 2 列。</entry>
+    <entry key="nonzeroFillvalSparseOutput">要输出稀疏矩阵，第五个输入 FILLVALUE 必须为实数双精度值零。</entry>
+    <entry key="nondoubleValues">用于稀疏累积的输入值必须为双精度值。</entry>
+    <entry key="negSizeOfSparse">稀疏矩阵大小必须为非负整数。</entry>
+    <entry key="emptyNumericIndInput">第一个输入 SUBS 必须为至少具有一列的实数数值满矩阵。</entry>
+    <entry key="emptyCellIndInput">第一个输入 SUBS 必须至少具有一个元胞。</entry>
+    <entry key="badCellIndInput">第一个输入 SUBS 的元胞必须包含等长的实数数值满向量。</entry>
+    <entry key="badClassValInput">第二个输入 VAL 必须为数值、逻辑值或字符满向量或者标量。</entry>
+    <entry key="badSizeValInputMatInd">第二个输入 VAL 必须为向量(SUBS 中的每一行都对应一个元素)或标量。</entry>
+    <entry key="badSizeValInputCellInd">第二个输入 VAL 必须为向量(与 SUBS 中每个元胞的元素数目相同)或标量。</entry>
+    <entry key="badSzInputMatInd">第三个输入 SZ 必须为满行向量(SUBS 的每一列都对应一个元素)。</entry>
+    <entry key="badSzInputCellInd">第三个输入 SZ 必须为满行向量(SUBS 的每个元胞都对应一个元素)。</entry>
+    <entry key="badSzInputVecInd">当 SUBS 为列向量时，第三个输入 SZ 必须为 [N 1] 格式。</entry>
+    <entry key="badFunInput">第四个输入 FUN 必须为函数句柄。</entry>
+    <entry key="nonscalarOrSparseFillvalInput">第五个输入 FILLVALUE 必须为满标量。</entry>
+    <entry key="badClassFillvalInput">第五个输入 FILLVALUE 必须为数值、逻辑值、字符值或元胞。</entry>
+    <entry key="badIsSparseInput">第六个输入 ISSPARSE 必须为逻辑标量。</entry>
+    <entry key="badIndInput">第一个输入 SUBS 必须为实数数值满矩阵或者元胞向量。</entry>
+    <entry key="nonscalarFunOutput">函数 ''{0}'' 返回了一个非标量值。</entry>
+    <entry key="sparseFunOutput">函数 ''{0}'' 返回了一个稀疏值。</entry>
+    <entry key="badFunOutputClass">函数 ''{0}'' 返回的值不是数值、逻辑值、字符或元胞。</entry>
+    <entry key="inconsistentFunOutput">函数 ''{0}'' 返回的值并非都具有相同的类。</entry>
+    <entry key="inconsistentFillvalAndFunOutput">FILLVALUE 和来自函数 ''{0}'' 的输出没有相同的类。</entry>
+  </message>
+</rsccat>

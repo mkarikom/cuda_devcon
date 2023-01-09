@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="needinteger">Indices must be specified by a vector of integers.</entry>
+    <entry key="badindex">Specified indices are either not integers, out of bounds, or negative.</entry>
+    <entry key="badvalue">Time must be a numeric value.</entry>
+    <entry key="badtimeformat">Invalid time format</entry>
+    <entry key="badformat">The specified time format does not match the time format of the time series.</entry>
+    <entry key="badsyntax">You must specify a sample index or time to delete each sample.</entry>
+    <entry key="badmethod" note="stringDatatypeUpdate">The second argument must be a character vector or string specifying the method that identifies the samples to be deleted.</entry>
+  </message>
+</rsccat>

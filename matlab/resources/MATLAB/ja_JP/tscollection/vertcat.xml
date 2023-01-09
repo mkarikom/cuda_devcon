@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badtype">tscollection オブジェクトは他の tscollection オブジェクトとのみ連結できます。</entry>
+    <entry key="ordermismatch">timeseries の順序が入力 tscollection の間で異なっています。最初の timeseries の順序が、連結した tscollection で使用されます。</entry>
+  </message>
+</rsccat>

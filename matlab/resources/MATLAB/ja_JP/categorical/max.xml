@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidDim">DIM は、1 から 2^31 までの範囲の正の整数スカラーでなければなりません。</entry>
+    <entry key="unknownOption">Option must be ''all'', ''linear'', ''includeundefined'', ''includenan'', ''omitundefined'', or ''omitnan''.</entry>
+    <entry key="unknownNaNFlag">オプションは ''includeundefined''、''includenan''、''omitundefined''、または ''omitnan'' でなければなりません。</entry>
+  </message>
+</rsccat>

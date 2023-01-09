@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Ok">확인</entry>
+    <entry key="Cancel">취소</entry>
+    <entry key="ClearPreference">삭제하시겠습니까?</entry>
+    <entry key="DeletePreference">삭제 확인</entry>
+    <entry key="ClearWSBConfirmation">모든 변수가 삭제됩니다.</entry>
+    <entry key="DeleteVariableConfirmation">선택한 변수를 삭제하시겠습니까?</entry>
+    <entry key="DeleteVariablesConfirmation">선택한 변수를 삭제하시겠습니까?</entry>
+    <entry key="DeleteFieldConfirmation">선택한 필드를 삭제하시겠습니까?</entry>
+    <entry key="DeleteFieldsConfirmation">선택한 필드를 삭제하시겠습니까?</entry>
+  </message>
+</rsccat>

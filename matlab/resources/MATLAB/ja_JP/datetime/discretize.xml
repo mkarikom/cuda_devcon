@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CategoryNamesInvalidSize">4 番目の引数のカテゴリ名は、ビンの数 {0,number,integer} と等しい長さのセル配列でなければなりません。</entry>
+    <entry key="DefaultCategoryNamesNotUnique">入力引数の表示形式を使用して一意のカテゴリ名を作成できません。カテゴリ名を指定するか、入力の ''Format'' プロパティを変更してください。</entry>
+    <entry key="InvalidDur">2 番目の引数の一様なビンのサイズは、正の有限のスカラーである duration または calendarDuration であるか、'second'、'minute'、'hour'、'day'、'week'、'month'、'quarter'、'year'、'decade'、'century' のいずれかでなければなりません。</entry>
+    <entry key="InvalidEdges">2 番目の引数であるビンのエッジは、少なくとも 2 つの要素をもつ datetime ベクトルでなければなりません。</entry>
+    <entry key="InvalidSecondInput">2 番目の引数は、datetime ベクトル、スカラー整数、スカラー duration またはスカラー calendarDuration、文字ベクトル、または string スカラーのいずれかでなければなりません。</entry>
+    <entry key="UnsortedEdges">2 番目の引数であるビンのエッジは、NaT を含まない、並べ替えられた datetime ベクトルでなければなりません。</entry>
+    <entry key="ValuesInvalidSize">3 番目の引数のビンの値は、ビンの数 {0,number,integer} と等しい長さのベクトルでなければなりません。</entry>
+    <entry key="ValuesClassNoNaN">3 番目の引数であるビンの値が {0} 型の場合は、すべての入力データが 1 つのビンに属さなければなりません。</entry>
+    <entry key="XNotDateTime">最初の引数は datetime 配列でなければなりません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidAxes">2 つの入力引数を指定する場合、最初の引数は座標軸でなければなりません。</entry>
+    <entry key="InvalidObject">グラフィックス オブジェクトが無効であるか削除されています。</entry>
+    <entry key="MixedAxesVector">最初の入力引数が座標軸のベクトルである場合、すべての座標軸の種類が同じでなければなりません。</entry>
+    <entry key="PolarAxes">{0} は極座標軸に対してはサポートされていません。</entry>
+    <entry key="PolarAxesAlternative">{0} は極座標軸に対してはサポートされていません。代わりに &lt;a href="matlab:doc {1}"&gt;{1}&lt;/a&gt; を使用してください。</entry>
+    <entry key="CartesianAxes">{0} は直交座標軸に対してはサポートされていません。代わりに &lt;a href="matlab:doc {1}"&gt;{1}&lt;/a&gt; を使用してください。</entry>
+    <entry key="ColorBar">{0} はカラー バーに対してはサポートされていません。</entry>
+    <entry key="Categorical">カテゴリカル ルーラーでは {0} はサポートされていません。</entry>
+    <entry key="NumberAsString">数値を指定する際は、入力引数を小かっこで囲みます。</entry>
+    <entry key="InvalidNumericLimits">範囲は増加する数値の 2 要素のベクトルでなければなりません。</entry>
+    <entry key="InvalidDatetimeLimits">範囲は増加する datetime 値の 2 要素のベクトルでなければなりません。</entry>
+    <entry key="InvalidDurationLimits">範囲は、増加する duration の 2 要素ベクトルでなければなりません。</entry>
+    <entry key="InvalidCategoricalLimits">範囲は、ルーラーの Categories プロパティ順に並べられた、増加するカテゴリまたは等しいカテゴリの 2 要素ベクトルでなければなりません。</entry>
+    <entry key="InvalidLimitsMode">範囲を、'mode'、'auto'、'manual' オプションのいずれか、または'tight'、'tickaligned'、'padded' 制限方法のいずれかに指定してください。</entry>
+    <entry key="InvalidLimitsModeOnly">範囲を指定するか、'mode'、'auto'、'manual' のいずれかのオプションを指定してください。</entry>
+    <entry key="InvalidTicks">目盛り値が無効です。目盛りラベルを設定するには &lt;a href="matlab:doc {0}"&gt;{0}&lt;/a&gt; を使用してください。</entry>
+    <entry key="InvalidNumericTicks">目盛り値は増加する数値のベクトルでなければなりません。</entry>
+    <entry key="InvalidDatetimeTicks">目盛り値は増加する datetime 値のベクトルでなければなりません。</entry>
+    <entry key="InvalidDurationTicks">目盛り値は増加する duration のベクトルでなければなりません。</entry>
+    <entry key="InvalidCategoricalTicks">目盛り値は増加するカテゴリカル値のベクトルでなければなりません。</entry>
+    <entry key="InvalidTicksMode">目盛り値を指定するか、'mode'、'auto'、'manual' のいずれかのオプションを指定してください。</entry>
+    <entry key="InvalidTickLabels">目盛りラベルを文字ベクトルの cell 配列、string 配列として指定するか、'mode'、'auto'、'manual' のいずれかのオプションとして指定します。</entry>
+    <entry key="InvalidAngle">回転は角度 (度単位) のスカラーでなければなりません。</entry>
+    <entry key="InvalidNumericFormat">目盛りラベルの数値の形式が無効です。</entry>
+    <entry key="InvalidDatetimeFormat">日付または時刻の形式が無効です。</entry>
+    <entry key="InvalidDurationFormat">duration の形式が無効です。</entry>
+  </message>
+</rsccat>

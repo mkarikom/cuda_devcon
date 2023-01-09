@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="datamismatch">时间和数据不匹配。</entry>
+    <entry key="qualmismatch">Time 和 Quality 不匹配。</entry>
+    <entry key="istimefirstAlign">数据的第一个和最后一个维度相同。请使用 ''IsTimeFirst'' 属性将数据与时间向量对齐。</entry>
+  </message>
+</rsccat>

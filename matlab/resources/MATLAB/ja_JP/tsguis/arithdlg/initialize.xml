@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ReplaceSelectedTimeSeries">選択した時系列を置換</entry>
+    <entry key="CreateNewTimeSeries">新規に時系列を作成する</entry>
+    <entry key="TransformDataAlgebraically">データの代数的な変換</entry>
+    <entry key="EnterMATLABexpression">MATLAB 式を入力</entry>
+    <entry key="TimeSeries">時系列</entry>
+    <entry key="Identifier">識別子</entry>
+    <entry key="Name">名前</entry>
+    <entry key="Path">パス</entry>
+    <entry key="Size">サイズ</entry>
+    <entry key="ExpressionUseIdentifierToReferTimeSeries">式: 識別子を利用して時系列を参照  例: a*25</entry>
+    <entry key="NewTimeSeries">新規時系列: </entry>
+    <entry key="NewName">新規名: </entry>
+    <entry key="Apply">適用</entry>
+    <entry key="Close">閉じる</entry>
+    <entry key="Help">ヘルプ</entry>
+  </message>
+</rsccat>

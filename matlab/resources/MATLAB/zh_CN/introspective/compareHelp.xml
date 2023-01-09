@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInputFile">输入项并非有效的文件路径</entry>
+    <entry key="NonLocalHelpInContainer">无法比较非局部定义的帮助，例如继承的属性和在 classdef MATLAB 文件外部定义的方法</entry>
+  </message>
+</rsccat>

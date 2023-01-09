@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key='InvalidExpression'>Input must be a function handle or symbolic function.</entry>
+    <entry key='InvalidPairs'>Invalid parameter name and value pairs.</entry>
+    <entry key='InvalidParameter'>Invalid parameter ''{0}''.</entry>
+    <entry key='MarkersNotSupported'>Markers not supported.</entry>
+    <entry key='NonScalarFunction'>Function must map scalar input to scalar output</entry>
+    <entry key='NotVectorized'>Function behaves unexpectedly on array inputs. To improve performance, properly vectorize your function to return an output with the same size and shape as the input arguments.</entry>
+    <entry key='RangeVector'>Range value must be an increasing real finite 2 element row vector.</entry>
+    <entry key='StringFunctionsDeprecated'>fplot will not accept character vector or string inputs in a future release. Use fplot({0}) instead.</entry>
+    <entry key='TwoOutputsDeprecated'>Having two output arguments for fplot will be removed in a future release. Use the XData and YData properties instead.</entry>
+    <entry key='ToleranceDeprecated'>The tolerance parameter input to fplot has been removed.</entry>
+    <entry key='TooManyFunctions'>Too many functions.</entry>
+    <entry key='TooManyVariables'>Input must be a function or functions of a single variable.</entry>
+  </message>
+</rsccat>

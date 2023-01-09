@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="isEqual">TextStringDataType::isEqual 出现异常</entry>
+    <entry key="IncorrectShape">字符串参数必须是 2D 字符数组或 Nx1 元胞数组。</entry>
+    <entry key="ArrayClass">字符串应是字符或元胞数组数据类型。</entry>
+    <entry key="InvalidCellArray">String 属性的元胞数组输入只能包含字符矩阵。</entry>
+  </message>
+</rsccat>

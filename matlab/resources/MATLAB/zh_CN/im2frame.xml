@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ImageMatrixMustBeDoublePrecision2D">图像矩阵必须为 2 维双精度矩阵</entry>
+    <entry key="ImageMatrixElementOutsideColormapRange">图像矩阵元素超出颜色图范围</entry>
+    <entry key="CDataValuesMustBeLegalColormapIndices">双精度索引 CData 值必须为合法的颜色图索引: 1.0 &lt;= 值 &lt;= length(colormap)</entry>
+    <entry key="CDataValuesMustBeBetween0And1">双精度真彩色 CData 值必须处于 0.0 &lt;= 值 &lt;= 1.0 范围中</entry>
+    <entry key="ExpectedMatrixTypeDoubleOrUint8">只能根据双精度类型或 uint8 类型的图像矩阵生成影片帧</entry>
+  </message>
+</rsccat>

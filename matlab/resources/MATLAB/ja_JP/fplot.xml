@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidExpression">入力は、関数ハンドルまたはシンボリック関数でなければなりません。</entry>
+    <entry key="InvalidPairs">パラメーター名と値のペアが無効です。</entry>
+    <entry key="InvalidParameter">パラメーター ''{0}'' が無効です。</entry>
+    <entry key="MarkersNotSupported">マーカーはサポートされていません。</entry>
+    <entry key="NonScalarFunction">関数はスカラー入力をスカラー出力にマッピングしなければなりません</entry>
+    <entry key="NotVectorized">関数が配列入力で予期せぬ動作をします。パフォーマンスを向上させるために、入力引数と同じサイズと形状をもつ出力を返すように関数を適切にベクトル化してください。</entry>
+    <entry key="RangeVector">範囲の値は増加する実数の、有限な 2 要素の行ベクトルでなければなりません。</entry>
+    <entry key="StringFunctionsDeprecated">将来のリリースで、fplot は文字ベクトルまたは string の入力を受け入れなくなります。代わりに fplot({0}) を使用してください。</entry>
+    <entry key="TwoOutputsDeprecated">fplot の 2 つの出力引数の指定は、今後のリリースで削除されます。代わりに XData プロパティと YData プロパティを使用してください。</entry>
+    <entry key="ToleranceDeprecated">fplot への許容誤差パラメーターの入力は削除されました。</entry>
+    <entry key="TooManyFunctions">関数が多すぎます。</entry>
+    <entry key="TooManyVariables">入力は 1 つ以上の 1 変数関数でなければなりません。</entry>
+  </message>
+</rsccat>

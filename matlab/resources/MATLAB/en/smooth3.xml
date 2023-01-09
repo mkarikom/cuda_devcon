@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="WrongNumberOfInputs">Wrong number of input arguments.</entry>
+    <entry key="VDataNot3D">V must be a 3D array.</entry>
+    <entry key="InvalidSizeInput">SIZE must be a scalar or a 3 element vector.</entry>
+    <entry key="InvalidSizeValues">All elements of SIZE must be odd integers greater than or equal to 1.</entry>
+    <entry key="UnknownFilter">Unknown filter.</entry>
+    <entry key="InvalidFirstInput">The first parameter must be a scalar or a 1-by-3 size vector.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="IsALiveScript">{0} はライブ スクリプトです。</entry>
+    <entry key="IsALiveFunction">{0} はライブ関数です。</entry>
+    <entry key="OpenInLiveEditor">ライブ エディターで開く</entry>
+    <entry key="TopicNotFound">\n{0} が見つかりません。\n</entry>
+    <entry key="GettingStarted">MATLAB のご利用がはじめての場合は、&lt;a href="matlab:helpview(fullfile(docroot, '/matlab/helptargets.map'), 'matlab_getting_started')"&gt;入門&lt;/a&gt;のリソースを参照してください。\n\nドキュメンテーションを表示するには、&lt;a href="matlab:doc"&gt;ヘルプ ブラウザー&lt;/a&gt;を開いてください。\n</entry>
+    <entry key="SearchMessageWithLinks">&lt;a href="matlab:{0}"&gt;ドキュメンテーション内を検索&lt;/a&gt;するには、ヘルプ ブラウザーの検索フィールドを使用してください。\nメソッドのヘルプと同様に、ヘルプ コマンドのオプションを検索するには、「&lt;a href="matlab:help help"&gt;help help&lt;/a&gt;」と入力してください。\n</entry>
+    <entry key="SearchMessageNoLinks">ドキュメンテーション内を検索するには、ヘルプ ブラウザーの検索フィールドを使用してください。\nあるいは、メソッドのヘルプと同様に、ヘルプ コマンドのオプションを参照するには、「help help」と入力してください。\n</entry>
+    <entry key="ReferencePageFor">{0} のドキュメンテーション</entry>
+    <entry key="DocumentationFor">{0} ドキュメンテーション</entry>
+    <entry key="FoldersNamed">{0} という名前のフォルダー</entry>
+    <entry key="NoFoldersNamed">{0} という名前のフォルダーはありません。</entry>
+  </message>
+</rsccat>

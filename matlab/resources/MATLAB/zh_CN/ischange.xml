@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ComplexInput">不支持复数输入参数。</entry>
+    <entry key="FirstInputInvalid">数据类型无效。第一个参数必须为双精度、单精度、表或时间表类型。</entry>
+    <entry key="DataVariablesArray">只有表输入和时间表输入支持 ''DataVariables'' 参数。</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' 函数句柄必须返回逻辑标量。</entry>
+    <entry key="DataVariablesTableSubscript">''DataVariables'' 值无效。</entry>
+    <entry key="DimensionInvalid">维度必须为正整数。</entry>
+    <entry key="DimensionTable">第一个参数为表或时间表时不支持维度。</entry>
+    <entry key="InfInput">Inf 和 -Inf 数据不受支持。</entry>
+    <entry key="MaxNumChanges">''MaxNumChanges'' 值必须为正整数。</entry>
+    <entry key="MaxNumChangesThreshold">如果指定了 ''Threshold''，则不支持 ''MaxNumChanges''。</entry>
+    <entry key="MethodInvalid">更改检测方法必须为 ''mean''、''variance'' 或 ''linear''。</entry>
+    <entry key="NameValueNames">参数名称必须为 ''Threshold''、''MaxNumChanges''、''SamplePoints'' 或 ''DataVariables''。</entry>
+    <entry key="NameValuePairs">输入参数的数目不正确。参数名称和值必须成对出现。</entry>
+    <entry key="NonVectorTableVariable">表变量必须为列向量。</entry>
+    <entry key="RowTimesDuplicate">行时间值包含重复项。</entry>
+    <entry key="RowTimesFinite">行时间必须为有限值。</entry>
+    <entry key="RowTimesSorted">行时间必须按升序排序。</entry>
+    <entry key="SamplePointsComplex">''SamplePoints'' 值必须为实数。</entry>
+    <entry key="SamplePointsDatetimeLinear">当方法为 ''linear'' 时，不支持日期时间类型的 ''SamplePoints''。</entry>
+    <entry key="SamplePointsDuplicate">''SamplePoints'' 值包含重复项。</entry>
+    <entry key="SamplePointsFinite">''SamplePoints'' 值必须为有限值。</entry>
+    <entry key="SamplePointsInvalidDatatype">''SamplePoints'' 值必须为双精度、单精度、日期时间或持续时间向量。</entry>
+    <entry key="SamplePointsLength">''SamplePoints'' 值中的元素数目必须与第一个参数在运算维度上的大小相同。</entry>
+    <entry key="SamplePointsSorted">''SamplePoints'' 值必须按升序排序。</entry>
+    <entry key="SamplePointsSparse">不支持稀疏 ''SamplePoints'' 值。</entry>
+    <entry key="SamplePointsTimeTable">时间表输入不支持 ''SamplePoints'' 参数。</entry>
+    <entry key="Threshold">''Threshold'' 值必须为非负的实数标量。</entry>
+    <entry key="UnsupportedTableVariable">表变量必须为双精度或单精度类型。</entry>
+  </message>
+</rsccat>

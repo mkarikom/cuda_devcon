@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidInput">First input must be a file name or a file identifier.</entry>
+    <entry key="NotScalarIntValued">File identifier must be an integer-valued scalar of type double.</entry>
+    <entry key="EncodingString">Invalid encoding.</entry>
+    <entry key="IncorrectFileMode">The file mode for fopen can not contain modes other than r, w, a, +, b, A, W or t.</entry>
+    <entry key="ConflictingExclusiveFileModes">The file mode for fopen must contain exactly one of the modes ''r'', ''w'' or ''a''.</entry>
+    <entry key="ConflictingExclusiveFileModeModifiers">The file mode for fopen may contain only one of the modifiers ''b'' or ''t''.</entry>
+    <entry key="InvalidCharacter">The file name contains characters that are not contained in the filesystem encoding.\n Certain operations may not work as expected.</entry>
+    <entry key="InvalidFileLocation">Unable to find file. Ensure file exists and path is valid.</entry>
+    <entry key="SizeTooLage">Data size too large for reading. The maximum allowed size is 2^29 bytes.</entry>
+    <entry key="HDFSWriteSeekNotSupported">fseek and frewind are not supported operations when writing to an HDFS location.</entry>
+</message>
+</rsccat>

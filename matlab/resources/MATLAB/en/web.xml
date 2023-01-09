@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="NoHelpBrowser">Displaying a documentation page in the Help browser requires Java, which is unavailable due to your startup options.</entry>
+      <entry key="NoBrowser">No Web browser defined.\n\nTo set up your System web browser, type "preferences(''''Web'''')" to display the Preferences dialog.</entry>
+      <entry key="BrowserNotFoundConfigureInfo">MATLAB was unable to launch your System web browser:\n\n{0}\n\nTo configure your System web browser, type "preferences(''''Web'''')" to display the Preferences dialog.</entry>
+      <entry key="BrowserNotFound">MATLAB was unable to launch your System web browser:\n\n{0}</entry>
+      <entry key="NoURL">No URL specified.</entry>
+      <entry key="DialogTitleWarning">MATLAB Warning</entry>
+      <entry key="BrowserOuptputArgRemovedInFutureRelease">[STAT,H] = WEB(___) does not return a handle for pages that open in the system browser. Use STAT = WEB(___) instead.</entry>
+      <entry key="BrowserAndUrlOuptputArgsRemovedInFutureRelease">[STAT,H,URL] = WEB(___) does not return a handle or URL for pages that open in the system browser. Use STAT = WEB(___) instead.</entry>
+      <entry key="UnsupportedEnvironment">MATLAB was unable to launch your System web browser:\n\nEnvironment not supported.</entry>
+   </message>
+</rsccat>

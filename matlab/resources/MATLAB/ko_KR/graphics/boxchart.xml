@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoXGDataWhenY2D">ydata가 행렬이면 xgroupdata를 전달할 수 없습니다.</entry>
+    <entry key="NoXDataWhenYData2D">YData가 행렬이면 XData를 설정할 수 없습니다.</entry>
+    <entry key="BadXVectorY">xgroupdata는 ydata와 크기가 동일해야 합니다.</entry>
+    <entry key="BadXDataVectorYData">XData는 YData와 크기가 동일해야 합니다.</entry>
+    <entry key="NoColGDataWhenY2D">샘플 데이터 인수가 행렬인 경우에는 ''GroupByColor'' 파라미터가 지원되지 않습니다.</entry>
+    <entry key="BadColGroupVectorY">''GroupByColor'' 값은 샘플 데이터 인수와 동일한 크기여야 합니다.</entry>
+    <entry key="OrientationYYAxis">상자 차트의 여러 y축에 categorical형 값이 있는 경우 ''Orientation'' 속성을 변경하는 것은 지원되지 않습니다.</entry>
+    <entry key="OrientationMixedType">상자 차트에 categorical형 값이 있고 좌표축에 여러 유형의 차트가 포함된 경우 ''Orientation'' 속성을 변경하는 것은 지원되지 않습니다.</entry>
+    <entry key="Position">위치</entry>
+    <entry key="OutlierValue">이상값</entry>
+    <entry key="LowerQuartile">하위 사분위수</entry>
+    <entry key="UpperQuartile">상위 사분위수</entry>
+    <entry key="LowerWhisker">하위 수염(Whisker)</entry>
+    <entry key="UpperWhisker">상위 수염(Whisker)</entry>
+    <entry key="LowerNotch">하위 노치</entry>
+    <entry key="UpperNotch">상위 노치</entry>
+    <entry key="Median">중앙값</entry>
+    <entry key="NumPoints">점 개수</entry>
+    <entry key="Quartiles">분위수</entry>
+    <entry key="Whiskers">수염(Whisker)</entry>
+    <entry key="Notches">노치</entry>
+    <entry key="NumOutliers">이상값 개수</entry>
+    <entry key="ColorGroup">이름</entry>
+  </message>
+</rsccat>

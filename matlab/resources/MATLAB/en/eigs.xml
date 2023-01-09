@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2010-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- Warnings -->
+    <entry key="BadResidual">Large residual norm detected. This is likely due to bad condition of the input matrix.</entry>
+    <entry key="NotAllEigsConverged">{0,number,integer} of the {1,number,integer} requested eigenvalues converged. Eigenvalues that did not converge are NaN.</entry>
+    <entry key="NotAllEigsConvKeep">{0,number,integer} of the {1,number,integer} requested eigenvalues converged. Specify convergence flag output to determine the values that did not converge.</entry>
+    <entry key="NotAllEigsConvDrop">{0,number,integer} of the {1,number,integer} requested eigenvalues converged. Eigenvalues that did not converge are removed.</entry>
+    <entry key="AmbiguousSyntax">Ambiguous syntax: First and second arguments are both scalars.\n Use EIGS(A,[],K,SIGMA) to specify standard eigenvalue problem, or EIGS(A,B,K,SIGMA) to specify generalized eigenvalue problem.</entry>
+    <!-- Errors in checkInputs -->
+    <entry key="BnonDouble">Invalid data type. Input matrices must be double-precision.</entry>
+    <entry key="BNotChol">cholB field in the options structure specified, but B is not upper triangular.</entry>
+    <entry key="BNotCholNV">''IsCholesky'' specified, but B is not upper triangular.</entry>
+    <entry key="BsizeMismatchA">Input matrices must be the same size for generalized problems.</entry>
+    <entry key="InvalidFhandleOutput">Unexpected output of function handle. The expected output is a column vector of length {0} and of type double.</entry>
+    <entry key="InvalidOptsCholB">cholB field in the options structure must be a logical scalar.</entry>
+    <entry key="InvalidIsCholesky">''IsCholesky'' value must be a logical scalar.</entry>
+    <entry key="InvalidOptsIssym">issym field in the options structure must be a logical scalar.</entry>
+    <entry key="InvalidOptsIsreal">isreal field in the options structure must be a logical scalar.</entry>
+    <entry key="InvalidIsFunctionSymmetric">''IsFunctionSymmetric'' value must be a logical scalar.</entry>
+    <entry key="InvalidOptsFail">fail field in the options structure must be ''replacenan'', ''keep'', or ''drop''.</entry>
+    <entry key="InvalidFailureTreatment">''FailureTreatment'' value must be ''replacenan'', ''keep'', or ''drop''.</entry>
+    <entry key="InvalidOptsP">p field in the options structure must be a positive integer less than or equal to n.</entry>
+    <entry key="InvalidSubspaceDimension">''SubspaceDimension'' value must be a positive integer less than or equal to n.</entry>
+    <entry key="InvalidOptsSpdB">spdB field in the options structure must be a logical scalar.</entry>
+    <entry key="InvalidIsSymmetricDefinite">''IsSymmetricDefinite'' value must be a logical scalar.</entry>
+    <entry key="InvalidOptsPermB">permB field in the options structure must be a permutation of 1:n.</entry>
+    <entry key="InvalidCholeskyPermutation">''CholeskyPermutation'' value must be a permutation of 1:n.</entry>
+    <entry key="InvalidOptsTol">tol field in the options structure must be a strictly positive real scalar.</entry>
+    <entry key="InvalidTolerance">''Tolerance'' value must be a strictly positive real scalar.</entry>
+    <entry key="InvalidSigma">Sigma can be a scalar double or one of these options: ''largestabs'', ''smallestabs'', ''largestreal'', ''smallestreal'', ''bothendsreal'', ''largestimag'', ''smallestimag'', or ''bothendsimag''.</entry>
+    <entry key="InvalidSpdBwithCholB">When the value of the cholB field in the options structure is true, the value of the spdB field must also be true.</entry>
+    <entry key="InvalidIsSymmetricDefiniteWithIsCholesky">When ''IsCholesky'' value is true, ''IsSymmetricDefinite'' value must also be true.</entry>
+    <entry key="KeyWithoutValue">Incorrect number of input arguments. Each parameter name must be followed by a corresponding value.</entry>
+    <entry key="MustHaveSecondInput">When the first argument is a function handle, the second argument must be the size of the matrix represented by the function handle.</entry>
+    <entry key="NonDoubleOrFunction">First argument must be a double matrix or a function.</entry>
+    <entry key="NonIntegerEigQty">Number of eigenvalues requested must be a nonnegative integer.</entry>
+    <entry key="NonIntegerEigQtyDetail">Number of eigenvalues requested must be a nonnegative integer. Instead, it was {0}.</entry>
+    <entry key="NonIntegerEigQtyStruct">Number of eigenvalues requested must be a nonnegative integer. Instead, it was a struct.</entry>
+    <entry key="NonPosIntSize">Size of problem, ''n'', must be a positive integer.</entry>
+    <entry key="NonSquareMatrixOrFunction">First argument must be a square matrix or a function handle.</entry>
+    <entry key="ParseFlags">Parameter name must be ''IsFunctionSymmetric'', ''Tolerance'', ''MaxIterations'', ''SubspaceDimension'', ''StartVector'', ''IsSymmetricDefinite'', ''IsCholesky'', ''CholeskyPermutation'', or ''FailureTreatment''.</entry>
+    <entry key="OptsMaxitNotPosInt">maxit field in the options structure must be a positive integer.</entry>
+    <entry key="MaxIterationsNotPosInt">''MaxIterations'' value must be a positive integer.</entry>
+    <entry key="spdBNotSymmetric">Matrix B is not symmetric. Value of spdB field in options structure must be false.</entry>
+    <entry key="IsSymmetricDefiniteNotSymmetric">Matrix B is not symmetric. ''IsSymmetricDefinite'' value must be false.</entry>
+    <entry key="IsSymmetricDefiniteNotPD">Matrix B is not positive definite. ''IsSymmetricDefinite'' value must be false.</entry>
+    <entry key="OptsPtooSmall">p field in the options structure must be &gt; k+1.</entry>
+    <entry key="SubspaceDimensionTooSmall">''SubspaceDimension'' value must be &gt; k+1.</entry>
+    <entry key="OptsInvalidDisp">disp field in the options structure must be 0 or 1.</entry>
+    <entry key="InvalidDisplay">''Display'' value must be 0 or 1.</entry>
+    <entry key="TooManyInputs">Too many input arguments.</entry>
+    <entry key="WrongSizeOptsV0">v0 field in the options structure must be a double column vector of length matching the problem size.</entry>
+    <entry key="WrongSizeStartVector">''StartVector'' value must be a double column vector of length n.</entry>
+    <!-- Warnings in checkInputs-->
+    <entry key="IgnoredOptionIssym">Ignoring issym field in the options structure since the first input is not a function handle.</entry>
+    <entry key="IgnoredIsFunctionSymmetric">Ignoring ''IsFunctionSymmetric'' since the first input is not a function handle.</entry>
+    <entry key="IgnoredOptionPermB">Ignoring permB field in the options structure since B is not its sparse Cholesky factor.</entry>
+    <entry key="IgnoredCholeskyPermutation">Ignoring ''CholeskyPermutation'' since B is not its sparse Cholesky factor.</entry>
+    <!-- Errors in getOPs -->
+    <entry key="AminusBSingular">The first input matrix, shifted by sigma, is singular, therefore sigma is an eigenvalue of the first input matrix. Consider specifying a perturbed numeric sigma value to improve the condition of the matrix.</entry>
+    <entry key="SingularA">First input matrix is singular. Consider specifying a small nonzero numeric sigma value instead of ''smallestabs'' to improve the condition of the matrix.</entry>
+    <entry key="SingularB">Singular second input matrix is only supported when sigma is ''SM'' or a scalar double.</entry>
+    <!-- Warnings in getOPs -->
+    <entry key="IllConditionedA">First input matrix is close to singular or badly scaled (RCOND = {0}) and results may be inaccurate. Consider specifying a small nonzero numeric sigma value instead of ''smallestabs'' to improve the condition of the matrix.</entry>
+    <entry key="IllConditionedB">Second input matrix B is close to singular or badly scaled. RCOND = {0}. Results may be inaccurate.</entry>
+    <entry key="SigmaNearExactEig">The first input matrix, shifted by sigma, is close to singular or badly scaled (RCOND = {0}) and results may be inaccurate. Consider specifying a perturbed numeric sigma value to improve the condition of the matrix.</entry>
+    <!-- Errors in KrylovSchur -->
+    <entry key="InvalidStartingVector">The starting vector v0 could not be normalized. It may be zero or contain non-finite values.</entry>
+    <entry key="InvalidStartingVectorBnorm">The starting vector v0 is in the nullspace of matrix B. Choose a different starting vector.</entry>
+    <entry key="NoOrthogonalSubspace">Unable to build an orthogonal subspace because the problem is ill-conditioned. For generalized problems, B may have low rank.</entry>
+    <entry key="VeryBadCondition">Input matrix is badly conditioned. It might contain Inf or NaN.</entry>
+    <!-- Diagnostic messages displayed when 'Display' is used -->
+    <entry key="TitleSimple">Simple eigenvalue problem A*x = lambda*x</entry>
+    <entry key="TitleGeneralized">Generalized eigenvalue problem A*x = lambda*B*x</entry>
+    <entry key="ProbSym">The eigenvalue problem is real symmetric.</entry>
+    <entry key="ProbNonSym">The eigenvalue problem is real non-symmetric.</entry>
+    <entry key="ProbHerm">The eigenvalue problem is complex Hermitian.</entry>
+    <entry key="ProbNonHerm">The eigenvalue problem is complex non-Hermitian.</entry>
+    <entry key="BSPD">Matrix B is symmetric positive (semi-)definite.</entry>
+    <entry key="BNonSPD">Matrix B is not symmetric positive (semi-)definite.</entry>
+    <entry key="BHPD">Matrix B is Hermitian positive (semi-)definite.</entry>
+    <entry key="BNonHPD">Matrix B is not Hermitian positive (semi-)definite.</entry>
+    <entry key="KandSigmaString">Computing {0} eigenvalues of type ''{1}''.</entry>
+    <entry key="KandSigmaNum">Computing {0} eigenvalues closest to {1}.</entry>
+    <entry key="Afun">Function handle Afun defines the {0}-by-{1} matrix A. The function handle returns {2}.</entry>
+    <entry key="ListParam">Parameters passed to Krylov-Schur method:\n  Maximum number of iterations: {0}\n  Tolerance: {1}\n  Subspace Dimension: {2}</entry>
+    <entry key="EigFallback">Compute EIGS by calling EIG, because subspace dimension is equal to problem size.</entry>
+    <entry key="SimpleDir">Find eigenvalues of A*x = lambda*x.</entry>
+    <entry key="SimpleInv">Find eigenvalues of {0}\\x = mu*x.\nCompute decomposition of {1}...</entry>
+    <entry key="GenSPDDir">Find eigenvalues of R''\\(A*(R\\x)) = lambda*x, with B = R''*R.</entry>
+    <entry key="GenSPDInv">Find eigenvalues of R*{0}\\(R''*y) = mu*y, with y = R*x, B = R''*R.\nNo need to compute R, as it is only used implicitly.\nCompute decomposition of {1}...</entry>
+    <entry key="GenDir">Find eigenvalues of B\\(A*x) = lambda*x.\nCompute decomposition of B...</entry>
+    <entry key="GenInv">Find eigenvalues of {0}\\(B*x) = mu*x.\nCompute decomposition of {1}...</entry>
+    <entry key="StartKrylovSchur">Start of Krylov-Schur method</entry>
+    <entry key="FailKrylovSchur">Krylov-Schur failed to build a B-orthogonal subspace. Try a different strategy:\n Find eigenvalues of (A - sigma*B)\\(B*x) = mu*x.</entry>
+    <entry key="KrylovSchurIter">Iteration {0}: {1} of {2} eigenvalues converged. Smallest non-converged residual {3} (tolerance {4}).</entry>
+    <entry key="KrylovSchurLastIter">Iteration {0}: {1} of {2} eigenvalues converged.</entry>
+    <entry key="CheckMult">To check if eigenvalue multiplicities were missed, restart the method, looking for k+1 eigenvalues.</entry>
+    <entry key="MultCheckSuccess">No additional multiple eigenvalues found. Successful return.</entry>
+    <entry key="MultCheckRepeat">Some additional multiple eigenvalues were found. Restart again to check for more.</entry>
+  </message>
+</rsccat>

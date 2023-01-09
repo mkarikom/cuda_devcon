@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Close">关闭</entry>
+    <entry key="ColumnNumber">列数</entry>
+    <entry key="DescriptiveStatistics">描述性统计量</entry>
+    <entry key="DescriptiveStatisticsSummary">所选时序的描述性统计量摘要</entry>
+    <entry key="Help">帮助</entry>
+    <entry key="Mean">均值</entry>
+    <entry key="Median">中位数</entry>
+    <entry key="Max">最大值</entry>
+    <entry key="Min">最小值</entry>
+    <entry key="NumberOfColumns">列数</entry>
+    <entry key="Path">路径</entry>
+    <entry key="SelectTimeSeries">选择时序</entry>
+    <entry key="TimeSeries">时序</entry>
+    <entry key="STD">STD</entry>
+  </message>
+</rsccat>

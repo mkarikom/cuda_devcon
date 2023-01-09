@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManyDataArgs">인수가 너무 많습니다.</entry>
+    <entry key="TooFewDataArgs">인수가 너무 많습니다.</entry>
+    <entry key="BadParent">부모 속성은 유효한 그래픽스 객체여야 합니다.</entry>
+    <entry key="InvalidCount">입력 인수의 개수가 올바르지 않습니다.</entry>
+    <entry key="DataArgWrongType">DataArgumentPatterns는 cellstr을 포함하는 패턴으로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="WrongName">{1}에서 {0}은(는) 유효하지 않은 속성 이름입니다.</entry>
+    <entry key="AmbiguousPattern">하나 이상의 지정된 데이터 인수 패턴이 모호합니다.</entry>
+    <entry key="UnspecifiedType">유형 정보가 속성 ''{0}''에 대해 지정되어 있지 않습니다.</entry>
+    <entry key="InvalidNameValue">지원되지 않은 속성 이름임: {0}.</entry>
+    <entry key="IncorrectDataArgs">데이터 인수가 올바르지 않습니다.</entry>
+    <entry key="InvalidLeadingFlags">선행 플래그는 cellstr이거나 string형 배열이어야 합니다.</entry>
+    <entry key="InvalidChartName">ChartClassName이 유효하지 않습니다. chart 클래스의 전체 패키지 이름을 지정하십시오.</entry>
+    <entry key="AlreadyPresent">{0}은(는) 다시 대입될 수 없습니다. 새 ChartInputParser 객체를 인스턴스화해 보십시오.</entry>
+    <entry key="BadTrailingFlagType">후행 플래그는 구조체, cellstr 또는 string형 배열로 지정해야 합니다.</entry>
+    <entry key="BadLineSpecification">LineSpecification은 최대 3개의 필드(LineStyle, MarkerStyle 및 Color)로 구성된 구조체여야 합니다.</entry>
+    <entry key="RepeatedLineSpec"> LineSpecification에서 {0} 매핑이 반복됩니다. 이전에 설정된 값을 덮어씁니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidState">状态必须为双精度标量或为 RAND(''state'') 的输出。</entry>
+    <entry key="invalidTwisterState">状态必须为双精度标量或为 RAND(''twister'') 的输出。</entry>
+    <entry key="invalidSeed">种子必须为双精度标量。</entry>
+    <entry key="inputType">大小输入必须为数值。</entry>
+    <entry key="invalidOutputType">CLASSNAME 输入必须为支持 RAND 的类，例如 ''single'' 或 ''double''。</entry>
+    <entry key="invalidPrototype">''like'' 后的输入项必须为支持 RAND 类型的变量。例如，双精度变量和单精度变量都支持 RAND。</entry>
+    <entry key="complexOrSparsePrototype">''like'' 后不支持复数或稀疏输入项。</entry>
+  </message>
+</rsccat>

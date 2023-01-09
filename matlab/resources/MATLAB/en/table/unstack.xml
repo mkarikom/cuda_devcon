@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CantUnstackTabularVariable">Unstacking table or timetable variables is not supported. Use SPLITVARS to split ''{0}'' into multiple variables.</entry>
+    <entry key="MultipleIndVar">The indicator variable must be specified as a single variable.</entry>
+    <entry key="InvalidAggregationFun">The aggregation function must be specified as a function handle.</entry>
+    <entry key="ConflictingGroupAndDataVars">The grouping variables and the data variables must not have variables in common.</entry>
+    <entry key="ConflictingIndVar">The indicator variable must not be a grouping variable or a data variable.</entry>
+    <entry key="ConflictingConstVars">A constant variable must not be the indicator variable, a data variable, or a grouping variable.</entry>
+    <entry key="MultipleRows">UNIQUE returned a non-scalar value when used as the default aggregation function. Specify an aggregation function that returns a scalar value.</entry>
+    <entry key="NonscalarAggFunValue">The aggregation function must always return a scalar value, even when a group in the input table has zero or multiple rows for a given value of the indicator variable.</entry>
+    <entry key="BadAggFunValueSize">The aggregation function must return a value whose size conforms to elements of the data variable ''{0}''.</entry>
+    <entry key="ConflictingNewDataVarNames">The names supplied for the unstacked data variables in the result conflict with other variable names in the result.</entry>
+    <entry key="BadAggFunValueClass">The aggregation function must return a numeric or logical value that can be cast to the class of the data variable ''{0}''.</entry>
+    <entry key="AssignmentError">Error when assigning output of aggregation function to table variable ''{0}''.</entry>
+    <entry key="CantUnstackRowLabels">Unstacking table row names is not supported. Create a table containing those row names as a variable.</entry>
+    <entry key="CantUnstackWithRowLabelsIndicator">Unstacking table using row names as the indicator variable is not supported. Create a table containing those row names as a variable.</entry>
+    <entry key="FillValueChange">When a group has no rows for a given value of the indicator variable, UNSTACK calls the supplied aggregation function with an input of size 0-by-1 instead of automatically filling the value. Review the output to ensure desired result is obtained. This warning might be removed in a future release.</entry>
+    <entry key="NewDataVarNameLengthMismatch">There are {0} unique values in the indicator variable. Specify {0} variable names using the NEWDATAVARIABLENAMES name-value pair.</entry>
+    <entry key="NewDataVarNamesEmptyDataVars">New data variable names should be empty when there are no variables to unstack.</entry>
+    <!-- codegen -->
+    <entry key="UndefinedNewDataVariableNames">When generating code, new data variable names must be specified.</entry>
+    <entry key="NonconstantDataVars">Data variables must be constant.</entry>
+    <entry key="NonconstantIndicatorVar">Indicator variable must be constant.</entry>
+    <entry key="NonconstantGroupingVars">Grouping variables must be constant.</entry>
+    <entry key="NonconstantConstantVars">Constant variables must be constant.</entry>
+    <entry key="NonconstantNewDataVariableNames">New data variable names must be constant.</entry>
+    <entry key="NonconstantAggregationFun">Aggregation function must be constant.</entry>
+    <entry key="MismatchedNewDataVariableNames">The number of new data variable names must be equal to the number of unique values in the indicator variable.</entry>
+    <entry key="CellArrayDataVars">For code generation, the default aggregation function does not support cell array inputs. Specify a different aggregation function.</entry>
+  </message>
+</rsccat>

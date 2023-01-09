@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooFewInputs">적어도 한 개의 입력값이 필요합니다.</entry>
+    <entry key="InvalidRNGType">GENTYPE은 생성기 알고리즘의 이름을 포함한 문자형 벡터여야 합니다.</entry>
+    <entry key="BadSeed">SEED는 2^32보다 작은 음이 아닌 정수 값이어야 합니다.</entry>
+    <entry key="BadParams">PARAMETERS는 음이 아닌 정수 값으로 구성된 벡터여야 합니다.</entry>
+    <entry key="ParamNotValid">{0} 생성기에는 PARAMETERS가 허용되지 않습니다.</entry>
+    <entry key="NoEmptyAllowed">빈 RandStream 객체를 생성할 수 없습니다.</entry>
+    <entry key="NoCatAllowed">RandStream 객체를 결합(Concatenate)할 수 없습니다.  셀형 배열을 사용하여 여러 객체를 포함시키십시오.</entry>
+    <entry key="UndefinedFunction">함수 ''{0}''은(는) ''RandStream''형 입력 인수에 대해 정의되지 않았습니다.</entry>
+    <entry key="CantCreateLegacy">레거시 스트림을 생성할 수 없습니다.</entry>
+    <entry key="WrongNumberArgs">인수의 개수가 올바르지 않습니다.</entry>
+    <entry key="BadParamName">파라미터 이름은 텍스트여야 합니다.</entry>
+    <entry key="UnrecognizedParamName">인식할 수 없는 파라미터 이름임: {0}.</entry>
+    <entry key="AmbiguousParamName">모호한 파라미터 이름임:  {0}</entry>
+    <entry key="InvalidRandKeyword">인식할 수 없는 RAND 키워드입니다.</entry>
+    <entry key="InvalidRandnKeyword">인식할 수 없는 RANDN 키워드입니다.</entry>
+    <entry key="ActivatingLegacyGenerators">''{0}''을(를) 사용하여 {1}의 내부 상태를 설정하면 RAND, RANDI, RANDN이 레거시 난수 생성기를 사용하게 됩니다. 이 구문은 권장되지 않습니다. RNG를 사용하여 기존 구문을 대체할 수 있으니 자세한 내용은 &lt;a href="matlab:helpview([docroot ''\\techdoc\\math\\math.map''],''update_random_number_generator'')"&gt;rand와 randn을 권장 구문으로 대체하기&lt;/a&gt; 항목을 참조하십시오.</entry>
+    <entry key="ReadingInactiveLegacyGeneratorState">''{0}''을(를) 사용하여 현재 활성 상태가 아닌 {1} 난수 생성기의 내부 상태를 읽었습니다. 유효하지 않은 결과가 반환될 가능성이 높습니다. 이 구문은 권장되지 않습니다. RNG를 사용하여 기존 구문을 대체할 수 있으니 자세한 내용은 &lt;a href="matlab:helpview([docroot ''\\techdoc\\math\\math.map''],''update_random_number_generator'')"&gt;rand와 randn을 권장 구문으로 대체하기&lt;/a&gt; 항목을 참조하십시오.</entry>
+    <entry key="InvalidHandle">유효하지 않거나 삭제된 객체입니다.</entry>
+    <entry key="PluginError">플러그인 생성기에서 오류 {0} 발생: ''{1}''</entry>
+    <entry key="UnexpectedPluginError">플러그인 생성기에서 예기치 않은 오류가 발생했습니다.</entry>
+  </message>
+</rsccat>

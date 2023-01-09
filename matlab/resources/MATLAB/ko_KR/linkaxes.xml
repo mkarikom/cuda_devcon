@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RequireDataAxes">컬러바, 범례 제외. 좌표축이 아닌 항목 제외</entry>
+    <entry key="InvalidFirstArgument">최소 하나 이상의 유효한 좌표축이 있어야 합니다.</entry>
+    <entry key="CartesianAxes">좌표축 입력값은 카테시안(Cartesian)이어야 합니다.</entry>
+    <entry key="Requires2Dinput">linkaxes에는 입력값으로 2차원 좌표축이 필요합니다. 일반 속성 링크를 위해서는 linkprop을 사용하십시오.</entry>
+    <entry key="InvalidSecondArgument">두 번째 입력 인수는 ''x'', ''y'', ''xy'', ''off'' 중 하나여야 합니다.</entry>
+    <entry key="CompatibleData">linkaxes에서는 모든 좌표축 제한이 모두 숫자형 값이거나, 모두 datetime형 값이거나 또는 모두 duration형 값이어야 합니다.</entry>
+    <entry key="CompatibleCategories">범주는 연결된 모든 좌표축에서 동일해야 합니다.</entry>
+  </message>
+</rsccat>

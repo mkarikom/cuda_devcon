@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="SizeGreaterThanZero">Value must be finite and greater than zero</entry>
+    <entry key="UnitsStringConversion" note="stringDatatypeUpdate">No character vector conversion for type Units</entry>
+    <entry key="UnitsConversionFailed">Conversion failed for initial value of property FontUnits\n</entry>
+    <entry key="NameStringConversion" note="stringDatatypeUpdate">No character vector conversion for type FontName</entry>
+    <entry key="NameConversionFailed">Conversion failed for initial value of property FontName\n</entry>
+    <entry key="WeightStringConversion" note="stringDatatypeUpdate">No character vector conversion for type FontWeight</entry>
+    <entry key="WeightConversionFailed">Conversion failed for initial value of property FontWeight\n</entry>
+    <entry key="AngleStringConversion" note="stringDatatypeUpdate">No character vector conversion for type FontAngle</entry>
+    <entry key="AngleConversionFailed">Conversion failed for initial value of property FontAngle\n</entry>
+  </message>
+</rsccat>

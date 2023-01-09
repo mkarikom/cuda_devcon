@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="InvalidTimeRange">Invalid time range</entry>
+      <entry key="EnterColumnIndexTimeVector">Enter the column index which stores the time vector: (e.g. 25)</entry>
+      <entry key="EnterRowIndexTimeVector">Enter the row index which stores the time vector: (e.g. 34)</entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+      <entry key="WhatsThis">What''s This</entry>
+      <entry key="SelectRowColumnTimeVector">Select a row/column which contains the time vector.</entry>
+      <entry key="Time">Time</entry>
+      <entry key="FirstValue">First value</entry>
+      <entry key="PutInStartingPointOfTimeRange">Put in the starting point of the time range in a proper format, and the import wizard will automatically locate the valid time points with the user-defined range.</entry>
+      <entry key="LastValue">Last value</entry>
+      <entry key="PutInEndingPointOfTimeRange">Put in the ending point of the time range in a proper format, and the import wizard will automatically locate the valid time points with the user-defined range.</entry>
+      <entry key="Format">Format</entry>
+      <entry key="Units">Units</entry>
+      <entry key="SelectProperTimeDateFormat">Select a proper time unit or date format</entry>
+      <entry key="Weeks">weeks</entry>
+      <entry key="Days">days</entry>
+      <entry key="Hours">hours</entry>
+      <entry key="Minutes">minutes</entry>
+      <entry key="Seconds">seconds</entry>
+      <entry key="Milliseconds">milliseconds</entry>
+      <entry key="Microseconds">microseconds</entry>
+      <entry key="Nanoseconds">nanoseconds</entry>
+   </message>
+</rsccat>

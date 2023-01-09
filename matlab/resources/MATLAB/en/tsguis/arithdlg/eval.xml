@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="NoTimeSeriesIdentifierProvided">No time series identifier has been provided in the expression</entry>
+      <entry key="MATLABExpressionReturnedNoOutput">MATLAB expression returned no output.</entry>
+      <entry key="ExpressionReturnedNoOutput">Expression returned no output.</entry>
+      <entry key="OutputTimeSeriesNamesMustBeDefined">Output Time Series name(s) must be defined</entry>
+      <entry key="TimeVectorShiftedToStartAtZero">The time vector of the output time series has been shifted to start at zero because two or more time series have differing start times</entry>
+      <entry key="CannotOverwriteDataInSelectedTimeSeries">Cannot overwrite the data in the selected time series with the new data. The most likely reason is that the existing time vector is not compatible with the new data size</entry>
+      <entry key="InvalidSelectedTimeSeries">Invalid selected time series</entry>
+      <entry key="ApplicationOfMATLABFunctionarithmetic">Application of MATLAB function/arithmetic</entry>
+      <entry key="TimeSeriesHaveDifferingLengths">Time Series have differing lengths.</entry>
+      <entry key="CannotEvaluateExpressionErrorReturned">Cannot evaluate expression, error returned was: {0}</entry>
+      <entry key="ScalarValueReturnedToTheWorkspace">Scalar value was returned to the workspace as variable ans with value</entry>
+      <entry key="MatrixValueReturnedToTheWorkspace">Matrix value was returned to the workspace as variable ans with size: {0}.</entry>
+      <entry key="MatrixValueReturnedDisplayedInWorkspace">Matrix value was returned to the workspace as variable ans with size: {0}. Matrix has been displayed in the workspace.</entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+      <entry key="TimeVectorsMismatch">Time vectors do not match.</entry>
+   </message>
+</rsccat>

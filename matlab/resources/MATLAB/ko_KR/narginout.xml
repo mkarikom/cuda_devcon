@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadInput">인수는 문자형 벡터, string형 스칼라 또는 함수 핸들이어야 합니다.</entry>
+    <entry key="doesNotApplyTextAnswer">{0}에서 nargin/nargout에 응답하는 방법을 알지 못합니다.</entry>
+    <entry key="doesNotApplyTextInformation">MATLAB에 {0}에 대한 nargin/nargout 정보가 없습니다.</entry>
+    <entry key="functionDoesnotExist">함수 {0}이(가) 존재하지 않습니다.</entry>
+    <entry key="invalidType">{0}은(는) 유효한 유형이 아닙니다.</entry>
+    <entry key="NoStack">MATLAB 함수 내에서만 nargin/nargout을 호출할 수 있습니다.</entry>
+    <entry key="notValidMfile">유효한 MATLAB 파일이 아닙니다.</entry>
+    <entry key="unknown">호출 함수가 nargin/nargout을 명시적으로 사용할 때만 nargin/nargout을 호출할 수 있습니다.</entry>
+    <entry key="unsupportedType">{0}은(는) {1} 유형을 지원하지 않습니다.</entry>
+    <entry key="doesNotApply">{0}</entry>
+  </message>
+</rsccat>

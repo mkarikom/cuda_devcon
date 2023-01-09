@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidWarningState">警告 ''{0}'' を無効な状態 ''{1}'' に設定しようとしています。</entry>
+    <entry key="BadWarningStatus">警告状態の文字ベクトル ''{0}'' が無効です。</entry>
+    <entry key="CantSetMATLAB_JDB">MATLAB_JDB を設定できません</entry>
+    <entry key="CantSetMATLAB_JDB_PORT">MATLAB_JDB_PORT を設定できません</entry>
+    <entry key="WaitforcallbacksDeprecated">組み込み waitforcallbacks は使用されません。</entry>
+    <entry key="DirectoryNotFound">Windows フォルダー {0} が見つかりません。</entry>
+    <entry key="DesktopStartupFailed">内部エラー: デスクトップの起動中に失敗しました。詳細:  {0}.</entry>
+    <entry key="JavaInitializationFailed">内部エラー: Matlab-Java インターフェイスを初期化できませんでした。</entry>
+    <entry key="UnrecognizedOption">認識されない MATLAB オプション {0} です。</entry>
+    <entry key="NoHGVersion">Handle Graphics のバージョンが指定されなければなりません。既定の設定をバージョン {0,number,integer} にします。</entry>
+    <entry key="InvalidHGVersion">Handle Graphics のバージョン {0} が無効です。バージョン {1,number,integer} を使用してください。</entry>
+    <entry key="RunningModeNotAllowed">/{1} モード内の {0} として実行することは許可されていません。オートメーションのサポートを無効化します。</entry>
+    <entry key="WaitforcallbacksNestError">関数 {0} は {1} の前に呼び出さなければなりません。</entry>
+    <entry key="FailedLoadMwLocaleDatabase">MathWorks のロケール データベースを読み込めません。代わりに MathWorks の既定のロケール設定を使用します。</entry>
+    <entry key="EventThreadAbsent">イベント ハンドリングのスレッドを実行していないため、タイプ {0} のイベントを処理できません。</entry>
+    <entry key="EventThreadNotInitialized">イベント スレッドが初期化されていないため、イベント ループに入れません。</entry>
+    <entry key="BadSetCtfxTargetEnvironmentArg">この機能の入力になり得るのは、倍精度のみです。</entry>
+    <entry key="BadCtfxTargetEnvironment">システム エラーのため、CTFX 機能を有効にできませんでした。</entry>
+    <entry key="UnrecognizedCommandLineOption">認識されないコマンド ライン オプションです: {0}。</entry>
+    <entry key="IgnoringUseStartupFolderPref">コマンド ライン引数 -sd は既に指定されています。-useStartupFolderPref は無視されます。</entry>
+    <entry key="IgnoringSD">コマンド ライン引数 -useStartupFolderPref は既に指定されています。-sd は無視されます。</entry>
+    <entry key="MissingFolderSpec">-sd コマンド ライン引数のフォルダー仕様が見つかりません。</entry>
+    <entry key="MissingEndFile">-endfile コマンド ライン引数に終了ファイルが指定されていません。既定の終了ファイル、finish が使用されます。</entry>
+    <entry key="MissingBeginFile">-beginfile コマンド ライン引数に開始ファイルが指定されていません。既定の開始ファイル、matlabrc が使用されます。</entry>
+    <entry key="MissingCommand">-{0} コマンド ライン引数の MATLAB コマンドが指定されていません。</entry>
+    <entry key="MissingCacheMaxSize">-CodeCacheMaxSize コマンド ライン引数に MATLAB の最大キャッシュ サイズが指定されていません。代わりに既定の設定を使用します。</entry>
+    <entry key="InvalidCacheMaxSize">-CodeCacheMaxSize コマンド ライン引数に無効な MATLAB の最大キャッシュ サイズが指定されています。代わりに既定の設定を使用します。</entry>
+    <entry key="MissingGrowthStep">-CodeCacheGrowthStepSize コマンド ライン引数に MATLAB のコード キャッシュの growthStep サイズが指定されていません。代わりに既定の設定を使用します。</entry>
+    <entry key="InvalidGrowthStep">-CodeCacheGrowthStepSize コマンド ライン引数に無効な MATLAB のコード キャッシュの growthStep サイズが指定されています。代わりに既定の設定を使用します。</entry>
+    <entry key="MissingStartupSize">-CodeCacheStartUpSize コマンド ライン引数に MATLAB のコード キャッシュの Startup サイズが指定されていません。代わりに既定の設定を使用します。</entry>
+    <entry key="InvalidStartupSize">コマンド ライン引数 -CodeCacheStartUpSize に指定された MATLAB コード キャッシュの起動時のサイズが無効です。代わりに既定の設定を使用します。</entry>
+    <entry key="NoLicmode">-licmode コマンド ライン引数に licmode が指定されていません。</entry>
+    <entry key="NoLicenseFile">-c コマンド ライン引数にライセンス ファイルが指定されていません。</entry>
+    <entry key="InvalidPort">-jdb コマンド ライン引数のポート番号が無効です。代わりに既定の設定を使用します。</entry>
+    <entry key="IncompatibleCommands">コマンド ライン引数 -{0} は後続の -{1} 引数と組み合わせることができません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AddingCharRowData">문자형 벡터 ''{0}''을(를) 행이 한 개 있는 테이블에 변수로 추가하려고 했을 수 있습니다. 테이블에 텍스트 데이터를 저장하려면, 문자형 배열보다는 string형 배열 또는 문자형 벡터로 구성된 셀형 배열을 사용하십시오. 또는 점 인덱싱을 사용한 대입식으로 해당 변수를 테이블에 추가하십시오.</entry>
+    <entry key="NoBeforeOrAfter">''Before'' 또는 ''After''와 함께 변수를 이동할 위치를 지정하십시오.</entry>
+    <entry key="BeforeAndAfter">''Before''와 ''After'' 중 하나만 지정하십시오.</entry>
+    <entry key="IncorrectNumberOfVarNames">테이블에 추가할 각 변수의 새 변수 이름을 지정하십시오.</entry>
+    <entry key="InvalidVarNames">새 변수 이름은 문자형 벡터 또는 string형 배열이거나, 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="NonscalarPosition">단일 위치를 양의 정수, 변수 이름 또는 하나의 true 값을 포함하는 논리형 벡터로 지정하십시오.</entry>
+    <entry key="VartypeInvalidLocation">vartype을 위치로 사용할 수 없습니다. 위치를 변수 이름 또는 양의 정수로 지정하거나, 하나의 true 값을 포함하는 논리형 벡터로 지정하십시오.</entry>
+    <entry key="VartypeInvalidVars">vartype을 사용해서는 이동할 변수를 지정할 수 없습니다. 문자형 벡터, string형 배열, 문자형 벡터로 구성된 셀형 배열, 숫자형 인덱스 또는 논리형 인덱스를 사용하십시오.</entry>
+    <entry key="StringParamNameNotSupported">"{0}"을(를) 사용하여 파라미터 이름을 지정하려고 했을 수 있습니다. 그러나 ADDVARS에서는 파라미터 이름을 문자형 벡터로 지정해야 합니다. 대신 addvars(..., ''{0}'', Value)를 사용하십시오.</entry>
+    <entry key="NoVarSizeBeforeAndAfter">''Before'' 또는 ''After''의 값은 상수 크기여야 합니다.</entry>
+    <entry key="DuplicatedVariablesNotSupported">중복된 변수 이름은 지원되지 않습니다.</entry>
+    <entry key="NewVarNamesMustBeConstant">'NewVariableNames'를 Constant로 지정하십시오.</entry>
+    <entry key="NumRowsMismatch">테이블에 새 변수를 추가하려면 행 개수가 테이블의 높이와 일치해야 합니다.</entry>
+    <entry key="MustSpecifyNewVarNames">새 변수 이름을 지정해야 합니다.</entry>
+    <entry key="StringParamNameNotSupportedCodegen">"{0}"을(를) 사용하여 파라미터 이름을 지정하려고 했을 수 있습니다. 그러나 ADDVARS에서는 파라미터 이름을 문자형 벡터로 지정해야 하며, 코드 생성 시 Name=Value는 지원되지 않습니다. 대신 addvars(..., ''{0}'', Value)를 사용하십시오.</entry>
+  </message>
+</rsccat>

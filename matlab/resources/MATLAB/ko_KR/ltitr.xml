@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidInitialCondition">초기 조건 벡터에 올바르지 않은 차원이 있습니다.</entry>
+    <entry key="inputType">입력값은 비희소 행렬이어야 합니다.</entry>
+  </message>
+</rsccat>

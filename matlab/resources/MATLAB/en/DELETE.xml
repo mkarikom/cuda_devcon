@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" decorate_cxx_names="1" string_type_for_hole="mixed">
+  <!-- 
+        decorate_cxx_names=1 needs to be used because the catalog name DELETE is a keyword in C++.
+        http://inside.mathworks.com/wiki/Decorated_Names_for_C++_Message_IDs#Architecture
+  -->
+  <message>
+    <entry key="FileNotFound">File ''{0}'' not found.</entry>
+    <entry key="Permission">File not found or permission denied</entry>
+  <!--Resource entries for src/builtins-->
+    <entry key="DirectoryDeletion">''{0}'' is a directory.  Use rmdir to delete directories.</entry>
+    <entry key="pathnameTooLong">Pathname ''{0}'' is too long.</entry>
+  </message>
+</rsccat>

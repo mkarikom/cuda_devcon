@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidAxesHandleSyntax">Function ''{0}'' might not allow the common syntax for parent axes specification.  The axes handle either must be the first input argument, or must be specified as a property/value pair. See the following error for more information.\n</entry>
+    <entry key="AutoResizeChildren">Using plotyy in a container with the ''AutoResizeChildren'' property set to ''on'' is not supported.</entry>
+  </message>
+</rsccat>

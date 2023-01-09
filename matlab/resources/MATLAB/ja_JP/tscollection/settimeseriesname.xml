@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badsyntax">settimeseriesnames の 2 番目と 3 番目の引数のそれぞれに、空でない古い名前と、有効な新しい名前を指定しなければなりません。</entry>
+    <entry key="onlychars">古い名前と新しい名前はどちらも文字ベクトルまたは string でなければなりません。</entry>
+    <entry key="badmember">時系列 ''{0}'' は、tscollection メンバーではありません。</entry>
+  </message>
+</rsccat>

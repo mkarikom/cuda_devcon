@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RegistrationSymbolNotFound">glren의 등록 기호를 찾을 수 없습니다. \n{0}</entry>
+    <entry key="UnableToLoadOpenGL">다음 오류로 인해 OpenGL 렌더러를 불러올 수 없음\n{0}\n다음에서 glren 공유 오브젝트의 불러오기가 시도됨: {1}</entry>
+    <entry key="MaxTextureSize">OpenGL 컨텍스트가 생성되었지만 MaxTextureSize가 {0,number,integer}입니다.\nOpenGL 사용이 해제됩니다.</entry>
+    <entry key="UnableToUnload">OpenGL 라이브러리를 언로드할 수 없습니다.</entry>
+    <entry key="UnableToAccessLibrary">OpenGL 라이브러리에 액세스할 수 없습니다.</entry>
+    <entry key="AppearsToBeInstalledCorrectly">OpenGL이 잘못 설치된 것으로 표시됩니다.</entry>
+    <entry key="ErrorWhenLoadingOpenGL">OpenGL 불러오는 중 오류 발생</entry>
+    <entry key="OpenGLUnavailable">OpenGL을 사용할 수 없음</entry>
+  </message>
+</rsccat>

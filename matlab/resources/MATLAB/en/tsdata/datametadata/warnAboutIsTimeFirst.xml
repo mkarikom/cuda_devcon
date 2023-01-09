@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="isTimeFirstDepWarning">In future releases the isTimeFirst property of this timeseries will be calculated based on the data and will differ from its current representation.</entry>
+    <entry key="isTimeFirstDeprecationError">The IsTimeFirst property is now calculated and it differs from its saved representation.</entry>
+  </message>
+</rsccat>

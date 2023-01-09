@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Copyright 2016 The MathWorks, Inc. -->
+<!-- These error messages are for a non-shipping, internal prototype. They should not be translated. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+  <!--Entries for dct/dst-->
+    <entry key="DCT1Length1" translate="false">The length of the DCT-I transform must be greater than 1. Use a longer transform length or a different variant of the DCT.</entry>
+    <entry key="DCT1NDLength1" translate="false">The length of the DCT-I transform must be greater than 1 in every dimension. Use a longer transform length or a different variant of the DCT.</entry>
+    <entry key="DCSTLengthNotNonNegInt" translate="false">Transform length must be a nonnegative integer scalar.</entry>
+    <entry key="InvalidVariantString" translate="false">Unrecognized option; specify the transform type with 'Variant' followed by an integer between 1 and 4.</entry>
+    <entry key="InvalidVariantValue" translate="false">Transform variant must be an integer scalar between 1 and 4.</entry>
+    <entry key="DCSToutputSizeLessThanNdimsElements" translate="false">Transform output size must have at least NDIMS elements.</entry>
+    <entry key="DCSToutputSizeNotRealIntRowVector" translate="false">Transform output size must be a real integer row vector.</entry>
+    <entry key="DCSToutputSizeVectorNotNonNegInts" translate="false">Transform output size vector must contain non-negative integers.</entry>
+    <entry key="invalidSyntax">If you specify MROWS, you also have to specify NCOLS.</entry>
+    <entry key="InvalidInputType">Invalid data type. First argument must be double, single, int8, uint8, int16, uint16, int32, uint32, or logical.</entry>
+    <entry key="SparseInputType">Sparse arrays are not supported.</entry>
+  </message>
+</rsccat>

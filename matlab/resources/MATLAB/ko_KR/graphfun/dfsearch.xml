@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidEvent">''{0}''은(는) 인식할 수 없는 이벤트입니다.</entry>
+    <entry key="InvalidEventType">이벤트 인수는 string형 벡터, 문자형 벡터 또는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="SecondOutputEdgeOnly">이벤트 인수가 ''edgetonew'', ''edgetodiscovered'' 또는 ''edgetofinished''인 경우에만 두 번째 출력값이 지원됩니다.</entry>
+    <entry key="InvalidStartNode">시작 노드는 하나의 노드를 지정해야 합니다.</entry>
+    <entry key="KeyWithoutValue">''Restart'' 파라미터에 대한 값이 지정되지 않았습니다.</entry>
+    <entry key="ParseFlags">파라미터 이름은 ''Restart''여야 합니다.</entry>
+    <entry key="ParseRestart">''Restart'' 값은 true 또는 false여야 합니다.</entry>
+  </message>
+</rsccat>

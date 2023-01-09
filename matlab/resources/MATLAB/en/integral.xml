@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <entry key="funArgNotHandle">First input argument must be a function handle.</entry>
+        <entry key="invalidEndpoint">Limits of integration must be double or single scalars.</entry>
+        <entry key="nonFiniteContourError">Contour endpoints and waypoints must be finite.</entry>
+        <entry key="NonFiniteValue">Inf or NaN value encountered.</entry>
+        <entry key="UnsupportedClass">Input function must return ''double'' or ''single'' values. Found ''{0}''.</entry>
+        <entry key="FxNotSameSizeAsX">Output of the function must be the same size as the input. If FUN is an array-valued integrand, set the 'ArrayValued' option to true.</entry>
+        <entry key="invalidAbsTol">''AbsTol'' value must be a nonnegative double or single scalar.</entry>
+        <entry key="invalidRelTol">''RelTol'' value must be a nonnegative double or single scalar.</entry>
+        <entry key="MaxIntervalCountReached">Reached the limit on the maximum number of intervals in use. Approximate bound on error is {0}. The integral may not exist, or it may be difficult to approximate numerically to the requested accuracy.</entry>
+        <entry key="MinStepSize">Minimum step size reached near x = {0}. There may be a singularity, or the tolerances may be too tight for this problem.</entry>
+        <entry key="invalidWaypoints">''Waypoints'' value must be a vector with all finite values.</entry> 
+        <entry key="invalidArrayValued">''ArrayValued'' value must be true or false.</entry>
+        <entry key="unsuccessful">The integration was unsuccessful.</entry>
+    </message>
+</rsccat>

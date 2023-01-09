@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoVM">JVM は実行していません。</entry>
+    <entry key="ThreadNotAttached">スレッドが JVM にアタッチされていません。</entry>
+    <entry key="NoEnv">JNI Env ポインターを取得できません。</entry>
+    <entry key="InvalidMethodID">Java メソッド ID が初期化されていません。</entry>
+    <entry key="InvalidFieldID">Java フィールド ID が初期化されていません。</entry>
+    <entry key="NoSuchClass">クラス {0} が見つからないか初期化できません。\n{1}</entry>
+    <entry key="NoSuchMethod">Java クラスにメソッド {0} は存在しません。\n{1}</entry>
+    <entry key="NoSuchField">Java クラスにパブリック フィールド {0} は存在しません。\n{1}</entry>
+    <entry key="OutOfMemory">操作を続行するには、Java ヒープ メモリが不十分です。\n{0}</entry>
+    <entry key="ArrayIndexOutOfBoundsException">インデックスが Java 配列の次元を超えています。\n{0}</entry>
+    <entry key="ArrayStoreException">Java 配列の値の設定中にエラーが発生しました。\n{0}</entry>
+    <entry key="GenericJavaException">{0}\n{1}</entry>
+    <entry key="ExceptionRecursion">例外メッセージを取得できませんでした。</entry>
+    <entry key="NullJavaPointer">Java 参照が null です。</entry>
+  </message>
+</rsccat>

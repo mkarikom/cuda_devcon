@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidSizeWgts">The length of W must be compatible with X.</entry>
+    <entry key="InvalidWgts">W must be a vector of nonnegative weights, or a scalar 0 or 1.</entry>
+  </message>
+</rsccat>

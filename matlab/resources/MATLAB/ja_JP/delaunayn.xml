@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">少なくとも 1 つの入力が必要です。</entry>
+    <entry key="HigherDimArray">X は、2 次元配列でなければなりません。</entry>
+    <entry key="XLowColNum">X は、少なくとも 1 列をもたなければなりません。</entry>
+    <entry key="NotEnoughPtsForTessel">三角形分割を作成するために十分な数の固有の点がありません。</entry>
+    <entry key="InvalidOpts">オプションの選択が良くありません。別のオプションを使ってみてください。</entry>
+    <entry key="DuplicateDataPoints">重複するデータ点が検出されました。\nいくつかのデータ点は、三角形内の頂点にマッピングされません。\nこの動作を回避するには、DELAUNAY を呼び出す前に、データ点上で UNIQUE を呼び出してください。</entry>
+  </message>
+</rsccat>

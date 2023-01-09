@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidOption">''{0}'' 为无效选项。</entry>
+    <entry key="RemovedFromPath">已将 ''{0}'' 从此 MATLAB 会话的 MATLAB 路径中删除。\n\t有关详细信息，请参阅“文档路径”。</entry>
+    <entry key="NotADirectory">{0} 不是目录。</entry>
+    <entry key="NoDirectoriesRemoved">未删除任何目录。</entry>
+    <entry key="PathNotFound">未找到指定的路径。</entry>
+    <entry key="SomeDirectoriesNotRemoved">{0}</entry>
+  </message>
+</rsccat>

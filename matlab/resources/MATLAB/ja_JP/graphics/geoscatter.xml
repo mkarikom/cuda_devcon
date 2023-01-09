@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AxesInput">親は geoaxes オブジェクトでなければなりません。</entry>
+    <entry key="DataLengthMismatch">{0} は {1} と同数の要素を含んでいなければなりません。</entry>
+    <entry key="LongitudeRequired">緯度と経度の両方の入力が必要です。</entry>
+    <entry key="NoDataInputs">緯度と経度のデータ引数を指定しなければなりません。</entry>
+    <entry key="RadiusLabel">密度計算への影響の半径</entry>
+  </message>
+</rsccat>

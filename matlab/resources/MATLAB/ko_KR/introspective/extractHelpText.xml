@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SameFile">출력 파일과 입력 파일은 동일할 수 없음</entry>
+    <entry key="CannotDeleteFile">이전 버전의 출력 파일이 존재하며 이를 덮어쓸 수 없음</entry>
+    <entry key="FilePathMustBeAString">파일 경로는 문자형 벡터여야 함</entry>
+    <entry key="HelpContainerFactoryInvalidFilePath">MATLAB 검색 경로에서 {0}은(는) 파일에 대한 전체 경로여야 함</entry>
+    <entry key="FileNotFound">입력 파일이 존재하지 않음</entry>
+  </message>
+</rsccat>

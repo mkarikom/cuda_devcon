@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="ZNot2D">{0} must be a 2D array.</entry>
+      <entry key="ZPlanar">{0} must be size 2x2 or greater.</entry>
+      <entry key="XZSizeMismatch">The size of X must match the size of {0} or the number of columns of {1}.</entry>
+      <entry key="YZSizeMismatch">The size of Y must match the size of {0} or the number of rows of {1}.</entry>
+      <entry key="XYMixedEmpty">X,Y must both be empty or both non-empty.</entry>
+   </message>
+</rsccat>

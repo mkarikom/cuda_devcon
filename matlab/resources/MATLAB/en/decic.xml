@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="TooManySpecified">Cannot specify more than {0} components of y0 and yp0.</entry>    
+    <entry key="OptRelTolNotPosScalar">RelTol must be a positive scalar.</entry>
+    <entry key="OptAbsTolNotPos">AbsTol must be positive.</entry>
+    <entry key="ConvergenceFail">Convergence failure in DECIC.</entry>
+    <entry key="TooManyFixed">Try freeing {0} fixed components.</entry>
+    <entry key="IndexGTOne">Index may be greater than one.</entry>
+  <!--Resource entries for toolbox/matlab/funfun-->
+    <entry key="RelTolIncrease">RelTol has been increased to {0}.</entry>
+  </message>
+</rsccat>

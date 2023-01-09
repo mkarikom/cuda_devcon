@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PlotSelectedColumns">绘制所选列</entry>
+    <entry key="PlotAllColumns">绘制所有列</entry>
+    <entry key="ScatterPlotForSelectedColumns">所选列的散点图</entry>
+    <entry key="PlotAsMultipleSeriesVsFirstInput">绘制多个序列对首个输入的序列的图</entry>
+    <entry key="PlotAsMultipleSeries">绘制多个序列的图</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ExistingMode">A mode by this name is already registered with the mode manager.</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="InvalidFirstInput">First argument must be a handle to a figure or mode.</entry>
+    <entry key="InvalidSecondInput" note="stringDatatypeUpdate">Second argument must be a character vector</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="platform" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CustomButtonLabel">選択</entry>
+    <entry key="CustomPopupOpenLabel">有効:</entry>
+    <entry key="CustomPopupSaveLabel">形式:</entry>
+    <entry key="ConfirmSaveDialogTitle">名前を付けて保存の確認</entry>
+    <entry key="ConfirmSaveDialogContent">{0} は既に存在します。\n置き換えますか?</entry>
+    <entry key="OpenFolderWarningTitle">ファイル選択ダイアログ</entry>
+    <entry key="OpenFolderWarningContent">{0} \nパスが存在しません。\nパスをチェックし、再度試してください。</entry>
+    <entry key="OpenFileFolderWarningTitle">ファイルまたはフォルダーを開く</entry>
+    <entry key="OpenFileFolderWarningContent">このプログラムでは該当の場所を選択できません。別の場所を選択してください</entry>
+  </message>
+</rsccat>

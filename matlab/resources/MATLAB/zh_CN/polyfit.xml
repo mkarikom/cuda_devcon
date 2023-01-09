@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="XYSizeMismatch" context="error">前两个输入的元素数目必须相同。</entry>
+    <entry key="PolyNotUnique">多项式不是唯一的；次数 &gt;= 数据点的数目。</entry>
+    <entry key="RepeatedPoints">多项式未正确设置条件。请添加具有不同 X 值的点，或者减少多项式的次数。</entry>
+    <entry key="RepeatedPointsOrRescale">多项式未正确设置条件。请添加具有不同 X 值的点，减少多项式的次数，或者尝试按照 HELP POLYFIT 中所述进行中心化和缩放。</entry>
+  </message>
+</rsccat>

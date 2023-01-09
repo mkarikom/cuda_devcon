@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ErrorReadingRecordID">biffparse でファイルを読み取れませんでした。レコード ID の読み取り中にエラーが発生しました。\n</entry>
+    <entry key="FormatError">biffparse でファイルを読み取れませんでした。レコード ID が無効です。\n</entry>
+    <entry key="ErrorReadingRecordLength">biffparse でファイルを読み取れませんでした。レコード長の読み取り中にエラーが発生しました。\n</entry>
+    <entry key="UnexpectedRecordLength">ファイルに予期しないレコード長が含まれています。Excel 98 での保存を試してください。\n</entry>
+    <entry key="UnexpectedRecordSize">{0} 列から始まるセルに不明なレコード サイズがあります。Excel 98 での保存を試してください。\n</entry>
+    <entry key="UnknownFileReadError">ファイル ({0}) からの読み取り中の不明なエラー。\n</entry>
+    <entry key="UnknownRecordOrder">XLS ファイルに認識できないレコード順序が含まれています。</entry>
+    <entry key="MismatchRowColVals">行と列の最大値が一致しません</entry>
+    <entry key="SheetNameNotInit">requestedSheetName が初期化されていません"</entry>
+    <entry key="SheetNotFound">要求されたシート ''{0}'' が見つかりません。\n</entry>
+    <entry key="SSTTableNotInit">SST テーブルが初期化されていません。</entry>
+    <entry key="CellFlagsNotInit">cellFlags が初期化されていません</entry>
+    <entry key="FlagFieldsIndexing">フラグ フィールドのインデックス エラー</entry>
+    <entry key="DataPointerNotInit">数値データ ポインターが初期化されていません</entry>
+    <entry key="RecordDecomp">MULRK レコードの分解中の内部エラー - colCount が期待された値ではありません。\n</entry>
+    <entry key="XLSUnicodeUnsupported0">XLS ファイルに含まれる unicode テキストが未サポートです。\n</entry>
+    <entry key="Truncation">XLS ファイルに含まれる unicode テキストが未サポートです ({0}、{1}、{2})。\n</entry>
+    <entry key="Usage">使用法: [numericData, textData] = biffparse(biffvector [,'sheetName'])\n</entry>
+    <entry key="TooManyRecords">検出されたレコードが多すぎるため終了します。\n</entry>
+    <entry key="UnrecognizedData">ファイルに認識可能な Excel データは含まれていません。Excel 98 での保存を試してください。</entry>
+  </message>
+</rsccat>

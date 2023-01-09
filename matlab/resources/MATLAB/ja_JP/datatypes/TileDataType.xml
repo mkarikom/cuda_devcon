@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ParseError">指定した値は有効なタイルでありません。</entry>
+    <entry key="ValueNumber">タイルは intmax 未満の正の整数でなければなりません。</entry>
+    <entry key="ValueString">タイルは ''north'' ''east'' ''south'' または ''west'' として指定してください。</entry>
+    <entry key="IsEqual">TileDataType::IsEqual 内の不明な例外</entry>
+  </message>
+</rsccat>

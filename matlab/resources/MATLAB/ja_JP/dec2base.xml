@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FirstArg">最初の引数は範囲 0 &lt;= D &lt;= flintmax の整数配列でなければなりません。</entry>
+    <entry key="SecondArg">2 番目の引数は、2 &lt;= B &lt;= 36 の範囲の整数でなければなりません。</entry>
+    <entry key="ThirdArg">3 番目の引数は正の整数でなければなりません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="glibcFailedLoadBug">{0}\n\n*** MATLAB 遇到一个 Linux 操作系统错误；此错误最终会导致 MATLAB 崩溃。不要重复产生此错误的命令，因为这样做可能会导致立即崩溃。请保存您所做的工作然后立即重新启动 MATLAB。</entry>
+  </message>
+</rsccat>

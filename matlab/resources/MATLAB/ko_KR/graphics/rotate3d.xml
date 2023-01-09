@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ReadOnlyRunning">''UIContextMenu'' 속성은 rotate3d 기능이 꺼져 있을 때만 설정할 수 있습니다.</entry>
+    <entry key="InvalidContextMenu">핸들은 uicontextmenu여야 합니다.</entry>
+    <entry key="InvalidConstructor">첫 번째 인수는 rotate3d 모드에 대한 핸들이어야 함</entry>
+    <entry key="AccessorExists">모드에 이미 접근자(Accessor)가 포함되어 있습니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManyOutputs">出力引数が多すぎます。</entry>
+    <entry key="OptionNotString">オプションの引数は文字ベクトルでなければなりません。</entry>
+    <entry key="TooManyParamsPerKeyword">一度に 1 つのパラメーターをキーワードでクエリしなければなりません。</entry>
+    <entry key="UnknownKeyword">キーワード パラメーター {0} が不明です。</entry>
+    <entry key="ParamsMismatchKeywords">パラメーターとキーワード数は一致しなければなりません。</entry>
+    <entry key="InvalidNewParams">入力は長さ {0,number,integer} の数値ベクトルでなければなりません。</entry>
+    <entry key="SparsfunNotAvailable">関数 sparsfun は削除されました。代わりに spparms を使用してください。</entry>
+    <entry key="SparseMonitorOutputLevel">SParse MONItor の出力レベル {0}。\n</entry>
+    <entry key="NoSparseMonitorOutput">SParse MONItor の出力はありません。\n</entry>
+    <entry key="MmdThreshold">mmd:しきい値 = {0} * mindegree + {1},\n</entry>
+    <entry key="UsingExactDegreesInAprimeA">A''*A で正確な次数を使用、\n</entry>
+    <entry key="UsingApproximateDegreesInAprimeA">A''*A で近似次数を使用、\n</entry>
+    <entry key="SupernodeAmalgamationEveryNStages">{0} ステージごとにスーパーノードを融合、\n</entry>
+    <entry key="NoSupernodeAmalgamation">スーパーノードを融合しない、</entry>
+    <entry key="RowReductionEveryNStages">{0} ステージごとに行を削減、\n</entry>
+    <entry key="NoRowReductionn">行を削減しない、\n</entry>
+    <entry key="WithholdRowsAtLeastNPercentDenseInColmmd">colmmd で {0}% 以上密である行を保留する。\n</entry>
+    <entry key="NoRowWithholdingInColmmd">colmmd で行を保留しない。\n</entry>
+    <entry key="MinimumDegreeOrderingsUsedWithV4">\\ と / の v4 の chol、lu、qr で、最小次数の並べ替えを使用する。\n</entry>
+    <entry key="NoAutomaticOrderingsUsedWithV4">\\ と / の v4 の chol、lu、qr で、自動的な並べ替えを使用しない。\n</entry>
+    <entry key="ApproximateMinimumDegreeOrderingsUsedCholmodUmfpack">\\ と / の CHOLMOD と UMFPACK で、近似最小次数の並べ替えを使用する。\n</entry>
+    <entry key="NoAutomaticOrderingsUsedWithCholmodUmfpack">\\  と / の CHOLMOD と UMFPACK で、自動的な並べ替えを使用しない。\n</entry>
+    <entry key="PivotToleranceOfUsedByUMFPACK">\\ と / の UMFPACK で、{0} のピボット許容誤差を使用する。\n</entry>
+    <entry key="BackslashUsesBandSolverIfBandDensityGT">帯域密度が {0} より大きい場合、バックスラッシュでバンド ソルバーを使用する。\n</entry>
+    <entry key="UMFPACKUsedForLu">\\ と / の lu で、UMFPACK を使用する。\n</entry>
+    <entry key="V4AlgorithmUsedForLu">\\ と / の lu で、v4 アルゴリズムを使用する。\n</entry>
+    <entry key="SymmetricPivotToleranceUsedByUMFPACK">\\ と / の UMFPACK で、{0} の対称ピボット許容誤差を使用する。\n</entry>
+    <entry key="PivotToleranceUsedByMA57">\\ と / の MA57 で、{0} のピボット許容誤差を使用する。\n</entry>
+    <entry key="MetisOrderingUsedMA57">METIS の並べ替えは、\\ と / の MA57 で使用されます。\n</entry>
+    <entry key="ApproximateMinimumDegreeOrderingUsedMA57">\\ と / の MA57 で、近似最小次数の並べ替えが使用されます。\n</entry>
+    <entry key="NoOrderingUsedMA57">\\ と / の MA57 で使用される自動的な並べ替えはありません。\n</entry>
+    <entry key="AutomaticOrderingUsedMA57">\\ と / の MA57 で、並べ替え方法の自動選択を使用する。\n</entry>
+  </message>
+</rsccat>

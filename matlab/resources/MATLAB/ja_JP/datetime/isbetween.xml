@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">すべての入力は datetime 配列か、日付/時刻の文字ベクトルまたは日付/時刻の string でなければなりません。</entry>
+    <entry key="InputSizeMismatch">すべての入力は適合するサイズでなければなりません。</entry>
+    <entry key="InvalidIntervalType">区間のタイプは 'openright'、'openleft'、'open'、または 'closed' として指定します。</entry>
+  </message>
+</rsccat>

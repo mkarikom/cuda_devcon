@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidsignalname">슬래시(''/'')는 시계열의 이름에 허용되지 않습니다.</entry>
+    <entry key="NDdata">시계열 ''{0}''에 크기가 [{1}]인 데이터가 있습니다.\n시계열 툴에서 추가 열로 더 높은 차원이 축소되었습니다.</entry>
+    <entry key="nondoubledata">시계열 ''{0}''의 데이터가 double형으로 변환되었습니다.</entry>
+    <entry key="sparsedata">시계열 ''{0}''의 데이터가 희소 형식에서 비희소(Full) 형식으로 변환되었습니다.</entry>
+    <entry key="largesparsedata">메모리 제한으로 인해 시계열 ''{0}''의 데이터를 희소 형식에서 비희소(Full) 형식으로 변환할 수 없습니다.</entry>
+    <entry key="infindata">시계열 ''{0}''의 Inf가 NaN으로 변환되었습니다.</entry>
+    <entry key="missingqualitydesc">QualityInfo에서 설명이 발견되지 않았기 때문에 ''{0}''에서 품질 정보가 제거되었습니다.</entry>
+    <entry key="eventunitsreconciled">이벤트 ''{0}''의 단위가 시계열 ''{1}''의 단위로 변경되었습니다.</entry>
+    <entry key="TimeSeriesTools">시계열 툴</entry>
+    <entry key="CannotUseComplexvaluedTS">시계열 툴 내에서 복소수 값 시계열을 사용할 수 없습니다.\n''{0}'' 가져오기에 실패했습니다.</entry>
+    <entry key="CannotUseTSWithEmptyNames">시계열 툴 내에서 이름이 비어 있는 시계열을 사용할 수 없습니다.\n가져오기에 실패했습니다.</entry>
+    <entry key="TimeSeriesQualitySameSizeAsTimeVector">시계열 품질은 시계열 툴의 시간 벡터와 크기가 동일해야 합니다.\n가져오기에 실패했습니다.</entry>
+    <entry key="ConvertingSparseDataInTimeSeriesToDouble">시계열의 희소 형식 데이터를 double형으로 변환하는 중...</entry>
+  </message>
+</rsccat>

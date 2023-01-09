@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidCellType">第一个输入必须为字符串数组或字符向量元胞数组。</entry>
+    <entry key="InvalidDelimiterType">分隔符必须为字符向量、字符串数组或字符向量元胞数组。</entry>
+    <entry key="WrongNumberOfDelimiterElements">如果分隔符为字符串数组或字符向量元胞数组，则它必须是标量或者比第一个输入少一个元素。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TimeseriesContainsDuplicateTimesHref">時系列には &lt;a href="matlab:{0}"&gt; 重複時間 &lt;/a&gt; が含まれます。</entry>
+    <entry key="TimeseriesContainsDuplicateTimes">Timeseries には重複した時間が含まれます。</entry>
+    <entry key="CommonProperties">一般的なプロパティ</entry>
+    <entry key="MoreProperties">その他のプロパティ</entry>
+    <entry key="Methods">メソッド</entry>
+  </message>
+</rsccat>

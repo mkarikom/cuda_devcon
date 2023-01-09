@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2017-2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CannotLoadVariable">\n\nThe variable ''{0}'' failed to load, and has been replaced with an empty array. This might have happened if its class does not exist on the path.</entry>
+    <entry key="CannotLoadVariables">\n\nSome variables failed to load, and have been replaced with empty arrays. This might have happened if their classes do not exist on the path.</entry>
+    <entry key="InvalidInput">First input must be a table.</entry> 
+    <entry key="MultipleSubscripts">Subscript returned multiple variable names. Dot subscripting requires a single variable name.</entry>
+  </message>
+</rsccat>

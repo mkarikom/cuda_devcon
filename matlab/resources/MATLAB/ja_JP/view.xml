@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInputs">無効な入力引数</entry>
+    <entry key="InvalidFirstArgument">1 番目の引数は、スカラーの Axes のハンドルでなければなりません</entry>
+    <entry key="InvalidScalarArgument">単一のスカラーの引数は 2 または 3 でなければなりません</entry>
+    <entry key="InvalidArgument">引数はスカラーまたは 2 要素ベクトルでなければなりません。</entry>
+    <entry key="InvalidArgumentType">引数はスカラーでなければなりません</entry>
+    <entry key="OneOutputNotSupported">単一の出力引数はサポートされていません。現在の方位角と仰角をクエリするには、2 つの出力引数を要求します。</entry>
+  </message>
+</rsccat>

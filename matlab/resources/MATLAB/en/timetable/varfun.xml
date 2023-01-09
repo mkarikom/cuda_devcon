@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+  	<entry key="RowLabelsCannotBeDataVar">Row times are not supported as a data variable.</entry>
+    <entry key="RowLabelsCannotBeDataVarNondefaultName">Unrecognized variable name ''{0}''. You may have intended to access the row times, which are named ''{1}'' in this timetable. However, row times are not supported as a data variable.</entry>
+    <entry key="InvalidOutputFormat">OUTPUTFORMAT must be one of the following: 'uniform', 'table', 'cell', or 'timetable'.</entry>
+  </message>
+</rsccat>

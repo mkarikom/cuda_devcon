@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Ok">확인</entry>
+    <entry key="Help">도움말</entry>
+    <entry key="PreferenceDialogHeading">종횡비 조정</entry>
+    <entry key="PreferenceDialog">3차원 회전 시 플롯의 형태는 바뀌지만 종횡비는 그대로 유지됩니다. \n Figure의 원래 좌표축 형태로 되돌리려면 도구 모음에서 \n "카메라와 장면 조명 초기화"를 클릭하십시오.</entry>
+    <entry key="OrbitCamera">카메라 선회</entry>
+    <entry key="OrbitSceneLight">장면 조명 선회</entry>
+    <entry key="PanTiltCamera">카메라 패닝/틸트</entry>
+    <entry key="MoveCameraHorizontallyVertically">카메라 가로/세로 이동</entry>
+    <entry key="MoveCameraForwardBack">카메라 앞/뒤 이동</entry>
+    <entry key="ZoomCamera">카메라 확대/축소</entry>
+    <entry key="RollCamera">카메라 롤링</entry>
+    <entry key="WalkCamera">카메라 워크</entry>
+    <entry key="PrincipalAxisX">X 기본 축</entry>
+    <entry key="PrincipalAxisY">Y 기본 축</entry>
+    <entry key="PrincipalAxisZ">Z 기본 축</entry>
+    <entry key="NoPrincipalAxis">기본 축 없음</entry>
+    <entry key="ToggleSceneLight">장면 조명 토글</entry>
+    <entry key="OrthographicProjection">직교 투영</entry>
+    <entry key="PerspectiveProjection">원근 투영</entry>
+    <entry key="ResetCameraAndSceneLight">카메라와 장면 조명 초기화</entry>
+    <entry key="StopCameraLightMotion">카메라/조명 움직임 중지</entry>
+    <entry key="CameraMotion">카메라 움직임</entry>
+    <entry key="PanTurnTilt">패닝 - 터닝/틸트</entry>
+    <entry key="MoveHorizontallyVertically">이동 - 가로/세로</entry>
+    <entry key="MoveForwardBack">이동 - 앞/뒤</entry>
+    <entry key="Zoom_1">확대/축소</entry>
+    <entry key="Roll_1">롤링</entry>
+    <entry key="CameraAxes">카메라 좌표축</entry>
+    <entry key="XPrincipalAxis">X 기본 축</entry>
+    <entry key="YPrincipalAxis">Y 기본 축</entry>
+    <entry key="ZPrincipalAxis">Z 기본 축</entry>
+    <entry key="CameraReset">카메라 초기화</entry>
+    <entry key="ResetCameraSceneLight">카메라와 장면 조명 초기화</entry>
+    <entry key="ResetTargetPoint">대상 점 초기화</entry>
+    <entry key="ResetSceneLight">장면 조명 초기화</entry>
+    <entry key="Projection">투영</entry>
+    <entry key="Orthographic">직교</entry>
+    <entry key="Perspective">원근</entry>
+  </message>
+</rsccat>

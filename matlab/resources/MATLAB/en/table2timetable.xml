@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+      <entry key="NonTable">First argument must be a table.</entry>
+      <entry key="NoTimeVarFound">Input table must contain datetime or duration vector for row times.</entry>
+      <entry key="IncorrectNumberOfRowTimes">Row times must be datetime or duration vector with one time for each row in input timetable.</entry>
+      <entry key="InvalidRowTimes">Row times must be specified as variable name or index, or as datetime or duration vector.</entry>
+      <entry key="VariableNamesNotAccepted">''VariableNames'' is not a valid argument.</entry>
+  </message>
+</rsccat>

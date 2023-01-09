@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="workDimNot1or2">희소 행렬의 경우 작업 차원은 1 또는 2여야 합니다.</entry>
+    <entry key="diffOrderNotPosIntScalar">차분의 차수 N은 양의 정수 스칼라여야 합니다.</entry>
+  </message>
+</rsccat>

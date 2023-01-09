@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="cannotStatFile">ファイル ''{0}'' の情報を取得できません: {1}。</entry>
+    <entry key="cannotMap">ファイル ''{0}'' をマッピングできません: {1}。</entry>
+    <entry key="usage">使用法: hMapfile(memstruct)。memstruct は、フィールド: dataHandle、filename、書き込み可能な値: true/false、numElements、形式: 'u/int8/logical'\n\t\t | 'u/int16/char'\n\t\t | 'u/int32'\n\t\t | 'u/int64'\n\t\t | 'single'\n\t\t | 'double'、\n\t\t [オプション: offset] をもつ。</entry>
+    <entry key="exceededMaxSize">マッピングされた総バイト数は {0} を超えることはできません\n(Offset から下方向にある次のページ境界までの間のパディングを含む)。</entry>
+  </message>
+</rsccat>

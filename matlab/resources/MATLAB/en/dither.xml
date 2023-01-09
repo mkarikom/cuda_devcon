@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invalidInput">Invalid input arguments in function {0}.</entry>
+    <entry key="imageMustBe2D">DITHER(I): the intensity image I has to be a two-dimensional array.</entry>
+    <entry key="imageMustBe3D">DITHER(RGB,map): the RGB image has to be a three-dimensional array.</entry>
+    <entry key="colormapMustBe2D">In function {0}, input colormap has to be a 2D array with at least 2 rows and exactly 3 columns.</entry>
+  </message>
+</rsccat>

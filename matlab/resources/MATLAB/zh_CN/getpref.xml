@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="GroupDoesNotExist">组 {0} 不存在</entry>
+    <entry key="PrefDoesNotExistInGroup">组 {1} 中不存在预设项 {0}</entry>
+  </message>
+</rsccat>

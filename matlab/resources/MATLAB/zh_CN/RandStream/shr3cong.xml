@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidState">shr3cong 生成函数的状态无效。</entry>
+    <entry key="InvalidParameter">hr3cong 生成函数不接受参数。</entry>
+    <entry key="MultipleStreams">不支持多个 shr3cong 流。</entry>
+  </message>
+</rsccat>

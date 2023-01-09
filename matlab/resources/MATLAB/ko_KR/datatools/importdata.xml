@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ImportDataTitle">데이터 가져오기</entry>
+    <entry key="ImportDataQuestion">{0} 가져오기</entry>
+    <entry key="ImportButton">가져오기</entry>
+    <entry key="CancelButton">취소</entry>
+    <entry key="PreviewLabel">미리보기:</entry>
+    <entry key="VariablesLabel">가져올 변수:</entry>
+    <entry key="VariableLabel">가져올 변수:</entry>
+    <entry key="DontShowLabel">{0}을(를) 가져올 때 이 대화 상자를 다시 표시 안 함</entry>
+    <entry key="PreviewUnavailable">미리보기를 사용할 수 없음</entry>
+    <entry key="SelectAllLabel">모두 선택</entry>
+    <entry key="AudioTooLong">오디오 파일이 너무 길어서 미리 볼 수 없음</entry>
+  </message>
+</rsccat>

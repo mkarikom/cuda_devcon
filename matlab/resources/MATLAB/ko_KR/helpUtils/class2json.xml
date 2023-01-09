@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ClassTitle">클래스 세부 정보</entry>
+    <entry key="ConstructorTitle">생성자 요약</entry>
+    <entry key="MethodTitle">메서드 요약</entry>
+    <entry key="Titleproperties">속성 요약</entry>
+    <entry key="Titleenumeration">열거형 요약</entry>
+    <entry key="Titleevents">이벤트 요약</entry>
+    <entry key="TitleDetailsproperties">속성 세부 정보</entry>
+    <entry key="TitleDetailsenumeration">열거형 세부 정보</entry>
+    <entry key="TitleDetailsevents">이벤트 세부 정보</entry>
+  </message>
+</rsccat>

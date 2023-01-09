@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidArguments">Invalid arguments.</entry>
+    <entry key="NotEnoughArugments">Not enough input arguments.</entry>
+    <entry key="InvalidGridSize">Row and column arguments must be positive integers less than 32767.</entry>
+    <entry key="InvalidTile">Tile argument must be a positive integer.</entry>
+    <entry key="InvalidTileSpan">Tilespan argument values must be positive integers.</entry>
+    <entry key="LayoutFull">The layout does not have sufficient space.</entry>
+    <entry key="TileOutOfBounds">The tile does not fit in the layout.</entry>
+    <entry key="OutOfMemory">Insufficient memory to create a tile in the current layout.</entry>
+  </message>
+</rsccat>

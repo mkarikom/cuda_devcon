@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedMode">정렬 방향은 ''descend'' 또는 ''ascend''여야 함</entry>
+    <entry key="WrongLengthMode">정렬 방향은 하나의 방향이거나 각 정렬 변수의 방향이어야 합니다.</entry>
+    <entry key="EmptyRowNames">입력 테이블에 행 이름이 포함되어 있지 않습니다. 요청된 개수의 행이 정렬되지 않은 상태로 반환됩니다.</entry>
+    <entry key="BadNumericVarIndices">숫자형 변수 인덱스는 양의 정수여야 합니다.</entry>
+    <entry key="NDVar">정렬 변수 ''{0}''의 크기가 2차원을 넘습니다.</entry>
+    <entry key="SortOnVarFailed">유형이 ''{1}''인 변수 ''{0}''은(는) 정렬할 수 없습니다.</entry>
+    <entry key="GenCellNotSupported">셀형 배열 정렬 변수는 문자형 벡터를 포함해야 합니다.</entry>
+    <entry key="InvalidK">반환할 행 개수는 음이 아닌 정수여야 합니다.</entry>
+  </message>
+</rsccat>

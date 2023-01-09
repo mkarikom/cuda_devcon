@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RequireDataAxes">カラーバー、凡例、および非軸を排除</entry>
+    <entry key="InvalidFirstArgument">少なくとも 1 つの有効な軸が存在しなければなりません。</entry>
+    <entry key="CartesianAxes">座標軸の入力は直交でなければなりません。</entry>
+    <entry key="Requires2Dinput">linkaxes は入力に 2 次元の Axes が必要です。一般のプロパティにリンクを付ける場合は linkprop を使用してください。</entry>
+    <entry key="InvalidSecondArgument">2 番目の入力引数は、''x''、''y''、''xy''、''off'' のいずれかでなければなりません。</entry>
+    <entry key="CompatibleData">linkaxes ではすべての座標軸の範囲を、数値のみ、datetime 値のみ、または duration 値のみにする必要があります。</entry>
+    <entry key="CompatibleCategories">カテゴリは、リンクされたすべての座標軸で同じでなければなりません。</entry>
+  </message>
+</rsccat>

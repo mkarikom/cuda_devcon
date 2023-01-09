@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="LabelODE">Ordinary Differential Equations</entry>
+      <entry key="LabelDAE">Differential-Algebraic Equations</entry>
+      <entry key="LabelIDE">Implicit Differential Equations</entry>
+      <entry key="LabelDDE">Delay Differential Equations</entry>
+      <entry key="LabelBVP">Boundary Value Problems</entry>
+      <entry key="LabelPDE">Partial Differential Equations</entry>
+      <entry key="LabelBallode">ballode    - Simple event location (trajectory of a bouncing ball)</entry>
+      <entry key="LabelBatonode">batonode   - ODE with time- and state-dependent mass matrix </entry>
+      <entry key="LabelBrussode">brussode   - Stiff large problem (diffusion in a chemical reaction)</entry>
+      <entry key="LabelBurgersode">burgersode - ODE with strongly state-dependent mass matrix</entry>
+      <entry key="LabelFem1ode">fem1ode    - Stiff problem with a time-dependent mass matrix</entry>
+      <entry key="LabelFem2ode">fem2ode    - Stiff problem with a constant mass matrix</entry>
+      <entry key="LabelHb1ode">hb1ode     - Stiff problem solved on a very long interval</entry>
+      <entry key="LabelKneeode">kneeode    - The "knee problem" with non-negativity constraints</entry>
+      <entry key="LabelOrbitode">orbitode   - Advanced event location (restricted three body problem)</entry>
+      <entry key="LabelRigidode">rigidode   - Nonstiff problem (Euler equations of motion)</entry>
+      <entry key="LabelVdpode">vdpode     - Stiff problem (van der Pol equation)</entry>
+      <entry key="LabelAmp1dae">amp1dae - Stiff DAE - electrical circuit</entry>
+      <entry key="LabelHb1daew">hb1dae  - Stiff DAE from a conservation law</entry>
+      <entry key="LabelIburgersode">iburgersode - Burgers'' equation solved as implicit ODE system</entry>
+      <entry key="LabelIhb1dae">ihb1dae  - Stiff implicit DAE from a conservation law</entry>
+      <entry key="LabelDdex1">ddex1 - DDEs with constant history</entry>
+      <entry key="LabelDdex2">ddex2 - DDEs with discontinuities</entry>
+      <entry key="LabelDdex3">ddex3 - DDEs with state-dependent delays</entry>
+      <entry key="LabelDdex4">ddex4 - Neutral DDE with two delays</entry>
+      <entry key="LabelDdex5">ddex5 - Neutral DDE of initial value type</entry>
+      <entry key="LabelEmdenbvp">emdenbvp - Emden''s equation - BVP with a singular term</entry>
+      <entry key="LabelEmdenbvp5c">emdenbvp(''bvp5c'') - Emden''s equation solved with BVP5C</entry>
+      <entry key="LabelFsbvp">fsbvp    - Falkner-Skan BVP on an infinite interval</entry>
+      <entry key="LabelFsbvp5C">fsbvp(''bvp5c'') - Falkner-Skan BVP solved with BVP5C</entry>
+      <entry key="LabelMat4bvp">mat4bvp  - Fourth eigenfunction of Mathieu''s equation</entry>
+      <entry key="LabelMat4bvp5c">mat4bvp(''bvp5c'') - Mathieu''s equation solved with BVP5C</entry>
+      <entry key="LabelRcbvp">rcbvp - Example that compares BVP4C and BVP5C</entry>
+      <entry key="LabelShockbvp">shockbvp - Solution has a shock layer near x = 0</entry>
+      <entry key="LabelShockbvp5c">shockbvp(''bvp5c'') - Shock layer computed with BVP5C</entry>
+      <entry key="LabelThreebvp">threebvp - Three-point boundary value problem</entry>
+      <entry key="LabelThreebvp5c">threebvp(''bvp5c'') - Three-point BVP solved with BVP5C</entry>
+      <entry key="LabelTwobvp">twobvp   - Problem that has exactly two solutions</entry>
+      <entry key="LabelPdex1">pdex1 - One PDE--introductory example</entry>
+      <entry key="LabelPdex2">pdex2 - One PDE--example with discontinuities</entry>
+      <entry key="LabelPdex3">pdex3 - One PDE--approximate u(x,t) and Du(x,t)/Dx</entry>
+      <entry key="LabelPdex4">pdex4 - Two PDEs--introductory example</entry>
+      <entry key="LabelPdex5">pdex5 - Two PDEs--example of long-time behavior</entry>
+      <entry key="TitleDifferentialEquationsExamples">Differential Equations Examples</entry>
+      <entry key="LabelExamplesOf">Examples of</entry>
+      <entry key="LabelViewCode">View Code</entry>
+      <entry key="LabelRunExample">Run Example</entry>
+      <entry key="LabelClose">Close</entry>
+   </message>
+</rsccat>

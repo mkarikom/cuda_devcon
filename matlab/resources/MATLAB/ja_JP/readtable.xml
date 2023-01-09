@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AmbiguousFileType">'FileType' ''{0}'' があいまいです。</entry>
+    <entry key="RowNamesNotSupported">Unsupported parameter ''{0}''. To read a TABLE with row names use READTABLE.</entry>
+    <entry key="VariableNamesNotSupported">Unsupported parameter ''{0}''. To read a TABLE or TIMETABLE with variable names use READTABLE or READTIMETABLE.</entry>
+    <entry key="UnrecognizedFileExtension">ファイル拡張子 ''{0}'' は認識されません。'FileType' を使用して、読み取りのタイプを指定してください。</entry>
+    <entry key="UnrecognizedFileType">FileType ''{0}'' は認識されません。</entry>
+    <entry key="BadFileFormat">{0,number,integer} 行目で読み取りに失敗しました。テキスト ファイルのすべての行には、同じ数の区切り記号がなければなりません。行 {1,number,integer} には {2,number,integer} 個の区切り記号がありますが、前の行には {3,number,integer} 個あります。</entry>
+    <entry key="InvalidHeaderLines">NUMHEADERLINES は非負の整数でなければなりません。</entry>
+    <entry key="InvalidTreatAsEmpty">TREATASMISSING は string 配列、文字ベクトル、または文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="NumericTreatAsEmpty">TREATASMISSING に数値リテラルを含めてはなりません。</entry>
+    <entry key="OpenFailed">ファイル ''{0}'' を開くことができません。</entry>
+    <entry key="ReadVarNamesFailed">ファイル ''{0}'' のデータを解釈できません。{2} の変数名が見つかりましたがデータ列数は {1} です。別の形式、区切り記号またはヘッダー行数の指定が必要な場合があります。</entry>
+    <entry key="RowNamesVarNotString">''{0}'' を行名に変換できません。</entry>
+    <entry key="CouldNotReadEntireFileWithFormat">ファイル全体を読み取ることができません。別の形式、区切り記号またはヘッダー行数の指定が必要な場合があります。</entry>
+    <entry key="ReadErrorOnLine">{0,number,integer} 行目で読み取りに失敗しました。その行のフィールドには不適切な型の値が含まれている可能性があります。</entry>
+    <entry key="UnequalVarLengthsFromFileNoFormat">このファイル内のデータは、各行と各列のフィールド数が揃った表形式ではありません。区切り記号またはヘッダー行の数を指定するか、修正する必要があります。</entry>
+    <entry key="UnequalVarLengthsFromFileWithFormat">このファイル内のデータは、各行と各列のフィールド数が揃った表形式ではありません。形式、区切り記号またはヘッダー行数の指定または修正が必要な場合があります。</entry>
+    <entry key="UnexpectedClass">クラス {0} の値を文字ベクトルに変換できません。</entry>
+    <entry key="InvalidDelimiter">区切り記号は string スカラー、文字ベクトル、文字ベクトルの cell 配列であるか、''tab''、''space''、''comma''、''semi'', ''bar'' のいずれかの値でなければなりません。</entry>
+    <entry key="InvalidSheet">シートは string スカラー、文字ベクトル、または正の整数でなければなりません。</entry>
+    <entry key="InvalidRange">範囲は string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="ParameterListHeader">メモ: readtable で次のパラメーターが検出されました。\n</entry>
+    <entry key="NoTimeVarFound">ファイル ''{0}'' で行時間の datetime データまたは duration データを検出できません。</entry>
+    <entry key="AllNaTVariable">1 つ以上の変数を datetime に変換できません。DatetimeVariableImportOptions で正しい InputFormat プロパティと DatetimeLocale プロパティを指定してください。</entry>
+    <entry key="LegacyFormatFileTypes">''Format'' only supported for text and spreadsheet files.</entry>
+  </message>
+</rsccat>

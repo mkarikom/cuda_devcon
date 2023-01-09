@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidNumberOfInputs">1 つまたは 3 つの入力データの引数がなければなりません。</entry>
+    <entry key="NonMatrixColorInput">カラー データの入力は行列でなければなりません。</entry>
+    <entry key="InputSizeMismatch">行列の次元は一致しなければなりません。</entry>
+    <entry key="NonRealInputs">データの入力は実数でなければなりません。</entry>
+  </message>
+</rsccat>

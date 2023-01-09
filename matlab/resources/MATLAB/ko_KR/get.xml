@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoHandle">HGOBJ에 핸들이 없습니다...</entry>
+    <entry key="ObjectNotFound">객체가 존재하지 않거나 손상되었습니다...</entry>
+    <entry key="ObjectsMustBeSameType">객체는 모두 같은 유형이어야 합니다.</entry>
+    <entry key="BadHandle1">유효하지 않은 핸들임</entry>
+    <entry key="BadHandle2">유효하지 않은 핸들임</entry>
+    <entry key="BadPropertyName">유효하지 않은 속성 이름임</entry>
+    <entry key="BadHandle3">유효하지 않은 핸들임</entry>
+    <entry key="VectorNotAllowed">좌변이 없는 핸들 벡터는 get(H)에 대해 허용되지 않음</entry>
+    <entry key="BadHandle4">유효하지 않은 핸들임</entry>
+  </message>
+</rsccat>

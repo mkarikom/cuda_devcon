@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SyntaxErrorAtLocation">第 {0} 行、第 {1} 列存在 JSON 语法错误(字符 {2})</entry>
+    <entry key="SyntaxError">JSON 语法错误</entry>
+    <entry key="ExpectedLiteral">{0}: 需要 ''{1}''，但找到的是 ''{2}''。</entry>
+    <entry key="ExpectedNumber">{0}: 需要数值，但找到的是 ''{1}''。</entry>
+    <entry key="ExpectedNumberAtEnd">{0}: 需要数值，但找到的是文本结尾。</entry>
+    <entry key="ExpectedName">{0}: 需要带引号的名称，但找到的是 ''{1}''。</entry>
+    <entry key="ExpectedColon">{0}: 需要 '':''，但找到的是 ''{1}''。</entry>
+    <entry key="ExpectedValue">{0}: 需要值，但找到的是 ''{1}''。</entry>
+    <entry key="ExpectedNameOrEnd">{0}: 需要带引号的名称或 ''}''，但找到的是 ''{1}''。</entry>
+    <entry key="ExpectedCommaOrEnd">{0}: 需要 '','' 或 ''{1}''，但找到的是 ''{2}''。</entry>
+    <entry key="ExpectedNameOrEndAtEnd">{0}: 需要带引号的名称或 ''}''，但找到的是文本结尾。</entry>
+    <entry key="ExpectedValueOrEnd">{0}: 需要 '','' 或 '']''，但找到的是 ''{1}''。</entry>
+    <entry key="ExpectedValueOrEndAtEnd">{0}: 需要 '','' 或 '']''，但找到的是文本结尾。</entry>
+    <entry key="ExpectedColonAtEnd">{0}: 需要 '':''，但找到的是文本结尾。</entry>
+    <entry key="ExpectedNameAtEnd">{0}: 需要带引号的名称，但找到的是文本结尾。</entry>
+    <entry key="ExpectedValueAtEnd">{0}: 需要值，但找到的是文本结尾。</entry>
+    <entry key="ExpectedCommaOrEndAtEnd">{0}: 需要 '','' 或 ''{1}''，但找到的是文本结尾。</entry>
+    <entry key="ExpectedQuoteAtEnd">{0}: 需要 ''"''，但找到的是文本结尾。</entry>
+    <entry key="InvalidEscape">{0}: 转义字符 ''{1}'' 无效。</entry>
+    <entry key="InvalidControl">{0}: 意外的控制字符 {1}。</entry>
+    <entry key="ExtraText">{0}: 额外的测试。</entry>
+    <entry key="UnsupportedDataType">无法将 {0} 类的对象编码为 JSON 格式的文本。</entry>
+    <entry key="UnsupportedKeyType">无法将 containers.Map 类的对象编码为 JSON 格式的文本。KeyType 必须为字符。</entry>
+    <entry key="UnsupportedCyclicError">无法对 {0} 类的对象进行编码，因为该结构体是递归的。</entry>
+    <entry key="RecursionLimitError">已达到最大递归限制 {0}。</entry>
+    <entry key="InvalidInput">JSON 文本必须为字符向量或非缺失的标量字符串。</entry>
+    <entry key="ParamMissingValue">名称 ''{0}'' 需要一个值。</entry>
+    <entry key="InvalidParamType">名称参数类型必须为字符串标量或字符向量。</entry>
+    <entry key="InvalidValueType">对于名称 ''{1}''，值类型必须为 {0} 标量。</entry>
+    <entry key="UnmatchedParameter">名称参数必须为 ''ConvertInfAndNaN'' 或 ''PrettyPrint''。</entry>
+    <entry key="ResultType">类编写者实现的 jsonencode 方法必须返回字符向量或字符串标量。</entry>
+  </message>
+</rsccat>

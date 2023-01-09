@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2010-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- Added messages: src/m_interpreter, src/m_lxe -->
+    <entry key="BadInput" note="stringDatatypeUpdate">Argument must be either a character vector, string scalar, or a function handle.</entry>
+
+    <!-- Begin doesNotApply same ID, different messages -->
+    <entry key="doesNotApply" translate="false" note="TranslateFalseBatch;">{0}</entry>
+    <entry key="doesNotApplyTextAnswer">{0} does not know how to answer nargin/nargout.</entry>
+    <entry key="doesNotApplyTextInformation">MATLAB does not have nargin/nargout information for {0}</entry>
+    <!-- End doesNotApply same ID, different messages -->
+
+    <entry key="functionDoesnotExist">Function {0} does not exist.</entry>
+    <entry key="invalidType">{0} is not a valid type.</entry>
+    <entry key="NoStack">You can only call nargin/nargout from within a MATLAB function.</entry>
+    <entry key="notValidMfile">Not a valid MATLAB file.</entry>
+    <entry key="unknown">You can only call nargin/nargout when the calling function also has an explicit use of nargin/nargout.</entry>
+    <entry key="unsupportedType">{0} does not support type {1}.</entry>
+  </message>
+</rsccat>

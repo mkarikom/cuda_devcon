@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">입력 인수가 부족합니다.</entry>
+    <entry key="InvalidLevel">레벨 인수는 유한한 스칼라여야 합니다.</entry>
+    <entry key="NoDataInputs">Y 데이터 또는 X와 Y 데이터를 첫 번째 인수로 제공해야 합니다.</entry>
+    <entry key="XDataSizeMismatch">XData는 YData와 크기가 동일해야 합니다.</entry>
+    <entry key="DifferentParents">영역 그룹의 모든 멤버는 부모가 동일해야 합니다.</entry>
+    <entry key="BaseValueLabel">기준 값</entry>
+    <entry key="ShowBaseLine">기준선 가시성</entry>
+  </message>
+</rsccat>

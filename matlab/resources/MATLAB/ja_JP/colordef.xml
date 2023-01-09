@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidOption">colordef への最初の入力に対して指定されたオプションが無効です。</entry>
+    <entry key="RootOrFigureHandle">colordef(FIG, OPTION) にはルートへのハンドルまたは Figure ウィンドウが必要です。</entry>
+    <entry key="FigureHandleExpected">colordef に渡されるハンドルのベクトルは、Figure のハンドルのみを含まなければなりません。</entry>
+    <entry key="InvalidHandle">Figure のハンドルが無効です。</entry>
+    <entry key="MustClearFigure">Figure は、COLORDEF(FIG, OPTION) を使用するために CLF を使ってクリアされなければなりません。</entry>
+    <entry key="UnknownDefaultOption">不明な色の既定のオプション: {0}.</entry>
+  </message>
+</rsccat>

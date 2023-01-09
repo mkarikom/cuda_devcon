@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="UnknownFlag">Unrecognized flag ''{0}''. Valid flags are ''rows'', ''stable'', ''sorted'', ''legacy''.</entry>
+    <entry key="UnknownInput">Invalid input. Valid flags are ''rows'', ''stable'', ''sorted'', ''legacy''.</entry>
+    <entry key="RepeatedFlag">You cannot specify the ''{0}'' flag more than once.</entry> 
+    <entry key="SetOrderConflict">You can specify either ''sorted'' or ''stable'' but not both.</entry>
+    <entry key="BehaviorConflict">You can specify either ''legacy'' or ''R2012a'' but not both.</entry>
+    <entry key="LegacyTrailing">The ''legacy'' flag must come last.</entry>
+    <entry key="R2012aTrailing">The ''R2012a'' flag must come last.</entry>
+    <entry key="SetOrderBehavior">You cannot specify ''stable'' and ''sorted'' with ''legacy'' and ''R2012a''.</entry>
+    <entry key="AandBvectorsOrRowsFlag">A and B must be vectors or ''rows'' must be specified.</entry>
+    <entry key="AandBColnumAgree">Inputs A and B must be matrices with the same number of columns in the ''rows'' case.</entry>
+    <entry key="InputClass" note="stringDatatypeUpdate">Input A of class {0} and input B of class {1} must be cell arrays of character vectors, unless one is a character vector.</entry>
+    <entry key="RowsFlagIgnored">The ''rows'' input is not supported for cell array inputs.</entry>   
+    <entry key="InvalidInputsDataType">Input A of class {0} and input B of class {1} must be the same class, unless one is double.</entry> 
+    <entry key="NotAMatrix">Inputs A and B must be matrices with the same number of columns in the ''rows'' case.</entry>
+</message>
+</rsccat>

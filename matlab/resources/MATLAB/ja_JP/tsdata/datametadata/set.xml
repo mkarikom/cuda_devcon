@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invOutArgs">出力引数は SET(H) または SET(H,Property) 内でのみ許容されます。</entry>
+    <entry key="invVarArg">SET の最初の引数は名前付き変数でなければなりません。timeseries オブジェクト内に格納されたメタデータのプロパティを設定するには、ドット割り当て表記法を使用してください。</entry>
+    <entry key="invPropValPairs">プロパティ/値のペアは偶数でなければなりません。</entry>
+  </message>
+</rsccat>

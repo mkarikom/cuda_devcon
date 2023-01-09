@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidArguments">输入参数无效。</entry>
+    <entry key="InvalidOptionalArgsPass">必须以成对形式传入可选初始化参数。</entry>
+    <entry key="WaitbarHandlesNotFound">找不到进度条句柄。</entry>
+    <entry key="InvalidFirstInput">第一个参数必须为介于 0 与 1 之间的数值。</entry>
+    <entry key="InvalidSecondInput">第二个参数必须为消息字符向量或现有进度条的句柄。</entry>
+    <entry key="ImproperArguments">进度条的参数不正确。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="filenameNotString">文件名必须为字符串标量或字符向量。</entry>
+    <entry key="emptyFilename">文件名不能为空。</entry>
+    <entry key="cannotOpenFile">无法打开文件 {0}。{1}。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadResidual">大きな残差ノルムが検出されました。入力行列の不適切な条件が原因のようです。</entry>
+    <entry key="NotAllEigsConverged">要求された {1,number,integer} 個の固有値のうち、{0,number,integer} 個が収束しました。収束しなかった固有値は NaN です。</entry>
+    <entry key="NotAllEigsConvKeep">要求された {1,number,integer} 個の固有値のうち、{0,number,integer} 個が収束しました。収束しなかった値を特定するために、収束フラグ出力を指定してください。</entry>
+    <entry key="NotAllEigsConvDrop">要求された {1,number,integer} 個の固有値のうち、{0,number,integer} 個が収束しました。収束しなかった固有値は削除されます。</entry>
+    <entry key="AmbiguousSyntax">構文があいまいです。1 番目と 2 番目の引数がどちらもスカラーです。\n EIGS(A,[],K,SIGMA) を使用して標準固有値問題を指定するか、EIGS(A,B,K,SIGMA) を使用して一般化固有値問題を指定してください。</entry>
+    <entry key="BnonDouble">データ型が無効です。入力行列は倍精度でなければなりません。</entry>
+    <entry key="BNotChol">オプション構造体の cholB フィールドが指定されていますが、B は上三角行列ではありません。</entry>
+    <entry key="BNotCholNV">''IsCholesky'' が指定されていますが、B は上三角行列ではありません。</entry>
+    <entry key="BsizeMismatchA">一般化問題の場合、入力行列は同じサイズでなければなりません。</entry>
+    <entry key="InvalidFhandleOutput">関数ハンドルの想定外の出力。想定されている出力は長さが {0} で double 型の列ベクトルです。</entry>
+    <entry key="InvalidOptsCholB">オプション構造体の cholB フィールドは論理スカラーでなければなりません。</entry>
+    <entry key="InvalidIsCholesky">''IsCholesky'' の値は論理スカラーでなければなりません。</entry>
+    <entry key="InvalidOptsIssym">オプション構造体の issym フィールドは論理スカラーでなければなりません。</entry>
+    <entry key="InvalidOptsIsreal">オプション構造体の isreal フィールドは論理スカラーでなければなりません。</entry>
+    <entry key="InvalidIsFunctionSymmetric">''IsFunctionSymmetric'' の値は論理スカラーでなければなりません。</entry>
+    <entry key="InvalidOptsFail">オプション構造体の fail フィールドの値は、''replacenan''、''keep''、''drop'' のいずれかでなければなりません。</entry>
+    <entry key="InvalidFailureTreatment">''FailureTreatment'' の値は、''replacenan''、''keep''、''drop'' のいずれかでなければなりません。</entry>
+    <entry key="InvalidOptsP">オプション構造体の p フィールドは n 以下の正の整数でなければなりません。</entry>
+    <entry key="InvalidSubspaceDimension">''SubspaceDimension'' の値は n 以下の正の整数でなければなりません。</entry>
+    <entry key="InvalidOptsSpdB">オプション構造体の spdB フィールドは論理スカラーでなければなりません。</entry>
+    <entry key="InvalidIsSymmetricDefinite">''IsSymmetricDefinite'' の値は論理スカラーでなければなりません。</entry>
+    <entry key="InvalidOptsPermB">オプション構造体の permB フィールドは 1:n の置換でなければなりません。</entry>
+    <entry key="InvalidCholeskyPermutation">''CholeskyPermutation'' の値は 1:n の置換でなければなりません。</entry>
+    <entry key="InvalidOptsTol">オプション構造体の tol フィールドは、厳密に正の実数スカラーでなければなりません。</entry>
+    <entry key="InvalidTolerance">''Tolerance'' の値は、厳密に正の実数スカラーでなければなりません。</entry>
+    <entry key="InvalidSigma">sigma は double 型のスカラーか、または ''largestabs''、''smallestabs''、''largestreal''、''smallestreal''、''bothendsreal''、''largestimag''、''smallestimag''、''bothendsimag'' の各オプションのいずれかにすることができます。</entry>
+    <entry key="InvalidSpdBwithCholB">オプション構造体の cholB フィールドの値が true である場合、spdB フィールドの値も true でなければなりません。</entry>
+    <entry key="InvalidIsSymmetricDefiniteWithIsCholesky">''IsCholesky'' の値が true である場合、''IsSymmetricDefinite'' の値も true でなければなりません。</entry>
+    <entry key="KeyWithoutValue">入力引数の数が正しくありません。各パラメーター名の後には対応する値が必要です。</entry>
+    <entry key="MustHaveSecondInput">最初の引数が関数ハンドルである場合、2 番目の引数は、その関数ハンドルが表す行列のサイズでなければなりません。</entry>
+    <entry key="NonDoubleOrFunction">最初の引数は double の行列、または関数でなければなりません。</entry>
+    <entry key="NonIntegerEigQty">要求された固有値の数は非負の整数でなければなりません。</entry>
+    <entry key="NonIntegerEigQtyDetail">要求された固有値の数は非負の整数でなければなりません。{0} でした。</entry>
+    <entry key="NonIntegerEigQtyStruct">要求された固有値の数は非負の整数でなければなりません。構造体でした。</entry>
+    <entry key="NonPosIntSize">問題のサイズ ''n'' は、正の整数でなければなりません。</entry>
+    <entry key="NonSquareMatrixOrFunction">最初の引数は、正方行列または関数ハンドルでなければなりません。</entry>
+    <entry key="ParseFlags">パラメーター名は、''IsFunctionSymmetric''、''Tolerance''、''MaxIterations''、''SubspaceDimension''、''StartVector''、''IsSymmetricDefinite''、''IsCholesky''、''CholeskyPermutation''、または ''FailureTreatment'' でなければなりません。</entry>
+    <entry key="OptsMaxitNotPosInt">オプション構造体の maxit フィールドは正の整数でなければなりません。</entry>
+    <entry key="MaxIterationsNotPosInt">''MaxIterations'' の値は正の整数でなければなりません。</entry>
+    <entry key="spdBNotSymmetric">行列 B は対称ではありません。オプション構造体の spdB フィールドの値は false でなければなりません。</entry>
+    <entry key="IsSymmetricDefiniteNotSymmetric">行列 B は対称ではありません。''IsSymmetricDefinite'' の値は false でなければなりません。</entry>
+    <entry key="IsSymmetricDefiniteNotPD">行列 B は正定値ではありません。''IsSymmetricDefinite'' の値は false でなければなりません。</entry>
+    <entry key="OptsPtooSmall">オプション構造体の p フィールドは k+1 より大きくなければなりません。</entry>
+    <entry key="SubspaceDimensionTooSmall">''SubspaceDimension'' の値は k+1 より大きくなければなりません。</entry>
+    <entry key="OptsInvalidDisp">オプション構造体の disp フィールドは 0 または 1 でなければなりません。</entry>
+    <entry key="InvalidDisplay">''Display'' の値は 0 または 1 でなければなりません。</entry>
+    <entry key="TooManyInputs">入力引数が多すぎます。</entry>
+    <entry key="WrongSizeOptsV0">オプション構造体の v0 フィールドは、問題のサイズと長さが一致する double の列ベクトルでなければなりません。</entry>
+    <entry key="WrongSizeStartVector">''StartVector'' の値は長さ n の double の列ベクトルでなければなりません。</entry>
+    <entry key="IgnoredOptionIssym">最初の入力が関数ハンドルではないため、オプション構造体の issym フィールドを無視します。</entry>
+    <entry key="IgnoredIsFunctionSymmetric">最初の入力が関数ハンドルではないため、''IsFunctionSymmetric'' を無視します。</entry>
+    <entry key="IgnoredOptionPermB">B がスパースのコレスキー因子ではないため、オプション構造体の permB フィールドを無視します。</entry>
+    <entry key="IgnoredCholeskyPermutation">B がスパースのコレスキー因子でないため、''CholeskyPermutation'' を無視します。</entry>
+    <entry key="AminusBSingular">sigma の値に基づきシフトされた最初の入力行列が特異であるため、sigma は最初の入力行列の固有値です。行列の条件を改善するには、数値的に摂動される値を sigma に指定することを検討してください。</entry>
+    <entry key="SingularA">最初の入力行列は特異です。行列の条件を改善するには、''smallestabs'' の代わりに非ゼロの小さな数値を sigma に指定することを検討してください。</entry>
+    <entry key="SingularB">特異な第 2 入力行列は、sigma が ''SM'' または double 型のスカラーの場合のみサポートされています。</entry>
+    <entry key="IllConditionedA">最初の入力行列はほぼ特異であるか、不適切にスケーリング (RCOND = {0}) されているため、結果が不正確になる可能性があります。行列の条件を改善するには、''smallestabs'' の代わりに非ゼロの小さな数値を sigma に指定することを検討してください。</entry>
+    <entry key="IllConditionedB">2 番目の入力行列 B はほぼ特異であるか、不適切にスケーリングされています。RCOND = {0}。結果は不正確になる可能性があります。</entry>
+    <entry key="SigmaNearExactEig">sigma の値に基づきシフトされた最初の入力行列は、ほぼ特異であるか、不適切にスケーリング (RCOND = {0}) されているため、結果が不正確になる可能性があります。行列の条件を改善するには、数値的に摂動される値を sigma に指定することを検討してください。</entry>
+    <entry key="InvalidStartingVector">開始ベクトル v0 を正規化できませんでした。ゼロまたは非有限値を含めることができます。</entry>
+    <entry key="InvalidStartingVectorBnorm">開始ベクトル v0 は行列 B の零空間にあります。異なる開始ベクトルを選択してください。</entry>
+    <entry key="NoOrthogonalSubspace">問題が悪条件であるため、直交部分空間を作成できません。一般化問題では、B のランクが低くなることがあります。</entry>
+    <entry key="VeryBadCondition">入力行列の条件が不適切です。Inf または NaN が含まれている可能性があります。</entry>
+    <entry key="TitleSimple">単純な固有値問題 A*x = lambda*x</entry>
+    <entry key="TitleGeneralized">一般化固有値問題 A*x = lambda*B*x</entry>
+    <entry key="ProbSym">固有値問題は実対称です。</entry>
+    <entry key="ProbNonSym">固有値問題は実非対称です。</entry>
+    <entry key="ProbHerm">固有値問題は複素エルミートです。</entry>
+    <entry key="ProbNonHerm">固有値問題は複素非エルミートです。</entry>
+    <entry key="BSPD">行列 B は対称 (半) 正定値です。</entry>
+    <entry key="BNonSPD">行列 B は対称 (半) 正定値ではありません。</entry>
+    <entry key="BHPD">行列 B はエルミート (半) 正定値です。</entry>
+    <entry key="BNonHPD">行列 B はエルミート (半) 正定値ではありません。</entry>
+    <entry key="KandSigmaString">タイプ ''{1}'' の {0} 個の固有値を計算しています。</entry>
+    <entry key="KandSigmaNum">{1} に最も近い {0} 個の固有値を計算しています。</entry>
+    <entry key="Afun">関数ハンドル Afun は {0} 行 {1} 列の行列 A を定義します。この関数ハンドルは {2} を返します。</entry>
+    <entry key="ListParam">Krylov-Schur 法に渡されるパラメーター:\n 最大反復回数: {0}\n 許容誤差: {1}\n 部分空間の次元: {2}</entry>
+    <entry key="EigFallback">部分空間の次元が問題のサイズと等しいため、EIG を呼び出して EIGS を計算します。</entry>
+    <entry key="SimpleDir">A*x = lambda*x の固有値を求めます。</entry>
+    <entry key="SimpleInv">{0}\\x = mu*x の固有値を求めます。\n{1} の分解を計算します...</entry>
+    <entry key="GenSPDDir">R''\\(A*(R\\x)) = lambda*x の固有値を求めます。ここで、B = R''*R です。</entry>
+    <entry key="GenSPDInv">R*{0}\\(R''*y) = mu*y の固有値を求めます。ここで、y = R*x、B = R''*R です。\nR は暗黙的にのみ使用されるため、計算する必要はありません。\n{1} の分解を計算します...</entry>
+    <entry key="GenDir">B\\(A*x) = lambda*x の固有値を求めます。\nB の分解を計算します...</entry>
+    <entry key="GenInv">{0}\\(B*x) = mu*x の固有値を求めます。\n{1} の分解を計算します...</entry>
+    <entry key="StartKrylovSchur">Krylov-Schur 法の開始</entry>
+    <entry key="FailKrylovSchur">Krylov-Schur は B 直交部分空間を作成できませんでした。別の手法を試してください:\n (A - sigma*B)\\(B*x) = mu*x の固有値を求めます。</entry>
+    <entry key="KrylovSchurIter">反復 {0}: {2} 個のうち {1} 個の固有値が収束しました。収束しなかった最小の残差 {3} (許容誤差 {4})。</entry>
+    <entry key="KrylovSchurLastIter">反復 {0}: {2} 個のうち {1} 個の固有値が収束しました。</entry>
+    <entry key="CheckMult">固有値の多重度が見落とされたかどうかをチェックするには、メソッドをやり直して、k+1 個の固有値を求めます。</entry>
+    <entry key="MultCheckSuccess">追加の重複する固有値は見つかりませんでした。結果は良好です。</entry>
+    <entry key="MultCheckRepeat">追加の重複する固有値がいくつか見つかりました。再びやり直して、他にないかチェックしてください。</entry>
+  </message>
+</rsccat>

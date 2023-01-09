@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" decorate_cxx_names="1">
+  <message>
+    <entry key="TypeMismatch">Specified {0} type does not match the type expected for this container.</entry>
+    <entry key="NaNNotAllowed">NaN-valued {0} is not allowed for this container.</entry>
+    <entry key="InvalidParentToChild">You are trying to set the parent property to a descendant child object.</entry>
+  </message>
+</rsccat>

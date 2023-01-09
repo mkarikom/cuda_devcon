@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFirstArgument">必须指定一个 java 对象句柄作为第一个参数</entry>
+    <entry key="InvalidSecondArgument">必须指定一个方法签名作为第二个参数</entry>
+    <entry key="IllegalInput">第一个参数必须为 Java 对象、完全限定的 Java 类名或函数句柄。</entry>
+    <entry key="AmbiguousMethod">方法名 ''{0}'' 具有多义性。</entry>
+    <entry key="UnknownMethod">未找到方法 ''{0}''。</entry>
+    <entry key="IllegalSignature">签名 ''{0}'' 非法。</entry>
+    <entry key="IllegalCharacterInSignature">签名 ''{0}'' 中有意外字符。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="unknownType">Unknown ''type'' argument. ''type'' must be ''first'' or ''average''.</entry>
+    <entry key="tolsize">Tolerance must be a scalar or a vector with the same number of columns as the first input ''X''.</entry>
+    <!--
+    <entry key="minrhs">Not enough input arguments. Specify at least two inputs.</entry>
+    <entry key="maxrhs">Too many input arguments. Specify two or three inputs.</entry>
+    <entry key="maxlhs">Too many output arguments. Specify a single output.</entry>
+    -->
+    <entry key="firstNotDoubleReal">The first input, ''X'', cannot be a single, complex or sparse matrix. ''X'' must be a non-sparse real double matrix.</entry>
+    <entry key="secondNotDoubleReal">The second input ''tol'', cannot be a single, complex or sparse matrix. ''tol'' must be a non-sparse real double scalar or row vector.</entry>
+    <entry key="thirdNotChar" note="stringDatatypeUpdate">The third input, ''type'', must be a character vector. ''type'' must be ''first'' or ''average''.</entry>
+    <entry key="NegTol">No tolerance can be negative.</entry>
+    <entry key="NaNTol">No tolerance can be NaN.</entry>
+    <entry key="AllInfTol">All the tolerances are Inf. The tolerance must include some finite values.</entry>
+  </message>
+</rsccat>

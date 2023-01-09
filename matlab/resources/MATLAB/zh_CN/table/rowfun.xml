@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="OutputNamesWrongLength">LENGTH(OUTPUTNAMES) 必须等于 NUMOUTPUTS。</entry>
+    <entry key="InvalidFunction">第一个输入必须为函数句柄。</entry>
+    <entry key="InvalidOutputFormat">OUTPUTFORMAT 必须为以下项之一: 'uniform'、'table' 或 'cell'。</entry>
+    <entry key="InvalidNumOutputs">NUMOUTPUTS 必须为非负整数。</entry>
+    <entry key="InvalidInputVariablesFun">INPUTVARIABLES 必须返回一个逻辑标量。</entry>
+    <entry key="TimetableCannotGrow">应用于时间表的函数所返回输出的大小大于时间向量的大小。使用 'OutputFormat'、'Table' 在表中返回输出，而不包含行时间。</entry>
+    <entry key="RowLabelsCannotBeDataVar">不支持使用行名称作为输入变量。</entry>
+    <entry key="RowLabelsCannotBeDataVarNondefaultName">变量名称 ''{0}'' 无法识别。您可能想访问该表中名为 ''{1}'' 的行名称。但是，不支持使用行名称作为输入变量。</entry>
+    <entry key="FunFailed">将函数 ''{0}'' 应用于 A 的 {1} 行时生成了以下错误:\n\n{2}\n</entry>
+    <entry key="FunFailedGrouped">将函数 ''{0}'' 应用于 A 中的 {1} 行组时生成了以下错误:\n\n{2}\n。</entry>
+    <entry key="UngroupedRowSize">在应用于 A 中的 {1} 行时，函数 ''{0}'' 返回了一个包含多行的输出。</entry>
+    <entry key="GroupedRowSize">在应用于 A 中的 {1} 行组时，函数 ''{0}'' 返回了多个包含不同行数的输出。</entry>
+    <entry key="NotAScalarOutput">在应用于 {1} 行时，函数 ''{0}'' 返回了一个非标量值。</entry>
+    <entry key="NotAScalarOutputGrouped">在应用于 {1} 行组时，函数 ''{0}'' 返回了一个非标量值。</entry>
+    <entry key="MismatchInOutputTypes">在应用于 {3} 行时，函数 ''{0}'' 返回了一个具有不匹配的类型({1}，需要 {2})的值。</entry>
+    <entry key="MismatchInOutputTypesGrouped">在应用于 {3} 行组时，函数 ''{0}'' 返回了一个具有不匹配的类型({1}，需要 {2})的值。</entry>
+  </message>
+</rsccat>

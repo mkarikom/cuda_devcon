@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">resample 메서드는 단일 timeseries 객체에 대해서만 사용할 수 있음</entry>
+    <entry key="norel">날짜로 리샘플링할 때 시계열 StartDate 속성은 유효한 날짜의 문자형 벡터 또는 string형이어야 합니다.</entry>
+    <entry key="badtime">시간은 날짜로 구성된 셀형 배열, 숫자형 벡터, 스칼라 중 하나로 지정해야 합니다.</entry>
+    <entry key="invinterp">유효하지 않은 보간 방법임</entry>
+    <entry key="noqual">품질 벡터를 초기화해야 합니다.</entry>
+    <entry key="round">지정한 품질 코드는 정수로 반올림되었습니다.</entry>
+    <entry key="invcode">이 시계열에 대해 정의되지 않은 품질 코드가 지정되었습니다.</entry>
+    <entry key="absentcode">이 시계열에 대해 정의되지 않은 품질 코드가 지정되었습니다.</entry>
+    <entry key="nonnumeric">숫자형이 아닌 데이터가 있는 timeseries에 대해서는 수치 연산을 수행할 수 없음</entry>
+    <entry key="scalar">resample 함수를 수행하려면 적어도 두 개의 원본 데이터 샘플이 있어야 합니다.</entry>
+  </message>
+</rsccat>

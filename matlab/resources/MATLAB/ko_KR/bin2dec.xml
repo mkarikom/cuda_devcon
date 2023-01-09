@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputMustBeString">입력 인수는 문자형 벡터, string형 또는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="IllegalBinaryString">텍스트는 문자 0과 1로 구성되어야 하며 선택적으로 0b 접두사 또는 유형 접미사를 포함할 수 있습니다. 또한, 입력값은 intmax보다 작게 변환되어야 합니다.</entry>
+    <entry key="InputExceedsFlintmax">flintmax보다 크거나 같은 정수를 나타내는 이진수는 배정밀도 부동소수점 값으로 정확히 표현하지 못할 수 있습니다.</entry>
+    <entry key="InvalidCharacters">이진 텍스트는 문자 0과 1로 구성되어야 합니다.</entry>
+    <entry key="TooManyDigits">지정되거나 유추되는 유형 접미사에 대해 이진 텍스트의 자릿수가 너무 많습니다.</entry>
+    <entry key="SuffixRequiresPrefix">이진 텍스트에 유형 접미사를 사용하려면 0b 접두사를 사용해야 합니다.</entry>
+  </message>
+</rsccat>

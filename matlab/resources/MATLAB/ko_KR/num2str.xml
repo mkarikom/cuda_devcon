@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="fmtInvalid">''{0}''은(는) 유효하지 않은 형식입니다.</entry>
+    <entry key="nonNumericInput">num2str에 대한 입력값은 숫자형이어야 합니다.</entry>
+    <entry key="invalidSecondArgument">num2str에 대한 두 번째 인수는 문자형 벡터, string형 스칼라 또는 숫자형이어야 합니다.</entry>
+    <entry key="integerSecondArgument">정수 값을 문자형 벡터로 변환할 때 정밀도(precision) 인수는 무시됩니다.</entry>
+    <entry key="badConversion">{0}</entry>
+  </message>
+</rsccat>

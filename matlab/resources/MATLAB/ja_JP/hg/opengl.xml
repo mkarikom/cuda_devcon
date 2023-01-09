@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RegistrationSymbolNotFound">glren に対する登録記号が見つかりません。\n{0}</entry>
+    <entry key="UnableToLoadOpenGL">以下のエラーが発生したため、OpenGL レンダラーを読み込むことができません。\n{0}\n{1} から glren 共有オブジェクトの読み込もうとしました。</entry>
+    <entry key="MaxTextureSize">OpenGL コンテキストを作成しましたが、MaxTextureSize が {0,number,integer} です。\nOpenGL を無効にしています。</entry>
+    <entry key="UnableToUnload">OpenGL ライブラリを解放できません</entry>
+    <entry key="UnableToAccessLibrary">OpenGL ライブラリにアクセスできませんでした</entry>
+    <entry key="AppearsToBeInstalledCorrectly">OpenGL が正しくインストールされていないようです。</entry>
+    <entry key="ErrorWhenLoadingOpenGL">OpenGL の読み込み中にエラーが発生しました</entry>
+    <entry key="OpenGLUnavailable">OpenGL は利用できません。</entry>
+  </message>
+</rsccat>

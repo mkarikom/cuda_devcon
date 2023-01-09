@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonNumericInputRulers">入力引数は数値、datetime、duration、カテゴリカルのいずれかでなければなりません。</entry>
+    <entry key="nonNumericInput">入力引数は数値であるか、double に変換可能なオブジェクトでなければなりません。</entry>
+    <entry key="DatetimeDependent">y の値は数値または duration の配列でなければなりません。</entry>
+    <entry key="UsingOnlyRealComponentOfComplexData">複素数データの実数部のみを使用します。</entry>
+  </message>
+</rsccat>

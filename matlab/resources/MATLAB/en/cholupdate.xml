@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="incorrectSecondInputArgument">Second argument must be a column vector of the same length as the number of columns of the square input matrix ({0,number,integer}).</entry>
+    <entry key="incorrectThirdInputArgument">Third argument must be ''+'' or ''-''.</entry>
+    <entry key="downdatedMatrixNotPosDef">Downdated matrix must be positive definite.</entry>
+    <entry key="singularCholeskyFactor">Cholesky factor is singular.</entry>
+    <entry key="inputType">Invalid data type. First and second inputs must be double or single.</entry>
+    <entry key="inputSparse">Sparse matrices are not supported.</entry>
+    <entry key="inputMustBe2D">Input array must be 2-dimensional.</entry>
+  </message>
+</rsccat>

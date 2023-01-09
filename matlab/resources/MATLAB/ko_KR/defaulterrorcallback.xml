@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ErrorUpdating">{0} 업데이트 중 오류가 발생했습니다.</entry>
+    <entry key="ErrorInProperty">{0}을(를) 만들거나 업데이트 중 오류가 발생했습니다.\n 속성 {1}의 값에 오류 발생\n {2}</entry>
+    <entry key="ErrorInMultipleProperties">{0}을(를) 만들거나 업데이트 중 오류가 발생했습니다. \n 다음 속성의 하나 이상의 값에 오류 발생: {1} \n {2}</entry>
+  </message>
+</rsccat>

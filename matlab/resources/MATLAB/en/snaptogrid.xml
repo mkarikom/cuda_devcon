@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidFirstFigureHandle">first argument must be a figure</entry>
+    <entry key="InvalidAction" note="stringDatatypeUpdate">character vector must be either ''on'',''off'',''togglesnap'',''toggleview'' or ''noaction''</entry>
+    <entry key="InvalidFigureHandle">handle argument must be a valid figure</entry>
+    <entry key="InvalidOnOff" note="stringDatatypeUpdate">character vector must be either ''on'' or ''off''</entry>
+    <entry key="NoFigures">must have a figure to enable snap to grid</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadWorkingDirectory">作業ディレクトリが正しくありません。詳細: {0}.</entry>
+    <entry key="ambiguousWithinFileName">関数名 "{0}" がファイル {1} であいまいです。</entry>
+    <entry key="CannotFindBuiltinFunction">組み込み関数 ''{0}'' が見つかりません</entry>
+    <entry key="cannotFindFunctionText">関数 "{0}" が見つかりません。</entry>
+    <entry key="cannotFindFunctionTextWithin">関数 "{0}" ("{1}") が見つかりません。</entry>
+    <entry key="cannotFindFunctionTextLocal">ローカル関数 "{0}" が見つかりません。</entry>
+    <entry key="conflictingFcnRegs">複数の競合した MATLAB_FCN_REG が "{0}" で見つかりました。\n    MATLAB_FCN_REG は、名前、タイプ、属性、あるいはプロパティが異なっている必要があります。</entry>
+    <entry key="directoryNameTooLong">ディレクトリ名が長すぎます:  "{0}"</entry>
+    <entry key="directoryNotFound">ディレクトリ名が見つかりません: "{0}"</entry>
+    <entry key="extensionRequired">MATLAB の現在の検索パス上にないファイルを指定する場合、ファイルの拡張子が必要です。</entry>
+    <entry key="findSymbolInLibrary">''{0}'' に対するシンボルが ''{1}'' で見つかりません。\n{2}</entry>
+    <entry key="inmemArgument">inmem() へのセル配列の引数は、文字配列のみ含まなければなりません。</entry>
+    <entry key="invalidFunctionName">関数名 ''{0}'' が無効です</entry>
+    <entry key="invalidPath">パス ''{0}'' が無効です</entry>
+    <entry key="loadLibraryTextFunctionTableSize">''{0}'' の関数テーブル サイズをチェックできません: 、ライブラリ要求 {1,number,integer}、レジストリ要求 {2}</entry>
+    <entry key="loadLibraryTextLibraryIntegrity">''{0}''、ライブラリ構築 {1}、レジストリ構築 {2} のライブラリ整合性をチェックできません</entry>
+    <entry key="loadLibraryTextLoad">''{0}'' を読み込めません: {1}</entry>
+    <entry key="loadLibraryTextRCFileNotFound">''{1}'' で必要とされるリソース ファイル ''{0}'' が見つかりません</entry>
+    <entry key="loadLibraryTextReload">''{0}'' を再読み込みできません</entry>
+    <entry key="mlockContext">"{0}" はファイルから呼び出さなければなりません。</entry>
+    <entry key="mlockNotLocked">ファイル ''{0}'' はロックされていません。</entry>
+    <entry key="nameConflict">関数 {0} は、MATLAB の組み込み関数と同じ名前をもちます。潜在的な名前の競合を避けるために関数名を変更することを推奨します。</entry>
+    <entry key="mFunctionShadowedByNonM">関数 "{0}" は存在しないか、優先順位の高い別のファイルが存在します。</entry>
+    <entry key="NotFound">{0} に対する利用可能なシグネチャがありません。</entry>
+    <entry key="recursiveLoading">ファイル "{0}" が読み込まれている間にそのファイルを読み込もうとしています。</entry>
+    <entry key="ShadowedMEXExtension">ディレクトリ "{0}" において、{1} は {2} よりパスの優先順位が高い可能性があります。\n 『MATLAB 7.1 リリース ノート』を参照してください。</entry>
+    <entry key="UnableToResolve">{1} 内の関数 {0} に対する有効なワークスペースを保証できません。\n{2} への関数ハンドルを再度作成してください。\n</entry>
+    <entry key="UnableToResolveFile">ファイル {0} が見つかりません</entry>
+    <entry key="UnableToResolveHiddenFunction">関数 {0} ({1} 内) が見つかりません。</entry>
+    <entry key="undefinedFunction">MATLAB パス上の関数として {0} の位置を特定できませんでした</entry>
+    <entry key="undefinedArgument">{0} は、有効な引数ではありません。</entry>
+    <entry key="UnresolvedFunctionHandleText">関数ハンドルの読み込み中に、パス上に適切な関数が見つかりませんでした</entry>
+    <entry key="UnresolvedFunctionHandleTextWithName">関数ハンドル {0}{1}{2} の読み込み中に、パス上に適切な関数が見つかりませんでした</entry>
+    <entry key="noMatchingConstructor">一致するシグネチャをもつコンストラクター ''{0}'' がありません。</entry>
+    <entry key="inferiortoSuperiortoContext">関数 ''{0}'' は、メソッド内からのみ呼び出すことができます。</entry>
+    <entry key="inferiortoSuperiortoSelf">クラス ''{0}'' はそれ自体のサブクラスまたはスーパークラスにはなれません。</entry>
+    <entry key="inferiortoSuperiorChange">クラス ''{0}'' と ''{1}'' の優先度は、最初に ''clear classes'' をタイプせずに変更できません。</entry>
+    <entry key="unknownClass">''{0}'' は既知のクラスではありません。</entry>
+    <entry key="unknownClassInRelation">不明なクラス ''{0}'' が組み込み関数 ''{1}'' に使用されています。</entry>
+    <entry key="InvalidObjtagReuse">''clear classes'' への呼び出しをせずにクラス ''{0}'' を再定義できません。</entry>
+    <entry key="InvalidBaseObject">クラス ''{0}'' のコンストラクターに対する Base オブジェクトが無効です。</entry>
+    <entry key="BadBaseClass">''{0}'' のクラスは基本クラス、プロパティ値、あるいは属性値として自身のクラス定義に使用することはできません。</entry>
+    <entry key="FieldNameAsParent">親クラスの名前と一致するフィールド ''{1}'' を含むクラス ''{0}'' を構築しようとして失敗しました。</entry>
+    <entry key="sameClassParent">スーパークラス ''{0}'' が複数回指定されています。</entry>
+    <entry key="ParentObjectSize">オブジェクト内に作られる構造体配列のサイズと親オブジェクトのサイズは、一致していなければなりません。</entry>
+    <entry key="invalidClassContext">CLASS 関数は、クラスのコンストラクターから呼び出されなければなりません。</entry>
+    <entry key="classMustBeStruct">関数 CLASS への最初の引数は、構造体でなければなりません。</entry>
+    <entry key="invalidClassName">名前 ''{0}'' は、有効なクラス名ではありません。</entry>
+    <entry key="objectParentCount">最初に ''clear classes'' をタイプしてから、クラス ''{0}'' の親の数を変更してください。</entry>
+    <entry key="objectMemberCount">最初に ''clear classes'' をタイプせずに、クラス ''{0}'' のフィールドの数を変更できません。</entry>
+    <entry key="objectChecksum">フィールド名とクラス ''{0}'' の基本クラスを変更するには、最初に ''clear classes'' をタイプしてください。</entry>
+    <entry key="tooManyOutputs">クラス ''{0}'' に対するコンストラクターは、1 つの出力値のみ返さなければなりません。</entry>
+    <entry key="pathNotInitialized">MATLAB パス {0} を初期化できません。MATLAB を終了します。\n</entry>
+    <entry key="pathInitializationTime">  MATLAB パスは {0} 秒で初期化されました。\n</entry>
+    <entry key="matlabpathIsDisabled"> matlabpath を実行できません。この関数は、この MATLAB セッションで無効になっています。</entry>
+    <entry key="pathChangeLimitReached">''{0}'' が関数かどうか特定できません。検索中に MATLAB パスまたは現在のフォルダーが何度も変更されました。</entry>
+    <entry key="cannotFindFunction">{0}</entry>
+    <entry key="loadLibrary">{0}</entry>
+    <entry key="UnresolvedFunctionHandle">{0}</entry>
+    <entry key="unresolvedDependency">Unable to find function ''{0}''. Component {1} has an unknown dependency {2}.</entry>
+    <entry key="unresolvedReexport">Unable to find file ''{0}''. Component {1} reexports unregistered component {2}.</entry>
+    <entry key="pathWarning">{0}</entry>
+    <entry key="pathError">{0}</entry>
+  </message>
+</rsccat>

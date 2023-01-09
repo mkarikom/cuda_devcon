@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidP">输入 ''p'' 必须是介于 0 与 1 之间的实数标量。</entry>
+    <entry key="XYZVectorsSameLength">X, Y and Z must be vectors of the same length.</entry>
+  </message>
+</rsccat>

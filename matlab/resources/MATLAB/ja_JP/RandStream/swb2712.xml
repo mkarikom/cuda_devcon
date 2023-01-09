@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidState">swb2712 ジェネレーターに対する状態が無効です。</entry>
+    <entry key="InvalidParameter">swb2712 ジェネレーターはパラメーターを受け入れません。</entry>
+    <entry key="MultipleStreams">複数の swb2712 ストリームはサポートされません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="mf0" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LikePatternNotSingle">LIKE 関係のパターン値は mf::zero::ValueFlags::SINGLE でなければなりません。</entry>
+    <entry key="LikePatternNotString">LIKE 関係のパターン値は string 型でなければなりません。</entry>
+    <entry key="RelationAndTypeNotSupported">関係 ''{0}'' は、タイプ ''{1}'' ではサポートされません。</entry>
+    <entry key="PropertyRelationValueNotPrimitive">制約内の値がプリミティブ型ではありません。</entry>
+    <entry key="PropertyRelationPropertyTypeMismatch">制約の 2 つのプロパティの型が一致しません。</entry>
+    <entry key="PropertyRelationObjectMultiValue">オブジェクト プロパティの制約は複数値のプロパティをサポートしません。</entry>
+    <entry key="NoSuchInstanceId">AddConstraint に渡されたインスタンス ID はクエリにありません。</entry>
+    <entry key="NoSearchInstances">クエリに検索クラスがありません。</entry>
+    <entry key="NoModel">クエリはどのモデルとも関連付けられていません。</entry>
+    <entry key="QueryResultObjectNotFound">MF0 モデルにクエリ結果のオブジェクトが見つかりません。</entry>
+    <entry key="UnsupportedEnumConstraintRelation">列挙型タイプのクエリ制約でサポートされている値一致の関係は、'equal' と 'notEqual' のみです。</entry>
+    <entry key="UnsupportedObjectConstraintRelation">オブジェクト タイプのクエリ制約でサポートされている値一致の関係は、'equal' と 'notEqual' のみです。</entry>
+    <entry key="InvalidSearchClass">無効なクラスが addSearchClass() に渡されました</entry>
+    <entry key="NoDataSourceForQuery">データ ソースなしでデータ ソース クエリは作成できません。</entry>
+    <entry key="UnsupportedSorting">作成を基準とした並べ替えは、データ ソースなしではサポートされません。</entry>
+    <entry key="DMRSelfJoinNotSupported">DMR データ ソース クエリは自己結合をまだサポートしていません</entry>
+  </message>
+</rsccat>

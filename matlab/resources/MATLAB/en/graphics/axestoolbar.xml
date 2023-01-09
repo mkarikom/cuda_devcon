@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- Copyright 2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <entry key="InvalidParentAxes">Parent must be a valid Axes object.</entry>
+        <entry key="InvalidAxesToolbar">Parent must be a valid AxesToolbar object.</entry>
+        <entry key="InvalidToolbarButton">Toolbar button style must be either ''push'' or ''state''.</entry>
+        <entry key="CannotModifyDefaultAxesToolbar">Modifying the default axes toolbar is not supported.</entry>
+        <entry key="UnknownProperty">Unknown property: {0}</entry>
+        <entry key="InvalidPropertyName">Property names must be character vectors or strings.</entry>
+        <entry key="InvalidButtonEnum">Invalid enum value. Specify the value as either ''default'' or a cell array containing one or more of these values: \n ''zoomin'' | ''zoomout'' | ''pan'' | ''rotate'' | ''datacursor'' | ''brush'' | ''restoreview'' | ''export''</entry>
+        <entry key="InvalidButtonType">{0} is not a valid value. Specify the value as either ''default'' or a cell array containing one or more of these values: \n ''zoomin'' | ''zoomout'' | ''pan'' | ''rotate'' | ''datacursor'' | ''brush'' | ''restoreview'' | ''export''</entry>
+        <entry key="InvalidGeoButtonEnum">Invalid enum value. Specify the value as either ''default'' or a cell array containing one or more of these values: \n ''stepzoomin'' | ''stepzoomout'' | ''datacursor'' | ''restoreview'' | ''export''</entry>
+        <entry key="InvalidGeoButtonType">{0} is not a valid value. Specify the value as either ''default'' or a cell array containing one or more of these values: \n ''stepzoomin'' | ''stepzoomout'' | ''datacursor'' | ''restoreview'' | ''export''</entry>		
+        <entry key="InvalidIndexedIcon">Matrix values of the Icon property must be in the range 0-63 for integer types or 1-64 for floating point types.</entry>
+        <entry key="InvalidRGBIcon">RGB values of the Icon property must be a MxNx3 array.</entry>
+        <entry key="InvalidIcon">The Icon property must be a built-in type, or a filename, or numeric.</entry>
+        <entry key="ErrorWhileEvaluating">{0}\nError while evaluating {1} for axes toolbar.</entry>
+		<entry key="ToolbarDropdownChildError">Children must be valid ToolbarPushButton objects</entry>
+		<entry key="PrintWarning">Exported image displays axes toolbar. To remove axes toolbar from image, export again.</entry>
+    </message>
+</rsccat>

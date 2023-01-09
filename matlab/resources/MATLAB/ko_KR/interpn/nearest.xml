@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">입력 인수가 부족합니다.</entry>
+    <entry key="nargin">입력 인수의 개수가 올바르지 않습니다.</entry>
+    <entry key="XLengthMismatchV">X1,X2,X3,... 벡터의 길이가 V와 일치해야 합니다.</entry>
+    <entry key="YSizeMismatch">Y1,Y2,Y3 등의 크기는 같아야 합니다.</entry>
+  </message>
+</rsccat>

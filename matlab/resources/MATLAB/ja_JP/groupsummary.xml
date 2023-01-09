@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ApplyDataVarsError">メソッド ''{0}'' をデータ変数 {1} に適用できません。</entry>
+    <entry key="GroupVariablesTableSubscript">グループ化変数が無効です。</entry>
+    <entry key="GroupVariablesFunctionHandle">グループ化変数の関数ハンドルは logical スカラーを返さなければなりません。</entry>
+    <entry key="DataVariablesTableSubscript">データ変数が無効です。</entry>
+    <entry key="DataVariablesFunctionHandle">データ変数の関数ハンドルは logical スカラーを返さなければなりません。</entry>
+    <entry key="DataVariablesCellNumElements">各データ変数の cell の要素数は同一か、または 1 でなければなりません。</entry>
+    <entry key="FirstInputSize">最初の引数は、ベクトル、行列、cell 配列、table、または timetable でなければなりません。</entry>
+    <entry key="FirstInputSizeCell">最初の引数が cell 配列の場合、各 cell 要素には同じ列数の行列または single のベクトルが含まれていなければなりません。</entry>
+    <entry key="FirstInputSizeCellRows">最初の引数が cell 配列の場合、各 cell 要素には同じ行数の行列が含まれていなければなりません。</entry>
+    <entry key="FirstSecondMismatchSize">グループ化変数とデータ行列の行数は同じでなければなりません。</entry>
+    <entry key="SecondInputType">グループ化変数は関数ハンドルとして指定できません。</entry>
+    <entry key="ApplyDataVecsError">メソッド ''{0}'' をデータ列 {1} に適用できません。</entry>
+    <entry key="MustSpecifyMethod">最初の引数がベクトルまたは行列の場合、メソッドを指定しなければなりません。</entry>
+    <entry key="StatsCattable">指定したメソッドをデータ列に適用した結果を連結できません。</entry>
+    <entry key="GroupBinsEmpty">ビン化スキームが無効です。</entry>
+    <entry key="GroupBinsVarsDiffSize">1 つのビン化スキーム、またはグループ化変数と同数のビン化スキームを指定してください。</entry>
+    <entry key="GroupBinsNoGroupVars">グループ化変数が空の場合、ビン化スキームはサポートされません。</entry>
+    <entry key="GroupBinsError">ビン化方法 ''{0}'' をグループ化変数 ''{1}'' に適用できません。</entry>
+    <entry key="GroupBinsScalarExpand">ビン化方法をすべてのグループ化変数に適用できません。cell 配列を使用して、グループ化変数ごとにビン化方法を指定してください。'none' はビン化しないことを示します。</entry>
+    <entry key="InvalidMethodOption">メソッドは、有効な名前、関数ハンドル、または有効なメソッドを含む cell 配列でなければなりません。</entry>
+    <entry key="ParseFlags">パラメーター名は ''IncludeMissingGroups''、''IncludeEmptyGroups''、または ''IncludedEdge'' でなければなりません。</entry>
+    <entry key="KeyWithoutValue">入力引数の数が正しくありません。パラメーターの名前と値はペアでなければなりません。</entry>
+    <entry key="IncludedEdgeNoGroupBins">''IncludedEdge'' は、ビン化スキームが指定されている場合にのみサポートされます。</entry>
+  </message>
+</rsccat>

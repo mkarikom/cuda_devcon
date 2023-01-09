@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoSolInterval">未指定 BVPINIT(SOL,[ANEW BNEW]) 中的 [ANEW BNEW]。</entry>
+    <entry key="XSameEndPts">x 的条目必须满足 a = x(1) ~= x(end) = b。</entry>
+    <entry key="IncreasingXNotMonotonic">x 的条目必须满足 a = x(1) &lt; x(2) &lt; ... &lt; x(end) = b。</entry>
+    <entry key="DecreasingXNotMonotonic">x 的条目必须满足 a = x(1) &gt; x(2) &gt; ... &gt; x(end) = b。</entry>
+    <entry key="SolGuessNotVector">用于求解的猜测值必须返回一个向量。</entry>
+  </message>
+</rsccat>

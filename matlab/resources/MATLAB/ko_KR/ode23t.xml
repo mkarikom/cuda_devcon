@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">입력 인수가 부족합니다.  ODE23t를 참고하십시오.</entry>
+    <entry key="MassMatrixAllZero">질량 행렬에 일부 0이 아닌 항목이 있어야 합니다.</entry>
+    <entry key="YoYPoLengthMismatch">y0과 yp0의 길이가 다릅니다.</entry>
+    <entry key="NonNegativeIgnoredForLinearlyImplicitSystems">선형 음함수 시스템의 경우, ODE23T는 해에 제한을 두지 않습니다.\n         ''NonNegative'' 옵션은 무시됩니다.</entry>
+    <entry key="IntegrationTolNotMet">t={0}에서 실패했습니다.  시간 t에서, 허용되는 가장 작은 값({1}) 이하로 스텝 크기를 줄여야만 적분 허용오차가 충족될 수 있습니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+  
+	<!-- Used by parallelplot function -->
+    <entry key="InvalidArguments">First argument must be a table or a numeric matrix.</entry>
+    <entry key="GroupVariableNameValuePair">Specify the ''GroupVariable'' using a parameter name and value pair.</entry>
+    <entry key="InvalidParent">Parent container must be a figure, uipanel, or uitab.</entry>
+    <entry key="DeletedParent">Parent container is a deleted graphics object.</entry>
+    <entry key="InvalidX">Data must be a numeric matrix.</entry>
+    <entry key="DataNormalizationLabel">Normalization method for coordinates</entry>
+    <entry key="JitterLabel">Data displacement distance</entry>
+	
+	<!-- Used by matlab.graphics.chart.ParallelCoordinatesPlot -->
+	<!-- Matrix workflow -->
+	<entry key="InvalidCoordinateDataSize">''CoordinateData'' must be a vector with valid indices into the Data columns.</entry>
+	<entry key="InvalidGroupDataSize">''GroupData'' must be a vector with the same number of rows as ''Data''.</entry>
+	<entry key="InvalidGroupDataCell">''GroupData'' must be a cell array of character vectors.</entry>
+	<entry key="InvalidNumericColorSize">''Color'' must be an N-by-3 matrix where N is either 1 or the number of groups in ''GroupData''.</entry>
+	<entry key="InvalidStringColorSize">''Color'' must be a scalar or a vector equal to number of groups in ''GroupData''.</entry>
+	<entry key="InvalidLimitsType">''{0}'' must have the same data type as ''{1}''.</entry>
+	<entry key="InvalidLimitsSize">''{0}'' must be a 2 element row vector.</entry>
+	<entry key="InvalidCategoryNames">&lt;a href=\"matlab:doc string\"&gt;categorical&lt;/a&gt; function could not convert the group values to valid category names.</entry>
+	
+	<!-- Table workflow-->
+	<entry key="InvalidSourceTable">''SourceTable'' value must be a table.</entry>
+	<entry key="MatrixWorkflow" note="{0} is a property name, such as SourceTable">Setting the ''{0}'' property after setting the ''Data'' property is not supported.</entry>
+    <entry key="TableWorkflow" note="{0} is a property name, such as XData">Setting the ''{0}'' property after setting the ''SourceTable'' property is not supported.</entry>
+  </message>
+</rsccat>

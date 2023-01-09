@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadEndNodes">table の最初の変数は、2 列の数値配列またはノード名の 2 列の配列 (cell または string) でなければなりません。</entry>
+    <entry key="DuplicateEdge">エッジの重複はサポートされていません。 </entry>
+    <entry key="DuplicateEndNodes">EndNodes の定義が重複しています。2 つの入力を使用するか、EdgeTable から変数 EndNodes を削除してください。</entry>
+    <entry key="EdgeExists">エッジ ({0}, {1}) は既にグラフ内に存在します。</entry>
+    <entry key="FourthInput">データ型が無効です。重みは double または single でなければなりません。</entry>
+    <entry key="InconsistentNodeNames">ノード ID は、両方とも数値ベクトル、両方ともノード名 (string ベクトル、文字ベクトル、または文字ベクトルの cell 配列として指定)、または両方とも categorical でなければなりません。</entry>
+    <entry key="InvalidNodeID">数値のノード ID は正の整数でなければなりません。</entry>
+    <entry key="NoOutput">入力グラフが変更されていません。出力引数を使用して、変更されたグラフを返してください。</entry>
+    <entry key="NoWeights">重みなしのグラフには重み付きエッジを追加できません。</entry>
+    <entry key="NumWeightsMismatch">重みの引数は、指定したエッジごとに要素を 1 つもたなければなりませんが、さもなければスカラーにできます。</entry>
+    <entry key="SpecifyWeight">重み付きグラフにエッジを追加するときは重みを指定しなければなりません。</entry>
+    <entry key="TableFirstVar">テーブルの最初の変数は EndNodes でなければなりません。</entry>
+    <entry key="TableMaxRHS">エッジ テーブルは最後の引数でなければなりません。</entry>
+    <entry key="TableSize">エッジ テーブルは少なくとも 1 つの列をもたなければなりません。</entry>
+  </message>
+</rsccat>

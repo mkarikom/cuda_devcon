@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="max2lhs">LEGEND 的第二个输出参数不受支持，将会在以后的版本中删除。</entry>
+    <entry key="max3lhs">LEGEND 的第三个和第四个输出参数将会在以后的版本中删除。</entry>
+    <entry key="DeprecatedV6Argument">LEGEND 的 ''v6'' 参数已弃用，未来的版本中将不再支持此参数。</entry>
+    <entry key="IgnoringExtraEntries">忽略额外的图例条目。</entry>
+    <entry key="InvalidParent">图例不能是 {0} 类型的对象的子级。</entry>
+    <entry key="PlotEmpty">绘图为空。</entry>
+    <entry key="InvalidTask">不支持更改字符串标量或字符向量的长度。</entry>
+    <entry key="UnsupportedFaceColor">FaceColor 为 ''{0}'' 的补丁不支持图例</entry>
+    <entry key="UnsupportedEdgeColor">EdgeColor 为 ''interp'' 的补丁不支持图例</entry>
+    <entry key="InvalidPeerParameter">句柄必须为坐标区或坐标区的子级。</entry>
+    <entry key="InvalidPeerHandle">{0} 类型的句柄输入不能与此函数一起使用。</entry>
+    <entry key="NoCurrentAxes">没有可与图例关联的坐标区。</entry>
+    <entry key="InvalidCellParameter">元胞数组参数必须为字符串向量或字符向量元胞数组。</entry>
+    <entry key="UnknownProperty">未知的属性 {0}</entry>
+    <entry key="BadNumberOfOutputs">必须具有 0、1、2、3 或 4 个输出。</entry>
+    <entry key="CellArrayLabels">''{0}'' 解释为图例属性名称。要包含与图例属性同名的标签、请使用元胞数组或字符串数组指定标签。</entry>
+    <entry key="NameValueMismatch">名称-值对组参数的数目不匹配。为每个属性名称指定属性值。</entry>
+    <entry key="UnknownParameter">参数无效。有关详细信息，请键入 ''help legend''。</entry>
+    <entry key="ObjectsNotLegendable">无法在图例中包含一个或多个指定的对象。</entry>
+    <entry key="ParentMustBeSameAsAxes">图例及其关联的坐标区必须具有相同的父级。</entry>
+    <entry key="AxesMustBeCopied">必须将图例与其关联的坐标区一起复制。使用 COPYOBJ 时以向量为输入项，以便同时复制图例和坐标区。</entry>
+    <entry key="LargeStringLength">图例文本超出了 25000 个字符。</entry>
+    <entry key="FigureCallbacksInItemHitFcn">不支持在图例的 ItemHitFcn 回调函数中设置图形的 {0} 属性</entry>
+    <entry key="ErrorWhileEvaluating">{0}\n计算图例的 {1} 时出错。</entry>
+    <entry key="NonVectorInputOfGraphics">指定要作为图形对象向量包含在图例中的数据序列。</entry>
+    <entry key="PositionTooBig">图例的 'Position' 值必须更小。请尝试将它们降低一个数量级。 </entry>
+    <entry key="CappingMaxEntries">将图例条目限制为 50 个。指定图形对象的向量以显示 50 个以上的条目。</entry>
+  </message>
+</rsccat>

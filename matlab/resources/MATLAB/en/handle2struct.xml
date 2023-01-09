@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidGraphicsHandle">Invalid graphics object handle.</entry>
+    <entry key="RelatedGraphicsHandle">Handles must be unrelated objects.</entry>
+    <entry key="InvalidOption" note="stringDatatypeUpdate">The optional argument must be a character vector.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="matrixEntriesMustBeFinite">入力行列に Inf または NaN が含まれています。</entry>
+    <entry key="vectorLengthMustMatchNumOfEigValues">クラスター ベクトルまたは選択ベクトルの長さは、固有値の数と等しくなければなりません。</entry>
+    <entry key="clusterMustContainOnlyIntegers">クラスター インデックスは正の整数でなければなりません。</entry>
+    <entry key="reorderingfailed">アルゴリズムは成功しませんでした。</entry>
+    <entry key="inputMustBe2D">入力配列は 2 次元でなければなりません。</entry>
+    <entry key="invalidOption">オプションは ''lhp''、''rhp''、''udi''、''udo'' のいずれかでなければなりません。</entry>
+    <entry key="invalidSchurStructure">入力行列は有効な Schur 形式でなければなりません。</entry>
+    <entry key="inputSparse">スパース行列はサポートされていません。</entry>
+    <entry key="inputType">データ型が無効です。最初と 2 番目の引数は double または single でなければなりません。</entry>
+  </message>
+</rsccat>

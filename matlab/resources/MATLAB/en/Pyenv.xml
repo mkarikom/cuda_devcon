@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="fl_ustring">
+  <message>
+    <entry key="AssociatedHostTerminated">MATLABPyHost process (Process ID: {0}) associated with this Python object is terminated.</entry>
+    <entry key="InvalidNumArgs">Invalid number of arguments.</entry>
+    <entry key="InvalidKey">Invalid input {0}. Key must be ''Version'' or ''ExecutionMode''.</entry>
+    <entry key="InvalidExecutionMode">Invalid input {0}. Value for ''ExecutionMode'' must be ''InProcess'' or ''OutOfProcess''.</entry>
+    <entry key="VersionAndModeExpected">''Version'' and ''ExecutionMode'' parameters are expected.</entry>
+    <entry key="TerminateNotSupported">Termination not supported for InProcess execution mode.</entry>
+    <entry key="PythonLoaded">Python is loaded. The environment cannot be changed while the interpreter is running. To change the environment, call ''terminate(pyenv)'' then call ''pyenv''.</entry>
+    <entry key="PythonLoadedInOOP">Python loaded in ''OutOfProcess'' mode. To change the ''ExecutionMode'' to ''InProcess'', restart MATLAB, and then call ''pyenv''.</entry>
+    <entry key="PythonLoadedInProcess">Python is loaded. The environment cannot be changed in this MATLAB session. To change the environment, restart MATLAB, and then call ''pyenv''.</entry>
+    <entry key="PythonTerminatedReloadNotSupported">Python process is terminated and cannot be called in this MATLAB session. To call Python functions, restart MATLAB.</entry>
+    <entry key="PythonTerminated">Python process terminated unexpectedly. To restart the Python interpreter, first call "terminate(pyenv)" and then call a Python function.</entry>
+    <entry key="PythonEnvironmentLoadNotSupported">Unable to load PythonEnvironment object. Saving (serializing) PythonEnvironment into a MAT-file is not supported.</entry>
+  </message>
+</rsccat>

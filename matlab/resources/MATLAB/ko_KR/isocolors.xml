@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidPatchHandle">제공된 핸들은 패치 핸들이어야 함</entry>
+    <entry key="WrongNumberOfInputs">입력 인수의 개수가 올바르지 않습니다.</entry>
+    <entry key="RGBSizeMismatch">R,G,B는 모두 같은 크기여야 합니다.</entry>
+    <entry key="InvalidColorDimensions">색 배열은 모두 3차원이어야 합니다.</entry>
+    <entry key="InvalidColorSizes">색 배열의 크기는 2x2x2 이상이어야 합니다.</entry>
+    <entry key="InputsEmptyMismatch">X, Y, Z는 셋 다 빈 행렬이거나 비어 있지 않은 행렬이어야 합니다.</entry>
+    <entry key="XSizeMismatch">X의 크기는 R의 크기 또는 R의 열 개수와 일치해야 합니다.</entry>
+    <entry key="YSizeMismatch">Y의 크기는 R의 크기 또는 R의 행 개수와 일치해야 합니다.</entry>
+    <entry key="ZSizeMismatch">Z의 크기는 R의 크기 또는 R의 페이지 개수와 일치해야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="standardStream">TEXTSCAN 无法从 stdin、stdout 或 stderr 中读取。</entry>
+    <entry key="NotAnIntegerValue">{0} 必须为整数值。</entry>
+    <entry key="NotAString">{0} 必须为字符向量或非缺失的字符串标量。</entry>
+    <entry key="IncorrectEscapeConstant">{0} 具有不正确的 \\ 常量。</entry>
+    <entry key="LookforAndGetHeaderLines">Headerlines 必须为正整数。</entry>
+    <entry key="LookforAndGetHeaderColumns">Headercolumns 必须为正整数。</entry>
+    <entry key="LookforAndGetNumCharactersToSkip">NumCharactersToSkip 必须为正整数。</entry>
+    <entry key="NotNumericScalar">{0} 必须为数值标量。</entry>
+    <entry key="NumericInTreatAsEmpty">"TreatAsEmpty" 字符向量的值不能为数值。 </entry>
+    <entry key="NonStringCellsInTreatAsEmpty">"TreatAsEmpty" 的元胞参数必须包含非数值字符向量。</entry>
+    <entry key="NonStringsInTreatAsEmpty">"TreatAsEmpty" 的值必须为非空字符向量或字符向量元胞数组。</entry>
+    <entry key="LookforAndGetEndofline">"EndOfLine" 的值必须为单个字符或 "\\r\\n"。</entry>
+    <entry key="NonStringCellsInCommentStyle">"CommentStyle" 的值可以为单个字符向量，也可以为包含要用作注释开头和结尾的字符向量对的元胞数组。</entry>
+    <entry key="DelimiterSpaceConflict">空白和分隔符列表中都不能使用字符。\n请从空白列表中删除分隔符字符。\n</entry>
+    <entry key="SkipComments">发现未终止的注释。文件的剩余部分已被忽略。</entry>
+    <entry key="BuildFormatString">HeaderColumns 的数目大于文件中的列数。</entry>
+    <entry key="EmptyFormatString">文件结尾不支持空的格式字符向量。</entry>
+    <entry key="UnableToReadFile">无法读取文件中的任何数据。TEXTSCAN 可能没有读取权限。</entry>
+    <entry key="handleErrorAndShowInfo">读取行 {1,number,integer} 上的字段 {2,number,integer} 时，无法解析 "{0}" 字段。\n 实际文本: "{3}"\n 应为: {4}</entry>
+    <entry key="NumericFieldFailure">数字或文字 "NaN"、"Inf"。(可能有符号，不区分大小写)</entry>
+    <entry key="SetFieldFailure">字符 [{0}] 之一。(区分大小写)</entry>
+    <entry key="NSetFieldFailure">[{0}] 以外的字符。(区分大小写)</entry>
+    <entry key="LiteralFieldFailure">字面文本 "{0}"。(区分大小写)</entry>
+    <entry key="HexFieldFailure">十六进制字符 [0-9A-F]，具有可选前缀 0x。(不区分大小写)</entry>
+    <entry key="BinaryFieldFailure">二进制字符 '0' 或 '1'，具有可选前缀 0b。(不区分大小写)</entry>
+    <entry key="SecondInput">第二个输入项必须为至少包含一个设定符或文字字段的格式字符向量。</entry>
+    <entry key="UnpairedParamsValues">名称-值对组参数必须成对出现。</entry>
+    <entry key="UnknownOption">未知参数 "{0}"。</entry>
+    <entry key="BadFormatString">无法解析 {0,number,integer} 位置的格式字符向量 ==&gt; {1}\n{2}</entry>
+    <entry key="ClosingSet">字符集设定符必须包含至少一个字符并以 "]" 结尾。(例如 "%[abc]")</entry>
+    <entry key="ClosingDateFormat">日期和时间格式必须采用 %D、%T、%'{'...'}'D 或 %'{'...'}'T 形式。</entry>
+    <entry key="IncompleteFormat">格式设定符必须以有效的类型标识符（例如 %f、%3c）结尾。</entry>
+    <entry key="UnsupportedSpecifier">不支持格式设定符 "%{0}"。有关支持的格式，请参阅 TEXTSCAN 文档。</entry>
+    <entry key="NoInput">第一个输入项不能为空。应为非空的字符向量或有效的文件 ID。</entry>
+    <entry key="WrongInputType">第一个输入项必须为有效的文件 ID 或非空的字符向量。</entry>
+    <entry key="NotAStringOrCellOfStrings">{0} 必须为字符向量或字符向量元胞数组。</entry>
+    <entry key="EmptyCellArrayInvalid">{0} 不能是空的元胞数组。</entry>
+    <entry key="TooManyCategories">无法创建具有超出 65534 个类别的 CATEGORICAL 数组，请考虑对此字段使用 "%q" 而不是 "%C"。</entry>
+    <entry key="AllNatSuggestFormat">无法确定 DATETIME 数据的格式。\n请尝试对 DATETIME 设定符添加格式。例如 "%'{'{0}'}'D"。</entry>
+    <entry key="AllNatSuggestLocale">无法使用您的系统的区域设置读取 DATETIME 数据: "{0}"\n如果该数据包含的月份或日期名称所采用的语言不同于此区域设置，请使用 "DateLocale" 参数指定正确的区域设置。</entry>
+    <entry key="AllNatSuggestOther">无法读取格式为 "{0}" 的 DATETIME 数据。如果该数据不是时间，请使用 %q 获取文本数据。</entry>
+    <entry key="AllNaNDurationSuggestOther">无法读取格式为 "{0}" 的 DURATION 数据。如果该数据不是时间，请使用 %q 获取文本数据。</entry>
+    <entry key="AllNaNDurationSuggestFormat">无法确定 DURATION 数据的格式。\n请尝试对 DURATION 设定符添加格式。例如 "%'{'{0}'}'T"。</entry>
+    <entry key="DurationFormatInvalid">"{0}" 不是有效的持续时间格式</entry>
+    <entry key="UnableToGuessFormat">DATETIME 数据是使用格式 "{0}" 创建的，但同时与 "{1}" 匹配。\n为避免多义性，请使用格式字符向量。例如 "%'{'{2}'}'D"</entry>
+    <entry key="TimeZoneSupport">格式字符向量 "{0}" 包含时区字段。TEXTSCAN 不支持读取时区。请使用 %q 以文本形式读取数据，然后结合 "TimeZone" 参数使用 DATETIME 来创建一个日期时间数组。</entry>
+    <entry key="TextType">"TextType" 的值必须为 'char' 或 'string'。</entry>
+    <entry key="HexTruncationInvalid">十六进制文字 "{0}" 指定的位数太多。不支持截断十六进制字面值。</entry>
+    <entry key="BinaryTruncationInvalid">Binary literal "{0}" specifies too many digits. Truncation of binary literals is not supported.</entry>
+  </message>
+</rsccat>

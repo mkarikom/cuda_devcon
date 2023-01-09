@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="GoToOnlineDoc">{0} のオンライン ドキュメンテーションに移動</entry>
+    <entry key="MATLABHelp">MATLAB ヘルプ</entry>
+    <entry key="MATLABFileHelpDefaultTopics">MATLAB ファイル ヘルプ: 既定のトピック</entry>
+    <entry key="MATLABFileHelpFormat">%s - MATLAB ファイル ヘルプ</entry>
+    <entry key="ViewCodeFormat">%s のコードを表示</entry>
+    <entry key="OpenModelFormat">モデル %s を開く</entry>
+    <entry key="ModelHelpFormat">%s - モデル ヘルプ</entry>
+  </message>
+</rsccat>

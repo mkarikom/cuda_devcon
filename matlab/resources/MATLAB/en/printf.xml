@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="OctalCharCodeOutOfRange">The octal value specified is outside the range of the character set.</entry>
+    <entry key="OctalCharCodeInvalid">Valid octal digits are 0-7.</entry>
+    <entry key="HexCharCodeOutOfRange">The hex value specified is outside the range of the character set.</entry>
+    <entry key="HexCharCodeInvalid">Valid hexadecimal digits are 0-9 and A-F.</entry>
+    <entry key="BadEscapeSequenceInFormat">Escaped character ''\\{0}'' is not valid. See ''doc sprintf'' for supported special characters.</entry>
+    <entry key="NoControlCharacterInFormat">A lone trailing backslash, ''\\'' , is not a valid control character. See 'doc sprintf' for control characters valid in the format string.</entry>
+    <entry key="invalidInputType">Function is not defined for ''{0}'' inputs.</entry>
+    <entry key="invalidInputAttribute">Function is not defined for sparse inputs.</entry>
+    <entry key="invalidSizeResult">Expected size on {0} to return a double vector with at least two elements.</entry>
+    <entry key="UnableToConvertToOneElement">Unable to convert ''{0}'' element to exactly one element of type ''{1}''.</entry>
+    <entry key="OutOfSpace">Unable to write file ''{0}''. No space left on device.</entry>
+  </message>
+</rsccat>

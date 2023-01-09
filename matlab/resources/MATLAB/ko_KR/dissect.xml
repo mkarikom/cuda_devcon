@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="needDoubleOrLogical">입력 행렬은 double형 또는 논리형이어야 합니다.</entry>
+    <entry key="needMatrix">입력 행렬은 정사각 행렬이어야 합니다.</entry>
+    <entry key="needNumeric">''{0}'' 값은 숫자형이어야 합니다.</entry>
+    <entry key="needRealScalar">''{0}'' 값은 실수 숫자형 스칼라여야 합니다.</entry>
+    <entry key="numberOfArguments">입력 인수의 개수가 올바르지 않습니다. 각 파라미터 이름 다음에는 대응값이 와야 합니다.</entry>
+    <entry key="MaxImbalanceVal">''MaxImbalance'' 값은 0.001의 정수 배로 1.001과 1.999 사이(구간의 끝점 포함)여야 합니다.</entry>
+    <entry key="MaxDegreeVal">''MaxDegreeThreshold'' 값은 음이 아닌 정수여야 합니다.</entry>
+    <entry key="NumIterationsVal">''NumIterations'' 값은 1보다 크거나 같은 정수여야 합니다.</entry>
+    <entry key="NumSeparatorsVal">''NumSeparators'' 값은 1보다 크거나 같은 정수여야 합니다.</entry>
+    <entry key="VwgtsNotVector">''VertexWeights'' 값은 입력 행렬의 행 개수와 길이가 동일한 실수형 벡터여야 합니다.</entry>
+    <entry key="VwgtsNotInteger">''VertexWeights'' 값은 1보다 크거나 같은 정수로 구성된 벡터여야 합니다.</entry>
+    <entry key="InvalidName">파라미터 이름은 ''VertexWeights'', ''NumSeparators'', ''NumIterations'', ''MaxImbalance'' 또는 ''MaxDegreeThreshold''여야 합니다.</entry>
+  </message>
+</rsccat>

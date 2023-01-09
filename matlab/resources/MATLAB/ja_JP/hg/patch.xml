@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadFaceDimensions">Patch の Faces は 2 次元でなければなりません</entry>
+    <entry key="BadFaceValues">Faces の値は 1.0 以上でなければなりません</entry>
+    <entry key="VerticesMustBe2D">Patch の Vertices は 2 次元でなければなりません</entry>
+    <entry key="VerticesMustHave2To3Columns">頂点の配列は、少なくとも 2 列 で、最大 3 列 (または空) でなければなりません</entry>
+    <entry key="BadFaceVertexCDataDimensions">FaceVertexCData は M 行 1 列のベクトル (インデックス付きカラー) か M 行 3 列の行列 (RGB カラー) でなければなりません</entry>
+    <entry key="BadFaceVertexAlphaDataDimensions">FaceVertexAlphaData は、Alpha の値の M 行 1 列のベクトル、あるいは Alpha Map のインデックスでなければなりません。</entry>
+    <entry key="VerticesArrayMustHave2To3Columns">頂点の配列は、少なくとも 2 列 で、最大 3 列でなければなりません - レンダリングしません</entry>
+    <entry key="BadValuesInPatchFaces">patch の Faces の値は、[1 : rows(Vertices)] 内でなければなりません - レンダリングしません</entry>
+    <entry key="CannotUseFaceVertexCDataOfSize0">サイズ 0 の Patch の FaceVertexCData は、Flat のシェーディングと併用できません</entry>
+    <entry key="PatchFaceVertexCDataLengthMustEqual1">patch の FaceVertexCData の長さ ({0,number,integer}) は、flat の FaceColor に対して 1、Vertices の長さ ({1,number,integer})、あるいは Faces の長さ ({2,number,integer}) と等しくなければなりません。</entry>
+    <entry key="RGBColorDataNotSupported">RGB カラー データは Painter''s モードでまだサポートされていません</entry>
+    <entry key="ColorDataNotSetForInterpolatedShading">Color Data は、内挿によるシェーディングに設定されていません</entry>
+    <entry key="PatchFaceVertexCDataLengthMustEqualVerticesLength">patch の FaceVertexCData の長さ ({0,number,integer}) は flat の EdgeColor に対して Vertices の長さ ({1,number,integer}) と等しくなければなりません</entry>
+    <entry key="CannotUsePatchFaceVertexAlphaDataSize0">patch のサイズが 0 の FaceVertexAlphaData は、Flat Alpha と併用できません。</entry>
+    <entry key="PatchFaceVertexAlphaCDataLengthMustEqual1">patch の FaceVertexAlphaData の長さ ({0,number,integer}) は、flat の Alpha の場合、1 または Vertices の長さ ({1,number,integer})、あるいは Faces の長さ ({2,number,integer}) と等しくなければなりません。</entry>
+    <entry key="AlphaDataNotSetForInterpolatedShading">Alpha Data は、内挿によるシェーディングの場合は設定されません</entry>
+    <entry key="ColorDataNotSetForMarkerFlatColoring">Color Data はマーカーの flat の色付けに対して設定されていません</entry>
+    <entry key="VertexNormalsMustHave2Dimensions1">VertexNormals は 2 次元でなければなりません</entry>
+    <entry key="BadVertexNormalsSize">size(VertexNormals) は rows(vertices) x 3 と等しくなければなりません </entry>
+    <entry key="VertexNormalsMustHave2Dimensions2">VertexNormals は 2 次元でなければなりません</entry>
+    <entry key="BadFaceNormalsSize">size(FaceNormals) は rows(faces) x 3 と等しくなければなりません</entry>
+    <entry key="NotEnoughMemoryForNormals">normal の場合に十分なメモリがありません。レンダリングしません</entry>
+    <entry key="CannotAllocateTriangleStorage">三角形のストレージを割り当てられません。ヒット テストは不正確になる可能性があります</entry>
+  </message>
+</rsccat>

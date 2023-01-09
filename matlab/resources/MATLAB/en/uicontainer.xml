@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidParentChildObject">You are trying to set the parent property to a descendant child object.</entry>
+    <entry key="InvalidInputArgument">Arguments may only include parent handle and param/value pairs</entry>
+    <entry key="InvalidParent">Parent handle must be a figure or uicontainer or uibuttongroup.</entry>
+    <entry key="InvalidParentFigure">Parent must be a Figure or any UIContainer</entry>
+    <entry key="InvalidParentToChild">You are trying to set the parent property to a descendant child object.</entry>
+    <entry key="UnsupportedFeature">Currently this feature is not supported.</entry>
+    <entry key="SetScrollable">Figures created with the figure function and their children do not support scrolling.</entry>
+    <entry key="ScrollableOff">'Scrollable' must be 'on' to scroll programmatically.</entry>
+    <entry key="InvalidScrollTarget">Invalid location</entry>
+  </message>
+</rsccat>

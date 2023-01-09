@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NastyDuplicates">중복되는 데이터 점이 발견되어 제거되었습니다.\n 중복되는 점이 있으면 점 인덱스를 사용할 수 없어 제약 조건도 적용되지 않았습니다.</entry>
+    <entry key="featureEdgesNotSupported">DelaunayTri가 featureEdges 메서드를 지원하지 않습니다.</entry>
+  </message>
+</rsccat>

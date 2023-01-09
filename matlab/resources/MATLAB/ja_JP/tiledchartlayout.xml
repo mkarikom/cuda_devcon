@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidArguments">無効な引数</entry>
+    <entry key="NotEnoughArugments">入力引数が不足しています。</entry>
+    <entry key="InvalidGridSize">行と列の引数は 32767 未満の正の整数でなければなりません。</entry>
+    <entry key="InvalidTile">Tile 引数は正の整数でなければなりません。</entry>
+    <entry key="InvalidTileSpan">Tilespan 引数の値は正の整数でなければなりません。</entry>
+    <entry key="LayoutFull">レイアウトに十分なスペースがありません。</entry>
+    <entry key="TileOutOfBounds">タイルがレイアウトに収まりません。</entry>
+    <entry key="OutOfMemory">現在のレイアウトにタイルを作成するにはメモリが足りません。</entry>
+  </message>
+</rsccat>

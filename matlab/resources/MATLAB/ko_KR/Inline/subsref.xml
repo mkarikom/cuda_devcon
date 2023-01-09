@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="emptyInline">빈 인라인 함수는 호출할 수 없습니다.</entry>
+    <entry key="tooFewInputs">인라인 함수에 대한 입력값이 부족합니다.</entry>
+    <entry key="tooManyInputs">인라인 함수에 대한 입력값이 너무 많습니다.</entry>
+  </message>
+</rsccat>

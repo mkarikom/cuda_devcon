@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoLastWorkingFolderAccess"> 无法访问使用“最后一个工作文件夹”预设选定的 \"{0}\"。\n将改为使用 \"{1}\" 作为初始工作文件夹。</entry>
+    <entry key="NoCustomWorkingFolderAccess"> 无法访问使用“自定义工作文件夹”预设的 \"{0}\"。\n将改为使用 \"{1}\" 作为初始工作文件夹。</entry>
+    <entry key="NoSdFolderAccess"> 无法访问使用 -sd 启动选项选定的 \"{0}\"。\n将改为使用 \"{1}\" 作为初始工作文件夹。</entry>
+  </message>
+</rsccat>

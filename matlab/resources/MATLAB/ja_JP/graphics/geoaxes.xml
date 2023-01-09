@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DeletedParent">指定した親は、削除されたグラフィックス オブジェクトです。</entry>
+    <entry key="IncorrectInputArgs">geoaxes を作成するための入力が正しくありません。</entry>
+    <entry key="InvalidObject">無効な geoaxes オブジェクトです。</entry>
+    <entry key="NoAncestorFigure">オブジェクトはまだ Figure の親になっていません。</entry>
+  </message>
+</rsccat>

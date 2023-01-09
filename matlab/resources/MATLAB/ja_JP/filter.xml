@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="inputType">データ型が無効です。入力配列は数値または論理値でなければなりません。</entry>
+    <entry key="sparseInput">スパース入力はサポートされていません。</entry>
+    <entry key="notVectorInput">1 番目の 2 つの引数は、ベクトルでなければなりません。</entry>
+    <entry key="invalidInitialConditions">初期条件は、長さ max(length(a),length(b))-1 のベクトルまたはサイズ max(length(a),length(b))-1 の最初の次元をもち、x のそれらと一致する残りの次元をもつ配列でなければなりません。</entry>
+    <entry key="firstElementOfDenominatorFilterNotFinite">最初の分母のフィルター係数は有限でなければなりません。</entry>
+    <entry key="firstElementOfDenominatorFilterZero">フィルターの最初の分母係数は非ゼロでなければなりません。</entry>
+  </message>
+</rsccat>

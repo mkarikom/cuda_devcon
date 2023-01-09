@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" >
+  <message>
+    <entry key="msgcatNotInitialized">Operation failed as the message catalog is not yet initialized.</entry>
+    <entry key="msgcatInvalidResourcePath">The path "{0}" is not a valid message catalog resource path</entry>
+    <entry key="msgcatInternalError">Internal message catalog error occurred: {0}</entry>
+    <entry key="msgcatInvalidPathSupplied">Path supplied is invalid. : {0}</entry>
+    <entry key="msgcatPathRemovalUnknownError">Internal path removal error occurred: {0}  Path: {1} </entry>
+    <entry key="msgcatResPathNotFound">Either the resource path was not found or it was not added from setAdditionalResourceLocation. : {0}</entry>
+    <entry key="msgcatResDirNotPresent">Path does not contain the "resources" directory. : {0}</entry>
+  </message>
+</rsccat>

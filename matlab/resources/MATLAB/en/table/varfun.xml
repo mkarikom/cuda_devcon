@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="FunFailed">Applying the function ''{0}'' to the variable ''{1}'' generated the following error:\n\n{2}\n</entry>
+    <entry key="NotAScalarOutput">The function ''{0}'' returned a non-scalar value when applied to the variable ''{1}''.</entry>
+    <entry key="MismatchInOutputTypes">The function ''{0}'' returned a value with a mismatched type ({1}, expected {2}) when applied to the variable ''{3}''.</entry>
+    <entry key="VertcatFailed">Unable to concatenate incompatible values returned by the function ''{0}'' when applied to groups in the variable ''{1}'':\n\n{2}\n</entry>
+    <entry key="InvalidFunction">First input must be a function handle.</entry>
+    <entry key="InvalidOutputFormat">OUTPUTFORMAT must be one of the following: 'uniform', 'table', or 'cell'.</entry>
+
+    <entry key="InvalidInputVariablesFun">INPUTVARIABLES must return a logical scalar.</entry>
+    <entry key="CharRowFunOutput" note="stringDatatypeUpdate">FUN returned a 1-by-M character vector. You must modify FUN to return a cell array of character vectors, or specify ''cell'' for the ''OutputFormat'' parameter.</entry>
+    <entry key="TimetableCannotGrow">The function ''{0}'' returned values with more rows than the input timetable. varfun is unable to create new row times for those extra rows when the output format is 'timetable'. To return a table instead of a timetable, set 'OutputFormat' to 'table'.</entry>
+  	<entry key="RowLabelsCannotBeDataVar">Row names are not supported as a data variable.</entry>
+    <entry key="RowLabelsCannotBeDataVarNondefaultName">Unrecognized variable name ''{0}''. You may have intended to access the row names, which are named ''{1}'' in this table. However, row names are not supported as a data variable.</entry>
+<!-- 
+These messages use ordinal number strings from MATLAB:table:ordinalstrings.xml. For example
+      
+      The function 'mean' returned outputs with different numbers of rows when applied to the 17th group of rows in A.
+-->
+    <entry key="FunFailedGrouped" note="{1} is the ordinal">Applying the function ''{0}'' to the {1} group in the variable ''{2}'' generated the following error:\n\n{3}\n</entry>
+    <entry key="NotAScalarOutputGrouped" note="{1} is the ordinal">The function ''{0}'' returned a non-scalar value when applied to the {1} group in the variable ''{2}''.</entry>
+    <entry key="MismatchInOutputTypesGrouped" note="{3} is the ordinal">The function ''{0}'' returned a value with a mismatched type ({1}, expected {2}) when applied to the {3} group in the variable ''{4}''.</entry>
+    <entry key="GroupRowsMismatch" note="{1} is the ordinal">The function ''{0}'' returned a value with a different number of rows when applied to the {1} group in the variable ''{2}''.</entry>
+    <!-- codegen -->
+    <entry key="NonConstantFun">FUN must be constant.</entry>
+    <entry key="VarsizeInput">Variable size tables or timetables are not supported for varfun.</entry>
+    <entry key="NonConstantParamValue">The value of ''{0}'' must be constant.</entry>
+    <entry key="NonConstantInputVarsFun">When using a function handle to specify InputVariables, the output of the function must be constant.</entry>
+    <entry key="ErrorHandlerNotSupported">Error Handler is not supported for code generation.</entry>
+    <entry key="GroupedMixedTypes">In code generation, OutputFormat 'cell' is not supported, if GroupingVariables are specified and the function returns a different type for each InputVariable.</entry>
+  </message>
+</rsccat>

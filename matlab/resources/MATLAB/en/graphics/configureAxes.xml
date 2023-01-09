@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CartesianOnly">Only Cartesian axes support non-numeric data</entry>
+    <entry key="MixingX">Values plotted against x-axis must be {0} values. To create {1} values, use the {2} function.</entry>
+    <entry key="MixingOther">At least one axis dimension is configured for {0} values. To create {1} values, use the {2} function.</entry>
+    <entry key="Mixing">Data inputs must match the axis configuration. A numeric axis must have numeric data inputs or data inputs which can be converted to double.</entry>
+    <entry key="AxesToolbarParentError">AxesToolbar parent cannot be empty</entry>
+  </message>
+</rsccat>

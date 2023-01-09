@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadExtension">ファイル ''{0}'' には XML 拡張子がないためこのファイルは使用できません。</entry>
+    <entry key="DirSpecified">ディレクトリ ''{0}'' をログ ファイルとして使用できません。</entry>
+    <entry key="EmptyName">ログ ファイルの名前が指定されていません。</entry>
+    <entry key="FileNotOpen">ファイル ''{0}'' はログとして開いていません。</entry>
+    <entry key="FileOpen">ファイル ''{0}'' は既にログとして開いています。</entry>
+    <entry key="FileOpenCase">ファイル ''{0}'' は、既に開いているログと大文字小文字だけが異なります。</entry>
+    <entry key="FileRead">ログ ファイル ''{0}'' の読み取りエラー: {1}</entry>
+    <entry key="FileSeek">ログ ファイル ''{0}'' でのシーク エラー: {1}</entry>
+    <entry key="FileWrite">ログ ファイル ''{0}'' への書き込みエラー: {1}</entry>
+    <entry key="OpenFileRead">ファイル ''{0}'' を読み取り用に開くことができません: {1}</entry>
+    <entry key="OpenFileWrite">ファイル ''{0}'' を書き込み用に開くことができません: {1}</entry>
+    <entry key="OpenFileAppend">ファイル ''{0}'' を追加対象として開くことができません: {1}</entry>
+  </message>
+</rsccat>

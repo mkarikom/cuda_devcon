@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidMassProp">인식할 수 없는 속성 ''Mass''임: {0}</entry>
+    <entry key="MStateDependenceMassType">ODESET 속성 ''MStateDependence''는 ''none'' | ''weak'' | ''strong''으로 설정해야 함 </entry>
+  </message>
+</rsccat>

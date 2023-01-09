@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadXOrYValue">X 或 Y 参数无效</entry>
+    <entry key="BadZValue">Z 参数无效</entry>
+    <entry key="StringExpectedAfterNumerics">输入必须为 x 坐标、y 坐标和可选的 z 坐标，后跟字符向量、字符向量元胞数组、字符串数组或分类数组。</entry>
+    <entry key="XAndYMustBeSameLength">X 和 Y 的长度必须相同</entry>
+    <entry key="XAndYAndZMustBeSameLength">X、Y 和 Z 的长度必须相同</entry>
+    <entry key="MissingCoordinates">指定多个坐标时，文本数组的长度必须与坐标数组的长度匹配。</entry>
+  </message>
+</rsccat>

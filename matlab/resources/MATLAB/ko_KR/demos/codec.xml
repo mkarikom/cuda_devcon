@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelInput">입력</entry>
+    <entry key="LabelOutput">출력</entry>
+    <entry key="LabelInfo">정보</entry>
+    <entry key="LabelClose">닫기</entry>
+    <entry key="TitleCodeDecode">코드/디코드</entry>
+    <entry key="LabelCodeKeyLetter">코드 키 문자</entry>
+    <entry key="LabelMode">모드</entry>
+    <entry key="PopupEncode">인코딩</entry>
+    <entry key="PopupDecode">디코딩</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonScalarInput">N はスカラーでなければなりません。</entry>
+    <entry key="InputNotPosInt">N は実数で非負の整数でなければなりません。</entry>
+    <entry key="InputOutOfRange">n が single または double の場合、その最大許容値は FLINTMAX です。</entry>
+  </message>
+</rsccat>

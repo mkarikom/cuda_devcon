@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NegTolBlk">TolBlk 必须为正数。</entry>
+    <entry key="NegTolTay">TolTay 必须为正数。</entry>
+    <entry key="NegMaxTerms">MaxTerms 必须为正数。</entry>
+    <entry key="NegMaxSqrt">MaxSqrt 必须为正数。</entry>
+    <entry key="WrongDimOrd">Ord 的维度不正确。</entry>
+    <entry key="InputDim">第一个输入必须为单精度或双精度方阵。</entry>
+    <entry key="InfDeriv">无限导数。</entry>
+    <entry key="zeroEig">在 SCHUR(A) 中至少检测到一个零特征值。\n         矩阵 A 可能为奇异矩阵或缩放错误。</entry>
+    <entry key="nonPosRealEig">没有为包含非正实数特征值的 A 定义主矩阵对数。返回了非主矩阵对数。</entry>
+    <entry key="TaylorSeriesNotConverged">泰勒级数未能收敛。\n         可能是函数没有无限的收敛半径。\n         请尝试减小 options.TolBlk 或增大 options.TolTay 或 options.MaxTerms。</entry>
+    <entry key="TooManyMatrixSquareRoots">超过矩阵平方根的最大数。\n         请尝试减小 options.TolBlk 或增大 options.MaxSqrt。</entry>
+    <entry key="EvaluatingFunctionOfBlock">计算块 ({0}:{1}) 的函数\n</entry>
+  </message>
+</rsccat>

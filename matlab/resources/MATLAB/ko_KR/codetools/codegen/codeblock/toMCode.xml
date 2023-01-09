@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CreateCodeName">{0} 생성</entry>
+    <entry key="EditObjectComment">출력 인수를 {0} 함수 호출에 수동으로 추가하기\n% 예: h = {1}(...)</entry>
+    <entry key="RemoveObjectComment">{0} 함수에 대한 호출을 수동으로 삭제하기</entry>
+  </message>
+</rsccat>

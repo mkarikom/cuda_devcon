@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<!-- Copyright 2011 - 2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole = "fl_ustring">
+  <message>
+    <!-- Resource entries for graphics display -->
+    <entry note="Example: Use GET to show all properties" key="FooterTextNoArrayName">Use {0} to show all properties</entry>
+    <entry note="Hyperlinked substring inserted into next string in hole 0" key="AllPropertiesText">all properties</entry>
+    <entry note="Example: Show all properties" key="FooterTextWithArrayName">Show {0}</entry>
+    <entry note="Example: 5x1 graphics array:" key="NonScalarHeaderText">{0} {1} array</entry>
+    <entry note="Example: Axes (Rainfall data) with properties:" key="ScalarHeaderText">{0} {1} with properties:</entry>
+    <entry note="Example: Axes with properties:" key="ScalarHeaderTextNoLabel">{0} with properties:</entry>
+    <entry note="Example: 0x1 empty Line array." key="EmptyArrayText">{0} empty {1} array.</entry>
+    <entry key="FooterLinkFailureUnknown">Unable to display properties for variable {0} because it has been cleared or is no longer scalar.</entry>
+    <entry key="FooterLinkFailureDeleted"><![CDATA[Unable to display properties for variable {0} because it refers to a <a href="matlab: helpview ([docroot '/matlab/creating_plots/creating_plots.map'],'deleted_handle')">deleted object</a>.]]></entry>
+    <entry key="FooterLinkFailureMissingVariable">Unable to display properties for variable {0} because it no longer exists.</entry>
+    <entry key="FooterLinkFailureClassMismatch">Unable to display properties for variable {0} because it is no longer a {1} object.</entry>
+  </message>
+</rsccat>

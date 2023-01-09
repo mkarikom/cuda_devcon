@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ValueTruncated">Out of range or non-integer values truncated during conversion from double to character</entry>
+    <entry key="InvalidIntPrecision">Please use bit* instead of int*</entry>
+    <entry key="InvalidUIntPrecision">Please use ubit* instead of uint*</entry>
+    <entry key="InvalidDOSName">You have chosen a reserved DOS device name for your filename.\nPlease choose another valid filename.</entry>
+  <!--Resource entries for src/builtins-->
+    <entry key="InvalidFid">Invalid file identifier. Use fopen to generate a valid file identifier.</entry>
+    <entry key="sizeMustBeNumeric">Size must be a real number.</entry>
+    <entry key="NoHelp">Sorry. No help in figuring out the problem . . .</entry>
+    <entry key="CannotOpenFile">Cannot open file. Existence? Permissions? Memory? . . .</entry>
+    <entry key="IsOpenRead">Is the file open for reading? . . .</entry>
+    <entry key="EndOfFile">At end-of-file.</entry>
+    <entry key="IsOpenWrite">Is the file open for writing? . . .</entry>
+    <entry key="NoSpace">No space left on device.</entry>
+    <entry key="FlushError">Error on flush.</entry>
+    <entry key="InvalidFormat">Invalid format.</entry>
+    <entry key="MatchingFailure">Matching failure in format.</entry>
+    <entry key="SizeTooBig">Format size too big - couldn''t allocate memory.</entry>
+    <entry key="NoMemory">Not enough memory to print number.</entry>
+    <entry key="NoMemoryForString" note="stringDatatypeUpdate">Not enough memory to print character vector.</entry>
+    <entry key="NotEnoughArgs">Not enough arguments for format.</entry>
+    <entry key="UnsupportedDirective">Unsupported directive in format.</entry>
+    <entry key="BadWidthNaN">Bad width - NaN.</entry>
+    <entry key="BadWidthNegInf">Bad width - -Inf.</entry>
+    <entry key="BadWidthInf">Bad width - Inf.</entry>
+    <entry key="BadWidthInt">Bad width - outside range of integer.</entry>
+    <entry key="BadWidthEmptyArg">Bad width - empty argument.</entry>
+    <entry key="BadPrecisionNaN">Bad precision - NaN.</entry>
+    <entry key="BadPrecisionNegInf">Bad precision - -Inf.</entry>
+    <entry key="BadPrecisionInf">Bad precision - Inf.</entry>
+    <entry key="BadPrecisionInt">Bad precision - outside range of integer.</entry>
+    <entry key="BadPrecisionEmptyArg">Bad precision - empty argument.</entry>
+    <entry key="BadOffsetNaN">Offset is bad - NaN.</entry>
+    <entry key="BadOffsetBeforeBegin">Offset is bad - before beginning-of-file.</entry>
+    <entry key="BadOffsetAfterEnd">Offset is bad - after end-of-file or last character written.</entry>
+    <entry key="BadOffsetInt">Offset not an integer.</entry>
+    <entry key="EmptyArg">Empty argument.</entry>
+    <entry key="UngetcFailed">Ungetc failed.</entry>
+    <entry key="WriteCarryByteFailed">Write of carry byte failed.</entry>
+    <entry key="RequireBinaryFile">Operation requires a binary file.</entry>
+    <entry key="FseekFailed">Fseek failed with 0 offset from current.</entry>
+    <entry key="ReadFailed">Read on update failed.</entry>
+    <entry key="FseekFailedNegOne">Fseek failed with -1 offset from current.</entry>
+    <entry key="FseekFailedSkip">Fseek failed for skip on write.</entry>
+    <entry key="InternalError">Internal error - please report this problem to the MATHWORKS!</entry>
+    <entry key="InvalidChar">Invalid character encountered during Unicode conversion.</entry>
+    <entry key="TruncatedChar">Truncated character encountered during Unicode conversion.</entry>
+    <entry key="IllegalChar">Illegal character encountered during Unicode conversion.</entry>
+    <entry key="InvalidTableFormat">Invalid table format encountered during Unicode conversion.</entry>
+    <entry key="BufferOverflow">Buffer overflow encountered during Unicode conversion.</entry>
+    <entry key="UnknownError">Unknown error encountered during Unicode conversion.</entry>
+    <entry key="NonScalarNumbered">Numbered argument specification may not be used with nonscalar arguments.</entry>
+    <entry key="NumberedMoreThanArgc">Numbered argument specification greater than number of arguments.</entry>
+    <entry key="Errno" translate="false" note="TranslateFalseBatch;">{0}</entry>
+    <entry key="HDFSReadWriteNotSupported">Hadoop does not support opening a file in ''r+'', ''w+'', or ''a+'' modes.</entry>
+    <entry key="InvalidRemoteLocation">Unable to find remote file. Ensure file exists and path is valid.</entry>
+    <entry key="HadoopNotInitialized">Cannot find Hadoop. Set the HADOOP_PREFIX, HADOOP_HOME, or MATLAB_HADOOP_INSTALL environment variable to a valid Hadoop installation folder and try again.</entry>
+    <entry key="InvalidURLScheme">Filename contains an invalid URL scheme.</entry>
+    <entry key="UnableToSeek">Unable to seek from provided origin with supplied offset.</entry>
+    <entry key="DeletedAfterOpening">Unable to read or write to file. Possible causes include deletion of file after opening.</entry>
+  </message>
+</rsccat>

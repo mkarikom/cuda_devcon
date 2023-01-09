@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownOption">不明なオプション "{0}" です。</entry>
+    <entry key="DataSizeMismatch">X、Y、Z、U、V、W のサイズはすべて同じでなければなりません。</entry>
+    <entry key="NonScalarFactor">S はスカラーでなければなりません。</entry>
+  </message>
+</rsccat>

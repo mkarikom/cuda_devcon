@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ShowUnspecified">재생할 슬라이드 쇼를 지정해야 합니다. 예: playshow intro</entry>
+    <entry key="unsupportedOption">두 번째 인수는 ''axes'', ''smalltext'', ''largetext'', ''echo'' 중 하나여야 합니다.</entry>
+    <entry key="FigureSlideshowPlayer">슬라이드 쇼 플레이어</entry>
+    <entry key="NotAValidPLAYSHOWFile">"{0}"은(는) 유효한 PLAYSHOW 파일이 아닙니다.</entry>
+    <entry key="NotOnThePath">"{0}"이(가) 경로에 있지 않습니다.</entry>
+    <entry key="SlideNumberOfN">{1,number,integer}의 슬라이드 {0,number,integer}</entry>
+    <entry key="ErrorInSlideshow">\n슬라이드 쇼에 오류가 발생했습니다.\n{0}\n\n</entry>
+    <entry key="ButtonStart">시작 &gt;&gt;</entry>
+    <entry key="ButtonNext">다음 &gt;&gt;</entry>
+    <entry key="ButtonReset">재설정</entry>
+    <entry key="ButtonViewCode">코드 보기</entry>
+    <entry key="ButtonMoreInfo">추가 정보</entry>
+    <entry key="PressAnyKeyToContinue">계속하려면 아무 키나 누르십시오.</entry>
+    <entry key="EndOfDemo">데모 종료</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="XandXqBothDatetimes">X 和 XQ 必须均为日期时间数组，或均为数值。</entry>
+    <entry key="VandExtrapValBothDatetimes">V 和 EXTRAPVAL 必须均为日期时间数组，或均为数值。</entry>
+    <entry key="GridPointMinimumDifference">无法进行插值，因为日期时间网格点 X 的范围为 {0}，但点之间最小的的差仅为 {1}。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- toolbar editor entries -->
+        <entry key="FigureName">Toolbar Editor</entry>
+        <entry key="ToolbarLayoutTitle">Toolbar Layout</entry>
+        <entry key="ToolbarLayoutHelp">Add tools here to create a toolbar. Drag and drop from the palette or press the Add button</entry>
+        <entry key="PalettePushTool">Push Tool</entry>
+        <entry key="PaletteToggleTool">Toggle Tool</entry>
+        <entry key="ToolPropertyPanelTitle">Tool Properties</entry>
+        <entry key="ToolbarPropertyPanelTitle">Toolbar Properties</entry>
+        <entry key="ToolbatDeletionConfirmation">Deleting this toolbar will also delete all the tools it has. \n\nDo you want to continue?</entry>
+        <entry key="ToolPalettePanelTitle">Tool Palette</entry>
+        <entry key="CustomToolSectionTitle">Custom Tools</entry>
+        <entry key="PredefinedToolSectionTitle">Predefined Tools</entry>
+        <entry key="ActionOK">OK</entry>
+        <entry key="ActionOKTooltip" translate="false"></entry>
+        <entry key="ActionAdd">Add</entry>
+        <entry key="ActionAddTooltip">Add selected palette item to toolbar</entry>
+        <entry key="ActionDelete">Delete</entry>
+        <entry key="ActionDeleteTooltip">Remove selected toolbar item</entry>
+        <entry key="ActionSendtoFirst">Send to First</entry>
+        <entry key="ActionSendtoFirstTooltip">Move selected toolbar item to the beginning</entry>
+        <entry key="ActionSendtoLast">Send to Last</entry>
+        <entry key="ActionSendtoLastTooltip">Move selected toolbar item to the end</entry>
+        <entry key="ActionMovetotheRight">Move to the Right</entry>
+        <entry key="ActionMovetotheRightTooltip">Move selected toolbar item to the right</entry>
+        <entry key="ActionMovetotheLeft">Move to the Left</entry>
+        <entry key="ActionMovetotheLeftTooltip">Move selected toolbar item to the left</entry>
+        <entry key="ActionDeleteToolbar">Delete Toolbar</entry>
+        <entry key="ActionDeleteToolbarTooltip">Delete this toolbar and all its tools</entry>
+        <entry key="ActionAddToolbar">Add Toolbar</entry>
+        <entry key="ActionAddToolbarTooltip">Add a new empty toolbar</entry>
+        <entry key="ActionShiftPreviewToolRight">Shift Preview Tool Right</entry>
+        <entry key="ActionShiftPreviewToolRightTooltip">Shift the preview tools starting from given position right</entry>
+        <entry key="ActionShiftPreviewToolLeft">Shift Preview Tool Left</entry>
+        <entry key="ActionShiftPreviewToolLeftTooltip">Shift the preview tools starting from given position left</entry>
+        <entry key="ActionEditIcon">Edit Icon</entry>
+        <entry key="ActionEditIconTooltip">Change the icon of the selected toolbar item </entry>
+        <entry key="ActionEditTooltip">Edit Tooltip</entry>
+        <entry key="ActionEditTooltipTooltip">Change the tooltip of the selected toolbar item </entry>
+        <entry key="ActionShowSeparator">Show Separator</entry>
+        <entry key="ActionShowSeparatorTooltip">Turn the separator on/off for the selected toolbar item </entry>
+        <entry key="ActionMorePropertiesTooltip">Edit all properties in Inspector</entry>
+        <entry key="ActionMoreProperties">More Property...</entry>
+        <entry key="EditCallback">View</entry>
+        <entry key="RestoreDefaults">Restore Defaults</entry>
+        <entry key="RestoreDefaultsTooltip">Go back to the default behavior of this predefined tool</entry>
+        <entry key="PropertyCData">CData (icon):</entry>
+        <entry key="PropertyEnablethistool">Enable this tool</entry>
+        <entry key="PropertyOffCallback">Off Callback:</entry>
+        <entry key="PropertyOnCallback">On Callback:</entry>
+        <entry key="PropertySeparatoronleftside">Separator on left side</entry>
+        <entry key="PropertyTag">Tag:</entry>
+        <entry key="PropertyTooltipString" note="stringDatatypeUpdate">Tooltip Text:</entry>    
+        <entry key="PropertyClickedCallback">Clicked Callback</entry>
+        <entry key="PropertyMaketoolbarvisible">Make toolbar visible</entry>
+        <entry key="PropertyEditIcon">Edit...</entry>
+        <entry key="RestoreDefaultConfirmation">The selected toolbar tool was created from a predefined tool on the palette. Restoring its default behavior will remove all the changes you may have made.\n\nDo you want to continue?</entry>
+  </message>
+</rsccat>

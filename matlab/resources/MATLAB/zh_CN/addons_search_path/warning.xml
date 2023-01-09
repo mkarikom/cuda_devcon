@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FileNotFound">文件 ''{0}'' 不存在。您可能无法运行已安装的附加功能</entry>
+    <entry key="FileNotReadable">无法打开要读取的文件 ''{0}''。您可能无法运行已安装的附加功能。</entry>
+    <entry key="InvalidFolder">{0} 不是有效文件夹。您可能无法运行已安装的附加功能</entry>
+    <entry key="ErrorReadingFile">读取文件时出错: {0}</entry>
+  </message>
+</rsccat>

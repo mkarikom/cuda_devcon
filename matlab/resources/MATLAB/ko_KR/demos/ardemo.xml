@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelWaitWhile2DDataLoaded">2차원 데이터를가 불러오는 동안 기다려 주십시오.</entry>
+    <entry key="LabelWaitWhile3DDataLoaded">3차원 데이터를 불러오는 동안 기다려 주십시오.</entry>
+    <entry key="LabelUseTheControlsToSeeEffects3d">컨트롤을 사용하여 다양한 axes 속성이 3차원 플롯에 미치는 영향을 확인할 수 있음</entry>
+    <entry key="LabelUserDefinedPlot">사용자 정의 플롯</entry>
+    <entry key="PromptEnterAValidPlotCommandOrFunction">유효한 플롯 명령 또는 함수 입력</entry>
+    <entry key="LabelSelectPlotType">플롯 유형 선택</entry>
+    <entry key="Label2DDefault">2차원 디폴트</entry>
+    <entry key="Label3DDefault">3차원 디폴트</entry>
+    <entry key="LabelDataAspectRatio">데이터 종횡비</entry>
+    <entry key="LabelDARMode">DAR 모드</entry>
+    <entry key="LabelPlotBoxAspectRatio">플롯 상자 종횡비</entry>
+    <entry key="LabelPBARMode">PBAR 모드</entry>
+    <entry key="LabelXAxisLimit">X축 제한</entry>
+    <entry key="LabelXLimMode">XLim 모드</entry>
+    <entry key="LabelYAxisLimit">Y축 제한</entry>
+    <entry key="LabelYLimMode">YLim 모드</entry>
+    <entry key="LabelZAxisLimit">Z축 제한</entry>
+    <entry key="LabelZLimMode">ZLim 모드</entry>
+    <entry key="ComboBoxAutoManual">자동|수동</entry>
+    <entry key="LabelDefault3DView">디폴트 3차원 보기</entry>
+    <entry key="WarningInvalidPropertyValue">경고: 입력된 속성값이 유효하지 않습니다. {0} = {1}(으)로 되돌림</entry>
+    <entry key="LabelModeChangedToManual">{0} 모드가 매뉴얼로 변경됨</entry>
+    <entry key="LabelModeChangedToAuto">{0} 모드가 자동으로 변경됨</entry>
+    <entry key="LabelManuallyChangedTo">{0}이(가) 수동으로 {1}(으)로 변경됨</entry>
+    <entry key="FigureAxesPropertiesDemonstration">axes 속성 데모</entry>
+    <entry key="LabelUseTheControlsToSeeEffects2d">컨트롤을 사용하여 다양한 axes 속성이 2차원 플롯에 미치는 영향을 확인할 수 있음</entry>
+  </message>
+</rsccat>

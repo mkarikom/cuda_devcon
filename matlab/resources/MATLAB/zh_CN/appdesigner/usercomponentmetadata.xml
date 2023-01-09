@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Registered">已注册</entry>
+    <entry key="NotRegistered">未注册</entry>
+    <entry key="MissingFile">缺失文件</entry>
+    <entry key="MyComponents">我的组件</entry>
+    <entry key="DirLabel">向 App 设计工具注册的 UI 组件目录:</entry>
+    <entry key="RegisterLabel">注册</entry>
+    <entry key="UpdateLabel">更新</entry>
+    <entry key="DeregisterLabel">注销</entry>
+    <entry key="InfoForAuthor">向 App 设计工具注册自定义 UI 组件会创建一个资源目录，该目录必须与自定义 UI 组件共享，以便能够将自定义 UI 组件与 App 设计工具集成。</entry>
+    <entry key="StatusLabel">UI 组件</entry>
+    <entry key="UIComponentsLabel">状态</entry>
+    <entry key="LastUpdatedLabel">上次更新</entry>
+    <entry key="DeregistrationWarningMsg">是否确定要注销所选组件?</entry>
+    <entry key="CompLibConfigLabel">组件库配置</entry>
+    <entry key="NameLabel">名称</entry>
+    <entry key="VersionLabel">版本</entry>
+    <entry key="DescriptionLabel">说明</entry>
+    <entry key="CategoryLabel">类别</entry>
+    <entry key="IconLabel">图标</entry>
+    <entry key="AdvancedConfigLabel">高级配置</entry>
+    <entry key="LabeledComponentLabel">带标签的组件</entry>
+    <entry key="LabelPositionLabel">标签位置</entry>
+    <entry key="SingleInstancelabel">单一实例</entry>
+    <entry key="AuthorInfoLabel">作者信息</entry>
+    <entry key="AuthorNameLabel">作者姓名</entry>
+    <entry key="AuthorEmailLabel">作者电子邮件</entry>
+    <entry key="PreviewLabel">预览</entry>
+    <entry key="OkLabel">确定</entry>
+    <entry key="CancelLabel">取消</entry>
+    <entry key="HelpLabel">帮助</entry>
+    <entry key="BrowseLabel">浏览</entry>
+    <entry key="MetadataUITitle">App 设计工具自定义 UI 组件元数据</entry>
+    <entry key="ComponentFileLabel">组件文件</entry>
+    <entry key="ComponentLibAppearanceLabel">组件库外观</entry>
+    <entry key="ComponentDetailsLabel">组件详细信息</entry>
+    <entry key="ComponentRegistrationHeader">App 设计工具</entry>
+    <entry key="RegistrationInProgressMsg">正在配置组件的 App 设计工具元数据...</entry>
+    <entry key="RegistrationErrorMsg">为组件配置元数据时出错。\n\n{0}</entry>
+    <entry key="IconFileErrorMsg">文件必须为 .png、.jpeg、.jpg 或 .gif 类型的图像</entry>
+    <entry key="CategoryEmptyErrorMsg">类别不能为空</entry>
+    <entry key="ComponentNameEmptyErrorMsg">组件名称不能为空</entry>
+    <entry key="InvalidVersionErrorMsg">组件版本不能为空，并且必须为 Major.Minor 形式</entry>
+    <entry key="InvalidEmailErrorMsg">请输入有效的电子邮件</entry>
+    <entry key="NotValidCustomComponentClass">文件 {0} 不是有效的自定义 UI 组件类。</entry>
+    <entry key="NotCustomComponentClass">文件 {0} 不是有效的自定义 UI 组件类，因为它不是从 {1} 继承的。</entry>
+    <entry key="RegistrationSuccessMsg">包含 App 设计工具元数据的资源文件夹已创建。\n\n要在 App 设计工具中使用组件，请将包含组件和资源的文件夹添加到 MATLAB 路径中。</entry>
+    <entry key="UpdateSuccessMsg">包含 App 设计工具元数据的资源文件夹已更新。\n\n要在 App 设计工具中使用组件，请将包含组件和资源的文件夹添加到 MATLAB 路径中。</entry>
+    <entry key="NoWriteAccessErrorMsg">MATLAB 对包含该组件的文件夹没有写入权限。\n\n使用 App 设计工具元数据创建资源文件夹需要写入权限。</entry>
+    <entry key="NotEnoughInputArgErrorMsg">要在 App 设计工具中使用组件，组件类的设置方法不能设有必需的输入参数。</entry>
+    <entry key="InvalidModelWarningMsg">组件所在文件夹下的资源文件夹中的元数据文件无效。\n\n保存此组件的元数据将覆盖现有元数据文件。</entry>
+    <entry key="RogueComponentErrorMsg">要在 App 设计工具中使用该组件，则该组件不能向其父组件动态添加其他组件。</entry>
+    <entry key="InvalidUnitsErrorMsg">要在 App 设计工具中使用该组件，则必须将其 'Units' 属性设置为 'pixels'。</entry>
+    <entry key="AbstractComponentErrorMsg">类 {0} 无法实例化，因为它是抽象类。请确保您已实现所有抽象方法，包括从 matlab.ui.componentcontainer.ComponentContainer 继承的设置和更新方法。</entry>
+    <entry key="CallbackHasValueErrorMsg">已为公共回调赋值: {0}。\n\n要在 App 设计工具中使用该组件，该组件不能为它定义的公共回调赋值。请改用 addlistener 函数为事件创建事件侦听程序: {1}。</entry>
+    <entry key="AvatarNotCapturedWarning">无法捕获 UI 组件预览。用户在将 UI 组件从组件库拖到画布上时将无法看到组件预览。\n要捕获 UI 组件预览，请从计算机上已安装的 MATLAB 版本配置您的组件。</entry>
+    <entry key="ComponentDetailsHelp">指定要在工具提示中显示的组件可选信息</entry>
+    <entry key="CategoryHelp">指定显示组件的组件库分区</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownOption">形式オプション {0} が無効です。</entry>
+    <entry key="InvalidInput">データ型が無効です。書式オプションは文字ベクトル、string スカラー、またはクラス {0} のインスタンスでなければなりません。</entry>
+    <entry key="MissingOrInvalidClass">The class definition of {0} is corrupt or not on the MATLAB Path. </entry>
+  </message>
+</rsccat>

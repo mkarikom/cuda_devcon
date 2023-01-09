@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="OpenVariableAction">打开所选内容</entry>
+    <entry key="SaveVariablesAction">另存为...</entry>
+    <entry key="DuplicateVariableAction">生成副本</entry>
+    <entry key="DeleteVariableAction">删除</entry>
+    <entry key="InsertVariableAction">插入</entry>
+    <entry key="NewDoubleVariableAction">新建</entry>
+    <entry key="SaveAllVariablesAction">保存</entry>
+    <entry key="NewFromSelection">根据所选内容新建</entry>
+    <entry key="ClearWorkspaceAction">清空工作区</entry>
+    <entry key="SelectAllDataAction">全选</entry>
+    <entry key="InvertSelection">反转选择</entry>
+    <entry key="RefreshWorkspaceAction">刷新</entry>
+    <entry key="RenameAction">重命名</entry>
+    <entry key="EditValueAction">编辑值</entry>
+    <entry key="PrintAction">打印...</entry>
+    <entry key="Field">字段</entry>
+    <entry key="Name">名称</entry>
+    <entry key="Value">值</entry>
+    <entry key="Size">大小</entry>
+    <entry key="Bytes">字节</entry>
+    <entry key="Class">类</entry>
+    <entry key="Property">属性</entry>
+    <entry key="Min">最小值</entry>
+    <entry key="Max">最大值</entry>
+    <entry key="Mean">均值</entry>
+    <entry key="Median">中位数</entry>
+    <entry key="Mode">众数</entry>
+    <entry key="Range">极差</entry>
+    <entry key="Var">方差</entry>
+    <entry key="Std">标准差</entry>
+    <entry key="SortAscending">升序排序</entry>
+    <entry key="SortDescending">降序排序</entry>
+    <entry key="DeleteColumnVariable">删除表列变量</entry>
+    <entry key="DeleteRowVariable">删除行</entry>
+    <entry key="NewWorkspaceVariable">根据所选内容新建工作区变量</entry>
+    <entry key="NewTable">新建表</entry>
+    <entry key="NewTimeTable">新时间表</entry>
+    <entry key="SeparateWorkspaceVariable">分隔工作区变量</entry>
+    <entry key="ConvertTo">转换为</entry>
+    <entry key="NewNumericArray">新建数值数组</entry>
+    <entry key="NewCharacterArray">新建字符数组</entry>
+    <entry key="NewCellArray">新建元胞数组</entry>
+    <entry key="NewStringArray">新建字符串数组</entry>
+    <entry key="UngroupColumnVariable">取消表列变量分组</entry>
+    <entry key="GroupColumnVariable">对表列变量分组</entry>
+    <entry key="TransformColumn">计算新列变量/变换列变量</entry>
+    <entry key="DeleteColumn">删除列</entry>
+    <entry key="DeleteRow">删除行</entry>
+    <entry key="ReplaceWithText">替换为...</entry>
+    <entry key="ReplaceWithZero">替换为零</entry>
+    <entry key="Zero">向零</entry>
+    <entry key="NaNs">NaN</entry>
+    <entry key="Constant">常量...</entry>
+    <entry key="ReplaceWithMissing">替换为缺失</entry>
+    <entry key="ReplaceWithEmpty">替换为空</entry>
+    <entry key="Transpose">转置变量</entry>
+    <entry key="InsertColumnLeft">将列插入到左侧</entry>
+    <entry key="InsertColumnRight">将列插入到右侧</entry>
+    <entry key="InsertRowAbove">在上方插入行</entry>
+    <entry key="InsertRowBelow">在下方插入行</entry>
+    <entry key="NewCategoricalArray">新建分类数组</entry>
+    <entry key="NewDatetimeArray">新建日期时间数组</entry>
+    <entry key="NewDurationArray">新建持续时间数组</entry>
+    <entry key="NewCalendarDurationArray">新建日历持续时间数组</entry>
+    <entry key="NewStructureArray">新建结构体数组</entry>
+    <entry key="NewRowVectors">新建行向量</entry>
+    <entry key="NewColumnVectors">新建列向量</entry>
+    <entry key="OpenSelection">打开所选内容</entry>
+    <entry key="DeleteField">删除字段</entry>
+    <entry key="BrushingOn">启用刷亮模式</entry>
+  </message>
+</rsccat>

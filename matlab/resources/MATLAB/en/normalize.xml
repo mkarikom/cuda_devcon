@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- Copyright 2017-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message> 
+    <entry key="InvalidFirstInputRange">Invalid data type. First argument must be a real numeric or logical array, a table or a timetable.</entry>
+    <entry key="InvalidFirstInputRobust">Invalid data type. First argument must be a real array of type double or single, a table or a timetable.</entry>
+    <entry key="InvalidFirstInput">Invalid data type. First argument must be of type double, single, table, or timetable.</entry>
+    <entry key="UnsupportedTableVariableRange">Table variables must be real numeric or logical arrays.</entry>
+    <entry key="UnsupportedTableVariableRobust">Table variables must be real arrays of type double or single.</entry>
+    <entry key="UnsupportedTableVariable">Table variables must be of type double or single.</entry>
+    <entry key="NonVectorTableVariable">Table variables must be column vectors.</entry>
+    <entry key="InvalidDIM">Dimension must be a positive integer.</entry>
+    <entry key="TableDIM">Dimension is not supported when first argument is a table or timetable.</entry>
+    <entry key="KeyWithoutValue">Incorrect number of input arguments. Parameter names and values must occur in pairs.</entry>
+    <entry key="ParseFlags">Parameter name must be ''DataVariables''.</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' function handle must return a logical scalar.</entry>
+    <entry key="DataVariablesTableSubscript">Invalid ''DataVariables'' value.</entry>
+    <entry key="DataVariablesArray">''DataVariables'' parameter is only supported for table and timetable inputs.</entry>
+    <entry key="IncorrectNumInputsArray">Incorrect number of input arguments.</entry>
+    <entry key="MethodAfterOptions">Normalization method must come before Name-Value pairs.</entry>
+    <entry key="InvalidMethod">Normalization method must be ''zscore'', ''norm'', ''center'', ''scale'', ''range'', or ''medianiqr''.</entry>
+    <entry key="InvalidDoubleMethod">Invalid input combination. ''center'' and ''scale'' are the only methods that can be specified at the same time.</entry>
+    <entry key="InvalidNormType">The norm must be a positive real scalar or Inf.</entry>
+    <entry key="InvalidRangeType">The range interval must be a real vector containing two elements with increasing values.</entry>
+    <entry key="InvalidCenterType">''center'' method type must be: ''mean'', ''median'', a numeric array of centering values, or a table of centering values (when the first input is a table).</entry>
+    <entry key="InvalidScaleType">''scale'' method type must be: ''std'', ''mad'', ''iqr'', ''first'', a numeric array of scaling values, or a table of scaling values (when the first input is a table).</entry>
+    <entry key="InvalidCenterScaleType">When the ''center'' and ''scale'' method types are tables, ensure the tables have the same variable names or specify ''DataVariables'' to indicate a subset of variables to operate on.</entry>
+    <entry key="InvalidCenterScaleTypeWithDataVars">To center and scale the data in the variables specified by ''DataVariables'', the variables must be present in the data as well as the centering and scaling tables.</entry>
+    <entry key="InvalidCenterScaleTypeFirstInput">When the ''center'' and ''scale'' method types are tables, ensure the table variable names are present in the data as well or specify ''DataVariables'' to indicate a subset of variables to operate on.</entry>
+    <entry key="InvalidZscoreType">The zscore type must be ''std'' or ''robust''.</entry>
+
+    <!-- For code generation -->
+    <entry key="DataVarsMustBeUnique">'DataVariables' parameter cannot contain duplicates for code generation.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FirstInputInvalid">第一个参数必须为 numeric、logical、datetime、duration、calendarDuration、string、categorical、char、cellstr、table 或 timetable。</entry>
+    <entry key="IndicatorsCalendarDuration">不支持 calendarDuration 指示符。</entry>
+    <entry key="IndicatorsCategorical">第二个参数必须为字符串、字符串数组、字符行向量或字符行向量元胞数组。</entry>
+    <entry key="IndicatorsCellstr">第二个参数必须为字符行向量或字符行向量元胞数组。</entry>
+    <entry key="IndicatorsChar">第二个参数必须为字符向量。</entry>
+    <entry key="IndicatorsCharRowVector">字符向量指示符必须为行向量。</entry>
+    <entry key="IndicatorsDatetime">第二个参数必须为日期时间。</entry>
+    <entry key="IndicatorsDouble">第二个参数必须为数值或逻辑值。</entry>
+    <entry key="IndicatorsDuration">第二个参数必须为持续时间。</entry>
+    <entry key="IndicatorsIntegerLogical">第二个参数必须为 {0} 或双精度值。</entry>
+    <entry key="IndicatorsInvalidType">不支持 {0} 类型的指示符。</entry>
+    <entry key="IndicatorsSingle">第二个参数必须为单精度值或双精度值。</entry>
+    <entry key="IndicatorsString">第二个参数必须为字符串或字符串数组。</entry>
+    <entry key="StdizeCalendarDuration">不支持 calendarDuration。</entry>
+    <entry key="InvalidInputsCodegen">第一个参数必须为数值、逻辑值、持续时间、字符串、分类、字符、cellstr 或表。</entry>
+    <entry key="StringNeedsIndicatorCodegen">当第一个参数是字符串时，代码生成需要指示符。</entry>
+    <entry key="CellIndicatorsMustBeConstant">要进行代码生成，以元胞数组方式提供的指示符必须为常量</entry>
+  </message>
+</rsccat>

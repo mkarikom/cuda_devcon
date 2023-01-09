@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidPeerAxes">Parameter ''peer'' must be followed by an axes handle.</entry>
+    <entry key="SecondArgMustBeAxes">Second argument must be a scalar axes handle.</entry>
+    <entry key="UnknownCommandOption">Unknown command option.</entry>
+    <entry key="ThirdArgMustBeAxes">Third argument must be a scalar axes handle.</entry>
+    <entry key="CannotAddToColorbar">Colorbar cannot be added to another colorbar.</entry>
+    <entry key="AxesHandleRequired">Requires axes handle.</entry>
+    <entry key="HandleVertHorizExpected">COLORBAR expects a handle, ''vert'', or ''horiz'' as input.</entry>
+  </message>
+</rsccat>

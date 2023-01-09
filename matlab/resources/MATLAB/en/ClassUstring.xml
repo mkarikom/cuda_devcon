@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2011-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\schema\msgcat.xsd" string_type_for_hole="fl_ustring">
+  <message>
+    <entry key="METHODS_FUNCTION_NO_METHODS_SPECIAL_CASE_LABEL">No methods for class or no class.</entry>
+    <entry key="MEMBER_FUNCTIONS_NO_CLASS_LABEL">No class {0}.</entry>
+    <entry key="METHODS_FUNCTION_NO_METHODS_LABEL">No methods for class {0}.</entry>
+    <entry key="SEALED_METHODS_FUNCTION_NO_METHODS_LABEL">No sealed methods for heterogeneous array of class {0}.</entry>
+    <entry key="PROPERTIES_FUNCTION_NO_PROPS_LABEL">No properties for class {0}.</entry>
+    <entry key="EVENTS_FUNCTION_NO_EVENTS_LABEL">No events for class {0}.</entry>
+    <entry key="ENUMERATIONS_FUNCTION_NO_ENUMS_LABEL">No enumeration members for class {0}.</entry>
+    <entry key="ENUMERATIONS_FUNCTION_NO_VISIBLE_ENUMS_LABEL">No visible enumeration members for class {0}.</entry>
+    <entry key="SUPERCLASSES_FUNCTION_NO_SUPERS_LABEL">No superclasses for class {0}.</entry>
+    <entry note="For use when no translation is needed, such as in test code" key="PassThrough" translate="false">{0}</entry>
+
+    <!-- unlikely to have non ascii input but for the sake of putting everything related together -->
+    <entry key="METHODS_FUNCTION_LABEL">Methods for class {0}:</entry>
+    <entry key="SEALED_METHODS_FUNCTION_LABEL">Sealed methods for heterogeneous array of class {0}:</entry>
+    <entry key="PROPERTIES_FUNCTION_LABEL">Properties for class {0}:</entry>
+    <entry key="EVENTS_FUNCTION_LABEL">Events for class {0}:</entry>
+    <entry key="ENUMERATIONS_FUNCTION_LABEL">Enumeration members for class ''{0}'':</entry>
+    <entry key="SUPERCLASSES_FUNCTION_LABEL">Superclasses for class {0}:</entry>
+
+    <!-- Error messages for which one or more arguments should be preserved as a ustring -->
+    <entry key="setgetPropertyNotFound">Property {0} not found in class {1}, or is not present in all elements of the array of class {2}.</entry>
+    <entry key="DestructorError">The following error was caught while executing ''{0}'' class destructor:\n{1}</entry>
+    <entry key="InvalidValue">Error setting property ''{0}'' of class ''{1}'':\n{2}</entry>
+    <entry key="InvalidPropertyType">The class ''{0}'' of property ''{1}'' is invalid: {2}</entry>
+    <entry key="BadEnumValueError">In definition of enumeration member ''{0}'' in class ''{1}'':\n{2}</entry>
+    <entry key="FcnInputArgError">Invalid input for argument {0,number,integer} ({1}):\n{2}</entry>
+    <entry key="ErrorDuringCopy">While copying object of class ''{0}'':\n''{1}''</entry>
+    <entry key="SaveErrorWarning">While saving an object of class ''{0}'':\n{1}</entry>
+    <entry key="LoadClassErrorWarning">While loading an object of class ''{0}'':\n{1}</entry>
+    <entry key="InvalidDynamicPropertyName">''{0}'' is not a valid dynamic property name. Property names must begin with a letter and be composed of letters, numbers, and underscores.</entry>
+    <entry key="LongDynamicPropertyName">Dynamic property name ''{0}'' exceeds the MATLAB maximum name length of 63 characters.</entry>
+    <entry key="InvalidEnumValue">There is no enumerated value named ''{0}''.</entry>
+    <entry key="invalidEvent">Event ''{0}'' is not defined for class ''{1}''.</entry>
+
+    <entry key="InvalidEnumerationNameLongWithHyperlink"><![CDATA[{0} is not a member of enumeration ''{1}''. The value must be <a href="matlab:enumeration(''{1}'');">one of these options</a>.]]></entry>
+    <entry key="InvalidEnumerationNameLongWithoutHyperlink">{0} is not a member of enumeration ''{1}''. To see the list of valid options, type enumeration(''{1}'').</entry>
+    <entry key="InvalidEnumerationNameShort">{0} is not a member of enumeration ''{1}''. Value must be one of:\n{2} </entry>
+    <entry key="InvalidEnumerationName_Missing" translate="false" note="Do not translate &gt;missing&lt;"><![CDATA[<missing>]]></entry>
+    <entry key="AmbiguousEnumerationName">''{0}'' is ambiguous as a member of enumeration ''{1}''.</entry>
+    <entry key="invalidImportArguments">Import argument ''{0}'' cannot be found or cannot be imported.</entry>
+    <entry key="InvalidProperty">The name ''{0}'' is not an accessible property for an instance of class ''{1}''.</entry>
+    <entry key="InvalidPropertyName">The property name ''{0}'' is not a valid MATLAB identifier.</entry>
+    <entry key="RemoveListenerWarning">While removing listeners on an object of class ''{0}'':\n{1}</entry>
+  </message>
+</rsccat>

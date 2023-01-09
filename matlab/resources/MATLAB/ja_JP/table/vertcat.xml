@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">すべての入力引数はテーブルでなければなりません。</entry>
+    <entry key="SizeMismatch">垂直方向に連結される table はすべて、変数の数が同じでなければなりません。</entry>
+    <entry key="SizeMismatchWithCell">垂直方向に連結される table はすべて、変数の数が同じでなければなりません。cell 配列を table と連結する場合、cell 配列の列数は table の変数の数と同じでなければなりません。</entry>
+    <entry key="UnequalVarNames">垂直方向に連結される table はすべて、変数名が同じでなければなりません。</entry>
+    <entry key="VertcatCellAndNonCell">テーブル変数 ''{0}'' が、あるテーブルではセルであり別のテーブルではセルでないため、連結できません。</entry>
+    <entry key="VertcatMethodFailed">VERTCAT を使用して table 変数 ''{0}'' を連結中にエラーが発生しました。</entry>
+    <entry key="VertcatWrongLength">VERTCAT を使用してテーブル変数 ''{0}'' を連結すると、不適切な長さの変数が生成されます。</entry>
+    <entry key="Timetable0x0AndTable">0 行 0 列の timetable を 0 行 0 列以外の table と連結してはなりません。すべての入力を同じデータ型に変換するか、順序を変更するか、あるいは JOIN を使用してください。</entry>
+    <entry key="TableAndTimetable">timetable と table は、timetable が先にある場合のみ連結できます。すべての入力を同じデータ型に変換するか、あるいは順序を変更してください。</entry>
+    <entry key="CellArrayAndTimetable">timetable とセル配列は、timetable が先にある場合にのみ連結できます。すべての入力を同じデータ型に変換するか、あるいは順序を変更してください。</entry>
+    <entry key="CustomPropsClash">同じカスタム プロパティ名が一方の table では table ごとのプロパティであり他方の table では変数ごとのプロパティである場合、table の連結はサポートされません。</entry>
+    <entry key="NdCell">N 次元 cell 変数の連結は、コード生成ではサポートされていません。</entry>
+    <entry key="VertcatCellAndNonCellCodegen">1 つの table の cell にある table 変数と、別の table の非 cell にある table 変数の連結は、コード生成ではサポートされていません。</entry>
+  </message>
+</rsccat>

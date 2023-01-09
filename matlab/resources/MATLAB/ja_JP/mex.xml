@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="twoUNCPaths">PWD と TEMPDIR が両方とも UNC パスの場合は、ファイルを作成できません。</entry>
+    <entry key="dotdots">パスを ''{0}'' に対する相対パスとして解決しました。''{1}'' は無効です。</entry>
+    <entry key="assertion">ファイル ''{2}'' の行 {3,number,integer} でアサーション {0} が失敗しました。\n{1}\n\nスタック トレース:\n{4}\n</entry>
+    <entry key="destinationDirNotFound">出力先のディレクトリ "{0}" が見つかりません。</entry>
+    <entry key="mexFileLocked">MEX ファイル "{0}" はロックされており、再コンパイル前にロックを解除しなければなりません。</entry>
+    <entry key="RspFilePermissionOpen">書き込み対象のファイル "{0}" を開けません: {1}.</entry>
+    <entry key="RspFilePermissionWrite">ファイル "{0}" に書き込めません: {1}.</entry>
+    <entry key="CreateRSPFile">{0} コマンドが Windows のコマンド ライン文字列の上限に達しています。RSP ファイル {1} を作成して、{2} コマンド以降の内容をそのファイルにコピーしています。 </entry>
+    <entry key="RSPFileException">RSP ファイルを作成できませんでした: ''{0}''。</entry>
+    <entry key="moveToUNCPermissions">MEX で生成したファイルを UNC パスに戻せませんでした。''{0}'' のアクセス権またはセキュリティをチェックしてください。</entry>
+    <entry key="moveToUNCTemp">MEX で一時ディレクトリ ''{0}'' を削除できませんでした。</entry>
+    <entry key="genericFailure">正常に終了できません。</entry>
+    <entry key="invalidArgument">すべての引数は空でない string または文字ベクトルでなければなりません。</entry>
+    <entry key="OutputSwitchMisuse">-output スイッチの後は、ファイル名を指定しなければなりません。</entry>
+    <entry key="OutdirSwitchMisuse">-outdir スイッチの後は、ディレクトリ名を指定しなければなりません。</entry>
+    <entry key="Verbose">詳細モードがオンです。</entry>
+    <entry key="FileCopied">オプション ファイルが ''{0}'' から ''{1}'' にコピーされました。</entry>
+    <entry key="FileRenamed">オプション ファイル ''{0}'' の名前を ''{1}'' に変更しました。</entry>
+    <entry key="ConfiguredToUse_bold">{0} は {2} 言語のコンパイルに &lt;strong&gt;''{1}''&lt;/strong&gt; を使用するよう設定されています。</entry>
+    <entry key="ConfiguredToUse">{0} は {2} 言語のコンパイルに ''{1}'' を使用するよう設定されています。</entry>
+    <entry key="NotConfiguredToUse">コンパイラ ''{1}'' が検出されないため、{0} ではこのコンパイラを使用できません。</entry>
+    <entry key="LookforImplicitSel">MEX オプション ファイルを特定できません。暗黙的な選択を検索します。</entry>
+    <entry key="SetEnv">{0} = {1} に設定</entry>
+    <entry key="FailSetEnv">環境変数 ''{0}'' を定義できませんでした。</entry>
+    <entry key="ExecutingCmd">... ''{0}'' コマンドの実行中...</entry>
+    <entry key="FileCannotOpen">''{0}'' を開けません。</entry>
+    <entry key="MexDoubleHandle">廃止された MEX 関数 mexGet|mexSet が呼び出されました。ソース コードを更新して mxGetProperty|mxSetProperty を使用するか、コマンド ラインに -D{0} を追加して MEX を再実行し、互換モードを使用してください。</entry>
+    <entry key="MexSetTrapFlagNotSupported">非推奨の MEX 関数 mexSetTrapFlag が呼び出されました。mexCallMATLABWithTrap を使用するようにソース コードを更新してください。</entry>
+    <entry key="MXSeparateComplexNotSupported">実数/虚数分離型の複素行列関数 {0} が呼び出されました。交互配置型複素数用にソース コードを更新するか、互換性がサポートされた R2017b API を使用するように、-R2017b コマンド ライン オプションを指定して MEX を再実行してください。詳細については、「&lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''support_for_IC_API'')"&gt;Interleaved Complex&lt;/a&gt;」を参照してください </entry>
+    <entry key="UndocumentedNotSupported">関数 {0} はサポートされていません。&lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''cpp-mex-applications'')"&gt;C++ MEX アプリケーション&lt;/a&gt;で使用できる、より効率的な &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''matlab-data-api'')"&gt;MATLAB データ API&lt;/a&gt; に切り替えるか、R2017b API を使用するよう -R2017b コマンド ライン オプションを指定して MEX を再実行してください。</entry>
+    <entry key="NoCompilerFound">サポートされているコンパイラが検出されません。オプションについては、https://www.mathworks.com/support/compilers を参照してください。</entry>
+    <entry key="NoCompilerFound_link">サポートされているコンパイラが検出されません。オプションについては、&lt;a href="https://www.mathworks.com/support/compilers"&gt;https://www.mathworks.com/support/compilers&lt;/a&gt; を参照してください。</entry>
+    <entry key="NoCompilerFound_Win64">サポートされているコンパイラが検出されません。無償提供されている MinGW-w64 C/C++ コンパイラをインストールできます。https://www.mathworks.com/matlabcentral/fileexchange/52848-matlab-support-for-mingw-w64-c-c-compiler を参照してください。その他のオプションについては、https://www.mathworks.com/support/compilers を参照してください。</entry>
+    <entry key="NoCompilerFoundForMbuildOrMbuildCom_Win64">Supported compiler not detected. You can install the MinGW-w64 C/C++ compiler, which also requires installation of the Windows 10 SDK. Both are freely available. Visit https://www.mathworks.com/matlabcentral/answers/355476-how-can-i-install-mingw-compiler-for-use-with-windows-10-sdk-kit. For more options, visit https://www.mathworks.com/support/compilers.</entry>
+    <entry key="NoCompilerFound_link_Win64">サポートされているコンパイラが検出されません。無償提供されている MinGW-w64 C/C++ コンパイラをインストールできます。「&lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''install_mingw'')"&gt;Install MinGW-w64 Compiler&lt;/a&gt;」を参照してください。その他のオプションについては、&lt;a href="https://www.mathworks.com/support/compilers"&gt;https://www.mathworks.com/support/compilers&lt;/a&gt; を参照してください。</entry>
+    <entry key="NoCompilerFoundForMbuildOrMbuildCom_link_Win64">Supported compiler not detected. You can install the MinGW-w64 C/C++ compiler, which also requires installation of the Windows 10 SDK. Both are freely available. See &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''install_mingw'')"&gt;Install MinGW-w64 Compiler&lt;/a&gt;. For more options, visit &lt;a href="https://www.mathworks.com/matlabcentral/answers/355476-how-can-i-install-mingw-compiler-for-use-with-windows-10-sdk-kit"&gt;https://www.mathworks.com/matlabcentral/answers/355476-how-can-i-install-mingw-compiler-for-use-with-windows-10-sdk-kit&lt;/a&gt;.</entry>
+    <entry key="MultipleOrZeroCompiler">内部エラー -- 選択/推奨されるコンパイラを複数またはゼロにすることはできません。</entry>
+    <entry key="UnknownClient">クライアント ''{0}'' が不明です。</entry>
+    <entry key="InvalidXML">{0} は有効な XML ファイルではありません。</entry>
+    <entry key="XMLWriteFailed">オプション ファイル ''{0}'' を書き込むことができませんでした。</entry>
+    <entry key="XMLWriteFailedWithMsg">オプション ファイル ''{0}'' を書き込むことができませんでした: ''{1}''</entry>
+    <entry key="LookingCompiler">... コンパイラ ''{0}'' を検索中...</entry>
+    <entry key="InstalledCompiler">インストールされているコンパイラ ''{0}'' が見つかりました。</entry>
+    <entry key="NotInstalledCompiler">インストールされているコンパイラ ''{0}'' は見つかりませんでした。</entry>
+    <entry key="UnsupportedCompiler_link">選択したコンパイラ ''{0}'' はサポートされていません。オプションについては、&lt;a href="https://www.mathworks.com/support/compilers"&gt;https://www.mathworks.com/support/compilers&lt;/a&gt; を参照してください。</entry>
+    <entry key="UnsupportedCompiler">選択したコンパイラ ''{0}'' はサポートされていません。オプションについては、https://www.mathworks.com/support/compilers を参照してください。</entry>
+    <entry key="NoAlternativeCompilerFound_link">選択したコンパイラ ''{0}'' はサポートされておらず、他のサポートされているコンパイラも見つかりませんでした。オプションについては、&lt;a href="https://www.mathworks.com/support/compilers"&gt;https://www.mathworks.com/support/compilers&lt;/a&gt; を参照してください。</entry>
+    <entry key="NoAlternativeCompilerFound">選択したコンパイラ ''{0}'' はサポートされておらず、他のサポートされているコンパイラも見つかりませんでした。オプションについては、https://www.mathworks.com/support/compilers を参照してください。</entry>
+    <entry key="LookingFile">... ファイル ''{0}'' を検索中...</entry>
+    <entry key="LookingFolder">... フォルダー ''{0}'' を検索中...</entry>
+    <entry key="LookingEnv">... 環境変数 ''{0}'' を検索中...</entry>
+    <entry key="LookingRegistry">... レジストリ設定 ''{0}\\{1}'' {2} を検索中...</entry>
+    <entry key="Yes">はい。</entry>
+    <entry key="YesValue">はい (''{0}'')。</entry>
+    <entry key="No">いいえ。</entry>
+    <entry key="UnknownExt">ファイル拡張子 ''{0}'' は不明です。</entry>
+    <entry key="UnknownLanguage">不明な言語 ''{0}''。</entry>
+    <entry key="MixLang">ソース ファイル {0} と {1} の両方を 1 回の MEX 呼び出しでコンパイルすることはできません。</entry>
+    <entry key="NotAnOption">オプション ''{0}'' は実装されていません。</entry>
+    <entry key="UnknownSwitch">MEX 引数 ''{0}'' は不明です。</entry>
+    <entry key="IncompatibleSwitches">''{0}'' と ''{1}'' の両方を使って MEX を呼び出すことはサポートされていません。</entry>
+    <entry key="MultiCompilers">別の {0} コンパイラを選択するには、次のいずれかを実行してください。</entry>
+    <entry key="MultiCompilers_link">別の {0} コンパイラを選択するには、次のいずれかを選択してください。</entry>
+    <entry key="NoLangSelected">別の言語を選択するには、次のいずれかを実行してください。\n mex -setup C++{0} \n mex -setup FORTRAN{1}</entry>
+    <entry key="NoLangSelected_link">別の言語を選択するには、次のいずれかを選択してください。\n &lt;a href="matlab:mex -setup C++{0}"&gt;mex -setup C++{1}&lt;/a&gt; \n &lt;a href="matlab:mex -setup FORTRAN{2}"&gt;mex -setup FORTRAN{3}&lt;/a&gt;</entry>
+    <entry key="GccVersion">gcc バージョン ''{0}'' はサポートされていません。https://www.mathworks.com/support/compilers/current_release を参照してください。</entry>
+    <entry key="GccVersion_link">gcc バージョン ''{0}'' はサポートされていません。&lt;a href="https://www.mathworks.com/support/compilers/current_release"&gt;https://www.mathworks.com/support/compilers/current_release&lt;/a&gt; を参照してください。</entry>
+    <entry key="MinGWVersion_link">
+  サポートされていないバージョンの MinGW コンパイラを使用しています。サポートされているバージョンの MinGW コンパイラをインストールするには、「&lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''install_mingw'')"&gt;Install MinGW-w64 Compiler&lt;/a&gt;」を参照してください。\n 現在サポートされているコンパイラのリストについては、&lt;a href="https://www.mathworks.com/support/compilers"&gt;https://www.mathworks.com/support/compilers&lt;/a&gt; を参照してください。
+</entry>
+    <entry key="MinGWVersion">
+  サポートされていないバージョンの MinGW コンパイラを使用しています。サポートされているバージョンの MinGW コンパイラをインストールするには、https://www.mathworks.com/help/matlab/matlab_external/install-mingw-support-package.html を参照してください。\n 現在サポートされているコンパイラのリストについては、https://www.mathworks.com/support/compilers を参照してください。
+</entry>
+    <entry key="InvalidMinGWConfig_link">
+  MinGW コンパイラが正しく設定されていません。&lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''manually_configure_mingw'')"&gt;MinGW を MATLAB 用に手動設定&lt;/a&gt;を参照して、MinGW コンパイラを正しく設定し、ソース コードを再コンパイルしてください。
+</entry>
+    <entry key="InvalidMinGWConfig">
+  MinGW コンパイラが正しく設定されていません。https://www.mathworks.com/help/matlab/matlab_external/compiling-c-mex-files-with-mingw.html#bu0q4cc-1 を参照して MinGW コンパイラを正しく設定し、ソース コードを再コンパイルしてください。
+</entry>
+    <entry key="InvalidArgNumber">
+  入力引数が多すぎます。
+</entry>
+    <entry key="InvalidArgType">
+ 入力はスカラー string または文字ベクトルでなければなりません。
+</entry>
+    <entry key="WindowText">
+ MinGW インストール ディレクトリの選択
+</entry>
+    <entry key="FolderNotPresent">
+ フォルダー ''{0}'' が存在しません。
+</entry>
+    <entry key="InsufficientAccessPrivilege">
+ 管理者権限が付与されていないため、MinGW コンパイラを設定できません。 
+</entry>
+    <entry key="IncorrectMinGWFolder">
+ フォルダー ''{0}'' には MinGW バイナリが含まれていません。
+</entry>
+    <entry key="IncorrectPlatform">
+ この関数は 64 ビット Windows プラットフォームでのみ有効です。
+</entry>
+    <entry key="ErrCopyFile">オプション ファイル ''{0}'' を基本設定フォルダー ''{1}'' にコピーする際にエラーが発生しました</entry>
+    <entry key="SrcNotFound">{0} が検出されません。現在のフォルダーが正しいかどうか、および ''{1}'' のスペルをチェックしてください。</entry>
+    <entry key="AccessDenied">アクセスが拒否されました。''{0}'' へのアクセス権限があることを確認してください。</entry>
+    <entry key="FileNameTooLarge">指定されたファイル名が長すぎます。</entry>
+    <entry key="NotADirectory">''{0}'' はディレクトリではありません。</entry>
+    <entry key="FileNameConversionFailed">ファイル名のコード変換に失敗しました。</entry>
+    <entry key="OutOfMemory">MEX は必要なメモリを割り当てることができませんでした。</entry>
+    <entry key="Building">''{0}'' でビルドしています。</entry>
+    <entry key="Complete">MEX は正常に完了しました。</entry>
+    <entry key="ErrOption">MEX 引数 ''{0}'' を使用する際にエラーが発生しました。</entry>
+    <entry key="ErrXMLAttr">オプション ファイル ''{1}'' の属性 ''{0}'' を読み取る際にエラーが発生しました。</entry>
+    <entry key="Locked">''{0}'' が mexLock API によってロックされています。</entry>
+    <entry key="Locked_link">&lt;a href="https://www.mathworks.com/help/matlab/apiref/mexlock.html"&gt;mexLock&lt;/a&gt; API によって ''{0}'' がロックされています。</entry>
+    <entry key="IgnoreOutput">-c が指定されているため -output を無視します。</entry>
+    <entry key="LibNotFound">
+  {0} は -l オプションで指定されたライブラリ ''{1}'' を見つけることができません。\n {0} は、名前が次のいずれかであるファイルを検索しました: \n {2} \n ライブラリ名が正しいことを確認してください。ライブラリが既存のパスに \n 存在しない場合、-L オプションでパスを指定してください。 \n
+</entry>
+    <entry key="LongEnv">環境変数 ''{0}'' が 8,000 文字を超えるため、ビルド時にエラーが発生する可能性があります。詳細については、https://www.mathworks.com/help/matlab/matlab_env/understanding-file-locations-in-matlab.html#br5u0i7-1 を参照してください。</entry>
+    <entry key="LongEnv_link">環境変数 ''{0}'' が 8,000 文字を超えるため、ビルド時にエラーが発生する可能性があります。詳細については、&lt;a href="https://www.mathworks.com/help/matlab/matlab_env/understanding-file-locations-in-matlab.html#br5u0i7-1"&gt;https://www.mathworks.com/help/matlab/matlab_env/understanding-file-locations-in-matlab.html#br5u0i7-1&lt;/a&gt; を参照してください。</entry>
+    <entry key="AdaErr">Ada 関数 build_ada_sfcn_using_gnat の呼び出し中にエラーが発生しました。</entry>
+    <entry key="LegacyWarn">互換性を確保するため古い形式の MEX 構造が提供されていますが、MATLAB の将来のバージョンでは削除される予定です。詳細については、MEX のリリース ノート (https://www.mathworks.com/help/matlab/release-notes.html) を参照してください。</entry>
+    <entry key="MexLoaded">
+\nMEX ファイル: {0} エントリ ポイントがアドレス {1} にあります\n
+</entry>
+    <entry key="IssueContinue">
+デバッガーのプロンプトにブレークポイントを追加して "continue" と入力し、\n MATLAB の実行を再開します。 \n\n
+</entry>
+    <entry key="CircRef"> 変数リファレンスのグラフには ''{0}'' と ''{1}'' の間に閉路があります </entry>
+    <entry key="MsgNoEntryPoint">ゲートウェイ関数が見つかりません</entry>
+    <entry key="MsgIncompatRel">非互換の MEX ファイル ''{0}'': {1} でビルドされた MEX ファイルの読み込みは、このリリースではサポートされていません。</entry>
+    <entry key="ErrOutOfMem">MEX ファイル ''{0}'' を読み込むにはメモリが足りません。</entry>
+    <entry key="ErrInvalidMEXFile">無効な MEX ファイル ''{0}'': {1}</entry>
+    <entry key="ErrInvalidCPPMEXFile">無効な C++ MEX ファイル ''{0}''</entry>
+    <entry key="DeleteTmpFile">一時ファイル ''{0}'' を削除できません</entry>
+    <entry key="MexErrorCode">コマンド ''{0}'' が戻り値 ''{1}'' で終了しました </entry>
+    <entry key="SFunctionMsg">\ntmwtypes.h を simstruc.h より前に含めると、tmwtypes.h は 64 ビット API を使用してビルドされます。32 ビット API を使用するようにコードを再コンパイルしています。詳細については、次を参照してください: &lt;a href="matlab: helpview ([docroot '/matlab/matlab_external/matlab_external.map'],'mex_build_64bit_by_default')"&gt; MEX Builds With 64-Bit API by Default\n&lt;/a&gt;
+</entry>
+    <entry key="RecompileVer">組み込みバージョンを ''{0}'' で再コンパイルしてください</entry>
+    <entry key="CppMexFevalError">MATLAB 関数 ''{0}'' を評価できませんでした。</entry>
+    <entry key="CppMexIndexExceedsBounds">インデックスが配列範囲を超えています。</entry>
+    <entry key="CppMexGetVariableError">''{1}'' ワークスペース内で変数 ''{0}'' を取得できませんでした。</entry>
+    <entry key="CppMexSetVariableError">''{1}'' ワークスペース内で変数 ''{0}'' を設定できませんでした。</entry>
+    <entry key="CppMexNotObjectError">getProperty または setProperty への最初の入力は MATLAB オブジェクト配列でなければなりません。</entry>
+    <entry key="CppMexGetPropertyError">MATLAB オブジェクトのプロパティ ''{0}'' を取得できませんでした。</entry>
+    <entry key="CppMexSetPropertyError">MATLAB オブジェクトのプロパティ ''{0}'' を設定できませんでした。</entry>
+    <entry key="CppMexThreadMismatch">MATLAB エンジン関数の同期バージョンは、MEX 関数を呼び出したスレッドから呼び出さなければなりません。</entry>
+    <entry key="CppMexFailedToCleanupError">C++ MEX ファイルで定義された MexFunction オブジェクトの破棄中にエラーが発生しました\n{0}。\nエラー メッセージ:\n {1}\nただし、MEX ファイルはメモリからクリアされました。</entry>
+    <entry key="CppMexFailedToCleanup">C++ MEX ファイルで定義された MexFunction オブジェクトの破棄中にエラーが発生しました\n{0}。\nただし、MEX ファイルはメモリからクリアされました。</entry>
+    <entry key="CppMexErrorWithNoIDOrMsg">C++ MEX ファイルからエラー ID またはメッセージがない例外がスローされました。</entry>
+    <entry key="ErrSetWinPathEnv">C++ MEX ファイルのコンパイルに必要な変数 PATH を設定できませんでした。</entry>
+    <entry key="MexHostFevalInvalidInput">MEX ファイル名が必要です。</entry>
+    <entry key="NonExistingMexFunction">C++ MEX 関数 ''{0}'' が未定義です。</entry>
+    <entry key="InvalidCPPMexFunction">C++ MEX ファイル ''{0}'' が無効です: {1}</entry>
+    <entry key="MexHostCrashed">C++ MEX 関数 ''{0}'' の実行中にエラーが発生しました。プロセス ID ''{2}'' をもつ ''{1}'' がクラッシュしたか、MATLAB 外部で破棄されました。</entry>
+    <entry key="MexHostDeleted">C++ MEX 関数 ''{0}'' の実行中にエラーが発生しました。MexHost オブジェクトが削除されたか、MATLAB からクリアされました。</entry>
+    <entry key="MexHostNonExistingProcess">MexHost オブジェクトに関連付けられている、プロセス ID ''{1}'' をもつプロセス ''{0}'' がクラッシュしたか、MATLAB 外部で破棄されました。</entry>
+    <entry key="MexHostLoadError">MexHost オブジェクトを読み込めません。</entry>
+    <entry key="MexHostInterrupted">MexHost 上で実行されている関数 ''{0}'' が中断されました。\nプロセス ID ''{2}'' をもつ MexHost のプロセス ''{1}'' は終了しました。</entry>
+    <entry key="MexHostInvalidPropertyName">無効なプロパティ名 ''{0}''有効な名前は ''{1}'' です。</entry>
+    <entry key="MexHostInvalidNumberOfInputArguments">関数 ''{0}'' への引数の数が無効です。この関数は 0 個または 2 個の引数を受け入れます。</entry>
+    <entry key="MexHostInvalidEnvironmentVariables">"{0}" プロパティの値は、2 列の string 行列でなければなりません。</entry>
+    <entry key="MexHostInvalidPropertyType">1 番目の引数は string スカラーでなければなりません。</entry>
+    <entry key="mexcheckNeedsAtLeastOneArg">MEX ファイル名が見つかりません。</entry>
+    <entry key="mexcheckInvalidArgNumber">入力引数が多すぎます。</entry>
+    <entry key="mexcheckInvalidArgument">MEX ファイル名は string でなければなりません。</entry>
+    <entry key="ENONAME_reason">ファイル名の長さがゼロです。</entry>
+    <entry key="ENOFILE_reason">''{0}'' が存在しません。</entry>
+    <entry key="ENOREAD_reason">''{0}'' を読み取ることができません。</entry>
+    <entry key="ENOREAD_action">ファイルのアクセス許可を読み取り可能に変更します。</entry>
+    <entry key="ENOTMEX_reason">''{0}'' が MEX ファイルではありません。</entry>
+    <entry key="ENOTMEX_action">詳細については、「&lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''ENOTMEX'')"&gt;File is not a MEX file&lt;/a&gt;」を参照してください。</entry>
+    <entry key="ELNKAPI_reason">''{0}'' が、矛盾するオプション ''{1}'' および {2}'' を指定してコンパイルされています。</entry>
+    <entry key="ELNKAPI_action">詳細については、「&lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''ELNKAPI'')"&gt;Troubleshooting MEX API Incompatibilities&lt;/a&gt;」を参照してください。</entry>
+    <entry key="EVERAPI_reason">''{0}'' は ''{1}'' でコンパイルされ、''{2}'' にリンクされています。</entry>
+    <entry key="EVERAPI_action">詳細については、「&lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''EVERAPI'')"&gt;MEX file compiled with one API and linked with another&lt;/a&gt;」を参照してください。</entry>
+    <entry key="EUNKAPI_reason">MATLAB ''{1}'' にビルドされた ''{0}'' は現在のリリースではサポートされていません。</entry>
+    <entry key="EUNKAPI_action">詳細については、「&lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''EUKNAPI'')"&gt;MEX file built in MATLAB release not supported in current release&lt;/a&gt;」を参照してください。</entry>
+    <entry key="ELNKCPP_reason">MATLAB データ API を使用する C++ MEX ファイル ''{0}'' が、''{1}'' を指定してコンパイルされています。</entry>
+    <entry key="ELNKCPP_action">詳細については、「&lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''ELNKCPP'')"&gt;C++ MEX file compiled with incompatible option&lt;/a&gt;」を参照してください。</entry>
+    <entry key="ENOEVER_reason">カスタムビルドの ''{0}'' は、現在のリリースでサポートされていません。</entry>
+    <entry key="ENOEVER_action">詳細については、「&lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''ENOEVER'')"&gt;Custom-built MEX file not supported in current release&lt;/a&gt;」を参照してください。</entry>
+    <entry key="URECOMP_reason">''{0}'' は最新の API でコンパイルされていません。</entry>
+    <entry key="URECOMP_action">スイッチ -R2018a でのリビルドを推奨します。詳細については、「&lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''URECOMP'')"&gt;MEX file is compiled with outdated option&lt;/a&gt;」を参照してください。</entry>
+    <entry key="ULATEST_reason">''{0}'' は型なしのデータ アクセス関数を 1 つ以上呼び出します。</entry>
+    <entry key="ULATEST_action">詳細については、「&lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''ULATEST'')"&gt;MEX file calls an untyped data access function&lt;/a&gt;」を参照してください。</entry>
+    <entry key="UCOMPAT_reason">''{0}'' は非推奨の関数を 1 つ以上呼び出します。</entry>
+    <entry key="UCOMPAT_action">詳細については、「&lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''UCOMPAT'')"&gt;Mex file calls a deprecated function&lt;/a&gt;」を参照してください。</entry>
+    <entry key="ULEGACY_reason">''{0}'' は 32 ビットの関数を 1 つ以上呼び出します。</entry>
+    <entry key="ULEGACY_action">詳細については、「&lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''ULEGACY'')"&gt;Mex file calls a 32-bit function&lt;/a&gt;」を参照してください。</entry>
+    <entry key="UENTRYP_reason">''{0}'' はエントリ ポイントを含まないため、MATLAB では実行されません。</entry>
+    <entry key="UENTRYP_action">詳細については、「&lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''UENTRYP'')"&gt;MEX file does not contain an entry point&lt;/a&gt;」を参照してください。</entry>
+    <entry key="FileSystemException">{0} </entry>
+    <entry key="Warn">{0}</entry>
+    <entry key="Error">{0}</entry>
+    <entry key="moveToUNC">{0}</entry>
+    <entry key="CppMexException">{0}</entry>
+  </message>
+</rsccat>

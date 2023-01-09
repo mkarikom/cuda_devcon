@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidFormatType">sprintfc 不支持编号参数格式转换</entry>
+    <entry key="invalidInputAttribute">没有为稀疏输入定义函数。</entry>
+    <entry key="invalidInputType">没有为 ''{0}'' 输入定义函数。</entry>
+    <entry key="invalidThirdInputType">sprintfc 的第三个参数必须为逻辑值</entry>
+  </message>
+</rsccat>

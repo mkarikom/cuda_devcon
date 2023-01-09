@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AxesInput">부모는 geoaxes 객체여야 합니다.</entry>
+    <entry key="DataLengthMismatch">{0}은(는) {1}과(와) 같은 개수의 요소를 포함해야 합니다.</entry>
+    <entry key="LongitudeRequired">위도와 경도 입력값이 모두 필요합니다.</entry>
+    <entry key="NoDataInputs">위도와 경도 데이터 인수를 입력해야 합니다.</entry>
+    <entry key="RadiusLabel">밀도 계산 시 영향 반지름</entry>
+  </message>
+</rsccat>

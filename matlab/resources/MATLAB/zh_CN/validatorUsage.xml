@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonScalarSecondInput">函数 ''{0}'' 的第二个输入必须为标量。</entry>
+    <entry key="nonRealInput">函数 ''{0}'' 的输入必须为实数。</entry>
+    <entry key="nonNumericOrLogicalInput">函数 ''{0}'' 的输入必须为数值或逻辑值。</entry>
+    <entry key="ConflictingBoundaryOptions">不支持 ''{0}'' 和 ''{1}'' 选项的组合。</entry>
+    <entry key="invalidLowerBound">函数 ''{0}'' 的第二个输入必须为实数或标量逻辑值。</entry>
+    <entry key="invalidUpperBound">函数 ''{0}'' 的第三个输入必须为实数或标量逻辑值。</entry>
+    <entry key="invalidVectorSecondInput">函数 ''{0}'' 的第二个输入必须为非负整数标量值。</entry>
+    <entry key="notTextOrTrivialTextSecondInput">函数 ''{0}'' 的第二个输入必须为具有一个或多个字符的文本。</entry>
+    <entry key="nonTextSecondInput">函数 ''{0}'' 的第二个输入必须为字符串数组、字符向量或字符向量元胞数组。</entry>
+    <entry key="nonTextScalarSecondInput">函数 ''{0}'' 的第二个输入必须为字符串标量或字符向量。</entry>
+    <entry key="invalidSecondInput">函数 ''{0}'' 的第二个输入必须为 ''{1}''。</entry>
+    <entry key="invalidClassNamesInSecondInput">函数 ''{0}'' 的第二个输入必须为表示类名称的字符串数组、字符向量或字符向量元胞数组</entry>
+    <entry key="nonValidationError">{0}</entry>
+  </message>
+</rsccat>

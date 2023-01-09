@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!-- Copyright 2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="appFigureName">MathWorks License Borrowing</entry>
+    <entry key="prodStatus">Product Status</entry>
+
+    <entry key="borrowButton">Borrow</entry>
+    <entry key="returnButton">Return</entry>
+    <entry key="autoOnButton">Turn On Auto Borrow</entry>
+    <entry key="autoOffButton">Turn Off Auto Borrow</entry>
+    <entry key="closeButton">Close</entry>
+
+    <entry key="borrowOffDlgTitle">Automatic borrowing is turned off</entry>
+    <entry key="borrowOffDlgMsg">Products have been borrowed successfully.  Before working offline make sure all products have been installed.</entry>
+    <entry key="returnWarnTitle">Cannot Return Products</entry>
+    <entry key="returnWarnMsg">Products cannot be returned during the same MATLAB session in which they were borrowed.  Restart MATLAB to return products.</entry>
+
+    <entry key="untilDateLabel">(Until: {0})</entry>  <!-- {0} is a date -->
+    <entry key="borrowPeriodLabel">Specify Borrow Period</entry>
+    <entry key="borrowDateSpinnerLabel">Number of days to borrow</entry>
+
+    <entry key="prodColumnHeading">Product Name</entry>
+    <entry key="inuseColumnHeading">In Use</entry>
+    <entry key="statusColumnHeading">Borrow Status</entry>
+    <entry key="dateColumnHeading">Return Date</entry>
+
+    <entry key="fromListRadioLabel">Borrow selected products by choosing from a list.</entry>
+    <entry key="fromListRadioText">You select products to borrow.  Only products you select will be borrowed.</entry>
+    <entry key="autoRadioLabel">Borrow products automatically as you work with them.</entry>
+    <entry key="autoRadioText">Borrows all products currently in use, plus continue to borrow products automatically as you work with them.</entry>
+    <entry key="returnRadioLabel">Return borrowed products early.</entry>
+    <entry key="returnRadioText">Return selected products. If you are currently using the products they will not check-in until you close MATLAB.</entry>
+
+    <entry key="autoBorrowText">Automatic borrowing is turned on.\nContinue to work and products will be borrowed automatically as you work with them.\nYou can close this window and borrowing will continue.\nWhen you have borrowed all the products you need, click "Turn Off Auto Borrow" to display the status table.</entry>
+    <entry key="borrowErrorTitle">Error Borrowing License</entry>
+    <entry key="borrowErrorMsg" note="{0} is a product name. {1} is an error message that will be in English">Error borrowing license for {0}.\n{1}</entry>
+    <entry key="returnErrorTitle">Error Returning License</entry>
+    <entry key="returnErrorMsg" note="{0} is a product name. {1} is an error message that will be in English">Error returning license for {0}.\n{1}</entry>
+    <entry key="yesLabel">Yes</entry>
+    <entry key="individual">Individual</entry>
+    <entry key="borrowed">Borrowed</entry>
+  </message>
+</rsccat>

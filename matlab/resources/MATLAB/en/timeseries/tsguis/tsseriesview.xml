@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="Abort">Abort</entry>
+      <entry key="AttemptToAddAnAbsoluteTimeVector">You are attempting to add a time series with an absolute time vector to a view which uses a relative time vector so the absolute time cannot be displayed in the view.</entry>
+      <entry key="AttemptToAddARelativeTimeSeries">You are attempting to add a time series with a relative time vector to a view displaying an absolute time vector. Proceeding will remove any reference to absolute time in the plot.</entry>     
+      <entry key="CreatingPlotPreview">Creating Plot Preview</entry>
+      <entry key="Continue">Continue</entry>
+      <entry key="ConvertViewToRelativeTime">Convert View to Relative Time</entry>
+      <entry key="DataSelection">Data Selection...</entry>
+      <entry key="Detrend">Detrend...</entry>
+      <entry key="Filter">Filter...</entry>
+      <entry key="Interpolate">Interpolate...</entry>
+      <entry key="ProcessData">Process Data</entry>
+      <entry key="RemoveMissingData">Remove Missing Data...</entry>
+      <entry key="Resample">Resample...</entry>
+      <entry key="ResampleData">Resample Data...</entry>
+      <entry key="SelectData">Select Data...</entry>
+      <entry key="SynchronizeData">Synchronize Data...</entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+      <entry key="TimeVectorReferenceMismatch">Time Vector Reference Mismatch</entry>
+      <entry key="YouCannotCombineRelativeAndAbsoluteTimeSeries">You cannot combine both relative and absolute time series in the same time plot.</entry>
+   </message>
+</rsccat>

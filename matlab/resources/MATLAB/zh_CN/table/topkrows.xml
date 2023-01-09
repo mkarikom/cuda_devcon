@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedMode">排序方向必须为 ''descend'' 或 ''ascend''</entry>
+    <entry key="WrongLengthMode">排序方向必须指定为一个统一方向，或者为每个排序变量各指定一个方向。</entry>
+    <entry key="EmptyRowNames">输入表未包含行名称，将返回未经排序的所请求数量的行。</entry>
+    <entry key="BadNumericVarIndices">数值变量索引必须为正整数。</entry>
+    <entry key="NDVar">排序变量 ''{0}'' 的维度超过二维。</entry>
+    <entry key="SortOnVarFailed">无法对类型为 "{1}" 的变量 "{0}" 进行排序。</entry>
+    <entry key="GenCellNotSupported">元胞数组排序变量必须包含字符向量。</entry>
+    <entry key="InvalidK">要返回的行数必须为非负整数。</entry>
+  </message>
+</rsccat>

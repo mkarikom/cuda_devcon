@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FunFailed">将函数 ''{0}'' 应用于变量 ''{1}'' 时生成了以下错误:\n\n{2}\n</entry>
+    <entry key="NotAScalarOutput">在应用于变量 ''{1}'' 时，函数 ''{0}'' 返回了一个非标量值。</entry>
+    <entry key="MismatchInOutputTypes">在应用于变量 ''{3}'' 时，函数 ''{0}'' 返回了一个具有不匹配的类型({1}，需要 {2})的值。</entry>
+    <entry key="VertcatFailed">在应用于变量 ''{1}'' 中的组时，无法串联函数 ''{0}'' 返回的不兼容值:\n\n{2}\n</entry>
+    <entry key="InvalidFunction">第一个输入必须为函数句柄。</entry>
+    <entry key="InvalidOutputFormat">OUTPUTFORMAT 必须为以下项之一: 'uniform'、'table' 或 'cell'。</entry>
+    <entry key="InvalidInputVariablesFun">INPUTVARIABLES 必须返回一个逻辑标量。</entry>
+    <entry key="CharRowFunOutput">FUN 返回了一个 1×M 字符向量。您必须修改 FUN 以返回字符向量元胞数组，或者为 ''OutputFormat'' 参数指定 ''cell''。</entry>
+    <entry key="TimetableCannotGrow">函数 ''{0}'' 返回的值包含的行数超出输入时间表。当输出格式是 'timetable' 时，varfun 无法为这些额外的行创建新的行时间。要返回表而不是时间表，请将 'OutputFormat' 设置为 'table'。</entry>
+    <entry key="RowLabelsCannotBeDataVar">不支持使用行名称作为数据变量。</entry>
+    <entry key="RowLabelsCannotBeDataVarNondefaultName">变量名称 ''{0}'' 无法识别。您可能想访问该表中名为 ''{1}'' 的行名称。但是，不支持使用行名称作为数据变量。</entry>
+    <entry key="FunFailedGrouped">将函数 ''{0}'' 应用于变量 ''{2}'' 中的 {1} 组时生成了以下错误:\n\n{3}\n</entry>
+    <entry key="NotAScalarOutputGrouped">在应用于变量 ''{2}'' 中的 {1} 组时，函数 ''{0}'' 返回了一个非标量值。</entry>
+    <entry key="MismatchInOutputTypesGrouped">在应用于变量 ''{4}'' 中的 {3} 组时，函数 ''{0}'' 返回了一个具有不匹配的类型({1}，需要 {2})的值。</entry>
+    <entry key="GroupRowsMismatch">在应用于变量 ''{2}'' 中的 {1} 组时，函数 ''{0}'' 返回了一个具有不同行数的值。</entry>
+    <entry key="NonConstantFun">FUN 必须为常量。</entry>
+    <entry key="VarsizeInput">varfun 不支持可变大小的表或时间表。</entry>
+    <entry key="NonConstantParamValue">''{0}'' 的值必须为常量。</entry>
+    <entry key="NonConstantInputVarsFun">当使用函数句柄指定 InputVariables 时，函数的输出必须为常量。</entry>
+    <entry key="ErrorHandlerNotSupported">代码生成不支持错误处理程序。</entry>
+    <entry key="GroupedMixedTypes">在代码生成中，如果指定了 GroupingVariables 并且函数为每个 InputVariable 返回不同的类型，则不支持 OutputFormat 'cell'。</entry>
+  </message>
+</rsccat>

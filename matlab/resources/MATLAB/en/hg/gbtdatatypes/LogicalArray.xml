@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <entry key="isEqual">Unknown exception in LogicalArray:isEqual</entry>
+        <entry key="BadLogicalArrayRowVector">Value must be a row vector</entry>
+        <entry key="BadLogicalArray">Value must be a logical or logical array</entry>
+    </message>
+</rsccat>

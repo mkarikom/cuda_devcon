@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFirstFigureHandle">最初の引数は Figure でなければなりません</entry>
+    <entry key="InvalidAction">文字ベクトルは、''on''、''off''、''togglesnap''、''toggleview''、''noaction'' のいずれかでなければなりません</entry>
+    <entry key="InvalidFigureHandle">ハンドル引数は有効な Figure でなければなりません</entry>
+    <entry key="InvalidOnOff">文字ベクトルは ''on'' または ''off'' でなければなりません</entry>
+    <entry key="NoFigures">グリッドへのスナップを有効にする Figure をもたなければなりません</entry>
+  </message>
+</rsccat>

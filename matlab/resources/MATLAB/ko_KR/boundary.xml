@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidShrinkFactor">유효하지 않은 축소 인자(sf)입니다.</entry>
+    <entry key="InvalidInput">허용되는 어떤 입력 형식과도 입력값이 일치하지 않습니다.</entry>
+    <entry key="InvalidPointsMatrix">입력 점 P는 행렬이어야 합니다.</entry>
+    <entry key="EmptyInpPtsErrId">입력 점 배열이 비어 있습니다.</entry>
+    <entry key="NonColVecInpPtsErrId">입력 점은 열-벡터 형식으로 지정해야 합니다.</entry>
+    <entry key="Non2D3DInputErrId">입력 점은 numpoints × ndim 형식의 2차원 또는 3차원 좌표여야 합니다.</entry>
+  </message>
+</rsccat>

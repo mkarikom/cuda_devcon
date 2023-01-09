@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadArguments">句柄值不能为负数</entry>
+    <entry key="IntegerHandleArrayFull">整数句柄数组现在已满 - 没有更多可用句柄</entry>
+    <entry key="OutOfUniqueHandles">对于过去从未使用过的句柄，现在将重用这些句柄。</entry>
+    <entry key="AllocationFailed">句柄分配失败: 正在使用的句柄太多</entry>
+  </message>
+</rsccat>

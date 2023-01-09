@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="fmtInvalid">''{0}'' は無効な形式です。</entry>
+    <entry key="nonNumericInput">num2str への入力は数値でなければなりません。</entry>
+    <entry key="invalidSecondArgument">num2str の 2 番目の引数は、文字ベクトル、string スカラー、または数値でなければなりません。</entry>
+    <entry key="integerSecondArgument">整数値を文字ベクトルに変換するとき、精度引数は無視されます。</entry>
+    <entry key="badConversion">{0}</entry>
+  </message>
+</rsccat>

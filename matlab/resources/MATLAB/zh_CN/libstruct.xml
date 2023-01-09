@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RequireStruct">需要结构体。</entry>
+    <entry key="ScalarStructRequired">仅支持简单数据类型的结构体数组。</entry>
+    <entry key="FieldMismatch">字段不与结构体中的某个字段匹配。</entry>
+    <entry key="InvalidStructureInfo">结构体定义无效。所有结构体的定义必须属于结构体类型。</entry>
+    <entry key="CannotUnloadInUse">无法卸载具有未决对象的结构体类。</entry>
+    <entry key="TypesMustMatch">结构体类型必须匹配。</entry>
+    <entry key="InputMustBeStruct">输入必须为结构体或指向某个结构体的指针。</entry>
+    <entry key="InvalidFieldValue">由于发生错误，无法转换字段 {0} 的数据值:\n{1}</entry>
+  </message>
+</rsccat>

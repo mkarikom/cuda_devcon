@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DestroyCallbackStomped">방금 받은 다른 사람의 GObject DestroyCallback이 사용할 수 없게 됨</entry>
+    <entry key="WriteCallbackStomped">방금 받은 다른 사람의 GObject WriteCallback이 사용할 수 없게 됨</entry>
+    <entry key="MustBeInSameFigure">객체와 객체의 uicontextmenu는 동일한 Figure 내에 있어야 함</entry>
+    <entry key="BadHandleType">핸들은 uicontextmenu여야 합니다.</entry>
+    <entry key="DontNeedToSetInvalMethods">Inval 메서드를 설정할 필요가 없음--&gt; 범위를 설정해야 함</entry>
+    <entry key="TransformFcnNotSet">Transform 함수가 {0} 객체에 대해 설정되지 않음</entry>
+    <entry key="DestroyFcnNotSet">Destroy 함수가 {0} 객체에 대해 설정되지 않음</entry>
+    <entry key="ObjectInRectFcnNotSet">ObjectInRect 함수가 {0} 객체에 대해 설정되지 않음</entry>
+    <entry key="ComputeNormalsFcnNotSet">ComputeNormals 함수가 {0} 객체에 대해 설정되지 않음</entry>
+    <entry key="RenderFcnNotSet">Render 함수가 {0} 객체에 대해 설정되지 않음</entry>
+    <entry key="ZBufferRendererFcnNotSet">Zbuffer Renderer 함수가 {0} 객체에 대해 설정되지 않음</entry>
+    <entry key="GetSubobjPolyFcnNotSet">GetSubobjPoly 함수가 {0} 객체에 대해 설정되지 않음</entry>
+    <entry key="OkToRenderFcnNotSet">OkToRender 함수가 {0} 객체에 대해 설정되지 않음</entry>
+    <entry key="CannotSetProperty">공장 초기값 속성은 쿼리만 가능하고 설정할 수는 없음</entry>
+    <entry key="BadParent">유효하지 않은 부모임</entry>
+    <entry key="TooManyObjectsCreatedWhileDeletingChildren">{0} 자식 삭제 중에 너무 많은 객체가 생성됨\n모든 후손의 DeleteFcn을 제거하여 무한 루프를 방지해야 함</entry>
+    <entry key="CannotDeleteObject">루트 객체는 삭제할 수 없음</entry>
+    <entry key="FunctionNotSet">함수가 {0} 객체에 대해 설정되지 않음</entry>
+    <entry key="SetupFunctionNotSet">설정 함수가 {0} 객체에 대해 설정되지 않음</entry>
+    <entry key="UpdateFunctionNotSet">업데이트 함수가 {0} 객체에 대해 설정되지 않음</entry>
+    <entry key="MatrixDimensionMismatch">두 인수 모두 스칼라가 아닐 경우 행렬 크기는 일치해야 함</entry>
+    <entry key="BadHandle1">유효하지 않은 핸들임</entry>
+    <entry key="BadHandle2">유효하지 않은 핸들임</entry>
+    <entry key="ParentCannotBeReset">부모는 재설정할 수 없음</entry>
+    <entry key="ParentChildMismatchError">{0} 클래스의 객체는 {1} 클래스의 자식일 수 없습니다.</entry>
+    <entry key="ObjectCannotBeChild">객체 {0}[{1,number,integer}]은(는) 부모 {2}[{3,number,integer}]의 자식일 수 없음</entry>
+    <entry key="ChildrenMayOnlyBeSetToPermutationOfSelf">자식은 자기 자신의 치환으로만 설정될 수 있음</entry>
+    <entry key="BadPropertyValueFound">잘못된 속성값이 발견되었습니다.</entry>
+    <entry key="AmbiguousPropertyFound">모호한 속성이 발견되었습니다.</entry>
+    <entry key="AttemptToModifyReadOnly">읽기 전용을 수정하려고 함</entry>
+    <entry key="CannotCreateCopyOfInvalidHandle">Copyobj는 유효하지 않은 핸들의 복사본을 생성할 수 없습니다.\n</entry>
+    <entry key="sparseArgs">입력값은 비희소(Full) 형식이어야 합니다.</entry>
+  </message>
+</rsccat>

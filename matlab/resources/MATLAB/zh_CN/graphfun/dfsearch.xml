@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidEvent">事件 ''{0}'' 无法识别。</entry>
+    <entry key="InvalidEventType">事件参数必须为字符串向量、字符向量或字符向量元胞数组。</entry>
+    <entry key="SecondOutputEdgeOnly">仅当事件参数为 ''edgetonew''、''edgetodiscovered'' 或 ''edgetofinished'' 时，才支持第二个输出。</entry>
+    <entry key="InvalidStartNode">开始节点必须指定一个节点。</entry>
+    <entry key="KeyWithoutValue">没有为 ''Restart'' 参数提供任何值。</entry>
+    <entry key="ParseFlags">参数名称必须为 ''Restart''。</entry>
+    <entry key="ParseRestart">''Restart'' 值必须为 true 或 false。</entry>
+  </message>
+</rsccat>

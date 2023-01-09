@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="figure1_Name">GUI オプション</entry>
+    <entry key="text1_String">サイズ変更の動作:</entry>
+    <entry key="omResize_String1">サイズ変更不可</entry>
+    <entry key="omResize_String2">比例 (プロポーショナル)</entry>
+    <entry key="omResize_String3">その他 (SizeChangedFcn の使用)</entry>
+    <entry key="text3_String">コマンド ラインへのアクセス:</entry>
+    <entry key="omAccessibility_String1">コールバック (GUI はコールバック内で現在の Figure として操作できます)</entry>
+    <entry key="omAccessibility_String2">オフ (GUI は現在の Figure になりません)</entry>
+    <entry key="omAccessibility_String3">オン (GUI はコマンド ラインから現在の Figure として操作できます)</entry>
+    <entry key="omAccessibility_String4">その他 (プロパティ インスペクターからの設定を利用します)</entry>
+    <entry key="rbFigM_String">FIG ファイルと MATLAB ファイルの生成</entry>
+    <entry key="cbCallbacks_String">コールバック関数のプロトタイプを作成</entry>
+    <entry key="cbSingleton_String">GUI は 1 つのインスタンスのみの実行を許可 (シングルトン)</entry>
+    <entry key="cbBackground_String">背景にシステム配色を使用 (推奨)</entry>
+    <entry key="rbFigOnly_String">FIG ファイルのみ生成</entry>
+    <entry key="pbOk_String">OK</entry>
+    <entry key="pbCancel_String">キャンセル</entry>
+    <entry key="pbHelp_String">ヘルプ</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonTable">输入参数必须为表。</entry>
+    <entry key="AllCellVariables">在代码生成中，table2array 不支持其变量均为元胞数组的表。</entry>
+  </message>
+</rsccat>

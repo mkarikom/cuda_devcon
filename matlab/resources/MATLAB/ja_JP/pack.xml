@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInvocationLocation">PACK は MATLAB コマンド ラインからのみ使用できます。</entry>
+    <entry key="NonStringInput">PACK への入力は文字ベクトルでなければなりません。</entry>
+    <entry key="UnsuccessfulSave">pack はすべての変数を一時ファイルに保存できませんでした。pack はクリアと再読み込みを試行しません。</entry>
+  </message>
+</rsccat>

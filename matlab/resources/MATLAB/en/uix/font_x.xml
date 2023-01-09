@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="DefaultFontFixedNotFound">Default font \"fixed\" not found. Contact your System Administrator.</entry>
+    <entry key="FontEncodingEnvironmentOverflow">Font Encoding environment has overflown internal buffers</entry>
+    <entry key="RequestedFontSizeTooLarge">Requested Font Size {0,number,integer} is too large. Defaulting to {1,number,integer}</entry>
+  <!--Resource entries for src/uix-->
+  </message>
+</rsccat>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Copyright 2016-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="DataVariablesArray">''DataVariables'' parameter is only supported for table inputs.</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' function handle must return a logical scalar.</entry>
+    <entry key="DataVariablesTableSubscript">Invalid ''DataVariables'' value.</entry>
+    <entry key="DimensionInvalid">Dimension must be 1 or 2.</entry>
+    <entry key="MinNumMissing">''MinNumMissing'' value must be a nonnegative integer.</entry>
+    <entry key="NameValueNames">Parameter name must be ''MinNumMissing'' or ''DataVariables''.</entry>
+    <entry key="NameValuePairs">Incorrect number of input arguments. Name-value arguments must occur in pairs.</entry>
+    <entry key="NDArrays">N-D arrays not supported.</entry>
+    
+    <!-- For code generation -->
+    <entry key="TableDimCodegen">Dimension argument must be the constant 1 for code generation when first argument is a table or timetable.</entry>
+  </message>
+</rsccat>

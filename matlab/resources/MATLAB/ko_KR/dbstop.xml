@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="dbBadCondition">조건 ''{0}''에 구문 오류가 있습니다.</entry>
+    <entry key="dbNameNotSpecified">파일 이름을 지정해야 합니다.</entry>
+    <entry key="InvalidBreakpointCondition">''{0}''에 대한 유효하지 않은 중단점 조건입니다.</entry>
+    <entry key="InvalidBreakpointData">''{0}''에 대한 유효하지 않은 절점 데이터입니다.</entry>
+    <entry key="InvalidStruct">유효하지 않은 구조체입니다. 필드 ''{0}''이(가) 누락되었습니다.</entry>
+    <entry key="InvalidStructBadCondition">유효하지 않은 구조체입니다. 조건은 문자형 벡터여야 합니다.</entry>
+    <entry key="lineNumberNotApplicable">"{0}"이(가) MATLAB 코드 파일이 아니므로 MATLAB 디버거가 중단점을 설정할 수 없습니다.</entry>
+    <entry key="lineNumberAndLocalNestedCombinationInvalid">유효하지 않은 옵션 조합입니다. 라인 번호를 지정하거나 로컬 함수 또는 중첩 함수를 지정하십시오.</entry>
+  </message>
+</rsccat>

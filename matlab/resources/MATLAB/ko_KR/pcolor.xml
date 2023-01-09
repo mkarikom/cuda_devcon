@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidNumberOfInputs">하나 또는 세 개의 입력 데이터 인수가 있어야 합니다.</entry>
+    <entry key="NonMatrixColorInput">색 데이터 입력값은 행렬이어야 합니다.</entry>
+    <entry key="InputSizeMismatch">행렬의 차원이 일치해야 합니다.</entry>
+    <entry key="NonRealInputs">데이터 입력값은 실수여야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CurrentFolderComponentHasUnregisteredDependencies" translate="false">Component ''{0}'' in current folder has one or more dependencies that are either not registered or have an incomplete public interface, and will be ignored in the Command Window.\nCheck that dependencies of component ''{0}'' are registered.</entry>
+    <entry key="InSearchSpaceComponentHasUnregisteredDependencies" translate="false">Component ''{0}'' in Search Space has one or more dependencies that are either not registered or have an incomplete public interface, and will be ignored in the Command Window.\nCheck that dependencies of component ''{0}'' are registered.</entry>
+  </message>
+</rsccat>

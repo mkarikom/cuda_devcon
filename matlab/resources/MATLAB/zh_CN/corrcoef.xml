@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">输入参数的数目不足。</entry>
+    <entry key="XYmismatch">X 和 Y 的元素数目必须相同。</entry>
+    <entry key="InputDim">输入必须为二维。</entry>
+    <entry key="ComplexInputs">无法计算复数输入的 p 值。</entry>
+    <entry key="unmatchedPVPair">参数名称/值对组不匹配。</entry>
+    <entry key="invalidArgName">有效参数为 ''alpha'' 和 ''rows''。</entry>
+    <entry key="invalidAlpha">''alpha'' 参数必须是介于 0 与 1 之间的标量。</entry>
+    <entry key="invalidRowChoice">有效行选项包括 ''all''、''complete'' 和 ''pairwise''。</entry>
+  </message>
+</rsccat>

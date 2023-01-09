@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="workspaceFailed">ワークスペース ブラウザーを開けません</entry>
+    <entry key="PassedInWorkspaceDoesNotMatchExistingWorkspace">渡されたワークスペースは既存のワークスペースと一致しません。既存のワークスペース ブラウザーに戻ります。</entry>
+    <entry key="ErrorUpdatingPrivateWorkspaceVariableList">プライベート ワークスペース変数リストの更新中にエラーが発生しました: \n{0}\n</entry>
+  </message>
+</rsccat>

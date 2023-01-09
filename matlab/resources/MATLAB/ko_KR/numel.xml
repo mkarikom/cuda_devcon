@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadSubscriptingIndex">잘못된 첨자 인덱스입니다.</entry>
+    <entry key="exceedFloatPtIntLimit">요소의 수가 최대 부동 소수형 정수(flint: floating point int, floating point integer) 2^53-1을 초과합니다.\n결과가 부정확할 수 있습니다.</entry>
+  </message>
+</rsccat>

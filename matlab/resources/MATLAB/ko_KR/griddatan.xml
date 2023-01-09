@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="HigherDimArray">첫 번째 인수와 세 번째 인수는 행렬이어야 합니다.</entry>
+    <entry key="SampleValuesMustBeVector">두 번째 인수는 열 벡터여야 합니다.</entry>
+    <entry key="InputSizeMismatch">처음 두 개의 인수는 행 개수가 동일해야 합니다.</entry>
+    <entry key="XLowColNum">첫 번째 인수는 적어도 2개의 열을 가지고 있어야 합니다.</entry>
+    <entry key="CannotTessellateInfOrNaN">샘플 점은 유한해야 합니다.</entry>
+    <entry key="InvalidMethod">보간 방법은 ''linear'' 또는 ''nearest''여야 합니다.</entry>
+    <entry key="OptsNotStringCell">Options 인수는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="CannotTriangulate">데이터를 삼각분할할 수 없습니다.</entry>
+    <entry key="DuplicateDataPoints">중복된 샘플 점이 발견됨: 샘플 값의 평균이 사용됩니다.</entry>
+  </message>
+</rsccat>

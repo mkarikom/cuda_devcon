@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidInput">All inputs must be duration arrays or duration character vectors or strings.</entry>
+    <entry key="InputSizeMismatch">All inputs must have compatible sizes.</entry>
+    <entry key="InvalidIntervalType">Specify the interval type as 'openright', 'openleft', 'open', or 'closed'.</entry>
+  </message>
+</rsccat>

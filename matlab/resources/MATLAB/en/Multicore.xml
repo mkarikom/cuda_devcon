@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="MultithreadingDisabled">MATLAB has computational multithreading disabled.\nTo enable multithreading please restart MATLAB without singleCompThread option.</entry>
+    <entry key="IllegalNumComputationalThreads">Must be positive number of threads instead of {0, number, integer}.</entry>
+    <entry key="CannotChangeNumThreadsHere">Changing the number of computational threads is not supported in this context.</entry>
+  </message>
+</rsccat>

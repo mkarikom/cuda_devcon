@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelCommentWindow">注释窗口</entry>
+    <entry key="DlgYouMustChooseAtLeastThreePoints">您必须至少选择三个点</entry>
+    <entry key="TitleMakingAVase">创建花瓶</entry>
+    <entry key="MsgRenderingComplete">渲染完毕。\n\n 按“新建形状”按钮可创建其他形状</entry>
+    <entry key="MsgHowToMakeVase">红线表示您要创建的形状的 \n 旋转中心。单击上面的轴框内部绘制 \n 花瓶的轮廓。右键单击（或 shift-单击）           \n 最后一个点绘制花瓶。      </entry>
+    <entry key="ButtonNewShape">新建形状</entry>
+    <entry key="DlgRenderingPleaseWait"> 现在正在渲染实线: 请稍候...</entry>
+  </message>
+</rsccat>

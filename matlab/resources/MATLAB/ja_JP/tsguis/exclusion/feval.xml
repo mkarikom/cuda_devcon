@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ylowbounds">Y の下限は、スカラーであるか、データの列数と同じ長さをもっていなければなりません</entry>
+    <entry key="yhighbounds">Y の上限は、スカラーであるか、データの列数と同じ長さをもっていなければなりません</entry>
+    <entry key="xbounds">時間の上限と下限はスカラーでなければなりません</entry>
+    <entry key="InvalidExpressionUseVariableX">MATLAB 式が無効です。データを表すには ''x'' を使用してください。</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="RuleSelectionLowerTimeBound">%% ルールの選択: 時間下限</entry>
+    <entry key="RuleSelectionUpperTimeBound">%% ルールの選択: 時間範囲の上限</entry>
+    <entry key="RuleSelectionLowerDataBound">%% ルールの選択: データ下限</entry>
+    <entry key="RuleSelectionUpperDataBound">%% ルールの選択: データ上限</entry>
+    <entry key="RuleSelectionOutlierSelection">%% ルールの選択: 外れ値を選択</entry>
+    <entry key="RuleSelectionFlatlineSelection">%% ルールの選択: 水平ライン選択</entry>
+    <entry key="RuleSelectionMATLABExpression">%% ルールの選択: MATLAB 式を選択</entry>
+    <entry key="RuleSelectionCombiningRules">%% ルールの選択: 選択ルールを組み合わせ中</entry>
+    <entry key="RuleBasedSelectionCombiningRules">%% ルールに基づいた選択: 選択ルールを組み合わせ中</entry>
+  </message>
+</rsccat>

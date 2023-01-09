@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nativeAccumOnChar">문자형 배열에서는 네이티브 누적이 지원되지 않습니다.</entry>
+    <entry key="nonNumericSecondInput">차원 인수는 양의 정수 스칼라, 고유한 양의 정수로 구성된 벡터 또는 ''all''이어야 합니다.</entry>
+    <entry key="unknownFlag">옵션이 유효하지 않습니다. 옵션은 ''double'', ''native'', ''default'', ''omitnan'' 또는 ''includenan''이어야 합니다.</entry>
+    <entry key="unknownOption">옵션이 유효하지 않습니다. 옵션은 ''all'', ''double'', ''native'', ''default'', ''omitnan'' 또는 ''includenan''이어야 합니다.</entry>
+    <entry key="repeatedFlagNaN">유효하지 않은 옵션 조합입니다. ''omitnan'' 또는 ''includenan'' 중 하나만 설정할 수 있습니다.</entry>
+    <entry key="repeatedFlagOutType">유효하지 않은 옵션 조합입니다. ''double'', ''native'', ''default'' 중 하나만 설정할 수 있습니다.</entry>
+    <entry key="complexIntegersNotSupported">복소수형 정수 합은 지원되지 않습니다.</entry>
+    <entry key="wrongInput">유효하지 않은 데이터형입니다. 첫 번째 인수는 숫자형이거나 논리형이어야 합니다.</entry>
+  </message>
+</rsccat>

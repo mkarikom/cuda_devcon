@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NonScalar">Input structure must be a scalar structure when ''AsArray'' is false.</entry>
+    <entry key="NotVector">Input structure must be a scalar structure, or a structure array with one column or one row.</entry>
+    <entry key="UnequalFieldLengths">Input structure is a scalar, but its fields have different numbers of rows. If you intended to create a table with one row, set ''AsArray'' to true.</entry>
+    <!-- codegen -->
+    <entry key="NonconstantAsArray">''AsArray'' parameter value must be constant.</entry>
+  </message>
+</rsccat>

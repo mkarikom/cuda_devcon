@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="notfound">findobj 메서드가 핸들 클래스에서 발견되지 않습니다.</entry>
+    <entry key="NotSupported">''{0}'' 클래스에는 findobj 함수가 지원되지 않습니다.</entry>
+    <entry key="badinput">유효하지 않은 핸들 배열임</entry>
+    <entry key="SyntaxErr">findobj에서 구문 오류 발생.</entry>
+    <entry key="FunctionHandleReturnValue">'-function' 옵션을 통해 전달된 함수는 논리형 스칼라를 반환해야 합니다.</entry>
+    <entry key="InvalidOption">''{0}''은(는) 유효한 findobj 옵션이 아닙니다.</entry>
+    <entry key="DepthMustBeNumber">'-depth' 다음에는 숫자형 스칼라로 검색 심도가 지정되어야 합니다.</entry>
+    <entry key="FunctionHandle">'-function' 옵션 다음에는 함수 핸들이 오거나, 속성 이름과 함수 핸들이 와야 합니다.</entry>
+    <entry key="ClassNeeded">'-class' 옵션을 사용하는 클래스가 누락됨</entry>
+    <entry key="InvalidClass">'-class' 옵션 다음에는 meta.class 인스턴스나 유효한 클래스 이름이 와야 합니다.</entry>
+    <entry key="InvalidIsa">'-isa' 옵션 다음에는 meta.class 인스턴스나 유효한 클래스 이름이 와야 합니다.</entry>
+    <entry key="PropertyRequired">'-property' 옵션 다음에는 문자형 벡터나 string형 스칼라로 속성 이름이 지정되어야 합니다.</entry>
+    <entry key="MethodRequired">'-method' 옵션 다음에는 문자형 벡터나 string형 스칼라로 메서드 이름이 지정되어야 합니다.</entry>
+    <entry key="EventRequired">'-event' 옵션 다음에는 문자형 벡터나 string형 스칼라로 이벤트 이름이 지정되어야 합니다.</entry>
+    <entry key="IncompletePVPair">파라미터-값 쌍이 완전하지 않습니다.</entry>
+    <entry key="noregexp">정규 표현식 비교는 일반 비교를 사용하는 ''{0}'' 속성을 지원하지 않습니다.</entry>
+    <entry key="InvalidHeterogeneousArray">findobj 표현식과 일치하는 객체의 특정 클래스가 다르기 때문에 이러한 클래스를 하나의 유효한 이종 배열로 결합할 수 없습니다.</entry>
+    <entry key="mustReturnLogicalScalar">'-function' 지시문을 통해 전달된 함수는 논리형 스칼라를 반환해야 합니다.</entry>
+  </message>
+</rsccat>

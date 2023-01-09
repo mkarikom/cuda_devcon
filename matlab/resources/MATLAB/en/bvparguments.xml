@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="ODEfunNotFunctionHandle">{0}  The derivative function ODEFUN must be a function_handle.</entry>
+      <entry key="BCfunNotFunctionHandle">{0}  The boundary condition function BCFUN must be a function_handle.</entry>
+      <entry key="SolverNameUnrecognized">Internal error -- unrecognized solver name: {0},</entry>
+      <entry key="SolinitNotStruct">{0}  The initial profile SOLINIT must be provided as a structure.</entry>
+      <entry key="NoXInSolinit">{0}  The field ''x'' not present in SOLINIT.</entry>
+      <entry key="NoYInSolinit">{0}  The field ''y'' not present in SOLINIT.</entry>
+      <entry key="SolinitXNotEnoughPts">{0}  SOLINIT.x must contain at least the two end points.</entry>
+      <entry key="SolinitXNotMonotonic">{0}  The entries in SOLINIT.x must increase or decrease.</entry>
+      <entry key="SolinitYEmpty">{0}  No initial guess provided in SOLINIT.y.</entry>
+      <entry key="SolXSolYSizeMismatch">{0}  SOLINIT.y not consistent with SOLINIT.x.</entry>
+      <entry key="ODEfunOutputSize">{0}  The derivative function ODEFUN should return a column vector of length {1,number,integer}.</entry>
+      <entry key="BCfunOutputSize">{0}  The boundary condition function BCFUN should return a column vector of length {1,number,integer}.</entry>
+      <entry key="RelTolNotPos">{0}  RelTol in OPTIONS must be a positive scalar.</entry>
+      <entry key="RelTolIncrease">{0}  RelTol in OPTIONS has been increased to {1}.</entry>
+      <entry key="SizeAbsTol">{0}  For this problem AbsTol in OPTIONS must be a scalar or a vector of length {1,number,integer}.</entry>
+      <entry key="AbsTolNotPos">{0}  AbsTol in OPTIONS must be positive.</entry>
+      <entry key="ErrorCallingFun">Error in calling {0}(ODEFUN,BCFUN,SOLINIT{1}): \n</entry>
+      <entry key="WarningCallingFun">Warning in calling {0}(ODEFUN,BCFUN,SOLINIT{1}): \n</entry>
+   </message>
+</rsccat>

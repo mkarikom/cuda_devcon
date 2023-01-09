@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="msgcatNotInitialized">메시지 카탈로그가 아직 초기화되지 않아 작업이 실패했습니다.</entry>
+    <entry key="msgcatInvalidResourcePath">경로 "{0}"은(는) 유효한 메시지 카탈로그 리소스 경로가 아님</entry>
+    <entry key="msgcatInternalError">내부 메시지 카탈로그 오류가 발생함: {0}</entry>
+    <entry key="msgcatInvalidPathSupplied">제공된 경로가 유효하지 않음: {0}</entry>
+    <entry key="msgcatPathRemovalUnknownError">내부 경로 제거 오류가 발생함: {0} 경로: {1} </entry>
+    <entry key="msgcatResPathNotFound">리소스 경로를 찾을 수 없거나, 리소스 경로가 setAdditionalResourceLocation에서 추가되지 않음: {0}</entry>
+    <entry key="msgcatResDirNotPresent">경로에 "resources" 디렉터리가 포함되어 있지 않음: {0}</entry>
+  </message>
+</rsccat>

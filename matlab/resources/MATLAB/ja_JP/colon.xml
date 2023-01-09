@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonFiniteEndpoint">インデックス内のコロン演算子に対する終点またはインクリメントが有限ではありません。</entry>
+    <entry key="nonIntegerIndex">コロン演算子をインデックスとして使う場合、整数オペランドが必要です。</entry>
+    <entry key="OutOfRange">コロン オペランドはデータ型の範囲内でなければなりません。</entry>
+    <entry key="logicalInput">コロン オペランドは論理値にできません。</entry>
+    <entry key="mixedNonDoubleOperands">コロン オペランドは、すべて同じ型、または実数のスカラーの double が混合していなければなりません。</entry>
+    <entry key="nonDoubleOperandsNotRealScalar">コロン オペランドは実数のスカラーでなければなりません。</entry>
+    <entry key="operandsNotRealScalar">コロン オペランドは実数のスカラーでなければなりません。</entry>
+    <entry key="scalarDoubleMustBeIntegerValued">{0} オペランドと相互に作用する double オペランドは整数値でなければなりません。</entry>
+    <entry key="notEnoughInputs">コロン演算子の入力が不足しています。</entry>
+    <entry key="tooManyInputs">コロン演算子の入力が多すぎます。</entry>
+    <entry key="charOperandsMustBeIntegerValued">char オペランドと相互に作用する double オペランドは、整数値でなければなりません。</entry>
+    <entry key="integerOperandsMustBeIntegerValued">{0} オペランドと相互に作用する double オペランドは整数値でなければなりません。</entry>
+    <entry key="mixedCharOperandsFirstAndLast">char オペランドをもつコロン演算子では、最初と最後のオペランドは char でなければなりません。</entry>
+    <entry key="mixedCharOperandsSecond">char オペランドをもつコロン演算子では、2 番目のオペランドは char または実数のスカラー double でなければなりません。</entry>
+    <entry key="inputsMustBe2D">入力は 2 次元でなければなりません。</entry>
+  </message>
+</rsccat>

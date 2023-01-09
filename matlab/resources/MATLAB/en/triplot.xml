@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="EmptyTri">The triangulation is empty.</entry>
+      <entry key="NonTriangles">The triangulation must be composed of triangles.</entry>
+      <entry key="NonSurfTri">The triangulation must reside in 3D space.</entry>
+      <entry key="NonTetrahedra">The triangulation must be composed of tetrahedra.</entry>
+      <entry key="NonPlanarTri">The triangulation must reside in 3D space.</entry>
+   </message>
+</rsccat>

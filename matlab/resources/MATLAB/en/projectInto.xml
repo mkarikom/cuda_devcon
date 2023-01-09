@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- Error messages for matlab.internal.math.projectInto-->
+	<entry key="invalidMatrix1" translate="false"> The first input must be a 2-dimensional, dense double matrix.</entry>
+	<entry key="invalidMatrix2" translate="false"> The second input must be a 2-dimensional, dense double matrix.</entry>
+	<entry key="sizeMismatch" translate="false"> The first two inputs must have the same number of rows. </entry>
+	<entry key="invalidIndex" translate="false">The index must be a scalar integer between zero and the number of columns of the matrix.</entry>
+    <entry key="invalidMatrix" translate="false">The first input must be a numeric, logical or character matrix.</entry>
+  </message>
+</rsccat>

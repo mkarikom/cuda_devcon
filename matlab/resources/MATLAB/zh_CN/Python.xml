@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnsupportedConversion">不支持将 MATLAB ''{0}'' 转换为 Python。</entry>
+    <entry key="UnsupportedInputArraySizeError">只有 1 维向量支持将 MATLAB ''{0}'' 转换为 Python。</entry>
+    <entry key="UnsupportedInputArrayTypeError">不支持将 MATLAB ''{0}'' 数组转换为 Python。</entry>
+    <entry key="UnsupportedComplexConversionError">不支持将复数 MATLAB ''{0}'' 转换为 Python。</entry>
+    <entry key="UnsupportedOutputArrayTypeError">不支持转换为 ''{0}'' 数组。</entry>
+    <entry key="PyargsError">''{0}'' 必须为最后的输入参数。</entry>
+    <entry key="InvalidClassName">找不到类 ''{0}''。</entry>
+    <entry key="DispatchError">正在试图访问无效对象的属性或方法。</entry>
+    <entry key="PyException">Python 错误:  {0}</entry>
+    <entry key="PyExceptionWithMsg">Python 错误 {0}: {1}</entry>
+    <entry key="ConverterError">Python "{0}" 类型到 MATLAB "{1}" 的转换仅支持实数和逻辑值。</entry>
+    <entry key="AutoConversionFailure_Link">Python 函数 "{0}" 无法接受位置 {1,number,integer} 处的至少一个输入参数。该函数可能需要您可以从 MATLAB 数组构造的特定数据类型。有关详细信息，请参阅关于 Python 函数 "{0}" 和&lt;a href="matlab:helpview([docroot '/matlab/helptargets.map'], 'python_NDarray')"&gt;使用 Python 数组&lt;/a&gt;的文档。</entry>
+    <entry key="AutoConversionFailure">Python 函数 "{0}" 无法接受位置 {1,number,integer} 处的至少一个输入参数。该函数可能需要您可以从 MATLAB 数组构造的特定数据类型。有关详细信息，请参阅关于 Python 函数 "{0}" 和使用 Python 数组的文档。</entry>
+    <entry key="PyExceptionWithNDArrayInfoAndMsg_Link">Python 错误: {0}: {1} \n Python 函数 "{2}" 可能无法接受位置 {3,number,integer} 处的至少一个输入参数。该函数可能需要您可以从 MATLAB 数组构造的特定数据类型。有关详细信息，请参阅关于 Python 函数 "{2}" 和&lt;a href="matlab:helpview([docroot '/matlab/helptargets.map'], 'python_NDarray')"&gt;使用 Python 数组&lt;/a&gt;的文档。</entry>
+    <entry key="PyExceptionWithNDArrayInfoAndMsg">Python 错误: {0}: {1} \n Python 函数 "{2}" 可能无法接受位置 {3,number,integer} 处的至少一个输入参数。该函数可能需要您可以从 MATLAB 数组构造的特定数据类型。有关详细信息，请参阅关于 Python 函数 "{2}" 和使用 Python 数组的文档。</entry>
+    <entry key="PyExceptionWithNDArrayInfo_Link">Python 错误: {0} \n Python 函数 "{1}" 可能无法接受位置 {2,number,integer} 处的至少一个输入参数。该函数可能需要您可以从 MATLAB 数组构造的特定数据类型。有关详细信息，请参阅关于 Python 函数 "{1}" 和&lt;a href="matlab:helpview([docroot '/matlab/helptargets.map'], 'python_NDarray')"&gt;使用 Python 数组&lt;/a&gt;的文档。</entry>
+    <entry key="PyExceptionWithNDArrayInfo">Python 错误: {0} \n Python 函数 "{1}" 可能无法接受位置 {2,number,integer} 处的至少一个输入参数。该函数可能需要您可以从 MATLAB 数组构造的特定数据类型。有关详细信息，请参阅关于 Python 函数 "{1}" 和使用 Python 数组的文档。</entry>
+    <entry key="UnknownExceptionClass">&lt;未知异常类&gt;</entry>
+    <entry key="UnprintableExceptionObject">&lt;无法打印的异常对象&gt;</entry>
+    <entry key="PyDisplayBufferObject">Python {0}:</entry>
+    <entry key="PyDisplayBufferObjectFooterDetails">使用 {0} 函数查看 Python 对象的属性。</entry>
+    <entry key="PyDisplayBufferObjectFooterConversion">使用 {0} 函数转换为 MATLAB 数组。</entry>
+    <entry key="PyDisplayWithProps">Python {0} - 属性:</entry>
+    <entry key="PyDisplayWithNoProps">Python {0} (不带属性)。</entry>
+    <entry key="UnsupportedPythonSuperclass">类 ''{0}'' 将 Python 类 ''{1}'' 声明为超类。不支持为 Python 类创建 MATLAB 子类。</entry>
+    <entry key="InvalidPropertyName">''{0}'' 为无效的动态属性名称。属性名称必须以字母开头，并且由字母、数字和下划线组成。</entry>
+    <entry key="NameInUse">''{0}'' 已定义为方法。</entry>
+    <entry key="PythonUnavailable">Python 命令需要支持的 CPython 版本。请参阅 &lt;a href="matlab:helpview([docroot '/matlab/helptargets.map'], 'getting_started_python_interface')"&gt;Python 快速入门&lt;/a&gt;。</entry>
+    <entry key="PythonSDK">无法通过 MATLAB Compiler SDK for Python 从 MATLAB 调用 Python 库。</entry>
+    <entry key="UnsupportedLoad">无法加载 Python 对象。不支持将 Python 对象保存(串行化)到 MAT 文件中。</entry>
+    <entry key="BadSubscript">下标索引必须为正的实整数。</entry>
+    <entry key="InvalidLogicalIndex">逻辑下标索引不允许使用 ''{0}'' 类的 Python 对象。请使用正的实整数。</entry>
+    <entry key="InvalidArrayIndex">数组下标索引限制为使用 ''{0}'' 类的 Python 对象。使用固定间隔的向量，包括开始值、结束值和固定的增量。</entry>
+    <entry key="UnsupportedParenAssignment">''{0}'' 类的 Python 对象不支持使用圆括号样式的 ''()''索引来分配元素。</entry>
+    <entry key="UnsupportedCommaSeparatedList">用于访问多个元素的花括号样式的 ''{1}'' 索引不支持使用 ''{0}'' 类的 Python 对象。使用圆括号样式的 ''()'' 索引。</entry>
+    <entry key="UnsupportedParenIndexing">圆括号样式的 ''()'' 索引不允许使用 ''{0}'' 类的 Python 对象。使用花括号样式的 ''{1}'' 索引。</entry>
+    <entry key="TooManyKeys">对 ''{0}'' 类的 Python 对象进行索引时不允许使用多个键。请使用单个键。</entry>
+    <entry key="InvalidEndIndex">不允许对 ''{0}'' 类的 Python 对象使用结束索引。</entry>
+    <entry key="FuncHandleType">不支持 MATLAB 函数 ''{0}'' 的句柄。请使用 Python 函数的句柄。</entry>
+    <entry key="FuncHandleSearch">找不到函数 ''{0}''。</entry>
+    <entry key="NotCallable">无法将 ''{0}'' 类的 Python 对象作为函数调用。</entry>
+    <entry key="DocPostfixMsg">此内容来自外部语言的文档。一些示例和描述可能不适用于 MATLAB。</entry>
+  </message>
+</rsccat>

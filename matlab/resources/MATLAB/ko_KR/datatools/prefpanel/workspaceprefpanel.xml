@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Label">작업 공간</entry>
+    <entry key="SaveVariablesAsScripts">변수를 MATLAB 스크립트 파일로 저장</entry>
+    <entry key="SaveVariablesThreshhold">변수를 MATLAB 스크립트에 저장할 때 적용할 임계값</entry>
+    <entry key="SaveVariablesThreshholdHelper">이 임계값을 초과하는 변수는 연관 MAT 파일에 저장됩니다.</entry>
+    <entry key="MaxArraySize">최대 배열 크기:</entry>
+    <entry key="MaxNestingValue">구조체/객체 최대 중첩 수준:</entry>
+    <entry key="MultiDimArrayFormatting">다차원 배열 형식</entry>
+    <entry key="RowVectorReshape">형태 변경(reshape)을 통해 행 벡터로 (간결성 및 효율성 우선시)</entry>
+    <entry key="DimsForSaving2DPages">2차원 페이지로 (가독성 우선시)</entry>
+    <entry key="ArrayDimsFor2DPages">2차원 페이지로 표시할 배열 차원</entry>
+    <entry key="FileFormatting">파일 형식</entry>
+    <entry key="MaxCharactersPerLine">라인당 최대 문자 개수:</entry>
+    <entry key="StatisticalCalc">통계량 계산</entry>
+    <entry key="ShowArrayStatsHelper">개 요소 이하의 배열에 대해 통계량 표시</entry>
+    <entry key="HandleNaNInCalculations">계산 시 NaN 값 처리:</entry>
+    <entry key="UseNansInCalculatingStats">통계량을 계산할 때 NaN 사용</entry>
+    <entry key="IgnoreNansWhenCalculatingSttas">통계량을 계산할 때 NaN 무시</entry>
+    <entry key="ArraySizeLimit">MATLAB 배열 크기 제한</entry>
+    <entry key="LimitMaxArarySizeToRam">최대 배열 크기를 RAM에 대한 비율로 제한합니다.</entry>
+    <entry key="ArrayLimitTooltip">값은 1과 32 사이여야 하며, 첫 번째 값은 두 번째 값보다 작아야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidTarget">Target must be an axes object.</entry>
+    <entry key="InvalidTitle">Title must be a character vector, cell array of character vectors, or string array.</entry>
+    <entry key="TargetParentNotEqual">The axes you specified is the child of a different parent object than the 'Parent' property you specified.</entry>
+    <entry key="InvalidNumBubbles">'NumBubbles' must be 2 or 3.</entry>
+    <entry key="InvalidLimitLabels">'LimitLabels' must be a cell array of character vectors or a string array with 2 or 3 elements.</entry>
+</message>
+</rsccat>

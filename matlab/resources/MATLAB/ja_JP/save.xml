@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="argumentNotFilename">filename 引数は空でない string または文字ベクトルでなければなりません。</entry>
+    <entry key="notAScalarVariableSubset">3 番目の引数はスカラーの VariableSubset でなければなりません。</entry>
+    <entry key="NotAMATFile">MAT ファイル {0} を読み込めません:2 進数の MAT ファイルではありません。\n</entry>
+    <entry key="StructSourcesAreExclusive">複数の構造体から保存することはサポートされていません。</entry>
+    <entry key="structArgNotScalarStruct">-STRUCT への引数は、スカラーの構造体変数の名前でなければなりません。</entry>
+    <entry key="unsupportedTypeForAsciiFile">サポートされていないデータ型を ASCII ファイルに書き込もうとしています。\n\t変数 ''{0}'' をファイルに書き込めません。</entry>
+    <entry key="sparseUnsupportedForAsciiFile">スパース配列の ASCII ファイルへの保存はサポートされていません。\n\t変数 ''{0}'' をファイルに書き込めません。</entry>
+    <entry key="imaginaryDataIgnoredForAsciiFile">複素変数 ''{0}'' の虚数部は、ASCII ファイルに保存されません。</entry>
+    <entry key="cantWriteFile">ファイル ''{0}'' に書き込めません。</entry>
+    <entry key="errorClosingFile">ファイル ''{0}'' を保存できません。ファイルを閉じることができず、破損している可能性があります。</entry>
+    <entry key="unableToWriteToMatFile">ファイル ''{0}'' は破損している可能性があるため、書き込めません。</entry>
+    <entry key="unableToWriteToVFSMatFile">MAT ファイル {0} に書き込めません。</entry>
+    <entry key="unableToWriteToVFSMatFileAppend">MAT ファイル {0} に書き込めません。Version 7 以前の MAT ファイルの場合、リモートの場所からアクセスするために、'-v7.3' オプションを使用して新たにデータを保存することを検討してください。</entry>
+    <entry key="sizeTooBigForMATFile">変数 ''{0}'' が保存されませんでした。変数が 2 GB を超える場合は、MAT ファイル Version 7.3 以降を使用してください。</entry>
+    <entry key="nameTooLongForV4MATFile">変数 ''{0}'' が保存されませんでした。名前が {1,number,integer} 文字を超える場合は、MAT ファイル Version 6 以降を使用してください。</entry>
+    <entry key="illegalClassForV4MATFile">変数 ''{0}'' が保存されませんでした。''{1}'' 型の変数の場合は、MAT ファイル Version 6 以降を使用してください。</entry>
+    <entry key="illegalDataForMATFile">変数 ''{0}'' が保存されませんでした。''{1}'' 型の変数 (またはそのメンバーのいずれか) は、この MAT ファイルのバージョンではサポートされていません。新しいバージョンの MAT ファイルを使用してください。</entry>
+    <entry key="illegalDataForMATFileToStdio">クラス ''{1}'' の変数 ''{0}'' を STDIO に保存できません。</entry>
+    <entry key="unableToReadMatFileFromStdio">STDIO から MAT ファイルを読み込めません。原因不明のエラー。</entry>
+    <entry key="sizeMismatch">右辺のサイズは、左辺のインデックスのサイズと一致しませんでした。</entry>
+    <entry key="patternNotMatched">パターン ''{0}'' と一致する変数がありません</entry>
+    <entry key="varNotFound">変数 ''{0}'' が見つかりません。</entry>
+    <entry key="invalidVarName">''{0}'' は有効な変数名ではありません。</entry>
+    <entry key="patternNotMatchedInStruct">変数 ''{0}'' はパターン ''{1}'' と一致するフィールドを含んでいません。</entry>
+    <entry key="fieldNotFoundInStruct">変数 ''{0}'' は ''{1}'' という名のフィールドを含んでいません。</entry>
+    <entry key="illegalStructureField">構造体のフィールド ''{0}'' は、有効な構造体のフィールドではありません。</entry>
+    <entry key="VersionsAreExclusive">-V{0} オプションは、-V{1} オプションと組み合わせて使用できません。</entry>
+    <entry key="missingStructArg">-STRUCT オプションの後には、スカラーの構造体変数の名前がなければなりません。</entry>
+    <entry key="missingFromStructArg">-FROMSTRUCT オプションの後には、スカラーの構造体の変数を指定しなければなりません。</entry>
+    <entry key="filenameIsADirectory">''{0}'' はフォルダー名です。FILENAME は有効なファイル名でなければなりません。 </entry>
+    <entry key="noParentDir">''{1}'' が存在しないため、''{0}'' を作成できません。</entry>
+    <entry key="classMismatch">右辺のクラスおよび属性は、ファイル内の変数のタイプに変換できませんでした。</entry>
+    <entry key="cannotSaveEmptySubset">インデックス サブセットが空なので、変数 ''{0}'' を保存できません。</entry>
+    <entry key="cannotGrowDimensions">変数 ''{0}'' はファイルに {1,number,integer} の次元が含まれており、これがインデックス添字の {2,number,integer} の次元と一致しません。</entry>
+    <entry key="cannotSaveEmptyVariable">変数 ''{0}'' には空の配列を保存できません。</entry>
+    <entry key="tooManyOpen">ファイル {0} に書き込めません: これ以上ファイルを開けません。</entry>
+    <entry key="permissionDenied">ファイル {0} に書き込めません: アクセスが許可されていません。</entry>
+    <entry key="couldNotWriteFile">ファイル {0} に書き込めません:  {1}.</entry>
+    <entry key="couldNotGrow">ファイルで変数を拡大できませんでした。</entry>
+    <entry key="SubsetNotSupportedFileType">V7.3 より前の形式のファイルには部分配列を保存できません。V7.3 を使用してデータを保存することを検討してください。</entry>
+    <entry key="savingTo">\n保存先:{0}\n\n</entry>
+    <entry key="versionWithASCII">指定されたバージョンを無視します。バージョン フラグは MAT ファイルのみに適用されます。</entry>
+    <entry key="versionWithAppend">指定されたバージョンを無視します。'-append' フラグを使用する場合、バージョン フラグは不要です。</entry>
+    <entry key="NocompressionNotSupported">このバージョンの MAT ファイルでは、圧縮なしはサポートされていません。代わりに MAT ファイル v7 (既定) または v7.3 を使用してください。</entry>
+    <entry key="UnsupportedSparseAssignment">MAT ファイル オブジェクトでは、スパース行列のサブセットへの値の代入はサポートされていません。</entry>
+    <entry key="UnsupportedMATFileFormatForVFS">リモートの場所にある Version 7 以前の MAT ファイルへの保存または追加はサポートされていません。'-v7.3' オプションを使用してデータを保存することを検討してください。</entry>
+    <entry key="UnsupportedOperationASCIIForVFS">リモートの場所にある ASCII ファイルへの保存または追加はサポートされていません。Version 7.3 の MAT ファイルにデータを保存することを検討してください。</entry>
+    <entry key="UnsupportedFileExtensionForVFS">リモートの場所にある、ファイル名拡張子が '.mat' 以外の MAT ファイルへの保存または追加はサポートされていません。</entry>
+  </message>
+</rsccat>

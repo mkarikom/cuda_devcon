@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ClassNotLibrary">지정한 클래스는 라이브러리가 아닙니다.</entry>
+    <entry key="IsInUse">미처리 객체가 있는 라이브러리는 언로드할 수 없습니다.</entry>
+    <entry key="ClassNotFound">언로드할 라이브러리 클래스를 찾을 수 없습니다.</entry>
+    <entry key="NameMustBeSpecified">라이브러리 이름을 지정해야 합니다.</entry>
+  </message>
+</rsccat>

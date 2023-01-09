@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badFillvalInput">다섯 번째 입력 인수 FILLVALUE는 숫자형, 논리형, 문자형, 셀형 중 하나여야 합니다.</entry>
+    <entry key="outputSizeTooLarge">차원(행과 열의 곱)이 최대 정수보다 큽니다.</entry>
+    <entry key="nonPosIntIndValues">첫 번째 입력 인수 SUBS는 양의 정수형 첨자를 포함해야 합니다.</entry>
+    <entry key="subsValuesTooLarge">첫 번째 입력 인수 SUBS 및 세 번째 입력 인수 SZ는 ALL(MAX(SUBS)&lt;=SZ)를 충족해야 합니다.</entry>
+    <entry key="badIndValues">첫 번째 입력 인수 SUBS는 숫자형 첨자를 포함해야 합니다.</entry>
+    <entry key="badClassValInputDfltFun">함수 ''sum''에 {0} 클래스에 대한 값이 정의되지 않았습니다.</entry>
+    <entry key="pmaxsize">프로그램에서 허용하는 최대 변수 크기를 초과했습니다.</entry>
+    <entry key="nonmatrixSparseOutput">첫 번째 입력 인수 SUBS에 희소 형식 출력값을 위한 열이 3개 이상 포함되어 있지 않습니다.</entry>
+    <entry key="nonzeroFillvalSparseOutput">다섯 번째 입력 인수 FILLVALUE는 희소 형식 출력값을 위해 double형 0을 가져야 합니다.</entry>
+    <entry key="nondoubleValues">희소 누적을 위한 입력값은 double형이어야 합니다.</entry>
+    <entry key="negSizeOfSparse">희소 행렬 크기는 음이 아닌 정수여야 합니다.</entry>
+    <entry key="emptyNumericIndInput">첫 번째 입력 인수 SUBS는 적어도 하나의 열을 가진 숫자형 행렬이어야 하며, 실수로 구성되고 비희소 행렬(Full Matrix)이어야 합니다.</entry>
+    <entry key="emptyCellIndInput">첫 번째 입력 인수 SUBS는 적어도 하나의 셀을 가지고 있어야 합니다.</entry>
+    <entry key="badCellIndInput">첫 번째 입력 인수 SUBS의 셀은 동일한 길이의 숫자형 벡터여야 하며, 실수로 구성되고 비희소 벡터(Full Vector)여야 합니다.</entry>
+    <entry key="badClassValInput">두 번째 입력 인수 VAL은 비희소(Full) 형식의 숫자형, 논리형이거나 문자형 벡터 또는 스칼라여야 합니다.</entry>
+    <entry key="badSizeValInputMatInd">두 번째 입력 인수 VAL은 SUBS의 각 행에 대응하는 요소를 가진 벡터이거나 스칼라여야 합니다.</entry>
+    <entry key="badSizeValInputCellInd">두 번째 입력 인수 VAL은 SUBS의 각 셀과 동일한 크기의 요소 개수를 갖는 벡터이거나 스칼라여야 합니다.</entry>
+    <entry key="badSzInputMatInd">세 번째 입력 인수 SZ는 SUBS의 각 열에 대응하는 요소를 가진 풀(Full) 행 벡터여야 합니다.</entry>
+    <entry key="badSzInputCellInd">세 번째 입력 인수 SZ는 SUBS의 각 셀에 대응하는 요소를 가진 비희소(Full) 형식의 행 벡터여야 합니다.</entry>
+    <entry key="badSzInputVecInd">SUBS가 열 벡터일 경우 세 번째 입력 인수 SZ는 [N 1] 형식이어야 합니다.</entry>
+    <entry key="badFunInput">네 번째 입력 인수 FUN은 함수 핸들이어야 합니다.</entry>
+    <entry key="nonscalarOrSparseFillvalInput">다섯 번째 입력 인수 FILLVALUE는 비희소(Full) 형식 스칼라여야 합니다.</entry>
+    <entry key="badClassFillvalInput">다섯 번째 입력 인수 FILLVALUE는 숫자형, 논리형, 문자형, 셀형 중 하나여야 합니다.</entry>
+    <entry key="badIsSparseInput">여섯 번째 입력 인수 ISSPARSE는 논리형 스칼라여야 합니다.</entry>
+    <entry key="badIndInput">첫 번째 입력 인수 SUBS는 숫자형 행렬이거나 셀 벡터여야 하며, 실수로 구성되고 비희소(Full) 형식이어야 합니다.</entry>
+    <entry key="nonscalarFunOutput">함수 ''{0}''이(가) 스칼라가 아닌 값을 반환했습니다.</entry>
+    <entry key="sparseFunOutput">함수 ''{0}''이(가) 희소 값을 반환했습니다.</entry>
+    <entry key="badFunOutputClass">함수 ''{0}''이(가) 숫자형, 논리형, 문자형, 셀형이 아닌 값을 반환했습니다.</entry>
+    <entry key="inconsistentFunOutput">함수 ''{0}''이(가) 동일하지 않은 클래스의 값을 반환했습니다.</entry>
+    <entry key="inconsistentFillvalAndFunOutput">FILLVALUE 클래스와 함수 ''{0}''의 출력값 클래스가 동일하지 않습니다.</entry>
+  </message>
+</rsccat>

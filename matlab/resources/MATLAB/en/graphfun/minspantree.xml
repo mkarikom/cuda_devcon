@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="KeyWithoutValue">No value given for {0}.</entry>
+    <entry key="ParseFlags">Parameter name must be ''Method'', ''Root'', or ''Type''.</entry>
+    <entry key="ParseMethod">Method value must be ''dense'' or ''sparse''.</entry>
+    <entry key="ParseRoot">Root value must be a valid node ID. </entry>
+    <entry key="ParseType">Type value must be ''tree'' or ''forest''.</entry>
+  </message>
+</rsccat>

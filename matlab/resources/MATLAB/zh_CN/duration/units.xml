@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidUnit">UNIT 必须为 ''seconds''、''minutes''、''hours''、''days''、''years''。</entry>
+    <entry key="AmbiguousUnit">UNIT 的值具有多义性:  ''{0}''。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="OpenVariableAction">選択を開く</entry>
+    <entry key="SaveVariablesAction">名前を付けて保存...</entry>
+    <entry key="DuplicateVariableAction">複製</entry>
+    <entry key="DeleteVariableAction">削除</entry>
+    <entry key="InsertVariableAction">挿入</entry>
+    <entry key="NewDoubleVariableAction">新規</entry>
+    <entry key="SaveAllVariablesAction">保存</entry>
+    <entry key="NewFromSelection">選択から新規作成</entry>
+    <entry key="ClearWorkspaceAction">ワークスペースのクリア</entry>
+    <entry key="SelectAllDataAction">すべて選択</entry>
+    <entry key="InvertSelection">選択範囲の反転</entry>
+    <entry key="RefreshWorkspaceAction">更新</entry>
+    <entry key="RenameAction">名前の変更</entry>
+    <entry key="EditValueAction">値編集</entry>
+    <entry key="PrintAction">印刷...</entry>
+    <entry key="Field">フィールド</entry>
+    <entry key="Name">名前</entry>
+    <entry key="Value">値</entry>
+    <entry key="Size">サイズ</entry>
+    <entry key="Bytes">バイト</entry>
+    <entry key="Class">クラス</entry>
+    <entry key="Property">プロパティ</entry>
+    <entry key="Min">最小値</entry>
+    <entry key="Max">最大値</entry>
+    <entry key="Mean">平均</entry>
+    <entry key="Median">中央値</entry>
+    <entry key="Mode">最頻値</entry>
+    <entry key="Range">範囲</entry>
+    <entry key="Var">分散</entry>
+    <entry key="Std">標準偏差</entry>
+    <entry key="SortAscending">昇順に並べ替え</entry>
+    <entry key="SortDescending">降順に並べ替え</entry>
+    <entry key="DeleteColumnVariable">テーブル列変数の削除</entry>
+    <entry key="DeleteRowVariable">行の削除</entry>
+    <entry key="NewWorkspaceVariable">選択からワークスペース変数を新規作成</entry>
+    <entry key="NewTable">新規 table</entry>
+    <entry key="NewTimeTable">新しい timetable</entry>
+    <entry key="SeparateWorkspaceVariable">別のワークスペース変数</entry>
+    <entry key="ConvertTo">変換先</entry>
+    <entry key="NewNumericArray">新規数値配列</entry>
+    <entry key="NewCharacterArray">新規文字配列</entry>
+    <entry key="NewCellArray">新規 cell 配列</entry>
+    <entry key="NewStringArray">新規 string 配列</entry>
+    <entry key="UngroupColumnVariable">テーブル列変数のグループ化解除</entry>
+    <entry key="GroupColumnVariable">テーブル列変数のグループ化</entry>
+    <entry key="TransformColumn">列変数の新規計算/変換</entry>
+    <entry key="DeleteColumn">列の削除</entry>
+    <entry key="DeleteRow">行の削除</entry>
+    <entry key="ReplaceWithText">置き換え...</entry>
+    <entry key="ReplaceWithZero">ゼロに置き換え</entry>
+    <entry key="Zero">ゼロ</entry>
+    <entry key="NaNs">NaN</entry>
+    <entry key="Constant">定数...</entry>
+    <entry key="ReplaceWithMissing">欠損値に置き換え</entry>
+    <entry key="ReplaceWithEmpty">空に置き換え</entry>
+    <entry key="Transpose">変数の転置</entry>
+    <entry key="InsertColumnLeft">左に列を挿入</entry>
+    <entry key="InsertColumnRight">右に列を挿入</entry>
+    <entry key="InsertRowAbove">上に行を挿入</entry>
+    <entry key="InsertRowBelow">下に行を挿入</entry>
+    <entry key="NewCategoricalArray">新規 categorical 配列</entry>
+    <entry key="NewDatetimeArray">新規 datetime 配列</entry>
+    <entry key="NewDurationArray">新規 duration 配列</entry>
+    <entry key="NewCalendarDurationArray">新規カレンダー期間配列</entry>
+    <entry key="NewStructureArray">新規構造体配列</entry>
+    <entry key="NewRowVectors">新規行ベクトル</entry>
+    <entry key="NewColumnVectors">新規列ベクトル</entry>
+    <entry key="OpenSelection">選択を開く</entry>
+    <entry key="DeleteField">フィールドの削除</entry>
+    <entry key="BrushingOn">ブラシ選択オン</entry>
+  </message>
+</rsccat>

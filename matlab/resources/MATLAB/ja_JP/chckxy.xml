@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="XNotVector">最初の入力はベクトルでなければなりません。</entry>
+    <entry key="XComplex">最初の入力は実数でなければなりません。</entry>
+    <entry key="XYType">1 番目と 2 番目の入力は double 型または single 型でなければなりません。</entry>
+    <entry key="XQType">内挿点は double 型または single 型でなければなりません。</entry>
+    <entry key="XQComplex">内挿点は、実数でなければなりません。</entry>
+    <entry key="NotEnoughPts">最初の 2 つの入力は少なくとも 2 つの要素をもたなければなりません。</entry>
+    <entry key="RepeatedSites">最初の入力には一意の値が含まれていなければなりません。</entry>
+    <entry key="EndslopeNaN">端点での傾きを NaN にはできません。</entry>
+    <entry key="EndslopeInf">端点での傾きを Inf にはできません。</entry>
+    <entry key="NumSitesMismatchValues">サンプル点 X の数 {0,number,integer} が Y 値の数 {1,number,integer} に対応していません。</entry>
+    <entry key="IgnoreNaN">1 番目と 2 番目の入力の NaN のエントリはすべて無視されました。</entry>
+  </message>
+</rsccat>

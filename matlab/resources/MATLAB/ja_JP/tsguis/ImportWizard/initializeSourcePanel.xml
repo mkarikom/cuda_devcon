@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TextFileCsvTxtDat">テキスト ファイル (.csv、txt、dat)</entry>
+    <entry key="MultipleExcelWorkbooksXls">Excel ワークブック (*.xls)</entry>
+    <entry key="MultipleTextFilesTxtDatTabCsv">テキスト ファイル (*.txt、*.dat、*.tab、*.csv)</entry>
+    <entry key="MATLABSavedFileMat">MATLAB 形式ファイル (*.mat)</entry>
+    <entry key="WhatsThis">これはなに?</entry>
+    <entry key="DataSource">データ ソース</entry>
+    <entry key="ImportFrom">インポート元: </entry>
+    <entry key="MATLABWorkspace">MATLAB ワークスペース</entry>
+    <entry key="SelectSourceWhereDataIsStored">データが格納されているソースを選択してください。</entry>
+    <entry key="SelectFile">ファイルの選択</entry>
+    <entry key="Browse">参照...</entry>
+    <entry key="ImportFile">インポート ファイル</entry>
+    <entry key="MATfile">MAT-file (.mat)</entry>
+  </message>
+</rsccat>

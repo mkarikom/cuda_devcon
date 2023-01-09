@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Property">속성값에 오류가 있습니다.</entry>
+    <entry key="SceneNode">SceneNode의 상태에 오류가 있습니다.</entry>
+    <entry key="NotASceneNode">객체가 유효한 그래픽스 객체가 아닙니다.</entry>
+    <entry key="InvalidState">업데이트 순회 중에 유효하지 않은 장면 트리를 발견했습니다.</entry>
+    <entry key="SelfDeletedNode">노드 업데이트 중에 노드 또는 해당 캔버스가 삭제되었습니다.</entry>
+    <entry key="PatchColorIndices">패치 색 또는 알파에 유효하지 않은 인덱스가 있습니다.</entry>
+    <entry key="NodeDeletedAfterGetHints">getHints 중에 노드가 삭제되었습니다.</entry>
+    <entry key="NodeDeletedAfterGetExtents">데이터 범위를 가져오는 중 노드가 삭제되었습니다.</entry>
+    <entry key="DataObjectDeletedInPrepTraversal">"예비" 순회 중에 DataObject가 삭제되었습니다.</entry>
+    <entry key="EditSessionClosedWhenNotOpen">열려 있는 세션이 없을 때 편집 세션을 닫으려고 했습니다.</entry>
+    <entry key="InvalidCookie">등록 또는 등록 해제 시 쿠키를 찾을 수 없습니다.</entry>
+    <entry key="UserNodeDeleted">{0}이(가) 업데이트되는 동안 삭제되었습니다.</entry>
+    <entry key="NotImplemented">아직 이 기능이 구현되지 않았습니다.</entry>
+    <entry key="IncompatibleCameraProperties">Camera 속성이 유효한 변환 행렬을 형성하지 않습니다.</entry>
+    <entry key="TransformFailed">DataSpace 또는 ColorSpace 변환 메서드가 실패했습니다.</entry>
+    <entry key="InvalidDependency">유효하지 않은 종속성 이름입니다.</entry>
+    <entry key="EventAlreadyRegistered">동일한 이벤트 유형 등록을 두 번 시도했습니다.</entry>
+    <entry key="EventNotFound">이벤트 유형에 대한 역직렬화 메서드를 찾을 수 없습니다.</entry>
+    <entry key="InvalidCameraParameters">제공된 속성값으로 유효한 카메라를 생성할 수 없습니다.</entry>
+    <entry key="BadLimits">제한이 너무 큽니다.</entry>
+    <entry key="ChooseTickFailed">알 수 없는 이유로 눈금 값 선택에 실패했습니다.</entry>
+    <entry key="UpdateFailed">알 수 없는 이유로 업데이트에 실패했습니다.</entry>
+    <entry key="ExceedingNumberOfLightSources">광원 최대 수(8)를 초과했습니다.</entry>
+    <entry key="IncompleteTree">불완전한 트리에 있는 노드에 대해 UpdateState 가져오기를 시도했습니다.</entry>
+    <entry key="InvalidBinding">유효하지 않은 데이터 바인딩입니다.</entry>
+    <entry key="InvalidColorType">유효하지 않은 색 유형입니다.</entry>
+    <entry key="InvalidToolbarProperty">'Axes' 클래스의 속성 ''Toolbar''를 설정하는 중에 오류가 발생했습니다.\n값은 ''matlab.ui.controls.AxesToolbar''여야 합니다.</entry>
+    <entry key="InvalidPrimitiveColorBinding">스트립 기하학(Strip Geometry)으로 원색 바인딩을 사용할 수 없습니다.</entry>
+    <entry key="InvalidToken">체크아웃하지 않은 토큰을 체크인하려고 시도했습니다.</entry>
+    <entry key="TokenNotReady">아직 완료하지 않은 프로세스의 토큰에서 이벤트 데이터를 가져오려고 시도했습니다.</entry>
+    <entry key="OutOfOrderRendering">스테이지를 렌더링하는 순서가 잘못되었습니다.</entry>
+    <entry key="UserBreak">작업이 사용자에 의해 종료되었습니다.</entry>
+    <entry key="LightingNotSupported">조명은 사용할 수 없습니다.</entry>
+    <entry key="WideLinesNotSupported">{0}을(를) 초과하는 LineWidth는 사용할 수 없습니다.</entry>
+    <entry key="ThreeDNotSupported">3차원 장면은 사용할 수 없습니다.</entry>
+    <entry key="TextureNotSupported">이미지나 텍스처는 사용할 수 없습니다.</entry>
+    <entry key="TextBackGroundNotSupported">텍스트 배경은 사용할 수 없습니다.</entry>
+    <entry key="TextEdgeNotSupported">텍스트 가장자리는 사용할 수 없습니다.</entry>
+    <entry key="LaTexNotSupported">LaTeX 인터프리터는 지원되지 않습니다.</entry>
+    <entry key="HandleGraphicsException">{0}</entry>
+  </message>
+</rsccat>

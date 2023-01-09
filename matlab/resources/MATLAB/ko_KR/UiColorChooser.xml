@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidTitle">제목은 문자형 벡터여야 함</entry>
+    <entry key="InvalidRGBRange">[r g b] 값은 0과 1 사이여야 합니다.]</entry>
+    <entry key="InvalidColorType">색 설정은 숫자형이어야 합니다.</entry>
+    <entry key="InvalidColorDimension">색 차원이 올바르지 않습니다.</entry>
+  </message>
+</rsccat>

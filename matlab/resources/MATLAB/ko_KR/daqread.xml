@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="notEnoughInputs">입력 인수가 부족합니다.</entry>
+    <entry key="tooManyInputs">입력 인수가 너무 많습니다.</entry>
+    <entry key="tooManyOutputs">입력 인수가 너무 많습니다.</entry>
+    <entry key="invalidFilename">daqread에 유효하지 않은 파일 이름이 지정되었습니다.</entry>
+    <entry key="invalidFile">지정된 파일을 열 수 없음: ''{0}''</entry>
+    <entry key="invalidDAQFile">''{0}''은(는) 유효한 Data Acquisition Toolbox 파일이 아닙니다.</entry>
+    <entry key="truncatedFile">파일이 잘렸습니다. 가능한 한 많은 데이터의 복구가 시도됩니다.</entry>
+    <entry key="cannotRead">데이터 파일을 읽을 수 없습니다. 파일을 읽는 중 다음 오류 발생:\n {0}.</entry>
+    <entry key="invalidSecondArgument">지정된 두 번째 인수가 유효하지 않습니다.</entry>
+    <entry key="onlyDataReturned">''OutputFormat''이 ''tscollection''으로 설정되어 있는 경우 하나의 좌변 인수만 지정할 수 있습니다.</entry>
+    <entry key="noMatrixTimeWithTSC">''OutputFormat''이 ''tscollection''으로 설정되어 있는 경우 ''TimeFormat''을 ''matrix''로 설정할 수 없습니다.</entry>
+    <entry key="warnSampleRange">SampleRate 속성이 외부 클록 속도를 나타내지 않는다면 요청된 샘플이 올바르지 않을 수 있습니다. ''Samples'' 범위를 지정하십시오.</entry>
+    <entry key="errorSampleRange">파일을 읽는 중 오류가 발생했습니다. ''Samples'' 범위를 지정하십시오.</entry>
+    <entry key="tooManySamples">사용 가능한 샘플보다 많은 샘플이 요청되었습니다. {0}개의 샘플만 사용할 수 있습니다.</entry>
+    <entry key="fileTooLarge">파일이 너무 커서 프로그램으로 읽어올 수 없습니다. ''Samples''를 사용하여 샘플 범위를 지정하십시오.</entry>
+    <entry key="dataConversion">데이터를 double형으로 변환하는 중 오류가 발생했습니다. ''DataFormat''을 ''native''로 지정하십시오.</entry>
+    <entry key="noRecordType">이 레코드 유형은 헤더에서 사용할 수 없습니다.</entry>
+    <entry key="invalidProperty">daqread에 유효하지 않은 ''{0}'' 속성이 지정되었습니다.</entry>
+    <entry key="invalidPropertyValuePair">daqread에 유효하지 않은 속성값 쌍이 제공되었습니다.</entry>
+    <entry key="invalidSamplesRange">유효하지 않은 ''Samples'' 범위가 요청되었습니다.</entry>
+    <entry key="invalidSamplesTwoElementRange">''Samples''는 2 요소 범위로 지정해야 합니다.</entry>
+    <entry key="invalidSamplesInt">Samples는 정수 값을 포함해야 합니다.</entry>
+    <entry key="timeTwoElement">''Time''의 범위는 요소 2개로 지정되어야 합니다.</entry>
+    <entry key="timePositive">''Time''은 양수여야 합니다.</entry>
+    <entry key="mutuallyExclusiveProperties">''{0}'' 및 ''{1}'' 속성은 상호 배타적입니다.</entry>
+    <entry key="invalidTriggerIndex">유효하지 않은 ''Trigger'' 인덱스임: {0}.</entry>
+    <entry key="invalidTrigger">''Trigger''의 범위는 단일 트리거로 지정되거나, 요소 2개로 지정되어야 합니다.</entry>
+    <entry key="triggerInt">''Trigger''는 정수 값을 포함해야 합니다.</entry>
+    <entry key="invalidChannelName">유효하지 않은 채널 이름이 지정되었습니다.</entry>
+    <entry key="invalidChannelsIndex">유효하지 않은 ''Channels'' 인덱스임: {0}.</entry>
+    <entry key="invalidChannelsIndexMax">''Channels'' 인덱스 {0}이(가) 사용 가능한 채널 수 {1}개를 초과합니다.</entry>
+    <entry key="invalidChannelsInt">''Channels''는 정수 값을 포함해야 합니다.</entry>
+    <entry key="invalidDataFormat">유효하지 않은 ''DataFormat''임: {0}.  ''DataFormat''은 ''double'' 또는 ''native''일 수 있습니다.</entry>
+    <entry key="invalidTimeFormat">유효하지 않은 ''TimeFormat''임: {0}.  ''TimeFormat''은 ''vector'' 또는 ''matrix''일 수 있습니다.</entry>
+    <entry key="invalidOutputFormat">유효하지 않은 ''OutputFormat''임: {0}.  ''OutputFormat''은 ''matrix'' 또는 ''tscollection''일 수 있습니다.</entry>
+    <entry key="invalidTimeSeries">유효하지 않은 시간 벡터입니다. 마지막 요소에 예기치 않은 NaN이 있습니다.</entry>
+    <entry key="legacySupportDeprecated">''{0}'' 함수는 더 이상 사용되지 않으며 향후 릴리스에서 제거될 예정입니다.\n</entry>
+  </message>
+</rsccat>

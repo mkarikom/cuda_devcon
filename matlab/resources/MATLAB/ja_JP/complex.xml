@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="expectsFullNumeric" context="error">1 番目の入力は数値かつ非スパースでなければなりません。</entry>
+    <entry key="expectsNumeric" context="error">1 番目の入力は数値でなければなりません。</entry>
+    <entry key="invalidRealPartInput" context="error">実数部の入力は、非スパースの実数値でなければなりません。</entry>
+    <entry key="invalidImagPartInput" context="error">虚数部の入力は、非スパースの実数値でなければなりません。</entry>
+    <entry key="realPartInputNonNumericOrNonReal" context="error">実数部の入力は、実数値でなければなりません。</entry>
+    <entry key="imagPartInputNonNumericOrNonReal" context="error">虚数部の入力は、実数値でなければなりません。</entry>
+    <entry key="inputSizeMismatch">入力の配列は同じサイズでなければなりません。</entry>
+    <entry key="mixedInputs" context="error">整数は、同じクラスの整数、あるいはスカラーの倍精度とのみ結合できます。</entry>
+  </message>
+</rsccat>

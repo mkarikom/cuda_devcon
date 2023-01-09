@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">入力は文字配列でなければなりません。</entry>
+    <entry key="CellsMustContainChars">セルの要素は文字配列でなければなりません。</entry>
+    <entry key="MustBeScalar">関数ハンドルの引数はスカラーでなければなりません。</entry>
+    <entry key="MustBeCell">入力は文字ベクトルの cell 配列配列でなければなりません。</entry>
+  </message>
+</rsccat>

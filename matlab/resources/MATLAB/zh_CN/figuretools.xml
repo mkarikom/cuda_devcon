@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonShippingFile">这是非发送文件。不要在发送代码中调用该函数。</entry>
+    <entry key="incorrectOperatingMode">不支持在该模式下使用此函数</entry>
+    <entry key="InvalidCommand">figuretools 的第一个参数必须为以下命令之一:\n''MenuBar''、''ToolBar''、''MakeFigFiles'' 或 ''MakeDeploymentFiles''。</entry>
+  </message>
+</rsccat>

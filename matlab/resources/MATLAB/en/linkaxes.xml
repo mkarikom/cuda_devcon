@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="RequireDataAxes">Excluding ColorBars, Legends and non-axes</entry>
+    <entry key="InvalidFirstArgument">There must be at least one valid axes.</entry>
+    <entry key="CartesianAxes">Axes inputs must be Cartesian.</entry>
+    <entry key="Requires2Dinput">linkaxes requires 2-D axes as input. Use linkprop for generic property linking.</entry>
+    <entry key="InvalidSecondArgument">Second input argument must be one of ''x'', ''y'', ''xy'', or ''off''.</entry>
+    <entry key="CompatibleData">linkaxes requires the limits of all the axes be all numeric, all datetime or all duration values.</entry>
+    <entry key="CompatibleCategories">Categories must be the same across all linked axes.</entry>
+  </message>
+</rsccat>

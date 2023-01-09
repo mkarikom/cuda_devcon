@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNameValueMismatch">後続の入力引数は名前と値のペアでなければなりません。</entry>
+    <entry key="EmptyOrScalarBinEdges">ビンのエッジは長さ 2 以上のベクトルでなければなりません。</entry>
+    <entry key="InvalidBinLimits">ビンの範囲は、並べ替えられた有限な 2 要素 datetime ベクトルでなければなりません。</entry>
+    <entry key="InvalidBinWidth">ビンの幅は、スカラーの duration または calendarDuration で、正で有限でなければなりません。</entry>
+    <entry key="InvalidEdges">ビンのエッジは少なくとも 2 つの要素をもつ datetime ベクトルでなければなりません。</entry>
+    <entry key="InvalidMixedBinInputs">''NumBins''、''BinWidth''、''BinMethod'' または ''BinLimits'' のいずれも、''BinEdges'' 入力の後ろに続けることはできません。</entry>
+    <entry key="NonDatetimeEdges">EDGES は datetime 配列でなければなりません。</entry>
+    <entry key="NonDatetimeInput">X は datetime 配列でなければなりません。</entry>
+    <entry key="UnsortedEdges">ビンのエッジは、NaT を含まない、並べ替えられた datetime ベクトルでなければなりません。</entry>
+  </message>
+</rsccat>

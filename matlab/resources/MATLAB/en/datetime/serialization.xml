@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed">
+  <message>
+    <entry key="MissingIncoming">Unable to load serialized datetime array with missing {0}</entry>
+    <entry key="InvalidIncoming">Unable to load serialized datetime array with invalid value for {0}</entry>
+ </message>
+</rsccat>

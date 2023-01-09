@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidWeights">두 번째 입력값은 'weighted' 또는 간선 가중치로 구성된 벡터여야 합니다.</entry>
+    <entry key="InvalidWeightVector">간선 가중치는 간선의 개수와 같은 길이의 double형 벡터이거나 논리형 벡터여야 합니다.</entry>
+    <entry key="WeightedMultigraph">가중치 인접 행렬은 단순 그래프에서만 지원됩니다. 다중 간선과 자가 루프를 제거하려면 simplify를 사용하십시오.</entry>
+  </message>
+</rsccat>

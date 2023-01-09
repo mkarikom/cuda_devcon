@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="nargin">Wrong number of input arguments.</entry>
+    <entry key="NotEnoughInputs">Not enough input arguments.</entry>
+    <entry key="NtimesInvalid">NTIMES must be a single numeric value.</entry>
+    <entry key="NotEnoughPointsNanStrip">Insufficient finite values to interpolate.</entry>
+    <entry key="InvalidExtrapval">EXTRAPVAL must be a scalar.</entry>
+     <!--Resource entries for toolbox/matlab/polyfun-->
+    <entry key="NaNstrip">Columns of data containing NaN values have been ignored during interpolation.</entry>
+     <!--The following are for backward compatibility of the remove in R2013a-->
+    <entry key="InvalidMethod">{0} is an invalid method.</entry>
+    <entry key="narginOrInvalidDimV">Wrong number of input arguments or some dimension of V is less than 2.</entry>
+    <entry key="XNotMonotonic">X1,X2,X3, etc. must be monotonic vectors or arrays produced by NDGRID.</entry>
+  </message>
+</rsccat>

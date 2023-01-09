@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CenterTooLarge">''Center'' 值大于图中的节点数({0})。</entry>
+    <entry key="MultigraphNotSupported">不支持多重图。</entry>
+    <entry key="DuplicatesSRCSubset">源节点必须唯一。</entry>
+    <entry key="DuplicatesTARGSubset">目标节点必须唯一。</entry>
+    <entry key="EqualNrCols">输入矩阵的列数必须相同。</entry>
+    <entry key="EqualNumel">源节点和目标节点的元素数目必须相同，除非一个节点为标量。</entry>
+    <entry key="MustBeSparse">输入必须为稀疏矩阵。</entry>
+    <entry key="MustBeSparseSquare">输入必须为包含双精度实数元素的稀疏方阵。</entry>
+    <entry key="NoDenseTransp">只有稀疏矩阵支持标志 ''transp''。</entry>
+    <entry key="NoUndirTransp">只有有向图支持标志 ''transp''。</entry>
+    <entry key="IncidenceSelfLoops">具有自环的图不支持关联矩阵。</entry>
+    <entry key="InconsistentGraphs">G1 和 G2 必须具有相同数量的节点和边。</entry>
+    <entry key="InconsistentNodeCat">同一类别中的节点必须具有相同的度，并且每个类别中的节点数在 G1 和 G2 中都必须相同。</entry>
+    <entry key="InvalidAdjacency">数据类型无效。邻接矩阵必须为双精度值、单精度值或逻辑值的实数方阵。</entry>
+    <entry key="InvalidCenterNumeric">指定为数值时，''Center'' 值必须为正整数。</entry>
+    <entry key="InvalidCenterType">''Center'' 值必须为数值节点索引或节点名称。</entry>
+    <entry key="InvalidCombination">到子集中的最近节点的最短路径不可用</entry>
+    <entry key="InvalidEdgeCat">EdgeCats 必须是大小为 numedges(G)x2 且类型为 uint64 的矩阵。</entry>
+    <entry key="InvalidEdgeCatEmpty">EdgeCats 必须是类型为 uint64 且大小为 numedges(G)x2 或 0x0 的矩阵。</entry>
+    <entry key="InvalidNodeCat">NodeCats 必须是大小为 numnodes(G)x2 且类型为 uint64 的矩阵。</entry>
+    <entry key="InvalidNodeCatElements">NodeCats 必须是介于 0 和 N-1 之间的整数，其中 N 为类别数。</entry>
+    <entry key="InvalidTranspFlag">选项必须为 ''transp''。</entry>
+    <entry key="InvalidFormat">表格式必须为逻辑标量。设置多个事件后，其值必须为 true。</entry>
+    <entry key="InvalidGravity">''UseGravity'' 值必须为 ''on'' 或 ''off''。</entry>
+    <entry key="InvalidInnerNode">isInnerNode 必须是长度为 n 的稠密逻辑向量。</entry>
+    <entry key="InvalidIterations">迭代数必须为有限的正整数值标量。</entry>
+    <entry key="InvalidLabelVec">事件选择向量必须为六元素逻辑向量。</entry>
+    <entry key="InvalidLayerSize">层大小必须是长度至少为 1 并包含正整数的稠密双精度向量。</entry>
+    <entry key="InvalidXCoord">Xcoord 必须为长度等于节点数的实数稠密双精度向量。</entry>
+    <entry key="InvalidLeftRight">LeftRight 必须为逻辑标量。</entry>
+    <entry key="InvalidAllPathsParameter">Parameter value must be a nonnegative integer or Inf.</entry>
+    <entry key="InvalidAllCyclesParameter">Parameter value must be a positive integer or Inf.</entry>
+    <entry key="InvalidAllPathsReachability">Reachability must be a dense logical vector with length equal to the number of nodes.</entry>
+    <entry key="InvalidNearestK">节点数必须为正整数。</entry>
+    <entry key="InvalidNodeScalar">节点 ID 必须为不大于图中的节点数({0,number,integer})的正整数标量。</entry>
+    <entry key="InvalidNodes">节点 ID 必须为不大于图中的节点数({0,number,integer})的正整数双精度数组。</entry>
+    <entry key="InvalidNumNodes">节点数必须为实型非负整数。</entry>
+    <entry key="InvalidRestart">Restart 值必须为 true 或 false。</entry>
+    <entry key="InvalidSRC">源节点必须为由正整数节点索引组成的数值数组。</entry>
+    <entry key="InvalidSRCRange">源节点 ID 必须为不大于图中的节点数({0,number,integer})的正整数。</entry>
+    <entry key="InvalidSRCSubset">Source 必须为由数值节点索引组成的向量，或者为字符向量 ''all''。</entry>
+    <entry key="InvalidStart">开始节点必须为双精度标量节点索引。</entry>
+    <entry key="InvalidSubset">子集元素必须为有效的数值节点索引。</entry>
+    <entry key="InvalidSyntaxAdjacency">允许的语法为 adjacency(G)、adjacency(G, w) 和 adjacency(..., ''transp'')，其中 w 必须是长度为 numedges(G) 的双精度实数向量。</entry>
+    <entry key="InvalidTARG">目标节点必须为由正整数节点索引组成的数值数组。</entry>
+    <entry key="InvalidTARGRange">目标节点 ID 必须为不大于图中的节点数({0,number,integer})的正整数。</entry>
+    <entry key="InvalidTARGSubset">Target 必须为由数值节点索引组成的向量，或者为字符向量 ''all''。</entry>
+    <entry key="InvalidTarget">Target node must be a double scalar node index.</entry>
+    <entry key="InvalidUpLo">UpperLower 必须为逻辑标量。</entry>
+    <entry key="InvalidWeight">图的边权重必须为长度等于图的边数的双精度或单精度实数向量。</entry>
+    <entry key="InvalidWeightAdjacency">Weights 必须是双精度类型并且长度为 numedges(G) 的稠密实数向量。</entry>
+    <entry key="InvalidWeightsDirectWEff">当 ''WeightEffect'' 值为 ''direct'' 时，边权重必须为非零值和非 NaN 值。</entry>
+    <entry key="InvalidWeightsInverseWEff">当 ''WeightEffect'' 值为 ''inverse'' 时，边权重必须为有限值。</entry>
+    <entry key="InvalidWEffect">''WeightEffect'' 值必须为 ''direct''、''inverse'' 或 ''none''。</entry>
+    <entry key="InvalidXCoordinates">起始 X 坐标必须为包含 {0,number,integer} 个元素的实数向量。</entry>
+    <entry key="InvalidYCoordinates">起始 Y 坐标必须为包含 {0,number,integer} 个元素的实数向量。</entry>
+    <entry key="InvalidZCoordinates">起始 Z 坐标必须为包含 {0,number,integer} 个元素的实数向量。</entry>
+    <entry key="MaxflowInvalidNodes">源节点和目标节点必须不同。</entry>
+    <entry key="MaxflowScaling">最大流问题缩放错误。请考虑重新调整边权重。</entry>
+    <entry key="MustBeDigraph">输入必须为 MLDigraph。</entry>
+    <entry key="MustBeGraph">输入必须为 MLGraph。</entry>
+    <entry key="NaNWeight">图的边权重包含 NaN。</entry>
+    <entry key="NegativeWeight">图的边权重必须为非负值。</entry>
+    <entry key="NonfiniteXCoordinates">起始 X 坐标必须是有限的。</entry>
+    <entry key="NonfiniteYCoordinates">起始 Y 坐标必须是有限的。</entry>
+    <entry key="NonfiniteZCoordinates">起始 Z 坐标必须为有限值。</entry>
+    <entry key="NonSymmetricAdjacency">图的邻接矩阵必须是对称的。</entry>
+    <entry key="NonZeroTwoCycle">输入图的双循环具有两个非零权重。</entry>
+    <entry key="NoSelfLoops">输入图不得包含任何自环。</entry>
+    <entry key="NotReverseTopological">有向图必须为反向拓扑顺序。</entry>
+    <entry key="NumNodesTooSmall">节点数必须大于或等于 {0,number,integer}。</entry>
+    <entry key="SymmetricAdjacency">邻接矩阵必须是对称的。</entry>
+    <entry key="UseGravityLogical">''UseGravity'' 值必须为 ''on''、''off'' 或逻辑向量。</entry>
+    <entry key="WEffLayoutFailed">由于数值溢出，布局算法失败。请考虑重新调整图的边权重。</entry>
+    <entry key="WrongLayerSum">层大小之和必须等于节点数。</entry>
+    <entry key="MatchingOneInput">对于只有一个输入的语法，输入必须为稠密方阵。</entry>
+    <entry key="MatchingTwoInputs">对于有两个输入的语法，第一个输入必须为稀疏方阵，第二个输入必须为双精度实数向量且长度等于第一个输入的非零值的数目。</entry>
+    <entry key="LoadCorrupted">无法加载图或有向图对象，因为它已损坏。</entry>
+  </message>
+</rsccat>

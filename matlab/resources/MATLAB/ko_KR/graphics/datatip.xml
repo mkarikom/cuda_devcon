@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="emptyAxes">어설션</entry>
+    <entry key="invalidOrientation">유효하지 않은 방향 값임</entry>
+    <entry key="ErrorInCustomFunction">사용자 지정 업데이트 함수를 사용하여\n 데이터팁을 업데이트할 수 없음</entry>
+    <entry key="InvalidLabelProperty">레이블은 string형 스칼라이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="InvalidValueProperty">값은 데이터 속성 이름이 있는 string형 스칼라 또는 문자형 벡터(예: 'XData')이거나 벡터 또는 함수 핸들이어야 합니다.</entry>
+    <entry key="InvalidFormatProperty">유효하지 않은 데이터팁 형식입니다.</entry>
+    <entry key="IncorrectFormatProperty">형식은 string형 스칼라이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="InvalidNumericFormat">유효하지 않은 숫자형 데이터팁 형식입니다.</entry>
+    <entry key="InvalidFunctionHandle">적어도 하나의 입력 인수를 허용하는 함수를 지정해야 합니다.</entry>
+    <entry key="MustHaveAtleastOneRow">데이터팁에는 적어도 한 개의 행이 있어야 합니다.</entry>
+    <entry key="CannotCreateEmptyRow">데이터팁 행에는 적어도 한 개의 레이블 또는 값이 있어야 합니다.</entry>
+    <entry key="IncompatibleValue">값은 데이터 소스와 호환되어야 합니다.</entry>
+    <entry key="UncustomizableDataTipTemplate">{0} 객체에 대해 DataTipTemplate의 속성을 변경하는 것은 지원되지 않습니다.</entry>
+    <entry key="CannotUpdateCustomFunction">데이터팁이 업데이트 함수를 사용하기 때문에 DataTipRows를 설정해도 아무 효과가 없습니다.\n변경 사항을 보려면 데이터팁의 상황별 메뉴를 사용하여 업데이트 함수를 삭제하십시오.</entry>
+    <entry key="UncommentLineToCreateDataTip">다음 라인은 데이터팁을 생성할 수 있는 다른 방법을 보여줍니다.</entry>
+    <entry key="Invalid3DCoordinates">3차원 차트에 데이터팁을 표시하려면 3개의 좌표를 지정하십시오.</entry>
+    <entry key="Invalid2DCoordinates">2차원 차트에 데이터팁을 표시하려면 2개의 좌표를 지정하십시오.</entry>
+    <entry key="InvalidValueForDateTime">{0}을(를) 유효한 datetime형 값으로 지정하십시오.</entry>
+    <entry key="InvalidValueForNumerical">{0}을(를) 유효한 숫자형 값으로 지정하십시오.</entry>
+    <entry key="InvalidValueForCategorical">{0}을(를) 유효한 categorical형 값으로 지정하십시오.</entry>
+    <entry key="InvalidValueForDuration">{0}을(를) 유효한 duration형 값으로 지정하십시오.</entry>
+    <entry key="InvalidParent">첫 번째 인수는 데이터팁을 지원하는 chart 객체여야 합니다.</entry>
+    <entry key="IncorrectParent">유효하지 않은 부모입니다. 부모는 chart 객체여야 합니다.</entry>
+    <entry key="InvalidPropertyName">속성 이름은 문자형 벡터 또는 string형이어야 합니다.</entry>
+    <entry key="InvalidFirstArgument">유효하지 않은 인수입니다. 객체가 삭제되었거나 데이터팁을 지원하지 않습니다.</entry>
+    <entry key="UnknownProperty">''{0}''은(는) 알 수 없는 속성입니다.</entry>
+    <entry key="ErrorWhileEvaluating">{0}\n데이터팁에 대해 {1}을(를) 실행하는 중 오류가 발생했습니다.</entry>
+    <entry key="IncorrectInputArgs">datatip 객체를 생성하기 위한 입력 인수가 잘못되었습니다.</entry>
+    <entry key="InvalidLocation">''{0}''은(는) 유효한 값이 아닙니다. 'northeast' | 'northwest' | 'southeast' | 'southwest' 값 중 하나를 사용하십시오. </entry>
+    <entry key="CannotSetUIContextMenu">데이터팁의 ''ContextMenu'' 속성을 설정할 수 없습니다.</entry>
+    <entry key="ModifyOption">데이터팁 수정</entry>
+    <entry key="ResetOption">데이터팁 재설정</entry>
+    <entry key="MoreOption">더 보기...</entry>
+    <entry key="MinOption">최소</entry>
+    <entry key="MaxOption">최대</entry>
+    <entry key="MeanOption">평균</entry>
+    <entry key="CountOption">개수</entry>
+    <entry key="SumOption">합</entry>
+    <entry key="MedianOption">중앙값</entry>
+    <entry key="AvailableLabel">사용 가능한 옵션</entry>
+    <entry key="SelectedLabel">선택한 옵션</entry>
+    <entry key="AddOptionsToSelected">선택한 옵션에 추가</entry>
+    <entry key="RemoveOptionsFromSelected">선택한 옵션에서 제거</entry>
+    <entry key="UpLabel">위로</entry>
+    <entry key="DownLabel">아래로</entry>
+    <entry key="UpTooltip">선택한 옵션을 위로 이동합니다.</entry>
+    <entry key="DownTooltip">선택한 옵션을 아래로 이동합니다.</entry>
+    <entry key="OKLabel">확인</entry>
+    <entry key="CancelLabel">취소</entry>
+    <entry key="CountVariable">{0} 개수</entry>
+    <entry key="MinVariable">{0} 최솟값</entry>
+    <entry key="MaxVariable">{0} 최댓값</entry>
+    <entry key="SumVariable">{0} 합</entry>
+    <entry key="MedianVariable">{0} 중앙값</entry>
+    <entry key="MeanVariable">{0} 평균</entry>
+    <entry key="NoneVariable">{0}</entry>
+  </message>
+</rsccat>

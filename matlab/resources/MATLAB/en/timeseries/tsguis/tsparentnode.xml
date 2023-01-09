@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2012-2013 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="Abort">Abort</entry>
+      <entry key="AVariableAlreadyExists">A variable with name ''{0}'' already exists in the workspace.  Do you want to overwrite the existing variable or abort this operation?</entry>
+      <entry key="CopyNumberOf" translate="false" note="TranslateFalseBatch;">Copy_{0,number,integer}_of_{1}</entry>
+      <entry key="CopyOf" translate="false" note="TranslateFalseBatch;">Copy_of_{0}</entry>
+      <entry key="CurrentTimeNonuniform">Current time: non-uniform {0} to {1} {2}</entry>
+      <entry key="CurrentTimeTo">Current time: {0} to {1}</entry>
+      <entry key="CurrentTimeUniform">Current time: uniform {0} to {1} {2}</entry>
+      <entry key="Description">Description</entry>
+      <entry key="DuplicatedVariableDetected">Duplicated Variable Detected</entry>
+      <entry key="ImportTimeSeries">Import Time Series/Collection from MATLAB Workspace</entry>
+      <entry key="ImportRawData">Import Raw Data...</entry>
+      <entry key="ImportWorkspaceObjects">Import Workspace Objects...</entry>
+      <entry key="ListAllValid">List of all the valid timeseries data objects (non-Simulink) currently allowed in the TSTOOL GUI under the main Time Series node.</entry>
+      <entry key="Members">{0,number,integer} members</entry>
+      <entry key="Name">Name</entry>
+      <entry key="NamedSlashesAreNotAllowed">Slashes (''/'') are not allowed in the imported object names. Please remove slashes from ''{0}'' before importing {1}.</entry>
+      <entry key="NewChildNode">New Child Node</entry>
+      <entry key="NonUniformlySampled">Non uniformly sampled</entry>
+      <entry key="ObjectsHaveBeenExportedToTheBaseWorkspace">Objects have been exported to the base workspace.</entry>
+      <entry key="Overwrite">Overwrite</entry>
+      <entry key="Paste">Paste...</entry>
+      <entry key="Remove">Remove</entry>
+      <entry key="SelectTheRowCorrespondingToTheObjectsYouWantToExport">Select the row corresponding to the objects you want to export.</entry>
+      <entry key="SlashesNotAllowed">Slashes (''/'') are not allowed in the imported object names. Please remove slashes from ''{0}'' before importing.</entry>
+      <entry key="TheTscollectionCannotBeImported">The tscollection with name {0} has a null time vector and cannot be imported</entry>
+      <entry key="TimeseriesOneWord">Timeseries</entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+      <entry key="TimeseriesWith10000ColumnsCannotBeUsed">Timeseries with &gt;10000 columns cannot be used in tstool. Try transposing the data or restricting the number of column before importing.</entry>
+      <entry key="Tscollection" translate="false" note="TranslateFalseBatch;">Tscollection ({0})</entry>
+      <entry key="TimeVector">Time Vector</entry>
+      <entry key="Type">Type</entry>
+      <entry key="UniformlySampled">Uniformly sampled with Increment = {0}</entry>
+  </message>
+</rsccat>

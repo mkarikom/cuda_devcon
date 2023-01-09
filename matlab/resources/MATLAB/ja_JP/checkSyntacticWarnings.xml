@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Checking">{0} をチェック中...</entry>
+    <entry key="FailedToCompile">{0} をコンパイルできませんでした。</entry>
+    <entry key="Finished">要求されたディレクトリのチェックが完了しました。</entry>
+    <entry key="MissingArgument">{0} 入力引数はサポートされていません。</entry>
+    <entry key="MustBeStringScalarOrCharacterVector">入力引数はすべて string スカラーまたは文字ベクトルでなければなりません。</entry>
+  </message>
+</rsccat>

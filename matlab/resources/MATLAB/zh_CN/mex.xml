@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="twoUNCPaths">无法在 PWD 和 TEMPDIR 均为 UNC 路径时生成文件。</entry>
+    <entry key="dotdots">''{0}'' 的相对路径被解析为无效的 ''{1}''。</entry>
+    <entry key="assertion">断言在文件 ''{2}'' 的第 {3,number,integer} 行处失败{0}。\n{1}\n\n堆栈跟踪:\n{4}\n</entry>
+    <entry key="destinationDirNotFound">找不到目标目录 "{0}"。</entry>
+    <entry key="mexFileLocked">MEX 文件 "{0}" 已被锁定，在重新编译之前必须进行解锁。</entry>
+    <entry key="RspFilePermissionOpen">无法打开要写入的文件 "{0}": {1}。</entry>
+    <entry key="RspFilePermissionWrite">无法写入文件 "{0}": {1}。</entry>
+    <entry key="CreateRSPFile">{0} 命令达到 Window 的命令行字符串限制。正在创建 RSP 文件 {1} 并将 {2} 命令后面的内容复制到该文件中。 </entry>
+    <entry key="RSPFileException">无法创建 RSP 文件: ''{0}''。</entry>
+    <entry key="moveToUNCPermissions">MEX 无法将生成的文件重新移到 UNC 路径上。请检查 ''{0}'' 的权限或安全性。</entry>
+    <entry key="moveToUNCTemp">MEX 无法删除临时目录 ''{0}''。</entry>
+    <entry key="genericFailure">无法成功完成。</entry>
+    <entry key="invalidArgument">所有参数都必须为非空字符串或字符向量。</entry>
+    <entry key="OutputSwitchMisuse">-output 开关必须后跟文件名。</entry>
+    <entry key="OutdirSwitchMisuse">-outdir 开关必须后跟目录名称。</entry>
+    <entry key="Verbose">详细模式已开。</entry>
+    <entry key="FileCopied">已将选项文件从 ''{0}'' 复制到 ''{1}''。</entry>
+    <entry key="FileRenamed">已将 options 文件 ''{0}'' 重命名为 ''{1}''。</entry>
+    <entry key="ConfiguredToUse_bold">{0} 配置为使用 &lt;strong&gt;''{1}''&lt;/strong&gt; 以进行 {2} 语言编译。</entry>
+    <entry key="ConfiguredToUse">{0} 配置为使用 ''{1}'' 以进行 {2} 语言编译。</entry>
+    <entry key="NotConfiguredToUse">{0} 无法使用编译器 ''{1}''，因为未检测到该编译器。</entry>
+    <entry key="LookforImplicitSel">未标识 MEX 选项文件；将查找隐式选择内容。</entry>
+    <entry key="SetEnv">设置 {0} = {1}</entry>
+    <entry key="FailSetEnv">无法定义环境变量 ''{0}''。</entry>
+    <entry key="ExecutingCmd">... 正在执行命令 ''{0}''...</entry>
+    <entry key="FileCannotOpen">无法打开 ''{0}''。</entry>
+    <entry key="MexDoubleHandle">调用了已弃用的 MEX 函数 mexGet|mexSet。更新源代码以使用 mxGetProperty|mxSetProperty，或者在命令行中添加 -D{0} 重新运行 MEX 以进入兼容性模式。</entry>
+    <entry key="MexSetTrapFlagNotSupported">调用了已弃用的 MEX 函数 mexSetTrapFlag。请更新源代码以使用 mexCallMATLABWithTrap。</entry>
+    <entry key="MXSeparateComplexNotSupported">调用了分离式复矩阵函数 {0}。请针对交错式复矩阵更新源代码，或者通过 -R2017b 命令行选项重新运行 MEX 以使用提供兼容支持的 R2017b API。有关详细信息，请参阅&lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''support_for_IC_API'')"&gt;交错式复矩阵&lt;/a&gt; </entry>
+    <entry key="UndocumentedNotSupported">不支持函数 {0}。请改为使用 &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''cpp-mex-applications'')"&gt;C++ MEX 应用程序&lt;/a&gt;中提供的更高效的 &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''matlab-data-api'')"&gt;MATLAB Data API&lt;/a&gt;，或者通过 -R2017b 命令行选项重新运行 MEX 以使用 R2017b API。</entry>
+    <entry key="NoCompilerFound">未检测到支持的编译器。有关选项，请访问 https://www.mathworks.com/support/compilers。</entry>
+    <entry key="NoCompilerFound_link">未检测到支持的编译器。有关选项，请访问 &lt;a href="https://www.mathworks.com/support/compilers"&gt;https://www.mathworks.com/support/compilers&lt;/a&gt;。</entry>
+    <entry key="NoCompilerFound_Win64">未检测到支持的编译器。您可以安装免费提供的 MinGW-w64 C/C++ 编译器；请访问 https://www.mathworks.com/matlabcentral/fileexchange/52848-matlab-support-for-mingw-w64-c-c-compiler。有关更多选项，请访问 https://www.mathworks.com/support/compilers。</entry>
+    <entry key="NoCompilerFoundForMbuildOrMbuildCom_Win64">Supported compiler not detected. You can install the MinGW-w64 C/C++ compiler, which also requires installation of the Windows 10 SDK. Both are freely available. Visit https://www.mathworks.com/matlabcentral/answers/355476-how-can-i-install-mingw-compiler-for-use-with-windows-10-sdk-kit. For more options, visit https://www.mathworks.com/support/compilers.</entry>
+    <entry key="NoCompilerFound_link_Win64">未检测到支持的编译器。您可以安装免费提供的 MinGW-w64 C/C++ 编译器；请参阅&lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''install_mingw'')"&gt;安装 MinGW-w64 编译器&lt;/a&gt;。有关更多选项，请访问 &lt;a href="https://www.mathworks.com/support/compilers"&gt;https://www.mathworks.com/support/compilers&lt;/a&gt;。</entry>
+    <entry key="NoCompilerFoundForMbuildOrMbuildCom_link_Win64">Supported compiler not detected. You can install the MinGW-w64 C/C++ compiler, which also requires installation of the Windows 10 SDK. Both are freely available. See &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''install_mingw'')"&gt;Install MinGW-w64 Compiler&lt;/a&gt;. For more options, visit &lt;a href="https://www.mathworks.com/matlabcentral/answers/355476-how-can-i-install-mingw-compiler-for-use-with-windows-10-sdk-kit"&gt;https://www.mathworks.com/matlabcentral/answers/355476-how-can-i-install-mingw-compiler-for-use-with-windows-10-sdk-kit&lt;/a&gt;.</entry>
+    <entry key="MultipleOrZeroCompiler">内部错误 - 选定/首选的编译器不应为多个或零个。</entry>
+    <entry key="UnknownClient">客户端 ''{0}'' 未知。</entry>
+    <entry key="InvalidXML">{0} 不是有效的 XML 文件。</entry>
+    <entry key="XMLWriteFailed">无法写入 options 文件 ''{0}''。</entry>
+    <entry key="XMLWriteFailedWithMsg">无法写入 options 文件 ''{0}'': ''{1}''</entry>
+    <entry key="LookingCompiler">... 正在查找编译器 ''{0}''...</entry>
+    <entry key="InstalledCompiler">找到已安装的编译器 ''{0}''。</entry>
+    <entry key="NotInstalledCompiler">找不到已安装的编译器 ''{0}''。</entry>
+    <entry key="UnsupportedCompiler_link">不支持选定的编译器 ''{0}''。有关选项，请访问 &lt;a href="https://www.mathworks.com/support/compilers"&gt;https://www.mathworks.com/support/compilers&lt;/a&gt;。</entry>
+    <entry key="UnsupportedCompiler">不支持选定的编译器 ''{0}''。有关选项，请访问 https://www.mathworks.com/support/compilers。</entry>
+    <entry key="NoAlternativeCompilerFound_link">不支持选定的编译器 ''{0}''，并且未找到其他受支持的编译器。有关选项，请访问 &lt;a href="https://www.mathworks.com/support/compilers"&gt;https://www.mathworks.com/support/compilers&lt;/a&gt;。</entry>
+    <entry key="NoAlternativeCompilerFound">不支持选定的编译器 ''{0}''，并且未找到其他受支持的编译器。有关选项，请访问 https://www.mathworks.com/support/compilers。</entry>
+    <entry key="LookingFile">... 正在查找文件 ''{0}''...</entry>
+    <entry key="LookingFolder">... 正在查找文件夹 ''{0}''...</entry>
+    <entry key="LookingEnv">... 正在查找环境变量 ''{0}''...</entry>
+    <entry key="LookingRegistry">... 正在查找注册表设置 ''{0}\\{1}'' {2}...</entry>
+    <entry key="Yes">是。</entry>
+    <entry key="YesValue">是(''{0}'')。</entry>
+    <entry key="No">否。</entry>
+    <entry key="UnknownExt">文件扩展名 ''{0}'' 未知。</entry>
+    <entry key="UnknownLanguage">未知语言 ''{0}''。</entry>
+    <entry key="MixLang">无法在单次调用 MEX 时同时编译 {0} 和 {1} 源文件。</entry>
+    <entry key="NotAnOption">选项 ''{0}'' 未实现。</entry>
+    <entry key="UnknownSwitch">MEX 参数 ''{0}'' 未知。</entry>
+    <entry key="IncompatibleSwitches">不支持同时使用 ''{0}'' 和 ''{1}'' 来调用 MEX。</entry>
+    <entry key="MultiCompilers">要选择不同的 {0} 编译器，请从以下选项中执行一种命令:</entry>
+    <entry key="MultiCompilers_link">要选择不同的 {0} 编译器，请从以下选项中选择一种命令:</entry>
+    <entry key="NoLangSelected">要选择不同的语言，请从以下选项中执行一种命令:\n mex -setup C++{0} \n mex -setup FORTRAN{1}</entry>
+    <entry key="NoLangSelected_link">要选择不同的语言，请从以下选项中选择一种命令:\n &lt;a href="matlab:mex -setup C++{0}"&gt;mex -setup C++{1}&lt;/a&gt; \n &lt;a href="matlab:mex -setup FORTRAN{2}"&gt;mex -setup FORTRAN{3}&lt;/a&gt;</entry>
+    <entry key="GccVersion">不支持 gcc 版本 ''{0}''。请参阅 https://www.mathworks.com/support/compilers/current_release。</entry>
+    <entry key="GccVersion_link">不支持 gcc 版本 ''{0}''。请参阅 &lt;a href="https://www.mathworks.com/support/compilers/current_release"&gt;https://www.mathworks.com/support/compilers/current_release&lt;/a&gt;。</entry>
+    <entry key="MinGWVersion_link">
+  您使用的是不受支持的 MinGW 编译器版本。要安装支持的 MinGW 编译器版本，请参阅: &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''install_mingw'')"&gt;安装 MinGW-w64 编译器&lt;/a&gt;。\n 有关当前支持的编译器的列表，请访问 &lt;a href="https://www.mathworks.com/support/compilers"&gt;https://www.mathworks.com/support/compilers&lt;/a&gt;。
+</entry>
+    <entry key="MinGWVersion">
+  您使用的是不受支持的 MinGW 编译器版本。要安装支持的 MinGW 编译器版本，请访问 https://www.mathworks.com/help/matlab/matlab_external/install-mingw-support-package.html。\n 有关当前支持的编译器的列表，请参阅: https://www.mathworks.com/support/compilers。
+</entry>
+    <entry key="InvalidMinGWConfig_link">
+  MinGW 编译器未正确配置。请访问&lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''manually_configure_mingw'')"&gt;手动配置 MinGW for MATLAB&lt;/a&gt;，以正确配置 MinGW 编译器并重新编译源代码。
+</entry>
+    <entry key="InvalidMinGWConfig">
+  MinGW 编译器未正确配置。请访问 https://www.mathworks.com/help/matlab/matlab_external/compiling-c-mex-files-with-mingw.html#bu0q4cc-1，以正确配置 MinGW 编译器并重新编译源代码。
+</entry>
+    <entry key="InvalidArgNumber">
+  输入参数太多。
+</entry>
+    <entry key="InvalidArgType">
+ 输入必须为标量字符串或字符向量。
+</entry>
+    <entry key="WindowText">
+ 选择 MinGW 安装目录
+</entry>
+    <entry key="FolderNotPresent">
+ 文件夹 ''{0}'' 不存在。
+</entry>
+    <entry key="InsufficientAccessPrivilege">
+ 无法设置 MinGW 编译器，因为未授予管理员特权。 
+</entry>
+    <entry key="IncorrectMinGWFolder">
+ 文件夹 ''{0}'' 未包含 MinGW 二进制文件。
+</entry>
+    <entry key="IncorrectPlatform">
+ 此函数仅对 64 位 Windows 平台有效。
+</entry>
+    <entry key="ErrCopyFile">将选项文件 ''{0}'' 复制到预设项文件夹 ''{1}'' 时出错</entry>
+    <entry key="SrcNotFound">未检测到 {0}；请检查您是否位于正确的当前文件夹，并检查 ''{1}'' 的拼写。</entry>
+    <entry key="AccessDenied">访问被拒绝；请确认您有权访问 ''{0}''。</entry>
+    <entry key="FileNameTooLarge">指定的文件名太长。</entry>
+    <entry key="NotADirectory">''{0}'' 不是目录。</entry>
+    <entry key="FileNameConversionFailed">文件名代码转换失败。</entry>
+    <entry key="OutOfMemory">MEX 无法分配所需的内存。</entry>
+    <entry key="Building">使用 ''{0}'' 编译。</entry>
+    <entry key="Complete">MEX 已成功完成。</entry>
+    <entry key="ErrOption">使用 MEX 参数 ''{0}'' 时出错。</entry>
+    <entry key="ErrXMLAttr">读取选项文件 ''{1}'' 中的属性 ''{0}'' 时出错。</entry>
+    <entry key="Locked">''{0}'' 已被 mexLock API 锁定。</entry>
+    <entry key="Locked_link">''{0}'' 已被 &lt;a href="https://www.mathworks.com/help/matlab/apiref/mexlock.html"&gt;mexLock&lt;/a&gt; API 锁定。</entry>
+    <entry key="IgnoreOutput">将忽略 -output，因为指定了 -c。</entry>
+    <entry key="LibNotFound">
+  {0} 找不到使用 -l 选项指定的库 ''{1}''。\n {0} 已搜索具有以下名称之一的文件: \n {2} \n 请验证库名称是否正确。如果该库不在\n现有路径上，请使用 -L 选项指定路径。\n
+</entry>
+    <entry key="LongEnv">环境变量 ''{0}'' 的长度超过 8,000 个字符，这可能会导致编译时出错。有关信息，请参阅 https://www.mathworks.com/help/matlab/matlab_env/understanding-file-locations-in-matlab.html#br5u0i7-1。</entry>
+    <entry key="LongEnv_link">环境变量 ''{0}'' 的长度超过 8,000 个字符，这可能会导致编译时出错。有关信息，请参阅 &lt;a href="https://www.mathworks.com/help/matlab/matlab_env/understanding-file-locations-in-matlab.html#br5u0i7-1"&gt;https://www.mathworks.com/help/matlab/matlab_env/understanding-file-locations-in-matlab.html#br5u0i7-1&lt;/a&gt;。</entry>
+    <entry key="AdaErr">调用 Ada 函数 build_ada_sfcn_using_gnat 时出错。</entry>
+    <entry key="LegacyWarn">为了实现兼容性而提供了旧的 MEX 基础结构；在以后的 MATLAB 版本中将会删除该基础结构。有关详细信息，请查阅 MEX 发行说明 https://www.mathworks.com/help/matlab/release-notes.html。</entry>
+    <entry key="MexLoaded">
+\nMEX 文件: {0} 入口函数位于地址 {1}\n
+</entry>
+    <entry key="IssueContinue">
+在调试器提示符处添加断点，然后键入 "continue" 以继续 \n 执行 MATLAB。\n\n
+</entry>
+    <entry key="CircRef"> 变量引用图中 ''{0}'' 和 ''{1}'' 之间存在循环 </entry>
+    <entry key="MsgNoEntryPoint">缺少入口函数</entry>
+    <entry key="MsgIncompatRel">MEX 文件 ''{0}'' 不兼容: 此版本不支持加载由 {1} 生成的 MEX 文件。</entry>
+    <entry key="ErrOutOfMem">内存不足，无法加载 MEX 文件 ''{0}''。</entry>
+    <entry key="ErrInvalidMEXFile">MEX 文件 ''{0}'' 无效: {1}</entry>
+    <entry key="ErrInvalidCPPMEXFile">无效的 C++ MEX 文件 ''{0}''</entry>
+    <entry key="DeleteTmpFile">无法删除临时文件 ''{0}''</entry>
+    <entry key="MexErrorCode">命令 ''{0}'' 已退出，返回值为 ''{1}'' </entry>
+    <entry key="SFunctionMsg">\n在 simstruc.h 前包含 tmwtypes.h 将会导致使用 64 位 API 来生成 tmwtypes.h。正在重新编译代码以使用 32 位 API。您可以在以下网址找到更多的相关信息: &lt;a href="matlab: helpview ([docroot '/matlab/matlab_external/matlab_external.map'],'mex_build_64bit_by_default')"&gt;默认情况下使用 64 位 API 生成 MEX\n&lt;/a&gt;
+</entry>
+    <entry key="RecompileVer">通过 ''{0}'' 重新编译所嵌入的版本</entry>
+    <entry key="CppMexFevalError">无法计算 MATLAB 函数 ''{0}''。</entry>
+    <entry key="CppMexIndexExceedsBounds">索引超出数组范围。</entry>
+    <entry key="CppMexGetVariableError">无法获取 ''{1}'' 工作区中的变量 ''{0}''。</entry>
+    <entry key="CppMexSetVariableError">无法设置 ''{1}'' 工作区中的变量 ''{0}''。</entry>
+    <entry key="CppMexNotObjectError">getProperty 或 setProperty 的第一个输入必须为 MATLAB 对象数组。</entry>
+    <entry key="CppMexGetPropertyError">无法获取 MATLAB 对象的属性 ''{0}''。</entry>
+    <entry key="CppMexSetPropertyError">无法设置 MATLAB 对象的属性 ''{0}''。</entry>
+    <entry key="CppMexThreadMismatch">必须通过调用了 MEX 函数的线程来调用 MATLAB Engine 函数的同步版本。</entry>
+    <entry key="CppMexFailedToCleanupError">销毁以下 C++ MEX 文件中定义的 MexFunction 对象时出错:\n{0}\n错误消息:\n {1}\n但是，MEX 文件已从内存中清除。</entry>
+    <entry key="CppMexFailedToCleanup">销毁以下 C++ MEX 文件中定义的 MexFunction 对象时出错:\n{0}\n但是，MEX 文件已从内存中清除。</entry>
+    <entry key="CppMexErrorWithNoIDOrMsg">C++ MEX 文件引发异常，但没有相关的错误 ID 或消息。</entry>
+    <entry key="ErrSetWinPathEnv">无法设置 C++ MEX 文件编译所需的 PATH 变量。</entry>
+    <entry key="MexHostFevalInvalidInput">必须指定 MEX 文件名。</entry>
+    <entry key="NonExistingMexFunction">未定义 C++ MEX 函数 ''{0}''。</entry>
+    <entry key="InvalidCPPMexFunction">C++ MEX 文件 ''{0}'' 无效: {1}</entry>
+    <entry key="MexHostCrashed">执行 C++ MEX 函数 ''{0}'' 时出错。进程 ID 为 ''{2}'' 的 ''{1}'' 崩溃或在 MATLAB 外部被销毁。</entry>
+    <entry key="MexHostDeleted">执行 C++ MEX 函数 ''{0}'' 时出错。MexHost 对象已从 MATLAB 中删除或清除。</entry>
+    <entry key="MexHostNonExistingProcess">与 MexHost 对象关联的进程 ID 为 ''{1}'' 的进程 ''{0}'' 崩溃或在 MATLAB 外部被销毁。</entry>
+    <entry key="MexHostLoadError">无法加载 MexHost 对象。</entry>
+    <entry key="MexHostInterrupted">在 MexHost 上运行的函数 ''{0}'' 被中断。\n终止了 MexHost 进程 ''{1}''，其进程 ID 为 ''{2}''。</entry>
+    <entry key="MexHostInvalidPropertyName">属性名称 ''{0}'' 无效。有效名称为 ''{1}''。</entry>
+    <entry key="MexHostInvalidNumberOfInputArguments">函数 ''{0}'' 的参数个数无效。此函数接受 0 或 2 个参数。</entry>
+    <entry key="MexHostInvalidEnvironmentVariables">''{0}'' 属性的值必须为包含两列的字符串矩阵。</entry>
+    <entry key="MexHostInvalidPropertyType">第一个参数必须为字符串标量。</entry>
+    <entry key="mexcheckNeedsAtLeastOneArg">缺少 MEX 文件名。</entry>
+    <entry key="mexcheckInvalidArgNumber">输入参数太多。</entry>
+    <entry key="mexcheckInvalidArgument">MEX 文件名必须为字符串。</entry>
+    <entry key="ENONAME_reason">文件名长度为零。</entry>
+    <entry key="ENOFILE_reason">''{0}'' 不存在。</entry>
+    <entry key="ENOREAD_reason">无法读取 ''{0}''。</entry>
+    <entry key="ENOREAD_action">将文件权限更改为可读。</entry>
+    <entry key="ENOTMEX_reason">''{0}'' 不是 MEX 文件。</entry>
+    <entry key="ENOTMEX_action">有关详细信息，请参阅&lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''ENOTMEX'')"&gt;文件不是 MEX 文件&lt;/a&gt;。</entry>
+    <entry key="ELNKAPI_reason">''{0}'' 使用了不兼容的选项 ''{1}'' 和 {2}'' 进行编译。</entry>
+    <entry key="ELNKAPI_action">有关详细信息，请参阅 &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''ELNKAPI'')"&gt;MEX 文件使用了不兼容的选项进行编译&lt;/a&gt;。</entry>
+    <entry key="EVERAPI_reason">''{0}'' 使用了 ''{1}'' 进行编译并与 ''{2}'' 链接在一起。</entry>
+    <entry key="EVERAPI_action">有关详细信息，请参阅 &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''EVERAPI'')"&gt;MEX 文件使用了一个 API 进行编译并与另一个 API 链接在一起&lt;/a&gt;。</entry>
+    <entry key="EUNKAPI_reason">当前版本不支持 MATLAB ''{1}'' 中内置的 ''{0}''。</entry>
+    <entry key="EUNKAPI_action">有关详细信息，请参阅&lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''EUKNAPI'')"&gt;当前版本不支持 MATLAB 版本中内置的 MEX 文件&lt;/a&gt;。</entry>
+    <entry key="ELNKCPP_reason">使用 MATLAB Data API 的 C++ MEX 文件 ''{0}'' 使用了 ''{1}'' 进行编译。</entry>
+    <entry key="ELNKCPP_action">有关详细信息，请参阅 &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''ELNKCPP'')"&gt;C++ MEX 文件使用了不兼容的选项进行编译&lt;/a&gt;。</entry>
+    <entry key="ENOEVER_reason">当前版本不支持定制的 ''{0}''。</entry>
+    <entry key="ENOEVER_action">有关详细信息，请参阅&lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''ENOEVER'')"&gt;当前版本不支持定制的 MEX 文件&lt;/a&gt;。</entry>
+    <entry key="URECOMP_reason">''{0}'' 不是使用最新 API 进行编译的。</entry>
+    <entry key="URECOMP_action">建议使用开关 -R2018a 重新进行编译。有关详细信息，请参阅 &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''URECOMP'')"&gt;MEX 文件使用了过时选项进行编译&lt;/a&gt;。</entry>
+    <entry key="ULATEST_reason">''{0}'' 调用了一个或多个非类型化的数据访问函数。</entry>
+    <entry key="ULATEST_action">有关详细信息，请参阅 &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''ULATEST'')"&gt;MEX 文件调用了非类型化的数据访问函数&lt;/a&gt;。</entry>
+    <entry key="UCOMPAT_reason">''{0}'' 调用了一个或多个已弃用的函数。</entry>
+    <entry key="UCOMPAT_action">有关详细信息，请参阅 &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''UCOMPAT'')"&gt;MEX 文件调用了已启用的函数&lt;/a&gt;。</entry>
+    <entry key="ULEGACY_reason">''{0}'' 调用了一个或多个 32 位函数。</entry>
+    <entry key="ULEGACY_action">有关详细信息，请参阅 &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''ULEGACY'')"&gt;MEX 文件调用了 32 位函数&lt;/a&gt;。</entry>
+    <entry key="UENTRYP_reason">''{0}'' 未包含入口函数，将不会在 MATLAB 中运行。</entry>
+    <entry key="UENTRYP_action">有关详细信息，请参阅 &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''UENTRYP'')"&gt;MEX 文件未包含入口函数&lt;/a&gt;。</entry>
+    <entry key="FileSystemException">{0} </entry>
+    <entry key="Warn">{0}</entry>
+    <entry key="Error">{0}</entry>
+    <entry key="moveToUNC">{0}</entry>
+    <entry key="CppMexException">{0}</entry>
+  </message>
+</rsccat>

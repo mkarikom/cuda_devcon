@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidP">P はベクトルでなければなりません。</entry>
+    <entry key="RequiresS">S は、誤差推定を計算するために必要です。</entry>
+    <entry key="SizeS">S 行列は、n+2 行 n 列でなければなりません。ここで、n = length(p) です。</entry>
+    <entry key="ZeroDOF">0 の自由度は、無限の誤差範囲を意味します。</entry>
+  </message>
+</rsccat>

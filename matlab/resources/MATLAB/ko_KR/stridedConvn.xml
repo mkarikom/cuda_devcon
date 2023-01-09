@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputClass">유효하지 않은 데이터형입니다. 첫 번째 인수와 두 번째 인수는 숫자형이거나 논리형이어야 합니다.</entry>
+    <entry key="StrideClass">유효하지 않은 데이터형입니다. Stride는 숫자형이거나 논리형이어야 합니다.</entry>
+    <entry key="RangeIndexClass">유효하지 않은 데이터형입니다. 범위 인덱스는 숫자형이거나 논리형이어야 합니다.</entry>
+    <entry key="SparseInput">희소 행렬은 지원되지 않습니다.</entry>
+    <entry key="InvalidStride">Stride는 양의 실수형 정수여야 합니다.</entry>
+    <entry key="InvalidRangeIndex">출력 범위 인덱스는 양의 실수형 정수여야 합니다.</entry>
+    <entry key="InvalidOptionString">연산 유형은 'corr' 또는 'conv'여야 합니다.</entry>
+  </message>
+</rsccat>

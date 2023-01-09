@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2010-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB"  string_type_for_hole="mixed">
+  <message>
+    <entry key="NoJVM">JVM is not running</entry>
+    <entry key="ReadError">Could not read file {0}</entry>
+    <entry key="UnsupportedClasspath">Warning: {0} in the startup directory no longer supported. See &lt;a href="matlab: helpview([docroot ''/techdoc/matlab_external/matlab_external.map''],''java_static_path'')"&gt;The Static Path&lt;/a&gt;.</entry>
+    <entry key="ClassNotFoundWithReason">Cannot locate or initialize class {0}.\n{1}</entry>
+    <entry key="ClassNotFoundWithReasonInternal" translate="false">Cannot locate or initialize class {0}.\nCheck for missing or corrupt matlab/java/jar/jmi.jar.\n{1}</entry>
+    <entry key="JavaOutputStream">Failed to set up java output streams</entry>
+    <entry key="JVMDebuggingEnabled">JVM is being started with debugging enabled.</entry>
+    <entry key="UnableToRead">Unable to load Java Runtime Environment: {0}</entry>
+    <entry key="UnableToBindPort">Warning: Unable to bind to port {0}. Java debugging disabled.</entry>
+    <entry key="UseJdbAttach">Use "jdb -attach {0}" to attach debugger.</entry>
+    <entry key="UseJdbConnect">Use "jdb -connect com.sun.jdi.SocketAttach:port={0}" to attach debugger.</entry>
+    <entry key="UnrecognizedToken">Warning: Unrecognized token "${0}" in Java path specification.</entry>
+    <entry key="JavaLoadLibrary">Unable to find Java library: {0}\nPlease check if you have a MATLAB_JAVA environment variable.\nNote that MATLAB requires Java version 1.8 or higher.</entry>
+    <entry key="InavlidNumArgs">Signature specifies more arguments than were passed({0,number,integer})</entry>
+    <entry key="NonScalarArg">A Non-scalar value was passed for a scalar argument</entry>
+    <entry key="NoMemory">Not enough Java memory to construct Java arguments.</entry>
+    <entry key="InvalidJavaSignature">Java signature is invalid</entry>
+    <entry key="DimensionArgNumber">Dimensions must be numbers.</entry>
+    <entry key="InvalidNumInputArgs">The Java command has a maximum of {0,number,integer} input arguments</entry>
+    <entry key="InavlidJavaMethodSignature">Java method signature is invalid</entry>
+    <entry key="InavlidInputArgs">Too many input arguments({0,number,integer}) for the signature({1,number,integer})</entry>
+    <entry key="ReturnType">Cannot get a return type from the signature: {0}</entry>
+    <entry key="UnrecognizedReturnType">Unrecognized return type</entry>
+    <entry key="UnrecognizedFieldType">Unrecognized field type</entry>
+    <entry key="FinalField">Field \"{0}\" is a final field in Java class {1}.\nFinal fields are constant and cannot be assigned.</entry>
+    <entry key="FieldConversion">{0} value cannot be converted to type of field \"{1}\" in Java class {2}</entry>
+    <entry key="FieldSignature">\"{0}\" in class {1} is a field type not supported for assignment</entry>
+    <entry key="ObjectCreation">Object creation failed: cannot determine class of object</entry>
+    <entry key="InvalidOutArgs">Java methods cannot be called with multiple output arguments</entry>
+    <entry key="MethodLoad">Could not call method ''{0}'' in class ''{1}''.\nCheck method signatures.  No further attempts to call this destructor will be made.</entry>
+    <entry key="IndexExceeds">Index exceeds Java array dimensions</entry>
+    <entry key="Assignment">Assignment has more rhs dimensions than subscripts</entry>
+    <entry key="DimensionMismatch">Subscripted assignment dimension mismatch</entry>
+    <entry key="Unsupported">Matlab Array of Array</entry>
+    <entry key="NegativeIndex">Index into Java array is negative</entry>
+    <entry key="NonStringClass">ML_CALL_ON_DESTROY_METHOD in class ''{0}'' must be a java.lang.String.\nNo other attempts to call a destructor will be made.</entry>
+    <entry key="MethodLoadErr">Could not get method ''{0}'' in class ''{1}''.\nNo other attempts to call a destructor will be made.</entry>
+    <entry key="methodDescriptions">A Java exception occurred getting the method description for the {0} class:\n{1}</entry>
+    <entry key="ConvertFromOpaqueJavaEmptyString">Empty error string returned by Java</entry>
+    <entry key="ClassMismatch">Class instantiated as {0}, does not match saved class</entry>
+    <entry key="ObjectCatenate">Java objects can only be catenated along the first or second axis</entry>
+    <entry key="ArrayElementCreation">Cannot create {0,number,integer}-element Java array</entry>
+    <entry key="ArrayAssignment">Assignment of {0} to Java arrays is not allowed</entry>
+    <entry key="NullIndex">Improper null index in null object</entry>
+    <entry key="ArgMismatch">Number of elements in right hand side does not match number required by left hand side</entry>
+    <entry key="DuplicateClass">Objects of {0} class exist - not clearing java</entry>
+    <entry key="ClassNameUsed">Class name ''{0}'' is already being used by another class that shadows the Java class of the same name.</entry>
+    <entry key="Signature">No constructor with appropriate signature exists in Java class {0}</entry>
+    <entry key="InvalidInput">Scalar input must be a java object</entry>
+    <entry key="FirstArg" note="stringDatatypeUpdate">The first argument to javaMethod must be a character vector or string specifying the method name.</entry>
+    <entry key="SecondArg" note="stringDatatypeUpdate">The second argument to javaMethod must be a Java object, or a character vector or string naming the class for a static method.</entry>
+	<entry key="JavaObjectArg">The first argument to javaObject must be a string or character vector naming the class.</entry>
+    <entry key="MethodSignature">No {0} method with appropriate signature exists in Java class {1}</entry>
+    <entry key="StaticMethodSignature">No static {0} method with appropriate signature exists in Java class {1}</entry>
+    <entry key="FirstArgClass" note="stringDatatypeUpdate">The first argument to javaArray must be a character vector or string specifying the Java class name</entry>
+    <entry key="InvalidSize">Size vector must be a row vector</entry>
+    <entry key="DimensionArgScalar">Dimension arguments must be scalar</entry>
+    <entry key="DimensionArgZero">Dimension arguments must not be negative</entry>
+    <entry key="ArrayCreate">javaArray failed to create Java array</entry>
+    <entry key="JavaThreadRECheck">JavaThreadRECheck must be 0, 1 or 2\n</entry>
+    <entry key="InvalidBooleanArgs">Value other than 0 or 1 converted to Java true</entry>
+    <entry key="ArrayToJavaConversionErr">Can not convert array to Java object</entry>
+    <entry key="InvalidCell">cell'{'{0,number,integer}'}' must be a character-array</entry>
+    <entry key="ArraySizeTooBig">MATLAB array exceeds an internal Java limit.</entry>
+    <entry key="ClassNotFound">Class {0} not found--unable to register native methods</entry>
+  <!--Resource entries for src/jmi-->
+    <entry key="InvalidMethod">No method {0} exists in Java class {1}</entry>
+    <entry key="UnregisteredMethod">native method ''{0}'' not registered. Method not found.</entry>
+    <entry key="JavaLangLocate">Cannot locate {0}</entry>
+    <entry key="JavaLangLoad">Cannot load {0}</entry>
+    <entry key="JavaLangClass">Cannot find class {0}</entry>
+    <entry key="SubscriptedArray" translate="false">{0}</entry>
+    <entry key="MethodNotFoundForSig">Error occurred when getting constructor with the specified signature.</entry>
+    <entry key="JavaArrayFailure">javaArray failed to create Java array</entry>
+    <entry key="NotAssignable" translate="false">{0}</entry>
+    <entry key="LoadErr" translate="false">{0}</entry>
+    <entry key="JavaNotSupported">Java not supported on this platform</entry>
+    <entry key="JavaServiceInitialize">MATLAB Java services cannot be initialized</entry>
+    <entry key="JavaInitializeFailed">MATLAB Java services initialization failed</entry>
+    <entry key="ClassLoad">No class {0} can be located on the Java class path</entry>
+    <entry key="InitExceptionClass">Cannot find {0} class</entry>
+    <entry key="InitExceptionMethod">Cannot find {0} method</entry>
+    <entry key="GenericExceptionCouldNotFind">Could not find {0}</entry>
+    <entry key="GenericExceptionUnexpectedDelegation" translate="false">Internal error - unexpected delegation value in JMI {0}:{1,number,integer}</entry>
+    <entry key="EDTAutoDelegation">java.awt.Component subclass method call automatically delegated to the Event Dispatch Thread (EDT)</entry>
+    <entry key="NonStaticField">Field \"{0}\" is a non-static field in Java class {1}.\nNon-static fields must be accessed using an instance.</entry>
+    <entry key="NonStaticFieldML">ML_CALL_ON_DESTROY_METHOD in class ''{0}'' must be static and final.\nNo other attempts to call a destructor will be made.</entry>
+    <entry key="ConvertFromOpaque" translate="false">{0}</entry>
+    <entry key="ConvertToOpaque" translate="false">{0}</entry>
+    <entry key="classLoad">A Java exception occurred trying to load the {0} class:\n{1}</entry>
+    <entry key="NoPublicFieldForClass">No public field {0} exists for class {1}.</entry>
+    <entry key="EmptyObjectDotAssignment">Property assignment is not allowed when the object is empty.  Use subscripted assignment to create an array element.</entry>
+    <entry key="JVMInitialize">Cannot initialize Java Virtual Machine.\nMATLAB Java services cannot be initialized.</entry>
+    <entry key="JavaLoadClass">Cannot load class {0}.\nMATLAB Java services cannot be initialized.</entry>
+    <entry key="UnrecognizedType">Unrecognized type in signature</entry>
+    <entry key="WrongGlobalRefTypeInput">Second argument must be ''weak'', ''strong'' or ''all'' (default)</entry>
+    <entry key="JavaComponentThreading">java.awt.Component requires delegation to the Event Dispatch Thread (EDT). Use javaObjectEDT or javaMethodEDT.</entry>
+  <!--Resource entries for src\jmi-->
+    <entry key="GenericException" translate="false">{0}</entry>
+    <entry key="Error1">OpaqueJavaInterface class not found\n</entry>
+    <entry key="Error2">OpaqueJavaInterface exception message ID not found\n</entry>
+    <entry key="Error3">Failed to retrieve Exception Message\n</entry>
+    <entry key="InvalidState6">Internal calling error - did not expect null class id {0,number,integer}</entry>
+    <entry key="InvalidState10">Internal calling error - could not find show or setVisible method ID {0,number,integer}</entry>
+    <entry key="InvalidState11">Internal error - did not expect null class id {0,number,integer}</entry>
+    <entry key="InvalidState12">Internal error - did not find method id {0,number,integer}</entry>
+    <entry key="InitException">Cannot find {0} method</entry>
+    <entry key="InitException23">Could not create AWTUtilities helper</entry>
+    <entry key="UnrecognizedType24">Unrecognized signature {0} - end of sig found too soon</entry>
+    <entry key="InitException25">Unrecognized output type passed to jmi::callInvokeA</entry>
+    <entry key="InitException26">Unable to fetch class from object during dispatch</entry>
+    <entry key="UnrecognizedType27">Unrecognized type in signature {0}</entry>
+      <entry key="Conflicting">You have specified multiple/conflicting Java options.  Using ''{0}''.</entry>
+      <entry key="UnsupportedOption">Unsupported Java option ''{0}'' may cause problems.</entry>
+      <entry key="NoWindowSystem">No window system found.  Java option ''{0}'' ignored.</entry>
+      <entry key="Disabling">Disabling Java support</entry>
+    
+    <!-- Resource entries for BYOJ -->
+    <entry key="AdminPrivilegesError">You need administrative privileges to set the Java Runtime Enviroment of MATLAB for all users.</entry>
+    
+    <!-- Resource entries for Java Heap Memory -->
+    <entry key="HeapSizeTitle">Java Heap Size\n</entry>
+    <entry key="HeapSizeDescription"> The heap size determines how much memory is available for java objects. Increasing this value may help you avoid "OutOfMemoryError: Java heap space" errors.\n </entry>
+    <entry key="HeapSizeNotelabel">Current value {0} MB. Default value {1} MB.\n</entry>
+    
+    <!-- Resource entries for BYOJ -->
+    <entry key="BYOJTitle">Java Runtime Environment Path\n</entry>
+    <entry key="BYOJDescription"> Specify the version of the Java Runtime Environment which MATLAB will use.\n </entry>
+    
+    <entry key="JavaUsageWarning">Java Usage Stack Start: \n ''{0}'' \nJava Usage Stack End.\n</entry>
+  </message>
+</rsccat>
+<!-- LocalWords:  techdoc jdb jdi Subscripted lang catenated
+-->

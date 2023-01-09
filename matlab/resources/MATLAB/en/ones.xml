@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invalidStringInput">CLASSNAME input must be a valid numeric or logical class name.</entry>
+    <entry key="invalidInputClass">Input following ''like'' is not a numeric or logical array.</entry>
+    <entry key="invalidNumericInput">Size inputs must be numeric.</entry>
+    <entry key="unsupportedNdSparse">N-dimensional sparse arrays are not supported.</entry>
+  </message>
+</rsccat>

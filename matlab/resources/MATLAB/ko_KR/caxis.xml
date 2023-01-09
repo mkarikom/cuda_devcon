@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFirstArgument">첫 번째 인수는 스칼라 axes 핸들이어야 합니다.</entry>
+    <entry key="NeedScalarAxesHandle">첫 번째 인수는 스칼라 axes 핸들이어야 합니다.</entry>
+    <entry key="InvalidVector">두 개 요소를 가진 행 벡터여야 합니다.</entry>
+    <entry key="NeedsRowVector">두 개 요소를 가진 행 벡터여야 합니다.</entry>
+    <entry key="InvalidNumberElements">두 개 요소를 가진 행 벡터여야 합니다.</entry>
+  </message>
+</rsccat>

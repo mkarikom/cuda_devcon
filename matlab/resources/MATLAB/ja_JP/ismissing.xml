@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FirstInputInvalid">最初の引数は数値、論理値、datetime、duration、calendarDuration、string、categorical、char、cellstr、table、timetable のいずれかでなければなりません。</entry>
+    <entry key="IndicatorsCalendarDuration">calendarDuration インジケーターはサポートされていません。</entry>
+    <entry key="IndicatorsCategorical">2 番目の引数は、string、string 配列、文字の行ベクトル、文字の行ベクトルのセル配列のいずれかでなければなりません。</entry>
+    <entry key="IndicatorsCellstr">2 番目の引数は、文字の行ベクトルまたは文字の行ベクトルのセル配列でなければなりません。</entry>
+    <entry key="IndicatorsChar">2 番目の引数は文字ベクトルでなければなりません。</entry>
+    <entry key="IndicatorsCharRowVector">文字ベクトル インジケーターは行ベクトルでなければなりません。</entry>
+    <entry key="IndicatorsDatetime">2 番目の引数は datetime でなければなりません。</entry>
+    <entry key="IndicatorsDouble">2 番目の引数は数値または論理値でなければなりません。</entry>
+    <entry key="IndicatorsDuration">2 番目の引数は duration でなければなりません。</entry>
+    <entry key="IndicatorsIntegerLogical">2 番目の引数は {0} または double でなければなりません。</entry>
+    <entry key="IndicatorsInvalidType">{0} 型のインジケーターはサポートされていません。</entry>
+    <entry key="IndicatorsSingle">2 番目の引数は single または double でなければなりません。</entry>
+    <entry key="IndicatorsString">2 番目の引数は string または string 配列でなければなりません。</entry>
+    <entry key="StdizeCalendarDuration">calendarDuration はサポートされていません。</entry>
+    <entry key="InvalidInputsCodegen">最初の引数は数値、logical、duration、string、categorical、char、cellstr または table でなければなりません。</entry>
+    <entry key="StringNeedsIndicatorCodegen">最初の引数が string の場合、コード生成にはインジケーターが必要です。</entry>
+    <entry key="CellIndicatorsMustBeConstant">コード生成では、cell 配列として指定されるインジケーターが定数でなければなりません</entry>
+  </message>
+</rsccat>

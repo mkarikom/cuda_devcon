@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArrayDimsMatch">Array dimensions must match.</entry>
+    <entry key="CannotSlice">유형 {0}에 대한 스칼라 요소에 액세스할 수 없습니다.</entry>
+    <entry key="CannotHash">유형 {0}에 대한 스칼라 요소를 해시할 수 없습니다.</entry>
+    <entry key="CannotCombine">항목 부분을 결합할 수 없습니다.</entry>
+    <entry key="ConversionInconsistent">Conversion from {0} to {1} did not return {1}.</entry>
+    <entry key="IncorrectNumberInputs">Incorrect number of inputs specified.</entry>
+    <entry key="IncorrectNumberOfSubscripts">첨자의 개수({0,number,integer})는 키 부분의 개수({1,number,integer})와 일치해야 합니다.</entry>
+    <entry key="InputMustBeLogicalScalar">입력값은 논리형 스칼라여야 합니다.</entry>
+    <entry key="InputMustBeNonemptyCell">입력값은 비어 있지 않은 셀형 배열이어야 합니다.</entry>
+    <entry key="InputNotSupported">Input type not supported.</entry>
+    <entry key="InternalCannotHash">스칼라 요소를 해시할 수 없습니다.</entry>
+    <entry key="InvalidIndexingForUninitialized">Indexing on an uninitialized dictionary is invalid.</entry>
+    <entry key="InvalidMethodForUninitialized">Calling ''{0}'' on an uninitialized dictionary is invalid.</entry>
+    <entry key="KeyNotFound">Key in position {0,number,integer} not found.</entry>
+    <entry key="UndefinedFunction">''dictionary''는 인식할 수 없는 함수 또는 변수입니다.</entry>
+    <entry key="UnsupportedFunctionality">Operation is not supported.</entry>
+    <entry key="WithManyEntries"> , {0,number,integer}개 항목 포함:</entry>
+    <entry key="WithOneEntry"> , 1개 항목 포함:</entry>
+    <entry key="WithZeroEntries"> , 포함된 항목 없음.</entry>
+  </message>
+</rsccat>

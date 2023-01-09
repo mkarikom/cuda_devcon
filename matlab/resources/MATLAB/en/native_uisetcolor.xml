@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="TitleMustBeLastParam">title must be the last parameter passed to uisetcolor</entry>
+    <entry key="BadHandle">Invalid handle</entry>
+    <entry key="ColorSelectionNotSupported">Color selection is not supported for {0} objects, but only for objects with Color or ForeGroundColor properties</entry>
+    <entry key="BadColorSpec">Invalid color specification</entry>
+    <entry key="BadArguments" note="stringDatatypeUpdate">Second argument (dialog title) must be a character vector</entry>
+  </message>
+</rsccat>

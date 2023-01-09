@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputSizeMismatch">입력값의 크기가 같아야 합니다.</entry>
+    <entry key="NonIntInputs">입력값은 실수형 정수여야 합니다.</entry>
+    <entry key="mixedIntegerTypes">정수는 같은 클래스의 정수나 double형 스칼라와만 결합될 수 있습니다.</entry>
+    <entry key="outOfRange">double형 입력값이 정수형 범위를 벗어났습니다.</entry>
+    <entry key="unsupportedType">GCD의 3-출력 구문에는 부호 없는 정수가 지원되지 않습니다.</entry>
+    <entry key="largestFlint">이 연산에서 정밀도가 보장되는 최대 부동 소수형 정수(flint: floating point integer)를 초과하는 값이 입력되었습니다.\n         결과가 정확하지 않을 수 있습니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="matrixWithNaNInf">BALANCE への入力は、NaN または Inf を含んではいけません。</entry>
+    <entry key="unknownSecondArgument">2 番目の引数は \''noperm\'' でなければなりません。</entry>
+    <entry key="noBalanceSparse">balance(full(S)) を使用してください。</entry>
+    <entry key="inputType">1 番目の引数は、単精度、または倍精度でなければなりません。</entry>
+    <entry key="inputMustBe2D">入力は 2 次元でなければなりません。</entry>
+  </message>
+</rsccat>

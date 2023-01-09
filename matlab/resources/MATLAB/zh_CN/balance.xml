@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="matrixWithNaNInf">BALANCE 的输入不能包含 NaN 或 Inf。</entry>
+    <entry key="unknownSecondArgument">第二个参数必须为 \''noperm\''。</entry>
+    <entry key="noBalanceSparse">使用 balance(full(S))。</entry>
+    <entry key="inputType">第一个参数必须为单精度值或双精度值。</entry>
+    <entry key="inputMustBe2D">输入必须为二维。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badIdentifier">IDENTIFIER の入力は、有効な MATLAB のメッセージ識別子でなければなりません。詳細については、MATLAB ヘルプの {0} を参照してください。</entry>
+    <entry key="MExceptionIdentifiers">MException 識別子</entry>
+    <entry key="BadValueForLast">last メソッドは、入力として ''reset'' のみを受け入れることができます。</entry>
+    <entry key="CorrectionLimitExceeded">MException は複数の補正をもつことができません。</entry>
+    <entry key="MessageCTOR">メッセージ オブジェクトを作成できません。</entry>
+    <entry key="MessageIdentifier">メッセージ識別子</entry>
+    <entry key="MessageMustBeChar">MESSAGE の入力は文字ベクトルまたは string スカラーでなければなりません。</entry>
+    <entry key="MessageText">メッセージ テキスト</entry>
+    <entry key="InvalidType">無効な MException 型です。</entry>
+    <entry key="MustCallLastFromCommandLine">last() メソッドは、コマンド プロンプトからのみ呼び出すことが可能です。</entry>
+    <entry key="NonScalarCorrection">補正はスカラーの matlab.lang.correction.Correction オブジェクトでなければなりません。</entry>
+    <entry key="nonScalarInput">書式設定された MESSAGE の入力は、実数のスカラー数値、文字ベクトル、または string スカラーでなければなりません。</entry>
+    <entry key="NonScalarMException">MException はスカラーでなければなりません。</entry>
+    <entry key="NonScalarMessage">メッセージはスカラーでなければなりません。</entry>
+    <entry key="ErrorIn">エラー:</entry>
+    <entry key="OperationTerminatedByUser">処理は途中で終了しました</entry>
+    <entry key="In">場所</entry>
+    <entry key="CausedBy">\n原因:\n</entry>
+    <entry key="ErrorCallingMethod">{0}/{1} の呼び出し中にエラーが発生しました:\n{2}</entry>
+    <entry key="MoreInformation">関連ドキュメンテーション</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DimArgRequired">コード生成では、配列の次元を 2 番目の入力引数として指定してください。categorical 配列が行ベクトルの場合は、構文 countcats(C,2) を使用してください。列ベクトルの場合は、構文 countcats(C,1) を使用してください。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidShape">STRMATCH への 1 番目の引数は、''exact'' のフラグの場合、行ベクトルでなければなりません。</entry>
+    <entry key="InvalidInput">入力として文字配列または文字ベクトルのセル配列が必要です。</entry>
+    <entry key="InvalidFlagInput">FLAG は文字ベクトルでなければなりません。</entry>
+    <entry key="InvalidFlagType">STRMATCH への 3 番目の引数が有効ではないため、MATLAB の将来のバージョンで認識されません。代わりに文字ベクトル ''exact'' を使用してください。</entry>
+    <entry key="InvalidFlag">''{0}'' の代わりに、フラグ ''exact'' を使用してください。フラグ ''{1}'' が有効ではないため、MATLAB の将来のバージョンで認識されません。</entry>
+  </message>
+</rsccat>

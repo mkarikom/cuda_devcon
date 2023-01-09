@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ClassMismatch">输入图形必须都为无向图，或者都为有向图。</entry>
+    <entry key="KeyWithoutValue">没有为 ''{0}'' 参数提供任何值。</entry>
+    <entry key="ParseFlags">参数名称必须是 ''NodeVariables'' 或 ''EdgeVariables''。</entry>
+    <entry key="ParseVar">''{0}'' 值必须为字符串向量、字符向量或字符向量元胞数组。</entry>
+    <entry key="NodeVarTypeMismatch">节点变量 {0} 中数据类型不匹配，第一个图形中数据类型为 ''{1}''，而第二个图形中数据类型为 ''{2}''。</entry>
+    <entry key="EdgeVarTypeMismatch">边界变量 {0} 中数据类型不匹配，第一个图形中数据类型为 ''{1}''，但第二个图形中数据类型为 ''{2}''。</entry>
+    <entry key="NodeVarNotInFirstGraph">第一个图形中没有节点变量 {0}。</entry>
+    <entry key="NodeVarNotInSecondGraph">第二个图形中没有节点变量 {0}。</entry>
+    <entry key="EdgeVarNotInFirstGraph">第一个图形中没有边变量 {0}。</entry>
+    <entry key="EdgeVarNotInSecondGraph">第二个图形中没有边变量 {0}。</entry>
+    <entry key="NodeVarSizeMismatch">节点变量 {0} 中的大小不匹配。输入图形中的节点变量的大小必须相同。</entry>
+    <entry key="EdgeVarSizeMismatch">边变量 {0} 中的大小不匹配。输入图形中的边变量的大小必须相同。</entry>
+  </message>
+</rsccat>

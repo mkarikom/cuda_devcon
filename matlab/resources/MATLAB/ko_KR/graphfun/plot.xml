@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNameValueMismatch">후행 입력 인수는 이름-값 쌍이어야 합니다.</entry>
+    <entry key="ArrowSizeDigraphOnly">무방향 그래프에서는 ''ArrowSize'' 값을 변경할 수 없습니다.</entry>
+    <entry key="ArrowPositionDigraphOnly">무방향 그래프에서는 ''ArrowPosition'' 값을 변경할 수 없습니다.</entry>
+    <entry key="EdgeLabelsInvalidSize">레이블은 스칼라이거나, 지정된 간선 개수와 동일한 길이의 벡터여야 합니다.</entry>
+    <entry key="NoNodeNames">그래프에 노드 이름이 포함되어 있지 않습니다.</entry>
+    <entry key="HighlightEdgeColor">''EdgeColor'' 값은 숫자형 RGB 값이거나 색 이름이어야 합니다.</entry>
+    <entry key="HighlightEdgeLabelColor">''EdgeLabelColor'' 값은 숫자형 RGB 값이거나 색 이름이어야 합니다.</entry>
+    <entry key="HighlightEdgeColorDisabledFlat">EdgeCData 속성이 이전에 지정되었으므로 간선 색을 설정할 수 없습니다. EdgeCData 사용을 중지하려면 GraphPlot 객체의 EdgeColor 속성을 특정 색으로 설정한 후 이 오류를 생성한 명령을 다시 실행하십시오.</entry>
+    <entry key="HighlightEdgeColorDisabledNone">GraphPlot 객체의 EdgeColor 속성이 ''none''이므로 간선을 강조 표시할 수 없습니다. GraphPlot 객체에서 강조 표시된 간선만 표시하려면 EdgeColor 속성을 ''none'' 이외의 값으로 설정하고, LineStyle 속성을 ''none''으로 설정한 후 호출에서 LineStyle을 강조 표시하도록 지정하십시오.</entry>
+    <entry key="HighlightInvalidSubgraph">G는 플로팅된 그래프와 동일한 노드를 가져야 하며, 이 그래프의 간선의 부분 집합을 가져야 합니다.</entry>
+    <entry key="HighlightNodeColor">''NodeColor'' 값은 숫자형 RGB 값이거나 색 이름이어야 합니다.</entry>
+    <entry key="HighlightNodeLabelColor">''NodeLabelColor'' 값은 숫자형 RGB 값이거나 색 이름이어야 합니다.</entry>
+    <entry key="HighlightNodeColorDisabledFlat">NodeCData 속성이 이전에 지정되었으므로 노드 색을 설정할 수 없습니다. NodeCData 사용을 중지하려면 GraphPlot 객체의 NodeColor 속성을 특정 색으로 설정한 후 이 오류를 생성한 명령을 다시 실행하십시오.</entry>
+    <entry key="HighlightNodeColorDisabledNone">GraphPlot 객체의 NodeColor 속성이 ''none''이므로 노드를 강조 표시할 수 없습니다. GraphPlot 객체에서 강조 표시된 노드만 표시하려면 NodeColor 속성을 ''none'' 이외의 값으로 설정하고, Marker 속성을 ''none''으로 설정한 후 호출에서 Marker를 강조 표시하도록 지정하십시오.</entry>
+    <entry key="HighlightNoneEdgeColor">''EdgeColor'' 값을 ''none''으로 설정할 수 없습니다. 강조 표시된 간선을 표시하지 않으려면 ''LineStyle'' 값을 ''none''으로 지정하십시오.</entry>
+    <entry key="HighlightNoneNodeColor">''NodeColor'' 값을 ''none''으로 설정할 수 없습니다. 강조 표시된 노드를 표시하지 않으려면 ''Marker'' 값을 ''none''으로 지정하십시오.</entry>
+    <entry key="HighlightNonCharLineStyle">강조 표시를 사용할 경우 하나의 ''LineStyle'' 값을 ''-'', ''--'', '':'', ''-.'', 'none'' 중에서 지정하십시오.</entry>
+    <entry key="HighlightNonCharMarker">강조 표시를 사용할 경우 하나의 ''Marker'' 값을 ''+'', ''o'', ''*'', ''.'', ''x'', ''square'', ''diamond'', ''v'', ''^'', ''&gt;'', ''&lt;'', ''pentagram'', ''hexagram'', ''none'' 중에서 지정하십시오.</entry>
+    <entry key="HighlightScalarNumber">''{0}''은(는) 숫자형 스칼라여야 합니다.</entry>
+    <entry key="HighlightUndirectedSubgraph">플로팅된 그래프가 유방향인 경우 강조 표시할 그래프도 유방향이어야 합니다.</entry>
+    <entry key="HighlightNoSelection">강조 표시할 노드나 간선을 지정하십시오.</entry>
+    <entry key="HighlightInvalidEdgeIndices">''Edges'' 값은 스칼라 간선 인덱스, 간선 인덱스로 구성된 벡터, 또는 간선 수와 길이가 같은 논리형 벡터여야 합니다.</entry>
+    <entry key="LabeledgeInvalidEdgeIndices">간선 인덱스는 스칼라 간선 인덱스, 간선 인덱스로 구성된 벡터, 또는 간선의 수와 동일한 길이의 논리형 벡터여야 합니다.</entry>
+    <entry key="DuplicateEdgeArgs">강조 표시할 대상을 노드 쌍과 간선 중 하나만 선택하여 지정하십시오.</entry>
+    <entry key="InvalidBasicGraph">BasicGraph 입력값은 matlab.internal.graph.MLGraph 유형 또는 matlab.internal.graph.MLDigraph 유형이어야 합니다.</entry>
+    <entry key="InvalidEdgeColor">EdgeColor는 색 이름, RGB 3색 또는 각 행이 한 모서리의 색을 지정하는 RGB 3색인 {0}×3 행렬이어야 합니다.</entry>
+    <entry key="InvalidEdgeLabelColor">''EdgeLabelColor'' 값은 색 이름 또는 RGB 3색이거나, 각 행이 한 모서리의 색을 지정하는 RGB 3색인 {0}×3 행렬이어야 합니다.</entry>
+    <entry key="InvalidNodeLabelColor">''NodeLabelColor'' 값은 색 이름 또는 RGB 3색이거나, 각 행이 한 노드의 색을 지정하는 RGB 3색인 {0}×3 행렬이어야 합니다.</entry>
+    <entry key="InvalidEdgeLabel">EdgeLabel 값은 숫자형, 문자형 벡터로 구성된 셀형 배열 또는 string형 벡터여야 합니다.</entry>
+    <entry key="InvalidEdges">s와 t는 그래프의 간선을 지정해야 합니다.</entry>
+    <entry key="InvalidLabels">레이블은 문자형 벡터로 구성된 셀형 벡터이거나 string형 벡터여야 합니다.</entry>
+    <entry key="InvalidNodeColor">NodeColor는 색 이름, RGB 3색 또는 각 행이 한 노드의 색을 지정하는 RGB 3색인 {0}×3 행렬이어야 합니다.</entry>
+    <entry key="InvalidNodeLabel">NodeLabel은 숫자형, 문자형 벡터로 구성된 셀형 배열 또는 string형 벡터여야 합니다.</entry>
+    <entry key="InvalidNodeNames">입력 노드 이름이 그래프의 노드 이름과 일치하지 않습니다.</entry>
+    <entry key="InvalidParent">부모는 스칼라 그래픽스 핸들이어야 합니다.</entry>
+    <entry key="InvalidSinks">싱크는 비어 있지 않은, 고유한 노드의 집합이어야 합니다.</entry>
+    <entry key="InvalidSources">소스는 비어 있지 않은, 고유한 노드의 집합이어야 합니다.</entry>
+    <entry key="InvalidSourcesSinks">소스 노드 집합과 싱크 노드 집합은 서로소여야 합니다.</entry>
+    <entry key="InvalidST">노드 ID는 모두 숫자형 인덱스이거나 모두 노드 이름이어야 합니다.</entry>
+    <entry key="InvalidSTSize">s와 t는 동일한 길이의 스칼라 또는 벡터여야 합니다.</entry>
+    <entry key="LayoutOptsWithoutLayout">'auto' 레이아웃에는 {0}이(가) 지원되지 않습니다.</entry>
+    <entry key="LayoutWithXDataAndYData">레이아웃은 XData, YData 또는 ZData와 함께 지정되면 안 됩니다.</entry>
+    <entry key="ScalarOrVectorOfLength">''{0}'' 값은 스칼라이거나, 길이가 {1,number,integer}인 벡터여야 합니다.</entry>
+    <entry key="InvalidEdgeFontWeight">''EdgeFontWeight'' 값은 ''normal'' 또는 ''bold''이거나, 각 간선에 대해 ''normal'' 또는 ''bold''를 포함하는 셀형 배열 또는 string형 벡터여야 합니다.</entry>
+    <entry key="InvalidEdgeFontAngle">''EdgeFontAngle'' 값은 ''normal'' 또는 ''italic''이거나, 각 간선에 대해 ''normal'' 또는 ''italic''을 포함하는 셀형 배열 또는 string형 벡터여야 합니다.</entry>
+    <entry key="InvalidNodeFontWeight">''NodeFontWeight'' 값은 ''normal'' 또는 ''bold''이거나, 각 노드에 대해 ''normal'' 또는 ''bold''를 포함하는 셀형 배열 또는 string형 벡터여야 합니다.</entry>
+    <entry key="InvalidNodeFontAngle">''NodeFontAngle'' 값은 ''normal'' 또는 ''italic''이거나, 각 노드에 대해 ''normal'' 또는 ''italic''을 포함하는 셀형 배열 또는 string형 벡터여야 합니다.</entry>
+    <entry key="MissingXDataOrYData">XData 입력값과 YData 입력값은 함께 지정되어야 합니다.</entry>
+    <entry key="MissingXStartOrYStart">XStart 입력값과 YStart 입력값은 함께 지정되어야 합니다.</entry>
+    <entry key="MissingXStartYStartOrZStart">XStart, YStart, ZStart 입력값은 함께 지정되어야 합니다.</entry>
+    <entry key="NodeLabelsInvalidSize">레이블은 스칼라이거나, 지정된 노드 개수와 동일한 길이의 벡터여야 합니다.</entry>
+    <entry key="NodesInvalidSize">노드는 숫자형 벡터, 노드 이름으로 구성된 벡터, 또는 노드 개수와 동일한 길이의 논리형 벡터여야 합니다.</entry>
+    <entry key="NoOptionalInput">''{0}'' 레이아웃 메서드는 선택적 입력 인수를 지원하지 않습니다.</entry>
+    <entry key="ShowArrowsDigraphOnly">무방향 그래프에서는 ''ShowArrows'' 값을 변경할 수 없습니다.</entry>
+    <entry key="UninitializedEdgeCData">EdgeColor를 ''flat''으로 설정할 경우 EdgeCData는 비어 있지 않아야 합니다.</entry>
+    <entry key="UninitializedNodeCData">NodeColor를 ''flat''으로 설정할 경우 NodeCData는 비어 있지 않아야 합니다.</entry>
+    <entry key="UnknownNodeName">이름이 ''{0}''인 노드가 그래프에 포함되어 있지 않습니다.</entry>
+    <entry key="ZDataWithoutXDataAndYData">ZData 입력값은 XData 및 YData와 함께 지정되어야 합니다.</entry>
+    <entry key="IncompatibleVersion">이 MATLAB 버전과 호환되지 않으므로 GraphPlot을 불러올 수 없습니다.</entry>
+    <entry key="Node">노드</entry>
+    <entry key="Degree">차수</entry>
+    <entry key="InDegree">진입차수</entry>
+    <entry key="OutDegree">진출차수</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotEnoughInputs">Needs at least 2 inputs.</entry>
+    <entry key="OutvalNotScalarDouble">OUTVAL must be a scalar double</entry>
+    <entry key="CoptionsNotStringCell" note="stringDatatypeUpdate">Convex hull options must be a cell array of character vectors or a string array.</entry>
+    <entry key="DoptionsNotStringCell" note="stringDatatypeUpdate">DOPTIONS should be a cell array of character vectors.</entry>
+    <entry key="XandXIColSizeMismatch">X and XI should have the same column dimension.</entry>
+    <entry key="InvalidSizeT">T does not have the correct size to be a triangulation of X.</entry>
+  </message>
+</rsccat>

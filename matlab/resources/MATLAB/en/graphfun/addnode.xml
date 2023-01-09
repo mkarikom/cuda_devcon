@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidNrNodes">Number of nodes to add must be a real, nonnegative integer.</entry>
+    <entry key="NoOutput">Input graph not modified. Use an output argument to return the modified graph.</entry>
+    <entry key="SecondInput">Nodes to be added must be an array of node names, number of nodes, or table of node properties.</entry>
+    <entry key="NonUniqueDefaultNames">Default name for new node matches an existing node name. Specify unique node names for new nodes.</entry>
+  </message>
+</rsccat>

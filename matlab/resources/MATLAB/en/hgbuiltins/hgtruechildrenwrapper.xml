@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invalidinput">There must exactly one input array.</entry>
+    <entry key="nonscalarinput">The input must be a scalar handle.</entry>
+    <entry key="mustbehandle">The input must be a valid handle.</entry>
+  </message>
+</rsccat>

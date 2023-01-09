@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="integerNotSupported">MTIMES (*) は整数のクラスの一部に対してサポートされていません。少なくとも 1 つの引数がスカラーでなければなりません。</entry>
+    <entry key="sparseSingleNotSupported">MTIMES (*) は 1 つのスパース引数および 1 つの single の引数に対してサポートされていません。</entry>
+    <entry key="inputsMustBe2D">引数は 2 次元であるか、少なくとも 1 つの引数がスカラーでなければなりません。TIMES (.*) を使用して要素単位の乗算を行うか、PAGEMTIMES を使用して行列の乗算を N 次元配列のページに適用してください。</entry>
+    <entry key="logicalInputsMustBeScalar">論理値の引数は両方ともスカラーでなければなりません。要素単位の乗算には TIMES (.*) を使用してください。</entry>
+    <entry key="MixedClassNotSupport">引数のクラスはサポートされていません。</entry>
+  </message>
+</rsccat>

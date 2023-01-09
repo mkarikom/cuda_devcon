@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="tooManyExceptFlags">複数回指定することのできない ''-except'' フラグが入力 {0,number,integer} と {1,number,integer} に対して指定されました。</entry>
+    <entry key="unknownFlag">フラグ ''{0}'' は認識されません。どのフラグがサポートされているかを参照するには、"help {1}" と入力してください。</entry>
+    <entry key="FlagIgnored">{0, number, integer} 番目の入力数 (フラグ ''-{1}'') は、無視されます。有効な構文を参照するには、''help {2}'' と入力してください。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="sigpipe">内部错误: 捕获到 Sigpipe</entry>
+    <entry key="XError">正在对以前的 X 错误进行核心转储... 再见</entry>
+    <entry key="XDisconnect">\n与 X11 显示服务器({0})的连接已丢失。\n此会话中无法再显示更多的图形窗口。\n仍可以打印图形对象，并且所有命令仍有效。\n建议您尝试保存当前会话并退出。</entry>
+    <entry key="NoDisplay">无法打开显示 ''{0}''。将无法在屏幕上显示图形。</entry>
+    <entry key="FailedToAllocateMemory">X 服务器无法为某些以前的 MATLAB 图形或窗口请求分配足够的内存</entry>
+    <entry key="UnsupportedLocale">X 不支持区域设置 {0}</entry>
+  </message>
+</rsccat>

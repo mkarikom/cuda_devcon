@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidOption">选项必须为 ''transpose''、''ctranspose'' 或 ''none''。</entry>
+    <entry key="invalidArray">数据类型无效。输入数组必须为双精度或单精度。</entry>
+    <entry key="sparseNotSupported">不支持稀疏输入。</entry>
+    <entry key="threeInputNotSupported">输入参数的数目不正确。请指定两个或四个输入参数。</entry>
+    <entry key="mismatchPageDimensions">用于矩阵乘法的维度不正确。请检查并确保第一个数组中的列数与第二个数组中的行数匹配。</entry>
+    <entry key="mismatchImplicitExpansion">数组的大小不兼容。对于前两个维度以外的每个维度，两个数组的维度大小必须相同，或其中之一必须为 1。</entry>
+  </message>
+</rsccat>

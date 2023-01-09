@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="getPickableAncestorInvalidNonScalarObject">入力オブジェクトはスカラーのハンドルでなければなりません。</entry>
+    <entry key="getPickableAncestorInvalidNonHandleObject">入力オブジェクトは、ハンドル オブジェクトでなければなりません。</entry>
+    <entry key="getPickableAncestorInvalidObject">入力オブジェクトは、SceneNode のサブクラスでなければなりません。</entry>
+    <entry key="getChildExtentsInvalidNonScalarObject">入力オブジェクトはスカラーのハンドルでなければなりません。</entry>
+    <entry key="getChildExtentsInvalidNonHandleObject">入力オブジェクトは、ハンドル オブジェクトでなければなりません。</entry>
+    <entry key="getChildExtentsInvalidObject">入力オブジェクトは、SceneNode のサブクラスでなければなりません。</entry>
+    <entry key="getChildExtentsInvalidNonScalarExcludedObject">除外オブジェクトはスカラーのハンドルでなければなりません。</entry>
+    <entry key="getChildExtentsInvalidNonHandleExcludedObject">除外オブジェクトは、ハンドル オブジェクトでなければなりません。</entry>
+    <entry key="getChildExtentsInvalidExcludedObject">除外オブジェクトは、SceneNode のサブクラスでなければなりません。</entry>
+  </message>
+</rsccat>

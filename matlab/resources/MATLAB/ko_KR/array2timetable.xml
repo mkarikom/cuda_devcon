@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NDArray">입력 배열은 2차원 행렬이어야 합니다.</entry>
+    <entry key="RowTimeRequired">행 시간값으로 datetime형 벡터나 duration형 벡터를 제공하십시오.</entry>
+    <entry key="IncorrectNumberOfRowTimes">행 시간값은 입력 타임테이블의 각 행마다 하나의 시간값을 갖는 datetime형 벡터나 duration형 벡터여야 합니다.</entry>
+    <entry key="CodegenVarNames">코드 생성 시 ''VariableNames''를 지정해야 합니다.</entry>
+    <entry key="NonconstantVariableNames">타임테이블 변수 이름은 상수여야 합니다.</entry>
+  </message>
+</rsccat>

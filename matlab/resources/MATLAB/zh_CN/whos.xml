@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="fileNameIsEmpty">未提供文件名。</entry>
+    <entry key="fileIsNotThere">找不到 {0}。</entry>
+    <entry key="permissionDenied">无法打开 {0}。权限被拒绝。</entry>
+    <entry key="isADirectory">无法打开 {0}。它是一个文件夹。</entry>
+    <entry key="notValidMatFile">无法将 {0} 作为有效的 MAT 文件打开。</entry>
+    <entry key="VariableTooBigForArch">变量 ''{0}'' 太大，无法用于构造。\n正在跳过...</entry>
+    <entry key="UnableToRead">由于未知的 MAT 文件错误，无法读取某些变量。\n</entry>
+    <entry key="multipleFilesDetected">指定了多个 ''-file'' 选项。仅允许使用一个。</entry>
+    <entry key="yourVariablesAre">\n您的变量为:\n</entry>
+    <entry key="badVariableName">无法读取某些变量。变量名称长度必须小于或等于 MATLAB 最大名称长度 63 个字符。</entry>
+  </message>
+</rsccat>

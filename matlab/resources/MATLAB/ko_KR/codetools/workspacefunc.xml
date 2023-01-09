@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="cellstr_PreviewTruncatedAt">&lt;다음에서 미리보기가 잘림: </entry>
+    <entry key="ErrorDisplayingValue">&lt;값 표시 중 오류 발생&gt;</entry>
+    <entry key="ErrorRetrievingValue">&lt;값 검색 중 오류 발생&gt;</entry>
+    <entry key="PreviewTruncatedAtCharacters">&lt;{0}개 문자에서 미리보기 잘림&gt;</entry>
+    <entry key="TooManyElements">&lt;요소가 너무 많음&gt;</entry>
+    <entry key="AllVariablesMustHaveSameID">모든 변수의 작업 공간 ID가 동일해야 함</entry>
+    <entry key="GettingVariablesfromDefaultWorkspaceNotImplemented">디폴트 작업 공간에서 변수 가져오기가 구현되지 않았습니다.</entry>
+    <entry key="ArgumentToGetWorkspaceIDCannotBeEmpty">GetWorkspaceID에 대한 인수는 비어 있을 수 없음</entry>
+    <entry key="WorkspaceStorageErrorTooManyWorkspacesFound">작업 공간 저장 오류 - 너무 많은 작업 공간이 발견됨</entry>
+    <entry key="UnexpectedInput">예기치 않은 입력값임: {0}</entry>
+    <entry key="Unevaluated">미평가</entry>
+  </message>
+</rsccat>

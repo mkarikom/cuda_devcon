@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidState">状态无效</entry>
+    <entry key="InvalidInputRequiresCellArrayOfStrings">输入无效，需要字符向量元胞数组</entry>
+    <entry key="InvalidProperty">属性 {0} 无效</entry>
+    <entry key="InvalidInputStringRequired">输入无效，需要字符向量</entry>
+    <entry key="IncorrectProperty">如果 ''{1}'' 属性已注册，则无法设置 ''{0}'' 属性。</entry>
+    <entry key="InvalidRegistration">当前变量已在变量表中注册。</entry>
+    <entry key="DirectCodeGenNotSupported">类不支持直接生成代码:</entry>
+  </message>
+</rsccat>

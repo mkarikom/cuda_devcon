@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="inputType">数据类型无效。输入数组必须为数值或逻辑值。</entry>
+    <entry key="sparseInput">不支持稀疏输入。</entry>
+    <entry key="notVectorInput">前两个参数必须为向量。</entry>
+    <entry key="invalidInitialConditions">初始条件必须是长度为 max(length(a),length(b))-1 的向量，或者是包含大小为 max(length(a),length(b))-1 的第一维以及其余维度与 x 的维度匹配的数组。</entry>
+    <entry key="firstElementOfDenominatorFilterNotFinite">第一个分母筛选器系数必须为有限值。</entry>
+    <entry key="firstElementOfDenominatorFilterZero">第一个分母筛选器系数必须为非零值。</entry>
+  </message>
+</rsccat>

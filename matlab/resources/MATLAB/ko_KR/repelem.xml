@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NdSparseOutput">N차원 희소 형식 출력 배열은 지원되지 않습니다.</entry>
+    <entry key="nonNumericReplications">복제 인자는 숫자형이어야 합니다.</entry>
+    <entry key="complexReplications">복소수 복제 인자는 지원되지 않습니다.</entry>
+    <entry key="invalidReplications">복제 인자는 음이 아닌 정수 값 스칼라이거나 벡터여야 합니다.</entry>
+    <entry key="mismatchedReplicationsVector">repelem(v, N)에서 N은 스칼라이거나, v와 같은 길이의 벡터여야 합니다.</entry>
+    <entry key="mismatchedReplications">repelem(A, N1, N2, ..., Nn)에서 Nj는 스칼라이거나, size(A, j)와 같은 길이의 벡터여야 합니다.</entry>
+    <entry key="twoInputNonVector">두 개의 입력값을 사용하는 경우 첫 번째 인수는 벡터여야 합니다. 행렬의 경우 3개의 입력값으로 구성된 구문을 사용하십시오.</entry>
+  </message>
+</rsccat>

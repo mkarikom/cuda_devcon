@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="integerNotSupported">정수형 클래스에 대해서는 MPOWER (^)이 완전히 지원되지 않습니다. 두 인수가 모두 스칼라여야 합니다. 요소별 거듭제곱 연산을 수행하려면 POWER (.^)을 사용하십시오.</entry>
+    <entry key="inputsMustBe2D">인수는 2차원이어야 합니다. 요소별 거듭제곱 연산을 수행하려면 POWER (.^)을 사용하십시오.</entry>
+    <entry key="negRealEig">음의 실수 고유값을 갖는 행렬에 대해서는 주요 행렬 거듭제곱이 정의되지 않습니다. 비주요 행렬 거듭제곱이 반환됩니다.</entry>
+    <entry key="notScalarAndSquareMatrix">차원이 정확하지 않아 행렬을 거듭제곱할 수 없습니다. 행렬이 정사각 행렬이고 지수 값이 스칼라인지 확인하십시오. 요소별 행렬 거듭제곱 연산을 수행하려면 '.^'을 사용하십시오.</entry>
+    <entry key="sparseSingleNotSupported">인수 중 하나가 희소 인수이고 다른 하나가 single형 인수인 경우에는 MPOWER (^)을 사용할 수 없습니다.</entry>
+    <entry key="tooManyMatrixSquareRoots">행렬 제곱근의 최대 개수를 초과했습니다. 결과가 부정확할 수 있습니다.</entry>
+    <entry key="zeroEig">특이 행렬에 대해 행렬 거듭제곱이 존재하지 않을 수 있습니다.</entry>
+  </message>
+</rsccat>

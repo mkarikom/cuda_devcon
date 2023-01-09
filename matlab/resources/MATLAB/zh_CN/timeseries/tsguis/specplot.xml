@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DefineFrequencyVector">定义频率向量</entry>
+    <entry key="Detrend">去除趋势...</entry>
+    <entry key="EndFrequency">结束频率</entry>
+    <entry key="Filter">筛选...</entry>
+    <entry key="Filtering">筛选</entry>
+    <entry key="Help">帮助</entry>
+    <entry key="HighLimit">上限</entry>
+    <entry key="Interpolate">插值...</entry>
+    <entry key="LowLimit">下限</entry>
+    <entry key="MultiplePeriodograms">多周期图</entry>
+    <entry key="PanFrequencyAxis">平移频率轴</entry>
+    <entry key="Periodogram">周期图</entry>
+    <entry key="PeriodogramColon">周期图: {0}</entry>
+    <entry key="PeriodogramOf">{0} 的周期图</entry>
+    <entry key="PeriodogramOfMultipleTimeSeries">多个时序的周期图</entry>
+    <entry key="RemoveMissingData">删除缺少的数据...</entry>
+    <entry key="ResampleData">重采样数据...</entry>
+    <entry key="Reset">重置</entry>
+    <entry key="SelectData">选择数据...</entry>
+    <entry key="StartFrequency">起始频率</entry>
+    <entry key="TimeSeriesLengthExceedsTheDefaultDisplayLimitOf0nu">时序长度超过默认显示限制 {0,number,integer}。绘图限制为前 {1,number,integer} 点。\n使用平移工具或属性编辑器显示其他间隔。</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="Units">单位</entry>
+    <entry key="UseALogScaleForPeriodogramYValues">使用周期图 Y 值的对数刻度</entry>
+    <entry key="Variance">方差</entry>
+  </message>
+</rsccat>

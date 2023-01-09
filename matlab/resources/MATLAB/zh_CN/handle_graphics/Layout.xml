@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoPositionSetInTiledChartLayout">无法为 TiledChartLayout 中的对象设置 'Position'、'InnerPosition'、'OuterPosition' 或 'PositionConstraint'</entry>
+    <entry key="NoGridSizeSetUnlessLayoutIsEmpty">当 TiledChartLayout 不为空时，无法设置 GridSize</entry>
+    <entry key="UnsupportedChart">TiledChartLayout 不支持此功能。 </entry>
+  </message>
+</rsccat>

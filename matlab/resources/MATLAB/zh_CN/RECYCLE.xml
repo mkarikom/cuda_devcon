@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidRecycleState">recycle 的有效输入为 'on' 或 'off'。</entry>
+    <entry key="MoveFileFailure">无法回收文件: {0}。</entry>
+    <entry key="RecycleDirFailure">无法回收文件。无法创建回收目录 "{0}"。</entry>
+    <entry key="State">状态</entry>
+  </message>
+</rsccat>

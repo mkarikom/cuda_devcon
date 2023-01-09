@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidTranslation">変換行列の生成に対する無効な入力</entry>
+    <entry key="InvalidScale">スケール行列の生成に対する無効な入力</entry>
+    <entry key="InvalidRotation">回転行列の生成に対する無効な入力</entry>
+  </message>
+</rsccat>

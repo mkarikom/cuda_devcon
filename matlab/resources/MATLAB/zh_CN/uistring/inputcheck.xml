@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MoreInformation">有关详细信息，请参阅 MathWorks 网站上的&lt;a href="http://www.mathworks.com/support/contact_us/dev/obsoleteprintdevices.html?device={0}"&gt;已过时的输出格式&lt;/a&gt;资料。</entry>
+    <entry key="ThePrintDeviceWillBeRemovedInAFutureRelease">在以后的 MATLAB 版本中将删除 ''{0}'' 打印设备。</entry>
+    <entry key="TheGraphicExportFormatWillBeRemovedInAFutureRelease">在以后的 MATLAB 版本中将删除 ''{0}'' 图形导出格式。</entry>
+    <entry key="ThedillPrintDeviceWillBeRemovedInAFutureRelease">未来版本的 MATLAB 中将删除 ''-dill'' 打印设备。请改用封装的 PostScript (''-depsc'')。</entry>
+    <entry key="ThePrintDeviceHasBeenRemoved">MATLAB 中已删除对 ''{0}'' 打印设备的支持。</entry>
+    <entry key="TheGraphicExportFormatHasBeenRemoved">MATLAB 中已删除对 ''{0}'' 图形导出格式的支持。</entry>
+    <entry key="ThedillPrintDeviceHasBeenRemoved">MATLAB 中已删除对 ''-dill'' 图形导出格式的支持。请改用封装的 PostScript (''-depsc'')。</entry>
+  </message>
+</rsccat>

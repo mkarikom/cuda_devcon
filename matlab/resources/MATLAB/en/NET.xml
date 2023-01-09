@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" string_type_for_hole="mixed" version="1.0">
+   <message>
+      <entry key="ArrayConversionError">Array conversion failed.</entry>
+      <entry key="ArrayDimSizeMismatchError">Source and destination array dimension sizes do not match.</entry>
+      <entry key="ArrayLengthMismatchError">Source and destination array lengths do not match.</entry>
+      <entry key="ArrayNumDimsMismatchError">Number of dimensions in the source and destination arrays do not match.</entry>
+      <entry key="UnsupportedAssignmentIndexingArray">Cell contents assignment to a non-cell array object.</entry>
+      <entry key="UnsupportedReferenceIndexingArray">Cell contents reference from a non-cell array object.</entry>
+      <entry key="CLRException" translate="false">{0}</entry>
+      <entry key="invokeStaticGenericMethod" translate="false">{0}</entry>
+      <entry key="DATA_MARSHAL_ERR">Error marshalling .NET object.\n ''{0}''</entry>
+      <entry key="EMPTYOBJECT">Creating an empty .NET object is not supported.</entry>
+      <entry key="InvalidArrayIndex">Array index must be a positive integer.</entry>
+      <entry key="InvalidClassName">Could not find class ''{0}''.</entry>
+      <entry key="InvalidGenericParameterType">Invalid generic parameter type argument.</entry>
+      <entry key="INVALIDMEMBER">No appropriate method, property, or field ''{0}'' for class ''{1}''.</entry>
+      <entry key="INVALIDOBJECT">Attempting to access the property or method of an invalid object.</entry>
+      <entry key="INVALIDPROPERTY">The name ''{0}'' is not an accessible property for an instance of class ''{1}''.</entry>
+      <entry key="InvalidStaticPropertyAccess">Static property ''{0}'' is not accessible for class ''{1}''.</entry>
+      <entry key="InvalidStaticPropName">Could not find static property or field ''{0}'' for class ''{1}''.</entry>
+      <entry key="InvalidStaticPropNameArg">Invalid static property name ''{0}''.</entry>
+      <entry key="SETSTATICPROPERTY_ERR">Setting the static property ''{0}'' is not allowed for an instance of class ''{1}''.</entry>
+      <entry key="NAMESPACE_ERR">Could not find namespace ''{0}'' for the type ''{1}''.</entry>
+      <entry key="NoGenericMethod">Could not find generic method ''{0}''.</entry>
+      <entry key="NoMatchingGenericMethod">Could not find generic method ''{0}'' with matching signature.</entry>
+      <entry key="NonStaticPropertyAccess">Property or field ''{0}'' is not static.</entry>
+      <entry key="GenericObjectCreationError">No constructor ''{0}'' with matching signature found.</entry>
+      <entry key="NONAMESPACE">The namespace for the type ''{0}'' does not exist. MATLAB requires all .NET types to be within a namespace.</entry>
+      <entry key="NullObjectIndexing">Attempt to index a ''null'' object.</entry>
+      <entry key="ObjectCreationError">Object creation failed.</entry>
+      <entry key="GetPackageError">Could not get package ''{0}''.</entry>
+      <entry key="SECURITY">The .NET security policy setting on this machine does not allow running any MATLAB Interface to .NET commands from a network drive. Please visit the following documentation page for details. &lt;a href="matlab: helpview([docroot ''/techdoc/matlab_external/matlab_external.map''],''NET_security_policy_settings'')"&gt; .NET Security Policy Settings &lt;/a&gt;</entry>
+      <entry key="TYPELOAD_ERR">Could not load the type ''{0}''.</entry>
+      <entry key="UnsupportedDelegateType">.NET events with nonstandard delegate definition are not supported in MATLAB.</entry>
+      <entry key="UnsupportedArrayFormation">Array formation is not allowed on .NET objects.</entry>
+      <entry key="UnsupportedEndIndexingArray">''end'' index is not supported for .NET objects.</entry>
+      <entry key="UnsupportedIndexing">Array formation and indexing are not allowed on .NET objects.</entry>
+      <entry key="UnsupportedIndexingArray">Array formation and indexing are not allowed on .NET objects.  Use Set and Get methods to access .NET array elements.</entry>
+      <entry key="UnsupportedIndexingCustom">Array formation and indexing are not allowed on .NET objects.  Use the Item method to index into this object.</entry>
+      <entry key="UnsupportedInputArrayTypeError">Conversion from ''{0}'' array type is not supported.</entry>
+      <entry key="UnsupportedOutputArrayTypeError">Conversion to ''{0}'' array type is not supported.</entry>
+      <entry key="DelegateInvocationError">Error occurred while executing delegate callback:\n{0}</entry>
+      <entry key="DynamicMethodCallError">Error occurred while executing method:\n{0}</entry>
+      <entry key="UnsupportedDotNetInterfaceImpl">Implementation of .NET interfaces is not supported.</entry>
+      <entry key="UnsupportedInterfaceProperties">Implementation of .NET interfaces defining properties is not supported.</entry>
+      <entry key="UnsupportedInterfaceIndexers">Implementation of .NET interfaces defining indexers is not supported.</entry>
+      <entry key="UnsupportedInterfaceEvents">Implementation of .NET interfaces defining events is not supported.</entry>
+      <entry key="UnsupportedGenericInterfaceImpl">Implementation of generic .NET interfaces is not supported.</entry>
+      <entry key="UnsupportedGenericInterfaceMethods">Implementation of .NET interfaces defining generic methods is not supported.</entry>
+      <entry key="UnsupportedCOMInterfaceImpl">Implementation of .NET COM interfaces is not supported.</entry>
+      <entry key="UnsupportedNonHandleInterfaceImplClass">Class implementing .NET interface must be a subclass of handle.</entry>
+      <entry key="AmbiguousMethod">Cannot choose between the following .NET method signatures due to unspecified optional arguments in the call to {0}\n\n You can resolve this ambiguity by specifying enough additional optional arguments so that there is only one possible matching .NET method.</entry>
+      <entry key="UndefinedFunction">No method ''{0}'' with matching signature found for class ''{1}''.</entry>
+      <entry key="ExecuteSecurity" translate="false">{0}</entry>
+      <entry key="DisplayMethodNETAssemblyHandle">NET.Assembly handle</entry>
+      <entry key="DisplayMethodPackageNETn">\n  Package: NET\n</entry>
+      <entry key="UnsupportedDotNetSuperclass">Class ''{0}'' declares the .NET class ''{1}'' as a superclass. Creating a MATLAB subclass of a .NET class is not supported.</entry>
+  	  <entry key="InvalidFrameworkVersion">.NET commands require Framework 4.0 or higher. Please install Framework version 4.0 or higher before running any .NET commands.\n</entry>
+      <entry key="InvalidParameterName">Invalid optional parameter name {0} for the method 'cell'. The parameter available is 'ConvertTypes'.</entry>
+      <entry key="InvalidParameterValue">Invalid .NET type {0} specified for conversion. The value should be a cell array containing ''all'' or the following supported types, ''System.String'',''System.Datetime'.</entry>
+      <entry key="InvalidValueType">Expecting cell array of .NET types to be converted to MATLAB types.</entry>
+      <entry key="IncorrectArgCount">No method 'cell' with matching signature found for class 'System.Object[,]'.</entry>
+      <entry key="UnknownError">"Unknown error."</entry>
+     <entry key="NETExceptionMessage">Message: {0}\nSource: {1}\nHelpLink: {2}</entry>
+      <entry key="UnknownMethodInvocation">"Unknown method invocation error."</entry>
+      <entry key="UnknownDelegateInvocation">"Unknown delegate invocation error."</entry>
+      <entry key="UnsupportedLoad">Unable to load .NET object. Saving (serializing) .NET objects into a MAT-file is not supported.</entry>
+   </message>
+</rsccat>

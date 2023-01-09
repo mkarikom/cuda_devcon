@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CanvasTitle">캔버스</entry>
+    <entry key="ShowGrid">그리드 표시 간격:</entry>
+    <entry key="GridUnits">픽셀</entry>
+    <entry key="SnapToGrid">그리드에 맞춤</entry>
+    <entry key="ShowAlignmentHints">맞춤 안내선 표시</entry>
+    <entry key="ShowResizingHints">크기 조정 안내선 표시</entry>
+    <entry key="EditorTitle">편집기</entry>
+    <entry key="FontSize">글꼴 크기:</entry>
+    <entry key="ChangeEditorFontSizeLabel">편집기 글꼴 크기 변경</entry>
+    <entry key="EnableAppCodingAlerts">앱 코딩 알림 활성화</entry>
+    <entry key="ComponentBrowserTitle">구성요소 브라우저</entry>
+    <entry key="IncludeLabelsInComponentBrowser">구성요소 브라우저에 구성요소 레이블 포함</entry>
+    <entry key="MRUTitle">가장 최근에 사용한 파일 목록</entry>
+    <entry key="NumberOfEntries">항목 수:</entry>
+    <entry key="AutoSaveTitle">자동 파일 변경</entry>
+    <entry key="SaveOnClickAway">앱이 아닌 다른 위치를 클릭할 때 변경 내용 저장</entry>
+  </message>
+</rsccat>

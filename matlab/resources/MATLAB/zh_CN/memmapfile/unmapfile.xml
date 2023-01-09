@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="valuesConvertedToEmpty">清除 memmapfile 对象导致 MATLAB 用完内存。要进行恢复，从对象的 Data 字段派生的一个或多个 MATLAB 值必须更改为空数组。继续前，应检查和验证变量。</entry>
+    <entry key="usage">用法: remainingRefCount = memunmap(memstruct)。</entry>
+    <entry key="cannotUnmap">无法对指定的文件/分段取消映射。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonCategoricalX">データ型が無効です。最初の引数はカテゴリカル配列でなければなりません。</entry>
+    <entry key="OrdinalCategoriesMismatch">X と CATEGORIES は、両方が順序配列の場合、同じカテゴリを同じ順序で含んでいなければなりません。</entry>
+    <entry key="OrdinalMismatch">X と CATEGORIES は、両方とも順序配列であるか、両方とも非順序配列でなければなりません。</entry>
+    <entry key="RepeatedCategories">カテゴリの引数に重複した名前が含まれています。</entry>
+    <entry key="UnrecognizedCategories">順序データの場合、カテゴリの引数はデータ カテゴリのサブセットでなければなりません。</entry>
+  </message>
+</rsccat>

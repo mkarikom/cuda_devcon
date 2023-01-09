@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed">
+  <message>
+    <entry key="InvalidOption" note="stringDatatypeUpdate">''{0}'' is an invalid option.</entry>
+    <entry key="RemovedFromPath">Removed ''{0}'' from the MATLAB path for this MATLAB session.\n\tSee 'doc path' for more information.</entry>
+    <entry key="NotADirectory">{0} is not a directory.</entry>
+    <entry key="NoDirectoriesRemoved">No directories were removed.</entry>
+    <entry key="SomeDirectoriesNotRemoved" translate="false" note="TranslateFalseBatch;">{0}</entry>
+    <entry key="PathNotFound">The specified path was not found.</entry>
+  </message>
+</rsccat>

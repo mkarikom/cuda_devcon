@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotACharacter">Subsref 입력 구조체에는 문자형 배열을 포함한 ''type'' 필드가 있어야 합니다.</entry>
+    <entry key="NoSubsField">Subsref 입력 구조체에는 ''subs'' 필드가 있어야 합니다.</entry>
+    <entry key="IncorrectStructSize">Subsref 입력 파라미터는 1xN 구조체형 배열이어야 합니다.</entry>
+    <entry key="IncorrectArguments">함수 호출의 결과는 추가로 인덱싱할 수 없습니다.</entry>
+    <entry key="LimitedIndexing">{0}에서는 ''()'' 인덱싱만 지원됩니다.</entry>
+    <entry key="DynamicSubsField">동적 속성 액세스는 비어 있지 않은 문자형 벡터여야 합니다.</entry>
+  </message>
+</rsccat>

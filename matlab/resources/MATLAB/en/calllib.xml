@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NameAndFunctionNeeded">To call a function both the library name and function name are needed.</entry>
+    <entry key="InvalidReturnType">The function return type is not supported.</entry>
+    <entry key="Unsupported">Shared library calling is not supported on this platform.</entry>
+    <entry key="StdUnsupported">Std calling is not supported on this platform.</entry>
+    <entry key="NotFound">Library was not found</entry>
+    <entry key="MethodNotFound">Method was not found.</entry>
+    <entry key="AccessNotAllowed">Access to method is not allowed.</entry>
+    <entry key="MethodNotStatic">An instance method cannot be invoked as a static method.</entry>
+    <entry key="NoMatchingSignatureFound">No method with matching signature.</entry>
+  </message>
+</rsccat>

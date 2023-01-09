@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelInput">入力</entry>
+    <entry key="LabelOutput">出力</entry>
+    <entry key="LabelInfo">情報</entry>
+    <entry key="LabelClose">閉じる</entry>
+    <entry key="TitleCodeDecode">コード/デコード</entry>
+    <entry key="LabelCodeKeyLetter">符号化キー文字</entry>
+    <entry key="LabelMode">モード</entry>
+    <entry key="PopupEncode">エンコード</entry>
+    <entry key="PopupDecode">デコード</entry>
+  </message>
+</rsccat>

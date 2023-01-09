@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="isEqual">TextStringDataType::isEqual の例外</entry>
+    <entry key="IncorrectShape">文字列引数は 2 次元文字列配列または N 行 1 列のセル配列でなければなりません。</entry>
+    <entry key="ArrayClass">文字列のデータ型は文字またはセル配列にしてください。</entry>
+    <entry key="InvalidCellArray">String プロパティに対するセル配列入力に含められるのは、文字列の行列のみです。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="InvalidClipboardData">Clipboard does not contain any recognizable data.</entry>
+      <entry key="FileNotFound">Unable to open file.</entry>
+      <entry key="InvalidFile">Unable to load file. Not a MAT-file.</entry>
+      <entry key="InvalidDelimiter">Multicharacter delimiters are not supported.</entry>
+      <entry key="FormatMismatch">An unexpected format mismatch was detected.\nPlease check results against original file.</entry>
+      <entry key="InvalidDataSection">File contains uninterpretable data.</entry>
+      <entry key="UnableToRead">Unable to load file.\nUse readtable for more complex formats.\n</entry>
+   </message>
+</rsccat>

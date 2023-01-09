@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NegativeDataInLogAxis">已忽略了负数</entry>
+    <entry key="NegativeLimitsInLogAxis">已忽略负数限制</entry>
+    <entry key="UndefinedMethod">类 {0} 没有复制方法。</entry>
+    <entry key="UnableToComputeLayout">无法计算坐标区布局信息</entry>
+    <entry key="LabelsMustBeText">Labels 必须为文本对象</entry>
+    <entry key="CameraDirection">相机的位置和目标必须有区别。</entry>
+    <entry key="UpVector">相机向上向量必须独立于相机方向。</entry>
+    <entry key="YAxisLocationLocked">YAxisLocation 属性为只读属性。请使用 yyaxis 选择不同的 y 轴。</entry>
+    <entry key="BadDataSpace">该 DataSpace 无效。</entry>
+    <entry key="BadDataSpaceIndex">该索引超出范围。</entry>
+    <entry key="UnsupportedDataAspectRatio">具有多个坐标系的坐标区仅支持 DataAspectRatio 为 'auto'。</entry>
+    <entry key="UnsupportedCopy">不支持具有多个坐标系的坐标区对象副本。</entry>
+    <entry key="UnsupportedView">具有多个坐标系的坐标区不支持三维视图。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnableToFindFigureMenuBar">在路径中找不到 FigureMenuBar.fig - 未添加内置菜单</entry>
+    <entry key="UnableToFindFigureToolBar">在路径中找不到 FigureToolBar.fig - 未添加内置工具栏</entry>
+    <entry key="OpenGLRenderingAdvised">建议执行 OpenGL 渲染。有关详细信息，请键入 ''help opengl''</entry>
+    <entry key="OpenGLNotAvailable">OpenGL 不可用。请使用 ZBuffer</entry>
+    <entry key="FigureNotInZBufferMode">图窗未处于 zbuffer 模式下</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidState">philox4×32-10 生成器的状态无效。</entry>
+    <entry key="SubstreamsIndexOutOfRange">philox4x32-10 流仅有 2^51 个子流。</entry>
+    <entry key="InvalidParameter">philox4×32-10 生成器不接受参数。</entry>
+    <entry key="TooManyStreams">无法创建 2^61 个以上的 philox4×32-10 流。</entry>
+  </message>
+</rsccat>

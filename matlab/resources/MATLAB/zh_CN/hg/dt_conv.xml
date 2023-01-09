@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MissingConstrainingOrUnconstrainingData">缺少约束({0,number,integer})或非约束({1,number,integer})数据</entry>
+    <entry key="BadMeshColor">MESHCOLOR 值错误</entry>
+    <entry key="Expected2Or3ElementVector">值必须为包含 2 个或 3 个元素的向量</entry>
+    <entry key="ExpectedColumnOrRowVector">值必须为列或行向量</entry>
+    <entry key="ExpectedRowVector">值必须为行向量</entry>
+    <entry key="ValueMustBe3ElementVector">颜色值必须为包含 3 个元素的数值向量</entry>
+    <entry key="BadColorValue">颜色值包含 NaN，或者元素超出 0.0 &lt;= 值 &lt;= 1.0 这一范围</entry>
+    <entry key="ExpectedHandle">值必须为句柄</entry>
+    <entry key="ValueMustBeNumeric">值必须为数值</entry>
+    <entry key="ValueMustBe2ElementVector">值必须为包含 2 个元素的向量</entry>
+    <entry key="ValuesMustBeIncreasingAndNonNaN">值必须是递增的并且不为 NaN</entry>
+    <entry key="ValueMustBe3Double">颜色值必须为包含 3 个元素的双精度向量</entry>
+  </message>
+</rsccat>

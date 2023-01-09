@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="sortDirection">MODE는 ''ascend'' 또는 ''descend''여야 합니다.</entry>
+    <entry key="notPosInt">DIM은 양의 정수 스칼라여야 합니다.</entry>
+    <entry key="ElementTooLarge">CATEGORICALSORT의 첫 번째 인수 X 요소는 0과 N 사이여야 합니다.</entry>
+    <entry key="firstArgType">CATEGORICALSORT의 첫 번째 인수는 실수로 구성된 uint8형, uint16형 또는 uint32형 비희소 배열(Full Array)이어야 합니다.</entry>
+    <entry key="secondArgType">CATEGORICALSORT의 두 번째 인수는 0과 intmax(class(X)) 사이의 양의 정수 스칼라여야 합니다.</entry>
+  </message>
+</rsccat>

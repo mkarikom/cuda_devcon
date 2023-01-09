@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MissingAttribute">요소 ''{0}''에는 ''{1}'' 특성(Attribute)이 있어야 합니다.</entry>
+    <entry key="ImmutableElement">요소 ''{0}''이(가) 변경할 수 없는 태그 내에 있습니다.</entry>
+    <entry key="InvalidArgType">인수 유형 ''{0}''은(는) 지원되지 않습니다.</entry>
+    <entry key="InvalidHexEntry">Esc 시퀀스에서 유효하지 않은 16진수 값이 발견됨: ''{0}''</entry>
+    <entry key="InvalidIdentifier">''{0}''은(는) 유효한 메시지 ID가 아닙니다.</entry>
+    <entry key="InvalidLine">라인 값 ''{0}''이(가) 부호 없는 정수가 아닙니다.</entry>
+    <entry key="InvalidTimeFormat">시간의 형식이 올바르지 않습니다.</entry>
+    <entry key="InvalidWasDisabled">WasDisabled 값 ''{0}''이(가) ''true'' 또는 ''false''가 아닙니다.</entry>
+    <entry key="NestedLog">중첩된 로그 태그는 허용되지 않습니다.</entry>
+    <entry key="NestedWarning">중첩된 경고 태그는 허용되지 않습니다.</entry>
+    <entry key="ParseError">XML을 구문 분석하는 중 오류가 발생함: {0}({1,number,integer}번 라인, {2,number,integer}번 열)</entry>
+    <entry key="UnexpectedElement">요소 ''{0}''이(가) 경고 태그 범위를 벗어났습니다.</entry>
+    <entry key="UnknownAttribute">요소 ''{0}''은(는) ''{1}'' 특성(Attribute)을 지원하지 않습니다.</entry>
+    <entry key="UnknownElement">요소 ''{0}''이(가) 지원되지 않습니다.</entry>
+    <entry key="UnmatchedEscapedCharacter">Esc 시퀀스에 일치하는 이스케이프 문자(''{0}'')가 포함되어 있지 않음: ''{1}''</entry>
+  </message>
+</rsccat>

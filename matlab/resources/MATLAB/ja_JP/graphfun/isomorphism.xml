@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ClassMismatch">入力グラフは両方が無向であるか、両方が有向でなければなりません。</entry>
+    <entry key="KeyWithoutValue">''{0}'' パラメーターに値が指定されていません。</entry>
+    <entry key="ParseFlags">パラメーター名は ''NodeVariables'' または ''EdgeVariables'' でなければなりません。</entry>
+    <entry key="ParseVar">''{0}'' の値は string ベクトル、文字ベクトルまたは文字ベクトルのセル配列でなければなりません。</entry>
+    <entry key="NodeVarTypeMismatch">ノード変数 {0} のデータ型が一致していません。最初のグラフではデータ型が ''{1}'' ですが、2 番目のグラフでは ''{2}'' です。</entry>
+    <entry key="EdgeVarTypeMismatch">エッジ変数 {0} のデータ型が一致していません。最初のグラフではデータ型が ''{1}'' ですが、2 番目のグラフでは ''{2}'' です。</entry>
+    <entry key="NodeVarNotInFirstGraph">1 つ目のグラフにノード変数 {0} がありません。</entry>
+    <entry key="NodeVarNotInSecondGraph">2 つ目のグラフにノード変数 {0} がありません。</entry>
+    <entry key="EdgeVarNotInFirstGraph">1 つ目のグラフにエッジ変数 {0} がありません。</entry>
+    <entry key="EdgeVarNotInSecondGraph">2 つ目のグラフにエッジ変数 {0} がありません。</entry>
+    <entry key="NodeVarSizeMismatch">ノード変数 {0} のサイズが一致していません。入力グラフのノード変数のサイズは同じでなければなりません。</entry>
+    <entry key="EdgeVarSizeMismatch">エッジ変数 {0} のサイズが一致していません。入力グラフのエッジ変数のサイズは同じでなければなりません。</entry>
+  </message>
+</rsccat>

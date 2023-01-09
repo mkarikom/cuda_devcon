@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="classHasNoPropertyOrMethod">类 {0} 没有名为 ''{1}'' 的常量属性或静态方法。</entry>
+    <entry key="tooManyResults">未重载的下标可能仅生成一个结果。</entry>
+    <entry key="undefinedClass">未定义类 "{0}"。\nJava 可能未运行。</entry>
+    <entry key="noSubscriptsSpecified">在不指定下标的情况下对类 "{0}" 的某个值进行了索引。当前此操作的结果是索引的值本身，但在以后的版本中，这将出错。</entry>
+  </message>
+</rsccat>

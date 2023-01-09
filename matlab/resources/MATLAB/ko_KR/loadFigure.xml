@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFigFile">유효하지 않은 Figure 파일 형식입니다.</entry>
+    <entry key="ForwardCompatibility">파일 {0}에 MATLAB의 향후 버전({1} 이상)에서 저장된 객체가 포함되어 있습니다.  이 버전에서 파일을 불러오려면 hgsave의 호환성 플래그를 사용하여 저장해야 합니다.</entry>
+    <entry key="FileVersion">MATLAB 최신 버전({0} 이상)으로 만든 Figure 파일입니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InputMustBeString" note="stringDatatypeUpdate">Input to hex2num must be a character vector, string, or cell array of character vectors.</entry>
+    <entry key="OutOfRange" note="stringDatatypeUpdate">Input to hex2num should have just 0-9, a-f, or A-F.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AlreadyAttachable">shareEngine 명령이 이미 호출되어 공유 MATLAB 액세스가 활성화되었습니다.</entry>
+    <entry key="NameAlreadyExists">shareEngine 주소가 이미 사용 중임: {0}</entry>
+    <entry key="UnexpectedError">shareEngine에 예기치 않은 내부 오류가 발생함: {0}</entry>
+    <entry key="ShareEngineNotSupported">이 MATLAB 구성에서 shareEngine 명령은 지원되지 않습니다.</entry>
+  </message>
+</rsccat>

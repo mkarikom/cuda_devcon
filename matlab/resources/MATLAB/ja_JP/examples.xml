@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidArgument">引数 "{0}" が無効です。</entry>
+    <entry key="ExampleNotFound">例 "{0}" が "{1}" で見つかりません。</entry>
+    <entry key="InvalidDirectory">ディレクトリ引数は文字ベクトルでなければなりません。</entry>
+    <entry key="EmptyDirectory">ディレクトリ引数を空にしてはなりません。</entry>
+    <entry key="PathNotValid">既定のディレクトリ名にサポートされていない文字が含まれているため、作業ディレクトリを作成できません。例を開くために、'workDir' オプションを使用して異なる作業ディレクトリを選択してください。このオプションの使用方法の詳細については、「help openExample」を参照してください。</entry>
+    <entry key="UnsupportedDirectoryName">作業ディレクトリ名にサポートされていない制御文字が含まれています。それらの文字を含まない作業ディレクトリ名を指定してください。</entry>
+    <entry key="FunctionInMultipleExamples">次の例では ''{0}'' が使用されています:{1}</entry>
+    <entry key="FunctionInSingleExample">{1} で ''{0}'' が使用されています。</entry>
+  </message>
+</rsccat>

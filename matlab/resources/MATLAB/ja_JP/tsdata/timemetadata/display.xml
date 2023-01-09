@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Package">パッケージ</entry>
+    <entry key="EmptyTimeseriesTimeMetaDataObject">timeseries TimeMetaData オブジェクトは空です。</entry>
+    <entry key="UniformTime">等間隔時間</entry>
+    <entry key="NonUniformTime">非等間隔時間</entry>
+    <entry key="TimeRange">時間範囲</entry>
+    <entry key="CommonProperties">一般的なプロパティ</entry>
+    <entry key="MoreProperties">その他のプロパティ</entry>
+    <entry key="Methods">メソッド</entry>
+    <entry key="ImproperUnitsIncrementWarning">Units プロパティの形式が正しくないため、Increment を表示できません。</entry>
+    <entry key="ImproperUnitsStartEndTimeWarning">Units プロパティの形式が正しくないため、StartTime と EndTime を表示できません。</entry>
+    <entry key="ImproperUnitsStartDateWarning">Units プロパティの形式が正しくないため、StartDate を表示できません。</entry>
+    <entry key="ImproperUnitsFormatWarning">Units プロパティの形式が正しくないため、Format を表示できません。</entry>
+    <entry key="ImproperUnitsWarning">Units プロパティの形式が正しくないため、Units を表示できません。</entry>
+  </message>
+</rsccat>

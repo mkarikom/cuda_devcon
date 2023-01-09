@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WrongNumCategoryNames">Bin 경계값이 {0,number,integer}개인 경우 {1,number,integer}개의 범주 이름을 지정해야 합니다.</entry>
+    <entry key="ValuesetAndEdges">고유한 데이터 값과 Bin 경계값 중 하나만 지정하십시오.</entry>
+    <entry key="NonnumericData">Bin 경계값을 지정하는 경우 입력 데이터는 실수 숫자형 배열이어야 합니다.</entry>
+    <entry key="InvalidEdges">Bin 경계값은 적어도 2개의 요소를 가진 실수 숫자형 벡터여야 합니다.</entry>
+    <entry key="CantCreateCategoryNames">유효 자릿수 5자리를 사용하여 Bin 경계값에서 고유한 범주 이름을 생성할 수 없습니다. CATEGORYNAMES 입력 인수를 사용하여 범주 이름을 지정하십시오.</entry>
+  </message>
+</rsccat>

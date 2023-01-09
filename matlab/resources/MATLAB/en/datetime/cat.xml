@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidConcatenation" note="stringDatatypeUpdate">All inputs must be datetimes or date/time character vectors or date/time strings.</entry>
+    <entry key="IncompatibleTZ">Unable to concatenate a datetime array that has a time zone with one that does not have a time zone.</entry>
+    <entry key="NonNumericDim">Dimension argument must be numeric.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badIndexType">ORDER は数値配列でなければなりません。</entry>
+    <entry key="tooFewIndices">ORDER は、N 次元配列に対して少なくとも N 個の要素がなければなりません。</entry>
+    <entry key="badIndex">ORDER には、無効な置き換えインデックスが含まれています。</entry>
+    <entry key="repeatedIndex">ORDER には、重複する置き換えインデックスを含めることはできません。</entry>
+    <entry key="unsupportedType">データ型がサポートされていません。</entry>
+    <entry key="sparseNDmatrix">N 次元スパース配列はサポートされていません。</entry>
+    <entry key="complexIndex">ORDER は実数でなければなりません。</entry>
+    <entry key="nonIntegerIndex">ORDER には正の整数のインデックスが含まれていなければなりません。</entry>
+  </message>
+</rsccat>

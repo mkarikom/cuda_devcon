@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="nonValidationError" translate="false" note="translate=false set due no translatable content">{0}</entry>
+    <entry key="nonScalarSecondInput">Second input to function ''{0}'' must be a scalar.</entry>
+    <entry key="nonRealInput">Inputs to function ''{0}'' must be real.</entry>
+    <entry key="nonNumericOrLogicalInput">Inputs to function ''{0}'' must be numeric or logical.</entry>
+    <entry key="ConflictingBoundaryOptions">A Combination of ''{0}'' and ''{1}'' options is not supported.</entry>
+    <entry key="invalidLowerBound">Second input to function ''{0}'' must be a real or logical scalar value.</entry>
+    <entry key="invalidUpperBound">Third input to function ''{0}'' must be a real or logical scalar value.</entry>
+    <entry key="invalidVectorSecondInput">Second input to function ''{0}'' must be a nonnegative integer scalar value.</entry>
+    <entry key="notTextOrTrivialTextSecondInput">Second input to function ''{0}'' must be text with one or more characters.</entry>
+    <entry key="nonTextSecondInput">Second input to function ''{0}'' must be a string array, character vector, or cell array of character vectors.</entry>
+    <entry key="nonTextScalarSecondInput">Second input to function ''{0}'' must be a string scalar or character vector.</entry>
+    <entry key="invalidSecondInput">Second input to function ''{0}'' must be ''{1}''.</entry>
+    <entry key="invalidClassNamesInSecondInput">Second input to function ''{0}'' must be a string array, character vector, or cell array of character vectors that represent class names</entry>
+  </message>
+</rsccat>

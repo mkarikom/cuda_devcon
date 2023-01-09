@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EmptyV6OutputArgument">{0} 中的 V6 兼容性输出参数设置为空矩阵。在未来的版本中，这将变为错误。</entry>
+    <entry key="DeprecatedV6OutputArgument">{0} 中的 V6 兼容性输出参数已弃用。未来的版本中将不再支持此参数。</entry>
+    <entry key="EmptyInput">输入参数为空</entry>
+    <entry key="NonFiniteData">ZData 为非有限时，无法显示等高线</entry>
+    <entry key="ConstantData">ZData 为常量时，无法显示等高线</entry>
+  </message>
+</rsccat>

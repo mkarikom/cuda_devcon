@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidMexFile">mex ファイルが見つかりません。</entry>
+    <entry key="InvalidNumberOfInputs">入力引数 \"A\" は定義されていません。</entry>
+    <entry key="TooManyInputs">入力引数が多すぎます。</entry>
+    <entry key="InvalidNumberOfOutputs">出力引数が多すぎます。</entry>
+    <entry key="InvalidMode">2 番目の入力引数は、''sym''、''col''、''row''、''lo'' のいずれかでなければなりません。</entry>
+    <entry key="InvalidInput">正方行列でなければなりません。</entry>
+    <entry key="CHOLMODerror">etree の失敗: CHOLMOD の内部エラーです。</entry>
+  </message>
+</rsccat>

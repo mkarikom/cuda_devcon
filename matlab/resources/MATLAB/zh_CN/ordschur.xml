@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="matrixEntriesMustBeFinite">输入矩阵包含 Inf 或 NaN。</entry>
+    <entry key="vectorLengthMustMatchNumOfEigValues">聚元或选元向量的长度必须等于特征值的数目。</entry>
+    <entry key="clusterMustContainOnlyIntegers">聚元索引必须为正整数。</entry>
+    <entry key="reorderingfailed">算法未成功。</entry>
+    <entry key="inputMustBe2D">输入数组必须为二维。</entry>
+    <entry key="invalidOption">选项必须为 ''lhp''、''rhp''、''udi'' 或 ''udo''。</entry>
+    <entry key="invalidSchurStructure">输入矩阵必须采用有效的 Schur 形式。</entry>
+    <entry key="inputSparse">不支持稀疏矩阵。</entry>
+    <entry key="inputType">数据类型无效。第一个和第二个参数必须为双精度值或单精度值。</entry>
+  </message>
+</rsccat>

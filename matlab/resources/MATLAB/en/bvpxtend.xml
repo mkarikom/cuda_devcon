@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotEnoughInputs">Not enough input arguments.  See BVPXTEND.</entry>
+    <entry key="XnewInsideInterval">XNEW inside the previous interval of integration.</entry>
+    <entry key="UnexpectedExtrapolationMethod">Unexpected extrapolation method specified: {0}.</entry>
+    <entry key="YnewIncorrectType">YNEW must be a numeric vector, a string, or a character vector.</entry>
+    <entry key="UnrecognizedSolverInSol">Cannot extend solution created by solver: {0}.</entry>
+  <!--Resource entries for toolbox/matlab/funfun-->
+    <entry key="NoSolverInSol">Solver information not present in the solution structure. Cannot use extrapolation flag: ''{0}''.</entry>
+  </message>
+</rsccat>

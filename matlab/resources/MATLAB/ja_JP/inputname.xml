@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="argNumberNotValid">引数の数が有効ではありません。</entry>
+    <entry key="notInAfunction">入力名は、アクティブな関数内になければ返せません。</entry>
+    <entry key="notSupportedInThisFunction">インデックスのオーバーロード {0} からの inputname の呼び出しはサポートされていません。</entry>
+    <entry key="notSupportedInScript">スクリプトからの inputname の呼び出しはサポートされていません</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011-2018 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0" decorate_cxx_names="true">
+  <message>
+    <entry key="InvalidEnumValue">''{0}'' is not a valid value. Use one of these values: {1}.</entry>
+    <entry key="InvalidEnumValueFor">Invalid enum value. Use one of these values: {0}.</entry>
+    <entry key="InvalidValue">Value cannot be empty. Use one of these values: {0}.</entry>
+    <entry key="InvalidFiniteValue">Value must be a finite real number.</entry>
+    <entry key="invalidLightingStrength">Value not a numeric scalar</entry>
+    <entry key="invalidPositive">Value not a numeric scalar</entry>
+    <entry key="invalidPositiveInteger">Value not a numeric scalar</entry>
+    <entry key="invalidNoNaN">Value not a numeric scalar</entry>
+    <entry key="invalidZeroToOne">Value not a numeric scalar</entry>
+    <entry key="MustBeString">Input must be a string array.</entry>
+    <entry key="OutOfMemory">Out of memory. Type "help memory" for your options.</entry>
+    <entry key="OutsideRangeFiniteGreater0">Value should be a finite number greater than 0</entry>
+    <entry key="OutsideRangeIntegerGreater0">Value should be an integer greater than 0</entry>
+    <entry key="OutsideRange0to1">Value should be between 0 and 1</entry>
+    <entry key="OutsideRangeNaN0to1">Value is NaN, or out of range 0.0 &lt;= value &lt;= 1.0</entry>
+    <entry key="OutsideRangeValidNumber">Value should be a valid number</entry>
+    <entry key="ParseException">Unable to parse value for {0}</entry>
+    <entry key="superiorfloat">Inputs must be floats, namely single or double.</entry>
+    <entry key="UnhandledMxArrayToStringConversion">Unable to convert MxArray to character vector.</entry>
+    <entry key="InvalidZLocationValue">ZLocation value must be ''zmin'', ''zmax'', or a numeric scalar.</entry>
+    
+    <!-- msgs for MTB datatypes utilities -->
+    <entry key="AmbiguousChoice">Ambiguous input: ''{0}''.</entry>
+  </message>
+</rsccat>

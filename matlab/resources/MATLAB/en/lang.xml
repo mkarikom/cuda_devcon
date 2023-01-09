@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2011-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- Added messages: src/m_interpreter, src/m_lxe -->
+    <entry key="frontend">Unexpected constant found at parse time "{0}"\n</entry>
+    <entry key="nofunction">Can''t get function ''{0}''.</entry>
+    <entry key="nolib">Can''t load m_lxe library ''{0}''.</entry>
+    <entry key="unsupportedFeature">The feature is not supported any more and will be obsoleted in a future release.</entry>
+    <entry key="FeatureLxeNameErr">*** feature {0} options are \n*** ''{1}'' </entry>
+    <entry key="StackOverflow">Out of memory. The likely cause is an infinite recursion within the program.</entry>
+    <entry key="break_without_loop_script">Error: File: {0} Line: {1,number,integer}\nA BREAK may only be used within a FOR or WHILE loop, and then only within the same file as its corresponding FOR or WHILE statement.</entry>
+    <entry key="continue_without_loop_script">Error: File: {0} Line: {1,number,integer}\nA CONTINUE may only be used within a FOR or WHILE loop, and then only within the same file as its corresponding FOR or WHILE statement.</entry>
+    <entry key="MismatchIrCacheVersion">Cached ir for file ''{0}'' is version {1}.  This version of MATLAB uses version {2}.  The cached IR is being ignored.</entry>
+    <entry key="oldPfileVersion"><![CDATA[The P-code file {0} was generated prior to MATLAB version 7.5 (R2007b) and is no longer supported.  Use <a href="matlab:doc pcode">pcode</a> to regenerate the file using MATLAB R2007b or later.]]></entry>    
+    <entry key="conversionError">Conversion to {0} from {1} is not possible.</entry>
+    <entry key="colonInput">Input arguments to function include colon operator. To input the colon character, use ':' instead.</entry>
+    <entry key="BadArgumentsToBuiltinEnd">Inputs to the built-in function END must be scalar numeric.</entry>
+    <entry key="IncorrectNumberOfArgumentsToBuiltinEnd">Incorrect number of arguments to built-in function END.</entry>
+    <entry key="DimensionExceededForBuiltinEnd">In call end(obj,k,n), k must be less than or equal to n.</entry>
+    <entry key="NoInputFileNameSpecified">The input file name must be specified.</entry>
+    <entry key="FileNotFound">"File, {0} not found."</entry>
+    <entry key="NotAMfile">The input file must be a ".m" file.</entry>
+    <entry key="AttemptToModifyReadonlyWorkspace">Error: Attempt to modify read-only workspace.</entry>
+    <entry key="UnsupportedOperation">Error: Operation not supported for the provided file {0}.</entry>
+    <entry key="BadArguments">Error: Either the types and/or values of the arguments for the source position are bad.</entry>
+    <entry key="LocalFunctionAssignmentEval">{0}Assignment to {1} not supported. Variable has the same name as a local function.</entry>
+    <entry key="IndexingIntoLocalFunctionUsingAnEnd">Error: File: {1} Line: {0,number,integer}\nThe end operator must be used within an array index expression.</entry>
+    <entry key="EndUsedOutsideIndexingExpression">The end operator must be used within an array index expression.</entry>
+    <entry key="LocalFunctionAssignment">Error: File: {0} Line: {1,number,integer}\nAssignment to {2} not supported. Variable has the same name as a local function.</entry>
+    <entry key="BreakpointInAnonymousFunctionInScript">Breakpoint must be in a named function and on a line that contains an anonymous function.</entry>
+    <entry key="lineInOutOfSyncPFile">Setting or clearing breakpoints in out of sync P-files is not supported.</entry>
+    <entry key="BreakpointsNotRestored">MATLAB could not restore all breakpoints because file ''{0}'' was modified outside of the MATLAB editor.</entry>
+
+    <!-- Added messages: front_end/name_resolver -->
+    <entry key="GlobalVariableUsedBeforeDeclaration">The variable {0} must be declared as a global variable before any use.</entry>
+    <entry key="NestedFunctionShadowedInEval">{0}Identifier ''{1}'' in the evaluated statement does not refer to the nested function. In a future release, using an identifier different to how it is used in the file will not be supported.</entry>
+    <entry key="LocalFunctionShadowedInEval">{0}Identifier ''{1}'' in the evaluated statement does not refer to the local function. In a future release, using an identifier different to how it is used in the file will not be supported.</entry>
+    <entry key="PoofedVariableShadowsLocalFunction">{0}Local function ''{1}'' in the evaluated statement is shadowed by a workspace variable. In a future release, the local function would be given preference.</entry>
+    <entry key="ExternalShadowedInEval">{0}Identifier ''{1}'' in the evaluated statement does not refer to the external function. In a future release, using an identifier different to how it is used in the file will not be supported.</entry>
+    <entry key="PoofedVariableShadowsExternal">{0}Function ''{1}'' in the evaluated statement is shadowed by a workspace variable. In a future release, the function would be given preference.</entry>
+    <entry key="VariableShadowedInEval">{0}Identifier ''{1}'' in the evaluated statement does not refer to the variable. In a future release, using an identifier different to how it is used in the file will not be supported.</entry>
+    <entry key="LocalFunctionAndVariableHaveSameName">Error: {0}Declaring a variable with the same name as the local function "{1}" is not supported in scripts.</entry>
+    <entry key="ImportedFunctionAndVariableHaveSameName">Error: {0}Declaring a variable with the same name as the imported function "{1}" is not supported.</entry>
+    <entry key="ImportedFunctionAndNestedFunctionHaveSameName">Error: {0}Importing a class or a function with the same name as that of a nested function "{1}" is not supported.</entry>
+    <entry key="ImportedFunctionAndLocalFunctionHaveSameName">Error: {0}Importing a class or a function with the same name as that of a local function "{1}" is not supported.</entry>
+    <entry key="BraceIndexingFunctionOrClass">Error: {0}Invalid syntax for calling function ''{1}'' on the path. Use a valid syntax or explicitly initialize ''{1}'' to make it a variable.</entry>
+    <entry key="BraceIndexingNotSupported">Unable to use curly braces to index into {0}.</entry>
+    <entry key="ParenDotIndexingFunction">Error: {0}Indexing into the output of a function call is not supported.</entry>
+    <entry key="AnsAsImportedFunctionOrClass">Error: {0}Using ans as the name of a function or a class in a package is not supported.</entry>
+    <entry key="SharedVariablesDocId">Sharing Variables Between Parent and Nested Functions</entry>
+    <entry key="IdentifierNotSharedVariableWithNestedScope">Error:{0}Identifier ''{1}'' is not a function or a shared variable. To share ''{1}'' with a nested function, initialize it in the current scope. For more information, see {2}.</entry>
+    
+    <!-- Added messages: hex and binary -->
+    <entry key="InvalidHexNumber">Error: {0}Invalid digit in hexadecimal literal. Supported hexadecimal digits are 0-9 and A-F. Supported type suffixes are u8, u16, u32, u64, and s8, s16, s32, s64.</entry>
+    <entry key="InvalidHexTruncation">Error: {0}Hexadecimal literal has too many digits for specified or implied type suffix.</entry>
+    <entry key="InvalidBinaryNumber">Error: {0}Invalid digit in binary literal. Supported binary digits are 0 and 1. Supported type suffixes are u8, u16, u32, u64, and s8, s16, s32, s64.</entry>
+    <entry key="InvalidBinaryTruncation">Error: {0}Binary literal has too many digits for specified or implied type suffix.</entry>
+
+    <!-- Added message: internal error -->
+    <entry key="InternalError">MATLAB encountered an internal error processing {0}.  Keep a copy of this file and contact Technical Support with the following information.\n{1}</entry>
+
+    <!-- Added messages: matlab.lang.internal.move -->
+    <!-- Feature is intended for internal developers only; this error message is not
+	 intended to be seen by customers. -->
+    <entry key="UnsupportedMove">‘move’ can only be called using a variable from within a function.</entry>
+
+    <!-- Added messages: front_end/parser and m_parser nvp -->
+    <entry key="NameValueNotLast">Error: {0}Unsupported use of the '=' operator. To compare values for equality, use '=='. To pass name-value arguments using the name=value format, provide these arguments after all other inputs.</entry>
+    <entry key="NameValueInBraceIndex">Error: {0}Unsupported use of the '=' operator. To compare values for equality, use '=='.</entry>
+    <entry key="InvalidWhitespace">Error: {0}Invalid text character. The text ''{1}'' contains an unsupported non-ASCII whitespace character.</entry>
+    <entry key="InvalidEqualsInParens">Error: {0}Unsupported use of the '=' operator. To compare values for equality, use '=='. To specify name-value arguments, check that name is a valid identifier with no surrounding quotes.</entry>
+
+  </message>
+</rsccat>

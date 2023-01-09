@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ActionCancel">取消</entry>
+    <entry key="ActionOK">确定</entry>
+    <entry key="PanelTitleColorPalette">调色板</entry>
+    <entry key="ErrorIconFileNoExistMessage">找不到提供的图标文件\n{0}</entry>
+    <entry key="PickIconImageFile">选取一个图标图像文件</entry>
+    <entry key="FailureLoadingData">无法从提供的文件中成功加载图标数据。确保文件名正确: \n{0}</entry>
+    <entry key="IconEditorPaneTitle">图标编辑窗格({0} X {1})</entry>
+    <entry key="ImportButtonLabel">导入...</entry>
+    <entry key="ImportButtonTooltip">从图像文件导入</entry>
+    <entry key="PreviewPanelTitle">预览</entry>
+    <entry key="ImportIconFileLabel">导入图标文件: </entry>
+    <entry key="ImportIconFilePrompt">在下面新建图标或键入要编辑的图标图像文件</entry>
+    <entry key="InvalidIconFileTitle">图标文件无效</entry>
+    <entry key="AllImageFilesDescription">所有图像文件</entry>
+    <entry key="MATFilesDescription">MATLAB MAT 文件(*.mat)</entry>
+    <entry key="BMPFilesDescription">BMP 文件(*.bmp)</entry>
+    <entry key="JPEGFilesDescription">JPEG 文件(*.jpg)</entry>
+    <entry key="TIFFFilesDescription">TIFF 文件(*.tif)</entry>
+    <entry key="GIFFilesDescription">GIF 文件(*.gif)</entry>
+    <entry key="PNGFilesDescription">PNG 文件(*.png)</entry>
+    <entry key="ActionCancelTooltip"/>
+    <entry key="ActionOKTooltip"/>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InsufficientArguments">MAKEIMPORTCODE requires at least one input argument.</entry>
+    <entry key="ArgumentsMustBeOdd">MAKEIMPORTCODE requires an odd number of input arguments.</entry>
+    <entry key="FirstArgMustBeStruct">The first input argument to MAKEIMPORTCODE must be a structure.</entry>
+    <entry key="ArgsMustBeChars">The second and subsequent input arguments to MAKEIMPORTCODE must be character arrays.</entry>
+    <entry key="CannotSave">Could not create file: {0}</entry>
+  </message>
+</rsccat>

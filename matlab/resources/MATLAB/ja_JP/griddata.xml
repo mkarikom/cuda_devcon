@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="HigherDimArray">X,Y と XI,YI は、2 より大きい次元の配列にはできません。</entry>
+    <entry key="InvalidDataSparse">入力データをスパースにはできません。</entry>
+    <entry key="InvalidCoordsComplex">入力座標を複素数にすることはできません。</entry>
+    <entry key="InvalidMethod">METHOD は、''linear''、''cubic''、''nearest''、''v4'' のいずれかでなければなりません。</entry>
+    <entry key="NotEnoughSamplePts">十分な数の固有のサンプル点が指定されていません。</entry>
+    <entry key="UnknownMethod">不明なメソッドです。</entry>
+    <entry key="CubicMethod3D">3 次内挿法では 2 次元のみをサポートしています。</entry>
+    <entry key="V4Method3D">v4 内挿法では 2 次元のみをサポートしています。</entry>
+    <entry key="EmptyTriangulation">基礎となっている三角形分割が空です - 点が同一線上にある可能性があります。</entry>
+    <entry key="InvalidInputArgs">入力引数が無効です。</entry>
+    <entry key="InvalidNumInputArgs">入力引数の数が無効です。</entry>
+    <entry key="DuplicateDataPoints">重複する x-y データ点が検出されました: 重複する点の平均値を使用しています。</entry>
+    <entry key="DeprecatedOptions">GRIDDATA には Qhull 固有のオプションが必要ではありません。\nGRIDDATA を呼び出すときはこれらのオプションを削除してください。</entry>
+    <entry key="NonDistinctPoints">{0,number,integer} 個の同じ点が平均化されました。\n         インデックスは以下のとおりです:{1}。</entry>
+  </message>
+</rsccat>

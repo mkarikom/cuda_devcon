@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BITOutOfRange">BIT 입력값이 지정된 데이터형 범위를 벗어났습니다.</entry>
+    <entry key="firstArgNotInt">유효하지 않은 데이터형입니다. 첫 번째와 두 번째 인수는 정수 또는 double형이어야 합니다.</entry>
+    <entry key="sizeMismatch">입력값은 크기가 동일해야 합니다.</entry>
+  </message>
+</rsccat>

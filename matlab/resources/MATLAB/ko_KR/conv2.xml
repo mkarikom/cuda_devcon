@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="unknownShapeParameter">SHAPE는 ''full'', ''same'', ''valid'' 중 하나여야 합니다.</entry>
+    <entry key="troubleInGettingShape">SHAPE를 가져오는 동안 문제가 발생했습니다.</entry>
+    <entry key="firstTwoInputsNotVectors">세 번째 인수가 행렬인 경우 첫 번째 인수와 두 번째 인수는 벡터여야 합니다.</entry>
+    <entry key="inputType">유효하지 않은 데이터형입니다. 첫 번째 인수와 두 번째 인수는 숫자형이거나 논리형이어야 합니다.</entry>
+    <entry key="ndArrayInput">N차원 배열은 지원되지 않습니다.</entry>
+    <entry key="inputTypeSeparable">처음 세 개의 인수는 숫자형이거나 논리형이어야 합니다.</entry>
+    <entry key="SparseInput">희소 행렬은 지원되지 않습니다.</entry>
+  </message>
+</rsccat>

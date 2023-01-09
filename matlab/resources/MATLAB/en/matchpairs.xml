@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidCost">Cost must be a real matrix of data type double or single.</entry>
+    <entry key="NonFiniteCost">Cost must not contain NaN.</entry>
+    <entry key="InvalidCostUnmatched">costUnmatched must be a real scalar of data type double or single.</entry>
+    <entry key="NonFiniteCostUnmatched">costUnmatched must be finite.</entry>
+    <entry key="InvalidOption">Option must be ''min'' or ''max''.</entry>
+  </message>
+</rsccat>

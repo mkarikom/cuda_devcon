@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="platform" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CustomButtonLabel">선택</entry>
+    <entry key="CustomPopupOpenLabel">사용:</entry>
+    <entry key="CustomPopupSaveLabel">형식:</entry>
+    <entry key="ConfirmSaveDialogTitle">다른 이름으로 저장 확인</entry>
+    <entry key="ConfirmSaveDialogContent">{0}은(는) 이미 존재합니다.\n바꾸시겠습니까?</entry>
+    <entry key="OpenFolderWarningTitle">파일 선택 대화 상자</entry>
+    <entry key="OpenFolderWarningContent">{0} \n경로가 존재하지 않습니다.\n경로를 확인하고 다시 시도하십시오.</entry>
+    <entry key="OpenFileFolderWarningTitle">파일 또는 폴더 열기</entry>
+    <entry key="OpenFileFolderWarningContent">이 프로그램으로는 해당 위치를 선택할 수 없습니다. 다른 위치를 선택하십시오.</entry>
+  </message>
+</rsccat>

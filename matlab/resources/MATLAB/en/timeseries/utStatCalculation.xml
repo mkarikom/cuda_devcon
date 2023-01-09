@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="noarray">The utStatCalculation method can only be used for a single timeseries object</entry>
+    <entry key="pvsetNoValue">A specified property is missing a corresponding value.</entry>
+    <entry key="missingdata">The MissingData argument must be either ''interpolate'' or ''remove''.</entry>
+    <entry key="quality">The Quality argument must be integers.</entry>
+    <entry key="weighting">The Weighting argument must be either ''none'' or ''time''.</entry>
+    <entry key="pvsetInvalidVal">At least one of the specified properties is invalid.</entry>
+    <entry key="noqualitycode">Since the input quality code is not found in this time series, the code is ignored.</entry>
+    <entry key="noquality">No quality value is assigned in this time series. The input quality code is ignored.</entry>
+    <entry key="method">Invalid method argument</entry>
+  </message>
+</rsccat>

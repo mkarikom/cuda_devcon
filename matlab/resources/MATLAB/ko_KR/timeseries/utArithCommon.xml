@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonconfdim">{0}과(와) {1}의 샘플 크기가 일치하지 않아 행렬을 조합할 수 없습니다.</entry>
+    <entry key="non3dimmax">시계열은 4차원 이상의 데이터와 곱할 수 없습니다.</entry>
+    <entry key="nonconfdimMatrixMultiply">{0}과(와) {1}의 샘플 크기가 일치하지 않아 행렬을 곱할 수 없습니다.</entry>
+    <entry key="nonconfdimMatrixDiv">{0}과(와) {1}의 샘플 크기가 일치하지 않아 행렬을 나눌 수 없습니다.</entry>
+    <entry key="nonconfdimMatrixLeftDiv">{0}과(와) {1}의 샘플 크기가 일치하지 않아 행렬 좌측으로 나눌 수 없습니다.</entry>
+  </message>
+</rsccat>

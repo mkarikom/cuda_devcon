@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Package">包</entry>
+    <entry key="EmptyTimeseriesTimeMetaDataObject">时序 TimeMetaData 对象为空。</entry>
+    <entry key="UniformTime">统一时间</entry>
+    <entry key="NonUniformTime">非统一时间</entry>
+    <entry key="TimeRange">时间范围</entry>
+    <entry key="CommonProperties">常见属性</entry>
+    <entry key="MoreProperties">更多属性</entry>
+    <entry key="Methods">方法</entry>
+    <entry key="ImproperUnitsIncrementWarning">无法显示 Increment，因为 Units 属性格式不正确。</entry>
+    <entry key="ImproperUnitsStartEndTimeWarning">由于 Units 属性格式不正确，无法显示 StartTime 和 EndTime。</entry>
+    <entry key="ImproperUnitsStartDateWarning">由于 Units 属性格式不正确，无法显示 StartDate。</entry>
+    <entry key="ImproperUnitsFormatWarning">由于 Units 属性格式不正确，无法显示 Format。</entry>
+    <entry key="ImproperUnitsWarning">由于 Units 属性格式不正确，无法显示 Units。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidFigure">传递的图窗句柄无效</entry>
+    <entry key="ExportSetupTitle">导出设置</entry>
+    <entry key="PropertiesPanel">属性</entry>
+    <entry key="ExportStylesPanel">导出样式</entry>
+    <entry key="LoadButton">加载</entry>
+    <entry key="LoadSettingsFromLabel">从以下位置加载设置:</entry>
+    <entry key="SaveAsStyleNamedLabel">样式另存名称:</entry>
+    <entry key="SaveButton">保存</entry>
+    <entry key="DeleteButton">删除</entry>
+    <entry key="DeleteAStyleLabel">删除样式:</entry>
+    <entry key="ApplyToFigureButton">应用于图窗</entry>
+    <entry key="RestoreFigureButton">还原图窗</entry>
+    <entry key="ExportButton">导出...</entry>
+    <entry key="HelpButton">帮助</entry>
+    <entry key="CancelButton">取消</entry>
+    <entry key="OKButton">确定</entry>
+    <entry key="ExpandAxesToFillFigureCheckBox">放大坐标区至充满图窗</entry>
+    <entry key="UnableToLoadStyleErrorDlg">无法加载样式 {0}。</entry>
+    <entry key="CMYKColorDropdown">CMYK 颜色</entry>
+    <entry key="RGBColorDropdown">RGB 颜色</entry>
+    <entry key="BlackAndWhiteDropdown">黑白</entry>
+    <entry key="GrayscaleDropdown">灰度</entry>
+    <entry key="PaintersDropdown">painters (向量格式)</entry>
+    <entry key="OpenGLDropdown">OpenGL (位图格式)</entry>
+    <entry key="ZbufferDropdown">zbuffer (位图格式)</entry>
+    <entry key="ConvertSolidLinesCheckBox">将实线转换为循环使用线型</entry>
+    <entry key="CustomAngleCheckBox">自定义角度:</entry>
+    <entry key="CustomColorCheckBox">自定义颜色:</entry>
+    <entry key="CustomNameCheckBox">自定义名称:</entry>
+    <entry key="CustomRendererCheckBox">自定义渲染器:</entry>
+    <entry key="CustomSizeCheckBox">自定义大小:</entry>
+    <entry key="CustomWeightCheckBox">自定义粗细:</entry>
+    <entry key="CustomWidthCheckBox">自定义宽度:</entry>
+    <entry key="AutoText">自动</entry>
+    <entry key="DefaultText">默认</entry>
+    <entry key="ScreenText">屏幕</entry>
+    <entry key="KeepAxisLimitsCheckBox">保持坐标轴范围</entry>
+    <entry key="ScaleFontByLabel">字体缩放比例</entry>
+    <entry key="ScaleLineWidthByLabel">线宽缩放比例</entry>
+    <entry key="ShowUicontrolsCheckBox">显示 uicontrol</entry>
+    <entry key="UseFixedFontSizeLabel">使用固定字号</entry>
+    <entry key="UseFixedLineWidthLabel">使用固定线宽</entry>
+    <entry key="PointsDropdown">磅</entry>
+    <entry key="CentimetersDropdown">厘米</entry>
+    <entry key="InchesDropdown">英寸</entry>
+    <entry key="DemiDropdown">半粗</entry>
+    <entry key="ItalicDropdown">斜体</entry>
+    <entry key="ObliqueDropdown">倾斜</entry>
+    <entry key="LightDropdown">细</entry>
+    <entry key="NormalDropdown">正常</entry>
+    <entry key="BoldDropdown">粗</entry>
+    <entry key="FontsDropdown">字体</entry>
+    <entry key="LinesDropdown">线条</entry>
+    <entry key="RenderingDropdown">渲染</entry>
+    <entry key="SizeDropdown">大小</entry>
+    <entry key="WithMinimumOfLabel">最小为</entry>
+    <entry key="ResolutiondpiLabel">分辨率(dpi):</entry>
+    <entry key="ColorspaceLabel">颜色空间:</entry>
+    <entry key="HeightLabel">高度:</entry>
+    <entry key="UnitsLabel">单位:</entry>
+    <entry key="WidthLabel">宽度:</entry>
+    <entry key="Documents">文档</entry>
+    <entry key="Presentations">演示文稿</entry>
+  </message>
+</rsccat>

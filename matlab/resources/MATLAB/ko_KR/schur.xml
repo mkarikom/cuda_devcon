@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="schurNoConvergence">SCHUR가 index = {0,number,integer}에서 수렴하지 않았습니다.</entry>
+    <entry key="matrixWithNaNInf">SCHUR에 대한 입력값은 NaN 또는 Inf를 포함해서는 안 됩니다.</entry>
+    <entry key="unknownOption">두 번째 입력값은 ''real'' 또는 ''complex''여야 합니다.</entry>
+    <entry key="realOptionIgnored">복소수 행렬에 대한 ''real'' 옵션은 무시됩니다.</entry>
+    <entry key="noSchurSparse">첫 번째 입력값은 비희소(Full) 형식이어야 합니다. SCHUR(FULL(S))를 사용하십시오.</entry>
+    <entry key="inputType">첫 번째 입력값은 single형 또는 double형이어야 합니다.</entry>
+    <entry key="inputMustBe2D">첫 번째 입력값은 2차원이어야 합니다.</entry>
+    <entry key="inputMustBeSquare">첫 번째 입력값은 정사각 행렬이어야 합니다.</entry>
+  </message>
+</rsccat>

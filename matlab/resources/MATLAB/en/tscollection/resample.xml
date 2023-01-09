@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="norel" note="stringDatatypeUpdate">The time series StartDate property must be a valid date character vector or string when resampling with dates.</entry>
+    <entry key="badtime">Time must be specified either as a cell array of dates, a numeric vector, or as a scalar.</entry>
+    <entry key="invinterp">Invalid interpolation method</entry>
+    <entry key="round">The specified quality code has been rounded to an integer.</entry>
+    <entry key="invcode">You have specified a quality code that is not defined for this time series.</entry>
+    <entry key="noqual">Quality vector must be initialized.</entry>
+    <entry key="absentcode">You have specified a quality code that is not defined for this time series.</entry>
+  </message>
+</rsccat>

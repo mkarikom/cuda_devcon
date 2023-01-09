@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidClassName">{0} is an invalid class name</entry>
+    <entry key="BadObject">Handle is destroyed or does not exist</entry>
+    <entry key="BadPropName">Can''t find property {0} on class {1}</entry>
+    <entry key="InvalidPackage">Can''t find {0} package</entry>
+    <entry key="InvalidClass">Can''t find {0} class in {1} package</entry>
+    <entry key="InvalidProperty">Can''t find {0} property on {1} class</entry>
+    <entry key="MissingParentProp">Error: the {0} class is missing its Parent property</entry>
+    <entry key="MissingConversion">Could not find conversion to any</entry>
+    <entry key="NoMethodFound">Can''t find method {0} on class {1}</entry>
+  <!--Resource entries for src/hgutils-->
+    <entry key="MethodStatic">The class {0} has no non-Static method named ''{1}''.</entry>
+    <entry key="MethodNotStatic">The class {0} has no Static method named ''{1}''.</entry>
+    <entry key="BadMethodSignatureInvalidNumberOfInputs">signature has wrong number of inputs</entry>
+    <entry key="BadMethodSignatureNull">signature is NULL</entry>
+    <entry key="InvalidContextMenu">Handle must be a uicontextmenu.</entry>
+    <entry key="CannotSetFactoryValue">Factory properties can only be queried, not set.</entry>
+    <entry key="OnlyRootHasFactoryDefaults">Factory properties can only be queried on root object.</entry>
+  <!-- Resource entries for graphics display -->
+    <entry key="ScalarDisplayMustBeScalar">Input parameter to {0} must be scalar.</entry>
+    <entry key="NonScalarDisplayMustBeNonScalar">Input parameter to {0} must be a valid non-scalar array.</entry>
+    <entry key="EmptyDisplayMustBeEmpty">Input parameter to {0} must be an empty array.</entry>
+    <entry key="DeletedObjectInDisplay">The method {0} can only be called with a valid object.</entry>
+    <entry key="InvalidDescriptiveLabel" note="stringDatatypeUpdate">Descriptive label for class {0} must be a character vector, string array, or cell array of character vectors.</entry>
+</message>
+</rsccat>

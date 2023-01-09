@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011-2020 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="InvalidCellInput">An empty cell array is not a valid input argument.</entry>
+      <entry key="InvalidNumInputs">QUIVER does not support {0} leading numeric input(s).</entry>
+      <entry key="UnevenPvPairsCount">Uneven parameter-value pairs.</entry>
+      <entry key="InvalidAutoScaleFactor">Scale argument must be a scalar double or 'off'.</entry>
+      <entry key="UVSizeMismatch">U and V must be the same size.</entry>
+      <entry key="XYMixedEmpty">X,Y both must be empty or both nonempty.</entry>
+      <entry key="XUSizeMismatch">The size of X must match the size of U or the number of columns of U.</entry>
+      <entry key="YUSizeMismatch">The size of Y must match the size of U or the number of rows of U.</entry>
+      <entry key="ZUSizeMismatch">Z and U must be the same size.</entry>
+      <entry key="VWSizeMismatch">V and W must be the same size.</entry>
+      <entry key="XZSizeMismatch">The size of X must match the size of Z or the number of columns of Z.</entry>
+      <entry key="YZSizeMismatch">The size of Y must match the size of Z or the number of rows of Z.</entry>
+      <entry key="UnknownOption">Unknown option "{0}".</entry>
+      <entry key="XYMixedFormatZ">The sizes of X and Y must match the size of Z, or X and Y must be vectors whose lengths match the number of columns and rows, respectively, of Z.</entry>
+      <entry key="XYMixedFormatU">The sizes of X and Y must match the size of U, or X and Y must be vectors whose lengths match the number of columns and rows, respectively, of U.</entry>
+   <!--Resource entries for toolbox/matlab-->
+    <entry key="XYMixedFormat" translate="false">{0}</entry>
+  </message>
+</rsccat>

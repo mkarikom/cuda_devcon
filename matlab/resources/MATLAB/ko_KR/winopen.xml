@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="pcOnly">WINOPEN 함수는 Microsoft Windows에서만 사용할 수 있습니다.</entry>
+    <entry key="MustBeString">winopen의 첫 번째 인수는 문자형 벡터이거나 string형 스칼라여야 합니다.</entry>
+    <entry key="noSuchFile">지정된 파일이 존재하지 않습니다.</entry>
+  </message>
+</rsccat>

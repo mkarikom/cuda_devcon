@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="inputMustBe2D">입력값은 2차원이어야 합니다.</entry>
+    <entry key="inputType">유효하지 않은 데이터형입니다. 인수는 double형 행렬 또는 single형 행렬이어야 합니다.</entry>
+    <entry key="unknownArgument">옵션은 ''lower'' 또는 ''upper''여야 합니다.</entry>
+    <entry key="twoInOneOut">옵션 ''lower'' 또는 ''upper''와 함께 호출할 경우 하나의 출력값만 반환됩니다.</entry>
+  </message>
+</rsccat>

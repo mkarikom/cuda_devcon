@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidIntegrand">最初の入力引数は関数ハンドルでなければなりません。</entry>
+    <entry key="invalidXMin">XMIN は浮動小数点のスカラーでなければなりません。</entry>
+    <entry key="invalidXMax">XMAX は浮動小数点のスカラーでなければなりません。</entry>
+    <entry key="invalidYMin">YMIN は浮動小数点スカラーまたは関数ハンドルでなければなりません。</entry>
+    <entry key="invalidYMax">YMAX は浮動小数点スカラーまたは関数ハンドルでなければなりません。</entry>
+    <entry key="nonFiniteLimit">境界のない積分領域です。''tiled'' 積分メソッドの場合、積分範囲は有限の数値でなければなりません。代わりに "iterated" メソッドの使用を検討してください。</entry>
+    <entry key="nonFiniteResult">有限でない結果。積分は失敗しました。特異点の可能性があります。</entry>
+    <entry key="minRectSizeFail">最小四角形サイズに達しました。結果は大域的な誤差のテストをパスしませんでした。</entry>
+    <entry key="minRectSizePass">最小四角形サイズに達しました。結果は大域的な誤差のテストをパスしました。</entry>
+    <entry key="UnsupportedClass">入力関数は ''double'' または ''single'' の値を返さなければなりません。''{0}'' が見つかりました。</entry>
+    <entry key="yMinSizeMismatch">下限サイズの不一致: size(YMIN(x)) が size(x) と一致しません。</entry>
+    <entry key="yMaxSizeMismatch">上限サイズの不一致: size(YMAX(x)) が size(x) と一致しません。</entry>
+    <entry key="funSizeMismatch">被積分関数の出力サイズが入力サイズと一致しません。</entry>
+    <entry key="invalidAbsTol">''AbsTol'' の値は非負の double または single のスカラーでなければなりません。</entry>
+    <entry key="invalidRelTol">''RelTol'' の値は非負の double または single のスカラーでなければなりません。</entry>
+    <entry key="maxFunEvalsFail">関数評価の最大数 ({0,number,integer}) に達しました。結果は大域的な誤差のテストをパスしませんでした。</entry>
+    <entry key="maxFunEvalsPass">関数評価の最大数 ({0,number,integer}) に達しました。結果は大域的な誤差のテストをパスしました。</entry>
+    <entry key="invalidMethod">メソッドは ''auto''、''tiled''、または ''iterated'' でなければなりません。</entry>
+    <entry key="funVectorization">サイズの異なる入力行列を使用して同一の入力値が 2 つの異なる呼び出しに指定された際に、被積分関数の出力が許容誤差範囲内の値と一致しませんでした。関数が適切にベクトル化されているかチェックしてください。</entry>
+    <entry key="unsuccessful">積分は失敗しました。</entry>
+  </message>
+</rsccat>

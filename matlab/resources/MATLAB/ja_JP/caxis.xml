@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFirstArgument">1 番目の引数は、スカラーの Axes のハンドルでなければなりません。</entry>
+    <entry key="NeedScalarAxesHandle">1 番目の引数は、スカラーの Axes のハンドルでなければなりません。</entry>
+    <entry key="InvalidVector">2 要素の行ベクトルでなければなりません。</entry>
+    <entry key="NeedsRowVector">2 要素の行ベクトルでなければなりません。</entry>
+    <entry key="InvalidNumberElements">2 要素の行ベクトルでなければなりません。</entry>
+  </message>
+</rsccat>

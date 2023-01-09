@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonShippingFile">これは、提供されないファイルです。提供されるコード内でこの関数を呼び出さないでください。</entry>
+    <entry key="incorrectOperatingMode">このモードでこの関数を使用することはできません。</entry>
+    <entry key="InvalidCommand">figuretools の最初の引数は、''MenuBar''、''ToolBar''、''MakeFigFiles''、''MakeDeploymentFiles'' の\nいずれかのコマンドでなければなりません。</entry>
+  </message>
+</rsccat>

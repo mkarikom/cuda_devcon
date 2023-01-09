@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Package">パッケージ</entry>
+    <entry key="Code">コード</entry>
+    <entry key="Description">説明</entry>
+    <entry key="QualityCodeDescNotSynchronized">特性コードと説明が同期されていません。</entry>
+    <entry key="NoQualityCodeDefined">特性コードが定義されていません。</entry>
+    <entry key="NoQualityDescDefined">特性の説明が定義されていません。</entry>
+    <entry key="CommonProperties">一般的なプロパティ</entry>
+    <entry key="MoreProperties">その他のプロパティ</entry>
+    <entry key="Methods">メソッド</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadValidator">Validator は関数ハンドルでなければなりません。</entry>
+    <entry key="CaseSensitiveSwitch">''CaseSensitive'' を false に設定すると、複数のパラメーターが同じ名前になります。大文字と小文字の区別は変更できません。</entry>
+    <entry key="failedWithError">''{0}'' の値は無効です。 {1}</entry>
+    <entry key="ArgumentFailedValidation">''{0}'' の値は無効です。関数 {1} を満たさなければなりません。</entry>
+    <entry key="ArgumentFailedDefaultValidation">引数 ''{0}'' は string スカラーまたは文字ベクトルで、いずれのパラメーター名とも一致しません。引数 ''{1}'' に対する検証に失敗しました。</entry>
+    <entry key="InvalidName">パラメーター名は string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="MustBeChar">既定では、文字のセル配列でなければなりません。</entry>
+    <entry key="mustBeScalar">関数への入力構造体はスカラーでなければなりません。</entry>
+    <entry key="NameMustBeChar">引数名は string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="notEnoughInputs">入力引数が不足しています。</entry>
+    <entry key="NotAValidFieldName">最初の引数は、フィールド名を表すことのできる string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="UnmatchedNotAValidFieldName">不一致のパラメーター名 ''{0}'' は、フィールド名を表すことのできる string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="ParamAlreadyExists">''{0}'' と同値のパラメーター名が入力パーサー内に既に存在します。パラメーターの再定義は許可されていません。</entry>
+    <entry key="ParamMissingValue">''{0}'' に値が指定されていません。名前と値のペアの引数では、名前の後に値がくる必要があります。</entry>
+    <entry key="ParamMustBeChar">パラメーター名には string スカラーまたは文字ベクトルが必要です。</entry>
+    <entry key="missingValueInParameter">パラメーター名は欠損値であってはなりません。</entry>
+    <entry key="UnknownParameterName">''{0}'' は認識されたパラメーターではありません。''{1}'' が必要です。</entry>
+    <entry key="PartialMatchPriorityRealScalarInt">''{0}'' の値は無効です。正の整数値が必要です。</entry>
+    <entry key="AmbiguousParameter">''{0}'' は複数のパラメーター名と一致します: {1}。 {2}</entry>
+    <entry key="AmbiguousSelection">対象とする名前を ''{0}'' と想定しています。</entry>
+    <entry key="AmbiguousRejection">あいまいさを回避するには、パラメーターの完全な名前を指定します。</entry>
+    <entry key="UnmatchedParameter">''{0}'' は認識されたパラメーターではありません。 {1}</entry>
+    <entry key="ValidParameters">名前と値の有効なペア引数のリストは、{0}のドキュメンテーションを参照してください。</entry>
+    <entry key="NoValidParameters">名前と値のペアの引数は、{0}では受け入れられません。</entry>
+    <entry key="THIS_FUNCTION_LITERAL">この関数</entry>
+  </message>
+</rsccat>

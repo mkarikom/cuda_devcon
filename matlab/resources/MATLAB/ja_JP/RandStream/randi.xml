@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="inputType">入力は数値でなければなりません。</entry>
+    <entry key="invalidOutputType">クラス {0} の出力はサポートされません。</entry>
+    <entry key="invalidLimits">最初の入力は正の整数のスカラー値 IMAX でなければなりません。または、IMAX 以下の IMIN をもつ 2 つの整数値 [IMIN IMAX] でなければなりません。</entry>
+    <entry key="LimitsTooLarge">IMIN と IMAX は 2^53 より小さくなければなりません。</entry>
+    <entry key="RangeTooLarge">IMIN と IMAX の差は 2^53-1 より小さくなければなりません。</entry>
+  </message>
+</rsccat>

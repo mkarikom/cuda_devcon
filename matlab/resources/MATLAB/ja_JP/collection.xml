@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FapplyOutputMustBeACollection">FAPPLY はコレクションを返さなければなりません。''{0}'' はコレクションのサブクラスではありません。</entry>
+    <entry key="FapplyFunError">コレクションの {0} メンバーに適用された際に、関数からエラーが発生しました。</entry>
+    <entry key="FapplyFunErrorFirstIter">fapply の最初の反復で適用されている関数からエラーが発生しました。関数はコレクションのメンバーを 1 つの入力として受け入れ、1 つの値を返さなければなりません。関数は、最初の反復時にコレクションの {0} メンバーに適用されました。</entry>
+    <entry key="FapplynFunErrorFirstIter">fapplyn の最初の反復で適用されている関数からエラーが発生しました。関数は、それぞれが対応するコレクションのメンバーである {0,number,integer} 個の入力を受け入れ、1 つの値を返さなければなりません。関数は、最初の反復時にコレクションの {1} メンバーに適用されました。</entry>
+    <entry key="FapplyWrongNumInputs"> コレクションのメンバーに適用されている関数は、{0,number,integer} 個の ''{1}'' 入力を受け入れなければなりません。</entry>
+    <entry key="FapplynWrongNumInputs"> コレクションのメンバーに適用されている関数は、{0,number,integer} 個の入力を受け入れなければなりません。</entry>
+    <entry key="FapplyFunNonScalarResult">関数はスカラー値を返さなければなりません。</entry>
+    <entry key="FapplyMissingMembers">関数は、配列と欠損値の混在するコレクションのスライスには適用できません。</entry>
+    <entry key="FapplyFunReturnType">関数は、型がすべて同じ配列を返さなければなりません。</entry>
+    <entry key="FapplyConcatenationError">関数は、連結可能な配列を返さなければなりません。</entry>
+    <entry key="FapplyInvalidDim">使用する次元は正の整数、正の整数のベクトル、''elementwise''、または ''all'' でなければなりません。</entry>
+    <entry key="FapplyInvalidOutputFormat">出力形式は ''collection'' または ''uniform'' でなければなりません。</entry>
+    <entry key="FapplyMustHaveCommonSize">すべての入力コレクションは同じサイズでなければなりません。</entry>
+    <entry key="NamedIndexingOnTheFlyReshape">名前付きインデックスは、{1,number,integer} 個未満の添字を指定する場合、次元 {0,number,integer} ではサポートされません。</entry>
+    <entry key="AsgnMustBeCollection">コレクションに代入する値は、コレクションか、型が ''{0}'' である配列を含む cell 配列でなければなりません。</entry>
+    <entry key="AsgnDeletionBraces">コレクションの要素に代入する値は ''{0}'' 配列でなければなりません。コレクションの要素を削除する場合は、たとえば C(i) = [] のように、かっこを使用して代入を行います。コレクションのメンバーを欠損値に置き換える場合は、たとえば C'{'i'}' = missing のように、missing を代入します。</entry>
+    <entry key="AsgnMustBeMemberType">コレクションの要素に代入する値は、''{0}'' 配列か、スカラーの欠損値でなければなりません。</entry>
+    <entry key="SubscriptedRefOnCSL">中かっこの添字では、後ろにより深いレベルの添字が続く場合、コレクション内の配列を 1 つだけ選択しなければなりません。</entry>
+    <entry key="SubscriptedAsgnOnCSL">中かっこの添字による代入では、後ろにより深いレベルの添字が続く場合、コレクション内の配列を 1 つだけ選択しなければなりません。</entry>
+    <entry key="InvalidMemberType">メンバーのタイプは MATLAB のクラス名でなければなりません。</entry>
+    <entry key="InvalidMemberShapeParam">メンバーの形状は、''scalar''、''row''、''column''、''vector''、''matrix''、または ''any'' として指定しなければなりません。</entry>
+    <entry key="InvalidMemberShape">コレクションのメンバーには {0} の形状がなければなりません。</entry>
+    <entry key="MustBeMemberType">すべての入力配列はクラスが ''{0}'' でなければなりません。</entry>
+    <entry key="DataMustBeInCell">コレクションへの入力配列はすべて cell 配列に含まれていなければなりません。配列を別個の入力として渡すには、COLLECT を使用します。</entry>
+    <entry key="MustBeOneType">すべての入力配列は同じ型でなければなりません。</entry>
+    <entry key="MustBeOneTypeCell">入力 cell 配列のすべての要素は同じ型でなければなりません。</entry>
+    <entry key="MustBeOneNonMissing">少なくとも 1 つの欠損値でない入力配列が存在するか、またはコレクション メンバーのタイプを指定しなければなりません。</entry>
+    <entry key="InvalidSizeSyntax">サイズと入力データの両方の指定はサポートされていません。詳細については、コレクションのドキュメンテーションを参照してください。</entry>
+    <entry key="InvalidSize">サイズは、コレクションの形状を指定する、非負の整数値のベクトルでなければなりません。</entry>
+    <entry key="WrongNumNames">名前の数は、対応する次元の長さでなければなりません。</entry>
+    <entry key="WrongLengthNamesCollection">コレクション メンバー名は、各次元の名前を含むコレクションとして指定しなければなりません。</entry>
+    <entry key="InvalidNames">コレクション メンバー名は string 配列でなければなりません。</entry>
+    <entry key="NonUniqueNames">コレクション メンバー名は各次元内で固有でなければなりません。</entry>
+    <entry key="GetSetNamesInvalidValue">コレクション名は、string ベクトルのコレクションとして指定しなければなりません。</entry>
+    <entry key="GetSetNamesInvalidDim">次元は、{0,number,integer} ～ {1,number,integer} の整数として指定しなければなりません。</entry>
+    <entry key="GetSetNamesNonVector">''vector'' を使って getnames または setnames を呼び出す場合、コレクションは 1 つの行または列でなければなりません。</entry>
+    <entry key="SetNamesNoLHS">ワークスペース変数への代入なしに SETNAMES を使用しても、コレクションの名前は変更されません。C = SETNAMES(C,NAMES,...) を使用してください。</entry>
+    <entry key="DotMethodSubscripting">ドット メソッドの呼び出しは、コレクションではサポートされません。{0}(C,...) を使用して、コレクションにメソッドを呼び出してください。</entry>
+    <entry key="DotNameSubscripting">行、列、... 名前をもつドット添字は、コレクションではサポートされません。名前によりコレクション内の配列にアクセスするには、C'{'''{0}'''}' を使用してください。</entry>
+    <entry key="DotSubscripting">コレクションでのドット添字は、.Names プロパティについてのみサポートされています。中かっこの添字を使用して、名前によってコレクション内の配列にアクセスするか、関数構文を使用してコレクションにメソッドを呼び出してください。</entry>
+    <entry key="IndexOutOfRange">位置 {0,number,integer} のインデックスが配列範囲を超えています ({1,number,integer} を超えてはならない)。</entry>
+    <entry key="UnrecognizedName">位置 {1,number,integer} に認識されない名前 ''{0}'' があります。</entry>
+    <entry key="InvalidNameSubscript">コレクション名の下付き文字は string または文字ベクトルでなければなりません。</entry>
+    <entry key="CatMustBeCollection">連結へのすべての入力はコレクションでなければなりません。</entry>
+    <entry key="CatMustBeSameTypes">連結へのすべての入力は、同じ型の配列を含むコレクションでなければなりません。</entry>
+    <entry key="CatMustBeSameShapes">連結へのすべての入力は、同じ形状の配列を含むコレクションでなければなりません。</entry>
+    <entry key="CatNonUniqueNames">名前は、連結される次元に沿って固有でなければなりません。</entry>
+    <entry key="EqDimsMustAgree">コレクションの次元は一致しなければなりません。</entry>
+    <entry key="IsMemberMustBeCollection">2 番目の入力はコレクションでなければなりません。</entry>
+    <entry key="NoPlotMethod">関数 plot はコレクションではサポートされません。timetable コレクション内のデータをプロットするには...\n * 関数 stackedplot を使用するか、\n * コレクション内の timetable を同期させ、同期した timetable からのデータをプロットします。</entry>
+    <entry key="StackedplotMode">2 番目の入力は ''byvariable'' または ''bytimetable'' でなければなりません。</entry>
+    <entry key="CombineDifferentSizes">サイズの異なるコレクションのメンバーを組み合わせることはサポートされていません。</entry>
+    <entry key="CombineDimWithMultipleInputs">次元の入力は、複数のコレクションからメンバーを組み合わせる場合にはサポートされません。</entry>
+    <entry key="InvalidCombineMethod">メソッドは、''vertcat''、''horzcat''、正の整数、または関数ハンドルでなければなりません。</entry>
+    <entry key="CombineMethodRequired">コレクションの複数の使用次元にわたってメンバーを組み合わせる場合は、メソッドが必要です。</entry>
+    <entry key="UniteInputMustBeCollection">最初の入力はコレクションでなければなりません。</entry>
+    <entry key="UniteMethodRequired">メソッドが必要です。</entry>
+  </message>
+</rsccat>

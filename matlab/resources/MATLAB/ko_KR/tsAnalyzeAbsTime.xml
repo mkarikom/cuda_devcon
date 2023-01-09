@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidformat">유효하지 않은 날짜 문자형 벡터 형식임</entry>
+    <entry key="invalidrefpoint">참조 시점은 문자형 벡터여야 합니다.</entry>
+    <entry key="invalidstartdateformat">시작 날짜의 형식을 인식할 수 없습니다.</entry>
+  </message>
+</rsccat>

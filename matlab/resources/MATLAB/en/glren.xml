@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CreateDIBSection">Failed in CreateDIBSection, OpenGL application error (bmp{0},pix{1},gle{2})</entry>
+    <entry key="doubleBufferSlow">single buffer is not available, double buffer will be slower.</entry>
+    <entry key="DoubleBufferVisualNotAvailable">double buffer visual not available</entry>
+    <entry key="ErrorIdentifyingOpenGLVisual">Error identifying visual of OpenGL</entry>
+    <entry key="OffScreenContext">glren: Unable to create an off-screen rendering context</entry>
+    <entry key="OpenGLRequiresTrueColor">OpenGL requires a true color visual for reliable display</entry>
+    <entry key="print">Problems in UIW_SetUpGLPrinting</entry>
+    <entry key="PrintingVisual">Cannot create an OpenGL visual for printing</entry>
+    <entry key="ServerHasNoGLXExtension">Server has no GLX Extension</entry>
+    <entry key="SetStretchBltMode">Failed in SetStretchBltMode, OpenGL application error (gle{0})</entry>
+    <entry key="SingleBufferVisualNotAvailable">single buffer visual not available</entry>
+    <entry key="StretchDIBits">Failed in StretchDIBits, OpenGL application error (gle{0})</entry>
+  </message>
+</rsccat>

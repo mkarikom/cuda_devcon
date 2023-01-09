@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noPCT">Parallel Computing Toolbox 不可用。请确保已安装该工具箱并且获得了许可证。</entry>
+    <entry key="noGPU">无法与 GPU 成功通信。</entry>
+    <entry key="incorrectBaseSetup">该类必须在 setupImpl 方法中调用 detectGPUInputs 以使用此方法。</entry>
+    <entry key="inputSpecsChanged">在未先调用 release 方法的情况下，不允许更改输入 {0,number,integer} 的大小或类型。</entry>
+    <entry key="inputComplexityChanged">在未先调用 release 方法的情况下，不允许更改输入 {0,number,integer} 的复/实性(从实数更改为复数)。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="UnableToOpenMasterDevice">MATLAB was unable to open the pseudo-tty master device {0}.\nThe unix() and ! commands will not work in this MATLAB session.  Other commands which depend upon unix() and ! will also fail.  Please check with your system administrator and confirm that this device exists with the proper permissions.</entry>
+    <entry key="UnableToOpenTtyDevice">MATLAB was unable to open a pseudo-tty: {0} [{1,number,integer},{2,number,integer}].\nThe unix() and ! commands will not work in this MATLAB session.  Other commands which depend upon unix() and ! will also fail.  Your system may be running low on resources.  If the problem persists after a reboot, check with your system administrator and confirm that your pty subsystem is properly configured.</entry>
+    <entry key="SignalReceived" translate="false" note="TranslateFalseBatch;">{0}: {1}</entry>
+  <!--Resource entries for src/builtins-->
+    <entry key="SystemError">Unexpected system error: {0}</entry>
+    <entry key="UnableToReopenPtyDevice">Attempt to re-open pty failed</entry>
+    <entry key="UnableToInitializePseudotty">MATLAB was unable to initialize pseudo-tty: no BinArchDir.\nThe unix() and ! commands will not work in this MATLAB session.  Other commands which depend upon unix() and ! will also fail. Please report this problem to support@mathworks.com.</entry>
+    <entry key="CommandsDisabled">The unix() and ! commands are disabled.</entry>
+    <entry key="UnknownError">Unknown error</entry>
+    <entry key="UnrecognizedOption">Unrecognized option: {0}</entry>
+  </message>
+</rsccat>

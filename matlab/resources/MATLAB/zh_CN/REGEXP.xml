@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="vectorization">提供的多个 {0} 和模式必须具有相同的数量。</entry>
+    <entry key="invalidOutputs">''{0}'' 选项只能指定一次。</entry>
+    <entry key="invalidCompileOption">指定的编译选项无效。</entry>
+    <entry key="invalidNumericValue">''{0}'' 选项必须为正整数标量。</entry>
+    <entry key="EvaluationStr">''{0}'' 计算未生成字符向量或标量字符串。</entry>
+    <entry key="EvaluationBool">''{0}'' 计算未生成逻辑值。</entry>
+    <entry key="EvaluationError">''{0}'' 计算失败: \n\n{1}</entry>
+    <entry key="invalidInputs">''{0}'' 输入必须为字符行向量、字符行向量元胞数组或字符串数组。</entry>
+    <entry key="invalidAdditionalArgInputs">其他参数必须为字符行向量或标量字符串。</entry>
+    <entry key="invalidAdditionalNumericOrArgInputs">其他参数必须为数值、字符行向量或标量字符串。</entry>
+    <entry key="invalidCellInputs">所有元胞都必须为字符行向量。</entry>
+    <entry key="invalidOutputCombination">无法将 ''{0}'' 选项与 ''{1}'' 选项结合使用。</entry>
+    <entry key="notEnoughOutputs">为 ''{0}'' 选项指定的输出数不足。</entry>
+    <entry key="deprecated">{1} 的 ''{0}'' 选项现在是默认行为。</entry>
+    <entry key="invalidOptions">{0} 的选项无效: {1}。</entry>
+    <entry key="InvalidNumberOfInputsForOption">当指定了 ''{0}'' 选项时，需要提供 {1} 输入参数。</entry>
+    <entry key="ErrorLiteral">字符 ''{0}'' 在此上下文中将按字面处理。{1}</entry>
+    <entry key="ErrorEscapedLiteral">转义字符 ''{0}'' 在此上下文中将按字面处理。{1}</entry>
+    <entry key="ErrorBracedTooLong">花括号中的表达式太长，无法计算为字符。{0}</entry>
+    <entry key="ErrorBracedInvalid">花括号中的表达式未计算为字符。{0}</entry>
+    <entry key="ErrorTrailingBackslash">模式结尾的反斜杠将按字面处理。{0}</entry>
+    <entry key="ErrorSetBreaks">断字符(''\&lt;'' 和 ''\&gt;'')在集合中将按字面处理。{0}</entry>
+    <entry key="ErrorUnboundRange">范围无约束。{0}</entry>
+    <entry key="ErrorUnmatchedBracket">不匹配的 ''[''。请使用 ''\\['' 来指定文字 ''[''。{0}</entry>
+    <entry key="ErrorUnmatchedParen">''('' 不匹配。请使用 ''\\('' 指定文字 ''(''。{0}</entry>
+    <entry key="ErrorUnmatchedCurly">'''{''' 不匹配。请使用 ''\\'{''' 指定文字 '''{'''。{0}</entry>
+    <entry key="ErrorInvalidNamedBackRef">指定的标记反向引用无效。{0}</entry>
+    <entry key="ErrorInvalidNameCaptured">指定的标记名称无效。{0}</entry>
+    <entry key="ErrorNestedNamedToken">不支持嵌套括号中的指定标记。{0}</entry>
+    <entry key="ErrorModeDoubleNegative">模式标志求反只能指定一次。{0}</entry>
+    <entry key="ErrorModeRepeated">模式标志重复。{0}</entry>
+    <entry key="ErrorModeUnknown">模式标志未知。{0}</entry>
+    <entry key="ErrorUnknownExtended">扩展的正则表达式未知。{0}</entry>
+    <entry key="ErrorEvaluationDisabled">regexpPattern 中不支持计算。{0}</entry>
+    <entry key="ErrorConditonEmpty">没有为 if 结构指定条件。{0}</entry>
+    <entry key="ErrorConditonInvalid">为 if 结构指定的条件无效。{0}</entry>
+    <entry key="ErrorInvalidCurlyQuantifier">指定的 '''{}''' 限定符的模式无效。{0}</entry>
+    <entry key="ErrorUnknownReplace">指定的替换模式未知。''$'' 将按字面处理。{0}</entry>
+    <entry key="ErrorInefficientLookBehind">无约束长度的向后断言需要指数时间才能求解。{0}</entry>
+  </message>
+</rsccat>

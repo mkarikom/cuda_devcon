@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="pv1">A specified property is missing a corresponding value.</entry>
+    <entry key="notime">You must specify time for each sample.</entry>
+    <entry key="cell">Cell array must contain two cells, one for data and one for quality.</entry>
+    <entry key="pv2">At least one of the specified properties is invalid.</entry>
+    <entry key="pv4">New samples must be specified using a structure or property-value pairs.</entry>
+  </message>
+</rsccat>

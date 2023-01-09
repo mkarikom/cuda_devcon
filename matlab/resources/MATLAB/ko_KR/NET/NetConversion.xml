@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="StringConversion">입력 유형을 System.String 유형으로 변환하는 중 오류가 발생했습니다.</entry>
+    <entry key="DecimalConversion">입력 유형을 System.Decimal 유형으로 변환하는 중 오류가 발생했습니다.</entry>
+    <entry key="ObjectConversion">입력 유형을 System.Object 유형으로 변환하는 중 오류가 발생했습니다.</entry>
+    <entry key="VectorConversion">입력 유형을 System.Array 유형으로 변환하는 중 오류가 발생했습니다.</entry>
+    <entry key="DelegateConversion">입력 유형을 ''{0}''(으)로 변환하는 중 오류가 발생했습니다.</entry>
+    <entry key="CharArrayConversion">입력 유형을 System.Char[] 유형으로 변환하는 중 오류가 발생했습니다.</entry>
+    <entry key="NullableTypeConversion">입력 유형을 ''{0}''(으)로 변환하는 중 오류가 발생했습니다.</entry>
+    <entry key="ArrayTypeConversion">입력 유형을 {0}(으)로 변환하는 중 오류가 발생했습니다.</entry>
+    <entry key="ObjectArrayConversion">입력 유형을 {0}(으)로 변환하는 중 오류가 발생했습니다.  입력 유형은 셀형 배열, System.Object 배열, 빈 double형 중 하나여야 합니다.</entry>
+    <entry key="StringArrayConversion">입력 유형을 {0}(으)로 변환하는 중 오류가 발생했습니다. 입력 유형은 셀형 배열, MATLAB string형 배열, System.String 배열 또는 빈 double형이어야 합니다.</entry>
+    <entry key="InvalidCellElement">입력 셀형 배열은 System.String 객체, MATLAB string형, 또는 MATLAB 문자형 배열만 포함해야 합니다.</entry>
+    <entry key="UnsupportedCellElement">입력 셀형 배열에 지원되지 않는 유형이 하나 이상 있습니다. 지원되는 유형의 목록은 &lt;a href="matlab: helpview([docroot '/techdoc/matlab_external/matlab_external.map'],'supported_cell_types_for_net')"&gt;Passing Cell Arrays to .NET&lt;/a&gt; 항목을 참조하십시오.</entry>
+    <entry key="NonRectJaggedArray">입력 유형을 {0}(으)로 변환하는 중 오류가 발생했습니다. 입력값은 사각형 모양의 재그드 배열(Jagged Array)이어야 합니다. &lt;a href="matlab: helpview([docroot '/techdoc/ref/ref.map'],'cell_ref_page')"&gt;Cell&lt;/a&gt;을 호출해 보십시오.</entry>
+    <entry key="UndefinedConversion">{1}에서 {0}(으)로 변환될 수 없습니다.  자세한 내용은 &lt;a href="matlab: helpview([docroot '/techdoc/matlab_external/matlab_external.map'],'allowed_jagged_types_for_conversion')"&gt;Converting .NET Jagged Arrays to MATLAB Arrays&lt;/a&gt; 항목을 참조하십시오.</entry>
+    <entry key="COMConversion">{0}</entry>
+    <entry key="NullableConversion">{0}</entry>
+  </message>
+</rsccat>

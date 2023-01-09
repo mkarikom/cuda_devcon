@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="BadArguments">Handle value may not be negative</entry>
+    <entry key="IntegerHandleArrayFull">Integer handle array is now full - no more handles available</entry>
+    <entry key="OutOfUniqueHandles">Out of handles which have never been used before, handles will now be reused.</entry>
+    <entry key="AllocationFailed">Handle allocation failed: too many handles in use</entry>
+  </message>
+</rsccat>

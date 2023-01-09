@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonPC">この関数は、Microsoft Windows でのみ適用可能です。</entry>
+    <entry key="DosError">[{0}] の実行中に、DOS によって以下のエラーが {1,number,integer} の状態で報告されました:\n{2}</entry>
+    <entry key="BadArgs">使用されている入力引数の数が正しくありません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotEnoughInputs">Not enough input arguments.</entry>
+    <entry key="YMustBeVector">Y must be a vector.</entry>
+    <entry key="AutoResizeChildren">Adding a pareto chart to a container with the ''AutoResizeChildren'' property set to ''on'' is not supported.</entry>
+    <entry key="InvalidThreshold">Threshold must be a scalar numeric value between 0 and 1.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArrayMustBeRowOrColumnVector">要克隆的句柄数组必须为行向量或列向量</entry>
+    <entry key="HandleTypeMustBeProvided">必须为克隆方法提供 ''handle'' 类型</entry>
+    <entry key="ClonetreeNotSupported">此版本的 HG 对象不支持 clonetree</entry>
+  </message>
+</rsccat>

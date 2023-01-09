@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="braceNotSupported">不支持使用花括号对惰性冒号描述符进行索引。</entry>
+    <entry key="indexIntoEmptyObject">不支持对空冒号描述符进行索引。</entry>
+    <entry key="methodNotSupported">惰性冒号描述符不支持方法 {0}。</entry>
+    <entry key="onlyOneIndex">仅支持一个惰性冒号描述符索引。</entry>
+    <entry key="parenReferenceUnsupported">不支持将惰性冒号索引与 parenReference 结合使用。</entry>
+    <entry key="subscriptedAssignmentNotSupported">不支持对惰性冒号描述符的元素赋值。</entry>
+    <entry key="singlePrecisionMaxIndexExceeded">单精度索引值必须小于 2^24。</entry>
+    <entry key="doublePrecisionMaxIndexExceeded">索引值必须小于 2^53。</entry>
+  </message>
+</rsccat>

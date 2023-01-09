@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadDataDimension">数据必须为 2 维矩阵。</entry>
+    <entry key="BadDataType">数据必须为数值、逻辑值、字符串、元胞或表数组</entry>
+    <entry key="BadDataCellArrayType">元胞数组中的值必须为数值、逻辑值或字符</entry>
+    <entry key="BadDataCellArraySize">元胞数组中的数据的大小必须为 [1 1]</entry>
+    <entry key="BadColumnWidthRowVector">ColumnWidth 必须为行向量</entry>
+    <entry key="BadColumnWidthValue">
+    ColumnWidth 必须为包含数字的元胞数组或为 ''auto''。您可以指定任意的值组合(例如，'{'100,50,''auto'',''auto'''}')。
+</entry>
+    <entry key="BadColumnFormatPopupmenuRowVector">ColumnFormat 弹出式菜单定义必须为行向量</entry>
+    <entry key="BadColumnFormatEmptyMatrix">ColumnFormat 弹出式菜单定义不能包含空矩阵</entry>
+    <entry key="BadColumnFormatChar">ColumnFormat 弹出式菜单定义必须仅包含字符值</entry>
+    <entry key="BadColumnFormatIncorrectDataType">ColumnFormat 定义必须为 ''numeric''、''logical''、''char''、''short''、''long''、''short e''、''long e''、''short g''、''long g''、''short eng''、''long eng''、''bank''、''+''、''rat'' 或弹出式菜单定义</entry>
+    <entry key="BadColumnFormatInvalidDataType">ColumnFormat 定义必须为 ''numeric''、''logical''、''char'' 或弹出式菜单定义</entry>
+    <entry key="BadColumnFormatCellArray">ColumnFormat 必须为元胞数组</entry>
+    <entry key="BadColumnFormatRowVector">ColumnFormat 必须为行向量</entry>
+    <entry key="BadColumnEditableRowVector">ColumnEditable 必须为行向量</entry>
+    <entry key="BadColumnEditableLogical">ColumnEditable 必须为逻辑值或逻辑数组</entry>
+    <entry key="BadConversionCharToLogical">无法将字符值编辑转换为逻辑矩阵。</entry>
+    <entry key="BadConversionLogicalToChar">无法将逻辑值编辑转换为字符矩阵。</entry>
+    <entry key="BadConversionLogicalToNumeric">无法将逻辑值编辑转换为数值矩阵。</entry>
+    <entry key="BadConversionNumericToLogical">无法将数值编辑转换为逻辑矩阵。</entry>
+    <entry key="BadDataDimensionValue">数据必须为 2 维矩阵。</entry>
+    <entry key="BadDataArrayType">元胞数组中的值必须为数值、逻辑值或字符</entry>
+    <entry key="BadDataArraySize">元胞数组中的数据的大小必须为 [1 1]</entry>
+    <entry key="BadBackgroundColors">BackgroundColor 必须至少包含 [r g b] 格式的一种颜色</entry>
+    <entry key="invalidScrollLocation">
+    
+    位置必须为 ''{0}''、''{1}''、''{2}'' 或 ''{3}''。 
+</entry>
+    <entry key="invalidScrollTarget">
+    
+    目标必须为 ''{0}''、''{1}'' 或 ''{2}''。 
+</entry>
+    <entry key="invalidColumnTargetIndex">
+     
+    ''{0}'' 的选项必须为数据范围内的正整数，或是与变量名称匹配的字符向量。
+</entry>
+    <entry key="invalidNumericTargetIndex">
+     
+    ''{0}'' 的选项必须为数据范围内的正整数。
+</entry>
+    <entry key="invalidCellTargetIndex">
+     
+    ''{0}'' 的选项必须为由数据范围内的正整数组成的 1×2 向量。
+</entry>
+    <entry key="CellEditWarning">{0}</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UIW_UpdateMenuItemInfoUnknown">遇到未知类型的菜单项</entry>
+    <entry key="UIW_InsertMenuItemUnknown">遇到未知类型的菜单项</entry>
+    <entry key="MenuItemLimitExceeded">已超过 MS-Windows 的菜单项限制。一些菜单可能未显示。如果可能，请尝试关闭一些窗口或使用更少的菜单</entry>
+    <entry key="OutOfMemory">内存不足。有关详细信息，请参阅&lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/memory.html'))\"&gt;内存&lt;/a&gt;。</entry>
+  </message>
+</rsccat>

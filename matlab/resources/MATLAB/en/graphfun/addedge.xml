@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="BadEndNodes">First variable in table must be a 2-column numeric array or a 2-column array (cell or string) of node names.</entry>
+    <entry key="DuplicateEdge">Duplicate edges not supported.</entry>
+    <entry key="DuplicateEndNodes">Duplicate definition of EndNodes. Use two inputs, or remove variable EndNodes from EdgeTable.</entry>
+    <entry key="EdgeExists">Edge ({0}, {1}) is already in the graph.</entry>
+    <entry key="FourthInput">Invalid data type. Weight must be double or single.</entry>
+    <entry key="InconsistentNodeNames">Node IDs must both be numeric vectors, both be node names (specified as string vectors, character vectors, or cell arrays of character vectors), or both be categoricals.</entry>
+    <entry key="InvalidNodeID">Numeric node IDs must be positive integers.</entry>
+    <entry key="NoOutput">Input graph not modified. Use an output argument to return the modified graph.</entry>
+    <entry key="NoWeights">Unable to add weighted edges to an unweighted graph.</entry>
+    <entry key="NumWeightsMismatch">Weights argument must have an element for each specified edge, or can be a scalar.</entry>
+    <entry key="SpecifyWeight">Must specify weights when adding an edge to a weighted graph.</entry>
+    <entry key="TableFirstVar">First variable in table must be EndNodes.</entry>
+    <entry key="TableMaxRHS">Edge table must be the last argument.</entry>
+    <entry key="TableSize">Edge table must have at least one column.</entry>
+  </message>
+</rsccat>

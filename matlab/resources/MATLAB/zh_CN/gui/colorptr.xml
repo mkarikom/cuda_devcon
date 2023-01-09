@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ColormapElementOutOfRange">Colormap 元素超出范围。RGB 强度应按 0.0 &lt;= 强度 &lt;= 1.0 这一范围进行归一化。按 \"max(max(&lt;colormap&gt;))\" 调整颜色图进行归一化。</entry>
+    <entry key="DithermapElementOutOfRange">Dithermap 元素超出范围。RGB 强度应按 0.0 &lt;= 强度 &lt;= 1.0 这一范围进行归一化。按 \"max(max(&lt;dithermap&gt;))\" 调整颜色图进行归一化。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2010-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed">
+  <message>
+    <!-- Begin content for messages from mxErrMsg enum map-->
+    <entry key="string" note="stringDatatypeUpdate">Arguments must contain a character vector.</entry>
+    <!-- End content for messages from mxErrMsg enum map -->
+
+    <!--Begin error messages for new Front End name resolution-->
+    <entry key="persistentNotInFunction">Error: {0}Declaring persistent variables in scripts is not supported.</entry>
+    <entry key="AnsAsFunctionName">Error: {0}'ans' as function name is not supported.</entry>
+    <entry key="AnsAsClassName">Error: {0}'ans' as class name is not supported.</entry>
+    <entry key="LocalFunctionNameSameAsFileName">Error: {0}Local function name must be different from the script name.</entry>
+    <!--End error messages for new Front End name resolution-->
+
+    <!-- Begin error messages for M_to_IR from legacy_two_part.xml -->
+
+    <!-- Begin Documentation Anchors -->
+
+    <!-- Name Resolution -->
+    <entry key="mir_determining_which_function_is_called">"How MATLAB Recognizes Command Syntax"</entry>
+
+	<!-- Begin parfor Documentation Anchors -->
+    <entry key="mir_parfor_solve_variable_classification_issues">Parallel for Loops in MATLAB, "Solve Variable Classification Issues in parfor-Loops"</entry>
+    <entry key="mir_parfor_loop_variable">Parallel for Loops in MATLAB, "Loop Variables"</entry>
+    <entry key="mir_parfor_basic_rules_for_reductions">Parallel for Loops in MATLAB, "Basic Rules for Reduction Variables"</entry>
+    <entry key="mir_parfor_requirements_for_reductions">Parallel for Loops in MATLAB, "Requirements for Reduction Assignments"</entry>
+    <entry key="mir_parfor_ans_variable">Parallel for Loops in MATLAB, "ans Variable"</entry>
+    <entry key="mir_parfor_sliced_variables">Parallel for Loops in MATLAB, "Sliced Variables"</entry>
+    <entry key="mir_parfor_reduction_variables">Parallel for Loops in MATLAB, "Reduction Variables"</entry>
+    <entry key="mir_parfor_uninitialized_temporary_with_reductions">Parallel for Loops in MATLAB, "Temporary Variables Intended as Reduction Variables"</entry>    <entry key="mir_parfor_nested_for_loops_with_sliced_variables">Parallel for Loops in MATLAB, "Nested for-Loops with Sliced Variables"</entry>
+    <entry key="mir_parfor_nested_for_loop_variables">Parallel for Loops in MATLAB, "Nested for-Loops: Requirements and Limitations"</entry>
+    <entry key="mir_parfor_temporary_variables">Parallel for Loops in MATLAB, "Temporary Variables"</entry>
+    <entry key="mir_parfor_uninitialized_temporary">Parallel for Loops in MATLAB, "Uninitialized Temporaries"</entry>
+    <entry key="mir_parfor_nested_functions">Parallel for Loops in MATLAB, "Nested Functions"</entry>
+    <entry key="mir_parfor_anonymous_functions">Parallel for Loops in MATLAB, Anonymous Functions</entry>
+    <entry key="mir_parfor_nesting">Parallel for Loops in MATLAB, "Nested parfor-Loops"</entry>
+    <entry key="mir_parfor_nested_spmd">Parallel for Loops in MATLAB, "Nested spmd Statements"</entry>
+    <entry key="mir_parfor_break_return">Parallel for Loops in MATLAB, "break and return Statements"</entry>
+    <entry key="mir_parfor_global_and_persistent">Parallel for Loops in MATLAB, "Global and Persistent Variables"</entry>
+    <entry key="mir_parfor_inputname">Parallel for Loops in MATLAB, "inputname Functions"</entry>
+    <entry key="mir_parfor_load_statements">Parallel for Loops in MATLAB, "load Functions"</entry>
+    <entry key="mir_parfor_nargin_nargout">Parallel for Loops in MATLAB, "nargin or nargout Functions"</entry>
+    <entry key="mir_parfor_pcode">Parallel for Loops in MATLAB, "P-Code Scripts"</entry>
+	<!-- End parfor Documentation Anchors -->
+
+    <!-- Begin Documentation Anchors -->
+    <entry key="SpmdInputnameDoc">SPMD in MATLAB, "inputname Functions"</entry>
+    <entry key="mir_spmd_anonymous_functions">SPMD in MATLAB, "Anonymous Functions"</entry>
+    <entry key="mir_spmd_ans">SPMD in MATLAB, "ans Variable"</entry>
+    <entry key="mir_spmd_break_continue_return">SPMD in MATLAB, "break, continue, and return Statements"</entry>
+    <entry key="mir_spmd_global_persistent">SPMD in MATLAB, "Global and Persistent Variables"</entry>
+    <entry key="mir_spmd_load">SPMD in MATLAB, "load Functions"</entry>
+    <entry key="mir_spmd_nargin_nargout">SPMD in MATLAB, "nargin or nargout Functions"</entry>
+    <entry key="mir_spmd_nested_functions">SPMD in MATLAB, "Nested Functions"</entry>
+    <entry key="mir_spmd_nested_parfor">SPMD in MATLAB, "Nested parfor-Loops"</entry>
+    <entry key="mir_spmd_nested_spmd">SPMD in MATLAB, "Nested spmd Statements"</entry>
+    <!-- End Documentation Anchors -->
+
+	<!-- Begin Semantic Analysis SPMD Documentation Anchors -->
+    <entry key="mir_spmd_pcode">SPMD in MATLAB, "P-Code Scripts"</entry>
+	<!-- End Semantic Analysis SPMD Documentation Anchors -->
+
+    <!-- Begin name resolver -->
+    <entry key="mir_error_function_followed_by_dot">Error: {0}Using the dot operator to index into the output of function ''{1}'' is not supported.</entry>
+    <entry key="mir_error_duplicate_function_name">Error: {0}Function ''{1}'' has already been declared within this scope.</entry>
+    <entry key="mir_error_persistent_must_be_first">Error: {0}Using the variable ''{1}'' before a persistent variable declaration is not supported.</entry>
+    <entry key="mir_error_persistent_global_must_be_outer">Error: {0}Global or persistent variables must be declared in the same scope where they are first used. Move the declaration for variable ''{1}'' to the outermost function before its first use.</entry>
+    <entry key="mir_error_repeated_input">Error: {0}Repeating input argument ''{1}'' in the function declaration is not supported</entry>
+    <entry key="mir_error_repeated_output">Error: {0}Repeating output argument ''{1}'' in the function declaration is not supported</entry>
+    <entry key="mir_error_varargs_cannot_be_global_persistent">Error: {0}Declaring varargin or varargout as global or persistent is not supported.</entry>
+    <entry key="mir_error_variable_and_nested_function">Error: {0}Using ''{1}'' as the name of a variable and the name of a nested function in the same scope is not supported.</entry>
+    <entry key="mir_error_variable_used_as_command">Error: {0}Using the variable ''{1}'' as the name of a command is not supported.</entry>
+    <entry key="mir_error_variable_used_where_function_is_required">Error: {0}Using identifier ''{1}'' as both a variable and a command is not supported. For more information, see {2}.</entry>
+    <entry key="mir_illegal_import_argument">Error: {0}Unable to find or import ''{1}''. Imported names must end with ''.*'' or be fully qualified.</entry>
+    <entry key="mir_invalid_colon_index">Error: {0}Invalid syntax for calling function ''{1}'' on the path. Use a valid syntax or explicitly initialize ''{1}'' to make it a variable.</entry>
+    <entry key="mir_nested_functions_with_same_name">Error: {0}The nested function name ''{1}'' must not be reused in the same scope.</entry>
+    <entry key="mir_nr_warning_identifier_is_variable_and_function">{0}Using ''{1}'' as both a function or command, and as a variable will not be supported in a future release.</entry>
+    <entry key="mir_variable_with_script_name">Error: {0}Using ''{1}'' as both the name of a variable and the name of a script is not supported.</entry>
+    <entry key="mir_error_function_handle_with_variable_name">Error: {0}Unable to obtain a function handle from the variable ''{1}''.</entry>
+    <!-- End name resolver -->
+
+    <!-- Begin semantic analyzer -->
+    <entry key="mir_paren_index_must_be_last">Error: {0} Invalid array indexing.</entry>
+    <entry key="mir_invalid_empty_lhs">Error: {0}Assigning an output to an empty array is not supported.</entry>
+    <entry key="mir_invalid_id_lhs">Error: {0}Assigning the function output to this expression is not supported.</entry>
+    <!-- End semantic analyzer -->
+
+	<!-- Begin drange -->
+	<entry key="m_drange_args">Error: {0}A for-loop expression using drange must have one to three arguments.</entry>
+	<!-- End drange-->
+
+    <!-- Begin parfor -->
+    <entry key="mir_error_parfor_loop_variable_subscripted_ref">Error: {0}Indexing the parfor-loop variable ''{1}'' is not supported in parfor-loops. For more information, see {2}.</entry>
+    <entry key="mir_error_parfor_loop_variable_assignment">Error: {0}Assigning to the parfor-loop variable ''{1}'' is not supported in parfor-loops. For more information, see {2}.</entry>
+    <entry key="mir_error_uninitialized_temporary_variable">Error: {0}The temporary variable ''{1}'' must be set before it is used. For more information, see {2}.</entry>
+    <entry key="mir_error_uninitialized_temporary_variable_with_reductions">Error: {0}The variable ''{1}'' is perhaps intended as a reduction variable, but is actually an uninitialized temporary. For more information, see {2}.</entry>
+    <entry key="mir_warning_maybe_uninitialized_temporary">{0}The temporary variable ''{1}'' will be cleared at the beginning of each iteration of the parfor-loop. If ''{2}'' is used before it is set, a runtime error will occur. For more information, see {3}.</entry>
+    <entry key="mir_error_parfor_reduction_same_function">Error: {0}Using different reduction functions with the same reduction variable ''{1}'' is not supported in parfor-loops. For more information, see {2}.</entry>
+    <entry key="mir_error_parfor_illegal_reduction">Error: {0}Subtracting the reduction variable ''{1}'' from an expression is not supported in parfor-loops. For more information, see {2}.</entry>
+    <entry key="mir_parfor_reduction_operation_assignment">Error: {0}Assigning to the reduction function ''{1}'' of a reduction assignment statement is not supported in parfor-loops. For more information, see {2}.</entry>
+    <entry key="mir_error_parfor_reduction_commutative_inconsistent">Error: {0}The reduction variable ''{1}'' of the non-commutative reduction operation ''{2}'' must appear in the same position in each assignment statement. For more information, see {3}.</entry>
+    <entry key="mir_error_parfor_bad_temporary_variable">Error: {0}Unable to classify the variable ''{1}'' in the body of the parfor-loop. For more information, see {2}.</entry>
+    <entry key="mir_error_parfor_nested_loop">Error: {0}parfor-loops cannot be used inside parfor-loops. For more information, see {1}.</entry>
+    <entry key="mir_error_parfor_nested_function">Error: {0}Unable to call the function ''{1}''. Nested functions are not supported in parfor-loops. For more information, see {2}.</entry>
+    <entry key="mir_error_parfor_break">Error: {0}Using break statements to terminate the execution of a parfor-loop is not supported. For more information, see {1}.</entry>
+    <entry key="mir_error_parfor_return">Error: {0}Using return statements to return control to an invoking function is not supported in parfor-loops. For more information, see {1}.</entry>
+    <entry key="mir_error_parfor_persistent">Error: {0}Persistent variable declarations are not supported in parfor-loops. For more information, see {1}.</entry>
+    <entry key="mir_error_parfor_global">Error: {0}Global variable declarations are not supported in parfor-loops. For more information, see {1}.</entry>
+    <entry key="mir_parfor_not_supported_in_pcode_script_files">Error: Invalid P-Code script file ''{0}''. parfor-loops are not supported in p-coded scripts. For more information, see {1}.</entry>
+    <!-- End parfor -->
+
+    <!-- Begin spmd -->
+    <entry key="mir_spmd_ans_not_supported">Error: {0}The ans variable will be cleared at the beginning of the spmd statement. If ans is used before it is set, a runtime error will occur. For more information, see {1}.</entry>
+    <entry key="mir_spmd_nesting">Error: {0}spmd statements cannot be used inside spmd statements. For more information, see {1}.</entry>
+    <entry key="mir_spmd_parfor_nesting">Error: {0}parfor-loops cannot be used inside spmd statements. See more information, see {1}.</entry>
+    <entry key="mir_spmd_reserved_keyword">Error: {0}Using the reversed name ''{1}'' as a variable name is not supported in spmd statements.</entry>
+    <entry key="mir_parfor_spmd_nesting">Error: {0}spmd statements cannot be used inside parfor-loops. For more information, see {1}.</entry>
+    <entry key="mir_spmd_return">Error: {0}return statements are not supported in spmd statements. For more information, see {1}.</entry>
+    <entry key="mir_error_spmd_break_continue">Error: {0}Using break statements to terminate the execution of a spmd statement is not supported. For more information, see {1}. </entry>
+    <entry key="mir_error_spmd_nested_function">Error: {0}Unable to call the function ''{1}''. Nested functions are not supported in spmd statements. For more information, see {2}.</entry>
+    <entry key="mir_error_spmd_anonymous_function">Error: {0}Invalid anonymous function definition ''{1}''. Anonymous function definitions are not supported in spmd statements. For more information, see {2}.</entry>
+    <entry key="mir_error_spmd_persistent">Error: {0}Persistent variable declarations are not supported in spmd statements. For more information, see {1}.</entry>
+    <entry key="mir_error_spmd_global">Error: {0}Global variable declarations are not supported in spmd statements. For more information, see {1}.</entry>
+    <entry key="mir_error_parfor_spmd_nargin_nargout">Error: {0}Using nargin/nargout without a function argument, or narginchk/nargoutchk is not supported in parfor-loops or spmd statements. For more information, see {1}.</entry>
+    <entry key="mir_spmd_not_supported_in_pcode_script_files">Error: Invalid P-Code script file ''{0}''. spmd statements are not supported in p-coded scripts. For more information, see {1}.</entry>
+    <!-- End spmd -->
+
+    <!-- MCOS related front_end checks -->
+    <entry key="constructedObjectInInputs">Error: {0}Use of constructed object ''{1}'' as input to constructor is not supported.</entry>
+    <entry key="constructedObjectInArguments">Error: {0}Use of constructed object ''{1}'' in arguments block is not supported.</entry>
+
+    <!-- End error messages for M_to_IR from legacy_two_part.xml-->
+
+    <!-- Begin lexer-->
+    <entry key="lex_file_line_column">File: {0} Line: {1,number,integer} Column: {2,number,integer}</entry>
+    <entry key="lex_hot_file_line_column" translate="false" note="TranslateFalseBatch;"><![CDATA[<a]]> href="matlab: opentoline(''{0}'',{1,number,integer},{2,number,integer})">{3}<![CDATA[</a>]]></entry>
+    <!-- End lexer -->
+
+    <!--Begin Parser-->
+    <entry key="m_doclink" translate="false" note="TranslateFalseBatch;"><![CDATA[<a]]> href="matlab: helpview([docroot ''{0}''],''{1}'')">{2}<![CDATA[</a>]]></entry>
+    <entry key="m_complicated_parse">Error: {0}The input was too complicated or too big for MATLAB to parse.</entry>
+    <entry key="IncorrectUseOfTilde">Error: {0}Incorrect use of tilde.</entry>
+    <entry key="mir_warning_pfunction_names">{0}The #function pragma expects a list of function names.</entry>
+    <entry key="mir_warning_unrecognized_pragma">{0}Unrecognized pragma "{1}".</entry>
+    <!--End Parser-->
+
+    <!-- Begin MCOS -->
+    <entry key="m_bad_mcos">Error: {0}{1}</entry>
+    <entry key="m_invalid_dimension">Error: {0}Invalid dimension. Dimension must be a nonnegative integer number or a colon (:).</entry>
+    <entry key="m_too_few_dimensions">Error: {0}Specify at least two dimensions for size.</entry>
+    <entry key="m_invalid_validator">Error: {0}Validator identifier must be a valid MATLAB identifier.</entry>
+    <entry key="m_invalid_validator_param">Error: {0}Validator arguments must be either ''{1}'' or constant literal values.</entry>
+    <entry key="m_invalid_validator_spec">Error: {0}Incorrect use of ''{1}'' with parentheses. Do not use parentheses when there are no input arguments.</entry>
+    <entry key="ClassNameConflict" translate="false">Error: {0}Using identifier ''{1}'' as both a class and local function is not supported.</entry>
+    <entry key="ValidatorNoSelfReference" translate="false">Error: {0}Validator function must reference the ''{1}'' property.</entry>
+    <entry key="m_class_method_too_complicated">Error: {0}Method has too many inputs or outputs.</entry>
+    <entry key="m_not_current_method">Error: {0}When calling a superclass method inside a method with the same name, call the superclass method as method@superclass with the left operand of ''@'' as the method name.</entry>
+    <entry key="m_constructor_must_have_output">Error: {0}Class constructor ''{1}'' must have at least one output that returns the constructed class object.</entry>
+    <entry key="m_multi_constructor">Error: {0}Class definition ''{1}'' must define at most one constructor.</entry>
+    <entry key="m_not_output_name">Error: {0}The left operand of ''@'' in a class constructor must be the first output name.</entry>
+    <entry key="m_super_ctor_bad">Error: {0}Calling the superclass constructor ''{1}'' that is not an immediate superclass of a constructor is not supported.</entry>
+    <entry key="m_super_ctor_not_top">Error: {0}Superclass constructor call to ''{1}'' must not be conditional or part of another expression.</entry>
+    <entry key="m_super_ctor_dup">Error: {0}Calling the superclass constructor ''{1}'' more than once is not supported.</entry>
+    <entry key="m_super_ctor_late">Error: {0}Calling the superclass constructor ''{1}'' after an object use or after a return statement is not supported.</entry>
+    <entry key="MustAssignToConstructedObject">Error: {0}Superclass constructors must be assigned to the first constructor output argument.</entry>
+    <entry key="InvalidSuperclassCallOutputs">Error: {0}Multiple outputs from superclass object initializations are not supported.</entry>
+    <entry key="m_mcos_private">Error: {0}Class definition files cannot be contained in a private directory.</entry>
+    <entry key="m_class_filename">Error: {0}Class name and filename must match.</entry>
+    <entry key="m_class_atdir">Error: {0}Class definition files must be contained in a folder that begins with an ''@'' character.</entry>
+    <!-- End MCOS -->
+
+    <!-- Begin error messages for feature control -->
+    <entry key="FeatureUsageError" translate="false">{0}</entry>
+    <!-- End error messages for feature control -->
+  </message>
+</rsccat>

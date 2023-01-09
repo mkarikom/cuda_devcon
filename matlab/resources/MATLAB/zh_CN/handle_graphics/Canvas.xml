@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidSceneViewer">SceneViewer 对象未正确初始化</entry>
+    <entry key="BadFilename">文件名无效</entry>
+    <entry key="BadFormat">格式无效</entry>
+    <entry key="UnexpectedException">出现了一些问题</entry>
+    <entry key="InvalidRendererValueSpecified">需要渲染器值为 0 (opengl)或 1 (painters)</entry>
+    <entry key="ViewportNotValid">视区未进入有效状态</entry>
+    <entry key="TooManyTokens">由于未完成的作业太多，该操作失败</entry>
+    <entry key="StatisticsListener">统计信息收集侦听器修改不正确</entry>
+    <entry key="DebugLogListener">调试日志侦听器修改不正确</entry>
+    <entry key="WaitingObjectReferenceInvalid">等待的对象引用不再有效</entry>
+    <entry key="RenderingException">绘制场景时出错: {0}</entry>
+    <entry key="WebglException">Webgl 不可用，将返回到 context2d 渲染器</entry>
+    <entry key="CSRNotSupported">此画布不支持客户端渲染</entry>
+    <entry key="HittestDisabled">此画布未启用 Hittest</entry>
+    <entry key="SceneClientException">{0}</entry>
+  </message>
+</rsccat>

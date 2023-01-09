@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="max2lhs">LEGEND の 2 番目の出力引数はサポートされていません。将来のリリースで削除される予定です。</entry>
+    <entry key="max3lhs">LEGEND の 3 番目と 4 番目の出力引数は、将来のリリースで削除される予定です。</entry>
+    <entry key="DeprecatedV6Argument">LEGEND への引数 ''v6'' の利用は推奨されません。これは将来のリリースではサポート廃止の予定です。</entry>
+    <entry key="IgnoringExtraEntries">余分な凡例の入力を無視します。</entry>
+    <entry key="InvalidParent">凡例は、タイプ {0} のオブジェクトの子にはできません。</entry>
+    <entry key="PlotEmpty">プロットが空です。</entry>
+    <entry key="InvalidTask">string スカラーまたは文字ベクトルの長さの変更はサポートされていません。</entry>
+    <entry key="UnsupportedFaceColor">凡例は、FaceColor に ''{0}'' を使った patch をサポートしていません</entry>
+    <entry key="UnsupportedEdgeColor">凡例は、EdgeColor ''interp'' を使った patch をサポートしていません。</entry>
+    <entry key="InvalidPeerParameter">ハンドルは Axes または Axes の子でなければなりません。</entry>
+    <entry key="InvalidPeerHandle">タイプ {0} のハンドル入力は、この関数では使用できません。</entry>
+    <entry key="NoCurrentAxes">凡例を関連付ける Axes がありません。</entry>
+    <entry key="InvalidCellParameter">cell 配列の引数は、string ベクトル、または文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="UnknownProperty">不明なプロパティ {0}</entry>
+    <entry key="BadNumberOfOutputs">出力の数は 0、1、2、3 または 4 のいずれかでなければなりません。</entry>
+    <entry key="CellArrayLabels">''{0}'' は凡例のプロパティ名として解釈されます。凡例のプロパティと同じ名前のラベルを含めるには、cell 配列または string 配列を使用してラベルを指定します。</entry>
+    <entry key="NameValueMismatch">名前と値のペアの引数の数が一致しません。プロパティ名ごとにプロパティ値を指定します。</entry>
+    <entry key="UnknownParameter">引数が無効です。詳細は、"help legend" を入力してください。</entry>
+    <entry key="ObjectsNotLegendable">1 つ以上の指定されたオブジェクトを凡例に含めることはできません。</entry>
+    <entry key="ParentMustBeSameAsAxes">凡例とそれに関連付けられた座標軸の親は同じでなければなりません。</entry>
+    <entry key="AxesMustBeCopied">凡例は、対応する座標軸と共にコピーされなければなりません。凡例と座標軸を一緒にコピーするため、ベクトル入力を COPYOBJ とともに使用してください。</entry>
+    <entry key="LargeStringLength">凡例のテキストが 25000 文字を超えています。</entry>
+    <entry key="FigureCallbacksInItemHitFcn">Figure の {0} プロパティの設定は、凡例のコールバック関数 ItemHitFcn ではサポートされていません</entry>
+    <entry key="ErrorWhileEvaluating">{0}\n凡例の {1} の評価中にエラーが発生しました。</entry>
+    <entry key="NonVectorInputOfGraphics">凡例に含めるデータ系列を、グラフィックス オブジェクトのベクトルとして指定してください。</entry>
+    <entry key="PositionTooBig">凡例の 'Position' 値はより小さくなければなりません。1 桁小さくしてみてください。 </entry>
+    <entry key="CappingMaxEntries">凡例のエントリ数を 50 個までに制限します。50 個を超えるエントリを表示するには、グラフィックス オブジェクトのベクトルを指定してください。</entry>
+  </message>
+</rsccat>

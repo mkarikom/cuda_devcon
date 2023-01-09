@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownFormatType">날짜 형식 번호는 0과 31 사이여야 합니다.</entry>
+    <entry key="UnknownDateFormat">알 수 없는 날짜 형식임: {0}</entry>
+    <entry key="IncorrectArgs">인수가 올바르지 않음</entry>
+    <entry key="InvalidAxis">축은 ''x'', ''y'', ''z'' 중 하나여야 합니다.</entry>
+    <entry key="InvalidInput">날짜 형식 값은 숫자형 스칼라이거나 문자형 벡터여야 함</entry>
+  </message>
+</rsccat>

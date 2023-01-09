@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DialogStringThisIsNotAValidMeasurement">これは有効な測定値ではありません</entry>
+    <entry key="RecomputingPreview">プレビューの再計算中...</entry>
+    <entry key="ErrorRefreshingPreview">プレビューの更新中のエラー:\n{0}</entry>
+    <entry key="TitlePrintPreview">印刷プレビュー</entry>
+    <entry key="LayoutTab">レイアウト</entry>
+    <entry key="LinesTextTab">ライン/テキスト</entry>
+    <entry key="ColorTab">色</entry>
+    <entry key="AdvancedTab">詳細設定</entry>
+    <entry key="DialogTitlePrintPreviewWarning">印刷プレビュー警告</entry>
+  </message>
+</rsccat>

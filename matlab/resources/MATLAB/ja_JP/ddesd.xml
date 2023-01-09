@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">入力引数が不足しています。DDESD を参照してください。</entry>
+    <entry key="TspandEndLTtspan1">tspan(1) &lt; tspan(end) でなければなりません。</entry>
+    <entry key="DdefunNotFunctionHandle">1 番目の引数、DDEFUN は関数ハンドルでなければなりません!</entry>
+    <entry key="NotContinueFromHistoryEnd">最後に達した点から連続でなければなりません。</entry>
+    <entry key="DDEOutputNotCol">DDE は列ベクトルを返さなければなりません。</entry>
+    <entry key="DDELengthMismatchHistory">微分と履歴ベクトルは異なる長さをもっています。</entry>
+    <entry key="OptRelTolNotPosScalar">オプション ''RelTol'' は正のスカラーでなければなりません。</entry>
+    <entry key="OptAbsTolNotPos">オプション ''AbsTol'' は正でなければなりません。</entry>
+    <entry key="NonScalarAbsTolNormControl">NormControl を ''on'' にして解くには、スカラーの AbsTol が必要です。</entry>
+    <entry key="OptMaxStepNotPos">オプション ''MaxStep'' は 0 より大きくなければなりません。</entry>
+    <entry key="OptInitialStepNotPos">オプション ''InitialStep'' は 0 より大きくなければなりません。</entry>
+    <entry key="OptEventsNotFunctionHandle">オプション ''Events'' は関数ハンドルでなければなりません。</entry>
+    <entry key="OptOutputFcnNotFunctionHandle">オプション ''OutputFcn'' は関数ハンドルでなければなりません。</entry>
+    <entry key="DelaysInvalidType">2 番目の引数、DELAYS は関数ハンドルか、定数ベクトルのいずれかでなければなりません。</entry>
+    <entry key="HistoryInvalidType">HISTORY は定数ベクトル、DDESD の解の構造体、あるいは関数ハンドルでなければなりません。</entry>
+    <entry key="InconsistentDataType">DDESD への呼び出し内に、''t0''、''y0''、''y(d(t0,y0))''、''f(t0,y0,ylags)'' に対する single と double のデータが混在しています。</entry>
+    <entry key="JumpsOptionNotAvailable">JUMPS オプションは、DDESD で利用できません。JUMPS の各入力で再開することで問題を解いてください。</entry>
+    <entry key="RelTolIncrease">RelTol は {0} に増加しました。</entry>
+    <entry key="AbsTolSize">解 {0} は、スカラーの AbsTol、あるいは長さ {1,number,integer} のベクトルの AbsTol が必要です</entry>
+    <entry key="IntegrationTolNotMet">t={0} で失敗。ステップ サイズを時間 t における最小の値として許可された ({1}) 以下に減少させないと、積分の許容誤差を満たすことはできません。</entry>
+  </message>
+</rsccat>

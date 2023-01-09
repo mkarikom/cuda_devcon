@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotPosInt">입력 인수는 COMPUTER에서 정의한 MAXSIZE보다 작고 음이 아닌 정수여야 합니다.  자세한 내용은 HELP COMPUTER 명령을 입력하여 참조하십시오.</entry>
+    <entry key="InvalidInputFormat">SPEYE(N), SPEYE(M,N) 또는 SPEYE([M,N])을 사용하십시오.</entry>
+    <entry key="ComplexInput">SPEYE에는 복소수 입력값이 허용되지 않습니다.</entry>
+    <entry key="NonNumericInput">입력값은 숫자형이어야 합니다.</entry>
+  </message>
+</rsccat>

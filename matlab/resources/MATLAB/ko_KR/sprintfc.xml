@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidFormatType">sprintfc에는 번호가 지정된 인수 형식 변환이 지원되지 않습니다.</entry>
+    <entry key="invalidInputAttribute">희소 형식 입력값에 대해 함수가 정의되지 않았습니다.</entry>
+    <entry key="invalidInputType">''{0}'' 입력값에 대해 함수가 정의되지 않았습니다.</entry>
+    <entry key="invalidThirdInputType">sprintfc의 세 번째 인수는 논리형이어야 합니다.</entry>
+  </message>
+</rsccat>

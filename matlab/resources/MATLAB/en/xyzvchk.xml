@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="VNot3D">V must be a 3-D array.</entry>
+    <entry key="lengthXYAndZDoNotMatchSizeV">The lengths of X,Y and Z must match the size of V.</entry>
+    <entry key="XYAndZShapeMismatch">X,Y and Z must all be vectors or all be arrays.</entry>
+    <entry key="XYZAndVSizeMismatch">Matrices X,Y and Z must be the same size as V.</entry>
+    <entry key="XYZAndVShapeMismatch">X,Y and Z must be vectors when V is.</entry>
+    <entry key="XYZAndVLengthMismatch">X,Y and Z must be the same length as V.</entry>
+    <entry key="XIYIAndZISizeMismatch">XI,YI, and ZI must be the same size or vectors of different orientations.</entry>
+  </message>
+</rsccat>

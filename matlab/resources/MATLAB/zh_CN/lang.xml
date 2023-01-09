@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="frontend">解析时间 "{0}" 处发现意外常量\n</entry>
+    <entry key="nofunction">无法获取函数 ''{0}''。</entry>
+    <entry key="nolib">无法加载 m_lxe 库 ''{0}''。</entry>
+    <entry key="unsupportedFeature">此功能不再受支持，并将会在以后版本中废弃。</entry>
+    <entry key="FeatureLxeNameErr">*** 功能 {0} 选项为 \n*** ''{1}'' </entry>
+    <entry key="StackOverflow">内存不足。可能的原因是程序内存在无限递归。</entry>
+    <entry key="break_without_loop_script">错误: 文件: {0} 行: {1,number,integer}\nBREAK 只能在 FOR 或 WHILE 循环中使用，因而只能与其对应的 FOR 或 WHILE 语句在同一文件中使用。</entry>
+    <entry key="continue_without_loop_script">错误: 文件: {0} 行: {1,number,integer}\nCONTINUE 只能在 FOR 或 WHILE 循环中使用，因而只能与其对应的 FOR 或 WHILE 语句在同一文件中使用。</entry>
+    <entry key="MismatchIrCacheVersion">文件 ''{0}'' 的缓存 IR 为版本 {1}。此版本的 MATLAB 使用版本 {2}。缓存的 IR 将被忽略。</entry>
+    <entry key="oldPfileVersion">该 P 代码文件 {0} 是在 MATLAB 7.5 版(R2007b)之前生成的，且不再受支持。请在 MATLAB R2007b 或更高版本中使用 &lt;a href="matlab:doc pcode"&gt;pcode&lt;/a&gt; 重新生成该文件。</entry>
+    <entry key="conversionError">无法从 {1} 转换为 {0}。</entry>
+    <entry key="colonInput">函数的输入参数包括冒号运算符。要输入冒号字符，请改用 ':'。</entry>
+    <entry key="BadArgumentsToBuiltinEnd">内置函数 END 的输入必须为数值标量。</entry>
+    <entry key="IncorrectNumberOfArgumentsToBuiltinEnd">内置函数 END 的参数数目不正确。</entry>
+    <entry key="DimensionExceededForBuiltinEnd">在 end(obj,k,n) 调用中，k 必须小于或等于 n。</entry>
+    <entry key="NoInputFileNameSpecified">必须指定输入文件名。</entry>
+    <entry key="FileNotFound">"未找到文件 {0}。"</entry>
+    <entry key="NotAMfile">输入文件必须为 ".m" 文件。</entry>
+    <entry key="AttemptToModifyReadonlyWorkspace">错误: 尝试修改只读工作区。</entry>
+    <entry key="UnsupportedOperation">错误: 对于提供的文件 {0}，所做操作不受支持。</entry>
+    <entry key="BadArguments">错误: 源位置的参数的类型和/或值有误。</entry>
+    <entry key="LocalFunctionAssignmentEval">{0}不支持为 {1} 赋值。变量与局部函数的名称相同。</entry>
+    <entry key="IndexingIntoLocalFunctionUsingAnEnd">错误: 文件: {1} 行: {0,number,integer}\nend 运算符必须用在数组索引表达式中。</entry>
+    <entry key="EndUsedOutsideIndexingExpression">end 运算符必须用在数组索引表达式中。</entry>
+    <entry key="LocalFunctionAssignment">错误: 文件: {0} 行: {1,number,integer}\n不支持对 {2} 赋值。变量与局部函数的名称相同。</entry>
+    <entry key="BreakpointInAnonymousFunctionInScript">断点必须位于命名函数中，并且在包含匿名函数的行上。</entry>
+    <entry key="lineInOutOfSyncPFile">不支持在不同步的 P 文件中设置或清除断点。</entry>
+    <entry key="BreakpointsNotRestored">由于文件 ''{0}'' 已在 MATLAB 编辑器之外修改，MATLAB 无法还原所有断点。</entry>
+    <entry key="GlobalVariableUsedBeforeDeclaration">变量 {0} 必须在使用之前声明为全局变量。</entry>
+    <entry key="NestedFunctionShadowedInEval">{0}计算的语句中的标识符 ''{1}'' 未指向嵌套的函数。在以后的版本中，将不支持不同于此文件中标识符的用法。</entry>
+    <entry key="LocalFunctionShadowedInEval">{0}计算的语句中的标识符 ''{1}'' 未指向局部函数。在以后的版本中，将不支持不同于此文件中标识符的用法。</entry>
+    <entry key="PoofedVariableShadowsLocalFunction">{0}计算的语句中的局部函数 ''{1}'' 被工作区变量遮蔽。在以后的版本中，局部函数将具有更高优先级。</entry>
+    <entry key="ExternalShadowedInEval">{0}计算的语句中的标识符 ''{1}'' 未指向外部函数。在以后的版本中，将不支持不同于此文件中标识符的用法。</entry>
+    <entry key="PoofedVariableShadowsExternal">{0}计算的语句中的函数 ''{1}'' 被工作区变量遮蔽。在以后的版本中，该函数将具有更高优先级。</entry>
+    <entry key="VariableShadowedInEval">{0}计算的语句中的标识符 ''{1}'' 未指向变量。在以后的版本中，将不支持不同于此文件中标识符的用法。</entry>
+    <entry key="LocalFunctionAndVariableHaveSameName">错误: {0}在脚本中不支持声明与局部函数 "{1}" 同名的变量。</entry>
+    <entry key="ImportedFunctionAndVariableHaveSameName">错误: {0}不支持声明与导入的函数 "{1}" 同名的变量。</entry>
+    <entry key="ImportedFunctionAndNestedFunctionHaveSameName">错误: {0}不支持导入与嵌套函数 "{1}" 同名的类或函数。</entry>
+    <entry key="ImportedFunctionAndLocalFunctionHaveSameName">错误: {0}不支持导入与局部函数 "{1}" 同名的类或函数。</entry>
+    <entry key="BraceIndexingFunctionOrClass">错误: {0}调用路径上的函数 ''{1}'' 的语法无效。请使用有效语法或显式初始化 ''{1}'' 将其转换为变量。</entry>
+    <entry key="BraceIndexingNotSupported">无法使用花括号对 {0} 进行索引。</entry>
+    <entry key="ParenDotIndexingFunction">错误: {0}不支持对函数调用的输出进行索引。</entry>
+    <entry key="AnsAsImportedFunctionOrClass">错误: {0}不支持在包中使用 ans 作为函数或类的名称。</entry>
+    <entry key="SharedVariablesDocId">在父函数和嵌套函数之间共享变量</entry>
+    <entry key="IdentifierNotSharedVariableWithNestedScope">错误: {0}标识符 ''{1}'' 不是函数或共享变量。要与嵌套函数共享 ''{1}''，请在当前作用域内对其进行初始化。有关详细信息，请参阅 {2}。</entry>
+    <entry key="InvalidHexNumber">错误: {0}十六进制字面值中的数字无效。支持的十六进制数字为 0-9 和 A-F。支持的类型后缀是 u8、u16、u32、u64 和 s8、s16、s32、s64。</entry>
+    <entry key="InvalidHexTruncation">错误: {0}对于指定或隐含的类型后缀，十六进制字面值的位数太多。</entry>
+    <entry key="InvalidBinaryNumber">错误: {0}二进制字面值中的数字无效。支持的二进制数字是 0 和 1。支持的类型后缀是 u8、u16、u32、u64 和 s8、s16、s32、s64。</entry>
+    <entry key="InvalidBinaryTruncation">错误: {0}对于指定或隐含的类型后缀，二进制字面值的位数太多。</entry>
+    <entry key="InternalError">MATLAB 在处理 {0} 时遇到内部错误。请保留此文件的副本，与技术支持联系并提供以下信息。\n{1}</entry>
+    <entry key="UnsupportedMove">只能在函数内通过变量调用 ‘move’。</entry>
+    <entry key="NameValueNotLast">错误: {0} 不支持使用 '=' 运算符。要比较值是否相等，请使用 '=='。要使用 name=value 格式传递名称-值参数，请在所有其他输入后提供这些参数。</entry>
+    <entry key="NameValueInBraceIndex">错误: {0} 不支持使用 '=' 运算符。要比较值是否相等，请使用 '=='。</entry>
+    <entry key="InvalidWhitespace">Error: {0}Invalid text character. The text ''{1}'' contains an unsupported non-ASCII whitespace character.</entry>
+    <entry key="InvalidEqualsInParens">错误: {0} 不支持使用 '=' 运算符。要比较值是否相等，请使用 '=='。要指定名称-值参数，请检查名称是有效的标识符且没有用引号引起来。</entry>
+  </message>
+</rsccat>

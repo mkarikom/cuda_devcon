@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ClassNotFound">找不到指定的类名。</entry>
+    <entry key="IncorrectUsage">\n用法:\n1. awtcreate(''&lt;className&gt;'')\n   - className 是指定要实例化的类的字符串，\n     并且不调用参数的构造函数\n2. awtcreate(''&lt;classname&gt;'', ''&lt;signature&gt;'', &lt;arg1&gt;, ...)\n   - className 与上述相同\n   - signature 是指定要调用的构造函数的签名的字符串\n   - args 是与指定签名对应的参数\n\n请参阅有关 awtcreate 的帮助以了解详细信息</entry>
+  </message>
+</rsccat>

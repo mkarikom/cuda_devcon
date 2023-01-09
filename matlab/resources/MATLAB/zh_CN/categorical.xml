@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CharData">不支持从字符数组进行转换。首先，请使用 cellstr 将字符数组转换为字符向量元胞数组。然后，使用 categorical 转换元胞数组。</entry>
+    <entry key="TableData">不支持从表进行转换。请使用圆点或花括号下标将数据从一个或多个表变量提取到数组中。然后，将数组转换为分类数组。</entry>
+    <entry key="NDCharArrayData">不支持从 N 维字符数组进行转换。</entry>
+    <entry key="UnprotectedOrdinal">必须对有序数组进行保护。</entry>
+    <entry key="ValuesetOrdinalCategoriesMismatch">如果 DATA 是一个有序分类数组，则 VALUESET 必须与 DATA 具有相同的类别集。</entry>
+    <entry key="MultipleMissingInValueset">VALUESET 包含多个缺失的值。</entry>
+    <entry key="UniqueMethodFailedValueset">无法使用 UNIQUE 函数查找 VALUESET 中的唯一值。</entry>
+    <entry key="DuplicatedValues">VALUESET 包含重复的值。</entry>
+    <entry key="UniqueMethodFailedData">无法使用 UNIQUE 函数查找 DATA 中的唯一值。</entry>
+    <entry key="MaxNumCategoriesExceeded">此操作将会创建一个类别数超过 {0,number,integer} 个的分类数组。</entry>
+    <entry key="WrongNumCategoryNamesValueset">CATEGORYNAMES 和 VALUESET 的长度必须相同。</entry>
+    <entry key="WrongNumCategoryNames">对于 DATA 中的每个唯一值，CATEGORYNAMES 必须包含一个元素。</entry>
+    <entry key="UndefinedLabelCategoryName">无法创建与文本 ''{0}'' 相同的类别名称。\n请使用 CATEGORYNAMES 输入参数指定类别名称。</entry>
+    <entry key="EmptyCategoryName">无法通过空文本或缺失的文本创建类别名称。\n请使用 CATEGORYNAMES 输入参数指定类别名称。</entry>
+    <entry key="CantCreateCategoryNames">无法创建默认的类别名称。请使用 CATEGORYNAMES 输入参数指定类别名称。</entry>
+    <entry key="UndefinedInValueset">无法为 VALUESET 中的未定义值创建默认的类别名称。请使用 CATEGORYNAMES 输入参数指定类别名称。</entry>
+    <entry key="CharMethodFailedValueset">无法根据 VALUESET 使用其 CHAR 方法创建默认的类别名称。</entry>
+    <entry key="CharMethodFailedValuesetNumRows">无法根据 VALUESET 使用其 CHAR 方法创建默认的类别名称。CHAR 方法未能创建与 VALUESET 的每个元素都有对应一行的字符矩阵。</entry>
+    <entry key="CharMethodFailedData">无法根据 DATA 中的唯一值使用其 CHAR 方法创建默认的类别名称。</entry>
+    <entry key="CharMethodFailedDataNumRows">无法根据 DATA 中的唯一值使用其 CHAR 方法创建默认的类别名称。CHAR 方法未能创建与每个唯一值都有对应一行的字符矩阵。</entry>
+    <entry key="DuplicatedCatNamesDatetime">无法根据日期时间数组创建唯一的类别名称。请使用具有足够精度的&lt;a href="matlab:helpview([docroot '/matlab/ref/datetime.html#buhzxmk-1-Format'])"&gt;显示格式&lt;/a&gt;，或者使用 CATEGORYNAMES 输入参数指定类别名称。</entry>
+    <entry key="DuplicatedCatNamesDuration">无法根据持续时间数组创建唯一的类别名称。请使用具有足够精度的&lt;a href="matlab:helpview([docroot '/matlab/ref/duration.html#mw_7dddd595-1be8-452b-8270-5589013aa7d4'])"&gt;显示格式&lt;/a&gt;，或者使用 CATEGORYNAMES 输入参数指定类别名称。</entry>
+    <entry key="DuplicatedCatNames">无法创建唯一的类别名称。请使用 CATEGORYNAMES 输入参数指定类别名称。</entry>
+    <entry key="NumericTypeMismatchValueSet">如果 DATA 为数值，则 VALUESET 也必须为数值。</entry>
+    <entry key="TypeMismatchValueset">VALUESET 的类必须与 DATA 的类相同。</entry>
+    <entry key="DuplicatedLogicalValueset">VALUESET 在转换为逻辑值时包含重复的值。</entry>
+    <entry key="EQMethodFailedDataValueset">无法使用相等运算符比较 DATA 和 VALUESET 中的值。</entry>
+    <entry key="UndefinedFunction">未定义与 ''{1}'' 类型的输入参数相对应的函数 ''{0}''。</entry>
+    <entry key="NoLHS">使用 {0} 而不赋给工作区变量不会修改数组的属性。使用 C = {0}(C{1})。</entry>
+    <entry key="ProtectedForCombination">一个或多个数组为分类数组且是有序或受到保护的，这些数组并不都具有相同的类别集。使用 ADDCATS 添加新类别。</entry>
+    <entry key="InvalidOrdinalComparison">有序数组必须具有相同的类别，其顺序也需相同。</entry>
+    <entry key="NotOrdinal">不允许对非有序的分类数组进行关系比较。</entry>
+    <entry key="OrdinalMismatchConcatenate">无法将有序的分类数组与无序的分类数组进行串联。</entry>
+    <entry key="OrdinalMismatchComparison">无法将有序的分类数组与无序的分类数组进行比较。</entry>
+    <entry key="InvalidComparisonTypes">没有在 {0} 和 {1} 数组之间定义比较。</entry>
+    <entry key="OrdinalCategoriesMismatch">有序数组必须具有相同的类别，其顺序也需相同。</entry>
+    <entry key="InvalidSubscripting">()-索引必须显示在索引表达式的最后。</entry>
+    <entry key="CellReferenceNotAllowed">元胞内容引用自非元胞数组对象。</entry>
+    <entry key="FieldReferenceNotAllowed">尝试引用非结构体数组的字段。</entry>
+    <entry key="OrdinalMismatchAssign">要将一个分类数组赋到另一个分类数组中，这两个数组必须均为有序数组或无序数组。</entry>
+    <entry key="ProtectedForAssign">无法将新类别 ''{0}'' 添加到此分类数组中，因为其类别受到保护。使用 ADDCATS 添加该新类别。</entry>
+    <entry key="InvalidRHS">{0} 数组赋值的右侧必须为 {0} 或表示类别名称的文本。</entry>
+    <entry key="CellAssignmentNotAllowed">元胞内容赋给非元胞数组对象。</entry>
+    <entry key="FieldAssignmentNotAllowed">尝试对非结构体数组的字段赋值。</entry>
+    <entry key="IllegalDotMethod">尝试引用非结构体数组的字段: ''{0}''。如果您打算调用 {1} 方法，则必须使用函数语法，例如 {1}(c,...)。有关详细信息，请参阅&lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;方法调用&lt;/a&gt;。</entry>
+    <entry key="IllegalDotMethodNoCorrection">尝试引用非结构体数组的字段: ''{0}''。如果您打算调用 {1} 方法，则必须使用函数语法。有关详细信息，请参阅&lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;方法调用&lt;/a&gt;。</entry>
+    <entry key="InvalidNames">{0} 必须为包含非空类别名称的字符串数组或字符向量元胞数组。</entry>
+    <entry key="UndefinedLabel">{0} 包含无效名称 "{1}"。</entry>
+    <entry key="EmptyName">{0} 包含空字符向量或长度为零的字符串。</entry>
+    <entry key="DuplicateNames">{0} 包含重复的值。</entry>
+    <entry key="VarEditorIndexOverFlow">分类数组不能包含空列，因此数据只能直接添加到现有变量的右侧。\n新的分类变量将会添加到下一个可用列中。</entry>
+    <entry key="InvalidUndefinedChar"> ''{0}'' 不是有效的类别名称。如果您想指示未定义的分类元素，请使用空值 ''''。如果您想创建类别，则名称不能为 ''{1}'' 或 ''{2}''。</entry>
+    <entry key="InvalidUndefinedString"> "{0}" 不是有效的类别名称。如果您想指示未定义的分类元素，请使用空值 '''' 或字符串(nan)。如果您想创建类别，则名称不能为 "{1}" 或 "{2}"。</entry>
+    <entry key="InvalidMissingChar"> ''{0}'' 不是有效的类别名称。如果您想指示未定义的分类元素，请使用空值 ''''。</entry>
+    <entry key="AssignNewCategories">代码生成不支持通过赋值添加类别。</entry>
+    <entry key="SparseData">代码生成不支持 categorical 函数使用稀疏矩阵输入。</entry>
+    <entry key="InvalidDataClass">在代码生成中，categorical 函数的第一个输入必须是数值、逻辑或分类数组，或者是字符向量元胞数组。</entry>
+    <entry key="UnsupportedMethodCodegen">在代码生成中，分类数据不支持方法 {0} 。</entry>
+    <entry key="CodegenInvalidNames">{0} 必须为包含非空类别名称的字符向量元胞数组。</entry>
+    <entry key="CodegenDuplicateCategoryNames">类别名称不能包含重复的值。</entry>
+    <entry key="InvalidLogicalScalarType">{0} 类型必须为逻辑标量。</entry>
+    <entry key="InvalidCategoriesType">Categories 类型必须为由非空字符向量组成的元胞列向量。</entry>
+  </message>
+</rsccat>

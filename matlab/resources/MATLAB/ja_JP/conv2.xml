@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="unknownShapeParameter">SHAPE は ''full''、''same''、''valid'' のいずれかでなければなりません。</entry>
+    <entry key="troubleInGettingShape">SHAPE の取得で問題がありました。</entry>
+    <entry key="firstTwoInputsNotVectors">最初の引数と 2 番目の引数は、3 番目の引数が行列の場合はベクトルでなければなりません。</entry>
+    <entry key="inputType">データ型が無効です。最初の引数と 2 番目の引数は数値または論理値でなければなりません。</entry>
+    <entry key="ndArrayInput">N 次元配列はサポートされていません。</entry>
+    <entry key="inputTypeSeparable">最初の 3 つの引数は数値または論理値でなければなりません。</entry>
+    <entry key="SparseInput">スパース行列はサポートされていません。</entry>
+  </message>
+</rsccat>

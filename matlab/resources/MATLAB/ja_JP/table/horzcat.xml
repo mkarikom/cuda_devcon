@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">すべての入力引数はテーブルでなければなりません。</entry>
+    <entry key="SizeMismatch">水平方向に連結される table はすべて、同じ行数でなければなりません。</entry>
+    <entry key="SizeMismatchWithCell">水平方向に連結される table はすべて、同じ行数でなければなりません。cell 配列と table を連結する場合、cell 配列と table は同じ行数でなければなりません。</entry>
+    <entry key="UnequalRowNames">水平方向に連結される table はすべて、同じ行名をもたなければなりません。</entry>
+    <entry key="UnequalRowTimes">水平方向に連結される table はすべて、同じ行時間をもたなければなりません。</entry>
+    <entry key="Timetable0x0AndTable">0 行 0 列の timetable を 0 行 N 列以外の table と連結してはなりません。すべての入力を同じデータ型に変換するか、順序を変更するか、あるいは JOIN を使用してください。</entry>
+    <entry key="TableAndTimetable">timetable と table は、timetable が先にある場合のみ連結できます。すべての入力を同じデータ型に変換するか、順序を変更するか、あるいは JOIN を使用してください。</entry>
+    <entry key="CellArrayAndTimetable">timetable とセル配列は、timetable が先にある場合にのみ連結できます。すべての入力を同じデータ型に変換するか、順序を変更するか、あるいは JOIN を使用してください。</entry>
+    <entry key="CustomPropsClash">同じカスタム プロパティ名が一方の table は table ごとのプロパティに使用され、他方の table では変数ごとのプロパティに使用されている場合、table の連結はサポートされません。</entry>
+  </message>
+</rsccat>

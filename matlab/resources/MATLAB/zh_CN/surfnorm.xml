@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PropertyValuePairsExpected">需要属性值对组。</entry>
+    <entry key="InvalidMatrixInput">矩阵输入参数的数目不正确。</entry>
+    <entry key="InvalidInput">Y 和 Z 必须与 X 具有相同大小。</entry>
+    <entry key="IncorrectInput">Y 和 Z 必须与 X 具有相同大小。</entry>
+    <entry key="InvalidZValue">Z 必须至少为 3×3。</entry>
+  </message>
+</rsccat>

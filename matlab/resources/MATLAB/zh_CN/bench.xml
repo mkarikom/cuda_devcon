@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noDataFileFound">包含比较数据的 bench.dat 数据文件不可用。</entry>
+    <entry key="display10BestTrials">BENCH 在图窗窗口中的对比图和结果表中将仅显示 10 个最佳时间，以防止图和表过于拥挤。\n但是，BENCH 的输出参数将包含来自所有 {0,number,integer} 个试验的数据。</entry>
+    <entry key="LabelComputerType">计算机类型</entry>
+    <entry key="ThisMachine">此计算机 {0}</entry>
+    <entry key="YourMachine">运行 MATLAB {0} 是您的计算机</entry>
+    <entry key="ThisMachineRunN">此计算机(运行 {0}){1}</entry>
+    <entry key="YourMachineRunN">运行 MATLAB {0} 是您的计算机，运行 {1}</entry>
+    <entry key="LUOfMatrix">{0,number,integer} x {1,number,integer} 矩阵的 LU</entry>
+    <entry key="FFTOfVector">包含 {0,number,integer} 个元素向量的 FFT</entry>
+    <entry key="SolutionFromTo">从 t=0 到 t={0} 的解</entry>
+    <entry key="SolvingSparseLinearSystem">求解 {0,number,integer} x {1,number,integer} 稀疏线性方程组</entry>
+    <entry key="sprintf_PlaceTheCursorNearAComputerNameForSystemAndVersionDetai">将光标置于计算机名称附近可查看系统和版本详细信息。在使用\n这些数据比较不同版本的 MATLAB 或者下载更新的定时数据文件之前，\n请通过在 MATLAB 提示符下键入 ''''help bench'''' 来查看有关 bench 函数的帮助。</entry>
+    <entry key="BernsteinPolynomialGraph">伯恩斯坦多项式图</entry>
+    <entry key="AnimatedLshapedMembrane">动画 L 形薄膜</entry>
+    <entry key="MATLABBenchmark">MATLAB 基准</entry>
+    <entry key="MATLABBenchmarkTimes">MATLAB 基准(时间以秒为单位)</entry>
+    <entry key="RelativeSpeed">相对速度</entry>
+    <entry key="LissajousPlots">Lissajous 绘图</entry>
+    <entry key="LU">LU</entry>
+    <entry key="FFT">FFT</entry>
+    <entry key="ODE">ODE</entry>
+    <entry key="Sparse">Sparse</entry>
+    <entry key="twoD">2-D</entry>
+    <entry key="threeD">3-D</entry>
+  </message>
+</rsccat>

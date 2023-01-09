@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidobject">この入力はプロパティ インスペクターでサポートされていません。プロパティを表示するには get() コマンドを使用し、プロパティを変更するには set() コマンドを使用します。</entry>
+    <entry key="invalidinput">検査するには、ISHANDLE で定義される有効なオブジェクトを入力しなければなりません。</entry>
+    <entry key="invalidinputnotobject">検査するには、有効なオブジェクトを入力しなければなりません。</entry>
+    <entry key="invalidarguments">検査するには、有効なオブジェクト名とワークスペースを入力しなければなりません。</entry>
+    <entry key="InvalidSyntax">inspect(''newinspector'',...) 構文はサポートされなくなりました</entry>
+    <entry key="InvalidTreeTableSyntax">inspect(''newtreetable'',...) 構文はサポートされなくなりました</entry>
+    <entry key="ThePropertyInspector">プロパティ インスペクター</entry>
+    <entry key="WidthLabel">幅</entry>
+    <entry key="HeightLabel">高さ</entry>
+    <entry key="MinLabel">最小値</entry>
+    <entry key="MaxLabel">最大値</entry>
+    <entry key="UnsupportedInLiveEditor">inspect はライブ エディターではサポートされていません</entry>
+    <entry key="JavaUnsupportedInFuture">Java オブジェクトの検査のサポートは、将来のリリースで使用されなくなる予定です。</entry>
+    <entry key="XLabel">x</entry>
+    <entry key="YLabel">y</entry>
+    <entry key="ZLabel">z</entry>
+  </message>
+</rsccat>

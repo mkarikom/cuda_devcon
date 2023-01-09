@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidArguments">引数は 1 つの table と、それに続く 2 つの table の添字、2 つの数値ベクトル、または categorical ベクトルでなければなりません。</entry>
+    <entry key="InvalidTableArguments">入力引数が不足しています。table の引数には 2 つの table の添字が続かなければなりません。</entry>
+    <entry key="GroupVariableNameValuePair">パラメーターの名前と値のペアを使用して ''GroupVariable'' を指定してください。</entry>
+    <entry key="InvalidParent">親コンテナーは Figure、uipanel または uitab でなければなりません。</entry>
+    <entry key="DeletedParent">親コンテナーは削除されたグラフィックス オブジェクトです。</entry>
+    <entry key="InvalidXOrYSize">x 値と y 値は、長さの等しいベクトルでなければなりません。</entry>
+    <entry key="InvalidXDataOrYDataSize">''XData'' と ''YData'' は、長さの等しいベクトルでなければなりません。</entry>
+    <entry key="InvalidGroupDataSize">''GroupData'' は、''XData'' および ''YData'' と同じ長さのベクトルでなければなりません。</entry>
+    <entry key="InvalidGroupDataCell">''GroupData'' は文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="InvalidNumericColorSize">''Color'' は N 行 3 列の行列でなければなりません。ここで、N は 1 または ''GroupData'' 内のグループ数です。</entry>
+    <entry key="InvalidStringColorSize">''Color'' はスカラーか、または ''GroupData'' 内のグループ数に等しいベクトルでなければなりません。</entry>
+    <entry key="InvalidLimitsType">''{0}'' は ''{1}'' とデータ型が同じでなければなりません。</entry>
+    <entry key="InvalidLimitsSize">''{0}'' は 2 要素の行ベクトルでなければなりません。</entry>
+    <entry key="InvalidCategoryNames">関数 &lt;a href=\"matlab:doc string\"&gt;categorical&lt;/a&gt; はグループの値を有効なカテゴリ名に変換できませんでした。</entry>
+    <entry key="InvalidSourceTable">''SourceTable'' の値は table でなければなりません。</entry>
+    <entry key="MatrixWorkflow">''XData'' プロパティの設定後に ''{0}'' プロパティを設定することはサポートされていません。</entry>
+    <entry key="TableWorkflow">''SourceTable'' プロパティの設定後に ''{0}'' プロパティを設定することはサポートされていません。</entry>
+    <entry key="InvalidMarkerLength">''{0}'' は有効な {1} スカラーか、または ''GroupData'' 内のグループ数に等しい長さのベクトルでなければなりません。</entry>
+    <entry key="InvalidLineLength">''{0}'' は有効な {1} スカラーか、または ''GroupData'' 内のグループ数に等しい長さのベクトルでなければなりません。</entry>
+    <entry key="InvalidBinSize">''{0}'' は、数値スカラー、2 行 1 列のベクトル、または 2 行 N 列の行列でなければなりません。ここで、N は ''GroupData'' 内のグループ数です。</entry>
+    <entry key="StatsTbxInstalled">滑らかなヒストグラムはカーネル密度推定を使用して計算されるため、Statistics Toolbox をインストールする必要があります。</entry>
+    <entry key="NonNumericSmooth">滑らかなヒストグラムはカーネル密度推定を使用して計算されるため、データは数値でなければなりません。</entry>
+    <entry key="BadColorValue">''Color'' を ''{0}'' に設定することはサポートされていません。</entry>
+    <entry key="AmbiguousColorValue">''{0}'' は、複数の有効な ''Color'' の値と部分的に一致します。</entry>
+    <entry key="InvalidProportion">''ScatterPlotProportion'' は、0 ～ 1 の数値スカラーでなければなりません。</entry>
+    <entry key="ZoomIn">ズームイン</entry>
+    <entry key="ZoomOut">ズームアウト</entry>
+    <entry key="RestoreView">表示の復元</entry>
+  </message>
+</rsccat>

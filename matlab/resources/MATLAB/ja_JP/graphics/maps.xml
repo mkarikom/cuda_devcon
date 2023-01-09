@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AccessBasemaps">MATLAB で basemap にアクセス</entry>
+    <entry key="Latitude">緯度</entry>
+    <entry key="Longitude">経度</entry>
+    <entry key="MapActionZoomIn">マップ中央にズームイン</entry>
+    <entry key="MapActionZoomOut">マップ中央からズームアウト</entry>
+    <entry key="MapActionFitToData">データに合わせる</entry>
+    <entry key="NotGeographic">{0} を使用できません。現在の座標軸またはチャートは地理用ではありません。</entry>
+    <entry key="NotGeographicAxes">{0} を使用できません。現在の座標軸は地理的でありません。</entry>
+    <entry key="ReadOnlyLatitudeLimits">LatitudeLimits は読み取り専用です。代わりに geolimits を使用してください。</entry>
+    <entry key="ReadOnlyLongitudeLimits">LongitudeLimits は読み取り専用です。代わりに geolimits を使用してください。</entry>
+    <entry key="ShowingMissingTiles">インターネットにアクセスできません。''{0}'' が使用できない位置には "欠落" タイルを表示します。{1} を参照してください。</entry>
+    <entry key="ShowingDarkwater">インターネットにアクセスできません。''{1}'' が使用できない位置には ''{0}'' を表示します。{2} を参照してください。</entry>
+    <entry key="UnknownError">Basemap プロパティの設定中に原因不明のエラーが発生しました。</entry>
+    <entry key="UnsupportedLimitsFunction">{0} を {1} で使用することはサポートされていません。代わりに geolimits を使用してください。</entry>
+    <entry key="UnitsAbbrFeet">ft</entry>
+    <entry key="UnitsAbbrKilometers">km</entry>
+    <entry key="UnitsAbbrMeters">m</entry>
+    <entry key="UnitsAbbrMiles">mi</entry>
+  </message>
+</rsccat>

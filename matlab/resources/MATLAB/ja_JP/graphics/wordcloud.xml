@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WordData">単語は、string ベクトル、または文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="WordContent">単語には組み込みの改行を含めることはできず、1000 文字未満の長さでなければなりません。</entry>
+    <entry key="SizeData">サイズは非負の実数値のベクトルでなければなりません。</entry>
+    <entry key="WordInput">単語は、string ベクトル、文字ベクトルの cell 配列、categorical ベクトルのいずれかでなければなりません。</entry>
+    <entry key="SingleWordInput">wordcloud では、サイズ データのない string、文字、または cell 配列の入力用に Text Analytics Toolbox(TM) が必要です。または、テキスト データを単語の categorical 配列に変換するか、単語とサイズ データの両方を指定して構文 wordcloud(WORDS,SIZEDATA) を使用します。string 配列からワード クラウドを作成する方法を示す例は、&lt;a href="matlab:helpview([docroot ''/matlab/ref/wordcloud.html''])"&gt;wordcloud&lt;/a&gt; を参照してください。</entry>
+    <entry key="SingleInputDeployment">ワード クラウドを使用するアプリを配布するには、''wordcloud(STR)'' を ''tbl=wordCloudCounts(STR); wordcloud(tbl.Word,tbl.Count)'' に置き換えます。</entry>
+    <entry key="DataSizeMismatch">''WordData''、''SizeData''、''Color'' の各プロパティは、サイズに互換性がなければなりません。</entry>
+    <entry key="InvalidColor">''Color'' は N 行 3 列の行列でなければなりません。ここで、N は 1 または語数です。</entry>
+    <entry key="InvalidParent">親コンテナーは有効な Figure、uipanel または uitab でなければなりません。</entry>
+    <entry key="InvalidSourceTable">''SourceTable'' の値は、''WordVariable'' および ''SizeVariable'' プロパティ値と互換性のある table でなければなりません。</entry>
+    <entry key="NoTable">''WordVariable'' および ''SizeVariable'' プロパティ値は、''SourceTable'' table 内の変数でなければなりません。</entry>
+    <entry key="InvalidTableArguments">入力引数が不足しています。table の引数には 2 つの table の添字が続かなければなりません。</entry>
+    <entry key="MatrixWorkflow">''WordData'' または ''SizeData'' プロパティの設定後に ''{0}'' プロパティを設定することはサポートされていません。</entry>
+    <entry key="TableWorkflow">''SourceTable'' プロパティの設定後に ''{0}'' プロパティを設定することはサポートされていません。</entry>
+    <entry key="MaxDisplayWordsLabel">表示する単語の最大数</entry>
+    <entry key="ShapeLabel">ワード クラウドの形状</entry>
+  </message>
+</rsccat>

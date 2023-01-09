@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DimensionNumber">範囲外の次元数です。</entry>
+    <entry key="NumberOfNamesMismatch">フィールド名の数は、新規構造体内のフィールド数と一致しなければなりません。</entry>
+    <entry key="Non2DCharArray">フィールド名は、2 次元の文字配列でなければなりません。</entry>
+    <entry key="NonStringFieldNames">フィールド名は空でない文字ベクトルまたは string スカラーでなければなりません。</entry>
+    <entry key="NonStringVector">フィールド名は文字ベクトルまたは string スカラーでなければなりません。</entry>
+    <entry key="InvalidFieldName">無効なフィールド名 \"{0}\"。</entry>
+    <entry key="FirstArgNotACell">最初の引数は cell 配列でなければなりません。</entry>
+  </message>
+</rsccat>

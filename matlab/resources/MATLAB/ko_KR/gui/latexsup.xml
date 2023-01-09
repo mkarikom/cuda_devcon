@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadTeXString">TeX 텍스트 문자형 벡터에 {0}이(가) 있음: \n''{1}''</entry>
+    <entry key="UnsupportedFont">{0} 글꼴은 지원되지 않습니다.</entry>
+    <entry key="UnableToInterpretTeXString">TeX 문자형 벡터 \"{0}\"을(를) 해석할 수 없음</entry>
+    <entry key="UnableToInterpretTeX">TeX 문자형 벡터를 해석할 수 없음</entry>
+    <entry key="UnableToInterpretLaTeXString">LaTeX 문자형 벡터 \"{0}\"을(를) 해석할 수 없음</entry>
+    <entry key="UnableToInterpretLaTeX">LaTeX 문자형 벡터를 해석할 수 없음</entry>
+  </message>
+</rsccat>

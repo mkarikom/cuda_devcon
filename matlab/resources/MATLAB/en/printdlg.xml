@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invalidVersion">This function can be run only when feature(HGUsingMATLABClasses) == 0.</entry>
+    <entry key="invalidFigInput">FIG input must be a scalar</entry>
+    <entry key="InvalidFigureHandle">PRINTDLG requires a single figure handle</entry>
+    <entry key="invalidFlags">The -crossplatform and -setup flags have been removed.</entry>
+    <entry key="invalidFigure">FIG argument must be a handle to a figure.</entry>
+    <entry key="tooManyArgs">Too many arguments to printdlg.</entry>
+    <entry key="oldPrintdlgUsage">This syntax will be removed in a future release.\nSee the documentation for correct printdlg usage and similar functionality in printpreview:\n\n  &lt;a href="{0}"&gt;help printdlg&lt;/a&gt;, &lt;a href="{1}"&gt;doc printdlg&lt;/a&gt;\n\n  &lt;a href="{2}"&gt;help printpreview&lt;/a&gt;, &lt;a href="{3}"&gt;doc printpreview&lt;/a&gt;\n\n</entry>
+  </message>
+</rsccat>

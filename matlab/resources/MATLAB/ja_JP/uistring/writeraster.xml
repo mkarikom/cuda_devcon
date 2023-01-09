@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PassingInputArgsToIMWRITE">入力引数を IMWRITE に渡します。\n</entry>
+    <entry key="InvalidCData">CData が無効です。M x N x 3 でなければなりません。IMWRITE を呼び出すことができません。</entry>
+    <entry key="NoAdditionalArgs">&lt;追加引数なし&gt;</entry>
+  </message>
+</rsccat>

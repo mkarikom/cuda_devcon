@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidType">データ型が無効です。入力は、有効なクラス名を指定する string または文字ベクトルでなければなりません。</entry>
+    <entry key="InvalidSubscripter">VARTYPE を使用した添字は、変数の選択でのみサポートされています。</entry>
+    <entry key="TabularInput">table または timetable は有効な入力引数ではありません。クラス名を指定して VARTYPE を呼び出し、出力を table または timetable の添字として使用してください。</entry>
+    <entry key="IncompatibleLoad">このバージョンの MATLAB と互換性がないため、保存された vartype オブジェクトを読み込むことができません</entry>
+    <entry key="UIStringDispHeader">table の &lt;a href="matlab:doc(''vartype'')"&gt;vartype&lt;/a&gt; 添字:</entry>
+    <entry key="UIStringDispType">''{0}'' 型と一致するテーブル変数を選択</entry>
+    <entry key="UIStringDispFooter">「&lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','access-data-in-a-table.html'))"&gt;テーブル内のデータへのアクセス&lt;/a&gt;」を参照してくだい。</entry>
+  </message>
+</rsccat>

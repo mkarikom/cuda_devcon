@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DiagZeroColZeroBreakdown">입력값은 구조적으로 0이 아닌 대각선을 사용하여 구조적으로 정칙이어야 합니다.</entry>
+    <entry key="Breakdown">양수가 아닌 피벗이 발생했습니다.</entry>
+    <entry key="FirstArgNotSparse">첫 번째 인수는 희소 형식이어야 합니다.</entry>
+    <entry key="FirstArgNotDouble">첫 번째 인수는 double형이어야 합니다.</entry>
+    <entry key="SecondArgNotStruct">두 번째 인수는 options 구조체여야 합니다.</entry>
+    <entry key="StructTooManyFields">options 구조체에 필드가 너무 많습니다.</entry>
+    <entry key="StructTypeNotString">Type 필드는 ''nofill'' 또는 ''ict''여야 합니다.</entry>
+    <entry key="StructMicholNotChar">수정된 옵션은 ''on'' 또는 ''off''여야 합니다.</entry>
+    <entry key="StructDropTolNonNumeric">기각 허용오차는 숫자형이어야 합니다.</entry>
+    <entry key="StructDropTolNotReal">기각 허용오차는 실수여야 합니다.</entry>
+    <entry key="StructDropTolNotScalar">기각 허용오차는 스칼라여야 합니다.</entry>
+    <entry key="StructDropTolNeg">기각 허용오차는 음수가 아니어야 합니다.</entry>
+    <entry key="StructShapeNotString">모양 필드는 ''lower'' 또는 ''upper''여야 합니다.</entry>
+    <entry key="StructDiagCompNonNumeric">대각선 보정(diagonal compensation) 파라미터는 숫자형이어야 합니다.</entry>
+    <entry key="StructDiagCompNotReal">대각선 보정(diagonal compensation) 파라미터는 실수여야 합니다.</entry>
+    <entry key="StructDiagCompNotScalar">대각선 보정(diagonal compensation) 파라미터는 스칼라여야 합니다.</entry>
+    <entry key="StructDiagCompNeg">대각선 보정(diagonal compensation) 파라미터는 음수가 아니어야 합니다.</entry>
+    <entry key="InvalidField">options 구조체 필드 {0}은(는) 유효하지 않습니다.</entry>
+  </message>
+</rsccat>

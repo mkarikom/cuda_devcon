@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ClassNotSupport">Input Class is not supported.</entry>
+    <entry key="differenceOrderMustBePositiveInteger">Difference order N must be a positive integer scalar.</entry>
+    <entry key="unsupportedClass">Function ''diff'' is not supported for class ''{0}''.</entry>
+    <entry key="complexIntegersNotSupported">Complex integer difference is not supported.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" string_type_for_hole="mixed" version="1.0">
+   <message>
+      <entry key="UnsupportedConversion">Conversion of MATLAB ''{0}'' to Python is not supported.</entry>
+      <entry key="UnsupportedInputArraySizeError">Conversion of MATLAB ''{0}'' to Python is only supported for 1-N vectors.</entry>
+      <entry key="UnsupportedInputArrayTypeError">Conversion of MATLAB ''{0}'' array to Python is not supported.</entry>
+      <entry key="UnsupportedComplexConversionError">Conversion of complex MATLAB ''{0}'' to Python is not supported.</entry>
+      <entry key="UnsupportedOutputArrayTypeError">Conversion to ''{0}'' array is not supported.</entry>
+      <entry key="PyargsError">''{0}'' must be the final input argument.</entry>
+      <entry key="InvalidClassName">Cannot find class ''{0}''.</entry>
+      <entry key="DispatchError">Attempting to access the property or method of an invalid object.</entry>
+      <entry key="PyException">Python Error: {0}</entry>
+      <entry key="PyExceptionWithMsg">Python Error: {0}: {1}</entry>
+      <entry key="ConverterError">Conversion of Python ''{0}'' type to MATLAB ''{1}'' is only supported for real numbers and logicals.</entry>
+      <entry key="AutoConversionFailure_Link">Python function ''{0}'' unable to accept at least one input argument at position {1, number, integer}. The function may require a specific data type that you can construct from the MATLAB array. For more information, see the documentation for Python function ''{0}'' and &lt;a href="matlab:helpview([docroot '/matlab/helptargets.map'], 'python_NDarray')"&gt;working with Python arrays.&lt;/a&gt;</entry>
+      <entry key="AutoConversionFailure">Python function ''{0}'' unable to accept at least one input argument at position {1, number, integer}. The function may require a specific data type that you can construct from the MATLAB array. For more information, see the documentation for Python function ''{0}'' and working with Python arrays.</entry>
+      <entry key="PyExceptionWithNDArrayInfoAndMsg_Link">Python Error: {0}: {1} \n Python function ''{2}'' might not be able to accept at least one input argument at position {3, number, integer}. The function may require a specific data type that you can construct from the MATLAB array. For more information, see the documentation for Python function ''{2}'' and &lt;a href="matlab:helpview([docroot '/matlab/helptargets.map'], 'python_NDarray')"&gt;working with Python arrays.&lt;/a&gt;</entry>
+      <entry key="PyExceptionWithNDArrayInfoAndMsg">Python Error: {0}: {1} \n Python function ''{2}'' might not be able to accept at least one input argument at position {3, number, integer}. The function may require a specific data type that you can construct from the MATLAB array. For more information, see the documentation for Python function ''{2}'' and working with Python arrays.</entry>
+      <entry key="PyExceptionWithNDArrayInfo_Link">Python Error: {0} \n Python function ''{1}'' might not be able to accept at least one input argument at position {2, number, integer}. The function may require a specific data type that you can construct from the MATLAB array. For more information, see the documentation for Python function ''{1}'' and &lt;a href="matlab:helpview([docroot '/matlab/helptargets.map'], 'python_NDarray')"&gt;working with Python arrays.&lt;/a&gt;</entry>
+      <entry key="PyExceptionWithNDArrayInfo">Python Error: {0} \n Python function ''{1}'' might not be able to accept at least one input argument at position {2, number, integer}. The function may require a specific data type that you can construct from the MATLAB array. For more information, see the documentation for Python function ''{1}'' and working with Python arrays.</entry>
+      <entry key="UnknownExceptionClass">&lt;unknown exception class&gt;</entry>
+      <entry key="UnprintableExceptionObject">&lt;unprintable exception object&gt;</entry>
+      <entry key="PyDisplayBufferObject">Python {0}:</entry>
+      <entry key="PyDisplayBufferObjectFooterDetails">Use {0} function to view the properties of the Python object.</entry>
+      <entry key="PyDisplayBufferObjectFooterConversion">Use {0} function to convert to a MATLAB array.</entry>
+      <entry key="PyDisplayWithProps">Python {0} with properties:</entry>
+      <entry key="PyDisplayWithNoProps">Python {0} with no properties.</entry>
+      <entry key="UnsupportedPythonSuperclass">Class ''{0}'' declares the Python class ''{1}'' as a superclass. Creating a MATLAB subclass of a Python class is not supported.</entry>
+      <entry key="InvalidPropertyName">''{0}'' is not a valid dynamic property name.  Property names must begin with a letter and be composed of letters, numbers, and underscores.</entry>
+      <entry key="NameInUse">''{0}'' is already defined as a method.</entry>
+      <entry key="PythonUnavailable"><![CDATA[Python commands require a supported version of CPython. See <a href="matlab:helpview([docroot '/matlab/helptargets.map'], 'getting_started_python_interface')">Getting Started with Python</a>.]]></entry>
+      <entry key="PythonSDK">Ability to call Python libraries from MATLAB is not available with MATLAB Compiler SDK for Python.</entry>
+      <entry key="UnsupportedLoad">Unable to load Python object. Saving (serializing) Python objects into a MAT-file is not supported.</entry>
+      <!-- The following messages are used by indexing implementation. -->
+      <entry key="BadSubscript">Subscript indices must be real, positive integers.</entry>
+      <entry key="InvalidLogicalIndex">Logical subscript indices are not allowed with Python objects of class ''{0}''. Use real, positive integers.</entry>
+      <entry key="InvalidArrayIndex">Array subscript indices are restricted with Python objects of class ''{0}''. Use a regularly spaced vector with a start, stop and a fixed increment.</entry>
+      <entry key="UnsupportedParenAssignment">Parentheses-style ''()'' indexing to assign elements is not supported with Python objects of class ''{0}''.</entry>
+      <entry key="UnsupportedCommaSeparatedList">Braces-style ''{1}'' indexing to access multiple elements is not supported with Python objects of class ''{0}''. Use parentheses-style ''()'' indexing.</entry>
+      <entry key="UnsupportedParenIndexing">Parentheses-style ''()'' indexing is not allowed with Python objects of class ''{0}''. Use braces-style ''{1}'' indexing.</entry>
+      <entry key="TooManyKeys">Multiple keys are not allowed when indexing with Python objects of class ''{0}''. Use a single key.</entry>
+      <entry key="InvalidEndIndex">End index is not allowed with Python objects of class ''{0}''.</entry>
+      <!-- The following messages are used by implementation to pass function handle to Python -->
+      <entry key="FuncHandleType">Handle to MATLAB function ''{0}'' is not supported. Use a handle to a Python function.</entry>
+      <entry key="FuncHandleSearch">Cannot find function ''{0}''.</entry>
+      <entry key="NotCallable">Cannot call Python object of class ''{0}'' as a function.</entry>
+      <entry key="DocPostfixMsg">This content is from the documentation of an external language. Some examples and descriptions may not be applicable in MATLAB.</entry>
+   </message>
+</rsccat>

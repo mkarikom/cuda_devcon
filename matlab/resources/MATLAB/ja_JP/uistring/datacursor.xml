@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DialogErrorWhileSavingData">データの保存中にエラーが発生しました。</entry>
+    <entry key="DialogInvalidVariableName">変数名 "{0}" は無効です。</entry>
+    <entry key="DialogCursorDataExportError">カーソル データのエクスポート エラー</entry>
+    <entry key="DialogSelectFile">MATLAB ファイルを選択</entry>
+    <entry key="EnterVariableName">変数名を入力</entry>
+    <entry key="WarningVariableExists">"{0}" という名前の変数は既に MATLAB ワークスペースに存在します。\n続行すると、ワークスペース内の "{1}" のインスタンスを\n上書きすることになります。</entry>
+    <entry key="InvalidVariableName">変数名 "{0}" は無効です。</entry>
+    <entry key="ExportError">カーソル データのエクスポート エラー</entry>
+    <entry key="MenuSelectionStyle">選択スタイル</entry>
+    <entry key="MenuMousePosition">マウスの位置</entry>
+    <entry key="MenuSnapToNearestDataVertex">最も近いデータの頂点にスナップ</entry>
+    <entry key="MenuDisplayStyle">表示スタイル</entry>
+    <entry key="MenuWindowInsideFigure">Figure 内に画面表示</entry>
+    <entry key="MenuDatatip">データ ヒント</entry>
+    <entry key="MenuCreateNewDatatip">新規データ ヒントを作成 Alt + クリック</entry>
+    <entry key="MenuCreateNewDatatipShift">新規データ ヒントを作成 Shift + クリック</entry>
+    <entry key="MenuDeleteCurrentDatati">現在のデータ ヒントを削除 Delete</entry>
+    <entry key="MenuDeleteCurrentDatatipNoAccelerator">現在のデータ ヒントを削除</entry>
+    <entry key="MenuDeleteAllDatatips">すべてのデータ ヒントを削除</entry>
+    <entry key="MenuExportCursorDataToWorkspace">カーソル データをワークスペースにエクスポート...</entry>
+    <entry key="MenuTextUpdateFunction">関数の更新</entry>
+    <entry key="MenuEditTextUpdateFunction">編集...</entry>
+    <entry key="MenuSelectTextUpdateFunction">ファイルから選択...</entry>
+    <entry key="MenuDeleteTextUpdateFunction">削除</entry>
+    <entry key="TitleExportCursorDataToWorkspace">カーソル データをワークスペースにエクスポート</entry>
+    <entry key="LabelMouseClickOnPlottedData">プロット データ上でマウス クリック...</entry>
+    <entry key="MenuEditContentStyle">コンテンツとスタイルの編集...</entry>
+    <entry key="Type">型: </entry>
+  </message>
+</rsccat>

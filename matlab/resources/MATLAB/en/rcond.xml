@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="noRcondSparse">Use rcond(full(S)) or condest(S).</entry>
+    <entry key="notSquareMatrix">Input must be a square matrix.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <rsccat version="1.0" locale="en_US" product="platform">
+   <message>
+     <entry key="WindowMenuTitle">Window</entry>
+     <entry key="MinimizeMenuItemTitle">Minimize</entry>
+     <entry key="ZoomMenuItemTitle">Zoom</entry>
+     <entry key="BringAllToFrontMenuItemTitle">Bring All to Front</entry>
+       
+     <entry key="AboutMenuItemTitle">About MATLAB...</entry>
+     <entry key="PreferencesMenuItemTitle">Preferences...</entry>
+     <entry key="ServicesMenuItemTitle">Services</entry>
+     <entry key="HideMenuItemTitle">Hide MATLAB</entry>
+     <entry key="HideOthersMenuItemTitle">Hide Others</entry>
+     <entry key="ShowAllMenuItemTitle">Show All</entry>
+     <entry key="QuitMenuItemTitle">Quit MATLAB</entry>
+       
+     <entry key="HelpMenuTitle">Help</entry>
+     <entry key="DocumentationMenuItemTitle">Documentation</entry>
+     <entry key="CheckForUpdatesMenuItemTitle">Check for Updates...</entry>
+
+     <entry key="CommandWindowDockMenuItemTitle">Command Window</entry>
+     <entry key="OpenAdditionalInstanceOfMATLABDockMenuItemTitle">Open Additional Instance of MATLAB</entry>
+   </message>
+ </rsccat>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AddANewEvent">新規イベントの追加</entry>
+    <entry key="AddNewEvent">新規イベントの追加...</entry>
+    <entry key="Amplitude">振幅: {0}</entry>
+    <entry key="KeepObservations">観測データを保持</entry>
+    <entry key="RemoveObservations">観測値を削除</entry>
+    <entry key="ReplaceWithNaNs">NaN に置き換え</entry>
+    <entry key="Time">時間 ({0}): {1}</entry>
+    <entry key="Timedate">時刻/日付: {0}</entry>
+    <entry key="TimeSeries">時系列: {0}</entry>
+    <entry key="TimeSeriesColumn">時系列:{0} 列: {1,number,integer}</entry>
+  </message>
+</rsccat>

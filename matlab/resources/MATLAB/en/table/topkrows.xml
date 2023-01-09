@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="UnrecognizedMode" note="stringDatatypeUpdate">Sorting direction must be ''descend'' or ''ascend''</entry>
+    <entry key="WrongLengthMode">Sorting direction must specify one direction or a direction for each sorting variable.</entry>
+    <entry key="EmptyRowNames">The input table does not contain row names, returning the requested number of rows unsorted.</entry>
+    <entry key="BadNumericVarIndices">Numeric variable indices must be positive integers.</entry>
+    <entry key="NDVar">Sorting variable ''{0}'' has more than 2 dimensions.</entry>
+    <entry key="SortOnVarFailed">Unable to sort variable ''{0}'' of type ''{1}''.</entry>
+	<entry key="GenCellNotSupported">Cell array sorting variables must contain character vectors.</entry>
+	<entry key="InvalidK">Number of rows to return must be a nonnegative integer.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">init 方法只能用于单时序对象</entry>
+    <entry key="pvsetNoValue">指定的属性没有对应值。</entry>
+    <entry key="pvsetScalarTimeFirst">IsTimeFirst 属性必须为逻辑标量值。</entry>
+    <entry key="pvsetScalarDatenum">IsDatenum 属性必须为逻辑标量值。</entry>
+    <entry key="scalarOneRowDataAsThreeD">InterpretSingleRowDataAs3D 属性必须为逻辑标量。</entry>
+    <entry key="pvsetScalarStartTime">StartTime 属性必须为数值标量。</entry>
+    <entry key="pvsetScalarEndTime">EndTime 属性必须为数值标量。</entry>
+    <entry key="pvsetScalarInterval">Interval 属性必须为数值标量。</entry>
+    <entry key="pvsetInvalid">属性名称无效</entry>
+    <entry key="data">第一个参数必须为数据。</entry>
+    <entry key="nodata">第一个参数必须包含数据。</entry>
+    <entry key="notime">第二个参数必须是时间向量或时序名称。</entry>
+    <entry key="qualitycell">必须将 Quality 值指定为整数数组。</entry>
+    <entry key="input">输入参数太多。请改用 INIT(TS, DATA, TIME, ''PropertyName1'', PropertyValue1, ...)。</entry>
+    <entry key="invtime">时间值无效。</entry>
+    <entry key="incompatibleIsTimeFirst">IsTimeFirst 属性的值与 Data 和 Time 不兼容。</entry>
+  </message>
+</rsccat>

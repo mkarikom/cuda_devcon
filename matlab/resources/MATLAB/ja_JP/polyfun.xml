@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BoolUnknownOperator">不明な演算子です。intersection、difference、union、xor のいずれかを使用してください。</entry>
+    <entry key="BoolFailed">boolean を実行できませんでした。データを確認してください。</entry>
+    <entry key="BoolWrongData">入力データは同じサイズの double ベクトルでなければなりません。データを確認してください。</entry>
+    <entry key="BoolTooFewVertices">入力多角形はそれぞれ少なくとも 3 つの頂点をもたなければなりません。</entry>
+    <entry key="BoolOperatorNotFound">最初の引数は string でなければなりません。</entry>
+    <entry key="BoolScaleNotDouble">入力スケーリング係数は正の double のスカラーでなければなりません。</entry>
+    <entry key="BoolNanInconsistent">入力ベクトルは異なる位置に NaN を含まなければなりません。データを確認してください。</entry>
+    <entry key="invalidDataRT">入力データが無効です。</entry>
+    <entry key="invalidFacetRT">無効な小平面は無視されました。</entry>
+    <entry key="NotTriangulation">入力引数は三角形分割オブジェクトでなければなりません。</entry>
+    <entry key="Not2dTriangulation">入力引数は 2 次元の三角形分割オブジェクトでなければなりません。</entry>
+    <entry key="ProblemInBoundary">三角形分割の境界が閉じていないか、交差があります。</entry>
+    <entry key="nameValueError">入力引数の数が正しくありません。パラメーターの名前と値はペアでなければなりません。</entry>
+    <entry key="EmptyTriangulation">入力の三角形分割が空です。</entry>
+    <entry key="stlFileName">ファイル名は string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="stlFileExtension">ファイル名の末尾は .stl または .STL でなければなりません。</entry>
+    <entry key="stlFileCannotOpen">ファイル ''{0}'' を開くことができません。</entry>
+    <entry key="stlFailedToWrite">ファイル ''{0}'' に書き込めません。</entry>
+    <entry key="stlFailedToRead">ファイル ''{0}'' を読み取れません。</entry>
+    <entry key="stlInvalidData">入力ファイルは一意の頂点を少なくとも 3 つ含まなければなりません。</entry>
+    <entry key="stlTrisOnly">四面体の三角形分割はサポートされていません。</entry>
+    <entry key="stlWriteParameter">パラメーター名は ''Attribute'' または ''SolidIndex'' でなければなりません。</entry>
+    <entry key="stlAttributeType">''Attribute'' 値は uint16 型の有限実数ベクトルでなければなりません。</entry>
+    <entry key="stlAttributeSize">''Attribute'' 値の長さは、三角形の数 ({0}) と等しくなければなりません。</entry>
+    <entry key="stlSolidIndexType">''SolidIndex'' 値は正の整数のベクトルでなければなりません。</entry>
+    <entry key="stlSolidIndexSize">''SolidIndex'' 値の長さは、三角形の数 ({0}) と等しくなければなりません。</entry>
+    <entry key="stlSolidIndexNoEffect">''SolidIndex'' パラメーターは、ファイル形式が ''text'' の場合にのみサポートされます。</entry>
+    <entry key="stlAttributeNoEffect">''Attribute'' パラメーターは、ファイル形式が ''binary'' の場合にのみサポートされます。</entry>
+    <entry key="stlFileFormat">ファイル形式は ''binary'' または ''text'' でなければなりません。</entry>
+    <entry key="stlInvalidTri">三角形分割の ConnectivityList プロパティには 3 列が必要です。</entry>
+    <entry key="TetMaxLessThanMin">The maximum height is less than or equal to the minimum height.</entry>
+  </message>
+</rsccat>

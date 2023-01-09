@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2010-2012 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="noDataFileFound">The bench.dat data file that contains comparison data is not available.</entry>
+      <entry key="display10BestTrials">BENCH will only display the 10 best times on the comparison graph and in the table of results in the figure window, to prevent the graph and table from being overcrowded. However, the output argument of BENCH will contain data from all {0,number,integer} trials.</entry>
+      <entry key="LabelComputerType">Computer Type</entry>
+      <entry key="ThisMachine">This machine {0}</entry>
+      <entry key="YourMachine">It''s your machine running MATLAB {0}</entry>
+      <entry key="ThisMachineRunN">This machine (run {0}){1}</entry>
+      <entry key="YourMachineRunN">It''s your machine running MATLAB {0}, run {1}</entry>
+      <entry key="LUOfMatrix">LU of a {0,number,integer}-by-{1,number,integer} matrix</entry>
+      <entry key="FFTOfVector">FFT of a {0,number,integer}-element vector</entry>
+      <entry key="SolutionFromTo">Solution from t=0 to t={0}</entry>
+      <entry key="SolvingSparseLinearSystem">Solving a {0,number,integer}-by-{1,number,integer} sparse linear system</entry>
+      <entry key="sprintf_PlaceTheCursorNearAComputerNameForSystemAndVersionDetai">Place the cursor near a computer name for system and version details.  Before using\nthis data to compare different versions of MATLAB, or to download an updated timing data file,\nsee the help for the bench function by typing ''''help bench'''' at the MATLAB prompt.</entry>
+      <entry key="BernsteinPolynomialGraph" note="Bernstein is a name. Please translate if necessary">Bernstein polynomial graph</entry>
+      <entry key="AnimatedLshapedMembrane">Animated L-shaped membrane</entry>
+      <entry key="MATLABBenchmark">MATLAB Benchmark</entry>
+      <entry key="MATLABBenchmarkTimes">MATLAB Benchmark (times in seconds)</entry>
+      <entry key="RelativeSpeed">Relative Speed</entry>
+      <entry key="LU" translate="false">LU</entry>
+      <entry key="FFT" translate="false">FFT</entry>
+      <entry key="ODE" translate="false">ODE</entry>
+      <entry key="Sparse" translate="false">Sparse</entry>
+      <entry key="twoD" translate="false">2-D</entry>
+      <entry key="threeD" translate="false">3-D</entry>
+      <entry key="LissajousPlots" note="Lissajous is a name. Please translate if necessary">Lissajous Plots</entry>
+   </message>
+</rsccat>

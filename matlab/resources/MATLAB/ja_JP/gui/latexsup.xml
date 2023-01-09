@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadTeXString">TeX テキスト文字ベクトル内の {0}: \n''{1}''</entry>
+    <entry key="UnsupportedFont">フォント {0} はサポートされていません。</entry>
+    <entry key="UnableToInterpretTeXString">TeX 文字ベクトル \"{0}\" を解釈できません</entry>
+    <entry key="UnableToInterpretTeX">TeX 文字ベクトルを解釈できません</entry>
+    <entry key="UnableToInterpretLaTeXString">LaTeX 文字ベクトル \"{0}\" を解釈できません</entry>
+    <entry key="UnableToInterpretLaTeX">LaTeX 文字ベクトルを解釈できません</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">getsamples 方法只能用于单时序对象</entry>
+    <entry key="badlogicalsubscript">逻辑索引超过时间向量长度。</entry>
+    <entry key="badsubscript">索引必须是不超过时间向量长度的正整数。</entry>
+    <entry key="badind">下标/索引数组必须是不超过时间向量长度的逻辑值或正整数向量。</entry>
+  </message>
+</rsccat>

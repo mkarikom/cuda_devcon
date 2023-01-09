@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonScalarFactor">收缩因子必须为标量。</entry>
+    <entry key="NonPositiveFactor">收缩因子必须为正数。</entry>
+    <entry key="InvalidFirstArgument">第一个参数必须为填充图句柄，或为包含面和顶点的结构体。</entry>
+    <entry key="WrongNumberOfInputs">输入参数的数目不正确。</entry>
+  </message>
+</rsccat>

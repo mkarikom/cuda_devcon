@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+   	<entry key="missingValueInputString">First argument must not be a missing value.</entry>
+  	<entry key="missingValueStringList">Second argument must not contain missing values.</entry>
+    <entry key="invalidStringList">Second argument must be an array of strings or a cell array of character vectors.</entry>
+    <entry key="ambiguousStringChoice">Expected {0} to match one of these values:\n\n{1}\n\nThe input, ''{2}'', matched more than one valid value.</entry>
+    <entry key="unrecognizedStringChoice3">Expected {0} to match one of these values:\n\n{1}\n\nThe input, ''{2}'', did not match any of the valid values.</entry>
+    <entry key="unrecognizedStringChoice2">Expected {0} to match one of these values:\n\n{1}\n\nThe input did not match any of the valid values.</entry>
+    <entry key="badFunctionName">Third argument must be a string or character vector to specify function name, or a scalar double to specify argument position.</entry>
+    <entry key="badVariableName">Fourth argument must be a string or character vector to specify input variable name.</entry>
+  </message>
+</rsccat>

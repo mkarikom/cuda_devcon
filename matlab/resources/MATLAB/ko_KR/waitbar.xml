@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidArguments">입력 인수가 유효하지 않습니다.</entry>
+    <entry key="InvalidOptionalArgsPass">선택적 초기화 인수는 쌍으로 전달해야 합니다.</entry>
+    <entry key="WaitbarHandlesNotFound">waitbar 핸들을 찾을 수 없습니다.</entry>
+    <entry key="InvalidFirstInput">첫 번째 인수는 0과 1 사이의 숫자 값이어야 합니다.</entry>
+    <entry key="InvalidSecondInput">두 번째 인수는 기존 waitbar에 대한 메시지 문자형 벡터 또는 핸들이어야 합니다.</entry>
+    <entry key="ImproperArguments">waitbar의 인수가 부적절합니다.</entry>
+  </message>
+</rsccat>

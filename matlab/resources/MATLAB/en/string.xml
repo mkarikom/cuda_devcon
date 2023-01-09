@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="Argument" note="Used to fill hole in MATLAB:string:MustBeSingleString">Argument</entry>
+    <entry key="Boundary" note="Used to fill hole in MATLAB:string:MustBeTextOrNumeric">Boundary</entry>
+    <entry key="CannotBeEmptyCellOrString">Replacement text argument must not be empty.</entry>    
+    <entry key="CannotConvertFromString">Cannot convert from string.</entry>
+    <entry key="CannotConvertMissingElementToChar">Conversion of element {0,number,integer} from &lt;missing&gt; to character vector is not supported.</entry>
+    <entry key="CannotConvertToString">Cannot convert to string.</entry>
+    <entry key="CannotInsertMissingIntoChar">{0} values not supported for character arrays.</entry>
+    <entry key="CellInputMustBeCellArrayOfStrings">Cell must be a cell array of character vectors.</entry>
+    <entry key="ComparisonNotDefinedCharMatrix">Comparison between {0} and {1} requires the char input to be a row vector.</entry>
+    <entry key="ComparisonNotDefined">Comparison between {0} and {1} is not supported.</entry>
+    <entry key="ConversionOperators" note="Will be used to fill other messages (i.e. MustHaveSameNumberOf hole 3)">conversion operators</entry>
+    <entry key="Delimiter" note="Will be used to fill other messages (e.g. MustBeCharCellArrayOrString)">Delimiter</entry>
+    <entry key="DelimitersLower" note="Will be used to fill other messages (e.g. MustHaveSameNumberOf hole 3)">delimiters</entry>
+    <entry key="FirstInput" note="Will be used to fill other messages as parameter name">First argument</entry>
+    <entry key="Format" note="Will be used to fill other messages (e.g. MustHaveSameNumberOf hole 1)">format</entry>
+    <entry key="IndicatorsArgName">Indicators</entry>
+    <entry key="Input" note="Used to fill hole in MATLAB:string:MustBeSingleString">Input</entry>
+    <entry key="InvalidArgumentSize">Dimensions of {0} argument must match the dimensions of the text argument or be 1.</entry>
+    <entry key="InvalidDelimiterDimensions">Invalid delimiter dimensions.</entry>
+    <entry key="InvalidFormatPercent">Format argument containing an asterisk precision or width is not supported.</entry>
+    <entry key="InvalidFormatPosition">Format argument containing a position identifier is not supported.</entry>
+    <entry key="InvalidIndexOperation">Invalid index operation.</entry>
+    <entry key="InvalidInputAttribute">Function is not defined for sparse inputs.</entry>
+    <entry key="InvalidInputType">Function is not defined for ''{0}'' inputs.</entry>
+    <entry key="InvalidInsertValue">Insert value must be text.</entry>
+    <entry key="InvalidParameterName">Unrecognized parameter name ''{0}''.</entry>
+    <entry key="InvalidPositionLocation">Numeric start position must come before numeric end position.</entry>
+    <entry key="InvalidReplacementTextSize">Dimensions of the replacement text must match the dimensions of the first text argument or be 1.</entry>
+    <entry key="InvalidValueSize">Dimensions of the inserted text must match the dimensions of the first text argument or be 1.</entry>
+    <entry key="InvalidValue">Invalid value returned.</entry>
+    <entry key="Location" note="Used to fill hole in MATLAB:string:MustBeTextOrNumeric">Location</entry>
+    <entry key="MatchesLower" note="Will be used to fill other messages (e.g. MustHaveSameNumberOf hole 3)">matches</entry>
+    <entry key="MatchMustBeStringCharOrCellArrayOfChars" note="pattern is a class.">Text to replace must be a text or pattern array.</entry>
+    <entry key="MissingDisplayText" translate="false" note="Will be used to fill other messages (e.g. CannotConvertMissingElementToChar, CannotInsertMissingIntoChar)">&lt;missing&gt;</entry>
+    <entry key="MissingNotSupported">&lt;missing&gt; string element not supported.</entry>
+    <entry key="MustBeCellArrayOfStrings">Conversion from cell failed. Element {0} must be a character vector.</entry>
+    <entry key="MustBeCharCellArrayOrString">{0} must be text.</entry>
+    <entry key="MustBeCharVectorCharMatrixCellArrayOrString">{0} must be text.</entry>
+    <entry key="MustBeConvertibleCellArray">Conversion from cell failed. Element {0} must be convertible to a string scalar.</entry>
+    <entry key="MustBeLogicalDoubleOrChar">Valid values for this feature are 1, 0, true, false, 'on', or 'off'.</entry>
+    <entry key="MustBeOneCharacter">{0} must be exactly one character.</entry>
+    <entry key="MustBeScalarLogical">''{0}'' value must be a logical scalar.</entry>
+    <entry key="MustBeSingleString">{0} must be a text scalar.</entry>
+    <entry key="MustBeStringArray">{0} must be a string array.</entry>
+    <entry key="MustBeStringOrCellArrayOfStrings">{0} must be a text array.</entry>
+    <entry key="MustBeStringScalarOrCharacterVector">Must be a text scalar.</entry>
+    <entry key="MustBeTextOrPattern" note="pattern is a class.">{0} must be a text or pattern array.</entry>
+    <entry key="MustBeTextOrPatternScalar" note="pattern is a class.">{0} must be a text or pattern scalar.</entry>
+    <entry key="MustBeTextNumericOrPattern" note="pattern is a class.">{0} must be a text, numeric, or pattern array.</entry>
+    <entry key="MustBeTextOrNumeric">{0} must be text or numeric.</entry>
+    <entry key="MustHaveSameNumberOf">Element {0,number,integer} of the {1} contains {2,number,integer} {3} while the previous elements have {4,number,integer}. All elements must contain the same number of {3}.</entry>
+    <entry key="Name" note="Used to fill hole in MATLAB:string:MustBeSingleString">Name</entry>
+    <entry key="NarginNargoutMismatch">The number of outputs must match the number of inputs.</entry>
+    <entry key="NoHoles">Format must have enough conversion operators for the data arguments.</entry>
+    <entry key="NonNumericInput">Size inputs must be numeric.</entry>
+    <entry key="Obsolete">string is obsolete and will be discontinued. Use char instead.</entry>
+    <entry key="OddNumberNVPairs">Incorrect number of arguments. Each parameter name must be followed by a corresponding value.</entry>
+    <entry key="OptionMustBeOneOf">Option must be {0}, or it must be exactly one character.</entry>
+    <entry key="Or" note="Used for creating a list: x, y, or z.">or</entry>
+    <entry key="Padding" note="Will be used to fill other messages (e.g. MustBeOneCharacter)">Padding</entry>
+    <entry key="ParameterNameMustBeNonEmptyText">Parameter name must be a non-empty text scalar.</entry>
+    <entry key="ParameterNameMustBeTextScalar">Input parameter name must be text scalar.</entry>
+    <entry key="ParameterValueMustBeTextScalar">''{0}'' option must be text scalar.</entry>
+    <entry key="Position_LowerCase" note="Used to fill hole in MATLAB:string:InvalidArgumentSize">position</entry>
+    <entry key="Position_UpperCase" note="Used to fill hole in MATLAB:string:MustBeTextOrNumeric">Position</entry>
+    <entry key="PositionMustBePositiveInteger">Numeric position must be a positive integer.</entry> 
+    <entry key="PositionOutOfRange">Numeric value exceeds the number of characters in element {0,number,integer}.</entry>
+    <entry key="ReplaceMustBeSameSizeOrScalar">Replacement text must be either scalar or the same size as the match text. </entry>
+    <entry key="ReplacementMustBeStringCharOrCellArrayOfChars">New text must be text.</entry>
+    <entry key="SearchTerm" note="Will be used to fill other messages (e.g. MustBeCharCellArrayOrString)">Search term</entry>
+    <entry key="SecondInput" note="Will be used to fill other messages as parameter name">Second argument</entry>
+    <entry key="SubstringsLower" note="Will be used to fill other messages (e.g. MustHaveSameNumberOf hole 3)">substrings</entry>
+    <entry key="TextLower" note="Will be used to fill other messages (e.g. MustHaveSameNumberOf hole 1)">text</entry>
+    <entry key="UnrecognizedParameterNameInvalid">Unrecognized parameter name. Parameter name must be {0}.</entry>
+    <entry key="UnrecognizedParameterName">Unrecognized parameter name ''{0}''. Parameter name must be {1}.</entry>
+    <entry key="UnrecognizedParameterValue">''{0}'' option must be {1}.</entry>
+    <entry key="UnrecognizedParameterValueEither">''{0}'' value must be ''{1}'' or ''{2}''.</entry>
+    <entry key="UnsupportedCurlyAsgnValue">Curly brace assignment into a string expects a character vector.</entry>
+    <entry key="UnsupportedFileVersion">Unable to load string variable because it was saved in a later version of MATLAB.</entry>
+    <entry key="ValueMustBeNonNegativeInteger">''{0}'' must be a scalar nonnegative integer.</entry>
+    <entry key="ValueMustBeNonNegativeIntegerArray">{0} must be a nonnegative integer array.</entry>
+    <entry key="Width_LowerCase" note="Used to fill hole in MATLAB:string:InvalidArgumentSize">width</entry>
+    <entry key="Width_UpperCase" note="Used to fill hole in MATLAB:string:ValueMustBeNonNegativeIntegerArray">Width</entry>
+  </message>
+</rsccat>

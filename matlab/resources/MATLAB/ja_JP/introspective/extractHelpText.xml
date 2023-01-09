@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SameFile">出力ファイルと入力ファイルは同じにできません。</entry>
+    <entry key="CannotDeleteFile">以前の出力ファイルが存在し、上書きできません</entry>
+    <entry key="FilePathMustBeAString">ファイル パスは文字ベクトルでなければなりません</entry>
+    <entry key="HelpContainerFactoryInvalidFilePath">{0} は MATLAB 検索パス上のファイルへの絶対パスでなければなりません。</entry>
+    <entry key="FileNotFound">入力ファイルが存在しません。</entry>
+  </message>
+</rsccat>

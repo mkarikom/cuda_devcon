@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NoBrushColorModeOut">Do not specify an output when attempting to set brushing color or brush mode state</entry>
+    <entry key="NoColorOut">Do not specify an output when attempting to set brushing color</entry>
+    <entry key="InvalidFigure">Unknown or invalid figure.</entry>
+    <entry key="invColor">Invalid color vector</entry>
+	<entry key="invColorStr" note="stringDatatypeUpdate">Invalid color character vector</entry>
+    <entry key="InvalidInputForOutArg">Do not specify an output argument with these input arguments.</entry>
+  </message>
+</rsccat>

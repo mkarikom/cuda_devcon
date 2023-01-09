@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnexpectedError">OS 호출 ''putenv''가 예기치 않게 실패했습니다.</entry>
+    <entry key="IllegalNameTooLong">SETENV에 대한 ''name'' 인수는 길이가 32766자를 넘어서는 안 됩니다.</entry>
+    <entry key="IllegalValueTooLong">SETENV에 대한 ''value'' 인수는 길이가 32766자를 넘어서는 안 됩니다.</entry>
+    <entry key="IllegalNameInvalidCharacter">SETENV에 대한 ''name'' 인수는 ''='' 문자를 포함해서는 안 됩니다.</entry>
+  </message>
+</rsccat>

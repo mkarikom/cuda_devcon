@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DefaultFontFixedNotFound">未找到默认字体 \"fixed\"。请与您的系统管理员联系。</entry>
+    <entry key="FontEncodingEnvironmentOverflow">字体编码环境溢出内部缓冲区</entry>
+    <entry key="RequestedFontSizeTooLarge">请求的字号 {0,number,integer} 太大。默认大小为 {1,number,integer}</entry>
+  </message>
+</rsccat>

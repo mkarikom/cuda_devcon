@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ReplacementMustBeANumericScalar">替换值必须是一个实数标量。</entry>
+    <entry key="ReplaceBrushedData">替换已刷亮的数据</entry>
+    <entry key="SpecifyScalarToReplaceBrushedData">指定要用于替换已刷亮数据的标量:</entry>
+  </message>
+</rsccat>

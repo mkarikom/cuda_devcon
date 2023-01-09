@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SourceArgumentIsEmpty">第一个参数必须为非空值。</entry>
+    <entry key="SourceAndDestinationSame">无法复制文件或目录或者将其移到自身上。</entry>
+    <entry key="FileDoesNotExist">未找到匹配的文件。</entry>
+    <entry key="FileNotFound">找不到名为 ''{0}'' 的匹配文件。</entry>
+    <entry key="ReadOnly">无法写入目标: {0}。请使用 ''f'' 选项进行改写。</entry>
+    <entry key="PATHMAX">已超出最大路径长度。</entry>
+    <entry key="ReadOnlyDestination">无法写入目标: {0}。请使用 ''f'' 选项进行改写。</entry>
+    <entry key="ReadOnlySource">无法从源写入: {0}。请使用 ''f'' 选项进行改写。</entry>
+    <entry key="SourceIsAncestorOfDestination">源不能为目标的前代。</entry>
+    <entry key="ResourceExists">无法写入目标 ''{0}''，因为它已存在。请使用 ''f'' 选项进行改写。</entry>
+    <entry key="DestNotAFolder">目标 {0} 不是文件夹。\n当移动源文件夹时，目标也必须为文件夹。</entry>
+    <entry key="NeitherFileNorFolder">文件名、目录名称或三维体标签语法不正确。</entry>
+    <entry key="ReadPermissionError">无法从源读取: {0}。\n请使用 ''f'' 选项覆盖。</entry>
+    <entry key="ReadPermissionErrorWithFlag">无法从源读取: {0}。</entry>
+    <entry key="WritePermissionError">无法写入目标: {0}。\n请使用 ''f'' 选项覆盖。</entry>
+    <entry key="WritePermissionErrorWithFlag">无法写入目标: {0}。</entry>
+    <entry key="FolderPermissionError">{0}: 权限被拒绝。\n请使用 ''f'' 选项覆盖。</entry>
+    <entry key="FolderPermissionErrorWithFlag">{0}: 权限被拒绝。</entry>
+  </message>
+</rsccat>

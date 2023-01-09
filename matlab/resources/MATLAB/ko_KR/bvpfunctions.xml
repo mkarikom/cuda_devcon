@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFJacobian">FJacobian 옵션에 예기치 않은 값이 있습니다. 허용 가능한 값은 BVPSET를 확인하십시오.</entry>
+    <entry key="InvalidBCJacobian">BCJacobian 옵션에 예기치 않은 값이 있습니다. 허용 가능한 값은 BVPSET를 확인하십시오.</entry>
+  </message>
+</rsccat>

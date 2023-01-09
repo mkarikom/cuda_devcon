@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ComplexInput">X와 N은 모두 실수여야 합니다.</entry>
+    <entry key="NonmatchDim">X와 N은 같은 크기의 스칼라 또는 배열이어야 합니다.</entry>
+    <entry key="NegXNotOddIntegerN">X가 음수인 경우 N은 홀수 정수여야 합니다.</entry>
+  </message>
+</rsccat>

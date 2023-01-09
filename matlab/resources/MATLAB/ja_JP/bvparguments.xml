@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ODEfunNotFunctionHandle">{0}  導関数 ODEFUN は function_handle でなければなりません。</entry>
+    <entry key="BCfunNotFunctionHandle">{0}  境界条件の関数 BCFUN は function_handle でなければなりません。</entry>
+    <entry key="SolverNameUnrecognized">内部エラー -- 認識されないソルバー名: {0},</entry>
+    <entry key="SolinitNotStruct">{0}  初期プロファイル SOLINIT は構造体として与えられなければなりません。</entry>
+    <entry key="NoXInSolinit">{0}  フィールド ''x'' は SOLINIT 内に存在しません。</entry>
+    <entry key="NoYInSolinit">{0}  フィールド ''y'' は SOLINIT 内に存在しません。</entry>
+    <entry key="SolinitXNotEnoughPts">{0}  SOLINIT.x は、少なくとも 2 つの終点を含まなければなりません。</entry>
+    <entry key="SolinitXNotMonotonic">{0}  SOLINIT.x 内の要素は、増加または減少しなければなりません。</entry>
+    <entry key="SolinitYEmpty">{0}  SOLINIT.y 内に与えられた初期推定がありません。</entry>
+    <entry key="SolXSolYSizeMismatch">{0}  SOLINIT.y は SOLINIT.x と一致しません。</entry>
+    <entry key="ODEfunOutputSize">{0}  導関数 ODEFUN は、長さ {1,number,integer} の列ベクトルを返さなければなりません。</entry>
+    <entry key="BCfunOutputSize">{0}  境界条件の関数 BCFUN は、長さ {1,number,integer} の列ベクトルを返さなければなりません。</entry>
+    <entry key="RelTolNotPos">{0}  OPTIONS の RelTol は正のスカラーでなければなりません。</entry>
+    <entry key="RelTolIncrease">{0}  OPTIONS の RelTol は {1} に増加しました。</entry>
+    <entry key="SizeAbsTol">{0}  この問題に対して、OPTIONS の AbsTol は、スカラー、または長さ {1,number,integer} のベクトルでなければなりません。</entry>
+    <entry key="AbsTolNotPos">{0}  OPTIONS の AbsTol は正でなければなりません。</entry>
+    <entry key="ErrorCallingFun">{0}(ODEFUN,BCFUN,SOLINIT{1}) の呼び出し中にエラー: \n</entry>
+    <entry key="WarningCallingFun">{0}(ODEFUN,BCFUN,SOLINIT{1}) の呼び出し中に警告: \n</entry>
+  </message>
+</rsccat>

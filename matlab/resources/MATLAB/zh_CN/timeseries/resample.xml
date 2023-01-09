@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">resample 方法只能用于单时序对象</entry>
+    <entry key="norel">按日期重采样时，时序的 StartDate 属性必须为有效的日期字符向量或字符串。</entry>
+    <entry key="badtime">必须将时间指定为日期元胞数组、数值向量或标量。</entry>
+    <entry key="invinterp">插值方法无效</entry>
+    <entry key="noqual">必须初始化 Quality 向量。</entry>
+    <entry key="round">指定的 Quality 代码已四舍五入取整。</entry>
+    <entry key="invcode">没有为该时序定义您指定的 Quality 代码。</entry>
+    <entry key="absentcode">没有为该时序定义您指定的 Quality 代码。</entry>
+    <entry key="nonnumeric">不能对具有非数值数据的时序执行数值运算</entry>
+    <entry key="scalar">必须至少有两个用于执行 resample 函数的原始数据样本。</entry>
+  </message>
+</rsccat>

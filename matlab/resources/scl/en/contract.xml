@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0"
+        locale="en_US"
+        product="scl"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../schema/.xsd">
+
+  <message>
+    <entry key="ContractViolation" translate="false">
+        Contract Violation: {0}
+    </entry>
+
+    <entry key="MainFailureMessage" translate="false">
+      \n*********************************************************************************\n
+        Contract Failure: ''{0}''  
+      \n*********************************************************************************\n
+       Failure in file {1}:{2, number, integer} in function ''{3}'' \n
+    </entry>
+
+    <entry key="InternalMessage" translate="false">
+      Failure details: {0}
+    </entry>
+
+    <entry key="UserMessage" translate="false">
+      Callsite comment: {0}
+    </entry>
+    
+    <entry key="ExceptionInPredicate" translate="false">
+      An exception was thrown while evaluating the contract predicate in the following context
+    </entry>
+
+    <entry key="Generic" translate="false">
+      General
+    </entry>
+
+    <entry key="PrePostEntry" translate="false">
+      Pre and post Condition - Pre condition violated
+    </entry>
+
+    <entry key="PrePostExit" translate="false">
+      Pre and post Condition - Post condition violated
+    </entry>
+
+    <entry key="LoopVariantEntry" translate="false">
+      Loop - Variant violated on entry
+    </entry>
+
+    <entry key="LoopVariantExit" translate="false">
+      Loop - Variant violated on exit, Possible infinite loop
+    </entry>
+
+    <entry key="LoopInvariantEntry" translate="false">
+      Loop - Invariant violated on entry
+    </entry>
+
+    <entry key="LoopInvariantExit" translate="false">
+      Loop - Invariant violated on exit
+    </entry>
+
+    <entry key="Expects" translate="false">
+      Method Precondition - violated on entry
+    </entry>
+
+    <entry key="Ensures" translate="false">
+      Method Postcondition - violated on exit
+    </entry>
+
+    <entry key="ClassInvariantEntry" translate="false">
+      Class invariant - violated on entry
+    </entry>
+
+    <entry key="ClassInvariantExit" translate="false">
+      Class invariant - violated on exit
+    </entry>
+
+    <entry key="InvariantEntry" translate="false">
+      Invariant - violated on entry
+    </entry>
+
+    <entry key="InvariantExit" translate="false">
+      Invariant - violated on exit
+    </entry>
+
+    <entry key="NoThrow" translate="false">
+      No Throw violated
+    </entry>
+
+    <entry key="UnknownContract" translate="false">
+      Unknown contract. Please report this case to library owners
+    </entry>
+
+  </message>
+
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+	<entry key="FirstArg">First argument must be a numeric, logical, or char array.</entry>
+    <entry key="SecondArg">The second input must be a real integer scalar.</entry>
+    <entry key="SecondArgWithSignificant">With flag 'significant', the second input must be positive.</entry>
+    <entry key="ThirdArg">Third input must be either 'decimals' or 'significant'.</entry>
+    <entry key="NonfloatMultipleArgs">X must be single or double with more than one input.</entry>
+    <entry key="complexIntegers">ROUND does not support complex integers. </entry>
+  </message>
+</rsccat>

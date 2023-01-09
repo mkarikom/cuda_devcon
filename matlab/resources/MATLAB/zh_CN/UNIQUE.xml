@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownFlag">标志 ''{0}'' 无法识别。有效标志是 ''rows''、''first''、''last''、''stable''、''sorted''、''legacy''。</entry>
+    <entry key="UnknownInput">输入无效。有效标志是 ''rows''、''first''、''last''、''stable''、''sorted''、''legacy''。</entry>
+    <entry key="RepeatedFlag">不能多次指定 ''{0}'' 标志。</entry>
+    <entry key="OccurrenceConflict">可以指定 ''first'' 或 ''last''，但不能同时指定二者。</entry>
+    <entry key="SetOrderConflict">可以指定 ''sorted'' 或 ''stable''，但不能同时指定二者。</entry>
+    <entry key="BehaviorConflict">可以指定 ''legacy'' 或 ''R2012a''，但不能同时指定二者。</entry>
+    <entry key="LegacyTrailing">''legacy'' 标志必须位于最后。</entry>
+    <entry key="R2012aTrailing">''R2012a'' 标志必须位于最后。</entry>
+    <entry key="SetOrderOccurrence">不能将 ''stable'' 和 ''sorted'' 与 ''first'' 和 ''last'' 同时指定。</entry>
+    <entry key="SetOrderBehavior">指定 ''stable'' 或 ''sorted'' 时，不能同时指定 ''legacy'' 或 ''R2012a'' 。</entry>
+    <entry key="RowsFlagIgnored">元胞数组输入不支持 ''rows'' 输入。</entry>
+    <entry key="InputClass">元胞数组输入必须为字符向量元胞数组。</entry>
+    <entry key="NotARowVector">元胞数组输入 A 的元素必须为字符向量(字符类的行向量)。</entry>
+    <entry key="ANotAMatrix">如果指定 ''rows''，则输入 A 必须为矩阵。</entry>
+  </message>
+</rsccat>

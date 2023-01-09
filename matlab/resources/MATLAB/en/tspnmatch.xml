@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invPropStr" note="stringDatatypeUpdate">Property names must be single-line character vectors or strings.</entry>
+    <entry key="invPropName">Invalid property name ''{0}''</entry>
+    <entry key="ambPropName">Ambiguous property name ''{0}''. Supply more characters.</entry>
+  </message>
+</rsccat>

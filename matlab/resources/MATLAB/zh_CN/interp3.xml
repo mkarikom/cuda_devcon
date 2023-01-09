@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nargin">输入参数的数目不正确。</entry>
+    <entry key="NtimesInvalid">NTIMES 必须为单个数值。</entry>
+    <entry key="InvalidMeshgrid">输入网格为无效的 MESHGRID。</entry>
+    <entry key="NotEnoughPointsNanStrip">有限值不足，无法进行插值。</entry>
+    <entry key="InvalidExtrapval">EXTRAPVAL 必须为标量。</entry>
+    <entry key="NaNstrip">包含 NaN 值的数据列在插值期间已被忽略。</entry>
+    <entry key="XYorZNotMonotonic">X、Y 和 Z 必须为单调向量或 MESHGRID 生成的数组。</entry>
+    <entry key="InvalidMethod">{0} 为无效方法。</entry>
+    <entry key="meshgrid">X、Y 和 Z 必须为 MESHGRID 生成的矩阵。对于散点数据，\n请改用 INTERP3 的 TriScatteredInterp。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnpairedParamsValues">参数/值对组必须成对出现。</entry>
+    <entry key="InvalidLogicalValue">文件存在集应为逻辑值</entry>
+    <entry key="UnableToSelectFiles">未选择任何文件</entry>
+    <entry key="UnableToSelectFile">未选择任何文件</entry>
+    <entry key="InvalidNumberOfFiltersAdded">一次只能添加一个筛选器</entry>
+    <entry key="InvalidNumberOfFiltersRemoved">一次只能删除一个筛选器</entry>
+    <entry key="IllegalParameterType">位于输入 {0,number,integer} 处的参数必须为字符向量。</entry>
+    <entry key="IllegalParameter">参数 "{0}" 无法识别。</entry>
+    <entry key="IllegalFileFilterParameter">文件筛选器应为字符向量或字符向量元胞数组</entry>
+    <entry key="IllegalFileFilterSpecification">指定的文件筛选器不正确</entry>
+    <entry key="InvalidAddFilterExtensionType">只能添加 FileExtensionFilter 类型的筛选器</entry>
+    <entry key="InvalidRemoveFilterExtensionType">只能删除 FileExtensionFilter 类型的筛选器</entry>
+    <entry key="InvalidSelection">选择无效</entry>
+    <entry key="MultipleFoldersSelected">您从不同文件夹中选择了文件。\n\n请从同一文件夹中选择所有文件。\n</entry>
+  </message>
+</rsccat>

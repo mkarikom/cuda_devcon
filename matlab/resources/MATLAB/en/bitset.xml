@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="inputsNotNonnegInts">Inputs must be non-negative integers.</entry>
+    <entry key="sizeMismatch">Inputs must have the same size.</entry>
+    <entry key="outOfRange">Double inputs must have integer values in the range of ASSUMEDTYPE.</entry>
+    <entry key="sparseArgs">Inputs must be full.</entry>
+    <entry key="complexArgs">Inputs must be real.</entry>
+    <entry key="numericArg">Inputs must be numeric.</entry>
+    <entry key="invalidV">Invalid data type. Bit value must be double or integer.</entry>
+    <entry key="unknownTypeString">ASSUMEDTYPE must be an integer type name.</entry>
+    <entry key="invalidTypeString">Integer inputs cannot be assumed as any other types than their own types.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="IncorrectCall">a=material または a=material(matname) で呼び出し</entry>
+    <entry key="TooFewInputs">入力引数が不足しています</entry>
+    <entry key="TooManyInputs">入力引数が多すぎます</entry>
+    <entry key="TooManyOutputs">出力引数が多すぎます</entry>
+    <entry key="InvalidVectorSize">材質のベクトルは 1 行 3 列、1 行 4 列または 1 行 5 列のサイズでなければなりません</entry>
+    <entry key="InvalidMaterialsName">材質は、文字ベクトルの名前またはベクトルでなければなりません</entry>
+    <entry key="FileNotFound">材質名が見つかりません</entry>
+  </message>
+</rsccat>

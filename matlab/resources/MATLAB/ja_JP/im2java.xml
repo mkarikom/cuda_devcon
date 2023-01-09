@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonRealOrSparseImageData">イメージは実数でなければならないため、スパースにすることはできません。</entry>
+    <entry key="InvalidImageData">イメージは、強度、RGB、インデックス付きイメージのいずれかでなければなりません。</entry>
+    <entry key="InvalidImageClassUint8Uint16Double">強度または RGB イメージは、uint8、uint16、double のいずれかでなければなりません。</entry>
+    <entry key="InvalidMapType">MAP は倍精度の実数でなければならないため、スパースにすることはできません。</entry>
+    <entry key="InvalidMapSize">MAP は M 行 3 列のカラーマップでなければなりません。</entry>
+    <entry key="InvalidMapLength">MAP は 8 ビット整数のストレージに対して色が多すぎます。</entry>
+    <entry key="InvalidImageDimensions">X は 2 次元でなければなりません。</entry>
+    <entry key="IndexOutOfRange">無効なインデックス付きイメージ:インデックスがカラーマップの範囲外にあります。</entry>
+    <entry key="IndexLessThan1">無効なインデックス付きイメージ:インデックスが 1 より小さいです。</entry>
+    <entry key="InvalidImageClassUint8Double">X は uint8 または double でなければなりません。</entry>
+    <entry key="TooManyInputs">内部的な問題: 入力引数が多すぎます。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">입력 인수가 좌표축에 대한 유효한 핸들이 아님</entry>
+    <entry key="InvalidCamera">입력 좌표축과 연관된 카메라가 없습니다. 변환 행렬을 계산하려면 유효한 카메라를 지정해야 합니다.</entry>
+  </message>
+</rsccat>

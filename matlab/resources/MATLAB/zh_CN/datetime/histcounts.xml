@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNameValueMismatch">尾部输入参数必须以名称-值对组的形式出现。</entry>
+    <entry key="EmptyOrScalarBinEdges">bin 边界必须为长度大于或等于 2 的向量。</entry>
+    <entry key="InvalidBinLimits">bin 范围必须为包含 2 个元素的有序的有限日期时间向量。</entry>
+    <entry key="InvalidBinWidth">bin 宽度必须为标量持续时间或 calendarDuration，并且必须为正有限值。</entry>
+    <entry key="InvalidEdges">bin 边界必须为至少包含两个元素的日期时间向量。</entry>
+    <entry key="InvalidMixedBinInputs">''BinEdges'' 输入不能后跟 ''NumBins''、''BinWidth''、''BinMethod'' 或 ''BinLimits'' 中的任何一个。</entry>
+    <entry key="NonDatetimeEdges">EDGES 必须为日期时间数组。</entry>
+    <entry key="NonDatetimeInput">X 必须为日期时间数组。</entry>
+    <entry key="UnsortedEdges">bin 边界必须为不包含 NaT 的有序日期时间向量。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FileNotFound">파일 ''{0}''을(를) 찾을 수 없습니다.</entry>
+    <entry key="Permission">파일을 찾을 수 없거나 권한이 거부됨</entry>
+    <entry key="DirectoryDeletion">''{0}''은(는) 디렉터리입니다.  디렉터리를 삭제하려면 rmdir을 사용하삽시오.</entry>
+    <entry key="pathnameTooLong">''{0}'' 경로 이름이 너무 깁니다.</entry>
+  </message>
+</rsccat>

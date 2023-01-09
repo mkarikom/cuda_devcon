@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">delsample 메서드는 단일 timeseries 객체에 대해서만 사용할 수 있음</entry>
+    <entry key="invalidindex">인덱스는 정수로 구성된 벡터로 지정해야 합니다.</entry>
+    <entry key="nonintegerindex">지정한 인덱스가 정수가 아닙니다.</entry>
+    <entry key="outofboundsindex">지정한 인덱스가 경계를 벗어났습니다.</entry>
+    <entry key="nostartdate">시간은 숫자 값이어야 합니다.</entry>
+    <entry key="timeconversion">시간 값은 timeseries 형식으로 변환할 수 없음</entry>
+    <entry key="invalidtime">Value 입력값은 날짜 문자형 벡터/string형, 날짜 문자형 벡터/string형으로 구성된 셀형 배열 또는 숫자형이어야 함</entry>
+    <entry key="unrecognizedmethod">각 샘플을 삭제하려면 샘플 인덱스 또는 시간을 지정해야 합니다.</entry>
+    <entry key="invalidmethod">두 번째 인수는 삭제될 샘플을 식별하는 메서드를 지정하는 문자형 벡터/string형이어야 합니다.</entry>
+  </message>
+</rsccat>

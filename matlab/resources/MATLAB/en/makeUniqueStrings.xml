@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2013-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidInputStrings">First argument must be a string array, character vector, or cell array of character vectors.</entry>
+    <entry key="InvalidFirstOptionalArg">First optional argument must be a string array, character vector, cell array of character vectors, logical array, or integer array.</entry>
+    <entry key="MissingNames">{0} values not supported for first input argument.</entry>
+    <entry key="NonPositiveRange">Indices of elements to make unique must be positive integers.</entry>
+    <entry key="OutOfBoundRange">Index of element to make unique exceeds number of elements in first argument.</entry>
+    <entry key="BadLengthLogicalMask">The first argument and the logical array of indices to make unique must have the same number of elements.</entry>
+    <entry key="BadMaxStringLength">Second optional argument must be non-negative integer.</entry>
+    <entry key="CannotMakeUnique">Combination of input arguments cannot be made unique.</entry>
+  </message>
+</rsccat>

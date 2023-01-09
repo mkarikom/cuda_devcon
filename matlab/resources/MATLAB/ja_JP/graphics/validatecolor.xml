@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidColor">色を RGB 3 成分、文字ベクトル、または string スカラーとして指定してください。</entry>
+    <entry key="InvalidColors">色を RGB 3 成分の 3 列の行列、文字ベクトル、文字ベクトルの cell 配列、または string 配列として指定してください。</entry>
+    <entry key="InvalidColorString">''{0}'' は有効なカラー指定ではありません。有効な名前は 'red'、'green'、'blue'、'cyan'、'magenta'、'yellow'、'black'、'white' などです。有効な 16 進数色コードの構成は、'#' で始まり、3 桁または 6 桁の 16 進数が続きます。</entry>
+    <entry key="InvalidStringShape">色を、文字ベクトルの 1 次元 cell 配列、または 1 次元 string 配列として指定してください。</entry>
+    <entry key="InvalidNumericShape">色を 3 列の行列として指定してください。</entry>
+    <entry key="InvalidTripletShape">色を 3 要素の行ベクトルとして指定してください。</entry>
+    <entry key="OutOfRange">範囲 [0, 1] の double 値または single 値を指定してください。</entry>
+    <entry key="MultipleColors">1 つの色指定を指定するか、または 'multiple' オプションを使用してください。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="KeyWithoutValue">输入参数的数目不正确。''{0}'' 必须后跟对应的值。</entry>
+    <entry key="InvalidAggregationCombination">仅当第二个参数为 ''sum'' 或 ''mean'' 时，才支持 ''AggregationVariables'' 参数。</entry>
+    <entry key="InvalidAggregationVars">''AggregationVariables'' 值无效。</entry>
+    <entry key="InvalidAggregationFHandle">''AggregationVariables'' 函数句柄必须返回逻辑标量。</entry>
+    <entry key="InvalidPickCombination">仅当第二个输入为 ''min'' 或 ''max'' 时，才支持 ''PickVariable'' 参数。</entry>
+    <entry key="InvalidPickVars">''PickVariable'' 值必须为介于 2 和 Edges 表中的变量数目之间的索引，或者为 Edges 表中的变量名称(''EndNodes'' 除外)。</entry>
+    <entry key="NoWeights">输入图没有任何边权重。请为该图添加边权重或指定 ''{0}'' 参数。</entry>
+    <entry key="InvalidEdgeVarType">未定义与 {2} 类型的边变量 ''{1}'' 相对应的函数 ''{0}''。</entry>
+    <entry key="PickVarNotColumn">''PickVariable'' 值必须为属于列向量的边变量。</entry>
+  </message>
+</rsccat>

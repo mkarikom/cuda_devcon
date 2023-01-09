@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidShape">''exact'' 플래그 사용 시 STRMATCH의 첫 번째 인수는 행 벡터여야 합니다.</entry>
+    <entry key="InvalidInput">입력값으로 문자형 배열 또는 문자형 벡터로 구성된 셀형 배열이 필요합니다.</entry>
+    <entry key="InvalidFlagInput">FLAG는 문자형 벡터여야 합니다.</entry>
+    <entry key="InvalidFlagType">STRMATCH에는 세 번째 인수가 유효하지 않으며, MATLAB 향후 버전에서는 인식되지 않습니다. 문자형 벡터 ''exact''를 대신 사용하십시오.</entry>
+    <entry key="InvalidFlag">''{0}'' 대신 ''exact'' 플래그를 사용하십시오. ''{1}'' 플래그는 유효하지 않으며, MATLAB 향후 버전에서는 인식되지 않습니다.</entry>
+  </message>
+</rsccat>

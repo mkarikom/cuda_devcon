@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidArg2">2 番目の入力は非負の整数でなければなりません。</entry>
+    <entry key="InvalidArg1">1 番目の引数は、スカラーかベクトルでなければなりません。</entry>
+    <entry key="KOutOfRange">K は 0 と N の間の整数でなければなりません。</entry>
+    <entry key="NOutOfRange">N が single または double の場合、その最大許容値は FLINTMAX です。</entry>
+    <entry key="mixedIntegerTypes">整数は、同じクラスの整数、あるいはスカラーの倍精度とのみ結合できます。</entry>
+    <entry key="LargeCoefficient">結果は正確でない可能性があります。係数は {0} より大きく、{1,number,integer} 桁のみ正確です。</entry>
+  </message>
+</rsccat>

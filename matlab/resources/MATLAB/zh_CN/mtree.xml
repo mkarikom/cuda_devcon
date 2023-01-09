@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="newtree">参数必须为单个节点</entry>
+    <entry key="kind">必须对单个节点调用 kind</entry>
+    <entry key="version">mtree 代码需要 {0}，mtreemex 版本 {1}。\n</entry>
+    <entry key="usage">用法: mtree( text [, options] ): options ''-file'', ''-cell'', ''-comments''。</entry>
+    <entry key="input">无法读取输入文件 {0}</entry>
+    <entry key="internal2">索引集必须为整数</entry>
+    <entry key="internal3">pathit 错误 - I 长度无效。</entry>
+    <entry key="path">必须使用 *、+ 等。仅针对链接</entry>
+    <entry key="pathIllegal">非法的路径链接: "{0}"。</entry>
+    <entry key="internal4">长度不一致。</entry>
+    <entry key="internal5">pathit 返回错误</entry>
+    <entry key="restrict">find 需要路径中 +、*、List、Tree 或 Full 后存在 &amp;、|、Any 或 All。</entry>
+    <entry key="internal6">&amp;、|、Any 或 All 处理时出现内部错误</entry>
+    <entry key="internal7">限制故障</entry>
+    <entry key="internal8">路径不一致</entry>
+    <entry key="internal9">长度不一致。</entry>
+    <entry key="badpath">错误的路径: "{0}"。</entry>
+    <entry key="pathAndOr">对 PATH 的调用无法识别 "&amp;" 和 "|"</entry>
+    <entry key="string">方法 STRING 不支持多个节点。请改用 STRINGS。</entry>
+    <entry key="nostring">此节点没有文本。</entry>
+    <entry key="find">"find" 缺少参数。</entry>
+    <entry key="internal10">find 实现</entry>
+    <entry key="setter">必须对单个节点调用 setter</entry>
+    <entry key="impossiblePath">路径不存在</entry>
+    <entry key="select">必须选择节点集的成员</entry>
+    <entry key="internal11">IX 的长度错误。</entry>
+    <entry key="internal12">o.n 值超出范围。</entry>
+    <entry key="internal13">o.m 值超出范围。</entry>
+    <entry key="internal14">m 值错误。</entry>
+    <entry key="op1">op {0} 出现了两次，第二次出现在行组 {1,number,integer} 中\n</entry>
+    <entry key="duplicatePair">行组 {0,number,integer} 中的对重复</entry>
+    <entry key="op2">op {0} (索引 {1,number,integer})丢失</entry>
+    <entry key="andor">每个路径段有多个 "&amp;"、"|"、Any 或 All</entry>
+    <entry key="plus">每个路径段有多个 "+" 或 "List"</entry>
+    <entry key="star">每个路径段有多个 "*" 或 "Tree"</entry>
+    <entry key="full">"Full" 与 "Full"、"List" 或 "Tree" 配合使用</entry>
+    <entry key="Node">节点</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DiaryNotAvailable">DIARY 命令在演示版本中不可用</entry>
+    <entry key="CannotOpenFile">无法打开要输出的文件 "{0}"。</entry>
+    <entry key="PathIsADirectory">无法打开文件: "{0}" 是目录。</entry>
+    <entry key="filenameTooLong">文件名太长。</entry>
+    <entry key="tooManyFilesOpenDOS">{0}: 打开的文件太多；请检查 CONFIG.SYS 文件中是否 FILES = 20。</entry>
+    <entry key="tooManyFilesOpenUnix">{0}: 打开的文件太多。</entry>
+    <entry key="cwdIsInvalid">无法访问当前文件夹。请将当前文件夹更改为有效文件夹。</entry>
+    <entry key="cantOpenFileNoPermission">{0}: 无法打开文件: 权限被拒绝。</entry>
+    <entry key="fileNotFound">{0}: 未找到文件。</entry>
+    <entry key="fileNotUTF8">{0}: 文件未使用 UTF-8 编码。</entry>
+    <entry key="noDiskSpace">{0}: 磁盘上的空间不足。</entry>
+    <entry key="cantOpenFile">{0}: 无法打开文件。</entry>
+    <entry key="reservedDevice">{0}: 已保留 {1} 设备。</entry>
+    <entry key="UserEventQueuePipeCreationFailed">管道创建失败，错误 ID 为 {0,number,integer}</entry>
+    <entry key="UserEventQueueFileDescriptorCloseFailed">文件描述符关闭失败，错误 ID 为 {0,number,integer}</entry>
+    <entry key="UserEventQueueWriteFailed">写入失败，错误 ID 为 {0,number,integer}</entry>
+    <entry key="UserEventQueueReadFailed">读取失败，错误 ID 为 {0,number,integer}</entry>
+    <entry key="InvalidCharset">错误: ''{0}'' 不是合法的 IANA 字符集名称。</entry>
+    <entry key="MissingRequiredCapability">{0} 是必需的。</entry>
+    <entry key="MissingRequiredCapability_InteractiveCommandLine">需要支持用户输入，此平台上未提供此支持。</entry>
+    <entry key="MissingRequiredCapability_Swing">需要支持 Java 用户界面，此平台上未提供此支持。</entry>
+    <entry key="MissingRequiredCapability_ComplexSwing">需要支持 Java 用户界面，此平台上未提供此支持。</entry>
+    <entry key="MissingRequiredCapability_LocalClient">此功能在远程平台上不可用。</entry>
+    <entry key="MissingRequiredCapability_WebWindow">此功能在远程平台上不可用。</entry>
+    <entry key="MissingRequiredCapability_ModalDialogs">需要对模态对话框的支持，这在此配置中不可用。</entry>
+    <entry key="MissingRequiredCapability_Debugging">在此配置中不支持调试。</entry>
+  </message>
+</rsccat>

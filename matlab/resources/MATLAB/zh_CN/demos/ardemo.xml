@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelWaitWhile2DDataLoaded">正在加载 2 维数据，请稍候</entry>
+    <entry key="LabelWaitWhile3DDataLoaded">正在加载 3 维数据，请稍候</entry>
+    <entry key="LabelUseTheControlsToSeeEffects3d">使用相应控件可查看三维绘图中各种坐标区属性的效果</entry>
+    <entry key="LabelUserDefinedPlot">用户定义的绘图</entry>
+    <entry key="PromptEnterAValidPlotCommandOrFunction">输入有效的绘图命令或函数</entry>
+    <entry key="LabelSelectPlotType">选择绘图类型</entry>
+    <entry key="Label2DDefault">2 维默认值</entry>
+    <entry key="Label3DDefault">3 维默认值</entry>
+    <entry key="LabelDataAspectRatio">数据纵横比</entry>
+    <entry key="LabelDARMode">DAR 模式</entry>
+    <entry key="LabelPlotBoxAspectRatio">图框纵横比</entry>
+    <entry key="LabelPBARMode">PBAR 模式</entry>
+    <entry key="LabelXAxisLimit">X 轴范围</entry>
+    <entry key="LabelXLimMode">XLim 模式</entry>
+    <entry key="LabelYAxisLimit">Y 轴范围</entry>
+    <entry key="LabelYLimMode">YLim 模式</entry>
+    <entry key="LabelZAxisLimit">Z 轴范围</entry>
+    <entry key="LabelZLimMode">ZLim 模式</entry>
+    <entry key="ComboBoxAutoManual">自动|手动</entry>
+    <entry key="LabelDefault3DView">默认 3 维视图</entry>
+    <entry key="WarningInvalidPropertyValue">警告: 输入的属性值无效。正在还原为 {0} = {1}</entry>
+    <entry key="LabelModeChangedToManual">{0} 模式已更改为手动</entry>
+    <entry key="LabelModeChangedToAuto">{0} 模式已更改为自动</entry>
+    <entry key="LabelManuallyChangedTo">{0} 已手动更改为 {1}</entry>
+    <entry key="FigureAxesPropertiesDemonstration">坐标区属性演示</entry>
+    <entry key="LabelUseTheControlsToSeeEffects2d">使用相应控件可查看二维绘图中各种坐标区属性的效果</entry>
+  </message>
+</rsccat>

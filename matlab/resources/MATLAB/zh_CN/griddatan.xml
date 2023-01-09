@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="HigherDimArray">第一个和第三个参数必须为矩阵。</entry>
+    <entry key="SampleValuesMustBeVector">第二个参数必须为列向量。</entry>
+    <entry key="InputSizeMismatch">前两个参数必须具有相同的行数。</entry>
+    <entry key="XLowColNum">第一个参数必须有至少 2 列。</entry>
+    <entry key="CannotTessellateInfOrNaN">采样点必须为有限值。</entry>
+    <entry key="InvalidMethod">插值方法必须为 ''linear'' 或 ''nearest''。</entry>
+    <entry key="OptsNotStringCell">选项参数必须为字符向量元胞数组。</entry>
+    <entry key="CannotTriangulate">无法对数据进行三角剖分。</entry>
+    <entry key="DuplicateDataPoints">检测到重复的采样点: 使用采样值的平均值。</entry>
+  </message>
+</rsccat>

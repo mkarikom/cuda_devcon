@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PrintDialogFailed">打开打印对话框时发生错误({0,number,integer})。</entry>
+    <entry key="BadPrinterName">错误的打印机名称 ''{0}''。\n</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="fmtInvalid">''{0}'' is an invalid format.</entry>
+    <entry key="nonNumericInput">Input to num2str must be numeric.</entry>
+    <entry key="invalidSecondArgument">Second argument to num2str must be a character vector, string scalar, or numeric.</entry>
+    <entry key="integerSecondArgument" note="stringDatatypeUpdate">The precision argument is ignored when converting integer values to character vectors.</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="badConversion" translate="false" note="TranslateFalseBatch;">{0}</entry>
+  </message>
+</rsccat>

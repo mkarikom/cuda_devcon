@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ImportDataTitle">データのインポート</entry>
+    <entry key="ImportDataQuestion">{0} のインポート</entry>
+    <entry key="ImportButton">インポート</entry>
+    <entry key="CancelButton">キャンセル</entry>
+    <entry key="PreviewLabel">プレビュー:</entry>
+    <entry key="VariablesLabel">インポートする変数:</entry>
+    <entry key="VariableLabel">インポートする変数:</entry>
+    <entry key="DontShowLabel">{0} のインポートでこのダイアログを次回から表示しない</entry>
+    <entry key="PreviewUnavailable">プレビューは使用できません</entry>
+    <entry key="SelectAllLabel">すべて選択</entry>
+    <entry key="AudioTooLong">オーディオ ファイルが長すぎてプレビューできません</entry>
+  </message>
+</rsccat>

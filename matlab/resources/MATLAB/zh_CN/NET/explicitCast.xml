@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RequireNetObject">第一个参数必须为有效的 .NET 对象。</entry>
+    <entry key="InvalidCast">无法将 ''{0}'' 类型的对象转换为 ''{1}'' 类型的对象。\n请确保输入对象可实现为转换提供的接口类型。</entry>
+    <entry key="ValueTypeUnsupported">不允许将值类型对象转换为接口类型。</entry>
+    <entry key="UnsupportedInterfaceEvents">不允许将事件侦听器添加到接口类型的对象。</entry>
+    <entry key="UnsupportedInterfaceConversion">不允许转换实现接口的对象。</entry>
+    <entry key="UnsupportedClassToClass">不允许将对象转换为其他类的对象。</entry>
+    <entry key="UnsupportedClassToGeneric">不允许将对象转换为 .NET 泛型类型。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidArguments">第一个参数必须为表或数值矩阵。</entry>
+    <entry key="GroupVariableNameValuePair">使用参数名称和值对组指定 "GroupVariable"。</entry>
+    <entry key="InvalidParent">父容器必须为图窗、uipanel 或 uitab。</entry>
+    <entry key="DeletedParent">父容器为已删除的图形对象。</entry>
+    <entry key="InvalidX">数据必须为数值矩阵。</entry>
+    <entry key="DataNormalizationLabel">坐标的归一化方法</entry>
+    <entry key="JitterLabel">数据位移距离</entry>
+    <entry key="InvalidCoordinateDataSize">''CoordinateData'' 必须为向量且包含 Data 列的有效索引。</entry>
+    <entry key="InvalidGroupDataSize">''GroupData'' 必须为向量且行数与 ''Data'' 的行数相同。</entry>
+    <entry key="InvalidGroupDataCell">''GroupData'' 必须为字符向量元胞数组。</entry>
+    <entry key="InvalidNumericColorSize">''Color'' 必须为 N×3 矩阵，其中 N 为 1 或 ''GroupData'' 中的组数。</entry>
+    <entry key="InvalidStringColorSize">"Color" 必须为标量，或长度等于 "GroupData" 中组数的向量。</entry>
+    <entry key="InvalidLimitsType">''{0}" 必须具有与 "{1}'' 相同的数据类型。</entry>
+    <entry key="InvalidLimitsSize">''{0}'' 必须是二元素行向量。</entry>
+    <entry key="InvalidCategoryNames">&lt;a href=\"matlab:doc string\"&gt;categorical&lt;/a&gt; 函数无法将组值转换为有效的类别名称。</entry>
+    <entry key="InvalidSourceTable">''SourceTable'' 值必须为表。</entry>
+    <entry key="MatrixWorkflow">不支持在设置 ''Data'' 属性后设置 ''{0}'' 属性。</entry>
+    <entry key="TableWorkflow">不支持在设置 ''SourceTable'' 属性后设置 ''{0}'' 属性。</entry>
+  </message>
+</rsccat>

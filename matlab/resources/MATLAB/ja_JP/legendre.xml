@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooFewInputs">入力引数が不足しています。</entry>
+    <entry key="InvalidN">N は正のスカラーの整数でなければなりません。</entry>
+    <entry key="InvalidX">X は、実数で、範囲 (-1,1) になければなりません。</entry>
+    <entry key="InvalidNormalize">正規化オプション {0} は、認識されません</entry>
+  </message>
+</rsccat>

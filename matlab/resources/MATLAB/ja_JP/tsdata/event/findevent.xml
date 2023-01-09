@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="misname">2 番目の引数はイベント名でなければなりません。</entry>
+    <entry key="dups">同じ名前をもつイベントの N 番目に発生する値は整数でなければなりません。</entry>
+  </message>
+</rsccat>

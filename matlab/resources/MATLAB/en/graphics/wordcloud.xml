@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- Copyright 2017-2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="WordData">Words must be a string vector or cell array of character vectors.</entry>
+    <entry key="WordContent">Words must not contain embedded newlines and must be under 1000 characters long.</entry>
+    <entry key="SizeData">Sizes must be a vector of nonnegative real values.</entry>
+    <entry key="WordInput">Words must be a string vector, a cell array of character vectors, or a categorical vector.</entry>
+    <entry key="SingleWordInput">wordcloud requires Text Analytics Toolbox(TM) for string, character, or cell array input without size data. Alternatively, convert the text data to a categorical array of words, or specify both the words and size data and use the syntax wordcloud(WORDS,SIZEDATA). For an example showing how to create word clouds from string arrays, see &lt;a href="matlab:helpview([docroot ''/matlab/ref/wordcloud.html''])"&gt;wordcloud&lt;/a&gt;.</entry>
+    <entry key="SingleInputDeployment">To deploy apps using word clouds, replace ''wordcloud(STR)'' with  ''tbl=wordCloudCounts(STR); wordcloud(tbl.Word,tbl.Count)''.</entry>
+    <entry key="DataSizeMismatch">''WordData'', ''SizeData'' and ''Color'' properties must have compatible sizes.</entry>
+    <entry key="InvalidColor">''Color'' must be an N-by-3 matrix where N is either 1 or the number of words.</entry>
+    <entry key="InvalidParent">Parent container must be a valid figure, uipanel, or uitab.</entry>
+    <entry key="InvalidSourceTable">''SourceTable'' value must be a table compatible with ''WordVariable'' and ''SizeVariable'' property values.</entry>
+    <entry key="NoTable">''WordVariable'' and ''SizeVariable'' property values must be variables in the ''SourceTable'' table.</entry>
+    <entry key="InvalidTableArguments">Not enough input arguments. Table argument must be followed by 2 table subscripts.</entry>
+    <entry key="MatrixWorkflow" note="{0} is a property name, such as SourceTable">Setting the ''{0}'' property after setting the ''WordData'' or ''SizeData'' property is not supported.</entry>
+    <entry key="TableWorkflow" note="{0} is a property name, such as WordData">Setting the ''{0}'' property after setting the ''SourceTable'' property is not supported.</entry>
+    <entry key="MaxDisplayWordsLabel">Maximum number of words to display</entry>
+    <entry key="ShapeLabel">Shape of word cloud</entry>
+  </message>
+</rsccat>

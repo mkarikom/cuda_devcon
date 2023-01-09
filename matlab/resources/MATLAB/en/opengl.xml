@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="switchToSoftwareMacNotSupported">Switching to software OpenGL rendering is not supported on the Mac platform.</entry>
+    <entry key="switchToSoftwareUnixNotSupported">Switching to software OpenGL rendering at runtime on unix is not supported.</entry>
+    <entry key="switchToHardwareMacNotSupported">Switching to hardware OpenGL rendering is not supported on the Mac platform.</entry>
+    <entry key="switchToHardwareUnixNotSupported">Switching to hardware OpenGL rendering at runtime on unix is not supported.</entry>
+    <entry key="settingOfSoftwareMacNotSupported">Software OpenGL rendering is not supported on the Mac platform.</entry>
+    <entry key="loadStatus">OpenGL failed to load.</entry>
+    <entry key="infoQuery">An error occurred while querying for OpenGL:</entry>
+    <entry key="dataQuery">An error occurred while querying for OpenGL:</entry>
+    <entry key="invalidBugWorkaround">Unknown OpenGL bug workaround: {0}</entry>
+    <entry key="knownDriverIssues">known graphics driver issues</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="invalidInputArgument">OpenGL incorrect input argument: {0}</entry>
+    <entry key="softwareUnsupported">The opengl function does not accept the option 'software'. Start MATLAB with the '-softwareopengl' option to run with software OpenGL.</entry>
+    <entry key="hardwareUnsupported">The opengl function does not accept the option 'hardware'. The default rendering mode for MATLAB Graphics is hardware opengl.</entry>
+    <entry key="deprecatedArgument">This option does not have any effect since it is no longer supported: {0}</entry>
+    <entry key="deprecatedNoArgs">The opengl command without any arguments is no longer supported.</entry>
+    <entry key="MFileNotFound">File {0} not found</entry>
+    <entry key="HardwareGLCrash">MATLAB previously crashed due to a low-level graphics error. To prevent another crash in this session, MATLAB is using software OpenGL instead of using your graphics hardware. To save this setting for future sessions, use the opengl('save', 'software') command. For more information, see &lt;a href="matlab:opengl('problems')"&gt;Resolving Low-Level Graphics Issues&lt;/a&gt;.</entry>
+    <entry key="SoftwareGLCrash">MATLAB previously crashed due to a low-level graphics error while using software OpenGL. For more information, see &lt;a href="matlab:opengl('problems')"&gt;Resolving Low-Level Graphics Issues&lt;/a&gt;.</entry>
+    <entry key="unableToSelectHWGL">Unable to select hardware OpenGL rendering. For more information, click &lt;a href="matlab:opengl('problems')"&gt;here&lt;/a&gt;.</entry>
+    <entry key="alterWindowsMesaOGLNotSupported">Changing the OpenGL implementation at the command line is not supported. Instead, specify the implementation when starting MATLAB.</entry>
+  </message>
+</rsccat>

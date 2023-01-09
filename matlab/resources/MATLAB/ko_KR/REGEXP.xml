@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="vectorization">여러 {0} 및 지정된 패턴 수량은 동일해야 합니다.</entry>
+    <entry key="invalidOutputs">''{0}'' 옵션은 한 번만 지정할 수 있습니다.</entry>
+    <entry key="invalidCompileOption">유효하지 않은 컴파일 옵션이 지정되었습니다.</entry>
+    <entry key="invalidNumericValue">''{0}'' 옵션은 양의 정수 스칼라여야 합니다.</entry>
+    <entry key="EvaluationStr">''{0}'' 실행에서 문자형 벡터나 string형 스칼라가 생성되지 않았습니다.</entry>
+    <entry key="EvaluationBool">''{0}'' 실행에서 논리형 값이 생성되지 않았습니다.</entry>
+    <entry key="EvaluationError">''{0}'' 실행에 실패함: \n\n{1}</entry>
+    <entry key="invalidInputs">''{0}'' 입력값은 문자형 행 벡터, 문자형 행 벡터로 구성된 셀형 배열, string형 배열 중 하나여야 합니다.</entry>
+    <entry key="invalidAdditionalArgInputs">추가 인수는 문자형 행 벡터이거나 string형 스칼라여야 합니다.</entry>
+    <entry key="invalidAdditionalNumericOrArgInputs">추가 인수는 숫자형이거나 문자형 행 벡터, string형 스칼라여야 합니다.</entry>
+    <entry key="invalidCellInputs">모든 셀은 문자형 행 벡터여야 합니다.</entry>
+    <entry key="invalidOutputCombination">''{0}'' 옵션은 ''{1}'' 옵션과 함께 사용할 수 없습니다.</entry>
+    <entry key="notEnoughOutputs">''{0}'' 옵션에 대해 충분한 출력값이 지정되지 않았습니다.</entry>
+    <entry key="deprecated">{1}의 ''{0}'' 옵션은 이제 디폴트 동작입니다.</entry>
+    <entry key="invalidOptions">{0}에 대한 옵션이 유효하지 않음: {1}.</entry>
+    <entry key="InvalidNumberOfInputsForOption">''{0}'' 옵션이 지정된 경우 {1} 입력 인수가 필요합니다.</entry>
+    <entry key="ErrorLiteral">문자 ''{0}''은(는) 이 컨텍스트에서 문자 그대로 취급됩니다.{1}</entry>
+    <entry key="ErrorEscapedLiteral">이스케이프 문자 ''{0}''은(는) 이 컨텍스트에서 문자 그대로 취급됩니다.{1}</entry>
+    <entry key="ErrorBracedTooLong">괄호로 묶은 표현식이 너무 길어 실행 결과를 하나의 문자로 나타낼 수 없습니다.{0}</entry>
+    <entry key="ErrorBracedInvalid">괄호로 묶은 표현식의 실행 결과를 하나의 문자로 나타낼 수 없습니다.{0}</entry>
+    <entry key="ErrorTrailingBackslash">패턴 끝의 백슬래시는 문자 그대로 취급됩니다.{0}</entry>
+    <entry key="ErrorSetBreaks">단어 분리(''\&lt;'' 및 ''\&gt;'')는 집합에서 문자 그대로 취급됩니다.{0}</entry>
+    <entry key="ErrorUnboundRange">범위에 경계가 없습니다.{0}</entry>
+    <entry key="ErrorUnmatchedBracket">''[''의 짝이 맞지 않습니다. 리터럴 ''[''를 지정하려면 ''\\[''를 사용하십시오.{0}</entry>
+    <entry key="ErrorUnmatchedParen">''(''의 짝이 맞지 않습니다. 리터럴 ''(''를 지정하려면 ''\\(''를 사용하십시오.{0}</entry>
+    <entry key="ErrorUnmatchedCurly">'''{'''의 짝이 맞지 않습니다. 리터럴 '''{'''를 지정하려면 ''\\'{'''를 사용하십시오.{0}</entry>
+    <entry key="ErrorInvalidNamedBackRef">명명된 토큰 역방향 참조(Backreference)가 유효하지 않습니다.{0}</entry>
+    <entry key="ErrorInvalidNameCaptured">지정한 토큰 이름이 유효하지 않습니다.{0}</entry>
+    <entry key="ErrorNestedNamedToken">중첩된 괄호 안에 명명된 토큰은 지원되지 않습니다.{0}</entry>
+    <entry key="ErrorModeDoubleNegative">모드 플래그 부정은 한 번만 지정할 수 있습니다.{0}</entry>
+    <entry key="ErrorModeRepeated">모드 플래그가 반복됩니다.{0}</entry>
+    <entry key="ErrorModeUnknown">알 수 없는 모드 플래그입니다.{0}</entry>
+    <entry key="ErrorUnknownExtended">알 수 없는 확장 정규 표현식입니다.{0}</entry>
+    <entry key="ErrorEvaluationDisabled">regexpPattern에서는 실행이 지원되지 않습니다.{0}</entry>
+    <entry key="ErrorConditonEmpty">if 생성자에 대한 조건이 지정되지 않았습니다.{0}</entry>
+    <entry key="ErrorConditonInvalid">if 생성자에 대해 지정된 조건이 유효하지 않습니다.{0}</entry>
+    <entry key="ErrorInvalidCurlyQuantifier">지정된 '''{}''' 수량자에 대한 패턴이 유효하지 않습니다.{0}</entry>
+    <entry key="ErrorUnknownReplace">알 수 없는 바꾸기 패턴이 지정되었습니다. ''$''는 문자 그대로 취급됩니다.{0}</entry>
+    <entry key="ErrorInefficientLookBehind">무제한 길이의 후방 탐색 어설션은 푸는 데 기하급수적 시간이 걸립니다.{0}</entry>
+  </message>
+</rsccat>

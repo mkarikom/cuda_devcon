@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="License">License</entry>
+    <entry key="LicenseNumber">License Number</entry>
+    <entry key="NotAString" note="stringDatatypeUpdate">Argument must be a string scalar or character vector.</entry>
+    <entry key="NotFound">No properly formatted Contents.m file was found for ''{0}''.</entry>
+    <entry key="OperatingSystem">Operating System</entry>
+    <entry key="Trial">Trial</entry>
+    <entry key="Version">Version</entry>
+    <entry key="ProductNameDeprecated">Support for ver(''{0}'') will be removed in a future release.  Use ver(''{1}'') instead.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CantUnstackRowLabels">timetable の行時間のスタック解除はサポートされていません。これらの行時間を変数として含む table を作成するには、TIMETABLE2TABLE を使用してください。</entry>
+    <entry key="CantUnstackWithRowLabelsIndicator">行時間を指標変数として使用した timetable のスタック解除はサポートされていません。これらの行時間を変数として含む table を作成するには、TIMETABLE2TABLE を使用してください。</entry>
+  </message>
+</rsccat>

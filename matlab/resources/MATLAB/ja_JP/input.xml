@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="StandaloneMode">INPUT コマンドは、スタンドアロンの MATLAB では使用できません。</entry>
+    <entry key="IsInEvalc">EVALC から INPUT を呼び出すことができません。</entry>
+    <entry key="NonCharInput">INPUT への 1 番目の引数は string または文字ベクトルでなければなりません。</entry>
+    <entry key="UnknownOption">INPUT への 2 番目の引数は ''s'' でなければなりません。</entry>
+    <entry key="EngineMode">INPUT コマンドは、エンジン、または Notebook として MATLAB を使った場合は利用できません。</entry>
+  </message>
+</rsccat>

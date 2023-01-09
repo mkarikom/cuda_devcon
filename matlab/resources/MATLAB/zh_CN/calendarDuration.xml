@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedFormat">格式 ''{0}'' 无效。该格式只能包含序列 ''{1}'' 中的字符。</entry>
+    <entry key="InvalidFormat">日历持续时间的显示格式必须为字符串或字符向量。</entry>
+    <entry key="InvalidData">输入数据必须为数值。请根据包含年份、月份等列的矩阵创建日历的持续时间，或者根据不同的数值数组创建日历的持续时间。</entry>
+    <entry key="InvalidDurationData">输入数据必须为数值。要根据持续时间创建日历的持续时间，请首先使用 YEARS、DAYS、HOURS、MINUTES 或 SECONDS 函数转换为数值。</entry>
+    <entry key="InvalidNumericMatrix">数值输入数组必须为包含三列或六列的矩阵。您也可以根据单个数值数组使用 CALYEARS、CALQUARTERS、CALMONTHS、CALWEEKS 或 CALDAYS 函数创建日历的持续时间。</entry>
+    <entry key="InvalidNumericData">数值输入数据必须为一个矩阵，或者为三个或六个单独的数组。您也可以根据单个数值数组使用 CALYEARS、CALQUARTERS、CALMONTHS、CALWEEKS 或 CALDAYS 函数创建日历的持续时间。</entry>
+    <entry key="InputMustBeReal">数值输入数据必须为实数。</entry>
+    <entry key="InputSizeMismatch">数值输入数据数组的大小必须相同，或者它们中的任何一个可以为标量。</entry>
+    <entry key="MustBeInteger">年、季度、月、周、日、小时和分钟必须为整数值。</entry>
+    <entry key="DatenumNotDefined">您无法将 calendarDuration 数组转换为日期序列值。请改用 SPLIT。</entry>
+    <entry key="DatestrNotDefined">未对 calendarDuration 数组定义 DATESTR 函数。请改用 CELLSTR。</entry>
+    <entry key="LinspaceNotDefined">未给 'calendarDuration' 类型的输入参数定义函数 ''linspace''。请改用 CALYEARS、CALMONTHS 和 CALDAYS 函数。</entry>
+    <entry key="ColonNotDefined">未给 'calendarDuration' 类型的输入参数定义函数 ''colon''。在冒号表达式中使用日期时间以将其固定在特定的时间点。</entry>
+    <entry key="NonZeroMonths">当 calendarDuration 包含非零月份数时，不支持将其转换为天或周。请改用 SPLIT。</entry>
+    <entry key="DatetimeInputCalyears">输入数据必须为包含实整数值的数值数组，或是 calendarDuration 数组。使用 YEAR 可从日期时间数组中提取年数字。</entry>
+    <entry key="DatetimeInputCalquarters">输入数据必须为包含实整数值的数值数组，或是 calendarDuration 数组。使用 QUARTER 可从日期时间数组中提取季度数字。</entry>
+    <entry key="DatetimeInputCalmonths">输入数据必须为包含实整数值的数值数组，或是 calendarDuration 数组。使用 MONTH 可从日期时间数组中提取月数字。</entry>
+    <entry key="DatetimeInputCalweeks">输入数据必须为包含实整数值的数值数组，或是 calendarDuration 数组。使用 WEEK 可从日期时间数组中提取周数字。</entry>
+    <entry key="DatetimeInputCaldays">输入数据必须为包含实整数值的数值数组，或是 calendarDuration 数组。使用 DAY 可从日期时间数组中提取天数字。</entry>
+    <entry key="DurationInputCalyears">输入数据必须为包含实整数值的数值数组，或是 calendarDuration 数组。使用 YEARS 可将持续时间数组转换为以标准长度年为单位的等效数值。</entry>
+    <entry key="DurationInputCaldays">输入数据必须为包含实整数值的数值数组，或是 calendarDuration 数组。使用 DAYS 可将持续时间数组转换为以标准长度天为单位的等效数值。</entry>
+    <entry key="InvalidCalDurationData">输入数据必须为包含实整数值的数值数组，或是 calendarDuration 数组。</entry>
+    <entry key="NonintegerCalYearsData">输入数据必须为包含实整数值的数值数组。使用 CALMONTHS 或 CALDAYS 函数创建不足一年的日历持续时间，或使用 YEARS 函数创建带有小数的定长年数值作为持续时间。</entry>
+    <entry key="NonintegerCalQuartersData">输入数据必须为包含实整数值的数值数组。使用 CALMONTHS 或 CALDAYS 函数创建不足一个季度的日历持续时间。</entry>
+    <entry key="NonintegerCalMonthsData">输入数据必须为包含实整数值的数值数组。使用 CALDAYS 函数创建不足一个月的日历持续时间。</entry>
+    <entry key="NonintegerCalWeeksData">输入数据必须为包含实整数值的数值数组。使用 CALDAYS 函数创建不足一周的日历持续时间。</entry>
+    <entry key="NonintegerCalDaysData">输入数据必须为包含实整数值的数值数组。使用 HOURS、MINUTES 或 SECONDS 函数创建短于一天的持续时间，或者使用 DAYS 函数创建带有小数的定长天数值作为持续时间。</entry>
+    <entry key="InvalidNumericConversion">未定义与 'calendarDuration' 类型的输入参数相对应的函数 ''{0}''。要从日历持续时间转换为数值，请使用 SPLIT 函数或者使用 CALDAYS、CALWEEKS、CALMONTHS、CALQUARTERS 或 CALYEARS 函数。</entry>
+    <entry key="NoMonthsMethod">未定义与 'calendarDuration' 类型的输入参数相对应的函数 ''{0}''。要计算日历持续时间中日历月的数目，请使用 CALMONTHS 函数。</entry>
+    <entry key="CellReferenceNotAllowed">元胞内容引用自非元胞数组。</entry>
+    <entry key="CellAssignmentNotAllowed">元胞内容赋给非元胞数组。</entry>
+    <entry key="UnrecognizedProperty">无法识别属性:  ''{0}''。</entry>
+    <entry key="InvalidPropertyName">属性名称无效。</entry>
+    <entry key="InvalidSubscriptExpr">在索引表达式中，()-索引不能后跟 () 或 '{}'。</entry>
+    <entry key="SubArrayPropertyAssignment">您不能向 calendarDuration 数组的元素的 ''{0}'' 属性赋值。请改用 d.{0} = ...。</entry>
+    <entry key="InvalidAssignmentLHS">用于从 {0} 数组赋值的 LHS 无效。</entry>
+    <entry key="InvalidAssignment">赋值的右侧必须为 calendarDuration 数组。</entry>
+    <entry key="IllegalDotMethod">无法识别的 calendarDuration 属性 ''{0}''。如果您打算调用 {1} 方法，则必须使用函数语法，例如 {1}(d,...)。有关详细信息，请参阅&lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;方法调用&lt;/a&gt;。</entry>
+    <entry key="IllegalDotMethodNoCorrection">无法识别的 calendarDuration 属性 ''{0}''。如果您打算调用 {1} 方法，则必须使用函数语法。有关详细信息，请参阅&lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;方法调用&lt;/a&gt;。</entry>
+    <entry key="InvalidComparison">没有在 {0} 和 {1} 数组之间定义比较。</entry>
+    <entry key="ComplexNotDefined">没有为 calendarDuration 数组定义复数值。</entry>
+    <entry key="AdditionNotDefined">没有在 {0} 和 {1} 数组之间定义加法。</entry>
+    <entry key="SubtractionNotDefined">没有在 {0} 和 {1} 数组之间定义减法。</entry>
+    <entry key="CalendarDurationMultiplicationNotDefined">没有在两个 calendarDuration 数组之间定义乘法。</entry>
+    <entry key="MultiplicationNotDefined">没有在 {0} 和 {1} 数组之间定义乘法。</entry>
+    <entry key="NonIntegerMultiplier">没有为 calendarDuration 数组定义非整数值乘法。</entry>
+    <entry key="DuplicateFormatCharacters">格式包含重复字符。</entry>
+    <entry key="OutOfOrderFormatCharacters">格式 ''{0}'' 中的字符的顺序不正确。请改用 ''{1}''。</entry>
+    <entry key="InvalidCalendarDurationFormatWarn">格式 ''{0}'' 无效。calendarDuration 显示格式必须包括标识符 'm'、'd' 和 't'。\n请将格式设置为 ''{1}''。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="minrhs">输入参数的数目不足。</entry>
+    <entry key="InvalidRoundingOption">舍入选项无法识别。</entry>
+    <entry key="dimagree">矩阵维度必须一致。</entry>
+    <entry key="OneArgumentMustBeInteger">必须至少有一个参数属于整数类。</entry>
+    <entry key="complexInts">不支持复整数算术运算。</entry>
+    <entry key="mixedClasses">整数只能与同类的整数或双精度标量值组合使用。</entry>
+    <entry key="scalarDoubleWith64BitInt">不支持 64 位整数和双精度型标量输入的混合形式。64 位整数只能与同类的整数组合使用。</entry>
+  </message>
+</rsccat>

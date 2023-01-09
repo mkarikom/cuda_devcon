@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoPrintFile">没有打印文件参数。</entry>
+    <entry key="NoTraceArguments">没有要跟踪的参数。</entry>
+    <entry key="InternalError">内部错误。</entry>
+    <entry key="CannotOpenFileForWrite">无法打开文件 {0}</entry>
+    <entry key="BadHGStructure">.fig 文件 {0} 具有多个项。</entry>
+    <entry key="NotAStringForCallback">对名称 ''{0}'' 的回调不是字符向量</entry>
+    <entry key="FileIsADirectory">''{0}'' 参数是一个目录。必须是一个文件。</entry>
+    <entry key="FileDoesNotExist">文件 ''{0}'' 不存在。</entry>
+    <entry key="PathBeyondRoot">文件 {0} 超出了根目录或驱动器范围。</entry>
+    <entry key="WrongClass">参数 {0,number,integer} 不是字符或元胞数组。</entry>
+    <entry key="WrongClassNotCellstr">第 {0,number,integer} 个参数不是字符向量元胞数组。</entry>
+    <entry key="DeprecatedNographics">不再支持 -nographics 参数。</entry>
+    <entry key="DeprecatedAlwayslog">不再支持 -alwayslog 参数。</entry>
+    <entry key="FormatNone">[无]\n</entry>
+    <entry key="FormatTopOnly">(仅位置靠前的)</entry>
+    <entry key="ReportFilesNotOnMATLABPATH">\n   不在 MATLABPATH 上的文件:\n</entry>
+    <entry key="ReportHandleGraphicsFactoryCallbackNames">\n   MATLAB 图形出厂回调名称:\n</entry>
+    <entry key="ReportBuiltinList">\n-&gt; 内置列表:\n</entry>
+    <entry key="ReportMATLABClasses">\n-&gt; MATLAB 类:\n</entry>
+    <entry key="ReportProblemList">\n-&gt; 问题列表:\n</entry>
+    <entry key="ReportProblemSymbolsNOTIMPLEMENTED">\n-&gt; 问题符号: 未实现\n</entry>
+    <entry key="ReportEvalStrings">\n-&gt; 计算字符向量:\n</entry>
+    <entry key="ReportCalledFromListbyTraceList">\n-&gt; 调用于列表:  (按跟踪列表)\n</entry>
+    <entry key="ReportCallListbyTraceList">\n-&gt; 调用列表: (按跟踪列表)\n</entry>
+    <entry key="ReportOpaqueClasses">\n-&gt; opaque 类:\n</entry>
+    <entry key="ReportGeneratingHandleGraphicsCallbackNamesToAnalyzefigFil">-&gt; 正在生成 MATLAB 图形回调名称以分析 .fig 文件...\n</entry>
+    <entry key="ReportDone">-&gt; 完成\n</entry>
+    <entry key="Deprecated">不再支持 -{0} 参数。</entry>
+    <entry key="DeprecatedNotrace">-notrace 已废弃，请使用 -toponly。</entry>
+    <entry key="DeprecatedAPI">DEPFUN 已被移除。请改用 matlab.codetools.requiredFilesAndProducts。</entry>
+    <entry key="DeprecatedDEPDIR">DEPDIR 已被移除。请改用 matlab.codetools.requiredFilesAndProducts。</entry>
+  </message>
+</rsccat>

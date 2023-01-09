@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNameValueMismatch">入力引数の数が正しくありません。各パラメーター名の後には対応する値が必要です。</entry>
+    <entry key="ComplexTableVar">複素数の table 変数はサポートされていません。</entry>
+    <entry key="DataVariablesArray">''DataVariables'' パラメーターは、table と timetable の入力に対してのみサポートされます。</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' 関数ハンドルは論理スカラーを返さなければなりません。</entry>
+    <entry key="DataVariablesTableSubscript">''DataVariables'' の値には、有効な table インデックスまたは変数名を含めなければなりません。</entry>
+    <entry key="InvalidSamplePoints">''SamplePoints'' の値は、重複する要素のない、並べ替えられた有限なベクトルでなければなりません。</entry>
+    <entry key="MaxNumOutliersGesdOnly">''MaxNumOutliers'' パラメーターは、''gesd'' メソッドに対してのみサポートされます。</entry>
+    <entry key="MaxNumOutliersTooLarge">''MaxNumOutliers'' の値が、操作次元に沿った入力配列の長さを超えています。</entry>
+    <entry key="MissingWindowLength">''{0}'' の後にウィンドウの長さを指定してください。</entry>
+    <entry key="NonfloatTableVar">Table に、タイプ {1} の ''{0}'' が含まれています。これに対しては、外れ値の配置がサポートされていません。</entry>
+    <entry key="NonColumnTableVar">table 変数は列ベクトルでなければなりません。</entry>
+    <entry key="PercentilesInvalid">''Percentiles'' の値は、0 ～ 100 のエントリをもち、並べ替えられた 2 要素の数値ベクトルでなければなりません。</entry>
+    <entry key="SamplePointsComplex">''SamplePoints'' の値は実数でなければなりません。</entry>
+    <entry key="SamplePointsDuplicate">''{0}'' の値に重複が含まれています。</entry>
+    <entry key="SamplePointsInvalidDatatype">''SamplePoints'' の値は double、single、duration、datetime のいずれかの型のベクトルでなければなりません。</entry>
+    <entry key="SamplePointsLength">''SamplePoints'' の値は {0,number,integer} 要素のベクトルでなければなりません。</entry>
+    <entry key="SamplePointsNonDuration">''SamplePoints'' の値が datetime ベクトルまたは duration ベクトルの場合、ウィンドウの長さ引数は duration スカラーまたは 2 要素の duration ベクトルでなければなりません。</entry>
+    <entry key="SamplePointsNonFinite">{0} の値に Inf または {1} が含まれています。</entry>
+    <entry key="SamplePointsSingle">single 型の ''SamplePoints'' は、duration 配列および datetime 配列ではサポートされていません。</entry>
+    <entry key="SamplePointsSorted">''{0}'' の値は昇順に並べ替えなければなりません。</entry>
+    <entry key="SamplePointsSparse">''SamplePoints'' の値は非スパースでなければなりません。</entry>
+    <entry key="SamplePointsTimeTable">''SamplePoints'' パラメーターは、最初の引数が timetable である場合にはサポートされません。</entry>
+    <entry key="AlphaOutOfRange">メソッドが ''grubbs'' または ''gesd'' の場合、''ThresholdFactor'' の値は 0 と 1 の間でなければなりません。</entry>
+    <entry key="TableDim">最初の引数が table または timetable の場合、次元の引数は 1 でなければなりません。</entry>
+    <entry key="UnsupportedThreshold">''percentiles'' メソッドが指定されている場合、''ThresholdFactor'' はサポートされません。</entry>
+    <entry key="WindowLengthInvalidSizeOrClass">ウィンドウの長さ引数は、数値または duration の正で有限なスカラーか、あるいは有限で非負の 2 要素数値ベクトルまたは duration ベクトルでなければなりません。</entry>
+    <entry key="MissingThreshold">''percentiles'' の後にしきい値を指定してください。</entry>
+    <entry key="TableDimCodegen">次元引数は、最初の引数が table の場合、コード生成では定数 1 でなければなりません。</entry>
+    <entry key="DatetimeOrDurationWithMovMethod">''SamplePoints'' が datetime 型または duration 型の場合、''movmean'' メソッドおよび ''movmedian'' メソッドはコード生成でサポートされていません。</entry>
+  </message>
+</rsccat>

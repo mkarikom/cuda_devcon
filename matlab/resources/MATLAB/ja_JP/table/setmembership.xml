@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BehaviorFlags">''R2012a'' および ''legacy'' フラグはサポートされていません。</entry>
+    <entry key="DifferentVars">VARS は A と B で同じ変数を指定しなければなりません。</entry>
+    <entry key="DisjointVars">A と B には同じ変数が含まれなければなりません。</entry>
+    <entry key="RepeatedFlag">''{0}'' フラグを複数指定することはできません。</entry>
+    <entry key="SetOrderConflict">''sorted'' または ''stable'' のいずれかを指定できますが、両方は指定できません。</entry>
+    <entry key="TypeMismatch">A と B はどちらも table であるか、どちらも timetable でなければなりません。</entry>
+    <entry key="UnknownFlag">''{0}'' は認識されないフラグです。有効なフラグは ''stable'' と ''sorted'' です。</entry>
+    <entry key="UnknownInput">入力が無効です。有効なフラグは ''stable'' と ''sorted'' です。</entry>
+    <entry key="UnknownFlag2">''{0}'' は認識されないフラグです。</entry>
+    <entry key="UnknownInput2">入力が無効です。有効なフラグは string または文字ベクトルでなければなりません。</entry>
+    <entry key="VarVertcatMethodFailed">A と B の変数 ''{0}'' はマージできません。</entry>
+    <entry key="Mx0NotSupported">コード生成では、''{0}'' の入力として M 行 0 列の table はサポートされていません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidColor">Specify the color as an RGB triplet, a character vector, or a string scalar.</entry>
+    <entry key="InvalidColors">Specify colors as a three-column matrix of RGB triplets, a character vector, a cell-array of character vectors, or a string array.</entry>
+    <entry key="InvalidColorString">''{0}'' is not a valid color specification. Valid names include: 'red', 'green', 'blue', 'cyan', 'magenta', 'yellow', 'black', and 'white'. Valid hexadecimal color codes consist of '#' followed by three or six hexadecimal digits.</entry>
+    <entry key="InvalidStringShape">Specify colors using a 1-D cell-array of character vectors or a 1-D string array.</entry>
+    <entry key="InvalidNumericShape">Specify colors as a three-column matrix.</entry>
+    <entry key="InvalidTripletShape">Specify the color as a three-element row vector.</entry>
+    <entry key="OutOfRange">Specify double or single values in the range [0, 1].</entry>
+    <entry key="MultipleColors">Specify one color specification or use the 'multiple' option.</entry>
+  </message>
+</rsccat>

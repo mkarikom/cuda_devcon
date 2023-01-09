@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ndInput">ND-sparse arrays are not supported.</entry>
+    <entry key="TwoInputs">Incorrect number of arguments. Valid syntaxes are: sprand(S), sprand(m,n,density), or sprand(m,n,density,rc).</entry>
+    <entry key="RcondTooHigh">Reciprocal condition number must be 1 or lower.</entry>
+  </message>
+</rsccat>

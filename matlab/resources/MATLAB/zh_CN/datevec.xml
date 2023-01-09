@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Inputs">除非第一个输入参数为日期字符向量或者为字符串，否则将忽略所有后续参数。</entry>
+    <entry key="DateFormat">您指定了两个日期格式。\n只能有一个。</entry>
+    <entry key="EmptyDate">不支持使用包含空日期字符向量或空字符串的 DATEVEC。</entry>
+    <entry key="NotAStringArray">DATEVEC 的输入不是字符向量数组，也不是字符串。</entry>
+    <entry key="YearFormat">年份格式无法识别。</entry>
+    <entry key="MonthOfYear">无法查找一年中的月份。</entry>
+    <entry key="NumberOfTimeFields">{0} 中的时间字段太多。</entry>
+    <entry key="NumberOfDateFields">{0} 中的日期字段太多。</entry>
+    <entry key="ParseDateString">无法解析日期 {0}。</entry>
+    <entry key="InputMustBeReal">Numeric input data must be real.</entry>
+  </message>
+</rsccat>

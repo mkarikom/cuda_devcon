@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputsMustBeDouble">{0}에 대한 입력 인수는 ''double''형이어야 합니다.</entry>
+    <entry key="InputsMustBeFull">{0}에 대한 입력 인수는 비희소(Full) 형식이어야 합니다.</entry>
+    <entry key="InputsMustBeReal">{0}에 대한 입력 인수는 실수여야 합니다. 함수 REAL을 사용하여 입력값의 실수부를 가져오십시오.</entry>
+    <entry key="InputsMustHaveAtMost2Dimensions">{0}에 대한 입력 인수는 2차원을 초과할 수 없습니다.</entry>
+    <entry key="ZMustBeAtLeast2x2Matrix">Z는 최소 2x2 행렬이어야 합니다.</entry>
+    <entry key="XMustBeVector">X는 벡터여야 합니다.</entry>
+    <entry key="YMustBeVector">Y는 벡터여야 합니다.</entry>
+    <entry key="LMustBeVectorOrScalar">등고선 레벨 값은 벡터 또는 스칼라여야 합니다.</entry>
+    <entry key="LengthOfXandYMustMatchColsAndRowsInZ">X의 길이는 Z의 열 개수와 일치해야 하며, Y의 길이는 Z의 행 개수와 일치해야 합니다.</entry>
+    <entry key="LengthOfXMustMatchColsInZ">X의 길이는 Z의 열 개수와 일치해야 합니다.</entry>
+    <entry key="LengthOfYMustMatchRowsInZ">Y의 길이는 Z의 행 개수와 일치해야 합니다.</entry>
+    <entry key="XMustBeFinite">X 값은 유한해야 합니다.</entry>
+    <entry key="YMustBeFinite">Y 값은 유한해야 합니다.</entry>
+    <entry key="LMustBeFinite">등고선 레벨 값은 유한해야 합니다.</entry>
+    <entry key="XMustBeUniqueMonotone">X는 반복된 값이 없이 순증가(Strictly Increasing)하거나 순감소(Strictly Decreasing)해야 합니다.</entry>
+    <entry key="YMustBeUniqueMonotone">Y는 반복된 값이 없이 순증가(Strictly Increasing)하거나 순감소(Strictly Decreasing)해야 합니다.</entry>
+    <entry key="NMustBeNonNegative">등고선 레벨 개수는 음수가 아니여야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidConcatenation">모든 입력값은 duration형 배열, calendarDuration형 배열, double형 배열 중 하나여야 합니다.</entry>
+    <entry key="NonNumericDim">차원 인수는 숫자형이어야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PositiveZ">Z は非負の実数でなければなりません。</entry>
+    <entry key="PositiveW">W は非負の実数でなければなりません。</entry>
+    <entry key="YOutOfRange">Y は区間 [0,1] 内になければなりません。</entry>
+    <entry key="inputType">入力は実数の非スパースで、倍精度または単精度でなければなりません。</entry>
+    <entry key="XZWsizeMismatch">入力サイズは一致しなければなりません。</entry>
+    <entry key="InvalidTailArg">TAIL は、''lower'' または ''upper'' でなければなりません。</entry>
+    <entry key="FailedToConverge">不完全ベータ逆関数は p = {0}, a = {1}, b = {2}, tail = {3} に対して収束しませんでした。この結果に注意して使用してください。</entry>
+  </message>
+</rsccat>

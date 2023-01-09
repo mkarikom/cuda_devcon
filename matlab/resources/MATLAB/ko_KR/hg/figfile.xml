@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SizeMismatch">부모 배열의 크기는 구조체형 배열의 크기와 일치해야 함</entry>
+    <entry key="BadHandle">유효하지 않은 부모 핸들임</entry>
+    <entry key="OutOfMemory">메모리가 부족합니다. 자세한 내용은 &lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/memory.html'))\"&gt;메모리&lt;/a&gt;를 참조하십시오.</entry>
+    <entry key="FigFileOptArgMustBeAll">선택적 인수는 ''all''이어야 함</entry>
+    <entry key="FigFileOptArgMustBeConvertOrAll">선택적 인수는 ''convert'' 및/또는 ''all''이어야 함</entry>
+    <entry key="FigFileUnrelatedObjectHandles">핸들은 연관되지 않은 객체에 속해야 함</entry>
+    <entry key="FigFileInvalidStruct">그래픽 객체에 대해 유효하지 않은 구조체 형식임</entry>
+    <entry key="FigFileArgMustBeArrayOfParents">두 번째 인수는 부모 핸들의 배열이어야 함</entry>
+    <entry key="AmbiguousPropertyFound">모호한 속성이 발견되었습니다.</entry>
+  </message>
+</rsccat>

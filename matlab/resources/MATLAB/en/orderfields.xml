@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="arg1NotStruct">First argument must be a struct.</entry>
+    <entry key="InvalidPermLength">Permutation vector length must be the same as the number of fields in the struct.</entry>
+    <entry key="StructFieldMismatch">Both structures must have exactly the same fields.</entry>
+    <entry key="CellStrMismatchFieldnames">Text in second input must match fieldnames of the struct.</entry>
+    <entry key="InvalidArg2">Second argument must be a struct, a string, a cell array of character vectors, or a permutation vector.</entry>
+  </message>
+</rsccat>

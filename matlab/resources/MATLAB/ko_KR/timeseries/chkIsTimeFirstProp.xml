@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="istimefirstMisalignTrue">IsTimeFirst 속성을 true로 변경하면 데이터 배열과 시간 벡터의 정렬이 잘못됨</entry>
+    <entry key="istimefirstMisalignFalse">IsTimeFirst 속성을 false로 변경하면 데이터 배열과 시간 벡터의 정렬이 잘못됨</entry>
+  </message>
+</rsccat>

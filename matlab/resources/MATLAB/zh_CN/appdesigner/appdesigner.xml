@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AppDesigner">App 设计工具</entry>
+    <entry key="StartPage">App 设计工具首页</entry>
+    <entry key="AppDesignerStartFailed">由于内部错误，无法启动 App 设计工具。\n\n {0}</entry>
+    <entry key="InvalidFileExtension">''{0}'' 文件类型必须为 MATLAB App (*.mlapp)。</entry>
+    <entry key="InvalidFileExtensionCase">''{0}'' 文件类型必须为 MATLAB App (*.mlapp)。扩展名区分大小写。</entry>
+    <entry key="InvalidGeneralFileExtension">文件 ''{0}'' 必须具有 {1} 扩展名</entry>
+    <entry key="InvalidExportFileExtension">App 必须导出为 MATLAB 代码文件(*.m)。</entry>
+    <entry key="InvalidFileName">未找到文件 ''{0}''。</entry>
+    <entry key="InvalidFilePath">无效的文件路径。</entry>
+    <entry key="InvalidInput">输入参数必须为完整或部分文件路径，或者为文件名。</entry>
+    <entry key="NotWritableLocation">写入 {0} 时出错。\n请检查目录是否为只读，或者是否已被移除或删除。</entry>
+    <entry key="ReadOnlyFile">写入 ''{0}'' 时出错。\n文件为只读。</entry>
+    <entry key="SaveFailedMATLABCode">将代码保存到 ''{0}'' 时出错。</entry>
+    <entry key="SaveFailedAppData">将组件和代码数据保存到 ''{0}'' 时出错。</entry>
+    <entry key="SaveFailedAppMetaData">将元数据保存到 ''{0}'' 时出错。</entry>
+    <entry key="SaveFailedAppScreenShot">将屏幕截图保存到 ''{0}'' 时出错。</entry>
+    <entry key="SaveFailed">保存 ''{0}'' 时出错。</entry>
+    <entry key="LoadFailed">加载 ''{0}'' 时出错。</entry>
+    <entry key="RunFailedFileNotFound">运行 ''{0}'' 时出错。\n未找到 {1}。</entry>
+    <entry key="TransferOfDataFailed">未从 ''{0}'' 正常捕获数据。</entry>
+    <entry key="NotReadableLocation">{0} 不是可读位置。</entry>
+    <entry key="InvalidFolder">文件夹 {0} 出现问题: {1}。</entry>
+    <entry key="FileNameFailsIsVarName">文件名 ''{0}'' 必须以字母开头，只能包含字母、数字和下划线，且长度必须少于 63 个字符。</entry>
+    <entry key="FileNameFailsIsKeyword">名称不能为 MATLAB 关键字。请重命名文件，然后打开。</entry>
+    <entry key="BrowserNotFound">无法使用 Web 浏览器打开 {0}。</entry>
+    <entry key="UnsupportedBrowser">此浏览器不支持 App 设计工具。请使用 Google Chrome。</entry>
+    <entry key="CompileAppError">编译 App 错误</entry>
+    <entry key="CompileAppFolderNotWritable">无法创建编译器工程文件 ''{0}''。</entry>
+    <entry key="CompileAppFailed">无法编译 ''{0}''。\n未知的编译器错误。</entry>
+    <entry key="CompileAppCompileFileNotFound">找不到编译器工程文件 ''{0}''。</entry>
+    <entry key="PackageAppFolderNotWritable">无法对 ''{0}'' 进行打包。\n文件夹没有写入权限。</entry>
+    <entry key="PackageAppFailed">无法对 ''{0}'' 进行打包。\n未知的打包错误。</entry>
+    <entry key="PackageAppPackageFileNotFound">无法对 ''{0}'' 进行打包。\n找不到包文件。</entry>
+    <entry key="UnknownComponentType">无法对类型为 ''{0}'' 的组件创建回调。未知组件类型。</entry>
+    <entry key="UnknownCallbackProperty">无法对类型为 ''{0}'' 的组件创建回调。未知属性 ''{1}''。</entry>
+    <entry key="IncompatibleAppVersion">此 App 包含此版本不支持的功能。只能使用 {0} 或更高版本的 MATLAB 进行编辑。</entry>
+    <entry key="CovertAppFailedIncompatibleAppVersion">此 App 包含 {0} 不支持的功能，无法转换。只能使用 {1} 或更高版本的 MATLAB 进行编辑。</entry>
+    <entry key="SetInvalidSetting">无法设置 setting {0}.{1}，因为它不存在。</entry>
+    <entry key="SameNameAppRunning">名为 ''{0}'' 的 App 已在运行。在运行同名的其他 App 之前，请先将该 App 关闭。</entry>
+    <entry key="AppNameShadowedByCWD">App 设计工具无法运行该 App，因为它在\n当前工作文件夹中被 {0} 遮蔽。\n\n要运行该 App，您必须更改 MATLAB 当前文件夹。</entry>
+    <entry key="TooFewAppArgumentsError">无法使用所提供的输入参数来运行。</entry>
+    <entry key="MissingFile">缺少原始 App ''{0}''。如果文件被移动，请先关闭该 App，然后从新位置重新打开它。</entry>
+    <entry key="SaveObjWarning">无法保存 App 设计工具创建的 App 对象。matlab.Apps.AppBase 对象不支持保存操作。</entry>
+    <entry key="LoadObjWarning">无法加载 App 设计工具创建的 App 对象。matlab.Apps.AppBase 对象不支持加载操作。</entry>
+    <entry key="fileNotFoundOnMatlabPathWithSuggestion">在编辑和运行 App 期间，{0} 文件必须在 MATLAB 路径中。在 App 设计工具中使用该文件之前，请使用 ''addpath'' 命令将其添加到路径中。</entry>
+  </message>
+</rsccat>

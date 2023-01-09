@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RemovedFromPath">この MATLAB セッションに対する MATLAB パスから ''{0}'' を削除しました。\n\t詳細は 'doc path' を参照してください。</entry>
+    <entry key="FailedToDeleteDirectory">''{0}'' を削除できませんでした。</entry>
+  </message>
+</rsccat>

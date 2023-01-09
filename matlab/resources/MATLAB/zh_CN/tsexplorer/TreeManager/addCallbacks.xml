@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DoYouWantToDeleteObject">是否要删除对象 ''{0}''?</entry>
+    <entry key="CopyOfObjectWillBeAdded">对象 ''{0}'' 的副本将添加到 ''{1}'' 中。是否要继续?</entry>
+    <entry key="ConfirmDeletion">确认删除</entry>
+    <entry key="OK">确定</entry>
+    <entry key="Cancel">取消</entry>
+    <entry key="ConfirmPaste">确认粘贴</entry>
+  </message>
+</rsccat>

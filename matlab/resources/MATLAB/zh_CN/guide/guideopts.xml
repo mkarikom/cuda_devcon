@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="figure1_Name">GUI 选项</entry>
+    <entry key="text1_String">调整大小的方式:</entry>
+    <entry key="omResize_String1">不可调整大小</entry>
+    <entry key="omResize_String2">成比例</entry>
+    <entry key="omResize_String3">其他(使用 SizeChangedFcn)</entry>
+    <entry key="text3_String">命令行的可访问性:</entry>
+    <entry key="omAccessibility_String1">回调(GUI 成为回调内的当前图窗)</entry>
+    <entry key="omAccessibility_String2">禁用(GUI 始终不能成为当前图窗)</entry>
+    <entry key="omAccessibility_String3">启用(GUI 可通过命令行成为当前图窗)</entry>
+    <entry key="omAccessibility_String4">其他(使用属性检查器中的设置)</entry>
+    <entry key="rbFigM_String">生成 FIG 文件和 MATLAB 文件</entry>
+    <entry key="cbCallbacks_String">生成回调函数原型</entry>
+    <entry key="cbSingleton_String">GUI 仅允许运行一个实例(单例)</entry>
+    <entry key="cbBackground_String">对背景使用系统颜色方案(推荐)</entry>
+    <entry key="rbFigOnly_String">仅生成 FIG 文件</entry>
+    <entry key="pbOk_String">确定</entry>
+    <entry key="pbCancel_String">取消</entry>
+    <entry key="pbHelp_String">帮助</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2013-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="TypeMismatch" note="stringDatatypeUpdate">Inputs to {0} must be categorical arrays, cell arrays of character vectors, or scalar string.</entry>
+    <entry key="OrdinalMismatch">Inputs to {0} must both be either ordinal or not ordinal.</entry>
+    <entry key="UnknownInput" note="stringDatatypeUpdate">Invalid input.  Valid flags must be character vectors.</entry>
+  </message>
+</rsccat>

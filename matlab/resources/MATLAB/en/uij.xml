@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" decorate_cxx_names="true">
+  <message>
+    <entry key="GetTextExtent">Error finding text extent</entry>
+    <entry key="DrawString" note="stringDatatypeUpdate">Error drawing character vector</entry>
+    <entry key="SetWindowFont">Could not set font {0}</entry>
+  </message>
+</rsccat>

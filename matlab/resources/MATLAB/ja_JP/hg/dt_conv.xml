@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MissingConstrainingOrUnconstrainingData">制約付き ({0,number,integer}) または制約なし ({1,number,integer}) データが見つかりません</entry>
+    <entry key="BadMeshColor">無効な MESHCOLOR VALUES</entry>
+    <entry key="Expected2Or3ElementVector">値は 2 または 3 要素のベクトルでなければなりません</entry>
+    <entry key="ExpectedColumnOrRowVector">値は列、または行ベクトルでなければなりません</entry>
+    <entry key="ExpectedRowVector">値は行ベクトルでなければなりません</entry>
+    <entry key="ValueMustBe3ElementVector">色の値は 3 要素の数値ベクトルでなければなりません</entry>
+    <entry key="BadColorValue">色の値は NaN、または 0.0 &lt;= 値 &lt;= 1.0 の範囲外の要素を含んでいます。</entry>
+    <entry key="ExpectedHandle">値はハンドルでなければなりません。</entry>
+    <entry key="ValueMustBeNumeric">値は数値でなければなりません</entry>
+    <entry key="ValueMustBe2ElementVector">値は 2 要素のベクトルでなければなりません</entry>
+    <entry key="ValuesMustBeIncreasingAndNonNaN">値は増加していなければなりません。また、NaN にすることはできません</entry>
+    <entry key="ValueMustBe3Double">色の値は 3 要素の double ベクトルでなければなりません</entry>
+  </message>
+</rsccat>

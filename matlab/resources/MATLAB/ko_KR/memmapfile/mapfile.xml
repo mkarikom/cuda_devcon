@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="cannotStatFile">파일 ''{0}''에 대한 정보를 가져올 수 없음: {1}.</entry>
+    <entry key="cannotMap">파일 ''{0}''을(를) 매핑할 수 없음: {1}.</entry>
+    <entry key="usage">사용법: hMapfile(memstruct). 여기서 memstruct에는 다음 필드가 포함됨: dataHandle, filename, writable: true/false, numElements, format: 'u/int8/logical'\n\t\t | 'u/int16/char'\n\t\t | 'u/int32'\n\t\t | 'u/int64'\n\t\t | 'single'\n\t\t | 'double',\n\t\t [선택 사항: offset].</entry>
+    <entry key="exceededMaxSize">매핑된 총 바이트 수는 {0}을(를) 초과할 수 없습니다.\n(오프셋에서 다음으로 가장 낮은 페이지 경계까지의 채우기 포함).</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadBoundingVolume">基于文件内容计算包围体时出错</entry>
+    <entry key="ReadOnlyProperty">尝试设置只读属性</entry>
+    <entry key="FailedToLoadModel">ModelFile 无法打开其文件</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonPositiveStep">스텝 크기는 0보다 커야 합니다.</entry>
+    <entry key="NonPositiveVertexCount">꼭짓점 최대 개수는 0보다 커야 합니다.</entry>
+    <entry key="StartSizeMismatch">STARTX,STARTY,STARTZ의 크기는 모두 같아야 합니다.</entry>
+    <entry key="WrongNumberOfInputs">입력 인수의 개수가 올바르지 않습니다.</entry>
+  </message>
+</rsccat>

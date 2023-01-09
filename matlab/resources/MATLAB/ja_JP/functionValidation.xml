@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PreambleForRuntimeInputError">引数リストが無効です。</entry>
+    <entry key="PreambleForRuntimePositionalError">位置 {0} の引数が無効です。</entry>
+    <entry key="PreambleForRuntimePositionalErrorWithDotInvocationOfInvalidObject">オブジェクトが無効です。</entry>
+    <entry key="PreambleForRuntimeNameValueError">名前と値の引数 ''{0}'' が無効です。</entry>
+    <entry key="PreambleForDefinitionError">{0} に関数の引数定義のエラーがあります。</entry>
+    <entry key="PreambleForDefaultValueError">引数 ''{0}'' の既定値が無効です。</entry>
+    <entry key="ShortStringChoices">
+  名前は次のいずれかでなければなりません:\n{0}
+</entry>
+    <entry key="SixStringChoices">
+  名前は ''{0}''、''{1}''、''{2}''、''{3}''、''{4}'' または ''{5}'' でなければなりません。
+</entry>
+    <entry key="FiveStringChoices">
+  名前は ''{0}''、''{1}''、''{2}''、''{3}'' または ''{4}'' でなければなりません。
+</entry>
+    <entry key="FourStringChoices">
+  名前は ''{0}''、''{1}''、''{2}'' または ''{3}'' でなければなりません。
+</entry>
+    <entry key="ThreeStringChoices">
+  名前は ''{0}''、''{1}'' または ''{2}'' でなければなりません。
+</entry>
+    <entry key="TwoStringChoices">
+  名前は ''{0}'' または ''{1}'' でなければなりません。
+</entry>
+    <entry key="OneStringChoice">
+  ''{0}'' を使用してください。
+</entry>
+    <entry key="NotEnoughInputsSuffix">関数には {0} 個の入力が必要です。</entry>
+    <entry key="AmbiguousInputName">{0} 名前 ''{1}'' があいまいです。{2}</entry>
+    <entry key="InvalidClass">{0}クラス ''{1}'' が定義されていないか、関数の検証をサポートしていません。</entry>
+    <entry key="RepeatingInputsNotInGroups">{0}繰り返し引数は、指定されている場合、{1} のグループ内になければなりません。</entry>
+    <entry key="TooManyInputsGenericMessage">名前と値のペアの後に、正しくない位置引数の数や位置引数の配置があるかどうかをチェックします。また、名前が無効な名前と値のペアや、ペアとして指定されていない名前と値のペアがあるかどうかもチェックします。</entry>
+    <entry key="WrongNumberOfRequiredWithFollowingNameValueArguments">関数には、名前 ''{1}'' の前に厳密に {0} 個の位置入力が必要です。</entry>
+    <entry key="TooManyRequiredWithoutFollowingScalarText">関数には、厳密に {0} 個の位置入力が必要です。</entry>
+    <entry key="TooManyRequiredWithFollowingNameValueArguments">関数には、名前 ''{1}'' の前に厳密に {0} 個の位置入力が必要です。</entry>
+    <entry key="TooManyOptionalWithFollowingNameValueArguments">関数には、名前 ''{2}'' の前に {0} ～ {1} 個の位置入力が必要です。</entry>
+    <entry key="TooManyOptionalWithoutFollowingNameValueArguments">関数には、{0} ～ {1} 個の位置入力が必要です。</entry>
+    <entry key="NameValueNotInPairs">名前と値の引数がペアで指定されていることを確認してください。</entry>
+    <entry key="NameExpected">名前が必要です。</entry>
+    <entry key="MisspelledName">名前 ''{0}'' を認識できません。{1}</entry>
+    <entry key="ClassWithoutPublicSettableProperty">関数 ''{0}'' は、引数ブロック内で参照されているクラス ''{1}'' に設定可能なパブリック プロパティがないため、入力引数を受け入れません。</entry>
+    <entry key="NotEnoughInputs">入力引数が不足しています。関数には、{0} 個の位置入力が必要です。</entry>
+    <entry key="DuplicateNameStruct">{0}{1}''{2}'' を名前と値の引数の構造体と位置引数の両方として使用することはサポートされていません。</entry>
+    <entry key="DuplicateArguments">{0}{1}引数 ''{2}'' が複数回宣言されています。</entry>
+    <entry key="ArgumentNotInScope">{0}{1}引数 ''{2}'' が、引数ブロック内で宣言される前に参照されています。</entry>
+    <entry key="NamedArgumentInValidator">{0}{1}ドット付きの名前 ''{2}'' を含まない名前と値の引数を検証関数で使用することはサポートされていません。</entry>
+    <entry key="NamedArgumentInDefault">{0}{1}名前と値の引数を既定値で使用することはサポートされていません。</entry>
+    <entry key="NamedWithinRepeating">{0}{1}繰り返し引数ブロック内で名前と値の引数はサポートされていません。</entry>
+    <entry key="RequiredAfterOptional">{0}{1}必須の引数とオプションの引数をもつ関数では、必須の引数を先に定義しなければなりません。</entry>
+    <entry key="RequiredAfterRepeating">{0}{1}必須の引数と繰り返し引数をもつ関数では、必須の引数を先に定義しなければなりません。</entry>
+    <entry key="OptionalAfterRepeating">{0}{1}オプションの引数と繰り返し引数をもつ関数では、オプションの引数を先に定義しなければなりません。</entry>
+    <entry key="RepeatingHasDefault">{0}{1}繰り返し引数ブロック内で既定値はサポートされていません。</entry>
+    <entry key="PositionalAfterNamed">{0}{1}位置引数と名前と値の引数をもつ関数では、位置引数を先に定義しなければなりません。</entry>
+    <entry key="MismatchBetweenBlockAndLine">{0}{1}引数ブロックと関数行は、無視される引数を含めて、同じ引数を同じ順序で含まなければなりません。</entry>
+    <entry key="VararginNotAlone">{0}{1}varargin を含む繰り返し引数ブロックは他の引数を含んではなりません。複数の繰り返し引数を指定する場合は、varargin を引数名として使用しないでください。</entry>
+    <entry key="ClassArgumentHasValidation">{0}{1}クラス名を使用して名前と値の引数を指定する場合、引数の検証の指定はサポートされません。</entry>
+    <entry key="ClassArgumentHasDefaultValue">{0}{1}クラス名を使用して名前と値の引数を指定する場合、引数の既定値の指定はサポートされません。</entry>
+    <entry key="MultipleRepeatingBlocks">{0}{1} 複数の繰り返し引数ブロックはサポートされていません。</entry>
+    <entry key="MultipleClassArguments">{0}{1}複数の名前と値の構造体を .? 構文とクラス名を使用して指定することはサポートされていません。</entry>
+    <entry key="VararginAsNonRepeating">{0}{1}varargin は繰り返し引数ブロック内でのみ使用できます。</entry>
+    <entry key="VariableNotInScope">{0}{1}変数 ''{2}'' は関数の入力ではなく、引数ブロックでは使用できません。</entry>
+    <entry key="IgnoredAfterNamed">{0}{1}無視された入力引数を繰り返し引数ブロックの後や名前と値の引数の後に使用することはできません。</entry>
+    <entry key="DuplicateNamedArguments">{0}{1}名前と値の引数 ''{2}'' が複数回宣言されています。</entry>
+    <entry key="ClassNameConflict">{0}{1}名前 ''{2}'' をクラスと変数の両方、または関数に使用することはサポートされていません。</entry>
+    <entry key="UnknownAttribute">{0}{1}関数の引数属性 ''{2}'' が不明です。</entry>
+    <entry key="DuplicateAttribute">{0}{1}関数の引数属性 ''{2}'' を複数回割り当てることはサポートされていません。</entry>
+    <entry key="InvalidAttributeValue">{0}{1}引数ブロック内の属性値は logical 定数でなければなりません。</entry>
+    <entry key="NestedFunctionCall">{0}{1}入れ子関数の呼び出しは、引数ブロックではサポートされていません。</entry>
+    <entry key="NestedFunctionArgumentsBlock">{0}{1}入れ子関数の宣言内の引数ブロックはサポートされていません。</entry>
+    <entry key="RestrictedExternalDocId">MATLAB ドキュメンテーションの「Restrictions on Variable and Function Access」</entry>
+    <entry key="RestrictedExternal">{0}{1}関数 ''{2}'' の使用は、引数ブロックではサポートされていません。\n詳細については、{3} を参照してください。</entry>
+    <entry key="InvalidValidatorFunction">{0}{1} 検証関数を、ローカル関数またはパス関数を参照する MATLAB 識別子として指定してください。</entry>
+    <entry key="InvalidArgumentValidator">{0}{1}検証関数は、以前に宣言された位置引数、検証される引数、またはリテラルのみを使用できます。</entry>
+    <entry key="ValidatorNoSelfReference">{0}{1}検証関数は引数 ''{2}'' を使用しなければなりません。</entry>
+    <entry key="InvalidSizeDimension">{0}{1}引数 ''{2}'' のサイズ次元が無効です。各次元は非負の整数またはコロン (:) でなければなりません。</entry>
+    <entry key="SizeTooFewDimensions">{0}{1}引数 ''{2}'' のサイズ宣言が無効です。引数には 2 つ以上の次元がなければなりません。</entry>
+    <entry key="IgnoredWithValidation">{0}{1}無視する引数に対する検証または既定値の指定はサポートされていません。</entry>
+    <entry key="Period">,</entry>
+  </message>
+</rsccat>

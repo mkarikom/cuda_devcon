@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RowsElementsMismatch">文字行列の行数は、もう一方の配列の要素数と一致しなければなりません。</entry>
+    <entry key="InputsSizeMismatch">入力は同じサイズか、いずれかがスカラーでなければなりません。</entry>
+    <entry key="SizeMustBeInt">一致する文字数は整数でなければなりません。</entry>
+  </message>
+</rsccat>

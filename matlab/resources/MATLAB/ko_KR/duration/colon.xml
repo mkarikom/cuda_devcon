@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonNumericStep">스텝 크기는 duration형 값이거나 double형 실수 값이어야 합니다.</entry>
+    <entry key="DurationConversion">duration형 산술 연산에 유효하지 않은 데이터입니다. duration형 또는 숫자형 스칼라, 문자형 벡터 또는 string형 스칼라여야 합니다.</entry>
+    <entry key="NonScalarInputs">입력값은 스칼라여야 합니다.</entry>
+  </message>
+</rsccat>

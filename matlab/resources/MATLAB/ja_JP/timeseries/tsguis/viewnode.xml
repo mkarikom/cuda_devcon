@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ActivatingSpecialPlotFeatures">特別なプロット機能を起動しています</entry>
+    <entry key="AddingLayoutManager">レイアウト マネージャーを追加しています</entry>
+    <entry key="Completed">完了しました</entry>
+    <entry key="Copy">コピー</entry>
+    <entry key="DefineDisplayedTimeSeries">表示される時系列の定義</entry>
+    <entry key="Delete">削除</entry>
+    <entry key="Detrend">トレンド除去...</entry>
+    <entry key="DragAndDropToView">時系列ノードをドラッグ アンド ドロップして表示してください</entry>
+    <entry key="EditPlot">プロットの編集...</entry>
+    <entry key="Filter">フィルター...</entry>
+    <entry key="InitializingTimeSeriesPlot">時系列プロットの初期化</entry>
+    <entry key="Interpolate">内挿...</entry>
+    <entry key="InvalidSubplotIndex">subplot インデックスが無効です</entry>
+    <entry key="NewNodeName">新規ノード名</entry>
+    <entry key="Paste">貼り付け</entry>
+    <entry key="Path">パス</entry>
+    <entry key="PlotIsEmpty">プロットが空です。プロットを編集する前にプロット ウィンドウに時系列をドラッグ アンド ドロップしてください。</entry>
+    <entry key="ProcessData">データ処理</entry>
+    <entry key="RemoveMissingData">欠損値の削除...</entry>
+    <entry key="RemoveTimeSeriesFromView">ビューから時系列を削除</entry>
+    <entry key="Rename">名前の変更</entry>
+    <entry key="ResampleData">データ リサンプリング...</entry>
+    <entry key="Size">サイズ</entry>
+    <entry key="ThePropertyEditorCanBeUsed">プロパティ エディターは時系列プロットの外観と動作を\nカスタマイズするために使用できます。\nプロパティ エディターを開きますか?</entry>
+    <entry key="TheLargestSubplotIndex">最大の subplot インデックス ベクトルは、次のプロット内のすべての時系列のすべての列の和より大きくすることはできません:{0,number,integer}</entry>
+    <entry key="TheLengthOfTheSubplotIndex">サブプロットのインデックス ベクトルの長さは時系列 ({0,number,integer}) の列数と等しくなければなりません。</entry>
+    <entry key="TimeSeries">時系列</entry>
+    <entry key="TimeSeriesAreAlreadyDisplayedInThePlot">時系列 {0} は既にプロットに表示されています。</entry>
+    <entry key="TimeSeriesPlot">時系列プロット</entry>
+    <entry key="TimeSeriesPlots">時系列プロット</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="SubplotIndex">subplot インデックス</entry>
+    <entry key="UpdatingPlot">プロットの更新中...</entry>
+    <entry key="ViewNode">ノードの表示</entry>
+    <entry key="Visible">表示されていますか?</entry>
+  </message>
+</rsccat>

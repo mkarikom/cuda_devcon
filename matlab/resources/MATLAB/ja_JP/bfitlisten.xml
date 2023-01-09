@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoData">Figure 内にデータがありません。</entry>
+    <entry key="NoDataInFigure">Figure 内に削除するデータがありません。</entry>
+    <entry key="InconsistentState">GUI に対して設定された現在のデータは Figure 内になく、矛盾した状態です。</entry>
+  </message>
+</rsccat>

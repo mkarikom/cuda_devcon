@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownFlag">标志 ''{0}'' 无法识别。有效标志是 ''rows''、''stable''、''sorted''、''legacy''。</entry>
+    <entry key="UnknownInput">输入无效。有效标志是 ''rows''、''stable''、''sorted''、''legacy''。</entry>
+    <entry key="RepeatedFlag">不能多次指定 ''{0}'' 标志。</entry>
+    <entry key="SetOrderConflict">可以指定 ''sorted'' 或 ''stable''，但不能同时指定二者。</entry>
+    <entry key="BehaviorConflict">可以指定 ''legacy'' 或 ''R2012a''，但不能同时指定二者。</entry>
+    <entry key="LegacyTrailing">''legacy'' 标志必须位于最后。</entry>
+    <entry key="R2012aTrailing">''R2012a'' 标志必须位于最后。</entry>
+    <entry key="SetOrderBehavior">指定 ''stable'' 或 ''sorted'' 时，不能同时指定 ''legacy'' 或 ''R2012a'' 。</entry>
+    <entry key="AandBvectorsOrRowsFlag">A 和 B 必须为向量，或者必须指定 ''rows''。</entry>
+    <entry key="AandBColnumAgree">如果指定 ''rows''，则输入 A 和 B 必须是具有相同列数的矩阵。</entry>
+    <entry key="InputClass">类 {0} 的输入 A 和类 {1} 的输入 B 必须为字符向量元胞数组，除非其中某个输入为字符向量。</entry>
+    <entry key="RowsFlagIgnored">元胞数组输入不支持 ''rows'' 输入。</entry>
+    <entry key="InvalidInputsDataType">类 {0} 的输入 A 和类 {1} 的输入 B 必须属于同一类，除非其中某个输入为双精度值。</entry>
+    <entry key="NotAMatrix">如果指定 ''rows''，则输入 A 和 B 必须是具有相同列数的矩阵。</entry>
+  </message>
+</rsccat>

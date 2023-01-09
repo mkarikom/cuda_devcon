@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CellstrSizeMismatch">All string and cell array inputs must be the same size or scalars.</entry>
+    <entry key="InvalidInputType">All inputs must be strings, character vectors, or cell arrays of character vectors.</entry>
+    <entry key="NumCharRowsExceeded">Char inputs with multiple rows are not supported.</entry>
+    <entry key="MixedInputType">Non-scalar strings and cell arrays of character vectors must all be the same path type.</entry>
+  </message>
+</rsccat>

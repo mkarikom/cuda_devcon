@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidHandle">{0}은(는) 유효하지 않거나 삭제되었습니다.</entry>
+    <entry key="IncorrectIndexing">1차원 인덱싱만 지원됩니다.</entry>
+    <entry key="needMoreRhsOutputs">등호 우변의 출력값 개수가 부족하여 대입식이 성립될 수 없습니다.</entry>
+    <entry key="IncorrectNumberInputs">잘못된 개수의 입력값이 지정되었습니다.</entry>
+    <entry key="Param">파라미터 이름 ''KeyType'' 또는 ''ValueType''이 누락되었습니다. \n다음 구문 사용: newMap = containers.Map(''KeyType'', myKeyType, ''ValueType'', myValueType).</entry>
+    <entry key="NDCatNotSupported">{1}에서는 {0,number,integer} 차원의 결합(Concatenate)이 지원되지 않습니다.</entry>
+    <entry key="MethodNotFound">결합(Concatenate) 메서드를 찾을 수 없습니다.</entry>
+    <entry key="HorzcatNotSupported">{0}에서는 가로 결합(Concatenate)이 지원되지 않습니다.</entry>
+    <entry key="EndIndexingNotSupported">{0}에서는 ''end''를 사용하는 인덱싱이 지원되지 않습니다.</entry>
+    <entry key="NumberKeysValuesMismatch">키와 값의 개수가 동일해야 합니다.</entry>
+    <entry key="NoKeyToRemove">지정된 키가 이 컨테이너에 없습니다.</entry>
+    <entry key="NoKey">지정된 키가 이 컨테이너에 없습니다.</entry>
+    <entry key="EmptyKey">빈 키는 이 컨테이너에서 허용되지 않습니다.</entry>
+    <entry key="Convert64BitIntToDouble">하나 이상의 입력 배열이 64비트 정수에서 double형으로 변환됩니다.  정밀도 손실이 발생할 수 있습니다.</entry>
+    <entry key="InvalidParameterName">알 수 없는 파라미터 이름 {0}은(는) 무시됩니다.  알려진 파라미터의 목록은 도움말 문서를 확인하십시오.</entry>
+    <entry key="EmptyValues">키가 지정되었으면 값도 지정해야 합니다.</entry>
+    <entry key="ExpectScalarLogical">''UniformValues''는 논리형 스칼라여야 합니다.</entry>
+    <entry key="UniformMismatch">''UniformValues''가 true인 경우 값들은 모두 문자형 배열이거나 모두 유형이 일치하는 스칼라여야 합니다.</entry>
+    <entry key="UniformNonScalar">''UniformValues''가 true인 경우 값들은 모두 문자형 배열이거나 모두 유형이 일치하는 스칼라여야 합니다.</entry>
+    <entry key="KeysUnsupportedType">지원되지 않는 키가 지정되었습니다.  유효한 키 유형은 도움말 문서를 참조하십시오.</entry>
+    <entry key="KeysMismatchType">지정된 키는 모두 데이터형이 동일해야 합니다.</entry>
+    <entry key="ValueUnsupportedType">지원되지 않는 ''{0}'' ValueType이 지정되었습니다.  유효한 값 유형은 도움말 문서를 참조하십시오.</entry>
+    <entry key="KeyUnsupportedType">지원되지 않는 ''{0}'' KeyType이 지정되었습니다.  유효한 키 유형은 도움말 문서를 참조하십시오.</entry>
+    <entry key="EmptySizeMustBeZero">적어도 하나의 차원은 0이어야 합니다.</entry>
+    <entry key="EmptySizeMustBeZeroByOne">빈 맵의 크기는 0×1이어야 합니다.</entry>
+    <entry key="SparseValuesNotAccepted">희소 행렬은 지원되는 값 유형이 아닙니다. FULL(values)를 사용하여 변환하십시오.</entry>
+    <entry key="SparseKeysNotAccepted">희소 행렬은 지원되는 키 유형이 아닙니다. FULL(keys)를 사용하여 변환하십시오.</entry>
+    <entry key="InvalidKeySet">유효하지 않은 입력값입니다. KeySet은 숫자형 스칼라, 문자형 벡터, string형 스칼라 또는 키로 구성된 셀형 배열이어야 합니다.</entry>
+  </message>
+</rsccat>

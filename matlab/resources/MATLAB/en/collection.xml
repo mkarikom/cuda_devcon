@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!-- Copyright 2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+<!--
+These messages are for a feature that is at risk of not shipping in R2019b.
+So it is probably best to not translate them yet. We will create a geck to
+give the go-ahead.
+-->
+    <entry key="FapplyOutputMustBeACollection">FAPPLY must return a collection. ''{0}'' is not a subclass of collection.</entry>
+    <entry key="FapplyFunError">There was an error from the function when applied to the {0} member of the collection.</entry>
+    <entry key="FapplyFunErrorFirstIter">There was an error from the function being applied on the first iteration of fapply. The function must accept a collection member as its one input, and return one value. On the first iteration, the function was applied to the collection's {0} member.</entry>
+    <entry key="FapplynFunErrorFirstIter">There was an error from the function being applied on the first iteration of fapplyn. The function must accept {0,number,integer} inputs, each a member of the corresponding collection, and return one value. On the first iteration, the function was applied to the {1} members of the collections.</entry>
+    <entry key="FapplyWrongNumInputs"> The function being applied to members of the collection must accept {0,number,integer} ''{1}'' inputs.</entry>
+    <entry key="FapplynWrongNumInputs"> The function being applied to members of the collections must accept {0,number,integer} inputs.</entry>
+    <entry key="FapplyFunNonScalarResult">The function must return a scalar value.</entry>
+    <entry key="FapplyMissingMembers">Cannot apply the function to a slice of the collection that contains a mix of arrays and missing values.</entry>
+    <entry key="FapplyFunReturnType">The function must return arrays whose types are all the same.</entry>
+    <entry key="FapplyConcatenationError">The function must return arrays that can be concatenated.</entry>
+    <entry key="FapplyInvalidDim">Working dimension must be a positive integer, a vector of positive integers, ''elementwise'', or ''all''.</entry>
+    <entry key="FapplyInvalidOutputFormat">Output format must be ''collection'' or ''uniform''.</entry>
+    <entry key="FapplyMustHaveCommonSize">All input collections must be the same size.</entry>
+    <entry key="NamedIndexingOnTheFlyReshape">Named indexing is not supported for dimension {0,number,integer} when specifying fewer than {1,number,integer} subscripts.</entry>
+    <entry key="AsgnMustBeCollection">Value to assign to the collection must be a collection or cell array containing arrays whose type is ''{0}''.</entry>
+    <entry key="AsgnDeletionBraces">Value to assign to an element of the collection must be a ''{0}'' array. If you intended to delete an element of the collection, make the assignment using parentheses, for example C(i) = []. If you intended to replace a member of a collection with a missing value, assign missing, for example C'{'i'}' = missing.</entry>
+    <entry key="AsgnMustBeMemberType">Value to assign to an element of the collection must be a ''{0}'' array, or a scalar missing value.</entry>
+    <entry key="SubscriptedRefOnCSL">Brace subscripting must select only one array in the collection when followed by deeper levels of subscripting.</entry>
+    <entry key="SubscriptedAsgnOnCSL">Brace subscripted assignment must select only one array in the collection when followed by deeper levels of subscripting.</entry>
+    <entry key="InvalidMemberType">The member type must be a MATLAB class name.</entry>
+    <entry key="InvalidMemberShapeParam">The member shape must be specified as ''scalar'', ''row'', ''column'', ''vector'', ''matrix'', or ''any''.</entry>
+    <entry key="InvalidMemberShape">The members of the collection must have {0} shape.</entry>
+    <entry key="MustBeMemberType">All input arrays must be of class ''{0}''.</entry>
+    <entry key="DataMustBeInCell">All input arrays to COLLECTION must be contained in a cell array. To pass in arrays as separate inputs, use COLLECT.</entry>
+    <entry key="MustBeOneType">All input arrays must have the same type.</entry>
+    <entry key="MustBeOneTypeCell">All elements of the input cell array must have the same type.</entry>
+    <entry key="MustBeOneNonMissing">Must be at least one non-missing input array, or specify the collection member type.</entry>
+    <entry key="InvalidSizeSyntax">Specifying both size and input data is not supported. See the collection documentation for more information.</entry>
+    <entry key="InvalidSize">Size must be a vector of non-negative integer values specifying the shape of the collection.</entry>
+    <entry key="WrongNumNames">Number of names must be the length of the corresponding dimension.</entry>
+    <entry key="WrongLengthNamesCollection">Collection member names must be specified as a collection containing names for each dimension.</entry>
+    <entry key="InvalidNames">Collection member names must be a string array.</entry>
+    <entry key="NonUniqueNames">Collection member names must be unique within each dimension.</entry>
+    <entry key="GetSetNamesInvalidValue">Collection names must be specified as a collection of string vectors.</entry>
+    <entry key="GetSetNamesInvalidDim">Dimension must be specified as an integer from {0,number,integer} to {1,number,integer}.</entry>
+    <entry key="GetSetNamesNonVector">Collection must be a row or a column when calling getnames or setnames with ''vector''.</entry>
+    <entry key="SetNamesNoLHS">Using SETNAMES without assigning to a workspace variable does not modify the collection's names. Use C = SETNAMES(C,NAMES,...).</entry>
+    <entry key="DotMethodSubscripting">Dot method invocation is not supported on a collection. Use {0}(C,...) to call a method on the collection.</entry>
+    <entry key="DotNameSubscripting">Dot subscripting with row, column, ... names is not supported on a collection. Use C'{'''{0}'''}' to access an array in the collection by name.</entry>
+    <entry key="DotSubscripting">Dot subscripting on a collection is supported only for the .Names property. Use brace subscripting to access an array in the collection by name, or functional syntax to call a method on the collection.</entry>
+    <entry key="IndexOutOfRange">Index in position {0,number,integer} exceeds array bounds (must not exceed {1,number,integer}).</entry>
+    <entry key="UnrecognizedName">Unrecognized name ''{0}'' in position {1,number,integer}.</entry>
+    <entry key="InvalidNameSubscript">Collection name subscripts must be strings or character vectors.</entry>
+    <entry key="CatMustBeCollection">All inputs to concatenation must be collections.</entry>
+    <entry key="CatMustBeSameTypes">All inputs to concatenation must be collections containing arrays of the same type.</entry>
+    <entry key="CatMustBeSameShapes">All inputs to concatenation must be collections containing arrays of the same shape.</entry>
+    <entry key="CatNonUniqueNames">Names must be unique along the dimension being concatenated.</entry>
+    <entry key="EqDimsMustAgree">Collection dimensions must agree.</entry>
+    <entry key="IsMemberMustBeCollection">Second input must be a collection.</entry>
+    <entry key="NoPlotMethod">The plot function does is not supported for collections. To plot data in a timetable collection, either ...\n  * Use the stackedplot function, or\n  * Synchronize the timetables in the collection and plot data from the synchronized timetable.</entry>
+    <entry key="StackedplotMode">Second input must be ''byvariable'' or ''bytimetable''.</entry>
+    <entry key="CombineDifferentSizes">Combining members from collections with different sizes is not supported.</entry>
+    <entry key="CombineDimWithMultipleInputs">Dimension input is not supported when combining members from multiple collections.</entry>
+    <entry key="InvalidCombineMethod">Method must be ''vertcat'', ''horzcat'', a positive integer, or a function handle.</entry>
+    <entry key="CombineMethodRequired">Method is required when combining members across multiple working dimensions of a collection.</entry>
+    <entry key="UniteInputMustBeCollection">First input must be a collection.</entry>
+    <entry key="UniteMethodRequired">Method is required.</entry>
+</message>
+</rsccat>

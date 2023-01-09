@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NonDoubleInput">The tsrchnmx function only accepts double arrays.</entry>
+    <entry key="InvalidDimensions">X and XI must be of the same dimension.</entry>
+    <entry key="InvalidTessellation">The triangulation TRI must have one more dimension than X.</entry>
+    <entry key="InvalidInputArguments">Point-to-triangle matrix must be sparse.</entry>
+    <entry key="DidNotConverge">One or more points did not converge.</entry>
+  </message>
+</rsccat>

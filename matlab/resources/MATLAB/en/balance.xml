@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="matrixWithNaNInf">Input to BALANCE must not contain NaN or Inf.</entry>
+    <entry key="unknownSecondArgument">Second argument must be \''noperm\''.</entry>
+    <entry key="noBalanceSparse">Use balance(full(S)).</entry>
+    <entry key="inputType">First argument must be single or double.</entry>
+    <entry key="inputMustBe2D">Input must be 2-D.</entry>
+  </message>
+</rsccat>

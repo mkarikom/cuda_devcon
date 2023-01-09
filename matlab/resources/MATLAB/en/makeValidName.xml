@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2013-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidCandidateNames">First argument must be a string array, character vector, or cell array of character vectors.</entry>
+    <entry key="InvalidPrefix">'Prefix' value must start with a letter, must contain only alphanumeric characters and underscores, and must not be a MATLAB keyword.</entry>
+    <entry key="InvalidReplacementStyle">'ReplacementStyle' must be 'delete', 'underscore', or 'hex'.</entry>
+    <entry key="MissingNames">{0} values not supported for first input argument.</entry>
+    <entry key="TooLongPrefix">Prefix length must be less than or equal to NAMELENGTHMAX.</entry>
+</message>
+</rsccat>

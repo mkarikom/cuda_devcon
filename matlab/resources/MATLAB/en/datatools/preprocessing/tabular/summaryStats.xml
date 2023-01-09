@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- Copyright 2020 MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="Min" note="Minimum value in a vector">Minimum</entry>
+    <entry key="Max" note ="Maximum value in a vector">Maximum</entry>
+    <entry key="Mode" note="The value that occurs most often in the vector">Mode</entry>
+    <entry key="Mean" note="The average value in the vector">Mean</entry>
+    <entry key="Median" note="The middle value in the vector">Median</entry>
+    <entry key="SD" note="The stadard deviation of the values in the vector">Standard Deviation</entry>
+    <entry key="Missing" note="The number of missing values (NaN,NaT,undefined) in the vector">Missing Count</entry>
+    <entry key="Type" note="The data type of the vector">Type</entry>
+    <entry key="Size" note="The size of the vector">Size</entry>
+    <entry key="Unique" note="The number of unique values in the vector">Unique Values</entry>
+    <entry key="Duplicates" note="The number of duplicate values in the vector">Has Duplicates</entry>
+    <entry key="Sorted" note="Indicates in the vector is sorted (either Ascending or Descending)">Is Sorted</entry>
+    <entry key="DataType" note="The data type of the container (e.g. table, timetable, matrix)">Data Type</entry>
+    <entry key="Regular" note="Is the timestamp regularly spaced">Timestamp is Regularly Spaced</entry>
+    <entry key="NumVariables" note="Number of Variables in the table">Number of Variables</entry>
+    <entry key="NumObservations" note="Number of rows in the table">Number of Rows</entry>
+    <entry key="NumColumns" note="Number of rows in the matrix">Number of Rows</entry>
+    <entry key="NumRows" note="Number of columns in the matrix/vector">Number of Columns</entry>
+    <entry key="NumVarsWithMissing" note="Number of Variables with Missing">Number of Variables with Missing</entry>
+    <entry key="NumVarsWithDuplicates" note="Number of Variables with Duplicates">Number of Variables with Duplicates</entry>
+    <entry key="TimestampHasMissing" note="Does the timestamp have Missing">Timestamp has Missing</entry>
+    <entry key="TimestampHasDuplicates" note="Does the timestamp have Duplicates">Timestamp has Duplicates</entry>
+    <entry key="TimestampIsSorted" note="If the timestamp is sorted.">Timestamp Sorted</entry>
+    <entry key="TimestampSortDirectionAscending" note="Smallest to Largest.">Earliest to Latest</entry>
+    <entry key="TimestampSortDirectionDescending" note="Largest to Smallest.">Latest to Earliest</entry>
+    <entry key="True" note="Value is true">True</entry>
+    <entry key="False" note="Value is false">False</entry>
+    <entry key="Outliers" note="The number of outliers detected in the vector">Number of Outliers</entry>
+    <entry key="OutliersTooltip" note="Tooltip for the number of outliers detected in the vector">Detected using a moving median</entry>
+    <entry key="NumVarsWithOutliers" note="Number of Variables with Outliers">Number of Variables with Possible Outliers</entry>
+    
+  </message>
+</rsccat>

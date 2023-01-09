@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LoadError">アセンブリ ''{0}'' を読み込めません。</entry>
+    <entry key="EmptyAssemblyName">アセンブリ名を空にすることはできません。</entry>
+    <entry key="InvalidAssemblyName">NET.addAssembly への入力は、文字ベクトルまたは ''System.Reflection.AssemblyName'' クラスのインスタンスでなければなりません。</entry>
+    <entry key="nameConflict">アセンブリ ''{0}'' は既に ''{1}'' の場所から追加されています。</entry>
+    <entry key="GACLoadError">''{0}'' は .NET Global Assembly Cache (GAC) 内に見つかりません。</entry>
+  </message>
+</rsccat>

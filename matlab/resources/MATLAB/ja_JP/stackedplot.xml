@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Column">{0,number,integer} 列</entry>
+    <entry key="DisplayVariablesTablesOnly">'DisplayVariables' を使用するには、プロット入力が table または timetable でなければなりません。</entry>
+    <entry key="DuplicateDisplayVariables">プロットする変数には、いずれの変数も複数回指定してはなりません。</entry>
+    <entry key="InvalidDisplayVariables">プロットする変数は、入力 table または timetable の変数でなければなりません。</entry>
+    <entry key="InvalidDisplayVariablesIndices">数値インデックスの配列として指定する場合、プロットする変数は {0,number,integer} 以下の正の整数でなければなりません。</entry>
+    <entry key="DisplayVariablesEmptyCells">プロットする変数に空の cell を含めてはなりません。</entry>
+    <entry key="DisplayVariablesInvalidType">プロットする変数は有効なデータ型でなければなりません。</entry>
+    <entry key="UnplottableDisplayVariables">プロットする変数は、数値、logical、datetime、duration、categorical の配列である変数、またはそれ自身が少なくとも 1 つの列をもつ table または timetable である変数を指定しなければなりません。</entry>
+    <entry key="InvalidDisplayLabels">'DisplayLabels' の値は、string 配列か、文字ベクトルまたは数値ベクトルを含む cell 配列でなければなりません。</entry>
+    <entry key="LogicalArraySize">{0} を logical 配列として指定する場合、その長さは {1,number,integer} に等しくなければなりません</entry>
+    <entry key="XLimitsNonIncreasing">'XLimits' の値は単調増加値を含まなければなりません。</entry>
+    <entry key="XVariableTablesOnly">'XVariable' を使用するには、プロット入力が table でなければなりません。</entry>
+    <entry key="InvalidXVariable">'XVariable' を使用するには、入力 table の変数を指定します。</entry>
+    <entry key="InvalidLogicalXVariable">'XVariable' の値が logical 配列である場合、1 つの true 要素を含めなければなりません。</entry>
+    <entry key="XVariableInvalidType">'XVariable' の値は、文字ベクトル、string スカラー、正の整数、または true 要素を 1 つもつ logical 配列でなければなりません。</entry>
+    <entry key="UnplottableXVariable">'XVariable' の値には、数値、logical、datetime、または duration の列ベクトルである table 変数を指定しなければなりません。</entry>
+    <entry key="InvalidLineProperties">'LineProperties' の値は座標軸数と同じ長さでなければなりません。</entry>
+    <entry key="InvalidAxesProperties">'AxesProperties' の値は座標軸数と同じ長さでなければなりません。</entry>
+    <entry key="InvalidColorMatrix">'Color' の値は 1 行 3 列の行ベクトルまたは N 行 3 列の行列のいずれかでなければなりません。N は座標軸内のプロット数です。</entry>
+    <entry key="InvalidMarkerFaceColorMatrix">'MarkerFaceColor' の値は 1 行 3 列の行ベクトルまたは N 行 3 列の行列のいずれかでなければなりません。N は座標軸内のプロット数です。</entry>
+    <entry key="InvalidMarkerEdgeColorMatrix">'MarkerEdgeColor' の値は 1 行 3 列の行ベクトルまたは N 行 3 列の行列のいずれかでなければなりません。N は座標軸内のプロット数です。</entry>
+    <entry key="InvalidLineStyleArray">'LineStyle' の値は座標軸内のプロット数と同じ長さをもつ文字ベクトルまたは文字ベクトルの cell 配列のいずれかでなければなりません。</entry>
+    <entry key="InvalidLineWidthArray">'LineWidth' の値はスカラー、または座標軸内のプロット数と同じ長さをもつベクトルのいずれかでなければなりません。</entry>
+    <entry key="InvalidMarkerStyleArray">'Marker' の値は座標軸内のプロット数と同じ長さをもつ文字ベクトルまたは文字ベクトルの cell 配列のいずれかでなければなりません。</entry>
+    <entry key="InvalidMarkerSizeArray">'MarkerSize' の値はスカラー、または座標軸内のプロット数と同じ長さをもつベクトルのいずれかでなければなりません。</entry>
+    <entry key="InvalidPlotTypeArray">'PlotType' の値は座標軸内のプロット数と同じ長さをもつ文字ベクトルまたは文字ベクトルの cell 配列のいずれかでなければなりません。</entry>
+    <entry key="IncompatibleTableInput">'XData' と 'YData' の値が空でない場合、'SourceTable' の値は指定できません。</entry>
+    <entry key="IncompatibleArrayInput">'SourceTable' の値が空でない場合、'XData' と 'YData' の値は指定できません。</entry>
+    <entry key="InvalidParent">親コンテナーは Figure、uipanel または uitab でなければなりません。</entry>
+    <entry key="DeletedParent">親コンテナーは削除されたグラフィックス オブジェクトです。</entry>
+    <entry key="LegendLabelsInvalidType">'LegendLabels' の値は string 配列または文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="LegendLabelsInvalidSize">'LegendLabels' の値は座標軸内のプロット数と同じ長さをもつベクトルでなければなりません。</entry>
+    <entry key="OverlaidNestedTable">入れ子にされた table または timetable である変数は、他の変数と同じ座標軸を使用してプロットできません。</entry>
+    <entry key="IncompatibleOverlaidTypes">同じ座標軸にプロットされた table 変数の型は互換性がなければなりません。</entry>
+    <entry key="XDataYDataMismatch">X の長さは Y の行数と等しくなければなりません。</entry>
+    <entry key="OneVariableNotShown">{0} が表示されていません。</entry>
+    <entry key="TwoVariablesNotShown">{0} と {1} が表示されていません。</entry>
+    <entry key="ThreeVariablesNotShown">{0}、{1}、およびその他の 1 つの変数が表示されていません。</entry>
+    <entry key="MoreVariablesNotShown">{0}、{1}、およびその他の {2,number,integer} 個の変数が表示されていません。</entry>
+  </message>
+</rsccat>

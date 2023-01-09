@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoJvm">PUBLISH 需要 Java。</entry>
+    <entry key="SourceNotFound">找不到 "{0}"。</entry>
+    <entry key="InvalidOption">选项 "{0}" 无效。请注意，选项区分大小写。</entry>
+    <entry key="NoGIFs">"gif" 为不支持的图像格式。</entry>
+    <entry key="UnknownFormat">格式 "{0}" 不受支持。</entry>
+    <entry key="StylesheetNotFound">指定的样式表 "{0}" 不存在。</entry>
+    <entry key="InvalidBoolean">"{0}" 的值必须为逻辑标量(例如 true)，而不是字符向量 ''true''。</entry>
+    <entry key="InvalidMaxOutputLines">"maxOutputLines" 的值必须为 Inf 或非负整数。</entry>
+    <entry key="MustBeEmptyOrPositiveInteger">选项 ''{0}'' 必须为空或正整数。</entry>
+    <entry key="VectorAndGetframe">imageFormat ''{0}'' 与 figureSnapMethod ''getframe'' 不兼容。</entry>
+    <entry key="VectorSize">设置最大图像高度或宽度与 {0} 文件不兼容，将被忽略。</entry>
+    <entry key="InvalidPDFImageFormat">PDF 输出仅支持 BMP 或 JPEG 图像格式。</entry>
+    <entry key="StopOnErrorDeprecated">不再支持 stopOnError。在代码中使用 TRY/CATCH 可实现类似效果。</entry>
+    <entry key="OffPath">由于设置了 evalCode 选项，PUBLISH 需要运行该文件，但该文件不在 MATLAB 路径中。</entry>
+    <entry key="Shadowed">无法访问该文件，因为它已被 {0} 遮蔽。</entry>
+    <entry key="OnlyCode">只能发布 MATLAB 代码。</entry>
+    <entry key="CannotDelete">无法删除 "{0}"。</entry>
+    <entry key="CannotReadForThumbnail">无法读取最终图像 "{0}" 以创建缩略图。将重试 {1} 次。</entry>
+    <entry key="RecursivePublish">不支持发布包含 publish 函数的脚本。</entry>
+    <entry key="NoFileSpecified">未在包含标记中指定文件名。</entry>
+    <entry key="MkdirFailed">输出目录 "{0}" 不存在并且无法创建。</entry>
+    <entry key="DirNotWritable">输出目录 "{0}" 不可写。</entry>
+    <entry key="FileNotWritable">输出文件 "{0}" 不可写。</entry>
+    <entry key="BeginDifferences">==== 差异开始 ====</entry>
+    <entry key="EndDifferences">==== 差异结束 ====</entry>
+    <entry key="NewSystem">对齐新系统: "{0}"。</entry>
+    <entry key="NewFigure">对齐新图窗 {0}，"{1}"。</entry>
+    <entry key="ChangedSystem">对齐更改的系统: "{0}"。</entry>
+    <entry key="ChangedFigure">对齐更改的图窗 {0}，"{1}"。</entry>
+    <entry key="WordPCOnly">仅 PC 上支持发布到 Microsoft Word。</entry>
+    <entry key="NoWord">必须安装 Microsoft Word 才能发布为此格式。</entry>
+    <entry key="PptPCOnly">仅 PC 上支持发布到 Microsoft PowerPoint。</entry>
+    <entry key="NoPpt">必须安装 Microsoft PowerPoint 才能发布为此格式。</entry>
+    <entry key="PptNotReady">等待 Microsoft PowerPoint 启动时发生超时</entry>
+    <entry key="WordAlreadyOpen">由于已在 Word 中打开了文件 "{0}" 的一个副本，因此无法创建该文件。请关闭文档，然后重试。</entry>
+    <entry key="PublishError">发布错误</entry>
+    <entry key="NotImplemented">未实现: {0}</entry>
+    <entry key="invalidXmlChar">.m 文件必须包含有效的 XML 1.0 标准字符。</entry>
+    <entry key="CannotWriteImage">无法写入 {0}。\nFILEATTRIB 输出为\n{1}</entry>
+  </message>
+</rsccat>

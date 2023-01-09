@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotString">入力は文字ベクトルでなければなりません。</entry>
+    <entry key="ExternalEditorNotFound">外部エディター ''{0}'' が見つかりません。</entry>
+    <entry key="ExternalEditorFailure">外部エディター ''{0}'' を開けません。</entry>
+    <entry key="SlxFile">Simulink ファイル ''{0}'' を編集できません。</entry>
+    <entry key="SLTXFile">Simulink テンプレート ファイル ''{0}'' を編集できません。</entry>
+    <entry key="MlprojFile">プロジェクト アーカイブ ''{0}'' を編集できません。</entry>
+    <entry key="MdlErr">ファイル拡張子を含めない限り、Simulink ファイル ''{0}'' は編集できません。</entry>
+    <entry key="PkgErr">パッケージ ディレクトリ ''{0}'' を編集できません。</entry>
+    <entry key="PFile">P ファイル ''{0}'' を編集できません。</entry>
+    <entry key="MexFile">MEX ファイル ''{0}'' を編集できません。</entry>
+    <entry key="MATFile">Cannot edit the MAT-file ''{0}''.</entry>
+    <entry key="FigFile">Cannot edit the fig file ''{0}''.</entry>
+    <entry key="ProtectedModel">Simulink の保護されたモデル ファイル ''{0}'' を編集できません。</entry>
+    <entry key="SscpFile">Simscape の保護されたファイル ''{0}'' は編集できません。</entry>
+    <entry key="BadDir">ディレクトリ ''{0}'' を編集できません。</entry>
+    <entry key="BadChars">ファイル ''{0}'' は無効な文字を含んでいます。</entry>
+    <entry key="NotSupported">MATLAB エディターは、Java を使用しないとサポートされません。</entry>
+    <entry key="FileNotFound">ファイル ''{0}'' が見つかりません。</entry>
+    <entry key="FilesNotFound">''{0}'' と ''{1}'' のどちらも見つかりません。</entry>
+    <entry key="EditorInstantiationFailure">MATLAB エディターを開けません。</entry>
+    <entry key="NotABreakpoint">入力引数は com.mathworks.mde.editor.breakpoints.MatlabBreakpoint でなければなりません。</entry>
+    <entry key="NotACollection">入力引数は java.util.Collection でなければなりません。</entry>
+    <entry key="NotAFilename">入力引数は MATLAB 文字配列でなければなりません。</entry>
+    <entry key="SLDDFile">データ ディクショナリ ファイル ''{0}'' の編集はサポートされていません。</entry>
+  </message>
+</rsccat>

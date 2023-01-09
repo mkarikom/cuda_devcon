@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2017-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="AmbiguousName" note="stringDatatypeUpdate">Color table contains several names that match the specified character vector.</entry>
+    <entry key="ParseError" note="stringDatatypeUpdate">Invalid color name or hexadecimal color code. Valid names include: 'red', 'green', 'blue', 'cyan', 'magenta', 'yellow', 'black', 'white', and 'none'. A hexadecimal color code must start with '#' and be followed by three or six hexadecimal digits.</entry>
+    <entry key="ValueMustBe3ColumnMatrix">Invalid color. Specify a three-element vector of values between 0 and 1, or a matrix where each row contains three values between 0 and 1.</entry>
+    <entry key="isEqual">Unknown exception in GraphColor:isEqual</entry>
+  </message>
+</rsccat>

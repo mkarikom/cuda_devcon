@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="TooManyInputs">Too many input arguments.</entry>
+    <entry key="InvalidParameterList">Title should be the second arg</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="InvalidTitleType" note="stringDatatypeUpdate">Title should be of type character vector</entry>
+    <entry key="InvalidFirstParameter" note="stringDatatypeUpdate">The first arg should be a handle or struct or title character vector</entry>
+    <entry key="NoFontProperties">No font properties found on this object.</entry>
+
+  </message>
+</rsccat>

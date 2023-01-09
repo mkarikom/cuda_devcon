@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="yearFormat">認識されない年の表示形式です。形式: {0}。</entry>
+    <entry key="quarterFormat">認識されない四半期の表示形式です。形式: {0}。</entry>
+    <entry key="monthFormat">認識されない月の表示形式です。形式: {0}。</entry>
+    <entry key="dayFormat">認識されない日の表示形式です。形式: {0}。</entry>
+    <entry key="ampmFormat">AM/PM 書式が認識されません。形式: {0}。</entry>
+    <entry key="hourFormat">認識されない時間の表示形式です。形式: {0}。</entry>
+    <entry key="minuteFormat">認識されない分の表示形式です。形式: {0}。</entry>
+    <entry key="secondFormat">認識されない秒の表示形式です。形式: {0}。</entry>
+    <entry key="millisecondFormat">認識されないミリ秒の表示形式です。形式: {0}。</entry>
+    <entry key="quarterFormatMismatch">四半期の表示形式で年書式しか使用できない場合があります。形式: {0}。</entry>
+  </message>
+</rsccat>

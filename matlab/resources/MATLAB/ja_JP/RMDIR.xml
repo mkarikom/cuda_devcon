@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidOption">''{0}'' は無効なオプションです。</entry>
+    <entry key="RemovedFromPath">この MATLAB セッションの MATLAB パスから ''{0}'' を削除しました。\n\t詳細は 'doc path' を参照してください。</entry>
+    <entry key="NotADirectory">{0} はディレクトリではありません</entry>
+    <entry key="NoDirectoriesRemoved">ディレクトリは削除されていません。</entry>
+    <entry key="PathNotFound">指定のパスが見つかりませんでした。</entry>
+    <entry key="SomeDirectoriesNotRemoved">{0}</entry>
+  </message>
+</rsccat>

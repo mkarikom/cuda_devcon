@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CannotInterrupt">現在のモードを中止できません。</entry>
+    <entry key="UnregisteredMode">マネージャーに既定のモードを登録しなければなりません。</entry>
+    <entry key="InvalidMode">入力はモードでなければなりません。</entry>
+  </message>
+</rsccat>

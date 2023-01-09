@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badIndexType">ORDER는 숫자형 배열이어야 합니다.</entry>
+    <entry key="tooFewIndices">ORDER는 N차원 배열에 대해 최소 N개 요소를 가져야 합니다.</entry>
+    <entry key="badIndex">ORDER에 유효하지 않은 치환 인덱스가 들어 있습니다.</entry>
+    <entry key="repeatedIndex">ORDER에는 반복된 치환 인덱스가 포함될 수 없습니다.</entry>
+    <entry key="unsupportedType">지원되지 않는 데이터형입니다.</entry>
+    <entry key="sparseNDmatrix">N차원 희소 배열은 지원되지 않습니다.</entry>
+    <entry key="complexIndex">ORDER는 실수여야 합니다.</entry>
+    <entry key="nonIntegerIndex">ORDER는 양의 정수 인덱스를 포함해야 합니다.</entry>
+  </message>
+</rsccat>

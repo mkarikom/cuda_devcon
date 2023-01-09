@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" decorate_cxx_names="true">
+  <message>
+    <entry key="MissingConstrainingOrUnconstrainingData">Missing constraining ({0,number,integer}) or unconstraining ({1,number,integer}) data</entry>
+    <entry key="BadMeshColor">BAD MESHCOLOR VALUES</entry>
+    <entry key="Expected2Or3ElementVector">Value must be a 2 or 3 element vector</entry>
+    <entry key="ExpectedColumnOrRowVector">Value must be a column or row vector</entry>
+    <entry key="ExpectedRowVector">Value must be a row vector</entry>
+    <entry key="ValueMustBe3ElementVector">Color value must be a 3 element numeric vector</entry>
+    <entry key="BadColorValue">Color value contains NaN, or element out of range 0.0 &lt;= value &lt;= 1.0</entry>
+    <entry key="ExpectedHandle">Value must be a handle</entry>
+    <entry key="ValueMustBeNumeric">Value must be numeric</entry>
+    <entry key="ValueMustBe2ElementVector">Value must be a 2 element vector</entry>
+    <entry key="ValuesMustBeIncreasingAndNonNaN">Values must be increasing and non-NaN</entry>
+  <!--Resource entries for src/hgdatatypes-->
+    <entry key="ValueMustBe3Double">Color value must be a 3 element double vector</entry>
+  </message>
+</rsccat>

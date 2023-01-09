@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="sigpipe">내부 오류: Sigpipe 발생</entry>
+    <entry key="XError">이전 X 오류에 대한 코어를 덤프하는 중... 종료</entry>
+    <entry key="XDisconnect">\nX11 디스플레이 서버({0})에 대한 연결이 끊어졌습니다.\n추가 그래픽스 창이 이 세션에 더 이상 표시되지 않을 수 있습니다.\n그래픽스 객체의 인쇄는 계속 가능하며, 모든 명령도 계속 동작할 것입니다.\n현재 세션을 저장하고 종료하는 것이 좋습니다.</entry>
+    <entry key="NoDisplay">디스플레이 ''{0}''을(를) 열 수 없습니다.  화면에 그래픽스를 표시할 수 없습니다.</entry>
+    <entry key="FailedToAllocateMemory">X 서버가 일부 이전 MATLAB 그래픽스 또는 창 요청에 사용할 충분한 메모리를 할당하지 못했습니다.</entry>
+    <entry key="UnsupportedLocale">X는 {0} 로캘을 지원하지 않습니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidCData">CData が無効です。M x N x 3 でなければなりません。IMWRITE を呼び出すことができません。</entry>
+    <entry key="SizeNotReady">サイズが整っていません: {0,number,integer} 行 {1,number,integer} 列 (実際) に対して {2,number,integer} 行 {3,number,integer} 列 (ターゲット)\n</entry>
+    <entry key="ContainerNotDisplayable">コンテナーを表示できません。</entry>
+    <entry key="FigureSizeIncorrect">Figure は希望サイズに到達しませんでした。</entry>
+    <entry key="RequestedSizeTooLarge">要求された出力サイズが大きすぎます。PaperPosition プロパティ値を調整してください。</entry>
+    <entry key="RequestedSizeTooSmall">要求された出力サイズが小さすぎます。PaperPosition プロパティ値を調整してください。</entry>
+    <entry key="FigureMayHaveBeenClosed">Figure が無効になっているため要求された印刷は完了しませんでした。これは印刷を完了する前に Figure が閉じられた場合に発生することがあります。 </entry>
+  </message>
+</rsccat>

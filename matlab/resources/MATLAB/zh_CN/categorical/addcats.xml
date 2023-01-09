@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoBeforeOrAfter">您必须为有序数组指定 'Before' 或 'After'。</entry>
+    <entry key="BeforeAndAfter">指定 'Before' 或 'After'，但不能同时指定这两者。</entry>
+    <entry key="InvalidCategoryName">{0} 必须为字符向量或字符串标量。</entry>
+    <entry key="UnrecognizedCategory">''{0}'' 不是 A 中的类别。</entry>
+  </message>
+</rsccat>

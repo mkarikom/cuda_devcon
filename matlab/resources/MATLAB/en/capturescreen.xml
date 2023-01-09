@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="FigureWindowRequired">getframe requires a valid figure window.</entry>
+    <entry key="WidthAndHeightMustBeAtLeast1">Rectangle width and height must be at least 1 pixel</entry>
+    <entry key="BadObject">A valid figure or axes handle must be specified</entry>
+  <!--Resource entries for src/hg-->
+    <entry key="FigureDestroyedDuringGetFrame">Figure destroyed during getframe</entry>
+    <entry key="FigureNotValidDuringGetFrame">Figure window not valid during getframe</entry>
+    <entry key="RectangleMustBeAtLeastPartiallyOnScreen">The rectangle passed to getframe must be at least partially on screen</entry>
+    <entry key="OnlySupportTrueColor">Getframe/CaptureScreen only support True Color visuals.</entry>
+  <!--Resource entries for src/hgbuiltins-->
+  </message>
+</rsccat>

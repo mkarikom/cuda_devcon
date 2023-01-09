@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badTictocGlobal">global TICTOC은 CLOCK에서 반환되는 벡터여야 합니다.</entry>
+    <entry key="wrongTocArgument">TOC의 인수는 uint64형 스칼라여야 합니다.</entry>
+    <entry key="callTicFirst">TOC을 호출하기 전에 TIC을 먼저 호출해야 합니다.</entry>
+    <entry key="callTicFirstNoInputs">입력 인수 없이 TOC을 호출하기 전에 출력 인수 없이 TIC을 호출해야 합니다.</entry>
+  </message>
+</rsccat>

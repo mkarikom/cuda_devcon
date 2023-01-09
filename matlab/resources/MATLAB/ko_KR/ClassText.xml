@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DISPLAY_BUILTIN_DATA_LABEL">{0} 데이터:</entry>
+    <entry key="DISPLAY_EMPTY_ENUMERATION_LABEL">{0} 비어 있는 {1} 열거형.</entry>
+    <entry key="SCALAR_ENUMERATION_HEADER">{0} 열거형</entry>
+    <entry key="ENUMERATION_ARRAY_HEADER">{0} {1} 열거형 배열</entry>
+    <entry key="DISPLAY_ONE_COLUMN_ENUMERATION_HEADER">열 {0,number,integer}</entry>
+    <entry key="DISPLAY_TWO_COLUMN_ENUMERATION_HEADER">{0,number,integer} ~ {1,number,integer}번 열</entry>
+    <entry key="GET_FUNCTION_NO_GETTABLE_PROPS_LABEL">{0} 클래스에 gettable 속성이 없습니다.</entry>
+    <entry key="METHODS_FUNCTION_INHERITED_METHODS">{0}의 &lt;a href="matlab: methods handle"&gt;메서드&lt;/a&gt;는 {1}에서 상속되었습니다.</entry>
+    <entry key="METHODS_FUNCTION_INHERITED_METHODS_NO_LINKS">{1}의 메서드에 대한 호출 {0}은(는) {2}에서 상속되었습니다.</entry>
+    <entry key="SET_FUNCTION_NO_SETTABLE_PROPS_LABEL">{0} 클래스에 설정 가능한 속성이 없습니다.</entry>
+    <entry key="STATIC_METHODS_LABEL">정적 메서드:</entry>
+    <entry key="NoAbstractMembers">{0} 클래스에 대한 추상 메서드 또는 추상 속성이 없거나, {1} 클래스가 없습니다.</entry>
+    <entry key="AbstractMethodsLabel">{0} 클래스에 대한 추상 메서드</entry>
+    <entry key="AbstractPropertiesLabel">{0} 클래스에 대한 추상 속성</entry>
+    <entry key="AbstractDefinedIn">{0}에 정의되었음</entry>
+    <entry key="instances">\t{0} ({1,number,integer}개 인스턴스)\n</entry>
+    <entry key="oneInstance">\t{0} (1개 인스턴스)\n</entry>
+    <entry key="noInstances">인스턴스 없음\n\n</entry>
+    <entry key="DataTypeNeeded">DataType이 필요함.</entry>
+    <entry key="NonExistentClass">&lt;존재하지 않는 클래스임&gt;</entry>
+    <entry key="first">첫 번째</entry>
+    <entry key="parameterValuePairs">파라미터-값 쌍</entry>
+    <entry key="charStructOrCell">char, struct 또는 cell</entry>
+    <entry key="propertyName">속성 이름</entry>
+    <entry key="aString">문자형 벡터</entry>
+    <entry key="Second">두 번째</entry>
+    <entry key="stringOrCellArray">문자형 벡터 또는 셀형 배열</entry>
+    <entry key="FindFunctionHandleExceptionMsg">'-function' 지시문 다음에는 함수 핸들이 오거나, 속성 이름과 함수 핸들이 와야 합니다.</entry>
+    <entry key="FindOperatorPrecedentExceptionMsg">''{0}'' 연산자 다음에는 논리 연산자가 올 수 없습니다.</entry>
+    <entry key="whichConstructor">{0} 생성자</entry>
+    <entry key="whichDynamic">{0} 메서드</entry>
+    <entry key="whichStatic">정적 메서드 또는 패키지 함수</entry>
+    <entry key="whichBuiltinMethod">{0}은(는) 내장 메서드임</entry>
+    <entry key="whichJavaMethod">{0}은(는) Java 메서드임</entry>
+    <entry key="PassThrough">{0}</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badArray">データ型が無効です。最初の引数は数値配列、論理配列、table、timetable のいずれかでなければなりません。</entry>
+    <entry key="nonNumericTableVar">Table 変数は数値でなければなりません。</entry>
+    <entry key="complexIntegers">データ型が無効です。複素数入力は double または single の配列でなければなりません。</entry>
+    <entry key="invalidMethod">平滑化法は、''movmean''、''movmedian''、''gaussian''、''lowess''、''loess''、''rlowess''、''rloess''、''sgolay'' のいずれかでなければなりません。</entry>
+    <entry key="invalidWinsize">ウィンドウの長さは、正の数値または duration スカラー、あるいは 2 要素の数値ベクトルか duration ベクトルでなければなりません。</entry>
+    <entry key="invalidNanflag">NaN 条件は、''omitnan'' または ''includenan'' でなければなりません。</entry>
+    <entry key="invalidSamplePoints">''SamplePoints'' の値は数値ベクトル、datetime ベクトル、duration ベクトルのいずれかでなければなりません。</entry>
+    <entry key="invalidSmoothingFactor">''SmoothingFactor'' の値は 0 と 1 の間の数値スカラーでなければなりません。</entry>
+    <entry key="invalidNVPair">パラメーター名は、''SamplePoints'' または ''SmoothingFactor'' でなければなりません。</entry>
+    <entry key="invalidNVPairTable">パラメーター名は、''SamplePoints''、''SmoothingFactor'' または ''DataVariables'' でなければなりません。</entry>
+    <entry key="invalidNVPairSGolay">パラメーター名は、''SamplePoints''、''SmoothingFactor'' または ''Degree'' でなければなりません。</entry>
+    <entry key="invalidNVPairTableSGolay">パラメーター名は、''SamplePoints''、''SmoothingFactor''、''DataVariables'' または ''Degree'' でなければなりません。</entry>
+    <entry key="methodAfterOptions">メソッドは名前と値のペアの前になければなりません。</entry>
+    <entry key="nanflagAfterOptions">NaN 条件は名前と値のペアの前になければなりません。</entry>
+    <entry key="duplicateNanflag">オプションの組み合わせが無効です。NaN 条件は 1 回だけ指定してください。</entry>
+    <entry key="nameNoValue">入力引数の数が正しくありません。''{0}'' の後には対応する値を指定しなければなりません。</entry>
+    <entry key="tuneAndWindow">ウィンドウの長さを指定する場合、''SmoothingFactor'' はサポートされません。</entry>
+    <entry key="winsizeNotDuration">データ型が無効です。''SamplePoints'' の値が {0} の場合、ウィンドウの長さは duration でなければなりません。</entry>
+    <entry key="winsizeIsDuration">データ型が無効です。''SamplePoints'' の値が数値の場合、ウィンドウの長さは数値または論理値でなければなりません。</entry>
+    <entry key="noComplexWindows">ウィンドウの長さは実数でなければなりません。</entry>
+    <entry key="needsFiniteWindows">ウィンドウの長さは有限でなければなりません。</entry>
+    <entry key="noComplex">{0} の値は実数でなければなりません。</entry>
+    <entry key="needsFinites">{0} の値は有限でなければなりません。</entry>
+    <entry key="noSparseSamplePoints">スパースな ''SamplePoints'' の値はサポートされません。</entry>
+    <entry key="SamplePointsLength">''SamplePoints'' の値は入力引数と同じ長さのベクトルでなければなりません。</entry>
+    <entry key="SamplePointsDuplicate">{0} の値は一意でなければなりません。</entry>
+    <entry key="SamplePointsSorted">{0} の値は昇順に並べ替えなければなりません。</entry>
+    <entry key="negativeDegree">''Degree'' の値は正の整数でなければなりません。</entry>
+    <entry key="degreeNoSgolay">''Degree'' の値はメソッドが 'sgolay' の場合にのみサポートされます。</entry>
+    <entry key="degreeAutoClash">''Degree'' の値はどのウィンドウにおける点の最大数よりも大きかったため ({0,number,integer})、{1,number,integer} に減らされました。</entry>
+    <entry key="degreeTooLarge">''Degree'' の値は、どのウィンドウにおける点の最大数 ({0,number,integer}) よりも小さくなければなりません。</entry>
+    <entry key="noDimForTable">次元は、最初の引数が table または timetable である場合にはサポートされません。</entry>
+    <entry key="DataVariablesArray">''DataVariables'' パラメーターは、table と timetable の入力に対してのみサポートされます。</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' 関数ハンドルは論理スカラーを返さなければなりません。</entry>
+    <entry key="DataVariablesTableSubscript">''DataVariables'' の値が無効です。</entry>
+    <entry key="SamplePointsTimeTable">''SamplePoints'' パラメーターは timetable の入力ではサポートされていません。</entry>
+    <entry key="invalidWeighting">重み付けインジケーターはスカラーの論理値でなければなりません。</entry>
+    <entry key="invalidRobust">ロバスト重みの次元は、入力配列の次元と一致していなければなりません。</entry>
+    <entry key="invalidSigma">ガウス幅は正のスカラーでなければなりません。</entry>
+    <entry key="noSparseInternal">{0} は非スパースでなければなりません。</entry>
+    <entry key="badArrayCodeGen">データ型が無効です。最初の引数は数値配列、logical 配列、table のいずれかでなければなりません。</entry>
+    <entry key="complexInputWithoutWindow">コード生成では、複素数データにウィンドウ サイズが指定されていなければなりません。</entry>
+    <entry key="methodMustBeConstant">コード生成では、メソッド引数が定数でなければなりません。</entry>
+    <entry key="noWindowDatetimeSP">サンプル点が datetime の場合、コード生成でウィンドウ サイズを指定しなければなりません。</entry>
+  </message>
+</rsccat>

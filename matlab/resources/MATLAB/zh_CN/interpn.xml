@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nargin">输入参数的数目不正确。</entry>
+    <entry key="NotEnoughInputs">输入参数的数目不足。</entry>
+    <entry key="NtimesInvalid">NTIMES 必须为单个数值。</entry>
+    <entry key="NotEnoughPointsNanStrip">有限值不足，无法进行插值。</entry>
+    <entry key="InvalidExtrapval">EXTRAPVAL 必须为标量。</entry>
+    <entry key="NaNstrip">包含 NaN 值的数据列在插值期间已被忽略。</entry>
+    <entry key="InvalidMethod">{0} 为无效方法。</entry>
+    <entry key="narginOrInvalidDimV">输入参数的数目不正确，或者 V 的某些维度小于 2。</entry>
+    <entry key="XNotMonotonic">X1、X2、X3 等必须为单调向量或 NDGRID 生成的数组。</entry>
+  </message>
+</rsccat>

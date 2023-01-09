@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonTable">第一个参数必须为表。</entry>
+    <entry key="NoTimeVarFound">对于行时间，输入表必须包含日期时间或持续时间向量。</entry>
+    <entry key="IncorrectNumberOfRowTimes">行时间必须为日期时间或持续时间向量，其中包含输入时间表中每一行对应的时间。</entry>
+    <entry key="InvalidRowTimes">必须将行时间指定为变量名称或索引，或者指定为日期时间或持续时间向量。</entry>
+    <entry key="VariableNamesNotAccepted">''VariableNames'' 不是有效参数。</entry>
+  </message>
+</rsccat>

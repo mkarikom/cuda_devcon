@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!-- Copyright 2020-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="AliasingSameName"> Renaming a class to the same name ''{0}'' as one of its aliases is not supported.</entry>
+    <entry key="RecentNameFirst"> When renaming a class multiple times, the most recent old name must be the first in the list of old names.</entry>
+    <entry key="NewNameIsBuiltinClass"> Cannot define an alias ''{0}'' for ''{1}'' because ''{1}'' is a MATLAB builtin class. Using a built-in class as the target of an alias definition is not supported.</entry>
+    <entry key="AliasIsBuiltinClass"> Creating an alias with the same name as a built-in class is not supported.</entry>
+    <entry key="CreateAliasFileFailed"> Unable to create alias file in folder ''{0}''.</entry>
+    <entry key="OldNamesChanged">In the alias definition for class ''{0}'', the specified list of aliases differs from a previous definition.  Ensure that all former names for ''{0}'' are specified as aliases in the correct order, with more recent names first.</entry>
+	<entry key="MissingNewClassInAliasFolder"> Unable to write alias definition file in folder ''{1}'' because class ''{0}'' is not defined in the folder.</entry>
+    <entry key="NewNameDefinedMultipleTimes"> The new name ''{0}'' is already in use as a new name in an existing alias definition. The existing definition will be replaced by the alias(es) from the newer alias definition. </entry>
+    <entry key="MultipleAliasesFirstTimeRenaming"> In the alias definition for class ''{0}'', more than one old name has been specified. When adding a new alias for the first time, only one old name is expected. Ensure that all specified old names are former names for ''{0}'', with more recent names first.</entry>
+    <entry key="NewNameIsExistingAlias">The name ''{0}'' is already in use as an old name in the alias definition for class ''{1}''. A name cannot be used as both a new class name and an alias.</entry>
+    <entry key="NameNotValid"> All names in alias definitions must be valid MATLAB identifiers. ''{0}'' is not a valid MATLAB identifier.</entry>
+    <entry note="Example: 1x2 AliasDefinition array showing new and old names:" key="NonScalarDisplayHeader"> {0} {1} array showing new and old names:</entry>
+    <entry note="Example: Named argument 'NewName' must be specified in call to addAlias." key="MissingName">Named argument ''{0}'' must be specified in call to addAlias.</entry>
+    <entry key="NoExistingAliasFile">Unable to find the alias definition file for folder ''{0}''. Check that an alias definition file 'alias.json' is present in a 'resources' subfolder. </entry>
+    <entry key="NoFilePermission">Unable to access the alias definition file for folder ''{0}''. Check file read permissions. </entry>
+    <entry key="OldNamesReordered">The order of aliases has changed in the alias definition for class ''{0}''. Ensure that all former names for ''{0}'' are specified as aliases in the correct order, with more recent names first.</entry>
+    <entry key="OldNamesDropped">One or more existing aliases ({0}) for class ''{1}'' has been dropped. Ensure that all former names for ''{1}'' are specified as aliases in the correct order, with more recent names first.</entry>
+    <entry key="OldNamesAdded">More than one additional alias ({0}) has been added for class ''{1}''.  Ensure that all specified old names are former names for ''{1}'.</entry>
+    <entry key="SameOldName">In the alias definition for class ''{0}'', the same old name has been specified multiple times.</entry>
+    </message>
+</rsccat>

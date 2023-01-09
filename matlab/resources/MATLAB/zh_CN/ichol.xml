@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DiagZeroColZeroBreakdown">输入必须在结构上与结构性非零对角线具有非奇异性。</entry>
+    <entry key="Breakdown">主元为负数。</entry>
+    <entry key="FirstArgNotSparse">第一个参数必须为稀疏值。</entry>
+    <entry key="FirstArgNotDouble">第一个参数必须为双精度值。</entry>
+    <entry key="SecondArgNotStruct">第二个参数必须为 options 结构体。</entry>
+    <entry key="StructTooManyFields">options 结构体中的字段太多。</entry>
+    <entry key="StructTypeNotString">类型字段必须为 ''nofill'' 或 ''ict''。</entry>
+    <entry key="StructMicholNotChar">修改选项必须为 ''on'' 或 ''off''。</entry>
+    <entry key="StructDropTolNonNumeric">调降容差必须为数值。</entry>
+    <entry key="StructDropTolNotReal">调降容差必须为实数。</entry>
+    <entry key="StructDropTolNotScalar">调降容差必须为标量。</entry>
+    <entry key="StructDropTolNeg">调降容差必须为非负数。</entry>
+    <entry key="StructShapeNotString">形状字段必须为 ''lower'' 或 ''upper''。</entry>
+    <entry key="StructDiagCompNonNumeric">对角线补偿参数必须为数值。</entry>
+    <entry key="StructDiagCompNotReal">对角线补偿参数必须为实数。</entry>
+    <entry key="StructDiagCompNotScalar">对角线补偿参数必须为标量。</entry>
+    <entry key="StructDiagCompNeg">对角线补偿参数必须为非负数。</entry>
+    <entry key="InvalidField">options 结构体字段 {0} 无效。</entry>
+  </message>
+</rsccat>

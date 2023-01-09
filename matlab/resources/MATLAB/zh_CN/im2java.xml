@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonRealOrSparseImageData">图像必须为实数，不能是稀疏值。</entry>
+    <entry key="InvalidImageData">图像必须为强度、RGB 或索引图像。</entry>
+    <entry key="InvalidImageClassUint8Uint16Double">强度或 RGB 图像必须为 uint8、uint16 或双精度值。</entry>
+    <entry key="InvalidMapType">MAP 必须为双精度实数，不能是稀疏值。</entry>
+    <entry key="InvalidMapSize">MAP 必须为 M×3 颜色图。</entry>
+    <entry key="InvalidMapLength">MAP 用于 8 位整数存储的颜色太多。</entry>
+    <entry key="InvalidImageDimensions">X 必须具有 2 个维度。</entry>
+    <entry key="IndexOutOfRange">索引图像无效: 索引位于颜色图之外。</entry>
+    <entry key="IndexLessThan1">索引图像无效: 索引小于 1。</entry>
+    <entry key="InvalidImageClassUint8Double">X 必须为 uint8 或双精度值。</entry>
+    <entry key="TooManyInputs">内部问题: 输入参数太多。</entry>
+  </message>
+</rsccat>

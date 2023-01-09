@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FigureDescriptionNumNoChildren">핸들이 표시되는 자식이 없는 Figure {0,number,integer}.</entry>
+    <entry key="FigureDescriptionNumWithChildren">{1} 유형의 자식이 있는 Figure {0,number,integer}.</entry>
+    <entry key="FigureDescriptionNumWithMultipleAxes">{1,number,integer}개의 axes 객체가 있는 Figure {0,number,integer}.</entry>
+    <entry key="FigureDescriptionNumWithSingleAxes">Figure {0,number,integer}.</entry>
+    <entry key="FigureDescriptionNoNumNoChildren">핸들이 표시되는 자식이 없는 Figure.</entry>
+    <entry key="FigureDescriptionNoNumWithChildren">{0} 유형의 자식이 있는 Figure.</entry>
+    <entry key="FigureDescriptionNoNumWithMultipleAxes">{0,number,integer}개의 axes 객체가 있는 Figure.</entry>
+    <entry key="FigureDescriptionNoNumWithSingleAxes">Figure.</entry>
+    <entry key="FigureDescriptionNamedNoChildren">핸들이 표시되는 자식이 없는 {0} Figure.</entry>
+    <entry key="FigureDescriptionNamedWithChildren">{1} 유형의 자식이 있는 {0} Figure.</entry>
+    <entry key="FigureDescriptionNamedWithMultipleAxes">{1,number,integer}개의 axes 객체가 있는 {0} Figure.</entry>
+    <entry key="FigureDescriptionNamedWithSingleAxes">{0} Figure.</entry>
+    <entry key="UntitledCurrentAxesDescriptionEmpty">현재 axes 객체가 비어 있습니다</entry>
+    <entry key="UntitledCurrentAxesDescriptionNonEmpty">현재 axes 객체에 {1} 유형의 객체 {0,number,integer}개가 포함되어 있습니다</entry>
+    <entry key="TitledCurrentAxesDescriptionEmpty">현재 axes 객체 {0}이(가) 비어 있습니다</entry>
+    <entry key="TitledCurrentAxesDescriptionNonEmpty">현재 axes 객체 {0}에 {2} 유형의 객체 {1,number,integer}개가 포함되어 있습니다</entry>
+    <entry key="ChartWithType">현재 차트의 유형은 {0}임</entry>
+    <entry key="EmptyFigure">빈 Figure입니다.</entry>
+    <entry key="UnnamedFigureSingleAxes">Figure에 axes 객체 1개가 포함되어 있습니다.</entry>
+    <entry key="UnnamedFigureMultipleAxes">Figure에 axes 객체 {0,number,integer}개가 포함되어 있습니다.</entry>
+    <entry key="UnnamedFigureNonAxesChildrenMultipleAxes">Figure에 axes 객체 {0,number,integer}개와 {1} 유형의 다른 객체들이 포함되어 있습니다.</entry>
+    <entry key="UnnamedFigureSingleNonAxesChildMultipleAxes">Figure에 axes 객체 {0,number,integer}개와 {1} 유형의 객체가 하나 더 포함되어 있습니다.</entry>
+    <entry key="UnnamedFigureNonAxesChildrenSingleAxes">Figure에 axes 객체 1개와 {0} 유형의 다른 객체들이 포함되어 있습니다.</entry>
+    <entry key="UnnamedFigureSingleNonAxesChildrenSingleAxes">Figure에 axes 객체 1개와 {0} 유형의 객체 1개가 포함되어 있습니다.</entry>
+    <entry key="UnnamedFigureNoAxesWithOtherChildren">Figure에 {0} 유형의 객체가 포함되어 있습니다.</entry>
+    <entry key="UnnamedFigureNoAxesWithOneOtherChild">Figure에 {0} 유형의 객체 1개가 포함되어 있습니다.</entry>
+    <entry key="NamedFigureSingleAxes">Figure {0}에 axes 객체 1개가 포함되어 있습니다.</entry>
+    <entry key="NamedFigureMultipleAxes">Figure {0}에 axes 객체 {1,number,integer}개가 포함되어 있습니다.</entry>
+    <entry key="NamedFigureNonAxesChildrenMultipleAxes">Figure {0}에 axes 객체 {1,number,integer}개와 {2} 유형의 다른 객체들이 포함되어 있습니다.</entry>
+    <entry key="NamedFigureSingleNonAxesChildMultipleAxes">Figure {0}에 axes 객체 {1,number,integer}개와 {2} 유형의 객체가 하나 더 포함되어 있습니다.</entry>
+    <entry key="NamedFigureNonAxesChildrenSingleAxes">Figure {0}에 axes 객체 1개와 {1} 유형의 다른 객체들이 포함되어 있습니다.</entry>
+    <entry key="NamedFigureSingleNonAxesChildSingleAxes">Figure {0}에 axes 객체 1개와 {1} 유형의 객체가 하나 더 포함되어 있습니다.</entry>
+    <entry key="NamedFigureNoAxesWithOtherChildren">Figure {0}에 {1} 유형의 객체가 포함되어 있습니다.</entry>
+    <entry key="NamedFigureNoAxesWithOneOtherChild">Figure {0}에 {1} 유형의 객체 1개가 포함되어 있습니다.</entry>
+    <entry key="UntitledSingleAxesDescriptionEmpty">axes 객체가 비어 있습니다.</entry>
+    <entry key="UntitledSingleAxesDescriptionNonEmpty">axes 객체에 {1} 유형의 객체 {0,number,integer}개가 포함되어 있습니다.</entry>
+    <entry key="UntitledSingleAxesDescriptionSingleObject">axes 객체에 {0} 유형의 객체 1개가 포함되어 있습니다.</entry>
+    <entry key="UntitledSingleChartWithType">axes 객체에 {0} 유형의 차트 1개가 포함되어 있습니다.</entry>
+    <entry key="TitledSingleAxesDescriptionEmpty">제목이 {0}인 axes 객체가 비어 있습니다.</entry>
+    <entry key="TitledSingleAxesDescriptionNonEmpty">제목이 {0}인 axes 객체에 {2} 유형의 객체 {1,number,integer}개가 포함되어 있습니다.</entry>
+    <entry key="TitledSingleAxesDescriptionSingleObject">제목이 {0}인 axes 객체에 {1} 유형의 객체 1개가 포함되어 있습니다.</entry>
+    <entry key="TitledSingleChart">{0} 유형의 차트 제목은 {1}입니다.</entry>
+    <entry key="UntitledMultipleAxesDescriptionEmpty">axes 객체 {0,number,integer}이(가) 비어 있습니다.</entry>
+    <entry key="UntitledMultipleAxesDescriptionNonEmpty">axes 객체 {0,number,integer}에 {2} 유형의 객체 {1,number,integer}개가 포함되어 있습니다.</entry>
+    <entry key="UntitledMultipleAxesDescriptionSingleObject">axes 객체 {0,number,integer}에 {1} 유형의 객체 1개가 포함되어 있습니다.</entry>
+    <entry key="UntitledMultipleChartWithType">axes 객체 {0,number,integer}은(는) {1} 유형의 차트입니다.</entry>
+    <entry key="TitledMultipleAxesDescriptionEmpty">제목이 {1}인 axes 객체 {0,number,integer}이(가) 비어 있습니다.</entry>
+    <entry key="TitledMultipleAxesDescriptionNonEmpty">제목이 {1}인 axes 객체 {0,number,integer}에 {3} 유형의 객체 {2,number,integer}개가 포함되어 있습니다.</entry>
+    <entry key="TitledMultipleAxesDescriptionSingleObject">제목이 {1}인 axes 객체 {0,number,integer}에 {2} 유형의 객체 1개가 포함되어 있습니다.</entry>
+    <entry key="TitledMultipleChartWithType">제목이 {1}인 axes 객체 {0,number,integer}은(는) {2} 유형의 차트입니다.</entry>
+    <entry key="AxesNamedChildren">이러한 객체는 {0}을(를) 나타냅니다.</entry>
+    <entry key="AxesNamedSingleChild">이 객체는 {0}을(를) 나타냅니다.</entry>
+  </message>
+</rsccat>

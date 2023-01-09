@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CantUnstackRowLabels">Unstacking timetable row times is not supported. Use TIMETABLE2TABLE to create table containing those row times as a variable.</entry>
+    <entry key="CantUnstackWithRowLabelsIndicator">Unstacking timetable using row times as the indicator variable is not supported. Use TIMETABLE2TABLE to create table containing those row times as a variable.</entry>
+  </message>
+</rsccat>

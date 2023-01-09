@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CreatingEmptyTimeSeries">不允许通过删除所有行来创建空时序。对于多余 1 列的时序，由于所有行在所选间隔内至少有一个样本，因此可能会发生该情况。</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+  </message>
+</rsccat>

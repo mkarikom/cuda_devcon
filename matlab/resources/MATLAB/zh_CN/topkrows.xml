@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MustBeMatrix">输入数组必须为向量或矩阵。</entry>
+    <entry key="complexIntegers">不支持复整数。 </entry>
+    <entry key="MustNotBeCell">元胞数组必须包含字符向量。</entry>
+    <entry key="InvalidK">要返回的行数必须为非负整数。</entry>
+    <entry key="ColNotIndexVec">列排序向量必须包含介于 1 和第一个参数中的列数之间的正整数。</entry>
+    <entry key="SortRowsMode">排序方向必须为 ''descend'' 或 ''ascend''。</entry>
+    <entry key="NumDirectionsThird">排序方向必须指定一个方向，或者为第一个参数中的每一列都指定方向。</entry>
+    <entry key="NumDirectionsFourth">排序方向必须指定一个方向，或者为列排序向量的每一个元素都指定方向。</entry>
+    <entry key="ThirdArgumentType">第三个参数必须指定列排序向量或排序方向。</entry>
+    <entry key="FourthArgumentType">排序方向必须为字符向量或字符向量元胞数组。</entry>
+    <entry key="InvalidAbsRealType">仅当输入数组为数值或逻辑数组时，才支持 ''ComparisonMethod'' 参数。</entry>
+    <entry key="InvalidComparison">''ComparisonMethod'' 值必须为 ''auto''、''abs'' 或 ''real''。</entry>
+    <entry key="NameValueNames">参数名称必须为 'ComparisonMethod'。</entry>
+    <entry key="NameValuePairs">输入参数的数目不正确。参数名称和值必须成对出现。</entry>
+    <entry key="InvalidX">数据类型无效。第一个参数必须为数值、逻辑值、分类或字符数组或者字符元胞数组。</entry>
+    <entry key="CellsNotSupported">对于代码生成，不支持 'topkrows' 的元胞数组输入。</entry>
+  </message>
+</rsccat>

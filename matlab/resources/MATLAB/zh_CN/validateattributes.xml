@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="attributeNotFound">不支持属性 {0}。</entry>
+    <entry key="attributeBadClass">不支持类 {0} 的属性。</entry>
+    <entry key="notEnoughArguments">属性 {0} 的参数数目不足。</entry>
+    <entry key="badComparison">{0} 的值必须为实数标量。</entry>
+    <entry key="UnsupportedTypeForComparison">{1} 的 VALIDATEATTRIBUTES 中不支持类型 {0}。</entry>
+    <entry key="badSizeArray">参数 ''size'' 必须后跟实整数数组。</entry>
+    <entry key="badDimsArray">参数 ''ndims'' 必须后跟大于 1 的实整数值。</entry>
+    <entry key="TooManyUnknownDims">验证属性的未知维度太多。</entry>
+    <entry key="badClassList">有效的数据类型必须为字符串向量或字符向量元胞数组。</entry>
+    <entry key="missingValueInClassList">有效的数据类型不得包含缺失值。</entry>
+    <entry key="badAttributeList">有效属性必须为元胞数组或字符串数组。</entry>
+    <entry key="missingValueInAttributeList">有效的属性不得包含缺失值。</entry>
+    <entry key="badFunctionNameString">函数名称必须为 ASCII 字符串标量或字符向量。</entry>
+    <entry key="badFunctionName">第四个参数必须为用于指定函数名称的 ASCII 字符串标量或字符向量，或者为用于指定参数位置的双精度标量。</entry>
+    <entry key="badVariableName">第五个参数必须是用于指定输入变量名称的字符串标量或字符向量。</entry>
+    <entry key="badArgPositionClass">最后一个参数必须是数值标量或为空，以便指定参数位置。</entry>
+    <entry key="badArgPosition">最后一个参数必须为正整数。</entry>
+    <entry key="badArgument">参数 ''{0}'' 必须后跟非负标量实整数。</entry>
+    <entry key="NoNameNoNumber">输入</entry>
+    <entry key="NoNameNumber">第 {0,number,integer} 个输入</entry>
+    <entry key="NameNumber">第 {0,number,integer} 个输入, {1},</entry>
+    <entry key="expectedArray">{0} 应为包含所有值 {1} {2} 的数组。</entry>
+    <entry key="expectedArrayEqual">{0} 应为 {1} 等于 {2} 的数组。</entry>
+    <entry key="expectedScalar">{0} 应为具有值 {1} {2} 的标量。</entry>
+    <entry key="expectedScalarEqual">{0} 应为 {1} 等于 {2} 的标量。</entry>
+    <entry key="expectedSize">{0} 的大小应为 {1}，但实际大小为 {2}。</entry>
+    <entry key="expected">{0} 应为 {1}。</entry>
+    <entry key="invalidType">{0} 应为以下类型之一:\n\n{1}\n\n但其类型是 {2}。</entry>
+    <entry key="invalidTypeSolutionSentence">{0} 应为以下类型之一:\n\n{1}</entry>
+    <entry key="invalidTypeProblemSentence">\n\n但其类型为 {0}。</entry>
+    <entry key="real">实数</entry>
+    <entry key="vector">向量</entry>
+    <entry key="row">行向量</entry>
+    <entry key="column">列向量</entry>
+    <entry key="scalar">标量</entry>
+    <entry key="square">方阵</entry>
+    <entry key="twod">二维</entry>
+    <entry key="threed">三维</entry>
+    <entry key="nonsparse">非稀疏</entry>
+    <entry key="nonempty">非空</entry>
+    <entry key="integer">整数值</entry>
+    <entry key="nonnegative">非负</entry>
+    <entry key="positive">正值</entry>
+    <entry key="nonnan">非 NaN</entry>
+    <entry key="finite">有限</entry>
+    <entry key="nonzero">非零</entry>
+    <entry key="even">偶数</entry>
+    <entry key="odd">奇数</entry>
+    <entry key="binary">二进制</entry>
+    <entry key="builtin">mxArray 原始类型</entry>
+    <entry key="numel">元素数目</entry>
+    <entry key="nrows">行数</entry>
+    <entry key="ncols">列数</entry>
+    <entry key="ndims">维数</entry>
+    <entry key="diag"> 对角矩阵</entry>
+    <entry key="increasing">严格递增</entry>
+    <entry key="decreasing">严格递减</entry>
+    <entry key="nondecreasing">单调递增</entry>
+    <entry key="nonincreasing">单调递减</entry>
+    <entry key="scalartext">非缺失字符串标量或字符向量</entry>
+    <entry key="NameNoNumber">{0}</entry>
+  </message>
+</rsccat>

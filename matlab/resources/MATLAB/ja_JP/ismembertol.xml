@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnsupportedTypeForA">入力 A は、single または double 型の実数の非スパース行列でなければなりません。</entry>
+    <entry key="MoreThan2D">ByRows オプションを使用する場合、入力は 2 次元でなければなりません。</entry>
+    <entry key="UnsupportedTypeForB">入力 B は、single または double 型の実数の非スパース行列でなければなりません。</entry>
+    <entry key="IncorrectSizeInputs">入力 A と B は同じ列数でなければなりません。</entry>
+    <entry key="DataSpaceShouldBeSize1">DataScale は 1 つの値をもたなければなりません。</entry>
+    <entry key="IncorrectSizeOfDataSpace">ByRows オプションを使用する場合、DataScale 値は、スカラーまたは A の列と同じ要素数をもつベクトルでなければなりません。</entry>
+    <entry key="InvalidDataScale">DataScale パラメーターの値は、single または double 型をもつ、正の NaN でない数値スカラーまたはベクトルでなければなりません。</entry>
+    <entry key="InvalidByRowsValue">ByRows パラメーターの値は、論理値でなければなりません。</entry>
+    <entry key="InvalidOutputAllIndices">OutputAllIndices パラメーターの値は、論理値でなければなりません。</entry>
+    <entry key="UnknownOptions">不明なオプションが指定されました。有効なオプションのリストは、ヘルプを参照してください。</entry>
+    <entry key="UnsupportedTypeForTol">許容誤差の値 TOL は、single または double 型をもつ、実数でフル (非スパース) の正の数値スカラーでなければなりません。</entry>
+    <entry key="TolIsNaN">Tolerance*DataSpace に NaN が含まれています。</entry>
+  </message>
+</rsccat>

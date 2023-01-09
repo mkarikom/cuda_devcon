@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DuplicateVars">분할할 변수 목록에는 변수가 두 번 이상 지정되지 않아야 합니다.</entry>
+    <entry key="IncorrectNumVarnamesMultisplit">여러 변수를 분할할 때 새 변수 이름을 지정하려면, 분할되는 변수의 각 열에 대응하는 새 변수 이름들을 각각의 셀에 포함한 셀형 배열을 제공하십시오.</entry>
+    <entry key="VartypeInvalidVars">vartype을 사용해서는 분할할 변수를 지정할 수 없습니다. 문자형 벡터, string형 배열, 문자형 벡터로 구성된 셀형 배열, 숫자형 인덱스 또는 논리형 인덱스를 사용하십시오.</entry>
+    <entry key="NewVarNamesMustBeConstant">Specify 'NewVariableNames' as Constant.</entry>
+  </message>
+</rsccat>

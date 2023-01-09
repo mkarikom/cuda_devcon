@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="XNotVector">첫 번째 입력값은 벡터여야 합니다.</entry>
+    <entry key="XComplex">첫 번째 입력값은 실수여야 합니다.</entry>
+    <entry key="XYType">첫 번째 입력값과 두 번째 입력값은 double형 또는 single형이어야 합니다.</entry>
+    <entry key="XQType">보간 지점은 double형 또는 single형이어야 합니다.</entry>
+    <entry key="XQComplex">보간 지점은 실수여야 합니다.</entry>
+    <entry key="NotEnoughPts">처음 두 개의 입력값은 적어도 2개의 요소를 가지고 있어야 합니다.</entry>
+    <entry key="RepeatedSites">첫 번째 입력값은 서로 고유한 값을 포함해야 합니다.</entry>
+    <entry key="EndslopeNaN">끝점 기울기는 NaN이어야 합니다.</entry>
+    <entry key="EndslopeInf">끝점 기울기는 Inf여야 합니다.</entry>
+    <entry key="NumSitesMismatchValues">샘플 점 X의 개수 {0,number,integer}이(가) 값 Y의 개수 {1,number,integer}과(와) 맞지 않습니다.</entry>
+    <entry key="IgnoreNaN">첫 번째 입력값과 두 번째 입력값의 모든 NaN 요소는 무시되었습니다.</entry>
+  </message>
+</rsccat>

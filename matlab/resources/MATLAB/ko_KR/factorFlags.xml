@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidFlag">옵션은 ''upper'', ''lower'', ''matrix'', ''vector'' 중 하나여야 합니다.</entry>
+    <entry key="invalidFlagCombination">유효하지 않은 옵션 조합입니다.</entry>
+    <entry key="invalidPermFlag">옵션은 ''matrix'' 또는 ''vector''여야 합니다.</entry>
+    <entry key="invalidShapeFlag">옵션은 ''upper'' 또는 ''lower''여야 합니다.</entry>
+  </message>
+</rsccat>

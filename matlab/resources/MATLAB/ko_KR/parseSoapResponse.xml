@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadXml">서버의 응답이 유효한 XML이 아닙니다:\n\n{0}</entry>
+    <entry key="SoapFault">SOAP 오류: {0}</entry>
+    <entry key="NonUnique">요소가 고유하지 않습니다.</entry>
+    <entry key="BadBoolean">Boolean 값이 true도 아니고 false도 아닙니다.</entry>
+  </message>
+</rsccat>

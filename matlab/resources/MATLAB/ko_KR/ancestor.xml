@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Assert">첫 번째 인수는 배열이 아닌 핸들 벡터여야 합니다.</entry>
+    <entry key="NoAncestorSpecified">선조 유형을 지정하지 않음</entry>
+    <entry key="InvalidSecondInputArgumentType">그래픽스 객체 유형을 문자형 벡터, string형 배열 또는 문자형 벡터로 구성된 셀형 배열로 지정하십시오.</entry>
+    <entry key="InvalidArgument">''선조''에 대한 세 번째 인수는 문자형 벡터 ''toplevel''이어야 함</entry>
+  </message>
+</rsccat>

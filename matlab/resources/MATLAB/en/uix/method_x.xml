@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CannotCreateClipMask">X Server cannot create clip mask</entry>
+    <entry key="CannotCaptureRectangles">Rectangles which include areas outside a figure can not be captured unless the figure uses the default visual</entry>
+    <entry key="UnableToAllocateOffscreenBuffer">unable to allocate offscreen buffer for DoubleBuffering</entry>
+  <!--Resource entries for src/uix-->
+    <entry key="CannotDock">Cannot dock non-Java figure</entry>
+  </message>
+</rsccat>

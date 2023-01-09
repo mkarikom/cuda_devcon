@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WrongSize">1 レベルのインデックスのみ {0} でサポートされます。</entry>
+    <entry key="TypeField">subsasgn の入力の構造体は、文字配列を含むフィールド ''type'' をもたなければなりません。</entry>
+    <entry key="SubsField">subsasgn の入力の構造体は、セル配列または文字配列を含むフィールド ''subs'' をもたなければなりません。</entry>
+    <entry key="SmoothParenAssignmentOnly">''()'' インデックスのみ {0} への値の割り当てをサポートします。</entry>
+    <entry key="KeysPropAccess">マップのキーを変更することはできません。追加と削除のみ可能です。\nマップの内容を変更するには次の構文を使用してください: mapObj(key) = value。</entry>
+    <entry key="ValuesPropAccess">マップの値は個々のキーについてのみ設定できます。\nキーの値を設定するには次の構文を使用してください: mapObj(key) = value。</entry>
+    <entry key="NonScalarAssign">{0} オブジェクトを配列に割り当てられません。</entry>
+  </message>
+</rsccat>

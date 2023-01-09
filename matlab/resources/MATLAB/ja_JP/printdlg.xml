@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidVersion">この関数を実行できるのは、feature(HGUsingMATLABClasses) == 0 のときのみです。</entry>
+    <entry key="invalidFigInput">FIG の入力はスカラーでなければなりません</entry>
+    <entry key="InvalidFigureHandle">PRINTDLG は 1 つの Figure ハンドルが必要です</entry>
+    <entry key="invalidFlags">-crossplatform フラグと -setup フラグは削除されました。</entry>
+    <entry key="invalidFigure">FIG 引数は Figure のハンドルでなければなりません。</entry>
+    <entry key="tooManyArgs">printdlg への引数が多すぎます。</entry>
+    <entry key="oldPrintdlgUsage">この構文は将来のリリースでは削除される予定です。\nprintpreview における printdlg の正しい使用法および同様の機能については、ドキュメンテーションを参照してください。\n\n  &lt;a href="{0}"&gt;help printdlg&lt;/a&gt;, &lt;a href="{1}"&gt;doc printdlg&lt;/a&gt;\n\n  &lt;a href="{2}"&gt;help printpreview&lt;/a&gt;, &lt;a href="{3}"&gt;doc printpreview&lt;/a&gt;\n\n</entry>
+  </message>
+</rsccat>

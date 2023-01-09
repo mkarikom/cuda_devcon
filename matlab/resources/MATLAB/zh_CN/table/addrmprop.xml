@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NumDimsMismatch">所列元素的数量必须与新的自定义属性名称的数量相匹配。为每个新自定义属性指定 ''table" 或 "variable''。</entry>
+    <entry key="PropNamesMustBeText">自定义属性名称必须为字符向量、字符串数组或字符向量元胞数组。</entry>
+    <entry key="MultiplicityMustBeText">对于每个自定义属性，请指定 ''variable'' 或 ''table'' 以指示属性是应用于变量还是作为整体应用于表。使用字符串数组或字符向量元胞数组指定这些设置。</entry>
+    <entry key="DuplicateCustomProps">Duplicate custom property name: ''{0}''</entry>
+    <entry key="DuplicatesExistingCustomProps"> New custom property name ''{0}'' conflicts with existing ''{1}'' custom property ''{0}''.</entry>
+    <entry key="NoLHS">使用 {0} 而不赋值给工作区变量将不会修改表的自定义属性。使用 t = {0}(t{1})。</entry>
+    <entry key="InvalidPropName">''{0}'' 不是有效的自定义属性名称。</entry>
+  </message>
+</rsccat>

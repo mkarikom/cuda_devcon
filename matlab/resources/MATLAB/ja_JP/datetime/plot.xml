@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DatetimeDurationSameAxes">datetime と期間の両方を同じチャートにプロットすることはできません。いずれかを数値に変換してください。</entry>
+    <entry key="DataPairsMismatch">データは単一の datetime 配列 Y、または X と Y の組み合わせのリストでなければなりません。</entry>
+    <entry key="DifferentTypeSameAxis">datetime または期間を、他のタイプと共に同じ軸上でプロットすることはできません。</entry>
+    <entry key="MultipleTickFormats">複数の目盛り形式のパラメーターは指定できません。</entry>
+    <entry key="TickFormatMismatch">{0} は有効なパラメーターではありません。</entry>
+    <entry key="UnmatchedTickFormat">''{0}'' に値が指定されていません。名前と値のペアの引数では、名前の後に値がくる必要があります。</entry>
+    <entry key="LogScaleNotSupported">対数スケールは時間軸ではサポートされていません。軸のスケールは変更されません。 </entry>
+    <entry key="ItemDisabled">(日付と時刻または期間のプロットを含む Figure に対しては無効)</entry>
+  </message>
+</rsccat>

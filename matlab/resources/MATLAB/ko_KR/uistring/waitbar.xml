@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Cancel">취소</entry>
+    <entry key="WarningCouldNotSetPropertyValue">속성값을 설정할 수 없음\n속성: {0}\n값: {1}\n</entry>
+    <entry key="WaitbarLabel">대기 표시줄(Waitbar)</entry>
+  </message>
+</rsccat>

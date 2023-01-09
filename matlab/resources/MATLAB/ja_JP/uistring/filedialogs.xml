@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DialogNoVariablesToSave">保存する変数がありません</entry>
+    <entry key="DialogTheseVariablesNotFound">次の変数が見つかりません:</entry>
+    <entry key="SaveWorkspaceVariables">ワークスペース変数の保存</entry>
+    <entry key="SelectFileToOpen">開くファイルを選択</entry>
+    <entry key="SelectFileToWrite">書き込むファイルを選択</entry>
+    <entry key="SelectDirectoryToOpen">開くフォルダーの選択</entry>
+    <entry key="AllFilesDescription">すべてのファイル</entry>
+  </message>
+</rsccat>

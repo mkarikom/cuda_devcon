@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="APP_TASK_PREVIEW_LABEL">预览</entry>
+    <entry key="APP_TASK_AXES_PANEL_TITLE">预览可视化</entry>
+    <entry key="APP_TASK_TABLE_PANEL_TITLE">表格数据预览</entry>
+    <entry key="CLEANED_TABLE_TITLE">清理后的数据</entry>
+    <entry key="ORIGINAL_TABLE_TITLE">清理前的数据</entry>
+    <entry key="CUSTOM_PP_DIALOG_TITLE">自定义预处理创建工具</entry>
+    <entry key="CUSTOM_PP_DIALOG_NAME">名称</entry>
+    <entry key="CUSTOM_PP_DIALOG_DESCRIPTION">说明</entry>
+    <entry key="CUSTOM_PP_DIALOG_FUN_PREVIEW">函数预览</entry>
+    <entry key="CUSTOM_PP_DIALOG_OUTPUT">输出</entry>
+    <entry key="CUSTOM_PP_DIALOG_FUNCTION">函数</entry>
+    <entry key="CUSTOM_PP_DIALOG_VARIABLE">变量</entry>
+    <entry key="CUSTOM_PP_DIALOG_INPUT">输入 {0}</entry>
+    <entry key="CUSTOM_PP_DIALOG_ADD_INPUT">添加另一个输入</entry>
+    <entry key="CUSTOM_PP_DIALOG_NAMED_PARAMETER">命名参数?</entry>
+    <entry key="CUSTOM_PP_DIALOG_DELETE_INPUT">删除输入</entry>
+    <entry key="CUSTOM_PP_DIALOG_OK">确定</entry>
+    <entry key="CUSTOM_PP_DIALOG_CANCEL">取消</entry>
+    <entry key="CUSTOM_PP_DIALOG_ADDTOGALLERY">添加到库?</entry>
+    <entry key="CUSTOM_PP_DIALOG_NEWVARIABLENAME">新变量前缀</entry>
+    <entry key="CUSTOM_PP_DIALOG_VARIABLENAME">变量名称</entry>
+    <entry key="CUSTOM_PP_DIALOG_TABLEVARNAME">表变量名称</entry>
+    <entry key="CUSTOM_PP_DIALOG_TABLEANDVAR">表.(变量)</entry>
+    <entry key="CUSTOM_PP_DIALOG_TABLEANDNEWVAR">表.(新变量)</entry>
+    <entry key="CUSTOM_PP_DIALOG_VARCOLUMN">变量(列)</entry>
+    <entry key="CUSTOM_PP_DIALOG_USER_INPUT">用户输入</entry>
+    <entry key="CUSTOM_PP_DIALOG_CONSTANT">常量</entry>
+    <entry key="CUSTOM_PP_DIALOG_CONSTANT_VALUE">常量值</entry>
+    <entry key="CUSTOM_PP_DIALOG_SELECT_DATA_GROUP">选择数据</entry>
+    <entry key="CUSTOM_PP_DIALOG_INPUT_ARGS_GROUP">输入参数</entry>
+    <entry key="USER_AUTHORED_TASKS_SELECT_A_VARIABLE">选择变量</entry>
+    <entry key="CUSTOM_CODE_TASK_VARIABLENAME">变量名称</entry>
+    <entry key="CUSTOM_CODE_TASK_DESCRIPTION">说明</entry>
+    <entry key="CUSTOM_CODE_TASK_REQUIRED_DESCRIPTION">说明是必填字段</entry>
+    <entry key="CUSTOM_CODE_TASK_DEFAULT_DESCRIPTION">我的自定义代码说明</entry>
+    <entry key="CUSTOM_CODE_TASK_CODE">代码</entry>
+    <entry key="CUSTOM_CODE_TASK_PREVIEW">预览</entry>
+    <entry key="CUSTOM_CODE_TASK_TASKNAME">插入一个时间脚本</entry>
+    <entry key="CUSTOM_CODE_TASK_TASKDESCRIPTION">将自定义预处理脚本添加到历史记录</entry>
+    <entry key="CUSTOM_CODE_TASK_MODIFY_COMMENT">修改此代码</entry>
+    <entry key="CUSTOM_CODE_ERROR_DIALOG_TITLE">运行自定义函数时出错</entry>
+    <entry key="CUSTOM_CODE_ERROR_DUP_TIMESTAMPS_TITLE">重复的时间戳</entry>
+    <entry key="CUSTOM_CODE_ERROR_DUP_TIMESTAMPS_MSG">时间表应有唯一时间戳。请清除时间戳并重试。</entry>
+  </message>
+</rsccat>

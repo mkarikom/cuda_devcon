@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidVersion">只有当 feature(HGUsingMATLABClasses) == 0 时，才能运行此函数。</entry>
+    <entry key="invalidFigInput">FIG 输入必须为标量</entry>
+    <entry key="InvalidFigureHandle">PRINTDLG 需要单个图窗句柄</entry>
+    <entry key="invalidFlags">-crossplatform 和 -setup 标志已删除。</entry>
+    <entry key="invalidFigure">FIG 参数必须为图窗句柄。</entry>
+    <entry key="tooManyArgs">printdlg 的参数太多。</entry>
+    <entry key="oldPrintdlgUsage">未来的版本中将会删除此语法。\n请参阅相应文档，了解正确的 printdlg 用法和 printpreview 的类似功能:\n\n  &lt;a href="{0}"&gt;帮助 printdlg&lt;/a&gt;、&lt;a href="{1}"&gt;文档 printdlg&lt;/a&gt;\n\n  &lt;a href="{2}"&gt;帮助 printpreview&lt;/a&gt;、&lt;a href="{3}"&gt;文档 printpreview&lt;/a&gt;\n\n</entry>
+  </message>
+</rsccat>

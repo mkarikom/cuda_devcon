@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="OpenVariableAction">선택 항목 열기</entry>
+    <entry key="SaveVariablesAction">다른 이름으로 저장...</entry>
+    <entry key="DuplicateVariableAction">복제</entry>
+    <entry key="DeleteVariableAction">삭제</entry>
+    <entry key="InsertVariableAction">삽입</entry>
+    <entry key="NewDoubleVariableAction">새로 만들기</entry>
+    <entry key="SaveAllVariablesAction">저장</entry>
+    <entry key="NewFromSelection">선택 항목에서 새로 만들기</entry>
+    <entry key="ClearWorkspaceAction">작업 공간 지우기</entry>
+    <entry key="SelectAllDataAction">모두 선택</entry>
+    <entry key="InvertSelection">선택 반전</entry>
+    <entry key="RefreshWorkspaceAction">새로 고침</entry>
+    <entry key="RenameAction">이름 바꾸기</entry>
+    <entry key="EditValueAction">값 편집</entry>
+    <entry key="PrintAction">인쇄...</entry>
+    <entry key="Field">필드</entry>
+    <entry key="Name">이름</entry>
+    <entry key="Value">값</entry>
+    <entry key="Size">크기</entry>
+    <entry key="Bytes">바이트</entry>
+    <entry key="Class">클래스</entry>
+    <entry key="Property">속성</entry>
+    <entry key="Min">최솟값</entry>
+    <entry key="Max">최댓값</entry>
+    <entry key="Mean">평균</entry>
+    <entry key="Median">중앙값</entry>
+    <entry key="Mode">최빈값</entry>
+    <entry key="Range">범위</entry>
+    <entry key="Var">분산</entry>
+    <entry key="Std">표준편차</entry>
+    <entry key="SortAscending">오름차순 정렬</entry>
+    <entry key="SortDescending">내림차순 정렬</entry>
+    <entry key="DeleteColumnVariable">테이블 열 변수 삭제</entry>
+    <entry key="DeleteRowVariable">행 삭제</entry>
+    <entry key="NewWorkspaceVariable">선택 항목으로 새 작업 공간 변수 만들기</entry>
+    <entry key="NewTable">새 테이블</entry>
+    <entry key="NewTimeTable">새 타임테이블</entry>
+    <entry key="SeparateWorkspaceVariable">별도의 작업 공간 변수</entry>
+    <entry key="ConvertTo">다음으로 변환</entry>
+    <entry key="NewNumericArray">새 숫자형 배열</entry>
+    <entry key="NewCharacterArray">새 문자형 배열</entry>
+    <entry key="NewCellArray">새 셀형 배열</entry>
+    <entry key="NewStringArray">새 string형 배열</entry>
+    <entry key="UngroupColumnVariable">테이블 열 변수 그룹화 해제</entry>
+    <entry key="GroupColumnVariable">테이블 열 변수 그룹화</entry>
+    <entry key="TransformColumn">신규/변환 열 변수 계산</entry>
+    <entry key="DeleteColumn">열 삭제</entry>
+    <entry key="DeleteRow">행 삭제</entry>
+    <entry key="ReplaceWithText">바꾸기...</entry>
+    <entry key="ReplaceWithZero">0으로 바꾸기</entry>
+    <entry key="Zero">0</entry>
+    <entry key="NaNs">NaN</entry>
+    <entry key="Constant">상수...</entry>
+    <entry key="ReplaceWithMissing">누락값으로 바꾸기</entry>
+    <entry key="ReplaceWithEmpty">공백으로 바꾸기</entry>
+    <entry key="Transpose">변수 전치</entry>
+    <entry key="InsertColumnLeft">왼쪽에 열 삽입</entry>
+    <entry key="InsertColumnRight">오른쪽에 열 삽입</entry>
+    <entry key="InsertRowAbove">위에 행 삽입</entry>
+    <entry key="InsertRowBelow">아래에 행 삽입</entry>
+    <entry key="NewCategoricalArray">새 categorical형 배열</entry>
+    <entry key="NewDatetimeArray">새 datetime형 배열</entry>
+    <entry key="NewDurationArray">새 duration형 배열</entry>
+    <entry key="NewCalendarDurationArray">새 calendarDuration형 배열</entry>
+    <entry key="NewStructureArray">새 구조체형 배열</entry>
+    <entry key="NewRowVectors">새 행 벡터</entry>
+    <entry key="NewColumnVectors">새 열 벡터</entry>
+    <entry key="OpenSelection">선택 항목 열기</entry>
+    <entry key="DeleteField">필드 삭제</entry>
+    <entry key="BrushingOn">브러싱 켜기</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Removal">cameramenu は将来のリリースで削除される予定です。代わりに cameratoolbar を使用してください。</entry>
+    <entry key="OpenGLNotAvailable">OpenGL の描画方法は利用できません。</entry>
+    <entry key="Label_Camera">カメラ(&amp;C)</entry>
+    <entry key="Label_CameraModeCoordsys">カメラ(&amp;C) ({0}, {1})</entry>
+    <entry key="Label_CameraMode">カメラ(&amp;C) ({0})</entry>
+    <entry key="Label_MouseMode">マウス モード</entry>
+    <entry key="Label_Orbit">旋回移動</entry>
+    <entry key="Label_OrbitScenelight">シーンライトの旋回移動</entry>
+    <entry key="Label_Pan">移動 (パン)</entry>
+    <entry key="Label_DollyHorizVert">水平/垂直方向に移動</entry>
+    <entry key="Label_DollyInOut">内/外に移動</entry>
+    <entry key="Label_Zoom">ズーム</entry>
+    <entry key="Label_Roll">回転</entry>
+    <entry key="Label_Walk">移動</entry>
+    <entry key="Label_Unconstrained">制約なし</entry>
+    <entry key="Label_MouseConstraint">マウスの制約</entry>
+    <entry key="Label_Horizontal">水平方向</entry>
+    <entry key="Label_Vertical">垂直方向</entry>
+    <entry key="Label_StopMoving">移動中止</entry>
+    <entry key="Label_Scenelight">シーンライト</entry>
+    <entry key="Label_Reset">リセット</entry>
+    <entry key="Label_ResetModesCameraProperties">モード/カメラ プロパティのリセット</entry>
+    <entry key="Label_ResetCameraProperties">カメラ プロパティのリセット</entry>
+    <entry key="Label_ResetTargetPoint">ターゲット ポイントのリセット</entry>
+    <entry key="Label_ResetScenelight">シーンライトのリセット</entry>
+    <entry key="Label_Scene">シーン</entry>
+    <entry key="Label_FitAll">すべてに適合</entry>
+    <entry key="Label_LightingNone">ライティング None</entry>
+    <entry key="Label_LightingFlat">ライティング Flat</entry>
+    <entry key="Label_LightingGouraud">ライティング Gouraud</entry>
+    <entry key="Label_LightingPhong">ライティング Phong</entry>
+    <entry key="Label_ShadingFaceted">シェーディング Faceted</entry>
+    <entry key="Label_ShadingFlat">シェーディング Flat</entry>
+    <entry key="Label_ShadingInterp">シェーディング Interp</entry>
+    <entry key="Label_ClippingOn">クリップオン</entry>
+    <entry key="Label_ClippingOff">クリップオフ</entry>
+    <entry key="Label_Axes">座標軸</entry>
+    <entry key="Label_Visible">表示</entry>
+    <entry key="Label_Box">ボックス</entry>
+    <entry key="Label_Ticks">目盛り</entry>
+    <entry key="Label_Grid">グリッド</entry>
+    <entry key="Label_WallsColor">壁の色...</entry>
+    <entry key="Label_XColor">X 軸の色...</entry>
+    <entry key="Label_YColor">Y 軸の色...</entry>
+    <entry key="Label_ZColor">Z 軸の色...</entry>
+    <entry key="Label_Orthographic">正投影法</entry>
+    <entry key="Label_Perspective">遠近投影法</entry>
+    <entry key="Label_RendererOptions">描画オプション</entry>
+    <entry key="Label_DoubleBuffer">ダブル バッファー</entry>
+    <entry key="Label_NoSort">並べ替えなし</entry>
+    <entry key="Label_Auto">自動</entry>
+    <entry key="Label_MoveAsBox">ボックスとして移動</entry>
+    <entry key="Label_BackgroundColor">背景色...</entry>
+    <entry key="Label_RemoveMenu">削除メニュー</entry>
+    <entry key="Label_X">X</entry>
+    <entry key="Label_Y">Y</entry>
+    <entry key="Label_Z">Z</entry>
+    <entry key="Label_Painters">Painters</entry>
+    <entry key="Label_Zbuffer">Zbuffer</entry>
+    <entry key="Label_OpenGL">OpenGL</entry>
+  </message>
+</rsccat>

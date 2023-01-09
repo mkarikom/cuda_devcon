@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015-2019 The MathWorks, Inc. -->
+<rsccat product="MATLAB" locale="en_US" version="1.0">
+  <message>
+    <entry key="spu0">sp\\: is A triangular?</entry>
+    <entry key="spu1"> &#160;yes.\nsp\\: do a triangular solve.\n</entry>
+    <entry key="spu2"> &#160;no.\nsp\\: is A morally triangular?</entry>
+    <entry key="spu3"> &#160;yes.\nsp\\: permute and solve.\n</entry>
+    <entry key="spu4"> &#160;no.\nsp\\: is A a candidate for Cholesky (symmetric, real positive or negative diagonal)?</entry>
+    <entry key="spu9">sp\\: A is not positive definite.\n</entry>
+    <entry key="spu10"> &#160;no.\n</entry>
+    <entry key="spu13">sp\\: is UMFPACK's numeric LU factorization successful?</entry>
+    <entry key="spu15"> &#160;yes.\n</entry>
+    <entry key="spu16">sp\\: original LU factor and solve two triangular systems.\n</entry>
+    <entry key="spu17">sp\\: column minimum degree.\n</entry>
+    <entry key="spu20">sp\\: sprealloc in sptsolve: {0} {1} {2}</entry>
+    <entry key="spu27">&#160;no,\n     tridiagonal solve failed at pivot {0}.\n</entry>
+    <entry key="spu32">sp\\: is LAPACK's banded solver successful?</entry>
+    <entry key="spu33">sp\\: bandwidth = {0}+1+{1}.\n</entry>
+    <entry key="spu34">sp\\: is band density ({0}) <![CDATA[>]]> bandden ({1}) to try banded solver?</entry>
+    <entry key="spu35">sp\\: is it ok to solve real tridiagonal A without pivoting?</entry>
+    <entry key="spu36">sp\\: is A diagonal? </entry>
+    <entry key="spu37"> &#160;yes.\nsp\\: do a diagonal solve.\n</entry>
+    <entry key="spu38">sp\\: is CHOLMOD's symbolic Cholesky factorization (with automatic reordering) successful?</entry>
+    <entry key="spu39">sp\\: is CHOLMOD's symbolic Cholesky factorization (without reordering) successful?</entry>
+    <entry key="spu40">sp\\: is CHOLMOD's numeric Cholesky factorization successful?</entry>
+    <entry key="spu41"> &#160;yes.\nsp\\: is CHOLMOD's triangular solve successful?</entry>
+    <entry key="spu42">sp\\: use Unsymmetric MultiFrontal PACKage</entry>
+    <entry key="spu43">sp\\: UMFPACK's factorization was successful.\n</entry>
+    <entry key="spu44">sp\\: UMFPACK's solve was successful.\n</entry>
+    <entry key="spu45">sp\\: UMFPACK was NOT successful.\n</entry>
+    <entry key="spu46">sp\\: Sparse QR solution via SuiteSparseQR.\n</entry>
+    <entry key="spu47">sp\\: But A is real symmetric; try MA57.\n</entry>
+    <entry key="spu48"> with automatic reordering.\n</entry>
+    <entry key="spu49">sp\\: However, UMFPACK may have failed to produce a correct factorization\n     possibly due to aggressive pivot tolerances or because the problem\n     is ill-conditioned.\n</entry>
+    <entry key="spu52">sp\\: These tolerances were:\n</entry>
+    <entry key="spu53">\tPivot Tolerance:           {0}\n</entry>
+    <entry key="spu54">\tDiagonal Pivot Tolerance:  {0}\n</entry>
+    <entry key="spu55">We will factor the matrix again but use standard partial pivoting.\n</entry>
+
+    <entry key="spu57">CHOLMOD's symbolic Cholesky factorization.\n</entry>
+    <entry key="spu58">CHOLMOD's numeric Cholesky factorization.\n</entry>
+    <entry key="spu59">Extract L' from CHOLMOD.\n</entry>
+    <entry key="spu60">Extract permutation from CHOLMOD.\n</entry>
+    <entry key="spu61">infinite matrix (column {0}):</entry>
+    <entry key="spu62"> diagonal entry {0} <![CDATA[<]]> {1} tolerance\n</entry>
+    <entry key="spu63">predicted nonzeros:    {0}\n</entry>
+    <entry key="spu64">predicted flops:       {0}\n</entry>
+    <entry key="spu65">predicted height:      {0}\n</entry>
+    <entry key="spu66">predicted front size:  {0}\n</entry>
+    <entry key="spu67">Extract c from SuiteSparseQR.\n</entry>
+    <entry key="spu68">Compute QR factorization via SuiteSparseQR.\n</entry>
+    <entry key="spu69">Extract Q from SuiteSparseQR.\n</entry>
+    <entry key="spu70">Extract permutation from SuiteSparseQR.\n</entry>
+    <entry key="spu71">Extract R from SuiteSparseQR.\n</entry>
+    <entry key="spu72">spmlrcm: root = {0}\n</entry>
+    <entry key="spu73">spmlrcm: component size = {0}, levels = {1}\n</entry>
+    <entry key="spu74">spmlrcm: this is a bug, dimension is n = {0} </entry>
+    <entry key="spu75">but component sizes add to num = {0}\n</entry>
+    <entry key="spu76">components:     {0}\n</entry>
+    <entry key="spu77">bandwidth:      {0}\n</entry>
+    <entry key="spu78">profile:        {0}\n</entry>
+    <entry key="spu79">pseudodiameter: {0}\n</entry>
+    <entry key="spu80">rootls: {0} levels\n</entry>
+    <entry key="spu81">colmmd: withholding {0} dense rows.\n</entry>
+    <entry key="spu82">stage 0:&#160;&#160;</entry>
+    <entry key="spu83" translate="false">\n</entry>
+    <entry key="spu84">stage {0}:  </entry>
+    <entry key="spu85" translate="false">amalgamated&#160;</entry>
+    <entry key="spu86" translate="false">&#160;{0}&#160;&#160;</entry>
+    <entry key="spu87">reduced </entry>
+
+    <entry key="spu89">eliminated </entry>
+    <entry key="spu90">threshold {0}</entry>
+    <entry key="spu91">selected </entry>
+
+    <entry key="spu93" translate="false" note="TranslateFalseBatch;">mmd:  threshold = {0} * mindegree + {1};\n</entry>
+    <entry key="spu94">\tusing exact degrees in A'*A;\n</entry>
+    <entry key="spu95">\tusing approximate degrees in A'*A;\n</entry>
+    <entry key="spu96">\tsupernode amalgamation initially and every {0} stages;\n</entry>
+    <entry key="spu97">\tsupernode amalgamation initially only;\n</entry>
+    <entry key="spu98">\tsupernode amalgamation after every {0} stages;\n</entry>
+    <entry key="spu99">\tno supernode amalgamation;\n</entry>
+    <entry key="spu100">\trow reduction initially and every {0} stages;\n</entry>
+    <entry key="spu101">\trow reduction initially only;\n</entry>
+    <entry key="spu102">\trow reduction after every {0} stages;\n</entry>
+    <entry key="spu103">\tno row reduction;\n</entry>
+    <entry key="spu104">\twithhold rows at least {0} dense in colmmd;\n</entry>
+    <entry key="spu105">\tno row withholding in colmmd;\n</entry>
+
+    <entry key="spu107">mmd: {0} stages.\n</entry>
+    <entry key="spu108">drop tolerance: {0}\n</entry>
+    <entry key="spu109">replace zero diagonals of U: </entry>
+    <entry key="spu110">modified incomplete LU: </entry>
+    <entry key="spu111">pivot threshold: {0}\n</entry>
+    <entry key="spu112">sprealloc in lu(V): {0} {1} {2}</entry>
+    <entry key="spu113" translate="false">&#160;{0}\n</entry>
+    <entry key="spu114">sprealloc in lu(L): {0} {1} {2}</entry>
+    <entry key="spu115">sprealloc in lu(U): {0} {1} {2}</entry>
+    <entry key="spu116">Pruned nzs: {0}\n</entry>
+    <entry key="spu117">L nonzeros: {0}\n</entry>
+    <entry key="spu118">U nonzeros: {0}\n</entry>
+    <entry key="spu119">bug in spchol: analyze didn't allocate enough storage\n</entry>
+    <entry key="spu120">sp\\: However, UMFPACK may have failed to solve with a desired backward error\n     possibly due to aggressive pivot tolerances or because the problem\n     is ill-conditioned.\n</entry>
+    <entry key="spu121">sp\\: The achieved backward errors were:\n</entry>
+    <entry key="spu122">\tsparse backward error omega1:  {0}\n</entry>
+    <entry key="spu123">\tsparse backward error omega2:  {0}\n</entry>
+  </message>
+</rsccat>

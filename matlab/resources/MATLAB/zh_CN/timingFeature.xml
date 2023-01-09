@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="clockSpeedCyclesPerSec">clock() 速度为 {0} 周期/秒。\n</entry>
+    <entry key="counterCycles">计数器为 {0} 个周期。\n</entry>
+    <entry key="cpuFrequencyFeatureNotAvailable">此功能在此平台上不可用。\n</entry>
+    <entry key="currentCpuSpeedCyclesPerSec">当前 CPU 速度为 {0} 周期/秒。\n</entry>
+    <entry key="oldTicTocSpeedCyclesPerSec">旧 Tic/Toc CPU 速度为 {0} 周期/秒。\n</entry>
+    <entry key="overheadTicTocCommand">Tic/Toc 命令的开销为 {0} 秒。\n</entry>
+    <entry key="speedCyclesPerSec">速度为 {0} 周期/秒。\n</entry>
+    <entry key="resolutionTicTocClock">Tic/Toc 时钟的分辨率为 {0} 秒。\n</entry>
+    <entry key="ticTocCpuSpeedCyclesPerSec">Tic/Toc CPU 速度为 {0} 周期/秒。\n</entry>
+    <entry key="timeInMsec">时间为 {0} 毫秒。\n</entry>
+    <entry key="timeInNsec">时间为 {0} 毫微秒。\n</entry>
+    <entry key="timeInTics">时间为 {0} tic。\n</entry>
+    <entry key="timeInUsec">时间为 {0} 微秒。\n</entry>
+    <entry key="timeIn100nsec">时间为 {0} 单位(100 毫微秒)。\n</entry>
+    <entry key="uint64Difference">uint64 差异为 {0}。\n</entry>
+    <entry key="wrongSecondInput">第二个参数必须为字符向量</entry>
+    <entry key="wrongThirdInput">第三个参数必须为双精度值</entry>
+    <entry key="wrongValueWin32">选择以下项作为第二个参数: \n ''resolution_tictoc'' - Tic/Toc 时钟的分辨率(以秒为单位，双精度)\n ''overhead_tictoc'' - Tic/Toc 命令的开销(以秒为单位，双精度)\n ''getcpuspeed_tictoc'' - 存储的 CPU 周期/秒(双精度) [由 tic/toc 使用]\n ''cpuspeed'' - 当前 CPU 周期/秒(双精度) [简单 MathWorks]\n ''unixtimeofday'' - 当前时间(uint64) [gettimeofday 调用]\n 单位: 微秒，自 1970 年 1 月 1 日(UTC)以来\n ''clocks_per_sec'' - clock() 速度(以周期/秒为单位) [CLOCKS_PER_SEC]\n ''posixrtperftime'' - Posix 实时时间(以毫微秒为单位) (uint64) [clock_gettime call]\n ''posixrtperfspeed'' - Posix 实时时钟速度(双精度) [clock_getres 调用]\n 单位: 周期/秒\n选择以下项作为第二和第三个参数: \n ''cpuspeed''，双精度值 - 当前 CPU 周期/秒(双精度) [MathWorks - 迭代数]\n ''setcpuspeed_tictoc''，双精度速度 - 设置 CPU 周期/秒 [由 tic/toc 使用]\n  uint64 arg2, uint64 arg3 - uint64 差值 = arg2 - arg3 (uint64)</entry>
+    <entry key="wrongValueLinux">选择以下项作为第二个参数: \n ''resolution_tictoc'' - Tic/Toc 时钟的分辨率(以秒为单位，双精度)\n ''overhead_tictoc'' - Tic/Toc 命令的开销(以秒为单位，双精度)\n ''getcpuspeed_tictoc'' - 存储的 CPU 周期/秒(双精度) [由 tic/toc 使用]\n ''cpuspeed'' - 当前 CPU 周期/秒(双精度) [简单 MathWorks]\n ''unixtimeofday'' - 当前时间(uint64) [gettimeofday 调用]\n 单位: 微秒，自 1970 年 1 月 1 日(UTC)以来\n ''clocks_per_sec'' - clock() 速度(以周期/秒为单位) [CLOCKS_PER_SEC]\n ''posixrtperftime'' - Posix 实时时间(以毫微秒为单位) (uint64) [clock_gettime call]\n ''posixrtperfspeed'' - Posix 实时时钟速度(双精度) [clock_getres 调用]\n 单位: 周期/秒\n选择以下项作为第二和第三个参数: \n ''cpuspeed''，双精度值 - 当前 CPU 周期/秒(双精度) [MathWorks - 迭代数]\n ''setcpuspeed_tictoc''，双精度速度 - 设置 CPU 周期/秒 [由 tic/toc 使用]\n uint64 arg2, uint64 arg3 - uint64 差值 = arg2 - arg3 (uint64)</entry>
+    <entry key="wrongValueApple">选择以下项作为第二个参数: \n ''resolution_tictoc'' - Tic/Toc 时钟的分辨率(以秒为单位，双精度)\n ''overhead_tictoc'' - Tic/Toc 命令的开销(以秒为单位，双精度)\n ''getcpuspeed_tictoc'' - 存储的 CPU 周期/秒(双精度值) [由 tic/toc 使用]\n ''cpuspeed'' - 当前的 CPU 周期/秒(双精度值) [简单 MathWorks]\n ''unixtimeofday'' - 当前时间(uint64) [gettimeofday 调用]\n 单位: 微秒，自 1970 年 1 月 1 日之后(UTC)\n ''clocks_per_sec'' - clock() 速度(以周期/秒为单位) [CLOCKS_PER_SEC]\n ''macperftimeaudio'' - Mac 实时时间(以 tic 为单位) (uint64) [AudioGetCurrentHostTime 调用]\n ''macperftimeaudions'' - Mac 实时时间(以毫微秒为单位) (uint64)\n [AudioConvertHostTimeToNanos(AudioGetCurrentHostTime) 调用]\n ''macperfspeedaudio'' - Mac 实时时钟速度(双精度) [AudioGetHostClockFrequency 调用]\n 单位: 周期/秒\n ''macperftimemach'' - Mac 实时时间(以 tic 为单位) (uint64) [mach_absolute_time 调用]\n ''macperfspeedmach'' - Mac 实时时间时钟速度(双精度) [mach_timebase_info 调用]\n 单位: 周期/秒\n 选择以下项作为第二和第三个参数: \n ''cpuspeed''，双精度数值 - 当前 CPU 周期/秒(双精度) [MathWorks - 迭代数]\n ''setcpuspeed_tictoc''，双精度速度 - 设置 CPU 周期/秒 [由 tic/toc 使用]\n uint64 arg2，uint64 arg3 - uint64 差 = arg2 - arg3 (uint64)</entry>
+    <entry key="wrongValue">选择以下项作为第二个参数: \n ''resolution_tictoc'' - Tic/Toc 时钟的分辨率(以秒为单位，双精度)\n ''overhead_tictoc'' - Tic/Toc 命令的开销(以秒为单位，双精度)\n ''getcpuspeed_tictoc'' - 存储的 CPU 周期/秒(双精度) [由 tic/toc 使用]\n ''cpuspeed'' - 当前 CPU 周期/秒(双精度) [简单 MathWorks]\n ''unixtimeofday'' - 当前时间(uint64) [gettimeofday 调用]\n 单位: 微秒，自 1970 年 1 月 1 日(UTC)以来\n ''clocks_per_sec'' - clock() 速度(以周期/秒为单位) [CLOCKS_PER_SEC]\n选择以下项作为第二和第三个参数: \n ''cpuspeed''，双精度值 - 当前 CPU 周期/秒(双精度) [MathWorks - 迭代数]\n ''setcpuspeed_tictoc''，双精度速度 - 设置 CPU 周期/秒 [由 tic/toc 使用]\n uint64 arg2, uint64 arg3 - uint64 差值 = arg2 - arg3 (uint64)</entry>
+  </message>
+</rsccat>

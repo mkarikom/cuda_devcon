@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArrayConversionError">数组转换失败。</entry>
+    <entry key="ArrayDimSizeMismatchError">源数组和目标数组的维度大小不一致。</entry>
+    <entry key="ArrayLengthMismatchError">源数组和目标数组的长度不一致。</entry>
+    <entry key="ArrayNumDimsMismatchError">源数组和目标数组中的维数不一致。</entry>
+    <entry key="UnsupportedAssignmentIndexingArray">元胞内容赋给非元胞数组对象。</entry>
+    <entry key="UnsupportedReferenceIndexingArray">元胞内容引用自非元胞数组对象。</entry>
+    <entry key="DATA_MARSHAL_ERR">编组 .NET 对象时出错。\n ''{0}''</entry>
+    <entry key="EMPTYOBJECT">不支持创建空的 .NET 对象。</entry>
+    <entry key="InvalidArrayIndex">数组的索引必须为正整数。</entry>
+    <entry key="InvalidClassName">找不到类 ''{0}''。</entry>
+    <entry key="InvalidGenericParameterType">泛型形参类型实参无效。</entry>
+    <entry key="INVALIDMEMBER">类 ''{1}'' 没有恰当的方法、属性或字段 ''{0}''。</entry>
+    <entry key="INVALIDOBJECT">正在试图访问无效对象的属性或方法。</entry>
+    <entry key="INVALIDPROPERTY">名称 ''{0}'' 不是类 ''{1}'' 的实例可以访问的属性。</entry>
+    <entry key="InvalidStaticPropertyAccess">类 ''{1}'' 无法访问静态属性 ''{0}''。</entry>
+    <entry key="InvalidStaticPropName">找不到类 ''{1}'' 的静态属性或字段 ''{0}''。</entry>
+    <entry key="InvalidStaticPropNameArg">静态属性名称 ''{0}'' 无效。</entry>
+    <entry key="SETSTATICPROPERTY_ERR">不允许类 ''{1}'' 的实例设置静态属性 ''{0}''。</entry>
+    <entry key="NAMESPACE_ERR">找不到类型 ''{1}'' 的命名空间 ''{0}''。</entry>
+    <entry key="NoGenericMethod">找不到泛型方法 ''{0}''。</entry>
+    <entry key="NoMatchingGenericMethod">找不到与签名相匹配的泛型方法 ''{0}''。</entry>
+    <entry key="NonStaticPropertyAccess">属性或字段 ''{0}'' 不是静态的。</entry>
+    <entry key="GenericObjectCreationError">未找到具有匹配签名的构造函数 ''{0}''。</entry>
+    <entry key="NONAMESPACE">类型 ''{0}'' 的命名空间不存在。MATLAB 要求所有的 .NET 类型都在命名空间中。</entry>
+    <entry key="NullObjectIndexing">试图对 ''null'' 对象进行索引。</entry>
+    <entry key="ObjectCreationError">对象创建失败。</entry>
+    <entry key="GetPackageError">无法获取包 ''{0}''。</entry>
+    <entry key="SECURITY">该计算机的 .NET 安全策略设置不允许从网络驱动器上运行任何 MATLAB 与.NET 的交互命令。有关详细信息，请访问以下文档页。&lt;a href="matlab: helpview([docroot ''/techdoc/matlab_external/matlab_external.map''],''NET_security_policy_settings'')"&gt;.NET 安全策略设置&lt;/a&gt;</entry>
+    <entry key="TYPELOAD_ERR">无法加载类型 ''{0}''。</entry>
+    <entry key="UnsupportedDelegateType">MATLAB 不支持非标准委托定义的 .NET 事件。</entry>
+    <entry key="UnsupportedArrayFormation">.NET 对象中不允许使用数组结构。</entry>
+    <entry key="UnsupportedEndIndexingArray">.NET 对象不支持 ''end'' 索引。</entry>
+    <entry key="UnsupportedIndexing">.NET 对象中不允许使用数组结构和索引。</entry>
+    <entry key="UnsupportedIndexingArray">.NET 对象中不允许使用数组结构和索引。请使用 Set 和 Get 方法来访问 .NET 数组中的元素。</entry>
+    <entry key="UnsupportedIndexingCustom">.NET 对象中不允许使用数组结构和索引。请使用 Item 方法对此对象进行索引。</entry>
+    <entry key="UnsupportedInputArrayTypeError">不支持从 ''{0}'' 数组类型进行转换。</entry>
+    <entry key="UnsupportedOutputArrayTypeError">不支持转换为 ''{0}'' 数组类型。</entry>
+    <entry key="DelegateInvocationError">执行委托回调时出错:\n{0}</entry>
+    <entry key="DynamicMethodCallError">执行方法时出错:\n{0}</entry>
+    <entry key="UnsupportedDotNetInterfaceImpl">不支持 .NET 接口的实现。</entry>
+    <entry key="UnsupportedInterfaceProperties">不支持用 .NET 接口定义属性的实现。</entry>
+    <entry key="UnsupportedInterfaceIndexers">不支持用 .NET 接口定义索引器的实现。</entry>
+    <entry key="UnsupportedInterfaceEvents">不支持用 .NET 接口定义事件的实现。</entry>
+    <entry key="UnsupportedGenericInterfaceImpl">不支持泛型 .NET 接口的实现。</entry>
+    <entry key="UnsupportedGenericInterfaceMethods">不支持用 .NET 接口定义泛型方法的实现。</entry>
+    <entry key="UnsupportedCOMInterfaceImpl">不支持 .NET COM 接口的实现。</entry>
+    <entry key="UnsupportedNonHandleInterfaceImplClass">实现 .NET 接口的类必须为句柄子类。</entry>
+    <entry key="AmbiguousMethod">因调用 {0} 时未指定可选参数，故无法从以下 .NET 方法签名中选择，\n\n 为解决该歧义问题，您可以指定足够多的额外可选参数以便只可能出现一种匹配的 .NET 方法。</entry>
+    <entry key="UndefinedFunction">没有为类 ''{1}'' 找到具有匹配签名的方法 ''{0}''。</entry>
+    <entry key="DisplayMethodNETAssemblyHandle">NET.Assembly 句柄</entry>
+    <entry key="DisplayMethodPackageNETn">\n  包: NET\n</entry>
+    <entry key="UnsupportedDotNetSuperclass">类 ''{0}'' 将 .NET 类 ''{1}'' 声明为超类。不支持为 .NET 类创建 MATLAB 子类。</entry>
+    <entry key="InvalidFrameworkVersion">使用 .NET 命令需要安装 Framework 4.0 或更高版本。请先安装 Framework 4.0 或更高版本，然后运行 .NET 命令。\n</entry>
+    <entry key="InvalidParameterName">方法 'cell' 的可选参数名称 {0} 无效。可用参数为 'ConvertTypes'。</entry>
+    <entry key="InvalidParameterValue">指定为要进行转换的 .NET 类型 {0} 无效。该值应为包含 ''all'' 或以下受支持类型的元胞数组: ''System.String''、''System.Datetime'。</entry>
+    <entry key="InvalidValueType">要转换为 MATLAB 类型，需要 .NET 类型的元胞数组。</entry>
+    <entry key="IncorrectArgCount">没有为类 'System.Object[,]' 找到具有匹配签名的方法 'cell'。</entry>
+    <entry key="UnknownError">"未知错误。"</entry>
+    <entry key="NETExceptionMessage">消息: {0}\n来源: {1}\n帮助链接: {2}</entry>
+    <entry key="UnknownMethodInvocation">"未知方法调用错误。"</entry>
+    <entry key="UnknownDelegateInvocation">"未知委托调用错误。"</entry>
+    <entry key="UnsupportedLoad">无法加载 .NET 对象。不支持将 .NET 对象保存(串行化)到 MAT 文件中。</entry>
+    <entry key="CLRException">{0}</entry>
+    <entry key="invokeStaticGenericMethod">{0}</entry>
+    <entry key="ExecuteSecurity">{0}</entry>
+  </message>
+</rsccat>

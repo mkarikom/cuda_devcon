@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidinput">값은 요소를 2개 가진 벡터여야 합니다.</entry>
+    <entry key="BadParent">부모 속성은 이름-값 쌍으로 지원되지 않습니다.</entry>
+    <entry key="BadNumArgs">입력 인수가 부족합니다.</entry>
+    <entry key="FirstArgFigureOrAnnotation">첫 번째 인수는 유효한 주석 유형이거나 Figure, uipanel, uitab 중 하나에 대한 핸들이어야 합니다.</entry>
+    <entry key="SecondArgValidAnnotation">두 번째 인수는 유효한 주석 유형이어야 합니다.</entry>
+    <entry key="IllegalXYArguments">X 값과 Y 값은 0과 1 사이여야 합니다.</entry>
+    <entry key="IllegalPositionArgument">위치 값은 0과 1 사이여야 합니다.</entry>
+    <entry key="BadArguments">알 수 없는 인수입니다.</entry>
+  </message>
+</rsccat>

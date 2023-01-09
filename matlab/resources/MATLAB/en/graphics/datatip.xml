@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <entry key="emptyAxes">Assert</entry>
+        <entry key="invalidOrientation">Invalid orientation value</entry>
+        <entry key="ErrorInCustomFunction" note="stringDatatypeUpdate">Unable to update\ndata tip using custom update function</entry>
+        <entry key="InvalidLabelProperty">Label must be either a string scalar or character vector.</entry>
+        <entry key="InvalidValueProperty">Value must be a string scalar or a character vector with the name of a data property, such as 'XData', or it must be a vector or a function handle.</entry>
+        <entry key="InvalidFormatProperty">Invalid data tip format.</entry>
+        <entry key="IncorrectFormatProperty">Format must be either a string scalar or character vector.</entry>
+        <entry key="InvalidNumericFormat">Invalid numeric data tip format.</entry>
+        <entry key="InvalidFunctionHandle">You must specify a function that accepts at least one input argument.</entry>
+        <entry key="MustHaveAtleastOneRow">Data tips must have at least one row.</entry>
+        <entry key="CannotCreateEmptyRow">Data tip row must have at least a label or a value.</entry>
+        <entry key="IncompatibleValue">Value must be compatible with the data source.</entry>
+        <entry key="UncustomizableDataTipTemplate">Changing properties of DataTipTemplate for {0} objects is not supported.</entry>
+        <entry key="CannotUpdateCustomFunction">Setting DataTipRows has no effect because the data tips are using an update function.\nTo see your changes, delete the update function using the data tip's context menu.</entry>
+        <entry key="UncommentLineToCreateDataTip">The following line demonstrates an alternative way to create a data tip.</entry>
+        <entry key="Invalid3DCoordinates">Specify 3 coordinates to display a data tip on a 3-D chart.</entry>
+        <entry key="Invalid2DCoordinates">Specify 2 coordinates to display a data tip on a 2-D chart.</entry>
+        <entry key="InvalidValueForDateTime">Specify {0} as a valid datetime value.</entry>
+        <entry key="InvalidValueForNumerical">Specify {0} as a valid numeric value.</entry>
+        <entry key="InvalidValueForCategorical">Specify {0} as a valid categorical value.</entry>
+        <entry key="InvalidValueForDuration">Specify {0} as a valid duration value.</entry>
+        <entry key="InvalidParent">First argument must be a chart object that supports data tips.</entry>
+        <entry key="IncorrectParent">Invalid Parent. Parent must be a chart object.</entry>
+        <entry key="InvalidPropertyName">Property names must be character vectors or strings.</entry>
+        <entry key="InvalidFirstArgument">Invalid argument. The object has been deleted or does not support data tips.</entry>
+        <entry key="UnknownProperty">Unknown property: ''{0}''.</entry>
+        <entry key="ErrorWhileEvaluating">{0}\nError while evaluating {1} for datatip.</entry>
+        <entry key="IncorrectInputArgs">Incorrect input args for constructing datatip object.</entry>
+        <entry key="InvalidLocation">''{0}'' is not a valid value. Use one of these values: 'northeast' | 'northwest' | 'southeast' | 'southwest'. </entry>
+        <entry key="CannotSetUIContextMenu">You cannot set ''ContextMenu'' property of DataTip.</entry>
+        <entry key="ModifyOption">Modify Data Tips</entry>
+        <entry key="ResetOption">Reset Data Tips</entry>
+        <entry key="MoreOption">More...</entry>
+        <entry key="MinOption" note="Minimum statistical function">Minimum</entry>
+        <entry key="MaxOption" note="Maximum statistical function">Maximum</entry>
+        <entry key="MeanOption" note="Mean statistical function">Mean</entry>
+        <entry key="CountOption" note="Count statistical function">Count</entry>
+        <entry key="SumOption" note="Sum statistical function">Sum</entry>
+        <entry key="MedianOption" note="Median statistical function">Median</entry>
+        <entry key="AvailableLabel">Available Options</entry>
+        <entry key="SelectedLabel">Selected Options</entry>
+        <entry key="AddOptionsToSelected">Add to selected options</entry>
+        <entry key="RemoveOptionsFromSelected">Remove from selected options</entry>
+        <entry key="UpLabel">Up</entry>
+        <entry key="DownLabel">Down</entry>
+        <entry key="UpTooltip">Move selected option up</entry>
+        <entry key="DownTooltip">Move selected option down</entry>
+        <entry key="OKLabel">OK</entry>
+        <entry key="CancelLabel">Cancel</entry>
+        <entry key="CountVariable" note="{0} is the name of a table variable or dimension name">{0} Count</entry>
+        <entry key="NoneVariable" note="{0} is the name of a table variable;translate=false set due no translatable content" translate="false">{0}</entry>
+        <entry key="MinVariable" note="{0} is the name of a table variable">Minimum {0}</entry>
+        <entry key="MaxVariable" note="{0} is the name of a table variable">Maximum {0}</entry>
+        <entry key="SumVariable" note="{0} is the name of a table variable">Sum {0}</entry>
+        <entry key="MedianVariable" note="{0} is the name of a table variable">Median {0}</entry>
+        <entry key="MeanVariable" note="{0} is the name of a table variable">Mean {0}</entry>
+    </message>
+</rsccat>

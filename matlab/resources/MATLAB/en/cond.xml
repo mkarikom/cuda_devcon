@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="SparseNotSupported">Using CONDEST instead of COND for sparse matrix.</entry>
+    <entry key="normMismatchSizeA">A is rectangular.  Use the 2 norm.</entry>
+  </message>
+</rsccat>

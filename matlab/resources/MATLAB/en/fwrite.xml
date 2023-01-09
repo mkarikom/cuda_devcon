@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="UnsupportedClass">Cannot write value: unsupported class {0}</entry>
+    <entry key="UnsupportedAttribute">Cannot write value: sparse arrays are unsupported.</entry>
+    <entry key="UnsupportedString">Cannot write value: nonscalar strings are unsupported.</entry>
+  </message>
+</rsccat>

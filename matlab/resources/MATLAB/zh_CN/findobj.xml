@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="notfound">在类句柄中未找到 findobj 方法。</entry>
+    <entry key="NotSupported">类 ''{0}'' 不支持 findobj 函数。</entry>
+    <entry key="badinput">句柄数组无效</entry>
+    <entry key="SyntaxErr">findobj 中发生语法错误。</entry>
+    <entry key="FunctionHandleReturnValue">通过 '-function' 选项传递的函数必须返回逻辑标量。</entry>
+    <entry key="InvalidOption">''{0}'' 不是 findobj 的有效选项。</entry>
+    <entry key="DepthMustBeNumber">'-depth' 必须后跟数值标量搜索深度。</entry>
+    <entry key="FunctionHandle">'-function' 选项必须后跟函数句柄，或后跟属性名称和函数句柄。</entry>
+    <entry key="ClassNeeded">缺少使用 '-class' 选项的类</entry>
+    <entry key="InvalidClass">'-class' 选项必须后跟 meta.class 实例或有效的类名。</entry>
+    <entry key="InvalidIsa">'-isa' 选项必须后跟 meta.class 实例或有效的类名。</entry>
+    <entry key="PropertyRequired">'-property' 选项必须后跟字符向量或字符串标量形式的属性名称。</entry>
+    <entry key="MethodRequired">'-method' 选项必须后跟字符向量或字符串标量形式的方法名称。</entry>
+    <entry key="EventRequired">'-event' 选项必须后跟字符向量或字符串标量形式的事件名称。</entry>
+    <entry key="IncompletePVPair">参数-值对组不完整。</entry>
+    <entry key="noregexp">''{0}'' 属性不支持正则表达式比较。将使用常规比较。</entry>
+    <entry key="InvalidHeterogeneousArray">与 findobj 表达式匹配的对象属于不同的特定类，不能合并到有效的异构数组。</entry>
+    <entry key="mustReturnLogicalScalar">通过 ''-function'' 指令传递的函数必须返回逻辑标量</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="missingValueInputString">첫 번째 인수는 누락값이 아니어야 합니다.</entry>
+    <entry key="missingValueStringList">두 번째 인수는 누락값을 포함해서는 안 됩니다.</entry>
+    <entry key="invalidStringList">두 번째 인수는 string형 배열이거나 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="ambiguousStringChoice">{0}은(는) 다음 값 중 하나와 일치해야 합니다.\n\n{1}\n\n입력값 ''{2}''이(가) 둘 이상의 유효한 값과 일치합니다.</entry>
+    <entry key="unrecognizedStringChoice3">{0}이(가) 다음 값 중 하나와 일치해야 합니다.\n\n{1}\n\n입력값 ''{2}''이(가) 유효한 값들과 일치하지 않습니다.</entry>
+    <entry key="unrecognizedStringChoice2">{0}이(가) 다음 값 중 하나와 일치해야 합니다.\n\n{1}\n\n입력값이 유효한 값들과 일치하지 않습니다.</entry>
+    <entry key="badFunctionName">세 번째 인수는 함수 이름 지정을 위한 string형 또는 문자형 벡터이거나, 인수 위치 지정을 위한 double형 스칼라여야 합니다.</entry>
+    <entry key="badVariableName">네 번째 인수는 입력 변수 이름 지정을 위한 string형 또는 문자형 벡터여야 합니다.</entry>
+  </message>
+</rsccat>

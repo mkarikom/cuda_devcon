@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ColormapMustHave3Columns">Colormap must have 3 columns</entry>
+    <entry key="ColormapElementOutOfRange">Colormap element out of range.  RGB intensities should be normalized on the range 0.0 &lt;= intensity &lt;= 1.0.  Scale the colormap by \"max(max(&lt;colormap&gt;))\" to normalize it.</entry>
+    <entry key="SkippingCorruptedFrame">Skipping corrupted movie frame #{0,number,integer}</entry>
+    <entry key="ExpectedSingleFrame">Only a single movie frame can be passed to frame2im</entry>
+    <entry key="BadMatrix1">Argument must be a valid movie matrix from GETFRAME</entry>
+    <entry key="BadMatrix2">Argument must be a valid movie matrix from GETFRAME</entry>
+    <entry key="BadMatrix3">Argument must be a valid movie matrix from GETFRAME</entry>
+  </message>
+</rsccat>

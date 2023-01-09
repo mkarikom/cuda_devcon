@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed">
+  <message>
+    <entry key="emptyFileName">File name is empty.</entry>
+    <entry key="emptyVariableName">Unable to load variable as its name is empty.</entry>
+    <entry key="notBinaryFile">Unable to read MAT-file {0}. Not a binary MAT-file. Try load -ASCII to read as text.</entry>
+    <entry key="unableToReadMatFile">Unable to read MAT-file {0}. File might be corrupt.</entry>
+    <entry key="SubsetNotSupportedFileType">Loading a subset of a variable is supported only for MAT-file formats of V7.3 and later.</entry>
+    <entry key="NonScalarVariableSubset">VariableSubset must be a scalar to load a subset of an array from a MAT-file.</entry>
+    <entry key="variableNotFound">Variable ''{0}'' not found.</entry>
+    <entry key="variablePatternNotFound">Variable matching ''{0}'' not found.</entry>
+    <entry key="NonScalarSubset">Multiple levels of indexing into a MAT-file are not supported.</entry>
+    <entry key="cantReadFile">Cannot read file {0}.</entry>
+    <entry key="cannotInstantiateLoadedVariable">Variable ''{0}'' originally saved as a {1} cannot be instantiated as an object and will be read in as a {2}.</entry>
+    <entry key="loadingKeywordVariable">Variable ''{0}'' has the same name as a keyword.  It will be loaded as ''{1}''.</entry>
+    <entry key="unableToReadMatFileFromStdio">Unable to read from STDIO. Unknown error.</entry>
+    <entry key="numColumnsNotSame">Unable to read file ''{0}''. Input must be a MAT-file or an ASCII file containing numeric data with same number of columns in each row.</entry>
+    <entry key="FileIsGrowing">File {0} is in use by another process or thread. You should be able to load data once the other process or thread has released the file.</entry>
+    <entry key="unknownText">Unknown text on line number {0,number,integer} of ASCII file {1}\n\"{2}\".</entry>
+    <entry key="errorClosingFile">Error closing file {0}.</entry>
+    <entry key="sizeMismatch">Index exceeds matrix dimensions.</entry>
+    <!-- Content from MCOS and UDD -->
+    <entry key="classError">While loading an object of class ''{0}'':\n{1}</entry>
+    <entry key="classSaveError">While saving an object of class ''{0}'':\n{1}</entry>
+    <entry key="classNotFound">Cannot load an object of class ''{0}'':\nIts class cannot be found.</entry>
+    <entry key="classErrorNoCtor">Cannot load an object of class ''{0}'':\n No matching constructor signature found.</entry>
+    <entry key="FileInconsistent">MATLAB has detected an inconsistency in the file being loaded, so some values might not be loaded.</entry>
+    <entry key="InvalidMATFile">MATLAB has detected an inconsistency in the file being loaded.{0}</entry>
+    <!-- Reason for MATFile being invalid -->
+    <entry key="EmptyEnumNames">The class {0} has empty enum names.</entry>
+    <!--Resource entries for src/builtins-->
+    <entry key="pathIsDirectory">Unable to read file ''{0}''. Input cannot be a directory.</entry>
+    <entry key="unableToReadVFSASCIIFile">Only Version 7.3 MAT-files may be loaded from a remote location.</entry>
+    <entry key="unableToReadVFSFile">Unable to read file ''{0}''. If it is a Version 7 or earlier MAT-file, consider saving your data afresh in Version 7.3 MAT-files to access it from a remote location.</entry>
+    <entry key="unableToReadFile">Unable to read file ''{0}''.</entry>
+    <entry key="couldNotReadFileSystemMessage">Unable to read file ''{0}'': {1}.</entry>
+    <entry key="tooManyOpen">Unable to read file ''{0}''. Too many files open.</entry>
+    <entry key="permissionDenied">Unable to read file ''{0}''. Permission denied.</entry>
+    <entry key="couldNotReadFile">Unable to find file or directory ''{0}''.</entry>
+    <entry key="loadingFrom">\nLoading from: {0}\n\n</entry>
+    <entry key="badVariableName">Unable to read file ''{0}''. Variable name length must be less than or equal to MATLAB maximum name length of 63 characters.</entry>
+    <entry key="setValueFail"> Setting value for property {0} failed. Ignoring this property</entry>
+    <entry key="protectedLoadingIllegalValue">''ProtectedLoading'' argument must be a scalar with a value of ''true'', ''false'', ''1'', or ''0''.</entry>
+    <entry key="unableToLoadClassObjectInProtectedLoading">Object cannot be loaded in protected loading mode.  It has been replaced by an empty double.</entry>
+    <entry key="unableToLoadClassObjectsInProtectedLoading">{0} objects cannot be loaded in protected loading mode.  They have been replaced by empty doubles.</entry>
+  </message>
+</rsccat>

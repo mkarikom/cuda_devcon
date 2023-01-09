@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InsufficientArguments">MAKEIMPORTCODE 需要至少一个输入参数。</entry>
+    <entry key="ArgumentsMustBeOdd">MAKEIMPORTCODE 需要奇数数量的输入参数。</entry>
+    <entry key="FirstArgMustBeStruct">MAKEIMPORTCODE 的第一个输入参数必须为结构体。</entry>
+    <entry key="ArgsMustBeChars">MAKEIMPORTCODE 的第二个及后续输入参数必须为字符数组。</entry>
+    <entry key="CannotSave">无法创建文件: {0}</entry>
+  </message>
+</rsccat>

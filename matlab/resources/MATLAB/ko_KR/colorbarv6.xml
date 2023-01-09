@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidPeerAxes">파라미터 ''peer'' 다음에는 axes 핸들이 와야 합니다.</entry>
+    <entry key="SecondArgMustBeAxes">두 번째 인수는 스칼라 axes 핸들이어야 합니다.</entry>
+    <entry key="UnknownCommandOption">알 수 없는 명령 옵션입니다.</entry>
+    <entry key="ThirdArgMustBeAxes">세 번째 인수는 스칼라 axes 핸들이어야 합니다.</entry>
+    <entry key="CannotAddToColorbar">Colorbar는 다른 colorbar에 추가될 수 없습니다.</entry>
+    <entry key="AxesHandleRequired">axes 핸들이 필요합니다.</entry>
+    <entry key="HandleVertHorizExpected">COLORBAR의 입력값은 핸들이거나 ''vert'' 또는 ''horiz''여야 합니다.</entry>
+  </message>
+</rsccat>

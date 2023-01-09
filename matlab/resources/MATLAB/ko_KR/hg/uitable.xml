@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadDataDimension">데이터는 2차원 행렬이어야 합니다.</entry>
+    <entry key="BadDataType">데이터는 숫자형, 논리형, string형, 셀형 또는 table형 배열이어야 함</entry>
+    <entry key="BadDataCellArrayType">셀형 배열 내의 값은 숫자형, 논리형, 문자형이어야 함</entry>
+    <entry key="BadDataCellArraySize">셀형 배열 내의 데이터는 크기가 [1 1]이어야 함</entry>
+    <entry key="BadColumnWidthRowVector">ColumnWidth는 행 벡터여야 함</entry>
+    <entry key="BadColumnWidthValue">
+    ColumnWidth는 숫자를 포함하는 셀형 배열이거나 ''auto''여야 합니다. 값은 어떠한 조합으로든 지정할 수 있습니다(예: '{'100,50,''auto'',''auto'''}').
+</entry>
+    <entry key="BadColumnFormatPopupmenuRowVector">ColumnFormat 팝업 메뉴 정의는 행 벡터여야 함</entry>
+    <entry key="BadColumnFormatEmptyMatrix">ColumnFormat 팝업 메뉴 정의에는 빈 행렬이 포함될 수 없음</entry>
+    <entry key="BadColumnFormatChar">ColumnFormat 팝업 메뉴 정의에는 문자 값만 있어야 함</entry>
+    <entry key="BadColumnFormatIncorrectDataType">ColumnFormat 정의는 ''numeric'', ''logical'', ''char'', ''short'', ''long'', ''short e'', ''long e'', ''short g'', ''long g'', ''short eng'', ''long eng'', ''bank'', ''+'', ''rat''이거나 popupmenu 정의여야 함</entry>
+    <entry key="BadColumnFormatInvalidDataType">ColumnFormat 정의는 ''numeric'', ''logical'', ''char'' 또는 팝업 메뉴 정의여야 함</entry>
+    <entry key="BadColumnFormatCellArray">ColumnFormat은 셀형 배열이어야 함</entry>
+    <entry key="BadColumnFormatRowVector">ColumnFormat은 행 벡터여야 함</entry>
+    <entry key="BadColumnEditableRowVector">ColumnEditable은 행 벡터여야 함</entry>
+    <entry key="BadColumnEditableLogical">ColumnEditable은 논리형이거나 논리형 배열이어야 함</entry>
+    <entry key="BadConversionCharToLogical">편집 대상 문자형 값을 논리형 행렬로 변환할 수 없습니다.</entry>
+    <entry key="BadConversionLogicalToChar">편집 대상 논리형 값을 문자형 행렬로 변환할 수 없습니다.</entry>
+    <entry key="BadConversionLogicalToNumeric">편집 대상 논리형 값을 숫자형 행렬로 변환할 수 없습니다.</entry>
+    <entry key="BadConversionNumericToLogical">편집 대상 숫자형 값을 논리형 행렬로 변환할 수 없습니다.</entry>
+    <entry key="BadDataDimensionValue">데이터는 2차원 행렬이어야 합니다.</entry>
+    <entry key="BadDataArrayType">셀형 배열 내의 값은 숫자형, 논리형, 문자형이어야 함</entry>
+    <entry key="BadDataArraySize">셀형 배열 내의 데이터는 크기가 [1 1]이어야 함</entry>
+    <entry key="BadBackgroundColors">BackgroundColors에는 적어도 하나의 [r g b] 형식의 색이 있어야 함</entry>
+    <entry key="invalidScrollLocation">
+    
+    위치는 ''{0}'', ''{1}'', ''{2}'' 또는 ''{3}''이어야 합니다. 
+</entry>
+    <entry key="invalidScrollTarget">
+    
+    대상은 ''{0}'', ''{1}'' 또는 ''{2}''이어야 합니다. 
+</entry>
+    <entry key="invalidColumnTargetIndex">
+     
+    ''{0}''에 대한 옵션은 데이터 범위 내에 있는 양의 정수이거나 변수 이름과 일치하는 문자형 벡터여야 합니다.
+</entry>
+    <entry key="invalidNumericTargetIndex">
+     
+    ''{0}''에 대한 옵션은 데이터 범위 내에 있는 양의 정수여야 합니다.
+</entry>
+    <entry key="invalidCellTargetIndex">
+     
+    ''{0}''에 대한 옵션은 데이터 범위 내에 있는 양의 정수로 구성된 1×2 벡터여야 합니다.
+</entry>
+    <entry key="CellEditWarning">{0}</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidClassName">クラス名が無効です。</entry>
+    <entry key="inputMustBeString">入力は整数クラスの名前を含む文字ベクトルでなければなりません。</entry>
+    <entry key="tooManyInputs">入力が多すぎます。</entry>
+  </message>
+</rsccat>

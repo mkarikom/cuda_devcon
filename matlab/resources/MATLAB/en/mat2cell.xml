@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NonVectorArgument">Input arguments, D1 through D{0,number,integer}, should be vectors.</entry>
+    <entry key="ArgumentCountMismatch">Number of input vector arguments, {0,number,integer}, does not match the input matrix''s number of dimensions, {1,number,integer}.</entry>
+    <entry key="VectorSumMismatch">Input arguments, D1 through D{0,number,integer}, must sum to each dimension of the input matrix size, [{1}].</entry>
+  </message>
+</rsccat>

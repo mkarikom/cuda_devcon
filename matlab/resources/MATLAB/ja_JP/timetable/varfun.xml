@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RowLabelsCannotBeDataVar">行時間は、データ変数としてはサポートされていません。</entry>
+    <entry key="RowLabelsCannotBeDataVarNondefaultName">認識されない変数名 ''{0}'' です。この timetable で ''{1}'' という名前が付けられている行時間にアクセスしようとした可能性があります。しかし、行時間はデータ変数としてはサポートされていません。</entry>
+    <entry key="InvalidOutputFormat">OUTPUTFORMAT は次のいずれかでなければなりません: 'uniform'、'table'、'cell' または 'timetable'。</entry>
+  </message>
+</rsccat>

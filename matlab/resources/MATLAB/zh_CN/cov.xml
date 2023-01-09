@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">输入参数的数目不足。</entry>
+    <entry key="TooManyInputs">输入参数太多。</entry>
+    <entry key="InputDim">输入必须为二维。</entry>
+    <entry key="unknownFlag">选项无效。选项必须为 ''includenan''、''omitrows'' 或 ''partialrows''。</entry>
+    <entry key="notScalarFlag">第三个输入必须为 0、1 或标志字符向量。</entry>
+    <entry key="XYlengthMismatch">x 和 y 中的元素数目必须匹配。</entry>
+  </message>
+</rsccat>

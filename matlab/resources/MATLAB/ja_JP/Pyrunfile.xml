@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EmptyFilename">File name must be provided.</entry>
+    <entry key="InvalidFilenameType">File name must be a char, a scalar cellstr or a scalar string without missing values.</entry>
+    <entry key="InvalidFilenameExtension">File name must contain '.py' extension.</entry>
+    <entry key="FileNotFound">Cannot open file ''{0}''.</entry>
+    <entry key="ParseErrorMissingWhitespace">File name and command line arguments must be separated by whitespace characters.</entry>
+    <entry key="ParseErrorUnmatchedDoubleQuote">Unmatched double quotes.</entry>
+    <entry key="ParseErrorUnmatchedSingleQuote">Unmatched single quotes.</entry>
+  </message>
+</rsccat>

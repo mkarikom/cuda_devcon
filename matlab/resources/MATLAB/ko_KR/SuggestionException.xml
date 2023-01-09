@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ConversationalNameForArguments">추가된 인수</entry>
+    <entry key="ConversationalNameForIdentifier">식별자</entry>
+    <entry key="ConversationalNameForMethodToConvert">메서드 이름</entry>
+    <entry key="ConversationalNameForReplacement">교체</entry>
+    <entry key="InvalidIdentifierName">{0}은(는) 유효한 MATLAB 이름이어야 합니다. ''{1}''은(는) 유효하지 않습니다.</entry>
+    <entry key="MustBeCorrectionScalar">Correction은 matlab.lang.correction.Correction 스칼라여야 합니다.</entry>
+    <entry key="MustBeTextScalar">{0}은(는) string형 스칼라이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="MustBeTextVector">{0}은(는) string형 벡터, 문자형 벡터 또는 문자형 벡터로 구성된 셀형 벡터이어야 합니다.</entry>
+    <entry key="MustUseCorrectSyntax">{0}의 MATLAB 구문이 올바르지 않습니다. ''{1}''은(는) 유효하지 않습니다.</entry>
+  </message>
+</rsccat>

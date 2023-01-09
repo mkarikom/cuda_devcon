@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidColorParameter">C must be [MxN] or [MxNx3]</entry>
+    <entry key="ColorColumnsError">Length of C vector must match number of columns of X Y [Z] data</entry>
+    <entry key="ColorLengthError">Length of C must match number of vertices per patch</entry>
+    <entry key="ColorMatrixSizeError">Size of C must match sizes of X Y [Z]</entry>
+  </message>
+</rsccat>

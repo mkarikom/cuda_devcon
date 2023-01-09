@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidpv">プロパティ/値のペアが無効です。</entry>
+    <entry key="noScalars">すべての数値時間は実数スカラーでなければなりません</entry>
+    <entry key="noNumericStart">開始時間は数値でなければなりません。</entry>
+    <entry key="invStartFormat">無効な開始時間形式</entry>
+    <entry key="invalidduptimes">指定した時間値が時系列で重複しています。GETSAMPLEUSINGTIME を呼び出すときに AllowDuplicateTimes フラグを設定すると、重複した時間でサンプルを取得できます。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noJVM">이 기능은 -nojvm 시작 옵션에서 지원되지 않습니다.</entry>
+    <entry key="MacNoX11">이 기능은 이 MATLAB 인스턴스 시작에 사용되는 옵션에서 더 이상 지원되지 않습니다. 자세한 내용은 MATLAB 릴리스 정보에서 "Startup Option Changes on Mac" 항목을 참조하십시오. 시스템 브라우저에서 릴리스 정보를 보려면 web(''http://www.mathworks.com/help/matlab/release-notes.html#startup_options_changes'', ''-browser'')를 실행하십시오.</entry>
+    <entry key="ObjectDestroyed">객체가 제거되었습니다!</entry>
+    <entry key="CALLBACK">콜백을 실행하는 중 알 수 없는 오류 코드가 반환되었습니다.</entry>
+    <entry key="UicontrolUnitsAfterPosition">UICONTROL이 ''Position'' 다음에 ''Units''의 속성/값 쌍을 받았습니다.\n         이전 버전과의 호환성을 위해 위치는 새 단위로 해석됩니다. 다음 MATLAB 릴리스에서는 UICONTROL이 ''position'' 값을 디폴트 단위로 해석하며, 뒤이어 나오는 ''units'' 속성/값 쌍이 있으면 초기 위치를 지정된 단위로 해석합니다.</entry>
+    <entry key="IteratorOutOfBoundsError">이터레이터(Iterator)가 사용 가능한 데이터의 끝에 도달했습니다.</entry>
+    <entry key="hgError">{0}은(는) {1}의 자식이 될 수 없습니다.</entry>
+    <entry key="UnsupportedComponentUsePanel">{0}은(는) {1}을(를) 지원하지 않습니다. 패널을 {0}의 자식으로 만든 다음, 이 패널에 {1}을(를) 배치하십시오.</entry>
+  </message>
+</rsccat>

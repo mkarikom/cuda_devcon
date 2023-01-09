@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidCode">行 {0,number,integer} のコードが無効です。すべてのコードは -128 から 127 までの整数でなければなりません</entry>
+    <entry key="nonUniqueCodes">固有の特性コードと説明を指定してください。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EmptyDirectoryName">空のディレクトリ名が与えられています。作成するディレクトリがありません。\nこの構文は、将来のリリースでサポートされない可能性があります。</entry>
+    <entry key="DirectoryExists">ディレクトリが既に存在します。</entry>
+    <entry key="ExistsAsFile">ディレクトリを作成できません。{0} は既にファイルとして存在します。</entry>
+    <entry key="InvalidCharacter">ファイル システムのエンコードに含まれていない文字がディレクトリ名に含まれています。\n処理によっては予期したとおりに機能しない場合があります。</entry>
+    <entry key="PermissionDenied">リソースは既に存在します。ディレクトリ ''{0}'' を作成するための権限が不十分です。</entry>
+    <entry key="FailureToMkdir">''{0}'' という名前のディレクトリを作成できません。</entry>
+  </message>
+</rsccat>

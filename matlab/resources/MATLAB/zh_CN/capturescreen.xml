@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FigureWindowRequired">getframe 需要有效的图窗窗口。</entry>
+    <entry key="WidthAndHeightMustBeAtLeast1">矩形宽度和高度必须至少为 1 像素</entry>
+    <entry key="BadObject">必须指定有效的图窗句柄或坐标区句柄</entry>
+    <entry key="FigureDestroyedDuringGetFrame">执行 getframe 期间图窗被破坏</entry>
+    <entry key="FigureNotValidDuringGetFrame">执行 getframe 期间图窗窗口无效</entry>
+    <entry key="RectangleMustBeAtLeastPartiallyOnScreen">传递给 getframe 的矩形必须至少有一部分显示在屏幕上</entry>
+    <entry key="OnlySupportTrueColor">Getframe/CaptureScreen 仅支持真彩色视觉效果。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="PerlNotFound">Unable to find Perl executable.</entry>
+    <entry key="PerlError">System error: {0}\nCommand executed: {1}</entry>
+    <entry key="EmptyPath">MATLAB could not construct the default path due to missing files. For help, contact your system administrator or MathWorks Technical Support.</entry>
+  </message>
+</rsccat>

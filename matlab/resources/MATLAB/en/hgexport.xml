@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="FirstInputMustBeFigHandle">First argument must be a handle to a figure.</entry>
+    <entry key="SecondInputMustBeString" note="stringDatatypeUpdate">Second argument must be a string scalar or a character vector.</entry>
+    <entry key="CopyToClipboardNotSupported">Copying to clipboard is not supported on this platform.</entry>
+    <entry key="ParameterMustBeString" note="stringDatatypeUpdate">Optional parameter names must be string scalars or character vectors.</entry>
+    <entry key="InvalidPreviewAction">Preview must be ''none'' or ''tiff''.</entry>
+    <entry key="WidthMustBePositiveScalar">Width must be a numeric scalar &gt; 0</entry>
+    <entry key="HeightMustBePositiveScalar">Height must be a numeric scalar &gt; 0</entry>
+    <entry key="InvalidColor">Color must be ''bw'', ''gray'',''rgb'' or ''cmyk''.</entry>
+    <entry key="InvalidFontMode">FontMode must be ''scaled'', ''fixed'' or ''none''.</entry>
+    <entry key="InvalidScaledFontSize">ScaledFontSize must be a numeric scalar &gt; 0</entry>
+    <entry key="InvalidFixedFontSize">FixedFontSize must be a numeric scalar &gt; 0</entry>
+    <entry key="InvalidFontSizeMin">FontSizeMin must be a numeric scalar &gt; 0</entry>
+    <entry key="InvalidFontNameInput" note="stringDatatypeUpdate">FontName must be a string scalar or a character vector.</entry>
+    <entry key="InvalidFontWeightInput">'FontWeight' value must be ''normal'' or ''bold''.</entry>
+    <entry key="InvalidFontAngleInput">'FontAngle' value must be ''normal'' or ''italic''.</entry>
+    <entry key="InvalidFontEncodingType">FontEncoding must be ''latin1'' or ''adobe''.</entry>
+    <entry key="InvalidPSLevelInput">PSlevel must be 2 or 3</entry>
+    <entry key="InvalidLineModeInput">LineMode must be ''scaled'', ''fixed'' or ''none''.</entry>
+    <entry key="InvalidScaleLineWidth">ScaledLineWidth must be a numeric scalar &gt; 0</entry>
+    <entry key="InvalidFixedLineWidth">FixedLineWidth must be a numeric scalar &gt; 0</entry>
+    <entry key="InvalidLinWidthMinInput">LineWidthMin must be a numeric scalar &gt; 0</entry>
+    <entry key="InvalidRendererInput">Renderer must be ''painters'' or ''opengl''.</entry>
+    <entry key="InvalidResolution">Resolution must be a numeric scalar &gt;= 0</entry>
+    <entry key="InvalidBounds">Bounds must be ''tight'' or ''loose''.</entry>
+    <entry key="InvalidLockAxesInput">LockAxes must be ''on'' or ''off''.</entry>
+    <entry key="InvalidLockAxesTicksInput">LockAxesTicks must be ''on'' or ''off''.</entry>
+    <entry key="InvalidShowUIInput">ShowUI must be ''on'' or ''off''.</entry>
+    <entry key="InvalidSeparateTextInput">Separatetext must be ''on'' or ''off''.</entry>
+    <entry key="UnknownOption">Unrecognized option {0}.</entry>
+    <entry key="SkippingStylemap">Skipping stylemap. {0}</entry>
+    <entry key="InvalidColorParam">Invalid Color parameter</entry>
+    <entry key="InvalidFontModeParam">Invalid FontMode parameter</entry>
+    <entry key="StyleNotFound">Style ''{0}'' does not exist.</entry>
+  </message>
+</rsccat>

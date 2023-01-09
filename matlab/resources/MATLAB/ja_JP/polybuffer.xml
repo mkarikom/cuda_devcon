@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nameValueError">入力引数の数が正しくありません。パラメーターの名前と値はペアでなければなりません。</entry>
+    <entry key="bufferParameter">パラメーター名は 'JointType' または 'MiterLimit' でなければなりません。</entry>
+    <entry key="bufferDistanceError">バッファー距離の引数は実数で正の有限スカラーでなければなりません。</entry>
+    <entry key="bufferJointError">'JointType' 値は、'round'、'miter' または 'square' でなければなりません。</entry>
+    <entry key="bufferMiterValue">'MiterLimit' 値は、2 以上の実数値スカラーでなければなりません。</entry>
+    <entry key="bufferMiterType">'MiterLimit' が指定されている場合、'JointType' 値は 'miter' でなければなりません。</entry>
+    <entry key="secondInputError">2 番目の入力引数は 'lines' または 'points' でなければなりません。</entry>
+    <entry key="nameValueNotAllowed">2 番目の入力引数が 'points' である場合、'JointType' および 'MiterLimit' はサポートされません。</entry>
+    <entry key="coordEmptyError">x 座標と y 座標の行列が空です。</entry>
+    <entry key="coord2ColError">x 座標と y 座標の行列は 2 列の数値配列でなければなりません。</entry>
+    <entry key="coordError">x 座標と y 座標は有限な実数値の配列でなければなりません。</entry>
+    <entry key="sparseError">スパース配列はサポートされていません。</entry>
+    <entry key="lineMin2Points">x 座標と y 座標の行列は 2 列で、少なくとも 2 行なければなりません。</entry>
+    <entry key="nanInconsistent">ライン引数の x 座標と y 座標の NaN 配置は同じでなければなりません。</entry>
+    <entry key="missing1stArgument">入力引数が不足しています。最初の引数として x 座標と y 座標の行列を指定してください。</entry>
+    <entry key="missing2ndArgument">入力引数が不足しています。2 番目の引数として 'lines' または 'points' を指定してください。</entry>
+    <entry key="missing3rdArgument">入力引数が不足しています。3 番目の引数としてバッファー距離を指定してください。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FileTooLarge">エラー: {0}ファイルが大きすぎるため、MATLAB で実行できません。</entry>
+    <entry key="EvalExpressionTooLarge">エラー: {0}式が大きすぎるため、MATLAB で評価できません。</entry>
+    <entry key="ExpressionTooComplicated">エラー: {0}式が複雑すぎるため、MATLAB で評価できません。</entry>
+    <entry key="ParforTooComplicated">エラー: {0}parfor ループが複雑すぎるため、MATLAB で実行できません。</entry>
+    <entry key="SPMDTooComplicated">エラー: {0}spmd ブロックが複雑すぎるため、MATLAB で実行できません。</entry>
+    <entry key="StatementTooDeeplyNested">エラー: {0}ステートメントの入れ子が深すぎます。</entry>
+    <entry key="TextTooLong">エラー: {0}テキストが長すぎるため、MATLAB で解析できません。</entry>
+    <entry key="TooManySwitchCases">エラー: {0}switch ステートメントに含まれる case が多すぎます。</entry>
+    <entry key="TooManyElseifBlocks">エラー: {0}if ステートメントに含まれる elseif ブロックが多すぎます。</entry>
+    <entry key="TooManyParforVariables">エラー: {0}parfor ループに含まれる変数が多すぎます。</entry>
+    <entry key="TooManySPMDVariables">エラー: {0}spmd ブロックに含まれる変数が多すぎます。</entry>
+  </message>
+</rsccat>

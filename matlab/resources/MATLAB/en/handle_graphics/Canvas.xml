@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidSceneViewer">SceneViewer object wasn't initialized properly</entry>
+    <entry key="BadFilename">That is not a valid filename</entry>
+    <entry key="BadFormat">That is not a valid format</entry>
+    <entry key="UnexpectedException">Something bad happened</entry>
+    <entry key="InvalidRendererValueSpecified">Expected renderer value of either 0 (opengl) or 1 (painters)</entry>
+    <entry key="ViewportNotValid">The viewport did not enter a valid state</entry>
+    <entry key="TooManyTokens">The operation failed because too many jobs are outstanding</entry>
+    <entry key="StatisticsListener">Incorrect modification of statistics collection listeners</entry>
+    <entry key="DebugLogListener">Incorrect modification of debuglog listeners</entry>
+    <entry key="WaitingObjectReferenceInvalid">The waiting object reference is no longer valid</entry>
+    <entry key="RenderingException">An error occurred while drawing the scene: {0}</entry>
+    <entry key="WebglException">Webgl unavailable, falling back to context2d renderer</entry>
+    <entry key="SceneClientException" translate="false">{0}</entry>
+    <entry key="CSRNotSupported">This canvas does not support client side rendering</entry>
+    <entry key="HittestDisabled">Hittest is not enabled for this canvas</entry>
+  </message>
+</rsccat>

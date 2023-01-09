@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidInput">maxNumCompThreads への入力は、正の数値の整数値のスカラーまたは ''automatic'' でなければなりません。</entry>
+    <entry key="setMaxNumInput">maxNumCompThreads(N) は、計算スレッドの最大許容数 {0,number,integer} を超えています。</entry>
+  </message>
+</rsccat>

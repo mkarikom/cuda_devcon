@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AmbiguousOthers">입력 데이터에 'ShowOthers'의 사용과 충돌하는 범주 ''{0}''이(가) 포함되어 있습니다. renamecats를 사용하여 ''{0}''을(를) 다른 범주 이름으로 바꾸십시오.</entry>
+    <entry key="BinCountsInvalidSize">BinCounts는 길이가 length(Categories)와 같은 벡터여야 합니다.</entry>
+    <entry key="CategoriesInvalidSize">''Categories''의 길이와 ''BinCounts''의 길이는 같아야 합니다.</entry>
+    <entry key="EmptyBinCountsManualMode">''BinCountsMode''가 ''manual''로 설정되어 있으면 ''BinCounts''를 설정해야 합니다.</entry>
+    <entry key="InvalidCategories">CATEGORIES는 categorical형 벡터, string형 벡터 또는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="InvalidCategoriesAssign" context="error">범주 이름은 string형으로 구성된 벡터 또는 문자형 벡터로 구성된 셀형 벡터로 제공되어야 합니다.</entry>
+    <entry key="InvalidCodes">코드는 범주 개수와 길이가 동일해야 합니다.</entry>
+    <entry key="ManualDisplayOrder">''DisplayOrder'' 값은 ''ascend'', ''descend'', ''data'' 중 하나여야 합니다.</entry>
+    <entry key="MixedCategoriesNumDisplayBins">유효하지 않은 입력값 조합입니다. 범주 목록과 ''NumDisplayBins'' 중 하나만 지정하십시오.</entry>
+    <entry key="MixedDataBinCounts">X 입력값이 비어 있지 않으면 BinCounts를 설정할 수 없습니다.</entry>
+    <entry key="MixedOrdinal">동일한 좌표축에 있는 순서형 categorical형 배열의 히스토그램은 동일한 범주를 가져야 합니다.</entry>
+    <entry key="MixedOrdinalAssign">Data 속성에 대입할 때 이전 순서형 Data와 새 순서형 Data는 모두 동일한 순서로 된 동일한 범주를 포함해야 합니다.</entry>
+    <entry key="MixedOrdinalNonOrdinal">순서형 categorical형 배열과 비순서형 categorical형 배열의 히스토그램은 동일한 좌표축에 플로팅할 수 없습니다.</entry>
+    <entry key="MixedOrdinalNonOrdinalAssign">Data 속성에 값을 대입하는 경우 이전 Data와 새 Data는 모두 순서형이거나, 모두 비순서형이어야 합니다.</entry>
+    <entry key="MixedOrientation">방향이 각기 다른 categorical형 배열의 히스토그램은 동일한 좌표축에 플로팅할 수 없습니다.</entry>
+    <entry key="UnsupportedPolarCoordinates">categorical형 데이터의 히스토그램은 극좌표 좌표축으로 플로팅할 수 없습니다.</entry>
+    <entry key="NonCategoricalX">X는 categorical형 배열이어야 합니다.</entry>
+    <entry key="NonEmptyBinCountsAutoMode">''BinCountsMode''가 ''auto''로 설정되어 있으면 ''BinCounts''를 설정할 수 없습니다.</entry>
+    <entry key="NonVectorCategories">CATEGORIES는 벡터이거나 비어 있어야 합니다.</entry>
+    <entry key="NumDisplayBinsManualMode">''BinCounts''가 지정된 경우에는 ''NumDisplayBins''가 지원되지 않습니다.</entry>
+    <entry key="NumDisplayBinsExceedsNumCategories">''NumDisplayBins'' 값은 데이터에 있는 범주 개수보다 작거나 같아야 합니다.</entry>
+    <entry key="OrdinalCategoriesMismatch">X와 CATEGORIES가 모두 순서형 배열인 경우 이 둘은 동일한 순서로 된 동일한 범주를 포함해야 합니다.</entry>
+    <entry key="OrdinalMismatch">X와 CATEGORIES는 모두 순서형이거나 모두 순서형이 아니어야 합니다.</entry>
+    <entry key="OrientationMixedType">좌표축에 histogram이 아닌 객체가 있는 경우 categorical형 데이터에는 방향이 지원되지 않습니다.</entry>
+    <entry key="OrientationYYAxes">두 y축에 categorical형 데이터가 있는 히스토그램에 대해서는 ''방향'' 값을 변경할 수 없습니다.</entry>
+    <entry key="Others">기타</entry>
+    <entry key="RepeatedCategories">범주는 고유해야 합니다.</entry>
+    <entry key="ShowOthersManualMode">''BinCounts''가 지정된 경우에는 ''기타'' 막대를 표시할 수 없습니다.</entry>
+    <entry key="UnrecognizedCategories">CATEGORIES에 X에 없는 범주가 포함되어 있습니다.</entry>
+    <entry key="UnsupportedFewerbins">categorical형 데이터의 히스토그램에서는 fewerbins 메서드가 지원되지 않습니다.</entry>
+    <entry key="UnsupportedMorebins">categorical형 데이터의 히스토그램에서는 morebins 메서드가 지원되지 않습니다.</entry>
+    <entry key="ShowEmptyBinsLabel">비어 있는 Bin을 표시할지 여부</entry>
+    <entry key="NumBinsLabel">Bin 개수</entry>
+    <entry key="Category">범주</entry>
+    <entry key="Value">값</entry>
+  </message>
+</rsccat>

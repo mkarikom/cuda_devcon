@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ZeroPivot">0 のピボットがあります。棄却許容誤差を減らすことを検討するか、\''udiag\'' オプションの使用を検討してください。</entry>
+    <entry key="FirstArgNotSparse">1 番目の引数はスパースでなければなりません。</entry>
+    <entry key="FirstArgNotDouble">1 番目の引数は倍精度でなければなりません。</entry>
+    <entry key="SecondArgNotStruct">2 番目の引数は setup 構造体でなければなりません。</entry>
+    <entry key="StructTooManyFields">setup 構造体にフィールドが多すぎます。</entry>
+    <entry key="StructTypeNotString">setup 構造体の type フィールドは、''nofill''、''crout'' または ''ilutp'' でなければなりません。</entry>
+    <entry key="pivotThreshOutOfRange">setup 構造体の thresh フィールドは 0 から 1 の間でなければなりません。</entry>
+    <entry key="nonNumericUDIAG">setup 構造体の udiag フィールドは数値でなければなりません。</entry>
+    <entry key="UDIAGOptionOutOfRange">setup 構造体の udiag フィールドは 0 または 1 のいずれかでなければなりません。</entry>
+    <entry key="StructMiluInvalidOption">setup 構造体の milu フィールドは ''row''、''col'' または ''off'' でなければなりません。</entry>
+    <entry key="nonNumericDropTol">setup 構造体の droptol フィールドは数値でなければなりません。</entry>
+    <entry key="NegDropTol">setup 構造体の droptol フィールドは非負でなければなりません。</entry>
+    <entry key="nonNumericThresh">setup 構造体の thresh フィールドは数値でなければなりません。</entry>
+    <entry key="nonScalarPivotThresh">setup 構造体の thresh フィールドはスカラーでなければなりません。</entry>
+    <entry key="nonScalarDropTol">setup 構造体の droptol フィールドはスカラーでなければなりません。</entry>
+    <entry key="nonScalarUdiag">setup 構造体の udiag フィールドはスカラーでなければなりません。</entry>
+    <entry key="InvalidField">setup 構造体のフィールド {0} はサポートされていません。サポートされるフィールドは ''type''、''droptol''、''milu''、''udiag''、''thresh'' です。</entry>
+  </message>
+</rsccat>

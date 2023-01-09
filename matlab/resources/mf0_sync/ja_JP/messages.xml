@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="mf0_sync" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CannotHandle">受信メッセージを処理できません。</entry>
+    <entry key="CannotHandleWithException">受信メッセージを処理できません。例外: {0}</entry>
+  </message>
+</rsccat>

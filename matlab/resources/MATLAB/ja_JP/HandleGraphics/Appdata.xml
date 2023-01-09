@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidSecondArgumentName">2 番目の引数は文字ベクトルでなければなりません</entry>
+    <entry key="LongName">指定した文字ベクトルの名前の長さが {0,number,integer} の最大制限を超えています</entry>
+    <entry key="InvalidNameAppdata">指定した文字ベクトル名が appdata 内に存在しません</entry>
+    <entry key="InvalidPropertyName">無効なユーザー プロパティ: {0}。</entry>
+  </message>
+</rsccat>

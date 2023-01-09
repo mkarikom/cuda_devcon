@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="NoJvm">SENDMAIL requires Java.</entry>
+      <entry key="InvalidSubject">Subjects cannot contain newline characters.</entry>
+      <entry key="CannotOpenFile">Cannot open file "{0}".</entry>
+      <entry key="SmtpError" translate="false">{0}</entry>
+      <entry key="AddressError" translate="false">{0}</entry>
+      <entry key="assignment_AuthenticationFailed">Authentication failed.</entry>
+      <entry key="SMTPServerIndeterminate">Could not determine SMTP server.  You can set one like this: \n{0}</entry>
+      <entry key="FromAddressIndeterminate">Could not determine FROM address.  You can set one like this: \n{0}</entry>
+   </message>
+</rsccat>

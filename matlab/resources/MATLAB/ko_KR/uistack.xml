@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PassedInvalidHandles">유효하지 않은 핸들이 UISTACK으로 전달됨</entry>
+    <entry key="ParentMustBeSame">UISTACK으로 전달된 모든 핸들은 부모가 동일해야 합니다.</entry>
+    <entry key="InvalidStackOption">UISTACK에 대해 유효하지 않은 스택 옵션임</entry>
+  </message>
+</rsccat>

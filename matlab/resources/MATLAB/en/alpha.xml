@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidHandleArguments">Wrong number of arguments</entry>
+    <entry key="UnknownAlphaValue">Unknown value for alpha.</entry>
+    <entry key="ParameterIgnored">Parameter {0}is not compatible with {1} objects.</entry>
+    <entry key="ParameterIgnoredObjects">Parameter {0}is not compatible with the specified objects.</entry>
+    <entry key="UnrecognizedObject">The alpha command is not compatible with the specified objects.</entry>
+    <entry key="DeletedObject">Cannot set the transparency on deleted graphics objects.</entry>
+</message>
+</rsccat>

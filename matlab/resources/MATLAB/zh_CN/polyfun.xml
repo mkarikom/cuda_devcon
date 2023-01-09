@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BoolUnknownOperator">未知的运算符。请使用下列项之一: intersection、difference、union 或 xor。</entry>
+    <entry key="BoolFailed">无法执行布尔运算。请检查数据。</entry>
+    <entry key="BoolWrongData">输入数据必须为大小相同的双精度向量。请检查数据。</entry>
+    <entry key="BoolTooFewVertices">每个输入多边形都必须至少包含三个顶点。</entry>
+    <entry key="BoolOperatorNotFound">第一个参数必须为字符串。</entry>
+    <entry key="BoolScaleNotDouble">输入缩放因子必须为正的双精度标量。</entry>
+    <entry key="BoolNanInconsistent">输入向量在多个不同位置包含 NaN。请检查数据。</entry>
+    <entry key="invalidDataRT">输入数据无效。</entry>
+    <entry key="invalidFacetRT">无效分面被忽略。</entry>
+    <entry key="NotTriangulation">输入参数必须为三角剖分对象。</entry>
+    <entry key="Not2dTriangulation">输入参数必须为二维三角剖分对象。</entry>
+    <entry key="ProblemInBoundary">三角剖分的边界未闭合或具有相交处。</entry>
+    <entry key="nameValueError">输入参数的数目不正确。参数名称和值必须成对出现。</entry>
+    <entry key="EmptyTriangulation">输入三角剖分为空。</entry>
+    <entry key="stlFileName">文件名必须为字符串标量或字符向量。</entry>
+    <entry key="stlFileExtension">文件名必须以 .stl 或 .STL 结尾。</entry>
+    <entry key="stlFileCannotOpen">无法打开文件 ''{0}''。</entry>
+    <entry key="stlFailedToWrite">无法写入文件 ''{0}''。</entry>
+    <entry key="stlFailedToRead">无法读取文件 ''{0}''。</entry>
+    <entry key="stlInvalidData">输入文件必须至少包含 3 个唯一顶点。</entry>
+    <entry key="stlTrisOnly">不支持四面体三角剖分。</entry>
+    <entry key="stlWriteParameter">参数名称必须为 ''Attribute'' 或 ''SolidIndex''。</entry>
+    <entry key="stlAttributeType">''Attribute'' 值必须为 uint16 类型的有限实数向量。</entry>
+    <entry key="stlAttributeSize">''Attribute'' 值的长度必须等于三角形的数目({0})。</entry>
+    <entry key="stlSolidIndexType">''SolidIndex'' 值必须为正整数向量。</entry>
+    <entry key="stlSolidIndexSize">''SolidIndex'' 值的长度必须等于三角形的数目({0})。</entry>
+    <entry key="stlSolidIndexNoEffect">仅当文件格式为 "text" 时才支持 "SolidIndex" 参数。</entry>
+    <entry key="stlAttributeNoEffect">仅当文件格式为 "binary" 时才支持 "Attribute" 参数。</entry>
+    <entry key="stlFileFormat">文件格式必须为 "binary" 或 "text"。</entry>
+    <entry key="stlInvalidTri">三角剖分的 ConnectivityList 属性必须包含 3 列。</entry>
+    <entry key="TetMaxLessThanMin">The maximum height is less than or equal to the minimum height.</entry>
+  </message>
+</rsccat>

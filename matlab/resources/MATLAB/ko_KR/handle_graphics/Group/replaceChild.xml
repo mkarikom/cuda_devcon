@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidOldNode">첫 번째 입력 인수는 유효한 객체여야 합니다.</entry>
+    <entry key="nonScalarFirstArg">첫 번째 입력 인수는 스칼라 객체여야 합니다.</entry>
+    <entry key="invalidNewNode">두 번째 입력 인수는 유효한 객체여야 합니다.</entry>
+    <entry key="nonScalarSecondArg">두 번째 입력 인수는 스칼라 객체여야 합니다.</entry>
+    <entry key="invalidOldObject">첫 번째 입력 인수는 유효한 객체여야 합니다.</entry>
+    <entry key="invalidNewObject">두 번째 입력 인수는 유효한 객체여야 합니다.</entry>
+    <entry key="addChild">동일한 그룹의 자식으로 그룹을 추가할 수 없음</entry>
+  </message>
+</rsccat>

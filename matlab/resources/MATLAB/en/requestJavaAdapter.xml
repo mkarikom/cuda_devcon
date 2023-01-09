@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invalidobject">This object cannot be inspected because its class is not a subclass of JavaVisible.</entry>
+    <entry key="InvalidInput">''requestJavaAdapter'' argument must be a handle list.</entry>
+    <entry key="InvalidArgument">''requestJavaAdapter'' argument must be a handle list.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidArguments">参数必须是一个表且后跟 2 个表下标或 2 个数值或分类向量。</entry>
+    <entry key="InvalidTableArguments">输入参数的数目不足。表参数必须后跟 2 个表下标。</entry>
+    <entry key="GroupVariableNameValuePair">使用参数名称和值对组指定 "GroupVariable"。</entry>
+    <entry key="InvalidParent">父容器必须为图窗、uipanel 或 uitab。</entry>
+    <entry key="DeletedParent">父容器为已删除的图形对象。</entry>
+    <entry key="InvalidXOrYSize">x 和 y 值必须是长度相等的向量。</entry>
+    <entry key="InvalidXDataOrYDataSize">"XData" 和 "YData" 必须是长度相等的向量。</entry>
+    <entry key="InvalidGroupDataSize">"GroupData" 必须是与 "XData" 和 "YData" 长度相等的向量。</entry>
+    <entry key="InvalidGroupDataCell">''GroupData'' 必须为字符向量元胞数组。</entry>
+    <entry key="InvalidNumericColorSize">''Color'' 必须为 N×3 矩阵，其中 N 为 1 或 ''GroupData'' 中的组数。</entry>
+    <entry key="InvalidStringColorSize">"Color" 必须为标量，或长度等于 "GroupData" 中组数的向量。</entry>
+    <entry key="InvalidLimitsType">''{0}" 必须具有与 "{1}'' 相同的数据类型。</entry>
+    <entry key="InvalidLimitsSize">''{0}'' 必须是二元素行向量。</entry>
+    <entry key="InvalidCategoryNames">&lt;a href=\"matlab:doc string\"&gt;categorical&lt;/a&gt; 函数无法将组值转换为有效的类别名称。</entry>
+    <entry key="InvalidSourceTable">''SourceTable'' 值必须为表。</entry>
+    <entry key="MatrixWorkflow">不支持在设置 ''XData'' 属性后设置 ''{0}'' 属性。</entry>
+    <entry key="TableWorkflow">不支持在设置 ''SourceTable'' 属性后设置 ''{0}'' 属性。</entry>
+    <entry key="InvalidMarkerLength">''{0}'' 必须是有效的 {1} 标量或长度等于 "GroupData" 中组数的向量。</entry>
+    <entry key="InvalidLineLength">''{0}'' 必须是有效的 {1} 标量或长度等于 "GroupData" 中组数的向量。</entry>
+    <entry key="InvalidBinSize">''{0}'' 必须为数值标量、2×1 向量或 2×N 矩阵，其中 N 是 ''GroupData'' 中的组数。</entry>
+    <entry key="StatsTbxInstalled">使用内核密度估计值来计算平滑直方图，这需要安装 Statistics Toolbox。</entry>
+    <entry key="NonNumericSmooth">使用内核密度估计值来计算平滑直方图，这需要数据为数值类型。</entry>
+    <entry key="BadColorValue">不支持将 "Color" 设置为 "{0}"。</entry>
+    <entry key="AmbiguousColorValue">''{0}'' 部分匹配 "Color" 的多个有效值。</entry>
+    <entry key="InvalidProportion">''ScatterPlotProportion'' 必须为介于 0 和 1 之间的数值标量。</entry>
+    <entry key="ZoomIn">放大</entry>
+    <entry key="ZoomOut">缩小</entry>
+    <entry key="RestoreView">还原视图</entry>
+  </message>
+</rsccat>

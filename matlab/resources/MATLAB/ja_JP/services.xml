@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DiaryNotAvailable">DIARY コマンドは、デモ バージョンでは利用できません。</entry>
+    <entry key="CannotOpenFile">出力ファイル "{0}" を開けません</entry>
+    <entry key="PathIsADirectory">ファイルを開けません。"{0}" はディレクトリです。</entry>
+    <entry key="filenameTooLong">ファイル名が長すぎます。</entry>
+    <entry key="tooManyFilesOpenDOS">{0}: これ以上ファイルを開くことができません。FILES = 20 を CONFIG.SYS ファイルでチェックしてください。</entry>
+    <entry key="tooManyFilesOpenUnix">{0}: これ以上ファイルを開くことができません。</entry>
+    <entry key="cwdIsInvalid">現在のフォルダーにアクセスできません。現在のフォルダーを有効なフォルダーに変更してください。</entry>
+    <entry key="cantOpenFileNoPermission">{0}: ファイルを開くことができません。アクセスが許可されていません。</entry>
+    <entry key="fileNotFound">{0}: ファイルが見つかりません。</entry>
+    <entry key="fileNotUTF8">{0}: ファイルは UTF-8 エンコードを使用しません。</entry>
+    <entry key="noDiskSpace">{0}: ディスクに十分な容量がありません。</entry>
+    <entry key="cantOpenFile">{0}: ファイルを開くことができません。</entry>
+    <entry key="reservedDevice">{0}: {1} デバイスを予約しました。</entry>
+    <entry key="UserEventQueuePipeCreationFailed">エラー id {0,number,integer} でパイプの作成に失敗しました</entry>
+    <entry key="UserEventQueueFileDescriptorCloseFailed">エラー id {0,number,integer} でファイル記述子を閉じる操作に失敗しました</entry>
+    <entry key="UserEventQueueWriteFailed">エラー id {0,number,integer} で書き込みに失敗しました</entry>
+    <entry key="UserEventQueueReadFailed">エラー id {0,number,integer} で読み取りに失敗しました</entry>
+    <entry key="InvalidCharset">エラー: ''{0}'' は有効な IANA 文字セット名ではありません。</entry>
+    <entry key="MissingRequiredCapability">{0} が必要です。</entry>
+    <entry key="MissingRequiredCapability_InteractiveCommandLine">ユーザー入力のサポートが必要ですが、このプラットフォームでは使用できません。</entry>
+    <entry key="MissingRequiredCapability_Swing">Java ユーザー インターフェイスのサポートが必要ですが、このプラットフォームでは使用できません。</entry>
+    <entry key="MissingRequiredCapability_ComplexSwing">Java ユーザー インターフェイスのサポートが必要ですが、このプラットフォームでは使用できません。</entry>
+    <entry key="MissingRequiredCapability_LocalClient">この機能はリモート プラットフォームで使用できません。</entry>
+    <entry key="MissingRequiredCapability_WebWindow">この機能はリモート プラットフォームで使用できません。</entry>
+    <entry key="MissingRequiredCapability_ModalDialogs">モーダル ダイアログのサポートが必要ですが、この構成ではサポートされていません。</entry>
+    <entry key="MissingRequiredCapability_Debugging">この構成ではデバッグはサポートされていません。</entry>
+  </message>
+</rsccat>

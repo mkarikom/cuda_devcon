@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidColorParameter">C는 [MxN] 또는 [MxNx3]이어야 합니다.</entry>
+    <entry key="ColorColumnsError">C 벡터의 길이는 X Y [Z] 데이터의 열 개수와 일치해야 합니다.</entry>
+    <entry key="ColorLengthError">C의 길이는 패치당 꼭짓점 개수와 일치해야 합니다.</entry>
+    <entry key="ColorMatrixSizeError">C의 크기는 X Y [Z]의 크기와 일치해야 합니다.</entry>
+  </message>
+</rsccat>

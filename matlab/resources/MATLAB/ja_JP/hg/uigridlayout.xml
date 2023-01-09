@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WidthDoesNotMatchWeightsSize">Grid Layout Width {0,number,integer} は、重みサイズ {1,number,integer} と一致しません。</entry>
+    <entry key="HeightDoesNotMatchWeightsSize">Grid Layout Height {0,number,integer} は、重みサイズ {1,number,integer} と一致しません。</entry>
+    <entry key="ChildrenDoNotFit">レイアウトする {0,number,integer} 個の子が {1,number,integer}x{2,number,integer} のグリッド内にあります。</entry>
+  </message>
+</rsccat>

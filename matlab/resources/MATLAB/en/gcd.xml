@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InputSizeMismatch">Inputs must be the same size.</entry>
+    <entry key="NonIntInputs">Inputs must be real integers.</entry>
+  <entry key="mixedIntegerTypes">Integers can only be combined with integers of the same class, or scalar doubles.</entry>
+    <entry key="outOfRange">Double input is out of integer type range.</entry>
+    <entry key="unsupportedType">Unsigned integers are not supported for the three output syntax of GCD.</entry>
+  <!--Resource entries for toolbox/matlab/specfun-->
+    <entry key="largestFlint">Inputs contain values larger than the largest consecutive flint.\n         Result may be inaccurate.</entry>
+  </message>
+</rsccat>

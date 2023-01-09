@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TwoDimInput">入力は 2 次元行列でなければなりません。</entry>
+    <entry key="VectorInput">2 番目の入力は列インデックスのベクトルでなければなりません。</entry>
+    <entry key="SparseInput">入力は非スパースでなければなりません。</entry>
+    <entry key="ComplexInput">入力は実数でなければなりません。</entry>
+    <entry key="ComplexIntegers">複素数の整数はサポートされていません。</entry>
+    <entry key="ColNotNumeric">2 番目の引数は double でなければなりません。</entry>
+    <entry key="ColSize">両方の入力の列数は同じでなければなりません。</entry>
+    <entry key="InputType">最初の引数は数値、論理値、文字のいずれかでなければなりません。</entry>
+    <entry key="NaNFlag">3 番目の引数は 0、1、2 のいずれかでなければなりません。</entry>
+    <entry key="CompareFlag">4 番目の引数は 0、1、2 のいずれかでなければなりません。</entry>
+    <entry key="ColNotInteger">2 番目の引数には有効な整数の列インデックスが含まれていなければなりません。</entry>
+  </message>
+</rsccat>

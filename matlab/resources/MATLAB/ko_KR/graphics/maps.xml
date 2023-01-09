@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AccessBasemaps">MATLAB의 바탕 지도에 액세스</entry>
+    <entry key="Latitude">위도</entry>
+    <entry key="Longitude">경도</entry>
+    <entry key="MapActionZoomIn">지도 중심 쪽으로 확대</entry>
+    <entry key="MapActionZoomOut">지도 중심에서 바깥으로 축소</entry>
+    <entry key="MapActionFitToData">데이터에 피팅</entry>
+    <entry key="NotGeographic">{0}을(를) 사용할 수 없습니다. 현재 좌표축이나 차트가 지리 좌표축 또는 지리 차트가 아닙니다.</entry>
+    <entry key="NotGeographicAxes">{0}을(를) 사용할 수 없습니다. 현재 좌표축이 지리 좌표축이 아닙니다.</entry>
+    <entry key="ReadOnlyLatitudeLimits">LatitudeLimits는 읽기 전용입니다. geolimits를 대신 사용하십시오.</entry>
+    <entry key="ReadOnlyLongitudeLimits">LongitudeLimits는 읽기 전용입니다. geolimits를 대신 사용하십시오.</entry>
+    <entry key="ShowingMissingTiles">인터넷에 액세스할 수 없습니다. ''{0}''이(가) 없는 곳에는 누락된 타일이 표시됩니다. {1}을(를) 참조하십시오.</entry>
+    <entry key="ShowingDarkwater">인터넷에 액세스할 수 없습니다. ''{1}''이(가) 없는 곳에는 ''{0}''이(가) 표시됩니다. {2}을(를) 참조하십시오.</entry>
+    <entry key="UnknownError">Basemap 속성을 설정하는 중에 알 수 없는 오류가 발생했습니다.</entry>
+    <entry key="UnsupportedLimitsFunction">{0}은(는) {1}과(와) 함께 사용할 수 없습니다. geolimits를 대신 사용하십시오.</entry>
+    <entry key="UnitsAbbrFeet">ft</entry>
+    <entry key="UnitsAbbrKilometers">km</entry>
+    <entry key="UnitsAbbrMeters">m</entry>
+    <entry key="UnitsAbbrMiles">mi</entry>
+  </message>
+</rsccat>

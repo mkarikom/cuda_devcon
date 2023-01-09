@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="incUoneZeroDiagReplacedByDroptol">Incomplete upper triangular factor had 1 zero diagonal replaced by local drop tolerance. It may not make a good preconditioner for an iterative method.</entry>
+    <entry key="incUzeroDiagsReplacedByDroptol">Incomplete upper triangular factor had {0,number,integer} zero diagonals replaced by local drop tolerance. It may not make a good preconditioner for an iterative method.</entry>
+    <entry key="incUhas1zeroDiag">Incomplete upper triangular factor has 1 zero diagonal. It cannot be used as a preconditioner for an iterative method.</entry>
+    <entry key="incUhasZeroDiags">Incomplete upper triangular factor has {0,number,integer} zero diagonals. It cannot be used as a preconditioner for an iterative method.</entry>
+  </message>
+</rsccat>

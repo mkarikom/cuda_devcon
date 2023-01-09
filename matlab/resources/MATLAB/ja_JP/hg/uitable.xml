@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadDataDimension">データは 2 次元行列でなければなりません。</entry>
+    <entry key="BadDataType">データは数値、logical、string、cell または table 配列でなければなりません</entry>
+    <entry key="BadDataCellArrayType">セル配列内の値は、数値、logical、文字のいずれかでなければなりません</entry>
+    <entry key="BadDataCellArraySize">セル配列内のデータは、[1 1] のサイズをもたなければなりません</entry>
+    <entry key="BadColumnWidthRowVector">ColumnWidth は行ベクトルでなければなりません</entry>
+    <entry key="BadColumnWidthValue">
+    ColumnWidth は数値または ''auto'' を含む cell 配列でなければなりません。任意の値の組み合わせを指定できます (例: '{'100,50,''auto'',''auto'''}')。
+</entry>
+    <entry key="BadColumnFormatPopupmenuRowVector">ColumnFormat ポップアップ メニューの定義は、行ベクトルでなければなりません</entry>
+    <entry key="BadColumnFormatEmptyMatrix">ColumnFormat ポップアップ メニューの定義は、空の行列を含むことはできません</entry>
+    <entry key="BadColumnFormatChar">ColumnFormat ポップアップ メニューの定義には、文字の値だけが含まれていなければなりません</entry>
+    <entry key="BadColumnFormatIncorrectDataType">ColumnFormat の定義は、''numeric''、''logical''、''char''、''short''、''long''、''short e''、''long e''、''short g''、''long g''、''short eng''、''long eng''、''bank''、''+''、''rat'' のいずれか、またはポップアップ メニューの定義でなければなりません</entry>
+    <entry key="BadColumnFormatInvalidDataType">ColumnFormat の定義は、''numeric''、''logical''、''char'' のいずれか、またはポップアップ メニューの定義でなければなりません</entry>
+    <entry key="BadColumnFormatCellArray">ColumnFormat はセル配列でなければなりません</entry>
+    <entry key="BadColumnFormatRowVector">ColumnFormat は行ベクトルでなければなりません</entry>
+    <entry key="BadColumnEditableRowVector">ColumnEditable は行ベクトルでなければなりません</entry>
+    <entry key="BadColumnEditableLogical">ColumnEditable は、論理値または論理配列でなければなりません</entry>
+    <entry key="BadConversionCharToLogical">char の edit を logical 行列に変換できません。</entry>
+    <entry key="BadConversionLogicalToChar">logical の edit を char 行列に変換できません。</entry>
+    <entry key="BadConversionLogicalToNumeric">logical の edit を数値行列に変換できません。</entry>
+    <entry key="BadConversionNumericToLogical">数値の edit を logical 行列に変換できません。</entry>
+    <entry key="BadDataDimensionValue">データは 2 次元行列でなければなりません。</entry>
+    <entry key="BadDataArrayType">セル配列内の値は、数値、logical、文字のいずれかでなければなりません</entry>
+    <entry key="BadDataArraySize">セル配列内のデータは、[1 1] のサイズをもたなければなりません</entry>
+    <entry key="BadBackgroundColors">BackgroundColors は、[r g b] の形式の少なくとも 1 つの色を含んでいなければなりません</entry>
+    <entry key="invalidScrollLocation">
+    
+    場所は ''{0}''、''{1}''、''{2}''、または ''{3}'' でなければなりません。 
+</entry>
+    <entry key="invalidScrollTarget">
+    
+    ターゲットは ''{0}''、''{1}''、または ''{2}'' でなければなりません。 
+</entry>
+    <entry key="invalidColumnTargetIndex">
+     
+    ''{0}'' のオプションは、データの範囲内の正の整数か、変数名と一致する文字ベクトルでなければなりません。
+</entry>
+    <entry key="invalidNumericTargetIndex">
+     
+    ''{0}'' のオプションは、データの範囲内の正の整数でなければなりません。
+</entry>
+    <entry key="invalidCellTargetIndex">
+     
+    ''{0}'' のオプションは、データの範囲内の正の整数からなる 1 行 2 列のベクトルでなければなりません。
+</entry>
+    <entry key="CellEditWarning">{0}</entry>
+  </message>
+</rsccat>

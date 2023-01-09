@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadNumStreams">NUMSTREAMS は、2^64 より小さい正の整数値でなければなりません。</entry>
+    <entry key="BadSeed">SEED は、2^32 より小さい非負の整数値でなければなりません。</entry>
+    <entry key="BadStreamIndex">STREAMINDICES は、NUMSTREAMS 以下の正の整数値を含まなければなりません。</entry>
+    <entry key="BadParams">PARAMETERS は、非負の整数値のベクトルでなければなりません。</entry>
+    <entry key="ParamNotValid">PARAMETERS は {0} 発生器として許可されていません。</entry>
+    <entry key="TooManyOutputs">出力引数が多すぎます。</entry>
+    <entry key="InvalidRNGType">GENTYPE は生成アルゴリズムの名前を含む文字ベクトルでなければなりません。</entry>
+    <entry key="UnknownRNGType">不明な RNG タイプ:{0}。</entry>
+    <entry key="AllocError">ストリームを作成中にエラーが発生しました。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CannotFindXVisual">找不到 X 视觉效果。</entry>
+    <entry key="BadBitDepth">MATLAB 不支持少于或等于 8 的位深。\n图窗窗口可能无法使用</entry>
+  </message>
+</rsccat>

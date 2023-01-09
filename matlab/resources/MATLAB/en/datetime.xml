@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" decorate_cxx_names="1" string_type_for_hole="mixed">
+  <message>
+    <entry key="InvalidLocaleString">Unrecognized locale: ''{0}''.</entry>
+    <entry key="InvalidLocale" note="stringDatatypeUpdate">A locale must be specified as a non-empty string or character vector.</entry>
+    <entry key="InvalidFormat" note="stringDatatypeUpdate">A datetime format must be specified as a non-empty and non-missing string or character row vector.</entry>
+    <entry key="UnsupportedSymbol" note="stringDatatypeUpdate">The format ''{0}'' contains an unsupported symbol: ''{1}''. {2}</entry>
+    <entry key="UnsupportedIdentifier" note="stringDatatypeUpdate">The format ''{0}'' contains an unsupported identifier: ''{1}''. {2}</entry>
+    <entry key="UnrecognizedFormat" note="stringDatatypeUpdate">The format ''{0}'' is not valid. {1}</entry>
+    <entry key="LinkToFormatDoc" note="stringDatatypeUpdate">See the &lt;a href="matlab:doc(''datetime.Format'')"&gt;datetime.Format property&lt;/a&gt; for a complete description of the identifiers used in datetime formats.</entry>
+    <entry key="InvalidPivotYear">A pivot year must be a scalar integer.</entry>
+    
+    <entry key="UnrecognizedDateStringSuggestLocale" note="stringDatatypeUpdate">Could not recognize the date/time format of ''{0}''. You can specify a format using the ''InputFormat'' parameter. If the date/time text contains day, month, or time zone names in a language foreign to the ''{1}'' locale, those might not be recognized. You can specify a different locale using the ''Locale'' parameter.</entry>
+    <entry key="UnrecognizedDateStringsSuggestLocale" note="stringDatatypeUpdate">Could not recognize the format of the date/time text. You can specify a format using the ''InputFormat'' parameter. If the date/time text contain day, month, or time zone names in a language foreign to the ''{0}'' locale, those might not be recognized. You can specify a different locale using the ''Locale'' parameter.</entry>
+    <entry key="UnrecognizedDateStringWithLocale" note="stringDatatypeUpdate">Could not recognize the date/time format of  ''{0}'' using the locale ''{1}''. You can specify a format using the ''InputFormat'' parameter.</entry>
+    <entry key="UnrecognizedDateStringsWithLocale" note="stringDatatypeUpdate">Could not recognize the format of the date/time text using the locale ''{0}''. You can specify a format using the ''InputFormat'' parameter.</entry>
+    
+    <entry key="ParseErr" note="stringDatatypeUpdate">Unable to convert ''{0}'' to datetime using the format ''{1}''.</entry>
+    <entry key="ParseErrs" note="stringDatatypeUpdate">Unable to convert the text to datetime using the format ''{0}''.</entry>
+    <entry key="ParseErrSuggestLocale" note="stringDatatypeUpdate">Unable to convert ''{0}'' to datetime using the format ''{1}''. If the date/time text contains day, month, or time zone names in a language foreign to the ''{2}'' locale, those might not be recognized. You can specify a different locale using the ''Locale'' parameter.</entry>
+    <entry key="ParseErrsSuggestLocale" note="stringDatatypeUpdate">Unable to convert the text to datetime using the format ''{0}''. If the date/time text contain day, month, or time zone names in a language foreign to the ''{1}'' locale, those might not be recognized. You can specify a different locale using the ''Locale'' parameter.</entry>
+    <entry key="ParseErrWithLocale" note="stringDatatypeUpdate">Unable to convert ''{0}'' to datetime using the format ''{1}'' and locale ''{2}''.</entry>
+    <entry key="ParseErrsWithLocale" note="stringDatatypeUpdate">Unable to convert the text to datetime using the format ''{0}'' and locale ''{1}''.</entry>
+    
+    <entry key="AmbiguousDateString" note="stringDatatypeUpdate">Successfully converted the text to datetime using the format ''{0}'', but the format is ambiguous and could also be ''{1}''. To create datetimes from text with a specific format call:\n\n  datetime(textinput,''InputFormat'',infmt)\n</entry>
+    <entry key="IncompatibleTZ">Cannot combine or compare a datetime array with a time zone with one without a time zone.</entry>
+    <entry key="IncompatibleEpochTZ">The epoch and the input datetime array must both have a time zone, or must both be unzoned.</entry>
+    <entry key="IncompatibleTZLeapSeconds">Cannot combine or compare a datetime array with leap seconds with one without leap seconds.</entry>
+    <entry key="IncompatibleEpochTZLeapSeconds">The epoch and the input datetime array must both be set to the 'UTCLeapSeconds' time zone.</entry>
+    <entry key="ExcelTimeOutOfRange">Input values for Excel serial day numbers must be positive.</entry>
+    <entry key="YYYYMMDDOutOfRange">YYYYMMDD numeric input values must be positive.</entry>
+    <entry key="MustConvertFromUint64">Input for converting from {0} times must be uint64.</entry>
+    <entry key="ConversionOutOfRange">Conversion to {0} times is not supported for missing values, or for datetimes outside the interval [{1}, {2}).</entry>
+    <entry key="YYYYMMDDConversionOutOfRange">Conversion to YYYYMMDD numeric values is not supported for missing values, or for datetimes before {0}.</entry>
+    <entry key="EpochTimeConversionOutOfRange">Conversion to epoch times is not supported for missing values, or for datetimes that are more than 2^63-1 ticks before or after the specified epoch.</entry>
+    <entry key="EpochTimeConversionFlintOverflow">Conversion to or from epoch times is not supported for times that more than 285Ky before or after the specified epoch.</entry>
+    <entry key="InvalidEpoch" note="stringDatatypeUpdate">Epoch must be a date/time character vector, string scalar, or a datetime scalar.</entry>
+    <entry key="NonScalarEpoch">Epoch must be a scalar.</entry>
+    <entry key="InvalidTicksPerSec">TicksPerSecond must be an integer value between 1 and 2^32.</entry>
+    <entry key="UnrecognizedConversionType">Unrecognized conversion type: ''{0}''.</entry>
+    <entry key="InvalidConversionType" note="stringDatatypeUpdate">Conversion type must be a string or a character vector.</entry>
+    <entry key="InputSizeMismatch">Data inputs must be the same size, or any of them can be a scalar.</entry>
+    <entry key="InvalidData" note="stringDatatypeUpdate">Input data must be a numeric array, a string array, a cell array containing character vectors, or a char matrix.</entry>
+    <entry key="InvalidNumericData">Numeric input data must be a matrix with three or six columns, or else three, six, or seven separate numeric arrays. You can also create datetimes from a single numeric array using the ''ConvertFrom'' parameter.</entry>
+    <entry key="WrongNumInputsConversion">Input data must be one numeric matrix when converting from a different date/time representation.</entry>
+    <entry key="InvalidUTCLeapSecsFormatString">The date format for UTCLeapSeconds datetimes either must be 'uuuu-MM-dd''T''HH:mm:ss''Z''' or, optionally, it can contain up to 9 digits for fractional seconds 'uuuu-MM-dd''T''HH:mm:ss.SSSSSSSSS''Z'''.</entry>
+    <entry key="InvalidNumericConversion">Undefined function ''{0}'' for input arguments of type 'datetime'. To convert from datetimes to numeric, first subtract off a datetime origin, then convert to numeric using the SECONDS, MINUTES, HOURS, DAYS, or YEARS functions.</entry>
+    <entry key="InvalidFormatIdentifier">The first input must either be ''default'', ''defaultdate'', or ''reset''.</entry>
+    <entry key="AutoConvertString" note="stringDatatypeUpdate">Unable to convert the text ''{0}'' to a datetime value because its format was not recognized.</entry>
+    <entry key="AutoConvertStrings" note="stringDatatypeUpdate">Unable to convert text array to a datetime array because the format was not recognized.</entry>
+    <entry key="AutoConvertStringAdd">Unable to convert the text to duration for addition.</entry>
+    <entry key="AutoConvertStringScalar">Multiple timestamps represented as text are not converted automatically. Convert using the datetime function, and optionally specify the ''Format'' parameter.</entry>
+    <entry key="NoMonthsMethod">Undefined function ''months'' for input arguments of type 'datetime'. To find the difference between datetimes in units of months, use the BETWEEN or the CALDIFF functions.</entry>
+    <entry key="NoTimeZoneMethod">Undefined function ''timezone'' for input arguments of type 'datetime'. To access a datetime array's time zone, use its TimeZone property, for example, t.TimeZone.</entry>
+    <entry key="NoFormatMethod">Undefined function ''format'' for input arguments of type 'datetime'. To access a datetime array's display format, use its Format property, for example, t.Format.</entry>
+    <entry key="UseDateshiftMethod">Undefined function ''{0}'' for input arguments of type 'datetime'. Use the DATESHIFT function instead.</entry>
+    <entry key="InvalidPreserveInput">Invalid parameter. 'preserveinput' can only be used when creating datetime with text input.</entry>
+    <!-- from various utilities -->
+    <entry key="InvalidJulianDateType">Julian date type must be 'juliandate' or 'modifiedjuliandate'.</entry>
+    <entry key="InvalidYearType">Year type must be 'iso' or 'gregorian'.</entry>
+    <entry key="InvalidMonthType">Month type must be 'monthofyear', 'name', or 'shortname'.</entry>
+    <entry key="InvalidWeekType">Week type must be 'weekofmonth' or 'weekofyear'.</entry>
+    <entry key="InvalidDayType">Day type must be 'dayofmonth', 'dayofweek', 'dayofyear', 'name', or 'shortname'.</entry>
+    <entry key="InvalidSecondType">Second type must be 'secondofday' or 'secondofminute'.</entry>
+    <entry key="InvalidDim">DIM must be a positive integer value.</entry>
+    <entry key="InvalidVecDim">Dimension argument must be a positive integer scalar, a vector of unique positive integers, or ''all''.</entry>
+    <entry key="InvalidComponents" note="stringDatatypeUpdate">COMPONENTS must be ''Years'', ''Quarters'', ''Months'', ''Weeks'', ''Days'', or ''Time'', or a string array or cell array containing those components.</entry>
+    <entry key="InvalidComponentsOrder">COMPONENTS must specify date and time units in descending order.</entry>
+    <entry key="InvalidSingleComponent" note="stringDatatypeUpdate">COMPONENT must be ''Years'', ''Quarters'', ''Months'', ''Weeks'', ''Days'', or ''Time''.</entry>
+    <entry key="InvalidTextInput">Unable to recognize date/time format of ''{0}''. Convert text to datetime or duration.</entry>
+    <entry key="MustBeTimeVector">Input must be a datetime or duration vector.</entry>
+    <entry key="InvalidTZArea" note="For InvalidTZArea, only translate AREA must be ... or ....  The names of the regions (Africa, America, ...) should not be translated as they are a standard.">AREA must be ''Africa'', ''America'', ''Antarctica'', ''Arctic'', ''Asia'', ''Atlantic'', ''Australia'', ''Etc'', ''Europe'', ''Indian'', or ''Pacific''</entry>
+    <!-- from subsref, subsasgn, and numel -->
+    <entry key="InvalidSubscriptExpr">()-indexing may not be followed by () or '{}' in an index expression.</entry>
+    <entry key="UnrecognizedProperty">Unrecognized property: ''{0}''.</entry>
+    <entry key="InvalidPropertyName" note="stringDatatypeUpdate">Property name must be a string or a character vector.</entry>
+    <entry key="CellReferenceNotAllowed">Cell contents reference from a non-cell array.</entry>
+    <entry key="CellAssignmentNotAllowed">Cell contents assignment to a non-cell array.</entry>
+    <entry key="ReadOnlyProperty">You may not assign to the ''{0}'' property.</entry>
+    <entry key="SubArrayPropertyAssignment">You may not set the ''{0}'' property of individual elements of a datetime array. Use T.{0} = VALUE instead of T(...).{0} = VALUE.</entry>
+    <entry key="PropertyAssignmentResize">Assignment to the ''{0}'' property of a datetime array may not change the size of the property.</entry>
+    <entry key="InvalidAssignmentLHS">Invalid LHS for assignment from a {0} array.</entry>
+    <entry key="InvalidNumericAssignment">You cannot assign numeric values to a {0} array. Assign to the array's Year, Month, Day, Hour, Minute, or Second properties, or use datetime(x,'ConvertFrom',...) to create datetime values for assignment.</entry>
+    <entry key="InvalidAssignment">Right hand side of an assignment must be a datetime array or text representing dates and times.</entry>
+    <entry key="IllegalDotMethod">Unrecognized datetime property ''{0}''. If you intended to call the {1} method, you must use a functional syntax such as {1}(dt,...). See &lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;Method Invocation&lt;/a&gt; for more information.</entry>
+    <entry key="IllegalDotMethodNoCorrection">Unrecognized datetime property ''{0}''. If you intended to call the {1} method, you must use a functional syntax. See &lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;Method Invocation&lt;/a&gt; for more information.</entry>
+    <!-- arithmetic -->
+    <entry key="DurationConversion">Invalid conversion to numeric for date and time arithmetic.</entry>
+    <entry key="ComplexNumeric">Numeric inputs to date and time arithmetic must be real.</entry>
+    <entry key="InvalidComparison">Comparison is not defined between {0} and {1} arrays.</entry>
+    <entry key="DatetimeAdditionNotDefined">Addition is not defined between datetime arrays.</entry>
+    <entry key="AdditionNotDefined">Cannot add a {0} array and a {1} array.</entry>
+    <entry key="SubtractionNotDefined">Cannot subtract a {0} array from a {1} array.</entry>
+    <entry key="TwoInTwoOutCaseNotSupported">{0} with two datetime arrays to compare and two output arguments is not supported.</entry>
+    <entry key="TwoInWithDimCaseNotSupported">{0} with two datetime arrays to compare and a working dimension is not supported.</entry>
+    <entry key="UnknownNaNFlag" note="stringDatatypeUpdate">Trailing input flag must be ''includenat'', ''includenan'', ''omitnat'', or ''omitnan''.</entry>
+    <entry key="UnknownNaNFlagAllFlag" note="stringDatatypeUpdate">Invalid option. Option must be ''all'', ''includenat'', ''includenan'', ''omitnat'', or ''omitnan''.</entry>
+    <entry key="UnknownMeanOption" note="stringDatatypeUpdate">Trailing input flag must be one of ''includenat'', ''includenan'', ''omitnat'', or ''omitnan'', or one of ''native'' or ''default'''.</entry>
+    <entry key="UnknownMeanOptionAllFlag" note="stringDatatypeUpdate">Invalid option. Option must be ''all'', one of ''includenat'', ''includenan'', ''omitnat'', or ''omitnan'', or one of ''native'' or ''default'''.</entry>
+    <entry key="CompareTimeOfDay">Comparison between datetime and duration is not supported. To compare time of day, use the HOURS function, for example\n\n    hours(datetime(''now'')) &lt; 12\n\nor the TIMEOFDAY function, for example\n\n    timeofday(datetime(''now'')) &lt; ''12:30:00''</entry>
+    <!-- from mex utilities -->
+    <entry key="InputMustBeReal">Numeric input data must be real.</entry>
+    <entry key="UnknownTimeZone">Unable to create the specified time zone: ''{0}''. See the &lt;a href="matlab:doc(''datetime.TimeZone'')"&gt;datetime.TimeZone property&lt;/a&gt; for details about specifying time zones.</entry>
+    <entry key="UnknownSystemTimeZone">The system time zone setting, ''{0}'', is not valid. See the &lt;a href="matlab:doc(''datetime.TimeZone'')"&gt;datetime.TimeZone property&lt;/a&gt; for details about specifying time zones.</entry>
+    <entry key="NonstandardTimeZone">''{0}'' does not specify a single time zone unambiguously. It will be treated as ''{1}''. See the &lt;a href="matlab:doc(''datetime.TimeZone'')"&gt;datetime.TimeZone property&lt;/a&gt; for details about specifying time zones.</entry>
+    <entry key="NonstandardSystemTimeZone">The system time zone setting, ''{0}'', does not specify a single time zone unambiguously. It will be treated as ''{1}''. See the &lt;a href="matlab:doc(''datetime.TimeZone'')"&gt;datetime.TimeZone property&lt;/a&gt; for details about specifying time zones.</entry>
+    <entry key="NonstandardTimeZoneFixed">''{0}'' specifies a time zone with a fixed offset from UTC, {1}. This zone does not follow daylight saving time, and so may give unexpected results. See the &lt;a href="matlab:doc(''datetime.TimeZone'')"&gt;datetime.TimeZone property&lt;/a&gt; for details about specifying time zones.</entry>
+    <entry key="NonstandardSystemTimeZoneFixed">The system time zone setting, ''{0}'', specifies a time zone with a fixed offset from UTC, {1}. This zone does not follow daylight saving time, and so may give unexpected results. See the &lt;a href="matlab:doc(''datetime.TimeZone'')"&gt;datetime.TimeZone property&lt;/a&gt; for details about specifying time zones.</entry>
+    <entry key="InvalidTimeZone" note="stringDatatypeUpdate">A time zone must be specified as a string or character vector.</entry>
+    <entry key="InvalidSystemTimeZone">The system time zone setting, ''{0}'', is unrecognized and ''UTC'' will be used instead. Accessing the current time, e.g. datetime(''now''), or setting the time zone property of a datetime array, e.g. datetime(Y,M,D,''TimeZone'',''local''), might return incorrect results.</entry>
+    <entry key="InvalidFractionalSeconds" note="stringDatatypeUpdate">Fractional seconds must be contiguous in a datetime format.</entry>
+    <entry key="MustBeInteger">Year, month, day, hour, and minute components must be integer values.</entry>
+    <entry key="MustBeIntegerSecond">Year, month, day, hour, minute, and second components must be integer values when milliseconds is specified.</entry>
+    <entry key="PivotYearOutOfRange">Pivot year {0,number,integer} out of range.</entry>
+    <entry key="PivotYearOutOfRange2">Pivot year out of range.</entry>
+    <!-- format conflict warnings -->
+    <entry key="FormatConflict_Zz">The format ''{0}'' contains a field for time zone offset. When that field is present, you must use the ''TimeZone'' input parameter to create the datetime array in a specific time zone. You can then convert that array to be unzoned by setting its 'TimeZone' property to ''''.</entry>
+    <entry key="FormatConflict_Ha" note="stringDatatypeUpdate">The format ''{0}'' contains fields for 24 hour of day (H) and for day period (a). This will cause unexpected results when converting from text. {1}</entry>
+    <entry key="FormatConflict_uG" note="stringDatatypeUpdate">The format ''{0}'' contains fields for ISO year (u) and for era (G). This will cause unexpected results when converting from text. {1}</entry>
+    <entry key="FormatConflict_MD" note="stringDatatypeUpdate">The format ''{0}'' contains fields for month (M) and for day of year (D). This will cause unexpected results when converting from text. {1}</entry>
+    <entry key="FormatConflict_dD" note="stringDatatypeUpdate">The format ''{0}'' contains fields for day of month (d) and for day of year (D). This will cause unexpected results converting from text. {1}</entry>
+    <entry key="FormatConflict_mM">The format ''{0}'' contains a field for minute (m) in what appears to be a date portion. You might have intended to use the symbol for month (M) rather than for minute (m). {1}</entry>
+    <entry key="FormatConflict_Mm">The format ''{0}'' contains a field for month (M) in what appears to be a time portion. You might have intended to use the symbol for minute (m) rather than for month (M). {1}</entry>
+    <entry key="FormatConflict_Yy">The format ''{0}'' contains a field for year in "Week of Year" calendars (Y), but does not have a field for week of year (w). This will cause unexpected results. You might have intended to use the symbol for Gregorian year (y) instead. {1}</entry>
+    <entry key="FormatConflict_Dy">The format ''{0}'' contains fields for day of year (D) and Gregorian year (y). This will cause unexpected results when converting from text. Use ISO year (u) in place of Gregorian year (y). {1}</entry>
+    <!-- variable editor -->
+    <entry key="InvalidFromVE">Unrecognized datetime format.</entry>
+    <!-- codegen -->
+    <entry key="TextConstructionCodegen">Creating datetimes from text inputs is not supported in code generation.</entry>
+    <entry key="UnzonedCodegen">All datetimes in code generation must be unzoned.</entry>
+    <entry key="UnsupportedMethodCodegen">The {0} method is not supported for datetime in code generation.</entry>
+    <entry key="FormatNotSupportedCodegen">Specifying the display format is not supported in code generation.</entry>
+    <entry key="TimeZoneNotSupportedCodegen">Specifying the time zone of a datetime array is not supported in code generation.</entry>
+    <entry key="DoubleDoubleAssertionCodegen">The second input is out of bounds for this double-double operation.</entry>
+    <entry key="PropertyChangeCodegen">Setting the {0} property is not supported for datetime in code generation.</entry>
+    <entry key="ColonInputsCodegen">Specifying the duration step size is required in code generation.</entry>
+    <entry key="CalendarDurationUnitCodegen">Specifying calendar unit is not supported in code generation.</entry>
+    <entry key="BinaryMinMaxCodegen"> Binary {0} with datetimes is not supported in code generation.</entry>
+    <entry key="LinearFlagCodegen">The 'linear' option is not supported in code generation.</entry>
+    <entry key="DimFlagConstCodegen">Dimension argument must be a constant.</entry>
+  </message>
+</rsccat>

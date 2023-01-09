@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">getabstime 메서드는 단일 timeseries 객체에 대해서만 사용할 수 있음</entry>
+    <entry key="notabs">StartDate 속성은 유효한 날짜의 문자형 벡터 또는 string형이어야 합니다.</entry>
+  </message>
+</rsccat>

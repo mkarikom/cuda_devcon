@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="METHODS_FUNCTION_NO_METHODS_SPECIAL_CASE_LABEL">클래스에 대한 메서드가 없거나 클래스가 없습니다.</entry>
+    <entry key="MEMBER_FUNCTIONS_NO_CLASS_LABEL">{0} 클래스가 없습니다.</entry>
+    <entry key="METHODS_FUNCTION_NO_METHODS_LABEL">{0} 클래스에 대한 메서드가 없습니다.</entry>
+    <entry key="SEALED_METHODS_FUNCTION_NO_METHODS_LABEL">{0} 클래스의 이종 배열에 대한 봉인(Sealed) 메서드가 없습니다.</entry>
+    <entry key="PROPERTIES_FUNCTION_NO_PROPS_LABEL">{0} 클래스에 대한 속성이 없습니다.</entry>
+    <entry key="EVENTS_FUNCTION_NO_EVENTS_LABEL">{0} 클래스에 대한 이벤트가 없습니다.</entry>
+    <entry key="ENUMERATIONS_FUNCTION_NO_ENUMS_LABEL">{0} 클래스에 대한 열거형 멤버가 없습니다.</entry>
+    <entry key="ENUMERATIONS_FUNCTION_NO_VISIBLE_ENUMS_LABEL">{0} 클래스에 표시 가능한 열거형 멤버가 없습니다.</entry>
+    <entry key="SUPERCLASSES_FUNCTION_NO_SUPERS_LABEL">{0} 클래스에 대한 슈퍼클래스가 없습니다.</entry>
+    <entry key="METHODS_FUNCTION_LABEL">{0} 클래스에 대한 메서드:</entry>
+    <entry key="SEALED_METHODS_FUNCTION_LABEL">{0} 클래스의 이종 배열에 대한 봉인(Sealed) 메서드:</entry>
+    <entry key="PROPERTIES_FUNCTION_LABEL">{0} 클래스에 대한 속성:</entry>
+    <entry key="EVENTS_FUNCTION_LABEL">{0} 클래스에 대한 이벤트:</entry>
+    <entry key="ENUMERATIONS_FUNCTION_LABEL">''{0}'' 클래스에 대한 열거형 멤버:</entry>
+    <entry key="SUPERCLASSES_FUNCTION_LABEL">{0} 클래스에 대한 슈퍼클래스 :</entry>
+    <entry key="setgetPropertyNotFound">속성 {0}이(가) {1} 클래스에서 발견되지 않았거나 {2} 클래스 배열의 일부 요소에 존재하지 않습니다.</entry>
+    <entry key="DestructorError">''{0}'' 클래스 소멸자(Destructor)를 실행하는 중 다음 오류가 발생했습니다.\n{1}</entry>
+    <entry key="InvalidValue">''{1}'' 클래스의 속성 ''{0}''을(를) 설정하는 중 오류가 발생했습니다.\n{2}</entry>
+    <entry key="InvalidPropertyType">속성 ''{1}''의 ''{0}'' 클래스가 유효하지 않음: {2}</entry>
+    <entry key="BadEnumValueError">''{1}'' 클래스에 있는 열거형 멤버 ''{0}''의 정의:\n{2}</entry>
+    <entry key="FcnInputArgError">{0,number,integer}번째 인수({1})에 유효하지 않은 입력입니다.\n{2}</entry>
+    <entry key="ErrorDuringCopy">''{0}'' 클래스의 객체를 복사하는 중:\n''{1}''</entry>
+    <entry key="SaveErrorWarning">''{0}'' 클래스의 객체를 저장하는 중:\n{1}</entry>
+    <entry key="LoadClassErrorWarning">''{0}'' 클래스의 객체를 불러오는 중:\n{1}</entry>
+    <entry key="InvalidDynamicPropertyName">''{0}''은(는) 유효한 동적 속성 이름이 아닙니다. 속성 이름은 영문자로 시작해야 하고, 영문자, 숫자, 밑줄로 구성되어야 합니다.</entry>
+    <entry key="LongDynamicPropertyName">Dynamic property name ''{0}'' exceeds the MATLAB maximum name length of 63 characters.</entry>
+    <entry key="InvalidEnumValue">이름이 ''{0}''인 열거형 값이 없습니다.</entry>
+    <entry key="invalidEvent">''{1}'' 클래스에 대해 이벤트 ''{0}''이(가) 정의되지 않았습니다.</entry>
+    <entry key="InvalidEnumerationNameLongWithHyperlink">{0}은(는) 열거형 ''{1}''의 멤버가 아닙니다. 값은 &lt;a href="matlab:enumeration(''{1}'');"&gt;여기 옵션 중 하나&lt;/a&gt;여야 합니다.</entry>
+    <entry key="InvalidEnumerationNameLongWithoutHyperlink">{0}은(는) 열거형 ''{1}''의 멤버가 아닙니다. 유효한 옵션 목록을 보려면 enumeration(''{1}'')을(를) 입력하십시오.</entry>
+    <entry key="InvalidEnumerationNameShort">{0}은(는) 열거형 ''{1}''의 멤버가 아닙니다. 값은 다음 중 하나여야 합니다.\n{2} </entry>
+    <entry key="AmbiguousEnumerationName">''{0}''은(는) 열거형 ''{1}''의 멤버로서 모호합니다.</entry>
+    <entry key="invalidImportArguments">가져오기 인수 ''{0}''을(를) 찾을 수 없거나 가져올 수 없습니다.</entry>
+    <entry key="InvalidProperty">이름 ''{0}''은(는) ''{1}'' 클래스의 인스턴스에서 액세스할 수 있는 속성이 아닙니다.</entry>
+    <entry key="InvalidPropertyName">속성 이름 ''{0}''은(는) 유효한 MATLAB 식별자가 아닙니다.</entry>
+    <entry key="RemoveListenerWarning">''{0}'' 클래스의 객체에서 리스너를 제거하는 중:\n{1}</entry>
+    <entry key="PassThrough">{0}</entry>
+    <entry key="InvalidEnumerationName_Missing">&lt;missing&gt;</entry>
+  </message>
+</rsccat>

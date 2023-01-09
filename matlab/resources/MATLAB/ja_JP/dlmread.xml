@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Nargin">入力引数が不足しています。</entry>
+    <entry key="InvalidInputType">ファイル名は文字ベクトルまたは string スカラーでなければなりません。</entry>
+    <entry key="FileNotOpened">ファイル ''{0}'' は {1} の理由により開けません</entry>
+    <entry key="InvalidDelimiter">DELIMITER は単一の文字でなければなりません。</entry>
+    <entry key="ObsoleteSyntax">旧式の構文です。C は R で指定しなければなりません。</entry>
+    <entry key="InternalSizeMismatch">内部サイズの不一致</entry>
+    <entry key="InvalidRowsAndColumns">R と C は RANGE(1:2) と一致しなければなりません。代わりに DLMREAD(FILE,DELIMITER,RANGE) を使用してください。</entry>
+  </message>
+</rsccat>

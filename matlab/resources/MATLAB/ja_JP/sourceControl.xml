@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="cmoptserror"> cmopts は削除されました。代わりに MathWorks の組み込みソース管理統合を使用してください。</entry>
+    <entry key="customverctrlerror"> customverctrl は削除されました。代わりに MathWorks の組み込みソース管理統合を使用してください。</entry>
+    <entry key="checkinerror"> checkin は削除されました。代わりに MathWorks の組み込みソース管理統合を使用してください。</entry>
+    <entry key="checkouterror"> checkout は削除されました。代わりに MathWorks の組み込みソース管理統合を使用してください。</entry>
+    <entry key="undocheckouterror"> undocheckout は削除されました。代わりに MathWorks の組み込みソース管理統合を使用してください。</entry>
+    <entry key="VerctrlDeprecationWindows">verctrl は削除されました。代わりに、MathWorks の組み込みソース管理統合または &lt;a href="matlab:matlab.addons.supportpackage.internal.explorer.showSupportPackages('SL_MS_SCCI','Verctrl2_L_MS_SCCI')"&gt;Microsoft ソース コード管理インターフェイス (MSSCCI)&lt;/a&gt; アドオンを使用してください。</entry>
+  </message>
+</rsccat>

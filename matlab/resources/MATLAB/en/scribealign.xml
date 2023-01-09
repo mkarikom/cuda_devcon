@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidAlignmentInput">Invalid second alignment input.</entry>
+    <entry key="InvalidVerticalAlignment">bad vertical alignment type</entry>
+    <entry key="InvalidTargetHandle">First argument must be a vector of handles to align or a figure handle</entry>
+    <entry key="InvalidParent">All objects to be aligned must have the same parent figure.</entry>
+    <entry key="InvalidAlignType">Invalid alignment type.</entry>
+    <entry key="BadInputHandle">Invalid input handle object.</entry>
+    <entry key="NoFigure">No figure parent found.</entry>
+    <entry key="AlignDistributeToolTitle">Align Distribute Tool</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="InvalidHorizontalAlignment">Invalid horizontal alignment type</entry>
+  </message>
+</rsccat>

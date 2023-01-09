@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Apply">適用</entry>
+    <entry key="AReferenceTimeSeriesMustBeSelectedForSynchronization">同期をとるときに参照する時系列を選択しなければなりません。</entry>
+    <entry key="Cancel">キャンセル</entry>
+    <entry key="Help">ヘルプ</entry>
+    <entry key="InvalidSyncTimeFor">{0} に対する同期時間が無効です</entry>
+    <entry key="LimitedDoublePrecisionError">制限された倍精度は {0} をシフトした後に時間が重複する可能性があります。シフトを中止しています。</entry>
+    <entry key="OK">OK</entry>
+    <entry key="PlotTimeUnits">プロットの時間単位: {0}</entry>
+    <entry key="SelectTimePlot">時間プロットの選択:</entry>
+    <entry key="SynchronizeTimeSeries">時系列の同期</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="TimeShift">時間シフト</entry>
+    <entry key="YouMustSelectAtLeastTwoTimeSeries">少なくとも 2 つの時系列を選択しなければなりません。</entry>
+    <entry key="InvalidDateStringFormat">Invalid date character vector format.</entry>
+  </message>
+</rsccat>

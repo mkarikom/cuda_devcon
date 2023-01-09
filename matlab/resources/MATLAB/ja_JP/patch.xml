@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidColorParameter">C は [MxN] または [MxNx3] でなければなりません</entry>
+    <entry key="ColorColumnsError">C ベクトルの長さは X Y [Z] データの列数と一致しなければなりません</entry>
+    <entry key="ColorLengthError">C の長さはパッチごとの頂点の数と一致しなければなりません</entry>
+    <entry key="ColorMatrixSizeError">C のサイズは X Y [Z] のサイズと一致しなければなりません</entry>
+  </message>
+</rsccat>

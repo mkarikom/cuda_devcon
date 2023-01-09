@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PathNotSaved">无法将路径保存到文件 ''{0}''。您可以通过调用带有可指定完整路径的输入参数的 SAVEPATH，将路径保存到其他位置。为便于 MATLAB 在以后的会话中使用该路径，请将路径保存到 MATLAB 启动文件夹中的 ''pathdef.m''。</entry>
+  </message>
+</rsccat>

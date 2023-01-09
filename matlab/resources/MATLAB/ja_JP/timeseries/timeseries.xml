@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">timeseries オブジェクトの配列上で timeseries コンストラクターを呼び出せません。</entry>
+    <entry key="loadObjectNoReshapeWarning">現在 IsTimeFirst プロパティを計算していますが、これは保存されている表現と異なります。</entry>
+    <entry key="loadObjectWarning">時系列の保存された IsTimeFirst プロパティが true であったため、読み込まれた時系列データは行列に整形されました。</entry>
+    <entry key="invalidDataInfo">timeseries の DataInfo プロパティの値が無効です</entry>
+    <entry key="invalidTimeInfo">timeseries の TimeInfo プロパティの値が無効です</entry>
+  </message>
+</rsccat>

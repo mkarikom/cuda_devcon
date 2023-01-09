@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">输入参数的数目不足。请参阅 ODEXTEND。</entry>
+    <entry key="SOLNotODEsolverStruct">输入参数 {0} 必须是由 ODE 求解器创建的一个结构体。</entry>
+    <entry key="InvalidSolverNameInSOL">{1}.solver 中出现错误的求解器名称 ''{0}''。</entry>
+    <entry key="SolutionCannotBeExtended">在 [{1}, {2}] 中得到的解 {0} 不能扩展至 {3}</entry>
+    <entry key="SolutionAlreadyAvailable">解在 [{0}, {1}] 中已经算出。请使用 DEVAL。</entry>
+    <entry key="InconsistentSolType">正在串联 {0} 的单精度输出和双精度输出。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="standardStream">TEXTSCAN は stdin、stdout、または stderr から読み込むことはできません。</entry>
+    <entry key="NotAnIntegerValue">{0} は整数値でなければなりません。</entry>
+    <entry key="NotAString">{0} は文字ベクトルか、または欠損値でない string スカラーでなければなりません。</entry>
+    <entry key="IncorrectEscapeConstant">{0} には正しくない \\ 定数があります。</entry>
+    <entry key="LookforAndGetHeaderLines">Headerlines は正の整数でなければなりません。</entry>
+    <entry key="LookforAndGetHeaderColumns">Headercolumns は正の整数でなければなりません。</entry>
+    <entry key="LookforAndGetNumCharactersToSkip">NumCharactersToSkip は正の整数でなければなりません。</entry>
+    <entry key="NotNumericScalar">{0} は、数値のスカラーでなければなりません。</entry>
+    <entry key="NumericInTreatAsEmpty">"TreatAsEmpty" 文字ベクトルの値を数値にすることはできません。 </entry>
+    <entry key="NonStringCellsInTreatAsEmpty">"TreatAsEmpty" への cell 引数は非数値の文字ベクトルを含まなければなりません。</entry>
+    <entry key="NonStringsInTreatAsEmpty">"TreatAsEmpty" の値は空でない文字ベクトルか、文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="LookforAndGetEndofline">"EndOfLine" の値は単一の文字か、"\\r\\n" でなければなりません。</entry>
+    <entry key="NonStringCellsInCommentStyle">"CommentStyle" の値は単一の文字ベクトルか、コメントの開始と終了として使用する文字ベクトルのペアを含んだ cell 配列にすることができます。</entry>
+    <entry key="DelimiterSpaceConflict">文字は、空白文字と区切り文字のリストの両方で使用できません。\n空白文字のリストから区切り文字を削除します。\n</entry>
+    <entry key="SkipComments">閉じられていないコメントが見つかりました。ファイルの残りは無視されました。</entry>
+    <entry key="BuildFormatString">HeaderColumns の数は、ファイル内の列数よりも大きくなります。</entry>
+    <entry key="EmptyFormatString">ファイルの末尾に空の形式文字ベクトルを使用することはできません。</entry>
+    <entry key="UnableToReadFile">ファイルからデータを読み取ることが一切できません。TEXTSCAN に読み取りアクセス権がない可能性かあります。</entry>
+    <entry key="handleErrorAndShowInfo">行 {1,number,integer}、フィールド {2,number,integer} の読み取り時に "{0}" フィールドを解析できませんでした。\n 実際のテキスト: "{3}"\n 必要なテキスト: {4}</entry>
+    <entry key="NumericFieldFailure">数値またはリテラル "NaN"、"Inf" (符号付きの場合あり、大文字小文字を区別しない)。</entry>
+    <entry key="SetFieldFailure">文字 [{0}] のいずれか (大文字小文字を区別)。</entry>
+    <entry key="NSetFieldFailure">[{0}] 以外の文字 (大文字小文字を区別)。</entry>
+    <entry key="LiteralFieldFailure">リテラル テキスト "{0}" (大文字小文字を区別)。</entry>
+    <entry key="HexFieldFailure">オプションの接頭辞 0x を含む 16 進数文字 [0-9A-F] (大文字小文字を区別しない)。</entry>
+    <entry key="BinaryFieldFailure">オプションの接頭辞 0b を含む 2 進数文字 '0' または '1' (大文字小文字を区別しない)。</entry>
+    <entry key="SecondInput">2 番目の入力は、少なくとも 1 つの指定子またはリテラル フィールドを含んだ形式文字ベクトルでなければなりません。</entry>
+    <entry key="UnpairedParamsValues">名前と値のペアの引数は組になっていなければなりません。</entry>
+    <entry key="UnknownOption">不明なパラメーター "{0}" です。</entry>
+    <entry key="BadFormatString">位置 {0,number,integer} の形式文字ベクトルを解析できません。==&gt; {1}\n{2}</entry>
+    <entry key="ClosingSet">文字セット指定子は少なくとも 1 文字を含み、"]" で終わらなければなりません (例: "%[abc]")。</entry>
+    <entry key="ClosingDateFormat">日付と時刻の形式は、%D、%T、%'{'...'}'D または %'{'...'}'T の形式でなければなりません。</entry>
+    <entry key="IncompleteFormat">書式指定子は有効なタイプ識別子 (例: %f、%3c) で終わらなければなりません。</entry>
+    <entry key="UnsupportedSpecifier">サポートされていない書式指定子 "%{0}"。サポートされている書式については、TEXTSCAN のドキュメンテーションを参照してください。</entry>
+    <entry key="NoInput">1 番目の入力を空にはできません。空でない文字ベクトルまたは有効なファイル ID が必要です。</entry>
+    <entry key="WrongInputType">1 番目の入力は有効なファイル ID または空でない文字ベクトルでなければなりません。</entry>
+    <entry key="NotAStringOrCellOfStrings">{0} は文字ベクトルか、文字ベクトルのセル配列でなければなりません。</entry>
+    <entry key="EmptyCellArrayInvalid">{0} は空のセル配列にはできません。</entry>
+    <entry key="TooManyCategories">65,534 を超えるカテゴリをもつ categorical 配列は作成できません。このフィールドに対し、"%C" ではなく "%q" を使用することを検討してください。</entry>
+    <entry key="AllNatSuggestFormat">DATETIME データの形式を判別できません。\nDATETIME 指定子に形式を追加してみてください。例: "%'{'{0}'}'D"。</entry>
+    <entry key="AllNatSuggestLocale">システムのロケール設定を使用して DATETIME データを読み取ることができません: "{0}"\nデータにこのロケールと異なる言語の月と曜日の名前が含まれている場合は、"DateLocale" パラメーターを使用して正しいロケールを指定してください。</entry>
+    <entry key="AllNatSuggestOther">形式 "{0}" の DATETIME データを読み取ることができません。データが時間ではない場合、%q を使ってテキスト データを取得してください。</entry>
+    <entry key="AllNaNDurationSuggestOther">形式 "{0}" の DURATION データを読み取ることができません。データが時間ではない場合、%q を使ってテキスト データを取得してください。</entry>
+    <entry key="AllNaNDurationSuggestFormat">DURATION データの形式を判別できません。\nDURATION 指定子に形式を追加してみてください。例: "%'{'{0}'}'T"。</entry>
+    <entry key="DurationFormatInvalid">"{0}" は有効な duration 形式ではありません</entry>
+    <entry key="UnableToGuessFormat">DATETIME データは形式 "{0}" を使用して作成されましたが、"{1}" とも一致しています。\nあいまいさを避けるため、形式文字ベクトルを使用してください。例: "%'{'{2}'}'D"</entry>
+    <entry key="TimeZoneSupport">形式文字ベクトル "{0}" に timezone フィールドが含まれています。TEXTSCAN はタイムゾーンの読み取りをサポートしていません。%q を使用してデータをテキストとして読み取り、DATETIME を "TimeZone" パラメーターと共に使用して datetime 配列を作成してください。</entry>
+    <entry key="TextType">"TextType" の値は 'char' か 'string' でなければなりません。</entry>
+    <entry key="HexTruncationInvalid">16 進数リテラル "{0}" で指定された桁数が多すぎます。16 進数リテラルの切り捨てはサポートされていません。</entry>
+    <entry key="BinaryTruncationInvalid">Binary literal "{0}" specifies too many digits. Truncation of binary literals is not supported.</entry>
+  </message>
+</rsccat>

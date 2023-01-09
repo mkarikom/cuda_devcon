@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EnterUniqueName">固有名の入力</entry>
+    <entry key="TscollectionObjectAlreadyDefined">Tscollection オブジェクト ''{0}'' は既に定義されています。\n\nインポートする新規オブジェクトに別の名前を付けてください :\n</entry>
+    <entry key="EmptyNamesNotAllowed">空の名前は使えません。\n\nインポートする新規オブジェクトに別の名前を付けてください。</entry>
+    <entry key="TimeSeriesObjectAlreadyDefined">Time Series オブジェクト ''{0}'' は既に定義されています。\n\nインポートする新規オブジェクトに別の名前を付けてください :\n</entry>
+  </message>
+</rsccat>

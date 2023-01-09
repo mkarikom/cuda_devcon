@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedObjectType">인식할 수 없는 객체 유형임: {0}</entry>
+    <entry key="CannotFindParent">상황별 메뉴의 부모를 찾을 수 없음</entry>
+    <entry key="InvalidSaveStructure">그래픽 객체에 대해 유효하지 않은 구조체 형식입니다.</entry>
+    <entry key="InvalidParentHandle">두 번째 인수는 부모 핸들의 배열이어야 합니다.</entry>
+    <entry key="InvalidParentSize">부모 배열 크기는 구조체형 배열 크기와 일치해야 합니다.</entry>
+    <entry key="InvalidOption">선택적 인수는 ''convert'' 및/또는 ''all''이어야 합니다.</entry>
+  </message>
+</rsccat>

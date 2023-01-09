@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Cancel">取消</entry>
+    <entry key="CannotImport">在上一操作完成前无法导入。请重新导入。</entry>
+    <entry key="Help">帮助</entry>
+    <entry key="Import">导入</entry>
+    <entry key="ImportFromWorkspace">从工作区导入:</entry>
+    <entry key="Refresh">刷新</entry>
+    <entry key="SelectOneOrMoreItemsToImport">选择一个或多个要导入的项目。</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="UnableToLoadObject">无法加载对象 ''{0}''。事件名称不是唯一的。</entry>
+  </message>
+</rsccat>

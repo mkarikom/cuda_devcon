@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="factorFailed">UMFPACK 因式分解失败。</entry>
+    <entry key="solveFailed">UMFPACK 求解失败。</entry>
+    <entry key="invalidSymbolic">稀疏 LU 的符号因式分解无效。</entry>
+    <entry key="invalidNumeric">稀疏 LU 的数值因式分解无效。</entry>
+    <entry key="internalError">稀疏 LU 失败。</entry>
+  </message>
+</rsccat>

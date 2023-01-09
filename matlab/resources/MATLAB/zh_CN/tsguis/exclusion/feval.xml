@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ylowbounds">Y 下限必须是标量或其长度等于数据列数</entry>
+    <entry key="yhighbounds">Y 上限必须是标量或其长度等于数据列数</entry>
+    <entry key="xbounds">时间上限和下限必须是标量</entry>
+    <entry key="InvalidExpressionUseVariableX">MATLAB 表达式无效。使用变量 ''x'' 表示数据。</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="RuleSelectionLowerTimeBound">%% 规则选择: 时间下限</entry>
+    <entry key="RuleSelectionUpperTimeBound">%% 规则选择: 时间上限</entry>
+    <entry key="RuleSelectionLowerDataBound">%% 规则选择: 数据下限</entry>
+    <entry key="RuleSelectionUpperDataBound">%% 规则选择: 数据上限</entry>
+    <entry key="RuleSelectionOutlierSelection">%% 规则选择: 离群值选择</entry>
+    <entry key="RuleSelectionFlatlineSelection">%% 规则选择: 平线选择</entry>
+    <entry key="RuleSelectionMATLABExpression">%% 规则选择: MATLAB 表达式选择</entry>
+    <entry key="RuleSelectionCombiningRules">%% 规则选择: 组合选择规则</entry>
+    <entry key="RuleBasedSelectionCombiningRules">%% 基于规则的选择: 组合选择规则</entry>
+  </message>
+</rsccat>

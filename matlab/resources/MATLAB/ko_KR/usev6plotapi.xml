@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DeprecatedV6Compatibility">그래픽스에 대해 V6 호환성 모드가 사용되도록 설정되어 있습니다. 향후 릴리스에서는 오류로 간주됩니다.</entry>
+    <entry key="DeprecatedV6Argument">''v6'' 인수는 더 이상 사용되지 않으며 향후 릴리스에서는 지원되지 않을 예정입니다.</entry>
+    <entry key="DeprecatedMode">그래픽스에 대해 V6 호환성 모드가 사용되도록 설정되어 있습니다. 이 옵션은 MATLAB 향후 버전에서 제거될 예정입니다.</entry>
+    <entry key="DeprecatedV6ArgumentForFilename">''v6'' 인수는 {0}에 대해 더 이상 사용되지 않으며 향후 릴리스에서는 더 이상 지원되지 않을 예정입니다.</entry>
+    <entry key="IgnoringV6Argument">''v6'' 인수를 무시합니다. 향후 릴리스에서는 오류로 간주됩니다.</entry>
+    <entry key="IgnoringV6ArgumentForFilename">{0}에 대한 ''v6'' 인수를 무시합니다. 향후 릴리스에서는 오류로 간주됩니다.</entry>
+  </message>
+</rsccat>

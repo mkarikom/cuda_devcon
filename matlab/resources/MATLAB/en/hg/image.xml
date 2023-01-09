@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="BadMatrix">Numeric or logical matrix required for image CData.</entry>
+    <entry key="BadSize">Indexed CData must be size m-by-n. TrueColor CData must be size m-by-n-by-3.</entry>
+    <entry key="BadType">Image CData cannot be complex.</entry>
+    <entry key="ElementOutOfRange">TrueColor CData contains element out of range 0.0 &lt;= value &lt;= 1.0.</entry>
+    <entry key="BadAlphaDataDimensions">Dimensions of AlphaData must be 1x1, or must match CData.</entry>
+    <entry key="ImageDestroyed">Image destroyed during creation.</entry>
+    <entry key="CDataNotValid">Image CData not valid.</entry>
+    <entry key="ExpectedVectors">Image X and Y must be vectors.</entry>
+    <entry key="BadArguments">Incorrect number of arguments.</entry>
+  <!--Resource entries for src/hgbuiltins-->
+    <entry key="BadCDataSize">Color data must be an m-by-n-by-3 or m-by-n matrix.</entry>
+    <entry key="BadCDataMatrix">Color data must be numeric or logical values.</entry>
+    <entry key="BadCDataComplex">Complex values are not supported. Specify the color data as numeric or logical values.</entry>
+    <entry key="CDataElementOutOfRange">Image TrueColor CData out of range.</entry>
+    <entry key="ExpectedXYDataVectors">Image XData and YData must be vectors.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2013 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ParforRunningLocally">Error caught during construction of remote parfor code.\nThe parfor construct will now be run locally rather than on the remote parallel pool. The most likely cause of this is an inability to send input arguments to the workers because of a serialization error. The error report from the caught error is:\n{0}</entry>
+    <entry key="ParforWorkerAborted">A worker aborted during execution of the parfor loop. The parfor loop will now run again on the remaining workers.</entry>
+    <entry key="AllParforWorkersAborted">All workers aborted during execution of the parfor loop.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">init 메서드는 단일 timeseries 객체에 대해서만 사용할 수 있음</entry>
+    <entry key="pvsetNoValue">지정한 속성에 대응값이 없습니다.</entry>
+    <entry key="pvsetScalarTimeFirst">IsTimeFirst 속성은 논리형 스칼라 값이어야 합니다.</entry>
+    <entry key="pvsetScalarDatenum">IsDatenum 속성은 논리형 스칼라 값이어야 합니다.</entry>
+    <entry key="scalarOneRowDataAsThreeD">InterpretSingleRowDataAs3D 속성은 논리형 스칼라여야 합니다.</entry>
+    <entry key="pvsetScalarStartTime">StartTime 속성은 숫자형 스칼라여야 합니다.</entry>
+    <entry key="pvsetScalarEndTime">EndTime 속성은 숫자형 스칼라여야 합니다.</entry>
+    <entry key="pvsetScalarInterval">Interval 속성은 숫자형 스칼라여야 합니다.</entry>
+    <entry key="pvsetInvalid">유효하지 않은 속성 이름임</entry>
+    <entry key="data">첫 번째 인수는 데이터여야 합니다.</entry>
+    <entry key="nodata">첫 번째 인수는 데이터를 포함해야 합니다.</entry>
+    <entry key="notime">두 번째 인수는 시간 벡터이거나 시계열 이름이어야 합니다.</entry>
+    <entry key="qualitycell">품질 값은 integer array로 지정해야 합니다.</entry>
+    <entry key="input">입력 인수가 너무 많습니다.  대신 INIT(TS, DATA, TIME, ''PropertyName1'', PropertyValue1, ...)을 사용하십시오.</entry>
+    <entry key="invtime">유효하지 않은 시간 값입니다.</entry>
+    <entry key="incompatibleIsTimeFirst">IsTimeFirst 속성의 값이 데이터와 시간으로 적합하지 않습니다.</entry>
+  </message>
+</rsccat>

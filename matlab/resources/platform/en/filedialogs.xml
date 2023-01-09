@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <rsccat version="1.0" locale="en_US" product="platform">
+   <message>
+     <entry key="CustomButtonLabel">Select</entry>
+     <entry key="CustomPopupOpenLabel">Enable:</entry>
+     <entry key="CustomPopupSaveLabel">Format:</entry>
+     <entry key="ConfirmSaveDialogTitle">Confirm Save As</entry>
+     <entry key="ConfirmSaveDialogContent">{0} already exists.\nDo you want to replace it ?</entry>
+     <entry key="OpenFolderWarningTitle">Select File Dialog</entry>
+     <entry key="OpenFolderWarningContent">{0} \nPath does not exist.\nCheck the path and try again.</entry>
+     <entry key="OpenFileFolderWarningTitle">Open File or Folder</entry>
+     <entry key="OpenFileFolderWarningContent">You can't select this location using this program. Please try a different location</entry>
+   </message>
+ </rsccat>

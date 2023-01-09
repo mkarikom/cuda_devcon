@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidFirstArgument">A java object handle must be specified as the first argument</entry>
+    <entry key="InvalidSecondArgument">A method signature must be specified as the second argument</entry>
+    <entry key="IllegalInput">First argument must be a Java object, a fully qualified Java class name or a function handle.</entry>
+    <entry key="AmbiguousMethod">Ambiguous method name ''{0}''.</entry>
+    <entry key="UnknownMethod">Method ''{0}'' not found.</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="IllegalSignature">Illegal signature ''{0}''.</entry>
+    <entry key="IllegalCharacterInSignature">Unexpected character in signature ''{0}''.</entry>
+  </message>
+</rsccat>

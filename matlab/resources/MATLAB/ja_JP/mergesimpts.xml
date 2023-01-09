@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="unknownType">''type'' 引数が不明です。''type'' は ''first'' または ''average'' でなければなりません。</entry>
+    <entry key="tolsize">許容誤差はスカラーか、最初の入力 ''X'' と同じ列数をもつベクトルでなければなりません。</entry>
+    <entry key="firstNotDoubleReal">最初の入力 ''X'' を、single の行列、複素数行列、またはスパース行列にすることはできません。''X'' は非スパースで実数の倍精度行列でなければなりません。</entry>
+    <entry key="secondNotDoubleReal">2 番目の入力 ''tol'' を、single の行列、複素数行列、またはスパース行列にすることはできません。''tol'' は非スパースで実数の倍精度スカラーまたは行ベクトルでなければなりません。</entry>
+    <entry key="thirdNotChar">3 番目の入力 ''type'' は文字ベクトルでなければなりません。''type'' は ''first'' または ''average'' でなければなりません。</entry>
+    <entry key="NegTol">許容誤差は非負でなければなりません。</entry>
+    <entry key="NaNTol">許容誤差は NaN であってはなりません。</entry>
+    <entry key="AllInfTol">すべての許容誤差は Inf です。許容誤差にはいくつかの有限値が含まれていなければなりません。</entry>
+  </message>
+</rsccat>

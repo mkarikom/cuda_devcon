@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidString">문자형 벡터를 가져올 수 없습니다.</entry>
+    <entry key="InvalidThirdInput">차원 숫자는 양의 정수 스칼라여야 합니다.</entry>
+    <entry key="TooFewInputs">입력값 개수가 너무 적습니다.</entry>
+    <entry key="TooManyInputs">입력값이 너무 많습니다.</entry>
+    <entry key="InvalidFirstInput">첫 번째 입력값은 string형 또는 문자형 벡터로 지정된 함수 이름이거나 함수 핸들이어야 합니다.</entry>
+    <entry key="InvalidSecondInput">cellfun은 셀에서만 작동합니다.</entry>
+    <entry key="InvalidInput">입력값 개수가 올바르지 않습니다.</entry>
+    <entry key="UnknownOption">알 수 없는 옵션입니다.</entry>
+  </message>
+</rsccat>

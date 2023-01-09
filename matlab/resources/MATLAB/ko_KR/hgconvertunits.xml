@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidTarget">변환할 값은 [x y w h] 형태여야 합니다.</entry>
+    <entry key="InvalidFromUnits">변환 전 항목의 단위는 인치, 센티미터, 정규화, 포인트, 픽셀, 문자여야 합니다.</entry>
+    <entry key="InvalidUnits">변환 후 항목의 단위는 인치, 센티미터, 정규화, 포인트, 픽셀, 문자여야 합니다.</entry>
+    <entry key="InvalidFigure">첫 번째 입력 인수는 Figure 핸들이어야 합니다.</entry>
+    <entry key="InvalidRefObj">참조 객체가 유효하지 않습니다.</entry>
+    <entry key="InvalidObj">유효하지 않은 객체가 제공되었습니다. 호출 당시 객체가 삭제되었는지 확인하십시오.</entry>
+  </message>
+</rsccat>

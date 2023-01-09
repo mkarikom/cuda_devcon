@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ExtraShortArgument">不再需要指定列数。请改用 slice(v,xi,yi,zi)。</entry>
+    <entry key="InvalidVDims">V 必须为三维数组。</entry>
+    <entry key="WrongNumberOfInputs">输入参数的数目不正确。</entry>
+    <entry key="ExtraArgument">不再需要指定列数。请改用 slice(x,y,z,v,xi,yi,zi)。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="BadWorkingDirectory">Bad working directory. Details: {0}.</entry>
+    <entry key="ambiguousWithinFileName">The function name "{0}" is ambiguous within the file {1}.</entry>
+    <entry key="CannotFindBuiltinFunction">Cannot find builtin function ''{0}''</entry>
+
+    <!-- Begin cannotFindFunction same ID, different messages -->
+    <entry key="cannotFindFunction" translate="false" note="TranslateFalseBatch;">{0}</entry>
+    <entry key="cannotFindFunctionText">Cannot find function "{0}".</entry>
+    <entry key="cannotFindFunctionTextWithin">Cannot find function "{0}" within "{1}".</entry>
+    <entry key="cannotFindFunctionTextLocal">Cannot find local function "{0}".</entry>
+    <!-- End cannotFindFunction same ID, different messages -->
+
+    <entry key="conflictingFcnRegs">Multiple conflicting MATLAB_FCN_REGs found for "{0}".\n    MATLAB_FCN_REGs must differ in name, type, attributes, or priority.</entry>
+    <entry key="directoryNameTooLong">Directory name too long: "{0}"</entry>
+    <entry key="directoryNotFound">Directory name not found: "{0}"</entry>
+    <entry key="extensionRequired">When specifying files that are not on MATLAB's current search path, a file extension is required.</entry>
+    <entry key="findSymbolInLibrary">Symbol for ''{0}'' not found in ''{1}''.\n{2}</entry>
+    <entry key="inmemArgument">Cell array argument to inmem() must contain only character arrays.</entry>
+    <entry key="invalidFunctionName">Invalid function name ''{0}''</entry>
+    <entry key="invalidPath">Invalid path ''{0}''</entry>
+
+    <!-- Begin loadLibrary same ID, different messages -->
+    <entry key="loadLibrary" translate="false" note="TranslateFalseBatch;">{0}</entry>
+    <entry key="loadLibraryTextFunctionTableSize">Function table size check fails for ''{0}'': , library claims {1,number,integer}, registry claims {2}</entry>
+    <entry key="loadLibraryTextLibraryIntegrity">Library integrity check fails for ''{0}'': , library built {1}, registry built {2}</entry>
+    <entry key="loadLibraryTextLoad">Can't load ''{0}'': {1}</entry>
+    <entry key="loadLibraryTextRCFileNotFound">Can''t find the resource file ''{0}'' needed by ''{1}''</entry>
+    <entry key="loadLibraryTextReload">Can''t reload ''{0}''</entry>
+    <!-- End loadLibrary same ID, different messages -->
+
+    <entry key="mlockContext">"{0}" must be called from a file.</entry>
+    <entry key="mlockNotLocked">The file ''{0}'' is not locked.</entry>
+    <entry key="nameConflict">Function {0} has the same name as a MATLAB builtin. We suggest you rename the function to avoid a potential name conflict.</entry>
+    <entry key="mFunctionShadowedByNonM">Function "{0}" does not exist or is shadowed.</entry>
+    <entry key="NotFound">No signature for {0} is available.</entry>
+    <entry key="recursiveLoading">Trying to load file "{0}" while it is being loaded.</entry>
+    <entry key="ShadowedMEXExtension">In the directory "{0}", {1} now shadows {2}.\n Please see the MATLAB 7.1 Release Notes.</entry>
+    <entry key="UnableToResolve">Unable to ensure a valid workspace for the function {0} within {1}.\nPlease recreate the function handle to {2}.\n</entry>
+    <entry key="UnableToResolveFile">Unable to find file {0}.</entry>
+    <entry key="UnableToResolveHiddenFunction">Unable to find function {0} within {1}.</entry>
+    <entry key="undefinedFunction">Unable to locate {0} as a function on the MATLAB path</entry>
+    <entry key="undefinedArgument">{0} is not a valid argument</entry>
+
+    <!-- Begin UnresolvedFunctionHandle same ID, different messages -->
+    <entry key="UnresolvedFunctionHandle" translate="false" note="TranslateFalseBatch;">{0}</entry>
+    <entry key="UnresolvedFunctionHandleText">Could not find appropriate function on path loading function handle</entry>
+    <entry key="UnresolvedFunctionHandleTextWithName">Could not find appropriate function on path loading function handle {0}{1}{2}</entry>
+    <!-- End UnresolvedFunctionHandle same ID, different messages -->
+
+    <entry key="unresolvedDependency" translate="false">Unable to find function ''{0}''. Component {1} has an unknown dependency {2}.</entry>
+    <entry key="unresolvedReexport" translate="false">Unable to find file ''{0}''. Component {1} reexports unregistered component {2}.</entry>
+    <entry key="noMatchingConstructor">No constructor ''{0}'' with matching signature found.</entry>
+    <entry key="inferiortoSuperiortoContext">Function ''{0}'' can only be called from within a method.</entry>
+    <entry key="inferiortoSuperiortoSelf">Class ''{0}'' cannot be a subclass or a superclass of itself.</entry>
+    <entry key="inferiortoSuperiorChange">The precedence between classes ''{0}'' and ''{1}'' cannot be changed without first typing ''clear classes''.</entry>
+    <entry key="unknownClass">''{0}'' is not a known class.</entry>
+    <entry key="unknownClassInRelation">Unknown class ''{0}'' used in builtin function ''{1}''.</entry>
+    <entry key="InvalidObjtagReuse">Cannot redefine class ''{0}'' without a call to ''clear classes''.</entry>
+    <entry key="InvalidBaseObject">Base object for class ''{0}'' constructor is invalid.</entry>
+    <entry key="BadBaseClass">The ''{0}'' class cannot be used in its own class definition as a base class, property value, or attribute value.</entry>
+    <entry key="FieldNameAsParent">Failure attempting to construct class ''{0}'' as it contains a field ''{1}'' which matches the name of a parent class.</entry>
+    <entry key="sameClassParent">The superclass ''{0}'' has been specified more than once.</entry>
+    <entry key="ParentObjectSize">The size of the struct array being made into an object and the size of the parent objects must be consistent.</entry>
+    <entry key="invalidClassContext">The CLASS function must be called from a class constructor.</entry>
+    <entry key="classMustBeStruct">The first argument to function CLASS must be a struct.</entry>
+    <entry key="invalidClassName">The name ''{0}'' is not a valid class name.</entry>
+    <entry key="objectParentCount">Cannot change the number of parents of class ''{0}'' without first typing ''clear classes''.</entry>
+    <entry key="objectMemberCount">Cannot change the number of fields of class ''{0}'' without first typing ''clear classes''.</entry>
+    <entry key="objectChecksum">Field names and base classes of class ''{0}'' cannot be changed without first typing ''clear classes''.</entry>
+    <entry key="tooManyOutputs">The constructor for class ''{0}'' must return only one output value.</entry>
+    <entry key="pathNotInitialized">Failed to initialize MATLAB path {0}.  Exiting MATLAB.\n</entry>
+    <entry key="pathInitializationTime">  MATLAB Path initialized in {0} seconds.\n</entry>
+    <entry key="pathWarning" translate="false" note="TranslateFalseBatch;">{0}</entry>
+    <entry key="pathError" translate="false" note="TranslateFalseBatch;">{0}</entry>
+    <entry key="matlabpathIsDisabled">Unable to execute matlabpath. The function has been disabled in this MATLAB session.</entry>
+    <entry key="pathChangeLimitReached">Unable to determine if ''{0}'' is a function. The MATLAB Path or current folder changed too many times during the search.</entry>
+  </message>
+</rsccat>

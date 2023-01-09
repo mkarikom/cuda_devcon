@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="error">{1} 클래스에 대해 정의된 이벤트 {0}에 대한 리스너 콜백을 실행하는 중 오류가 발생했습니다.\n{2}</entry>
+    <entry key="PropertyEventError">{0} 클래스 {1} 속성 {2} 이벤트에 대한 리스너 콜백을 실행하는 중 오류가 발생했습니다.\n{3}</entry>
+    <entry key="DynamicPropertyEventError">{2} 클래스의 객체에 있는 {1} 동적 속성의 {0} 이벤트에 대한 리스너 콜백을 실행하는 중 오류가 발생했습니다.\n{3}</entry>
+    <entry key="DeletedSource">{0} 이벤트에 대한 리스너 콜백을 실행하는 중 오류가 발생했습니다. 소스가 삭제되었습니다.\n{1}</entry>
+    <entry key="DeletedAffectedObject">속성 {1}의 {0} 이벤트에 대한 리스너 콜백을 실행하는 중 오류가 발생했습니다. 영향을 받는 객체가 삭제되었습니다.\n{2}</entry>
+    <entry key="DeletedAffectedObjectNoClass">{0} 이벤트에 대한 리스너 콜백을 실행하는 중 오류가 발생했습니다. 영향을 받는 객체가 삭제되었으며 해당 객체의 클래스가 제거되었습니다.\n{1}</entry>
+  </message>
+</rsccat>

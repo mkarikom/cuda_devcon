@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CartesianOnly">카테시안 좌표축(Cartesian Axes)에서만 숫자형이 아닌 데이터가 지원됨</entry>
+    <entry key="MixingX">x축에 대해 플로팅되는 값은 {0} 값이어야 합니다. {1} 값을 생성하려면 {2} 함수를 사용하십시오.</entry>
+    <entry key="MixingOther">{0} 값에 대해 적어도 하나의 축 차원이 구성됩니다. {1} 값을 생성하려면 {2} 함수를 사용하십시오.</entry>
+    <entry key="Mixing">데이터 입력값이 축 구성과 일치해야 합니다. 숫자형 축에는 숫자형 데이터 입력값이나, double형으로 변환될 수 있는 데이터 입력값이 필요합니다.</entry>
+    <entry key="AxesToolbarParentError">AxesToolbar의 부모는 비어 있을 수 없음</entry>
+  </message>
+</rsccat>

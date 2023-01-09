@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="inputType">입력값은 single형 또는 double형의 행렬이어야 합니다.</entry>
+    <entry key="inputMustBeSquare">입력 행렬은 정사각 행렬이어야 합니다.</entry>
+    <entry key="inputMustBeFinite">행렬 요소는 유한해야 합니다.</entry>
+    <entry key="SingularMatrix">특이 행렬이면서 제곱근이 없는 행렬일 수 있습니다.</entry>
+  </message>
+</rsccat>

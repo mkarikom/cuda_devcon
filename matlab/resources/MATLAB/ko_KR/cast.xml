@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnsupportedClass">변환에 지원되지 않는 데이터형임: ''{0}''.</entry>
+    <entry key="invalidString">두 번째 입력값의 문자형 벡터 또는 string형이 유효하지 않습니다.</entry>
+    <entry key="unsupportedNdSparse">N차원 배열을 희소 배열로 변환할 수 없습니다.</entry>
+    <entry key="invalidSyntax">NEWCLASS 입력값이 문자형 벡터가 아닙니다.</entry>
+  </message>
+</rsccat>

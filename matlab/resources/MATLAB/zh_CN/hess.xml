@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="inputMustBe2DFullSq">输入必须为双精度或单精度类型的稠密方阵。</entry>
+    <entry key="inputMustBeSameSize">各个输入的大小必须相同。</entry>
+    <entry key="twoInTwoOut">输出参数太多。当提供一个输入参数时，请最多指定两个输出。</entry>
+  </message>
+</rsccat>

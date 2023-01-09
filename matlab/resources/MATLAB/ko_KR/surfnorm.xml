@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PropertyValuePairsExpected">속성/값 쌍이어야 합니다.</entry>
+    <entry key="InvalidMatrixInput">행렬 입력 인수의 개수가 올바르지 않습니다.</entry>
+    <entry key="InvalidInput">Y와 Z는 X와 크기가 동일해야 합니다.</entry>
+    <entry key="IncorrectInput">Y와 Z는 X와 크기가 동일해야 합니다.</entry>
+    <entry key="InvalidZValue">Z는 최소 3×3이어야 합니다.</entry>
+  </message>
+</rsccat>

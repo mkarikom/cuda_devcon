@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ImproperType">タイプは ''''()''''、''''.''''、'''''{}''''' のいずれかでなければなりません。</entry>
+    <entry key="indexNotCell">インデックスはセル配列でなければなりません。</entry>
+    <entry key="ImproperIndexCell">インデックス セル配列は、変数のすべての次元の範囲を指定しなければなりません。線形インデックスはサポートされていません。</entry>
+    <entry key="ImproperIndexBounds">インデックスの範囲は、2 つまたは 3 つの数値のグループで構成されなければなりません。</entry>
+    <entry key="MinMax">インデックスの範囲の最初の値は最後の値よりも小さくなければなりません。</entry>
+    <entry key="ImproperIndexCellForStructs">インデックスのセル配列は、有効な MATLAB 変数名の行ベクトルでなければなりません。</entry>
+    <entry key="indexNotFieldname">インデックス要素 {0,number,integer} は、有効な MATLAB の変数名ではありません。</entry>
+    <entry key="IndexBoundsInvalid">次元 {0,number,integer} のインデックスの範囲は、有効な範囲ではありません。\n詳細は、以下の原因を参照してください。</entry>
+  </message>
+</rsccat>

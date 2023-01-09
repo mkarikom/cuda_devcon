@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Component">{0} 不能为父级。</entry>
+    <entry key="UpdateFailed">更新时遇到故障。</entry>
+    <entry key="MutualExclusivityViolation">{0} 违反了互斥性。\n{1} 只能设置为包含 {1} 的 {0} 的父项。</entry>
+  </message>
+</rsccat>

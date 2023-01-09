@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ndInput">不支持 N 维稀疏数组。</entry>
+    <entry key="TwoInputs">参数的数目不正确。有效的语法为: sprand(S)、sprand(m,n,density) 或 sprand(m,n,density,rc)。</entry>
+    <entry key="RcondTooHigh">条件数倒数必须为 1 或以下。</entry>
+  </message>
+</rsccat>

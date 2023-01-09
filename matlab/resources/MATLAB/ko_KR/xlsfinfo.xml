@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Nargin">파일 이름을 지정해야 합니다.</entry>
+    <entry key="InputClass">파일 이름은 문자형 벡터이거나 string형 스칼라여야 합니다.</entry>
+    <entry key="FileName">파일 이름은 비어 있지 않아야 합니다.</entry>
+    <entry key="UnreadableExcelFile">읽을 수 없는 Excel 파일입니다:</entry>
+    <entry key="ActiveX">Excel 서버를 시작할 수 없습니다. 결과 제한은 문서를 참조하십시오.</entry>
+    <entry key="noJVM">xlsfinfo를 사용하여 이러한 유형의 Excel 파일을 불러오려면 Java가 있어야 합니다.</entry>
+  </message>
+</rsccat>

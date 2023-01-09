@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>    
+  <!--Resource entries for src/hg-->
+    <entry key="BadHandle">A valid figure or axes object handle must be specified</entry>
+    <entry key="MustBeValidMovieMatrix">Argument must be a valid movie matrix from GETFRAME</entry>
+    <entry key="BadRepeatCount1">Repetition count and frame order list must be numeric, with finite values</entry>
+    <entry key="BadRepeatCount2">Invalid repeat count specification</entry>
+    <entry key="BadRECT">Invalid RECT specification</entry>
+    <entry key="SkippingCorruptedFrame">Skipping corrupted movie frame #{0,number,integer}</entry>
+    <entry key="NoValidFrames">There are no valid frames in this movie</entry>
+    <entry key="ExpectedStructure">Invalid movie: expected a structure</entry>
+    <entry key="WrongNumberOfFields">Invalid movie structure: wrong number of fields</entry>
+    <entry key="WrongFieldNamesOrOrder">Invalid movie structure: wrong field names or fields in wrong order</entry>
+    <entry key="UninitializedFrames">Movie contains uninitialized frames</entry>
+    <entry key="CDataTypeMustBeUint8Array">Movie cdata must be of type uint8 array</entry>
+    <entry key="CDataMustHave2Or3Dimensions">Movie cdata must have 2 or 3 dimensions</entry>
+    <entry key="ColormapMustBeNonEmpty">Indexed movie frame must have a non-empty colormap</entry>
+    <entry key="ColormapMustBeDoubleArray">Movie colormaps must be double arrays</entry>
+    <entry key="ColormapCannotHaveMoreThan256Colors">Movie colormap can not have more than 256 colors</entry>
+    <entry key="ColormapMustHave3Columns">Movie colormaps must have 3 columns</entry>
+    <entry key="ColormapValuesMustBeFinite">Movie colormap values must be finite</entry>
+    <entry key="ColormapValuesOutOfRange">Movie colormap values must be between 0.0 and 1.0 inclusive</entry>
+    <entry key="BadColormapIndices">Indexed movie data values must be legal colormap indices:\n1.0 &lt;= value &lt;= length(colormap) for double-precision movie data, and 0 &lt;= value &lt;= length(colormap)-1 for uint8 movie data</entry>
+    <entry key="BadFrameDimensions">Each movie frame must be an array of size MxN (indexed) or MxNx3 (truecolor)</entry>
+    <entry key="HandleMustBeFigureOrAxes">Object handle must be a figure or an axes</entry>
+    <entry key="HandleMustBeValid">A valid figure, or axes object handle must be specified</entry>
+    <entry key="MustBeTrueColor">Movie only supports True Color visuals.</entry>
+    <entry key="ExpectedDoubleScalar">Frames Per Second must be specified with a double scalar</entry>
+    <entry key="ExpectedNumericFinite">Repetition count and frame order list must be numeric, with finite values</entry>
+    <entry key="CantCreateFrame">Could not create movie frame</entry>
+    <entry key="unsupported">The built-in hgMovie is not supported in HGUsingMATLABClasses mode. Use MOVIE.M instead.</entry>
+  <!--Resource entries for src/hg-->
+    <entry key="ZeroRepetitions">Movie requested to play 0 times</entry>
+    <entry key="BadPlaylist">Invalid playlist specification</entry>
+    <entry key="BadFPS1">Invalid FPS specification</entry>
+    <entry key="BadFPS2">Invalid FPS specification</entry>
+    <entry key="BadFPS3">Invalid FPS specification</entry>
+    <entry key="BadMatrix1">Argument must be a valid movie matrix from GETFRAME</entry>
+    <entry key="BadMatrix2">Argument must be a valid movie matrix from GETFRAME</entry>
+    <entry key="BadMatrix3">Argument must be a valid movie matrix from GETFRAME</entry>
+    <entry key="BadFrameOrderIndex1">Invalid index ({0}) in frame order specification.\nNumbers must be between 1 and number of frames ({1,number,integer}).</entry>
+    <entry key="BadFrameOrderIndex2">Invalid index ({0}) in frame order specification.\nNumbers must be between 1 and number of frames ({1,number,integer}).</entry>
+
+    <entry key="MovieContainsUninitializedFrames">Movie contains uninitialized frames</entry>
+    <entry key="CdataMustBeOfTypeUint8Array">Movie cdata must be of type uint8 array</entry>
+    <entry key="CdataMustHave2Or3Dimensions">Movie cdata must have 2 or 3 dimensions</entry>
+    <entry key="FrameMustBeAnArrayOfSizeMxNindexedOrMxNx3tr">Each movie frame must be an array of size MxN (indexed) or MxNx3 (truecolor)</entry>
+    <entry key="IndexedMovieFrameMustHaveANonemptyColormap">Indexed movie frame must have a non-empty colormap</entry>
+    <entry key="MovieColormapsMustBeDoubleArrays">Movie colormaps must be double arrays</entry>
+    <entry key="ColormapCanNotHaveMoreThan256Colors">Movie colormap can not have more than 256 colors</entry>
+    <entry key="ColormapsMustHave3Columns">Movie colormaps must have 3 columns</entry>
+    <entry key="ColormapValuesMustBeBetween0And1Inclusive">Movie colormap values must be between 0.0 and 1.0 inclusive</entry>
+    <entry key="ArgumentMustBeAValidMovieMatrixFromGETFRAME">Argument must be a valid movie matrix from GETFRAME</entry>
+    <entry key="RepetitionCountAndFrameOrderListMustBeFiniteNumeric">Repetition count and frame order list must be numeric, with finite values</entry>
+    <entry key="InvalidRepeatCountSpecification">Invalid repeat count specification</entry>
+    <entry key="FramesPerSecondMustBePositiveDouble">Frames Per Second must be specified with a positive double scalar &gt; 0</entry>
+    <entry key="InvalidRECTSpecification">Invalid RECT specification</entry>
+    <entry key="ValueMustBeNumeric">Value must be numeric</entry>
+    <entry key="ObjectHandleMustBeAFigureOrAnAxes">Object handle must be a figure or an axes</entry>
+    <entry key="IndexedMovieDataValuesMustBeLegalColormapIndices">Indexed movie data values must be legal colormap indices:\n1.0 &lt;= value &lt;= length(colormap) for double-precision movie data, and\n0 &lt;= value &lt;= length(colormap)-1 for uint8 movie data</entry>
+  </message>
+</rsccat>

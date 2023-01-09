@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DataVariablesArray">''DataVariables'' パラメーターはテーブル入力に対してのみサポートされます。</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' 関数ハンドルは logical スカラーを返さなければなりません。</entry>
+    <entry key="DataVariablesTableSubscript">''DataVariables'' の値が無効です。</entry>
+    <entry key="DimensionInvalid">次元は 1 か 2 でなければなりません。</entry>
+    <entry key="MinNumOutliers">''MinNumOutliers'' の値は非負の整数でなければなりません。</entry>
+    <entry key="NameValuePairs">入力引数の数が正しくありません。名前と値の引数はペアでなければなりません。</entry>
+    <entry key="NDArrays">N 次元配列はサポートされていません。</entry>
+    <entry key="SecondInputString">2 番目の入力は ''median''、''mean''、''movmedian''、''movmean''、''quartiles''、''grubbs''、''gesd''、''DataVariables''、''MinNumOutliers''、''SamplePoints''、または ''ThresholdFactor'' でなければなりません。</entry>
+    <entry key="TableDimCodegen">次元引数は、最初の引数が table の場合、コード生成では定数 1 でなければなりません。</entry>
+    <entry key="DatetimeOrDurationWithMovMethod">''SamplePoints'' が datetime 型または duration 型の場合、''movmean'' メソッドおよび ''movmedian'' メソッドはコード生成でサポートされていません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CannotCreateClipMask">X 服务器无法创建剪辑蒙板</entry>
+    <entry key="CannotCaptureRectangles">无法捕获包括图窗外部区域的矩形，除非图窗使用默认视觉效果</entry>
+    <entry key="UnableToAllocateOffscreenBuffer">无法为 DoubleBuffering 分配屏幕外缓冲区</entry>
+    <entry key="CannotDock">无法使非 Java 图窗停靠</entry>
+  </message>
+</rsccat>

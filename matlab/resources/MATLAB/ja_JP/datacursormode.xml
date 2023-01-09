@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoOutputOnEnableDisable">データ カーソル モードを有効または無効にした場合、使用できる出力引数はありません。</entry>
+    <entry key="maxrhs">入力引数が多すぎます</entry>
+    <entry key="InvalidFigureHandle">無効な Figure のハンドル</entry>
+    <entry key="InvalidInputForOutArg">これらの入力引数を使用して出力引数を指定しないでください。</entry>
+    <entry key="UnrecognizedInput">不明なアクションの文字ベクトルです。</entry>
+  </message>
+</rsccat>

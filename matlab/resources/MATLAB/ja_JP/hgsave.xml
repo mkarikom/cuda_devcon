@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ToBeRemoved">''all'' オプションは、将来のリリースで削除される予定です。</entry>
+    <entry key="DeprecatedOption">hgsave の "all" オプションは削除されています。</entry>
+    <entry key="InvalidFilename">filename 引数は空でない string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="InvalidHandle">ハンドルが無効です。</entry>
+    <entry key="InvalidOption">オプションはすべて string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="UnrecognizedOption">オプション {0} が無効です。</entry>
+  </message>
+</rsccat>

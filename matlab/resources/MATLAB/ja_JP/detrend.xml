@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFirstInput">データ型が無効です。最初の引数の型は double または single でなければなりません。</entry>
+    <entry key="BreakpointsInvalid">ブレークポイントは、サンプル点の値を含むベクトル、または logical ベクトルでなければなりません。</entry>
+    <entry key="InvalidTrendInputType">多項式の次数は非負の整数スカラーでなければなりません。</entry>
+    <entry key="KeyWithoutValue">入力引数の数が正しくありません。パラメーターの名前と値はペアでなければなりません。</entry>
+    <entry key="ParseFlags">パラメーター名は ''Continuous'' または ''SamplePoints'' でなければなりません。</entry>
+    <entry key="SamplePointsComplex">''SamplePoints'' の値は実数でなければなりません。</entry>
+    <entry key="SamplePointsDuplicate">''SamplePoints'' の値に重複が含まれています。</entry>
+    <entry key="SamplePointsFinite">''SamplePoints'' の値は有限でなければなりません。</entry>
+    <entry key="SamplePointsInvalidDatatype">''SamplePoints'' の値は、double、single、datetime、または duration のベクトルでなければなりません。</entry>
+    <entry key="SamplePointsLength">''SamplePoints'' の値の要素数は、最初の次元に沿った最初の引数のサイズと等しくなければなりません。</entry>
+    <entry key="SamplePointsSorted">''SamplePoints'' の値は昇順に並べ替えなければなりません。</entry>
+    <entry key="SamplePointsSparse">スパースな ''SamplePoints'' の値はサポートされません。</entry>
+    <entry key="PolyNotUnique">多項式が一意ではないか、悪条件です。明らかに異なるサンプル点を追加するか、多項式の次数を減らしてください。</entry>
+    <entry key="InvalidTrendType">トレンド タイプ ''{0}'' が無効です。</entry>
+  </message>
+</rsccat>

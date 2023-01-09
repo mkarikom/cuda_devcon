@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <!-- code comments -->
+        <!-- RunStartupFcnComment is maintained for R2016a compatibility -->
+        <entry key="RunStartupFcnComment" translate="false">% Code that executes after component creation</entry>
+        <entry key="mixedCallbackFcnComment" translate="false">% Callback function</entry>
+    </message>
+</rsccat>

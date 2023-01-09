@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WrongNumberOfInputs">入力引数の数が正しくありません。</entry>
+    <entry key="VDataNot3D">V は 3 次元配列でなければなりません。</entry>
+    <entry key="InvalidSizeInput">SIZE はスカラーか、3 要素のベクトルでなければなりません。</entry>
+    <entry key="InvalidSizeValues">SIZE のすべての要素は 1 以上の奇数の整数でなければなりません。</entry>
+    <entry key="UnknownFilter">不明なフィルターです。</entry>
+    <entry key="InvalidFirstInput">最初のパラメーターは、スカラーまたは 1 行 3 列のサイズのベクトルでなければなりません。</entry>
+  </message>
+</rsccat>

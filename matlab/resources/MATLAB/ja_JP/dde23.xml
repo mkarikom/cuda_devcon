@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">入力引数が不足しています。DDE23 を参照してください。</entry>
+    <entry key="LargeDelaysTryDDESD">不連続部の追跡が、配列の最大サイズの基本設定を超えています。DDESD を使用して、不連続部の追跡を行わずに求解してください。</entry>
+    <entry key="TspandEndLTtspan1">tspan(1) &lt; tspan(end) でなければなりません。</entry>
+    <entry key="NotContinueFromHistoryEnd">最後に達した点から連続でなければなりません。</entry>
+    <entry key="NotPosLags">ラグはすべて正でなければなりません。</entry>
+    <entry key="DDEOutputNotCol">DDE は列ベクトルを返さなければなりません。</entry>
+    <entry key="DDELengthMismatchHistory">微分と履歴ベクトルは異なる長さをもっています。</entry>
+    <entry key="OptRelTolNotPosScalar">オプション ''RelTol'' は正のスカラーでなければなりません。</entry>
+    <entry key="OptAbsTolNotPos">オプション ''AbsTol'' は正でなければなりません。</entry>
+    <entry key="NonScalarAbstolNormControl">NormControl を ''on'' にして解くには、スカラーの AbsTol が必要です。</entry>
+    <entry key="OptMaxStepNotPos">オプション ''MaxStep'' は 0 より大きくなければなりません。</entry>
+    <entry key="OptInitialStepNotPos">オプション ''InitialStep'' は 0 より大きくなければなりません。</entry>
+    <entry key="InconsistentDataType">DDE23 への呼び出し内で ''t0''、''y0''、''y(t0-lags)''、''f(t0,y0,ylags)'' に対する single と double のデータが混在しています。</entry>
+    <entry key="RelTolIncrease">RelTol は {0} に増加しました。</entry>
+    <entry key="AbsTolSize">解 {0} は、スカラーの AbsTol、あるいは長さ {1,number,integer} のベクトルの AbsTol が必要です</entry>
+    <entry key="IntegrationTolNotMet">t={0} で失敗。ステップ サイズを時間 t における最小の値として許可された ({1}) 以下に減少させないと、積分の許容誤差を満たすことはできません。</entry>
+  </message>
+</rsccat>

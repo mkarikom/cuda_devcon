@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DialogErrorWhileSavingData">데이터를 저장하는 중 오류가 발생했습니다.</entry>
+    <entry key="DialogInvalidVariableName">''{0}''은(는) 유효하지 않은 변수 이름입니다.</entry>
+    <entry key="DialogCursorDataExportError">커서 데이터 내보내기 오류</entry>
+    <entry key="DialogSelectFile">MATLAB 파일 선택</entry>
+    <entry key="EnterVariableName">변수 이름 입력</entry>
+    <entry key="WarningVariableExists">"{0}"(이)라는 변수는 MATLAB 작업 공간에 이미 존재합니다.\n계속할 경우 작업 공간 내 "{1}"의 인스턴스를\n덮어씁니다.</entry>
+    <entry key="InvalidVariableName">''{0}''은(는) 유효하지 않은 변수 이름입니다.</entry>
+    <entry key="ExportError">커서 데이터 내보내기 오류</entry>
+    <entry key="MenuSelectionStyle">선택 스타일</entry>
+    <entry key="MenuMousePosition">마우스 위치</entry>
+    <entry key="MenuSnapToNearestDataVertex">가장 가까운 데이터 꼭짓점으로 맞춤</entry>
+    <entry key="MenuDisplayStyle">디스플레이 스타일</entry>
+    <entry key="MenuWindowInsideFigure">Figure 내에 창 표시</entry>
+    <entry key="MenuDatatip">데이터팁</entry>
+    <entry key="MenuCreateNewDatatip">새 데이터팁 만들기 Alt+Click</entry>
+    <entry key="MenuCreateNewDatatipShift">새 데이터팁 만들기 Shift+Click</entry>
+    <entry key="MenuDeleteCurrentDatati">현재 데이터팁 삭제 Delete</entry>
+    <entry key="MenuDeleteCurrentDatatipNoAccelerator">현재 데이터팁 삭제</entry>
+    <entry key="MenuDeleteAllDatatips">모든 데이터팁 삭제</entry>
+    <entry key="MenuExportCursorDataToWorkspace">커서 데이터를 작업 공간으로 내보내기...</entry>
+    <entry key="MenuTextUpdateFunction">업데이트 함수</entry>
+    <entry key="MenuEditTextUpdateFunction">편집...</entry>
+    <entry key="MenuSelectTextUpdateFunction">파일에서 선택...</entry>
+    <entry key="MenuDeleteTextUpdateFunction">삭제</entry>
+    <entry key="TitleExportCursorDataToWorkspace">커서 데이터를 작업 공간으로 내보내기</entry>
+    <entry key="LabelMouseClickOnPlottedData">플롯 데이터에서 마우스 클릭...</entry>
+    <entry key="MenuEditContentStyle">내용 및 스타일 편집...</entry>
+    <entry key="Type">유형:</entry>
+  </message>
+</rsccat>

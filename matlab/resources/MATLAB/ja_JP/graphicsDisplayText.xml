@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FooterTextNoArrayName">{0} を使用してすべてのプロパティを表示</entry>
+    <entry key="AllPropertiesText">すべてのプロパティ</entry>
+    <entry key="FooterTextWithArrayName">{0} を表示</entry>
+    <entry key="NonScalarHeaderText">{0} {1} 配列</entry>
+    <entry key="ScalarHeaderText">{0} {1} のプロパティ:</entry>
+    <entry key="ScalarHeaderTextNoLabel">{0} のプロパティ:</entry>
+    <entry key="EmptyArrayText">{0} の空の {1} 配列。</entry>
+    <entry key="FooterLinkFailureUnknown">変数 {0} は、クリアされているかスカラーではなくなっているため、プロパティが表示されません。</entry>
+    <entry key="FooterLinkFailureDeleted">変数 {0} は &lt;a href="matlab: helpview ([docroot '/matlab/creating_plots/creating_plots.map'],'deleted_handle')"&gt;削除されたオブジェクト&lt;/a&gt;を参照しているため、そのプロパティを表示できません。</entry>
+    <entry key="FooterLinkFailureMissingVariable">変数 {0} はもう存在しないため、プロパティを表示できません。</entry>
+    <entry key="FooterLinkFailureClassMismatch">変数 {0} はもう {1} オブジェクトではないため、プロパティを表示できません。</entry>
+  </message>
+</rsccat>

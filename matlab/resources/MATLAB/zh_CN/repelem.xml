@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NdSparseOutput">不支持 N 维稀疏输出数组。</entry>
+    <entry key="nonNumericReplications">复制因子必须为数值。</entry>
+    <entry key="complexReplications">不支持复数复制因子。</entry>
+    <entry key="invalidReplications">复制因子必须为非负整数值标量或向量。</entry>
+    <entry key="mismatchedReplicationsVector">在 repelem(v, N) 中，N 必须是长度等于 v 的标量或向量。</entry>
+    <entry key="mismatchedReplications">在 repelem(A, N1, N2, ..., Nn) 中，Nj 必须是长度为 size(A, j) 的标量或向量。</entry>
+    <entry key="twoInputNonVector">使用两个输入时，第一个参数必须为向量。对矩阵采用三个输入项的语法。</entry>
+  </message>
+</rsccat>

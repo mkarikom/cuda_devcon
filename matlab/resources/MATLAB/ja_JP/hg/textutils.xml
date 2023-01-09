@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="rectangle2DtoMx">テキスト範囲に行列を割り当てるのに十分なメモリがありません</entry>
+    <entry key="InputArgumentNotFont">入力引数のタイプはフォントではありません。</entry>
+    <entry key="ExpectedScalarFontObject">スカラー フォント オブジェクトが必要です。</entry>
+    <entry key="invalidContext">このメソッドは doUpdate 内から呼び出さなければなりません。 </entry>
+    <entry key="StringSyntaxError">string スカラーまたは文字ベクトルには有効なインタープリター構文がなければなりません。</entry>
+  </message>
+</rsccat>

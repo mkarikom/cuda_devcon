@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="complexIntegers">不支持复整数。 </entry>
+    <entry key="MustNotBeCell">不支持元胞数组。</entry>
+    <entry key="InvalidK">要返回的元素数目必须为非负整数。</entry>
+    <entry key="notPosInt">维度参数必须为正整数。</entry>
+    <entry key="InvalidAbsRealType">仅当输入数组为数值或逻辑数组时，才支持 ''ComparisonMethod'' 参数。</entry>
+    <entry key="InvalidComparison">''ComparisonMethod'' 值必须为 ''auto''、''abs'' 或 ''real''。</entry>
+    <entry key="NameValueNames">参数名称必须为 'ComparisonMethod'。</entry>
+    <entry key="NameValuePairs">输入参数的数目不正确。参数名称和值必须成对出现。</entry>
+  </message>
+</rsccat>

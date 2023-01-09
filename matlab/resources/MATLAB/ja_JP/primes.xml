@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputNotScalar">N はスカラーでなければなりません</entry>
+    <entry key="NGreaterThanFlintmax">N が FLINTMAX(CLASS(N)) より大きくなっています。FLINTMAX よりも小さい素数のみが返されます。 </entry>
+    <entry key="ComplexInput">N は実数でなければなりません。</entry>
+  </message>
+</rsccat>

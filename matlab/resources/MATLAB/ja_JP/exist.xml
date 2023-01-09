@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="firstInputString">exist の最初の入力は string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="secondOptionalInputString">exist の 2 番目の入力のオプションは、''var''、''builtin''、''class''、''dir''、または ''file'' でなければなりません。</entry>
+    <entry key="errorInTransparentWorkspace">exist を使用した、透過的なワークスペースでの変数の確認はサポートされていません。関数、フォルダー、ファイルまたはクラスを確認するには、''builtin''、''class''、''dir'' または ''file'' など、適切な 2 番目の入力引数を exist に指定してください。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="OutOfMemory">역직렬화(Deserialization) 중 메모리 부족</entry>
+    <entry key="BadVersionOrEndian">데이터에 잘못된 버전 또는 endian 키가 포함되어 있으므로 데이터 스트림을 읽을 수 없음</entry>
+  </message>
+</rsccat>

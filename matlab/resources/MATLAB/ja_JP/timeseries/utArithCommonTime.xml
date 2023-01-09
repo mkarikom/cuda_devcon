@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="lengthmis">時系列の長さが一致しません。</entry>
+    <entry key="badsizes">時系列を算術的に結合するために、時間ベクトルはスカラーのオフセット内で同じでなければなりません。</entry>
+  </message>
+</rsccat>

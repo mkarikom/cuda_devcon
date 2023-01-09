@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TITLE">数据清理器</entry>
+    <entry key="HOME_TAB">主页</entry>
+    <entry key="FILE_SECTION">文件</entry>
+    <entry key="IMPORT_BUTTON_TEXT">导入</entry>
+    <entry key="IMPORT_BUTTON_DESCRIPTION">导入数据</entry>
+    <entry key="VIEW_SECTION">查看</entry>
+    <entry key="SHOW_SUMMARY">显示摘要</entry>
+    <entry key="LEGEND">显示图例</entry>
+    <entry key="CUSTOM_CATEGORY">自定义</entry>
+    <entry key="ADD_CUSTOM_FUNCTION">添加您的函数</entry>
+    <entry key="EDIT_CUSTOM_FUNCTION">编辑您的自定义函数</entry>
+    <entry key="EXPORT_SECTION">导出</entry>
+    <entry key="EXPORT_BUTTON_TEXT">导出</entry>
+    <entry key="EXPORT_BUTTON_DESCRIPTION">导出数据</entry>
+    <entry key="EXPORT_VARIABLE_EXPORTED">已将变量 {0} 作为 {1} 导出到 MATLAB 工作区</entry>
+    <entry key="EXPORT_SCRIPT_EXPORTED">导出到脚本已完成</entry>
+    <entry key="EXPORT_FUNCTION_EXPORTED">导出到函数已完成</entry>
+    <entry key="EXPORT_DIALOG_TITLE">导出已完成</entry>
+    <entry key="TABULAR_DOC_GROUP_TITLE">表格视图</entry>
+    <entry key="TABULAR_DOC_TITLE">变量: {0}</entry>
+    <entry key="PPTaskGroupTitle">清理方法</entry>
+    <entry key="PPTaskPanelTitle">预览</entry>
+    <entry key="PPTAB">清理方法</entry>
+    <entry key="PPMODE_SECTION">清理数据</entry>
+    <entry key="PPMODE_APPLY_BUTTON_TEXT">应用并关闭</entry>
+    <entry key="PPMODE_APPLY_BUTTON_DESCRIPTION">应用清理并返回主屏幕</entry>
+    <entry key="PPMODE_CANCEL_BUTTON_TEXT">取消</entry>
+    <entry key="PPMODE_CANCEL_BUTTON_DESCRIPTION">取消清理并返回主屏幕</entry>
+    <entry key="PPMODE_HELP_SECTION">帮助</entry>
+    <entry key="PPMODE_HELP_BUTTON_TEXT">帮助</entry>
+    <entry key="PPMODE_HELP_BUTTON_DESCRIPTION">请参阅与此任务相关的文档</entry>
+    <entry key="PPMODE_HELP_NOHELP">没有可用于此任务的帮助</entry>
+    <entry key="PPMODE_SUBSET_SECTION">子集</entry>
+    <entry key="PPMODE_SUBSET_CHECKBOX_TEXT">使用子集预览</entry>
+    <entry key="PPMODE_SUBSET_CHECKBOX_DESCRIPTION">在清理任务中使用数据子集以提高性能</entry>
+    <entry key="PPMODE_SUBSET_START_TEXT">开始</entry>
+    <entry key="PPMODE_SUBSET_START_DESCRIPTION">子集的起始索引</entry>
+    <entry key="PPMODE_SUBSET_END_TEXT">结束</entry>
+    <entry key="PPMODE_SUBSET_END_DESCRIPTION">子集的结束索引</entry>
+    <entry key="PPMODE_SUBSET_STEP_TEXT">步长</entry>
+    <entry key="PPMODE_SUBSET_STEP_DESCRIPTION">子集的步长。将从头到尾选择每第 n 项。</entry>
+    <entry key="VARIABLE_PANEL_TITLE">变量</entry>
+    <entry key="HISTORY_PANEL_TITLE">清理步骤</entry>
+    <entry key="PREPROCESSED_FIGURE_PANEL_TITLE">所选变量的详细信息</entry>
+    <entry key="TASK_GROUP_CLEANING">正在清理</entry>
+    <entry key="TASK_GROUP_RESHAPING">正在重构</entry>
+    <entry key="TASK_GROUP_SYNCHRONIZING">正在同步</entry>
+    <entry key="TASK_GROUP_USER">用户编写</entry>
+    <entry key="CUSTOMPP_SECTION">自定义预处理</entry>
+    <entry key="ADD_CUSTOMPP_BUTTON_TEXT">将自定义函数添加到库</entry>
+    <entry key="ADD_CUSTOMPP_BUTTON_DESCRIPTION">在库中新建一个自定义预处理任务</entry>
+    <entry key="ADD_CUSTOMPP_ERROR">添加自定义预处理时出错</entry>
+    <entry key="TASK_COLUMN_TRANSFORM_BUTTON_TEXT">计算列变量</entry>
+    <entry key="TASK_COLUMN_TRANSFORM_BUTTON_DESCRIPTION">创建一个新的列变量或用计算的值覆盖现有列变量</entry>
+    <entry key="RETIME_NAME">重采样时间表</entry>
+    <entry key="USR_ACTION_ERROR_TITLE">无效的操作</entry>
+    <entry key="USR_ACTION_ERROR_TEXT">操作导致无效状态。正在还原用户操作。</entry>
+    <entry key="USR_ACTION_ERROR_NO_NEW_WS_VARS">代码无法向工作区添加新变量!</entry>
+    <entry key="VARIABLE_SELECTOR_NAME">从工作区导入</entry>
+    <entry key="VARIABLE_SELECTOR_TEXT">选择表或时间表</entry>
+    <entry key="VARIABLE_SELECTOR_SUB_TEXT">变量</entry>
+    <entry key="CANCEL_BUTTON_TEXT">取消</entry>
+    <entry key="OK_BUTTON_TEXT">确定</entry>
+    <entry key="NO_VAR_WARNING">工作区中没有表</entry>
+    <entry key="NO_DATA_WARNING">无可用数据</entry>
+    <entry key="STEP_RESET_WARNING_TEXT">此操作将清除您之前的所有步骤</entry>
+    <entry key="STEP_RESET_WARNING_PANEL_TITLE">警告</entry>
+    <entry key="STEP_RESET_WARNING_OK">确定</entry>
+    <entry key="STEP_RESET_WARNING_CANCEL">取消</entry>
+    <entry key="STEP_DELETE_WARNING_TEXT">是否确定?</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TraversingObjectHierarchyPleaseWait">オブジェクトの階層を移動しています。お待ちください...</entry>
+    <entry key="CodeGenerationError">コード生成エラー</entry>
+    <entry key="GeneratingSyntaxTreePleaseWait">構文ツリーを生成しています。お待ちください...</entry>
+    <entry key="GeneratingVariableListpleaseWait">変数リストを生成しています。お待ちください...</entry>
+    <entry key="GeneratingFinalTextRep">最終的なテキスト表現を生成しています。お待ちください...</entry>
+    <entry key="CodeGeneration">コード生成</entry>
+    <entry key="CurrentlyDoesNotSupportCodeGen">{0} は、現在コード生成をサポートしていません。''doc {1}'' と入力して構文を正しく入力してください</entry>
+    <entry key="ValidInputObjectRequired">有効な入力オブジェクトが必要です</entry>
+    <entry key="ThisObjectDoesNotSupportCodeGeneration">このオブジェクトはコード生成をサポートしません</entry>
+    <entry key="MLintMessagesWereDetected">次の MLint メッセージが検出されました:\n{0}</entry>
+    <entry key="IncorrectNumberOfInputArguments">入力引数の数が正しくありません。</entry>
+    <entry key="InvalidFilename">無効なファイル名</entry>
+    <entry key="MLintFlagMustBeTrueOrFalse">MLint フラグは true または false でなければなりません</entry>
+    <entry key="DebugFlagMustBeTrueOrFalse">デバッグ フラグは、true または false でなければなりません</entry>
+    <entry key="InvalidInput">無効な入力</entry>
+    <entry key="CouldNotCreateFile">ファイル {0} を作成できません</entry>
+  </message>
+</rsccat>

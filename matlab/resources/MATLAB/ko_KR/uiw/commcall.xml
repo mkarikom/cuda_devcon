@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PrintDialogFailed">인쇄 대화 상자를 여는 동안 오류({0,number,integer})가 발생했습니다.</entry>
+    <entry key="BadPrinterName">''{0}''은(는) 잘못된 프린터 이름입니다.\n</entry>
+  </message>
+</rsccat>

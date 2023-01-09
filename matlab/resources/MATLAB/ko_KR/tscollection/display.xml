@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TimeSeriesCollectionObject">시계열 컬렉션 객체: {0}</entry>
+    <entry key="StartDate">시작 날짜</entry>
+    <entry key="EndDate">종료 날짜</entry>
+    <entry key="ReferenceStartDate">참조 시작 날짜</entry>
+    <entry key="StartTime">시작 시간</entry>
+    <entry key="EndTime">종료 시간</entry>
+    <entry key="Empty">비어 있음</entry>
+    <entry key="TimeVectorCharacteristics">시간 벡터의 특성</entry>
+    <entry key="MemberTimeSeriesObj">멤버 시계열 객체</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AddingCharRowData">文字ベクトル ''{0}'' を変数として 1 行の table に追加しようとした可能性があります。テキスト データを table に保存するには、文字配列ではなく、string 配列、または文字ベクトルの cell 配列を使用してください。あるいは、ドット インデックスを使用する代入でその変数を table に追加してください。</entry>
+    <entry key="NoBeforeOrAfter">''Before'' または ''After'' のいずれかと、変数の移動先を指定してください。</entry>
+    <entry key="BeforeAndAfter">指定は ''Before'' と ''After'' のいずれかとし、両方は指定しないでください。</entry>
+    <entry key="IncorrectNumberOfVarNames">table に追加する変数ごとに新しい変数名を 1 つ指定してください。</entry>
+    <entry key="InvalidVarNames">新しい変数名は、文字ベクトル、string 配列、または文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="NonscalarPosition">1 つの場所を、正の整数、変数名、または true 値が 1 つのみ含まれる logical ベクトルとして指定してください。</entry>
+    <entry key="VartypeInvalidLocation">場所としての vartype サブスクリプターの使用はサポートされていません。1 つの場所を、変数名、正の整数、または true 値が 1 つ含まれる logical ベクトルとして指定してください。</entry>
+    <entry key="VartypeInvalidVars">vartype サブスクリプターを使用して移動する変数を指定することはサポートされていません。文字ベクトル、string 配列、文字ベクトルの cell 配列、または数値インデックスか logical インデックスを使用してください。</entry>
+    <entry key="StringParamNameNotSupported">"{0}" でパラメーター名を指定しようとした可能性があります。しかし、ADDVARS では、パラメーター名を文字ベクトルとして指定する必要があります。代わりに addvars(..., ''{0}'', Value) を使用してください。</entry>
+    <entry key="NoVarSizeBeforeAndAfter">''Before'' または ''After'' の値のサイズは一定でなければなりません。</entry>
+    <entry key="DuplicatedVariablesNotSupported">変数名の重複はサポートされません。</entry>
+    <entry key="NewVarNamesMustBeConstant">'NewVariableNames' を定数として指定してください。</entry>
+    <entry key="NumRowsMismatch">table に新しい変数を追加するには、行数が table の高さと一致していなければなりません。</entry>
+    <entry key="MustSpecifyNewVarNames">新しい変数名を指定しなければなりません。</entry>
+    <entry key="StringParamNameNotSupportedCodegen">You might have intended "{0}" to specify a parameter name. However, ADDVARS requires parameter names to be specified as character vectors, and Name=Value is not supported in code generation. Use addvars(..., ''{0}'', Value) instead.</entry>
+  </message>
+</rsccat>

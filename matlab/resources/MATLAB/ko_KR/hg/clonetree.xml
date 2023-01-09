@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArrayMustBeRowOrColumnVector">clone에 대한 핸들 배열은 행 벡터 또는 열 벡터여야 함</entry>
+    <entry key="HandleTypeMustBeProvided">clone 메서드에는 ''handle'' 유형을 제공해야 함</entry>
+    <entry key="ClonetreeNotSupported">이 버전의 HG 객체에는 clonetree를 사용할 수 없음</entry>
+  </message>
+</rsccat>

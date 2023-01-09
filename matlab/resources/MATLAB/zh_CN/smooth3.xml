@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WrongNumberOfInputs">输入参数的数目不正确。</entry>
+    <entry key="VDataNot3D">V 必须为 3 维数组。</entry>
+    <entry key="InvalidSizeInput">SIZE 必须为标量或包含 3 个元素的向量。</entry>
+    <entry key="InvalidSizeValues">SIZE 的所有元素都必须为大于或等于 1 的奇数。</entry>
+    <entry key="UnknownFilter">未知筛选器。</entry>
+    <entry key="InvalidFirstInput">第一个参数必须为标量或 1×3 大小向量。</entry>
+  </message>
+</rsccat>

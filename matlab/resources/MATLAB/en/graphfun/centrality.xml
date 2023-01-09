@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!--- Errors -->
+
+    <entry key="KeyWithoutValue">No value given for {0}.</entry>
+    <entry key="InvCombCostUndir">Cost can only be specified for options ''closeness'' and ''betweenness''.</entry>
+    <entry key="InvCombImpUndir">Importance can only be specified for options ''degree'', ''eigenvector'' or ''pagerank''.</entry>
+    <entry key="InvCombTolUndir">Tolerance can only be specified for options ''eigenvector'' or ''pagerank''.</entry>
+    <entry key="InvCombMaxitUndir">MaxIterations can only be specified for options ''eigenvector'' or ''pagerank''.</entry>
+    <entry key="InvCombDamping">FollowProbability can only be specified for option ''pagerank''.</entry>
+    <entry key="InvCombCostDir">Cost can only be specified for options ''incloseness'', ''outcloseness'' and ''betweenness''.</entry>
+    <entry key="InvCombImpDir">Importance can only be specified for options ''indegree'', ''outdegree'', ''hubs'', ''authorities''  and ''pagerank''.</entry>
+    <entry key="InvCombTolDir">Tolerance can only be specified for options ''hubs'', ''authorities'' or ''pagerank''.</entry>
+    <entry key="InvCombMaxitDir">MaxIterations can only be specified for options ''hubs'', ''authorities'' or ''pagerank''.</entry>
+
+    
+    <!--- Warnings -->
+
+    <entry key="PageRankNoConv">Page rank iteration did not converge. Consider increasing ''MaxIterations'' or lowering ''Tolerance''.</entry>
+    <entry key="HITSNoConv">Hubs and authorities iteration did not converge. Consider increasing ''MaxIterations'' or lowering ''Tolerance''.</entry>
+    
+  </message>
+</rsccat>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidPath">路径参数未指定有效的可执行文件。</entry>
+    <entry key="UnsupportedVersion">Python version {0} is not supported. See https://www.mathworks.com/content/dam/mathworks/mathworks-dot-com/support/sysreq/files/python-support.pdf.</entry>
+    <entry key="UnsupportedVersion_Link">Python version {0} is not supported. See &lt;a href="https://www.mathworks.com/content/dam/mathworks/mathworks-dot-com/support/sysreq/files/python-support.pdf"&gt;this topic.&lt;/a&gt;</entry>
+    <entry key="InvalidType">输入必须为字符串标量或字符向量。</entry>
+    <entry key="InvalidVersion">找不到指定的版本。</entry>
+    <entry key="MicroVersion">版本号必须为 major.minor 格式。</entry>
+    <entry key="PythonLoaded">Python 已加载。无法在此 MATLAB 会话中更改版本。要更改版本，请重新启动 MATLAB，然后调用 ''pyversion''。</entry>
+    <entry key="InvalidArchitecture">无法使用 {0} Python。请改用 {1} Python。</entry>
+    <entry key="MissingInfoScript">未找到 pyinfo.py 脚本。</entry>
+  </message>
+</rsccat>

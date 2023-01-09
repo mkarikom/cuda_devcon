@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidArgument">LISTDLG の引数はパラメーターと値のペアでなければなりません。</entry>
+    <entry key="UnknownParameter">LISTDLG に渡されたパラメーター名が不明です。名前は {0} でした</entry>
+    <entry key="NeedParameter">ListString パラメーターが必要です。</entry>
+  </message>
+</rsccat>

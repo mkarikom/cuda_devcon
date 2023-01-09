@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ArrayNull">Input is NULL</entry>
+    <entry key="ArrayClass">Input is unsupported class</entry>
+    <entry key="ArrayShape">Input must be 2</entry>
+    <entry key="InvalidWidth">Values in 2nd row must be &gt;= values in 1st row</entry>
+  </message>
+</rsccat>

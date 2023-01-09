@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="sortDirection">MODE は ''ascend'' または ''descend'' でなければなりません。</entry>
+    <entry key="notPosInt">DIM は正の整数スカラーでなければなりません。</entry>
+    <entry key="ElementTooLarge">CATEGORICALSORT の最初の引数 X の要素は、0 と N の間でなければなりません。</entry>
+    <entry key="firstArgType">CATEGORICALSORT の最初の引数は、uint8、uint16 または uint32 型の非スパース実数配列でなければなりません。</entry>
+    <entry key="secondArgType">CATEGORICALSORT の 2 番目の引数は、0 と intmax(class(X)) の間の正の整数のスカラーでなければなりません。</entry>
+  </message>
+</rsccat>

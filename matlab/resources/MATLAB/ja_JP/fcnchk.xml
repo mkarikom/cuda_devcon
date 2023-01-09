@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AmbiguousX">式または関数入力があいまいです。\n 文字 ''x'' は、数式 ''x'' (つまり f(x)=x) ではなく、''x'' という関数名 (たとえば x.m) として解釈されます。無名関数を使用してください: 数式 ''x'' を表す場合は @(x)x とします。</entry>
+    <entry key="objectMissingFevalMethod">FUN が MATLAB のオブジェクトの場合、feval メソッドをもたなければなりません。</entry>
+    <entry key="invalidFunctionSpecifier">FUN は関数、有効な文字ベクトル式、インライン関数オブジェクトのいずれかでなければなりません。</entry>
+  </message>
+</rsccat>

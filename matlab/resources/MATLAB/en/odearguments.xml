@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NoDefaultParams">No default parameters in {0}. Use {1}({2},tspan,y0,...) instead.</entry>
+    <entry key="TspanNaNValues">Integration interval contains NaN.</entry>
+    <entry key="TspanEndpointsNotDistinct">The last entry in tspan must be different from the first entry.</entry>
+    <entry key="TspanNotMonotonic">The entries in tspan must strictly increase or decrease.</entry>
+    <entry key="FoMustReturnCol">{0} must return a column vector.</entry>
+    <entry key="RelTolNotPosScalar">RelTol must be a positive scalar.</entry>
+    <entry key="AbsTolNotPos">AbsTol must be positive.</entry>
+    <entry key="NonScalarAbsTol">Solving with NormControl ''on'' requires a scalar AbsTol.</entry>
+    <entry key="SizeAbsTol">Solving {0} requires a scalar AbsTol, or a vector AbsTol of length {1,number,integer}</entry>
+    <entry key="MaxStepLEzero">Option ''MaxStep'' must be greater than zero.</entry>
+    <entry key="InitialStepLEzero">Option ''InitialStep'' must be greater than zero.</entry>
+  <!--Resource entries for toolbox/matlab/funfun-->
+    <entry key="TspanOrY0NotSupplied">When the first argument to {0} is a function handle, the tspan and y0 arguments must be supplied.</entry>
+    <entry key="SizeTspan">When the first argument to {0} is a function handle, the tspan argument must have at least two elements.</entry>
+    <entry key="SizeIC">{0} returns a vector of length {1,number,integer}, but the length of initial conditions vector is {2,number,integer}. The vector returned by {3} and the initial conditions vector must have the same number of elements.</entry>
+    <entry key="RelTolIncrease">RelTol has been increased to {0}.</entry>
+    <entry key="InconsistentDataType">Mixture of single and double data for {0}, and {1} in call to {2}.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DISPLAY_BUILTIN_DATA_LABEL">{0} データ:</entry>
+    <entry key="DISPLAY_EMPTY_ENUMERATION_LABEL">{0} 空 {1} 列挙型。</entry>
+    <entry key="SCALAR_ENUMERATION_HEADER">{0} の列挙値</entry>
+    <entry key="ENUMERATION_ARRAY_HEADER">{0} の {1} の列挙値配列</entry>
+    <entry key="DISPLAY_ONE_COLUMN_ENUMERATION_HEADER">列 {0,number,integer}</entry>
+    <entry key="DISPLAY_TWO_COLUMN_ENUMERATION_HEADER">{0,number,integer} から {1,number,integer} の列</entry>
+    <entry key="GET_FUNCTION_NO_GETTABLE_PROPS_LABEL">クラス {0} は取得可能なプロパティがありません。</entry>
+    <entry key="METHODS_FUNCTION_INHERITED_METHODS">{1} から継承された {0} の&lt;a href="matlab: methods handle"&gt;メソッド&lt;/a&gt;です。</entry>
+    <entry key="METHODS_FUNCTION_INHERITED_METHODS_NO_LINKS">{2} から継承された {1} のメソッドに {0} を呼び出します。</entry>
+    <entry key="SET_FUNCTION_NO_SETTABLE_PROPS_LABEL">クラス {0} は設定可能なプロパティがありません。</entry>
+    <entry key="STATIC_METHODS_LABEL">静的メソッド:</entry>
+    <entry key="NoAbstractMembers">クラス {0} に対する抽象メソッドまたはプロパティがないか、クラス {1} がありません。</entry>
+    <entry key="AbstractMethodsLabel">クラス {0} に対する抽象メソッド</entry>
+    <entry key="AbstractPropertiesLabel">クラス {0} に対する抽象プロパティ</entry>
+    <entry key="AbstractDefinedIn">{0} で定義済み</entry>
+    <entry key="instances">\t{0} ({1,number,integer} インスタンス)\n</entry>
+    <entry key="oneInstance">\t{0} (1 インスタンス)\n</entry>
+    <entry key="noInstances">インスタンスがありません\n\n</entry>
+    <entry key="DataTypeNeeded">DataType が必要です。</entry>
+    <entry key="NonExistentClass">&lt;存在しないクラス&gt;</entry>
+    <entry key="first">1 番目</entry>
+    <entry key="parameterValuePairs">パラメーター/値の組み合わせ</entry>
+    <entry key="charStructOrCell">文字、構造体、またはセル</entry>
+    <entry key="propertyName">プロパティ名</entry>
+    <entry key="aString">文字ベクトル</entry>
+    <entry key="Second">2 番目</entry>
+    <entry key="stringOrCellArray">文字ベクトルまたはセル配列</entry>
+    <entry key="FindFunctionHandleExceptionMsg">'-function' 命令の後は、関数ハンドルかプロパティ名と関数ハンドルを指定しなければなりません。</entry>
+    <entry key="FindOperatorPrecedentExceptionMsg">''{0}'' 演算子の後に、論理演算を指定することはできません</entry>
+    <entry key="whichConstructor">{0} コンストラクター</entry>
+    <entry key="whichDynamic">{0} メソッド</entry>
+    <entry key="whichStatic">静的メソッドまたはパッケージ関数</entry>
+    <entry key="whichBuiltinMethod">{0} は組み込みメソッドです</entry>
+    <entry key="whichJavaMethod">{0} は Java メソッドです</entry>
+    <entry key="PassThrough">{0}</entry>
+  </message>
+</rsccat>

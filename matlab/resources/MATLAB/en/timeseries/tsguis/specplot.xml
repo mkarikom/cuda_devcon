@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="DefineFrequencyVector">Define Frequency Vector</entry>
+      <entry key="Detrend">Detrend...</entry>
+      <entry key="EndFrequency">End frequency</entry>
+      <entry key="Filter">Filter...</entry>
+      <entry key="Filtering">Filtering</entry>
+      <entry key="Help">Help</entry>
+      <entry key="HighLimit">High limit</entry>
+      <entry key="Interpolate">Interpolate...</entry>
+      <entry key="LowLimit">Low limit</entry>
+      <entry key="MultiplePeriodograms">Multiple Periodograms</entry>
+      <entry key="PanFrequencyAxis">Pan frequency axis</entry>
+      <entry key="Periodogram">Periodogram</entry>
+      <entry key="PeriodogramColon">Periodogram: {0}</entry>    
+      <entry key="PeriodogramOf">Periodogram of {0}</entry>
+      <entry key="PeriodogramOfMultipleTimeSeries">Periodogram of Multiple Time Series</entry>
+      <entry key="RemoveMissingData">Remove Missing Data...</entry>
+      <entry key="ResampleData">Resample Data...</entry>
+      <entry key="Reset">Reset</entry>
+      <entry key="SelectData">Select Data...</entry>
+      <entry key="StartFrequency">Start frequency</entry>
+      <entry key="TimeSeriesLengthExceedsTheDefaultDisplayLimitOf0nu">Time series length exceeds the default display limit of {0,number,integer}. Restricting the plot to the first {1,number,integer} points. \n Use the Panning Tool or the Property Editor to display a different interval.</entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry> 
+      <entry key="Units">Units</entry>
+      <entry key="UseALogScaleForPeriodogramYValues">Use a log scale for periodogram Y values</entry>
+      <entry key="Variance">Variance</entry>
+   </message>
+</rsccat>

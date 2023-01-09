@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidNumberOfInputs">输入参数和/或输出参数的数目不正确</entry>
+    <entry key="InvalidDataType">symamdmex 函数只接受双精度数组或逻辑数组。</entry>
+    <entry key="InvalidInput2">输入矩阵必须为 2 维。</entry>
+    <entry key="InvalidInput4">矩阵必须为方阵。</entry>
+    <entry key="InvalidInput3">symamd 错误!</entry>
+  </message>
+</rsccat>

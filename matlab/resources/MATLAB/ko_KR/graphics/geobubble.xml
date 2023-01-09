@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DataLengthMismatch">{0}은(는) {1}과(와) 같은 개수의 요소를 포함해야 합니다.</entry>
+    <entry key="InvalidSourceTable">''SourceTable'' 값은 table형이어야 합니다.</entry>
+    <entry key="MatrixWorkflow">''LatitudeData'' 속성을 설정한 후에는 ''{0}'' 속성을 설정할 수 없습니다.</entry>
+    <entry key="TableWorkflow">''SourceTable'' 속성을 설정한 후에는 ''{0}'' 속성을 설정할 수 없습니다.</entry>
+    <entry key="InvalidArguments">2개의 숫자형 벡터 또는 1개의 테이블 다음에는 2개의 테이블 첨자가 와야 합니다.</entry>
+    <entry key="DeletedParent">부모 컨테이너가 삭제된 그래픽스 객체입니다.</entry>
+    <entry key="InvalidParent">부모 컨테이너는 Figure, uipanel 또는 uitab이어야 합니다.</entry>
+    <entry key="SizeVariableNameValuePair">파라미터 이름-값 쌍을 사용하여 ''SizeVariable''을 지정하십시오.</entry>
+    <entry key="ColorVariableNameValuePair">파라미터 이름-값 쌍을 사용하여 ''ColorVariable''을 지정하십시오.</entry>
+    <entry key="InvalidTableArguments">입력 인수가 부족합니다. 테이블 인수 다음에는 2개의 테이블 첨자가 와야 합니다.</entry>
+    <entry key="MapLayoutLabel">맵 레이아웃</entry>
+    <entry key="ScalebarVisibleLabel">축척 막대의 가시성</entry>
+    <entry key="BasemapLabel">데이터를 플로팅할 맵</entry>
+  </message>
+</rsccat>

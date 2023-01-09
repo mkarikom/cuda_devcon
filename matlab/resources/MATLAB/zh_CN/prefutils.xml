@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidCellArray">PREF 元胞数组必须包含字符向量</entry>
+    <entry key="InvalidPREFinput">PREF 必须为字符向量、字符串数组或字符向量元胞数组</entry>
+    <entry key="InvalidValueType">VALUE 类型必须与 PREF 匹配</entry>
+    <entry key="InvalidGroupInput">GROUP 必须为字符向量或字符串标量。</entry>
+  </message>
+</rsccat>

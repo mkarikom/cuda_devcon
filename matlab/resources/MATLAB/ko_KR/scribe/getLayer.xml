@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="firstArgFigure">첫 번째 인수는 Figure 또는 uipanel이어야 합니다.</entry>
+    <entry key="secondArgLayer">두 번째 인수는 유효한 계층 이름이어야 함</entry>
+  </message>
+</rsccat>

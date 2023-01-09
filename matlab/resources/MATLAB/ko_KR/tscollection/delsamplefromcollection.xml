@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="needinteger">인덱스는 정수로 구성된 벡터로 지정해야 합니다.</entry>
+    <entry key="badindex">지정한 인덱스가 정수가 아니거나 경계를 벗어났거나 음수입니다.</entry>
+    <entry key="badvalue">시간은 숫자 값이어야 합니다.</entry>
+    <entry key="badtimeformat">유효하지 않은 시간 형식임</entry>
+    <entry key="badformat">지정한 시간 형식이 시계열의 시간 형식과 일치하지 않습니다.</entry>
+    <entry key="badsyntax">각 샘플을 삭제하려면 샘플 인덱스 또는 시간을 지정해야 합니다.</entry>
+    <entry key="badmethod">두 번째 인수는 삭제될 샘플을 식별하는 메서드를 지정하는 문자형 벡터 또는 string형이어야 합니다.</entry>
+  </message>
+</rsccat>

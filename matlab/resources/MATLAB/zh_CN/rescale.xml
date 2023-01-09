@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ParseFlags">参数名称必须为 ''InputMin'' 或 ''InputMax''。</entry>
+    <entry key="KeyWithoutValue">输入参数的数目不正确。参数名称和值必须成对出现。</entry>
+    <entry key="InvalidA">第一个参数必须为实数或逻辑数组。</entry>
+    <entry key="RequiredThirdInput">输入参数的数目不正确。</entry>
+    <entry key="InvalidOutputRange">区间范围参数必须为实数值。</entry>
+    <entry key="OutMinGreaterThanOutMax">下限参数必须小于或等于上限参数。</entry>
+    <entry key="InvalidInputMin">''InputMin'' 值必须为实数值。</entry>
+    <entry key="InvalidInputMax">''InputMax'' 值必须为实数值。</entry>
+    <entry key="MinGreaterThanMax">输入范围的下限必须小于或等于输入范围的上限。</entry>
+    <entry key="NumberDimsOut">区间范围参数的维度必须等于第一个参数的维度或者等于 1。</entry>
+    <entry key="NumberDimsInLower">''InputMin'' 值的维度必须等于第一个参数的维度或者等于 1。</entry>
+    <entry key="NumberDimsInUpper">''InputMax'' 值的维度必须等于第一个参数的维度或者等于 1。</entry>
+  </message>
+</rsccat>

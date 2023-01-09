@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInputs">유효하지 않은 입력 인수임</entry>
+    <entry key="InvalidFirstArgument">첫 번째 인수는 스칼라 axes 핸들이어야 함</entry>
+    <entry key="InvalidScalarArgument">단일 스칼라 인수는 2 또는 3이어야 함</entry>
+    <entry key="InvalidArgument">인수는 스칼라 또는 2 요소 벡터여야 함</entry>
+    <entry key="InvalidArgumentType">인수는 스칼라여야 함</entry>
+    <entry key="OneOutputNotSupported">1개의 출력 인수는 지원되지 않습니다. 현재 방위각과 고도각을 쿼리하려면 출력 인수를 2개 요청하십시오.</entry>
+  </message>
+</rsccat>

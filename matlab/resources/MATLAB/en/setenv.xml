@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="UnexpectedError">The OS call ''putenv'' unexpectedly failed.</entry>
+  <!--Resource entries for src/builtins-->
+    <entry key="IllegalNameTooLong">The ''name'' argument to SETENV must not be more than 32766 characters long.</entry>
+    <entry key="IllegalValueTooLong">The ''value'' argument to SETENV must not be more than 32766 characters long.</entry>
+    <entry key="IllegalNameInvalidCharacter">The ''name'' argument to SETENV must not contain the ''='' character.</entry>
+  </message>
+</rsccat>

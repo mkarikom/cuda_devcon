@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidWeights">Second input must be 'weighted' or a vector of edge weights.</entry>
+    <entry key="InvalidWeightVector">Edge weights must be a double or logical vector of length equal to the number of edges.</entry>
+    <entry key="WeightedMultigraph">Weighted adjacency is supported only for simple graphs. Use simplify to remove multiple edges and self-loops.</entry>
+  </message>
+</rsccat>
+

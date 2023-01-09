@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidCode">Invalid code in row {0,number,integer}. All codes must be integers between -128 and 127</entry>
+    <entry key="nonUniqueCodes">Specify unique quality codes and descriptions.</entry>
+  </message>
+</rsccat>

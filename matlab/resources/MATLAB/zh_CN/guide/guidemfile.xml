@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidTagValue">标签必须是 GUIDE 的合法变量名称，这样才能将回调函数原型追加到应用程序代码文件。{0}，用于带有以下标签的 {1}: 选择合法标签之前，不能追加 ''{2}''。</entry>
+    <entry key="MultipleSystemStringCopy">文件 {0} 中存在系统字符向量的多个副本: \n\n {1}\n\n您的程序可能无法正常运行。请删除多余的副本。</entry>
+    <entry key="FailToLocateGivenFunction">在 GUI 代码文件中找不到函数 {0}:\n{1}\n\n要更正该问题并使 {2} 起作用，请确保函数名称 {3} 正确指定并且 GUI 代码文件中存在该函数。您还可以请求 GUIDE 为您自动生成回调。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="RequestedRectangleExceedsFigureBounds">The specified rectangle is not fully contained within the figure. MATLAB no longer supports this capability.</entry>
+    <entry key="FigureWindowsMustBeEnabledForDecorations">MATLAB figure windows are disabled. GETFRAME can not capture any part of a figure's frame, menus, or toolbars unless figure windows are displayed.</entry>
+    <entry key="FigureWindowsMustBeEnabledForUIControls">MATLAB figure windows are disabled. GETFRAME can not capture figures with UI controls unless figure windows are displayed.</entry>
+    <entry key="ContentOutsideFigure">Specified rectangular area must be within the bounds of the figure’s Position property. This argument will be ignored.</entry>
+  </message>
+</rsccat>

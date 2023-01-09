@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- Copyright 2019-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="PrivateMemberFoldersValueInvalid" translate="false">PrivateMemberFolders attribute is invalid.</entry>
+    <entry key="PublicMemberFoldersValueInvalid" translate="false">PublicMemberFolders attribute value is invalid.</entry>
+    <entry key="SpecialSubfolderCannotBeMemberFolder" translate="false">Special folder {0} cannot be specified as a member folder.</entry>
+    <entry key="MemberFolderAttributeLeadingSlash" translate="false">No element of MemberFolders attribute must start with a slash("/") character.</entry>
+    <entry key="MemberFolderMissingElement" translate="false">No element of MemberFolders attribute must be a missing string.</entry>
+    <entry key="EmptyNameAttribute" translate="false">The value of Name attribute cannot be empty string.</entry>
+    <entry key="MissingProviderAttribute" translate="false">The value of Provider attribute cannot be missing string.</entry>
+    <entry key="MissingNameAttribute" translate="false">The value of Name attribute cannot be missing string.</entry>
+    <entry key="InvalidComponentRootFolder" translate="false">A special folder {0} cannot be specified as the root of a component.</entry>
+    <entry key="CannotDependUponSelf" translate="false">A component cannot depend upon itself.</entry>
+    <entry key="CannotWriteComponentDescription" translate="false"> Cannot write component description for {0}.</entry>
+    <entry key="CannotReadComponentDescription" translate="false"> Cannot read component description for {0}.</entry>
+    <entry key="InvalidComponentDefinition" translate="false">Invalid component definition found for component defined at {0}.</entry>
+    <entry key="SubfolderNotFound" translate="false"> {0} is not a subfolder of {1} folder.</entry>
+    <entry key="MemberFolderCannotBeBothPublicAndPrivate" translate="false"> Member folder {0} cannot be both public and private.</entry>
+    <entry key="DependencySpecifiedNonUniquely" translate="false">Component {0} is specified in more than one dependency specifier.</entry>
+    <entry key="CorruptComponentDefinition" translate="false">Component definition file {0} seems to be corrupt.</entry>
+  </message>
+</rsccat>

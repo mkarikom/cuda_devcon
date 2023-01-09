@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidFigFile">Invalid Figure file format.</entry>
+    <entry key="ForwardCompatibility">File {0} contains objects that have been saved in a future version ({1} or later) of MATLAB.  To load the file in this version it must be saved using a compatibility flag in hgsave.</entry>
+    <entry key="FileVersion">Figure file created with a newer version ({0} or later) of MATLAB.</entry>
+  </message>
+</rsccat>

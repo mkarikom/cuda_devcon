@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AliasingSameName"> Renaming a class to the same name ''{0}'' as one of its aliases is not supported.</entry>
+    <entry key="NewNameIsBuiltinClass"> Cannot define an alias ''{0}'' for ''{1}'' because ''{1}'' is a MATLAB builtin class.  Using a built-in class as the target of an alias definition is not supported.</entry>
+    <entry key="AliasIsBuiltinClass"> Creating an alias with the same name as a built-in class is not supported.</entry>
+    <entry key="CreateAliasFileFailed"> Unable to create alias file in folder ''{0}''.</entry>
+    <entry key="OldNamesChanged">クラス ''{0}'' のエイリアス定義で、指定したエイリアスのリストが以前の定義と異なります。''{0}'' の以前の名前がすべてエイリアスとして指定され、新しい名前から順に正しく並んでいることを確認してください。</entry>
+    <entry key="MissingNewClassInAliasFolder"> クラス ''{0}'' がフォルダーで定義されていないため、エイリアス定義をフォルダー ''{1}'' に書き込めません。</entry>
+    <entry key="NewNameDefinedMultipleTimes"> 新しい名前 ''{0}'' は、既存のエイリアス定義で既に新しい名前として使用されています。既存の定義は、より新しいエイリアス定義のエイリアスに置き換えられます。 </entry>
+    <entry key="MultipleAliasesFirstTimeRenaming"> クラス ''{0}'' のエイリアス定義で、複数の古い名前が指定されています。初めて新しいエイリアスを追加する場合、古い名前は 1 つだけである必要があります。指定されたすべての古い名前が ''{0}'' の以前の名前であり、新しい名前から順に並んでいることを確認してください。</entry>
+    <entry key="NameNotValid"> All names in alias definitions must be valid MATLAB identifiers. ''{0}'' is not a valid MATLAB identifier.</entry>
+    <entry key="NonScalarDisplayHeader"> {0} {1} 配列に新しい名前と古い名前が表示されています。</entry>
+    <entry key="MissingName">addAlias への呼び出しでは名前付き引数 ''{0}'' を指定しなければなりません。</entry>
+    <entry key="NoExistingAliasFile">フォルダー ''{0}'' のエイリアス定義ファイルが見つかりません。エイリアス定義ファイル 'alias.json' が 'resources' サブフォルダー内にあることを確認してください。 </entry>
+    <entry key="NoFilePermission">フォルダー ''{0}'' のエイリアス定義ファイルにアクセスできません。ファイルの読み取り権限を確認してください。 </entry>
+    <entry key="OldNamesReordered">クラス ''{0}'' のエイリアス定義で、エイリアスの順序が変更されています。''{0}'' の以前の名前がすべてエイリアスとして指定され、新しい名前から順に正しく並んでいることを確認してください。</entry>
+    <entry key="OldNamesDropped">クラス ''{1}'' の 1 つ以上の既存のエイリアス ({0}) が破棄されています。''{1}'' の以前の名前がすべてエイリアスとして指定され、新しい名前から順に正しく並んでいることを確認してください。</entry>
+    <entry key="OldNamesAdded">複数の追加のエイリアス ({0}) がクラス ''{1}'' に追加されました。すべての古い名前が ''{1}'' の以前の名前であることを確認してください。</entry>
+    <entry key="SameOldName">クラス ''{0}'' のエイリアス定義で、同じ古い名前が複数回指定されています。</entry>
+    <entry key="RecentNameFirst"> When renaming a class multiple times, the most recent old name must be the first in the list of old names.</entry>
+    <entry key="NewNameIsExistingAlias">The name ''{0}'' is already in use as an old name in the alias definition for class ''{1}''. A name cannot be used as both a new class name and an alias.</entry>
+  </message>
+</rsccat>

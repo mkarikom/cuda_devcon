@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFirstArgument">java オブジェクト ハンドルは、1 番目の引数として指定しなければなりません。</entry>
+    <entry key="InvalidSecondArgument">メソッドのシグネチャは、2 番目の引数として指定しなければなりません。</entry>
+    <entry key="IllegalInput">1 番目の引数は、Java オブジェクト、Java クラスの完全修飾名、または関数ハンドルでなければなりません</entry>
+    <entry key="AmbiguousMethod">あいまいなメソッド名 ''{0}''</entry>
+    <entry key="UnknownMethod">メソッド ''{0}'' が見つかりません。</entry>
+    <entry key="IllegalSignature">シグネチャ ''{0}'' が正しくありません。</entry>
+    <entry key="IllegalCharacterInSignature">シグネチャ ''{0}'' 内に予期せぬ文字があります。</entry>
+  </message>
+</rsccat>

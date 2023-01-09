@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ParseFlags">パラメーター名は ''InputMin'' または ''InputMax'' でなければなりません。</entry>
+    <entry key="KeyWithoutValue">入力引数の数が正しくありません。パラメーターの名前と値はペアでなければなりません。</entry>
+    <entry key="InvalidA">最初の引数は実数の数値配列または論理配列でなければなりません。</entry>
+    <entry key="RequiredThirdInput">入力引数の数が正しくありません。</entry>
+    <entry key="InvalidOutputRange">区間範囲の引数は実数で数値でなければなりません。</entry>
+    <entry key="OutMinGreaterThanOutMax">下限の引数は、上限の引数以下でなければなりません。</entry>
+    <entry key="InvalidInputMin">''InputMin'' の値は実数で数値でなければなりません。</entry>
+    <entry key="InvalidInputMax">''InputMax'' の値は実数で数値でなければなりません。</entry>
+    <entry key="MinGreaterThanMax">入力範囲の下限は、入力範囲の上限以下でなければなりません。</entry>
+    <entry key="NumberDimsOut">区間範囲の引数の次元は、最初の引数の次元と等しいか、1 でなければなりません。</entry>
+    <entry key="NumberDimsInLower">''InputMin'' の値の次元は、最初の引数の次元と等しいか、1 でなければなりません。</entry>
+    <entry key="NumberDimsInUpper">''InputMax'' の値の次元は、最初の引数の次元と等しいか、1 でなければなりません。</entry>
+  </message>
+</rsccat>

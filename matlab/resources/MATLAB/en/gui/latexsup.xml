@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="BadTeXString" note="stringDatatypeUpdate">{0} in TeX text character vector: \n''{1}''</entry>
+    <entry key="UnsupportedFont">Font {0} is not supported.</entry>
+  <!--Resource entries for src/gui-->
+    <entry key="UnableToInterpretTeXString" note="stringDatatypeUpdate">Unable to interpret TeX character vector \"{0}\"</entry>
+    <entry key="UnableToInterpretTeX" note="stringDatatypeUpdate">Unable to interpret TeX character vector</entry>
+    <entry key="UnableToInterpretLaTeXString" note="stringDatatypeUpdate">Unable to interpret LaTeX character vector \"{0}\"</entry>
+    <entry key="UnableToInterpretLaTeX" note="stringDatatypeUpdate">Unable to interpret LaTeX character vector</entry>
+  </message>
+</rsccat>

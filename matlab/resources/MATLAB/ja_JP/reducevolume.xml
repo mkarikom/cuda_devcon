@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidReduction">Reduction は [Rx Ry Rz] または R でなければなりません。</entry>
+    <entry key="ReductionMustBeInt">Reduction 値は 2 以上の整数でなければなりません</entry>
+    <entry key="ReductionTooHigh">Reduction が高すぎます。reduction を小さくしてみてください。</entry>
+    <entry key="WrongNumberInputs">入力引数の数が正しくありません。</entry>
+  </message>
+</rsccat>

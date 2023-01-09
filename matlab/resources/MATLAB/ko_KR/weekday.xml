@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidOption">''{0}''은(는) 유효한 옵션이 아닙니다. \n데이터형을 포함하려면 대신 WEEKDAY(DATENUM(DATE,FORMAT),...)을 사용하십시오.</entry>
+    <entry key="InvalidOptionType">인수 유형이 잘못되었습니다. 문자형 벡터 또는 string형 스칼라가 필요합니다.</entry>
+  </message>
+</rsccat>

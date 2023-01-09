@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooltipString_Standard_NewFigure">新建图窗</entry>
+    <entry key="TooltipString_Standard_FileOpen">打开文件</entry>
+    <entry key="TooltipString_Standard_SaveFigure">保存图窗</entry>
+    <entry key="TooltipString_Standard_PrintFigure">打印图窗</entry>
+    <entry key="TooltipString_Standard_EditPlot">编辑绘图</entry>
+    <entry key="TooltipString_Standard_ExportAxes">另存为</entry>
+    <entry key="TooltipString_Standard_CopyAxesImage">复制为图像</entry>
+    <entry key="TooltipString_Standard_CopyAxesVector">复制为向量图</entry>
+    <entry key="TooltipString_Standard_OpenInspector">打开属性检查器</entry>
+    <entry key="TooltipString_Exploration_ZoomIn">放大</entry>
+    <entry key="TooltipString_Exploration_ZoomOut">缩小</entry>
+    <entry key="TooltipString_Exploration_ZoomX">缩放 X 轴</entry>
+    <entry key="TooltipString_Exploration_ZoomY">缩放 Y 轴</entry>
+    <entry key="TooltipString_Exploration_Pan">平移</entry>
+    <entry key="TooltipString_Exploration_Rotate">三维旋转</entry>
+    <entry key="TooltipString_Exploration_DataCursor">数据提示</entry>
+    <entry key="TooltipString_Exploration_Brushing">刷亮数据</entry>
+    <entry key="TooltipString_Exploration_RestoreView">还原视图</entry>
+    <entry key="TooltipString_DataManager_Linking">链接/取消链接绘图</entry>
+    <entry key="TooltipString_Annotation_InsertColorbar">插入颜色栏</entry>
+    <entry key="TooltipString_Annotation_InsertLegend">插入图例</entry>
+    <entry key="TooltipString_Annotation_InsertRectangle">插入矩形</entry>
+    <entry key="TooltipString_Annotation_InsertEllipse">插入椭圆</entry>
+    <entry key="TooltipString_Annotation_InsertTextbox">插入文本框</entry>
+    <entry key="TooltipString_Annotation_InsertTextArrow">插入文本箭头</entry>
+    <entry key="TooltipString_Annotation_InsertDoubleArrow">插入双箭头</entry>
+    <entry key="TooltipString_Annotation_InsertArrow">插入箭头</entry>
+    <entry key="TooltipString_Annotation_InsertLine">插入线</entry>
+    <entry key="TooltipString_Annotation_Pin">固定到坐标区</entry>
+    <entry key="TooltipString_Annotation_AlignDistribute">对齐/分布</entry>
+    <entry key="TooltipString_Plottools_PlottoolsOff">隐藏绘图工具</entry>
+    <entry key="TooltipString_Plottools_PlottoolsOn">显示绘图工具和停靠图窗</entry>
+    <entry key="TooltipString_Toolbar_ShowMore">显示更多</entry>
+    <entry key="TooltipString_Toolbar_ShowLess">隐藏</entry>
+  </message>
+</rsccat>

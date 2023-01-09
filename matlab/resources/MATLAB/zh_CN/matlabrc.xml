@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ProductInformationMessage">  有关产品信息，请访问 www.mathworks.com。</entry>
+    <entry key="ToGetStartedMessage">  要开始，请键入 doc。</entry>
+    <entry key="ForOnlineDocumentation">  有关在线文档，请参阅 https://www.mathworks.com/support</entry>
+    <entry key="SuspectedPathProblem">  MATLAB 似乎未成功设置搜索路径。要为此会话的 MATLAB 进行恢复，请键入 "restoredefaultpath;matlabrc"。要查找如何在下次启动 MATLAB 时避免此警告，请在为此会话进行恢复后键入 "docsearch problem path"。</entry>
+    <entry key="InitHandleGraphics">  初始化 MATLAB 图形失败。\n这表明您的 MATLAB 设置中可能存在严重问题，应尽快解决。检测到的错误为:\n{0}\n{1}</entry>
+    <entry key="RecursionLimit">  在 matlabrc 中设置递归限制失败。\n这表明您的 MATLAB 设置中可能存在严重问题，应尽快解决。检测到的错误为:\n{0}\n{1}</entry>
+    <entry key="InitJava">  在 matlabrc 中初始化 Java 预设项失败。\n这表明您的 MATLAB 设置中可能存在严重问题，应尽快解决。检测到的错误为:\n{0}\n{1}</entry>
+    <entry key="InitPreferences">  在 matlabrc 中初始化预设项失败。\n这表明您的 MATLAB 设置中可能存在严重问题，应尽快解决。检测到的错误为:\n{0}\n{1}</entry>
+    <entry key="ProfilerFilters">  添加默认探查器筛选器失败。</entry>
+    <entry key="DisableWarnings">  在 matlabrc 中启用/禁用警告失败。\n这表明您的 MATLAB 设置中可能存在严重问题，应尽快解决。检测到的错误为:\n{0}\n{1}</entry>
+    <entry key="Startup">  在 matlabrc 中执行启动失败。\n这表明您的 MATLAB 设置中可能存在严重问题，应尽快解决。检测到的错误为:\n{0}\n{1}</entry>
+  </message>
+</rsccat>

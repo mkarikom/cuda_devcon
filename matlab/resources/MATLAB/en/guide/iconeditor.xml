@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- icon editor entries -->
+    <entry key="ActionCancel">Cancel</entry>
+    <entry key="ActionCancelTooltip" translate="false"></entry>
+    <entry key="ActionOK">OK</entry>
+    <entry key="ActionOKTooltip" translate="false"></entry>
+    <entry key="PanelTitleColorPalette">Color Palette</entry>
+    <entry key="ErrorIconFileNoExistMessage">The given icon file cannot be found\n{0}</entry>
+    <entry key="PickIconImageFile">Pick an icon image file</entry>
+    <entry key="FailureLoadingData">Could not load icon data from given file successfully. Make sure the file name is correct: \n{0}</entry>
+    <entry key="IconEditorPaneTitle">Icon Edit Pane ({0} X {1})</entry>
+    <entry key="ImportButtonLabel">Import ...</entry>
+    <entry key="ImportButtonTooltip">Import From Image File</entry>
+    <entry key="PreviewPanelTitle">Preview</entry>
+    <entry key="ImportIconFileLabel">Import icon file: </entry>
+    <entry key="ImportIconFilePrompt">Create a new icon below or type in an icon image file for editing</entry>
+    <entry key="InvalidIconFileTitle">Invalid Icon File</entry>
+    <entry key="AllImageFilesDescription">All Image Files</entry>   
+    <entry key="MATFilesDescription">MATLAB MAT Files (*.mat)</entry>   
+    <entry key="BMPFilesDescription">BMP Files (*.bmp)</entry>   
+    <entry key="JPEGFilesDescription">JPEG Files (*.jpg)</entry>   
+    <entry key="TIFFFilesDescription">TIFF Files (*.tif)</entry>   
+    <entry key="GIFFilesDescription">GIF Files (*.gif)</entry>   
+    <entry key="PNGFilesDescription">PNG files (*.png)</entry>       
+  </message>
+</rsccat>

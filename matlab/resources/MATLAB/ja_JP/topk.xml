@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="complexIntegers">複素数の整数はサポートされません。 </entry>
+    <entry key="MustNotBeCell">セル配列はサポートされていません。</entry>
+    <entry key="InvalidK">返す要素数は非負の整数でなければなりません。</entry>
+    <entry key="notPosInt">次元引数は正の整数でなければなりません。</entry>
+    <entry key="InvalidAbsRealType">''ComparisonMethod'' パラメーターは、入力配列が数値または論理値である場合にのみサポートされます。</entry>
+    <entry key="InvalidComparison">''ComparisonMethod'' の値は、''auto''、''abs'' または ''real'' でなければなりません。</entry>
+    <entry key="NameValueNames">パラメーター名は 'ComparisonMethod' でなければなりません。</entry>
+    <entry key="NameValuePairs">入力引数の数が正しくありません。パラメーターの名前と値はペアでなければなりません。</entry>
+  </message>
+</rsccat>

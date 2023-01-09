@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="noLengthChange">You cannot change the length of the time vector by using dot assignment after the time series has been created.</entry>
+    <entry key="badsyntax">Invalid syntax for subsasgn</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidIntegrand">第一个输入参数必须为函数句柄。</entry>
+    <entry key="invalidXMin">XMIN 必须为浮点标量。</entry>
+    <entry key="invalidXMax">XMAX 必须为浮点标量。</entry>
+    <entry key="invalidYMin">YMIN 必须为浮点标量或函数句柄。</entry>
+    <entry key="invalidYMax">YMAX 必须为浮点标量或函数句柄。</entry>
+    <entry key="invalidZMin">ZMIN 必须为浮点标量或函数句柄。</entry>
+    <entry key="invalidZMax">ZMAX 必须为浮点标量或函数句柄。</entry>
+    <entry key="invalidAbsTol">AbsTol 无效</entry>
+    <entry key="invalidRelTol">RelTol 无效</entry>
+    <entry key="invalidMethod">方法必须为 ''auto''、''tiled'' 或 ''iterated''。</entry>
+    <entry key="unsuccessful">积分未成功。</entry>
+  </message>
+</rsccat>

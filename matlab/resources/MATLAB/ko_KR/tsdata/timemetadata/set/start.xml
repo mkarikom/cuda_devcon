@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="deprecation">향후 릴리스에서는 timemetadata 객체의 Start 속성이 읽기 전용으로 바뀔 예정입니다. timeseries에 등간격 시간 벡터를 값으로 대입하려면 setuniformtime 메서드를 사용하십시오.</entry>
+  </message>
+</rsccat>

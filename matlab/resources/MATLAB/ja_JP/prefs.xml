@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadInput">PREFDIR の入力は、数値か論理スカラーでなければなりません。</entry>
+    <entry key="MkdirFailed">PREFDIR がフォルダー ({0}) を作成できませんでした。</entry>
+    <entry key="InsufficientMemory">内部メモリが十分でないため、ユーザーの作業フォルダーを保存できません。</entry>
+  </message>
+</rsccat>

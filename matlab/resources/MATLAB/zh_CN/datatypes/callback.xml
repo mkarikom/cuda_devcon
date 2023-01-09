@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CreateCallback">回调值必须为字符向量、函数句柄，或者为包含字符向量或函数句柄的元胞数组</entry>
+    <entry key="ResizeFcn">\n当图形变为可见时，如果图窗的 SizeChangedFcn 中的任何变量未定义，则您可能会看到此错误。请考虑等所有 SizeChangedFcn 变量都已定义后，再将图窗的 Visible 属性设置为 'on'。</entry>
+    <entry key="SyntaxErrorIn">{0} {1} 中存在语法错误。</entry>
+    <entry key="ErrorWhileEvaluating">计算 {0} {1} 时出错。</entry>
+    <entry key="InterruptWhileEvaluating">计算 {0} {1} 时中断。</entry>
+  </message>
+</rsccat>

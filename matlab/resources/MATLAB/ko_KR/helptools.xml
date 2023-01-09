@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Tool_docCenterAdoc_Label">Bdoc를 docroot로 설정</entry>
+    <entry key="Tool_docCenterAdoc_Description">문서에 대한 가장 최신 설정입니다.</entry>
+    <entry key="Tool_doccrawlerdebug_Label">문서 검색 크롤러 디버그</entry>
+    <entry key="Tool_doccrawlerdebug_Description">문서 검색 인덱스에서 발생한 문제를 조사하는 툴입니다.</entry>
+    <entry key="Tool_htmlpaneldebugger_Label">HTML 패널 디버그 툴</entry>
+    <entry key="Tool_htmlpaneldebugger_Description">MATLAB 데스크탑에서 HTML 패널 인스턴스를 디버그하기 위한 툴입니다.</entry>
+    <entry key="Tool_linkchecker_Label">문서 링크 검사기</entry>
+    <entry key="Tool_linkchecker_Description">문서 링크 확인용 GUI입니다.</entry>
+    <entry key="Tool_linkcheckerdoc_Label">링크 검사기 문서</entry>
+    <entry key="Tool_linkcheckerdoc_Description">문서 링크 검사기 관련 도움말을 봅니다.</entry>
+    <entry key="Tool_examplemanager_Label">예제 매니저</entry>
+    <entry key="Tool_examplemanager_Description">내부에서 생성된 예제를 탐색합니다.</entry>
+  </message>
+</rsccat>

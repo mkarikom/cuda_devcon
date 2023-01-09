@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="integerClass">データ型が無効です。最初の入力引数は single または double でなければなりません。</entry>
+    <entry key="unknownFlag">オプションが無効です。オプションは ''omitnan'' または ''includenan'' でなければなりません。</entry>
+    <entry key="unknownOption">オプションが無効です。オプションは ''all''、''omitnan'' または ''includenan'' でなければなりません。</entry>
+    <entry key="wrongInput">データ型が無効です。最初の引数は数値でなければなりません。</entry>
+  </message>
+</rsccat>

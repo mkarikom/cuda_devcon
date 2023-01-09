@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FrequencyOutputObsolete">WARNING 的频度输出已过时，在以后版本的 MATLAB 中，请求该输出将会生成错误。</entry>
+    <entry key="illegalDebugSetting">调试设置 ''{0}'' 非法。</entry>
+    <entry key="debugOptionIsObsolete">warning 函数的调试选项已过时。不是使用 ''{0}''，请使用 ''{1}''。</entry>
+    <entry key="noLastWarning">上一次发出的警告具有空的警告标识符，或尚未发出任何警告。</entry>
+    <entry key="unknownSettingOrId">未知的设置或错误的消息标识符 ''{0}''。</entry>
+    <entry key="cannotUseAllWithError">''all'' 消息标识符不能与 ''error'' 警告设置一起使用。</entry>
+    <entry key="OnceAndAlwaysObsolete">WARNING 不接受 ''once'' 和 ''always''。</entry>
+    <entry key="missingStructureField">WARNING 的输入必须包含名称为 ''state'' 和 ''identifier'' 的字段。</entry>
+    <entry key="nonStringState">输入的第 {0,number,integer} 个元素的 ''state'' 字段不是字符向量或字符串标量。</entry>
+    <entry key="badStateValue">输入的元素 {0,number,integer} 的 ''state'' 字段不是 ''on''、''off'' 或 ''error'' 之一。</entry>
+    <entry key="nonStringIdentifier">输入的第 {0,number,integer} 个元素的 ''identifier'' 字段不是字符向量或字符串标量。</entry>
+    <entry key="badIdentifierValue">输入的元素 {0,number,integer} 的 ''identifier'' 字段不是有效消息标识符。</entry>
+    <entry key="inputsOutOfOrder">WARNING 输入的次序混乱。WARNING 的输入项首先应是 ''on''、''off'' 或 ''query'' 选项。</entry>
+    <entry key="Invalid">{0} 无效。</entry>
+    <entry key="allWarningsHaveTheState">所有警告都具有状态 ''{0}''。\n</entry>
+    <entry key="debuggerStopAtWarning">调试器将在出现警告时停止。\n</entry>
+    <entry key="debuggerNoStopAtWarning">调试器将不会在出现警告时停止。\n</entry>
+    <entry key="warningBacktracesEnabled">已启用警告回溯。\n</entry>
+    <entry key="warningBacktracesDisabled">已禁用警告回溯。\n</entry>
+    <entry key="warningOutputVerbose">警告输出为详细输出。\n</entry>
+    <entry key="warningOutputTerse">警告输出为简洁输出。\n</entry>
+    <entry key="defaultWarningStateLine">默认警告状态为 ''{0}''。未设置为默认值的警告为\n\n</entry>
+    <entry key="illegalVerboseSetting">{0} 设置 ''{1}'' 非法。</entry>
+    <entry key="illegalBacktraceSetting">{0} 设置 ''{1}'' 非法。</entry>
+    <entry key="noLastWarningMsg">上一次发出的警告具有空警告标识符，\n或者未发出警告。</entry>
+    <entry key="stateOfWarningIs">警告 ''{0}'' 的状态为 ''{1}''。\n</entry>
+    <entry key="stateWarningHeader">  状态警告标识符\n\n</entry>
+    <entry key="InstructionWarningOff">\n(键入 "{0}" 以隐藏此警告。)\n</entry>
+  </message>
+</rsccat>

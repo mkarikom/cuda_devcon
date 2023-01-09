@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnsupportedFont">{0} 글꼴은 지원되지 않습니다.</entry>
+    <entry key="InterpreterFailed">string형 스칼라 또는 문자형 벡터에는 유효한 인터프리터 구문이 있어야 함: {0}</entry>
+    <entry key="FontFailure">글꼴 사용 실패</entry>
+    <entry key="UnconvertableCoordinate">위치 좌표를 변환할 수 없음</entry>
+    <entry key="SymbolFontUnsupported">기호 글꼴은 더 이상 지원되지 않습니다. 특수 문자를 표시하려면 Text Interpreter 속성을 TeX 또는 LaTeX으로 설정한 상태에서 TeX 또는 LaTeX 마크업을 사용하십시오.</entry>
+    <entry key="LargeFontSizeWarning">그리려는 텍스트의 글꼴 크기가 시스템에서 표시할 수 있는 것보다 큽니다.</entry>
+    <entry key="LargeStringLengthException">텍스트 길이가 너무 길어서 표시할 수 없습니다.</entry>
+  </message>
+</rsccat>

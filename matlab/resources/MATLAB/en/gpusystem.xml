@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="noPCT">The Parallel Computing Toolbox is not available. Please make sure that it is installed and that a license is available.</entry>
+    <entry key="noGPU">Could not successfully communicate with the GPU.</entry>
+    <entry key="incorrectBaseSetup">The class must call detectGPUInputs in the setupImpl method to use this method.</entry>
+    <entry key="inputSpecsChanged">Changing the size or type of input {0,number,integer} is not allowed without first calling the release method.</entry>
+    <entry key="inputComplexityChanged">Changing the complexity (from real to complex) of input {0,number,integer} is not allowed without first calling the release method.</entry>
+  </message>
+</rsccat>

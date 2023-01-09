@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonNumericInput">输入参数必须为数值。</entry>
+    <entry key="CAndZSizeMismatch">矩阵 C 与 Z 必须具有相同的大小。</entry>
+    <entry key="lengthXAndYDoNotMatchSizeZ">X 和 Y 的长度必须与 Z 的大小匹配。</entry>
+    <entry key="lengthXDoesNotMatchNumColumnsZ">X 的长度必须与 Z 的列数匹配。</entry>
+    <entry key="lengthYDoesNotMatchNumRowsZ">Y 的长度必须与 Z 的行数匹配。</entry>
+    <entry key="XAndYShapeMismatch">X 和 Y 必须都为向量或矩阵。</entry>
+    <entry key="XYAndZSizeMismatch">矩阵 X 和 Y 的大小必须与 Z 的大小相同。</entry>
+    <entry key="XYAndZShapeMismatch">当 Z 为向量时，X 和 Y 也必须为向量。</entry>
+    <entry key="XYAndZLengthMismatch">X 和 Y 的长度必须与 Z 的长度相同，或者 X 和 Y 的长度必须与 Z 的大小匹配。</entry>
+    <entry key="XIAndYISizeMismatch">XI 和 YI 的大小必须相同或者是方向不同的向量。</entry>
+  </message>
+</rsccat>

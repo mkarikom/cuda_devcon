@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadHandle">無効な引数 -- 有効なオブジェクト ハンドルを使用してください</entry>
+    <entry key="InvalidInput">double のリセットには、スカラーの double の入力が必要です</entry>
+    <entry key="InvalidMethod">オブジェクトではパブリック メソッドがリセットされていません。</entry>
+    <entry key="InvalidHandle">値はハンドルでなければなりません。</entry>
+    <entry key="DestroyedHandle">入力値に対応するオブジェクトが破壊されています。</entry>
+  </message>
+</rsccat>

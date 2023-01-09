@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidColor">유효하지 않은 색입니다. 색을 색 이름, RGB 3색 또는 각 행이 RGB 3색인 행렬로 지정하십시오.</entry>
+    <entry key="isEqual">GraphColor:isEqual에서 알 수 없는 예외가 발생함</entry>
+  </message>
+</rsccat>

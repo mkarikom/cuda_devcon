@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="NonRealOrSparseImageData">Image must be real and cannot be sparse.</entry>
+      <entry key="InvalidImageData">Image must be an intensity, RGB, or indexed image.</entry>
+      <entry key="InvalidImageClassUint8Uint16Double">Intensity or RGB image must be uint8, uint16, or double.</entry>
+      <entry key="InvalidMapType">MAP must be real, double, and cannot be sparse.</entry>
+      <entry key="InvalidMapSize">MAP must be M-by-3 colormap.</entry>
+      <entry key="InvalidMapLength">MAP has too many colors for 8-bit integer storage.</entry>
+      <entry key="InvalidImageDimensions">X must have 2 dimensions.</entry>
+      <entry key="IndexOutOfRange">Invalid indexed image: an index falls outside colormap.</entry>
+      <entry key="IndexLessThan1">Invalid indexed image: an index was less than 1.</entry>
+      <entry key="InvalidImageClassUint8Double">X must be uint8 or double.</entry>
+      <entry key="TooManyInputs">Internal problem: too many input arguments.</entry>
+   </message>
+</rsccat>

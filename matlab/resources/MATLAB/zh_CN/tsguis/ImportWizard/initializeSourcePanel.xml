@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TextFileCsvTxtDat">文本文件(.csv,.txt,.dat)</entry>
+    <entry key="MultipleExcelWorkbooksXls">Excel 工作簿(*.xls)</entry>
+    <entry key="MultipleTextFilesTxtDatTabCsv">文本文件(*.txt, *.dat, *.tab, *.csv)</entry>
+    <entry key="MATLABSavedFileMat">MATLAB 保存文件(*.mat)</entry>
+    <entry key="WhatsThis">这是什么</entry>
+    <entry key="DataSource">数据源</entry>
+    <entry key="ImportFrom">从以下源导入:</entry>
+    <entry key="MATLABWorkspace">MATLAB 工作区</entry>
+    <entry key="SelectSourceWhereDataIsStored">选择存储数据的源。</entry>
+    <entry key="SelectFile">选择文件</entry>
+    <entry key="Browse">浏览...</entry>
+    <entry key="ImportFile">导入文件</entry>
+    <entry key="MATfile">MAT-file (.mat)</entry>
+  </message>
+</rsccat>

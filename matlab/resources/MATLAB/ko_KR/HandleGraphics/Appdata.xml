@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidSecondArgumentName">두 번째 인수는 문자형 벡터여야 함</entry>
+    <entry key="LongName">지정된 문자형 벡터 이름의 길이가 최대 제한 {0,number,integer}을(를) 초과함</entry>
+    <entry key="InvalidNameAppdata">지정된 문자형 벡터 이름이 appdata에 존재하지 않음</entry>
+    <entry key="InvalidPropertyName">유효하지 않은 사용자 속성임: {0}.</entry>
+  </message>
+</rsccat>

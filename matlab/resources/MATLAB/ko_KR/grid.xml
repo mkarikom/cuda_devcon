@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FirstArgAxes">첫 번째 인수는 axes 핸들이어야 합니다.</entry>
+    <entry key="ScalarHandle">axes 핸들은 스칼라여야 합니다.</entry>
+    <entry key="UnknownOption">알 수 없는 명령 옵션입니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidSecondInput">第二个输入参数必须为句柄。</entry>
+    <entry key="InvalidFirstInput">第一个输入必须是可识别的筛选器函数。</entry>
+  </message>
+</rsccat>

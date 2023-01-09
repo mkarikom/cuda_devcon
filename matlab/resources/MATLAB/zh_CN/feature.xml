@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="duplicateFeature">功能 ''{0}'' 已注册。</entry>
+    <entry key="failedToAddFeature">无法添加功能: {0}。</entry>
+    <entry key="FeatureCallCount">功能名称必须为字符向量</entry>
+    <entry key="unknownFeature">未找到功能 {0}</entry>
+    <entry key="InterestDispatchInDrawnow">InterestDispatchInDrawnow 的值无效。有效值为 [0,1]。</entry>
+    <entry key="InstrumentDroppedMessages">InstrumentDroppedMessages 的值无效。有效值为 [1,2]。</entry>
+    <entry key="featureTestError">应启用中断 - 较早的测试将 utSetInterruptEnabled 状态表示为 false</entry>
+    <entry key="wrongInput">输入应为字符向量或双精度标量</entry>
+    <entry key="EnableJavaAsGObject">EnableJavaAsGObject 的值无效。有效值为 [0:4]。</entry>
+  </message>
+</rsccat>

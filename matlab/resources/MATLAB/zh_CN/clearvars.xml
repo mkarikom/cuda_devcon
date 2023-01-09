@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="tooManyExceptFlags">''-except'' 标志只能指定一次，已为输入 {0,number,integer} 和 {1,number,integer} 指定该标志。</entry>
+    <entry key="unknownFlag">标志 ''{0}'' 无法识别。键入 "help {1}" 可查看支持的标志。</entry>
+    <entry key="FlagIgnored">将忽略指定标志 ''-{1}'' 的输入数字 {0, number, integer}。键入 ''help {2}'' 可查看有效语法。</entry>
+  </message>
+</rsccat>

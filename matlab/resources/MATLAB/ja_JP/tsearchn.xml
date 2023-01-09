@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidDimensions">X と XI は、同じ列数でなければなりません。</entry>
+    <entry key="InvalidTessellation">三角形分割 T は X より 1 列多くなければなりません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+ <rsccat version="1.0" locale="en_US" product="MATLAB">
+   <message>
+     <!-- SECTION ONE -->
+     <!-- Exceptions in settingsPathUtils: multiple users, keep as user visible exception for now -->
+     <entry key="RelativePathIsNotSupported">MATLAB_PREFDIR must be an absolute path. Cannot set preferences directory to the relative path {0}.</entry>   
+     <entry key="ErrorMigratePrefsBetweenReleases">Failed to migrate preferences from release {0} to release {1}.</entry>
+     <entry key="ErrorCreatePreferenceDirectoryTimeStamp">Failed to create preferences folder timestamp file {0}. \nDetails: {1}.</entry>
+     <entry key="PreferenceDirectoryNotExist">The preference folder, {0}, should exist, but it does not. \nDetails: {1}.</entry>
+     <entry key="SettingsUserDirectoryNotExist">Settings user directory is not set up. MATLAB can not update user settings.</entry>
+     <entry key="ErrorOpenFileInPrefDir">Could not open file {0}. Reason: {1}. </entry> <!--Converting from settings.mcf file-->
+     <entry key="ErrorCloseFileInPrefDir">Could not close file {0}. Reason: {1}. </entry> <!--Converting from settings.mcf file-->
+     <entry key="ErrorCopyFileInPrefDir">Failed copying {0} to {1}. Reason: {2} . </entry> <!--Converting from settings.mcf file-->
+     <entry key="ErrorOverwriteFileInPrefDir">Could not write to file {0}. The file exists, and overwrite permission has been denied. </entry> <!--Converting from settings.mcf file-->
+     <entry key="ErrorDetermineFileSizeInPrefDir">Could not determine size of file {0}. Reason: {1}. </entry>  <!-- was MLUTIL_SETTINGS_CANT_DETERMINE_FILE_SIZE-->
+     <entry key="ErrorOpenDirectoryInPrefDir">Could not open directory {0}. Reason: {1}. </entry>  <!-- was MLUTIL_SETTINGS_OPENDIR_ERROR-->    
+     <!-- end of exceptions in the settingsPathUtil --> 
+   
+   
+     <!-- SECTION TWO -->  
+     <!-- NONE TRANSLATED SECTION -->
+     <!-- will stay in this file, but has to be translate is false -->
+     <entry key="UnconvertibleType" translate="false">Cannot convert the value for key, {0}, to data type {1}. \nDetails: {2}.</entry>
+     <entry key="CanNotCreateTempDirectory" translate="false">Internal Error: Error create a temp directory under directory {0}. </entry>
+     <entry key="NoWritePermissionOnDirectory" translate="false">Internal Error: No write permission on directory {0}. Details: {1}. </entry>
+     <entry key="CFunctionNotFound"  translate="false">Cannot find function, {0}, in library {1}.</entry>
+	 <entry key="ExecEngineNotReadyForProcessingMFunction"  translate="false">Internal Error: MATLAB functions cannot be invoked because the execution engine is not initialized.</entry>
+	 <entry key="MATLABFuncMustBeInvokedByExecEngine"  translate="false">Internal Error: MATLAB functions can be invoked in the main execution thread only.</entry>
+     <entry key="JVMNotReadyForProcessingJavaFunction"  translate="false">Internal Error: Java function cannot be invoked because JVM is not initialized.</entry>
+     <entry key="SettingsLibraryNotInitialized"  translate="false">Internal Error: Java settings library could not be initialized.\n{0}</entry>
+     <!-- Never translate the following message, they are thrown by XMLNode hierarchy and will be caught by getParsedSettings function and converted to ErrorReadingSettingsData exception-->
+     <entry key="XMLMetaDataParserError" translate="false">Error parsing metadata for key {0}. Min value {1}, is larger than max value {2}.</entry>
+     <entry key="XMLParserErrorIllegalTagName" translate="false">While parsing the Settings node, {0}, found invalid tag, {1}, under tag {2}.</entry>
+     <entry key="XMLParserErrorUnexpectedTextContent" translate="false">While parsing the Settings node, {0}, found unexpected text content in tag {1}.</entry>
+     <entry key="XMLParserErrorNumOfValueNotInRange" translate="false">The expected data type for key, {0}, is an array of {1}. The number of values specified in the XML file is {2}, which it is not in the range defined as [{3}, {4}].</entry>  
+     <entry key="TypeNotSpecifiedForNoneAnyType" translate="false">The setting, {0},  is not an 'anytype' setting,  so data type tag must be specified. </entry>
+     <entry key="XMLParseErrorWrongValueForGivenType" translate="false">Invalid value  for tag {0}. The value is {1}, which cannot be converted to type {2}.</entry>
+     <!-- end of NONE TRANSLATED SECTION -->
+
+     <entry key="FileLoadingError">Errors occurred while loading the Settings files. \nDetails: {0}. </entry>
+ 
+     <!-- CHECK whether needed or not -->
+   <!-- Double check all the messages have been used in the current code base-->
+     
+     <entry key="DataTypeNotMatch">Attempt to set a value with an invalid type {1}. The expected data type for this setting is {0}.</entry> <!-- It would be nice to provide key name here. TODO-->
+
+     <entry key="ValueIsNotInRange">Unable to validate settings data. Input value {0} passed in for key {1} is not in the range [{2} {3}].</entry> 
+
+      <entry key="ValueIsNotOneOfTheChoices">Unable to validate settings data. Input value {0} passed in for key {1} is not one of the predefined choices [{2}] .</entry> 
+
+      <entry key="DefaultValidationFailedOnVoidType">Unable to validate settings data. The value passed in for key {0} is void.</entry> 
+
+     <entry key="DataArraySizeOutOfRange">Unable to validate settings data. Could not set a value for {0} with an array of size {1}. The value of the setting must be an array of size in the range of [{2} {3}].</entry>
+     
+    </message>
+ </rsccat>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">入力引数が不足しています。ODEXTEND を参照してください。</entry>
+    <entry key="SOLNotODEsolverStruct">入力引数 {0} は、ODE ソルバーで作成された構造体でなければなりません。</entry>
+    <entry key="InvalidSolverNameInSOL">予期せぬソルバー名 ''{0}'' ({1}.solver) です。</entry>
+    <entry key="SolutionCannotBeExtended">[{1}, {2}] に利用可能な解 {0} を {3} に拡張することはできません</entry>
+    <entry key="SolutionAlreadyAvailable">解は [{0}, {1}] で既に利用されています。DEVAL を使用してください。</entry>
+    <entry key="InconsistentSolType">{0} の single と double の出力を結合しています。</entry>
+  </message>
+</rsccat>

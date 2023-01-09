@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInputs">间距输入数目必须与数组维数匹配。</entry>
+    <entry key="InvalidGridSpacing">每个网格间距参数必须为标量或向量，其条目数与对应维度中输入的大小相同。</entry>
+  </message>
+</rsccat>

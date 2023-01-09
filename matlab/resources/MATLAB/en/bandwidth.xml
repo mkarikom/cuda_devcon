@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="inputMustBe2D">Input must be 2-D.</entry>
+    <entry key="inputType">Invalid data type. Arguments must be double or single matrices.</entry>
+    <entry key="unknownArgument">Option must be ''lower'' or ''upper''.</entry>
+    <entry key="twoInOneOut">Only one output when called with option ''lower'' or ''upper''.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Property">属性值错误。</entry>
+    <entry key="SceneNode">SceneNode 状态错误。</entry>
+    <entry key="NotASceneNode">对象为无效图形对象。</entry>
+    <entry key="InvalidState">更新遍历时遇到无效的场景树。</entry>
+    <entry key="SelfDeletedNode">节点或其画布在节点更新期间被删除。</entry>
+    <entry key="PatchColorIndices">补片颜色或 alpha 中的索引无效。</entry>
+    <entry key="NodeDeletedAfterGetHints">getHints 期间删除了节点。</entry>
+    <entry key="NodeDeletedAfterGetExtents">获取数据范围时删除了节点。</entry>
+    <entry key="DataObjectDeletedInPrepTraversal">在 "Prep" 遍历期间删除了一个 DataObject。</entry>
+    <entry key="EditSessionClosedWhenNotOpen">在没有任何编辑会话打开时尝试关闭编辑会话。</entry>
+    <entry key="InvalidCookie">在注册或注销时找不到 Cookie。</entry>
+    <entry key="UserNodeDeleted">{0} 在更新时销毁。</entry>
+    <entry key="NotImplemented">此功能尚未实现。</entry>
+    <entry key="IncompatibleCameraProperties">Camera 属性没有构成有效的转换矩阵。</entry>
+    <entry key="TransformFailed">DataSpace 或 ColorSpace 转换方法失败。</entry>
+    <entry key="InvalidDependency">依存关系名称无效。</entry>
+    <entry key="EventAlreadyRegistered">尝试两次注册同一事件类型。</entry>
+    <entry key="EventNotFound">找不到事件类型的反串行化方法。</entry>
+    <entry key="InvalidCameraParameters">无法使用提供的属性值创建有效的相机。</entry>
+    <entry key="BadLimits">范围太大。</entry>
+    <entry key="ChooseTickFailed">由于未知原因，刻度值选择失败。</entry>
+    <entry key="UpdateFailed">由于未知原因，更新失败。</entry>
+    <entry key="ExceedingNumberOfLightSources">超出光源数目上限(8)。</entry>
+    <entry key="IncompleteTree">尝试获取不完整树中节点的 UpdateState。</entry>
+    <entry key="InvalidBinding">数据绑定无效。</entry>
+    <entry key="InvalidColorType">颜色类型无效。</entry>
+    <entry key="InvalidToolbarProperty">设置类 'Axes' 的属性 ''Toolbar'' 时出错:\n值必须为 ''matlab.ui.controls.AxesToolbar''。</entry>
+    <entry key="InvalidPrimitiveColorBinding">无法将原始颜色绑定用于条带几何形状。</entry>
+    <entry key="InvalidToken">尝试签入未签出的标记。</entry>
+    <entry key="TokenNotReady">尝试从尚未完成的进程的标记中检索事件数据。</entry>
+    <entry key="OutOfOrderRendering">渲染阶段次序混乱。</entry>
+    <entry key="UserBreak">运算被用户终止。</entry>
+    <entry key="LightingNotSupported">不支持光照。</entry>
+    <entry key="WideLinesNotSupported">不支持大于 {0} 的 LineWidth。</entry>
+    <entry key="ThreeDNotSupported">不支持 3D 场景。</entry>
+    <entry key="TextureNotSupported">不支持图像或纹理。</entry>
+    <entry key="TextBackGroundNotSupported">不支持文本背景。</entry>
+    <entry key="TextEdgeNotSupported">不支持文本边。</entry>
+    <entry key="LaTexNotSupported">不支持 LaTeX 解释器。</entry>
+    <entry key="HandleGraphicsException">{0}</entry>
+  </message>
+</rsccat>

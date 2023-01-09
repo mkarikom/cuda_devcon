@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidTagValue">アプリケーションのコード ファイルにコールバック関数のプロトタイプを追加するには、タグは GUIDE の有効な変数名でなければなりません。タグ ''{2}'' をもつ {1} に対する {0} は、有効なタグが選択されるまで追加できません。</entry>
+    <entry key="MultipleSystemStringCopy">ファイル {0} には、システム文字ベクトルの複数のコピーがあります。 \n\n {1}\n\nプログラムが正しく実行されない可能性があります。余分なコピーを削除してください。</entry>
+    <entry key="FailToLocateGivenFunction">GUI コード ファイル内に関数 {0} が見つかりません。\n{1}\n\nこの問題を修正して {2} を動作させるため、関数名 {3} が正しく指定されており、その関数が GUI コード ファイル内にあることを確認してください。GUIDE でコールバックを自動生成することもできます。</entry>
+  </message>
+</rsccat>

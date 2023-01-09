@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CannotBeParent">uitabgroup 不能作为 {0} 的父级。\n 因此，{1} 的父级已重新设置为 gcf</entry>
+    <entry key="InvalidIndex">选定的索引必须介于 1 与标签数之间</entry>
+    <entry key="InvalidTab">SelectedTab 必须是此父级的子级</entry>
+    <entry key="CannotSetVisible">无法设置 uitab 的 Visible 属性。\n在未来的版本中，这将变为错误</entry>
+    <entry key="CannotSetBackgroundColor">无法设置 uitab 的 BackgroundColor 属性。\n在未来的版本中，这将变为错误</entry>
+  </message>
+</rsccat>

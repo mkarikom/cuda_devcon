@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputTypesMismatch">duration は duration の入力とペアにしなければなりません。</entry>
+    <entry key="TimeZonesMismatch">タイム ゾーンのある datetime とゾーンなしの datetime を組み合わせることはできません。</entry>
+    <entry key="UnitOfTimeTypesMismatch">区間タイプを指定する場合、duration のみを使用できます。時間単位を指定する場合は datetime を使用してください。</entry>
+    <entry key="TabularInput">{0} は有効な入力引数ではありません。2 つの datetime または 2 つの duration を指定して TIMERANGE を呼び出し、出力を timetable の添字として使用してください。</entry>
+    <entry key="NonScalarInput">引数はスカラーでなければなりません。</entry>
+    <entry key="AmbiguousUnitOfTime">時間単位の 'm' の値があいまいです。''{0}'' または ''{1}'' のいずれですか?</entry>
+    <entry key="InvalidIntervalType">3 番目の引数を、区間タイプ ('openright'、'openleft'、'open'、'closed') または時間単位 ('years'、'quarters'、'months'、'weeks'、'days'、'hours'、'minutes'、'seconds') のいずれかとして指定してください。</entry>
+    <entry key="InvalidSubscripter">TIMERANGE を使用した添字は、timetable の行の選択でのみサポートされています。</entry>
+    <entry key="InvalidTimes">TIMERANGE の終点は datetime スカラーまたは duration スカラー、あるいは datetime スカラーまたは duration スカラーを示すテキストでなければなりません。</entry>
+    <entry key="MismatchRowTimesType">{0} の行時間をもつ timetable では、{1} の値を使用した添字はできません。</entry>
+    <entry key="IncompatibleLoad">このバージョンの MATLAB と互換性がないため、保存された timerange オブジェクトを読み込むことができません</entry>
+    <entry key="UIStringDispHeader">timetable の &lt;a href="matlab:doc(''timerange'')"&gt;timerange&lt;/a&gt; 添字:</entry>
+    <entry key="UIStringDispOpen">開区間の時間をもつ timetable の行を選択:\n\t\t({0}, {1})</entry>
+    <entry key="UIStringDispClosed">閉区間の時間をもつ timetable の行を選択:\n\t\t[{0}, {1}]</entry>
+    <entry key="UIStringDispLeftOpen">半開区間の時間をもつ timetable の行を選択:\n\t\t({0}, {1}]</entry>
+    <entry key="UIStringDispRightOpen">半開区間の時間をもつ timetable の行を選択:\n\t\t[{0}, {1})</entry>
+    <entry key="UIStringDispUnitOfTime">時間を含む timetable の行を選択してください: {0}\n\t\t 開始時点 (その時点を含む): {1}\n\t\t 終了時点 (その時点を含まない): {2}</entry>
+    <entry key="UIStringDispNaTNaNEndpoint">端点が {0} であるため、行を選択しないでください。</entry>
+    <entry key="UIStringDispNullRange">左の端点が右の端点と同じ位置またはそれより後にあるため、行を選択しないでください。</entry>
+    <entry key="UIStringDispFooter">「&lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','subscript-into-times-of-timetable.html'))"&gt;Select Timetable Data by Row Time and Variable Type&lt;/a&gt;」を参照してください。</entry>
+    <entry key="TextInputsNotSupported">コード生成では、TIMERANGE の端点をテキストとして指定することがサポートされていません。代わりに duration の端点を指定してください。</entry>
+    <entry key="NonConstTypeOrUnit">区間タイプと時間単位の入力は定数でなければなりません。</entry>
+    <entry key="UnitOfTimeNotSupported">コード生成では、TIMERANGE に時間単位を指定することはサポートされていません。</entry>
+  </message>
+</rsccat>

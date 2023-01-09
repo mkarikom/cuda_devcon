@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">入力はファイル名か URL でなければなりません</entry>
+    <entry key="DoctypeDisabled">{0} に XML DOCTYPE 宣言が含まれています。'AllowDoctype' を true に設定して、DOCTYPE 宣言を含む XML ドキュメントの読み取りを有効にしてください。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ExternalPointerValueLost">Pointer value assignment replaced external pointer.</entry>
+    <entry key="NullPointerAccess">An attempt was made to access data through an undefined pointer.</entry>
+    <entry key="TypeDoesNotExist">The data type specified does not exist.</entry>
+    <entry key="InvalidPointerUse">Invalid use of pointer.</entry>
+    <entry key="PointerMustNotBeEmpty">An empty pointer cannot be offset.</entry>
+    <entry key="OutOfBounds">Can not offset a pointer to be greater than the size of the data pointed to</entry>
+    <entry key="ValueNotDefined">The datatype and size of the value must be defined before the value can be retrieved.</entry>
+    <entry key="InvalidType">Type was not found.</entry>
+    <entry key="PointerIsRequired">Only libpointer objects can be passed to this PtrPtr type.</entry>
+    <entry key="PointerTypeMustMatch">Pointer type must match data type</entry>
+    <entry key="PointerValueTooSmall">Pointer value must have same size or larger size than the new value.</entry>
+    <entry key="PointerTypesMustMatch">Pointer types must match data type.</entry>
+    <entry key="IllegalConversion">Array must be numeric or logical or a pointer to one</entry>
+    <entry key="noComplex">Complex data is not supported in libpointer objects</entry>
+    <entry key="MustBeString" note="stringDatatypeUpdate">Parameter can not be converted to a character vector</entry>
+
+  </message>
+</rsccat>

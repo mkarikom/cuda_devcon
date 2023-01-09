@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonconsecutiveCategories">カテゴリが順序配列の場合、非連続カテゴリはマージできません。</entry>
+    <entry key="UndefinedLabel">NEW は ''{0}'' にはできません。</entry>
+    <entry key="InvalidNewCategory">NEW は、空白でない新しいカテゴリ名を含む string または文字ベクトルでなければなりません。</entry>
+  </message>
+</rsccat>

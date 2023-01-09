@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidHandle">H must be an array of handles to valid figures.</entry>
+    <entry key="InvalidFilename" note="stringDatatypeUpdate">The filename argument must be a non-empty string scalar or a character vector.</entry>
+    <entry key="FunctionToBeRemoved">saveFigure will be removed in a future release. Use savefig instead.</entry>
+  </message>
+</rsccat>

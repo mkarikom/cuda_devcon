@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!--  FIXME FIXME FIXME -->
+    <entry key="InvalidState">Invalid state for a threefry4x64-20 generator.</entry>
+    <entry key="SubstreamsIndexOutOfRange">threefry4x64-20 streams have only 2^51 substreams.</entry>
+    <entry key="InvalidParameter">The threefry4x64-20 generator does not accept a parameter.</entry>
+    <entry key="TooManyStreams">You cannot create more than 2^61 threefry4x64-20 streams.</entry>
+  <!--Resource entries for src/mathrng/-->
+  </message>
+</rsccat>

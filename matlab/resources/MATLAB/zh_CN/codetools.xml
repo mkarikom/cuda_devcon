@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotATree">输入不是 mtree 类型。</entry>
+    <entry key="SyntaxError">语法错误:\n{0}\n</entry>
+    <entry key="fileReadError">无法读取文件 {0}</entry>
+    <entry key="getmcode">文件包含二进制数据: {0}</entry>
+    <entry key="FilenameMustBeSpecified">必须指定文件名。</entry>
+    <entry key="FilenameMustBeAString">文件名必须为字符向量。</entry>
+    <entry key="FilenameMustNotContainAsterisk">文件名不能包含 *。</entry>
+    <entry key="NoFileOpen">首先打开 Excel 文件。</entry>
+    <entry key="WorksheetNotFound">未找到指定的工作表</entry>
+    <entry key="NoSheet">未知的工作表名称。</entry>
+    <entry key="UnreadableOrEmptyCSVFile">CSV 文件不可读或为空。</entry>
+    <entry key="UnreadableOrEmptyTextFile">文本文件不可读或为空。</entry>
+    <entry key="UnreadableExcelFile">Excel 文件不可读。</entry>
+    <entry key="EmptyExcelFile">Excel 文件为空。</entry>
+    <entry key="ImportingData">正在导入数据...</entry>
+    <entry key="TextImportFastPathError">快速路径错误。</entry>
+    <entry key="TextImportWaitBarCancel">进度条已取消。</entry>
+    <entry key="TextFileInvalid">文件无效。</entry>
+    <entry key="TextFileImportCancelling">正在取消。</entry>
+    <entry key="TextFileScanningFile">正在扫描文件。</entry>
+    <entry key="TextFileScannedFile">文件已扫描。</entry>
+    <entry key="TextFileParsedBlockData">解析了所选的数据块。</entry>
+    <entry key="TextFileParsingData">正在解析数据 {0}。</entry>
+    <entry key="TextFileParsedData">数据已解析。</entry>
+    <entry key="InvalidVariableName">''{0}'' 不是有效的变量名称。</entry>
+    <entry key="ModifiedVarnames">变量名称经过修改，以便可作为有效的 MATLAB 标识符。</entry>
+    <entry key="unknownid">工作区 ID 无法识别</entry>
+    <entry key="invalid">工作区参数应是具有 assignin 和 evalin 方法的标量对象句柄。</entry>
+    <entry key="errImport_GenericImportError">导入操作失败。最可能的原因是所选内容中存在\n无法导入的元胞。请尝试在工具条中添加规则，将无法导入的元胞\n转换为数值。</entry>
+    <entry key="errImport_SpecificImportError">导入操作失败。 {0}</entry>
+    <entry key="Searching">正在搜索...</entry>
+  </message>
+</rsccat>

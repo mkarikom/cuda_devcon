@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ProFailed">qk를 M-직교하도록 다시 직교화하는 데 실패했습니다.</entry>
+    <entry key="FactorizationFailed">시프트 {3}에서 큰 인수 대각 비율 {2}({1} 중 {0}번째 시도)</entry>
+    <entry key="QRFailedKp1">qk+1을 M-직교하도록 다시 직교화하는 데 실패했습니다(코드: {0}).</entry>
+    <entry key="ProQRFailedKp1">부분 직교화 후에 qk+1을 M-직교하도록 다시 직교화하는 데 실패했습니다.</entry>
+    <entry key="SoQRFailedKp1">선택적 직교화 후에 qk+1을 M-직교하도록 다시 직교화하는 데 실패했습니다.</entry>
+    <entry key="NeedKM">K와 M을 둘 다 제공해야 합니다.</entry>
+    <entry key="KMSparseDouble">K와 M은 희소 형식의 double형이어야 합니다.</entry>
+    <entry key="NotSquare">K와 M은 크기가 같은 정사각 행렬이어야 합니다.</entry>
+    <entry key="NoOpts">세 번째 인수는 옵션으로 구성된 구조체형 배열이어야 합니다.</entry>
+    <entry key="OutsideShift">시프트가 모든 구간을 벗어납니다.</entry>
+    <entry key="NotAllFound">일부 고유값을 찾을 수 없습니다. FrequencyRange를 줄이거나 MaxShift를 늘리십시오.</entry>
+    <entry key="BadFactor">행렬 분해에 실패했습니다. 문제의 조건이 나쁘기 때문일 수 있습니다.</entry>
+    <entry key="MassIndefinite">부정부호 질량 행렬인 것 같습니다.</entry>
+    <entry key="Overfull">구간에서 너무 많은 고유값이 검색되었습니다.</entry>
+    <entry key="BadLeft">고유값이 군집되는 현상을 방지하려면 FrequencyRange의 왼쪽 끝점을 조정하십시오.</entry>
+    <entry key="BadRight">고유값이 군집되는 현상을 방지하려면 FrequencyRange의 오른쪽 끝점을 조정하십시오.</entry>
+    <entry key="BeginningBanner">란초스(Lanczos) 반복 {0}: 범위({4}, {5})에서 {1}개의 고유값을 구하는 중(왼쪽에서 {2}개, 오른쪽에서 {3}개)</entry>
+    <entry key="BeginningLanczosParameters">란초스(Lanczos) 반복 파라미터:\n 시프트: {0}, 관성: {1}, 인수 대각 비율: {2}\n 블록 크기: {3}\n 최소 스텝: {4}\n 최대 스텝: {5}\n 선택적 직교화 고유쌍의 개수: {6}</entry>
+    <entry key="BeginningSOTitle">-- SO 고유값 ----- 시프트 ------ 잔차 경계 ----</entry>
+    <entry key="ProgressBanner">단계 {0}: {1}개의 고유값이 수렴되었습니다(왼쪽에서 {2}개, 오른쪽에서 {3}개).</entry>
+    <entry key="ProgressEvalTitle">----- T 고유값 ----- 고유값 ------- 잔차 -----</entry>
+    <entry key="CostBanner">다음 {0}개의 스텝에 걸쳐 Ritz 값별로 투영된 비용:</entry>
+    <entry key="SummaryBanner">란초스(Lanczos) 반복 완료됨(종료 코드: {0}):\n 발견된 고유값 수: {1}\n 센티널: ({2}, {3})\n 스텝 수: {4}\n 부분 직교화: {5}</entry>
+    <entry key="BlockSizeReduced">이 반복에서 고유값을 찾을 수 없습니다. 블록 크기를 {0}(으)로 줄입니다.</entry>
+    <entry key="TerminateCost">비용으로 인해 반복을 종료하는 중입니다.</entry>
+    <entry key="DisplayEmptyIntervalInfo">구간 {0}: 비어 있음({2}개의 고유값 중 {1}개 발견됨)\n 끝점: [{3}, {4}]\n 센티널: [{5}, {6}]\n 스투름 수: [{7}, {8}]</entry>
+    <entry key="DisplayPartialIntervalInfo">구간 {0}: 일부({2}개의 고유값 중 {1}개 발견됨)\n 끝점: [{3}, {4}]\n 센티널: [{5}, {6}]\n 스투름 수: [{7}, {8}]</entry>
+    <entry key="DisplayFullIntervalInfo">구간 {0}: 전체({2}개의 고유값 중 {1}개 발견됨)\n 끝점: [{3}, {4}]\n 센티널: [{5}, {6}]\n 스투름 수: [{7}, {8}]</entry>
+    <entry key="DisplayOverfullIntervalInfo">간격 {0}: 초과({2}개의 고유값 중 {1}개 발견됨)\n 끝점: [{3}, {4}]\n 센티널: [{5}, {6}]\n 스투름 수: [{7}, {8}]</entry>
+    <entry key="AllFound">모든 고유값이 발견되었습니다.</entry>
+  </message>
+</rsccat>

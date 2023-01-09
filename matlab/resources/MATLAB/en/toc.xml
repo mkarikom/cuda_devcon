@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="badTictocGlobal">Global TICTOC must be a vector returned by CLOCK.</entry>
+    <entry key="wrongTocArgument">Argument to TOC must be a uint64 scalar.</entry>
+  <!--Resource entries for src/builtins-->
+    <entry key="callTicFirst">You must call TIC before calling TOC.</entry>
+    <entry key="callTicFirstNoInputs">You must call TIC without an output argument before calling TOC without an input argument.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2016-2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidType">Invalid data type. Input must be a string or a character vector specifying a valid class name.</entry>
+    <entry key="InvalidSubscripter">Subscripting using VARTYPE is only supported for selecting variables.</entry>
+    <entry key="TabularInput">Table or timetable is not a valid input argument. Call VARTYPE with a class name, and use output as a subscript for a table or timetable.</entry>
+    <entry key="IncompatibleLoad" note="Do NOT add period ('.') at the end - it is intentionally left out.">Unable to load the saved vartype object because it is incompatible with this version of MATLAB</entry>
+
+<!-- ui strings -->
+    <entry key="UIStringDispHeader" note="Do NOT translate 'table' and 'vartype': they are class names. 'subscript' here means an array index.">table &lt;a href="matlab:doc(''vartype'')"&gt;vartype&lt;/a&gt; subscript:</entry>
+    <entry key="UIStringDispType">Select table variables matching the type ''{0}''</entry>
+    <entry key="UIStringDispFooter" note="Do NOT translate 'table': it is a class name">See &lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','access-data-in-a-table.html'))"&gt;Access Data in a Table.&lt;/a&gt;</entry>
+  </message>
+</rsccat>

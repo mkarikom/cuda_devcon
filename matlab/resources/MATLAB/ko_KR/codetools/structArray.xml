@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="VarEditorIndexOverflow">구조체형 배열에 빈 필드가 없을 수 있기 때문에 데이터는 기존 필드의 바로 오른쪽에 추가되어야 합니다.\n새 필드는 사용 가능한 다음 열에 추가됩니다.</entry>
+    <entry key="InvalidVariableName">''{0}''은(는) 유효한 변수 이름이 아닙니다.</entry>
+    <entry key="DuplicateVarnames">중복된 변수 이름입니다.</entry>
+    <entry key="InvalidSort">필드의 모든 값은 동일한 유형이어야 합니다.</entry>
+    <entry key="VariableExists">변수의 이름을 바꿀 수 없습니다.\n\n 이름이 "{0}"인 변수가 이미 있습니다.
+    </entry>
+    <entry key="InvalidRenameFieldOnEdit">필드 이름을 바꿀 수 없습니다.\n\n "{0}"은(는) 유효한 MATLAB 필드 이름이 아닙니다.\n MATLAB 필드 이름 요구 사항:\n
+</entry>
+    <entry key="InvalidRenameVarOnEdit">변수 이름을 바꿀 수 없습니다.\n\n "{0}"은(는) 유효한 MATLAB 변수 이름이 아닙니다.\n MATLAB 변수 이름 요구 사항:\n
+</entry>
+    <entry key="InvalidRenameMsgOnEdit">        
+    -영문자로 시작해야 함\n -영숫자와 밑줄만 포함해야 함\n -MATLAB 예약어일 수 없음\n -길이가 63자를 초과해서는 안 됨
+</entry>
+    <entry key="EditFailedTitle">편집 실패</entry>
+    <entry key="TooManyElements">&lt;요소가 너무 많음&gt;</entry>
+  </message>
+</rsccat>

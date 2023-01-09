@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Header">{0} 乱数ストリーム</entry>
+    <entry key="HeaderGlobal">{0} 乱数ストリーム (現在のグローバル ストリーム)</entry>
+    <entry key="LegacyAlgs">RAND アルゴリズム:{0}, RANDN アルゴリズム:  {1}</entry>
+    <entry key="V4UniformDescription">V4 (合同法)</entry>
+    <entry key="V5UniformDescription">V5 (桁下げ付き減算)</entry>
+    <entry key="V7p4UniformDescription">V7.4 (Mersenne Twister)</entry>
+    <entry key="V4NormalDescription">V4 (Polar)</entry>
+    <entry key="V5NormalDescription">V5 (Ziggurat)</entry>
+  </message>
+</rsccat>

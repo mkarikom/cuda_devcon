@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ErrordlgErrorExecuting">执行基本拟合时出错: {0}</entry>
+    <entry key="ErrordlgError">错误</entry>
+    <entry key="MsgSaveFitToWorkspace">将拟合保存到工作区</entry>
+    <entry key="MsgSaveSaveFitAsStruct">将拟合以 MATLAB 结构体形式名称保存:</entry>
+    <entry key="MsgSaveNormOfResiduals">将残差范数以 MATLAB 变量形式名称保存:</entry>
+    <entry key="MsgSaveResiduals">将残差以 MATLAB 变量形式名称保存:</entry>
+    <entry key="WarndlgCannotPlotWithRepeatedXValue">残差的条形图不允许包含重复的 X 值。\n请使用散点图或线图，或者删除重复的 X 值。</entry>
+    <entry key="TitleBasicFitting">基本拟合</entry>
+    <entry key="DisplayNameCubic">三次方</entry>
+    <entry key="DisplayNameLinear">线性</entry>
+    <entry key="DisplayNameQuadratic">二次方</entry>
+    <entry key="DisplayNameNthDegree">{0} 次</entry>
+    <entry key="DisplayNameShapePreserving">保形</entry>
+    <entry key="DisplayNameSpline">样条</entry>
+    <entry key="ErrorUnableToDisplayHelpForBasicFitting">无法显示有关基本拟合的帮助:\n{0}</entry>
+    <entry key="ErrorUnableToDisplayHelpForDataStatistics">无法显示有关数据统计信息的帮助\n{0}</entry>
+    <entry key="TitleDataStatistics">数据统计信息</entry>
+    <entry key="LegendStringMax">最大值</entry>
+    <entry key="LegendStringMean">均值</entry>
+    <entry key="LegendStringMedian">中位数</entry>
+    <entry key="LegendStringMin">最小值</entry>
+    <entry key="LegendStringMode">模式</entry>
+    <entry key="LegendStringStd">标准差</entry>
+    <entry key="DisplayNameData">数据 {0}</entry>
+    <entry key="ErrorEvaluateInBaseWorkspaceFailed">尝试在 MATLAB 基础工作区中计算表达式失败，出现以下错误:\n\n{0}</entry>
+    <entry key="WarningImaginaryPartIgnored">表达式的虚部已被忽略。</entry>
+    <entry key="ErrorEvaluatingCausedFitToBeDeleted">计算该表达式导致拟合被删除。</entry>
+    <entry key="ErrorMustEvaluateToReal">表达式的计算结果必须为实数标量、向量或矩阵。</entry>
+    <entry key="ResidualDisplayNthDegreeNorm">{0,number,integer} 次: 残差范数 = {1}</entry>
+    <entry key="ResidualDisplayCubicNorm">三次: 残差范数 = {0}</entry>
+    <entry key="ResidualDisplayLinearNorm">一次: 残差范数 = {0}</entry>
+    <entry key="ResidualDisplayQuadraticNorm">二次: 残差范数 = {0}</entry>
+    <entry key="ResidualDisplayShapepreservingNorm">保形: 残差范数 = 0</entry>
+    <entry key="ResidualDisplaySplineNorm">样条: 残差范数 = 0</entry>
+    <entry key="MsgNormOfResidualsEqual0">{0}{1}\n\n残差范数 = 0</entry>
+    <entry key="MsgNormOfResiduals">{0}\n残差范数 = \n</entry>
+    <entry key="MsgCoefficients">{0}\n\n系数:\n</entry>
+    <entry key="MsgCenteredAndScaledVariable">\n\n使用经过中心化\n和缩放的变量\n\nz = (x-mu)/sigma\nmu = {0}\nsigma = {1}</entry>
+    <entry key="MsgZIsCenteredAndScaled">\n\n其中 z 经过中心化\n和缩放:\n\nz = (x-mu)/sigma\nmu = {0}\nsigma = {1}</entry>
+    <entry key="DisplayShapePreservingInterpolant">保形插值</entry>
+    <entry key="DisplaySplineInterpolant">样条插值</entry>
+    <entry key="ErrorTwoPointsRequiredWCubic">与三次方插值样条拟合时，需要至少两个数据点。请添加更多数据点以与样条拟合。</entry>
+    <entry key="ErrorTwoPointsRequiredWShapePres">与保形插值拟合时，需要至少两个数据点。请添加更多数据点。</entry>
+    <entry key="WarningPolynomialBadlyConditionedCenterScale">多项式未正确设置条件。请添加具有不同 X 值的点，选择次数较低的多项式或者选择“中心化并缩放 X 数据”。</entry>
+    <entry key="ErrorRepeatedXValuesNotPermittedWCubicInt">与三次方插值样条拟合时，不允许有重复的 X 值。请删除重复的值。</entry>
+    <entry key="ErrorRepeatedXValuesNotPermittedWShapePres">与保形插值拟合时，不允许有重复的 X 值。请删除重复的值。</entry>
+    <entry key="WarningPointsWithNaNCoordsIgnored">具有 NaN 坐标的数据点将被忽略。</entry>
+    <entry key="WarningPolynomialIsBadlyConditionedUseLowerDegree">多项式未正确设置条件。请添加具有不同 X 值的点，或者选择次数较低的多项式。</entry>
+    <entry key="CommentShowEquationsWasSelected">已选定“显示方程”</entry>
+    <entry key="CommentShowNormOfResidualsWasSelected">已选定“显示残差范数”</entry>
+    <entry key="CommentCalculateAndSaveResidualsEvaluateUsingOriginalXdata">计算并保存残差 - 使用原始 xdata 进行计算</entry>
+    <entry key="CommentComputeBoundsAsMeanStd">使用均值 +/- 标准差来计算范围</entry>
+    <entry key="CommentCreateASeparateFigureForResiduals">为残差创建一个单独图窗</entry>
+    <entry key="CommentEvaluateInput">计算输入</entry>
+    <entry key="CommentEvaluatePiecewisePolynomial">计算分段多项式</entry>
+    <entry key="CommentEvaluatePolynomial">计算多项式</entry>
+    <entry key="CommentFindCoefficientsForPolynomialUsingNormData">使用归一化数据求多项式的系数(阶 = {0,number,integer})</entry>
+    <entry key="CommentFindCoefficientsForPolynomial">求多项式的系数(阶 = {0,number,integer})</entry>
+    <entry key="CommentFindCoefficientsForShapePresInterpolantUsingNorm">使用归一化数据求保形插值的系数</entry>
+    <entry key="CommentFindCoefficientsForShapepreservingInterpolant">求保形插值的系数</entry>
+    <entry key="CommentFindCoefficientsForSplineInterpolantUsingNormalizedData">使用归一化数据求样条插值的系数</entry>
+    <entry key="CommentFindCoefficientsForSplineInterpolant">求样条插值的系数</entry>
+    <entry key="CommentFindTheString">求 {0}</entry>
+    <entry key="CommentFindXValuesForPlottingTheFitBasedOnXlim">求用于基于 xlim 绘制拟合图的 x 值</entry>
+    <entry key="CommentGetAxesXlim">获取坐标区的 xlim</entry>
+    <entry key="CommentGetAxesYlim">获取坐标区的 ylim</entry>
+    <entry key="CommentGetCoordinatesForLine">获取 {0} 线的坐标</entry>
+    <entry key="CommentGetCoordinatesForTheStdBoundsLine">获取标准差范围线的坐标</entry>
+    <entry key="CommentGetTheAxesChildren">获取坐标区的子级</entry>
+    <entry key="CommentGetTheIndexToTheAssociatedLine">获取结合线的索引</entry>
+    <entry key="CommentGetXdataFromPlotForDataStatistics">获取数据统计信息图中的 xdata</entry>
+    <entry key="CommentGetXdataFromPlot">获取图中的 xdata</entry>
+    <entry key="CommentGetYdataFromPlotForDataStatistics">获取数据统计信息图中的 ydata</entry>
+    <entry key="CommentGetYdataFromPlot">获取图中的 ydata</entry>
+    <entry key="CommentMakeSureDataAreColumnVectors">确保数据为列向量</entry>
+    <entry key="CommentMakeSureInputArgumentIsAColumn">确保输入参数为列</entry>
+    <entry key="CommentMakeSureValueIsAColumn">确保值为列</entry>
+    <entry key="CommentNormalizeValue">对值进行归一化处理</entry>
+    <entry key="CommentNormalizeXdata">对 xdata 进行归一化处理</entry>
+    <entry key="CommentPlotResidualsInABarPlot">在条形图中绘制残差图</entry>
+    <entry key="CommentPlotResidualsInALinePlot">在线图中绘制残差图</entry>
+    <entry key="CommentPlotResidualsInAScatterPlot">在散点图中绘制残差图</entry>
+    <entry key="CommentPlotTheString">绘制 {0}</entry>
+    <entry key="CommentPlotTheBounds">绘制范围</entry>
+    <entry key="CommentPlotTheEvaluatedResults">绘制计算结果图</entry>
+    <entry key="CommentPlotTheFit">绘制拟合图</entry>
+    <entry key="CommentPreallocateForShowEquationsCoefficients">为“显示方程”系数预分配</entry>
+    <entry key="CommentPrepareForPlottingResiduals">准备绘制残差图</entry>
+    <entry key="CommentPrepareValuesToPlotStdFirstFindTheMean">准备用于绘制标准差图的值；首先求均值</entry>
+    <entry key="CommentRemoveNaNValuesAndWarn">删除 NaN 值并发出警告</entry>
+    <entry key="CommentRemoveTheNewLine">删除新线条</entry>
+    <entry key="CommentReorderLinesSoTheNewLineAppearsWithAssociatedData">对各条线重新排序，以便显示具有关联数据的新线条</entry>
+    <entry key="CommentRepositionResidualFigure">重新定位残差图窗</entry>
+    <entry key="CommentResetLineOrderForLegend">重置图例的线条顺序</entry>
+    <entry key="CommentResetUnits">重置单位</entry>
+    <entry key="CommentSaveCoefficientsForShowEquation">保存“显示方程”的系数</entry>
+    <entry key="CommentSaveCurrentAxisUnitsThenSetToNormalized">保存当前轴单位；然后设置为归一化单位</entry>
+    <entry key="CommentSaveTypeOfFitForShowEquations">保存“显示方程”的拟合类型</entry>
+    <entry key="CommentSaveTypeOfFitForShowNormOfResidualsAndShowEquations">保存“显示残差范数”和“显示方程”的拟合类型</entry>
+    <entry key="CommentSaveTypeOfFitForShowNormOfResiduals">保存“显示残差范数”的拟合类型。</entry>
+    <entry key="CommentSetColorsToMatchFitLinesAndSetDisplayNames">设置与拟合线匹配的颜色并设置显示名称</entry>
+    <entry key="CommentSetColorsToMatchFitLines">设置与拟合线匹配的颜色</entry>
+    <entry key="CommentSetNewLineInProperPosition">将新线条设置为适当位置</entry>
+    <entry key="CommentSetResidualPlotAxisTitle">设置残差图轴标题</entry>
+    <entry key="CommentSetTheChildren">设置子级:</entry>
+    <entry key="CommentShowLegendOnResidualPlot">显示残差图的图例</entry>
+    <entry key="CommentSortResiduals">对残差排序</entry>
+    <entry key="CommentAssociatedLine">结合线</entry>
+    <entry key="CommentAxesForResiduals">残差的坐标区</entry>
+    <entry key="CommentAxes">坐标区</entry>
+    <entry key="CommentCoefficients">系数</entry>
+    <entry key="CommentGetShowNormOfResidualsString">获取“显示残差范数”文本</entry>
+    <entry key="CommentGetShowEquationString">获取“显示方程”文本</entry>
+    <entry key="CommentNewLine">新线</entry>
+    <entry key="CommentNormOfResiduals">残差范数</entry>
+    <entry key="CommentNumberOfSignificantDigits">有效数字位数</entry>
+    <entry key="CommentSetLineOrder">设置线顺序</entry>
+    <entry key="CommentShowEquations">显示方程</entry>
+    <entry key="CommentShowNormOfResiduals">显示残差范数</entry>
+    <entry key="CommentTypeOfFit">拟合类型</entry>
+    <entry key="CommentTypesOfFits">拟合类型</entry>
+    <entry key="CommentXData">X 数据</entry>
+    <entry key="CommentGetStringFromMessageCatalog">从消息目录中获取文本。</entry>
+    <entry key="TitleResiduals">残差</entry>
+    <entry key="DlgSaveXStats">将 X 统计信息以 MATLAB 结构体形式名称保存:</entry>
+    <entry key="DlgSaveYStats">将 Y 统计信息以 MATLAB 结构体形式名称保存:</entry>
+    <entry key="DlgSaveStatisticsToWorkspace">将统计信息保存到工作区</entry>
+    <entry key="CubicSplineInterpolant">三次样条插值</entry>
+    <entry key="ShapePreservingInterpolant">保形插值</entry>
+    <entry key="DataChangedFitsResultsDeleted">''{0}'' 数据已更改。拟合与结果将被删除。</entry>
+    <entry key="DataChanged">数据已更改</entry>
+    <entry key="evaluated">已计算: {0}</entry>
+    <entry key="InputValueMustEvaluateToReal">输入值的计算结果必须为实数标量、向量或矩阵。</entry>
+    <entry key="ImaginaryPartOfInputIgnored">输入的虚部将被忽略。</entry>
+    <entry key="SaveResultsToWorkspace">将结果保存到工作区</entry>
+    <entry key="SaveXinVariable">将 X 保存到具有以下名称的 MATLAB 变量中:</entry>
+    <entry key="SaveFofXinVariable">将 y 保存在具有以下名称的 MATLAB 变量中:</entry>
+  </message>
+</rsccat>

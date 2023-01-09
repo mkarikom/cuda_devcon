@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidStringType">最初の入力は文字ベクトルか string スカラーのいずれかでなければなりません。</entry>
+    <entry key="InvalidDelimiterType">区切り記号は文字ベクトル、文字ベクトルのセル配列、string 配列のいずれかでなければなりません。</entry>
+  </message>
+</rsccat>

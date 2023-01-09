@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="invalidhandle">First input argument to PLOTTOOLS should be a valid handle</entry>
+      <entry key="UnsupportedPlatform">The plot tools are not supported on this platform.</entry>
+      <entry key="DlgPleaseEnterAVariableNameOrAValidMExpression">{0}\n\nPlease enter a variable name or a valid MATLAB expression.</entry>
+      <entry key="DlgUnknownDataSource">Unknown data source</entry>
+      <entry key="DlgMATLABError">MATLAB Error</entry>
+      <entry key="DlgFirstArgumentToPlotExpressionsMustBeAnAxesHandle">The first argument to plotExpressions must be an axes handle!</entry>
+      <entry key="DlgFirstArgumentMustBeAFigureHandle">The first argument must be a figure handle!</entry>
+      <entry key="DlgFirstArgumentToGetBarAreaColorMustBeAFigureHandle">The first argument to getBarAreaColor must be a figure handle!</entry>
+      <entry key="BrowserOverflow">and {0,number,integer} more...</entry>
+      <entry key="InvalidPlotToolsState">Invalid state for plottools command.</entry>
+	  <entry key="DlgLayoutNotSupported">Interactive subplot arrangement not supported for charts in a TiledChartLayout.</entry>
+   </message>
+</rsccat>

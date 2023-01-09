@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NumberOfInputRows">すべての入力は、同じ行数、または、1 つの行でなければなりません。</entry>
+    <entry key="InvalidInputType">入力は、文字ベクトル、文字ベクトルのセル配列、または文字列配列でなければなりません。</entry>
+    <entry key="InvalidInputSize">すべての非スカラー入力は同じサイズでなければなりません。</entry>
+  </message>
+</rsccat>

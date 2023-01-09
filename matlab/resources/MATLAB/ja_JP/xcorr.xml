@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInputType">データ型が無効です。最初の引数は double、single、int8、uint8、int16、uint16、int32、uint32、logical のいずれかでなければなりません。</entry>
+    <entry key="InvalidSecondInputType">データ型が無効です。2 番目の引数は double、single、int8、uint8、int16、uint16、int32、uint32、または logical でなければなりません。</entry>
+    <entry key="UnknInput">スケール オプションは ''biased''、''unbiased''、''normalized''、または''none'' でなければなりません。</entry>
+    <entry key="BMustBeVector">2 番目の引数はベクトルでなければなりません。</entry>
+    <entry key="MismatchedAB">最初の引数はベクトルでなければなりません。</entry>
+    <entry key="MaxLagMustBeScalar">最大ラグはスカラーでなければなりません。</entry>
+    <entry key="MaxLagMustBeInteger">最大ラグは整数でなければなりません。</entry>
+    <entry key="NoScale">長さが異なる入力ベクトルではスケール オプションは ''none'' でなければなりません。</entry>
+    <entry key="DimChangeNotSupported">コード生成では、操作する対象の次元は変更してはなりません。{0} がベクトル入力の場合、代わりに {0}(:) または {0}(:).' を渡すことを検討してください。</entry>
+  </message>
+</rsccat>

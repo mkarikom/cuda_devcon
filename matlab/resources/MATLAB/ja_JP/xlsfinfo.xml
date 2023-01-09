@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Nargin">ファイル名を指定しなければなりません。</entry>
+    <entry key="InputClass">ファイル名は文字ベクトルまたは string スカラーでなければなりません。</entry>
+    <entry key="FileName">ファイル名を空にはできません。</entry>
+    <entry key="UnreadableExcelFile">Excel ファイルが読み取り不可です。</entry>
+    <entry key="ActiveX">Excel サーバーを起動できません。結果の制限についてはドキュメンテーションを参照してください。</entry>
+    <entry key="noJVM">このタイプの Excel ファイルを読み込むには、xlsfinfo に Java が必要です。</entry>
+  </message>
+</rsccat>

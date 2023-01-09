@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">setuniformtime 方法只能用于单时序对象</entry>
+    <entry key="invargs">setuniformtime 需要至少一个属性-值对组。</entry>
+    <entry key="nonempty">setuniformtime 需要至少有一个样本的时序。</entry>
+    <entry key="pvsetNoValue">指定的属性没有对应值。</entry>
+    <entry key="propnostr">属性必须指定为字符向量或字符串。</entry>
+    <entry key="starttime">StartTime 属性必须为数值标量。</entry>
+    <entry key="endtime">EndTime 属性必须为数值标量。</entry>
+    <entry key="interval">Interval 属性必须为数值标量。</entry>
+    <entry key="pvsetInvalidUniformtime">统一时间属性无效。</entry>
+  </message>
+</rsccat>

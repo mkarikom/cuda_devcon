@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NonShippingFile">This is a non-shipping file. Do not call this function in shipping code.</entry>
+    <entry key="incorrectOperatingMode">Using this function is unsupported in this mode</entry>
+    <entry key="InvalidCommand">The first argument to figuretools must be one of the following commands:\n''MenuBar'', ''ToolBar'', ''MakeFigFiles'' or ''MakeDeploymentFiles''.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AllPropertiesText">모든 속성</entry>
+    <entry key="attributeMismatch">{0} 속성은 Logical 또는 PositiveInteger 중 하나만 될 수 있으며 유효한 디폴트 값이 있어야 합니다.</entry>
+    <entry key="BadPropertyGroup">''getPropertyGroups''가 유효한 ''{1}''을(를) 반환하지 않았으므로 ''{0}'' 클래스의 객체를 표시할 수 없습니다.</entry>
+    <entry key="badSourceSetPolicyName">{0}은(는) 유효한 SourceSet 정책 이름이 아닙니다. 유효한 이름에는 'PropertyOnly', 'PropertyOrInput', 'PropertyOrMethod', 'Disabled'가 있습니다.</entry>
+    <entry key="badSourceSetSecondPolicyName">{0}이(가) 첫 번째 SourceSet 정책에 대한 클라이언트인 경우 두 번째 정책에 대한 클라이언트는 {1}이어야 합니다.</entry>
+    <entry key="badSourceSetPolicyClient">{0}은(는) 유효한 정책 클라이언트가 아닙니다.</entry>
+    <entry key="badSampleTimeSpecTypeValue">''{0}''은(는) 샘플 시간 'Type'에 유효한 값이 아닙니다. 유효한 값은 'Discrete', 'Controllable', 'Fixed In Minor Step', 'Inherited'입니다.</entry>
+    <entry key="badSampleTimeSpecPropOptionValue">''{0}''은(는) 옵션 ''{1}''에 대한 유효한 값이 아닙니다. 유효한 값은 'Continuous', 'Constant' 및 'Controllable'입니다.</entry>
+    <entry key="deprecatedSampleTimeSpecTypeValue"> 'Type'의 ''{0}'' 값은 향후 릴리스에서 제거될 예정입니다. 대신 ''{1}''을(를) 사용하십시오. System Object에서 추가로 발견되는 ''{0}''도 모두 바꾸십시오.</entry>
+    <entry key="badSampleTimeSpecUninitVar">'Type'을 ''{1}''(으)로 설정한 상태에서 'createSampleTime'을 호출하거나 'matlab.system.SampleTimeSpecification' 객체를 생성할 때는 반드시 ''{0}''을(를) 지정해야 합니다.</entry>
+    <entry key="badSampleTimeClass"> 'getSampleTimeImpl'의 반환 값은 'matlab.system.SampleTimeSpecification'의 인스턴스여야 합니다.</entry>
+    <entry key="badSampleTimeSpecParamName">''{1}''을(를) ''{2}''(으)로 설정한 상태에서 ''createSampleTime''을 호출하거나 'matlab.system.SampleTimeSpecification' 객체를 생성할 때는 ''{0}''이(가) 적합한 파라미터가 아닙니다.</entry>
+    <entry key="missingConstraintParamName">''{3}''을(를) ''{4}''(으)로 설정한 상태에서 ''{1}''을(를) 호출하거나 ''{2}'' 객체를 생성할 때는 ''{0}''이(가) 필수 파라미터입니다.</entry>
+    <entry key="badConstraintParamName">''{3}''을(를) ''{4}''(으)로 설정한 상태에서 ''{1}''을(를) 호출하거나 ''{2}'' 객체를 생성할 때는 ''{0}''이(가) 적합한 파라미터가 아닙니다.</entry>
+    <entry key="badExtraConstraintParamName">''{2}''을(를) ''{3}''(으)로 설정한 상태에서 ''{0}''을(를) 호출하거나 ''{1}'' 객체를 생성할 때 인수가 너무 많습니다. ''{4}''을(를) ''{5}''(으)로 설정한 상태에서는 추가 파라미터가 허용되지 않습니다.</entry>
+    <entry key="DimsConstraintNotSameAsPreCompSize">출력 포트 {0,number,integer}의 차원 제약 조건 크기가 {1,number,integer}입니다. 이 값은 'getOutputSizeImpl'의 첫 번째 반환 값 {2,number,integer}과(와) 일치해야 합니다.</entry>
+    <entry key="DimsConstraintNotSubMultOfPreCompSize">출력 포트 {0,number,integer}의 차원 제약 조건 크기가 {1,number,integer}입니다. 이 값은 'getOutputSizeImpl'의 첫 번째 반환 값 {2,number,integer}의 약수여야 합니다.</entry>
+    <entry key="portIndexForDimsConstraints">{0}의 포트 인덱스는 {1,number,integer}보다 작거나 같은 양의 정수 값이어야 합니다.</entry>
+    <entry key="MethodDoesntSupportCodeGen">{0} 메서드는 코드 생성을 지원하지 않습니다.</entry>
+    <entry key="badSampleTimeSpecParamDataType">기간과 오프셋 시간은 데이터형이 일치하도록 지정해야 합니다.</entry>
+    <entry key="duplicatedSampleTimeOption">샘플 시간 전파 옵션 값은 둘 이상의 샘플 시간 전파 옵션 유형에 나올 수 없습니다.</entry>
+    <entry key="cellArrayOfStringsSampleTimeOption">샘플 시간 전파 옵션 값은 string형으로 구성된 셀형 배열일 수 없습니다.</entry>
+    <entry key="badSampleTimeTypeForSetNumTicksCall">''{0}'' 메서드를 호출한 경우, 컴파일된 샘플 시간 'Type'은 'Controllable'이어야 합니다.</entry>
+    <entry key="badDimensionConstraintClass"> ''{0}''의 반환 값은 ''{1}''의 인스턴스여야 합니다.</entry>
+    <entry key="currentTimeNotSetInLockedObject">{0}에 현재 시간이 설정되지 않았습니다. ''setCurrentTime''을 사용하여 현재 시간을 설정하십시오.</entry>
+    <entry key="badMATLABSourceSetPolicyName">{0} 정책은 MATLAB에서 사용할 수 없습니다. 이 정책은 시스템 블록에서만 사용할 수 있습니다.</entry>
+    <entry key="cannotSetNonDefMethodSourceSetPairedProperty">{0} 속성은 'PropertyOrMethod' SourceSet 정책과 쌍을 이루고 메서드에서 값을 받기 때문에 이 속성을 설정할 수 없습니다.</entry>
+    <entry key="cannotSetNonDefInputSourceSetPairedProperty">{0} 속성은 'PropertyOrInput' SourceSet 정책과 쌍을 이루고 입력값에서 값을 받기 때문에 이 속성을 설정할 수 없습니다.</entry>
+    <entry key="cannotSetDisabledSourceSetPairedProperty">{0} 속성은 'Disabled' SourceSet 정책과 쌍을 이루기 때문에 이 속성을 설정할 수 없습니다.</entry>
+    <entry key="cannotCallNargInOutFromGNIIorGNOI">메서드 {0}은(는) {1} 내에서 호출할 수 없습니다.</entry>
+    <entry key="changeSystem">시스템 변경</entry>
+    <entry key="classExpressionLabel">&lt;matlab 표현식&gt;</entry>
+    <entry key="cloneFailed">복제된 복사본을 생성할 수 없습니다.</entry>
+    <entry key="cloneImplReturnedBadClass">cloneImpl {0}에서 유효하지 않은 클래스가 반환되었습니다. cloneImpl은 {1}의 복사본을 반환해야 합니다.</entry>
+    <entry key="cloneImplImplemented">{0}은(는) cloneImpl 메서드로 구현되었습니다. 이 메서드는 오버로드할 수 없습니다. saveObjImpl 메서드와 loadObjImpl 메서드로 cloneImpl의 코드를 구현하십시오.</entry>
+    <entry key="codeGenUnSupportedCloneUsingSaveLoad">{0}은(는) loadImpl 또는 saveImpl 메서드를 구현합니다. 현재 구성에서는 코드 생성을 위해 이러한 메서드를 오버로드할 수 없습니다.</entry>
+    <entry key="codeGenClassNameNotConstant">System Object 클래스 이름이 상수가 아닙니다.</entry>
+    <entry key="codeGenConstructorArgNotConst">이 System Object 생성자에 대한 인수 #{0}의 상수 값을 계산할 수 없습니다. 코드를 생성하려면 이 System Object 생성자에 대한 모든 인수가 상수여야 합니다. 상수 값을 제공하는 한 가지 방법은 값을 Simulink 조정 불가형 파라미터(MATLAB Function 블록의 경우) 또는 coder.Constant(...)(MATLAB Coder의 경우)를 사용하여 메인 함수에 전달하는 것입니다.</entry>
+    <entry key="codeGenNontunableSetAfterConstructor">코드 생성 시 System Object {0}을(를) 생성한 후에는 이 객체의 조정 불가형 속성을 변경할 수 없습니다. 이 System Object에 퍼블릭 속성을 설정하려면 객체 생성 시 이름-값 쌍을 전달해야 합니다.</entry>
+    <entry key="codeGenDirectFeedthroughBeforeSetup">코드 생성 시에는 isInputDirectFeedthrough()를 호출하기 전에 System Object를 초기화해야 합니다. step, output, update 중 하나를 호출하면 System Object가 초기화됩니다.</entry>
+    <entry key="codeGenNoSystemObjectInput">{0} 메서드에 입력으로 System Object가 필요합니다.</entry>
+    <entry key="codeGenNotValidSystemObjectName">{0}은(는) 유효한 System Object 클래스가 아닙니다.</entry>
+    <entry key="codeGenNotSystemObjectInput">{0} 메서드는 System Object에 사용하도록 예약되어 있습니다.</entry>
+    <entry key="numInputsAndOutputsIsZero">{0}에 의해 보고됨: getSampleTimeImpl을 구현하고 입력값과 출력값이 없는 System Object는 지원되지 않습니다.</entry>
+    <entry key="codeGenCurrentConfigNotSupported">{0}에 의해 보고됨: 현재 구성으로는 이 System Object가 코드 생성을 지원하지 않습니다.</entry>
+    <entry key="codeGenInputDimsModeNotFixed">{0}에 의해 보고됨: {1,number,integer}번째 입력값에 고정 차원이 있어야 합니다.</entry>
+    <entry key="codeGenInvalidInputsTypes">{0} 메서드에 대한 입력은 숫자 또는 논리 변수이거나 fi 객체여야 합니다. 입력값은 외재적 함수에서 온 MATLAB 유형일 수 없습니다.</entry>
+    <entry key="codeGenNonConstReturnValue">{0} 메서드에서 반환한 값은 상수 값이어야 합니다. 이 값을 계산할 때 사용하는 속성은 Nontunable이어야 합니다.</entry>
+    <entry key="codeGenUnSupportedObj">코드 생성 시 이 System Object는 지원되지 않습니다.</entry>
+    <entry key="codeGenUnSupportedLockedClone">잠겨 있는 객체는 코드 생성 시, 복제에 사용할 수 없습니다.</entry>
+    <entry key="codeGenSetNotSupported">코드 생성 시 이 System Object의 설정 속성은 지원되지 않습니다.</entry>
+    <entry key="codeGenSourceSetOnlySupportNumeric">{0} 속성은 SourceSet 속성과 쌍을 이루기 때문에 숫자형이 아닌 값이 대입될 수 없습니다.</entry>
+    <entry key="compHasNoOutputs">이 System Object에 출력값이 없으므로 lastOutput 메서드가 이 System Object에 대해 동작할 수 없습니다.</entry>
+    <entry key="complexDataToRealRTP">복소수 값 데이터에서 실수 값 런타임 파라미터를 생성할 수 없습니다.</entry>
+    <entry key="customGetRecursionGuard">''{1}'' 내에 있는 동안 ''{0}''에 액세스하는 것은 재귀를 발생시키기 때문에 허용되지 않습니다.</entry>
+    <entry key="dataRateError">데이터 레이트 중 하나만 1보다 클 수 있습니다.</entry>
+    <entry key="dialogNotGenerated">''{0}''에 대한 대화 상자를 생성할 수 없습니다.</entry>
+    <entry key="dialogNotGeneratedLink">''{2}''에서 ''{1}''의 {0}번 라인을(를) 참조하십시오.</entry>
+    <entry key="dialogError">대화 상자 생성 오류</entry>
+    <entry key="DirectFeedthroughUnknown">객체가 초기화될 때 DirectFeedthrough 상태를 알 수 있어야 하므로, System Object 초기화 시에 이 isInputDirectFeedthrough 메서드는 빈 값을 반환할 수 없습니다.</entry>
+    <entry key="DirectFeedthroughNotLogical">isInputDirectFeedthroughImpl의 출력값은 논리값으로 변환될 수 있어야 합니다.</entry>
+    <entry key="DoesNotCustomizeSampleTime">''{0}'' 메서드는 getSampleTimeImpl을 구현하지 않으므로 ''{1}'' System Object에서 호출할 수 없습니다.</entry>
+    <entry key="doublePropertySourceSetPolicyName">{0} 정책은 MATLAB 및 시스템 블록 둘 다에 같이 사용할 수 없습니다.</entry>
+    <entry key="duplicateDisplayProperty">PropertyList 항목 ''{0}''이(가) 이미 표시용으로 지정되었습니다.</entry>
+    <entry key="emptyInput">{0,number,integer}번째 입력값에 빈 값은 허용되지 않습니다.</entry>
+    <entry key="errorSettingParameters">{0}에 의해 보고됨: {1}.</entry>
+    <entry key="fileNotFound">파일 {0}을(를) 찾을 수 없습니다.</entry>
+    <entry key="fileOpenFailed"> 파일 {0}을(를) 열 수 없습니다. {1}</entry>
+    <entry key="fixedPointFor64Bit">System Object에 64비트 데이터형이 지원되려면 Fixed-Point Designer가 필요합니다.</entry>
+    <entry key="FooterLinkFailure">변수 {0}에 대한 속성을 표시할 수 없습니다. 작업 공간에서 지워졌거나 삭제되었기 때문일 수 있습니다.</entry>
+    <entry key="FooterLinkFailureMissingVariable">변수 {0}은(는) 더 이상 존재하지 않으므로 이 변수에 대한 속성을 표시할 수 없습니다.</entry>
+    <entry key="FooterLinkFailureClassMismatch">변수 {0}은(는) 더 이상 {1} 객체가 아니므로 이 변수에 대한 속성을 표시할 수 없습니다.</entry>
+    <entry key="FooterTextNoArrayName">{0}을(를) 사용하여 모든 속성 표시</entry>
+    <entry key="FooterTextWithArrayName">{0} 표시</entry>
+    <entry key="getBlockParamNotSupported">{0} System Object에 getBlockParam 메서드가 지원되지 않습니다.</entry>
+    <entry key="getCompiledDataInfoNotSupported">{0} System Object는 잠겨 있어야 하고 getCompiledDataInfo 메서드에 문자형 벡터 입력값을 제공해야 합니다.</entry>
+    <entry key="getCompiledDataInfoNotImplemented">이 System Object는 mdlGetCompiledDataInfo 메서드를 구현하지 않았습니다.</entry>
+    <entry key="getContinuousStateInvalid">getContinuousStateImpl 메서드에서 구조체(또는 빈 값)가 반환되지 않았습니다.</entry>
+    <entry key="getContinuousStateNotSupported">이 객체에는 getContinuousState 메서드가 지원되지 않습니다.</entry>
+    <entry key="getDataRateNeedsSetup">{0}을(를) 호출하기 전에 setup을 실행해야 합니다.</entry>
+    <entry key="getDiscreteStateInvalid">getDiscreteStateImpl 메서드에서 구조체(또는 빈 값)가 반환되지 않았습니다.</entry>
+    <entry key="getDiscreteStateNotSupported">이 객체에는 getDiscreteState 메서드가 지원되지 않습니다.</entry>
+    <entry key="getInputNamesInvalid">getInputNamesImpl은 System Object에 대한 입력값과 동일한 개수의 이름을 여러 개의 문자형 벡터 출력 인수나 string형 배열로 반환해야 합니다.</entry>
+    <entry key="getOutputNamesInvalid">getOutputNamesImpl은 System Object에 대한 출력값과 동일한 개수의 이름을 여러 개의 문자형 벡터 출력 인수나 string형 배열로 반환해야 합니다.</entry>
+    <entry key="getOnlyTakesTwoInputsCodegen">get 메서드는 코드 생성 시 두 개의 입력값만 받습니다.</entry>
+    <entry key="getSimulateUsingIsEmpty">getSimulateUsingImpl에서 값이 반환되지 않았습니다. ''Code generation'' 또는 ''Interpreted execution''을 지정해야 합니다.</entry>
+    <entry key="getSimulateUsingInvalidType">getSimulateUsingImpl에서 예기치 않은 유형이 반환되었습니다. "Code generation" 또는 "Interpreted execution"을 지정해야 합니다.</entry>
+    <entry key="getSimulateUsingInvalidValue">getSimulateUsingImpl에서 유효하지 않은 값 ''{0}''이(가) 반환되었습니다. "Code generation" 또는 "Interpreted execution"을 지정해야 합니다.</entry>
+    <entry key="getFiSettingsIsEmpty">getFiSettingsImpl에서 아무런 값도 반환되지 않았습니다.</entry>
+    <entry key="getFiSettingsInvalidType">getFiSettingsImpl에서 예기치 않은 유형이 반환되었습니다.</entry>
+    <entry key="getSpecifyStringUnknownType">''{0}''은(는) 알 수 없는 유형 파라미터임</entry>
+    <entry key="globalNotGlobalVar">변수 ''{0}''은(는) getGlobalNamesImpl에서 반환되었지만 메서드 ''{1}''에서 전역 변수로 선언되지 않았습니다. ''{3}''에서 호출된 함수에서 이름이 ''{2}''인 모든 전역 변수는 Data Store Memory 블록과 공유되지 않습니다.</entry>
+    <entry key="globalDeclarationNotAllowed">''{0}'' 메서드에는 전역 변수를 사용할 수 없습니다.</entry>
+    <entry key="globalAddedDuringMethodCall">System Object가 ''{1}'' 실행 중에 추가된 전역 변수 ''{0}''을(를) 무시합니다. 전역 변수가 ''{2}''에 선언되어 있지 않거나 MATLAB 디버거를 사용하는 도중 선언되었습니다.</entry>
+    <entry key="globalMissingInDebug">''{1}'' 실행 도중 전역 변수 ''{0}''이(가) 제거되었습니다. 연결된 Data Store Memory가 업데이트되지 않았습니다.</entry>
+    <entry key="globalDeclarationMustBeFirst">''{1}''의 전역 변수 ''{0}''이(가) 메서드가 코드를 실행한 후에 선언되었습니다. Data Store Memory 블록과 전역 변수를 교환하려면 메서드의 시작 부분에 전역 변수를 선언해야 합니다.</entry>
+    <entry key="globalTypeChangedDetailed">''{1}'' 실행 중에는 전역 변수 ''{0}''의 데이터형을 변경할 수 없습니다. 원래 ''{2}''이었는데, ''{3}''(으)로 변경되었습니다.</entry>
+    <entry key="globalTypeChangedSummary">''{1}'' 실행 중에는 전역 변수 ''{0}''의 데이터형을 변경할 수 없습니다.</entry>
+    <entry key="globalChangedCplxVsReal">''{1}'' 실행 중에는 전역 변수 ''{0}''의 실수/복소수 여부를 변경할 수 없습니다. 원래 복소수였는데, 실수로 변경되었습니다.</entry>
+    <entry key="globalChangedRealVsCplx">''{1}'' 실행 중에는 전역 변수 ''{0}''의 실수/복소수 여부를 변경할 수 없습니다. 원래 실수였는데, 복소수로 변경되었습니다.</entry>
+    <entry key="globalNumDimsChanged">''{1}'' 실행 중에는 전역 변수 ''{0}''의 차원 수를 변경할 수 없습니다. 차원 수가 원래 {2,number,integer}이었는데, {3,number,integer}(으)로 변경되었습니다.</entry>
+    <entry key="globalDimsChanged">''{1}'' 실행 중에는 ''{0}''의 차원을 변경할 수 없습니다. 차원 값 {2,number,integer}은(는) 원래 {3,number,integer}이었는데, {4,number,integer}(으)로 변경되었습니다.</entry>
+    <entry key="globalNumberOfFieldsChanged">''{1}'' 실행 중에는 전역 구조체 ''{0}''의 필드 수를 변경할 수 없습니다. 필드 수가 원래 {2,number,integer}이었는데, {3,number,integer}(으)로 변경되었습니다.</entry>
+    <entry key="globalFieldNamesChanged">''{1}'' 실행 중에는 전역 구조체 ''{0}''의 필드 이름을 변경할 수 없습니다. 필드 이름이 원래 ''{2}''이었는데, ''{3}''(으)로 변경되었습니다.</entry>
+    <entry key="incorrectDirectFeedthroughArguments">입력 인수의 개수가 올바르지 않습니다. System Object 외에 {0,number,integer}개 또는 {1,number,integer}개의 입력 인수가 필요합니다.</entry>
+    <entry key="incorrectDirectFeedthroughOutputs">출력 인수가 너무 많습니다. 요청한 출력값 개수({0,number,integer}개)가 System Object에 대한 입력값 개수({1,number,integer}개)를 초과했습니다.</entry>
+    <entry key="inputDimsMismatch">모든 입력 포트는 차원이 동일해야 합니다.</entry>
+    <entry key="inputDimsMoreThanTwo">이 System Object에는 3차원 이상을 가진 데이터가 지원되지 않습니다.</entry>
+    <entry key="inputMustBeScalar">입력값 {0}은(는) 스칼라여야 합니다.</entry>
+    <entry key="inputMustBeVector">입력값 {0}은(는) 비어 있지 않은 벡터여야 합니다.</entry>
+    <entry key="inputMustBeRowVector">입력값 {0}은(는) 비어 있지 않은 행 벡터여야 합니다.</entry>
+    <entry key="inputMustBeColVector">입력값 {0}은(는) 비어 있지 않은 열 벡터여야 합니다.</entry>
+    <entry key="inputMustBeMatrix">입력값 {0}은(는) 비어 있지 않은 행렬이어야 합니다.</entry>
+    <entry key="inputSizeNotFixed">입력값 {0}에는 고정 차원이 있어야 합니다.</entry>
+    <entry key="inputSpecsChangedErrorSDC">&lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','matlab_prog.map'),'sysobjs_locked')"&gt;release()&lt;/a&gt; 메서드를 먼저 호출하지 않으면 {0,number,integer}번째 입력값의 크기, 데이터형 또는 실수/복소수 여부(실수에서 복소수로)를 변경할 수 없습니다.</entry>
+    <entry key="inputSpecsChangedErrorSD">&lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','matlab_prog.map'),'sysobjs_locked')"&gt;release()&lt;/a&gt; 메서드를 먼저 호출하지 않으면 {0,number,integer}번째 입력값의 크기 또는 데이터형을 변경할 수 없습니다.</entry>
+    <entry key="inputSpecsChangedErrorSC">&lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','matlab_prog.map'),'sysobjs_locked')"&gt;release()&lt;/a&gt; 메서드를 먼저 호출하지 않으면 {0,number,integer}번째 입력값의 크기 또는 실수/복소수 여부(실수에서 복소수로)를 변경할 수 없습니다.</entry>
+    <entry key="inputSpecsChangedErrorS">&lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','matlab_prog.map'),'sysobjs_locked')"&gt;release()&lt;/a&gt; 메서드를 먼저 호출하지 않으면 {0,number,integer}번째 입력값의 크기를 변경할 수 없습니다.</entry>
+    <entry key="inputSpecsChangedErrorDC">&lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','matlab_prog.map'),'sysobjs_locked')"&gt;release()&lt;/a&gt; 메서드를 먼저 호출하지 않으면 {0,number,integer}번째 입력값의 데이터형 또는 실수/복소수 여부(실수에서 복소수로)를 변경할 수 없습니다.</entry>
+    <entry key="inputSpecsChangedErrorD">&lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','matlab_prog.map'),'sysobjs_locked')"&gt;release()&lt;/a&gt; 메서드를 먼저 호출하지 않으면 {0,number,integer}번째 입력값의 데이터형을 변경할 수 없습니다.</entry>
+    <entry key="inputSpecsChangedErrorC">&lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','matlab_prog.map'),'sysobjs_locked')"&gt;release()&lt;/a&gt; 메서드를 먼저 호출하지 않으면 {0,number,integer}번째 입력값의 실수/복소수 여부(실수에서 복소수로)를 변경할 수 없습니다.</entry>
+    <entry key="inputsNotSameComplexityCodegen">입력값 #{0,number,integer}의 실수/복소수 여부가 올바르지 않습니다. ''{1}''이(가) 필요한데 ''{2}''을(를) 받았습니다. 코드 생성 시, 동일 객체에 대한 모든 step() 호출은 실수/복소수 여부가 동일한 입력값으로 정의되어야 합니다.</entry>
+    <entry key="inputsNotSameDataTypeCodegen">입력 #{0,number,integer}의 클래스가 올바르지 않습니다. ''{1}''이(가) 필요한데 ''{2}''을(를) 받았습니다. 코드 생성 시, 동일한 객체에 대한 모든 step() 호출은 동일한 데이터형의 입력으로 정의되어야 합니다.</entry>
+    <entry key="inputsNotSameSizeCodegen">입력 #{0,number,integer}의 크기가 올바르지 않습니다. ''{1}''이(가) 필요한데 ''{2}''을(를) 받았습니다. 크기가 잠긴 입력의 크기는 모든 step() 호출 간에 동일해야 합니다.</entry>
+    <entry key="inputsNotSameNumerictypeCodegen">입력값 #{0,number,integer}의 숫자형이 잘못됨: ''{1}''이어야 하는데 ''{2}''입니다. 코드 생성 시 동일한 객체에 대한 모든 step() 호출에는 동일한 숫자형의 입력값이 있어야 합니다.</entry>
+    <entry key="inputsNotSameSize">모든 입력값은 크기가 동일해야 합니다.</entry>
+    <entry key="internalUnsupportedDataType">지원되지 않는 데이터형입니다.</entry>
+    <entry key="invalidActionAlignment">Alignment는 ''left'' 또는 ''right''여야 합니다.</entry>
+    <entry key="invalidArgGet">두 번째 인수는 문자형 벡터이거나 셀형 배열이어야 합니다.</entry>
+    <entry key="invalidArgSet">두 번째 인수는 문자형 벡터이거나 구조체여야 합니다.</entry>
+    <entry key="invalidGlobalNamesStringInfer">{0}에 선언된 전역 변수의 이름은 적합한 MATLAB 변수 이름이어야 합니다.</entry>
+    <entry key="invalidCondExecSemantics">{0}에 의해 반환된 조건부 실행 의미 체계는 ''Classic''이나 ''Synchronous''이거나, 이 둘을 모두 포함하는 셀형 배열이어야 합니다.</entry>
+    <entry key="invalidComplexityNeedReal">{0,number,integer}번째 입력값의 실수/복소수 여부가 불일치합니다. 실수여야 하는데 복소수를 받았습니다.</entry>
+    <entry key="invalidComplexityNeedComplex">{0,number,integer}번째 입력값의 실수/복소수 여부가 불일치합니다. 복소수여야 하는데 실수를 받았습니다.</entry>
+    <entry key="invalidConstSampleTimeProp">{0}에서 반환되는 값은 ''Allow'', ''Disallow'', ''Error'' 중 하나여야 합니다.</entry>
+    <entry key="invalidConstructorFirstArgument">System Object 생성자에 대한 첫 번째 입력 인수는 System Object일 수 없습니다.</entry>
+    <entry key="invalidDataRate">데이터 레이트 중 하나만 1보다 클 수 있습니다.</entry>
+    <entry key="invalidDataType">데이터형이 {0,number,integer}번째 입력값과 일치하지 않습니다. {1}이어야 하는데 {2}을(를) 받았습니다.</entry>
+    <entry key="invalidDataTypeSetPropertyType">{0} 속성은 데이터형 ''char'' 또는 숫자형 값으로 설정해야 합니다.</entry>
+    <entry key="invalidDir">유효하지 않은 디렉터리 이름입니다. 디렉터리 {0}을(를) 찾을 수 없습니다.</entry>
+    <entry key="invalidDiscStateComplexity">{0}에 의해 보고됨: {1}의 실수/복소수 여부 반환값이 유효하지 않습니다. 실수/복소수 여부는 논리형 스칼라 값이어야 합니다.</entry>
+    <entry key="invalidDiscStateDataType">{0}에 의해 보고됨: {1}의 데이터형 반환값이 유효하지 않습니다. 데이터형은 문자형 벡터이거나 embedded.numerictype 객체여야 합니다.</entry>
+    <entry key="invalidFrameStatus">프레임 상태가 {0,number,integer}번째 입력값과 일치하지 않습니다. {1}이어야 하는데 {2}입니다.</entry>
+    <entry key="invalidGetPublicPropertiesArgs">모든 입력값은 문자형 벡터이거나 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="invalidIdxInput">인덱스 입력값이 유효하지 않습니다.</entry>
+    <entry key="invalidImplMethodNumArgs">{1}에서 {0}에 대한 정의가 잘못되었습니다. {2}에는 System Object 외에 {3,number,integer}개의 입력값과 {4,number,integer}개의 출력값이 필요합니다.</entry>
+    <entry key="invalidImplMethodNumInArgs">{1}에서 {0}에 대한 정의가 잘못되었습니다. {2}에는 System Object 외에 {3,number,integer}개의 입력값이 필요합니다.</entry>
+    <entry key="invalidImplMethodNumOutArgs">{1}에서 {0}에 대한 정의가 잘못되었습니다. {2}에는 {3,number,integer}개의 출력값이 필요합니다.</entry>
+    <entry key="invalidInputDataType">입력값 {0}의 데이터형은 {1}이어야 합니다.</entry>
+    <entry key="invalidInputDataTypeCodeGen">{0}에 의해 보고됨: 입력값은 숫자형 변수, 논리형 변수, fi 객체 중 하나여야 합니다.</entry>
+    <entry key="invalidInputDimensions">예상 입력값 {0}의 크기는 {1}이었는데, 실제 입력값의 크기는 {2}입니다.</entry>
+    <entry key="invalidInputDims">차원이 {0,number,integer}번째 입력값과 일치하지 않습니다. {1}이어야 하는데 {2}을(를) 받았습니다.</entry>
+    <entry key="invalidInputNumDims">입력값 {0,number,integer}의 차원 수가 일치하지 않습니다. {1,number,integer}차원을 갖는 입력값이 필요한데, {2,number,integer}차원을 갖는 입력값이 입력되었습니다.</entry>
+    <entry key="invalidInputWidth">입력값 {0,number,integer}의 요소 개수가 일치하지 않습니다. {1,number,integer}개 요소를 갖는 입력값이 필요한데, {2,number,integer}개 요소를 갖는 입력값이 입력되었습니다.</entry>
+    <entry key="invalidIODataRate">{0} {1,number,integer}의 데이터 레이트가 정수 값이 아닙니다.</entry>
+    <entry key="invalidInputIndex">{0,number,integer}은(는) 유효하지 않은 입력 인덱스입니다.</entry>
+    <entry key="invalidIsChangedPropertyParam">isChangedProperty에 대한 인수({0})는 조정 가능형 퍼블릭 속성이어야 합니다.</entry>
+    <entry key="invalidLogicalReturn">{0} 메서드에서 논리형 스칼라(즉, true 또는 false) 값이 반환되지 않았습니다.</entry>
+    <entry key="invalidMultirateIndexDataType">입력 인덱스와 출력 인덱스는 배정밀도 데이터형이어야 합니다.</entry>
+    <entry key="invalidMultirateInputIndex">인덱스는 0 또는 1이어야 합니다.</entry>
+    <entry key="invalidMultirateOutputIndex">출력 인덱스 {0,number,integer}이(가) 유효하지 않습니다.</entry>
+    <entry key="invalidNumericTypeDataType">{0} 속성은 double형, single형, 고정소수점 숫자형 중 하나여야 합니다.</entry>
+    <entry key="invalidNumericTypeSlopeBias">{0} 속성에는 유니티 경사(unity slope)와 제로 바이어스(zero bias)가 지정되어 있어야 합니다.</entry>
+    <entry key="invalidNumIODataRates">{0} 데이터 레이트의 개수는 {1}의 총수와 동일해야 합니다.</entry>
+    <entry key="invalidOutputComplexity">{0}에 의해 보고됨: isOutputComplex의 반환값이 유효하지 않습니다. 각 값은 논리형 스칼라 값이어야 합니다.</entry>
+    <entry key="invalidOutputDataTypeWithBus">{0}에 의해 보고됨: getOutputDataType의 반환값이 유효하지 않습니다. 각 값은 유효한 데이터형 이름, embedded.numerictype 객체, 기본 작업 공간에 있는 Simulink.Bus 객체의 이름 중 하나여야 합니다.</entry>
+    <entry key="invalidOutputDataType">{0}에 의해 보고됨: getOutputDataType의 반환값이 유효하지 않습니다. 각 값은 유효한 데이터형 이름이거나 embedded.numerictype 객체여야 합니다.</entry>
+    <entry key="invalidTunablePropertiesSpecification">{0}에 의해 보고됨: getTunablePropertiesSpecification의 반환값이 유효하지 않습니다. 반환 문자열은 'double' 또는 'single'이어야 합니다.</entry>
+    <entry key="invalidOverrideDataType">{0}에 의해 보고됨: overrideDataType의 입력값이 유효하지 않습니다. 각 입력 데이터형은 embedded.numerictype 객체여야 합니다.</entry>
+    <entry key="invalidOverrideOfUserMethodSuggest">{0}에서 오류가 발생함: {1} 메서드를 재정의할 수 없습니다. {2} 메서드를 제거하고 {3} 메서드를 추가하십시오.</entry>
+    <entry key="invalidOverrideOfUserMethod">{0}에서 오류가 발생함: {1} 메서드를 재정의할 수 없습니다. {2} 메서드를 제거하십시오.</entry>
+    <entry key="invalidOutputIndex">{0,number,integer}은(는) 유효하지 않은 출력 인덱스입니다.</entry>
+    <entry key="invalidOutputFixedSize">{0}에 의해 보고됨: isOutputFixedSize의 반환값이 유효하지 않습니다. 각 값은 논리형 스칼라 값이어야 합니다.</entry>
+    <entry key="invalidGetSampleTime">{0}에 의해 보고됨: getSampleTime의 반환값이 유효하지 않습니다. 각 샘플 시간은 음이 아닌 숫자형이거나, 상속됨(Inherited)을 나타내는 -1이어야 합니다.</entry>
+    <entry key="invalidPropagatorNumOutRequested">{0}에 의해 보고됨: {1} 메서드의 출력값 개수가 올바르지 않습니다. {2, number, integer}개가 요청되었으나, 이 메서드에서는 getNumOutputs 메서드에 지정된 대로 {3, number, integer}개가 반환됩니다.</entry>
+    <entry key="invalidPropagatorNonzeroInPorts">{0}에 의해 보고됨: {1} 메서드는 입력 포트가 없는 객체에서만 구현될 수 있습니다.</entry>
+    <entry key="invalidProperty">''{0}''은(는) System Object ''{1}''에서 인식할 수 없는 속성입니다.</entry>
+    <entry key="invalidPVPairs">유효하지 않은 속성/값 쌍 인수입니다.</entry>
+    <entry key="invalidSampleTime">샘플 시간이 {0,number,integer}번째 입력값과 일치하지 않습니다. {1}이어야 하는데 {2}입니다.</entry>
+    <entry key="invalidSetConstMethod">이 메서드에서는 속성을 설정할 수 없습니다(System Object가 변경되지 않아야 함).</entry>
+    <entry key="invalidSetDataRates">setDataRates는 setupImpl에서만 호출할 수 있습니다.</entry>
+    <entry key="invalidSetPropertyValue">{0} 속성에 유효하지 않은 설정입니다.</entry>
+    <entry key="invalidSetPropertyValueConst">''{0}''은(는) {1} 속성에 유효한 설정이 아닙니다.</entry>
+    <entry key="invalidStateProp">이 System Object에는 상태 속성 ''{0}''이(가) 존재하지 않습니다.</entry>
+    <entry key="invalidStateName">{0}에 의해 보고됨: 이 System Object에는 {1} 속성 ''{2}''이(가) 존재하지 않습니다.</entry>
+    <entry key="invalidStringContents">{0}은(는) string형 배열 또는 문자형 벡터로 구성된 셀형 배열을 반환해야 합니다.</entry>
+    <entry key="invalidSimulinkFunctionName">{0} 반환 값에 유효하지 않은 함수 이름인 {1}이(가) 포함되어 있습니다. {2}은(는) 유효한 함수 이름으로 구성된 배열을 string형 배열 또는 문자형 벡터로 구성된 셀형 배열로 반환해야 합니다.</entry>
+    <entry key="invalidSimulinkFunctionNameIsKeyword">{0} 반환 값에 MATLAB 키워드에 해당하는 이름 {1}이(가) 포함되어 있습니다. {2}은(는) string형 배열 또는 문자형 벡터로 구성된 셀형 배열을 반환해야 합니다. 배열의 요소는 MATLAB 키워드일 수 없습니다.</entry>
+    <entry key="invalidSimulinkFunctionNameIsDupicate">{0} 반환 값에 중복 이름 {1}이(가) 포함되어 있습니다. {2}은(는) string형 배열 또는 문자형 벡터로 구성된 셀형 배열을 반환해야 합니다. 배열의 요소는 중복될 수 없습니다.</entry>
+    <entry key="invalidSimulinkFunctionNameMoreThanOneNonUnityDims">{0} 반환 값의 차원은 nx1 또는 1xn이어야 합니다.</entry>
+    <entry key="invalidSetPropertiesSyntax">setProperties에 전달된 인수의 개수가 지정된 개수보다 적습니다.</entry>
+    <entry key="InvalidValueOnlyNames">setProperties로 전달된 값 단독 속성 이름은 string형 배열로 지정하거나, 여러 개의 문자형 벡터 또는 string형 스칼라 입력 인수로 지정해야 합니다.</entry>
+    <entry key="invalidDisplayProperty">PropertyList 항목 ''{0}''은(는) 디스플레이에 유효하지 않습니다.</entry>
+    <entry key="invalidTunableReadAccess">속성 ''{0}''에 대한 액세스가 거부됨: 이 메서드 내에서는 조정 가능형 퍼블릭 속성에 액세스할 수 없습니다.</entry>
+    <entry key="invalidTunableModAccess">속성 ''{0}''에 대한 액세스가 거부됨: 이 메서드 내에서는 조정 가능형 퍼블릭 속성을 수정할 수 없습니다. 액세스를 프라이빗 또는 보호로 설정하여 System Object 메서드의 속성을 수정하십시오.</entry>
+    <entry key="invalidCallToRelease">release 메서드는 System Objects의 메서드에서 호출할 수 없습니다.</entry>
+    <entry key="invalidTunableModAccessCodegen">클래스 내에서는 조정 가능형 퍼블릭 속성을 수정할 수 없습니다. 조정 가능형 속성을 식별하려면 MATLAB System 블록을 인터프리터 모드로 실행하십시오.</entry>
+    <entry key="invalidValueOnlyProps">{0} System Object에는 값 단독 입력값을 {1,number,integer}개까지 지정할 수 있습니다. 현재 값 단독 입력값이 {2,number,integer}개 지정되어 있습니다. 속성 이름의 철자를 잘못 입력하여 생긴 문제일 수 있으니 확인해 보시기 바랍니다.</entry>
+    <entry key="invalidCapitalization">{0} System Object에는 속성 {1}이(가) 지원되지 않습니다. 이 속성의 유효한 대문자 표시는 {2}입니다.</entry>
+    <entry key="isDoneCallbyNonSource">isDone() 메서드를 사용하려면 System Object가 소스여야 합니다(즉, getNumInputs() == 0).</entry>
+    <entry key="isInputDirectFeedthroughImplNotConst">isInputDirectFeedthroughImpl의 반환 값은 컴파일 시간에 결정될 수 없습니다. Nontunable 속성이나 Constant 속성만 사용하여 isInputDirectFeedthroughImpl의 출력값을 계산할 수 있습니다.</entry>
+    <entry key="ObsoleteSystemObjectAPI">System Object ''{0}''에 API ''{1}''이(가) 있습니다. 이 API는 더 이상 지원되지 않을 예정입니다. ''{1}'' 메서드를 제거하고 ''{2}''을(를) 대신 사용하십시오.</entry>
+    <entry key="ObsoleteSystemObjectAPI2">System Object ''{0}''에 API ''{1}''이(가) 있습니다. 이 API는 더 이상 지원되지 않을 예정입니다. ''{1}'' 메서드를 제거하십시오.</entry>
+    <entry key="ObsoleteSystemObjectMixin">System Object ''{0}''은(는) 더 이상 지원되지 않을 예정인 mixin 클래스 ''{1}''에서 상속되었습니다. ''{1}''을(를) 제거하고 대응하는 System Object 메서드를 대신 정의하십시오.</entry>
+    <entry key="isInputSizeMutableImplNotConst">isInputSizeMutableImpl의 반환 값은 컴파일할 때 결정될 수 없습니다. Nontunable 속성이나 Constant 속성만 사용하여 isInputSizeMutableImpl의 출력값을 계산할 수 있습니다.</entry>
+    <entry key="isInputSizeMutableImplNotScalar">isInputSizeMutableImpl 메서드에서 논리형 스칼라(즉, true 또는 false) 값이 반환되지 않았습니다.</entry>
+    <entry key="codegenMethodReturnsNonConst">코드 생성을 사용한 시뮬레이션 중에는 런타임 메서드 내에서 메서드 'createSampleTime'을 호출할 수 없습니다. 런타임 메서드 stepImpl, updateImpl, outputImpl, resetImpl, releaseImpl에서 'createSampleTime' 메서드와 'getSampleTimeImpl' 메서드를 호출하지 않도록 하십시오.</entry>
+    <entry key="codegenCreateSTReturnsNonConst">코드 생성을 사용한 시뮬레이션 중에 런타임 메서드 stepImpl, updateImpl, outputImpl, resetImpl, releaseImpl에서 'createSampleTime' 메서드를 호출하지 않도록 하십시오. 런타임 메서드에서 'createSampleTime' 메서드와 'getSampleTimeImpl' 메서드를 호출하지 않도록 하십시오. </entry>
+    <entry key="lockModeConflictMethods">''{1}''이(가) 구현된 경우 System Object는 ''{0}''을(를) 호출하지 않습니다. ''{3}'' 대신 ''{2}''을(를) 구현하십시오.</entry>
+    <entry key="lockModeConflictMethodsNoSub">''{1}''이(가) 구현된 경우 System Object는 ''{0}''을(를) 호출하지 않습니다. ''{2}''을(를) 제거하십시오.</entry>
+    <entry key="lockModeConflictInheritance">System Object가 ''{1}''에서 상속된 경우 System Object는 ''{0}''을(를) 호출하지 않습니다. ''{2}''에서의 상속을 제거하거나 ''{3}''을(를) 제거하십시오.</entry>
+    <entry key="loadingInvalidFixptMode">불러오는 중 포트 사양에 지원되지 않는 고정소수점 모드가 발견되었습니다.</entry>
+    <entry key="loadingWhenLocked">이미 잠겨 있을 때는 저장된 데이터에서 System Object를 복원할 수 없습니다.</entry>
+    <entry key="logicalMustBeLogicalScalarReturn">{0}의 반환 값은 실수 숫자형 스칼라 또는 논리형 스칼라여야 합니다.</entry>
+    <entry key="matlabAutoSectionGroupTitle">메인</entry>
+    <entry key="maxNumInputs">입력 인수가 너무 많습니다. {0,number,integer}개(System Object 외에)여야 하는데 {1,number,integer}개를 받았습니다.</entry>
+    <entry key="maxNumOutputs">출력 인수가 너무 많습니다. {0,number,integer}개의 출력값이 요청되었지만 {1,number,integer}개의 출력값만 사용 가능합니다.</entry>
+    <entry key="getNumInputsImplNotDef">{1}의 입력값 개수가 가변적이고 {2}이(가) 구현되지 않아 입력값이 {0,number,integer}개(System Object 외에)여야 합니다. {3}을(를) 구현하거나, 고정된 입력값 개수를 가지도록 {4}을(를) 변경하십시오.</entry>
+    <entry key="getNumOutputsImplNotDef">{1}의 출력값 개수가 가변적이고 {2}이(가) 구현되지 않아 출력값이 {0,number,integer}개여야 합니다. {3}을(를) 구현하거나, 고정된 출력값 개수를 가지도록 {4}을(를) 변경하십시오.</entry>
+    <entry key="methodNotFound">{0} 메서드 정의를 찾을 수 없습니다.</entry>
+    <entry key="minNumInputs">입력 인수가 부족합니다. {0,number,integer}개(System Object 외에)여야 하는데 {1,number,integer}개를 받았습니다.</entry>
+    <entry key="mismatchedmodes">다음 속성은 설정이 동일해야 함: {0}</entry>
+    <entry key="mismatchedwordlengths">다음 속성은 워드 길이 설정이 동일해야 함: {0}</entry>
+    <entry key="mixedDirectFeedthroughMultirate">멀티레이트(Multirate)와 직접 피드 스루(Direct Feed Through)는 동시에 사용할 수 없습니다.</entry>
+    <entry key="multirateInputEmpty">{0,number,integer}번째 입력값은 비어 있을 수 없습니다.</entry>
+    <entry key="multirateInputNotScheduled">이 단계에서는 {0,number,integer}번째 입력값이 예정되어 있지 않습니다.</entry>
+    <entry key="multirateNotSupported">멀티레이트(Multirate)는 지원되지 않습니다.</entry>
+    <entry key="multirateNotSupportedBuffer">멀티레이트(Multirate)는 지원되지 않습니다. dsp.Buffer System Object의 경우 행 입력 수는 Length - OverlapLength와 같아야 합니다.</entry>
+    <entry key="multirateOutputNotScheduled">이 단계에서는 출력값 {0,number,integer}이(가) 예정되어 있지 않습니다. hasOutput 메서드를 사용하여 출력값을 사용할 수 있는지 여부를 확인하십시오.</entry>
+    <entry key="inputMustBePosIntValuedScalar">''{1}'' 메서드에 대한 ''{0}'' 입력값은 양의 정수 값 스칼라여야 합니다.</entry>
+    <entry key="mustBeAutoSignedNumericType">{0} 속성값은 부호의 유무가 ''Auto''로 설정된 숫자형이어야 합니다.</entry>
+    <entry key="mustBeSignedOrAutoSignedNumericType">{0} 속성값은 부호의 유무가 ''true'' 또는 ''Auto''로 설정된 숫자형이어야 합니다.</entry>
+    <entry key="mustBeFixedPointNumericType">{0} 속성은 고정소수점 숫자형이어야 합니다.</entry>
+    <entry key="mustBeLowerBoundedIntInput">입력값은 {0,number,integer}보다 크거나 같은 정수 값 스칼라여야 합니다.</entry>
+    <entry key="mustBeNotScaledNumericType">{0} 속성은 스케일링이 지정되지 않아야 합니다.</entry>
+    <entry key="mustBeScaledNumericType">{0} 속성에는 소수부 길이가 지정되어 있어야 합니다.</entry>
+    <entry key="mustBeSignedNumericType">{0} 속성은 부호가 있는 숫자형이어야 합니다.</entry>
+    <entry key="mustBeSpecSignedNumericType">{0} 속성값은 부호의 유무가 ''Signed'' 또는 ''Unsigned''로 설정된 숫자형이어야 합니다.</entry>
+    <entry key="mustBeUnsignedNumericType">{0} 속성은 부호가 없는 숫자형이어야 합니다.</entry>
+    <entry key="mustImplementPropMethod">유효하지 않은 {0} 메서드임: 입력값 개수 및/또는 출력값 개수가 1일 아닐 때 구현해야 합니다.</entry>
+    <entry key="numberInputArgsConstraints">{0} 메서드는 인수를 사용하지 않거나 한 개 사용하여 호출해야 합니다(obj 인수 제외).</entry>
+    <entry key="noCodegen">{0} System Object에는 코드 생성이 지원되지 않습니다.</entry>
+    <entry key="noDiscreteStateSpecOverride">If your class has any DiscreteState properties, then you must implement the getDiscreteStateSpecificationImpl() method.</entry>
+    <entry key="noFilesSelected">파일을 선택하지 않았습니다. 파일 선택이 최소되었습니다.</entry>
+    <entry key="NoStepWithOutputUpdate">{0} System Object는 stepImpl을 정의하고 outputImpl 및 updateImpl 중 하나 또는 둘 모두를 정의합니다. stepImpl 메서드는 비직접 피드스루 outputImpl 메서드 및 updateImpl 메서드와 결합할 수 없습니다.</entry>
+    <entry key="NoPublicOutputUpdate">{0} System Object는 {1} 메서드를 정의하며 updateImpl 메서드 또는 outputImpl 메서드도 구현합니다. System Object {1} 메서드와 충돌하지 않도록 {1} 메서드의 이름을 바꾸십시오.</entry>
+    <entry key="nonRelevantProperty">{0} 속성은 System Object의 이 구성과 관련이 없습니다.</entry>
+    <entry key="nonScalarGet">get 메서드는 스칼라 System Object에만 동작합니다.</entry>
+    <entry key="nonScalarSet">set 메서드는 스칼라 System Object에만 동작합니다.</entry>
+    <entry key="nonZeroOutputsUpdate">update 메서드에서는 어떤 값도 반환되지 않습니다.</entry>
+    <entry key="noSuchMethodOrField">{1} 클래스에 유효하지 않은 메서드, 속성 또는 필드 {0}입니다.</entry>
+    <entry key="notCharOrStringArg">''{0}'' 인수는 string형 배열 또는 문자형 배열이어야 합니다.</entry>
+    <entry key="notValidArg2Possible">''{0}'' 인수는 ''{1}'' 또는 ''{2}''이어야 합니다.</entry>
+    <entry key="notLocked">{0} 메서드는 잠긴 System Object에서만 호출될 수 있습니다.</entry>
+    <entry key="noTuningBeforeLockingCodeGen">이 System Object가 잠기기 전에는 조정 가능형 속성을 변경할 수 없습니다.</entry>
+    <entry key="notUnlocked">{0} 메서드는 잠금 해제된 System Object에서만 호출될 수 있습니다.</entry>
+    <entry key="numArgsMustBeEven">인수의 개수는 짝수여야 합니다.</entry>
+    <entry key="numerictypeNotSpecified">{0} 속성은 숫자형 객체로 설정되어야 합니다.</entry>
+    <entry key="openInEditor">소스 코드</entry>
+    <entry key="outOfMemory">메모리를 할당할 수 없습니다.</entry>
+    <entry key="outputChangedRealToComplex">&lt;a href="matlab:helpview(fullfile(docroot,''matlab'',''matlab_prog'',''matlab_prog.map''),''sysobjs_locked'')"&gt;release()&lt;/a&gt; 메서드를 먼저 호출하지 않으면 {0,number,integer}번째 출력값을 실수형에서 복소수형으로 변경할 수 없습니다.</entry>
+    <entry key="outputImplUndefined">getNumOutputs &gt; 0인 출력값을 반환하는 System Object에 대해서는 outputImpl 메서드를 정의해야 합니다.</entry>
+    <entry key="OutputUpdateOnStepImpl">output 메서드와 update 메서드는 outputImpl 또는 updateImpl을 구현하지 않으므로 ''{0}'' System Object에 대해 호출할 수 없습니다. 함수를 호출하는 것처럼 System Object를 호출하십시오.</entry>
+    <entry key="outIdxOutOfRange">출력 인덱스 {0,number,integer}이(가) 범위를 벗어났습니다. 1과 {1,number,integer} 사이여야 합니다.</entry>
+    <entry key="outputNotReady">출력값을 사용할 수 있으려면 먼저 System Object를 초기화해야 합니다.</entry>
+    <entry key="outputSpecsChangedError">&lt;a href="matlab:helpview(fullfile(docroot,''matlab'',''matlab_prog'',''matlab_prog.map''),''sysobjs_locked'')"&gt;release()&lt;/a&gt; 메서드를 먼저 호출하지 않으면 출력값의 데이터형 또는 차원을 변경할 수 없습니다.</entry>
+    <entry key="paramNotFound">{0} 클래스에 이름이 {1}인 파라미터가 없습니다.</entry>
+    <entry key="prefixesParamNotProvided">getFixptDataTypeInfo 호출 시 접두사 파라미터가 필요합니다.</entry>
+    <entry key="propertyInvalidSetAccess">{1} 클래스의 {0} 속성은 설정할 수 없습니다.</entry>
+    <entry key="propertySetWhenLocked">&lt;a href="matlab:helpview(fullfile(docroot,''matlab'',''matlab_prog'',''matlab_prog.map''),''sysobjs_locked'')"&gt;release()&lt;/a&gt; 메서드를 먼저 호출하지 않으면 조정 불가형 속성의 값을 변경할 수 없습니다.</entry>
+    <entry key="propagationFailed">전파 후 {1} {2,number,integer}에 대해 {0}이(가) 설정되지 않았습니다.</entry>
+    <entry key="propNameNotConstCodegen">속성 이름은 코드 생성 시 변경되지 않아야 합니다.</entry>
+    <entry key="missingPropertyPortIndex">포트 순서 {0,number,integer}이(가) 누락되었습니다. 'PropertyOrInput'으로 명명된 SourceSet 정책에는 고유하고 연속된 포트 순서가 있어야 합니다.</entry>
+    <entry key="duplicatePropertyPortIndex">포트 순서 {0,number,integer}이(가) 중복됩니다. 'PropertyOrInput'으로 명명된 SourceSet 정책에는 고유하고 연속된 포트 순서가 있어야 합니다.</entry>
+    <entry key="propTunableSpecsChanged">&lt;a href="matlab:helpview(fullfile(docroot,''matlab'',''matlab_prog'',''matlab_prog.map''),''sysobjs_locked'')"&gt;release()&lt;/a&gt; 메서드를 먼저 호출하지 않으면 속성값의 데이터형을 변경할 수 없습니다.</entry>
+    <entry key="propTunableSpecsChangedSystemBlock">파라미터 값의 데이터형은 변경할 수 없습니다.</entry>
+    <entry key="sfunPropTunableSpecsChangedCodegen">이 객체가 생성된 후에는 조정 가능형 속성값의 크기를 변경할 수 없습니다.</entry>
+    <entry key="saveObjectImplNotImplemented">{0} System Object에 프라이빗 속성 또는 보호 속성이 있는데 saveObjectImpl 메서드와 loadObjectImpl 메서드가 모두 구현되지는 않았습니다. 이 객체가 잠겨 있을 때는 save, load, clone 메서드가 객체를 정확하게 복사하지 못할 수 있습니다.</entry>
+    <entry key="setContinuousStateNotSupported">이 객체에는 setContinuousState 메서드가 지원되지 않습니다.</entry>
+    <entry key="setDiscreteStateNotSupported">이 객체에는 setDiscreteState 메서드가 지원되지 않습니다.</entry>
+    <entry key="setStateInputNotStruct">{0} 메서드에 대한 입력값은 빈 값이거나 해당 필드로 {1} 상태를 가진 구조체여야 합니다.</entry>
+    <entry key="setStateNotLocked">{0} 메서드는 잠긴 System Object에서만 호출될 수 있습니다.</entry>
+    <entry key="setupCalledWhenLocked">{0}에 의해 보고됨: 초기화된 System Object에 대해 setup 메서드가 호출되어 System Object가 다시 초기화되었습니다. 이는 성능에 영향을 미칩니다.</entry>
+    <entry key="setupCalledWhenLockedCodegen">초기화된 System Object에 대해서는 setup 메서드를 호출할 수 없습니다.</entry>
+    <entry key="showSimulateUsingType">showSimulateUsingImpl에서 예기치 않은 유형이 반환되었습니다. true 또는 false를 지정해야 합니다.</entry>
+    <entry key="showFiSettingsType">showFiSettingsImpl에서 예기치 않은 유형이 반환되었습니다. true 또는 false를 지정해야 합니다.</entry>
+    <entry key="tooManyElementsInput">{0}에 의해 보고됨: {1,number,integer}번째 입력값에 요소가 너무 많습니다. 요소의 최대 개수는 {2,number,integer}개입니다.</entry>
+    <entry key="tooManyElementsOutput">{0}에 의해 보고됨: {1,number,integer}번째 출력값에 요소가 너무 많습니다. 요소의 최대 개수는 {2,number,integer}개입니다.</entry>
+    <entry key="methodCalledWhenLockedReleasedCodegen">초기화된 System Object에 대해 또는 release 메서드를 호출한 후에는 {0} 메서드를 호출할 수 없습니다.</entry>
+    <entry key="methodCalledWhenReleasedCodegen">release 메서드를 호출한 후에는 {0} 메서드를 호출할 수 없습니다.</entry>
+    <entry key="setupCalledWhenLockedReleasedCodegen">초기화된 System Object에서 또는 release 메서드를 호출한 후에는 setup 메서드를 호출할 수 없습니다.</entry>
+    <entry key="ShowAllPropertiesText">모든 속성 표시</entry>
+    <entry key="runtimeMethodCalledWhenReleasedCodegen">release 메서드를 호출한 후에는 런타임 메서드를 호출할 수 없습니다. 런타임 메서드로는 ''step'', ''output'', ''update'', ''release''가 있습니다.</entry>
+    <entry key="sparseInput">입력 인수는 희소 형식이 아니어야 합니다.</entry>
+    <entry key="srcSetReusePropArgList">'ReuseProperty'와 같이 이름-값 쌍이 지정된 경우, 셀형 배열 구문을 사용하여 SourceSet 정책을 지정해야 합니다.</entry>
+    <entry key="sourceSetDisallowedAttributes">{0}은(는) SourceSet입니다. Constant 특성을 가져야 하며, Logical, PositiveInteger, DiscreteState, Nontunable, Abstract, Transient 또는 Dependent 특성은 가질 수 없습니다.</entry>
+    <entry key="sourceSetCntrlPropNotFound">{0}은(는) SourceSet 속성의 제어 속성으로 명명되며 {1}에서 찾을 수 없습니다.</entry>
+    <entry key="SourceSetControlProperyNotString">SourceSet 속성 {0}의 제어 속성은 문자형 배열이어야 합니다.</entry>
+    <entry key="sourceSetControlMethodMissing">{0}은(는) SourceSet으로 명명된 메서드이며, 누락되거나 기본 클래스에 있고, 프라이빗 액세스를 가집니다.</entry>
+    <entry key="sourceSetControlMethodInvalid">{0}은(는) SourceSet에 사용되는 메서드입니다. System Object의 메서드여야 하며, obj 파라미터를 제외하고는 입력값을 가져선 안 됩니다.</entry>
+    <entry key="sourceSetControlMethodStaticAbstract">{0}은(는) SourceSet에 사용되는 메서드이며 Static이나 Abstract가 될 수 없습니다.</entry>
+    <entry key="sourceSetControlPropInvalid">{0}은(는) SourceSet 속성의 제어 속성이며 System Object의 속성이어야 합니다. 또한 Nontunable 및 Logical 특성(Attribute)을 가지되, Hidden 특성은 가질 수 없습니다.</entry>
+    <entry key="sourcesetInvalidOptionalParameter">{0} SourceSet 정책에 부적절한 입력값 {1}이(가) 있습니다.</entry>
+    <entry key="sourceSetPairedDisallowedAttributes">{0}은(는) SourceSet과 쌍을 이룹니다. 퍼블릭 액세스가 있어야 하며 Logical, DiscreteState, Nontunable, Abstract, Transient 또는 Dependent 특성은 가질 수 없습니다.</entry>
+    <entry key="sourceSetPairedMismatch">SourceSet 속성 {0}에 대응하는 속성 {1}이(가) 없습니다.</entry>
+    <entry key="specsChangedCodeGen">{0}에 의해 보고됨: System Object가 잠겨 있을 때는 {1} 메서드 입력값의 차원, 실수/복소수 여부, 데이터형을 변경할 수 없습니다.</entry>
+    <entry key="stateDiscreteContinuous">속성 ''{0}''은(는) DiscreteState인 동시에 ContinuousState일 수 없습니다.</entry>
+    <entry key="stateInvalidAccess">{0} 속성 ''{1}''에는 퍼블릭 GetAccess가 있어야 합니다.</entry>
+    <entry key="stateInvalidProperties">{0} 속성 ''{1}''은(는) 추상형(Abstract), 상수(Constant), 종속형(Dependent), 조정 불가형(Nontunable), 정적(Static), 과도형(Transient)이 아니어야 합니다.</entry>
+    <entry key="stateInvalidPublicSet">속성 ''{0}''을(를) 설정할 수 없습니다. 보호된 set 액세스가 있는 상태 속성은 System Object 외부에서 설정할 수 없습니다.</entry>
+    <entry key="stateInvalidSet">상태 속성 ''{0}''은(는) 그 객체가 초기화될 때(setupImpl에서) 또는 객체가 잠긴 후에만 설정할 수 있습니다.</entry>
+    <entry key="stateNonNullDefault">{0} 속성 ''{1}''의 디폴트 값은 설정되지 않아야 합니다.</entry>
+    <entry key="stateSpecChanged">상태 속성 ''{1}''에 대한 {0}이(가) 변경되었습니다. System Object가 잠긴 후에는 DiscreteState 속성의 데이터형, 차원, 실수/복소수 여부를 변경할 수 없습니다.</entry>
+    <entry key="stepImplUndefined">getNumOutputs &gt; 0인 출력값을 반환하는 System Object에 대해서는 stepImpl 메서드를 정의해야 합니다.</entry>
+    <entry key="sysobjupdateMessage">이 데이터 구조에는 {0}에서 권장되는 System Object 구문 변경 내용이 포함되어 있습니다.</entry>
+    <entry key="sysobjupdateInvalidInput">인식할 수 없는 입력값입니다. 유효한 입력값에 대한 자세한 내용을 보려면 "help {0}"을(를) 입력하십시오.</entry>
+    <entry key="sysobjupdateInvalidInteractive">유효하지 않은 입력 인수입니다. 입력 인수 INTERACTIVE는 논리형(true 또는 false)이어야 합니다.</entry>
+    <entry key="sysobjupdateInvalidNumInputs">입력값 개수가 올바르지 않습니다. OperatingMode에 유효한 값은 Analyze, GenerateNew, Overwrite입니다.</entry>
+    <entry key="sysobjupdateInvalidOperatingMode">유효하지 않은 OperatingMode 값입니다. OperatingMode에 유효한 값은 Analyze, GenerateNew, Overwrite입니다.</entry>
+    <entry key="sysobjupdateSizeMismatch">기존 이름의 개수가 새 이름의 개수와 일치하지 않습니다.</entry>
+    <entry key="sysobjupdateUnsupportedVersion">지원되지 않는 MATLAB 버전(R{0})입니다. SYSOBJUPDATE는 버전 R2010b 이상에서만 지원됩니다.</entry>
+    <entry key="systemPropNotSystemObject">matlab.system.SystemProp 클래스는 System Object에만 사용할 수 있습니다.</entry>
+    <entry key="throwObsoleteWarningInvalidInput">입력 TYPE은 ''property'', ''method'', ''package'' 중 하나여야 합니다.</entry>
+    <entry key="throwObsoleteWarningIncompatible">{0}{1}은(는) 향후 릴리스에서 제거될 예정입니다.</entry>
+    <entry key="throwObsoleteWarningIncompatibleNewName">{0}{1}은(는) 향후 릴리스에서 제거될 예정입니다. 대신 {2}을(를) 사용하십시오.</entry>
+    <entry key="throwObsoleteWarningIncompatibleNewNameUpdate">{0}{1}은(는) 향후 릴리스에서 제거될 예정입니다. 대신 {2}을(를) 사용하십시오. SYSOBJUPDATE를 실행하여 코드를 자동으로 업데이트하십시오. 자세한 내용은 {3} 릴리스 정보를 참조하십시오.</entry>
+    <entry key="throwObsoleteWarningIncompatibleUpdate">{0}{1}은(는) 향후 릴리스에서 제거될 예정입니다. SYSOBJUPDATE를 실행하여 코드를 자동으로 업데이트하십시오. 자세한 내용은 {2} 릴리스 정보를 참조하십시오. </entry>
+    <entry key="throwObsoleteWarningNotRecommended">{0}{1}은(는) 권장되지 않습니다.</entry>
+    <entry key="throwObsoleteWarningNotRecommendedNewName">{0}{1}은(는) 권장되지 않습니다. 대신 {2}을(를) 사용하십시오.</entry>
+    <entry key="throwObsoleteWarningNotRecommendedNewNameUpdate">{0}{1}은(는) 권장되지 않습니다. 대신 {2}을(를) 사용하십시오. SYSOBJUPDATE를 실행하여 코드를 자동으로 업데이트하십시오. 자세한 내용은 {3} 릴리스 정보를 참조하십시오.</entry>
+    <entry key="throwObsoleteWarningNotRecommendedUpdate">{0}{1}은(는) 권장되지 않습니다. SYSOBJUPDATE를 실행하여 코드를 자동으로 업데이트하십시오. 자세한 내용은 {2} 릴리스 정보를 참조하십시오.</entry>
+    <entry key="tooManyInputsDimensions">코드 생성 시 가변 크기 입력값에 대해 {0,number,integer}개를 초과하는 차원은 지원되지 않습니다.</entry>
+    <entry key="unknownDataType">알 수 없는 인덱스 입력값 데이터형입니다.</entry>
+    <entry key="unlockedMethodCall">초기화되지 않은 System Object에 대해서는 {0} 메서드를 호출할 수 없습니다.</entry>
+    <entry key="unsupportedHDLMethod">HDL 코드 생성 시 ''{0}'' 메서드로의 호출은 지원되지 않습니다.</entry>
+    <entry key="unsupportedInputDataType">입력값은 숫자형 변수, 논리형 변수, fi 객체 중 하나여야 합니다.</entry>
+    <entry key="unsupportedFixptDataType">fi 객체 입력값 또는 출력값에는 스케일링이 지정되어야 합니다.</entry>
+    <entry key="fixptDataTypeCreationFailed">지정된 fi 객체에 대해 고정소수점 형식의 문자형 벡터를 생성할 수 없습니다.</entry>
+    <entry key="unsupportedFixptDataTypeCodeGen">fi 객체 입력값에는''Double'', ''Single'', ''Fixed-point: binary point scaling'', ''Scaled double: binary point scaling'' 중 하나로 설정된 DataTypeMode 속성이 있어야 합니다.</entry>
+    <entry key="unsupportedFixptDataTypeStateCodeGen">fi 객체에는 ''Double'', ''Single'', ''Fixed-point: binary point scaling'', ''Scaled double: binary point scaling'' 중 하나로 설정된 DataTypeMode 속성이 있어야 합니다.</entry>
+    <entry key="unsupportedIOFixptDataType">fi 객체 {0} {1} System Object에는 'Double', 'Single', 'Fixed-point: binary point scaling' 중 하나로 설정된 DataTypeMode 속성이 있어야 합니다.</entry>
+    <entry key="unsupportedMixedFloats">이 System Object에는 혼합 부동소수점 유형이 지원되지 않습니다.</entry>
+    <entry key="unsupportedSetCodegen">Set 메서드는 코드 생성 시 &lt;name, value&gt; 입력값만 받습니다.</entry>
+    <entry key="unsupportedStateValueContinuous">ContinuousState 속성값은 희소 형식이 아닌 실수 값 double형 벡터여야 합니다.</entry>
+    <entry key="unsupportedStateValueDiscrete">DiscreteState 속성값은 숫자형 변수, 논리형 변수, fi 객체 중 하나여야 하며 희소 형식이 아니어야 합니다.</entry>
+    <entry key="unsupportedContinuousStatePropertiesHDL">HDL 코드 생성 시 ContinuousState 속성을 가진 System Object는 지원되지 않습니다.</entry>
+    <entry key="unknownActionPlacement">Action Placement ''{0}''이(가) ''first'', ''last'' 또는 해당 그룹의 PropertyList에 포함된 속성 이름과 일치하지 않습니다.</entry>
+    <entry key="unknownImagePlacement">Image Placement ''{0}'' does not match ''first'', ''last'', or the name of a property in its group PropertyList.</entry>
+    <entry key="emptyImageFile">The File property for matlab.system.display.Image class must not be empty.</entry>
+    <entry key="unknownDisplayProperty">PropertyList 항목 ''{0}''은(는) 어떤 속성과도 일치하지 않습니다.</entry>
+    <entry key="unknownDependOnPrivateProperty">DependOnPrivatePropertyList 항목 ''{0}''은(는) PropertyList의 어떤 속성과도 일치하지 않습니다.</entry>
+    <entry key="unknownSystem">System Object ''{0}''을(를) 찾을 수 없거나 유효하지 않습니다.</entry>
+    <entry key="unknownSystemMapKey">System Object가 일치하는 키를 찾을 수 없습니다.</entry>
+    <entry key="unknownWidgetType">알 수 없는 위젯 유형입니다.</entry>
+    <entry key="updateCalledAfterSpecsChanged">유효하지 않은 update 호출임 - 입력값 사양이 변경되었습니다.</entry>
+    <entry key="updateCalledBeforeSetup">step 또는 output이 호출되기 전에 update 메서드를 호출할 수 없습니다.</entry>
+    <entry key="updateCalledBeforeSetupCodegen">{0}에 의해 보고됨: step 또는 output이 호출되기 전에 update 메서드를 호출할 수 없습니다.</entry>
+    <entry key="updateScompHelpInvalidFlag">유효하지 않은 플래그임: {0}</entry>
+    <entry key="varDimNotSupported">{0}에 의해 보고됨: 이 System Object(또는 이 System Object의 현재 구성)에는 가변 입력값 크기가 지원되지 않습니다.</entry>
+    <entry key="varsizeOutputDimsMoreThanTwo">{0}에 의해 보고됨: 이 System Object에는 3차원 이상을 가진 데이터로 구성된 가변 크기 출력값이 지원되지 않습니다.</entry>
+    <entry key="varsizeOutputDimsScalar">{0}에 의해 보고됨: 크기를 변경할 수 있는 스칼라 출력 신호에 대해서는 코드 생성이 지원되지 않습니다.</entry>
+    <entry key="varsizeScalarInput">{0,number,integer}번째 입력값에 가변 크기 스칼라는 허용되지 않습니다.</entry>
+    <entry key="warnForLoadDiscreteState">{0}에 의해 보고됨: Discrete state ''{1}''에 대해 저장된 사양이 현재 사양과 일치하지 않습니다. 저장된 데이터를 불러오지 않습니다.</entry>
+    <entry key="warnForLoadPersistentOutput">{0}에 의해 보고됨: 포트 {1,number,integer}에 대해 저장된 사양이 현재 사양과 일치하지 않습니다. 저장된 데이터를 불러오지 않습니다.</entry>
+    <entry key="WithPropertiesText">- 속성 있음:</entry>
+    <entry key="WithNoPropertiesText">속성이 없습니다.</entry>
+    <entry key="wordLengthTooLarge">System Object에는 128비트보다 큰 고정소수점 워드 길이가 지원되지 않습니다.</entry>
+    <entry key="wrongParamFormat">(내부) 파라미터가 셀 형식이어야 합니다.</entry>
+    <entry key="wrongPlatform">(내부) 인식할 수 없는 플랫폼임: {0}.</entry>
+    <entry key="wrongRenderer">(내부) 인식할 수 없는 렌더러임: {0}.</entry>
+    <entry key="CRLDWorkDimArgIsNotDerivedParam">인수 ''{0}''은(는) 차원을 나타내는 파생된 인수로 유효하지 않습니다. 인수는 파생된 파라미터여야 합니다.</entry>
+    <entry key="CRLCannotEvaluateDWorkDimArg">파생된 파라미터를 나타내는 표현식 ''{0}''이(가) 스칼라가 아닙니다. 파생된 인수로 차원을 나타내는 파라미터는 double형 스칼라여야 합니다.</entry>
+    <entry key="CRLMatrixTypeForDWorkLength">차원을 나타내는 인수 ''{0}''은(는) 스칼라여야 합니다.</entry>
+    <entry key="CRLInvalidTypeForDWorkDimArg">''{0}''의 데이터형이 유효하지 않습니다. 파생된 파라미터는 ''double''형이어야 합니다.</entry>
+    <entry key="CRLCompileErrorForDerivedArg">파생된 표현식의 CRL 컴파일 오류: {0}을(를) 사용하려면 표현식 {2}에서 {1}을(를) 정의해야 합니다.</entry>
+    <entry key="CRLNoTunableSupport"> CRL을 사용할 때 System Object를 잠근 후에는 조정 가능형 속성을 변경할 수 없습니다. step 호출 후에는 {0}의 다음 속성을 변경할 수 없습니다. {1}.</entry>
+    <entry key="DialogErrorSettingProperty">System Object에 대한 속성 설정 오류</entry>
+    <entry key="DataTypesGroupDefaultDescription">부동소수점 상속이 이 섹션의 데이터형 설정보다 우선합니다. 블록 입력값을 부동소수점으로 입력하면 블록 내 모든 데이터형이 입력값과 일치하게 됩니다.</entry>
+    <entry key="DataTypesGroupDefaultTitle">데이터형</entry>
+    <entry key="DataTypesGroupInvalidProperty">DataTypesGroup의 Property 객체를 사용할 수 없습니다.  대신 DataTypeProperty 객체를 사용하십시오.</entry>
+    <entry key="UnknownValueProperty">ValuePropertyName으로 지정된 속성 ''{0}''이(가) 존재하지 않습니다.</entry>
+    <entry key="DialogOKButton">확인</entry>
+    <entry key="DialogCancelButton">취소</entry>
+    <entry key="DialogUnappliedChangesTitle">적용되지 않은 변경 내용: {0}</entry>
+    <entry key="DialogInvalidExpression">입력된 값을 계산할 수 없습니다. 모든 값은 유효한 MATLAB 표현식이어야 합니다.</entry>
+    <entry key="DialogUnappliedChangesText">버튼을 사용하려면 대화 상자 변경 사항을 적용해야 합니다.</entry>
+    <entry key="DialogCannotCompleteAction">오류로 인해 동작을 완료할 수 없습니다.\n\n{0}</entry>
+    <entry key="SimulateUsingErrorWithFiSettings">showFiSettings가 true로 설정된 경우 'SimulateUsing' 파라미터는 'Code generation'으로 설정되어야 합니다.</entry>
+    <entry key="ShowFiSettingsErrorWithDataTypeGroup">showFiSettings가 true로 설정된 경우에는 데이터형 속성이 지원되지 않습니다.</entry>
+    <entry key="mustReturnNonnegativeIntScalar">{0}은(는) {1}보다 작은 음이 아닌 정수 값 숫자형 스칼라를 반환해야 합니다.</entry>
+    <entry key="mustReturnPositiveIntScalar">{0}은(는) {1}보다 작은 양의 정수 값 숫자형 스칼라를 반환해야 합니다.</entry>
+    <entry key="mustReturnNonnegativeIntScalarCodegen">{0}에 의해 보고됨: {1}은(는) {2}보다 작은 음이 아닌 정수 값 숫자형 스칼라를 반환해야 합니다.</entry>
+    <entry key="sizeMustBeNonnegativeIntScalarCodegen">{0}에 의해 보고됨: {1}에 의해 반환된 크기가 유효하지 않습니다. 각 차원은 {2}보다 작은 음이 아닌 정수 값 숫자형 스칼라여야 합니다.</entry>
+    <entry key="invalidImpulseResponseLength">{0}은(는) {1}보다 작은 음이 아닌 정수 값 숫자형 스칼라 또는 Inf를 반환해야 합니다. </entry>
+    <entry key="mismatchGetNumInputsImplStepImpl">{1}에서 {0}에 대한 정의가 잘못되었습니다. {2}이(가) {3, number, integer}개를 반환했지만, {4}은(는) (System Object 외에) {5,number,integer}개의 입력 인수를 정의했습니다. {6}은(는) (System Object 외에) 적어도 {7,number,integer}개의 입력 인수를 정의해야 합니다.</entry>
+    <entry key="IsChangedPropertyExpectedText">isChangedProperty에 속성 이름을 지정하려면 문자형 벡터, 문자형 벡터로 구성된 셀형 배열 또는 string형 배열을 사용하십시오.</entry>
+    <entry key="maxNumInputsFewerAllowed">입력 인수가 너무 많습니다. System Object 외에 최대 {0,number,integer}개의 입력 인수가 필요하지만, 실제로는 {1,number,integer}개입니다.</entry>
+    <entry key="UndefinedMethod">''{1}'' 클래스에 예상된 시그니처를 갖는 메서드 ''{0}''이(가) 없습니다.</entry>
+    <entry key="getInterfaceImplReturnInvalidValue">''{0}''에 대해 getInterfaceImpl에서 반환된 값이 유효하지 않습니다. 반환 값은 입력 요소와 출력 요소로 구성된 벡터여야 합니다.</entry>
+    <entry key="cannotFindSymbol">{0}</entry>
+    <entry key="cannotLoadModule">{0}</entry>
+    <entry key="genericError">{0}</entry>
+    <entry key="helpCommandLineForIsLocked">
+      isLocked Locked status for input attributes and non-tunable properties\n
+      L = isLocked(OBJ) returns a logical value, L, which indicates whether\n
+      \ \ \ input attributes and non - tunable properties are locked for the System\n
+      \ \ \ object, OBJ. The object performs an internal initialization the first\n
+      \ \ \ time the step method is executed. This initialization locks non-tunable\n
+      \ \ \ properties and input specifications, such as dimensions, complexity, \n
+      \ \ \ and data type of the input data. After OBJ is locked, the isLocked method\n
+      \ \ \ returns a true value.\n
+      \n
+      \ \ \ See also &lt;a href="matlab:help matlab.System/step"&gt;step&lt;/a&gt;, &lt;a href="matlab:help matlab.System/release"&gt;release&lt;/a&gt;.</entry>
+    <entry key="helpCommandLineForRelease">
+      release Allow property value and input characteristics changes\n
+      \ \ \ release(OBJ) releases system resources (such as memory, file handles or\n
+      \ \ \ hardware connections) of System object, OBJ. After release() is called, all the\n
+      \ \ \ properties and input characteristics of OBJ can be changed.\n
+      \n
+      \ \ \ Once you call the release method on a System object, subsequent calls\n
+      \ \ \ to setup, step, reset, or release are not supported for code\n
+      \ \ \ generation.\n
+      \n
+      \ \ \ See also &lt;a href="matlab:help matlab.System/isLocked"&gt;isLocked&lt;/a&gt;, &lt;a href="matlab:help matlab.System/release"&gt;step&lt;/a&gt;.</entry>
+    <entry key="helpCommandLineForReset">
+      reset Reset the internal states of a System object\n
+      \ \ \ reset(OBJ) resets the internal states of System object OBJ to their\n
+      \ \ \ initial values.\n
+      \n
+      \ \ \ Objects that have internal states will describe in their help\n
+      \ \ \ what the reset method does for that object.  System objects\n
+      \ \ \ with no states are unaffected by reset.\n</entry>
+    <entry key="matlabAutoSectionTitle"/>
+  </message>
+</rsccat>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nargin">입력 인수의 개수가 올바르지 않습니다.</entry>
+    <entry key="ppOutput">PP=INTERP1(X,V,METHOD,''pp'')에는 4개의 입력값을 사용하십시오.</entry>
+    <entry key="ppAkima">수정된 아키마 3차 보간에는 ''pp'' 옵션이 지원되지 않습니다.</entry>
+    <entry key="Xvector">X는 벡터여야 합니다.</entry>
+    <entry key="YVectorInvalidNumRows">X와 V의 길이는 동일해야 합니다.</entry>
+    <entry key="YInvalidNumRows">LENGTH(X) 및 SIZE(V,1)은 동일해야 합니다.</entry>
+    <entry key="NotEnoughPts">최소 두 개의 데이터 점이 필요합니다.</entry>
+    <entry key="InvalidMethod">유효하지 않은 보간 방법입니다.</entry>
+    <entry key="InvalidSpecPPExtrap">유효하지 않은 문자형 벡터 인수입니다. ''pp'' 또는 ''extrap''을 지정했는지 확인하십시오.</entry>
+    <entry key="NonScalarExtrapValue">EXTRAP 옵션은 스칼라여야 합니다.</entry>
+    <entry key="Xnumeric">X는 double형의 벡터 또는 single형의 벡터여야 합니다.</entry>
+    <entry key="NonFloatValues">값 V는 double형 또는 single형이어야 합니다.</entry>
+    <entry key="ExtrapNoMethod">보간 방법은 ''extrap''으로 지정해야 합니다.</entry>
+    <entry key="NaNstrip">NaN 값이 포함된 데이터 열은 보간 중에 무시되었습니다.</entry>
+    <entry key="NoExtrapForV5cubic">'cubic' 및 'v5cubic' 메서드는 외삽을 지원하지 않습니다.</entry>
+    <entry key="ComplexX">X는 실수형 벡터여야 합니다.</entry>
+    <entry key="ComplexInterpPts">보간 지점 Xq는 실수여야 합니다.</entry>
+    <entry key="NaNinX">NaN은 X에 적합한 값이 아닙니다.</entry>
+    <entry key="RepeatedValuesX">X의 값은 달라야 합니다.</entry>
+    <entry key="InvalidExtrap">유효하지 않은 extrap 옵션입니다.</entry>
+    <entry key="NaNinY">V에서 NaN이 발견됨. 정의되지 않은 값에서 보간을 하면 정의되지 않은 값이 발생합니다.</entry>
+    <entry key="ppGriddedInterpolantNext">INTERP1(...,'next','PP')는 지원되지 않습니다. 대신 GRIDDEDINTERPOLANT를 사용하십시오.</entry>
+    <entry key="ppGriddedInterpolantPrevious">INTERP1(...,'previous','PP')는 지원되지 않습니다. 대신 GRIDDEDINTERPOLANT를 사용하십시오.</entry>
+  </message>
+</rsccat>

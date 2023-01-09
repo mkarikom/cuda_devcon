@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputMustBeString">输入参数必须为字符向量、字符串或字符向量元胞数组。</entry>
+    <entry key="IllegalBinaryString">文本必须由字符 0 和 1 组成，可以包含 0b 前缀或类型后缀。此外，输入必须转换为小于 intmax。</entry>
+    <entry key="InputExceedsFlintmax">如果整数大于 flintmax，表示该整数的二进制数可能无法精确地表示为双精度浮点值。</entry>
+    <entry key="InvalidCharacters">二进制文本必须由字符 0 和 1 组成。</entry>
+    <entry key="TooManyDigits">对于指定或隐含的类型后缀，二进制文本的位数太多。</entry>
+    <entry key="SuffixRequiresPrefix">在二进制文本中使用类型后缀需要使用 0b 前缀。</entry>
+  </message>
+</rsccat>

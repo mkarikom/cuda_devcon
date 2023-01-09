@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="Checking">Checking {0}...</entry>
+    <entry key="FailedToCompile">{0} failed to compile.</entry>
+    <entry key="Finished">Completed checking requested directories.</entry>
+    <entry key="MissingArgument">{0} input arguments not supported.</entry>
+    <entry key="MustBeStringScalarOrCharacterVector">All input arguments must be string scalars or character vectors.</entry>
+  </message>
+</rsccat>

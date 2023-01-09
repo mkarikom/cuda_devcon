@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DeprecatedV6Compatibility">グラフィックスに対する V6 互換モードが有効です。これは将来のリリースでエラーになります。</entry>
+    <entry key="DeprecatedV6Argument">引数 "v6" は廃止予定で、将来のリリースでサポートされなくなります。</entry>
+    <entry key="DeprecatedMode">グラフィックスに対応する V6 互換モードを有効にしています。このオプションは、MATLAB の将来のバージョンで削除される予定です。</entry>
+    <entry key="DeprecatedV6ArgumentForFilename">{0} への引数 ''v6'' の利用は推奨されません。これは将来のリリースではサポート廃止の予定です。</entry>
+    <entry key="IgnoringV6Argument">''v6'' 引数を無視します。これは将来のリリースではエラーとなります。</entry>
+    <entry key="IgnoringV6ArgumentForFilename">{0} への ''v6'' 引数を無視します。これは将来のリリースではエラーとなります。</entry>
+  </message>
+</rsccat>

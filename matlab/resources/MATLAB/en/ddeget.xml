@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotEnoughInputs">Not enough input arguments.</entry>
+    <entry key="Arg1NotStruct">First argument must be an options structure created with DDESET.</entry>
+  <!--Resource entries for toolbox/matlab/funfun-->
+    <entry key="InvalidPropName">Unrecognized property name ''{0}''.  See DDESET for possibilities.</entry>
+    <entry key="AmbiguousPropName">Ambiguous property name ''{0}'' ({1}).</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidState">無効な状態</entry>
+    <entry key="InvalidInputRequiresCellArrayOfStrings">無効な入力。文字ベクトルのセル配列が必要です</entry>
+    <entry key="InvalidProperty">{0} プロパティが無効です。</entry>
+    <entry key="InvalidInputStringRequired">無効な入力。文字ベクトルが必要です</entry>
+    <entry key="IncorrectProperty">''{1}'' プロパティが登録されている場合、''{0}'' プロパティは設定できません。</entry>
+    <entry key="InvalidRegistration">現在の変数は、既に変数テーブルに登録されています。</entry>
+    <entry key="DirectCodeGenNotSupported">クラスでサポートされない直接コード生成:</entry>
+  </message>
+</rsccat>

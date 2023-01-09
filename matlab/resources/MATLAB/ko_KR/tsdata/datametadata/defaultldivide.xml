@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ldividenonnumeric">숫자형이 아닌 데이터가 있는 timeseries에 대해서는 수치 연산을 수행할 수 없음</entry>
+    <entry key="nonconfdimLDiv">샘플 크기가 일치하지 않아 ldivide를 수행할 수 없습니다.</entry>
+  </message>
+</rsccat>

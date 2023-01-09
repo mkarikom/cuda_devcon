@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidHandleArguments">引数の数が正しくありません</entry>
+    <entry key="UnknownAlphaValue">Alpha の値が不明です。</entry>
+    <entry key="ParameterIgnored">パラメーター {0} は {1} オブジェクトと互換性がありません。</entry>
+    <entry key="ParameterIgnoredObjects">パラメーター {0} は、指定されたオブジェクトと互換性がありません。</entry>
+    <entry key="UnrecognizedObject">alpha コマンドは、指定されたオブジェクトと互換性がありません。</entry>
+    <entry key="DeletedObject">削除されたグラフィックス オブジェクトに透明度を設定することはできません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidFont">Font set must be of type struct</entry>
+    <entry key="UnpairedParamsValues">Param/value pairs must come in pairs.</entry>
+    <entry key="InvalidInitialFont">InitialFont set must be of type struct</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="InvalidTitleType" note="stringDatatypeUpdate">Title must be a character vector</entry>
+    <entry key="InvalidTitleString">Title set is invalid</entry>
+    <entry key="IllegalParameterType" note="stringDatatypeUpdate">Parameter at input {0,number,integer} must be a character vector.</entry>
+    <entry key="IllegalParameter">Parameter "{0}" is unrecognized.</entry>
+  </message>
+</rsccat>

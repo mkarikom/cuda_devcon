@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="complexArgs">입력값은 실수여야 합니다.</entry>
+    <entry key="numericArg">입력값은 숫자형이어야 합니다.</entry>
+    <entry key="sizeMismatch">입력값은 크기가 동일해야 합니다.</entry>
+    <entry key="outOfRange">double형 입력값은 ASSUMEDTYPE 범위 내의 정수 값을 가지고 있어야 합니다.</entry>
+    <entry key="sparseArgs">입력값은 비희소(Full) 형식이어야 합니다.</entry>
+    <entry key="unknownTypeString">ASSUMEDTYPE은 정수형 이름이어야 합니다.</entry>
+    <entry key="invalidTypeString">정수 입력값은 정수 자체 유형 이외 다른 유형으로는 인식되지 않습니다.</entry>
+  </message>
+</rsccat>

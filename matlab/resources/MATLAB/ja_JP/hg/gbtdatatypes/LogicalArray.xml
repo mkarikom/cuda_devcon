@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="isEqual">LogicalArray:isEqual 内の不明な例外</entry>
+    <entry key="BadLogicalArrayRowVector">値は行ベクトルでなければなりません</entry>
+    <entry key="BadLogicalArray">値は、logical または logical 配列でなければなりません</entry>
+  </message>
+</rsccat>

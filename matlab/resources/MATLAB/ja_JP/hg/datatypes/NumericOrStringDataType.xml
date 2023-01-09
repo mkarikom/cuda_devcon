@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArrayClass">値は文字ベクトル、categorical 配列、string 配列、数値配列、または文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="InvalidCellArray">cell 配列には空でない文字ベクトル、string ベクトル、または数値のみを含めることができます。</entry>
+    <entry key="isEqual">NumericOrStringDataType::isEqual の例外。</entry>
+  </message>
+</rsccat>

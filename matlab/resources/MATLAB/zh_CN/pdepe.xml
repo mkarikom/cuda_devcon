@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">输入参数的数目不足。</entry>
+    <entry key="InvalidM">m 必须为 0、1、2 之一。</entry>
+    <entry key="TSPANnotEnoughPts">TSPAN 必须包含至少 3 个元素。</entry>
+    <entry key="TSPANnotIncreasing">TSPAN 的元素必须严格递增。</entry>
+    <entry key="NegXMESHwithPosM">当 M &gt; 0 时，XMESH(1) 必须为非负数。</entry>
+    <entry key="XMESHnotEnoughPts">XMESH 必须包含至少 3 个条目。</entry>
+    <entry key="XMESHnotIncreasing">XMESH 的条目必须严格增加。</entry>
+    <entry key="InvalidOutputICFUN">ICFUN 的输出无效。ICFUN 必须返回列向量。</entry>
+    <entry key="UnexpectedOutputPDEFUN">PDEFUN 的输出异常。对于此问题，PDEFUN 必须返回长度为 {0} 的三个列向量。</entry>
+    <entry key="UnexpectedOutputBCFUN">BCFUN 的输出异常。对于此问题，BCFUN 必须返回长度为 {0} 的四个列向量。</entry>
+    <entry key="SpatialDiscretizationFailed">空间离散化失败。离散化仅支持抛物线和椭圆型方程，并且通量项涉及空间导数。</entry>
+    <entry key="TimeIntegrationFailed">时间积分失败。可以提供从请求的时间点直到 t={0} 的解。</entry>
+  </message>
+</rsccat>

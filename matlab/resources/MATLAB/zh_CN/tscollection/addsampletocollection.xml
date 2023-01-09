@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="pv1">指定的属性缺少对应值。</entry>
+    <entry key="notime">您必须为每个样本指定时间。</entry>
+    <entry key="cell">元胞数组必须包含两个元胞，一个用于数据，另一个用于 Quality。</entry>
+    <entry key="pv2">至少有一个指定属性无效。</entry>
+    <entry key="pv4">必须使用结构体或属性-值对组指定新样本。</entry>
+  </message>
+</rsccat>

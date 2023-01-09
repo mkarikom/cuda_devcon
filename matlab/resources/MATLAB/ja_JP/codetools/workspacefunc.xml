@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="cellstr_PreviewTruncatedAt">&lt;プレビューが打ち切られた場所 </entry>
+    <entry key="ErrorDisplayingValue">&lt;値の表示中にエラー&gt;</entry>
+    <entry key="ErrorRetrievingValue">&lt;値の取得中にエラー&gt;</entry>
+    <entry key="PreviewTruncatedAtCharacters">&lt;{0} 文字で打ち切られたプレビュー&gt;</entry>
+    <entry key="TooManyElements">&lt;要素が多すぎます&gt;</entry>
+    <entry key="AllVariablesMustHaveSameID">すべての変数に同じワークスペース ID が必要です。</entry>
+    <entry key="GettingVariablesfromDefaultWorkspaceNotImplemented">既定のワークスペースからの変数の取得は実装されていません。</entry>
+    <entry key="ArgumentToGetWorkspaceIDCannotBeEmpty">getWorkspaceID への引数は空にできません</entry>
+    <entry key="WorkspaceStorageErrorTooManyWorkspacesFound">ワークスペース ストレージ エラー - ワークスペースが多すぎます</entry>
+    <entry key="UnexpectedInput">予期しない入力: {0}</entry>
+    <entry key="Unevaluated">未評価</entry>
+  </message>
+</rsccat>

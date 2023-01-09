@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidNumberOutputs">TEXTWRAP は 1 つまたは 2 つの出力引数が必要です。</entry>
+    <entry key="InvalidSecondInput">3 入力の場合、2 番目の入力引数はセル配列でなければなりません</entry>
+    <entry key="InvalidFirstInput">最初の入力引数は UIControl オブジェクトまたは cell 配列でなければなりません。</entry>
+    <entry key="InvalidHandle">TEXTWRAP へのハンドルが無効です。</entry>
+    <entry key="InvalidColumnsInput">文字数は正の整数でなければなりません。</entry>
+  </message>
+</rsccat>

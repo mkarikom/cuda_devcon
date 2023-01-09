@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="OutputNamesWrongLength">LENGTH(OUTPUTNAMES) must be equal to NUMOUTPUTS.</entry>
+    <entry key="InvalidFunction">First input must be a function handle.</entry>
+    <entry key="InvalidOutputFormat">OUTPUTFORMAT must be one of the following: 'uniform', 'table', or 'cell'.</entry>
+    <entry key="InvalidNumOutputs">NUMOUTPUTS must be a non-negative integer.</entry>
+    <entry key="InvalidInputVariablesFun">INPUTVARIABLES must return a logical scalar.</entry>
+    <entry key="TimetableCannotGrow">The function applied to the timetable returns output whose size is greater than the size of the time vector. Use 'OutputFormat', 'Table' to return the output in a table, without the row times.</entry>
+  	<entry key="RowLabelsCannotBeDataVar">Row names are not supported as an input variable.</entry>
+    <entry key="RowLabelsCannotBeDataVarNondefaultName">Unrecognized variable name ''{0}''. You may have intended to access the row names, which are named ''{1}'' in this table. However, row names are not supported as an input variable.</entry>
+<!-- 
+These messages use ordinal number strings from MATLAB:table:ordinalstrings.xml. For example
+      
+      The function 'mean' returned an output with more than one row when applied to the 17th row in A.
+-->
+    <entry key="FunFailed" note="{1} is the ordinal">Applying the function ''{0}'' to the {1} row of A generated the following error:\n\n{2}\n</entry>
+    <entry key="FunFailedGrouped" note="{1} is the ordinal">Applying the function ''{0}'' to the {1} group of rows in A generated the following error:\n\n{2}\n.</entry>
+    <entry key="UngroupedRowSize" note="{1} is the ordinal">The function ''{0}'' returned an output with more than one row when applied to the {1} row in A.</entry>
+    <entry key="GroupedRowSize" note="{1} is the ordinal">The function ''{0}'' returned outputs with different numbers of rows when applied to the {1} group of rows in A.</entry>
+    <entry key="NotAScalarOutput" note="{1} is the ordinal">The function ''{0}'' returned a non-scalar value when applied to the {1} row.</entry>
+    <entry key="NotAScalarOutputGrouped" note="{1} is the ordinal">The function ''{0}'' returned a non-scalar value when applied to the {1} group of rows.</entry>
+    <entry key="MismatchInOutputTypes" note="{3} is the ordinal">The function ''{0}'' returned a value with a mismatched type ({1}, expected {2}) when applied to the {3} row.</entry>
+    <entry key="MismatchInOutputTypesGrouped" note="{3} is the ordinal">The function ''{0}'' returned a value with a mismatched type ({1}, expected {2}) when applied to the {3} group of rows.</entry>
+  </message>
+</rsccat>

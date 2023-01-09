@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ndInput">N 次元スパース配列はサポートされていません。</entry>
+    <entry key="TwoInputs">引数の数が正しくありません。有効な構文は以下です: sprand(S)、sprand(m,n,density)、sprand(m,n,density,rc)。</entry>
+    <entry key="RcondTooHigh">条件数の逆数は、1 以下でなければなりません。</entry>
+  </message>
+</rsccat>

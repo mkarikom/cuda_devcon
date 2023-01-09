@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="OldNameExists"> フォルダー ''{2}'' には、''{0}'' がクラスまたは関数として既に存在しているため、古い名前の ''{0}'' をクラス ''{1}'' に使用することはできません。</entry>
+    <entry key="OldNameDuplicatesBuiltinOrOtherLanguageClass"> ''{0}'' は組み込みであるか、他の言語で作成されたため、クラス エイリアスを使用して ''{0}'' の名前を ''{1}'' に変更することはサポートされていません。</entry>
+    <entry key="InvalidAliasDefinition">エイリアス定義ファイル ''{0}'' に無効な構文があります。</entry>
+    <entry key="ChainingDirect"> エイリアスの構成が正しくありません。''{0}'' ''{1}'' はクラス ''{2}'' のエイリアスですが、''{1}'' 自体が別のクラスの実名になっています。これは許可されません。</entry>
+    <entry key="InvalidAliasConfigurationChaining"> クラス ''{0}'' に無効なエイリアスの構成が見つかりました。クラスの名前を複数回変更する場合は、古い名前をすべて指定して addAlias への単一の呼び出しを使用してください。</entry>
+    <entry key="InvalidAliasConfigurationUseChaining"> エイリアスの構成が無効です。代わりに、1 つの行で ''{0}'' を使用してください。</entry>
+    <entry key="ChainingReverse"> エイリアスの構成が正しくありません。クラス ''{0}'' はクラス ''{1}'' のエイリアスですが、''{1}'' 自体が別のクラスのエイリアスになっています。これは許可されません。</entry>
+    <entry key="WarnPackageAliasing"> パッケージ エイリアシングを使用する前に MCOS チームと話し合ってください</entry>
+    <entry key="InvalidAliasDefinitionWithLineNumberText"> ファイル ''{0}''\n 行: ''{1}''、列 ''{2}'' ''{3}''</entry>
+    <entry key="InvalidAliasKeyword">  ''{0}''\n ''{1}''</entry>
+    <entry key="SameOldAndNewNames"> ''{0}'' のエイリアス名 ''{1}'' と現在の名前 ''{1}'' が同じです。</entry>
+    <entry key="DuplicateAlias"> エイリアスの構成が無効です。クラス ''{0}'' は複数のクラスのエイリアスとして使用できません。</entry>
+    <entry key="AliasFileSystemError"> エイリアス ファイル ''{0}'' を開く際にファイル システム エラーが発生しました。このファイルからエイリアスは作成できません。</entry>
+    <entry key="AliasShadowsBuiltin"> クラス ''{0}'' の名前は、組み込みクラス ''{1}'' のエイリアスとして既に登録されている名前であるため、正しくありません。</entry>
+    <entry key="DuplicateNewName"> エイリアスの構成が無効です。クラス ''{0}'' が 2 つ以上のエイリアスのターゲットとして使用されています。2 つ目以降のエイリアス定義はスキップされます。</entry>
+    <entry key="MissingNewClass"> Unable to use alias ''{0}'' of class ''{1}''  because there is no class definition with the new name ''{1}'' in folder ''{2}''.</entry>
+  </message>
+</rsccat>

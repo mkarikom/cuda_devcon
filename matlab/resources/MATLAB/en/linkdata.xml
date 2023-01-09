@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="nodeploy">Plots cannot be linked in deployed applications because linked plots require the MATLAB workspace.</entry>
+    <entry key="InvalidSingleArg">Argument must be a figure or ''on'' or ''off''.</entry>
+    <entry key="InvalidFigure">First input should be a figure handle.</entry>
+    <entry key="InvalidState">State must be either ''on'', ''off'', ''toggle'' or ''showdialog''.</entry>
+    <entry key="InvalidArgsForOutput">Do not specify an output argument with these input arguments.</entry>
+  </message>
+</rsccat>

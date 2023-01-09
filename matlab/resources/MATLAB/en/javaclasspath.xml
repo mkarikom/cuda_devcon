@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="invalidFile">Invalid file or directory ''{0}''.</entry>
+      <entry key="jarAlreadySpecified">"{0}" is already specified on static java path.</entry>
+      <entry key="InvalidInput">Invalid input</entry>
+      <entry key="StaticJavaPath" translate="false" note="TranslateFalseBatch;">\n\t\tSTATIC JAVA PATH\n\n</entry>
+      <entry key="DynamicJavaPath" translate="false" note="TranslateFalseBatch;">\n\t\tDYNAMIC JAVA PATH\n\n</entry>
+      <entry key="RmpathNotFoundInPath">"{0}" not found in path.</entry>
+      <entry key="RmpathInvalidInput" note="stringDatatypeUpdate">Arguments must be character vectors.</entry>
+   </message>
+</rsccat>

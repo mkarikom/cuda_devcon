@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidCachePolicy">缓存策略未知。</entry>
+    <entry key="InvalidVersion">无法加载 MemoizedFunction。</entry>
+    <entry key="UnsupportedHandle">函数句柄必须是创建后可解析的句柄，或者必须是内置句柄。</entry>
+    <entry key="OverwriteOnLoad">"@{0}" 的缓存将被所加载的值覆盖。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DesktopQueryFailure">无法查询桌面</entry>
+    <entry key="DesktopFailure">无法打开桌面</entry>
+    <entry key="FirstArgInvalid">DESKTOP 输入参数必须为 ''-inuse'' 或 ''-norestore''</entry>
+  </message>
+</rsccat>

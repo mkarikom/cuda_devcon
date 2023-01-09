@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CantStackTabularVariable">Stacking table or timetable variables is not supported. Use SPLITVARS to split ''{0}'' into multiple variables.</entry>
+    <entry key="ConflictingConstAndDataVars">The set of variables to stack must not contain any variables that are also specified as constants.</entry>
+    <entry key="ConflictingIndVarName">The index variable name ''{0}'' conflicts with other variable names in the result.</entry>
+    <entry key="ConflictingNewDataVarName">The data variable name ''{0}'' conflicts with other variable names in the result.</entry>
+    <entry key="ConflictingNewDataVarNames">The new data variable names conflict with other variable names in the result.</entry>
+    <entry key="InterleavingDataVarsFailed">Error when stacking data variable ''{0}''.</entry>
+    <entry key="UnequalSizeDataVarsSets">All groups of variables to stack must be the same size.</entry>
+    <entry key="CantStackRowLabels">Stacking table row names not supported. Create a table containing those row names as a variable.</entry>
+    <entry key="UndefOrMissingString">The variable names '&lt;undefined&gt;' or '&lt;missing&gt;' cannot be indicator values in the stacked table, because they are not allowed as categorical values to avoid ambiguity with &lt;undefined&gt; categorical data. Modify the variable name prior to calling stack.</entry>
+    <entry key="ScalarIndexName">The index variable name must be a non-empty character vector or scalar string.</entry>
+    <entry key="NewDataVarNameLengthMismatch">Specify {0} variable names for {0} stacked data variables using the NEWDATAVARIABLENAME name-value pair.</entry>
+    <entry key="NewDataVarNamesEmptyDataVars">New data variable names should be empty when there are no variables to stack.</entry>
+    <entry key="IndexVarNameEmptyDataVars">Indicator variable name should be empty when there are no variables to stack.</entry>
+    <!-- codegen -->
+    <entry key="NonConstantDataVars">The input argument that specifies the set of variables to stack must be constant.</entry>
+    <entry key="NonConstantArg">The ''ConstantVariables'', ''NewDataVariableNames'', and ''IndexVariableName'' arguments must be constant.</entry>
+  </message>
+</rsccat>

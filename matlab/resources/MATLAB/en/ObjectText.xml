@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2011-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\schema\msgcat.xsd" string_type_for_hole="fl_ustring">
+  <message>
+    <entry key="UnableToUpdateClass">Unable to update the class ''{0}'' because the new definition contains an error:\n {1}</entry>
+    <!-- NOTE: All reproduction steps should be run in test/toolbox/matlab/mcos  -->
+    <!-- DISPLAY FOR NULL COSINTERFACE - NOT POSSIBLE IN CUSTOMER CODE - NO NEED TO TRANSLATE -->
+    <entry note="Example: empty 'classname'" key="DISPLAY_EMPTY_OBJECT" translate="false">empty {0}</entry>
+    <entry note="Example: empty 'classname' handle" key="DISPLAY_EMPTY_HANDLE_OBJECT" translate="false">empty {0} {1}</entry>
+    <!-- PIECES OF DISPLAY TEXT THAT NEED TO BE TRANSLATED INDIVIDUALLY, USUALLY BECAUSE THEY ARE HOTLINK TARGETS -->
+    <entry note="Example: 1x3 heterogeneous 'classname' array with properties:" key="DISPLAY_HETEROGENEOUS_LABEL">heterogeneous</entry>
+    <entry note="handle to deleted classname" key="DISPLAY_DELETED_HANDLE_LABEL">handle to deleted</entry>
+    <entry note="handle to deleted classname" key="DISPLAY_DELETED_HANDLE_LABEL_NO_LINK">handle to deleted {0}</entry>
+    <entry note="handle to deleted classname" key="DISPLAY_DELETED_HANDLE_LABEL_WITH_LINK"><![CDATA[handle to <a href="matlab: helpview ([docroot '/matlab/matlab_oop/matlab_oop.map'],'deleted_handle_objects')">deleted</a> {0}]]></entry>
+    <entry note="deleted classname" key="DISPLAY_DELETED_VALUE_LABEL">deleted {0}</entry>
+    <!-- SIMPLE HEADERS ONLY -->
+    <entry note="Example: 1x3 'classname' array with no properties." key="DISPLAY_ARRAY_WITH_NO_PROPS">{0} {1} array with no properties.</entry>
+    <entry note="Example: 1x3 'classname' array with no properties." key="DISPLAY_SCALAR_WITH_NO_PROPS">{0} with no properties.</entry>
+    <entry note="Example: 1x3 heterogeneous 'classname' ('class1', 'class2') array with no properties." key="DISPLAY_HETARRAY_WITH_NO_PROPS">{0} {1} {2} ({3}) array with no properties.</entry>
+    <!--END SIMPLE HEADERS ONLY -->
+    <!-- BOTH SIMPLE AND DETAILED HEADERS-->
+    <entry note="Example: 1x3 'classname' array with properties:" key="DISPLAY_AND_DETAILS_ARRAY_WITH_PROPS">{0} {1} array with properties:</entry>
+    <entry note="Example: 1x3 'classname' array with properties:" key="DISPLAY_AND_DETAILS_SCALAR_WITH_PROPS">{0} with properties:</entry>
+    <entry note="Example: 1x3 heterogeneous 'classname' ('class1','class2') array with properties:" key="DISPLAY_AND_DETAILS_HETARRAY_WITH_PROPS">{0} {1} {2} ({3}) array with properties:</entry>
+    <!--END BOTH HEADERS -->
+    <!-- DETAILED HEADERS ONLY -->
+    <entry note="Example: 1x3 'classname' handle array with properties:" key="DETAILS_HANDLE_ARRAY_WITH_PROPS">{0} {1} {2} array with properties:</entry>
+    <entry note="Example: 1x3 'classname' handle array with no visible properties." key="DETAILS_HANDLE_ARRAY_WITH_NO_PROPS">{0} {1} {2} array with no visible properties.</entry>
+    <entry note="Example: 1x3 'classname' array with no visible properties." key="DETAILS_ARRAY_WITH_NO_PROPS">{0} {1} array with no visible properties.</entry>
+    <entry note="Example: 'classname' handle with properties:" key="DETAILS_HANDLE_SCALAR_WITH_PROPS">{0} {1} with properties:</entry>
+    <entry note="Example: 'classname' handle with no visible properties." key="DETAILS_HANDLE_SCALAR_WITH_NO_PROPS">{0} {1} with no visible properties.</entry>
+    <entry note="Example: 'classname' with no visible properties." key="DETAILS_SCALAR_WITH_NO_PROPS">{0} with no visible properties.</entry>
+    <entry note="Example: 1x3 heterogeneous 'classname' ('class1', 'class2') handle array with properties:" key="DETAILS_HETARRAY_HANDLE_WITH_PROPS">{0} {1} {2} ({3}) {4} array with properties:</entry>
+    <entry note="Example: 1x3 heterogeneous 'classname' ('class1', 'class2') handle array with no visible properties." key="DETAILS_HETARRAY_HANDLE_WITH_NO_PROPS">{0} {1} {2} ({3}) {4} array with no visible properties.</entry>
+    <entry note="Example: 1x3 heterogeneous 'classname' ('class1', 'class2') array with no visible properties." key="DETAILS_HETARRAY_WITH_NO_PROPS">{0} {1} {2} ({3}) array with no visible properties.</entry>
+    <!-- END DETAILED HEADERS ONLY -->
+    <entry key="DISPLAY_METHODS_TEXT">Methods</entry>
+    <entry key="DISPLAY_EVENTS_TEXT">Events</entry>
+    <entry key="DISPLAY_SUPERCLASSES_TEXT">Superclasses</entry>
+
+    <entry key="EVENT_PACKAGE_DESCRIPTION">The package containing classes used in the processing of events</entry>
+    <entry key="META_PACKAGE_DESCRIPTION">The package containing classes used to represent meta components</entry>
+  </message>
+</rsccat>

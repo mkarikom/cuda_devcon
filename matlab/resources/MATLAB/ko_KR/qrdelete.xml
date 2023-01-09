@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">입력값이 부족합니다.</entry>
+    <entry key="InvalidJ">Third input must be a positive integer that is finite and real.</entry>
+    <entry key="QNotSquare">To delete a row, the first input matrix must be square.</entry>
+    <entry key="InnerDimQRfactors">행렬 간 내부 차원(Inner Dimension)이 일치해야 합니다. 첫 번째 입력 행렬의 열 개수는 두 번째 입력 행렬의 행 개수와 일치해야 합니다.</entry>
+    <entry key="NegDeletionIndex">삭제할 인덱스는 양수여야 합니다.</entry>
+    <entry key="InvalidDelIndex">삭제할 인덱스가 행렬의 차원을 초과합니다.</entry>
+    <entry key="InvalidInput4">네 번째 입력값은 ''row'' 또는 ''col''이어야 합니다.</entry>
+  </message>
+</rsccat>

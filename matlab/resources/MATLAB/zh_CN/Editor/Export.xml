@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ExportFolderOverwriteDialogQuestion">覆盖此文件:</entry>
+    <entry key="ExportFolderOverwriteDialogTitle">覆盖文件</entry>
+    <entry key="ExportFolderOverwriteDialogOptionYes">是，覆盖此文件</entry>
+    <entry key="ExportFolderOverwriteDialogOptionSkip">否，跳过此文件</entry>
+    <entry key="ExportFolderOverwriteDialogOptionAll">覆盖所有文件</entry>
+  </message>
+</rsccat>

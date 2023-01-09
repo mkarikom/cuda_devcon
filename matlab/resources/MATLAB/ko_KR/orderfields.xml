@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="arg1NotStruct">첫 번째 인수는 구조체형이어야 합니다.</entry>
+    <entry key="InvalidPermLength">치환 벡터 길이는 구조체에 있는 필드 개수와 같아야 합니다.</entry>
+    <entry key="StructFieldMismatch">두 구조체는 정확히 같은 필드들을 가지고 있어야 합니다.</entry>
+    <entry key="CellStrMismatchFieldnames">두 번째 입력값의 텍스트는 구조체의 필드 이름과 일치해야 합니다.</entry>
+    <entry key="InvalidArg2">두 번째 인수는 구조체, string형, 문자형 벡터로 구성된 셀형 배열 또는 치환 벡터여야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="inputType">유효하지 않은 데이터형입니다. 입력 배열은 숫자형이거나 논리형이어야 합니다.</entry>
+    <entry key="sparseInput">희소 형식 입력값은 지원되지 않습니다.</entry>
+    <entry key="notVectorInput">처음 두 개의 인수는 벡터여야 합니다.</entry>
+    <entry key="invalidInitialConditions">초기 조건은 max(length(a),length(b))-1 길이의 벡터이거나, 선행 차원은 크기가 max(length(a),length(b))-1이고 나머지 차원은 x와 일치하는 배열이어야 합니다.</entry>
+    <entry key="firstElementOfDenominatorFilterNotFinite">첫 번째 분모 필터 계수는 유한해야 합니다.</entry>
+    <entry key="firstElementOfDenominatorFilterZero">첫 번째 분모 필터 계수는 0이 아니어야 합니다.</entry>
+  </message>
+</rsccat>

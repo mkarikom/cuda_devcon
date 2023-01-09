@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidinput">输入项必须为标量数值或数组维度向量。</entry>
+    <entry key="naninf">输入项必须为标量数值或数组维度向量。不允许使用 NaN 和 Inf。</entry>
+    <entry key="negative">输入项必须为标量数值或数组维度向量；负输入项将替换为零。</entry>
+    <entry key="noninteger">大小向量应为包含整数元素的行向量。在以后的版本中，这将返回错误。</entry>
+    <entry key="NonScalarInput">输入参数必须为标量。在以后的版本中，这将返回错误。</entry>
+  </message>
+</rsccat>

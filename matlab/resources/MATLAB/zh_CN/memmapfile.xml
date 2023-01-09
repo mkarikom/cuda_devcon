@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="illegalWritableSetting">Writable 字段必须包含标量逻辑值。</entry>
+    <entry key="illegalOffsetType">Offset 字段必须为实数标量。</entry>
+    <entry key="illegalOffsetValue">Offset 字段必须包含有限的非负整数值。</entry>
+    <entry key="illegalFormatSetting">指定的 Format 字段无效。</entry>
+    <entry key="illegalRepeatType">Repeat 字段必须包含实数标量。</entry>
+    <entry key="illegalRepeatValue">Repeat 字段必须包含正整数值或 Inf。</entry>
+    <entry key="illegalFilenameType">文件名必须为字符向量。</entry>
+    <entry key="inaccessibleFile">无法访问文件 "{0}": {1}。</entry>
+    <entry key="classMismatch">赋给 Data 字段的值必须与 Data 字段具有相同的类。</entry>
+    <entry key="illegalComplexAssignment">不能将复数值赋给 Data 字段或其子字段。</entry>
+    <entry key="illegalSubscriptedAssignment">对 memmapfile 对象的 Data 字段进行下标赋值非法。</entry>
+    <entry key="UnpairedParamsValues">参数/值对组必须成对出现。</entry>
+    <entry key="dataIsReadOnly">由于 Writable 字段设置为 false，无法修改 Data 字段。</entry>
+    <entry key="illegalPropertyType">属性必须为字符向量或字符向量元胞数组。</entry>
+    <entry key="noStructConversion">无法将 Memmapfile 对象转换为结构体。</entry>
+    <entry key="illegalAlignment">format、offset 或 repeat 非法。访问已提供了指定 Format、Offset 和 Repeat 值的 Data 字段将会导致未分配地址的异常。</entry>
+    <entry key="fileTooSmall">文件 "{0}" 不够大，无法用于与当前格式、偏移和重复值映射。</entry>
+    <entry key="sizeMismatch">在赋值 M.DATA = N 中，N 和 M.DATA 中的元素数目必须相同。</entry>
+    <entry key="dataFieldSizeFixed">无法通过下标赋值来更改 Data 字段的大小。Data 字段的大小由 Repeat 和 Format 字段决定。</entry>
+    <entry key="illegalDataFieldModification">如果 memmapfile 对象的 Data 字段为结构体，则它无法通过赋值进行替换。</entry>
+    <entry key="classMismatchForSubfield">赋给 Data 字段的子字段的值必须与子字段具有相同的类。</entry>
+    <entry key="sizeMismatchForSubfield">在赋值 M.DATA(I).FIELD = N 中，N 和 M.DATA(I).FIELD 中的元素数目必须相同。</entry>
+    <entry key="dataSubfieldSizeFixed">无法通过下标赋值来更改 Data 字段的子字段大小。Data 字段的子字段的大小由 Format 字段确定。</entry>
+    <entry key="illegalParameter">位于输入 {0,number,integer} 处的参数必须为字符向量。</entry>
+    <entry key="unrecognizedParameter">参数 "{0}" 无法识别。</entry>
+    <entry key="illegalParenIndex">不能使用 () 对 Memmapfile 对象进行下标索引</entry>
+    <entry key="illegalBraceIndex">不能使用 '{}' 对 Memmapfile 对象进行下标索引。</entry>
+    <entry key="unsupportedCSL">对 Data 字段标注下标的操作尝试创建逗号分隔的列表。memmapfile 类在标注下标时不支持使用逗号分隔的列表。</entry>
+    <entry key="noCatenation">无法串联 Memmapfile 对象。</entry>
+    <entry key="noEmptyMethod">无法创建空的 memmapfile 对象。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="InvalidTagValue">Tag must be a legal variable name for GUIDE to append a callback function prototype to the application code file. The {0} for the {1} with Tag: ''{2}'' can not be appended until a legal tag is chosen.</entry>
+      <entry key="MultipleSystemStringCopy" note="stringDatatypeUpdate">In file {0}, there are multiple copies of system character vector: \n\n {1}\n\nYour program may not run properly. Please remove extra copies.</entry>
+      <entry key="FailToLocateGivenFunction">Cannot find function {0} in GUI code file:\n{1}\n\nTo correct this problem and make the {2} work, please make sure the function name {3} is correctly specified and the function exists in the GUI code file. You may also ask GUIDE to auto-generate a callback for you.</entry>
+   </message>
+</rsccat>

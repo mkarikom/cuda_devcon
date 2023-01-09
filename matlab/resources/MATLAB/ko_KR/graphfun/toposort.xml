@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotDAG">유방향 그래프는 비순환 그래프여야 합니다.</entry>
+    <entry key="ParseFlag">파라미터 이름은 ''Order''여야 합니다.</entry>
+    <entry key="ParseType">Order 값은 ''fast'' 또는 ''stable''이어야 합니다.</entry>
+  </message>
+</rsccat>

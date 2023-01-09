@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MustBeStringArray">输入必须为字符向量元胞数组。</entry>
+    <entry key="MustBeMatrix">第一个参数必须为向量或二维矩阵。</entry>
+    <entry key="complexIntegers">不支持复整数。</entry>
+    <entry key="DimIsSpecified">第一个参数为元胞数组时输入参数太多。</entry>
+    <entry key="TooManyInputsRows">指定 'rows' 选项时输入参数太多。指定其他参数时，请使用 &lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/issortedrows.html'))\"&gt;issortedrows&lt;/a&gt; 确定行排序方式。 </entry>
+    <entry key="MustBeVector">输入参数必须为行/列向量。</entry>
+    <entry key="vector">输入必须为向量，或者必须指定 ''rows''。</entry>
+    <entry key="flag">未知标志。</entry>
+  </message>
+</rsccat>

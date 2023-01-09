@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoPrintFile">인쇄 파일 인수가 없습니다.</entry>
+    <entry key="NoTraceArguments">추적할 인수가 없습니다.</entry>
+    <entry key="InternalError">내부 오류입니다.</entry>
+    <entry key="CannotOpenFileForWrite">파일 {0}을(를) 열 수 없음</entry>
+    <entry key="BadHGStructure">.fig 파일 {0}에 항목이 2개 이상 있습니다.</entry>
+    <entry key="NotAStringForCallback">이름 ''{0}''에 대한 콜백이 문자형 벡터가 아님</entry>
+    <entry key="FileIsADirectory">''{0}'' 인수는 디렉터리입니다. 파일이어야 합니다.</entry>
+    <entry key="FileDoesNotExist">파일 ''{0}''이(가) 존재하지 않습니다.</entry>
+    <entry key="PathBeyondRoot">파일 {0}이(가) 루트 디렉터리 또는 드라이브를 벗어났습니다.</entry>
+    <entry key="WrongClass">{0,number,integer} 인수는 문자열 또는 셀형 배열이 아닙니다.</entry>
+    <entry key="WrongClassNotCellstr">{0,number,integer}번째 인수는 문자형 벡터로 구성된 셀형 배열이 아닙니다.</entry>
+    <entry key="DeprecatedNographics">-nographics 인수는 더 이상 지원되지 않습니다.</entry>
+    <entry key="DeprecatedAlwayslog">-alwayslog 인수는 더 이상 지원되지 않습니다.</entry>
+    <entry key="FormatNone">[없음]\n</entry>
+    <entry key="FormatTopOnly">(맨 위만)</entry>
+    <entry key="ReportFilesNotOnMATLABPATH">\n   MATLABPATH에 파일이 없음:\n</entry>
+    <entry key="ReportHandleGraphicsFactoryCallbackNames">\n   MATLAB 그래픽스 콜백 이름(공장 초기값):\n</entry>
+    <entry key="ReportBuiltinList">\n-&gt; 내장된 목록:\n</entry>
+    <entry key="ReportMATLABClasses">\n-&gt; MATLAB 클래스:\n</entry>
+    <entry key="ReportProblemList">\n-&gt; 문제 목록:\n</entry>
+    <entry key="ReportProblemSymbolsNOTIMPLEMENTED">\n-&gt; 문제 기호: 구현되지 않음\n</entry>
+    <entry key="ReportEvalStrings">\n-&gt; eval 문자형 벡터:\n</entry>
+    <entry key="ReportCalledFromListbyTraceList">\n-&gt; 호출 출처 목록: (추적 목록 기준)\n</entry>
+    <entry key="ReportCallListbyTraceList">\n-&gt; 호출 목록: (추적 목록 기준)\n</entry>
+    <entry key="ReportOpaqueClasses">\n-&gt; 불투명(Opaque) 클래스:\n</entry>
+    <entry key="ReportGeneratingHandleGraphicsCallbackNamesToAnalyzefigFil">-&gt; .fig 파일을 분석하기 위해 MATLAB 그래픽스 콜백 이름을 생성합니다. . .\n</entry>
+    <entry key="ReportDone">-&gt; 완료\n</entry>
+    <entry key="Deprecated">-{0} 인수는 더 이상 지원되지 않습니다.</entry>
+    <entry key="DeprecatedNotrace">-notrace는 사용되지 않습니다. -toponly를 사용하십시오.</entry>
+    <entry key="DeprecatedAPI">DEPFUN은 제거되었습니다. 대신 matlab.codetools.requiredFilesAndProducts를 사용하십시오.</entry>
+    <entry key="DeprecatedDEPDIR">DEPDIR은 제거되었습니다. 대신 matlab.codetools.requiredFilesAndProducts를 사용하십시오.</entry>
+  </message>
+</rsccat>

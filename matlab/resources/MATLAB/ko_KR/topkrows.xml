@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MustBeMatrix">입력 배열은 벡터 또는 행렬이어야 합니다.</entry>
+    <entry key="complexIntegers">복소수형 정수는 지원되지 않습니다. </entry>
+    <entry key="MustNotBeCell">셀형 배열은 문자형 벡터를 포함해야 합니다.</entry>
+    <entry key="InvalidK">반환할 행 개수는 음이 아닌 정수여야 합니다.</entry>
+    <entry key="ColNotIndexVec">열 정렬 벡터는 1과 첫 번째 인수의 열 개수 사이의 양의 정수를 포함해야 합니다.</entry>
+    <entry key="SortRowsMode">정렬 방향은 ''descend'' 또는 ''ascend''여야 합니다.</entry>
+    <entry key="NumDirectionsThird">정렬 방향은 하나의 방향을 지정하거나 첫 번째 인수의 각 열에 대해 각각 방향을 지정해야 합니다.</entry>
+    <entry key="NumDirectionsFourth">정렬 방향은 한 방향을 지정하거나 열 정렬 벡터의 각 요소에 대해 각각 다른 방향을 지정해야 합니다.</entry>
+    <entry key="ThirdArgumentType">세 번째 인수는 열 정렬 벡터 또는 정렬 방향을 지정해야 합니다.</entry>
+    <entry key="FourthArgumentType">정렬 방향은 문자형 벡터이거나 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="InvalidAbsRealType">''ComparisonMethod'' 파라미터는 입력 배열이 숫자형이거나 논리형일 때만 지원됩니다.</entry>
+    <entry key="InvalidComparison">''ComparisonMethod'' 값은 ''auto'', ''abs'', ''real'' 중 하나여야 합니다.</entry>
+    <entry key="NameValueNames">파라미터 이름은 'ComparisonMethod'여야 합니다.</entry>
+    <entry key="NameValuePairs">입력 인수의 개수가 올바르지 않습니다. 파라미터 이름과 값은 쌍으로 있어야 합니다.</entry>
+    <entry key="InvalidX">유효하지 않은 데이터형입니다. 첫 번째 인수는 숫자형, 논리형, categorical형 또는 문자형 배열이거나 문자형 셀형 배열이어야 합니다.</entry>
+    <entry key="CellsNotSupported">코드 생성 시 'topkrows'에 대한 셀형 배열 입력값은 지원되지 않습니다.</entry>
+  </message>
+</rsccat>

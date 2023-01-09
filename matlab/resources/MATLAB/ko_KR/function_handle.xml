@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotAConstructor">"function_handle"은 클래스의 이름이지만 유효한 생성자가 아닙니다.</entry>
+    <entry key="NonScalarFunctionHandle">Invoked function handles must be scalar.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgMustBeString">入力引数は、空でない string または文字ベクトルでなければなりません。</entry>
+    <entry key="UnknownFlag">不明なフラグ ''{0}'' です。</entry>
+    <entry key="BadPath">''{0}'' をスキップします。''?'' も ''..'' も引数内で許可されていません。</entry>
+    <entry key="Ambiguous">''{0}'' は、MATLAB コード ファイルとディレクトリの両方の名前です。</entry>
+    <entry key="NotPath">引数 ''{0}'' をスキップします (無効なパス名)。</entry>
+    <entry key="NotFileName">引数 ''{0}'' をスキップします。''{1}'' はファイル名ではありません。</entry>
+    <entry key="FileUnsupported">引数 ''{0}'' をスキップします。MATLAB コード ファイルが見つかりません。</entry>
+    <entry key="FileNotFound">引数 ''{0}'' をスキップします。MATLAB コードが見つかりません。</entry>
+    <entry key="NotaMatlabFunction">指定された関数は m ソース コードの MATLAB 関数ではありません。</entry>
+    <entry key="FunctionNotFound">関数 {0} は検索パス上で見つかりませんでした。</entry>
+    <entry key="NoInputFileNameSpecified">入力ファイル名を指定しなければなりません。</entry>
+    <entry key="InvalidPfileNameSpecified">''{0}'' の pfile 出力名が有効ではありません。</entry>
+    <entry key="cannotCacheClassdef" context="error">classdef ステートメントを使用してクラスを定義するファイルは現在キャッシュできません。</entry>
+  </message>
+</rsccat>

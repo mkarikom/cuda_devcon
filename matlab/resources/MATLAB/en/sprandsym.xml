@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ndInput">ND-sparse arrays are not supported.</entry>
+    <entry key="invalidRC">rc must be &gt; 0 and &lt;= 1.</entry>
+    <entry key="firstArgNotScalar">First argument must be a scalar</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011-2013 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="InvalidCData">Invalid CData, must be MxNx3; not calling IMWRITE.</entry>
+      <entry key="SizeNotReady">Size not ready {0,number,integer}x{1,number,integer} (actual) vs {2,number,integer}x{3,number,integer} (target)\n</entry>
+      <entry key="ContainerNotDisplayable">The Container is not displayable.</entry>
+      <entry key="FigureSizeIncorrect">The figure did not reach the desired size.</entry>
+      <entry key="RequestedSizeTooLarge">The requested output size is too large. Try adjusting the PaperPosition property value.</entry>      
+      <entry key="RequestedSizeTooSmall">The requested output size is too small. Try adjusting the PaperPosition property value.</entry>
+      <entry key="FigureMayHaveBeenClosed">The requested print was not completed because the figure is invalid.  This may be happening because the figure was closed before the print could complete. </entry>
+   </message>
+</rsccat>
+
+<!-- LocalWords:  Nx
+-->

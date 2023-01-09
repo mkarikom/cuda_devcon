@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidService" note="stringDatatypeUpdate">Service must be ''DDEServer'' or ''AutomationServer''</entry>
+    <entry key="InvalidInput" note="stringDatatypeUpdate">Service must be a character vector or string scalar and status must be true or false.</entry>
+    <entry key="InvalidInput2">Status must be true</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidType">FILENAME은 문자형 벡터여야 합니다.</entry>
+    <entry key="FileNotFound">파일 ''{0}''을(를) 찾을 수 없습니다.</entry>
+    <entry key="ExtensionMustBeAString">파일 확장자는 문자형 벡터여야 합니다.</entry>
+    <entry key="DescMultiImageFirstOnly">{1,number,integer} 이미지를 포함한 {0} 파일입니다.\n\n첫 번째 이미지만 가져옵니다.\n\n2부터 {2,number,integer}까지의 이미지를 읽으려면 IMREAD를 사용하십시오.</entry>
+    <entry key="DescNbitImage">{0,number,integer} 비트 {1} {2} 이미지</entry>
+    <entry key="DescFileNotFound">파일을 찾을 수 없음</entry>
+    <entry key="DescAudioFiles">오디오({0}) 파일은 다음을 포함함: {2,number,integer}채널의 {1,number,integer} 샘플.</entry>
+    <entry key="DescVideoFiles">비디오 파일 이름: {0}\n프레임 속도: {1}\n비디오 형식: {2}\n너비: {3}\n높이: {4}\n프레임 수: {5}\n</entry>
+    <entry key="DescVideoFileEmpty">VideoReader 객체가 비어 있습니다.</entry>
+    <entry key="DescAudioFileEmpty">AudioRead 객체가 비어 있습니다.</entry>
+    <entry key="MlxNotSupported">MLX feature는 mlx를 사용할 수 있는 경우에만 지원됩니다.</entry>
+  </message>
+</rsccat>

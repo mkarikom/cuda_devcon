@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="onlyStringAllowed">입력값은 문자형 벡터여야 합니다.</entry>
+    <entry key="DisplayInlineFunction">인라인 함수:\n     {0}(</entry>
+    <entry key="DisplayInlineFunctionempty">인라인 함수(비어 있음)</entry>
+  </message>
+</rsccat>

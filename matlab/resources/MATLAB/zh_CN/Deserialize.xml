@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="OutOfMemory">反序列化期间内存不足</entry>
+    <entry key="BadVersionOrEndian">无法读取数据流，因为数据包含错误的版本或 endian 键</entry>
+  </message>
+</rsccat>

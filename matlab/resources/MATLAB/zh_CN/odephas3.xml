@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotCalledWithInit">ODEPHAS3 尚未初始化。请使用语法 ODEPHAS3(tspan,y0,''init'')。</entry>
+    <entry key="ErrorUpdatingWindow">更新 ODEPHAS3 窗口时出错。解的相关数据可能已损坏。 {0}</entry>
+    <entry key="UnrecognizedFlag">已将无法识别的标志 ''{0}'' 传递给 ODEPHAS3。</entry>
+    <entry key="ButtonStop">停止</entry>
+  </message>
+</rsccat>

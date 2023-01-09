@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<!-- Copyright 2013-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <entry key="CharData" note="stringDatatypeUpdate">Conversion from character array not supported.  First, convert the character array to a cell array of character vectors using cellstr.  Then convert the cell array using categorical.</entry>
+        <entry key="TableData">Conversion from table not supported.  Extract data from one or more table variables into an array using dot or brace subscripting. Then convert the array to a categorical array.</entry>
+        <entry key="NDCharArrayData">Conversion from N-D character array not supported.</entry>
+        <entry key="UnprotectedOrdinal">An ordinal array must be protected.</entry>
+        <entry key="ValuesetOrdinalCategoriesMismatch">VALUESET must have the same set of categories as DATA when DATA is an ordinal categorical array.</entry>
+        <entry key="MultipleMissingInValueset">VALUESET contains multiple missing values.</entry>
+        <entry key="UniqueMethodFailedValueset">Could not find unique values in VALUESET using the UNIQUE function.</entry>
+        <entry key="DuplicatedValues">VALUESET contains duplicated values.</entry>
+        <entry key="UniqueMethodFailedData">Could not find unique values in DATA using the UNIQUE function.</entry>
+        <entry key="MaxNumCategoriesExceeded">This operation would create a categorical array with more than {0,number,integer} categories.</entry>
+        <entry key="WrongNumCategoryNamesValueset">CATEGORYNAMES and VALUESET must have the same length.</entry>
+        <entry key="WrongNumCategoryNames">CATEGORYNAMES must have one element for each unique value in DATA.</entry>
+        <entry key="UndefinedLabelCategoryName" note="stringDatatypeUpdate">Unable to create a category name equal to the text ''{0}''.\nSpecify category names using the CATEGORYNAMES input argument.</entry>
+        <entry key="EmptyCategoryName" note="stringDatatypeUpdate">Unable to create a category name from empty or missing text.\nSpecify category names using the CATEGORYNAMES input argument.</entry>
+        <entry key="CantCreateCategoryNames">Unable to create default category names.  Specify category names using the CATEGORYNAMES input argument.</entry>
+        <entry key="UndefinedInValueset">Unable to create default category names for undefined values in VALUESET. Specify category names using the CATEGORYNAMES input argument.</entry>
+        <entry key="CharMethodFailedValueset">Could not create default category names from VALUESET using its CHAR method.</entry>
+        <entry key="CharMethodFailedValuesetNumRows">Could not create default category names from VALUESET using its CHAR method. The CHAR method did not create a character matrix with one row for each element of VALUESET.</entry>
+        <entry key="CharMethodFailedData">Could not create default category names from unique values in DATA using its CHAR method.</entry>
+        <entry key="CharMethodFailedDataNumRows">Could not create default category names from unique values in DATA using its CHAR method. The CHAR method did not create a character matrix with one row for each unique value.</entry>
+        <entry key="DuplicatedCatNamesDatetime">Could not create unique category names from datetime array. Use a &lt;a href="matlab:helpview([docroot '/matlab/ref/datetime.html#buhzxmk-1-Format'])"&gt;display format&lt;/a&gt; with sufficient precision, or specify category names using the CATEGORYNAMES input argument.</entry>
+        <entry key="DuplicatedCatNamesDuration">Could not create unique category names from duration array. Use a &lt;a href="matlab:helpview([docroot '/matlab/ref/duration.html#mw_7dddd595-1be8-452b-8270-5589013aa7d4'])"&gt;display format&lt;/a&gt; with sufficient precision, or specify category names using the CATEGORYNAMES input argument.</entry>
+        <entry key="DuplicatedCatNames">Could not create unique category names. Specify category names using the CATEGORYNAMES input argument.</entry>
+        <entry key="NumericTypeMismatchValueSet">VALUESET must be numeric when DATA is numeric.</entry>
+        <entry key="TypeMismatchValueset">VALUESET must be the same class as DATA.</entry>
+        <entry key="DuplicatedLogicalValueset">VALUESET contains duplicated values when cast to logical.</entry>
+        <entry key="EQMethodFailedDataValueset">Could not compare values in DATA and VALUESET using the equality operator.</entry>
+        <!-- from ... -->
+        <entry key="UndefinedFunction">Undefined function ''{0}'' for input arguments of type ''{1}''.</entry>
+        <!-- from addcats, dropcats, mergecats, renamecats, reordercats -->
+        <entry key="NoLHS">Using {0} without assigning to a workspace variable does not modify the array's properties.  Use C = {0}(C{1}).</entry>
+        <!-- from convertCodes -->
+        <entry key="ProtectedForCombination">One or more of the arrays is categorical and either ordinal or protected, and the arrays do not all have the same sets of categories.  Use ADDCATS to add new categories.</entry>
+        <!-- from reconcileCategories -->
+        <entry key="InvalidOrdinalComparison">Ordinal arrays must have the same categories, including their order.</entry>
+        <entry key="NotOrdinal">Relational comparisons are not allowed for categorical arrays that are not ordinal.</entry>
+        <entry key="OrdinalMismatchConcatenate">Unable to concatenate a categorical array that is ordinal with one that is not.</entry>
+        <entry key="OrdinalMismatchComparison">Unable to compare a categorical array that is ordinal with one that is not.</entry>
+        <entry key="InvalidComparisonTypes">Comparison is not defined between {0} and {1} arrays.</entry>
+        <!-- from cat, horzcat, vertcat -->
+        <entry key="OrdinalCategoriesMismatch">Ordinal arrays must have the same categories, including their order.</entry>
+        <!-- from subsref and subsasgn -->
+        <entry key="InvalidSubscripting">()-indexing must appear last in an index expression.</entry>
+        <entry key="CellReferenceNotAllowed">Cell contents reference from a non-cell array object.</entry>
+        <entry key="FieldReferenceNotAllowed">Attempt to reference field of non-structure array.</entry>
+        <entry key="OrdinalMismatchAssign">To assign a categorical array into another, they must both be ordinal or not ordinal.</entry>
+        <entry key="ProtectedForAssign">Cannot add a new category ''{0}'' to this categorical array because its categories are protected.  Use ADDCATS to add the new category.</entry>
+        <entry key="InvalidRHS">Right hand side of an assignment to a {0} array must be a {0} or text representing a category name.</entry>
+        <entry key="CellAssignmentNotAllowed">Cell contents assignment to a non-cell array object.</entry>
+        <entry key="FieldAssignmentNotAllowed">Attempt to assign field of non-structure array.</entry>
+        <entry key="IllegalDotMethod">Attempt to reference field of non-structure array: ''{0}''. If you intended to call the {1} method, you must use a functional syntax such as {1}(c,...). See &lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;Method Invocation&lt;/a&gt; for more information.</entry>
+        <entry key="IllegalDotMethodNoCorrection">Attempt to reference field of non-structure array: ''{0}''. If you intended to call the {1} method, you must use a functional syntax. See &lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;Method Invocation&lt;/a&gt; for more information.</entry>
+        <!-- from checkCategoryNames -->
+        <entry key="InvalidNames" note="stringDatatypeUpdate">{0} must be a string array or cell array of character vectors containing non-blank category names.</entry>
+        <entry key="UndefinedLabel" note="stringDatatypeUpdate">{0} contains an invalid name ''{1}''.</entry>
+        <entry key="EmptyName" note="stringDatatypeUpdate">{0} contains an empty character vector or zero-length string.</entry>
+        <entry key="DuplicateNames">{0} contains duplicated values.</entry>
+        <!-- from Variable Editor -->
+        <entry key="VarEditorIndexOverFlow">Categorical arrays may not have empty columns, so data may only be added immediately to the right of existing variables.\nA new categorical variable will be added in the next available column.</entry>    
+        <!-- from strings2codes -->
+        <entry key="InvalidUndefinedChar"> ''{0}'' is not a valid category name.  If you intended to indicate an undefined categorical element, use empty ''''. If you intended to create a category, the name must not be ''{1}'' or ''{2}''.</entry>
+        <entry key="InvalidUndefinedString"> "{0}" is not a valid category name.  If you intended to indicate an undefined categorical element, use empty '''' or string(nan). If you intended to create a category, the name must not be "{1}" or "{2}".</entry>
+        <entry key="InvalidMissingChar"> ''{0}'' is not a valid category name.  If you intended to indicate an undefined categorical element, use empty ''''.</entry>
+        <!-- codegen -->
+        <entry key="AssignNewCategories">Code generation does not support adding categories through assignment.</entry>
+        <entry key="SparseData">Code generation does not support sparse matrix inputs to the categorical function.</entry>
+        <entry key="InvalidDataClass">In code generation, the first input to the categorical function must be a numeric, logical, or categorical array, or a cell array of char vectors.</entry>
+        <entry key="UnsupportedMethodCodegen">The {0} method is not supported for categorical in code generation.</entry>
+        <entry key="CodegenInvalidNames">{0} must be a cell array of character vectors containing non-blank category names.</entry>
+        <entry key="CodegenDuplicateCategoryNames">Category names cannot contain duplicated values.</entry>
+        <entry key="InvalidLogicalScalarType">The {0} type must be a logical scalar.</entry>
+        <entry key="InvalidCategoriesType">The Categories type must be a cell column vector of nonempty character vectors.</entry>
+    </message>
+</rsccat>

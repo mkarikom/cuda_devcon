@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonTable">입력 인수는 table형이어야 합니다.</entry>
+    <entry key="AllCellVariables">코드 생성 시 table2array는 변수가 모두 셀형 배열인 테이블을 지원하지 않습니다.</entry>
+  </message>
+</rsccat>

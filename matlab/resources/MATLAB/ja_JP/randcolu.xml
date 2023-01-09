@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SizeM">M は、LENGTH(X) 以上である必要があります。</entry>
+    <entry key="InvalidX">X の要素は、平方和 N の非負でなければなりません。</entry>
+  </message>
+</rsccat>

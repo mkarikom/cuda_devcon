@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">输入参数的数目不足。请参阅 ODE23。</entry>
+    <entry key="MassSingularAssumedNo">ODE23 假定 MassSingular 为 ''no''。请参阅 ODE15S 或 ODE23T。</entry>
+    <entry key="MassSingularYes">对于此求解器，MassSingular 不能为 ''yes''。请参阅 ODE15S 或 ODE23T。</entry>
+    <entry key="IntegrationTolNotMet">在 t={0} 处失败。在时间 t 处，步长必须降至所允许的最小值({1})以下，才能达到积分容差要求。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SolNotFromDiffEqSolver">{0} 必须是由微分方程求解器返回的一个结构体。</entry>
+    <entry key="IDXInvalidSolComp">在 {0} 中请求了错误的求解分量。</entry>
+    <entry key="InvalidSolver">{1}.solver 中的求解器名称 ''{0}'' 无法识别。</entry>
+    <entry key="MissingSolverField">结构体 {0} 中缺少 ''solver'' 字段。\n         DEVAL 会将 {1} 视为 MATLAB R12 版本的 BVP4C 的输出。</entry>
+    <entry key="NoSolverInStruct">结构体 {0} 中缺少 ''solver'' 字段。</entry>
+    <entry key="SolOutsideInterval">试图在定义的解区间 [{0}, {1}] 外求解。\n</entry>
+    <entry key="NonuniqueSolution">在交界点 XC = {0} 处，解可能不是连续的。\n         DEVAL 返回交界点左侧和右侧极限的平均值。要接近极限值，请对 XC-EPS(XC) 或 XC+EPS(XC) 调用 DEVAL。\n</entry>
+  </message>
+</rsccat>

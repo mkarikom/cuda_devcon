@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Label_Standard_NewFigure">새로 만들기</entry>
+    <entry key="Label_Standard_FileOpen">열기</entry>
+    <entry key="Label_Standard_SaveFigure">저장</entry>
+    <entry key="Label_Standard_PrintFigure">인쇄</entry>
+    <entry key="Label_Standard_EditPlot">플롯 편집</entry>
+    <entry key="Label_Exploration_ZoomIn">확대</entry>
+    <entry key="Label_Exploration_ZoomOut">축소</entry>
+    <entry key="Label_Exploration_ZoomX">X축 확대/축소</entry>
+    <entry key="Label_Exploration_ZoomY">Y축 확대/축소</entry>
+    <entry key="Label_Exploration_Pan">패닝</entry>
+    <entry key="Label_Exploration_Rotate">회전</entry>
+    <entry key="Label_Exploration_DataCursor">데이터팁</entry>
+    <entry key="Label_Exploration_Brushing">데이터 브러싱</entry>
+    <entry key="Label_DataManager_Linking">플롯 연결</entry>
+    <entry key="Label_Annotation_InsertColorbar">컬러바</entry>
+    <entry key="Label_Annotation_InsertLegend">범례</entry>
+    <entry key="Label_Annotation_InsertRectangle">사각형</entry>
+    <entry key="Label_Annotation_InsertEllipse">타원</entry>
+    <entry key="Label_Annotation_InsertTextbox">텍스트 상자</entry>
+    <entry key="Label_Annotation_InsertTextArrow">텍스트 화살표</entry>
+    <entry key="Label_Annotation_InsertDoubleArrow">양방향 화살표</entry>
+    <entry key="Label_Annotation_InsertArrow">화살표</entry>
+    <entry key="Label_Annotation_InsertLine">선</entry>
+    <entry key="Label_Annotation_Pin">고정</entry>
+    <entry key="Label_Annotation_AlignDistribute">정렬</entry>
+    <entry key="Label_Plottools_PlottoolsOff">플롯 툴 숨기기</entry>
+    <entry key="Label_Plottools_PlottoolsOn">플롯 툴 표시</entry>
+  </message>
+</rsccat>

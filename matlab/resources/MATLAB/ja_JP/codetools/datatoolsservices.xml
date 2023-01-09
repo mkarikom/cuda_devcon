@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PropertyValuePairsExpected">名前と値のペアが必要です。</entry>
+    <entry key="DuplicateActionID">アクション ID が重複しています: ''{0}''。</entry>
+    <entry key="IncorrectActionID">''{0}'' : 有効なアクション ID ではありません。</entry>
+    <entry key="InvalidAction">有効なアクション インスタンスではありません。</entry>
+    <entry key="PropertiesAsStruct">プロパティは Struct として想定されています。</entry>
+    <entry key="AddActionClientMode">''ActAsClient'' モードではアクションを追加できません。</entry>
+    <entry key="RemoveActionClientMode">''ActAsClient'' モードではアクションを削除できません。</entry>
+    <entry key="ActionIDUpdate">アクションの ''ID'' は更新できません。</entry>
+    <entry key="NoActionID">アクションが ID なしで指定されました。</entry>
+    <entry key="InvalidActionForID">指定の ID ''{0}'' に対応するアクションが存在しません。</entry>
+    <entry key="InsufficientArguments">引数の数が不足しています。</entry>
+    <entry key="RequiredParamsUnspecified">必須パラメーターである docID または Channel が指定されていません</entry>
+    <entry key="DatetimeFormatHelp">&lt;a href="matlab:doc(&amp;quot;datetime.Format&amp;quot;)"&gt;形式のヘルプ&lt;/a&gt;</entry>
+  </message>
+</rsccat>

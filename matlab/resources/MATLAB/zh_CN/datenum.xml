@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EmptyDate">不支持使用包含空日期字符向量或空字符串的 DATENUM。\n在以后的版本中，结果可能会有所变化。</entry>
+    <entry key="NotAStringArray">DATENUM 的输入不是字符向量数组，也不是字符串数组。</entry>
+    <entry key="YearFormat">年份格式无法识别。</entry>
+    <entry key="Nargin">参数数目不正确</entry>
+    <entry key="InconsistentInputs">DATENUM 的各个输入参数必须大小匹配或者均为标量。</entry>
+    <entry key="Failed">DATENUM 失败。</entry>
+    <entry key="InputMustBeReal">Numeric input data must be real.</entry>
+  </message>
+</rsccat>

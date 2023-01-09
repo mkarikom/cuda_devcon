@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RequestedRectangleExceedsFigureBounds">指定した四角形は、図の内部に完全に組み込まれていません。MATLAB では、この機能はサポートされなくなりました。</entry>
+    <entry key="FigureWindowsMustBeEnabledForDecorations">MATLAB Figure ウィンドウは無効になっています。Figure ウィンドウが表示されていないと、GETFRAME は Figure のフレーム、メニューまたはツール バーのいずれの部分もキャプチャできません。</entry>
+    <entry key="FigureWindowsMustBeEnabledForUIControls">MATLAB Figure ウィンドウは無効になっています。Figure ウィンドウが表示されていないと、GETFRAME は UI コントロールを含む Figure をキャプチャできません。</entry>
+    <entry key="ContentOutsideFigure">指定された四角形領域は、Figure の Position プロパティの範囲内でなければなりません。この引数は無視されます。</entry>
+  </message>
+</rsccat>

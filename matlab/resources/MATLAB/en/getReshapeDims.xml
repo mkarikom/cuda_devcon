@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="sizeVector">Size vector must have at least two elements.</entry>
+    <entry key="unknownDim">Size can only have one unknown dimension.</entry>
+    <entry key="notDivisible">Product of known dimensions, {0,number,integer}, not divisible into total number of elements, {1,number,integer}.</entry>
+    <entry key="notSameNumel">Number of elements must not change. Use [] as one of the size inputs to automatically calculate the appropriate size for that dimension.</entry>
+    <!--Resource entries for src/matrix-->
+    <entry key="notRealInt">Size arguments must be real integers.</entry>
+  </message>
+</rsccat>

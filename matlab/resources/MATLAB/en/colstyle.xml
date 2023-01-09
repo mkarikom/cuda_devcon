@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidInput" note="stringDatatypeUpdate">Requires a string scalar or a character vector argument.</entry>
+    <entry key="UnrecognizedLinespecCharacter" note="stringDatatypeUpdate">Unrecognized characters in LineSpec.</entry>
+    <entry key="InvalidLinespec" note="stringDatatypeUpdate">Invalid LineSpec.</entry>
+  <!--Resource entries for src/hgbuiltins-->
+    <entry key="InvalidSecondArg" note="stringDatatypeUpdate">The second input argument must be the string scalar or character vector ''plot''</entry>
+  </message>
+</rsccat>

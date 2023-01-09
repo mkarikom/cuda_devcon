@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CharArgs" note="stringDatatypeUpdate">Input arguments must be character vectors.</entry>
+    <entry key="ColorSpace">ColorSpace argument must be ''cmyk'', ''gray'', or ''cmykgray''.</entry>
+    <entry key="InconsistentTypes">The output file must have same file extension as the input file.</entry>
+    <entry key="BadInputFile">Unable to open the input file for reading.</entry>
+    <entry key="NotPostScript">The input file does not appear to be a PostScript file.</entry>
+    <entry key="NotFreeHEP">The input file does not appear to be a PostScript file that can be modified to set the colorspace.</entry>
+    <entry key="BadOutputFile">Unable to open the output file for writing.</entry>
+  </message>
+</rsccat>

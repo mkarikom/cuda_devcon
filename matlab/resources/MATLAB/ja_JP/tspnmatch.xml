@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invPropStr">プロパティ名は単一行の文字ベクトルまたは string でなければなりません。</entry>
+    <entry key="invPropName">無効なプロパティ名 ''{0}''</entry>
+    <entry key="ambPropName">あいまいなプロパティ名 ''{0}'' です。より多くの文字を与えてください。</entry>
+  </message>
+</rsccat>

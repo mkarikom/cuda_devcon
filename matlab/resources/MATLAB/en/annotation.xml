@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invalidinput">Value must be a 2-element vector.</entry>
+    <entry key="BadParent">Parent property is unsupported as a name-value pair.</entry>
+    <entry key="BadNumArgs">Not enough input arguments.</entry>
+    <entry key="FirstArgFigureOrAnnotation">First argument must be a valid annotation type or a handle to a figure, uipanel, or uitab.</entry>
+    <entry key="SecondArgValidAnnotation">Second argument must be a valid annotation type.</entry>
+    <entry key="IllegalXYArguments">X and Y values must be between 0 and 1.</entry>
+    <entry key="IllegalPositionArgument">Position values must be between 0 and 1.</entry>
+    <entry key="BadArguments">Unknown argument.</entry>
+  </message>
+</rsccat>

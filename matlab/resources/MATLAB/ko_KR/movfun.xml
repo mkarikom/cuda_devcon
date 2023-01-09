@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="complexIntegers">유효하지 않은 데이터형입니다. 복소수 입력값은 double형 또는 single형이어야 합니다.</entry>
+    <entry key="integerInput">유효하지 않은 데이터형입니다. 첫 번째 입력값은 double형 또는 single형이어야 합니다.</entry>
+    <entry key="complexInput">유효하지 않은 데이터형입니다. 첫 번째 입력값은 실수여야 합니다.</entry>
+    <entry key="complexFillValue">''Endpoints'' 값은 실수여야 합니다.</entry>
+    <entry key="wrongInput">유효하지 않은 데이터형입니다. 첫 번째 입력값은 숫자형이거나 논리형이어야 합니다.</entry>
+    <entry key="noEndpointValue">입력 인수의 개수가 올바르지 않습니다. ''Endpoints'' 다음에는 이에 대응하는 값이 와야 합니다.</entry>
+    <entry key="wrongEndpoint">''Endpoints'' 값은 ''shrink'', ''discard'', ''fill'', 숫자형 스칼라, 논리형 스칼라 중 하나여야 합니다.</entry>
+    <entry key="noSamplePointsValue">입력 인수의 개수가 올바르지 않습니다. ''SamplePoints'' 다음에는 이에 대응하는 값이 와야 합니다.</entry>
+    <entry key="SamplePointsComplex">''SamplePoints'' 값은 실수여야 합니다.</entry>
+    <entry key="SamplePointsDuplicate">''{0}'' 값에 중복 항목이 있습니다.</entry>
+    <entry key="SamplePointsInvalidDatatype">''SamplePoints'' 값은 숫자형 벡터, datetime형 벡터, duration형 벡터 중 하나여야 합니다.</entry>
+    <entry key="SamplePointsLength">''SamplePoints'' 값은 요소를 {0,number,integer}개 가진 벡터여야 합니다.</entry>
+    <entry key="SamplePointsNonFinite">''{0}'' 값에 Inf 또는 {1}이(가) 포함되어 있습니다.</entry>
+    <entry key="SamplePointsSorted">''{0}'' 값은 오름차순으로 정렬되어야 합니다.</entry>
+    <entry key="SamplePointsSparse">''SamplePoints'' 값은 비희소 형식이어야 합니다.</entry>
+    <entry key="SamplePointsTimeTable">첫 번째 인수가 timetable형인 경우에는 ''SamplePoints'' 파라미터가 지원되지 않습니다.</entry>
+    <entry key="wrongNVPair">파라미터 이름은 ''Endpoints'' 또는 ''SamplePoints''여야 합니다.</entry>
+    <entry key="wrongString">유효하지 않은 옵션 조합입니다. 옵션은 'omitnan' 또는 'includenan'이어야 합니다.</entry>
+    <entry key="wrongWindowLength">윈도우 길이는 유한한 양의 스칼라이거나 음이 아닌 유한한 스칼라로 구성된, 요소를 2개 가진 벡터여야 합니다.</entry>
+    <entry key="wrongNormalization">정규화 인수는 0 또는 1이어야 합니다.</entry>
+    <entry key="bothSamplePointsAndFillValue">''SamplePoints'' 값이 주어진 경우 ''Endpoints'' 값은 숫자형 스칼라 또는 논리형 스칼라일 수 없습니다.</entry>
+    <entry key="nanFlagAfterPairs">NaN 조건은 파라미터 이름-값 쌍 앞에 와야 합니다.</entry>
+    <entry key="endpointChoiceInvalid">''SamplePoints'' 값의 간격이 균일하지 않은 경우 ''Endpoints'' 값은 ''shrink''여야 합니다.</entry>
+    <entry key="winsizeNotDuration">유효하지 않은 데이터형입니다. ''SamplePoints'' 값이 {0}인 경우 윈도우 크기는 duration형이어야 합니다.</entry>
+    <entry key="codegenSamplePointsNotSupported">코드 생성에는 ''SamplePoints''가 지원되지 않습니다.</entry>
+  </message>
+</rsccat>

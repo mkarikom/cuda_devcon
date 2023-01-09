@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="WindowNotFound">Specified window does not exist.</entry>
+    <entry key="InvalidFigureHandle">Invalid figure handle.</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="InvalidValueIgnoreCloseAll">Unrecognized value for IgnoreCloseAll - valid values are 1 or 2</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="UnexpectedInvalidHandle">Unexpected invalid handle passed to request_close_helper</entry>
+    <entry key="UnexpectedValue">Unexpected value passed to request_close_helper</entry>
+  </message>
+</rsccat>

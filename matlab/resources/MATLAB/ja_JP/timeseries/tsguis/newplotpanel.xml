@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Abort">中止</entry>
+    <entry key="AddToExistingPlot">既存のプロットに追加</entry>
+    <entry key="AttemptingToPlotMore">1 つの座標軸内で {0,number,integer} 個を超える時系列をプロットしようとすると時間がかかります。続行しますか?</entry>
+    <entry key="Continue">続行</entry>
+    <entry key="CreateNew">新規作成</entry>
+    <entry key="Display">表示</entry>
+    <entry key="Name">名前: </entry>
+    <entry key="PlotTimeSeries">時系列のプロット</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="Test">テスト</entry>
+    <entry key="Type">タイプ: </entry>
+    <entry key="YouMustSpecifyANameForTheNewPlot">新規プロットに対して名前を指定しなければなりません。</entry>
+    <entry key="View1">View1</entry>
+    <entry key="ViewNumber">View{0,number,integer}</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedFormat">形式 ''{0}'' は有効ではありません。この形式はシーケンス ''{1}'' からの文字のみを含まなければなりません。</entry>
+    <entry key="InvalidFormat">カレンダーの期間表示の形式は string または文字ベクトルでなければなりません。</entry>
+    <entry key="InvalidData">入力データは数値でなければなりません。年や月などの列をもつ行列から、または別々の数値配列からカレンダー期間を作成してください。</entry>
+    <entry key="InvalidDurationData">入力データは数値でなければなりません。期間からカレンダー期間を作成するには、まず関数 YEARS、DAYS、HOURS、MINUTES または SECONDS を使用して数値に変換します。</entry>
+    <entry key="InvalidNumericMatrix">数値入力配列は 3 列または 6 列の行列でなければなりません。また、関数 CALYEARS、CALQUARTERS、CALMONTHS、CALWEEKS または CALDAYS を使用して、単一の数値配列からカレンダー期間を作成することもできます。</entry>
+    <entry key="InvalidNumericData">数値入力データは 1 つの行列か、3 つまたは 6 つの別々の配列でなければなりません。また、関数 CALYEARS、CALQUARTERS、CALMONTHS、CALWEEKS または CALDAYS を使用して、単一の数値配列からカレンダー期間を作成することもできます。</entry>
+    <entry key="InputMustBeReal">数値入力データは実数でなければなりません。</entry>
+    <entry key="InputSizeMismatch">数値入力データ配列は同じサイズでなければなりませんが、それらのいずれかがスカラーであってもかまいません。</entry>
+    <entry key="MustBeInteger">年、四半期、月、週、日、時、分は整数値でなければなりません。</entry>
+    <entry key="DatenumNotDefined">calendarDuration 配列をシリアル日付値に変換することはできません。代わりに SPLIT を使用してください。</entry>
+    <entry key="DatestrNotDefined">関数 DATESTR が calendarDuration 配列で定義されていません。代わりに CELLSTR を使用します。</entry>
+    <entry key="LinspaceNotDefined">タイプ 'calendarDuration' の入力引数は、関数 ''linspace'' では定義されていません。代わりに関数 CALYEARS、CALMONTHS および CALDAYS を使用してください。</entry>
+    <entry key="ColonNotDefined">タイプ 'calendarDuration' の入力引数は、関数 ''colon'' では定義されていません。コロン式の中で datetime を使用して特定の時間に固定してください。</entry>
+    <entry key="NonZeroMonths">calendarDuration にゼロでない月の数が含まれている場合、日数や週数への変換はサポートされていません。代わりに SPLIT を使用してください。</entry>
+    <entry key="DatetimeInputCalyears">入力データは実数の整数値または calendarDuration 配列を含む数値配列でなければなりません。YEAR を使用して、datetime 配列から年番号を抽出してください。</entry>
+    <entry key="DatetimeInputCalquarters">入力データは実数の整数値または calendarDuration 配列を含む数値配列でなければなりません。QUARTER を使用して datetime 配列から四半期番号を抽出してください。</entry>
+    <entry key="DatetimeInputCalmonths">入力データは実数の整数値または calendarDuration 配列を含む数値配列でなければなりません。MONTH を使用して datetime 配列から月番号を抽出してください。</entry>
+    <entry key="DatetimeInputCalweeks">入力データは実数の整数値または calendarDuration 配列を含む数値配列でなければなりません。WEEK を使用して datetime 配列から週番号を抽出してください。</entry>
+    <entry key="DatetimeInputCaldays">入力データは実数の整数値または calendarDuration 配列を含む数値配列でなければなりません。DAY を使用して、datetime 配列から日番号を抽出してください。</entry>
+    <entry key="DurationInputCalyears">入力データは実数の整数値または calendarDuration 配列を含む数値配列でなければなりません。YEARS を使用して duration 配列を等価の数値 (標準長の年単位) に変換してください。</entry>
+    <entry key="DurationInputCaldays">入力データは実数の整数値または calendarDuration 配列を含む数値配列でなければなりません。DAYS を使用して duration 配列を等価の数値 (標準長の日単位) に変換してください。</entry>
+    <entry key="InvalidCalDurationData">入力データは実数の整数値または calendarDuration 配列を含む数値配列でなければなりません。</entry>
+    <entry key="NonintegerCalYearsData">入力データは実数の整数値を含む数値配列でなければなりません。関数 CALMONTHS または CALDAYS を使用して 1 年未満のカレンダー期間を作成するか、関数 YEARS を使用して端数の固定長の年を期間として作成してください。</entry>
+    <entry key="NonintegerCalQuartersData">入力データは実数の整数値を含む数値配列でなければなりません。関数 CALMONTHS または CALDAYS を使用して 1 四半期未満のカレンダー期間を作成してください。</entry>
+    <entry key="NonintegerCalMonthsData">入力データは実数の整数値を含む数値配列でなければなりません。関数 CALDAYS を使用して 1 か月未満のカレンダー期間を作成してください。</entry>
+    <entry key="NonintegerCalWeeksData">入力データは実数の整数値を含む数値配列でなければなりません。関数 CALDAYS を使用して 1 週間未満のカレンダー期間を作成してください。</entry>
+    <entry key="NonintegerCalDaysData">入力データは実数の整数値を含む数値配列でなければなりません。関数 HOURS、MINUTES または SECONDS を使用して 1 日未満の期間を作成するか、関数 DAYS を使用して端数の固定長の日を期間として作成してください。</entry>
+    <entry key="InvalidNumericConversion">タイプ 'calendarDuration' の入力引数は、関数 ''{0}'' で定義されていません。カレンダー期間から数値への変換を行うには、関数 SPLIT を使用するか、関数 CALDAYS、CALWEEKS、CALMONTHS、CALQUARTERS または CALYEARS を使用します。</entry>
+    <entry key="NoMonthsMethod">タイプ 'calendarDuration' の入力引数は、関数 ''{0}'' で定義されていません。カレンダー期間のカレンダー月数を確認するには関数 CALMONTHS を使用します。</entry>
+    <entry key="CellReferenceNotAllowed">セルの内容が非セル配列から参照されています。</entry>
+    <entry key="CellAssignmentNotAllowed">セルの内容が非セル配列に代入されています。</entry>
+    <entry key="UnrecognizedProperty">プロパティが認識されません: ''{0}''。</entry>
+    <entry key="InvalidPropertyName">プロパティ名が無効です。</entry>
+    <entry key="InvalidSubscriptExpr">インデックス式では、()-インデックス付けの後に () や '{}' を続けることができません。</entry>
+    <entry key="SubArrayPropertyAssignment">calendarDuration 配列の要素の ''{0}'' プロパティに代入を行うことはできません。代わりに、d.{0} = ... を使用してください。</entry>
+    <entry key="InvalidAssignmentLHS">{0} 配列からの割り当ての LHS が無効です。</entry>
+    <entry key="InvalidAssignment">代入の右辺は calendarDuration 配列でなければなりません。</entry>
+    <entry key="IllegalDotMethod">calendarDuration プロパティ ''{0}'' を認識できません。{1} メソッドを呼び出す場合は、{1}(d,...) などの関数構文を使用しなければなりません。詳細については、「&lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;メソッドの呼び出し&lt;/a&gt;」を参照してください。</entry>
+    <entry key="IllegalDotMethodNoCorrection">calendarDuration プロパティ ''{0}'' を認識できません。{1} メソッドを呼び出す場合は、関数構文を使用しなければなりません。詳細については、「&lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;メソッドの呼び出し&lt;/a&gt;」を参照してください。</entry>
+    <entry key="InvalidComparison">{0} 配列と {1} 配列の間で比較は定義されていません。</entry>
+    <entry key="ComplexNotDefined">複素数値が calendarDuration 配列に対して定義されていません。</entry>
+    <entry key="AdditionNotDefined">{0} 配列と {1} 配列の間で加算は定義されていません。</entry>
+    <entry key="SubtractionNotDefined">{0} 配列と {1} 配列の間で減算は定義されていません。</entry>
+    <entry key="CalendarDurationMultiplicationNotDefined">乗算が 2 つの calendarDuration 配列間で定義されていません。</entry>
+    <entry key="MultiplicationNotDefined">{0} 配列と {1} 配列の間で乗算は定義されていません。</entry>
+    <entry key="NonIntegerMultiplier">非整数値による乗算が calendarDuration に対して定義されていません。</entry>
+    <entry key="DuplicateFormatCharacters">形式に重複した文字があります。</entry>
+    <entry key="OutOfOrderFormatCharacters">形式 ''{0}'' 内の文字が正しい順序ではありません。代わりに ''{1}'' を使用してください。</entry>
+    <entry key="InvalidCalendarDurationFormatWarn">形式 ''{0}'' は有効ではありません。calendarDuration の表示形式は識別子 'm'、'd' および 't' を含まなければなりません。\n形式を ''{1}'' に設定します。</entry>
+  </message>
+</rsccat>

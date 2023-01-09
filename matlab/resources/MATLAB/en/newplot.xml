@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidHandle">Argument must be a scalar handle to an existing graphics object.</entry>
+    <entry key="NoAxesParent">The specified axes was deleted by a separate process when the figure was reset.</entry>
+    <entry key="HoldOnMixing">Adding Cartesian plot to {0} is not supported.</entry>
+    <entry key="HoldOnMixingPolar">Adding polar plot to {0} is not supported.</entry>
+    <entry key="HoldOnMixingAxesGeneric">Adding {0} to {1} is not supported. Turn hold off.</entry>
+  </message>
+</rsccat>

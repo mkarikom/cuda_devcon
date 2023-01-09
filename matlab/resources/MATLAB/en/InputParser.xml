@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="BadValidator">Validator must be a function handle.</entry>
+    <entry key="CaseSensitiveSwitch">Setting ''CaseSensitive'' to false would result in multiple parameters with equivalent names. Unable to change case sensitivity.</entry>
+    <entry key="failedWithError">The value of ''{0}'' is invalid. {1}</entry>
+    <entry key="ArgumentFailedValidation">The value of ''{0}'' is invalid. It must satisfy the function: {1}.</entry>
+    <entry key="ArgumentFailedDefaultValidation" note="stringDatatypeUpdate">The argument ''{0}'' is a string scalar or character vector and does not match any parameter names. It failed validation for the argument ''{1}''.</entry>
+    <entry key="InvalidName" note="stringDatatypeUpdate">Parameter name must be a string scalar or character vector.</entry>
+    <entry key="MustBeChar">Defaults must be a cell array of chars.</entry>
+    <entry key="mustBeScalar">Input structure to a function must be scalar.</entry>
+    <entry key="NameMustBeChar" note="stringDatatypeUpdate">Argument name must be a string scalar or character vector.</entry>
+    <entry key="notEnoughInputs">Not enough input arguments.</entry>
+    <entry key="NotAValidFieldName" note="stringDatatypeUpdate">First argument must be a string scalar or character vector that can represent a field name.</entry>
+    <entry key="UnmatchedNotAValidFieldName" note="stringDatatypeUpdate">Unmatched parameter name ''{0}'' must be a string scalar or character vector that can represent a field name.</entry>
+    <entry key="ParamAlreadyExists">A parameter name equivalent to ''{0}'' already exists in the input parser. Redefining a parameter is not allowed.</entry>
+    <entry key="ParamMissingValue">No value was given for ''{0}''. Name-value pair arguments require a name followed by a value.</entry>
+    <entry key="ParamMustBeChar" note="stringDatatypeUpdate">Expected a string scalar or character vector for the parameter name.</entry>
+	<entry key="missingValueInParameter">A parameter name must not be a missing value.</entry>
+    <entry key="UnknownParameterName">''{0}'' is not a recognized parameter. Expected: ''{1}''.</entry>
+    <entry key="PartialMatchPriorityRealScalarInt">The value of ''{0}'' is invalid. Expected a positive integer value.</entry>
+    <entry key="AmbiguousParameter">''{0}'' matches multiple parameter names: {1}. {2}</entry>
+        <!-- Used as last input to AmbiguousParameter-->
+        <entry key="AmbiguousSelection">Assuming the intended name is ''{0}''.</entry>
+        <entry key="AmbiguousRejection">To avoid ambiguity, specify the complete name of the parameter.</entry>
+    <entry key="UnmatchedParameter">''{0}'' is not a recognized parameter. {1}</entry>
+        <!-- Used as last input to UnmatchedParameter-->
+        <entry key="ValidParameters">For a list of valid name-value pair arguments, see the documentation for {0}.</entry>
+        <entry key="NoValidParameters">Name-value pair arguments are not accepted for {0}.</entry>
+    <entry key="THIS_FUNCTION_LITERAL">this function</entry>
+  </message>
+</rsccat>

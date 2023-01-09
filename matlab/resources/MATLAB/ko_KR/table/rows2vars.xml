@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidNewVarNamesSpec">입력 테이블에서 하나의 변수를 출력 테이블의 새 변수 이름이 되도록 지정하십시오. 양의 정수, 변수 이름 또는 하나의 true 값을 포함하는 논리형 벡터를 사용하십시오.</entry>
+    <entry key="InvalidNewVarNames">''VariableNamesSource''로 지정된 변수는 변수 이름으로 변환할 수 없습니다.</entry>
+    <entry key="IncorrectNumVarNames">''VariableNamesSource''로 지정된 변수는 입력 테이블의 각 행마다 하나씩 고유한 텍스트 조각을 제공해야 합니다. 다차원 배열인 변수는 사용할 수 없습니다.</entry>
+    <entry key="DataVarsIncludeVarNames">''VariableNamesSource''로 지정된 변수는 데이터 변수에 포함되지 않아야 합니다.</entry>
+    <entry key="CannotTransposeTableInTable">입력 테이블은 자체가 table형인 변수를 포함해서는 안 됩니다. rows2vars를 호출하기 전에 splitvars를 사용하여 별도의 변수를 생성해 보십시오.</entry>
+    <entry key="CannotTransposeMulticolumnVar">입력 테이블은 다중 열 또는 N차원 배열인 변수를 포함해서는 안 됩니다. rows2vars를 호출하기 전에 splitvars를 사용하여 별도의 변수를 생성해 보십시오.</entry>
+    <entry key="CannotTransposeNoColumnVar">입력 테이블은 너비가 0인 변수를 포함해서는 안 됩니다.</entry>
+    <entry key="VarsizeTable">입력 테이블의 행 개수는 컴파일할 때 고정되어야 합니다.</entry>
+    <entry key="UnsupportedVarNamesSource">코드 생성 시 ''VariableNamesSource''는 지원되지 않습니다.</entry>
+    <entry key="NonconstantDataVars">''DataVariables'' 값은 상수여야 합니다.</entry>
+    <entry key="NonconstantNamingRule">변수 명명 규칙은 상수여야 합니다.</entry>
+    <entry key="NonconstantRowNames">입력 테이블의 행 이름은 상수여야 합니다.</entry>
+  </message>
+</rsccat>

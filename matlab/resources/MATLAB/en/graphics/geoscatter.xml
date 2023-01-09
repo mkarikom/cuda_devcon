@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="AxesInput">Parent must be a geoaxes object.</entry>
+    <entry key="DataLengthMismatch">{0} must contain the same number of elements as {1}.</entry>
+    <entry key="LongitudeRequired">Both latitude and longitude inputs are required.</entry>
+    <entry key="NoDataInputs">Must supply latitude and longitude data arguments.</entry>
+    <entry key="RadiusLabel">Radius of influence on density calculation</entry>
+  </message>
+</rsccat>

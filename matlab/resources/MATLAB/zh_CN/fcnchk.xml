@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AmbiguousX">表达式或函数输入具有多义性。\n 字符 ''x'' 将解释为 ''x'' 函数的名称(例如 x.m)，而不会解释为数学表达式 ''x'' (即 f(x)=x)。如果您指的是数学表达式 ''x''，请使用匿名函数 @(x)x。</entry>
+    <entry key="objectMissingFevalMethod">如果 FUN 为 MATLAB 对象，则它必须具有 feval 方法。</entry>
+    <entry key="invalidFunctionSpecifier">FUN 必须为函数、有效的字符向量表达式或内联函数对象。</entry>
+  </message>
+</rsccat>

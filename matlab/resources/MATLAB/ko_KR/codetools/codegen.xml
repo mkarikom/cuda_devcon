@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidState">유효하지 않은 상태</entry>
+    <entry key="InvalidInputRequiresCellArrayOfStrings">유효하지 않은 입력값임. 문자형 벡터로 구성된 셀형 배열이 필요함</entry>
+    <entry key="InvalidProperty">{0}은(는) 유효하지 않은 속성임</entry>
+    <entry key="InvalidInputStringRequired">유효하지 않은 입력값임. 문자형 벡터가 필요함</entry>
+    <entry key="IncorrectProperty">''{1}'' 속성이 이미 등록된 경우 ''{0}'' 속성이 설정될 수 없습니다.</entry>
+    <entry key="InvalidRegistration">현재 변수는 이미 변수 테이블에 등록되어 있습니다.</entry>
+    <entry key="DirectCodeGenNotSupported">직접 코드 생성은 다음 클래스에 대해 지원되지 않음:</entry>
+  </message>
+</rsccat>

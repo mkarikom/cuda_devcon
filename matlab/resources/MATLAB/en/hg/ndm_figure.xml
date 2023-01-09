@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="UnableToFindFigureMenuBar">Unable to find FigureMenuBar.fig on path - not adding built-in menus</entry>
+    <entry key="UnableToFindFigureToolBar">Unable to find FigureToolBar.fig on path - not adding built-in toolbar</entry>
+    <entry key="OpenGLRenderingAdvised">OpenGL rendering is advised. For more info type ''help opengl''</entry>
+    <entry key="OpenGLNotAvailable">OpenGL not available. Using ZBuffer</entry>
+    <entry key="FigureNotInZBufferMode">Figure is not in zbuffer mode</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="frontend">解析時に予期しない定数が見つかりました "{0}"\n</entry>
+    <entry key="nofunction">関数 ''{0}'' を取得できません。</entry>
+    <entry key="nolib">m_lxe ライブラリ ''{0}'' を読み込めません。</entry>
+    <entry key="unsupportedFeature">この機能のサポートは終了しており、将来のリリースで廃止されます。</entry>
+    <entry key="FeatureLxeNameErr">*** 機能 {0} のオプションは以下のとおりです。\n*** ''{1}'' </entry>
+    <entry key="StackOverflow">メモリが足りません。プログラム内で無限の再帰が発生していることが原因として考えられます。</entry>
+    <entry key="break_without_loop_script">エラー: ファイル: {0} 行: {1,number,integer}\nBREAK は、FOR ループまたは WHILE ループ内でのみ、および対応する FOR ステートメントまたは WHILE ステートメントと同じファイル内でのみ使用できます。</entry>
+    <entry key="continue_without_loop_script">エラー: ファイル: {0} 行: {1,number,integer}\nCONTINUE は、FOR ループまたは WHILE ループ内でのみ、および対応する FOR ステートメントまたは WHILE ステートメントと同じファイル内でのみ使用できます。</entry>
+    <entry key="MismatchIrCacheVersion">ファイル ''{0}'' のキャッシュされた ir は version {1} です。この MATLAB のバージョンでは version {2} を使用します。キャッシュされた IR は無視されます。</entry>
+    <entry key="oldPfileVersion">P コード ファイル {0} は MATLAB Version 7.5 (R2007b) より前のバージョンで生成されており、サポートされていません。MATLAB R2007b 以降で &lt;a href="matlab:doc pcode"&gt;pcode&lt;/a&gt; を使用してファイルを再生成してください。</entry>
+    <entry key="conversionError">{1} から {0} に変換できません。</entry>
+    <entry key="colonInput">関数への入力引数にコロン演算子が含まれています。コロン演算子を入力するには、代わりに ':' を使用してください。</entry>
+    <entry key="BadArgumentsToBuiltinEnd">組み込み関数 END への入力はスカラー数値でなければなりません。</entry>
+    <entry key="IncorrectNumberOfArgumentsToBuiltinEnd">組み込み関数 END への引数の数が正しくありません。</entry>
+    <entry key="DimensionExceededForBuiltinEnd">end(obj,k,n) の呼び出しで、k は n 以下でなければなりません。</entry>
+    <entry key="NoInputFileNameSpecified">入力ファイル名を指定しなければなりません。</entry>
+    <entry key="FileNotFound">''ファイル {0} が見つかりません。''</entry>
+    <entry key="NotAMfile">入力ファイルは ".m" ファイルでなければなりません。</entry>
+    <entry key="AttemptToModifyReadonlyWorkspace">エラー: 読み取り専用のワークスペースを変更しようとしています。</entry>
+    <entry key="UnsupportedOperation">エラー: 操作は提供されたファイル {0} に対応していません。</entry>
+    <entry key="BadArguments">エラー: ソース位置の引数のタイプまたは値、あるいはその両方が正しくありません。</entry>
+    <entry key="LocalFunctionAssignmentEval">{0}{1} への代入はサポートされていません。変数の名前がローカル関数と同じです。</entry>
+    <entry key="IndexingIntoLocalFunctionUsingAnEnd">エラー: ファイル: {1} 行: {0,number,integer}\nend 演算子は、配列のインデックス式内でのみ使用しなければなりません。</entry>
+    <entry key="EndUsedOutsideIndexingExpression">end 演算子は、配列のインデックス式の内部でのみ用いられなければなりません。</entry>
+    <entry key="LocalFunctionAssignment">エラー: ファイル: {0} 行: {1,number,integer}\n{2} への代入はサポートされていません。変数の名前がローカル関数と同じです。</entry>
+    <entry key="BreakpointInAnonymousFunctionInScript">ブレークポイントは名前付き関数内にあり、かつ無名関数を含む行になければなりません。</entry>
+    <entry key="lineInOutOfSyncPFile">同期していない P ファイル内におけるブレークポイントの設定またはクリアはサポートされていません。</entry>
+    <entry key="BreakpointsNotRestored">ファイル ''{0}'' が MATLAB エディター以外で変更されたため、MATLAB ではすべてのブレークポイントを復元できませんでした。</entry>
+    <entry key="GlobalVariableUsedBeforeDeclaration">変数 {0} は、使用する前にグローバル変数として宣言しなければなりません。</entry>
+    <entry key="NestedFunctionShadowedInEval">{0}評価済みステートメント内の識別子 ''{1}'' が、入れ子関数を参照していません。将来のリリースでは、ファイル内での用法と異なっている識別子の使用はサポートされなくなります。</entry>
+    <entry key="LocalFunctionShadowedInEval">{0}評価済みステートメント内の識別子 ''{1}'' が、ローカル関数を参照していません。将来のリリースでは、ファイル内での用法と異なっている識別子の使用はサポートされなくなります。</entry>
+    <entry key="PoofedVariableShadowsLocalFunction">{0}評価済みステートメント内のローカル関数 ''{1}'' よりも、ワークスペース変数が優先されています。将来のリリースでは、ローカル関数が優先されるようになります。</entry>
+    <entry key="ExternalShadowedInEval">{0}評価済みステートメント内の識別子 ''{1}'' が、外部関数を参照していません。将来のリリースでは、ファイル内での用法と異なっている識別子の使用はサポートされなくなります。</entry>
+    <entry key="PoofedVariableShadowsExternal">{0}評価済みステートメント内の関数 ''{1}'' よりも、ワークスペース変数が優先されています。将来のリリースでは、関数が優先されるようになります。</entry>
+    <entry key="VariableShadowedInEval">{0}評価済みステートメント内の識別子 ''{1}'' が、変数を参照していません。将来のリリースでは、ファイル内での用法と異なっている識別子の使用はサポートされなくなります。</entry>
+    <entry key="LocalFunctionAndVariableHaveSameName">エラー: {0}ローカル関数 "{1}" と同じ名前の変数を宣言することは、スクリプトではサポートされていません。</entry>
+    <entry key="ImportedFunctionAndVariableHaveSameName">エラー: {0}インポートされた関数 "{1}" と同じ名前の変数を宣言することはサポートされていません。</entry>
+    <entry key="ImportedFunctionAndNestedFunctionHaveSameName">エラー: {0}入れ子関数 "{1}" と同じ名前のクラスまたは関数をインポートすることはサポートされていません。</entry>
+    <entry key="ImportedFunctionAndLocalFunctionHaveSameName">エラー: {0}ローカル関数 "{1}" と同じ名前のクラスまたは関数をインポートすることはサポートされていません。</entry>
+    <entry key="BraceIndexingFunctionOrClass">エラー: {0}パス上の関数 ''{1}'' を呼び出すための構文が無効です。有効な構文を使用するか、''{1}'' を明示的に初期化して変数にしてください。</entry>
+    <entry key="BraceIndexingNotSupported">中かっこを {0} のインデックスに使用することはできません。</entry>
+    <entry key="ParenDotIndexingFunction">エラー: {0}関数呼び出しの出力へのインデックス付けはサポートされていません。</entry>
+    <entry key="AnsAsImportedFunctionOrClass">エラー: {0}パッケージ内の関数またはクラスの名前として ans を使用することはサポートされていません。</entry>
+    <entry key="SharedVariablesDocId">親関数と入れ子関数間での変数の共有</entry>
+    <entry key="IdentifierNotSharedVariableWithNestedScope">エラー: {0}識別子 ''{1}'' が関数または共有変数ではありません。''{1}'' を入れ子関数と共有するには、現在のスコープ内で初期化します。詳細については、{2} を参照してください。</entry>
+    <entry key="InvalidHexNumber">エラー: {0}16 進数リテラルの数字が無効です。サポートされている 16 進数の数字は 0 ～ 9 と A ～ F です。サポートされている型の接尾辞は、u8、u16、u32、u64、s8、s16、s32、s64 です。</entry>
+    <entry key="InvalidHexTruncation">エラー: {0}指定された、または含意された型の接尾辞に対して、16 進数リテラルの桁数が多すぎます。</entry>
+    <entry key="InvalidBinaryNumber">エラー: {0}バイナリ リテラルの数字が無効です。サポートされている 2 進数の各桁の値は 0 および 1 です。サポートされている型の接尾辞は、u8、u16、u32、u64、s8、s16、s32、s64 です。</entry>
+    <entry key="InvalidBinaryTruncation">エラー: {0}指定された、または含意された型の接尾辞に対して、バイナリ リテラルの桁数が多すぎます。</entry>
+    <entry key="InternalError">{0} の処理中に MATLAB で内部エラーが発生しました。このファイルのコピーを保持し、以下の情報を添えてテクニカル サポートにお問い合わせください。\n{1}</entry>
+    <entry key="UnsupportedMove">‘move’ は関数内からの変数を使用してのみ呼び出すことができます。</entry>
+    <entry key="NameValueNotLast">エラー: {0}'=' 演算子の使用はサポートされていません。値の等価性を比較するには '==' を使用します。name=value 形式を使用して名前と値の引数を渡すには、これらの引数を他のすべての引数の後に指定してください。</entry>
+    <entry key="NameValueInBraceIndex">エラー: {0}'=' 演算子の使用はサポートされていません。値の等価性を比較するには '==' を使用します。</entry>
+    <entry key="InvalidWhitespace">エラー: {0}テキスト文字が正しくありません。テキスト ''{1}'' に、サポートされていない非 ASCII の空白文字が含まれています。</entry>
+    <entry key="InvalidEqualsInParens">エラー: {0}'=' 演算子の使用はサポートされていません。値の等価性を比較するには '==' を使用します。名前と値の引数を指定する場合、名前が引用符で囲まれていない有効な識別子であることを確認してください。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownOption">不明なコマンド オプション {0}。</entry>
+    <entry key="WrongNumberElements">ベクトルは 4, 6 または 8 要素でなければなりません。</entry>
+    <entry key="ObsoleteState">AXIS(''STATE'') は旧式で、将来のバージョンでは削除される予定です。代わりに、GET(GCA,...) を使用してください。</entry>
+    <entry key="CartesianAxes">コマンド オプション {0} は直交座標軸に対してのみ使用できます。</entry>
+    <entry key="NumericAxes">コマンド オプション {0} は数値の座標軸に対してのみ使用できます。</entry>
+    <entry key="Mixed2D">x 軸と y 軸の範囲のデータ型が異なります。代わりに、関数 &lt;a href="matlab:helpview([docroot '/matlab/ref/xlim.html'])"&gt;xlim&lt;/a&gt; および &lt;a href="matlab:helpview([docroot '/matlab/ref/ylim.html'])"&gt;ylim&lt;/a&gt; を使用してください。</entry>
+    <entry key="Mixed3D">x 軸と y 軸と z 軸の範囲のデータ型が異なります。代わりに、関数 &lt;a href="matlab:helpview([docroot '/matlab/ref/xlim.html'])"&gt;xlim&lt;/a&gt;、&lt;a href="matlab:helpview([docroot '/matlab/ref/ylim.html'])"&gt;ylim&lt;/a&gt; および &lt;a href="matlab:helpview([docroot '/matlab/ref/zlim.html'])"&gt;zlim&lt;/a&gt; を使用してください。</entry>
+    <entry key="NonAxisGraphicsHandle">最初の引数は axes オブジェクトでなければなりません。 </entry>
+  </message>
+</rsccat>

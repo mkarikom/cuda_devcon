@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidUnit">UNIT은 ''second'', ''minute'', ''hour'', ''day'', ''week'', ''month'', ''quarter'', ''year'' 중 하나여야 합니다.</entry>
+    <entry key="AmbiguousUnit">UNIT의 값이 모호함: ''{0}''.</entry>
+    <entry key="InputSizeMismatch">T와 RULE은 크기가 동일하거나, 둘 중 하나는 스칼라여야 합니다.</entry>
+    <entry key="InvalidRule">RULE은 정수 값, 정수 값으로 구성된 배열 또는 ''next'', ''previous'', ''current'', ''nearest'' 중 하나여야 합니다.</entry>
+    <entry key="InvalidDOW">요일(day of week)은 1에서 7 사이의 숫자이거나 요일 이름이어야 합니다.</entry>
+    <entry key="AmbiguousDOW">요일의 값이 모호함: ''{0}''.</entry>
+    <entry key="InvalidWhereTo">두 번째 입력값은 ''start'', ''end'', ''dayofweek'' 중 하나여야 합니다.</entry>
+    <entry key="InvalidRuleForWeekDayWeekEnd">''weekday'' 또는 ''weekend''를 사용하여 이동하는 경우 RULE은 ''next'', ''previous'' 또는 ''nearest''여야 합니다.</entry>
+    <entry key="InvalidNumericRuleForWeekDayWeekEnd">''weekday'' 또는 ''weekend''를 사용하여 이동하는 경우 숫자형 RULE 0은 지원되지 않습니다.</entry>
+  </message>
+</rsccat>

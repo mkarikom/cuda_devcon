@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidMarkerLineStyle">The value ''{0}'' is not a valid line style.</entry>
+    <entry key="NotEnoughStyles">There must be at least one line style present.</entry>
+    <entry key="InvalidInput" note="stringDatatypeUpdate">The value must be a ''|'' delimited character vector, string array, or cell array of character vectors.</entry>
+    <entry key="TextPositionConversionError">Array element for TextPosition may not be NaN or Inf.</entry>
+    <entry key="matlab_graphics_datatype_FontWeight_demi">demi</entry>
+    <entry key="matlab_graphics_datatype_FontWeight_light">light</entry>
+    <entry key="matlab_graphics_datatype_FontWeight_normal">normal</entry>
+    <entry key="matlab_graphics_datatype_FontWeight_bold">bold</entry>
+    <entry key="matlab_graphics_datatype_FontAngle_oblique">oblique</entry>
+    <entry key="matlab_graphics_datatype_FontAngle_normal">normal</entry>
+    <entry key="matlab_graphics_datatype_FontAngle_italic">italic</entry>
+    <entry key="matlab_graphics_datatype_BarLayout_grouped">grouped</entry>
+    <entry key="matlab_graphics_datatype_BarLayout_stacked">stacked</entry>
+    <entry key="matlab_graphics_chart_datatype_BarLayoutType_grouped">grouped</entry>
+    <entry key="matlab_graphics_chart_datatype_BarLayoutType_stacked">stacked</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_none">none</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_plain">plain</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_vback1" translate="false" note="TranslateFalseBatch;">vback1</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_vback2" translate="false" note="TranslateFalseBatch;">vback2</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_vback3" translate="false" note="TranslateFalseBatch;">vback3</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_cback1" translate="false" note="TranslateFalseBatch;">cback1</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_cback2" translate="false" note="TranslateFalseBatch;">cback2</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_cback3" translate="false" note="TranslateFalseBatch;">cback3</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_fourstar" translate="false" note="TranslateFalseBatch;">fourstar</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_diamond">diamond</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_star4" translate="false" note="TranslateFalseBatch;">star4</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_rectangle">rectangle</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_ellipse">ellipse</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_rose">rose</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_hypocycloid">hypocycloid</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_astroid">astroid</entry>
+    <entry key="matlab_graphics_chart_datatype_ArrowHeadType_deltoid">deltoid</entry>
+    <entry key="matlab_graphics_datatype_AutoManual_auto">auto</entry>
+    <entry key="matlab_graphics_datatype_AutoManual_manual">manual</entry> 
+    <entry key="matlab_graphics_datatype_AxisScale_linear">linear</entry> 
+    <entry key="matlab_graphics_datatype_AxisScale_log">log</entry>  
+    <entry key="matlab_graphics_datatype_AxisXLocation_bottom">bottom</entry> 
+    <entry key="matlab_graphics_datatype_AxisXLocation_top">top</entry> 
+    <entry key="matlab_graphics_datatype_AxisXLocation_origin">origin</entry>    
+    <entry key="matlab_graphics_datatype_AxisYLocation_left">left</entry> 
+    <entry key="matlab_graphics_datatype_AxisYLocation_right">right</entry> 
+    <entry key="matlab_graphics_datatype_AxisYLocation_origin">origin</entry> 
+    <entry key="matlab_graphics_datatype_FontUnits_inches">inches</entry>     
+    <entry key="matlab_graphics_datatype_FontUnits_centimeters">centimeters</entry> 
+    <entry key="matlab_graphics_datatype_FontUnits_normalized">normalized</entry> 
+    <entry key="matlab_graphics_datatype_FontUnits_points">points</entry> 
+    <entry key="matlab_graphics_datatype_FontUnits_pixels">pixels</entry>
+    <entry key="matlab_graphics_datatype_HorizontalAlignment_left">left</entry>
+    <entry key="matlab_graphics_datatype_HorizontalAlignment_center">center</entry>
+    <entry key="matlab_graphics_datatype_HorizontalAlignment_right">right</entry>    
+    <entry key="matlab_graphics_datatype_CDataMapping_direct">direct -- indices into figure's colormap</entry>
+    <entry key="matlab_graphics_datatype_CDataMapping_scaled" translate="false">scaled</entry>    
+    <entry key="matlab_graphics_datatype_LightStyle_infinite">infinite</entry>
+    <entry key="matlab_graphics_datatype_LightStyle_local">local</entry>   
+    <entry key="matlab_graphics_chart_datatype_LegendOrientationType_horizontal">horizontal</entry>   
+    <entry key="matlab_graphics_chart_datatype_LegendOrientationType_vertical">vertical</entry> 
+    <entry key="matlab_graphics_datatype_LineStyle_none">none</entry> 
+    <entry key="matlab_graphics_datatype_MarkerStyle_square">square</entry> 
+    <entry key="matlab_graphics_datatype_MarkerStyle_diamond">diamond</entry>  
+    <entry key="matlab_graphics_datatype_MarkerStyle_pentagram">pentagram</entry> 
+    <entry key="matlab_graphics_datatype_MarkerStyle_hexagram">hexagram</entry> 
+    <entry key="matlab_graphics_datatype_MarkerStyle_none">none</entry> 
+  </message>
+</rsccat>

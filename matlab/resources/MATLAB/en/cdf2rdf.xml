@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invalidDiagonal">The diagonal of D must be a collection of real eigenvalues and complex conjugate pairs (like the output of EIG(X) when X is a real matrix).</entry>
+  </message>
+</rsccat>

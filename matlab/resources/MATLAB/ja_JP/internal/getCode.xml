@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="filenameNotString">ファイル名は文字ベクトルでなければなりません。</entry>
+    <entry key="emptyFilename">ファイル名を空にすることはできません。</entry>
+    <entry key="invalidFile">ファイル {0} からのコードの読み取りはサポートされていません。</entry>
+    <entry key="errorReadingCodeFile">ファイル {0} からコードを読み取る際のエラー: {1}。</entry>
+  </message>
+</rsccat>

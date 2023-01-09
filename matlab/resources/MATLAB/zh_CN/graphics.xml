@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FigureDoubleCreation">使用指定的双精度句柄创建图窗的功能已弃用</entry>
+    <entry key="SetMethodUnknown">找不到 {0} 类的 ''set'' 方法。</entry>
+    <entry key="SetMethodFailed">对 {0} 类执行 set 失败。</entry>
+    <entry key="GetMethodUnknown">找不到 {0} 类的 ''get'' 方法。</entry>
+    <entry key="GetMethodFailed">对 {0} 类执行 get 失败。</entry>
+    <entry key="invalidMode">应在 HGUsingMATLABClasses 模式下调用函数 getDefaultHGUsingMATLABClassesHandle</entry>
+    <entry key="tex">{0} 不存在</entry>
+    <entry key="proplink">句柄向量无效</entry>
+    <entry key="deserializeDatatips">现在无法访问以前可访问的函数 "{0}"。\n将改用默认的数据游标更新函数。</entry>
+    <entry key="linkplotdata">不支持此功能</entry>
+    <entry key="DeprecatedHitTest">hittest(f, {0}) 已弃用，将会在未来的版本中删除。</entry>
+    <entry key="DeprecatedNoReplacement">以后的版本中将会删除 {0}。</entry>
+    <entry key="DoubleHandleConversionError">找不到双精度句柄的转换</entry>
+    <entry key="CannotConvertDoubleToHandle">无法将双精度值 {0} 转换为句柄</entry>
+    <entry key="timeoutDuringDrawnow">发生图形超时。若要向 MathWorks 公司的技术支持部门提供有关此问题的详细信息，请将此信息作为 {0} 连同您的服务请求一起提交。</entry>
+    <entry key="reconnect">无法与图窗通信</entry>
+    <entry key="newView">无法与图窗通信</entry>
+    <entry key="GraphicsBackgroundInitError">在后台初始化图形期间出错: {0}</entry>
+    <entry key="GraphicsInitError">图形初始化期间出错: {0}</entry>
+    <entry key="drawnowTimeout">drawnow timeout: waited {0} seconds for {1} ACT {2}. {3}</entry>
+    <entry key="stallTimeout">stall timeout in {0}: waited {1} seconds for response</entry>
+  </message>
+</rsccat>

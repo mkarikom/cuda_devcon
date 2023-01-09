@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+  <!--Resource entries for src/builtins-->
+    <entry key="IllegalNameTooLong">The ''name'' argument to GETENV must not be more than 32766 characters long.</entry>
+  </message>
+</rsccat>

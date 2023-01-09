@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="nargin">Wrong number of input arguments.</entry>
+    <entry key="NtimesInvalid">NTIMES must be a single numeric value.</entry>
+    <entry key="InvalidMeshgrid">Input grid is not a valid MESHGRID.</entry>
+    <entry key="NotEnoughPointsNanStrip">Insufficient finite values to interpolate.</entry>
+    <entry key="DegenerateGrid">Interpolation requires at least two sample points in each dimension.\nConsider using INTERP1 if X or Y have constant coordinates that can be eliminated to reduce the dimension. </entry>
+    <entry key="InvalidExtrapval">EXTRAPVAL must be a scalar.</entry>
+    <!--Resource entries for toolbox/matlab/polyfun-->
+    <entry key="NaNstrip">Columns of data containing NaN values have been ignored during interpolation.</entry>
+    <!--The following are for backward compatibility of the remove in R2013a-->
+    <entry key="extrapvalNotNumeric">EXTRAPVAL must be numeric.</entry>
+    <entry key="XorYNotMonotonic">X and Y must be monotonic vectors or matrices produced by MESHGRID.</entry>
+    <entry key="InvalidMethod">{0} is an invalid method.</entry>
+    <entry key="meshgrid">X and Y must be matrices produced by MESHGRID. Use TriScatteredInterp instead \nof INTERP2 for scattered data.</entry>
+  </message>
+</rsccat>

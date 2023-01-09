@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="UnknownOption">Unknown command option {0}</entry>
+    <entry key="IndexesMustBeOneBased">Indexes must be one based MATLAB indexes (not zero based)</entry>
+    <entry key="TargeValueMustBeAString" note="stringDatatypeUpdate">TargetValue must be a character vector</entry>
+  </message>
+</rsccat>

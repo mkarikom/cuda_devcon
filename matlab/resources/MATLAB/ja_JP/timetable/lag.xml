@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MustBeRegular">入力の timetable は絶対時間について標準であるか、または isregular でサポートされる時間単位でなければなりません。詳細については、&lt;a href="matlab:doc('isregular')"&gt;isregular&lt;/a&gt; を参照してください。</entry>
+    <entry key="MustBeRegularInUnits">入力の timetable は {0} について標準でなければなりません。</entry>
+    <entry key="InvalidLagType">ラグ間隔は、スカラーの整数、duration、または calendarDuration でなければなりません。</entry>
+    <entry key="LagMustBeTimeStepMultiple">ラグ間隔は、入力 timetable のタイム ステップの倍数でなければなりません。RETIME を使用して、行時間の間にある時点で timetable 変数を内挿してください。</entry>
+    <entry key="calDurLagDurationTimetable">duration の行時間を含む timetable のラグ間隔は、スカラー整数または duration でなければなりません。</entry>
+    <entry key="InvalidCaldurationLag">calendarDuration のラグ間隔は、カレンダー月数、カレンダー日数、または時間の整数倍でなければなりません。</entry>
+  </message>
+</rsccat>

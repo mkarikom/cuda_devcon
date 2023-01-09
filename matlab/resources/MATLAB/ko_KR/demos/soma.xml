@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelSolutionNumber">솔루션 번호</entry>
+    <entry key="LabelRotateRight">오른쪽으로 회전</entry>
+    <entry key="LabelRotateDown">아래로 회전</entry>
+    <entry key="LabelSolutionInThreeLayers">세 측면에서의 솔루션</entry>
+    <entry key="LabelSomaCube">소마 큐브:</entry>
+    <entry key="LabelLongDescription">표시된 7개의 조각을 완벽한 정육면체로 \n맞추는 공간 채우기 퍼즐</entry>
+    <entry key="LabelNOf240">{0}/240</entry>
+    <entry key="TitleSomaCubeSolutions">소마 큐브 솔루션</entry>
+    <entry key="TitleSolutionsForTheSomaCubePuzzleOfPietHein">피에트 하인(Piet Hein) 소마 큐브 퍼즐의 솔루션</entry>
+    <entry key="LabelBottom">맨 아래</entry>
+    <entry key="LabelMiddle">중간</entry>
+    <entry key="LabelTop">맨 위</entry>
+    <entry key="LabelSomaCubePieces">소마 큐브 조각</entry>
+    <entry key="NoInputs">SOMA에는 입력 인수가 허용되지 않습니다.</entry>
+  </message>
+</rsccat>

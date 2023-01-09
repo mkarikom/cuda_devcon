@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnsupportedEncoding">不支持编码 ''{0}''。\n有关 FOPEN 的信息，请参阅相关文档。</entry>
+    <entry key="InvalidEncoding">编码 ''{0}'' 无效。</entry>
+    <entry key="InvalidDefaultEncoding">默认编码(''{0}'')无效。</entry>
+  </message>
+</rsccat>

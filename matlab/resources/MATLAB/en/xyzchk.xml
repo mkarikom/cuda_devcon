@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="nonNumericInput">Input arguments must be numeric.</entry>
+    <entry key="CAndZSizeMismatch">Matrix C must be the same size as Z.</entry>
+    <entry key="lengthXAndYDoNotMatchSizeZ">The lengths of X and Y must match the size of Z.</entry>
+    <entry key="lengthXDoesNotMatchNumColumnsZ">The length of X must match the number of columns of Z.</entry>
+    <entry key="lengthYDoesNotMatchNumRowsZ">The length of Y must match the number of rows of Z.</entry>
+    <entry key="XAndYShapeMismatch">X and Y must both be vectors or both be matrices.</entry>
+    <entry key="XYAndZSizeMismatch">Matrices X and Y must be the same size as Z.</entry>
+    <entry key="XYAndZShapeMismatch">When Z is a vector, X and Y must also be vectors.</entry>
+    <entry key="XYAndZLengthMismatch">X and Y must be same length as Z or the lengths of X and Y must match the size of Z.</entry> 
+    <entry key="XIAndYISizeMismatch">XI and YI must be the same size or vectors of different orientations.</entry> 
+  </message>
+</rsccat>

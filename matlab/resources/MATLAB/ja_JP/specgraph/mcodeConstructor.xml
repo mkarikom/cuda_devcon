@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CommentMatrixData">{0} 行列データ</entry>
+    <entry key="CommentMatrix">{0} 行列</entry>
+    <entry key="CommentCreateMultipleLinesUsingMatrix">{0} への行列入力を使って複数のラインを作成</entry>
+    <entry key="CommentCreateMultipleErrorBarsUsingMatrix">{0} への行列入力を使って複数の誤差範囲を作成</entry>
+    <entry key="CommentVectorData">{0} ベクトル データ</entry>
+    <entry key="CommentGraph">グラフまたはダイグラフのオブジェクト</entry>
+  </message>
+</rsccat>

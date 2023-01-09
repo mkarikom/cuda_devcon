@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="inputsMustBeIntegers">Inputs must be integers.</entry>
+    <entry key="complexArgs">Inputs must be real.</entry>
+    <entry key="numericArg">Inputs must be numeric.</entry>
+    <entry key="sparseArgs">Inputs must be full.</entry>
+    <entry key="firstArgNotInt">Invalid data type. First and second arguments must be integer or double.</entry>
+    <entry key="sizeMismatch">Inputs must have same size.</entry>
+    <entry key="outOfRange">Double inputs must have integer values in the range of ASSUMEDTYPE.</entry>
+    <entry key="unknownTypeString">ASSUMEDTYPE must be an integer type name.</entry>
+    <entry key="invalidTypeString">Integer inputs cannot be assumed as any other types than their own types.</entry>
+    <entry key="NDiscontinueSupport">BITSHIFT(A,K,N) does not accept integer valued input N. Use BITSHIFT(A,K,ASSUMEDTYPE) instead.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidCellArray">PREF 셀형 배열은 문자형 벡터를 포함해야 함</entry>
+    <entry key="InvalidPREFinput">PREF는 문자형 벡터, string형 배열, 문자형 벡터로 구성된 셀형 배열 중 하나여야 합니다.</entry>
+    <entry key="InvalidValueType">VALUE 유형은 PREF와 일치해야 합니다.</entry>
+    <entry key="InvalidGroupInput">GROUP은 문자형 벡터이거나 string형 스칼라여야 합니다.</entry>
+  </message>
+</rsccat>

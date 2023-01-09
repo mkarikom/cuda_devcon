@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">입력 인수가 부족합니다.</entry>
+    <entry key="Arg1NotODESETstruct">첫 번째 인수는 ODESET으로 만든 options 구조체여야 합니다.</entry>
+    <entry key="AmbiguousPropName">모호한 속성 이름임: ''{0}''({1}).</entry>
+    <entry key="InvalidPropName">''{0}''은(는) 인식할 수 없는 속성 이름입니다.  가능성은 ODESET을 참조하십시오.</entry>
+  </message>
+</rsccat>

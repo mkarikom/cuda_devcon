@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PostFailed">无法发布到 URL。</entry>
+    <entry key="Timeout">连接已超时。</entry>
+    <entry key="UnknownHost">无法确定 "{0}" 的 IP 地址。</entry>
+    <entry key="FileNotFound">服务器找不到与该请求匹配的资源。</entry>
+    <entry key="ConnectionFailed">下载 URL 时出错。您的网络连接可能中断或代理设置配置不当。</entry>
+    <entry key="InvalidInput">参数/值对组参数无效。</entry>
+    <entry key="InvalidUrl">此 URL 无法解析或协议不受支持。</entry>
+    <entry key="AuthenticationFailed">要么不支持所提供的身份验证方法，要么所提供的用户名或密码有误。</entry>
+    <entry key="ReplacingSpaces">将空白区替换为 %20</entry>
+  </message>
+</rsccat>

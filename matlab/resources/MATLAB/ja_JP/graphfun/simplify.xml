@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="KeyWithoutValue">入力引数の数が正しくありません。''{0}'' の後には対応する値を指定しなければなりません。</entry>
+    <entry key="InvalidAggregationCombination">''AggregationVariables'' パラメーターは 2 番目の引数が ''sum'' または ''mean'' の場合にのみサポートされます。</entry>
+    <entry key="InvalidAggregationVars">''AggregationVariables'' の値が無効です。</entry>
+    <entry key="InvalidAggregationFHandle">''AggregationVariables'' 関数ハンドルは logical スカラーを返さなければなりません。</entry>
+    <entry key="InvalidPickCombination">''PickVariable'' パラメーターは 2 番目の入力が ''min'' または ''max'' の場合にのみサポートされます。</entry>
+    <entry key="InvalidPickVars">''PickVariable'' の値は、2 と Edges table 内にある変数の数との間のインデックスか、Edges table からの (''EndNodes'' 以外の) 変数名でなければなりません。</entry>
+    <entry key="NoWeights">入力グラフにエッジの重みがありません。グラフにエッジの重みを追加するか、''{0}'' パラメーターを指定してください。</entry>
+    <entry key="InvalidEdgeVarType">{2} 型のエッジ変数 ''{1}'' の関数 ''{0}'' が未定義です。</entry>
+    <entry key="PickVarNotColumn">''PickVariable'' の値は、列ベクトルであるエッジ変数でなければなりません。</entry>
+  </message>
+</rsccat>

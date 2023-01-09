@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="YOutOfRange">Y must be in the interval [0,1].</entry>
+    <entry key="NegativeArg">A must be real and non-negative.</entry>
+    <entry key="inputType">Inputs must be real, full, and double or single.</entry>
+    <entry key="InputSizes">Input sizes must match.</entry>
+    <entry key="InvalidTailArg">TAIL must be ''lower'' or ''upper''.</entry>
+    <entry key="FailedToConverge">Inverse incomplete gamma did not converge for p = {0}, a = {1}, tail = {2}.  Use this result with caution.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- Copyright 2020-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ExportAlertTitle">Export to MATLAB File</entry>
+    <entry key="MigrateHeader">Migration converts your GUIDE app to a new App Designer app.</entry>
+    <entry key="MigrateReasonsLabel">Migrating your app is recommended when:</entry>
+    <entry key="MigrateHtmlBullet1">Interactive editing of your app is desired or necessary</entry>
+    <entry key="MigrateHtmlBullet2">The app is actively being developed​</entry>
+    <entry key="MigrateTab">Migrate to App Designer</entry>
+    <entry key="ExportTab">Export to MATLAB Code</entry>
+    <entry key="ExportHeader">Export converts your GUIDE app to a new MATLAB file.</entry>
+    <entry key="ExportReasonsLabel">Exporting your app is recommended when:</entry>
+    <entry key="ExportHtmlBullet1">Minor app maintenance is required</entry>
+    <entry key="ExportHtmlBullet2">Interactive editing of your app is not critical</entry>
+    <entry key="ExportChooseAppLabel">Choose an app to export:</entry>    
+    <entry key="MigrateChooseAppLabel">Choose an app to migrate:</entry>
+    <entry key="InstallSupportPackageButton">Install Support Package</entry>
+    <entry key="EditFieldPlaceholderText">Select a GUIDE .fig file</entry>
+    <entry key="ExportButton">Export</entry>
+    <entry key="MigrateButton">Migrate</entry>
+    <entry key="BrowseButtonText">Browse...</entry>
+    <entry key="CancelButton">Cancel</entry>
+    <entry key="HelpButton">Help</entry>   
+    <entry key="InstallLabel_RegularText">Install the \n Support Package before migrating an app.</entry>
+    <entry key="InstallLabel_ItalicsText">"GUIDE to App Designer Migration Tool for MATLAB"</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Cancel">キャンセル</entry>
+    <entry key="CorrelationPlot">相関プロット</entry>
+    <entry key="DefineDisplayedTimeSeries">表示される時系列の定義</entry>
+    <entry key="EditPlot">プロットの編集...</entry>
+    <entry key="OK">OK</entry>
+    <entry key="Name">名前</entry>
+    <entry key="NumberOfColumns">列数</entry>
+    <entry key="PlotIsEmpty">プロットが空です。プロットを編集する前にプロット ウィンドウに時系列をドラッグ アンド ドロップしてください。</entry>
+    <entry key="ReplaceTimeSeries">時系列を置換しますか?</entry>
+    <entry key="ReplaceWhichTimeSeriesObject">どの時系列オブジェクトを置換しますか?</entry>
+    <entry key="Select">選択</entry>
+    <entry key="TimeSeries1">時系列 1</entry>
+    <entry key="TimeSeries2">時系列 2</entry>
+    <entry key="TimeSeriesCorrelation">時系列の相関</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+  </message>
+</rsccat>

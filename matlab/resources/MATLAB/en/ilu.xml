@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ZeroPivot">There is a pivot equal to zero.  Consider decreasing the drop tolerance or consider using the \''udiag\'' option.</entry>
+    <entry key="FirstArgNotSparse">First argument must be sparse.</entry>
+    <entry key="FirstArgNotDouble">First argument must be double.</entry>
+    <entry key="SecondArgNotStruct">Second argument must be the setup structure.</entry>
+    <entry key="StructTooManyFields">Too many fields in the setup structure.</entry>
+    <entry key="StructTypeNotString">The type field of the setup structure must be ''nofill'', ''crout'' or, ''ilutp''.</entry>
+    <entry key="pivotThreshOutOfRange">The thresh field of the setup structure must be between 0 and 1.</entry>
+    <entry key="nonNumericUDIAG">The udiag field of the setup structure must be numeric.</entry>
+    <entry key="UDIAGOptionOutOfRange">The udiag field of the setup structure must be either 0 or 1.</entry>
+    <entry key="StructMiluInvalidOption">The milu field of the setup structure must be ''row'', ''col'' or ''off''.</entry>
+    <entry key="nonNumericDropTol">The droptol field of the setup structure must be numeric.</entry>
+    <entry key="NegDropTol">The droptol field of the setup structure must be non-negative.</entry>
+    <entry key="nonNumericThresh">The thresh field of the setup structure must be numeric.</entry>
+    <entry key="nonScalarPivotThresh">The thresh field of the setup structure must be a scalar.</entry>
+    <entry key="nonScalarDropTol">The droptol field of the setup structure must be a scalar.</entry>
+    <entry key="nonScalarUdiag">The udiag field of the setup structure must be a scalar.</entry>
+    <entry key="InvalidField">Setup structure field {0} is not supported. Supported fields are ''type'', ''droptol'', ''milu'', ''udiag'', ''thresh''.</entry>
+  </message>
+</rsccat>

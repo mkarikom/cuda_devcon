@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Cancel">取消</entry>
+    <entry key="Detrend">去除趋势...</entry>
+    <entry key="Filter">筛选...</entry>
+    <entry key="Interpolate">插值...</entry>
+    <entry key="OK">确定</entry>
+    <entry key="RemoveMissingData">删除缺少的数据...</entry>
+    <entry key="ResampleData">重采样数据...</entry>
+    <entry key="SelectData">选择数据...</entry>
+    <entry key="SelectedAxesContainContinue">所选坐标区包含 {0}。继续?</entry>
+    <entry key="TheNumberOfAxesCannotBeReducedToZero">不能将坐标区数目减少到零</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+  </message>
+</rsccat>

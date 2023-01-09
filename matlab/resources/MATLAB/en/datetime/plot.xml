@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="DatetimeDurationSameAxes">Cannot plot both datetimes and durations on the same chart. Convert one of them to numeric values.</entry>
+    <entry key="DataPairsMismatch">Data must be a single datetime array Y or a list of pairs X,Y.</entry>
+    <entry key="DifferentTypeSameAxis">Cannot plot datetime or duration with other types on the same axis.</entry>
+    <entry key="MultipleTickFormats">Cannot specify multiple tick format parameters.</entry>
+    <entry key="TickFormatMismatch">{0} is not a valid parameter.</entry>
+    <entry key="UnmatchedTickFormat">No value was given for ''{0}''. Name-value pair arguments require a name followed by a value.</entry>
+    <entry key="LogScaleNotSupported">Log scale is not supported on time axis. Axis scale is unchanged. </entry>
+    <entry key="ItemDisabled">(disabled for figures containing datetime or duration plots)</entry>
+ </message>
+</rsccat>

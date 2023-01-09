@@ -1,0 +1,662 @@
+<?xml version="1.0"?>
+<!-- Copyright 2019-2021 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+  <message>
+    <!-- Live editor tasks titles and purpose lines: integrate with the desktop toolstrip INSERT tab -->
+    <entry key="Tool_changePointsFinder_Label" context="uistring"
+           note="Title of live editor task">Find Change Points</entry>
+    <entry key="Tool_changePointsFinder_Description" context="uistring"
+           note="Purpose/summary line of live editor task">Find abrupt changes in data</entry>
+    <entry key="Tool_dataSmoother_Label" context="uistring"
+           note="Title of live editor task">Smooth Data</entry>
+    <entry key="Tool_dataSmoother_Description" context="uistring"
+           note="Purpose/summary line of live editor task">Smooth noisy data</entry>
+    <entry key="Tool_localExtremaFinder_Label" context="uistring"
+           note="Title of live editor task">Find Local Extrema</entry>
+    <entry key="Tool_localExtremaFinder_Description" context="uistring"
+           note="Purpose/summary line of live editor task">Find local maxima and minima</entry>
+    <entry key="Tool_missingDataCleaner_Label" context="uistring"
+           note="Title of live editor task">Clean Missing Data</entry>
+    <entry key="Tool_missingDataCleaner_Description" context="uistring"
+           note="Purpose/summary line of live editor task">Find, fill, or remove missing data</entry>
+	<entry key="Tool_NormalizeDataTask_Label" context="uistring"
+           note="Title of live editor task">Normalize Data</entry>
+    <entry key="Tool_NormalizeDataTask_Description" context="uistring"
+           note="Purpose/summary line of live editor task">Center and scale data</entry>
+    <entry key="Tool_outlierDataCleaner_Label" context="uistring"
+           note="Title of live editor task">Clean Outlier Data</entry>
+    <entry key="Tool_outlierDataCleaner_Description" context="uistring"
+           note="Purpose/summary line of live editor task">Find, fill, or remove outliers</entry>
+    <entry key="Tool_trendRemover_Label" context="uistring"
+           note="Title of live editor task">Remove Trends</entry>
+    <entry key="Tool_trendRemover_Description" context="uistring"
+           note="Purpose/summary line of live editor task">Remove polynomial trend from data</entry>
+    <entry key="Tool_tableJoiner_Label" context="uistring"
+           note="Title of live editor task">Join Tables</entry>
+    <entry key="Tool_tableJoiner_Description" context="uistring"
+           note="Purpose/summary line of live editor task">Combine two tables using key variables</entry>
+    <entry key="Tool_tableStacker_Label" context="uistring"
+           note="Title of live editor task">Stack Table Variables</entry>
+    <entry key="Tool_tableStacker_Description" context="uistring"
+           note="Purpose/summary line of live editor task">Combine values from multiple table variables into one table variable</entry>
+    <entry key="Tool_tableUnstacker_Label" context="uistring"
+           note="Title of live editor task">Unstack Table Variables</entry>
+    <entry key="Tool_tableUnstacker_Description" context="uistring"
+           note="Purpose/summary line of live editor task">Distribute values from one table variable to multiple table variables</entry>
+    <entry key="Tool_timetableRetimer_Label" context="uistring"
+           note="Title of live editor task">Retime Timetable</entry>
+	<entry key="Tool_timetableRetimer_Description" context="uistring"
+           note="Purpose/summary line of live editor task">Resample or aggregate timetable data</entry>
+    <entry key="Tool_timetableSynchronizer_Label" context="uistring"
+           note="Title of live editor task">Synchronize Timetables</entry>
+	<entry key="Tool_timetableSynchronizer_Description" context="uistring"
+           note="Purpose/summary line of live editor task">Retime and combine timetables to new time vector</entry>
+	<entry key="Tool_ComputeByGroupTask_Label" context="uistring"
+           note="Title of live editor task">Compute by Group</entry>
+	<entry key="Tool_ComputeByGroupTask_Description" context="uistring"
+           note="Purpose/summary line of live editor task">Summarize, transform, or filter by group</entry>
+    <!-- UI labels shared by the live editor tasks -->
+	<entry key="AllNumeric" context="uistring">All numeric variables</entry>
+	<entry key="AllSupported" context="uistring">All supported variables</entry>
+    <entry key="Asymmetric" context="uistring">Asymmetric</entry>
+    <entry key="Centered" context="uistring">Centered</entry>
+    <entry key="CleanedData" context="uistring">Cleaned data</entry>
+    <entry key="CleaningMethod" context="uistring">Cleaning method</entry>
+    <entry key="Constantvalue" context="uistring">Constant value</entry>
+    <entry key="DataDelimiter" context="uistring">Select data</entry>
+    <entry key="DefaultValue" context="uistring">Default value</entry>
+    <entry key="Days" context="uistring">Days</entry>
+    <entry key="Hours" context="uistring">Hours</entry>
+    <entry key="InputData" context="uistring">Input data</entry>
+    <entry key="InputDataTooltip" context="uistring">Workspace variable</entry>
+    <entry key="Linearinterpolation" context="uistring">Linear interpolation</entry>
+    <entry key="Makima" context="uistring">Modified Akima cubic interpolation</entry>
+	<entry key="ManualSelection" context="uistring">Specified variables</entry>
+    <entry key="Mean" context="uistring">Mean</entry>
+    <entry key="Median" context="uistring">Median</entry>
+    <entry key="MethodDelimiter" context="uistring">Specify method</entry>
+    <entry key="MethodAndParametersDelimiter" context="uistring">Specify method and parameters</entry>
+    <entry key="Milliseconds" context="uistring">Milliseconds</entry>
+    <entry key="Minutes" context="uistring">Minutes</entry>
+    <entry key="Months" context="uistring">Months</entry>
+    <entry key="Movingmean" context="uistring">Moving mean</entry>
+    <entry key="Movingmedian" context="uistring">Moving median</entry>
+    <entry key="Movingwindow" context="uistring">Moving window</entry>
+    <entry key="Nearestvalue" context="uistring">Nearest value</entry>
+    <entry key="Nextvalue" context="uistring">Next value</entry>
+    <entry key="None" context="uistring">None</entry>
+    <entry key="NoVisualization" context="uistring" note="{0} contains a variable name from the MATLAB workspace">Visualization is not supported for input {0}</entry>
+    <entry key="NoVisualizationMulti" context="uistring">Visualization is not supported for any of the selected variables in {0}</entry>
+	<entry key="OtherRemovedData" context="uistring">Removed by other variables</entry>
+	<entry key="Outputtable" context="uistring">Output table</entry>
+    <entry key="ParametersDelimiter" context="uistring">Specify parameters</entry>
+    <entry key="Pchip" context="uistring">Shape-preserving cubic interpolation (PCHIP)</entry>
+	<entry key="PlotDropDownTooltip" context="uistring" note="{0} is either 'Table' or 'Timetable'">{0} variable with supported plot functionality</entry>
+    <entry key="Previousvalue" context="uistring">Previous value</entry>
+	<entry key="OutputType" context="uistring">Output format</entry>
+	<entry key="OutputTypeSmallTable" context="uistring">Create new {0} from selected variables</entry>
+	<entry key="OutputTypeSmallTableLogical" context="uistring">Logical indices for only selected variables</entry>
+	<entry key="OutputTypeTable" context="uistring">Copy {0} with cleaned selected variables</entry>
+	<entry key="OutputTypeVector" context="uistring">Extract {0} from {1}</entry>
+	<entry key="OutputTypeLogical" context="uistring">Logical indices for {0}</entry>
+	<entry key="Quarters" context="uistring">Quarters</entry>
+    <entry key="SamplePoints" context="uistring">X-axis</entry>
+	<entry key="SamplePointsTableVarTooltip" context="uistring" note="Input 0 is 'table' or 'timetable'">A {0} variable that is finite and in ascending order</entry>
+    <entry key="SamplePointsTooltip" context="uistring">X-axis associated with the input data. Default is [1 2 3 ...]. Values must be finite and in ascending order.</entry>
+	<entry key="SamplePointsTooltipDisabled" context="uistring">The X-axis must be the row times of the timetable when output is a timetable</entry>
+	<entry key="SamplePointsTooltipDisabledLogical" context="uistring">The X-axis must be the row times of the timetable when output is logical indices for multiple variables</entry>
+    <entry key="Seconds" context="uistring">Seconds</entry>
+    <entry key="SelectVariable" context="uistring">Select variable</entry>
+	<entry key="SelectedVariable" context="uistring">selected variable</entry>
+    <entry key="Splineinterpolation" context="uistring">Spline interpolation</entry>
+    <entry key="TableVarTooltip" context="uistring">{0} variable from {1}</entry>
+	<entry key="VariableToDisplay" context="uistring">Variable to display</entry>
+    <entry key="Visualizeresults" context="uistring">Display results</entry>
+	<entry key="Weeks" context="uistring">Weeks</entry>
+    <entry key="WindowSizeTooltip1" context="uistring">Window units before current element</entry>
+    <entry key="WindowSizeTooltip2" context="uistring">Window units after current element</entry>
+    <entry key="WindowSizeTooltipCentered" context="uistring">Window units centered about current element</entry>
+    <entry key="WindowTypeTooltip" context="uistring">Window type</entry>
+    <entry key="WindowUnitsTooltip" context="uistring">Window unit type</entry>
+    <entry key="Years" context="uistring">Years</entry>
+    <!-- UI labels for the Find Change Points (Change Points Finder) live editor task -->
+    <entry key="changePointsFinderChangePoints" context="uistring">Change points</entry>
+    <entry key="changePointsFinderFindchangepoints" context="uistring">Find change points</entry>
+    <entry key="changePointsFinderLinear" context="uistring">Linear</entry>
+    <entry key="changePointsFinderLinearRegime" context="uistring">Linear regime</entry>
+    <entry key="changePointsFinderMaxNum" context="uistring">Maximum number of change points</entry>
+    <entry key="changePointsFinderMaxNumTooltip" context="uistring">Increase to allow for more possible change points</entry>
+    <entry key="changePointsFinderNumberofChangePoints" context="uistring">Number of change points</entry>
+    <entry key="changePointsFinderSegmentMean" context="uistring">Segment mean</entry>
+    <entry key="changePointsFinderPlotchangepoints" context="uistring">Plot change points</entry>
+    <entry key="changePointsFinderPlotsegments" context="uistring">Plot segments between change points</entry>
+    <entry key="changePointsFinderSegments" context="uistring">Segments between change points</entry>
+    <entry key="changePointsFinderSummaryLinear" context="uistring">Abrupt changes in linear regime in {0}</entry>
+    <entry key="changePointsFinderSummaryMean" context="uistring">Abrupt changes in mean in {0}</entry>
+    <entry key="changePointsFinderSummaryVariance" context="uistring">Abrupt changes in variance in {0}</entry>
+    <entry key="changePointsFinderThreshold" context="uistring">Threshold</entry>
+    <entry key="changePointsFinderThreshOrMaxTooltip" context="uistring">Control amount of change points</entry>
+    <entry key="changePointsFinderThresholdTooltip" context="uistring">Increase threshold to reduce number of change points</entry>
+    <entry key="changePointsFinderTypeofChange" context="uistring">Type of change</entry>
+    <entry key="changePointsFinderVariance" context="uistring">Variance</entry>
+    <!-- UI labels for the Smooth Data (Data Smoother) live editor task -->
+    <entry key="dataSmootherDegreeTooltip" context="uistring">Degree of the polynomial in the Savitzky-Golay filter</entry>
+    <entry key="dataSmootherGaussianfilter" context="uistring">Gaussian filter</entry>
+    <entry key="dataSmootherLocallinearregression" context="uistring">Local linear regression (Lowess)</entry>
+    <entry key="dataSmootherLocalquadraticregression" context="uistring">Local quadratic regression (Loess)</entry>
+    <entry key="dataSmootherPolynomialDegree" context="uistring">Polynomial degree</entry>
+    <entry key="dataSmootherRobustlocallinearregression" context="uistring">Robust Lowess</entry>
+    <entry key="dataSmootherRobustlocalquadraticregression" context="uistring">Robust Loess</entry>
+    <entry key="dataSmootherSmoothingfactor" context="uistring">Smoothing factor</entry>
+    <entry key="dataSmootherSmoothingFactorTooltip" context="uistring">Increase for more smoothing</entry>
+    <entry key="dataSmootherSmoothingMethod" context="uistring">Smoothing method</entry>
+    <entry key="dataSmootherSavitzkyGolaypolynomialfilter" context="uistring">Savitzky-Golay polynomial filter</entry>
+    <entry key="dataSmootherSmoothedData" context="uistring">Smoothed data</entry>
+    <entry key="dataSmootherSmoothinputdata" context="uistring">Smooth input data</entry>
+    <entry key="dataSmootherSummary" context="uistring">Smoothed noisy data in {0} using the {1} method</entry>
+	<!-- UI labels for the Compute by Group live editor task -->
+	<entry key="groupingACustomFunction" context="uistring">a custom function</entry>
+	<entry key="groupingAllNonGrouping" context="uistring">All non-grouping variables</entry>
+	<entry key="groupingAllVariables" context="uistring">All variables</entry>
+	<entry key="groupingbinEdges" context="uistring">Provide bin edges</entry>
+	<entry key="groupingBinEdgesTooltip" context="uistring">Numeric workspace vector of length at least two, sorted in ascending order</entry>
+	<entry key="groupingBinEdgesTooltipDT" context="uistring">Datetime workspace vector of length at least two, sorted in ascending order</entry>
+	<entry key="groupingBinEdgesTooltipDur" context="uistring">Duration workspace vector of length at least two, sorted in ascending order</entry>
+	<entry key="groupingBinningTooltipbinEdges" context="uistring">Group data by {0} with bin edges {1}</entry>
+	<entry key="groupingBinningTooltipbinWidth" context="uistring" note="e.g. Group data into bins of 5 minutes using MyVarName">Group data into bins of {1} {2} using {0}</entry>
+	<entry key="groupingBinningTooltipnone" context="uistring">Group data using unique values in {0}</entry>
+	<entry key="groupingBinningTooltipnumBins" context="uistring">Group data into {1} bins using {0}</entry>
+	<entry key="groupingBinningTooltiptimeBins" context="uistring">Group data by {1} in {0}</entry>
+	<entry key="groupingbinWidth" context="uistring">Select width of bins</entry>
+	<entry key="groupingcentury" context="uistring">Century</entry>
+	<entry key="groupingCodeCommentInputArray" context="uistring">{0} is the data in a group from the computation data</entry>
+	<entry key="groupingCodeCommentInputTable" context="uistring">{0} is the data in a group from one computation variable</entry>
+	<entry key="groupingCodeCommentFilterOutput" context="uistring">{0} is true, false, or a logical column vector with the same height as {1}</entry>
+	<entry key="groupingCodeCommentFilterExample1" context="uistring">Example 1: Keep only groups with an average greater than 10</entry>
+	<entry key="groupingCodeCommentFilterExample2" context="uistring">Example 2: Keep only nonoutliers in each group</entry>
+	<entry key="groupingCodeCommentSummaryOutput" context="uistring">{0} is size 1 in the first dimension</entry>
+	<entry key="groupingCodeCommentSummaryExample" context="uistring">Example: Count the number of outliers in each group</entry>
+	<entry key="groupingCodeCommentTransformOutput" context="uistring">{0} is either the same size as {1} or is size 1 in the first dimension</entry>
+	<entry key="groupingCodeCommentTransformExample1" context="uistring">Example 1: Divide each group member by the group average</entry>
+	<entry key="groupingCodeCommentTransformExample2" context="uistring">Example 2: Replace group members with the group average</entry>
+	<entry key="groupingcounts" context="uistring">Counts</entry>
+	<entry key="groupingCustomFunction" context="uistring">Custom function</entry>
+	<entry key="groupingDataDelimiter" context="uistring">Select groups and data to compute on</entry>
+	<entry key="groupingDataVarLabel" context="uistring">Compute on</entry>
+	<entry key="groupingDataVarTooltip" context="uistring">Variables of the input table to compute on</entry>
+	<entry key="groupingDataVarWSDDTooltip" context="uistring">Workspace variable to compute on</entry>
+	<entry key="groupingday" context="uistring">Day</entry>
+	<entry key="groupingdayname" context="uistring">Day name</entry>
+	<entry key="groupingdayofmonth" context="uistring">Day of month</entry>
+	<entry key="groupingdayofweek" context="uistring">Day of week</entry>
+	<entry key="groupingdayofyear" context="uistring">Day of year</entry>
+	<entry key="groupingdecade" context="uistring">Decade</entry>
+	<entry key="groupingDispMessage" context="uistring">Select or create a new local function</entry>
+	<entry key="groupingFillMissing" context="uistring">Fill missing</entry>
+	<entry key="groupingFilteringFunctionTooltip" context="uistring">Function must return false to filter out group members and return true to keep group members</entry>
+	<entry key="groupingFunctionDelimiter" context="uistring">Select computation for groups</entry>
+	<entry key="groupinggroupfilterComment" context="uistring">Filter data by group</entry>
+	<entry key="groupinggroupfilterLabel" context="uistring">Filter\nby group</entry>
+	<entry key="groupinggroupfilterSummary0" context="uistring">Filter data in {0} by group</entry>
+	<entry key="groupinggroupfilterSummary1" context="uistring">Filter data in {0} grouped by {1}</entry>
+	<entry key="groupinggroupfilterSummary2" context="uistring">Filter data in {0} grouped by {1} and {2}</entry>
+	<entry key="groupinggroupfilterTooltip" context="uistring">Operations that remove groups or group members</entry>
+	<entry key="groupingGroupingVariable" context="uistring">Group by</entry>	
+	<entry key="groupinggroupsummaryComment" context="uistring">Compute group summary</entry>
+	<entry key="groupinggroupsummaryLabel" context="uistring">Compute\nstats\nby group</entry>
+	<entry key="groupinggroupsummarySummary0" context="uistring">Compute {1} for each group in {0}</entry>
+	<entry key="groupinggroupsummarySummary1" context="uistring">Compute {1} for {0} grouped by {2}</entry>
+	<entry key="groupinggroupsummarySummary2" context="uistring">Compute {1} for {0} grouped by {2} and {3}</entry>
+	<entry key="groupinggroupsummaryTooltip" context="uistring">Operations that provide a scalar output per group</entry>
+	<entry key="groupinggrouptransformComment" context="uistring">Transform data by group</entry>
+	<entry key="groupinggrouptransformLabel" context="uistring">Transform\nby group</entry>
+	<entry key="groupinggrouptransformSummary0" context="uistring" note="e.g. Normalize groups of data in MyTable">{1} groups of data in {0}</entry>
+	<entry key="groupinggrouptransformSummary1" context="uistring" note="e.g. Normalize data in MyTable grouped by MyGroupVar">{1} data in {0} grouped by {2}</entry>
+	<entry key="groupinggrouptransformSummary2" context="uistring" note="e.g. Normalize data in MyTable grouped by MyGroupVar1 and MyGroupVar2">{1} data in {0} grouped by {2} and {3}</entry>
+	<entry key="groupinggrouptransformTooltip" context="uistring">Operations that provide the same size output as input</entry>
+	<entry key="groupingGroupWSDDTooltip" context="uistring">Grouping variable, or a table or timetable containing the grouping variable</entry>
+	<entry key="groupinghandle" context="uistring">Function handle</entry>
+	<entry key="groupinghour" context="uistring">Hour</entry>
+	<entry key="groupinghourofday" context="uistring">Hour of day</entry>
+	<entry key="groupingIncludedEdge" context="uistring" note="Label describing which edge is included, left or right">Included bin edge</entry>
+	<entry key="groupingIncludedEdgeTooltip" context="uistring">End of the bin interval that is inclusive</entry>
+	<entry key="groupingIncludeEmpty" context="uistring">Include empty groups</entry>
+	<entry key="groupingIncludeEmptyTooltip" context="uistring">Display groups not represented in the data</entry>	
+	<entry key="groupingIncludeMissing" context="uistring">Include missing groups</entry>
+	<entry key="groupingIncludeMissingTooltip" context="uistring">Display groups where a grouping variable contains missing values such as NaN or NaT</entry>	
+	<entry key="groupingInputTable" context="uistring">Input table</entry>
+	<entry key="groupingInputTooltip" context="uistring">Grouping variable or table or timetable containing the grouping variable</entry>
+	<entry key="groupingLeft" context="uistring" note="as in left or right">Left</entry>
+	<entry key="groupinglinearfill" context="uistring">Fill missing by interpolating group data</entry>
+	<entry key="groupinglocal" context="uistring">Local function</entry>
+	<entry key="groupingmax" context="uistring">Maximum</entry>
+	<entry key="groupingmean" context="uistring">Mean</entry>
+	<entry key="groupingmeancenter" context="uistring">Center to have mean 0</entry>
+	<entry key="groupingmeancentersummary" context="uistring">Center</entry>
+	<entry key="groupingmeanfill" context="uistring">Fill missing with group mean</entry>
+	<entry key="groupingmedian" context="uistring">Median</entry>
+	<entry key="groupingMethodLabel1" context="uistring" note="Label for list of possible computations, select 1, e.g. fill missing">Computation per group</entry>
+	<entry key="groupingMethodLabel2" context="uistring" note="Label for list of possible computations, select several, e.g. sum, mean">Computations per group</entry>
+	<entry key="groupingMethodsChosen" context="uistring">{0} methods chosen</entry>
+	<entry key="groupingmin" context="uistring">Minimum</entry>
+	<entry key="groupingminute" context="uistring" note="unit of time">Minute</entry>
+	<entry key="groupingminuteofhour" context="uistring">Minute of hour</entry>
+	<entry key="groupingmode" context="uistring">Mode</entry>
+	<entry key="groupingmonth" context="uistring">Month</entry>
+	<entry key="groupingmonthname" context="uistring">Month name</entry>
+	<entry key="groupingmonthofyear" context="uistring">Month of year</entry>
+	<entry key="groupingMultipleStatistics" context="uistring">summary statistics</entry>
+	<entry key="groupingNew" context="uistring">New</entry>
+	<entry key="groupingnone" context="uistring">Group by unique values</entry>
+	<entry key="groupingnorm" context="uistring">Scale by 2-norm</entry>
+	<entry key="groupingnormsummary" context="uistring">Scale</entry>
+	<entry key="groupingnnz" context="uistring">Number of non-zeros</entry>
+	<entry key="groupingnumBins" context="uistring">Select number of bins</entry>
+	<entry key="groupingnummissing" context="uistring">Number of missing</entry>
+	<entry key="groupingOutputTable" context="uistring">Output table</entry>
+	<entry key="groupingrange" context="uistring">Range</entry>
+	<entry key="groupingquarter" context="uistring" note="Quarter of year">Quarter</entry>
+	<entry key="groupingquarterofyear" context="uistring">Quarter of year</entry>
+	<entry key="groupingReplaceValues" context="uistring">Replace values</entry>
+	<entry key="groupingReplaceValuesTooltip" context="uistring">Output table with the transformed data in place of the original data</entry>
+	<entry key="groupingrescale" context="uistring">Rescale range to [0 1]</entry>
+	<entry key="groupingrescalesummary" context="uistring">Rescale</entry>
+	<entry key="groupingRight" context="uistring" note="as in left or right">Right</entry>
+	<entry key="groupingsecond" context="uistring" note="unit of time">Second</entry>
+	<entry key="groupingsecondofminute" context="uistring">Second of minute</entry>
+	<entry key="groupingSelectall" context="uistring">Select all</entry>
+	<entry key="groupingStatisticDisabledTooltip" context="uistring">Input datatype does not allow this statistic</entry>
+	<entry key="groupingStatsFunctionTooltip" context="uistring">Input is the data in a group. Output is size 1 in the first dimension.</entry>
+	<entry key="groupingstd" context="uistring">Standard deviation</entry>
+	<entry key="groupingsum" context="uistring">Sum</entry>
+	<entry key="groupingtimeBins" context="uistring">Select unit to bin data</entry>
+	<entry key="groupingTransform" context="uistring">Transform</entry>
+	<entry key="groupingTransformFunctionTooltip" context="uistring">Input is the data in a group. Output matches the size of the input, or is size 1 in the first dimension.</entry>
+	<entry key="groupingvar" context="uistring">Variance</entry>
+	<entry key="groupingweek" context="uistring">Week</entry>
+	<entry key="groupingweekofmonth" context="uistring">Week of month</entry>
+	<entry key="groupingweekofyear" context="uistring">Week of year</entry>
+	<entry key="groupingyear" context="uistring">Year</entry>
+	<entry key="groupingzscore" context="uistring">Normalize using z-score</entry>
+	<entry key="groupingzscoresummary" context="uistring">Normalize</entry>
+    <!-- UI labels for the Find Local Extrema (Local Extrema Finder) live editor task -->
+    <entry key="localExtremaFinderAll" context="uistring">All</entry>
+    <entry key="localExtremaFinderBoth" context="uistring">Maxima and minima</entry>
+    <entry key="localExtremaFinderCenter" context="uistring">Center</entry>
+    <entry key="localExtremaFinderExtremaType" context="uistring">Extrema type</entry>
+    <entry key="localExtremaFinderFirst" context="uistring">First</entry>
+    <entry key="localExtremaFinderFindlocalmaxima" context="uistring">Find local maxima</entry>
+    <entry key="localExtremaFinderFindlocalminima" context="uistring">Find local minima</entry>
+    <entry key="localExtremaFinderFlatSelection" context="uistring">Flat selection</entry>
+    <entry key="localExtremaFinderFlatTooltip" context="uistring">Selected extrema for regions with identical consecutive extrema</entry>
+    <entry key="localExtremaFinderLast" context="uistring">Last</entry>
+    <entry key="localExtremaFinderLocalMaxima" context="uistring">Local maxima</entry>
+    <entry key="localExtremaFinderLocalMinima" context="uistring">Local minima</entry>
+    <entry key="localExtremaFinderMaxima" context="uistring">Maxima</entry>
+    <entry key="localExtremaFinderMaxNumExtrema" context="uistring"
+           note="Shortened from Maximum Number of Extrema">Max. num. extrema</entry>
+    <entry key="localExtremaFinderMaxNumTooltip" context="uistring">Increase to allow for more possible extrema</entry>
+    <entry key="localExtremaFinderMinima" context="uistring">Minima</entry>
+    <entry key="localExtremaFinderMinProminence" context="uistring"
+           note="Shortened from Minimum Prominence">Min. prominence</entry>
+    <entry key="localExtremaFinderMinProminenceTooltip" context="uistring">Increase to require that detected extrema stand out more prominently relative to neighboring points</entry>
+    <entry key="localExtremaFinderMinSeparation" context="uistring"
+           note="Shortened from Minimum Separation">Min. separation</entry>
+    <entry key="localExtremaFinderMinSeparationTooltip" context="uistring">Increase to require more distance between detected extrema</entry>
+    <entry key="localExtremaFinderNumberofExtrema" context="uistring">Number of extrema</entry>
+    <entry key="localExtremaFinderParametersDelimiter" context="uistring">Define local extrema</entry>
+    <entry key="localExtremaFinderPlotlocalmaxima" context="uistring">Plot local maxima</entry>
+    <entry key="localExtremaFinderPlotlocalminima" context="uistring">Plot local minima</entry>
+    <entry key="localExtremaFinderProminenceWindow" context="uistring">Prominence window</entry>
+    <entry key="localExtremaFinderSummaryBoth" context="uistring">Local maxima and minima in {0}</entry>
+    <entry key="localExtremaFinderSummaryMax" context="uistring">Local maxima in {0}</entry>
+    <entry key="localExtremaFinderSummaryMin" context="uistring">Local minima in {0}</entry>
+    <entry key="localExtremaFinderUnitTooltip" context="uistring">Units for minimum separation and prominence window</entry>
+    <!-- UI labels for the Clean Missing Data (Missing Data Cleaner) live editor task -->
+    <entry key="missingDataCleanerConstantUnitsTooltip" context="uistring">Units for constant fill value</entry>
+    <entry key="missingDataCleanerEndValues" context="uistring">End values</entry>
+    <entry key="missingDataCleanerEndValuesTooltip" context="uistring">Units for constant end values</entry>
+    <entry key="missingDataCleanerFilledMissingData" context="uistring">Filled missing data</entry>
+    <entry key="missingDataCleanerFilledMissingEntries" context="uistring">Filled missing entries</entry>
+    <entry key="missingDataCleanerFillmissingdata" context="uistring">Fill missing data</entry>
+    <entry key="missingDataCleanerFillmissing" context="uistring">Fill missing</entry>
+    <entry key="missingDataCleanerFillTooltip" context="uistring">Method to fill missing entries</entry>
+    <entry key="missingDataCleanerFindmissingdata" context="uistring">Find missing data</entry>
+	<entry key="missingDataCleanerMaxGap" context="uistring">Max gap to fill</entry>
+	<entry key="missingDataCleanerMaxGapTooltip" context="uistring">Gaps in data larger than this value will not be filled</entry>
+	<entry key="missingDataCleanerMaxGapUnitsTooltip" context="uistring">Units for gap size</entry>
+    <entry key="missingDataCleanerMissingEntries" context="uistring">Missing entries</entry>
+    <entry key="missingDataCleanerMissingInputData" context="uistring">Missing input data</entry>
+	<entry key="missingDataCleanerNonStandard" context="uistring">Specify non-standard indicators</entry>
+    <entry key="missingDataCleanerNumberofFilledMissingEntries" context="uistring">Number of filled missing entries</entry>
+    <entry key="missingDataCleanerNumberofMissingEntries" context="uistring">Number of missing entries</entry>
+    <entry key="missingDataCleanerNumberofRemovedMissingEntries" context="uistring">Number of removed missing entries</entry>
+	<entry key="missingDataCleanerOtherRemovedTooltip" context="uistring">Data in rows where other variables contain missing entries</entry>
+    <entry key="missingDataCleanerPlotfilledmissing" context="uistring">Plot filled missing entries</entry>
+    <entry key="missingDataCleanerPlotmissingentries" context="uistring">Plot missing entries</entry>
+	<entry key="missingDataCleanerPlototherremoved" context="uistring">Plot data in rows where other variables contain missing entries</entry>
+    <entry key="missingDataCleanerPlotremovedmissing" context="uistring">Plot removed missing entries</entry>
+    <entry key="missingDataCleanerRemovemissingdata" context="uistring">Remove missing data</entry>
+    <entry key="missingDataCleanerRemovedMissingEntries" context="uistring">Removed missing entries</entry>
+    <entry key="missingDataCleanerRemovemissing" context="uistring">Remove missing</entry>
+    <entry key="missingDataCleanerSameasfill" context="uistring">Same as fill method</entry>
+	<entry key="missingDataCleanerStandardizeComment" context="uistring">Standardize missing data</entry>
+	<entry key="missingDataCleanerStandardizeDelimiter" context="uistring">Define optional missing value indicators</entry>
+	<entry key="missingDataCleanerStandardizeIndicator" context="uistring">Indicators</entry>
+	<entry key="missingDataCleanerStandardizeMethod" context="uistring">Select indicators</entry>
+	<entry key="missingDataCleanerStandardizeTooltip1" context="uistring">Standard indicators depend on the datatype. For example: NaN, NaT, &apos; &apos;, &lt;missing&gt;, &lt;undefined&gt;</entry>
+	<entry key="missingDataCleanerStandardizeTooltip2" context="uistring">List values to treat as missing, separated by commas.\nFor example: -99, "N/A"</entry>
+	<entry key="missingDataCleanerStandardOnly" context="uistring">Use only standard indicators</entry>
+    <entry key="missingDataCleanerSummaryFill" context="uistring">Filled missing data in {0} using the {1} method</entry>
+    <entry key="missingDataCleanerSummaryNone" context="uistring">Missing data in {0}</entry>
+    <entry key="missingDataCleanerSummaryRemove" context="uistring">Removed missing data from {0}</entry>
+	<!-- UI labels for the Normalize Data live editor task -->
+	<entry key="NormalizeCenter" context="uistring">Center</entry>
+	<entry key="NormalizeCenterAndScale" context="uistring">Center and scale</entry>
+	<entry key="NormalizeCenterShift" context="uistring">Center shift value</entry>
+	<entry key="NormalizeCenterTooltipmean" context="uistring">Subtract the mean from the input data</entry>
+	<entry key="NormalizeCenterTooltipmedian" context="uistring">Subtract the median from the input data</entry>
+	<entry key="NormalizeCenterTooltipnumeric" context="uistring">Subtract numeric value from input data</entry>
+	<entry key="NormalizeCenterTooltipworkspace" context="uistring">Subtract workspace value from input data</entry>
+	<entry key="NormalizeCenterType" context="uistring">Center type</entry>
+	<entry key="NormalizeFirst" context="uistring">First element</entry>
+	<entry key="NormalizeFromWorkspace" context="uistring">From workspace</entry>
+	<entry key="NormalizeInfinityNorm" context="uistring">infinity norm</entry>
+	<entry key="NormalizeIQR" context="uistring">Interquartile range</entry>
+	<entry key="NormalizeMAD" context="uistring">Median absolute deviation</entry>
+	<entry key="NormalizeMean" context="uistring">Mean</entry>
+	<entry key="NormalizeMedian" context="uistring">Median</entry>
+	<entry key="NormalizeMedianIQR" context="uistring">Median IQR</entry>
+	<entry key="NormalizeMethod" context="uistring">Normalization method</entry>
+	<entry key="NormalizeMethodTooltipcenter" context="uistring">Subtract a center shift value</entry>
+	<entry key="NormalizeMethodTooltipcenterAndScale" context="uistring">Subtract a center shift value then divide by a scale value</entry>
+	<entry key="NormalizeMethodTooltipmedianiqr" context="uistring">Center and scale to have median 0 and interquartile range 1</entry>
+	<entry key="NormalizeMethodTooltipnorm" context="uistring">Divide by the norm of the data</entry>
+	<entry key="NormalizeMethodTooltiprange" context="uistring">Rescale to a new range</entry>
+	<entry key="NormalizeMethodTooltipscale" context="uistring">Divide by a scale value</entry>
+	<entry key="NormalizeMethodTooltipzscore" context="uistring">Center and scale data using the z-score</entry>
+	<entry key="NormalizeNorm" context="uistring" note="as in 2-norm">Norm</entry>
+	<entry key="NormalizeNormTooltip" context="uistring">Value p for p-norm or inf for infinity norm</entry>
+	<entry key="NormalizeNormalizedData" context="uistring">Normalized data</entry>
+	<entry key="NormalizeNumeric" context="uistring">Numeric scalar</entry>
+	<entry key="NormalizeOutputCenterAndScale" context="uistring">Output center and scale values</entry>
+	<entry key="NormalizeOutputCenterAndScaleTooltip" context="uistring">Return the center and scale used to do the normalization</entry>
+	<entry key="NormalizePNorm" context="uistring" note="as in 2-Norm">P-Norm</entry>
+	<entry key="NormalizepNorm" context="uistring" note="as in 2-norm">{0}-norm</entry>
+	<entry key="NormalizeRange" context="uistring" note="range of data">Range</entry>
+	<entry key="NormalizeRangeLeft" context="uistring" note="range of data">Left limit</entry>
+	<entry key="NormalizeRangeRight" context="uistring" note="range of data">Right limit</entry>
+	<entry key="NormalizeScale" context="uistring">Scale</entry>
+	<entry key="NormalizeScaleTooltipfirst" context="uistring">Divide by first element of data</entry>
+	<entry key="NormalizeScaleTooltipiqr" context="uistring">Divide by interquartile range</entry>
+	<entry key="NormalizeScaleTooltipmad" context="uistring">Divide by median absolute deviation</entry>
+	<entry key="NormalizeScaleTooltipnumeric" context="uistring">Divide by numeric value</entry>
+	<entry key="NormalizeScaleTooltipstd" context="uistring">Divide by standard deviation</entry>
+	<entry key="NormalizeScaleTooltipworkspace" context="uistring">Divide by workspace value</entry>
+	<entry key="NormalizeScaleFactor" context="uistring">Scale factor</entry>
+	<entry key="NormalizeScaleType" context="uistring">Scale type</entry>
+	<entry key="NormalizeSTD" context="uistring">Standard deviation</entry>
+	<entry key="NormalizeSummaryCenter1" context="uistring" note="input 1 is either mean or median">Center {0} to have {1} 0</entry>
+	<entry key="NormalizeSummaryCenter2" context="uistring">Subtract {1} from {0}</entry>
+	<entry key="NormalizeSummaryCenterAndScale1" context="uistring" note="input 1 is either mean or median">Center {0} to have {1} 0 and divide by {2}</entry>
+	<entry key="NormalizeSummaryCenterAndScale2" context="uistring">Subtract {1} from {0} and then divide by {2}</entry>
+	<entry key="NormalizeSummaryCenterAndScale3" context="uistring" note="input 1 is either mean or median, input 2 is either std, mad, or iqr">Center and scale {0} to have {1} 0 and {2} 1</entry>
+	<entry key="NormalizeSummaryRange" context="uistring">Scale range of {0} to {1}</entry>
+	<entry key="NormalizeSummaryScale" context="uistring">Divide {0} by {1}</entry>
+	<entry key="NormalizeTiledLayout" context="uistring">Separate axes</entry>
+	<entry key="NormalizeTiledLayoutTooltip" context="uistring">Display the input data and normalized data on two separate subplots</entry>
+	<entry key="NormalizeWorkspaceDDTooltipA" context="uistring">A numeric array in the workspace</entry>
+	<entry key="NormalizeWorkspaceDDTooltipT" context="uistring">A numeric array or a table array with variable names that match the specified input variables</entry>
+	<entry key="NormalizeZscore" context="uistring">Z-score</entry>
+	<entry key="NormalizeZscoreTooltiprobust" context="uistring">Center and scale to have median 0 and median absolute deviation 1</entry>
+	<entry key="NormalizeZscoreTooltipstd" context="uistring">Center and scale to have mean 0 and standard deviation 1</entry>
+	<entry key="NormalizeZscoreType" context="uistring">Z-score type</entry>
+    <!-- UI labels for the Clean Outlier Data (Outlier Data Cleaner) live editor task -->
+    <entry key="outlierDataCleanerCentervalue" context="uistring">Center value</entry>
+    <entry key="outlierDataCleanerComputeThresholds" context="uistring">Additional outlier computations for plot</entry>
+    <entry key="outlierDataCleanerClipvalue" context="uistring">Clip to threshold value</entry>
+    <entry key="outlierDataCleanerDetectionMethod" context="uistring">Detection method</entry>
+    <entry key="outlierDataCleanerFilledOutliers" context="uistring">Filled outliers</entry>
+    <entry key="outlierDataCleanerFilloutliers" context="uistring">Fill outliers</entry>
+    <entry key="outlierDataCleanerFillTooltip" context="uistring">Method to fill outliers</entry>
+    <entry key="outlierDataCleanerFindoutliers" context="uistring">Find outliers</entry>
+    <entry key="outlierDataCleanerGesd" context="uistring">Generalized extreme studentized deviate (GESD)</entry>
+    <entry key="outlierDataCleanerGrubbs" context="uistring">Grubbs</entry>
+	<entry key="outlierDataCleanerHistogram" context="uistring">Histogram</entry>
+	<entry key="outlierDataCleanerLine" context="uistring" note="Type of plot">Line</entry>
+	<entry key="outlierDataCleanerLowerThreshold" context="uistring">Lower threshold</entry>
+    <entry key="outlierDataCleanerLowerTooltip" context="uistring">Data points below this percentile are considered outliers</entry>
+	<entry key="outlierDataCleanerNumberofOutliers" context="uistring">Number of outliers</entry>
+	<entry key="outlierDataCleanerOtherRemovedTooltip" context="uistring">Data in rows where other variables contain outliers</entry>
+    <entry key="outlierDataCleanerOutlierCenter" context="uistring">Outlier center</entry>
+    <entry key="outlierDataCleanerOutliers" context="uistring">Outliers</entry>
+    <entry key="outlierDataCleanerOutlierThresholds" context="uistring">Outlier thresholds</entry>
+    <entry key="outlierDataCleanerParametersDelimiter1" context="uistring">Specify cleaning method</entry>
+    <entry key="outlierDataCleanerParametersDelimiter2" context="uistring">Define outliers</entry>
+	<entry key="outlierDataCleanerPercentiles" context="uistring">Percentiles</entry>
+    <entry key="outlierDataCleanerPlotfilledoutliers" context="uistring">Plot filled outliers</entry>
+    <entry key="outlierDataCleanerPlotremovedoutliers" context="uistring">Plot removed outliers</entry>
+	<entry key="outlierDataCleanerPlototherremoved" context="uistring">Plot data in rows where other variables contain outliers</entry>
+    <entry key="outlierDataCleanerPlotoutliercenter" context="uistring">Plot outlier center</entry>
+    <entry key="outlierDataCleanerPlotoutliers" context="uistring">Plot outliers</entry>
+    <entry key="outlierDataCleanerPlotoutlierthresholds" context="uistring">Plot outlier thresholds</entry>
+	<entry key="outlierDataCleanerPlotTypeLabel" context="uistring">Plot style</entry>
+    <entry key="outlierDataCleanerQuartiles" context="uistring">Quartiles</entry>
+    <entry key="outlierDataCleanerRemoveoutliers" context="uistring">Remove outliers</entry>
+    <entry key="outlierDataCleanerSummaryFill" context="uistring">Filled outliers in {0} using the {1} method</entry>
+    <entry key="outlierDataCleanerSummaryNone" context="uistring">Outliers in {0}</entry>
+    <entry key="outlierDataCleanerSummaryRemove" context="uistring">Removed outliers from {0}</entry>
+    <entry key="outlierDataCleanerThresholdFactor" context="uistring">Threshold factor</entry>
+    <entry key="outlierDataCleanerThresholdTooltipG" context="uistring">Significance level of the outlier test. Increase to detect more outliers</entry>
+	<entry key="outlierDataCleanerThresholdTooltipMean" context="uistring">Data points outside this number of standard deviations are considered outliers</entry>
+	<entry key="outlierDataCleanerThresholdTooltipMedian" context="uistring">Data points outside this number of scaled median absolute deviations (MAD) are considered outliers</entry>
+	<entry key="outlierDataCleanerThresholdTooltipQ" context="uistring">Data points outside this number of interquartile ranges are considered outliers</entry>
+	<entry key="outlierDataCleanerUpperThreshold" context="uistring">Upper threshold</entry>
+	<entry key="outlierDataCleanerUpperTooltip" context="uistring">Data points above this percentile are considered outliers</entry>
+    <!-- UI labels for the Remove Trends (Trend Remover) live editor task -->
+    <entry key="trendRemoverAxesTooltip" context="uistring">Click to select and deselect breakpoints\nDrag to move existing breakpoints</entry>
+    <entry key="trendRemoverBreakpoints" context="uistring">Breakpoints</entry>
+    <entry key="trendRemoverBreakPointsTooltip" context="uistring">Specify breakpoints to remove a piecewise trend</entry>
+    <entry key="trendRemoverBreakPointsSpinnerTooltip" context="uistring">Number of breakpoints</entry>
+    <entry key="trendRemoverChoosefromworkspace" context="uistring">Select from workspace</entry>
+    <entry key="trendRemoverClearBreakpoints" context="uistring">Clear breakpoints</entry>
+    <entry key="trendRemoverConstant" context="uistring">Constant</entry>
+    <entry key="trendRemoverContinuous" context="uistring">Continuous</entry>
+    <entry key="trendRemoverContinuousTooltip" context="uistring">Specify whether the trend must be continuous at the breakpoints</entry>
+    <entry key="trendRemoverCustom" context="uistring">Custom</entry>
+    <entry key="trendRemoverCubic" context="uistring">Cubic</entry>
+    <entry key="trendRemoverDegree" context="uistring">Polynomial type</entry>
+    <entry key="trendRemoverDegreeSpinnerTooltip" context="uistring">Degree of polynomial to be removed from data</entry>
+    <entry key="trendRemoverDeleteTooltip" context="uistring">Click to remove breakpoint</entry>
+    <entry key="trendRemoverDetrendedData" context="uistring">Detrended data</entry>
+    <entry key="trendRemoverFillMissing" context="uistring">Ignore missing data</entry>
+    <entry key="trendRemoverLinear" context="uistring">Linear</entry>
+    <entry key="trendRemoverLinearlyspaced" context="uistring">Space equally</entry>
+    <entry key="trendRemoverMissingTooltip" context="uistring">NaN values are omitted when calculating the trend</entry>
+    <entry key="trendRemoverBPLabelTooltip" context="uistring">New breakpoint will be rounded to nearest sample point</entry>
+    <entry key="trendRemoverNumMissing" context="uistring">Number of missing entries in input data</entry>
+    <entry key="trendRemoverParametersDelimiter" context="uistring">Specify trend parameters</entry>
+    <entry key="trendRemoverQuadratic" context="uistring">Quadratic</entry>
+    <entry key="trendRemoverRemovetrendfromdata" context="uistring">Remove trend from data</entry>
+    <entry key="trendRemoverSelectfromplot" context="uistring">Select from plot</entry>
+    <entry key="trendRemoverSummarySmallDegree" context="uistring"
+           note="Example: Remove cubic trend from inputData">Remove {0} trend from {1}</entry>
+    <entry key="trendRemoverSummaryLargeDegree" context="uistring">Remove {0}th degree polynomial trend from {1}</entry>
+    <entry key="trendRemoverTrend" context="uistring">Trend</entry>
+	<!-- UI labels for the Join Tables (Table Joiner) live editor task -->
+	<entry key="tableJoinerChooseInputTables" context="uistring">Select data</entry>
+	<entry key="tableJoinerChooseJoinType" context="uistring">Specify join</entry>
+	<entry key="tableJoinerFirstTable" context="uistring">Left table</entry>
+	<entry key="tableJoinerFullouterjoin" context="uistring">Outer\njoin</entry>
+    <entry key="tableJoinerHorzcat" context="uistring">Horizontal\nconcatenation</entry>
+	<entry key="tableJoinerInnerjoin" context="uistring">Inner\njoin</entry>
+    <entry key="tableJoinerInputtables" context="uistring">Input tables</entry>
+	<entry key="tableJoinerJoin" context="uistring">  \nJoin</entry>
+    <entry key="tableJoinerKeys" context="uistring">Merging variable</entry>
+	<entry key="tableJoinerLeftouterjoin" context="uistring">Left\nouter join</entry>
+	<entry key="tableJoinerMergeKeys" context="uistring">Combine merging variables</entry>
+	<entry key="tableJoinerMergeTables" context="uistring">Join tables</entry>
+    <entry key="tableJoinerOutputtable" context="uistring">Output table</entry>
+	<entry key="tableJoinerRightouterjoin" context="uistring">Right\nouter join</entry>
+	<entry key="tableJoinerSecondTable" context="uistring">Right table</entry>
+    <entry key="tableJoinerSummaryHorzcat" context="uistring">horizontal concatenation</entry>
+    <entry key="tableJoinerSummaryInnerjoin" context="uistring">inner join</entry>
+    <entry key="tableJoinerSummaryJoin" context="uistring">join</entry>
+    <entry key="tableJoinerSummaryLine" context="uistring">Combine {0} and {1} using {2}</entry>
+    <entry key="tableJoinerSummaryLeftouterjoin" context="uistring">left outer join</entry>
+    <entry key="tableJoinerSummaryOuterjoin" context="uistring">outer join</entry>
+    <entry key="tableJoinerSummaryRightouterjoin" context="uistring">right outer join</entry>
+	<entry key="tableJoinerSummaryVertcat" context="uistring">vertical concatenation</entry>
+    <entry key="tableJoinerTooltipHorzcat" context="uistring">Append right table to left table when\nnumber of rows match and variables have distinct names</entry>
+	<entry key="tableJoinerTooltipInnerjoin" context="uistring">Match rows from both tables with common key values\nand discard all other rows</entry>
+    <entry key="tableJoinerTooltipJoin" context="uistring">Key values must be common to both tables\nRetain all variables from the left table and append content from the right table</entry>
+    <entry key="tableJoinerTooltipKeyVariables" context="uistring">Key variable used to match and combine data between the input tables</entry>
+	<entry key="tableJoinerTooltipKeyVariablesEmpty" context="uistring">Right key variable must be compatible with left key variable</entry>
+    <entry key="tableJoinerTooltipLeftOuterjoin" context="uistring">Match rows from both tables with common key values\nand include remaining rows from the left table</entry>
+    <entry key="tableJoinerTooltipMergeKeys" context="uistring">Combine the left key variable and the right key variable into a single variable in the output table</entry>
+    <entry key="tableJoinerTooltipOuterjoin" context="uistring">Match rows from both tables with common key values\nand include all other rows</entry>
+    <entry key="tableJoinerTooltipRightOuterjoin" context="uistring">Match rows from both tables with common key values\nand include remaining rows from the right table</entry>
+    <entry key="tableJoinerTooltipVertcat" context="uistring">Append bottom table to top table when\nvariable names match and datatypes are compatible</entry>
+    <entry key="tableJoinerVertcat" context="uistring">Vertical\nconcatenation</entry>
+        <!-- UI labels for the Stack/Unstack Table Variables (Table Stacker/Unstacker) live editor tasks -->
+    <entry key="tableUnstackerAggCount" context="uistring">Count</entry>
+    <entry key="tableUnstackerAggCustom" context="uistring">Custom</entry>
+    <entry key="tableUnstackerAggFirst" context="uistring">First</entry>
+    <entry key="tableUnstackerAggMax" context="uistring">Maximum</entry>
+    <entry key="tableUnstackerAggMean" context="uistring">Mean</entry>
+    <entry key="tableUnstackerAggMedian" context="uistring">Median</entry>
+    <entry key="tableUnstackerAggMin" context="uistring">Minimum</entry>
+    <entry key="tableUnstackerAggMode" context="uistring" 
+		   note="mode as function returning most frequent values in array">Mode</entry>
+    <entry key="tableUnstackerAggregationfunction" context="uistring">Aggregator for new table variable values</entry>
+    <entry key="tableUnstackerAggSum" context="uistring">Sum</entry>
+    <entry key="tableUnstackerAggUnique" context="uistring">Unique</entry>
+    <entry key="tableUnstackerConstant" context="uistring">Constant</entry>
+    <entry key="tableUnstackerConstantTooltip" context="uistring">The values in this table variable will be replicated</entry>
+    <entry key="tableUnstackerDatatounstack" context="uistring">Values in new table variables</entry>
+	<entry key="tableUnstackerDatatounstackTooltip" context="uistring">The values in this table variable will be distributed into the new table column variables</entry>
+    <entry key="tableUnstackerDiscard" context="uistring">Discard</entry>
+    <entry key="tableUnstackerDiscardTooltip" context="uistring">This table variable is not included in the output</entry>
+    <entry key="tableUnstackerGroupby" context="uistring">Group by</entry>
+    <entry key="tableUnstackerGroupTooltip" context="uistring">The unique values in this variable define groups of rows</entry>
+    <entry key="tableUnstackerIndicator" context="uistring">Names of new table variables</entry>
+	<entry key="tableUnstackerIndicatorTooltip" context="uistring">The values in this table variable will be used as the names of the new table column variables</entry>
+	<entry key="tableUnstackerIndicatorTooltip2" context="uistring">This variable has too many unique elements to be used for names of new table variables</entry>
+    <entry key="tableUnstackerInputTable" context="uistring">Input table</entry>
+    <entry key="tableUnstackerKeepconstant" context="uistring">Keep first</entry>
+    <entry key="tableUnstackerKeepconstantTooltip" context="uistring">The values for this variable are taken from the first row in each group</entry>
+    <entry key="tableUnstackerSelecttable" context="uistring">Select table</entry>
+    <entry key="tableUnstackerStack" context="uistring">Stack</entry>
+    <entry key="tableUnstackerStackRowDelimiter" context="uistring">Select table variables to stack</entry>
+    <entry key="tableUnstackerStackSummary1" context="uistring">Stack data from multiple table variables in {0} into single variable</entry>
+    <entry key="tableUnstackerStackSummary2" context="uistring">Stack data from {0} and {1} in {2} into single variable</entry>
+    <entry key="tableUnstackerStackSummary3" context="uistring">Stack data from {0}, {1}, and {2} in {3} into single variable</entry>
+    <entry key="tableUnstackerStackTooltip" context="uistring">The values in this variable will be stacked</entry>
+    <entry key="tableUnstackerStackvariables" context="uistring">Stack variables</entry>
+    <entry key="tableUnstackerUITableTooltip" context="uistring">Preview limited to 50 rows</entry>
+    <entry key="tableUnstackerUnstackRowDelimiter" context="uistring">Select table variable to unstack</entry>
+    <entry key="tableUnstackerUnstackSummary" context="uistring">Unstack data from {0} in {1} into multiple variables</entry>
+    <entry key="tableUnstackerUnstackvariables" context="uistring">Unstack variables</entry>
+    <!-- UI labels for the Synchronize/Retime Timetables (Timetable Synchronizer/Retimer) live editor tasks -->
+	<entry key="timetableSynchronizerAdd" context="uistring">Add</entry>
+    <entry key="timetableSynchronizerAddOverrideTooltip" context="uistring">Override general rule for one or more timetable variables</entry>
+	<entry key="timetableSynchronizerAggregatedata" context="uistring">Aggregate data</entry>
+    <entry key="timetableSynchronizerAggregateFcnTooltip" context="uistring">Specify function that accepts a vector as input and returns a scalar or row vector</entry>
+    <entry key="timetableSynchronizerBasis" context="uistring">Times from timetables</entry>
+    <entry key="timetableSynchronizerCommonRange" context="uistring">Times within common range</entry>
+    <entry key="timetableSynchronizerCommentConcatenate" context="uistring">Concatenate and reorder timetable variables</entry>
+    <entry key="timetableSynchronizerCommentDupes" context="uistring">Make copies of timetable variables with duplicate names</entry>
+    <entry key="timetableSynchronizerCommentOverrides" context="uistring">Retime each override variable to same time vector</entry>
+    <entry key="timetableSynchronizerCommentSaveOrder" context="uistring">Save original order of timetable variables</entry>
+	<entry key="timetableSynchronizerConstant" context="uistring">Constant</entry>
+    <entry key="timetableSynchronizerCount" context="uistring">Number of values</entry>
+    <entry key="timetableSynchronizerCustom" context="uistring">Custom</entry>
+    <entry key="timetableSynchronizerCustomtimestep" context="uistring">Time step</entry>
+	<entry key="timetableSynchronizerFillvalues" context="uistring">Fill values</entry>
+    <entry key="timetableSynchronizerFillwithconstant" context="uistring">Fill with Constant</entry>
+    <entry key="timetableSynchronizerFillwithmissing" context="uistring">Fill with missing</entry>
+    <entry key="timetableSynchronizerFillwithnearest" context="uistring">Fill with nearest value</entry>
+    <entry key="timetableSynchronizerFillwithnext" context="uistring">Fill with next value</entry>
+    <entry key="timetableSynchronizerFillwithprevious" context="uistring">Fill with previous value</entry>
+    <entry key="timetableSynchronizerFirst" context="uistring">Times from first timetable</entry>
+    <entry key="timetableSynchronizerFirstvalue" context="uistring">First value in bin</entry>
+	<entry key="timetableSynchronizerFunctionHandle" context="uistring">Function handle</entry>
+	<entry key="timetableSynchronizerInputtimetable" context="uistring">Input timetable</entry>
+    <entry key="timetableSynchronizerInputtimetables" context="uistring">Input timetables</entry>
+	<entry key="timetableSynchronizerInterpolatedata" context="uistring">Interpolate data</entry>
+    <entry key="timetableSynchronizerIntersection" context="uistring">Intersection</entry>
+    <entry key="timetableSynchronizerLast" context="uistring">Times from last timetable</entry>
+    <entry key="timetableSynchronizerLastvalue" context="uistring">Last value in bin</entry>
+    <entry key="timetableSynchronizerLinear" context="uistring">Linear interpolation</entry>
+    <entry key="timetableSynchronizerMaximum" context="uistring">Maximum</entry>
+    <entry key="timetableSynchronizerMean" context="uistring">Mean</entry>
+    <entry key="timetableSynchronizerMethodDelimiter" context="uistring">Select method for adjusting data</entry>
+	<entry key="timetableSynchronizerMethod" context="uistring">Method</entry>
+    <entry key="timetableSynchronizerMethodType" context="uistring">General rule</entry>
+    <entry key="timetableSynchronizerMinimum" context="uistring">Minimum</entry>
+    <entry key="timetableSynchronizerModifiedAkima" context="uistring">Modified Akima cubic interpolation</entry>
+    <entry key="timetableSynchronizerMonths" context="uistring">Months</entry>
+    <entry key="timetableSynchronizerNewTimesDelimiter" context="uistring">Specify new times</entry>
+    <entry key="timetableSynchronizerNewTimesTooltipDT" context="uistring">Vector of datetime values</entry>
+    <entry key="timetableSynchronizerNewTimesTooltipDur" context="uistring">Vector of duration values</entry>
+    <entry key="timetableSynchronizerOutputtimetable" context="uistring">Output timetable</entry>
+    <entry key="timetableSynchronizerOverrides" context="uistring">Exceptions</entry>
+	<entry key="timetableSynchronizerOverrideTTTooltip" context="uistring">Input timetable</entry>
+	<entry key="timetableSynchronizerOverrideVarTooltip" context="uistring">Variable from input timetable</entry>
+    <entry key="timetableSynchronizerPchip" context="uistring">Shape-preserving cubic interpolation (PCHIP)</entry>
+    <entry key="timetableSynchronizerProduct" context="uistring"
+	       note="product as result of multiplication">Product</entry>
+    <entry key="timetableSynchronizerQuarters" context="uistring">Quarters</entry>
+	<entry key="timetableSynchronizerRetimedData" context="uistring">Retimed data</entry>
+	<entry key="timetableSynchronizerRetimetimetables" context="uistring">Retime timetable</entry>
+    <entry key="timetableSynchronizerSamplerate" context="uistring">Sample rate</entry>
+	<entry key="timetableSynchronizerSamplerateUnits" context="uistring">Sample rate units</entry>
+    <entry key="timetableSynchronizerSelectfromworkspace" context="uistring">Times from workspace</entry>
+    <entry key="timetableSynchronizerSelectionmethod" context="uistring">Selection method</entry>
+    <entry key="timetableSynchronizerSpline" context="uistring">Spline interpolation</entry>
+    <entry key="timetableSynchronizerSum" context="uistring">Sum</entry>
+    <entry key="timetableSynchronizerSummary1" context="uistring">Retime {0} using {1}</entry>
+    <entry key="timetableSynchronizerSummary2" context="uistring">Synchronize {0} and {1} using {2}</entry>
+	<entry key="timetableSynchronizerSummary3" context="uistring">Synchronize several timetables using {0}</entry>
+    <entry key="timetableSynchronizerSummaryMethodAggregate" context="uistring">aggregation</entry>
+    <entry key="timetableSynchronizerSummaryMethodFill" context="uistring">a fill value</entry>
+    <entry key="timetableSynchronizerSummaryMethodInterp" context="uistring">interpolation</entry>
+    <entry key="timetableSynchronizerSummaryMethodVariableContinuity" context="uistring">the VariableContinuity property</entry>
+    <entry key="timetableSynchronizerSynchronizetimetables" context="uistring">Synchronize timetables</entry>
+	<entry key="timetableSynchronizerTimeStepUnits" context="uistring">Time step units</entry>
+	<entry key="timetableSynchronizerTooltipfillwithconstant" context="uistring">Fill new rows with a constant value</entry>
+	<entry key="timetableSynchronizerTooltipcount" context="uistring">Count the number of rows in each time bin</entry>
+	<entry key="timetableSynchronizerTooltipCustom" context="uistring">Use function specified by a function handle</entry>
+	<entry key="timetableSynchronizerTooltipfirstvalue" context="uistring">Use the first value in each time bin</entry>
+	<entry key="timetableSynchronizerTooltiplinear" context="uistring">Use linear interpolation</entry>
+	<entry key="timetableSynchronizerTooltiplastvalue" context="uistring">Use the last value in each time bin</entry>
+	<entry key="timetableSynchronizerTooltipmakima" context="uistring">Use modified Akima cubic Hermite interpolation</entry>
+	<entry key="timetableSynchronizerTooltipmax" context="uistring">Calculate the maximum of the values in each time bin</entry>
+	<entry key="timetableSynchronizerTooltipmean" context="uistring">Calculate the mean of the values in each time bin</entry>
+	<entry key="timetableSynchronizerTooltipmin" context="uistring">Calculate the minimum of the values in each time bin</entry>
+	<entry key="timetableSynchronizerTooltipfillwithmissing" context="uistring">Fill new rows with a missing data indicator</entry>
+	<entry key="timetableSynchronizerTooltipnearest" context="uistring">Copy the data from nearest row in the input timetable</entry>
+	<entry key="timetableSynchronizerTooltipnext" context="uistring">Copy data from the next row in the input timetable</entry>
+	<entry key="timetableSynchronizerTooltippchip" context="uistring">Use shape-preserving piecewise cubic interpolation</entry>
+	<entry key="timetableSynchronizerTooltipprevious" context="uistring">Copy data from the previous row in the input timetable</entry>
+	<entry key="timetableSynchronizerTooltipprod" context="uistring">Calculate the product of the values in each time bin</entry>
+	<entry key="timetableSynchronizerTooltipspline" context="uistring">Use piecewise cubic spline interpolation</entry>
+	<entry key="timetableSynchronizerTooltipsum" context="uistring">Sum the values in each time bin</entry>
+	<entry key="timetableSynchronizerTooltipvc" context="uistring">Use per-variable methods specified by the VariableContinuity property of the input timetable.</entry>
+    <entry key="timetableSynchronizerUnion" context="uistring">Union</entry>
+    <entry key="timetableSynchronizerVariableContinuity" context="uistring">Use VariableContinuity property</entry>
+    <entry key="timetableSynchronizerWeeks" context="uistring">Weeks</entry>
+	<!-- Labels only visible in the Data Cleaner app -->
+	<entry key="CustomDegree" context="uistring">Degree</entry>
+	<entry key="FillMethod" context="uistring">Fill method</entry>
+	<entry key="MovingWindowType" context="uistring">Moving window type</entry>
+	<entry key="SelectionMethod" context="uistring">Selection method</entry>
+	<entry key="TableVariable" context="uistring">Table variable</entry>
+	<entry key="TableVariables" context="uistring">Table variables</entry>
+	<entry key="SmoothingParameter" context="uistring">Smoothing parameter</entry>
+	<entry key="Units" context="uistring">Units</entry>
+	<entry key="WindowLengthCentered" context="uistring">Window length</entry>
+	<entry key="WindowLengthLeft" context="uistring">Left half window length</entry>
+	<entry key="WindowLengthRight" context="uistring">Right half window length</entry>
+  </message>
+</rsccat>

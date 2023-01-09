@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RHSVectorAllZero">右辺のベクトルはすべて 0 であるため、\n{0}は反復することなくすべて 0 の解を返しました。</entry>
+    <entry key="InitialGuessHasRelativeWithinTol">初期推定は、相対残差 {0} (望ましい許容誤差 {1} 内) です。\n{2}は反復することなくその誤差を返しました。</entry>
+    <entry key="ConvergedWithRelativeResidual">{0} は、相対残差 {2} をもつ解に {1} で収束しました。</entry>
+    <entry key="IterateReturnedHasRelativeResidual">{0} で返される反復は、相対残差 {1} をもちます。</entry>
+    <entry key="OuterIteration">外部の反復 {0,number,integer} (内部の反復 {1,number,integer})</entry>
+    <entry key="NumberIntParen">(番号 {0,number,integer}({1,number,integer}))</entry>
+    <entry key="IterationFloat">{0} 回の反復</entry>
+    <entry key="NumberFloat">(番号 {0})</entry>
+    <entry key="IterationInteger">反復 {0,number,integer}</entry>
+    <entry key="NumberInteger">(番号 {0,number,integer})</entry>
+    <entry key="StoppedScalarTooSmallOrLarge">{0} は、許容誤差 {2} に収束することなく {1}で停止しました。\n計算を続けるにはスカラー量が小さすぎるか大きすぎるためです。</entry>
+    <entry key="StoppedMethodStagnated">{0} は、許容誤差 {2} に収束することなく {1} で停止しました。\nメソッドが機能しないためです。</entry>
+    <entry key="StoppedMaxIterations">{0} は、許容誤差 {2} に収束することなく {1} で停止しました。\n最大反復回数に達しました。</entry>
+    <entry key="StoppedPreconditionerSystemIllCond">{0} は、許容誤差 {2} に収束することなく {1} で停止しました。\n前処理行列を呼び出すシステムが悪条件となっているためです。</entry>
+    <entry key="StoppedPreconditionerNotSymPosDef">{0} は、許容誤差 {2} に収束することなく {1} で停止しました。\n前処理行列が対称正定値でないためです。</entry>
+  </message>
+</rsccat>

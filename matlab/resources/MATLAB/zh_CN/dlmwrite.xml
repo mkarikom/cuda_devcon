@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Nargin">需要至少 2 个输入参数。</entry>
+    <entry key="InputClass">FILENAME 必须为字符向量或字符串标量。</entry>
+    <entry key="CellArrayMismatch">输入元胞数组无法转换为矩阵。</entry>
+    <entry key="FileOpenFailure">无法打开文件 {0}。</entry>
+    <entry key="AttributeList">属性 {0} 需要一个匹配值。</entry>
+    <entry key="Attribute">无效的属性标签:  {0}。</entry>
+    <entry key="newline">换行符必须为 ''pc'' 或 ''unix''。</entry>
+    <entry key="delimiter">{0} 不是有效的属性或分隔符。分隔符必须是单个字符。</entry>
+    <entry key="rowOffset">{0} 不是有效的属性或行偏移量。</entry>
+    <entry key="columnOffset">{0} 不是有效的属性或列偏移量。</entry>
+  </message>
+</rsccat>

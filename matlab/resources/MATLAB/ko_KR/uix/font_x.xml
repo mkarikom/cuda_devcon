@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DefaultFontFixedNotFound">디폴트 글꼴 \"fixed\"를 찾을 수 없습니다. 시스템 관리자에게 문의하십시오.</entry>
+    <entry key="FontEncodingEnvironmentOverflow">글꼴 인코딩 환경에서 내부 버퍼 오버플로가 발생함</entry>
+    <entry key="RequestedFontSizeTooLarge">요청한 글꼴 크기 {0,number,integer}은(는) 너무 큽니다. {1,number,integer}의 디폴트로 설정됨</entry>
+  </message>
+</rsccat>

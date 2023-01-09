@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="platform" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WindowMenuTitle">창</entry>
+    <entry key="MinimizeMenuItemTitle">최소화</entry>
+    <entry key="ZoomMenuItemTitle">확대/축소</entry>
+    <entry key="BringAllToFrontMenuItemTitle">모두 맨 앞으로 가져오기</entry>
+    <entry key="AboutMenuItemTitle">MATLAB 정보...</entry>
+    <entry key="PreferencesMenuItemTitle">기본 설정...</entry>
+    <entry key="ServicesMenuItemTitle">서비스</entry>
+    <entry key="HideMenuItemTitle">MATLAB 숨기기</entry>
+    <entry key="HideOthersMenuItemTitle">기타 항목 숨기기</entry>
+    <entry key="ShowAllMenuItemTitle">모두 표시</entry>
+    <entry key="QuitMenuItemTitle">MATLAB 종료</entry>
+    <entry key="HelpMenuTitle">도움말</entry>
+    <entry key="DocumentationMenuItemTitle">문서</entry>
+    <entry key="CheckForUpdatesMenuItemTitle">업데이트 확인...</entry>
+    <entry key="CommandWindowDockMenuItemTitle">명령 창</entry>
+    <entry key="OpenAdditionalInstanceOfMATLABDockMenuItemTitle">MATLAB의 추가 인스턴스 열기</entry>
+  </message>
+</rsccat>

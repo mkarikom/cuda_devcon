@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RecursionDetected">{0} の読み込み中に再帰が発生しています。</entry>
+    <entry key="EmptyFigFile">Figure ファイルが空です。</entry>
+    <entry key="InvalidLegendPeer">どのプロットが凡例と関連があるのか判定できません。凡例データを無視します。</entry>
+    <entry key="ToBeRemoved">''all'' オプションは、将来のリリースで削除される予定です。</entry>
+    <entry key="DeprecatedOption">hgload の "all" オプションが削除されています。</entry>
+    <entry key="ForwardCompatibility">ファイル {0} に含まれるオブジェクトは、MATLAB の将来のバージョン ({1} 以降) で保存されています。このバージョンのファイルを読み込むには、hgsave で互換性のあるフラグを使用してファイルを保存しなければなりません。</entry>
+    <entry key="FileVersion">新しいバージョン ({0} 以降) の MATLAB で作成された Figure ファイルです。</entry>
+    <entry key="InvalidFigFile">無効な Figure ファイル形式。</entry>
+    <entry key="InvalidOption">オプションの入力引数は string スカラー、文字ベクトルまたは構造体でなければなりません。</entry>
+    <entry key="UnrecognizedOption">オプション {0} が無効です。</entry>
+  </message>
+</rsccat>

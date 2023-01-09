@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonWindows">此函数仅在 Microsoft Windows 上适用。</entry>
+    <entry key="numargs">参数/值对组应为偶数。</entry>
+    <entry key="unknownparamPosition">参数 {0,number,integer} 为无法识别的参数。</entry>
+    <entry key="unknownparam">参数 ''{0}'' 无法识别。</entry>
+    <entry key="createpropertyCurrentFiguregcf">当前图窗(gcf)</entry>
+    <entry key="createpropertyEvent">事件</entry>
+    <entry key="createpropertyEventHandler">事件处理程序</entry>
+    <entry key="createpropertyPickFile">选取文件</entry>
+    <entry key="selectCreateButton">创建</entry>
+    <entry key="selectControlPrompt1">请从系统的所有控件列表中选择 ActiveX 控件。如果在 MATLAB 中可以成功创建所选控件并具有屏幕图像，则可以查看其预览。</entry>
+    <entry key="selectControlPrompt2">您还可以查看用于创建 ActiveX 控件的参数列表。按“属性”按钮以查看它们的默认值并选择不同的值。</entry>
+  </message>
+</rsccat>

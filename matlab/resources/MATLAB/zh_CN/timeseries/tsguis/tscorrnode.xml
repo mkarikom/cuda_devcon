@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Cancel">取消</entry>
+    <entry key="CorrelationPlot">相关图</entry>
+    <entry key="DefineDisplayedTimeSeries">定义显示的时序</entry>
+    <entry key="EditPlot">编辑绘图...</entry>
+    <entry key="OK">确定</entry>
+    <entry key="Name">名称</entry>
+    <entry key="NumberOfColumns">列数</entry>
+    <entry key="PlotIsEmpty">绘图为空。编辑绘图之前将时序拖放到绘图窗口中。</entry>
+    <entry key="ReplaceTimeSeries">替换时序?</entry>
+    <entry key="ReplaceWhichTimeSeriesObject">替换哪些时序对象?</entry>
+    <entry key="Select">选择</entry>
+    <entry key="TimeSeries1">时序 1</entry>
+    <entry key="TimeSeries2">时序 2</entry>
+    <entry key="TimeSeriesCorrelation">时序相关性</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="LevelOfDetailWarning">Level of detail algorithm failed to reduce line details below EdgeDetailLimit. The visual quality of data may be compromised. Increase the value of EdgeDetailLimit property on line object for better results.</entry>
+    <entry key="MarkerIndexOutOfRange">'MarkerIndices' property contains invalid indices. Displaying markers only for indices that are less than or equal to the number of data points.</entry>
+  </message>
+</rsccat>
+

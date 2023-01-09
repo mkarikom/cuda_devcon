@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFigureHandle">無効な Figure のハンドル</entry>
+    <entry key="UnsupportedObject">カラーマップ エディターを {0} と共に使用することはサポートされていません。</entry>
+    <entry key="ExpectedCmeditor">cmeditor はその場所のままである必要があります</entry>
+    <entry key="ColormapeditorAppdataExpected">colormapeditor appdata はその場所のままである必要があります</entry>
+    <entry key="ColormapEmpty">空のカラーマップ</entry>
+  </message>
+</rsccat>

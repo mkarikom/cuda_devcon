@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invalidMexFile">mex-file not found.</entry>
+  <!--Resource entries for toolbox/matlab/sparfun/src-->
+    <entry key="InvalidNumberOfInputs">Input argument \"A\" is undefined.</entry>
+    <entry key="TooManyInputs">Too many input arguments.</entry>
+    <entry key="InvalidNumberOfOutputs">Too many output arguments.</entry>
+    <entry key="InvalidMode">Second input argument must be ''sym'', ''col'', ''row'', or ''lo''.</entry>
+    <entry key="InvalidInput">Matrix must be square.</entry>
+    <entry key="CHOLMODerror">etree failed:  CHOLMOD internal error!</entry>
+  </message>
+</rsccat>

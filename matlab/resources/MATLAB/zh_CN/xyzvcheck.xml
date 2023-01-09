@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="VNot3D">V 必须为 3 维数组。</entry>
+    <entry key="VPlanar">V 的大小必须为 2x2x2 或更大。</entry>
+    <entry key="XYZMixedEmpty">X、Y、Z 必须都为空值或非空值。</entry>
+    <entry key="XVSizeMismatch">X 的大小必须与 V 的大小或 V 的列数匹配。</entry>
+    <entry key="YVSizeMismatch">Y 的大小必须与 V 的大小或 V 的行数匹配。</entry>
+    <entry key="ZVsizeMismatch">Z 的大小必须与 V 的大小或 V 的页数匹配。</entry>
+  </message>
+</rsccat>

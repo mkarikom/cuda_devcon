@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2016-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+      <entry key="NonTimetable">First argument must be a timetable.</entry>
+    <!-- codegen -->
+      <entry key="NonconstantConvertRowTimes">''ConvertRowTimes'' parameter value must be constant.</entry>
+  </message>
+</rsccat>

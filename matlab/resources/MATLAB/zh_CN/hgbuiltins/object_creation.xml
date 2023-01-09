@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidArgs">输入参数的数目不正确。</entry>
+    <entry key="CannotSpecifyPVPairsWithNumericConvenienceArg">参数-值对组不支持数值图窗句柄。</entry>
+    <entry key="InvalidConvenienceArgHandle">第一个参数必须为有效的父级，例如图窗或面板对象。</entry>
+    <entry key="InvalidFigureArgHandle">参数必须为图窗对象或正整数。</entry>
+    <entry key="CannotSpecifyPVPairsWithNonParentConvenienceArg">输入组合无效。必须使用有效的父级(例如图窗或面板对象)指定参数-值对组。</entry>
+    <entry key="CannotSpecifyConvenienceArg">输入参数必须为参数-值对组。每个参数名称必须后跟相应的值。</entry>
+    <entry key="ObjectIsNotParentedToAFigure">对象尚未设置为图窗的父项。</entry>
+    <entry key="NoDefaultPropertyAvailable">There is no Default property ''{0}'' for the ''{1}'' class.</entry>
+    <entry key="PropertyDoesNotExist">There is no ''{0}'' property in the ''{1}'' class.</entry>
+    <entry key="DoubleConvertibleArgument">''{0}'' 中不支持非数值数据。</entry>
+    <entry key="DoubleConvertibleArgumentDatetime">数据必须为可转换为双精度值的数值、日期时间、持续时间或数组。</entry>
+  </message>
+</rsccat>

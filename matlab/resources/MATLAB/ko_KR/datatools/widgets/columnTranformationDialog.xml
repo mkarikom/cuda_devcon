@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BUTTON_TITLE">열 만들기/변환</entry>
+    <entry key="BUTTON_DESCRIPTION">테이블의 기존 값을 기반으로 열을 수정하거나 새로 만듭니다.</entry>
+    <entry key="DIALOG_TITLE">열 만들기/변환</entry>
+    <entry key="DIALOG_TABLE_NAME">테이블 이름</entry>
+    <entry key="DIALOG_COLUMN_VARIABLE">열 변수</entry>
+    <entry key="DIALOG_CODE">코드</entry>
+    <entry key="DIALOG_PREVIEW">미리보기</entry>
+    <entry key="COMMON_OPERATIONS">일반 작업</entry>
+    <entry key="NEW_VARIABLE">새 변수</entry>
+    <entry key="COMMON_OPS_CUSTOM">사용자 지정 코드</entry>
+    <entry key="COMMON_OPS_LOG">변수의 로그 계산</entry>
+    <entry key="COMMON_OPS_MULT">변수에 2 곱하기</entry>
+    <entry key="COMMON_OPS_ADD">두 개의 열 더하기</entry>
+    <entry key="COMMON_OPS_MAKE_DATETIME">날짜와 기간을 날짜/시간으로 결합</entry>
+    <entry key="COMMON_OPS_EXTRACT_TIME">날짜/시간에서 시간 추출</entry>
+    <entry key="COMMON_OPS_TO_UPPER">대문자로 변환하기</entry>
+    <entry key="COMMON_OPS_TO_LOWER">소문자로 변환하기</entry>
+    <entry key="COMMON_OPS_TRIM_STRING">공백 자르기</entry>
+    <entry key="OK">확인</entry>
+    <entry key="CANCEL">취소</entry>
+  </message>
+</rsccat>

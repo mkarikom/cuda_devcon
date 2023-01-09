@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadHandle">유효하지 않은 인수임 -- 유효한 객체 핸들을 사용하십시오.</entry>
+    <entry key="InvalidInput">double형 재설정에는 double형 스칼라 입력값이 필요함</entry>
+    <entry key="InvalidMethod">객체가 퍼블릭 메서드는 재설정하지 않습니다.</entry>
+    <entry key="InvalidHandle">값은 핸들이어야 합니다.</entry>
+    <entry key="DestroyedHandle">입력값에 해당하는 객체가 제거됨</entry>
+  </message>
+</rsccat>

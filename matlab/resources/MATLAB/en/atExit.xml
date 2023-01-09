@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="FailedToCleanupError">An error occurred while running the atExit function for the MEX-file\n{0}.\nThe error message was:\n    {1}\nHowever, the MEX-file was cleared from memory.</entry>
+    <entry key="FailedToCleanup">An error occurred while running the atExit function for the MEX-file\n{0}.\nHowever, the MEX-file was cleared from memory.</entry>
+  </message>
+</rsccat>

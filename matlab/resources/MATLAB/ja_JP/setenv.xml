@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnexpectedError">OS 呼び出し ''putenv'' で予期せぬ失敗がありました。</entry>
+    <entry key="IllegalNameTooLong">SETENV への ''name'' 引数を 32766 文字を超える長さにすることはできません。</entry>
+    <entry key="IllegalValueTooLong">SETENV への ''value'' 引数を 32766 文字を超える長さにすることはできません。</entry>
+    <entry key="IllegalNameInvalidCharacter">SETENV への ''name'' 引数に ''='' 文字を含めることはできません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- GUI options dialog. Strings in FIG-file -->
+        <entry key="figure1_Name">GUI Options</entry>
+        <entry key="text1_String">Resize behavior:</entry>
+        <entry key="omResize_String1">Non-resizable</entry>
+        <entry key="omResize_String2">Proportional</entry>
+        <entry key="omResize_String3">Other (Use SizeChangedFcn)</entry>
+        <entry key="text3_String">Command-line accessibility:</entry>
+        <entry key="omAccessibility_String1">Callback (GUI becomes Current Figure within Callbacks)</entry>
+        <entry key="omAccessibility_String2">Off (GUI never becomes Current Figure)</entry>
+        <entry key="omAccessibility_String3">On (GUI may become Current Figure from Command Line)</entry>
+        <entry key="omAccessibility_String4">Other (Use settings from Property Inspector)</entry>
+        <entry key="rbFigM_String">Generate FIG file and MATLAB file</entry>
+        <entry key="cbCallbacks_String">Generate callback function prototypes</entry>
+        <entry key="cbSingleton_String">GUI allows only one instance to run (singleton)</entry>
+        <entry key="cbBackground_String">Use system color scheme for background (recommended)</entry>
+        <entry key="rbFigOnly_String">Generate FIG file only</entry>
+        <entry key="pbOk_String">OK</entry>
+        <entry key="pbCancel_String">Cancel</entry>
+        <entry key="pbHelp_String">Help</entry>
+  </message>
+</rsccat>

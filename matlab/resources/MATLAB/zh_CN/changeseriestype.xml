@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidType">仅支持 ''line''、''stem''、''stairs''、''area'' 和 ''bar'' 类型。</entry>
+    <entry key="InvalidHandle">第一个参数必须为句柄或句柄向量。</entry>
+  </message>
+</rsccat>

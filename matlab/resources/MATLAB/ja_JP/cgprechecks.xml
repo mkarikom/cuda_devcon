@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">少なくとも 1 つの入力が必要です。</entry>
+    <entry key="OptsNotStringCell">凸包のオプションは文字ベクトルの cell 配列または string 配列でなければなりません。</entry>
+    <entry key="NonNumericInput">指定したデータ点は、数値配列の形式ではありません。</entry>
+    <entry key="Sparse">スパース行列の形式のデータ点はサポートされません。\nスパース行列を非スパースのストレージ形式に変換するには、FULL を使用してください。</entry>
+    <entry key="Complex">複素数の形式のデータ点はサポートされません。\n実数部と虚数部を抽出するために、REAL と IMAG を使用してください。</entry>
+    <entry key="CannotAcceptInfOrNaN">Inf または NaN を含むデータ点は、サポートされません。</entry>
+    <entry key="NonTwoDInput">データ点は、2 次元配列の形式で指定されなければなりません。</entry>
+    <entry key="NotEnoughPts">指定した固有の点が不足しています。</entry>
+  </message>
+</rsccat>

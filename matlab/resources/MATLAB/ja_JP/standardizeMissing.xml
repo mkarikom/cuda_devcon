@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DataVariablesArray">''DataVariables'' パラメーターはテーブル入力に対してのみサポートされます。</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' 関数ハンドルは論理スカラーを返さなければなりません。</entry>
+    <entry key="DataVariablesTableSubscript">''DataVariables'' の値が無効です。</entry>
+    <entry key="FirstInputInvalid">最初の引数は、数値、論理値、datetime、duration、calendarDuration、categorical、char、cellstr、string、table、timetable のいずれかでなければなりません。</entry>
+    <entry key="NameValueNames">パラメーター名は ''DataVariables'' でなければなりません。</entry>
+    <entry key="NameValuePairs">入力引数の数が正しくありません。パラメーターの名前と値はペアでなければなりません。</entry>
+    <entry key="InvalidInputsCodegen">最初の引数は数値、logical、duration、string、categorical、char または table でなければなりません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ColormapMustHave3Columns">컬러맵에는 3개의 열이 있어야 함</entry>
+    <entry key="ColormapElementOutOfRange">컬러맵 요소가 범위를 벗어났습니다. RGB 농도는 0.0 &lt;= 농도 &lt;= 1.0 범위에서 정규화되어야 합니다. 컬러맵을 정규화하려면 해당 컬러맵을 \"max(max(&lt;colormap&gt;))\"(으)로 스케일링하십시오.</entry>
+    <entry key="SkippingCorruptedFrame">동영상의 손상된 #{0,number,integer} 프레임 건너뜀</entry>
+    <entry key="ExpectedSingleFrame">동영상의 단일 프레임만 frame2im으로 전달 할 수 있음</entry>
+    <entry key="BadMatrix1">인수는 GETFRAME의 유효한 동영상 행렬이어야 함</entry>
+    <entry key="BadMatrix2">인수는 GETFRAME의 유효한 동영상 행렬이어야 함</entry>
+    <entry key="BadMatrix3">인수는 GETFRAME의 유효한 동영상 행렬이어야 함</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooltipString_Standard_NewFigure">新規 Figure</entry>
+    <entry key="TooltipString_Standard_FileOpen">ファイルを開く</entry>
+    <entry key="TooltipString_Standard_SaveFigure">Figure の保存</entry>
+    <entry key="TooltipString_Standard_PrintFigure">Figure の印刷</entry>
+    <entry key="TooltipString_Standard_EditPlot">プロット編集</entry>
+    <entry key="TooltipString_Standard_ExportAxes">名前を付けて保存</entry>
+    <entry key="TooltipString_Standard_CopyAxesImage">イメージとしてコピー</entry>
+    <entry key="TooltipString_Standard_CopyAxesVector">ベクトル グラフィックスとしてコピー</entry>
+    <entry key="TooltipString_Standard_OpenInspector">プロパティ インスペクターを開く</entry>
+    <entry key="TooltipString_Exploration_ZoomIn">ズームイン</entry>
+    <entry key="TooltipString_Exploration_ZoomOut">ズームアウト</entry>
+    <entry key="TooltipString_Exploration_ZoomX">X 軸ズーム</entry>
+    <entry key="TooltipString_Exploration_ZoomY">Y 軸ズーム</entry>
+    <entry key="TooltipString_Exploration_Pan">移動</entry>
+    <entry key="TooltipString_Exploration_Rotate">3 次元回転</entry>
+    <entry key="TooltipString_Exploration_DataCursor">データ ヒント</entry>
+    <entry key="TooltipString_Exploration_Brushing">データのブラシ選択</entry>
+    <entry key="TooltipString_Exploration_RestoreView">表示の復元</entry>
+    <entry key="TooltipString_DataManager_Linking">プロットをリンク/リンク解除</entry>
+    <entry key="TooltipString_Annotation_InsertColorbar">カラー バーの挿入</entry>
+    <entry key="TooltipString_Annotation_InsertLegend">凡例の挿入</entry>
+    <entry key="TooltipString_Annotation_InsertRectangle">四角形の挿入</entry>
+    <entry key="TooltipString_Annotation_InsertEllipse">楕円形の挿入</entry>
+    <entry key="TooltipString_Annotation_InsertTextbox">テキストボックスの挿入</entry>
+    <entry key="TooltipString_Annotation_InsertTextArrow">テキスト矢印の挿入</entry>
+    <entry key="TooltipString_Annotation_InsertDoubleArrow">双方向矢印の挿入</entry>
+    <entry key="TooltipString_Annotation_InsertArrow">矢印の挿入</entry>
+    <entry key="TooltipString_Annotation_InsertLine">ラインの挿入</entry>
+    <entry key="TooltipString_Annotation_Pin">表示を座標軸に固定する</entry>
+    <entry key="TooltipString_Annotation_AlignDistribute">整列/配布</entry>
+    <entry key="TooltipString_Plottools_PlottoolsOff">プロット ツールの非表示</entry>
+    <entry key="TooltipString_Plottools_PlottoolsOn">プロット ツールを表示して Figure をドッキング</entry>
+    <entry key="TooltipString_Toolbar_ShowMore">さらに表示</entry>
+    <entry key="TooltipString_Toolbar_ShowLess">非表示</entry>
+  </message>
+</rsccat>

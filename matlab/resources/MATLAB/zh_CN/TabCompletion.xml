@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="argument_number_is_out_of_range">参数数目 {0,number,integer} 超出范围 {1,number,integer}:{2,number,integer}</entry>
+    <entry key="binding_is_rejected">绑定 {0} 被拒绝: {1}</entry>
+    <entry key="cannot_read_file">无法读取文件 "{0}"。</entry>
+    <entry key="empty_binding_array">空绑定数组</entry>
+    <entry key="flags_are_missing">缺少标志</entry>
+    <entry key="no_need_for_argument_range">无需参数范围规格 "{0,number,integer}:{1,number,integer}:{2,number,integer}"。</entry>
+    <entry key="NoCompletionsFound">未找到任何自动填充项。</entry>
+    <entry key="sax2_xml_parser_error">SAX2 {0} 位于 {2} 的行 {1,number,integer} 中: "{3}"。</entry>
+    <entry key="sax2_xml_parser_exception">SAX2 异常消息为: \n"{0}"。</entry>
+    <entry key="sax2_xml_parser_unexpected_exception">SAX2 意外异常。</entry>
+    <entry key="wrong_argument_range">错误的参数数目范围 "{0,number,integer}:{1,number,integer}:{2,number,integer}"。</entry>
+    <entry key="wrong_argument_specification">错误的参数数目规格 "{0}"。</entry>
+    <entry key="ArgumentDefaultValue">默认</entry>
+    <entry key="UnableToLoadSignatures">无法为 ''{0}'' 加载签名。</entry>
+    <entry key="UnableToCreateFunctionHandle">无法根据 ''{0}'' 创建函数句柄。</entry>
+    <entry key="SkippingUnrecognizedProperty">正在跳过无法识别的属性 ''{0}''。</entry>
+    <entry key="UnrecognizedAttribute">''type'' 属性 ''{0}'' 无法识别。</entry>
+    <entry key="ExpectedOneAttribute">仅需要一个 ''type'' 属性。</entry>
+    <entry key="UnrecognizedIdentifier">无法识别的 ''identifier'' ''{0}''。</entry>
+    <entry key="UnrecognizedSize">无法识别 ''size'' ''{0}''。''size'' 必须是包含至少两个 '':'' 或非负整数的逗号分隔列表。</entry>
+    <entry key="UnrecognizedKind">无法识别的 ''kind'' ''{0}''。</entry>
+    <entry key="UnrecognizedRepeating">''repeating'' 必须为 ''true'' 或 ''false''。</entry>
+    <entry key="UnrecognizedMultiplicity">无法识别的 ''multiplicity'' ''{0}''。</entry>
+    <entry key="UnrecognizedPromotion">无法识别的 ''promotion'' ''{0}''。</entry>
+    <entry key="UnrecognizedIntegerValue">无法识别的 ''{0}'' ''{1}''。''{0}'' 必须为非负整数。</entry>
+    <entry key="NamesAndGroupsMisuse">"namevalue" 和 "properties'' 参数不能同时出现在组内和组外。</entry>
+    <entry key="FlagsAndGroupsMisuse">"flag'' 参数不能同时出现在组内和组外。</entry>
+    <entry key="FlagsAndNamesInGroupsMisuse">当 ''flag'' 参数出现在组外时，"namevalue" 和 "properties'' 参数不能出现在组内。</entry>
+    <entry key="VararginPlaces">''properties'' 参数必须出现在签名末尾或组末尾。</entry>
+    <entry key="FailedToEval">未能计算表达式 ''{0}''。</entry>
+    <entry key="InsideComment">无法在注释内插入建议。</entry>
+    <entry key="InsideDotDotDot">无法在 ''...'' 内插入建议。</entry>
+    <entry key="InvalidCharacter">字符 ''{0}'' 无效。</entry>
+    <entry key="ExpectedCellArrayFromExpression">表达式 ''{0}'' 必须返回元胞数组或字符串数组。</entry>
+    <entry key="ErrorParsingJSON">未能解析 JSON 文件 ''{0}'': {1}</entry>
+    <entry key="WarningParsingJSON">解析 JSON 文件 ''{0}'' 时出现警告: {1}</entry>
+    <entry key="UnidentifiedErrorParsingJSON">解析 JSON 数据时出现不明故障: {0}</entry>
+    <entry key="ErrorParsingArgumentsBlock">无法解析文件 ''{0}'' 的 'arguments' 模块: {1}</entry>
+    <entry key="ErrorParsingDocTooManyPrefixes">未能解析 ''{0}'' 的文档，因为指定了多个前缀。</entry>
+    <entry key="ErrorParsingDocPrefixTooLong">未能解析 ''{0}'' 的文档，因为前缀长度超过一个参数的长度。</entry>
+    <entry key="ErrorParsingDocPrefixEnding">未能解析 ''{0}'' 的文档，因为前缀必须以 '___' 结尾。</entry>
+    <entry key="ErrorParsingDocPostfixBeginning">未能解析 ''{0}'' 的文档，因为后缀必须以 '___' 开头。</entry>
+    <entry key="ErrorParsingDocUnrecognizedUsageOf">未能解析 ''{0}'' 的文档，因为无法识别 ''{1}'' 的用法。</entry>
+    <entry key="ErrorParsingDidYouMean___">您是否想使用 '___'?</entry>
+    <entry key="DefaultMustNotBeEmpty">''{0}'' 的 ''default'' 不能为空。</entry>
+    <entry key="ExpectedCommaInArgumentList">参数列表中缺少逗号。</entry>
+    <entry key="ErrorParsingNameEqualsValueSyntax">name=value 语法必须出现在 "name,value" 语法之前。</entry>
+    <entry key="CursorExceedsSizeOfInput">光标位置超过输入的大小。</entry>
+    <entry key="ExpectedFullScalarDouble">''{0}'' 的计算结果必须为全双精度标量。</entry>
+    <entry key="ShadowedJSON">{0} 已被 {1} 遮蔽。</entry>
+    <entry key="SchemaVersionBadFormatting">文件架构必须是三个以 ''.'' 分隔的非负整数。</entry>
+    <entry key="SchemaVersionIncompatibleError">文件架构版本 ''{0}'' 与支持的版本 ''{1}'' 不兼容。</entry>
+    <entry key="SchemaVersionIncompatibleWarning">文件架构版本 ''{0}'' 早于支持的版本 ''{1}''；无法保证完全兼容。</entry>
+    <entry key="ArgumentInformationForBaseNameSubstituted">找不到 ''{0}'' 的参数信息，将使用 ''{1}'' 的参数信息。</entry>
+    <entry key="MissingDocMetadata">无法将文档中的参数用途文本集成到 ''{0}'' 的 JSON 签名中，因为文档缺失必要的元数据。</entry>
+    <entry key="RejectedJSONIntegration">无法将文档中的参数用途文本集成到 ''{0}'' 的 JSON 签名中，因为签名中的这些名称在文档中找不到: {1}</entry>
+    <entry key="RejectedDocHelpIntegration">无法将文档中的参数用途文本集成到 ''{0}'' 的 help 签名中，因为签名中的这些名称在文档中找不到: {1}</entry>
+    <entry key="RejectedIntegrationReflexive">而且文档中的这些名称在签名中也找不到: {0}</entry>
+  </message>
+</rsccat>

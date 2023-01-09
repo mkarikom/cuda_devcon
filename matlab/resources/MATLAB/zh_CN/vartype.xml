@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidType">数据类型无效。输入必须为指定有效类名的字符串或字符向量。</entry>
+    <entry key="InvalidSubscripter">只有选择变量时才支持使用 VARTYPE 标注下标。</entry>
+    <entry key="TabularInput">表或时间表不是有效的输入参数。请使用类名调用 VARTYPE，并将输出用作表或时间表的下标。</entry>
+    <entry key="IncompatibleLoad">无法加载已保存的 vartype 对象，因为它与此版本的 MATLAB 不兼容</entry>
+    <entry key="UIStringDispHeader">table &lt;a href="matlab:doc(''vartype'')"&gt;vartype&lt;/a&gt; 下标:</entry>
+    <entry key="UIStringDispType">选择与类型 ''{0}'' 匹配的表变量</entry>
+    <entry key="UIStringDispFooter">请参阅&lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','access-data-in-a-table.html'))"&gt;访问表中的数据&lt;/a&gt;。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonconfdim">{0} と {1} のサンプル サイズは一致していないため、行列を結合できません。</entry>
+    <entry key="non3dimmax">3 次元より大きいデータをもつ時系列を乗算できません。</entry>
+    <entry key="nonconfdimMatrixMultiply">行列の乗算のための {0} と {1} のサンプル サイズが一致しません</entry>
+    <entry key="nonconfdimMatrixDiv">行列の除算のための {0} と {1} のサンプル サイズが一致しません</entry>
+    <entry key="nonconfdimMatrixLeftDiv">行列の左除算のための {0} と {1} のサンプル サイズが一致しません</entry>
+  </message>
+</rsccat>

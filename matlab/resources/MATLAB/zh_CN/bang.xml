@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnableToOpenMasterDevice">MATLAB 无法打开 pseudo-tty 主设备 {0}。\nunix() 和 ! 命令在此 MATLAB 会话中将不起作用。其他依赖于 unix() 和 ! 的命令也将失败。请与您的系统管理员核实，确认该设备存在并且具有正确的权限。</entry>
+    <entry key="UnableToOpenTtyDevice">MATLAB 无法打开 pseudo-tty: {0} [{1,number,integer},{2,number,integer}]。\nunix() 和 ! 命令在此 MATLAB 会话中将不起作用。其他依赖于 unix() 和 ! 的命令也将失败。您的系统可能资源不足。如果在重新启动后该问题仍然存在，请与系统管理员核实，确认您的 pty 子系统已正确配置。</entry>
+    <entry key="SystemError">意外系统错误: {0}</entry>
+    <entry key="UnableToReopenPtyDevice">尝试重新打开 pty 失败</entry>
+    <entry key="UnableToInitializePseudotty">MATLAB 无法初始化 pseudo-tty: 没有 BinArchDir。\nunix() 和 ! 命令在此 MATLAB 会话中将不起作用。其他依赖于 unix() 和 ! 的命令也将失败。请将此问题报告给 support@mathworks.com。</entry>
+    <entry key="CommandsDisabled">unix() 和 ! 命令已被禁用。</entry>
+    <entry key="UnknownError">未知错误</entry>
+    <entry key="UnrecognizedOption">选项无法识别: {0}</entry>
+    <entry key="SignalReceived">{0}: {1}</entry>
+  </message>
+</rsccat>

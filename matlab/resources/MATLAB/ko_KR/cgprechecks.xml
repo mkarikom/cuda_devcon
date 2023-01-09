@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">적어도 1개의 입력값이 필요합니다.</entry>
+    <entry key="OptsNotStringCell">볼록 껍질 옵션은 문자형 벡터로 구성된 셀형 배열이거나 string형 배열이어야 합니다.</entry>
+    <entry key="NonNumericInput">지정된 데이터 점이 숫자형 배열 형식이 아닙니다.</entry>
+    <entry key="Sparse">희소 행렬 형식의 데이터 점은 지원되지 않습니다.\nFULL을 사용하여 희소 행렬을 비희소 저장 형식으로 변환하십시오.</entry>
+    <entry key="Complex">복소수 형식의 데이터 점은 지원되지 않습니다.\nREAL 및 IMAG를 사용하여 실수부와 허수부를 추출하십시오.</entry>
+    <entry key="CannotAcceptInfOrNaN">Inf 또는 NaN이 포함된 데이터 점은 지원되지 않습니다.</entry>
+    <entry key="NonTwoDInput">데이터 점은 2차원 배열 형식으로 지정되어야 합니다.</entry>
+    <entry key="NotEnoughPts">고유한 점들이 충분히 명시되지 않았습니다.</entry>
+  </message>
+</rsccat>

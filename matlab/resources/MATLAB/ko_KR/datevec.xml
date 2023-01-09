@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Inputs">첫 번째 입력 인수가 날짜 문자형 벡터 또는 string형인 경우를 제외하고 모든 후속 인수는 무시됩니다.</entry>
+    <entry key="DateFormat">두 개의 날짜 형식을 지정했습니다.\n하나만 지정해야 합니다.</entry>
+    <entry key="EmptyDate">DATEVEC를 빈 날짜 문자형 벡터 또는 빈 string형과 함께 사용하는 것은 지원되지 않습니다.</entry>
+    <entry key="NotAStringArray">DATEVEC에 대한 입력값이 문자형 벡터 또는 string형으로 구성된 배열이 아닙니다.</entry>
+    <entry key="YearFormat">인식할 수 없는 연도(year) 형식입니다.</entry>
+    <entry key="MonthOfYear">연도의 월을 조회하지 못했습니다.</entry>
+    <entry key="NumberOfTimeFields">{0}에 시간 필드가 너무 많습니다.</entry>
+    <entry key="NumberOfDateFields">{0}에 날짜 필드가 너무 많습니다.</entry>
+    <entry key="ParseDateString">날짜 {0}을(를) 구문 분석할 수 없습니다.</entry>
+    <entry key="InputMustBeReal">Numeric input data must be real.</entry>
+  </message>
+</rsccat>

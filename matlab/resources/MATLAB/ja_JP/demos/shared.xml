@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelInfo">情報</entry>
+    <entry key="LabelClose">閉じる</entry>
+    <entry key="LabelHelp">ヘルプ</entry>
+    <entry key="LabelFlag">フラグ</entry>
+    <entry key="LabelNew">新規</entry>
+    <entry key="LabelStart">開始</entry>
+    <entry key="LabelStop">停止</entry>
+    <entry key="LabelReset">リセット</entry>
+    <entry key="LabelAutoPlay">自動再生</entry>
+    <entry key="LabelNext">次へ</entry>
+    <entry key="LabelPrevious">前へ</entry>
+    <entry key="LabelDoneLC">完了</entry>
+    <entry key="LabelSlowerLC">遅く</entry>
+    <entry key="LabelFasterLC">速く</entry>
+    <entry key="CommentPressButtonsForExamplePlots"> % プロット例については、右側のボタンを押してください。</entry>
+    <entry key="TitleProdNameDemos">{0} デモ</entry>
+    <entry key="TitleInformation">情報</entry>
+    <entry key="LabelPage">{0} ページ</entry>
+    <entry key="IllegalPlotNumber">プロット数が正しくありません。</entry>
+    <entry key="IndexExceedsNumberOfSubplots">インデックスがサブプロットの数を超えています。</entry>
+    <entry key="FinddemoFileNotFound">"{0}" が見つかりません。\nパス キャッシュが無効になっている可能性があります。"rehash toolboxcache" を使って更新してください。</entry>
+    <entry key="InputCountIncorrect">入力引数の数が正しくありません。</entry>
+  </message>
+</rsccat>

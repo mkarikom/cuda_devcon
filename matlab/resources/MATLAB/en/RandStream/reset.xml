@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="LegacySeedNotAllowed">You may not reset the legacy stream using a seed.</entry>
+    <entry key="SeedNotAllowed">You may not reset a stream using a seed if the stream was created with NumStreams greater than 1.</entry>
+    <entry key="BadSeed">SEED must be a non-negative integer value less than 2^32.</entry>
+  </message>
+</rsccat>

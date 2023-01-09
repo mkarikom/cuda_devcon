@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotVectorized">Function failed to evaluate on array inputs; vectorizing the function may speed up its evaluation and avoid the need to loop over array elements.</entry>
+  </message>
+</rsccat>

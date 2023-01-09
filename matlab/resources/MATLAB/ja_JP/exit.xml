@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DuplicateOption">オプション ''{0}'' は一度のみ渡すことができます。</entry>
+    <entry key="NotSupported">MATLAB Runtime の複数のインスタンスを使ってアプリケーションを展開する場合、関数 EXIT と関数 QUIT はサポートされません。</entry>
+    <entry key="UniqueOption">オプション ''{0}'' は他のオプションと組み合わせることができません。</entry>
+    <entry key="UnknownOption">不明なオプション ''{0}''</entry>
+  </message>
+</rsccat>

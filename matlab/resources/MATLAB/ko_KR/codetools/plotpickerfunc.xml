@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PlotSelectedColumns">선택한 열 플로팅</entry>
+    <entry key="PlotAllColumns">모든 열 플로팅</entry>
+    <entry key="ScatterPlotForSelectedColumns">선택한 열에 대한 산점도 플롯</entry>
+    <entry key="PlotAsMultipleSeriesVsFirstInput">첫 번째 입력값에 대한 여러 계열 플로팅</entry>
+    <entry key="PlotAsMultipleSeries">여러 계열로 플로팅</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidsignalname">時系列の名前にはスラッシュ (''/'') を使えません。</entry>
+    <entry key="NDdata">時系列 ''{0}'' のデータ サイズは [{1}] です。\n時系列ツール内には、より次元の高いデータが追加列として折りたたまれています。</entry>
+    <entry key="nondoubledata">時系列 ''{0}'' のデータは double に変換されました。</entry>
+    <entry key="sparsedata">時系列 ''{0}'' のデータはスパースから非スパースに変換されました。</entry>
+    <entry key="largesparsedata">時系列 ''{0}'' 内のデータは、メモリ制限のためにスパースから非スパースに変換できませんでした。</entry>
+    <entry key="infindata">時系列 ''{0}'' 内の Inf は NaN に変換されました。</entry>
+    <entry key="missingqualitydesc">QualityInfo 内に情報と説明がないため、特性情報は ''{0}'' から削除されました。</entry>
+    <entry key="eventunitsreconciled">イベント ''{0}'' の単位は時系列 ''{1}'' の単位に変更されました。</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="CannotUseComplexvaluedTS">時系列ツール内では複素数値を含む時系列を使用できません。\n''{0}'' をインポートできません。</entry>
+    <entry key="CannotUseTSWithEmptyNames">時系列ツール内では空の名前をもつ時系列を使用できません。\nインポートできません。</entry>
+    <entry key="TimeSeriesQualitySameSizeAsTimeVector">時系列の特性は時系列ツール内の時間ベクトルと同じサイズでなければなりません。\nインポートできません。</entry>
+    <entry key="ConvertingSparseDataInTimeSeriesToDouble">時系列内のスパース データを double に変換中...</entry>
+  </message>
+</rsccat>

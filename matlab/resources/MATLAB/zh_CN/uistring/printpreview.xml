@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DialogStringThisIsNotAValidMeasurement">无效测量</entry>
+    <entry key="RecomputingPreview">正在重新计算预览...</entry>
+    <entry key="ErrorRefreshingPreview">刷新预览时出错:\n{0}</entry>
+    <entry key="TitlePrintPreview">打印预览</entry>
+    <entry key="LayoutTab">布局</entry>
+    <entry key="LinesTextTab">线条/文本</entry>
+    <entry key="ColorTab">颜色</entry>
+    <entry key="AdvancedTab">高级</entry>
+    <entry key="DialogTitlePrintPreviewWarning">打印预览警告</entry>
+  </message>
+</rsccat>

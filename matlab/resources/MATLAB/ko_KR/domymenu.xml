@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ObjectCorrupted">객체 속성이 손상되었을 수 있음</entry>
+    <entry key="ExecutionError">플롯 편집기 메뉴를 실행하는 동안 오류 발생: {0}</entry>
+  </message>
+</rsccat>

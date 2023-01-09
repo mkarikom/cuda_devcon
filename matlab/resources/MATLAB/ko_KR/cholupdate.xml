@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="incorrectSecondInputArgument">두 번째 인수는 정사각 입력 행렬({0,number,integer})의 열 개수와 동일한 길이의 열 벡터여야 합니다.</entry>
+    <entry key="incorrectThirdInputArgument">세 번째 인수는 ''+'' 또는 ''-''여야 합니다.</entry>
+    <entry key="downdatedMatrixNotPosDef">복구된(Downdated) 행렬은 양의 정부호 행렬이어야 합니다.</entry>
+    <entry key="singularCholeskyFactor">촐레스키 인수가 특이 행렬입니다.</entry>
+    <entry key="inputType">유효하지 않은 데이터형입니다. 첫 번째 입력값과 두 번째 입력값은 double형 또는 single형이어야 합니다.</entry>
+    <entry key="inputSparse">희소 행렬은 지원되지 않습니다.</entry>
+    <entry key="inputMustBe2D">입력 배열은 2차원이어야 합니다.</entry>
+  </message>
+</rsccat>

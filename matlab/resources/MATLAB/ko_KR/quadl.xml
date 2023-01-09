@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="funNotVectorized">피적분 함수는 입력 벡터와 같은 길이의 출력 벡터를 반환해야 합니다.</entry>
+    <entry key="MinStepSize">최소 스텝 크기에 도달했습니다. 특이점인 경우일 수 있습니다.</entry>
+    <entry key="MaxFcnCount">최소 함수 개수를 초과했습니다. 특이점인 경우일 수 있습니다.</entry>
+    <entry key="ImproperFcnValue">무한대 값 또는 NAN(Not-a-Number) 함수 값이 발생했습니다.</entry>
+  </message>
+</rsccat>

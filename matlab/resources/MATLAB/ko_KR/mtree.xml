@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="newtree">인수는 단일 노드여야 합니다.</entry>
+    <entry key="kind">kind는 단일 노드로 호출해야 합니다.</entry>
+    <entry key="version">mtree 코드에 대한 올바른 예상치: {0}, mtreemex version {1}.\n</entry>
+    <entry key="usage">사용법 : mtree( text [, options] ): options 값은 ''-file'', ''-cell'', ''-comments''.</entry>
+    <entry key="input">입력 파일 {0}을(를) 읽을 수 없음</entry>
+    <entry key="internal2">인덱스 세트(index set)는 정수여야 함</entry>
+    <entry key="internal3">pathit 오류--I의 길이가 잘못됨.</entry>
+    <entry key="path">링크에는 *, + 등만 사용해야 함</entry>
+    <entry key="pathIllegal">부적절한 경로 링크임: "{0}".</entry>
+    <entry key="internal4">길이가 일치하지 않습니다.</entry>
+    <entry key="internal5">pathit의 반환이 잘못됨</entry>
+    <entry key="restrict">find의 경로에는 +, *, List, Tree 또는 Full 다음에 &amp;, |, Any 또는 All이 나와야 합니다.</entry>
+    <entry key="internal6">&amp;, |, Any 또는 All 처리 중 내부 오류 발생</entry>
+    <entry key="internal7">restrict 실패</entry>
+    <entry key="internal8">경로 불일치</entry>
+    <entry key="internal9">길이가 일치하지 않습니다.</entry>
+    <entry key="badpath">잘못된 경로임: "{0}".</entry>
+    <entry key="pathAndOr">PATH 호출이 "&amp;" 및 "|"를 인식할 수 없습니다.</entry>
+    <entry key="string">메서드 STRING은 여러 개의 노드를 지원하지 않습니다. STRINGS를 대신 사용하십시오.</entry>
+    <entry key="nostring">이 노드에 텍스트가 없습니다.</entry>
+    <entry key="find">"find"에 대한 인수가 누락되었습니다.</entry>
+    <entry key="internal10">find 구현</entry>
+    <entry key="setter">setter는 단일 노드로 호출해야 함</entry>
+    <entry key="impossiblePath">불가능한 경로임</entry>
+    <entry key="select">노드 세트의 멤버를 선택해야 함</entry>
+    <entry key="internal11">IX 길이가 잘못되었습니다.</entry>
+    <entry key="internal12">o.n 값이 범위를 벗어났습니다.</entry>
+    <entry key="internal13">o.m 값이 범위를 벗어났습니다.</entry>
+    <entry key="internal14">m 값이 잘못되었습니다.</entry>
+    <entry key="op1">op {0}이(가) 두 번 나타나는데 두 번째는 행 그룹 {1,number,integer}에 나타남\n</entry>
+    <entry key="duplicatePair">행 그룹 {0,number,integer}에 중복 쌍이 나타남</entry>
+    <entry key="op2">알 수 없는 op {0} (index {1,number,integer})</entry>
+    <entry key="andor">경로 세그먼트당 둘 이상의 "&amp;", "|", Any 또는 All</entry>
+    <entry key="plus">경로 세그먼트당 둘 이상의 "+" 또는 "List"</entry>
+    <entry key="star">경로 세그먼트당 둘 이상의 "*" 또는 "Tree"</entry>
+    <entry key="full">"Full"이 "Full", "List" 또는 "Tree"와 사용됨</entry>
+    <entry key="Node">노드</entry>
+  </message>
+</rsccat>

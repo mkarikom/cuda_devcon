@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="NotCalledWithInit">ODEPHAS3 has not been initialized. Use syntax ODEPHAS3(tspan,y0,''init'').</entry>
+      <entry key="ErrorUpdatingWindow">Error updating the ODEPHAS3 window. Solution data may have been corrupted. {0}</entry>
+      <entry key="UnrecognizedFlag">Unrecognized flag ''{0}'' has been passed to ODEPHAS3.</entry>
+      <entry key="ButtonStop">Stop</entry>
+   </message>
+</rsccat>

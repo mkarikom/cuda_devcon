@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">使用可能なプロパティ値に関する情報の設定に、1 つのオブジェクトだけが渡されます。</entry>
+    <entry key="propValPairs">プロパティ/値のペアは偶数でなければなりません。</entry>
+    <entry key="nostruct">時系列のプロパティは、構造体、または構造体配列に代入できません。</entry>
+    <entry key="noinplaceset">timeseries が式または部分参照配列を使用して定義されている場合、プロパティを適所に代入できません。</entry>
+  </message>
+</rsccat>

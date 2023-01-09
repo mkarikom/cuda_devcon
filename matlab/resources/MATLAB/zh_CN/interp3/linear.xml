@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Vnot3Dnarg2">V 必须为三维数组。</entry>
+    <entry key="ninput">输入参数的数目不正确。</entry>
+    <entry key="Vnot3Dnarg5">V 必须为三维数组。</entry>
+    <entry key="Vnot3Dnarg8">V 必须为三维数组。</entry>
+    <entry key="XYZLengthMismatchV">X、Y、Z 向量的长度必须与 V 匹配。</entry>
+    <entry key="Vsize">V 必须至少为 2×2×2。</entry>
+    <entry key="XIYIZISizeMismatch">XI、YI 和 ZI 的大小必须相同。</entry>
+  </message>
+</rsccat>

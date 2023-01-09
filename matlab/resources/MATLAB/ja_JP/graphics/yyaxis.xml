@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Invalid">無効な引数</entry>
+    <entry key="NotAxesArgument">座標軸の引数は、型 matlab.graphics.axis.Axes の直交座標軸でなければなりません</entry>
+    <entry key="NotAxesGCA">現在の座標軸は、型 matlab.graphics.axis.Axes の直交座標軸でなければなりません</entry>
+    <entry key="ViewNot2D">yyaxis では 3 次元表示はサポートされていません。&lt;a href="matlab:doc view"&gt;view&lt;/a&gt;(2) を使って、表示を 2 次元に変更してください。</entry>
+  </message>
+</rsccat>

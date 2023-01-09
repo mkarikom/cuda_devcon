@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="KeepFilesTogether">MAT ファイル {0} が\n MATLAB コード ファイル {1} に対して生成されました。\n MATLAB コード ファイルを実行するには、MAT ファイルも一緒に保持してください。</entry>
+    <entry key="UnsupportedDataType">データ型が MATLAB コードの生成でサポートされていません。</entry>
+    <entry key="UnableToGenerateCodeForChar">2 次元より高次の文字配列に対して MATLAB コードを生成できません。</entry>
+    <entry key="UnableToGenerateCodeForCell">2 次元より高次のセル配列に対して MATLAB コードを生成できません。</entry>
+    <entry key="ErrorWritingFile">ファイルの書き込みエラーが発生しました</entry>
+    <entry key="InvalidHandle">最初の引数は、有効なハンドルでなければなりません</entry>
+    <entry key="InvalidFigureHandle">最初の引数は、有効な Figure のハンドルでなければなりません</entry>
+    <entry key="ObjectsAreNotSupported">{0} オブジェクトはサポートされません...</entry>
+    <entry key="DialogObjectsAreNotSupported">{0} オブジェクトはサポートされません...\nスキップしています</entry>
+    <entry key="Skipping">スキップしています...</entry>
+  </message>
+</rsccat>

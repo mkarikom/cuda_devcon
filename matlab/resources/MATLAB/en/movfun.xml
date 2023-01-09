@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="complexIntegers">Invalid data type. Complex inputs must be double or single.</entry>
+    <entry key="integerInput">Invalid data type. First input must be double or single.</entry>
+    <entry key="complexInput">Invalid data type. First input must be real.</entry>
+    <entry key="complexFillValue">''Endpoints'' value must be real.</entry>
+    <entry key="wrongInput">Invalid data type. First input must be numeric or logical.</entry>
+    <entry key="noEndpointValue">Incorrect number of input arguments. ''Endpoints'' must be followed by a corresponding value.</entry>
+    <entry key="wrongEndpoint">''Endpoints'' value must be ''shrink'', ''discard'', ''fill'', or a numeric or logical scalar.</entry>
+    <entry key="noSamplePointsValue">Incorrect number of input arguments. ''SamplePoints'' must be followed by a corresponding value.</entry>
+    <entry key="SamplePointsComplex">''SamplePoints'' value must be real.</entry>
+    <entry key="SamplePointsDuplicate">''{0}'' value contains duplicates.</entry>
+    <entry key="SamplePointsInvalidDatatype">''SamplePoints'' value must be a numeric, datetime, or duration vector.</entry>
+    <entry key="SamplePointsLength">''SamplePoints'' value must be a {0,number,integer}-element vector.</entry>
+    <entry key="SamplePointsNonFinite">''{0}'' value contains Inf or {1}.</entry>
+    <entry key="SamplePointsSorted">''{0}'' value must be sorted in ascending order.</entry>
+    <entry key="SamplePointsSparse">''SamplePoints'' value must be full.</entry>
+    <entry key="SamplePointsTimeTable">''SamplePoints'' parameter not supported when first argument is a timetable.</entry> 
+    <entry key="wrongNVPair">Parameter name must be ''Endpoints'' or ''SamplePoints''.</entry>
+    <entry key="wrongString">Invalid option combination. Option must be 'omitnan' or 'includenan'.</entry>
+    <entry key="wrongWindowLength">Window length must be a finite positive scalar or 2-element vector of finite nonnegative scalars.</entry>
+    <entry key="wrongNormalization">Normalization argument must be 0 or 1.</entry>
+    <entry key="bothSamplePointsAndFillValue">''Endpoints'' value cannot be a numeric or logical scalar when ''SamplePoints'' values are supplied.</entry>
+    <entry key="nanFlagAfterPairs">NaN condition must come before parameter name and value pairs.</entry>
+    <entry key="endpointChoiceInvalid">''Endpoints'' value must be ''shrink'' when the ''SamplePoints'' values are not uniformly spaced.</entry>
+    <entry key="winsizeNotDuration">Invalid data type. Window size must be a duration if ''SamplePoints'' value is {0}.</entry>
+
+    <!-- For code generation -->
+    <entry key="codegenSamplePointsNotSupported">''SamplePoints'' is not supported for code generation.</entry>
+
+    </message>
+</rsccat>

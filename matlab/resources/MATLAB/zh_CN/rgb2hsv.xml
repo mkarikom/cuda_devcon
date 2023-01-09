@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WrongInputNum">输入参数的数目不正确。</entry>
+    <entry key="InputSizeMismatch">R、G、B 的大小必须相同。</entry>
+    <entry key="invalidInputSize">MAP 的输入必须为 Mx3 的数组，而 RGB 的输入必须为 MxNx3 的数组。</entry>
+    <entry key="invalidInputSizeRGB">RGB 必须为 MxNx3 的数组。</entry>
+    <entry key="invalidSizeForColormap">MAP 必须为 Mx3 的数组。</entry>
+    <entry key="badMapValues">有效的颜色图不能包含超出 [0,1] 范围的值。</entry>
+  </message>
+</rsccat>

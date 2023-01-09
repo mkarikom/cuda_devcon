@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="numSidesError">辺の数は 3 以上の正の整数でなければなりません。</entry>
+    <entry key="radiusSideError">'Radius' が指定されている場合、'SideLength' パラメーターはサポートされません。</entry>
+    <entry key="invalidParameterError">指定したパラメーターで多角形状を作成できません。</entry>
+    <entry key="centerError">'Center' の値は、2 つの要素をもつ、有限で実数の数値行ベクトルでなければなりません。</entry>
+    <entry key="radiusError">'Radius' 値は実数で正の有限スカラーでなければなりません。</entry>
+    <entry key="rsTooSmall">''{0}'' の値が小さすぎるため多角形状を作成できません。</entry>
+    <entry key="rsTooLarge">''{0}'' の値が大きすぎるため多角形状を作成できません。</entry>
+    <entry key="sideError">'SideLength' の値は実数で正の有限スカラーでなければなりません。</entry>
+    <entry key="nameValueError">入力引数の数が正しくありません。パラメーターの名前と値はペアでなければなりません。</entry>
+    <entry key="unknownNameError">パラメーター名は 'SideLength'、'Radius'、または 'Center'' でなければなりません。</entry>
+    <entry key="valueOverflow">x 座標または y 座標が大きすぎるため、多角形状を作成できません。</entry>
+  </message>
+</rsccat>

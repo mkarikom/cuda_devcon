@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DeprecatedV6Argument">COLORBAR への引数 ''v6'' の利用は推奨されません。これは将来のリリースではサポート廃止の予定です。</entry>
+    <entry key="InvalidHandleInput">カラーバー ハンドルの後に、''delete''、''hide''、''off'' のいずれかを指定しなければなりません。</entry>
+    <entry key="InvalidInput">認識されない入力、または無効なパラメーターと値のペアの引数です。</entry>
+    <entry key="ParentNotHandle">''Parent'' の後にはスカラーのグラフィックス ハンドルが続かなければなりません。</entry>
+    <entry key="InvalidParent">カラー バーは、タイプ {0} のオブジェクトの子にできません。</entry>
+    <entry key="InvalidPropertyName">プロパティ名は文字ベクトルでなければなりません</entry>
+    <entry key="InvalidPeer">''peer'' の後に、Axes のハンドルを指定しなければなりません。</entry>
+    <entry key="TooManyOutputs">出力が多すぎます。</entry>
+    <entry key="TooFewInputs">カラーバー ハンドルの後に、''delete''、''hide''、''off'' のいずれかを指定しなければなりません。</entry>
+    <entry key="UnknownProperty">''{0}'' は不明なプロパティです。</entry>
+    <entry key="InvalidRulerLocation">{1} カラーバーの {0} 上にはラベルを置けません。</entry>
+    <entry key="ParentMustBeSameAsAxes">カラー バーとそれに関連付けられた座標軸の親は同じでなければなりません。</entry>
+    <entry key="AxesMustBeCopied">カラー バーは関連する座標軸と共にコピーされなければなりません。カラー バーと座標軸を一緒にコピーするには、COPYOBJ と共にベクトル入力を使用してください。</entry>
+  </message>
+</rsccat>

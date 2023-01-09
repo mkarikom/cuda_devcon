@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Arg1NotStructArray">S 必须为结构体数组。</entry>
+    <entry key="FieldnamesNotStrings">FIELDNAMES 必须为字符串、字符向量或字符向量元胞数组。</entry>
+    <entry key="FieldnameTooLong">字符串 ''{0}'' 的长度超过最大 MATLAB 名称长度。该名称不是有效的字段名称。</entry>
+    <entry key="InvalidFieldname">不存在名为 ''{0}'' 的字段。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidP">入力 ''p'' は 0 と 1 の間の実数のスカラーでなければなりません。</entry>
+    <entry key="XYZVectorsSameLength">X, Y and Z must be vectors of the same length.</entry>
+  </message>
+</rsccat>

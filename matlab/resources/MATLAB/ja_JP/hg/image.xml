@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadMatrix">イメージの CData には数値または論理行列が必要です。</entry>
+    <entry key="BadSize">インデックス付けされた CData のサイズは、m 行 n 列でなければなりません。トゥルーカラーの CData のサイズは、m x n x 3 でなければなりません。</entry>
+    <entry key="BadType">イメージの CData を複素数にすることはできません。</entry>
+    <entry key="ElementOutOfRange">トゥルーカラーの CData に 0.0 &lt;= 値 &lt;= 1.0 の範囲外の要素が含まれています。</entry>
+    <entry key="BadAlphaDataDimensions">AlphaData の次元は 1 行 1 列、または CData と一致しなければなりません。</entry>
+    <entry key="ImageDestroyed">作成中にイメージが破棄されました。</entry>
+    <entry key="CDataNotValid">イメージの CData が無効です。</entry>
+    <entry key="ExpectedVectors">イメージの X と Y はベクトルでなければなりません。</entry>
+    <entry key="BadArguments">引数の数が正しくありません。</entry>
+    <entry key="BadCDataSize">カラー データは m x n x 3 または m 行 n 列の行列でなければなりません。</entry>
+    <entry key="BadCDataMatrix">カラー データは数値または論理値でなければなりません。</entry>
+    <entry key="BadCDataComplex">複素数値はサポートされていません。カラー データを数値または論理値で指定します。</entry>
+    <entry key="CDataElementOutOfRange">イメージの TrueColor CData が範囲外です。</entry>
+    <entry key="ExpectedXYDataVectors">イメージの XData と YData はベクトルでなければなりません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="VARIABLE_SELECTOR_NAME">从工作区导入</entry>
+    <entry key="VARIABLE_SELECTOR_TEXT">选择表或时间表</entry>
+    <entry key="VARIABLE_SELECTOR_SUB_TEXT">变量</entry>
+    <entry key="CANCEL_BUTTON_TEXT">取消</entry>
+    <entry key="OK_BUTTON_TEXT">确定</entry>
+    <entry key="NO_VAR_WARNING">工作区中没有表</entry>
+    <entry key="NO_DATA_WARNING">无可用数据</entry>
+    <entry key="COL_NAME_1">名称</entry>
+    <entry key="COL_NAME_2">类</entry>
+    <entry key="COL_NAME_3">大小</entry>
+  </message>
+</rsccat>

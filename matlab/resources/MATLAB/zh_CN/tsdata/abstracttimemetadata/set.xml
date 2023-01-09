@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invSyntax">仅允许在 SET(H) 或 SET(H,Property) 中使用输出参数。</entry>
+    <entry key="badVar">SET 的第一个参数必须是命名变量。要设置存储在时序对象中的元数据属性，请使用点赋值表示法。</entry>
+    <entry key="invPropValPairs">属性/值对组必须成对出现。</entry>
+  </message>
+</rsccat>

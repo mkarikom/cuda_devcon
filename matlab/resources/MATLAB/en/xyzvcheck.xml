@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="VNot3D">V must be a 3D array.</entry>
+      <entry key="VPlanar">V must be size 2x2x2 or greater.</entry>
+      <entry key="XYZMixedEmpty">X,Y,Z must all be empty or all non-empty.</entry>
+      <entry key="XVSizeMismatch">The size of X must match the size of V or the number of columns of V.</entry>
+      <entry key="YVSizeMismatch">The size of Y must match the size of V or the number of rows of V.</entry>
+      <entry key="ZVsizeMismatch">The size of Z must match the size of V or the number of pages of V.</entry>
+   </message>
+</rsccat>

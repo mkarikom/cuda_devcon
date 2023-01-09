@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidNonJavaObject">첫 번째 입력값은 Java 객체여야 함</entry>
+    <entry key="InvalidNumberOfInputArguments">입력 인수가 하나뿐이면 출력 값이 지원되지 않음</entry>
+  </message>
+</rsccat>

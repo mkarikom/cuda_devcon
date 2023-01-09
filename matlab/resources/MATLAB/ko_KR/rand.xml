@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidState">상태는 double형 스칼라 또는 RAND(''state'')의 출력값이어야 합니다.</entry>
+    <entry key="invalidTwisterState">상태는 double형 스칼라 또는 RAND(''twister'')의 출력값이어야 합니다.</entry>
+    <entry key="invalidSeed">시드(seed)는 double형 스칼라여야 합니다.</entry>
+    <entry key="inputType">크기 입력값은 숫자형이어야 합니다.</entry>
+    <entry key="invalidOutputType">CLASSNAME 입력값은 RAND를 지원하는 클래스여야 합니다(예: ''single'' 또는 ''double'').</entry>
+    <entry key="invalidPrototype">''like'' 다음의 입력값은 RAND를 지원하는 유형의 변수여야 합니다. 예를 들어, double형 및 single형 변수가 RAND를 지원합니다.</entry>
+    <entry key="complexOrSparsePrototype">''like'' 다음의 복소수 또는 희소 형식 입력값은 지원되지 않습니다.</entry>
+  </message>
+</rsccat>

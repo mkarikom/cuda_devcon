@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidNumberOutputs">TEXTWRAP requires 1 or 2 output arguments.</entry>
+    <entry key="InvalidSecondInput">Second input argument must be a cell array when using 3 inputs</entry>
+    <entry key="InvalidFirstInput">First input argument must be a UIControl object or cell array.</entry>
+    <entry key="InvalidHandle">Invalid handle passed to TEXTWRAP.</entry>
+    <entry key="InvalidColumnsInput">Number of characters must be a positive integer.</entry>
+  </message>
+</rsccat>

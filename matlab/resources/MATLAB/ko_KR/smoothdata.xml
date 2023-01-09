@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badArray">유효하지 않은 데이터형입니다. 첫 번째 인수는 숫자형 배열이나 논리형 배열, table형 또는 timetable형이어야 합니다.</entry>
+    <entry key="nonNumericTableVar">테이블 변수는 숫자형이어야 합니다.</entry>
+    <entry key="complexIntegers">유효하지 않은 데이터형입니다. 복소수 입력값은 double형 배열이거나 single형 배열이어야 합니다.</entry>
+    <entry key="invalidMethod">평활화 메서드는 ''movmean'', ''movmedian'', ''gaussian'', ''lowess'', ''loess'', ''rlowess'', ''rloess'', ''sgolay'' 중 하나여야 합니다.</entry>
+    <entry key="invalidWinsize">윈도우 길이는 양의 숫자형 또는 duration형 스칼라이거나 요소를 2개 가진 숫자형 또는 duration형 벡터여야 합니다.</entry>
+    <entry key="invalidNanflag">NaN 조건은 ''omitnan'' 또는 ''includenan''이어야 합니다.</entry>
+    <entry key="invalidSamplePoints">''SamplePoints'' 값은 숫자형 벡터, datetime형 벡터, duration형 벡터 중 하나여야 합니다.</entry>
+    <entry key="invalidSmoothingFactor">''SmoothingFactor'' 값은 0과 1 사이의 숫자형 스칼라여야 합니다.</entry>
+    <entry key="invalidNVPair">파라미터 이름은 ''SamplePoints'' 또는 ''SmoothingFactor''여야 합니다.</entry>
+    <entry key="invalidNVPairTable">파라미터 이름은 ''SamplePoints'', ''SmoothingFactor'' 또는 ''DataVariables''여야 합니다.</entry>
+    <entry key="invalidNVPairSGolay">파라미터 이름은 ''SamplePoints'', ''SmoothingFactor'' 또는 ''Degree''여야 합니다.</entry>
+    <entry key="invalidNVPairTableSGolay">파라미터 이름은 ''SamplePoints'', ''SmoothingFactor'', ''DataVariables'' 또는 ''Degree''여야 합니다.</entry>
+    <entry key="methodAfterOptions">메서드는 이름-값 쌍 앞에 와야 합니다.</entry>
+    <entry key="nanflagAfterOptions">NaN 조건은 이름-값 쌍 앞에 와야 합니다.</entry>
+    <entry key="duplicateNanflag">유효하지 않은 옵션 조합입니다. NaN 조건은 한 번 지정하십시오.</entry>
+    <entry key="nameNoValue">입력 인수의 개수가 올바르지 않습니다. ''{0}'' 다음에는 대응값이 와야 합니다.</entry>
+    <entry key="tuneAndWindow">윈도우 길이가 지정된 경우에는 ''SmoothingFactor''를 사용할 수 없습니다.</entry>
+    <entry key="winsizeNotDuration">유효하지 않은 데이터형입니다. ''SamplePoints'' 값이 {0}형인 경우 윈도우 길이는 duration형이어야 합니다.</entry>
+    <entry key="winsizeIsDuration">유효하지 않은 데이터형입니다. ''SamplePoints'' 값이 숫자형인 경우 윈도우 길이는 숫자형이거나 논리형이어야 합니다.</entry>
+    <entry key="noComplexWindows">윈도우 길이는 실수여야 합니다.</entry>
+    <entry key="needsFiniteWindows">윈도우 길이는 유한해야 합니다.</entry>
+    <entry key="noComplex">{0} 값은 실수여야 합니다.</entry>
+    <entry key="needsFinites">{0} 값은 유한해야 합니다.</entry>
+    <entry key="noSparseSamplePoints">희소 형식의 ''SamplePoints'' 값은 지원되지 않습니다.</entry>
+    <entry key="SamplePointsLength">''SamplePoints'' 값은 입력 인수와 동일한 길이의 벡터여야 합니다.</entry>
+    <entry key="SamplePointsDuplicate">{0} 값들은 고유해야 합니다.</entry>
+    <entry key="SamplePointsSorted">{0} 값들은 오름차순으로 정렬되어야 합니다.</entry>
+    <entry key="negativeDegree">''Degree'' 값은 양의 정수여야 합니다.</entry>
+    <entry key="degreeNoSgolay">''Degree'' 값은 메서드가 'sgolay'인 경우에만 사용할 수 있습니다.</entry>
+    <entry key="degreeAutoClash">''Degree'' 값이 임의 윈도우의 최대 점 개수({0,number,integer})보다 커서 {1,number,integer}(으)로 감소되었습니다.</entry>
+    <entry key="degreeTooLarge">''Degree'' 값은 임의 윈도우의 최대 점 개수({0,number,integer})보다 작아야 합니다.</entry>
+    <entry key="noDimForTable">첫 번째 인수가 table형이나 timetable형이면 Dimension을 사용할 수 없습니다.</entry>
+    <entry key="DataVariablesArray">''DataVariables'' 파라미터는 테이블 입력값과 타임테이블 입력값에만 사용할 수 있습니다.</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' 함수 핸들은 논리형 스칼라를 반환해야 합니다.</entry>
+    <entry key="DataVariablesTableSubscript">유효하지 않은 ''DataVariables'' 값입니다.</entry>
+    <entry key="SamplePointsTimeTable">타임테이블 입력값에는 ''SamplePoints'' 파라미터를 사용할 수 없습니다.</entry>
+    <entry key="invalidWeighting">가중치 표시자는 논리형 스칼라여야 합니다.</entry>
+    <entry key="invalidRobust">견고한 가중치의 차원은 입력 배열의 차원과 일치해야 합니다.</entry>
+    <entry key="invalidSigma">Gaussian 메서드에 적용할 너비는 양의 스칼라여야 합니다.</entry>
+    <entry key="noSparseInternal">{0}은(는) 비희소(Full) 형식이어야 합니다.</entry>
+    <entry key="badArrayCodeGen">유효하지 않은 데이터형입니다. 첫 번째 인수는 숫자형 배열이나 논리형 배열 또는 table형이어야 합니다.</entry>
+    <entry key="complexInputWithoutWindow">코드 생성 시 복소수 데이터에 대해 윈도우 크기를 지정해야 합니다.</entry>
+    <entry key="methodMustBeConstant">코드를 생성하려면 메서드 인수는 상수여야 합니다.</entry>
+    <entry key="noWindowDatetimeSP">샘플 점이 datetime형인 경우 코드를 생성하려면 윈도우 크기를 지정해야 합니다.</entry>
+  </message>
+</rsccat>

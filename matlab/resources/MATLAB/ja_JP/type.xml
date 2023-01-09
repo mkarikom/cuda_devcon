@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="describeFile">''{0}{1}'' は {2} です。\n</entry>
+    <entry key="builtinFunction">''{0}'' は組み込み関数です。\n</entry>
+    <entry key="fileNotFound">ファイル ''{0}'' が見つかりません。</entry>
+    <entry key="invalidRange">無効な範囲引数です。</entry>
+    <entry key="PropInitialDimMismatchScalar">既定の値のサイズはスカラーでなければなりません。</entry>
+    <entry key="PropInitialDimMismatchScalarCompat">既定値のサイズは、指定された次元 {0} と一致しなければなりません。</entry>
+    <entry key="PropInitialDimMismatchNonScalar">既定値のサイズは、指定された次元 {0} と一致しているか、スカラーでなければなりません。</entry>
+    <entry key="PropInitialClsMismatch">既定値は {0} であるか、{0} に変換可能でなければなりません。</entry>
+    <entry key="DefaultPropertyValueRequired">クラス {0} は抽象クラスです。プロパティ {1} に既定値を指定してください。</entry>
+    <entry key="UnrecognizedClass">クラス {0} が認識されません。</entry>
+    <entry key="PropSetDimMismatchScalar">値のサイズはスカラーでなければなりません。</entry>
+    <entry key="PropSetDimMismatchScalarCompat">値のサイズは、指定された次元 {0} と一致しなければなりません。</entry>
+    <entry key="PropSetDimMismatchNonScalar">値のサイズは、指定された次元 {0} と一致しているか、スカラーでなければなりません。</entry>
+    <entry key="PropSetClsMismatch">値は {0} であるか、{0} に変換可能でなければなりません。</entry>
+    <entry key="PropShortEnumSetClsMismatch">値は次のいずれかでなければなりません:\n{0}</entry>
+    <entry key="PropLongEnumSetClsMismatchWithHyperlink">値は {0} であるか、{0} に変換可能でなければなりません。&lt;a href="matlab:enumeration(''{0}'');"&gt;有効なオプションのリスト&lt;/a&gt;を参照してください。</entry>
+    <entry key="PropLongEnumSetClsMismatchWithoutHyperlink">値は {0} であるか、{0} に変換可能でなければなりません。有効なオプションのリストを表示するには、「enumeration(''{0}'')」と入力します。</entry>
+    <entry key="UnableToConstructDefaultObject">クラス {0} の既定のオブジェクトを作成できません。</entry>
+    <entry key="ErrorCoercingImplicitDefaultValue">クラス ''{1}'' のプロパティ ''{0}'' の定義中にエラーが発生しました。{2}</entry>
+    <entry key="ErrorValidatingImplicitDefaultValue">クラス ''{1}'' のプロパティ ''{0}'' の暗黙的な既定値の使用中にエラーが発生しました。{2}</entry>
+    <entry key="ErrorValidatingImplicitDefaultValueWithPostamble">{2}\nクラス ''{1}'' のプロパティ ''{0}'' の暗黙的な既定値の使用中にエラーが発生しました。</entry>
+    <entry key="ErrorSettingProperty">クラス ''{1}'' のプロパティ ''{0}'' の設定中にエラーが発生しました。{2}</entry>
+    <entry key="ErrorSettingPropertyWithPostamble">{2}\nクラス ''{1}'' のプロパティ ''{0}'' の設定中にエラーが発生しました。</entry>
+    <entry key="IllegalExplicitDefaultValue">クラス ''{1}'' のプロパティ ''{0}'' の既定値の設定中にエラーが発生しました。{2}</entry>
+    <entry key="IllegalExplicitDefaultValueWithPostamble">{2}\nクラス ''{1}'' のプロパティ ''{0}'' の既定値の設定中にエラーが発生しました。</entry>
+    <entry key="PropTypeNotSupportedForSubclassConcrete">継承プロパティに対するサイズと検証関数の使用はサポートされていません。プロパティ ''{0}'' は、スーパークラス ''{1}'' では抽象プロパティとして定義されています。</entry>
+    <entry key="PropTypeAbstractOverride">スーパークラス ''{0}'' がプロパティ ''{2}'' の検証を定義するため、サブクラス ''{1}'' がプロパティ ''{2}'' を Abstract として明示的に定義することは許可されません。</entry>
+    <entry key="PropTypeMultipleAbstractValidations">クラス ''{0}'' とクラス ''{1}'' の両方が Abstract プロパティ ''{2}'' の検証を定義しています。プロパティ検証を継承する場合、1 つのスーパークラスのみがプロパティ ''{2}'' の検証を定義できます。</entry>
+    <entry key="PropTypeSuperPropConcrete">プロパティ ''{2}'' が、クラス ''{0}'' では Abstract として、クラス ''{1}'' では Abstract ではないとして定義されています。プロパティ検証を継承する場合、プロパティはそれを定義するすべてのスーパークラスで Abstract でなければならず、1 つのスーパークラスのみが検証を定義できます。</entry>
+    <entry key="UnsupportedClassForValidation">''{0}'' という名前のクラスは定義されていないか、またはプロパティ検証をサポートしていません。</entry>
+    <entry key="NonScalarValidation">最初の入力は 'meta.Validation' クラスのインスタンスでなければなりません。</entry>
+    <entry key="ClassLink">&lt;a href="matlab:helpPopup {0}"&gt;{0}&lt;/a&gt;</entry>
+  </message>
+</rsccat>

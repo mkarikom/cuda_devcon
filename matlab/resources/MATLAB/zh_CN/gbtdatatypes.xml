@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WrongFormat">数据格式错误。</entry>
+    <entry key="InputMustBeASingleCharacter">输入可以是空字符数组或包含一个字符的字符数组。</entry>
+    <entry key="UnableToCompareSingleCharacter">无法比较这两个字符</entry>
+  </message>
+</rsccat>

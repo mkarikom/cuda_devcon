@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidEdge">간선({0}, {1})이 존재하지 않습니다.</entry>
+    <entry key="NoOutput">입력 그래프가 수정되지 않았습니다. 수정된 그래프를 반환하도록 출력 인수를 사용하십시오.</entry>
+  </message>
+</rsccat>

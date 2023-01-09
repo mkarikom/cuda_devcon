@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonScalar">''AsArray''가 false일 경우 입력 구조체는 스칼라 구조체여야 합니다.</entry>
+    <entry key="NotVector">입력 구조체는 스칼라 구조체이거나 하나의 열 또는 하나의 행을 가진 구조체형 배열이어야 합니다.</entry>
+    <entry key="UnequalFieldLengths">입력 구조체가 스칼라이지만, 필드의 행 개수가 서로 다릅니다. 행이 한 개 있는 테이블을 만들려고 했다면 ''AsArray''를 true로 설정하십시오.</entry>
+    <entry key="NonconstantAsArray">''AsArray'' 파라미터 값은 상수여야 합니다.</entry>
+  </message>
+</rsccat>

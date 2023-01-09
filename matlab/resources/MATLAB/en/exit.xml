@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="DuplicateOption">The option ''{0}'' may only be passed once.</entry>
+    <entry key="NotSupported">The EXIT and QUIT functions are not supported when deploying an application with multiple MATLAB Runtime instances.</entry>
+    <entry key="UniqueOption">The option ''{0}'' cannot be combined with other options.</entry>
+    <entry key="UnknownOption">Unknown option ''{0}''</entry>
+  </message>
+</rsccat>

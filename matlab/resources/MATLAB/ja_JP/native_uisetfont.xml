@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TitleMustBeLastParam">title は uisetfont に渡される最後のパラメーターでなければなりません</entry>
+    <entry key="FontSelectionNotSupported">Font の選択は {0} オブジェクトに対してサポートされていませんが、Axes、text、uicontrol に対してのみサポートされています。</entry>
+    <entry key="InternalErrorInNMGetFont">nmGetFont の内部エラー (アサーションでなければなりません):\nオブジェクト タイプが不適切です (前回のテストをパスした後)</entry>
+    <entry key="BadArguments">2 番目の引数 (ダイアログのタイトル) は文字ベクトルでなければなりません</entry>
+  </message>
+</rsccat>

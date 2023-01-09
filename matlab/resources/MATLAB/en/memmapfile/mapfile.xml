@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed">
+  <message>
+    <entry key="cannotStatFile">Unable to obtain information for file ''{0}'': {1}.</entry>
+    <entry key="cannotMap">Cannot map file ''{0}'': {1}.</entry>
+    <entry key="usage">Usage: hMapfile(memstruct) where memstruct has fields: dataHandle, filename, writable: true/false, numElements, format: 'u/int8/logical'\n\t\t | 'u/int16/char'\n\t\t | 'u/int32'\n\t\t | 'u/int64'\n\t\t | 'single'\n\t\t | 'double',\n\t\t [optional: offset].</entry>
+    <entry key="exceededMaxSize">The total number of bytes mapped may not exceed {0}\n(including padding from Offset to the next lowest page boundary).</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">入力引数が不足しています。</entry>
+    <entry key="XYmismatch">X と Y の要素数は同じでなければなりません。</entry>
+    <entry key="InputDim">入力は 2 次元でなければなりません。</entry>
+    <entry key="ComplexInputs">複素数入力に対して p 値を計算できません。</entry>
+    <entry key="unmatchedPVPair">名前と値のペアが一致しません。</entry>
+    <entry key="invalidArgName">有効なパラメーターは ''alpha'' と ''rows'' です。</entry>
+    <entry key="invalidAlpha">''alpha'' パラメーターは、0 から 1 の範囲のスカラーでなければなりません。</entry>
+    <entry key="invalidRowChoice">有効な行の選択肢は、''all''、''complete''、および ''pairwise''です。</entry>
+  </message>
+</rsccat>

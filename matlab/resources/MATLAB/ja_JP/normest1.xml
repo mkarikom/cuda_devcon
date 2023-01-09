@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ANotMatrixOrFunction">A は、行列または関数でなければなりません。</entry>
+    <entry key="TOutOfRange">T は、1 と N = MAX(SIZE(A)) の間の整数でなければなりません。</entry>
+    <entry key="WrongColNum">X0 は {0} 列にする必要があります。</entry>
+    <entry key="Failure">関数 {0}\n は、以下のエラーで失敗しました:\n\n{1}</entry>
+    <entry key="MatrixSizeMismatchFlag">flag == ''{3}'' の場合、関数 {0} は {1,number,integer} x {2,number,integer} 行列を返さなければなりません。</entry>
+    <entry key="NegInt">flag == ''{1}'' の場合、関数 {0} は非負の整数を返さなければなりません。</entry>
+    <entry key="Not0or1">flag == ''{1}'' の場合、関数 {0} は 0 または 1 を返さなければなりません。</entry>
+    <entry key="NoIterationNormComputedExactly">反復なし - ノルムは正確に計算されました。\n</entry>
+    <entry key="TerminateIterationLimitReachedn">*終了: 反復制限に達しました。\n</entry>
+    <entry key="TerminateEstimateNotIncreased">*終了: 推定は増加されていません。\n</entry>
+    <entry key="TerminateRepeatedSignMatrix">*終了: 符号行列が重複しています。\n</entry>
+    <entry key="TerminatePowerMethodConvergenceTest">*終了: メソッドの収束テストを起動します。\n</entry>
+    <entry key="TerminateRepeatedUnitVectors">*終了: 単位ベクトルが重複しています。\n</entry>
+    <entry key="ParallelCols">並列の列: {0}\n</entry>
+    <entry key="RepeatedUnitVectors">重複した単位ベクトル: {0}\n</entry>
+    <entry key="UnduplicateRpt">非重複 rpt = {0}\n</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ArgNameValueMismatch">Arguments must occur in name-value pairs.</entry>
+    <entry key="NoPropName">Expected argument {0,number,integer} to be a string or a character vector.</entry>
+    <entry key="InvalidPropName">Unrecognized property name ''{0}''.</entry>
+    <entry key="NoValueForProp">Expected value for property ''{0}''.</entry>
+  <!--Resource entries for toolbox/matlab/funfun-->
+    <entry key="NoPropNameOrStruct">Expected argument {0,number,integer} to be a string, a character vector, or an options structure created with ODESET.</entry>
+    <entry key="AmbiguousPropName">Ambiguous property name ''{0}'' ({1}).</entry>
+  </message>
+</rsccat>

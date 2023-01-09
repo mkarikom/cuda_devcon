@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BreakpointSuppressed">在文件 {0} 中的第 {1,number,integer} 行遇到的断点已被 {2} 隐藏。</entry>
+    <entry key="dbstopForNonMfunction">MATLAB 调试器只能在 MATLAB 代码文件中停止，"{0}" 不是一个 MATLAB 代码文件。\n         调试器将恰好在调用 "{1}" 之前的那个点处停止。</entry>
+    <entry key="NoDebugModeAtCommandPrompt">仅在运行的 MATLAB 代码文件中支持进入调试模式。</entry>
+    <entry key="EndFunc">函数 {0} 末尾。 </entry>
+    <entry key="EndScript">脚本 {0} 末尾。 </entry>
+    <entry key="NanInfBreakpointHit">已在 {0} 中的第 {1,number,integer} 行定位 NaN/Inf 断点。</entry>
+    <entry key="InWorkspace">在属于 {0} 的工作区中 </entry>
+    <entry key="SkippingFrame">{0} 当前未处于可调试状态。将跳过帧。</entry>
+    <entry key="BaseWorkspace">在基础工作区中。 </entry>
+    <entry key="InvalidDbstepPosition"> 此行中的位置 {0} 不是有效的步入位置。</entry>
+    <entry key="InvalidStepLocation">Line {0,number,integer} column {1,number,integer} is not a valid position to step into on this line.</entry>
+    <entry key="ProblemSteppingIntoLocation">尝试步入时出现问题。</entry>
+    <entry key="LineNumber">第 {0,number,integer} 行</entry>
+    <entry key="AfterLineNumber">在第 {0,number,integer} 行后</entry>
+    <entry key="CurrentStackFrameLocation">&gt; 位置：{0}</entry>
+    <entry key="StackFrameLocation">  位置: {0}</entry>
+    <entry key="InvalidIntegerInput">值必须为小于 2^31 的正整数标量。</entry>
+    <entry key="ReadOnlyWorkspaceViolation">无法添加或修改变量。当前工作区对于函数参数验证为只读。</entry>
+  </message>
+</rsccat>

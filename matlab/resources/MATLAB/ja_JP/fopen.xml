@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">最初の入力はファイル名かファイル識別子でなければなりません。</entry>
+    <entry key="NotScalarIntValued">ファイル識別子は、double 型の整数値のスカラーでなければなりません。</entry>
+    <entry key="EncodingString">エンコードが無効です。</entry>
+    <entry key="IncorrectFileMode">fopen のファイル モードに r、w、a、+、b、A、W、または t 以外のモードを含むことはできません。</entry>
+    <entry key="ConflictingExclusiveFileModes">fopen のファイル モードには、厳密に ''r''、''w''、または ''a'' のいずれかのモードを含めなければなりません。</entry>
+    <entry key="ConflictingExclusiveFileModeModifiers">fopen のファイル モードには、''b'' または ''t'' の修飾子を 1 つのみ含めることができます。</entry>
+    <entry key="InvalidCharacter">ファイル システムのエンコードに含まれていない文字がファイル名に含まれています。\n処理によっては予期したとおりに機能しない場合があります。</entry>
+    <entry key="InvalidFileLocation">ファイルが見つかりません。ファイルが存在し、パスが有効であることを確認してください。</entry>
+    <entry key="SizeTooLage">Data size too large for reading. The maximum allowed size is 2^29 bytes.</entry>
+    <entry key="HDFSWriteSeekNotSupported">HDFS の場所に書き込むときに、fseek と frewind での操作はサポートされません。</entry>
+  </message>
+</rsccat>

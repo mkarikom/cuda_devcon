@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="scalarLimits">The limits of integration must be scalars.</entry>
+    <entry key="funNotVectorized">The integrand function must return an output vector of the same length as the input vector.</entry>
+    <entry key="MinStepSize">Minimum step size reached; singularity possible.</entry>
+    <entry key="MaxFcnCount">Maximum function count exceeded; singularity likely.</entry>
+    <entry key="ImproperFcnValue">Infinite or Not-a-Number function value encountered.</entry>
+  </message>
+</rsccat>

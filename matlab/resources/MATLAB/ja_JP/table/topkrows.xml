@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedMode">並べ替えの方向は ''descend'' または ''ascend'' でなければなりません</entry>
+    <entry key="WrongLengthMode">並べ替えの方向は、1 つの方向か、並べ替え変数ごとに 1 つの方向を指定しなければなりません。</entry>
+    <entry key="EmptyRowNames">入力 table に行名が含まれていないため、要求された行数を並べ替えなしで返します。</entry>
+    <entry key="BadNumericVarIndices">数値変数のインデックスは正の整数でなければなりません。</entry>
+    <entry key="NDVar">並べ替え変数 ''{0}'' は 2 より大きい次元をもちます。</entry>
+    <entry key="SortOnVarFailed">''{1}'' 型の変数 ''{0}'' を並べ替えることができません。</entry>
+    <entry key="GenCellNotSupported">セル配列の並べ替え変数は、文字ベクトルを含んでいなければなりません。</entry>
+    <entry key="InvalidK">返す行数は非負の整数でなければなりません。</entry>
+  </message>
+</rsccat>

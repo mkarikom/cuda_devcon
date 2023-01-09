@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="msgcatNotInitialized">メッセージ カタログが初期化されていないため、操作に失敗しました。</entry>
+    <entry key="msgcatInvalidResourcePath">パス "{0}" は、有効なメッセージ カタログ リソースのパスではありません</entry>
+    <entry key="msgcatInternalError">内部メッセージ カタログ エラーが発生しました: {0}</entry>
+    <entry key="msgcatInvalidPathSupplied">指定されたパスが無効です。 : {0}</entry>
+    <entry key="msgcatPathRemovalUnknownError">内部パスの削除エラーが発生しました: {0} パス: {1} </entry>
+    <entry key="msgcatResPathNotFound">リソース パスが見つからないか、setAdditionalResourceLocation から追加されませんでした。: {0}</entry>
+    <entry key="msgcatResDirNotPresent">パスに "resources" ディレクトリが含まれていません。: {0}</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NdSparseOutput">N-D sparse output arrays are not supported.</entry>
+    <entry key="nonNumericReplications">Replication factors must be numeric.</entry>
+    <entry key="complexReplications">Complex replication factors are not supported.</entry>
+    <entry key="invalidReplications">Replication factors must be nonnegative integer-valued scalars or vectors.</entry>
+    <entry key="mismatchedReplicationsVector">In repelem(v, N), N must be a scalar or a vector of length equal to v.</entry>
+    <entry key="mismatchedReplications">In repelem(A, N1, N2, ..., Nn), Nj must be a scalar or a vector of length size(A, j).</entry>
+    <entry key="twoInputNonVector">With two inputs, the first argument must be a vector. Use three-input syntax for matrices.</entry>
+  </message>
+</rsccat>

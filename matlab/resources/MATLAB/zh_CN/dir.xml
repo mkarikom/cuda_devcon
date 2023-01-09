@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="filesFoundIn">在以下位置找到文件: {0}</entry>
+    <entry key="filesFoundInCurrentFolder">在当前文件夹中找到文件:</entry>
+    <entry key="fileOrDirNotFound">未找到 ''{0}''。</entry>
+    <entry key="invalidGlob">与 ** 通配符相邻的字符必须为文件分隔符。</entry>
+    <entry key="locationEmpty">位置为空。</entry>
+    <entry key="noPatternMatches">模式 ''{0}'' 没有匹配项。</entry>
+    <entry key="pathnameTooLong">路径名 ''{0}'' 太长。</entry>
+    <entry key="SuccessiveGlobs">仅用文件分隔符分隔时，不能多次使用递归模式 ''**''。</entry>
+  </message>
+</rsccat>

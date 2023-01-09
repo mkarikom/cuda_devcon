@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNameValueMismatch">後続の入力引数は名前と値のペアでなければなりません。</entry>
+    <entry key="BinCountsBinEdgesSizeMismatch">''BinCountsMode'' が ''manual'' の場合、''BinEdges'' の長さは ''BinCounts'' + 1 でなければなりません。</entry>
+    <entry key="BinCountsInvalidSize">''BinCounts'' は、''NumBins''、''BinWidth''、''BinMethod'' または ''BinLimits'' のいずれかが設定されている場合は設定できず、length(BinEdges)-1 に等しい長さでなければなりません。</entry>
+    <entry key="DatetimeBinEdgesClass">{0} データの場合、ビンのエッジは {0} でなければなりません。</entry>
+    <entry key="DatetimeBinLimitsClass">{0} データの場合、ビンの範囲は {0} でなければなりません。</entry>
+    <entry key="DatetimeNormalization">''countdensity'' と ''pdf'' の正規化は datetime データまたは duration データではサポートされていません。</entry>
+    <entry key="DatetimeBinMethod">''integers'' ビン メソッドは datetime データまたは duration データではサポートされていません。</entry>
+    <entry key="DurationBinMethod">''{0}'' ビン メソッドは duration データではサポートされていません。</entry>
+    <entry key="EmptyBinCountsManualMode">''BinCountsMode'' が ''manual'' に設定されている場合、''BinCounts'' が設定されなければなりません。</entry>
+    <entry key="EmptyBinLimitsManualMode">''BinLimitsMode'' が ''manual'' に設定されている場合、''BinEdges'' または ''BinLimits'' が設定されなければなりません。</entry>
+    <entry key="EmptyOrScalarBinEdges">BinEdges は 2 以上の長さのベクトルでなければなりません。</entry>
+    <entry key="FixedDataClass">データを変更する場合、古い値と新しい値はともに数値であるか、同じクラスをもたなければなりません。</entry>
+    <entry key="InvalidStairsFaceColor">''DisplayStyle'' が ''stairs'' に設定されている場合、FaceColor は ''none'' でなければなりません。</entry>
+    <entry key="InvalidBinMethod">BinMethod は ''manual'' には設定できません。</entry>
+    <entry key="InvalidBinWidth">ビンの幅は正で有限のスカラーでなければなりません。</entry>
+    <entry key="InvalidColor">''{0}'' 入力は有効な色ではありません。</entry>
+    <entry key="InvalidDatetimeEdges">データが datetime 配列の場合、ビンのエッジは少なくとも 2 要素をもつ datetime ベクトルでなければなりません。</entry>
+    <entry key="InvalidDatetimeOrDurationBinLimits">データが {0} の場合、ビンの範囲は、並べ替えられた有限な 2 要素 {0} ベクトルでなければなりません。</entry>
+    <entry key="InvalidDatetimeBinWidth">datetime データの場合、ビンの幅はスカラーの duration または calendarDuration でなければなりません。</entry>
+    <entry key="InvalidDurationBinWidth">duration データの場合、ビンの幅はスカラーの duration でなければなりません。</entry>
+    <entry key="InvalidDurationEdges">データが duration 配列の場合、ビンのエッジは少なくとも 2 要素をもつ duration ベクトルでなければなりません。</entry>
+    <entry key="InvalidMixedBinInputs">''NumBins''、''BinWidth''、''BinMethod'' または ''BinLimits'' のいずれも、''BinEdges'' 入力の後ろに続けることはできません。</entry>
+    <entry key="ManualEdges">ビンのカウント数が {1,number,integer} 要素をもつ場合、ビンのエッジは {0,number,integer} 要素の行ベクトルでなければなりません。</entry>
+    <entry key="MixedDataBinCounts">X 入力が空でない場合、BinCounts は設定できません。</entry>
+    <entry key="NonEmptyBinCountsAutoMode">''BinCountsMode'' が ''auto'' に設定されている場合、''BinCounts'' は設定できません。</entry>
+    <entry key="NonEmptyBinLimitsAutoMode">''BinLimitsMode'' が ''auto'' に設定されている場合、''BinEdges'' および ''BinLimits'' は設定できません。</entry>
+    <entry key="NumericBinEdgesClass">数値データの場合、ビンのエッジは数値でなければなりません。</entry>
+    <entry key="NumericBinWidthClass">数値データの場合、ビンの幅は数値でなければなりません。</entry>
+    <entry key="NumericBinLimitsClass">数値データの場合、ビンの範囲は数値でなければなりません。</entry>
+    <entry key="NumericBinMethod">数値データの場合、ビン メソッドは ''auto''、''scott''、''fd''、''integers''、''sqrt''、''sturges'' のいずれかでなければなりません。</entry>
+    <entry key="OrientationMixedType">座標軸にヒストグラムでないオブジェクトがある場合、datetime データまたは duration データでは方向はサポートされません。</entry>
+    <entry key="OrientationYYAxes">2 本の y 軸に datetime データまたは duration データをもつヒストグラムでは、''Orientation'' の値の変更はサポートされていません。</entry>
+    <entry key="ReadOnlyPropertyManualBinCounts">BinCountsMode が ''manual'' の場合、{0} は設定できません。</entry>
+    <entry key="UnsortedDatetimeEdges">ビンのエッジは、NaT を含まない、並べ替えられた datetime ベクトルでなければなりません。</entry>
+    <entry key="UnsortedDurationEdges">ビンのエッジは、NaN を含まない、並べ替えられた duration ベクトルでなければなりません。</entry>
+    <entry key="UnsupportedBinMethod">''{0}'' は、{1} データでサポートされているビン メソッドではありません。</entry>
+    <entry key="UnsupportedCategories">X 入力が数値または論理値の場合、''Categories'' はサポートされません。</entry>
+    <entry key="UnsupportedDatetimeOrDurationNormalization">''{0}'' 正規化オプションは datetime データまたは duration データではサポートされません。</entry>
+    <entry key="UnsupportedMethodManualBinCounts">BinCountsMode が ''manual'' の場合、{0} はサポートされません。</entry>
+    <entry key="UnsupportedOrientationInPolarCoordinates">水平方向は、極座標のヒストグラムではサポートされていません。</entry>
+    <entry key="BinRangePolar">'BinEdges' の値が、極座標のヒストグラムでは無効です。最大値と最小値の差異が 2*pi を超えないようにしてください。</entry>
+    <entry key="BinLimitsRangePolar">'BinLimits' の値が、極座標のヒストグラムでは無効です。値の差が 2*pi 以下の 2 要素ベクトルを指定してください。</entry>
+    <entry key="OrientationLabel">ボックス チャートの方向</entry>
+    <entry key="BoxWidthLabel">個々のボックスの相対的な幅</entry>
+    <entry key="JitterOutliersLabel">外れ値マーカー変位</entry>
+    <entry key="NotchLabel">中央値比較表示</entry>
+    <entry key="NumBinsLabel">ビン数</entry>
+    <entry key="BinMethodLabel">ビン化アルゴリズム</entry>
+    <entry key="BinWidthLabel">ビンの幅</entry>
+    <entry key="DisplayStyleLabel">ヒストグラムの表示スタイル</entry>
+    <entry key="ShowOthersLabel">非表示カテゴリのデータの概要表示切り替え</entry>
+    <entry key="BarOrientationLabel">バーの方向</entry>
+    <entry key="BinEdges">ビンのエッジ</entry>
+    <entry key="Value">値</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed">
+  <message>
+    <entry key="argumentNotFilename">The filename argument must be a non-empty string or character vector.</entry>
+    <entry key="notAScalarVariableSubset">Third argument must be a scalar VariableSubset.</entry>
+    <entry key="NotAMATFile">Unable to read MAT-file {0}: not a binary MAT-file.\n</entry>
+    <entry key="StructSourcesAreExclusive">Saving from multiple structures is not supported.</entry>
+    <entry key="structArgNotScalarStruct">The argument to -STRUCT must be the name of a scalar structure variable.</entry>
+    <entry key="unsupportedTypeForAsciiFile">Attempt to write an unsupported data type to an ASCII file.\n\tVariable ''{0}'' not written to file.</entry>
+    <entry key="sparseUnsupportedForAsciiFile">Saving sparse arrays to an ASCII file is unsupported.\n\tVariable ''{0}'' not written to file.</entry>
+    <entry key="imaginaryDataIgnoredForAsciiFile">Imaginary part of complex variable ''{0}'' not saved to ASCII file.</entry>
+    <entry key="cantWriteFile">Unable to write file ''{0}''.</entry>
+    <entry key="errorClosingFile">Unable to save file ''{0}''. The file could not be closed, and might now be corrupt.</entry>
+    <entry key="unableToWriteToMatFile">Unable to write to file ''{0}'' because it appears to be corrupt.</entry>
+    <entry key="unableToWriteToVFSMatFile">Unable to write to MAT-file {0}.</entry>
+    <entry key="unableToWriteToVFSMatFileAppend">Unable to write to MAT-file {0}. If it is a Version 7 or earlier MAT-file, consider saving your data afresh using the '-v7.3' option to access it from a remote location.</entry>
+    <entry key="sizeTooBigForMATFile">Variable ''{0}'' was not saved. For variables larger than 2GB use MAT-file version 7.3 or later.</entry>
+    <entry key="nameTooLongForV4MATFile">Variable ''{0}'' was not saved. For names exceeding {1,number,integer} characters use MAT-file version 6 or later.</entry>
+    <entry key="illegalClassForV4MATFile">Variable ''{0}'' was not saved. For variable of type ''{1}'' use MAT-file version 6 or later.</entry>
+    <entry key="illegalDataForMATFile">Variable ''{0}'' was not saved. Variables of type ''{1}'' (or one of its members) are not supported for this MAT-file version. Use a newer MAT-file version.</entry>
+    <entry key="illegalDataForMATFileToStdio">Unable to save variable ''{0}'' of class ''{1}'' to STDIO.</entry>
+    <entry key="unableToReadMatFileFromStdio">Unable to read MAT from STDIO.  Unknown error.</entry>
+    <entry key="sizeMismatch">The size of the right hand side did not match the size of the indexing on the left hand side.</entry>
+    <entry key="patternNotMatched">No variable matched the pattern ''{0}''.</entry>
+    <entry key="varNotFound">Variable ''{0}'' not found.</entry>
+    <entry key="invalidVarName">''{0}'' is not a valid variable name.</entry>
+    <entry key="patternNotMatchedInStruct">The variable ''{0}'' does not contain a field matching the pattern ''{1}''.</entry>
+    <entry key="fieldNotFoundInStruct">The variable ''{0}'' does not contain a field named ''{1}''.</entry>
+    <entry key="illegalStructureField">The structure field ''{0}'' is not a valid structure field.</entry>
+    <entry key="VersionsAreExclusive">The -V{0} option may not be used in combination with the -V{1} option.</entry>
+    <entry key="missingStructArg">The -STRUCT option must be followed by the name of a scalar structure variable.</entry>
+    <entry key="missingFromStructArg">The -FROMSTRUCT option must be followed by a scalar structure variable.</entry>
+    <entry key="filenameIsADirectory">''{0}'' is a folder name. The FILENAME must be a valid file name. </entry>
+    <entry key="noParentDir">Cannot create ''{0}'' because ''{1}'' does not exist.</entry>
+    <entry key="classMismatch">The class and attributes of the right hand side could not be converted into the type of the variable in the file.</entry>
+    <entry key="cannotSaveEmptySubset">Cannot save variable ''{0}'' because the indexing subset is empty.</entry>
+    <entry key="cannotGrowDimensions">Variable ''{0}'' has {1,number,integer} dimensions in the file, this does not match the {2,number,integer} dimensions in the indexing subscripts.</entry>
+    <entry key="cannotSaveEmptyVariable">Cannot save an empty array in variable ''{0}''.</entry>
+    <entry key="tooManyOpen">Unable to write file {0}: too many files open.</entry>
+    <entry key="permissionDenied">Unable to write file {0}: permission denied.</entry>
+    <entry key="couldNotWriteFile">Unable to write file {0}: {1}.</entry>
+    <entry key="couldNotGrow">Could not grow variable in file.</entry>
+    <entry key="SubsetNotSupportedFileType">Cannot save partial array to file Pre-V7.3 format. Consider using -v7.3 to save your data.</entry>
+    <entry key="savingTo">\nSaving to: {0}\n\n</entry>
+    <entry key="versionWithASCII">Ignoring the version specified. The version flag applies to MAT-files only.</entry>
+    <entry key="versionWithAppend">Ignoring the version specified. The version flag is not required when using the '-append' flag.</entry>
+    <entry key="NocompressionNotSupported">Nocompression not supported for this MAT-file version. Use MAT-file  v7(default) or v7.3 instead.</entry>
+    <entry key="UnsupportedSparseAssignment">In a MAT-file object, assigning values to a subset of a sparse matrix is not supported.</entry>
+    <entry key="UnsupportedMATFileFormatForVFS">Saving or appending to Version 7 and earlier MAT-files in a remote location is not supported. Consider saving your data using the '-v7.3' option.</entry>
+    <entry key="UnsupportedOperationASCIIForVFS">Saving or appending to ASCII files in a remote location is not supported. Consider saving your data in Version 7.3 MAT-files.</entry>
+    <entry key="UnsupportedFileExtensionForVFS">Saving or appending to MAT-files in a remote location with any filename extension other than '.mat' is not supported.</entry>
+  </message>
+</rsccat>

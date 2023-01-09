@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DuplicateXValue">XData 값은 고유해야 합니다.</entry>
+    <entry key="lengthYDoesNotMatchNumRowsZ">Y의 길이는 Z의 행 개수와 일치해야 합니다.</entry>
+    <entry key="lengthZDoesNotMatchNumRowsY">Z의 길이는 Y의 행 개수와 일치해야 합니다.</entry>
+    <entry key="YAndZLengthMismatch">Y는 Z와 길이가 동일해야 합니다.</entry>
+    <entry key="ZAndYLengthMismatch">Z는 Y와 길이가 동일해야 합니다.</entry>
+    <entry key="YNotAVector">Y는 벡터여야 합니다.</entry>
+    <entry key="ZNotAVector">Z는 벡터여야 합니다.</entry>
+    <entry key="NoDataInputs">Y 데이터 또는 X, Y 데이터를 첫 번째 인수로 제공해야 합니다.</entry>
+    <entry key="UnrecognizedOption">인식할 수 없는 옵션임: {0}.</entry>
+    <entry key="NonNumericHorizontalYYAxis">막대 차트의 여러 y축에 datetime형 값, duration형 값 또는 categorical형 값이 있을 때는 ''Horizontal'' 속성을 변경할 수 없습니다.</entry>
+    <entry key="NonNumericHorizontalType">막대 차트에 datetime형 값, duration형 값 또는 categorical형 값이 있고, 좌표축에 다양한 유형의 차트가 포함되어 있을 때는 ''Horizontal'' 속성을 변경할 수 없습니다.</entry>
+    <entry key="InvalidCData">CData는 RGB 3색, 스칼라, X와 같은 길이의 M×1 벡터 또는 M×3 행렬이어야 합니다.</entry>
+    <entry key="Horizontal">'Horizontal' 속성은 barh에 대한 입력값으로 사용할 수 없습니다. bar를 대신 사용하십시오.</entry>
+    <entry key="InvalidStringOption">옵션은 문자형 벡터, string형 스칼라 배열 또는 문자형 벡터를 포함한 스칼라 셀형 배열이어야 합니다.</entry>
+    <entry key="XDataSizeMismatch">XData는 YData와 크기가 동일해야 합니다.</entry>
+    <entry key="HistIgnoredInputs">''{0}'' 다음에 나오는 인수는 무시되었습니다.</entry>
+    <entry key="BarLayoutLabel">막대의 배열</entry>
+    <entry key="HorizontalLabel">가로 막대 차트</entry>
+  </message>
+</rsccat>

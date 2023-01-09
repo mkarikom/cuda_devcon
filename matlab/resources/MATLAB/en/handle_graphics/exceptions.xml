@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="Property">Error in value of property.</entry>
+    <entry key="SceneNode">Error in state of SceneNode.</entry>
+    <entry key="NotASceneNode">Object is not a valid graphics object.</entry>
+    <entry key="InvalidState">Update traversal encountered invalid scene tree.</entry>
+    <entry key="SelfDeletedNode">Node or its canvas deleted during node update.</entry>
+    <entry key="PatchColorIndices">Invalid indices in patch color or alpha.</entry>
+    <entry key="NodeDeletedAfterGetHints">Node deleted during getHints.</entry>
+    <entry key="NodeDeletedAfterGetExtents">Node deleted while getting data extents.</entry>
+    <entry key="DataObjectDeletedInPrepTraversal">A DataObject was deleted during the "Prep" Traversal.</entry>
+    <entry key="EditSessionClosedWhenNotOpen">We tried to close an edit session when none was open.</entry>
+    <entry key="InvalidCookie">A cookie was not found on register or unregister.</entry>
+    <entry key="UserNodeDeleted">{0} was destroyed while it was being updated.</entry>
+    <entry key="NotImplemented">This feature is not yet implemented.</entry>
+    <entry key="IncompatibleCameraProperties">The Camera properties do not form a valid transformation matrix.</entry>
+    <entry key="TransformFailed">DataSpace or ColorSpace transform method failed.</entry>
+    <entry key="InvalidDependency">Invalid dependency name.</entry>
+    <entry key="EventAlreadyRegistered">Attempt to register the same event type twice.</entry>
+    <entry key="EventNotFound">Unserialize method could not be found for event type.</entry>
+    <entry key="InvalidCameraParameters">A valid camera could not be created with the supplied property values.</entry>
+    <entry key="BadLimits">Limits are too large.</entry>
+    <entry key="ChooseTickFailed">Tick value choosing failed for unknown reason.</entry>
+    <entry key="UpdateFailed">Update failed for unknown reason.</entry>
+    <entry key="ExceedingNumberOfLightSources">Exceeded the maximum number (8) of light sources.</entry>
+    <entry key="IncompleteTree">Attempt to get an UpdateState for a node in an incomplete tree.</entry>
+    <entry key="InvalidBinding">Invalid data binding.</entry>
+    <entry key="InvalidColorType">Invalid color type.</entry>
+    <entry key="InvalidToolbarProperty">Error setting property ''Toolbar'' of class 'Axes':\nValue must be ''matlab.ui.controls.AxesToolbar''.</entry>
+    <entry key="InvalidPrimitiveColorBinding">Can't use primitive color binding with strip geometry.</entry>
+    <entry key="InvalidToken">Attempted to check in a token that hadn't been checked out.</entry>
+    <entry key="TokenNotReady">Attempted to retrieve event data from a token for process that isn't complete yet.</entry>
+    <entry key="OutOfOrderRendering">Rendering stages occurred out of order.</entry>
+    <entry key="UserBreak">Operation terminated by the user.</entry>
+    <entry key="HandleGraphicsException" translate="false">{0}</entry>
+    <entry key="LightingNotSupported">Lighting is not supported.</entry>
+    <entry key="WideLinesNotSupported">LineWidth of more than {0} is not supported.</entry>
+    <entry key="ThreeDNotSupported">3D scene is not supported.</entry>
+    <entry key="TextureNotSupported">Image or Texture is not supported.</entry>
+    <entry key="TextBackGroundNotSupported">Text background is not supported.</entry>
+    <entry key="TextEdgeNotSupported">Text edge is not supported.</entry>
+    <entry key="LaTexNotSupported">LaTeX interpreter is not supported.</entry>
+  </message>
+</rsccat>

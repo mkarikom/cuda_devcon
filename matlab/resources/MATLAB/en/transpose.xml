@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NDArray">TRANSPOSE does not support N-D arrays. Use PAGETRANSPOSE/PAGECTRANSPOSE to transpose pages or PERMUTE to reorder dimensions of N-D arrays.</entry>
+    <entry key="intType">Complex conjugate transpose not supported on integer data types.</entry>
+    <entry key="notDefinedOnArrayWithOpaqueIndexing">Transpose on an array with opaque indexing is not defined.</entry>
+    <!--Resource entries for src/matrix-->
+    <entry key="notImplemented">Transpose on ND array is not defined.</entry>
+  </message>
+</rsccat>

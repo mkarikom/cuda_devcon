@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WrongFormat">데이터형이 잘못되었습니다.</entry>
+    <entry key="InputMustBeASingleCharacter">입력값은 빈 문자형 배열이거나 하나의 문자만 포함하는 문자형 배열일 수 있습니다.</entry>
+    <entry key="UnableToCompareSingleCharacter">두 문자를 비교할 수 없음</entry>
+  </message>
+</rsccat>

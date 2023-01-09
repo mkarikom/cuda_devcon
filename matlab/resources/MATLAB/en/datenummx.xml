@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="TooManyOutputs">Too many output arguments.</entry>
+    <entry key="InvalidNumberOfInputs">Expect one, three or six input arguments.</entry>
+    <entry key="NonDoubleInput">The datenummx function only accepts double arrays.</entry>
+    <entry key="InvalidInputSize">Single argument should have three or six columns.</entry>
+  </message>
+</rsccat>

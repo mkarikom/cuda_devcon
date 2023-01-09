@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2016-2020 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      	<entry key="Tool_plot_Label" translate="false" note="TranslateFalseBatch;">plot</entry>
+      	<entry key="Tool_plot_Description">Creates a 2-D line plot of the data in Y versus the corresponding values in X</entry>
+      	<entry key="Tool_plot_Rule">A matrix/vector/timeseries, or 2 vectors/matrices of compatible size, with an optional linespec</entry>
+		<entry key="Tool_plot_multiseries_Label">Plot as multiple series</entry>
+		<entry key="Tool_plot_multiseries_Description">Plots each series on the same plot</entry>
+		<entry key="Tool_plot_multiseries_Rule">Multiple vectors</entry>
+		<entry key="Tool_plot_multiseries_ShortDescription">Plot as multiple series</entry>
+		<entry key="Tool_plot_multiseriesfirst_Label">Plot as multiple series vs. first input</entry>
+		<entry key="Tool_plot_multiseriesfirst_Description">Plots the second and later series against the first series on the same plot</entry>
+		<entry key="Tool_plot_multiseriesfirst_Rule">3 or more vectors of the same size</entry>
+		<entry key="Tool_plot_multiseriesfirst_ShortDescription">Plot as multiple series vs. first input</entry>
+		<entry key="Tool_plotyy_Label" translate="false" note="TranslateFalseBatch;">plotyy</entry>
+		<entry key="Tool_plotyy_Description">Graphs with y tick labels on the left and right</entry>
+		<entry key="Tool_plotyy_Rule">4 vectors all of the same length of x1,y1,x2,y2. Y values can also be matrices.</entry>
+		<entry key="Tool_semilogx_Label" translate="false" note="TranslateFalseBatch;">semilogx</entry>
+		<entry key="Tool_semilogx_Description">Creates x- and y-coordinates using a base 10 logarithmic scale on the x-axis and a linear scale on the y-axis</entry>
+		<entry key="Tool_semilogx_Rule">A vector/matrix, or 2 vectors/matrices of compatible size, with an optional linespec parameter</entry>
+		<entry key="Tool_semilogy_Label" translate="false" note="TranslateFalseBatch;">semilogy</entry>
+		<entry key="Tool_semilogy_Description">Creates x- and y-coordinates using a linear scale on the x-axis and a base 10 logarithmic scale on the y-axis</entry>
+		<entry key="Tool_semilogy_Rule">A vector/matrix, or 2 vectors/matrices of compatible size, with an optional linespec parameter</entry>
+		<entry key="Tool_loglog_Label" translate="false" note="TranslateFalseBatch;">loglog</entry>
+		<entry key="Tool_loglog_Description">Creates x- and y-coordinates using a base 10 logarithmic scale on the x-axis and the y-axis</entry>
+		<entry key="Tool_loglog_Rule">A vector/matrix, or 2 vectors/matrices of compatible size, with an optional linespec parameter</entry>
+		<entry key="Tool_area_Label" translate="false" note="TranslateFalseBatch;">area</entry>
+		<entry key="Tool_area_Description">Creates filled area plot for the values in Y against the x-coordinates X and fills the areas between the curves</entry>
+		<entry key="Tool_area_Rule">A matrix or vector, or 2 matrices or vectors of compatible size with an optional scalar base value</entry>
+		<entry key="Tool_errorbar_Label" translate="false" note="TranslateFalseBatch;">errorbar</entry>
+		<entry key="Tool_errorbar_Description">Creates a line plot of the data in y and draws a vertical error bar at each data point</entry>
+		<entry key="Tool_errorbar_Rule">2, 3, 4, or 6 vectors or matrices all of the same size</entry>
+		<entry key="Tool_errorbarhorz_Label" note="errorbar is a function name">errorbar (horizontal)</entry>
+		<entry key="Tool_errorbarhorz_Description">Horizontal error bar plot</entry>
+		<entry key="Tool_errorbarhorz_Rule">2 to 4 vectors or matrices all of the same size</entry>
+		<entry key="Tool_errorbarhorz_ShortDescription">errorbar (horizontal)</entry>
+		<entry key="Tool_plot3_Label" translate="false" note="TranslateFalseBatch;">plot3</entry>
+		<entry key="Tool_plot3_Description">3-D line graph using linear axes</entry>
+		<entry key="Tool_plot3_Rule">2 to 4 vectors or matrices all of the same size</entry>
+		<entry key="Tool_comet_Label" translate="false" note="TranslateFalseBatch;">comet</entry>
+		<entry key="Tool_comet_Description">Creates a comet plot of the data specified in y versus the index of each value</entry>
+		<entry key="Tool_comet_Rule">3 vectors/matrices of compatible size with an optional linespec</entry>
+
+		<entry key="Tool_stem_Label" translate="false" note="TranslateFalseBatch;">stem</entry>
+		<entry key="Tool_stem_Description">Discrete sequence or 'stem' plot to display the data sequence, Y, as stems that extends from a baseline along the x-axis</entry>
+		<entry key="Tool_stem_Rule">A matrix/vector or 2 vectors/matrices of compatible size, with optional 'fill', followed by an optional linespec</entry>
+		<entry key="Tool_stairs_Label" translate="false" note="TranslateFalseBatch;">stairs</entry>
+		<entry key="Tool_stairs_Description">Creates a stairstep graph of the elements in Y</entry>
+		<entry key="Tool_stairs_Rule">A matrix/vector, or 2 vectors/matrices of compatible size, with an optional linespec</entry>
+		<entry key="Tool_stem3_Label" translate="false" note="TranslateFalseBatch;">stem3</entry>
+		<entry key="Tool_stem3_Description">3-D stem plot to display discrete sequence data</entry>
+		<entry key="Tool_stem3_Rule">3 vectors or matrices of compatible size with optional 'fill' followed by an optional linespec</entry>
+
+		<entry key="Tool_bar_Label" translate="false" note="TranslateFalseBatch;">bar</entry>
+		<entry key="Tool_bar_Description">Creates a bar graph with one bar for each element in y</entry>
+		<entry key="Tool_bar_Rule">A single matrix, or a vector of X values and matrix of Y values of compatible size. Either choice with an optional scalar bar width</entry>
+		<entry key="Tool_barh_Label" translate="false" note="TranslateFalseBatch;">barh</entry>
+		<entry key="Tool_barh_Description">Horizontal bar graph</entry>
+		<entry key="Tool_barh_Rule">A matrix, or a vector of X values and matrix of Y values of compatible size, with an optional scalar bar width</entry>
+		<entry key="Tool_bar3_Label" translate="false" note="TranslateFalseBatch;">bar3</entry>
+		<entry key="Tool_bar3_Description">3-D bar graph</entry>
+		<entry key="Tool_bar3_Rule">A matrix, or a vector of X values and matrix of Y values of compatible size, with an optional scalar bar width</entry>
+		<entry key="Tool_bar3h_Label" translate="false" note="TranslateFalseBatch;">bar3h</entry>
+		<entry key="Tool_bar3h_Description">Creates a 3-D horizontal bar graph with one bar for each element in y</entry>
+		<entry key="Tool_bar3h_Rule">A matrix, or a vector of X values and matrix of Y values of compatible size, with an optional scalar bar width</entry>
+		<entry key="Tool_barstacked_Label" note="bar is a function name">bar (stacked)</entry>
+		<entry key="Tool_barstacked_Description">Vertical stacked bar graph</entry>
+		<entry key="Tool_barstacked_Rule">A single matrix, or a vector of X values and matrix of Y values of compatible size. Either choice with an optional scalar bar width</entry>
+		<entry key="Tool_barstacked_ShortDescription">bar (stacked)</entry>
+		<entry key="Tool_barhstacked_Label" note="barh is a function name">barh (stacked)</entry>
+		<entry key="Tool_barhstacked_Description">Horizontal stacked bar graph</entry>
+		<entry key="Tool_barhstacked_Rule">A single matrix of Y values, or a vector of x values and matrix of Y values of compatible size, followed by an optional scalar bar width</entry>
+		<entry key="Tool_barhstacked_ShortDescription">barh (stacked)</entry>
+		<entry key="Tool_histogram_Label" translate="false" note="TranslateFalseBatch;">histogram</entry>
+		<entry key="Tool_histogram_Description">Creates a histogram (type of bar) plot for data grouped into bins</entry>
+		<entry key="Tool_histogram_Rule">An array with optional scalar number of bins or monotonically non-decreasing vector bin edges, or a categorical array with an optional cell vector or categorical vector of category names</entry>
+		<entry key="Tool_pareto_Label" translate="false" note="TranslateFalseBatch;">pareto</entry>
+		<entry key="Tool_pareto_Description">Creates a pareto chart to display the values in the vector Y as bars drawn in descending order</entry>
+		<entry key="Tool_pareto_Rule">A vector of y values, with optional vector of x values or cell array of x labels of the same size</entry>
+		<entry key="Tool_plotmatrix_Label" translate="false" note="TranslateFalseBatch;">plotmatrix</entry>
+		<entry key="Tool_plotmatrix_Description">Creates a matrix of subaxes containing scatter plots of the columns of X against the columns of Y</entry>
+		<entry key="Tool_plotmatrix_Rule">1 or 2 matrices with the same number of rows, followed by an optional linespec</entry>
+
+		<entry key="Tool_scatter_Label" translate="false" note="TranslateFalseBatch;">scatter</entry>
+		<entry key="Tool_scatter_Description">Creates a scatter/bubble plot with circles at the locations specified by the vectors x and y</entry>
+		<entry key="Tool_scatter_Rule">A 2-column matrix or 2 vectors/matrices of compatible size, followed by an optional size parameter and optional color value</entry>
+		<entry key="Tool_scatter3_Label" translate="false" note="TranslateFalseBatch;">scatter3</entry>
+		<entry key="Tool_scatter3_Description">Creates a 3-D Scatter plot to display circles at the locations specified by the vectors X, Y, and Z</entry>
+		<entry key="Tool_scatter3_Rule">3 vectors of the same length, followed by an optional scalar or vector area parameter and optional scalar or vector color value</entry>
+		<entry key="Tool_scatter3_ShortDescription" translate="false" note="TranslateFalseBatch;">scatter3</entry>
+
+		<entry key="Tool_bubblechart_Label" translate="false" note="TranslateFalseBatch;">bubblechart</entry>
+		<entry key="Tool_bubblechart_Description">Displays colored circular markers (bubbles) at the locations specified by x and y</entry>
+		<entry key="Tool_bubblechart_Rule">A 3-column matrix or 3 vectors of the same length, followed by an optional scalar or vector color value</entry>
+		<entry key="Tool_bubblechart3_Label" translate="false" note="TranslateFalseBatch;">bubblechart3</entry>
+		<entry key="Tool_bubblechart3_Description">Displays colored circular markers (bubbles) at the locations specified by x, y, and z in a three-dimensional plot box</entry>
+		<entry key="Tool_bubblechart3_Rule">4 vectors of the same length, followed by an optional scalar or vector color value</entry>
+		<entry key="Tool_polarbubblechart_Label" translate="false" note="TranslateFalseBatch;">polarbubblechart</entry>
+		<entry key="Tool_polarbubblechart_Description">Polar bubble chart</entry>
+		<entry key="Tool_polarbubblechart_Rule">A 3-column matrix or 3 vectors of the same length, followed by an optional scalar or vector color value</entry>
+
+		<entry key="Tool_bubblecloud_Label" translate="false" note="TranslateFalseBatch;">bubblecloud</entry>
+		<entry key="Tool_bubblecloud_Description">Creates a bubblecloud where bubble size is used to show the relationships between values</entry>
+		<entry key="Tool_bubblecloud_Rule">A non negative numeric vector, with optional string vector of bubble labels and optional categorical vector for grouping bubbles</entry>
+
+		<entry key="Tool_swarmchart_Label" translate="false" note="TranslateFalseBatch;">swarmchart</entry>
+		<entry key="Tool_swarmchart_Description">Displays a scatter plot where points are jittered in the x dimension based on an estimate of the  kernel density in the y dimension for each unique x</entry>
+		<entry key="Tool_swarmchart_Rule">A 2-column matrix or 2 vectors/matrices of compatible size, followed by an optional size parameter and optional color value</entry>
+		<entry key="Tool_swarmchart3_Label" translate="false" note="TranslateFalseBatch;">swarmchart3</entry>
+		<entry key="Tool_swarmchart3_Description">Displays a scatter plot in a 3-D view where points are jittered in the x and y dimensions based on an estimate of the kernel density in the z dimension for each unique combination of x and y</entry>
+		<entry key="Tool_swarmchart3_Rule">3 vectors of the same length, followed by an optional scalar or vector area parameter and optional scalar or vector color value</entry>
+
+		<entry key="Tool_spy_Label" translate="false" note="TranslateFalseBatch;">spy</entry>
+		<entry key="Tool_spy_Description">Visualize sparsity pattern</entry>
+		<entry key="Tool_spy_Rule">1 vector or matrix followed by an optional linespec, followed by an optional scalar marker size</entry>
+
+		<entry key="Tool_graph_Label" translate="false" note="TranslateFalseBatch;">graph</entry>
+		<entry key="Tool_graph_Description">Plots an undirected graph</entry>
+		<entry key="Tool_graph_Rule">A graph object</entry>
+		<entry key="Tool_graph_ShortDescription" translate="false" note="TranslateFalseBatch;">graph</entry>
+		<entry key="Tool_digraph_Label" translate="false" note="TranslateFalseBatch;">digraph</entry>
+		<entry key="Tool_digraph_Description">Plots a directed graph</entry>
+		<entry key="Tool_digraph_Rule">A digraph object</entry>
+		<entry key="Tool_digraph_ShortDescription" translate="false" note="TranslateFalseBatch;">digraph</entry>
+
+		<entry key="Tool_pie_Label" translate="false" note="TranslateFalseBatch;">pie</entry>
+		<entry key="Tool_pie_Description">Creates a pie chart using the data in X. Each slice of the pie chart represents an element in X</entry>
+		<entry key="Tool_pie_Rule">A vector or matrix, with an optional vector or matrix of "explode" parameters and an optional cell array of labels</entry>
+		<entry key="Tool_pie3_Label" translate="false" note="TranslateFalseBatch;">pie3</entry>
+		<entry key="Tool_pie3_Description">Creates a three-dimensional pie chart using the data in X. Each element in X is represented as a slice in the pie chart</entry>
+		<entry key="Tool_pie3_Rule">A vector or matrix, with an optional vector or matrix of "explode" parameters, and an optional cell array of labels</entry>
+		
+		<entry key="Tool_histogram2_Label" translate="false" note="TranslateFalseBatch;">histogram2</entry>
+		<entry key="Tool_histogram2_Description">Creates a histogram (type of bar) plot for numeric data grouped into 2-D bins</entry>
+		<entry key="Tool_histogram2_Rule">A matrix, or a vector of X values and matrix of Y values of compatible size, with an optional scalar or a two element vector</entry>
+
+        <entry key="Tool_polarplot_Label" translate="false" note="TranslateFalseBatch;">polarplot</entry>
+		<entry key="Tool_polarplot_Description">Creates a line in polar coordinates, with theta indicating the angle in radians and rho indicating the radius value for each point</entry>        
+		<entry key="Tool_polarplot_Rule">A vector or matrix of angles, with an optional vector or matrix of radii of the same size, followed by an optional linespec</entry>
+        <entry key="Tool_polarhistogram_Label" translate="false" note="TranslateFalseBatch;">polarhistogram</entry>
+		<entry key="Tool_polarhistogram_Description">Creates a histogram plot in polar coordinates by sorting the values in theta into equally spaced bins</entry>
+		<entry key="Tool_polarhistogram_Rule">A vector or matrix of angles with an optional scalar for number of bins</entry>
+        <entry key="Tool_polarscatter_Label" translate="false" note="TranslateFalseBatch;">polarscatter</entry>
+		<entry key="Tool_polarscatter_Description">Displays circles at the locations specified by the vectors TH and R, where TH and R are the same sizes</entry>
+		<entry key="Tool_polarscatter_Rule">A vector or matrix of angles, with an optional vector or matrix of radii of the same size, followed by an optional marker size</entry>
+        
+		<entry key="Tool_compass_Label" translate="false" note="TranslateFalseBatch;">compass</entry>
+		<entry key="Tool_compass_Description">Creates a compass plot with arrows emanating from origin</entry>
+		<entry key="Tool_compass_Rule">Either a matrix or 2 vectors of compatible size followed by an optional linepsec</entry>
+		
+        <entry key="Tool_geoplot_Label" translate="false" note="TranslateFalseBatch;">geoplot</entry>
+		<entry key="Tool_geoplot_Description">Creates a line in a geographic axes with vertices at the latitude-longitude locations specified (in degrees) by the vectors lat and lon</entry>
+		<entry key="Tool_geoplot_Rule">2 numeric vectors (latitude and longitude), followed by an optional linespec</entry>
+        <entry key="Tool_geoscatter_Label" translate="false" note="TranslateFalseBatch;">geoscatter</entry>
+		<entry key="Tool_geoscatter_Description">Creates colored circles in a geographic axes at the latitude-longitude locations specified (in degrees) by the vectors lat and lon</entry>
+		<entry key="Tool_geoscatter_Rule">2 numeric vectors (latitude and longitude), followed by an optional numeric vector (area), followed by an optional numeric vector (color) or colorspec</entry>
+        <entry key="Tool_geobubble_Label" translate="false" note="TranslateFalseBatch;">geobubble</entry>
+		<entry key="Tool_geobubble_Description">Creates a geographic bubble chart with filled circles (bubbles) representing the geographic locations</entry>
+		<entry key="Tool_geobubble_Rule">Either 2 numeric vectors (latitude and longitude), followed by an optional numeric vector (size), followed by an optional categorical vector (color) or a table with two table subscripts</entry>
+        
+		<entry key="Tool_contour_Label" translate="false" note="TranslateFalseBatch;">contour</entry>
+		<entry key="Tool_contour_Description">Contour plot</entry>
+		<entry key="Tool_contour_Rule">A matrix, 2 vectors and matrix, or 3 matrices of compatible size. Optionally add a scalar or vector of contour levels and a linespec</entry>
+		<entry key="Tool_contourf_Label" translate="false" note="TranslateFalseBatch;">contourf</entry>
+		<entry key="Tool_contourf_Description">Filled contour plot</entry>
+		<entry key="Tool_contourf_Rule">A matrix, 2 vectors and matrix, or 3 matrices of compatible size. Optionally add a scalar or vector of contour levels and a linespec</entry>
+		<entry key="Tool_contour3_Label" translate="false" note="TranslateFalseBatch;">contour3</entry>
+		<entry key="Tool_contour3_Description">3-D contour plot</entry>
+		<entry key="Tool_contour3_Rule">A matrix, 2 vectors and matrix, or 3 matrices of compatible size. Optionally add a scalar or vector of contour levels and a linespec</entry>
+
+		<entry key="Tool_image_Label" translate="false" note="TranslateFalseBatch;">image</entry>
+		<entry key="Tool_image_Description">Display image</entry>
+		<entry key="Tool_image_Rule">1 RGB or indexed color array, or 2 vectors and an RGB or indexed color array of compatible size</entry>
+		<entry key="Tool_imagesc_Label" translate="false" note="TranslateFalseBatch;">imagesc</entry>
+		<entry key="Tool_imagesc_Description">Scale data and display as an image</entry>
+		<entry key="Tool_imagesc_Rule">1 RGB or indexed color array, or 2 vectors and an RGB or indexed color array of compatible size</entry>
+		<entry key="Tool_pcolor_Label" translate="false" note="TranslateFalseBatch;">pcolor</entry>
+		<entry key="Tool_pcolor_Description">Pseudocolor (checkerboard) plot</entry>
+		<entry key="Tool_pcolor_Rule">1 RGB or indexed color array, or 2 vectors, and an RGB or indexed color array of compatible size</entry>
+		<entry key="Tool_imshow_Label" translate="false" note="TranslateFalseBatch;">imshow</entry>
+		<entry key="Tool_imshow_Description">Display image</entry>
+		<entry key="Tool_imshow_Rule">Grayscale, logical, truecolor or indexed image array (with colormap). Alternatively, an image file name may be used.</entry>
+		<entry key="Tool_heatmap_Label" translate="false" note="TranslateFalseBatch;">heatmap</entry>
+		<entry key="Tool_heatmap_Description">Heatmap chart</entry>
+		<entry key="Tool_heatmap_Rule">Table with two or three table subscripts, 2D numeric matrix, or 2 vectors and a 2D numeric matrix</entry>
+
+		<entry key="Tool_surf_Label" translate="false" note="TranslateFalseBatch;">surf</entry>
+		<entry key="Tool_surf_Description">Display a matrix as a surface</entry>
+		<entry key="Tool_surf_Rule">1 to 4 x,y,z, and color matrices of compatible size. Optionally replace X and Y matrices with vectors of compatible size</entry>
+		<entry key="Tool_surfc_Label" translate="false" note="TranslateFalseBatch;">surfc</entry>
+		<entry key="Tool_surfc_Description">Combination surf/contour plot</entry>
+		<entry key="Tool_surfc_Rule">1 to 4 X,Y,Z, and color matrices of compatible size. Optionally replace X and Y matrices with vectors of compatible size</entry>
+		<entry key="Tool_surfl_Label" translate="false" note="TranslateFalseBatch;">surfl</entry>
+		<entry key="Tool_surfl_Description">3-D shaded surface with lighting</entry>
+		<entry key="Tool_surfl_Rule">A Z matrix, or X,Y,Z matrices followed by an optional light source direction vector. Optionally replace X and Y matrices with vectors of compatible size</entry>
+		<entry key="Tool_mesh_Label" translate="false" note="TranslateFalseBatch;">mesh</entry>
+		<entry key="Tool_mesh_Description">3-D mesh surface</entry>
+		<entry key="Tool_mesh_Rule">1 to 4 X,Y,Z, and color matrices of compatible size. Optionally replace X and Y matrices with vectors of compatible size</entry>
+		<entry key="Tool_meshc_Label" translate="false" note="TranslateFalseBatch;">meshc</entry>
+		<entry key="Tool_meshc_Description">Combination mesh/contour plot</entry>
+		<entry key="Tool_meshc_Rule">1 to 4 X,Y,Z, and color matrices of compatible size. Optionally replace X and Y matrices with vectors of compatible size</entry>
+		<entry key="Tool_meshz_Label" translate="false" note="TranslateFalseBatch;">meshz</entry>
+		<entry key="Tool_meshz_Description">3-D mesh with curtain</entry>
+		<entry key="Tool_meshz_Rule">1 to 4 X,Y,Z, and color matrices of compatible size. Optionally replace X and Y matrices with vectors of compatible size</entry>
+		<entry key="Tool_waterfall_Label" translate="false" note="TranslateFalseBatch;">waterfall</entry>
+		<entry key="Tool_waterfall_Description">Waterfall plot</entry>
+		<entry key="Tool_waterfall_Rule">1 to 4 X,Y,Z, and color matrices of compatible size. Optionally replace X and Y matrices with vectors of compatible size</entry>
+		<entry key="Tool_ribbon_Label" translate="false" note="TranslateFalseBatch;">ribbon</entry>
+		<entry key="Tool_ribbon_Description">Draw 2-D lines as ribbons in 3-D</entry>
+		<entry key="Tool_ribbon_Rule">A Y matrix or X,Y matrices or vectors of the same size followed by an optional scalar width parameter</entry>
+
+		<entry key="Tool_slice_Label" translate="false" note="TranslateFalseBatch;">slice</entry>
+		<entry key="Tool_slice_Description">Volumetric slice plot</entry>
+		<entry key="Tool_slice_Rule">A 3 dimensional volume array with 3 vectors defining slice planes</entry>
+
+		<entry key="Tool_feather_Label" translate="false" note="TranslateFalseBatch;">feather</entry>
+		<entry key="Tool_feather_Description">Feather plot</entry>
+		<entry key="Tool_feather_Rule">A numeric array, or 2 numeric arrays of the same size, followed by an optional linespec</entry>
+		<entry key="Tool_quiver_Label" translate="false" note="TranslateFalseBatch;">quiver</entry>
+		<entry key="Tool_quiver_Description">Quiver plot</entry>
+		<entry key="Tool_quiver_Rule">2 or 4 numeric arrays of the same size, followed by an optional scalar value for scale, and an optional linespec</entry>
+		<entry key="Tool_quiver3_Label" translate="false" note="TranslateFalseBatch;">quiver3</entry>
+		<entry key="Tool_quiver3_Description">3-D quiver plot</entry>
+		<entry key="Tool_quiver3_Rule">4 numeric arrays of the same size, followed by an optional scalar value for scale and an optional linespec</entry>
+		<entry key="Tool_streamslice_Label" translate="false" note="TranslateFalseBatch;">streamslice</entry>
+		<entry key="Tool_streamslice_Description">Streamlines in slice planes</entry>
+		<entry key="Tool_streamslice_Rule">Either 2 or 4 3-dimensional arrays of the same size, followed by an optional scalar value for scale and an optional linespec</entry>
+		<entry key="Tool_streamline_Label" translate="false" note="TranslateFalseBatch;">streamline</entry>
+		<entry key="Tool_streamline_Description">Streamlines from 2-D or 3-D vector data</entry>
+		<entry key="Tool_streamline_Rule">A cell array of double arrays produced by stream2 or stream3</entry>
+
+		<entry key="Tool_fplot_Label" translate="false" note="TranslateFalseBatch;">fplot</entry>
+		<entry key="Tool_fplot_Description">Easy to use function plotter</entry>
+		<entry key="Tool_fplot_Rule">One or two function handles followed by an optional vector defining a range of x values</entry>
+		<entry key="Tool_fplot3_Label" translate="false" note="TranslateFalseBatch;">fplot3</entry>
+		<entry key="Tool_fplot3_Description">Easy to use 3-D parametric curve plotter</entry>
+		<entry key="Tool_fplot3_Rule">3 parametric function handles followed by an optional domain range vector</entry>
+		<entry key="Tool_ezpolar_Label" translate="false" note="TranslateFalseBatch;">ezpolar</entry>
+		<entry key="Tool_ezpolar_Description">Easy to use polar coordinate plotter</entry>
+		<entry key="Tool_ezpolar_Rule">A function handle followed by a optional vector range of theta values</entry>
+		<entry key="Tool_fcontour_Label" translate="false" note="TranslateFalseBatch;">fcontour</entry>
+		<entry key="Tool_fcontour_Description">Easy to use contour plotter</entry>
+		<entry key="Tool_fcontour_Rule">A 2-input function handle followed by an optional 2 or 4 element domain vector</entry>
+		<entry key="Tool_fimplicit_Label" translate="false" note="TranslateFalseBatch;">fimplicit</entry>
+		<entry key="Tool_fimplicit_Description">Easy to use implicit plotter</entry>
+		<entry key="Tool_fimplicit_Rule">A 2-input function handle followed by an optional 2 or 4 element domain vector</entry>
+		<entry key="Tool_fimplicit3_Label" translate="false" note="TranslateFalseBatch;">fimplicit3</entry>
+		<entry key="Tool_fimplicit3_Description">Easy to use 3-D implicit plotter</entry>
+		<entry key="Tool_fimplicit3_Rule">A 3-input function handle followed by an optional 2 or 6 element domain vector</entry>
+		<entry key="Tool_fsurf_Label" translate="false" note="TranslateFalseBatch;">fsurf</entry>
+		<entry key="Tool_fsurf_Description">Easy to use 3-D colored surface plotter</entry>
+		<entry key="Tool_fsurf_Rule">One or three 2-input function handles followed by an optional 2 or 4 element domain vector</entry>
+		<entry key="Tool_fmesh_Label" translate="false" note="TranslateFalseBatch;">fmesh</entry>
+		<entry key="Tool_fmesh_Description">Easy to use 3-D mesh plotter</entry>
+		<entry key="Tool_fmesh_Rule">One or three 2-input function handles followed by an optional 2 or 4 element domain vector</entry>
+		
+		<entry key="Tool_wordcloud_Label" translate="false" note="TranslateFalseBatch;">wordcloud</entry>
+		<entry key="Tool_wordcloud_Description">Creates a wordcloud chart from text data</entry>
+		<entry key="Tool_wordcloud_Rule">A categorical, string or cellstr array.</entry>		
+		<entry key="Tool_stackedplot_Label" translate="false" note="TranslateFalseBatch;">stackedplot</entry>
+		<entry key="Tool_stackedplot_Description">Creates a stacked plot of several variables with the common x-axis</entry>
+        <entry key="Tool_stackedplot_Rule">A table, timetable, a matrix/N-D array, or a vector and a matrix/N-D array of compatible sizes with more than one row.</entry>	
+		<entry key="Tool_scatterhistogram_Label" translate="false" note="TranslateFalseBatch;">scatterhistogram</entry>
+		<entry key="Tool_scatterhistogram_Description">Creates a scatter plot with marginal histograms</entry>
+		<entry key="Tool_scatterhistogram_Rule">Table with two or three table subscripts, or 2 numeric or categorical vectors</entry>
+        <entry key="Tool_parallelplot_Label" translate="false" note="TranslateFalseBatch;">parallelplot</entry>
+		<entry key="Tool_parallelplot_Description">Parallel Coordinates plot</entry>
+        <entry key="Tool_parallelplot_Rule">A table or a numeric matrix, with more than one row</entry>
+        
+        <entry key="Tool_VisualizeDataTask_Label">Create Chart</entry>
+        <entry key="Tool_VisualizeDataTask_Description">Interactively create and explore charts</entry>
+        
+        <entry key="Tool_binscatter_Description">Creates a binned scatter plot which shows areas of different data density using colors</entry>
+        <entry key="Tool_boxchart_Description">Creates a box chart, or box plot, for the data</entry>
+        
+        <entry key="Tool_geodensityplot_Description">Creates a density plot in a geoaxes from locations in degrees specified by the coordinate vectors lat and lon</entry>
+        <entry key="Tool_animatedline_Description">Creates an animated line with initial data points defined by x, y, and z</entry>
+        <entry key="Tool_comet3_Description">3-D Comet-like trajectories</entry>
+        <entry key="Tool_coneplot_Description">Creates a 3D cone plot showing velocity vectors</entry>
+        <entry key="Tool_streamribbon_Description">Draws stream ribbons from vector volume data U, V, W</entry>
+        <entry key="Tool_streamparticles_Description">Draws stream particles of a vector field</entry>
+        <entry key="Tool_streamtube_Description">Draws stream tubes from vector volume data U, V, W</entry>
+   </message>
+</rsccat>

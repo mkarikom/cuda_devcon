@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidInput">ファイル名または変数名は、文字ベクトルまたは string スカラーでなければなりません。</entry>
+    <entry key="fileNotFound">ファイル ''{0}'' が見つかりません。</entry>
+    <entry key="noOpen">関数は配布されたアプリケーションで使用できません。</entry>
+    <entry key="openFailure">''{0}'' に関連するファイルが見つかりません。</entry>
+    <entry key="noOpenFolder">フォルダー ''{0}'' を開くことができません。</entry>
+  </message>
+</rsccat>

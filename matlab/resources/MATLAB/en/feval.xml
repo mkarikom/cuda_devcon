@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- Added messages: src/m_interpreter, src/m_lxe -->
+    <entry key="argMustBeScalar">Function_handle argument must be scalar.</entry>
+    <entry key="argMustBeStringOrHandle" note="stringDatatypeUpdate">Function to evaluate must be represented as a string scalar, character vector, or function_handle object.</entry>
+    <entry key="invalidFunctionName">Invalid function name ''{0}''.</entry>
+    <entry key="QEArgShareable">Arguments to QEinCallFcnReuse must not be shareable</entry>
+  </message>
+</rsccat>

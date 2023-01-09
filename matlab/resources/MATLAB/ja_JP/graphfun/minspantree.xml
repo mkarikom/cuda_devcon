@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="KeyWithoutValue">{0} に値が指定されていません。</entry>
+    <entry key="ParseFlags">パラメーター名は ''Method''、''Root'' または ''Type'' でなければなりません。</entry>
+    <entry key="ParseMethod">Method の値は ''dense'' または ''sparse'' でなければなりません。</entry>
+    <entry key="ParseRoot">Root の値は有効なノード ID でなければなりません。 </entry>
+    <entry key="ParseType">Type の値は ''tree'' または ''forest'' でなければなりません。</entry>
+  </message>
+</rsccat>

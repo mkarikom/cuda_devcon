@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="numSidesError">Number of sides must be a positive integer larger than or equal to 3.</entry>
+    <entry key="radiusSideError">'SideLength' parameter is not supported when 'Radius' is specified.</entry>
+    <entry key="invalidParameterError">Unable to create polyshape with specified parameters.</entry>
+    <entry key="centerError">'Center' value must be a real, finite, numeric row vector with 2 elements.</entry>
+    <entry key="radiusError">'Radius' value must be a real, positive, and finite scalar.</entry>
+	<entry key="rsTooSmall">Unable to create polyshape because ''{0}'' value is too small.</entry>
+	<entry key="rsTooLarge">Unable to create polyshape because ''{0}'' value is too large.</entry>
+    <entry key="sideError">'SideLength' value must be a real, positive, and finite scalar.</entry>
+    <entry key="nameValueError">Incorrect number of input arguments. Parameter names and values must occur in pairs.</entry>
+    <entry key="unknownNameError">Parameter name must be 'SideLength', 'Radius' or 'Center''.</entry>
+	<entry key="valueOverflow">Unable to create polyshape because x- or y-coordinate is too large.</entry>
+  </message>
+</rsccat>

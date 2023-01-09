@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+  <message>
+    <entry key="alreadystarted">Cannot start timer because it is already running.</entry>
+    <entry key="badcallback">Error while evaluating {0} for timer ''{1}'' \n\n{2}\n</entry>
+    <entry key="cannotBeSetWhileTimerRunning">{0} cannot be set while Timer is running.</entry>
+    <entry key="cannotSetEmptyTimerFcnWhileRunning">Cannot set a running timer's ''TimerFcn'' to empty</entry>
+    <entry key="cannotStartTimerWithNoTimerFcn">Cannot start timer without specifying a ''TimerFcn'' callback.</entry>
+    <entry key="creatematrix">Only a row or column vector of timer objects can be created.</entry>
+    <entry key="deleterunning">You are deleting one or more running timer objects. MATLAB has automatically stopped them before deletion.</entry>
+    <entry key="dlg_InspectionError">Inspection error</entry>
+    <entry key="dlg_InvalidObject">Invalid object</entry>
+    <entry key="dlg_TimerObjectIsInvalid">The timer object is invalid.</entry>
+    <entry key="emptyTimerObject">\n   Empty timer object: 0-by-0\n\n</entry>
+    <entry key="errorinobjectarray">One or more objects could not be started or have already been started.</entry>
+    <entry key="floorOfTasksToExecuteMustBePositive">Taking the ''floor'' of ''TasksToExecute'' should be positive </entry>
+    <entry key="incompatibleTimerLoad">Unable to load the saved timer(s). It is either invalid or incompatible with this version of MATLAB. Please, recreate the timer object or reload and save the timer object in a release between R2009a - R2019b.</entry>
+    <entry key="incompletepvpair">Incomplete property-value pair.</entry>
+    <entry key="incorrectCallbackInput">The third argument to the timer callback must be a string scalar, character array, a function handle, or a cell array.</entry>
+    <entry key="incorrectCallbackInputForCallbackType">{0} callback must be set to a string scalar, a function handle, or a 1-by-N cell array. The first element of the 1-by-N cell array must be the callback function name or handle.</entry>
+    <entry key="infinitetimer">Can''t wait with a timer that has an infinite TasksToExecute.</entry>
+    <entry key="invalid">Invalid timer object. This object has been deleted and should be removed from your workspace using CLEAR.</entry>
+    <entry key="invaliddatesyntax">Error in specification of serial date number. See help TIMER/STARTAT.</entry>
+    <entry key="miliSecPrecNotAllowed">{0} property is limited to 1 millisecond precision. Sub-millisecond precision will be ignored.</entry>
+    <entry key="noTimerObj">OBJ must be a timer object.</entry>
+    <entry key="notenoughparameters">STARTAT requires at least two parameters. See help TIMER/STARTAT.</entry>
+    <entry key="numtimersanddelaymismatch">STARTAT requires start delay values to be scalar or equal to OBJ length. See help TIMER/STARTAT.</entry>
+    <entry key="onlyOneStructInput">Input to timerfind/timerfindall can be a scalar struct or name-value pair. Vector of structs is not allowed.</entry>
+    <entry key="someinvalid">One or more invalid timer objects in input array.</entry>
+    <entry key="startdelaynegative">The specified start time has already passed.</entry>
+    <entry key="unableToLoad">Unable to load the saved timer(s).</entry>
+    <entry key="unableToExecuteErrorFcn">Unable to execute ''ErrorFcn''.</entry>
+  </message>
+</rsccat>

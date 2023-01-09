@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidAxes">2개의 입력 인수가 지정된 경우, 첫 번째 인수는 좌표축이어야 합니다.</entry>
+    <entry key="InvalidObject">유효하지 않거나 삭제된 그래픽스 객체입니다.</entry>
+    <entry key="MixedAxesVector">첫 번째 입력 인수가 좌표축으로 구성된 벡터인 경우, 좌표축은 모두 유형이 동일해야 합니다.</entry>
+    <entry key="PolarAxes">극좌표 좌표축에는 {0}을(를) 사용할 수 없습니다.</entry>
+    <entry key="PolarAxesAlternative">극좌표 좌표축에는 {0}을(를) 사용할 수 없습니다. &lt;a href="matlab:doc {1}"&gt;{1}&lt;/a&gt;을(를) 대신 사용하십시오.</entry>
+    <entry key="CartesianAxes">카테시안 좌표축(Cartesian Axes)에는 {0}을(를) 사용할 수 없습니다. &lt;a href="matlab:doc {1}"&gt;{1}&lt;/a&gt;을(를) 대신 사용하십시오.</entry>
+    <entry key="ColorBar">컬러바에는 {0}을(를) 사용할 수 없습니다.</entry>
+    <entry key="Categorical">categorical형 눈금자에는 {0}을(를) 사용할 수 없습니다.</entry>
+    <entry key="NumberAsString">숫자형 값을 지정할 경우 입력 인수를 괄호로 묶으십시오.</entry>
+    <entry key="InvalidNumericLimits">제한값은 증가하는 숫자형 값으로 구성된, 요소를 2개 가진 벡터여야 합니다.</entry>
+    <entry key="InvalidDatetimeLimits">제한값은 증가하는 datetime형 값으로 구성된, 요소를 2개 가진 벡터여야 합니다.</entry>
+    <entry key="InvalidDurationLimits">제한값은 증가하는 duration형 값으로 구성된, 요소를 2개 가진 벡터여야 합니다.</entry>
+    <entry key="InvalidCategoricalLimits">제한값은 눈금자의 Categories 속성을 기준으로 정렬되면서 증가하거나 같은 범주로 구성된, 요소를 2개 가진 벡터여야 합니다.</entry>
+    <entry key="InvalidLimitsMode">제한값을 지정하거나, 'mode', 'auto' 또는 'manual' 옵션 중 하나를 지정하거나, 'tight', 'tickaligned' 또는 'padded' 제한값 메서드를 지정하십시오.</entry>
+    <entry key="InvalidLimitsModeOnly">제한값을 지정하거나 'mode', 'auto' 또는 'manual' 옵션 중 하나를 지정하십시오.</entry>
+    <entry key="InvalidTicks">유효하지 않은 눈금 값입니다. 눈금 레이블을 설정하려면 &lt;a href="matlab:doc {0}"&gt;{0}&lt;/a&gt;을(를) 사용하십시오.</entry>
+    <entry key="InvalidNumericTicks">눈금 값은 증가하는 숫자형 값으로 구성된 벡터여야 합니다.</entry>
+    <entry key="InvalidDatetimeTicks">눈금 값은 증가하는 datetime형 값으로 구성된 벡터여야 합니다.</entry>
+    <entry key="InvalidDurationTicks">눈금 값은 증가하는 duration형 값으로 구성된 벡터여야 합니다.</entry>
+    <entry key="InvalidCategoricalTicks">눈금 값은 증가하는 categorical형 값으로 구성된 벡터여야 합니다.</entry>
+    <entry key="InvalidTicksMode">눈금 값을 지정하거나 'mode', 'auto', 'manual' 옵션 중 하나를 지정하십시오.</entry>
+    <entry key="InvalidTickLabels">눈금 레이블을 문자형 벡터로 구성된 셀형 배열, string형 배열, 또는 'mode', 'auto', 'manual' 옵션 중 하나로 지정하십시오.</entry>
+    <entry key="InvalidAngle">회전은 각도를 나타내는 스칼라 값(단위: 도)이어야 합니다.</entry>
+    <entry key="InvalidNumericFormat">유효하지 않은 숫자형 눈금 레이블 형식입니다.</entry>
+    <entry key="InvalidDatetimeFormat">유효하지 않은 날짜 또는 시간 형식입니다.</entry>
+    <entry key="InvalidDurationFormat">유효하지 않은 기간 형식입니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CategoryNamesInvalidSize">第四个参数(类别名称)必须为长度等于 bin 数 {0,number,integer} 的元胞数组。</entry>
+    <entry key="DefaultCategoryNamesNotUnique">无法使用输入参数的显示格式创建唯一的类别名称。请指定类别名称或更改输入参数的 ''Format'' 属性。</entry>
+    <entry key="InvalidDur">第二个参数(均匀 bin 大小)必须为持续时间或有限正标量的 calendarDuration，或者可为以下值之一: 'second'、'minute'、'hour'、'day'、'week'、'month'、'quarter'、'year'、'decade' 或 'century'。</entry>
+    <entry key="InvalidEdges">第二个参数(bin 边界)必须为至少包含 2 个元素的日期时间向量。</entry>
+    <entry key="InvalidSecondInput">第二个参数必须为日期时间向量、整数标量、持续时间标量或 calendarDuration、字符向量或字符串标量。</entry>
+    <entry key="UnsortedEdges">第二个参数(bin 边界)必须为不包含 NaT 的有序日期时间向量。</entry>
+    <entry key="ValuesInvalidSize">第三个参数(bin 值)必须为长度等于 bin 数 {0,number,integer} 的向量。</entry>
+    <entry key="ValuesClassNoNaN">如果第三个参数 bin values 的类型为 {0}，则所有输入数据都必须属于某个 bin。</entry>
+    <entry key="XNotDateTime">第一个参数必须为日期时间数组。</entry>
+  </message>
+</rsccat>

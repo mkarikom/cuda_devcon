@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2012-2018 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="ErrorInCustomFunction">Unable to update\ndata tip using custom update function</entry>
+      <entry key="InvalidIndex">The index must be a scalar integral value greater than 0.</entry>
+      <entry key="InvalidPixelPosition">The position must be a 1x2 numeric vector.</entry>
+      <entry key="InvalidPositionPolygon">The position polygon must be a 2xn matrix with at least 3 columns.</entry>
+      <entry key="InvalidDirection">The direction must be one of ''up'', ''down'', ''left'' or ''right''.</entry>
+      <entry key="InvalidPrimitivePosition">The position must be a scalar PrimitivePoint object.</entry>
+      <entry key="InvalidBehaviorHelper">Unable to construct a DataCursorBehaviorHelper object.</entry>
+      <entry key="MethodNotImplemented">Protected method "{0}" must be implemented in DataAnnotatable interface.</entry>
+   </message>
+</rsccat>

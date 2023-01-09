@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AllFilesDescription">所有文件(*.*)</entry>
+    <entry key="CodeFileDescription">MATLAB 文件(*.m)</entry>
+    <entry key="ExportGuiDialogTitle">导出</entry>
+    <entry key="SingleExportedFileDescription">单个 MATLAB 文件(*.m)</entry>
+    <entry key="InvalidFilename">文件:\n{0} 是无效的文件名。\n\n请将检查器中的 "Filename" 属性更改为\n有效值，或使用“另存为”选项。</entry>
+    <entry key="InvalidFilenames">文件:\n{0} 是无效的文件名。\n\n请将检查器中的 "Filename" 属性更改为\n有效值，或使用“另存为”选项。</entry>
+    <entry key="InvalidFilenameEmpty">文件:{0}\n不是有效的 GUIDE 文件名。它必须包含至少一个字符。</entry>
+    <entry key="InvalidFilenameNonfunctionName">文件: {0}\n不是有效的 GUIDE 文件名。\n\n有效的 GUIDE 文件名定义为任何有效的 MATLAB 函数名称。\n有效的函数名称是一个包含字母、数字和下划线的字符向量，\n其长度 &lt;= {1} 并且第一个字符为字母。</entry>
+    <entry key="InvalidFileExtensions">文件:{0}\n文件名必须以 {1} 结束</entry>
+    <entry key="ChangeFilenameInInspectora">{0}\n\n请将检查器中的 "Filename" 属性更改为\n有效值，或使用“另存为”选项。</entry>
+    <entry key="CannotSaveToOpenGui">文件:{0}\n已在 GUIDE 中打开。\n无法保存到打开的 GUI 中。</entry>
+    <entry key="ErrorWritingFile">写入文件时出错:\n{0}请检查目录是否为只读。</entry>
+    <entry key="ErrorWritingFiles">写入文件时出错:\n{0}请检查目录是否为只读。</entry>
+    <entry key="ButtonGroupManagedCallback">按钮组 {0} 管理该 {2} 的 {1}。\n\n要自定义按钮组中的所选按钮更改时的行为，请修改其 SelectionChangeFcn 回调。</entry>
+    <entry key="ModifiedAutoCallback">{0} 的当前值已手动修改。\n\n是否将其替换为 GUIDE 自动生成的回调?单击“是”获得自动生成的回调。单击“否”将 {1} 值保持原状。</entry>
+    <entry key="SameTagForMultipleComponents">标签 ''{0}'' 指定给 GUI 中的多个组件。它们的回调可能会指向 GUI 代码文件中的相同函数。</entry>
+    <entry key="RunningSuccessfullyGeneratedStandalone">文件:{0}\n已成功生成。\n\n如果它不能正常工作，{1}</entry>
+    <entry key="RunningUnsuccessfullyGeneratedStandalone">文件:{0}\n无法成功生成。\n\n{1}</entry>
+    <entry key="SolutionForStandaloneRunningError">请查看有关 MATLAB Compiler 的帮助。您可以手动编译该文件以查明原因:\n{0}</entry>
+    <entry key="PromptToContinueActivation">继续激活</entry>
+    <entry key="QuestdlgYesButtonText">是</entry>
+    <entry key="QuestdlgNoButtonText">否</entry>
+    <entry key="GotoErrorButtonText">定位错误</entry>
+    <entry key="UnsupportedObjectTypesWarningTitle">不支持的对象类型</entry>
+    <entry key="UnsupportedObjectTypes">此 FIG 文件包含以下一个或多个不支持的对象: {0}。GUIDE 会在加载图窗时删除这些不支持的对象。\n\n如果您保存 GUI，FIG 文件将不再包含不支持的对象。</entry>
+    <entry key="GuiFileExtension">.fig</entry>
+    <entry key="NewLineCharacter">\n</entry>
+  </message>
+</rsccat>

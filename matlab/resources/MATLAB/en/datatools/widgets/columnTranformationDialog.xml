@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2021 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+    <message>
+        <!-- Column Transformation Dialog -->
+        <entry key="BUTTON_TITLE">Create/Transform Column</entry>
+        <entry key="BUTTON_DESCRIPTION">Modify or create a new column based on existing values in the table.</entry>
+        <entry key="DIALOG_TITLE">Create/Transform Column</entry>
+        <entry key="DIALOG_TABLE_NAME">Table Name</entry>
+        <entry key="DIALOG_COLUMN_VARIABLE">Column Variable</entry>
+        <entry key="DIALOG_CODE">Code</entry>
+        <entry key="DIALOG_PREVIEW">Preview</entry>
+        <entry key="COMMON_OPERATIONS">Common Operations</entry>
+
+        <entry key="NEW_VARIABLE">New Variable</entry>
+
+        <entry key="COMMON_OPS_CUSTOM">Custom Code</entry>
+        <entry key="COMMON_OPS_LOG">Compute Log of Variable</entry>
+        <entry key="COMMON_OPS_MULT">Multiply Variable by 2</entry>
+        <entry key="COMMON_OPS_ADD">Add two Columns</entry>
+        <entry key="COMMON_OPS_MAKE_DATETIME">Combine Date and Duration into Datetime</entry>
+        <entry key="COMMON_OPS_EXTRACT_TIME">Extract Time from Datetime</entry>
+        <entry key="COMMON_OPS_TO_UPPER">To Uppercase</entry>
+        <entry key="COMMON_OPS_TO_LOWER">To Lowercase</entry>
+        <entry key="COMMON_OPS_TRIM_STRING">Trim Whitespace</entry>
+
+        <entry key="OK">OK</entry>
+        <entry key="CANCEL">Cancel</entry>
+    </message>
+</rsccat>
+

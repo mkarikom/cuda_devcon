@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="dimension_separator"> x </entry>
+    <entry key="warning_message_prefix">警告: </entry>
+    <entry key="toDisableWarning">\n(この警告を表示しないようにするには、''warning off {0}'' と入力してください。)</entry>
+    <entry key="arrayScalIntReq">Scalar integer value required, but value is an array.</entry>
+    <entry key="complexScalIntReq">Scalar integer value required, but value is complex.</entry>
+    <entry key="nonIntegerInput">サイズの入力は整数でなければなりません。</entry>
+    <entry key="nonRealInput">サイズ ベクトルは、実数の要素をもつ行ベクトルでなければなりません。</entry>
+    <entry key="badTypeIndices">配列インデックスは正の整数または logical 値でなければなりません。</entry>
+    <entry key="badTypeIndicesPosition">位置 {0, number, integer} のインデックスが無効です。配列インデックスは正の整数または logical 値でなければなりません。</entry>
+    <entry key="indexExceedsDims">インデックスが配列範囲を超えています。</entry>
+    <entry key="indexExceedsDimsPosition">位置 {0, number, integer} のインデックスが配列範囲を超えています。</entry>
+    <entry key="indexExceedsDimsPositionSize">Index in position {0, number, integer} exceeds array bounds. Index must not exceed {1, number, integer}.</entry>
+    <entry key="indexExceedsDimsLinear">Index exceeds the number of array elements. Index must not exceed {0, number, integer}.</entry>
+    <entry key="indexTooLarge">One or more indices are invalid. Indices must be less than 2^48.</entry>
+    <entry key="indexTooLargePosition">Index in position {0, number, integer} is invalid. Indices must be less than 2^48.</entry>
+    <entry key="logicalIndexExceedsDims">logical インデックスに、配列範囲外の真の値が含まれています。</entry>
+    <entry key="logicalIndexExceedsDimsPosition">位置 {0, number, integer} の logical インデックスに、配列範囲外の true 値が含まれています。</entry>
+    <entry key="singleSubscriptNumelMismatch">左辺と右辺の要素数が異なるため、代入を実行できません。</entry>
+    <entry key="subsassigndimmismatchWithSizes">左辺のサイズが {0} で右辺のサイズが {1} であるため、代入を実行できません。</entry>
+    <entry key="accessBadTypeIndices">{0}({1}) にアクセスしようとしています。インデックスは正の整数または論理値でなければなりません。</entry>
+    <entry key="accessIndexOutOfBoundsNumel">{0}({1}) にアクセスしようとしています。numel({2})={3} のためインデックスの範囲外です。</entry>
+    <entry key="accessIndexOutOfBoundsSize">{0}({1}) にアクセスしようとしています。size({2})=[{3}] のためインデックスの範囲外です。</entry>
+    <entry key="namelengthmaxexceeded">''{0}'' は、MATLAB の最大の名前の長さである {1,number,integer} 文字を超えています。''{2}'' に切り捨てられました。</entry>
+    <entry key="UndefinedFunctionForClass">関数 ''{0}'' は、クラス ''{1}'' の値に対して定義されていません。</entry>
+    <entry key="ambiguousArrayGrowth">あいまいな次元で配列を拡大しようとしています。</entry>
+    <entry key="warning_unexpected_end_of_file">圧縮データの読み取り中に予期しないファイルの終わり (EOF) に達しました。</entry>
+    <entry key="object_wont_fit_down_pipe">シーケンシャル ストリームのサブシステム データを必要とするオブジェクトをシリアル化しようとしています。</entry>
+    <entry key="badUndocumentedFunctionInput">MEX 関数が、記述されていない関数 {0} を無効な引数で呼び出しました。</entry>
+    <entry key="illegalComplexArray">配列は複素数にしないでください。</entry>
+    <entry key="unableToUseTypeAsIndex">{0} 型の値をインデックスとして使用できません。</entry>
+    <entry key="invalidSubsindexReturnType">クラス {0} のメソッド subsindex は、数値配列を返さなければなりません。</entry>
+  </message>
+</rsccat>

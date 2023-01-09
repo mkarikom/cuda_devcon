@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonScalarDate">DATE は数値スカラー、文字ベクトル、または string スカラーでなければなりません。</entry>
+    <entry key="NonScalarArgs">YEAR と MONTH は数値スカラーでなければなりません。</entry>
+    <entry key="InvalidMonth">MONTH は 1 と 12 の間の値でなければなりません。</entry>
+  </message>
+</rsccat>

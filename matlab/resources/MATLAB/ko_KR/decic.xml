@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManySpecified">y0 및 yp0에 {0}개를 초과하는 요소를 지정할 수 없습니다.</entry>
+    <entry key="OptRelTolNotPosScalar">RelTol은 양의 스칼라여야 합니다.</entry>
+    <entry key="OptAbsTolNotPos">AbsTol은 양수여야 합니다.</entry>
+    <entry key="ConvergenceFail">DECIC에 수렴 오류 발생.</entry>
+    <entry key="TooManyFixed">{0}개의 고정 요소를 해제해 보십시오.</entry>
+    <entry key="IndexGTOne">인덱스가 1보다 큽니다.</entry>
+    <entry key="RelTolIncrease">RelTol이 {0}(으)로 증가되었습니다.</entry>
+  </message>
+</rsccat>

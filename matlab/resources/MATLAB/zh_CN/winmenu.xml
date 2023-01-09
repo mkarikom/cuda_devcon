@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedStringArg">无法识别的字符向量参数: ''{0}''</entry>
+    <entry key="InvalidHandleArg">句柄参数必须为图窗或 uimenu 句柄</entry>
+    <entry key="InvalidInputArg">输入参数必须为图窗、uimenu 句柄或 ''callback''</entry>
+    <entry key="WindowMenuNotFound">找不到窗口菜单</entry>
+    <entry key="RequiresFigureHandle">断言: findwinmenu 需要图窗句柄</entry>
+    <entry key="UnexpectedObjType">morewindowscb 中存在异常的对象类型: {0}</entry>
+  </message>
+</rsccat>

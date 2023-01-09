@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2014 The MathWorks, Inc.-->
+ <rsccat version="1.0" locale="en_US" product="MATLAB">
+   <message>
+     <!-- SECTION ONE: exception in matlab/toolbox/matlab/configtools-->
+     <entry key="LogicalScalarHidden"> 'Hidden' value must be a logical scalar.
+     </entry>   
+     <entry key="LogicalScalarReadOnly"> 'ReadOnly' value must be a logical scalar.
+     </entry>
+     </message>
+ </rsccat>

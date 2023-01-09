@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="fieldInStructureMustContainLogical">Structure field must contain logical scalar.</entry>
+    <entry key="unknownInThirdArguments">Unknown field in the structure array input.</entry>
+    <entry key="CombinationOfFieldsNotCurrentlySupported">Solver options must be compatible.</entry>
+    <entry key="inputType">First and second arguments must be single or double.</entry>
+    <entry key="inputDim">First and second arguments must be 2-D.</entry>
+    <entry key="sparseNotSupported">Linsolve is not supported for sparse inputs.</entry>
+    <entry key="thirdArgumentMustBeStructure">Third argument must be a structure array.</entry>
+  </message>
+</rsccat>

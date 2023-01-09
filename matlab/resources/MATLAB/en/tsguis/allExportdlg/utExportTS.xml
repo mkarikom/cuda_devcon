@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="ErrorWritingToExcelWorkbook">Error in writing to Excel workbook</entry>
+      <entry key="TimeSeriesObjectName">Time Series Object Name</entry>
+      <entry key="TimeVectorCharacteristics">Time vector characteristics</entry>
+      <entry key="Length">Length</entry>
+      <entry key="StartDate">Start Date</entry>
+      <entry key="EndDate">End Date</entry>
+      <entry key="StartTime">Start Time</entry>
+      <entry key="EndTime">End Time</entry>
+      <entry key="ReferenceStartDate">Reference Start Date</entry>
+      <entry key="DataCharacteristics">Data characteristics</entry>
+      <entry key="InterpolationMethod">Interpolation Method</entry>
+      <entry key="SampleSize" translate="false" note="TranslateFalseBatch;">SampleSize</entry>
+      <entry key="Time">Time</entry>
+      <entry key="Data">Data</entry>
+      <entry key="XLSWRITEReturnedWarning">XLSWRITE returned a warning</entry>
+      <entry key="CouldNotWriteTimeseriesHeaderInfo">Could not write timeseries header information. </entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+   </message>
+</rsccat>

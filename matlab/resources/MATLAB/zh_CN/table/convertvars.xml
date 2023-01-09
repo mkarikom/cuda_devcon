@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidVars">使用数值或逻辑索引、变量名称或返回逻辑标量的函数句柄指定表变量。</entry>
+    <entry key="InvalidTextType">无法转换为 "{0}" 类型。将数据类型指定为类名称或函数句柄。</entry>
+    <entry key="InvalidType">将数据类型指定为包含类名称的文本或函数句柄。</entry>
+    <entry key="ConvertCharWarning">转换为数据类型 'char' 会将变量转换为字符向量元胞数组而不是字符数组。建议不要将文本数据作为字符数组存储在表中。处理表或时间表中的文本数据时，请考虑使用字符串数组或分类数组。</entry>
+    <entry key="IncorrectNumRows">转换后的变量必须保持与原始变量相同的行数。</entry>
+    <entry key="RowLabelsCannotBeDataVar">不支持使用行名称作为数据变量。</entry>
+    <entry key="RowLabelsCannotBeDataVarNondefaultName">变量名称 ''{0}'' 无法识别。您可能想访问该表中名为 ''{1}'' 的行名称。但是，不支持使用行名称作为数据变量。</entry>
+    <entry key="NonConstantArg">''{0}'' 参数必须为常量。</entry>
+  </message>
+</rsccat>

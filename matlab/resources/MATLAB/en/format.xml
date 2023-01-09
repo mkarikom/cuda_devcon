@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\schema\msgcat.xsd" string_type_for_hole="fl_ustring">
+  <message>
+    <entry key="UnknownOption">Invalid format option {0}.</entry>
+    <entry key="InvalidInput">Invalid data type. Format option must be a character vector, string scalar or an instance of class {0}.</entry>
+    <entry key="MissingOrInvalidClass">The class definition of {0} is corrupt or not on the MATLAB Path. </entry>
+  </message>
+</rsccat>

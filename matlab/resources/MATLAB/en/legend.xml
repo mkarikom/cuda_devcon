@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="max2lhs">The second output argument from LEGEND is not supported and will be removed in a future release.</entry>
+    <entry key="max3lhs">The third and fourth output argument from LEGEND will be removed in a future release.</entry>
+    <entry key="DeprecatedV6Argument">The ''v6'' argument to LEGEND is deprecated and will no longer be supported in a future release.</entry>
+    <entry key="IgnoringExtraEntries">Ignoring extra legend entries.</entry>
+    <entry key="InvalidParent">A legend cannot be a child of an object of type {0}.</entry>
+    <entry key="PlotEmpty">Plot empty.</entry>
+    <entry key="InvalidTask" note="stringDatatypeUpdate">Changing the length of the string scalar or character vector is not supported.</entry>
+    <entry key="UnsupportedFaceColor">Legend not supported for patches with FaceColor ''{0}''</entry>
+    <entry key="UnsupportedEdgeColor">Legend not supported for patches with EdgeColor ''interp''</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="InvalidPeerParameter">Handle must be an axes or child of an axes.</entry>
+    <entry key="InvalidPeerHandle">Handle inputs of type {0} cannot be used with this function.</entry>
+    <entry key="NoCurrentAxes">There is no axes with which to associate a legend.</entry>
+    <entry key="InvalidCellParameter" note="stringDatatypeUpdate">Cell array argument must be a string vector or a cell array of character vectors.</entry>
+    <entry key="UnknownProperty">Unknown property {0}</entry>
+    <entry key="BadNumberOfOutputs">Must have 0, 1, 2, 3, or 4 outputs.</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="CellArrayLabels">''{0}'' interpreted as a legend property name.  To include a label with the same name as a legend property, specify the labels using a cell array or string array.</entry>
+    <entry key="NameValueMismatch">Mismatched number of name-value pair arguments. Specify a property value for each property name.</entry>
+    <entry key="UnknownParameter">Invalid argument. Type ''help legend'' for more information.</entry>
+    <entry key="ObjectsNotLegendable">One or more of the specified objects can not be included in a legend.</entry>
+    <entry key="ParentMustBeSameAsAxes">A legend and its associated axes must have the same parent.</entry>
+    <entry key="AxesMustBeCopied">A legend must be copied with its associated axes. Use a vector input with COPYOBJ in order to copy the legend and axes together.</entry>
+    <entry key="LargeStringLength">Legend text exceeds 25000 characters.</entry>
+    <entry key="FigureCallbacksInItemHitFcn">Setting the figure's {0} property is not supported in legend's ItemHitFcn callback function</entry>
+    <entry key="ErrorWhileEvaluating">{0}\nError while evaluating {1} for legend.</entry>
+    <entry key="NonVectorInputOfGraphics">Specify the data series to include in the legend as a vector of graphics objects.</entry>
+    <entry key="PositionTooBig">'Position' values of the legend must be smaller. Try decreasing them by an order of magnitude. </entry>
+    <entry key="CappingMaxEntries">Limiting legend entries to 50. Specify a vector of graphics objects to display more than 50 entries.</entry>
+</message>
+</rsccat>

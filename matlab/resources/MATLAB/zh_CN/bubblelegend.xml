@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidTarget">目标必须为坐标区对象。</entry>
+    <entry key="InvalidTitle">Title 必须为字符向量、字符向量元胞数组或字符串数组。</entry>
+    <entry key="TargetParentNotEqual">您指定的坐标区是与您指定的 'Parent' 属性不同的父对象的子级。</entry>
+    <entry key="InvalidNumBubbles">'NumBubbles' 必须为 2 或 3。</entry>
+    <entry key="InvalidLimitLabels">'LimitLabels' 必须为字符向量元胞数组或具有 2 或 3 个元素的字符串数组。</entry>
+  </message>
+</rsccat>

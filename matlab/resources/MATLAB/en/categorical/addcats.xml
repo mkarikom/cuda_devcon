@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2013-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NoBeforeOrAfter">You must specify either 'Before' or 'After' for an ordinal array.</entry>
+    <entry key="BeforeAndAfter">Specify either 'Before' or 'After', but not both.</entry>
+    <entry key="InvalidCategoryName" note="stringDatatypeUpdate">{0} must be a character vector or string scalar.</entry>
+    <entry key="UnrecognizedCategory">''{0}'' is not a category in A.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputTypesMismatch">기간은 duration형 입력값과 쌍을 이루어야 합니다.</entry>
+    <entry key="TimeZonesMismatch">표준 시간대가 지정된 datetime형과 표준 시간대가 지정되지 않은 datetime형은 서로 결합할 수 없습니다.</entry>
+    <entry key="UnitOfTimeTypesMismatch">duration형은 구간 유형을 지정할 때에만 사용할 수 있습니다. 시간 단위를 지정할 때에는 datetime형을 사용하십시오.</entry>
+    <entry key="TabularInput">{0}은(는) 유효한 입력 인수가 아닙니다. TIMERANGE를 호출할 때는 입력값에 두 개의 datetime형이나 두 개의 duration형을 지정해야 하고, 타임테이블에 대한 첨자는 출력값으로 지정해야 합니다.</entry>
+    <entry key="NonScalarInput">인수는 스칼라여야 합니다.</entry>
+    <entry key="AmbiguousUnitOfTime">시간 단위로서 'm' 값이 모호합니다. ''{0}'' 또는 ''{1}''입니까?</entry>
+    <entry key="InvalidIntervalType">세 번째 인수를 구간 유형('openright', 'openleft', 'open', 'closed') 또는 시간 단위('years', 'quarters', 'months', 'weeks', 'days', 'hours', 'minutes', 'seconds')로 지정하십시오.</entry>
+    <entry key="InvalidSubscripter">TIMERANGE를 사용한 첨자는 타임테이블의 행을 선택할 때에만 지원됩니다.</entry>
+    <entry key="InvalidTimes">TIMERANGE 끝점은 datetime형 또는 duration형 스칼라이거나 datetime형 또는 duration형 스칼라를 나타내는 텍스트여야 합니다.</entry>
+    <entry key="MismatchRowTimesType">{0} 행 시간값을 갖는 타임테이블에 대한 첨자는 {1} 값을 사용하여 표현될 수 없습니다.</entry>
+    <entry key="IncompatibleLoad">이 MATLAB 버전과 호환되지 않으므로 저장된 timerange 객체를 불러올 수 없음</entry>
+    <entry key="UIStringDispHeader">타임테이블의 &lt;a href="matlab:doc(''timerange'')"&gt;timerange&lt;/a&gt; 첨자:</entry>
+    <entry key="UIStringDispOpen">다음 열린 구간 내에 있는 시간값을 갖는 타임테이블 행을 선택하십시오.\n\t\t({0}, {1})</entry>
+    <entry key="UIStringDispClosed">다음 닫힌 구간 내에 있는 시간값을 갖는 타임테이블 행을 선택하십시오.\n\t\t[{0}, {1}]</entry>
+    <entry key="UIStringDispLeftOpen">다음 반열린 구간 내에 있는 시간값을 갖는 타임테이블 행을 선택하십시오.\n\t\t({0}, {1}]</entry>
+    <entry key="UIStringDispRightOpen">다음 반열린 구간 내에 있는 시간값을 갖는 타임테이블 행을 선택하십시오.\n\t\t[{0}, {1})</entry>
+    <entry key="UIStringDispUnitOfTime">다음 구간 내 시간값을 갖는 타임테이블 행 선택: {0}\n\t\t 시작값(값 포함): {1}\n\t\t 끝값(값 제외): {2}</entry>
+    <entry key="UIStringDispNaTNaNEndpoint">끝값이 {0}이므로 선택할 수 있는 행이 없습니다.</entry>
+    <entry key="UIStringDispNullRange">왼쪽 끝점이 오른쪽 끝점과 같은 위치에 있거나, 왼쪽 끝점이 오른쪽 끝점 이후에 있기 때문에 선택할 수 있는 행이 없습니다.</entry>
+    <entry key="UIStringDispFooter">&lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','subscript-into-times-of-timetable.html'))"&gt;행 시간값 및 변수 유형을 기준으로 타임테이블 데이터 선택하기&lt;/a&gt;를 참조하십시오.</entry>
+    <entry key="TextInputsNotSupported">코드 생성 시 TIMERANGE 끝점을 텍스트로 지정할 수 없습니다. duration형 끝점을 대신 지정하십시오.</entry>
+    <entry key="NonConstTypeOrUnit">시간 입력값의 구간 유형 및 단위는 상수여야 합니다.</entry>
+    <entry key="UnitOfTimeNotSupported">코드 생성 시 TIMERANGE에 시간 단위를 지정할 수 없습니다.</entry>
+  </message>
+</rsccat>

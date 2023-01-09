@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="invalidsignalname">Slashes (''/'') are not allowed in the names of time series.</entry>
+      <entry key="NDdata">Time series ''{0}'' has data of size [{1}].\nThe higher dimensions have been folded in as extra columns in Time Series Tools.</entry>
+      <entry key="nondoubledata">Data in time series ''{0}'' was converted to double.</entry>
+      <entry key="sparsedata">Data in time series ''{0}'' was converted from sparse to full.</entry>
+      <entry key="largesparsedata">Data in time series ''{0}'' could not be converted from sparse to full due to the memory limit.</entry>
+      <entry key="infindata">Infs in time series ''{0}'' were converted to NaNs.</entry>
+      <entry key="missingqualitydesc">Quality information was removed from ''{0}'' because no description was found in QualityInfo.</entry>
+      <entry key="eventunitsreconciled">Units of event ''{0}'' were changed to those of time series ''{1}''.</entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+      <entry key="CannotUseComplexvaluedTS">Cannot use complex-valued time series within Time Series Tools.\nImport of ''{0}'' failed.</entry>
+      <entry key="CannotUseTSWithEmptyNames">Cannot use time series with empty names within Time Series Tools.\nImport failed.</entry>
+      <entry key="TimeSeriesQualitySameSizeAsTimeVector">Time series quality must be the same size as the time vector in Time Series Tools.\nImport failed.</entry>
+      <entry key="ConvertingSparseDataInTimeSeriesToDouble">Converting sparse data in time series to double...</entry>
+   </message>
+</rsccat>

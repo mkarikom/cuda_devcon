@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="KeyWithoutValue">No value given for {0}.</entry>
+    <entry key="ParseFlagsDir">Parameter name must be ''Type'' or ''OutputForm''.</entry>
+    <entry key="ParseFlagsUndir">Parameter name must be ''OutputForm''.</entry>
+    <entry key="ParseOutput">OutputForm value must be ''vector'' or ''cell''.</entry>
+    <entry key="ParseTypeDir">Type value must be ''strong'' or ''weak''.</entry>
+    <entry key="ParseTypeUndir">Parameter name ''Type'' not supported for undirected graphs.</entry>
+    <entry key="CodegenCellNotSupported">Cell output not supported for code generation.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <entry key="CharData" note="stringDatatypeUpdate">Unable to use a character array as a grouping variable.  First convert the character array to a cell array of character vectors using cellstr. Then specify the cell array as a grouping variable.</entry>
+        <entry key="GroupingVarNotVector">A grouping variable must be a vector.</entry>
+        <entry key="GroupTypeIncorrect">A grouping variable of class ''{0}'' is not supported.</entry>
+        <entry key="InputSizeMismatch">All grouping variables must have the same size.</entry>
+        <entry key="VarUniqueMethodFailed">Unable to group rows using unique values of the input variables. UNIQUE returned an error.</entry>
+        <entry key="VarUniqueMethodFailedNumRows">Unable to group rows using unique values of the input variables. The value returned by the UNIQUE method had the wrong number of rows.</entry>    
+    </message>
+</rsccat>

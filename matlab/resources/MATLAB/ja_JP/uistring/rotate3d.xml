@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Reset">元の表示にリセット</entry>
+    <entry key="SnapToXY">X-Y 表示に移動</entry>
+    <entry key="SnapToXZ">X-Z 表示に移動</entry>
+    <entry key="SnapToYZ">Y-Z 表示に移動</entry>
+    <entry key="Rotate_Options">回転オプション</entry>
+    <entry key="Rotate_Fast">プロット ボックスの回転</entry>
+    <entry key="Rotate_Continuous">連続回転</entry>
+    <entry key="StretchToFill">座標軸を全体に広げる</entry>
+    <entry key="FixedAspectRatio">座標軸の縦横比を固定</entry>
+    <entry key="Azimuth">方位角</entry>
+    <entry key="Elevation">仰角</entry>
+  </message>
+</rsccat>

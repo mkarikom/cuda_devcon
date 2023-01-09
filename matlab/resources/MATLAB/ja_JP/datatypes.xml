@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidEnumValue">''{0}'' は有効な値ではありません。次のいずれかの値を使用してください。 {1} </entry>
+    <entry key="InvalidEnumValueFor">列挙値が無効です。次のいずれかの値を使用してください。 {0} </entry>
+    <entry key="InvalidValue">値を空にすることはできません。次のいずれかの値を使用してください。 {0} </entry>
+    <entry key="InvalidFiniteValue">値は有限の実数でなければなりません。</entry>
+    <entry key="invalidLightingStrength">数値スカラーではない値</entry>
+    <entry key="invalidPositive">数値スカラーではない値</entry>
+    <entry key="invalidPositiveInteger">数値スカラーではない値</entry>
+    <entry key="invalidNoNaN">数値スカラーではない値</entry>
+    <entry key="invalidZeroToOne">数値スカラーではない値</entry>
+    <entry key="MustBeString">入力は string 配列でなければなりません。</entry>
+    <entry key="OutOfMemory">メモリが足りません。オプションについては、"help memory" と入力してください。</entry>
+    <entry key="OutsideRangeFiniteGreater0">値は 0 より大きい有限の数値でなければなりません</entry>
+    <entry key="OutsideRangeIntegerGreater0">値は 0 より大きい整数でなければなりません</entry>
+    <entry key="OutsideRange0to1">値は 0 と 1 の間でなければなりません</entry>
+    <entry key="OutsideRangeNaN0to1">値は NaN であるか、0.0 &lt;= 値 &lt;= 1.0 の範囲外です</entry>
+    <entry key="OutsideRangeValidNumber">値は有効な数値でなければなりません</entry>
+    <entry key="ParseException">{0} の値を解析できません</entry>
+    <entry key="superiorfloat">入力は float、つまり single か double でなければなりません。</entry>
+    <entry key="UnhandledMxArrayToStringConversion">MxArray を文字ベクトルに変換できません。</entry>
+    <entry key="InvalidZLocationValue">ZLocation 値は ''zmin''、''zmax''、または数値スカラーでなければなりません。</entry>
+    <entry key="AmbiguousChoice">入力があいまいです: ''{0}''。</entry>
+  </message>
+</rsccat>

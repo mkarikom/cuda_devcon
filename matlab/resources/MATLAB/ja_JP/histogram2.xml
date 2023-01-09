@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNameValueMismatch">後続の入力引数は名前と値のペアでなければなりません。</entry>
+    <entry key="BinCountsInvalidSize">''BinCounts'' は、''NumBins''、''BinWidth''、''BinMethod''、''XBinLimits'' または ''YBinLimits'' のいずれかが設定されている場合は設定できず、サイズが [length(XBinEdges)-1 length(YBinEdges)-1] の行列でなければなりません。</entry>
+    <entry key="EmptyBinCountsManualMode">''BinCountsMode'' が ''manual'' に設定されている場合、''BinCounts'' が設定されなければなりません。</entry>
+    <entry key="EmptyXBinLimitsManualMode">''XBinLimitsMode'' が ''manual'' に設定されている場合、''XBinEdges'' または ''XBinLimits'' が設定されなければなりません。</entry>
+    <entry key="EmptyYBinLimitsManualMode">''YBinLimitsMode'' が ''manual'' に設定されている場合、''YBinEdges'' または ''YBinLimits'' が設定されなければなりません。</entry>
+    <entry key="EmptyOrScalarXBinEdges">XBinEdges は 2 以上の長さのベクトルでなければなりません。</entry>
+    <entry key="EmptyOrScalarYBinEdges">YBinEdges は 2 以上の長さのベクトルでなければなりません。</entry>
+    <entry key="InvalidTileFaceColor">''DisplayStyle'' が ''tile'' に設定されている場合、FaceColor は ''flat'' でなければなりません。</entry>
+    <entry key="InvalidTileFaceLighting">''DisplayStyle'' が ''tile'' に設定されている場合、FaceLighting は ''none'' でなければなりません。</entry>
+    <entry key="InvalidBinMethod">BinMethod は ''manual'' には設定できません。</entry>
+    <entry key="InvalidColor">''{0}'' 入力は有効な色ではありません。</entry>
+    <entry key="InvalidMixedXBinInputs">''NumBins''、''BinWidth''、''BinMethod'' または ''XBinLimits'' のいずれも、''XBinEdges'' 入力の後ろに続けることはできません。</entry>
+    <entry key="InvalidMixedYBinInputs">''NumBins''、''BinWidth''、''BinMethod'' または ''YBinLimits'' のいずれも、''YBinEdges'' 入力の後ろに続けることはできません。</entry>
+    <entry key="BinCountsXEdgesMismatch">''BinCountsMode'' が ''manual'' の場合、''XBinEdges'' の長さは ''BinCounts'' の行数 + 1 でなければなりません。</entry>
+    <entry key="BinCountsYEdgesMismatch">''BinCountsMode'' が ''manual'' の場合、''YBinEdges'' の長さは ''BinCounts'' の列数 + 1 でなければなりません。</entry>
+    <entry key="MixedDataBinCounts">X と Y の入力が空でない場合、BinCounts は設定できません。</entry>
+    <entry key="MissingYInput">X と Y の入力は数値または論理値であり、サイズが同じでなければなりません。</entry>
+    <entry key="NonEmptyBinCountsAutoMode">''BinCountsMode'' が ''auto'' に設定されている場合、''BinCounts'' は設定できません。</entry>
+    <entry key="NonEmptyXBinLimitsAutoMode">''XBinLimitsMode'' が ''auto'' に設定されている場合、''XBinEdges'' および ''XBinLimits'' は設定できません。</entry>
+    <entry key="NonEmptyYBinLimitsAutoMode">''YBinLimitsMode'' が ''auto'' に設定されている場合、''YBinEdges'' および ''YBinLimits'' は設定できません。</entry>
+    <entry key="ReadOnlyPropertyManualBinCounts">BinCountsMode が ''manual'' の場合、{0} は設定できません。</entry>
+    <entry key="TransparencyNotSupported">ソフトウェア OpenGL のレンダラーでは透明度はサポートされていません。Figure のレンダラーを ''painters'' に設定することを検討してください。</entry>
+    <entry key="UnsupportedMethodManualBinCounts">BinCountsMode が ''manual'' の場合、{0} はサポートされません。</entry>
+    <entry key="Value">値</entry>
+    <entry key="XBinEdges">X のビンのエッジ</entry>
+    <entry key="YBinEdges">Y のビンのエッジ</entry>
+  </message>
+</rsccat>

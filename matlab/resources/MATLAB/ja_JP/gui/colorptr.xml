@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ColormapElementOutOfRange">カラーマップの要素が範囲外です。RGB の強度は、0.0 &lt;= 強度 &lt;= 1.0 の範囲で正規化しなければなりません。\"max(max(&lt;colormap&gt;))\" でカラーマップをスケーリングし、正規化してください。</entry>
+    <entry key="DithermapElementOutOfRange">ディザーマップの要素が範囲外です。RGB の強度は、0.0 &lt;= 強度 &lt;= 1.0 の範囲で正規化しなければなりません。\"max(max(&lt;dithermap&gt;))\" でカラーマップをスケーリングし、正規化してください。</entry>
+  </message>
+</rsccat>

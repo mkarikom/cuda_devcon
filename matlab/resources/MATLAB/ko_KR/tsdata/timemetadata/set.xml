@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invSyntax">출력 인수는 SET(H) 또는 SET(H,Property)에서만 허용됩니다.</entry>
+    <entry key="badVar">SET에 대한 첫 번째 인수는 명명된 변수여야 합니다. timeseries 객체 내에 저장된 메타데이터의 속성을 설정하려면 점 표기법을 사용하십시오.</entry>
+    <entry key="invPropValPairs">속성/값 쌍은 반드시 짝수여야 합니다.</entry>
+  </message>
+</rsccat>

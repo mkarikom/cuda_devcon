@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidOption">''{0}'' は無効なオプションです。</entry>
+    <entry key="SHFileOperationErrorID">SHFileOperation で返されたエラー コードは {0} です。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed">
+  <message>
+    <entry key="InvalidInput">Invalid input.</entry>
+    <entry key="UnrecognizedComponent">Unrecognized datetime component.</entry>
+    <entry key="InvalidComponent">Invalid datetime component.</entry>
+    <entry key="InvalidComponentOrder">Datetime components must be specified in decreasing order.</entry>
+    <entry key="InvalidUnit">Invalid datetime unit.</entry>
+    <entry key="FormatError" note="stringDatatypeUpdate">Unable to format datetime character vector or string using the format ''{0}'': {1}.</entry>
+    <entry key="ICUError">ICU error: {0}, err=''{1}''.</entry>
+    <entry key="RangeError">Datetime value exceeds calendar limits.</entry>
+    <entry key="HourMinuteSecondOverflow">Unable to create a datetime with a timezone using hours, minutes and seconds outside the conventional range. The sum of hours, minutes and seconds cannot exceed 24 days.</entry>
+ </message>
+</rsccat>

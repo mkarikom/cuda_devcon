@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badcast">이 유형의 세로 좌표 데이터 객체에 대하여 재배치(Permute)하지 못했습니다.\n이 객체에 대해 double형 cast 메서드 또는 오버로드된 덧셈(addition)을 구현해 보십시오.</entry>
+  </message>
+</rsccat>

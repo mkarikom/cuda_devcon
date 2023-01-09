@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="sparseDimensionBad">スパース行列の連結の次元は、2 以下でなければなりません。</entry>
+    <entry key="incompatibleType">連結される配列に、互換性のないクラスがあります。</entry>
+    <entry key="structFieldBadNumber">連結する構造体配列のフィールド数が一致しません。構造体配列の連結では、それぞれの配列の一連のフィールドが同じであることが必要です。</entry>
+    <entry key="structFieldBadNames">連結する構造体配列のフィールド名が一致しません。構造体配列の連結では、それぞれの配列の一連のフィールドが同じであることが必要です。</entry>
+    <entry key="emptyArrayColumnsDimensionMismatch">この連結演算には列数が正しくない空の配列が含まれています。\n将来のリリースでは、空の配列を含む連結においてすべての配列の列数が同じであることが必要になります。</entry>
+    <entry key="emptyArrayRowsDimensionMismatch">この連結演算には行数が正しくない空の配列が含まれています。\n将来のリリースでは、空の配列を含む連結においてすべての配列の行数が同じであることが必要になります。</entry>
+    <entry key="cellDimensionMismatch">連結するセル配列の次元が一致しません。</entry>
+    <entry key="sparseDimensionMismatch">連結には次元数が 2 より大きい配列のスパースへの変換を伴います。</entry>
+    <entry key="opaqueDimensionMismatch">連結するオブジェクト配列の次元が一致しません。</entry>
+    <entry key="matrixDimensionMismatch">連結する配列の次元が一致しません。</entry>
+    <entry key="implicitTypeConversionGivesDimensionMismatch">{0} ''{1}'' 配列が {2} ''{3}'' 配列に変換されたため、連結の次元が矛盾しています。連結する前に同じ型の配列を作成することを検討してください。</entry>
+    <entry key="resultDimensionMismatch">結果の配列の次元が、連結する配列の次元と一致しません。</entry>
+    <entry key="maxNDims">DIM の入力が次元の最大数を超えています。</entry>
+    <entry key="invalidDimension">次元の引数は実数で正の整数スカラーでなければなりません。</entry>
+  </message>
+</rsccat>

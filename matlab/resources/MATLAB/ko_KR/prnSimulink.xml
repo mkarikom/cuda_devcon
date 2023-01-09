@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="openSystem">Simulink는 이 버전의 MATLAB에서 사용할 수 없습니다.</entry>
+    <entry key="opnMdlName">Simulink 시스템 이름 ''{0}''이(가) 존재하지 않거나 열려 있지 않습니다.</entry>
+    <entry key="sysName">Simulink 시스템 이름 ''{0}''이(가) 고유하지 않습니다.</entry>
+    <entry key="sysNameUnopened">Simulink 시스템 이름 ''{0}''은(는) 열린 블록 다이어그램 또는 서브시스템이 아닙니다.</entry>
+    <entry key="argOpt">-s 선택적으로 출력할 수 있는 Simulink 시스템이 없습니다.</entry>
+    <entry key="expBlkName">블록 이름 ''{0}''이(가) 아닌 Simulink 시스템 이름이 필요합니다.</entry>
+  </message>
+</rsccat>

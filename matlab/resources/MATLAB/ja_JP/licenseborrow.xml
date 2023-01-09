@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="appFigureName">MathWorks ライセンスの借入</entry>
+    <entry key="prodStatus">製品ステータス</entry>
+    <entry key="borrowButton">借入</entry>
+    <entry key="returnButton">返却</entry>
+    <entry key="autoOnButton">自動借入をオンにする</entry>
+    <entry key="autoOffButton">自動借入をオフにする</entry>
+    <entry key="closeButton">閉じる</entry>
+    <entry key="borrowOffDlgTitle">自動借入をオフにします</entry>
+    <entry key="borrowOffDlgMsg">製品は正常に借入されました。オフラインで作業する前に、すべての製品がインストールされていることを確認してください。</entry>
+    <entry key="returnWarnTitle">製品を返却できません</entry>
+    <entry key="returnWarnMsg">借入したときと同じ MATLAB セッション中にその製品を返却することはできません。製品を返却するには MATLAB を再起動してください。</entry>
+    <entry key="untilDateLabel">({0} まで)</entry>
+    <entry key="borrowPeriodLabel">借入期間の指定</entry>
+    <entry key="borrowDateSpinnerLabel">借入する日数</entry>
+    <entry key="prodColumnHeading">製品名</entry>
+    <entry key="inuseColumnHeading">使用中</entry>
+    <entry key="statusColumnHeading">借入状態</entry>
+    <entry key="dateColumnHeading">返却日</entry>
+    <entry key="fromListRadioLabel">リストから選択することで選択した製品を借入します。</entry>
+    <entry key="fromListRadioText">借入する製品を選択します。選択した製品のみ借入されます。</entry>
+    <entry key="autoRadioLabel">製品の借入を自動的に行います。</entry>
+    <entry key="autoRadioText">現在使用しているすべての製品を借入し、さらに製品の借入を自動的に継続します。</entry>
+    <entry key="returnRadioLabel">借入した製品を早めに返却します。</entry>
+    <entry key="returnRadioText">選択した製品を返却します。現在製品を使用中の場合、MATLAB を閉じるまでそれらはチェックインされません。</entry>
+    <entry key="autoBorrowText">自動借入をオンにします。\n操作を続けると製品が自動的に借入されます。\nこのウィンドウを閉じて借入を続けることができます。\n必要なすべての製品を借入したら、[自動借入をオフにする] をクリックしてステータス テーブルを表示します。</entry>
+    <entry key="borrowErrorTitle">ライセンスの借入でエラーが発生</entry>
+    <entry key="borrowErrorMsg">{0} のライセンスの借入でエラーが発生しました。\n{1}</entry>
+    <entry key="returnErrorTitle">ライセンスの返却でエラーが発生</entry>
+    <entry key="returnErrorMsg">{0} のライセンスの返却でエラーが発生しました。\n{1}</entry>
+    <entry key="yesLabel">はい</entry>
+    <entry key="individual">インディビデュアル</entry>
+    <entry key="borrowed">借入済</entry>
+  </message>
+</rsccat>

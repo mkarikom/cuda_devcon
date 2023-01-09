@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="mf0" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CannotSerialize">このオブジェクトはシリアル化できません。</entry>
+    <entry key="CannotSerializeWithException">このオブジェクトはシリアル化できません。例外: {0}</entry>
+    <entry key="InvalidSerializeIdentification">{0} はタイプ {1} のオブジェクトの識別には使用できません。</entry>
+    <entry key="IntermediateFormatNotSupported">このシリアライザーは中間形式をサポートしていません。</entry>
+    <entry key="CannotParseValueAsType">{0} を {1} として解析できませんでした。</entry>
+    <entry key="UnderlyingParserProblem">解析できませんでした: {0}</entry>
+    <entry key="CannotInstantiateType">{0} 型のインスタンスを作成できませんでした。</entry>
+    <entry key="DanglingReference">未接続の {0} の参照に対する関連付けを確立できません。</entry>
+    <entry key="FileNotFound">ファイル {0} は存在しないか、読み取ることができません。</entry>
+    <entry key="CorruptInput">入力を解析できません。形式が正しくありません。</entry>
+    <entry key="CorruptInputWithException">入力を解析できません。形式が正しくありません。例外: {0}</entry>
+    <entry key="CannotApplyChangeReport">変更レポートを適用できません。変更は現在のステートと互換性がありません</entry>
+    <entry key="InvalidPropertyValueCustomizer">プロパティ値カスタマイザーが無効です。</entry>
+    <entry key="CannotEvolve">旧式のファイルを解析できません: 拡張サービスが見つかりません</entry>
+    <entry key="CannotSerializeModel">URI {0} のモデルを保存できません</entry>
+    <entry key="CannotSerializeModelWithException">URI {0} のモデルを保存できません。例外: {1}</entry>
+    <entry key="CannotSaveModelInLocation">モデルを場所 {0} に保存できません</entry>
+    <entry key="SerializerNotFound">次の形式 {0} についてシリアライザーが見つかりません</entry>
+    <entry key="ModelConstellationSaveFailed">モデルのコンスタレーションをシリアル化できませんでした。必要な場合は、前の状態に戻すことを検討してください。\n詳細: {0}</entry>
+    <entry key="CannotParseIntoNonEmptyModel">"サポートされない処理です。複数モデルの配置では解析する前に、モデルを空にする必要があります"</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CannotFindXVisual">Failed to find an X visual.</entry>
+  <!--Resource entries for src/uix-->
+    <entry key="BadBitDepth">MATLAB does not support bit depths less than or equal to 8.\nFigure windows may not be usable</entry>
+  </message>
+</rsccat>

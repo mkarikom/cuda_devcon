@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CantUnstackTabularVariable">Unstacking table or timetable variables is not supported. Use SPLITVARS to split ''{0}'' into multiple variables.</entry>
+    <entry key="MultipleIndVar">指示变量必须指定为单个变量。</entry>
+    <entry key="InvalidAggregationFun">聚合函数必须指定为函数句柄。</entry>
+    <entry key="ConflictingGroupAndDataVars">分组变量和数据变量不能有共同的变量。</entry>
+    <entry key="ConflictingIndVar">指示变量不能为分组变量或数据变量。</entry>
+    <entry key="ConflictingConstVars">常变量不能为指示变量、数据变量或分组变量。</entry>
+    <entry key="MultipleRows">UNIQUE 用作默认聚合函数时返回了非标量值。请指定返回标量值的聚合函数。</entry>
+    <entry key="NonscalarAggFunValue">聚合函数必须始终返回标量值，即使输入表中的组对于给定的指示变量值有零行或多行。</entry>
+    <entry key="BadAggFunValueSize">聚合函数必须返回其大小符合数据变量 ''{0}'' 的元素数的值。</entry>
+    <entry key="ConflictingNewDataVarNames">结果中为分叠数据变量提供的名称与结果中的其他变量名称冲突。</entry>
+    <entry key="BadAggFunValueClass">聚合函数必须返回一个可转换为数据变量 ''{0}'' 的类的数值或逻辑值。</entry>
+    <entry key="AssignmentError">将聚合函数的输出赋给表变量 ''{0}'' 时出错。</entry>
+    <entry key="CantUnstackRowLabels">不支持对表行名称进行分叠。请创建一个其中以变量形式包含这些行名称的表。</entry>
+    <entry key="CantUnstackWithRowLabelsIndicator">不支持使用行名称作为指示变量对表进行分叠。请创建一个其中以变量形式包含这些行名称的表。</entry>
+    <entry key="FillValueChange">对于给定的指示变量值，如果组不包含任何行，则 UNSTACK 会使用大小为 0×1 的输入来调用提供的聚合函数，而不是自动填充值。检查输出，以确保获得期望的结果。此警告可能会在以后的版本中删除。</entry>
+    <entry key="NewDataVarNameLengthMismatch">指示变量中有 {0} 个唯一值。请使用 NEWDATAVARIABLENAMES 名称-值对组指定 {0} 个变量名称。</entry>
+    <entry key="NewDataVarNamesEmptyDataVars">当没有要分叠的变量时，新数据变量名称应为空。</entry>
+    <entry key="UndefinedNewDataVariableNames">生成代码时，必须指定新数据变量名称。</entry>
+    <entry key="NonconstantDataVars">Data variables must be constant.</entry>
+    <entry key="NonconstantIndicatorVar">Indicator variable must be constant.</entry>
+    <entry key="NonconstantGroupingVars">Grouping variables must be constant.</entry>
+    <entry key="NonconstantConstantVars">Constant variables must be constant.</entry>
+    <entry key="NonconstantNewDataVariableNames">New data variable names must be constant.</entry>
+    <entry key="NonconstantAggregationFun">Aggregation function must be constant.</entry>
+    <entry key="MismatchedNewDataVariableNames">新数据变量名称的数量必须等于指示变量中唯一值的数目。</entry>
+    <entry key="CellArrayDataVars">对于代码生成，默认聚合函数不支持元胞数组输入。请指定不同聚合函数。</entry>
+  </message>
+</rsccat>

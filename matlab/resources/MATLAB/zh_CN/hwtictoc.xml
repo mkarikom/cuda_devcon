@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="bad_event">不支持 hwtic(''{0}'')。</entry>
+    <entry key="hwticUnsupported">不支持 hwtic。</entry>
+    <entry key="hwtocUnsupported">不支持 hwtoc。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFormat">입력값이 [x y w h] 형태가 아님</entry>
+    <entry key="NullDataPointer">입력 배열에 NULL 데이터 포인터가 있음</entry>
+    <entry key="InvalidWidthAndHeight">Width 또는 Height 값은 0보다 작을 수 없습니다.</entry>
+    <entry key="InvalidDataType">유효하지 않은 데이터형입니다.</entry>
+  </message>
+</rsccat>

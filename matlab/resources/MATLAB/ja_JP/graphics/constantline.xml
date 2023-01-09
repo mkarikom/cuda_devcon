@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MatrixOfValues">Specify multiple values as a vector instead of a matrix.</entry>
+    <entry key="NoValues">1 つの値を渡さなければなりません。</entry>
+    <entry key="InvalidParent">親は座標軸でなければなりません。</entry>
+    <entry key="DeletedParent">親は削除されたグラフィックス オブジェクトです。</entry>
+    <entry key="IgnoredMarker">マーカーの入力は無視されます。</entry>
+    <entry key="NaNValue">NaN は有効な値ではありません。</entry>
+    <entry key="FiniteComplexValue"> 'Value' は有限の実数でなければなりません。</entry>
+    <entry key="InvalidData">値は次のいずれかでなければなりません: 'numeric' | 'datetime' | 'categorical' | 'duration'</entry>
+    <entry key="EmptyInput">値を空にしてはなりません。</entry>
+    <entry key="LabelsMismatchNumberOfValues">When Values and Labels both contain multiple elements, they must be the same size.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- Copyright 2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NoVM">JVM is not running.</entry>
+    <entry key="ThreadNotAttached">Thread is not attached to the JVM.</entry>
+    <entry key="NoEnv">Unable to acquire JNI Env pointer.</entry>
+    <entry key="InvalidMethodID">Java method ID has not been initialized.</entry>
+    <entry key="InvalidFieldID">Java field ID has not been initialized.</entry>
+    <entry key="NoSuchClass">Cannot locate or initialize class {0}.\n{1}</entry>
+    <entry key="NoSuchMethod">No method {0} exists in Java class.\n{1}</entry>
+    <entry key="NoSuchField">No public field {0} exists in Java class.\n{1}</entry>
+    <entry key="OutOfMemory">Insufficient Java heap memory to continue operation.\n{0}</entry>
+    <entry key="ArrayIndexOutOfBoundsException">Index exceeds Java array dimensions.\n{0}</entry>
+    <entry key="ArrayStoreException">Error setting Java array values.\n{0}</entry>
+    <entry key="GenericJavaException">{0}\n{1}</entry>
+    <entry key="ExceptionRecursion">Failed to retrieve exception message.</entry>
+    <entry key="NullJavaPointer">Null Java reference.</entry>
+  </message>
+</rsccat>

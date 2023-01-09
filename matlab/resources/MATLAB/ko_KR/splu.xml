@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="incUoneZeroDiagReplacedByDroptol">불완전 상부 삼각 인수에서 하나의 0 대각선 요소가 국소 기각 허용오차로 대체되었습니다. 반복법에 좋은 선조건자(Preconditioner)는 아닐 수 있습니다.</entry>
+    <entry key="incUzeroDiagsReplacedByDroptol">불완전 상부 삼각 인수에서 {0,number,integer}개의 0 대각선 요소가 국소 기각 허용오차로 대체되었습니다. 반복법에 좋은 선조건자(Preconditioner)는 아닐 수 있습니다.</entry>
+    <entry key="incUhas1zeroDiag">불완전 상부 삼각 인수에 하나의 0 대각선 요소가 들어 있습니다. 반복법에 좋은 선조건자(Preconditioner)는 아닐 수 있습니다.</entry>
+    <entry key="incUhasZeroDiags">불완전 상부 삼각 인수에 {0,number,integer}개의 0 대각선 요소가 들어 있습니다. 반복법에 좋은 선조건자(Preconditioner)는 아닐 수 있습니다.</entry>
+  </message>
+</rsccat>

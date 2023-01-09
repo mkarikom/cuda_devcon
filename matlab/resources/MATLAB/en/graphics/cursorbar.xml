@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invalidPosition">Position must have 2 or 3 elements</entry>
+    <entry key="invalidOrientation">Cursorbar''s Orientation can only be set to ''vertical'' or ''horizontal''</entry>
+    <entry key="invalidInput">Second input must be handles for line objects.</entry>
+  </message>
+</rsccat>

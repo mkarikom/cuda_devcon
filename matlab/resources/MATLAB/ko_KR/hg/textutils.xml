@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="rectangle2DtoMx">메모리가 부족하여 텍스트 범위에 행렬을 할당할 수 없음</entry>
+    <entry key="InputArgumentNotFont">입력 인수가 글꼴 유형이 아닙니다.</entry>
+    <entry key="ExpectedScalarFontObject">스칼라 글꼴 객체가 필요합니다.</entry>
+    <entry key="invalidContext">이 메서드는 doUpdate 내에서 호출해야 합니다.</entry>
+    <entry key="StringSyntaxError">string형 스칼라 또는 문자형 벡터에 유효한 인터프리터 구문이 있어야 합니다.</entry>
+  </message>
+</rsccat>

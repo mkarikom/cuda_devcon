@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArrayNull">入力は NULL です</entry>
+    <entry key="ArrayClass">入力はサポートされないクラスです</entry>
+    <entry key="ArrayShape">入力は 2 でなければなりません</entry>
+    <entry key="InvalidWidth">2 番目の行の値は、最初の行の値以上でなければなりません</entry>
+  </message>
+</rsccat>

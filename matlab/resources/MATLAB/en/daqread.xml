@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="notEnoughInputs">Not enough input arguments.</entry>
+    <entry key="tooManyInputs">Too many input arguments.</entry>
+    <entry key="tooManyOutputs">Too many input arguments.</entry>
+    <entry key="invalidFilename">Invalid filename specified to daqread.</entry>
+    <entry key="invalidFile">Unable to open specified file: ''{0}''.</entry>
+	<entry key="invalidDAQFile">''{0}'' is not a valid Data Acquisition Toolbox file.</entry>
+	<entry key="truncatedFile">Truncated file, attempting to recover as much data as possible.</entry>
+	<entry key="cannotRead">The data file cannot be read. The following error occurred while reading the file:\n {0}.</entry>
+	<entry key="invalidSecondArgument">Invalid second argument specified.</entry>
+	<entry key="onlyDataReturned">Only one left hand argument can be specified when ''OutputFormat'' is set to ''tscollection''.</entry>
+	<entry key="noMatrixTimeWithTSC">''TimeFormat'' cannot be set to ''matrix'' when ''OutputFormat'' is set to ''tscollection''.</entry>
+	<entry key="warnSampleRange">The requested samples may be incorrect if the SampleRate property does not represent the external clock rate. Try specifying the ''Samples'' range.</entry>
+    <entry key="errorSampleRange">Error reading the file. Try specifying the ''Samples'' range.</entry>
+    <entry key="tooManySamples">More samples than are available has been requested. Only {0} samples are available.</entry>
+    <entry key="fileTooLarge">The file is too large to be read into the program. Try specifying a sample range using ''Samples''.</entry>
+    <entry key="dataConversion">An error occurred while converting data to double format. Try specifying ''DataFormat'' as ''native''.</entry>
+    <entry key="noRecordType">The record type is not available in the header.</entry>
+	<entry key="invalidProperty">Invalid property ''{0}'' specified to daqread.</entry>
+	<entry key="invalidPropertyValuePair">Invalid property value pairs supplied to daqread.</entry>
+	<entry key="invalidSamplesRange">Invalid ''Samples'' range requested.</entry>
+	<entry key="invalidSamplesTwoElementRange">''Samples'' must be specified as a two element range.</entry>
+	<entry key="invalidSamplesInt">Samples must contain integer values.</entry>
+	<entry key="timeTwoElement">''Time'' must be specified as a two-element range.</entry>
+	<entry key="timePositive">''Time'' must be positive.</entry>
+	<entry key="mutuallyExclusiveProperties">The ''{0}'' and ''{1}'' properties are mutually exclusive.</entry>
+	<entry key="invalidTriggerIndex">Invalid ''Trigger'' index: {0}.</entry>
+	<entry key="invalidTrigger">''Trigger'' must be specified as a single trigger or a two-element range.</entry>
+	<entry key="triggerInt">''Trigger'' must contain integer values.</entry>
+	<entry key="invalidChannelName">Invalid Channel Name specified.</entry>
+	<entry key="invalidChannelsIndex">Invalid ''Channels'' index: {0}.</entry>
+	<entry key="invalidChannelsIndexMax">''Channels'' index: {0}, exceeds the number of available channels: {1}.</entry>
+	<entry key="invalidChannelsInt">''Channels'' must contain integer values.</entry>
+	<entry key="invalidDataFormat">Invalid ''DataFormat'': {0}.  ''DataFormat'' can be either ''double'' or ''native''.</entry>
+	<entry key="invalidTimeFormat">Invalid ''TimeFormat'': {0}.  ''TimeFormat'' can be either ''vector'' or ''matrix''.</entry>
+	<entry key="invalidOutputFormat">Invalid ''OutputFormat'': {0}.  ''OutputFormat'' can be either ''matrix'' or ''tscollection''.</entry>
+	<entry key="invalidTimeSeries">Invalid Time Vector: Unexpected NaN in last element.</entry>
+	<entry key="legacySupportDeprecated">The ''{0}'' function is being deprecated and will be removed in a future release.\n</entry>
+  </message>
+</rsccat>

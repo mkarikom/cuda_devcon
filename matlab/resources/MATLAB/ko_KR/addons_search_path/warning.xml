@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FileNotFound">파일 ''{0}''이(가) 존재하지 않습니다. 설치된 애드온을 실행하지 못할 수 있습니다.</entry>
+    <entry key="FileNotReadable">파일 "{0}"을(를) 열어서 읽을 수 없습니다. 설치된 애드온을 실행하지 못할 수 있습니다.</entry>
+    <entry key="InvalidFolder">''{0}''은(는) 유효한 폴더가 아닙니다. 설치된 애드온을 실행하지 못할 수 있습니다.</entry>
+    <entry key="ErrorReadingFile">파일 읽기 오류: {0}</entry>
+  </message>
+</rsccat>

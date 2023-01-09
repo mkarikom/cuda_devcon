@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputSizeMismatch">B 和 A 的行数必须相同。</entry>
+    <entry key="CantReturnCov">当 B 包含多个右侧时，无法返回 S。</entry>
+    <entry key="NoSparseOrthAlg">对于 ''orth'' 算法，输入不能是稀疏输入。</entry>
+    <entry key="RankDefSparseCovMat">如果是稀疏输入，V 必须为正定值。</entry>
+    <entry key="RankDefCovMat">V 的秩不足以达到计算机精度范围 - 切换到正交算法。</entry>
+    <entry key="InvalidCovMatPosV">V 必须为正定值或半正定值。</entry>
+    <entry key="InvalidCovMat">V 必须为 {0, number, integer}×{1, number, integer} 协方差矩阵或 {2, number, integer}×1 权重向量。</entry>
+    <entry key="RankDefDesignMat">A 的秩不足以达到计算机精度范围。</entry>
+    <entry key="TOrthogToNullSpace">T 与 A 的零空间呈正交关系。</entry>
+    <entry key="InfeasibleRHS">B 与 A 和 V 不一致。</entry>
+    <entry key="InfeasibleRHScol">B 的一列或多列与 A 和 V 不一致。</entry>
+    <entry key="InvalidAlgArg">ALG 必须为 ''chol'' 或 ''orth''。</entry>
+    <entry key="InvalidCovMatSymV">V 必须是对称的。</entry>
+    <entry key="NullSpaceNotSpanned">T 的某些列与 A 的空空间呈正交关系。</entry>
+  </message>
+</rsccat>

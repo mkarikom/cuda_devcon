@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- Copyright 2016-2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="AccessBasemaps">Access Basemaps in MATLAB</entry>
+    <entry key="Latitude">Latitude</entry>
+    <entry key="Longitude">Longitude</entry>
+    <entry key="MapActionZoomIn">Zoom In Toward Map Center</entry>
+    <entry key="MapActionZoomOut">Zoom Out From Map Center</entry>
+    <entry key="MapActionFitToData">Fit To Data</entry>
+    <entry key="NotGeographic">Unable to use {0}. Current axes or chart is not geographic.</entry>
+    <entry key="NotGeographicAxes">Unable to use {0}. Current axes is not geographic.</entry>
+    <entry key="ReadOnlyLatitudeLimits">LatitudeLimits is read-only. Use geolimits instead.</entry>
+    <entry key="ReadOnlyLongitudeLimits">LongitudeLimits is read-only. Use geolimits instead.</entry>
+    <entry key="ShowingMissingTiles">Unable to access the Internet, showing "missing" tile where ''{0}'' is unavailable. See {1}.</entry>
+    <entry key="ShowingDarkwater">Unable to access the Internet, showing ''{0}'' where ''{1}'' is unavailable. See {2}.</entry>
+    <entry key="UnitsAbbrFeet" translate="false">ft</entry>
+    <entry key="UnitsAbbrKilometers" translate="false">km</entry>
+    <entry key="UnitsAbbrMeters" translate="false">m</entry>
+    <entry key="UnitsAbbrMiles" translate="false">mi</entry>
+    <entry key="UnknownError">An unknown error occurred when attempting to set the Basemap property.</entry>
+    <entry key="UnsupportedLimitsFunction">Using {0} with {1} is not supported. Use geolimits instead.</entry>
+  </message>
+</rsccat>

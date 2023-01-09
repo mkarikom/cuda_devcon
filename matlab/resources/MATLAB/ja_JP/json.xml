@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SyntaxErrorAtLocation">JSON の構文エラーが行 {0}、列 {1} (文字 {2}) にあります</entry>
+    <entry key="SyntaxError">JSON の構文エラー</entry>
+    <entry key="ExpectedLiteral">{0}: ''{1}'' が必要ですが、''{2}'' が検出されました。</entry>
+    <entry key="ExpectedNumber">{0}: 数値が必要ですが、''{1}'' が検出されました。</entry>
+    <entry key="ExpectedNumberAtEnd">{0}: 数値が必要ですが、テキストの末尾までに検出されませんでした。</entry>
+    <entry key="ExpectedName">{0}: 引用名が必要ですが、''{1}'' が検出されました。</entry>
+    <entry key="ExpectedColon">{0}: '':'' が必要ですが、''{1}'' が検出されました。</entry>
+    <entry key="ExpectedValue">{0}: 値が必要ですが、''{1}'' が検出されました。</entry>
+    <entry key="ExpectedNameOrEnd">{0}: 引用名または ''}'' が必要ですが、''{1}'' が検出されました。</entry>
+    <entry key="ExpectedCommaOrEnd">{0}: '','' または ''{1}'' が必要ですが、''{2}'' が検出されました。</entry>
+    <entry key="ExpectedNameOrEndAtEnd">{0}: 引用名または ''}'' が必要ですが、テキストの末尾までに検出されませんでした。</entry>
+    <entry key="ExpectedValueOrEnd">{0}: '','' または '']'' が必要ですが、''{1}'' が検出されました。</entry>
+    <entry key="ExpectedValueOrEndAtEnd">{0}: '','' または '']'' が必要ですが、テキストの末尾までに検出されませんでした。</entry>
+    <entry key="ExpectedColonAtEnd">{0}: '':'' が必要ですが、テキストの末尾までに検出されませんでした。</entry>
+    <entry key="ExpectedNameAtEnd">{0}: 引用名が必要ですが、テキストの末尾までに検出されませんでした。</entry>
+    <entry key="ExpectedValueAtEnd">{0}: 値が必要ですが、テキストの末尾までに検出されませんでした。</entry>
+    <entry key="ExpectedCommaOrEndAtEnd">{0}: '','' または ''{1}'' が必要ですが、テキストの末尾までに検出されませんでした。</entry>
+    <entry key="ExpectedQuoteAtEnd">{0}: ''"'' が必要ですが、テキストの末尾までに検出されませんでした。</entry>
+    <entry key="InvalidEscape">{0}: エスケープ文字 ''{1}'' は有効ではありません。</entry>
+    <entry key="InvalidControl">{0}: 予期しない制御文字 {1} があります。</entry>
+    <entry key="ExtraText">{0}: 追加テキストです。</entry>
+    <entry key="UnsupportedDataType">クラス {0} のオブジェクトを JSON 形式のテキストとしてエンコードできません。</entry>
+    <entry key="UnsupportedKeyType">クラス containers.Map のオブジェクトを JSON 形式のテキストとしてエンコードできません。KeyType は char でなければなりません。</entry>
+    <entry key="UnsupportedCyclicError">構造体が再帰的であるため、クラス {0} のオブジェクトをエンコードできません。</entry>
+    <entry key="RecursionLimitError">{0} の最大再帰限界値に達しました。</entry>
+    <entry key="InvalidInput">JSON テキストは文字ベクトルまたは欠損値ではない string のスカラーでなければなりません。</entry>
+    <entry key="ParamMissingValue">名前 ''{0}'' に値が必要です。</entry>
+    <entry key="InvalidParamType">名前の引数の型は string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="InvalidValueType">名前 ''{1}'' の値の型は {0} スカラーでなければなりません。</entry>
+    <entry key="UnmatchedParameter">名前の引数は ''ConvertInfAndNaN'' または ''PrettyPrint'' でなければなりません。</entry>
+    <entry key="ResultType">クラスの作成者によって実装される jsonencode メソッドは、文字ベクトルまたは string スカラーのいずれかを返さなければなりません。</entry>
+  </message>
+</rsccat>

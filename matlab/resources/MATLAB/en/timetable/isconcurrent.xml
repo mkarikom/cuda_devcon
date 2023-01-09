@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidRange">Second input must be a timetable, timerange subscripter object, scalar datetime, or scalar duration.</entry>
+    <entry key="InvalidFlag">Invalid flag. Specify 'contains', 'intersects', or 'within'.</entry>    
+    <entry key="ContainedInvalidWithScalarTime">'contained' is an invalid option when specifying a row time range using a scalar datetime or duration. Specify 'intersects' or 'contains'.</entry>
+</message>
+</rsccat>

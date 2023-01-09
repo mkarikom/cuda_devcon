@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="BadHandle">Invalid handle</entry>
+    <entry key="ExpectedJavaObject">Expected a java object</entry>
+    <entry key="CannotFindGetCallbackDataMethod">Cannot find getCallbackData method</entry>
+    <entry key="CannotFindAddCallbackMethod">Cannot find addCallback method</entry>
+    <entry key="CannotFindRemoveCallbackMethod">Cannot find removeCallback method</entry>
+    <entry key="SendEventToMatlabNativeMethodNotRegistered">native SendEventToMatlabNativeMethod not registered. Class not found</entry>
+    <entry key="CannotFindBeanIndexField">Cannot find beanIndex field</entry>
+    <entry key="CannotFindCallbackIndexField">Cannot find callbackIndex field</entry>
+    <entry key="CannotFindEventDataField">Cannot find eventData field</entry>
+    <entry key="CannotFindCallbackDataClass">Class CallbackData not found</entry>
+    <entry key="ClassNameInUse">The ''{0}'' class name is already in use</entry>
+    <entry key="CannotGetProperties">Unable to get bean properties for {0}</entry>
+    <entry key="CannotRegisterBean1">Unable to register bean {0}</entry>
+    <entry key="ClassAlreadyRegistered">The class ''{0}'' is already registered</entry>
+    <entry key="CannotRemoveBuiltinClass">Can not remove the built-in class ''{0}''</entry>
+    <entry key="CannotRemoveClass">Can not remove the ''{0}'' class because ''{1}'' objects exist</entry>
+    <entry key="ClassNotRegistered">No Handle Graphics class ''{0}'' registered - use hregister</entry>
+    <entry key="CannotCreateObject">Unable to create {0} object</entry>
+    <entry key="CannotCreateClass">Don''t know how to create a {0} class</entry>
+    <entry key="JavaBeansNotSupported1">Java Beans not supported on this platform</entry>
+    <entry key="JavaBeansNotSupported2">Java Beans not supported on this platform</entry>
+  </message>
+</rsccat>

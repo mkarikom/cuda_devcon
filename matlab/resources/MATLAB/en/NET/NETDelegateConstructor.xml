@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\schema\msgcat.xsd" decorate_cxx_names="1">
+   <message>
+    <entry key="InvalidTargetType" note="stringDatatypeUpdate">First argument must be either a .NET object or a character vector.</entry>
+    <entry key="TargetTypeLoadError">Could not find .NET class ''{0}''.</entry>
+   </message>
+ </rsccat>

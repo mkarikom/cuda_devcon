@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidState">mrg32k3a ジェネレーターに対する状態が無効です。</entry>
+    <entry key="SubstreamsIndexOutOfRange">mrg32k3a ストリームは 2^51 のサブストリームのみをもっています。</entry>
+    <entry key="InvalidParameter">mrg32k3a ジェネレーターはパラメーターを受け入れません。</entry>
+    <entry key="TooManyStreams">2^63 を超える mrg32k3a ストリームは作成できません。</entry>
+  </message>
+</rsccat>

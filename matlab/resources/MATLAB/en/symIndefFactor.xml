@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invalidSymbolic">Invalid Symbolic Factorization from symmetric indefinite factorization.</entry>
+    <entry key="tooManyAttempts">Maximum number of attempts to perform numeric factorization of symmetric indefinite matrix exceeded.</entry>
+    <entry key="invalidNumeric">Invalid Numeric Factorization from symmetric indefinite factorization.</entry>
+    <entry key="solveError">Error during solve with symmetric indefinite factorization.</entry>
+  <!--Resource entries for src/mathlinalg-->
+  </message>
+</rsccat>

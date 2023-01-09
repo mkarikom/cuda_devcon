@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidClassName">CLASSNAME 입력값은 ''single'' 또는 ''double''이어야 합니다.</entry>
+    <entry key="invalidNumericInput">크기 입력값은 숫자형이어야 합니다.</entry>
+    <entry key="invalidInputClass">''like'' 다음 입력값이 single형 또는 double형 배열이 아닙니다.</entry>
+    <entry key="unsupportedNdSparse">N차원 희소 배열은 지원되지 않습니다.</entry>
+  </message>
+</rsccat>

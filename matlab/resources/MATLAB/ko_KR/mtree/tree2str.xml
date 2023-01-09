@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="errtree">인수에서 다음 구문 오류 발생: {0}</entry>
+    <entry key="mapstr">맵 쌍의 두 번째 멤버는 문자형 벡터여야 합니다.</entry>
+    <entry key="ixpath">ixpath에는 {0}이(가) 필요함</entry>
+    <entry key="badStatement">잘못된 명령문 종류 {0}</entry>
+    <entry key="unknownExpr">알 수 없는 expr 노드 {0}</entry>
+  </message>
+</rsccat>

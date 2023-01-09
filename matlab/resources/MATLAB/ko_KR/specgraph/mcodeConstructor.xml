@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CommentMatrixData">{0} 행렬 데이터</entry>
+    <entry key="CommentMatrix">{0} 행렬</entry>
+    <entry key="CommentCreateMultipleLinesUsingMatrix">{0}에 대한 행렬 입력값을 사용하여 여러 라인을 생성함</entry>
+    <entry key="CommentCreateMultipleErrorBarsUsingMatrix">{0}에 대한 행렬 입력값을 사용하여 여러 오차 막대를 생성함</entry>
+    <entry key="CommentVectorData">{0} 벡터 데이터</entry>
+    <entry key="CommentGraph">그래프 또는 유방향 그래프(Digraph) 객체</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invalidinput">First input must be a java object</entry>
+    <entry key="invalidevent">Callback name unrecognized for {0}. \nValid callbacks are:\n {1}</entry>
+    <entry key="InvalidParentHandle">Invalid parent handle\n{0}</entry>
+    <entry key="JavaFigsNotEnabled">Java figures are not enabled</entry>
+    <entry key="InvalidPosition">Invalid component position\n{0}</entry>
+    <entry key="FeatureNotSupported">JAVACOMPONENT is not supported on this platform</entry>
+    <entry key="IncorrectUsage" note="stringDatatypeUpdate">\nWARNING: This feature is not supported in MATLAB and the API and \nfunctionality may change in a future release. \n\nusage: javacomponent(javaClassName, position, parent, callback) \n- position can be empty, [left bottom width height] in pixels \n  or the character vector North, South, East, or West.\n- parent can be a figure or a uitoolbar handle.\n- callback can be empty or a cell array of JavaEvents and their handlers.</entry>
+  </message>
+</rsccat>

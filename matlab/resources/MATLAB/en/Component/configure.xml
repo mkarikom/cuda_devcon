@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="FolderNotExist" translate="false">Folder {0} does not exist.</entry>
+    <entry key="CannotConfigureAttribute" translate="false">Cannot configure attribute of component at {0}.</entry>
+    <entry key="CorruptComponent" translate="false">Cannot configure attribute of component at {0} because the component appears to be corrupt.</entry>
+    <entry key="UnknownAttribute" translate="false">"{0}" is not a known attribute name.</entry>
+    <entry key="InvalidAttributeValue" translate="false">"{0}" specified for attribute "{1}" is invalid.</entry>
+    <entry key="ErrorSpecifyingDependencies" translate="false">The dependencies must be specified as ["name", "provider", "versionrange",...].</entry>
+    <entry key="NotAComponent" translate="false">"{0}" is not a component root folder.</entry> 
+    <entry key="DuplicateAttribute" translate="false">Cannot configure duplicate attribute "{0}".</entry>
+    <entry key="MissingValue" translate="false">Missing value for attribute "{0}".</entry>
+  </message>
+</rsccat>

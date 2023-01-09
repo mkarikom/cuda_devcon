@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedMode">방향은 ''ascend'' 또는 ''descend''이거나 그러한 방향이 포함된 string형 배열 또는 셀형 배열이어야 합니다.</entry>
+    <entry key="WrongLengthMode">방향에는 정렬하는 각 변수별로 하나의 요소가 있어야 합니다.</entry>
+    <entry key="EmptyRowNames">입력 테이블은 행 이름을 포함하지 않으며 정렬되지 않은 입력을 반환합니다.</entry>
+    <entry key="BadNumericVarIndices">숫자형 변수 인덱스는 양의 정수이거나 음의 정수여야 합니다.</entry>
+    <entry key="NDVar">정렬 변수 ''{0}''의 크기가 2차원을 넘습니다.</entry>
+    <entry key="SortOnVarFailed">유형이 ''{1}''인 변수 ''{0}''을(를) 정렬할 때 오류가 발생했습니다.</entry>
+    <entry key="SortrowsOnVarFailed">유형이 ''{1}''인 변수 ''{0}''의 행을 정렬할 때 오류가 발생했습니다.</entry>
+    <entry key="NonConstantVars">In code generation, sorting variables must be specified as constant.</entry>
+    <entry key="MultiColumnCellstr">Sortrows does not support multi-column cellstr variables in code generation.</entry>
+    <entry key="NVPairsCellstr">Sortrows only supports specifying direction for cellstr variables. Other parameters are not supported in code generation.</entry>
+  </message>
+</rsccat>

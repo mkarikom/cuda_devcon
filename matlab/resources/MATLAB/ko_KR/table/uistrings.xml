@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EmptyTableDisplay">빈 {0,number,integer}×{1,number,integer} {2}</entry>
+    <entry key="StackIndVarDescr">데이터 표시</entry>
+    <entry key="SummaryMin">최솟값</entry>
+    <entry key="SummaryMedian">중앙값</entry>
+    <entry key="SummaryMax">최댓값</entry>
+    <entry key="SummaryTimeStep">시간 스텝</entry>
+    <entry key="ModifiedVarNameDescr">원래 열 제목:</entry>
+    <entry key="DfltRowNamePrefix">Row</entry>
+    <entry key="DfltVarNamePrefix">Var</entry>
+    <entry key="DfltRowDimName">Row</entry>
+    <entry key="DfltVarDimName">Variables</entry>
+    <entry key="JoinLeftVarSuffix">left</entry>
+    <entry key="JoinRightVarSuffix">right</entry>
+    <entry key="DfltStackIndVarSuffix">Indicator</entry>
+    <entry key="Rows2varsNewVarName">OriginalVariableNames</entry>
+  </message>
+</rsccat>

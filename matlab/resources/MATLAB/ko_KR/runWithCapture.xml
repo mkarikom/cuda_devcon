@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidBooleanValue">"{0}" 옵션에 대한 값은 "on", "off", 숫자형 또는 논리형이어야 합니다.</entry>
+    <entry key="InvalidInputs">유효하지 않은 입력 옵션입니다.</entry>
+    <entry key="UnrecognizedInputs">인식할 수 없는 입력 옵션입니다.</entry>
+    <entry key="UnrecognizedOption">인식할 수 없는 옵션임: {0}.</entry>
+  </message>
+</rsccat>

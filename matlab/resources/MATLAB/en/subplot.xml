@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="SubplotIndexNonFinite">Index must be a finite 3-digit number of the format mnp.</entry>
+    <entry key="InvalidAxesHandle">Requires valid axes handle for input.</entry>
+    <entry key="SubplotIndexOutOfRange">Index must be a 3-digit number of the format mnp.</entry>
+    <entry key="SubplotIndexTooLarge">Index exceeds number of subplots.</entry>
+    <entry key="InvalidPositionParameter">Position must be of the form [left bottom width height].</entry>
+    <entry key="UnknownOption">Unknown command option.</entry>
+    <entry key="SubplotIndexTooSmall">Illegal plot number.</entry>
+    <entry key="TooManyOutputs">Function called with too many output arguments.</entry>
+    <entry key="InvalidParent">Object cannot contain axes.</entry>
+    <entry key="UnsupportedSyntaxWithChart">Calling subplot with a handle to a {0} is not supported.</entry>
+    <entry key="InvalidSyntax">Invalid syntax.</entry>
+    <entry key="InvalidNVPair">Setting {0} is not supported with subplot. This syntax will no longer be supported in a future release.</entry>
+    <entry key="InvalidPositionSyntax">subplot ignores grid location arguments when Position is specified. This syntax will no longer be supported in a future release.</entry>
+    <entry key="AutoResizeChildren">Adding subplots to a container with the ''AutoResizeChildren'' property set to ''on'' is not supported.</entry>
+  </message>
+</rsccat>

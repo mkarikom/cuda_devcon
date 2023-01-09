@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidOptionString">オプションの引数 ''{0}'' はサポートされていません。</entry>
+    <entry key="InvalidOptionType">オプションの引数は、数値、string スカラー、または文字ベクトルでなければなりません。</entry>
+    <entry key="InvalidPrecision">精度は正の整数スカラーでなければなりません。</entry>
+    <entry key="TwoDInput">入力行列は 2 次元でなければなりません。</entry>
+    <entry key="NumericInput">入力行列は数値配列、文字配列、または string 配列でなければなりません。</entry>
+  </message>
+</rsccat>

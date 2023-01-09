@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">前两个输入必须为表。</entry>
+    <entry key="CantInferKey">找不到要用作键变量的通用表变量。</entry>
+    <entry key="MissingKeyVar">必须提供 ''Keys'' 参数，或者同时提供 ''LeftKeys'' 和 ''RightKeys'' 参数。</entry>
+    <entry key="ConflictingInputs">必须提供 ''Keys'' 参数，或者同时提供 ''LeftKeys'' 和 ''RightKeys'' 参数。</entry>
+    <entry key="InvalidKeepOneCopy">''KeepOneCopy'' 参数必须为变量名称，或者为包含变量名称的元胞数组。</entry>
+    <entry key="UnequalNumKeyVars">左侧和右侧的键变量数目必须相同。</entry>
+    <entry key="DuplicateVars">不能包含重名变量。</entry>
+    <entry key="NDKeyVar">N 维变量不能用作联接键。</entry>
+    <entry key="KeyVarSizeMismatch">左侧键变量 ''{0}'' 和右侧键变量 ''{1}'' 的列数不同。</entry>
+    <entry key="KeyVarCellMismatch">无法比较左侧键变量 ''{0}'' 和右侧键变量 ''{1}''，因为其中一个键变量不为元胞变量。</entry>
+    <entry key="KeyVarTypeMismatch">左侧键变量 ''{0}'' 和右侧键变量 ''{1}'' 的类型不兼容。</entry>
+    <entry key="KeyMergeFailed">Merging keys with different types to create the variable ''{0}'' in the output table resulted in a conversion error.\n</entry>
+    <entry key="MulticolumnKeyVar">如果 {0} 变量包含多列，则不能将其用作联接键。</entry>
+    <entry key="DuplicateRightKeyVarValues">右表的键变量必须有唯一值。</entry>
+    <entry key="LeftKeyValueNotFound">右表的键变量必须包含左表的键变量中的所有值。</entry>
+    <entry key="LeftKeyValuesNotFound">右表的键变量必须包含左表的键变量中值的所有唯一组合。</entry>
+    <entry key="MissingKeyValues">键变量不能包含任何缺失值。</entry>
+    <entry key="InvalidType">TYPE 必须为 ''left''、''right'' 或 ''full''。</entry>
+    <entry key="KeyVarNonStringError">左侧键变量 ''{0}'' 和右侧键变量 ''{1}'' 包含的元胞含有非字符向量值。</entry>
+    <entry key="KeyVarUniqueError">求左侧键变量 ''{0}'' 和右侧键变量 ''{1}'' 的唯一值时出错:\n{2}。</entry>
+    <entry key="KeyIsmemberMethodFailed">无法使用键变量在右表中找到与左表中的行对应的行。ISMEMBER 方法生成了以下错误:\n\n{0}</entry>
+    <entry key="KeyIsmemberMethodReturnedWrongSize">无法使用键变量在右表中找到与左表中的行对应的行。ISMEMBER 方法返回的值具有错误的行数。</entry>
+    <entry key="UnequalRowNames">使用行名称作为键时，右表必须包含左表的所有行名称。</entry>
+    <entry key="TableTimetableInput">要联接时间表和表，第一个输入必须为时间表，第二个输入必须为表。</entry>
+    <entry key="RowLabelsCannotBeDataVar">''LeftVariables'' 或 ''RightVariables'' 不支持行名称。</entry>
+    <entry key="RowLabelsCannotBeDataVarNondefaultName">变量名称 ''{0}'' 无法识别。您可能想访问该表中名为 ''{1}'' 的行名称。但是，''LeftVariables'' 或 ''RightVariables'' 不支持行名称。</entry>
+    <entry key="TableRowLabelsVarKeyPairNotSupported">不支持使用行名称作为左键以及使用变量作为右键进行表之间的内联或外联。请在左侧输入中将行名称转换为变量。</entry>
+    <entry key="TableTimetableNotSupported">要联接表和时间表，时间表必须为第一个输入。</entry>
+    <entry key="TableOuterRowLabelsOtherKeysNotSupported">不支持将行名称与其他键结合使用来进行表之间的外联。请仅使用行名称作为键，或者在输入中将行名称转换为变量。</entry>
+    <entry key="NonConstantArg">''{0}'' must be constant.</entry>
+    <entry key="DuplicateNonKeyVarNames">代码生成不支持同名的非键变量。</entry>
+    <entry key="DuplicateUnmergedKeyVarNames">除非 ''MergeKeys'' 设置为 true，否则外联操作的代码生成不支持同名键变量。</entry>
+    <entry key="CantJoinTabularVariable">联接操作的代码生成不支持表或时间表键或变量。使用 SPLITVARS 将 ''{0}'' 拆分为多个变量。</entry>
+  </message>
+</rsccat>

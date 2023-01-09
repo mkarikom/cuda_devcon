@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="inputType">入力は single 行列または double 行列でなければなりません。</entry>
+    <entry key="inputMustBeSquare">入力行列は正方行列でなければなりません。</entry>
+    <entry key="inputMustBeFinite">行列要素は有限でなければなりません。</entry>
+    <entry key="SingularMatrix">行列は特異値であり平方根をもちません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="matrixWithNaNInf">入力行列に NaN または Inf の値を含めることはできません。</entry>
+    <entry key="noSVDsparse">SVD はスパース行列をサポートしません。SVDS を使用して、スパース行列の特異値と特異ベクトルのサブセットを計算してください。</entry>
+    <entry key="repeatedEconomyFlag">Invalid option combination. Use svd(X,''econ'') or svd(X,0) for economy-size decompositions.</entry>
+    <entry key="inputType">最初の入力は単精度または倍精度でなければなりません。</entry>
+    <entry key="svdNoConvergence">SVD が収束しませんでした。</entry>
+    <entry key="inputMustBe2D">入力は 2 次元でなければなりません。</entry>
+    <entry key="invalidOption">Invalid option. Option must be: ''econ'', ''matrix'', or ''vector''.</entry>
+    <entry key="repeatedShapeFlag">Invalid option combination. You can specify ''matrix'' or ''vector'', but not both.</entry>
+  </message>
+</rsccat>

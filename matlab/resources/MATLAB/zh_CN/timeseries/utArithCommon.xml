@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonconfdim">{0} 和 {1} 的样本大小不匹配，不能用于矩阵组合。</entry>
+    <entry key="non3dimmax">无法乘以其数据维度高于 3 的时序。</entry>
+    <entry key="nonconfdimMatrixMultiply">{0} 和 {1} 的样本大小不匹配，不能用于矩阵乘法。</entry>
+    <entry key="nonconfdimMatrixDiv">{0} 和 {1} 的样本大小不匹配，不能用于矩阵除法。</entry>
+    <entry key="nonconfdimMatrixLeftDiv">{0} 和 {1} 的样本大小不匹配，不能用于矩阵左除。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManyOutputs">출력 인수가 너무 많습니다.</entry>
+    <entry key="InvalidNumberOfInputs">1개, 3개 또는 6개의 입력 인수가 있어야 합니다.</entry>
+    <entry key="NonDoubleInput">datenummx 함수는 double형 배열만 허용합니다.</entry>
+    <entry key="InvalidInputSize">단일 인수에는 3개 또는 6개의 열이 있어야 합니다.</entry>
+  </message>
+</rsccat>

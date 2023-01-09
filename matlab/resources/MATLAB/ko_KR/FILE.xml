@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SourceArgumentIsEmpty">첫 번째 인수는 비어 있지 않아야 합니다.</entry>
+    <entry key="SourceAndDestinationSame">파일 또는 디렉터리를 자신에게 복사하거나 이동할 수 없습니다.</entry>
+    <entry key="FileDoesNotExist">일치하는 파일이 발견되지 않았습니다.</entry>
+    <entry key="FileNotFound">No matching files named ''{0}'' were found.</entry>
+    <entry key="ReadOnly">대상({0})에 쓸 수 없습니다.  무시하려면 ''f'' 옵션을 사용하십시오.</entry>
+    <entry key="PATHMAX">최대 경로 길이를 초과했습니다.</entry>
+    <entry key="ReadOnlyDestination">대상({0})에 쓸 수 없습니다. 무시하려면 ''f'' 옵션을 사용하십시오.</entry>
+    <entry key="ReadOnlySource">원본({0})에서 쓸 수 없습니다. 무시하려면 ''f'' 옵션을 사용하십시오.</entry>
+    <entry key="SourceIsAncestorOfDestination">소스는 대상의 선조일 수 없습니다.</entry>
+    <entry key="ResourceExists">대상 ''{0}''이(가) 존재하기 때문에 이 대상에 쓸 수 없습니다. 무시하려면 ''f'' 옵션을 사용하십시오.</entry>
+    <entry key="DestNotAFolder">대상 {0}이(가) 폴더가 아닙니다.\n소스 폴더를 이동할 경우 대상도 폴더여야 합니다.</entry>
+    <entry key="NeitherFileNorFolder">파일 이름, 디렉터리 이름 또는 볼륨 레이블 구문이 올바르지 않습니다.</entry>
+    <entry key="ReadPermissionError">소스({0})에서 읽어올 수 없습니다.\n무시하려면 ''f'' 옵션을 사용하십시오.</entry>
+    <entry key="ReadPermissionErrorWithFlag">소스({0})에서 읽어올 수 없습니다.</entry>
+    <entry key="WritePermissionError">대상({0})에 쓸 수 없습니다.\n무시하려면 ''f'' 옵션을 사용하십시오.</entry>
+    <entry key="WritePermissionErrorWithFlag">대상({0})에 쓸 수 없습니다.</entry>
+    <entry key="FolderPermissionError">{0}: 권한이 거부되었습니다.\n무시하려면 ''f'' 옵션을 사용하십시오.</entry>
+    <entry key="FolderPermissionErrorWithFlag">{0}: 권한이 거부되었습니다.</entry>
+  </message>
+</rsccat>

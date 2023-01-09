@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FileOpenError">无法打开要写入的文件 ''{0}'':\n\n{1}</entry>
+    <entry key="AmbiguousFileType">文件类型 ''{0}'' 具有多义性。</entry>
+    <entry key="UnrecognizedFileExtension">文件扩展名 ''{0}'' 无法识别。请使用 'FileType' 参数指定文件类型。</entry>
+    <entry key="UnrecognizedFileType">文件类型 ''{0}'' 无法识别。'FileType' 参数必须为 'text'、'spreadsheet' 或 'xml'。</entry>
+    <entry key="InvalidDelimiterType">分隔符必须为字符向量或字符串标量。</entry>
+    <entry key="UnrecognizedDelimiter">分隔符必须为以下字符之一: ' '、'\\t'、','、';'、'|'，或者与它们对应的字符名称: 'space'、'tab'、'comma'、'semi' 或 'bar'。</entry>
+    <entry key="InvalidRange">范围必须为 ''A1:B2'' 或 ''A1'' 格式的字符向量。</entry>
+    <entry key="NoCOMServer">无法启动 Excel 服务器进行导出。请改为导出到文本文件。</entry>
+    <entry key="XlsWriteFailed">将表写入 ''{0}'' 时出错:\n\n{1}\n</entry>
+    <entry key="DataExceedsSheetBounds">从单元格 ''{0}'' 开始的数据块超出工作表边界 {1, number, integer} 行和 {2, number, integer} 列。</entry>
+    <entry key="FileOpenInAnotherProcess">无法写入文件 ''{0}''。您可能没有写入权限，或者文件可能已被另一个应用程序打开。</entry>
+    <entry key="FailedWrite">无法写入文件 ''{1}'' 中的工作表 ''{0}''。请禁用工作表保护、禁用工作簿的“标记为最终状态”选项，并确保输入未超出单元格容量。</entry>
+    <entry key="CorruptOrEncrypted">无法写入文件 ''{0}''。请确保该文件为有效的电子表格文件，并且不受密码保护。 </entry>
+    <entry key="TimetableNotSupported">不支持将时间表写入文件。请使用 TIMETABLE2TABLE 将时间表转换为表。</entry>
+    <entry key="FirstArgumentIsTable">第一个参数必须为表。</entry>
+    <entry key="FirstArgument">第一个参数必须为 {0}。</entry>
+    <entry key="NestedTables">不支持写入嵌套表/时间表。请在写入之前对嵌套表使用 SPLITVARS。</entry>
+    <entry key="NoFilename">未指定名称。filename 必须包含文件的名称。</entry>
+    <entry key="WriteRowNamesNotSupported">'WriteRowNames' 不适用于 {0}。要写入包含行名称的 TABLE，请使用 WRITETABLE。</entry>
+    <entry key="WriteVariableNamesNotSupported">'WriteVariableNames' 不适用于 {0}。要写入包含变量名称的 TABLE 或 TIMETABLE，请使用 WRITETABLE 或 WRITETIMETABLE。</entry>
+    <entry key="UnsupportedTypeIn">不支持 ''{0}'' 类型。请在写入之前将数据转换为数值、逻辑、字符串、日期时间、持续时间或分类等类型。 </entry>
+    <entry key="UnsupportedTypeInCell">不支持 ''{0}'' 类型的元胞元素。请在写入之前将元素转换为数值、逻辑、字符串、日期时间、持续时间或分类等类型。</entry>
+    <entry key="UnsupportedInputType">不支持 ''{0}'' 类型。请改用 {1}。</entry>
+    <entry key="UnsupportedNestedCell">不支持嵌套元胞数组。</entry>
+    <entry key="NoFileNameWithParams">参数的数目不正确。当提供附加参数时，必须提供文件名，并且每个参数名称必须后跟一个值。</entry>
+    <entry key="IncorrectArgumentOrder">参数顺序不正确。{0} 要求 {1} 作为其第一个参数，文件名作为其第二个参数。</entry>
+    <entry key="UnknownWriteFunction">未知的写入函数 {0}。</entry>
+    <entry key="OutOfSpace">无法写入文件 ''{0}''。</entry>
+    <entry key="AppendAndRange">'WriteMode' 'append' 不支持 'Range'。</entry>
+    <entry key="WriteVarNamesAndWriteMode">'WriteMode' 'append' 不支持 'WriteVariableNames'。</entry>
+    <entry key="CellColumnVectorsUnsupported">变量 ''{0}'' 包含元胞列向量。不支持使用 WRITETABLE 将包含元胞列向量的变量写入电子表格。</entry>
+    <entry key="NestedCellElementEmpty">变量 ''{0}'' 包含具有空元素的嵌套元胞数组。不支持使用 WRITETABLE 将包含空元素的嵌套元胞数组写入电子表格。</entry>
+    <entry key="SupportedFileTypes">文件类型 ''{0}'' 无法识别。'FileType' 参数必须为下列项之一:\n\n {1}</entry>
+  </message>
+</rsccat>

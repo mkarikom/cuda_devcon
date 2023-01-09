@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CellReferenceNotAllowed">元胞内容引用自非元胞数组对象。</entry>
+    <entry key="ParensReferenceNotAllowed">不支持 CustomProperties 对象的索引引用。</entry>
+    <entry key="ChangingLength">不支持更改自定义的、基于变量的属性的长度。</entry>
+    <entry key="InvalidCustomPropName">自定义属性名称无效。请在添加数据之前使用 ADDPROP 创建新的自定义属性。</entry>
+    <entry key="IncompatibleTypes">无法在自定义属性 "{2}" 中组合数据类型 "{0}" 和 "{1}"。</entry>
+    <entry key="IncompatibleLoad">无法加载已保存的 CustomProperties，因为它与此版本的 MATLAB 不兼容</entry>
+    <entry key="InvalidConcatenation">无法串联自定义属性 "{0}"。</entry>
+    <entry key="CellCatChangesSize">自定义属性中包含串联的元胞数组与非元胞数组，导致该非元胞数组被转换为一个元胞，从而使元素数量与变量数量不一致。</entry>
+  </message>
+</rsccat>

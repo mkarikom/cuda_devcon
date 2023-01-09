@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidFontSize">Font size must be a number between {0}pt and {1}pt or a string scalar representing either a number between {0}pt and {1}pt appended with ''pt'' or a number between {2}px and {3}px appended with ''px''.</entry>
+    <entry key="InvalidFontStyle">Combining the font style "{0}" with other font styles is not supported.</entry>
+    <entry key="InvalidFontColor">Font color must be a three-element vector of integer values between {0} and {1} or a four-element vector with three integer values between {0} and {1} and a fourth double value between {2} and {3}.</entry>
+  </message>
+</rsccat>

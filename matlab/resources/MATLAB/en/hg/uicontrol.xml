@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ParameterValuesMustBeValid">{0} control {1}\nControl will not be rendered until all of its parameter values are valid</entry>
+    <entry key="ListboxTopMustBeWithinStringRange" note="stringDatatypeUpdate">This uicontrol''s ListboxTop value ({0,number,integer}) must be within the Character vector range ({1,number,integer}:{2,number,integer})\nControl will not be rendered until all of its parameter values are valid</entry>
+    <entry key="SingleLineEditCannotHaveMultiLineText">Single line Edit Controls can not have multi-line text</entry>
+    <entry key="BadType">Numeric Matrix required for image CData</entry>
+    <entry key="ExpectedTruecolor">uicontrol CData property must be Truecolor</entry>
+    <entry key="ElementOutOfRange">TrueColor CData contains element out of range 0.0 &lt;= value &lt;= 1.0</entry>
+    <entry key="LineIncrementOutOfRange">Slider step line increment must be between 0 and 1 inclusive</entry>
+    <entry key="PageIncrementOutOfRange">Slider step page increment must be greater than 0</entry>
+    <entry key="ValueMustBeScalar">{0} control requires a scalar Value.\nControl will not be rendered until all of its parameter values are valid</entry>
+    <entry key="ValueMustBeInRange">{0} control cannot have a 'Value' outside of 'Min'-'Max' range\nControl will not be rendered until all of its parameter values are valid</entry>
+    <entry key="MinMustBeLessThanMax">{0} control requires that 'Min' be less than 'Max'\nControl will not be rendered until all of its parameter values are valid</entry>
+    <entry key="ValueMustBeWithinStringRange" note="stringDatatypeUpdate">{0} control requires that 'Value' be an integer within Character vector range\nControl will not be rendered until all of its parameter values are valid</entry>
+    <entry key="StringMustBeNonEmpty" note="stringDatatypeUpdate">{0} control requires a non-empty Character vector\nControl will not be rendered until all of its parameter values are valid</entry>
+  </message>
+</rsccat>

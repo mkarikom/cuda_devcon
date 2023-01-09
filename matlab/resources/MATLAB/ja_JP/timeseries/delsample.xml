@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">delsample メソッドは、単一の timeseries オブジェクトにのみ使用できます</entry>
+    <entry key="invalidindex">インデックスは整数ベクトルで指定しなければなりません。</entry>
+    <entry key="nonintegerindex">指定したインデックスは、整数ではありません。</entry>
+    <entry key="outofboundsindex">指定したインデックスが範囲外です。</entry>
+    <entry key="nostartdate">時間は数値でなければなりません。</entry>
+    <entry key="timeconversion">時間値を時系列の形式に変換できません</entry>
+    <entry key="invalidtime">Value の入力は、日付文字ベクトルまたは string、日付文字ベクトルまたは string のセル配列、数値のいずれかでなければなりません</entry>
+    <entry key="unrecognizedmethod">各サンプルを削除するには、サンプルのインデックスまたは時間を指定しなければなりません。</entry>
+    <entry key="invalidmethod">2 番目の引数は、削除するサンプルの識別メソッドを指定する文字ベクトルまたは string でなければなりません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="AmbiguousX" note="stringDatatypeUpdate">Ambiguous expression or function input.\n The character ''x'' will be interpreted as the name of a function called ''x'' (e.g., x.m) and not as the mathematical expression ''x'' (i.e., f(x)=x). Use the anonymous function:  @(x)x  if you meant the mathematical expression ''x''.</entry>
+    <entry key="objectMissingFevalMethod">If FUN is a MATLAB object, it must have an feval method.</entry>
+    <entry key="invalidFunctionSpecifier" note="stringDatatypeUpdate">FUN must be a function, a valid character vector expression, or an inline function object.</entry> 
+  </message>
+</rsccat>

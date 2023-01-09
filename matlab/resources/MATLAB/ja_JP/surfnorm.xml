@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PropertyValuePairsExpected">プロパティ値のペアが必要です。</entry>
+    <entry key="InvalidMatrixInput">行列の入力引数の数が正しくありません。</entry>
+    <entry key="InvalidInput">Y と Z は、X と同じサイズでなければなりません。</entry>
+    <entry key="IncorrectInput">Y と Z は、X と同じサイズでなければなりません。</entry>
+    <entry key="InvalidZValue">Z は少なくとも 3 行 3 列でなければなりません</entry>
+  </message>
+</rsccat>

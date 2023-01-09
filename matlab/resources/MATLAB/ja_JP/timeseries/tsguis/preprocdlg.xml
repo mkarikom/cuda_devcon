@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Abort">中止</entry>
+    <entry key="ACoefficients">A 係数</entry>
+    <entry key="All">すべて</entry>
+    <entry key="Any">任意</entry>
+    <entry key="Apply">適用</entry>
+    <entry key="BCoefficients">B 係数</entry>
+    <entry key="CannotParseColumnsDefinedForTimeSeries">時系列 {0} に対して定義された列を解釈できません</entry>
+    <entry key="ClickApplyToProcessTheData">データを処理するには、各タブ内の [適用] をクリックしてください</entry>
+    <entry key="Close">閉じる</entry>
+    <entry key="Constant">定数</entry>
+    <entry key="Continue">続行</entry>
+    <entry key="DenominatorCoefficients">分母係数</entry>
+    <entry key="Detrend">トレンド除去</entry>
+    <entry key="DetrendingTimeSeries">時系列からトレンドを除去しています</entry>
+    <entry key="DiscreteTransfer">離散伝達関数 fcn (B(z^-1)/A(z^-1))</entry>
+    <entry key="Filter">フィルター</entry>
+    <entry key="FilteringOperationFailedErrorWas">フィルター処理が行えません。フィルター メソッドからのエラー {0}</entry>
+    <entry key="FilteringOperationFailedNaNs">選択時系列の 1 つが最初か最後に NaN を含むためフィルター処理が行えません。</entry>
+    <entry key="FilteringTimeSeries">時系列をフィルター処理しています</entry>
+    <entry key="FilterType">フィルター タイプ</entry>
+    <entry key="FirstOrder">1 次 (1/(1+ time constant * s))</entry>
+    <entry key="FrequencyRange">周波数範囲</entry>
+    <entry key="Help">ヘルプ</entry>
+    <entry key="IdealPassOrStop">理想的な通過または遮断</entry>
+    <entry key="Interpolate">内挿</entry>
+    <entry key="InterpolatingMissingData">欠損値を内挿しています</entry>
+    <entry key="InterpolateMissingDataWithDataFrom">次のデータを使用して欠損値を内挿:</entry>
+    <entry key="InvalidColumnsEnteredInRow0numberinteger">行 {0,number,integer} に入力された列が無効です。</entry>
+    <entry key="Linear">線形</entry>
+    <entry key="Modifyyn">変更しますか (y/n)?</entry>
+    <entry key="NumeratorCoefficients">分子係数</entry>
+    <entry key="OneOrMoreSelectedTimeSeries">選択した等間隔でない時間ベクトルをもつ時系列のいくつかは、選択したフィルター処理を行うために等間隔でリサンプリングされます。</entry>
+    <entry key="Path">パス</entry>
+    <entry key="ProcessData">データ処理</entry>
+    <entry key="Range">範囲</entry>
+    <entry key="RemoveMissingData">欠損値の削除</entry>
+    <entry key="RemovingRows">行を削除しています</entry>
+    <entry key="RemoveTimeRowsWhereDataIsMissing">セルのいずれかまたはすべてで欠損値がある時間行を削除:</entry>
+    <entry key="RemoveTrendType">トレンド タイプの削除:</entry>
+    <entry key="SelectedColumns">選択列</entry>
+    <entry key="SelectTimeSeries">時系列の選択</entry>
+    <entry key="SelectView">表示の選択:</entry>
+    <entry key="SpecifyPassstopBand">通過/阻止帯域の指定</entry>
+    <entry key="TimeConstant">時定数</entry>
+    <entry key="TimeConstantLowerCase">時定数</entry>
+    <entry key="TimeSeries">時系列</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="TimeSeriesWithEqualNumberOfColumns">等しい列数をもつ時系列 </entry>
+    <entry key="ThisTimeSeries">この時系列</entry>
+    <entry key="Undo">元に戻す</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">输入参数的数目不足。请参阅 DDESD。</entry>
+    <entry key="TspandEndLTtspan1">必须满足 tspan(1) &lt; tspan(end)。</entry>
+    <entry key="DdefunNotFunctionHandle">第一个参数 DDEFUN 必须为函数句柄。</entry>
+    <entry key="NotContinueFromHistoryEnd">必须从到达的最后一个点继续。</entry>
+    <entry key="DDEOutputNotCol">DDE 必须返回列向量。</entry>
+    <entry key="DDELengthMismatchHistory">导数和历史记录向量具有不同的长度。</entry>
+    <entry key="OptRelTolNotPosScalar">选项 ''RelTol'' 必须为正标量。</entry>
+    <entry key="OptAbsTolNotPos">选项 ''AbsTol'' 必须为正数。</entry>
+    <entry key="NonScalarAbsTolNormControl">设定 NormControl 为 ''on'' 进行求解时，AbsTol 应该为一个标量。</entry>
+    <entry key="OptMaxStepNotPos">选项 ''MaxStep'' 必须大于零。</entry>
+    <entry key="OptInitialStepNotPos">选项 ''InitialStep'' 必须大于零。</entry>
+    <entry key="OptEventsNotFunctionHandle">选项 ''Events'' 必须为函数句柄。</entry>
+    <entry key="OptOutputFcnNotFunctionHandle">选项 ''OutputFcn'' 必须为函数句柄。</entry>
+    <entry key="DelaysInvalidType">第二个参数 DELAYS 必须为函数句柄或者常向量。</entry>
+    <entry key="HistoryInvalidType">HISTORY 必须为常向量、DDESD 求解结构体或者函数句柄。</entry>
+    <entry key="InconsistentDataType">在对 DDESD 的调用中为 ''t0''、''y0''、''y(d(t0,y0))'' 和 ''f(t0,y0,ylags)'' 混合使用了单精度和双精度数据。</entry>
+    <entry key="JumpsOptionNotAvailable">JUMPS 选项在 DDESD 中不可用。通过在每次进入 JUMPS 时重新启动来解决该问题。</entry>
+    <entry key="RelTolIncrease">RelTol 已增加到 {0}。</entry>
+    <entry key="AbsTolSize">求解 {0} 时，AbsTol 应该为一个标量或者一个长度为 {1,number,integer} 的向量</entry>
+    <entry key="IntegrationTolNotMet">在 t={0} 处失败。在时间 t 处，步长必须降至所允许的最小值({1})以下，才能达到积分容差要求。</entry>
+  </message>
+</rsccat>

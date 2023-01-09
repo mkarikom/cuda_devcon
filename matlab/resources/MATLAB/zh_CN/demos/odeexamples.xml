@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelODE">常微分方程</entry>
+    <entry key="LabelDAE">微分代数方程</entry>
+    <entry key="LabelIDE">隐式微分方程</entry>
+    <entry key="LabelDDE">时滞微分方程</entry>
+    <entry key="LabelBVP">边界值问题</entry>
+    <entry key="LabelPDE">偏微分方程</entry>
+    <entry key="LabelBallode">ballode    - 简单事件位置(弹球的轨迹图)</entry>
+    <entry key="LabelBatonode">batonode   - 具有时间和状态相关质量矩阵的 ODE</entry>
+    <entry key="LabelBrussode">brussode   - 刚性大问题(化学反应中的扩散)</entry>
+    <entry key="LabelBurgersode">burgersode - 具有强烈状态相关质量矩阵的 ODE</entry>
+    <entry key="LabelFem1ode">fem1ode    - 具有时间相关质量矩阵的刚性问题</entry>
+    <entry key="LabelFem2ode">fem2ode    - 具有常量质量矩阵的刚性问题</entry>
+    <entry key="LabelHb1ode">hb1ode     - 在很大区间中求解的刚性问题</entry>
+    <entry key="LabelKneeode">kneeode    - 具有非负约束的“膝部问题”</entry>
+    <entry key="LabelOrbitode">orbitode   - 高级事件位置(受限制的三主体问题)</entry>
+    <entry key="LabelRigidode">rigidode   - 非刚性问题(欧拉运动方程)</entry>
+    <entry key="LabelVdpode">vdpode     - 刚性问题(van der Pol 方程)</entry>
+    <entry key="LabelAmp1dae">amp1dae - 刚性 DAE - 电路</entry>
+    <entry key="LabelHb1daew">hb1dae  - 守恒定律的刚性 DAE</entry>
+    <entry key="LabelIburgersode">iburgersode - 作为隐式 ODE 方程组求解的伯格斯方程</entry>
+    <entry key="LabelIhb1dae">ihb1dae  - 守恒定律的刚性隐式 DAE</entry>
+    <entry key="LabelDdex1">ddex1 - 具有常量历史记录的 DDE</entry>
+    <entry key="LabelDdex2">ddex2 - 具有不连续性的 DDE</entry>
+    <entry key="LabelDdex3">ddex3 - 具有状态相关时滞的 DDE</entry>
+    <entry key="LabelDdex4">ddex4 - 带有两个延迟的中立型 DDE</entry>
+    <entry key="LabelDdex5">ddex5 - 初始值类型的中立型 DDE</entry>
+    <entry key="LabelEmdenbvp">emdenbvp - 埃姆登方程 - 具有奇异项的 BVP</entry>
+    <entry key="LabelEmdenbvp5c">emdenbvp(''bvp5c'') - 使用 BVP5C 求解的埃姆登方程</entry>
+    <entry key="LabelFsbvp">fsbvp    - 无限区间中的 Falkner-Skan BVP</entry>
+    <entry key="LabelFsbvp5C">fsbvp(''bvp5c'') - 使用 BVP5C 求解的 Falkner-Skan BVP</entry>
+    <entry key="LabelMat4bvp">mat4bvp  - 马蒂厄方程的第四特征函数</entry>
+    <entry key="LabelMat4bvp5c">mat4bvp(''bvp5c'') - 使用 BVP5C 求解的马蒂厄方程</entry>
+    <entry key="LabelRcbvp">rcbvp - 比较 BVP4C 和 BVP5C 的示例</entry>
+    <entry key="LabelShockbvp">shockbvp - 解具有接近 x = 0 的冲击层</entry>
+    <entry key="LabelShockbvp5c">shockbvp(''bvp5c'') - 使用 BVP5C 计算的冲击层</entry>
+    <entry key="LabelThreebvp">threebvp - 三点边界值问题</entry>
+    <entry key="LabelThreebvp5c">threebvp(''bvp5c'') - 使用 BVP5C 求解的三点 BVP</entry>
+    <entry key="LabelTwobvp">twobvp   - 恰好有两个解的问题</entry>
+    <entry key="LabelPdex1">pdex1 - 一个 PDE--介绍性示例</entry>
+    <entry key="LabelPdex2">pdex2 - 一个 PDE--具有不连续性的示例</entry>
+    <entry key="LabelPdex3">pdex3 - 一个 PDE--近似 u(x,t) 和 Du(x,t)/Dx</entry>
+    <entry key="LabelPdex4">pdex4 - 两个 PDE--介绍性示例</entry>
+    <entry key="LabelPdex5">pdex5 - 两个 PDE--长时间行为示例</entry>
+    <entry key="TitleDifferentialEquationsExamples">微分方程示例</entry>
+    <entry key="LabelExamplesOf">示例</entry>
+    <entry key="LabelViewCode">查看代码</entry>
+    <entry key="LabelRunExample">运行示例</entry>
+    <entry key="LabelClose">关闭</entry>
+  </message>
+</rsccat>

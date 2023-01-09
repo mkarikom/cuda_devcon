@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">처음 두 개의 입력값은 table형이어야 합니다.</entry>
+    <entry key="CantInferKey">키 변수로 사용할 공통 테이블 변수를 찾을 수 없습니다.</entry>
+    <entry key="MissingKeyVar">''Keys'' 파라미터를 제공하거나 ''LeftKeys'' 파라미터와 ''RightKeys'' 파라미터를 모두 제공해야 합니다.</entry>
+    <entry key="ConflictingInputs">''Keys'' 파라미터를 제공하거나 ''LeftKeys'' 파라미터와 ''RightKeys'' 파라미터를 모두 제공해야 합니다.</entry>
+    <entry key="InvalidKeepOneCopy">''KeepOneCopy'' 파라미터는 변수 이름이거나 변수 이름을 포함한 셀형 배열이어야 합니다.</entry>
+    <entry key="UnequalNumKeyVars">좌변과 우변에 있는 키 변수의 개수는 동일해야 합니다.</entry>
+    <entry key="DuplicateVars">변수를 두 번 포함할 수 없습니다.</entry>
+    <entry key="NDKeyVar">N차원 변수는 결합을 위한 키로 사용될 수 없습니다.</entry>
+    <entry key="KeyVarSizeMismatch">왼쪽 테이블의 키 변수 ''{0}''과(와) 오른쪽 테이블의 키 변수 ''{1}''의 열 개수가 동일하지 않습니다.</entry>
+    <entry key="KeyVarCellMismatch">왼쪽 테이블의 키 변수 ''{0}''과(와) 오른쪽 테이블의 키 변수 ''{1}''은(는) 둘 중 하나가 셀형이 아니어서 비교될 수 없습니다.</entry>
+    <entry key="KeyVarTypeMismatch">왼쪽 테이블의 키 변수 ''{0}''과(와) 오른쪽 테이블의 키 변수 ''{1}''의 형식이 호환되지 않습니다.</entry>
+    <entry key="KeyMergeFailed">Merging keys with different types to create the variable ''{0}'' in the output table resulted in a conversion error.\n</entry>
+    <entry key="MulticolumnKeyVar">{0} 변수는 열이 여러 개일 경우 결합을 위한 키로 사용될 수 없습니다.</entry>
+    <entry key="DuplicateRightKeyVarValues">오른쪽 테이블에 대한 키 변수에는 고유한 값이 있어야 합니다.</entry>
+    <entry key="LeftKeyValueNotFound">오른쪽 테이블에 대한 키 변수에는 왼쪽 테이블에 대한 키 변수의 모든 값이 포함되어야 합니다.</entry>
+    <entry key="LeftKeyValuesNotFound">오른쪽 테이블에 대한 키 변수에는 왼쪽 테이블에 대한 키 변수의 모든 고유한 값 조합이 포함되어야 합니다.</entry>
+    <entry key="MissingKeyValues">키 변수에는 누락값이 포함되어서는 안 됩니다.</entry>
+    <entry key="InvalidType">TYPE은 ''left'', ''right'', ''full'' 중 하나여야 합니다.</entry>
+    <entry key="KeyVarNonStringError">왼쪽 테이블의 키 변수 ''{0}''과(와) 오른쪽 테이블의 키 변수 ''{1}''에 문자형 벡터가 아닌 값을 가진 셀이 있습니다.</entry>
+    <entry key="KeyVarUniqueError">왼쪽 테이블의 키 변수 ''{0}''과(와) 오른쪽 테이블의 키 변수 ''{1}''에 대해 고유한 값을 찾는 중 오류가 발생했습니다.\n{2}.</entry>
+    <entry key="KeyIsmemberMethodFailed">키 변수를 사용하여 왼쪽 테이블의 행에 대응하는 행을 오른쪽 테이블에서 찾을 수 없습니다. ISMEMBER 메서드에서 다음 오류가 발생했습니다.\n\n{0}</entry>
+    <entry key="KeyIsmemberMethodReturnedWrongSize">키 변수를 사용하여 왼쪽 테이블의 행에 대응하는 행을 오른쪽 테이블에서 찾을 수 없습니다. ISMEMBER 메서드에서 반환된 값에 잘못된 개수의 행이 있습니다.</entry>
+    <entry key="UnequalRowNames">행 이름을 키로 사용할 경우 오른쪽 테이블은 왼쪽 테이블의 행 이름을 모두 포함해야 합니다.</entry>
+    <entry key="TableTimetableInput">타임테이블과 테이블을 결합하려면, 첫 번째 입력값은 타임테이블이어야 하고 두 번째 입력값은 테이블이어야 합니다.</entry>
+    <entry key="RowLabelsCannotBeDataVar">''LeftVariables'' 또는 ''RightVariables''에서는 행 이름이 지원되지 않습니다.</entry>
+    <entry key="RowLabelsCannotBeDataVarNondefaultName">''{0}''은(는) 인식할 수 없는 변수 이름입니다. 이 테이블의 ''{1}''(으)로 명명된 행 이름에 액세스하려고 했을 수 있습니다. 그러나 ''LeftVariables'' 또는 ''RightVariables''에서는 행 이름이 지원되지 않습니다.</entry>
+    <entry key="TableRowLabelsVarKeyPairNotSupported">행 이름을 왼쪽 테이블의 키로 사용하고 변수를 오른쪽 테이블의 키로 사용한 테이블 간의 내부 결합이나 외부 결합은 지원되지 않습니다. 왼쪽 입력값에서 행 이름을 변수로 변환하십시오.</entry>
+    <entry key="TableTimetableNotSupported">테이블과 타임테이블을 결합하려면 타임테이블이 첫 번째 입력값이어야 합니다.</entry>
+    <entry key="TableOuterRowLabelsOtherKeysNotSupported">행 이름을 다른 키와 함께 사용한 테이블 간의 외부 결합은 지원되지 않습니다. 행 이름만 키로 사용하거나, 입력값에서 행 이름을 변수로 변환하십시오.</entry>
+    <entry key="NonConstantArg">''{0}'' must be constant.</entry>
+    <entry key="DuplicateNonKeyVarNames">코드 생성에서 키 변수가 아니면서 동일한 이름을 가진 변수는 지원되지 않습니다.</entry>
+    <entry key="DuplicateUnmergedKeyVarNames">''MergeKeys''가 true로 설정된 경우가 아니면 outerjoin에 대한 코드 생성에서 동일한 이름을 가진 키 변수는 지원되지 않습니다.</entry>
+    <entry key="CantJoinTabularVariable">join에 대한 코드 생성에서 table형이나 timetable형의 키 또는 변수는 지원되지 않습니다. SPLITVARS를 사용하여 ''{0}''을(를) 여러 개의 변수로 분할하십시오.</entry>
+  </message>
+</rsccat>

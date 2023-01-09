@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotEnoughInputs">Needs at least 1 input.</entry>
+    <entry key="OptsNotStringCell" note="stringDatatypeUpdate">Convex hull options must be a cell array of character vectors or a string array.</entry>
+    <entry key="NonNumericInput">The specified data points are not in numeric array format.</entry>
+    <entry key="Sparse">Data points in sparse matrix format are not supported.\nUse FULL to convert a sparse matrix to full storage format.</entry>
+    <entry key="Complex">Data points in complex number format are not supported.\nUse REAL and IMAG to extract the real and imaginary components.</entry>
+    <entry key="CannotAcceptInfOrNaN">Data points containing Inf or NaN are not supported.</entry>
+    <entry key="NonTwoDInput">Data points must be specified in a 2D array format.</entry>
+    <entry key="NotEnoughPts">Not enough unique points specified.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonNumericInput">입력 인수는 숫자형이어야 합니다.</entry>
+    <entry key="non2DInput">입력값은 2차원이어야 합니다.</entry>
+    <entry key="nonComplexVectorInput">복소수 벡터만 지원됩니다.</entry>
+    <entry key="lengthXDoesNotMatchNumRowsY">X의 길이는 Y의 행 개수와 일치해야 합니다.</entry>
+    <entry key="lengthXDoesNotMatchNumAnyDimY">X의 길이는 Y의 행 수 또는 열 수와 일치해야 합니다.</entry>
+    <entry key="XAndYLengthMismatch">X는 Y와 길이가 동일해야 합니다.</entry>
+    <entry key="XAndYSizeMismatch">X와 Y는 같은 크기여야 합니다.</entry>
+    <entry key="XNotAVector">X는 벡터여야 합니다.</entry>
+    <entry key="YNotAVectorScalarX">X가 스칼라이면 Y는 벡터여야 합니다.</entry>
+  </message>
+</rsccat>

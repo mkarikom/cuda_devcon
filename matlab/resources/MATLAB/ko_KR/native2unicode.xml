@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManyDimensions">인수는 2차원이어야 합니다.</entry>
+    <entry key="NonVectorInput">적어도 하나는 차원이 1이어야 합니다.</entry>
+    <entry key="InvalidType">입력값은 숫자형 벡터이거나 문자형 벡터 또는 string형 스칼라여야 합니다.</entry>
+    <entry key="NonVectorOutput">적어도 출력값 차원 중 하나는 1이어야 합니다.</entry>
+    <entry key="Encoding">인코딩</entry>
+    <entry key="InputTooLarge">입력값의 요소는 2^30개보다 적어야 합니다.</entry>
+  </message>
+</rsccat>

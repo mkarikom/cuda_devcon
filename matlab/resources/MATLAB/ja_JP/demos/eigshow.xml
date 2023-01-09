@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ButtonHelp">ヘルプ</entry>
+    <entry key="ButtonClose">閉じる</entry>
+    <entry key="LabelMakeAxPerpendicularToAy">A*y と垂直な A*x を作成</entry>
+    <entry key="LabelMakeAxParallelToX">x と平行する A*x を作成</entry>
+    <entry key="InputSizeIncorrect">行列は 2 行 2 列でなければなりません</entry>
+  </message>
+</rsccat>

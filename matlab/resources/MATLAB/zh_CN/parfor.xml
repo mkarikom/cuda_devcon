@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DivideLengthIncorrect">''DIVIDE'' 参数的计算结果必须为长度大于或等于 ''W'' 的行向量。有关详细信息，请参阅 ''parallel_function''。</entry>
+    <entry key="DivideNotIncreasing">''DIVIDE'' 参数的计算结果必须为 ''BASE'' 和 ''LIMIT'' 之间连续递增整数的行向量。有关详细信息，请参阅 ''parallel_function''。</entry>
+    <entry key="ArgumentMissing">输入参数的数量不正确。''parallel_function'' 需要 ''RANGE'' 和 ''F'' 参数。有关详细信息，请参阅 ''parallel_function''。</entry>
+    <entry key="InvalidArgumentRANGE">''RANGE'' 参数的计算结果必须为二元素整数行向量。有关详细信息，请参阅 ''parallel_function''。</entry>
+    <entry key="InvalidArgumentReal">''RANGE'' 参数的 ''BASE'' 和 ''LIMIT'' 必须为实数。有关详细信息，请参阅 ''parallel_function''。</entry>
+    <entry key="InvalidArgumentInteger">''RANGE'' 参数的 ''BASE'' 和 ''LIMIT'' 必须为整数。有关详细信息，请参阅 ''parallel_function''。</entry>
+    <entry key="InvalidArgumentF">''F'' 参数必须为函数句柄。有关详细信息，请参阅 ''parallel_function''。</entry>
+    <entry key="InvalidArgument">''{0}'' 参数必须为函数句柄或 []。有关详细信息，请参阅 ''parallel_function''。</entry>
+    <entry key="ArgumentNotSupplied">参数的数目不正确。如果 ''{0}'' 为函数句柄，则必须提供''{1}''。有关详细信息，请参阅 ''parallel_function''。</entry>
+    <entry key="InvalidArgumentM">''M'' 参数必须为零或正标量整数。有关详细信息，请参阅 ''parallel_function''。</entry>
+    <entry key="InvalidOutputArgument">输出参数的数目不正确。最多可以有 3 个输出。有关详细信息，请参阅 ''parallel_function''。</entry>
+    <entry key="InvalidArgsForThreeOutputs">输出参数的数目不正确。三个输出参数需要 ''REDUCE'' 和 ''CONCAT'' 输入参数。有关详细信息，请参阅 ''parallel_function''。</entry>
+    <entry key="InvalidArgsForTwoOutputs">输出参数的数目不正确。两个输出参数需要 ''REDUCE'' 或 ''CONCAT'' 输入参数。有关详细信息，请参阅 ''parallel_function''。</entry>
+    <entry key="InvalidArgumentNumericDIVIDE">''DIVIDE'' 参数必须为大于 0 的整数标量。有关详细信息，请参阅 ''parallel_function''。</entry>
+    <entry key="InvalidArgumentFHandleDIVIDE">''DIVIDE'' 的函数句柄值必须接受两个或三个参数。有关详细信息，请参阅 ''parallel_function''。</entry>
+    <entry key="InvalidArgumentDIVIDE">''DIVIDE'' 参数必须为数字、函数句柄或 []。有关详细信息，请参阅 ''parallel_function''。</entry>
+    <entry key="InvalidSecondArgument">parfor 的参数无效。parfor 的第二个输入参数必须是最大工作进程数(指定为非负整数标量或 Inf)、一组 parforOptions 或一个 parallel.Cluster 对象。</entry>
+    <entry key="maxWorkers">最大工作进程数必须为零、正整数或 Inf。</entry>
+    <entry key="sliced_function_handle">分段变量 ''{0}'' 不能为函数句柄。要在 parfor 循环中调用函数句柄，请使用 "feval({1}, args)"。有关详细信息，请参阅 {2}。</entry>
+    <entry key="InvalidComposite">parfor 循环不支持复合对象。</entry>
+    <entry key="SourceCodeNotAvailable">找不到尝试执行工作进程的 parfor 循环的源代码({0})。</entry>
+    <entry key="UndefinedFunctionOnWorker">在 ''{0}'' 的工作进程上引发了 UndefinedFunction 错误。这可能是因为在这些工作进程上无法访问包含 ''{1}'' 的文件。使用 addAttachedFiles(pool, files) 指定要附加的必要文件。有关详细信息，请参阅 ''parallel.Pool/addAttachedFiles'' 的文档。</entry>
+    <entry key="range_not_consecutive">parfor 循环变量 "{0}" 的范围计算结果必须为包含连续递增整数的行向量。有关详细信息，请参阅 {1}。</entry>
+    <entry key="range_must_be_row_vector">parfor 循环变量 "{0}" 的范围计算结果必须为行向量。有关详细信息，请参阅 {1}。</entry>
+    <entry key="range_endpoint">parfor 循环变量范围 ''{0}'' 的端点计算结果必须为整数。有关详细信息，请参阅 {1}。</entry>
+    <entry key="InvalidParforLoopRangeStep">parfor 循环变量范围 ''{0}'' 的范围步长计算结果必须为整数值 1。有关详细信息，请参阅 {1}。</entry>
+    <entry key="range_exceeds_bounds">parfor 循环变量 ''{0}'' 超出 parfor 循环中支持的整数类型范围。有关详细信息，请参阅 {1}。</entry>
+    <entry key="InvalidMixedNonDoubleParforLoopRange">parfor 循环变量范围 "{0}" 的冒号操作数必须均为同一类型，或者与双精度实数标量混合使用。有关详细信息，请参阅 {1}。</entry>
+    <entry key="InvalidNestedForLoopContext">错误: {0}当用嵌套 for 循环变量 ''{2}'' 对分段变量 ''{1}'' 进行索引时，分段变量必须位于定义 for 循环变量范围的 for 循环内。有关详细信息，请参阅 {3}。</entry>
+    <entry key="InvalidMultipleNestedForLoopVariableDefintions">错误: {0}当用嵌套 for 循环变量 ''{2}'' 对分段变量 ''{1}'' 进行索引时，for 循环变量只能由其 for 语句赋值。有关详细信息，请参阅 {3}。</entry>
+    <entry key="InvalidNestedForLoopRangeDimensions">使用嵌套 for 循环变量 ''{0}'' 对分段变量进行索引时，for 循环变量的范围计算结果必须为行向量。有关详细信息，请参阅 {1}。</entry>
+    <entry key="InvalidNestedForLoopRangeValue">使用嵌套 for 循环变量 ''{0}'' 对分段变量进行索引时，for 循环变量的范围计算结果必须为由正整数组成的行向量。有关详细信息，请参阅 {1}。</entry>
+    <entry key="InvalidNestedForLoopRangeStep">使用嵌套 for 循环变量 ''{0}'' 对分段变量进行索引时，for 循环变量范围的范围步长计算结果必须为整数。有关详细信息，请参阅 {1}。</entry>
+    <entry key="InvalidNestedForLoopRangeEndpoint">使用 for 循环变量 ''{0}'' 对分段变量进行索引时，for 循环变量范围的端点计算结果必须为正整数。有关详细信息，请参阅 {1}。</entry>
+    <entry key="InvalidSlicedVariableOffset">对分段变量 ''{0}'' 进行索引时，分段变量偏移的计算结果必须为常整数。有关详细信息，请参阅 {1}。</entry>
+    <entry key="InvalidMixedNonDoubleSlicedVariableOffset">使用偏移值 ''{0}'' 对分段变量进行索引时，偏移和 parfor 循环变量范围必须为同一类型，或者与实数标量双精度值混合使用。有关详细信息，请参阅 {1}。</entry>
+    <entry key="UninitializedReductionVariable">必须在 parfor 循环之前设置归约变量 ''{0}''。有关详细信息，请参阅 {1}。</entry>
+    <entry key="InvalidNestedForLoopRange">错误: {0}对分段变量 ''{1}'' 进行索引时，for 循环变量 ''{2}'' 的范围必须是由正的常数值或变量组成的行向量。有关详细信息，请参阅 {3}。</entry>
+    <entry key="InvalidNestedForLoopVariableAssignment">错误: {0}在 parfor 循环中，不支持为 for 循环变量 ''{1}'' 赋值。有关详细信息，请参阅 {2}。</entry>
+    <entry key="InvalidNestedForLoopVariableIndexing">错误: {0}在 parfor 循环中，不支持对 for 循环变量 ''{1}'' 进行索引。有关详细信息，请参阅 {2}。</entry>
+    <entry key="AnsAsParforLoopVariable">错误: {0}不支持使用 ans 作为 parfor 循环变量。有关详细信息，请参阅 {1}。</entry>
+    <entry key="AnsAsNestedForLoopVariable">错误: {0}在 parfor 循环中，不支持使用 ans 作为 for 循环变量。有关详细信息，请参阅 {1}。</entry>
+    <entry key="AnsAsReductionVariable">错误: {0}在 parfor 循环中，不支持使用 ans 作为归约变量。有关详细信息，请参阅 {1}。</entry>
+    <entry key="AnsAsSlicedVariable">错误: {0}在 parfor 循环中，不支持使用 ans 作为分段变量。有关详细信息，请参阅 {1}。</entry>
+    <entry key="InvalidSlicedOutputInsideAnonymousFunction">错误: {0}在 parfor 循环中，不支持在匿名函数中使用分段输出变量 ''{1}''。有关详细信息，请参阅 {2}。</entry>
+    <entry key="InvalidReductionOperationAssignment">错误: {0}在 parfor 循环中，不支持为归约语句的归约函数 ''{1}'' 赋值。有关详细信息，请参阅 {2}。</entry>
+    <entry key="InvalidLoadFunctionCall">错误: {0} 在 parfor 循环中不支持使用不带输出变量的 Load 函数。有关详细信息，请参阅 {1}。</entry>
+    <entry key="InvalidInputnameFunctionCall">错误: {0}不支持在 parfor 循环中使用 inputname。有关详细信息，请参阅 {1}。</entry>
+    <entry key="InvalidBroadcastSlicedVariableArgument">当用广播变量 ''{1}'' 对分段变量 ''{0}'' 进行索引时，广播变量的计算结果必须为正整数或逻辑值。有关详细信息，请参阅 {2}。</entry>
+  </message>
+</rsccat>

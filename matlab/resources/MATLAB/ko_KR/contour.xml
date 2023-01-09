@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="YMustNotBeScalar">Y는 스칼라가 아니어야 합니다.</entry>
+    <entry key="YMustBeFinite">Y 값은 유한해야 합니다.</entry>
+    <entry key="TextListMustBeVectorOrScalar">텍스트 목록 값은 벡터 또는 스칼라여야 합니다.</entry>
+    <entry key="TextListMustBeFinite">텍스트 목록 값은 유한해야 합니다.</entry>
+    <entry key="ZMustBeAtLeast2x2Matrix">Z는 최소 2x2 행렬이어야 합니다.</entry>
+    <entry key="DataMustBeNonNegative">{0}은(는) 음수가 아니여야 합니다.</entry>
+    <entry key="LMustBeVectorOrScalar">등고선 레벨 값은 벡터 또는 스칼라여야 합니다.</entry>
+    <entry key="LMustBeFinite">등고선 레벨 값은 유한해야 합니다.</entry>
+    <entry key="InputsMustBeReal">입력 인수는 실수여야 합니다. 함수 REAL을 사용하여 입력값의 실수부를 가져오십시오.</entry>
+    <entry key="InputsMustHaveAtMost2Dimensions">입력 인수는 2차원을 초과할 수 없습니다.</entry>
+    <entry key="NonFiniteData">등고선은 유한하지 않은 ZData에 대해 렌더링되지 않습니다.</entry>
+    <entry key="ConstantData">등고선은 상수 ZData에 대해 렌더링되지 않습니다.</entry>
+    <entry key="XMustNotBeScalar">X는 스칼라가 아니어야 합니다.</entry>
+    <entry key="XMustBeFinite">X 값은 유한해야 합니다.</entry>
+    <entry key="UnknownOption">"{0}"은(는) 알 수 없는 옵션입니다.</entry>
+    <entry key="LengthOfXandYMustMatchColsAndRowsInZ">''XData''와 ''YData''의 값 개수는 ''ZData''의 열 개수, 행 개수와 각각 같아야 합니다.</entry>
+    <entry key="LengthOfXMustMatchColsInZ">''XData''의 값 개수는 ''ZData''의 열 개수와 같아야 합니다.</entry>
+    <entry key="LengthOfYMustMatchRowsInZ">''YData''의 값 개수는 ''ZData''의 행 개수와 같아야 합니다.</entry>
+    <entry key="VectorXMustBeUniqueMonotone">벡터 X는 반복된 값이 없이 순증가(Strictly Increasing)하거나 순감소(Strictly Decreasing)해야 합니다.</entry>
+    <entry key="VectorYMustBeUniqueMonotone">벡터 Y는 반복된 값이 없이 순증가(Strictly Increasing)하거나 순감소(Strictly Decreasing)해야 합니다.</entry>
+    <entry key="NMustNotBeNegative">등고선 레벨 개수는 음수가 아니여야 합니다.</entry>
+    <entry key="InvalidNumericMatrix">처음 3개의 인수(X, Y, Z)는 비어 있지 않은 2차원 실수 행렬이어야 합니다.</entry>
+    <entry key="SizeMismatch">처음 3개의 인수(X, Y, Z)는 크기가 동일해야 합니다.</entry>
+    <entry key="InvalidLevel">수준 입력값은 숫자형 스칼라여야 합니다.</entry>
+    <entry key="ErrorProcessingContour">등고선을 처리하지 못했습니다.</entry>
+    <entry key="LevelStepLabel">등고선 사이의 간격</entry>
+    <entry key="FillLabel">등고선 사이 채우기</entry>
+    <entry key="MeshDensityLabel">방향별 계산 지점 개수</entry>
+    <entry key="ShowTextLabel">등고선 레이블</entry>
+    <entry key="LabelSpacingLabel">레이블 간격</entry>
+    <entry key="InterpMethod">보간 방법</entry>
+    <entry key="TextStepLabel">레이블이 있는 등고선 사이의 간격</entry>
+    <entry key="ShowContoursLabel">플롯 아래 등고선 플롯 표시 여부</entry>
+  </message>
+</rsccat>

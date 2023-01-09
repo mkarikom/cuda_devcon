@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="nonRealDiag">Matrix must have real diagonal.</entry>
+    <entry key="inputMustBe2D">The array must be 2-dimensional.</entry>
+    <entry key="inputType">Invalid data type. First argument must be double or single.</entry>
+    <entry key="tooManyOutputs">Too many output arguments. Specify at most three output arguments if input matrix is dense.</entry>
+    <entry key="tooFewOutputs">Not enough output arguments. Specify at least three output arguments if input matrix is sparse.</entry>
+    <entry key="complexSparseLDLnotAvailable">Complex sparse input matrix not supported.</entry>
+    <entry key="invalidPivotTol">The pivot tolerance must be a real double scalar between 0 and 0.5, inclusive.</entry>
+    <entry key="noPivotTolDense">Pivot tolerance only supported for sparse matrices.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DivideLengthIncorrect">''DIVIDE'' 인수는 길이가 ''W''보다 크거나 같은 행 벡터여야 합니다. 자세한 내용은 ''parallel_function''을 참조하십시오.</entry>
+    <entry key="DivideNotIncreasing">''DIVIDE'' 인수는 ''BASE''에서 ''LIMIT'' 사이에 있는 연속적이며 증가하는 정수로 구성된 행 벡터여야 합니다. 자세한 내용은 ''parallel_function''을 참조하십시오.</entry>
+    <entry key="ArgumentMissing">입력 인수의 개수가 올바르지 않습니다. ''parallel_function''에는 ''RANGE'' 인수와 ''F'' 인수가 필요합니다. 자세한 내용은 ''parallel_function''을 참조하십시오.</entry>
+    <entry key="InvalidArgumentRANGE">''RANGE'' 인수는 정수로 구성된 요소를 2개 가진 행 벡터여야 합니다. 자세한 내용은 ''parallel_function''을 참조하십시오.</entry>
+    <entry key="InvalidArgumentReal">''RANGE'' 인수의 ''BASE'' 및 ''LIMIT''는 실수여야 합니다. 자세한 내용은 ''parallel_function''을 참조하십시오.</entry>
+    <entry key="InvalidArgumentInteger">''RANGE'' 인수의 ''BASE'' 및 ''LIMIT''는 정수여야 합니다. 자세한 내용은 ''parallel_function''을 참조하십시오.</entry>
+    <entry key="InvalidArgumentF">''F'' 인수는 함수 핸들이어야 합니다. 자세한 내용은 ''parallel_function''을 참조하십시오.</entry>
+    <entry key="InvalidArgument">''{0}'' 인수는 함수 핸들이거나 []이어야 합니다. 자세한 내용은 ''parallel_function''을 참조하십시오.</entry>
+    <entry key="ArgumentNotSupplied">인수의 개수가 잘못되었습니다. ''{0}''이(가) 함수 핸들인 경우 ''{1}''을(를) 제공해야 합니다. 자세한 내용은 ''parallel_function''을 참조하십시오.</entry>
+    <entry key="InvalidArgumentM">''M'' 인수는 0 또는 양의 정수 스칼라여야 합니다. 자세한 내용은 ''parallel_function''을 참조하십시오.</entry>
+    <entry key="InvalidOutputArgument">출력 인수의 개수가 올바르지 않습니다. 최대 출력값 수는 3개입니다. 자세한 내용은 ''parallel_function''을 참조하십시오.</entry>
+    <entry key="InvalidArgsForThreeOutputs">출력 인수의 개수가 올바르지 않습니다. 3개의 출력 인수를 사용하려면 ''REDUCE'' 입력 인수와 ''CONCAT'' 입력 인수가 필요합니다. 자세한 내용은 ''parallel_function''을 참조하십시오.</entry>
+    <entry key="InvalidArgsForTwoOutputs">출력 인수의 개수가 올바르지 않습니다. 2개 출력 인수를 사용하려면 'REDUCE'' 입력 인수 또는 ''CONCAT'' 입력 인수가 필요합니다. 자세한 내용은 ''parallel_function''을 참조하십시오.</entry>
+    <entry key="InvalidArgumentNumericDIVIDE">''DIVIDE'' 인수는 0보다 큰 정수 스칼라여야 합니다. 자세한 내용은 ''parallel_function''을 참조하십시오.</entry>
+    <entry key="InvalidArgumentFHandleDIVIDE">''DIVIDE''에 대한 함수 핸들 값은 2개 또는 3개의 인수를 가져야 합니다. 자세한 내용은 ''parallel_function''을 참조하십시오.</entry>
+    <entry key="InvalidArgumentDIVIDE">''DIVIDE'' 인수는 숫자형, 함수 핸들 또는 []이어야 합니다. 자세한 내용은 ''parallel_function''을 참조하십시오.</entry>
+    <entry key="InvalidSecondArgument">parfor에 유효하지 않은 인수입니다. parfor에 대한 두 번째 입력 인수는 음이 아닌 정수 스칼라나 Inf로 지정된 최대 워커 개수, parforOptions 집합 또는 parallel.Cluster 객체여야 합니다.</entry>
+    <entry key="maxWorkers">최대 워커 개수는 0, 양의 정수 또는 Inf여야 합니다.</entry>
+    <entry key="sliced_function_handle">슬라이스 변수 ''{0}''은(는) 함수 핸들이 아니어야 합니다. parfor 루프에서 함수 핸들을 호출하려면 "feval({1}, args)"를 사용하십시오. 자세한 내용은 {2}을(를) 참조하십시오.</entry>
+    <entry key="InvalidComposite">Composite 객체는 parfor 루프에서 지원되지 않습니다.</entry>
+    <entry key="SourceCodeNotAvailable">워커에서 실행하려고 하는 parfor 루프의 소스 코드({0})를 찾을 수 없습니다.</entry>
+    <entry key="UndefinedFunctionOnWorker">UndefinedFunction 오류가 ''{0}'' 워커에서 발생되었습니다. 이는 ''{1}''이(가) 포함된 파일을 워커에서 액세스할 수 없기 때문일 수 있습니다. addAttachedFiles(pool, files)를 사용하여 필요한 파일을 첨부하도록 지정하십시오. 자세한 내용은 ''parallel.Pool/addAttachedFiles''에 대한 문서를 참조하십시오.</entry>
+    <entry key="range_not_consecutive">parfor 루프 변수 ''{0}''의 범위는 연속으로 증가하는 정수로 구성된 행 벡터여야 합니다. 자세한 내용은 {1}을(를) 참조하십시오.</entry>
+    <entry key="range_must_be_row_vector">parfor 루프 변수 ''{0}''의 범위는 행 벡터여야 합니다. 자세한 내용은 {1}을(를) 참조하십시오.</entry>
+    <entry key="range_endpoint">parfor 루프 변수 범위 ''{0}''의 끝점은 정수여야 합니다. 자세한 내용은 {1}을(를) 참조하십시오.</entry>
+    <entry key="InvalidParforLoopRangeStep">parfor 루프 변수 범위 ''{0}''의 범위 간격은 정수 값 1이어야 합니다. 자세한 내용은 {1}을(를) 참조하십시오.</entry>
+    <entry key="range_exceeds_bounds">parfor 루프 변수 ''{0}''이(가) parfor 루프에서 지원되는 정수형 범위를 벗어났습니다. 자세한 내용은 {1}을(를) 참조하십시오.</entry>
+    <entry key="InvalidMixedNonDoubleParforLoopRange">parfor 루프 변수 범위 ''{0}''의 콜론 피연산자는 모두 동일한 유형을 갖거나 double형의 실수 스칼라와 함께 사용되어야 합니다. 자세한 내용은 {1}을(를) 참조하십시오.</entry>
+    <entry key="InvalidNestedForLoopContext">오류: {0}슬라이스 변수 ''{1}''을(를) 중첩된 for 루프 변수 ''{2}''(으)로 인덱싱하는 경우 슬라이스 변수는 for 루프 변수의 범위를 정의하는 for 루프 내에 있어야 합니다. 자세한 내용은 {3}을(를) 참조하십시오.</entry>
+    <entry key="InvalidMultipleNestedForLoopVariableDefintions">오류: {0}슬라이스 변수 ''{1}''을(를) 중첩된 for 루프 변수 ''{2}''(으)로 인덱싱하는 경우 for 루프 변수의 값은 해당 for 문 이외의 구문에 의해 대입되어선 안됩니다. 자세한 내용은 {3}을(를) 참조하십시오.</entry>
+    <entry key="InvalidNestedForLoopRangeDimensions">슬라이스 변수를 중첩 for 루프 변수 ''{0}''(으)로 인덱싱하는 경우 for 루프 변수 범위는 행 벡터여야 합니다. 자세한 내용은 {1}을(를) 참조하십시오.</entry>
+    <entry key="InvalidNestedForLoopRangeValue">슬라이스 변수를 중첩 for 루프 변수 ''{0}''(으)로 인덱싱하는 경우 for 루프 변수 범위는 양의 정수로 구성된 행 벡터여야 합니다. 자세한 내용은 {1}을(를) 참조하십시오.</entry>
+    <entry key="InvalidNestedForLoopRangeStep">슬라이스 변수를 중첩 for 루프 변수 ''{0}''(으)로 인덱싱하는 경우 for 루프 변수 범위의 범위 간격은 정수여야 합니다. 자세한 내용은 {1}을(를) 참조하십시오.</entry>
+    <entry key="InvalidNestedForLoopRangeEndpoint">슬라이스 변수를 for 루프 변수 ''{0}''(으)로 인덱싱하는 경우 for 루프 변수 범위의 끝점은 양의 정수여야 합니다. 자세한 내용은 {1}을(를) 참조하십시오.</entry>
+    <entry key="InvalidSlicedVariableOffset">슬라이스 변수 ''{0}''을(를) 인덱싱하는 경우 슬라이스 변수 오프셋은 정수 상수여야 합니다. 자세한 내용은 {1}을(를) 참조하십시오.</entry>
+    <entry key="InvalidMixedNonDoubleSlicedVariableOffset">슬라이스 변수를 오프셋 값 ''{0}''(으)로 인덱싱하는 경우, 오프셋과 parfor 루프 변수 범위는 동일한 유형이거나 double형의 실수형 스칼라와 함께 사용되어야 합니다. 자세한 내용은 {1}을(를) 참조하십시오.</entry>
+    <entry key="UninitializedReductionVariable">귀결 변수 ''{0}''은(는) parfor 루프 전에 설정해야 합니다. 자세한 내용은 {1}을(를) 참조하십시오.</entry>
+    <entry key="InvalidNestedForLoopRange">오류: {0}슬라이스 변수 ''{1}''을(를) 인덱싱하는 경우 for 루프 변수 ''{2}''의 범위는 양의 상수 또는 변수로 구성된 행 벡터여야 합니다. 자세한 내용은 {3}을(를) 참조하십시오.</entry>
+    <entry key="InvalidNestedForLoopVariableAssignment">오류: {0}parfor 루프에서는 for 루프 변수 ''{1}''에 값을 대입할 수 없습니다. 자세한 내용은 {2}을(를) 참조하십시오.</entry>
+    <entry key="InvalidNestedForLoopVariableIndexing">오류: {0}parfor 루프에서는 for 루프 변수 ''{1}''을(를) 인덱싱할 수 없습니다. 자세한 내용은 {2}을(를) 참조하십시오.</entry>
+    <entry key="AnsAsParforLoopVariable">오류: {0}ans를 parfor 루프 변수로 사용할 수 없습니다. 자세한 내용은 {1}을(를) 참조하십시오.</entry>
+    <entry key="AnsAsNestedForLoopVariable">오류: {0}parfor 루프에서는 ans를 for 루프 변수로 사용할 수 없습니다. 자세한 내용은 {1}을(를) 참조하십시오.</entry>
+    <entry key="AnsAsReductionVariable">오류: {0}parfor 루프에서는 ans를 귀결 변수로 사용할 수 없습니다. 자세한 내용은 {1}을(를) 참조하십시오.</entry>
+    <entry key="AnsAsSlicedVariable">오류: {0}parfor 루프에서는 ans를 슬라이스 변수로 사용할 수 없습니다. 자세한 내용은 {1}을(를) 참조하십시오.</entry>
+    <entry key="InvalidSlicedOutputInsideAnonymousFunction">오류: {0}parfor 루프에서는 익명 함수에 슬라이스 출력 변수 ''{1}''을(를) 사용할 수 없습니다. 자세한 내용은 {2}을(를) 참조하십시오.</entry>
+    <entry key="InvalidReductionOperationAssignment">오류: {0}parfor 루프에서는 귀결 명령문의 귀결 함수 ''{1}''에 값을 대입할 수 없습니다. 자세한 내용은 {2}을(를) 참조하십시오.</entry>
+    <entry key="InvalidLoadFunctionCall">오류: {0}parfor 루프에는 출력 변수에 값을 대입하지 않는 load 함수를 사용할 수 없습니다. 자세한 내용은 {1}을(를) 참조하십시오.</entry>
+    <entry key="InvalidInputnameFunctionCall">오류: {0}parfor 루프에서는 inputname을 사용할 수 없습니다. 자세한 내용은 {1}을(를) 참조하십시오.</entry>
+    <entry key="InvalidBroadcastSlicedVariableArgument">슬라이스 변수 ''{0}''을(를) 브로드캐스트 변수 ''{1}''(으)로 인덱싱할 때 브로드캐스트 변수는 양의 정수 또는 논리값이어야 합니다. 자세한 내용은 {2}을(를) 참조하십시오.</entry>
+  </message>
+</rsccat>

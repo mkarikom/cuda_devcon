@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">입력 행렬은 double형 또는 single형의 정사각 행렬이어야 합니다.</entry>
+    <entry key="NonFiniteInput">입력 행렬은 유한해야 합니다.</entry>
+    <entry key="StructSingular">입력 행렬이 구조적으로 특이 행렬입니다.</entry>
+  </message>
+</rsccat>

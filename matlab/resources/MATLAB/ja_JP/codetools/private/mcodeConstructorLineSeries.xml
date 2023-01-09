@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MatrixOfXData">x データの行列</entry>
+    <entry key="VectorOfXData">x データのベクトル</entry>
+    <entry key="MatrixOfYData">y データの行列</entry>
+    <entry key="VectorOfYData">y データのベクトル</entry>
+    <entry key="MatrixOfZData">z データの行列</entry>
+    <entry key="VectorOfZData">z データのベクトル</entry>
+    <entry key="CreateMultipleLinesUsingMatrix">{0} への行列入力を使って複数のラインを作成</entry>
+  </message>
+</rsccat>

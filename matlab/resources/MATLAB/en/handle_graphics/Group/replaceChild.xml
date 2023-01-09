@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011, 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invalidOldNode">The first input argument must be a valid object.</entry>
+    <entry key="nonScalarFirstArg">The first input argument must be a scalar object.</entry>
+    <entry key="invalidNewNode">The second input argument must be a valid object.</entry>
+    <entry key="nonScalarSecondArg">The second input argument must be a scalar object.</entry>
+    <entry key="invalidOldObject">The first input argument must be a valid object.</entry>
+    <entry key="invalidNewObject">The second input argument must be a valid object.</entry>
+    <entry key="addChild">Cannot add a group to the same group's children</entry>
+  </message>
+</rsccat>

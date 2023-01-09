@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotHG2Figure">不应在不支持 hg2 的图窗层次结构中调用 hg2gcv。</entry>
+    <entry key="InvalidArgument">只能对支持 hg2 的图窗层次结构中的对象调用 hg2gcv。</entry>
+    <entry key="hg2NotEnabled">不应在未启用 hg2 时调用 hg2gcv。</entry>
+    <entry key="DeletedInputObject">输入不能是已删除对象。</entry>
+  </message>
+</rsccat>

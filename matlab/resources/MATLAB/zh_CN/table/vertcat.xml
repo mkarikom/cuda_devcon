@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">所有输入参数都必须为表。</entry>
+    <entry key="SizeMismatch">所有垂直串联的表必须具有相同的变量数。</entry>
+    <entry key="SizeMismatchWithCell">所有垂直串联的表必须具有相同的变量数。当串联元胞数组和表时，元胞数组具有的列数必须与表具有的变量数相同。</entry>
+    <entry key="UnequalVarNames">所有垂直串联的表必须具有相同的变量名称。</entry>
+    <entry key="VertcatCellAndNonCell">无法串联表变量 ''{0}''，因为该变量在一个表中为元胞变量，在另一个表中不为元胞变量。</entry>
+    <entry key="VertcatMethodFailed">当使用 VERTCAT 串联表变量 ''{0}'' 时发生错误。</entry>
+    <entry key="VertcatWrongLength">使用 VERTCAT 串联表变量 ''{0}'' 时生成了错误长度的变量。</entry>
+    <entry key="Timetable0x0AndTable">0×0 时间表不能与非 0×0 表串联。请将所有输入都转换为相同的数据类型、更改其顺序或使用 JOIN。</entry>
+    <entry key="TableAndTimetable">仅当时间表优先时，才能串联时间表和表。请将所有输入都转换为相同的数据类型，或更改其顺序。</entry>
+    <entry key="CellArrayAndTimetable">仅当时间表在前面时，才能串联时间表和元胞数组。请将所有输入都转换为相同的数据类型，或更改其顺序。</entry>
+    <entry key="CustomPropsClash">在串联表时，如果同名自定义属性在一个表中是基于表的属性，而在另一个表中是基于变量的属性，则不支持此种串联。</entry>
+    <entry key="NdCell">代码生成中不支持串联 N 维元胞变量。</entry>
+    <entry key="VertcatCellAndNonCellCodegen">在代码生成中，不支持将一个表中的元胞内的表变量与另一个表中的非元胞内的表变量串联起来。</entry>
+  </message>
+</rsccat>

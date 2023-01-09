@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoBrushColorModeOut">ブラシ選択の色を設定する場合、またはブラシ選択モードの状態の場合は出力を指定できません</entry>
+    <entry key="NoColorOut">ブラシ選択の色を設定する場合は出力を指定できません</entry>
+    <entry key="InvalidFigure">Figure が不明または無効です。</entry>
+    <entry key="invColor">無効な色ベクトル</entry>
+    <entry key="invColorStr">色の文字ベクトルが無効です</entry>
+    <entry key="InvalidInputForOutArg">これらの入力引数を使用して出力引数を指定しないでください。</entry>
+  </message>
+</rsccat>

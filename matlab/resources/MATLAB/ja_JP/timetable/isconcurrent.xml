@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidRange">2 番目の入力は timetable、timerange サブスクリプター オブジェクト、スカラーの datetime、またはスカラーの duration でなければなりません。</entry>
+    <entry key="InvalidFlag">フラグが無効です。'contains'、'intersects' または 'within' を指定してください。</entry>
+    <entry key="ContainedInvalidWithScalarTime">スカラーの datetime または duration を使用して行時間の範囲を指定する場合、'contained' は無効なオプションです。'intersects' または 'contains' を指定してください。</entry>
+  </message>
+</rsccat>

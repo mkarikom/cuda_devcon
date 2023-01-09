@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidXData">指定された XData は、面/頂点の情報への変換に使用できませんでした。</entry>
+    <entry key="InvalidYData">指定された YData は、面/頂点の情報への変換に使用できませんでした。</entry>
+    <entry key="InvalidZData">指定された ZData は、面/頂点の情報への変換に使用できませんでした。</entry>
+  </message>
+</rsccat>

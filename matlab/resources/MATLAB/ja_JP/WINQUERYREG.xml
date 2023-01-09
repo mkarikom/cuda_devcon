@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidarg">引数は有効な文字ベクトルまたは string スカラーでなければなりません。</entry>
+    <entry key="invalidnumargMsg1">2 つの引数が必要です。</entry>
+    <entry key="invalidnumargMsg2">'name' の後に 2 つの引数が必要です。</entry>
+    <entry key="invalidkey">指定したキーが無効です。</entry>
+    <entry key="stringerror">環境変数を展開できません。</entry>
+    <entry key="queryerrorMsg1">REG_BINARY 型の値はクエリできません。</entry>
+    <entry key="queryerrorMsg2">REG_BIG_ENDIAN 型の値はクエリできません。</entry>
+    <entry key="queryerrorMsg3">REG_LINK 型の値はクエリできません。</entry>
+    <entry key="queryerrorMsg4">REG_MULTI_SZ 型の値はクエリできません。</entry>
+    <entry key="queryerrorMsg5">REG_NONE 型の値はクエリできません。</entry>
+    <entry key="queryerrorMsg6">REG_RESOURCE_LIST 型の値はクエリできません。</entry>
+    <entry key="queryerrorMsg7">不明な型の値はクエリできません。</entry>
+    <entry key="invalidnumarg">{0}</entry>
+    <entry key="queryerror">{0}</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadExtension">XML 확장자가 없으므로 파일 ''{0}''을(를) 사용할 수 없습니다.</entry>
+    <entry key="DirSpecified">디렉터리 ''{0}''을(를) 로그 파일로 사용할 수 없습니다.</entry>
+    <entry key="EmptyName">로그 파일 이름이 지정되지 않았습니다.</entry>
+    <entry key="FileNotOpen">파일 ''{0}''이(가) 열린 로그가 아닙니다.</entry>
+    <entry key="FileOpen">파일 ''{0}''이(가) 이미 열린 로그입니다.</entry>
+    <entry key="FileOpenCase">파일 ''{0}''은(는) 이미 열린 로그와 대/소문자만 다릅니다.</entry>
+    <entry key="FileRead">''{0}'' 로그 파일에서 읽는 중 오류가 발생함: {1}</entry>
+    <entry key="FileSeek">''{0}'' 로그 파일에서 탐색하는 중 오류가 발생함: {1}</entry>
+    <entry key="FileWrite">''{0}'' 로그 파일에 쓰는 중 오류가 발생함: {1}</entry>
+    <entry key="OpenFileRead">파일 ''{0}''을(를) 열어서 읽을 수 없음: {1}</entry>
+    <entry key="OpenFileWrite">파일 ''{0}''을(를) 열어서 쓸 수 없음: {1}</entry>
+    <entry key="OpenFileAppend">파일 ''{0}''을(를) 열어서 추가할 수 없음: {1}</entry>
+  </message>
+</rsccat>

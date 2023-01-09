@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badInput">無効なオプション ''{0}'' が与えられました。</entry>
+    <entry key="DebugMEXfiles">MEX ファイルをデバッグするには、MATLAB をデバッガー内で実行しなければなりません。</entry>
+    <entry key="ToRunMATLABWithinADebuggerStartItByTyping">    デバッガー内で MATLAB を実行するには、以下のように入力して開始します。</entry>
+    <entry key="NameOfTheDebugger">    この "debugger" は、使用するデバッガーの名前です。</entry>
+    <entry key="MatlabDdebugger">           matlab -Ddebugger</entry>
+  </message>
+</rsccat>

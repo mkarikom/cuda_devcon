@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedFormat">형식 ''{0}''은(는) 유효하지 않습니다. 이 형식은 시퀀스 ''{1}''의 문자만을 포함해야 합니다.</entry>
+    <entry key="InvalidFormat">calendarDuration형 표시 형식은 string형 또는 문자형 벡터여야 합니다.</entry>
+    <entry key="InvalidData">입력 데이터는 숫자형이어야 합니다. 연도, 월 등에 대한 열을 포함하는 행렬 또는 개별 숫자형 배열에서 calendarDuration형 배열을 생성하십시오.</entry>
+    <entry key="InvalidDurationData">입력 데이터는 숫자형이어야 합니다. duration형 배열에서 calendarDuration형 배열을 생성하려면 먼저 YEARS, DAYS, HOURS, MINUTES, SECONDS 함수를 사용하여 숫자형 값으로 변환하십시오.</entry>
+    <entry key="InvalidNumericMatrix">숫자형 입력 배열은 3개 또는 6개의 열을 가진 행렬이어야 합니다. CALYEARS, CALQUARTERS, CALMONTHS, CALWEEKS, CALDAYS 함수를 사용하여 단일 숫자형 배열에서 calendarDuration형 배열을 생성할 수도 있습니다.</entry>
+    <entry key="InvalidNumericData">숫자형 입력 데이터는 단일 행렬이거나 3개 또는 6개의 개별 배열이어야 합니다. CALYEARS, CALQUARTERS, CALMONTHS, CALWEEKS, CALDAYS 함수를 사용하여 단일 숫자형 배열에서 calendarDuration형 배열을 생성할 수도 있습니다.</entry>
+    <entry key="InputMustBeReal">숫자형 입력 데이터는 실수여야 합니다.</entry>
+    <entry key="InputSizeMismatch">숫자형 입력 데이터 배열은 모두 크기가 동일하거나 스칼라일 수 있습니다.</entry>
+    <entry key="MustBeInteger">연도, 분기, 월, 주, 일, 시간, 분은 정수 값이어야 합니다.</entry>
+    <entry key="DatenumNotDefined">calendarDuration형 배열은 날짜 일련 번호 값으로 변환할 수 없습니다. SPLIT을 대신 사용하십시오.</entry>
+    <entry key="DatestrNotDefined">DATESTR 함수는 calendarDuration형 배열에 대해 정의되어 있지 않습니다. CELLSTR을 대신 사용하십시오.</entry>
+    <entry key="LinspaceNotDefined">함수 ''linspace''는 'calendarDuration형' 입력 인수에 대해 정의되지 않았습니다. CALYEARS, CALMONTHS, CALDAYS 함수를 대신 사용하십시오.</entry>
+    <entry key="ColonNotDefined">함수 ''colon''은 'calendarDuration형' 입력 인수에 대해 정의되지 않았습니다. 콜론 표현식에 datetime형을 사용하여 특정 시점에 고정하십시오.</entry>
+    <entry key="NonZeroMonths">calendarDuration형에서 월(months)에 대한 값에 0이 아닌 숫자가 있는 경우, 이를 일(days) 또는 주(weeks)로 변환할 수 없습니다. SPLIT을 대신 사용하십시오.</entry>
+    <entry key="DatetimeInputCalyears">입력 데이터는 실수형 정수 값을 포함하는 숫자형 배열이거나 calendarDuration형 배열이어야 합니다. datetime형 배열에서 연도 숫자 값을 추출하려면 YEAR를 사용하십시오.</entry>
+    <entry key="DatetimeInputCalquarters">입력 데이터는 실수형 정수 값을 포함하는 숫자형 배열이거나 calendarDuration형 배열이어야 합니다. datetime형 배열에서 분기 숫자 값을 추출하려면 QUARTER를 사용하십시오.</entry>
+    <entry key="DatetimeInputCalmonths">입력 데이터는 실수형 정수 값을 포함하는 숫자형 배열이거나 calendarDuration형 배열이어야 합니다. datetime형 배열에서 월 숫자 값을 추출하려면 MONTH를 사용하십시오.</entry>
+    <entry key="DatetimeInputCalweeks">입력 데이터는 실수형 정수 값을 포함하는 숫자형 배열이거나 calendarDuration형 배열이어야 합니다. datetime형 배열에서 주 숫자 값을 추출하려면 WEEK를 사용하십시오.</entry>
+    <entry key="DatetimeInputCaldays">입력 데이터는 실수형 정수 값을 포함하는 숫자형 배열이거나 calendarDuration형 배열이어야 합니다. datetime형 배열에서 일 숫자 값을 추출하려면 DAY를 사용하십시오.</entry>
+    <entry key="DurationInputCalyears">입력 데이터는 실수형 정수 값을 포함하는 숫자형 배열이거나 calendarDuration형 배열이어야 합니다. duration형 배열을 상응하는 숫자형 값(단위: 표준 길이의 연도 값)으로 변환하려면 YEARS를 사용하십시오.</entry>
+    <entry key="DurationInputCaldays">입력 데이터는 실수형 정수 값을 포함하는 숫자형 배열이거나 calendarDuration형 배열이어야 합니다. duration형 배열을 상응하는 숫자형 값(단위: 표준 길이의 일 값)으로 변환하려면 DAYS를 사용하십시오.</entry>
+    <entry key="InvalidCalDurationData">입력 데이터는 실수형 정수 값을 포함하는 숫자형 배열이거나 calendarDuration형 배열이어야 합니다.</entry>
+    <entry key="NonintegerCalYearsData">입력 데이터는 실수형 정수 값을 포함하는 숫자형 배열이어야 합니다. CALMONTHS 함수나 CALDAYS 함수를 사용하여 일년 미만의 calendarDuration형을 생성하거나 YEARS 함수를 사용하여 고정 길이 소수 연(Fractional Year)을 duration형으로 생성하십시오.</entry>
+    <entry key="NonintegerCalQuartersData">입력 데이터는 실수형 정수 값을 포함하는 숫자형 배열이어야 합니다. CALMONTHS 또는 CALDAYS 함수를 사용하여 1분기 미만의 calendarDuration형을 생성하십시오.</entry>
+    <entry key="NonintegerCalMonthsData">입력 데이터는 실수형 정수 값을 포함하는 숫자형 배열이어야 합니다. CALDAYS 함수를 사용하여 한 달 미만의 calendarDuration형을 생성하십시오.</entry>
+    <entry key="NonintegerCalWeeksData">입력 데이터는 실수형 정수 값을 포함하는 숫자형 배열이어야 합니다. CALDAYS 함수를 사용하여 1주 미만의 calendarDuration형을 생성하십시오.</entry>
+    <entry key="NonintegerCalDaysData">입력 데이터는 실수형 정수 값을 포함하는 숫자형 배열이어야 합니다. HOURS 함수, MINUTES 함수, SECONDS 함수 중 하나를 사용하여 하루 미만의 duration형을 생성하거나 DAYS 함수를 사용하여 고정 길이 소수 일(Fractional Day)을 duration형으로 생성하십시오.</entry>
+    <entry key="InvalidNumericConversion">함수 ''{0}''은(는) 'calendarDuration형' 입력 인수에 대해 정의되지 않았습니다. calendarDuration형에서 숫자형으로 변환하려면 SPLIT 함수를 사용하거나, CALDAYS, CALWEEKS, CALMONTHS, CALQUARTERS, CALYEARS 함수를 사용하십시오.</entry>
+    <entry key="NoMonthsMethod">함수 ''{0}''은(는) 'calendarDuration형' 입력 인수에 대해 정의되지 않았습니다. calendarDuration형으로 된 달력상의 월수(Calendar Months)를 구하려면 CALMONTHS 함수를 사용하십시오.</entry>
+    <entry key="CellReferenceNotAllowed">셀형이 아닌 배열의 셀 내용을 참조하고 있습니다.</entry>
+    <entry key="CellAssignmentNotAllowed">셀형이 아닌 배열의 셀 내용에 값을 대입하고 있습니다.</entry>
+    <entry key="UnrecognizedProperty">인식할 수 없는 속성임: ''{0}''.</entry>
+    <entry key="InvalidPropertyName">유효하지 않은 속성 이름입니다.</entry>
+    <entry key="InvalidSubscriptExpr">인덱스 표현식에서 () 인덱싱 다음에 () 또는 '{}'를 입력할 수 없습니다.</entry>
+    <entry key="SubArrayPropertyAssignment">calendarDuration형 배열 요소의 ''{0}'' 속성에는 값을 할당할 수 없습니다. 대신 d.{0} = ...를 사용하십시오.</entry>
+    <entry key="InvalidAssignmentLHS">{0}형 배열에서 값을 대입하기에는 적합하지 않은 좌변입니다.</entry>
+    <entry key="InvalidAssignment">대입식의 우변은 calendarDuration형 배열이어야 합니다.</entry>
+    <entry key="IllegalDotMethod">''{0}''은(는) 인식할 수 없는 calendarDuration형 속성입니다. {1} 메서드를 호출하려고 했다면 {1}(d,...) 같은 함수 구문을 사용해야 합니다. 자세한 내용은 &lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;메서드 호출&lt;/a&gt;을 참조하십시오.</entry>
+    <entry key="IllegalDotMethodNoCorrection">''{0}''은(는) 인식할 수 없는 calendarDuration형 속성입니다. {1} 메서드를 호출하려고 했다면 함수 구문을 사용해야 합니다. 자세한 내용은 &lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;메서드 호출&lt;/a&gt;을 참조하십시오.</entry>
+    <entry key="InvalidComparison">{0} 배열과 {1} 배열 간의 비교는 정의되지 않았습니다.</entry>
+    <entry key="ComplexNotDefined">calendarDuration형 배열에 복소수 값이 정의되지 않았습니다.</entry>
+    <entry key="AdditionNotDefined">{0}형 배열과 {1}형 배열 간의 덧셈은 정의되지 않았습니다.</entry>
+    <entry key="SubtractionNotDefined">{0}형 배열과 {1}형 배열 간의 뺄셈은 정의되지 않았습니다.</entry>
+    <entry key="CalendarDurationMultiplicationNotDefined">두 calendarDuration형 배열 간의 곱셈은 정의되지 않았습니다.</entry>
+    <entry key="MultiplicationNotDefined">{0}형 배열과 {1}형 배열 간의 곱셈은 정의되지 않았습니다.</entry>
+    <entry key="NonIntegerMultiplier">calendarDuration형 배열에 대해 정수가 아닌 값끼리의 곱셈은 정의되지 않았습니다.</entry>
+    <entry key="DuplicateFormatCharacters">형식에 중복 문자가 있습니다.</entry>
+    <entry key="OutOfOrderFormatCharacters">형식 ''{0}''의 문자가 올바른 순서가 아닙니다. 대신 ''{1}''을(를) 사용하십시오.</entry>
+    <entry key="InvalidCalendarDurationFormatWarn">형식 ''{0}''은(는) 유효하지 않습니다. calendarDuration형 표시 형식은 식별자 'm', 'd', 't'를 포함해야 합니다.\n형식이 ''{1}''(으)로 설정됩니다.</entry>
+  </message>
+</rsccat>

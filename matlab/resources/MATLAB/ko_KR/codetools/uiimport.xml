@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SelectADataInputSource">데이터 입력 소스를 선택하십시오.</entry>
+    <entry key="SelectSource">소스 선택</entry>
+    <entry key="TwentyThousand">2만</entry>
+    <entry key="PreviewTooLargeToBeDisplayed">미리보기가 너무 커서 제대로 표시할 수 없습니다.</entry>
+    <entry key="UnknownResultOfClassEncountered">{0} 클래스의 알 수 없는 결과가 발견되었습니다.</entry>
+    <entry key="PreviewTruncatedAtTwentyThousandCharacters">{0}개 문자에서 미리보기가 잘렸습니다.</entry>
+    <entry key="ImportWizardCreatedVariables">가져오기 마법사가 현재 작업 공간에서 변수를 생성했습니다.</entry>
+    <entry key="CannotImportFromEmptyFile">빈 입력 파일에서 가져올 수 없음</entry>
+    <entry key="UndocUsage">v1 기능은 지원되지 않으며, 향후 릴리스에서 제거될 예정입니다.</entry>
+    <entry key="ImportWizard">가져오기 마법사</entry>
+    <entry key="FileContainsUninterpretableData">파일에 해석할 수 없는 데이터가 있습니다.</entry>
+    <entry key="Blank">공백</entry>
+    <entry key="File">파일</entry>
+    <entry key="Clipboard">클립보드</entry>
+    <entry key="Cancel">취소</entry>
+    <entry key="TheImportWizardNotSupported">사용할 수 있는 디스플레이가 없으므로 가져오기 마법사가 지원되지 않습니다.</entry>
+    <entry key="alreadyOpenFile">가져오기 마법사가 열려 있는 동안에는 파일에서 가져오기 마법사를 열 수 없습니다.</entry>
+    <entry key="alreadyOpenClipboard">가져오기 마법사가 열려 있는 동안에는 클립보드에서 가져오기 마법사를 열 수 없습니다.</entry>
+    <entry key="incompatibleInstances">다른 가져오기 마법사가 열려 있는 동안에는 출력 인수가 있는 가져오기 마법사를 열 수 없습니다.</entry>
+    <entry key="FileNotFound">파일 ''{0}''을(를) 찾을 수 없습니다.</entry>
+    <entry key="RecognizedDataFilesStr">인식할 수 있는 데이터 파일</entry>
+    <entry key="AudioFormatStr">오디오</entry>
+    <entry key="CursorFormatStr">커서 형식</entry>
+    <entry key="HDFFormatStr">HDF 또는 HDF-EOS</entry>
+    <entry key="IconFormatStr">아이콘 형식</entry>
+    <entry key="JPEGFormatStr">JPEG 호환</entry>
+    <entry key="MATFileStr">MATLAB 데이터 파일</entry>
+    <entry key="SpreadsheetFormatStr">스프레드시트</entry>
+    <entry key="TIFFormatStr">TIFF(Tagged Image File Format)</entry>
+    <entry key="TextFormatStr">텍스트</entry>
+    <entry key="VideoFormatStr">비디오</entry>
+    <entry key="BitMapStr">Windows 또는 OS/2 비트맵</entry>
+    <entry key="AllFilesStr">모든 파일</entry>
+    <entry key="MatlabOnlineSupport">{0}에서는 UIIMPORT(''-pastespecial'')이 지원되지 않음</entry>
+    <entry key="FileChooserTitle">데이터 가져오기</entry>
+    <entry key="ErrorTitle">가져오기</entry>
+    <entry key="CGIFormatStr">CompuServe Graphics Interchange</entry>
+    <entry key="PNGFormatStr">Portable Network Graphics</entry>
+    <entry key="ZsoftPaintbrushStr">Zsoft Paintbrush</entry>
+  </message>
+</rsccat>

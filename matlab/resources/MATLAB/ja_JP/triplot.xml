@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EmptyTri">三角形分割は空です。</entry>
+    <entry key="NonTriangles">三角形分割は三角形で構成されなければなりません。</entry>
+    <entry key="NonSurfTri">三角形分割は 3 次元空間内に配置されなければなりません。</entry>
+    <entry key="NonTetrahedra">三角形分割は四面体で構成されなければなりません。</entry>
+    <entry key="NonPlanarTri">三角形分割は 3 次元空間内に配置されなければなりません。</entry>
+  </message>
+</rsccat>

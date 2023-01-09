@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadFaceDimensions">Patch의 Faces는 2차원이어야 함</entry>
+    <entry key="BadFaceValues">Faces 값은 1.0보다 크거나 같아야 함</entry>
+    <entry key="VerticesMustBe2D">Patch의 Vertices는 2차원이어야 함</entry>
+    <entry key="VerticesMustHave2To3Columns">Vertices 배열에는 최소 2개에서 최대 3개의 열이 있거나 그렇지 않으면 비어 있어야 함</entry>
+    <entry key="BadFaceVertexCDataDimensions">FaceVertexCData는 Mx1 벡터(인덱스 색상) 또는 Mx3 행렬(RGB 색)이어야 함</entry>
+    <entry key="BadFaceVertexAlphaDataDimensions">FaceVertexAlphaData는 Alpha 값의 Mx1 벡터 또는 Alpha Map 인덱스여야 합니다.</entry>
+    <entry key="VerticesArrayMustHave2To3Columns">Vertices 배열에는 최소 2개에서 최대 3개의 열이 있어야 함. 렌더링되지 않음</entry>
+    <entry key="BadValuesInPatchFaces">Patch의 Faces의 값은 [1 : rows(Vertices)] 내에 있어야 함. 렌더링되지 않음</entry>
+    <entry key="CannotUseFaceVertexCDataOfSize0">Patch의 크기가 0인 FaceVertexCData는 단순 음영과 함께 사용할 수 없음</entry>
+    <entry key="PatchFaceVertexCDataLengthMustEqual1">Patch의 FaceVertexCData 길이({0,number,integer})는 1이거나, 플랫 FaceColor의 Vertices 길이({1,number,integer}) 또는 Faces 길이({2,number,integer})와 같아야 함</entry>
+    <entry key="RGBColorDataNotSupported">Painter''s 모드에서는 아직 RGB 색 데이터가 지원되지 않음</entry>
+    <entry key="ColorDataNotSetForInterpolatedShading">보간 음영에 대해 Color Data가 설정되지 않음</entry>
+    <entry key="PatchFaceVertexCDataLengthMustEqualVerticesLength">Patch의 FaceVertexCData 길이({0,number,integer})는 플랫 EdgeColor의 Vertices 길이({1,number,integer})와 같아야 함</entry>
+    <entry key="CannotUsePatchFaceVertexAlphaDataSize0">크기가 0인 Patch의 FaceVertexAlphaData는 Flat Alpha와 함께 사용할 수 없습니다.</entry>
+    <entry key="PatchFaceVertexAlphaCDataLengthMustEqual1">Patch의 FaceVertexAlphaData 길이({0,number,integer})는 1이거나, 플랫 Alpha의 Vertices 길이({1,number,integer}) 또는 Faces 길이({2,number,integer})와 같아야 함</entry>
+    <entry key="AlphaDataNotSetForInterpolatedShading">보간 음영에 대해 Alpha Data가 설정되지 않음</entry>
+    <entry key="ColorDataNotSetForMarkerFlatColoring">마커 단순 채색에 대해 Color Data가 설정되지 않음</entry>
+    <entry key="VertexNormalsMustHave2Dimensions1">VertexNormals는 2차원이어야 함</entry>
+    <entry key="BadVertexNormalsSize">size(VertexNormals)는 rows(vertices)x3과 같아야 합니다. </entry>
+    <entry key="VertexNormalsMustHave2Dimensions2">VertexNormals는 2차원이어야 함</entry>
+    <entry key="BadFaceNormalsSize">size(FaceNormals)는 rows(faces)x3과 같아야 합니다.</entry>
+    <entry key="NotEnoughMemoryForNormals">Normals에 대한 메모리가 부족합니다. 렌더링되지 않음</entry>
+    <entry key="CannotAllocateTriangleStorage">삼각형 저장공간을 할당할 수 없습니다. 적중 테스트가 부정확할 수 있음</entry>
+  </message>
+</rsccat>

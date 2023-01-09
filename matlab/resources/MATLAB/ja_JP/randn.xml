@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidState">状態は double のスカラーか RANDN(''state'') の出力でなければなりません。</entry>
+    <entry key="invalidSeed">シードは double のスカラーでなければなりません。</entry>
+    <entry key="inputType">サイズの入力は数値でなければなりません。</entry>
+    <entry key="invalidOutputType">CLASSNAME 入力は、''single'' または ''double'' など RANDN をサポートするクラスでなければなりません。</entry>
+    <entry key="invalidPrototype">''like'' に続く入力は RANDN をサポートする型の変数でなければなりません。たとえば、double や single の変数は RANDN をサポートします。</entry>
+    <entry key="complexOrSparsePrototype">''like'' に続く複素数やスパースの入力はサポートされていません。</entry>
+  </message>
+</rsccat>

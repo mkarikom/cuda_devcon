@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="expectsFullNumeric" context="error">첫 번째 입력값은 비희소 형식의 숫자형이어야 합니다.</entry>
+    <entry key="expectsNumeric" context="error">첫 번째 입력값은 숫자형이어야 합니다.</entry>
+    <entry key="invalidRealPartInput" context="error">실수부에 대한 입력값은 비희소 형식의 실수 숫자형 값이어야 합니다.</entry>
+    <entry key="invalidImagPartInput" context="error">허수부에 대한 입력값은 비희소 형식의 실수 숫자형 값이어야 합니다.</entry>
+    <entry key="realPartInputNonNumericOrNonReal" context="error">실수부에 대한 입력값은 실수 숫자형 값이어야 합니다.</entry>
+    <entry key="imagPartInputNonNumericOrNonReal" context="error">허수부에 대한 입력값은 실수 숫자형 값이어야 합니다.</entry>
+    <entry key="inputSizeMismatch">입력 배열 크기는 같아야 합니다.</entry>
+    <entry key="mixedInputs" context="error">정수는 같은 클래스의 정수나 double형 스칼라와만 결합될 수 있습니다.</entry>
+  </message>
+</rsccat>

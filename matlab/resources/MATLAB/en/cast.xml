@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="UnsupportedClass">Unsupported data type for conversion: ''{0}''.</entry>
+    <entry key="invalidString" note="stringDatatypeUpdate">Invalid character vector or string in second input.</entry>
+    <entry key="unsupportedNdSparse">N-dimensional arrays cannot be converted to sparse arrays.</entry>
+    <entry key="invalidSyntax" note="stringDatatypeUpdate">NEWCLASS input is not a character vector.</entry>
+  </message>
+</rsccat>

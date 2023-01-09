@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2020-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- Errors during PX-file creation -->
+    <entry key="PXFileCreationFailed">Unable to write file {0}.</entry>
+    <entry key="FileTooLarge">{0}File is too large or complicated to PX-code.</entry>
+
+    <!-- Errors during PX-file reading -->
+    <entry key="PXFileReadFailed">Unable to read file {0}.</entry>
+    <entry key="ReleaseLocked">The file {0} is release-locked to a different release of MATLAB.  To run this file, use MATLAB {1}.</entry>
+
+    <!-- Errors that may be raised during BOTH creation and reading of PX-files -->
+    <entry key ="InvalidUseOfBinaryAt"> {0}Using binary @ is not supported in property validation </entry>
+    <entry key="ParforNotSupportedInScripts">{0}parfor-loops are not supported in PX-coded scripts.</entry>
+    <entry key="SPMDNotSupportedInScripts">{0}spmd statements are not supported in PX-coded scripts.</entry>
+    <entry key="InternalError" translate="false">{0}</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManyDataArgs">引数が多すぎます。</entry>
+    <entry key="TooFewDataArgs">引数が多すぎます。</entry>
+    <entry key="BadParent">親プロパティは有効なグラフィックス オブジェクトでなければなりません。</entry>
+    <entry key="InvalidCount">入力引数の数が無効です。</entry>
+    <entry key="DataArgWrongType">DataArgumentPatterns は、cellstrs を含むパターンの cell 配列でなければなりません。</entry>
+    <entry key="WrongName">{1} のプロパティ名 {0} が無効です。</entry>
+    <entry key="AmbiguousPattern">指定した 1 つ以上のデータ引数のパターンがあいまいです。</entry>
+    <entry key="UnspecifiedType">プロパティ ''{0}'' に型情報が指定されていません。</entry>
+    <entry key="InvalidNameValue">サポートされていないプロパティ名: {0}。</entry>
+    <entry key="IncorrectDataArgs">データ引数が正しくありません。</entry>
+    <entry key="InvalidLeadingFlags">先頭のフラグは cellstr または string 配列でなければなりません。</entry>
+    <entry key="InvalidChartName">ChartClassName が無効です。チャート クラスの完全なパッケージ名を指定してください。</entry>
+    <entry key="AlreadyPresent">{0} を再割り当てできません。新規の ChartInputParser オブジェクトをインスタンス化することを検討してください。</entry>
+    <entry key="BadTrailingFlagType">最後のフラグは、struct、cellstr または string 配列として指定しなければなりません。</entry>
+    <entry key="BadLineSpecification">LineSpecification は、LineStyle、MarkerStyle、Color に対応する最大 3 つのフィールドをもつ struct でなければなりません。</entry>
+    <entry key="RepeatedLineSpec"> LineSpecification で {0} マッピングが繰り返されました。以前に設定した値を上書きしています。</entry>
+  </message>
+</rsccat>

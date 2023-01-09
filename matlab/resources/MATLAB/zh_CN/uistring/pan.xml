@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Pan">平移</entry>
+    <entry key="ResetToOriginalView">重置为原始视图</entry>
+    <entry key="PanOptions">平移选项</entry>
+    <entry key="UnconstrainedPan">自由平移</entry>
+    <entry key="HorizontalPan">水平平移</entry>
+    <entry key="VerticalPan">垂直平移</entry>
+    <entry key="PanConstraints">平移约束</entry>
+    <entry key="XPan">X 平移</entry>
+    <entry key="YPan">Y 平移</entry>
+    <entry key="ZPan">Z 平移</entry>
+    <entry key="XYPan">XY 平移</entry>
+    <entry key="YZPan">YZ 平移</entry>
+    <entry key="XZPan">XZ 平移</entry>
+  </message>
+</rsccat>

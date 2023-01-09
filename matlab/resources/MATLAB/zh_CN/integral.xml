@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="funArgNotHandle">第一个输入参数必须为函数句柄。</entry>
+    <entry key="invalidEndpoint">积分范围必须为双精度或单精度标量。</entry>
+    <entry key="nonFiniteContourError">等高线端点和路标必须为有限值。</entry>
+    <entry key="NonFiniteValue">Inf or NaN value encountered.</entry>
+    <entry key="UnsupportedClass">输入函数必须返回 ''double'' 或 ''single'' 值。找到 ''{0}''。</entry>
+    <entry key="FxNotSameSizeAsX">函数的输出与输入必须具有相同的大小。如果 FUN 为数组值被积函数，请将 'ArrayValued' 选项设置为 true。</entry>
+    <entry key="invalidAbsTol">''AbsTol'' 值必须为非负双精度或单精度标量。</entry>
+    <entry key="invalidRelTol">''RelTol'' 值必须为非负双精度或单精度标量。</entry>
+    <entry key="MaxIntervalCountReached">已达到正在使用的区间最大数目的限制。误差的近似范围为 {0}。积分可能不存在，或者可能很难在数值上接近要求的准确度。</entry>
+    <entry key="MinStepSize">最小步长已快达到 x = {0}。可能具有奇异性，或者容差可能对于此问题太小。</entry>
+    <entry key="invalidWaypoints">''Waypoints'' 值必须为全部包含有限值的向量。</entry>
+    <entry key="invalidArrayValued">''ArrayValued'' 值必须为 true 或 false。</entry>
+    <entry key="unsuccessful">积分未成功。</entry>
+  </message>
+</rsccat>

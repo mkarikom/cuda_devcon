@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AvailableGenerators">可以使用以下随机数生成器算法:</entry>
+    <entry key="dsfmt19937Description">面向 SIMD 的快速梅森旋转算法，使用梅森质数 2^19937-1</entry>
+    <entry key="mcg16807Description">乘法同余生成器，乘数为 7^5，模为 2^31-1</entry>
+    <entry key="mlfg6331_64Description">乘法 lagged Fibonacci 生成器，lags 为 63 和 31，64 位(支持并行流)</entry>
+    <entry key="mrg32k3aDescription">组合多递归生成器(支持并行流)</entry>
+    <entry key="mt19937arDescription">梅森旋转，使用梅森质数 2^19937-1</entry>
+    <entry key="philox4x32_10Description">执行 10 轮的 Philox 4×32 生成器(支持并行流)</entry>
+    <entry key="shr3congDescription">SHR3 移位寄存器生成器与 CONG 线性同余生成器求和</entry>
+    <entry key="swb2712Description">修正的借位减法生成器，lags 为 27 和 12</entry>
+    <entry key="threefry4x64_20Description">执行 20 轮的 Threefry 4×64 生成器(支持并行流)</entry>
+  </message>
+</rsccat>

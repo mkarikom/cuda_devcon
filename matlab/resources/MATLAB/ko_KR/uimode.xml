@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ExistingMode">이 이름의 모드가 이미 모드 매니저에 등록되어 있습니다.</entry>
+    <entry key="InvalidFirstInput">첫 번째 인수는 Figure 또는 모드에 대한 핸들이어야 합니다.</entry>
+    <entry key="InvalidSecondInput">두 번째 인수는 문자형 벡터여야 함</entry>
+  </message>
+</rsccat>

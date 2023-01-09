@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="IncorrectNumInputs">Incorrect number of input arguments.</entry>
+    <entry key="InvalidFirstInput">First argument must be a vector of type double, single, or a table or timetable with variables of type double or single.</entry>
+    <entry key="NotEnoughDataSSA">First input must have at least 6 elements when using the ''ssa'' method (default).</entry>
+    <entry key="NotEnoughDataSTL">First input must have at least 4 elements when using the ''stl'' method.</entry>
+    <entry key="InputDataInf">First argument must not contain Inf values.</entry>
+    <entry key="NonVectorTableVariable">Table variables must be column vectors.</entry>
+    <entry key="InvalidMethod">Method must be ''ssa'' or ''stl''.</entry>
+    <entry key="InvalidLag">The lag value must be a positive real scalar between 3 and N/2 where N is the number of elements in the first input.</entry>
+    <entry key="InvalidPeriod">The third input must be a scalar or vector of numeric or duration type with no duplicate elements.</entry>
+    <entry key="InvalidNumericPeriod">The period must be between 2 and N/2 where N is the number of elements in the first input.</entry>
+    <entry key="InvalidDurationPeriod">The period must indicate at least 2 observations and repeat twice.</entry>
+    <entry key="InvalidDurationPeriodNoTimetable">The first input must be a timetable when the third input is of type duration.</entry>
+    <entry key="ParseFlags">Parameter name must be ''NumSeasonal''.</entry>
+    <entry key="SamplePointsNonUniform">RowTimes values must be uniformly spaced.</entry>
+    <entry key="InvalidNumSeasonal">''NumSeasonal'' value must be a positive integer between 1 and lag value minus 2.</entry>
+    <entry key="NumSeasonalWithSTL">Parameter ''NumSeasonal'' must be used with method ''ssa''.</entry>
+  </message>
+</rsccat>

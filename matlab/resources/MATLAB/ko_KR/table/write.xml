@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FileOpenError">파일 ''{0}''을(를) 열어서 쓸 수 없습니다.\n\n{1}</entry>
+    <entry key="AmbiguousFileType">파일 형식 ''{0}''이(가) 모호합니다.</entry>
+    <entry key="UnrecognizedFileExtension">''{0}''은(는) 인식할 수 없는 파일 확장자입니다. 'FileType' 파라미터를 사용하여 파일 형식을 지정하십시오.</entry>
+    <entry key="UnrecognizedFileType">''{0}''은(는) 인식할 수 없는 파일 형식입니다. 'FileType' 파라미터는 'text', 'spreadsheet' 또는 'xml'이어야 합니다.</entry>
+    <entry key="InvalidDelimiterType">구분 기호는 문자형 벡터이거나 string형 스칼라여야 합니다.</entry>
+    <entry key="UnrecognizedDelimiter">구분 기호는 ' ', '\\t', ',', ';', '|' 문자 중 하나이거나, 해당 문자 이름인 'space', 'tab', 'comma', 'semi', 'bar' 중 하나여야 합니다.</entry>
+    <entry key="InvalidRange">범위는 ''A1:B2'' 또는 ''A1'' 형식의 문자형 벡터여야 합니다.</entry>
+    <entry key="NoCOMServer">내보내기 작업을 위해 Excel 서버를 시작할 수 없습니다.  대신 텍스트 파일로 내보내십시오.</entry>
+    <entry key="XlsWriteFailed">테이블을 ''{0}''에 쓰는 중 오류가 발생했습니다.\n\n{1}\n</entry>
+    <entry key="DataExceedsSheetBounds">셀 ''{0}''에서 시작하는 데이터 블록이 시트 경계를 {1, number, integer}개 행과 {2, number, integer}개 열만큼 초과합니다.</entry>
+    <entry key="FileOpenInAnotherProcess">파일 "{0}"에 쓸 수 없습니다. 쓰기 권한이 없거나, 파일이 다른 응용 프로그램에서 열려 있을 수 있습니다.</entry>
+    <entry key="FailedWrite">파일 ''{1}''의 시트 ''{0}''에 쓸 수 없습니다. 시트 보호를 해제하고, 통합 문서의 [최종본으로 표시] 옵션을 비활성화한 후, 입력값이 셀 용량을 초과하지 않는지 확인하십시오.</entry>
+    <entry key="CorruptOrEncrypted">파일 "{0}"에 쓸 수 없습니다. 파일이 유효한 스프레드시트 파일이 아니거나 비밀번호로 보호되어 있는지 확인하십시오. </entry>
+    <entry key="TimetableNotSupported">파일에 타임테이블은 쓸 수 없습니다. TIMETABLE2TABLE을 사용하여 테이블로 변환하십시오.</entry>
+    <entry key="FirstArgumentIsTable">첫 번째 인수는 table형이어야 합니다.</entry>
+    <entry key="FirstArgument">첫 번째 인수는 {0}이어야 합니다.</entry>
+    <entry key="NestedTables">중첩 테이블 또는 중첩 타임테이블을 작성하는 것은 지원되지 않습니다. 작성하려면 중첩 테이블에 SPLITVARS를 사용하십시오.</entry>
+    <entry key="NoFilename">지정된 이름이 없습니다. Filename에 파일 이름이 있어야 합니다.</entry>
+    <entry key="WriteRowNamesNotSupported">{0}에는 'WriteRowNames'를 사용할 수 없습니다. 행 이름이 있는 TABLE을 쓰려면 WRITETABLE을 사용하십시오.</entry>
+    <entry key="WriteVariableNamesNotSupported">{0}에는 'WriteVariableNames'를 사용할 수 없습니다. 변수 이름이 있는 TABLE 또는 TIMETABLE을 쓰려면 WRITETABLE 또는 WRITETIMETABLE을 사용하십시오.</entry>
+    <entry key="UnsupportedTypeIn">''{0}''은(는) 지원되지 않는 유형입니다. 쓰기 전에 데이터를 숫자형, 논리형, string형, datetime형, duration형 또는 categorical형으로 변환하십시오. </entry>
+    <entry key="UnsupportedTypeInCell">''{0}'' 유형의 셀 요소는 지원되지 않습니다. 쓰기 전에 요소를 숫자형, 논리형, string형, datetime형, duration형 또는 categorical형으로 변환하십시오.</entry>
+    <entry key="UnsupportedInputType">''{0}''은(는) 지원되지 않는 유형입니다. 대신 {1}을(를) 사용하십시오.</entry>
+    <entry key="UnsupportedNestedCell">중첩된 셀형 배열은 지원되지 않습니다.</entry>
+    <entry key="NoFileNameWithParams">인수의 개수가 올바르지 않습니다. 추가 파라미터를 제공할 때 파일 이름도 입력해야 하며 각 파라미터 이름 다음에는 값이 와야 합니다.</entry>
+    <entry key="IncorrectArgumentOrder">인수 순서가 잘못되었습니다. {0}에는 {1}이(가) 첫 번째 인수여야 하고 파일 이름이 두 번째 인수여야 합니다.</entry>
+    <entry key="UnknownWriteFunction">{0}은(는) 알 수 없는 쓰기 함수입니다.</entry>
+    <entry key="OutOfSpace">파일 ''{0}''에 쓸 수 없습니다.</entry>
+    <entry key="AppendAndRange">'Range'는 'WriteMode' 'append'에 지원되지 않습니다.</entry>
+    <entry key="WriteVarNamesAndWriteMode">'WriteVariableNames'는 'WriteMode' 'append'에 지원되지 않습니다.</entry>
+    <entry key="CellColumnVectorsUnsupported">변수 ''{0}''에 셀형 열 벡터가 있습니다. WRITETABLE을 사용하여 셀형 열 벡터가 있는 변수를 스프레드시트에 쓰는 것은 지원되지 않습니다.</entry>
+    <entry key="NestedCellElementEmpty">변수 ''{0}''에 빈 요소가 있는 중첩된 셀형 배열이 포함되어 있습니다. 빈 요소가 있는 중첩된 셀형 배열을 WRITETABLE을 사용하여 스프레드시트에 쓰는 것은 지원되지 않습니다.</entry>
+    <entry key="SupportedFileTypes">''{0}''은(는) 인식할 수 없는 파일 형식입니다. 'FileType' 파라미터는 다음 중 하나여야 합니다.\n\n {1}</entry>
+  </message>
+</rsccat>

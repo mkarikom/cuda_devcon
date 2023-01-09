@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WisdomImportFailed">FFTW の wisdom をインポートできませんでした。入力の文字ベクトルが前のバージョンの MATLAB を使って作成されている可能性があります。</entry>
+    <entry key="FirstInputNotString">1 番目の入力は文字ベクトルでなければなりません。</entry>
+    <entry key="FirstInputInvalidString">認識されない入力の文字ベクトルです。</entry>
+    <entry key="InvalidTrailingStringArgument">対称性のタイプは ''symmetric'' または ''nonsymmetric'' でなければなりません。</entry>
+    <entry key="FFTWGuru">これは、複素数 2d fft の実数の評価でのみ使用できます。</entry>
+    <entry key="InvalidFourthArgument">IFFT の 4 番目の引数は ''symmetric'' または ''nonsymmetric'' のいずれかでなければなりません。</entry>
+    <entry key="lengthNotNonNegInt">FFT 長は、非負で整数のスカラーでなければなりません。</entry>
+    <entry key="InvalidThirdArgument">IFFTN の 3 番目の引数は ''symmetric'' または ''nonsymmetric'' のいずれかでなければなりません。</entry>
+    <entry key="outputSizeLessThanNdimsElements">FFTN の出力サイズは、少なくとも NDIMS の要素がなければなりません。</entry>
+    <entry key="outputSizeNotRealIntRowVector">FFTN の出力サイズは、実数で整数の行ベクトルでなければなりません。</entry>
+    <entry key="outputSizeVectorNotNonNegInts">FFTN の出力サイズ ベクトルは、非負の整数を含まなければなりません。</entry>
+    <entry key="InvalidInputType">データ型が無効です。最初の引数は double、single、int8、uint8、int16、uint16、int32、uint32、論理値のいずれかでなければなりません。</entry>
+    <entry key="SparseInputType">スパース行列はサポートされていません。</entry>
+    <entry key="UnknownAction">FFTW に渡される不明なオプションです。</entry>
+    <entry key="needRowsArg">行のチャンク サイズを指定してください。</entry>
+    <entry key="invalidRowsArg">2 番目の入力は正で有限の実数の倍精度でなければなりません。</entry>
+    <entry key="invalidWisdomArg">2 番目の入力は文字ベクトルまたは [] でなければなりません。</entry>
+    <entry key="invalidPlannerArg">2 番目の入力は、''hybrid''、''estimate''、''measure''、''patient''、''exhaustive'' のいずれかでなければなりません。</entry>
+    <entry key="FFTWAssertionFailure">内部 FFTW ライブラリ エラー。</entry>
+  </message>
+</rsccat>

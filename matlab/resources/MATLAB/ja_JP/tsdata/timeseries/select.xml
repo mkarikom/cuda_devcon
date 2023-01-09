@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nodims">3 次元を超えるデータをもつ時系列を選択できません。</entry>
+    <entry key="noWinlengthAndConfLevel">外れ値を検出するためにウィンドウの長さと信頼度を指定しなければなりません。</entry>
+    <entry key="noWinLength">定数値を検出するためにウィンドウの長さを指定しなければなりません。</entry>
+    <entry key="arginv">認識されないデータの選択方法。''外れ値'' または ''水平ライン'' を使用してください。</entry>
+  </message>
+</rsccat>

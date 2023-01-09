@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DuplicateEdges">중복 간선은 지원되지 않습니다.</entry>
+    <entry key="DuplicateOmitSelfLoops">''omitselfloops''는 한 번만 지정하십시오.</entry>
+    <entry key="DuplicateUpperLower">유효하지 않은 옵션 조합입니다. ''upper'' 또는 ''lower''를 지정하십시오.</entry>
+    <entry key="EdgeListFourthArg">노드 정보는 string형 벡터, 문자형 벡터로 구성된 셀형 배열, 단일 테이블 또는 노드 개수여야 합니다.</entry>
+    <entry key="EdgeListNumNodes">간선이 노드 이름으로 지정된 경우에는 노드 개수 인수가 지원되지 않습니다.</entry>
+    <entry key="EdgePropsHasEndNodes">간선 속성은 EndNodes 변수를 포함해서는 안 됩니다.</entry>
+    <entry key="EdgesNeedTwoInputs">입력 인수가 부족합니다.</entry>
+    <entry key="EditEdges">간선을 직접 편집하는 것은 지원되지 않습니다. addedge나 rmedge를 대신 사용하십시오.</entry>
+    <entry key="InvalidAdjacencyType">유효하지 않은 데이터형입니다. 인접 행렬은 double형, single형, 논리형 행렬 중 하나여야 합니다.</entry>
+    <entry key="InvalidEdgeProps">간선 속성은 table형이어야 합니다.</entry>
+    <entry key="InvalidEdges">노드 ID는 모두 숫자형 벡터이거나 모두 노드 이름(string형 벡터, 문자형 벡터 또는 문자형 벡터의 셀형 배열로 지정됨)이거나 모두 categorical형이어야 합니다.</entry>
+    <entry key="InvalidFlag">옵션은 ''omitselfloops''여야 합니다.</entry>
+    <entry key="InvalidFlagAdjacency">옵션은 ''upper'', ''lower'' 또는 ''omitselfloops''여야 합니다.</entry>
+    <entry key="InvalidNames">노드 이름은 누락값인 문자열(&lt;missing&gt;으로 표시됨)을 포함해서는 안 됩니다.</entry>
+    <entry key="InvalidCategorical">노드 이름은 정의되지 않은 categorical형 값( &lt;undefined&gt;(으)로 표시됨)을 포함해서는 안 됩니다.</entry>
+    <entry key="CategoricalMixedOrdinal">categorical형 배열은 모두 순서형이거나 모두 순서형이 아니어야 합니다.</entry>
+    <entry key="CategoricalOrdinalMismatch">순서형 categorical형 배열은 해당 순서를 포함하여 범주가 동일해야 합니다.</entry>
+    <entry key="InvalidNodeID">숫자형 노드 ID는 그래프에 있는 노드의 개수({0})보다 크지 않은 양의 정수여야 합니다.</entry>
+    <entry key="InvalidNodeNames">노드 이름의 개수는 인접 행렬의 크기와 일치해야 합니다.</entry>
+    <entry key="InvalidNumNodeTableRows">Number of rows in nodes table must match size of adjacency matrix.</entry>
+    <entry key="InvalidNodeRefd">노드 이름 인수에 없는 이름이 간선 목록에 포함되어 있습니다.</entry>
+    <entry key="InvalidNumNodeNames">노드 이름이 충분히 지정되지 않았습니다. 최소 {0}개의 이름을 지정하십시오.</entry>
+    <entry key="InvalidNumNodes">지정된 노드 개수가 너무 적습니다. 최소 {0}개의 노드를 지정하십시오.</entry>
+    <entry key="InvalidNumNodesProps">지정된 노드 개수는 음이 아닌 유한한 실수여야 합니다.</entry>
+    <entry key="InvalidNumNodesTable">노드 테이블의 행 개수가 너무 적습니다. 최소 {0}개의 행을 지정하십시오.</entry>
+    <entry key="InvalidSizeWeight">가중치는 간선 목록과 동일한 개수의 요소를 포함하거나 스칼라여야 합니다.</entry>
+    <entry key="InvalidTableFormat">간선 정보 테이블의 첫 번째 변수는 EndNodes여야 합니다.</entry>
+    <entry key="InvalidTableSize">간선 정보 테이블의 첫 번째 변수는 노드 이름으로 구성된 2열 배열(숫자형, 셀형 또는 string형)이어야 합니다.</entry>
+    <entry key="InvalidWeights">그래프 간선 가중치는 double형 또는 single형 실수여야 하며, 희소 형식이 아니어야 합니다.</entry>
+    <entry key="NodesTableNameShape">노드 테이블의 Name 변수에는 하나의 열이 있어야 합니다.</entry>
+    <entry key="InvalidNameType">노드 이름은 string형 벡터이거나 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="NodesTableNeedsName">노드 테이블에는 Name 변수가 있어야 합니다.</entry>
+    <entry key="NonUniqueNames">노드 이름은 고유해야 합니다.</entry>
+    <entry key="NonColumnWeights">가중치는 그래프에 포함된 간선과 동일한 개수의 요소를 갖는 열 벡터여야 합니다.</entry>
+    <entry key="ScalarObject">인덱싱은 지원되지 않습니다.</entry>
+    <entry key="SecondNotTable">간선 정보가 table형이면 노드 정보도 table형이어야 합니다.</entry>
+    <entry key="SetEdges">간선을 직접 편집하는 것은 지원되지 않습니다. addedge나 rmedge를 대신 사용하십시오.</entry>
+    <entry key="SetNodes">노드를 직접 편집하는 것은 지원되지 않습니다. addnode나 rmnode를 대신 사용하십시오.</entry>
+    <entry key="SquareAdjacency">인접 행렬은 정사각 행렬이어야 합니다.</entry>
+    <entry key="SymmetricAdjacency">인접 행렬은 대칭 행렬이어야 합니다. 또는 옵션 'upper' 또는 'lower'를 사용하여 입력 행렬의 일부를 무시하십시오.</entry>
+    <entry key="OnlyDigraphSupported">입력 그래프는 유방향 그래프여야 합니다.</entry>
+    <entry key="NoInDegreeUndir">무방향 그래프에는 노드의 진입차수가 지원되지 않습니다. degree를 대신 사용하십시오.</entry>
+    <entry key="NoInEdgesUndir">일반적으로, 무방향 그래프의 노드는 진출 간선만 가져야 합니다. outedges를 대신 사용하십시오.</entry>
+    <entry key="NoOutDegreeUndir">무방향 그래프에는 노드의 진출차수가 지원되지 않습니다. degree를 대신 사용하십시오.</entry>
+    <entry key="NoPredecessorsUndir">무방향 그래프에는 선행 노드(Predecessor)가 지원되지 않습니다. neighbors을 대신 사용하십시오.</entry>
+    <entry key="NoSuccessorsUndir">무방향 그래프에는 후속 노드(Successor)가 지원되지 않습니다. neighbors을 대신 사용하십시오.</entry>
+    <entry key="UnknownNodeName">이름이 ''{0}''인 노드가 그래프에 포함되어 있지 않습니다.</entry>
+    <entry key="IncompatibleVersion">이 MATLAB 버전과 호환되지 않으므로 그래프를 불러올 수 없습니다.</entry>
+  </message>
+</rsccat>

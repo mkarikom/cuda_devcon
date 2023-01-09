@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ComplexInput">복소수 입력 인수는 지원되지 않습니다.</entry>
+    <entry key="FirstInputInvalid">유효하지 않은 데이터형입니다. 첫 번째 인수는 double형, single형, table형 또는 timetable형이어야 합니다.</entry>
+    <entry key="DataVariablesArray">''DataVariables'' 파라미터는 테이블 입력값과 타임테이블 입력값에만 사용할 수 있습니다.</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' 함수 핸들은 논리형 스칼라를 반환해야 합니다.</entry>
+    <entry key="DataVariablesTableSubscript">유효하지 않은 ''DataVariables'' 값입니다.</entry>
+    <entry key="DimensionInvalid">차원은 양의 정수여야 합니다.</entry>
+    <entry key="DimensionTable">첫 번째 인수가 table형이나 timetable형이면 Dimension을 사용할 수 없습니다.</entry>
+    <entry key="InfInput">Inf 및 -Inf 데이터는 지원되지 않습니다.</entry>
+    <entry key="MaxNumChanges">''MaxNumChanges'' 값은 양의 정수여야 합니다.</entry>
+    <entry key="MaxNumChangesThreshold">''Threshold''가 지정된 경우에는 ''MaxNumChanges''가 지원되지 않습니다.</entry>
+    <entry key="MethodInvalid">변경 감지 방법은 ''mean'', ''variance'' 또는 ''linear''여야 합니다.</entry>
+    <entry key="NameValueNames">파라미터 이름은 ''Threshold'', ''MaxNumChanges'', ''SamplePoints'' 또는 ''DataVariables''여야 합니다.</entry>
+    <entry key="NameValuePairs">입력 인수의 개수가 올바르지 않습니다. 파라미터 이름과 값은 쌍으로 있어야 합니다.</entry>
+    <entry key="NonVectorTableVariable">테이블 변수는 열 벡터여야 합니다.</entry>
+    <entry key="RowTimesDuplicate">행 시간값에 중복 항목이 포함되어 있습니다.</entry>
+    <entry key="RowTimesFinite">행 시간값은 유한해야 합니다.</entry>
+    <entry key="RowTimesSorted">행 시간값은 오름차순으로 정렬되어야 합니다.</entry>
+    <entry key="SamplePointsComplex">''SamplePoints'' 값은 실수여야 합니다.</entry>
+    <entry key="SamplePointsDatetimeLinear">메서드가 ''linear''인 경우에는 datetime형 ''SamplePoints''가 지원되지 않습니다.</entry>
+    <entry key="SamplePointsDuplicate">''SamplePoints'' 값에 중복 항목이 있습니다.</entry>
+    <entry key="SamplePointsFinite">''SamplePoints'' 값은 유한해야 합니다.</entry>
+    <entry key="SamplePointsInvalidDatatype">''SamplePoints'' 값은 double형 벡터, single형 벡터, datetime형 벡터 또는 duration형 벡터여야 합니다.</entry>
+    <entry key="SamplePointsLength">''SamplePoints'' 값의 요소 개수는 연산 차원의 첫 번째 인수 크기와 같아야 합니다.</entry>
+    <entry key="SamplePointsSorted">''SamplePoints'' 값은 오름차순으로 정렬되어야 합니다.</entry>
+    <entry key="SamplePointsSparse">희소 형식의 ''SamplePoints'' 값은 지원되지 않습니다.</entry>
+    <entry key="SamplePointsTimeTable">타임테이블 입력값에는 ''SamplePoints'' 파라미터를 사용할 수 없습니다.</entry>
+    <entry key="Threshold">''Threshold'' 값은 음이 아닌 실수형 스칼라여야 합니다.</entry>
+    <entry key="UnsupportedTableVariable">테이블 변수는 double형 또는 single형이어야 합니다.</entry>
+  </message>
+</rsccat>

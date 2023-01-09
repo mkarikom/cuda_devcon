@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DefaultAttribution">图块由 %s 提供</entry>
+    <entry key="ExpectedNonwhitespace">输入应包含至少 1 个非空白字符。</entry>
+    <entry key="InvalidBasemapName">输入的计算结果应为有效的变量名称。</entry>
+    <entry key="NoBasemapsExist">没有要删除的底图。</entry>
+    <entry key="UnableToReadMapTiles">无法从 URL ''{0}'' 读取地图图块。{1}</entry>
+    <entry key="CertificateFailedVerification">服务器证书验证失败。证书的域名 "{0}" 与主机 "{1}" 的域名不匹配。</entry>
+    <entry key="CertificateFileNotFound">未找到证书文件({0})，或无法打开该文件以进行读取。请检查 options.CertificateFilename 的值。</entry>
+    <entry key="StatusError">服务器返回了状态 {0,number,integer} 和消息 "{1}"，以响应对 URL {2} 的请求。</entry>
+    <entry key="ConnectionFailed">从 URL ''{0}'' 下载内容时出错。您的网络连接可能中断或代理设置配置不当。</entry>
+    <entry key="CopyContentToDataStreamError">与 URL ''{1}'' 通信时出现错误 "{0}"。</entry>
+    <entry key="FileNotFound">URL ''{0}'' 所指定的服务器未找到与该请求相匹配的资源。</entry>
+    <entry key="InternalErrorGeneratedFileMissing">内部错误: 找不到生成的 {0} 或 {1}</entry>
+    <entry key="InternalErrorType">内部错误: 对 {1} 类型的字段返回了具有异常类型 {0} 的对象。</entry>
+    <entry key="InvalidFilename">无法打开输出文件 ''{0}'' 进行写入。常见原因包括尽管该文件存在，却没有写入权限，或者文件夹没有写入权限。</entry>
+    <entry key="MalformedURL">无效的 URL: ''{0}''。</entry>
+    <entry key="OperationTerminatedByUser">访问 URL ''{0}'' 时，Web 服务操作被用户终止。</entry>
+    <entry key="SSLConnectionNoFile">无法建立与 "{0}" 的安全连接。原因是 "{1}"。可能服务器不接受 HTTPS 连接。</entry>
+    <entry key="Timeout">指向 URL ''{0}'' 的连接在 {1} 秒后超时。请将 {2} 设置为更大的值。</entry>
+    <entry key="UnknownHost">无法访问服务器。{0}。</entry>
+    <entry key="InternalError">Internal error: {0}.</entry>
+  </message>
+</rsccat>

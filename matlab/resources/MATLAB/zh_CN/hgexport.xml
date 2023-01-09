@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FirstInputMustBeFigHandle">第一个参数必须为图窗句柄。</entry>
+    <entry key="SecondInputMustBeString">第二个参数必须为字符串标量或字符向量。</entry>
+    <entry key="CopyToClipboardNotSupported">此平台不支持复制到剪贴板。</entry>
+    <entry key="ParameterMustBeString">可选参数名称必须为字符串标量或字符向量。</entry>
+    <entry key="InvalidPreviewAction">预览必须为 ''none'' 或 ''tiff''。</entry>
+    <entry key="WidthMustBePositiveScalar">宽度必须为大于 0 的数值标量</entry>
+    <entry key="HeightMustBePositiveScalar">高度必须为大于 0 的数值标量</entry>
+    <entry key="InvalidColor">颜色必须为 ''bw''、''gray''、''rgb'' 或 ''cmyk''。</entry>
+    <entry key="InvalidFontMode">FontMode 必须为 ''scaled''、''fixed'' 或 ''none''。</entry>
+    <entry key="InvalidScaledFontSize">ScaledFontSize 必须为大于 0 的数值标量</entry>
+    <entry key="InvalidFixedFontSize">FixedFontSize 必须为大于 0 的数值标量</entry>
+    <entry key="InvalidFontSizeMin">FontSizeMin 必须为大于 0 的数值标量</entry>
+    <entry key="InvalidFontNameInput">FontName 必须为字符串标量或字符向量。</entry>
+    <entry key="InvalidFontWeightInput">'FontWeight' 值必须为 ''normal'' 或 ''bold''。</entry>
+    <entry key="InvalidFontAngleInput">'FontAngle' 值必须为 ''normal'' 或 ''italic''。</entry>
+    <entry key="InvalidFontEncodingType">FontEncoding 必须为 ''latin1'' 或 ''adobe''。</entry>
+    <entry key="InvalidPSLevelInput">PSlevel 必须为 2 或 3</entry>
+    <entry key="InvalidLineModeInput">LineMode 必须为 ''scaled''、''fixed'' 或 ''none''。</entry>
+    <entry key="InvalidScaleLineWidth">ScaledLineWidth 必须为大于 0 的数值标量</entry>
+    <entry key="InvalidFixedLineWidth">FixedLineWidth 必须为大于 0 的数值标量</entry>
+    <entry key="InvalidLinWidthMinInput">LineWidthMin 必须为大于 0 的数值标量</entry>
+    <entry key="InvalidRendererInput">渲染器必须为 ''painters'' 或 ''opengl''。</entry>
+    <entry key="InvalidResolution">分辨率必须为大于等于 0 的数值标量</entry>
+    <entry key="InvalidBounds">边界必须为 ''tight'' 或 ''loose''。</entry>
+    <entry key="InvalidLockAxesInput">LockAxes 必须为 ''on'' 或 ''off''。</entry>
+    <entry key="InvalidLockAxesTicksInput">LockAxesTicks 必须为 ''on'' 或 ''off''。</entry>
+    <entry key="InvalidShowUIInput">ShowUI 必须为 ''on'' 或 ''off''。</entry>
+    <entry key="InvalidSeparateTextInput">Separatetext 必须为 ''on'' 或 ''off''。</entry>
+    <entry key="UnknownOption">选项 {0} 无法识别。</entry>
+    <entry key="SkippingStylemap">将跳过样式映射。{0}</entry>
+    <entry key="InvalidColorParam">Color 参数无效</entry>
+    <entry key="InvalidFontModeParam">FontMode 参数无效</entry>
+    <entry key="StyleNotFound">样式 ''{0}'' 不存在。</entry>
+  </message>
+</rsccat>

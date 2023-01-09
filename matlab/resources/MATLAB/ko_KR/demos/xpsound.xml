@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelSound">사운드</entry>
+    <entry key="LabelDisplay">표시</entry>
+    <entry key="ButtonPlaySound">사운드 재생</entry>
+    <entry key="SliderVolume">볼륨</entry>
+    <entry key="LabelSamples">샘플</entry>
+    <entry key="PopupBirdChirps">짹짹거리는 새</entry>
+    <entry key="PopupChineseGong">징</entry>
+    <entry key="PopupHallelujah">할렐루야</entry>
+    <entry key="PopupDroppingEgg">떨어지는 달걀</entry>
+    <entry key="PopupTrainWhistle">기차 기적</entry>
+    <entry key="PopupLaughter">웃음</entry>
+    <entry key="PopupBeats">비트</entry>
+    <entry key="TitleSamples">{0}개 샘플</entry>
+    <entry key="PopupTimeSequence">시간 시퀀스</entry>
+    <entry key="PopupPowerSpectralDensity">파워 스펙트럼 밀도</entry>
+    <entry key="PopupSpectrogram">스펙트로그램</entry>
+    <entry key="PopupFM">FM</entry>
+  </message>
+</rsccat>

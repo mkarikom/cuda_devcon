@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidOp">Invalid operation.</entry>
+    <entry key="InvalidInput">user supplied {0} ==> {1} failed with the following error:\n \n {2}</entry>
+    <entry key="MustReturnColumn">user supplied {0} ==> {1} must return a column vector.</entry>
+  </message>
+</rsccat>

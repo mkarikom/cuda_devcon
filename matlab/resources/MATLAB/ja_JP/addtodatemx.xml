@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Nargin">3 つの入力引数が必要です。</entry>
+    <entry key="EmptyFirstArg">ADDTODATE への最初の引数は空にできません。</entry>
+    <entry key="EmptySecondArg">ADDTODATE への 2 番目の引数は空にできません。</entry>
+    <entry key="addToDate">日付を変更できませんでした。</entry>
+    <entry key="CreateCalendar">カレンダーを作成できませんでした。続行できません。</entry>
+  </message>
+</rsccat>

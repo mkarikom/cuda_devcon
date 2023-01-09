@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidString">文字ベクトルを取得できませんでした。</entry>
+    <entry key="InvalidThirdInput">次元数は正のスカラー整数でなければなりません。</entry>
+    <entry key="TooFewInputs">入力が少なすぎます。</entry>
+    <entry key="TooManyInputs">入力が多すぎます。</entry>
+    <entry key="InvalidFirstInput">最初の入力は、string または文字ベクトルで指定された関数ハンドルまたは関数名でなければなりません。</entry>
+    <entry key="InvalidSecondInput">cellfun はセルのみを処理します。</entry>
+    <entry key="InvalidInput">入力数が正しくありません。</entry>
+    <entry key="UnknownOption">不明なオプションです。</entry>
+  </message>
+</rsccat>

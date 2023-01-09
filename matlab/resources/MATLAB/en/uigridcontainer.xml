@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="MigratingFunction">This undocumented function will be replaced in a future release.\nTo continue to use it, add ''v0'' as its first argument, followed by its normal calling sequence.</entry>
+  <!--Resource entries for src/hg-->
+    <entry key="setMargin">Value must be finite and greater than zero</entry>
+  <!--Resource entries for src/hg-->
+    <entry key="GridSize1By2">Grid Layout Matrix must be a 1x2 matrix</entry>
+    <entry key="GridSize1ByN">Grid Layout Matrix must be a 1xN matrix</entry>
+  </message>
+</rsccat>

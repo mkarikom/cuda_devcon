@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidFormatType">番号付きの引数の形式変換は sprintfc に対してサポートされません</entry>
+    <entry key="invalidInputAttribute">関数はスパースの入力に対して定義されません。</entry>
+    <entry key="invalidInputType">関数は ''{0}'' の入力に対して定義されません。</entry>
+    <entry key="invalidThirdInputType">sprintfc の 3 番目の引数は logical でなければなりません</entry>
+  </message>
+</rsccat>

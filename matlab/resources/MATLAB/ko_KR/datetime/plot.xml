@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DatetimeDurationSameAxes">datetime형 데이터와 duration형 데이터는 동일한 차트에 같이 플로팅될 수 없습니다. 둘 중 하나를 숫자형 값으로 변환하십시오.</entry>
+    <entry key="DataPairsMismatch">데이터는 단일 datetime형 배열 Y이거나 X, Y 쌍 목록이어야 합니다.</entry>
+    <entry key="DifferentTypeSameAxis">다른 유형의 datetime형 데이터와 duration형 데이터는 동일한 축에 플로팅될 수 없습니다.</entry>
+    <entry key="MultipleTickFormats">눈금 형식 파라미터를 여러 개 지정할 수 없습니다.</entry>
+    <entry key="TickFormatMismatch">{0}은(는) 유효한 파라미터가 아닙니다.</entry>
+    <entry key="UnmatchedTickFormat">''{0}''에 대한 값이 지정되지 않았습니다. 이름-값 쌍의 인수는 이름, 값 순서로 지정되어야 합니다.</entry>
+    <entry key="LogScaleNotSupported">시간 축에는 로그 스케일이 지원되지 않습니다. 축 스케일은 변경되지 않습니다. </entry>
+    <entry key="ItemDisabled">(datetime형 또는 duration형 플롯이 포함된 Figure에 사용할 수 없음)</entry>
+  </message>
+</rsccat>

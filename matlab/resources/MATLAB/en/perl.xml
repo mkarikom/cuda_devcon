@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InputsMustBeStrings" note="stringDatatypeUpdate">All arguments must be character vectors or string scalars.</entry>
+    <entry key="FileNotFound">Unable to find Perl file: {0}</entry>
+    <entry key="NoPerlCommand">No perl command specified</entry>
+    <entry key="ExecutionError">System error: {0}Command executed: {1}</entry>
+    <entry key="NoExecutable">Unable to find Perl executable.</entry>
+  </message>
+</rsccat>

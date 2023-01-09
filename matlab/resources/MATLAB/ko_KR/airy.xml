@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonFloatInput">입력값은 single형 또는 double형이어야 합니다.</entry>
+    <entry key="sparseInput">입력값은 비희소(Full) 형식이어야 합니다.</entry>
+    <entry key="notReal">입력값은 실수여야 합니다.</entry>
+    <entry key="InvalidOrder">K는 0, 1, 2, 3 중 하나여야 합니다.</entry>
+    <entry key="InvalidScale">SCALE은 0 또는 1이어야 합니다.</entry>
+  </message>
+</rsccat>

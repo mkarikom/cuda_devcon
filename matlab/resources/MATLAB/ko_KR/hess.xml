@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="inputMustBe2DFullSq">입력값은 double형 또는 single형의 조밀한 정사각 행렬이어야 합니다.</entry>
+    <entry key="inputMustBeSameSize">입력값의 크기가 같아야 합니다.</entry>
+    <entry key="twoInTwoOut">출력 인수가 너무 많습니다. 한 개의 입력 인수를 제공할 경우 최대 두 개의 출력값을 지정하십시오.</entry>
+  </message>
+</rsccat>

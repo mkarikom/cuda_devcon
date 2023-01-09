@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FigureDescriptionNumNoChildren">ハンドルが表示されている子がない Figure {0,number,integer}。</entry>
+    <entry key="FigureDescriptionNumWithChildren">タイプ {1} の子をもつ Figure {0,number,integer}。</entry>
+    <entry key="FigureDescriptionNumWithMultipleAxes">{1,number,integer} 個の axes オブジェクトをもつ Figure {0,number,integer}。</entry>
+    <entry key="FigureDescriptionNumWithSingleAxes">Figure {0,number,integer}。</entry>
+    <entry key="FigureDescriptionNoNumNoChildren">ハンドルが表示されている子がない Figure。</entry>
+    <entry key="FigureDescriptionNoNumWithChildren">タイプ {0} の子をもつ Figure。</entry>
+    <entry key="FigureDescriptionNoNumWithMultipleAxes">{0,number,integer} 個の axes オブジェクトをもつ Figure。</entry>
+    <entry key="FigureDescriptionNoNumWithSingleAxes">Figure。</entry>
+    <entry key="FigureDescriptionNamedNoChildren">ハンドルが表示されている子がない {0} Figure。</entry>
+    <entry key="FigureDescriptionNamedWithChildren">タイプ {1} の子をもつ {0} Figure。</entry>
+    <entry key="FigureDescriptionNamedWithMultipleAxes">{1,number,integer} 個の axes オブジェクトをもつ {0} Figure。</entry>
+    <entry key="FigureDescriptionNamedWithSingleAxes">{0} Figure。</entry>
+    <entry key="UntitledCurrentAxesDescriptionEmpty">現在の axes オブジェクトは空です</entry>
+    <entry key="UntitledCurrentAxesDescriptionNonEmpty">現在の axes オブジェクトにはタイプ {1} の {0,number,integer} 個のオブジェクトが含まれています</entry>
+    <entry key="TitledCurrentAxesDescriptionEmpty">現在の axes オブジェクト {0} は空です</entry>
+    <entry key="TitledCurrentAxesDescriptionNonEmpty">現在の axes オブジェクト {0} にはタイプ {2} の {1,number,integer} 個のオブジェクトが含まれています</entry>
+    <entry key="ChartWithType">現在のチャートはタイプ {0} です</entry>
+    <entry key="EmptyFigure">空の Figure です。</entry>
+    <entry key="UnnamedFigureSingleAxes">Figure には 1 つの axes オブジェクトが含まれています。</entry>
+    <entry key="UnnamedFigureMultipleAxes">Figure には {0,number,integer} 個の axes オブジェクトが含まれています。</entry>
+    <entry key="UnnamedFigureNonAxesChildrenMultipleAxes">Figure には {0,number,integer} 個の axes オブジェクトとタイプ {1} の他の複数のオブジェクトが含まれています。</entry>
+    <entry key="UnnamedFigureSingleNonAxesChildMultipleAxes">Figure には {0,number,integer} 個の axes オブジェクトとタイプ {1} のもう 1 つのオブジェクトが含まれています。</entry>
+    <entry key="UnnamedFigureNonAxesChildrenSingleAxes">Figure には 1 つの axes オブジェクトとタイプ {0} の他の複数のオブジェクトが含まれています。</entry>
+    <entry key="UnnamedFigureSingleNonAxesChildrenSingleAxes">Figure には 1 つの axes オブジェクトとタイプ {0} の 1 つのオブジェクトが含まれています。</entry>
+    <entry key="UnnamedFigureNoAxesWithOtherChildren">Figure にはタイプ {0} の複数のオブジェクトが含まれています。</entry>
+    <entry key="UnnamedFigureNoAxesWithOneOtherChild">Figure にはタイプ {0} の 1 つのオブジェクトが含まれています。</entry>
+    <entry key="NamedFigureSingleAxes">Figure {0} には 1 つの axes オブジェクトが含まれています。</entry>
+    <entry key="NamedFigureMultipleAxes">Figure {0} には {1,number,integer} 個の axes オブジェクトが含まれています。</entry>
+    <entry key="NamedFigureNonAxesChildrenMultipleAxes">Figure {0} には {1,number,integer} 個の axes オブジェクトとタイプ {2} の他の複数のオブジェクトが含まれています。</entry>
+    <entry key="NamedFigureSingleNonAxesChildMultipleAxes">Figure {0} には {1,number,integer} 個の axes オブジェクトとタイプ {2} のもう 1 つのオブジェクトが含まれています。</entry>
+    <entry key="NamedFigureNonAxesChildrenSingleAxes">Figure {0} には 1 つの axes オブジェクトとタイプ {1} の他の複数のオブジェクトが含まれています。</entry>
+    <entry key="NamedFigureSingleNonAxesChildSingleAxes">Figure {0} には 1 つの axes オブジェクトとタイプ {1} のもう 1 つのオブジェクトが含まれています。</entry>
+    <entry key="NamedFigureNoAxesWithOtherChildren">Figure {0} にはタイプ {1} の複数のオブジェクトが含まれています。</entry>
+    <entry key="NamedFigureNoAxesWithOneOtherChild">Figure {0} にはタイプ {1} の 1 つのオブジェクトが含まれています。</entry>
+    <entry key="UntitledSingleAxesDescriptionEmpty">axes オブジェクトが空です。</entry>
+    <entry key="UntitledSingleAxesDescriptionNonEmpty">axes オブジェクトにはタイプ {1} の {0,number,integer} 個のオブジェクトが含まれています。</entry>
+    <entry key="UntitledSingleAxesDescriptionSingleObject">axes オブジェクトにはタイプ {0} の 1 つのオブジェクトが含まれています。</entry>
+    <entry key="UntitledSingleChartWithType">axes オブジェクトにはタイプ {0} の 1 つのチャートが含まれています。</entry>
+    <entry key="TitledSingleAxesDescriptionEmpty">タイトル {0} の axes オブジェクトは空です。</entry>
+    <entry key="TitledSingleAxesDescriptionNonEmpty">タイトル {0} の axes オブジェクトにはタイプ {2} の {1,number,integer} 個のオブジェクトが含まれています。</entry>
+    <entry key="TitledSingleAxesDescriptionSingleObject">タイトル {0} の axes オブジェクトにはタイプ {1} の 1 つのオブジェクトが含まれています。</entry>
+    <entry key="TitledSingleChart">タイプ {0} のチャートのタイトルは {1} です。</entry>
+    <entry key="UntitledMultipleAxesDescriptionEmpty">axes オブジェクト {0,number,integer} は空です。</entry>
+    <entry key="UntitledMultipleAxesDescriptionNonEmpty">axes オブジェクト {0,number,integer} にはタイプ {2} の {1,number,integer} 個のオブジェクトが含まれています。</entry>
+    <entry key="UntitledMultipleAxesDescriptionSingleObject">axes オブジェクト {0,number,integer} にはタイプ {1} の 1 つのオブジェクトが含まれています。</entry>
+    <entry key="UntitledMultipleChartWithType">axes オブジェクト {0,number,integer} はタイプ {1} のチャートです。</entry>
+    <entry key="TitledMultipleAxesDescriptionEmpty">タイトル {1} の axes オブジェクト {0,number,integer} は空です。</entry>
+    <entry key="TitledMultipleAxesDescriptionNonEmpty">タイトル {1} の axes オブジェクト {0,number,integer} にはタイプ {3} の {2,number,integer} 個のオブジェクトが含まれています。</entry>
+    <entry key="TitledMultipleAxesDescriptionSingleObject">タイトル {1} の axes オブジェクト {0,number,integer} にはタイプ {2} の 1 つのオブジェクトが含まれています。</entry>
+    <entry key="TitledMultipleChartWithType">タイトル {1} の axes オブジェクト {0,number,integer} はタイプ {2} のチャートです。</entry>
+    <entry key="AxesNamedChildren">これらのオブジェクトは {0} を表します。</entry>
+    <entry key="AxesNamedSingleChild">このオブジェクトは {0} を表します。</entry>
+  </message>
+</rsccat>

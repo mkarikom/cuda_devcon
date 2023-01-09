@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="IncorrectHoleCount">为 ''{0}'' 提供的参数的数目不正确。需要 {1,number,integer}，但找到了 {2,number,integer}。</entry>
+    <entry key="FailedMessageFormat">为 ''{0}'' 执行消息格式设置失败。</entry>
+    <entry key="BadDataType">在 ''{0}'' 中，提供的数据类型不适合参数 '{'{1,number,integer}'}'。</entry>
+    <entry key="NonScalarInput">在 ''{0}'' 中，参数 '{'{1,number,integer}'}' 必须为实数标量。</entry>
+    <entry key="InvalidConstructorSignature">构造函数签名无效。</entry>
+    <entry key="InvalidMessageID">消息 ID 格式无效: ''{0}''。</entry>
+    <entry key="InvalidCatalogID">目录 ID 格式无效: ''{0}''。</entry>
+    <entry key="MessageCatalogLoadFailed">无法加载消息目录 ''{0}''。请检查文件位置和格式。</entry>
+    <entry key="MessageNotFound">在目录 ''{1}'' 中找不到消息键 ''{0}''。</entry>
+    <entry key="StringInput">输入必须为字符向量。</entry>
+    <entry key="UnknownMsgCatErr">访问消息目录时发生未知错误。</entry>
+    <entry key="NoFloatingPointNumbers">填充 {0} 的内容时出错。不允许浮点数作为填充内容。它们应转换为字符向量。</entry>
+    <entry key="InputNotInIntegerRange">填充 {0} 的内容时出错。不支持将数值 {1} 作为消息目录的参数。</entry>
+    <entry key="InvalidNumberOfArguments">在消息对象后提供的参数的数目无效。</entry>
+    <entry key="InputCellMatrix">需要一个元胞矩阵作为 {0} 的输入。</entry>
+    <entry key="MessageKeyNotProvided">未提供信息键。</entry>
+    <entry key="CustomArgumentFormatterNotFound">找不到自定义空位类型 {0} 的自定义格式化器。</entry>
+    <entry key="BadCatalogID">错误的目录 ID。</entry>
+  </message>
+</rsccat>

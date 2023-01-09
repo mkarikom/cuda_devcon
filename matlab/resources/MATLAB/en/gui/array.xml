@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011, 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NullArray">Array is null</entry>
+    <entry key="InvalidArrayShape">Array is wrong shape or size</entry>
+    <entry key="InvalidArrayClass">Array does not belong to the expected class</entry>
+    <entry key="InvalidArrayData">Array contains incorrect data values</entry>
+  </message>
+</rsccat>

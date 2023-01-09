@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="IllegalName">すべての引数は空でない文字ベクトルまたは string スカラーでなければなりません。</entry>
+    <entry key="NullCharacterInName">パスが無効です。パスには null 文字を含めないでください。</entry>
+    <entry key="DirectoryExists">ディレクトリが既に存在します。</entry>
+    <entry key="UnknownError">原因不明のエラーが発生しました。</entry>
+    <entry key="GetLastErrorFailed">{0} に失敗しました。GetLastError によって {1,number,integer} が返されました。\n</entry>
+    <entry key="CouldNotRemove">{0} を削除することができません。\n</entry>
+    <entry key="NotADirectory">{0} はディレクトリではありません。\n</entry>
+    <entry key="ReadOnly">{0} は読み取り専用であるか、または読み取り専用のオブジェクトが含まれています。\n</entry>
+    <entry key="FileAlreadyExists">''{0}'' は既に存在しています。\n</entry>
+    <entry key="NonExistentDirectory">''{0}'' ディレクトリは存在しません。\n</entry>
+    <entry key="OSError">{0}</entry>
+  </message>
+</rsccat>

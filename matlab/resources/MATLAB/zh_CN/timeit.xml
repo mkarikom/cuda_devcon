@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFunctionHandle">第一个参数必须为不带输入参数的函数句柄。</entry>
+    <entry key="HandleToScript">第一个参数不能为脚本句柄。尝试将脚本转换为函数。</entry>
+    <entry key="InvalidNumberOfOutputs">第二个参数必须为非负整数。</entry>
+    <entry key="HighOverhead">由于运行速度过快，F 的计时可能不准确。尝试对耗时更长的其他对象计时。</entry>
+  </message>
+</rsccat>

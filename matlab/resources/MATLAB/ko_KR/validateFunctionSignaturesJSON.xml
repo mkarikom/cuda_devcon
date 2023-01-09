@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="emptyFileName">빈 파일 이름은 유효하지 않습니다.</entry>
+    <entry key="emptyString">유효하지 않은 빈 문자열입니다.</entry>
+    <entry key="nameInvalid">"{0}"은(는) 유효하지 않은 속성입니다.</entry>
+    <entry key="nameDuplicated">"{0}"은(는) 유효하지 않은 중복 속성입니다.</entry>
+    <entry key="nameRemoved">"{0}"은(는) 제거되었습니다.</entry>
+    <entry key="nameRenamed">"{0}"의 이름이 "{1}"(으)로 바뀌었습니다.</entry>
+    <entry key="listExpected">목록("[") 선언이어야 합니다.</entry>
+    <entry key="objectExpected">객체("'{'") 선언이어야 합니다.</entry>
+    <entry key="objectOrListExpected">객체("'{'") 선언 또는 목록("[") 선언이어야 합니다.</entry>
+    <entry key="stringExpected">string형이어야 합니다.</entry>
+    <entry key="trueOrFalseExpected">true 또는 false여야 합니다.</entry>
+    <entry key="equalExpectedInsteadOfEqualEqual">"=="가 아니라 "="가 필요합니다.</entry>
+    <entry key="cannotOpenFile">파일 ''{0}''을(를) 열 수 없습니다.</entry>
+    <entry key="matlabExpressionInvalid">"{0}"은(는) 유효하지 않은 MATLAB 표현식입니다.</entry>
+    <entry key="schemaUnexpectedLocation">"_schemaVersion"은 파일의 첫 번째 속성이어야 합니다.</entry>
+    <entry key="schemaUnexpectedValue">"_schemaVersion"은 "1.0.0" 또는 "1.1.0"이어야 합니다.</entry>
+    <entry key="noOutputAtCompletion">validateFunctionSignaturesJSON이 아무런 메시지도 생성하지 않고 완료되었습니다.</entry>
+    <entry key="jsonShadowed">{0}이(가) {1}에 의해 가려져 있습니다.</entry>
+    <entry key="fileInClassOrPackageFolder">파일 {0}에 대한 폴더 위치가 유효하지 않습니다. 파일은 '@' 또는 '+'로 시작하는 폴더의 부모 폴더에 있어야 합니다.</entry>
+    <entry key="pathToFileInvalid">폴더 "{1}"에 상대적인 파일 "{0}"이(가) 존재해야 합니다.</entry>
+    <entry key="functionNotFound">함수 "{0}"이(가) "which"로 인식되지 않습니다. 메서드인 경우 그 앞에 클래스 이름을 붙이십시오.</entry>
+    <entry key="classWithoutMetadata">이름 "{0}"의 메타데이터를 가져올 수 없습니다. 이 이름이 존재하고 이름에 구문 오류가 없는지 확인하십시오.</entry>
+    <entry key="methodNameInvalid">"{1}" 클래스의 메서드 이름 "{0}"이(가) 유효하지 않습니다.</entry>
+    <entry key="methodWithoutMetadata">"{1}" 클래스의 메서드 "{0}"에 대한 메타데이터를 가져올 수 없습니다.</entry>
+    <entry key="methodGivenForWrongOverload">메서드 "{2}"이(가) "{4}" 클래스가 아니라 "{3}" 클래스에서 정의되었으므로 "{0}"을(를) "{1}"(으)로 바꾸십시오.</entry>
+    <entry key="expectedIsA">"{0}"은(는) "{1}"이어야 합니다.</entry>
+    <entry key="invalidMessageId">메시지 ID "{0}"이(가) 존재해야 합니다.</entry>
+    <entry key="separatorRemoved">"separator"는 불필요하며 제거되었습니다.</entry>
+    <entry key="multiplicityReplaced">"multiplicity"는 "repeating"으로 대체되었습니다.</entry>
+    <entry key="valueInvalid">"{0}"의 값 "{1}"은(는) 유효하지 않습니다.</entry>
+    <entry key="requireInputAttributeMissing">"name", "kind", "mutuallyExclusiveGroup" 또는 "tuple"이어야 합니다.</entry>
+    <entry key="notAfterNameValueOrFlag">"{0}" 인수는 모든 "namevalue" 인수와 "flag" 인수 앞에 와야 합니다.</entry>
+    <entry key="notAfterPositional">"{0}" 인수는 모든 "positional" 인수 앞에 와야 합니다.</entry>
+    <entry key="notAfterSeparator">"{0}" 인수는 "separator" 인수 앞에 와야 합니다.</entry>
+    <entry key="propertiesMustBeLast">"properties"는 인수 목록에서 마지막에 와야 합니다.</entry>
+    <entry key="inferredFromNameDoesNotExist">"inferredFrom" 참조가 유효하지 않습니다. "{0}"은(는) "inputs"의 "name"을 참조해야 합니다.</entry>
+    <entry key="prototypeArgumentDoesNotExist">지원되는 "name"인 "typename", "classname" 또는 "'like'"를 갖는 인수가 "inputs"에 없는 한, "fromPrototypeOrClassname"은 유효하지 않습니다.</entry>
+    <entry key="doNotUseNumericInOutputs">"outputs"에 "numeric"의 "type"을 지정하지 마십시오. 대신 클래스를 지정하거나 "inferredFrom"을 사용하십시오.</entry>
+    <entry key="doNotSpecifyKindForOutputs">"outputs"에 "kind"를 지정하지 마십시오. "kind"는 항상 암묵적으로 "ordered"입니다.</entry>
+    <entry key="listsNestedTooDeeply">"type"에 대해 목록이 너무 깊이 중첩되어 있습니다.</entry>
+    <entry key="argumentIsIndexed">인수 이름 "{0}"이(가) 인덱싱 표현식 "{1}"에 사용되었습니다. "{0}"이(가) 함수를 가리는 경우 인수 "{0}"의 이름을 바꾸십시오.</entry>
+    <entry key="functionHandleCanBeAvoided">"{0}"은(는) "{1}"(으)로 바꿀 수 있습니다.</entry>
+    <entry key="fileDoesNotNeedWildcard">모든 파일 이름을 허용하려면 와일드카드 없이 "file"을 사용하십시오.</entry>
+    <entry key="fileWildcardFormatInvalid">파일 이름 와일드카드에는 "*.ext[,*.ext...]" 형식을 사용하십시오.</entry>
+    <entry key="attributeOrClassUnknown">알 수 없는 특성 또는 클래스 "{0}"입니다.</entry>
+    <entry key="jsonParsingError">{0}</entry>
+    <entry key="cannotIntegrateDoc">{0}</entry>
+  </message>
+</rsccat>

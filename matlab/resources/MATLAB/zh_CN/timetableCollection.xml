@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoPlotMethod">plot 函数不适用于时间表集合。要绘制时间表集合中的数据，可采用以下方法:\n * 使用 stackedplot 函数，或\n * 先对集合中的时间表进行同步，然后基于同步后的时间表绘制数据。</entry>
+    <entry key="TablesNotSupported">不支持表作为时间表集合的成员。</entry>
+    <entry key="ShapeParamNotValid">timetableCollection 不支持 MemberShape 输入。</entry>
+    <entry key="TypeParamNotValid">timetableCollection 不支持 MemberType 输入。</entry>
+    <entry key="MustBeTimetables">所有数据输入必须为时间表。</entry>
+    <entry key="StackedplotMode">第二个输入必须为 ''byvariable'' 或 ''bytimetable''。</entry>
+    <entry key="SelectDataError">从时间表集合的成员 {0,number,integer} 中选择数据时出错:</entry>
+    <entry key="AssignDataError">将数据赋给时间表集合的成员 {0,number,integer} 时出错:</entry>
+    <entry key="ConditionFunError">选择时间表集合的成员 {0,number,integer} 中的行时出错:</entry>
+    <entry key="NoCondition">请提供 ''Variables''、''RowTimeRange''、''IntersectedRowTimes'' 或 ''Condition''。</entry>
+    <entry key="InvalidConditionFun">Condition 必须为接受时间表并返回逻辑标量的函数的函数句柄。</entry>
+    <entry key="InvalidVariablesCondition">Variables 必须为一个或多个变量名称、一个 vartype 或一个函数句柄。</entry>
+    <entry key="InvalidRowTimeRangeCondition">RowTimeRange 必须为时间范围下标器。</entry>
+    <entry key="InvalidIntersectedRowTimesCondition">IntersectedRowTimes 必须为标量日期时间或持续时间，或者是时间范围下标器。</entry>
+  </message>
+</rsccat>

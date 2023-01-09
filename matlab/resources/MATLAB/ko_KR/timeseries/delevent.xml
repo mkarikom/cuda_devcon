@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">delevent 메서드는 단일 timeseries 객체에 대해서만 사용할 수 있음</entry>
+    <entry key="noevents">이 시계열 객체에는 이벤트가 없습니다.</entry>
+    <entry key="invalidname">delevent의 두 번째 인수는 유효한 이벤트 이름이어야 합니다.</entry>
+  </message>
+</rsccat>

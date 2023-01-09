@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">입력 인수가 부족합니다.  ODE45를 참조하십시오.</entry>
+    <entry key="MassSingularAssumedNo">ODE45는 MassSingular가 ''no''인 것으로 가정합니다. ODE15S 또는 ODE23T를 참조하십시오.</entry>
+    <entry key="MassSingularYes">MassSingular는 이 솔버에 대해 ''yes''일 수 없습니다.  ODE15S 또는 ODE23T를 참조하십시오.</entry>
+    <entry key="IntegrationTolNotMet">t={0}에서 실패했습니다.  시간 t에서, 허용되는 가장 작은 값({1}) 이하로 스텝 크기를 줄여야만 적분 허용오차가 충족될 수 있습니다.</entry>
+  </message>
+</rsccat>

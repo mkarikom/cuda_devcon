@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PrintingHandle">핸들 인쇄 중: {0}\n</entry>
+    <entry key="PassingInputArgsToHardcopy">입력 인수를 하드카피로 전달: </entry>
+    <entry key="PassingInputArgsToIMWRITE">입력 인수를 IMWRITE로 전달: </entry>
+    <entry key="FormatCanNotBeUsedWithPrintframes">printframes에 "{0}" 형식을 사용할 수 없습니다.</entry>
+  </message>
+</rsccat>

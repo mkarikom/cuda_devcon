@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="ImproperType">Type must be one of the following ''''()'''', ''''.'''', '''''{}'''''.</entry>
+      <entry key="indexNotCell">Index must be a cell array.</entry>
+      <entry key="ImproperIndexCell">Index cell array must specify the extent of all dimensions of the variable. Linear indexing is not supported.</entry>
+      <entry key="ImproperIndexBounds">Index bounds must be a set of pairs or triples of numbers.</entry>
+      <entry key="MinMax">The start of an Index bound must be less than the end of the Index bound.</entry>
+      <entry key="ImproperIndexCellForStructs">Index cell array must be a row vector of valid MATLAB variable names.</entry>
+      <entry key="indexNotFieldname">The Index element, {0,number,integer}, is not a valid MATLAB variable name.</entry>
+      <entry key="IndexBoundsInvalid">The index bounds for dimension {0,number,integer} is not a valid bound. \nSee the cause below for more info.</entry>
+   </message>
+</rsccat>

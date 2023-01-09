@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidParentAxes">부모는 유효한 Axes 객체여야 합니다.</entry>
+    <entry key="InvalidAxesToolbar">부모는 유효한 AxesToolbar 객체여야 합니다.</entry>
+    <entry key="InvalidToolbarButton">도구 모음 버튼 스타일은 ''push'' 또는 ''state''여야 합니다.</entry>
+    <entry key="CannotModifyDefaultAxesToolbar">디폴트 좌표축 도구 모음은 수정할 수 없습니다.</entry>
+    <entry key="UnknownProperty">알 수 없는 속성임: {0}</entry>
+    <entry key="InvalidPropertyName">속성 이름은 문자형 벡터 또는 string형이어야 합니다.</entry>
+    <entry key="InvalidButtonEnum">유효한 열거형 값이 아닙니다. 값을 ''default''로 지정하거나 다음 값 중 하나 이상을 포함하는 셀형 배열로 지정하십시오. \n ''zoomin'' | ''zoomout'' | ''pan'' | ''rotate'' | ''datacursor'' | ''brush'' | ''restoreview'' | ''export''</entry>
+    <entry key="InvalidButtonType">{0}은(는) 유효한 값이 아닙니다. 값을 ''default''로 지정하거나 다음 값 중 하나 이상을 포함하는 셀형 배열로 지정하십시오. \n ''zoomin'' | ''zoomout'' | ''pan'' | ''rotate'' | ''datacursor'' | ''brush'' | ''restoreview'' | ''export''</entry>
+    <entry key="InvalidGeoButtonEnum">유효한 열거형 값이 아닙니다. 값을 ''default''로 지정하거나 다음 값 중 하나 이상을 포함하는 셀형 배열로 지정하십시오. \n ''stepzoomin'' | ''stepzoomout'' | ''datacursor'' | ''restoreview'' | ''export''</entry>
+    <entry key="InvalidGeoButtonType">{0}은(는) 유효한 값이 아닙니다. 값을 ''default''로 지정하거나 다음 값 중 하나 이상을 포함하는 셀형 배열로 지정하십시오. \n ''stepzoomin'' | ''stepzoomout'' | ''datacursor'' | ''restoreview'' | ''export''</entry>
+    <entry key="InvalidIndexedIcon">Icon 속성의 행렬 값은 정수형인 경우 0~63 범위여야 하고 부동소수점 형식인 경우 1~64 범위여야 합니다.</entry>
+    <entry key="InvalidRGBIcon">Icon 속성의 RGB 값은 MxNx3 배열이어야 합니다.</entry>
+    <entry key="InvalidIcon">Icon 속성은 내장된 데이터형, 파일 이름 또는 숫자형이어야 합니다.</entry>
+    <entry key="ErrorWhileEvaluating">{0}\n좌표축 도구 모음에 대해 {1}을(를) 실행하는 중 오류가 발생했습니다.</entry>
+    <entry key="ToolbarDropdownChildError">자식은 유효한 ToolbarPushButton 객체여야 함</entry>
+    <entry key="PrintWarning">내보낸 이미지에 좌표축 도구 모음이 나타납니다. 이미지에서 좌표축 도구 모음을 제거하려면 다시 내보내십시오.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ClassNotSupport">不支持输入类。</entry>
+    <entry key="differenceOrderMustBePositiveInteger">差分阶数 N 必须为正整数标量。</entry>
+    <entry key="unsupportedClass">类 ''{0}'' 不支持函数 ''diff''。</entry>
+    <entry key="complexIntegersNotSupported">不支持复整数差分。</entry>
+  </message>
+</rsccat>

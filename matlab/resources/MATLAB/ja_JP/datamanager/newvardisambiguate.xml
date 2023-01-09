@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NumberOfBrushedPoints">ブラシ選択した点の数</entry>
+    <entry key="NumberInteger">{0,number,integer} 点 ({1,number,integer} 点の範囲中)</entry>
+    <entry key="InvalidOrEmptyVariableName">変数名が無効または空です</entry>
+  </message>
+</rsccat>

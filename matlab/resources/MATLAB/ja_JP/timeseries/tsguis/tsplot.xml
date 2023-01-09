@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Cancel">キャンセル</entry>
+    <entry key="Detrend">トレンド除去...</entry>
+    <entry key="Filter">フィルター...</entry>
+    <entry key="Interpolate">内挿...</entry>
+    <entry key="OK">OK</entry>
+    <entry key="RemoveMissingData">欠損値の削除...</entry>
+    <entry key="ResampleData">データ リサンプリング...</entry>
+    <entry key="SelectData">データの選択...</entry>
+    <entry key="SelectedAxesContainContinue">選択した Axes には {0} が含まれます。続行しますか?</entry>
+    <entry key="TheNumberOfAxesCannotBeReducedToZero">Axes の数を 0 に減らすことはできません</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+  </message>
+</rsccat>

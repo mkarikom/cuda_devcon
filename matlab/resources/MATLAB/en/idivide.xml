@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="minrhs">Not enough input arguments.</entry>
+    <entry key="InvalidRoundingOption">Unrecognized rounding option.</entry>
+    <entry key="dimagree">Matrix dimensions must agree.</entry>
+    <entry key="OneArgumentMustBeInteger">At least one argument must belong to an integer class.</entry>
+    <entry key="complexInts">Complex integer arithmetic is not supported.</entry>
+    <entry key="mixedClasses">Integers can only be combined with integers of the same class, or scalar doubles.</entry>
+  <entry key="scalarDoubleWith64BitInt">Mixed 64-bit integer and scalar double inputs are not supported. 64-bit integers can only be combined with integers of the same class.</entry>
+  </message>
+</rsccat>

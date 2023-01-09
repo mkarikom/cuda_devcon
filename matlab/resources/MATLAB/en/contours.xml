@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InputsMustBeFull">Input arguments for contours must be full.</entry>
+    <entry key="InputsMustBeReal">Input arguments for contours must be real. Use the function REAL to get the real part of the inputs.</entry>
+    <entry key="InputsMustHaveAtMost2Dimensions">Input arguments for contours must have at most 2 dimensions.</entry>
+    <entry key="XMustBeVectorOrMatrix">X must be a vector or a matrix.</entry>
+    <entry key="YMustBeVectorOrMatrix">Y must be a vector or a matrix.</entry>
+    <entry key="EmptyErrorOutputArgument">The error argument from {0} has been set to the empty matrix.  This will become an error in a future release.</entry>
+    <entry key="DeprecatedErrorOutputArgument">The error output argument from {0} is deprecated. This will no longer be supported in a future release.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidhandle">PLOTTOOLS への 1 番目の入力引数は、有効なハンドルにする必要があります</entry>
+    <entry key="UnsupportedPlatform">プロットツールは、このプラットフォームでサポートされません。</entry>
+    <entry key="DlgPleaseEnterAVariableNameOrAValidMExpression">{0}\n\n変数名または有効な MATLAB 式を入力してください。</entry>
+    <entry key="DlgUnknownDataSource">不明なデータ ソース</entry>
+    <entry key="DlgMATLABError">MATLAB エラー</entry>
+    <entry key="DlgFirstArgumentToPlotExpressionsMustBeAnAxesHandle">plotExpressions の最初の引数は Axes のハンドルでなければなりません。</entry>
+    <entry key="DlgFirstArgumentMustBeAFigureHandle">最初の引数は Figure のハンドルでなければなりません。</entry>
+    <entry key="DlgFirstArgumentToGetBarAreaColorMustBeAFigureHandle">getBarAreaColor の最初の引数は Figure のハンドルでなければなりません。</entry>
+    <entry key="BrowserOverflow">他 {0,number,integer} 件...</entry>
+    <entry key="InvalidPlotToolsState">plottools コマンドの状態が無効です。</entry>
+    <entry key="DlgLayoutNotSupported">TiledChartLayout のチャートでは、対話型のサブプロットの配置はサポートされていません。</entry>
+  </message>
+</rsccat>

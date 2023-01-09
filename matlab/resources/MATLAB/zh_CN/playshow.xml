@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ShowUnspecified">您需要指定要播放的幻灯片，例如: playshow intro</entry>
+    <entry key="unsupportedOption">第二个参数必须为 ''axes''、''smalltext''、''largetext'' 或 ''echo''。</entry>
+    <entry key="FigureSlideshowPlayer">幻灯片播放器</entry>
+    <entry key="NotAValidPLAYSHOWFile">"{0}" 不是有效的 PLAYSHOW 文件。</entry>
+    <entry key="NotOnThePath">"{0}" 未包含在路径中。</entry>
+    <entry key="SlideNumberOfN">第 {0,number,integer} 张幻灯片(共 {1,number,integer} 张)</entry>
+    <entry key="ErrorInSlideshow">\n幻灯片出错。\n{0}\n\n</entry>
+    <entry key="ButtonStart">开始 &gt;&gt;</entry>
+    <entry key="ButtonNext">下一张 &gt;&gt;</entry>
+    <entry key="ButtonReset">重置</entry>
+    <entry key="ButtonViewCode">查看代码</entry>
+    <entry key="ButtonMoreInfo">更多信息</entry>
+    <entry key="PressAnyKeyToContinue">按任意键继续。</entry>
+    <entry key="EndOfDemo">演示结束</entry>
+  </message>
+</rsccat>

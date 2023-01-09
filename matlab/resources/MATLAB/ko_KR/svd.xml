@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="matrixWithNaNInf">입력 행렬은 NaN 또는 Inf 값을 포함해서는 안 됩니다.</entry>
+    <entry key="noSVDsparse">SVD는 희소 행렬을 지원하지 않습니다. SVDS를 사용하여 특이값의 서브셋과 희소 행렬의 벡터를 계산하십시오.</entry>
+    <entry key="repeatedEconomyFlag">Invalid option combination. Use svd(X,''econ'') or svd(X,0) for economy-size decompositions.</entry>
+    <entry key="inputType">첫 번째 입력값은 single형 또는 double형이어야 합니다.</entry>
+    <entry key="svdNoConvergence">SVD가 수렴하지 않았습니다.</entry>
+    <entry key="inputMustBe2D">입력값은 2차원이어야 합니다.</entry>
+    <entry key="invalidOption">Invalid option. Option must be: ''econ'', ''matrix'', or ''vector''.</entry>
+    <entry key="repeatedShapeFlag">Invalid option combination. You can specify ''matrix'' or ''vector'', but not both.</entry>
+  </message>
+</rsccat>

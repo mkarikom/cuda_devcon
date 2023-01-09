@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnsupportedFont">不支持字体 {0}。</entry>
+    <entry key="InterpreterFailed">字符串标量或字符向量必须具备有效的解释器语法: {0}</entry>
+    <entry key="FontFailure">未能使用字体</entry>
+    <entry key="UnconvertableCoordinate">无法转换位置坐标</entry>
+    <entry key="SymbolFontUnsupported">不再支持 Symbol 字体。要显示特殊字符，请使用 TeX 或 LaTeX 标记并将 Text Interpreter 属性设置为 TeX 或 LaTeX。</entry>
+    <entry key="LargeFontSizeWarning">所绘制的文本的字体大小大于系统可显示的字体大小</entry>
+    <entry key="LargeStringLengthException">文本长度可能过长而无法显示。</entry>
+  </message>
+</rsccat>

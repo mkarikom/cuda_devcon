@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DataVariablesArray">只有表输入支持 ''DataVariables'' 参数。</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' 函数句柄必须返回逻辑标量。</entry>
+    <entry key="DataVariablesTableSubscript">''DataVariables'' 值无效。</entry>
+    <entry key="DimensionInvalid">维度必须为 1 或 2。</entry>
+    <entry key="MinNumOutliers">''MinNumOutliers'' 值必须为非负整数。</entry>
+    <entry key="NameValuePairs">输入参数的数目不正确。名称-值参数必须成对出现。</entry>
+    <entry key="NDArrays">不支持 N 维数组。</entry>
+    <entry key="SecondInputString">第二个输入必须是 ''median''、''mean''、''movmedian''、''movmean''、''quartiles''、''grubbs''、''gesd''、''DataVariables''、''MinNumOutliers''、''SamplePoints'' 或 ''ThresholdFactor''。</entry>
+    <entry key="TableDimCodegen">当第一个参数是表时，维度参数必须为常量 1 才能进行代码生成。</entry>
+    <entry key="DatetimeOrDurationWithMovMethod">当 ''SamplePoints'' 的类型为日期时间或持续时间时，代码生成不支持 ''movmean'' 和 ''movmedian'' 方法。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright 2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="MatrixOfValues">Specify multiple values as a vector instead of a matrix.</entry>
+    <entry key="NoValues">Must pass in a value.</entry>
+    <entry key="InvalidParent">Parent must be an axes.</entry>
+    <entry key="DeletedParent">Parent is a deleted graphics object.</entry>
+    <entry key="IgnoredMarker">Marker input is ignored.</entry>
+    <entry key="NaNValue">NaN is not a valid Value.</entry>
+    <entry key="FiniteComplexValue"> 'Value' must be finite and real.</entry>
+    <entry key="InvalidData">Value must be one of the following: 'numeric' | 'datetime' | 'categorical' | 'duration'</entry>
+    <entry key="EmptyInput">Value must be nonempty.</entry>
+    <entry key="LabelsMismatchNumberOfValues">When Values and Labels both contain multiple elements, they must be the same size.</entry>
+  </message>
+</rsccat>

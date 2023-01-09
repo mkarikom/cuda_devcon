@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidCallback">\"{0}\" 为无法识别的回调。</entry>
+    <entry key="NoScrollCount">提供 EventData 结构体时必须指定 VerticalScrollCount。</entry>
+    <entry key="VerticalScrollCountNotScalar">VerticalScrollCount 必须为标量。</entry>
+    <entry key="VerticalScrollCountNotNumeric">VerticalScrollCount 必须为数值(通常为整数)。</entry>
+    <entry key="NoScrollAmount">提供 EventData 结构体时必须指定 VerticalScrollAmount。</entry>
+    <entry key="VerticalScrollAmountNotScalar">VerticalScrollAmount 必须为标量。</entry>
+    <entry key="VerticalScrollAmountNotNumeric">VerticalScrollAmount 必须为数值(通常为正整数)。</entry>
+    <entry key="invalidSelectionType">SelectionType 无效。有效值包括 ''normal''、''open''、''extend'' 和 ''alt''</entry>
+    <entry key="NoSelectionType">提供 EventData 结构体时必须指定 SelectionType。</entry>
+    <entry key="EmptySelectionType">SelectionType 不能为空。</entry>
+    <entry key="MustBeChar">'SelectionType' 值必须为 ''normal''、''extend''、''alt'' 或 ''open''。</entry>
+    <entry key="StringTooLong">SelectionType 无效。有效值包括 ''normal''、''open''、''extend'' 和 ''alt''</entry>
+    <entry key="NoCurrentPixelPoint">提供 EventData 结构体时必须指定 CurrentPixelPoint。</entry>
+    <entry key="EmptyCurrentPixelPoint">CurrentPixelPoint 不能为空。</entry>
+    <entry key="CurrentPixelPointNotNumeric">CurrentPixelPoint 必须为数值。</entry>
+    <entry key="CurrentPixelPointWrongSize">CurrentPixelPoint 应为 1x2 双精度数组(以像素为单位)</entry>
+    <entry key="CurrentPixelPointOverflow">CurrentPixelPoint 太大。</entry>
+    <entry key="KeyNotProvided">提供 EventData 结构体时必须指定 Key。</entry>
+    <entry key="InvalidKey">键值必须为空数组、字符串标量或具有键名称(例如 ''A''、''B''、''return''、''escape'' 等)的字符向量。</entry>
+    <entry key="TabIndexNotScalarNumeric">选项卡索引必须为标量数值。</entry>
+    <entry key="MustBeTabGroup">SelectionChangedFcn 的源对象必须为 uitabgroup。</entry>
+    <entry key="TabIndexOutOfBounds">指定的选项卡索引超出范围。</entry>
+    <entry key="NoIndices">提供 EventData 结构体时必须指定 Indices。</entry>
+    <entry key="EmptyIndices">Indices 不能为空。</entry>
+    <entry key="IndicesNotNumeric">Indices 必须为数值。</entry>
+    <entry key="CellSelectionIndicesWrongSize">索引应为表示有效元胞选项的 nx2 数组</entry>
+    <entry key="CellEditIndicesWrongSize">索引应为表示有效元胞编辑目标的 1x2 数组</entry>
+    <entry key="NoEditData">提供 EventData 结构体时必须指定 EditData。</entry>
+    <entry key="EditDataInvalidType">'EditData' 值必须为字符串标量、字符向量或逻辑值。</entry>
+    <entry key="InvalidObject">HG 对象无效</entry>
+    <entry key="MustBeScalar">HG 对象必须为标量。</entry>
+    <entry key="RootNotSupported">无法将任何内容通过 hgsend 操作发送到根对象。</entry>
+    <entry key="incorrect_usage">hgsend 的第二个输入必须为字符类型</entry>
+    <entry key="invalidEventData">事件数据必须为非空结构体</entry>
+    <entry key="GetError">调用 get 时出现未知错误</entry>
+    <entry key="SetError">调用 set 时出现未知错误</entry>
+    <entry key="componentShouldBeVisible">将 Window 事件发送给组件时，组件必须可见</entry>
+    <entry key="unsupportedCallback">{0} 类型的回调不支持事件数据</entry>
+    <entry key="InvalidVerticalScrollAmount">事件数据必须包含字段 VerticalScrollAmount (整数 - 通常为 1)</entry>
+    <entry key="InvalidVerticalScrollCount">事件数据必须包含字段 VerticalScrollCount (整数 - 通常为 1 或 -1)</entry>
+    <entry key="InvalidModifiers">事件数据必须包含 Modifiers 字段 (空数组、字符串标量或具有以下字符向量的元胞数组: control、shift、alt)</entry>
+    <entry key="InvalidCurrentPixelPoint">事件数据必须包含字段 CurrentPixelPoint (1x2 双精度数组 - 像素单位)</entry>
+    <entry key="UnrecognizedModifier">选项 {0} 无效。将修改键指定为 ''control''、''shift'' 或 ''alt''。</entry>
+    <entry key="ModifierMustBeChar">将修改键指定为 ''control''、''shift'' 或 ''alt''。</entry>
+    <entry key="UnknownEventRecord">初始化事件记录时出错</entry>
+    <entry key="NotHGSendPollable">找不到 java 事件的 isFinished 方法。此事件是否可实现 HGSendPOllable?</entry>
+    <entry key="FigureBeingDestroyed">等待事件回复时图窗被破坏</entry>
+    <entry key="PollingFailure">等待事件回复时超时(10s)</entry>
+    <entry key="NotEventChain">在 HG2 中，qehgsend 仅支持 GBT 对象。与坐标区或坐标区子级交互时，请使用更高级别的 qehgtools (qehgclick、qehgtype、qehgdrag 等)。</entry>
+    <entry key="InvalidHandleArray">传递给 qehgsend 的句柄无效。</entry>
+    <entry key="PropertyNameIsUnrecognised">属性名称无法识别。</entry>
+    <entry key="InvalidPropertyFound">找到无效的属性。</entry>
+    <entry key="IllformedJavaEvent">无法为此组件构造 JavaEvent。</entry>
+    <entry key="UnsupportedJavaEvent">hgsend 的 Java 事件实现不支持指定的事件。</entry>
+  </message>
+</rsccat>

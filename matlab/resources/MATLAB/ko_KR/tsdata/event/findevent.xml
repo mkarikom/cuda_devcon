@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="misname">두 번째 인수는 이벤트 이름이어야 합니다.</entry>
+    <entry key="dups">이름이 동일한 이벤트가 발생하는 N번째 횟수는 정수여야 합니다.</entry>
+  </message>
+</rsccat>

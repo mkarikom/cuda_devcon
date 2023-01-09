@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RHSVectorAllZero">右侧向量均为零，因此 {0}\n返回全部为零的解，而不会进行迭代。</entry>
+    <entry key="InitialGuessHasRelativeWithinTol">初始猜测值具有相对残差 {0}，该残差处于\n所需容差 {1} 内，因此 {2} 返回该残差，而不会进行迭代。</entry>
+    <entry key="ConvergedWithRelativeResidual">{0} 在解的 {1} 处收敛，并且相对残差为 {2}。</entry>
+    <entry key="IterateReturnedHasRelativeResidual">迭代返回的 {0} 的相对残差为 {1}。</entry>
+    <entry key="OuterIteration">外迭代 {0,number,integer} (内迭代 {1,number,integer})</entry>
+    <entry key="NumberIntParen">(数目 {0,number,integer}({1,number,integer}))</entry>
+    <entry key="IterationFloat">迭代 {0}</entry>
+    <entry key="NumberFloat">(数目 {0})</entry>
+    <entry key="IterationInteger">迭代 {0,number,integer}</entry>
+    <entry key="NumberInteger">(数目 {0,number,integer})</entry>
+    <entry key="StoppedScalarTooSmallOrLarge">{0} 在 {1} 停止，而没有收敛到所需容差 {2}，\n这是因为标量太小或太大，以致无法继续计算。</entry>
+    <entry key="StoppedMethodStagnated">{0} 在 {1} 停止，而没有收敛到所需容差 {2}，\n这是因为该方法已停滞。</entry>
+    <entry key="StoppedMaxIterations">{0} 在 {1} 停止，而没有收敛到所需容差 {2}，\n这是因为已达到最大迭代数。</entry>
+    <entry key="StoppedPreconditionerSystemIllCond">{0} 在 {1} 停止，而没有收敛到所需容差 {2}，\n这是因为涉及预条件子的方程组是病态的。</entry>
+    <entry key="StoppedPreconditionerNotSymPosDef">{0} 在 {1} 停止，而没有收敛到所需容差 {2}，\n这是因为预条件子不是对称的正定值。</entry>
+  </message>
+</rsccat>

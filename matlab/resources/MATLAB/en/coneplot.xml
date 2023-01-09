@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ScalarSizeFactor">S must be a scalar.</entry>
+    <entry key="InvalidColorSize">COLOR must be the same size as U.</entry>
+    <entry key="InputSizesMustMatch">X,Y,Z,U,V,W must all be the same size.</entry>
+    <entry key="SizeMismatch">Cx,Cy,Cz must all be the same size.</entry>
+    <entry key="WrongNumberOfInputs">Wrong number of input arguments.</entry>
+  </message>
+</rsccat>

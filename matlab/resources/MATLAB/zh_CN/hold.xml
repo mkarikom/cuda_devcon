@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownOption">命令选项必须为 'on' 或 'off'。</entry>
+    <entry key="CurrentPlotReleased">已发布最新绘图</entry>
+    <entry key="CurrentPlotHeld">已锁定最新绘图</entry>
+    <entry key="InvalidFirstArg">第一个参数必须为坐标区对象。</entry>
+    <entry key="UnsupportedCurrentAxes">不支持将 hold 与 {0} 结合使用。</entry>
+  </message>
+</rsccat>

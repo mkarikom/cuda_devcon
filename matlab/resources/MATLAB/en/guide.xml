@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!--  this resource file is for GUIDE message IDs that are either user visible (error and warning) or are shared among multiple files --> 
+    <!--  User visible IDs below --> 
+    <!-- guide entries -->
+    <entry key="NoSwingSupport">GUIDE cannot be launched because Java Swing is not available.\n{0}</entry>
+    <entry key="InvalidFileExtension">File ''{0}'' does not have a {1} extension.</entry>
+    <entry key="InvalidFileName">File ''{0}'' not found.</entry>
+    <entry key="InvalidFigureHandle">One or more elements are not figure handles.</entry>
+    <entry key="GUIDEWillBeRemovedUseAppDesigner">GUIDE will be removed in a future release. Use APPDESIGNER instead.</entry>
+    <!-- gui_mainfcn entries -->
+    <entry key="StateFieldNotFound">Could not find field ''{0}'' in the gui_State struct in GUI MATLAB-file {1}</entry>
+    <!-- guideopts entries -->
+    <entry key="InvalidSecondArgument">The second input argument must be an options structure or ''edit''</entry>
+    <entry key="TooManyInputs">Too many input arguments</entry>
+    <entry key="UnknownInput">Unrecognized input to GUIDEOPTS</entry>
+    <entry key="UnknownResize">Unknown resize policy: ''{0}''</entry>
+    <!-- guidemfile entries -->
+    <entry key="CodeFileNotFound">MATLAB-code file ''{0}'' does not exist.</entry>
+    <entry key="CodeFileNotWritable">MATLAB-code file ''{0}'' does not exist or is not writable.</entry>
+    <!-- guidefunc entries -->
+    <entry key="ExportWriteFailed">Could not write the export MATLAB-code file.\n{0}</entry>
+    <entry key="CannotMakeDirectory">Could not create the export directory.\n{0}</entry>
+    <!-- entries shared among multiple GUIDE files --> 
+    <entry key="ComponentName" translate="false" note="TranslateFalseBatch;">GUIDE</entry> 
+    <entry key="SaveAsDialogTitle">Save As</entry>
+    <entry key="OpenDialogTitle">Open</entry>
+    <entry key="GuiFileDescription">Figure Files (*.fig)</entry> 
+    <!-- export utility entries -->
+    <entry key="SelectFigFile">Select a GUIDE .fig file</entry>
+    <entry key="InvalidFilePath">The second input argument must be a valid MATLAB file name.</entry>
+  </message>
+</rsccat>

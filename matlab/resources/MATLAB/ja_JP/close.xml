@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WindowNotFound">指定されたウィンドウが存在しません。</entry>
+    <entry key="InvalidFigureHandle">Figure のハンドルが無効です。</entry>
+    <entry key="InvalidValueIgnoreCloseAll">IgnoreCloseAll で認識されない値 - 有効な値は 1 または 2 です</entry>
+    <entry key="UnexpectedInvalidHandle">予期せぬ無効なハンドルが request_close_helper に渡されました</entry>
+    <entry key="UnexpectedValue">予期せぬ値が request_close_helper に渡されました</entry>
+  </message>
+</rsccat>

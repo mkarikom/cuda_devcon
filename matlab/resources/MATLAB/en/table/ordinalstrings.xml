@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2013 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+   <message>
+<!--
+These are ordinal number strings used in error messages thrown by the table class. For example
+      
+      The function 'mean' returned outputs with different numbers of rows when applied to the 17th group of rows in A.
+-->
+<entry key="First" note="The ordinal string 1st, 21st, etc">{0,number,integer}st</entry>
+      <entry key="Second" note="The ordinal string 2nd, 22nd, etc">{0,number,integer}nd</entry>
+      <entry key="Third" note="The ordinal string 3rd, 33rd, etc">{0,number,integer}rd</entry>
+      <entry key="Nth" note="The ordinal string 4th, 10th, etc">{0,number,integer}th</entry>
+   </message>
+</rsccat>

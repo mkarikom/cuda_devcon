@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="vectorization">指定された複数の {0} とパターンは同じ数量でなければなりません。</entry>
+    <entry key="invalidOutputs">''{0}'' オプションのみ一度に指定できます。</entry>
+    <entry key="invalidCompileOption">指定されたコンパイル オプションが無効です。</entry>
+    <entry key="invalidNumericValue">''{0}'' オプションは正のスカラー整数でなければなりません。</entry>
+    <entry key="EvaluationStr">''{0}'' の評価で文字型ベクトルまたはスカラー文字列は生成されませんでした。</entry>
+    <entry key="EvaluationBool">''{0}'' の評価により論理値は生成されませんでした。</entry>
+    <entry key="EvaluationError">''{0}''の評価に失敗しました: \n\n{1}</entry>
+    <entry key="invalidInputs">入力 ''{0}'' は、文字型行ベクトル、文字型行ベクトルのセル配列または文字列配列のいずれかでなければなりません。</entry>
+    <entry key="invalidAdditionalArgInputs">追加引数は、文字型行ベクトルまたはスカラー文字列でなければなりません。</entry>
+    <entry key="invalidAdditionalNumericOrArgInputs">追加引数は、数値、文字型行ベクトルまたはスカラー文字列でなければなりません。</entry>
+    <entry key="invalidCellInputs">すべてのセルは文字型の行ベクトルでなければなりません。</entry>
+    <entry key="invalidOutputCombination">''{0}'' オプションを ''{1}'' オプションと併用することはできません。</entry>
+    <entry key="notEnoughOutputs">''{0}'' オプションに対する出力が十分指定されていません。</entry>
+    <entry key="deprecated">{1} に対する ''{0}'' オプションが既定の動作となっています。</entry>
+    <entry key="invalidOptions">{0} に対する無効なオプション: {1}。</entry>
+    <entry key="InvalidNumberOfInputsForOption">''{0}'' オプションが指定されている場合は、{1} 個の入力引数が必要です。</entry>
+    <entry key="ErrorLiteral">このコンテキストでの文字 ''{0}'' は、文字どおりに扱われます。{1}</entry>
+    <entry key="ErrorEscapedLiteral">このコンテキストでのエスケープ文字 ''{0}'' は、文字どおりに扱われます。{1}</entry>
+    <entry key="ErrorBracedTooLong">中かっこで囲まれた式は長すぎて文字で評価できません。{0}</entry>
+    <entry key="ErrorBracedInvalid">中かっこで囲まれた式は文字で評価されません。{0}</entry>
+    <entry key="ErrorTrailingBackslash">パターン最後にあるバックスラッシュは文字どおりに扱われます。{0}</entry>
+    <entry key="ErrorSetBreaks">文字区切り (''\&lt;'' と ''\&gt;'') は 1 セットで文字どおりに扱われます。{0}</entry>
+    <entry key="ErrorUnboundRange">範囲に境界がありません。{0}</entry>
+    <entry key="ErrorUnmatchedBracket">''['' が一致しません。リテラル ''['' を指定するには ''\\['' を使用してください。{0}</entry>
+    <entry key="ErrorUnmatchedParen">''('' が一致しません。リテラル ''('' を指定するには ''\\('' を使用してください。{0}</entry>
+    <entry key="ErrorUnmatchedCurly">'''{''' が一致しません。リテラル '''{''' を指定するには ''\\'{''' を使用してください。{0}</entry>
+    <entry key="ErrorInvalidNamedBackRef">名前付きのトークンの前方参照が無効です。{0}</entry>
+    <entry key="ErrorInvalidNameCaptured">指定したトークン名が無効です。{0}</entry>
+    <entry key="ErrorNestedNamedToken">入れ子にされたかっこ内での名前付きトークンはサポートされていません。{0}</entry>
+    <entry key="ErrorModeDoubleNegative">モード フラグの否定は一度しか指定できません。{0}</entry>
+    <entry key="ErrorModeRepeated">モード フラグが繰り返されています。{0}</entry>
+    <entry key="ErrorModeUnknown">不明なモードフラグ。{0}</entry>
+    <entry key="ErrorUnknownExtended">不明な拡張正規表現。{0}</entry>
+    <entry key="ErrorEvaluationDisabled">regexpPattern では評価はサポートされていません。{0}</entry>
+    <entry key="ErrorConditonEmpty">if 構文に条件が指定されていません。{0}</entry>
+    <entry key="ErrorConditonInvalid">if 構文で無効な条件が指定されています。{0}</entry>
+    <entry key="ErrorInvalidCurlyQuantifier">'''{}''' 修飾子に無効なパターンが指定されています。{0}</entry>
+    <entry key="ErrorUnknownReplace">不明の置き換えパターンが指定されています。''$'' は文字どおりに扱われます。{0}</entry>
+    <entry key="ErrorInefficientLookBehind">無制限長の後読みアサーションは解決に指数時間を要します。{0}</entry>
+  </message>
+</rsccat>

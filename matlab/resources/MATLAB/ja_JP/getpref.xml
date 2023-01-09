@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="GroupDoesNotExist">グループ {0} は存在しません</entry>
+    <entry key="PrefDoesNotExistInGroup">基本設定 {0} はグループ {1} には存在しません</entry>
+  </message>
+</rsccat>

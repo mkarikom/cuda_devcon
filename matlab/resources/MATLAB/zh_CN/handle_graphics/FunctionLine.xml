@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="IncorrectFunctionInput">第一个参数必须是具有一个或两个函数的元胞数组。</entry>
+    <entry key="TooManyVariables">变量过多。</entry>
+    <entry key="Implicit">{0} 不能设置为隐函数。</entry>
+    <entry key="MeshDensityLabel">计算点数</entry>
+    <entry key="ShowPolesLabel">显示极点的渐近线</entry>
+  </message>
+</rsccat>

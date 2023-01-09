@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="missingValueInputString">最初の引数が欠損値であってはなりません。</entry>
+    <entry key="missingValueStringList">2 番目の引数に欠損値が含まれていてはなりません。</entry>
+    <entry key="invalidStringList">2 番目の引数は文字列の配列または文字ベクトルのセル配列でなければなりません。</entry>
+    <entry key="ambiguousStringChoice">{0} は次の値のいずれか 1 つと一致する必要があります:\n\n{1}\n\n入力 ''{2}'' は複数の有効な値と一致しています。</entry>
+    <entry key="unrecognizedStringChoice3">{0} は次の値のいずれか 1 つと一致する必要があります。\n\n{1}\n\n入力 ''{2}'' は有効な値のいずれとも一致しません。</entry>
+    <entry key="unrecognizedStringChoice2">{0} は次の値のいずれか 1 つと一致する必要があります。\n\n{1}\n\n入力は有効な値のいずれとも一致しません。</entry>
+    <entry key="badFunctionName">3 番目の引数は関数名を指定する string または文字ベクトルか、引数の位置を指定するスカラーの double でなければなりません。</entry>
+    <entry key="badVariableName">4 番目の引数は入力変数名を指定する string または文字ベクトルでなければなりません。</entry>
+  </message>
+</rsccat>

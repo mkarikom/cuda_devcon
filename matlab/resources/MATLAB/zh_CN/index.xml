@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="assignment_to_empty_using_colon">Comma-separated list assignment to an empty variable is not supported when any index is a colon (:). Use explicit indices or initialize the variable with a non-empty value before performing the assignment.</entry>
+    <entry key="assignment_to_uninitialized_using_colon">Comma-separated list assignment to a nonexistent variable is not supported when any index is a colon (:). Use explicit indices or define the variable before performing the assignment.</entry>
+    <entry key="assignmentToTemporary">不支持赋值，因为方法 ''{0}'' 的结果为临时值。</entry>
+    <entry key="badAllocationStrategy">最大阈值必须为 2 的幂。</entry>
+    <entry key="badIndexingContext">第三个参数必须为类 matlab.indexing.IndexingContext 的标量。</entry>
+    <entry key="badListLength">索引操作失败，因为 numArgumentsFromSubscript 未返回非负整数。系统调用了 numArgumentsFromSubscript 来确定索引表达式或语句的输出数目，(亦即索引赋值的预期输入数目)。</entry>
+    <entry key="brace_index">花括号 '''{}''' 索引</entry>
+    <entry key="braceIndexingFailed">类 ''{0}'' 的花括号索引操作失败。</entry>
+    <entry key="cannot_inherit_from_class">如果类继承自 ''{0}''，则它无法从 ''{1}'' 继承。</entry>
+    <entry key="classAttributeNotSupported">Use of the ''{0}'' attribute in class ''{1}'' is not supported.</entry>
+    <entry key="ctransposeNotSupported">The conjugate transpose method is not supported for objects of type ''{0}''.</entry>
+    <entry key="deletedIndexee">无法完成赋值，因为对象或属性已销毁。</entry>
+    <entry key="dot_index">点 ''.'' 索引</entry>
+    <entry key="dotIndexingFailed">类 ''{0}'' 的点索引操作失败。</entry>
+    <entry key="dotParenArgsMustBeStringScalarOrCharacterVector">动态字段或属性名称必须为字符串标量或字符向量。</entry>
+    <entry key="emptyIndexingOperation">Forwarding an empty indexing operation is not supported.</entry>
+    <entry key="expected_one_output_for_assignment">不支持使用简单赋值语句为 {0,number,integer} 个元素赋值。请考虑使用以逗号分隔的列表赋值。</entry>
+    <entry key="expected_one_output_from_expression">点 ''.'' 或花括号 '''{}''' 索引表达式必须生成单一值，但表达式生成了 {0,number,integer} 个值。</entry>
+    <entry key="forwardInvalidIndexing">无法向前执行索引操作。点索引只能跟在括号索引后面。</entry>
+    <entry key="expected_one_output_from_intermediate_indexing">Intermediate {0} produced a comma-separated list with {1,number,integer} values, but it must produce a single value when followed by subsequent indexing operations.</entry>
+    <entry key="expected_one_output_from_reference">A {0} expression produced a comma-separated list with {1,number,integer} values where only a single value is allowed.</entry>
+    <entry key="functionHandleDeleteUnsupported">不支持以索引方式从函数句柄数组中删除元素。</entry>
+    <entry key="forbidDotMethodCallAssignment">''{0}'' 类型的对象不支持点方法调用。</entry>
+    <entry key="forbidDotMethodCallReference">''{0}'' 类型的对象不支持点方法调用。请考虑使用函数调用语法。</entry>
+    <entry key="indexingOperationAssignmentNotSupported">不支持分配给 IndexingOperation 对象。</entry>
+    <entry key="indexingOperationConcatenationNotSupported">不支持串联 IndexingOperation 对象。</entry>
+    <entry key="indexingOperationDeleteRHSMustBeLiteralEmpty">当赋值运算的右侧不是字面空值(''[]'')时，无法向前执行 Type 属性为 ParenDelete 的 IndexingOperation。</entry>
+    <entry key="indexingOperationIndicesNotSupported">仅 Type 属性为 Paren、ParenDelete 或 Brace 的索引操作支持 ''Indices'' 属性。</entry>
+    <entry key="indexingOperationReshapeNotSupported">不支持重构 IndexingOperation 对象。</entry>
+    <entry key="indexingOperationNameNotSupported">仅 Type 属性为 Dot 的索引操作支持 ''Name'' 属性。</entry>
+    <entry key="indexingOperationTransposeNotSupported">Transposing IndexingOperation objects is not supported.</entry>
+    <entry key="intermediateForwarding">Forwarding is not supported in intermediate indexing. Perform forwarding at the end of an indexing expression.</entry>
+    <entry key="invalidBraceListLengthAssignmentContext">braceListLength 必须返回非负整数。调用了 braceListLength 来确定花括号索引赋值的预期输入数目。</entry>
+    <entry key="invalidBraceListLengthReferenceContext">braceListLength 必须返回非负整数。调用了 braceListLength 来确定花括号索引表达式或语句的输出数目。</entry>
+    <entry key="invalidClassAttribute">The class ''{0}'' is invalid because it both inherits from ''{1}'' and has the attribute ''{2}'' set to true. Remove the attribute ''{2}'' from class ''{0}''.</entry>
+    <entry key="invalidDotListLengthAssignmentContext">dotListLength 必须返回非负整数。调用了 dotListLength 来确定点索引赋值的预期输入数目。</entry>
+    <entry key="invalidDotListLengthReferenceContext">dotListLength 必须返回非负整数。调用了 dotListLength 来确定点索引表达式或语句的输出数目。</entry>
+    <entry key="invalidOverloadedIndexing">The class ''{0}'' is invalid because it both inherits from ''{1}'' and defines the method ''{2}''. Remove the definition of ''{2}'' from class ''{0}''.</entry>
+    <entry key="invalidParenListLengthAssignmentContext">parenListLength 必须返回非负整数。调用了 parenListLength 来确定圆括号索引赋值的预期输入数目。</entry>
+    <entry key="invalidParenListLengthReferenceContext">parenListLength 必须返回非负整数。调用了 parenListLength 来确定圆括号索引表达式或语句的输出数目。</entry>
+    <entry key="mustBeIndexingContext">位置 3 处的参数无效。值必须为 matlab.indexing.IndexingContext 类型的标量。</entry>
+    <entry key="mustBeIndexingOperation">位置 2 处的参数无效。值的类型必须为 IndexingOperation。</entry>
+    <entry key="mustBeNonEmptyIndexingOperation">位置 2 处的参数无效。值不能为空。</entry>
+    <entry key="must_inherit_from_class">如果类继承自 ''{0}''，则它必须继承自 ''{1}''。</entry>
+    <entry key="parenDotAssignmentNotSupported">''{0}'' 类不支持以圆括号开头的复合索引赋值。</entry>
+    <entry key="parenDotAssignmentRequiresRedefinesParen">为了支持以圆括号开头的复合索引赋值，类 ''{0}'' 必须从 'matlab.mixin.indexing.Redefinesparen' 继承。</entry>
+    <entry key="parenthesesIndexingFailed">类 ''{0}'' 的圆括号索引操作失败。</entry>
+    <entry key="propertiesSupportedForSomeElementsOnly">仅某些元素支持这些属性</entry>
+    <entry key="reshapeNotSupported">The reshape method is not supported for objects of type ''{0}''.</entry>
+    <entry key="subsasgnForHandleMustReturnOriginal">句柄对象的重载 subsasgn 必须返回原始句柄对象。</entry>
+    <entry key="transposeNotSupported">The transpose method is not supported for objects of type ''{0}''.</entry>
+    <entry key="UnableToConvertWithCause">Unable to perform assignment because value of type ''{0}'' is not convertible to ''{1}''.</entry>
+    <entry key="indexingOperationConversion">An indexing operation object was unexpectedly converted.</entry>
+  </message>
+</rsccat>

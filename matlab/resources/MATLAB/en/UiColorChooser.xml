@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidTitle" note="stringDatatypeUpdate">Title must be a character vector</entry>
+    <entry key="InvalidRGBRange">[r g b] values must be between 0 and 1]</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="InvalidColorType">Color set must be of type numeric</entry>
+    <entry key="InvalidColorDimension">Color dimensions are incorrect</entry>
+  </message>
+</rsccat>

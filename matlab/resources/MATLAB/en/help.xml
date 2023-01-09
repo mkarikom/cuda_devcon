@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="DefaultPropertyHelp">{0} is a property.\n</entry>
+      <entry key="DefaultEventHelp">{0} is an event.\n</entry>
+      <entry key="DefaultEnumerationHelp">{0} is an enumeration.\n</entry>
+      <entry key="DefaultScriptHelp">{0} is a script.\n</entry>
+      <entry key="DefaultFunctionHelp">{0} is a function.\n    {1}\n</entry>
+      <entry key="DefaultNoArgFunctionHelp">{0} is a function.\n</entry>
+      <entry key="DefaultLocalFunctionHelp">{0} is a local function.\n    {1}\n</entry>
+      <entry key="DefaultNoArgLocalFunctionHelp">{0} is a local function.\n</entry>
+      <entry key="DefaultClassHelp">{0} is a class.\n</entry>
+      <entry key="DefaultFullConstructorHelp">{0} is a constructor.\n    {1}\n</entry>
+      <entry key="DefaultConstructorHelp">{0} is a class.\n    {1}\n</entry>
+      <entry key="DefaultFolderHelp">{0} is a folder.\n</entry>
+      <entry key="DefaultPackageHelp">{0} is a package.\n</entry>
+      <entry key="DefaultBuiltinHelp">{0} is an undocumented builtin {1}.\n</entry>
+      <entry key="DefaultMatfileHelp">{0} is a MAT-File.</entry>
+      <entry key="DefaultMexHelp">{0} is a MEX-file.\n</entry>
+      <entry key="DefaultPHelp">{0} is a P-Code File.\n</entry>
+      <entry key="DefaultSLXHelp">{0} is a Simulink {1}.\n</entry>
+      <entry key="DefaultNoSLXHelp">{0} is a Simulink model or library file.\n</entry>
+      <entry key="DefaultInvalidFileHelp">{0} is not a valid MATLAB file.\n</entry>
+      <entry key="InputIsA">    Input is a value of type {0}.\n</entry>
+      <entry key="InstanceIsA">    {0} is a variable of type {1}.\n</entry>
+      <entry key="TooManyCommands">Only one command option may be specified</entry>
+      <entry key="TooManyInputsWithLinks">Help only supports searching for one topic\n\nUse the Help browser search field to &lt;a href="matlab:{0}"&gt;search the documentation&lt;/a&gt;.</entry>
+      <entry key="TooManyInputsNoLinks">Help only supports searching for one topic\n\nUse the Help browser search field to search the documentation.</entry>
+      <entry key="HelpForBanner">--- help for {0} ---\n\n</entry>
+      <entry key="HelpForTypoBanner">--- {0} not found. Showing help for {1} instead. ---\n\n</entry>
+      <entry key="IsBothBanner">\n\n{0} is both a directory and a function.\n\n</entry>
+      <entry key="MatfileBanner">{0} is a MAT-File.\n\nContaining variables:\n\n</entry>
+      <entry key="MethodsBanner">{0} methods:\n\n</entry>
+      <entry key="ContentsBanner">Contents of {0}:\n\n</entry>
+      <entry key="PackageBanner">Contents of {0} package:\n\n</entry>
+      <entry key="HelpTopics">HELP topics:\n\n</entry>
+      <entry key="MustBeSingleString">String input must be scalar.</entry>
+      <entry key="MustBeCharVector">Char input must be a vector.</entry>
+   </message>
+</rsccat>

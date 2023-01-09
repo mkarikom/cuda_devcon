@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="XYSizeMismatch" context="error">最初の 2 つの入力は要素数が同じでなければなりません。</entry>
+    <entry key="PolyNotUnique">多項式は固有ではありません; 次数 &gt;= データ点の数。</entry>
+    <entry key="RepeatedPoints">多項式の条件が不適切です。異なる X 値をもつ点を追加するか、多項式の次数を減らしてください。</entry>
+    <entry key="RepeatedPointsOrRescale">多項式の条件が不適切です。異なる点をもつ X の値を追加するか、多項式の次数を減らすか、HELP POLYFIT で説明するように、データのセンタリングとスケーリングを試してください。</entry>
+  </message>
+</rsccat>

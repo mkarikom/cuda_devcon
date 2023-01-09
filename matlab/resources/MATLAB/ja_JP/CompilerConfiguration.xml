@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidList">2 番目の入力 LIST は、文字ベクトル ''Selected''、''Installed'' または ''Supported'' でなければなりません。</entry>
+    <entry key="NoSelectedOptionsFile">''選択されている'' コンパイラが見つかりません。mex -setup を実行する必要があります。</entry>
+    <entry key="invalidLang">最初の入力は、サポートされている言語の文字ベクトル ''C''、''CPP''、''C++''、''Fortran''、''Any'' のいずれかでなければなりません。</entry>
+    <entry key="OldStyleStorage">使われているストレージ タイプは古いスタイルです。以下のファイルは期限が切れています:\n{0}</entry>
+    <entry key="storageTooNew">使われているストレージ タイプは、現在サポートされているバージョンより新しいです。以下のファイルのストレージ バージョンと一致しません:\n{0}</entry>
+  </message>
+</rsccat>

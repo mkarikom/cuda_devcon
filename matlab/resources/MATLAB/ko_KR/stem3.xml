@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownOption">"{0}"은(는) 알 수 없는 옵션입니다.</entry>
+    <entry key="InvalidDataInputs">숫자형 입력 인수의 개수가 올바르지 않습니다. Z 입력 인수를 지정하거나 X, Y, Z 입력 인수를 지정하십시오.</entry>
+    <entry key="ZDataSizeMismatch">ZData must be the same size as XData.</entry>
+  </message>
+</rsccat>

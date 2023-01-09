@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFunction">最初の入力は関数ハンドルでなければなりません。</entry>
+    <entry key="InvalidGroupNums">グループ番号は正の整数のベクトルでなければならず、スパース ベクトルにすることはできません。</entry>
+    <entry key="RowMismatch">データ変数とグループ番号のベクトルは同じ行数でなければなりません。グループ番号のベクトルが {0,number,integer} 行で、データ変数 {1,number,integer} が {2,number,integer} 行になっています。</entry>
+    <entry key="ColumnMismatch">データ変数とグループ番号のベクトルは同じ列数でなければなりません。グループ番号のベクトルが {0,number,integer} 列で、データ変数 {1,number,integer} が {2,number,integer} 列になっています。</entry>
+    <entry key="FunFailed">関数 ''{0}'' を {1}のグループのデータに適用した際に、次のエラーが発生しました。\n\n{2}</entry>
+    <entry key="OutputNotUniform">関数 ''{0}'' は、{1}のグループのデータに適用した際に、非スカラーの値を返しました。\n\nグループごとに非スカラー値を計算するには、無名関数を作成して各値をスカラー セルで返してください: \n\n\t{2} </entry>
+    <entry key="MissingGroupNums">N 個のグループの場合、1 から N までのすべての整数がグループ番号のベクトルに 1 回以上出現しなければなりません。</entry>
+  </message>
+</rsccat>

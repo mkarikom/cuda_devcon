@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DesktopRequired">데스크탑 없이 내역을 이용할 수 없습니다.</entry>
+    <entry key="LastLineRemoved">The last line from the history cannot be used in a script because it was an error.</entry>
+    <entry key="LineRemoved">Line {0} from the history cannot be used in a script because it was an error.</entry>
+    <entry key="LineTooHigh">Specified line {0} cannot be used because there are only {1} lines in the history.</entry>
+    <entry key="VariableNotFound">내역에서 변수 ''{0}''을(를) 찾을 수 없습니다.</entry>
+  </message>
+</rsccat>

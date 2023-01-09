@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidTarget">ターゲットは Figure または座標軸でなければなりません。</entry>
+    <entry key="InvalidColorString">''{0}'' は有効なカラー指定ではありません。</entry>
+    <entry key="InvalidColors">カラーは、RGB 3 成分からなる 3 列の行列、キーワード 'default'、文字ベクトルの cell 配列、または string 配列でなければなりません。</entry>
+    <entry key="DeletedTarget">ターゲット オブジェクトは削除されています。</entry>
+  </message>
+</rsccat>

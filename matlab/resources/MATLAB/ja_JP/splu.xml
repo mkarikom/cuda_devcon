@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="incUoneZeroDiagReplacedByDroptol">不完全な上三角因子によって、1 個の 0 の対角要素が局所的な棄却許容誤差で置き換えられました。反復法に対応する適切な前提条件子にならない可能性があります。</entry>
+    <entry key="incUzeroDiagsReplacedByDroptol">不完全な上三角因子によって、{0,number,integer} 個の 0 の対角要素が局地的な棄却許容誤差で置き換えられました。反復法に対応する適切な前提条件子にならない可能性があります。</entry>
+    <entry key="incUhas1zeroDiag">不完全な上三角因子は 1 個の 0 の対角要素をもちます。反復法に対応する前提条件子として使用できません。</entry>
+    <entry key="incUhasZeroDiags">不完全な上三角因子は {0,number,integer} 個の 0 の対角要素をもちます。反復法に対応する前提条件子として使用できません。</entry>
+  </message>
+</rsccat>

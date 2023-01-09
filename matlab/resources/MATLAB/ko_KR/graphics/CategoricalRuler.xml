@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Limits">값은 눈금자의 Categories 속성을 기준으로 정렬되고, 증가하거나 같은 categorical형 값으로 구성된, 요소를 2개 가진 벡터여야 합니다.</entry>
+    <entry key="Ticks">값은 눈금자의 Categories 속성을 기준으로 정렬되고, 증가하는 categorical형 값으로 구성된 벡터여야 합니다.</entry>
+    <entry key="Categories">값은 고유한 범주로 구성된 categorical형 벡터여야 합니다.</entry>
+    <entry key="NonNumericType">변환할 값은 숫자형 배열이거나 categorical형 배열이어야 합니다.</entry>
+    <entry key="OrdinalDataNonOrdinalRuler">순서형 데이터는 좌표축의 비순서형 범주로 변환되어야 합니다.</entry>
+    <entry key="OrdinalRulerNonOrdinalData">비순서형 데이터는 좌표축의 순서형 범주로 변환되어야 합니다.</entry>
+    <entry key="OrdinalMismatch">순서형 범주는 좌표축의 범주와 호환되어야 합니다.</entry>
+  </message>
+</rsccat>

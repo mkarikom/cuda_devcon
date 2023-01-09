@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnsupportedClass">값을 쓸 수 없음: {0}은(는) 지원되지 않는 클래스임</entry>
+    <entry key="UnsupportedAttribute">값을 쓸 수 없음: 희소 배열은 지원되지 않습니다.</entry>
+    <entry key="UnsupportedString">값을 쓸 수 없음: 비 스칼라 문자열은 쓸 수 없습니다.</entry>
+  </message>
+</rsccat>

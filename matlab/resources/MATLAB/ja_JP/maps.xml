@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DefaultAttribution">タイル提供: %s</entry>
+    <entry key="ExpectedNonwhitespace">少なくとも空白以外の 1 文字を含む入力が必要です。</entry>
+    <entry key="InvalidBasemapName">有効な変数名として評価される入力が必要です。</entry>
+    <entry key="NoBasemapsExist">削除するベースマップがありません。</entry>
+    <entry key="UnableToReadMapTiles">URL ''{0}'' からマップ タイルを読み取ることができません。{1}</entry>
+    <entry key="CertificateFailedVerification">このサーバー証明書は検証に失敗しました。証明書のドメイン名 "{0}" がホスト "{1}" のドメイン名と一致しません。</entry>
+    <entry key="CertificateFileNotFound">証明書ファイル ({0}) が見つからないか、編集用に開けませんでした。options.CertificateFilename の値を確認してください。</entry>
+    <entry key="StatusError">URL {2} への要求に対して、サーバーからステータス {0,number,integer}、メッセージ "{1}" が返されました。</entry>
+    <entry key="ConnectionFailed">URL ''{0}'' からのコンテンツのダウンロード中にエラーが発生しました。ネットワークの接続が停止しているか、不適切なプロキシが設定されている可能性があります。</entry>
+    <entry key="CopyContentToDataStreamError">URL ''{1}'' との通信中にエラー "{0}" が発生しました。</entry>
+    <entry key="FileNotFound">URL ''{0}'' のサーバーはこの要求を満たすリソースを検出しませんでした。</entry>
+    <entry key="InternalErrorGeneratedFileMissing">内部エラー: 生成された {0} または {1} が見つかりませんでした</entry>
+    <entry key="InternalErrorType">内部エラー: 予期しないタイプ {0} のオブジェクトが、タイプ {1} のフィールドに返されました。</entry>
+    <entry key="InvalidFilename">出力ファイル ''{0}'' を開いて書き込むことができません。一般的な理由として、ファイルが存在しているが書き込み権限がない、あるいはフォルダに書き込み権限がないなどがあります。</entry>
+    <entry key="MalformedURL">無効な URL: ''{0}''。</entry>
+    <entry key="OperationTerminatedByUser">Web サービス操作は、URL ''{0}'' にアクセス中にユーザーによって停止されました。</entry>
+    <entry key="SSLConnectionNoFile">"{0}" への安全な接続を確立できませんでした。原因は "{1}" です。サーバーで HTTPS 接続が許可されていない可能性があります。</entry>
+    <entry key="Timeout">URL ''{0}'' への接続が {1} 秒後にタイム アウトしました。{2} をより高い値に設定してください。</entry>
+    <entry key="UnknownHost">サーバーにアクセスできませんでした。{0}。</entry>
+    <entry key="InternalError">Internal error: {0}.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonTable">最初の引数はテーブルでなければなりません。</entry>
+    <entry key="NoTimeVarFound">入力の table は、行時間の datetime ベクトルまたは duration ベクトルを含まなければなりません。</entry>
+    <entry key="IncorrectNumberOfRowTimes">行時間は、入力の timetable の各行に 1 つの時間を指定する datetime ベクトルまたは duration ベクトルでなければなりません。</entry>
+    <entry key="InvalidRowTimes">行時間は、変数名または変数インデックスとして指定するか、datetime ベクトルまたは duration ベクトルとして指定しなければなりません。</entry>
+    <entry key="VariableNamesNotAccepted">''VariableNames'' は、有効な引数ではありません。</entry>
+  </message>
+</rsccat>

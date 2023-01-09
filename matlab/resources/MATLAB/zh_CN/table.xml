@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FunAsVariable">表变量不能为函数句柄。请使用元胞数组来包含函数句柄。</entry>
+    <entry key="UnequalFieldLengths">标量结构体中的字段必须具有相同的行数。</entry>
+    <entry key="UnequalVarLengths">所有表变量必须具有相同的行数。</entry>
+    <entry key="StringParamNameNotSupported">您可能打算使用 "{0}" 指定参数名称。但是，表构造函数要求必须将参数名称指定为字符向量。请改用 table(..., ''{0}'', Value)。</entry>
+    <entry key="ConstructingFromCharRowData">您可能打算创建一个单行表，将字符向量 ''{0}'' 作为其变量之一。要在表中存储文本数据，请使用字符串数组或字符向量元胞数组，而不是使用字符数组。再者，还可以创建一个含有一行的元胞数组，并使用 CELL2TABLE 将其转化为表格。</entry>
+    <entry key="UndefinedFunction">未定义与 ''{1}'' 类型的输入参数相对应的函数 ''{0}''。</entry>
+    <entry key="InvalidNumericConversion">未定义与 ''{1}'' 类型的输入参数相对应的函数 ''{0}''。要转换为数值，请使用 TABLE2ARRAY 函数，或者使用圆点或花括号下标提取数据。</entry>
+    <entry key="UndefinedLengthFunction">未定义与 ''{0}'' 类型的输入参数相对应的函数 ''LENGTH''。请改用 height、width 或 size 函数。</entry>
+    <entry key="UndefinedSortFunction">未定义与 ''{0}'' 类型的输入参数相对应的函数 ''SORT''。请改用 SORTROWS 函数。</entry>
+    <entry key="UndefinedCellFunction">未定义与 ''{0}'' 类型的输入参数相对应的 ''CELL'' 函数。请改用 TABLE2CELL 函数。</entry>
+    <entry key="UndefinedStructFunction">未定义与 ''{0}'' 类型的输入参数相对应的 ''STRUCT'' 函数。请改用 TABLE2STRUCT 函数。</entry>
+    <entry key="UndefinedTransposeFunction">未定义与 ''{1}'' 类型的输入参数相对应的函数 ''{0}''。请改用 ROWS2VARS 函数。</entry>
+    <entry key="VarEditorIndexOverflow">必须将数据添加到紧邻现有变量右侧的表中。新的表变量将会添加到下一个可用列中。</entry>
+    <entry key="NoPlotMethod">表和时间表没有绘图方法。要绘制表或时间表，请使用 &lt;a href="matlab:helpview(fullfile(docroot,'matlab','ref','stackedplot.html'))"&gt;stackedplot&lt;/a&gt; 函数。或者，使用圆点或花括号下标提取表或时间表变量，然后将变量作为输入参数传递给 plot 函数。</entry>
+    <entry key="IncompatibleLoad">无法加载已保存的表，因为它与此版本的 MATLAB 不兼容</entry>
+    <entry key="IncompatibleLoadProperties">无法加载已保存的 TableProperties，因为它与此版本的 MATLAB 不兼容</entry>
+    <entry key="ObjectConstructorFailed">在没有任何输入的情况下调用 ''{0}'' 构造函数以创建默认值时，该构造函数会返回一个错误。</entry>
+    <entry key="AssignmentDimensionMismatch">无法为表变量 ''{0}'' 执行赋值，因为它左侧的大小是 {1}，而右侧对应变量的大小是 {2}。</entry>
+    <entry key="CharAssignFromCellRHS">仅当右侧的值为表时，才支持为表中的字符变量赋值。请考虑对表中的文本数据使用字符串变量。</entry>
+    <entry key="RowsAddedExistingVars">赋值时将各行添加到了表格中，但并未对表格中所有现有的变量赋值。这些变量会通过包含默认值的行进行扩展。</entry>
+    <entry key="RowsAddedNewVars">即将添加到表格中的新变量的行数比表格少。这些变量已通过含有默认值的行进行了扩展。</entry>
+    <entry key="IllegalPropertyReference">请使用圆点下标通过 .Properties.{0} 访问表的 ''{0}'' 属性。</entry>
+    <entry key="IllegalPropertyReferenceCase">无法识别表变量名称 ''{0}''。您可能打算访问 ''{1}'' 属性。请使用圆点下标通过 .Properties.{1} 访问该属性。</entry>
+    <entry key="UnknownPropertyCase">无法识别表属性名称 ''{0}''。属性名称区分大小写。您可能打算访问 ''{1}'' 属性。</entry>
+    <entry key="IllegalVarSubscript">表变量名称必须为字符串或字符向量。</entry>
+    <entry key="IllegalVarIndex">变量索引必须为正实整数。</entry>
+    <entry key="NestedSubscriptingWithDotVariables">不支持将 ''.{0}'' 与多级下标结合使用。请直接对表改用花括号下标。</entry>
+    <entry key="NestedSubscriptingWithDotRowsDeletion">不支持将 ''.{0}'' 与多级下标结合使用来删除表中的行。请改为直接对表使用圆括号下标。</entry>
+    <entry key="InvalidEmptyAssignment">当您通过分配 [] 来删除行或变量时，至少有一个下标必须为 '':''。</entry>
+    <entry key="EmptyAssignmentToSubarrayVar">不支持通过将 [] 赋给表的子数组来删除表中的变量。请改用 T(:,VAR) = [] 或 T.VAR = []。</entry>
+    <entry key="InvalidLinearIndexing">仅当表变量包含一列时，才支持使用行标签对该变量进行线性索引。</entry>
+    <entry key="PropertiesAssignmentToSubarray">不支持对表的子数组的 .Properties 赋值。请改用 T.PROPERTIES.PROPERTYNAME = VALUE 或 T.PROPERTIES = PROPERTYVALUES。</entry>
+    <entry key="InvalidPropertiesAssignment">赋给 .Properties 的值必须为 {0} 对象或字段与 {1} 属性相对应的标量结构体。</entry>
+    <entry key="InvalidPropertyAssignment">请使用圆点下标通过 .Properties.{0} 为表的 ''{0}'' 属性赋值。</entry>
+    <entry key="InvalidRHS">对某个表赋值的右侧必须为另一个表或元胞数组。</entry>
+    <entry key="InvalidSubscriptExpr">() 索引必须显示在表索引表达式的最后。</entry>
+    <entry key="InvalidContentsReshape">使用 '{}' 下标(后跟更深级别的下标)对一个或多个表变量的内容赋值无法更改这些内容的大小。</entry>
+    <entry key="InvalidExpansion">不支持通过赋值(其中 () 或 '{}' 下标后跟其他级别的下标)将行或变量添加到表中。</entry>
+    <entry key="InvalidExpansionDot">不支持通过对变量的字段或属性赋值在表中创建新变量。</entry>
+    <entry key="InvalidExpansionDotSuggest">不支持通过对变量的字段或属性赋值在表中创建新变量。{0}</entry>
+    <entry key="InvalidExpansionDotDepth">您不能通过赋值(其中圆点下标后跟多级下标)在表中创建新变量。</entry>
+    <entry key="InvalidExpansionDotDepthSuggest">不支持通过赋值(其中圆点下标后跟多级下标)在表中创建新变量。{0}</entry>
+    <entry key="IntendedPropertiesAssignment">您可能打算对表的属性进行赋值。请使用 ''.Properties'' 执行该操作。</entry>
+    <entry key="IntendedPropertyAssignment">您可能打算对表的 ''{0}'' 属性进行赋值。请使用 ''.Properties.{0}'' 执行该操作。</entry>
+    <entry key="IntendedVarAssignment">您可能打算为 ''{0}'' 表变量赋值。</entry>
+    <entry key="IntendedRowDimAssignment">您可能打算用 ''{0}'' 为行名称赋值。</entry>
+    <entry key="NDCell">表的赋值运算右侧的元胞数组必须为二维。</entry>
+    <entry key="NDSubscript">不支持使用三个或更多下标(如在 t(i,j,k) 中)对表进行索引。请始终指定一个行下标和一个变量下标，如 t(rows,vars)。</entry>
+    <entry key="LinearSubscript">Subscripting into a table using one subscript (as in t(i)) is not supported. Specify a row subscript and a variable subscript, as in t(rows,vars). To select variables, use t(:,i) or for one variable t.(i). To select rows, use t(i,:).</entry>
+    <entry key="RowDimensionMismatch">要赋给表中的变量或在表中创建变量，行数必须与表的高度匹配。</entry>
+    <entry key="RowDimensionMismatchSuggest">要赋给表中的变量或在表中创建变量，行数必须与表的高度匹配。 {0}</entry>
+    <entry key="EmptyAssignmentToVariableRows">使用索引赋值删除表变量中的元素时，不能更改行数。请将第一个下标指定为冒号(':')，并仅指定一个非冒号的其他下标。</entry>
+    <entry key="TooManyOutputs">输出太多。</entry>
+    <entry key="VarDimensionMismatch">赋值中的表变量数目必须匹配。</entry>
+    <entry key="WrongNumberRHSCols">赋值右侧的值的宽度错误。赋值需要宽度为 {0,number,integer} 的值。</entry>
+    <entry key="WrongSizeRHS">赋值右侧的值在所有维度上都必须与左侧的值具有相同大小。</entry>
+    <entry key="IllegalDotMethod">无法识别表变量名称 ''{0}''。如果您打算调用 {1} 方法，则必须使用函数语法，例如 {1}(t,...)。有关详细信息，请参阅&lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;方法调用&lt;/a&gt;。</entry>
+    <entry key="IllegalDotMethodNoCorrection">无法识别表变量名称 ''{0}''。如果您打算调用 {1} 方法，则必须使用函数语法。有关详细信息，请参阅&lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;方法调用&lt;/a&gt;。</entry>
+    <entry key="BracesAssignDelete">赋值右侧的值必须包含 {0,number,integer} 列。如果您要通过赋 [] 来删除行或变量，请使用 () 下标索引而非 '{}'。</entry>
+    <entry key="CannotRemoveVarNames">不支持从表中删除变量名称。</entry>
+    <entry key="CannotRemoveDimNames">不支持从表中删除维度名称。</entry>
+    <entry key="RowDimNameNondefault">无法识别表变量名称 ''{0}''。如果您想访问行名称，请对该表改用 ''{1}''。 </entry>
+    <entry key="VariablesDimNameNondefault">无法识别表变量名称 ''{0}''。如果您想访问变量，请对该表改用 ''{1}''。 </entry>
+    <entry key="RowDimNameCase">无法识别表变量名称 ''{0}''。名称区分大小写。您可能想访问表中名称为 ''{1}'' 的行。</entry>
+    <entry key="VariablesDimNameCase">无法识别表变量名称 ''{0}''。名称区分大小写。您可能打算使用 ''{1}'' 以数组形式访问整个表的目录。</entry>
+    <entry key="TooManyOutputsBracesIndexing">输出参数太多。使用花括号对表和时间表进行索引将返回一个数组。有关详细信息，请参阅&lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','access-data-in-a-table.html'))"&gt;访问表中的数据&lt;/a&gt;。</entry>
+    <entry key="ReservedVarnameColon">':' 不是有效的变量名称，因为 ':' 被保留为数组下标。</entry>
+    <entry key="DuplicateDimNames">重复的表维度名称: ''{0}''。</entry>
+    <entry key="DuplicateRowNames">重复的表行名称: ''{0}''。</entry>
+    <entry key="DuplicateVarNames">重复的表变量名称: ''{0}''。</entry>
+    <entry key="ReservedVarNameConflict">表变量名称与保留名称 ''{0}'' 冲突。</entry>
+    <entry key="ReservedDimNameConflict">表维度名称与保留名称 ''{0}'' 冲突。</entry>
+    <entry key="ReservedRowNameConflict">表行名称不能为 ''{0}''。它被保留为表下标。</entry>
+    <entry key="ExtractDataDimensionMismatch">所有表变量都必须具有相同的维数。</entry>
+    <entry key="ExtractDataSizeMismatch">所有表变量都必须具有相同的长度，但第二个维度除外。</entry>
+    <entry key="ExtractDataCatError">无法串联指定的表变量。</entry>
+    <entry key="ExtractDataIncompatibleTypeError">无法串联表变量 ''{0}'' 和 ''{1}''，因为这两个变量的类型为 {2} 和 {3}。</entry>
+    <entry key="InvalidSubscript">下标结构无效。</entry>
+    <entry key="UnrecognizedCustomProperty">无法识别自定义表属性名称 ''{0}''。</entry>
+    <entry key="InvalidDimName">A table dimension name subscript must be a character vector, string array, or cell array of character vectors, with each name in the subscript containing one or more characters.</entry>
+    <entry key="InvalidDimSubscript">表维度下标必须为包含正实整数的数值数组、逻辑数组、字符向量、字符串数组或字符向量元胞数组。</entry>
+    <entry key="DimIndexOutOfRange">维度索引超出了表维数。</entry>
+    <entry key="UnrecognizedDimName">无法识别表维度名称 ''{0}''。</entry>
+    <entry key="InvalidRowName">表行名称下标必须为字符向量、字符串数组或字符向量元胞数组。</entry>
+    <entry key="InvalidRowSubscript">表行下标必须为包含正实整数的数值数组、逻辑数组、字符向量、字符串数组或字符向量元胞数组。</entry>
+    <entry key="RowIndexOutOfRange">行索引超出了表维度。</entry>
+    <entry key="UnrecognizedRowName">无法识别表行名称 ''{0}''。</entry>
+    <entry key="DiscontiguousVars">无法创建具有不连续的索引的表变量。</entry>
+    <entry key="InvalidVarName">表变量名称下标必须为字符向量、字符串数组或字符向量元胞数组，下标中的每个名称都包含一个或多个字符。</entry>
+    <entry key="InvalidVarSubscript">表变量下标必须为包含正实整数的数值数组、逻辑数组、字符向量、字符串数组或字符向量元胞数组。</entry>
+    <entry key="UnrecognizedVarName">无法识别表变量名称 ''{0}''。</entry>
+    <entry key="UnrecognizedVarNameDeleting">无法从表中删除 ''{0}''，因为它不存在。将字面值 [] 赋给表中的变量会删除该变量。要在表中使用值 [] 创建新变量，请使用 T.{0} = zeros(0) 或将第一个值赋给临时工作区变量。</entry>
+    <entry key="UnrecognizedVarNamePropertiesCase">无法识别表变量名称 ''{0}''。要访问表格属性，请使用 '.Properties'。</entry>
+    <entry key="UnrecognizedVarNameCase">无法识别表变量名称 ''{0}''。变量名称区分大小写。您可能打算访问 ''{1}'' 变量。</entry>
+    <entry key="VarIndexOutOfRange">变量索引超出了表维度。</entry>
+    <entry key="NoRowLabels">无法使用行名称作为分组或键变量，因为输入表没有行名称。</entry>
+    <entry key="AmbiguousProperty">表属性名称具有多义性: {0}。</entry>
+    <entry key="InvalidPropertyName">表属性名称无效。</entry>
+    <entry key="UnknownProperty">表属性 {0} 未知。</entry>
+    <entry key="ReplaceDataHorzcatError">无法水平串联指定的表变量。</entry>
+    <entry key="ReplaceDataFunOutputSizeMismatch">FUN 必须生成与其输入数组具有相同行数和列数的数组。</entry>
+    <entry key="ReplaceDataDataRowSizeMismatch">替换数据必须与表具有相同的行数。</entry>
+    <entry key="ReplaceDataDataColSizeMismatch">表中被替换的变量必须与替换数据具有相同的总列数。</entry>
+    <entry key="ReplaceDataFunError">计算函数 ''{0}'' 时出错。</entry>
+    <entry key="InvalidLogicalVal">''{0}'' 参数必须为逻辑值 1 (true) 或逻辑值 0 (false)。</entry>
+    <entry key="InvalidDescription">Description 属性必须为字符串或字符向量。</entry>
+    <entry key="InvalidDimNames">DimensionNames 属性必须为字符串数组或元胞数组，每个名称都包含一个或多个字符。</entry>
+    <entry key="IncorrectNumberOfDimNames">对于表中的每个维度，DimensionNames 属性必须包含一个名称。</entry>
+    <entry key="IncorrectNumberOfDimNamesPartial">对于要重命名的每个维度，DimensionNames 属性都必须包含一个名称。</entry>
+    <entry key="IncorrectNumberOfRowNames">对于表中的每一行，RowNames 属性必须包含一个名称。</entry>
+    <entry key="IncorrectNumberOfRowNamesPartial">对于要重命名的每一行，RowNames 属性必须包含一个名称。</entry>
+    <entry key="InvalidRowNames">RowNames 属性必须为字符串数组或元胞数组，每个名称都包含一个或多个字符。</entry>
+    <entry key="InvalidUnits">VariableUnits 属性必须为字符串数组或字符向量元胞数组。</entry>
+    <entry key="IncorrectNumberOfUnits">对于表中的每个变量，VariableUnits 属性必须具有一个与之对应的元素。</entry>
+    <entry key="InvalidContinuityAssignment">要赋给 VariableContinuity 属性，请使用字符串数组、由字符向量组成的元胞向量或 matlab.tabular.Continuity 向量。</entry>
+    <entry key="InvalidContinuityFullAssignment">要赋给 VariableContinuity 属性，请使用字符串数组、由字符向量组成的元胞向量或 matlab.tabular.Continuity 向量。字符向量只能赋给该属性的单个元素。</entry>
+    <entry key="IncorrectNumberOfContinuity">对于表中的每个变量，VariableContinuity 属性必须具有一个与之对应的元素。</entry>
+    <entry key="InvalidContinuityValue">VariableContinuity 属性必须使用 ''continuous''、''step''、''event'' 或 ''unset'' 进行指定。</entry>
+    <entry key="InvalidVarDescr">VariableDescriptions 属性必须为字符串数组或字符向量元胞数组。</entry>
+    <entry key="IncorrectNumberOfVarDescrs">对于表中的每个变量，VariableDescriptions 属性必须具有一个与之对应的元素。</entry>
+    <entry key="IncorrectNumberOfVarCustomProps">自定义属性 "{0}" 必须为向量且表中的每个变量在该向量中都有一个对应元素，或者必须为空，即 0×0 (例如 []、'{}')。</entry>
+    <entry key="TableAsPerVarProp">不支持 {0} 作为基于变量的自定义属性。</entry>
+    <entry key="CharAsPerVarProp">不支持字符向量作为基于变量的自定义属性。请使用字符向量元胞数组或字符串向量。</entry>
+    <entry key="IncorrectNumberOfVarNames">对于表中的每个变量，VariableNames 属性必须包含一个名称。</entry>
+    <entry key="IncorrectNumberOfVarNamesPartial">对于要重命名的每个变量，VariableNames 属性必须包含一个名称。</entry>
+    <entry key="InvalidVarNames">VariableNames 属性为字符向量元胞数组。如需指定多个变量名称，请在字符串数组或字符向量元胞数组中指定这些非空名称。</entry>
+    <entry key="InvalidVarNameBraces">VariableNames 属性为字符向量元胞数组。要通过花括号下标设置单个变量名称，请赋一个非空字符向量。</entry>
+    <entry key="GroupingVarNotColumn">分组变量必须为列向量或字符数组。</entry>
+    <entry key="GroupTypeIncorrect">分组变量必须为分类、数值、逻辑、日期时间、持续时间或字符串向量，或者为包含字符向量的元胞向量或二维字符数组。</entry>
+    <entry key="VarUniqueMethodFailed">无法使用表变量 ''{0}'' 的唯一值对行进行分组。UNIQUE 返回了错误。</entry>
+    <entry key="VarUniqueMethodFailedCellRows">无法使用表变量 ''{0}'' 的唯一值对行进行分组，因为该变量是一个包含多列的元胞数组。</entry>
+    <entry key="VarUniqueMethodFailedNumRows">无法使用表变量 ''{0}'' 的唯一值对行进行分组。UNIQUE 方法返回的值具有错误的行数。</entry>
+    <entry key="InvalidVariableName">''{0}'' 不是有效的表变量名称。</entry>
+    <entry key="VariableNameNotValidIdentifier">''{0}'' 不是有效的表变量名称。有关详细信息，请参阅 isvarname 或 matlab.lang.makeValidName 的文档。</entry>
+    <entry key="VariableNameLengthMax">''{0}'' 超过了表变量名称允许的最大长度。</entry>
+    <entry key="ModifiedVarnames">作为无效的 MATLAB 标识符的表变量名称已修改。由于表变量名称必须唯一，任何与新标识符同名的表变量名称也已修改。</entry>
+    <entry key="ModifiedVarnamesUnstack">作为无效的 MATLAB 标识符的表变量名称已修改。由于表变量名称必须唯一，任何与新标识符同名的表变量名称也已修改。\n要使用原始 INDVAR 值作为表变量名称，请将 ''VariableNamingRule'' 设置为 ''preserve''。</entry>
+    <entry key="ModifiedVarnamesRows2Vars">那些原本为无效 MATLAB 标识符的表变量名称已修改。由于表变量名称必须唯一，任何与新标识符同名的表变量名称也已修改。\n要使用原始行名称作为新变量名称，请将 ''VariableNamingRule'' 设置为 ''preserve''。</entry>
+    <entry key="ModifiedVarnamesLengthMax">表变量名称被截断至长度 namelengthmax。</entry>
+    <entry key="ModifiedVarnamesReservedConflict">表变量名称已修改以避免与保留名称 ''{0}'' 冲突。</entry>
+    <entry key="ModifiedAndSavedVarnames">在为表创建变量名称之前，对文件中的列标题进行了修改，以使其成为有效的 MATLAB 标识符。原始列标题保存在 VariableDescriptions 属性中。\n将 ''VariableNamingRule'' 设置为 ''preserve'' 以使用原始列标题作为表变量名称。</entry>
+    <entry key="ModifiedAndSavedVarnamesReserved">表变量名称已修改以避免与保留名称 ''{0}'' 冲突。原始名称保存在 VariableDescriptions 属性中。</entry>
+    <entry key="ModifiedAndSavedVarnamesLengthMax">表变量名称被截断至长度 namelengthmax。原始名称保存在 VariableDescriptions 属性中。</entry>
+    <entry key="ZeroLengthVarname">表变量名称必须为非空文本。</entry>
+    <entry key="ModifiedDimnames">DimensionNames 属性已修改，以使名称 ''{0}'' 可用作有效的 MATLAB 标识符。</entry>
+    <entry key="DimNameNotValidIdentifier">''{0}'' 不是有效的表维度名称。有关详细信息，请参阅 isvarname 或 matlab.lang.makeValidName 的文档。</entry>
+    <entry key="DimNameLengthMax">''{0}'' 超过了表维度名称允许的最大长度。</entry>
+    <entry key="RowNameReservedBackCompat">行名称 ':' 已更改，因为冒号也可以是数组下标。现在再将 ':' 指定为行名称会产生错误。</entry>
+    <entry key="DuplicateDimNamesVarNames">重复的维度和变量名称: ''{0}''。</entry>
+    <entry key="DuplicateDimNamesVarNamesWarn">DimensionNames 属性已修改，以避免出现互相冲突的维度和变量名称: ''{0}''。</entry>
+    <entry key="DimNameNotValidIdentifierBackCompat">DimensionNames 属性已修改，以使名称 ''{0}'' 可用作有效的 MATLAB 标识符。有关更多详细信息，请参阅 &lt;a href="matlab:helpview(fullfile(docroot,''matlab'',''helptargets.map''),''changes_to_dimension_names_property_in_r2016b'')"&gt;R2016b 中对 DimensionNames 属性的更改&lt;/a&gt;。在未来的版本中，这将导致错误。</entry>
+    <entry key="DimnamesReservedNameConflictBackCompat">DimensionNames 属性已修改，因为名称 ''{0}'' 为保留名称。有关更多详细信息，请参阅 &lt;a href="matlab:helpview(fullfile(docroot,''matlab'',''helptargets.map''),''changes_to_dimension_names_property_in_r2016b'')"&gt;R2016b 中对 DimensionNames 属性的更改&lt;/a&gt;。在未来的版本中，这将导致错误。</entry>
+    <entry key="DuplicateDimnamesVarnamesBackCompat">DimensionNames 属性已修改，以避免出现互相冲突的维度和变量名称: ''{0}''。有关更多详细信息，请参阅 &lt;a href="matlab:helpview(fullfile(docroot,''matlab'',''helptargets.map''),''changes_to_dimension_names_property_in_r2016b'')"&gt;R2016b 中对 DimensionNames 属性的更改&lt;/a&gt;。在未来的版本中，这将导致错误。</entry>
+    <entry key="InvalidSize">大小必须为一个二元素向量，其中包含指定行数和变量数的非负整数值。</entry>
+    <entry key="MissingVariableTypes">指定当创建具有指定大小的表时所用的变量类型。</entry>
+    <entry key="IncorrectVariableTypesSyntax">指定当创建具有指定变量类型的表时所用的大小。</entry>
+    <entry key="InvalidVariableTypes">将变量类型指定为字符串数组或字符向量元胞数组，例如 ["string", "datetime", "double"]。</entry>
+    <entry key="InvalidSizeSyntax">不支持同时指定大小和输入数据变量。有关详细信息，请参阅&lt;a href="matlab:helpview(fullfile(docroot,'matlab','ref','table.html'))"&gt;表文档&lt;/a&gt;。</entry>
+    <entry key="VariableTypesAndSizeMismatch">变量类型的数目必须与大小中指定的变量数目匹配。</entry>
+    <entry key="InvalidPreallocationVariableType">无法创建类型为 ''{0}'' 的变量。预分配表时，每个变量类型都必须为一个支持 empty 方法的类。{0}.empty 返回了以下错误:\n\n{1}\n\n有关详细信息，请参阅&lt;a href="matlab:helpview(fullfile(docroot,'matlab','ref','table.html'))"&gt;表文档&lt;/a&gt;。</entry>
+    <entry key="PreAllocationClassnameCase">无法创建类型为 ''{0}'' 的变量。没有与类 ''{0}'' 完全匹配的项(区分大小写)。您可能想创建 ''{1}'' 类型的变量。</entry>
+    <entry key="PreAllocationUndefinedClass">无法创建类型为 ''{0}'' 的变量。未定义名为 ''{0}'' 的类。</entry>
+    <entry key="ScalarTextAmbiguity">创建一个包含以字符行向量表示变量的表。您可能本打算将 ''{0}'' 用作可选的参数名称，但其后面的某些输入与所允许的任何名称-值对组参数不匹配。有关支持的语法，请参阅&lt;a href="matlab:helpview(fullfile(docroot,'matlab','ref','table.html'))"&gt;表文档&lt;/a&gt;。</entry>
+    <entry key="PreallocateCharWarning">如果使用数据类型 'char' 进行预分配，将会创建一个字符向量元胞数组而非字符数组形式的表变量。建议不要将文本数据作为字符数组存储在表中。处理表或时间表中的文本数据时，请考虑使用字符串数组或分类数组。</entry>
+    <entry key="InvalidCustomPropDim">对于每个自定义属性，请指定 ''variable'' 或 ''table'' 以指示属性是应用于变量还是作为整体应用于表。使用字符串数组或字符向量元胞数组指定这些设置。</entry>
+    <entry key="InvalidCustomPropName">自定义属性名称无效。请在添加数据之前使用 ADDPROP 创建新的自定义属性。</entry>
+    <entry key="InvalidCustomPropertiesAssignment">您分配给 .Properties.CustomProperties 的值必须是 matlab.tabular.CustomProperties 对象。</entry>
+    <entry key="NonScalarStruct">数据类型无效。输入必须为标量结构体。</entry>
+    <entry key="MissingVariableNames">生成代码时，必须指定表变量名称。</entry>
+    <entry key="AssignmentVarIndexOutOfRange">变量索引超出了表维度。在代码生成中，不支持通过赋值添加表变量。</entry>
+    <entry key="AssignmentRowIndexOutOfRange">行索引超出了表维度。在代码生成中，不支持通过赋值添加表行。</entry>
+    <entry key="UnrecognizedIndexingVarName">无法识别表变量名称 ''{0}''。</entry>
+    <entry key="UnrecognizedIndexingRowName">无法识别表行名称 ''{0}''。</entry>
+    <entry key="UnrecognizedIndexingDimName">无法识别表维度名称 ''{0}''。</entry>
+    <entry key="UnrecognizedIndexingNonconstantVarName">无法识别表变量名称。</entry>
+    <entry key="UnrecognizedIndexingNonconstantRowName">无法识别表行名称。</entry>
+    <entry key="UnrecognizedIndexingNonconstantDimName">无法识别表维度名称。</entry>
+    <entry key="UnrecognizedAssignmentVarName">无法识别表变量名称 ''{0}''。在代码生成中，不支持通过赋值添加表变量。</entry>
+    <entry key="UnrecognizedAssignmentRowName">无法识别表行名称 ''{0}''。在代码生成中，不支持通过赋值添加表行。</entry>
+    <entry key="UnrecognizedAssignmentNonconstantVarName">无法识别表变量名称。在代码生成中，不支持通过赋值添加表变量。</entry>
+    <entry key="UnrecognizedAssignmentNonconstantRowName">无法识别表行名称。在代码生成中，不支持通过赋值添加表行。</entry>
+    <entry key="NonconstantVarIndex">表中的变量索引必须为常量。</entry>
+    <entry key="NonconstantVarSpec">表变量名称或索引必须为常量。</entry>
+    <entry key="NonconstantVariableNames">表变量名称必须为常量。</entry>
+    <entry key="NonconstantDimensionNames">表维度名称必须为常量。</entry>
+    <entry key="NonconstantVariableTypes">在预分配表时，变量类型输入必须为常量。</entry>
+    <entry key="NonconstantParameterName">参数名称必须为常量。</entry>
+    <entry key="NonconstantRowDimLength">表行维度长度必须为常量。</entry>
+    <entry key="NDCellIndexing">代码生成中不支持使用花括号下标提取多个 N 维元胞变量。</entry>
+    <entry key="UnsupportedPropertyChange">生成代码时，在创建表后无法更改 ''{0}'' 表属性。</entry>
+    <entry key="UnsupportedMethodCodegen">在代码生成中，表不支持 {0} 方法。</entry>
+    <entry key="PreAllocationUnsupportedClass">在代码生成中，在预分配表时 ''{0}'' 不是受支持的变量类型。</entry>
+    <entry key="PreAllocationUnsupportedCell">在代码生成中，在预分配表时 ''cell'' 不是受支持的变量类型。要预分配字符向量元胞数组变量，请将其类型改为 ''cellstr''。</entry>
+    <entry key="UnsupportedDelete">代码生成中不支持通过分配 [] 进行删除。</entry>
+    <entry key="ExtractDataIncompatibleTypeVarIndices">无法串联表变量 {0,number,integer} 和 {1,number,integer}，因为这两个变量的类型分别为 {2} 和 {3}。</entry>
+    <entry key="NonconstantCellAssignment">若表变量为异构元胞数组，则对该表变量赋值时，行索引必须为常量。</entry>
+    <entry key="NonconstantCellAssignmentByRowName">若表变量为异构元胞数组，则对表变量赋值和使用行名称进行索引时，表中的行名称必须为常量。</entry>
+    <entry key="CodegenPropertySizeMismatch">{0} 的大小无法更改。</entry>
+    <entry key="EmptyMustBeFixedSize">如果输入是可变大小，它在运行时不能为空。空输入必须为固定大小。</entry>
+    <entry key="CodegenVariableNameLengthMax">One or more table variable name(s) is longer than the maximum allowed length.</entry>
+    <entry key="CodegenDimNameLengthMax">一个或多个表维度名称超过允许的最大长度。</entry>
+    <entry key="UnsupportedDefaultValues">代码生成不支持使用默认值创建类 ''{0}'' 的数组。</entry>
+    <entry key="InvalidDataType">Data 类型必须为元胞行向量，并且其长度必须与表宽度 {0,number,integer} 相同。</entry>
+    <entry key="InvalidDescriptionType">Description 类型必须为字符行向量。</entry>
+    <entry key="InvalidDimNamesType">DimensionNames 类型必须为由非空字符向量组成的二元素元胞行向量。</entry>
+    <entry key="InvalidVarNamesType">VariableNames 类型必须为由非空字符向量组成的元胞行向量，并且其长度必须与表宽度 {0,number,integer} 相同。</entry>
+    <entry key="InvalidCellstrRowType">{0} 类型必须为由字符向量组成的元胞行向量，并且其长度必须与表宽度 {1,number,integer} 相同。</entry>
+    <entry key="InvalidContinuityType">VariableContinuity 类型必须为 ''matlab.internal.coder.tabular.Continuity'' 类的行向量，或可转换为该类的由字符向量组成的元胞行向量。它的长度必须与表宽度 {0,number,integer} 相同。</entry>
+    <entry key="InvalidRowNamesType">RowNames 类型必须为由非空字符向量组成的元胞列向量，或为 0×0 空元胞。</entry>
+    <entry key="IncorrectRowNamesTypeLength">RowNames 类型的长度必须与表高度相同。请使用 coder.resize 更改表高度。</entry>
+    <entry key="IncorrectDataTypeHeight">Data 类型元胞元素的行数必须与表高度相同。请使用 coder.resize 更改表高度。</entry>
+    <entry key="StringGroupType">在代码生成中，字符串变量不能为分组变量。</entry>
+    <entry key="StringParamNameNotSupportedCodegen">您可能打算使用 "{0}" 指定参数名称。但是，表构造函数要求必须将参数名称指定为字符向量，并且在代码生成中不支持 Name=Value。请改用 table(..., ''{0}'', Value)。</entry>
+    <entry key="IncompatibleTableTypeWidth">无法合并宽度不同的表或时间表的类型对象。</entry>
+    <entry key="AssignmentDimensionMismatchCodegen">表变量 ''{0}'' 的下标赋值维度不匹配。</entry>
+  </message>
+</rsccat>

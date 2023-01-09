@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PropertyValuePairsExpected">이름-값 쌍이어야 합니다.</entry>
+    <entry key="DuplicateActionID">중복된 동작 ID: ''{0}''.</entry>
+    <entry key="IncorrectActionID">''{0}'': 유효한 동작 ID가 아닙니다.</entry>
+    <entry key="InvalidAction">유효한 동작 인스턴스가 아닙니다.</entry>
+    <entry key="PropertiesAsStruct">속성은 구조체형이어야 합니다.</entry>
+    <entry key="AddActionClientMode">''ActAsClient'' 모드에서는 동작을 추가할 수 없습니다.</entry>
+    <entry key="RemoveActionClientMode">''ActAsClient'' 모드에서는 동작을 제거할 수 없습니다.</entry>
+    <entry key="ActionIDUpdate">동작 ''ID''를 업데이트할 수 없습니다.</entry>
+    <entry key="NoActionID">ID 없이 동작이 지정되었습니다.</entry>
+    <entry key="InvalidActionForID">지정된 ID ''{0}''의 동작이 존재하지 않습니다.</entry>
+    <entry key="InsufficientArguments">인수 개수가 부족합니다.</entry>
+    <entry key="RequiredParamsUnspecified">필수 파라미터 docID 또는 Channel이 지정되지 않음</entry>
+    <entry key="DatetimeFormatHelp">&lt;a href="matlab:doc(&amp;quot;datetime.Format&amp;quot;)"&gt;형식 도움말&lt;/a&gt;</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SolNotFromDiffEqSolver">{0}은(는) 미분 방정식 솔버에서 반환된 구조체여야 합니다.</entry>
+    <entry key="IDXInvalidSolComp">올바르지 않은 솔루션 구성요소를 {0}에서 요청했습니다.</entry>
+    <entry key="InvalidSolver">{1}.solver에 인식할 수 없는 솔버 이름(''{0}'')이 있습니다.</entry>
+    <entry key="MissingSolverField">구조체 {0}에 ''solver'' 필드가 없습니다.\n         DEVAL은 {1}을(를) BVP4C의 MATLAB R12 버전 출력값으로 간주합니다.</entry>
+    <entry key="NoSolverInStruct">구조체 {0}에 ''solver'' 필드가 누락되었습니다.</entry>
+    <entry key="SolOutsideInterval">해가 정의된 구간 [{0}, {1}] 밖에서 실행하려고 시도하고 있습니다.\n</entry>
+    <entry key="NonuniqueSolution">인터페이스 XC = {0}에서 해가 연속되지 않을 수 있습니다.\n         DEVAL이 인터페이스의 왼쪽 한계와 오른쪽의 한계에 대한 평균을 반환합니다. 한계 값을 대략적으로 계산하려면 XC-EPS(XC) 또는 XC+EPS(XC)에 대해 DEVAL을 실행해야 합니다.\n</entry>
+  </message>
+</rsccat>

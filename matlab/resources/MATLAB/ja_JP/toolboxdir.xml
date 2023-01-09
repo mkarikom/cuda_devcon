@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DirectoryNotFound">{0} の基本ディレクトリが見つかりません。</entry>
+    <entry key="ProductNameDeprecated" context="warning">toolboxdir(''{0}'') に対するサポートは将来のリリースで削除される予定です。代わりに toolboxdir(''{1}'') を使用してください。</entry>
+  </message>
+</rsccat>

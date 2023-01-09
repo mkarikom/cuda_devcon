@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FigureUnknown">不明な Figure です。</entry>
+    <entry key="unrecognizedinput">不明なアクションの文字ベクトルです。</entry>
+    <entry key="InvalidInputAxes">入力は座標軸のハンドルでなければなりません。</entry>
+    <entry key="InvalidInputZeroOne">入力は 0 か 1 のいずれかでなければなりません。</entry>
+    <entry key="InvalidInputForOutArg">これらの入力引数を使用して出力引数を指定しないでください。</entry>
+  </message>
+</rsccat>

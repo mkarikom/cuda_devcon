@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="IndexGTOne">この DAE は 1 より大きいインデックスのようです。</entry>
+    <entry key="NeedBetterY0">より良い推定 y0 のため整合性のある初期条件が必要です。</entry>
+  </message>
+</rsccat>

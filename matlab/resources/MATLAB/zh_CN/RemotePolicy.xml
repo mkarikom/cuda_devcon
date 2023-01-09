@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownPolicy">未知的目录刷新策略。\n请指定 ''Reload''、''TimecheckDir''、''None'' 或 ''Status''。</entry>
+    <entry key="notEnoughInputs">请指定 ''Reload''、''TimecheckDir''、''TimecheckDirFile''、''TimecheckFile''、''None'' 或 ''Status''</entry>
+  </message>
+</rsccat>

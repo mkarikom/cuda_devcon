@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WrongNumberOfOutputs">2 個の出力引数が必要です。</entry>
+    <entry key="UnknownFcn">不明またはサポートされていない ARPACK 関数です。</entry>
+    <entry key="NotEnoughInputs">少なくとも 1 つの入力引数が必要です。</entry>
+    <entry key="InvalidInputFcn">fcn を文字ベクトルに変換できませんでした</entry>
+    <entry key="NotEnoughInputsAUPD">arpackc(''d*aupd'',...) ではこの他に 16 個の入力引数が必要です。</entry>
+    <entry key="InvalidInputBmat">bmat を文字ベクトルに変換できませんでした</entry>
+    <entry key="InvalidInputWhich">which を文字ベクトルに変換できませんでした</entry>
+    <entry key="NotEnoughInputsDSEUPD">arpackc(''dseupd'',...) ではこの他に 21 個の入力引数が必要です。</entry>
+    <entry key="InvalidInputHowmny">howmny を文字ベクトルに変換できませんでした</entry>
+    <entry key="NotEnoughInputsDNEUPD">arpackc(''dneupd'',...) ではこの他に 23 個の入力引数が必要です。</entry>
+    <entry key="NotEnoughInputsZNAUPD">arpackc(''znaupd'',...) ではこの他に 17 個の入力引数が必要です。</entry>
+    <entry key="NotEnoughInputsZNEUPD">arpackc(''zneupd'',...) ではこの他に 23 個の入力引数が必要です。</entry>
+  </message>
+</rsccat>

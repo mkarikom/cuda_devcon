@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DataVariablesArray">''DataVariables'' パラメーターはテーブル入力に対してのみサポートされます。</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' 関数ハンドルは論理スカラーを返さなければなりません。</entry>
+    <entry key="DataVariablesTableSubscript">''DataVariables'' の値が無効です。</entry>
+    <entry key="DimensionInvalid">次元は 1 か 2 でなければなりません。</entry>
+    <entry key="MinNumMissing">''MinNumMissing'' の値は非負の整数でなければなりません。</entry>
+    <entry key="NameValueNames">パラメーター名は ''MinNumMissing'' または ''DataVariables'' でなければなりません。</entry>
+    <entry key="NameValuePairs">入力引数の数が正しくありません。名前と値の引数はペアでなければなりません。</entry>
+    <entry key="NDArrays">N 次元配列はサポートされていません。</entry>
+    <entry key="TableDimCodegen">Dimension argument must be the constant 1 for code generation when first argument is a table or timetable.</entry>
+  </message>
+</rsccat>

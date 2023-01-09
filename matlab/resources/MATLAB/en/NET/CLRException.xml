@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\schema\msgcat.xsd" decorate_cxx_names="1">
+   <message>
+    <entry key="MethodInvoke" translate="false">{0}</entry>
+    <entry key="DelegateConstructor" translate="false">{0}</entry>
+    <entry key="DelegateCombineMethod" translate="false">{0}</entry>
+    <entry key="DelegateRemoveAllMethod" translate="false">{0}</entry>
+    <entry key="DelegateRemoveMethod" translate="false">{0}</entry>
+    <entry key="PropertyGet" translate="false">{0}</entry>
+    <entry key="PropertySet" translate="false">{0}</entry>
+    <entry key="FieldGet" translate="false">{0}</entry>
+    <entry key="FieldSet" translate="false">{0}</entry>
+    <entry key="CloneObject" translate="false">{0}</entry>
+    <entry key="AddEnumerations" translate="false">{0}</entry>
+    <entry key="AddSuperClasses" translate="false">{0}</entry>
+    <entry key="AddConstructors" translate="false">{0}</entry>
+    <entry key="AddProperties" translate="false">{0}</entry>
+    <entry key="AddFields" translate="false">{0}</entry>
+    <entry key="AddMethods" translate="false">{0}</entry>
+    <entry key="AddEvents" translate="false">{0}</entry>
+    <entry key="AddArrayConversions" translate="false">{0}</entry>
+    <entry key="CreateObject" translate="false">{0}</entry>
+    <entry key="BuildGenericType" translate="false">{0}</entry>
+    <entry key="AddEventListener" translate="false">{0}</entry>
+    <entry key="InvokeGenericMethod" translate="false">{0}</entry>
+    <entry key="TypeError" translate="false">{0}</entry>
+    <entry key="AddAssembly" translate="false">{0}</entry>
+   </message>
+ </rsccat>

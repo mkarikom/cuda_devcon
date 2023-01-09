@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="dbBadCondition">条件 ''{0}'' 包含语法错误。</entry>
+    <entry key="dbNameNotSpecified">必须指定文件名。</entry>
+    <entry key="InvalidBreakpointCondition">''{0}'' 的断点条件无效。</entry>
+    <entry key="InvalidBreakpointData">''{0}'' 的断点数据无效。</entry>
+    <entry key="InvalidStruct">结构体无效。缺少字段 ''{0}''。</entry>
+    <entry key="InvalidStructBadCondition">结构体无效。条件必须为字符向量。</entry>
+    <entry key="lineNumberNotApplicable">MATLAB 调试器无法在 "{0}" 中设置断点，因为它不是 MATLAB 代码文件</entry>
+    <entry key="lineNumberAndLocalNestedCombinationInvalid">选项组合无效。请指定行号或指定局部或嵌套函数。</entry>
+  </message>
+</rsccat>

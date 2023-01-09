@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011-2015 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="UncommentLineToPreserveXlimits">Uncomment the following line to preserve the X-limits of the axes</entry>
+      <entry key="UncommentLineToPreserveylimits">Uncomment the following line to preserve the Y-limits of the axes</entry>
+      <entry key="UncommentLineToPreservezlimits">Uncomment the following line to preserve the Z-limits of the axes</entry>
+      <entry key="CurrentlyDoesNotSupportCodeGen">{0} currently does not support code generation, enter ''doc {1}'' for correct input syntax</entry>
+      <entry key="InOrderToGenerateCodeUseGUIDE">In order to generate code for {0}, you may use GUIDE. Enter ''doc guide'' for more information</entry>
+      <entry key="SetRemainingAxesPropertiesComment">Set the remaining axes properties</entry>
+	   <entry key="SetActiveDataSpaceComment">Activate the {0} side of the axes</entry>
+   </message>
+</rsccat>

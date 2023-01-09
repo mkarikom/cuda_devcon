@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidConcatenation">모든 입력값은 datetime형이거나 날짜/시간을 나타내는 문자형 벡터 또는 string형이어야 합니다.</entry>
+    <entry key="IncompatibleTZ">표준 시간대를 갖는 datetime형 배열과 표준 시간대를 갖지 않는 datetime형 배열은 결합할 수 없습니다.</entry>
+    <entry key="NonNumericDim">차원 인수는 숫자형이어야 합니다.</entry>
+  </message>
+</rsccat>

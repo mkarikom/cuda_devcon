@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputArgs">入力引数が不足しています。MATLAB ヘルプを参照するには、''help'' または ''helpbrowser'' と入力してください。</entry>
+    <entry key="InvalidFirstArg">最初の引数は、製品の省略名、map ファイル、または完全修飾子付きのファイル名でなければなりません。</entry>
+    <entry key="InvalidPathArg">最初の引数は、製品の省略名または完全修飾子付きのファイル名でなければなりません。</entry>
+    <entry key="InvalidMapKey">マップキー {0} に対するトピックの map が見つかりません。</entry>
+    <entry key="TopicIdRequired">トピックのパスを見つけるためには、トピック ID が必要です。</entry>
+    <entry key="InvalidThirdParameter">3 番目のパラメーターはウィンドウ タイプを指定しなければなりません。</entry>
+    <entry key="InvalidSecondParameter">2 番目のパラメーターはウィンドウ タイプを指定しなければなりません。</entry>
+    <entry key="UnspecifiedPosition">位置が指定されていません</entry>
+    <entry key="InvalidPosition">位置は [左 下 幅 高さ] でなければなりません</entry>
+    <entry key="UnspecifiedSize">場所が指定されていません</entry>
+    <entry key="UnspecifiedLocation">場所が指定されていません</entry>
+    <entry key="MapFileDoesNotExist">指定した map ファイルが存在しません:\n{0}</entry>
+    <entry key="TopicIdDoesNotExist">トピック ID ({0}) が {1} で見つかりません。</entry>
+    <entry key="SizeMustBeWidthHeight">サイズは [幅 高さ] でなければなりません</entry>
+    <entry key="SizeMustBePositive">サイズは 0 より大きくなければなりません</entry>
+    <entry key="LocationMustBeXY">場所は [x y] でなければなりません</entry>
+    <entry key="LocationMustBePositive">場所は 0 以上でなければなりません</entry>
+    <entry key="FileCouldNotBeConverted">ヘルプの基本設定で、[ドキュメンテーションの場所] が [Web] (www.mathworks.com) に設定されています。ファイル {0} は Web では表示できません。このファイルを表示するには、ヘルプの場所を [ローカル] に設定してみてください。</entry>
+    <entry key="Title">これはなにヘルプ</entry>
+  </message>
+</rsccat>

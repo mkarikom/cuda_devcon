@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidCellInput">空のセル配列は有効な入力引数ではありません。</entry>
+    <entry key="InvalidNumInputs">QUIVER では {0} で始まる数値入力はサポートされていません。</entry>
+    <entry key="UnevenPvPairsCount">パラメーター数と値数が一致しません。</entry>
+    <entry key="InvalidAutoScaleFactor">スカラーの引数はスカラー double または 'off' でなければなりません。</entry>
+    <entry key="UVSizeMismatch">U と V は同じサイズでなければなりません。</entry>
+    <entry key="XYMixedEmpty">X と Y の両方が空であるか、いずれも空でない状態でなければなりません。</entry>
+    <entry key="XUSizeMismatch">X のサイズは、U のサイズ、または U の列数と一致しなければなりません。</entry>
+    <entry key="YUSizeMismatch">Y のサイズは、U のサイズ、または U の行数と一致しなければなりません。</entry>
+    <entry key="ZUSizeMismatch">Z と U は同じサイズでなければなりません。</entry>
+    <entry key="VWSizeMismatch">V と W は同じサイズでなければなりません。</entry>
+    <entry key="XZSizeMismatch">X のサイズは、Z のサイズまたは Z の列数と一致しなければなりません。</entry>
+    <entry key="YZSizeMismatch">Y のサイズは、Z のサイズまたは Z の行数と一致しなければなりません。</entry>
+    <entry key="UnknownOption">不明なオプション "{0}" です。</entry>
+    <entry key="XYMixedFormatZ">X と Y のサイズは、Z のサイズと一致しなければなりません。または、X と Y は Z の列数と行数にそれぞれ長さが一致するベクトルでなければなりません。</entry>
+    <entry key="XYMixedFormatU">X と Y のサイズは、U のサイズと一致しなければなりません。または、X と Y は U の列数と行数にそれぞれ長さが一致するベクトルでなければなりません。</entry>
+    <entry key="XYMixedFormat">{0}</entry>
+  </message>
+</rsccat>

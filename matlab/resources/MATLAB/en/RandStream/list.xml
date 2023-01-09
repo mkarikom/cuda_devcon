@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="AvailableGenerators">The following random number generator algorithms are available:</entry>
+    <entry key="dsfmt19937Description">SIMD-oriented Fast Mersenne Twister with Mersenne prime 2^19937-1</entry>
+    <entry key="mcg16807Description">Multiplicative congruential generator, with multiplier 7^5, modulo 2^31-1</entry>
+    <entry key="mlfg6331_64Description">Multiplicative lagged Fibonacci generator, with lags 63 and 31, 64 bit (supports parallel streams)</entry>
+    <entry key="mrg32k3aDescription">Combined multiple recursive generator (supports parallel streams)</entry>
+    <entry key="mt19937arDescription">Mersenne Twister with Mersenne prime 2^19937-1</entry>
+    <entry key="philox4x32_10Description">Philox 4x32 generator with 10 rounds (supports parallel streams)</entry>
+    <entry key="shr3congDescription">SHR3 shift-register generator summed with CONG linear congruential generator</entry>
+    <entry key="swb2712Description">Modified Subtract-with-Borrow generator, with lags 27 and 12</entry>
+    <entry key="threefry4x64_20Description">Threefry 4x64 generator with 20 rounds (supports parallel streams)</entry>
+  </message>
+</rsccat>

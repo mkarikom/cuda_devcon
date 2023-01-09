@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Ok">确定</entry>
+    <entry key="Help">帮助</entry>
+    <entry key="PreferenceDialogHeading">纵横比调整</entry>
+    <entry key="PreferenceDialog">绘图操作可能会改变外观，以便\n3 维旋转期间纵横比保持不变。单击“重置相机和\n场景灯光”工具栏项可重构坐标区\n以便适合该图窗。</entry>
+    <entry key="OrbitCamera">环移相机</entry>
+    <entry key="OrbitSceneLight">环移场景灯光</entry>
+    <entry key="PanTiltCamera">平转/纵转相机</entry>
+    <entry key="MoveCameraHorizontallyVertically">平移/纵移相机</entry>
+    <entry key="MoveCameraForwardBack">前移/后移相机</entry>
+    <entry key="ZoomCamera">缩放相机</entry>
+    <entry key="RollCamera">旋转相机</entry>
+    <entry key="WalkCamera">推进相机</entry>
+    <entry key="PrincipalAxisX">主轴 X</entry>
+    <entry key="PrincipalAxisY">主轴 Y</entry>
+    <entry key="PrincipalAxisZ">主轴 Z</entry>
+    <entry key="NoPrincipalAxis">无主轴</entry>
+    <entry key="ToggleSceneLight">切换场景灯光</entry>
+    <entry key="OrthographicProjection">正交投影</entry>
+    <entry key="PerspectiveProjection">透视投影 </entry>
+    <entry key="ResetCameraAndSceneLight">重置相机和场景灯光</entry>
+    <entry key="StopCameraLightMotion">停止移动相机/灯光</entry>
+    <entry key="CameraMotion">相机移动</entry>
+    <entry key="PanTurnTilt">平移 - 旋转/倾斜</entry>
+    <entry key="MoveHorizontallyVertically">移动 - 水平/垂直</entry>
+    <entry key="MoveForwardBack">移动 - 向前/向后</entry>
+    <entry key="Zoom_1">缩放</entry>
+    <entry key="Roll_1">转动</entry>
+    <entry key="CameraAxes">相机轴</entry>
+    <entry key="XPrincipalAxis">X 主轴</entry>
+    <entry key="YPrincipalAxis">Y 主轴</entry>
+    <entry key="ZPrincipalAxis">Z 主轴</entry>
+    <entry key="CameraReset">相机重置</entry>
+    <entry key="ResetCameraSceneLight">重置相机和场景灯光</entry>
+    <entry key="ResetTargetPoint">重置目标点</entry>
+    <entry key="ResetSceneLight">重置场景灯光</entry>
+    <entry key="Projection">投影</entry>
+    <entry key="Orthographic">正交</entry>
+    <entry key="Perspective">透视</entry>
+  </message>
+</rsccat>

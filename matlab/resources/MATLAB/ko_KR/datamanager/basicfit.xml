@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DropDownLabel">데이터</entry>
+    <entry key="NormalizeXData">x축 데이터 정규화</entry>
+    <entry key="HelpLabel">도움말</entry>
+    <entry key="Equation">수식</entry>
+    <entry key="Coefficients">계수</entry>
+    <entry key="FitTypes">피팅 유형</entry>
+    <entry key="Results">피팅 결과</entry>
+    <entry key="Residuals">오차 추정값(잔차)</entry>
+    <entry key="Evaluate">데이터 보간/외삽</entry>
+    <entry key="XData">X</entry>
+    <entry key="NormalizeXTooltip">계산된 파라미터의 정밀도를 향상시킵니다.</entry>
+    <entry key="Digits">유효 자릿수</entry>
+    <entry key="ExportResultsToWorkspace">결과를 작업 공간으로 내보내기...</entry>
+    <entry key="ExportEvaluationToWorkspace">실행 결과를 작업 공간으로 내보내기...</entry>
+    <entry key="FigureName">기본 피팅</entry>
+    <entry key="LinearFit">선형</entry>
+    <entry key="QuadraticFit">2차</entry>
+    <entry key="CubicFit">3차</entry>
+    <entry key="SplineFit">스플라인 보간</entry>
+    <entry key="ShapeFit">형태 보존 보간</entry>
+    <entry key="Degree4Fit">4차 다항식</entry>
+    <entry key="Degree5Fit">5차 다항식</entry>
+    <entry key="Degree6Fit">6차 다항식</entry>
+    <entry key="Degree7Fit">7차 다항식</entry>
+    <entry key="Degree8Fit">8차 다항식</entry>
+    <entry key="Degree9Fit">9차 다항식</entry>
+    <entry key="Degree10Fit">10차 다항식</entry>
+    <entry key="PlotStyleLabel">플롯 스타일</entry>
+    <entry key="PlotLocationLabel">플롯 위치</entry>
+    <entry key="NewDataFieldTooltip">값 또는 유효한 MATLAB 표현식을 입력합니다(예: x,1:2:10 또는 [10,15]).</entry>
+    <entry key="PlotDataCheckboxLabel">실행된 데이터 플로팅</entry>
+    <entry key="PlotDataCheckboxTooltip">보간/외삽된 데이터 점을 플로팅합니다.</entry>
+    <entry key="ShowEquationTooltip">차트에 수식을 표시합니다.</entry>
+    <entry key="ShowR2Tooltip">차트에 결정계수를 표시합니다.</entry>
+    <entry key="ExportToWorkspace">작업 공간으로 내보내기...</entry>
+    <entry key="FitResults">피팅 결과</entry>
+    <entry key="ProgressLabel">기다려 주십시오. 초기화 중입니다.</entry>
+    <entry key="LoadLabel">불러오는 중</entry>
+    <entry key="FinishLabel">완료하는 중</entry>
+    <entry key="InitialLabel">처음으로 여는 중</entry>
+    <entry key="NoResultsFound">표시할 결과 없음</entry>
+    <entry key="cubictab">3차</entry>
+    <entry key="lineartab">선형</entry>
+    <entry key="quadratictab">2차</entry>
+    <entry key="ntab">{0}차</entry>
+    <entry key="shapetab">형태 보존</entry>
+    <entry key="splinetab">스플라인</entry>
+    <entry key="noneVal">없음</entry>
+    <entry key="barVal">막대</entry>
+    <entry key="scatterVal">산점도</entry>
+    <entry key="lineVal">선</entry>
+    <entry key="subplotVal">서브플롯</entry>
+    <entry key="newFigureVal">새 Figure</entry>
+    <entry key="expandResults">결과 확장...</entry>
+    <entry key="NormOfResidualsLabel">잔차의 노름(Norm)</entry>
+    <entry key="NormOfResidualsTooltip">잔차의 노름(Norm) 표시</entry>
+  </message>
+</rsccat>

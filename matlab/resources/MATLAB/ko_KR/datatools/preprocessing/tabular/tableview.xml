@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoData">데이터 없음</entry>
+    <entry key="DataTab">데이터</entry>
+    <entry key="VarSummary">데이터 요약</entry>
+    <entry key="DataView">데이터 보기</entry>
+    <entry key="SummaryView">요약 보기</entry>
+    <entry key="PlotView">플롯 보기</entry>
+    <entry key="VariableCount">{0}개 변수</entry>
+  </message>
+</rsccat>

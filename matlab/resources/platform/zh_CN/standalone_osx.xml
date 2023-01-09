@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="platform" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WindowMenuTitle">窗口</entry>
+    <entry key="MinimizeMenuItemTitle">最小化</entry>
+    <entry key="ZoomMenuItemTitle">缩放</entry>
+    <entry key="BringAllToFrontMenuItemTitle">全部置于顶层</entry>
+    <entry key="AboutMenuItemTitle">关于 MATLAB...</entry>
+    <entry key="PreferencesMenuItemTitle">预设...</entry>
+    <entry key="ServicesMenuItemTitle">服务</entry>
+    <entry key="HideMenuItemTitle">隐藏 MATLAB</entry>
+    <entry key="HideOthersMenuItemTitle">隐藏其他项目</entry>
+    <entry key="ShowAllMenuItemTitle">全部显示</entry>
+    <entry key="QuitMenuItemTitle">退出 MATLAB</entry>
+    <entry key="HelpMenuTitle">帮助</entry>
+    <entry key="DocumentationMenuItemTitle">文档</entry>
+    <entry key="CheckForUpdatesMenuItemTitle">检查更新...</entry>
+    <entry key="CommandWindowDockMenuItemTitle">命令行窗口</entry>
+    <entry key="OpenAdditionalInstanceOfMATLABDockMenuItemTitle">打开另一个 MATLAB 实例</entry>
+  </message>
+</rsccat>

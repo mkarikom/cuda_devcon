@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ReadOnlyRunning">rotate3d がオンでない場合にのみ、''UIContextMenu'' プロパティを設定できます。</entry>
+    <entry key="InvalidContextMenu">ハンドルは uicontextmenu でなければなりません。</entry>
+    <entry key="InvalidConstructor">最初の引数は、rotate3d モードのハンドルでなければなりません。</entry>
+    <entry key="AccessorExists">モードには既にアクセサーが含まれています。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFormat">持续时间显示格式必须为字符向量或字符串标量。</entry>
+    <entry key="UnrecognizedFormat">格式 ''{0}'' 无效。</entry>
+    <entry key="InvalidData">输入数据必须为数值，或者为包含持续时间文本的元胞或字符串数组。</entry>
+    <entry key="InvalidNumericData">数值输入数据必须为包含三列的矩阵，或者为三个或四个单独的数值数组。您也可以根据单个数值数组使用 YEARS、DAYS、HOURS、MINUTES 或 SECONDS 函数创建期间值。</entry>
+    <entry key="InputSizeMismatch">数值输入数据数组的大小必须相同，或者它们中的任何一个可以为标量。</entry>
+    <entry key="InputMustBeReal">数值输入数据必须为实数。</entry>
+    <entry key="InvalidDim">DIM 必须为正整数值。</entry>
+    <entry key="CalendarDurationInputYears">输入数据必须为实数数值数组或持续时间数组。使用 CALYEARS 可从 calendarDuration 数组中提取整个日历年数字。</entry>
+    <entry key="CalendarDurationInputDays">输入数据必须为实数数值数组或持续时间数组。使用 CALDAYS 可从 calendarDuration 数组中提取完整的日历日数字。</entry>
+    <entry key="CalendarDurationInputTime">输入数据必须为实数数值数组或持续时间数组。使用 TIME 或 SPLIT 可从 calendarDuration 数组中提取持续时间。</entry>
+    <entry key="DatetimeInputYears">输入数据必须为实数数值数组或持续时间数组。使用 YEAR 可从日期时间数组中提取年数字。</entry>
+    <entry key="DatetimeInputDays">输入数据必须为实数数值数组或持续时间数组。使用 DAY 可从日期时间数组中提取天数字。</entry>
+    <entry key="DatetimeInputHours">输入数据必须为实数数值数组或持续时间数组。使用 HOUR 可从日期时间数组中提取小时数字。</entry>
+    <entry key="DatetimeInputMinutes">输入数据必须为实数数值数组或持续时间数组。使用 MINUTE 可从日期时间数组中提取分钟数字。</entry>
+    <entry key="DatetimeInputSeconds">输入数据必须为实数数值数组或持续时间数组。使用 SECOND 可从日期时间数组中提取秒数字。</entry>
+    <entry key="InvalidDurationData">输入数据必须为实数数值数组或持续时间数组。</entry>
+    <entry key="InvalidNumericConversion">未定义与 'duration' 类型的输入参数相对应的函数 ''{0}''。要从期间值转换为数值，请使用 SECONDS、MINUTES、HOURS、DAYS 或 YEARS 函数。</entry>
+    <entry key="MonthsNotSupported">未定义与 'duration' 类型的输入参数相对应的函数 ''{0}''。持续时间不能表示日历月。请改用日历持续时间。\n\n例如，要计算以日历月为单位的两个日期时间之差，请使用 BETWEEN 函数而不是减法。</entry>
+    <entry key="CellReferenceNotAllowed">元胞内容引用自非元胞数组。</entry>
+    <entry key="CellAssignmentNotAllowed">元胞内容赋给非元胞数组。</entry>
+    <entry key="UnrecognizedProperty">无法识别属性:  ''{0}''。</entry>
+    <entry key="InvalidPropertyName">属性名称无效。</entry>
+    <entry key="InvalidSubscriptExpr">在索引表达式中，()-索引不能后跟 () 或 '{}'。</entry>
+    <entry key="SubArrayPropertyAssignment">您不能向期间值数组元素的 ''{0}'' 属性赋值。请改用 d.{0} = ...。</entry>
+    <entry key="InvalidAssignmentLHS">用于从 {0} 数组赋值的 LHS 无效。</entry>
+    <entry key="InvalidAssignment">赋值的右侧必须为持续时间数组、表示天数的数值数组或以计时器格式表示持续时间的文本(例如 'hh:mm:ss')。</entry>
+    <entry key="IllegalDotMethod">无法识别的持续时间属性 ''{0}''。如果您打算调用 {1} 方法，则必须使用函数语法，例如 {1}(d,...)。有关详细信息，请参阅&lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;方法调用&lt;/a&gt;。</entry>
+    <entry key="IllegalDotMethodNoCorrection">无法识别的持续时间属性 ''{0}''。如果您打算调用 {1} 方法，则必须使用函数语法。有关详细信息，请参阅&lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;方法调用&lt;/a&gt;。</entry>
+    <entry key="InvalidComparison">没有在 {0} 和 {1} 数组之间定义比较。</entry>
+    <entry key="AdditionNotDefined">没有在 {0} 和 {1} 数组之间定义加法。</entry>
+    <entry key="SubtractionNotDefined">没有在 {0} 和 {1} 数组之间定义减法。</entry>
+    <entry key="DurationMultiplicationNotDefined">没有在两个期间值数组之间定义乘法。</entry>
+    <entry key="MultiplicationNotDefined">没有在 {0} 和 {1} 数组之间定义乘法。</entry>
+    <entry key="DurationDivisionNotDefined">无法用 {0} 数组除以持续时间数组。</entry>
+    <entry key="DivisionNotDefined">没有在 {0} 和 {1} 数组之间定义除法。</entry>
+    <entry key="MatrixDivisionNotDefined">在持续时间数组的矩阵除法中，分母必须为双精度实数标量值。</entry>
+    <entry key="InvalidFromVE">持续时间格式无法识别。</entry>
+    <entry key="UndetectableFormat">无法识别 {0} 的格式。\n数据格式应为 ''{1}'' 或 ''{2}''。</entry>
+    <entry key="DetectedTwoPart">持续时间文本格式具有多义性。请使用 ''{0}'' 或 ''{1}'' 指定 ''InputFormat''。</entry>
+    <entry key="DataMismatchedFormat">无法使用 ''{1}'' 格式解析 {0}。</entry>
+    <entry key="InvalidInputFormat">持续时间的 InputFormat 必须为字符向量或字符串标量。</entry>
+    <entry key="UnrecognizedInputFormat">格式 ''{0}'' 不受支持。请参阅 ''InputFormat'' 的文档以了解有效的格式。</entry>
+    <entry key="AutoConvertString">无法将文本 ''{0}'' 转换为持续时间值，因为无法识别该文本的格式。</entry>
+    <entry key="IgnoredInputFormat">根据非文本数据创建持续时间数组时，'InputFormat' 参数不起任何作用。它将被忽略。</entry>
+    <entry key="DurationTextLiteral">持续时间文本</entry>
+    <entry key="UnsupportedMethodCodegen">代码生成的持续时间不支持 {0} 方法。</entry>
+    <entry key="TextConstructionCodegen">代码生成中不支持从文本输入创建持续时间。</entry>
+    <entry key="InvalidConversionCodegen">无法从 {0} 转换为持续时间。</entry>
+    <entry key="MustBeRealMillis">milliseconds 必须始终是实数值。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2018-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidInput">All inputs must be datetime arrays or date/time character vectors or date/time strings.</entry>
+    <entry key="InputSizeMismatch">All inputs must have compatible sizes.</entry>
+    <entry key="InvalidIntervalType">Specify the interval type as 'openright', 'openleft', 'open', or 'closed'.</entry>
+  </message>
+</rsccat>

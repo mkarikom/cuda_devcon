@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelsCallsSameRows">LABELS 和 CALLS 的行数必须相同。</entry>
+    <entry key="LabelsTagsSameRows">LABELS 和 TAGS 的行数必须相同。</entry>
+    <entry key="InvalidLabel">标签字符向量必须包含至少一个非 "&gt;" 的字符</entry>
+    <entry key="EmptyField">标签字段为空。</entry>
+  </message>
+</rsccat>

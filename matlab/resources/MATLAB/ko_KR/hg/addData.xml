@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NullArgument">addData 메서드에 대한 null 인수</entry>
+    <entry key="Datatype">YData 인수는 double형이어야 합니다.</entry>
+    <entry key="BadDimensions">꼭짓점은 Nx3 행렬이어야 함</entry>
+    <entry key="DatatypeMismatch">{0} 속성의 데이터형이 double형이 아니므로 추가할 수 없습니다.</entry>
+  </message>
+</rsccat>

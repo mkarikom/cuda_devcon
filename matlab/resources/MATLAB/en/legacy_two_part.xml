@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  ***** DO NOT ADD ANY __NEW__ ENTRIES IN THIS FILE *****
+
+  Only existing (grandfathered) two-part message IDs are to be found here.
+  If you edit this file for any reason, make sure you are removing entries,
+  not adding them.
+
+-->
+<!-- Copyright 2010-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed">
+  <message>
+<!--    <entry key="invalidInput">mxGetProperty and mxSetProperty work on public properties.</entry> -->
+    <entry key="nomem">Out of memory.</entry>
+
+    <!-- Begin content from src/matrix/mtrx.mcf -->
+    <entry key="err_sparse_64bit_obsolete">Function "{0}" is obsolete.\n(64-bit mex files using sparse matrices must be rebuilt with the "-largeArrayDims" option.  See the R2006b release notes for more details.)</entry>
+    <entry key="err_non_scalar_function_handles">Nonscalar arrays of function handles are not allowed; use cell arrays instead.</entry>
+    <entry key="err_function_obsolete">Function "MXCREATEFULL" is obsolete.\nIf your MEX file or Simulink S-function calls this function, replace it with "MXCREATEDOUBLEMATRIX".\nIf this error originates from a Fortran Simulink S-function that does not call "MXCREATEFULL", recompile the S-function in the current release.</entry>
+    <!-- End content from src/matrix/mtrx.mcf -->
+
+    <!-- Begin content for messages from mxErrMsg enum map-->
+    <entry key="noerr">Not an error.</entry>
+    <entry key="maxrhs">Too many input arguments.</entry>
+    <entry key="minrhs">Not enough input arguments.</entry>
+    <entry key="maxlhs">Too many output arguments.</entry>
+    <entry key="minlhs">Not enough output arguments.</entry>
+    <entry key="vector">Argument must be a vector.</entry>
+    <entry key="square">Matrix must be square.</entry>
+    <entry key="singular">Matrix is singular to working precision.</entry>
+    <entry key="noconverge">Solution will not converge.</entry>
+    <entry key="nostring" note="stringDatatypeUpdate">Character vector argument is an unknown option.</entry>
+    <entry key="dimagree">Matrix dimensions must agree.</entry>
+    <entry key="posdef">Matrix must be positive definite.</entry>
+    <entry key="innerdim">Incorrect dimensions for matrix multiplication. Check that the number of columns in the first matrix matches the number of rows in the second matrix. To perform elementwise multiplication, use '.*'.</entry>
+    <entry key="samelen">Vectors must be the same length.</entry>
+    <entry key="nocomplex">Complex case is not available.</entry>
+    <entry key="badopt">Unknown command option.</entry>
+    <entry key="string" note="stringDatatypeUpdate">Arguments must contain a character vector.</entry>
+    <entry key="pmaxsize">Requested array exceeds the maximum possible variable size.</entry>
+    <entry key="overflow">Floating point overflow.</entry>
+    <entry key="mesh">Error in MESH arguments.</entry>
+    <entry key="nonaninf">NaN and Inf not allowed.</entry>
+    <entry key="badargs">Mismatched arguments.</entry>
+    <entry key="outrange">Coordinates out of range.</entry>
+    <entry key="ginput">Problem using GINPUT device.</entry>
+    <entry key="builtin">Built-in function.</entry>
+    <entry key="badfid_mx">Invalid file identifier.  Use fopen to generate a valid file identifier.</entry>
+    <entry key="badformat_mx">Invalid format.</entry>
+    <entry key="badoffset_mx">Invalid offset.</entry>
+    <entry key="badorigin_mx">Invalid origin.</entry>
+    <entry key="badstringall_mx" note="stringDatatypeUpdate">Character vector argument must be ''all''.</entry>
+    <entry key="badstringarg1_mx" note="stringDatatypeUpdate">First argument must be a character vector.</entry>
+    <entry key="badstringarg2_mx" note="stringDatatypeUpdate">Second argument must be a character vector.</entry>
+    <entry key="badstringclear_mx">Second argument must be ''clear''.</entry>
+    <entry key="badmachformat_mx">Invalid machine format.</entry>
+    <entry key="noformat_mx" note="stringDatatypeUpdate">No format character vector.</entry>
+    <entry key="badnchar_mx">Invalid character count.</entry>
+    <entry key="nologicalnan">NaN values cannot be converted to logicals.</entry>
+    <entry key="nologicalcomplex">Complex values cannot be converted to logicals.</entry>
+    <entry key="subsassigndimmismatch">Unable to perform assignment because the indices on the left side are not compatible with the size of the right side.</entry>
+    <entry key="subsdeldimmismatch">Matrix index is out of range for deletion.</entry>
+    <entry key="subsassignnumelmismatch">In an assignment  A(:) = B, the number of elements in A and B must be the same.</entry>
+    <entry key="badnullindex">Deletion requires an existing variable.</entry>
+    <entry key="badnullassign">A null assignment can have only one non-colon index.</entry>
+    <entry key="p64bitsize">Maximum variable size allowed by the function is exceeded.</entry>
+    <entry key="p32bitsize">Matrix API is called with negative size or index.</entry>
+    <!-- End content for messages from mxErrMsg enum map -->
+
+    <!-- Begin content from src/util/err/error_context.mcf -->
+    <entry key="err_fatal" translate="false" note="TranslateFalseBatch;"/>
+    <entry key="err_rethrow" translate="false" note="TranslateFalseBatch;">{0}</entry>
+    <!-- End content from src/util/err/error_context.mcf -->
+
+    <!-- Added messages: src/m_interpreter, src/m_lxe -->
+    <entry key="IRTokenExpected">File: {0} Line: {1} Column: {2} "{3}" expected, "{4}" found.</entry>
+    <entry key="IRUnterminatedAnnotation">File: {0} Line: {1} Column: {2}\nAnnotation beginning with {3} must be terminated with a second {4}.</entry>
+    <entry key="IRAttemptToRedefineVariableAnnotation">Internal Error: File: {0} Line: {1} Column: {2} an attempt was made to change the "{3}" attribute of variable "{4}" from {5} to {6}. This is not allowed.</entry>
+    <entry key="IRNameExpected">File: {0} Line: {1} Column: {2} Name expected, {3} found.</entry>
+    <entry key="IRUnexpectedEndOfFormals">File: {0} Line: {1} Column: {2} Unexpected end of input when parsing a formals list.</entry>
+    <entry key="anonymous_function_must_begin_with_at">The argument to anonymousFunction must begin with ''@''.</entry>
+    <entry key="anonymous_function_option">Invalid second argument to anonymousFunction.</entry>
+    <entry key="arrayDimensionsMustMatch">Array dimensions must match for binary array op.</entry>
+    <entry key="arghhhhDontDoThis">Don''t call this function!</entry>
+    <entry key="assigningResultsIntoInitializedEmptyLHS">The left hand side is initialized and has an empty range of indices.\nHowever, the right hand side returned one or more results.</entry>
+    <entry key="assigningResultsIntoUninitializedEmptyLHS">The left hand side is uninitialized and has an empty range of indices.\nHowever, the right hand side returned one or more results.</entry>
+    <entry key="assigninInvalidVariable">Invalid variable name "{0}" in ASSIGNIN.</entry>
+    <entry key="assignmentSubsError">Assignment subscript error.</entry>
+    <entry key="assignToKeyword" note="'keyword' is used in the context of a word that is reserved as having a special meaning">ASSIGNIN cannot assign to variables with the same name as a MATLAB keyword.</entry>
+    <entry key="atLeastOneIndexIsRequired">At least one index is required.</entry>
+    <entry key="badCaseExpression">CASE expressions cannot be of class {0}.</entry>
+    <entry key="badCaseExpressionNoEq">CASE expressions cannot be of class {0} because ''=='' (eq) is not defined for this class.</entry>
+    <entry key="badSwitchExpressionNoEq">SWITCH expressions cannot be of class {0} because ''=='' (eq) is not defined for this class.</entry>
+    <entry key="badCellRef">Bad cell reference operation.</entry>
+    <entry key="badFPUstate">MATLAB has detected an inconsistency in the state of the floating point unit.  This is often due to an incorrectly written mex file or third party library.</entry>
+    <entry key="badMojo">Incorrect password specified.  Get the magic word from Scott.</entry>
+    <entry key="badNumelResult">Overloaded NUMEL must return a non-negative, finite, real numeric scalar output.</entry>
+    <entry key="badRectangle">Improper assignment with rectangular empty matrix.</entry>
+
+    <!-- Begin badsubscript same ID, different messages -->
+    <entry key="badsubscript" translate="false" note="TranslateFalseBatch;">{0}</entry>
+    <entry key="badsubscriptTextRange">Array indices must be positive integers or logical values.</entry>
+    <entry key="badsubscriptTextDimension">Index exceeds array bounds.</entry>
+    <!-- End badsubscript same ID, different messages -->
+
+    <entry key="badSwitchExpression" note="stringDatatypeUpdate">SWITCH expression must be a scalar or a character vector.</entry>
+    <entry key="breakpoints_on_line">Breakpoints for {0} are on lines {1}.</entry>
+    <entry key="breakpoint_condition">  Breakpoint on line {0} has conditional expression "{1}".\n</entry>
+    <entry key="breakpoint_freeze_line">Breakpoint with -freeze on line {0}</entry>
+    <entry key="breakpoint_freeze_lines">Breakpoints with -freeze on lines {0}</entry>
+    <entry key="breakpoint_on_line">Breakpoint for {0} is on line {1}.\n</entry>
+    <entry key="cannotAssignToNonStruc">Attempt to assign field of non-structure array.</entry>
+    <entry key="cannotClear">Invalid use of CLEAR IMPORT. Call CLEAR IMPORT only from the command prompt.</entry>
+    <entry key="cannotIndexFunction">The function, script, or class {0} cannot be indexed using '{}' or . indexing.</entry>
+    <entry key="cantLoadDumplib">Cannot load jitdump{0} : {1}.</entry>
+    <entry key="catUnableToConvert">CAT is unable to convert all inputs to a common type.</entry>
+    <entry key="caught_error_breakpoint_stop">\nCaught-error breakpoint was hit in {0} at line {1,number,integer}. The error was:\n\n{2}\n\n</entry>
+    <entry key="cellAssToNonCell">Unable to perform assignment because brace indexing is not supported for variables of this type.</entry>
+    <entry key="cellRefFromNonCell">Brace indexing is not supported for variables of this type.</entry>
+    <entry key="cellSubsCountZero">Cell array subscript count is zero.</entry>
+    <entry key="charClearPrintRequired">Character argument (clear, print) required.</entry>
+    <entry key="colonAssSizeMustBeSame">In an assignment A(:,:) = B, the size of A and B must be the same.</entry>
+    <entry key="colon_index_assign_column_count_mismatch">In an assignment  A(matrix,:) = B, the number of columns in A and B\nmust be the same.</entry>
+    <entry key="colon_index_assign_element_and_column_count_mismatch">In an assignment  A(:,matrix) = B, the number of elements in the subscript of A and the number\nof columns in B must be the same.</entry>
+    <entry key="colon_index_assign_element_and_row_count_mismatch">In an assignment A(matrix,:) = B, the number of elements in the subscript of A and\nthe number of rows in B must be the same.</entry>
+    <entry key="colon_index_assign_element_count_mismatch">In an assignment  A(:) = B, the number of elements in A and B must be the same.</entry>
+    <entry key="colon_index_assign_row_count_mismatch">In an assignment  A(:,matrix) = B, the number of rows in A and B\nmust be the same.</entry>
+    <entry key="commalistCellNotCell">Comma separated list expansion has cell syntax for an array that is not a cell.</entry>
+    <entry key="commaListHasZeroItems">Comma separated list has zero items.</entry>
+    <entry key="commaListNotSingular">{0} comma separated list must have exactly one item.</entry>
+    <entry key="comma_space_u" translate="false" note="TranslateFalseBatch;">, {0}</entry>
+    <entry key="complexInteger">Complex integers are not supported.</entry>
+    <entry key="complexInts">Complex integer arithmetic is not supported.</entry>
+    <entry key="complexNotSupported">This function only supports real inputs.</entry>
+    <entry key="conditionThrewError">Breakpoint expression ''{0}'' resulted in an error. The error was\n{1}</entry>
+    <entry key="conditionYieldedNonscalar">Breakpoint expression ''{0}'' resulted in a non-scalar value.</entry>
+    <entry key="conditionYieldedNonlogical">Breakpoint expression ''{0}'' resulted in a non-logical value.</entry>
+    <entry key="dbdownGotStringExpectedNumeric" note="stringDatatypeUpdate">Input to dbdown was a character vector, expected a scalar positive numeric value.</entry>
+    <entry key="dbOnlyInDebugMode">Debug commands only allowed when stopped in debug mode.</entry>
+    <entry key="dbupGotStringExpectedNumeric" note="stringDatatypeUpdate">Input to dbup was a character vector, expected a scalar positive numeric value.</entry>
+    <entry key="declareGlobalBeforeUse">The value of local variables may have been changed to match the globals.  Future versions of MATLAB will require that you declare a variable to be global before you use that variable.</entry>
+    <entry key="disallowed_indexed_empty_matrix_assignment">Indexed empty matrix assignment is not allowed.</entry>
+
+    <!-- Begin dotRefOnNonScalar same ID, different messages -->
+    <entry key="dotRefOnNonScalar" translate="false" note="TranslateFalseBatch;">{0}</entry>
+    <entry key="dotRefOnNonScalarTextStructure">Dot name reference on non-scalar structure.</entry>
+    <entry key="dotRefOnNonScalarTextStructureObject">Dot name reference on non-scalar structure or object.</entry>
+    <!-- End scriptNotAFunction same ID, different messages -->
+
+    <entry key="doubleOrCharArgRequired">Double or Character argument required.</entry>
+    <entry key="dumpOnOrOff">Must be called with ''dump'', ''on'' or ''off''.</entry>
+    <entry key="elementsNowStruc">Element(s) of class ''{0}'' do not match the current constructor definition.  The element(s) have been converted to structures.</entry>
+    <entry key="emptyDotAssignment">A dot name structure assignment is illegal when the structure is empty.  Use a subscript on the structure.</entry>
+    <entry key="emptyObjectDotAssignment">Property assignment is not allowed when the object is empty.  Use subscripted assignment to create an array element.</entry>
+    <entry key="endCellStructReference">Incorrect cell or structure reference involving "end".\nMost likely cause is a reference to multiple elements of a cell or structure followed by additional subscript or structure references.</entry>
+    <entry key="error_in">Error in</entry>
+    <entry key="error_using">Error using</entry>
+    <entry key="err_class_dot_indexing">In the construct {0}.(X), the class of X must be "char", not "{1}".</entry>
+    <entry key="err_illegal_dbstack_argument" note="stringDatatypeUpdate">Arguments must consist of a nonnegative integer, '-completenames', or a single instance of each.</entry>
+    <entry key="err_illegal_dbstatus_argument">dbstatus accepts only one MATLAB-file argument.</entry>
+    <entry key="err_improper_evaled_parfor">Only M functions may eval a parfor or spmd statement.\n See {0}.</entry>
+    <entry key="err_nested_function_inconsistent_workspace_context">A handle to the nested function "{0}" cannot now be invoked.\n The problem is that the context of enclosing functions has changed since the handle was created.  To recover, regenerate the function handle using the updated function.</entry>
+    <entry key="err_no_pfile_with_imports_and_no_java">It is illegal to create a .p file from {0}, because this file has imports and java is not running.</entry>
+    <entry key="err_parse_cannot_access_previously_accessible_file">Previously accessible file "{0}" is now inaccessible.</entry>
+    <entry key="err_parse_cannot_run_m_file">The file\n   "{0}"\ncannot be executed.</entry>
+    <entry key="err_parse_demo_cannot_run_mfile">DEMO MATLAB cannot run file {0}.</entry>
+    <entry key="err_parse_demo_cannot_run_pfile">DEMO MATLAB cannot run {0} P-file {1}.</entry>
+    <entry key="err_parse_eval_cannot_be_function" note="stringDatatypeUpdate">Character vectors passed to EVAL cannot contain function declarations.</entry>
+    <entry key="err_parse_no_registered_debug_prompt">Internal Error: No debug prompt function has been registered with the interpreter.</entry>
+    <entry key="err_parse_runtime_cannot_load_pfile">{0} is a P-file that may not be loaded\nby this Runtime MATLAB.</entry>
+    <entry key="err_parse_runtime_cannot_run_mfile">Runtime MATLAB cannot run file {0}.</entry>
+    <entry key="err_parse_runtime_cannot_run_pfile">Runtime MATLAB cannot run {0} P-file {1}.</entry>
+    <entry key="err_parse_runtime_nonruntime_mismatch">Non-Runtime P-file {0} cannot run while in Runtime mode.</entry>
+    <entry key="err_static_workspace_violation">Attempt to add "{0}" to a static workspace.</entry>
+    <entry key="err_transparency_violation">Transparency violation error.\nSee {0}Workspace Transparency in MATLAB Statements{1}.</entry>
+    <entry key="err_valid_m_file_name">"{0}" is not a valid MATLAB file name.</entry>
+    <entry key="err_while_looking_up_function">An error occurred while trying to determine whether "{0}" is a function name.</entry>
+    <entry key="extraneousObjectRefBlocks">Property reference for multiple object elements that is followed by more reference blocks is an error.</entry>
+    <entry key="extraneousStrucRefBlocks">Field reference for multiple structure elements that is followed by more reference blocks is an error.</entry>
+    <entry key="fcnNotOnPlatform">Function {0} is not available on this platform.</entry>
+    <entry key="fieldConstructorMismatch">Fields of object ''{0}'' do not match the current constructor definition for class ''{1}''.  The object has been converted to a structure.</entry>
+    <entry key="fieldConstructorMismatchConvertToStuct">Fields of an object of class ''{0}'' do not match the current constructor definition.  The object has been converted to a structure.</entry>
+    <entry key="fileHasDisappeared">Previously accessible file "{0}" is now inaccessible.</entry>
+    <entry key="file_at_line">{0} at {1,number,integer}</entry>
+    <entry key="ForCharIndexing">FOR loop index with character indexing will return character instead of double in future release.</entry>
+    <entry key="forLoopIndexingNotSupported">FOR loop iteration over embedded.fi objects is not supported. \nConsider rewriting the loop to use an independent index variable to access the data in the fi object.</entry>
+    <entry key="ForOpaqueIndexing">FOR loop index with opaque indexing cannot be evaluated.</entry>
+    <entry key="functionHasDisappeared">Function {0} no longer exists</entry>
+    <entry key="functionObsolete">Function {0} is obsolete.</entry>
+    <entry key="FunctionRemoved">Internal function {0} is not registered</entry>
+    <entry key="heterogeneousAssignment">Assignment between unlike types is not allowed.</entry>
+    <entry key="heterogeneousStrucAssignment">Subscripted assignment between dissimilar structures.</entry>
+    <entry key="improperIndexMatrixRef">Improper index matrix reference.</entry>
+    <entry key="inconsistentPrecedence">Inconsistent precedence for inputs</entry>
+    <entry key="indeterminateFields">Could not determine the fields for class {0} by calling the constructor with no input arguments.  The object {1} has been converted to a structure.  To eliminate the conversion create an object of class {2} before calling LOAD.</entry>
+    <entry key="indeterminateFieldsConvertToStruct">Fields of an object of class {0} could not be determined by calling the constructor with no input arguments. The object has been converted to a structure.  To eliminate the conversion create an object of class {1} before calling LOAD.</entry>
+    <entry key="indexing_yields_only_one_result">This index expression yields only one result.</entry>
+    <entry key="index_assign_element_and_column_count_mismatch">In an assignment  A(matrix,matrix) = B, the number of columns in B\nand the number of elements in the A column index matrix must be the same.</entry>
+    <entry key="index_assign_element_and_row_count_mismatch">In an assignment  A(matrix,matrix) = B, the number of rows in B\nand the number of elements in the A row index matrix must be the same.</entry>
+    <entry key="index_assign_element_count_mismatch">In an assignment  A(I) = B, the number of elements in B and I must be the same.</entry>
+    <entry key="index_to_remove_exceeds_matrix_dimensions">Index of element to remove exceeds matrix dimensions.</entry>
+    <entry key="indexed_matrix_cannot_be_resized">In an assignment  A(I) = B, a matrix A cannot be resized.</entry>
+    <entry key="indexed_matrix_cannot_be_resized_to_row_vector">In an assignment  A(I) = B, matrix A is too large to be resized to a row vector.</entry>
+    <entry key="indices_not_full_double">Matrix indices must be full double.</entry>
+    <entry key="inputArgUndefined">Input argument "{0}" is undefined.</entry>
+    <entry key="integerPower">Integers can only be raised to positive integral powers.</entry>
+    <entry key="insufficient_rhs_outputs">Insufficient number of outputs from the right hand side of an assignment to satisfy the left hand side.</entry>
+    <entry key="intruderAlert">Access to an object''s fields is only permitted within its methods.</entry>
+    <entry key="InvalidAccelBlockSize">Invalid accel block size.</entry>
+    <entry key="InvalidAccelMaxTemps">Invalid accel max temps.</entry>
+    <entry key="InvalidAccelThreadBlockMin">Invalid accel thread block minimum.</entry>
+    <entry key="invalidConversion">Conversion to {0} from {1} is not possible.</entry>
+    <entry key="InvalidMaxHotSegs">Invalid hot segment size.</entry>
+    <entry key="invalidPfileVersion">Unable to open P-file {0} in the current version of MATLAB. Open it using a newer version of MATLAB, or generate a new P-file using the current version.</entry>
+    <entry key="jitAllowBadKind">Arg must be impure, ws_interaction, eval, feval, mcos, Mfunctions, ucb, structs, safe_structs, uplevel_structs, peepholes, scalar_cache, cloning, jit_api, force_all_checks, force_bad_bits, force_integral_checks, force_low_checks, force_high_checks, force_share_checks, force_empty_checks, force_zero_checks, no_shadow_checks, no_idiom_checks, non_scalar_fields, force_single, fast_jit_call,promote_double_to_complex, non_scalar_structs, non_scalar_struct_growth, cell_array_indexing, interesting_loop_vars, better_case, script_calls, handle_class, object_assignment, mcos_methods, struct_args, prompt, eval or bailout</entry>
+    <entry key="jitAllowCharArgRequired">Character argument required.</entry>
+    <entry key="JITQEcannotClearInUse">Attempt to clear JIT QE data while in use.</entry>
+    <entry key="JITQEcannotCollectStatic">Cannot collect static data while jitqe is enabled.</entry>
+    <entry key="JITQEcannotDisableActive">Cannot disable jitqe while hot region is still active.</entry>
+    <entry key="JITQEmultienter">Attempting to enter the same segment in ''{0}'' more than once.</entry>
+    <entry key="JITQEmultiexit">Exiting the same segment in ''{0}'' more than once.</entry>
+    <entry key="JITQEneverexit">Never exited JITQE for segment in ''{0}''.</entry>
+    <entry key="JITQEnotSameFcn">JITQE feature must be disabled in the same function ''{0}'' in which it was enabled.</entry>
+    <entry key="JITQEScottRules">Unknown JITQE command ''{0}''.</entry>
+    <entry key="jitSetStackAlignmentIllegalAlign">Stack alignment must be 1, 4 or 8.</entry>
+    <entry key="jitSetStackAlignmentNumericArg">Numeric argument required.</entry>
+    <entry key="lastusescan">Variable is marked lastuse:  {0}</entry>
+    <entry key="lineBeyondFileEnd">Setting or clearing breakpoints past the start of the last expression is not supported.</entry>
+    <entry key="lineBeyondPFileEnd">Specifying breakpoint location is not supported when setting or clearing breakpoints in protected code file {0}.</entry>
+    <entry key="loadobj">An error occurred when running a class''s loadobj method. The object that was loaded from the MAT-file was a copy of the object before the loadobj method was run. The rest of the variables were also loaded from the MAT-file.\nThe encountered error was:\n{0}\n</entry>
+    <entry key="loadobjErrors">Error occurred while trying to call loadobj on a {0} object:\n{1}</entry>
+    <entry key="logEvalCannotOpenFile">Could not open eval log file {0} in mode {1}: {2}</entry>
+    <entry key="logEvalThirdArgNotScalarDouble">Third argument must be scalar double</entry>
+    <entry key="LxeProfilerInDebugBuild">You will get incorrect profiling data since LXE is Not a release build.\n** Please build it with ''gmake ASSERTS=0'' for a release profiling build unless this is for event counting.</entry>
+    <entry key="lxeprofilerOnOrOff">feature lxe_profiler must be called with ''on'' or ''off''.</entry>
+    <entry key="mexChangedInput">Mex file ''{0}'' changed the value of one of its input arguments.</entry>
+    <entry key="MfileDoesNotExist">MCHECK error: file {0} does not exist.</entry>
+    <entry key="MIRParenIndexMustBeLast">()-indexing must appear last in an index expression.</entry>
+    <entry key="m_file_not_found">MATLAB file not found: {0}</entry>
+    <entry key="mixedClasses">Integers can only be combined with integers of the same class, or scalar doubles.</entry>
+    <entry key="Muggles">No password specified.  Get the magic word from Scott.</entry>
+    <entry key="MultipleResultsFromIndexing">Indexing cannot yield multiple results.</entry>
+    <entry key="munlockAndClear">MUNLOCK and CLEAR {0} before trying to PCODE.</entry>
+    <entry key="munlockAndEcho">MUNLOCK {0} before trying to ECHO</entry>
+    <entry key="mustBeFieldName">Argument to dynamic structure reference must evaluate to a valid field name.</entry>
+    <entry key="mustBe01OffOn">Value must be 0, 1, off, or on.</entry>
+    <entry key="m_function_shadowed_by_non_m">M-function "{0}" does not exist or is shadowed.</entry>
+    <entry key="ndFullOnly">N-dimensional indexing allowed for full matrices only.</entry>
+    <entry key="needDefinedExpressionOnLHS">The left hand side has {0}, followed by indexing ending with '{':'}', inside brackets, which requires that {1} followed by its indexing be defined, so that the number of expected results can be computed.</entry>
+    <entry key="needDefinedVariableOnLHS">The left hand side has {0}'{':'}' inside brackets, which requires that {1} be defined, so that the number of expected results can be computed.</entry>
+    <entry key="needMoreOutputs">Insufficient outputs from right hand side to satisfy comma separated list expansion on left hand side.  Missing [] are the most likely cause.</entry>
+    <entry key="needMoreOverloadOutputs">Insufficient number of outputs from function on right hand side of equal sign to satisfy overloaded assignment.</entry>
+    <entry key="needMoreRhsOutputs">Insufficient number of outputs from right hand side of equal sign to satisfy assignment.</entry>
+    <entry key="newFieldsNotAllowed">Adding new fields to an object is not permitted.</entry>
+    <entry key="NoConstructorOrStaticMethod">Unable to call constructor or static method {0}.</entry>
+    <entry key="noDefaultConstructor">Object {0} of class {1} is missing a constructor or an error occurred in calling constructor with no inputs.</entry>
+    <entry key="noLinesInFile">No executable lines in file.</entry>
+    <entry key="nonExistentCellElement">Reference to non-existent element of a cell array.</entry>
+    <entry key="nonExistentField">Unrecognized field name "{0}".</entry>
+    <!-- Begin should be used in JIT only. Otherwise use MATLAB::matrix::nonIntegerInput -->
+    <entry key="NonIntegerInput">Size inputs must be integers.</entry>
+    <!-- End should be used in JIT only. Otherwise use MATLAB::matrix::nonIntegerInput -->
+    <entry key="nonLogicalConditional"><![CDATA[Operands to the logical and (&&) and or (||) operators must be convertible to logical scalar values.]]></entry>
+    <entry key="nonStrucAssignment">Structure assignment to non-structure object.</entry>
+    <entry key="nonStrucReference">Attempt to reference field of non-structure array.</entry>
+    <entry key="nonStructureFieldRef">Attempt to reference field of non-structure.</entry>
+    <entry key="nonUniquePartialReference">A partial reference returned {0,number,integer} results instead of exactly 1.</entry>
+    <entry key="noPublicFieldForClass">Unrecognized property ''{0}'' for class ''{1}''.</entry>
+    <entry key="noScalarColon">Scalar assignment with single colon index is not supported for this data type.</entry>
+    <entry key="noSparseNdAssignment">N-dimensional assignments are not allowed for sparse matrices.</entry>
+    <entry key="noSuchField">No public field {0} exists for class {1}.</entry>
+    <entry key="noSuchRehash">No such rehash option.</entry>
+    <entry key="noSuchMethodOrField">Unrecognized method, property, or field ''{0}'' for class ''{1}''.</entry>
+    <entry key="not_enough_anonymous_functions_on_line">Line {0,number,integer} of file {1} does not have {2,number,integer} anonymous functions.</entry>
+    <entry key="notObjectForLHSelements">Default constructor for object class {0} did not return an object of that class.</entry>
+    <entry key="noValueForAssignment">No right hand side value for assignment.</entry>
+    <entry key="no_anonymous_function_on_line">There is no anonymous function on line {0,number,integer} of file {1}.</entry>
+    <entry key="numberOfArrayDimensionsMustMatch">Number of array dimensions must match for binary array op.</entry>
+    <entry key="numericArgRequired">Numeric argument required.</entry>
+    <entry key="objectConstructorMismatch">Object {0} of class {1} does not match the current constructor definition.</entry>
+    <entry key="objectStillExists">The following classes still have existing instances that cannot be cleared:\n{0}</entry>
+    <entry key="offBriefOrFull">Please specify Off, Brief, On, or Full.</entry>
+    <entry key="oldPfileVersion"><![CDATA[The P-code file {0}.p was generated prior to MATLAB version 7.5 (R2007b) and will not be supported in a future release.  Use <a href="matlab:doc pcode">pcode</a> to regenerate {1}.p using MATLAB R2007b or later.]]></entry>
+    <entry key="parentFieldTooDeep">Maximum depth allowed for parent field exceeded.</entry>
+    <entry key="period_newline" translate="false" note="TranslateFalseBatch;">.\n</entry>
+    <entry key="persistentNotInFunction">A PERSISTENT declaration is only allowed in a function.</entry>
+    <entry key="persistentVariableAlreadyInWS">Variable {0} exists in the current workspace.</entry>
+    <entry key="pfileOlderThanMfile">P-file {0} is older than MATLAB file {1}.\n{2} may be obsolete and may need to be regenerated.\nType "help pcode" for information about generating P-files.</entry>
+    <entry key="predictorArg2MustBeNumber">Second argument must be a number.</entry>
+    <entry key="predictorBadStruct">bad fields in struct.</entry>
+    <entry key="predictorCharArgRequired">Character argument required.</entry>
+    <entry key="predictorNoBuiltinVisible">MATLAB is starting in a directory where ''{0}'' shadows the builtin function ''{1}''. We suggest you rename the file to avoid potential performance degradation.</entry>
+    <entry key="predictorNotRegFcn">{0} is not a registered function.</entry>
+    <entry key="predictorNotStruct">argument to load is not a struct.</entry>
+    <entry key="predictorRecordRequires2Args">record requires 2 arguments.</entry>
+    <entry key="predictorScottRules">Unknown predictor feature ''{0}''.</entry>
+    <entry key="predictorVerifyIsOn">Predictor verify feature is on by default!</entry>
+    <entry key="realNotSupported">This function only supports complex inputs.</entry>
+    <entry key="recursionLimit">Maximum recursion limit of {0,number,integer} reached.</entry>
+    <entry key="referenceToFieldFailed">Reference to {0} in class {1} failed.</entry>
+    <entry key="refClearedVar">Reference to a cleared variable {0}.</entry>
+    <entry key="refUnderConstruction">Variable "{0}" is inaccessible. When a variable appears on both sides of an assignment statement, the variable may become temporarily unavailable during processing.</entry>
+    <entry key="rowsNotConsistent">'{}' number of elements must be same in each row.</entry>
+    <entry key="saveobj">An error occurred when running a class''s saveobj method. The object that was saved in the MAT-file was a copy of the object before the saveobj method was run. The rest of the variables were also saved in the MAT-file.\nThe encountered error was:\n{0}\n</entry>
+    <entry key="scalarCellIndexRequired">Scalar cell array indices required in this assignment.</entry>
+    <entry key="scalarIndexRequired">Scalar index required for this type of multi-level indexing.</entry>
+    <entry key="scalarStrucRequired">Scalar structure required for this assignment.</entry>
+    <entry key="scopedAccelEnablementNotInMfile">ScopedAccelEnablement can be used only in an M file.</entry>
+    <entry key="scriptLackingMemory">Insufficient memory to execute script {0}.</entry>
+    <entry key="scriptNotAFunction">Execution of script {0} as a function is not supported:\n{1}</entry>
+    <entry key="shortPfileFormat">Not enough bytes in P-file "{0}".</entry>
+    <entry key="signatureMatchNotFound">match not found for {0}({1}) expected lhs: ({2})</entry>
+    <entry key="signatureMismatch">signature mismatch for {0}({1}) -> ({2}) expected lhs: ({3})</entry>
+    <entry key="sizeDimensionsMustMatch">Arrays have incompatible sizes for this operation.</entry>
+    <entry key="sparseInteger">Sparse integer array arithmetic operations are not supported.</entry>
+    <entry key="SparseAssLimitTwoDims">Sparse assignment is limited to 2 dimensions.</entry>
+    <entry key="SparseSubLimitTwoDims">Sparse subscripting is limited to 2 dimensions.</entry>
+    <entry key="staticMethodCellIndex">The result of calling the static method or constructor "{0}" cannot be indexed with cell array indexing.</entry>
+    <entry key="staticMethodIndex">Static method or constructor invocations cannot be indexed.\nDo not follow the call to the static method or constructor with any additional indexing or dot references.</entry>
+    <entry key="structAssToNonStruct">Unable to perform assignment because dot indexing is not supported for variables of this type.</entry>
+    <entry key="structRefFromNonStruct">Dot indexing is not supported for variables of this type.</entry>
+    <entry key="structSizeMismatch">In an assignment [a,b,...] = x.f, the number of outputs must match the number of elements of x.  Here, there are {0,number,integer} outputs and x has {1,number,integer} elements.</entry>
+    <entry key="subsArgEmpty">Subscript argument to SUBSREF and SUBSASGN must not be empty.</entry>
+    <entry key="subsArgNotStruc">Subscript argument to SUBSREF and SUBSASGN must be a structure.</entry>
+    <entry key="subsasgnMustHaveOutput">SUBSASGN must be called with an output.</entry>
+    <entry key="subsCellIsEmpty">The "subs" field for the subscript argument to SUBSREF and SUBSASGN must be a non-empty cell or character array.</entry>
+    <entry key="subscripting_undefinedClass">The class "{0}" is undefined.\nPerhaps Java is not running.</entry>
+    <entry key="subsDotMustBeChar">Dynamic field or property name must be a string scalar or character vector.</entry>
+    <entry key="subsDotMustFollow">Only a dot field name can follow ()''s.</entry>
+    <entry key="subsInvalidFieldName">Invalid field name component.</entry>
+    <entry key="subsMustHaveTwo">Subscript argument to SUBSREF and SUBSASGN must have two fields.</entry>
+    <entry key="subsMustHaveTypeSubs">Subscript argument to SUBSREF and SUBSASGN must have two fields whose names are "type" and "subs".</entry>
+    <entry key="subsSmoothTypeSubsMustBeCell">SUBS field must be a cell array for () TYPE.</entry>
+    <entry key="subsSquigglyTypeSubsMustBeCell">SUBS field must be a cell array for '{}' TYPE.</entry>
+    <entry key="subsSubsMustBeCellOrChar">The "subs" field for the subscript argument to SUBSREF and SUBSASGN must be a cell or character array.</entry>
+    <entry key="subsSuperfluousInputs">Too many inputs to SUBSASGN.</entry>
+    <entry key="subsTypeMustBeChar">The "type" field in the indexing structure argument to SUBSREF and SUBSASGN must be a string scalar or character vector.</entry>
+    <entry key="subsTypeMustBeSquigglyOrSmooth">The "type" field in the indexing structure argument to SUBSREF and SUBSASGN must be a string scalar or character vector of "." or "'{}'" or "()".</entry>
+    <entry key="subsUninitialized">Uninitialized "subs" field entry.</entry>
+    <entry key="tempNoDefaultConstructor">Temporary object of class {0} is missing a constructor or an error occurred in calling constructor with no inputs.</entry>
+    <entry key="tempObjectConstructorMismatch">Temporary object of class {0} does not match the current constructor definition.</entry>
+    <entry key="ThreadResourceError">Insufficient memory to create worker threads.</entry>
+    <entry key="TooManyInputs">Too many input arguments.</entry>
+    <entry key="tooManyLeftElements">Illegal left hand side cell expansion in assignment.  Too many elements.</entry>
+    <entry key="TooManyOutputs">Too many output arguments.</entry>
+    <entry key="TooManyOutputsDueToMissingBraces">Unable to perform assignment with 0 elements on the right-hand side.</entry>
+    <entry key="tooManyRightElements">Illegal right hand side in assignment. Too many elements.</entry>
+    <entry key="tooManySecondaryCycleBins">Too many secondary interpreter cycle bins.</entry>
+    <entry key="too_few_values_for_assignment">The right hand side of this assignment has too few values to satisfy the left hand side.</entry>
+    <entry key="too_many_rhs_elements">Illegal right hand side in assignment. Too many elements.</entry>
+    <entry key="traceEvalNotAvailable">Feature TRACEEVAL not available in this build.</entry>
+    <entry key="UnalignedAccelBlockSize">Accel block size will cause non-quadword aligned memory access.</entry>
+    <entry key="unassignedOutput">Unassigned output.</entry>
+
+    <!-- Begin unassignedOutputs same ID, different messages -->
+    <entry key="unassignedOutputs" translate="false" note="TranslateFalseBatch;">{0}</entry>
+    <entry key="unassignedOutputsText">One or more output arguments were not assigned.</entry>
+    <entry key="unassignedOutputsTextSimple">One or more output arguments not assigned during call to "{0}".</entry>
+    <entry key="unassignedOutputsTextFullPath">One or more output arguments not assigned during call to "{0} ({1})".</entry>
+    <entry key="unassignedOutputsTextMaybeOthers">Output argument "{0}" (and possibly others) not assigned a value in the execution with "{1}" function.</entry>
+    <!-- End unassignedOutputs same ID, different messages -->
+
+    <entry key="UnableToConvert">The following error occurred converting from {0} to {1}:\n{2}</entry>
+    <entry key="undefinedAns">The variable "ans" is undefined.</entry>
+    <entry key="undefinedCapsLock">Undefined variable or function {0}.  Caps Lock may be on.</entry>
+
+    <!-- Begin UndefinedFunction same ID, different messages -->
+    <entry key="UndefinedFunction" translate="false" note="TranslateFalseBatch;">{0}</entry>
+    <entry key="UndefinedFunctionText">Unrecognized function or variable ''{0}''.</entry>
+    <entry key="UndefinedFunctionTextFunctionHandle">Undefined function handle.</entry>
+    <entry key="UndefinedFunctionTextPathMayBeBad">The path may be bad.  Please save your work (if desired), and quit.</entry>
+    <entry key="UndefinedFunctionTextCommandFunction">Undefined command/function ''{0}''.</entry>
+    <entry key="UndefinedFunctionTextInputArgumentsType">Undefined function ''{0}'' for input arguments of type ''{1}''.</entry>
+
+    <!-- End UndefinedFunction same ID, different messages -->
+
+    <entry key="undefinedVariable">Undefined variable {0}.</entry>
+    <entry key="undefinedVarOrClass">Unable to resolve the name {0}.</entry>
+    <entry key="undefinedVarOrFunction">Undefined variable "{0}" or function "{1}".</entry>
+    <entry key="undefined_function_or_bad_assignment">Undefined function or improper matrix assignment.</entry>
+    <entry key="undefined_now_in_context">At compilation, "{0}" was determined to be a variable and this variable is uninitialized. "{1}" is also a function name and previous versions of MATLAB would have called the function. However, MATLAB 7 forbids the use of the same name in the same context as both a function and a variable.</entry>
+    <entry key="unexpectedOutputCount">A difference between the number of expected and actual outputs exists</entry>
+    <entry key="uninitializedSubscript">Uninitialized subscript.</entry>
+    <entry key="unknownElementsNowStruc">Class ''{0}'' is an unknown object class or does not have a valid ''loadobj'' method.  Element(s) of this class in array ''{1}'' have been converted to structures.</entry>
+    <entry key="elementConvertedToStruct">Class ''{0}'' is an unknown object class or does not have a valid ''loadobj'' method.  Elements of this class contained in an array have been converted to structures.</entry>
+    <entry key="unknownObjectNowStruct">Class ''{0}'' is an unknown object class or does not have a valid ''loadobj'' method.  Object ''{1}'' of this class has been converted to a structure.</entry>
+    <entry key="instanceConvertedToStruct">Class ''{0}'' is an unknown object class or does not have a valid ''loadobj'' method. The object of this class has been converted to a structure.</entry>
+    <entry key="VarargoutNotCell">Variable output array "varargout" must be a cell array.</entry>
+    <entry key="variableAlreadyPersistent">Variable {0} has already been made PERSISTENT.</entry>
+    <entry key="variable_with_multiple_lhs">Evaluating a variable (namely {0}) cannot yield multiple results.</entry>
+    <entry key="warning_from">Warning from</entry>
+    <entry key="warn_cannot_dot_index_function_outputs">Direct access of structure fields returned by a function call (e.g.,\n call to {0}) is not allowed. See {1} for details.</entry>
+        <entry key="warn_parse_feval_script">feval on script names will not work, or may work differently, in a future version of MATLAB.  To make your code insensitive to any change and to suppress this warning message:\n  - Either change the script to a function.\n  - Or use eval instead of feval.\n The script file in question is {0}.</entry>
+    <entry key="warn_r14_stucture_assignment">Struct field assignment overwrites a value with class "{0}". See MATLAB R14SP2 Release Notes, Assigning Nonstructure Variables As Structures Displays Warning, for details. </entry>
+    <entry key="warn_truncate_for_loop_index">Too many FOR loop iterations. Stopping after {0} iterations.</entry>
+    <entry key="warn_version_3_2_pcode">The P-code file {0} will execute in R14SP2, but earlier versions of MATLAB will not be able to use it.  To produce P-code that is executable by all R14 versions, you will need to make some minor changes.  See R14SP2 Release Notes for details.</entry>
+    <entry key="wrongNumInDotAssign">Incorrect number of right hand side elements in dot name assignment.  Missing [] around left hand side is a likely cause.</entry>
+    <entry key="wrongNumInOpaqueDotAssign">Incorrect number of right hand side elements in dot assignment to opaque field.</entry>
+    <entry key="wrong_capitalization">Undefined variable or function {0} might refer to the function {1}.</entry>
+  <!--Resource entries for src/mathlinalg-->
+    <entry key="rankDeficientMatrix">Rank deficient, rank = {0}, tol = {1}.</entry>
+    <entry key="singularMatrix">Matrix is singular to working precision.</entry>
+    <entry key="nearlySingularMatrix">Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND = {0}.</entry>
+    <entry key="illConditionedMatrix">Matrix is singular, close to singular or badly scaled. Results may be inaccurate. RCOND = NaN.</entry>
+    <!-- Content from MCOS and UDD -->
+    <entry key="ClassInstanceExists">Objects of ''{0}'' class exist.  Cannot clear this class or any of its superclasses.</entry>
+    <entry key="structOnObject">Calling STRUCT on an object prevents the object from hiding its implementation details and should thus be avoided. Use DISP or DISPLAY to see the visible public details of an object. See ''help struct'' for more information.</entry>
+    <entry key="CallbackError">Error occurred while evaluating listener callback.</entry>
+    <entry key="invalidOption">Invalid option.</entry>
+    <!--Resource entries for src/builtins-->
+    <entry key="notimplemented_mx">Operation is not implemented for requested file identifier.</entry>
+    <entry key="badfilename_mx">Invalid filename.</entry>
+    <entry key="badpermission_mx">Invalid permission.</entry>
+    <entry key="badprecision_mx">Invalid precision.</entry>
+    <entry key="badskip_mx">Invalid byte count to skip.</entry>
+    <entry key="badsize_mx">Invalid size.</entry>
+    <!-- Begin namelengthmaxexceeded same ID, different messages -->
+    <entry key="namelengthmaxexceededText">''{0}''\n exceeds MATLAB''s maximum name length of {1,number,integer} characters and has been truncated to\n ''{2}''.</entry>
+    <entry key="namelengthmaxexceededTextNoNewline">''{0}'' exceeds MATLAB''s maximum name length of {1,number,integer} characters and has been truncated to ''{2}''.</entry>
+    <!-- End badsubscript same ID, different messages -->
+
+    <entry key="interrupt">Interrupt</entry>
+
+    <!-- Begin lexer -->
+
+    <entry key="namelengthmaxexceeded">{0}''{1}'' exceeds the MATLAB maximum name length of {2,number,integer} characters and will be truncated to ''{3}''.</entry>
+    <entry key="lex_file_line_column">File: {0} Line: {1,number,integer} Column: {2,number,integer}</entry>
+    <entry key="lex_hot_file_line_column" translate="false" note="TranslateFalseBatch;"><![CDATA[<a]]> href="matlab: opentoline(''{0}'',{1,number,integer},{2,number,integer})">{3}<![CDATA[</a>]]></entry>
+
+
+    <entry key="openMfile">cannot open m file.</entry>
+    <entry key="allocateMfile">cannot allocate buffer for .m file.</entry>
+    <entry key="readMfile">cannot read .m file.</entry>
+    <entry key="mcrFile">cannot pcode a compiled file.</entry>
+    <entry key="screen">bad token {0} slipped past precompile screening.</entry>
+    <entry key="NullChar" note="stringDatatypeUpdate">cannot pcode character vector containing ASCII null.</entry>
+    <entry key="unableToOpenPfile">cannot open pcode output file.</entry>
+    <entry key="badPfileVersion">Invalid pfile. The file header is corrupt.</entry>
+    <entry key="corruptPfile_0">corrupt P-File.</entry>
+    <entry key="corruptPfile_1">corrupt P-file.</entry>
+    <entry key="corruptPfile_2">corrupt P-file.</entry>
+    <entry key="corruptPfile_3">corrupt P-file.</entry>
+    <entry key="openPfile">cannot open pcode input file.</entry>
+
+    <!-- End lexer -->
+
+    <!-- Begin parser -->
+
+    <entry key="m_doclink" translate="false" note="TranslateFalseBatch;"><![CDATA[<a]]> href="matlab: helpview([docroot ''{0}''],''{1}'')">{2}<![CDATA[</a>]]></entry>
+    <entry key="m_warning_end_without_block">Error: {0}Unmatched "end".</entry>
+    <entry key="m_not_output_name">Error: {0}The left operand of "@" in a constructor must be the first output name.</entry>
+    <entry key="m_unexpected_sep">Error: {0}Invalid expression. Check for missing or extra characters.</entry>
+    <entry key="m_not_current_method">Error: {0}Within a method, a superclass method of the same name is called by saying method@superclass.  The left operand of "@" must be the method name.</entry>
+    <entry key="m_constructor_must_have_output">Error: {0}Constructor "{1}" must have at least one output to return the class instance being constructed.</entry>
+    <entry key="m_literal_expected">Error: {0}Expected a variable, function, or constant, found "{1}".</entry>
+    <entry key="m_invalid_lhs_assignment">Error: {0}Invalid multiple left-hand-side assignment.</entry>
+    <entry key="m_keyword_use_reserved" note="'keyword' is used in the context of a word that is reserved as having a special meaning">Error: {0}Keyword "{1}" used in illegal context.</entry>
+    <entry key="m_incomplete_statement">Error: {0}This statement is incomplete.</entry>
+    <entry key="m_missing_end">Error: {0}At least one END is missing. The statement beginning here does not have a matching end.</entry>
+    <entry key="m_bangeq_not_an_operator">Error: {0}!= is not a MATLAB operator. Use ~= instead.</entry>
+    <entry key="m_token_expected">Error: {0}"{1}" expected, "{2}" found.</entry>
+    <entry key="m_improper_grouping">{0}Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for mismatched delimiters.</entry>
+    <entry key="m_sep_or_whitespace_expected">Error: {0}Missing operator, comma, semicolon, or white space.</entry>
+    <entry key="m_illegal_reserved_keyword_usage">Error: {0}Illegal use of reserved keyword "{1}".</entry>
+    <entry key="m_assignments_do_not_produce_results">Error: {0}Assignment statements do not produce results. (Use == to test\nfor equality.)</entry>
+    <entry key="m_unterminated_block_comment">Error: {0}Unterminated %'{' block. Use %'}' to terminate.</entry>
+    <entry key="m_missing_variable_or_function">{0}Invalid use of operator.</entry>
+    <entry key="m_missing_operator">{0}Invalid expression. Check for missing multiplication operator, missing or unbalanced delimiters, or other syntax error. To construct matrices, use brackets instead of parentheses.</entry>
+    <entry key="m_no_dots">Error: {0}Dotted names can be used only within a CLASS block.</entry>
+    <entry key="m_nested_function_definitions_must_be_at_top_level">Error: {0}''{1}'' nested function definitions must be at top level in a function, i.e., not within IF, SWITCH, WHILE, FOR, TRY/CATCH, etc.</entry>
+    <entry key="m_illegal_function_definition">Error: {0}Function definition are not supported in this context. Functions can only be created as local or nested functions in code files.</entry>
+    <entry key="m_identifier_neither_variable_nor_function">Error: {0}''{1}'' is not the name of a variable or a function.</entry>
+    <entry key="m_mixed_closed_and_open_function_defs">Error: {0}The function "{1}" was closed with an ''end'', but at least one other function definition was not. To avoid confusion when using nested functions, it is illegal to use both conventions in the same file.</entry>
+    <entry key="m_file_not_found_parser">File "Error: {0}" not found.</entry>
+    <entry key="m_statement_not_in_a_function">Error: {0}This statement is not inside any function. \n (It follows the END that terminates the definition of the function "{1}".)</entry>
+    <entry key="m_invalid_lhs_of_assignment">{0}Incorrect use of '=' operator. Assign a value to a variable using '=' and compare values for equality using '=='.</entry>
+    <entry key="m_multi_constructor">Error: {0}Multiple constructors for the class "{1}".</entry>
+    <entry key="m_bad_set_get">Error: {0}The methods for setting/getting property "{1}" must be called "set" or "get".</entry>
+    <entry key="m_bad_mcos">Error: {0}{1}</entry>
+    <entry key="m_class_method_too_complicated">Error: {0}Method has too many inputs or outputs.</entry>
+    <entry key="m_multi_set_get">Error: {0}There are too many "set" or "get" methods for property "{1}".</entry>
+    <entry key="m_construct_obj">Error: {0}The CONSTRUCT statement sets {1}, which is not the first output variable.</entry>
+    <entry key="m_illegal_character">Error: {0}Invalid text character. Check for unsupported symbol, invisible character, or pasting of non-ASCII characters.</entry>
+    <entry key="m_unterminated_string" note="stringDatatypeUpdate">Error: {0}Character vector is not terminated properly.</entry>
+    <entry key="m_unterminated_string_literal">Error: {0}String is not terminated properly.</entry>
+    <entry key="m_unbalanced_parens">{0}Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for mismatched delimiters.</entry>
+    <entry key="m_function_def">Error: {0}Function definition is misplaced or improperly nested.</entry>
+    <entry key="m_parenthesis_depth">Error: {0}Nesting of '{', [, and ( cannot exceed a depth of 32.</entry>
+    <entry key="m_col_array_on_lhs">Error: {0}Multiple left-hand sides must be separated by commas.</entry>
+    <entry key="m_empty_indices">Error: {0}An indexing expression on the left side of an assignment must have at least one subscript.</entry>
+    <entry key="m_construct_in_non_constructor">Error: {0}A CONSTRUCT statement appeared outside of a class constructor.</entry>
+    <entry key="m_complicated_parse">Error: {0}The input was too complicated or too big for MATLAB to parse.</entry>
+    <entry key="m_deep_nest_fcns">Error: {0}Nested functions cannot be nested deeper than 7.</entry>
+    <entry key="m_deep_statements">Error: {0}Statements cannot be nested deeper than 31.</entry>
+    <entry key="m_deep_block_comments">Error: {0}Block comment nesting depth cannot exceed 7.</entry>
+    <entry key="m_class_filename">Error: {0}Class name and filename must match.</entry>
+    <entry key="m_class_atdir">Error: {0}A class definition must be in an "@" directory.</entry>
+    <entry key="m_external_constructor">Error: {0}A class constructor must not be external.</entry>
+    <entry key="m_drange_args">Error: {0}The DRANGE call must have one to three arguments.</entry>
+    <entry key="m_super_ctor_not_top">Error: {0}A constructor call to superclass {1} is not a top-level statement.</entry>
+    <entry key="m_super_ctor_dup">Error: {0}A constructor call to superclass {1} appears more than once.</entry>
+    <entry key="m_super_ctor_late">Error: {0}A constructor call to superclass {1} appears after the object is used, or after a return.</entry>
+    <entry key="m_super_ctor_bad">Error: {0}A constructor initializes superclass {1} that is not declared as an immediate superclass.</entry>
+    <entry key="m_mcos_private">Error: {0}A class definition may not be in or below a private directory.</entry>
+    <entry key="m_invalid_dimension">Error: {0}Invalid dimension. Dimension must be a nonnegative integer number or a colon (:).</entry>
+    <entry key="m_too_few_dimensions">Error: {0}Specify at least two dimensions for size.</entry>
+    <entry key="m_invalid_validator">Error: {0}Validator must be a MATLAB identifier.</entry>
+    <entry key="m_invalid_validator_param">Error: {0}Validator arguments must be either {1} or literal values.</entry>
+    <entry key="m_invalid_validator_spec">Error: {0}Incorrect use of parentheses with {1}. Do not use parentheses if there are no input arguments.</entry>
+    <!-- End parser -->
+
+
+    <!-- Begin Function In Script -->
+     <entry key="m_function_defs_in_script_must_be_at_end">Error: {0}Function definitions in a script must appear at the end of the file.\nMove all statements after the "{1}" function definition to before the first local function definition.</entry>
+    <entry key="m_function_defs_in_script_missing_end">Error: {0}All functions in a script must be closed with an 'end'.</entry>
+    <entry key="m_mixed_closed_and_open_function_defs_in_script">Error: {0}The function "{1}" was closed with an 'end', but at least one other function definition was not. All functions in a script must be closed with an 'end'.</entry>
+
+    <!-- End  Function In Script -->
+
+
+    <!-- Begin M-to-IR -->
+
+    <entry key="mir_unexpected_initializer_in_bindings">Internal Error: Unexpected initializer in bindings.</entry>
+    <entry key="mir_unrecognized_conversion">Internal Error: {0}{1} {2} cannot be converted to IR.</entry>
+    <entry key="mir_warning_undefined_variable">{0}"{1}" has not been defined prior to use on this line.</entry>
+    <entry key="mir_paren_index_must_be_last">Error: {0} Invalid array indexing.</entry>
+    <entry key="mir_cannot_index_function">Error: {0}Functions cannot be indexed using '{}' or . indexing.</entry>
+    <entry key="mir_invalid_colon_index">Error: {0}The single colon operator ":" must be used within an array index expression.</entry>
+    <entry key="mir_invalid_end_index">Error: {0}The end operator must be used within an array index expression.</entry>
+    <entry key="mir_invalid_mat_lhs">Error: {0}An array for multiple LHS assignment must be a vector.</entry>
+    <entry key="mir_invalid_empty_lhs">Error: {0}An array for multiple LHS assignment cannot be empty.</entry>
+    <entry key="mir_invalid_id_lhs">Error: {0}An array for multiple LHS assignment cannot contain {1}.</entry>
+    <entry key="break_outside_of_loop">Error: {0}A BREAK statement appeared outside of a loop. Use RETURN instead.</entry>
+    <entry key="mir_warning_compiling_copyrighted_source">{0}You are compiling a copyrighted file. You may use the resulting \ncopyrighted C source code,  object code, or linked binary in your \nown work,  but you may not distribute,  copy,  or sell it without \npermission from The MathWorks or other copyright holder.</entry>
+    <entry key="mir_warning_pfunction_names">{0}The #function pragma expects a list of function names.</entry>
+    <entry key="mir_warning_unrecognized_pragma">{0}Unrecognized pragma "{1}".</entry>
+    <entry key="mir_warning_duplicate_function_name">{0}Function with duplicate name "{1}" cannot be called.</entry>
+    <entry key="mir_error_duplicate_function_name">Error: {0}Function with duplicate name "{1}" cannot be defined.</entry>
+    <entry key="mir_error_call_of_non_function">Error: {0}Only functions can return multiple values.</entry>
+    <entry key="mir_warning_call_of_non_function">{0}Only functions can return multiple values when called without parentheses.</entry>
+    <entry key="mir_error_continue_without_loop">Error: {0}A CONTINUE may only be used within a FOR or WHILE loop.</entry>
+    <entry key="mir_error_continue_without_loop_script">Error: A CONTINUE may only be used within a FOR or WHILE loop.</entry>
+    <entry key="mir_error_break_without_loop_script">Error: A BREAK may only be used within a FOR or WHILE loop.</entry>
+    <entry key="mir_error_assign_result">Error: {0}Assignment statements cannot produce a result.</entry>
+    <entry key="mir_error_varargs_cannot_be_global_persistent">Error: {0}Variable arguments cannot be made global or persistent.</entry>
+    <entry key="mir_error_repeated_input">Error: {0}The variable {1} was mentioned more than once as an input.</entry>
+    <entry key="mir_error_repeated_output">Error: {0}The variable {1} was mentioned more than once as an output.</entry>
+    <entry key="mir_error_too_many_builtin_outputs">Error: {0}The "{1}" operator may only produce a single output.</entry>
+    <entry key="mir_error_mlhs_illegal_in_index_expressions">Error: {0}Indexing expressions cannot return multiple results.</entry>
+    <entry key="mir_error_persistent_must_be_first">Error: {0}The PERSISTENT declaration must precede any use of the variable {1}.</entry>
+    <entry key="mir_warning_matlab_method_used">{0}The MATLAB Compiler does not currently support MATLAB object-oriented programming.  References to the method "{1}" will produce a run-time error.</entry>
+    <entry key="mir_error_variable_used_as_function">Error: {0}Variable "{1}" has been previously used as a function or command name.</entry>
+    <entry key="mir_error_variable_used_as_command">Error: {0}The variable "{1}" is being used as the name of a command.</entry>
+    <entry key="mir_error_not_a_command">Error: {0}The name "{1}" is being used in a command but is not a function.</entry>
+    <entry key="mir_error_function_in_script_or_at_prompt">Error: {0}Function definitions are not allowed in scripts, at the prompt, or inside flow-of-control constructs (if, for, while, switch, try/catch).</entry>
+    <entry key="mir_error_function_handle_with_variable_name">Error: {0}It is not possible to obtain a function handle from a variable, namely {1}.</entry>
+    <entry key="mir_error_variable_and_nested_function">Error: {0}"{1}" is used as the name of both a variable and a nested function in the same scope.</entry>
+    <entry key="mir_error_ambiguous_identifier">Error: {0}The identifier "{1}" is used in an anonymous function inside a script, and it is unclear whether it is a variable or a function.</entry>
+    <entry key="mir_error_function_used_where_variable_is_required">Error: {0}"{1}" previously appeared to be used as a function or command, conflicting with its use here as the name of a variable.\nA possible cause of this error is that you forgot to initialize the variable, or you have initialized it implicitly using load or eval.\n</entry>
+    <entry key="mir_error_variable_used_where_function_is_required">Error: {0}"{1}" was previously used as a variable, conflicting with its use here as the name of a function or command.\nSee {2} for details.</entry>
+    <entry key="mir_determining_which_function_is_called">"How MATLAB Recognizes Command Syntax" in the MATLAB documentation</entry>
+    <entry key="mir_error_prefix_used_where_variable_is_required">Error: {0}"{1}" was previously used as the prefix of a compound name, conflicting with its use here as the name of a variable.</entry>
+    <entry key="mir_error_prefix_used_where_function_is_required">Error: {0}"{1}" was previously used as the prefix of a compound name, conflicting with its use here as the name of a function.</entry>
+    <entry key="mir_error_function_followed_by_dot">Error: {0}A function name ("{1}") cannot be indexed with ".".</entry>
+    <entry key="mir_error_function_previously_indexed_by_dot">Error: {0}"{1}" is used here as the name of a function or command, but was previously indexed with ".".</entry>
+    <entry key="mir_cannot_index_class_by_brace">Error: {0}a class name ("{1}") cannot be indexed with '{'...'}'.</entry>
+    <entry key="mir_error_function_handle_to_class_name">Error: {0}"{1}" is a class name, and is followed here by too many dot-name pairs to be the name of a function.</entry>
+    <entry key="mir_ambiguity_with_end">Error: {0}The construct "{1}(...end...)" is ambiguous in this context, because "{2}" cannot be ascertained to be either the name of a variable or of a function.  To make it a variable, assign to it; to allow it to become a function at execution time, replace "end" with a call to LENGTH, SIZE, or NUMEL on the desired array.</entry>
+    <entry key="mir_ambiguity_with_end_no_lineno">Error:\nUse of END in "{0}(...end...)" is ambiguous.  Make sure that the variable associated with END is recognizable to MATLAB as a variable.  For example, make an assignment to it.  Alternatively, replace END with a call to LENGTH, SIZE, or NUMEL.</entry>
+    <entry key="mir_variable_with_script_name">Error: {0}The variable "{1}" is also the name of the script "{2}".\nThis is illegal, because it will be the name of a script and a variable in any context from which the script is called.</entry>
+    <entry key="mir_undefined_name_in_anonymous">Error: {0}"{1}" is not the name of a function nor a variable,\nbut is used in an anonymous function either at the prompt or in the argument of EVAL.</entry>
+    <entry key="mir_illegal_import_argument">Error: {0}Arguments to IMPORT must either end with ".*" or else specify a fully qualified class name: "{1}" fails this test.</entry>
+    <entry key="mir_nested_functions_with_same_name">Error: {0}There is another nested function with the name \"{1}\" within the same outer function.</entry>
+    <entry key="mir_error_persistent_global_must_be_outer">Error: {0}The GLOBAL or PERSISTENT declaration of "{1}" appears in a nested function, but should be in the outermost function where it is used.</entry>
+    <entry key="mir_warning_changing_try_catch">{0}This try-catch syntax will continue to work in R2007b, but may be illegal or may mean something different in future releases of MATLAB.\nSee {1} for details.</entry>
+    <entry key="mir_warning_generated_by_try_catch">MATLAB R2007a Release Notes, "Warning Generated by try-catch"</entry>
+    <entry key="mir_warning_evaluated_load_save_parameter">{0}This syntax for a parameter to LOAD or SAVE will continue to work in R2007b but in future releases of MATLAB, LOAD/SAVE parameters enclosed in brackets may be invalid or may mean something different. To avoid this warning and to be compatible with future releases of MATLAB enclose the entire argument, including brackets, in single quotes.</entry>
+    <entry key="mir_spmd_not_supported_in_pcode_script_files">Error: SPMD statements are not supported in P-code script files ({0}).\nSee {1}.</entry>
+    <entry key="mir_spmd_ans_not_supported">Error: {0}ans is not supported in an SPMD block.\nSee {1}.</entry>
+    <entry key="mir_spmd_nesting">Error: {0}SPMD loops cannot be nested.\n</entry>
+    <entry key="mir_spmd_return">Error: {0}RETURN statement cannot be used inside an SPMD block.\nSee {1}.</entry>
+    <entry key="mir_error_spmd_break_continue">Error: {0}Continue or break is not allowed in an SPMD block.\nSee {1}.</entry>
+    <entry key="mir_error_spmd_nested_function">Error: {0}An spmd block cannot refer to a nested function ({1}).\nSee {2}.</entry>
+    <entry key="mir_error_spmd_anonymous_function">Error: {0}An anonymous function cannot be defined in an spmd block ({1}).\nSee {2}.</entry>
+    <entry key="mir_error_spmd_persistent">Error: {0}Persistent declarations are not allowed in SPMD blocks.\nSee {1}.</entry>
+    <entry key="mir_error_spmd_global">Error: {0}Global declarations are not allowed in SPMD blocks.\nSee {1}.</entry>
+    <entry key="mir_spmd_documentation">SPMD in MATLAB, "Overview"</entry>
+    <entry key="mir_spmd_limitations">SPMD in MATLAB, "Limitations"</entry>
+    <entry key="mir_nr_warning_identifier_is_variable_and_function">{0}"{1}" is used as a function or command and then as a variable name.\nUsing "{1}" as both a function and a variable name in the same scope will error in future release.\n</entry>
+    <entry key="mir_nr_warning_identifier_is_input_output_and_function">{0}"{1}" is used as an input or output parameter and then as an imported function.\nUsing "{1}" as both a function and a variable name in the same scope will error in future release.\n</entry>
+    <entry key="mir_nr_warning_compound_identifier_is_variable_and_function">{0}"{1}" is used as a package name or function name and then as a variable name in the same scope.\nThis will error in a future release.\n</entry>
+    <entry key="mir_nr_warning_star_import_shadows_local_or_nested_function">Prec-1.{0}Using "{1}" found in imported *-based package instead of the local or nested function.\nIf you want to use the package function, use the fully-qualified name.\nIn the future, MATLAB will use the local or nested function instead.</entry>
+    <entry key="mir_nr_warning_import_conflicts_with_nested_function">Prec-1.{0} Using "{1}" from the fully qualified import instead of the nested function with the same name.\n This will error in a future release. Either remove the import statement or the nested function definition.</entry>
+    <entry key="mir_nr_id_shadows_imported_function">Prec-1.{0}"{1}" is both the name of an imported function in a nested function and the name of a variable in the outer scope.\nThe imported "{1}" function is not called.\nIn future, the imported "{1}" will be called.</entry>
+    <entry key="mir_nr_id_will_not_be_shared_variable">{0}Defining "{1}" in the nested function shares it with the parent function.  In a future release, to share "{1}" between parent and nested functions, explicitly define it in the parent function.</entry>
+
+
+    <!-- End M-to-IR -->
+
+    <!-- Begin simulink -->
+
+    <entry key="simulink_error_illegal_expression">{0} illegal expression.</entry>
+
+    <!-- End simulink -->
+
+  <!--Resource entries for src/matrix-->
+    <entry key="Deserialize">Unable to read data stream because MATLAB is out of memory or the stream contains a bad version or endian-key</entry>
+    <entry key="IntVal">Scalar integer value required, but value is not integral</entry>
+    <entry key="IntTooBig">Scalar integer value must be less than 2^31</entry>
+    <entry key="NonNumInt">Scalar integer value required, but non-numeric value seen</entry>
+    <entry key="invalidInput">{0} works on public properties.</entry>
+    <entry key="nindexIsZero">The \"subs\" field for the subscript argument to SUBSREF and SUBSASGN must be a non-empty cell or character array.</entry>
+    <entry key="noConversionComplexToChar">Complex values cannot be converted to chars</entry>
+    <entry key="Serialize">Error during serialization{0}{1}</entry>
+    <entry key="unimplementedSparseType">Attempt to convert to unimplemented sparse type</entry>
+    <entry key="NonScalarInput">Size inputs must be scalar.</entry>
+    <entry key="obsoleteComplexInput">Size vector must be a row vector with real elements.</entry>
+    <entry key="DuplicateFieldName">Duplicate field name \"{0}\"</entry>
+
+    <!-- Begin src\mex -->
+    <entry key="unexpectedCPPexception" translate="false" note="TranslateFalseBatch;">{0}.</entry>
+    <entry key="unexpectedStandardException">Unexpected Standard exception from MEX file.\nWhat() is:{0}\n.</entry>
+    <entry key="unexpectedCharException">Unexpected (char*) exception from MEX file.\nString is:{0}\n.</entry>
+    <entry key="unexpectedUnkException">Unexpected unknown exception from MEX file.</entry>
+    <entry key="unexpectedMATLABException">Unexpected MATLAB exception.</entry>
+    <!-- End src\mex -->
+
+  </message>
+</rsccat>

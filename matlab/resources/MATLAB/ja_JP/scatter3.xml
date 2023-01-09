@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidInput">入力引数の数が正しくありません。</entry>
+    <entry key="invalidCData">C は単色、X と同じ長さのベクトル、または M 行 3 列の行列でなければなりません。</entry>
+    <entry key="invalidSData">S はスカラーか、X と同じ長さのベクトルでなければなりません。</entry>
+    <entry key="unrecognizedColorString">認識されない色文字ベクトル</entry>
+    <entry key="invalidData">X、Y、Z は同じ長さのベクトルでなければなりません。</entry>
+    <entry key="InvalidTableArguments">To use scatter3 with a table, specify a table followed by X, Y and Z variables. Size and color can be specified using name-value pairs.</entry>
+  </message>
+</rsccat>

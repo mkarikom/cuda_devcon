@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SyntaxErrorAtLocation">{0}번 라인, {1}번 열(문자 {2})에서 JSON 구문 오류 발생</entry>
+    <entry key="SyntaxError">JSON 구문 오류</entry>
+    <entry key="ExpectedLiteral">{0}: ''{1}''이어야 하는데 ''{2}''(으)로 되어 있습니다.</entry>
+    <entry key="ExpectedNumber">{0}: 숫자여야 하는데 ''{1}''(으)로 되어 있습니다.</entry>
+    <entry key="ExpectedNumberAtEnd">{0}: 숫자여야 하는데 텍스트의 끝이 발견되었습니다.</entry>
+    <entry key="ExpectedName">{0}: 따옴표로 묶인 이름이어야 하는데 ''{1}''(으)로 되어 있습니다.</entry>
+    <entry key="ExpectedColon">{0}: '':''이어야 하는데 ''{1}''(으)로 되어 있습니다.</entry>
+    <entry key="ExpectedValue">{0}: 값이어야 하는데 ''{1}''(으)로 되어 있습니다.</entry>
+    <entry key="ExpectedNameOrEnd">{0}: 따옴표로 묶인 이름 또는 ''}''이어야 하는데 ''{1}''(으)로 되어 있습니다.</entry>
+    <entry key="ExpectedCommaOrEnd">{0}: '','' 또는 ''{1}''이어야 하는데 ''{2}''(으)로 되어 있습니다.</entry>
+    <entry key="ExpectedNameOrEndAtEnd">{0}: 따옴표로 묶인 이름 또는 ''}''이어야 하는데 텍스트의 끝이 발견되었습니다.</entry>
+    <entry key="ExpectedValueOrEnd">{0}: '','' 또는 '']''여야 하는데 ''{1}''(으)로 되어 있습니다.</entry>
+    <entry key="ExpectedValueOrEndAtEnd">{0}: '','' 또는 '']''여야 하는데 텍스트의 끝이 발견되었습니다.</entry>
+    <entry key="ExpectedColonAtEnd">{0}: '':''이어야 하는데 텍스트의 끝이 발견되었습니다.</entry>
+    <entry key="ExpectedNameAtEnd">{0}: 따옴표로 묶인 이름이어야 하는데 텍스트의 끝이 발견되었습니다.</entry>
+    <entry key="ExpectedValueAtEnd">{0}: 값이어야 하는데 텍스트의 끝이 발견되었습니다.</entry>
+    <entry key="ExpectedCommaOrEndAtEnd">{0}: '','' 또는 ''{1}''이어야 하는데 텍스트의 끝이 발견되었습니다.</entry>
+    <entry key="ExpectedQuoteAtEnd">{0}: ''"''이어야 하는데 텍스트의 끝이 발견되었습니다.</entry>
+    <entry key="InvalidEscape">{0}: 이스케이프 문자 ''{1}''이(가) 유효하지 않습니다.</entry>
+    <entry key="InvalidControl">{0}: 예기치 않은 제어 문자 {1}이(가) 발견되었습니다.</entry>
+    <entry key="ExtraText">{0}: 여분의 텍스트입니다.</entry>
+    <entry key="UnsupportedDataType">{0} 클래스의 객체를 JSON 형식 텍스트로 인코딩할 수 없습니다.</entry>
+    <entry key="UnsupportedKeyType">containers.Map 클래스의 객체를 JSON 형식 텍스트로 인코딩할 수 없습니다. KeyType은 문자여야 합니다.</entry>
+    <entry key="UnsupportedCyclicError">구조체가 재귀적이므로 {0} 클래스의 객체를 인코딩할 수 없습니다.</entry>
+    <entry key="RecursionLimitError">최대 재귀 제한값인 {0}회에 도달했습니다.</entry>
+    <entry key="InvalidInput">JSON 텍스트는 문자형 벡터이거나 누락값이 아닌 string형 스칼라여야 합니다.</entry>
+    <entry key="ParamMissingValue">이름 ''{0}''에는 값이 필요합니다.</entry>
+    <entry key="InvalidParamType">이름 인수 유형은 string형 스칼라이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="InvalidValueType">이름 ''{1}''의 값 유형은 {0} 스칼라여야 합니다.</entry>
+    <entry key="UnmatchedParameter">이름 인수는 ''ConvertInfAndNaN'' 또는 ''PrettyPrint''여야 합니다.</entry>
+    <entry key="ResultType">클래스 작성자에 의해 구현된 jsonencode 메서드는 문자형 벡터 또는 string형 스칼라를 반환해야 합니다.</entry>
+  </message>
+</rsccat>

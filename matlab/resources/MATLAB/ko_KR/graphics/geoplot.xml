@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AxesInput">부모는 geoaxes 객체여야 합니다.</entry>
+    <entry key="LongitudeRequired">위도와 경도 입력값이 모두 필요합니다.</entry>
+    <entry key="DataPairsMismatch">데이터는 위도와 경도의 쌍 목록이어야 합니다.</entry>
+    <entry key="DataLengthMismatch">{0}은(는) {1}과(와) 같은 개수의 요소를 포함해야 합니다.</entry>
+    <entry key="LongitudeSpans360">경도의 범위는 360도보다 작거나 같아야 합니다.</entry>
+  </message>
+</rsccat>

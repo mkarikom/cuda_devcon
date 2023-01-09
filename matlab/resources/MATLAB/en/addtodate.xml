@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="Nargin">Invalid number of arguments.</entry>
+    <entry key="DateField">Date field "{0}" is invalid. Date field must be one of '{' {1}'}'.</entry>
+    <entry key="InputDate">Date number must be a real numeric scalar.</entry>
+    <entry key="InputQuantity">Quantity must be a real numeric scalar less than or equal to 10^16.</entry>
+    <entry key="InputDateField" note="stringDatatypeUpdate">Date field must be a character vector or string scalar.</entry>
+    <entry key="NonIntegerValue">Non-integer valued quantities are not supported.  {0} will be truncated to {1,number,integer}.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CallbackWillBeOverwritten">Callback for uicontrol of style {0} will be overwritten when added to a UIBUTTONGROUP.\n Use the SelectionChangeFcn property on the button group instead.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidOptionString">선택적 인수 ''{0}''은(는) 지원되지 않습니다.</entry>
+    <entry key="InvalidOptionType">선택적 인수는 숫자형 스칼라이거나 string형 스칼라 또는 문자형 벡터여야 합니다.</entry>
+    <entry key="InvalidPrecision">정밀도는 양의 정수 스칼라여야 합니다.</entry>
+    <entry key="TwoDInput">입력 행렬은 2차원이어야 합니다.</entry>
+    <entry key="NumericInput">입력 행렬은 숫자형 배열, 문자형 배열 또는 string형 배열이어야 합니다.</entry>
+  </message>
+</rsccat>

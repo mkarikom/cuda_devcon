@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WrongType">uigetputfile에 잘못된 유형을 입력했습니다.</entry>
+    <entry key="xyobsolete">''x'' 및 ''y''는 위치 파라미터로 더 이상 사용되지 않으므로 무시됩니다.</entry>
+    <entry key="locationobsolete">''Location''은 더 이상 사용되지 않으므로 무시됩니다.</entry>
+    <entry key="badmultiselect">''MultiSelect''의 유효한 값은 ''on'' 및 ''off''입니다.</entry>
+    <entry key="multiselectgetonly">''MultiSelect''는 파일을 열 때만 사용할 수 있습니다.</entry>
+  </message>
+</rsccat>

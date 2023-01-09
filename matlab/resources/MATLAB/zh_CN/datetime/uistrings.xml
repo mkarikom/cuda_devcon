@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EmptyMatrixDisplay">空的 {0} 矩阵:</entry>
+    <entry key="EmptyArrayDisplay">空的 {0} 数组:</entry>
+    <entry key="DisplaySizeSeparator">×</entry>
+    <entry key="DisplayColumnHeader">  {0,number,integer} 至 {1,number,integer} 列</entry>
+    <entry key="DisplayColumnHeaderShort">  {0,number,integer} 列</entry>
+    <entry key="TZTableCaption">{0} 区域中 IANA 时区的列表</entry>
+    <entry key="TZTableAllCaption">所有区域中 IANA 时区的列表</entry>
+    <entry key="TZNameHeader">时区名称</entry>
+    <entry key="UTCOffsetHeader1">UTC 偏移量</entry>
+    <entry key="UTCOffsetHeader2">(小时，东为正值)</entry>
+    <entry key="DSTOffsetHeader1">DST 偏移量</entry>
+    <entry key="DSTOffsetHeader2">(小时)</entry>
+    <entry key="TZMoreInfoDoc">有关详细信息，请参阅 &lt;code&gt;datetime.TimeZone&lt;/code&gt; 的 MATLAB® 文档。</entry>
+    <entry key="TZPropertiesUTCOffsetUnit">小时(东为正值)</entry>
+    <entry key="TZPropertiesDSTOffsetUnit">小时</entry>
+  </message>
+</rsccat>

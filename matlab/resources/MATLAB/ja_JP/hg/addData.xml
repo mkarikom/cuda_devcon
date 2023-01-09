@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NullArgument">addData メソッドへの Null の引数</entry>
+    <entry key="Datatype">YData 引数は double でなければなりません。</entry>
+    <entry key="BadDimensions">頂点は N 行 3 列の行列でなければなりません</entry>
+    <entry key="DatatypeMismatch">{0} プロパティのデータ型は double ではないため、これには追加できません。</entry>
+  </message>
+</rsccat>

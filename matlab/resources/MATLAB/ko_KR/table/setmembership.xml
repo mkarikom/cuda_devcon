@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BehaviorFlags">''R2012a'' 플래그와 ''legacy'' 플래그는 지원되지 않습니다.</entry>
+    <entry key="DifferentVars">VARS는 A와 B에 동일한 변수를 지정해야 합니다.</entry>
+    <entry key="DisjointVars">A와 B에는 동일한 변수가 포함되어야 합니다.</entry>
+    <entry key="RepeatedFlag">''{0}'' 플래그는 두 번 이상 지정할 수 없습니다.</entry>
+    <entry key="SetOrderConflict">''sorted'', ''stable'' 둘 중 하나를 지정할 수는 있지만 둘을 같이 지정할 수는 없습니다.</entry>
+    <entry key="TypeMismatch">A와 B는 둘 다 table형이거나 timetable형이어야 합니다.</entry>
+    <entry key="UnknownFlag">''{0}''은(는) 인식할 수 없는 플래그입니다. 유효한 플래그는 ''stable''과 ''sorted''입니다.</entry>
+    <entry key="UnknownInput">유효하지 않은 입력값입니다. 유효한 플래그는 ''stable''과 ''sorted''입니다.</entry>
+    <entry key="UnknownFlag2">''{0}''은(는) 인식할 수 없는 플래그입니다.</entry>
+    <entry key="UnknownInput2">유효하지 않은 입력값입니다. 유효한 플래그는 string형이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="VarVertcatMethodFailed">A와 B의 ''{0}'' 변수를 병합할 수 없습니다.</entry>
+    <entry key="Mx0NotSupported">코드 생성 시 Mx0 테이블을 ''{0}''에 대한 입력값으로 사용할 수 없습니다.</entry>
+  </message>
+</rsccat>

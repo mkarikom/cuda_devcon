@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DuplicateXValue">XData の値は一意でなければなりません。</entry>
+    <entry key="lengthYDoesNotMatchNumRowsZ">Y の長さは Z の行数と一致しなければなりません。</entry>
+    <entry key="lengthZDoesNotMatchNumRowsY">Z の長さは Y の行数と一致しなければなりません。</entry>
+    <entry key="YAndZLengthMismatch">Y は Z と同じ長さでなければなりません。</entry>
+    <entry key="ZAndYLengthMismatch">Z は、Y と同じ長さでなければなりません。</entry>
+    <entry key="YNotAVector">Y はベクトルでなければなりません。</entry>
+    <entry key="ZNotAVector">Z はベクトルでなければなりません。</entry>
+    <entry key="NoDataInputs">最初の引数として Y データ、または X データと Y データを指定しなければなりません。</entry>
+    <entry key="UnrecognizedOption">認識されないオプション "{0}" です。</entry>
+    <entry key="NonNumericHorizontalYYAxis">棒グラフが複数の y 軸に datetime 値、duration 値、または categorical 値をもつ場合、''Horizontal'' プロパティの変更はサポートされていません。</entry>
+    <entry key="NonNumericHorizontalType">棒グラフが datetime 値、duration 値または categorical 値をもち、かつ座標軸に複数の異なるタイプのチャートが含まれている場合、''Horizontal'' プロパティの変更はサポートされていません。</entry>
+    <entry key="InvalidCData">CData は RGB 3 成分、スカラー、X と同じ長さの M 行 1 列のベクトル、または M 行 3 列の行列でなければなりません。</entry>
+    <entry key="Horizontal">'Horizontal' プロパティは barh への入力としてサポートされていません。代わりに bar を使用してください。</entry>
+    <entry key="InvalidStringOption">オプションは、文字ベクトル、スカラー string 配列、または文字ベクトルを含むスカラー セル配列でなければなりません。</entry>
+    <entry key="XDataSizeMismatch">XData は YData と同じサイズでなければなりません。</entry>
+    <entry key="HistIgnoredInputs">''{0}'' の後の引数は無視されました。</entry>
+    <entry key="BarLayoutLabel">バーの並べ替え</entry>
+    <entry key="HorizontalLabel">横棒グラフ</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFontSize">글꼴 크기는 {0}pt에서 {1}pt 사이의 숫자, {0}pt에서 {1}pt 사이의 숫자 뒤에 ''pt''가 추가된 string형 스칼라 또는 {2}px에서 {3}px 사이의 숫자 뒤에 ''px''가 추가된 string형 스칼라여야 합니다.</entry>
+    <entry key="InvalidFontStyle">글꼴 스타일 "{0}"은(는) 다른 글꼴 스타일과 함께 사용할 수 없습니다.</entry>
+    <entry key="InvalidFontColor">글꼴 색은 {0}에서 {1} 사이의 정수 값으로 구성된 요소를 3개 가진 벡터이거나, {0}에서 {1} 사이의 정수 값 요소 3개 그리고 {2}에서 {3} 사이의 double형을 네 번째 값으로 가지는 4개 요소로 구성된 벡터여야 합니다.</entry>
+  </message>
+</rsccat>

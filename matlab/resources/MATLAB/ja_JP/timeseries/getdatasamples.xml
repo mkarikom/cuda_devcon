@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">getdatasamples メソッドは、単一の timeseries オブジェクトにのみ使用できます</entry>
+    <entry key="badlogicalsubscript">論理インデックスは時間ベクトルの長さを超えています。</entry>
+    <entry key="badsubscript">インデックスは正の整数で、時間ベクトルの長さを超えてはいけません。</entry>
+    <entry key="badind">subscript/index 配列は論理または正の整数で、時間ベクトルの長さを超えてはいけません。</entry>
+  </message>
+</rsccat>

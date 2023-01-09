@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadInput">PREFDIR 입력값은 숫자형 또는 논리형 스칼라여야 합니다.</entry>
+    <entry key="MkdirFailed">PREFDIR이 {0} 폴더를 생성하는데 실패했습니다.</entry>
+    <entry key="InsufficientMemory">사용자 작업 폴더를 저장할 내부 메모리가 부족합니다.</entry>
+  </message>
+</rsccat>

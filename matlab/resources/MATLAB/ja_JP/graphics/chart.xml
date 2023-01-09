@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="HandleVisibilityMustBeOn">HandleVisibility は、'off' または 'callback' には設定できません。</entry>
+    <entry key="MatrixSizeMismatch">すべての 2D 行列の入力は同じサイズでなければなりません。</entry>
+    <entry key="ScalarOtherInputsVectors">1 つの入力がスカラーの場合、すべての追加入力はスカラーまたはベクトルでなければなりません。</entry>
+    <entry key="AllVectorSizeMismatch">すべてのベクトル入力は同じ長さでなければなりません。</entry>
+    <entry key="VectorDoesNotMatchDimOtherInputs">すべてのベクトル入力の長さは、すべての 2D 行列入力の行数または列数のどちらかと一致しなければなりません。</entry>
+    <entry key="NumVariablesMismatch">The number of variables specified for ''{0}'' did not match the number of variables specified in one of the previous arguments.</entry>
+    <entry key="VariableNotFound">The variable ''{0}'' was not found.</entry>
+    <entry key="DoubleHandleParentNotSupported">Specifying parent as double value is not supported.</entry>
+    <entry key="TableToMatrixNotSupported">Setting the ''{0}'' property while the ''{1}'' property is non-empty is not supported.</entry>
+    <entry key="MatrixToTableNotSupported">Setting the ''{0}'' property while the ''{1}'' property is set to 'manual' is not supported.</entry>
+    <entry key="MustBeVector">{0} data must be a vector.</entry>
+    <entry key="FailedToConvertToDouble">Value of ''{0}'' must be of type double or be convertible to double.</entry>
+    <entry key="ComplexNotSupported">Complex values are not supported for ''{0}''.</entry>
+    <entry key="InvalidSourceTable">''SourceTable'' value must be a table.</entry>
+    <entry key="NonScalarTableSubscript">''{0}'' value must reference a single variable in the source table.</entry>
+    <entry key="MixingChannelDataType">Mixing {0} and {1} data is not supported. Data specified for ''{2}'' must have the same data type or be numeric.</entry>
+    <entry key="InvalidSubscriptForChannel">Invalid subscript for {0}. {1}</entry>
+    <entry key="InvalidSubscriptValue">Specify a numeric subscript as a positive integer.</entry>
+    <entry key="SubscriptOutOfBounds">Index exceeds array bounds.</entry>
+    <entry key="InvalidSubscriptType">Subscripts of type {0} are not supported.</entry>
+  </message>
+</rsccat>

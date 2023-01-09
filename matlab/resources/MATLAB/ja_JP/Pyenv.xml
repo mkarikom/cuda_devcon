@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AssociatedHostTerminated">この Python オブジェクトに関連付けられた MATLABPyHost プロセス (プロセス ID: {0}) は終了しました。</entry>
+    <entry key="InvalidNumArgs">引数の数が無効です。</entry>
+    <entry key="InvalidKey">{0} は無効な入力です。キーは ''Version'' または ''ExecutionMode'' でなければなりません。</entry>
+    <entry key="InvalidExecutionMode">{0} は無効な入力です。''ExecutionMode'' の値は ''InProcess'' または ''OutOfProcess'' でなければなりません。</entry>
+    <entry key="VersionAndModeExpected">''Version'' パラメーターと ''ExecutionMode'' パラメーターが必要です。</entry>
+    <entry key="TerminateNotSupported">InProcess 実効モードでは、終了はサポートされません。</entry>
+    <entry key="PythonLoaded">Python が読み込まれました。インタープリターの実行中は環境を変更できません。環境を変更するには ''terminate(pyenv)'' を呼び出し、続いて ''pyenv'' を呼び出してください。</entry>
+    <entry key="PythonLoadedInOOP">Python が ''OutOfProcess'' モードで読み込まれました。''ExecutionMode'' を ''InProcess'' に変更するには、MATLAB を再起動して ''pyenv'' を呼び出します。</entry>
+    <entry key="PythonLoadedInProcess">Python が読み込まれました。この MATLAB セッションでは環境を変更できません。環境を変更するには、MATLAB を再起動して ''pyenv'' を呼び出します。</entry>
+    <entry key="PythonTerminatedReloadNotSupported">Python プロセスは終了しているため、この MATLAB セッションでは呼び出せません。Python 関数を呼び出すには、MATLAB を再起動してください。</entry>
+    <entry key="PythonTerminated">Python プロセスが予期せず終了しました。Python インタープリターを再起動するには、まず "terminate(pyenv)" を呼び出し、その後 Python 関数を呼び出します。</entry>
+    <entry key="PythonEnvironmentLoadNotSupported">PythonEnvironment オブジェクトを読み込めません。MAT ファイルへの PythonEnvironment の保存 (シリアル化) はサポートされていません。</entry>
+  </message>
+</rsccat>

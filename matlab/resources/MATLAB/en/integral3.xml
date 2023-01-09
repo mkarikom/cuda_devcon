@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <entry key="invalidIntegrand">First input argument must be a function handle.</entry>
+        <entry key="invalidXMin">XMIN must be a floating point scalar.</entry>
+        <entry key="invalidXMax">XMAX must be a floating point scalar.</entry>
+        <entry key="invalidYMin">YMIN must be a floating point scalar or a function handle.</entry>
+        <entry key="invalidYMax">YMAX must be a floating point scalar or a function handle.</entry>
+        <entry key="invalidZMin">ZMIN must be a floating point scalar or a function handle.</entry>
+        <entry key="invalidZMax">ZMAX must be a floating point scalar or a function handle.</entry>
+        <entry key="invalidAbsTol">Invalid AbsTol</entry>
+        <entry key="invalidRelTol">Invalid RelTol</entry>
+        <entry key="invalidMethod">Method must be ''auto'', ''tiled'', or ''iterated''.</entry>
+        <entry key="unsuccessful">The integration was unsuccessful.</entry>
+    </message>
+</rsccat>

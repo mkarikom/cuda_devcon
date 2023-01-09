@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidAxes">座標軸は、モードと同じ Figure になければなりません。</entry>
+    <entry key="InvalidInputAxes">入力は座標軸のハンドルでなければなりません。</entry>
+    <entry key="InvalidInputCameraLimits">入力は 'camera' または 'limits' のいずれかでなければなりません。</entry>
+    <entry key="IncorrectNumberArguments">入力引数の数が正しくありません。</entry>
+    <entry key="FirstInputUIFigure">{0} への入力として UI figure はサポートされていません。代わりに UI figure 内に UIAxes または座標軸を指定してください。</entry>
+    <entry key="ConflictFound">競合する操作が見つかりました。</entry>
+    <entry key="DuplicateFound">重複する操作が見つかりました。</entry>
+    <entry key="InteractionsProperty">操作プロパティは操作オブジェクトの配列でなければなりません。</entry>
+    <entry key="CartesianAxesInteractionsProperty">{0} is not a supported interaction on CartesianAxes.</entry>
+    <entry key="PolarAxesInteractionsProperty">PolarAxes に対する {0} の操作はサポートされていません。</entry>
+    <entry key="TextInteractionsProperty">{0} is not a supported interaction on Text.</entry>
+    <entry key="GeographicAxesInteractionsProperty">GeographicAxes に対する {0} の操作はサポートされていません。</entry>
+    <entry key="GeographicAxesInteractionsDisplay">\nGeographicAxes には既定で次の操作があります:\n\n \tPanInteraction\n \tZoomInteraction\n \tDataTipInteraction\n</entry>
+    <entry key="CartesianAxesInteractionsDisplay">\n座標軸には既定で次の操作があります:\n\n \tPanInteraction (2 次元座標軸)\n \tZoomInteraction\n \tDataTipInteraction\n \tRotateInteraction (3 次元座標軸)\n \tRulerPanInteraction\n</entry>
+    <entry key="WebAxesInteractionsSetDisplay">\nWeb 座標軸には既定で次の操作があります:\n\n \tPanInteraction (2 次元座標軸)\n \tZoomInteraction\n \tDataTipInteraction\n \tRotateInteraction (3 次元座標軸)\n</entry>
+    <entry key="PolarAxesInteractionsDisplay">\nPolarAxes には既定で次の操作があります:\n\n \tDataTipInteraction\n</entry>
+    <entry key="EnableLegacyExplorationModesToolbarFound">カスタムの座標軸ツール バーが見つかりました。座標軸ツール バーをカスタマイズする前に、enableLegacyExplorationModes を呼び出してください</entry>
+    <entry key="ScalarFigureOnly">入力はスカラーの Figure ハンドルでなければなりません</entry>
+    <entry key="CannotDisableLegacyExplorationModes">Once enabled on this figure, legacy exploration modes cannot be disabled.</entry>
+  </message>
+</rsccat>

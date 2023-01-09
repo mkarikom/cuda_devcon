@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badsyntax">您必须将非空的旧名称和有效的新名称分别指定为 settimeseriesnames 的第二个和第三个参数。</entry>
+    <entry key="onlychars">旧名称和新名称都必须为字符向量或字符串。</entry>
+    <entry key="badmember">时序 ''{0}'' 不是 tscollection 的成员。</entry>
+  </message>
+</rsccat>

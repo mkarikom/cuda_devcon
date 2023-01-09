@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">utStatCalculation メソッドは、単一の timeseries オブジェクトにのみ使用できます</entry>
+    <entry key="pvsetNoValue">指定されたプロパティに対応する値が見つかりません。</entry>
+    <entry key="missingdata">MissingData の引数は、''interpolate'' か ''remove'' のいずれかでなければなりません。</entry>
+    <entry key="quality">特性引数は整数でなければなりません。</entry>
+    <entry key="weighting">Weighting 引数は ''none'' か ''time'' のいずれかでなければなりません。</entry>
+    <entry key="pvsetInvalidVal">指定プロパティの少なくとも 1 つが無効です。</entry>
+    <entry key="noqualitycode">入力の特性コードはこの時系列内で見つかりません。コードは無視されます。</entry>
+    <entry key="noquality">時系列に代入された特性値がありません。入力の特性コードは無視されます。</entry>
+    <entry key="method">無効なメソッド引数</entry>
+  </message>
+</rsccat>

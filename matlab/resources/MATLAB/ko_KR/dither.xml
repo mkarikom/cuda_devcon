@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidInput">함수 {0}에 유효하지 않은 입력 인수가 있습니다.</entry>
+    <entry key="imageMustBe2D">DITHER(I): 명암 이미지 I는 2차원 배열이어야 합니다.</entry>
+    <entry key="imageMustBe3D">DITHER(RGB,map): RGB 이미지는 3차원 배열이어야 합니다.</entry>
+    <entry key="colormapMustBe2D">함수 {0}에서 입력 컬러맵은 적어도 2개의 행과 정확히 3개의 열을 가진 2차원 배열이어야 합니다.</entry>
+  </message>
+</rsccat>

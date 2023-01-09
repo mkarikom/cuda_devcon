@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonScalarHandle">父级必须为标量图形句柄。</entry>
+    <entry key="DeletedAxes">尝试绘制到已删除的坐标区中。</entry>
+    <entry key="DeletedObject">尝试绘制到已删除的图形对象中。</entry>
+  </message>
+</rsccat>

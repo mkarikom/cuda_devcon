@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AmbiguousFileType">'FileType' ''{0}'' 具有多义性。</entry>
+    <entry key="RowNamesNotSupported">Unsupported parameter ''{0}''. To read a TABLE with row names use READTABLE.</entry>
+    <entry key="VariableNamesNotSupported">Unsupported parameter ''{0}''. To read a TABLE or TIMETABLE with variable names use READTABLE or READTIMETABLE.</entry>
+    <entry key="UnrecognizedFileExtension">文件扩展名 ''{0}'' 无法识别。请使用 'FileType' 指定要读取的类型。</entry>
+    <entry key="UnrecognizedFileType">FileType ''{0}'' 无法识别。</entry>
+    <entry key="BadFileFormat">在读取第 {0,number,integer} 行时失败。文本文件中的所有行都必须具有相同数量的分隔符。第 {1,number,integer} 行具有 {2,number,integer} 个分隔符，而先前各行具有 {3,number,integer} 个。</entry>
+    <entry key="InvalidHeaderLines">NUMHEADERLINES 必须为非负整数。</entry>
+    <entry key="InvalidTreatAsEmpty">TREATASMISSING 必须为字符串数组、字符向量或字符向量元胞数组。</entry>
+    <entry key="NumericTreatAsEmpty">TREATASMISSING 不能包含数值文字。</entry>
+    <entry key="OpenFailed">无法打开文件 ''{0}''。</entry>
+    <entry key="ReadVarNamesFailed">无法解释文件 ''{0}'' 中的数据。找到 {2} 个变量名称，但只找到 {1} 个数据列。您可能需要指定其他格式、分隔符或标题行数。</entry>
+    <entry key="RowNamesVarNotString">无法将 ''{0}'' 转换为行名称。</entry>
+    <entry key="CouldNotReadEntireFileWithFormat">无法读取整个文件。您可能需要指定其他格式、分隔符或标题行数。</entry>
+    <entry key="ReadErrorOnLine">在第 {0,number,integer} 行读取时失败。该行中的字段可能包含错误类型的值。</entry>
+    <entry key="UnequalVarLengthsFromFileNoFormat">此文件中的数据似乎不是表格，且每一行和每一列中的字段数都相同。您可能需要指定或修改分隔符或标题行的数量。</entry>
+    <entry key="UnequalVarLengthsFromFileWithFormat">此文件中的数据似乎不是表格，且每一行和每一列中的字段数都相同。您可能需要指定或修改格式、分隔符或标题行数。</entry>
+    <entry key="UnexpectedClass">无法将 {0} 类的值转换为字符向量。</entry>
+    <entry key="InvalidDelimiter">分隔符必须为字符串标量、字符向量、字符向量元胞数组，或者为 ''tab''、''space''、''comma''、''semi''、''bar'' 这些值之一。</entry>
+    <entry key="InvalidSheet">工作表必须为字符串标量、字符向量或正整数。</entry>
+    <entry key="InvalidRange">范围必须为字符串标量或字符向量。</entry>
+    <entry key="ParameterListHeader">注意: readtable 检测到以下参数:\n</entry>
+    <entry key="NoTimeVarFound">无法在文件 ''{0}'' 中检测到日期时间或持续时间数据以用作行时间输入。</entry>
+    <entry key="AllNaTVariable">无法将一个或多个变量转换为日期时间。请在 DatetimeVariableImportOptions 中指定正确的 InputFormat 和 DatetimeLocale 属性。</entry>
+    <entry key="LegacyFormatFileTypes">''Format'' 仅支持文本文件和电子表格文件。</entry>
+  </message>
+</rsccat>

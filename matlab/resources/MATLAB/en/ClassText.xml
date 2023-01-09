@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2011-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\schema\msgcat.xsd">
+  <message>
+    <!-- NOTE: All reproduction steps should be run in test/toolbox/matlab/mcos  -->
+    <entry note="Example: 'classname' data  To reproduce: obj = hdoublewithdesc('desc',1)" key="DISPLAY_BUILTIN_DATA_LABEL">{0} data:</entry>
+    <entry note="To reproduce: obj = hdisplaypkg.henums.EnumException.EmptyFile; obj(1:0)" key="DISPLAY_EMPTY_ENUMERATION_LABEL">{0} empty {1} enumeration.</entry>
+    <entry note="Example: Colors enumeration" key="SCALAR_ENUMERATION_HEADER">{0} enumeration</entry>
+    <entry note="Example: 1x2 Colors enumeration array" key="ENUMERATION_ARRAY_HEADER">{0} {1} enumeration array</entry>
+    <entry note="Example: Column 10" key="DISPLAY_ONE_COLUMN_ENUMERATION_HEADER">Column {0,number,integer}</entry>
+    <entry note="Example: Columns 10 through 15" key="DISPLAY_TWO_COLUMN_ENUMERATION_HEADER">Columns {0,number,integer} through {1,number,integer}</entry>
+    <entry key="GET_FUNCTION_NO_GETTABLE_PROPS_LABEL">Class {0} has no gettable properties.</entry>
+    <entry key="METHODS_FUNCTION_INHERITED_METHODS"><![CDATA[<a href="matlab: methods handle">Methods</a> of {0} inherited from {1}.]]></entry>
+    <entry key="METHODS_FUNCTION_INHERITED_METHODS_NO_LINKS">Call {0} for methods of {1} inherited from {2}.</entry>
+    <entry key="SET_FUNCTION_NO_SETTABLE_PROPS_LABEL">Class {0} has no settable properties.</entry>
+    <entry key="STATIC_METHODS_LABEL">Static methods:</entry>
+    <entry note="To reproduce: meta.abstractDetails('matlab.mixin.Copyable')" key="NoAbstractMembers">No abstract methods or properties for class {0} or no class {1}.</entry>
+    <entry key="AbstractMethodsLabel">Abstract methods for class {0}</entry>
+    <entry key="AbstractPropertiesLabel">Abstract properties for class {0}</entry>
+    <entry note="Example: 'methodname' defined in 'superclass-name' To reproduce: meta.abstractDetails('habstractprops.Child2')" key="AbstractDefinedIn">defined in {0}</entry>
+    <entry key="instances">\t{0} ({1,number,integer} instances)\n</entry>
+    <entry key="oneInstance">\t{0} (1 instance)\n</entry>
+    <entry key="noInstances">No instances\n\n</entry>
+    <entry key="DataTypeNeeded">DataType needed.</entry>
+    <entry key="NonExistentClass">&lt;non-existent class &gt;</entry>
+    <entry key="first">first</entry>
+    <entry key="parameterValuePairs">parameter-value pairs</entry>
+    <entry key="charStructOrCell">char, struct, or cell</entry>
+    <entry key="propertyName">Property name</entry>
+    <entry key="aString">a character vector</entry>
+    <entry key="Second">Second</entry>
+    <entry key="stringOrCellArray">character vector or cell array</entry>
+    <entry key="FindFunctionHandleExceptionMsg">The '-function' directive must be followed by a function handle or a property name and a function handle</entry>
+    <entry key="FindOperatorPrecedentExceptionMsg">The ''{0}'' operator can not be followed by a logical operator</entry>
+    <entry key="whichConstructor">{0} constructor</entry>
+    <entry key="whichDynamic">{0} method</entry>
+    <entry key="whichStatic">static method or package function</entry>
+    <entry key="whichBuiltinMethod">{0} is a built-in method</entry>
+    <entry key="whichJavaMethod">{0} is a Java method</entry>
+    <entry note="For use when no translation is needed, such as in test code" key="PassThrough" translate="false">{0}</entry>
+  </message>
+</rsccat>

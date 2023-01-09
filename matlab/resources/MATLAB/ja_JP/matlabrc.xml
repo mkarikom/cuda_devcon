@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ProductInformationMessage">  製品情報については、www.mathworks.co.jp を参照してください。</entry>
+    <entry key="ToGetStartedMessage">  開始するには doc と入力してください。</entry>
+    <entry key="ForOnlineDocumentation">  オンライン ドキュメンテーションは、http://www.mathworks.com/support を参照してください</entry>
+    <entry key="SuspectedPathProblem">  MATLAB は検索パスを正常に設定することができませんでした。この MATLAB セッションを復元するには、「restoredefaultpath;matlabrc」と入力してください。次回 MATLAB を起動するときにこの警告が表示されないようにする方法を参照するには、このセッションを復元した後に「docsearch problem path」と入力してください。</entry>
+    <entry key="InitHandleGraphics">  MATLAB グラフィックスを初期化できませんでした。\nこれは MATLAB 基本設定で深刻な問題が発生する可能性があることを示しており、できるだけ早く解決する必要があります。検出されたエラー:\n{0}\n{1}</entry>
+    <entry key="RecursionLimit">  matlabrc で再帰限界値を設定できませんでした。\nこれは MATLAB 基本設定で深刻な問題が発生する可能性があることを示しており、できるだけ早く解決する必要があります。検出されたエラー:\n{0}\n{1}</entry>
+    <entry key="InitJava">  matlabrc で Java 基本設定を初期化できませんでした。\nこれは MATLAB 基本設定で深刻な問題が発生する可能性があることを示しており、できるだけ早く解決する必要があります。検出されたエラー:\n{0}\n{1}</entry>
+    <entry key="InitPreferences">  matlabrc で基本設定を初期化できませんでした。\nこれは MATLAB 基本設定で深刻な問題が発生する可能性があることを示しており、できるだけ早く解決する必要があります。検出されたエラー:\n{0}\n{1}</entry>
+    <entry key="ProfilerFilters">  既定のプロファイラーのフィルターを追加できません。</entry>
+    <entry key="DisableWarnings">  matlabrc で警告を有効/無効にすることができませんでした。\nこれは MATLAB 設定で深刻な問題が発生する可能性があることを示しており、できるだけ早く解決する必要があります。検出されたエラー:\n{0}\n{1}</entry>
+    <entry key="Startup">  matlabrc で起動を実行できませんでした。\nこれは MATLAB 設定で深刻な問題が発生する可能性があることを示しており、できるだけ早く解決する必要があります。検出されたエラー:\n{0}\n{1}</entry>
+  </message>
+</rsccat>

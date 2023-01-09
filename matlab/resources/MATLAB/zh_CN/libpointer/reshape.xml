@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidType">仅 numericPtr 数据类型可以设置维度。</entry>
+    <entry key="TooManyDimensions">最大支持 2 个维度。</entry>
+    <entry key="MustBeNumeric">指针数据类型必须为 numericPtr 类型才可进行重构。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ClassNotFound">''{0}'' 클래스가 존재하지 않거나 MATLAB 경로에 없습니다.</entry>
+    <entry key="ClassNotEditable">''{0}'' 클래스는 내장 클래스이거나 P 파일이며, MATLAB 편집기에서 열 수 없습니다.</entry>
+    <entry key="ClassHasParseError">''{0}'' 클래스에 구문 분석 오류가 있습니다. 구문 분석 오류 세부 정보: {1}</entry>
+    <entry key="PropertyNotFound">''{0}'' 클래스에 속성 ''{1}''이(가) 없습니다.</entry>
+    <entry key="EventNotFound">''{0}'' 클래스에 이벤트 ''{1}''이(가) 없습니다.</entry>
+    <entry key="EnumerationMemberNotFound">''{0}'' 클래스에 열거형 멤버 ''{1}''이(가) 없습니다.</entry>
+    <entry key="MethodNotFound">''{0}'' 클래스에 메서드 ''{1}''이(가) 없습니다.</entry>
+  </message>
+</rsccat>

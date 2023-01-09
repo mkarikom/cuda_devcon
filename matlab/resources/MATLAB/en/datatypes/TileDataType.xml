@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2019-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ParseError">Specified value is not a valid tile.</entry>
+    <entry key="ValueNumber">Tile must be a positive integer less than intmax.</entry>
+    <entry key="ValueString">Specify tile as ''north'' ''east'' ''south'' or ''west''.</entry>
+    <entry key="IsEqual">Unknown exception in TileDataType::IsEqual</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ClassMismatch">입력 그래프는 둘 다 무방향 그래프이거나 둘 다 유방향 그래프여야 합니다.</entry>
+    <entry key="KeyWithoutValue">''{0}'' 파라미터에 대한 값이 지정되지 않았습니다.</entry>
+    <entry key="ParseFlags">파라미터 이름은 ''NodeVariables'' 또는 ''EdgeVariables''여야 합니다.</entry>
+    <entry key="ParseVar">''{0}'' 값은 string형 벡터, 문자형 벡터 또는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="NodeVarTypeMismatch">노드 변수 {0}의 데이터형이 일치하지 않습니다. 첫 번째 그래프에서는 데이터형이 ''{1}''이지만, 두 번째 그래프에서는 ''{2}''입니다.</entry>
+    <entry key="EdgeVarTypeMismatch">간선 변수 {0}의 데이터형이 일치하지 않습니다. 첫 번째 그래프에서는 데이터형이 ''{1}''이지만, 두 번째 그래프에서는 ''{2}''입니다.</entry>
+    <entry key="NodeVarNotInFirstGraph">첫 번째 그래프에 노드 변수 {0}이(가) 없습니다.</entry>
+    <entry key="NodeVarNotInSecondGraph">두 번째 그래프에 노드 변수 {0}이(가) 없습니다.</entry>
+    <entry key="EdgeVarNotInFirstGraph">첫 번째 그래프에 간선 변수 {0}이(가) 없습니다.</entry>
+    <entry key="EdgeVarNotInSecondGraph">두 번째 그래프에 간선 변수 {0}이(가) 없습니다.</entry>
+    <entry key="NodeVarSizeMismatch">노드 변수 {0}의 크기가 일치하지 않습니다. 입력 그래프의 노드 변수는 크기가 동일해야 합니다.</entry>
+    <entry key="EdgeVarSizeMismatch">간선 변수 {0}의 크기가 일치하지 않습니다. 입력 그래프의 간선 변수는 크기가 동일해야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="StringConversion">将输入类型转换为 System.String 类型时出错。</entry>
+    <entry key="DecimalConversion">将输入类型转换为 System.Decimal 类型时出错。</entry>
+    <entry key="ObjectConversion">将输入类型转换为 System.Object 类型时出错。</entry>
+    <entry key="VectorConversion">将输入类型转换为 System.Array 类型时出错。</entry>
+    <entry key="DelegateConversion">将输入类型转换为 ''{0}'' 时出错。</entry>
+    <entry key="CharArrayConversion">将输入类型转换为 System.Char[] 类型时出错。</entry>
+    <entry key="NullableTypeConversion">将输入类型转换为 ''{0}'' 时出错。</entry>
+    <entry key="ArrayTypeConversion">将输入类型转换为 {0} 时出错。</entry>
+    <entry key="ObjectArrayConversion">将输入类型转换为 {0} 时出错。输入类型必须为元胞数组、System.Object 数组或空双精度值。</entry>
+    <entry key="StringArrayConversion">将输入类型转换为 {0} 时出错。输入类型必须为元胞数组、MATLAB 字符串数组、System.String 数组或空双精度值。</entry>
+    <entry key="InvalidCellElement">输入元胞数组只能包含 System.String 对象、MATLAB 字符串或 MATLAB 字符数组。</entry>
+    <entry key="UnsupportedCellElement">输入元胞数组包含一个或多个不支持的类型。有关支持的类型的列表，请参阅&lt;a href="matlab: helpview([docroot '/techdoc/matlab_external/matlab_external.map'],'supported_cell_types_for_net')"&gt;将元胞数组传递给 .NET&lt;/a&gt;。</entry>
+    <entry key="NonRectJaggedArray">将输入类型转换为 {0} 时出错。输入必须是矩形形状的交错数组。请考虑调用&lt;a href="matlab: helpview([docroot '/techdoc/ref/ref.map'],'cell_ref_page')"&gt;元胞&lt;/a&gt;。</entry>
+    <entry key="UndefinedConversion">无法从 {1} 转换为 {0}。有关更多详细信息，请参阅&lt;a href="matlab:helpview([docroot '/techdoc/matlab_external/matlab_external.map'],'allowed_jagged_types_for_conversion')"&gt;将 .NET 交错数组转换为 MATLAB 数组&lt;/a&gt;。</entry>
+    <entry key="COMConversion">{0}</entry>
+    <entry key="NullableConversion">{0}</entry>
+  </message>
+</rsccat>

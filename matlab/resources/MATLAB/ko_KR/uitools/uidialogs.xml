@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFigureHandle">유효하지 않거나 삭제된 Figure 핸들입니다. 첫 번째 인수는 유효한 Figure 핸들이어야 함</entry>
+    <entry key="NotAnAppWindowHandle">첫 번째 인수는 uifigure 함수를 사용하여 만든 figure 핸들이어야 합니다.</entry>
+    <entry key="InvisibleFigure">Figure 핸들의 ''Visible'' 값은 ''on''이어야 합니다.</entry>
+    <entry key="InvisibleAppContainer">AppContainer 핸들 ''Visible'' 값은 true여야 함</entry>
+    <entry key="InvalidMessageText">''Message''는 문자형 배열, string형 배열 또는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="InvalidTitleText">''Title''은 문자형 배열 또는 string형 스칼라여야 합니다.</entry>
+    <entry key="IncorrectNameValuePairs">이름-값 쌍의 개수가 잘못되었습니다. 각 파라미터 이름 다음에는 대응값이 와야 합니다.</entry>
+    <entry key="IncorrectParameter">파라미터 이름은 문자형 벡터이거나 string형 스칼라여야 합니다.</entry>
+    <entry key="IncorrectParameterName">''{0}''은(는) 유효하지 않은 파라미터 이름입니다. 유효한 이름은 ''{1}''입니다.</entry>
+    <entry key="InvalidIconSpecified">아이콘 값은 'error', 'warning', 'info', 'question', 'success', 'none', 유효한 파일 경로 또는 m×n×3 색 데이터 행렬이어야 합니다.</entry>
+    <entry key="invalidFourStringEnum">''{0}'' 값은 ''{1}'', ''{2}'', ''{3}'' 또는 ''{4}''이어야 합니다.</entry>
+    <entry key="UnableToReadIconFile">아이콘 파일을 읽을 수 없습니다. 아이콘 파일 없이 계속합니다.</entry>
+    <entry key="InvalidModalValue">''Modal'' 값은 true 또는 false여야 합니다.</entry>
+    <entry key="InvalidCloseFcnValue">''CloseFcn'' 값은 문자형 벡터 또는 함수 핸들이거나, 문자형 벡터나 함수 핸들로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="ErrorEvaluatingCloseFcn">dialog에 대해 ''CloseFcn''을 실행하는 중 오류가 발생했습니다.\n\n{0}\n</entry>
+    <entry key="OK">확인</entry>
+    <entry key="Cancel">취소</entry>
+    <entry key="CancelRequested">취소가 요청됨</entry>
+    <entry key="InvalidOptionsValue">Options는 1개의 옵션을 포함하는 문자형 벡터 또는 string형 스칼라이거나 1~4개의 옵션을 포함하는 문자형 벡터로 구성된 셀형 배열 또는 string형 배열이어야 합니다.</entry>
+    <entry key="InvalidDefaultOption">''{0}''은(는) 'Options' 셀형 배열의 문자형 벡터 또는 string형 스칼라이거나 'Options' 셀형 배열의 인덱스여야 합니다.</entry>
+    <entry key="errorInWeb">
+             
+            URL ''{0}''을(를) 열 수 없음: {1}
+        </entry>
+    <entry key="errorInWebEmpty"> 유효한 URL 체계가 없는 URL을 열 수 없습니다.
+        </entry>
+  </message>
+</rsccat>

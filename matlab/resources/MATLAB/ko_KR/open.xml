@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidInput">파일 또는 변수 이름은 문자형 벡터이거나 string형 스칼라여야 합니다.</entry>
+    <entry key="fileNotFound">파일 ''{0}''을(를) 찾을 수 없습니다.</entry>
+    <entry key="noOpen">이 함수는 배포용 응용 프로그램에서 사용할 수 없습니다.</entry>
+    <entry key="openFailure">''{0}''과(와) 연결된 파일을 찾을 수 없습니다.</entry>
+    <entry key="noOpenFolder">폴더 ''{0}''을(를) 열 수 없습니다.</entry>
+  </message>
+</rsccat>

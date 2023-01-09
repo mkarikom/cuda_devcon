@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014-2021 The MathWorks, Inc. -->
+<!-- Most of these are not translated since the watermarking text isn't supposed to be translated. See g1127845. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole = "fl_ustring">
+  <message>
+    <entry key="DEFAULT_CMD_WINDOW_STR" translate="false"></entry>
+    <entry key="ACADEMIC_CMD_WINDOW_STR" translate="false"></entry>
+    <entry key="HOME_CMD_WINDOW_STR" translate="false">\n\tHome License -- for personal use only.  Not for government,\n\tacademic, research, commercial, or other organizational use.\n\n</entry>
+    <entry key="STUDENT_CMD_WINDOW_STR" translate="false">\n\tStudent License -- for use by students to meet course requirements\n\tand perform academic research at degree granting institutions only.\n\n</entry>
+    <entry key="TRIAL_CMD_WINDOW_STR" translate="false">\n\tTrial License -- for use to evaluate programs for possible purchase as an end-user only.\n\n</entry>
+    <entry key="CLASSROOM_CMD_WINDOW_STR" translate="false">\n\tClassroom License -- for classroom instructional use only.\n\n</entry>
+    <entry key="PREUNIV_CMD_WINDOW_STR" translate="false">\n\tPrimary and Secondary School License -- for use in teaching and\n\tmeeting course requirements at primary and secondary schools only.\n\n</entry>
+    <entry key="PRERELEASE_CMD_WINDOW_STR" translate="false">\n\tPrerelease License -- for engineering feedback and testing\n\tpurposes only. Not for sale.\n\n</entry>
+    <entry key="MOOC_CMD_WINDOW_STR" translate="false">\n\tOnline Course License -- for instructional use in online courses only.\n\n</entry>
+    <entry key="NDE_CMD_WINDOW_STR" translate="false"></entry>
+    <entry key="THIRDPARTY_CMD_WINDOW_STR" translate="false">\n\tThird Party Support License -- for use only to support products interfaced to MathWorks\n\tsoftware under terms specified in your company's restricted use license agreement.\n\n</entry>
+    <entry key="SPONSORED_THIRDPARTY_CMD_WINDOW_STR" translate="false">\n\tSponsored Third Party Support License -- for use only to support products interfaced to\n\tMathWorks software under terms specified in your company's restricted use license agreement.\n\n</entry>
+    <entry key="SPONSORED_CMD_WINDOW_STR" translate="false">\n\tSponsored License -- for use in support of a program or activity sponsored by MathWorks.\n\tNot for government, commercial or other non-sponsored organizational use.\n\n</entry>
+    <entry key="ACADEMIC_STUDENT_CMD_WINDOW_STR" translate="false">\n\tAcademic Student License -- for use by students to meet course requirements\n\tand perform academic research at degree granting institutions only.\n\n</entry>
+    <entry key="SPONSORED_EDUCATION_CMD_WINDOW_STR" translate="false">\n\tSponsored Education License -- for use only in support of an education focused program or activity \n\tsponsored by MathWorks. Not for government, research, commercial, or other organizational use.\n\n</entry>
+    <entry key="COMMUNITY_TECH_COLLEGE_CMD_WINDOW_STR" translate="false"></entry>
+
+    <!-- The expiration message isn't technically covered by the watermarking policy,
+     so these strings are still translated. -->
+    <entry key="DEFAULT_EXP_WARNING_STR" translate="true">\tYour license will expire in {0,number,integer} days.\n\tPlease contact your system administrator or\n\tMathWorks to renew this license.\n</entry>
+    <entry key="ACADEMIC_EXP_WARNING_STR" translate="true">\tYour license will expire in {0,number,integer} days.\n\tPlease contact your system administrator or\n\tMathWorks to renew this license.\n</entry>
+    <entry key="HOME_EXP_WARNING_STR" translate="true">\tYour license will expire in {0,number,integer} days.\n\tTo renew your license or purchase a new license, go to MathWorks.com.\n</entry>
+    <entry key="STUDENT_EXP_WARNING_STR" translate="true">\tYour license will expire in {0,number,integer} days.\n\tTo renew your license or purchase a new license, go to MathWorks.com.\n</entry>
+    <entry key="TRIAL_EXP_WARNING_STR" translate="true">\tYour license will expire in {0,number,integer} days.\n\tPlease contact your system administrator or\n\tgo to MathWorks.com to renew this license.\n</entry>
+    <entry key="CLASSROOM_EXP_WARNING_STR" translate="true">\tYour license will expire in {0,number,integer} days.\n\tPlease contact your system administrator or\n\tMathWorks to renew this license.\n</entry>
+    <entry key="PREUNIV_EXP_WARNING_STR" translate="true">\tYour license will expire in {0,number,integer} days.\n\tPlease contact your system administrator or\n\tMathWorks to renew this license.\n</entry>
+    <entry key="PRERELEASE_EXP_WARNING_STR" translate="true">\tYour license will expire in {0,number,integer} days.\n\tPlease contact your system administrator or\n\tMathWorks to renew this license.\n</entry>
+    <entry key="MOOC_EXP_WARNING_STR" translate="true">\tYour license will expire in {0,number,integer} days.\n\tPlease contact your system administrator or\n\tMathWorks to renew this license.\n</entry>
+    <entry key="NDE_EXP_WARNING_STR" translate="true">\tYour license will expire in {0,number,integer} days.\n\tPlease contact your system administrator or\n\tMathWorks to renew this license.\n</entry>
+    <entry key="THIRDPARTY_EXP_WARNING_STR" translate="true">\tYour license will expire in {0,number,integer} days.\n\tPlease contact your system administrator or\n\tMathWorks to renew this license.\n</entry>
+    <entry key="SPONSORED_THIRDPARTY_EXP_WARNING_STR" translate="true">\tYour license will expire in {0,number,integer} days.\n\tPlease contact your system administrator or\n\tMathWorks to renew this license.\n</entry>
+    <entry key="SPONSORED_EXP_WARNING_STR" translate="true">\tYour license will expire in {0,number,integer} days.\n\tPlease contact your system administrator or\n\tMathWorks to renew this license.\n</entry>
+    <entry key="ACADEMIC_STUDENT_EXP_WARNING_STR" translate="true">\tYour license will expire in {0,number,integer} days.\n\tPlease contact your system administrator or\n\tMathWorks to renew this license.\n</entry>
+    <entry key="SPONSORED_EDUCATION_EXP_WARNING_STR" translate="true">\tYour license will expire in {0,number,integer} days.\n\tPlease contact your system administrator or\n\tMathWorks to renew this license.\n</entry>
+    <entry key="COMMUNITY_TECH_COLLEGE_EXP_WARNING_STR" translate="true">\tYour license will expire in {0,number,integer} days.\n\tPlease contact your system administrator or\n\tMathWorks to renew this license.\n</entry>
+
+    <!-- Splash strings should not have embedded newlines -->
+    <entry key="DEFAULT_SPLASH_STR" translate="false">Professional License</entry>
+    <entry key="ACADEMIC_SPLASH_STR" translate="false">Academic License - for use in teaching, academic research, and meeting course requirements at degree granting institutions only.  Not for government, commercial, or other organizational use.</entry>
+    <entry key="HOME_SPLASH_STR" translate="false">Home License - for personal use only.  Not for government, academic, research, commercial, or other organizational use.</entry>
+    <entry key="STUDENT_SPLASH_STR" translate="false">Student License - for use by students to meet course requirements and perform academic research at degree granting institutions only.  Not for government, commercial, or other organizational use.</entry>
+    <entry key="TRIAL_SPLASH_STR" translate="false">Trial License - for use to evaluate programs for possible purchase as an end-user only.</entry>
+    <entry key="CLASSROOM_SPLASH_STR" translate="false">Classroom License -- for classroom instructional use only.  Not for government, commercial, academic research, or other organizational use.</entry>
+    <entry key="PREUNIV_SPLASH_STR" translate="false">Primary and Secondary School License - for use in teaching and meeting course requirements at primary and secondary schools only.  Not for government, commercial, university, or other organizational use.</entry>
+    <entry key="PRERELEASE_SPLASH_STR" translate="false">Prerelease License - for engineering feedback and testing purposes only. Not for sale.</entry>
+    <entry key="MOOC_SPLASH_STR" translate="false">Online Course License -- for instructional use in online courses only.  Not for government, research, commercial, or other organizational use.</entry>
+    <entry key="NDE_SPLASH_STR" translate="false">Non-Degree Granting Education License -- for use at non-degree granting, nonprofit, education, and research organizations only. Not for commercial or industrial use.</entry>
+    <entry key="THIRDPARTY_SPLASH_STR" translate="false">Third Party Support License -- for use only to support products interfaced to MathWorks software under terms specified in your company's restricted use license agreement.</entry>
+    <entry key="SPONSORED_THIRDPARTY_SPLASH_STR" translate="false">Sponsored Third Party Support License -- for use only to support products interfaced to MathWorks software under terms specified in your company's restricted use license agreement.</entry>
+    <entry key="SPONSORED_SPLASH_STR" translate="false">Sponsored License - for use in support of a program or activity sponsored by MathWorks.  Not for government, commercial or other non-sponsored organizational use.</entry>
+    <entry key="ACADEMIC_STUDENT_SPLASH_STR" translate="false">Academic Student License -- for use by students to meet course requirements and perform academic research at degree granting institutions only.  Not for government, commercial, or other organizational use.</entry>
+    <entry key="SPONSORED_EDUCATION_SPLASH_STR" translate="false">Sponsored Education License -- for use only in support of an education focused program or activity sponsored by MathWorks. Not for government, research, commercial, or other organizational use.</entry>
+    <entry key="COMMUNITY_TECH_COLLEGE_SPLASH_STR" translate="false">Community and Technical College License -- for use in teaching and meeting course requirements at community and technical colleges only.  Not for government, commercial, university, or other organizational use.</entry>
+
+    <entry key="DEFAULT_IDE_TITLE" translate="false">MATLAB {0}</entry>
+    <entry key="ACADEMIC_IDE_TITLE" translate="false">MATLAB {0} - academic use</entry>
+    <entry key="HOME_IDE_TITLE" translate="false">MATLAB {0} - home use</entry>
+    <entry key="STUDENT_IDE_TITLE" translate="false">MATLAB {0} - student use</entry>
+    <entry key="TRIAL_IDE_TITLE" translate="false">MATLAB {0} - trial use</entry>
+    <entry key="CLASSROOM_IDE_TITLE" translate="false">MATLAB {0} - classroom use</entry>
+    <entry key="PREUNIV_IDE_TITLE" translate="false">MATLAB {0} - primary and secondary school use</entry>
+    <entry key="PRERELEASE_IDE_TITLE" translate="false">MATLAB {0} - prerelease use</entry>
+    <entry key="MOOC_IDE_TITLE" translate="false">MATLAB {0} - online course use</entry>
+    <entry key="NDE_IDE_TITLE" translate="false">MATLAB {0} - education and research use</entry>
+    <entry key="THIRDPARTY_IDE_TITLE" translate="false">MATLAB {0} - third party support use</entry>
+    <entry key="SPONSORED_THIRDPARTY_IDE_TITLE" translate="false">MATLAB {0} - sponsored third party support use</entry>
+    <entry key="SPONSORED_IDE_TITLE" translate="false">MATLAB {0} - sponsored use</entry>
+    <entry key="ACADEMIC_STUDENT_IDE_TITLE" translate="false">MATLAB {0} - academic student use</entry>
+    <entry key="SPONSORED_EDUCATION_IDE_TITLE" translate="false">MATLAB {0} - sponsored education use</entry>
+    <entry key="COMMUNITY_TECH_COLLEGE_IDE_TITLE" translate="false">MATLAB {0} - community and technical college use</entry>
+
+    <entry key="DEFAULT_SIMULINK_MODEL_TITLE" translate="false">{0} - Simulink</entry>
+    <entry key="ACADEMIC_SIMULINK_MODEL_TITLE" translate="false">{0} - Simulink academic use</entry>
+    <entry key="HOME_SIMULINK_MODEL_TITLE" translate="false">{0} - Simulink home use</entry>
+    <entry key="STUDENT_SIMULINK_MODEL_TITLE" translate="false">{0} - Simulink student use</entry>
+    <entry key="TRIAL_SIMULINK_MODEL_TITLE" translate="false">{0} - Simulink trial use</entry>
+    <entry key="CLASSROOM_SIMULINK_MODEL_TITLE" translate="false">{0} - Simulink classroom use</entry>
+    <entry key="PREUNIV_SIMULINK_MODEL_TITLE" translate="false">{0} - Simulink primary and secondary school use</entry>
+    <entry key="PRERELEASE_SIMULINK_MODEL_TITLE" translate="false">{0} - Simulink prerelease use</entry>
+    <entry key="MOOC_SIMULINK_MODEL_TITLE" translate="false">{0} - Simulink online course use</entry>
+    <entry key="NDE_SIMULINK_MODEL_TITLE" translate="false">{0} - Simulink education and research use</entry>
+    <entry key="THIRDPARTY_SIMULINK_MODEL_TITLE" translate="false">{0} - Simulink third party support use</entry>
+    <entry key="SPONSORED_THIRDPARTY_SIMULINK_MODEL_TITLE" translate="false">{0} - Simulink sponsored third party support use</entry>
+    <entry key="SPONSORED_SIMULINK_MODEL_TITLE" translate="false">{0} - Simulink sponsored use</entry>
+    <entry key="ACADEMIC_STUDENT_SIMULINK_MODEL_TITLE" translate="false">{0} - Simulink academic student use</entry>
+    <entry key="SPONSORED_EDUCATION_SIMULINK_MODEL_TITLE" translate="false">{0} - Simulink sponsored education use</entry>
+    <entry key="COMMUNITY_TECH_COLLEGE_SIMULINK_MODEL_TITLE" translate="false">{0} - Simulink community and technical college use</entry>
+
+    <entry key="DEFAULT_POLYSPACE_IDE_TITLE" translate="false">Polyspace {0}</entry>
+    <entry key="ACADEMIC_POLYSPACE_IDE_TITLE" translate="false">Polyspace {0} - academic use</entry>
+    <entry key="HOME_POLYSPACE_IDE_TITLE" translate="false">Polyspace {0} - home use</entry>
+    <entry key="STUDENT_POLYSPACE_IDE_TITLE" translate="false">Polyspace {0} - student use</entry>
+    <entry key="TRIAL_POLYSPACE_IDE_TITLE" translate="false">Polyspace {0} - trial use</entry>
+    <entry key="CLASSROOM_POLYSPACE_IDE_TITLE" translate="false">Polyspace {0} - classroom use</entry>
+    <entry key="PREUNIV_POLYSPACE_IDE_TITLE" translate="false">Polyspace {0} - primary and secondary school use</entry>
+    <entry key="PRERELEASE_POLYSPACE_IDE_TITLE" translate="false">Polyspace {0} - prerelease use</entry>
+    <entry key="MOOC_POLYSPACE_IDE_TITLE" translate="false">Polyspace {0} - online course use</entry>
+    <entry key="NDE_POLYSPACE_IDE_TITLE" translate="false">Polyspace {0} - education and research use</entry>
+    <entry key="THIRDPARTY_POLYSPACE_IDE_TITLE" translate="false">Polyspace {0} - third party support use</entry>
+    <entry key="SPONSORED_THIRDPARTY_POLYSPACE_IDE_TITLE" translate="false">Polyspace {0} - sponsored third party support use</entry>
+    <entry key="SPONSORED_POLYSPACE_IDE_TITLE" translate="false">Polyspace {0} - sponsored use</entry>
+    <entry key="ACADEMIC_STUDENT_POLYSPACE_IDE_TITLE" translate="false">Polyspace {0} - academic student use</entry>
+    <entry key="SPONSORED_EDUCATION_POLYSPACE_IDE_TITLE" translate="false">Polyspace {0} - sponsored education use</entry>
+    <entry key="COMMUNITY_TECH_COLLEGE_POLYSPACE_IDE_TITLE" translate="false">Polyspace {0} - community and technical college use</entry>
+
+  </message>
+</rsccat>

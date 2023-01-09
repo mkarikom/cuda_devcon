@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonScalarReduction">Reduction はスカラーでなければなりません。</entry>
+    <entry key="NonFinitePositiveReduction">Reduction は有限で正でなければなりません。</entry>
+    <entry key="FaceValuesTooSmall">Face 配列には 1 以上の値が含まれていなければなりません。 </entry>
+    <entry key="FaceValuesTooLarge">Face 配列には、頂点の長さを超える値が含まれています。</entry>
+    <entry key="InvalidFirstArgument">最初の引数は patch のハンドル、または面と頂点を含む構造体でなければなりません。</entry>
+    <entry key="WrongNumberOfInputs">入力引数の数が正しくありません。</entry>
+  </message>
+</rsccat>

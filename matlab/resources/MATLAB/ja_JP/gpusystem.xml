@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noPCT">Parallel Computing Toolbox が使用できません。インストール済みで、ライセンスが使用可能であることを確認してください。</entry>
+    <entry key="noGPU">GPU と正常に通信できません。</entry>
+    <entry key="incorrectBaseSetup">このメソッドを使用するには、このクラスは setupImpl メソッド内で detectGPUInputs を呼び出さなければなりません。</entry>
+    <entry key="inputSpecsChanged">まず release メソッドを呼び出さないと、入力 {0,number,integer} のサイズまたは型を変更できません。</entry>
+    <entry key="inputComplexityChanged">まず release メソッドを呼び出さないと、入力 {0,number,integer} の実数/複素数の変更 (実数から複素数) はできません。</entry>
+  </message>
+</rsccat>

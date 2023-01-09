@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">入力引数が不足しています。</entry>
+    <entry key="ComplexInputs">入力引数は実数でなければなりません。</entry>
+    <entry key="MOutOfRange">M は 0 &lt;= M &lt;= 1 の範囲内になければなりません。</entry>
+    <entry key="NegativeTolerance">2 番目の引数 TOL は有限の非負のスカラーでなければなりません。</entry>
+    <entry key="FailedConvergence">ELLIPKE が収束しませんでした。TOL を増やすことを検討してください。</entry>
+  </message>
+</rsccat>

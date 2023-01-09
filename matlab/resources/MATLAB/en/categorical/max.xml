@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2013-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidDim">DIM must be a positive integer scalar in the range 1 to 2^31.</entry>
+    <entry key="unknownOption">Option must be ''all'', ''linear'', ''includeundefined'', ''includenan'', ''omitundefined'', or ''omitnan''.</entry>
+    <entry key="unknownNaNFlag">Option must be ''includeundefined'', ''includenan'', ''omitundefined'', or ''omitnan''.</entry>
+  </message>
+</rsccat>

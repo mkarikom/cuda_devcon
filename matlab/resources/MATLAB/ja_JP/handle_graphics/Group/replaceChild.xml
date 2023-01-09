@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidOldNode">最初の入力引数は、有効なオブジェクトでなければなりません。</entry>
+    <entry key="nonScalarFirstArg">最初の入力引数は、スカラー オブジェクトでなければなりません。</entry>
+    <entry key="invalidNewNode">2 番目の入力引数は、有効なオブジェクトでなければなりません。</entry>
+    <entry key="nonScalarSecondArg">2 番目の入力引数は、スカラー オブジェクトでなければなりません。</entry>
+    <entry key="invalidOldObject">最初の入力引数は、有効なオブジェクトでなければなりません。</entry>
+    <entry key="invalidNewObject">2 番目の入力引数は、有効なオブジェクトでなければなりません。</entry>
+    <entry key="addChild">同じグループの子にはグループを追加できません</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ConnectionRefused">接続が拒否されました。</entry>
+    <entry key="UrlNotFoundOnServer">要求された URL はこのサーバーで見つかりません。</entry>
+    <entry key="UnknownHost">不明なホスト: {0}</entry>
+    <entry key="SoapFault">SOAP エラー: {0}</entry>
+    <entry key="Fault">不明なエラー: {0} </entry>
+  </message>
+</rsccat>

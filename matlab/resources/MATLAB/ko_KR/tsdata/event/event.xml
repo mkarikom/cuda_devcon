@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="misname">이벤트 생성자의 첫 번째 인수는 이벤트의 이름이어야 합니다.</entry>
+    <entry key="datenum">이벤트 생성자의 두 번째 인수는 유효한 datenum 값이어야 합니다.</entry>
+    <entry key="noValidDateStr">이벤트 생성자의 두 번째 인수는 유효한 날짜를 나타내는 문자형 벡터 또는 string형이어야 합니다.</entry>
+    <entry key="abstime">이벤트 생성자의 두 번째 인수는 유효한 datenum 값, 절대 날짜 문자형 벡터, string형 또는 실수로 입력해야 합니다.</entry>
+  </message>
+</rsccat>

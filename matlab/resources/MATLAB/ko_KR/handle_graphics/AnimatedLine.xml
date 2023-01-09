@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MaxNumPointsRange">MaximumNumPoints는 0보다 커야 합니다.</entry>
+    <entry key="MaxNumPointsRound">MaximumNumPoints는 소수 값을 가질 수 없습니다. 값이 {0, number, integer}(으)로 반올림되었습니다. </entry>
+    <entry key="MaxNumPointsNaN">MaximumNumPoints는 NaN일 수 없습니다.</entry>
+    <entry key="AddPointsInvalidSizeXY">인수 X의 길이({0,number,integer})는 인수 Y의 길이({1,number,integer})와 같아야 합니다.</entry>
+    <entry key="AddPointsInvalidSizeXYZ">인수 X의 길이({0,number,integer})는 인수 Y의 길이({1,number,integer})와 같아야 하고, 인수 Z의 길이({2,number,integer})와 같아야 합니다.</entry>
+    <entry key="AddPointsInvalidType">인수 {0}의 유형이 올바르지 않습니다. 유형은 double형이어야 합니다.</entry>
+    <entry key="AddPointsNoSparse">인수 {0}은(는) 희소 형식일 수 없습니다.</entry>
+    <entry key="AddPointsNoComplex">인수 {0}은(는) 복소수일 수 없습니다.</entry>
+    <entry key="AddPointsInvalidShape">인수 {0}은(는) 벡터여야 합니다.</entry>
+    <entry key="AddPointsOverflow">점의 개수가 디폴트 최대 점 개수 {0,number,integer}개를 초과합니다. 애니메이션된 선의 점 개수를 조정하려면 AnimatedLine 객체의 MaximumNumPoints 속성을 원하는 값으로 설정하십시오.</entry>
+    <entry key="IncorrectNumInputArgs">다음 간이 인수의 개수가 유효하지 않음: {0, number, integer}. 유효한 입력값은 animatedline(X,Y,...) 또는 animatedline(X,Y,Z,...)입니다. </entry>
+    <entry key="GetPointsIncorrectNumberOfOutputArgs">2개 또는 3개의 출력 인수를 지정하십시오.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadHandle">유효한 Figure 또는 axes 객체 핸들을 지정해야 함</entry>
+    <entry key="MustBeValidMovieMatrix">인수는 GETFRAME의 유효한 동영상 행렬이어야 함</entry>
+    <entry key="BadRepeatCount1">반복 횟수와 프레임 순서 목록은 유한한 숫자형 값이어야 함</entry>
+    <entry key="BadRepeatCount2">유효하지 않은 반복 횟수가 지정됨</entry>
+    <entry key="BadRECT">유효하지 않은 RECT가 지정됨</entry>
+    <entry key="SkippingCorruptedFrame">동영상의 손상된 #{0,number,integer} 프레임 건너뜀</entry>
+    <entry key="NoValidFrames">이 동영상에 유효한 프레임이 없음</entry>
+    <entry key="ExpectedStructure">유효하지 않은 동영상임: 구조체형이어야 함</entry>
+    <entry key="WrongNumberOfFields">유효하지 않은 동영상 구조체임: 필드 개수가 잘못됨</entry>
+    <entry key="WrongFieldNamesOrOrder">유효하지 않은 동영상 구조체임: 필드 이름 또는 필드 순서가 잘못됨</entry>
+    <entry key="UninitializedFrames">동영상에 초기화되지 않은 프레임이 포함됨</entry>
+    <entry key="CDataTypeMustBeUint8Array">동영상 cdata는 uint8형 배열이어야 함</entry>
+    <entry key="CDataMustHave2Or3Dimensions">동영상 cdata는 2차원 또는 3차원이어야 함</entry>
+    <entry key="ColormapMustBeNonEmpty">인덱싱된 동영상 프레임에는 비어 있는 컬러맵이 없어야 함</entry>
+    <entry key="ColormapMustBeDoubleArray">동영상 컬러맵은 double형 배열이어야 함</entry>
+    <entry key="ColormapCannotHaveMoreThan256Colors">동영상 컬러맵은 최대 256개 색을 가질 수 있음</entry>
+    <entry key="ColormapMustHave3Columns">동영상 컬러맵에는 3개의 열이 있어야 함</entry>
+    <entry key="ColormapValuesMustBeFinite">동영상 컬러맵의 값들은 유한해야 함</entry>
+    <entry key="ColormapValuesOutOfRange">동영상 컬러맵의 값들은 0.0과 1.0(구간의 끝점 포함) 사이에 있어야 함</entry>
+    <entry key="BadColormapIndices">인덱싱된 동영상 데이터 값은 다음과 같은 올바른 컬러맵 인덱스여야 함:\ndouble형 동영상 데이터의 경우 1.0 &lt;= 값 &lt;= 길이(컬러맵), uint8형 동영상 데이터의 경우 0 &lt;= 값 &lt;= 길이(컬러맵)-1</entry>
+    <entry key="BadFrameDimensions">각 동영상 프레임은 MxN(인덱싱됨) 또는 MxNx3(트루컬러)의 배열이어야 함</entry>
+    <entry key="HandleMustBeFigureOrAxes">객체 핸들은 Figure 또는 axes여야 함</entry>
+    <entry key="HandleMustBeValid">유효한 Figure 또는 axes 객체 핸들을 지정해야 함</entry>
+    <entry key="MustBeTrueColor">동영상은 트루컬러 비주얼만 지원합니다.</entry>
+    <entry key="ExpectedDoubleScalar">fps(초당 프레임 수)는 double형 스칼라로 지정해야 합니다.</entry>
+    <entry key="ExpectedNumericFinite">반복 횟수와 프레임 순서 목록은 유한한 숫자형 값이어야 함</entry>
+    <entry key="CantCreateFrame">동영상 프레임을 만들 수 없음</entry>
+    <entry key="unsupported">내장 hgMovie는 HGUsingMATLABClasses 모드에서는 지원되지 않습니다. 대신 MOVIE.M을 사용하십시오.</entry>
+    <entry key="ZeroRepetitions">동영상이 0회 재생되도록 요청됨</entry>
+    <entry key="BadPlaylist">유효하지 않은 재생 목록이 지정됨</entry>
+    <entry key="BadFPS1">유효하지 않은 FPS가 지정됨</entry>
+    <entry key="BadFPS2">유효하지 않은 FPS가 지정됨</entry>
+    <entry key="BadFPS3">유효하지 않은 FPS가 지정됨</entry>
+    <entry key="BadMatrix1">인수는 GETFRAME의 유효한 동영상 행렬이어야 함</entry>
+    <entry key="BadMatrix2">인수는 GETFRAME의 유효한 동영상 행렬이어야 함</entry>
+    <entry key="BadMatrix3">인수는 GETFRAME의 유효한 동영상 행렬이어야 함</entry>
+    <entry key="BadFrameOrderIndex1">유효하지 않은 인덱스({0})가 프레임 순서로 지정되었습니다.\n숫자는 1과 프레임 수({1,number,integer}) 사이여야 합니다.</entry>
+    <entry key="BadFrameOrderIndex2">유효하지 않은 인덱스({0})가 프레임 순서로 지정되었습니다.\n숫자는 1과 프레임 수({1,number,integer}) 사이여야 합니다.</entry>
+    <entry key="MovieContainsUninitializedFrames">동영상에 초기화되지 않은 프레임이 포함됨</entry>
+    <entry key="CdataMustBeOfTypeUint8Array">동영상 cdata는 uint8형 배열이어야 함</entry>
+    <entry key="CdataMustHave2Or3Dimensions">동영상 cdata는 2차원 또는 3차원이어야 함</entry>
+    <entry key="FrameMustBeAnArrayOfSizeMxNindexedOrMxNx3tr">각 동영상 프레임은 MxN(인덱싱됨) 또는 MxNx3(트루컬러)의 배열이어야 함</entry>
+    <entry key="IndexedMovieFrameMustHaveANonemptyColormap">인덱싱된 동영상 프레임에는 비어 있는 컬러맵이 없어야 함</entry>
+    <entry key="MovieColormapsMustBeDoubleArrays">동영상 컬러맵은 double형 배열이어야 함</entry>
+    <entry key="ColormapCanNotHaveMoreThan256Colors">동영상 컬러맵은 최대 256개 색을 가질 수 있음</entry>
+    <entry key="ColormapsMustHave3Columns">동영상 컬러맵에는 3개의 열이 있어야 함</entry>
+    <entry key="ColormapValuesMustBeBetween0And1Inclusive">동영상 컬러맵의 값들은 0.0과 1.0(구간의 끝점 포함) 사이에 있어야 함</entry>
+    <entry key="ArgumentMustBeAValidMovieMatrixFromGETFRAME">인수는 GETFRAME의 유효한 동영상 행렬이어야 함</entry>
+    <entry key="RepetitionCountAndFrameOrderListMustBeFiniteNumeric">반복 횟수와 프레임 순서 목록은 유한한 숫자형 값이어야 함</entry>
+    <entry key="InvalidRepeatCountSpecification">유효하지 않은 반복 횟수가 지정됨</entry>
+    <entry key="FramesPerSecondMustBePositiveDouble">fps(초당 프레임 수)는 0보다 큰 double형 스칼라로 지정해야 합니다.</entry>
+    <entry key="InvalidRECTSpecification">유효하지 않은 RECT가 지정됨</entry>
+    <entry key="ValueMustBeNumeric">값은 숫자형이어야 함</entry>
+    <entry key="ObjectHandleMustBeAFigureOrAnAxes">객체 핸들은 Figure 또는 axes여야 함</entry>
+    <entry key="IndexedMovieDataValuesMustBeLegalColormapIndices">인덱스로 지정된 동영상 데이터 값은 다음과 같은 올바른 컬러맵 인덱스여야 함:\ndouble형 동영상 데이터의 경우 1.0 &lt;= 값 &lt;= 길이(컬러맵)\nuint8형 동영상 데이터의 경우 0 &lt;= 값 &lt;= 길이(컬러맵)-1</entry>
+  </message>
+</rsccat>

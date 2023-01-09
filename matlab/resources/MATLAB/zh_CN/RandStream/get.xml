@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedProperty">属性 ''{0}'' 无法识别。</entry>
+    <entry key="SubstreamIndexTooLarge">子流索引大于 2^53-1，以 uint64 类形式返回。</entry>
+    <entry key="InvalidNumStateComponents">状态数组对于 {0} 生成函数无效。</entry>
+    <entry key="InvalidStateBufLen">此生成函数的状态缓冲区长度无效。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownOption">{0}은(는) 유효하지 않은 형식 옵션입니다.</entry>
+    <entry key="InvalidInput">유효하지 않은 데이터형입니다. 형식 옵션은 문자형 벡터, string형 스칼라 또는 {0} 클래스의 인스턴스여야 합니다.</entry>
+    <entry key="MissingOrInvalidClass">The class definition of {0} is corrupt or not on the MATLAB Path. </entry>
+  </message>
+</rsccat>

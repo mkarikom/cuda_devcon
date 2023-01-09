@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoCopyMethod">{0} の copy メソッドが見つかりません</entry>
+    <entry key="NoCopyElementMethod">クラス {0} には copyElement メソッドがありません。</entry>
+    <entry key="ScalarOutputRequired">スカラーでなければなりません</entry>
+    <entry key="WrongReturnClass">同じクラスでなければなりません</entry>
+    <entry key="UndefinedMethod">クラス {0} には copy メソッドがありません。</entry>
+  </message>
+</rsccat>

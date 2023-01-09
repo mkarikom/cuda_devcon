@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonShippingFile">제품에 기본으로 포함되지 않는 파일입니다. 제품의 기본 코드에서 이 함수를 호출하지 마십시오.</entry>
+    <entry key="incorrectOperatingMode">이 모드에서는 이 함수 사용이 지원되지 않습니다.</entry>
+    <entry key="InvalidCommand">figuretools에 대한 첫 번째 인수는 다음 명령 중 하나여야 합니다.\n''MenuBar'', ''ToolBar'', ''MakeFigFiles'', ''MakeDeploymentFiles''</entry>
+  </message>
+</rsccat>

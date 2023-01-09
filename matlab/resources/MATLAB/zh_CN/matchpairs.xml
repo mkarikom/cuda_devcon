@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidCost">Cost 必须为双精度或单精度数据类型的实矩阵。</entry>
+    <entry key="NonFiniteCost">成本中不能包含 NaN。</entry>
+    <entry key="InvalidCostUnmatched">costUnmatched 必须为双精度或单精度数据类型的实数标量。</entry>
+    <entry key="NonFiniteCostUnmatched">costUnmatched 必须为有限矩阵。</entry>
+    <entry key="InvalidOption">选项必须为 ''min'' 或 ''max''。</entry>
+  </message>
+</rsccat>

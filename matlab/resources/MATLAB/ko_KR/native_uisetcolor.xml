@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TitleMustBeLastParam">제목은 uisetcolor로 전달된 마지막 파라미터여야 합니다.</entry>
+    <entry key="BadHandle">유효하지 않은 핸들임</entry>
+    <entry key="ColorSelectionNotSupported">{0} 객체에는 색 선택이 지원되지 않습니다. Color나 ForeGroundColor 속성이 있는 객체에는 색 선택이 지원됩니다.</entry>
+    <entry key="BadColorSpec">유효하지 않은 색이 지정됨</entry>
+    <entry key="BadArguments">두 번째 인수(대화 상자 제목)는 문자형 벡터여야 함</entry>
+  </message>
+</rsccat>

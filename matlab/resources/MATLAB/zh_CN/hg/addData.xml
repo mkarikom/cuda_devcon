@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NullArgument">addData 方法的参数为空</entry>
+    <entry key="Datatype">YData 参数必须为双精度值。</entry>
+    <entry key="BadDimensions">顶点必须为 Nx3 矩阵</entry>
+    <entry key="DatatypeMismatch">{0} 属性的数据类型不是双精度，不能添加。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooFewArguments">QUESTDLG 的参数数目太少</entry>
+    <entry key="WrongNumberOutputs">QUESTDLG 的输出参数的数目不正确</entry>
+    <entry key="TooManyInputs">输入参数太多</entry>
+    <entry key="StringMismatch">默认字符向量与任何按钮字符向量名称都不匹配。</entry>
+  </message>
+</rsccat>

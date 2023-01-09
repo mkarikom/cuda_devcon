@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidHandle">First argument must be a valid handle.</entry>
+    <entry key="InvalidName" note="stringDatatypeUpdate">Name must be a string scalar or a character vector.</entry>
+    <entry key="InvalidBehaviorState">Behavior state must be logical or numeric.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="IndexGTOne">이 DAE는 1보다 큰 인덱스로 나타납니다.</entry>
+    <entry key="NeedBetterY0">모순 없는 초기 조건을 위해서는 더 좋은 추측값(y0)이 필요합니다.</entry>
+  </message>
+</rsccat>

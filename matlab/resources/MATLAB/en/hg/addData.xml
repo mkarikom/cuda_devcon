@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NullArgument">Null argument to addData method</entry>
+    <entry key="Datatype">The YData argument must be double.</entry>
+    <entry key="BadDimensions">vertices must be a Nx3 matrix</entry>
+    <entry key="DatatypeMismatch">Data Type of {0} property is not Double and cannot be added to.</entry>
+  </message>
+</rsccat>

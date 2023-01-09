@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="StartupOptionShouldBeStr">MATLAB 启动选项应为字符串</entry>
+    <entry key="BackgroundMustBeBool">'background' 必须为布尔值</entry>
+    <entry key="EitherAsyncOrBackground">使用 'async' 或 'background'</entry>
+    <entry key="AsyncWillDeprecate">以后的版本中将会删除 'async' 关键字。请改用 'background'</entry>
+    <entry key="AsyncMustBeBool">'async' 必须为布尔值</entry>
+    <entry key="AttrCannotBeAddedToM">属性不能添加到 MatlabEngine 中</entry>
+    <entry key="NargoutMustBeInt">'nargout' 必须为整数，而非 {0}</entry>
+    <entry key="NargoutCannotBeLessThanZero">'nargout' 必须大于或等于 0</entry>
+    <entry key="InvalidKwargs">关键字参数 {0} 无效</entry>
+    <entry key="StdoutMustBeStringIO">'stdout' 必须为 {0}，而非 {1}</entry>
+    <entry key="StderrMustBeStringIO">'stderr' 必须为 {0}，而非 {1}</entry>
+    <entry key="VarNameMustBeStr">变量名称必须为字符串，而非 {0}</entry>
+    <entry key="VarNameNotValid">变量名称在 MATLAB 中无效</entry>
+    <entry key="AttrCannotBeAddedToMWS">属性不能添加到 MatlabWorkSpace 中</entry>
+    <entry key="MatlabTerminated">MATLAB 已终止</entry>
+    <entry key="MatlabFunctionCancelled">MATLAB 函数已取消</entry>
+    <entry key="MatlabFunctionTimeout">执行 MATLAB 函数超时</entry>
+    <entry key="TimeoutMustBeNumeric">'timeout' 必须为数值，而非 {0}</entry>
+    <entry key="TimeoutCannotBeNegative">'timeout' 不能为负数</entry>
+    <entry key="LaunchMatlabTimeout">启动 MATLAB 超时</entry>
+    <entry key="ConnectMatlabTimeout">连接共享的 MATLAB 会话超时</entry>
+    <entry key="LaunchMatlabCancelled">已取消 MATLAB 启动</entry>
+    <entry key="ConnectMatlabCancelled">已取消连接到共享的 MATLAB 会话</entry>
+    <entry key="StartupOptionShouldBePO">MATLAB 启动选项应为 Python 对象</entry>
+    <entry key="StartupOptionShouldBeLS">MATLAB 启动选项应为字符串列表</entry>
+    <entry key="HandleToMatlabShouldBeLI">MATLAB 实例句柄应为长整数</entry>
+    <entry key="FevalTakes3Args">mwEvaluateFunction 至少需要 3 个参数</entry>
+    <entry key="FuncShouldBeASCII">MATLAB 函数应为 ASCII 字符串</entry>
+    <entry key="NumOutShouldBeInt">输出数目应为整数</entry>
+    <entry key="KeywordShouldBeStr">关键字应为字符串</entry>
+    <entry key="FevalResultTakes3Args">mwGetFEvalResult 需要恰好 3 个位置参数</entry>
+    <entry key="HandleToResultShouldBeLI">未来结果句柄应为长整数</entry>
+    <entry key="HandleToConOutShouldBeLI">控制台输出句柄应为长整数</entry>
+    <entry key="HandleToConErrShouldBeLI">控制台错误句柄应为长整数</entry>
+    <entry key="HandleShouldBeTuple">句柄应存储为元组</entry>
+    <entry key="TimtoutShouldBeIntFloat">以秒为单位的超时长度应为整数、浮点数或 None</entry>
+    <entry key="StringIODoesNotExist">StringIO 不存在</entry>
+    <entry key="StringIOForConErr">控制台错误需要 StringIO</entry>
+    <entry key="StringIOForConOut">控制台输出需要 StringIO</entry>
+    <entry key="MatlabFunctionNotEvaluated">MATLAB 函数无法求解</entry>
+    <entry key="VarNameShouldBeStr">变量名称应为字符串</entry>
+    <entry key="UnsupportedMatlabType">从 MATLAB 返回的数据类型不受支持</entry>
+    <entry key="FHNotSupportedFromMatlab">MATLAB 无法返回函数句柄</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2017-2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="DuplicateVars">List of variables to split must not specify any variable more than once.</entry>
+    <entry key="IncorrectNumVarnamesMultisplit">When splitting multiple variables, to specify new variable names, provide a cell array with each cell containing the new variable names corresponding to the columns of one of the variables being split.</entry>
+    <entry key="VartypeInvalidVars">Using a vartype subscripter to specify the variables to split is not supported. Use a character vector, string array, cell array of character vectors, or numeric or logical indices.</entry>
+     <!-- codegen -->
+    <entry key="NewVarNamesMustBeConstant">Specify 'NewVariableNames' as Constant.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadCDataDimensions">CData 必须为 M×N 矩阵或 M×N×3 数组。</entry>
+    <entry key="MatrixDimensionsMustAgree">矩阵维度必须一致，未渲染网格</entry>
+    <entry key="ZMustNotBeScalarOrVector">Z 不能为标量或向量，未渲染曲面</entry>
+    <entry key="CDataMustBeDoubleOrSingleUnlessTextureData">除非 CData 仅用作纹理数据，否则其必须为双精度值或单精度值</entry>
+    <entry key="CDataMustBeDoubleOrUint8">CData 必须为双精度值或 uint8。</entry>
+    <entry key="CDataSizeMustEqualZDataSizeForInterpolatedShading">对于插补着色，size(CData) 必须等于 size(ZData)</entry>
+    <entry key="AlphaDataSizeMustEqualZDataSizeForInterpolatedAlpha">对于插值 alpha，size(AlphaData) 必须等于 size(ZData)</entry>
+    <entry key="CDataSizeMustEqualZDataSizeForMarkerFlatColoring">对于标记单一颜色，size(CData) 必须等于 size(ZData)</entry>
+    <entry key="CDataSizeMustEqualZDataSizeForFlagShading">对于单一着色，size(CData) 必须等于 size(ZData) 或 size(ZData)-1</entry>
+    <entry key="AlphaDataSizeMustEqualZDataSizeForFlatAlpha">对于单一 alpha，size(AlphaData) 必须等于 size(ZData) 或 size(ZData)-1</entry>
+    <entry key="FaceAlphaTextureNotPossible1">如果 FaceColor 为纹理并且 size(AlphaData) 等于 size(CData)，则仅能实现 FaceAlpha 纹理</entry>
+    <entry key="FaceAlphaTextureNotPossible2">如果 FaceColor 为纹理并且 size(AlphaData) 等于 size(CData)，则仅能实现 FaceAlpha 纹理</entry>
+    <entry key="RGBCDataNotSupported">Painter''s 模式下不支持 RGB CData</entry>
+    <entry key="VertexNormalsDimensionsMustBe3">VertexNormals 的维数必须为 3</entry>
+    <entry key="BadVertexNormalsSize">size(VertexNormals) 必须等于 size(ZData)x 3 </entry>
+    <entry key="FaceNormalsDimensionsMustBe2">FaceNormals 的维数必须为 2</entry>
+    <entry key="BadFaceNormalsSize">size(FaceNormals) 必须等于 2(m-1)(n-1) x 3</entry>
+    <entry key="NotEnoughMemoryForNormals">没有可用于正常操作的足够内存。未渲染</entry>
+    <entry key="BadArguments">非参数-值对组的参数必须为数值。</entry>
+    <entry key="CannotBeComplex">X、Y、Z 和 C 不能是复数。</entry>
+    <entry key="MustBeMatrix">Z 必须为矩阵，不能是标量或向量。</entry>
+    <entry key="OutOfMemory">内存不足。有关详细信息，请参阅&lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/memory.html'))\"&gt;内存&lt;/a&gt;。</entry>
+    <entry key="InvalidDataDimensions">数据维度必须一致。</entry>
+    <entry key="IncompatibleProperties">属性不兼容。</entry>
+    <entry key="FaceColorToAlphaFlatInconsistency">当 FaceColor 为 ''flat'' 时，FaceAlpha 必须为 ''flat'' 或 0 到 1 之间的数值。</entry>
+    <entry key="FaceColorToAlphaInterpInconsistency">当 FaceColor 为 ''interp'' 时，FaceAlpha 必须为 ''interp'' 或 0 到 1 之间的数值。</entry>
+    <entry key="FaceColorToAlphaTexturemapInconsistency">当 FaceColor 为 ''texturemap'' 时，FaceAlpha 必须为 ''texturemap'' 或 0 到 1 之间的数值。</entry>
+    <entry key="VertexNormalsToVerticesInconsistency">当使用的光照模式为 Gouraud 时，VertexNormals 的大小必须等于 Vertices 的大小</entry>
+    <entry key="InvalidVertexNormals">当使用的光照模式为 Gouraud 时，无法将 VertexNormals 指定为空数组</entry>
+    <entry key="FaceNormalsToFacesInconsistency">当使用的光照模式为 Flat 时，FaceNormals 的大小必须等于 Faces 的大小</entry>
+    <entry key="InvalidFaceNormals">当使用的光照模式为 Flat 时，无法将 FaceNormals 指定为空数组</entry>
+  </message>
+</rsccat>

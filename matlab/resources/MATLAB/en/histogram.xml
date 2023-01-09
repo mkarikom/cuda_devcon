@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ArgNameValueMismatch">Trailing input arguments must occur in name-value pairs.</entry>
+	<entry key="BinCountsBinEdgesSizeMismatch">The length of ''BinEdges'' must be one longer than ''BinCounts'' when ''BinCountsMode'' is ''manual''.</entry>
+    <entry key="BinCountsInvalidSize">''BinCounts'' cannot be set if any of ''NumBins'',''BinWidth'', ''BinMethod'', or ''BinLimits'' is set, and it must have length equal to length(BinEdges)-1.</entry>
+    <entry key="DatetimeBinEdgesClass">With {0} data, bin edges must be {0}.</entry>
+    <entry key="DatetimeBinLimitsClass">With {0} data, bin limits must be {0}.</entry>
+    <entry key="DatetimeNormalization">''countdensity'' and ''pdf'' normalization are not supported with datetime or duration data.</entry>
+    <entry key="DatetimeBinMethod">''integers'' bin method is not supported with datetime or duration data.</entry>
+    <entry key="DurationBinMethod">''{0}'' bin method is not supported with duration data.</entry>
+    <entry key="EmptyBinCountsManualMode">When ''BinCountsMode'' is set to ''manual'', ''BinCounts'' must be set.</entry>
+    <entry key="EmptyBinLimitsManualMode">When ''BinLimitsMode'' is set to ''manual'', ''BinEdges'' or ''BinLimits'' must be set.</entry>
+    <entry key="EmptyOrScalarBinEdges">BinEdges must be a vector of length greater than or equal to 2.</entry>
+    <entry key="FixedDataClass">When changing Data, old and new values must be both numeric, or must have the same class.</entry>
+    <entry key="InvalidStairsFaceColor">FaceColor must be ''none'' when ''DisplayStyle'' is set to ''stairs''.</entry>
+    <entry key="InvalidBinMethod">BinMethod cannot be set to ''manual''.</entry>
+    <entry key="InvalidBinWidth">Bin width must be a positive and finite scalar.</entry>
+    <entry key="InvalidColor">{0} input is not a valid color.</entry>
+    <entry key="InvalidDatetimeEdges">Bin edges must be a datetime vector with at least two elements if the data is a datetime array.</entry>
+    <entry key="InvalidDatetimeOrDurationBinLimits">Bin limits must be a sorted finite {0} vector with two elements if the data is {0}.</entry>
+    <entry key="InvalidDatetimeBinWidth">With datetime data, bin width must be a scalar duration or calendarDuration.</entry>
+    <entry key="InvalidDurationBinWidth">With duration data, bin width must be a scalar duration.</entry>
+    <entry key="InvalidDurationEdges">Bin edges must be a duration vector with at least two elements if the data is a duration array.</entry>
+    <entry key="InvalidMixedBinInputs">''BinEdges'' input cannot be followed by any of ''NumBins'',''BinWidth'', ''BinMethod'', or ''BinLimits''.</entry>
+    <entry key="ManualEdges">Bin edges must be a row vector with {0,number,integer} elements when bin counts has {1,number,integer} elements.</entry>
+    <entry key="MixedDataBinCounts">When X input is non-empty, BinCounts cannot be set.</entry>
+    <entry key="NonEmptyBinCountsAutoMode">When ''BinCountsMode'' is set to ''auto'', ''BinCounts'' cannot be set.</entry>
+    <entry key="NonEmptyBinLimitsAutoMode">When ''BinLimitsMode'' is set to ''auto'', ''BinEdges'' or ''BinLimits'' cannot be set.</entry>
+    <entry key="NumericBinEdgesClass">With numeric data, bin edges must be numeric.</entry>
+    <entry key="NumericBinWidthClass">With numeric data, bin width must be numeric.</entry>
+    <entry key="NumericBinLimitsClass">With numeric data, bin limits must be numeric.</entry>
+    <entry key="NumericBinMethod">With numeric data, bin method must be ''auto'', ''scott'', ''fd'', ''integers'', ''sqrt'', or ''sturges''.</entry>
+    <entry key="OrientationMixedType">Orientation is not supported for datetime or duration data when there are non-histogram objects in the axes.</entry>
+    <entry key="OrientationYYAxes">Changing the ''Orientation'' value is not supported for histograms with datetime or duration data in two y-axes.</entry>
+    <entry key="ReadOnlyPropertyManualBinCounts">{0} cannot be set when BinCountsMode is ''manual''.</entry>
+    <entry key="UnsortedDatetimeEdges">Bin edges must be a sorted datetime vector that does not contain NaTs.</entry>
+    <entry key="UnsortedDurationEdges">Bin edges must be a sorted duration vector that does not contain NaNs.</entry>
+    <entry key="UnsupportedBinMethod">''{0}'' is not a supported bin method for {1} data.</entry>
+    <entry key="UnsupportedCategories">''Categories'' is not supported when X input is numeric or logical.</entry>
+    <entry key="UnsupportedDatetimeOrDurationNormalization">''{0}'' normalization option is not supported for datetime or duration data.</entry>
+    <entry key="UnsupportedMethodManualBinCounts">{0} is not supported when BinCountsMode is ''manual''.</entry>
+    <entry key="UnsupportedOrientationInPolarCoordinates">Horizontal orientation is not supported for histogram in polar coordinates.</entry>
+    <entry key="BinRangePolar">Invalid 'BinEdges' value for histogram in polar coordinates. Difference between maximum and minimum values must not be greater than 2*pi.</entry>
+    <entry key="BinLimitsRangePolar">Invalid 'BinLimits' value for histogram in polar coordinates. Specify a 2-element vector of values that differ by no more than 2*pi.</entry>
+    <entry key="OrientationLabel">Orientation of box charts</entry>
+    <entry key="BoxWidthLabel">Relative width of individual boxes</entry>
+    <entry key="JitterOutliersLabel">Outlier marker displacement</entry>
+    <entry key="NotchLabel">Median comparison display</entry>
+    <entry key="NumBinsLabel">Number of bins</entry>
+    <entry key="BinMethodLabel">Binning algorithm</entry>
+    <entry key="BinWidthLabel">Width of bins</entry>
+    <entry key="DisplayStyleLabel">Histogram display style</entry>
+    <entry key="ShowOthersLabel">Toggle summary display of data for undisplayed categories</entry>
+    <entry key="BarOrientationLabel">Orientation of bars</entry>
+	<entry key="BinEdges" note="For data tips">Bin edges</entry>
+	<entry key="Value" note="For data tips">Value</entry>
+  </message>
+</rsccat>

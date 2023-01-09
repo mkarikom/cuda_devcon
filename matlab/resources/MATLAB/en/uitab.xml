@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidObjHandle">Invalid object handle.</entry>
+    <entry key="ObjMustBeChild">An object of class uitab has to be a child of class uitabgroup.</entry>
+    <entry key="DeprecatedFunction">This implementation of uitab has been deprecated and is no longer supported.</entry>
+  <!--Resource entries for src/hg-->
+    <entry key="InvalidParent">Parent must be a TabGroup</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="MigratedFunction">v0 option is no longer supported. To continue to use this functionality, remove ''v0'' as the first argument</entry>
+    <entry key="MigratingFunction">v0 flag is obsoleted for the uitab. To continue using this function, remove v0 as the first argument</entry>
+  </message>
+</rsccat>

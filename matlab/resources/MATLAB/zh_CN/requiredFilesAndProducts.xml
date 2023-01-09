@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadStringFlag">
+标志 "{0}" 无法识别。请使用有效标志。
+ </entry>
+    <entry key="NameMustBeChar">
+在第一个输入参数中找到无效的元素: {0}。文件名请使用字符串、行字符向量或行字符向量元胞数组。 
+ </entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="badMessageArgument">A message identifier must be followed by a message that is a character vector or string scalar.</entry>
+    <entry key="identifierTooLong">The specified identifier is longer than the maximum allowed {0,number,integer} characters.</entry>
+    <entry key="invalidMessageType">The message must be specified as either a character vector, string scalar, or a message structure.</entry>
+    <entry key="missingMessageArgument">If you specify a message identifier argument, you must specify the message text argument.</entry>
+    <entry key="nonScalarInput">Formatted arguments must be scalar.</entry>
+    <entry key="unexpectedArguments">Input arguments are not allowed after the message structure input.</entry>
+  </message>
+</rsccat>

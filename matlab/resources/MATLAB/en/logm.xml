@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2015-2020 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="inputType">Input must be a single or double matrix.</entry>
+      <entry key="inputMustBeSquare">Input matrix must be square.</entry>
+      <entry key="nonPosRealEig">Principal matrix logarithm is not defined for A with nonpositive real eigenvalues. A non-principal matrix logarithm is returned.</entry>
+      <entry key="TooManyMatrixSquareRoots">Maximum number of matrix square roots exceeded. Results may be inaccurate.</entry>
+   </message>
+</rsccat>

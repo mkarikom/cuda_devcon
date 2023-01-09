@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidConcatenation">すべての入力は datetime か、日付/時刻の文字ベクトルまたは日付/時刻の string でなければなりません。</entry>
+    <entry key="IncompatibleTZ">タイム ゾーンをもつ datetime 配列とタイム ゾーンをもたない datetime 配列は連結できません。</entry>
+    <entry key="NonNumericDim">次元引数は数値でなければなりません。</entry>
+  </message>
+</rsccat>

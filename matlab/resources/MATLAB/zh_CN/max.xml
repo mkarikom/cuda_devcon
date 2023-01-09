@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ClassNotSupport">不支持输入类。</entry>
+    <entry key="InvalidComparisonMethod">比较方法必须为 ''auto''、''abs'' 或 ''real''。</entry>
+    <entry key="InvalidFlagPosition">必须在名称-值对组之前指定选项。</entry>
+    <entry key="mixedInputs">混合输入必须为单精度值和双精度值组合，或为整数和标量双精度值组合。不允许使用所有其他组合形式。</entry>
+    <entry key="TwoInTwoOutCaseNotSupported">不支持具有两个要比较的矩阵和两个输出参数的 MAX。</entry>
+    <entry key="caseNotSupported">提供两个输入数组时，不支持维度参数。</entry>
+    <entry key="notSupportedSparse">MAX 不支持稀疏整数和单精度操作数。</entry>
+    <entry key="complexIntegersNotSupported">不支持复整数最大值。</entry>
+    <entry key="unknownNaNFlag">选项必须为 ''omitnan'' 或 ''includenan''。</entry>
+    <entry key="unknownFlag">选项必须为 ''linear''、''omitnan'' 或 ''includenan''。</entry>
+    <entry key="unknownOption">选项必须为 ''all''、''linear''、''omitnan'' 或 ''includenan''。</entry>
+    <entry key="secondInputFlag">第二个参数无效。指定选项时，请使用 MAX(X,[],option)。</entry>
+    <entry key="wrongInput">数据类型无效。第一个参数必须为数值或逻辑值。</entry>
+    <entry key="wrongSecondInput">数据类型无效。第二个参数必须为数值或逻辑值。</entry>
+    <entry key="secondOutputNotSupported">当返回两个输出且维度为向量时，请指定 ''线性'' 选项。</entry>
+    <entry key="secondOutputNotSupportedSparse">此大小的矩阵不支持第二个输出。</entry>
+    <entry key="InvalidAbsRealType">仅当输入数组为数值或逻辑数组时，才支持 ''ComparisonMethod'' 参数。</entry>
+    <entry key="secondInputNVP">第二个参数无效。指定名称-值对组时，请使用 MAX(X,[],"ComparisonMethod",method)。</entry>
+  </message>
+</rsccat>

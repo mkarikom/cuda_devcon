@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputType">입력 인수는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="TooManyInputs">셀형 배열에는 입력 인수를 한 개만 사용할 수 있습니다.</entry>
+    <entry key="sortDirection">정렬 방향은 ''ascend'' 또는 ''descend''여야 합니다.</entry>
+    <entry key="sortDirectionIsSorted">정렬 방향은 ''ascend'', ''descend'', ''monotonic'', ''strictascend'', ''strictdescend'' 또는 ''strictmonotonic''이어야 합니다.</entry>
+    <entry key="complexIntegers">복소수형 정수의 SORT는 지원되지 않습니다. </entry>
+    <entry key="InvalidAbsRealType">첫 번째 인수가 {0} 배열인 경우에는 ''ComparisonMethod'' 파라미터를 사용할 수 없습니다.</entry>
+    <entry key="InvalidComparison">''ComparisonMethod'' 값은 ''auto'', ''abs'', ''real'' 중 하나여야 합니다.</entry>
+    <entry key="InvalidFirstLastType">첫 번째 인수가 {0} 배열인 경우에는 ''MissingPlacement'' 파라미터를 사용할 수 없습니다.</entry>
+    <entry key="InvalidMissingPlace">''MissingPlacement'' 값은 ''auto'', ''first'', ''last'' 중 하나여야 합니다.</entry>
+    <entry key="NameValueNames">파라미터 이름은 'ComparisonMethod' 또는 'MissingPlacement'여야 합니다.</entry>
+    <entry key="NameValuePairs">인수의 개수가 잘못되었습니다. 파라미터 이름과 값은 쌍으로 있어야 합니다.</entry>
+    <entry key="notPosInt">차원 인수는 양의 정수여야 합니다.</entry>
+    <entry key="SecondArgumentType">두 번째 인수는 차원이나 정렬 방향을 지정해야 합니다.</entry>
+    <entry key="ThirdArgumentType">정렬 방향은 문자형 벡터여야 합니다.</entry>
+  </message>
+</rsccat>

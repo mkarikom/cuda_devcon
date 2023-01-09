@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidDirectoryNotSet">该目录似乎不是有效的文档根目录。</entry>
+    <entry key="ChangingDocrootNotSupported">在此配置中，不支持更改文档根目录的操作。</entry>
+  </message>
+</rsccat>

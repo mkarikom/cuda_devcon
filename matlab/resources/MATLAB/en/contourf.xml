@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="EmptyV6OutputArgument">The V6 compatibility output argument from {0} has been set to the empty matrix.  This will become an error in a future release.</entry>
+    <entry key="DeprecatedV6OutputArgument">The V6 compatibility output argument from {0} is deprecated. This will no longer be supported in a future release.</entry>
+    <entry key="EmptyInput">Input argument is empty</entry>
+    <entry key="NonFiniteData">Contour not rendered for non-finite ZData</entry>
+    <entry key="ConstantData">Contour not rendered for constant ZData</entry>
+  </message>
+</rsccat>

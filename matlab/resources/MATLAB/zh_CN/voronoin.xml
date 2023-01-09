@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">需要至少 1 个输入。</entry>
+    <entry key="HigherDimArray">X 必须为 2 维数组。</entry>
+    <entry key="XLowColNum">X 必须包含至少 2 列。</entry>
+    <entry key="NotEnoughPtsForTessel">特征点数目不足，无法创建三角剖分。</entry>
+    <entry key="DuplicateDataPoints">检测到重复的数据点。\n这可能会导致点与 Voronoi 区域的关系出现不一致。\n要避免此行为，请在调用 VORONOIN 之前对数据点调用 UNIQUE。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidinput">値は 2 要素のベクトルでなければなりません。</entry>
+    <entry key="BadParent">Parent プロパティは、名前と値のペアとしてはサポートされません。</entry>
+    <entry key="BadNumArgs">入力引数が不足しています。</entry>
+    <entry key="FirstArgFigureOrAnnotation">最初の引数は、有効な注釈タイプか、figure、uipanel、または uitab のハンドルでなければなりません。</entry>
+    <entry key="SecondArgValidAnnotation">2 番目の引数は、有効な注釈タイプでなければなりません。</entry>
+    <entry key="IllegalXYArguments">X と Y の値は 0 ～ 1 でなければなりません。</entry>
+    <entry key="IllegalPositionArgument">位置の値は 0 ～ 1 でなければなりません。</entry>
+    <entry key="BadArguments">不明な引数です。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputSizeMismatch">B에는 A와 같은 개수의 행이 있어야 합니다.</entry>
+    <entry key="CantReturnCov">B에 오른쪽 값이 여러 개 포함되면 S를 반환할 수 없습니다.</entry>
+    <entry key="NoSparseOrthAlg">''orth'' 알고리즘에 대한 입력값은 희소 형식일 수 없습니다.</entry>
+    <entry key="RankDefSparseCovMat">희소 형식인 경우 V는 양의 정부호 행렬이어야 합니다.</entry>
+    <entry key="RankDefCovMat">V의 랭크가 기계 정밀도 내에서 부족합니다. 직각 알고리즘으로 전환됩니다.</entry>
+    <entry key="InvalidCovMatPosV">V는 양의 정부호 행렬이거나 양의 준정부호 행렬이어야 합니다.</entry>
+    <entry key="InvalidCovMat">V는 {0, number, integer}×{1, number, integer} 공분산 행렬 또는 {2, number, integer}×1 가중 벡터여야 합니다.</entry>
+    <entry key="RankDefDesignMat">A의 랭크가 기계 정밀도 내에서 부족합니다.</entry>
+    <entry key="TOrthogToNullSpace">T가 A의 null 공간에 대해 직각입니다.</entry>
+    <entry key="InfeasibleRHS">B가 A 및 V와 일치하지 않습니다.</entry>
+    <entry key="InfeasibleRHScol">B의 하나 이상의 열이 A 및 V와 일치하지 않습니다.</entry>
+    <entry key="InvalidAlgArg">ALG는 ''chol'' 또는 ''orth''여야 합니다.</entry>
+    <entry key="InvalidCovMatSymV">V는 대칭 행렬이어야 합니다.</entry>
+    <entry key="NullSpaceNotSpanned">T의 일부 열이 A의 null 공간에 대해 직각입니다.</entry>
+  </message>
+</rsccat>

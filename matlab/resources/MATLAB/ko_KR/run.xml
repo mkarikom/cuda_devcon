@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CannotExecute">RUN에서 파일 ''{0}''을(를) 실행할 수 없습니다. RUN을 사용하려면 유효한 MATLAB 스크립트가 필요함</entry>
+    <entry key="FileNotFound">{0}을(를) 찾을 수 없습니다.</entry>
+  </message>
+</rsccat>

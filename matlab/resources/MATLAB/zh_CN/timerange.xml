@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputTypesMismatch">持续时间必须与持续时间输入配对。</entry>
+    <entry key="TimeZonesMismatch">无法将具有时区的日期时间与无时区的日期时间合并在一起。</entry>
+    <entry key="UnitOfTimeTypesMismatch">持续时间只能在指定区间类型时使用。指定时间单位时使用日期时间。</entry>
+    <entry key="TabularInput">{0} 不是有效的输入参数。请使用两个日期时间或两个持续时间调用 TIMERANGE，并将输出用作时间表的下标。</entry>
+    <entry key="NonScalarInput">参数必须为标量。</entry>
+    <entry key="AmbiguousUnitOfTime">时间单位的值 'm' 不明确。是指: "{0}" 还是 "{1}"?</entry>
+    <entry key="InvalidIntervalType">将第三个参数指定为区间类型('openright'、'openleft'、'open'、'closed')或时间单位('years'、'quarters'、'months'、'weeks'、'days'、'hours'、'minutes'、'seconds')。</entry>
+    <entry key="InvalidSubscripter">只有选择时间表的行时才支持使用 TIMERANGE 标注下标。</entry>
+    <entry key="InvalidTimes">TIMERANGE 端点必须为日期时间或持续时间标量，或者为表示日期时间或持续时间标量的文本。</entry>
+    <entry key="MismatchRowTimesType">包含 {0} 行时间的时间表无法使用 {1} 值标注下标。</entry>
+    <entry key="IncompatibleLoad">无法加载已保存的时间范围对象，因为它与此版本的 MATLAB 不兼容</entry>
+    <entry key="UIStringDispHeader">时间表的&lt;a href="matlab:doc(''timerange'')"&gt;时间范围&lt;/a&gt;下标:</entry>
+    <entry key="UIStringDispOpen">选择时间位于以下开区间的时间表行:\n\t\t({0}, {1})</entry>
+    <entry key="UIStringDispClosed">选择时间位于以下闭区间的时间表行:\n\t\t[{0}, {1}]</entry>
+    <entry key="UIStringDispLeftOpen">选择时间位于以下半开区间的时间表行:\n\t\t({0}, {1}]</entry>
+    <entry key="UIStringDispRightOpen">选择时间位于以下半开区间的时间表行:\n\t\t[{0}, {1})</entry>
+    <entry key="UIStringDispUnitOfTime">基于 {0} 选择以下时间范围的时间表行:\n\t\t 起始时间（含）: {1}\n\t\t 结束时间（不含）: {2}</entry>
+    <entry key="UIStringDispNaTNaNEndpoint">由于一个端点是 {0}，因此未选择行。</entry>
+    <entry key="UIStringDispNullRange">由于左端点与右端点相同或在右端点之后，因此未选择任何行。</entry>
+    <entry key="UIStringDispFooter">请参阅&lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','subscript-into-times-of-timetable.html'))"&gt;根据行时间和变量类型选择时间表数据&lt;/a&gt;。</entry>
+    <entry key="TextInputsNotSupported">代码生成不支持将 TIMERANGE 端点指定为文本。请改为指定持续时间端点。</entry>
+    <entry key="NonConstTypeOrUnit">间隔类型和时间单位输入必须为常量。</entry>
+    <entry key="UnitOfTimeNotSupported">代码生成不支持在 TIMERANGE 中指定时间单位。</entry>
+  </message>
+</rsccat>

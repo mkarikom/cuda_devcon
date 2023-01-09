@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManyCellArgs">여러 개의 string형 배열 또는 문자형 벡터로 구성된 셀형 배열은 지원되지 않습니다. 파일 이름은 문자형 벡터 1개 이상, string형 배열 1개 또는 문자형 벡터로 구성된 셀형 배열 1개로 지정하십시오. 다른 인수는 모두 문자형 벡터이거나 string형 스칼라여야 합니다.</entry>
+    <entry key="NoFile">파일 이름이 제공되지 않았습니다.</entry>
+    <entry key="InvalidInput">-TEXT에는 텍스트를 포함한 하나의 인수와 .m 파일 이름을 포함한 두 번째 인수가 필요함</entry>
+    <entry key="FileNotFound">파일 "{0}"을(를) 열 수 없습니다. 파일을 찾을 수 없거나, 지원되는 MATLAB 코드 파일이 아닙니다.</entry>
+    <entry key="InvalidInputFilename">입력 파일 이름은 문자형 배열이어야 하지만 "{0}" 클래스의 값이 발견되었습니다.</entry>
+    <entry key="NestedCell">checkcode에 대한 입력 인수는 중첩된 셀형 배열을 포함해서는 안 됩니다.</entry>
+    <entry key="CheckCodeInputMustBeOfCharType">인수는 문자형 벡터 또는 string형 스칼라여야 합니다. 파일 이름 인수는 string형 배열이거나 문자형 벡터로 구성된 셀형 배열일 수도 있습니다.</entry>
+    <entry key="TooManyOutputArguments">-DISP 옵션은 출력 변수에 값을 대입할 수 없습니다. \n출력값을 변수에 대입하려면 -STRING 또는 -STRUCT를 사용하십시오.</entry>
+    <entry key="UnusedArgs">다음 인수가 무시됨: {0}.</entry>
+    <entry key="MissingString">&lt;missing&gt; 문자열 요소는 지원되지 않습니다.</entry>
+    <entry key="EmptyInput">비어 있는 인수는 지원되지 않습니다.</entry>
+    <entry key="NotCharacterRowVector">문자형 벡터 인수는 행 벡터여야 합니다.</entry>
+    <entry key="ExpectCell">입력 인수는 Nx1 셀형 배열이어야 합니다.</entry>
+    <entry key="NonChar">입력 셀형 배열에 문자형이 아닌 요소가 포함되어 있습니다.</entry>
+    <entry key="OutputArg">-STRUCT에는 출력 인수가 필요합니다.</entry>
+    <entry key="MTreeInput">입력 인수는 문자형 벡터여야 합니다.</entry>
+    <entry key="MTreeFileType">mtree에서 FileType 속성을 할당할 mtree.Type 열거형을 찾을 수 없습니다.</entry>
+  </message>
+</rsccat>

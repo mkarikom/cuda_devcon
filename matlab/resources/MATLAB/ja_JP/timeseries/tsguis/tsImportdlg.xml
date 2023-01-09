@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Cancel">キャンセル</entry>
+    <entry key="CannotImport">前のアクションが終了するまでインポートできません。再度インポートしてください。</entry>
+    <entry key="Help">ヘルプ</entry>
+    <entry key="Import">インポート</entry>
+    <entry key="ImportFromWorkspace">ワークスペースからのインポート:</entry>
+    <entry key="Refresh">更新</entry>
+    <entry key="SelectOneOrMoreItemsToImport">インポートする 1 つまたは複数の項目を選択してください。</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="UnableToLoadObject">オブジェクト ''{0}'' を読み込むことができません。イベント名が固有ではありません。</entry>
+  </message>
+</rsccat>

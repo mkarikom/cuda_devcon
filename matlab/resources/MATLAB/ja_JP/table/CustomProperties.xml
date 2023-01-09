@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CellReferenceNotAllowed">非セル配列オブジェクトからセル要素を参照しています。</entry>
+    <entry key="ParensReferenceNotAllowed">CustomProperties オブジェクトのインデックス付き参照はサポートされていません。</entry>
+    <entry key="ChangingLength">変数ごとのカスタム プロパティの長さを変更することはサポートされていません。</entry>
+    <entry key="InvalidCustomPropName">無効なカスタム プロパティ名です。データを追加する前に、ADDPROP を使用して新しいカスタム プロパティを作成してください。</entry>
+    <entry key="IncompatibleTypes">カスタム プロパティ ''{2}'' 内でデータ型 ''{0}'' および ''{1}'' を組み合わせることはできません。</entry>
+    <entry key="IncompatibleLoad">このバージョンの MATLAB と互換性がないため、保存した CustomProperties を読み込むことができません</entry>
+    <entry key="InvalidConcatenation">カスタム プロパティ ''{0}'' を連結できません。</entry>
+    <entry key="CellCatChangesSize">非 cell 配列と連結された cell 配列を含むカスタム プロパティが cell に変換された結果、要素数が変数の数と一致しなくなりました。</entry>
+  </message>
+</rsccat>

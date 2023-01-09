@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotEnoughInputs">Not enough input arguments.</entry>
+    <entry key="NonSquareMatrix">Matrix must be square.</entry>
+    <entry key="RSHnotColumn">Right hand side must be a column vector.</entry>
+    <entry key="tooSmallTolerance">Input tol may not be achievable by PCG\n         Try to use a bigger tolerance</entry>
+    <entry key="TooManyInputs">Too many input arguments.</entry>
+  <!--Resource entries for toolbox/matlab/sparfun-->
+    <entry key="RSHsizeMatchCoeffMatrix">Right hand side must be a column vector of length {0,number,integer} to match the coefficient matrix.</entry>
+    <entry key="tooBigTolerance">Input tol is bigger than 1 \n         Try to use a smaller tolerance</entry>
+    <entry key="WrongPrecondSize">Preconditioner must be a square matrix of size {0,number,integer} to match the problem size.</entry>
+    <entry key="WrongInitGuessSize">Initial guess must be a column vector of length {0,number,integer} to match the problem size.</entry>
+  </message>
+</rsccat>

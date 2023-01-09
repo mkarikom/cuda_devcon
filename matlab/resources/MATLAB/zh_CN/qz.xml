@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="matrixWithNaNInf">输入矩阵包含 NaN 或 Inf。</entry>
+    <entry key="unknownOption">第三个参数必须为 ''real'' 或 ''complex''。</entry>
+    <entry key="ignoreRealOption">将对复矩阵忽略 ''real'' 选项。</entry>
+    <entry key="noConvergence">算法未成功。\n 库 MKL LAPACK 中出现内部错误，信息 = {0,number,integer}。</entry>
+    <entry key="qzNoConvergence">算法未成功。\n 库 MKL LAPACK 中出现内部错误，信息 = {0,number,integer}。</entry>
+    <entry key="noQZsparse">不支持稀疏矩阵。</entry>
+    <entry key="inputMustBe2D">输入数组必须为二维。</entry>
+    <entry key="inputType">数据类型无效。第一个和第二个参数必须为双精度值或单精度值。</entry>
+  </message>
+</rsccat>

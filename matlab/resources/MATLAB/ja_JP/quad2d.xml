@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidIntegrand">1 番目の入力引数は関数ハンドルでなければなりません。</entry>
+    <entry key="invalidA">A は有限で、スカラーの浮動小数点の定数でなければなりません。</entry>
+    <entry key="invalidB">B は有限で、スカラーの浮動小数点の定数でなければなりません。</entry>
+    <entry key="invalidC">C は有限で、スカラーの浮動小数点の定数または関数ハンドルでなければなりません</entry>
+    <entry key="invalidD">D は有限で、スカラーの浮動小数点の定数または関数ハンドルでなければなりません</entry>
+    <entry key="nonFiniteResult">有限でない結果。積分は失敗しました。特異点の可能性があります。</entry>
+    <entry key="minRectSizeFail">最小の四角形のサイズに達しました。結果は大域的な誤差のテストをパスしませんでした。</entry>
+    <entry key="minRectSizePass">最小の四角形のサイズに達しました。結果は大域的な誤差のテストをパスしました。</entry>
+    <entry key="CSizeMismatch">下限サイズの不一致:size(C(x)) は size(x) と一致しません。</entry>
+    <entry key="nonFiniteCx">C(x) は有限でなければなりません。</entry>
+    <entry key="DSizeMismatch">上限サイズの不一致:size(D(x)) は size(x) と一致しません。</entry>
+    <entry key="nonFiniteDx">D(x) は有限でなければなりません。</entry>
+    <entry key="SizeMismatch">被積分関数の出力サイズは入力サイズと一致しません。</entry>
+    <entry key="invalidAbsTol">無効な AbsTol</entry>
+    <entry key="invalidRelTol">無効な RelTol</entry>
+    <entry key="invalidSingular">Singular オプションは true または false でなければなりません。</entry>
+    <entry key="invalidFailurePlot">FailurePlot オプションは true または false でなければなりません。</entry>
+    <entry key="invalidMaxFunEvals">MaxFunEvals は正の整数のスカラーでなければなりません。</entry>
+    <entry key="increasedRelTol">RelTol は 100*eps(''{0}'') = {1} に増加しました。</entry>
+    <entry key="maxFunEvalsFail">関数評価 ({0,number,integer}) の最大数に達しました。結果は大域的な誤差のテストをパスしませんでした。</entry>
+    <entry key="maxFunEvalsPass">関数評価 ({0,number,integer}) の最大数に達しました。結果は大域的な誤差のテストをパスしました。</entry>
+    <entry key="FunVectorization">要素の値が等しいがサイズの異なる 2 つの入力行列に対する被積分関数の出力が許容誤差範囲内の値になりませんでした。関数が適切にベクトル化されているかチェックしてください。</entry>
+  </message>
+</rsccat>

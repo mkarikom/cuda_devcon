@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ConvertDateNumber">DATESTR failed converting date number to date vector.  Date number out of range.</entry>
+    <entry key="monthFormat">Unrecognized month format.</entry>
+    <entry key="hourFormat">Unrecognized hour format.</entry>
+    <entry key="minuteFormat">Unrecognized minute format.</entry>
+    <entry key="secondFormat">Unrecognized second format.</entry>
+    <entry key="millisecondFormat">Unrecognized millisecond format.</entry>
+    <entry key="InputClass">Pivot year must be a number.</entry>
+    <entry key="ConvertToDateNumber" note="stringDatatypeUpdate">Cannot convert input into specified datestr.\n{0}</entry>
+    <entry key="DateNumber">Unknown date format number: {0}</entry>
+    <entry key="ConvertDateNumberVerify">DATESTR failed converting date number to date vector.</entry>
+    <entry key="InputMustBeReal">Numeric input data must be real.</entry>
+  </message>
+</rsccat>

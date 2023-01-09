@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonExistentDirectory">현재 폴더를 ''{0}''(으)로 변경할 수 없습니다({1}).</entry>
+    <entry key="NonExistentFolder">현재 폴더를 ''{0}''(으)로 변경할 수 없습니다(이름이 존재하지 않거나 폴더가 아님).</entry>
+    <entry key="PermissionDenied">현재 폴더를 ''{0}''(으)로 변경할 수 없습니다(폴더 사용 권한이 거부됨).</entry>
+    <entry key="AccessFailure">현재 폴더를 ''{0}''(으)로 변경할 수 없습니다(폴더 액세스에 실패함).</entry>
+    <entry key="DirectoryNameTooLong">현재 폴더를 ''{0}''(으)로 변경할 수 없습니다(폴더 이름이 너무 긺).</entry>
+    <entry key="FailedToCD">현재 폴더를 ''{0}''(으)로 변경할 수 없습니다.</entry>
+    <entry key="Path">경로</entry>
+    <entry key="CannotAccessStartupFolder">액세스할 수 없는 폴더에서 MATLAB을 시작할 수 없습니다.\n MATLAB을 시작하기 위해 시작 폴더가 MATLAB 설치 폴더로 변경되었습니다.</entry>
+  </message>
+</rsccat>

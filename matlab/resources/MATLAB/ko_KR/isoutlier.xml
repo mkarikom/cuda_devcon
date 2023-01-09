@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNameValueMismatch">입력 인수의 개수가 올바르지 않습니다. 각 파라미터 이름 다음에는 대응값이 와야 합니다.</entry>
+    <entry key="ComplexTableVar">복소수 테이블 변수는 지원되지 않습니다.</entry>
+    <entry key="DataVariablesArray">''DataVariables'' 파라미터는 테이블 입력값과 타임테이블 입력값에만 사용할 수 있습니다.</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' 함수 핸들은 논리형 스칼라를 반환해야 합니다.</entry>
+    <entry key="DataVariablesTableSubscript">''DataVariables'' 값은 유효한 테이블 인덱스 또는 변수 이름을 포함해야 합니다.</entry>
+    <entry key="InvalidSamplePoints">''SamplePoints'' 값은 중복된 요소 없이 정렬된 유한한 벡터여야 합니다.</entry>
+    <entry key="MaxNumOutliersGesdOnly">''MaxNumOutliers'' 파라미터는 ''gesd'' 메서드에 대해서만 지원됩니다.</entry>
+    <entry key="MaxNumOutliersTooLarge">''MaxNumOutliers'' 값이 연산 차원의 입력 배열의 길이를 초과합니다.</entry>
+    <entry key="MissingWindowLength">''{0}'' 다음에 윈도우 길이를 지정하십시오.</entry>
+    <entry key="NonfloatTableVar">이상값을 찾을 수 없는 {1} 유형의 ''{0}''이(가) 테이블에 포함되어 있습니다.</entry>
+    <entry key="NonColumnTableVar">테이블 변수는 열 벡터여야 합니다.</entry>
+    <entry key="PercentilesInvalid">''Percentiles'' 값은 0과 100 사이의 값으로 이루어진 2개 요소가 정렬된 숫자형 벡터여야 합니다.</entry>
+    <entry key="SamplePointsComplex">''SamplePoints'' 값은 실수여야 합니다.</entry>
+    <entry key="SamplePointsDuplicate">''{0}'' 값에 중복 항목이 있습니다.</entry>
+    <entry key="SamplePointsInvalidDatatype">''SamplePoints'' 값은 double형 벡터, single형 벡터, duration형 벡터, datetime형 벡터 중 하나여야 합니다.</entry>
+    <entry key="SamplePointsLength">''SamplePoints'' 값은 요소를 {0,number,integer}개 가진 벡터여야 합니다.</entry>
+    <entry key="SamplePointsNonDuration">''SamplePoints'' 값이 datetime형 벡터이거나 duration형 벡터인 경우 윈도우 길이 인수는 duration형 스칼라이거나 요소를 2개 가진 duration형 벡터여야 합니다.</entry>
+    <entry key="SamplePointsNonFinite">{0} 값에 Inf 또는 {1}이(가) 포함되어 있습니다.</entry>
+    <entry key="SamplePointsSingle">duration형 배열과 datetime형 배열에는 single형의 ''SamplePoints''를 사용할 수 없습니다.</entry>
+    <entry key="SamplePointsSorted">''{0}'' 값은 오름차순으로 정렬되어야 합니다.</entry>
+    <entry key="SamplePointsSparse">''SamplePoints'' 값은 비희소 형식이어야 합니다.</entry>
+    <entry key="SamplePointsTimeTable">첫 번째 인수가 timetable형인 경우에는 ''SamplePoints'' 파라미터가 지원되지 않습니다.</entry>
+    <entry key="AlphaOutOfRange">메서드가 ''grubbs'' 또는 ''gesd''인 경우 ''ThresholdFactor'' 값은 0과 1 사이여야 합니다.</entry>
+    <entry key="TableDim">첫 번째 인수가 table형이나 timetable형인 경우 차원 인수는 1이어야 합니다.</entry>
+    <entry key="UnsupportedThreshold">''percentiles'' 메서드가 지정된 경우 ''ThresholdFactor''는 지원되지 않습니다.</entry>
+    <entry key="WindowLengthInvalidSizeOrClass">윈도우 길이 인수는 숫자형 또는 duration형의 유한한 양의 스칼라이거나 요소를 2개 가진 숫자형 또는 duration형의 유한한 음이 아닌 벡터여야 합니다.</entry>
+    <entry key="MissingThreshold">''percentiles'' 다음에 임계값을 지정하십시오.</entry>
+    <entry key="TableDimCodegen">첫 번째 인수가 table형인 경우 코드 생성을 위해 차원 인수는 상수 1이어야 합니다.</entry>
+    <entry key="DatetimeOrDurationWithMovMethod">''SamplePoints''가 datetime형 또는 duration형인 경우 코드 생성에 ''movmean'' 및 ''movmedian'' 방법이 지원되지 않습니다.</entry>
+  </message>
+</rsccat>

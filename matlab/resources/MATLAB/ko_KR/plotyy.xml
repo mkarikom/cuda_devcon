@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidAxesHandleSyntax">함수 ''{0}''은(는) 부모 axes 지정에 일반 구문을 허용하지 않을 수 있습니다. axes 핸들이 첫 번째 입력 인수이거나, axes 핸들이 속성/값 쌍으로 지정되어야 합니다. 자세한 내용은 다음 오류를 확인하십시오.\n</entry>
+    <entry key="AutoResizeChildren">''AutoResizeChildren'' 속성이 ''on''으로 설정된 경우 plotyy를 컨테이너에 사용할 수 없습니다.</entry>
+  </message>
+</rsccat>

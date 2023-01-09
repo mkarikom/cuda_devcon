@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invalidinput">Inputs must be scalar numeric or a vector of array dimensions.</entry>
+    <entry key="naninf">Inputs must be scalar numeric or a vector of array dimensions. NaN and Inf are not allowed.</entry>
+    <entry key="negative">Inputs must be scalar numeric or a vector of array dimensions; negative inputs are replaced with zero.</entry>
+    <entry key="noninteger">Size vector should be a row vector with integer elements. This will return an error in a future release.</entry>
+    <entry key="NonScalarInput">Input arguments must be scalar. This will return an error in a future release.</entry>
+  </message>
+</rsccat>

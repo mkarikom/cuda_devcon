@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="notInAfunction">如果不在活动函数中，则无法返回命名参数的数目。</entry>
+    <entry key="notSupportedInScript">不支持从脚本调用 CountNamedArguments。</entry>
+    <entry key="notSupportedInParfor">不支持从 parfor 循环中调用 CountNamedArguments。</entry>
+  </message>
+</rsccat>

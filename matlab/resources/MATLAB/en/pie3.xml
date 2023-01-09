@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotEnoughInputs">Not enough input arguments.</entry>
+    <entry key="TooManyArguments" note="stringDatatypeUpdate">Too many arguments or invalid cell array of character vectors.</entry>
+    <entry key="StringLengthMismatch" note="stringDatatypeUpdate">Cell array of character vectors must be the same length as X.</entry>
+    <entry key="ExplodeLengthMismatch">X and EXPLODE must be the same length.</entry>
+  </message>
+</rsccat>

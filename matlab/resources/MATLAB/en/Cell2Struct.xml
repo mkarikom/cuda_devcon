@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="DimensionNumber">Dimension number out of range.</entry>
+    <entry key="NumberOfNamesMismatch">Number of field names must match number of fields in new structure.</entry>
+    <entry key="Non2DCharArray">Field names must be a 2 dimensional character array.</entry>
+    <entry key="NonStringFieldNames">Field names must be non-empty character vectors or string scalars.</entry>
+    <entry key="NonStringVector">Field name must be a character vector or string scalar.</entry>
+    <entry key="InvalidFieldName">Invalid field name \"{0}\".</entry>
+    <entry key="FirstArgNotACell">First argument must be a cell array.</entry>
+  </message>
+</rsccat>

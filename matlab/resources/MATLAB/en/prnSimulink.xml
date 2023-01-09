@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="openSystem">Simulink is not available in this version of MATLAB.</entry>
+    <entry key="opnMdlName">Simulink system name ''{0}'' does not exist or is not open.</entry>
+    <entry key="sysName">Simulink system name ''{0}'' is not unique.</entry>
+    <entry key="sysNameUnopened">Simulink system name ''{0}'' is not an open Block Diagram or SubSystem.</entry>
+    <entry key="argOpt">No Simulink system to print with -s option.</entry>
+    <entry key="expBlkName">Simulink system name expected, not block name ''{0}''.</entry>
+  </message>
+</rsccat>

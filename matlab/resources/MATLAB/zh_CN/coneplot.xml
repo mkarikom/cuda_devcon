@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ScalarSizeFactor">S 必须为标量。</entry>
+    <entry key="InvalidColorSize">COLOR 的大小必须 U 的大小相同。</entry>
+    <entry key="InputSizesMustMatch">X、Y、Z、U、V、W 的大小必须相同。</entry>
+    <entry key="SizeMismatch">Cx、Cy、Cz 的大小必须相同。</entry>
+    <entry key="WrongNumberOfInputs">输入参数的数目不正确。</entry>
+  </message>
+</rsccat>

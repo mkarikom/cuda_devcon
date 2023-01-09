@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--% Copyright 2011-2017 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+    <message>
+        <entry key="CreateCodeName">Create {0}</entry>
+        <entry key="EditObjectComment">Manually add an output argument to the {0} function call\n% For example, h = {1}(...)</entry>
+        <entry key="RemoveObjectComment">Manually delete the call to the {0} function</entry>
+    </message>
+</rsccat>

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="UnrecognizedFormat" note="stringDatatypeUpdate">The format ''{0}'' is not valid. The format must contain only characters from the sequence ''{1}''.</entry>
+    <entry key="InvalidFormat" note="stringDatatypeUpdate">A calendar duration display format must be a string or a character vector.</entry>
+    <entry key="InvalidData">Input data must be numeric. Create calendar durations from a matrix containing columns for years, months, etc., or from separate numeric arrays.</entry>
+    <entry key="InvalidDurationData">Input data must be numeric. To create calendar durations from durations, first convert to numeric values using the YEARS, DAYS, HOURS, MINUTES, or SECONDS functions.</entry>
+    <entry key="InvalidNumericMatrix">Numeric input array must be a matrix with three or six columns. You can also create calendar durations from a single numeric array using the CALYEARS, CALQUARTERS, CALMONTHS, CALWEEKS, or CALDAYS functions.</entry>
+    <entry key="InvalidNumericData">Numeric input data must be one matrix, or else three or six separate arrays. You can also create calendar durations from a single numeric array using the CALYEARS, CALQUARTERS, CALMONTHS, CALWEEKS, or CALDAYS functions.</entry>
+    <entry key="InputMustBeReal">Numeric input data must be real.</entry>
+    <entry key="InputSizeMismatch">Numeric input data arrays must be equal sizes, or any of them can be a scalar.</entry>
+    <entry key="MustBeInteger">Years, quarters, months, weeks, days, hours, and minutes must be integer values.</entry>
+    <entry key="DatenumNotDefined">You cannot convert a calendarDuration array to serial date numbers. Use SPLIT instead.</entry>
+    <entry key="DatestrNotDefined" note="stringDatatypeUpdate">DATESTR function is not defined on calendarDuration arrays. Use CELLSTR instead.</entry>
+    <entry key="LinspaceNotDefined">Undefined function ''linspace'' for input arguments of type 'calendarDuration'. Use the CALYEARS, CALMONTHS, and CALDAYS functions instead.</entry>
+    <entry key="ColonNotDefined">Undefined function ''colon'' for input arguments of type 'calendarDuration'. Use a datetime in the colon expression to anchor it at a specific point in time.</entry>
+    <entry key="NonZeroMonths">Converting a calendarDuration to days or weeks when it contains a non-zero number of months is not supported. Use SPLIT instead.</entry>
+    <!-- from caldays, calweeks, calmonths, calquarters, calyears -->
+    <entry key="DatetimeInputCalyears">Input data must be a numeric array containing real, integer values, or a calendarDuration array. Use YEAR to extract year numbers from a datetime array.</entry>
+    <entry key="DatetimeInputCalquarters">Input data must be a numeric array containing real, integer values, or a calendarDuration array. Use QUARTER to extract quarter numbers from a datetime array.</entry>
+    <entry key="DatetimeInputCalmonths">Input data must be a numeric array containing real, integer values, or a calendarDuration array. Use MONTH to extract month numbers from a datetime array.</entry>
+    <entry key="DatetimeInputCalweeks">Input data must be a numeric array containing real, integer values, or a calendarDuration array. Use WEEK to extract week numbers from a datetime array.</entry>
+    <entry key="DatetimeInputCaldays">Input data must be a numeric array containing real, integer values, or a calendarDuration array. Use DAY to extract day numbers from a datetime array.</entry>
+    <entry key="DurationInputCalyears">Input data must be a numeric array containing real, integer values, or a calendarDuration array. Use YEARS to convert a duration array to equivalent numeric values in units of standard-length years.</entry>
+    <entry key="DurationInputCaldays">Input data must be a numeric array containing real, integer values, or a calendarDuration array. Use DAYS to convert a duration array to equivalent numeric values in units of standard-length days.</entry>
+    <entry key="InvalidCalDurationData">Input data must be a numeric array containing real, integer values, or a calendarDuration array.</entry>
+    <entry key="NonintegerCalYearsData">Input data must be a numeric array containing real, integer values. Use the CALMONTHS or CALDAYS functions to create calendar durations shorter than one year, or use the YEARS function to create fractional fixed-length years as durations.</entry>
+    <entry key="NonintegerCalQuartersData">Input data must be a numeric array containing real, integer values. Use the CALMONTHS or CALDAYS functions to create calendar durations shorter than one quarter.</entry>
+    <entry key="NonintegerCalMonthsData">Input data must be a numeric array containing real, integer values. Use the CALDAYS function to create calendar durations shorter than one month.</entry>
+    <entry key="NonintegerCalWeeksData">Input data must be a numeric array containing real, integer values. Use the CALDAYS function to create calendar durations shorter than one week.</entry>
+    <entry key="NonintegerCalDaysData">Input data must be a numeric array containing real, integer values. Use the HOURS, MINUTES or SECONDS functions to create durations shorter than one day, or use the DAYS function to create fractional fixed-length days as durations.</entry>
+    <entry key="InvalidNumericConversion">Undefined function ''{0}'' for input arguments of type 'calendarDuration'. To convert from calendar durations to numeric, use the SPLIT function or else use the CALDAYS, CALWEEKS, CALMONTHS, CALQUARTERS, or CALYEARS functions.</entry>
+    <entry key="NoMonthsMethod">Undefined function ''{0}'' for input arguments of type 'calendarDuration'. To find the number of calendar months in a calendar duration, use the CALMONTHS function.</entry>
+    <!-- from subsref, subsasgn, and numel -->
+    <entry key="CellReferenceNotAllowed">Cell contents reference from a non-cell array.</entry>
+    <entry key="CellAssignmentNotAllowed">Cell contents assignment to a non-cell array.</entry>
+    <entry key="UnrecognizedProperty">Unrecognized property: ''{0}''.</entry>
+    <entry key="InvalidPropertyName">Invalid property name.</entry>
+    <entry key="InvalidSubscriptExpr">()-indexing may not be followed by () or '{}' in an index expression.</entry>
+    <entry key="SubArrayPropertyAssignment">You may not assign to the ''{0}'' property of the elements of a calendarDuration array. Use d.{0} = ... instead.</entry>
+    <entry key="InvalidAssignmentLHS">Invalid LHS for assignment from a {0} array.</entry>
+    <entry key="InvalidAssignment">Right hand side of an assignment must be a calendarDuration array.</entry>
+    <entry key="IllegalDotMethod">Unrecognized calendarDuration property ''{0}''. If you intended to call the {1} method, you must use a functional syntax such as {1}(d,...). See &lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;Method Invocation&lt;/a&gt; for more information.</entry>
+    <entry key="IllegalDotMethodNoCorrection">Unrecognized calendarDuration property ''{0}''. If you intended to call the {1} method, you must use a functional syntax. See &lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;Method Invocation&lt;/a&gt; for more information.</entry>
+    <!-- arithmetic -->
+    <entry key="InvalidComparison">Comparison is not defined between {0} and {1} arrays.</entry>
+    <entry key="ComplexNotDefined">Complex values are not defined for calendarDuration arrays.</entry>
+    <entry key="AdditionNotDefined">Addition is not defined between {0} and {1} arrays.</entry>
+    <entry key="SubtractionNotDefined">Subtraction is not defined between {0} and {1} arrays.</entry>
+    <entry key="CalendarDurationMultiplicationNotDefined">Multiplication is not defined between two calendarDuration arrays.</entry>
+    <entry key="MultiplicationNotDefined">Multiplication is not defined between {0} and {1} arrays.</entry>
+    <entry key="NonIntegerMultiplier">Multiplication by non-integer values is not defined for calendarDuration arrays.</entry>
+    <entry key="DuplicateFormatCharacters" note="stringDatatypeUpdate">The format contains duplicate characters.</entry>
+    <entry key="OutOfOrderFormatCharacters" note="stringDatatypeUpdate">The characters in the format ''{0}'' are not in the correct order. Use ''{1}'' instead.</entry>
+    <entry key="InvalidCalendarDurationFormatWarn" note="stringDatatypeUpdate">The format ''{0}'' is not valid. A calendarDuration display format must include the identifiers 'm', 'd', and 't'.\nSetting format to ''{1}''.</entry>
+  </message>
+</rsccat> 

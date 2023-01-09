@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidRange">두 번째 입력값은 timetable형, timerange 첨자 객체, datetime형 스칼라 또는 duration형 스칼라여야 합니다.</entry>
+    <entry key="InvalidFlag">플래그가 유효하지 않습니다. 'contains', 'intersects' 또는 'within'을 지정하십시오.</entry>
+    <entry key="ContainedInvalidWithScalarTime">'contained'는 datetime형 스칼라 또는 duration형 스칼라를 사용하여 행 시간값 범위를 지정하는 경우 유효하지 않은 옵션입니다. 'intersects' 또는 'contains'를 지정하십시오.</entry>
+  </message>
+</rsccat>

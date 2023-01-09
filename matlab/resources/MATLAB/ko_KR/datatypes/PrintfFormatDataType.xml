@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFormat">값은 지원되는 눈금 레이블 형식 사양이어야 합니다. 한 예로, 소수점 이하 2자릿수가 표시되고 접미사 ' m'이 추가된 '%.2f m' 형식을 들 수 있습니다.</entry>
+    <entry key="NumberTooLarge">너비 또는 정밀도가 너무 큽니다.</entry>
+    <entry key="DynamicNumber">너비와 정밀도는 숫자형 리터럴이어야 합니다.</entry>
+    <entry key="UnsupportedType">형식 유형은 %f, %F, %g, %G, %e, %E, %d, %i 중 하나여야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WordData">Words 必须为字符串向量或字符向量元胞数组。</entry>
+    <entry key="WordContent">Words 不能包含嵌入的换行符，并且长度必须少于 1000 个字符。</entry>
+    <entry key="SizeData">Sizes 必须为非负实数值向量。</entry>
+    <entry key="WordInput">Words 必须为字符串向量、字符向量元胞数组或分类向量。</entry>
+    <entry key="SingleWordInput">对于没有大小数据的字符串、字符或元胞数组输入，wordcloud 需要使用 Text Analytics Toolbox(TM)。或者，将文本数据转换为单词分类数组，或同时指定单词和大小数据并使用语法 wordcloud(WORDS,SIZEDATA)。有关说明如何根据字符串数组创建文字云的示例，请参阅 &lt;a href="matlab:helpview([docroot ''/matlab/ref/wordcloud.html''])"&gt;wordcloud&lt;/a&gt;。</entry>
+    <entry key="SingleInputDeployment">要使用文字云部署 App，请将 ''wordcloud(STR)'' 替换为 ''tbl=wordCloudCounts(STR); wordcloud(tbl.Word,tbl.Count)''。</entry>
+    <entry key="DataSizeMismatch">''WordData''、''SizeData'' 和 ''Color'' 属性的大小必须兼容。</entry>
+    <entry key="InvalidColor">''Color'' 必须为 N×3 矩阵，其中 N 为 1 或单词数量。</entry>
+    <entry key="InvalidParent">父容器必须为有效的图窗、uipanel 或 uitab。</entry>
+    <entry key="InvalidSourceTable">''SourceTable'' 值必须为与 ''WordVariable'' 和 ''SizeVariable'' 属性值兼容的表。</entry>
+    <entry key="NoTable">''WordVariable'' 和 ''SizeVariable'' 属性值必须为 ''SourceTable'' 表中的变量。</entry>
+    <entry key="InvalidTableArguments">输入参数的数目不足。表参数必须后跟 2 个表下标。</entry>
+    <entry key="MatrixWorkflow">不支持在设置 ''WordData'' 或 ''SizeData'' 属性后设置 ''{0}'' 属性。</entry>
+    <entry key="TableWorkflow">不支持在设置 ''SourceTable'' 属性后设置 ''{0}'' 属性。</entry>
+    <entry key="MaxDisplayWordsLabel">要显示的最大单词数</entry>
+    <entry key="ShapeLabel">文字云的形状</entry>
+  </message>
+</rsccat>

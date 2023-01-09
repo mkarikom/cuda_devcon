@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WrongNumberArguments">参数的数目不正确</entry>
+    <entry key="MustBeHandle">H 必须为单个光源或坐标区对象的句柄。</entry>
+    <entry key="InvalidNumberOutput">输出参数的数目不正确</entry>
+    <entry key="InputsMustBeScalar">AZ 和 EL 必须均为标量</entry>
+  </message>
+</rsccat>

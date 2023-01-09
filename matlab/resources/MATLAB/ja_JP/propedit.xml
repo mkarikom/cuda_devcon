@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="V6">Version 6 のプロパティ エディターは既に利用可能ではありません。ご注意ください。</entry>
+    <entry key="NoopenFirst">-noopen 引数は、ハンドルを与える必要があります。</entry>
+    <entry key="NoselectFirst">-noselect 引数は、ハンドルを与える必要があります。</entry>
+    <entry key="TabFirst">-t 引数は、ハンドルを与える必要があります。</entry>
+    <entry key="NeedsHandle">最初の引数は文字ベクトルではなく、オブジェクトまたはオブジェクトのリストでなければなりません。</entry>
+    <entry key="NoValidHandles">propedit に与えられた有効なオブジェクトまたはハンドルがありません。</entry>
+    <entry key="InvalidObjectsPassed">propedit に有効なオブジェクトが渡されていません</entry>
+  </message>
+</rsccat>

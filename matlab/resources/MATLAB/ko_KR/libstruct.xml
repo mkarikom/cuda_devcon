@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RequireStruct">구조체가 필요합니다.</entry>
+    <entry key="ScalarStructRequired">단순 데이터형의 구조체형 배열만 지원됩니다.</entry>
+    <entry key="FieldMismatch">필드가 구조체의 필드와 일치하지 않습니다.</entry>
+    <entry key="InvalidStructureInfo">유효하지 않은 구조체 정의입니다. 모든 구조체의 정의는 struct 유형을 사용해야 합니다.</entry>
+    <entry key="CannotUnloadInUse">미처리 객체가 있는 struct형 클래스는 언로드할 수 없습니다.</entry>
+    <entry key="TypesMustMatch">구조체 유형이 일치해야 합니다.</entry>
+    <entry key="InputMustBeStruct">입력값은 구조체이거나 구조체에 대한 포인터여야 합니다.</entry>
+    <entry key="InvalidFieldValue">오류로 인해 필드 {0}의 데이터 값을 변환할 수 없음:\n{1}</entry>
+  </message>
+</rsccat>

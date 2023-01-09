@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AllZeroSparse">모든 요소가 0인 희소 형식의 행렬임:</entry>
+    <entry key="StructureAddress">구조체 주소</entry>
+    <entry key="Column">{0,number,integer}번 열</entry>
+    <entry key="Columns">{0,number,integer} ~ {1,number,integer}번 열</entry>
+    <entry key="Empty">비어 있음</entry>
+    <entry key="EmptyRowVector">{0} 비어 있는 {1} 행 벡터</entry>
+    <entry key="EmptyColumnVector">{0} 비어 있는 {1} 열 벡터</entry>
+    <entry key="EmptyMatrix">{0} 비어 있는 {1} 행렬</entry>
+    <entry key="EmptyArray">{0} 비어 있는 {1} 배열</entry>
+    <entry key="RowVector">{0} {1} 행 벡터</entry>
+    <entry key="ColumnVector">{0} {1} 열 벡터</entry>
+    <entry key="Matrix">{0} {1} 행렬</entry>
+    <entry key="Array">{0} {1} 배열</entry>
+    <entry key="EmptySparseRowVectorNoHyperlink">{0} 비어 있는 희소 {1} 행 벡터</entry>
+    <entry key="EmptySparseRowVector">{0} 비어 있는 &lt;a href="matlab:helpPopup sparse" style="font-weight:bold"&gt;희소&lt;/a&gt; {1} 행 벡터 </entry>
+    <entry key="EmptySparseColumnVectorNoHyperlink">{0} 비어 있는 희소 {1} 열 벡터</entry>
+    <entry key="EmptySparseColumnVector">{0} 비어 있는 &lt;a href="matlab:helpPopup sparse" style="font-weight:bold"&gt;희소&lt;/a&gt; {1} 열 벡터 </entry>
+    <entry key="EmptySparseMatrixNoHyperlink">{0} 비어 있는 희소 {1} 행렬</entry>
+    <entry key="EmptySparseMatrix">{0} 비어 있는 &lt;a href="matlab:helpPopup sparse" style="font-weight:bold"&gt;희소&lt;/a&gt; {1} 행렬 </entry>
+    <entry key="EmptySparseArrayNoHyperlink">{0} 빈 희소 {1}형 배열</entry>
+    <entry key="EmptySparseArray">{0} 빈 &lt;a href="matlab:helpPopup sparse" style="font-weight:bold"&gt;희소&lt;/a&gt; {1}형 배열 </entry>
+    <entry key="SparseLogicalScalarNoHyperlink">희소 {0}형</entry>
+    <entry key="SparseLogicalScalar">&lt;a href="matlab:helpPopup sparse" style="font-weight:bold"&gt;희소&lt;/a&gt; {0}형</entry>
+    <entry key="SparseLogicalVectorNoHyperlink">{0} 희소 {1}형 배열</entry>
+    <entry key="SparseLogicalVector">{0} &lt;a href="matlab:helpPopup sparse" style="font-weight:bold"&gt;희소&lt;/a&gt; {1}형 배열</entry>
+    <entry key="ScalarStructWithFields">다음 필드를 포함한 {0}:</entry>
+    <entry key="StructVectorWithFields">다음 필드를 포함한 {0} {1} 배열:</entry>
+    <entry key="EmptyStructWithFields">다음 필드를 포함한 {0} 비어 있는 {1} 배열:</entry>
+    <entry key="ScalarStructWithNoFields">{0}에 필드가 없습니다.</entry>
+    <entry key="StructVectorWithNoFields">{0} {1} 배열에 필드가 없습니다.</entry>
+    <entry key="EmptyStructVectorWithNoFields">{0} 비어 있는 {1} 배열에 필드가 없습니다.</entry>
+    <entry key="ScalarFunctionHandle">다음 값을 갖는 {0}:</entry>
+    <entry key="EmptyTabular">{0} 비어 있는 {1}</entry>
+    <entry key="mustBeSparse">값은 희소 형식이어야 합니다.</entry>
+    <entry key="mustBeComplex">값은 복소수여야 합니다.</entry>
+    <entry key="EmptyComplexMatrixNoHyperlink">비어 있는 {0} {1}형 복소수 행렬</entry>
+    <entry key="EmptyComplexMatrix">비어 있는 {0} {1}형 &lt;a href="matlab:helpPopup complex" style="font-weight:bold"&gt;복소수&lt;/a&gt; 행렬</entry>
+    <entry key="EmptyComplexRowVectorNoHyperlink">비어 있는 {0} {1}형 복소수 행 벡터</entry>
+    <entry key="EmptyComplexRowVector">비어 있는 {0} {1}형 &lt;a href="matlab:helpPopup complex" style="font-weight:bold"&gt;복소수&lt;/a&gt; 행 벡터</entry>
+    <entry key="EmptyComplexColumnVectorNoHyperlink">비어 있는 {0} {1}형 복소수 열 벡터</entry>
+    <entry key="EmptyComplexColumnVector">비어 있는 {0} {1}형 &lt;a href="matlab:helpPopup complex" style="font-weight:bold"&gt;복소수&lt;/a&gt; 열 벡터</entry>
+    <entry key="EmptyComplexArrayNoHyperlink">비어 있는 {0} {1}형 복소수 배열</entry>
+    <entry key="EmptyComplexArray">비어 있는 {0} {1}형 &lt;a href="matlab:helpPopup complex" style="font-weight:bold"&gt;복소수&lt;/a&gt; 배열</entry>
+    <entry key="EmptySparseComplexMatrixNoHyperlink">비어 있는 {0} {1}형 복소수 희소 행렬</entry>
+    <entry key="EmptySparseComplexMatrix">비어 있는 {0} {1}형 &lt;a href="matlab:helpPopup sparse" style="font-weight:bold"&gt;sparse&lt;/a&gt; &lt;a href="matlab:helpPopup complex" style="font-weight:bold"&gt;복소수&lt;/a&gt; 행렬</entry>
+    <entry key="EmptySparseComplexRowVectorNoHyperlink">비어 있는 {0} {1}형 복소수 희소 행 벡터</entry>
+    <entry key="EmptySparseComplexRowVector">비어 있는 {0} {1}형 &lt;a href="matlab:helpPopup sparse" style="font-weight:bold"&gt;sparse&lt;/a&gt; &lt;a href="matlab:helpPopup complex" style="font-weight:bold"&gt;복소수&lt;/a&gt; 행 벡터</entry>
+    <entry key="EmptySparseComplexColumnVectorNoHyperlink">비어 있는 {0} {1}형 복소수 희소 열 벡터</entry>
+    <entry key="EmptySparseComplexColumnVector">비어 있는 {0} {1}형 &lt;a href="matlab:helpPopup sparse" style="font-weight:bold"&gt;sparse&lt;/a&gt; &lt;a href="matlab:helpPopup complex" style="font-weight:bold"&gt;복소수&lt;/a&gt; 열 벡터</entry>
+  </message>
+</rsccat>

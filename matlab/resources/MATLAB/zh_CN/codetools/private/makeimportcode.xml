@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ForSomeSimpleFilessuchAsACSV">%% 对于一些简单文件(如 CSV 或 JPEG 文件)，IMPORTDATA 可能会\n%% 返回一个简单数组。如果是这样，将生成一个结构体，以便该输出\n%% 与导入向导的输出匹配。</entry>
+    <entry key="ImportsDataFromSpecifiedFile">从指定文件中导入数据</entry>
+    <entry key="ImportsDataFromSystemClipboard">从系统剪贴板中导入数据</entry>
+    <entry key="CreateOutputVariables">创建输出变量。</entry>
+    <entry key="FileToRead">要读取的文件</entry>
+    <entry key="ReadDataFromSystemClipboard">读取系统剪贴板中的数据</entry>
+    <entry key="BreakDataUpIntoOneFieldPerRow">将数据拆分为每行包含一个字段的新结构体。</entry>
+    <entry key="BreakDataUpIntoOneFieldPerColumn">将数据拆分为每列包含一个字段的新结构体。</entry>
+    <entry key="CreateNewVariablesInBaseWorkspace">在基础工作区中从这些字段创建新变量。</entry>
+    <entry key="ImportTheFile">导入文件</entry>
+    <entry key="TheMATLABEditor">MATLAB 编辑器</entry>
+  </message>
+</rsccat>

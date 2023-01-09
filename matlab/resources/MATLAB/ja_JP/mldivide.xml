@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="integerLinearAlgebra">線形代数は、整数のデータ型に対してサポートされていません。要素単位の左除算には LDIVIDE (.\\) を使用してください。</entry>
+    <entry key="inputsMustBe2D">引数は 2 次元であるか、少なくとも 1 つの引数がスカラーでなければなりません。要素単位の左除算には LDIVIDE (.\\) を使用してください。</entry>
+    <entry key="sparseSingleNotSupported">single のスパース配列演算はサポートされていません。</entry>
+    <entry key="inputMustBeNumericCharLogical">引数は数値、char または logical でなければなりません。</entry>
+  </message>
+</rsccat>

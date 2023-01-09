@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ClassNotSupport">지원되지 않는 입력값 클래스입니다.</entry>
+    <entry key="differenceOrderMustBePositiveInteger">차분의 차수 N은 양의 정수 스칼라여야 합니다.</entry>
+    <entry key="unsupportedClass">''{0}'' 클래스에 대해 ''diff'' 함수는 지원되지 않습니다.</entry>
+    <entry key="complexIntegersNotSupported">복소수형 정수 차분은 지원되지 않습니다.</entry>
+  </message>
+</rsccat>

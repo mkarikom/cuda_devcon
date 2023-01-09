@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ODEfunNotFunctionHandle">{0}  도함수 ODEFUN은 function_handle이어야 합니다.</entry>
+    <entry key="BCfunNotFunctionHandle">{0}  경계 조건 함수 BCFUN은 function_handle이어야 합니다.</entry>
+    <entry key="SolverNameUnrecognized">내부 오류 -- 인식할 수 없는 솔버 이름: {0},</entry>
+    <entry key="SolinitNotStruct">{0}  초기 프로파일 SOLINIT는 구조체로 제공되어야 합니다.</entry>
+    <entry key="NoXInSolinit">{0}  SOLINIT에 필드 ''x''가 없습니다.</entry>
+    <entry key="NoYInSolinit">{0}  SOLINIT에 필드 ''y''가 없습니다.</entry>
+    <entry key="SolinitXNotEnoughPts">{0}  SOLINIT.x에는 적어도 두 개의 끝점이 있어야 합니다.</entry>
+    <entry key="SolinitXNotMonotonic">{0}  SOLINIT.x의 항목은 증가하거나 감소해야 합니다.</entry>
+    <entry key="SolinitYEmpty">{0} SOLINIT.y에 초기 추측값이 제공되지 않았습니다.</entry>
+    <entry key="SolXSolYSizeMismatch">{0}  SOLINIT.y가 SOLINIT.x와 일치하지 않습니다.</entry>
+    <entry key="ODEfunOutputSize">{0}  도함수 ODEFUN은 길이가 {1,number,integer}인 열 벡터를 반환해야 합니다.</entry>
+    <entry key="BCfunOutputSize">{0}  경계 조건 함수 BCFUN은 길이가 {1,number,integer}인 열 벡터를 반환해야 합니다.</entry>
+    <entry key="RelTolNotPos">{0}  OPTIONS의 RelTol은 양의 스칼라여야 합니다.</entry>
+    <entry key="RelTolIncrease">{0}  OPTIONS의 RelTol이 {1}(으)로 증가했습니다.</entry>
+    <entry key="SizeAbsTol">{0}  이 문제의 경우 OPTIONS의 AbsTol은 스칼라이거나, 길이가 {1,number,integer}인 벡터여야 합니다.</entry>
+    <entry key="AbsTolNotPos">{0}  OPTIONS의 AbsTol은 양수여야 합니다.</entry>
+    <entry key="ErrorCallingFun">{0}(ODEFUN,BCFUN,SOLINIT{1}) 호출 중 오류 발생: \n</entry>
+    <entry key="WarningCallingFun">{0}(ODEFUN,BCFUN,SOLINIT{1}) 호출 중 경고 발생: \n</entry>
+  </message>
+</rsccat>

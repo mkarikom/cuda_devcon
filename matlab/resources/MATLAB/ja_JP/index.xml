@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="assignment_to_empty_using_colon">Comma-separated list assignment to an empty variable is not supported when any index is a colon (:). Use explicit indices or initialize the variable with a non-empty value before performing the assignment.</entry>
+    <entry key="assignment_to_uninitialized_using_colon">任意のインデックスがコロン (:) である場合、存在しない変数にコンマ区切りリストを代入することはサポートされません。明示的なインデックスを使用するか、代入を行う前に変数を定義してください。</entry>
+    <entry key="assignmentToTemporary">メソッド ''{0}'' の結果が一時的な値のため、代入はサポートされません。</entry>
+    <entry key="badAllocationStrategy">最大しきい値は 2 のべき乗でなけれはなりません。</entry>
+    <entry key="badIndexingContext">The third argument must be a scalar of class matlab.indexing.IndexingContext.</entry>
+    <entry key="badListLength">numArgumentsFromSubscript が非負の整数を返さなかったため、インデックス演算に失敗しました。numArgumentsFromSubscript は、インデックス式またはインデックス ステートメントの出力数、あるいはインデックス付き代入に必要な入力数を特定するために呼び出されます。</entry>
+    <entry key="brace_index">中かっこ '''{}''' によるインデックス付け</entry>
+    <entry key="braceIndexingFailed">A brace indexing operation failed for the class ''{0}''.</entry>
+    <entry key="cannot_inherit_from_class">''{0}'' から継承するクラスの場合、''{1}'' から継承することはできません。</entry>
+    <entry key="classAttributeNotSupported">Use of the ''{0}'' attribute in class ''{1}'' is not supported.</entry>
+    <entry key="ctransposeNotSupported">The conjugate transpose method is not supported for objects of type ''{0}''.</entry>
+    <entry key="deletedIndexee">オブジェクトまたはプロパティが破棄されたため、割り当てを完了できません。</entry>
+    <entry key="dot_index">ドット ''.'' によるインデックス付け</entry>
+    <entry key="dotIndexingFailed">A dot indexing operation failed for the class ''{0}''.</entry>
+    <entry key="dotParenArgsMustBeStringScalarOrCharacterVector">動的なフィールド名またはプロパティ名は、string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="emptyIndexingOperation">Forwarding an empty indexing operation is not supported.</entry>
+    <entry key="expected_one_output_for_assignment">単一の代入ステートメントを使用して {0,number,integer} 個の要素に代入することはサポートされていません。コンマ区切りリストによる代入を使用することを検討してください。</entry>
+    <entry key="expected_one_output_from_expression">ドット ''.'' または中かっこ '''{}''' のインデックス式は単一の値を生成しなければなりませんが、式は {0,number,integer} 個の値を生成しました。</entry>
+    <entry key="forwardInvalidIndexing">Unable to forward indexing operations. Only dot indexing can follow parentheses indexing.</entry>
+    <entry key="expected_one_output_from_intermediate_indexing">中間の {0} は {1,number,integer} 個の値をもつコンマ区切りリストを生成しましたが、インデックス演算が続く場合は単一の値を生成しなければなりません。</entry>
+    <entry key="expected_one_output_from_reference">単一の値のみが許可されるところ、{0} 式は {1,number,integer} 個の値をもつコンマ区切りリストを生成しました。</entry>
+    <entry key="functionHandleDeleteUnsupported">インデックスで関数ハンドルの配列から要素を削除することはサポートされていません。</entry>
+    <entry key="forbidDotMethodCallAssignment">Dot method call is not supported for objects of type ''{0}''.</entry>
+    <entry key="forbidDotMethodCallReference">Dot method call is not supported for objects of type ''{0}''. Consider using function call syntax.</entry>
+    <entry key="indexingOperationAssignmentNotSupported">IndexingOperation オブジェクトへの割り当てはサポートされていません。</entry>
+    <entry key="indexingOperationConcatenationNotSupported">IndexingOperation オブジェクトの連結はサポートされていません。</entry>
+    <entry key="indexingOperationDeleteRHSMustBeLiteralEmpty">Unable to forward an IndexingOperation whose Type property is ParenDelete when the right-hand side of the assignment is not a literal empty (''[]'').</entry>
+    <entry key="indexingOperationIndicesNotSupported">The ''Indices'' property is only supported for indexing operations whose Type property is Paren, ParenDelete, or Brace.</entry>
+    <entry key="indexingOperationReshapeNotSupported">IndexingOperation オブジェクトの形状変更はサポートされていません。</entry>
+    <entry key="indexingOperationNameNotSupported">The ''Name'' property is only supported for indexing operations whose Type property is Dot.</entry>
+    <entry key="indexingOperationTransposeNotSupported">Transposing IndexingOperation objects is not supported.</entry>
+    <entry key="intermediateForwarding">Forwarding is not supported in intermediate indexing. Perform forwarding at the end of an indexing expression.</entry>
+    <entry key="invalidBraceListLengthAssignmentContext">braceListLength must return a nonnegative integer. braceListLength was called to determine the number of expected inputs to a brace indexed assignment.</entry>
+    <entry key="invalidBraceListLengthReferenceContext">braceListLength must return a nonnegative integer. braceListLength was called to determine the number of outputs of a brace indexing expression or statement.</entry>
+    <entry key="invalidClassAttribute">The class ''{0}'' is invalid because it both inherits from ''{1}'' and has the attribute ''{2}'' set to true. Remove the attribute ''{2}'' from class ''{0}''.</entry>
+    <entry key="invalidDotListLengthAssignmentContext">dotListLength must return a nonnegative integer. dotListLength was called to determine the number of expected inputs to a dot indexed assignment.</entry>
+    <entry key="invalidDotListLengthReferenceContext">dotListLength must return a nonnegative integer. dotListLength was called to determine the number of outputs of a dot indexing expression or statement.</entry>
+    <entry key="invalidOverloadedIndexing">The class ''{0}'' is invalid because it both inherits from ''{1}'' and defines the method ''{2}''. Remove the definition of ''{2}'' from class ''{0}''.</entry>
+    <entry key="invalidParenListLengthAssignmentContext">parenListLength must return a nonnegative integer. parenListLength was called to determine the number of expected inputs to a parentheses indexed assignment.</entry>
+    <entry key="invalidParenListLengthReferenceContext">parenListLength must return a nonnegative integer. parenListLength was called to determine the number of outputs of a parentheses indexing expression or statement.</entry>
+    <entry key="mustBeIndexingContext">Invalid argument at position 3. Value must be a scalar of type matlab.indexing.IndexingContext.</entry>
+    <entry key="mustBeIndexingOperation">位置 2 の引数が無効です。値は IndexingOperation 型でなければなりません。</entry>
+    <entry key="mustBeNonEmptyIndexingOperation">位置 2 の引数が無効です。値を空にしてはなりません。</entry>
+    <entry key="must_inherit_from_class">クラスが ''{0}'' から継承している場合は、''{1}'' から継承していなければなりません。</entry>
+    <entry key="parenDotAssignmentNotSupported">Compound indexed assignments that begin with parentheses are not supported for the class ''{0}''.</entry>
+    <entry key="parenDotAssignmentRequiresRedefinesParen">To support compound indexed assignments that begin with parentheses, the class ''{0}'' must inherit from 'matlab.mixin.indexing.RedefinesParen'.</entry>
+    <entry key="parenthesesIndexingFailed">A parentheses indexing operation failed for the class ''{0}''.</entry>
+    <entry key="propertiesSupportedForSomeElementsOnly">一部の要素に対してのみサポートされているプロパティ</entry>
+    <entry key="reshapeNotSupported">The reshape method is not supported for objects of type ''{0}''.</entry>
+    <entry key="subsasgnForHandleMustReturnOriginal">ハンドル オブジェクトのオーバーロードされた subsasgn は、元のハンドル オブジェクトを返さなければなりません。</entry>
+    <entry key="transposeNotSupported">The transpose method is not supported for objects of type ''{0}''.</entry>
+    <entry key="UnableToConvertWithCause">Unable to perform assignment because value of type ''{0}'' is not convertible to ''{1}''.</entry>
+    <entry key="indexingOperationConversion">An indexing operation object was unexpectedly converted.</entry>
+  </message>
+</rsccat>

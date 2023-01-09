@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="tooManyColors">Too many colors; increasing tolerance to {0}</entry>
+    <entry key="obsoleteSyntaxNeedMoreArgs">RGB2IND(RGB) is a deprecated syntax.\nSpecify number of colors, tolerance, or colormap.</entry>
+    <entry key="invalidInputArgs">Invalid input arguments.</entry>
+    <entry key="rgbNotMbyNby3">RGB image has to be M-by-N-by-3 array.</entry>
+    <entry key="negativeValuesInMap">Colormap, Number of colors, or Tolerance have to be non-negative.</entry>
+    <entry key="invalidNumberOfColors">Number of colors in the colormap has to be a non-negative integer.</entry>
+    <entry key="invalidMapSize">Input colormap has to be a 2D array with at least 2 rows and exactly 3 columns.</entry>
+    <entry key="invalidMapIntensities">All colormap intensities must be between 0 and 1.</entry>
+    <entry key="unknownDitherOption">Unknown dither option: {0}</entry>
+    <entry key="ambiguousDitherOption">Ambiguous dither option: {0}</entry>
+    <entry key="ditherOptionNotString" note="stringDatatypeUpdate">Dither option has to be a character vector.</entry>
+  </message>
+</rsccat>

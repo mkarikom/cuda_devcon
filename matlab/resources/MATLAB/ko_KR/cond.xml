@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SparseNotSupported">희소 행렬에는 COND 대신 CONDEST를 사용해야 합니다.</entry>
+    <entry key="normMismatchSizeA">A는 사각형입니다.  2 노름(Norm)을 사용하십시오.</entry>
+  </message>
+</rsccat>

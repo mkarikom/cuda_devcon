@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonCategoricalX">数据类型无效。第一个参数必须为分类数组。</entry>
+    <entry key="OrdinalCategoriesMismatch">当 X 和 CATEGORIES 均为有序数组时，它们必须具有顺序相同的相同类别。</entry>
+    <entry key="OrdinalMismatch">X 和 CATEGORIES 必须均为有序或均为无序。</entry>
+    <entry key="RepeatedCategories">类别参数包含重复的名称。</entry>
+    <entry key="UnrecognizedCategories">类别参数必须为数据类别的子集（对于有序数据）。</entry>
+  </message>
+</rsccat>

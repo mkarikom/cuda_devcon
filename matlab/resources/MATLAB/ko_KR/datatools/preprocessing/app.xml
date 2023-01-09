@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TITLE">데이터 정리기</entry>
+    <entry key="HOME_TAB">홈</entry>
+    <entry key="FILE_SECTION">파일</entry>
+    <entry key="IMPORT_BUTTON_TEXT">가져오기</entry>
+    <entry key="IMPORT_BUTTON_DESCRIPTION">데이터 가져오기</entry>
+    <entry key="VIEW_SECTION">보기</entry>
+    <entry key="SHOW_SUMMARY">요약 표시</entry>
+    <entry key="LEGEND">범례 표시</entry>
+    <entry key="CUSTOM_CATEGORY">사용자 지정</entry>
+    <entry key="ADD_CUSTOM_FUNCTION">함수 추가</entry>
+    <entry key="EDIT_CUSTOM_FUNCTION">사용자 지정 함수 편집</entry>
+    <entry key="EXPORT_SECTION">내보내기</entry>
+    <entry key="EXPORT_BUTTON_TEXT">내보내기</entry>
+    <entry key="EXPORT_BUTTON_DESCRIPTION">데이터를 내보냅니다.</entry>
+    <entry key="EXPORT_VARIABLE_EXPORTED">변수 {0}을(를) MATLAB 작업 공간에 {1}(으)로 내보냄</entry>
+    <entry key="EXPORT_SCRIPT_EXPORTED">스크립트로 내보내기 완료됨</entry>
+    <entry key="EXPORT_FUNCTION_EXPORTED">함수로 내보내기 완료됨</entry>
+    <entry key="EXPORT_DIALOG_TITLE">내보내기 완료됨</entry>
+    <entry key="TABULAR_DOC_GROUP_TITLE">테이블 형식 보기</entry>
+    <entry key="TABULAR_DOC_TITLE">변수: {0}</entry>
+    <entry key="PPTaskGroupTitle">정리 방법</entry>
+    <entry key="PPTaskPanelTitle">미리보기</entry>
+    <entry key="PPTAB">정리 방법</entry>
+    <entry key="PPMODE_SECTION">데이터 정리</entry>
+    <entry key="PPMODE_APPLY_BUTTON_TEXT">적용 후 닫기</entry>
+    <entry key="PPMODE_APPLY_BUTTON_DESCRIPTION">정리를 적용하고 주 화면으로 돌아갑니다.</entry>
+    <entry key="PPMODE_CANCEL_BUTTON_TEXT">취소</entry>
+    <entry key="PPMODE_CANCEL_BUTTON_DESCRIPTION">정리를 취소하고 주 화면으로 돌아갑니다.</entry>
+    <entry key="PPMODE_HELP_SECTION">도움말</entry>
+    <entry key="PPMODE_HELP_BUTTON_TEXT">도움말</entry>
+    <entry key="PPMODE_HELP_BUTTON_DESCRIPTION">이 작업과 관련된 문서를 참조합니다.</entry>
+    <entry key="PPMODE_HELP_NOHELP">이 작업에 대한 사용 가능한 도움말 없음</entry>
+    <entry key="PPMODE_SUBSET_SECTION">서브셋</entry>
+    <entry key="PPMODE_SUBSET_CHECKBOX_TEXT">서브셋을 사용하여 미리보기</entry>
+    <entry key="PPMODE_SUBSET_CHECKBOX_DESCRIPTION">성능 속도를 높이기 위해 정리 작업 중에 데이터의 서브셋을 사용합니다.</entry>
+    <entry key="PPMODE_SUBSET_START_TEXT">시작</entry>
+    <entry key="PPMODE_SUBSET_START_DESCRIPTION">서브셋의 시작 인덱스입니다.</entry>
+    <entry key="PPMODE_SUBSET_END_TEXT">끝</entry>
+    <entry key="PPMODE_SUBSET_END_DESCRIPTION">서브셋의 끝 인덱스입니다.</entry>
+    <entry key="PPMODE_SUBSET_STEP_TEXT">간격</entry>
+    <entry key="PPMODE_SUBSET_STEP_DESCRIPTION">서브셋의 간격입니다. 시작부터 끝까지 매 n번째 항목이 선택됩니다.</entry>
+    <entry key="VARIABLE_PANEL_TITLE">변수</entry>
+    <entry key="HISTORY_PANEL_TITLE">정리 단계</entry>
+    <entry key="PREPROCESSED_FIGURE_PANEL_TITLE">선택한 변수에 대한 세부 정보</entry>
+    <entry key="TASK_GROUP_CLEANING">정리</entry>
+    <entry key="TASK_GROUP_RESHAPING">형태 변경</entry>
+    <entry key="TASK_GROUP_SYNCHRONIZING">동기화</entry>
+    <entry key="TASK_GROUP_USER">작성한 사용자</entry>
+    <entry key="CUSTOMPP_SECTION">사용자 지정 전처리</entry>
+    <entry key="ADD_CUSTOMPP_BUTTON_TEXT">갤러리에 사용자 지정 함수 추가</entry>
+    <entry key="ADD_CUSTOMPP_BUTTON_DESCRIPTION">갤러리에 새 사용자 지정 전처리 작업을 만듭니다.</entry>
+    <entry key="ADD_CUSTOMPP_ERROR">사용자 지정 전처리를 추가하는 중 오류 발생</entry>
+    <entry key="TASK_COLUMN_TRANSFORM_BUTTON_TEXT">열 변수 계산</entry>
+    <entry key="TASK_COLUMN_TRANSFORM_BUTTON_DESCRIPTION">열 변수를 새로 만들거나 기존 열 변수를 계산된 값으로 재정의합니다</entry>
+    <entry key="RETIME_NAME">타임테이블 리샘플링</entry>
+    <entry key="USR_ACTION_ERROR_TITLE">유효하지 않은 동작임</entry>
+    <entry key="USR_ACTION_ERROR_TEXT">동작으로 인해 유효하지 않은 상태가 발생했습니다. 사용자 동작을 되돌립니다.</entry>
+    <entry key="USR_ACTION_ERROR_NO_NEW_WS_VARS">코드가 작업 공간에 새 변수를 추가할 수 없습니다!</entry>
+    <entry key="VARIABLE_SELECTOR_NAME">작업 공간에서 가져오기</entry>
+    <entry key="VARIABLE_SELECTOR_TEXT">테이블 또는 타임테이블 선택</entry>
+    <entry key="VARIABLE_SELECTOR_SUB_TEXT">변수</entry>
+    <entry key="CANCEL_BUTTON_TEXT">취소</entry>
+    <entry key="OK_BUTTON_TEXT">확인</entry>
+    <entry key="NO_VAR_WARNING">작업 공간에 테이블이 없음</entry>
+    <entry key="NO_DATA_WARNING">사용 가능한 데이터 없음</entry>
+    <entry key="STEP_RESET_WARNING_TEXT">이 동작은 이전 스텝을 모두 지웁니다.</entry>
+    <entry key="STEP_RESET_WARNING_PANEL_TITLE">경고</entry>
+    <entry key="STEP_RESET_WARNING_OK">확인</entry>
+    <entry key="STEP_RESET_WARNING_CANCEL">취소</entry>
+    <entry key="STEP_DELETE_WARNING_TEXT">계속 진행하시겠습니까?</entry>
+  </message>
+</rsccat>

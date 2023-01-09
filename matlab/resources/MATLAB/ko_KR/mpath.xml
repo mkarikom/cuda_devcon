@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="directoryNameTooLong">디렉터리 이름 {0}이(가) 너무 깁니다. </entry>
+    <entry key="methodDirectoriesNotAllowedOnPath">MATLAB 경로로 허용되지 않는 메서드 디렉터리: {0}</entry>
+    <entry key="packageDirectoriesNotAllowedOnPath">MATLAB 경로로 허용되지 않는 패키지 디렉터리: {0}</entry>
+    <entry key="privateDirectoriesNotAllowedOnPath">MATLAB 경로로 허용되지 않는 프라이빗 디렉터리: {0}</entry>
+    <entry key="resourcesDirectoriesNotAllowedOnPath">경로에 이름이 'resources'인 폴더를 추가할 수 없음: {0}</entry>
+    <entry key="directoryPermissionDenied">디렉터리 권한이 거부됨: {0}</entry>
+    <entry key="nameNonexistentOrNotADirectory">이름이 존재하지 않거나 디렉터리가 아님: {0}</entry>
+    <entry key="directoryAccessFailure">디렉터리 액세스에 실패함: {0}</entry>
+    <entry key="cannotAbsolutizePath">경로 {0}을(를) 절대 경로로 만들 수 없습니다. </entry>
+    <entry key="invalidLocation">파일 또는 폴더에 대해 지정한 위치 {0}이(가) 유효하지 않습니다.</entry>
+    <entry key="ToolboxCacheFileWrongFormat">툴박스 경로 캐시 {0}을(를) 불러올 수 없습니다. 캐시 파일의 형식이 잘못되었습니다. MATLAB을 중지하면 캐시 파일이 다시 생성됩니다.</entry>
+    <entry key="PathAlterationNotSupported">검색 경로를 수정하는 것은 MATLAB Compiler에서 지원되지 않습니다. MATLAB 코드에서 검색 경로를 수정하는 함수를 제거하십시오. 배포용 응용 프로그램에 파일을 표시하려면 MATLAB 세션에 부모 폴더를 추가하십시오.</entry>
+    <entry key="UnableToModifyMatlabpath">이전 수정이 끝날 때까지 MATLAB 검색 경로를 수정할 수 없습니다.</entry>
+    <entry key="CannotAddComponentsToSearchPath">폴더 {0}은(는) 구성요소 멤버 폴더이기 때문에 MATLAB 검색 경로에 추가할 수 없습니다. 구성요소는 {1}에 정의되어 있습니다.</entry>
+    <entry key="UnableToLocatePersonalFolder">Unable to locate a personal folder for {0}.</entry>
+    <entry key="UnableToCreatePersonalMATLABWorkFolder">Unable to create personal MATLAB work folder {0}.</entry>
+  </message>
+</rsccat>

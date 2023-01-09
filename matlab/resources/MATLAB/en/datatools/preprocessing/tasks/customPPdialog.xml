@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!-- Copyright 2020 MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <entry key="DIALOG_TITLE">Data Cleaner Custom Function Dialog</entry>
+        <entry key="TITLE">Add Custom Cleaning Function</entry>
+        <entry key="FCN_NAME" note="The name of the function">Name</entry>
+        <entry key="FCN_NAME_TT" note="The tooltip for the name of the function">Enter a new or existing function name</entry>
+        <entry key="NEW_FCN">New function</entry>
+        <entry key="EXISTING_FCN">Existing function</entry>
+        <entry key="FCN_DESCRIPTION" note="The function description">Description</entry>
+        <entry key="FCN_DESCRIPTION_TT" note="The tooltip for the function description">The tooltip that will display in the Data Cleaner when you hover over the button</entry>
+        <entry key="FCN_DESCRIPTION_DEFAULT" note="The default value for the function description">Performs custom cleanup</entry>
+        <entry key="OPERATION_TYPE">Operation Type</entry>
+        <entry key="TABLE_OPERATION_LABEL">Table-Wide Operation</entry>
+        <entry key="TABLE_OPERATION_TOOLTIP">The custom code will alter the entier table</entry>
+        <entry key="COLUMN_OPERATION_LABEL">Single Column Variable Operation</entry>
+        <entry key="COLUMN_OPERATION_TOOLTIP">The custom code will only affect one column variable</entry>
+        <entry key="OK">OK</entry>
+        <entry key="CANCEL">Cancel</entry>
+        <entry key="ADD_CUSTOM_FCN_LABEL">Add a custom function with the following syntax to the Data Cleaner.</entry>
+        <entry key="ADD_EXISTING_FCN_LABEL">Add a function that calls an existing function with the following syntax.</entry>
+        <entry key="WORKFLOW_DESCRIPTION_TABLE">Data Cleaner will automatically pass the input table into the function. Optional input arguments may also be specified.</entry>
+        <entry key="WORKFLOW_DESCRIPTION_COLUMN">{0}, the input column variable, will be automatically passed in to the function. Optional input arguments may also be specified.</entry>
+    </message>
+</rsccat>

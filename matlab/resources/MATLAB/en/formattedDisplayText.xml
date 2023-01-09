@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\schema\msgcat.xsd" string_type_for_hole="fl_ustring">
+  <message>
+    <entry key="RequireCell">Input array must be a cell array when using the {0} option.</entry> 
+    <entry key="RequireLogical">Input array must be logical when using the {0} option.</entry>
+    <entry key="RequireText">Input array must be string or char when using the {0} option.</entry>
+    <entry key ="DigitGroupSeparatorWrongFormat">The current display format is {0} but the {1} option can only be used with the following formats:{2}</entry>
+  </message>
+</rsccat>

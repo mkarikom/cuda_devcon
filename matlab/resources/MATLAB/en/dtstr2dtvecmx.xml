@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="Nargin">Too few input arguments. Requires two inputs.</entry>
+    <entry key="WrongCellArrayDimensions">The input cell array must be either a column or a row.</entry>
+    <entry key="PivotYearEmpty">The pivot year must be a scalar double.</entry>
+    <entry key="ConvertString" note="stringDatatypeUpdate">Failed to convert from text to date number.</entry>
+  </message>
+</rsccat>

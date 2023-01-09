@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CartesianOnly">只有笛卡尔坐标区支持非数值数据</entry>
+    <entry key="MixingX">对 x 轴绘制的值必须为 {0} 值。要创建 {1} 值，请使用 {2} 函数。</entry>
+    <entry key="MixingOther">为 {0} 值配置了至少一个坐标轴维度。要创建 {1} 值，请使用 {2} 函数。</entry>
+    <entry key="Mixing">数据输入必须与坐标轴配置匹配。数值坐标轴必须具有数值数据输入，或者具有可转换为双精度值的数据输入。</entry>
+    <entry key="AxesToolbarParentError">AxesToolbar 父级不能为空</entry>
+  </message>
+</rsccat>

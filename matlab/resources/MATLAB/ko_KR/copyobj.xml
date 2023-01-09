@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="arrowlineCopyError">화살표선 복사 중 오류 발생</entry>
+    <entry key="CopyError">좌표축 복사 중 오류 발생: {0}</entry>
+    <entry key="NeedHandle">HGOBJ를 제공하거나 HGOBJ 객체에 대한 핸들을 제공해야 함</entry>
+    <entry key="FigureDoesNotHaveRootParent">Figure에 루트 부모가 없음</entry>
+    <entry key="CopyobjFailed">Copyobj가 클래스의 객체를 생성하지 못함: {0}\n</entry>
+    <entry key="BadConversionFromDouble">double형에서 핸들로 변환되지 못함</entry>
+    <entry key="VectorLengthNotEqual">부모 및 자식 입력 벡터는 길이가 같아야 합니다.</entry>
+    <entry key="InvalidChildHandle">유효하지 않은 자식 핸들 인수임</entry>
+    <entry key="InvalidParentHandle">유효하지 않은 부모 핸들 인수임</entry>
+    <entry key="DegenerateCopy">동일한 객체를 동일한 부모에 두 번 이상 복사할 수 없습니다. 대신 COPYOBJ를 두 번 호출해 보십시오.</entry>
+    <entry key="InvalidReturnType">{0} 클래스의 copyElement 메서드가 유효하지 않은 유형을 반환했습니다.</entry>
+    <entry key="IncorrectlyAllocatedCopy">{0} 클래스의 copyElement 메서드가 copyElement@matlab.graphics.mixin.internal.Copyable을 사용하여 복사본을 할당하지 않았습니다.</entry>
+    <entry key="ObjectNotCopied">이 {0}을(를) 복사할 수 없습니다. &lt;a href="matlab: helpview ([docroot filesep 'matlab' filesep 'ref' filesep 'copyobj.html'])"&gt;COPYOBJ&lt;/a&gt;를 사용하여 복사할 수 있는 객체와 복사할 수 없는 객체를 확인하십시오.</entry>
+  </message>
+</rsccat>

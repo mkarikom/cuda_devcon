@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidTarget">Target must be a figure or axes.</entry>
+    <entry key="InvalidColorString">''{0}'' is not a valid color specification.</entry>
+    <entry key="InvalidColors">Colors must be a three-column matrix of RGB triplets, the keyword 'default', a cell-array of character vectors, or a string array.</entry>
+    <entry key="DeletedTarget">Target object is deleted.</entry>
+  </message>
+</rsccat>

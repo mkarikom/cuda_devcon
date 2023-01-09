@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">输入参数的数目不足。请参阅 BVPXTEND。</entry>
+    <entry key="XnewInsideInterval">XNEW 在积分的前一区间内。</entry>
+    <entry key="UnexpectedExtrapolationMethod">指定了无效的外推方法: {0}。</entry>
+    <entry key="YnewIncorrectType">YNEW 必须为数值向量、字符串或字符向量。</entry>
+    <entry key="UnrecognizedSolverInSol">无法扩展由求解器生成的解: {0}。</entry>
+    <entry key="NoSolverInSol">求解结构体中没有提供求解器信息。无法使用外推标志: ''{0}''。</entry>
+  </message>
+</rsccat>

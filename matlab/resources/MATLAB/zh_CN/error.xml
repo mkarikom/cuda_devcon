@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badIdentifier">输入结构体的字段 \"identifier\" 必须包含有效的 MATLAB 消息标识符。</entry>
+    <entry key="badMessage">输入结构体的字段 \"message\" 必须包含字符向量或字符串标量。</entry>
+    <entry key="badStack">字段 \"stack\" 必须为 m×1 数组。</entry>
+    <entry key="badStackFile">字段 \"stack\" 必须包含以下字段: \"file\"、\"name\"、\"line\"。</entry>
+    <entry key="badStackFileString">字段 \"stack\" 的字段 \"file\" 必须包含字符向量。</entry>
+    <entry key="badStackLine">字段 \"stack\" 的字段 \"line\" 必须包含双精度标量。</entry>
+    <entry key="badStackName">字段 \"stack\" 的字段 \"name\" 必须包含字符向量。</entry>
+    <entry key="badStackStruct">输入结构体的字段 \"stack\" 必须包含一个结构体。</entry>
+    <entry key="nonScalarInput">输入结构体必须为标量。</entry>
+  </message>
+</rsccat>

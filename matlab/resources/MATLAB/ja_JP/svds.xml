@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadCondition">入力行列の条件が不適切です。Inf または NaN を含めることができます。</entry>
+    <entry key="BothU0andV0">オプション構造体では u0 フィールドまたは v0 フィールドを指定し、両方は指定しないでください。</entry>
+    <entry key="FhandleNoLargest">関数ハンドルはモード ''largest'' にのみサポートされています。</entry>
+    <entry key="InvalidA">1 番目の入力は double の行列または関数ハンドルのいずれかでなければなりません。</entry>
+    <entry key="InvalidFhandleOutput">フラグ ''{0}'' が設定されている関数ハンドルの出力は期待される出力ではありません。期待される出力は長さが {1} で double 型の列ベクトルです。</entry>
+    <entry key="InvalidK">計算する特異値の数は正の整数でなければなりません。</entry>
+    <entry key="InvalidMaxit">オプション構造体の maxit フィールドは正の整数でなければなりません。</entry>
+    <entry key="InvalidMN">関数ハンドルを使用する場合、2 番目の入力は行列サイズを表す 1 行 2 列の整数ベクトルでなければなりません。</entry>
+    <entry key="InvalidP">オプション構造体の p フィールドは非負の整数でなければなりません。</entry>
+    <entry key="InvalidSigma">スカラー シフト SIGMA は ''largest''、''smallest''、''smallestnz'' または double の有限実数のいずれかです。</entry>
+    <entry key="InvalidTol">オプション構造体の tol フィールドは非負の実数でなければなりません。</entry>
+    <entry key="InvalidStartingVector">無効な開始ベクトル。 </entry>
+    <entry key="InvalidU0">オプション構造体の u0 フィールドは、入力行列の行数と等しい長さをもつ列ベクトルでなければなりません。</entry>
+    <entry key="InvalidV0">オプション構造体の v0 フィールドは、入力行列の列数と等しい長さをもつ列ベクトルでなければなりません。</entry>
+    <entry key="InvalidDisp">オプション構造体の disp フィールドは 0 または 1 でなければなりません。</entry>
+    <entry key="PlessK">オプション構造体の p フィールドは K + 2 以上でなければなりません。ここで、K は特異値の数です。</entry>
+    <entry key="ParseFlags">パラメーター名は ''Tolerance''、''MaxIterations''、''SubspaceDimension''、''LeftStartVector''、''RightStartVector''、''Display''、''FailureTreatment'' のいずれかでなければなりません。</entry>
+    <entry key="KeyWithoutValue">入力引数の数が正しくありません。各パラメーター名の後には対応する値が必要です。</entry>
+    <entry key="BothU0andV0NameValue">''LeftStartVector'' パラメーターまたは ''RightStartVector'' パラメーターを指定し、両方は指定しないでください。</entry>
+    <entry key="InvalidMaxitNameValue">''MaxIterations'' の値は正の整数でなければなりません。</entry>
+    <entry key="InvalidPNameValue">''SubspaceDimension'' の値は非負の整数でなければなりません。</entry>
+    <entry key="InvalidTolNameValue">''Tolerance'' の値は非負の実数でなければなりません。</entry>
+    <entry key="InvalidU0NameValue">''LeftStartVector'' の値は、入力行列の行数と等しい長さをもつ数値ベクトルでなければなりません。</entry>
+    <entry key="InvalidV0NameValue">''RightStartVector'' の値は、入力行列の列数と等しい長さをもつ数値ベクトルでなければなりません。</entry>
+    <entry key="InvalidDispNameValue">''Display'' の値は 0 または 1 でなければなりません。</entry>
+    <entry key="PlessKNameValue">''SubspaceDimension'' の値は K + 2 以上でなければなりません。ここで、K は特異値の数です。</entry>
+    <entry key="InvalidFailureTreatment">オプション構造体の fail フィールドの値は、''replacenan''、''keep''、''drop'' のいずれかでなければなりません。</entry>
+    <entry key="InvalidFailureTreatmentNameValue">''FailureTreatment'' の値は、''replacenan''、''keep''、''drop'' のいずれかでなければなりません。</entry>
+    <entry key="NoFailNumSigma">数値スカラー シフトでは、オプション構造体の fail フィールドの値は ''drop'' でなければなりません。</entry>
+    <entry key="NoFailNumSigmaNameValue">数値スカラー シフトでは、''FailureTreatment'' の値は ''drop'' でなければなりません。</entry>
+    <entry key="PartialConvergence">要求した {1,number,integer} 個の特異値のうち、{0,number,integer} 個のみが収束しました。収束しなかった特異値は NaN です。</entry>
+    <entry key="PartialConvKeep">要求した {1,number,integer} 個の特異値のうち、{0,number,integer} 個のみが収束しました。収束しなかった値を特定するために、収束フラグ出力を指定してください。</entry>
+    <entry key="PartialConvDrop">要求した {1,number,integer} 個の特異値のうち、{0,number,integer} 個のみが収束しました。収束しなかった特異値は削除されます。</entry>
+    <entry key="SigmaZero">結果が不正確である可能性があります。0 に最も近い特異値を計算するには、代わりにオプション ''smallest'' を使用してください。</entry>
+    <entry key="BadResidual">大きな残差ノルムが検出されました。入力行列の不適切な条件 (条件番号 {0}) が原因のようです。</entry>
+    <entry key="MultNotCorrectLargest">返された特異値は最大でない可能性があります。''MaxIterations'' の値を大きくしてください。</entry>
+    <entry key="MultNotCorrectSmallest">返された特異値は最小でない可能性があります。''MaxIterations'' の値を大きくしてください。</entry>
+    <entry key="SigmaTooSmall">{0} 個の特異値のみが見つかりました。スカラー シフト SIGMA を増加してみてください。</entry>
+    <entry key="InvalidArg3">3 番目の引数は実数のスカラーまたは文字 ''L'' でなければなりません。</entry>
+    <entry key="Arg4NotOptionsStruct">オプションは構造体でなければなりません。</entry>
+    <entry key="Title">特異値分解 A*v = sigma*u、A'*u = sigma*v</entry>
+    <entry key="KandSigmaLargest">{1} 行 {2} 列の行列 A の最も大きい {0} 個の特異値を計算します。</entry>
+    <entry key="KandSigmaSmallest">{1} 行 {2} 列の行列 A の最も小さい {0} 個の特異値を計算します。</entry>
+    <entry key="KandSigmaSmallestNz">{1} 行 {2} 列の行列 A の最も小さい {0} 個の非ゼロの特異値を計算します。</entry>
+    <entry key="KandSigmaNum">{1} 行 {2} 列の行列 A の特異値のうち、{3} に最も近い {0} 個を計算します。</entry>
+    <entry key="ListParam">パラメーター:\n 最大反復回数: {0}\n 許容誤差: {1}\n 部分空間の次元: {2}</entry>
+    <entry key="SVDFallbackLargest">部分空間の次元が最小の行列サイズに等しいため、SVD を呼び出して SVDS を計算してください。</entry>
+    <entry key="SVDFallbackSmallest">部分空間の次元が行列 R のサイズ以上であるため、SVD を呼び出して SVDS を計算してください。</entry>
+    <entry key="EquationLargest">A*v = sigma*u、A'*u = sigma * v について、最も大きい特異値を求めます。</entry>
+    <entry key="EquationSmallest">A = Q*R*P として、R\\v = sigma*u、R'\\u = sigma * v の最も大きい特異値を求めます。\nA の QR 分解を計算します...</entry>
+    <entry key="EquationSmallestTransp">A' = Q*R*P として、R\\v = sigma*u、R'\\u = sigma * v の最も大きい特異値を求めます。\nA’ の QR 分解を計算します...</entry>
+    <entry key="EquationNumeric">{0} に最も近い、行列 [0 A; A' 0]*x = lambda*x の固有値を求めます。EIGS を呼び出して固有値を計算します...</entry>
+    <entry key="RankSmallestAllZero">行列 A のランクは {0} であるため、要求された {1} 個の特異値はすべてゼロです。</entry>
+    <entry key="RankSmallestSomeZero">行列 A のランクは {0} であるため、要求された {2} 個の特異値のうちの {1} 個がゼロです。</entry>
+    <entry key="RankSmallestNzTooFew">行列 A のランクは {0} であるため、要求された {2} 個ではなく、{1} 個の非ゼロの特異値のみを返すことができます。</entry>
+    <entry key="ResidualCheck">不適切な条件の疑いがあります。QR 分解の行列 R の代わりに A を使用して残差をチェックしてください。最大相対残差: {0}</entry>
+    <entry key="StartLanczosBD">ランチョスの二重対角化法の開始</entry>
+    <entry key="LanczosBDIter">反復 {0}: {2} 個のうち {1} 個の特異値が収束しました。収束しなかった最小の残差 {3} (許容誤差 {4})。</entry>
+    <entry key="LanczosBDLastIter">反復 {0}: {2} 個のうち {1} 個の特異値が収束しました。</entry>
+    <entry key="CheckMult">特異値の多重度が見落とされたかどうかをチェックするには、メソッドをやり直して、k+1 個の特異値を求めます。</entry>
+    <entry key="MultCheckSuccess">追加の重複する特異値は見つかりませんでした。結果は良好です。</entry>
+    <entry key="MultCheckRepeat">追加の重複する特異値がいくつか見つかりました。再びやり直して、他にないかチェックしてください。</entry>
+    <entry key="SingValsFromEigVals">特異値の候補が {0} 個見つかりました: {1} 個が正で {2} 個がほぼゼロです。</entry>
+    <entry key="ResidualDecisionAccept">特異値の候補の残差のチェック: すべて受け入れられました。</entry>
+    <entry key="ResidualDecision">特異値の候補の残差のチェック: {0} 個が十分正確ではありません ({1} 以上)。</entry>
+  </message>
+</rsccat>

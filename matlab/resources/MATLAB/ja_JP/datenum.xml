@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EmptyDate">空の日付文字ベクトルまたは空の string をもつ DATENUM の使用はサポートされていません。\n結果は将来のバージョンで変わる可能性があります。</entry>
+    <entry key="NotAStringArray">DATENUM への入力が、文字ベクトルまたは string の配列ではありません。</entry>
+    <entry key="YearFormat">認識されない年の表示形式</entry>
+    <entry key="Nargin">不正な引数の数</entry>
+    <entry key="InconsistentInputs">DATENUM への入力引数は、サイズが同じであるか、スカラーでなければなりません。</entry>
+    <entry key="Failed">DATENUM は失敗しました。</entry>
+    <entry key="InputMustBeReal">Numeric input data must be real.</entry>
+  </message>
+</rsccat>

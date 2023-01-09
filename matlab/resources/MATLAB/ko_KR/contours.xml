@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputsMustBeFull">등고선의 입력 인수는 비희소(Full) 형식이어야 합니다.</entry>
+    <entry key="InputsMustBeReal">등고선의 입력 인수는 실수여야 합니다. 함수 REAL을 사용하여 입력값의 실수부를 가져오십시오.</entry>
+    <entry key="InputsMustHaveAtMost2Dimensions">등고선의 입력 인수는 2차원을 초과할 수 없습니다.</entry>
+    <entry key="XMustBeVectorOrMatrix">X는 벡터 또는 행렬이어야 합니다.</entry>
+    <entry key="YMustBeVectorOrMatrix">Y는 벡터 또는 행렬이어야 합니다.</entry>
+    <entry key="EmptyErrorOutputArgument">{0}에서 오류 인수가 빈 행렬로 설정되었습니다.  향후 릴리스에서는 오류로 간주됩니다.</entry>
+    <entry key="DeprecatedErrorOutputArgument">{0}에서 오류 출력 인수가 더 이상 사용되지 않습니다. 이 기능은 향후 릴리스에서 더 이상 지원되지 않을 예정입니다.</entry>
+  </message>
+</rsccat>

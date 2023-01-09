@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="badmembernumber">Each tscollection you are trying to concatenate must have the same number of members.</entry>
+    <entry key="badmembername">tscollections must have members with the distinct names.</entry>
+    <entry key="overlaptime">The time vectors of the specified time series must not overlap and be consecutive.</entry>
+    <entry key="badsamplesize">The sample size or data type of {0} does not match the other members of the tscollection.</entry>
+  </message>
+</rsccat>

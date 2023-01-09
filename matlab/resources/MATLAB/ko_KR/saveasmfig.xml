@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFilename">유효하지 않은 MATLAB 파일 이름임: {0}, . (점)은 유효한 파일 이름 문자가 아닙니다.</entry>
+    <entry key="CannotCreateFile">m 파일을 생성할 수 없음: {0}</entry>
+  </message>
+</rsccat>

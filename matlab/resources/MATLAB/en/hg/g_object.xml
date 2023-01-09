@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" decorate_cxx_names="true">
+  <message>
+    <entry key="DestroyCallbackStomped">Someone else''s GObject DestroyCallback just got stomped</entry>
+    <entry key="WriteCallbackStomped">Someone else''s GObject WriteCallback just got stomped</entry>
+    <entry key="MustBeInSameFigure">An object and its uicontextmenu must be in the same figure</entry>
+    <entry key="BadHandleType">Handle must be a uicontextmenu</entry>
+    <entry key="DontNeedToSetInvalMethods">We don''t need to set Inval methods --&gt; set bounds instead</entry>
+    <entry key="TransformFcnNotSet">Transform fcn not set for {0} object</entry>
+    <entry key="DestroyFcnNotSet">Destroy fcn not set for {0} object</entry>
+    <entry key="ObjectInRectFcnNotSet">ObjectInRect fcn not set for {0} object</entry>
+    <entry key="ComputeNormalsFcnNotSet">ComputeNormals fcn not set for {0} object</entry>
+    <entry key="RenderFcnNotSet">Render fcn not set for {0} object</entry>
+    <entry key="ZBufferRendererFcnNotSet">Zbuffer Renderer fcn not set for {0} object</entry>
+    <entry key="GetSubobjPolyFcnNotSet">GetSubobjPoly fcn not set for {0} object</entry>
+    <entry key="OkToRenderFcnNotSet">OkToRender fcn not set for {0} object</entry>
+    <entry key="CannotSetProperty">Factory properties can only be queried, not set</entry>
+    <entry key="BadParent">Invalid parent</entry>
+    <entry key="TooManyObjectsCreatedWhileDeletingChildren">Too many objects created while deleting {0} children;\nremoving DeleteFcn of all descendants to prevent infinite loop</entry>
+    <entry key="CannotDeleteObject">Root object may not be deleted</entry>
+    <entry key="FunctionNotSet">functions not set for {0} objects</entry>
+    <entry key="SetupFunctionNotSet">Setup function not set for {0} objects</entry>
+    <entry key="UpdateFunctionNotSet">Update function not set for {0} objects</entry>
+    <entry key="MatrixDimensionMismatch">Matrix sizes must match when both arguments are not scalar</entry>
+    <entry key="BadHandle1">Invalid handle</entry>
+    <entry key="BadHandle2">Invalid handle</entry>
+    <entry key="ParentCannotBeReset">Parent can not be reset</entry>
+    <entry key="ParentChildMismatchError">An object of class {0}, can not be a child of class {1}.</entry>
+    <entry key="ObjectCannotBeChild">Object {0}[{1,number,integer}] can not be a child of parent {2}[{3,number,integer}]</entry>
+    <entry key="ChildrenMayOnlyBeSetToPermutationOfSelf">Children may only be set to a permutation of itself</entry>
+    <entry key="BadPropertyValueFound">Bad property value found.</entry>
+    <entry key="AmbiguousPropertyFound">Ambiguous property found.</entry>
+    <entry key="AttemptToModifyReadOnly">Attempt to modify read-only</entry>
+    <!--Resource entries for src/hgbuiltins-->
+    <entry key="CannotCreateCopyOfInvalidHandle">Copyobj cannot create a copy of an invalid handle.\n</entry>
+    <entry key="sparseArgs">Inputs must be full.</entry>
+  </message>
+</rsccat>

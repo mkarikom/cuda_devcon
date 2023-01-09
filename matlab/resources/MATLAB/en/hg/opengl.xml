@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="RegistrationSymbolNotFound">Registration symbol for glren not found. \n{0}</entry>
+    <entry key="UnableToLoadOpenGL">Unable to load the OpenGL renderer due to the following error\n{0}\nTried loading glren shared object from: {1}</entry>
+    <entry key="MaxTextureSize">OpenGL Context created, but MaxTextureSize is {0,number,integer}.\nDisabling OpenGL.</entry>
+    <entry key="UnableToUnload">You cannot unload the OpenGL Libraries</entry>
+    <entry key="UnableToAccessLibrary">Could not access OpenGL library</entry>
+    <entry key="AppearsToBeInstalledCorrectly">OpenGL appears to be installed incorrectly.</entry>
+    <entry key="ErrorWhenLoadingOpenGL">Error occurred while loading OpenGL</entry>
+    <entry key="OpenGLUnavailable">OpenGL is not available</entry>
+  </message>
+</rsccat>

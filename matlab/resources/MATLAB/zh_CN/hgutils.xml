@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidClassName">{0} 为无效类名</entry>
+    <entry key="BadObject">句柄已被损坏或不存在</entry>
+    <entry key="BadPropName">无法在类 {1} 中找到属性 {0}</entry>
+    <entry key="InvalidPackage">找不到 {0} 包</entry>
+    <entry key="InvalidClass">在 {1} 包中找不到 {0} 类</entry>
+    <entry key="InvalidProperty">在 {1} 类中找不到 {0} 属性</entry>
+    <entry key="MissingParentProp">错误: {0} 类缺少其 Parent 属性</entry>
+    <entry key="MissingConversion">找不到对任何内容的转换</entry>
+    <entry key="NoMethodFound">在类 {1} 中找不到方法 {0}</entry>
+    <entry key="MethodStatic">类 {0} 没有名为 ''{1}'' 的非静态方法。</entry>
+    <entry key="MethodNotStatic">类 {0} 没有名为 ''{1}'' 的静态方法。</entry>
+    <entry key="BadMethodSignatureInvalidNumberOfInputs">签名的输入数目错误</entry>
+    <entry key="BadMethodSignatureNull">签名为空</entry>
+    <entry key="InvalidContextMenu">句柄必须为 uicontextmenu。</entry>
+    <entry key="CannotSetFactoryValue">出厂属性只能进行查询，不能设置。</entry>
+    <entry key="OnlyRootHasFactoryDefaults">只能查询根对象的出厂属性。</entry>
+    <entry key="ScalarDisplayMustBeScalar">{0} 的输入参数必须为标量。</entry>
+    <entry key="NonScalarDisplayMustBeNonScalar">{0} 的输入参数必须为有效的非标量数组。</entry>
+    <entry key="EmptyDisplayMustBeEmpty">{0} 的输入参数必须为空数组。</entry>
+    <entry key="DeletedObjectInDisplay">只能使用有效对象来调用 {0} 方法。</entry>
+    <entry key="InvalidDescriptiveLabel">类 {0} 的描述性标签必须为字符向量、字符串数组或字符向量元胞数组。</entry>
+  </message>
+</rsccat>

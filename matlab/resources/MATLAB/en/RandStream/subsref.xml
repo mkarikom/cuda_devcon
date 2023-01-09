@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="SubscriptReferenceNotAllowed">You cannot index into a RandStream using () indexing.</entry>
+    <entry key="CellReferenceNotAllowed">You cannot index into a RandStream using '{}' indexing.</entry>
+    <entry key="InvalidMethodSyntax">Illegal method calling syntax.</entry>
+    <entry key="InvalidPropertySyntax">Illegal property reference.</entry>
+    <entry key="UnrecognizedProperty">Unrecognized property ''{0}''.</entry>
+  </message>
+</rsccat>

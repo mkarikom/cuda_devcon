@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">addevent 메서드는 단일 timeseries 객체에서만 사용할 수 있음</entry>
+    <entry key="badtype">addevent의 두 번째 인수는 tsdata.event 객체여야 합니다.</entry>
+    <entry key="cellarrayname">이름으로 이벤트를 추가할 때 이름은 문자형 벡터로 구성된 셀형 배열 또는 string형 배열을 사용하여 지정해야 합니다.</entry>
+    <entry key="times">이름으로 이벤트를 추가할 때 시간 값은 날짜 문자형 벡터로 구성된 셀형 배열, string형으로 구성된 배열 또는 숫자형 시간으로 구성된 배열을 사용하여 지정해야 합니다.</entry>
+    <entry key="size">이름으로 이벤트를 추가할 때 이름 셀형 배열과 시간 셀형 배열은 크기가 동일해야 합니다.</entry>
+    <entry key="name">이름으로 이벤트를 추가할 때 이름은 문자형 벡터/string형으로 지정하거나 문자형 벡터/string형으로 구성된 셀형 배열로 지정해야 합니다.</entry>
+  </message>
+</rsccat>

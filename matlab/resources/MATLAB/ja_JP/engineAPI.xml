@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputNotSupported">'input' コマンドは、デスクトップなしのエンジンで起動された MATLAB ではサポートされません。</entry>
+    <entry key="ProcessSessionNotInitialized">MATLAB プロセスのセッションを初期化できません。</entry>
+    <entry key="SharedMatlabNotFound">MATLAB セッション ''{0}'' が見つかりません。</entry>
+    <entry key="SharedMatlabNotConnected">MATLAB セッション ''{0}'' に接続できません。</entry>
+    <entry key="MatlabProcessNotCreated">MATLAB プロセスを作成できません。</entry>
+    <entry key="MatlabCommandNotEvaluated">MATLAB コマンドを実行できません。</entry>
+    <entry key="InterruptedException">MATLAB コマンドの実行が中断されました。</entry>
+    <entry key="CancelledException">MATLAB コマンドはキャンセルされました。</entry>
+    <entry key="TimeoutException">MATLAB コマンドの実行がタイムアウトしました。</entry>
+    <entry key="ProcessSessionNotTerminated">MATLAB プロセスのセッションを終了できません。</entry>
+    <entry key="MatlabProcessNotTerminated">MATLAB プロセスを終了できません。</entry>
+    <entry key="MatlabProcessNotExist">MATLAB プロセスが存在しません。</entry>
+    <entry key="FutureResultNotExist">今後の結果が存在しません。</entry>
+    <entry key="StringInput">MATLAB セッションの名前は、有効な MATLAB 変数名でなければなりません。</entry>
+    <entry key="SharingFailed">現在の MATLAB プロセスを共有できませんでした。</entry>
+    <entry key="SessionNameConflict">MATLAB セッション ''{0}'' は既に存在します。現在の MATLAB セッションは、既定の名前 ''{1}'' で共有されています。</entry>
+    <entry key="SessionSharedAlready">現在の MATLAB セッションは既に共有されています。セッションを別の名前で共有するには、MATLAB セッションを新規に起動してから、共有する際に名前を指定します。</entry>
+    <entry key="MatlabExecutionError">{0}</entry>
+    <entry key="MatlabSyntaxError">{0}</entry>
+  </message>
+</rsccat>

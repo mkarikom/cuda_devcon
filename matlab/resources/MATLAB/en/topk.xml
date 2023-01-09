@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>	
+	<entry key="complexIntegers">Complex integers are not supported. </entry>
+    <entry key="MustNotBeCell">Cell arrays are not supported.</entry>
+	<entry key="InvalidK">Number of elements to return must be a nonnegative integer.</entry>
+    <entry key="notPosInt">Dimension argument must be a positive integer.</entry>
+    <entry key="InvalidAbsRealType">''ComparisonMethod'' parameter only supported when input array is numeric or logical.</entry>
+    <entry key="InvalidComparison">''ComparisonMethod'' value must be ''auto'', ''abs'', or ''real''.</entry>
+    <entry key="NameValueNames">Parameter name must be 'ComparisonMethod'.</entry>
+    <entry key="NameValuePairs">Incorrect number of input arguments. Parameter names and values must occur in pairs.</entry>
+  </message>
+</rsccat>

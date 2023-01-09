@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadVertexID">
+该图中不存在 ID 为 {0,number,integer} 的顶点；该顶点可能已被删除。
+ </entry>
+    <entry key="OrphanVertex">
+此顶点所属的图不再存在。
+ </entry>
+    <entry key="OrphanEdge">
+此边所属的图不再存在。
+ </entry>
+    <entry key="NoVertexData">
+顶点不包含数据。
+ </entry>
+    <entry key="NoEdgeData">
+边不包含数据。
+ </entry>
+    <entry key="BadEdgeTarget">
+边无效。目标顶点不存在。
+ </entry>
+    <entry key="BadEdgeSource">
+边无效。源顶点不存在。
+ </entry>
+    <entry key="InvalidEdge">
+该图中没有从顶点 ID {0,number,integer} 到顶点 ID {1,number,integer} 的边。
+ </entry>
+    <entry key="BadVertexDescriptor">
+该图中不存在描述符为 {0,number,integer} 的顶点；该顶点可能已被删除。
+ </entry>
+    <entry key="VertexIDOutOfRange">
+顶点 ID {0,number,integer} 超出范围。有效范围: {1,number,integer} 到 {2,number,integer}。
+ </entry>
+    <entry key="RemoveEmptyVertex">
+无法从图中删除空顶点。使用 Graph.vertex() 可获取有效的 Vertex 对象或提供有效的顶点 ID。
+ </entry>
+    <entry key="RemoveEmptyEdge">
+无法从图中删除空边。使用 Graph.edge() 可获取有效的 Vertex 对象或提供有效的源顶点 ID 和目标顶点 ID。
+ </entry>
+    <entry key="BadVertexIDSize">
+顶点标识符的大小异常: {0,number,integer} 个字节。请指定有效的字节数: {1}。
+ </entry>
+    <entry key="EmptyVertexID">
+顶点 ID 不能为空。请使用 double 或 int32 等数值类型。
+ </entry>
+    <entry key="BadVertexIDType">
+无法根据 {0} 类型的数据创建顶点 ID。请使用 double 或 int32 等数值类型。
+ </entry>
+    <entry key="BadEdgeVertex">
+顶点 {0,number,integer} 和 {1,number,integer} 之间可能不存在边，因为其中一个顶点为无效顶点。有效的顶点 ID 范围: {2,number,integer} 至 {3,number,integer}。
+ </entry>
+    <entry key="PropertyCountWrong">
+属性的数目错误。实际数目为 {0,number,integer}。需要的数目为 {1,number,integer} 或 1。
+ </entry>
+    <entry key="ValueCountWrong">
+值的数目错误。实际数目为 {0,number,integer}。需要的数目为 {1,number,integer} 或 1。
+ </entry>
+    <entry key="EmptyGraph">
+图为空。请添加顶点和边。
+ </entry>
+    <entry key="DullGraph">
+该图没有从顶点 {0,number,integer} 到顶点 {1,number,integer} 的边。请先调用图的 add_edge 函数以添加此边，然后再尝试引用该边。
+ </entry>
+    <entry key="ArgMustBeScalar">
+参数 {0,number,integer} 必须为标量。它是 {1,number,integer} 维数组。
+ </entry>
+    <entry key="ArgMustBeNumeric">
+参数 {0,number,integer} 必须为数值。但发现 {1}。
+ </entry>
+    <entry key="SearchEventRequired">
+请指定遍历事件。可能的值包括 'DiscoverVertex' (首次访问顶点时)和 'BackEdge' (检测到循环时) -- 请参阅相关文档以了解完整列表。有关当前提供了数据的事件的列表，请参阅此访问者的 ActiveEvents 属性。
+ </entry>
+    <entry key="SearchEventMustBeChar">
+对于遍历事件的名称，需要字符向量。提供了 {0} 类型的对象。
+ </entry>
+    <entry key="PartPropertyMustBeChar">
+对于部件属性的名称，需要字符向量。提供了 {0} 类型的对象。
+ </entry>
+    <entry key="PartPropertyMustBeVector">
+对于部件属性的名称，需要 1×N 或 N×1 字符(字符向量)。提供了 {0,number,integer} 维数组，其中前两维是 {1,number,integer}x{2,number,integer}。
+ </entry>
+    <entry key="InvalidPartReferant">
+{0} 类型的数据不能用于标识图顶点或边。按 ID、Vertex 或 Edge 对象或者按其关联的用户数据指定图顶点和边。 
+ </entry>
+    <entry key="PartIdMustBeNumeric">
+Edge 和 Vertex 标识符必须为数值。提供了 {0} 类型的数据。
+ </entry>
+    <entry key="PartIdMustBeNumericOrChar">
+部件设定符必须为数值数组(顶点为 M×1 或边为 M×2)或字符向量('Edge' 或 'Vertex')。提供了 {0} 类型的对象。
+ </entry>
+    <entry key="PartIdMustBeMatrix">
+部件 ID 列表必须为矩阵(VertexID 为 Mx1 或 EdgeID 为 Mx2)。提供了 {0,number,integer} 数组，其中前两维是 {1,number,integer}x{2,number,integer}。
+ </entry>
+    <entry key="InvalidPropertyName">
+属性名称必须为 'value' 或 'data'。您指定了 {0}。
+ </entry>
+    <entry key="PartTypeMustBeChar">
+对于部件类型的名称，需要字符向量。提供了 {0} 类型的对象。
+ </entry>
+    <entry key="InternalNullPredicate">
+内部错误: 顶点或边谓词意外为空值。操作已取消。
+ </entry>
+    <entry key="PredicateMustBeFcn">
+Predicate 参数必须为返回布尔值的函数。提供了 {0} 类型的对象。
+ </entry>
+    <entry key="PredicateArgSizeMismatch">
+Predicate 函数需要 {0,number,integer} 个输入，但部件仅提供了 {1,number,integer} 个。请修改该谓词，使其最多具有 {2,number,integer} 个输入。
+ </entry>
+    <entry key="DataAlreadySet">
+参数列表中的 MATLAB 结构体数组太多。参数列表最多可以包含一个 MATLAB 个结构体数组，该数组将用于设置用户数据。参数 {0,number,integer} 不能是结构体数组 -- 请删除该数组或更改其类型。
+ </entry>
+    <entry key="ValueAlreadySet">
+参数列表中的 MATLAB 双精度数组太多。参数列表最多可以包含一个 MATLAB 双精度数组，该数组将用于设置值。参数 {0,number,integer} 不能是双精度数组 -- 请删除该数组或更改其类型。
+ </entry>
+    <entry key="FindIfSearchDataAlreadySet">
+参数类型不匹配: 输入编号 {0,number,integer} 为元胞数组，但已设置 findIf 搜索数据。只能有一个 findIf 输入可以为元胞数组。
+ </entry>
+    <entry key="FindIfPartAlreadySet">
+参数类型不匹配: 第 {0,number,integer} 个输入为字符向量，但已设置 findIf 部件类型。只能有一个 findIf 输入可以为字符向量，并且必须指定 'edge' 或 'vertex'。
+ </entry>
+    <entry key="FindIfCountMustBeScalar">
+参数类型不匹配: 输入编号 {0,number,integer} 为数值，但不是标量(它包含 {1,number,integer} 个元素)。只能有一个 findIf 输入可以为数值，并且必须为标量: 可返回的最大部件数。
+ </entry>
+    <entry key="FindIfCountAlreadySet">
+参数类型不匹配: 输入编号 {0,number,integer} 为数值，但已设置 findIf 返回计数。只能有一个 findIf 输入可以为数值，并且必须指定可返回的最大部件数。
+ </entry>
+    <entry key="FindIfCountOutOfBounds">
+要查找的部件数必须介于 {0,number,integer} 和 {1,number,integer} 之间。请求的数量为 {2,number,integer}。
+ </entry>
+    <entry key="InvalidPartType">
+图的部件类型必须为 'vertex' 或 'edge'。您指定了 "{0}"。
+ </entry>
+    <entry key="SourceAndTargetSizeMismatch">
+起始顶点列表和结束顶点列表可以为标量或向量(1xN 或 Mx1)。如果两个列表都不为标量，则必须包含完全相同的元素数。请注意，两个列表的元素数不同。length(start):{0,number,integer}。length(finish):{1,number,integer}。
+ </entry>
+    <entry key="ValueAndDataSizeMismatch">
+值数组和数据数组可以为标量或向量(1xN 或 Mx1)。如果两个数组都不为标量，则大小必须完全相同。但实际并非如此。length(values):{0,number,integer}。length(data):{1,number,integer}。
+ </entry>
+    <entry key="DataMustBeStructVector">
+对于新顶点的用户数据，需要 1xN 或 Nx1 结构体数组。提供了 {1} 类型的 {0,number,integer} 维数组，其中前两维是 {2,number,integer}x{3,number,integer}。
+ </entry>
+    <entry key="ValuesMustBeDoubleVector">
+对于新顶点的值，需要 1xN 或 Nx1 双精度向量。提供了 {1} 类型的 {0,number,integer} 维数组，其中前两维是 {2,number,integer}x{3,number,integer}。
+ </entry>
+    <entry key="PartTypeMustBeVector">
+对于名称部件类型，需要 1×N 或 N×1 字符(字符向量)。提供了 {0,number,integer} 维数组，其中前两维是 {1,number,integer}x{2,number,integer}。
+ </entry>
+    <entry key="SearchEventMustBeVector">
+对于遍历事件的名称，需要 1×N 或 N×1 字符向量。提供了 {0,number,integer} 维数组，其中前两维是 {1,number,integer}x{2,number,integer}。
+ </entry>
+    <entry key="NumericMustBeNumeric">
+需要数值。提供了 {0} 类型的对象。
+ </entry>
+    <entry key="LogicalMustBeLogical">
+需要逻辑值(布尔值)。提供了 {0} 类型的对象。
+ </entry>
+    <entry key="LogicalMustBeScalar">
+需要标量逻辑值(布尔值)。提供了包含 {0,number,integer} 个元素的数组。
+ </entry>
+    <entry key="NumericMustBeScalar">
+需要标量数值。提供了包含 {0,number,integer} 个元素的数值数组。
+ </entry>
+    <entry key="StringMustBeString">
+需要字符向量。提供了 {0} 类型的对象。
+ </entry>
+    <entry key="StringMustBeVector">
+需要 1×N 或 N×1 字符向量。提供了 {0,number,integer} 维数组，其中前两维是 {1,number,integer}x{2,number,integer}。
+ </entry>
+    <entry key="ArgMustBeStruct">
+参数 {0,number,integer} 必须为结构体。
+ </entry>
+    <entry key="UnexpectedArgType">
+{1} 的参数 {0,number,integer} 必须为 {2}。提供了 {3}。
+ </entry>
+    <entry key="InvalidArgType">
+参数 {0,number,integer} 的类型不匹配。此函数不接受 {1} 类型的参数。
+ </entry>
+    <entry key="ArgMustBeStructOrNumeric">
+参数 {0,number,integer}: 提供一个结构体数组，以指定用于设置值的数据或双精度数组。错误的类型: {1}。
+ </entry>
+    <entry key="InvalidVisitEvent">
+没有为 {1} 图遍历提供此类事件 {0}。请指定有效的事件。
+ </entry>
+    <entry key="VisitorRequiresGraph">
+如果将要发送 {0} 以访问图，则需要指定该图。请调用带以下两个参数的 visit(): 访问者对象和图。例如: values = visit(visitor, graph)。
+ </entry>
+    <entry key="VerticesRequireVisit">
+在发送访问者以访问图之前，无法询问访问者其已访问的顶点。此 {0} 从未访问一个图。如果有图 g 和访问者 v，请调用 visit(v, g) 以发起图遍历。
+ </entry>
+    <entry key="ValuesRequireVisit">
+在发送访问者以访问图之前，无法询问访问者在图遍历期间收集的值。此 {0} 从未访问一个图。如果有图 g 和访问者 v，请调用 visit(v, g) 以发起图遍历。
+ </entry>
+    <entry key="VisitorRequiresCallbackStruct">
+创建 {0} 访问者后，可以指定一个回调数组，访问者将在图遍历期间调用该数组预先确定的次数。回调数组必须为包含以下三个字段的结构体: 'event'、'callback' 和 'state'。只有 'state' 可以为空。
+ </entry>
+    <entry key="WrongNumberFcnArgs">
+函数 {0} 需要 {1} 个参数。提供了 {2,number,integer} 个。
+ </entry>
+    <entry key="WrongNumberExeArgs">
+程序 {0} 需要 {1,number,integer} 个参数。提供了 {2,number,integer} 个。
+ </entry>
+    <entry key="WrongNumberConstructorArgs">
+{0} 的构造函数需要 {1} 个参数。提供了 {2,number,integer} 个。
+ </entry>
+    <entry key="NoDirection">
+无法从 {0} 的输入确定图边方向(定向或非定向)。为定向图指定('directed', true)，为非定向图指定('directed', false)。
+ </entry>
+    <entry key="BadInputs">
+{0} 的输入参数列表无效。
+ </entry>
+    <entry key="NotANumericType">
+您为需要数值类型的运算提供了 {0} 类型的数据。
+ </entry>
+    <entry key="MissingVertexEdgeData">
+调用带 {1,number,integer} 个参数的 {0} 时，必须指定顶点数目或一个边向量。顶点数目和边向量都不能存在于参数列表中。
+ </entry>
+    <entry key="MissingUserData">
+调用带 {1,number,integer} 个参数的 {0} 时，其中一个参数必须为指定用户数据的 MATLAB 结构体。该参数列表不包含任何 MATLAB 结构体。
+ </entry>
+    <entry key="MissingCallbackState">
+图 {0} 访问者回调必须返回 state 参数以便保留状态更改。回调的格式应为: [value, state] = @(part, graph, state)。(部件为顶点或边，具体取决于回调的类型。)
+ </entry>
+    <entry key="NoCallbackData">
+未为 {0} 图遍历回调 {1} 提供任何数据。是否可能未为此事件指定回调?
+ </entry>
+    <entry key="GraphTooBigForTC">
+内存不足，无法计算包含 {1,number,integer} 个顶点和 {2,number,integer} 条边的图的 {0,number,integer} 块传递闭包。请尝试将该图拆分为更多块。
+ </entry>
+    <entry key="CannotGrowResult">
+用于将结果向量增加到 {0,number,integer} 个元素的内存不足。操作已取消。
+ </entry>
+    <entry key="CannotCreateGraphData">
+内存不足，无法为包含 {0,number,integer} 个顶点和 {1,number,integer} 条边的图创建图数据数组。{2} 操作已取消。       
+ </entry>
+    <entry key="CannotCreateVertexData">
+用于为 {0,number,integer} 个顶点创建数据数组的内存不足。处理顶点 #{1,number,integer}、字段 {2} 失败。
+ </entry>
+    <entry key="CannotCreateEdgeData">
+用于为 {0,number,integer} 个边创建数据数组的内存不足。处理边 #{1,number,integer}、字段 {2} 失败。
+ </entry>
+    <entry key="EdgeTooLarge">
+{0,number,integer} 字节的边大小太大，无法装入内存({1,number,integer} 字节)。请选择一个较小的大小。通常，边的大小为 64 或 128 字节(即两个顶点的大小)。
+ </entry>
+    <entry key="FailedToRetrieveSerializeData">
+无法检索 {0} 数据。无法串行化(保存)图。
+ </entry>
+    <entry key="VertexInitRequiresEmptyGraph">
+只能设置一个空图的顶点数据。此图已包含 {0,number,integer} 个顶点。
+ </entry>
+    <entry key="InitDataEmpty">
+由于输入结构体为空或 NULL，无法初始化 {0} 数据。
+ </entry>
+    <entry key="InitDataMustBeStruct">
+{0} 初始化数据必须为 MATLAB 结构体。提供了 {1}。
+ </entry>
+    <entry key="InitDataMissingField">
+无法初始化 {0} 数据。输入结构体缺少必需字段: {1}。
+ </entry>
+    <entry key="InitMatrixWrongDims">
+无法初始化图的 {0} 数据。{1} 矩阵具有错误的维数。需要的维数为 {2,number,integer}，但找到的维数为 {3,number,integer}。
+ </entry>
+    <entry key="InitMatrixWrongShape">
+无法初始化图的 {0} 数据。{1} 矩阵为错误形状。需要 {2}x{3}，但找到 {4,number,integer}x{5,number,integer}。
+ </entry>
+    <entry key="InitDataWrongSize">
+无法初始化图的 {0} 数据。{1} 列表为错误大小。需要 {2,number,integer} 个元素，但找到 {3,number,integer} 个。
+ </entry>
+    <entry key="NoSuchStructField">
+尝试引用不存在的结构体字段 ''{0}''。
+ </entry>
+    <entry key="InitDataBadStructure">
+无法初始化图的 {0} 数据。输入结构体必须具有 {1,number,integer} 个字段。给定的结构体具有 {2,number,integer} 个字段。
+ </entry>
+    <entry key="EdgeInitRequiresUnconnectedGraph">
+只能设置一个未连接图的边数据。此图已包含 {0,number,integer} 个边。
+ </entry>
+    <entry key="EdgeInitRequiresVertices">
+无法设置具有零个顶点的图的边数据。请在添加边数据之前先添加顶点(可通过调用 setVertexData 实现)。
+ </entry>
+    <entry key="FieldTypeWrong">
+{0} 结构体的 {1} 字段具有错误类型。需要: {2}。找到: {4,number,integer} {3}{5}。
+ </entry>
+    <entry key="UndirectedTopoSort">
+非定向图不能以拓扑方式进行排序。
+ </entry>
+    <entry key="InternalZeroEdgesToRead">
+内部错误: 要从图的边列表文件 {0} 中读取的边数为零。应避免出现无限循环。缓冲区大小: {1,number,integer}，边的字节数: {2,number,integer}，剩余的边数: {3,number,integer}。
+ </entry>
+    <entry key="InternalBadFcnName">
+内部错误: 无法从函数名称 {0} 创建函数句柄。
+ </entry>
+    <entry key="InternalPairTypeMismatch">
+内部错误: 试图从不同类型的项目创建对组。这将会始终失败，并且是不允许的。
+ </entry>
+    <entry key="InternalBadScalarIteratorType">
+内部错误: 该标量数组读取器无法处理 {0} 类型的数组。
+ </entry>
+    <entry key="InternalBadIteratorType">
+内部错误: 试图从数组类型 {1} 创建具有 C++ 值类型 {0} 的迭代函数。这些类型不兼容。
+ </entry>
+    <entry key="InternalNoCallback">
+内部错误: 图访问者回调函数为空。
+ </entry>
+    <entry key="InternalBadListenerType">
+内部错误: 由于构造函数收到错误类型的侦听器对象，无法创建图遍历函数。
+ </entry>
+    <entry key="InternalBadVisitorValueSize">
+内部错误: 图访问者值元胞数组的大小错误。需要 {0,number,integer} 个元素，但找到 {1,number,integer} 个。
+ </entry>
+    <entry key="InternalBadVertexListSize">
+内部错误: 顶点列表的大小错误。需要 {0,number,integer} 个元素，但找到 {1,number,integer} 个。
+ </entry>
+    <entry key="InternalPartitionBreach">
+内部错误: 出现连通分量完整性故障。分量 {1,number,integer} 中的边的源顶点 {0,number,integer} 连接到分量 {3,number,integer} 中的目标顶点 {2,number,integer}。边不应跨越连通分量边界。
+ </entry>
+    <entry key="InternalUnmappedVertex">
+内部错误: 应在 {1} 顶点图中找到顶点 {0,number,integer}。
+ </entry>
+    <entry key="InternalBadEdgeListSize">
+内部错误: 边列表的大小错误。需要 {0,number,integer} 个元素，但找到 {1,number,integer} 个。
+ </entry>
+    <entry key="InternalBadEventNameSize">
+内部错误: 事件名称数组的大小不正确。需要 {0,number,integer} 个元素，但找到 {1,number,integer} 个。
+ </entry>
+    <entry key="InternalNullPtr">
+内部错误: 意外的空指针。函数: {0}。变量: {1}。
+ </entry>
+    <entry key="InternalNoFactoryFcn">
+内部错误: Factory 无法从 {1} 和 {2} 创建 {0}。是否可能我们已用完位数?
+ </entry>
+    <entry key="InternalEmptyProduct2">
+内部错误: 负责从 {1} 和 {2} 创建 {0} 的 Factory 函数未创建任何内容。 
+ </entry>
+    <entry key="InternalBadVertexID">
+内部错误: 意外的顶点 ID: {0,number,integer}。需要的 ID: {1,number,integer}。
+ </entry>
+    <entry key="InternalNoFields">
+内部错误: 试图引用非结构体数组中的字段。输入数组的类型: {0}。
+ </entry>
+    <entry key="CannotOpenFile">
+无法打开文件 "{0}"。请确认该文件存在而且您有权读取该文件。原因: {1}。
+ </entry>
+    <entry key="CannotCreateFile">
+无法创建文件 "{0}"。请确认路径中的所有文件夹都存在，您在指定目录中也拥有写入权限，而且在有该文件的情况下可以将其覆盖。原因: {1}。
+ </entry>
+    <entry key="CannotWriteFile">
+无法写入文件 "{0}"。请确认该文件存在，您也有权写入该文件，而且磁盘未满。原因: {1}。
+ </entry>
+    <entry key="CannotCloseFile">
+无法关闭文件 "{0}"。请确认该文件存在，您也有权写入该文件，而且磁盘未满。原因: {1}。
+ </entry>
+    <entry key="CannotReadFileNBytes">
+从文件 "{1}" 读取 {0,number,integer} 个字节时出错。已读取 {2,number,integer} 个字节。请确认该文件存在而且您有权读取该文件。原因: {3}。
+ </entry>
+    <entry key="CannotWriteFileNBytes">
+将 {0,number,integer} 个字节写入文件 "{1}" 时出错。已写入 {2,number,integer} 个字节。请确认该文件存在而且您有权写入该文件。原因: {3}。
+ </entry>
+    <entry key="CannotReadFile">
+无法从文件 "{0}" 读取。请确认该文件存在而且您有权读取该文件。原因: {1}。
+ </entry>
+  </message>
+</rsccat>

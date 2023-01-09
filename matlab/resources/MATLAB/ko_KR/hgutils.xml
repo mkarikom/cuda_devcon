@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidClassName">{0}은(는) 유효하지 않은 클래스 이름임</entry>
+    <entry key="BadObject">핸들이 제거되었거나 존재하지 않음</entry>
+    <entry key="BadPropName">{1} 클래스에서 속성 {0}을(를) 찾을 수 없음</entry>
+    <entry key="InvalidPackage">{0} 패키지를 찾을 수 없음</entry>
+    <entry key="InvalidClass">{1} 패키지에서 {0} 클래스를 찾을 수 없음</entry>
+    <entry key="InvalidProperty">{1} 클래스에서 {0} 속성을 찾을 수 없음</entry>
+    <entry key="MissingParentProp">오류: {0} 클래스에 해당 Parent 속성이 없음</entry>
+    <entry key="MissingConversion">변환을 찾을 수 없음</entry>
+    <entry key="NoMethodFound">{1} 클래스에서 메서드 {0}을(를) 찾을 수 없음</entry>
+    <entry key="MethodStatic">{0} 클래스에 ''{1}'' 이름의 정적이 아닌 메서드가 없습니다.</entry>
+    <entry key="MethodNotStatic">{0} 클래스에 ''{1}'' 이름의 정적 메서드가 없습니다.</entry>
+    <entry key="BadMethodSignatureInvalidNumberOfInputs">시그니처에 대한 입력값 개수가 잘못되었습니다.</entry>
+    <entry key="BadMethodSignatureNull">시그니처가 NULL입니다.</entry>
+    <entry key="InvalidContextMenu">핸들은 uicontextmenu여야 합니다.</entry>
+    <entry key="CannotSetFactoryValue">공장 초기값 속성은 설정할 수 없고 쿼리만 할 수 있습니다.</entry>
+    <entry key="OnlyRootHasFactoryDefaults">공장 초기값 속성은 루트 객체에서만 쿼리할 수 있습니다.</entry>
+    <entry key="ScalarDisplayMustBeScalar">{0}에 대한 입력 파라미터는 스칼라여야 합니다.</entry>
+    <entry key="NonScalarDisplayMustBeNonScalar">{0}에 대한 입력 파라미터는 유효한 비 스칼라 배열이어야 합니다.</entry>
+    <entry key="EmptyDisplayMustBeEmpty">{0}에 대한 입력 파라미터는 빈 배열이어야 합니다.</entry>
+    <entry key="DeletedObjectInDisplay">메서드 {0}은(는) 유효한 객체와만 호출할 수 있습니다.</entry>
+    <entry key="InvalidDescriptiveLabel">{0} 클래스의 설명 레이블은 문자형 벡터, string형 배열 또는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- Copyright 2017-2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <!-- Table only messages -->
+        <entry key="GroupVariablesTableSubscript">Invalid grouping variables.</entry>
+        <entry key="GroupVariablesFunctionHandle">Grouping variables function handle must return a logical scalar.</entry>
+        <!-- Matrix only messages -->
+        <entry key="FirstInputSize">First argument must be a vector, matrix, cell array containing column vectors, table, or timetable.</entry>
+        <!-- Common messages -->
+        <entry key="GroupBinsEmpty">Invalid binning scheme.</entry>
+        <entry key="GroupBinsVarsDiffSize">Specify one binning scheme or as many binning schemes as there are grouping variables.</entry>
+        <entry key="GroupBinsNoGroupVars">Binning scheme is not supported when grouping variable is empty.</entry>
+        <entry key="GroupBinsError">Unable to apply binning method ''{0}'' to grouping variable ''{1}''.</entry>
+        <entry key="GroupBinsScalarExpand">Unable to apply binning method to all grouping variables. Use a cell array to specify a binning method for each grouping variable, with 'none' to indicate no binning.</entry>
+        <entry key="ParseFlags">Parameter name must be ''IncludeMissingGroups'', ''IncludeEmptyGroups'', or ''IncludedEdge''.</entry>
+        <entry key="KeyWithoutValue">Incorrect number of input arguments. Parameter names and values must occur in pairs.</entry>
+        <entry key="IncludedEdgeNoGroupBins">''IncludedEdge'' is only supported when binning scheme is specified.</entry>
+    </message>
+</rsccat>

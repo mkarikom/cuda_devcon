@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" decorate_cxx_names="true">
+  <message>
+    <entry key="Expected3ElementVector">Value must be a 3 element numeric vector</entry>
+    <entry key="ValueOutsideRange">Alpha value must be between 0.0 and 1.0</entry>
+    <entry key="Expected4ElementVector">Value must be a 4 element vector</entry>
+    <entry key="ExpectedSingleLineString" note="stringDatatypeUpdate">Value must be a single-line character vector</entry>
+    <entry key="StringSizeOutsideRange" note="stringDatatypeUpdate">Character vector value must either be a single character or ''''</entry>
+    <entry key="ExpectedNonEmptyString" note="stringDatatypeUpdate">Character vector value must not be empty</entry>
+    <entry key="ExpectedIntegerValueString" note="stringDatatypeUpdate">Character vector value must be an integer</entry>
+    <entry key="ExpectedScalar">Value must be scalar</entry>
+    <entry key="DimensionsOutsideRange">Width and height must be greater than or equal to 0</entry>
+    <entry key="ValueMustBeNonNegative">Values must be &gt;= 0</entry>
+    <entry key="ExpectedFinitePositive">Value must be finite and greater than zero</entry>
+    <entry key="ExpectedFiniteNonNegative">Value must be finite and greater than or equal to zero</entry>
+    <entry key="ExpectedBetween0And1">Value must be between zero and one inclusive</entry>
+    <entry key="ExpectedDoubleOrFloat">Value must be double or float</entry>
+    <entry key="ExpectedNumeric">Value must be numeric</entry>
+    <entry key="ExpectedMonotonicallyIncreasing">Values must be monotonically increasing</entry>
+    <entry key="SettingColorSpecToNoneWillNotBeAllowed">"Setting the ColorSpec to 'none' for a {0} will not be allowed in a future release."</entry>
+  </message>
+</rsccat>

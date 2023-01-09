@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2013-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="TypeMismatch">Unable to concatenate a {0} array and a categorical array.</entry>
+    <entry key="TypeMismatchCell" note="stringDatatypeUpdate">Unable to concatenate cell array and a categorical array unless the cell array contains only character vectors.</entry>
+    <entry key="NonNumericDim">Dimension argument must be numeric.</entry>
+  </message>
+</rsccat>

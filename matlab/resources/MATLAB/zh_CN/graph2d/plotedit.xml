@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidPlotEditState">plotedit 命令的状态无效。</entry>
+    <entry key="InvalidInputForOutArg">未随这些输入参数一起指定一个输出参数。</entry>
+  </message>
+</rsccat>

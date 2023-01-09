@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnexpectedError">OS 调用 ''putenv'' 意外失败。</entry>
+    <entry key="IllegalNameTooLong">SETENV 的 ''name'' 参数的长度不能超过 32766 个字符。</entry>
+    <entry key="IllegalValueTooLong">SETENV 的 ''value'' 参数的长度不能超过 32766 个字符。</entry>
+    <entry key="IllegalNameInvalidCharacter">SETENV 的 ''name'' 参数不能包含 ''='' 字符。</entry>
+  </message>
+</rsccat>

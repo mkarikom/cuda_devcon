@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownOption">未知的命令选项 {0}</entry>
+    <entry key="IndexesMustBeOneBased">索引必须是从 1 开始的 MATLAB 索引(而不是从 0 开始)</entry>
+    <entry key="TargeValueMustBeAString">TargetValue 必须为字符向量</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidReductionSize">Reduction must be [xmin xmax ymin ymax zmin zmax]</entry>
+    <entry key="InvalidReductionXRange">In reduction vector, xmax must be greater than or equal to xmin</entry>
+    <entry key="InvalidReductionYRange">In reduction vector, ymax must be greater than or equal to ymin</entry>
+    <entry key="InvalidRedutionZRange">In reduction vector, zmax must be greater than or equal to zmin</entry>
+    <entry key="WrongNumberOfInputs">Wrong number of input arguments.</entry>
+  </message>
+</rsccat>

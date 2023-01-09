@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AvailableGenerators">以下の乱数発生アルゴリズムが利用可能です。</entry>
+    <entry key="dsfmt19937Description">メルセンヌ素数 2^19937-1 を使用した SIMD 指向高速メルセンヌ・ツイスター</entry>
+    <entry key="mcg16807Description">乗算合同法発生器、乗数 7^5、モジュロ 2^31-1</entry>
+    <entry key="mlfg6331_64Description">乗法ラグ フィボナッチ発生器、63 および 31 のラグ、64 ビット (パラレル ストリームをサポート)</entry>
+    <entry key="mrg32k3aDescription">複数の再帰発生器の組み合わせ (パラレル ストリームをサポート)</entry>
+    <entry key="mt19937arDescription">メルセンヌ素数 2^19937-1 をもつメルセンヌ・ツイスター</entry>
+    <entry key="philox4x32_10Description">Philox 4x32 発生器、丸め 10 (パラレル ストリームをサポート)</entry>
+    <entry key="shr3congDescription">CONG 線形合同法発生器で合計される SHR3 シフトレジスタ発生器</entry>
+    <entry key="swb2712Description">修正桁下げ付き減算発生器、ラグ 27 および 12</entry>
+    <entry key="threefry4x64_20Description">Threefry 4x64 発生器、丸め 20 (パラレル ストリームをサポート)</entry>
+  </message>
+</rsccat>

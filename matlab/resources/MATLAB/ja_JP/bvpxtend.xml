@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">入力引数が不足しています。BVPXTEND を参照してください。</entry>
+    <entry key="XnewInsideInterval">XNEW は前の積分区間内にあります。</entry>
+    <entry key="UnexpectedExtrapolationMethod">予期せぬ外挿法 {0} が指定されました。</entry>
+    <entry key="YnewIncorrectType">YNEW は数値ベクトル、string または文字ベクトルでなければなりません。</entry>
+    <entry key="UnrecognizedSolverInSol">ソルバー {0} で作成した solution を拡張できません。</entry>
+    <entry key="NoSolverInSol">ソルバー情報は、solution の構造体に設定されていません。外挿フラグを使用できません:''{0}''。</entry>
+  </message>
+</rsccat>

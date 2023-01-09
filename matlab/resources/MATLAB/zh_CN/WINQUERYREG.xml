@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidarg">参数必须为有效的字符向量或字符串标量。</entry>
+    <entry key="invalidnumargMsg1">需要两个参数。</entry>
+    <entry key="invalidnumargMsg2">'name' 后需要两个参数。</entry>
+    <entry key="invalidkey">指定的键无效。</entry>
+    <entry key="stringerror">无法展开环境变量。</entry>
+    <entry key="queryerrorMsg1">无法查询 REG_BINARY 类型的值。</entry>
+    <entry key="queryerrorMsg2">无法查询 REG_BIG_ENDIAN 类型的值。</entry>
+    <entry key="queryerrorMsg3">无法查询 REG_LINK 类型的值。</entry>
+    <entry key="queryerrorMsg4">无法查询 REG_MULTI_SZ 类型的值。</entry>
+    <entry key="queryerrorMsg5">无法查询 REG_NONE 类型的值。</entry>
+    <entry key="queryerrorMsg6">无法查询 REG_RESOURCE_LIST 类型的值。</entry>
+    <entry key="queryerrorMsg7">无法查询未知类型的值。</entry>
+    <entry key="invalidnumarg">{0}</entry>
+    <entry key="queryerror">{0}</entry>
+  </message>
+</rsccat>

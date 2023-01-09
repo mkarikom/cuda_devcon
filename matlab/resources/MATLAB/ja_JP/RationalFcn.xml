@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MissingPLogFileString">ログ ファイルに入れる文字ベクトルが与えられなければなりません</entry>
+    <entry key="MissingPCovSetFileName">ファイル名を与える必要があります</entry>
+    <entry key="MissingQSaveFileName">ファイル名を与える必要があります</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="workspaceFailed">작업 공간 브라우저를 열지 못함</entry>
+    <entry key="PassedInWorkspaceDoesNotMatchExistingWorkspace">전달된 작업 공간이 기존 작업 공간과 일치하지 않습니다. 기존 작업 공간 브라우저를 반환합니다.</entry>
+    <entry key="ErrorUpdatingPrivateWorkspaceVariableList">프라이빗 작업 공간 변수 목록을 업데이트하는 중 오류가 발생했습니다. \n{0}\n</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadResidual">检测到较大的残差范数。这可能是因为输入矩阵为病态矩阵。</entry>
+    <entry key="NotAllEigsConverged">{0,number,integer} 个(共 {1,number,integer} 个)请求的特征值已收敛。未收敛的特征值为 NaN。</entry>
+    <entry key="NotAllEigsConvKeep">{0,number,integer} 个(共 {1,number,integer} 个)请求的特征值已收敛。请指定收敛标志输出以确定未收敛的值。</entry>
+    <entry key="NotAllEigsConvDrop">{0,number,integer} 个(共 {1,number,integer} 个)请求的特征值已收敛。未收敛的特征值已删除。</entry>
+    <entry key="AmbiguousSyntax">具有多义性的语法: 第一个和第二个参数均为标量。\n 请使用 EIGS(A,[],K,SIGMA) 指定标准特征值问题，或使用 EIGS(A,B,K,SIGMA) 指定广义特征值问题。</entry>
+    <entry key="BnonDouble">数据类型无效。输入矩阵必须为双精度矩阵。</entry>
+    <entry key="BNotChol">options 结构体中的 cholB 字段已指定，但 B 不是上三角矩阵。</entry>
+    <entry key="BNotCholNV">已指定 ''IsCholesky''，但 B 不是上三角矩阵。</entry>
+    <entry key="BsizeMismatchA">对于广义问题，输入矩阵必须具有相同的大小。</entry>
+    <entry key="InvalidFhandleOutput">函数句柄的输出异常。预期的输出是一个长度为 {0} 且类型为双精度的列向量。</entry>
+    <entry key="InvalidOptsCholB">options 结构体中的 cholB 字段必须为逻辑标量。</entry>
+    <entry key="InvalidIsCholesky">''IsCholesky'' 值必须为逻辑标量。</entry>
+    <entry key="InvalidOptsIssym">options 结构体中的 issym 字段必须为逻辑标量。</entry>
+    <entry key="InvalidOptsIsreal">options 结构体中的 isreal 字段必须为逻辑标量。</entry>
+    <entry key="InvalidIsFunctionSymmetric">''IsFunctionSymmetric'' 值必须为逻辑标量。</entry>
+    <entry key="InvalidOptsFail">options 结构体中的 fail 字段必须为 ''replacenan''、''keep'' 或 ''drop''。</entry>
+    <entry key="InvalidFailureTreatment">''FailureTreatment'' 值必须为 ''replacenan''、''keep'' 或 ''drop''。</entry>
+    <entry key="InvalidOptsP">options 结构体中的 p 字段必须为小于或等于 n 的正整数。</entry>
+    <entry key="InvalidSubspaceDimension">''SubspaceDimension'' 值必须为小于或等于 n 的正整数。</entry>
+    <entry key="InvalidOptsSpdB">options 结构体中的 spdB 字段必须为逻辑标量。</entry>
+    <entry key="InvalidIsSymmetricDefinite">''IsSymmetricDefinite'' 值必须为逻辑标量。</entry>
+    <entry key="InvalidOptsPermB">options 结构体中的 permB 字段必须为 1:n 的置换。</entry>
+    <entry key="InvalidCholeskyPermutation">''CholeskyPermutation'' 值必须为 1:n 的置换。</entry>
+    <entry key="InvalidOptsTol">options 结构体中的 tol 字段必须为严格的正实数标量。</entry>
+    <entry key="InvalidTolerance">''Tolerance'' 值必须为严格的正实数标量。</entry>
+    <entry key="InvalidSigma">Sigma 可以为双精度标量或以下选项之一: ''largestabs''、''smallestabs''、''largestreal''、''smallestreal''、''bothendsreal''、''largestimag''、''smallestimag'' 或 ''bothendsimag''。</entry>
+    <entry key="InvalidSpdBwithCholB">当 options 结构体中的 cholB 字段的值为 true 时，spdB 字段的值也必须为 true。</entry>
+    <entry key="InvalidIsSymmetricDefiniteWithIsCholesky">当 ''IsCholesky'' 值为 true 时，''IsSymmetricDefinite'' 值也必须为 true。</entry>
+    <entry key="KeyWithoutValue">输入参数的数目不正确。每个参数名称必须后跟相应的值。</entry>
+    <entry key="MustHaveSecondInput">当第一个参数为某个函数句柄时，第二个参数必须为该函数句柄表示的矩阵的大小。</entry>
+    <entry key="NonDoubleOrFunction">第一个参数必须为双精度矩阵或函数。</entry>
+    <entry key="NonIntegerEigQty">请求的特征值数必须为非负整数。</entry>
+    <entry key="NonIntegerEigQtyDetail">请求的特征值数必须为非负整数。但显示的是 {0}。</entry>
+    <entry key="NonIntegerEigQtyStruct">请求的特征值数必须为非负整数。但显示的是结构体。</entry>
+    <entry key="NonPosIntSize">问题的大小 ''n'' 必须是正整数。</entry>
+    <entry key="NonSquareMatrixOrFunction">第一个参数必须为方阵或函数句柄。</entry>
+    <entry key="ParseFlags">参数名称必须为 ''IsFunctionSymmetric''、''Tolerance''、''MaxIterations''、''SubspaceDimension''、''StartVector''、''IsSymmetricDefinite''、''IsCholesky''、''CholeskyPermutation'' 或 ''FailureTreatment''。</entry>
+    <entry key="OptsMaxitNotPosInt">options 结构体中的 maxit 字段必须为正整数。</entry>
+    <entry key="MaxIterationsNotPosInt">''MaxIterations'' 值必须为正整数。</entry>
+    <entry key="spdBNotSymmetric">矩阵 B 不是对称矩阵。options 结构体中的 spdB 字段的值必须为 false。</entry>
+    <entry key="IsSymmetricDefiniteNotSymmetric">矩阵 B 不是对称矩阵。''IsSymmetricDefinite'' 值必须为 false。</entry>
+    <entry key="IsSymmetricDefiniteNotPD">矩阵 B 不是正定矩阵。''IsSymmetricDefinite'' 值必须为 false。</entry>
+    <entry key="OptsPtooSmall">options 结构体中的 p 字段必须大于 k+1。</entry>
+    <entry key="SubspaceDimensionTooSmall">''SubspaceDimension'' 值必须大于 k+1。</entry>
+    <entry key="OptsInvalidDisp">options 结构体中的 disp 字段必须为 0 或 1。</entry>
+    <entry key="InvalidDisplay">''Display'' 值必须为 0 或 1。</entry>
+    <entry key="TooManyInputs">输入参数太多。</entry>
+    <entry key="WrongSizeOptsV0">options 结构体中的 v0 字段必须为长度与问题大小匹配的双精度列向量。</entry>
+    <entry key="WrongSizeStartVector">''StartVector'' 值必须是长度为 n 的双精度列向量。</entry>
+    <entry key="IgnoredOptionIssym">将忽略 options 结构体中的 issym 字段，因为第一个输入不是函数句柄。</entry>
+    <entry key="IgnoredIsFunctionSymmetric">将忽略 ''IsFunctionSymmetric''，因为第一个输入不是函数句柄。</entry>
+    <entry key="IgnoredOptionPermB">将忽略 options 结构体中的 permB 字段，因为 B 不是其稀疏 Cholesky 因子。</entry>
+    <entry key="IgnoredCholeskyPermutation">将忽略 ''CholeskyPermutation''，因为 B 不是其稀疏 Cholesky 因子。</entry>
+    <entry key="AminusBSingular">按 sigma 移位的第一个输入矩阵是奇异矩阵，因此 sigma 是第一个输入矩阵的特征值。请考虑指定一个扰动后的 sigma 数值来改进矩阵的条件。</entry>
+    <entry key="SingularA">第一个输入矩阵为奇异矩阵。请考虑指定小的非零 sigma 数值而不是 ''smallestabs''，以改进矩阵的条件。</entry>
+    <entry key="SingularB">仅当 sigma 为 ''SM'' 或双精度标量时，才支持第二个输入为奇异矩阵。</entry>
+    <entry key="IllConditionedA">第一个输入矩阵接近奇异或者缩放错误(RCOND = {0})，因此结果可能不准确。请考虑指定小的非零 sigma 数值而不是 ''smallestabs''，以改进矩阵的条件。</entry>
+    <entry key="IllConditionedB">第二个输入矩阵 B 接近奇异，或者缩放错误。RCOND = {0}。结果可能不准确。</entry>
+    <entry key="SigmaNearExactEig">按 sigma 移位的第一个输入矩阵接近奇异或者缩放错误(RCOND = {0})，因此结果可能不准确。请考虑指定一个扰动后的 sigma 数值来改进矩阵的条件。</entry>
+    <entry key="InvalidStartingVector">无法对起始向量 v0 进行归一化。它可能为零或包含非有限值。</entry>
+    <entry key="InvalidStartingVectorBnorm">起始向量 v0 位于矩阵 B 的 null 空间。请选择其他起始向量。</entry>
+    <entry key="NoOrthogonalSubspace">无法生成正交子空间，因为问题是病态的。对于广义问题，B 的秩可能很小。</entry>
+    <entry key="VeryBadCondition">输入矩阵为病态矩阵。它可能包含 Inf 或 NaN 值。</entry>
+    <entry key="TitleSimple">简单的特征值问题 A*x = lambda*x</entry>
+    <entry key="TitleGeneralized">广义的特征值问题 A*x = lambda*B*x</entry>
+    <entry key="ProbSym">特征值问题为实数型对称问题。</entry>
+    <entry key="ProbNonSym">特征值问题为实数型非对称问题。</entry>
+    <entry key="ProbHerm">特征值问题为复数型 Hermitian 问题。</entry>
+    <entry key="ProbNonHerm">特征值问题为复数型非 Hermitian 问题。</entry>
+    <entry key="BSPD">矩阵 B 是对称正定(半正定)矩阵。</entry>
+    <entry key="BNonSPD">矩阵 B 不是对称正定(半正定)矩阵。</entry>
+    <entry key="BHPD">矩阵 B 是 Hermitian 正定(半正定)矩阵。</entry>
+    <entry key="BNonHPD">矩阵 B 不是 Hermitian 正定(半正定)矩阵。</entry>
+    <entry key="KandSigmaString">正在计算 ''{1}'' 类型的 {0} 个特征值。</entry>
+    <entry key="KandSigmaNum">正在计算最接近 {1} 的 {0} 个特征值。</entry>
+    <entry key="Afun">函数句柄 Afun 定义了 {0}×{1} 矩阵 A。该函数句柄返回 {2}。</entry>
+    <entry key="ListParam">参数已传递给 Krylov-Schur 方法:\n 最大迭代数: {0}\n 容差: {1}\n 子空间维度: {2}</entry>
+    <entry key="EigFallback">通过调用 EIG 来计算 EIGS，因为子空间维度等于问题大小。</entry>
+    <entry key="SimpleDir">求 A*x = lambda*x 的特征值。</entry>
+    <entry key="SimpleInv">求 {0}\\x = mu*x 的特征值。\n计算 {1} 的分解...</entry>
+    <entry key="GenSPDDir">求 R''\\(A*(R\\x)) = lambda*x 的特征值，其中 B = R''*R。</entry>
+    <entry key="GenSPDInv">求 R*{0}\\(R''*y) = mu*y 的特征值，其中 y = R*x、B = R''*R。\n不需要计算 R，因为它只是隐式使用。\n计算 {1} 的分解...</entry>
+    <entry key="GenDir">求 B\\(A*x) = lambda*x 的特征值。\n计算 B 的分解...</entry>
+    <entry key="GenInv">求 {0}\\(B*x) = mu*x 的特征值。\n计算 {1} 的分解...</entry>
+    <entry key="StartKrylovSchur">启动 Krylov-Schur 方法</entry>
+    <entry key="FailKrylovSchur">Krylov-Schur 未能生成双正交子空间。请尝试其他策略:\n 求 (A - sigma*B)\\(B*x) = mu*x 的特征值。</entry>
+    <entry key="KrylovSchurIter">迭代 {0}: {1} 个(共 {2} 个)特征值已收敛。最小的未收敛残差 {3} (容差 {4})。</entry>
+    <entry key="KrylovSchurLastIter">迭代 {0}: {1} 个(共 {2} 个)特征值已收敛。</entry>
+    <entry key="CheckMult">要检查是否遗漏了特征值重数，请重新启动该方法，并查找 k+1 个特征值。</entry>
+    <entry key="MultCheckSuccess">未找到额外的多重特征值。已成功返回。</entry>
+    <entry key="MultCheckRepeat">已找到额外的多重特征值。请再次重新启动以检查更多特征值。</entry>
+  </message>
+</rsccat>

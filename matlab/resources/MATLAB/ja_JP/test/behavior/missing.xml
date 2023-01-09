@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SameClass">MissingValue と PrototypeValue は同じクラスでなければなりません。</entry>
+    <entry key="IsMissingValue">ismissing(MissingValue) は true でなければなりません。</entry>
+    <entry key="PrototypeNotMissing">PrototypeValue は欠損していてはなりません。</entry>
+    <entry key="ScalarConversion">{0}(missing) は MissingValue を返さなければなりません。</entry>
+    <entry key="MatrixConversion">{0} には、入力の形状を維持する missing からの行列変換がなければなりません。</entry>
+    <entry key="MissingConversion">missing({0}) は MATLAB:UnableToConvert をスローしなければなりません。</entry>
+    <entry key="ConversionConversion">{0}(missing) は {0} の欠損値を返さなければなりません。</entry>
+    <entry key="ConversionRoundTrip">{0}({1}(missing)) は {0}(missing) を返さなければなりません。</entry>
+    <entry key="ScalarAssignment">欠損値を代入する場合、インデックスは MissingValue に設定されなければなりません。</entry>
+    <entry key="ExpansionAssignment">インデックスの配列にスカラー欠損値を代入する場合、インデックスは MissingValue に設定されなければなりません。</entry>
+    <entry key="ArrayAssignment">インデックスの配列に欠損値の配列を代入する場合、インデックスは MissingValue に設定されなければなりません。</entry>
+    <entry key="Horzcat">[PrototypeValue, missing] は [PrototypeValue, MissingValue] を生成しなければなりません。</entry>
+    <entry key="Cat2">cat(2, PrototypeValue, missing) は [PrototypeValue, MissingValue] を返さなければなりません。</entry>
+    <entry key="Vertcat">[PrototypeValue; missing] は [PrototypeValue; MissingValue] を生成しなければなりません。</entry>
+    <entry key="Cat1">cat(1, PrototypeValue, missing) は [PrototypeValue; MissingValue] を返さなければなりません。</entry>
+    <entry key="EqualFalse">すべての欠損値が同じではないため、MissingValue == MissingValue は false でなければなりません。</entry>
+    <entry key="NotEqualTrue">すべての欠損値が同じではないため、MissingValue ~= MissingValue は true でなければなりません。</entry>
+    <entry key="LessThanFalse">MissingValue &lt; MissingValue は false でなければなりません。</entry>
+    <entry key="GreaterThanFalse">MissingValue &gt; MissingValue は false でなければなりません。</entry>
+    <entry key="LessThanOrEqualFalse">すべての欠損値が同じではないため、MissingValue &lt;= MissingValue は false でなければなりません。</entry>
+    <entry key="GreaterThanOrEqualFalse">すべての欠損値が同じではないため、MissingValue &gt;= MissingValue は false でなければなりません。</entry>
+    <entry key="IsEqualMissingValueMissing">すべての欠損値が同じではないため、isequal(MissingValue, missing) は false を返さなければなりません。</entry>
+    <entry key="IsEqualMissingMissingValue">すべての欠損値が同じではないため、isequal(missing, MissingValue) は false を返さなければなりません。</entry>
+    <entry key="IsEqualMissingValueMissingValue">すべての欠損値が同じではないため、isequal(MissingValue, MissingValue) は false を返さなければなりません。</entry>
+    <entry key="IsEqualnMissingValueMissing">isequaln(MissingValue, missing) は true を返さなければなりません。</entry>
+    <entry key="IsEqualnMissingMissingValue">isequaln(missing, MissingValue) は true を返さなければなりません。</entry>
+    <entry key="IsEqualnMissingValueMissingValue">isequaln(MissingValue, MissingValue) は true を返さなければなりません。</entry>
+    <entry key="IsMissingMissingIndicator">ismissing(MissingValue, missing) は true を返さなければなりません。</entry>
+    <entry key="IsMissingMissingValueIndicator">ismissing(MissingValue, MissingValue) は true を返さなければなりません。</entry>
+    <entry key="IsNotMissingMissingIndicator">ismissing(PrototypeValue, missing) は false を返さなければなりません。</entry>
+    <entry key="IsMissingPrototypeIndicator">ismissing(PrototypeValue, PrototypeValue) は true を返さなければなりません。</entry>
+    <entry key="FillValue">配列を拡張する代入の埋め込み値は MissingValue でなければなりません。</entry>
+    <entry key="AssignToEmptyMissing">空の欠損配列に PrototypeValue を代入した場合、MATLAB:UnableToConvert がスローされなければなりません。</entry>
+  </message>
+</rsccat>

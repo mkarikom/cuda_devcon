@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AssociatedHostTerminated">이 Python 객체와 연결된 MATLABPyHost 프로세스(프로세스 ID: {0})가 종료되었습니다.</entry>
+    <entry key="InvalidNumArgs">인수의 개수가 올바르지 않습니다.</entry>
+    <entry key="InvalidKey">{0}은(는) 유효하지 않은 입력값입니다. 키는 ''Version'' 또는 ''ExecutionMode''여야 합니다.</entry>
+    <entry key="InvalidExecutionMode">{0}은(는) 유효하지 않은 입력값입니다. ''ExecutionMode''에 대한 값은 ''InProcess'' 또는 ''OutOfProcess''여야 합니다.</entry>
+    <entry key="VersionAndModeExpected">''Version'' 및 ''ExecutionMode'' 파라미터가 필요합니다.</entry>
+    <entry key="TerminateNotSupported">InProcess 실행 모드에서는 종료가 지원되지 않습니다.</entry>
+    <entry key="PythonLoaded">Python을 불러왔습니다. 인터프리터가 실행 중인 동안에는 환경을 변경할 수 없습니다. 환경을 변경하려면 ''terminate(pyenv)''를 호출한 후 ''pyenv''를 호출하십시오.</entry>
+    <entry key="PythonLoadedInOOP">''OutOfProcess'' 모드에서 Python을 불러왔습니다. ''ExecutionMode''를 ''InProcess''로 변경하려면 MATLAB을 다시 시작한 후 ''pyenv''를 호출하십시오.</entry>
+    <entry key="PythonLoadedInProcess">Python을 불러왔습니다. 이 MATLAB 세션에서는 환경을 변경할 수 없습니다. 환경을 변경하려면 MATLAB을 다시 시작한 후 ''pyenv''를 호출하십시오.</entry>
+    <entry key="PythonTerminatedReloadNotSupported">Python 프로세스가 종료되었으며 이 MATLAB 세션에서 호출할 수 없습니다. Python 함수를 호출하려면 MATLAB을 다시 시작하십시오.</entry>
+    <entry key="PythonTerminated">Python 프로세스가 예기치 않게 종료되었습니다. Python 인터프리터를 다시 시작하려면 먼저 "terminate(pyenv)"를 호출한 다음 Python 함수를 호출하십시오.</entry>
+    <entry key="PythonEnvironmentLoadNotSupported">PythonEnvironment 객체를 불러올 수 없습니다. PythonEnvironment를 MAT 파일로 저장(직렬화)하는 것은 지원되지 않습니다.</entry>
+  </message>
+</rsccat>

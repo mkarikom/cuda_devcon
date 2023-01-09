@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="inputType">유효하지 않은 데이터형입니다. 행렬은 double형, single형, 논리형 행렬 중 하나여야 합니다.</entry>
+    <entry key="inputFlag">옵션은 \''skew\'' 또는 \''nonskew\''여야 합니다.</entry>
+  </message>
+</rsccat>

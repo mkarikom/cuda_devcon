@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ClassNotFound">指定されたクラス名が見つかりません。</entry>
+    <entry key="IncorrectUsage">\n使用法:\n1. awtcreate(''&lt;className&gt;'')\n   - className はインスタンス化するクラスを指定する文字列であり、\n     引数なしのコンストラクターを呼び出します。\n2. awtcreate(''&lt;classname&gt;'', ''&lt;signature&gt;'', &lt;arg1&gt;, ...)\n   - className は上記と同じです。\n   - signature は呼び出すコンストラクターのシグネチャを指定する文字列です。\n   - arg は指定のシグネチャに対応する引数です。\n\n詳細は、awtcreate のヘルプを参照してください。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DialogErrorWhileSavingData">保存数据时出错。</entry>
+    <entry key="DialogInvalidVariableName">变量名称 "{0}" 无效。</entry>
+    <entry key="DialogCursorDataExportError">游标数据导出错误</entry>
+    <entry key="DialogSelectFile">选择 MATLAB 文件</entry>
+    <entry key="EnterVariableName">输入变量名称</entry>
+    <entry key="WarningVariableExists">MATLAB 工作区中已存在名为 "{0}" 的变量。\n如果继续，将会覆盖工作区中的 "{1}" 实例。\n</entry>
+    <entry key="InvalidVariableName">变量名称 "{0}" 无效。</entry>
+    <entry key="ExportError">游标数据导出错误</entry>
+    <entry key="MenuSelectionStyle">选择样式</entry>
+    <entry key="MenuMousePosition">鼠标位置</entry>
+    <entry key="MenuSnapToNearestDataVertex">吸附到最近的数据顶点</entry>
+    <entry key="MenuDisplayStyle">显示样式</entry>
+    <entry key="MenuWindowInsideFigure">图窗内窗口</entry>
+    <entry key="MenuDatatip">数据提示</entry>
+    <entry key="MenuCreateNewDatatip">创建新数据提示 Alt+点击</entry>
+    <entry key="MenuCreateNewDatatipShift">创建新数据提示 Shift+点击</entry>
+    <entry key="MenuDeleteCurrentDatati">删除当前数据提示 Delete</entry>
+    <entry key="MenuDeleteCurrentDatatipNoAccelerator">删除当前数据提示</entry>
+    <entry key="MenuDeleteAllDatatips">删除所有数据提示</entry>
+    <entry key="MenuExportCursorDataToWorkspace">将游标数据导出到工作区...</entry>
+    <entry key="MenuTextUpdateFunction">更新函数</entry>
+    <entry key="MenuEditTextUpdateFunction">编辑...</entry>
+    <entry key="MenuSelectTextUpdateFunction">从文件中选择...</entry>
+    <entry key="MenuDeleteTextUpdateFunction">删除</entry>
+    <entry key="TitleExportCursorDataToWorkspace">将游标数据导出到工作区</entry>
+    <entry key="LabelMouseClickOnPlottedData">在绘图数据上单击鼠标...</entry>
+    <entry key="MenuEditContentStyle">编辑内容和样式...</entry>
+    <entry key="Type">类型:</entry>
+  </message>
+</rsccat>

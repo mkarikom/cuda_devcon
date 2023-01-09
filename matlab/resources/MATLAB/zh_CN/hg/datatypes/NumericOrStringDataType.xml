@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArrayClass">值必须为字符向量、分类数组、字符串数组、数值数组或字符向量元胞数组。</entry>
+    <entry key="InvalidCellArray">元胞数组只能包含非空字符向量、字符串向量或数值。</entry>
+    <entry key="isEqual">NumericOrStringDataType::isEqual 出现异常。</entry>
+  </message>
+</rsccat>

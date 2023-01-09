@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DefaultFontFixedNotFound">既定のフォント \"fixed\" が見つかりません。システム管理者にお問い合わせください。</entry>
+    <entry key="FontEncodingEnvironmentOverflow">フォント エンコード環境のため、内部バッファーがオーバーフローしました。</entry>
+    <entry key="RequestedFontSizeTooLarge">要求されたフォント サイズ {0,number,integer} は大きすぎます。既定の設定の {1,number,integer} になります。</entry>
+  </message>
+</rsccat>

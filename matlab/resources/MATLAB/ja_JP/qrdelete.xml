@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">入力が不足しています。</entry>
+    <entry key="InvalidJ">Third input must be a positive integer that is finite and real.</entry>
+    <entry key="QNotSquare">To delete a row, the first input matrix must be square.</entry>
+    <entry key="InnerDimQRfactors">内部行列の次元は一致しなければなりません。最初の入力行列の列数は 2 番目の入力行列の行数と一致していなければなりません。</entry>
+    <entry key="NegDeletionIndex">削除インデックスは、正でなければなりません。</entry>
+    <entry key="InvalidDelIndex">削除インデックスが行列の次元を超えています。</entry>
+    <entry key="InvalidInput4">4 番目の入力は ''row'' または ''col'' でなければなりません。</entry>
+  </message>
+</rsccat>

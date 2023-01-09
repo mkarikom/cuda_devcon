@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFirstArgument">첫 번째 인수는 스칼라 좌표축 또는 Figure 핸들이어야 합니다.</entry>
+    <entry key="InvalidNumberColumns">컬러맵에는 3개의 열이 있어야 함: [R,G,B].</entry>
+    <entry key="InvalidInputRange">컬러맵은 범위 [0,1]에 있는 값을 가진 single형 또는 double형의 Mx3 배열이거나 uint8형의 Mx3 배열이어야 합니다.</entry>
+    <entry key="NeedScalarHandle">첫 번째 인수는 스칼라 좌표축 또는 Figure 핸들이어야 합니다.</entry>
+  </message>
+</rsccat>

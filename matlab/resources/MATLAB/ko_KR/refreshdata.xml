@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">첫 번째 입력값에는 Figure나 axes에 대한 핸들이 포함되거나, 데이터 소스 속성과 함께 객체 핸들이 포함되어야 합니다.</entry>
+    <entry key="InvalidSource">''{1}''에서 {0}을(를) 새로 고칠 수 없습니다.</entry>
+  </message>
+</rsccat>

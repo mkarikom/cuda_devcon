@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFormat">値は、サポートされている目盛りラベルの書式仕様でなければなりません。たとえば、'%.2f m' の書式では小数以下 2 桁の後に接尾辞 ' m' が追加されます。</entry>
+    <entry key="NumberTooLarge">幅または精度が大きすぎます。</entry>
+    <entry key="DynamicNumber">幅および精度は数値リテラルでなければなりません。</entry>
+    <entry key="UnsupportedType">書式タイプは %f、%F、%g、%G、%e、%E、%d または %i でなければなりません。</entry>
+  </message>
+</rsccat>

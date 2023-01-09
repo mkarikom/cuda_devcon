@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FirstInputMustBeFigHandle">最初の引数は Figure のハンドルでなければなりません。</entry>
+    <entry key="SecondInputMustBeString">2 番目の引数は string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="CopyToClipboardNotSupported">クリップボードへのコピーは、このプラットフォームでサポートされていません。</entry>
+    <entry key="ParameterMustBeString">オプションのパラメーター名は string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="InvalidPreviewAction">プレビューは、''none'' または ''tiff'' でなければなりません。</entry>
+    <entry key="WidthMustBePositiveScalar">Width は、0 より大きい数値のスカラーでなければなりません</entry>
+    <entry key="HeightMustBePositiveScalar">Height は、0 より大きい数値のスカラーでなければなりません</entry>
+    <entry key="InvalidColor">Color は、''bw''、''gray''、''rgb''、''cmyk'' のいずれかでなければなりません。</entry>
+    <entry key="InvalidFontMode">FontMode は、''scaled''、''fixed''、''none'' のいずれかでなければなりません。</entry>
+    <entry key="InvalidScaledFontSize">ScaledFontSize は、0 より大きい数値のスカラーでなければなりません</entry>
+    <entry key="InvalidFixedFontSize">FixedFontSize は、0 より大きい数値のスカラーでなければなりません</entry>
+    <entry key="InvalidFontSizeMin">FontSizeMin は、0 より大きい数値のスカラーでなければなりません</entry>
+    <entry key="InvalidFontNameInput">FontName は string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="InvalidFontWeightInput">'FontWeight' の値は ''normal'' または ''bold'' でなければなりません。</entry>
+    <entry key="InvalidFontAngleInput">'FontAngle' の値は ''normal'' または ''italic'' でなければなりません。</entry>
+    <entry key="InvalidFontEncodingType">FontEncoding は、''latin1'' または ''adobe'' でなければなりません。</entry>
+    <entry key="InvalidPSLevelInput">PSlevel は、2 または 3 でなければなりません</entry>
+    <entry key="InvalidLineModeInput">LineMode は、''scaled''、''fixed''、''none'' のいずれかでなければなりません。</entry>
+    <entry key="InvalidScaleLineWidth">ScaledLineWidth は、0 より大きい数値のスカラーでなければなりません</entry>
+    <entry key="InvalidFixedLineWidth">FixedLineWidth は、0 より大きい数値のスカラーでなければなりません</entry>
+    <entry key="InvalidLinWidthMinInput">LineWidthMin は、0 より大きい数値のスカラーでなければなりません</entry>
+    <entry key="InvalidRendererInput">Renderer は ''painters'' または ''opengl'' でなければなりません。</entry>
+    <entry key="InvalidResolution">Resolution は、0 より大きい数値のスカラーでなければなりません</entry>
+    <entry key="InvalidBounds">Boundsは、''tight'' または ''loose'' でなければなりません。</entry>
+    <entry key="InvalidLockAxesInput">LockAxes は ''on'' か ''off'' でなければなりません。</entry>
+    <entry key="InvalidLockAxesTicksInput">LockAxesTicks は ''on'' か ''off'' でなければなりません。</entry>
+    <entry key="InvalidShowUIInput">ShowUI は ''on'' か ''off'' でなければなりません。</entry>
+    <entry key="InvalidSeparateTextInput">Separatetext は ''on'' か ''off'' でなければなりません。</entry>
+    <entry key="UnknownOption">認識されないオプション {0}。</entry>
+    <entry key="SkippingStylemap">stylemap をスキップしています。 {0}</entry>
+    <entry key="InvalidColorParam">無効な Color パラメーター</entry>
+    <entry key="InvalidFontModeParam">無効な FontMode パラメーター</entry>
+    <entry key="StyleNotFound">スタイル ''{0}'' が存在しません。</entry>
+  </message>
+</rsccat>

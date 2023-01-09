@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ContourMatrixMustBeFull">등고선 행렬은 비희소(Full) 형식이어야 합니다.</entry>
+    <entry key="ContourMatrixMustBeReal">등고선 행렬은 실수여야 합니다.</entry>
+    <entry key="ContourMatrixMustHaveAtMost2Dimensions">등고선 행렬은 2차원을 초과할 수 없습니다.</entry>
+    <entry key="ContourMatrixMustHave2Rows">등고선 행렬에는 2개의 행이 있어야 합니다.</entry>
+    <entry key="TextListMustBeVectorOrScalar">텍스트 목록 값은 벡터 또는 스칼라여야 합니다.</entry>
+    <entry key="TextListMustBeFinite">텍스트 목록 값은 유한해야 합니다.</entry>
+    <entry key="TextListMustBeUniqueSortedIncreasing">텍스트 목록 값은 고유하고, 정렬되어 있고, 오름차순이어야 합니다.</entry>
+    <entry key="LabelSpacingIgnoredManual">CLABEL에 대한 수동 옵션과 LabelSpacing 속성이 유효하지 않습니다.</entry>
+    <entry key="LabelSpacingIgnoredAuto">CLABEL에 대한 Contour 핸들 인수가 지정되지 않은 경우에는 LabelSpacing 속성이 유효하지 않습니다.</entry>
+    <entry key="InvalidContourMatrixInput">첫 번째 입력값은 유효한 등고선 설명 행렬이어야 합니다.</entry>
+    <entry key="ContourHandleInputs">등고선 핸들이 부족합니다.</entry>
+    <entry key="LabelHandleOutputs">contour 핸들 인수가 제공되고 레이블 배치가 자동이면 text 핸들 출력값이 지원되지 않습니다.</entry>
+    <entry key="ReadOnlyTextProperty">다음 text 속성은 읽기 전용임: {0}.</entry>
+    <entry key="IgnoringTextProperty">다음 text 속성이 무시됨: {0}.</entry>
+    <entry key="IgnoringSpecialTextProperty">contour 핸들 인수가 제공되고 레이블 배치가 자동이면 {0} 속성이 무시됩니다.</entry>
+    <entry key="PleaseWaitAMoment">잠시 기다려 주십시오...</entry>
+    <entry key="SelectContoursForLabeling">레이블 지정을 위한 등고선을 신중하게 선택하십시오.</entry>
+    <entry key="WhenDonePressReturn">완료되었으면 그래프 창이 활성 창일 때 RETURN을 누릅니다.</entry>
+  </message>
+</rsccat>

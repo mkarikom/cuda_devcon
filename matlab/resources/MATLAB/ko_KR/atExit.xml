@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FailedToCleanupError">다음 MEX 파일에 대해 atExit 함수를 실행하는 동안 오류 발생:\n{0}.\n오류 메시지:\n    {1}\nMEX 파일은 메모리에서 삭제되었습니다.</entry>
+    <entry key="FailedToCleanup">다음 MEX 파일에 대해 atExit 함수를 실행하는 동안 오류 발생:\n{0}.\nMEX 파일은 메모리에서 삭제되었습니다.</entry>
+  </message>
+</rsccat>

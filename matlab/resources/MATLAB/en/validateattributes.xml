@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="attributeNotFound">Attribute {0} not supported.</entry>
+    <entry key="attributeBadClass">Attribute of class {0} not supported.</entry>
+    <entry key="notEnoughArguments">Not enough arguments for attribute {0}.</entry>
+    <entry key="badComparison">Value for {0} must be a real scalar.</entry>
+    <entry key="UnsupportedTypeForComparison">Type {0} is not supported in VALIDATEATTRIBUTES for {1}.</entry>
+    <entry key="badSizeArray">Argument ''size'' must be followed by a real array of integers.</entry>
+    <entry key="badDimsArray">Argument ''ndims'' must be followed by a real integer value greater than 1.</entry>
+    <entry key="TooManyUnknownDims">Too many unknown dimensions for validate attributes.</entry>
+    <entry key="badClassList" note="stringDatatypeUpdate">Valid data types must be a string vector or cell array of character vectors.</entry>
+    <entry key="missingValueInClassList">Valid data types must not contain missing values.</entry>
+    <entry key="badAttributeList">Valid attributes must be a cell array or a string array.</entry>
+    <entry key="missingValueInAttributeList">Valid attributes must not contain missing values.</entry>
+	
+    <!--Resource entries for src/builtins-->
+    <entry key="badFunctionNameString" note="stringDatatypeUpdate">Function name must be an ASCII string scalar or character vector.</entry>
+    <entry key="badFunctionName" note="stringDatatypeUpdate">Fourth argument must be an ASCII string scalar or character vector to specify function name, or a scalar double to specify argument position.</entry>
+    <entry key="badVariableName" note="stringDatatypeUpdate">Fifth argument must be a string scalar or character vector to specify input variable name.</entry>
+    <entry key="badArgPositionClass">The last argument must be a numeric scalar or empty, to specify argument position.</entry>
+    <entry key="badArgPosition">The last argument must be a positive integer.</entry>
+    <!--Resource entries for toolbox/matlab-->
+    <entry key="badArgument">Argument ''{0}'' must be followed by a nonnegative real scalar integer.</entry>
+
+    <!-- input description phrase, these could be translated.  Should not be capitilized or end with a period -->
+    <entry key="NoNameNoNumber">input</entry>
+    <entry key="NameNoNumber" translate="false">{0}</entry>
+    <entry key="NoNameNumber">input number {0,number,integer}</entry>
+    <entry key="NameNumber">input number {0,number,integer}, {1},</entry>
+
+    <!-- Input validate failed messages.  Input description phrase used to customize message. -->
+    <entry key="expectedArray">Expected {0} to be an array with all of the values {1} {2}.</entry>
+
+    <entry key="expectedArrayEqual">Expected {0} to be an array with {1} equal to {2}.</entry>
+
+    <entry key="expectedScalar">Expected {0} to be a scalar with value {1} {2}.</entry>
+
+    <entry key="expectedScalarEqual">Expected {0} to be a scalar with {1} equal to {2}.</entry>
+
+    <entry key="expectedSize">Expected {0} to be of size {1}, but it is of size {2}.</entry>
+
+    <entry key="expected">Expected {0} to be {1}.</entry>
+
+    <entry key="invalidType">Expected {0} to be one of these types:\n\n{1}\n\nInstead its type was {2}.</entry>
+
+    <entry key="invalidTypeSolutionSentence">Expected {0} to be one of these types:\n\n{1}</entry>
+
+    <entry key="invalidTypeProblemSentence">\n\nInstead its type was {0}.</entry>
+
+
+    <!-- Attribute names, these are translated message fragments.  Should not be capitilized or end with a period -->
+    <!-- Example for these (using "real"): "Expected input to be real."-->
+    <entry key="real">real</entry>
+    <entry key="vector">a vector</entry>
+    <entry key="row">a row vector</entry>
+    <entry key="column">a column vector</entry>
+    <entry key="scalar">a scalar</entry>
+    <entry key="square">a square matrix</entry>
+    <entry key="twod">two-dimensional</entry>
+    <entry key="threed">three-dimensional</entry>
+    <entry key="nonsparse">nonsparse</entry>
+    <entry key="nonempty">nonempty</entry>
+    <entry key="integer">integer-valued</entry>
+    <entry key="nonnegative">nonnegative</entry>
+    <entry key="positive">positive</entry>
+    <entry key="nonnan">non-NaN</entry>
+    <entry key="finite">finite</entry>
+    <entry key="nonzero">nonzero</entry>
+    <entry key="even">even</entry>
+    <entry key="odd">odd</entry>
+    <entry key="binary">binary</entry>
+    <entry key="builtin">an mxArray primitive type</entry>
+
+    <!-- Example for these (using "numel"): "Expected input to be an array with number of elements equal to 2."-->
+    <entry key="numel">number of elements</entry>
+    <entry key="nrows">number of rows</entry>
+    <entry key="ncols">number of columns</entry>
+    <entry key="ndims">number of dimensions</entry>
+    <entry key="diag"> a diagonal matrix</entry>
+	
+    <!-- Example for these (using "increasing"): "Expected input to be strictly increasing."-->
+    <entry key="increasing">strictly increasing</entry>
+    <entry key="decreasing">strictly decreasing</entry>
+    <entry key="nondecreasing">monotonically increasing</entry>
+    <entry key="nonincreasing">monotonically decreasing</entry>
+	
+    <!-- Example: "Expected input to be a string scalar or character vector."-->
+    <entry key="scalartext">a non-missing string scalar or character vector</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="XDataMismatch">x 值的数目必须等于 ''ColorData'' 中的列数。</entry>
+    <entry key="YDataMismatch">y 值的数目必须等于 ''ColorData'' 中的行数。</entry>
+    <entry key="DuplicateValues">{0} 值向量包含重复的值。</entry>
+    <entry key="MissingValues">{0} 值向量包含缺失值。</entry>
+    <entry key="EmptyStrings">空字符串和仅包含空格的字符串为无效的 {0} 值。</entry>
+    <entry key="InvalidSourceTable">''SourceTable'' 值必须为表。</entry>
+    <entry key="MatrixWorkflow">不支持在设置 ''ColorData'' 属性后设置 ''{0}'' 属性。</entry>
+    <entry key="TableWorkflow">不支持在设置 ''SourceTable'' 属性后设置 ''{0}'' 属性。</entry>
+    <entry key="LimitsNotData">''{0}'' 向量中的两个元素都必须存在于 ''{1}'' 向量中。</entry>
+    <entry key="ResettingLimits">现有的 ''{0}'' 值与新的 ''{1}'' 向量不兼容。正在将 ''{0}'' 值重置为 ''{1}'' 向量的完整范围。</entry>
+    <entry key="InvalidLimits">''{0}'' 值必须为一个 2 元素向量，该向量由递增值或相等值组成，这些值的相对显示顺序与它们在 ''{1}'' 向量中的顺序相同。</entry>
+    <entry key="LabelsMismatch">''{0}'' 向量必须与 ''{1}'' 向量包含相同数目的元素。</entry>
+    <entry key="InvalidSortingVector">请将排序向量指定为一个字符向量、字符串数组或字符向量元胞数组。</entry>
+    <entry key="ElementsNotData">排序向量中的所有元素都必须存在于 ''{0}'' 或 ''{1}'' 向量中。</entry>
+    <entry key="InvalidString">&lt;a href=\"matlab:doc string\"&gt;字符串&lt;/a&gt;函数无法将 {0} 值转换为字符串。请将 {0} 值指定为字符串、字符向量元胞数组或可转换为字符串的数组。</entry>
+    <entry key="InvalidCategoryNames">&lt;a href=\"matlab:doc string\"&gt;categorical&lt;/a&gt; 函数无法将 {0} 值转换为有效的类别名称。</entry>
+    <entry key="DuplicateDataWithNone">当表包含每对 x 值和 y 值的多个实例时，不支持 ''ColorMethod'' 的值为 ''none''。</entry>
+    <entry key="NoColorVariable">当 ''ColorMethod'' 值为 ''{0}'' 时，必须指定 ''ColorVariable''。</entry>
+    <entry key="InvalidCategoricalData">&lt;a href=\"matlab:doc categorical\"&gt;分类&lt;/a&gt;函数无法将源表变量 ''{0}'' 转换为类别。</entry>
+    <entry key="InvalidColorVariable">''ColorVariable'' 值必须指向源表中的实数变量。</entry>
+    <entry key="MissingValueIndicatorInData">由于存在缺失值指示符，因而无法将源表变量 ''{0}'' 中的值转换为类别。有关缺失值指示符的信息，请参阅 &lt;a href=\"matlab:doc ismissing\"&gt;ismissing&lt;/a&gt;。</entry>
+    <entry key="NonDiscretizedData">源表变量 ''{0}'' 中的值未分组为离散类别。使用 &lt;a href=\"matlab:doc discretize\"&gt;discretize&lt;/a&gt; 函数可对值进行分组。</entry>
+    <entry key="CountTitle">{0} 与 {1} 的计数</entry>
+    <entry key="MeanTitle">{0} 的均值</entry>
+    <entry key="MedianTitle">{0} 的中位数</entry>
+    <entry key="MinTitle">{0} 的最小值</entry>
+    <entry key="MaxTitle">{0} 的最大值</entry>
+    <entry key="SumTitle">{0} 的总和</entry>
+    <entry key="NegativeColorDataInLogScale">已忽略了负的颜色数据。</entry>
+    <entry key="InvalidArguments">参数必须为后跟 2 个表下标的表、二维数值矩阵或后跟二维数值矩阵的 2 个向量。</entry>
+    <entry key="InvalidTableArguments">输入参数的数目不足。表参数必须后跟 2 个表下标。</entry>
+    <entry key="ColorVariableNameValuePair">使用参数名称-值对组指定 ''ColorVariable''。</entry>
+    <entry key="InvalidParent">父容器必须为图窗、uipanel 或 uitab。</entry>
+    <entry key="DeletedParent">父容器为已删除的图形对象。</entry>
+    <entry key="InvalidColorData">''ColorData'' 必须为二维数值矩阵。</entry>
+    <entry key="InvalidLabelColorData">''ColorData'' 值必须为列数与 ''Strings'' 值的长度相同的 4 行 uint8 矩阵。</entry>
+    <entry key="InvalidLabelVertexData">''VertexData'' 值必须为列数与 ''Strings'' 值的长度相同的 3 行单精度矩阵。</entry>
+    <entry key="ColorMethodLabel">用来计算颜色数据的方法</entry>
+  </message>
+</rsccat>

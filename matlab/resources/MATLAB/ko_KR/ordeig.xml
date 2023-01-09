@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="matrixWithNaNInf">ORDEIG에 대한 입력값은 NaN 또는 Inf를 포함해서는 안 됩니다.</entry>
+    <entry key="inputMustBe2DStandard">입력값은 2차원이어야 합니다.</entry>
+    <entry key="inputMustBeSquareStandard">입력값은 정사각 행렬이어야 합니다.</entry>
+    <entry key="inputMustBeFullStandard">입력값은 비희소(Full) 형식이어야 합니다.</entry>
+    <entry key="inputMustBeUpperTriStandard">ORDEIG(A)에서 A가 복소수일 경우 A는 상부 삼각이어야 합니다.</entry>
+    <entry key="inputMustBeBlockUpperTriStandard">ORDEIG(A)에서 A가 실수일 경우 A는 대각선에서 1×1 및 2×2 블록을 가진 블록 상부 삼각이어야 합니다.</entry>
+    <entry key="inputTypeGeneralized">입력값은 single형 또는 double형이어야 합니다.</entry>
+    <entry key="inputMustBe2DGeneralized">입력값은 2차원이어야 합니다.</entry>
+    <entry key="inputMustBeSquareGeneralized">입력값은 정사각 행렬이어야 합니다.</entry>
+    <entry key="inputMustBeSameSizeGeneralized">입력값의 크기가 같아야 합니다.</entry>
+    <entry key="inputMustBeFullGeneralized">입력값은 비희소(Full) 형식이어야 합니다.</entry>
+    <entry key="inputMustBeUpperTriGeneralized">ORDEIG(A,B)에서 A 또는 B가 복소수일 경우 A와 B는 상부 삼각이어야 합니다.</entry>
+    <entry key="inputMustBeBlockUpperTriGeneralized">ORDEIG(A,B)에서 A와 B가 실수일 경우 A는 대각선에서 1×1 및 2×2 블록을 가진 블록 상부 삼각이어야 합니다. 또한, B는 상부 삼각이어야 합니다.</entry>
+  </message>
+</rsccat>

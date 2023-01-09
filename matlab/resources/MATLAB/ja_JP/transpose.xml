@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NDArray">TRANSPOSE は N 次元配列をサポートしていません。PAGETRANSPOSE/PAGECTRANSPOSE を使用してページを転置するか、PERMUTE を使用して N 次元配列の次元を並べ替えてください。</entry>
+    <entry key="intType">複素数の共役転置は、整数のデータ型でサポートされません。</entry>
+    <entry key="notDefinedOnArrayWithOpaqueIndexing">あいまいなインデックスをもつ配列の転置は定義されていません。</entry>
+    <entry key="notImplemented">N 次元配列では転置が定義されていません。</entry>
+  </message>
+</rsccat>

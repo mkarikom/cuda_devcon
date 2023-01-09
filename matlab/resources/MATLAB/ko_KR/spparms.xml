@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManyOutputs">출력 인수가 너무 많습니다.</entry>
+    <entry key="OptionNotString">선택적 인수는 문자형 벡터여야 합니다.</entry>
+    <entry key="TooManyParamsPerKeyword">한 번에 키워드로 파라미터 하나만 쿼리해야 합니다.</entry>
+    <entry key="UnknownKeyword">{0}은(는) 알 수 없는 키워드 파라미터임</entry>
+    <entry key="ParamsMismatchKeywords">파라미터와 키워드 개수는 일치해야 합니다.</entry>
+    <entry key="InvalidNewParams">입력값은 길이 {0,number,integer}의 숫자형 벡터여야 합니다.</entry>
+    <entry key="SparsfunNotAvailable">함수 sparsfun은 제거되었습니다. spparms를 대신 사용하십시오.</entry>
+    <entry key="SparseMonitorOutputLevel">희소 모니터(SParse MONItor) 출력 수준 {0}.\n</entry>
+    <entry key="NoSparseMonitorOutput">희소 모니터(SParse MONItor) 출력이 없습니다.\n</entry>
+    <entry key="MmdThreshold">mmd: 임계값 = {0} * mindegree + {1},\n</entry>
+    <entry key="UsingExactDegreesInAprimeA">A''*A에 정확한 차수 사용,\n</entry>
+    <entry key="UsingApproximateDegreesInAprimeA">A''*A에 대략적인 차수 사용,\n</entry>
+    <entry key="SupernodeAmalgamationEveryNStages">모든 {0} 단계에서 supernode 융합,\n</entry>
+    <entry key="NoSupernodeAmalgamation">supernode 융합 없음,</entry>
+    <entry key="RowReductionEveryNStages">모든 {0} 단계에서 행 축소,\n</entry>
+    <entry key="NoRowReductionn">행 축소 없음,\n</entry>
+    <entry key="WithholdRowsAtLeastNPercentDenseInColmmd">colmmd에는 최소 {0}% 밀도의 행을 사용하지 않도록 해야 합니다.\n</entry>
+    <entry key="NoRowWithholdingInColmmd">colmmd에 행 제한 조건이 없습니다.\n</entry>
+    <entry key="MinimumDegreeOrderingsUsedWithV4">\\ 및 /에서 v4 chol, lu 및 qr에 MD(Minimum Degree) Orderings가 사용되었습니다.\n</entry>
+    <entry key="NoAutomaticOrderingsUsedWithV4">\\ 및 /에서 v4 chol, lu 및 qr에 자동적인 Orderings가 사용되지 않았습니다.\n</entry>
+    <entry key="ApproximateMinimumDegreeOrderingsUsedCholmodUmfpack">\\ 및 /에서 CHOLMOD와 UMFPACK에 AMD(Approximate Minimum Degree) Orderings가 사용되었습니다.\n</entry>
+    <entry key="NoAutomaticOrderingsUsedWithCholmodUmfpack">\\ 및 /에서 CHOLMOD와 UMFPACK에 자동적인 Orderings가 사용되지 않았습니다.\n</entry>
+    <entry key="PivotToleranceOfUsedByUMFPACK">\\ 및 /에서 UMFPACK에 {0}의 피벗 허용오차가 사용되었습니다.\n</entry>
+    <entry key="BackslashUsesBandSolverIfBandDensityGT">백슬래시는 대역 밀도가 {0}보다 큰 경우 띠 솔버를 사용함\n</entry>
+    <entry key="UMFPACKUsedForLu">\\ 및 /에서 lu에 대해 UMFPACK이 사용되었습니다.\n</entry>
+    <entry key="V4AlgorithmUsedForLu">\\ 및 /에서 lu에 대해 v4 알고리즘이 사용되었습니다.\n</entry>
+    <entry key="SymmetricPivotToleranceUsedByUMFPACK">\\ 및 /에서 UMFPACK에 {0}의 대칭 피벗 허용오차가 사용되었습니다.\n</entry>
+    <entry key="PivotToleranceUsedByMA57">\\ 및 /에서 MA57에 {0}의 피벗 허용오차가 사용되었습니다.\n</entry>
+    <entry key="MetisOrderingUsedMA57">\\ 및 /에서 MA57에 METIS 정렬이 사용되었습니다.\n</entry>
+    <entry key="ApproximateMinimumDegreeOrderingUsedMA57">\\ 및 /에서 MA57에 AMD(Approximate Minimum Degree) 정렬이 사용되었습니다.\n</entry>
+    <entry key="NoOrderingUsedMA57">\\ 및 /에서 MA57에 자동 정렬이 사용되지 않았습니다.\n</entry>
+    <entry key="AutomaticOrderingUsedMA57">\\ 및 /에서 MA57에 자동으로 선택되는 정렬 메서드가 사용되었습니다.\n</entry>
+  </message>
+</rsccat>

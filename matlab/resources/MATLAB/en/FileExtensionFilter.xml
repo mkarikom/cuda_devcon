@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="UnpairedParamsValues">Param/value pairs must come in pairs.</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="IllegalParameterType" note="stringDatatypeUpdate">Parameter at input {0,number,integer} must be a character vector.</entry>
+    <entry key="IllegalParameter">Parameter "{0}" is unrecognized.</entry>
+    <entry key="IllegalFilterSpecification">Incorrect Filter specification</entry>
+  </message>
+</rsccat>

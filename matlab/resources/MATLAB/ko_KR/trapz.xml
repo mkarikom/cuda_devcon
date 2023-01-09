@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="xNotVector">X는 벡터여야 합니다.</entry>
+    <entry key="LengthXmismatchY">점 간격은 균일한 간격을 지정하는 스칼라이거나, 각 데이터 점의 x 좌표값으로 구성된 벡터여야 합니다.</entry>
+  </message>
+</rsccat>

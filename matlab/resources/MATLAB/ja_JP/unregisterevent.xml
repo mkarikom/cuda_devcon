@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidEvent">イベントの登録を取り消せません。イベントの名前/ハンドラーの無効な組み合わせ</entry>
+    <entry key="InvalidEvent2">''{0}'' の登録を取り消せません。イベントの名前/ハンドラーの無効な組み合わせ</entry>
+  </message>
+</rsccat>

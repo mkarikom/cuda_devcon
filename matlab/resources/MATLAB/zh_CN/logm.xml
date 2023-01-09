@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="inputType">输入必须为单精度或双精度矩阵。</entry>
+    <entry key="inputMustBeSquare">输入矩阵必须为方阵。</entry>
+    <entry key="nonPosRealEig">没有为包含非正实数特征值的 A 定义主矩阵对数。返回了非主矩阵对数。</entry>
+    <entry key="TooManyMatrixSquareRoots">超出了矩阵平方根的最大数目。结果可能不准确。</entry>
+  </message>
+</rsccat>

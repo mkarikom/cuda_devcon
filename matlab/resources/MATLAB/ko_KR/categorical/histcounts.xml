@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonCategoricalX">유효하지 않은 데이터형입니다. 첫 번째 인수는 categorical형 배열이어야 합니다.</entry>
+    <entry key="OrdinalCategoriesMismatch">X와 CATEGORIES가 모두 순서형 배열인 경우 이 둘은 동일한 순서로 된 동일한 범주를 포함해야 합니다.</entry>
+    <entry key="OrdinalMismatch">X와 CATEGORIES는 모두 순서형이거나 모두 순서형이 아니어야 합니다.</entry>
+    <entry key="RepeatedCategories">범주 인수에 반복된 이름이 포함되어 있습니다.</entry>
+    <entry key="UnrecognizedCategories">범주 인수는 순서형 데이터에 대한 데이터 범주의 부분 집합이어야 합니다.</entry>
+  </message>
+</rsccat>

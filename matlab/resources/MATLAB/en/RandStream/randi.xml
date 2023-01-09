@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="inputType">Inputs must be numeric.</entry>
+    <entry key="invalidOutputType">Outputs of class {0} not supported.</entry>
+    <entry key="invalidLimits">First input must be a positive scalar integer value IMAX, or two integer values [IMIN IMAX] with IMIN less than or equal to IMAX.</entry>
+  <!--Resource entries for src/mathrng/-->
+    <entry key="LimitsTooLarge">IMIN and IMAX must be less than 2^53.</entry>
+    <entry key="RangeTooLarge">IMIN and IMAX must differ by less than 2^53-1.</entry>
+  <!--Resource entries for src/mathrng/-->
+  </message>
+</rsccat>

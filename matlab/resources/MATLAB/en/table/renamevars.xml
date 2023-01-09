@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NoLHS">Using RENAMEVARS without assigning to a workspace variable does not modify the table's variable names.  Use t = renamevars(t,vars,newnames).</entry>
+    <entry key="NumNamesMismatch">The number of new variable names must match the number of variables specified.</entry>
+    <entry key="InvalidVarSubscript">A table variable subscript must be a numeric array containing real positive integers, a logical array, a character vector, a string array, a cell array of character vectors, or a vartype subscripter object.</entry>
+    <entry key="RenameDim">Renaming dimension names is not supported using RENAMEVARS.</entry>
+    <entry key="NamesNotText">New variable names must be text.</entry>
+         <!-- codegen -->
+    <entry key="NewVarNamesMustBeConstant">Specify 'NewVariableNames' as Constant.</entry>
+    </message>
+</rsccat>

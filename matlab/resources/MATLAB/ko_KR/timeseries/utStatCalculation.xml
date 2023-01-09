@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">utStatCalculation 메서드는 단일 timeseries 객체에 대해서만 사용할 수 있음</entry>
+    <entry key="pvsetNoValue">지정한 속성에 대응값이 누락되었습니다.</entry>
+    <entry key="missingdata">MissingData 인수는 ''interpolate'' 또는 ''remove''여야 합니다.</entry>
+    <entry key="quality">Quality 인수는 정수여야 합니다.</entry>
+    <entry key="weighting">Weighting 인수는 ''none'' 또는 ''time''이어야 합니다.</entry>
+    <entry key="pvsetInvalidVal">지정한 속성 중 적어도 하나의 속성이 유효하지 않습니다.</entry>
+    <entry key="noqualitycode">이 시계열에서 입력 품질 코드가 발견되지 않았으므로 해당 코드는 무시됩니다.</entry>
+    <entry key="noquality">이 시계열에 품질 값이 할당되지 않았습니다. 입력 품질 코드는 무시됩니다.</entry>
+    <entry key="method">유효하지 않은 메서드 인수임</entry>
+  </message>
+</rsccat>

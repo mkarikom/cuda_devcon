@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">string スカラーまたは文字ベクトル引数が必要です。</entry>
+    <entry key="UnrecognizedLinespecCharacter">LineSpec に認識されない文字があります。</entry>
+    <entry key="InvalidLinespec">LineSpec が無効です。</entry>
+    <entry key="InvalidSecondArg">2 番目の入力引数は string スカラーまたは文字ベクトル ''plot'' でなければなりません</entry>
+  </message>
+</rsccat>

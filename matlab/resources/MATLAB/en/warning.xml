@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" decorate_cxx_names="1">
+  <message>
+    <entry key="FrequencyOutputObsolete">The frequency output of WARNING is obsolete and requesting it will generate an error in future versions of MATLAB.</entry>
+    <entry key="illegalDebugSetting">Illegal debug setting ''{0}''.</entry>
+    <entry key="debugOptionIsObsolete">The warning function''s debug option is obsolete. Instead of using ''{0}'', please use ''{1}''.</entry>
+    <entry key="noLastWarning">The last warning issued had an empty warning identifier, or no warnings have yet been issued.</entry>
+    <entry key="unknownSettingOrId">Unknown setting or incorrect message identifier ''{0}''.</entry>
+    <entry key="cannotUseAllWithError">The ''all'' message identifier cannot be used with the ''error'' warning setting.</entry>
+    <entry key="OnceAndAlwaysObsolete">WARNING does not accept ''once'' and ''always''.</entry>
+    <entry key="missingStructureField">The input to WARNING must have fields named ''state'' and ''identifier''.</entry>
+    <entry key="nonStringState" note="stringDatatypeUpdate">The ''state'' field of element {0,number,integer} of the input is not a character vector or string scalar.</entry>
+    <entry key="badStateValue">The ''state'' field of element {0,number,integer} of the input is not one of ''on'', ''off'', or ''error''.</entry>
+    <entry key="nonStringIdentifier" note="stringDatatypeUpdate">The ''identifier'' field of element {0,number,integer} of the input is not a character vector or string scalar.</entry>
+    <entry key="badIdentifierValue">The ''identifier'' field of element {0,number,integer} of the input is not a valid message identifier.</entry>
+    <entry key="inputsOutOfOrder">Inputs to WARNING might be out of order. The ''on'', ''off'', or ''query'' option should be the first input to WARNING.</entry>
+    <entry key="Invalid">Invalid {0}.</entry>
+  <!--Resource entries for src/builtins-->
+    <entry key="allWarningsHaveTheState">All warnings have the state ''{0}''.\n</entry>
+    <entry key="debuggerStopAtWarning">The debugger will stop at warnings.\n</entry>
+    <entry key="debuggerNoStopAtWarning">The debugger will not stop at warnings.\n</entry>
+    <entry key="warningBacktracesEnabled">Warning backtraces are enabled.\n</entry>
+    <entry key="warningBacktracesDisabled">Warning backtraces are disabled.\n</entry>
+    <entry key="warningOutputVerbose">Warning output is verbose.\n</entry>
+    <entry key="warningOutputTerse">Warning output is terse.\n</entry>
+    <entry key="defaultWarningStateLine">The default warning state is ''{0}''. Warnings not set to the default are\n\n</entry>
+    <entry key="illegalVerboseSetting">Illegal {0} setting ''{1}''.</entry>
+    <entry key="illegalBacktraceSetting">Illegal {0} setting ''{1}''.</entry>
+    <entry key="noLastWarningMsg">The last warning issued had an empty warning identifier, or no\nwarnings have yet been issued.</entry>
+    <entry key="stateOfWarningIs">The state of warning ''{0}'' is ''{1}''.\n</entry>
+    <entry key="stateWarningHeader">  State  Warning Identifier\n\n</entry>
+  <!--Resource entries for src/builtins-->
+  <!--Resource entries for src/matrix/warning.cpp-->
+    <entry key="InstructionWarningOff">\n(Type "{0}" to suppress this warning.)\n</entry>
+  <!--Resource entries for src/matrix/warning.cpp-->
+  </message>
+</rsccat>

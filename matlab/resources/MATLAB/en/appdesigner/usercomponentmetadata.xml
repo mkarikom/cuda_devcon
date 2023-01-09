@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!-- Copyright 2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>        
+        <!-- All related to MATLAB preference panel -->
+        
+        <entry key="Registered">Registered</entry>                         
+        <entry key="NotRegistered">Not Registered</entry>
+        <entry key="MissingFile">Missing File</entry>
+        <entry key="MyComponents">My Components</entry>
+        
+        <entry key="DirLabel">Directory of UI components to register with App Designer:</entry>
+        <entry key="RegisterLabel">Register</entry>
+        <entry key="UpdateLabel">Update</entry>
+        <entry key="DeregisterLabel">De-Register</entry>
+
+        <entry key="InfoForAuthor">Registering custom UI components with App Designer creates a resources directory, which must be shared together with the custom UI components to enable the integration of the custom UI components with App Designer.</entry>
+        <entry key="StatusLabel">UI Components</entry>
+        <entry key="UIComponentsLabel">Status</entry>
+        <entry key="LastUpdatedLabel">Last Updated</entry>
+        <entry key="DeregistrationWarningMsg">Are you sure you want to deregister the selected components?</entry>
+        
+        <entry key="CompLibConfigLabel">Component Library Configurations</entry>
+        <entry key="NameLabel">Name</entry>
+        <entry key="VersionLabel">Version</entry>
+        <entry key="DescriptionLabel">Description</entry>
+        <entry key="CategoryLabel">Category</entry>
+        <entry key="IconLabel">Icon</entry>
+        
+        <entry key="AdvancedConfigLabel">Advanced Configurations</entry>
+        <entry key="LabeledComponentLabel">Labeled Component</entry>
+        <entry key="LabelPositionLabel">Label Position</entry>
+        <entry key="SingleInstancelabel">Single Instance</entry>
+        
+        <entry key="AuthorInfoLabel">Author Information</entry>
+        <entry key="AuthorNameLabel">Author's Name</entry>
+        <entry key="AuthorEmailLabel">Author's Email</entry>
+        
+        <entry key="PreviewLabel">Preview</entry>
+        
+        <entry key="OkLabel">OK</entry>
+        <entry key="CancelLabel">Cancel</entry>
+        <entry key="HelpLabel">Help</entry>
+        <entry key="BrowseLabel">Browse</entry>
+        
+        <entry key="MetadataUITitle">App Designer Custom UI Component Metadata</entry>
+        <entry key="ComponentFileLabel">Component File</entry>
+        <entry key="ComponentLibAppearanceLabel">Component Library Appearance</entry>
+        <entry key="ComponentDetailsLabel">Component Details</entry>
+        
+        <entry key="ComponentRegistrationHeader">App Designer</entry>
+        <entry key="RegistrationInProgressMsg">Configuring the component’s App Designer metadata...</entry>
+        <entry key="RegistrationErrorMsg">An error occurred while configuring metadata for the component.\n\n{0}</entry>
+        <entry key="IconFileErrorMsg">File must be an image of type .png, .jpeg, .jpg, or .gif</entry>
+        <entry key="CategoryEmptyErrorMsg">Category cannot be empty</entry>
+        <entry key="ComponentNameEmptyErrorMsg">Component name cannot be empty</entry>
+        <entry key="InvalidVersionErrorMsg">Component version cannot be empty and must be of the form Major.Minor</entry>
+        <entry key="InvalidEmailErrorMsg">Please enter a valid email</entry>
+        
+        <entry key="NotValidCustomComponentClass">File {0} is not a valid custom UI component class.</entry>
+        <entry key="NotCustomComponentClass">File {0} is not a valid custom UI component class because it does not inherit from {1}.</entry>
+        <entry key="RegistrationSuccessMsg">A resources folder with the App Designer metadata has been created.\n\nTo use the component in App Designer, add the folder containing the component and resources to the MATLAB path.</entry>
+        <entry key="UpdateSuccessMsg">The resources folder with the App Designer metadata has been updated.\n\nTo use the component in App Designer, add the folder containing the component and resources to the MATLAB path.</entry>
+        <entry key="NoWriteAccessErrorMsg">MATLAB doesn't have write access to the folder containing the component.\n\nwrite access is required to create the resources folder with the App Designer metadata.</entry>
+        <entry key="NotEnoughInputArgErrorMsg">To use the component in App Designer, the setup method of the component class must have no required input arguments.</entry>
+        <entry key="InvalidModelWarningMsg">Metadata file under the resources folder in the folder containing component is invalid.\n\nSaving metadata for this component will overwrite existing metadata file.</entry>
+        <entry key="RogueComponentErrorMsg">To use the component in App Designer, the component cannot dynamically add additional components to its parent.</entry>
+        <entry key="InvalidUnitsErrorMsg">To use the component in App Designer, the component must have its 'Units' property set to 'pixels'.</entry>
+        <entry key="AbstractComponentErrorMsg">The class {0} cannot be instantiated because it is abstract. Ensure you have implemented all abstract methods, including the setup and update methods inherited from matlab.ui.componentcontainer.ComponentContainer.</entry>
+        <entry key="CallbackHasValueErrorMsg">A value has been assigned to the public callbacks: {0}.\n\nTo use the component in App Designer, the component must not assign a value to the public callbacks defined by the component. Instead, use the addlistener function to create event listeners for the events: {1}.</entry>
+        <entry key="AvatarNotCapturedWarning">Unable to capture UI component avatar. Users will be unable to see the component preview when dragging the UI component from the Component Library onto the canvas.\nTo capture the UI component avatar, configure your component from an installed version of MATLAB on your computer.</entry>
+        
+        <entry key="ComponentDetailsHelp">Specify optional information about the component, to be displayed in a tooltip</entry>
+        <entry key="CategoryHelp">Specify the section of the Component Library in which the component appears</entry>
+    </message>
+</rsccat>

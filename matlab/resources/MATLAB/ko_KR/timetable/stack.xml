@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CantStackRowLabels">타임테이블의 행 시간값은 쌓을 수 없습니다. TIMETABLE2TABLE을 사용하여 이러한 행 시간값을 변수로 포함하는 테이블을 생성하십시오.</entry>
+  </message>
+</rsccat>

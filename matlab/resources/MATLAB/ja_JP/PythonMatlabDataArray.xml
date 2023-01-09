@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ReferenceDoesNotExist">MATLAB オブジェクトへの参照は存在しません</entry>
+    <entry key="NumIndexEqualToNumDim">インデックス数は次元数に等しくなければなりません</entry>
+    <entry key="RecurListNotSupported">再帰リストを MATLAB に渡すことはできません</entry>
+    <entry key="InvalidStructField">MATLAB 構造体では無効なフィールドです</entry>
+    <entry key="RecurDictNotSupported">再帰ディクショナリを MATLAB に渡すことはできません</entry>
+    <entry key="NoneNotSupported">いずれも MATLAB に渡すことはできません</entry>
+    <entry key="MVNotSupported">memoryview を MATLAB に渡すことはできません</entry>
+    <entry key="UnsupportedPythonData">サポートされていない Python のデータ型: {0}</entry>
+    <entry key="CharArrayFromMatlab">MATLAB から返すことができるのは 1 行 N 列および N 行 1 列の char 配列のみです</entry>
+    <entry key="CellArrayFromMatlab">MATLAB から返すことができるのは 1 行 N 列および N 行 1 列の cell 配列のみです</entry>
+    <entry key="StringArrayFromMatlab">MATLAB からは 1 行 N 列および N 行 1 列の string 配列のみを返すことができます</entry>
+    <entry key="UnsupportedMatlabType">サポートされていないデータ型が MATLAB から返されました</entry>
+    <entry key="StructArrayFromMatlab">MATLAB から返すことができるのはスカラー struct のみです</entry>
+    <entry key="Int64ArrayNotSupported">このプラットフォームでは MATLAB の int64 型の配列を返すことはできません</entry>
+    <entry key="Uint64ArrayNotSupported">このプラットフォームでは MATLAB の uint64 型の配列を返すことはできません</entry>
+    <entry key="CompareObjectOnly">比較できるのは 'matlab.object' 型のオブジェクト間のみです</entry>
+    <entry key="ObjectCantLessThan">'より小さい' 比較は 'matlab.object' ではサポートされていません</entry>
+    <entry key="ObjectCantLessEqual">'以下' 比較は 'matlab.object' ではサポートされていません</entry>
+    <entry key="ObjectCantGreaterThan">'より大きい' 比較は 'matlab.object' ではサポートされていません</entry>
+    <entry key="ObjectCantGreaterEqual">'以上' 比較は 'matlab.object' ではサポートされていません</entry>
+    <entry key="IndexExceedsDim">インデックスが行列の次元を超えています</entry>
+    <entry key="AttributeNotRetrieved">属性を取得できません</entry>
+    <entry key="MethodNotCalled">メソッドを呼び出せません</entry>
+  </message>
+</rsccat>

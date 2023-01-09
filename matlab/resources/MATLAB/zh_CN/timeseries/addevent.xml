@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">addevent 方法只能用于单时序对象</entry>
+    <entry key="badtype">addevent 的第二个参数必须是 tsdata.event 对象。</entry>
+    <entry key="cellarrayname">按名称添加事件时，必须使用字符向量元胞数组或字符串数组指定名称。</entry>
+    <entry key="times">按名称添加事件时，必须使用日期字符向量元胞数组、字符串数组或数值时间数组指定时间值。</entry>
+    <entry key="size">按名称添加事件时，名称和时间元胞数组的大小必须相同。</entry>
+    <entry key="name">按名称添加事件时，必须将名称指定为字符向量/字符串或字符向量/字符串元胞数组。</entry>
+  </message>
+</rsccat>

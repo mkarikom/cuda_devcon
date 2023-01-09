@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="pvsetNoValue">指定されたプロパティに対応する値がありません。</entry>
+    <entry key="nonScalarDatenum">IsDatenum プロパティは論理スカラー値でなければなりません。</entry>
+    <entry key="pvsetInvalid">無効なプロパティ名</entry>
+    <entry key="emptytimeseries">空の時系列を tscollection に追加できません。</entry>
+    <entry key="nosingleton">tscollection は空でない時間ベクトルでなければなりません。</entry>
+    <entry key="notimevectornocellarray">2 番目の引数は時間ベクトル、timeseries オブジェクト、timeseries オブジェクトのセル配列のいずれかでなければなりません。</entry>
+  </message>
+</rsccat>

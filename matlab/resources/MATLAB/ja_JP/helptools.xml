@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Tool_docCenterAdoc_Label">Bdoc を docroot として設定</entry>
+    <entry key="Tool_docCenterAdoc_Description">これはドキュメンテーション用の最新の設定です</entry>
+    <entry key="Tool_doccrawlerdebug_Label">ドキュメント検索クローラーのデバッグ</entry>
+    <entry key="Tool_doccrawlerdebug_Description">ドキュメント検索インデックスに関する問題を調査するツール</entry>
+    <entry key="Tool_htmlpaneldebugger_Label">HTML パネル デバッグ ツール</entry>
+    <entry key="Tool_htmlpaneldebugger_Description">MATLAB デスクトップで HTML パネル インスタンスをデバッグするためのツール</entry>
+    <entry key="Tool_linkchecker_Label">ドキュメント リンク チェッカー</entry>
+    <entry key="Tool_linkchecker_Description">ドキュメントのリンク先をチェックするための GUI</entry>
+    <entry key="Tool_linkcheckerdoc_Label">リンク チェッカー ドキュメンテーション</entry>
+    <entry key="Tool_linkcheckerdoc_Description">ドキュメンテーション リンク チェッカーについてのヘルプを表示します</entry>
+    <entry key="Tool_examplemanager_Label">Example Manager</entry>
+    <entry key="Tool_examplemanager_Description">内部に生成された例を探索します</entry>
+  </message>
+</rsccat>

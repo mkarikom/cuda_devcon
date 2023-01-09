@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="null_self">空の値においてメソッドを呼び出そうとしています。</entry>
+    <entry key="must_be_string">エントリ番号 {0,number,integer} は文字ベクトルでなければなりません</entry>
+    <entry key="must_be_cell_array">パラメーターはセル配列でなければなりません</entry>
+    <entry key="no_duplicates">文字ベクトル {0} は既にこのセットに存在します。</entry>
+  </message>
+</rsccat>

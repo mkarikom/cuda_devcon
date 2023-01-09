@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- Added messages: src/m_interpreter, src/m_lxe -->
+    <entry key="cannotClearWhenAllEnabled">Cannot clear the ''{0}'' setting for ''{1}'' when the setting is enabled for all identifiers. Use ''{2}'' to clear the setting for all identifiers.</entry>
+    <entry key="dbNameNotSpecified">A file name must be specified.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidOption">''{0}'' は有効なオプションではありません。\n日付形式を含める場合は、代わりに WEEKDAY(DATENUM(DATE,FORMAT),...) を使用してください。</entry>
+    <entry key="InvalidOptionType">引数タイプが正しくありません。文字ベクトルまたは string スカラーが必要です。</entry>
+  </message>
+</rsccat>

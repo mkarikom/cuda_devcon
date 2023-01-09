@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="inputDimensionMismatch">最初の引数は 2 次元行列でなければなりません。</entry>
+    <entry key="COLnotNumeric">COL は数値でなければなりません。</entry>
+    <entry key="COLmismatchX">列並べ替えベクトルは、1 から最初の引数の列数までの絶対値である整数を含まなければなりません。</entry>
+    <entry key="nonScalarCell">X のセルの一部は非スカラー値を含むため、並べ替えることができません。</entry>
+    <entry key="DIRnotRecognized">並べ替えの方向は、''ascend'' または ''descend'' でなければなりません。</entry>
+    <entry key="DIRnotString">DIR オプションは、文字ベクトル、セル文字ベクトルまたは string 配列でなければなりません。</entry>
+    <entry key="DIRmismatchCOL">DIR オプションは COL と同じサイズでなければなりません。</entry>
+    <entry key="DIRmustbescalar">DIR オプションは、2 番目の引数として使用される場合はスカラーでなければなりません。</entry>
+    <entry key="InvalidAbsRealType">''ComparisonMethod'' パラメーターは、最初の引数が {0} 配列である場合にはサポートされません。</entry>
+    <entry key="InvalidComparison">''ComparisonMethod'' の値は、''auto''、''abs'' または ''real'' でなければなりません。</entry>
+    <entry key="InvalidFirstLastType">''MissingPlacement'' パラメーターは、最初の引数が {0} 配列である場合にはサポートされません。</entry>
+    <entry key="InvalidMissingPlace">''MissingPlacement'' の値は、''auto''、''first'' または ''last'' でなければなりません。</entry>
+    <entry key="NameValueNames">パラメーター名は、'ComparisonMethod' または 'MissingPlacement' でなければなりません。</entry>
+    <entry key="NameValuePairs">引数の数が正しくありません。パラメーターの名前と値はペアでなければなりません。</entry>
+    <entry key="NumDirectionsSecond">並べ替えの方向は、1 つの方向か、最初の引数の列ごとに 1 つの方向を指定しなければなりません。</entry>
+    <entry key="NumDirectionsThird">並べ替えの方向は、1 つの方向か、列並べ替えベクトルの要素ごとに 1 つの方向を指定しなければなりません。</entry>
+    <entry key="SecondArgumentType">2 番目の引数は、列並べ替えベクトルまたは並べ替えの方向を指定しなければなりません。</entry>
+    <entry key="ThirdArgumentType">並べ替えの方向は、文字ベクトルまたは文字ベクトルのセル配列でなければなりません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="matrixEntriesMustBeFinite">Input matrix contains Inf or NaN.</entry>
+    <entry key="vectorLengthMustMatch">Cluster or selection vector must have length equal to the number of eigenvalues.</entry>
+    <entry key="CLUSTERMustBeIntegerVector">Cluster indices must be positive integers.</entry>
+    <entry key="reorderingFailed">Algorithm did not succeed.</entry>
+    <entry key="inputMustBe2D">Input array must be 2-dimensional.</entry>
+    <entry key="invalidOption">Option must be ''lhp'', ''rhp'', ''udi'', or ''udo''.</entry>
+    <entry key="invalidQZStructure">Input matrices must be in valid QZ form.</entry>
+    <entry key="inputSparse">Sparse matrices are not supported.</entry>
+    <entry key="inputType">Invalid data type. First four arguments must be double or single.</entry>
+  </message>
+</rsccat>

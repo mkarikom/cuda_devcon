@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invalidIntegrand">First input argument must be a function handle.</entry>
+    <entry key="invalidA">A must be a finite, scalar, floating point constant.</entry>
+    <entry key="invalidB">B must be a finite, scalar, floating point constant.</entry>
+    <entry key="invalidC">C must be a finite, scalar, floating point constant or a function handle.</entry>
+    <entry key="invalidD">D must be a finite, scalar, floating point constant or a function handle.</entry>
+    <entry key="nonFiniteResult">Non-finite result. The integration was unsuccessful. Singularity likely.</entry>
+    <entry key="minRectSizeFail">Reached the minimum rectangle size. The result fails the global error test.</entry>
+    <entry key="minRectSizePass">Reached the minimum rectangle size. The result passes the global error test.</entry>
+    <entry key="CSizeMismatch">Lower limit size mismatch: size(C(x)) does not match size(x).</entry>
+    <entry key="nonFiniteCx">C(x) must be a finite.</entry>
+    <entry key="DSizeMismatch">Upper limit size mismatch: size(D(x)) does not match size(x).</entry>
+    <entry key="nonFiniteDx">D(x) must be a finite.</entry>
+    <entry key="SizeMismatch">Integrand output size does not match the input size.</entry>
+    <entry key="invalidAbsTol">Invalid AbsTol</entry>
+    <entry key="invalidRelTol">Invalid RelTol</entry>
+    <entry key="invalidSingular">Singular option must be true or false.</entry>
+    <entry key="invalidFailurePlot">FailurePlot option must be true or false.</entry>
+    <entry key="invalidMaxFunEvals">MaxFunEvals must be a positive integer scalar.</entry>
+    <entry key="increasedRelTol">RelTol was increased to 100*eps(''{0}'') = {1}.</entry>
+    <entry key="maxFunEvalsFail">Reached the maximum number of function evaluations ({0,number,integer}). The result fails the global error test.</entry>
+    <entry key="maxFunEvalsPass">Reached the maximum number of function evaluations ({0,number,integer}). The result passes the global error test.</entry>
+    <entry key="FunVectorization">Integrand function outputs did not match to the required tolerance when the same input values were supplied in two separate calls with different size input matrices. Check that the function is vectorized properly.</entry>
+  </message>
+</rsccat>
+
+

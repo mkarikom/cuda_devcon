@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidTimeRange">时间范围无效</entry>
+    <entry key="EnterColumnIndexTimeVector">输入用于存储时间向量的列索引: (例如 25)</entry>
+    <entry key="EnterRowIndexTimeVector">输入用于存储时间向量的行索引: (例如 34)</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="WhatsThis">这是什么</entry>
+    <entry key="SelectRowColumnTimeVector">选择包含时间向量的行/列。</entry>
+    <entry key="Time">时间</entry>
+    <entry key="FirstValue">第一个值</entry>
+    <entry key="PutInStartingPointOfTimeRange">放入正确格式的时间范围的起点，导入向导将会自动找到具有用户定义范围的有效时间点。</entry>
+    <entry key="LastValue">最后一个值</entry>
+    <entry key="PutInEndingPointOfTimeRange">放入正确格式的时间范围的终点，导入向导将会自动找到具有用户定义范围的有效时间点。</entry>
+    <entry key="Format">格式</entry>
+    <entry key="Units">单位</entry>
+    <entry key="SelectProperTimeDateFormat">选择正确的时间单位或日期格式</entry>
+    <entry key="Weeks">周</entry>
+    <entry key="Days">天</entry>
+    <entry key="Hours">小时</entry>
+    <entry key="Minutes">分钟</entry>
+    <entry key="Seconds">秒</entry>
+    <entry key="Milliseconds">毫秒</entry>
+    <entry key="Microseconds">微秒</entry>
+    <entry key="Nanoseconds">毫微秒</entry>
+  </message>
+</rsccat>

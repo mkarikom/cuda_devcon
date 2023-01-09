@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ExtraShortArgument">Specifying the number of columns is no longer necessary. Use slice(v,xi,yi,zi) instead.</entry>
+    <entry key="InvalidVDims">V must be a 3-D array.</entry>
+    <entry key="WrongNumberOfInputs">Wrong number of input arguments.</entry>
+    <entry key="ExtraArgument">Specifying the number of columns is no longer necessary. Use slice(x,y,z,v,xi,yi,zi) instead.</entry>
+  </message>
+</rsccat>

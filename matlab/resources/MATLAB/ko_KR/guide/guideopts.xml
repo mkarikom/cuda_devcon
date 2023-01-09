@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="figure1_Name">GUI 옵션</entry>
+    <entry key="text1_String">크기 조정 동작:</entry>
+    <entry key="omResize_String1">크기 조정할 수 없음</entry>
+    <entry key="omResize_String2">비례</entry>
+    <entry key="omResize_String3">기타(SizeChangedFcn 사용)</entry>
+    <entry key="text3_String">명령줄 접근성:</entry>
+    <entry key="omAccessibility_String1">콜백(GUI는 콜백 내에서만 현재 Figure가 됨)</entry>
+    <entry key="omAccessibility_String2">꺼짐(GUI는 현재 Figure가 될 수 없음)</entry>
+    <entry key="omAccessibility_String3">켜짐(명령줄 접근을 통해 GUI가 현재 Figure가 될 수 있음)</entry>
+    <entry key="omAccessibility_String4">기타(속성 인스펙터의 설정 사용)</entry>
+    <entry key="rbFigM_String">FIG 파일 및 MATLAB 파일 생성</entry>
+    <entry key="cbCallbacks_String">콜백 함수 프로토타입 생성</entry>
+    <entry key="cbSingleton_String">GUI에서는 한 인스턴스만 실행할 수 있음(싱글톤)</entry>
+    <entry key="cbBackground_String">배경에 시스템 색 체계 사용(권장)</entry>
+    <entry key="rbFigOnly_String">FIG 파일만 생성</entry>
+    <entry key="pbOk_String">확인</entry>
+    <entry key="pbCancel_String">취소</entry>
+    <entry key="pbHelp_String">도움말</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidinput">第一个输入必须为 java 对象</entry>
+    <entry key="invalidevent">{0} 的回调名称无法识别。\n有效回调为:\n {1}</entry>
+    <entry key="InvalidParentHandle">父句柄无效\n{0}</entry>
+    <entry key="JavaFigsNotEnabled">未启用 Java 图窗</entry>
+    <entry key="InvalidPosition">组件位置无效\n{0}</entry>
+    <entry key="FeatureNotSupported">此平台不支持 JAVACOMPONENT</entry>
+    <entry key="IncorrectUsage">\n警告: MATLAB 不支持此功能，API 和\n功能在以后的版本中可能会更改。\n\n用法: javacomponent(javaClassName, position, parent, callback) \n- position 可以为空、[left bottom width height] 以像素为单位，\n 也可以使用字符向量 North、South、East 或 West。\n- parent 可以是图窗或 UI 工具栏句柄。\n- callback 可以为空，也可以是由 JavaEvents 及其处理程序组成的元胞数组。</entry>
+  </message>
+</rsccat>

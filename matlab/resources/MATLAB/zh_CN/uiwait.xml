@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInputType">输入参数必须为图窗类型</entry>
+    <entry key="InvalidSecondInputType">第二个输入必须为数值</entry>
+    <entry key="InvalidSecondInputValue">超时值不能小于一秒，因此请将超时值更改为一秒。</entry>
+  </message>
+</rsccat>

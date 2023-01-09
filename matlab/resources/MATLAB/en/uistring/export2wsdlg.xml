@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="YouMustCheckABoxToExportVariables">You must check a box to export variables</entry>
+      <entry key="NothingSelected">Nothing selected</entry>
+      <entry key="Help">Help</entry>
+      <entry key="Cancel">Cancel</entry>
+      <entry key="OK">OK</entry>
+      <entry key="NotValidMATLABVariableNamesOneVariables">"{0}" is not a valid MATLAB variable name.</entry>
+      <entry key="NotValidMATLABVariableNamesThreeVariables">{0} "{1}" and "{2}" are not valid MATLAB variable names.</entry>
+      <entry key="OverWriteQuestionOneVariable">"{0}" already exists. Do you want to overwrite it?</entry>
+      <entry key="OverWriteQuestionThreeVariables">{0} "{1}" and "{2}" already exist. Do you want to overwrite them?</entry>
+      <entry key="ExportToWorkspace">Export To Workspace</entry>
+      <entry key="InvalidVariableNames">Invalid variable names</entry>
+      <entry key="InvalidVariableName">Invalid variable name</entry>
+      <entry key="DuplicateVariableNames">Duplicate variable names</entry>
+      <entry key="DuplicateVariableName">Duplicate variable name</entry>
+      <entry key="VariablesHaveBeenCreatedInTheCurrentWorkspace">Variables have been created in the base workspace.</entry>
+      <entry key="Yes">Yes</entry>
+      <entry key="No">No</entry>
+      <entry key="AnEmptyStringIsNotAValidChoiceForAVariableName" note="stringDatatypeUpdate">An empty character vector is not a valid choice for a variable name.\n</entry>
+      <entry key="NotValidMATLABVariableNamesTwoVariables">"{0}" and "{1}" are not valid MATLAB variable names.</entry>      
+      <entry key="OverWriteQuestionTwoVariables">"{0}" and "{1}" already exist. Do you want to overwrite them?</entry>
+   </message>
+</rsccat>

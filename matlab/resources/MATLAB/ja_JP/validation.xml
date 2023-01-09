@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnableToConvertMessage">値は {0} 型であるか、{0} に変換可能でなければなりません。</entry>
+    <entry key="ShortStringChoices">
+  値は次のいずれかでなければなりません:\n{0}
+</entry>
+    <entry key="SixStringChoices">
+  値は ''{0}''、''{1}''、''{2}''、''{3}''、''{4}'' または ''{5}'' でなければなりません。
+</entry>
+    <entry key="FiveStringChoices">
+  値は ''{0}''、''{1}''、''{2}''、''{3}'' または ''{4}'' でなければなりません。
+</entry>
+    <entry key="FourStringChoices">
+  値は ''{0}''、''{1}''、''{2}'' または ''{3}'' でなければなりません。
+</entry>
+    <entry key="ThreeStringChoices">
+  値は ''{0}''、''{1}'' または ''{2}'' でなければなりません。
+</entry>
+    <entry key="TwoStringChoices">
+  値は ''{0}'' か ''{1}'' でなければなりません。
+</entry>
+    <entry key="OneStringChoice">
+  値は ''{0}'' でなければなりません。
+</entry>
+    <entry key="LongEnumConversionMessageWithHyperlink">
+  &lt;a href="matlab:enumeration(''{0}'');"&gt;有効なオプションのリスト&lt;/a&gt;を参照してください。
+</entry>
+    <entry key="LongEnumConversionMessageWithoutHyperlink">
+  有効なオプションのリストを表示するには、「enumeration(''{0}'')」と入力します。
+</entry>
+    <entry key="ShortEnumConversionMessageForTextInput">
+  ''{0}'' が無効です。{1}
+</entry>
+    <entry key="LongEnumConversionMessageWithHyperlinkForTextInput">
+  ''{0}'' は有効な値ではありません。&lt;a href="matlab:enumeration(''{1}'');"&gt;有効なオプションのリスト&lt;/a&gt;を参照してください。
+</entry>
+    <entry key="LongEnumConversionMessageWithoutHyperlinkForTextInput">
+  ''{0}'' は有効な値ではありません。有効なオプションのリストを表示するには、「enumeration(''{1}'')」と入力します。
+</entry>
+    <entry key="AmbiguousEnumMessage">
+  ''{0}'' はあいまいです。{1}
+</entry>
+    <entry key="NotScalar">値はスカラーでなければなりません。</entry>
+    <entry key="NotVector">値はベクトルでなければなりません。</entry>
+    <entry key="NotMatrix">値は行列でなければなりません。</entry>
+    <entry key="NotVectorOfFixedLength">値は {0} 要素のベクトルでなければなりません。</entry>
+    <entry key="NotMatrixOfFixedRowLength">値は {0} 行の行列でなければなりません。</entry>
+    <entry key="NotMatrixOfFixedColumnLength">値は {0} 列の行列でなければなりません。</entry>
+    <entry key="NotMatrixOfFixedDimensionLength">値はサイズ {0} の行列でなければなりません。</entry>
+    <entry key="Not3d">値は 3 次元配列でなければなりません。</entry>
+    <entry key="InvalidSizeWithUnfixedDimensions">値はサイズ {0} の配列でなければなりません。ここで、* は任意サイズの次元を示します。</entry>
+    <entry key="InvalidSizeWithFixedDimensions">値はサイズ {0} の配列でなければなりません。</entry>
+    <entry key="IndexingLimitExceeded">次元の値は 2^48 未満でなければなりません。</entry>
+    <entry key="NameWithQuote">
+      ''{0}''
+    </entry>
+    <entry key="ShortEnumConversionMessage">
+      {0}
+    </entry>
+  </message>
+</rsccat>

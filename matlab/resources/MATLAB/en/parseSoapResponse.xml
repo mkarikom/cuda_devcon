@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="BadXml">The server''s response was not valid XML:\n\n{0}</entry>
+    <entry key="SoapFault">SOAP Fault: {0}</entry>
+    <entry key="NonUnique">Non-unique elements.</entry>
+    <entry key="BadBoolean">Boolean value is neither true nor false.</entry>
+  </message>
+</rsccat>

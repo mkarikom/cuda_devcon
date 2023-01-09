@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnsupportedClass">无法写入值: 不支持类 {0}</entry>
+    <entry key="UnsupportedAttribute">无法写入值: 不支持稀疏数组。</entry>
+    <entry key="UnsupportedString">无法写入值: 非标量字符串不受支持。</entry>
+  </message>
+</rsccat>

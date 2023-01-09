@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MoreInformation">詳細は、MathWorks の Web サイトに記載されている&lt;a href="http://www.mathworks.co.jp/support/contact_us/dev/obsoleteprintdevices.html?device={0}"&gt;旧式の出力形式&lt;/a&gt;のリソースを参照してください。</entry>
+    <entry key="ThePrintDeviceWillBeRemovedInAFutureRelease">''{0}'' の印刷デバイスは、MATLAB の将来のリリースでは削除される予定です。</entry>
+    <entry key="TheGraphicExportFormatWillBeRemovedInAFutureRelease">''{0}'' のグラフィックスのエクスポート形式は、MATLAB の将来のリリースでは削除される予定です。</entry>
+    <entry key="ThedillPrintDeviceWillBeRemovedInAFutureRelease">''-dill'' の印刷デバイスは、将来のリリースで削除される予定です。代わりに Encapsulated PostScript (''-depsc'') を使用してください。</entry>
+    <entry key="ThePrintDeviceHasBeenRemoved">MATLAB では ''{0}'' 印刷デバイスのサポートを終了しました。</entry>
+    <entry key="TheGraphicExportFormatHasBeenRemoved">MATLAB では ''{0}'' グラフィックス エクスポート形式のサポートを終了しました。</entry>
+    <entry key="ThedillPrintDeviceHasBeenRemoved">MATLAB では ''-dill'' グラフィックス エクスポート形式のサポートを終了しました。代わりに Encapsulated PostScript (''-depsc'') を使用してください。</entry>
+  </message>
+</rsccat>

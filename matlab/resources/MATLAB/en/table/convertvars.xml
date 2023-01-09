@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2017-2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidVars">Specify table variables using numeric or logical indices, variable names, or a function handle that returns a logical scalar.</entry>
+    <entry key="InvalidTextType">Unable to convert to type ''{0}''. Specify the data type as the name of a class or a function handle.</entry>
+    <entry key="InvalidType">Specify the data type as text containing the name of a class, or a function handle.</entry>
+    <entry key="ConvertCharWarning">Converting to data type 'char' converts variables into cell arrays of character vectors rather than a character array. Storing text data as character arrays in a table is not recommended. When working with text data in a table or a timetable, consider using a string array or a categorical array.</entry>
+    <entry key="IncorrectNumRows">Converted variables must maintain the same number of rows as the original variables.</entry>
+    <entry key="RowLabelsCannotBeDataVar">Row names are not supported as a data variable.</entry>
+    <entry key="RowLabelsCannotBeDataVarNondefaultName">Unrecognized variable name ''{0}''. You may have intended to access the row names, which are named ''{1}'' in this table. However, row names are not supported as a data variable.</entry>
+    <!-- codegen -->
+    <entry key="NonConstantArg">The ''{0}'' argument must be constant.</entry>
+  </message>
+</rsccat>

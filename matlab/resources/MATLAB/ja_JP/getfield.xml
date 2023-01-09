@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InsufficientInputs">入力引数が不足しています。</entry>
+    <entry key="InvalidType">入力は、string、文字ベクトル、またはインデックスの cell 配列でなければなりません。</entry>
+    <entry key="InvalidFieldName">無効なフィールド名: ''{0}''。</entry>
+  </message>
+</rsccat>

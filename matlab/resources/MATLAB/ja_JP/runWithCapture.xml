@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidBooleanValue">"{0}" オプションの値は "on"、"off"、数値、または logical でなければなりません。</entry>
+    <entry key="InvalidInputs">無効な入力オプションです。</entry>
+    <entry key="UnrecognizedInputs">認識されない入力オプションです。</entry>
+    <entry key="UnrecognizedOption">認識されないオプション "{0}" です。</entry>
+  </message>
+</rsccat>

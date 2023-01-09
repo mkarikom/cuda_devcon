@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="braceNotSupported">Brace indexing into a lazy colon descriptor is not supported.</entry>
+    <entry key="indexIntoEmptyObject">Indexing into an empty colon descriptor is not supported.</entry>
+    <entry key="methodNotSupported">The method {0} is not supported for lazy colon descriptor.</entry>
+    <entry key="onlyOneIndex">Only one index to a lazy colon descriptor is supported.</entry>
+    <entry key="parenReferenceUnsupported">Combining lazy colon indexing with parenReference is not supported.</entry>
+    <entry key="subscriptedAssignmentNotSupported">Assignment to elements of a lazy colon descriptor is not supported.</entry>
+    <entry key="singlePrecisionMaxIndexExceeded">Single precision index values must be less than 2^24.</entry>
+    <entry key="doublePrecisionMaxIndexExceeded">Index value must be less than 2^53.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="IsALiveScript">{0} 为实时脚本。</entry>
+    <entry key="IsALiveFunction">{0} 为实时函数。</entry>
+    <entry key="OpenInLiveEditor">在实时编辑器中打开</entry>
+    <entry key="TopicNotFound">\n未找到 {0}。\n</entry>
+    <entry key="GettingStarted">不熟悉 MATLAB?请参阅有关&lt;a href="matlab:helpview(fullfile(docroot, '/matlab/helptargets.map'), 'matlab_getting_started')"&gt;快速入门&lt;/a&gt;的资源。\n\n要查看文档，请&lt;a href="matlab:doc"&gt;打开帮助浏览器&lt;/a&gt;。\n</entry>
+    <entry key="SearchMessageWithLinks">请使用帮助浏览器的搜索字段&lt;a href="matlab:{0}"&gt;搜索文档&lt;/a&gt;，或者\n键入 "&lt;a href="matlab:help help"&gt;help help&lt;/a&gt;" 获取有关帮助命令选项的信息，例如方法的帮助。\n</entry>
+    <entry key="SearchMessageNoLinks">请使用帮助浏览器的搜索字段搜索文档，或者\n键入 "help help" 获取有关帮助命令选项的信息，例如方法的帮助。\n</entry>
+    <entry key="ReferencePageFor">{0} 的文档</entry>
+    <entry key="DocumentationFor">{0} 文档</entry>
+    <entry key="FoldersNamed">名为 {0} 的文件夹</entry>
+    <entry key="NoFoldersNamed">没有名为 {0} 的文件夹。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NonPairedArgs">''{0}'' input arguments must be name-value pairs.</entry>
+    <entry key="NonStringFieldNames" note="stringDatatypeUpdate">Field names must be string scalars or character vectors.</entry>
+    <entry key="PythonUnavailable">Cannot create ''{0}'' before Python is loaded.</entry>
+  </message>
+</rsccat>

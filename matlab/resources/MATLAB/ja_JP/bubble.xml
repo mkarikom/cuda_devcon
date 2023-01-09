@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidData">{0}、{1} および Size は、同じ長さのベクトルでなければなりません。</entry>
+    <entry key="InvalidData3">X、Y、Z および Size は同じ長さのベクトルでなければなりません。</entry>
+    <entry key="InvalidCData">CData は、ColorSpec、RGB 3 成分、X と同じ長さの N 行 1 列のベクトル、または N 行 3 列の行列でなければなりません。</entry>
+  </message>
+</rsccat>

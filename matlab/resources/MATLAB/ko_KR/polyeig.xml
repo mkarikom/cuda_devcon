@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="tooFewInputs">적어도 2개의 행렬을 제공해야 합니다.</entry>
+    <entry key="nonSingularCoeffMatrix">선행 또는 후행 계수 행렬은 정칙이어야 합니다.</entry>
+  </message>
+</rsccat>

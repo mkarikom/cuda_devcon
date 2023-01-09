@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="notfound">The findobj method was not found on class handle.</entry>
+    <entry key="NotSupported">The findobj function is not supported for class ''{0}''.</entry>
+    <entry key="badinput">Invalid handle array</entry>
+    <entry key="SyntaxErr">Syntax error in findobj.</entry>
+    <entry key="FunctionHandleReturnValue">Function passed with '-function' option must return a logical scalar.</entry>
+    <entry key="InvalidOption">''{0}'' is not a valid option to findobj.</entry>
+    <entry key="DepthMustBeNumber">'-depth' must be followed by a numeric scalar search depth.</entry>
+    <entry key="FunctionHandle">The '-function' option must be followed by a function handle or a property name and function handle.</entry>
+    <entry key="ClassNeeded">Missing class using the '-class' option</entry>
+    <entry key="InvalidClass">The '-class' option must be followed by a meta.class instance or valid class name.</entry>
+    <entry key="InvalidIsa">The '-isa' option must be followed by a meta.class instance or valid class name.</entry>
+    <entry key="PropertyRequired">The '-property' option must be followed by a property name as a character vector or string scalar.</entry>
+    <entry key="MethodRequired">The '-method' option must be followed by a method name as a character vector or string scalar.</entry>
+    <entry key="EventRequired">The '-event' option must be followed by an event name as a character vector or string scalar.</entry>
+    <entry key="IncompletePVPair">Incomplete parameter-value pair.</entry>
+    <entry key="noregexp">Regular expression comparison is not supported for the ''{0}'' property: using ordinary comparison.</entry>
+    <entry key="InvalidHeterogeneousArray">Objects matching findobj expression are of different specific classes that cannot be combined into a valid heterogeneous array.</entry>
+    <entry key="mustReturnLogicalScalar">Function passed with '-function' directive must return a logical scalar</entry>
+  </message>
+</rsccat>
+

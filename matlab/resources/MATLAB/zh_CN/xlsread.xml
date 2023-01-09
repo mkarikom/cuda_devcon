@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Wildcard">未找到文件 {0}。XLSREAD 中不能使用通配符。</entry>
+    <entry key="FileNotFound">无法打开文件 ''{0}''。\n{1}</entry>
+    <entry key="FileDoesNotExist">未找到文件 ''{0}''。</entry>
+    <entry key="FileName">必须指定文件名。</entry>
+    <entry key="ActiveX">无法启动 Excel 服务器以导入，将使用 ''basic'' 模式。有关详细信息，请参考 HELP XLSREAD。</entry>
+    <entry key="RangeIncompatible">''basic'' 模式下不能使用范围。将加载整张工作表。</entry>
+    <entry key="InteractiveIncompatible">''basic'' 模式下不能使用交互选项。将加载第一张工作表。</entry>
+    <entry key="Incompatible">''basic'' 模式下不能使用自定义函数。自定义函数参数将被忽略。</entry>
+    <entry key="NotHandle">XLSREAD 的第五个参数必须为函数句柄。</entry>
+    <entry key="FileFormat">文件 {0} 不是 Microsoft Excel 格式。</entry>
+    <entry key="RangeSelection">数据范围 ''{0}'' 无效。</entry>
+    <entry key="InvalidFileName">文件名必须为字符串或字符向量。</entry>
+    <entry key="InvalidSheet">工作表参数必须为字符串标量、字符向量或整数。</entry>
+    <entry key="InvalidRange">范围参数必须为字符串或字符向量。请参阅 HELP XLSREAD。</entry>
+    <entry key="InvalidMode">导入模式无效。XLSREAD 会将模式重置为正常模式。</entry>
+    <entry key="InvalidSheetBasicMode">在基本模式下，工作表参数必须为字符串或字符向量。</entry>
+    <entry key="WorksheetNotActivated">无法激活 Excel 工作表。</entry>
+    <entry key="WorksheetNotFound">未找到工作表 ''{0}''。</entry>
+    <entry key="NoHandleForCustom">未提供函数句柄输入的情况下无法返回自定义输出。</entry>
+    <entry key="DialgoDataSelectionDialogue">数据选择对话框</entry>
+    <entry key="DlgSelectDataRegion">在 Excel 工作表中选择数据区域。</entry>
+    <entry key="DlgClickOKToContinueInMATLAB">在 MATLAB 中单击“确定”继续</entry>
+    <entry key="UnableToOpenFile">无法打开文件 {0}。\n{1}</entry>
+    <entry key="UnableToReadSheet">无法读取工作表 {0}。\n{1}</entry>
+    <entry key="WorksheetNotOpened">无法读取工作表 ''{0}''。\n{1}</entry>
+    <entry key="noJVM">需要 Java 来加载此类型的 Excel 文件。</entry>
+    <entry key="thirdArgument">由于第二个输入项为范围，因而将忽略第三个输入项。要同时指定工作表和范围，请先列出工作表，然后再列出范围。</entry>
+    <entry key="spreadsheetSynchronous">未来的版本中将废弃对电子表格文件使用 uiimport 函数的同步计算。请改用异步 uiimport 语法。</entry>
+    <entry key="NoRangeSelected">未选择数据区域。</entry>
+    <entry key="FirstArgumentNotString">第一个参数必须为字符串或字符向量。</entry>
+    <entry key="NamedRangeNotSupported">命名范围 ''{0}'' 解析为 ''{1}'' 并且在此模式下不受支持。</entry>
+    <entry key="invalidList">输入 ''{0}'' 无效。</entry>
+    <entry key="NamedRangeNotInScope">指定的范围 ''{0}'' 限定为工作表 {1}，这与请求的输入工作表 {2} 不匹配。</entry>
+    <entry key="SpreadsheetTooLarge">该电子表格太大，无法读取。请尝试读取更小范围的数据。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="valuesConvertedToEmpty">Clearing a memmapfile object caused MATLAB to run out of memory. To recover, one or more MATLAB values that had been derived from the object's Data field had to be changed to empty arrays. You should examine and validate your variables before continuing.</entry>
+    <entry key="usage">Usage: remainingRefCount = memunmap(memstruct).</entry>
+    <entry key="cannotUnmap">Failed to unmap specified file/segment.</entry>
+  </message>
+</rsccat>

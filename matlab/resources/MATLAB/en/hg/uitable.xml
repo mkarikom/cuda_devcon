@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="BadDataDimension">Data must be a two-dimensional matrix.</entry>
+    <entry key="BadDataType">Data must be a numeric, logical, string, cell, or table array</entry>
+    <entry key="BadDataCellArrayType">Values within a cell array must be numeric, logical, or char</entry>
+    <entry key="BadDataCellArraySize">Data within a cell array must have size [1 1]</entry>
+    <entry key="BadColumnWidthRowVector">ColumnWidth must be a row vector</entry>
+    <entry key="BadColumnWidthValue">
+        ColumnWidth must be a cell array containing numbers, or ''auto''. You can specify any combination of values (e.g., '{'100,50,''auto'',''auto'''}').
+    </entry>
+    <entry key="BadColumnFormatPopupmenuRowVector">ColumnFormat popupmenu definitions must be row vectors</entry>
+    <entry key="BadColumnFormatEmptyMatrix">ColumnFormat popupmenu definitions cannot contain empty matrices</entry>
+    <entry key="BadColumnFormatChar">ColumnFormat popupmenu definitions must contain only char values</entry>
+    <entry key="BadColumnFormatIncorrectDataType">ColumnFormat definitions must be either ''numeric'', ''logical'', ''char'', ''short'', ''long'', ''short e'', ''long e'', ''short g'', ''long g'', ''short eng'', ''long eng'', ''bank'', ''+'', ''rat'' or be a popupmenu definition</entry>
+    <entry key="BadColumnFormatInvalidDataType">ColumnFormat definitions must be either ''numeric'', ''logical'', ''char'', or be a popupmenu definition</entry>
+    <entry key="BadColumnFormatCellArray">ColumnFormat must be a cell array</entry>
+    <entry key="BadColumnFormatRowVector">ColumnFormat must be a row vector</entry>
+    <entry key="BadColumnEditableRowVector">ColumnEditable must be a row vector</entry>
+    <entry key="BadColumnEditableLogical">ColumnEditable must be a logical or logical array</entry>
+    <entry key="BadConversionCharToLogical">Cannot convert char edit to logical matrix.</entry>
+    <entry key="BadConversionLogicalToChar">Cannot convert logical edit to char matrix.</entry>
+    <entry key="BadConversionLogicalToNumeric">Cannot convert logical edit to numeric matrix.</entry>
+    <entry key="BadConversionNumericToLogical">Cannot convert numeric edit to logical matrix.</entry>
+    <entry key="BadDataDimensionValue">Data must be a two-dimensional matrix.</entry>
+    <entry key="BadDataArrayType">Values within a cell array must be numeric, logical, or char</entry>
+    <entry key="BadDataArraySize">Data within a cell array must have size [1 1]</entry>
+    <entry key="BadBackgroundColors">BackgroundColors must contain at least one color of the form [r g b]</entry> 
+    <entry key="CellEditWarning" translate="false" note="translate=false set due no translatable content">{0}</entry>
+    <entry key="invalidScrollLocation">
+        <!-- 
+            {0} - top
+            {1} - bottom
+            {2} - left
+            {3} - right
+            -->
+        Location must be ''{0}'', ''{1}'', ''{2}'' or ''{3}''. 
+    </entry>
+    <entry key="invalidScrollTarget">
+        <!-- 
+            {0} - row
+            {1} - column
+            {2} - cell
+            -->
+        Target must be ''{0}'', ''{1}'' or ''{2}''. 
+    </entry>
+    <entry key="invalidColumnTargetIndex">
+        <!--
+        Target = ('column')
+        
+        {0} = Target
+        --> 
+        Option for ''{0}'' must be a positive integer within the range of data, or a character vector matching a variable name.
+    </entry>
+    <entry key="invalidNumericTargetIndex">
+        <!--
+        Target = ('row')
+        
+        {0} = Target
+        --> 
+        Option for ''{0}'' must be a positive integer within the range of data.
+    </entry>
+    <entry key="invalidCellTargetIndex">
+        <!--
+        Target = ('cell')
+        
+        {0} = Target
+        --> 
+        Option for ''{0}'' must be an 1-by-2 vector of positive integers within the range of data.
+    </entry>
+  </message>
+</rsccat>

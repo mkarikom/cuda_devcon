@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="OldNameExists"> ''{0}''이(가) 클래스 또는 함수로 폴더 ''{2}''에 이미 존재하기 때문에 ''{1}'' 클래스에 대해 이전 이름 ''{0}''을(를) 사용할 수 없습니다.</entry>
+    <entry key="OldNameDuplicatesBuiltinOrOtherLanguageClass"> 클래스 별칭 지정을 통해 ''{0}''의 이름을 ''{1}''(으)로 바꿀 수 없습니다. 그 이유는 ''{0}''이(가) 내장되어 있거나 다른 언어로 생성되었기 때문입니다.</entry>
+    <entry key="InvalidAliasDefinition">별칭 정의 파일 ''{0}''에 유효하지 않은 구문이 있습니다.</entry>
+    <entry key="ChainingDirect"> 별칭 구성이 부적절합니다. ''{0}'' ''{1}''이(가) ''{2}'' 클래스에 대한 별칭이고, 이와 동시에 ''{1}''이(가) 다른 클래스의 실제 이름입니다. 이것은 허용되지 않습니다.</entry>
+    <entry key="InvalidAliasConfigurationChaining"> ''{0}'' 클래스에 대해 잘못된 별칭 구성이 발견되었습니다. 클래스의 이름을 여러 번 바꾸는 경우 이전 이름을 모두 지정하여 addAlias를 한 번 호출하십시오.</entry>
+    <entry key="InvalidAliasConfigurationUseChaining"> 유효하지 않은 별칭 구성입니다. 대신 한 라인에 ''{0}''을(를) 사용하십시오.</entry>
+    <entry key="ChainingReverse"> 별칭 구성이 부적절합니다. ''{0}'' 클래스가 ''{1}'' 클래스에 대한 별칭이고, 이와 동시에 ''{1}''이(가) 다른 클래스의 별칭입니다. 이것은 허용되지 않습니다.</entry>
+    <entry key="WarnPackageAliasing"> 패키지 에일리어싱을 사용하기 전에 MCOS 팀과 먼저 논의하십시오.</entry>
+    <entry key="InvalidAliasDefinitionWithLineNumberText"> 파일 ''{0}''\n 라인: ''{1}'' 열 ''{2}'' ''{3}''</entry>
+    <entry key="InvalidAliasKeyword">  ''{0}''\n ''{1}''</entry>
+    <entry key="SameOldAndNewNames"> ''{0}'' 별칭 이름 ''{1}''과(와) 현재 이름 ''{1}''이(가) 동일합니다.</entry>
+    <entry key="DuplicateAlias"> 유효하지 않은 별칭 구성임: 클래스 ''{0}''은(는) 둘 이상의 클래스에 대한 별칭으로 사용될 수 없습니다.</entry>
+    <entry key="AliasFileSystemError"> 별칭 파일 ''{0}''을(를) 여는 중 파일 시스템 오류가 발생했습니다. 이 파일에서 별칭을 생성할 수 없습니다.</entry>
+    <entry key="AliasShadowsBuiltin"> 클래스의 이름을 ''{0}''(으)로 지정하는 것은 올바르지 않습니다. 해당 이름이 이미 ''{1}'' 내장 클래스에 대해 등록된 별칭이기 때문입니다.</entry>
+    <entry key="DuplicateNewName"> 유효하지 않은 별칭 구성임: 클래스 ''{0}''이(가) 둘 이상의 별칭의 대상으로 사용됩니다. 두 번째 이후의 별칭 정의는 건너뜁니다.</entry>
+    <entry key="MissingNewClass"> Unable to use alias ''{0}'' of class ''{1}''  because there is no class definition with the new name ''{1}'' in folder ''{2}''.</entry>
+  </message>
+</rsccat>

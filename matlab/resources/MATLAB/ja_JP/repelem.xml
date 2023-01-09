@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NdSparseOutput">N 次元スパースの出力配列はサポートされません。</entry>
+    <entry key="nonNumericReplications">複製係数は数値でなければなりません。</entry>
+    <entry key="complexReplications">複素数の複製係数はサポートされていません。</entry>
+    <entry key="invalidReplications">複製係数は、非負の整数値のスカラーまたはベクトルでなければなりません。</entry>
+    <entry key="mismatchedReplicationsVector">repelem(v, N) では、N はスカラーまたは v と同じ長さのベクトルでなければなりません。</entry>
+    <entry key="mismatchedReplications">repelem(A, N1, N2, ..., Nn) では、Nj はスカラーまたは長さが size(A, j) のベクトルでなければなりません。</entry>
+    <entry key="twoInputNonVector">2 つの入力がある場合、最初の引数はベクトルでなければなりません。行列に 3 つの入力の構文を使用します。</entry>
+  </message>
+</rsccat>

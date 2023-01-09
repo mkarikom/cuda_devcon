@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ParameterValuesMustBeValid">{0} 컨트롤 {1}\n해당 파라미터 값이 모두 유효한 값이 될 때까지 컨트롤은 렌더링되지 않음</entry>
+    <entry key="ListboxTopMustBeWithinStringRange">이 uicontrol의 ListboxTop 값({0,number,integer})은 문자형 벡터 범위({1,number,integer}:{2,number,integer}) 내에 있어야 합니다.\n파라미터 값이 모두 유효한 값이 되어야만 컨트롤이 렌더링됩니다.</entry>
+    <entry key="SingleLineEditCannotHaveMultiLineText">단일 라인 편집 컨트롤에는 여러 라인 텍스트가 있을 수 없음</entry>
+    <entry key="BadType">이미지 CData에는 숫자형 행렬이 필요함</entry>
+    <entry key="ExpectedTruecolor">uicontrol CData 속성은 Truecolor여야 함</entry>
+    <entry key="ElementOutOfRange">TrueColor CData가 범위 0.0 &lt;= 값 &lt;= 1.0 밖의 요소를 포함하고 있음</entry>
+    <entry key="LineIncrementOutOfRange">슬라이더 스텝 라인 증분은 0과 1(구간의 끝점 포함) 사이여야 함</entry>
+    <entry key="PageIncrementOutOfRange">슬라이더 스텝 페이지 증분은 0보다 커야 함</entry>
+    <entry key="ValueMustBeScalar">{0} 컨트롤의 값은 스칼라여야 합니다.\n파라미터 값이 모두 유효한 값이 되어야만 컨트롤이 렌더링됩니다.</entry>
+    <entry key="ValueMustBeInRange">{0} 컨트롤에서 'Value'는 'Min'-'Max' 값 범위 밖에 있을 수 없습니다.\n파라미터 값이 모두 유효한 값이 되어야만 컨트롤이 렌더링됩니다.</entry>
+    <entry key="MinMustBeLessThanMax">{0} 컨트롤에서 'Min' 값은 'Max' 값보다 작아야 합니다.\n파라미터 값이 모두 유효한 값이 되어야만 컨트롤이 렌더링됩니다.</entry>
+    <entry key="ValueMustBeWithinStringRange">{0} 컨트롤에서 'Value' 는 문자형 벡터 범위 내의 정수여야 합니다.\n파라미터 값이 모두 유효한 값이 되어야만 컨트롤이 렌더링됩니다.</entry>
+    <entry key="StringMustBeNonEmpty">{0} 컨트롤에서 문자형 벡터는 비어 있을 수 없습니다.\n파라미터 값이 모두 유효한 값이 되어야만 컨트롤이 렌더링됩니다.</entry>
+  </message>
+</rsccat>

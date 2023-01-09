@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UVWSizeMismatch">ボリューム データ引数はすべて同じサイズでなければなりません。</entry>
+    <entry key="UVWNot3D">ボリューム データ引数は 3-D 配列でなければなりません。</entry>
+    <entry key="UVWPlanar">ボリューム データ引数は 2 x 2 x 2 以上のサイズでなければなりません。</entry>
+    <entry key="XYZMixedEmpty">Volume data arguments must be all empty or all non-empty.</entry>
+    <entry key="XUSizeMismatch">x 座標の引数のサイズは、ボリューム データ引数のサイズまたは列数と一致しなければなりません。</entry>
+    <entry key="YUSizeMismatch">y 座標の引数のサイズは、ボリューム データ引数のサイズまたは行数と一致しなければなりません。</entry>
+    <entry key="ZUSizeMismatch">z 座標の引数のサイズは、ボリューム データ引数のサイズまたはページ数と一致しなければなりません。</entry>
+  </message>
+</rsccat>

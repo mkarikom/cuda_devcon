@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="noarray">The getdatasamples method can only be used for a single timeseries object</entry>
+    <entry key="badlogicalsubscript">Logical index exceeds time vector length.</entry>
+    <entry key="badsubscript">Indices must be positive, integers that do not exceed the time vector length.</entry>
+    <entry key="badind">The subscript/index array must be a vector of logicals or positive integers that do not exceed the time vector length.</entry>
+  </message>
+</rsccat>

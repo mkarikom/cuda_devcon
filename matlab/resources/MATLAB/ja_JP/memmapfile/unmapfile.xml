@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="valuesConvertedToEmpty">memmapfile オブジェクトをクリアしたため、MATLAB でメモリ不足が発生しました。復元するには、オブジェクトの Data フィールドから派生している 1 つまたは複数の MATLAB の値を空の配列に変更しなければなりません。作業を続ける前に変数を調べて有効にする必要があります。</entry>
+    <entry key="usage">使用法:remainingRefCount = memunmap(memstruct).</entry>
+    <entry key="cannotUnmap">指定したファイル/セグメントのマッピングを解除できません。</entry>
+  </message>
+</rsccat>

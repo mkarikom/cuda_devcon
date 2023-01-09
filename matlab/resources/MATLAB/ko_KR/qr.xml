@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="internal">알고리즘이 성공하지 못했습니다.\n라이브러리 SuiteSparseQR에 내부 오류가 발생했습니다.</entry>
+    <entry key="inputTypeSparse">유효하지 않은 데이터형입니다. 첫 번째 인수는 double형이어야 합니다.</entry>
+    <entry key="inputTypeSparse2">유효하지 않은 데이터형입니다. 두 번째 인수는 double형이어야 합니다.</entry>
+    <entry key="rowDimNotMatch">행 차원이 일치하지 않습니다.</entry>
+    <entry key="notSupportFill">3개의 입력값으로 구성된 구문은 희소 행렬에서만 지원됩니다.</entry>
+    <entry key="inputMustBe2D">입력 배열은 2차원이어야 합니다.</entry>
+    <entry key="inputType">유효하지 않은 데이터형입니다. 첫 번째 인수는 double형이거나 single형이어야 합니다.</entry>
+    <entry key="unknownOptionForSecondInput">옵션은 0, ''matrix'' 또는 ''vector''여야 합니다.</entry>
+    <entry key="unknownOptionForThirdInput">옵션은 0, ''matrix'' 또는 ''vector''여야 합니다.</entry>
+    <entry key="invalidA">입력값은 희소 형식의 double형 행렬이어야 합니다.</entry>
+    <entry key="invalidH">첫 번째 입력 인수 H는 희소 형식의 double형 행렬이어야 합니다.</entry>
+    <entry key="invalidTau">두 번째 입력 인수 TAU는 길이가 P인 조밀한 double형 행 벡터여야 합니다.</entry>
+    <entry key="invalidPinv">세 번째 입력 인수 PINV는 길이가 M이고 모든 요소가 0과 M-1 사이에 있는 조밀한 INT64형 행 벡터여야 합니다.</entry>
+    <entry key="invalidX">네 번째 입력 인수 X는 M개의 행을 갖는 double형 행렬이어야 합니다.</entry>
+    <entry key="invalidTransp">다섯 번째 입력 인수 TRANSPOSE는 논리형 스칼라여야 합니다.</entry>
+    <entry key="invalidCombination">실수 Q와 복소수 X는 곱할 수 없습니다.</entry>
+    <entry key="invalidOrder">순서는 논리형 스칼라여야 합니다.</entry>
+    <entry key="invalidTol">허용오차는 double형 실수 스칼라여야 합니다.</entry>
+  </message>
+</rsccat>

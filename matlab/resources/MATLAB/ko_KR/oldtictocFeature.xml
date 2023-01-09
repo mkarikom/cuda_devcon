@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="elapsedTime">경과 시간은 {0}초입니다.\n</entry>
+    <entry key="noCpuTicTocSupport">''off''는 무시되었습니다. 새로운 내장 함수 tic과 toc(CPU 카운터 사용)은 지원되지 않습니다.</entry>
+  </message>
+</rsccat>

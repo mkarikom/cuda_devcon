@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2013 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" decorate_cxx_names="true">
+  <message>
+    <entry key="CannotInstantiateClass">{0} class can not be instantiated</entry>
+    <entry key="CannotGetProperty" translate="false">{0}</entry>
+    <entry key="CannotDelete" translate="false">{0}</entry>
+    <entry key="AmbiguousPropertyFound">Ambiguous property found.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!--- Errors -->
+
+    <entry key="KeyWithoutValue">No value given for {0}.</entry>
+    <entry key="NonScalarSource">Source must specify one node.</entry>
+    <entry key="NonScalarTarg">Target must specify one node.</entry>
+    <entry key="nomem">Out of memory. Consider using ''MaxNumPaths'' to restrict the number of paths to compute.</entry>
+  </message>
+</rsccat>

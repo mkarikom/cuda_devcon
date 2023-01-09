@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="XDataYDataAndZDataLengthsMustBeEqual">line の XData の長さ ({0,number,integer})、YData の長さ ({1,number,integer})、ZData の長さ ({2,number,integer}) は等しくなければなりません。</entry>
+    <entry key="XDataAndYDataLengthsMustBeEqual">ラインの XData の長さ ({0,number,integer}) と YData の長さ ({1,number,integer}) は等しくなければなりません</entry>
+  </message>
+</rsccat>

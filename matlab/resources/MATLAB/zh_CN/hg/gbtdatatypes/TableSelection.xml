@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidCellSelection">元胞选择索引必须为 N×2 数值数组。</entry>
+    <entry key="InvalidRowSelection">行选择索引必须为 1×N 数值数组。</entry>
+    <entry key="InvalidColumnSelection">列选择索引必须为 1×N 数值数组。</entry>
+    <entry key="SelectionOutOfBoundary">选择索引超出数据边界。</entry>
+    <entry key="InvalidSingleSelection">当 'Multiselect' 为 'off' 时，'Selection' 必须为空，或者是标量(如果选择类型为 'row' 和 'column')或 1×2 数值数组(如果选择类型为 'cell')。</entry>
+  </message>
+</rsccat>

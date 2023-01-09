@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="complexIntegers">Complex integers not supported.</entry>
+    <entry key="wrongInput">Invalid data type. First input argument must be numeric or logical.</entry>
+    <entry key="wrongFlag">Invalid option. Option must be 'forward', 'reverse', 'omitnan' or 'includenan'.</entry>
+    <entry key="wrongDirection">Invalid option. Option must be 'forward' or 'reverse'.</entry>
+    <entry key="duplicateDirection">Specify one only of 'forward' and 'reverse'.</entry>
+    <entry key="duplicateNaNFlag">Specify one only of 'omitnan' and 'includenan'.</entry>
+  </message>
+</rsccat>

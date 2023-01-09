@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">첫 번째 입력값은 파일 이름이거나 파일 ID여야 합니다.</entry>
+    <entry key="NotScalarIntValued">파일 ID는 double형 정수 값을 가진 스칼라여야 합니다.</entry>
+    <entry key="EncodingString">유효하지 않은 인코딩입니다.</entry>
+    <entry key="IncorrectFileMode">fopen의 파일 모드는 r, w, a, +, b, A, W 또는 t 이외의 모드는 포함할 수 없습니다.</entry>
+    <entry key="ConflictingExclusiveFileModes">fopen의 파일 모드는 모드 ''r'', ''w'' 또는 ''a'' 중 정확히 하나를 포함해야 합니다.</entry>
+    <entry key="ConflictingExclusiveFileModeModifiers">fopen의 파일 모드는 수정자 ''b'' 또는 ''t'' 중 하나만 포함할 수 있습니다.</entry>
+    <entry key="InvalidCharacter">파일 이름에 파일 시스템 인코딩에 포함되지 않은 문자가 있습니다.\n 일부 작업이 예상대로 동작하지 않을 수 있습니다.</entry>
+    <entry key="InvalidFileLocation">파일을 찾을 수 없습니다. 파일이 있고 경로가 유효한지 확인하십시오.</entry>
+    <entry key="SizeTooLage">Data size too large for reading. The maximum allowed size is 2^29 bytes.</entry>
+    <entry key="HDFSWriteSeekNotSupported">fseek 및 frewind는 HDFS 위치에 쓸 때 지원되는 작업이 아닙니다.</entry>
+  </message>
+</rsccat>

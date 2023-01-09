@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="FileOpenError">Unable to open file ''{0}'' for writing:\n\n{1}</entry>
+    <entry key="AmbiguousFileType">The file type ''{0}'' is ambiguous.</entry>
+    <entry key="UnrecognizedFileExtension">Unrecognized file extension ''{0}''.  Use the 'FileType' parameter to specify the file type.</entry>
+    <entry key="UnrecognizedFileType">Unrecognized file type ''{0}''.  The 'FileType' parameter must be 'text', 'spreadsheet', or 'xml'.</entry>
+    <!-- from writeTextFile -->
+    <entry key="InvalidDelimiterType">Delimiter must be a character vector or string scalar.</entry>
+    <entry key="UnrecognizedDelimiter">Delimiter must be one of these characters: ' ', '\\t', ',', ';', '|', or its corresponding character name: 'space', 'tab', 'comma', 'semi', or 'bar'.</entry>
+    <!-- from writeXLSFile -->
+    <entry key="InvalidRange" note="stringDatatypeUpdate">The range must be a character vector of the form ''A1:B2'' or ''A1''.</entry>
+    <entry key="NoCOMServer">Could not start Excel server for export.  Export to a text file instead.</entry>
+    <entry key="XlsWriteFailed">Error writing table to ''{0}'':\n\n{1}\n</entry>
+    <entry key="DataExceedsSheetBounds">The data block starting at cell ''{0}'' exceeds the sheet boundaries by {1, number, integer} row(s) and {2, number, integer} column(s).</entry>
+    <entry key="FileOpenInAnotherProcess">Unable to write to file ''{0}''.  You may not have write permissions or the file may be open by another application.</entry>
+    <entry key="FailedWrite">Unable to write to sheet ''{0}'' in file ''{1}''.  Disable sheet protection, disable workbook's Mark as Final option, and ensure input does not exceed cell capacity.</entry>
+    <entry key="CorruptOrEncrypted">Unable to write to file ''{0}''.  Ensure the file is a valid spreadsheet file and is not password protected. </entry>
+    <entry key="TimetableNotSupported">Writing timetable to a file is not supported. Use TIMETABLE2TABLE to convert to table.</entry>
+    <entry key="FirstArgumentIsTable">First argument must be a table.</entry>
+    <entry key="FirstArgument">First argument must be a {0}.</entry>
+    <entry key="NestedTables">Writing nested tables/timetables is not supported. Use SPLITVARS on the nested table before writing.</entry>
+    <entry key="NoFilename">Name not specified. Filename must include name of the file.</entry>
+    <entry key="WriteRowNamesNotSupported">'WriteRowNames' is not available for {0}. To write a TABLE with row names use WRITETABLE.</entry>
+    <entry key="WriteVariableNamesNotSupported">'WriteVariableNames' is not available for {0}. To write a TABLE or TIMETABLE with variable names use WRITETABLE or WRITETIMETABLE.</entry>
+    <entry key="UnsupportedTypeIn">Unsupported type ''{0}''. Convert the data to numeric, logical, string, datetime, duration, or categorical before writing. </entry>
+    <entry key="UnsupportedTypeInCell">Unsupported cell element of type ''{0}''. Convert the element to numeric, logical, string, datetime, duration, or categorical before writing.</entry>
+    <entry key="UnsupportedInputType">Unsupported type ''{0}''. Use {1} instead.</entry>
+    <entry key="UnsupportedNestedCell">Nested cell arrays are not supported.</entry>
+    <entry key="NoFileNameWithParams">Wrong number of arguments. A filename must be provided when supplying additional parameters, and each parameter name must be followed by a value.</entry>
+    <entry key="IncorrectArgumentOrder">Incorrect argument order. {0} expects a {1} as its first argument and a filename as its second argument.</entry>
+    <entry key="UnknownWriteFunction">Unknown write function {0}.</entry>
+    <entry key="OutOfSpace">Unable to write file ''{0}''.</entry>
+    <entry key="AppendAndRange">'Range' is not supported with 'WriteMode' 'append'.</entry>
+    <entry key="WriteVarNamesAndWriteMode">'WriteVariableNames' is not supported with 'WriteMode' 'append'.</entry>
+    <entry key="CellColumnVectorsUnsupported">Variable ''{0}'' contains cell column vectors. Writing variables containing cell column vectors to a spreadsheet using WRITETABLE is unsupported.</entry>
+    <entry key="NestedCellElementEmpty">Variable ''{0}'' contains a nested cell array with an empty element. Writing nested cell arrays containing empty elements to a spreadsheet using WRITETABLE is unsupported.</entry>
+    <entry key="SupportedFileTypes">Unrecognized file type ''{0}''.  The 'FileType' parameter must be one the following:\n\n    {1}</entry>
+  </message>
+</rsccat>

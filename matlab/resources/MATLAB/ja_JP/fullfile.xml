@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CellstrSizeMismatch">すべての string 配列および cell 配列の入力は同じサイズかスカラーでなければなりません。</entry>
+    <entry key="InvalidInputType">すべての入力は string、文字ベクトル、または文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="NumCharRowsExceeded">複数行による文字入力はサポートされていません。</entry>
+    <entry key="MixedInputType">非スカラーの string および文字ベクトルの cell 配列はすべて同じパス タイプでなければなりません。</entry>
+  </message>
+</rsccat>

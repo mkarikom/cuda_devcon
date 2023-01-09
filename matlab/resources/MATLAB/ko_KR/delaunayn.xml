@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">적어도 1개의 입력값이 필요합니다.</entry>
+    <entry key="HigherDimArray">X는 2차원 배열이어야 합니다.</entry>
+    <entry key="XLowColNum">X는 적어도 1개의 열을 가지고 있어야 합니다.</entry>
+    <entry key="NotEnoughPtsForTessel">삼각분할을 만들 고유한 점이 충분하지 않습니다.</entry>
+    <entry key="InvalidOpts">잘못된 옵션을 선택했습니다. 다른 옵션을 사용해 보십시오.</entry>
+    <entry key="DuplicateDataPoints">중복 데이터 점이 발견되었습니다.\n일부 데이터 점은 삼각분할에 있는 꼭짓점과 매핑되지 않습니다.\n이를 방지하려면 DELAUNAY를 호출하기 전에 데이터 점에서 UNIQUE를 호출하십시오.</entry>
+  </message>
+</rsccat>

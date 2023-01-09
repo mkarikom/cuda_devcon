@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AllPropertiesText">所有属性</entry>
+    <entry key="attributeMismatch">{0} 属性只能为 Logical 或 PositiveInteger 之一，并且必须具有有效的默认值。</entry>
+    <entry key="BadPropertyGroup">无法显示类 ''{0}'' 的对象，因为 ''getPropertyGroups'' 未返回有效的 ''{1}''。</entry>
+    <entry key="badSourceSetPolicyName">{0} 不是 SourceSet 策略的有效名称。有效名称包括 'PropertyOnly'、'PropertyOrInput'、'PropertyOrMethod' 和 'Disabled'</entry>
+    <entry key="badSourceSetSecondPolicyName">如果 {0} 是第一个 SourceSet 策略的客户端，则第二个策略的客户端必须为 {1}。</entry>
+    <entry key="badSourceSetPolicyClient">{0} 不是有效的策略客户端。</entry>
+    <entry key="badSampleTimeSpecTypeValue">''{0}'' 不是采样时间 'Type' 的有效值。有效值包括 'Discrete'、'Controllable'、'Fixed In Minor Step' 和 'Inherited'。</entry>
+    <entry key="badSampleTimeSpecPropOptionValue">''{0}'' 不是选项 ''{1}'' 的有效值。有效值包括 'Continuous'、'Constant' 和 'Controllable'。</entry>
+    <entry key="deprecatedSampleTimeSpecTypeValue"> 以后的版本中将会删除 'Type' 的 ''{0}'' 值。请改用 ''{1}''。还需替换 System object 中出现的任何其他 ''{0}''。</entry>
+    <entry key="badSampleTimeSpecUninitVar">在将 'Type' 设置为 ''{1}'' 的情况下调用 'createSampleTime' 或创建 'matlab.system.SampleTimeSpecification' 对象时，必须指定 ''{0}''。</entry>
+    <entry key="badSampleTimeClass"> 'getSampleTimeImpl' 的返回值必须为 'matlab.system.SampleTimeSpecification' 的实例。</entry>
+    <entry key="badSampleTimeSpecParamName">在将 ''{1}'' 设置为 ''{2}'' 的情况下调用 ''createSampleTime'' 或创建 'matlab.system.SampleTimeSpecification' 对象时，''{0}'' 不是一个合法的参数。</entry>
+    <entry key="missingConstraintParamName">在将 ''{3}'' 设置为 ''{4}'' 的情况下调用 ''{1}'' 或创建 ''{2}'' 对象时，''{0}'' 是一个必需的参数。</entry>
+    <entry key="badConstraintParamName">在将 ''{3}'' 设置为 ''{4}'' 的情况下调用 ''{1}'' 或创建 ''{2}'' 对象时，''{0}'' 不是一个合法的参数。</entry>
+    <entry key="badExtraConstraintParamName">在将 ''{2}'' 设置为 ''{3}'' 的情况下调用 ''{0}'' 或创建 ''{1}'' 对象时参数太多。在将 ''{4}'' 设置为 ''{5}'' 时，不允许使用其他参数。</entry>
+    <entry key="DimsConstraintNotSameAsPreCompSize">输出端口 {0,number,integer} 的维度约束大小为 {1,number,integer}。该值必须与 'getOutputSizeImpl' 的第一个返回值 {2,number,integer} 匹配。</entry>
+    <entry key="DimsConstraintNotSubMultOfPreCompSize">输出端口 {0,number,integer} 的维度约束大小为 {1,number,integer}。该值必须为 'getOutputSizeImpl' 的第一个返回值 {2,number,integer} 的约数。</entry>
+    <entry key="portIndexForDimsConstraints">{0} 的端口索引必须为小于或等于 {1,number,integer} 的正整数值。</entry>
+    <entry key="MethodDoesntSupportCodeGen">{0} 方法不支持代码生成。</entry>
+    <entry key="badSampleTimeSpecParamDataType">必须使用匹配的数据类型指定 Period 和 Offset 时间。</entry>
+    <entry key="duplicatedSampleTimeOption">采样时间传播选项值不能出现在两个或更多采样时间传播选项类型中。</entry>
+    <entry key="cellArrayOfStringsSampleTimeOption">采样时间传播选项值不能为字符串元胞数组。</entry>
+    <entry key="badSampleTimeTypeForSetNumTicksCall">如果调用 ''{0}'' 方法，则编译的采样时间 'Type' 必须为 'Controllable'。</entry>
+    <entry key="badDimensionConstraintClass"> ''{0}'' 的返回值必须为 ''{1}'' 的实例。</entry>
+    <entry key="currentTimeNotSetInLockedObject">没有为 {0} 设置当前时间。请使用 ''setCurrentTime'' 设置当前时间。</entry>
+    <entry key="badMATLABSourceSetPolicyName">不能在 MATLAB 中使用 {0} 策略。它仅适合与 System 模块一起使用。</entry>
+    <entry key="cannotSetNonDefMethodSourceSetPairedProperty">无法设置 {0} 属性，因为它已与 'PropertyOrMethod' SourceSet 策略配对并从一种方法接受其值。</entry>
+    <entry key="cannotSetNonDefInputSourceSetPairedProperty">无法设置 {0} 属性，因为它已与 'PropertyOrInput' SourceSet 策略配对并从一个输入接受其值。</entry>
+    <entry key="cannotSetDisabledSourceSetPairedProperty">无法设置 {0} 属性，因为它已与 'Disabled' SourceSet 策略配对。</entry>
+    <entry key="cannotCallNargInOutFromGNIIorGNOI">无法从 {1} 内部调用方法 {0}。</entry>
+    <entry key="changeSystem">更改系统</entry>
+    <entry key="classExpressionLabel">&lt;matlab 表达式&gt;</entry>
+    <entry key="cloneFailed">无法创建克隆副本。</entry>
+    <entry key="cloneImplReturnedBadClass">cloneImpl {0} 返回的类无效。cloneImpl 应返回 {1} 的副本。</entry>
+    <entry key="cloneImplImplemented">{0} 实现 cloneImpl 方法。不支持重载此方法。请在 saveObjImpl and loadObjImpl 方法中实现 cloneImpl 的代码。</entry>
+    <entry key="codeGenUnSupportedCloneUsingSaveLoad">{0} 实现 loadImpl 或 saveImpl 方法。当前配置中的代码生成不支持重载这些方法。</entry>
+    <entry key="codeGenClassNameNotConstant">System object 类名称不是常量。</entry>
+    <entry key="codeGenConstructorArgNotConst">无法计算此 System object 构造函数的参数 #{0} 的常量值。此 System object 构造函数的所有参数都必须是常量值才可进行代码生成。可以通过以下方式提供常量值: 使用 Simulink 不可调参数(对于 MATLAB Function 模块)或 coder.Constant(...) (对于 MATLAB Coder)将常量值传递给主函数。</entry>
+    <entry key="codeGenNontunableSetAfterConstructor">对于代码生成，创建 System object {0} 后不能更改其不可调属性。要为此 System object 设置公共属性，必须在创建对象时传递名称-值对组。</entry>
+    <entry key="codeGenDirectFeedthroughBeforeSetup">在生成代码时调用 isInputDirectFeedthrough() 之前，必须先对 System object 进行初始化。调用 step、output 或 update 将会初始化 System object。</entry>
+    <entry key="codeGenNoSystemObjectInput">{0} 方法要求将 System object 用作输入。</entry>
+    <entry key="codeGenNotValidSystemObjectName">{0} 为无效的 System object 类。</entry>
+    <entry key="codeGenNotSystemObjectInput">{0} 方法是为 System object 保留的。</entry>
+    <entry key="numInputsAndOutputsIsZero">由 {0} 报告: 不支持实现 getSampleTimeImpl 并具有零个输入和零个输出的 System object。</entry>
+    <entry key="codeGenCurrentConfigNotSupported">由 {0} 报告: 当前配置中的此 System object 不支持代码生成。</entry>
+    <entry key="codeGenInputDimsModeNotFixed">由 {0} 报告: 需要的输入 {1,number,integer} 应具有固定维度。</entry>
+    <entry key="codeGenInvalidInputsTypes">{0} 方法的输入必须为数值或逻辑变量，或者为 fi 对象。输入不能是来自外部函数的 MATLAB 类型。</entry>
+    <entry key="codeGenNonConstReturnValue">{0} 方法返回的值必须为常量值。用于计算该值的属性必须为 Nontunable。</entry>
+    <entry key="codeGenUnSupportedObj">代码生成不支持此 System object。</entry>
+    <entry key="codeGenUnSupportedLockedClone">在生成代码时不支持对锁定对象进行克隆。</entry>
+    <entry key="codeGenSetNotSupported">代码生成不支持此 System object 的设置属性。</entry>
+    <entry key="codeGenSourceSetOnlySupportNumeric">无法为 {0} 属性分配一个非数值，因为它是与 SourceSet 属性配对的。</entry>
+    <entry key="compHasNoOutputs">lastOutput 方法无法在此 System object 上运行，因为该 System object 没有任何输出。</entry>
+    <entry key="complexDataToRealRTP">无法根据复数值数据创建实数值运行时参数。</entry>
+    <entry key="customGetRecursionGuard">不允许在 ''{1}'' 的内部访问 ''{0}''，因为这会导致递归发生。</entry>
+    <entry key="dataRateError">其中只有一个数据率能够大于 1。</entry>
+    <entry key="dialogNotGenerated">无法生成 ''{0}'' 的对话框。</entry>
+    <entry key="dialogNotGeneratedLink">请查看 ''{2}'' 中 ''{1}'' 的第 {0} 行</entry>
+    <entry key="dialogError">对话框创建错误</entry>
+    <entry key="DirectFeedthroughUnknown">初始化 System object 时，isInputDirectFeedthrough 方法不能返回空值，因为在对该对象初始化时，DirectFeedthrough 状态必须是已知的。</entry>
+    <entry key="DirectFeedthroughNotLogical">isInputDirectFeedthroughImpl 的输出必须可转换为逻辑值。</entry>
+    <entry key="DoesNotCustomizeSampleTime">''{0}'' 方法无法被 ''{1}'' System object 调用，因为它不实现 getSampleTimeImpl。</entry>
+    <entry key="doublePropertySourceSetPolicyName">{0} 策略不能同时用于 MATLAB 和 System 模块。</entry>
+    <entry key="duplicateDisplayProperty">已为显示指定了 PropertyList 条目 ''{0}''。</entry>
+    <entry key="emptyInput">不允许对输入 {0,number,integer} 执行清空操作。</entry>
+    <entry key="errorSettingParameters">由 {0} 报告: {1}。</entry>
+    <entry key="fileNotFound">未找到文件 {0}。</entry>
+    <entry key="fileOpenFailed"> 无法打开文件: {0}。{1}</entry>
+    <entry key="fixedPointFor64Bit">要使 System object 支持 64 位数据类型，必须使用 Fixed Point Designer。</entry>
+    <entry key="FooterLinkFailure">无法显示变量 {0} 的属性，可能是因为该变量已从工作区中清除或者已被删除。</entry>
+    <entry key="FooterLinkFailureMissingVariable">无法显示变量 {0} 的属性，因为该变量不再存在。</entry>
+    <entry key="FooterLinkFailureClassMismatch">无法显示变量 {0} 的属性，因为该变量不再是 {1} 对象。</entry>
+    <entry key="FooterTextNoArrayName">使用 {0} 显示所有属性</entry>
+    <entry key="FooterTextWithArrayName">显示 {0}</entry>
+    <entry key="getBlockParamNotSupported">{0} System object 不支持 getBlockParam 方法。</entry>
+    <entry key="getCompiledDataInfoNotSupported">{0} System object 必须处于锁定状态，并且必须为 getCompiledDataInfo 方法提供一个字符向量输入。</entry>
+    <entry key="getCompiledDataInfoNotImplemented">此 System object 未实现 mdlGetCompiledDataInfo 方法。</entry>
+    <entry key="getContinuousStateInvalid">getContinuousStateImpl 方法未返回结构体(或空)。</entry>
+    <entry key="getContinuousStateNotSupported">此对象不支持 getContinuousState 方法。</entry>
+    <entry key="getDataRateNeedsSetup">必须先运行 setup，然后才能调用 {0}。</entry>
+    <entry key="getDiscreteStateInvalid">getDiscreteStateImpl 方法未返回结构体(或空)。</entry>
+    <entry key="getDiscreteStateNotSupported">此对象不支持 getDiscreteState 方法。</entry>
+    <entry key="getInputNamesInvalid">getInputNamesImpl 必须返回与 System object 的输入数目相同的名称条目，形式可以是多个字符向量输出参数或一个字符串数组。</entry>
+    <entry key="getOutputNamesInvalid">getOutputNamesImpl 必须返回与 System object 的输出数目相同的名称条目，形式可以是多个字符向量输出参数或一个字符串数组。</entry>
+    <entry key="getOnlyTakesTwoInputsCodegen">生成代码时，get 方法仅使用两个输入。</entry>
+    <entry key="getSimulateUsingIsEmpty">从 getSimulateUsingImpl 未返回任何值。必须指定 ''Code generation'' 或 ''Interpreted execution''。</entry>
+    <entry key="getSimulateUsingInvalidType">从 getSimulateUsingImpl 返回的类型不合要求。您必须指定“代码生成”或“解释执行”。</entry>
+    <entry key="getSimulateUsingInvalidValue">从 getSimulateUsingImpl 返回的值 ''{0}'' 无效。您必须指定“代码生成”或“解释执行”。</entry>
+    <entry key="getFiSettingsIsEmpty">从 getFiSettingsImpl 未返回任何值。</entry>
+    <entry key="getFiSettingsInvalidType">从 getFiSettingsImpl 返回的类型不合要求。</entry>
+    <entry key="getSpecifyStringUnknownType">未知的类型参数 ''{0}''</entry>
+    <entry key="globalNotGlobalVar">已从 getGlobalNamesImpl 中返回变量 ''{0}''，但未在方法 ''{1}'' 中将该变量声明为全局变量。从 ''{3}'' 调用的函数中名为 ''{2}'' 的任何全局变量都不会与 Data Store Memory 模块共享。</entry>
+    <entry key="globalDeclarationNotAllowed">''{0}'' 方法中不允许使用全局变量。</entry>
+    <entry key="globalAddedDuringMethodCall">System object 忽略在 ''{1}'' 执行期间添加的全局变量 ''{0}''。该全局变量可能没有在 ''{2}'' 中声明，或者是在使用 MATLAB 调试器时声明的。</entry>
+    <entry key="globalMissingInDebug">全局变量 ''{0}'' 在 ''{1}'' 执行期间被删除。关联的 Data Store Memory 未更新。</entry>
+    <entry key="globalDeclarationMustBeFirst">''{1}'' 中的全局变量 ''{0}'' 在方法执行代码后声明。要与 Data Store Memory 模块交换全局变量，必须在方法的开头声明全局变量。</entry>
+    <entry key="globalTypeChangedDetailed">不能在 ''{1}'' 执行过程中更改全局变量 ''{0}'' 的数据类型。该数据类型最初为 ''{2}''，现在被改为 ''{3}''。</entry>
+    <entry key="globalTypeChangedSummary">不能在 ''{1}'' 执行过程中更改全局变量 ''{0}'' 的数据类型。</entry>
+    <entry key="globalChangedCplxVsReal">不能在 ''{1}'' 执行过程中更改全局变量 ''{0}'' 的复/实性。该复/实性最初为复数，现在被改为实数。</entry>
+    <entry key="globalChangedRealVsCplx">不能在 ''{1}'' 执行过程中更改全局变量 ''{0}'' 的复/实性。该复/实性最初为实数，现在被改为复数。</entry>
+    <entry key="globalNumDimsChanged">不能在 ''{1}'' 执行过程中更改全局变量 ''{0}'' 的维度数。该维度数最初为 {2,number,integer}，现在被改为 {3,number,integer}。</entry>
+    <entry key="globalDimsChanged">不能在 ''{1}'' 执行过程中更改 ''{0}'' 的维度。维度 {2,number,integer} 最初为 {3,number,integer}，现在被改为 {4,number,integer}。</entry>
+    <entry key="globalNumberOfFieldsChanged">不能在 ''{1}'' 执行过程中更改全局结构体 ''{0}'' 的字段数。字段数最初为 {2,number,integer}，现在被改为 {3,number,integer}。</entry>
+    <entry key="globalFieldNamesChanged">不能在 ''{1}'' 执行过程中更改全局结构体 ''{0}'' 的字段名称。字段名称最初为 ''{2}''，现在被改为 ''{3}''。</entry>
+    <entry key="incorrectDirectFeedthroughArguments">输入参数的数目无效。需要 {0,number,integer} 或 {1,number,integer} 个输入参数(System object 除外)。</entry>
+    <entry key="incorrectDirectFeedthroughOutputs">输出参数太多。请求的输出数量 ({0,number,integer}) 超过 System object 的输入数量 ({1,number,integer})。</entry>
+    <entry key="inputDimsMismatch">所有输入端口的维度必须相同。</entry>
+    <entry key="inputDimsMoreThanTwo">此 System object 不支持维度超过两个的数据。</entry>
+    <entry key="inputMustBeScalar">需要的输入 {0} 应为标量。</entry>
+    <entry key="inputMustBeVector">需要的输入 {0} 应为非空向量。</entry>
+    <entry key="inputMustBeRowVector">需要的输入 {0} 应为非空行向量。</entry>
+    <entry key="inputMustBeColVector">需要的输入 {0} 应为非空列向量。</entry>
+    <entry key="inputMustBeMatrix">需要的输入 {0} 应为非空矩阵。</entry>
+    <entry key="inputSizeNotFixed">需要的输入 {0} 应具有固定维度。</entry>
+    <entry key="inputSpecsChangedErrorSDC">在未先调用 &lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','matlab_prog.map'),'sysobjs_locked')"&gt;release()&lt;/a&gt; 方法的情况下，不允许更改输入 {0,number,integer} 的大小、数据类型或复/实性(从实数更改为复数)。</entry>
+    <entry key="inputSpecsChangedErrorSD">在未先调用 &lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','matlab_prog.map'),'sysobjs_locked')"&gt;release()&lt;/a&gt; 方法的情况下，不允许更改输入 {0,number,integer} 的大小或数据类型。</entry>
+    <entry key="inputSpecsChangedErrorSC">在未先调用 &lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','matlab_prog.map'),'sysobjs_locked')"&gt;release()&lt;/a&gt; 方法的情况下，不允许更改输入 {0,number,integer} 的大小或复/实性(从实数更改为复数)。</entry>
+    <entry key="inputSpecsChangedErrorS">在未先调用 &lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','matlab_prog.map'),'sysobjs_locked')"&gt;release()&lt;/a&gt; 方法的情况下，不允许更改输入 {0,number,integer} 的大小。</entry>
+    <entry key="inputSpecsChangedErrorDC">在未先调用 &lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','matlab_prog.map'),'sysobjs_locked')"&gt;release()&lt;/a&gt; 方法的情况下，不允许更改输入 {0,number,integer} 的数据类型或复/实性(从实数更改为复数)。</entry>
+    <entry key="inputSpecsChangedErrorD">在未先调用 &lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','matlab_prog.map'),'sysobjs_locked')"&gt;release()&lt;/a&gt; 方法的情况下，不允许更改输入 {0,number,integer} 的数据类型。</entry>
+    <entry key="inputSpecsChangedErrorC">在未先调用 &lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','matlab_prog.map'),'sysobjs_locked')"&gt;release()&lt;/a&gt; 方法的情况下，不允许更改输入 {0,number,integer} 的复/实性(从实数更改为复数)。</entry>
+    <entry key="inputsNotSameComplexityCodegen">输入 #{0,number,integer} 的复/实性错误: 预期的是 ''{1}''，得到的是 ''{2}''。代码生成要求同一对象上对 step() 的所有调用都具有相同复/实性的输入。</entry>
+    <entry key="inputsNotSameDataTypeCodegen">输入 #{0,number,integer} 的类错误: 预期的是 ''{1}''，得到的是 ''{2}''。代码生成要求同一对象上对 step() 的所有调用都具有相同类型的输入。</entry>
+    <entry key="inputsNotSameSizeCodegen">输入 #{0,number,integer} 的大小错误: 预期的是 ''{1}''，得到的是 ''{2}''。大小已被锁定的输入的大小必须在对 step() 的所有调用中相同。</entry>
+    <entry key="inputsNotSameNumerictypeCodegen">输入 #{0,number,integer} 的数值类型错误: 需要 ''{1}''，获得 ''{2}''。代码生成要求同一对象上对 step() 的所有调用都具有相同数值类型的输入。</entry>
+    <entry key="inputsNotSameSize">所有输入的大小必须相同。</entry>
+    <entry key="internalUnsupportedDataType">数据类型不受支持。</entry>
+    <entry key="invalidActionAlignment">Alignment 应为 ''left'' 或 ''right''。</entry>
+    <entry key="invalidArgGet">第二个参数必须为字符向量或元胞数组。</entry>
+    <entry key="invalidArgSet">第二个参数必须为字符向量或结构体。</entry>
+    <entry key="invalidGlobalNamesStringInfer">{0} 中声明的全局变量的名称必须为合法的 MATLAB 变量名称。</entry>
+    <entry key="invalidCondExecSemantics">{0} 返回的条件执行语义必须为 ''Classic'' 或 ''Synchronous''，或者包含这二者的元胞数组。</entry>
+    <entry key="invalidComplexityNeedReal">复/实性与输入 {0,number,integer} 不匹配；预期的是实数，得到的是复数。</entry>
+    <entry key="invalidComplexityNeedComplex">复/实性与输入 {0,number,integer} 不匹配；预期的是复数，得到的是实数。</entry>
+    <entry key="invalidConstSampleTimeProp">{0} 返回的值必须为 ''Allow''、''Disallow'' 或 ''Error''。</entry>
+    <entry key="invalidConstructorFirstArgument">System object 构造函数的第一个输入参数不能为 System object。</entry>
+    <entry key="invalidDataRate">其中只有一个数据率能够大于 1。</entry>
+    <entry key="invalidDataType">数据类型与输入 {0,number,integer} 不匹配；需要 {1}，获得 {2}。</entry>
+    <entry key="invalidDataTypeSetPropertyType">{0} 属性必须设置为 ''char'' 或 numerictype 数据类型的值。</entry>
+    <entry key="invalidDir">目录名称无效。未找到目录 {0}。</entry>
+    <entry key="invalidDiscStateComplexity">由 {0} 报告: {1} 返回的复/实性无效；复/实性必须为逻辑标量值。</entry>
+    <entry key="invalidDiscStateDataType">由 {0} 报告: {1} 返回的数据类型无效；类型必须为字符向量或 embedded.numerictype 对象。</entry>
+    <entry key="invalidFrameStatus">帧状态与输入 {0,number,integer} 不匹配；需要 {1}，获得 {2}。</entry>
+    <entry key="invalidGetPublicPropertiesArgs">所有输入都必须为字符向量或字符向量元胞数组</entry>
+    <entry key="invalidIdxInput">索引输入无效。</entry>
+    <entry key="invalidImplMethodNumArgs">{1} 中 {0} 的定义不正确。{2} 需要 {3,number,integer} 个输入(System object 除外)以及 {4,number,integer} 个输出。</entry>
+    <entry key="invalidImplMethodNumInArgs">{1} 中 {0} 的定义不正确。除了 System object 之外，{2} 还需要 {3,number,integer} 个输入。</entry>
+    <entry key="invalidImplMethodNumOutArgs">{1} 中 {0} 的定义不正确。{2} 需要 {3,number,integer} 个输出。</entry>
+    <entry key="invalidInputDataType">需要的输入 {0} 数据类型应为 {1}。</entry>
+    <entry key="invalidInputDataTypeCodeGen">由 {0} 报告: 输入必须为数值或逻辑变量，或者为 fi 对象。</entry>
+    <entry key="invalidInputDimensions">需要的输入 {0} 的大小应为 {1} (得到的输入实际大小为 {2})。</entry>
+    <entry key="invalidInputDims">维度与输入 {0,number,integer} 不匹配；需要 {1}，获得 {2}。</entry>
+    <entry key="invalidInputNumDims">输入 {0,number,integer} 的维数不匹配；需要维度为 {1,number,integer} 的输入，获得维度为 {2,number,integer} 的输入。</entry>
+    <entry key="invalidInputWidth">输入 {0,number,integer} 的元素数目不匹配；需要包含 {1,number,integer} 个元素的输入，获得包含 {2,number,integer} 个元素的输入。</entry>
+    <entry key="invalidIODataRate">{0} {1,number,integer} 的数据率不是整数值。</entry>
+    <entry key="invalidInputIndex">输入索引 {0,number,integer} 无效。</entry>
+    <entry key="invalidIsChangedPropertyParam">isChangedProperty ({0})的参数必须是公共的可调属性。</entry>
+    <entry key="invalidLogicalReturn">{0} 方法未返回标量逻辑值(即 true 或 false)。</entry>
+    <entry key="invalidMultirateIndexDataType">输入索引和输出索引必须为双精度数据类型。</entry>
+    <entry key="invalidMultirateInputIndex">索引必须为 0 或 1。</entry>
+    <entry key="invalidMultirateOutputIndex">输出索引 {0,number,integer} 无效。</entry>
+    <entry key="invalidNumericTypeDataType">{0} 属性必须为双精度、单精度或定点数值类型。</entry>
+    <entry key="invalidNumericTypeSlopeBias">{0} 属性必须具有单位斜率和零偏置。</entry>
+    <entry key="invalidNumIODataRates">{0} 数据率的数目必须与 {1} 的总数目相同。</entry>
+    <entry key="invalidOutputComplexity">由 {0} 报告: isOutputComplex 返回的值无效；每个值必须为逻辑标量值。</entry>
+    <entry key="invalidOutputDataTypeWithBus">由 {0} 报告: getOutputDataType 返回的值无效；每个值都必须为有效的数据类型名称或 embedded.numerictype 对象，或者为基础工作区中存在的 Simulink.Bus 对象的名称。</entry>
+    <entry key="invalidOutputDataType">由 {0} 报告: getOutputDataType 返回的值无效；每个值都必须为有效的数据类型名称或 embedded.numerictype 对象。</entry>
+    <entry key="invalidTunablePropertiesSpecification">由 {0} 报告: getTunablePropertiesSpecification 返回的值无效；返回字符串必须为 'double' 或 'single'。</entry>
+    <entry key="invalidOverrideDataType">由 {0} 报告: overrideDataType 的输入无效；每个输入数据类型都必须为 embedded.numerictype 对象。</entry>
+    <entry key="invalidOverrideOfUserMethodSuggest">{0} 中存在错误: 无法重新定义 {1} 方法。请删除 {2} 方法并添加 {3} 方法。</entry>
+    <entry key="invalidOverrideOfUserMethod">{0} 中存在错误: 无法重新定义 {1} 方法。请删除 {2} 方法。</entry>
+    <entry key="invalidOutputIndex">输出索引 {0,number,integer} 无效。</entry>
+    <entry key="invalidOutputFixedSize">由 {0} 报告: isOutputFixedSize 返回的值无效；每个值必须为逻辑标量值。</entry>
+    <entry key="invalidGetSampleTime">由 {0} 报告: getSampleTime 返回的值无效；每个采样时间都必须为非负数值，或为 -1 以指示继承。</entry>
+    <entry key="invalidPropagatorNumOutRequested">由 {0} 报告: {1} 方法的输出数目不正确；请求了 {2, number, integer} 个输出，但该方法根据 getNumOutputs 方法的指定返回了 {3, number, integer} 个输出。</entry>
+    <entry key="invalidPropagatorNonzeroInPorts">由 {0} 报告: 只能对没有输入端口的对象实现 {1} 方法。</entry>
+    <entry key="invalidProperty">System object ''{1}'' 的属性 ''{0}'' 无法识别。</entry>
+    <entry key="invalidPVPairs">属性/值对组参数无效。</entry>
+    <entry key="invalidSampleTime">采样时间与输入 {0,number,integer} 不匹配；需要 {1}，获得 {2}。</entry>
+    <entry key="invalidSetConstMethod">不能按此方法设置属性（System object 应保持不变）。</entry>
+    <entry key="invalidSetDataRates">只能在 setupImpl 中调用 setDataRates。</entry>
+    <entry key="invalidSetPropertyValue">{0} 属性的设置无效。</entry>
+    <entry key="invalidSetPropertyValueConst">''{0}'' 不是 {1} 属性的有效设置。</entry>
+    <entry key="invalidStateProp">此 System object 不存在状态属性 ''{0}''。</entry>
+    <entry key="invalidStateName">由 {0} 报告: 此 System object 不存在 {1} 属性 ''{2}''。</entry>
+    <entry key="invalidStringContents">{0} 必须返回字符串数组或字符向量元胞数组。</entry>
+    <entry key="invalidSimulinkFunctionName">{0} 返回值包含的名称 {1} 不是有效的函数名称。{2} 必须返回由有效函数名称组成的字符串数组或字符向量元胞数组。</entry>
+    <entry key="invalidSimulinkFunctionNameIsKeyword">{0} 返回值包含的名称 {1} 是 MATLAB 关键字。{2} 必须返回字符串数组或字符向量元胞数组。数组中的元素不能是 MATLAB 关键字。</entry>
+    <entry key="invalidSimulinkFunctionNameIsDupicate">{0} 返回值包含重复的名称 {1}。{2} 必须返回字符串数组或字符向量元胞数组。数组中的元素不能重复。</entry>
+    <entry key="invalidSimulinkFunctionNameMoreThanOneNonUnityDims">{0} 返回值的维度必须为 n×1 或 1×n。</entry>
+    <entry key="invalidSetPropertiesSyntax">传递给 setProperties 的参数数目少于指定的参数数目。</entry>
+    <entry key="InvalidValueOnlyNames">必须将传递给 setProperties 的仅实值属性名称指定为字符串数组，或者指定为多个字符向量或字符串标量输入参数。</entry>
+    <entry key="invalidDisplayProperty">PropertyList 条目 ''{0}'' 对显示无效。</entry>
+    <entry key="invalidTunableReadAccess">对属性 ''{0}'' 的访问被拒绝: 不能在此方法内访问可调公共属性。</entry>
+    <entry key="invalidTunableModAccess">对属性 ''{0}'' 的访问被拒绝: 不能在此方法内修改可调公共属性。要在 System object 方法中修改属性，请将 Access 设置为 private 或 protected。</entry>
+    <entry key="invalidCallToRelease">release 方法无法通过 System object 的方法进行调用。</entry>
+    <entry key="invalidTunableModAccessCodegen">不能在类中修改可调公共属性。在解释模式下运行 MATLAB System 模块以确定修改后的属性。</entry>
+    <entry key="invalidValueOnlyProps">{0} System object 仅支持 {1,number,integer} 个仅实值输入。您指定了 {2,number,integer} 个仅实值输入。此错误的常见原因是属性名称拼写错误。</entry>
+    <entry key="invalidCapitalization">{0} System object 不支持属性 {1}。此属性的有效大写为 {2}。</entry>
+    <entry key="isDoneCallbyNonSource">System object 必须为源(即 getNumInputs() == 0)，才能使用 isDone() 方法。</entry>
+    <entry key="isInputDirectFeedthroughImplNotConst">无法在编译时确定 isInputDirectFeedthroughImpl 的返回值。您只能使用 Nontunable 或 Constant 属性来计算 isInputDirectFeedthroughImpl 的输出。</entry>
+    <entry key="ObsoleteSystemObjectAPI">System object ''{0}'' 具有不再受支持的 API ''{1}''。请删除 ''{1}'' 方法，改用 ''{2}''。</entry>
+    <entry key="ObsoleteSystemObjectAPI2">System object ''{0}'' 具有不再受支持的 API ''{1}''。请删除 ''{1}'' 方法。</entry>
+    <entry key="ObsoleteSystemObjectMixin">System object ''{0}'' 继承自不再受支持的 mixin 类 ''{1}''。请删除 ''{1}''，改为定义对应的 System object 方法。</entry>
+    <entry key="isInputSizeMutableImplNotConst">无法在编译时确定 isInputSizeMutableImpl 的返回值。您只能使用 Nontunable 或 Constant 属性来计算 isInputSizeMutableImpl 的输出。</entry>
+    <entry key="isInputSizeMutableImplNotScalar">isInputSizeMutableImpl 方法未返回标量逻辑值(即 true 或 false)。</entry>
+    <entry key="codegenMethodReturnsNonConst">使用代码生成进行模拟时，无法从运行时方法内部调用方法 'createSampleTime'。请确保不通过以下运行时方法调用 'createSampleTime' 和 'getSampleTimeImpl' 方法: stepImpl、updateImpl、outputImpl、resetImpl 和 releaseImpl。</entry>
+    <entry key="codegenCreateSTReturnsNonConst">使用代码生成进行模拟时，不能从以下运行时方法内部调用方法 'createSampleTime': stepImpl、updateImpl、outputImpl、resetImpl 和 releaseImpl。请确保不通过运行时方法调用 'createSampleTime' 和 'getSampleTimeImpl' 方法。 </entry>
+    <entry key="lockModeConflictMethods">如果实现了 ''{1}''，System object 将不会调用 ''{0}''。请实现 ''{2}'' 而不是 ''{3}''。</entry>
+    <entry key="lockModeConflictMethodsNoSub">如果实现了 ''{1}''，System object 将不会调用 ''{0}''。请删除 ''{2}''。</entry>
+    <entry key="lockModeConflictInheritance">如果 System object 继承自 ''{1}''，它将不会调用 ''{0}''。请删除来自 ''{2}'' 的继承或删除 ''{3}''。</entry>
+    <entry key="loadingInvalidFixptMode">加载时在端口设定中找到不支持的定点模式。</entry>
+    <entry key="loadingWhenLocked">当 System object 已锁定时，无法通过所保存的数据还原 System object。</entry>
+    <entry key="logicalMustBeLogicalScalarReturn">{0} 的返回值必须为实数或逻辑标量。</entry>
+    <entry key="matlabAutoSectionGroupTitle">主要</entry>
+    <entry key="maxNumInputs">输入参数太多。应有 {0,number,integer} 个输入(System object 除外)，获得 {1,number,integer} 个输入。</entry>
+    <entry key="maxNumOutputs">输出参数太多。请求了 {0,number,integer} 个输出，但只有 {1,number,integer} 个输出可用。</entry>
+    <entry key="getNumInputsImplNotDef">应有 {0,number,integer} 个输入(System object 除外)，因为 {1} 具有可变的输入数并且 {2} 未实现。请实现 {3} 或更改 {4} 以具有固定的输入数。</entry>
+    <entry key="getNumOutputsImplNotDef">应有 {0,number,integer} 个输出，因为 {1} 具有可变的输出数并且 {2} 未实现。请实现 {3} 或更改 {4} 以具有固定的输出数。</entry>
+    <entry key="methodNotFound">找不到 {0} 方法定义。</entry>
+    <entry key="minNumInputs">输入参数的数目不足。应有 {0,number,integer} 个输入(System object 除外)，获得 {1,number,integer} 个输入。</entry>
+    <entry key="mismatchedmodes">以下属性必须包含相同的设置: {0}</entry>
+    <entry key="mismatchedwordlengths">以下属性必须包含相同的字长设置: {0}</entry>
+    <entry key="mixedDirectFeedthroughMultirate">Multirate 和 direct feed through 不能同时使用。</entry>
+    <entry key="multirateInputEmpty">输入 {0,number,integer} 不能为空。</entry>
+    <entry key="multirateInputNotScheduled">输入 {0,number,integer} 此时未计划。</entry>
+    <entry key="multirateNotSupported">不支持 Multirate。</entry>
+    <entry key="multirateNotSupportedBuffer">不支持 Multirate。对于 dsp.Buffer System object，行输入数目必须等于 Length - OverlapLength。</entry>
+    <entry key="multirateOutputNotScheduled">输出 {0,number,integer} 此时未计划。请使用 hasOutput 方法确定是否提供了输出。</entry>
+    <entry key="inputMustBePosIntValuedScalar">''{1}'' 方法的 ''{0}'' 输入必须为正整数值标量。</entry>
+    <entry key="mustBeAutoSignedNumericType">{0} 属性值必须为 signedness 设置为 ''Auto'' 的数值类型。</entry>
+    <entry key="mustBeSignedOrAutoSignedNumericType">{0} 属性值必须为 signedness 设置为 ''true'' 或 ''Auto'' 的数值类型。</entry>
+    <entry key="mustBeFixedPointNumericType">{0} 属性必须为定点数值类型。</entry>
+    <entry key="mustBeLowerBoundedIntInput">输入值必须为大于或等于 {0,number,integer} 的整数值标量</entry>
+    <entry key="mustBeNotScaledNumericType">{0} 属性必须具有未指定的缩放。</entry>
+    <entry key="mustBeScaledNumericType">{0} 属性必须具有指定的小数长度。</entry>
+    <entry key="mustBeSignedNumericType">{0} 属性必须为带符号的数值类型。</entry>
+    <entry key="mustBeSpecSignedNumericType">{0} 属性值必须为 signedness 设置为 ''Signed'' 或 ''Unsigned'' 的数值类型。</entry>
+    <entry key="mustBeUnsignedNumericType">{0} 属性必须为无符号的数值类型。</entry>
+    <entry key="mustImplementPropMethod">{0} 方法无效；必须在输入数和/或输出数不是一时实现。</entry>
+    <entry key="numberInputArgsConstraints">必须使用 0 个或 1 个参数(不包括 obj 参数)调用 {0} 方法。</entry>
+    <entry key="noCodegen">{0} System object 不支持代码生成。</entry>
+    <entry key="noDiscreteStateSpecOverride">If your class has any DiscreteState properties, then you must implement the getDiscreteStateSpecificationImpl() method.</entry>
+    <entry key="noFilesSelected">未选择任何文件。文件选择已取消。</entry>
+    <entry key="NoStepWithOutputUpdate">{0} System object 定义 stepImpl 以及 outputImpl 和 updateImpl 中的一个或两者。stepImpl 方法不能与非直接馈通 outputImpl 和 updateImpl 方法一起使用。</entry>
+    <entry key="NoPublicOutputUpdate">{0} System object 定义 {1} 方法，同时还实现 updateImpl 或 outputImpl 方法。重命名 {1} 方法，以避免与 System object {1} 方法冲突。</entry>
+    <entry key="nonRelevantProperty">{0} 属性与 System object 的此配置无关。</entry>
+    <entry key="nonScalarGet">get 方法仅适用 System object 标量。</entry>
+    <entry key="nonScalarSet">set 方法仅适用 System object 标量。</entry>
+    <entry key="nonZeroOutputsUpdate">update 方法未返回任何值。</entry>
+    <entry key="noSuchMethodOrField">类 {1} 的方法、属性或字段 {0} 无效。</entry>
+    <entry key="notCharOrStringArg">''{0}'' 参数必须为字符串或字符数组。</entry>
+    <entry key="notValidArg2Possible">''{0}'' 参数必须为 ''{1}'' 或 ''{2}''。</entry>
+    <entry key="notLocked">只能对锁定的 System object 调用 {0} 方法。</entry>
+    <entry key="noTuningBeforeLockingCodeGen">锁定此 System object 之前，无法更改可调属性。</entry>
+    <entry key="notUnlocked">只能对未锁定的 System object 调用 {0} 方法。</entry>
+    <entry key="numArgsMustBeEven">参数数目必须为偶数。</entry>
+    <entry key="numerictypeNotSpecified">{0} 属性必须设置为数值类型对象。</entry>
+    <entry key="openInEditor">源代码</entry>
+    <entry key="outOfMemory">无法分配内存。</entry>
+    <entry key="outputChangedRealToComplex">在未先调用 &lt;a href="matlab:helpview(fullfile(docroot,''matlab'',''matlab_prog'',''matlab_prog.map''),''sysobjs_locked'')"&gt;release()&lt;/a&gt; 方法的情况下，不允许将输出 {0,number,integer} 从实数更改为复数。</entry>
+    <entry key="outputImplUndefined">对于返回输出(getNumOutputs &gt; 0)的 System object，需要定义 outputImpl 方法。</entry>
+    <entry key="OutputUpdateOnStepImpl">无法对 ''{0}'' System object 调用输出和更新方法，因为它不实现 outputImpl 或 updateImpl。像调用函数一样调用该 System object。</entry>
+    <entry key="outIdxOutOfRange">输出索引 {0,number,integer} 超出范围；它必须介于 1 和 {1,number,integer} 之间。</entry>
+    <entry key="outputNotReady">必须先对 System object 进行初始化，然后才能使用任何输出。</entry>
+    <entry key="outputSpecsChangedError">在未先调用 &lt;a href="matlab:helpview(fullfile(docroot,''matlab'',''matlab_prog'',''matlab_prog.map''),''sysobjs_locked'')"&gt;release()&lt;/a&gt; 方法的情况下，不允许更改输出数据类型或维度。</entry>
+    <entry key="paramNotFound">{0} 类不具有名为 {1} 的参数。</entry>
+    <entry key="prefixesParamNotProvided">在调用 getFixptDataTypeInfo 时，需要提供 Prefixes 参数。</entry>
+    <entry key="propertyInvalidSetAccess">不允许设置 {1} 类的 {0} 属性。</entry>
+    <entry key="propertySetWhenLocked">在未先调用 &lt;a href="matlab:helpview(fullfile(docroot,''matlab'',''matlab_prog'',''matlab_prog.map''),''sysobjs_locked'')"&gt;release()&lt;/a&gt; 方法的情况下，不允许更改不可调属性的值。</entry>
+    <entry key="propagationFailed">在传播之后，没有为 {1} {2,number,integer} 设置 {0}。</entry>
+    <entry key="propNameNotConstCodegen">在代码生成中，属性名称必须保持不变。</entry>
+    <entry key="missingPropertyPortIndex">端口序号 {0,number,integer} 缺失。名为 'PropertyOrInput' 的 SourceSet 策略必须具有连续且唯一的端口序数。</entry>
+    <entry key="duplicatePropertyPortIndex">端口序号 {0,number,integer} 重复。名为 'PropertyOrInput' 的 SourceSet 策略必须具有连续且唯一的端口序数。</entry>
+    <entry key="propTunableSpecsChanged">在未先调用 &lt;a href="matlab:helpview(fullfile(docroot,''matlab'',''matlab_prog'',''matlab_prog.map''),''sysobjs_locked'')"&gt;release()&lt;/a&gt; 方法的情况下，不允许更改属性值的数据类型。</entry>
+    <entry key="propTunableSpecsChangedSystemBlock">不允许更改参数值的数据类型。</entry>
+    <entry key="sfunPropTunableSpecsChangedCodegen">构造此对象之后不允许更改可调属性值的大小。</entry>
+    <entry key="saveObjectImplNotImplemented">{0} System object 具有私有或受保护的属性，但未实现 saveObjectImpl 和/或 loadObjectImpl 方法。当对象被锁定时，保存、加载和克隆方法可能无法完全复制该对象。</entry>
+    <entry key="setContinuousStateNotSupported">此对象不支持 setContinuousState 方法。</entry>
+    <entry key="setDiscreteStateNotSupported">此对象不支持 setDiscreteState 方法。</entry>
+    <entry key="setStateInputNotStruct">{0} 方法的输入必须为空，或为 {1} 状态作为其字段的结构体。</entry>
+    <entry key="setStateNotLocked">只能对锁定的 System object 调用 {0} 方法。</entry>
+    <entry key="setupCalledWhenLocked">由 {0} 报告: System object 已重新初始化，因为对已初始化的 System object 调用了 setup 方法。这将会影响性能。</entry>
+    <entry key="setupCalledWhenLockedCodegen">无法对已初始化的 System object 调用 setup 方法。</entry>
+    <entry key="showSimulateUsingType">从 showSimulateUsingImpl 返回的类型不合要求。必须指定 true 或 false。</entry>
+    <entry key="showFiSettingsType">从 showFiSettingsImpl 返回的类型不合要求。必须指定 true 或 false。</entry>
+    <entry key="tooManyElementsInput">由 {0} 报告: 第 {1,number,integer} 个输入中的元素太多。元素的最大数目为 {2,number,integer}。</entry>
+    <entry key="tooManyElementsOutput">由 {0} 报告: 第 {1,number,integer} 个输出中的元素太多。元素的最大数目为 {2,number,integer}。</entry>
+    <entry key="methodCalledWhenLockedReleasedCodegen">无法对已初始化的 System object 调用 {0} 方法，也无法在调用 release 方法后调用该方法。</entry>
+    <entry key="methodCalledWhenReleasedCodegen">无法在调用 release 方法后调用 {0} 方法。</entry>
+    <entry key="setupCalledWhenLockedReleasedCodegen">无法对已初始化的 System object 调用 setup 方法，也无法在调用 release 方法后调用该方法。</entry>
+    <entry key="ShowAllPropertiesText">显示所有属性</entry>
+    <entry key="runtimeMethodCalledWhenReleasedCodegen">无法在调用 release 方法后调用运行时方法。运行时方法包括 ''step''、''output''、''update'' 和 ''release''。</entry>
+    <entry key="sparseInput">输入参数不能为稀疏值。</entry>
+    <entry key="srcSetReusePropArgList">如果指定了名称-值对组(例如 'ReuseProperty')，则必须使用元胞数组语法指定 SourceSet 策略。</entry>
+    <entry key="sourceSetDisallowedAttributes">{0} 是一个 SourceSet。它必须具有常量属性，并且不能包含下列任何属性: Logical、PositiveInteger、DiscreteState、Nontunable、Abstract、Transient 或 Dependent。</entry>
+    <entry key="sourceSetCntrlPropNotFound">{0} 被命名为 SourceSet 属性的控制属性，无法在 {1} 中找到。</entry>
+    <entry key="SourceSetControlProperyNotString">SourceSet 属性 {0} 的控制属性必须为字符数组。</entry>
+    <entry key="sourceSetControlMethodMissing">{0} 是一个由 SourceSet 命名的方法，该方法缺失或者位于基类中并且具有专有访问权限。</entry>
+    <entry key="sourceSetControlMethodInvalid">{0} 是由 SourceSet 使用的方法。它必须是 System object 的方法并且不得有输入(不包括 obj 参数)。</entry>
+    <entry key="sourceSetControlMethodStaticAbstract">{0} 是由 SourceSet 使用的方法，不能是 Static 或 Abstract。</entry>
+    <entry key="sourceSetControlPropInvalid">{0} 是 SourceSet 属性的控制属性，并且必须是 System object 的属性。它还必须具有 Nontunable 和 Logical 属性，并且没有 Hidden 属性。</entry>
+    <entry key="sourcesetInvalidOptionalParameter">{0} SourceSet 策略具有非法输入 {1}。</entry>
+    <entry key="sourceSetPairedDisallowedAttributes">{0} 已与 SourceSet 配对。它必须具有公共访问权限，并且不能包含下列任何属性: Logical、DiscreteState、Nontunable、Abstract、Transient 或 Dependent。</entry>
+    <entry key="sourceSetPairedMismatch">SourceSet 属性 {0} 缺少对应的属性 {1}。</entry>
+    <entry key="specsChangedCodeGen">由 {0} 报告: 当 System object 锁定时，无法更改 {1} 方法输入的维度、复/实性和数据类型。</entry>
+    <entry key="stateDiscreteContinuous">属性 ''{0}'' 不能同时为 DiscreteState 和 ContinuousState。</entry>
+    <entry key="stateInvalidAccess">{0} 属性 ''{1}'' 必须具有公共 GetAccess。</entry>
+    <entry key="stateInvalidProperties">{0} 属性 ''{1}'' 不能为 Abstract、Constant、Dependent、Nontunable、Static 或 Transient。</entry>
+    <entry key="stateInvalidPublicSet">无法设置属性 ''{0}''；状态属性具有受保护的设置访问权限，无法从 System object 外部进行设置。</entry>
+    <entry key="stateInvalidSet">仅当对象正在初始化时(使用 setupImpl)或锁定之后，才能设置状态属性 ''{0}''。</entry>
+    <entry key="stateNonNullDefault">必须取消设置 {0} 属性 ''{1}'' 的默认值。</entry>
+    <entry key="stateSpecChanged">状态属性 ''{1}'' 的 {0} 已更改。当 System object 锁定之后，无法更改 DiscreteState 属性的数据类型、维度和复/实性。</entry>
+    <entry key="stepImplUndefined">对于返回输出(getNumOutputs &gt; 0)的 System object，需要定义 stepImpl 方法。</entry>
+    <entry key="sysobjupdateMessage">此数据结构体包含 {0} 建议的 System object 语法更改。</entry>
+    <entry key="sysobjupdateInvalidInput">输入无法识别。有关有效输入的详细信息，请键入 "help {0}"。</entry>
+    <entry key="sysobjupdateInvalidInteractive">输入参数无效。输入参数 INTERACTIVE 必须为逻辑值(true 或 false)。</entry>
+    <entry key="sysobjupdateInvalidNumInputs">输入数目无效。OperatingMode 的有效值包括: Analyze、GenerateNew 和 Overwrite。</entry>
+    <entry key="sysobjupdateInvalidOperatingMode">OperatingMode 的值无效。OperatingMode 的有效值包括: Analyze、GenerateNew 和 Overwrite。</entry>
+    <entry key="sysobjupdateSizeMismatch">旧名称的数目与新名称的数目不匹配。</entry>
+    <entry key="sysobjupdateUnsupportedVersion">MATLAB 版本(R{0})不受支持。SYSOBJUPDATE 支持 R2010b 和更高版本。</entry>
+    <entry key="systemPropNotSystemObject">类 matlab.system.SystemProp 仅适用于 System object。</entry>
+    <entry key="throwObsoleteWarningInvalidInput">输入 TYPE 必须为 ''property''、''method'' 或 ''package''</entry>
+    <entry key="throwObsoleteWarningIncompatible">未来的版本中将会删除 {0}{1}。</entry>
+    <entry key="throwObsoleteWarningIncompatibleNewName">未来的版本中将会删除 {0}{1}。请改用 {2}。</entry>
+    <entry key="throwObsoleteWarningIncompatibleNewNameUpdate">未来的版本中将会删除 {0}{1}。请改用 {2}。运行 SYSOBJUPDATE 自动更新您的代码。有关详细信息，请参阅 {3} 发行说明。</entry>
+    <entry key="throwObsoleteWarningIncompatibleUpdate">未来的版本中将会删除 {0}{1}。运行 SYSOBJUPDATE 自动更新您的代码。有关详细信息，请参阅 {2} 发行说明。 </entry>
+    <entry key="throwObsoleteWarningNotRecommended">建议不要使用 {0}{1}。</entry>
+    <entry key="throwObsoleteWarningNotRecommendedNewName">建议不要使用 {0}{1}。请改用 {2}。</entry>
+    <entry key="throwObsoleteWarningNotRecommendedNewNameUpdate">建议不要使用 {0}{1}。请改用 {2}。运行 SYSOBJUPDATE 自动更新您的代码。有关详细信息，请参阅 {3} 发行说明。</entry>
+    <entry key="throwObsoleteWarningNotRecommendedUpdate">建议不要使用 {0}{1}。运行 SYSOBJUPDATE 自动更新您的代码。有关详细信息，请参阅 {2} 发行说明。</entry>
+    <entry key="tooManyInputsDimensions">对于可变大小输入，代码生成支持的最大维数为 {0,number,integer}。</entry>
+    <entry key="unknownDataType">索引输入的数据类型未知。</entry>
+    <entry key="unlockedMethodCall">无法对尚未初始化的 System object 调用 {0} 方法。</entry>
+    <entry key="unsupportedHDLMethod">不支持调用 ''{0}'' 方法以生成 HDL 代码。</entry>
+    <entry key="unsupportedInputDataType">输入必须为数值或逻辑变量，或者为 fi 对象。</entry>
+    <entry key="unsupportedFixptDataType">Fi 对象的输入或输出不支持未指定的量化。</entry>
+    <entry key="fixptDataTypeCreationFailed">无法为给定 Fi 对象创建定点字符向量。</entry>
+    <entry key="unsupportedFixptDataTypeCodeGen">必须将 Fi 对象输入的 DataTypeMode 属性设置为 ''Double''、''Single'' 或 ''Fixed-point: binary point scaling'' 或 ''Scaled double:binary point scaling'' 之一。</entry>
+    <entry key="unsupportedFixptDataTypeStateCodeGen">必须将 Fi 对象的 DataTypeMode 属性设置为 ''Double''、''Single'' 或 ''Fixed-point:binary point scaling'' 或 ''Scaled double:binary point scaling'' 之一。</entry>
+    <entry key="unsupportedIOFixptDataType">必须将 Fi 对象 {0} {1} System object 的 DataTypeMode 属性设置为 ''Double''、''Single'' 或 ''Fixed-point:binary point scaling'' 之一。</entry>
+    <entry key="unsupportedMixedFloats">此 System object 不支持混合浮点类型。</entry>
+    <entry key="unsupportedSetCodegen">生成代码时，set 方法只能使用 &lt;名称, 值&gt; 输入。</entry>
+    <entry key="unsupportedStateValueContinuous">ContinuousState 属性值必须为非稀疏的双精度实数值向量。</entry>
+    <entry key="unsupportedStateValueDiscrete">DiscreteState 属性值必须为数值或逻辑变量或者为 fi 对象，并且必须为非稀疏值。</entry>
+    <entry key="unsupportedContinuousStatePropertiesHDL">HDL 代码生成不支持具有 ContinuousState 属性的 System object。</entry>
+    <entry key="unknownActionPlacement">Action Placement ''{0}'' 与 ''first''、''last'' 或其组 PropertyList 中属性的名称不匹配。</entry>
+    <entry key="unknownImagePlacement">Image Placement ''{0}'' does not match ''first'', ''last'', or the name of a property in its group PropertyList.</entry>
+    <entry key="emptyImageFile">The File property for matlab.system.display.Image class must not be empty.</entry>
+    <entry key="unknownDisplayProperty">PropertyList 条目 ''{0}'' 与任何属性都不匹配。</entry>
+    <entry key="unknownDependOnPrivateProperty">DependOnPrivatePropertyList 条目 ''{0}'' 与 PropertyList 中的任何属性都不匹配。</entry>
+    <entry key="unknownSystem">无法找到 System object ''{0}'' 或该对象无效。</entry>
+    <entry key="unknownSystemMapKey">找不到与 System object 匹配的键。</entry>
+    <entry key="unknownWidgetType">未知的小组件类型</entry>
+    <entry key="updateCalledAfterSpecsChanged">无效的 update 调用 - 输入设定已更改。</entry>
+    <entry key="updateCalledBeforeSetup">调用 step 或 output 之前，不能调用 update 方法。</entry>
+    <entry key="updateCalledBeforeSetupCodegen">由 {0} 报告: 调用 step 或 output 之前，不能调用 update 方法。</entry>
+    <entry key="updateScompHelpInvalidFlag">标志无效: {0}</entry>
+    <entry key="varDimNotSupported">由 {0} 报告: 此 System object (或其当前配置)不支持可变输入大小。</entry>
+    <entry key="varsizeOutputDimsMoreThanTwo">由 {0} 报告: 此 System object 不支持维度超过两个的数据的可变大小输出。</entry>
+    <entry key="varsizeOutputDimsScalar">由 {0} 报告: 可更改大小的标量输出信号不支持代码生成。</entry>
+    <entry key="varsizeScalarInput">不允许使用输入 {0,number,integer} 的可变大小标量。</entry>
+    <entry key="warnForLoadDiscreteState">由 {0} 报告:对于离散状态 ''{1}''，已保存设定与当前设定不匹配。未加载已保存的数据。</entry>
+    <entry key="warnForLoadPersistentOutput">由 {0} 报告:对于端口 {1,number,integer}，已保存设定与当前设定不匹配。未加载已保存的数据。</entry>
+    <entry key="WithPropertiesText">- 属性:</entry>
+    <entry key="WithNoPropertiesText">不具有属性。</entry>
+    <entry key="wordLengthTooLarge">System object 不支持 128 位以上的定点字长。</entry>
+    <entry key="wrongParamFormat">(内部)参数需要为元胞格式。</entry>
+    <entry key="wrongPlatform">(内部)无法识别的平台: {0}。</entry>
+    <entry key="wrongRenderer">(内部)无法识别的渲染器: {0}。</entry>
+    <entry key="CRLDWorkDimArgIsNotDerivedParam">为派生维度实参指定的实参 ''{0}'' 无效。该实参必须为派生参数。</entry>
+    <entry key="CRLCannotEvaluateDWorkDimArg">为派生参数 ''{0}'' 指定的表达式的计算结果不是标量。以派生维度实参的形式指定的派生参数的计算结果必须是双精度标量。</entry>
+    <entry key="CRLMatrixTypeForDWorkLength">为维度值指定的实参 ''{0}'' 必须是标量。</entry>
+    <entry key="CRLInvalidTypeForDWorkDimArg">为 ''{0}'' 指定的数据类型无效。派生参数的计算结果的数据类型必须为 ''double''。</entry>
+    <entry key="CRLCompileErrorForDerivedArg">派生表达式出现 CRL 编译错误: {0} 要求 {1} 由表达式 {2} 定义。</entry>
+    <entry key="CRLNoTunableSupport"> 使用 CRL 时，并非所有可调属性都可以在锁定 System object 后进行更改。在调用 step 后 无法更改 {0} 的以下属性: {1}。</entry>
+    <entry key="DialogErrorSettingProperty">设置 System object 的属性时出错</entry>
+    <entry key="DataTypesGroupDefaultDescription">继承的浮点类型会覆盖此处设置的数据类型。当模块的输入类型为浮点时，所有模块的数据类型都必须与输入的类型相匹配。</entry>
+    <entry key="DataTypesGroupDefaultTitle">数据类型</entry>
+    <entry key="DataTypesGroupInvalidProperty">不能在 DataTypesGroup 中使用 Property 对象。请改用 DataTypeProperty 对象。</entry>
+    <entry key="UnknownValueProperty">指定为 ValuePropertyName 的属性 ''{0}'' 不存在。</entry>
+    <entry key="DialogOKButton">确定</entry>
+    <entry key="DialogCancelButton">取消</entry>
+    <entry key="DialogUnappliedChangesTitle">未应用的更改: {0}</entry>
+    <entry key="DialogInvalidExpression">输入的值无法计算。所有值都必须为有效的 MATLAB 表达式。</entry>
+    <entry key="DialogUnappliedChangesText">必须应用对话框更改，然后才能使用按钮。</entry>
+    <entry key="DialogCannotCompleteAction">由于以下错误，无法完成操作:\n\n{0}</entry>
+    <entry key="SimulateUsingErrorWithFiSettings">当 showFiSettings 设置为 true 时，'SimulateUsing' 参数必须设置为 'Code generation'。</entry>
+    <entry key="ShowFiSettingsErrorWithDataTypeGroup">当 showFiSettings 设置为 true 时，数据类型属性不受支持。</entry>
+    <entry key="mustReturnNonnegativeIntScalar">{0} 必须返回一个小于 {1} 的数值型整数值非负标量。</entry>
+    <entry key="mustReturnPositiveIntScalar">{0} 必须返回一个小于 {1} 的数值型整数值正标量。</entry>
+    <entry key="mustReturnNonnegativeIntScalarCodegen">由 {0} 报告: {1} 必须返回一个小于 {2} 的数值型整数值非负标量。</entry>
+    <entry key="sizeMustBeNonnegativeIntScalarCodegen">由 {0} 报告: {1} 返回的大小无效。每个维度都必须为一个小于 {2} 的数值型非负整数标量。</entry>
+    <entry key="invalidImpulseResponseLength">{0} 必须返回一个小于 {1} 的数值型非负整数标量或 Inf。 </entry>
+    <entry key="mismatchGetNumInputsImplStepImpl">{1} 中 {0} 的定义不正确。{2} 返回 {3, number, integer} 个输入，但 {4} 定义了 {5,number,integer} 个输入参数(System object 除外)。{6} 必须至少定义 {7,number,integer} 个输入参数(System object 除外)。</entry>
+    <entry key="IsChangedPropertyExpectedText">要为 isChangedProperty 指定属性名称，请使用字符向量、字符向量元胞数组或字符串数组。</entry>
+    <entry key="maxNumInputsFewerAllowed">输入参数太多。最多需要 {0,number,integer} 个输入参数(System object 除外)，得到 {1,number,integer} 个。</entry>
+    <entry key="UndefinedMethod">类 ''{1}'' 没有带预期签名的方法 ''{0}''。</entry>
+    <entry key="getInterfaceImplReturnInvalidValue">''{0}'' 的 getInterfaceImpl 的返回值无效。返回值必须是由输入和输出元素组成的向量。</entry>
+    <entry key="cannotFindSymbol">{0}</entry>
+    <entry key="cannotLoadModule">{0}</entry>
+    <entry key="genericError">{0}</entry>
+    <entry key="helpCommandLineForIsLocked">
+      isLocked Locked status for input attributes and non-tunable properties\n
+      L = isLocked(OBJ) returns a logical value, L, which indicates whether\n
+      \ \ \ input attributes and non - tunable properties are locked for the System\n
+      \ \ \ object, OBJ. The object performs an internal initialization the first\n
+      \ \ \ time the step method is executed. This initialization locks non-tunable\n
+      \ \ \ properties and input specifications, such as dimensions, complexity, \n
+      \ \ \ and data type of the input data. After OBJ is locked, the isLocked method\n
+      \ \ \ returns a true value.\n
+      \n
+      \ \ \ See also &lt;a href="matlab:help matlab.System/step"&gt;step&lt;/a&gt;, &lt;a href="matlab:help matlab.System/release"&gt;release&lt;/a&gt;.</entry>
+    <entry key="helpCommandLineForRelease">
+      release Allow property value and input characteristics changes\n
+      \ \ \ release(OBJ) releases system resources (such as memory, file handles or\n
+      \ \ \ hardware connections) of System object, OBJ. After release() is called, all the\n
+      \ \ \ properties and input characteristics of OBJ can be changed.\n
+      \n
+      \ \ \ Once you call the release method on a System object, subsequent calls\n
+      \ \ \ to setup, step, reset, or release are not supported for code\n
+      \ \ \ generation.\n
+      \n
+      \ \ \ See also &lt;a href="matlab:help matlab.System/isLocked"&gt;isLocked&lt;/a&gt;, &lt;a href="matlab:help matlab.System/release"&gt;step&lt;/a&gt;.</entry>
+    <entry key="helpCommandLineForReset">
+      reset Reset the internal states of a System object\n
+      \ \ \ reset(OBJ) resets the internal states of System object OBJ to their\n
+      \ \ \ initial values.\n
+      \n
+      \ \ \ Objects that have internal states will describe in their help\n
+      \ \ \ what the reset method does for that object.  System objects\n
+      \ \ \ with no states are unaffected by reset.\n</entry>
+    <entry key="matlabAutoSectionTitle"/>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelCommentWindow">コメント ウィンドウ</entry>
+    <entry key="DlgYouMustChooseAtLeastThreePoints">少なくとも 3 つの点を選択しなければなりません</entry>
+    <entry key="TitleMakingAVase">壷の作成</entry>
+    <entry key="MsgRenderingComplete">描画が完了しました。\n\n 別の形を作成する場合は、[新しい形状] ボタンを押してください。</entry>
+    <entry key="MsgHowToMakeVase">赤い線は作成する形状に対する\n 回転の中心軸を表します。壷の輪郭を描画するには、上に表示されている軸ボックス内を\n クリックしてください。壷を描画する最後の点は、右ボタンで \n (または、Shift キーを押しながら) クリックしてください。      </entry>
+    <entry key="ButtonNewShape">新しい形状</entry>
+    <entry key="DlgRenderingPleaseWait"> 立体を描画中です:お待ちください...</entry>
+  </message>
+</rsccat>

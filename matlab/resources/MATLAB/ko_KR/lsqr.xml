@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">입력 인수가 부족합니다.</entry>
+    <entry key="RSHnotColumn">우변은 열 벡터여야 합니다.</entry>
+    <entry key="RSHsizeMatchCoeffMatrix">우변은 {0,number,integer} 길이의 열 벡터여야 합니다.</entry>
+    <entry key="WrongPrecondSize">선조건자(Preconditioner)는 {0,number,integer} 크기의 정사각 행렬이어야 함</entry>
+    <entry key="WrongInitGuessSize">초기 추측값은 {0,number,integer} 길이의 열 벡터여야 합니다.</entry>
+    <entry key="TooManyInputs">입력 인수가 너무 많습니다.</entry>
+    <entry key="tooSmallTolerance">LSQR이 입력 인수 tol을 달성하지 못할 수 있습니다.\n         더 큰 허용오차를 사용해 보십시오.</entry>
+    <entry key="tooBigTolerance">입력 인수 tol이 1보다 큼 \n         더 작은 허용오차를 사용해 보십시오.</entry>
+  </message>
+</rsccat>

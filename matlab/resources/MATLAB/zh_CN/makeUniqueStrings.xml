@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInputStrings">第一个参数必须为字符串数组、字符向量或字符向量元胞数组。</entry>
+    <entry key="InvalidFirstOptionalArg">第一个可选参数必须为字符串数组、字符向量、字符向量元胞数组、逻辑数组或整数数组。</entry>
+    <entry key="MissingNames">第一个输入参数不支持 {0} 值。</entry>
+    <entry key="NonPositiveRange">要设置成唯一的元素的索引必须为正整数。</entry>
+    <entry key="OutOfBoundRange">要设置成唯一的元素的索引超出了第一个参数中的元素数目。</entry>
+    <entry key="BadLengthLogicalMask">第一个参数和要设置成唯一的索引的逻辑数组必须具有相同的元素数目。</entry>
+    <entry key="BadMaxStringLength">第二个可选参数必须为非负整数。</entry>
+    <entry key="CannotMakeUnique">输入参数的组合不能设置为唯一。</entry>
+  </message>
+</rsccat>

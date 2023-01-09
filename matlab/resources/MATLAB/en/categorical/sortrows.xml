@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="thirdArgElements">COL must contain integers with absolute value between 0 and size(A, 2).</entry>
+    <entry key="thirdArgType">COL must be a full, real vector.</entry>
+
+    <!-- following only happen with invalid categorical object -->
+    <entry key="firstArgType">First argument of CATEGORICALSORTROWS must be a full, real matrix of type uint8, uint16 or uint32.</entry>
+    <entry key="secondArgType">Second argument of CATEGORICALSORTROWS must be a real positive scalar between 0 and intmax(class(X)).</entry>
+    <entry key="ElementTooLarge">Elements of first argument X of CATEGORICALSORT must be between 0 and N.</entry> 
+  </message>
+</rsccat>

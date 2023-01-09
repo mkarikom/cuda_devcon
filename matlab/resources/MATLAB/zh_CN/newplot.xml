@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidHandle">参数必须为现有图形对象的标量句柄。</entry>
+    <entry key="NoAxesParent">指定的坐标区在图窗重置时被单独的进程删除。</entry>
+    <entry key="HoldOnMixing">不支持将笛卡尔绘图添加到 {0}。</entry>
+    <entry key="HoldOnMixingPolar">不支持将极坐标图添加到 {0}。</entry>
+    <entry key="HoldOnMixingAxesGeneric">不支持将 {0} 添加到 {1}。请关闭 hold。</entry>
+  </message>
+</rsccat>

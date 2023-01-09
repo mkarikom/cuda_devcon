@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InputMustBeString">Input argument must be a character vector, string, or cell array of character vectors.</entry>
+    <entry key="IllegalBinaryString">Text must consist of characters 0 and 1 and optionally can contain a 0b prefix or type suffix.  Additionally, the input must convert to less than intmax.</entry>
+    <entry key="InputExceedsFlintmax">Binary numbers representing integers greater than or equal to flintmax might not be represented exactly as double-precision floating-point values.</entry>
+    <entry key="InvalidCharacters">Binary text must consist of characters 0 and 1.</entry>
+    <entry key="TooManyDigits">Binary text has too many digits for specified or implied type suffix.</entry>
+    <entry key="SuffixRequiresPrefix">Use of type suffix in binary text requires the use of 0b prefix.</entry>
+  </message>
+</rsccat>

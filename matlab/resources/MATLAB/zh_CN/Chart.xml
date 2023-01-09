@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ConvenienceNoOutputs">将 {0} 与 {1} 结合使用时不支持输出参数。</entry>
+    <entry key="ConvenienceTooManyInputs">将 {0} 与 {1} 结合使用时，指定的输入参数太多。</entry>
+    <entry key="ConvenienceNoInputs">将 {0} 与 {1} 结合使用时，需要提供输入参数。</entry>
+    <entry key="UnsupportedConvenienceFunction">不支持将 {0} 与 {1} 结合使用。</entry>
+    <entry key="UnsupportedArgument">将 {0} 与 {1} 结合使用时，指定的选项无效。 </entry>
+    <entry key="InvalidTableSubscript">''{0}'' 值为无效的表下标。</entry>
+    <entry key="RowTimesNotSupported">不支持访问时间表中的时间向量。</entry>
+    <entry key="NonScalarTableSubscript">''{0}'' 值必须引用源表中的单精度变量。</entry>
+    <entry key="NotColumnVector">''{0}'' 值必须引用源表中属于列向量的变量。</entry>
+    <entry key="TableSubscriptInvalid">''{0}'' 值未引用源表中的有效变量。</entry>
+    <entry key="TooltipSortRowAscending">按升序对行进行排序</entry>
+    <entry key="TooltipSortRowDescending">按降序对行进行排序</entry>
+    <entry key="TooltipSortRowUndo">撤消行排序</entry>
+    <entry key="TooltipSortColumnAscending">按升序对列进行排序</entry>
+    <entry key="TooltipSortColumnDescending">按降序对列进行排序</entry>
+    <entry key="TooltipSortColumnUndo">撤消列排序</entry>
+    <entry key="TooltipDragReorderRows">点击并拖动以对行重新排序</entry>
+    <entry key="TooltipDragReorderColumns">点击并拖动以对列重新排序</entry>
+    <entry key="TooltipResetView">重置行和列顺序</entry>
+    <entry key="DatatipRow">行</entry>
+    <entry key="DatatipSize">大小</entry>
+    <entry key="DatatipColor">颜色</entry>
+    <entry key="DatatipGroup">组</entry>
+    <entry key="DatatipCount">计数</entry>
+    <entry key="DatatipMean">均值</entry>
+    <entry key="DatatipMedian">中位数</entry>
+    <entry key="DatatipNone">值</entry>
+    <entry key="DatatipSum">总和</entry>
+    <entry key="DatatipMin">最小值</entry>
+    <entry key="DatatipMax">最大值</entry>
+    <entry key="DatatipValue">值</entry>
+    <entry key="DatatipBinEdges">BinEdges</entry>
+    <entry key="DatatipBinWidth">BinWidth</entry>
+    <entry key="SavingDisabled">不支持保存 ''{0}'' 类的对象。</entry>
+  </message>
+</rsccat>

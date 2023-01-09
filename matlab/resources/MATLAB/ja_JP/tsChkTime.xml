@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="manytimedim">時間ベクトルは 3 次元以上を扱えません。</entry>
+    <entry key="shorttime">時間ベクトルは空にできません。</entry>
+    <entry key="matrixtime">時間ベクトルは 1 行 n 列または n 行 1 列のベクトルでなければなりません。</entry>
+    <entry key="inftime">時間ベクトルは有限値のみを含まなければなりません。</entry>
+    <entry key="realtime">時間ベクトルは実数値のみを含まなければなりません。</entry>
+  </message>
+</rsccat>

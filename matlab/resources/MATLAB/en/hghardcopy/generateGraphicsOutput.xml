@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="MustBeRowOrColumnVector">Array of handles must be a row or column vector</entry>
+    <entry key="MustBeExportableHandle">Array of handles must contain Exportable objects</entry>
+    <entry key="badField">An invalid field or value was specified for {0}.</entry>
+    <entry key="NotAvailableInDemoVersion">Generating graphics output is not available in demo version</entry>
+    <entry key="Unknown">Unknown</entry>
+    <entry key="UnableToDetermineOutputGenerator">Unable to determine the output generator to use for driver ''{0}'' and extension ''{1}''.</entry>
+  </message>
+</rsccat>

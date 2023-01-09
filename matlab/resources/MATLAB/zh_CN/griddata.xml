@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="HigherDimArray">X、Y 和 XI、YI 不能是维数大于 2 的数组。</entry>
+    <entry key="InvalidDataSparse">输入数据不能是稀疏数据。</entry>
+    <entry key="InvalidCoordsComplex">输入坐标不能是复数。</entry>
+    <entry key="InvalidMethod">METHOD 必须为 ''linear''、''cubic''、''nearest'' 或 ''v4'' 之一。</entry>
+    <entry key="NotEnoughSamplePts">指定的唯一样本点的数目不足。</entry>
+    <entry key="UnknownMethod">未知方法。</entry>
+    <entry key="CubicMethod3D">三次插值方法仅支持二维。</entry>
+    <entry key="V4Method3D">v4 插值方法仅支持二维。</entry>
+    <entry key="EmptyTriangulation">基本三角剖分为空 - 这些点可能共线。</entry>
+    <entry key="InvalidInputArgs">输入参数无效。</entry>
+    <entry key="InvalidNumInputArgs">输入参数的数目无效。</entry>
+    <entry key="DuplicateDataPoints">检测到重复的 x-y 数据点: 将使用重复点的平均值。</entry>
+    <entry key="DeprecatedOptions">GRIDDATA 不再需要 Qhull 特定的选项。\n请在调用 GRIDDATA 时删除这些选项。</entry>
+    <entry key="NonDistinctPoints">已计算 {0,number,integer} 个相同点的平均值。\n         索引为: {1}。</entry>
+  </message>
+</rsccat>

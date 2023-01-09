@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputExceedsFlintmax">flintmax 以上の整数を表す入力は、倍精度浮動小数点値で正確に表されない可能性があります。</entry>
+    <entry key="InvalidBase">基底は、2 と 36 の間の整数値でなければなりません。</entry>
+    <entry key="NumberOutsideRange">''{0}'' は、基底 {1, number, integer} に変換できない文字を含んでいます。</entry>
+  </message>
+</rsccat>

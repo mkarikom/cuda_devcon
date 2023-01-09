@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidHandleArguments">인수의 개수가 올바르지 않음</entry>
+    <entry key="UnknownAlphaValue">알 수 없는 알파 값입니다.</entry>
+    <entry key="ParameterIgnored">파라미터 {0}은(는) {1} 객체와 호환되지 않습니다.</entry>
+    <entry key="ParameterIgnoredObjects">파라미터 {0}은(는) 지정된 객체와 호환되지 않습니다.</entry>
+    <entry key="UnrecognizedObject">알파 명령은 지정된 객체와 호환되지 않습니다.</entry>
+    <entry key="DeletedObject">삭제된 그래픽스 객체에는 투명도를 설정할 수 없습니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FigureWindowRequired">getframe에는 유효한 Figure 창이 필요합니다.</entry>
+    <entry key="WidthAndHeightMustBeAtLeast1">직사각형 너비와 높이는 1 픽셀 이상이어야 합니다. </entry>
+    <entry key="BadObject">유효한 Figure 또는 axes 핸들을 지정해야 함</entry>
+    <entry key="FigureDestroyedDuringGetFrame">getframe 실행 중 Figure가 제거되었음</entry>
+    <entry key="FigureNotValidDuringGetFrame">getframe 실행 중 유효하지 않은 Figure 창이 발견됨</entry>
+    <entry key="RectangleMustBeAtLeastPartiallyOnScreen">getframe에 전달된 직사각형은 최소한 화면 일부여야 합니다.</entry>
+    <entry key="OnlySupportTrueColor">Getframe/CaptureScreen은 트루컬러 비주얼만 지원합니다.</entry>
+  </message>
+</rsccat>

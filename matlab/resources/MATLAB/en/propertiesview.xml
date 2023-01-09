@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="UnknownClassOrProperty">No {0} "{1}" can be located or no visible properties for {2}.</entry>
+      <entry key="InvalidInput" note="stringDatatypeUpdate">propertiesview is only supported for MATLAB classes defined using the classdef syntax.</entry>
+      <entry key="TitlePropertiesForClass">Properties for class {0}</entry>
+      <entry key="LabelInheritedFrom">Inherited From</entry>
+      <entry key="LabelName">Name</entry>
+      <entry key="LabelType">Class</entry>
+      <entry key="LabelSetAccess">Set Access</entry>
+      <entry key="LabelDescription">Description</entry>
+      <entry key="LabelValue">Value</entry>
+   </message>
+</rsccat>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noJVM">-nojvm 启动选项下不支持此功能。</entry>
+    <entry key="MacNoX11">根据用于启动此 MATLAB 实例的选项不再支持此功能。有关详细信息，请参阅 MATLAB 发行说明中的“Mac 上的启动选项变更”。要在您的系统浏览器中查看此发行说明，请运行 web(''http://www.mathworks.com/help/matlab/release-notes.html#startup_options_changes'', ''-browser'')</entry>
+    <entry key="ObjectDestroyed">对象已破坏!</entry>
+    <entry key="CALLBACK">计算回调时返回了未知的错误代码。</entry>
+    <entry key="UicontrolUnitsAfterPosition">UICONTROL 在 ''Position'' 后收到有关 ''Units'' 的属性/值对:\n         为了实现向后兼容，将采用新单位解释此位置。在下一个 MATLAB 版本中，UICONTROL 将使用默认单位解释 ''position'' 值，任何后续 ''units'' 属性/值对都会导致将初始位置转换为指定单位。</entry>
+    <entry key="IteratorOutOfBoundsError">迭代函数已到达可用数据末尾。</entry>
+    <entry key="hgError">{0} 不能是 {1} 的子级。</entry>
+    <entry key="UnsupportedComponentUsePanel">{0} 不支持 {1}。请创建一个面板作为 {0} 的子级，然后将 {1} 放在此面板中。</entry>
+  </message>
+</rsccat>

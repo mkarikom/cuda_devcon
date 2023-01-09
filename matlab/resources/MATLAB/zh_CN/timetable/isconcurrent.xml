@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidRange">第二个输入必须为时间表、时间范围下标器对象、日期时间标量或持续时间标量。</entry>
+    <entry key="InvalidFlag">标志无效。请指定 'contains'、'intersects' 或 'within'。</entry>
+    <entry key="ContainedInvalidWithScalarTime">当使用标量日期时间或持续时间指定行时间范围时，'contained' 是无效选项。请指定 'intersects' 或 'contains'。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LevelOfDetailWarning">详细信息级别算法未能将线条详细信息降至 EdgeDetailLimit 之下。数据的显示质量可能受损。增加 line 对象的 EdgeDetailLimit 属性的值以便达到更佳的结果。</entry>
+    <entry key="MarkerIndexOutOfRange">'MarkerIndices' 属性包含无效的索引。将仅显示小于或等于数据点数目的索引的标记。</entry>
+  </message>
+</rsccat>

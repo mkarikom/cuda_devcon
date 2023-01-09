@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+ <rsccat version="1.0" locale="en_US" product="MATLAB">
+   <message>
+
+     <entry key="BadVertexID">
+Vertex with ID {0,number,integer} does not exist in that graph;
+perhaps it has been removed.
+     </entry>
+
+     <entry key="OrphanVertex">
+The graph this vertex belongs to no longer exists.
+     </entry>
+
+     <entry key="OrphanEdge">
+The graph this edge belongs to no longer exists.
+     </entry>
+
+     <entry key="NoVertexData">
+Vertex contains no data.
+     </entry>
+
+     <entry key="NoEdgeData">
+Edge contains no data.
+     </entry>
+
+     <entry key="BadEdgeTarget">
+Invalid edge. The target vertex does not exist.
+     </entry>
+
+     <entry key="BadEdgeSource">
+Invalid edge. The source vertex does not exist.
+     </entry>
+
+     <entry key="InvalidEdge">
+No edge from vertex ID {0,number,integer} to vertex ID {1,number,integer}
+in that graph.
+     </entry>
+
+     <entry key="BadVertexDescriptor">
+Vertex with descriptor {0,number,integer} does not exist in that graph;
+perhaps it has been removed.
+     </entry>
+
+      <entry key="VertexIDOutOfRange">
+Vertex ID {0,number,integer} out of range. Valid range: {1,number,integer}
+to {2,number,integer}.
+     </entry>
+
+     <entry key="RemoveEmptyVertex">
+Cannot remove an empty vertex from the graph. Use Graph.vertex() to obtain a
+valid Vertex object or provide a valid vertex ID.
+     </entry>
+
+     <entry key="RemoveEmptyEdge">
+Cannot remove an empty edge from the graph. Use Graph.edge() to obtain a
+valid Vertex object or provide valid source and target vertex IDs.
+     </entry>
+
+     <entry key="BadVertexIDSize">
+Vertex identifier of unexpected size: {0,number,integer} bytes. Please specify 
+a valid number of bytes: {1}.
+     </entry>
+
+     <entry key="EmptyVertexID">
+Vertex ID cannot be empty. Please use a numeric type such as double or int32.
+     </entry>
+
+     <entry key="BadVertexIDType">
+Cannot create vertex IDs from data of type {0}. Please use a numeric type 
+such as double or int32.
+     </entry>
+
+     <entry key="BadEdgeVertex">
+There can be no edge between vertices {0,number,integer} and {1,number,integer}, because one of them is an invalid vertex. Valid vertex ID range: {2,number,integer} to {3,number,integer}.
+     </entry>
+
+     <entry key="PropertyCountWrong">
+Wrong number of properties. Got: {0,number,integer}. Expecting: {1,number,integer} or 1.
+     </entry>
+
+     <entry key="ValueCountWrong">
+Wrong number of values. Got: {0,number,integer}. Expecting: {1,number,integer} or 1.
+     </entry>
+
+     <entry key="EmptyGraph">
+The graph is empty. Add vertices and edges.
+     </entry>
+
+     <entry key="DullGraph">
+The graph has no edge from vertex {0,number,integer} to vertex {1,number,integer}. Call Graph's add_edge function to add this edge before attempting to reference it.
+     </entry>
+
+     <entry key="ArgMustBeScalar">
+Argument {0,number,integer} must be a scalar. It is a {1,number,integer}-dimensional array.
+     </entry>
+
+     <entry key="ArgMustBeNumeric">
+Argument {0,number,integer} must be numeric. Found a {1} instead.
+     </entry>
+
+     <entry key="SearchEventRequired">
+Please specify the traversal event. Possible values include 'DiscoverVertex' (first time vertex is visited) and 'BackEdge' (when a cycle is detected) -- see the documentation for the complete list. See this Visitor's ActiveEvents property for a list of events for which data is currently available.
+     </entry>
+
+     <entry key="SearchEventMustBeChar" note="stringDatatypeUpdate">
+Expecting a character vector for the name of the traversal event. You provided an object of type {0}.
+     </entry>
+
+     <entry key="PartPropertyMustBeChar" note="stringDatatypeUpdate">
+Expecting a character vector for the name of the part property. You provided an object of type {0}.
+     </entry>
+
+     <entry key="PartPropertyMustBeVector" note="stringDatatypeUpdate">
+Expecting a 1xN or Nx1 char (a character vector) for the name of the part property. You provided a {0,number,integer}-dimensional array whose first two dimensions are {1,number,integer}x{2,number,integer}.
+     </entry>
+
+     <entry key="InvalidPartReferant">
+Data of type {0} cannot be used to identify a graph vertex or edge. Specify graph vertices and edges by ID, Vertex or Edge objects or by their associated user data. 
+     </entry>
+
+     <entry key="PartIdMustBeNumeric">
+Edge and Vertex identifiers must be numeric. You provided data of type {0}.
+     </entry>
+
+     <entry key="PartIdMustBeNumericOrChar" note="stringDatatypeUpdate">
+Part specifiers must be a numeric array (Mx1 for vertices or Mx2 for edges) or a character vector ('Edge' or 'Vertex'). You provided an object of type {0}.
+     </entry>
+
+     <entry key="PartIdMustBeMatrix">
+The part ID list must be a matrix (Mx1 for VertexIDs or Mx2 for EdgeIDs). You provided a {0,number,integer} array whose first two dimensions are {1,number,integer}x{2,number,integer}.
+     </entry>
+
+     <entry key="InvalidPropertyName">
+Property name must be either 'value' or 'data'. You specified {0}.
+     </entry>
+
+     <entry key="PartTypeMustBeChar" note="stringDatatypeUpdate">
+Expecting a character vector for the name of the part type. You provided an object of type {0}.
+     </entry>
+
+     <entry key="InternalNullPredicate">
+Internal error: Vertex or edge predicate unexpectedly NULL. Operation cancelled.
+     </entry>
+
+     <entry key="PredicateMustBeFcn">
+Predicate argument must be a function returning a boolean. You provided an object of type {0}.
+     </entry>
+
+     <entry key="PredicateArgSizeMismatch">
+The predicate function requires {0,number,integer} inputs, but a part only has {1,number,integer} available. Please modify the predicate so that it has at most {2,number,integer} inputs.
+     </entry>
+
+     <entry key="DataAlreadySet">
+Too many MATLAB structure arrays in the argument list. The argument list may contain at most one MATLAB structure array, which will be used to set user data. Argument {0,number,integer} may not be structure array -- please eliminate it or change its type.
+     </entry>
+
+     <entry key="ValueAlreadySet">
+Too many MATLAB double arrays in the argument list. The argument list may contain at most one MATLAB double array, which will be used to set values. Argument {0,number,integer} may not be a double array -- please eliminate it or change its type.
+     </entry>
+
+     <entry key="FindIfSearchDataAlreadySet">
+Argument type mismatch: input number {0,number,integer} is a cell array, but the findIf search data is already set. Only one input to findIf may be a cell array.
+     </entry>
+
+     <entry key="FindIfPartAlreadySet" note="stringDatatypeUpdate">
+Argument type mismatch: input number {0,number,integer} is a character vector, but the findIf part type is already set. Only one input to findIf may be a character vector, and it must specify either 'edge' or 'vertex'.
+     </entry>
+
+     <entry key="FindIfCountMustBeScalar">
+Argument type mismatch: input number {0,number,integer} is numeric, but not scalar (it has {1,number,integer} elements). Only one input to findIf may be numeric and it must be a scalar: the maximum number of parts to return.
+     </entry>
+
+     <entry key="FindIfCountAlreadySet">
+Argument type mismatch: input number {0,number,integer} is numeric, but the findIf return count is already set. Only one input to findIf may be numeric and it must specify the maximum number of parts to return.
+     </entry>
+
+     <entry key="FindIfCountOutOfBounds">
+Number of parts to find must be between {0,number,integer} and {1,number,integer}. You requested {2,number,integer}.
+     </entry>
+
+     <entry key="InvalidPartType">
+Graph part type must be either 'vertex' or 'edge'. You specified "{0}".
+     </entry>
+
+     <entry key="SourceAndTargetSizeMismatch">
+The start and finish vertex lists may be scalars or vectors (1xN or Mx1). If both are non-scalar, they must contain exactly the same number of elements. Please note that they do not. length(start): {0,number,integer}. length(finish): {1,number,integer}.
+     </entry>
+
+     <entry key="ValueAndDataSizeMismatch">
+The values array and the data array may be scalars or vectors (1xN or Mx1). If both are non-scalar, both must be exactly the same size. That hasn't happened here. length(values): {0,number,integer}. length(data): {1,number,integer}.
+     </entry>
+
+     <entry key="DataMustBeStructVector">
+Expecting a 1xN or Nx1 structure array for the user data of the new vertices. You provided a {0,number,integer}-dimensional array of type {1} whose first two dimensions are {2,number,integer}x{3,number,integer}.
+     </entry>
+
+     <entry key="ValuesMustBeDoubleVector">
+Expecting a 1xN or Nx1 vector of doubles for the values of the new vertices. You provided a {0,number,integer}-dimensional array of type {1} whose first two dimensions are {2,number,integer}x{3,number,integer}.
+     </entry>
+
+     <entry key="PartTypeMustBeVector" note="stringDatatypeUpdate">
+Expecting a 1xN or Nx1 char (a character vector) for the name part type. You provided a {0,number,integer}-dimensional array whose first two dimensions are {1,number,integer}x{2,number,integer}.
+     </entry>
+
+     <entry key="SearchEventMustBeVector" note="stringDatatypeUpdate">
+Expecting a 1xN or Nx1 character vector for the name of the traversal event. You provided a {0,number,integer}-dimensional array whose first two dimensions are {1,number,integer}x{2,number,integer}.
+     </entry>
+
+     <entry key="NumericMustBeNumeric">
+Expecting a number. You provided an object of type {0}.
+     </entry>
+
+     <entry key="LogicalMustBeLogical">
+Expecting a logical (boolean). You provided an object of type {0}.
+     </entry>
+
+     <entry key="LogicalMustBeScalar">
+Expecting a scalar logical (boolean). You provided an array with {0,number,integer} elements.
+     </entry>
+
+     <entry key="NumericMustBeScalar">
+Expecting a scalar number. You provided a numeric array with {0,number,integer} elements.
+     </entry>
+
+     <entry key="StringMustBeString" note="stringDatatypeUpdate">
+Expecting a character vector. You provided an object of type {0}.
+     </entry>
+
+     <entry key="StringMustBeVector" note="stringDatatypeUpdate">
+Expecting a 1xN or Nx1 character vector. You provided a {0,number,integer}-dimensional array whose first two dimensions are {1,number,integer}x{2,number,integer}.
+     </entry>
+
+     <entry key="ArgMustBeStruct">
+Argument {0,number,integer} must be a structure.
+     </entry>
+
+     <entry key="UnexpectedArgType">
+Argument {0,number,integer} of {1} must be a {2}. You provided a {3}.
+     </entry>
+
+     <entry key="InvalidArgType">
+Type mismatch at argument {0,number,integer}. This function does not accept arguments of type {1}.
+     </entry>
+
+     <entry key="ArgMustBeStructOrNumeric">
+Argument {0,number,integer}: provide a structure array to specify data or a double array to set values. Incorrect type: {1}.
+     </entry>
+
+     <entry key="InvalidVisitEvent">
+No such event {0} for {1} graph traversals. Please specify a valid event.
+     </entry>
+
+     <entry key="VisitorRequiresGraph">
+If you're going send a {0} to visit a graph, you need to specify the graph. Please call visit() with two arguments: the visitor object and the graph. For example: values = visit(visitor, graph).
+     </entry>
+
+     <entry key="VerticesRequireVisit">
+You cannot ask a visitor for the vertices it has visited until you send it to visit a graph. This {0} has never visited a graph. If you have a graph g, and a visitor v, call visit(v, g) to initiate a graph traversal.
+     </entry>
+
+     <entry key="ValuesRequireVisit">
+You cannot ask a visitor for the values collected during a graph traversal until you send it to visit a graph. This {0} has never visited a graph. If you have a graph g, and a visitor v, call visit(v, g) to initiate a graph traversal.
+     </entry>
+
+     <entry key="VisitorRequiresCallbackStruct">
+When you create a {0} visitor, you may specify an array of callbacks that the visitor will invoke a pre-determined times during the graph traversal. The callback array must be a structure with three fields: 'event', 'callback' and 'state'. Only 'state' may be empty.
+     </entry>
+
+     <entry key="WrongNumberFcnArgs">
+The function {0} requires {1} arguments. You provided
+{2,number,integer}.
+     </entry>
+
+     <entry key="WrongNumberExeArgs">
+The program {0} requires {1,number,integer} arguments. You provided
+{2,number,integer}.
+     </entry>
+
+     <entry key="WrongNumberConstructorArgs">
+The constructor for {0} requires {1} arguments.
+You provided {2,number,integer}.
+     </entry>
+
+     <entry key="NoDirection">
+Unable to determine graph edge direction (directed or undirected) from inputs to {0}. Specify ('directed', true) for a directed graph or ('directed', false) for an undirected graph.
+     </entry>
+
+     <entry key="BadInputs">
+Invalid input argument list for {0}.
+     </entry>
+
+     <entry key="NotANumericType">
+You provided data of type {0} for an operation that requires a numeric type.
+     </entry>
+
+     <entry key="MissingVertexEdgeData">
+When you call {0} with {1,number,integer} arguments, you must specify either a number of vertices or a vector of edges. Neither could be located in the argument list.
+     </entry>
+
+     <entry key="MissingUserData">
+When you call {0} with {1,number,integer} arguments, one of them must be a MATLAB structure specifying user data. The argument list does not contain any MATLAB structures.
+     </entry>
+
+     <entry key="MissingCallbackState">
+Graph {0} visitor callback must return the state argument in order for state changes to persist. The callback should have this form: [value, state] = @(part, graph, state). (part is either a vertex or an edge, depending on the type of callback.)
+     </entry>
+
+     <entry key="NoCallbackData">
+No data is available for {0} graph traversal callback {1}. Perhaps you did not specify a callback for this event?
+     </entry>
+
+     <entry key="GraphTooBigForTC">
+Insufficient memory to compute {0,number,integer}-piece transitive closure of
+graph with {1,number,integer} vertices and {2,number,integer} edges. Try
+splitting the graph into more pieces.
+     </entry>
+
+     <entry key="CannotGrowResult">
+Insufficient memory to grow results vector to {0,number,integer} elements. Operation cancelled.
+     </entry>
+
+     <entry key="CannotCreateGraphData">
+Insufficient memory to create graph data array for graph with {0,number,integer} vertices and {1,number,integer} edges. {2} operation cancelled.       
+     </entry>
+
+     <entry key="CannotCreateVertexData">
+Insufficient memory to create data array for {0,number,integer} vertices. Failed while processing vertex #{1,number,integer}, field: {2}.)
+     </entry>
+
+     <entry key="CannotCreateEdgeData">
+Insufficient memory to create data array for {0,number,integer} edges. Failed while processing edge #{1,number,integer}, field: {2}.)
+     </entry>
+
+     <entry key="EdgeTooLarge">
+Edge size of {0,number,integer} bytes too large to fit into memory 
+({1,number,integer} bytes). Choose a smaller size. Typically edge sizes 
+are 64 or 128 bytes (that's the size of two vertices).
+     </entry>
+
+     <entry key="FailedToRetrieveSerializeData">
+Could not retrieve {0} data. Cannot serialize (save) graph.
+     </entry>
+
+     <entry key="VertexInitRequiresEmptyGraph">
+You can only set the vertex data of an empty graph. This graph already has {0,number,integer} vertices.
+     </entry>
+
+     <entry key="InitDataEmpty">
+Cannot initialize the {0} data because the input structure is empty or NULL.
+     </entry>
+
+     <entry key="InitDataMustBeStruct">
+The {0} initialization data must be a MATLAB structure. You provided a {1}.
+     </entry>
+
+     <entry key="InitDataMissingField">
+Cannot initialize {0} data. The input structure is missing a required field: {1}.
+     </entry>
+
+     <entry key="InitMatrixWrongDims">
+Cannot initialize the graph's {0} data. The {1} matrix has the wrong number of dimensions. Expecting {2,number,integer}, found {3,number,integer}.
+     </entry>
+
+     <entry key="InitMatrixWrongShape">
+Cannot initialize the graph's {0} data. The {1} matrix is the wrong shape. Expected {2}x{3}, found {4,number,integer}x{5,number,integer}.
+     </entry>
+
+     <entry key="InitDataWrongSize">
+Cannot initialize the graph's {0} data. The {1} list is the wrong size. Expected {2,number,integer} elements, found {3,number,integer}.
+     </entry>
+
+     <entry key="NoSuchStructField">
+Attempt to reference non-existent structure field ''{0}''.
+     </entry>
+
+     <entry key="InitDataBadStructure">
+Cannot initialize the graph's {0} data. The input structure must have {1,number,integer} fields. The given structure has {2,number,integer} fields.
+     </entry>
+
+     <entry key="EdgeInitRequiresUnconnectedGraph">
+You can only set the edge data of an unconnected graph. This graph already has {0,number,integer} edges.
+     </entry>
+
+     <entry key="EdgeInitRequiresVertices">
+You cannot set the edge data of a graph with zero vertices. Please add vertices (perhaps by calling setVertexData) before adding edge data.
+     </entry>
+
+     <entry key="FieldTypeWrong">
+The {1} field of the {0} structure has the wrong type. Expected: {2}. Found: {4,number,integer} {3}{5}.
+     </entry>  
+
+     <entry key="UndirectedTopoSort">
+An undirected graph cannot be topologically sorted.
+     </entry>
+       
+     <entry key="InternalZeroEdgesToRead">
+Internal error: Zero edges to read from graph edge list file {0}.
+Avoiding infinite loop. Buffer size: {1,number,integer}, edge bytes:
+{2,number,integer}, remaining edges: {3,number,integer}.
+     </entry>
+
+     <entry key="InternalBadFcnName">
+Internal error: Could not make a function handle from function name {0}.
+     </entry>
+
+     <entry key="InternalPairTypeMismatch">
+Internal error: Attempt to create a pair from items of dissimilar types. This will always fail, and is not permitted.
+     </entry>
+
+     <entry key="InternalBadScalarIteratorType">
+Internal error: The scalar array reader cannot handle arrays of type {0}.
+     </entry>
+
+     <entry key="InternalBadIteratorType">
+Internal error: Attempt to create iterator with C++ value type {0} from array type {1}. These types are incompatible.
+     </entry>
+
+     <entry key="InternalNoCallback">
+Internal error: Graph visitor callback function is NULL.
+     </entry>
+
+     <entry key="InternalBadListenerType">
+Internal error: Cannot create graph traverse functor because constructor received a listener object of the wrong type.
+     </entry>
+
+     <entry key="InternalBadVisitorValueSize">
+Internal error: Graph visitor values cell array incorrect size. Expected {0,number,integer} elements but found {1,number,integer}.
+     </entry>
+
+     <entry key="InternalBadVertexListSize">
+Internal error: Vertex list incorrect size. Expected {0,number,integer} elements but found {1,number,integer}.
+     </entry>
+
+     <entry key="InternalPartitionBreach">
+Internal error: Connected component integrity failure. Edge source vertex
+{0,number,integer} in component {1,number,integer} connects to target vertex
+{2,number,integer} in component {3,number,integer}. Edges should not cross
+connected component boundaries.
+     </entry>
+
+     <entry key="InternalUnmappedVertex">
+Internal error: Expected to find vertex {0,number,integer} in {1} vertex map.
+     </entry>
+
+
+     <entry key="InternalBadEdgeListSize">
+Internal error: Edge list incorrect size. Expected {0,number,integer} elements but found {1,number,integer}.
+     </entry>
+
+     <entry key="InternalBadEventNameSize">
+Internal error: Event Name array incorrect size. Expected {0,number,integer} elements but found {1,number,integer}.
+     </entry>
+
+     <entry key="InternalNullPtr">
+Internal error: Unexpected NULL pointer. Function: {0}. Variable: {1}.
+     </entry>
+
+     <entry key="InternalNoFactoryFcn">
+Internal error: The factory cannot make a {0} from a {1} and a {2}. Perhaps we've run out of bits?
+     </entry>
+
+     <entry key="InternalEmptyProduct2">
+Internal error: The factory function responsible for creating a {0} from a {1} and {2} didn't make anything. 
+     </entry>
+
+     <entry key="InternalBadVertexID">
+Internal error: Unexpected vertex ID: {0,number,integer}. Expected ID: {1,number,integer}.
+     </entry>
+
+     <entry key="InternalNoFields">
+Internal error: Attempt to reference fields in a non-structure array. Type of the input array: {0}.
+     </entry>
+
+     <entry key="CannotOpenFile">
+Cannot open file "{0}". Check that the file exists and that you have permission
+to read it. Reason: {1}.
+     </entry>
+
+     <entry key="CannotCreateFile">
+Cannot create file "{0}". Check that all folders in the path exist, that
+you have write permission in the specified directory and that you can overwrite
+the file if it exists. Reason: {1}.
+     </entry>
+
+     <entry key="CannotWriteFile">
+Cannot write to file "{0}". Check that the file exists, you have write
+permission on it, and that the disk is not full. Reason: {1}.
+     </entry>
+
+     <entry key="CannotCloseFile">
+Cannot close file "{0}". Check that the file exists, you have write
+permission on it, and that the disk is not full. Reason: {1}.
+     </entry>
+
+     <entry key="CannotReadFileNBytes">
+Error reading {0,number,integer} bytes from file "{1}". Read {2,number,integer}
+bytes. Check that the file exists and that you have read permission on it.
+Reason: {3}.
+     </entry>
+
+     <entry key="CannotWriteFileNBytes">
+Error writing {0,number,integer} bytes to file "{1}". Wrote {2,number,integer}
+bytes. Check that the file exists and that you have write permission on it.
+Reason: {3}.
+     </entry>
+
+     <entry key="CannotReadFile">
+Cannot read from file "{0}". Check that the file exists and that you have read
+permission on it. Reason: {1}.
+     </entry>
+
+   </message>
+ </rsccat>

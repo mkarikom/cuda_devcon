@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidInput">The first two inputs must be tables.</entry>
+    <entry key="CantInferKey">Cannot find a common table variable to use as a key variable.</entry>
+    <entry key="MissingKeyVar">Must provide either the ''Keys'' parameter, or both the ''LeftKeys'' and ''RightKeys'' parameters.</entry>
+    <entry key="ConflictingInputs">Must provide either the ''Keys'' parameter, or both the ''LeftKeys'' and ''RightKeys'' parameters.</entry>
+    <entry key="InvalidKeepOneCopy">The ''KeepOneCopy'' parameter must be a variable name or a cell array containing variable names.</entry>
+    <entry key="UnequalNumKeyVars">The number of key variables on the left and right must be the same.</entry>
+    <entry key="DuplicateVars">Cannot include a variable twice.</entry>
+    <entry key="NDKeyVar">An N-D variable cannot be used as the key for a join.</entry>
+    <entry key="KeyVarSizeMismatch">Left and right key variables ''{0}'' and ''{1}'' do not have the same number of columns.</entry>
+    <entry key="KeyVarCellMismatch">Left and right key variables ''{0}'' and ''{1}'' are not comparable because one is a non-cell.</entry>
+    <entry key="KeyVarTypeMismatch">Left and right key variables ''{0}'' and ''{1}'' have incompatible types.</entry>
+    <entry key="KeyMergeFailed">Merging keys with different types to create the variable ''{0}'' in the output table resulted in a conversion error.\n</entry>
+    <entry key="MulticolumnKeyVar">A {0} variable cannot be used as the key for a join if it has multiple columns.</entry>
+    <entry key="DuplicateRightKeyVarValues">The key variable for the right table must have unique values.</entry>
+    <entry key="LeftKeyValueNotFound">The key variable for the right table must contain all values in the key variable for the left table.</entry>
+    <entry key="LeftKeyValuesNotFound">The key variables for the right table must contain all unique combinations of values in the key variables for the left table.</entry>
+    <entry key="MissingKeyValues">The key variables cannot contain any missing values.</entry>
+    <entry key="InvalidType">TYPE must be ''left'', ''right'', or ''full''.</entry>
+    <entry key="KeyVarNonStringError">Left and right key variables ''{0}'' and ''{1}'' include cells containing non-character vector values.</entry>
+    <entry key="KeyVarUniqueError">Error when finding unique values for left and right key variables ''{0}'' and ''{1}'':\n{2}.</entry>
+    <entry key="KeyIsmemberMethodFailed">Unable to find rows in the right table corresponding to those in the left table using the key variables.  The ISMEMBER method generated the following error:\n\n{0}</entry>
+    <entry key="KeyIsmemberMethodReturnedWrongSize">Unable to find rows in the right table corresponding to those in the left table using the key variables.  The value returned by the ISMEMBER method had the wrong number of rows.</entry>
+    <entry key="UnequalRowNames">The right table must contain all of the left table's row names when using row names as the key.</entry>
+    <entry key="TableTimetableInput">To join a timetable and a table, the first input must be the timetable and the second input must be the table.</entry>
+    <entry key="RowLabelsCannotBeDataVar">Row names are not supported in ''LeftVariables'' or ''RightVariables''.</entry>
+    <entry key="RowLabelsCannotBeDataVarNondefaultName">Unrecognized variable name ''{0}''. You may have intended to access the row names, which are named ''{1}'' in this table. However, row names are not supported in ''LeftVariables'' or ''RightVariables''.</entry>
+    <entry key="TableRowLabelsVarKeyPairNotSupported">Inner or outer joins between tables, using row names as the left key and a variable as the right key, are not supported. Convert the row names to a variable in the left input.</entry>
+    <entry key="TableTimetableNotSupported">To join a table and a timetable, the timetable must be the first input.</entry>
+    <entry key="TableOuterRowLabelsOtherKeysNotSupported">Outer joins between tables, using row names in combination with other keys, are not supported. Use only the row names as the key, or convert the row names to variables in the inputs.</entry>
+    <!-- codegen -->
+    <entry key="NonConstantArg">''{0}'' must be constant.</entry>
+    <entry key="DuplicateNonKeyVarNames">Code generation does not support non-key variables with the same name.</entry>
+    <entry key="DuplicateUnmergedKeyVarNames">Code generation for outerjoin does not support key variables with the same name unless ''MergeKeys'' is set to true.</entry>
+    <entry key="CantJoinTabularVariable">Code generation for join does not support table or timetable keys or variables. Use SPLITVARS to split ''{0}'' into multiple variables.</entry>
+  </message>
+</rsccat>

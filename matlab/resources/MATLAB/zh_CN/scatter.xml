@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidXYData">{0} 和 {1} 必须为长度相同的向量、大小相同的矩阵，或向量和矩阵的组合，其中向量的长度与矩阵的行数或列数匹配。</entry>
+    <entry key="InvalidSData">S 必须为标量或长度与 X 相同的向量。</entry>
+    <entry key="InvalidCData">颜色必须为一个 RGB 三元组、每个散射点对应一种颜色的 RGB 三元组所组成的 m×3 矩阵或每个散点对应一个值的 m×1 向量。</entry>
+    <entry key="NoDataInputs">必须提供 X 和 Y 数据作为第一个参数。</entry>
+    <entry key="DataLengthMustMatch">数据长度必须匹配。</entry>
+    <entry key="SizeColorType">区域和颜色参数必须是可转换为双精度值的数值或对象。</entry>
+    <entry key="ArgNameValueMismatch">尾部输入参数必须以名称-值对组的形式出现。</entry>
+    <entry key="CDataMustBeSingleColorSpec">CData 必须为 RGB 三元组。</entry>
+    <entry key="InvalidTallData">tall 输入必须为实数列向量。</entry>
+    <entry key="InvalidJittertype">无效的抖动值。对于二维散点图，请在一个维度中指定密度抖动类型；对于三维散点图，请在两个维度中指定密度抖动类型。</entry>
+    <entry key="InvalidSwarmData">{0} 必须为数值或分类。</entry>
+    <entry key="MultipleColorSpecs">请只指定一种命名颜色，或使用由 RGB 三元组组成的 m×3 矩阵来指定多种颜色。</entry>
+    <entry key="MultipleMarkerSpecs">请仅指定一个标记。</entry>
+    <entry key="InvalidXYSizeData">{0}、{1} 和标记大小参数必须为长度相同的向量、大小相同的矩阵，或向量和矩阵的混合，其中向量的长度与矩阵的行数或列数匹配。</entry>
+    <entry key="LocationDesc">散点图的位置</entry>
+    <entry key="InvalidTableArguments">要对表使用 {0}，请在表后指定 {1} 和 {2} 变量。可以使用名称-值对组来指定大小和颜色。</entry>
+  </message>
+</rsccat>

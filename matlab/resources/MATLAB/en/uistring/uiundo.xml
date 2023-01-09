@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="CommandString">Command: {0}</entry>
+      <entry key="CommandExecutionFailed">Error encountered during "redo": {0}</entry>
+      <entry key="CannotUndoCommand">Error encountered during "undo": {0}</entry>
+      <entry key="CommentCalledBy">%% Called by {0}</entry>
+   </message>
+</rsccat>

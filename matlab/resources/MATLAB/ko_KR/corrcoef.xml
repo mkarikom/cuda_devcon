@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">입력 인수가 부족합니다.</entry>
+    <entry key="XYmismatch">X와 Y는 요소의 개수가 동일해야 합니다.</entry>
+    <entry key="InputDim">입력값은 2차원이어야 합니다.</entry>
+    <entry key="ComplexInputs">복소수 입력값에 대한 p-값을 계산할 수 없습니다.</entry>
+    <entry key="unmatchedPVPair">파라미터 이름/값 쌍이 맞지 않습니다.</entry>
+    <entry key="invalidArgName">유효한 파라미터는 ''alpha''와 ''rows''입니다.</entry>
+    <entry key="invalidAlpha">''alpha'' 파라미터는 0과 1 사이의 스칼라여야 합니다.</entry>
+    <entry key="invalidRowChoice">유효한 행 선택은 ''all'', ''complete'', ''pairwise''입니다.</entry>
+  </message>
+</rsccat>

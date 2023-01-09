@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="DeprecatedFunction">This implementation of uitable has been deprecated and is no longer supported.</entry>
+    <entry key="InputMustBeScalar">When using UITABLE numrows and numcols have to be numeric scalars.</entry>
+    <entry key="MustMatchInfo">Number of column names must match number of columns in data</entry>
+    <entry key="InvalidCellArray">When using UITABLE Column data should be 1xn cell array</entry>
+    <entry key="NumrowsMustBeScalar">numrows has to be a scalar</entry>
+    <entry key="NumcolumnsMustBeScalar">numcolumns has to be a scalar</entry>
+    <entry key="InvalidString" note="stringDatatypeUpdate">gridcolor has to be a valid character vector</entry>
+    <entry key="RowheightMustBeScalar">rowheight has to be a scalar</entry>
+    <entry key="InvalidParent">parent must be a valid handle</entry>
+    <entry key="ParentMustBeFigureOrUIContainer">Parent must be a Figure or any UIContainer</entry>
+    <entry key="InvalidPosition">position has to be a 1x4 numeric array</entry>
+    <entry key="ColumnwidthMustBeScalar">columnwidth has to be a scalar</entry>
+    <entry key="NoDataProvided">No Data provided along with ColumnNames</entry>
+    <entry key="OldTableUsage">It appears you are using an obsolete version of uitable.\nSee the documentation for correct uitable usage:\n  &lt;a href="{0}"&gt;help uitable&lt;/a&gt; and &lt;a href="{1}"&gt;doc uitable&lt;/a&gt;\n\nFor more information, click &lt;a href="{2}"&gt;here&lt;/a&gt;\n</entry>
+    <entry key="ColumnFormatNotSupported">''ColumnFormat'' value has no effect when ''Data'' value is a table array.</entry>
+  <!--Resource entries for src/hg-->
+    <entry key="FailedMxArrayCreate">Can''t create MCOS mxArray</entry>
+    <entry key="BadArguments">Arguments may only include figure, uicontainer, or uitable handle and param/value pairs</entry>
+    <entry key="BadHandle">Invalid figure or uitable handle</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="NeedSameNumberColumns">Number of columns in both Data and ColumnNames should match</entry>
+  <!--Resource entries for src/hg-->
+    <entry key="getPrintImage">getPrintImage must be called on a valid uitable handle</entry>
+    <entry key="getGUIDEView">getGUIDEView must be called on a valid uitable handle</entry>
+    <entry key="TableDataNotEditable">Table data is not editable at this location.</entry>
+    <entry key="NonEditableDataTypes">When Data is a table array, ColumnEditable can be true only for columns consisting of a single vector with the following data types:\nnumeric, logical, datetime, categorical, string, or cell array of character vectors.
+</entry>
+  </message>
+</rsccat>

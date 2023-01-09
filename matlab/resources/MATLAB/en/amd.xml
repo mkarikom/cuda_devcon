@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="needDoubleOrLogical">First argument must be double or logical.</entry>
+    <entry key="needMatrix">First argument must be a square matrix.</entry>
+    <entry key="denseNonNumeric">Parameter dense must be numeric data.</entry>
+    <entry key="denseScalar">Parameter dense must be a scalar.</entry>
+    <entry key="aggressiveNonNumeric">Parameter aggressive must be numeric data.</entry>
+    <entry key="aggressiveScalar">Parameter aggressive must be a scalar.</entry>
+    <entry key="invalidInput">Second argument must be a control structure.</entry>
+    <entry key="invalidMatrix">Input matrix A is corrupted.</entry>
+  </message>
+</rsccat>

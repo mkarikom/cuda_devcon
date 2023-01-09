@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="cellArrayMismatch">x- and y-coordinate cell arrays must be vectors of the same size.</entry>
+    <entry key="twoCellArrays">Not enough input arguments. Specify y-coordinates as a cell array in the second argument.</entry>
+    <entry key="xyNumericCell">x- and y-coordinate vectors must both be numeric or both be cell arrays.</entry>
+    <entry key="xyVectorCell">Each x- and y-coordinate pair must have the same size with at least 3 elements.</entry>
+    <entry key="sparseError">Sparse arrays are not supported.</entry>
+	<entry key="nameValuePairError">Incorrect number of input arguments. Each parameter name must be followed by a corresponding value.</entry>
+	
+	<entry key="twoInputSizeError">x- and y-coordinates must be vectors of the same size with at least 3 elements.</entry>
+	<entry key="oneInputSizeError">x- and y-coordinate matrix must have 2 columns with at least 3 rows.</entry>
+	<entry key="oneInputNanInconsistent">NaN placement in x- and y-coordinate vectors must be the same.</entry>
+	<entry key="twoInputNanInconsistent">NaN placement in x- and y-coordinate matrix must be the same.</entry>
+	<entry key="xyValueError">x- and y-coordinates must be real, numeric, and finite.</entry>
+	<entry key="xyTooLarge">Unable to create polyshape because magnitudes of x- and y-coordinates are too large.</entry>
+    <entry key="multipleDataSetError">Too many input arguments.</entry>
+
+	<entry key="constructorParameter">Parameter name must be 'SolidBoundaryOrientation', 'Simplify' or 'KeepCollinearPoints'.</entry>
+	<entry key="addBoundaryParameter">Parameter name must be 'SolidBoundaryOrientation', 'Simplify' or 'KeepCollinearPoints'.</entry>
+	<entry key="simplifyValue">'Simplify' value must be true or false.</entry>
+	<entry key="collinearValue">'KeepCollinearPoints' value must be true or false.</entry>
+	<entry key="orientationValue">'SolidBoundaryOrientation' value must be 'auto', 'ccw', or 'cw'.</entry>
+	
+	<entry key="rmBoundaryParameter">Parameter name must be 'Simplify'.</entry>
+	<entry key="collinearParameter">Parameter name must be 'KeepCollinearPoints'.</entry>
+	
+	<entry key="transVector1">Translation vector argument must be a 2-element row vector.</entry>
+	<entry key="transVector2">x- and y-element of translation vector must be 2 numeric scalars.</entry>
+	<entry key="transVectorValue">Translation vector elements must be real, finite, and numeric.</entry>
+
+	<entry key="scaleCenter">Scale center argument must be a 2-element row vector.</entry>
+	<entry key="scaleCenterValue">x- and y-coordinates of scale center must be real, finite, and numeric.</entry>	
+	<entry key="scaleInputsError">Scale factor must be a scalar or a 2-element row vector.</entry>
+    <entry key="scaleFactorValue">Scale factor value must be numeric, real, positive, and finite.</entry>
+
+	<entry key="rotateCenter">Rotation center argument must be a 2-element row vector.</entry>
+	<entry key="rotateCenterValue">x- and y-coordinates of rotation center must be real, finite, and numeric.</entry>
+	<entry key="rotateAngleError">Angle of rotation must be a real, finite, and numeric scalar.</entry>	
+
+	<entry key="transOverflow">Unable to translate polyshape because translation vector is too large.</entry>
+	<entry key="scaleOverflow">Unable to scale polyshape because scale factor is too large.</entry>
+	<entry key="rotateOverflow">Unable to rotate polyshape because coordinates of the rotated polyshape are too large.</entry>
+	
+	<entry key="queryPointValue">x- and y-coordinates of query points must be real and numeric.</entry>
+	<entry key="queryPointFiniteValue">x- and y-coordinates of query points must be real, finite, and numeric.</entry>
+    <entry key="queryPoint1">x- and y-coordinates of query points must have 2 columns.</entry>
+	<entry key="queryPoint2">x- and y-coordinates of query points must be vectors of the same size.</entry>
+
+	<entry key="noIndexArrayError">Boundary index argument is not supported when the first input argument is a polyshape array.</entry>
+	<entry key="indexError">Boundary index elements must be positive integers less than or equal to the number of boundaries in the polyshape ({0}).</entry>
+
+	<entry key="sortRefPoint">Reference point argument must be a 2-element row vector.</entry>
+	<entry key="sortRefPointValue">x- and y-coordinates of reference point must be real, finite, and numeric.</entry>
+	<entry key="sortDirection">Invalid option combination. Specify a single option as either ''ascend'' or ''descend''.</entry>
+	<entry key="sortCriterion">Invalid option combination. Specify a single option as ''area'', ''perimeter'', ''numsides'', or ''centroid''.</entry>
+	<entry key="sortParameter">Invalid option. Specify option as ''ascend'', ''descend'', ''area'', ''perimeter'', ''numsides'', or ''centroid''.</entry>
+	<entry key="sortReferenceName">Parameter name must be ''ReferencePoint''.</entry>
+	<entry key="sortReference">Parameter ''ReferencePoint'' is only supported when ''centroid'' is specified.</entry>
+	
+	<entry key="polyshapeTypeError">First input argument must be of type polyshape.</entry>
+    <entry key="scalarPolyshapeError">Input argument must be a scalar polyshape object.</entry>
+    <entry key="vectorPolyshapeError">Input argument must be a vector of polyshape objects.</entry>
+
+	<entry key="bufferParameter">Parameter name must be 'JointType' or 'MiterLimit'.</entry>
+    <entry key="bufferMiterType">'JointType' value must be 'miter' when 'MiterLimit' is specified.</entry>
+    <entry key="bufferMiterValue">'MiterLimit' value must be a real, numeric scalar no less than 2.</entry>
+    <entry key="bufferArcError">Arc tolerance must be a real number between 0 and 1.</entry>
+    <entry key="bufferDisError">Unable to offset polyshape because buffer distance is too large.</entry>
+    <entry key="bufferJointError">'JointType' value must be 'round', 'miter', or 'square'.</entry>
+    <entry key="bufferDistanceError">Buffer distance argument must be a numeric, real, and finite scalar.</entry>
+	
+    <entry key="sliverTolError">Tolerance value must be a real, positive and finite scalar.</entry>
+    <entry key="linePointValue">x- and y-coordinates of line argument must be real, finite, and numeric.</entry>
+    <entry key="lineInputError">x- and y-coordinates of line argument must be a 2-column numeric array.</entry>
+    <entry key="lineMin2Points">x- and y-coordinates of line argument must have at least 2 rows.</entry>
+	<entry key="intersectInputError">Second input argument must be a polyshape or a 2-column numeric array.</entry>
+	<entry key="collinearNoEffect">Parameter 'KeepCollinearPoints' has no effect when intersecting a polyline.</entry>
+	
+	<entry key="vectorLengthMismatch">When input arguments are both rows or both columns, they must be the same length.</entry>
+	<entry key="twoArraysMismatchError">Input arrays must have the same size.</entry>
+	<entry key="numInputsError">The number of inputs is wrong.</entry>
+	<entry key="emptyPolyshapeError">Empty polyshapes are not supported.</entry>
+	
+	<entry key="rotateAngleMissing">Not enough input arguments. Specify angle of rotation</entry>
+	<entry key="scaleFactorMissing">Not enough input arguments. Specify scale factor.</entry>
+	
+	<entry key="firstOneBoundary">First input polyshape has more than 1 boundary.</entry>
+	<entry key="secondOneBoundary">Second input polyshape has more than 1 boundary.</entry>
+	<entry key="firstOneBoundaryArray">First input polyshape has an element with more than 1 boundary.</entry>
+	<entry key="secondOneBoundaryArray">Second input polyshape has an element with more than 1 boundary.</entry>
+    
+    <entry key="noVertexMapping">Vertex mapping output arguments are only supported when both input polyshapes are scalars.</entry>
+	
+	<!-- Warning messages -->
+    <entry key="repairedBySimplify">Polyshape has duplicate vertices, intersections, or other inconsistencies that may produce inaccurate or unexpected results. Input data has been modified to create a well-defined polyshape.</entry>
+    <entry key="versionMismatch">Unable to load the saved polyshape because it is incompatible with this version of MATLAB. A polyshape is created using the saved vertices only.</entry>
+
+	<!-- Warning, used in cpp only -->
+    <entry key="tinyBoundaryDropped">Boundaries with zero enclosed area have been ignored.</entry>
+	<entry key="boolOperationFailed">Output contains an empty polyshape due to duplicate vertices, intersections, or other inconsistencies.</entry>
+	<entry key="boolLineFailed">Output contains an empty array due to duplicate vertices, intersections, or other inconsistencies.</entry>
+	<entry key="nonmanifoldHoleSolid">Output polyshape may contain a hole boundary touching a solid boundary.</entry>	
+    <entry key="boundary3Points">Boundaries with less than 3 points were removed.</entry>
+    <entry key="centroidMayBeOff">The centroid value may be inaccurate because the bounding box of the polyshape is much larger than its area.</entry>
+
+	<!-- used in cpp only, might be removed -->
+    <entry key="infNotAllowed" translate="false">Inf is not allowed.</entry>
+	<entry key="min3VerticesError" translate="false">Input data must contain at least 3 vertices.</entry>
+    <entry key="parameterError" translate="false">Wrong parameters.</entry>
+	<entry key="vectorError" translate="false">Array must be 1x2 to represent a point or a vector.</entry>
+	<entry key="outOfRangeError" translate="false">Index is out of range.</entry>
+	<entry key="tooBigError" translate="false">The number of points exceeded the comparison limit.</entry>
+	<entry key="notNx2Error" translate="false">Input data must be an Nx2 array, N>1.</entry>
+    <entry key="duplicateIndexFound" translate="false">Duplicate indices were found and ignored.</entry>
+	<entry key="unknownInputError" translate="false">Wrong or unknown input.</entry>
+  <entry key="internalError">Internal error: {0}</entry>
+  </message>
+</rsccat>

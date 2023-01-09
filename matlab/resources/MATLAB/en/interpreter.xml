@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="AccessingVariableOfExitingFunction">Attempt to read from or write to already-destroyed variable ''{0}'' in workspace of an exiting function.</entry>
+  </message>
+</rsccat>

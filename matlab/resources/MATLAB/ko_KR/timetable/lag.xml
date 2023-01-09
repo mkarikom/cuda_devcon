@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MustBeRegular">입력 타임테이블은 절대 시간 또는 isregular에서 지원하는 시간 단위에 대해 규칙적이어야 합니다. 자세한 내용은 &lt;a href="matlab:doc('isregular')"&gt;isregular&lt;/a&gt;를 참조하십시오.</entry>
+    <entry key="MustBeRegularInUnits">입력 타임테이블은 {0}에 대해 규칙적이어야 합니다.</entry>
+    <entry key="InvalidLagType">지연 간격은 정수 스칼라, duration형 또는 calendarDuration형이어야 합니다.</entry>
+    <entry key="LagMustBeTimeStepMultiple">지연 간격은 입력 타임테이블의 시간 스텝의 배수여야 합니다. RETIME을 사용하여 행 시간값 사이의 시간값에서 타임테이블 변수를 보간하십시오.</entry>
+    <entry key="calDurLagDurationTimetable">duration형 행 시간값을 갖는 타임테이블에 대한 지연 간격은 정수 스칼라이거나 duration형이어야 합니다.</entry>
+    <entry key="InvalidCaldurationLag">calendarDuration형 지연 간격은 달력상의 월수, 달력상의 일수 또는 시간의 정수 배수여야 합니다.</entry>
+  </message>
+</rsccat>

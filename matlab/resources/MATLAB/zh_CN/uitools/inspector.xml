@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidobject">属性检查器不支持该输入。使用 get() 命令可查看属性，使用 set() 命令可更改属性。</entry>
+    <entry key="invalidinput">inspect 的输入必须是由 ISHANDLE 定义的有效对象。</entry>
+    <entry key="invalidinputnotobject">inspect 的输入必须是有效对象。</entry>
+    <entry key="invalidarguments">inspect 的输入必须是有效的对象名称和工作区。</entry>
+    <entry key="InvalidSyntax">不再支持 inspect(''newinspector'',...) 语法</entry>
+    <entry key="InvalidTreeTableSyntax">不再支持 inspect(''newtreetable'',...) 语法</entry>
+    <entry key="ThePropertyInspector">属性检查器</entry>
+    <entry key="WidthLabel">宽度</entry>
+    <entry key="HeightLabel">高度</entry>
+    <entry key="MinLabel">最小值</entry>
+    <entry key="MaxLabel">最大值</entry>
+    <entry key="UnsupportedInLiveEditor">实时编辑器中不支持 inspect</entry>
+    <entry key="JavaUnsupportedInFuture">在以后的版本中，将不再支持对 java 对象进行检查。</entry>
+    <entry key="XLabel">x</entry>
+    <entry key="YLabel">y</entry>
+    <entry key="ZLabel">z</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonRealOrSparseImageData">이미지는 실수여야 하며 희소 형식일 수 없습니다.</entry>
+    <entry key="InvalidImageData">이미지는 명암 이미지, RGB 이미지, 또는 인덱스 이미지여야 합니다.</entry>
+    <entry key="InvalidImageClassUint8Uint16Double">명암 이미지나 RGB 이미지는 uint8형, uint16형, 또는 double형이어야 합니다.</entry>
+    <entry key="InvalidMapType">MAP은 double형 실수여야 하며, 희소 형식일 수 없습니다.</entry>
+    <entry key="InvalidMapSize">MAP은 M×3 컬러맵이어야 합니다.</entry>
+    <entry key="InvalidMapLength">MAP에 색이 너무 많아 8비트 정수에 담을 수 없습니다.</entry>
+    <entry key="InvalidImageDimensions">X는 2차원이어야 합니다.</entry>
+    <entry key="IndexOutOfRange">유효하지 않은 인덱스 이미지임: 인덱스가 컬러맵 범위를 벗어났습니다.</entry>
+    <entry key="IndexLessThan1">유효하지 않은 인덱스 이미지임: 인덱스가 1보다 작습니다.</entry>
+    <entry key="InvalidImageClassUint8Double">X는 uint8형 또는 double형이어야 합니다.</entry>
+    <entry key="TooManyInputs">내부 문제: 입력 인수가 너무 많습니다.</entry>
+  </message>
+</rsccat>

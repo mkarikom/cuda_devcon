@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidVars">数値インデックスまたは logical インデックス、変数名、または logical スカラーを返す関数ハンドルを使用して table 変数を指定します。</entry>
+    <entry key="InvalidTextType">''{0}'' 型に変換できません。データ型をクラス名または関数ハンドルとして指定します。</entry>
+    <entry key="InvalidType">データ型をクラス名または関数ハンドルを含むテキストとして指定します。</entry>
+    <entry key="ConvertCharWarning">データ型 'char' に変換すると、変数は文字配列ではなく文字ベクトルの cell 配列に変換されます。テキスト データを table 内の文字配列として保存することは推奨されません。table または timetable 内のテキスト データを扱う際には、string 配列または categorical 配列を使用することを検討してください。</entry>
+    <entry key="IncorrectNumRows">変換後の変数は、元の変数と同じ行数を維持していなければなりません。</entry>
+    <entry key="RowLabelsCannotBeDataVar">行名は、データ変数としてはサポートされていません。</entry>
+    <entry key="RowLabelsCannotBeDataVarNondefaultName">認識されない変数名 ''{0}'' です。この table で ''{1}'' という名前が付けられている行名にアクセスしようとした可能性があります。しかし、行名はデータ変数としてはサポートされていません。</entry>
+    <entry key="NonConstantArg">''{0}'' 引数は定数でなければなりません。</entry>
+  </message>
+</rsccat>

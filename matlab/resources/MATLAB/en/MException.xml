@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" decorate_cxx_names="1">
+  <message>
+    <!-- Added messages: src/m_interpreter, src/m_lxe -->
+    <entry key="badIdentifier">IDENTIFIER input must be a valid MATLAB message identifier.  For more information, read about {0} in the MATLAB help.</entry>
+    <entry key="MExceptionIdentifiers" note="To be plugged into key: badIdentifier">MException Identifiers</entry>
+    <entry key="BadValueForLast" note="stringDatatypeUpdate">Last method can only accept ''reset'' as an input.</entry>
+    <entry key="CorrectionLimitExceeded">An MException cannot have more than one Correction.</entry>
+    <entry key="MessageCTOR">Cannot create message object.</entry>
+    <entry key="MessageIdentifier" note="Used with key: MustBeSingleString">Message identifier</entry>
+    <entry key="MessageMustBeChar">MESSAGE input must be a character vector or string scalar.</entry>
+    <entry key="MessageText" note="Used with key: MustBeSingleString">Message text</entry>
+    <entry key="InvalidType">Invalid MException type.</entry>
+    <entry key="MustCallLastFromCommandLine">last() method can only be called from command prompt.</entry>
+    <entry key="NonScalarCorrection">Correction must be a scalar matlab.lang.correction.Correction object.</entry>
+    <entry key="nonScalarInput" note="stringDatatypeUpdate">Formatted MESSAGE inputs must be real scalar numeric values, character vectors, or string scalars.</entry>
+    <entry key="NonScalarMException">MException must be scalar.</entry>
+    <entry key="NonScalarMessage">Message must be scalar.</entry>
+    <entry key="ErrorIn" note="Will be followed by a function name and line number in which there had been an error">Error in</entry>
+    <entry key="OperationTerminatedByUser" note="Will be followed by a function name and line number which had been interrupted with Ctrl-C">Operation terminated by user during</entry>
+    <entry key="In" note="Will be followed by a function name and line number which had been interrupted with Ctrl-C">In</entry>
+    <entry key="CausedBy">\nCaused by:\n</entry>
+    <entry key="ErrorCallingMethod">Error while calling {0}/{1}:\n{2}</entry>
+    <entry key="MoreInformation">Related documentation</entry>
+  </message>
+</rsccat>

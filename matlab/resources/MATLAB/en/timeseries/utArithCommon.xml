@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="nonconfdim">Sample sizes of {0} and {1} are mismatched for matrix combination.</entry>
+    <entry key="non3dimmax">Cannot multiply time series with data that has a dimension higher than three.</entry>
+    <entry key="nonconfdimMatrixMultiply">Sample sizes of {0} and {1} are mismatched for matrix multiply.</entry>
+    <entry key="nonconfdimMatrixDiv">Sample sizes of {0} and {1} are mismatched for matrix division.</entry>
+    <entry key="nonconfdimMatrixLeftDiv">Sample sizes of {0} and {1} are mismatched for matrix left division.</entry>
+  </message>
+</rsccat>

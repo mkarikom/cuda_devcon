@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="noarray">The addsample method can only be used for a single timeseries object</entry>
+      <entry key="pvsetNoValue">A specified property is missing a corresponding value.</entry>
+      <entry key="pvsetInvalid">At least one of the specified properties is invalid.</entry>
+      <entry key="noSampleStruct">A new sample must be specified either as a structure or by Property-Value pairs.</entry>
+      <entry key="dataMissing">Data is missing.</entry>
+      <entry key="timeMissing">Time is missing.</entry>
+      <entry key="emptyData">Data cannot be empty.</entry>
+      <entry key="emptyTime">Time cannot be empty.</entry>
+      <entry key="overwriteFlg">The overwrite flag must be a logical.</entry>
+      <entry key="datasamplesize">The sample size of the added data does not match the sample size of the time series object.</entry>
+      <entry key="qualitysamplesize">The sample size of the added quality attribute does not match the quality attribute of the time series object.</entry>
+      <entry key="numericValTime">Time must be a numeric value.</entry>
+      <entry key="timeVector">Time must be a vector.</entry>
+      <entry key="invalidTimeFormat">Invalid time format</entry>
+      <entry key="mandatoryFirstArg">The first argument must specify non-empty data values.</entry>
+      <entry key="first">The first dimension of the data array must be the same length as the time vector.</entry>
+      <entry key="last">The last dimension of the data array must be the same length as the time vector.</entry>
+      <entry key="intQualityAttributes">Quality attributes must be specified by integer values.</entry>
+      <entry key="nonnull">Samples with a non-null quality attribute cannot be added to a time series with an empty quality vector.</entry>
+   </message>
+</rsccat>

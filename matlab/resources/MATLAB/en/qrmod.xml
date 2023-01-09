@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidJ"> Modification index must be a positive integer scalar that is finite.</entry>
+    <entry key="InvalidJLoc">Modification index exceeds matrix dimensions.</entry>
+    <entry key="InputMatrixType">Input matrices must be full matrices of class single or double.</entry>
+  </message>
+</rsccat>

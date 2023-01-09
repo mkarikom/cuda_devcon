@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">只能将一个对象传递给 set 以获取有关可能的属性值的信息。</entry>
+    <entry key="propValPairs">属性/值对组必须成对出现。</entry>
+    <entry key="nostruct">无法将时序属性赋给结构体或结构体数组</entry>
+    <entry key="noinplaceset">使用表达式或子引用数组定义时序时，无法就地为属性赋值。</entry>
+  </message>
+</rsccat>

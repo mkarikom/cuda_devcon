@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="filesFoundIn">ファイルの検索先: {0}</entry>
+    <entry key="filesFoundInCurrentFolder">現在のフォルダーで検出されたファイル:</entry>
+    <entry key="fileOrDirNotFound">''{0}'' が見つかりません。</entry>
+    <entry key="invalidGlob">** ワイルドカードの隣の文字はファイル区切りでなければなりません。</entry>
+    <entry key="locationEmpty">場所が空です。</entry>
+    <entry key="noPatternMatches">パターン ''{0}'' に一致するものがありません。</entry>
+    <entry key="pathnameTooLong">パス名 ''{0}'' が長すぎます。</entry>
+    <entry key="SuccessiveGlobs">The recursive pattern ''**'' cannot be supplied more than once when only separated by the file separator.</entry>
+  </message>
+</rsccat>

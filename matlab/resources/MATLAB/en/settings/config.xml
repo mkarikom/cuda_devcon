@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2011-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- SECTION ONE: exception in config-->
+    <entry key="ErrorLoadingSettingsGroupInfo"> Unable to load settings group.</entry>
+    <entry key="ErrorLoadingSettingInfo"> Unable to load setting.</entry>
+    <entry key="ErrorFuncReturnsUnsupportedSettingsType"> ''{1}''. ''{0}'' returns an invalid settings type.</entry>
+    <entry key="ErrorConvertingSettingValue">Unable to convert the value for setting ''{0}''.</entry>
+    <entry key="ErrorConvertingUnsupportedType"> Invalid datatype for setting ''{0}''.</entry>
+    <entry key="InvalidSettingsPath"> Setting or settings group does not exist at ''{0}''.</entry>
+    <entry key="ErrorCreatingSettingsTree">Unable to create settings tree.</entry>
+    <entry key="VersionNumberUndefined">The product ''{0}'' does not have a version number defined yet.</entry>
+    <entry key="VersionNumberIsNotPositiveInteger">Version number must be a positive integer.</entry>
+    <entry key="InvalidSettingsName">''{0}'' is an invalid settings group or setting name.</entry>
+    <entry key="InvalidFunctionHandle">Input function must be a valid MATLAB function handle.</entry>
+    <entry key="NotASupportedFunctionHandleType">Invalid function handle for setting.</entry>
+    <entry key="InvalidSettingsGroupObject">The settings group does not exist.</entry>
+    <entry key="NoSuchProduct">The settings group ''{0}'' does not exist.</entry>
+    <entry key="NoSuchSettingInSettingsTree">''{0}'' is not a valid setting.</entry>
+    <entry key="ReadOnlySettingMustSpecifyPersonalValue"> Unable to create read-only setting ''{0}''. Specify a Personal Value.</entry>
+    <entry key="SpecifyingFactoryValueNotSupportedForCustomSettings"> Specifying the factory value is not supported for custom settings. Specify ''PersonalValue'' instead.</entry>
+    <entry key="ValueMustBeScalarLogical"> ''{0}'' value must be a scalar logical value.</entry>
+    <entry key="NameMustBeValidMatlabIdentifier"> Name of {0} must be a valid MATLAB identifier.</entry>
+
+    <!-- SECTION TWO: Handle exported exception from settingscore-->
+    <entry key="CannotAddSettingToRoot">Unable to add setting ''{0}''. The settings root contains only product settings groups.</entry>
+    <entry key="CannotChangeValueForReadOnlySetting"> Unable to change value of a read-only setting. </entry>
+    <entry key="ErrorExportMultipleGroupsBelongToDiffProducts">Unable to export products ''{0}'' and ''{1}''. Products must belong to the same product settings group. </entry>
+    <entry key="ErrorExportOrImportSettingsUsingRelativePath">The export or import function accepts only a full file path. ''{0}'' is a relative path. </entry>
+    <entry key="ErrorCreateFactoryFileFromSettingsGroupOnTheTree" translate="false">CreateFactorySettingsFile function should only be used to create a new factory file. The settings group ''{0}'' already exists.</entry>
+    <entry key="NoSuchSetting">Settings group ''{0}'' does not contain setting ''{1}''.</entry>
+    <entry key="NoSuchSettingsGroup">Settings group ''{0}'' does not contain settings group ''{1}''.</entry>
+    <entry key="NotASettingName">Settings group ''{0}'' does not contain setting ''{1}''. ''{1}'' is a settings group.</entry>
+    <entry key="NotASettingGroupName">Settings group ''{0}'' does not contain settings group ''{1}''. ''{1}'' is a setting.</entry>
+    <entry key="CannotMergeWithSettingsRoot">Unable to merge with the settings root. </entry>
+    <entry key="ErrorMergingGroupWithAncestorGroup">Unable to merge settings group ''{1}'' with its ancestor ''{0}'' on the settings tree.</entry>
+    <entry key="CanOnlyMergeWithStandaloneSettingsGroup">Unable to merge settings group ''{0}'' onto the settings tree because it is already connected to the settings tree.</entry>
+    <entry key="CannotExportSettingsRoot">Unable to export root settings group.</entry>
+    <entry key="CannotExportStandaloneSettings">Use exportSettings only to export those settings groups that belong to the settings tree. </entry>
+    <entry key="UnsupportedLevel">Invalid level ''{0}''. The supported levels are ''{1}''. </entry>
+    <entry key="ErrorMergingGroupWithDiffAttr">Unable to merge settings groups ''{0}'' and ''{1}''. Groups have the same name, but different values for ''{2}'' attribute.</entry>
+    <entry key="ProductGroupAlreadyExists">Unable to add product settings group ''{0}''. Product settings group ''{1}'' already exists. Product settings groups must have different names, and they cannot vary only by case. </entry>
+    <entry key="SettingsGroupWithSameNameAlreadyExists">Settings group ''{0}'' already exists.</entry>
+    <entry key="ErrorOpeningFileForWrite">Unable to open settings file ''{0}''.</entry>
+    <entry key="FactoryGroupsAndSettingsCannotBeRemoved">Only custom settings groups and custom settings can be removed.</entry>
+    <entry key="ErrorMigratePrefsBetweenReleases">Unable to migrate preferences from release {0} to release {1}.</entry>
+    <entry key="ErrorReadingSettingsData">Unable to read settings data. {0}.</entry>
+    <entry key="ErrorLoadingLibrary">Unable to load library ''{0}''. {1}.</entry>
+    <entry key="ErrorInvokingRuntimeFunction"> Unable to query settings data. Invoking ''{1}''.''{0}'' failed. {2}.</entry>
+    <entry key="ErrorValidateSettingsValue">Unable to validate settings data. {0}</entry>
+    <entry key="UnknownExceptions" translate="false"> {0}.</entry>
+    <entry key="UnexpectedException">Unexpected exception occurred while processing the settings.</entry>
+    <entry key="InvalidSettingOrGroupName">Settings group ''{0}'' does not contain a setting or settings group named ''{1}''.</entry>
+    <entry key="ErrorAddingProductSettingsGroup">Settings group ''{0}'' already exists. Settings group names that vary only by case are not supported in the root settings group.</entry>
+    <entry key="GroupOrSettingNameAlreadyExists">Settings group ''{0}'' already contains a setting or settings group ''{1}''.</entry>
+    <entry key="ErrorInvokingValidationFunction">Unable to invoke validation function ''{0}'' in module or package ''{1}''. {2}.</entry>
+    <entry key="UndefinedSettingValueForLevel"> No value is set for setting ''{0}'' at {1} level.</entry>
+    <entry key="SettingHasNoValue">Setting ''{0}'' has no value.</entry>
+    <entry key="CantReloadFactoryFile">Toolbox ''{0}'' must be on the path with a settingsInfo.json file in the resources folder.</entry>
+    <entry key="MissingToolboxGroupName">Missing ToolboxGroupName entry in ''{0}/settingsInfo.json''.</entry>
+    <entry key="InvalidJSON">Invalid JSON text in ''{0}/settingsInfo.json''.</entry>
+    <entry key="RequiredFieldMissing">Missing required fields in ''{0}/settingsInfo.json''.</entry>
+    <entry key="ErrorSettingValue">Error setting ''{0}'' in group ''{1}'': {2}</entry>
+    <entry key="MustBeScalar">Value must be scalar.</entry>
+    <entry key="MustBeLogical">Value must be logical or convertible to logical.</entry>
+    <entry key="MustBeString">Value must be string or convertible to string.</entry>
+    <entry key="ToolboxGroupNameMismatch">'ToolboxGroupName' value in ''{0}/settingsInfo.json'' must match name argument in matlab.settings.FactoryGroup.createToolboxGroup.</entry>
+    <entry key="ToolboxGroupVisibilityMismatch">'Hidden' value in ''{0}/settingsInfo.json'' must match hidden argument in matlab.settings.FactoryGroup.createToolboxGroup.</entry>
+
+    <!-- SECTION THREE: exception in configtools for FactoryFileEditor API-->
+    <entry key="EmptyToolboxName"> Toolbox name cannot be empty in function ''{0}''.</entry>
+    <entry key="FactoryGroupAlreadyExists">Factory group with name ''{0}'' already exists.</entry>
+    <entry key="FactorySettingAlreadyExists">Factory setting with name ''{0}'' already exists.</entry>
+    <entry key="ArgumentFailedValidation"> Not a valid MATLAB identifier.</entry>
+    <entry key="InvalidFilePath"> The file path ''{0}'' cannot be found.</entry>
+    <entry key="IllegalFilePath"> The file path ''{0}'' is illegal.</entry>
+    <entry key="PathNotRelativeToMasterFile"> ''{0}'' is an invalid path for adding a new group. The path needs to be relative to the master settings file and cannot contain ".." between folder names.</entry>
+    <entry key="ExpectedNonEmptyValue"> If FactoryValue function is not defined, 'Value' property cannot be empty.</entry>
+    <entry key="NoWritePermissionOnFactoryFile"> No write permission on the factory settings file ''{0}''.</entry>
+    <entry key="NoWritePermissionOnFilePath"> No write permission on the path ''{0}''.</entry>
+    <entry key="ParameterMustBeString">''{0}'' parameter of function ''{1}'' must be string.</entry>
+    <entry key="PathMustBeStringOrChar">{0} path must be string or character vector.</entry>
+    <entry key="ParameterMustBeFunctionHandle">''{0}'' parameter of function ''{1}'' must be function handle.</entry>
+    <entry key="ParameterMustBeFactoryGroup">''{0}'' parameter of function ''{1}'' must be factory group.</entry>
+    <entry key="ParameterMustBeSettingsFileUpgrader">''{0}'' parameter of function ''{1}'' must be settings file upgrader.</entry>
+    <entry key="FactoryValueSpecifiedTwice">Both factory value and factory value function have been specified for setting ''{0}''.</entry>
+    <entry key="FactoryGroupNameNotSpecified">Factory group cannot be created without a name.</entry>
+    <entry key="UnsupportedLanguage">Supported languages are MATLAB, C, and Java.</entry>
+    <entry key="IllegalFunctionName">Illegal function name argument in FunctionDescriptor.</entry>
+    <entry key="IllegalLibraryName">Illegal library name argument in FunctionDescriptor.</entry>
+
+    <!-- SECTION FOUR: Additional exceptions needed for Settings Release Compatibility API-->
+    <entry key="InvalidPersonalSettingsVersion">The personal settings tree version for toolbox: ''{0}'' has been invalidated.</entry>
+    <entry key="FactoryTreeDoesNotExist">Toolbox settings upgrade failed. Unable to load factory settings for the ''{0}'' toolbox.</entry>
+    <entry key="FactoryTreeChangesAreEmpty">Toolbox settings upgrade failed. Unable to load factory changes for the ''{0}'' toolbox.</entry>
+    <entry key="LogFilesAreNotAccessible"> No log files were found for toolbox ''{0}'' version ''{1}''.</entry>
+    <entry key="InvalidLogOfResults"> Unable to read log file ''{0}''. Contents of the file are mal-formed.</entry>
+  </message>
+</rsccat>

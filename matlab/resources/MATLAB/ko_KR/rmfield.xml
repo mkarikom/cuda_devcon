@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Arg1NotStructArray">S는 구조체형 배열이어야 합니다.</entry>
+    <entry key="FieldnamesNotStrings">FIELDNAMES는 string형, 문자형 벡터 또는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="FieldnameTooLong">''{0}'' 문자열이 최대 MATLAB 이름 길이보다 깁니다. 유효한 필드 이름이 아닙니다.</entry>
+    <entry key="InvalidFieldname">이름이 ''{0}''인 필드가 존재하지 않습니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="getPrintImage">getPrintImage 必须被有效的 uicontrol 句柄调用</entry>
+    <entry key="getGUIDEView">getGUIDEView 必须被有效的 uicontrol 句柄调用</entry>
+    <entry key="BadArguments">参数只能包括图窗、uicontainer 或 uicontrol 句柄和参数/值对组</entry>
+    <entry key="BadHandle">图窗或 uicontrol 句柄无效</entry>
+    <entry key="InvalidParent">父级必须为图窗、UITab 或任何 UIContainer</entry>
+  </message>
+</rsccat>

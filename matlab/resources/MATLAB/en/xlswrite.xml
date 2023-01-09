@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="FileName">File name must not contain *.</entry>
+      <entry key="FileReadOnly">File cannot be read-only.</entry>
+      <entry key="EmptyFileName">File name is empty.</entry>
+      <entry key="EmptyInput">Input array is empty.</entry>
+      <entry key="InputDimension">Dimension of input array cannot be higher than two.</entry>
+      <entry key="LockedFile">The file {0} is not writable.  It might be locked by another process.</entry>
+      <entry key="AddSheet">Added specified worksheet.</entry>
+      <entry key="CalculateRange">Invalid data range: {0}.</entry>
+      <entry key="Dec2BaseInput">D must be a positive scalar integer.</entry>
+      <entry key="InputClassFilename" note="stringDatatypeUpdate">File name must be a string scalar or character vector.</entry>
+      <entry key="InputClass">Input data must be a numeric, cell, or logical array.</entry>
+      <entry key="InputClassSheetArg" note="stringDatatypeUpdate">Sheet argument must be a string scalar, character vector, or a whole number greater than 0.</entry>
+      <entry key="dlmwrite">An error occurred while writing file to CSV format. To write to an Excel file, convert your data to a table and use writetable.</entry>
+      <entry key="SelectDataRange">The specified data range is invalid or too large to write to the specified file format. Try writing to an XLSX file and use Excel A1 notation for the range argument, for example, ‘A1:D4’.</entry>
+      <entry key="InputClassRangeArg" note="stringDatatypeUpdate">Range argument must be specified as a string scalar or character vector in Excel A1 notation.</entry>
+      <entry key="NoCOMServer">Unable to write to Excel format, attempting to write file to CSV format.</entry>
+      <entry key="InvalidSheetName">Invalid sheet name ''{0}''. Sheet names cannot exceed 31 characters and cannot contain any of these characters: ': \ / ? * [ ]'.</entry>
+   </message>
+</rsccat>

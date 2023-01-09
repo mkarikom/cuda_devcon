@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DiskFull">ディスクに十分な容量がありません</entry>
+    <entry key="RecreatingPeerDuringPaint">ペイント イベント中にピアのウィンドウを再作成しています</entry>
+    <entry key="OutOfMemory">メモリ不足 - フォントを作成できません</entry>
+    <entry key="UnsupportedMethod">''getframe'' は 16 色モードではサポートされません</entry>
+  </message>
+</rsccat>

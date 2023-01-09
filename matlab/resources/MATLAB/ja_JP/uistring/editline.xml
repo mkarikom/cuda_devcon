@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Cut">切り取り(&amp;T)</entry>
+    <entry key="Copy">コピー(&amp;C)</entry>
+    <entry key="Paste">貼り付け(&amp;P)</entry>
+    <entry key="Clear">クリア(&amp;R)</entry>
+    <entry key="LineWidth">ライン幅(&amp;W)</entry>
+    <entry key="LineStyle">ライン スタイル(&amp;S)</entry>
+    <entry key="Color">色...</entry>
+    <entry key="Properties">プロパティ...</entry>
+    <entry key="More">詳細...</entry>
+    <entry key="Solid">実線</entry>
+    <entry key="Dash">破線</entry>
+    <entry key="Dot">点線</entry>
+    <entry key="DashDot">鎖線</entry>
+  </message>
+</rsccat>

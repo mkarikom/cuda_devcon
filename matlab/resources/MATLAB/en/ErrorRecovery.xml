@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2011-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <entry key="ItemNoLongerOnPath">''{0}'' is not found in the current folder or on the MATLAB path, but exists in:\n    {1}\n\n{2} or {3}.</entry>
+        <entry key="ItemNoLongerOnPathOnlyCD">''{0}'' is not found in the current folder or on the MATLAB path, but exists in:\n    {1}\n\n{2}.</entry>
+        <entry key="ItemNoLongerOnPathChangeCurrentFolder" note="To immediately follow message ItemNoLongerOnPath. Separated incase we want to add hotlinks">Change the MATLAB current folder</entry>
+        <entry key="ItemNoLongerOnPathAddToPath" note="To immediately follow message ItemNoLongerOnPath. Separated incase we want to add hotlinks">add its folder to the MATLAB path</entry>	
+        <entry key="NoLongerSupported" translate="false" note="To be filled with another translated message">{0}</entry>
+        <entry key="OutOfFileHandles">Too many open files. Close files to prevent MATLAB instability.</entry>
+        <entry key="ShadowedFunction">''{0}'' appears to be both a function and a variable. If this is unintentional, use ''{1}'' to remove the variable ''{0}'' from the workspace.</entry>
+        <entry key="ShadowedFunctionClear" translate="false" note="To immediately follow message ShadowedFunction. The general use case message.">clear {0}</entry>
+        <entry key="ShadowedFunctionBuiltinClear" translate="false" note="To immediately follow message ShadowedFunction. The special case for clear overloading.">builtin clear clear</entry>
+        <entry key="TimeoutValueNotValid">The timeout value should be a positive scalar number.</entry>
+        <entry key="UnlicensedFunctionInMultipleProducts">''{0}'' requires one of the following:{1}</entry>
+        <entry key="UnlicensedFunctionInSingleProduct">''{0}'' requires {1}.</entry>
+        <entry key="UnsupportedOperator">Operator ''{0}'' is not supported for operands of type ''{1}''.</entry>
+        <entry key="UnsupportedUnaryOperator">Unary operator ''{0}'' is not supported for operand of type ''{1}''.</entry>
+        <entry key="ValidArgumentTypeMissing">Check for incorrect argument data type or missing argument in call to function ''{0}''.</entry>
+        <entry key="VariableNoLongerInWorkspace">''{0}'' is no longer in the MATLAB workspace, but it used to exist:\n\n{1} or {2}.</entry>
+        <entry key="VariableNoLongerInWorkspaceRecreate" note="To immediately follow message VariableNoLongerInWorkspace. Separated because we want to add hotlinks">Recreate {0}</entry>
+        <entry key="VariableNoLongerInWorkspaceCreateScript" note="To immediately follow message VariableNoLongerInWorkspace. Separated because we want to add hotlinks">Create a script for {0}</entry>
+    </message>
+</rsccat>

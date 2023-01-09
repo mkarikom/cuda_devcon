@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotHG2Figure">hg2가 활성화된 figure 계층 없이 hg2gcv를 호출해서는 안 됩니다.</entry>
+    <entry key="InvalidArgument">hg2가 활성화된 figure 계층의 객체만을 사용하여 hg2gcv를 호출하십시오.</entry>
+    <entry key="hg2NotEnabled">hg2를 활성화하지 않고 hg2gcv를 호출해서는 안 됩니다.</entry>
+    <entry key="DeletedInputObject">입력값은 삭제된 객체일 수 없습니다.</entry>
+  </message>
+</rsccat>

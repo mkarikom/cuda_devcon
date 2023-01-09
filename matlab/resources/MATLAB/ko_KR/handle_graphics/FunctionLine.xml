@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="IncorrectFunctionInput">첫 번째 인수는 하나 또는 두 개의 함수를 포함하는 셀형 배열이어야 합니다.</entry>
+    <entry key="TooManyVariables">변수가 너무 많습니다.</entry>
+    <entry key="Implicit">{0}은(는) 음함수로 설정할 수 없습니다.</entry>
+    <entry key="MeshDensityLabel">계산 지점 수</entry>
+    <entry key="ShowPolesLabel">극에 점근선 표시</entry>
+  </message>
+</rsccat>

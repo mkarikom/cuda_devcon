@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnsupportedTypeForA">输入 A 必须为单精度或双精度类型的实数满矩阵。</entry>
+    <entry key="MoreThan2D">使用 ByRows 选项时，输入必须为二维值。</entry>
+    <entry key="UnsupportedTypeForB">输入 B 必须为单精度或双精度类型的实数满矩阵。</entry>
+    <entry key="IncorrectSizeInputs">输入 A 和 B 必须具有相同的列数。</entry>
+    <entry key="DataSpaceShouldBeSize1">DataScale 必须具有一个值。</entry>
+    <entry key="IncorrectSizeOfDataSpace">使用 ByRows 选项时，DataScale 值必须是与 A 中的列具有相同的元素数的标量或向量。</entry>
+    <entry key="InvalidDataScale">DataScale 参数的值必须为单精度或双精度类型的非 NaN 正数标量或向量。</entry>
+    <entry key="InvalidByRowsValue">ByRows 参数的值必须为逻辑值。</entry>
+    <entry key="InvalidOutputAllIndices">OutputAllIndices 参数的值必须为逻辑值。</entry>
+    <entry key="UnknownOptions">指定了未知选项。请参阅帮助以了解有效选项的列表。</entry>
+    <entry key="UnsupportedTypeForTol">容差值 TOL 必须为单精度或双精度类型的正实数、满(非稀疏)标量。</entry>
+    <entry key="TolIsNaN">Tolerance*DataSpace 包含 NaN。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManyInputs">入力引数が多すぎます。</entry>
+    <entry key="TooFewInputs">入力引数が不足しています。</entry>
+    <entry key="NonDoubleInput">関数 datevecmx は double の配列のみを受け入れます。</entry>
+    <entry key="IncorrectNumberofOutputs">1、3、6 のいずれかの出力引数が必要です。</entry>
+    <entry key="InvalidInput">日付番号は範囲外です。</entry>
+  </message>
+</rsccat>

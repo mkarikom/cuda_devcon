@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="fieldInStructureMustContainLogical">構造体のフィールドは、論理スカラーを含まなければなりません。</entry>
+    <entry key="unknownInThirdArguments">構造体配列の入力に不明なフィールドがあります。</entry>
+    <entry key="CombinationOfFieldsNotCurrentlySupported">ソルバー オプションには互換性がなければなりません。</entry>
+    <entry key="inputType">1 番目と 2 番目の引数は、単精度、または倍精度でなければなりません。</entry>
+    <entry key="inputDim">1 番目と 2 番目の引数は 2 次元でなければなりません。</entry>
+    <entry key="sparseNotSupported">Linsolve は、スパース入力に対してサポートされていません。</entry>
+    <entry key="thirdArgumentMustBeStructure">3 番目の引数は構造体配列でなければなりません</entry>
+  </message>
+</rsccat>

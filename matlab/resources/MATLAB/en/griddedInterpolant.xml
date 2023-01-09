@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!-- Copyright 2019-2020 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+  <message>
+    <!-- griddedInterpolant's GridVectors property: use the term "sample points" to match our documentation page -->
+    <entry key="BadGridErrId" context="error">Grid arrays must have NDGRID structure.</entry>
+    <entry key="ComplexDataPointErrId" context="error">Input coordinates must be real.</entry>
+    <entry key="CompVecValueMismatchErrId" context="error">Sample points vector corresponding to grid dimension {0,number,integer} must contain {1,number,integer} elements.</entry>
+    <entry key="DegenerateGridErrId" context="error">Interpolation requires at least two sample points for each grid dimension.</entry>
+    <entry key="GridOfMixedDataTypesErrId" context="error">All input coordinates must have the same type. Input coordinates must be of type double or single.</entry>
+    <entry key="MixedGridCoordSizeErrId" context="error">GridVectors must define a grid whose size is compatible with the Values array.</entry>
+    <entry key="NdgridNotMeshgrid2DErrId" context="error">\nData is in MESHGRID format, NDGRID format is required.\nConvert your data as follows:\n   X = X'; Y = Y'; V = V'; F = griddedInterpolant(X,Y,V)\n</entry>
+    <entry key="NdgridNotMeshgrid3DErrId" context="error">\nData is in MESHGRID format, NDGRID format is required.\nConvert your data as follows:\n   P = [2 1 3];\n   X = permute(X, P);\n   Y = permute(Y, P);\n   Z = permute(Z, P);\n   V = permute(V, P);\n   F = griddedInterpolant(X,Y,Z,V)\n</entry>
+    <entry key="NonCellCompVecErrId" context="error">Sample points must be a cell of compact grid vectors.</entry>
+    <entry key="NonFiniteInputPtsErrId" context="error">The sample points must be finite.</entry>
+    <entry key="NonFloatInpPtsErrId" context="error">Input coordinates must be of type double or single.</entry>
+    <entry key="NonMonotonicCompVecsErrId" context="error">Sample points must be sorted in ascending order.</entry>
+    <entry key="NonUniqueCompVecsPtsErrId" context="error">Sample points must be unique.</entry>
+    <entry key="NumCoordsGridNdimsMismatchErrId" context="error">Interpolant is in an invalid state. GridVectors must define a grid whose size is compatible with the Values array.</entry>
+    <entry key="SparseDataPtErrId" context="error">Sparse input coordinates are not supported.</entry>
+    <!-- griddedInterpolant's Values property: use the term "sample values" to match our documentation page -->
+    <entry key="NonFloatValuesErrId" context="error">Sample values must be of type double or single.</entry>
+    <entry key="SampleValuesNotSecond" context="error">The second input must specify the sample values.</entry>
+    <entry key="SparseInterpValuesErrId" context="error">Sparse sample values are not supported.</entry>
+    <!-- griddedInterpolant's query points -->
+    <entry key="BadArgInterpEvalErrId" context="error">Expected the query points to be a matrix with {0,number,integer} columns.</entry>
+    <entry key="InputMixSizeErrId" context="error">Query coordinates input arrays must have the same size.</entry>
+    <entry key="NonVecCompVecErrId" context="error">The cell must contain only vectors when specifying a grid in compact format using a cell.</entry>
+    <entry key="QueryOfMixedDataTypesErrId" context="error">All query coordinates must have the same type. Query coordinates must be of type double or single.</entry>
+    <!-- griddedInterpolant's ExtrapolationMethod property: -->
+    <entry key="ExtrapolationMethodInvalid" context="error">The extrapolation method must be ''linear'', ''nearest'', ''next'', ''previous'', ''pchip'', ''cubic'', ''spline'', ''makima'', or ''none''.</entry>
+    <!-- griddedInterpolant's Method property: -->
+    <entry key="BadInterpTypeErrId" context="error">The interpolation method must be ''linear'', ''nearest'', ''next'', ''previous'', ''pchip'', ''cubic'', ''spline'', or ''makima''.</entry>
+    <!-- Warnings -->
+    <entry key="CubicNeedsThreeWarnId" context="warning">The ''cubic'' method requires at least 3 points in each dimension.\nReverting to the default ''linear'' method because this condition is not met.</entry>
+    <entry key="CubicUniformOnlyWarnId" context="warning">The ''cubic'' method requires the grid to have a uniform spacing.\nSwitching the method from ''cubic'' to ''spline'' because this condition is not met.</entry>
+    <entry key="MeshgridEval2DWarnId" context="warning">Query data is in MESHGRID format, NDGRID format will yield better performance.\nConvert your query data (Xq, Yq) as follows:\n   F = griddedInterpolant(. . .);\n   Xq = Xq'; Yq = Yq';\n   Vq = F(Xq,Yq); \n</entry>
+    <entry key="MeshgridEval3DWarnId" context="warning">Query data is in MESHGRID format, NDGRID format will yield better performance.\nConvert your query data (Xq, Yq, Zq) as follows:\n   F = griddedInterpolant(. . .);\n   P = [2 1 3];\n   Xq = permute(Xq, P);\n   Yq = permute(Yq, P);\n   Zq = permute(Zq, P);\n   Vq = F(Xq,Yq,Zq);\n</entry>
+    <entry key="Next1DonlyWarnId" context="warning">The ''next'' method is only supported in 1D.\nReverting to the default ''linear'' method because this condition is not met.</entry>
+    <entry key="Pchip1DonlyWarnId" context="warning">The ''pchip'' method is only supported in 1D.\nReverting to the default ''linear'' method because this condition is not met.</entry>
+    <entry key="Previous1DonlyWarnId" context="warning">The ''previous'' method is only supported in 1D.\nReverting to the default ''linear'' method because this condition is not met.</entry>
+  </message>
+</rsccat>

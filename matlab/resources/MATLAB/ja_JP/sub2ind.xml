@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidSize">size のベクトルは、少なくとも 2 要素がなければなりません。</entry>
+    <entry key="SubscriptVectorSize">添字ベクトルは、すべて同じサイズでなければなりません。</entry>
+    <entry key="IndexOutOfRange">添字が範囲外です。</entry>
+  </message>
+</rsccat>

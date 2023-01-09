@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotEnoughInputs">Not enough input arguments. See ODE45.</entry>
+  <!--Resource entries for toolbox/matlab/funfun-->
+    <entry key="MassSingularAssumedNo">ODE45 assumes MassSingular is ''no''. See ODE15S or ODE23T.</entry>
+    <entry key="MassSingularYes">MassSingular cannot be ''yes'' for this solver. See ODE15S or ODE23T.</entry>
+    <entry key="IntegrationTolNotMet">Failure at t={0}.  Unable to meet integration tolerances without reducing the step size below the smallest value allowed ({1}) at time t.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidNames">OLDNAMES 必须为现有类别的子集。</entry>
+    <entry key="IncorrectNumNames">对于 A 中的每个类别，NEWNAMES 必须包含一个名称。</entry>
+    <entry key="IncorrectNumNamesPartial">对于 OLDNAMES 中的每个类别，NEWNAMES 必须包含一个名称</entry>
+    <entry key="DuplicateNames">无法将类别 ''{0}'' 重命名为 ''{1}''，因为已存在该类别名称。</entry>
+  </message>
+</rsccat>

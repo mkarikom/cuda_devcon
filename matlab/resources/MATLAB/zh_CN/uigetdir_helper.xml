@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadStringArg">{0} 必须为字符向量或字符串标量。</entry>
+    <entry key="BadSyntax">输入了外部参数，请查看相应文档。</entry>
+    <entry key="BadFilename">Filterspec 必须为字符向量、字符串数组或元胞数组。</entry>
+    <entry key="EmptyDescriptors">文件筛选器描述符不能为空。</entry>
+  </message>
+</rsccat>

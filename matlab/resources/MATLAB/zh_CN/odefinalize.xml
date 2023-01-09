@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedSolver">无法识别的求解器: {0}</entry>
+    <entry key="LogSuccessfulSteps">{0} 个成功步骤\n</entry>
+    <entry key="LogFailedAttempts">{0} 次失败尝试\n</entry>
+    <entry key="LogFunctionEvaluations">{0} 次函数计算\n</entry>
+    <entry key="LogPartialDerivatives">{0} 个偏导数\n</entry>
+    <entry key="LogLUDecompositions">{0} 次 LU 分解\n</entry>
+    <entry key="LogSolutionsOfLinearSystems">{0} 个线性方程组解\n</entry>
+  </message>
+</rsccat>

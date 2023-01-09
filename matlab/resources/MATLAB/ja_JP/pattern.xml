@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BackreferenceNotSupported">regexpPattern では、前方参照はサポートされていません。</entry>
+    <entry key="CannotConvertMissingToPattern">&lt;missing&gt; から pattern への要素 {0} の変換はサポートされていません。</entry>
+    <entry key="ConditionalReferenceNotSupported">regexpPattern では、条件付き参照はサポートされていません。</entry>
+    <entry key="DimensionMismatch">{0} 引数の次元はパターン引数の次元と一致するか、1 でなければなりません。</entry>
+    <entry key="InvalidBoundaryOption">オプションは 'start'、'end' または 'either' でなければなりません。</entry>
+    <entry key="InvalidAssignmentDimensions">右辺の各次元は 1 であるか、あるいは左辺の次元と一致しなければなりません。</entry>
+    <entry key="InvalidLimitRange">最小量指定子 {0} は、最大量指定子 {1} 以下でなければなりません。</entry>
+    <entry key="InvalidRangeInput">範囲の {0} には 1 文字のみ含まれている必要があります。</entry>
+    <entry key="InvalidRangeChar">範囲の開始は範囲の終端より前でなければなりません。</entry>
+    <entry key="InvalidPatternName">pattern 名は有効な MATLAB 識別子でなければなりません。</entry>
+    <entry key="MaskConflict">1 つのスコープ内に表示される同一のマスクには同じ pattern が含まれていなければなりません。</entry>
+    <entry key="MaskedPatterns">マスクされた pattern</entry>
+    <entry key="Matching">マッチング</entry>
+    <entry key="MatchingWithHole">{0} と一致</entry>
+    <entry key="MissingName">名前付き pattern を名前なしで作成する場合、pattern はワークスペース変数でなければなりません。</entry>
+    <entry key="MissingMask">マスクされた pattern をマスクなしで作成する場合、pattern はワークスペース変数でなければなりません。</entry>
+    <entry key="MustBeNonnegativeInteger">{0} は非負の整数でなければなりません。</entry>
+    <entry key="MustBeNonnegativeIntegerScalar">{0} は非負の整数スカラーでなければなりません。</entry>
+    <entry key="MustBePattern">{0} は pattern 配列でなければなりません。</entry>
+    <entry key="MustBeStruct">{0} は struct 配列でなければなりません。</entry>
+    <entry key="MustBeTextOrPattern">{0} はテキストまたは pattern でなければなりません。</entry>
+    <entry key="MustBeTextOrPatternScalar">{0} はテキストまたは pattern スカラーでなければなりません。</entry>
+    <entry key="NameConflict">1 つのスコープ内の同一の名前には同じ pattern が含まれていなければなりません。</entry>
+    <entry key="NamedPatternDetails">名前付き pattern の詳細</entry>
+    <entry key="NOTOperationNotSupported">単項演算子 ''~'' は境界パターンに対してのみサポートされています。</entry>
+    <entry key="ShowAllDetails">詳細をすべて表示</entry>
+    <entry key="ShowMoreDetails">さらに詳細を表示</entry>
+    <entry key="UsingNamedPatterns">名前付き pattern の使用</entry>
+    <entry key="UseDetailsToShowMore">{0} を使用した詳細情報の表示</entry>
+    <entry key="UnableToLoadPattern">pattern 変数を読み込めません。</entry>
+    <entry key="UnableToLoadPatternArgument">関数 ''{0}'' の引数が不明なため、pattern 変数を読み込めません。この pattern は、後のバージョンの MATLAB で保存されている可能性があります。</entry>
+    <entry key="UnableToLoadPatternValue">関数 ''{0}'' の引数値が無効であるため、pattern 変数を読み込めません。この pattern は、後のバージョンの MATLAB で保存されている可能性があります。</entry>
+    <entry key="UnableToLoadPatternFunction">関数 ''{0}'' が不明であるため、pattern 変数を読み込めません。この pattern は、後のバージョンの MATLAB で保存されている可能性があります。</entry>
+    <entry key="UndefinedName">存在しない名前 ''{0}'' を参照しています。</entry>
+    <entry key="ShowDetailsInvalidValue">変数 {0} が pattern スカラーではなくなっているため、その詳細を表示できません。</entry>
+    <entry key="ShowDetailsNoLongerExists">変数 {0} は存在しないため、その詳細を表示できません。</entry>
+    <entry key="ShowDetailsNoMoreDetails">変数 {0} に詳細がなくなっているため、その詳細を表示できません。</entry>
+    <entry key="BoundaryType">境界タイプ</entry>
+    <entry key="End">終了</entry>
+    <entry key="MaskDisplay_UpperCase">マスクの表示</entry>
+    <entry key="MaskDisplay_LowerCase">マスクの表示</entry>
+    <entry key="MaximumQuantifier">最大量指定子</entry>
+    <entry key="MinimumQuantifier">最小量指定子</entry>
+    <entry key="MatchRange">マッチング範囲</entry>
+    <entry key="PatternName">パターン名</entry>
+    <entry key="ExceptOption">''Except'' オプション</entry>
+    <entry key="PatternDescription">パターンの説明</entry>
+    <entry key="Quantifier">量指定子</entry>
+    <entry key="Start">開始</entry>
+    <entry key="InternalError">{0}</entry>
+  </message>
+</rsccat>

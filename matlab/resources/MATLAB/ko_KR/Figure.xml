@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadCurrentAxesHandle">{0} 유형의 핸들은 현재 좌표축(Current Axes)으로 설정할 수 없습니다.</entry>
+    <entry key="DeletedHandle">삭제된 핸들은 현재 좌표축(Current Axes)이 될 수 없습니다.</entry>
+    <entry key="BadCurrentAxesInvalidChildHandle">axes는 기존 Figure의 자식이어야 합니다.</entry>
+    <entry key="BadCurrentPoint">CurrentPoint 값이 너무 큽니다.</entry>
+    <entry key="CannotSetNormalizedPaperSize">PaperSize는 정규화된 PaperUnits에서는 설정할 수 없습니다.\nPaperSize를 설정하려면 다음과 같이 하십시오.\nPaperType을 다른 값으로 설정합니다. 또는 \nPaperUnits를 인치, 센티미터 또는 포인트로 변경한 다음 PaperSize를 설정합니다.</entry>
+    <entry key="ColormapIntensityRange">모든 컬러맵 농도는 0과 1 사이여야 합니다.</entry>
+    <entry key="ColormapNumericType">컬러맵은 double형 또는 float형의 배열이거나, 희소 형식의 배열이어야 합니다</entry>
+    <entry key="ColormapRGBDimension">컬러맵은 RGB 색 강도의 M×3 배열이어야 합니다.</entry>
+    <entry key="CreatePeerWindow">Figure 창에 대한 Java Peer를 생성하지 못했습니다.</entry>
+    <entry key="CurrentAxesChild">axes는 기존 Figure의 자식이어야 합니다.</entry>
+    <entry key="CurrentAxesHandle">인수는 유효한 axes 핸들이어야 합니다.</entry>
+    <entry key="DefaultBar">디폴트 {0}의 생성에 실패했습니다.</entry>
+    <entry key="DragRect">드래그 사각형에는 {0,number,integer}이(가) 아닌 4개의 열이 있어야 합니다.</entry>
+    <entry key="FigureSavedToMATFile">Figure가 {0}에 저장되었습니다. 그래픽스 핸들 변수를 저장하면 매우 큰 파일이 생성될 수 있습니다. 그래픽스 Figure를 저장하려면 &lt;a href=\"matlab:helpview([docroot,''/techdoc/ref/savefig.html''])\"&gt;savefig&lt;/a&gt;를 사용하십시오.</entry>
+    <entry key="HandleAssignment">Figure 핸들을 할당하지 못했습니다.</entry>
+    <entry key="HandleInUse">요청한 Figure 핸들을 다른 객체에서 사용 중입니다.</entry>
+    <entry key="Hittest">Figure 핸들이 필요합니다.</entry>
+    <entry key="IncorrectWindowStyle">디스플레이 없이 MATLAB을 시작하거나 -noFigureWindows 옵션이 지정되어 있으면 WindowStyle을 ''docked''로 설정할 수 없습니다.</entry>
+    <entry key="IntegerHandle">단일 입력값은 기존 Figure 핸들 또는 1 ~ {0,number,integer}의 정수 스칼라여야 합니다.</entry>
+    <entry key="InvalidControllerInfo">Figure 컨트롤러를 생성하는 중 내부 오류가 발생했습니다.</entry>
+    <entry key="InvalidCurrentAxesHandle">{0} 핸들이 ''CurrentAxes'' 속성에 전달되었습니다. 유효한 axes 핸들이 필요합니다.</entry>
+    <entry key="InvalidDragRectColumns">드래그 사각형에는 {0,number,integer}이(가) 아닌 4개의 열이 있어야 합니다. </entry>
+    <entry key="InvalidParent">Figure의 부모는 루트여야 합니다.</entry>
+    <entry key="InvalidRendererBuffer">내부 오류입니다. 렌더링 버퍼가 존재하지 않습니다.</entry>
+    <entry key="Newplot">newplot이 축 핸들을 반환하지 않았습니다.</entry>
+    <entry key="NotDockable">메뉴 또는 도구 모음이 있는 웹 Figure는 도킹할 수 없습니다.</entry>
+    <entry key="NotDockableWarning">메뉴 또는 도구 모음이 있는 웹 Figure는 도킹할 수 없습니다. 자동으로 Figure가 도킹 해제됩니다.</entry>
+    <entry key="Pointer">전체 십자 기호 포인터는 더 이상 지원되지 않습니다. 십자 기호 포인터가 대신 사용됩니다.</entry>
+    <entry key="PrintTemplate">PrintTemplate이 적절히 초기화되지 않았습니다.</entry>
+    <entry key="RbboxColumns">rbbox 사각형에는 {0,number,integer}이(가) 아닌 4개의 열이 있어야 합니다.</entry>
+    <entry key="RbboxFirstArg">rbbox의 첫 번째 인수는 유효한 사각형이어야 합니다.</entry>
+    <entry key="RbboxRows">rbbox 사각형에는 {0,number,integer}이(가) 아닌 1개의 행이 있어야 합니다.</entry>
+    <entry key="RbboxSecondArg">rbbox의 두 번째 인수는 유효한 점이어야 합니다.</entry>
+    <entry key="RecursionOnClose">콜백은 CLOSE를 재귀적으로 호출합니다.  이 메시지가 나타나지 않도록 하려면 DELETE를 사용하십시오.</entry>
+    <entry key="Renderer">{0,number,integer}×{1,number,integer} Z-buffer를 렌더링할 메모리가 부족합니다.</entry>
+    <entry key="SetDefaultButtonChildOfFigure">지정된 Uicontrol은 지정된 Figure의 자식이어야 합니다.</entry>
+    <entry key="SetDefaultButtonInputArgument">setDefaultButton은 Figure 핸들을 첫 번째 인수로, Uicontrol 핸들을 두 번째 인수로 사용하여 호출해야 합니다.</entry>
+    <entry key="SetDefaultButtonInvalidFigure">setDefaultButton은 유효한 Uicontrol을 포함하는 Figure에서 호출해야 합니다.</entry>
+    <entry key="SetDefaultButtonNullInput">setDefaultButton은 유효한 Uicontrol을 포함하는 Figure에서 호출해야 합니다.</entry>
+    <entry key="SetDefaultButtonPlatform">이 플랫폼에서는 setDefaultButton이 지원되지 않습니다.</entry>
+    <entry key="SetDefaultButtonPushButton">setDefaultButton은 스타일 ''pushbutton''의 Uicontrol만 허용합니다.</entry>
+    <entry key="SetDefaultButtonUicontrol">setDefaultButton은 유효한 Uicontrol을 포함하는 Figure에서 호출해야 합니다.</entry>
+    <entry key="SetDockControlsOff">WindowStyle이 ''docked''인 상태에서는 DockControls를 ''off''로 설정할 수 없습니다.</entry>
+    <entry key="SetDockControlsOn">비 Java Figure의 경우 DockControls를 ''on''으로 설정할 수 없습니다.</entry>
+    <entry key="SetOuterPosition">WindowStyle이 ''docked''인 상태에서는 OuterPosition을 설정할 수 없습니다.</entry>
+    <entry key="SetPaperSize">너비와 높이는 0보다 커야 합니다.</entry>
+    <entry key="SetPointerShapeCData">PointerShapeCData는 16×16이어야 합니다.</entry>
+    <entry key="SetPointerShapeHotSpot">PointerShapeHotSpot은 1×2여야 합니다.</entry>
+    <entry key="SetPosition">WindowStyle이 ''docked''인 상태에서는 Position을 설정할 수 없습니다.</entry>
+    <entry key="SetResize">WindowStyle이 ''docked''인 상태에서는 Resize를 ''off''로 설정할 수 없습니다.</entry>
+    <entry key="SetXDisplay">해당 디스플레이를 열 수 없습니다.</entry>
+    <entry key="UnableToSetRendererToOpenGL">이 Figure에서는 Renderer를 OpenGL로 설정할 수 없습니다.</entry>
+    <entry key="Units">문자 크기를 계산할 수 없습니다.  Figure 위치가 올바르지 않을 수 있습니다.</entry>
+    <entry key="UnsupportedToolsStyle">이 Figure에는 이 ToolsStyle이 지원되지 않습니다.</entry>
+    <entry key="Waitforbuttonpress">MATLAB을 엔진으로 사용할 때는 Waitforbuttonpress를 사용할 수 없습니다.</entry>
+    <entry key="XDisplay">XDisplay를 설정할 수 없습니다.</entry>
+    <entry key="drawnowTicToc">''tic'' 및 ''toc'' 옵션은 함께 사용할 수 없습니다.</entry>
+    <entry key="webfigureredraw">Figure 핸들이 필요합니다.</entry>
+    <entry key="NonResizableFiguresCannotMaximize">''Resize''가 ''off''이면 ''maximized'' 창 상태가 지원되지 않습니다.</entry>
+    <entry key="DockedFiguresCannotSetWindowState">도킹된 Figure는 ''WindowState''를 지원하지 않습니다.</entry>
+    <entry key="InvalidFitToContentAnchor">앵커 옵션은 'center' 또는 'topleft'여야 합니다.</entry>
+    <entry key="FitToContentCalledWithNoGrid">fitToContent를 사용하여 Figure 크기를 조정하려면 Figure에 GridLayout 객체가 들어 있어야 합니다.</entry>
+  </message>
+</rsccat>

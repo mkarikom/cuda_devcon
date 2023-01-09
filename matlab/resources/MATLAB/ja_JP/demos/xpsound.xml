@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelSound">音声</entry>
+    <entry key="LabelDisplay">表示</entry>
+    <entry key="ButtonPlaySound">音の再生</entry>
+    <entry key="SliderVolume">ボリューム</entry>
+    <entry key="LabelSamples">サンプル</entry>
+    <entry key="PopupBirdChirps">鳥の鳴き声</entry>
+    <entry key="PopupChineseGong">銅鑼の音</entry>
+    <entry key="PopupHallelujah">ハレルヤ</entry>
+    <entry key="PopupDroppingEgg">卵の落ちる音</entry>
+    <entry key="PopupTrainWhistle">列車の警笛</entry>
+    <entry key="PopupLaughter">笑い声</entry>
+    <entry key="PopupBeats">打音</entry>
+    <entry key="TitleSamples">{0} サンプル</entry>
+    <entry key="PopupTimeSequence">時間列</entry>
+    <entry key="PopupPowerSpectralDensity">パワー スペクトル密度</entry>
+    <entry key="PopupSpectrogram">スペクトログラム</entry>
+    <entry key="PopupFM">FM</entry>
+  </message>
+</rsccat>

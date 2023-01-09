@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidAxes">坐标区必须与模式位于同一图窗中。</entry>
+    <entry key="InvalidInputAxes">输入必须为坐标区句柄。</entry>
+    <entry key="InvalidInputCameraLimits">输入必须为 'camera' 或 'limits'。</entry>
+    <entry key="IncorrectNumberArguments">输入参数的数目不正确。</entry>
+    <entry key="FirstInputUIFigure">不支持将 UI 图窗作为 {0} 的输入。请改为在 UI 图窗中指定 UIAxes 或 Axes。</entry>
+    <entry key="ConflictFound">发现冲突的交互。</entry>
+    <entry key="DuplicateFound">发现重复的交互。</entry>
+    <entry key="InteractionsProperty">Interactions 属性必须为交互对象数组。</entry>
+    <entry key="CartesianAxesInteractionsProperty">{0} 不是 CartesianAxes 上支持的交互类型。</entry>
+    <entry key="PolarAxesInteractionsProperty">{0} 不是 PolarAxes 上支持的交互类型。</entry>
+    <entry key="TextInteractionsProperty">{0} is not a supported interaction on Text.</entry>
+    <entry key="GeographicAxesInteractionsProperty">{0} 不是 GeographicAxes 上支持的交互类型。</entry>
+    <entry key="GeographicAxesInteractionsDisplay">\nGeographicAxes 默认情况下具有以下交互:\n\n \tPanInteraction\n \tZoomInteraction\n \tDataTipInteraction\n</entry>
+    <entry key="CartesianAxesInteractionsDisplay">\nAxes 默认情况下具有以下交互:\n\n \tPanInteraction (二维坐标区)\n \tZoomInteraction\n \tDataTipInteraction\n \tRotateInteraction (三维坐标区)\n \tRulerPanInteraction\n</entry>
+    <entry key="WebAxesInteractionsSetDisplay">\nWeb Axes 默认情况下具有以下交互:\n\n \tPanInteraction (二维坐标区)\n \tZoomInteraction\n \tDataTipInteraction\n \tRotateInteraction (三维坐标区)\n</entry>
+    <entry key="PolarAxesInteractionsDisplay">\nPolarAxes 默认情况下具有以下交互:\n\n \tDataTipInteraction\n</entry>
+    <entry key="EnableLegacyExplorationModesToolbarFound">发现自定义坐标区工具栏。在自定义坐标区工具栏之前，请调用 enableLegacyExplorationModes</entry>
+    <entry key="ScalarFigureOnly">输入必须为标量图窗句柄</entry>
+    <entry key="CannotDisableLegacyExplorationModes">Once enabled on this figure, legacy exploration modes cannot be disabled.</entry>
+  </message>
+</rsccat>

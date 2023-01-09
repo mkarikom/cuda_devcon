@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="needDoubleOrLogical">1 番目の引数は倍精度、または論理値でなければなりません。</entry>
+    <entry key="needMatrix">1 番目の引数は正方行列でなければなりません。</entry>
+    <entry key="denseNonNumeric">パラメーター dense は数値データでなければなりません。</entry>
+    <entry key="denseScalar">パラメーター dense はスカラーでなければなりません。</entry>
+    <entry key="aggressiveNonNumeric">パラメーター aggressive は数値データでなければなりません。</entry>
+    <entry key="aggressiveScalar">パラメーター aggressive はスカラーでなければなりません。</entry>
+    <entry key="invalidInput">2 番目の引数は制御の構造体でなければなりません。</entry>
+    <entry key="invalidMatrix">入力行列 A は壊れています。</entry>
+  </message>
+</rsccat>

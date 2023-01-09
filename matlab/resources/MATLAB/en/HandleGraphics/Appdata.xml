@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidSecondArgumentName" note="stringDatatypeUpdate">Second argument must be a character vector</entry>
+    <entry key="LongName" note="stringDatatypeUpdate">The length of the specified character vector name exceeds the maximum limit of {0,number,integer}</entry>
+    <entry key="InvalidNameAppdata" note="stringDatatypeUpdate">The specified character vector name does not exist in the appdata</entry>
+  <!--Resource entries for src/hgbuiltins-->
+    <entry key="InvalidPropertyName">Invalid user property: {0}.</entry>
+  </message>
+</rsccat>

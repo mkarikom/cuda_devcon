@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonNumericInput">인수는 숫자형이어야 합니다.</entry>
+    <entry key="nonRealNU">NU는 실수여야 합니다.</entry>
+    <entry key="NUAndZSizeMismatch">NU 및 Z는 같은 크기여야 합니다.</entry>
+    <entry key="BesselhIerrRemoved">BESSELH는 더 이상 두 번째 출력값을 반환하지 않습니다. 대신 H = BESSELH(NU,Z)를 사용하십시오.</entry>
+    <entry key="BesseliIerrRemoved">BESSELI는 더 이상 두 번째 출력값을 반환하지 않습니다. 대신 I = BESSELI(NU,Z)를 사용하십시오.</entry>
+    <entry key="BesseljIerrRemoved">BESSELJ는 더 이상 두 번째 출력값을 반환하지 않습니다. 대신 J = BESSELJ(NU,Z)를 사용하십시오.</entry>
+    <entry key="BesselkIerrRemoved">BESSELK는 더 이상 두 번째 출력값을 반환하지 않습니다. 대신 K = BESSELK(NU,Z)를 사용하십시오.</entry>
+    <entry key="BesselyIerrRemoved">BESSELY는 더 이상 두 번째 출력값을 반환하지 않습니다. 대신 Y = BESSELY(NU,Z)를 사용하십시오.</entry>
+    <entry key="BesselhEmptyEdgeCase">BESSELH(NU,Z)에는 빈 배열 입력값과 비 스칼라 입력값을 더 이상 혼합해 사용할 수 없습니다.</entry>
+    <entry key="BesseliEmptyEdgeCase">BESSELI(NU,Z)에는 빈 배열 입력값과 비 스칼라 입력값을 더 이상 혼합해 사용할 수 없습니다.</entry>
+    <entry key="BesseljEmptyEdgeCase">BESSELJ(NU,Z)에는 빈 배열 입력값과 비 스칼라 입력값을 더 이상 혼합해 사용할 수 없습니다.</entry>
+    <entry key="BesselkEmptyEdgeCase">BESSELK(NU,Z)에는 빈 배열 입력값과 비 스칼라 입력값을 더 이상 혼합해 사용할 수 없습니다.</entry>
+    <entry key="BesselyEmptyEdgeCase">BESSELY(NU,Z)에는 빈 배열 입력값과 비 스칼라 입력값을 더 이상 혼합해 사용할 수 없습니다.</entry>
+    <entry key="BesselhRowColumnVectorCase">BESSELH(NU,Z)에는 행 벡터와 열 벡터를 혼합해 사용할 수 없습니다. 대신 BSXFUN 또는 [NU1 Z1] = MESHGRID(NU, Z); BESSELH(NU1,Z1)을 사용하십시오.</entry>
+    <entry key="BesseliRowColumnVectorCase">BESSELI(NU,Z)에는 행 벡터와 열 벡터를 혼합해 사용할 수 없습니다. 대신 BSXFUN 또는 [NU1 Z1] = MESHGRID(NU, Z); BESSELI(NU1,Z1)을 사용하십시오.</entry>
+    <entry key="BesseljRowColumnVectorCase">BESSELJ(NU,Z)에는 행 벡터와 열 벡터를 혼합해 사용할 수 없습니다. 대신 BSXFUN 또는 [NU1 Z1] = MESHGRID(NU, Z); BESSELJ(NU1,Z1)을 사용하십시오.</entry>
+    <entry key="BesselkRowColumnVectorCase">BESSELK(NU,Z)에는 행 벡터와 열 벡터를 혼합해 사용할 수 없습니다. 대신 BSXFUN 또는 [NU1 Z1] = MESHGRID(NU, Z); BESSELK(NU1,Z1)을 사용하십시오.</entry>
+    <entry key="BesselyRowColumnVectorCase">BESSELY(NU,Z)에는 행 벡터와 열 벡터를 혼합해 사용할 수 없습니다. 대신 BSXFUN 또는 [NU1 Z1] = MESHGRID(NU, Z); BESSELY(NU1,Z1)을 사용하십시오.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="CachingOfLargeDatasets">Caching of large datasets limits selection only to the data in the display.</entry>
+      <entry key="Cancel">Cancel</entry>
+      <entry key="Data">Data</entry>
+      <entry key="DefineDomain">Define Domain</entry>
+      <entry key="Detrend">Detrend...</entry>
+      <entry key="EndTime">End Time</entry>
+      <entry key="EndTimePrecedsStartTime">End time precedes start time</entry>
+      <entry key="Filter">Filter...</entry>
+      <entry key="Interpolate">Interpolate...</entry>
+      <entry key="InvalidEndTime">Invalid end time</entry>
+      <entry key="InvalidStartTime">Invalid start time</entry>
+      <entry key="LimitedDoublePrecision">Limited double precision would result in duplicate times after the shift for: {0}. Aborting the shift</entry>
+      <entry key="Mean">Mean</entry>
+      <entry key="Median">Median</entry>
+      <entry key="MultipleTimeSeries">Multiple Time Series</entry>
+      <entry key="OK">OK</entry>
+      <entry key="PlotOf">Plot of {0}</entry>
+      <entry key="RemoveMissingData">Remove Missing Data...</entry>
+      <entry key="RemovingAllDataWillCreateAnEmptyTimeSeries">Removing all data will create an empty time series.</entry>
+      <entry key="ReplacingDataWithNaNs">Replacing data with NaNs</entry>
+      <entry key="ResampleData">Resample Data...</entry>
+      <entry key="SelectData">Select Data...</entry>
+      <entry key="SelectedAxesContainContinue">Selected axes contain {0}. Continue?</entry>
+      <entry key="SelectingDataForRemoval">Selecting data for removal</entry>
+      <entry key="SelectionModes">Selection modes</entry>
+      <entry key="StartTime">Start Time</entry>
+      <entry key="STD" translate="false" note="TranslateFalseBatch;">STD</entry>
+      <entry key="SynchronizeData">Synchronize Data...</entry>
+      <entry key="TheNumberOfAxesCannotBeReducedToZero">The number of axes cannot be reduced to zero</entry>
+      <entry key="TheTimePlotCannotBeSet">The Time Plot cannot be set to display absolute times because the timeseries has no start date.</entry>
+      <entry key="Time">Time</entry>
+      <entry key="TimeSeriesLengthTooLong">Time series length exceeds the default limit of {0,number,integer}.\nRestricting the displayed plot area to the first {1,number,integer} points.\nUse the Panning tool or the Property Editor to display\na different interval.</entry>
+      <entry key="TimeSeriesPlotOf">Time Series Plot of {0}</entry> 
+      <entry key="TimeSeriesRescaling">Time series rescaling</entry>
+      <entry key="TimeSeriesTranslation">Time series translation</entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+   </message>
+</rsccat>

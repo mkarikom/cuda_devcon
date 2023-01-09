@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">入力引数が不足しています。</entry>
+    <entry key="YMustBeVector">Y はベクトルでなければなりません。</entry>
+    <entry key="AutoResizeChildren">''AutoResizeChildren'' プロパティが ''on'' に設定されたコンテナーにパレート図を追加することはサポートされていません。</entry>
+    <entry key="InvalidThreshold">しきい値は 0 から 1 の間のスカラー数値でなければなりません。</entry>
+  </message>
+</rsccat>

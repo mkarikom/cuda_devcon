@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownOption">명령 옵션은 'on' 또는 'off'여야 합니다.</entry>
+    <entry key="CurrentPlotReleased">현재 플롯이 해제됨</entry>
+    <entry key="CurrentPlotHeld">현재 플롯이 유지됨</entry>
+    <entry key="InvalidFirstArg">첫 번째 인수는 axes 객체여야 합니다.</entry>
+    <entry key="UnsupportedCurrentAxes">{0}에는 hold를 사용할 수 없습니다.</entry>
+  </message>
+</rsccat>

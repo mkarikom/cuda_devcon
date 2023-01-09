@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonFloatInput">入力は単精度または倍精度でなければなりません。</entry>
+    <entry key="notReal">入力は実数でなければなりません。</entry>
+    <entry key="notFull">入力は非スパースでなければなりません。</entry>
+    <entry key="validOrder">次数は 2^31-1 よりも小さな非負の値でなければなりません。</entry>
+    <entry key="kScalar">K はスカラーでなければなりません。</entry>
+    <entry key="negativeX">X は非負でなければなりません。</entry>
+  </message>
+</rsccat>

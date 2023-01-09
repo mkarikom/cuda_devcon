@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="funArgNotHandle">最初の入力引数は関数ハンドルでなければなりません。</entry>
+    <entry key="invalidEndpoint">積分範囲は double または single のスカラーでなければなりません。</entry>
+    <entry key="nonFiniteContourError">等高線図の端点とウェイポイントは有限でなければなりません。</entry>
+    <entry key="NonFiniteValue">Inf or NaN value encountered.</entry>
+    <entry key="UnsupportedClass">入力関数は ''double'' または ''single'' の値を返さなければなりません。''{0}'' が見つかりました。</entry>
+    <entry key="FxNotSameSizeAsX">関数の出力は、入力と同じサイズでなければなりません。FUN が配列値の被積分関数である場合は、'ArrayValued' オプションを true に設定してください。</entry>
+    <entry key="invalidAbsTol">''AbsTol'' の値は非負の double または single のスカラーでなければなりません。</entry>
+    <entry key="invalidRelTol">''RelTol'' の値は非負の double または single のスカラーでなければなりません。</entry>
+    <entry key="MaxIntervalCountReached">使用できる最大反復回数の制限に達しました。誤差の近似範囲は {0} です。積分は存在しないか、または要求精度を数値的に近似することが困難である可能性があります。</entry>
+    <entry key="MinStepSize">最小ステップ サイズが x = {0} の近くまで達しました。特異点の可能性があるか、この問題には許容誤差が小さすぎる可能性があります。</entry>
+    <entry key="invalidWaypoints">''Waypoints'' の値は、値がすべて有限のベクトルでなければなりません。</entry>
+    <entry key="invalidArrayValued">''ArrayValued'' の値は true または false でなければなりません。</entry>
+    <entry key="unsuccessful">積分は失敗しました。</entry>
+  </message>
+</rsccat>

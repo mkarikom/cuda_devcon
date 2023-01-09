@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="illegalWritableSetting">Writable フィールドはスカラーの論理値を含まなければなりません。</entry>
+    <entry key="illegalOffsetType">Offset フィールドは実数のスカラーの数でなければなりません。</entry>
+    <entry key="illegalOffsetValue">Offset フィールドは有限で、非負の整数値を含まなければなりません。</entry>
+    <entry key="illegalFormatSetting">指定された Format フィールドが無効です。</entry>
+    <entry key="illegalRepeatType">Repeat フィールドは実数のスカラーの数を含まなければなりません。</entry>
+    <entry key="illegalRepeatValue">Repeat フィールドは正の積分値か Inf を含まなければなりません。</entry>
+    <entry key="illegalFilenameType">ファイル名は文字ベクトルでなければなりません。</entry>
+    <entry key="inaccessibleFile">ファイル "{0}" にアクセスできません: {1}.</entry>
+    <entry key="classMismatch">Data フィールドに代入された値は、Data フィールドと同じクラスでなければなりません。</entry>
+    <entry key="illegalComplexAssignment">複素数値は Data フィールドやそのサブフィールドに代入できません。</entry>
+    <entry key="illegalSubscriptedAssignment">memmapfile オブジェクトの Data フィールドへの添字による代入が正しくありません。</entry>
+    <entry key="UnpairedParamsValues">パラメーター/値のペアは対でなければなりません。</entry>
+    <entry key="dataIsReadOnly">Writable フィールドが false に設定されているため、Data フィールドを変更できません。</entry>
+    <entry key="illegalPropertyType">プロパティは文字ベクトルか、文字ベクトルのセル配列でなければなりません。</entry>
+    <entry key="noStructConversion">memmapfile オブジェクトを構造体に変換できません。</entry>
+    <entry key="illegalAlignment">format、offset または repeat が正しくありません。format、offset、repeat 値が指定されている Data フィールドにアクセスすると、未割り当てアドレスの例外が発生します。</entry>
+    <entry key="fileTooSmall">ファイル "{0}" は大きさが十分でないため、現在の format、offset、および repeat 値でマップできません。</entry>
+    <entry key="sizeMismatch">M.DATA = N の代入において、N と M.DATA 内の要素数は同じでなければなりません。</entry>
+    <entry key="dataFieldSizeFixed">添字を使った代入によって Data フィールドのサイズを変更することはできません。Data フィールドのサイズは Repeat フィールドと Format フィールドで定義されます。</entry>
+    <entry key="illegalDataFieldModification">memmapfile オブジェクトの Data フィールドが構造体の場合、代入による置き換えはできません。</entry>
+    <entry key="classMismatchForSubfield">Data フィールドのサブフィールドに代入された値は、サブフィールドと同じクラスでなければなりません。</entry>
+    <entry key="sizeMismatchForSubfield">M.DATA(I).FIELD = N の代入において、N と M.DATA(I).FIELD 内の要素数は同じでなければなりません。</entry>
+    <entry key="dataSubfieldSizeFixed">添字を使った代入によって Data フィールドのサブフィールドのサイズを変更することはできません。Data フィールドのサブフィールドのサイズは、Format フィールドで定義されます。</entry>
+    <entry key="illegalParameter">入力 {0,number,integer} のパラメーターは文字ベクトルでなければなりません。</entry>
+    <entry key="unrecognizedParameter">パラメーター "{0}" は認識されません。</entry>
+    <entry key="illegalParenIndex">memmapfile オブジェクトは () の添字を使用できません。</entry>
+    <entry key="illegalBraceIndex">memmapfile オブジェクトは '{}' の添字を使用できません。</entry>
+    <entry key="unsupportedCSL">Data フィールドの添字付けの処理で、コンマ区切りリストを作成しようとしました。memmapfile クラスは、添字を付けるときにコンマ区切りリストの使用をサポートしません。</entry>
+    <entry key="noCatenation">memmapfile オブジェクトを連結できません。</entry>
+    <entry key="noEmptyMethod">空の memmapfile オブジェクトは作成できません。</entry>
+  </message>
+</rsccat>

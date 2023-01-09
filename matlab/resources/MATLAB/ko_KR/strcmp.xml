@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RowsElementsMismatch">문자형 행렬의 행 개수는 다른 배열에 있는 요소 개수와 일치해야 합니다.</entry>
+    <entry key="InputsSizeMismatch">입력값은 크기가 동일하거나, 둘 중 하나는 스칼라일 수 있습니다.</entry>
+    <entry key="SizeMustBeInt">일치시킬 문자의 개수는 정수여야 합니다.</entry>
+  </message>
+</rsccat>

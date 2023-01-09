@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooFewArguments">输入参数的数目不足。</entry>
+    <entry key="ValueExpected">需要属性值对组。</entry>
+    <entry key="InvalidArgument">参数必须为字符向量。</entry>
+    <entry key="InvalidView">视图必须为 2 维视图。</entry>
+    <entry key="FigureDeletionPause">已被图窗删除操作中断</entry>
+    <entry key="Interrupted">已中断</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotDAG">有向图必须是无环的。</entry>
+    <entry key="ParseFlag">参数名称必须为 ''Order''。</entry>
+    <entry key="ParseType">Order 值必须为 ''fast'' 或 ''stable''。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AmbiguousName">颜色表中包含多个与指定字符向量匹配的名称。</entry>
+    <entry key="ParseError">无效的颜色名称或十六进制颜色代码。有效名称包括: 'red'、'green'、'blue'、'cyan'、'magenta'、'yellow'、'black'、'white' 和 'none'。有效的十六进制颜色代码由 '#' 后跟三个或六个十六进制数字组成。</entry>
+    <entry key="ValueMustBe3ElementVector">RGB 三元组无效。指定由 0 到 1 之间的值组成的三元素向量。</entry>
+  </message>
+</rsccat>

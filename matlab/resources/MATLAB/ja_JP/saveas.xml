@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="tooFewInputs">Figure またはブロック線図とファイル名へのハンドルが必要です。</entry>
+    <entry key="badFormat">サポートされない形式または拡張子: {0}</entry>
+    <entry key="invalidHandle">ハンドルが無効です。</entry>
+    <entry key="invalidFigureHandle">Figure のハンドルが無効です。</entry>
+    <entry key="invalidSimulinkHandle">Simulink のハンドルが無効です。</entry>
+    <entry key="invalidFilename">ファイル名が無効です。</entry>
+    <entry key="invalidFilenameFile">無効なファイル名:  {0}</entry>
+    <entry key="invalidFilenameAsterisk">無効なファイル名: {0}。* は有効なファイル名の文字ではありません。</entry>
+    <entry key="invalidFilenameExtension">無効な拡張子: {0}</entry>
+    <entry key="invalidFilenameBadPath">無効かパスが見つかりません: {0}</entry>
+  </message>
+</rsccat>

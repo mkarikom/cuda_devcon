@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="allint">Quality 代码必须都在 -128 至 127 的范围内</entry>
+    <entry key="integerCodes">Quality 代码必须都是 -128 至 127 范围内的整数</entry>
+  </message>
+</rsccat>

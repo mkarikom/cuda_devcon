@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BestFitLine">最適な近似線</entry>
+    <entry key="Cancel">キャンセル</entry>
+    <entry key="CannotDisplayDifferingNumberOfSamples">異なるサンプル数をもつ時系列を xy ビューに表示できません。{0} の長さは {1,number,integer} です。{2} の長さは {3,number,integer} です。</entry>
+    <entry key="Detrend">トレンド除去...</entry>
+    <entry key="DoYouWantToOpenTheMergeDialog">長さを一致させるためのマージ ダイアログを開きますか?</entry>
+    <entry key="Filter">フィルター...</entry>
+    <entry key="Interpolate">内挿...</entry>
+    <entry key="NotRemovingAllPoints">すべてのポイントを削除すると、空の時系列が作成されます。操作は行われません。</entry>
+    <entry key="OK">OK</entry>
+    <entry key="ResampleData">データ リサンプリング...</entry>
+    <entry key="RemoveMissingData">欠損値の削除...</entry>
+    <entry key="SelectData">データの選択...</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="TooManyAxes">144 より多くの座標軸を表示できません。演算式のダイアログを使用して列数を減らしてください。</entry>
+    <entry key="XYPlot">XY プロット {0} - {1}</entry>
+    <entry key="XYPlotPlain">XY プロット</entry>
+  </message>
+</rsccat>

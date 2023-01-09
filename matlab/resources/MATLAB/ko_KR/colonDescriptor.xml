@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="braceNotSupported">간편 콜론(Lazy Colon) 설명자로 중괄호를 이용해 인덱싱하는 것은 지원되지 않습니다.</entry>
+    <entry key="indexIntoEmptyObject">빈 콜론 설명자로 인덱싱하는 것은 지원되지 않습니다.</entry>
+    <entry key="methodNotSupported">메서드 {0}에는 간편 콜론(Lazy Colon) 설명자를 사용할 수 없습니다.</entry>
+    <entry key="onlyOneIndex">간편 콜론(Lazy Colon) 설명자에 대한 인덱싱은 하나만 가능합니다.</entry>
+    <entry key="parenReferenceUnsupported">간편 콜론(Lazy Colon) 인덱싱은 parenReference와 함께 사용할 수 없습니다.</entry>
+    <entry key="subscriptedAssignmentNotSupported">간편 콜론(Lazy Colon) 설명자의 요소에는 값을 대입할 수 없습니다.</entry>
+    <entry key="singlePrecisionMaxIndexExceeded">단정밀도 인덱스 값은 2^24보다 작아야 합니다.</entry>
+    <entry key="doublePrecisionMaxIndexExceeded">인덱스 값은 2^53보다 작아야 합니다.</entry>
+  </message>
+</rsccat>

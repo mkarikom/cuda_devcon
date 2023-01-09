@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InconsistentVariables">Symfun 변수는 일관되어야 함</entry>
+    <entry key="TooManyFunctions">함수가 너무 많습니다.</entry>
+    <entry key="TooManyVariables">입력값은 두 개의 변수로 구성된 함수여야 합니다.</entry>
+  </message>
+</rsccat>

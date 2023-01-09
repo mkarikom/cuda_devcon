@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <entry key="InvalidFigureHandle">Invalid or deleted figure handle. First argument must be a valid figure handle</entry>
+        <entry key="NotAnAppWindowHandle">First argument must be a figure handle created using the uifigure function.</entry>
+        <entry key="InvisibleFigure">Figure handle ''Visible'' value must be ''on''.</entry>
+        <entry key="InvisibleAppContainer">AppContainer handle ''Visible'' value must be true</entry>
+        <entry key="InvalidMessageText" note="stringDatatypeUpdate">''Message'' must be a char array, string array or a cell array of character vectors.</entry>
+        <entry key="InvalidTitleText">''Title'' must be a char array or a string scalar.</entry>
+        <entry key="IncorrectNameValuePairs">Incorrect number of name-value pairs. Each parameter name must be followed by a corresponding value.</entry>
+        <entry key="IncorrectParameter" note="stringDatatypeUpdate">Parameter name must be a character vector or a string scalar.</entry>
+        <entry key="IncorrectParameterName">Invalid parameter name ''{0}''. Valid names are ''{1}''.</entry>
+
+        <!-- Do not translate the words (these are keywords): 'error', 'warning', 'info', 'question', 'success', 'none' -->
+        <entry key="InvalidIconSpecified">Icon value must be 'error', 'warning', 'info', 'question', 'success', 'none', a valid file path, or an m-by-n-by-3 color data matrix.</entry>
+
+        <entry key="invalidFourStringEnum">''{0}'' value must be ''{1}'', ''{2}'', ''{3}'', or ''{4}''.</entry>
+        
+        <entry key="UnableToReadIconFile">Unable to read icon file. Continuing without icon file.</entry>
+        <entry key="InvalidModalValue">''Modal'' value must be true or false.</entry>
+        <entry key="InvalidCloseFcnValue" note="stringDatatypeUpdate">''CloseFcn'' value must be a character vector, a function handle, or a cell array containing a character vector or a function handle.</entry>
+        <entry key="ErrorEvaluatingCloseFcn">Error while evaluating ''CloseFcn'' for dialog.\n\n{0}\n</entry>
+        <entry key="OK">OK</entry>
+        <entry key="Cancel">Cancel</entry>
+        <entry key="CancelRequested">Cancel Requested</entry>
+        <entry key="InvalidOptionsValue">Options must be a character vector or a string scalar containing 1 option or a cell array of character vectors or a string array containing 1 to 4 options.</entry>
+
+        <!-- Do not translate the word: 'Options'-->
+        <entry key="InvalidDefaultOption">''{0}'' must be a character vector or a string scalar from the 'Options' cell array or an index of the 'Options' cell array</entry>
+    
+        <entry key="errorInWeb" note="stringDatatypeUpdate">
+            <!-- 
+            {0} = Property name - URL
+            {1} = char array containing error message from web:
+            --> 
+            Unable to open URL ''{0}'': {1}
+        </entry>
+        <entry key="errorInWebEmpty"> Unable to open URL without a valid URL scheme.
+        </entry>
+    </message>
+</rsccat>

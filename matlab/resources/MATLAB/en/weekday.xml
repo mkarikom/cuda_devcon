@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidOption">''{0}'' is not a valid option. \nIf you are attempting to include a date format, use WEEKDAY(DATENUM(DATE,FORMAT),...) instead.</entry>
+    <entry key="InvalidOptionType">The argument type was incorrect. Expected a character vector or string scalar.</entry>
+  </message>
+</rsccat>

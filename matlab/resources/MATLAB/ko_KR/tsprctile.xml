@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoEmpty">P는 스칼라이거나 비어 있지 않은 벡터여야 합니다.</entry>
+    <entry key="BadPercents">P는 0에서 100 사이의 실수 값을 받아야 합니다.</entry>
+  </message>
+</rsccat>

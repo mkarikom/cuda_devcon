@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoXGDataWhenY2D">ydata が行列の場合、xgroupdata を渡すことはサポートされていません。</entry>
+    <entry key="NoXDataWhenYData2D">YData が行列の場合、XData の設定はサポートされていません。</entry>
+    <entry key="BadXVectorY">xgroupdata は ydata と同じサイズでなければなりません。</entry>
+    <entry key="BadXDataVectorYData">XData は YData と同じサイズでなければなりません。</entry>
+    <entry key="NoColGDataWhenY2D">サンプル データの引数が行列の場合、''GroupByColor'' パラメーターはサポートされていません。</entry>
+    <entry key="BadColGroupVectorY">''GroupByColor'' 値はサンプル データの引数と同じサイズでなければなりません。</entry>
+    <entry key="OrientationYYAxis">ボックス チャートが複数の y 軸に categorical 値をもつ場合、''Orientation'' プロパティの変更はサポートされていません。</entry>
+    <entry key="OrientationMixedType">ボックス チャートが categorical 値をもち、かつ座標軸に複数の異なるタイプのチャートが含まれている場合、''Orientation'' プロパティの変更はサポートされていません。</entry>
+    <entry key="Position">位置</entry>
+    <entry key="OutlierValue">外れ値</entry>
+    <entry key="LowerQuartile">第 1 四分位数</entry>
+    <entry key="UpperQuartile">第 3 四分位数</entry>
+    <entry key="LowerWhisker">ひげの下端</entry>
+    <entry key="UpperWhisker">ひげの上端</entry>
+    <entry key="LowerNotch">ノッチの下端</entry>
+    <entry key="UpperNotch">ノッチの上端</entry>
+    <entry key="Median">中央値</entry>
+    <entry key="NumPoints">点数</entry>
+    <entry key="Quartiles">四分位数</entry>
+    <entry key="Whiskers">ひげ</entry>
+    <entry key="Notches">ノッチ</entry>
+    <entry key="NumOutliers">外れ値の数</entry>
+    <entry key="ColorGroup">名前</entry>
+  </message>
+</rsccat>

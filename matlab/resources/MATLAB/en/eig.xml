@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NoConvergence">Algorithm did not succeed.</entry>
+    <entry key="matrixWithNaNInf">Input matrix must not contain NaN or Inf values.</entry>
+    <entry key="inputMustBe2DStandard">Input array must be 2-dimensional.</entry>
+    <entry key="inputMustBeSquareStandard">Input matrix must be square.</entry>
+    <entry key="unknownArgumentStandard">For standard eigenproblem, option must be ''vector'', ''matrix'', ''balance'', or ''nobalance''.</entry>
+    <entry key="unknownArgumentCombinationStandard">Invalid option combination.</entry>
+    <entry key="inputType">Invalid data type. Input matrix must be double or single.</entry>
+    <entry key="inputTypeGeneralized">Invalid data type. Input matrices must be double or single.</entry>
+    <entry key="inputMustBe2DGeneralized">Input arrays must be 2-dimensional.</entry>
+    <entry key="inputMustBeSquareGeneralized">Input matrices must be square.</entry>
+    <entry key="inputMustBeSameSizeGeneralized">For generalized eigenproblem, input matrices must be the same size.</entry>
+    <entry key="unknownArgumentGeneralized">For generalized eigenproblem, option must be ''vector'', ''matrix'', ''qz'', or ''chol''.</entry>
+    <entry key="unknownArgumentCombinationGeneralized">Invalid option combination.</entry>
+    <entry key="useEigsForSparseStandard">Input matrix must be real and symmetric when matrix is sparse. Use &lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/eigs.html'))\"&gt;eigs&lt;/a&gt; to compute a subset of eigenvectors and eigenvalues of a sparse matrix.</entry>
+    <entry key="useEigsForSparseStandardVector">Too many output arguments. Only one output argument is supported when the input matrix is sparse. Use &lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/eigs.html'))\"&gt;eigs&lt;/a&gt; to compute a subset of eigenvectors and eigenvalues of a sparse matrix.</entry>
+    <entry key="useEigsForSparseGeneralized">Sparse matrices not supported for generalized eigenproblem. Use &lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/eigs.html'))\"&gt;eigs&lt;/a&gt; to compute a subset of eigenvectors and eigenvalues of a sparse eigenproblem.</entry>
+  </message>
+</rsccat>

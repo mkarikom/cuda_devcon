@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadHandle">必须指定有效的图窗或坐标区对象句柄</entry>
+    <entry key="MustBeValidMovieMatrix">参数必须为 GETFRAME 中的有效影片矩阵</entry>
+    <entry key="BadRepeatCount1">重复计数和帧顺序列表必须为数值并具有有限值</entry>
+    <entry key="BadRepeatCount2">重复计数规定无效</entry>
+    <entry key="BadRECT">RECT 设定无效</entry>
+    <entry key="SkippingCorruptedFrame">正在跳过损坏的影片帧 #{0,number,integer}</entry>
+    <entry key="NoValidFrames">此影片中没有任何有效帧</entry>
+    <entry key="ExpectedStructure">无效的影片: 需要结构体</entry>
+    <entry key="WrongNumberOfFields">无效的影片结构体: 字段数错误</entry>
+    <entry key="WrongFieldNamesOrOrder">无效的影片结构体: 字段名称错误或字段顺序错误</entry>
+    <entry key="UninitializedFrames">影片包含未初始化的帧</entry>
+    <entry key="CDataTypeMustBeUint8Array">影片 cdata 的类型必须为 uint8 数组</entry>
+    <entry key="CDataMustHave2Or3Dimensions">影片 cdata 的维度必须为二维或三维</entry>
+    <entry key="ColormapMustBeNonEmpty">索引影片帧必须具有非空颜色图</entry>
+    <entry key="ColormapMustBeDoubleArray">影片颜色图必须为双精度数组</entry>
+    <entry key="ColormapCannotHaveMoreThan256Colors">影片颜色图不能超过 256 色</entry>
+    <entry key="ColormapMustHave3Columns">影片颜色图必须包含 3 列</entry>
+    <entry key="ColormapValuesMustBeFinite">影片颜色图值必须是有限值</entry>
+    <entry key="ColormapValuesOutOfRange">影片颜色图值必须介于 0.0 与 1.0 之间(包括二者)</entry>
+    <entry key="BadColormapIndices">索引影片数据值必须为合法的颜色图索引:\n对于双精度影片数据，1.0 &lt;= 值 &lt;= length(colormap)；对于 uint8 影片数据，0 &lt;= 值 &lt;= length(colormap)-1</entry>
+    <entry key="BadFrameDimensions">每个影片帧必须是大小为 MxN (索引)或 MxNx3 (真彩色)的数组</entry>
+    <entry key="HandleMustBeFigureOrAxes">对象句柄必须为图窗或坐标区</entry>
+    <entry key="HandleMustBeValid">必须指定有效的图窗或坐标区对象句柄</entry>
+    <entry key="MustBeTrueColor">影片仅支持真彩色视觉效果。</entry>
+    <entry key="ExpectedDoubleScalar">必须使用双精度标量指定每秒帧数</entry>
+    <entry key="ExpectedNumericFinite">重复计数和帧顺序列表必须为数值并具有有限值</entry>
+    <entry key="CantCreateFrame">无法创建影片帧</entry>
+    <entry key="unsupported">HGUsingMATLABClasses 模式不支持内置的 hgMovie。请改用 MOVIE.M。</entry>
+    <entry key="ZeroRepetitions">已请求播放 0 次的影片</entry>
+    <entry key="BadPlaylist">指定的播放列表无效</entry>
+    <entry key="BadFPS1">指定的 FPS 无效</entry>
+    <entry key="BadFPS2">指定的 FPS 无效</entry>
+    <entry key="BadFPS3">指定的 FPS 无效</entry>
+    <entry key="BadMatrix1">参数必须为 GETFRAME 中的有效影片矩阵</entry>
+    <entry key="BadMatrix2">参数必须为 GETFRAME 中的有效影片矩阵</entry>
+    <entry key="BadMatrix3">参数必须为 GETFRAME 中的有效影片矩阵</entry>
+    <entry key="BadFrameOrderIndex1">帧顺序设定中的索引({0})无效。\n编号必须介于 1 和帧数({1,number,integer})之间。</entry>
+    <entry key="BadFrameOrderIndex2">帧顺序设定中的索引({0})无效。\n编号必须介于 1 和帧数({1,number,integer})之间。</entry>
+    <entry key="MovieContainsUninitializedFrames">影片包含未初始化的帧</entry>
+    <entry key="CdataMustBeOfTypeUint8Array">影片 cdata 的类型必须为 uint8 数组</entry>
+    <entry key="CdataMustHave2Or3Dimensions">影片 cdata 的维度必须为二维或三维</entry>
+    <entry key="FrameMustBeAnArrayOfSizeMxNindexedOrMxNx3tr">每个影片帧必须是大小为 MxN (索引)或 MxNx3 (真彩色)的数组</entry>
+    <entry key="IndexedMovieFrameMustHaveANonemptyColormap">索引影片帧必须具有非空颜色图</entry>
+    <entry key="MovieColormapsMustBeDoubleArrays">影片颜色图必须为双精度数组</entry>
+    <entry key="ColormapCanNotHaveMoreThan256Colors">影片颜色图不能超过 256 色</entry>
+    <entry key="ColormapsMustHave3Columns">影片颜色图必须包含 3 列</entry>
+    <entry key="ColormapValuesMustBeBetween0And1Inclusive">影片颜色图值必须介于 0.0 与 1.0 之间(包括二者)</entry>
+    <entry key="ArgumentMustBeAValidMovieMatrixFromGETFRAME">参数必须为 GETFRAME 中的有效影片矩阵</entry>
+    <entry key="RepetitionCountAndFrameOrderListMustBeFiniteNumeric">重复计数和帧顺序列表必须为数值并具有有限值</entry>
+    <entry key="InvalidRepeatCountSpecification">重复计数规定无效</entry>
+    <entry key="FramesPerSecondMustBePositiveDouble">必须使用大于 0 的双精度正标量指定每秒帧数</entry>
+    <entry key="InvalidRECTSpecification">RECT 设定无效</entry>
+    <entry key="ValueMustBeNumeric">值必须为数值</entry>
+    <entry key="ObjectHandleMustBeAFigureOrAnAxes">对象句柄必须为图窗或坐标区</entry>
+    <entry key="IndexedMovieDataValuesMustBeLegalColormapIndices">索引影片数据值必须为合法的颜色图索引:\n对于双精度影片数据，1.0 &lt;= value &lt;= length(colormap)\n对于 uint8 影片数据，0 &lt;= value &lt;= length(colormap)-1</entry>
+  </message>
+</rsccat>

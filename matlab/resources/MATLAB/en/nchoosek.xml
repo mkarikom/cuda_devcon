@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidArg2">The second input has to be a non-negative integer.</entry>
+    <entry key="InvalidArg1">The first argument has to be a scalar or a vector.</entry>
+    <entry key="KOutOfRange">K must be an integer between 0 and N.</entry>
+    <entry key="NOutOfRange">When N is single or double, its maximum allowed value is FLINTMAX.</entry>
+    <entry key="mixedIntegerTypes">Integers can only be combined with integers of the same class, or scalar doubles.</entry>
+  <!--Resource entries for toolbox/matlab/specfun-->
+    <entry key="LargeCoefficient">Result may not be exact. Coefficient is greater than {0} and is only accurate to {1,number,integer} digits</entry>
+  </message>
+</rsccat>

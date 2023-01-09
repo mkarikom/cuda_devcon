@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2018-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../schema/msgcat.xsd">
+  <message>
+      <entry key="ClosingModelDuringAnimation">Stateflow chart is running. Stop execution before closing the Stateflow Editor.</entry>
+      <entry key="ModelContainsErrorNoCodegen">Code generation failed because standalone Stateflow chart {0} contains these errors:\n {1}</entry>
+    <entry key="SFXVersionMismatchFix">Saving chart {0} with the current version of MATLAB. Original version saved at {1}.</entry>
+    <entry key="SFXModelPathChanged">Unable to execute Stateflow chart object defined by {0} because chart {1} shadows it.</entry>
+    <entry key="MATLABCoderErrorAllDataNotInitialized">Uninitialized data {1} in Stateflow chart {0}. To generate code, enter initial values for chart data in the Symbols pane or when creating chart object.</entry>
+    <entry key="MATLABCoderTemporalWarning">In the generated code for chart {0}, absolute-time temporal logic operators do not generate implicit events. Wake up the chart by calling the step function or an explicit input event function.</entry>
+    <entry key="MATLABCoderEventQueueWarning">Unable to set event queue size for chart {0} because code generation does not support event queuing.</entry>
+    <entry key="TemporalDeferred">Temporal logic operation {0} will execute when the chart completes the current action.</entry>
+
+    <entry key="TimerPrecisionLost">Arguments to temporal logic operators in {0} are limited to 1 millisecond precision.</entry>
+    <entry key="NonInstrumentedMode">Debugging and chart animation are disabled for chart {0}. To execute this chart in the Stateflow editor, enter Stateflow.App.Cdr.CdrConfMgr.generateCleanMATLABCode(false) before saving the chart. Alternatively, execute the chart from the MATLAB Command Window.</entry>
+    <entry key="NonInstrumentedModeEnabled">Generating MATLAB code for a standalone Stateflow chart while animation and debugging is disabled. To enable animation and debugging, enter Stateflow.App.Cdr.CdrConfMgr.generateCleanMATLABCode(false).</entry>
+    <entry key="ClassFilenameMismatch">{0}Stateflow chart {1} was renamed after it was saved. To execute, change the name back to {2} or resave the chart.</entry>
+    <entry key="SFLicenseMissingForSFX"><![CDATA[To edit Stateflow charts, you need a Stateflow license. For more information about Stateflow, <a href="https://www.mathworks.com/products/stateflow.html">click here</a>.]]></entry>
+    <entry key="SFNotInstalledForSFX"><![CDATA[To edit Stateflow charts, install Stateflow. For more information about Stateflow, <a href="https://www.mathworks.com/products/stateflow.html">click here</a>.]]></entry>
+    <entry key="InvalidSFXFileName"><![CDATA[Invalid Stateflow chart name {0}. For more information on valid chart names, <a href="matlab:sfhelp('stateflow_naming_rules')">click here</a>.]]></entry>
+    <entry key="IllegalTemporalOnShadowedTransition">{0}: Temporal operators are not supported on shadowed transitions. To avoid transition shadowing:\n * Create no more than one unconditional transition from each state or junction.\n * Explicitly specify that the unconditional transition executes after any transitions with conditions.</entry>
+    <entry key="IllegalCountOnShadowedTransition">{0}: ''count'' operator is not supported on shadowed transitions. To avoid transition shadowing:\n * Create no more than one unconditional transition from each state or junction.\n * Explicitly specify that the unconditional transition executes after any transitions with conditions.</entry>
+    <entry key="SaveStateflowChart">Save Stateflow Chart</entry>
+
+    <entry key="LoadStateflowFirstToDebug">To debug chart {0}, first load Stateflow by opening any chart.</entry>
+    <entry key="SFXCanNotOpenInCoder">{0} is a Stateflow Chart. To open, click "Edit in MATLAB".</entry>
+    <entry key="StateflowEditor">Stateflow Editor</entry>
+    <entry key="SFXOpenQuestDlgMsg">File {0} does not exist. Do you want to create it?</entry>
+    <entry key="StopUnitTestingForCommandLine">Unable to execute chart object while the Stateflow Editor is executing chart {0}. To enable execution of new chart objects, first click Stop.</entry>
+    <entry key="LoadingStateflowForDebugStepIn">Opening Stateflow chart {0}.</entry>
+    <entry key="StateflowNeededForDebug">Unable to open chart {0}. Stateflow is required to debug charts.</entry>
+    <entry key="ClearAllWarningIgnored">Stateflow runtime is cleared. It could be because you used "clear all" but did not reopen Stateflow models. Close all opened Stateflow models to execute.</entry>
+    <entry key="CountExpressionInvalid">Could not evaluate count condition ({1}) in state {0} or in one of its outgoing transitions.</entry>
+    <entry key="AutoResolveWarning">Auto-resolved symbols {1} in Stateflow chart {0}.</entry>
+    <entry key="InvalidEvent">{0}: Invalid use of input event {1}. Input events can only be used as triggers.</entry>
+    <entry key="InvalidTemporal">{0}: Invalid use of temporal operator {1}. Temporal operators can only be used as triggers.</entry>
+    <entry key="PermissionsDeniedSFX">Error creating file {0}. Permission denied. Select writable folder to save.</entry>
+    <entry key="InvalidStepOrEventArgument">Invalid argument {0} when executing Stateflow chart object {1}.</entry>
+    <entry key="StepOrEventArgumentErrorDataNameIncorrect">Error in argument {0}: Stateflow object {1} does not have data ''{2}''.</entry>
+    <entry key="StepOrEventArgumentErrorNoValue">Value not provided for data {0} of Stateflow chart object {1}.</entry>
+    <entry key="debugModeError">Could not set breakpoint because 1. debug mode disabled or 2. file name invalid or 3. breakpoint line numbers invalid.</entry>
+    <entry key="InvalidBreakpointCondition">Invalid condition expression. Specify condition in quotes.</entry>
+
+    <!-- programcounter -->
+    <entry key="BreakpointTransitionTested">Breakpoint: Transition Tested</entry>
+    <entry key="BreakpointTransitionValid">Breakpoint: Transition Valid</entry>
+    <entry key="BreakpointStateEntry">Breakpoint: State Entry</entry>
+    <entry key="BreakpointStateDuring">Breakpoint: State During</entry>
+    <entry key="BreakpointStateExit">Breakpoint: State Exit</entry>
+    <entry key="BreakpointChartEntry">Breakpoint: Chart Entry</entry>
+    <entry key="BreakpointEMLFunction">Breakpoint: EML Function</entry>
+    <!-- statusstring -->
+    <entry key="BeforeTestingOfTransition">Before testing of Transition {0}</entry>
+    <entry key="AfterActivationOfTransition">After activation of Transition {0}</entry>
+    <entry key="JustBeforeEnteringState">Just before entering State {0}</entry>
+    <entry key="DuringState">During: State {0}</entry>
+    <entry key="ExitState">Exit: State {0}</entry>
+    <entry key="EntryChart">Entry: Chart {0}</entry>
+    <entry key="EMLFunction">During: EML Function {0}</entry>
+
+    <!-- disp -->
+    <entry key="StateflowChart">Stateflow Chart</entry>
+    <entry key="ExecutionFunction">Execution Function</entry>
+    <entry key="ConstantData">Constant Data</entry>
+    <entry key="InputData">Input Data</entry>
+    <entry key="LocalData">Local Data</entry>
+    <entry key="OutputData">Output Data</entry>
+    <entry key="InputEventFunctions">Input Event Functions</entry>
+    <entry key="ActiveStates">Active States:</entry>
+
+
+    <entry key="OpeningInOlderRelease">Unable to open Stateflow chart {0} because it was created with a newer version ({1}) of Stateflow.</entry>
+    <entry key="NameCollisionForLoopCounter">Data name conflict. Do not use {0} as a loop counter in {1}.</entry>
+    <entry key="NameCollisionAnonymousFcnInput">Data name conflict. Do not use {0} as an anonymous function argument in {1}.</entry>
+    <entry key="NameCollisionInlineFcnInputOutput">Data name conflict. Do not use {0} as an input or output argument names of inline function in {1}.</entry>
+    <entry key="InvalidSFXName"> {0} is an invalid name because it conflicts with a reserved keyword or chart name.</entry>
+    <entry key="UnsupportedObject"><![CDATA[{0} is not supported in standalone Stateflow charts. For more information, see <a href="matlab:helpview('stateflow','sf4ml_limitations')">the documentation</a>.]]></entry>
+    <entry key="EmptyDataAfterInitialization">Stateflow chart object {0} has uninitialized data {1}.</entry>
+    <entry key="InvalidConstructorArgumentNameWithNoValue">Unable to create chart object {1} because the value of ''{0}'' is missing.</entry>
+
+    <entry key="DifferentSourceAndDestination">Invalid file name {0}. The exported file must not have the same name as the source chart.</entry>
+
+    <entry key="InvalidConstructorArgument">Invalid argument {0} when creating Stateflow chart object {1}.</entry>
+    <entry key="ConstructorOutputMismatch">Creating Stateflow chart object {0} requires 1 output argument, but {1} were provided.</entry>
+    <entry key="VersionMismatch">Chart {0} was saved with a different version of Stateflow. Resave it before executing.</entry>
+    <entry key="UnresolvedSymbolsPresentIn">Stateflow chart {0} contains unresolved symbols.</entry>
+    <entry key="InvalidSymbolWindowWorkspaceValue">Invalid value ''{0}''(''{3}'') for data {1} in Symbols window of {2}. Resetting value to 0. Only numeric, char, or logical values are supported.</entry>
+    <entry key="InvalidSymbolWindowValue">Invalid value ''{0}'' for data {1} in Symbols window of {2}. Resetting value to 0.</entry>
+    <entry key="SymbolUIInputUninitializedNotification">Specify values for input data in Symbols window.</entry>
+    <entry key="BreakpointFail">Unable to set or stop at breakpoint.</entry>
+    <entry key="SLXShadowing">Simulink model of the same name {0} is on the MATLAB path and is shadowing {1}. Rename or move one of the models outside of MATLAB path.</entry>
+    <entry key="ClearAll">This operation clears run-time information for all Stateflow chart objects. To execute chart objects, close and reopen all Stateflow charts.</entry>
+    <entry key="GFError">{0}: Error processing graphical function. Possible reasons include: \n 1. Invalid graphical function name. \n 2. Syntax error in graphical function. \n 3. Invalid objects in graphical function. \n 4. Overlapping objects in graphical function.</entry>
+    <!-- doc review comment: todo: see if bullets/enumerations can be used in above error message. talk to Dimitry M.-->
+    <entry key="FileNotOnPath">Stateflow chart {0} is open but location {1} is not on the MATLAB path. Change directory or add this location to MATLAB path.</entry>
+    <entry key="StaleSFXObject">Stateflow chart {0} was modified after the object was created.</entry>
+    <entry key="SFXNotSaved">Stateflow chart {0} has unsaved changes. Save before executing.</entry>
+    <entry key="RuntimeError" translate="false" note="translate=false set due no translatable content">{0}</entry>
+    <entry key="RuntimeException">Runtime Error in {0} \n {1}</entry>
+    <entry key="UnhandledError">Stateflow chart saved with internal error. {0}: {1}</entry>
+    <entry key="InternalError">Internal Error. {0}: {1}</entry>
+    <entry key="UnsupportedDataType">Data type not supported.</entry>
+
+    <!-- Wording should be kept in sync with stateflow_ui:studio:resources:editTimeErrorsAndWarningsActionLabel -->
+    <entry key="LintErrorOff">Enable edit-time error checks by selecting "Edit-Time Errors &amp; Warnings".</entry>
+    <entry key="OrigAndRenamedModelOpen">Unable to save {0} because another chart with the same name is open.</entry>
+    <entry key="RenamedModelNeedsSave">Unable to save {0} because another chart with the same name is open.</entry>
+    <entry key="UnrecognizedType">Unrecognized section type</entry>
+    <entry key="ParseErrorInSectionString">Parse error in {0} : {1}</entry>
+    <entry key="ReturnInStateTransition">{0}: ''return'' is not supported in states or transitions.</entry>
+    <entry key="ParseErrorIn">{0}: Parse Error {1}.</entry>
+    <entry key="UninitializedConstantData">Specify initial value for {0} in Symbols window.</entry>
+    <entry key="WrongNumberOfInputsToStep">''step'' function requires {0} arguments but {1} were provided.</entry>
+    <entry key="TemporalArgumentMustBePositiveScalarDouble">Argument to temporal operator {0} must be non-negative scalar double.</entry>
+    <entry key="SameNameModelOpen">Error opening {0}: Model of same name is already open from {1}. Use ''bdclose all; clear all;'' to clear all the SFX cache;</entry>
+    <entry key="InvalidTemporalCount">{0}: ''temporalCount'' operator takes one argument (''sec'', ''msec'', or ''usec'').</entry>
+    <entry key="InvalidElapsed">{0}: ''elapsed'' operator takes one argument (''sec'').</entry>
+    <entry key="InvalidTrigger">{0}: Transition triggers must be events or temporal logic operators.</entry>
+    <entry key="HistoryJunctionInDefaultPath">{0}: Invalid history junction in a default transition path.</entry>
+    <entry key="InvalidOnCondition">{0}: 'On' condition must contain only events or temporal logic operators.</entry>
+    <entry key="CannotReadFile">Unable to read file ''{0}''.</entry>
+
+    <entry key="InvalidFilePath">Invalid file path {0}.</entry>
+    <entry key="InvalidFileName">Invalid file name {0}.</entry>
+    <entry key="EditTimeWarning" translate="false" note="translate=false set due no translatable content">{0}:  {1}</entry>
+    <entry key="InvalidInState">In {0}: State {1} does not exist at this level.</entry>
+    <entry key="InvalidInInputs">{0}: ''in'' operator takes one argument (a scoped state name).</entry>
+    <entry key="InvalidHasChangedInputs">{0}: ''hasChanged'' operator takes one argument (a data object).</entry>
+    <entry key="InvalidHasChangedToFromInputs">{0}: ''hasChangedTo'' and ''hasChangedFrom'' operators take two arguments (a data object and a value).</entry>
+    <entry key="InvalidHasChangedInputArgumentOne">{0}: Invalid argument. In standalone Stateflow charts, first argument to change detection operators must be a chart data name, not an individual matrix element or structure field.</entry>
+    <entry key="InvalidTemporalInputs">{0}: Temporal operators take two arguments. The first argument is a double value. The optional second argument is ''tick'', ''sec'', or an input event.</entry>
+    <entry key="IllegalTemporalOnMultipleStates">{0}: Temporal operators are not supported on transitions that are reachable from multiple states.</entry>
+    <entry key="IllegalTemporalOnDefaultTransition">{0}: Temporal operators are not supported on default transitions and on transitions in graphical functions.</entry>
+    <entry key="InvalidCountInputs">{0}: ''count'' operator takes one argument (a logical value).</entry>
+    <entry key="IllegalCountOnDefaultTransition">{0}: ''count'' operator is not supported on default transitions and on transitions in graphical functions.</entry>
+    <entry key="IllegalCountOnMultipleStates">{0}: ''count'' operator is not supported on transitions that are reachable from multiple states.</entry>
+    <entry key="PersistentNotAllowed">{0}: Persistent variables are not supported in Stateflow charts.</entry>
+    <entry key="IllegalTemporalWithInputData">{0}: Absolute-time temporal logic is not supported in charts with input data.</entry>
+    <entry key="UnsupportedStateLocalDataEventMessageFunction">{0} is a state-parented local data or function. State-parented local data and functions are not supported.</entry>
+    <entry key="CodeGenerationNotSupportedForTimers">{0}: Absolute-time temporal logic is not supported for code generation.</entry>
+    <entry key="ResaveWarning">Stateflow chart {0} was renamed to {1}. Resave it before executing.</entry>
+    <entry key="SavedWithErrorsStage">Saved with errors.</entry>
+    <entry key="SavedWithErrors">Model saved successfully with errors.</entry>
+    <entry key="SaveSuccessStage">Success</entry>
+    <entry key="SaveFailureStage">Failure</entry>
+    <entry key="StopRunBeforeClosing">{0} is running. Do you want to stop it and close the chart?</entry>
+    <entry key="SFXModelIsRunning">Simultaneous unit-testing of multiple standalone charts is not supported. Stop execution for chart {0} before unit-testing chart {1}. </entry>
+    <entry key="RecursionLimitReached"><![CDATA[Reached maximum number of recursion calls in a Stateflow chart. For information on how to avoid unwanted recursion, <a href="matlab:sfhelp('avoid_unwanted_recursion')">click here</a>.]]></entry>
+    <entry key="QueueIsFull"><![CDATA[Unable to process event or temporal logic operation because chart reached maximum queue size of {0}. For more information, see <a href="matlab:helpview('stateflow','sf4ml-events')">Events in Standalone Charts</a>.]]></entry>
+    <!-- doc review comment: todo: use existing error message for above if available-->
+    <entry key="NotAValidRelease">''{0}'' is not a valid target release.</entry>
+  </message>
+</rsccat>
+
+<!-- LocalWords:  resave fiaccel msec usec  resave msec usec
+-->

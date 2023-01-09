@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ParametricPlot">パラメトリック曲線をプロットするには、EZPLOT3 を使用してください。</entry>
+    <entry key="TooManyDimensions">4 次元ではプロットできません。</entry>
+    <entry key="MissingExpression">数式が必要です。</entry>
+    <entry key="IncorrectInputs">入力が正しくありません。</entry>
+    <entry key="NonRealInput">{0} は実数値のみでなければなりません。</entry>
+    <entry key="InvalidExpresion">式 {0} は 2 つのシンボリックな変数のみをもたなければなりません</entry>
+  </message>
+</rsccat>

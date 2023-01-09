@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownOption">命令选项 {0} 未知。</entry>
+    <entry key="WrongNumberElements">向量必须包含 4、6 或 8 个元素。</entry>
+    <entry key="ObsoleteState">AXIS(''STATE'') 已过时并且将从以后的版本中去除。请改用 GET(GCA,...)。</entry>
+    <entry key="CartesianAxes">命令选项 {0} 仅对笛卡尔坐标区可用。</entry>
+    <entry key="NumericAxes">命令选项 {0} 仅对数值坐标区可用。</entry>
+    <entry key="Mixed2D">x 轴和 y 轴范围具有不同的数据类型。请改用 &lt;a href="matlab:helpview([docroot '/matlab/ref/xlim.html'])"&gt;xlim&lt;/a&gt; 和 &lt;a href="matlab:helpview([docroot '/matlab/ref/ylim.html'])"&gt;ylim&lt;/a&gt; 函数。</entry>
+    <entry key="Mixed3D">x 轴、y 轴和 z 轴范围具有不同的数据类型。请改用 &lt;a href="matlab:helpview([docroot '/matlab/ref/xlim.html'])"&gt;xlim&lt;/a&gt;、&lt;a href="matlab:helpview([docroot '/matlab/ref/ylim.html'])"&gt;ylim&lt;/a&gt; 和 &lt;a href="matlab:helpview([docroot '/matlab/ref/zlim.html'])"&gt;zlim&lt;/a&gt; 函数。</entry>
+    <entry key="NonAxisGraphicsHandle">第一个参数必须为坐标区对象。 </entry>
+  </message>
+</rsccat>

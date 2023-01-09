@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadFaceDimensions">填充面必须是 2 维的</entry>
+    <entry key="BadFaceValues">面值必须 &gt;= 1.0</entry>
+    <entry key="VerticesMustBe2D">填充顶点必须是 2 维的</entry>
+    <entry key="VerticesMustHave2To3Columns">Vertices 数组必须包含至少 2 列，最多 3 列(或为空)</entry>
+    <entry key="BadFaceVertexCDataDimensions">FaceVertexCData 必须为 Mx1 向量(索引颜色)或 Mx3 矩阵(RGB 颜色)</entry>
+    <entry key="BadFaceVertexAlphaDataDimensions">FaceVertexAlphaData 必须为包含 Alpha 值的 Mx1 向量或 Alpha 映射索引。</entry>
+    <entry key="VerticesArrayMustHave2To3Columns">Vertices 数组必须包含至少 2 列，最多 3 列 - 未渲染</entry>
+    <entry key="BadValuesInPatchFaces">填充面中的值必须包含于 [1 : rows(Vertices)] - 未渲染</entry>
+    <entry key="CannotUseFaceVertexCDataOfSize0">无法将大小为 0 的填充 FaceVertexCData 与单一着色配合使用</entry>
+    <entry key="PatchFaceVertexCDataLengthMustEqual1">填充 FaceVertexCData 长度({0,number,integer})必须等于 1，对于单一 FaceColor，则必须等于顶点长度({1,number,integer})或面长度({2,number,integer})</entry>
+    <entry key="RGBColorDataNotSupported">Painter''s 模式下不支持 RGB 颜色数据</entry>
+    <entry key="ColorDataNotSetForInterpolatedShading">未为插补着色设置颜色数据</entry>
+    <entry key="PatchFaceVertexCDataLengthMustEqualVerticesLength">填充 FaceVertexCData 长度({0,number,integer})必须等于单一 EdgeColor 的顶点长度({1,number,integer})</entry>
+    <entry key="CannotUsePatchFaceVertexAlphaDataSize0">无法将大小为 0 的填充 FaceVertexAlphaData 与单一 Alpha 配合使用。</entry>
+    <entry key="PatchFaceVertexAlphaCDataLengthMustEqual1">填充 FaceVertexAlphaData 长度({0,number,integer})必须等于 1，对于单一 Alpha，则必须等于顶点长度({1,number,integer})或面长度({2,number,integer})。</entry>
+    <entry key="AlphaDataNotSetForInterpolatedShading">未为插补着色设置 Alpha 数据</entry>
+    <entry key="ColorDataNotSetForMarkerFlatColoring">未为标记单一颜色设置颜色数据</entry>
+    <entry key="VertexNormalsMustHave2Dimensions1">VertexNormals 必须具有 2 个维度</entry>
+    <entry key="BadVertexNormalsSize">size(VertexNormals) 必须等于 rows(vertices) x 3 </entry>
+    <entry key="VertexNormalsMustHave2Dimensions2">VertexNormals 必须具有 2 个维度</entry>
+    <entry key="BadFaceNormalsSize">size(FaceNormals) 必须等于 rows(faces) x 3</entry>
+    <entry key="NotEnoughMemoryForNormals">没有可用于正常操作的足够内存。未渲染</entry>
+    <entry key="CannotAllocateTriangleStorage">无法分配三角存储；点击测试可能不准确</entry>
+  </message>
+</rsccat>

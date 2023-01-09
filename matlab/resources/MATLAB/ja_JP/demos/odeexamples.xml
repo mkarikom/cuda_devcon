@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelODE">常微分方程式</entry>
+    <entry key="LabelDAE">微分代数方程式</entry>
+    <entry key="LabelIDE">陰的微分方程式</entry>
+    <entry key="LabelDDE">遅延微分方程式</entry>
+    <entry key="LabelBVP">境界値問題</entry>
+    <entry key="LabelPDE">偏微分方程式</entry>
+    <entry key="LabelBallode">ballode    - 簡単なイベントの位置 (弾むボールの軌跡)</entry>
+    <entry key="LabelBatonode">batonode   - 時間と状態依存の質量行列をもつ ODE </entry>
+    <entry key="LabelBrussode">brussode   - スティッフな大規模問題 (化学反応の拡散)</entry>
+    <entry key="LabelBurgersode">burgersode - 状態に強く依存する質量行列をもつ ODE</entry>
+    <entry key="LabelFem1ode">fem1ode    - 時間依存の質量行列をもつスティッフな問題</entry>
+    <entry key="LabelFem2ode">fem2ode    - 定数の質量行列をもつスティッフな問題</entry>
+    <entry key="LabelHb1ode">hb1ode     - 非常に長い区間で解を求めるスティッフな問題</entry>
+    <entry key="LabelKneeode">kneeode    - 非負制約をもつ "knee problem"</entry>
+    <entry key="LabelOrbitode">orbitode   - 詳細なイベントの位置 (制約付き三体問題)</entry>
+    <entry key="LabelRigidode">rigidode   - スティッフでない問題 (動作のオイラー方程式)</entry>
+    <entry key="LabelVdpode">vdpode     - スティッフな問題 (van der Pol 方程式)</entry>
+    <entry key="LabelAmp1dae">amp1dae - スティッフな DAE - 電気回路</entry>
+    <entry key="LabelHb1daew">hb1dae  - 保存則からのスティッフな DAE</entry>
+    <entry key="LabelIburgersode">iburgersode - 陰的 ODE システムとして解くバーガーズ方程式</entry>
+    <entry key="LabelIhb1dae">ihb1dae  - 保存則からのスティッフな陰的 DAE</entry>
+    <entry key="LabelDdex1">ddex1 - 定数の履歴をもつ DDE</entry>
+    <entry key="LabelDdex2">ddex2 - 不連続点をもつ DDE</entry>
+    <entry key="LabelDdex3">ddex3 - 状態に依存する遅延をもつ DDE</entry>
+    <entry key="LabelDdex4">ddex4 - 2 つの遅延を伴うニュートラル DDE</entry>
+    <entry key="LabelDdex5">ddex5 - 初期値タイプのニュートラル DDE</entry>
+    <entry key="LabelEmdenbvp">emdenbvp - Emden 方程式 - 特異項をもつ BVP</entry>
+    <entry key="LabelEmdenbvp5c">emdenbvp(''bvp5c'') - BVP5C を使って解く Emden 方程式</entry>
+    <entry key="LabelFsbvp">fsbvp    - 無限区間上の Falkner-Skan BVP</entry>
+    <entry key="LabelFsbvp5C">fsbvp(''bvp5c'') - BVP5C を使って解く Falkner-Skan BVP</entry>
+    <entry key="LabelMat4bvp">mat4bvp  - マシュー方程式の 4 番目の固有関数</entry>
+    <entry key="LabelMat4bvp5c">mat4bvp(''bvp5c'') - BVP5C を使って解くマシュー方程式</entry>
+    <entry key="LabelRcbvp">rcbvp - BVP4C と BVP5C を比較する例</entry>
+    <entry key="LabelShockbvp">shockbvp - x = 0 近傍の衝撃層をもつ解</entry>
+    <entry key="LabelShockbvp5c">shockbvp(''bvp5c'') - BVP5C を使って計算する衝撃層</entry>
+    <entry key="LabelThreebvp">threebvp - 3 点境界値問題</entry>
+    <entry key="LabelThreebvp5c">threebvp(''bvp5c'') - BVP5C を使って解く 3 点 BVP</entry>
+    <entry key="LabelTwobvp">twobvp   - 正確に 2 つの解をもつ問題</entry>
+    <entry key="LabelPdex1">pdex1 - 1 階 PDE -- 導入例</entry>
+    <entry key="LabelPdex2">pdex2 - 1 階 PDE -- 不連続点をもつ例</entry>
+    <entry key="LabelPdex3">pdex3 - 1 階 PDE -- u(x,t) と Du(x,t)/Dx の近似</entry>
+    <entry key="LabelPdex4">pdex4 - 2 階 PDE -- 導入例</entry>
+    <entry key="LabelPdex5">pdex5 - 2 階 PDE -- 長時間の動作例</entry>
+    <entry key="TitleDifferentialEquationsExamples">微分方程式の例</entry>
+    <entry key="LabelExamplesOf">例</entry>
+    <entry key="LabelViewCode">コードの表示</entry>
+    <entry key="LabelRunExample">例の実行</entry>
+    <entry key="LabelClose">閉じる</entry>
+  </message>
+</rsccat>

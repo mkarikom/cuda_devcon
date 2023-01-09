@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidExtent">范围必须为双精度实数(1x2)向量。</entry>
+    <entry key="InvalidSize">大小必须为双精度正实数(1x2)向量。</entry>
+    <entry key="InvalidIndex">索引必须为双精度实数标量。</entry>
+  </message>
+</rsccat>

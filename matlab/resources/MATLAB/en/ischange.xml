@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!-- Copyright 2017-2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ComplexInput">Complex input arguments are not supported.</entry>
+    <entry key="FirstInputInvalid">Invalid data type. First argument must be of type double, single, table, or timetable.</entry>
+    <entry key="DataVariablesArray">''DataVariables'' parameter is only supported for table and timetable inputs.</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' function handle must return a logical scalar.</entry>
+    <entry key="DataVariablesTableSubscript">Invalid ''DataVariables'' value.</entry>
+    <entry key="DimensionInvalid">Dimension must be a positive integer.</entry>
+    <entry key="DimensionTable">Dimension is not supported when first argument is a table or timetable.</entry>
+    <entry key="InfInput">Inf and -Inf data is not supported.</entry>
+    <entry key="MaxNumChanges">''MaxNumChanges'' value must be a positive integer.</entry>
+    <entry key="MaxNumChangesThreshold">''MaxNumChanges'' is not supported when ''Threshold'' is specified.</entry>
+    <entry key="MethodInvalid">Change detection method must be ''mean'', ''variance'', or ''linear''.</entry>
+    <entry key="NameValueNames">Parameter name must be ''Threshold'', ''MaxNumChanges'', ''SamplePoints'', or ''DataVariables''.</entry>
+    <entry key="NameValuePairs">Incorrect number of input arguments. Parameter names and values must occur in pairs.</entry>
+    <entry key="NonVectorTableVariable">Table variables must be column vectors.</entry>
+    <entry key="RowTimesDuplicate">Row times value contains duplicates.</entry>
+    <entry key="RowTimesFinite">Row times must be finite.</entry>
+    <entry key="RowTimesSorted">Row times must be sorted in ascending order.</entry>
+    <entry key="SamplePointsComplex">''SamplePoints'' value must be real.</entry>
+    <entry key="SamplePointsDatetimeLinear">''SamplePoints'' of type datetime not supported when method is ''linear''.</entry>
+    <entry key="SamplePointsDuplicate">''SamplePoints'' value contains duplicates.</entry>
+    <entry key="SamplePointsFinite">''SamplePoints'' values must be finite.</entry>
+    <entry key="SamplePointsInvalidDatatype">''SamplePoints'' value must be a double, single, datetime, or duration vector.</entry>
+    <entry key="SamplePointsLength">The number of elements in the ''SamplePoints'' value must equal the size of the first argument along the operating dimension.</entry>
+    <entry key="SamplePointsSorted">''SamplePoints'' values must be sorted in ascending order.</entry>
+    <entry key="SamplePointsSparse">Sparse ''SamplePoints'' values are not supported.</entry>
+    <entry key="SamplePointsTimeTable">''SamplePoints'' parameter is not supported for timetable inputs.</entry>
+    <entry key="Threshold">''Threshold'' value must be a non-negative real scalar.</entry>
+    <entry key="UnsupportedTableVariable">Table variables must be of type double or single.</entry>
+  </message>
+</rsccat>

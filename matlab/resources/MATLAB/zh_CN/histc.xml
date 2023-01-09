@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">边向量不能单调增加。</entry>
+    <entry key="InvalidFirstNumericInput">不支持第一个输入类型</entry>
+    <entry key="InvalidFirstInput">第一个输入必须为非稀疏的实数数值数组。</entry>
+    <entry key="InvalidSecondInput">第二个输入必须为非稀疏的实数数值数组。</entry>
+    <entry key="InvalidSecondNumericInput">不支持第二个输入类型</entry>
+  </message>
+</rsccat>

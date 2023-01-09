@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CannotLoadVariable">\n\n변수 ''{0}''을(를) 불러오지 못했으며, 빈 배열로 대체되었습니다. 이 변수의 클래스가 경로에 존재하지 않는 경우 이 문제가 발생할 수 있습니다.</entry>
+    <entry key="CannotLoadVariables">\n\n일부 변수를 불러오지 못했으며, 빈 배열로 대체되었습니다. 해당 변수의 클래스가 경로에 존재하지 않는 경우 이 문제가 발생할 수 있습니다.</entry>
+    <entry key="InvalidInput">첫 번째 입력값은 table형이어야 합니다.</entry>
+    <entry key="MultipleSubscripts">첨자에서 여러 변수 이름이 반환되었습니다. 점 첨자를 사용하려면 단일 변수 이름이 필요합니다.</entry>
+  </message>
+</rsccat>

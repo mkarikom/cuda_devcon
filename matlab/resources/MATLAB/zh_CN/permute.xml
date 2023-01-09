@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badIndexType">ORDER 必须是数值数组。</entry>
+    <entry key="tooFewIndices">对于 N 维数组，ORDER 必须包含至少 N 个元素。</entry>
+    <entry key="badIndex">ORDER 包含无效的 permutation 索引。</entry>
+    <entry key="repeatedIndex">ORDER 不能包含重复的 permutation 索引。</entry>
+    <entry key="unsupportedType">数据类型不受支持。</entry>
+    <entry key="sparseNDmatrix">不支持 N 维稀疏数组。</entry>
+    <entry key="complexIndex">ORDER 必须为实数。</entry>
+    <entry key="nonIntegerIndex">ORDER 必须包含正整数索引。</entry>
+  </message>
+</rsccat>

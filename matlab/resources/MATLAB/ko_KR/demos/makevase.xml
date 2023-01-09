@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelCommentWindow">주석 창</entry>
+    <entry key="DlgYouMustChooseAtLeastThreePoints">적어도 3개의 점을 선택해야 합니다.</entry>
+    <entry key="TitleMakingAVase">꽃병 만들기</entry>
+    <entry key="MsgRenderingComplete">렌더링이 완료되었습니다.\n\n 다른 모양을 만들려면 "새 모양" 버튼을 누르십시오.</entry>
+    <entry key="MsgHowToMakeVase">빨간색 선은 만드는 모양의 회전 중심축을 나타냅니다. \n 꽃병의 윤곽선을 그리려면 위의 축 상자 내부를 클릭하십시오. \n 그리려는 꽃병의 마지막 지점에서 마우스 오른쪽 버튼을 \n 클릭하십시오(또는 Shift+Click).      </entry>
+    <entry key="ButtonNewShape">새 모양</entry>
+    <entry key="DlgRenderingPleaseWait"> 현재 실선을 렌더링하는 중. 기다려 주십시오...</entry>
+  </message>
+</rsccat>

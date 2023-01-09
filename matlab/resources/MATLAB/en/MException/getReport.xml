@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- Added messages: src/m_interpreter, src/m_lxe -->
+    <entry key="invalidParameter">''{0}'' is not a valid parameter for getReport.</entry>
+    <entry key="invalidReportOption">getReport method can only accept ''basic'' or ''extended'' report types.</entry>
+    <entry key="invalidType">The parameters to getReport must be specified by parameter value pairs or a structure.</entry>
+    <entry key="invalidValue">Hyperlinks must be either ''on'', ''off'', or ''default''.</entry>
+    <entry key="mustBeScalarStruct">getReport parameters must be specified by a scalar structure.</entry>
+    <entry key="parameterWithoutValue">getReport parameter ''{0}'' does not have a value.</entry>
+  </message>
+</rsccat>

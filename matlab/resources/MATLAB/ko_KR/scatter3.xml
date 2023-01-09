@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidInput">입력 인수의 개수가 올바르지 않습니다.</entry>
+    <entry key="invalidCData">C는 단일 색이어야 하며, X와 길이가 같은 벡터 또는 M×3 행렬이어야 합니다.</entry>
+    <entry key="invalidSData">S는 X와 길이가 같은 스칼라 또는 벡터여야 합니다.</entry>
+    <entry key="unrecognizedColorString">인식할 수 없는 색 문자형 벡터</entry>
+    <entry key="invalidData">X, Y, Z는 길이가 동일한 벡터여야 합니다.</entry>
+    <entry key="InvalidTableArguments">To use scatter3 with a table, specify a table followed by X, Y and Z variables. Size and color can be specified using name-value pairs.</entry>
+  </message>
+</rsccat>

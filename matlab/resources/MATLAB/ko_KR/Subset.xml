@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ImproperType">유형은 ''''()'''', ''''.'''', '''''{}''''' 중 하나여야 합니다.</entry>
+    <entry key="indexNotCell">인덱스는 셀형 배열이어야 합니다.</entry>
+    <entry key="ImproperIndexCell">인덱스 셀형 배열은 변수의 모든 차원 범위를 지정해야 합니다. 선형 인덱싱은 지원되지 않습니다.</entry>
+    <entry key="ImproperIndexBounds">인덱스 경계는 숫자의 쌍 또는 세쌍이어야 합니다.</entry>
+    <entry key="MinMax">인덱스 경계의 시작값은 인덱스 경계의 끝값보다 작아야 합니다.</entry>
+    <entry key="ImproperIndexCellForStructs">인덱스 셀형 배열은 유효한 MATLAB 변수 이름의 행 벡터여야 합니다.</entry>
+    <entry key="indexNotFieldname">인덱스 요소, {0,number,integer}은(는) 유효한 MATLAB 변수 이름이 아닙니다.</entry>
+    <entry key="IndexBoundsInvalid">차원 {0,number,integer}의 인덱스 경계가 유효한 경계가 아닙니다. \n자세한 내용은 아래의 원인을 참조하십시오.</entry>
+  </message>
+</rsccat>

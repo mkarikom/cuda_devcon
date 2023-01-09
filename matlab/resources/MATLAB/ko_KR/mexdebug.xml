@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ObsoleteFunction">MEXDEBUG는 더 이상 사용되지 않습니다.  대신 DBMEX를 사용하십시오.</entry>
+    <entry key="MATLABMustBeRunWithinDebugger">MEX 파일을 디버그하려면 디버거에서 MATLAB을 실행해야 합니다.</entry>
+    <entry key="ToRunMATLABWithinADebugger">디버거에서 MATLAB을 실행하려면 다음을 입력하여 시작하십시오.</entry>
+    <entry key="WhereDebuggerIsTheDebuggerYouWishToUse">여기서 "debugger"는 사용하려는 디버거의 이름입니다.</entry>
+  </message>
+</rsccat>

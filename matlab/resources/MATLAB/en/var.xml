@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="integerClass">Invalid data type. First input argument must be single or double.</entry>
+    <entry key="invalidWgts">W must be a vector of nonnegative weights, or a scalar 0 or 1.</entry>
+    <entry key="invalidSizeWgts">The length of W must be compatible with X.</entry>
+    <entry key="unknownFlag">Invalid option. Option must be ''omitnan'' or ''includenan''.</entry>
+    <entry key="unknownOption">Invalid option. Option must be ''all'', ''omitnan'', or ''includenan''.</entry>
+    <entry key="vecWgtWithVecDIM">Weight vector is only supported when the dimension is a positive integer scalar.</entry>
+  </message>
+</rsccat>

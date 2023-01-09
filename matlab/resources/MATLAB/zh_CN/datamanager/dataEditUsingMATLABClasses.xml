@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AtLeastOneGraphicObjectMustBeBrushed">必须刷亮至少一个图形对象。</entry>
+    <entry key="ReplaceWithNaNs">替换为 NaN</entry>
+    <entry key="ReplaceWithAConstant">替换为常量</entry>
+    <entry key="RemovePoints">删除点</entry>
+    <entry key="RemoveUnbrushedPoints">删除未刷亮的点</entry>
+    <entry key="NoRemoveNoBrush">没有任何可删除的项目，因为没有行或列是完全未刷亮的。\n请缩减您的选择，以便至少一个完整行或列是未刷亮的。</entry>
+    <entry key="NoRemoveBrush">没有任何可删除的项目，因为没有行或列是完全刷亮的。\n请扩充您的选择，以便至少一个完整行或列是刷亮的。</entry>
+  </message>
+</rsccat>

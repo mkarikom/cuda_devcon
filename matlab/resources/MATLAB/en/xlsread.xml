@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2010-2014 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="Wildcard">File {0} not found. Wildcards cannot be used in XLSREAD.</entry>
+      <entry key="FileNotFound">Unable to open file ''{0}''.\n{1}</entry>
+      <entry key="FileDoesNotExist">File ''{0}'' not found.</entry>
+      <entry key="FileName">File name must be specified.</entry>
+      <entry key="ActiveX">Could not start Excel server for import, ''basic'' mode will be used. Refer to HELP XLSREAD for more information.</entry>
+      <entry key="RangeIncompatible">Range cannot be used in ''basic'' mode.  The entire sheet will be loaded.</entry>
+      <entry key="InteractiveIncompatible">Interactive selection cannot be used in ''basic'' mode.  First sheet will be loaded.</entry>
+      <entry key="Incompatible">Custom functions cannot be used in ''basic'' mode.  The custom function argument will be ignored.</entry>
+      <entry key="NotHandle">The fifth argument to XLSREAD must be a function handle.</entry>
+      <entry key="FileFormat">File {0} not in Microsoft Excel Format.</entry>
+      <entry key="RangeSelection">Data range ''{0}'' is invalid.</entry>
+      <entry key="InvalidFileName" note="stringDatatypeUpdate">File name must be a string or character vector.</entry>
+      <entry key="InvalidSheet" note="stringDatatypeUpdate">Sheet argument must be a string scalar, a character vector, or an integer.</entry>
+      <entry key="InvalidRange" note="stringDatatypeUpdate">Range argument must be a string or character vector. See HELP XLSREAD.</entry>
+      <entry key="InvalidMode" note="stringDatatypeUpdate">Import mode is invalid. XLSREAD resets mode to normal.</entry>
+      <entry key="InvalidSheetBasicMode" note="stringDatatypeUpdate">In basic mode, sheet argument must be a string or character vector.</entry>
+      <entry key="WorksheetNotActivated">Excel Worksheet could not be activated.</entry>
+      <entry key="WorksheetNotFound">Worksheet ''{0}'' not found.</entry>
+      <entry key="NoHandleForCustom">Cannot return custom output without a function handle input.</entry>
+      <entry key="DialgoDataSelectionDialogue">Data Selection Dialogue</entry>
+      <entry key="DlgSelectDataRegion">Select data region in Excel worksheet.</entry>
+      <entry key="DlgClickOKToContinueInMATLAB">Click OK to continue in MATLAB</entry>
+      <entry key="UnableToOpenFile">Unable to open file {0}.\n{1}</entry>
+      <entry key="UnableToReadSheet">Unable to read sheet {0}.\n{1}</entry>
+      <entry key="WorksheetNotOpened">Unable to read sheet ''{0}''.\n{1}</entry>
+      <entry key="noJVM">Java is required to load this type of Excel file.</entry>
+      <entry key="thirdArgument">Ignoring the third input because the second input is a range. To specify both worksheet and range, list the sheet first, and then the range.</entry>
+      <entry key="spreadsheetSynchronous">Synchronous evaluation of the uiimport function for spreadsheet files will be deprecated in a future release. Use the asynchronous uiimport syntax instead.</entry>
+      <entry key="NoRangeSelected">No data region selected.</entry>
+      <entry key="FirstArgumentNotString" note="stringDatatypeUpdate">First argument must be a string or character vector.</entry>
+      <entry key="NamedRangeNotSupported">Named range ''{0}'' resolves to ''{1}'' and is not supported in this mode.</entry>
+      <entry key="invalidList">Input ''{0}'' is not valid.</entry>
+      <entry key="NamedRangeNotInScope">Named range ''{0}'' is scoped to sheet {1}, which does not match the input sheet {2} requested.</entry>
+      <entry key="SpreadsheetTooLarge">The spreadsheet is too large to read. Try reading a smaller range of data.</entry>
+  </message>
+</rsccat>

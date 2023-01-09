@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="HandleVisibilityMustBeOn">HandleVisibility를 'off' 또는 'callback'으로 설정할 수 없습니다.</entry>
+    <entry key="MatrixSizeMismatch">2차원 행렬 입력값은 모두 크기가 동일해야 합니다.</entry>
+    <entry key="ScalarOtherInputsVectors">하나의 입력값이 스칼라인 경우 추가 입력값은 모두 스칼라이거나 벡터여야 합니다.</entry>
+    <entry key="AllVectorSizeMismatch">벡터 입력값은 모두 길이가 동일해야 합니다.</entry>
+    <entry key="VectorDoesNotMatchDimOtherInputs">모든 벡터 입력값의 길이는 모든 2차원 행렬 입력값의 행 수 또는 열 수와 일치해야 합니다.</entry>
+    <entry key="NumVariablesMismatch">The number of variables specified for ''{0}'' did not match the number of variables specified in one of the previous arguments.</entry>
+    <entry key="VariableNotFound">The variable ''{0}'' was not found.</entry>
+    <entry key="DoubleHandleParentNotSupported">Specifying parent as double value is not supported.</entry>
+    <entry key="TableToMatrixNotSupported">''{1}'' 속성이 비어 있지 않으면 ''{0}'' 속성을 설정할 수 없습니다.</entry>
+    <entry key="MatrixToTableNotSupported">''{1}'' 속성이 'manual'로 설정되어 있으면 ''{0}'' 속성을 설정할 수 없습니다.</entry>
+    <entry key="MustBeVector">{0} 데이터는 벡터여야 합니다.</entry>
+    <entry key="FailedToConvertToDouble">''{0}''의 값은 double형이거나 double형으로 변환 가능해야 합니다.</entry>
+    <entry key="ComplexNotSupported">''{0}''에는 복소수 값이 지원되지 않습니다.</entry>
+    <entry key="InvalidSourceTable">''SourceTable'' 값은 table형이어야 합니다.</entry>
+    <entry key="NonScalarTableSubscript">''{0}'' 값은 소스 테이블의 단일 변수를 참조해야 합니다.</entry>
+    <entry key="MixingChannelDataType">{0} 데이터와 {1} 데이터는 혼합하여 사용할 수 없습니다. ''{2}''에 지정된 데이터는 동일한 데이터형을 가지거나 숫자형이어야 합니다.</entry>
+    <entry key="InvalidSubscriptForChannel">{0}에 대한 첨자가 유효하지 않습니다. {1}</entry>
+    <entry key="InvalidSubscriptValue">숫자형 첨자를 양의 정수로 지정하십시오.</entry>
+    <entry key="SubscriptOutOfBounds">인덱스가 배열 경계를 초과합니다.</entry>
+    <entry key="InvalidSubscriptType">{0} 유형의 첨자는 지원되지 않습니다.</entry>
+  </message>
+</rsccat>

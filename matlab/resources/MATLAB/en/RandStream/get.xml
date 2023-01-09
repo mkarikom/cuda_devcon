@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="UnrecognizedProperty">Unrecognized property ''{0}''.</entry>
+    <entry key="SubstreamIndexTooLarge">Substream index larger than 2^53-1, returning as uint64 class.</entry>
+    <!--Resource entries for src/mathrng-->
+    <entry key="InvalidNumStateComponents">State array is invalid for a {0} generator.</entry>
+    <entry key="InvalidStateBufLen">State buffer length is invalid for this generator.</entry>
+    <!--Resource entries for src/mathrng/-->
+  </message>
+</rsccat>

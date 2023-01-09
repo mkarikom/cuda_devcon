@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidType">유효하지 않은 데이터형입니다. 입력값은 유효한 클래스 이름을 지정하는 string형 또는 문자형 벡터여야 합니다.</entry>
+    <entry key="InvalidSubscripter">VARTYPE을 사용한 첨자는 변수를 선택할 때만 지원됩니다.</entry>
+    <entry key="TabularInput">테이블이나 타임테이블은 유효한 입력 인수가 아닙니다. VARTYPE을 호출할 때는 입력값에 클래스 이름을 지정해야 하고, 테이블이나 타임테이블에 대한 첨자는 출력값으로 지정해야 합니다.</entry>
+    <entry key="IncompatibleLoad">이 MATLAB 버전과 호환되지 않으므로 저장된 vartype 객체를 불러올 수 없음</entry>
+    <entry key="UIStringDispHeader">테이블의 &lt;a href="matlab:doc(''vartype'')"&gt;vartype&lt;/a&gt; 첨자:</entry>
+    <entry key="UIStringDispType">유형 ''{0}''과(와) 일치하는 테이블 변수 선택</entry>
+    <entry key="UIStringDispFooter">&lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','access-data-in-a-table.html'))"&gt;테이블 데이터에 액세스하기&lt;/a&gt;를 참조하십시오.</entry>
+  </message>
+</rsccat>

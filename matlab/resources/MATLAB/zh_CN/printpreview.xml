@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFigureHandle">图窗句柄无效。</entry>
+    <entry key="ConserveMemory">“打印预览”会将该页以较低分辨率呈现在屏幕上，以便节省内存。\n打印页的质量将不会受到影响。</entry>
+    <entry key="PrintPreviewDlg">打印预览 - {0}</entry>
+    <entry key="PrintButton">打印</entry>
+    <entry key="PageSetupButton">页面设置...</entry>
+    <entry key="HeaderButton">页眉...</entry>
+    <entry key="RefreshButton">刷新</entry>
+    <entry key="CloseButton">关闭</entry>
+    <entry key="NormalizedPaperUnitsNotSupported">打印预览不支持 ''normalized'' PaperUnits。该图窗的 PaperUnits 已更改为 ''{0}''。</entry>
+  </message>
+</rsccat>

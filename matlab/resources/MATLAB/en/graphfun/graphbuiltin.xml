@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CenterTooLarge">''Center'' value is larger than the number of nodes in the graph ({0}).</entry>
+    <entry key="MultigraphNotSupported">Multigraph not supported.</entry>
+    <entry key="DuplicatesSRCSubset">Source nodes must be unique.</entry>
+    <entry key="DuplicatesTARGSubset">Target nodes must be unique.</entry>
+    <entry key="EqualNrCols">Input matrices must have equal number of columns.</entry>
+    <entry key="EqualNumel">Source and target nodes must have the same number of elements, unless one is a scalar.</entry>
+    <entry key="MustBeSparse">Input must be a sparse matrix.</entry>
+    <entry key="MustBeSparseSquare">Input must be a square sparse matrix with real double elements.</entry>
+    <entry key="NoDenseTransp">Flag ''transp'' only supported for sparse matrices.</entry>
+    <entry key="NoUndirTransp">Flag ''transp'' only supported for directed graph.</entry>
+    <entry key="IncidenceSelfLoops">Incidence matrix not supported for graphs with self-loops.</entry>
+    <entry key="InconsistentGraphs">G1 and G2 must have the same number of nodes and edges.</entry>
+    <entry key="InconsistentNodeCat">Nodes in the same category must have the same degree, and the number of nodes in each category must be the same in G1 and G2.</entry>
+    <entry key="InvalidAdjacency">Invalid data type. Adjacency matrix must be a real square matrix which is double, single, or logical.</entry>
+    <entry key="InvalidCenterNumeric">When specified as a number, ''Center'' value must be a positive integer.</entry>
+    <entry key="InvalidCenterType">''Center'' value must be a numeric node index or a node name.</entry>
+    <entry key="InvalidCombination">Shortest path to nearest nodes in a subset unavailable</entry>
+    <entry key="InvalidEdgeCat">EdgeCats must be a matrix of size numedges(G)x2 and of type uint64.</entry>
+    <entry key="InvalidEdgeCatEmpty">EdgeCats must be a matrix of type uint64, of size either numedges(G)x2 or 0x0.</entry>
+    <entry key="InvalidNodeCat">NodeCats must be a matrix of size numnodes(G)x2 and of type uint64.</entry>
+    <entry key="InvalidNodeCatElements">NodeCats must be integers between 0 and N-1, with N the number of categories.</entry>
+    <entry key="InvalidTranspFlag">Option must be ''transp''.</entry>
+    <entry key="InvalidFormat">Table format must be a logical scalar.  Must be true when more than one event is set.</entry>
+    <entry key="InvalidGravity">''UseGravity'' value must be ''on'' or ''off''.</entry>
+    <entry key="InvalidInnerNode">isInnerNode must be a dense logical vector of length n.</entry>
+    <entry key="InvalidIterations">Number of iterations must be a finite positive integer-valued scalar.</entry>
+    <entry key="InvalidLabelVec">Event selection vector must be a six element logical vector.</entry>
+    <entry key="InvalidLayerSize">Layer size must be a dense double vector of length at least 1 containing positive integers.</entry>
+    <entry key="InvalidXCoord">Xcoord must be a real dense double vector of length equal to the number of nodes.</entry>
+    <entry key="InvalidLeftRight">LeftRight must be a logical scalar.</entry>
+    <entry key="InvalidAllPathsParameter">Parameter value must be a nonnegative integer or Inf.</entry>
+    <entry key="InvalidAllCyclesParameter">Parameter value must be a positive integer or Inf.</entry>
+    <entry key="InvalidAllPathsReachability">Reachability must be a dense logical vector with length equal to the number of nodes.</entry>
+    <entry key="InvalidNearestK">Number of nodes must be a positive integer.</entry>
+    <entry key="InvalidNodeScalar">Node ID must be a positive integer scalar not greater than the number of nodes in the graph ({0,number,integer}).</entry>
+    <entry key="InvalidNodes">Node IDs must be a double array of positive integers not greater than the number of nodes in the graph ({0,number,integer}).</entry>
+    <entry key="InvalidNumNodes">Number of nodes must be a real, nonnegative integer.</entry>
+    <entry key="InvalidRestart">Restart value must be true or false.</entry>
+    <entry key="InvalidSRC">Source must be a numeric array of positive integer node indices.</entry>
+    <entry key="InvalidSRCRange">Source node IDs must be positive integers not greater than the number of nodes in the graph ({0,number,integer}).</entry>
+    <entry key="InvalidSRCSubset" note="stringDatatypeUpdate">Source must be a vector of numeric node indices, or the character vector ''all''.</entry>
+    <entry key="InvalidStart">Start node must be a double scalar node index.</entry>
+    <entry key="InvalidSubset">Subset elements must be valid numeric node indices.</entry>
+    <entry key="InvalidSyntaxAdjacency">Allowed syntaxes are adjacency(G), adjacency(G, w) and adjacency(..., ''transp''), where w must be a real double vector of length numedges(G).</entry>
+    <entry key="InvalidTARG">Target must be a numeric array of positive integer node indices.</entry>
+    <entry key="InvalidTARGRange">Target node IDs must be positive integers not greater than the number of nodes in the graph ({0,number,integer}).</entry>
+    <entry key="InvalidTARGSubset" note="stringDatatypeUpdate">Target must be a vector of numeric node indices, or the character vector ''all''.</entry>
+    <entry key="InvalidTarget">Target node must be a double scalar node index.</entry>
+    <entry key="InvalidUpLo">UpperLower must be a logical scalar.</entry>
+    <entry key="InvalidWeight">Graph edge weights must be a double or single, real vector with length equal to the number of edges in the graph.</entry>
+    <entry key="InvalidWeightAdjacency">Weights must be a dense real vector of type double and of length numedges(G).</entry>
+    <entry key="InvalidWeightsDirectWEff">When ''WeightEffect'' value is ''direct'', edge weights must be nonzero and non-NaN.</entry>
+    <entry key="InvalidWeightsInverseWEff">When ''WeightEffect'' value is ''inverse'', edge weights must be finite.</entry>
+    <entry key="InvalidWEffect">''WeightEffect'' value must be ''direct'',''inverse'', or ''none''.</entry>
+    <entry key="InvalidXCoordinates">Initial X coordinates must be a real numeric vector with {0,number,integer} elements.</entry>
+    <entry key="InvalidYCoordinates">Initial Y coordinates must be a real numeric vector with {0,number,integer} elements.</entry>
+    <entry key="InvalidZCoordinates">Initial Z coordinates must be a real numeric vector with {0,number,integer} elements.</entry>
+    <entry key="MaxflowInvalidNodes">The source and target nodes must be different.</entry>
+    <entry key="MaxflowScaling">The maximum flow problem is badly scaled. Consider rescaling the edge weights.</entry>
+    <entry key="MustBeDigraph">Input must be an MLDigraph.</entry>
+    <entry key="MustBeGraph">Input must be an MLGraph.</entry>
+    <entry key="NaNWeight">Graph edge weights contain NaN.</entry>
+    <entry key="NegativeWeight">Graph edge weights must be nonnegative.</entry>
+    <entry key="NonfiniteXCoordinates">Initial X coordinates must be finite.</entry>
+    <entry key="NonfiniteYCoordinates">Initial Y coordinates must be finite.</entry>
+    <entry key="NonfiniteZCoordinates">Initial Z coordinates must be finite.</entry>
+    <entry key="NonSymmetricAdjacency">The graph adjacency matrix must be symmetric.</entry>
+    <entry key="NonZeroTwoCycle">Input graph has a two-cycle with two non-zero weights.</entry>
+    <entry key="NoSelfLoops">Input graph must not have any self-loops.</entry>
+    <entry key="NotReverseTopological">Digraph must be in reverse topological order.</entry>
+    <entry key="NumNodesTooSmall">Number of nodes must be greater than or equal to {0,number,integer}.</entry>
+    <entry key="SymmetricAdjacency">Adjacency matrix must be symmetric.</entry>
+    <entry key="UseGravityLogical">''UseGravity'' value must be ''on'', ''off'', or a logical scalar.</entry>
+    <entry key="WEffLayoutFailed">Layout algorithm failed due to numeric overflow. Consider rescaling the graph edge weights.</entry>
+    <entry key="WrongLayerSum">Sum of layer sizes must be equal to number of nodes.</entry>
+    <entry key="MatchingOneInput">With one-input syntax, input must be dense and square.</entry>
+    <entry key="MatchingTwoInputs">With two-input syntax, the first input must be sparse and square and the second input must be a real double vector of length equal the number of nonzeros of the first input.</entry>
+    <entry key="LoadCorrupted">Unable to load graph or digraph object because it was corrupted.</entry>
+  </message>
+</rsccat>

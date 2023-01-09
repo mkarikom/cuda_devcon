@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WhatsThisLabel">これはなに?</entry>
+    <entry key="SpecifyTimeVector">時間ベクトル指定</entry>
+    <entry key="TimevectorSource">時間ベクトル ソース</entry>
+    <entry key="CurrentSpreadsheet">現在のスプレッドシート</entry>
+    <entry key="DefineItNow">ステップ 3 で定義</entry>
+    <entry key="MATLABWorkspace">MATLAB ワークスペース</entry>
+    <entry key="TimeVectorNotObtained">時間ベクトルは異なるソースから取得することができます。ドロップダウン リストを使ってソース タイプを選択し、以下のソースを構成してください。</entry>
+  </message>
+</rsccat>

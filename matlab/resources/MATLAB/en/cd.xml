@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed">
+  <message>
+    <entry key="NonExistentDirectory">Unable to change current folder to ''{0}'' ({1}).</entry>
+    <entry key="NonExistentFolder">Unable to change current folder to ''{0}'' (Name is nonexistent or not a folder).</entry>
+    <entry key="PermissionDenied">Unable to change current folder to ''{0}'' (Folder permission denied).</entry>
+    <entry key="AccessFailure">Unable to change current folder to ''{0}'' (Folder access failure).</entry>    
+    <entry key="DirectoryNameTooLong">Unable to change current folder to ''{0}'' (Folder name too long).</entry>
+    <entry key="FailedToCD">Unable to change current folder to ''{0}''.</entry>
+    <entry key="Path" note="Used to fill hole in MATLAB:string:MustBeSingleString">Path</entry>
+    <entry key="CannotAccessStartupFolder">Unable to start MATLAB from an inaccessible folder.\n To start MATLAB, the startup folder has been changed to the MATLAB installation folder.</entry>
+  </message>
+</rsccat>

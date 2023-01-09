@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ReplaceWith">置き換え</entry>
+    <entry key="NaNs">NaN</entry>
+    <entry key="DefineAConstant">定数を定義...</entry>
+    <entry key="Remove">ブラシ選択点を削除</entry>
+    <entry key="RemoveUnbrushed">ブラシ未選択点を削除</entry>
+    <entry key="CreateVariable">ブラシ選択点をエクスポート...</entry>
+    <entry key="PasteDataToCommandLine">データをコマンド ラインに貼り付け</entry>
+    <entry key="CopyDataToClipboard">データをクリップボードにコピー</entry>
+    <entry key="ClearAllBrushing">すべてのブラシ選択点をクリア</entry>
+    <entry key="Color">色...</entry>
+  </message>
+</rsccat>

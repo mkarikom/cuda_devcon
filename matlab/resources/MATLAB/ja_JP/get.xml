@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoHandle">HGOBJ にはハンドルがありません...</entry>
+    <entry key="ObjectNotFound">オブジェクトは、存在しないか、破損しています...</entry>
+    <entry key="ObjectsMustBeSameType">オブジェクトはすべて同じタイプでなければなりません</entry>
+    <entry key="BadHandle1">無効なハンドル</entry>
+    <entry key="BadHandle2">無効なハンドル</entry>
+    <entry key="BadPropertyName">無効なプロパティ名</entry>
+    <entry key="BadHandle3">無効なハンドル</entry>
+    <entry key="VectorNotAllowed">ハンドルのベクトルは、左辺値のない get(H) の使用を許可しません</entry>
+    <entry key="BadHandle4">無効なハンドル</entry>
+  </message>
+</rsccat>

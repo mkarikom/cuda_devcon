@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInputFile">입력값이 유효한 파일 경로가 아닙니다.</entry>
+    <entry key="NonLocalHelpInContainer">classdef MATLAB 파일 외부에 정의된 상속된 속성과 메서드 같이 로컬에서 정의되지 않은 도움말은 비교할 수 없습니다.</entry>
+  </message>
+</rsccat>

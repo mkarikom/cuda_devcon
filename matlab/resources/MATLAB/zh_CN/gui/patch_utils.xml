@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FaceVertexCDataInvalidDataType">面顶点 CData 坐标必须为数值。</entry>
+    <entry key="XYZInvalidDataType">X,Y,Z 坐标必须为数值。</entry>
+    <entry key="PatchFacesElementExceedsVerticesLength">Patch Faces 元素({1,number,integer},{2,number,integer})的值({0})超过顶点长度({3,number,integer})</entry>
+  </message>
+</rsccat>

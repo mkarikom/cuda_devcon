@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noEvents">이 시계열 객체에는 이벤트가 없습니다.</entry>
+    <entry key="noTime">utGetEventTime의 두 번째 인수는 유효한 이벤트 이름이어야 합니다.</entry>
+    <entry key="invOption">유효하지 않은 옵션 특성(Attribute)임</entry>
+  </message>
+</rsccat>

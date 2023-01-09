@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NumberInteger">{1,number,integer}(으)로부터 {0,number,integer}</entry>
+    <entry key="Name">이름</entry>
+    <entry key="NumberOfBrushedPoints">브러싱된 점 개수</entry>
+    <entry key="Size">크기</entry>
+    <entry key="CancelButton">취소</entry>
+    <entry key="DialogName">브러싱된 변수 식별</entry>
+    <entry key="DialogLabel">2개 이상의 변수가 브러싱되었습니다. 사용할 변수를 선택하십시오.</entry>
+  </message>
+</rsccat>

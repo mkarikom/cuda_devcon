@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NegTolBlk">TolBlk는 양수여야 합니다.</entry>
+    <entry key="NegTolTay">TolTay는 양수여야 합니다.</entry>
+    <entry key="NegMaxTerms">MaxTerms는 양수여야 합니다.</entry>
+    <entry key="NegMaxSqrt">MaxSqrt는 양수여야 합니다.</entry>
+    <entry key="WrongDimOrd">Ord 차원이 올바르지 않습니다.</entry>
+    <entry key="InputDim">첫 번째 입력값은 single형 또는 double형의 정사각 행렬이어야 합니다.</entry>
+    <entry key="InfDeriv">무한한 도함수입니다.</entry>
+    <entry key="zeroEig">SCHUR(A)에서 고유값이 0(zero eigenvalue)인 경우가 적어도 한 건 발견되었습니다.\n         행렬 A가 특이 행렬이거나 준특이 행렬(badly scaled)일 수 있습니다.</entry>
+    <entry key="nonPosRealEig">양이 아닌 실수 고유값을 갖는 A에 대해서는 주요 행렬 로그가 정의되지 않습니다. 비주요 행렬 로그가 반환됩니다.</entry>
+    <entry key="TaylorSeriesNotConverged">테일러 급수(Taylor series)가 수렴하는데 실패했습니다.\n         함수가 무한 수렴 반경을 가지고 있지 않을 수 있습니다.\n         options.TolBlk를 줄이거나 options.TolTay 또는 options.MaxTerms를 늘리십시오.</entry>
+    <entry key="TooManyMatrixSquareRoots">행렬의 제곱근 최대 개수를 초과했습니다.\n         options.TolBlk를 줄이거나 options.MaxSqrt를 늘리십시오.</entry>
+    <entry key="EvaluatingFunctionOfBlock">블록 ({0}:{1})의 함수 실행 중\n</entry>
+  </message>
+</rsccat>

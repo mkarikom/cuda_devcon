@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="spu0">sp\\: A は三角行列ですか?</entry>
+    <entry key="spu1">  はい。\nsp\\: 三角行列解法を実行します。\n</entry>
+    <entry key="spu2">  いいえ。\nsp\\: A は事実上三角行列ですか?</entry>
+    <entry key="spu3">  はい。\nsp\\: 並べ替えて解を求めます。\n</entry>
+    <entry key="spu4">  いいえ。\nsp\\: A はコレスキーの対象 (対称で、対角成分が正または負の実数) ですか?</entry>
+    <entry key="spu9">sp\\: A は正定値ではありません。\n</entry>
+    <entry key="spu10">  いいえ。\n</entry>
+    <entry key="spu13">sp\\: UMFPACK の数値 LU 分解は正常に実行されましたか?</entry>
+    <entry key="spu15">  はい。\n</entry>
+    <entry key="spu16">sp\\: 元の LU 因子です。2 つの三角行列システムを解きます。\n</entry>
+    <entry key="spu17">sp\\: 列の最小次数です。\n</entry>
+    <entry key="spu20">sp\\: sptsolve の sprealloc: {0} {1} {2}</entry>
+    <entry key="spu27"> いいえ、\n 三重対角行列解法はピボット {0} で失敗しました。\n</entry>
+    <entry key="spu32">sp\\: LAPACK のバンド ソルバーは正常に実行されましたか?</entry>
+    <entry key="spu33">sp\\: バンド幅 = {0}+1+{1}。\n</entry>
+    <entry key="spu34">sp\\: バンド ソルバーを実行するために、バンド密度は ({0}) &gt; bandden ({1}) になっていますか?</entry>
+    <entry key="spu35">sp\\: 実数の三重対角行列 A をピボットなしで解きますか?</entry>
+    <entry key="spu36">sp\\: A は対角行列ですか? </entry>
+    <entry key="spu37">  はい。\nsp\\: 対角行列解法を実行します。\n</entry>
+    <entry key="spu38">sp\\: CHOLMOD のシンボリック コレスキー分解 (自動並べ替えを伴う) は正常に実行されましたか?</entry>
+    <entry key="spu39">sp\\: CHOLMOD のシンボリック コレスキー分解 (並べ替えを伴わない) は正常に実行されましたか?</entry>
+    <entry key="spu40">sp\\: CHOLMOD の数値コレスキー分解は正常に実行されましたか?</entry>
+    <entry key="spu41">  はい。\nsp\\: CHOLMOD の三角行列解法は正常に実行されましたか?</entry>
+    <entry key="spu42">sp\\: Unsymmetric MultiFrontal PACKage を使用します</entry>
+    <entry key="spu43">sp\\: UMFPACK の因子分解は正常に実行されました。\n</entry>
+    <entry key="spu44">sp\\: UMFPACK の解法は正常に実行されました。\n</entry>
+    <entry key="spu45">sp\\: UMFPACK は正常に実行されませんでした。\n</entry>
+    <entry key="spu46">sp\\: SuiteSparseQR によるスパース QR の解。\n</entry>
+    <entry key="spu47">sp\\: しかし A は実対称行列です。MA57 を実行してください。\n</entry>
+    <entry key="spu48">  (自動並べ替えを伴う)。\n</entry>
+    <entry key="spu49">sp\\: しかし、UMFPACK はアグレッシブなピボットの許容誤差、\n あるいは条件の整わない問題により、\n 正確な因数分解に失敗した可能性があります。\n</entry>
+    <entry key="spu52">sp\\: これらの許容誤差は次のとおりです。\n</entry>
+    <entry key="spu53">\tピボット許容誤差: {0}\n</entry>
+    <entry key="spu54">\t対角ピボット許容誤差: {0}\n</entry>
+    <entry key="spu55">再度行列の因子分解を行いますが、標準的な部分ピボットを使用します。\n</entry>
+    <entry key="spu57">CHOLMOD のシンボリック コレスキー分解です。\n</entry>
+    <entry key="spu58">CHOLMOD の数値コレスキー分解です。\n</entry>
+    <entry key="spu59">CHOLMOD から L' を抽出します。\n</entry>
+    <entry key="spu60">CHOLMOD から順列を抽出します。\n</entry>
+    <entry key="spu61">無限行列 (列 {0}):</entry>
+    <entry key="spu62"> 対角要素 {0} &lt; {1} の許容誤差\n</entry>
+    <entry key="spu63">予想される非ゼロ: {0}\n</entry>
+    <entry key="spu64">予想されるフロップ: {0}\n</entry>
+    <entry key="spu65">予想される高さ: {0}\n</entry>
+    <entry key="spu66">予想される前面サイズ: {0}\n</entry>
+    <entry key="spu67">SuiteSparseQR から c を抽出します。\n</entry>
+    <entry key="spu68">SuiteSparseQR により QR 分解を計算します。\n</entry>
+    <entry key="spu69">SuiteSparseQR から Q を抽出します。\n</entry>
+    <entry key="spu70">SuiteSparseQR から順列を抽出します。\n</entry>
+    <entry key="spu71">SuiteSparseQR から R を抽出します。\n</entry>
+    <entry key="spu72">spmlrcm: ルート = {0}\n</entry>
+    <entry key="spu73">spmlrcm: 要素サイズ = {0}, レベル = {1}\n</entry>
+    <entry key="spu74">spmlrcm: これはバグです、次元は n = {0} です </entry>
+    <entry key="spu75">ただし、要素のサイズが num = {0} に追加されます\n</entry>
+    <entry key="spu76">要素: {0}\n</entry>
+    <entry key="spu77">バンド幅: {0}\n</entry>
+    <entry key="spu78">プロファイル: {0}\n</entry>
+    <entry key="spu79">疑似直径: {0}\n</entry>
+    <entry key="spu80">rootls: {0} レベル\n</entry>
+    <entry key="spu81">colmmd: {0} の密な行が与えられていません。\n</entry>
+    <entry key="spu82">ステージ 0:  </entry>
+    <entry key="spu84">ステージ {0}:  </entry>
+    <entry key="spu87">削減済み </entry>
+    <entry key="spu89">削除済み </entry>
+    <entry key="spu90">しきい値 {0}</entry>
+    <entry key="spu91">選択 </entry>
+    <entry key="spu94">\tA'*A で正確な次数を使用、\n</entry>
+    <entry key="spu95">\tA'*A で近似次数を使用、\n</entry>
+    <entry key="spu96">\t最初および {0} ステージごとにスーパーノードを融合、\n</entry>
+    <entry key="spu97">\t最初のみスーパーノードを融合、\n</entry>
+    <entry key="spu98">\t各 {0} ステージ後にスーパーノードを融合、\n</entry>
+    <entry key="spu99">\tスーパーノードの融合を行わない、\n</entry>
+    <entry key="spu100">\t最初および {0} ステージごとに行を削減、\n</entry>
+    <entry key="spu101">\t最初のみ行を削減、\n</entry>
+    <entry key="spu102">\t行の削減を各 {0} ステージ後に行います。\n</entry>
+    <entry key="spu103">\t行の削減を行わない、\n</entry>
+    <entry key="spu104">\tcolmmd で {0}% 以上密である行を保留、\n</entry>
+    <entry key="spu105">\tcolmmd で行を保留しない、\n</entry>
+    <entry key="spu107">mmd: {0} ステージ。\n</entry>
+    <entry key="spu108">棄却許容誤差: {0}\n</entry>
+    <entry key="spu109">U の 0 の対角要素を置換: </entry>
+    <entry key="spu110">変更された不完全 LU: </entry>
+    <entry key="spu111">ピボットしきい値: {0}\n</entry>
+    <entry key="spu112">lu(V) の sprealloc: {0} {1} {2}</entry>
+    <entry key="spu114">lu(L) の sprealloc: {0} {1} {2}</entry>
+    <entry key="spu115">lu(U) の sprealloc: {0} {1} {2}</entry>
+    <entry key="spu116">取り除かれた nzs: {0}\n</entry>
+    <entry key="spu117">L 非ゼロ: {0}\n</entry>
+    <entry key="spu118">U 非ゼロ: {0}\n</entry>
+    <entry key="spu119">spchol のバグ: 解析で十分なストレージが割り当てられませんでした\n</entry>
+    <entry key="spu120">sp\\: しかし、UMFPACK はアグレッシブなピボットの許容誤差、\n あるいは問題が悪条件のため、\n 目的の後退誤差で解くことに失敗した可能性があります。\n</entry>
+    <entry key="spu121">sp\\: 達成された後退誤差は次のとおりです:\n</entry>
+    <entry key="spu122">\tsparse 後退誤差 omega1: {0}\n</entry>
+    <entry key="spu123">\tsparse 後退誤差 omega2: {0}\n</entry>
+    <entry key="spu83">\n</entry>
+    <entry key="spu85">amalgamated </entry>
+    <entry key="spu86"> {0}  </entry>
+    <entry key="spu93">mmd:  threshold = {0} * mindegree + {1};\n</entry>
+    <entry key="spu113"> {0}\n</entry>
+  </message>
+</rsccat>

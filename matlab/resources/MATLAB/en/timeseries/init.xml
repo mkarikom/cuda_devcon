@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="noarray">The init method can only be used for a single timeseries object</entry>
+    <entry key="pvsetNoValue">A specified property has no corresponding value.</entry>
+    <entry key="pvsetScalarTimeFirst">IsTimeFirst property must be a logical scalar value.</entry>
+    <entry key="pvsetScalarDatenum">IsDatenum property must be a logical scalar value.</entry>
+    <entry key="scalarOneRowDataAsThreeD">InterpretSingleRowDataAs3D property must be a logical scalar.</entry>
+    <entry key="pvsetScalarStartTime">StartTime property must be a numeric scalar.</entry>
+    <entry key="pvsetScalarEndTime">EndTime property must be a numeric scalar.</entry>
+    <entry key="pvsetScalarInterval">Interval property must be a numeric scalar.</entry>
+    <entry key="pvsetInvalid">Invalid property name</entry>
+    <entry key="data">First argument must be data.</entry>
+    <entry key="nodata">The first argument must contain the data.</entry>
+    <entry key="notime">The second argument must be either the time vector or the time series name.</entry>
+    <entry key="qualitycell">Quality values must be specified as an integer array.</entry>
+    <entry key="input">Too many input arguments.  Use INIT(TS, DATA, TIME, ''PropertyName1'', PropertyValue1, ...) instead.</entry>
+    <entry key="invtime">Invalid time value.</entry>
+    <entry key="incompatibleIsTimeFirst">Value for IsTimeFirst property is incompatible with Data and Time.</entry>
+</message>
+</rsccat>

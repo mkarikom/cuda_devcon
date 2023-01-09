@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="notAScalarSubset">当前仅支持标量子集。</entry>
+    <entry key="SubsetTypeNotSupported">当前仅支持使用 ''()'' 索引对 MAT 文件进行索引。已使用 ''{0}'' 索引。</entry>
+    <entry key="MatfileFormatNotSupported"> 版本必须指定为 'v6'、'v7' 或 'v7.3'</entry>
+    <entry key="noSuchProperty">在序列化自定义过程中，类 {1} 的序列化内容中没有适当的属性 {0}。</entry>
+    <entry key="propertyExists">在序列化自定义过程中，序列化属性名称 {0} 已存在于类 {1} 的序列化内容中。</entry>
+    <entry key="nonStaticObjectCustomizationMethod"> 在序列化自定义过程中，方法 {0} 未在类 {1} 中定义为 ''Static''，并且在序列化过程中忽略</entry>
+    <entry key="interruption"> 由于用户中断而退出保存-加载过程</entry>
+    <entry key="numberOfElementsMismatch"> Number of elements in the input property name {0} is not equal to number of elements in the serialization content array for {1} class" </entry>
+    <entry key="badPropertyName"> 序列化属性 {0} 的名称无效 </entry>
+    <entry key="operationNotSupportedOnHetArray"> 输入参数必须为表示同构对象数组的序列化内容数组 </entry>
+    <entry key="saveRecursionLimit">将类的实例保存到 MAT 文件时，超出了递归限制。这是因为实例包含非常长的引用链，或是因为类定义包含错误。</entry>
+    <entry key="unexpectedOutputType"> 从类 {1} 定义的 ''{0}'' 自定义方法返回了意外的输出类型。将忽略自定义，并保存来自对象的名称-值对组。 </entry>
+  </message>
+</rsccat>

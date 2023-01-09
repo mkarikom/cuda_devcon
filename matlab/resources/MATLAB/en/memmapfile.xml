@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="illegalWritableSetting">The Writable field must contain a scalar logical.</entry>
+    <entry key="illegalOffsetType">The Offset field must be a real scalar number.</entry>
+    <entry key="illegalOffsetValue">The Offset field must contain a finite, nonnegative integral value.</entry>
+    <entry key="illegalFormatSetting">The Format field specified is invalid.</entry>
+    <entry key="illegalRepeatType">The Repeat field must contain a real scalar number.</entry>
+    <entry key="illegalRepeatValue">The Repeat field must contain a positive integral value, or Inf.</entry>
+    <entry key="illegalFilenameType" note="stringDatatypeUpdate">Filename must be a character vector.</entry>
+    <entry key="inaccessibleFile">Cannot access file "{0}": {1}.</entry>
+    <entry key="classMismatch">Values assigned to the Data field must have the same class as the Data field.</entry>
+    <entry key="illegalComplexAssignment">Complex values may not be assigned to Data field or its subfields.</entry>
+    <entry key="illegalSubscriptedAssignment">Illegal subscripted assignment to Data field of memmapfile object.</entry>
+    <entry key="UnpairedParamsValues">Param/value pairs must come in pairs.</entry>
+    <entry key="dataIsReadOnly">Cannot modify Data field because Writable field is set to false.</entry>
+    <entry key="illegalPropertyType" note="stringDatatypeUpdate">Property must be a character vector or cell array of character vectors.</entry>
+    <entry key="noStructConversion">Memmapfile objects cannot be converted to structures.</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="illegalAlignment">Illegal format, offset, or repeat. Accessing the Data field given the specified format, offset, and repeat values would cause an unaligned address exception.</entry>
+    <entry key="fileTooSmall">File "{0}" is not large enough to map with the current format, offset, and repeat values.</entry>
+    <entry key="sizeMismatch">In an assignment M.DATA = N, the number of elements in N and M.DATA must be the same.</entry>
+    <entry key="dataFieldSizeFixed">Cannot change the size of the Data field via subscripted assignment. The size of the Data field is determined by the Repeat and Format fields.</entry>
+    <entry key="illegalDataFieldModification">When the Data field of a memmapfile object is a structure, it may not be replaced by assignment.</entry>
+    <entry key="classMismatchForSubfield">Values assigned to subfields of the Data field must have the same class as the subfield.</entry>
+    <entry key="sizeMismatchForSubfield">In an assignment M.DATA(I).FIELD = N, the number of elements in N and M.DATA(I).FIELD must be the same.</entry>
+    <entry key="dataSubfieldSizeFixed">Cannot change the size of a subfield of the Data field via subscripted assignment. The sizes of subfields of the Data field are determined by the Format field.</entry>
+    <entry key="illegalParameter" note="stringDatatypeUpdate">Parameter at input {0,number,integer} must be a character vector.</entry>
+    <entry key="unrecognizedParameter">Parameter "{0}" is unrecognized.</entry>
+    <entry key="illegalParenIndex">Memmapfile objects may not be subscripted using ().</entry>
+    <entry key="illegalBraceIndex">Memmapfile objects may not be subscripted using '{}'.</entry>
+    <entry key="unsupportedCSL">A subscripting operation on the Data field attempted to create a comma-separated list. The memmapfile class does not support the use of comma-separated lists when subscripting.</entry>
+    <entry key="noCatenation">Memmapfile objects cannot be concatenated.</entry>
+    <entry key="noEmptyMethod">Empty memmapfile objects cannot be created.</entry>
+  </message>
+</rsccat>

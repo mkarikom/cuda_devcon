@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoJvm">SENDMAIL을 사용하려면 Java가 있어야 합니다.</entry>
+    <entry key="InvalidSubject">subject에는 새 줄(Newline) 문자가 포함될 수 없습니다.</entry>
+    <entry key="CannotOpenFile">파일 "{0}"을(를) 열 수 없습니다.</entry>
+    <entry key="assignment_AuthenticationFailed">인증에 실패했습니다.</entry>
+    <entry key="SMTPServerIndeterminate">SMTP 서버를 확인할 수 없습니다.  다음과 같은 설정이 가능함: \n{0}</entry>
+    <entry key="FromAddressIndeterminate">보낸 사람(From) 주소를 확인할 수 없습니다.  다음과 같은 설정이 가능함: \n{0}</entry>
+    <entry key="SmtpError">{0}</entry>
+    <entry key="AddressError">{0}</entry>
+  </message>
+</rsccat>

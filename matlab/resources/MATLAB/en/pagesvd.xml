@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="noSVDsparse">Sparse matrices are not supported.</entry>
+    <entry key="repeatedEconomyFlag">Invalid option combination. You can only specify ''econ'' once.</entry>
+    <entry key="inputType">First input must be single or double.</entry>
+    <entry key="svdNoConvergence">SVD did not converge.</entry>
+    <entry key="invalidOption">Invalid option. Option must be: ''econ'', ''matrix'', or ''vector''.</entry>
+    <entry key="repeatedShapeFlag">Invalid option combination. You can specify ''matrix'' or ''vector'', but not both.</entry>
+  </message>
+</rsccat>

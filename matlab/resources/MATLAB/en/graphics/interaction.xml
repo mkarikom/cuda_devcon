@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidAxes">Axes must be resident in the same figure as the mode.</entry>
+    <entry key="InvalidInputAxes">Input must be an axes handle.</entry>
+    <entry key="InvalidInputCameraLimits">Input must be either 'camera' or 'limits'.</entry>
+    <entry key="IncorrectNumberArguments">Incorrect number of input arguments.</entry>
+    <entry key="FirstInputUIFigure">UI figure not supported as an input to {0}. Specify UIAxes or Axes in a UI figure instead.</entry>
+    <entry key="ConflictFound">Conflicting interactions found.</entry>
+    <entry key="DuplicateFound">Duplicate interactions found.</entry>
+    <entry key="InteractionsProperty">Interactions property must be an array of interaction objects.</entry>
+    <entry key="CartesianAxesInteractionsProperty">{0} is not a supported interaction on CartesianAxes.</entry>
+    <entry key="PolarAxesInteractionsProperty">{0} is not a supported interaction on PolarAxes.</entry>
+    <entry key="TextInteractionsProperty">{0} is not a supported interaction on Text.</entry>
+    <entry key="GeographicAxesInteractionsProperty">{0} is not a supported interaction on GeographicAxes.</entry>
+    <entry key="GeographicAxesInteractionsDisplay">\nGeographicAxes has the following interactions by default:\n\n
+                                                \tPanInteraction\n
+                                                \tZoomInteraction\n
+                                                \tDataTipInteraction\n</entry>
+    <entry key="CartesianAxesInteractionsDisplay">\nAxes has the following interactions by default:\n\n
+                                             \tPanInteraction (2D Axes)\n
+                                             \tZoomInteraction\n
+                                             \tDataTipInteraction\n
+                                             \tRotateInteraction (3D Axes)\n
+                                             \tRulerPanInteraction\n</entry>
+    <entry key="WebAxesInteractionsSetDisplay">\nWeb Axes have the following interactions by default:\n\n
+                                         \tPanInteraction (2D Axes)\n
+                                         \tZoomInteraction\n
+                                         \tDataTipInteraction\n
+                                         \tRotateInteraction (3D Axes)\n</entry>
+    <entry key="PolarAxesInteractionsDisplay">\nPolarAxes has the following interactions by default:\n\n
+                                           \tDataTipInteraction\n</entry>
+    <entry key="EnableLegacyExplorationModesToolbarFound">Custom axes toolbar found. Call enableLegacyExplorationModes before customizing the axes toolbar</entry>
+    <entry key="ScalarFigureOnly">Input must be a scalar figure handle</entry>
+    <entry key="CannotDisableLegacyExplorationModes">Once enabled on this figure, legacy exploration modes cannot be disabled.</entry>
+  </message>
+</rsccat>

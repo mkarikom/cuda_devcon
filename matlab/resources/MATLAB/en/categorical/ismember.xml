@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2013-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="TypeMismatch" note="stringDatatypeUpdate">Both inputs to ISMEMBER must be categorical arrays, or one of the inputs may be a scalar string or cell array of character vectors.</entry>
+    <entry key="OrdinalMismatch">Categorical inputs to ISMEMBER must both be either ordinal or not ordinal.</entry>
+  </message>
+</rsccat>

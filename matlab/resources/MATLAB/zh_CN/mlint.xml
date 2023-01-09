@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManyCellArgs">不支持多个字符向量元胞数组或字符串数组。请将文件名指定为一个或多个字符向量、一个字符串数组或一个字符向量元胞数组。所有其他参数都必须为字符向量或标量字符串。</entry>
+    <entry key="NoFile">未提供文件名。</entry>
+    <entry key="InvalidInput">-TEXT 需要一个带有文本的参数，以及一个带有 .m 文件名的参数</entry>
+    <entry key="FileNotFound">无法打开文件 "{0}"。找不到文件或文件不是受支持的 MATLAB 代码文件。</entry>
+    <entry key="InvalidInputFilename">需要输入文件名为字符数组，但找到类 "{0}" 的值。</entry>
+    <entry key="NestedCell">checkcode 的输入参数不应包含嵌套的元胞数组。</entry>
+    <entry key="CheckCodeInputMustBeOfCharType">参数必须为字符向量或字符串标量。文件名参数也可以为字符串数组或字符向量元胞数组。</entry>
+    <entry key="TooManyOutputArguments">-DISP 选项不会将值赋给输出变量。\n请使用 -STRING 或 -STRUCT 将输出赋给变量。</entry>
+    <entry key="UnusedArgs">以下参数已忽略: {0}。</entry>
+    <entry key="MissingString">不支持 &lt;missing&gt; 字符串元素。</entry>
+    <entry key="EmptyInput">不支持空参数。</entry>
+    <entry key="NotCharacterRowVector">字符向量参数必须为行向量。</entry>
+    <entry key="ExpectCell">输入参数必须为 Nx1 的元胞数组。</entry>
+    <entry key="NonChar">输入元胞数组包含非字符元素。</entry>
+    <entry key="OutputArg">-STRUCT 要求一个输出参数。</entry>
+    <entry key="MTreeInput">输入参数必须为字符向量。</entry>
+    <entry key="MTreeFileType">找不到 mtree.Type 枚举，无法在 mtree 中分配 FileType 属性。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidWarningState">경고 ''{0}''을(를) 유효하지 않은 상태 ''{1}''(으)로 설정하려고 했습니다.</entry>
+    <entry key="BadWarningStatus">경고 상태 문자형 벡터 ''{0}''이(가) 유효하지 않습니다.</entry>
+    <entry key="CantSetMATLAB_JDB">MATLAB_JDB를 설정할 수 없음</entry>
+    <entry key="CantSetMATLAB_JDB_PORT">MATLAB_JDB_PORT를 설정할 수 없음</entry>
+    <entry key="WaitforcallbacksDeprecated">내장된 waitforcallbacks는 더 이상 사용되지 않습니다.</entry>
+    <entry key="DirectoryNotFound">Windows 폴더 {0}을(를) 찾을 수 없습니다.</entry>
+    <entry key="DesktopStartupFailed">내부 오류: 데스크탑 시작 중에 오류가 발생했습니다. 세부 정보: {0}.</entry>
+    <entry key="JavaInitializationFailed">내부 오류: Matlab-Java 인터페이스 초기화에 실패했습니다.</entry>
+    <entry key="UnrecognizedOption">MATLAB 옵션 {0}을(를) 인식할 수 없습니다.</entry>
+    <entry key="NoHGVersion">Handle Graphics 버전을 지정해야 합니다. 버전 {0,number,integer}이(가) 디폴트로 설정됩니다.</entry>
+    <entry key="InvalidHGVersion">Handle Graphics 버전 {0}이(가) 유효하지 않습니다. 버전 {1,number,integer}이(가) 디폴트로 설정됩니다.</entry>
+    <entry key="RunningModeNotAllowed">/{1} 모드에서 {0}(으)로 실행하는 것은 허용되지 않습니다.  자동화 지원 기능이 비활성화됩니다.</entry>
+    <entry key="WaitforcallbacksNestError">함수 {0}은(는) {1} 전에 호출되어야 합니다.</entry>
+    <entry key="FailedLoadMwLocaleDatabase">MathWorks 로캘 데이터베이스를 불러오지 못했습니다. 대신 MathWorks 디폴트 로캘 설정이 사용됩니다.</entry>
+    <entry key="EventThreadAbsent">이벤트 처리 스레드가 실행되고 있지 않으므로 {0} 유형의 이벤트를 처리할 수 없습니다.</entry>
+    <entry key="EventThreadNotInitialized">이벤트 스레드가 초기화되지 않았으므로 이벤트 루프에 진입할 수 없습니다.</entry>
+    <entry key="BadSetCtfxTargetEnvironmentArg">이 기능은 입력값으로 double형만 받습니다.</entry>
+    <entry key="BadCtfxTargetEnvironment">시스템 오류로 인해 CTFX 기능을 활성화할 수 없습니다.</entry>
+    <entry key="UnrecognizedCommandLineOption">인식할 수 없는 명령줄 옵션임: {0}.</entry>
+    <entry key="IgnoringUseStartupFolderPref">명령줄 인수 -sd가 이미 지정되었습니다. -useStartupFolderPref가 무시됩니다.</entry>
+    <entry key="IgnoringSD">명령줄 인수 -useStartupFolderPref가 이미 지정되었습니다. -sd가 무시됩니다.</entry>
+    <entry key="MissingFolderSpec">-sd 명령줄 인수에 대한 폴더를 지정하지 않았습니다.</entry>
+    <entry key="MissingEndFile">-endfile 명령줄 인수에 대해 종료 파일을 지정하지 않았습니다. 디폴트 종료 파일인 finish가 사용됩니다.</entry>
+    <entry key="MissingBeginFile">-beginfile 명령줄 인수에 대해 시작 파일을 지정하지 않았습니다. 디폴트 시작 파일인 matlabrc가 사용됩니다.</entry>
+    <entry key="MissingCommand">-{0} 명령줄 인수에 대해 MATLAB 명령을 지정하지 않았습니다.</entry>
+    <entry key="MissingCacheMaxSize">-CodeCacheMaxSize 명령줄 인수에 대해 MATLAB 캐시 최대 크기를 지정하지 않았습니다. 디폴트 값이 대신 사용됩니다.</entry>
+    <entry key="InvalidCacheMaxSize">-CodeCacheMaxSize 명령줄 인수에 대해 지정한 MATLAB 캐시 최대 크기가 유효하지 않습니다. 디폴트 값이 대신 사용됩니다.</entry>
+    <entry key="MissingGrowthStep">-CodeCacheGrowthStepSize 명령줄 인수에 대해 MATLAB 코드 캐시 growthStep 크기를 지정하지 않았습니다. 디폴트 값이 대신 사용됩니다.</entry>
+    <entry key="InvalidGrowthStep">-CodeCacheGrowthStepSize 명령줄 인수에 대해 지정한 MATLAB 코드 캐시 growthStep 크기가 유효하지 않습니다. 디폴트 값이 대신 사용됩니다.</entry>
+    <entry key="MissingStartupSize">-CodeCacheStartUpSize 명령줄 인수에 대해 MATLAB 코드 캐시 시작 크기를 지정하지 않았습니다. 디폴트 값이 대신 사용됩니다.</entry>
+    <entry key="InvalidStartupSize">-CodeCacheStartUpSize 명령줄 인수에 대해 유효하지 않은 MATLAB 코드 캐시 시작 크기를 지정했습니다. 디폴트 값이 대신 사용됩니다.</entry>
+    <entry key="NoLicmode">-licmode 명령줄 인수에 대해 licmode를 지정하지 않았습니다.</entry>
+    <entry key="NoLicenseFile">-c 명령줄 인수에 대해 라이선스 파일을 지정하지 않았습니다.</entry>
+    <entry key="InvalidPort">-jdb 명령줄 인수에 대한 포트 번호가 유효하지 않습니다. 디폴트 값이 대신 사용됩니다.</entry>
+    <entry key="IncompatibleCommands">명령줄 인수 -{0}을(를) 그 이후의 -{1} 인수와 함께 사용할 수 없습니다.</entry>
+  </message>
+</rsccat>

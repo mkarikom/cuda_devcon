@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidTolerance" context="error">許容誤差は、sqrt(eps(class(A))) &lt;= tolerance &lt; 1 の範囲内にある実数の数値スカラーでなければなりません。</entry>
+    <entry key="InvalidBsize" context="error">ブロック サイズは正の整数でなければなりません。</entry>
+    <entry key="InvalidMaxiter" context="error">反復の最大回数は、正の整数でなければなりません。</entry>
+    <entry key="InvalidMaxdim" context="error">部分空間の最大次元は、正の整数でなければなりません。</entry>
+    <entry key="InvalidP" context="error">べき乗の反復数は、非負の整数でなければならず、通常は 0、1 または 2 です。</entry>
+    <entry key="InvalidA" context="error">最初の入力は、single 型または double 型の行列でなければなりません。</entry>
+    <entry key="NameWithoutValue" context="error">入力引数の数が正しくありません。各パラメーター名の後には対応する値が必要です。</entry>
+  </message>
+</rsccat>

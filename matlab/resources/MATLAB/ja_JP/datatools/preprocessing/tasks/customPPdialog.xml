@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DIALOG_TITLE">データ クリーニングのカスタム関数ダイアログ</entry>
+    <entry key="TITLE">クリーニングのカスタム関数の追加</entry>
+    <entry key="FCN_NAME">名前</entry>
+    <entry key="FCN_NAME_TT">新規または既存の関数名を入力</entry>
+    <entry key="NEW_FCN">新規関数</entry>
+    <entry key="EXISTING_FCN">既存の関数</entry>
+    <entry key="FCN_DESCRIPTION">説明</entry>
+    <entry key="FCN_DESCRIPTION_TT">データ クリーニングで、ボタン上にカーソルを置くと表示されるツールヒント</entry>
+    <entry key="FCN_DESCRIPTION_DEFAULT">カスタム クリーンアップを実行します</entry>
+    <entry key="OPERATION_TYPE">演算タイプ</entry>
+    <entry key="TABLE_OPERATION_LABEL">table 全体の演算</entry>
+    <entry key="TABLE_OPERATION_TOOLTIP">カスタム コードが table 全体を変更</entry>
+    <entry key="COLUMN_OPERATION_LABEL">単一列の変数の演算</entry>
+    <entry key="COLUMN_OPERATION_TOOLTIP">カスタム コードは 1 列の変数にのみ影響</entry>
+    <entry key="OK">OK</entry>
+    <entry key="CANCEL">キャンセル</entry>
+    <entry key="ADD_CUSTOM_FCN_LABEL">次の構文を使用してデータ クリーニングにカスタム関数を追加します。</entry>
+    <entry key="ADD_EXISTING_FCN_LABEL">次の構文を使用して既存の関数を呼び出す関数を追加します。</entry>
+    <entry key="WORKFLOW_DESCRIPTION_TABLE">データ クリーニングにより、入力 table が自動的に関数に渡されます。オプションの入力引数を指定することもできます。</entry>
+    <entry key="WORKFLOW_DESCRIPTION_COLUMN">入力列変数 {0} が自動的に関数に渡されます。オプションの入力引数を指定することもできます。</entry>
+  </message>
+</rsccat>

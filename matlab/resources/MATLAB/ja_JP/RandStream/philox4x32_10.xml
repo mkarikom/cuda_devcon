@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidState">philox4x32-10 ジェネレーターの状態が無効です。</entry>
+    <entry key="SubstreamsIndexOutOfRange">philox4x32-10 ストリームは 2^51 のサブストリームのみをもっています。</entry>
+    <entry key="InvalidParameter">philox4x32-10 ジェネレーターはパラメーターを受け入れません。</entry>
+    <entry key="TooManyStreams">2^61 を超える philox4x32-10 ストリームは作成できません。</entry>
+  </message>
+</rsccat>

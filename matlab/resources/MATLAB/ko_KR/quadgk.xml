@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="funArgNotHandle">첫 번째 입력 인수는 함수 핸들이어야 합니다.</entry>
+    <entry key="invalidEndpoint">A와 B는 스칼라 부동소수점이어야 합니다.</entry>
+    <entry key="nonFiniteContourError">등고선 끝점과 중간점은 유한해야 합니다.</entry>
+    <entry key="NonFiniteValue">무한대 값 또는 NAN(Not-a-Number) 값이 발생했습니다.</entry>
+    <entry key="UnsupportedClass">지원되는 클래스는 ''double'' 및 ''single''입니다.</entry>
+    <entry key="FxNotSameSizeAsX">함수 출력값은 입력값과 같은 크기여야 합니다.</entry>
+    <entry key="invalidAbsTol">유효하지 않은 AbsTol임</entry>
+    <entry key="invalidRelTol">유효하지 않은 RelTol임</entry>
+    <entry key="invalidMaxIntervalCount">MaxIntervalCount는 양의 정수 스칼라여야 합니다.</entry>
+    <entry key="increasedRelTol">RelTol을 100*eps(''{0}'') = {1}(으)로 늘렸습니다.</entry>
+    <entry key="MaxIntervalCountReached">사용 중에 최대 구간 개수에 도달했습니다. 오차에 대한 근사 경계는 {0}입니다. 적분이 존재하지 않거나 숫자상으로 근사치를 계산하기 어려울 수 있습니다. MaxIntervalCount를 {1,number,integer}(으)로 증가시켜 다른 반복에 대해 QUADGK를 계속 사용할 수 있습니다.</entry>
+    <entry key="MinStepSize">최소 스텝 크기가 x = {0} 근처에 도달했습니다. 특이점인 경우일 수 있습니다.</entry>
+    <entry key="WaypointsNotVector">중간점은 벡터여야 합니다.</entry>
+    <entry key="WaypointsNotFinite">중간점은 유한해야 합니다.</entry>
+  </message>
+</rsccat>

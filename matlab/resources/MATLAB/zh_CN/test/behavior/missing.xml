@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SameClass">MissingValue 和 PrototypeValue 必须是相同的类。</entry>
+    <entry key="IsMissingValue">ismissing(MissingValue) 必须为 true。</entry>
+    <entry key="PrototypeNotMissing">PrototypeValue 不能为 missing。</entry>
+    <entry key="ScalarConversion">{0}(missing) 必须返回 MissingValue。</entry>
+    <entry key="MatrixConversion">{0} 必须对 missing 进行保留输入形状的矩阵转换。</entry>
+    <entry key="MissingConversion">missing({0})一定会引发 MATLAB:UnableToConvert。</entry>
+    <entry key="ConversionConversion">{0}(missing) 必须返回 {0} 的一个缺失值。</entry>
+    <entry key="ConversionRoundTrip">{0}({1}(missing)) 必须返回 {0}(missing)。</entry>
+    <entry key="ScalarAssignment">如果将 missing 赋给索引，则必须将其设置为 MissingValue。</entry>
+    <entry key="ExpansionAssignment">如果将 missing 标量赋给索引数组，则必须将它们设置为 MissingValue。</entry>
+    <entry key="ArrayAssignment">如果将 missing 数组赋给索引数组，则必须将它们设置为 MissingValue。</entry>
+    <entry key="Horzcat">[PrototypeValue, missing] 必须生成 [PrototypeValue, MissingValue]。</entry>
+    <entry key="Cat2">cat(2, PrototypeValue, missing) 必须返回 [PrototypeValue, MissingValue]。</entry>
+    <entry key="Vertcat">[PrototypeValue; missing] 必须生成 [PrototypeValue; MissingValue]。</entry>
+    <entry key="Cat1">cat(1, PrototypeValue, missing) 必须返回 [PrototypeValue; MissingValue]。</entry>
+    <entry key="EqualFalse">MissingValue == MissingValue 必须为 false，因为所有缺失值都不相等。</entry>
+    <entry key="NotEqualTrue">MissingValue ~= MissingValue 必须为 true，因为所有缺失值都不相等。</entry>
+    <entry key="LessThanFalse">MissingValue &lt; MissingValue 必须为 false。</entry>
+    <entry key="GreaterThanFalse">MissingValue &gt; MissingValue 必须为 false。</entry>
+    <entry key="LessThanOrEqualFalse">MissingValue &lt;= MissingValue 必须为 false，因为所有缺失值都不相等。</entry>
+    <entry key="GreaterThanOrEqualFalse">MissingValue &gt;= MissingValue 必须为 false，因为所有缺失值都不相等。</entry>
+    <entry key="IsEqualMissingValueMissing">isequal(MissingValue, missing) 必须返回 false，因为所有缺失值都不相等。</entry>
+    <entry key="IsEqualMissingMissingValue">isequal(missing, MissingValue) 必须返回 false，因为所有缺失值都不相等。</entry>
+    <entry key="IsEqualMissingValueMissingValue">isequal(MissingValue, MissingValue) 必须返回 false，因为所有缺失值都不相等。</entry>
+    <entry key="IsEqualnMissingValueMissing">isequaln(MissingValue, missing) 必须返回 true。</entry>
+    <entry key="IsEqualnMissingMissingValue">isequaln(missing, MissingValue) 必须返回 true。</entry>
+    <entry key="IsEqualnMissingValueMissingValue">isequaln(MissingValue, MissingValue) 必须返回 true。</entry>
+    <entry key="IsMissingMissingIndicator">ismissing(MissingValue, missing) 必须返回 true。</entry>
+    <entry key="IsMissingMissingValueIndicator">ismissing(MissingValue, MissingValue) 必须返回 true。</entry>
+    <entry key="IsNotMissingMissingIndicator">ismissing(PrototypeValue, missing) 必须返回 false。</entry>
+    <entry key="IsMissingPrototypeIndicator">ismissing(PrototypeValue, PrototypeValue) 必须返回 true。</entry>
+    <entry key="FillValue">对于增大数组的赋值，填充值必须为 MissingValue。</entry>
+    <entry key="AssignToEmptyMissing">如果将 PrototypeValue 赋给空 missing 数组，则必须引发 MATLAB:UnableToConvert。</entry>
+  </message>
+</rsccat>

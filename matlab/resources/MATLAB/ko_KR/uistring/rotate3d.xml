@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Reset">원래 보기로 초기화</entry>
+    <entry key="SnapToXY">X-Y 보기로 이동</entry>
+    <entry key="SnapToXZ">X-Z 보기로 이동</entry>
+    <entry key="SnapToYZ">Y-Z 보기로 이동</entry>
+    <entry key="Rotate_Options">회전 옵션</entry>
+    <entry key="Rotate_Fast">플롯 상자 회전</entry>
+    <entry key="Rotate_Continuous">연속 회전</entry>
+    <entry key="StretchToFill">좌표축 늘여서 채우기</entry>
+    <entry key="FixedAspectRatio">고정된 종횡비 좌표축</entry>
+    <entry key="Azimuth">Az</entry>
+    <entry key="Elevation">El</entry>
+  </message>
+</rsccat>

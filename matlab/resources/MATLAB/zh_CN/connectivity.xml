@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ObjectAlreadyParented">要插入到树中的对象不能有父级。</entry>
+    <entry key="NoCyclicTrees">禁止创建循环树。</entry>
+    <entry key="InvalidHeterogeneousTree">尝试创建无效的异构树。异构树中的所有对象必须共享作为 matlab.mixin.Heterogeneous 的直接子类的同一超类。</entry>
+    <entry key="InvalidThirdArgument">第三个参数必须为 ''first'' 或 ''last''。</entry>
+    <entry key="RequireParentedObject">输入参数 h 必须为具有父级的对象。</entry>
+    <entry key="DuplicateObjectsAddChildren">CHILDREN 不能包含重复句柄。</entry>
+    <entry key="DuplicateObjectsInsert">SIBLINGS 不能包含重复句柄。</entry>
+  </message>
+</rsccat>

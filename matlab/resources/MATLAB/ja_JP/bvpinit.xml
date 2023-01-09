@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoSolInterval">BVPINIT(SOL,[ANEW BNEW]) に [ANEW BNEW] を指定していません。</entry>
+    <entry key="XSameEndPts">x の入力は a = x(1) ~= x(end) = b を満たさなければなりません。</entry>
+    <entry key="IncreasingXNotMonotonic">x の入力は a = x(1) &lt; x(2) &lt; ... &lt; x(end) = b を満たさなければなりません。</entry>
+    <entry key="DecreasingXNotMonotonic">x の入力は a = x(1) &gt; x(2) &gt; ... &gt; x(end) = b を満たさなければなりません。</entry>
+    <entry key="SolGuessNotVector">解に対する推定はベクトルを返さなければなりません。</entry>
+  </message>
+</rsccat>

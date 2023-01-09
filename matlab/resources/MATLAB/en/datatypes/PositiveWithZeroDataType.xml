@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="MustBeFinite">Value should be a finite double number.</entry>
+    <entry key="MustBeNotNegative">Value should be a double number greater than or equal to 0. </entry>
+    <entry key="MustBePositive"> Value should be a double number greater than 0.</entry>
+    <entry key="MustBeANumericScalar">Value should be a numeric scalar.</entry>
+    <entry key="MustBeNotNaN"> Value should be a number. </entry>
+  </message>
+</rsccat>

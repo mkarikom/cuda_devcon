@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RequireCell">{0} オプションを使用する場合、入力配列は cell 配列でなければなりません。</entry>
+    <entry key="RequireLogical">{0} オプションを使用する場合、入力配列は logical でなければなりません。</entry>
+    <entry key="RequireText">{0} オプションを使用する場合、入力配列は string または char でなければなりません。</entry>
+    <entry key="DigitGroupSeparatorWrongFormat">The current display format is {0} but the {1} option can only be used with the following formats:{2}</entry>
+  </message>
+</rsccat>

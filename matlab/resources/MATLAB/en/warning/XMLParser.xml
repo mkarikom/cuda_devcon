@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed">
+  <message>
+    <entry key="MissingAttribute">Element ''{0}'' must have a ''{1}'' attribute.</entry>
+    <entry key="ImmutableElement">Element ''{0}'' found inside an immutable tag.</entry>
+    <entry key="InvalidArgType">Argument type ''{0}'' is not supported.</entry>
+    <entry key="InvalidHexEntry">Invalid hex value found in escape sequence: ''{0}''</entry>
+    <entry key="InvalidIdentifier">''{0}'' is not a valid message identifier.</entry>
+    <entry key="InvalidLine">Line value ''{0}'' is not an unsigned integer.</entry>
+    <entry key="InvalidTimeFormat">Time not in expected format.</entry>
+    <entry key="InvalidWasDisabled">WasDisabled value ''{0}'' is not ''true'' or ''false''.</entry>
+    <entry key="NestedLog">Nested log tags are not allowed.</entry>
+    <entry key="NestedWarning">Nested warning tags are not allowed.</entry>
+    <entry key="ParseError">Error Parsing XML: {0} at line {1,number,integer}, column {2,number,integer}.</entry>
+    <entry key="UnexpectedElement">Element ''{0}'' found outside of a warning tag.</entry>
+    <entry key="UnknownAttribute">Element ''{0}'' does not support the ''{1}'' attribute.</entry>
+    <entry key="UnknownElement">Element ''{0}'' is not supported.</entry>
+    <entry key="UnmatchedEscapedCharacter">Escape sequence did not contain matching escape character (''{0}''): ''{1}''.</entry>
+  </message>
+</rsccat>

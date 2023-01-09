@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ErrorInCustomFunction">无法使用自定义\n更新函数来更新数据提示</entry>
+    <entry key="InvalidIndex">索引必须是大于 0 的标量整数值。</entry>
+    <entry key="InvalidPixelPosition">位置必须是 1x2 数值向量。</entry>
+    <entry key="InvalidPositionPolygon">位置多边形必须是包含至少 3 列的 2xn 矩阵。</entry>
+    <entry key="InvalidDirection">方向必须是“向上”、“向下”、“向左”或“向右”之一。</entry>
+    <entry key="InvalidPrimitivePosition">位置必须是 PrimitivePoint 标量对象。</entry>
+    <entry key="InvalidBehaviorHelper">无法构造 DataCursorBehaviorHelper 对象。</entry>
+    <entry key="MethodNotImplemented">受保护方法 "{0}" 必须在 DataAnnotatable 接口中实现。</entry>
+  </message>
+</rsccat>

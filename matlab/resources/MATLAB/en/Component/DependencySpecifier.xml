@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <entry key="InvalidName" translate="false">Name must be a string scalar.</entry>
+        <entry key="InvalidUniqueId" translate="false">Unique identifier must be a matlab.component.UniqueIdentifier scalar.</entry>
+        <entry key="InvalidVersion" translate="false">Version must be a matlab.component.Version scalar.</entry>
+        <entry key="InvalidDependencySpecifier" translate="false">Dependency specifier must be a scalar matlab.component.DependencySpecifier.</entry>
+        <entry key="InvalidComponent" translate="false">Component must be an array of matlab.component.Component.</entry>
+    </message>
+</rsccat>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">入力引数が不足しています。</entry>
+    <entry key="NonSquareMatrix">正方行列でなければなりません。</entry>
+    <entry key="RSHnotColumn">右辺は列ベクトルでなければなりません。</entry>
+    <entry key="tooSmallTolerance">入力 tol は BICG では到達しない可能性があります\n         より大きな許容誤差を使用してください</entry>
+    <entry key="TooManyInputs">入力引数が多すぎます。</entry>
+    <entry key="RSHsizeMismatchCoeffMatrix">右辺は、係数行列と一致する長さ {0,number,integer} の列ベクトルでなければなりません。</entry>
+    <entry key="tooBigTolerance">入力 tol が 1 より大きな値となっています。\n         もっと小さな許容誤差を使用してください</entry>
+    <entry key="WrongPrecondSize">前処理行列は、問題のサイズと一致するサイズ {0,number,integer} の正方行列でなければなりません。</entry>
+    <entry key="WrongInitGuessSize">初期推定は、問題のサイズと一致する長さ {0,number,integer} の列ベクトルでなければなりません。</entry>
+  </message>
+</rsccat>

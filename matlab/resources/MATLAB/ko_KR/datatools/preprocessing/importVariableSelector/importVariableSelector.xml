@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="VARIABLE_SELECTOR_NAME">작업 공간에서 가져오기</entry>
+    <entry key="VARIABLE_SELECTOR_TEXT">테이블 또는 타임테이블 선택</entry>
+    <entry key="VARIABLE_SELECTOR_SUB_TEXT">변수</entry>
+    <entry key="CANCEL_BUTTON_TEXT">취소</entry>
+    <entry key="OK_BUTTON_TEXT">확인</entry>
+    <entry key="NO_VAR_WARNING">작업 공간에 테이블이 없음</entry>
+    <entry key="NO_DATA_WARNING">사용 가능한 데이터 없음</entry>
+    <entry key="COL_NAME_1">이름</entry>
+    <entry key="COL_NAME_2">클래스</entry>
+    <entry key="COL_NAME_3">크기</entry>
+  </message>
+</rsccat>

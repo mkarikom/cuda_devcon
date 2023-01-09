@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ANotMatrixOrFunction">A 必须为矩阵或函数。</entry>
+    <entry key="TOutOfRange">T 必须为一个介于 1 与 N = MAX(SIZE(A)) 之间的整数。</entry>
+    <entry key="WrongColNum">X0 应该有 {0} 列。</entry>
+    <entry key="Failure">函数 {0}\n失败，错误信息如下:\n\n{1}</entry>
+    <entry key="MatrixSizeMismatchFlag">当 flag == ''{3}'' 时，函数 {0} 只能返回一个 {1,number,integer} × {2,number,integer} 的矩阵</entry>
+    <entry key="NegInt">当 flag == ''{1}'' 时，函数 {0} 只能返回一个非负整数</entry>
+    <entry key="Not0or1">当 flag == ''{1}'' 时，函数 {0} 只能返回 0 或 1</entry>
+    <entry key="NoIterationNormComputedExactly">没有进行迭代 – 模已精确计算出。\n</entry>
+    <entry key="TerminateIterationLimitReachedn">*终止: 达到迭代次数的上限。\n</entry>
+    <entry key="TerminateEstimateNotIncreased">*终止: 估计值的精度没有再提高。\n</entry>
+    <entry key="TerminateRepeatedSignMatrix">*终止: 符号矩阵重复。\n</entry>
+    <entry key="TerminatePowerMethodConvergenceTest">*终止: power 方法收敛测试。\n</entry>
+    <entry key="TerminateRepeatedUnitVectors">*终止: 单位向量重复。\n</entry>
+    <entry key="ParallelCols">并行列数: {0}\n</entry>
+    <entry key="RepeatedUnitVectors">重复的单位向量: {0}\n</entry>
+    <entry key="UnduplicateRpt">未重复，rpt = {0}\n</entry>
+  </message>
+</rsccat>

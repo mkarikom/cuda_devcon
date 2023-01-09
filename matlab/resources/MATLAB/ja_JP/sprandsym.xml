@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ndInput">N 次元スパース配列はサポートされていません。</entry>
+    <entry key="invalidRC">rc は 0 より大きく 1 以下でなければなりません。</entry>
+    <entry key="firstArgNotScalar">1 番目の引数はスカラーでなければなりません</entry>
+  </message>
+</rsccat>

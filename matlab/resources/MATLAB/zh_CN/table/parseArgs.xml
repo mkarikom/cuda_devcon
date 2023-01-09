@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WrongNumberArgs">参数的数目不正确。</entry>
+    <entry key="IllegalParamName">参数名称无效。参数名称必须为非空字符串或字符向量。</entry>
+    <entry key="BadParamName">参数名称 {0} 无效。</entry>
+    <entry key="BadParamNamePossibleCharRowData">参数名称 {0} 无效。</entry>
+    <entry key="AmbiguousParamName">参数名称 {0} 具有多义性。</entry>
+  </message>
+</rsccat>

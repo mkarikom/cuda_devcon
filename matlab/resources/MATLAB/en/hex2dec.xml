@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InputMustBeString">Input argument must be a character vector, string, or cell array of character vectors.</entry>
+    <entry key="IllegalHexadecimal">Text must consist of the characters 0-9, a-f, A-F and optionally can contain a 0x prefix or type suffix.  Additionally, the text input must convert to less than intmax.</entry>
+    <entry key="InputExceedsFlintmax">Hexadecimal numbers representing integers greater than or equal to flintmax might not be represented exactly as double-precision floating-point values.</entry>
+    <entry key="InvalidCharacters">Hexadecimal text must consist of characters 0-9 and A-F.</entry>
+    <entry key="TooManyDigits">Hexadecimal text has too many digits for specified or implied type suffix.</entry>
+    <entry key="SuffixRequiresPrefix">Use of type suffix in hexadecimal text requires the use of 0x prefix.</entry>
+  </message>
+</rsccat>

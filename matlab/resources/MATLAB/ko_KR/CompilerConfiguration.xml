@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidList">두 번째 입력 인수 LIST는 문자형 벡터 값 ''Selected'', ''Installed'', ''Supported'' 중 하나여야 합니다.</entry>
+    <entry key="NoSelectedOptionsFile">''Selected'' 컴파일러를 찾을 수 없습니다.  mex -setup을 실행해야 할 수 있습니다.</entry>
+    <entry key="invalidLang">첫 번째 입력값은 ''C'', ''CPP'', ''C++'', ''Fortran'', ''Any'' 중 지원되는 언어의 문자형 벡터여야 합니다.</entry>
+    <entry key="OldStyleStorage">사용된 저장 유형이 이전 스타일입니다.  다음 파일이 만료됨:\n{0}</entry>
+    <entry key="storageTooNew">사용된 저장 유형이 현재 지원되는 버전보다 최신입니다.  다음 파일의 저장 버전이 맞지 않음:\n{0}</entry>
+  </message>
+</rsccat>

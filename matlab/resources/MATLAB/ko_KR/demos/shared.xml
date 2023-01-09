@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelInfo">정보</entry>
+    <entry key="LabelClose">닫기</entry>
+    <entry key="LabelHelp">도움말</entry>
+    <entry key="LabelFlag">플래그</entry>
+    <entry key="LabelNew">새로 만들기</entry>
+    <entry key="LabelStart">시작</entry>
+    <entry key="LabelStop">중지</entry>
+    <entry key="LabelReset">재설정</entry>
+    <entry key="LabelAutoPlay">자동 재생</entry>
+    <entry key="LabelNext">다음</entry>
+    <entry key="LabelPrevious">이전</entry>
+    <entry key="LabelDoneLC">완료</entry>
+    <entry key="LabelSlowerLC">느리게</entry>
+    <entry key="LabelFasterLC">빠르게</entry>
+    <entry key="CommentPressButtonsForExamplePlots"> % 예제 플롯을 실행하려면 오른쪽에 있는 버튼을 누릅니다.</entry>
+    <entry key="TitleProdNameDemos">{0} 데모</entry>
+    <entry key="TitleInformation">정보</entry>
+    <entry key="LabelPage">{0}페이지</entry>
+    <entry key="IllegalPlotNumber">부적절한 플롯 번호입니다.</entry>
+    <entry key="IndexExceedsNumberOfSubplots">인덱스가 서브플롯 개수를 초과합니다.</entry>
+    <entry key="FinddemoFileNotFound">"{0}"을(를) 찾을 수 없습니다.\n경로 캐시가 최신 상태가 아닐 수 있습니다. "rehash toolboxcache"를 사용하여 업데이트하십시오.</entry>
+    <entry key="InputCountIncorrect">입력 인수의 개수가 올바르지 않습니다.</entry>
+  </message>
+</rsccat>

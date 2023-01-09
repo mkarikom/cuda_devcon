@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="WrongNumberArgs">Wrong number of arguments.</entry>
+    <entry key="IllegalParamName">Invalid parameter name. Parameter name must be a nonempty string or character vector.</entry>
+    <entry key="BadParamName">Invalid parameter name: {0}.</entry>
+    <entry key="BadParamNamePossibleCharRowData">Invalid parameter name: {0}.</entry>
+    <entry key="AmbiguousParamName">Ambiguous parameter name: {0}.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- Copyright 2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="MustBeMatrix">Input array must be a vector or matrix.</entry>
+	<entry key="complexIntegers">Complex integers are not supported. </entry>
+    <entry key="MustNotBeCell">Cell arrays must contain character vectors.</entry>
+	<entry key="InvalidK">Number of rows to return must be a nonnegative integer.</entry>
+    <entry key="ColNotIndexVec">Column sorting vector must contain positive integers between 1 and the number of columns in the first argument.</entry>	
+	<entry key="SortRowsMode">Sorting direction must be ''descend'' or ''ascend''.</entry>
+	<entry key="NumDirectionsThird">Sorting direction must specify one direction or a direction for each column in the first argument.</entry>
+    <entry key="NumDirectionsFourth">Sorting direction must specify one direction or a direction for each element of the column sorting vector.</entry>
+    <entry key="ThirdArgumentType">Third argument must specify a column sorting vector or sorting direction.</entry>
+    <entry key="FourthArgumentType">Sorting direction must be a character vector or cell array of character vectors.</entry>
+    <entry key="InvalidAbsRealType">''ComparisonMethod'' parameter only supported when input array is numeric or logical.</entry>
+    <entry key="InvalidComparison">''ComparisonMethod'' value must be ''auto'', ''abs'', or ''real''.</entry>
+    <entry key="NameValueNames">Parameter name must be 'ComparisonMethod'.</entry>
+    <entry key="NameValuePairs">Incorrect number of input arguments. Parameter names and values must occur in pairs.</entry>
+    <!-- Codgen error messages -->
+    <entry key="InvalidX">Invalid data type. First argument must be a numeric, logical, categorical, or character array, or character cell array.</entry>
+    <entry key="CellsNotSupported">For code generation, cell array inputs to 'topkrows' are not supported.</entry>
+  </message>
+</rsccat>

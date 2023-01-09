@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="SparseNotSupported">Sparse arrays not supported.</entry>
+    <entry key="FirstArgIsInvalid">First argument must contain finite integers.</entry>
+    <entry key="InvalidWidth">Column width must be a positive scalar numeric.</entry>
+    <entry key="NegativeValueOutOfRange">First argument must be greater than intmin('int64').</entry>    
+    <entry key="ValueOutOfRange">First argument must be less than 2^96.</entry>    
+  </message>
+</rsccat>

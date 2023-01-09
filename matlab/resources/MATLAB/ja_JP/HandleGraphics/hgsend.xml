@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidCallback">\"{0}\" は認識されないコールバックです。</entry>
+    <entry key="NoScrollCount">EventData 構造体が付与されるときは、VerticalScrollCount を指定しなければなりません。</entry>
+    <entry key="VerticalScrollCountNotScalar">VerticalScrollCount はスカラーでなければなりません。</entry>
+    <entry key="VerticalScrollCountNotNumeric">VerticalScrollCount は数値 (通常は整数) でなければなりません。</entry>
+    <entry key="NoScrollAmount">EventData 構造体が付与されるときは、VerticalScrollAmount を指定しなければなりません。</entry>
+    <entry key="VerticalScrollAmountNotScalar">VerticalScrollAmount はスカラーでなければなりません。</entry>
+    <entry key="VerticalScrollAmountNotNumeric">VerticalScrollAmount は数値 (通常は正の整数) でなければなりません。</entry>
+    <entry key="invalidSelectionType">SelectionType が無効です。有効値は、''normal''、''open''、''extend''、および ''alt'' です。</entry>
+    <entry key="NoSelectionType">EventData 構造体が付与されるときは、SelectionType を指定しなければなりません。</entry>
+    <entry key="EmptySelectionType">SelectionType を空にすることはできません。</entry>
+    <entry key="MustBeChar">'SelectionType' の値は ''normal''、''extend''、''alt'' または ''open'' でなければなりません。</entry>
+    <entry key="StringTooLong">SelectionType が無効です。有効値は、''normal''、''open''、''extend''、および ''alt'' です。</entry>
+    <entry key="NoCurrentPixelPoint">EventData 構造体を指定するときは、CurrentPixelPoint を付与しなければなりません。</entry>
+    <entry key="EmptyCurrentPixelPoint">CurrentPixelPoint を空にすることはできません。</entry>
+    <entry key="CurrentPixelPointNotNumeric">CurrentPixelPoint は数値でなければなりません。</entry>
+    <entry key="CurrentPixelPointWrongSize">CurrentPixelPoint は、ピクセル単位の 1 行 2 列の double 配列です</entry>
+    <entry key="CurrentPixelPointOverflow">CurrentPixelPoint が大きすぎます。</entry>
+    <entry key="KeyNotProvided">EventData 構造体が付与されるときは、キーを指定しなければなりません。</entry>
+    <entry key="InvalidKey">キー値は空の配列、string スカラー、またはキー名の文字ベクトル (''A''、''B''、''return''、''escape'' など) でなければなりません。</entry>
+    <entry key="TabIndexNotScalarNumeric">タブ インデックスはスカラー数値でなければなりません。</entry>
+    <entry key="MustBeTabGroup">SelectionChangedFcn のソース オブジェクトは uitabgroup でなければなりません。</entry>
+    <entry key="TabIndexOutOfBounds">指定されたタブ インデックスは範囲外です。</entry>
+    <entry key="NoIndices">EventData 構造体が付与されるときは、インデックスを指定しなければなりません。</entry>
+    <entry key="EmptyIndices">インデックスを空にしないでください。</entry>
+    <entry key="IndicesNotNumeric">インデックスは数値でなければなりません。</entry>
+    <entry key="CellSelectionIndicesWrongSize">インデックスは有効なセルの選択を意味する n 行 2 列の配列でなければなりません</entry>
+    <entry key="CellEditIndicesWrongSize">インデックスは有効なセルの編集対象を意味する 1 行 2 列の配列でなければなりません</entry>
+    <entry key="NoEditData">EventData 構造体が付与されるときは、EditData を指定しなければなりません。</entry>
+    <entry key="EditDataInvalidType">'EditData' の値は string スカラー、文字ベクトルまたは logical 値でなければなりません。</entry>
+    <entry key="InvalidObject">無効な HG オブジェクト</entry>
+    <entry key="MustBeScalar">HG オブジェクトはスカラーでなければなりません。</entry>
+    <entry key="RootNotSupported">root オブジェクトに何も送信できません。</entry>
+    <entry key="incorrect_usage">hgsend への 2 番目の入力は char 型でなければなりません</entry>
+    <entry key="invalidEventData">イベント データは空でない構造体でなければなりません</entry>
+    <entry key="GetError">不明な get の呼び出しエラー</entry>
+    <entry key="SetError">不明な set の呼び出しエラー</entry>
+    <entry key="componentShouldBeVisible">コンポーネントは Window イベントを送信する前に可視化されていなければなりません</entry>
+    <entry key="unsupportedCallback">イベント データはタイプ {0} のコールバックに対してサポートされません</entry>
+    <entry key="InvalidVerticalScrollAmount">イベント データはフィールド VerticalScrollAmount (整数 - 通常 1) をもたなければなりません</entry>
+    <entry key="InvalidVerticalScrollCount">イベント データはフィールド VerticalScrollCount (整数 - 通常 1 または -1) をもたなければなりません</entry>
+    <entry key="InvalidModifiers">イベント データには、フィールド Modifier (空の配列、string スカラー、または control、shift、alt の文字ベクトルをもつ cell 配列) が含まれなければなりません</entry>
+    <entry key="InvalidCurrentPixelPoint">イベント データはフィールド CurrentPixelPoint (1 行 2 列の double 配列 - ピクセル単位) をもたなければなりません</entry>
+    <entry key="UnrecognizedModifier">オプション {0} が無効です。修飾子を ''control''、''shift'' または ''alt'' として指定してください。</entry>
+    <entry key="ModifierMustBeChar">修飾子を ''control''、''shift'' または ''alt'' として指定してください。</entry>
+    <entry key="UnknownEventRecord">イベント記録の初期化中のエラー</entry>
+    <entry key="NotHGSendPollable">Java イベント上に isFinished メソッドが見つかりません。このイベントは HGSendPOllable を実装しますか?</entry>
+    <entry key="FigureBeingDestroyed">Figure がイベント応答を待つ間に破棄されました</entry>
+    <entry key="PollingFailure">イベント応答に対するタイムアウト待ち (10 秒)</entry>
+    <entry key="NotEventChain">HG2 では、qehgsend は GBT オブジェクトのみをサポートしています。Axes または Axes の子との相互動作を行う場合は、上位の qehgtools (qehgclick、qehgtype、qehgdrag など) を使用してください。</entry>
+    <entry key="InvalidHandleArray">qehgsend に渡されたハンドルが無効です。</entry>
+    <entry key="PropertyNameIsUnrecognised">プロパティ名が認識されません。</entry>
+    <entry key="InvalidPropertyFound">無効なプロパティが見つかりました。</entry>
+    <entry key="IllformedJavaEvent">このコンポーネントには JavaEvent を作成できませんでした。</entry>
+    <entry key="UnsupportedJavaEvent">指定されたイベントは、Java イベントである hgsend の実装ではサポートされていません。</entry>
+  </message>
+</rsccat>

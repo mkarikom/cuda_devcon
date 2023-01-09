@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="fl_ustring">
+  <message>
+    <entry key="CurrDir">{0} in the current folder {1}\n</entry>
+    <entry key="NotcurrDir">{0} in folder {1}\n</entry>
+    <entry key="NotFound">{0} not found.\n</entry>
+    <entry key="Directory" note="Used to fill hole in MATLAB:string:MustBeSingleString">Directory</entry>
+  </message>
+</rsccat>

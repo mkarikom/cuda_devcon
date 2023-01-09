@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidArgument">인수 "{0}"이(가) 유효하지 않습니다.</entry>
+    <entry key="ExampleNotFound">"{1}"에서 예제 "{0}"을(를) 찾을 수 없습니다.</entry>
+    <entry key="InvalidDirectory">디렉터리 인수는 문자형 벡터여야 합니다.</entry>
+    <entry key="EmptyDirectory">디렉터리 인수는 비어 있지 않아야 합니다.</entry>
+    <entry key="PathNotValid">디폴트 디렉터리 이름에 지원되지 않는 문자가 포함되어 있기 때문에 작업 디렉터리를 생성할 수 없습니다. 예제를 열려면 'workDir' 옵션을 사용하여 다른 작업 디렉터리를 선택하십시오. 이 옵션의 사용 방법에 대한 자세한 내용을 보려면 "help openExample"을 입력하십시오.</entry>
+    <entry key="UnsupportedDirectoryName">작업 디렉터리 이름에 지원되지 않는 제어 문자가 포함되어 있습니다. 이러한 문자를 포함하지 않는 작업 디렉터리 이름을 지정하십시오.</entry>
+    <entry key="FunctionInMultipleExamples">''{0}''은(는) 다음 예제에 사용됨: {1}</entry>
+    <entry key="FunctionInSingleExample">''{0}''은(는) {1}에 사용되었습니다.</entry>
+  </message>
+</rsccat>

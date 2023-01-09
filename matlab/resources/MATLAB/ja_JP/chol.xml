@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="matrixMustBePosDefWithRealDiag">行列は、実数の対角要素をもつ正定値でなければなりません。</entry>
+    <entry key="CHOLMODinternal">アルゴリズムは成功しませんでした。\nライブラリ CHOLMOD の内部エラーです。</entry>
+    <entry key="inputType">データ型が無効です。最初の引数は double 行列または single 行列でなければなりません。</entry>
+    <entry key="inputMustBe2D">入力配列の次元数が多すぎます。配列は 2 次元でなければなりません。</entry>
+    <entry key="DenseTwoInputOnly">入力引数が多すぎます。密な入力行列では、1 つまたは 2 つの入力引数を指定してください。</entry>
+    <entry key="DenseTwoOutputOnly">3 番目の出力はスパース行列でのみ使用できます。</entry>
+  </message>
+</rsccat>

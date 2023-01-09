@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" decorate_cxx_names="true">
+  <message>
+    <entry key="ErrorMessageGetWarning">The ErrorMessage property will be removed in a future release. At the command line, use MException.last instead.</entry>
+    <entry key="ErrorMessageSetWarning">The ErrorMessage property will be removed in a future release.</entry>
+    <entry key="ErrorMessageGetError">The ErrorMessage property has been removed. At the command line, use MException.last instead.</entry>
+    <entry key="ErrorMessageSetError">The ErrorMessage property has been removed.</entry>
+    <entry key="ExpectedNonNegativeInteger">Property value must be an integer &gt;= 0</entry>
+    <entry key="MadeMarkerAndLineStyleSeparateProperties">Setting marker type based on ''LineStyle'' property\n         ''Marker'' and ''LineStyle'' have been made separate properties\n         Use ''Marker'' property to remove this warning</entry>
+  </message>
+</rsccat>

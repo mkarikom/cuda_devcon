@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="IncorrectFilenameType" note="stringDatatypeUpdate">FILENAME must be a character vector, a string scalar, or a subclass of java.io.Writer or a subclass of java.io.OutputStream.</entry>
+    <entry key="TildePathsNotSupported">Relative paths not supported. Specify an absolute path that includes the file name or to write to the current folder specify only the file name.</entry>
+  </message>
+</rsccat>

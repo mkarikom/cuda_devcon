@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invts">append 方法的所有参数都必须是时序对象。</entry>
+    <entry key="nooverlap">指定时序的时间向量必须是连续的。</entry>
+    <entry key="errdim">各个数据数组的样本大小必须相同。</entry>
+  </message>
+</rsccat>

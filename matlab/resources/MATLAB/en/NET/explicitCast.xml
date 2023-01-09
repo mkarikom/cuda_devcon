@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\schema\msgcat.xsd" decorate_cxx_names="1">
+  <message>
+    <entry key="RequireNetObject">First argument must be a valid .NET object.</entry>
+    <entry key="InvalidCast">Unable to convert the object of ''{0}'' type to object of ''{1}'' type.\nPlease make sure that the input object implements an interface type supplied for conversion.</entry>
+    <entry key="ValueTypeUnsupported">Conversion of value type objects to an interface type is not allowed.</entry>
+    <entry key="UnsupportedInterfaceEvents">Adding event listeners to objects of interface type is not allowed.</entry>    
+    <entry key="UnsupportedInterfaceConversion">Conversion of objects implementing an interface is not allowed.</entry>
+    <entry key="UnsupportedClassToClass">Conversion of objects to objects of another class is not allowed.</entry>
+    <entry key="UnsupportedClassToGeneric">Conversion of objects to .NET generic types is not allowed.</entry>    
+  </message>
+</rsccat>

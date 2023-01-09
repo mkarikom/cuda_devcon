@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidCandidateNames">最初の引数は、string 配列、文字ベクトルまたは文字ベクトルのセル配列でなければなりません。</entry>
+    <entry key="InvalidPrefix">'Prefix' の値は文字で始まらなければならず、英数字およびアンダースコアのみを含まなければなりません。また、MATLAB キーワードであってはなりません。</entry>
+    <entry key="InvalidReplacementStyle">'ReplacementStyle' は、'delete'、'underscore' または 'hex' でなければなりません。</entry>
+    <entry key="MissingNames">最初の入力引数では {0} 値はサポートされていません。</entry>
+    <entry key="TooLongPrefix">接頭辞の長さは NAMELENGTHMAX 以下でなければなりません。</entry>
+  </message>
+</rsccat>

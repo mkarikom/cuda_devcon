@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CannotSetState">''on''、''off''、または ''query'' と組み合わせて {0} を設定することはできません。</entry>
+    <entry key="CannotFreeze">''-freeze'' と組み合わせて {0} を使用することはできません。</entry>
+    <entry key="CannotPause">2 つの数値引数を使用する一時停止はサポートされていません。</entry>
+    <entry key="PauseNoArgsNotSupported">非対話型のコンテキストにおいて、引数のない一時停止はサポートされていません。</entry>
+  </message>
+</rsccat>

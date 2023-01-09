@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInsetException">Inset의 값은 음수가 아니어야 합니다.</entry>
+    <entry key="RectangleCrossedPointsException">Rectangle에 유효하지 않은 값임. xmin &gt; xmax 또는 ymin &gt; ymax 중 하나여야 함</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ANotMatrixOrFunction">A는 행렬 또는 함수여야 합니다.</entry>
+    <entry key="TOutOfRange">T는 1과 N = MAX(SIZE(A)) 사이의 정수여야 합니다.</entry>
+    <entry key="WrongColNum">X0에는 {0}개의 열이 있어야 합니다.</entry>
+    <entry key="Failure">함수 {0}이(가)\n다음 오류로 인해 실패함:\n\n{1}</entry>
+    <entry key="MatrixSizeMismatchFlag">함수 {0}은(는) flag == ''{3}''일 때 {1,number,integer}×{2,number,integer} 행렬을 반환해야 함</entry>
+    <entry key="NegInt">함수 {0}은(는) flag == ''{1}''일 때 음이 아닌 정수를 반환해야 함</entry>
+    <entry key="Not0or1">함수 {0}은(는) flag == ''{1}''일 때 0 또는 1을 반환해야 함</entry>
+    <entry key="NoIterationNormComputedExactly">반복 없음 - 노름(Norm)이 정확하게 계산됨\n</entry>
+    <entry key="TerminateIterationLimitReachedn">*종료: 반복 한도에 도달했습니다.\n</entry>
+    <entry key="TerminateEstimateNotIncreased">*종료: 추정값이 증가하지 않았습니다.\n</entry>
+    <entry key="TerminateRepeatedSignMatrix">*종료: 부호 행렬이 반복되었습니다.\n</entry>
+    <entry key="TerminatePowerMethodConvergenceTest">*종료: 거듭제곱법의 수렴 테스트입니다.\n</entry>
+    <entry key="TerminateRepeatedUnitVectors">*종료: 반복된 단위 벡터입니다.\n</entry>
+    <entry key="ParallelCols">병렬 열: {0}\n</entry>
+    <entry key="RepeatedUnitVectors">반복된 단위 벡터: {0}\n</entry>
+    <entry key="UnduplicateRpt">복제되지 않음, rpt = {0}\n</entry>
+  </message>
+</rsccat>

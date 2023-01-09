@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2011-2020 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="InvalidXYData">{0} and {1} must be vectors of the same length, matrices of the same size, or a combination of a vector and a matrix where the length of the vector matches either the number of rows or columns of the matrix.</entry>
+      <entry key="InvalidSData">S must be a scalar or a vector of the same length as X.</entry>
+      <entry key="InvalidCData">Color must be one RGB triplet, an m-by-3 matrix of RGB triplets with one color per scatter point, or an m-by-1 vector with one value per scatter point.</entry>
+      <entry key="NoDataInputs">Must supply X and Y data as first arguments.</entry>
+      <entry key="DataLengthMustMatch">Data lengths must match.</entry>
+      <entry key="SizeColorType">Area and color arguments must be numeric or objects which can be converted to double.</entry>
+      <entry key="ArgNameValueMismatch">Trailing input arguments must occur in name-value pairs.</entry>
+      <entry key="CDataMustBeSingleColorSpec">CData must be an RGB triplet.</entry>
+      <entry key="InvalidTallData">Tall inputs must be real column vectors.</entry>
+      <entry key="InvalidJittertype">Invalid jitter values. Specify density jitter type in one dimension for 2-D scatter, or in two dimensions for 3-D scatter.</entry>
+      <entry key="InvalidSwarmData">{0} must be numeric or categorical.</entry>
+      <entry key="MultipleColorSpecs">Specify only one named color or use an m-by-3 matrix of RGB triplets to specify multiple colors.</entry>
+      <entry key="MultipleMarkerSpecs">Specify only one marker.</entry>
+      <entry key="InvalidXYSizeData">{0}, {1}, and marker size arguments must be vectors of the same length, matrices of the same size, or a mix of vectors and matrices where the length of the vectors matches either the number of rows or columns of the matrices.</entry>
+      <entry key="LocationDesc">Location of scatter plot</entry>
+      <entry key="InvalidTableArguments">To use {0} with a table, specify a table followed by {1} and {2} variables. Size and color can be specified using name-value pairs.</entry>
+   </message>
+</rsccat>

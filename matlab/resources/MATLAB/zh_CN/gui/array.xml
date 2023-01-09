@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NullArray">数组为 Null</entry>
+    <entry key="InvalidArrayShape">数组的形状或大小错误</entry>
+    <entry key="InvalidArrayClass">数组不属于预期类</entry>
+    <entry key="InvalidArrayData">数组包含错误的数据值</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="UnknownOption">Unknown option "{0}".</entry>
+    <entry key="InvalidDataInputs">Invalid number of numeric input arguments. Specify either Z or X, Y, and Z input arguments.</entry>
+    <entry key="ZDataSizeMismatch">ZData must be the same size as XData.</entry>
+  </message>
+</rsccat>

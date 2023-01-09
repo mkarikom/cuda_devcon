@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="V6">版本 6 属性编辑器不再可用。抱歉!</entry>
+    <entry key="NoopenFirst">-noopen 参数需要您提供句柄。</entry>
+    <entry key="NoselectFirst">-noselect 参数需要您提供句柄。</entry>
+    <entry key="TabFirst">-t 参数需要您提供句柄。</entry>
+    <entry key="NeedsHandle">第一个参数必须为对象或对象列表，而不能为字符向量。</entry>
+    <entry key="NoValidHandles">没有为 propedit 提供有效的对象或句柄。</entry>
+    <entry key="InvalidObjectsPassed">传递给 propedit 的对象无效</entry>
+  </message>
+</rsccat>

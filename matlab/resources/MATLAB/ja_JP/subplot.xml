@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SubplotIndexNonFinite">インデックスは、形式 mnp の有限な 3 桁の数でなければなりません。</entry>
+    <entry key="InvalidAxesHandle">入力に対して有効な Axes ハンドルが必要です。</entry>
+    <entry key="SubplotIndexOutOfRange">インデックスは、形式 mnp の 3 桁の数でなければなりません。</entry>
+    <entry key="SubplotIndexTooLarge">インデックスがサブプロットの数を超えています。</entry>
+    <entry key="InvalidPositionParameter">Position は、[左 下 幅 高さ] の型でなければなりません。</entry>
+    <entry key="UnknownOption">不明なコマンド オプションです。</entry>
+    <entry key="SubplotIndexTooSmall">プロット数が正しくありません。</entry>
+    <entry key="TooManyOutputs">関数を呼び出している出力引数が多すぎます。</entry>
+    <entry key="InvalidParent">オブジェクトに Axes を含めることはできません。</entry>
+    <entry key="UnsupportedSyntaxWithChart">{0} へのハンドルを使ってサブプロットを呼び出すことはサポートされていません。</entry>
+    <entry key="InvalidSyntax">構文が無効です。</entry>
+    <entry key="InvalidNVPair">サブプロットをもつ設定 {0} はサポートされていません。この構文は将来のリリースではサポートされません。</entry>
+    <entry key="InvalidPositionSyntax">Position が指定されている場合、サブプロットによりグリッド位置の引数は無視されます。この構文は将来のリリースではサポートされません。</entry>
+    <entry key="AutoResizeChildren">''AutoResizeChildren'' プロパティが ''on'' に設定されたコンテナーにサブプロットを追加することはサポートされていません。</entry>
+  </message>
+</rsccat>

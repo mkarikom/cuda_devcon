@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidinput">值必须为包含 2 个元素的向量。</entry>
+    <entry key="BadParent">不支持父属性作为名称-值对组。</entry>
+    <entry key="BadNumArgs">输入参数的数目不足。</entry>
+    <entry key="FirstArgFigureOrAnnotation">第一个参数必须为有效的注释类型，或者是图窗、uipanel 或 uitab 的句柄。</entry>
+    <entry key="SecondArgValidAnnotation">第二个参数必须为有效的注释类型。</entry>
+    <entry key="IllegalXYArguments">X 和 Y 值必须介于 0 与 1 之间。</entry>
+    <entry key="IllegalPositionArgument">位置值必须介于 0 与 1 之间。</entry>
+    <entry key="BadArguments">未知的参数。</entry>
+  </message>
+</rsccat>

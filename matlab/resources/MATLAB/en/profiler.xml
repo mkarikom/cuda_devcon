@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="FunctionNotFound">No function {0} found in profiler Function Table</entry>
+    <entry key="ProfsaveInvalidStruct">Input struct does not have field FunctionTable</entry>
+    <entry key="BadSortMode">Unsupported sort mode {0}</entry>
+    <entry key="BadSortKey">Bad sort key {0,number,integer}</entry>
+    <entry key="FunctionAppearsMoreThanOnce">Function name {0} appears more than once in this file.\nOnly the first occurrence is being displayed.</entry>
+    <entry key="UnexpectedState">Unknown case {0}</entry>
+    <entry key="UnknownSortKind">Unknown sort kind: {0}.</entry>
+    <entry key="UnknownHiliteOption">hiliteOption {0} unknown</entry>
+    <entry key="RequiresJVM">The profiler requires the Java VM</entry>
+    <entry key="ProfilerAlreadyStarted">The profiler has already been started. {0} cannot be changed.</entry>
+    <entry key="InvalidInputArgument">Invalid input.</entry>
+    <entry key="NonIntegerInputArgument">{0} must be a positive integer.</entry>
+    <entry key="UnknownInputOption">Unknown option {0}.</entry>    
+    <entry key="AmbiguousInputOption">Ambiguous option {0}.</entry>
+    <entry key="OnlyOneActionIsSupported">Only one profiler action is supported per call.  The action {0} is in error.</entry>
+    <entry key="UnknownInputAction">The action {0} is not known to the profiler.</entry>   
+    <entry key="UnsupportedInputArgument">Invalid {0} setting.</entry>
+    <entry key="InvalidInputArgumentOrder">{0} must follow -{1} option.</entry>
+    <entry key="UnableToCreateDirectory">Cannot create directory {0}.</entry>
+    <entry key="UnableToOpenFile">Cannot open file {0}.</entry>
+    <entry key="NoCoverageInfo">Coverage information for {0} is not available because: {1}</entry>
+    <entry key="LinksDisabled">Links are disabled because this is a static copy of a profile report</entry>
+    <entry key="StaticCopyOfReport">This is a static copy of a profile report</entry>
+    <entry key="HomeUrl">Home</entry>
+    <entry key="FileChangedDuringProfiling1">This function changed during profiling or before generation of this report. Results may be incomplete or inaccurate.</entry>
+    <entry key="SelfTime1st">&lt;strong&gt;Self time&lt;/strong&gt; is the time spent in a function excluding the time spent in its child functions. Self time also includes overhead resulting from the process of profiling.</entry>
+    <entry key="SelfTime2nd">&lt;strong&gt;Self time&lt;/strong&gt; is the time spent in a function excluding both the time spent in its child functions and most of the overhead resulting from the process of profiling. In the present run, self time excludes {0} seconds of profiling overhead. The amount of remaining overhead reflected in self time cannot be determined.</entry>
+    <entry key="ProfileSummaryName">Profile Summary</entry>
+    <entry key="GeneratedUsing">Generated {0} using {1} time.</entry>
+    <entry key="NoProfileInfo">No profile information to display.</entry>
+    <entry key="NoteAboutBuiltins">Note that built-in functions do not appear in this report.</entry>
+    <entry key="FunctionNameTableElement">Function Name</entry>
+    <entry key="CallsTableElement">Calls</entry>
+    <entry key="TotalTimeTableElement">Total Time</entry>
+    <entry key="SelfTimeTableElement">Self Time</entry>
+    <entry key="AllocatedMemoryTableElement">Allocated Memory</entry>
+    <entry key="FreedMemoryTableElement">Freed Memory</entry>
+    <entry key="SelfMemoryTableElement">Self Memory</entry>
+    <entry key="PeakMemoryTableElement">Peak Memory</entry>
+    <entry key="TotalTableElement">Total {0}</entry>
+    <entry key="SelfTableElement">Self {0}</entry>
+    <entry key="TotalTimePlotTableElement">Total Time Plot</entry>
+    <entry key="AllocatedMemory">allocated memory</entry>
+    <entry key="FreedMemory">freed memory</entry>
+    <entry key="PeakMemory">peak memory</entry>
+    <entry key="DarkBandSelfTime">(dark band = self time)</entry>
+    <entry key="FunctionDetailsFor">Function details for {0}</entry>
+    <entry key="InFile">{0} in file</entry>
+    <entry key="InFile1">{0} in file {1}</entry>
+    <entry key="CopyToNewWindow">Copy to new window for comparing multiple runs</entry>
+    <entry key="PFileWithNoMATLABCode">This is a P-file for which there is no corresponding MATLAB code file</entry>
+    <entry key="ShowParentFunctions">Show parent functions</entry>
+    <entry key="ShowBusyLines">Show busy lines</entry>
+    <entry key="ShowChildFunctions">Show child functions</entry>
+    <entry key="ShowCodeAnalyzerResults">Show Code Analyzer results</entry>
+    <entry key="ShowFileCoverage">Show file coverage</entry>
+    <entry key="ShowFunctionListing">Show function listing</entry>
+    <entry key="Parents">&lt;strong&gt;Parents&lt;/strong&gt; (calling functions)</entry>
+    <entry key="NoParent">No parent</entry>
+    <entry key="FunctionType">Function Type</entry>
+    <entry key="LinesSpent">Lines where the most {0} was spent</entry>
+    <entry key="NoMATLABCodeToDisplay">No MATLAB code to display</entry>
+    <entry key="NoMeasurableSpentInThisFunction">No measurable {0} spent in this function</entry>
+    <entry key="LineNumber">Line Number</entry>
+    <entry key="LineNumberSoft">Line number</entry>
+    <entry key="Plot">Plot</entry>
+    <entry key="AllOtherLines">All other lines</entry>
+    <entry key="Totals">Totals</entry>
+    <entry key="Children">&lt;b&gt;Children&lt;/b&gt; (called functions)</entry>
+    <entry key="NoChildren">No children</entry>
+    <entry key="SelfBuiltIns">Self {0} (built-ins, overhead, etc.)</entry>
+    <entry key="CodeAnalyzerResults">Code Analyzer results</entry>
+    <entry key="NoCodeAnalyzerMessages">No Code Analyzer messages.</entry>
+    <entry key="Message">Message</entry>
+    <entry key="CoverageResults">Coverage results</entry>
+    <entry key="ShowCoverageForParentDir">Show coverage for parent directory</entry>
+    <entry key="TotalLinesInFunction">Total lines in function</entry>
+    <entry key="NoncodeLines">Non-code lines (comments, blank lines)</entry>
+    <entry key="CodeLines">Code lines (lines that can run)</entry>
+    <entry key="CodeLinesThatDidRun">Code lines that did run</entry>
+    <entry key="CodeLinesThatDidNotRun">Code lines that did not run</entry>
+    <entry key="CoverageDidCanRun">Coverage (did run/can run)</entry>
+    <entry key="Coverage">coverage</entry>
+    <entry key="FileModifiedDuringProfiling">This file was modified during or after profiling.  Function listing disabled.</entry>
+    <entry key="FunctionListing">Function listing</entry>
+    <entry key="ColorHighlightCodeAccordingTo">Color highlight code according to</entry>
+    <entry key="SubfunctionsNotIncluded">Other subfunctions in this file are not included in this listing.</entry>
+    <entry key="Function">function</entry>  
+    <entry key="Subfunction">subfunction</entry>
+    <entry key="AnonymousFunction" note="stringDatatypeUpdate">anonymous function from prompt or eval''ed character vector</entry>
+    <entry key="AnonymousFunctionShort">anonymous function</entry>
+    <entry key="NestedFunction">nested function</entry>
+    <entry key="Method">class method</entry>
+    <entry key="Script">script</entry>
+    <entry key="MEXfile" translate="false" note="TranslateFalseBatch;">MEX-file</entry>
+    <entry key="BuiltinFunction">built-in function</entry>
+    <entry key="JavaMethod">Java method</entry>
+    <entry key="ConstructorOverhead">constructor overhead</entry>
+    <entry key="SimulinkModelFunction">Simulink model function</entry>
+    <entry key="Root">Root</entry>
+    <entry key="Time">time</entry>
+    <entry key="Refresh">Refresh</entry>
+    <entry key="Code">Code</entry>
+    <entry key="Noncoverage">noncoverage</entry>
+    <entry key="CodeAnalyzer">code analyzer</entry>
+    <entry key="Totaltime" translate="false" note="TranslateFalseBatch;">totaltime</entry>
+    <entry key="Time1">Time</entry>
+    <entry note="{0} is for the number of times a function was called.  {1} is for the amount of time spent in the function (in seconds)" key="CallsTimeTitle">Calls: {0}, Time: {1}</entry>
+    <entry key="SortBusyLines">Sort busy lines and graph according to</entry>
+    <entry key="Numcalls">numcalls</entry>
+    <entry key="Mlint" translate="false" note="TranslateFalseBatch;">mlint</entry>
+    <entry key="None">none</entry>
+    <entry key="Between" translate="false" note="TranslateFalseBatch;">between</entry>
+    <entry key="Identifier" translate="false" note="TranslateFalseBatch;">identifier</entry>
+    <entry key="Line">line</entry>
+    <entry key="CodeAnalyzerMessage">Code Analyzer Message</entry>
+    <entry key="InvalidProfilerType">Invalid profiler type</entry>
+    <entry key="SummaryViewPayloadEmpty">An empty summary view payload was found</entry>
+    <entry key="ViewerImplementationNotFound">The Parallel Computing Toolbox has to be installed to use {0} implementation of the viewer</entry>
+  </message>
+</rsccat>

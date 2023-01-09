@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Expected3ElementVector">값은 3 요소 숫자형 벡터여야 함</entry>
+    <entry key="ValueOutsideRange">Alpha 값은 0.0과 1.0 사이여야 함</entry>
+    <entry key="Expected4ElementVector">값은 4 요소 벡터여야 함</entry>
+    <entry key="ExpectedSingleLineString">값은 단일 라인의 문자형 벡터여야 함</entry>
+    <entry key="StringSizeOutsideRange">문자형 벡터 값은 단일 문자 또는 ''''여야 함</entry>
+    <entry key="ExpectedNonEmptyString">문자형 벡터 값은 비어 있지 않아야 함</entry>
+    <entry key="ExpectedIntegerValueString">문자형 벡터 값은 정수여야 함</entry>
+    <entry key="ExpectedScalar">값은 스칼라여야 함</entry>
+    <entry key="DimensionsOutsideRange">너비와 높이는 0보다 크거나 같아야 함</entry>
+    <entry key="ValueMustBeNonNegative">값은 0보다 크거나 같아야 함</entry>
+    <entry key="ExpectedFinitePositive">값은 유한해야 하고 0보다 커야 함</entry>
+    <entry key="ExpectedFiniteNonNegative">값은 0보다 크거나 같고 유한해야 합니다.</entry>
+    <entry key="ExpectedBetween0And1">값은 0과 1(구간의 끝점 포함) 사이여야 함</entry>
+    <entry key="ExpectedDoubleOrFloat">값은 double형 또는 float형이어야 함</entry>
+    <entry key="ExpectedNumeric">값은 숫자형이어야 함</entry>
+    <entry key="ExpectedMonotonicallyIncreasing">값은 단조 증가(Monotonically Increasing)해야 함</entry>
+    <entry key="SettingColorSpecToNoneWillNotBeAllowed">"향후 릴리스에서는 {0}에 대한 ColorSpec을 'none'으로 설정할 수 없습니다."</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nufftNoSparseArrays">不支持稀疏数组。</entry>
+    <entry key="nufftSamplePointsMismatch">采样点的元素数必须与第一个输入参数的运算维度相同。</entry>
+    <entry key="nufftnScatteredSamplePointsMismatch">采样点矩阵中的行数必须与第一个输入参数中的元素数相匹配。</entry>
+    <entry key="nufftnSamplePointsMismatch">采样点的总数必须与第一个输入参数中的元素数相匹配。</entry>
+    <entry key="nodesNotFullReal">采样点和查询点必须为有限实数值满向量。</entry>
+    <entry key="ndGridVectorsNotFullReal">采样点和查询点网格向量必须为有限实数值满向量。</entry>
+    <entry key="ndScatteredNodesNotFullReal">指定为矩阵的采样点和查询点必须为满矩阵并且包含有限实数值。</entry>
+    <entry key="invalidNodeDataType">采样点和查询点必须为双精度或单精度值。</entry>
+    <entry key="invalidGridVectorDataType">采样点和查询点向量必须为双精度或单精度值。</entry>
+    <entry key="fmmInvalidTransformInfo">余切变换信息无效。</entry>
+    <entry key="fmmInvalidScalingOffset">余切变换的缩放偏移量必须为标量。</entry>
+    <entry key="fmmInvalidScalingParameters">余切变换的缩放参数无效。</entry>
+    <entry key="nodeClassMismatch">节点必须与输入数组具有相同的浮点类型。</entry>
+    <entry key="nodesNonVector">节点必须为向量。</entry>
+    <entry key="fmmScalingClassMismatch">缩放因子必须与输入数组具有相同的浮点类型。</entry>
+    <entry key="fmmScalingNotFull">缩放因子必须为满矩阵。</entry>
+    <entry key="fmmScalingNonVector">缩放因子必须为向量。</entry>
+    <entry key="fmmNonComplexScaling">缩放因子必须为复数。</entry>
+    <entry key="fmmInputScalingMismatch">输入缩放因子的元素数必须与采样点数相同。</entry>
+    <entry key="fmmOutputScalingMismatch">输出缩放因子的元素数必须与查询点数相同。</entry>
+    <entry key="ndGridVectorCountWrong">网格向量的数目必须等于维数。</entry>
+    <entry key="ndNodeMatrixBadNumColumns">节点矩阵的列数必须与变换中的维数相同。</entry>
+    <entry key="ndNumDims">维数必须为正标量。</entry>
+    <entry key="badGaussianParameters">高斯插值参数无效。</entry>
+    <entry key="invalidGridSpecification">均匀网格设定无效。</entry>
+    <entry key="inputDisagreesWithDefaultGrid">输入数组的元素数不正确。</entry>
+    <entry key="bothPointsNonEmpty">查询点或采样点必须为空。</entry>
+    <entry key="finalGridTooSmall">均匀输出网格必须小于过采样网格。</entry>
+  </message>
+</rsccat>

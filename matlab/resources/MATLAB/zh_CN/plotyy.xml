@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidAxesHandleSyntax">函数 ''{0}'' 不允许使用通用语法来指定父坐标区。坐标区句柄必须为第一个输入参数，或必须指定为属性/值对。有关详细信息，请参阅以下错误。\n</entry>
+    <entry key="AutoResizeChildren">不支持在 ''AutoResizeChildren'' 属性设置为 ''on'' 的容器中使用 plotyy。</entry>
+  </message>
+</rsccat>

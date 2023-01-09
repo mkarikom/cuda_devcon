@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="XDataYDataAndZDataLengthsMustBeEqual">선의 XData 길이({0,number,integer}), YData 길이({1,number,integer}), ZData 길이({2,number,integer})가 같아야 함</entry>
+    <entry key="XDataAndYDataLengthsMustBeEqual">선의 XData 길이({0,number,integer})와 YData 길이({1,number,integer})가 같아야 함</entry>
+  </message>
+</rsccat>

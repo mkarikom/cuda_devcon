@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidColor">色が無効です。色は、色名、RGB 3 成分、または各行が RGB 3 成分である行列として指定してください。</entry>
+    <entry key="isEqual">GraphColor:isEqual 内の不明な例外</entry>
+  </message>
+</rsccat>

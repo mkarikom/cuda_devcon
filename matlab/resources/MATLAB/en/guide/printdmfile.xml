@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="KeepFilesTogether">MAT file {0} is generated for \n MATLAB code file {1}. \n Please keep them together to run the MATLAB code file.</entry>
+    <entry key="UnsupportedDataType">Data type is not supported for generating MATLAB code.</entry>
+    <entry key="UnableToGenerateCodeForChar">Cannot generate MATLAB code for a char array with more than two dimensions.</entry>
+    <entry key="UnableToGenerateCodeForCell">Cannot generate MATLAB code for a cell array with more than two dimensions.</entry>
+    <entry key="ErrorWritingFile">Error writing file</entry>
+    <entry key="InvalidHandle">First argument must be a valid handle</entry>
+    <entry key="InvalidFigureHandle">First argument must be a valid figure handle</entry>
+    <entry key="ObjectsAreNotSupported">{0} objects are not supported...</entry>
+    <entry key="DialogObjectsAreNotSupported">{0} objects are not supported...\nSkipping</entry>
+    <entry key="Skipping">Skipping...</entry>
+  </message>
+</rsccat>

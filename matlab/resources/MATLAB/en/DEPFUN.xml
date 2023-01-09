@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011-2014 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="NoPrintFile">No print file argument.</entry>
+      <entry key="NoTraceArguments">No arguments to trace.</entry>
+      <entry key="InternalError">Internal error.</entry>
+      <entry key="CannotOpenFileForWrite">Cannot open file {0}</entry>
+      <entry key="BadHGStructure">.fig file {0} has more than one item.</entry>
+      <entry key="NotAStringForCallback" note="stringDatatypeUpdate">Callback for name ''{0}'' is not a character vector</entry>
+      <entry key="FileIsADirectory">''{0}'' argument is a directory. Must be a file.</entry>
+      <entry key="FileDoesNotExist">The file ''{0}'' does not exist.</entry>
+      <entry key="PathBeyondRoot">File {0} goes beyond the root directory or drive.</entry>
+      <entry key="WrongClass">Argument {0,number,integer} is not a character or cell array.</entry>
+      <entry key="WrongClassNotCellstr" note="stringDatatypeUpdate">Argument {0,number,integer} is not a cell array of character vectors.</entry>
+      <entry key="DeprecatedNographics">-nographics argument no longer supported.</entry>
+      <entry key="DeprecatedAlwayslog">-alwayslog argument no longer supported.</entry>      
+      <entry key="FormatNone">[none]\n</entry>
+      <entry key="FormatTopOnly">(top only)</entry>
+      <entry key="ReportFilesNotOnMATLABPATH">\n   Files not on MATLABPATH:\n</entry>
+      <entry key="ReportHandleGraphicsFactoryCallbackNames">\n   MATLAB Graphics factory callback names:\n</entry>
+      <entry key="ReportBuiltinList">\n-&gt; builtin list:\n</entry>
+      <entry key="ReportMATLABClasses">\n-&gt; MATLAB classes:\n</entry>
+      <entry key="ReportProblemList">\n-&gt; problem list:\n</entry>
+      <entry key="ReportProblemSymbolsNOTIMPLEMENTED">\n-&gt; problem symbols: NOT IMPLEMENTED\n</entry>
+      <entry key="ReportEvalStrings" note="stringDatatypeUpdate">\n-&gt; eval character vectors:\n</entry>
+      <entry key="ReportCalledFromListbyTraceList">\n-&gt; called from list: (by trace list)\n</entry>
+      <entry key="ReportCallListbyTraceList">\n-&gt; call list: (by trace list)\n</entry>
+      <entry key="ReportOpaqueClasses">\n-&gt; opaque classes:\n</entry>
+      <entry key="ReportGeneratingHandleGraphicsCallbackNamesToAnalyzefigFil">-&gt; Generating MATLAB Graphics callback names to analyze .fig files . . .\n</entry>
+      <entry key="ReportDone">-&gt; Done\n</entry>
+   <!--Resource entries for toolbox/matlab-->
+      <entry key="Deprecated">-{0} argument no longer supported.</entry>
+      <entry key="DeprecatedNotrace">-notrace is gone--use -toponly.</entry>
+   <!--Deprecate DEPFUN in 15a-->   
+      <entry key="DeprecatedAPI">DEPFUN has been removed. Use matlab.codetools.requiredFilesAndProducts instead.</entry>
+      <entry key="DeprecatedDEPDIR">DEPDIR has been removed. Use matlab.codetools.requiredFilesAndProducts instead.</entry>	  
+  </message>
+</rsccat>

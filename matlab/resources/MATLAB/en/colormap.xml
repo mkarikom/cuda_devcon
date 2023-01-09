@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidFirstArgument">First argument must be a scalar axes or figure handle.</entry>
+    <entry key="InvalidNumberColumns">Colormap must have 3 columns: [R,G,B].</entry>
+    <entry key="InvalidInputRange">Colormap must be an Mx3 array of type single or double with values in the range [0,1] or an Mx3 array of type uint8.</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="NeedScalarHandle">First argument must be a scalar axes or figure handle.</entry>
+  </message>
+</rsccat>

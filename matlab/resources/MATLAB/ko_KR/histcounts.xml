@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNameValueMismatch">후행 입력 인수는 이름-값 쌍이어야 합니다.</entry>
+    <entry key="EmptyOrScalarBinEdges">BinEdges는 길이가 2보다 크거나 같은 벡터여야 합니다.</entry>
+    <entry key="InvalidMixedBinInputs">''BinEdges'' 입력값 다음에는 ''NumBins'', ''BinWidth'', ''BinMethod'', ''BinLimits''가 올 수 없습니다.</entry>
+    <entry key="NonNumericInput">X는 숫자형 배열이어야 합니다.</entry>
+    <entry key="InputOutOfIntRange">''integers'' BinMethod는 각 입력 요소의 절댓값이 FLINTMAX/2보다 작거나 같은 경우에만 지원됩니다.</entry>
+  </message>
+</rsccat>

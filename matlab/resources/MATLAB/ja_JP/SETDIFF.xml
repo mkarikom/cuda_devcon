@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownFlag">''{0}'' は認識されないフラグです。有効なフラグは、''rows''、''stable''、''sorted'' および ''legacy'' です。</entry>
+    <entry key="UnknownInput">入力が無効です。有効なフラグは、''rows''、''stable''、''sorted'' および ''legacy'' です。</entry>
+    <entry key="RepeatedFlag">''{0}'' フラグは複数回指定できません。</entry>
+    <entry key="SetOrderConflict">''sorted'' または ''stable'' のいずれかを指定できますが、両方は指定できません。</entry>
+    <entry key="BehaviorConflict">''legacy'' または ''R2012a'' のいずれかを指定できますが、両方は指定できません。</entry>
+    <entry key="LegacyTrailing">''legacy'' フラグは最後でなければなりません。</entry>
+    <entry key="R2012aTrailing">''R2012a'' フラグは最後でなければなりません。</entry>
+    <entry key="SetOrderBehavior">''stable'' および ''sorted'' を、''legacy'' および ''R2012a'' と同時に指定することはできません。</entry>
+    <entry key="AandBvectorsOrRowsFlag">A と B はベクトルでなければなりません。ベクトルでない場合、''rows'' を指定しなければなりません。</entry>
+    <entry key="AandBColnumAgree">入力 A と B は、''rows'' の場合の列数が同じ行列でなければなりません。</entry>
+    <entry key="InputClass">クラス {0} の入力 A とクラス {1} の入力 B は、一方が文字ベクトルでない限り、文字ベクトルのセル配列でなければなりません。</entry>
+    <entry key="RowsFlagIgnored">''rows'' 入力はセル配列入力でサポートされていません。</entry>
+    <entry key="InvalidInputsDataType">クラス {0} の入力 A とクラス {1} の入力 B は、一方が倍精度でない限り、同じクラスでなければなりません。</entry>
+    <entry key="NotAMatrix">入力 A と B は、''rows'' の場合の列数が同じ行列でなければなりません。</entry>
+  </message>
+</rsccat>

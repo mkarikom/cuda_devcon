@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="matrixMustBePosDefWithRealDiag">Matrix must be positive definite with real diagonal.</entry>
+    <entry key="CHOLMODinternal">Algorithm did not succeed.\nInternal error in library CHOLMOD.</entry>
+    <entry key="inputType">Invalid data type. First argument must be a double or single matrix.</entry>
+    <entry key="inputMustBe2D">Input array has too many dimensions. The array must be 2-dimensional.</entry>
+    <entry key="DenseTwoInputOnly">Too many input arguments. For dense input matrix, specify one or two input arguments.</entry>
+    <entry key="DenseTwoOutputOnly">Third output only available for sparse matrices.</entry>
+  </message>
+</rsccat>

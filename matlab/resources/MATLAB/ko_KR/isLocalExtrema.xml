@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ComplexInputArray">복소수 입력 인수는 지원되지 않습니다.</entry>
+    <entry key="FirstInputInvalid">첫 번째 인수는 숫자형 배열이나 논리형 배열, table형 또는 timetable형이어야 합니다.</entry>
+    <entry key="NonVectorTableVariable">테이블 변수는 열 벡터여야 합니다.</entry>
+    <entry key="DimensionTable">첫 번째 인수가 table형이나 timetable형이면 Dimension을 사용할 수 없습니다.</entry>
+    <entry key="DimensionInvalid">차원은 양의 정수여야 합니다.</entry>
+    <entry key="NameValuePairs">입력 인수의 개수가 올바르지 않습니다. 파라미터 이름과 값은 쌍으로 있어야 합니다.</entry>
+    <entry key="InvalidNameArray">파라미터 이름은 ''MaxNumExtrema'', ''MinSeparation'', ''MinProminence'', ''FlatSelection'' 또는 ''SamplePoints''여야 합니다.</entry>
+    <entry key="InvalidNameTable">파라미터 이름은 ''MaxNumExtrema'', ''MinSeparation'', ''MinProminence'', ''FlatSelection'', ''SamplePoints'' 또는 ''DataVariables''여야 합니다.</entry>
+    <entry key="MaxNumInvalid">''MaxNumExtrema'' 값은 양의 정수여야 합니다.</entry>
+    <entry key="MinProminenceInvalid">''MinProminence'' 값은 음이 아닌 숫자형 스칼라여야 합니다.</entry>
+    <entry key="MinSeparationInvalid">''MinSeparation'' 값은 음이 아닌 유한한 실수형 스칼라여야 합니다.</entry>
+    <entry key="ProminenceWindowLengthInvalid">''ProminenceWindow'' 값은 양의 스칼라이거나, 음이 아닌 스칼라 요소를 2개 가진 벡터여야 합니다.</entry>
+    <entry key="ProminenceWindowMustBeDuration">''SamplePoints'' 값이 datetime형 또는 duration형인 경우 ''ProminenceWindow'' 값은 duration형이어야 합니다.</entry>
+    <entry key="ProminenceWindowCannotBeDuration">''SamplePoints'' 값이 숫자형인 경우 ''ProminenceWindow'' 값도 숫자형이어야 합니다.</entry>
+    <entry key="ProminenceWindowMustBeDurationTimetable">첫 번째 입력 인수가 timetable형인 경우 ''ProminenceWindow'' 값은 duration형이어야 합니다.</entry>
+    <entry key="SeparationMustBeDuration">''SamplePoints'' 값이 datetime형 또는 duration형인 경우 ''MinSeparation'' 값은 duration형 스칼라여야 합니다.</entry>
+    <entry key="SeparationCannotBeDuration">''SamplePoints'' 값이 숫자형인 경우 ''MinSeparation'' 값은 숫자형 스칼라여야 합니다.</entry>
+    <entry key="SeparationMustBeDurationTimetable">첫 번째 입력 인수가 timetable형인 경우 ''MinSeparation'' 값은 duration형 스칼라여야 합니다.</entry>
+    <entry key="FlatSelectionInvalid">''FlatSelection''은 ''first'', ''center'', ''last'' 또는 ''all''이어야 합니다.</entry>
+    <entry key="SamplePointsInvalidDatatype">유효하지 않은 데이터형입니다. ''SamplePoints'' 값은 double형 벡터, single형 벡터, datetime형 벡터, duration형 벡터 중 하나여야 합니다.</entry>
+    <entry key="SamplePointsLength">''SamplePoints'' 값의 요소 개수는 연산 차원의 첫 번째 인수 크기와 같아야 합니다.</entry>
+    <entry key="SamplePointsFinite">''SamplePoints'' 값에 유한하지 않은 요소가 포함되어 있습니다.</entry>
+    <entry key="SamplePointsComplex">''SamplePoints'' 값은 실수여야 합니다.</entry>
+    <entry key="SamplePointsSparse">희소 형식의 ''SamplePoints'' 값은 지원되지 않습니다.</entry>
+    <entry key="SamplePointsDuplicate">''SamplePoints'' 값에 중복 항목이 있습니다.</entry>
+    <entry key="SamplePointsSorted">''SamplePoints'' 값은 오름차순으로 정렬되어야 합니다.</entry>
+    <entry key="RowTimesFinite">행 시간값은 유한해야 합니다.</entry>
+    <entry key="RowTimesDuplicate">행 시간값에 중복 항목이 포함되어 있습니다.</entry>
+    <entry key="RowTimesSorted">행 시간값은 오름차순으로 정렬되어야 합니다.</entry>
+    <entry key="SamplePointsTimeTable">첫 번째 입력 인수가 timetable형인 경우에는 ''SamplePoints'' 파라미터가 지원되지 않습니다.</entry>
+    <entry key="DataVariablesArray">첫 번째 입력 인수가 table형 또는 timetable형인 경우 ''DataVariables'' 파라미터만 지원됩니다.</entry>
+    <entry key="NonNumericTableVar">테이블 변수는 숫자형이어야 합니다.</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' 함수 핸들은 논리형 스칼라를 반환해야 합니다.</entry>
+    <entry key="DataVariablesTableSubscript">유효하지 않은 ''DataVariables'' 값입니다.</entry>
+    <entry key="PromWindowNotSupported">코드 생성에는 ''ProminenceWindow''가 지원되지 않습니다.</entry>
+    <entry key="DataVarsMustBeUnique">코드 생성 시 'DataVariables' 파라미터는 중복 항목을 포함할 수 없습니다.</entry>
+  </message>
+</rsccat>

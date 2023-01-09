@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidInputs">The number of spacing inputs must match the number of array dimensions.</entry>
+    <entry key="InvalidGridSpacing">Each grid spacing argument must be a scalar or a vector with the same number of entries as the size of the input in the corresponding dimension.</entry>
+  </message>
+</rsccat>

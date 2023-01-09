@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Nargin">적어도 2개 이상의 입력 인수가 필요합니다.</entry>
+    <entry key="InputClass">FILENAME은 문자형 벡터이거나 string형 스칼라여야 합니다.</entry>
+    <entry key="CellArrayMismatch">입력 셀형 배열은 행렬로 변환될 수 없습니다.</entry>
+    <entry key="FileOpenFailure">파일 {0}을(를) 열 수 없습니다.</entry>
+    <entry key="AttributeList">특성(Attribute) {0}에 일치하는 값이 필요합니다.</entry>
+    <entry key="Attribute">유효하지 않은 특성(Attribute) 태그임: {0}.</entry>
+    <entry key="newline">새 줄(Newline)은 ''pc'' 또는 ''unix''여야 합니다.</entry>
+    <entry key="delimiter">{0}은(는) 유효한 특성(Attribute) 또는 구분 기호가 아닙니다. 구분 기호는 단일 문자여야 합니다.</entry>
+    <entry key="rowOffset">{0}은(는) 유효한 특성(Attribute) 또는 행 오프셋이 아닙니다.</entry>
+    <entry key="columnOffset">{0}은(는) 유효한 특성(Attribute) 또는 열 오프셋이 아닙니다.</entry>
+  </message>
+</rsccat>

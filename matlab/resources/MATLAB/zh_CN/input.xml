@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="StandaloneMode">独立 MATLAB 中不允许使用 INPUT 命令。</entry>
+    <entry key="IsInEvalc">无法从 EVALC 调用 INPUT。</entry>
+    <entry key="NonCharInput">INPUT 的第一个参数必须为字符串或字符向量。</entry>
+    <entry key="UnknownOption">INPUT 的第二个参数必须为 ''s''。</entry>
+    <entry key="EngineMode">将 MATLAB 用作 Engine 或 Notebook 时，INPUT 命令不可用。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="ylowbounds">The Y lower bound must either be a scalar or have length equal to the number of data columns</entry>
+      <entry key="yhighbounds">The Y upper bound must either be a scalar or have length equal to the number of data columns</entry>
+      <entry key="xbounds">The time upper and lower bounds must be scalar</entry>
+      <entry key="InvalidExpressionUseVariableX">Invalid MATLAB expression. Use the variable ''x'' to represent data.</entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+      <entry key="RuleSelectionLowerTimeBound">%% Rule selection: Lower time bound</entry>
+      <entry key="RuleSelectionUpperTimeBound">%% Rule selection: Upper time bound</entry>
+      <entry key="RuleSelectionLowerDataBound">%% Rule selection: Lower data bound</entry>
+      <entry key="RuleSelectionUpperDataBound">%% Rule selection: Upper data bound</entry>
+      <entry key="RuleSelectionOutlierSelection">%% Rule selection: Outlier selection</entry>
+      <entry key="RuleSelectionFlatlineSelection">%% Rule selection: Flatline selection</entry>
+      <entry key="RuleSelectionMATLABExpression">%% Rule selection: MATLAB expression selection</entry>
+      <entry key="RuleSelectionCombiningRules">%% Rule selection: Combining selection rules</entry>
+      <entry key="RuleBasedSelectionCombiningRules">%% Rule based selection: Combining selection rules</entry>
+   </message>
+</rsccat>

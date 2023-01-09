@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="newtree">引数は単一のノードでなければなりません</entry>
+    <entry key="kind">種類は単一のノードで呼び出されなければなりません</entry>
+    <entry key="version">mtree コードには {0}、mtreemex バージョン {1} が必要です。\n</entry>
+    <entry key="usage">使用法: mtree( text [, options] ):オプション ''-file''、''-cell''、''-comments''。</entry>
+    <entry key="input">入力ファイル {0} が読み取れません</entry>
+    <entry key="internal2">インデックス セットは整数でなければなりません</entry>
+    <entry key="internal3">pathit エラー--I 長が正しくありません。</entry>
+    <entry key="path">リンクのみで、*、+、などを使う必要があります。</entry>
+    <entry key="pathIllegal">不正なパスのリンク:  "{0}"</entry>
+    <entry key="internal4">長さの不整合。</entry>
+    <entry key="internal5">pathit の戻り値が正しくありません。</entry>
+    <entry key="restrict">FIND は、 +、*、List、Tree、または Full の後のパスで &amp;、|、Any、または All が必要です。</entry>
+    <entry key="internal6">&amp;、|、Any、または All の処理での内部エラー</entry>
+    <entry key="internal7">制限に失敗</entry>
+    <entry key="internal8">パスの不整合</entry>
+    <entry key="internal9">長さの不整合。</entry>
+    <entry key="badpath">パスが正しくありません:  "{0}"</entry>
+    <entry key="pathAndOr">PATH への呼び出しは、"&amp;" と "|" を認識しません</entry>
+    <entry key="string">メソッド STRING では複数のノードはサポートされていません。代わりに STRINGS を使用してください。</entry>
+    <entry key="nostring">このノードにはテキストがありません。</entry>
+    <entry key="find">"find" の引数が見つかりません。</entry>
+    <entry key="internal10">引数を見つけます</entry>
+    <entry key="setter">setter は単一のノードで呼び出されなければなりません</entry>
+    <entry key="impossiblePath">不可能なパスです</entry>
+    <entry key="select">ノードのセット数を選択しなければなりません</entry>
+    <entry key="internal11">IX の長さが正しくありません。</entry>
+    <entry key="internal12">o.n 値が範囲外です。</entry>
+    <entry key="internal13">o.m 値が範囲外です。</entry>
+    <entry key="internal14">m 値が正しくありません。</entry>
+    <entry key="op1">op {0} が 2 度現れます。2 度目は行グループ {1,number,integer} に現れます\n</entry>
+    <entry key="duplicatePair">行グループ {0,number,integer} 内の重複ペア</entry>
+    <entry key="op2">不明な op {0} (index {1,number,integer}) </entry>
+    <entry key="andor">パス セグメントごとに複数の "&amp;"、"|"、Any、または All</entry>
+    <entry key="plus">パス セグメントごとに複数の "+" または "List"</entry>
+    <entry key="star">パス セグメントごとに複数の "*" または "Tree"</entry>
+    <entry key="full">"Full" は "Full"、"List"、または "Tree" で使われます</entry>
+    <entry key="Node">ノード</entry>
+  </message>
+</rsccat>

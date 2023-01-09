@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Annotations">注釈</entry>
+    <entry key="Cancel">キャンセル</entry>
+    <entry key="DefineNewEvent">新規イベントの定義</entry>
+    <entry key="EditPlot">プロット編集</entry>
+    <entry key="EmptyNamesNotAllowed">空の名前は使えません。別の名前を選択してください。</entry>
+    <entry key="EnterNewName">新規の名前を入力</entry>
+    <entry key="EventNameCannotBeEmpty">イベント名は空にはできません。</entry>
+    <entry key="Help">ヘルプ</entry>
+    <entry key="InitializingTimeSeriesTools">時系列ツールを初期化しています...</entry>
+    <entry key="InvalidCellArray">セル配列が無効です。すべての要素は、異なる名前をもつ有効な時系列でなければなりません。</entry>
+    <entry key="InvalidDateStringFormat">日付文字ベクトルの形式が無効です</entry>
+    <entry key="InvalidInputArguments">入力引数が無効です。エラーが返されました: {0}</entry>
+    <entry key="Name">名前</entry>
+    <entry key="NameAlreadyDefined">''{0}'' は既に定義されています。別の名前を選択してください。</entry>
+    <entry key="OK">OK</entry>
+    <entry key="PassBand">パス</entry>
+    <entry key="Redo">やり直し</entry>
+    <entry key="SlashesNotAllowed">名前にはスラッシュ (''/'') を使えません。別の名前を選択してください。</entry>
+    <entry key="StopBand">停止</entry>
+    <entry key="TheMINLimitMustBeSmallerThanTheMAXLimit">最小値の制限は最大値の制限よりも小さくなければなりません</entry>
+    <entry key="TimeCannotBeEmpty">時間を空にすることはできません。</entry>
+    <entry key="TimeDate">時刻/日付</entry>
+    <entry key="TimeMustEvaluateToANonemptyFiniteScalar">時間は空でない有限のスカラー値でなければなりません。</entry>
+    <entry key="TimeSeries">時系列</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="Undo">元に戻す</entry>
+    <entry key="UnknownObjectType">指定されたオブジェクト タイプが不明です。すべての要素は有効なデータ オブジェクトでなければなりません。\n{0}、{1}</entry>
+    <entry key="TstoolDeprecation">tstool は削除されました。代わりに使用する機能についての詳細は、R2014a のリリース ノートを参照してください。</entry>
+    <entry key="TstoolRemove">tstool は削除されました。代わりに使用する機能の詳細については、R2013b のリリース ノートを参照してください。</entry>
+  </message>
+</rsccat>

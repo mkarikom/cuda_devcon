@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidPVPair">속성/값 쌍이어야 합니다.</entry>
+    <entry key="NonMatrixInput">곡면 Z는 두 개 이상의 행이나 열을 포함해야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="TooManyDimensions">Argument must be two-dimensional.</entry>
+    <entry key="NonVectorInput">At least one dimension must be equal to 1.</entry>
+    <entry key="InvalidType">Input must be numeric, character vector, or string scalar.</entry>
+    <entry key="NonVectorOutput">At least one dimension of the output must be equal to 1.</entry>
+    <entry key="Encoding" note="Used to fill hole in MATLAB:string:MustBeSingleString">Encoding</entry>
+    <entry key="InputTooLarge">Input must contain fewer than 2^30 elements.</entry>
+    </message>
+</rsccat>

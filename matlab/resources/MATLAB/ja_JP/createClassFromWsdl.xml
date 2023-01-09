@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ConnectionRefused">接続が拒否されました。</entry>
+    <entry key="UrlNotFound">要求された URL はこのサーバーで見つかりません。</entry>
+    <entry key="UnknownHost">不明なホスト: {0}</entry>
+    <entry key="Unsupported">"{0}" は再帰的に定義されます。</entry>
+    <entry key="WriteError">ファイル {0} の書き込みエラー</entry>
+    <entry key="BadXml">XML を解析できません: {0}</entry>
+    <entry key="Exception">不明な例外: {0} </entry>
+    <entry key="WsdlParsingFailure">WSDL の文法チェックの失敗: サポートされない wsdl</entry>
+  </message>
+</rsccat>

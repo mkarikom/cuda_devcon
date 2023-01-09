@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidArguments">First argument must be a table or numeric vector.</entry>
+    <entry key="MustBeVector">The ''{0}'' argument must be a vector.</entry>
+    <entry key="BadTypeLabel">''labels'' 인수는 string형 벡터로 지정하거나 문자형 벡터로 구성된 셀형 배열로 지정해야 합니다.</entry>
+    <entry key="BadTypeGroup">''groups'' 인수는 문자형 벡터로 구성된 셀형 배열로 지정하거나 string형, categorical형, 숫자형 또는 논리형으로 구성된 벡터로 지정해야 합니다.</entry>
+    <entry key="SizeMismatch">''{0}'' 인수의 길이는 ''sz'' 인수의 길이와 일치해야 합니다.</entry>
+    <entry key="InvalidLabelData">테이블을 사용하지 않는 경우 레이블을 string형, 문자형 벡터로 구성된 셀형 배열 또는 string형으로 변환할 수 있는 배열로 지정하십시오.</entry>
+    <entry key="InvalidGroupData">테이블을 사용하지 않는 경우 그룹을 string형, 문자형 벡터로 구성된 셀형 배열 또는 categorical형, 숫자형 또는 논리형 벡터로 지정하십시오.</entry>
+    <entry key="SizeNonNegativeNumeric">거품 크기를 음이 아닌 숫자로 구성된 벡터로 지정하십시오.</entry>
+    <entry key="BadTableVarPropAmbiguous">{0} is not a valid table variable or property name.</entry>
+    <entry key="PropertySizeMismatch">The length of ''{0}'' must match the length of ''{1}''.</entry>
+    <entry key="DatatipSize">크기</entry>
+    <entry key="DatatipLabel">레이블</entry>
+    <entry key="DatatipGroup">그룹</entry>
+    <entry key="VectorWorkflow">''SizeData'' 속성을 설정한 후에는 ''{0}'' 속성을 설정할 수 없습니다.</entry>
+    <entry key="TableWorkflow">''SourceTable'' 속성을 설정한 후에는 ''{0}'' 속성을 설정할 수 없습니다.</entry>
+  </message>
+</rsccat>

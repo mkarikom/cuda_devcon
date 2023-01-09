@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidHandle">最初の引数は、有効なハンドルでなければなりません。</entry>
+    <entry key="InvalidName">名前は string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="InvalidBehaviorState">動作の状態は、論理値または数値でなければなりません。</entry>
+  </message>
+</rsccat>

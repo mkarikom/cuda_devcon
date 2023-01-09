@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="BoolUnknownOperator">Unknown operator. Please use one of these: intersection, difference, union, xor.</entry>
+    <entry key="BoolFailed">Failed to perform boolean. Please check your data.</entry>
+    <entry key="BoolWrongData">Input data must be double vectors of the same size. Please check your data.</entry>
+    <entry key="BoolTooFewVertices">Each input polygon must have at least three vertices.</entry>
+    <entry key="BoolOperatorNotFound">The first argument must be a string.</entry>
+    <entry key="BoolScaleNotDouble">The input scaling factor must be a positive double scalar.</entry>
+    <entry key="BoolNanInconsistent">Input vectors contain NaN at different locations. Please check your data.</entry>
+	
+	<!-- ray tracing -->
+	<entry key="invalidDataRT">Input data is invalid.</entry>
+	<entry key="invalidFacetRT">Invalid facets were ignored.</entry>
+
+    <!-- stl -->	
+	<entry key="NotTriangulation">Input argument must be a triangulation object.</entry>
+	<entry key="Not2dTriangulation">Input argument must be a 2-d triangulation object.</entry>
+	<entry key="ProblemInBoundary">Boundaries of triangulation are not closed or have intersections.</entry>
+	<entry key="nameValueError">Incorrect number of input arguments. Parameter names and values must occur in pairs.</entry>
+	
+	<entry key="EmptyTriangulation">Input triangulation is empty.</entry>
+	<entry key="stlFileName">File name must be a string scalar or character vector.</entry>
+	<entry key="stlFileExtension">File name must end with .stl or .STL.</entry>
+	<entry key="stlFileCannotOpen">Unable to open file ''{0}''.</entry>
+	<entry key="stlFailedToWrite">Unable to write file ''{0}''.</entry>
+    <entry key="stlFailedToRead">Unable to read file ''{0}''.</entry>
+	<entry key="stlInvalidData">Input file must contain at least 3 unique vertices.</entry>
+	<entry key="stlTrisOnly">Tetrahedron triangulation is not supported.</entry>   
+	<entry key="stlWriteParameter">Parameter name must be ''Attribute'' or ''SolidIndex''.</entry>
+	<entry key="stlAttributeType">''Attribute'' value must be a real, finite vector of type uint16.</entry>
+	<entry key="stlAttributeSize">The length of the ''Attribute'' value must equal the number of triangles ({0}).</entry>
+	<entry key="stlSolidIndexType">''SolidIndex'' value must be a vector of positive integers.</entry>
+	<entry key="stlSolidIndexSize">The length of the ''SolidIndex'' value must equal the number of triangles ({0}).</entry>
+	<entry key="stlSolidIndexNoEffect">''SolidIndex'' parameter is only supported when file format is ''text''.</entry>
+	<entry key="stlAttributeNoEffect">''Attribute'' parameter is only supported when file format is ''binary''.</entry>
+
+	<!-- not used -->
+	<entry key="stlFileFormat">File format must be ''binary'' or ''text''.</entry>	
+	<entry key="stlInvalidTri">ConnectivityList property of triangulation must have 3 columns.</entry>
+
+    <!-- tetrahedron -->
+	<entry key="TetMaxLessThanMin">The maximum height is less than or equal to the minimum height.</entry>	
+	
+  </message>
+</rsccat>

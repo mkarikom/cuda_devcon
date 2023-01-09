@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">少なくとも 2 つの入力が必要です。</entry>
+    <entry key="OutvalNotScalarDouble">OUTVAL は、スカラーの double でなければなりません</entry>
+    <entry key="CoptionsNotStringCell">凸包のオプションは文字ベクトルの cell 配列または string 配列でなければなりません。</entry>
+    <entry key="DoptionsNotStringCell">DOPTIONS は文字ベクトルのセル配列でなければなりません。</entry>
+    <entry key="XandXIColSizeMismatch">X と XI は、同じ列の次元をもつ必要があります。</entry>
+    <entry key="InvalidSizeT">T には、X の三角形分割となる適性なサイズがありません。</entry>
+  </message>
+</rsccat>

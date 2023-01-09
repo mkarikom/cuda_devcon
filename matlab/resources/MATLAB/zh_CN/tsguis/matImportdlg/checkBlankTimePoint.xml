@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TimeVectorContainsBlankTimePoint">时间向量包含空时间点。是否要删除所有的空时间点?</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="Remove">删除</entry>
+    <entry key="Abort">中止</entry>
+  </message>
+</rsccat>

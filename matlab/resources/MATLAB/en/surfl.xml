@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidNumberInputs">Must be 1, 3 or 4 numeric input arguments.</entry>
+    <entry key="InvalidNumberComponents">Weighting vector k must have four components.</entry>
+    <entry key="InvalidInput">X, Y, and Z must be at least 3-by-3.</entry>
+    <entry key="MustSpecifyS">S must be specified using [AZ,EL] or [Sx,Sy,Sz].</entry>
+    <entry key="UnknownLightingMethod">Unknown lighting method "{0}".</entry>
+  </message>
+</rsccat>

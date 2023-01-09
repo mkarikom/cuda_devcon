@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="DirectoryNotFound" context="error">Could not locate the base directory for {0}.</entry>
+    <entry key="ProductNameDeprecated" context="warning">Support for toolboxdir(''{0}'') will be removed in a future release.  Use toolboxdir(''{1}'') instead.</entry>
+  </message>
+</rsccat>

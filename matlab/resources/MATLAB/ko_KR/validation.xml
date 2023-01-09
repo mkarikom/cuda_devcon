@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnableToConvertMessage">값은 {0}형이거나 {0}형으로 변환될 수 있어야 합니다.</entry>
+    <entry key="ShortStringChoices">
+  값은 다음 중 하나여야 합니다.\n{0}
+</entry>
+    <entry key="SixStringChoices">
+  값은 ''{0}'', ''{1}'', ''{2}'', ''{3}'', ''{4}'' 또는 ''{5}''이어야 합니다.
+</entry>
+    <entry key="FiveStringChoices">
+  값은 ''{0}'', ''{1}'', ''{2}'', ''{3}'' 또는 ''{4}''이어야 합니다.
+</entry>
+    <entry key="FourStringChoices">
+  값은 ''{0}'', ''{1}'', ''{2}'' 또는 ''{3}''이어야 합니다.
+</entry>
+    <entry key="ThreeStringChoices">
+  값은 ''{0}'', ''{1}'' 또는 ''{2}''이어야 합니다.
+</entry>
+    <entry key="TwoStringChoices">
+  값은 ''{0}'' 또는 ''{1}''이어야 합니다.
+</entry>
+    <entry key="OneStringChoice">
+  값은 ''{0}''이어야 합니다.
+</entry>
+    <entry key="LongEnumConversionMessageWithHyperlink">
+  &lt;a href="matlab:enumeration(''{0}'');"&gt;유효한 옵션 목록&lt;/a&gt;을 참조하십시오.
+</entry>
+    <entry key="LongEnumConversionMessageWithoutHyperlink">
+  유효한 옵션 목록을 보려면 enumeration(''{0}'')을(를) 입력하십시오.
+</entry>
+    <entry key="ShortEnumConversionMessageForTextInput">
+  ''{0}''이(가) 유효하지 않습니다. {1}
+</entry>
+    <entry key="LongEnumConversionMessageWithHyperlinkForTextInput">
+  ''{0}''은(는) 유효한 값이 아닙니다. &lt;a href="matlab:enumeration(''{1}'');"&gt;유효한 옵션 목록&lt;/a&gt;을 참조하십시오.
+</entry>
+    <entry key="LongEnumConversionMessageWithoutHyperlinkForTextInput">
+  ''{0}''은(는) 유효한 값이 아닙니다. 유효한 옵션 목록을 보려면 enumeration(''{1}'')을(를) 입력하십시오.
+</entry>
+    <entry key="AmbiguousEnumMessage">
+  ''{0}''이(가) 모호합니다. {1}
+</entry>
+    <entry key="NotScalar">값은 스칼라여야 합니다.</entry>
+    <entry key="NotVector">값은 벡터여야 합니다.</entry>
+    <entry key="NotMatrix">값은 행렬이어야 합니다.</entry>
+    <entry key="NotVectorOfFixedLength">값은 요소를 {0}개 가진 벡터여야 합니다.</entry>
+    <entry key="NotMatrixOfFixedRowLength">값은 {0}개 행으로 구성된 행렬이어야 합니다.</entry>
+    <entry key="NotMatrixOfFixedColumnLength">값은 {0}개 열로 구성된 행렬이어야 합니다.</entry>
+    <entry key="NotMatrixOfFixedDimensionLength">값은 크기가 {0}인 행렬이어야 합니다.</entry>
+    <entry key="Not3d">값은 3차원 배열이어야 합니다.</entry>
+    <entry key="InvalidSizeWithUnfixedDimensions">값은 크기가 {0}인 배열이어야 합니다. 여기서 *는 임의 크기의 차원을 나타냅니다.</entry>
+    <entry key="InvalidSizeWithFixedDimensions">값은 크기가 {0}인 배열이어야 합니다.</entry>
+    <entry key="IndexingLimitExceeded">차원 값은 2^48보다 작아야 합니다.</entry>
+    <entry key="NameWithQuote">
+      ''{0}''
+    </entry>
+    <entry key="ShortEnumConversionMessage">
+      {0}
+    </entry>
+  </message>
+</rsccat>

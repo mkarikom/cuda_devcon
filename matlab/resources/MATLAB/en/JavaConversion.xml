@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\schema\msgcat.xsd" decorate_cxx_names="1">
+  <message>
+    <!-- ColorOrder -->
+    <entry key="ColorOrderMustHaveOneElement">ColorOrder must have at least one element</entry>
+    <entry key="InvalidColorOrder">Invalid value for ColorOrder</entry>
+    <entry key="NullColorOrder">NULL is not a valid value for ColorOrder</entry>
+
+    <!-- Font -->
+    <entry key="InvalidFontName">Invalid font name</entry>
+
+    <!-- Tick -->
+    <entry key="ArraySizeMustEqual2">Array size is not equal to 2: {0}</entry>
+    <entry key="EmptyArrayInvalid">Empty array is not a valid value</entry>
+    <entry key="InvalidTickLength">Invalid value for TickLength</entry>
+    <entry key="MonotonicallyIncrease">Values must monotonically increase</entry>
+
+    <!-- enum -->
+    <entry key="NullEnumerated">NULL is not a valid value for objects of enumerated type {0}</entry>
+
+    <!-- generic -->
+    <entry key="InputMustNotBeNull">Input parameter for {0} must not be NULL in file {1} line {2}</entry>
+    <entry key="InputParameterInstance">Input parameter must be an instance of {0}</entry>
+    <entry key="InputParameterInstanceFile">Input parameter must be an instance of {0} in file {1} line {2}</entry>
+    <entry key="InvalidStyle">Invalid style for {0}: {1} in file {2} line {3}</entry>
+    <entry key="InvalidValue">Invalid value: NULL</entry>
+    <entry key="InvalidValueFor">Invalid value for {0} type: NULL</entry>
+    <entry key="JNIClassNotFound">JNI cannot find class {0} in file {1} line {2}.</entry>
+    <entry key="JNIFailedCallingMethod">JNI failed calling method {0} of class {1} in file {2} line {3}.</entry>
+  </message>
+</rsccat>
+

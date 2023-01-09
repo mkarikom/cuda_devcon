@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="typemix">timeseries 객체와 {0} 객체의 쌍에 대해서는 시계열 산술 연산을 수행할 수 없습니다.</entry>
+    <entry key="timeDimMismatch">IsTimeFirst 속성의 값이 서로 다른 timeseries 객체의 쌍에 대해서는 시계열 산술 연산을 수행할 수 없습니다.</entry>
+  </message>
+</rsccat>

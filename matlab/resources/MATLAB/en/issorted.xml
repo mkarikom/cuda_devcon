@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="MustBeStringArray" note="stringDatatypeUpdate">Input must be a cell array of character vectors.</entry>
+    <entry key="MustBeMatrix">First argument must be a vector or 2-dimensional matrix.</entry>
+    <entry key="complexIntegers">Complex integers are not supported.</entry>
+    <entry key="DimIsSpecified">Too many input arguments when first argument is a cell array.</entry>
+    <entry key="TooManyInputsRows">Too many input arguments when 'rows' option is specified. Use &lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/issortedrows.html'))\"&gt;issortedrows&lt;/a&gt; to determine row sorting when specifying additional arguments. </entry>
+  <!-- Legacy resource entries -->
+    <entry key="MustBeVector">Input argument must be a row/column vector.</entry>
+    <entry key="vector">Input must be a vector or ''rows'' must be specified.</entry>
+    <entry key="flag">Unknown flag.</entry>
+  <!-- Extra resource entries taken from sort.xml -->
+  </message>
+</rsccat>

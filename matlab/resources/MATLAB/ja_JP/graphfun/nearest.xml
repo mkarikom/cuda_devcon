@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DijkstraNonNegative">すべてのエッジの重みが非負である場合にのみ、Method 値に ''positive'' を指定できます。</entry>
+    <entry key="InvalidDistanceDir">距離は実数で数値のスカラーでなければなりません。</entry>
+    <entry key="InvalidDistanceUndir">距離は実数で非負の数値のスカラーでなければなりません。</entry>
+    <entry key="KeyWithoutValue">{0} に値が指定されていません。</entry>
+    <entry key="NegativeWeights">グラフ エッジの重みは非負でなければなりません。</entry>
+    <entry key="NegCycle">グラフに長さ {0} の負の閉路 (ノード {1}) が含まれているため、最短パスの距離が未定義です。</entry>
+    <entry key="NonScalarSource">ソースは 1 つのノードを指定しなければなりません。</entry>
+    <entry key="ParseDirection">Direction の値は ''outgoing'' または ''incoming'' でなければなりません。</entry>
+    <entry key="ParseFlagsDir">パラメーター名は ''Direction'' または ''Method'' でなければなりません。</entry>
+    <entry key="ParseFlagsUndir">パラメーター名は ''Method'' でなければなりません。</entry>
+    <entry key="ParseMethodDir">メソッド値は ''auto''、''unweighted''、''positive'' または ''mixed'' でなければなりません。</entry>
+    <entry key="ParseMethodUndir">メソッド値は ''auto''、''unweighted'' または ''positive'' でなければなりません。</entry>
+  </message>
+</rsccat>

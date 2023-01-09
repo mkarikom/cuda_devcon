@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoBrushColorModeOut">尝试设置涂刷颜色或涂刷模式状态时不要指定输出</entry>
+    <entry key="NoColorOut">尝试设置涂刷颜色时不要指定输出</entry>
+    <entry key="InvalidFigure">图窗未知或无效。</entry>
+    <entry key="invColor">颜色向量无效</entry>
+    <entry key="invColorStr">颜色字符向量无效</entry>
+    <entry key="InvalidInputForOutArg">未随这些输入参数一起指定一个输出参数。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ToBeRemoved">The ''all'' option will be removed in a future release.</entry>
+    <entry key="DeprecatedOption">The ''all'' option to hgsave has been removed.</entry>
+    <entry key="InvalidFilename" note="stringDatatypeUpdate">The filename argument must be a non-empty string scalar or character vector.</entry>
+    <entry key="InvalidHandle">Invalid handle.</entry>
+    <entry key="InvalidOption" note="stringDatatypeUpdate">Options must all be string scalars or character vectors.</entry>
+    <entry key="UnrecognizedOption">Invalid option: {0}.</entry>
+  </message>
+</rsccat>

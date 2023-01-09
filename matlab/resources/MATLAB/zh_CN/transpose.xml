@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NDArray">TRANSPOSE 不支持 N 维数组。请使用 PAGETRANSPOSE/PAGECTRANSPOSE 转置页，或使用 PERMUTE 重新排列 N 维数组的维度。</entry>
+    <entry key="intType">整数数据类型不支持复共轭转置。</entry>
+    <entry key="notDefinedOnArrayWithOpaqueIndexing">未对具有不透明索引的数组定义转置。</entry>
+    <entry key="notImplemented">未定义 N 维数组的转置。</entry>
+  </message>
+</rsccat>

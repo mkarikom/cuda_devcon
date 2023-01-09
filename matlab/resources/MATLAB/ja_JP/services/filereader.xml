@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DebuggableLinesNotSupported">デバッグ可能な行番号を {0} から取得できません。これは、このファイル タイプの有効な操作ではありません。</entry>
+    <entry key="VfsUrlNotSupported">{0} から読み取ることができません。このファイル タイプに対して URL はサポートされていません。</entry>
+  </message>
+</rsccat>

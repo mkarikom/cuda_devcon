@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidDim">DIM must be 1 or 2 for a 2-D table.</entry>
+    <entry key="NonconstDim">When generating code, dimension argument must be constant.</entry>
+    <!-- codegen -->
+    <entry key="Varsize0x0">In code generation, while concatenating tables, the first variable-size table cannot be 0x0 at runtime.</entry>
+  </message>
+</rsccat>

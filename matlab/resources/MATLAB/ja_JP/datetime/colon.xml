@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonNumericStep">ステップ サイズは期間、カレンダー期間または double の実数値でなければなりません。</entry>
+    <entry key="InvalidColon">コロン演算子への入力は datetime 配列、日付/時刻の文字ベクトルの cell 配列、または日付/時刻の string でなければなりません。コロン演算子をグループ化するには、かっこが必要な場合があります。</entry>
+    <entry key="NonScalarInputs">入力はスカラーでなければなりません。</entry>
+  </message>
+</rsccat>

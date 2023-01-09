@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="UnrecognizedSolver">Unrecognized solver: {0}</entry>
+      <entry key="LogSuccessfulSteps">{0} successful steps\n</entry>
+      <entry key="LogFailedAttempts">{0} failed attempts\n</entry>
+      <entry key="LogFunctionEvaluations">{0} function evaluations\n</entry>
+      <entry key="LogPartialDerivatives">{0} partial derivatives\n</entry>
+      <entry key="LogLUDecompositions">{0} LU decompositions\n</entry>
+      <entry key="LogSolutionsOfLinearSystems">{0} solutions of linear systems\n</entry>
+   </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidSize">크기 벡터는 적어도 2개의 요소를 가지고 있어야 합니다.</entry>
+    <entry key="SubscriptVectorSize">첨자 벡터는 모두 같은 크기여야 합니다.</entry>
+    <entry key="IndexOutOfRange">첨자 범위를 벗어났습니다.</entry>
+  </message>
+</rsccat>

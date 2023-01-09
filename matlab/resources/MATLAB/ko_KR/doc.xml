@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="HelpErrorPageNotFound">{0}을(를) 찾을 수 없습니다.</entry>
+    <entry key="InvalidTopic">유효하지 않은 도움말 문서 항목임: {0}</entry>
+    <entry key="DocNotInstalled">이 도움말 위치에 설치된 제품이 없습니다.\n제품과 연결되지 않은 도움말 문서는 도움말 브라우저에 표시되지 않습니다.</entry>
+    <entry key="CreatedSearchDatabase">검색 데이터베이스를 성공적으로 생성했습니다.</entry>
+    <entry key="SpecifiedDirectoryDoesNotExist">지정된 디렉터리가 존재하지 않습니다.</entry>
+    <entry key="CouldNotWriteSearchDatabase">검색 데이터베이스를 쓸 수 없습니다.</entry>
+    <entry key="UnsupportedPlatform">{0}은(는) 현재 사용할 수 없습니다.</entry>
+    <entry key="MustBeSingleString">string형 입력값은 스칼라여야 합니다.</entry>
+    <entry key="FileDoesNotExist">{0}이(가) 존재하지 않습니다.</entry>
+    <entry key="PatchedDemoXmlFile">demos.xml 파일을 패치했습니다.</entry>
+    <entry key="NoCharDataInDemoXmlFile">demos.xml 파일에 문자 데이터가 없습니다.</entry>
+  </message>
+</rsccat>

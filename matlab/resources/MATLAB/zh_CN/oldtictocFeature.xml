@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="elapsedTime">历时 {0} 秒。\n</entry>
+    <entry key="noCpuTicTocSupport">''off'' 已被忽略。不支持新的(基于 CPU 计数器实现的) tic 和 toc 内置指令。</entry>
+  </message>
+</rsccat>

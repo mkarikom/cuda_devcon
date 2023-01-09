@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ProFailed">qk 的 M 正交再正交化失败。</entry>
+    <entry key="FactorizationFailed">平移 {3} 的因子对角线比率 {2} 较大(第 {0} 次尝试，共 {1} 次)</entry>
+    <entry key="QRFailedKp1">qk+1 的 M 正交再正交化失败，代码为 {0}。</entry>
+    <entry key="ProQRFailedKp1">qk+1 的 M 正交再正交化在完成部分再正交化后失败。</entry>
+    <entry key="SoQRFailedKp1">qk+1 的 M 正交再正交化在完成选择性再正交化后失败。</entry>
+    <entry key="NeedKM">必须同时提供 K 和 M。</entry>
+    <entry key="KMSparseDouble">K 和 M 必须为双精度稀疏矩阵。</entry>
+    <entry key="NotSquare">K 和 M 必须为大小相同的方阵。</entry>
+    <entry key="NoOpts">第三个参数必须为选项的结构体数组。</entry>
+    <entry key="OutsideShift">平移超出所有区间。</entry>
+    <entry key="NotAllFound">未找到全部特征值。请降低 FrequencyRange 或提高 MaxShift。</entry>
+    <entry key="BadFactor">分解失败，可能是因为不适定问题。</entry>
+    <entry key="MassIndefinite">质量矩阵似乎是不定矩阵。</entry>
+    <entry key="Overfull">在一个区间中发现太多特征值。</entry>
+    <entry key="BadLeft">请调整 FrequencyRange 的左端点以避免特征值簇。</entry>
+    <entry key="BadRight">请调整 FrequencyRange 的右端点以避免特征值簇。</entry>
+    <entry key="BeginningBanner">Lanczos 迭代 {0}: 在范围({4}, {5})内寻找 {1} 个特征值(左边 {2} 个，右边 {3} 个)</entry>
+    <entry key="BeginningLanczosParameters">Lanczos 迭代参数:\n 平移: {0}，惯量: {1}，因子对角线比率: {2}\n 块大小: {3}\n 最小步数: {4}\n 最大步数: {5}\n 选择性正交化特征对数量: {6}</entry>
+    <entry key="BeginningSOTitle">-- SO 特征值 ----- 平移 ------ 残差边界 ----</entry>
+    <entry key="ProgressBanner">第 {0} 步: 已收敛 {1} 个特征值(左边 {2} 个，右边 {3} 个)。</entry>
+    <entry key="ProgressEvalTitle">----- T 特征值 ----- 特征值 ------- 残差 -----</entry>
+    <entry key="CostBanner">下面 {0} 步每个 Ritz 值的预计成本:</entry>
+    <entry key="SummaryBanner">Lanczos 迭代已完成，退出代码为 {0}:\n 找到的特征值: {1}\n Sentinel: ({2}, {3})\n 步数: {4}\n 部分再正交化: {5}</entry>
+    <entry key="BlockSizeReduced">在此迭代中找不到特征值。请将块大小减小到 {0}。</entry>
+    <entry key="TerminateCost">由于成本太高而终止迭代。</entry>
+    <entry key="DisplayEmptyIntervalInfo">区间 {0}: 空(找到 {2} 个特征值中的 {1} 个)\n 端点: [{3}, {4}]\n Sentinel: [{5}, {6}]\n Sturm 计数: [{7}, {8}]</entry>
+    <entry key="DisplayPartialIntervalInfo">区间 {0}: 部分(找到 {2} 个特征值中的 {1} 个)\n 端点: [{3}, {4}]\n Sentinel: [{5}, {6}]\n Sturm 计数: [{7}, {8}]</entry>
+    <entry key="DisplayFullIntervalInfo">区间 {0}: 满(找到 {2} 个特征值中的 {1} 个)\n 端点: [{3}, {4}]\n Sentinel: [{5}, {6}]\n Sturm 计数: [{7}, {8}]</entry>
+    <entry key="DisplayOverfullIntervalInfo">区间 {0}: 过满(找到 {2} 个特征值中的 {1} 个)\n 端点: [{3}, {4}]\n Sentinel: [{5}, {6}]\n Sturm 计数: [{7}, {8}]</entry>
+    <entry key="AllFound">找到所有特征值。</entry>
+  </message>
+</rsccat>

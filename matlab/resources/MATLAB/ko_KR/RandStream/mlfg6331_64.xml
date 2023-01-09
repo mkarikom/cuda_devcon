@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnableToComputeALFGState">ALFG 상태를 계산할 수 없습니다.</entry>
+    <entry key="InvalidState">mlfg6331_64 생성기에 유효하지 않은 상태입니다.</entry>
+    <entry key="SubstreamsIndexOutOfRange">mlfg6331_64 스트림에 2^51개의 하위 스트림만 있습니다.</entry>
+    <entry key="InvalidParameter">mlfg6331_64 생성기에는 파라미터가 허용되지 않습니다.</entry>
+    <entry key="TooManyStreams">mlfg6331_64 스트림은 2^61개를 초과하여 생성할 수 없습니다.</entry>
+  </message>
+</rsccat>

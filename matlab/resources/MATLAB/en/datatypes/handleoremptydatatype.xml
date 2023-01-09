@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="IsEqualException">Unknown exception in HandleOrEmptyDataType:isEqual</entry>
+    <entry key="StringToDataType" note="stringDatatypeUpdate">Character vector to data type conversion is not allowed</entry>
+    <entry key="DataTypeToString" note="stringDatatypeUpdate">Data type to character vector conversion is not allowed</entry>
+    <entry key="InvalidHGHandle">The value set for this property must be a valid HG handle.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SelectVizLabel">시각화 선택</entry>
+    <entry key="SearchPlaceholderText">시각화 검색</entry>
+    <entry key="AllLabel">모두</entry>
+    <entry key="ChartInPurposeLine">대화형 방식으로 {0} 만들기</entry>
+    <entry key="NoVizFound">시각화를 찾을 수 없음</entry>
+    <entry key="LinePlotsLabel">선 플롯</entry>
+    <entry key="DataDistLabel">데이터 분포 플롯</entry>
+    <entry key="DiscreteDataLabel">이산 데이터 플롯</entry>
+    <entry key="GeoPlotsLabel">지리 플롯</entry>
+    <entry key="PolarPlotsLabel">극좌표 플롯</entry>
+    <entry key="ContourPlotsLabel">등고선 플롯</entry>
+    <entry key="VectorFieldsLabel">벡터장</entry>
+    <entry key="SurfaceAndMeshLabel">곡면 플롯 및 메시 플롯</entry>
+    <entry key="StatisticsLabel">통계적 시각화</entry>
+    <entry key="AnimationLabel">애니메이션</entry>
+    <entry key="ImagesLabel">이미지</entry>
+    <entry key="RequiredFieldLabel">필수 필드입니다.</entry>
+    <entry key="SignalProcessingLabel">신호 처리</entry>
+    <entry key="FilterCategoryLabel">범주별 필터링</entry>
+    <entry key="SelectDataPanelLabel">데이터 선택</entry>
+    <entry key="SelectOptionalPanelLabel">선택적 시각화 파라미터 선택</entry>
+    <entry key="DataLabel">데이터</entry>
+    <entry key="SelectVariableLabel">선택</entry>
+    <entry key="AllVariablesLabel">모든 변수</entry>
+    <entry key="SizeChannel">크기</entry>
+    <entry key="ColorChannel">색</entry>
+    <entry key="ThetaChannel">세타</entry>
+    <entry key="LatitudeChannel">위도</entry>
+    <entry key="LongitudeChannel">경도</entry>
+    <entry key="RChannel">로</entry>
+    <entry key="FunctionChannel">함수</entry>
+    <entry key="TimeIntervalChannel">시간 구간</entry>
+    <entry key="XYIntervalChannel">XY 구간</entry>
+    <entry key="LineStyleDesc">선 스타일</entry>
+    <entry key="MarkerDesc">마커 기호</entry>
+    <entry key="AlignVertexDesc">매끄러운 세로선과 가로선</entry>
+    <entry key="MeshStyleDesc">표시할 모서리</entry>
+    <entry key="NoProperties">선택할 수 있는 파라미터 없음</entry>
+    <entry key="SelectParametersTooltip">선택한 시각화에 대한 파라미터를 추가합니다.</entry>
+    <entry key="CreateLabel">만들기</entry>
+    <entry key="AddLabel">추가</entry>
+    <entry key="RemoveVisualizationLabel">시각화 제거</entry>
+    <entry key="WarningLabel">데이터를 선택하십시오.</entry>
+    <entry key="CommentForAnnotations">{0} 및 {1} 추가</entry>
+    <entry key="ChartSummaryOneData">{1}의 {0}</entry>
+    <entry key="ChartSummaryTwoData">{1} 및 {2}의 {0}</entry>
+    <entry key="Tool_VisualizeDataTask_Label">플롯 만들기</entry>
+    <entry key="Tool_VisualizeDataTask_Description">대화형 방식으로 시각화를 만들고 탐색합니다.</entry>
+    <entry key="SpecifyZColor">Z 및 색 지정</entry>
+    <entry key="SpecifyXYZ">X, Y, Z 지정</entry>
+    <entry key="SpecifyZ">Z 지정</entry>
+    <entry key="SpecifyColor">색 지정</entry>
+    <entry key="SpecifyXYColor">X, Y 및 색 지정</entry>
+    <entry key="SpecifyXYZColor">X, Y, Z 및 색 지정</entry>
+    <entry key="SpecifyXYZVSlice">X, Y, Z, 볼륨 및 슬라이스 지정</entry>
+    <entry key="SpecifyVXYZSlice">볼륨 및 XYZ 슬라이스 지정</entry>
+    <entry key="SpecifyFunctionInterval">함수 및 구간 지정</entry>
+    <entry key="SpecifyXYZFunInterval">XYZ 함수 및 구간 지정</entry>
+    <entry key="ConfigurationLabel">구성</entry>
+    <entry key="SpecifyUV">U 및 V 지정</entry>
+    <entry key="SpecifyXYUV">X, Y, U, V 지정</entry>
+    <entry key="SpecifyXYUVWZ">X, Y, U, V, W, Z 지정</entry>
+    <entry key="SpecifyUVWZ">U, V, W, Z 지정</entry>
+    <entry key="SpecifySymmetric">대칭적</entry>
+    <entry key="SpecifyAssymetricVertical">비대칭 세로</entry>
+    <entry key="SpecifyAssymetricHorVert">비대칭 가로 및 세로</entry>
+    <entry key="UnsupportedLabel">{0}은(는) 지원되지 않음</entry>
+    <entry key="OverlayTooltip">{0}을(를) 사용하여 플롯을 중첩합니다</entry>
+    <entry key="UnsupportedTooltip">현재 선택한 시각화에는 {0} 사용이 지원되지 않습니다</entry>
+    <entry key="ConfigurationTooltip">선택한 차트의 시각적 채널에 데이터를 매핑하는 데 사용할 구성 유형을 선택합니다</entry>
+    <entry key="ConfigurationMapError">이 구성에서는 선택한 모든 작업 공간 변수를 채널에 매핑할 수 없습니다. 드롭다운에서 다른 구성을 선택하십시오.</entry>
+    <entry key="OverlaySummaryLine">동일한 좌표축에서 여러 개의 플롯 중첩</entry>
+    <entry key="NoVizCreatedError">추가적인 플롯을 추가하려고 시도하기 전에 시각화를 생성하십시오</entry>
+  </message>
+</rsccat>

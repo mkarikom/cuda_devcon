@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noirregtime">显式时间向量不能用于基于帧的时间序列</entry>
+    <entry key="wrongdatasize">数据的最后一个维度应与时间向量的长度相同。</entry>
+    <entry key="invinterval">无效的间隔设定</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="integerNotSupported">MTIMES (*) is not fully supported for integer classes. At least one argument must be scalar.</entry>
+    <entry key="sparseSingleNotSupported">MTIMES (*) is not supported for one sparse argument and one single argument.</entry>
+    <entry key="inputsMustBe2D">Arguments must be 2-D, or at least one argument must be scalar. Use TIMES (.*) for elementwise multiplication, or use PAGEMTIMES to apply matrix multiplication to the pages of N-D arrays.</entry>
+    <entry key="logicalInputsMustBeScalar">Both logical arguments must be scalar. Use TIMES (.*) for elementwise multiplication.</entry>
+    <entry key="MixedClassNotSupport">Argument class is not supported.</entry>
+  </message>
+</rsccat>

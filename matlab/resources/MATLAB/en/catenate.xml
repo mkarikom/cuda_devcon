@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="sparseDimensionBad">Dimension for sparse matrix concatenation must be &lt;= 2.</entry>
+    <entry key="incompatibleType">Arrays being catenated have incompatible classes.</entry>
+    <entry key="structFieldBadNumber">Number of fields in structure arrays being concatenated do not match. Concatenation of structure arrays requires that these arrays have the same set of fields.</entry>
+    <entry key="structFieldBadNames">Names of fields in structure arrays being concatenated do not match. Concatenation of structure arrays requires that these arrays have the same set of fields.</entry>
+    <entry key="emptyArrayColumnsDimensionMismatch">This concatenation operation includes an empty array with an incorrect number of columns.\nConcatenation including empty arrays will require all arrays to have the same number of columns in a future release.</entry>
+    <entry key="emptyArrayRowsDimensionMismatch">This concatenation operation includes an empty array with an incorrect number of rows.\nConcatenation including empty arrays will require all arrays to have the same number of rows in a future release.</entry>
+    <entry key="cellDimensionMismatch">Dimensions of cell arrays being concatenated are not consistent.</entry>
+    <entry key="sparseDimensionMismatch">Concatenation involves conversion to sparse of an array with more than 2 dimensions.</entry>
+    <entry key="opaqueDimensionMismatch">Dimensions of object arrays being concatenated are not consistent.</entry>
+    <entry key="matrixDimensionMismatch">Dimensions of arrays being concatenated are not consistent.</entry>
+    <entry key="implicitTypeConversionGivesDimensionMismatch">Inconsistent concatenation dimensions because a {0} ''{1}'' array was converted to a {2} ''{3}'' array. Consider creating arrays of the same type before concatenating.</entry>
+    <entry key="resultDimensionMismatch">Dimensions of resulting array are not consistent with dimensions of arrays being concatenated.</entry>
+    <entry key="maxNDims">DIM input exceeds maximum number of dimensions.</entry>
+    <!--Resource entries for src/matrix-->
+    <entry key="invalidDimension">Dimension argument must be a real, positive, integer scalar.</entry>
+  </message>
+</rsccat>

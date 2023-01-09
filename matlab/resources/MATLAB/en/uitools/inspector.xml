@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <entry key="invalidobject">The input is not supported by the Property Inspector. Use get() command to view properties and set() command to change properties.</entry>
+        <entry key="invalidinput">Input to inspect must be a valid object as defined by ISHANDLE.</entry>
+        <entry key="invalidinputnotobject">Input to inspect must be a valid object.</entry>
+        <entry key="invalidarguments">Input to inspect must be a valid object name and workspace.</entry>
+        <!--Resource entries for toolbox/matlab-->
+        <entry key="InvalidSyntax">inspect(''newinspector'',...) syntax no longer supported</entry>
+        <entry key="InvalidTreeTableSyntax">inspect(''newtreetable'',...) syntax no longer supported</entry> 
+        <entry key="ThePropertyInspector">The Property Inspector</entry>
+        <entry key="XLabel" translate="false" note="TranslateFalseBatch;">x</entry>
+        <entry key="YLabel" translate="false" note="TranslateFalseBatch;">y</entry>
+        <entry key="ZLabel" translate="false" note="TranslateFalseBatch;">z</entry>
+        <entry key="WidthLabel">width</entry>
+        <entry key="HeightLabel">height</entry>
+        <entry key="MinLabel">min</entry>
+        <entry key="MaxLabel">max</entry>
+        <entry key="UnsupportedInLiveEditor">inspect is not supported in the Live Editor</entry>
+        <entry key="JavaUnsupportedInFuture">Support for inspecting java objects will be deprecated in a future release.</entry>
+    </message>
+</rsccat>

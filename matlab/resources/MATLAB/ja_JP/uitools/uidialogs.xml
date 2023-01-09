@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFigureHandle">Figure ハンドルが無効か、削除されています。最初の引数は、有効な Figure のハンドルでなければなりません</entry>
+    <entry key="NotAnAppWindowHandle">最初の引数は関数 uifigure を使用して作成された Figure のハンドルでなければなりません。</entry>
+    <entry key="InvisibleFigure">Figure のハンドル ''Visible'' の値は ''on'' でなければなりません。</entry>
+    <entry key="InvisibleAppContainer">AppContainer ハンドルの ''Visible'' の値は true でなければなりません</entry>
+    <entry key="InvalidMessageText">''Message'' は、char 配列、string 配列、または文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="InvalidTitleText">''Title'' は char 配列または string スカラーでなければなりません。</entry>
+    <entry key="IncorrectNameValuePairs">名前と値のペアの数が正しくありません。各パラメーター名の後には対応する値が必要です。</entry>
+    <entry key="IncorrectParameter">パラメーター名は文字ベクトルまたは string スカラーでなければなりません。</entry>
+    <entry key="IncorrectParameterName">無効なパラメーター名 ''{0}''。有効な名前は ''{1}'' です。</entry>
+    <entry key="InvalidIconSpecified">アイコンの値は 'error'、'warning'、'info'、'question'、'success'、'none'、有効なファイル パス、または m x n x 3 のカラー データの行列でなければなりません。</entry>
+    <entry key="invalidFourStringEnum">''{0}'' の値は ''{1}''、''{2}''、''{3}''、または ''{4}'' でなければなりません。</entry>
+    <entry key="UnableToReadIconFile">アイコン ファイルを読み取れません。アイコン ファイルなしで続行します。</entry>
+    <entry key="InvalidModalValue">''Modal'' の値は true または false でなければなりません。</entry>
+    <entry key="InvalidCloseFcnValue">''CloseFcn'' の値は、文字ベクトル、関数ハンドル、あるいは文字ベクトルか関数ハンドルを含むセル配列でなければなりません。</entry>
+    <entry key="ErrorEvaluatingCloseFcn">ダイアログの ''CloseFcn'' の評価中にエラーが発生しました。\n\n{0}\n</entry>
+    <entry key="OK">OK</entry>
+    <entry key="Cancel">キャンセル</entry>
+    <entry key="CancelRequested">キャンセルがリクエストされました</entry>
+    <entry key="InvalidOptionsValue">オプションは、1 つのオプションを含む文字ベクトルまたは string スカラー、あるいは 1 ～ 4 個のオプションを含む文字ベクトルの cell 配列または string 配列でなければなりません。</entry>
+    <entry key="InvalidDefaultOption">''{0}'' は、'Options' cell 配列からの文字ベクトルか string スカラー、または 'Options' cell 配列のインデックスでなければなりません</entry>
+    <entry key="errorInWeb">
+         
+        URL ''{0}'' を開くことができません: {1}
+    </entry>
+    <entry key="errorInWebEmpty"> 有効な URL スキームがないと URL を開くことができません。
+    </entry>
+  </message>
+</rsccat>

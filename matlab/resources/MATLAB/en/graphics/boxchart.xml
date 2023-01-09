@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2019-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NoXGDataWhenY2D">Passing xgroupdata is not supported when ydata is a matrix.</entry>
+    <entry key="NoXDataWhenYData2D">Setting XData is not supported when YData is a matrix.</entry>
+    <entry key="BadXVectorY">xgroupdata must be the same size as ydata.</entry>
+    <entry key="BadXDataVectorYData">XData must be the same size as YData.</entry>
+    <entry key="NoColGDataWhenY2D">''GroupByColor'' parameter is not supported when the sample data argument is a matrix.</entry>
+    <entry key="BadColGroupVectorY">''GroupByColor'' value must be the same size as the sample data argument.</entry>
+    <entry key="OrientationYYAxis">Changing the ''Orientation'' property is not supported when the box chart has categorical values in multiple y-axes.</entry>
+    <entry key="OrientationMixedType">Changing the ''Orientation'' property is not supported when the box chart has categorical values and the axes contains charts of different types.</entry>
+    
+    <!-- Datatip fields -->
+    <entry key="Position">Position</entry>
+    <entry key="OutlierValue">Outlier Value</entry>
+    <entry key="LowerQuartile">Lower Quartile</entry>
+    <entry key="UpperQuartile">Upper Quartile</entry>
+    <entry key="LowerWhisker">Lower Whisker</entry>
+    <entry key="UpperWhisker">Upper Whisker</entry>
+    <entry key="LowerNotch">Lower Notch</entry>
+    <entry key="UpperNotch">Upper Notch</entry>
+    <entry key="Median">Median</entry>
+    <entry key="NumPoints">Num Points</entry>
+    <entry key="Quartiles">Quartiles</entry>
+    <entry key="Whiskers">Whiskers</entry>
+    <entry key="Notches">Notches</entry>
+    <entry key="NumOutliers">Num Outliers</entry>
+    <entry key="ColorGroup">Name</entry>
+  </message>
+</rsccat>

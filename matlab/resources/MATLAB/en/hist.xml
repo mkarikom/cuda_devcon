@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidInput">Input arguments must be numeric or a categorical array.</entry>
+    <entry key="InvalidLink">Cannot link histograms for nonvector data.</entry>
+    <entry key="OrdinalMismatch">X and Y must both be ordinal or not ordinal.</entry>
+    <entry key="InvalidCategories" note="stringDatatypeUpdate">X must be a categorical array, a cell array of character vectors, or a string array containing valid category names.</entry>
+    <entry key="UnrecognizedCategories">X contains categories not present in Y.</entry>    
+  </message>
+</rsccat>

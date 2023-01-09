@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonExistentDirectory">現在のフォルダーを ''{0}'' ({1}) に変更できません。</entry>
+    <entry key="NonExistentFolder">現在のフォルダーを ''{0}'' に変更できません (名前が存在しないかフォルダーではありません)。</entry>
+    <entry key="PermissionDenied">現在のフォルダーを ''{0}'' に変更できません (フォルダーの権限が拒否されました)。</entry>
+    <entry key="AccessFailure">現在のフォルダーを ''{0}'' に変更できません (フォルダーへのアクセスに失敗)。</entry>
+    <entry key="DirectoryNameTooLong">現在のフォルダーを ''{0}'' に変更できません (フォルダー名が長すぎます)。</entry>
+    <entry key="FailedToCD">現在のフォルダーを ''{0}'' に変更できません。</entry>
+    <entry key="Path">パス</entry>
+    <entry key="CannotAccessStartupFolder">フォルダーがアクセス不能であるため MATLAB を起動できません。\n MATLAB を起動するために、スタートアップ フォルダーが MATLAB インストール フォルダーに変更されました。</entry>
+  </message>
+</rsccat>

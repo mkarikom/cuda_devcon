@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="matrixEntriesMustBeFinite">입력 행렬에 Inf 또는 NaN이 포함되어 있습니다.</entry>
+    <entry key="vectorLengthMustMatchNumOfEigValues">클러스터 또는 선택 벡터의 길이는 고유값 개수와 같아야 합니다.</entry>
+    <entry key="clusterMustContainOnlyIntegers">클러스터 인덱스는 양의 정수여야 합니다.</entry>
+    <entry key="reorderingfailed">알고리즘이 성공하지 못했습니다.</entry>
+    <entry key="inputMustBe2D">입력 배열은 2차원이어야 합니다.</entry>
+    <entry key="invalidOption">옵션은 ''lhp'', ''rhp'', ''udi'' 또는 ''udo''여야 합니다.</entry>
+    <entry key="invalidSchurStructure">입력 행렬은 유효한 Schur 형식이어야 합니다.</entry>
+    <entry key="inputSparse">희소 행렬은 지원되지 않습니다.</entry>
+    <entry key="inputType">유효하지 않은 데이터형입니다. 첫 번째 인수와 두 번째 인수는 double형 또는 single형이어야 합니다.</entry>
+  </message>
+</rsccat>

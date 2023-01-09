@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidIRI">''{0}'' 不是有效 URL。</entry>
+    <entry key="unsupportedProvider">''{0}'' 包含不受支持的提供程序。</entry>
+    <entry key="changeEventsNotSupported">在 ''{0}'' 处不支持更改事件。</entry>
+    <entry key="subscriptionError">在 ''{0}'' 处出现下标错误。</entry>
+    <entry key="folderNotEmpty">位置 ''{0}'' 不为空。</entry>
+    <entry key="invalidLocation">{0} 不是有效位置。</entry>
+    <entry key="permissionDenied">在 ''{0}'' 处权限被拒绝。</entry>
+    <entry key="resourceAlreadyExists">资源 ''{0}'' 已存在。</entry>
+    <entry key="resourceNotFound">找不到位置 ''{0}''。</entry>
+    <entry key="readOnlyProvider">位置 ''{0}'' 为只读。</entry>
+    <entry key="fileTooLarge">资源 ''{0}'' 太大。</entry>
+    <entry key="resourceInUse">资源 ''{0}'' 当前正在使用中。</entry>
+    <entry key="noSpaceLeft">没有剩余空间来在 ''{0}'' 处执行操作。</entry>
+    <entry key="ioError">在 ''{0}'' 处出现低级错误。</entry>
+    <entry key="internalError">在 ''{0}'' 处出现内部错误。</entry>
+    <entry key="unsupportedOperation">在 ''{0}'' 处不支持此操作。</entry>
+    <entry key="unknownError">在 ''{0}'' 处出现未知错误。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NoCopyMethod">Can't find copy method for {0}</entry>
+    <entry key="NoCopyElementMethod">Class {0} does not have a copyElement method.</entry>
+    <entry key="ScalarOutputRequired">Must be scalar</entry>
+    <entry key="WrongReturnClass">Must be same class</entry>
+    <entry key="UndefinedMethod">Class {0} does not have a copy method.</entry>
+  </message>
+</rsccat>

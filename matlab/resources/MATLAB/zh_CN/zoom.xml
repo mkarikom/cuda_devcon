@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidSyntax">语法无效</entry>
+    <entry key="InvalidInputZeroOne">输入必须为 0 或 1</entry>
+    <entry key="V6Removed">v6 缩放实现已删除。</entry>
+    <entry key="UnrecognizedInput">未知的操作字符向量。</entry>
+    <entry key="InvalidContextMenu">句柄必须为 uicontextmenu。</entry>
+    <entry key="InvalidProperty">缩放模式的属性 ''{0}'' 无效。</entry>
+    <entry key="InvalidDirection">方向必须为 ''in'' 或 ''out''</entry>
+    <entry key="InvalidConstraint">约束必须为 ''vertical''、''horizontal'' 或 ''none''。</entry>
+    <entry key="InvalidArgsForOutput">未随这些输入参数一起指定一个输出参数。</entry>
+    <entry key="NoFigureExists">不存在要缩放的图窗。</entry>
+  </message>
+</rsccat>

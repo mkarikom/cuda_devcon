@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ClassNotSupport">Input class is not supported.</entry>
+    <entry key="InvalidComparisonMethod">Comparison method must be ''auto'', ''abs'', or ''real''.</entry>
+    <entry key="InvalidFlagPosition">Option must be specified before name-value pair.</entry>
+    <entry key="mixedInputs">Mixed inputs must be either single and double or integer and scalar double. All other combinations are not allowed.</entry>
+    <entry key="TwoInTwoOutCaseNotSupported">MAX with two matrices to compare and two output arguments is not supported.</entry>
+    <entry key="caseNotSupported">Dimension argument is not supported when two input arrays are provided.</entry>
+    <entry key="notSupportedSparse">Sparse integer and single operands are not supported for MAX.</entry>
+    <entry key="complexIntegersNotSupported">Complex integer maximum is not supported.</entry>
+    <entry key="unknownNaNFlag">Option must be ''omitnan'' or ''includenan''.</entry>
+    <entry key="unknownFlag">Options must be ''linear'', ''omitnan'', or ''includenan''.</entry>
+    <entry key="unknownOption">Option must be ''all'', ''linear'', ''omitnan'', or ''includenan''.</entry>
+    <entry key="secondInputFlag">Invalid second argument. When specifying an option, use MAX(X,[],option).</entry>
+    <entry key="wrongInput">Invalid data type. First argument must be numeric or logical.</entry>
+    <entry key="wrongSecondInput">Invalid data type. Second argument must be numeric or logical.</entry>
+    <entry key="secondOutputNotSupported">Specify ''linear'' option when returning two outputs and the dimension is a vector.</entry>
+    <entry key="secondOutputNotSupportedSparse">Second output is not supported for matrices of this size.</entry>
+    <entry key="InvalidAbsRealType">''ComparisonMethod'' parameter only supported when input array is numeric or logical.</entry>
+    <entry key="secondInputNVP">Invalid second argument. When specifying a name-value pair, use MAX(X,[],"ComparisonMethod",method).</entry>
+  </message>
+</rsccat>

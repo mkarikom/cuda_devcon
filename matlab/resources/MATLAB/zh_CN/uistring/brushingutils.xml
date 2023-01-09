@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ReplaceWith">替换为</entry>
+    <entry key="NaNs">NaN</entry>
+    <entry key="DefineAConstant">定义常量...</entry>
+    <entry key="Remove">删除刷亮项</entry>
+    <entry key="RemoveUnbrushed">删除未刷亮项</entry>
+    <entry key="CreateVariable">导出刷亮的...</entry>
+    <entry key="PasteDataToCommandLine">将数据粘贴到命令行</entry>
+    <entry key="CopyDataToClipboard">将数据复制到剪贴板</entry>
+    <entry key="ClearAllBrushing">清除所有刷亮项</entry>
+    <entry key="Color">颜色...</entry>
+  </message>
+</rsccat>

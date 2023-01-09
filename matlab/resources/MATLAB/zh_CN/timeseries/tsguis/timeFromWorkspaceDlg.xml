@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Cancel">取消</entry>
+    <entry key="Column">列</entry>
+    <entry key="ColumnIndex">列索引: </entry>
+    <entry key="ColumnIndices">列索引: </entry>
+    <entry key="DefineTimeVectorFromAWorkspaceVariable">定义工作区变量中的时间向量:</entry>
+    <entry key="Help">帮助</entry>
+    <entry key="InvalidTimeVectorSelected">所选的时间向量无效。</entry>
+    <entry key="VariableInformation">变量名称: {0}      长度: {1}      开始时间: {2}      结束时间:  {3}</entry>
+    <entry key="Row">行</entry>
+    <entry key="RowIndex">行索引: </entry>
+    <entry key="RowIndices">行索引: </entry>
+    <entry key="Select">选择</entry>
+    <entry key="SelectAColumnIf">如果时间向量存储在该变量的列中，请选择“列”。反之亦然。</entry>
+    <entry key="SelectTheColumnrowIndex">选择列/行索引</entry>
+    <entry key="SelectTimeVectorFrom">从 {0} 中选择时间向量</entry>
+    <entry key="SelectTimeVectorFromMATLABWorkspaceVariable">从 MATLAB 工作区变量中选择时间向量</entry>
+    <entry key="Step1HighlightTheVariable">步骤 1: 突出显示表中的变量并在编辑框中定义长度</entry>
+    <entry key="Step2ClickTheSelectButton">步骤 2: 单击“选择”按钮</entry>
+    <entry key="TimeIsArrangedBy">时间排列依据:</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="VariableName">  变量名称: </entry>
+    <entry key="WhatsThis">这是什么</entry>
+  </message>
+</rsccat>

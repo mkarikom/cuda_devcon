@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badmembernumber">결합(Concatenate)하려는 각 tscollection은 멤버 수가 동일해야 합니다.</entry>
+    <entry key="badmembername">tscollection에는 고유한 이름을 가진 멤버가 있어야 합니다.</entry>
+    <entry key="overlaptime">지정한 시계열의 시간 벡터는 겹치지 않고 연속적이어야 합니다.</entry>
+    <entry key="badsamplesize">{0}의 샘플 크기 또는 데이터형이 tscollection의 다른 멤버와 일치하지 않습니다.</entry>
+  </message>
+</rsccat>

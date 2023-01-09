@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MaxNumPointsRange">MaximumNumPoints 必须大于 0。</entry>
+    <entry key="MaxNumPointsRound">MaximumNumPoints 的值不能带小数。该值已四舍五入取整为 {0, number, integer}。 </entry>
+    <entry key="MaxNumPointsNaN">MaximumNumPoints 的值不能为 NaN。</entry>
+    <entry key="AddPointsInvalidSizeXY">参数 X ({0,number,integer}) 的长度必须与参数 Y ({1,number,integer}) 的长度相等。</entry>
+    <entry key="AddPointsInvalidSizeXYZ">参数 X ({0,number,integer}) 的长度必须与参数 Y ({1,number,integer}) 的长度及参数 Z ({2,number,integer}) 的长度相等。</entry>
+    <entry key="AddPointsInvalidType">参数 {0} 的类型无效。类型必须为双精度。</entry>
+    <entry key="AddPointsNoSparse">参数 {0} 不能为稀疏数据。</entry>
+    <entry key="AddPointsNoComplex">参数 {0} 不能为复数。</entry>
+    <entry key="AddPointsInvalidShape">参数 {0} 必须为向量。</entry>
+    <entry key="AddPointsOverflow">点数超过默认最大点数 {0,number,integer}。要控制动画线中的点数，请将 AnimatedLine 对象的 MaximumNumPoints 属性设置为所需的值。</entry>
+    <entry key="IncorrectNumInputArgs">无效的便捷参数个数: {0, number, integer}。有效输入为 animatedline(X,Y,...) 或 animatedline(X,Y,Z,...)。 </entry>
+    <entry key="GetPointsIncorrectNumberOfOutputArgs">指定两个或三个输出参数。</entry>
+  </message>
+</rsccat>

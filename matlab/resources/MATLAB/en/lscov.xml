@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InputSizeMismatch">B must have the same number of rows as A.</entry>
+    <entry key="CantReturnCov">Cannot return S when B contains multiple right-hand sides.</entry>
+    <entry key="NoSparseOrthAlg">Inputs may not be sparse for the ''orth'' algorithm.</entry>
+    <entry key="RankDefSparseCovMat">V must be positive definite if sparse.</entry>
+    <entry key="RankDefCovMat">V is rank deficient to within machine precision - switching to orthogonal algorithm.</entry>
+    <entry key="InvalidCovMatPosV">V must be positive definite or positive semidefinite.</entry>
+    <entry key="InvalidCovMat">V must be a {0, number, integer}-by-{1, number, integer} covariance matrix or a {2, number, integer}-by-1 weight vector.</entry>
+    <entry key="RankDefDesignMat">A is rank deficient to within machine precision.</entry>
+    <entry key="TOrthogToNullSpace">T is orthogonal to the null space of A.</entry>
+    <entry key="InfeasibleRHS">B is not consistent with A and V.</entry>
+    <entry key="InfeasibleRHScol">One or more columns of B are not consistent with A and V.</entry>
+    <entry key="InvalidAlgArg">ALG must be ''chol'' or ''orth''.</entry>
+    <entry key="InvalidCovMatSymV">V must be symmetric.</entry>
+    <entry key="NullSpaceNotSpanned">Some columns of T are orthogonal to the null space of A.</entry>
+  <!--Resource entries for toolbox/matlab/matfun-->
+  </message>
+</rsccat>

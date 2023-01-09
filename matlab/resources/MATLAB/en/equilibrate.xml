@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidInput">Input matrix must be a square matrix of data type double or single.</entry>
+    <entry key="NonFiniteInput">Input matrix must be finite.</entry>
+    <entry key="StructSingular">Input matrix is structurally singular.</entry>
+  </message>
+</rsccat>

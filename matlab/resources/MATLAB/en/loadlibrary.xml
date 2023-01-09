@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotEnoughInputs">The library name must be specified.</entry>
+    <entry key="OptionsMustBeStrings" note="stringDatatypeUpdate">All optional inputs must be character vectors</entry>
+    <entry key="thunkneeded">The current platform requires a thunk file but filename is empty no thunkfile will be created.</entry>
+    <entry key="InvalidOption">Option {0} is not a valid loadlibrary option.</entry>
+    <entry key="ClassRenamed">The library name is not a valid name.\nThe library will be named "{0}".</entry>
+    <entry key="ClassCaseMismatch">The library name case did not match the file name.\nThe library will be named "{0}".</entry>
+    <entry key="ClassIsLoaded">The library class ''{0}'' already exists.  Use a classname alias.</entry>
+    <entry key="InvalidSecondArgument">The second argument to loadlibrary must be a c header file or A loader function or mat file.</entry>
+    <entry key="NoHeaderAllowed">Deployed applications must use a prototype file instead of a header file.  To create the prototype, use the loadlibrary mfilename option. Use the prototype file in compiled code.  See http://www.mathworks.com/help/compiler/matlab-library-loading.html for more information.</entry>
+    <entry key="invalid_mfilename">The prototype file name is the same as the library name and will conflict.</entry>
+    <entry key="cppfailure">Failed to preprocess the input file.\n Output from preprocessor is:{0}</entry>
+    <entry key="cppoutput">Message from C preprocessor:\n{0}</entry>
+    <entry key="parsewarnings">Warnings messages were produced while parsing.  Check the functions you intend to use for correctness.  Warning text can be viewed using:\n [notfound,warnings]=loadlibrary(...)</entry>
+    <entry key="PrototypeFileNotFound">The MATLAB program file describing your library could not be found, possible Perl or file system error.</entry>
+    <entry key="EmptyThunkfileNames">The thunkfile name is not allowed to be empty.</entry>
+    <entry key="CompileFailed">Building {0} failed.  Compiler output is:\n{1}</entry>
+    <entry key="CoderLibrary">To load an {0}, use {1} instead of calling {2} directly.</entry>
+    <entry key="OldStyleMfile">A loader file was supplied that was built with a previous version of MATLAB that will not be supported in future versions of MATLAB.</entry>
+    <entry key="nofunctions">No functions found in library.</entry>
+    <entry key="UnsupportedCompiler">The selected compiler is not supported by loadlibrary.</entry>
+    <entry key="FileNotFound">Could not find file {0}.</entry>
+  <!--Resource entries for src/libcli-->
+    <entry key="TypeNotFound">The data type ''{0}'' used by function {1} does not exist.</entry>
+    <entry key="EnumExists">The enumeration ''{0}'' already exists and will not be created</entry>
+    <entry key="InvalidFunctionStructure">The function information passed into loadlibrary is missing information</entry>
+    <entry key="InvalidCallType">The function call type {0} is not supported</entry>
+    <entry key="TooManyReturnValues">The function ''{0}'' attempts to specify too many return values.</entry>
+    <entry key="FunctionNotFound">The function ''{0}'' was not found in the library</entry>
+    <entry key="ThunkFunctionNotFound">The thunk({0}) for function ''{1}'' was not found in the library</entry>
+    <entry key="InvalidFunctionReturnType">The function return type of ''{0}'' for function {1} is not supported.</entry>
+    <entry key="DirectoryCleanupFailed">Could not delete temporary directory.  Got error:\n{0}</entry>
+    <entry key="LoadFailed" translate="false" note="TranslateFalseBatch;">{0}</entry>
+    <entry key="ThunkLoadFailed" translate="false" note="TranslateFalseBatch;">{0}</entry>
+    <entry key="ThreeInputsNeeded">At least 3 inputs must be passed to loadlibrary.</entry>
+    <entry key="AliasMustBeString" note="stringDatatypeUpdate">The library alias must be a character vector.</entry>
+    <entry key="TypeExists">The data type ''{0}'' already exists in MATLAB. Using existing type.</entry>
+    <entry key="TypeNotFoundForStructure">The data type ''{0}'' used by structure {1} does not exist.  The structure may not be usable.</entry>
+    <entry key="StructTypeExists">The structure type ''{0}'' already exists.\nThe existing type will be reused.</entry>
+    <entry key="IntermediateOutputFollows">Error loading library intermediate output follows.</entry>
+    <entry key="ActualErrorAtEndOfOutput">The actual error is at the end of this output.</entry>
+    <entry key="ErrorRunningLoaderFile">There was an error running the loader file.  Use the mfilename option to produce a file that you can debug and fix if needed.  Please report this error to the MathWorks so we can improve this function.</entry>
+    <entry key="ErrorLoadingLibrary">There was an error loading the library "{0}"\n{1}</entry>
+    <entry key="ThunkfileNotSupportedbyMSVC6">The Microsoft Visual C 6.0 compiler cannot be used to build a thunk file.</entry>
+    <entry key="ThunkfileNotSupportedbyLCC">The LCC compiler cannot be used to build a thunk file.</entry>
+    <entry key="ErrorInHeader">{0}\nError in ==&gt;{1} at {2,number,integer}</entry>
+    <entry key="ErrorRunningFromCommandLine">There was an error running {0}.\nRun {1} from the command line to reproduce the error and fix it.</entry>
+    <entry key="cannotgeneratemfile">Call to Perl failed.  Possible error processing header file.\nOutput of Perl command:\n{0}</entry>
+    <entry key="TooManyArguments">Too many inputs passed to SimpleFunctionThunk.</entry>
+    <entry key="MustBeInRange">Value exceeds the legal range for the data type.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNameValueMismatch">後続の入力引数は名前と値のペアでなければなりません。</entry>
+    <entry key="ArrowSizeDigraphOnly">無向グラフでは ''ArrowSize'' 値の変更はサポートされていません。</entry>
+    <entry key="ArrowPositionDigraphOnly">無向グラフでは ''ArrowPosition'' 値の変更はサポートされていません。</entry>
+    <entry key="EdgeLabelsInvalidSize">ラベルは、スカラー、または指定したエッジ数と長さが等しいベクトルでなければなりません。</entry>
+    <entry key="NoNodeNames">グラフにノード名が含まれていません。</entry>
+    <entry key="HighlightEdgeColor">''EdgeColor'' 値は RGB の数値または色名でなければなりません。</entry>
+    <entry key="HighlightEdgeLabelColor">''EdgeLabelColor'' の値は RGB の数値または色名でなければなりません。</entry>
+    <entry key="HighlightEdgeColorDisabledFlat">EdgeCData プロパティが以前に指定されたため、エッジの色の設定は使用できません。GraphPlot オブジェクトの EdgeColor プロパティを 1 色に設定して EdgeCData の使用を止めてから、このエラーを発生させたコマンドを再実行してください。</entry>
+    <entry key="HighlightEdgeColorDisabledNone">GraphPlot オブジェクトの EdgeColor プロパティが ''none'' であるため、エッジを強調表示できません。GraphPlot オブジェクトの強調されたエッジのみを表示するには、EdgeColor プロパティを ''none'' 以外の値に設定し、LineStyle プロパティを ''none'' に設定してから、highlight の呼び出しで LineStyle を指定してください。</entry>
+    <entry key="HighlightInvalidSubgraph">G はプロットされたグラフと同じノードとエッジの部分集合をもっていなければなりません。</entry>
+    <entry key="HighlightNodeColor">''NodeColor'' 値は RGB の数値または色名でなければなりません。</entry>
+    <entry key="HighlightNodeLabelColor">''NodeLabelColor'' の値は RGB の数値または色名でなければなりません。</entry>
+    <entry key="HighlightNodeColorDisabledFlat">NodeCData プロパティが以前に指定されたため、ノードの色の設定が使用できません。GraphPlot オブジェクトの NodeColor プロパティを 1 色に設定して NodeCData の使用を止めてから、このエラーを発生させたコマンドを再実行してください。</entry>
+    <entry key="HighlightNodeColorDisabledNone">GraphPlot オブジェクトの NodeColor プロパティが ''none'' であるため、ノードを強調表示できません。GraphPlot オブジェクトの強調されたノードのみを表示するには、NodeColor プロパティを ''none'' 以外の値に設定し、Marker プロパティを ''none'' に設定してから、highlight の呼び出しで Marker を指定してください。</entry>
+    <entry key="HighlightNoneEdgeColor">''EdgeColor'' の値は ''none'' に設定できません。強調表示されているエッジを非表示にするには、''LineStyle'' の値を ''none'' に指定してください。</entry>
+    <entry key="HighlightNoneNodeColor">''NodeColor'' の値は ''none'' に設定できません。強調表示されているノードを非表示にするには、''Marker'' の値を ''none'' に指定してください。</entry>
+    <entry key="HighlightNonCharLineStyle">強調表示を使用する場合は、''LineStyle'' 値で ''-''、''--''、'':''、''-.''、または ''none'' の 1 つを指定します。</entry>
+    <entry key="HighlightNonCharMarker">強調表示を使用する場合は、''Marker'' 値で ''+''、''o''、''*''、''.''、''x''、''square''、''diamond''、''v''、''^''、''&gt;''、''&lt;''、''pentagram''、''hexagram''、または ''none'' の 1 つを指定します。</entry>
+    <entry key="HighlightScalarNumber">''{0}'' は数値のスカラーでなければなりません。</entry>
+    <entry key="HighlightUndirectedSubgraph">プロットするグラフが有向の場合、強調表示するグラフも有向でなければなりません。</entry>
+    <entry key="HighlightNoSelection">強調表示するノードまたはエッジを指定します。</entry>
+    <entry key="HighlightInvalidEdgeIndices">''エッジ'' の値は、スカラーのエッジ インデックス、エッジ インデックスのベクトル、またはエッジの数と等しい長さの logical ベクトルでなければなりません。</entry>
+    <entry key="LabeledgeInvalidEdgeIndices">エッジ インデックスは、スカラーのエッジ インデックス、エッジ インデックスのベクトル、またはエッジ数と等しい長さの logical ベクトルでなければなりません。</entry>
+    <entry key="DuplicateEdgeArgs">強調表示するノード ペアまたはエッジのいずれかを指定し、両方は指定しないでください。</entry>
+    <entry key="InvalidBasicGraph">BasicGraph の入力の型は matlab.internal.graph.MLGraph または matlab.internal.graph.MLDigraph でなければなりません。</entry>
+    <entry key="InvalidEdgeColor">EdgeColor は、色名、RGB 3 成分、または各行が 1 つのエッジの色を指定する RGB 3 成分である {0} 行 3 列の行列でなければなりません。</entry>
+    <entry key="InvalidEdgeLabelColor">''EdgeLabelColor'' の値は、色名、RGB 3 成分、または各行が 1 つのエッジの色を指定する RGB 3 成分である {0} 行 3 列の行列でなければなりません。</entry>
+    <entry key="InvalidNodeLabelColor">''NodeLabelColor'' の値は、色名、RGB 3 成分、または各行が 1 つのノードの色を指定する RGB 3 成分である {0} 行 3 列の行列でなければなりません。</entry>
+    <entry key="InvalidEdgeLabel">EdgeLabel 値は数値、文字ベクトルの cell 配列、または string ベクトルでなければなりません。</entry>
+    <entry key="InvalidEdges">s と t はグラフ内のエッジを指定しなければなりません。</entry>
+    <entry key="InvalidLabels">Labels は文字ベクトルの cell ベクトルまたは string ベクトルでなければなりません。</entry>
+    <entry key="InvalidNodeColor">NodeColor は、色名、RGB 3 成分、または各行が 1 つのノードの色を指定する RGB 3 成分である {0} 行 3 列の行列でなければなりません。</entry>
+    <entry key="InvalidNodeLabel">NodeLabel は数値、文字ベクトルの cell 配列、または string ベクトルでなければなりません。</entry>
+    <entry key="InvalidNodeNames">入力ノード名がグラフ内のノード名と一致しません。</entry>
+    <entry key="InvalidParent">親はスカラーのグラフィックス ハンドルでなければなりません。</entry>
+    <entry key="InvalidSinks">Sinks は空でない一意のノードの集合でなければなりません。</entry>
+    <entry key="InvalidSources">Sources は空でない一意のノードの集合でなければなりません。</entry>
+    <entry key="InvalidSourcesSinks">Sources と Sinks は交わらないノードの集合でなければなりません。</entry>
+    <entry key="InvalidST">ノード ID は両方とも数値インデックスであるか、両方ともノード名でなければなりません。</entry>
+    <entry key="InvalidSTSize">s と t は長さが等しいスカラーまたはベクトルでなければなりません。</entry>
+    <entry key="LayoutOptsWithoutLayout">{0} は 'auto' レイアウトではサポートされていません。</entry>
+    <entry key="LayoutWithXDataAndYData">Layout を XData、YData、ZData と一緒に指定することはできません。</entry>
+    <entry key="ScalarOrVectorOfLength">''{0}'' の値はスカラー、または長さ {1,number,integer} のベクトルでなければなりません。</entry>
+    <entry key="InvalidEdgeFontWeight">''EdgeFontWeight'' の値は、''normal''、''bold''、またはエッジごとに ''normal'' または ''bold'' を含む cell 配列または string ベクトルでなければなりません。</entry>
+    <entry key="InvalidEdgeFontAngle">''EdgeFontAngle'' の値は、''normal''、''italic''、またはエッジごとに ''normal'' または ''italic'' を含む cell 配列または string ベクトルでなければなりません。</entry>
+    <entry key="InvalidNodeFontWeight">''NodeFontWeight'' の値は、''normal''、''bold''、またはノードごとに ''normal'' または ''bold'' を含む cell 配列または string ベクトルでなければなりません。</entry>
+    <entry key="InvalidNodeFontAngle">''NodeFontAngle'' の値は、''normal''、''italic''、またはノードごとに ''normal'' または ''italic'' を含む cell 配列または string ベクトルでなければなりません。</entry>
+    <entry key="MissingXDataOrYData">XData と YData の入力は一緒に指定しなければなりません。</entry>
+    <entry key="MissingXStartOrYStart">XStart と YStart の入力は一緒に指定しなければなりません。</entry>
+    <entry key="MissingXStartYStartOrZStart">XStart、YStart、ZStart の入力は一緒に指定しなければなりません。</entry>
+    <entry key="NodeLabelsInvalidSize">ラベルは、スカラー、または指定したノード数と等しい長さのベクトルでなければなりません。</entry>
+    <entry key="NodesInvalidSize">ノードは、数値ベクトル、ノード名のベクトル、またはノード数と等しい長さの logical ベクトルでなければなりません。</entry>
+    <entry key="NoOptionalInput">''{0}'' レイアウト メソッドはオプションの入力引数をサポートしません。</entry>
+    <entry key="ShowArrowsDigraphOnly">無向グラフでは ''ShowArrows'' 値の変更はサポートされていません。</entry>
+    <entry key="UninitializedEdgeCData">EdgeColor を ''flat'' に設定する場合、EdgeCData を空にできません。</entry>
+    <entry key="UninitializedNodeCData">NodeColor を ''flat'' に設定する場合、NodeCData を空にできません。</entry>
+    <entry key="UnknownNodeName">''{0}'' という名前のノードはグラフに含まれていません。</entry>
+    <entry key="ZDataWithoutXDataAndYData">ZData の入力は XData および YData と一緒に指定しなければなりません。</entry>
+    <entry key="IncompatibleVersion">このバージョンの MATLAB と互換性がないため、GraphPlot を読み込むことができません。</entry>
+    <entry key="Node">ノード</entry>
+    <entry key="Degree">次数</entry>
+    <entry key="InDegree">入次数</entry>
+    <entry key="OutDegree">出次数</entry>
+  </message>
+</rsccat>

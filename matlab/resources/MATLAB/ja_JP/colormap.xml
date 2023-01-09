@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFirstArgument">最初の引数は、スカラーの Axes または figure のハンドルでなければなりません。</entry>
+    <entry key="InvalidNumberColumns">カラーマップは 3 列でなければなりません:[R,G,B]。</entry>
+    <entry key="InvalidInputRange">カラーマップは、値が [0,1] の範囲内にある single 型または double 型の M 行 3 列の配列、または uint8 型の M 行 3 列の配列でなければなりません。</entry>
+    <entry key="NeedScalarHandle">最初の引数は、スカラーの Axes または Figure のハンドルでなければなりません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Copyright 2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="UnsupportedTypeForA">Input A must be a real full matrix of type single or double.</entry>
+    <entry key="MoreThan2D">With the ByRows option, inputs must be 2-D.</entry>
+    <entry key="UnsupportedTypeForB">Input B must be a real full matrix of type single or double.</entry>
+    <entry key="IncorrectSizeInputs">Inputs A and B must have the same number of columns.</entry>
+    <entry key="DataSpaceShouldBeSize1">DataScale must have one value.</entry>
+    <entry key="IncorrectSizeOfDataSpace">With the ByRows option, the DataScale value must be a scalar or a vector with the same number of elements as columns in A.</entry>
+    <entry key="InvalidDataScale">Value for DataScale parameter must be a positive non-NaN numeric scalar or vector of type single or double.</entry>
+    <entry key="InvalidByRowsValue">Value for ByRows parameter must be a logical.</entry>
+    <entry key="InvalidOutputAllIndices">Value for OutputAllIndices parameter must be a logical.</entry>
+    <entry key="UnknownOptions">Unknown option specified. See the help for a list of valid options.</entry>
+    <entry key="UnsupportedTypeForTol">Tolerance value TOL must be a real, full (non-sparse), positive numeric scalar of type single or double.</entry>
+    <entry key="TolIsNaN">Tolerance*DataSpace contained a NaN.</entry>
+  </message>
+</rsccat>

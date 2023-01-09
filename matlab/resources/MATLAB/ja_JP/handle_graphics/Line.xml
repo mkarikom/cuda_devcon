@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LevelOfDetailWarning">詳細レベル アルゴリズムは、ラインの詳細度を EdgeDetailLimit よりも下げられませんでした。データの表示品質が低下する可能性があります。より良い結果を得るためには、line オブジェクトの EdgeDetailLimit プロパティの値を増やしてください。</entry>
+    <entry key="MarkerIndexOutOfRange">'MarkerIndices' プロパティに無効なインデックスが含まれています。データ点の数以下のインデックスについてのみマーカーを表示しています。</entry>
+  </message>
+</rsccat>

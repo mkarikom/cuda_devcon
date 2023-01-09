@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+    <message>
+        <!-- Basic Validation -->
+        <entry key="SameClass" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">MissingValue and PrototypeValue must be the same class.</entry>
+        <entry key="IsMissingValue" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">ismissing(MissingValue) must be true.</entry>
+        <entry key="PrototypeNotMissing" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">PrototypeValue must not be missing.</entry>
+
+        <!-- Basic Conversion -->
+        <entry key="ScalarConversion" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">{0}(missing) must return MissingValue.</entry>
+        <entry key="MatrixConversion" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">{0} must have a matrix conversion from missing that preserves the shape of the input.</entry>
+        <entry key="MissingConversion" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">missing({0}) must throw MATLAB:UnableToConvert.</entry>
+
+        <!-- Basic Conversion of other types -->
+        <entry key="ConversionConversion" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">{0}(missing) must return a missing value of {0}.</entry>
+        <entry key="ConversionRoundTrip" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">{0}({1}(missing)) must return {0}(missing).</entry>
+
+        <!-- Assignment -->
+        <entry key="ScalarAssignment" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">Assigning missing to an index must set it to MissingValue.</entry>
+        <entry key="ExpansionAssignment" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">Assigning a scalar missing to an array of indices must set them to MissingValue.</entry>
+        <entry key="ArrayAssignment" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">Assigning an array of missing to an array of indices must set them to MissingValue.</entry>
+
+        <!-- Concatenation -->
+        <entry key="Horzcat" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">[PrototypeValue, missing] must produce [PrototypeValue, MissingValue].</entry>
+        <entry key="Cat2" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">cat(2, PrototypeValue, missing) must return [PrototypeValue, MissingValue].</entry>
+        <entry key="Vertcat" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">[PrototypeValue; missing] must produce [PrototypeValue; MissingValue].</entry>
+        <entry key="Cat1" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">cat(1, PrototypeValue, missing) must return [PrototypeValue; MissingValue].</entry>
+
+        <!-- Comparison -->
+        <entry key="EqualFalse" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">MissingValue == MissingValue must be false, because all missing values are unequal.</entry>
+        <entry key="NotEqualTrue" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">MissingValue ~= MissingValue must be true, because all missing values are unequal.</entry>
+
+        <!-- Ordering -->
+        <entry key="LessThanFalse" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">MissingValue &lt; MissingValue must be false.</entry>
+        <entry key="GreaterThanFalse" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">MissingValue &gt; MissingValue must be false.</entry>
+        <entry key="LessThanOrEqualFalse" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">MissingValue &lt;= MissingValue must be false, because all missing values are unequal.</entry>
+        <entry key="GreaterThanOrEqualFalse" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">MissingValue &gt;= MissingValue must be false, because all missing values are unequal.</entry>
+
+        <!-- isequal Rules -->
+        <entry key="IsEqualMissingValueMissing" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">isequal(MissingValue, missing) must return false, because all missing values are unequal.</entry>
+        <entry key="IsEqualMissingMissingValue" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">isequal(missing, MissingValue) must return false, because all missing values are unequal.</entry>
+        <entry key="IsEqualMissingValueMissingValue" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">isequal(MissingValue, MissingValue) must return false, because all missing values are unequal.</entry>
+        <entry key="IsEqualnMissingValueMissing" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">isequaln(MissingValue, missing) must return true.</entry>
+        <entry key="IsEqualnMissingMissingValue" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">isequaln(missing, MissingValue) must return true.</entry>
+        <entry key="IsEqualnMissingValueMissingValue" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">isequaln(MissingValue, MissingValue) must return true.</entry>
+
+        <!-- Missing Indicator -->
+        <entry key="IsMissingMissingIndicator" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">ismissing(MissingValue, missing) must return true.</entry>
+        <entry key="IsMissingMissingValueIndicator" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">ismissing(MissingValue, MissingValue) must return true.</entry>
+        <entry key="IsNotMissingMissingIndicator" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">ismissing(PrototypeValue, missing) must return false.</entry>
+        <entry key="IsMissingPrototypeIndicator" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">ismissing(PrototypeValue, PrototypeValue) must return true.</entry>
+
+        <!-- Fill Value -->
+        <entry key="FillValue" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">Fill value for assignment growing an array must be MissingValue.</entry>
+
+        <!-- Convert to missing -->
+        <entry key="AssignToEmptyMissing" note="Used as a test diagnostic, displayed if the implementing class does not meet this condition.">Assignment of PrototypeValue to an empty missing array must throw MATLAB:UnableToConvert.</entry>
+    </message>
+</rsccat>

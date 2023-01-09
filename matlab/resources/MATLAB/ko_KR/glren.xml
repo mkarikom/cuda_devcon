@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CreateDIBSection">CreateDIBSection 실패, OpenGL 응용 프로그램 오류(bmp{0},pix{1},gle{2})</entry>
+    <entry key="doubleBufferSlow">단일 버퍼를 사용할 수 없으므로 이중 버퍼가 느려집니다.</entry>
+    <entry key="DoubleBufferVisualNotAvailable">이중 버퍼 비주얼을 사용할 수 없음</entry>
+    <entry key="ErrorIdentifyingOpenGLVisual">OpenGL 비주얼 오류 발생</entry>
+    <entry key="OffScreenContext">glren: 오프스크린 렌더링 컨텍스트를 생성할 수 없음</entry>
+    <entry key="OpenGLRequiresTrueColor">OpenGL의 안정적인 표시를 위해서는 트루 컬러가 필요함</entry>
+    <entry key="print">UIW_SetUpGLPrinting의 문제</entry>
+    <entry key="PrintingVisual">인쇄를 위한 OpenGL 비주얼을 생성할 수 없음</entry>
+    <entry key="ServerHasNoGLXExtension">서버에 GLX 확장자가 없음</entry>
+    <entry key="SetStretchBltMode">SetStretchBltMode 실패, OpenGL 응용 프로그램 오류(gle{0})</entry>
+    <entry key="SingleBufferVisualNotAvailable">단일 버퍼 비주얼을 사용할 수 없음</entry>
+    <entry key="StretchDIBits">StretchDIBits 실패, OpenGL 응용 프로그램 오류(gle{0})</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="BadTransformType">Unknown transform type: {0}</entry>
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="InvalidParamTranslateNumeric">Arguments to translate must be numeric</entry>
+    <entry key="InvalidParamTranslate3D">Arguments to translate must be 3D</entry>
+    <entry key="InvalidParamTranslateFinite">Arguments to translate must be finite</entry>
+    <entry key="InvalidParamScaleNumeric">Arguments to scale must be numeric</entry>
+    <entry key="InvalidParamScaleFactor1D3D">Scale factors must be either 1D or 3D</entry>
+    <entry key="InvalidParamScaleFactorFinite">Scale factors must be finite</entry>
+    <entry key="InvalidParamScaleFactorPositive">Scale factors must be positive</entry>
+    <entry key="InvalidParamXrotateNumeric">Arguments to xrotate must be numeric</entry>
+    <entry key="InvalidParamRotationScalar">Rotation angle must be scalar</entry>
+    <entry key="InvalidParamRotationFinite">Rotation angle must be finite</entry>
+    <entry key="InvalidParamYrotateNumeric">Arguments to yrotate must be numeric</entry>
+    <entry key="InvalidParamZrotate">Arguments to zrotate must be numeric</entry>
+    <entry key="InvalidParamAxisRotateNumeric">Arguments to axisrotate must be numeric</entry>
+    <entry key="BadAxis3D">axis of rotation must be 3D</entry>
+    <entry key="BadAxisFinite">axis of rotation must be finite</entry>
+    <entry key="UnrecognizedArg">Unrecognized argument: {0}</entry>
+    <entry key="InvalidArg">Invalid argument</entry>
+  </message>
+</rsccat>

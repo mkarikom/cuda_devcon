@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nodeploy">リンクされているプロットでは MATLAB ワークスペースが必要であるため、運用するアプリケーションでプロットをリンクできません。</entry>
+    <entry key="InvalidSingleArg">引数は、Figure、''on''、''off'' のいずれかでなければなりません。</entry>
+    <entry key="InvalidFigure">最初の入力は、Figure のハンドルでなければなりません。</entry>
+    <entry key="InvalidState">状態は ''on''、''off''、''toggle'' または ''showdialog'' のいずれかでなければなりません。</entry>
+    <entry key="InvalidArgsForOutput">これらの入力引数を使用して出力引数を指定しないでください。</entry>
+  </message>
+</rsccat>

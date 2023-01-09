@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFigFormat">FigFormat 속성의 값은 -1, 2, 3 중 하나여야 합니다.</entry>
+    <entry key="InvalidMatVersion">MatVersion 속성은 비어 있거나, ''-v6'', ''-v7'' 또는 ''-v7.3''이어야 합니다.</entry>
+    <entry key="InvalidRequiredMatlabVersion">RequiredMatlabVersion 속성은 최소 5자리의 정수 스칼라여야 합니다.</entry>
+    <entry key="InvalidFormat2Data">Format2Data 속성에는 ''type''과 ''handle'', ''properties'', ''children'', ''special'' 필드로 구성된 구조체가 포함되어야 합니다.</entry>
+    <entry key="InvalidFormat3Data">Format3Data 속성에는 Figure 핸들로 구성된 행 벡터가 포함되어야 합니다.</entry>
+    <entry key="EmptyFilename">파일 이름은 비어 있지 않은 string형 스칼라이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="UnsetRequiredMatlabVersion">데이터를 쓰려면 먼저 RequiredMatlabVersion 속성을 0보다 큰 값으로 설정해야 합니다.</entry>
+    <entry key="UnsetFigFormat">데이터를 쓰려면 먼저 FigFormat 속성값을 2 또는 3으로 설정해야 합니다.</entry>
+  </message>
+</rsccat>

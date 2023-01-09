@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidRecycleState">recycle 함수에 유효한 입력값은 'on' 또는 'off'입니다.</entry>
+    <entry key="MoveFileFailure">다음 파일을 재활용할 수 없음: {0}.</entry>
+    <entry key="RecycleDirFailure">파일을 재활용할 수 없습니다. 재활용 디렉터리 ''{0}''을(를) 생성할 수 없습니다.</entry>
+    <entry key="State">상태</entry>
+  </message>
+</rsccat>

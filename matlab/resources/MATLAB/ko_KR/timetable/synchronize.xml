@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonTimetableInput">데이터 입력값은 timetable형이어야 합니다.</entry>
+    <entry key="UnknownNewTimeStep">대상 시간 벡터에 대한 ''{0}''은(는) 동기화를 위한 유효한 지정이 아닙니다.</entry>
+    <entry key="UnknownNewTimeStepDuration">''{0}''은(는) duration형 행 시간값을 갖는 타임테이블 동기화에 필요한 유효한 대상 시간 벡터 지정값이 아닙니다.</entry>
+    <entry key="InvalidNewTimes">동기화를 위한 대상 시간 벡터는 datetime형 벡터 또는 duration형 벡터이거나, string형 또는 문자형 벡터를 사용하여 지정되어야 합니다.</entry>
+    <entry key="InvalidNewTimesForRetime">타이밍 재지정을 위한 대상 시간 벡터는 datetime형 벡터 또는 duration형 벡터이거나, 시간 스텝을 지정하는 string형 또는 문자형 벡터여야 합니다.</entry>
+    <entry key="UnrecognizedMethod">인식할 수 없는 동기화 방법임: ''{0}''.</entry>
+    <entry key="InvalidMethod">동기화 방법은 문자형 벡터, string형 스칼라 또는 함수 핸들이어야 합니다.</entry>
+    <entry key="MixedTimeTypes">모든 입력 타임테이블은 동일한 데이터형의 행 시간값을 가져야 합니다.</entry>
+    <entry key="MixedTimeTypesNewTimes">모든 입력 타임테이블은 대상 시간 벡터와 데이터형이 동일한 행 시간값을 가져야 합니다.</entry>
+    <entry key="FunMustReturnOneRow">집계 메서드 ''{0}''이(가) 정확히 하나의 행을 갖는 값을 반환하지 않았습니다.</entry>
+    <entry key="NotUnique">''{0}''을(를) 사용하여 동기화할 경우, 입력 타임테이블은 고유한 행 시간값을 포함해야 합니다.</entry>
+    <entry key="NotUniqueNewTimes">동기화를 위한 대상 시간 벡터는 고유한 시간값을 포함해야 합니다.</entry>
+    <entry key="NotMonotonic">''{0}''을(를) 사용하여 동기화할 경우, 입력 타임테이블은 오름차순 또는 내림차순으로 정렬된 행 시간값을 포함해야 합니다.</entry>
+    <entry key="NotVectorNewTimes">동기화를 위한 대상 시간은 벡터여야 합니다.</entry>
+    <entry key="NotMonotonicNewTimes">동기화를 위한 대상 시간 벡터는 정렬되어야 하며(오름차순 또는 내림차순), 누락된 시간값을 포함할 수 없습니다.</entry>
+    <entry key="TooFewTimesForAggregation">''{0}''을(를) 사용하여 동기화할 경우, 대상 시간 벡터는 적어도 두 개의 시간값을 포함해야 합니다.</entry>
+    <entry key="DecreasingNewTimesForAggregation">''{0}''을(를) 사용하여 동기화할 경우, 대상 시간 벡터는 오름차순으로 정렬되어야 합니다.</entry>
+    <entry key="NotNumeric0">''{0}''을(를) 사용하여 동기화할 경우, 입력 타임테이블에 있는 모든 변수는 숫자형, datetime형, duration형, 순서형 categorical형 중 하나여야 합니다.</entry>
+    <entry key="NotNumeric0Mode">All variables in input timetables must be numeric, datetime, duration, or categorical when synchronizing using ''{0}''.</entry>
+    <entry key="NotNumeric1">''{0}''을(를) 사용하여 동기화할 경우, 입력 타임테이블에 있는 모든 변수는 숫자형, datetime형, duration형 중 하나여야 합니다.</entry>
+    <entry key="NotNumeric2">''{0}''을(를) 사용하여 동기화할 경우, 입력 타임테이블에 있는 모든 변수는 숫자형이거나 duration형이어야 합니다.</entry>
+    <entry key="NotNumeric3">''{0}''을(를) 사용하여 동기화할 경우, 입력 타임테이블에 있는 모든 변수는 숫자형이어야 합니다.</entry>
+    <entry key="NotMissingAware">''{0}''을(를) 사용하여 동기화할 경우, 입력 타임테이블에 있는 모든 변수는 누락값(예: 부동소수점, categorical형, datetime형, duration형 또는 텍스트)을 지원해야 합니다.</entry>
+    <entry key="Interp1Failed">''{1}''을(를) 사용하여 동기화할 때 변수 ''{0}''에 대한 보간이 실패했습니다.\n\n{2}</entry>
+    <entry key="InvalidConstant">채우기 상수는 스칼라여야 합니다.</entry>
+    <entry key="InvalidEndValues">외삽에 대한 끝 값을 스칼라 또는 ''extrap''로 지정하십시오.</entry>
+    <entry key="InvalidIncludedEdge">집계에 대한 포함된 시간 Bin 경계값을 ''left'' 또는 ''right''로 지정하십시오.</entry>
+    <entry key="RegularWithoutParams">NEWTIMESTEP이 ''regular''인 경우 시간 스텝 또는 샘플 레이트를 지정해야 합니다.</entry>
+    <entry key="NonPositiveTimeStep">시간 스텝은 양수여야 합니다.</entry>
+    <entry key="UnsupportedNewTimeStepDatetime">코드 생성 시 ''{0}''은(는) datetime형 행 시간값을 갖는 타임테이블 동기화에 지원되는 대상 시간 벡터 지정값이 아닙니다.</entry>
+    <entry key="NonconstantNewTimes">string형 또는 문자형 벡터를 사용하여 동기화를 위한 대상 시간 벡터를 지정할 경우 string형 또는 문자형 벡터는 상수여야 합니다.</entry>
+    <entry key="NonconstantMethod">동기화 방법은 상수여야 합니다.</entry>
+    <entry key="NonconstantConstant">FillWithConstant에 대한 채우기 값을 상수 크기를 갖는 스칼라 값으로 지정하십시오.</entry>
+    <entry key="NonconstantEndValues">''extrap''를 디폴트 외삽에 대한 상수로 지정하거나, 외삽에 대한 끝 값을 상수 크기를 갖는 스칼라 값으로 지정하십시오.</entry>
+    <entry key="NonconstantEndValuesCell">셀형 변수의 외삽에 대해 끝 값을 스칼라 셀로 지정하십시오.</entry>
+    <entry key="UnsupportedMethodCodegen">코드 생성 시 ''{0}'' 동기화 방법은 지원되지 않습니다.</entry>
+    <entry key="CustomAggregationReturnsEmpty">동기화 방법이 함수 핸들인 경우 출력 타임테이블은 런타임에 적어도 하나의 행을 포함해야 합니다.</entry>
+    <entry key="VarsizeEmpty">코드 생성 시 ''commonrange'' 시간 기준 또는 규칙적인 시간 스텝을 사용할 경우 가변 크기의 timetable형 입력값은 런타임에 비어 있지 않아야 합니다.</entry>
+    <entry key="Implicit0x0EmptyCodegen">''commonrange'' 시간 기준 또는 규칙적인 시간 스텝을 사용할 경우, TimeStep 또는 SampleRate가 지정된 0x0의 빈 타임테이블은 지원되지 않습니다.</entry>
+    <entry key="CannotBeImplicit">지정된 시간 스텝이 입력 타임테이블 행 시간값에 비해 너무 작거나, 샘플 레이트가 너무 크거나, 시간 스텝과 샘플 레이트가 유한하지 않아서 규칙적인 행 시간값을 만들 수 없습니다.</entry>
+  </message>
+</rsccat>

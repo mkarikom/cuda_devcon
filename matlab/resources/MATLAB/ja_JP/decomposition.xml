@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidA">引数は double 型または single 型の行列でなければなりません。</entry>
+    <entry key="InvalidAForBanded">分解タイプ ''banded'' では、行列は double の正方行列でなければなりません。</entry>
+    <entry key="InvalidAForChol">コレスキー分解では、入力行列がエルミートかつ正定値であることが求められます。オプション ''upper'' または ''lower'' を使用して入力行列の一部を無視してください。</entry>
+    <entry key="InvalidAForCholSquare">コレスキー分解では、入力行列が正方、エルミートかつ正定値であることが求められます。</entry>
+    <entry key="InvalidAForCholSPD">コレスキー分解では、入力行列が正定値であることが求められます。</entry>
+    <entry key="InvalidAForDiagonal">入力行列は正方対角行列でなければなりません。</entry>
+    <entry key="InvalidAForHessenberg">ヘッセンベルグ分解には、下対角要素を 1 つもつ上三角行列である密な入力行列が必要です。</entry>
+    <entry key="InvalidAForLDL">LDL 分解では、入力行列がエルミート行列であることが求められます。あるいは、オプション ''upper'' または ''lower'' を使用して入力行列の一部を無視してください。</entry>
+    <entry key="InvalidAForLDLSquare">LDL 分解では、入力行列が正方かつエルミートであることが求められます。</entry>
+    <entry key="InvalidAForLDLDiag">LDL 分解では、入力行列の対角要素が実数であることが求められます。</entry>
+    <entry key="InvalidAForLU">LU 分解では、入力行列が正方行列であることが求められます。</entry>
+    <entry key="InvalidAForPermTriang">入力行列は、三角正方行列の置換でなければなりません。</entry>
+    <entry key="InvalidAForTriang">入力行列は三角行列でなければなりません。入力行列の一部を無視するには、オプション ''upper'' または ''lower'' を使用します。</entry>
+    <entry key="InvalidAForTriangSquare">分解タイプ ''triangular'' では、入力行列は正方行列でなければなりません。</entry>
+    <entry key="InvalidB">データ型が無効です。引数は double また single の行列でなければなりません。</entry>
+    <entry key="InvalidDivisor">分解オブジェクトは、double 型または single 型のスカラー数でのみ除算できます。</entry>
+    <entry key="InvalidLUPivot">''LUPivotTolerance'' の値はスカラーまたは 2 要素ベクトルでなければなりません。</entry>
+    <entry key="InvalidMult">分解オブジェクトは、double 型または single 型のスカラー数でのみ乗算できます。</entry>
+    <entry key="LoadNotSupported">分解の読み込みはサポートされていません。読み込まれたオブジェクトは、空行列の分解です。</entry>
+    <entry key="mldivide">行列の次元は一致しなければなりません。</entry>
+    <entry key="mrdivide">行列の次元は一致しなければなりません。</entry>
+    <entry key="NameWithoutValue">入力引数の数が正しくありません。各パラメーター名の後には対応する値が必要です。</entry>
+    <entry key="QRmldivideTransp">分解タイプ ''qr'' では、転置された分解を伴うバックスラッシュはサポートされません。タイプ ''cod'' を使用するか、転置行列の分解を作成してください。</entry>
+    <entry key="QRmrdivideTransp">スラッシュは、分解タイプ ''qr'' の、転置された分解でのみサポートされています。タイプ ''cod'' を使用するか、転置行列の分解を作成してください。</entry>
+    <entry key="RcondNotSupported">タイプ ''qr'' または ''cod'' の分解はサポートされていません。</entry>
+    <entry key="RankNotSupported">タイプ ''qr'' または ''cod'' の分解でのみサポートされています。</entry>
+    <entry key="SaveNotSupported">分解の保存はサポートされていません。</entry>
+    <entry key="TransposeNotSupported">転置演算子 .' は分解ではサポートされていません。代わりに、複素共役の転置演算子 ' を使用してください。</entry>
+    <entry key="genericError">Decomposition built-in error: {0}</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="yearFormat" note="stringDatatypeUpdate">Unrecognized year format. Format: {0}.</entry>
+    <entry key="quarterFormat" note="stringDatatypeUpdate">Unrecognized quarter format.  Format: {0}.</entry>
+    <entry key="monthFormat" note="stringDatatypeUpdate">Unrecognized month format.  Format: {0}.</entry>
+    <entry key="dayFormat" note="stringDatatypeUpdate">Unrecognized day format.  Format: {0}.</entry>
+    <entry key="ampmFormat" note="stringDatatypeUpdate">Unrecognized AM/PM format.  Format: {0}.</entry>
+    <entry key="hourFormat" note="stringDatatypeUpdate">Unrecognized hour format.  Format: {0}.</entry>
+    <entry key="minuteFormat" note="stringDatatypeUpdate">Unrecognized minute format.  Format: {0}.</entry>
+    <entry key="secondFormat" note="stringDatatypeUpdate">Unrecognized second format.  Format: {0}.</entry>
+    <entry key="millisecondFormat" note="stringDatatypeUpdate">Unrecognized millisecond format.  Format: {0}.</entry>
+    <entry key="quarterFormatMismatch" note="stringDatatypeUpdate">Only the year format may be used with the quarter format.  Format: {0}.</entry>
+  </message>
+</rsccat>

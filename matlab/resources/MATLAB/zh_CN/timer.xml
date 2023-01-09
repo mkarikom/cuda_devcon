@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="alreadystarted">由于计时器已在运行，无法启动。</entry>
+    <entry key="badcallback">计算计时器 ''{1}'' 的 {0} 时出错 \n\n{2}\n</entry>
+    <entry key="cannotBeSetWhileTimerRunning">计时器运行时无法设置 {0}。</entry>
+    <entry key="cannotSetEmptyTimerFcnWhileRunning">无法将正在运行的计时器的 ''TimerFcn'' 设置为空</entry>
+    <entry key="cannotStartTimerWithNoTimerFcn">未指定 ''TimerFcn'' 回调时无法启动计时器。</entry>
+    <entry key="creatematrix">只能创建一行或一列计时器对象向量。</entry>
+    <entry key="deleterunning">将删除一个或多个正在运行的计时器对象。删除之前 MATLAB 已自动停止这些对象。</entry>
+    <entry key="dlg_InspectionError">检测错误</entry>
+    <entry key="dlg_InvalidObject">对象无效</entry>
+    <entry key="dlg_TimerObjectIsInvalid">计时器对象无效。</entry>
+    <entry key="emptyTimerObject">\n 空计时器对象: 0×0\n\n</entry>
+    <entry key="errorinobjectarray">一个或多个对象无法启动或已启动。</entry>
+    <entry key="floorOfTasksToExecuteMustBePositive">Taking the ''floor'' of ''TasksToExecute'' should be positive </entry>
+    <entry key="incompatibleTimerLoad">无法加载保存的计时器。它或者无效，或者与此版本的 MATLAB 不兼容。请重新创建计时器对象，或在 R2009a - R2019b 之间的版本中重新加载并保存计时器对象。</entry>
+    <entry key="incompletepvpair">属性-值对组不完整。</entry>
+    <entry key="incorrectCallbackInput">计时器回调的第三个参数必须为字符串标量、字符数组、函数句柄或元胞数组。</entry>
+    <entry key="incorrectCallbackInputForCallbackType">{0} 回调必须设置为字符串标量、函数句柄或 1×N 元胞数组。1×N 元胞数组的第一个元素必须为回调函数名称或句柄。</entry>
+    <entry key="infinitetimer">无法通过具有无限 TasksToExecute 的计时器来等待。</entry>
+    <entry key="invalid">计时器对象无效。此对象已删除，应使用 CLEAR 将其从工作区中删除。</entry>
+    <entry key="invaliddatesyntax">指定的日期序列值有错误。请参阅帮助 TIMER/STARTAT。</entry>
+    <entry key="miliSecPrecNotAllowed">{0} 属性的精度限制为 1 毫秒。亚毫秒精度将被忽略。</entry>
+    <entry key="noTimerObj">OBJ 必须为计时器对象。</entry>
+    <entry key="notenoughparameters">STARTAT 需要至少两个参数。请参阅帮助 TIMER/STARTAT。</entry>
+    <entry key="numtimersanddelaymismatch">STARTAT 要求起始延迟值为标量或等于 OBJ 长度。请参阅帮助 TIMER/STARTAT。</entry>
+    <entry key="onlyOneStructInput">timerfind/timerfindall 的输入可以是标量结构体或名称-值对组。不能是结构体向量。</entry>
+    <entry key="someinvalid">输入数组中存在一个或多个无效计时器对象。</entry>
+    <entry key="startdelaynegative">指定的起始时间已过。</entry>
+    <entry key="unableToLoad">无法加载保存的计时器。</entry>
+    <entry key="unableToExecuteErrorFcn">无法执行 ''ErrorFcn''。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2014-2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+   <message>
+      <entry key="EmptyMatrixDisplay">Empty {0} matrix:</entry>
+      <entry key="EmptyArrayDisplay">Empty {0} array:</entry>
+      <entry key="DisplaySizeSeparator">-by-</entry>
+      <entry key="DisplayColumnHeader">  Columns {0,number,integer} through {1,number,integer}</entry>
+      <entry key="DisplayColumnHeaderShort">  Column {0,number,integer}</entry>
+<!-- timezones -->
+      <entry key="TZTableCaption">List of IANA Time Zones in the {0} Area</entry>
+      <entry key="TZTableAllCaption">List of IANA Time Zones in All Areas</entry>
+      <entry key="TZNameHeader">Time Zone Name</entry>
+      <entry key="UTCOffsetHeader1">Offset from UTC</entry>
+      <entry key="UTCOffsetHeader2">(hours, east is positive)</entry>
+      <entry key="DSTOffsetHeader1">DST Offset</entry>
+      <entry key="DSTOffsetHeader2">(hours)</entry>
+      <entry key="TZMoreInfoDoc">For more information, see the MATLAB&#174; documentation for &lt;code&gt;datetime.TimeZone&lt;/code&gt;.</entry>
+      <entry key='TZPropertiesUTCOffsetUnit'>hours (east is positive)</entry>
+      <entry key='TZPropertiesDSTOffsetUnit'>hours</entry>
+   </message>
+</rsccat>

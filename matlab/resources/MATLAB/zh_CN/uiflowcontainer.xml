@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MigratingFunction">此尚未公开的函数在以后的版本中将被替换。\n要继续使用该函数，请添加 ''v0'' 作为第一个参数，后跟其正常调用序列。</entry>
+    <entry key="setMargin">值必须是有限的并且大于零</entry>
+  </message>
+</rsccat>

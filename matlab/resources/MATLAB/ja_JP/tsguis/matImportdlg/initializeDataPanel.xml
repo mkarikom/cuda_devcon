@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UseStandardMATLABIndexing">標準の MATLAB のインデックスを使用してください。例: [1:10]</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="WhatsThis">これはなに?</entry>
+    <entry key="SpecifyData">データ指定</entry>
+    <entry key="DataIsArrangedBy">データ並び (方向)</entry>
+    <entry key="Columns">列</entry>
+    <entry key="Rows">行</entry>
+    <entry key="RefreshList">リストの更新</entry>
+    <entry key="SelectedRows">選択行</entry>
+    <entry key="KeyInRowIndices">MATLAB がサポートする形式に従って行インデックスを入力してください。</entry>
+    <entry key="SelectedColumns">選択列</entry>
+    <entry key="KeyInColumnIndices">MATLAB がサポートする形式に従って列インデックスを入力してください。</entry>
+    <entry key="SpecifyRowNumber">行番号指定</entry>
+    <entry key="SpecifyColumnNumber">列番号指定</entry>
+    <entry key="DataOrganizedByColumn">現在の変数内にあるデータが列で編成されている場合は ''列'' を、それ以外の場合は ''行'' を選択してください。</entry>
+  </message>
+</rsccat>

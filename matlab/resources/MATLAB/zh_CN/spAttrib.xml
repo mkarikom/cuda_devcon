@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="workDimNot1or2">稀疏矩阵的工作维度必须为 1 或 2。</entry>
+    <entry key="diffOrderNotPosIntScalar">差分阶数 N 必须为正整数标量。</entry>
+  </message>
+</rsccat>

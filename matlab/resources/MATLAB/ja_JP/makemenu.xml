@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelsCallsSameRows">LABELS と CALLS は同じ行数でなければなりません。</entry>
+    <entry key="LabelsTagsSameRows">LABELS と TAGS は同じ行数でなければなりません。</entry>
+    <entry key="InvalidLabel">ラベル文字ベクトルには、"&gt;" ではない文字が少なくとも 1 つなければなりません</entry>
+    <entry key="EmptyField">ラベル フィールドが空です。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="BadColorOrder">ColorOrder must contain at least one color</entry>
+    <entry key="ParamMustBeNumeric">{0} must be numeric</entry>
+    <entry key="ParamMustBe3ElementNumericVector">{0} must be a 3 element numeric vector</entry>
+    <entry key="ParamMustBePositiveFinite">{0} values must be finite and greater than zero</entry>
+    <entry key="BadMatrixDimensions">A 4x4 matrix is required for the XForm property</entry>
+    <entry key="Expected3ElementNumericVector">3 element numeric vector required</entry>
+    <entry key="ExpectedNumeric">View [azimuth elevation] must be numeric</entry>
+    <entry key="ExpectedTwoElementVector">View [azimuth elevation] must be a two element vector</entry>
+    <entry key="BadArguments">{0} {1} property: ''{2}''\n{3}</entry>
+    <entry key="MustBeChild">{0} must be an existing text child of axes</entry>
+    <entry key="BadAxesHandle">Invalid axes handle</entry>
+    <entry key="CannotBeCurrentAxes">Handles of type {0} cannot be made the current Axes.</entry>
+    <entry key="MustHaveFigureParent">Axis must have a figure parent to be made current</entry>
+    <entry key="BadHandle">Invalid handle object</entry>
+  <!--Resource entries for src/hgbuiltins-->
+  </message>
+</rsccat>

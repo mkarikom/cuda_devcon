@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NodeNamesNotSupported">Node names are not supported for code generation.</entry>
+    <entry key="MethodNotSupported">Method not supported for code generation.</entry>
+    <entry key="PropertiesCannotBeAdded">Properties cannot be added after the graph or digraph is constructed.</entry>
+    <entry key="PropertiesMissing">All property values must be specified for code generation.</entry>
+    <entry key="SparseNodePairs">Sparse node pairs not supported for code generation.</entry>
+    <entry key="ComplexNodeID">Numeric node IDs must be real.</entry>
+  </message>
+</rsccat>

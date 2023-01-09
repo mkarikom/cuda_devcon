@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadStringFlag">
+フラグ "{0}" を認識できません。有効なフラグを使用してください。
+ </entry>
+    <entry key="NameMustBeChar">
+最初の入力引数に無効な要素があります: {0}。ファイル名には文字列、行の文字ベクトルまたは行の文字ベクトルのセル配列を使用してください。 
+ </entry>
+  </message>
+</rsccat>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNameValueMismatch">후행 입력 인수는 이름-값 쌍이어야 합니다.</entry>
+    <entry key="MixedTallData">X와 Y는 둘 다 tall형 배열이거나 둘 다 메모리 내 배열이어야 합니다.</entry>
+    <entry key="InvalidDatetimeOrDurationXLimits">XLimits는 2개의 요소가 정렬된 유한 배열이어야 하고 X 데이터와 동일한 클래스를 가져야 합니다.</entry>
+    <entry key="InvalidDatetimeOrDurationYLimits">YLimits는 2개의 요소가 정렬된 유한 배열이어야 하고 Y 데이터와 동일한 클래스를 가져야 합니다.</entry>
+    <entry key="InvalidTallData">tall형 입력값은 실수형 열 벡터여야 합니다.</entry>
+    <entry key="NonEmptyNumBinsAutoMode">''NumBinsMode''가 ''auto''로 설정되어 있으면 ''NumBins''를 설정할 수 없습니다.</entry>
+    <entry key="NonEmptyXLimitsAutoMode">''XLimitsMode''가 ''auto''로 설정되어 있으면 ''XLimits''를 설정할 수 없습니다.</entry>
+    <entry key="NonEmptyYLimitsAutoMode">''YLimitsMode''가 ''auto''로 설정되어 있으면 ''YLimits''를 설정할 수 없습니다.</entry>
+    <entry key="EmptyNumBinsManualMode">''NumBinsMode''가 ''manual''로 설정되어 있으면 ''NumBins''를 설정해야 합니다.</entry>
+    <entry key="EmptyXLimitsManualMode">''XLimitsMode''가 ''manual''로 설정되어 있으면 ''XLimits''를 설정해야 합니다.</entry>
+    <entry key="EmptyYLimitsManualMode">''YLimitsMode''가 ''manual''로 설정되어 있으면 ''YLimits''를 설정해야 합니다.</entry>
+    <entry key="BinCounts">Bin 도수</entry>
+  </message>
+</rsccat>

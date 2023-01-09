@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFigFile">图窗文件格式无效。</entry>
+    <entry key="ForwardCompatibility">文件 {0} 包含使用 {1} 或更高版本的 MATLAB 保存的对象。要在此版本中加载该文件，在用 hgsave 保存文件时必须添加兼容性标志。</entry>
+    <entry key="FileVersion">使用更新版本({0} 或更高版本)的 MATLAB 创建的图窗文件。</entry>
+  </message>
+</rsccat>

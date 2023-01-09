@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidTimeRange">時間範囲が無効です。</entry>
+    <entry key="EnterRowIndexTimeVector">時間ベクトルを格納する行インデックスを入力: (例: 12)</entry>
+    <entry key="WhatsThisLabel">これはなに?</entry>
+    <entry key="SelectRowcolumnTimeVector">時間ベクトルを含む行/列を選択してください。</entry>
+    <entry key="SelectProperTimeUnitOrDateFormat">適切な時間単位または日付形式を選択してください。</entry>
+    <entry key="Time">時間</entry>
+    <entry key="FirstValue">最初の値</entry>
+    <entry key="PutInTimeRangeStartingPoint">適切な形式で時間範囲の開始点を入れると、インポート ウィザードは自動的にユーザーの定義範囲で有効な時間を特定します。</entry>
+    <entry key="LastValue">最後の値 </entry>
+    <entry key="PutInTimeRangeEndingPoint">適切な形式で時間範囲の終了点を入れると、インポート ウィザードは自動的にユーザーの定義範囲で有効な時点を特定します。</entry>
+    <entry key="EnterColumnIndexTimeVector">時間ベクトルを格納する列名を入力: (例: AB)</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="Format">書式</entry>
+    <entry key="Units">単位</entry>
+    <entry key="Weeks">週</entry>
+    <entry key="Days">日</entry>
+    <entry key="Hours">時</entry>
+    <entry key="Minutes">分</entry>
+    <entry key="Seconds">秒</entry>
+    <entry key="Milliseconds">ミリ秒</entry>
+    <entry key="Microseconds">マイクロ秒</entry>
+    <entry key="Nanoseconds">ナノ秒</entry>
+  </message>
+</rsccat>

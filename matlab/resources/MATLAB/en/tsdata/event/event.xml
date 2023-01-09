@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="misname">The first argument of the event constructor must be the name of the event.</entry>
+    <entry key="datenum">The second argument of the event constructor must be a valid datenum value.</entry>
+    <entry key="noValidDateStr" note="stringDatatypeUpdate">The second argument of the event constructor must be a valid date character vector or string.</entry>
+    <entry key="abstime" note="stringDatatypeUpdate">The second argument of the event constructor must be entered as a valid datenum value, an absolute date character vector, string, or a real number.</entry>
+  </message>
+</rsccat>

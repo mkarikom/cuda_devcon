@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="OutOfMemory">回调时内存不足</entry>
+    <entry key="AddWindowManagedDeleteProtocolFailed">无法添加窗口管理器删除协议。窗口管理器是否正在运行?</entry>
+    <entry key="FeatureUnavailable">此功能不再提供。</entry>
+  </message>
+</rsccat>

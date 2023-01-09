@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNameValueMismatch">尾部输入参数必须以名称-值对组的形式出现。</entry>
+    <entry key="BinCountsBinEdgesSizeMismatch">当 ''BinCountsMode'' 为 ''manual'' 时，''BinEdges'' 的长度必须长于 ''BinCounts''。</entry>
+    <entry key="BinCountsInvalidSize">如果设置了 ''NumBins''、''BinWidth''、''BinMethod'' 或 ''BinLimits'' 中的任何一个值，则无法设置 'BinCounts''，并且它的长度必须等于 length(BinEdges)-1。</entry>
+    <entry key="DatetimeBinEdgesClass">使用 {0} 数据时，bin 边界必须为 {0}。</entry>
+    <entry key="DatetimeBinLimitsClass">使用 {0} 数据时，bin 范围必须为 {0}。</entry>
+    <entry key="DatetimeNormalization">''countdensity'' 和 ''pdf'' 归一化不支持使用日期时间或持续时间数据。</entry>
+    <entry key="DatetimeBinMethod">''integers'' bin 方法不支持使用日期时间或持续时间数据。</entry>
+    <entry key="DurationBinMethod">''{0}'' bin 方法不支持使用持续时间数据。</entry>
+    <entry key="EmptyBinCountsManualMode">当 ''BinCountsMode'' 设置为 ''manual'' 时，必须设置 ''BinCounts''。</entry>
+    <entry key="EmptyBinLimitsManualMode">当 ''BinLimitsMode'' 设置为 ''manual'' 时，必须设置 ''BinEdges'' 或 ''BinLimits''。</entry>
+    <entry key="EmptyOrScalarBinEdges">BinEdges 必须为长度大于或等于 2 的向量。</entry>
+    <entry key="FixedDataClass">当更改数据时，旧值和新值必须都为数值，或者必须具有相同的类。</entry>
+    <entry key="InvalidStairsFaceColor">当 ''DisplayStyle'' 设置为 ''stairs'' 时，FaceColor 必须为 ''none''。</entry>
+    <entry key="InvalidBinMethod">BinMethod 不能设置为 ''manual''。</entry>
+    <entry key="InvalidBinWidth">bin 宽度必须为正有限标量。</entry>
+    <entry key="InvalidColor">{0} 输入不是有效的颜色。</entry>
+    <entry key="InvalidDatetimeEdges">如果数据为日期时间数组，则 bin 边界必须为至少包含两个元素的日期时间向量。</entry>
+    <entry key="InvalidDatetimeOrDurationBinLimits">如果数据为 {0}，则 bin 范围必须为具有两个元素的有序的有限 {0} 向量。</entry>
+    <entry key="InvalidDatetimeBinWidth">使用日期时间数据时，bin 宽度必须为标量持续时间或 calendarDuration。</entry>
+    <entry key="InvalidDurationBinWidth">使用持续时间数据时，bin 宽度必须为标量持续时间。</entry>
+    <entry key="InvalidDurationEdges">如果数据为持续时间数组，则 bin 边界必须为至少包含两个元素的持续时间向量。</entry>
+    <entry key="InvalidMixedBinInputs">''BinEdges'' 输入不能后跟 ''NumBins''、''BinWidth''、''BinMethod'' 或 ''BinLimits'' 中的任何一个。</entry>
+    <entry key="ManualEdges">当 bin 计数具有 {1,number,integer} 个元素时，bin 边界必须为包含 {0,number,integer} 个元素的行向量。</entry>
+    <entry key="MixedDataBinCounts">当 X 输入为非空值时，无法设置 BinCounts。</entry>
+    <entry key="NonEmptyBinCountsAutoMode">当 ''BinCountsMode'' 设置为 ''auto'' 时，无法设置 ''BinCounts''。</entry>
+    <entry key="NonEmptyBinLimitsAutoMode">当 ''BinLimitsMode'' 设置为 ''auto'' 时，无法设置 ''BinEdges'' 或 ''BinLimits''。</entry>
+    <entry key="NumericBinEdgesClass">使用数值数据时，bin 边界必须为数值。</entry>
+    <entry key="NumericBinWidthClass">使用数值数据时，bin 宽度必须为数值。</entry>
+    <entry key="NumericBinLimitsClass">使用数值数据时，bin 范围必须为数值。</entry>
+    <entry key="NumericBinMethod">使用数值数据时，bin 方法必须为 ''auto''、''scott''、''fd''、''integers''、''sqrt'' 或 ''sturges''。</entry>
+    <entry key="OrientationMixedType">当坐标区中存在非直方图对象时，日期时间或持续时间数据不支持方向。</entry>
+    <entry key="OrientationYYAxes">日期时间或持续时间数据位于双 y 轴中的直方图不支持更改 ''方向'' 值。</entry>
+    <entry key="ReadOnlyPropertyManualBinCounts">当 BinCountsMode 为 ''manual'' 时，无法设置 {0}。</entry>
+    <entry key="UnsortedDatetimeEdges">bin 边界必须为不包含 NaT 的有序日期时间向量。</entry>
+    <entry key="UnsortedDurationEdges">bin 边界必须为不包含 NaN 的有序持续时间向量。</entry>
+    <entry key="UnsupportedBinMethod">''{0}'' 不是 {1} 数据支持的 bin 方法。</entry>
+    <entry key="UnsupportedCategories">当 X 输入为数值或逻辑值时，不支持 ''Categories''。</entry>
+    <entry key="UnsupportedDatetimeOrDurationNormalization">日期时间或持续时间数据不支持 ''{0}'' 归一化选项。</entry>
+    <entry key="UnsupportedMethodManualBinCounts">当 BinCountsMode 为 ''manual'' 时，不支持 {0}。</entry>
+    <entry key="UnsupportedOrientationInPolarCoordinates">在极坐标中，直方图不支持水平方向。</entry>
+    <entry key="BinRangePolar">在极坐标中，直方图的 'BinEdges' 值无效。最大值和最小值之差不能大于 2*pi。</entry>
+    <entry key="BinLimitsRangePolar">在极坐标中，直方图的 'BinLimits' 值无效。请指定值相差不超过 2*pi 的 2 元素向量。</entry>
+    <entry key="OrientationLabel">箱线图的方向</entry>
+    <entry key="BoxWidthLabel">各个框的相对宽度</entry>
+    <entry key="JitterOutliersLabel">离群值标记位移</entry>
+    <entry key="NotchLabel">中位数比较显示</entry>
+    <entry key="NumBinsLabel">bin 数目</entry>
+    <entry key="BinMethodLabel">bin 划分算法</entry>
+    <entry key="BinWidthLabel">bin 宽度</entry>
+    <entry key="DisplayStyleLabel">直方图的显示样式</entry>
+    <entry key="ShowOthersLabel">切换未显示类别的数据汇总显示</entry>
+    <entry key="BarOrientationLabel">条形方向</entry>
+    <entry key="BinEdges">bin 边界</entry>
+    <entry key="Value">值</entry>
+  </message>
+</rsccat>

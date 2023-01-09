@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="ErrorOccurredWhileSavingData">An error occurred while saving the data.</entry>
+      <entry key="InvalidVariableName">Invalid variable name "{0}".</entry>
+      <entry key="CursorDataExportError">Cursor Data Export Error</entry>
+      <entry key="SelectMATLABFile">Select the MATLAB file</entry>
+      <entry key="EnterVariableName">Enter the variable name</entry>
+      <entry key="VariableNameAlreadyExists">A variable named "{0}" already exists in the MATLAB Workspace.\nIf you continue, you will overwrite the instance of "{1}" in your\nworkspace.</entry>
+      <entry key="SelectionStyle">Selection Style</entry>
+      <entry key="MousePosition">Mouse Position</entry>
+      <entry key="SnapToNearestDataVertex">Snap to Nearest Data Vertex</entry>
+      <entry key="DisplayStyle">Display Style</entry>
+      <entry key="WindowInsideFigure">Window Inside Figure</entry>
+      <entry key="Datatip">Data Tip</entry>
+      <entry key="CreateNewDatatip">Create New Data Tip             Alt-Click</entry>
+      <entry key="DeleteCurrentDatatip">Delete Current Data Tip            Delete</entry>
+      <entry key="DeleteAllDatatips">Delete All Data Tips</entry>
+      <entry key="ExportCursorDataToWorkspace1">Export Cursor Data to Workspace...</entry>
+      <entry key="EditTextUpdateFunction">Edit Text Update Function...</entry>
+      <entry key="SelectTextUpdateFunction">Select Text Update Function...</entry>
+      <entry key="ExportCursorDataToWorkspace2">Export Cursor Data to Workspace</entry>
+   </message>
+</rsccat>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2022 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="product_installer" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="agreeToLicenseErrorMsg">입력 파일을 사용하여 설치하려면 agreeToLicense=yes를 설정하고 이 라인의 주석을 해제하여 라이선스 계약에 동의하십시오.</entry>
+    <entry key="fikNotProvidedErrorMsg">파일 설치 키가 감지되지 않았습니다. mathworks.com의 라이선스 센터에서 키를 생성하고 이 라인의 주석을 해제하십시오.</entry>
+    <entry key="fikInvalidMsg">유효한 키가 아닙니다. 유효한 키를 얻는 방법에 대한 자세한 내용은 &lt;a HREF="https://www.mathworks.com/pi_infik_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;를 참조하십시오.</entry>
+    <entry key="invalidLicenseMsg">선택된 라이선스 파일이 유효하지 않음 </entry>
+    <entry key="invalidEntitlementMsg">선택된 권한 부여(Entitlement)가 유효하지 않음 </entry>
+    <entry key="notALicenseFileMsg">라이선스 파일이 아님</entry>
+    <entry key="cannotReadLicenseFileMsg">라이선스 파일을 읽을 수 없음</entry>
+    <entry key="missingHostIDTitle">Hostid 누락됨</entry>
+    <entry key="HostIDMismatchTitle">hostid가 일치하지 않음</entry>
+    <entry key="missingHostIDMsg">라이선스 파일에서 hostid를 찾을 수 없습니다. 설치 후 라이선스 파일(위치: {0})의 SERVER 라인을 수동으로 편집해야 합니다.</entry>
+    <entry key="HostIDMismatchMsg">라이선스 파일의 hostid가 이 컴퓨터에 대한 것이어야 합니다. MathWorks 라이선스 센터 또는 라이선스 관리자로부터 이 컴퓨터({0})의 hostid용으로 생성된 새 라이선스 파일을 받으십시오.</entry>
+    <entry key="invalidActivationKey">라이선스에 유효하지 않은 활성화 키임</entry>
+    <entry key="standardErrorTitle">오류</entry>
+    <entry key="folderNonEnglishCharacter">폴더 이름에는 영문자만 사용할 수 있습니다.</entry>
+    <entry key="folderInvalidCharacterWin">폴더 이름에는 {0}이(가) 포함될 수 없으며 대상 폴더 이름은 "private"일 수 없습니다.</entry>
+    <entry key="folderInvalidCharacterLinuxMac">폴더 이름에는 영숫자와 {0}만 사용할 수 있습니다. 대상 폴더 이름은 "private"일 수 없습니다.</entry>
+    <entry key="folderWritePermission">선택한 폴더에 쓸 수 없습니다.</entry>
+    <entry key="folderCreationFailed">지정된 폴더를 생성하지 못했습니다. 계속하려면 다른 폴더를 선택하십시오.</entry>
+    <entry key="folderNotAbsolutePath">대상 폴더의 전체 경로를 지정하십시오.</entry>
+    <entry key="folderNotADirectory">폴더가 디렉터리가 아닙니다.</entry>
+    <entry key="rootDriveWarningMsg">{0}을(를) 선택했습니다 &lt;br&gt;&lt;br&gt;다음 위치에 설치하는 것이 권장됩니다: {1}</entry>
+    <entry key="rootDriveWarningTitle">경고</entry>
+    <entry key="controllingProductConflictMsg">선택한 폴더에 {1}이(가) 설치되어 있습니다. {0}은(는) 별도의 폴더에 설치해야 합니다.</entry>
+    <entry key="hasUnsuccessfulInstallationMsg">지정된 폴더에 설치할 수 없습니다. 기존 파일을 삭제하거나 다른 폴더에 설치하십시오.</entry>
+    <entry key="overwriteErrorTitle">덮어쓰기 오류</entry>
+    <entry key="overwriteErrorMsg">지정된 폴더에 설치할 수 없습니다. 계속하려면 빈 폴더를 선택하십시오.</entry>
+    <entry key="selectedProductNotAvailable">다음 제품에 대한 설치 파일을 사용할 수 없습니다: {0}. 입력 파일에서 이러한 제품을 주석 처리한 후 설치를 다시 시작하십시오. 이러한 누락된 제품을 설치해야 할 경우에는 MathWorks 제품 인스톨러 사용자 인터페이스에서 "다운로드만" 옵션을 사용하여 먼저 제품을 다운로드하십시오.</entry>
+    <entry key="selectedProductNotEntitled">지정된 파일 설치 키는 다음 제품에 대한 액세스를 허용하지 않습니다: {0}. 입력 파일에서 이러한 제품을 주석 처리한 후 설치를 다시 시작하십시오.</entry>
+    <entry key="missingControllingProductsMsg">계속 진행하려면 다음 제품이 필요합니다: &lt;br&gt; {0} &lt;br&gt;이러한 제품을 함께 설치하려면 &lt;b&gt;추가&lt;/b&gt;를 클릭하십시오.&lt;br&gt;또는 필요한 제품이 설치되어 있는 폴더를 선택할 수 있습니다. &lt;b&gt;취소&lt;/b&gt;를 클릭하여 &lt;b&gt;대상 폴더&lt;/b&gt;로 이동하십시오.&lt;br&gt;</entry>
+    <entry key="missingDependentProductsMsg">선택한 제품 중 일부가 다음 제품에 종속되어 있습니다: &lt;br&gt; {0} &lt;br&gt;이러한 제품을 함께 설치하려면 &lt;b&gt;추가&lt;/b&gt;를 클릭하십시오. &lt;br&gt;이러한 제품 없이 설치를 계속하려면 &lt;b&gt;추가 안 함&lt;/b&gt;을 클릭하십시오.&lt;br&gt;</entry>
+    <entry key="productSelectionSpaceWarningMsg">디스크 공간이 부족합니다. &lt;br&gt;&lt;br&gt;위치: {0} &lt;br&gt;&lt;br&gt;필요한 공간: {1} &lt;br&gt;&lt;br&gt;디스크 공간을 늘리거나, 선택한 제품 수를 줄이거나, 다른 대상을 선택하십시오.</entry>
+    <entry key="productSelectionSpaceWarningTitle">경고</entry>
+    <entry key="missingFileTitle">파일을 찾을 수 없음 오류</entry>
+    <entry key="missingInstallationFilesTitle">설치 파일이 누락됨</entry>
+    <entry key="missingInstallationFilesMsg">제품 파일을 불러올 수 없습니다. 제품 파일은 입력 파일과 동일한 폴더에 있어야 합니다. 제품 파일을 가져오는 데 도움이 필요하면 &lt;a HREF="https://www.mathworks.com/pi_noprode_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;의 설치 문서를 참조하십시오.</entry>
+    <entry key="DownloadErrorTitle">다운로드 오류</entry>
+    <entry key="ExtractErrorTitle">압축 풀기 오류</entry>
+    <entry key="confirmationTitle">선택 사항 확인</entry>
+    <entry key="destinationFolderTitle">대상 폴더</entry>
+    <entry key="productsTitle">제품</entry>
+    <entry key="numberOfProductsSelectedMsg">{0}/{1}개 제품</entry>
+    <entry key="platformsTitle">플랫폼</entry>
+    <entry key="systemFailureErrorTitle">예기치 않은 문제 발생</entry>
+    <entry key="systemFailureErrorMsg">이 문제를 해결하려면 &lt;a HREF="https://www.mathworks.com/pi_gene_mpi_{0}_{1}" target="_blank"&gt;고객 지원팀&lt;/a&gt;에 문의하십시오.</entry>
+    <entry key="authenticationHeader">인증 옵션: </entry>
+    <entry key="activateNow">지금 이 컴퓨터 인증</entry>
+    <entry key="activateLater">소프트웨어가 시작될 때마다 인증(로그인)</entry>
+    <entry key="winSystemUsername">Windows 사용자 이름: </entry>
+    <entry key="systemUsername">로그인 이름: </entry>
+    <entry key="requiredSizeMsg">{0} 필요함</entry>
+    <entry key="connectionErrorTitle">연결 오류</entry>
+    <entry key="noProductsAlertTitle">다운로드 오류</entry>
+    <entry key="noProductsAlertMsg">MathWorks에 연결할 수 없습니다. 도움이 필요하면 &lt;a HREF="https://www.mathworks.com/pi_dwsconn_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;를 참조하십시오.</entry>
+    <entry key="productExecutableRunningErrorMsg">이 컴퓨터에서 실행 중인 MATLAB 세션이 있습니다. 계속 진행하려면 실행 중인 모든 MATLAB 세션을 닫아야 합니다.</entry>
+    <entry key="ProxyError">사용자 이름 또는 비밀번호가 유효하지 않음</entry>
+    <entry key="privacyPolicyURL">&lt;a HREF="http://www.mathworks.com/pi_uo_pi_{0}_{1}" target="_blank"&gt;자세히 알아보기&lt;/a&gt;</entry>
+    <entry key="reinstallWarningTitle">제품이 이미 설치됨</entry>
+    <entry key="ServiceErrorTitle">서비스 오류</entry>
+    <entry key="excessEntitlementsWarningMsg">오류 {0}: {1}.</entry>
+    <entry key="installTitle">설치됨</entry>
+    <entry key="downloadTitle">다운로드됨</entry>
+    <entry key="downloadInstallerTitle">인스톨러 다운로드 중</entry>
+    <entry key="progressMessage">{0}/{1}</entry>
+    <entry key="downloadCompletedMessage">다운로드 완료</entry>
+    <entry key="downloadInstallerMessage">파일 준비 및 압축을 푸는 중...</entry>
+    <entry key="installCompletedMessage">설치 후 작업 수행 중. 이 작업은 몇 분 정도 소요될 수 있습니다...</entry>
+    <entry key="LMServiceExistsMessage">{0}이(가) 이미 존재하지만 다른 위치에 설치되어 있습니다.&lt;br&gt;새로 설치하기 전에 먼저 이 서비스를 제거해야 합니다.</entry>
+    <entry key="setupLicenseManagerServiceWin">네트워크 라이선스 매니저가 컴퓨터에 서비스 프로그램으로 설치되었습니다. 이 서비스가 아직 시작되지 않았습니다. {0} 실행 전에 lmtools.exe(이 설치의 etc\\win64 폴더에 있음) 파일을 사용하여 라이선스 매니저를 수동으로 시작해야 합니다. &lt;a HREF="http://www.mathworks.com/pi_snlm_nlm_{1}_{2}"&gt;네트워크 라이선스 매니저 시작하기&lt;/a&gt;를 참조하십시오.&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupLicenseManagerFilesWin">네트워크 라이선스 매니저가 이 설치의 etc\\win64 폴더에 설치되어 있지만 사용자 컴퓨터에서 서비스 프로그램으로 구성되지 않았습니다. {0}을(를) 실행하기 전에, 머신을 시작하면 라이선스 매니저가 서비스 프로그램으로 자동 시작되도록 구성해야 합니다. &lt;a HREF="http://www.mathworks.com/pi_cnlm_nlm_{1}_{2}"&gt;라이선스 매니저를 서비스로 구성하기&lt;/a&gt;를 참조하십시오.&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupLicenseManagerLinux">네트워크 라이선스 매니저가 설치되었지만 시작되지 않았습니다. {0}을(를) 실행하기 전에, 라이선스 매니저를 수동으로 시작해야 합니다. &lt;a HREF="http://www.mathworks.com/pi_snlm_nlm_{1}_{2}"&gt;네트워크 라이선스 매니저 시작하기&lt;/a&gt;를 참조하십시오. 라이선스 매니저가 자동 시작되도록 구성하려면 같은 섹션에 있는 지침을 참조하십시오.&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="setupLicenseManagerMac">네트워크 라이선스 매니저가 설치되었지만 시작되지 않았습니다. {0}을(를) 실행하기 전에, 라이선스 매니저를 수동으로 시작해야 합니다. &lt;a HREF="http://www.mathworks.com/pi_snlm_nlm_{1}_{2}"&gt;네트워크 라이선스 매니저 시작하기&lt;/a&gt;를 참조하십시오. 라이선스 매니저가 자동 시작되도록 구성하려면 같은 섹션에 있는 지침을 참조하십시오.&lt;br&gt;&lt;br&gt;</entry>
+    <entry key="installerDownloadFailedTitle">다운로드 오류</entry>
+    <entry key="installerDownloadFailedMessage">인스톨러를 다운로드하는 중에 오류가 발생했습니다.&lt;br&gt;&lt;br&gt;도움이 필요하면 &lt;a HREF="https://www.mathworks.com/pi_dwe_pi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;를 참조하거나 &lt;a HREF="https://www.mathworks.com/pi_gene_mpi_{0}_{1}" target="_blank"&gt;MathWorks 지원팀&lt;/a&gt;에 문의하십시오.</entry>
+    <entry key="missingInstallationFilesInteractiveMsg">요청된 제품 파일을 불러올 수 없습니다.&lt;br&gt;도움이 필요하면 &lt;a HREF="https://www.mathworks.com/pi_noprode_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;를 참조하십시오.</entry>
+    <entry key="productDependenciesTitle">제품 종속성</entry>
+    <entry key="missingControllingProductNotInstallableMsg">계속 진행하려면 다음 제품이 설치된 폴더를 선택해야 합니다: &lt;br&gt; &lt;br&gt; {0} &lt;br&gt;</entry>
+    <entry key="missingDependentProductNotInstallableMsg">&lt;b&gt;취소&lt;/b&gt;를 클릭한 후 다음 제품이 설치된 폴더를 선택하십시오: &lt;br&gt; &lt;br&gt; {0} &lt;br&gt;종속 제품을 무시하고 설치하려면 &lt;b&gt;계속&lt;/b&gt;을 클릭하십시오.</entry>
+    <entry key="folderContainsUsersDefaultAppData">Unable to install into the user profile folder. To continue, select a different folder.</entry>
+    <entry key="folderIsInstallerRoot">Unable to install into the same folder as the installer. To continue, select a different folder.</entry>
+    <entry key="missingFileMessage">Unable to find:&lt;br&gt;{0}&lt;br&gt;&lt;br&gt;Learn more:&lt;a HREF="https://www.mathworks.com/pi_siae_mpi_{1}_{2}"&gt;MATLAB Answer&lt;/a&gt;&lt;br&gt;For help:&lt;a HREF="https://www.mathworks.com/pi_gene_mpi_{1}_{2}" target="_blank"&gt;MathWorks Support&lt;/a&gt;.</entry>
+    <entry key="DownloadErrorMsg">There was an error downloading product files.&lt;br&gt;Check your internet connection and then rerun the Installer.&lt;br&gt;&lt;br&gt;For help, see this &lt;a HREF="https://www.mathworks.com/pi_siae_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;&lt;br&gt;.</entry>
+    <entry key="ExtractErrorMsg">There was an error while extracting product files.&lt;br&gt;Try rerunning the Installer.&lt;br&gt;&lt;br&gt;For help, see this &lt;a HREF="https://www.mathworks.com/pi_siae_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;&lt;br&gt;.</entry>
+    <entry key="progressErrorMsg">Something unexpected occurred.&lt;br&gt;Try rerunning the Installer.&lt;br&gt;&lt;br&gt;For help, see this &lt;a HREF="https://www.mathworks.com/pi_siae_mpi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;&lt;br&gt;.</entry>
+    <entry key="connectionErrorMsg">Unable to connect to MathWorks.&lt;br&gt;For more information on resolving this issue, see this &lt;a HREF="http://www.mathworks.com/pi_ce_pi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;.</entry>
+    <entry key="reinstallWarningMsg">All selected products are already installed.&lt;br&gt;&lt;br&gt;To reinstall products, see this &lt;a HREF="https://www.mathworks.com/pi_reinst_mpi_{0}_{1}"&gt;MATLAB Answer.&lt;/a&gt;.</entry>
+    <entry key="installerExtractionInstruction">For instructions on how to extract installers for non-Windows platforms, see this &lt;a HREF="https://www.mathworks.com/pi_dwe_pi_{0}_{1}"&gt;MATLAB Answer&lt;/a&gt;.&lt;br&gt;</entry>
+  </message>
+</rsccat>

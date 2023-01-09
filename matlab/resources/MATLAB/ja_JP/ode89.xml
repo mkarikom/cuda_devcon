@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">入力引数が不足しています。ODE89 を参照してください。</entry>
+    <entry key="MassSingularAssumedNo">MassSingular の値は ''maybe'' ですが、このソルバーでは常に MassSingular が ''no'' であると仮定されます。ODE15S と ODE23T では特異質量行列が許可されます。</entry>
+    <entry key="MassSingularYes">このソルバーでは、MassSingular の値は ''no'' でなければなりません。ODE15S と ODE23T では特異質量行列が許可されます。</entry>
+    <entry key="IntegrationTolNotMet">t={0} で失敗。ステップ サイズを時間 t における最小の値として許可された ({1}) 以下に減少させないと、積分の許容誤差を満たすことはできません。</entry>
+  </message>
+</rsccat>

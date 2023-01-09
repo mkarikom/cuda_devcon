@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+      <entry key="ClassNotFound">Class ''{0}'' does not exist or is not on the MATLAB path.</entry>
+      <entry key="ClassNotEditable">Class ''{0}'' is a built-in class or P-file and cannot be opened in the MATLAB editor.</entry>
+      <entry key="ClassHasParseError">Class ''{0}'' has a parse error. Parse error details: {1}</entry>
+      <entry key="PropertyNotFound">Class ''{0}'' does not have the property ''{1}''.</entry> 
+      <entry key="EventNotFound">Class ''{0}'' does not have the event ''{1}''.</entry>
+      <entry key="EnumerationMemberNotFound">Class ''{0}'' does not have the enumeration member ''{1}''.</entry>
+      <entry key="MethodNotFound">Class ''{0}'' does not have the method ''{1}''.</entry>
+  </message>
+</rsccat>

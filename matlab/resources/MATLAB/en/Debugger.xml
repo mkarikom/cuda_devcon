@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed">
+  <message>
+    <entry key="BreakpointSuppressed">Breakpoint encountered in file {0} at line {1,number,integer}, has been suppressed by {2}.</entry>
+    <entry key="dbstopForNonMfunction">MATLAB debugger can only stop in MATLAB code files, and "{0}" is not a MATLAB code file.\n         Instead, the debugger will stop at the point right before "{1}" is called.</entry>
+    <entry key="NoDebugModeAtCommandPrompt">Entering debug mode is only supported within running MATLAB code files.</entry>
+    <entry key="EndFunc">End of function {0}.</entry>
+    <entry key="EndScript">End of script {0}.</entry>
+    <entry key="NanInfBreakpointHit">NaN/Inf breakpoint hit for {0} on line {1,number,integer}.</entry>
+    <entry key="InWorkspace">In workspace belonging to {0}</entry>
+    <entry key="SkippingFrame">{0} is not currently in a debuggable state. Skipping the frame.</entry>
+    <entry key="BaseWorkspace">In base workspace.</entry>
+    <entry key="InvalidDbstepPosition"> Position {0} is not a valid position to step into on this line.</entry>
+    <entry key="InvalidStepLocation">Line {0,number,integer} column {1,number,integer} is not a valid position to step into on this line.</entry>
+    <entry key="ProblemSteppingIntoLocation">A problem occurred while attempting to step in.</entry>
+    <entry key="LineNumber">line {0,number,integer}</entry>
+    <entry key="AfterLineNumber">after line {0,number,integer}</entry>
+    <entry key="CurrentStackFrameLocation" note="Refers to what function the stack frame is in">> In {0}</entry>
+    <entry key="StackFrameLocation" note="Refers to what function the stack frame is in">  In {0}</entry>
+    <entry key="InvalidIntegerInput">Value must be a positive integer scalar less than 2^31.</entry>
+    <entry key="ReadOnlyWorkspaceViolation">Unable to add or modify variable. Current workspace is read-only for function argument validation.</entry>
+  </message>
+</rsccat>

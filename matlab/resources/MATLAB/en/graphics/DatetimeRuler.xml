@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="Limits">Value must be a 1x2 vector of increasing datetime values.</entry>
+    <entry key="Ticks">Value must be a vector of increasing datetime values.</entry>
+    <entry key="Format">Value must be datetime format.</entry>
+    <entry key="LeapSecondFormat">Datetime values in the ''UTCLeapSeconds'' time zone must have the standard leap second format.</entry>
+    <entry key="Exponent">Value must be an integer.</entry>
+    <entry key="ReferenceDateReadOnly">Property is read-only.</entry>
+    <entry key="NonNumericType">Value to convert must be a numeric or datetime array.</entry>
+  </message>
+</rsccat>

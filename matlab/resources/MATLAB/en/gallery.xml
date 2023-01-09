@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invalidN">Invalid N in GALLERY(N).</entry>
+    <entry key="parametersRequired">Not enough input arguments.</entry>
+    <entry key="invalidMatName">Invalid matrix name.</entry>
+    <entry key="invalidClassName">Invalid class name.</entry>
+  <!--Resource entries for toolbox/matlab/elmat-->
+    <entry key="SparseSingle">Sparse arrays of class ''single'' are not supported</entry>
+  </message>
+</rsccat>

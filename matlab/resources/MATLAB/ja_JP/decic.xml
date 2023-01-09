@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManySpecified">{0} より多い y0 と yp0 の要素を指定することはできません。</entry>
+    <entry key="OptRelTolNotPosScalar">RelTol は正のスカラーでなければなりません。</entry>
+    <entry key="OptAbsTolNotPos">AbsTol は正でなければなりません。</entry>
+    <entry key="ConvergenceFail">収束は DECIC 内で失敗しました。</entry>
+    <entry key="TooManyFixed">{0} の固定要素を解除してみてください。</entry>
+    <entry key="IndexGTOne">インデックスが 1 より大きい可能性があります。</entry>
+    <entry key="RelTolIncrease">RelTol は {0} に増加しました。</entry>
+  </message>
+</rsccat>

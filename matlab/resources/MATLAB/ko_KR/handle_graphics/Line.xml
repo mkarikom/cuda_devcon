@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LevelOfDetailWarning">세부 알고리즘 수준이 라인 세부 정보를 EdgeDetailLimit 이하로 줄이지 못했습니다. 데이터의 시각적 품질이 저하될 수 있습니다. 더 나은 결과를 얻으려면 선 객체에 대한 EdgeDetailLimit 속성값을 늘리십시오.</entry>
+    <entry key="MarkerIndexOutOfRange">'MarkerIndices' 속성에 유효하지 않은 인덱스가 있습니다. 데이터 점의 개수보다 작거나 같은 인덱스에 대해서만 마커가 표시됩니다.</entry>
+  </message>
+</rsccat>

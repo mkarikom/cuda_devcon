@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NegativeDataInLogAxis">負のデータは無視されました</entry>
+    <entry key="NegativeLimitsInLogAxis">負の限界は無視されました</entry>
+    <entry key="UndefinedMethod">クラス {0} には copy メソッドがありません。</entry>
+    <entry key="UnableToComputeLayout">Axes レイアウト情報を計算できません</entry>
+    <entry key="LabelsMustBeText">ラベルは text オブジェクトでなければなりません</entry>
+    <entry key="CameraDirection">カメラの位置とターゲットは異なっていなければなりません。</entry>
+    <entry key="UpVector">カメラの上向きベクトルはカメラの方向から独立していなければなりません。</entry>
+    <entry key="YAxisLocationLocked">YAxisLocation プロパティは読み取り専用です。yyaxis を使用して、別の y 軸を選択してください。</entry>
+    <entry key="BadDataSpace">これは有効なデータ領域ではありません。</entry>
+    <entry key="BadDataSpaceIndex">このインデックスは範囲外です。</entry>
+    <entry key="UnsupportedDataAspectRatio">複数の座標系をもつ Axes では 'auto' の DataAspectRatio のみがサポートされています。</entry>
+    <entry key="UnsupportedCopy">複数の座標系をもつ Axes のオブジェクト コピーはサポートされていません。</entry>
+    <entry key="UnsupportedView">複数の座標系をもつ Axes では、3 次元表示はサポートされていません。</entry>
+  </message>
+</rsccat>

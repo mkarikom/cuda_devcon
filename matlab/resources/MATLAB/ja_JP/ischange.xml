@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ComplexInput">複素数の入力引数はサポートされません。</entry>
+    <entry key="FirstInputInvalid">データ型が無効です。最初の引数の型は double、single、table または timetable でなければなりません。</entry>
+    <entry key="DataVariablesArray">''DataVariables'' パラメーターは、table と timetable の入力に対してのみサポートされます。</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' 関数ハンドルは論理スカラーを返さなければなりません。</entry>
+    <entry key="DataVariablesTableSubscript">''DataVariables'' の値が無効です。</entry>
+    <entry key="DimensionInvalid">次元は正の整数でなければなりません。</entry>
+    <entry key="DimensionTable">次元は、最初の引数が table または timetable である場合にはサポートされません。</entry>
+    <entry key="InfInput">Inf および -Inf データはサポートされていません。</entry>
+    <entry key="MaxNumChanges">''MaxNumChanges'' の値は正の整数でなければなりません。</entry>
+    <entry key="MaxNumChangesThreshold">''Threshold'' が指定されている場合、''MaxNumChanges'' はサポートされません。</entry>
+    <entry key="MethodInvalid">変化検出メソッドは、''mean''、''variance''、または ''linear'' でなければなりません。</entry>
+    <entry key="NameValueNames">パラメーター名は ''Threshold''、''MaxNumChanges''、''SamplePoints'' または ''DataVariables'' でなければなりません。</entry>
+    <entry key="NameValuePairs">入力引数の数が正しくありません。パラメーターの名前と値はペアでなければなりません。</entry>
+    <entry key="NonVectorTableVariable">table 変数は列ベクトルでなければなりません。</entry>
+    <entry key="RowTimesDuplicate">行時間の値に重複が含まれています。</entry>
+    <entry key="RowTimesFinite">行時間は有限でなければなりません。</entry>
+    <entry key="RowTimesSorted">行時間は昇順に並べ替えなければなりません。</entry>
+    <entry key="SamplePointsComplex">''SamplePoints'' の値は実数でなければなりません。</entry>
+    <entry key="SamplePointsDatetimeLinear">メソッドが ''linear'' の場合、datetime 型の ''SamplePoints'' はサポートされません。</entry>
+    <entry key="SamplePointsDuplicate">''SamplePoints'' の値に重複が含まれています。</entry>
+    <entry key="SamplePointsFinite">''SamplePoints'' の値は有限でなければなりません。</entry>
+    <entry key="SamplePointsInvalidDatatype">''SamplePoints'' の値は、double、single、datetime、または duration のベクトルでなければなりません。</entry>
+    <entry key="SamplePointsLength">''SamplePoints'' の値の要素数は、操作次元に沿った最初の引数のサイズと等しくなければなりません。</entry>
+    <entry key="SamplePointsSorted">''SamplePoints'' の値は昇順に並べ替えなければなりません。</entry>
+    <entry key="SamplePointsSparse">スパースな ''SamplePoints'' の値はサポートされません。</entry>
+    <entry key="SamplePointsTimeTable">''SamplePoints'' パラメーターは timetable の入力ではサポートされていません。</entry>
+    <entry key="Threshold">''Threshold'' の値は、非負の実数スカラーでなければなりません。</entry>
+    <entry key="UnsupportedTableVariable">table 変数は double 型または single 型でなければなりません。</entry>
+  </message>
+</rsccat>

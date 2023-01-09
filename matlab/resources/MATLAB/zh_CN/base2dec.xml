@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputExceedsFlintmax">表示大于或等于 flintmax 的整数的输入可能无法精确地表示为双精度浮点值。</entry>
+    <entry key="InvalidBase">基数必须为介于 2 与 36 之间的整数值。</entry>
+    <entry key="NumberOutsideRange">''{0}'' 包含无法转换为基数 {1, number, integer} 的字符。</entry>
+  </message>
+</rsccat>

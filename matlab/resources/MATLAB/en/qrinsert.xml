@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotEnoughInputs">Not enough inputs.</entry>
+    <entry key="InvalidJ">Third input must be a positive integer that is finite and real.</entry>
+    <entry key="QNotSquare">The first input matrix must be square.</entry>
+    <entry key="InnerDimQRfactors">Inner matrix dimensions must agree. The number of columns of the first input matrix must match the number of rows of the second input matrix.</entry>
+    <entry key="NegInsertionIndex">Insertion index must be positive.</entry>
+    <entry key="InvalidInsertionIndex">Insertion index exceeds matrix dimensions.</entry>
+    <entry key="WrongSizeInsertedCol">Inserted column has incorrect dimensions.</entry>
+    <entry key="WrongSizeInsertedRow">Inserted row has incorrect dimensions.</entry>
+    <entry key="InvalidInput5" note="stringDatatypeUpdate">Fifth input must be ''row'' or ''col''.</entry>
+  </message>
+</rsccat>

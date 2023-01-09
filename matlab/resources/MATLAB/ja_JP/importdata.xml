@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidClipboardData">クリップボードは認識可能なデータを含んでいません。</entry>
+    <entry key="FileNotFound">ファイルを開けません。</entry>
+    <entry key="InvalidFile">ファイルを読み込めません。MAT ファイルではありません。</entry>
+    <entry key="InvalidDelimiter">複数文字からなる区切り文字はサポートされていません。</entry>
+    <entry key="FormatMismatch">予期せぬ形式の不一致が検出されました。\n元のファイルと結果を確認してください。</entry>
+    <entry key="InvalidDataSection">ファイルに解釈できないデータが含まれています。</entry>
+    <entry key="UnableToRead">ファイルを読み込めません。\nより複雑な形式には readtable を使用してください。\n</entry>
+  </message>
+</rsccat>

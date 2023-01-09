@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CharData">无法将字符数组用作分组变量。请首先使用 cellstr 将字符数组转换为字符向量元胞数组。然后，将元胞数组指定为分组变量。</entry>
+    <entry key="GroupingVarNotVector">分组变量必须为向量。</entry>
+    <entry key="GroupTypeIncorrect">不支持类 ''{0}'' 的分组变量。</entry>
+    <entry key="InputSizeMismatch">所有分组变量都必须具有相同的大小。</entry>
+    <entry key="VarUniqueMethodFailed">无法使用输入变量的唯一值对行进行分组。UNIQUE 返回了错误。</entry>
+    <entry key="VarUniqueMethodFailedNumRows">无法使用输入变量的唯一值对行进行分组。UNIQUE 方法返回的值具有错误的行数。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TypeMismatch">指定した {0} タイプは、このコンテナーに対するタイプと一致しません。</entry>
+    <entry key="NaNNotAllowed">NaN 値 {0} はこのコンテナーでは使用できません。</entry>
+    <entry key="InvalidParentToChild">親プロパティを子孫である子オブジェクトに設定しようとしています。</entry>
+  </message>
+</rsccat>

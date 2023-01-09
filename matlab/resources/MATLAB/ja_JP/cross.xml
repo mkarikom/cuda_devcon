@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="dimensionMustBePositiveInteger">次元引数は正の整数スカラーでなければなりません。</entry>
+    <entry key="InputSizeMismatch">A と B は同じサイズでなければなりません。</entry>
+    <entry key="InvalidDimAorB">A と B は、少なくとも長さ 3 の 1 つの次元をもたなければなりません。</entry>
+    <entry key="InvalidDimAorBForCrossProd">A と B は、外積を得る場合、長さ 3 の次元でなければなりません。</entry>
+  </message>
+</rsccat>

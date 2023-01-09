@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidMATFileLevel">無効な MAT ファイルのレベル (1 または 2 でなければなりません)</entry>
+    <entry key="SaveModeMustBeString">2 番目の引数は保存モードを指定する文字ベクトルでなければなりません</entry>
+    <entry key="InvalidSaveMode">保存モードは、''stdio'' でなければなりません</entry>
+  </message>
+</rsccat>

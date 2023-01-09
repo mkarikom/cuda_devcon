@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Assert">第一个参数必须为句柄向量，不能为数组。</entry>
+    <entry key="NoAncestorSpecified">未指定前代类型</entry>
+    <entry key="InvalidSecondInputArgumentType">请将图形对象类型指定为一个字符向量、字符串数组或字符向量元胞数组。</entry>
+    <entry key="InvalidArgument">''ancestor'' 的第三个参数必须为字符向量 ''toplevel''</entry>
+  </message>
+</rsccat>

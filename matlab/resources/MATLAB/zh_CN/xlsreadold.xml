@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ErrorReadingRecordID">Biffparse 无法读取文件。读取记录 ID 时出错。\n</entry>
+    <entry key="FormatError">Biffparse 无法读取文件。记录 ID 无效。\n</entry>
+    <entry key="ErrorReadingRecordLength">Biffparse 无法读取文件。读取记录长度时出错。\n</entry>
+    <entry key="UnexpectedRecordLength">文件包含意外的记录长度。请尝试另存为 Excel 98。\n</entry>
+    <entry key="UnexpectedRecordSize">从第 {0} 列开始的元胞的记录大小未知。请尝试另存为 Excel 98。\n</entry>
+    <entry key="UnknownFileReadError">读取文件 ({0}) 时出现未知错误。\n</entry>
+    <entry key="UnknownRecordOrder">XLS 文件包含无法识别的记录顺序。</entry>
+    <entry key="MismatchRowColVals">最大行值和列值不匹配</entry>
+    <entry key="SheetNameNotInit">requestedSheetName 未初始化"</entry>
+    <entry key="SheetNotFound">未找到请求的工作表: ''{0}''。\n</entry>
+    <entry key="SSTTableNotInit">SST 表未初始化。</entry>
+    <entry key="CellFlagsNotInit">cellFlags 未初始化</entry>
+    <entry key="FlagFieldsIndexing">标志字段索引错误</entry>
+    <entry key="DataPointerNotInit">数值数据指针未初始化</entry>
+    <entry key="RecordDecomp">分解 MULRK 记录时发生内部错误 - colCount 与预期不符。\n</entry>
+    <entry key="XLSUnicodeUnsupported0">XLS 文件包含尚不支持的 unicode 文本。\n</entry>
+    <entry key="Truncation">XLS 文件包含尚不支持的 unicode 文本。({0},{1},{2})\n</entry>
+    <entry key="Usage">用法: [numericData, textData] = biffparse(biffvector [,'sheetName'])\n</entry>
+    <entry key="TooManyRecords">退出时发现过多记录。\n</entry>
+    <entry key="UnrecognizedData">文件不包含可识别的 Excel 数据。请尝试另存为 Excel 98。</entry>
+  </message>
+</rsccat>

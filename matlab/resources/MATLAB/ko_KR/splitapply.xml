@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFunction">첫 번째 입력값은 함수 핸들이어야 합니다.</entry>
+    <entry key="InvalidGroupNums">그룹 번호는 양의 정수로 구성된 벡터여야 하며, 희소 벡터일 수 없습니다.</entry>
+    <entry key="RowMismatch">데이터 변수는 그룹 번호의 벡터와 동일한 개수의 행을 가져야 합니다. 그룹 번호 벡터에는 {0,number,integer}개의 행이 있고, 데이터 변수 {1,number,integer}에는 {2,number,integer}개의 행이 있습니다.</entry>
+    <entry key="ColumnMismatch">데이터 변수는 그룹 번호의 벡터와 동일한 개수의 열을 가져야 합니다. 그룹 번호 벡터에는 {0,number,integer}개의 열이 있고, 데이터 변수 {1,number,integer}에는 {2,number,integer}개의 열이 있습니다.</entry>
+    <entry key="FunFailed">함수 ''{0}''을(를) {1} 데이터 그룹에 적용하는 동안 다음 오류가 발생했습니다.\n\n{2}</entry>
+    <entry key="OutputNotUniform">함수 ''{0}''을(를) {1} 데이터 그룹에 적용했을 때 스칼라가 아닌 값이 반환되었습니다.\n\n각 그룹에서 스칼라가 아닌 값을 계산하려면 익명 함수를 생성하여 각 값을 스칼라 셀로 반환하십시오. \n\n\t{2} </entry>
+    <entry key="MissingGroupNums">그룹이 N개라면, 1과 N 사이의 모든 정수가 그룹 번호의 벡터에 적어도 한 번은 나타나야 합니다.</entry>
+  </message>
+</rsccat>

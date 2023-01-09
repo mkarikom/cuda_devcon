@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- Copyright 2016-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="FirstInputInvalid">First argument must be numeric, logical, datetime, duration, calendarDuration, string, categorical, char, cellstr, table, or timetable.</entry>
+    <entry key="IndicatorsCalendarDuration">calendarDuration indicators not supported.</entry>
+    <entry key="IndicatorsCategorical">Second argument must be a string, a string array, a character row vector, or a cell array of character row vectors.</entry>
+    <entry key="IndicatorsCellstr">Second argument must be a character row vector, or a cell array of character row vectors.</entry>
+    <entry key="IndicatorsChar">Second argument must be a character vector.</entry>
+    <entry key="IndicatorsCharRowVector">Character vector indicator must be a row vector.</entry>
+    <entry key="IndicatorsDatetime">Second argument must be a datetime.</entry>
+    <entry key="IndicatorsDouble">Second argument must be numeric or logical.</entry>
+    <entry key="IndicatorsDuration">Second argument must be a duration.</entry>
+    <entry key="IndicatorsIntegerLogical">Second argument must be {0} or double.</entry>
+    <entry key="IndicatorsInvalidType">Indicators of type {0} are not supported.</entry>
+    <entry key="IndicatorsSingle">Second argument must be single or double.</entry>
+    <entry key="IndicatorsString">Second argument must be a string or a string array.</entry>
+    <entry key="StdizeCalendarDuration">calendarDuration not supported.</entry>
+    <!-- For code generation only -->
+    <entry key="InvalidInputsCodegen">First argument must be numeric, logical, duration, string, categorical, char, cellstr, or table.</entry>
+    <entry key="StringNeedsIndicatorCodegen">An indicator is needed for code generation when the first arguments is a string.</entry>
+    <entry key="CellIndicatorsMustBeConstant">Indicators given as a cell array must be constant for code generation</entry>
+  </message>
+</rsccat>

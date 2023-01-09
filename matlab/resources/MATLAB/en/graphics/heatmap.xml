@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2016-2017 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- Used by matlab.graphics.chart.HeatmapChart -->
+    <entry key="XDataMismatch">Number of x values must equal the number of columns in ''ColorData''.</entry>
+    <entry key="YDataMismatch">Number of y values must equal the number of rows in ''ColorData''.</entry>
+    
+    <!-- In the following messages, {0} is either "x" or "y".
+         For example: Vector of x values cannot contain duplicate values. -->
+    <entry key="DuplicateValues" note="{0} is either 'x' or 'y'">Vector of {0} values contains duplicate values.</entry>
+    <entry key="MissingValues" note="{0} is either 'x' or 'y'">Vector of {0} values contains missing values.</entry>
+    <entry key="EmptyStrings" note="{0} is either 'x' or 'y'">Empty strings and strings containing only space are invalid {0} values.</entry>
+    
+    <!-- In the following messages, {0} and {1} are the names of properties, such as XData, YData, XLimit, or YLimit.
+         For example: Setting ''ColorData'' property after setting ''SourceTable'' property is not supported. -->
+    <entry key="InvalidSourceTable">''SourceTable'' value must be a table.</entry>
+    <entry key="MatrixWorkflow" note="{0} is a property name, such as SourceTable">Setting the ''{0}'' property after setting the ''ColorData'' property is not supported.</entry>
+    <entry key="TableWorkflow" note="{0} is a property name, such as XData">Setting the ''{0}'' property after setting the ''SourceTable'' property is not supported.</entry>
+    <entry key="LimitsNotData" note="{0} and {1} are property names, such as XData">Both elements in the ''{0}'' vector must be present in the ''{1}'' vector.</entry>
+    <entry key="ResettingLimits" note="{0} and {1} are property names, such as XData">Existing ''{0}'' value incompatible with the new ''{1}'' vector. Resetting the ''{0}'' value to the full range of the ''{1}'' vector.</entry>
+    <entry key="InvalidLimits" note="{0} and {1} are property names, such as XData">''{0}'' value must be a 2-element vector of increasing or equal values, appearing in the same relative order as they appear in the ''{1}'' vector.</entry>
+    <entry key="LabelsMismatch" note="{0} and {1} are property names, such as XData">''{0}'' vector must contain the same number of elements as the ''{1}'' vector</entry>
+    <entry key="InvalidSortingVector" note="stringDatatypeUpdate">Specify the sorting vector as a character vector, string array, or cell array of character vectors.</entry>
+    <entry key="ElementsNotData" note="{0} and {1} are property names, such as XData">All elements in the sorting vector must be present in either the ''{0}'' or ''{1}'' vector.</entry>
+    
+    <!-- In the following message, "strings" refers to the MATLAB string class. {0} is either "x" or "y". -->
+    <entry key="InvalidString" note="{0} is either 'x' or 'y'">&lt;a href=\"matlab:doc string\"&gt;string&lt;/a&gt; function could not convert the {0} values to strings. Specify the {0} values as strings, a cell array of character vectors, or an array that is convertible to strings.</entry>
+    <entry key="InvalidCategoryNames" note="{0} is either 'x' or 'y'">&lt;a href=\"matlab:doc string\"&gt;categorical&lt;/a&gt; function could not convert the {0} values to valid category names.</entry>
+    
+    <!-- In the following error messages, 'ColorMethod' is the name of the property, and 'none' is an enumeration.
+         {0} is the name of a method, such as 'none', 'mean', 'sum', etc. -->
+    <entry key="DuplicateDataWithNone" note="'ColorMethod' is the name of the property, and 'none' is an enumeration">''ColorMethod'' value of ''none'' is not supported when the table contains more than one instance of each pair of x and y values.</entry>
+    <entry key="NoColorVariable" note="{0} is an enumeration, one of 'none', 'mean', 'sum', etc.">''ColorVariable'' must be specified when the ''ColorMethod'' value is ''{0}''.</entry>
+    
+    <!-- In the following messages, {0} is the name table variable, which must be a valid variable name, such as 'Var1'. -->
+    <entry key="InvalidCategoricalData" note="{0} is the name of a table variable">&lt;a href=\"matlab:doc categorical\"&gt;categorical&lt;/a&gt; function could not convert the source table variable ''{0}'' into categories.</entry>
+    <entry key="InvalidColorVariable">''ColorVariable'' value must refer to a real numeric variable in the source table.</entry>
+    <entry key="MissingValueIndicatorInData" note="{0} is the name of a table variable">Unable to convert the values in the source table variable ''{0}'' to categories due to a missing value indicator. See &lt;a href=\"matlab:doc ismissing\"&gt;ismissing&lt;/a&gt; for information on missing value indicators.</entry>
+    <entry key="NonDiscretizedData" note="{0} is the name of a table variable">Values in the source table variable ''{0}'' are not grouped into discrete categories. Use the &lt;a href=\"matlab:doc discretize\"&gt;discretize&lt;/a&gt; function to group your values.</entry>
+    
+    <!-- In the following six messages, both holes are the names of a variable, such as 'Var1'.
+         For example: Count of Var1 vs. Var 2 
+         For example: Median of Var3 -->
+    <entry key="CountTitle" note="{0} and {1} are the names of table variables">Count of {0} vs. {1}</entry>
+    <entry key="MeanTitle" note="{0} is the name of a table variable">Mean of {0}</entry>
+    <entry key="MedianTitle" note="{0} is the name of a table variable">Median of {0}</entry>
+    <entry key="MinTitle" note="{0} is the name of a table variable">Minimum of {0}</entry>
+    <entry key="MaxTitle" note="{0} is the name of a table variable">Maximum of {0}</entry>
+    <entry key="SumTitle" note="{0} is the name of a table variable">Sum of {0}</entry>
+    
+    <!-- Used by matlab.graphics.chart.primitive.Heatmap -->
+    <entry key="NegativeColorDataInLogScale">Negative color data ignored.</entry>
+    
+    <!-- Used by heatmap function -->
+    <entry key="InvalidArguments">Arguments must be a table followed by 2 table subscripts, a 2-dimensional numeric matrix, or 2 vectors followed by a 2-dimensional numeric matrix.</entry>
+    <entry key="InvalidTableArguments">Not enough input arguments. Table argument must be followed by 2 table subscripts.</entry>
+    <entry key="ColorVariableNameValuePair">Specify the ''ColorVariable'' using a parameter name and value pair.</entry>
+    <entry key="InvalidParent">Parent container must be a figure, uipanel, or uitab.</entry>
+    <entry key="DeletedParent">Parent container is a deleted graphics object.</entry>
+    <entry key="InvalidColorData">''ColorData'' must be a 2-dimensional numeric matrix.</entry>
+    
+    <!-- Used by matlab.graphics.chart.primitive.heatmap.Labels -->
+    <entry key="InvalidLabelColorData">''ColorData'' value must be a 4-row, uint8 matrix with the same number of columns as the length of the ''Strings'' value.</entry>
+    <entry key="InvalidLabelVertexData">''VertexData'' value must be a 3-row, single matrix with the same number of columns as the length of the ''Strings'' value.</entry>
+    
+    <entry key="ColorMethodLabel">Method to calculate color data</entry>
+  </message>
+</rsccat>

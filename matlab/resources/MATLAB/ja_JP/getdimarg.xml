@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="dimensionMustBePositiveInteger">次元の引数は、インデックス付け範囲の中で、正の整数のスカラーでなければなりません。</entry>
+    <entry key="vecDimsMustBeUniquePositiveIntegers">次元ベクトルの要素は一意でなければなりません。</entry>
+    <entry key="invalidDim">次元引数は正の整数スカラー、一意な正の整数のベクトル、または ''all'' でなければなりません。</entry>
+  </message>
+</rsccat>

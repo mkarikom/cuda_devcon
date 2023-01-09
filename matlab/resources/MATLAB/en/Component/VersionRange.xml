@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <entry key="CannotParseRange" translate="false">Argument must be in version range format.</entry>
+        <entry key="InputsMustBeScalar" translate="false">Arguments must be scalar.</entry>
+        <entry key="SecondInputMustBeVersion" translate="false">Second argument must be a matlab.component.Version.</entry>
+    </message>
+</rsccat>

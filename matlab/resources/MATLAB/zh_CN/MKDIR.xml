@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EmptyDirectoryName">给定的目录名称为空。将不会创建目录。\n未来的版本可能不支持此语法。</entry>
+    <entry key="DirectoryExists">目录已存在。</entry>
+    <entry key="ExistsAsFile">无法创建目录。{0} 已作为文件存在。</entry>
+    <entry key="InvalidCharacter">目录名称包含不在文件系统编码中的字符。\n某些操作可能无法按预期执行。</entry>
+    <entry key="PermissionDenied">资源已存在。权限不足，无法创建目录 ''{0}''。</entry>
+    <entry key="FailureToMkdir">无法创建名为 ''{0}'' 的目录。</entry>
+  </message>
+</rsccat>

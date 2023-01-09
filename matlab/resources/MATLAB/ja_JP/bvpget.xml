@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">入力引数が不足しています。</entry>
+    <entry key="OptsNotStruct">1 番目の引数は、BVPSET で作成されるオプション構造体でなければなりません。</entry>
+    <entry key="InvalidPropName">プロパティ名 ''{0}'' が認識されません。使用可能な名前については BVPSET を参照してください。</entry>
+    <entry key="AmbiguousPropName">あいまいなプロパティ名 ''{0}'' ({1}) です。</entry>
+  </message>
+</rsccat>

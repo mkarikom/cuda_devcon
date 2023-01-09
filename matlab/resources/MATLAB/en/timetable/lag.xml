@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="MustBeRegular" note="Do NOT translate 'timetable' and 'isregular': they are class and function names">Input timetable must be regular with respect to absolute time, or a time unit supported by isregular. For details, see &lt;a href="matlab:doc('isregular')"&gt;isregular&lt;/a&gt;.</entry>
+    <entry key="MustBeRegularInUnits">Input timetable must be regular with respect to {0}.</entry>
+    <entry key="InvalidLagType">Lag interval must be a scalar integer, duration, or calendarDuration.</entry>
+    <entry key="LagMustBeTimeStepMultiple">Lag interval must be a multiple of input timetable's time step. Use RETIME to interpolate timetable variables at times that fall between the row times.</entry>
+    <entry key="calDurLagDurationTimetable">Lag interval for timetable with duration row times must be a scalar integer or duration.</entry>
+    <entry key="InvalidCaldurationLag">calendarDuration lag interval must be an integer multiple of either calendar months, calendar days, or time.</entry>
+  </message>
+</rsccat>  

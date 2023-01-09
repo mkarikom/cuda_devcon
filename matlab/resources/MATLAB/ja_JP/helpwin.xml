@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="sprintf_DefaultTopics">既定のトピック</entry>
+    <entry key="FunctionToBeRemoved">HELPWIN は将来のリリースで削除される予定です。代わりに DOC を使用してください。</entry>
+    <entry key="NoHelpFound">{0} のヘルプが見つかりません。</entry>
+    <entry key="SearchInDocumentation">ドキュメンテーション内で {0} を検索</entry>
+    <entry key="TopicMustBeScalar">1 番目のオペランドはスカラーでなければなりません。</entry>
+    <entry key="Title">{0} - MATLAB ファイル ヘルプ</entry>
+  </message>
+</rsccat>

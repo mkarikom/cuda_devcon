@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="invts">All arguments of the append method must be timeseries objects.</entry>
+    <entry key="nooverlap">The time vectors of the specified time series must be consecutive.</entry>
+    <entry key="errdim">Data arrays must have the same sample size.</entry>
+  </message>
+</rsccat>

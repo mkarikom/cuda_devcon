@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoLHS">使用 RENAMEVARS 而不为工作区变量赋值不会修改表的变量名称。使用 t = renamevars(t,vars,newnames)。</entry>
+    <entry key="NumNamesMismatch">新变量名称的数目必须与指定的变量的数目相匹配。</entry>
+    <entry key="InvalidVarSubscript">表变量下标必须为包含正实整数的数值数组、逻辑数组、字符向量、字符串数组或字符向量元胞数组，或 vartype 下标器对象。</entry>
+    <entry key="RenameDim">不支持使用 RENAMEVARS 重命名维度名称。</entry>
+    <entry key="NamesNotText">新变量名称必须为文本。</entry>
+    <entry key="NewVarNamesMustBeConstant">Specify 'NewVariableNames' as Constant.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MustBeChar">输入必须为字符的行向量、字符串标量、cellstr 或字符串矩阵。</entry>
+    <entry key="StringMissingUnsupported">不支持缺失字符串输入。使用 &lt;a href="https://www.mathworks.com/help/matlab/ref/rmmissing.html"&gt;rmmissing&lt;/a&gt; 从字符串数组中删除缺失值。</entry>
+    <entry key="Builtin">内置</entry>
+  </message>
+</rsccat>

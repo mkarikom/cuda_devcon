@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidXYData">{0} と {1} は同じ長さのベクトル、同じサイズの行列、あるいはベクトルの長さが行列の行数または列数のどちらかと一致する、ベクトルと行列の組み合わせでなければなりません。</entry>
+    <entry key="InvalidSData">S はスカラーか、X と同じ長さのベクトルでなければなりません。</entry>
+    <entry key="InvalidCData">色は 1 つの RGB 3 成分か、RGB 3 成分からなる m 行 3 列の行列 (散布点ごとに 1 つの色)、あるいは m 行 1 列のベクトル (散布点ごとに 1 つの値) でなければなりません。</entry>
+    <entry key="NoDataInputs">最初の引数として X と Y データを与えなければなりません。</entry>
+    <entry key="DataLengthMustMatch">データ長が一致しなければなりません。</entry>
+    <entry key="SizeColorType">領域引数と色引数は数値であるか、double に変換可能なオブジェクトでなければなりません。</entry>
+    <entry key="ArgNameValueMismatch">後続の入力引数は名前と値のペアでなければなりません。</entry>
+    <entry key="CDataMustBeSingleColorSpec">CData は RGB 3 成分でなければなりません。</entry>
+    <entry key="InvalidTallData">tall 入力は実数の列ベクトルでなければなりません。</entry>
+    <entry key="InvalidJittertype">ジッター値が無効です。密度のジッター タイプについて、2-D 散布の場合は 1 つの次元で、3-D 散布の場合は 2 つの次元で指定してください。</entry>
+    <entry key="InvalidSwarmData">{0} は数値または categorical でなければなりません。</entry>
+    <entry key="MultipleColorSpecs">名前の付いた色を 1 つのみ指定するか、RGB 3 成分からなる m 行 3 列の行列を使用して複数の色を指定してください。</entry>
+    <entry key="MultipleMarkerSpecs">1 つのマーカーのみを指定してください。</entry>
+    <entry key="InvalidXYSizeData">{0}、{1}、およびマーカー サイズの各引数は同じ長さのベクトル、同じサイズの行列、あるいはベクトルの長さが行列の行数または列数のどちらかと一致する、ベクトルと行列の組み合わせでなければなりません。</entry>
+    <entry key="LocationDesc">散布図の場所</entry>
+    <entry key="InvalidTableArguments">To use {0} with a table, specify a table followed by {1} and {2} variables. Size and color can be specified using name-value pairs.</entry>
+  </message>
+</rsccat>

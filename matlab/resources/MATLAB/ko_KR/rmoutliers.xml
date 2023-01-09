@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DataVariablesArray">''DataVariables'' 파라미터는 테이블 입력값에 대해서만 지원됩니다.</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' 함수 핸들은 논리형 스칼라를 반환해야 합니다.</entry>
+    <entry key="DataVariablesTableSubscript">유효하지 않은 ''DataVariables'' 값입니다.</entry>
+    <entry key="DimensionInvalid">차원은 1 또는 2여야 합니다.</entry>
+    <entry key="MinNumOutliers">''MinNumOutliers'' 값은 음이 아닌 정수여야 합니다.</entry>
+    <entry key="NameValuePairs">입력 인수의 개수가 올바르지 않습니다. 이름-값 인수는 쌍으로 있어야 합니다.</entry>
+    <entry key="NDArrays">N차원 배열은 지원되지 않습니다.</entry>
+    <entry key="SecondInputString">두 번째 인수는 ''median'', ''mean'', ''movmedian'', ''movmean'', ''quartiles'', ''grubbs'', ''gesd'', ''DataVariables'', ''MinNumOutliers'', ''SamplePoints'' 또는 ''ThresholdFactor''여야 합니다.</entry>
+    <entry key="TableDimCodegen">첫 번째 인수가 table형인 경우 코드 생성을 위해 차원 인수는 상수 1이어야 합니다.</entry>
+    <entry key="DatetimeOrDurationWithMovMethod">''SamplePoints''가 datetime형 또는 duration형인 경우 코드 생성에 ''movmean'' 및 ''movmedian'' 방법이 지원되지 않습니다.</entry>
+  </message>
+</rsccat>

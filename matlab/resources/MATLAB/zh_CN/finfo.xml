@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidType">FILENAME 必须为字符向量。</entry>
+    <entry key="FileNotFound">未找到文件 ''{0}''。</entry>
+    <entry key="ExtensionMustBeAString">文件扩展名必须为字符向量。</entry>
+    <entry key="DescMultiImageFirstOnly">{0} 文件包含 {1,number,integer} 个图像。\n\n仅导入第一个图像。\n\n使用 IMREAD 读取第 2 至 {2,number,integer} 个图像。</entry>
+    <entry key="DescNbitImage">{0,number,integer} 位 {1} {2} 图像</entry>
+    <entry key="DescFileNotFound">未找到文件</entry>
+    <entry key="DescAudioFiles">声音({0})文件在 {2,number,integer} 个通道中包含 {1,number,integer} 个样本。</entry>
+    <entry key="DescVideoFiles">视频文件名: {0}\n帧速率: {1}\n视频格式: {2}\n宽度: {3}\n高度: {4}\n帧数: {5}\n</entry>
+    <entry key="DescVideoFileEmpty">VideoReader 对象为空。</entry>
+    <entry key="DescAudioFileEmpty">AudioRead 对象为空。</entry>
+    <entry key="MlxNotSupported">仅当 mlx 可用时才支持 MLX 功能。</entry>
+  </message>
+</rsccat>

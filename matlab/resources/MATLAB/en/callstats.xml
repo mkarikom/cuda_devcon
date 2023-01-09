@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- In general these messages should not be seen by users,  callstats messages should only be for extreme situations or misuse of the callstats undocumented builtin-->
+    <entry key="argNotProfilerObjHandle">Input argument must be a profiler object handle.</entry>
+    <entry key="cannotReport">Cannot report profiler statistics while it is running.</entry>
+    <entry key="cpuFrequencyNotSupported">CPU Frequency (ClockSpeed) information is not supported on this platform. The returned value is {0}.</entry>
+    <entry key="FullFilePath">File filtering requires a full path name.</entry>
+    <entry key="FullPath">Directory filtering requires a full path name.</entry>
+    <entry key="FunctionNotFound">The specified function was not found on the path.</entry>
+    <entry key="noChangeNonMatlab">Cannot change the detail level of non-MATLAB profiler.</entry>
+    <entry key="noChangeonFly">Cannot change the {0} while profiler is running.</entry>
+    <entry key="noResetWhileRunning">Cannot reset the profiler while it is running.</entry>
+    <entry key="no_mem_support">Support for memory tracking is not available with the current memory manager.</entry>
+    <entry key="stdException">Standard exception with message:{0} in callstats {1} ...</entry>
+    <entry key="takeItEasy">Explicitly enabling line-number tracking is no longer necessary.</entry>
+  </message>
+</rsccat>

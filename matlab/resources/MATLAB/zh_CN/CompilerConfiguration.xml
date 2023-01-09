@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidList">第二个输入 LIST 必须是值为 ''Selected''、''Installed'' 或 ''Supported'' 的字符向量。</entry>
+    <entry key="NoSelectedOptionsFile">未找到 ''Selected'' 编译器。您可能需要运行 mex -setup。</entry>
+    <entry key="invalidLang">第一个输入必须为采用支持语言(如 ''C''、''CPP''、''C++''、''Fortran'' 或 ''Any'')的字符向量。</entry>
+    <entry key="OldStyleStorage">所使用的存储类型为旧式类型。以下文件已过期:\n{0}</entry>
+    <entry key="storageTooNew">所使用的存储类型比当前支持的版本更新。以下文件存储版本不匹配:\n{0}</entry>
+  </message>
+</rsccat>

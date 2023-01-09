@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="nonWindows">This function is applicable only on Microsoft Windows.</entry>
+      <entry key="numargs">Parameter/Value pairs should be an even number.</entry>
+      <entry key="unknownparamPosition">Argument {0,number,integer} is not a recognized parameter.</entry>
+      <entry key="unknownparam">Parameter ''{0}'' is not recognized.</entry>
+      <entry key="createpropertyCurrentFiguregcf">Current Figure (gcf)</entry>
+      <entry key="createpropertyEvent">Event</entry>
+      <entry key="createpropertyEventHandler">Event Handler</entry>
+      <entry key="createpropertyPickFile">Pick File</entry>
+      <entry key="selectCreateButton">Create</entry>
+      <entry key="selectControlPrompt1">Please select an ActiveX control from the list of all controls in your system. You can see a preview of the selected control if it can be created successfully in MATLAB and has a screen image.</entry>
+      <entry key="selectControlPrompt2">You can also see a list of parameters used in creating an ActiveX control. Press the Properties button to see their default values and choose different ones.</entry>
+   </message>
+</rsccat>

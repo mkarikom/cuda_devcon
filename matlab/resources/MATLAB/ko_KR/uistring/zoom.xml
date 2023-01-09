@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ThreeDZoom">3차원 확대/축소</entry>
+    <entry key="ZoomOutShiftClick">축소       Shift+Click</entry>
+    <entry key="ZoomInShiftClick">확대       Shift+Click</entry>
+    <entry key="ZoomIn">확대</entry>
+    <entry key="ZoomOut">축소</entry>
+    <entry key="ZoomOptions">확대/축소 옵션</entry>
+    <entry key="UnconstrainedZoom">확대/축소</entry>
+    <entry key="HorizontalZoom">가로 확대/축소</entry>
+    <entry key="VerticalZoom">세로 확대/축소</entry>
+    <entry key="ZoomConstraints">확대/축소 제약 조건</entry>
+    <entry key="XZoom">X축 확대/축소</entry>
+    <entry key="YZoom">Y축 확대/축소</entry>
+    <entry key="ZZoom">Z축 확대/축소</entry>
+    <entry key="XYZoom">XY축 확대/축소</entry>
+    <entry key="YZZoom">YZ축 확대/축소</entry>
+    <entry key="XZZoom">XZ축 확대/축소</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidFigure">전달된 Figure 핸들이 유효하지 않음</entry>
+    <entry key="ExportSetupTitle">내보내기 설정</entry>
+    <entry key="PropertiesPanel">속성</entry>
+    <entry key="ExportStylesPanel">내보내기 스타일</entry>
+    <entry key="LoadButton">불러오기</entry>
+    <entry key="LoadSettingsFromLabel">다음에 대한 설정 불러오기:</entry>
+    <entry key="SaveAsStyleNamedLabel">다음 이름의 스타일로 저장:</entry>
+    <entry key="SaveButton">저장</entry>
+    <entry key="DeleteButton">삭제</entry>
+    <entry key="DeleteAStyleLabel">스타일 삭제:</entry>
+    <entry key="ApplyToFigureButton">Figure에 적용</entry>
+    <entry key="RestoreFigureButton">Figure 복원</entry>
+    <entry key="ExportButton">내보내기...</entry>
+    <entry key="HelpButton">도움말</entry>
+    <entry key="CancelButton">취소</entry>
+    <entry key="OKButton">확인</entry>
+    <entry key="ExpandAxesToFillFigureCheckBox">좌표축을 확장하여 Figure 채우기</entry>
+    <entry key="UnableToLoadStyleErrorDlg">스타일 {0}을(를) 불러올 수 없습니다.</entry>
+    <entry key="CMYKColorDropdown">CMYK 색</entry>
+    <entry key="RGBColorDropdown">RGB 색</entry>
+    <entry key="BlackAndWhiteDropdown">흑백</entry>
+    <entry key="GrayscaleDropdown">회색조</entry>
+    <entry key="PaintersDropdown">Painters(벡터 형식)</entry>
+    <entry key="OpenGLDropdown">OpenGL(비트맵 형식)</entry>
+    <entry key="ZbufferDropdown">zbuffer(비트맵 형식)</entry>
+    <entry key="ConvertSolidLinesCheckBox">선 스타일을 순서대로 돌아가며 실선에 적용</entry>
+    <entry key="CustomAngleCheckBox">사용자 지정 각도:</entry>
+    <entry key="CustomColorCheckBox">사용자 지정 색:</entry>
+    <entry key="CustomNameCheckBox">사용자 지정 이름:</entry>
+    <entry key="CustomRendererCheckBox">사용자 지정 렌더러:</entry>
+    <entry key="CustomSizeCheckBox">사용자 지정 크기:</entry>
+    <entry key="CustomWeightCheckBox">사용자 지정 두께:</entry>
+    <entry key="CustomWidthCheckBox">사용자 지정 너비:</entry>
+    <entry key="AutoText">자동</entry>
+    <entry key="DefaultText">디폴트 값</entry>
+    <entry key="ScreenText">화면</entry>
+    <entry key="KeepAxisLimitsCheckBox">축 제한 유지</entry>
+    <entry key="ScaleFontByLabel">글꼴 배율</entry>
+    <entry key="ScaleLineWidthByLabel">선 너비 배율</entry>
+    <entry key="ShowUicontrolsCheckBox">uicontrol 표시</entry>
+    <entry key="UseFixedFontSizeLabel">고정 글꼴 크기 사용</entry>
+    <entry key="UseFixedLineWidthLabel">고정 선 너비 사용</entry>
+    <entry key="PointsDropdown">포인트</entry>
+    <entry key="CentimetersDropdown">센티미터</entry>
+    <entry key="InchesDropdown">인치</entry>
+    <entry key="DemiDropdown">중간</entry>
+    <entry key="ItalicDropdown">기울임꼴</entry>
+    <entry key="ObliqueDropdown">오블리크</entry>
+    <entry key="LightDropdown">얇게</entry>
+    <entry key="NormalDropdown">보통</entry>
+    <entry key="BoldDropdown">굵게</entry>
+    <entry key="FontsDropdown">글꼴</entry>
+    <entry key="LinesDropdown">선</entry>
+    <entry key="RenderingDropdown">렌더링</entry>
+    <entry key="SizeDropdown">크기</entry>
+    <entry key="WithMinimumOfLabel">최소</entry>
+    <entry key="ResolutiondpiLabel">해상도(dpi):</entry>
+    <entry key="ColorspaceLabel">컬러스페이스:</entry>
+    <entry key="HeightLabel">높이:</entry>
+    <entry key="UnitsLabel">단위:</entry>
+    <entry key="WidthLabel">너비:</entry>
+    <entry key="Documents">문서</entry>
+    <entry key="Presentations">프레젠테이션</entry>
+  </message>
+</rsccat>

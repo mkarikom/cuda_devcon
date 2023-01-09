@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Nargin">인수의 개수가 올바르지 않습니다.</entry>
+    <entry key="DateField">날짜 필드 "{0}"이(가) 유효하지 않습니다. 날짜 필드는 '{' {1}'}' 중 하나여야 합니다.</entry>
+    <entry key="InputDate">날짜 번호 값은 실수 숫자형 스칼라여야 합니다.</entry>
+    <entry key="InputQuantity">수량은 10^16보다 작거나 같은 실수 숫자형 스칼라여야 합니다.</entry>
+    <entry key="InputDateField">날짜 필드는 문자형 벡터이거나 string형 스칼라여야 합니다.</entry>
+    <entry key="NonIntegerValue">정수가 아닌 값을 가진 수량은 지원되지 않습니다  {0}이(가) {1,number,integer}(으)로 잘립니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">setinterpmethod 메서드는 단일 timeseries 객체에 대해서만 사용할 수 있음</entry>
+    <entry key="invInterp">보간 방법은 문자형 벡터, string형 또는 함수 핸들로 지정해야 합니다.</entry>
+  </message>
+</rsccat>

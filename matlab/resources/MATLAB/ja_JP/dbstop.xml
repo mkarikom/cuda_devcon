@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="dbBadCondition">条件 ''{0}'' はシステム エラーを含んでいます。</entry>
+    <entry key="dbNameNotSpecified">ファイル名を指定しなければなりません。</entry>
+    <entry key="InvalidBreakpointCondition">''{0}'' の無効なブレークポイント条件です。</entry>
+    <entry key="InvalidBreakpointData">''{0}'' の無効なブレークポイント データです。</entry>
+    <entry key="InvalidStruct">無効な構造体です。フィールド ''{0}'' が見つかりません。</entry>
+    <entry key="InvalidStructBadCondition">無効な構造体です。条件は文字ベクトルでなければなりません。</entry>
+    <entry key="lineNumberNotApplicable">"{0}" が MATLAB コード ファイルではないため、MATLAB デバッガーはブレークポイントを設定できません</entry>
+    <entry key="lineNumberAndLocalNestedCombinationInvalid">オプションの組み合わせが無効です。行番号を指定するか、ローカル関数または入れ子関数を指定してください。</entry>
+  </message>
+</rsccat>

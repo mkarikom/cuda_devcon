@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnsupportedFont">フォント {0} はサポートされていません。</entry>
+    <entry key="InterpreterFailed">string スカラーまたは文字ベクトルには有効なインタープリター構文がなければなりません: {0}</entry>
+    <entry key="FontFailure">フォントを使用できませんでした</entry>
+    <entry key="UnconvertableCoordinate">位置の座標を変換できません</entry>
+    <entry key="SymbolFontUnsupported">Symbol フォントはサポートされなくなりました。特殊文字を表示するには Text Interpreter プロパティを TeX または LaTeX に設定し、TeX または LaTeX マークアップを使用してください。</entry>
+    <entry key="LargeFontSizeWarning">描画するテキストのフォント サイズは、システムで表示可能なサイズを超えています。</entry>
+    <entry key="LargeStringLengthException">テキスト長が長すぎて表示できない可能性があります。</entry>
+  </message>
+</rsccat>

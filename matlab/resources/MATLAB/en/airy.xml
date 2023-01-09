@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="nonFloatInput">Inputs must be single or double.</entry>
+    <entry key="sparseInput">Inputs must be full.</entry>
+    <entry key="notReal">Input must be real.</entry>
+    <entry key="InvalidOrder">K must be 0, 1, 2, or 3.</entry>
+    <entry key="InvalidScale">SCALE must be 0 or 1.</entry>
+  </message>
+</rsccat>

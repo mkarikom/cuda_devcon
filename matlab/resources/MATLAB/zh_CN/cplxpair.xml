@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ComplexValuesPaired">不能为复数配对。</entry>
+    <entry key="WrongTolerance">相对容差 TOL 必须为标量，例如 0&lt;=TOL&lt;1。</entry>
+  </message>
+</rsccat>

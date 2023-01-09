@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DialogStringThisIsNotAValidMeasurement">유효한 측정 값이 아님</entry>
+    <entry key="RecomputingPreview">미리보기를 다시 계산하는 중...</entry>
+    <entry key="ErrorRefreshingPreview">미리보기를 새로 고치는 중 오류 발생:\n{0}</entry>
+    <entry key="TitlePrintPreview">인쇄 미리보기</entry>
+    <entry key="LayoutTab">레이아웃</entry>
+    <entry key="LinesTextTab">선/텍스트</entry>
+    <entry key="ColorTab">색</entry>
+    <entry key="AdvancedTab">고급</entry>
+    <entry key="DialogTitlePrintPreviewWarning">인쇄 미리보기 경고</entry>
+  </message>
+</rsccat>

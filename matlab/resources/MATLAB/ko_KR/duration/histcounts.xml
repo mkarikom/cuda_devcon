@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNameValueMismatch">후행 입력 인수는 이름-값 쌍이어야 합니다.</entry>
+    <entry key="InvalidBinLimits">Bin 제한은 요소 2개를 가진 유한하고 정렬된 duration형 벡터여야 합니다.</entry>
+    <entry key="InvalidBinWidth">Bin 너비는 스칼라 duration형으로, 양의 유한한 값이어야 합니다.</entry>
+    <entry key="InvalidEdges">Bin 경계값은 적어도 2개의 요소를 가진 duration형 벡터여야 합니다.</entry>
+    <entry key="InvalidMixedBinInputs">''BinEdges'' 입력값 다음에는 ''NumBins'', ''BinWidth'', ''BinMethod'', ''BinLimits''가 올 수 없습니다.</entry>
+    <entry key="NonDurationEdges">EDGES는 duration형 배열이어야 합니다.</entry>
+    <entry key="NonDurationInput">X는 duration형 배열이어야 합니다.</entry>
+    <entry key="UnsortedEdges">Bin 경계값은 NaN이 포함되지 않은 정렬된 duration형 벡터여야 합니다.</entry>
+  </message>
+</rsccat>

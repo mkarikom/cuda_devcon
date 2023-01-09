@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="notAScalarSubset">Only scalar Subsets are currently supported.</entry>
+    <entry key="SubsetTypeNotSupported">Only ''()'' indexing into MAT files is currently supported. ''{0}'' indexing was used.</entry>
+    <entry key="MatfileFormatNotSupported"> Version must be specified as 'v6', 'v7', or 'v7.3'</entry>
+    <entry key="noSuchProperty">During serialization customization, no appropriate property {0} in the serialization content of class {1}.</entry>
+    <entry key="propertyExists">During serialization customization, serialization property name {0} already exists in the serialization content of class {1}.</entry>
+    <entry key="nonStaticObjectCustomizationMethod"> During serialization customization, method {0} not defined as ''Static''' in class {1} and is being ignored during serialization</entry>
+    <entry key="interruption"> Exiting save-load process due to user interruption</entry>
+    <entry key="numberOfElementsMismatch"> Number of elements in the input property name {0} is not equal to number of elements in the serialization content array for {1} class" </entry>
+    <entry key="badPropertyName"> Invalid name for serialization property {0} </entry>
+    <entry key="operationNotSupportedOnHetArray"> Input argument must be a serialization content array that represents a homogeneous object array </entry>
+    <entry key="saveRecursionLimit">Recursion limit exceeded when saving instance of class to a MAT-file. This is either because the instance contains an extremely long chain of references, or the class definition contains an error.</entry>
+    <entry key="unexpectedOutputType"> Unexpected output type returned from the ''{0}'' customization method defined by the class {1}. Ignoring the customization, saving name-value pairs from the object. </entry>
+  </message>
+</rsccat>

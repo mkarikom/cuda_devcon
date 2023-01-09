@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2012-2017 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <!-- NOTE: The messages here could be used with inputs that contain
+      format information themselves. The message could be used with other
+      messages as well in the code. As a result of that, you may not see 
+      clearly the entire arrangement and format of some of the messages 
+      here when they are displayed to the user. --> 
+      <!-- open/export/save GUI dialog entries --> 
+      <entry key="AllFilesDescription">All Files (*.*)</entry>      
+      <entry key="CodeFileDescription">MATLAB Files (*.m)</entry>  
+      <entry key="ExportGuiDialogTitle">Export</entry>      
+      <entry key="SingleExportedFileDescription">Single MATLAB file (*.m)</entry>      
+      <!-- GUI open/save error message box/dialog entries -->       
+      <entry key="InvalidFilename">File: \n{0}is invalid filename.\n\nPlease change the "Filename" property in the inspector to a\nvalid value, or use the Save As option.</entry>
+      <entry key="InvalidFilenames">Files: \n{0}are invalid filenames.\n\nPlease change the "Filename" property in the inspector to a\nvalid value, or use the Save As option.</entry>
+      <entry key="InvalidFilenameEmpty">File: {0}\nis not a valid GUIDE file name. It must have at least one character.</entry>
+      <entry key="InvalidFilenameNonfunctionName" note="stringDatatypeUpdate">File: {0}\nis not a valid GUIDE file name.\n\nA valid GUIDE file name is defined as any valid MATLAB function name.\nA valid function name is a character vector of letters, digits and \nunderscores, with length &lt;= {1} and the first character a letter.</entry>
+      <entry key="InvalidFileExtensions">File: {0}\nFile name must end with {1}</entry>
+      <entry key="ChangeFilenameInInspectora">{0}\n\nPlease change the "Filename" property in the inspector to a\nvalid value, or use the Save As option.</entry>
+      <entry key="CannotSaveToOpenGui">File: {0}\nis already open in GUIDE. \nCannot save to an open GUI.</entry>     
+      <entry key="ErrorWritingFile">Error writing file:\n{0}Check if directory is read only.</entry>     
+      <entry key="ErrorWritingFiles">Error writing files:\n{0}Check if directory is read only.</entry>     
+      <!-- auto callback management entries -->       
+      <entry key="ButtonGroupManagedCallback">Button group {0} manages the {1} of this {2}. \n\nTo customize the behavior when the selected button in the button group changes, modify its SelectionChangeFcn callback.</entry>
+      <entry key="ModifiedAutoCallback">The current value of {0} has been manually modified.\n\nDo you want to replace it with the GUIDE auto-generated callback? Click Yes to get the auto-generated callback. Click No to keep the {1} value as it is.</entry>      
+      <entry key="SameTagForMultipleComponents">The Tag, ''{0}'', is assigned to more than one component in your GUI. Their callbacks may point to the same functions in the GUI code file.</entry>
+      <!-- running exported GUI entries -->       
+      <entry key="RunningSuccessfullyGeneratedStandalone">File: {0}\nwas generated successfully.\n\nIf it does not work properly, {1}</entry>
+      <entry key="RunningUnsuccessfullyGeneratedStandalone">File: {0}\ncould not be generated successfully.\n\n{1}</entry>
+      <entry key="SolutionForStandaloneRunningError">please see the help on MATLAB Compiler. You can manually compile this file to find why:\n{0}</entry>      
+      <!-- GUi activation entries -->       
+      <entry key="PromptToContinueActivation">To continue activation</entry>     
+      <!-- HG component string entries -->       
+      <entry key="QuestdlgYesButtonText">Yes</entry>
+      <entry key="QuestdlgNoButtonText">No</entry>
+      <entry key="GotoErrorButtonText">Go to error</entry>     
+      <!-- shared entries -->       
+      <entry key="GuiFileExtension" translate="false">.fig</entry>            
+      <entry key="NewLineCharacter" translate="false">\n</entry>
+      <entry key="UnsupportedObjectTypesWarningTitle">Unsupported Object Types</entry> 
+      <entry key="UnsupportedObjectTypes">This FIG file contains one or more of the following unsupported objects: {0}.  GUIDE removes these unsupported objects when loading the figure.\n\nIf you save the GUI, the FIG file no longer contains the unsupported objects.</entry>
+   </message>
+</rsccat>

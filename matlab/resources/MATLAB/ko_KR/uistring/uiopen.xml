@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="VariablesCreatedInCurrentWorkspace">현재 작업 공간에서 만든 변수입니다.</entry>
+    <entry key="NoVariablesCreatedInCurrentWorkspace">현재 작업 공간에서 만든 변수가 아닙니다.</entry>
+    <entry key="DialogOpen">열기</entry>
+    <entry key="ModelFiles">모델 파일(*.mdl,*.slx)</entry>
+    <entry key="AllFiles">모든 파일(*.*)</entry>
+    <entry key="Models">모델(*.mdl,*.slx)</entry>
+    <entry key="Model">모델(*.mdl,*.slx)</entry>
+    <entry key="StateflowFiles">Stateflow 파일(*.cdr)</entry>
+    <entry key="SimulinkCoderFiles">Simulink Coder 파일(*.rtw,*.tmf,*.tlc,*.c,*.h,*.adb,*.ads)</entry>
+    <entry key="AllMATLABFiles">모든 MATLAB 파일</entry>
+    <entry key="MATLABFiles">MATLAB 파일(*.m)</entry>
+    <entry key="Figures">Figure(*.fig)</entry>
+    <entry key="MATfiles">MAT 파일(*.mat)</entry>
+  </message>
+</rsccat>

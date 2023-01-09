@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="OutputNamesWrongLength">LENGTH(OUTPUTNAMES) は NUMOUTPUTS と等しくなければなりません。</entry>
+    <entry key="InvalidFunction">最初の入力は関数ハンドルでなければなりません。</entry>
+    <entry key="InvalidOutputFormat">OUTPUTFORMAT は次のいずれかでなければなりません: 'uniform'、'table'、または 'cell'。</entry>
+    <entry key="InvalidNumOutputs">NUMOUTPUTS は非負の整数でなければなりません。</entry>
+    <entry key="InvalidInputVariablesFun">INPUTVARIABLES は論理スカラーを返さなければなりません。</entry>
+    <entry key="TimetableCannotGrow">timetable に適用された関数は、時間ベクトルのサイズより大きいサイズの出力を返します。出力を行時間なしの table で返すには、'OutputFormat' に 'Table' を使用してください。</entry>
+    <entry key="RowLabelsCannotBeDataVar">行名は、入力変数としてはサポートされていません。</entry>
+    <entry key="RowLabelsCannotBeDataVarNondefaultName">認識されない変数名 ''{0}'' です。この table で ''{1}'' という名前が付けられている行名にアクセスしようとした可能性があります。しかし、行名は入力変数としてはサポートされていません。</entry>
+    <entry key="FunFailed">関数 ''{0}'' を A の {1} 行に適用した際に、次のエラーが発生しました:\n\n{2}\n</entry>
+    <entry key="FunFailedGrouped">関数 ''{0}'' を A の行の {1} グループに適用した際に、次のエラーが発生しました:\n\n{2}\n。</entry>
+    <entry key="UngroupedRowSize">関数 ''{0}'' は、A の {1} 行に適用した際に、複数行の出力を返しました。</entry>
+    <entry key="GroupedRowSize">関数 ''{0}'' は、A の行の {1} グループに適用した際に、異なる行数をもつ複数の出力を返しました。</entry>
+    <entry key="NotAScalarOutput">関数 ''{0}'' は、{1} 行 に適用した際に、非スカラーの値を返しました。</entry>
+    <entry key="NotAScalarOutputGrouped">関数 ''{0}'' は、行の {1} グループに適用した際に、非スカラーの値を返しました。</entry>
+    <entry key="MismatchInOutputTypes">関数 ''{0}'' は、{3} 行に適用した際に、不整合な型 ({1}。想定は {2}) の値を返しました。</entry>
+    <entry key="MismatchInOutputTypesGrouped">関数 ''{0}'' は、行の {3} グループに適用した際に、不整合な型 ({1}。想定は {2}) の値を返しました。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- Copyright 2017-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <!-- Table only messages -->
+        <entry key="ApplyDataVarsError">Unable to apply method to data variable ''{0}''.</entry>
+        <entry key="GroupVariablesTableSubscript">Invalid grouping variables.</entry>
+        <entry key="GroupVariablesFunctionHandle">Grouping variables function handle must return a logical scalar.</entry>
+        <entry key="DataVariablesTableSubscript">Invalid data variables.</entry>
+        <entry key="DataVariablesFunctionHandle">Data variables function handle must return a logical scalar.</entry>
+        <!-- Matrix only messages -->
+        <entry key="FirstInputType">First argument must be a vector, matrix, table, or timetable.</entry>
+        <entry key="SecondInputType">Grouping variable cannot be specified as a function handle.</entry>
+        <entry key="FirstSecondMismatchSize">Grouping variables and data matrix must have same number of rows.</entry>
+        <entry key="ApplyDataVecsError">Unable to apply method to data column {0}.</entry>
+        <entry key="StatsCattable">Unable to concatenate results from applying specified method to data columns.</entry>
+        <!-- Common messages -->
+        <entry key="InvalidMethodOption">Method must be ''zscore'', ''norm'', ''meancenter'', ''rescale'', ''meanfill'', ''linearfill'', or a function handle.</entry>
+        <entry key="MethodNotProvided">Not enough input arguments. Specify a valid method.</entry>
+        <entry key="MethodOutputInvalidSize">The specified method must return a scalar or have the same number of rows as the method input.</entry>
+        <entry key="GroupBinsVarsDiffSize">Specify one binning scheme or as many binning schemes as there are grouping variables.</entry>
+        <entry key="GroupBinsNoGroupVars">Binning scheme is not supported when grouping variable is empty.</entry>
+        <entry key="GroupBinsEmpty">Invalid binning scheme.</entry>
+        <entry key="GroupBinsError">Unable to apply binning method ''{0}'' to grouping variable ''{1}''.</entry>
+        <entry key="GroupBinsScalarExpand">Unable to apply binning method to all grouping variables. Use a cell array to specify a binning method for each grouping variable, with 'none' to indicate no binning.</entry>
+        <entry key="ParseFlags">Parameter name must be ''ReplaceValues'' or ''IncludedEdge''.</entry>
+        <entry key="KeyWithoutValue">Incorrect number of input arguments. Parameter names and values must occur in pairs.</entry>
+        <entry key="IncludedEdgeNoGroupBins">''IncludedEdge'' is only supported when binning scheme is specified.</entry>
+    </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotDAG">有向グラフは非循環でなければなりません。</entry>
+    <entry key="ParseFlag">パラメーター名は ''Order'' でなければなりません。</entry>
+    <entry key="ParseType">Order の値は ''fast'' または ''stable'' でなければなりません。</entry>
+  </message>
+</rsccat>

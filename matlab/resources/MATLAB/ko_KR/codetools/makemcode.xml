@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TraversingObjectHierarchyPleaseWait">객체 계층 구조 순회 중. 기다려 주십시오...</entry>
+    <entry key="CodeGenerationError">코드 생성 오류</entry>
+    <entry key="GeneratingSyntaxTreePleaseWait">구문 트리 생성 중. 기다려 주십시오...</entry>
+    <entry key="GeneratingVariableListpleaseWait">변수 목록 생성 중. 기다려 주십시오...</entry>
+    <entry key="GeneratingFinalTextRep">최종 텍스트 표현 생성 중. 기다려 주십시오...</entry>
+    <entry key="CodeGeneration">코드 생성</entry>
+    <entry key="CurrentlyDoesNotSupportCodeGen">{0}은(는) 현재 코드 생성을 지원하지 않으므로, 올바른 입력 구문을 위해 ''doc {1}''을(를) 입력해야 함</entry>
+    <entry key="ValidInputObjectRequired">유효한 입력 객체가 필요함</entry>
+    <entry key="ThisObjectDoesNotSupportCodeGeneration">이 객체는 코드 생성을 지원하지 않음</entry>
+    <entry key="MLintMessagesWereDetected">다음 MLint 메시지가 발견됨:\n{0}</entry>
+    <entry key="IncorrectNumberOfInputArguments">입력 인수의 개수가 올바르지 않습니다.</entry>
+    <entry key="InvalidFilename">유효하지 않은 파일 이름</entry>
+    <entry key="MLintFlagMustBeTrueOrFalse">MLint 플래그는 true 또는 false여야 함</entry>
+    <entry key="DebugFlagMustBeTrueOrFalse">디버그 플래그는 true 또는 false여야 함</entry>
+    <entry key="InvalidInput">유효하지 않은 입력값임</entry>
+    <entry key="CouldNotCreateFile">파일을 생성할 수 없음: {0}</entry>
+  </message>
+</rsccat>

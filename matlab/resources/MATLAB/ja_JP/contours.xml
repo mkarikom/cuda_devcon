@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputsMustBeFull">contours の入力引数は非スパースでなければなりません。</entry>
+    <entry key="InputsMustBeReal">contours の入力引数は実数でなければなりません。関数 REAL を使用して入力の実数部を取得します。</entry>
+    <entry key="InputsMustHaveAtMost2Dimensions">contours の入力引数の次数は 2 を超えてはなりません。</entry>
+    <entry key="XMustBeVectorOrMatrix">X はベクトルか行列でなければなりません。</entry>
+    <entry key="YMustBeVectorOrMatrix">Y はベクトルか行列でなければなりません。</entry>
+    <entry key="EmptyErrorOutputArgument">{0} からのエラー引数が、空の行列に設定されました。これは将来のリリースでエラーになります。</entry>
+    <entry key="DeprecatedErrorOutputArgument">{0} からのエラー出力引数は使用されません。これは将来のリリースではサポートされません。</entry>
+  </message>
+</rsccat>

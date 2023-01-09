@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+  <!-- Warnings -->
+    <entry key="ProFailed">M-orthogonal reorthogonalization of qk failed.</entry>
+    <entry key="FactorizationFailed">Large factor diagonal ratio {2} at shift {3} (attempt {0} of {1})</entry>
+    <entry key="QRFailedKp1">M-orthogonal reorthogonalization of qk+1 failed with code {0}.</entry>
+    <entry key="ProQRFailedKp1">M-orthogonal reorthogonalization of qk+1 failed after partial reorthogonalization.</entry>
+    <entry key="SoQRFailedKp1">M-orthogonal reorthogonalization of qk+1 failed after selective reorthogonalization.</entry>
+  <!-- Errors -->
+    <entry key="NeedKM">Must supply both K and M.</entry>
+    <entry key="KMSparseDouble">K and M must be sparse and double.</entry>
+    <entry key="NotSquare">K and M must be square and the same size.</entry>
+    <entry key="NoOpts">Third argument must be a struct array of options.</entry>
+    <entry key="OutsideShift">Shift is outside all intervals.</entry>
+    <entry key="NotAllFound">Not all eigenvalues found. Reduce FrequencyRange or increase MaxShift.</entry>
+    <entry key="BadFactor">Factorizations failed possibly because the problem is ill-posed.</entry>
+    <entry key="MassIndefinite">Mass matrix appears to be indefinite.</entry>
+    <entry key="Overfull">Found too many eigenvalues in an interval.</entry>
+    <entry key="BadLeft">Adjust the left endpoint of FrequencyRange to avoid a cluster of eigenvalues.</entry>
+    <entry key="BadRight">Adjust the right endpoint of FrequencyRange to avoid a cluster of eigenvalues.</entry>
+  <!-- Diagnostic messages displayed when 'debug' is used -->
+    <entry key="BeginningBanner">Lanczos iteration {0}: seeking {1} eigenvalues ({2} on left, {3} on right) within range ({4}, {5})</entry>
+    <entry key="BeginningLanczosParameters">Lanczos iteration parameters:\n  Shift: {0}, inertia: {1}, factor diagonal ratio: {2}\n  Block size: {3}\n  Min steps:  {4}\n  Max steps:  {5}\n  Number of selective orthogonalization eigenpairs: {6}</entry>
+    <entry key="BeginningSOTitle">-- SO Eigenvalues ----- Shift ------ Residual Bound ----</entry>
+    <entry key="ProgressBanner">Step {0}: {1} eigenvalues converged ({2} on left, {3} on right).</entry>
+    <entry key="ProgressEvalTitle">----- T-eigenvalue ----- Eigenvalue ------- Residual -----</entry>
+    <entry key="CostBanner">Projected cost per Ritz value over next {0} steps:</entry>
+    <entry key="SummaryBanner">Lanczos iteration completed with exit code {0}:\n  Eigenvalues found:            {1}\n  Sentinels:                   ({2}, {3})\n  Number of steps:              {4}\n  Partial reorthogonalizations: {5}</entry>
+    <entry key="BlockSizeReduced">No eigenvalues found in this iteration.  Reducing block size to {0}.</entry>
+    <entry key="TerminateCost">Terminating iteration due to cost.</entry>
+    <entry key="DisplayEmptyIntervalInfo">Interval {0}: empty    ({1} of {2} eigenvalues found)\n  Endpoints:    [{3}, {4}]\n  Sentinels:    [{5}, {6}]\n  Sturm counts: [{7}, {8}]</entry>
+    <entry key="DisplayPartialIntervalInfo">Interval {0}: partial  ({1} of {2} eigenvalues found)\n  Endpoints:    [{3}, {4}]\n  Sentinels:    [{5}, {6}]\n  Sturm counts: [{7}, {8}]</entry>
+    <entry key="DisplayFullIntervalInfo">Interval {0}: full     ({1} of {2} eigenvalues found)\n  Endpoints:    [{3}, {4}]\n  Sentinels:    [{5}, {6}]\n  Sturm counts: [{7}, {8}]</entry>
+    <entry key="DisplayOverfullIntervalInfo">Interval {0}: overfull ({1} of {2} eigenvalues found)\n  Endpoints:    [{3}, {4}]\n  Sentinels:    [{5}, {6}]\n  Sturm counts: [{7}, {8}]</entry>
+    <entry key="AllFound">All eigenvalues were found.</entry>
+  </message>
+</rsccat>

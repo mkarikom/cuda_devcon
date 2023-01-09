@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidTolerance">容差值必须为非负持续时间标量。</entry>
+    <entry key="InvalidSubscripter">只有选择时间表的行时才支持使用 WITHTOL 标注下标。</entry>
+    <entry key="MismatchRowTimesType">包含 {0} 行时间的时间表无法使用 {1} 值标注下标。</entry>
+    <entry key="LargeTolerance">容差超出了各下标时间之间的最小间隔的一半，可能会导致选择重复行。容差必须小于 {0}。</entry>
+    <entry key="TabularInput">时间表不是有效的输入参数。请使用日期时间或持续时间来调用 WITHTOL，并将输出用作时间表的下标。</entry>
+    <entry key="IncompatibleLoad">无法加载已保存的 withtol 对象，因为它与此版本的 MATLAB 不兼容</entry>
+    <entry key="UIStringDispHeader">时间表的 &lt;a href="matlab:doc(''withtol'')"&gt;withtol&lt;/a&gt; 下标:</entry>
+    <entry key="UIStringDispTimes">选择与以下时间匹配的时间表行:</entry>
+    <entry key="UIStringDispTolerance">容差为 +/- {0}</entry>
+    <entry key="UIStringDispSnipFooter">... 以及另外 {0} 个</entry>
+    <entry key="UIStringDispFooter">请参阅&lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','subscript-into-times-of-timetable.html'))"&gt;根据行时间和变量类型选择时间表数据&lt;/a&gt;。</entry>
+    <entry key="LargeToleranceCodegen">容差超出了各下标时间之间的最小间隔的一半，可能会导致选择重复行。</entry>
+    <entry key="DatetimeNotSupported">代码生成不支持日期时间行时间。请改为将行时间指定为持续时间向量。</entry>
+    <entry key="TextInputsNotSupported">代码生成不支持将行时间或容差指定为字符向量或字符向量元胞数组。请指定为持续时间。</entry>
+  </message>
+</rsccat>

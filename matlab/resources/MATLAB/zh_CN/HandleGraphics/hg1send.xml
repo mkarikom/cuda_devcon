@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidKey">事件数据必须包含 Key 字段，该字段可指定为空数组、字符串标量或具有键名称(例如 A、B、a、b、return、escape 等)的字符向量。</entry>
+  </message>
+</rsccat>

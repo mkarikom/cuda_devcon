@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelClickOnATileToSlideIt">单击图块使其滑动</entry>
+    <entry key="LabelNewGame">新游戏</entry>
+    <entry key="LabelWINNER">您赢了!!!</entry>
+    <entry key="TitleTheSlidingPuzzle">滑动拼图</entry>
+    <entry key="WarningUnknownAction">{0}: 未知的操作 ''{1}'' </entry>
+  </message>
+</rsccat>

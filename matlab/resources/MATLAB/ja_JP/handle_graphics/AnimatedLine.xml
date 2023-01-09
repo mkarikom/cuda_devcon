@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MaxNumPointsRange">MaximumNumPoints は 0 より大きくなければなりません。</entry>
+    <entry key="MaxNumPointsRound">MaximumNumPoints に小数値を含めることはできません。値は {0, number, integer} に切り上げられました。 </entry>
+    <entry key="MaxNumPointsNaN">MaximumNumPoints を NaN にすることはできません。</entry>
+    <entry key="AddPointsInvalidSizeXY">引数 X ({0,number,integer}) の長さは引数 Y ({1,number,integer}) の長さと同じでなければなりません。</entry>
+    <entry key="AddPointsInvalidSizeXYZ">引数 X ({0,number,integer}) の長さは、引数 Y ({1,number,integer}) の長さおよび引数 Z ({2,number,integer}) の長さと同じでなければなりません。</entry>
+    <entry key="AddPointsInvalidType">引数 {0} の型が無効です。型は double でなければなりません。</entry>
+    <entry key="AddPointsNoSparse">引数 {0} をスパースにすることはできません。</entry>
+    <entry key="AddPointsNoComplex">引数 {0} を複素数にすることはできません。</entry>
+    <entry key="AddPointsInvalidShape">引数 {0} はベクトルでなければなりません。</entry>
+    <entry key="AddPointsOverflow">点数が既定の最大点数 {0,number,integer} を超えています。アニメーション化されたラインの点数を制御するには、AnimatedLine オブジェクトの MaximumNumPoints プロパティを目的の値に設定します。</entry>
+    <entry key="IncorrectNumInputArgs">簡易引数の数 {0, number, integer} が無効です。有効な入力は animatedline(X,Y,...) または animatedline(X,Y,Z,...) です。 </entry>
+    <entry key="GetPointsIncorrectNumberOfOutputArgs">Specify either two or three output arguments.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInputDataType">最初の引数は double のタイプでなければなりません </entry>
+    <entry key="InvalidInputDataSize">最初の引数は N 行 4 列のサイズでなければなりません</entry>
+    <entry key="invalidSecondInputArgument">2 番目の引数は、数値のスカラーでなければなりません</entry>
+    <entry key="InvalidFirstInputArg">最初の引数は double のタイプでなければなりません </entry>
+  </message>
+</rsccat>

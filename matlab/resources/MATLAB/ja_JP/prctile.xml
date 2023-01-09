@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadPercents">P must be a scalar or non-empty vector of real values between 0 and 100</entry>
+    <entry key="NoApproximateTall">When Dim is not 1 (non-tall dimension), exact computation is more efficient. Try setting the 'Method' parameter to 'exact' instead.</entry>
+    <entry key="MustBeColumn">Percentile or quantile of a tall array in the first dimension is only supported for tall column vectors.</entry>
+    <entry key="NoComplexNamed">The value of {0} must not be complex.</entry>
+    <entry key="NoSparseNamed">The value of {0} must not be sparse.</entry>
+    <entry key="NoObjectsNamed">The value of {0} must not be an object.</entry>
+    <entry key="NoGPUArrayNamed">The value of {0} must not be a gpuArray.</entry>
+    <entry key="FloatRequiredNamed">The value of {0} must be a floating point array.</entry>
+    <entry key="NumericRequiredNamed">The value of {0} must be a numeric array.</entry>
+  </message>
+</rsccat>

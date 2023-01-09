@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputSizeMismatch">入力は同じサイズでなければなりません。</entry>
+    <entry key="NonIntInputs">入力は実数の整数でなければなりません。</entry>
+    <entry key="mixedIntegerTypes">整数は、同じクラスの整数、あるいはスカラーの倍精度とのみ結合できます。</entry>
+    <entry key="outOfRange">Double の入力は、整数型の範囲外です。</entry>
+    <entry key="unsupportedType">GCD の 3 出力構文では、符号なしの整数はサポートされていません。</entry>
+    <entry key="largestFlint">入力は、最大の連続した flint より大きい値を含んでいます。\n         結果は不正確になる可能性があります。</entry>
+  </message>
+</rsccat>

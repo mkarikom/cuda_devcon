@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011-2019 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="DuplicateXValue">XData values must be unique.</entry>
+      <entry key="lengthYDoesNotMatchNumRowsZ">Length of Y must match the number of rows of Z.</entry>
+      <entry key="lengthZDoesNotMatchNumRowsY">Length of Z must match the number of rows of Y.</entry>
+      <entry key="YAndZLengthMismatch">Y must be the same length as Z.</entry>
+      <entry key="ZAndYLengthMismatch">Z must be the same length as Y.</entry>
+      <entry key="YNotAVector">Y must be a vector.</entry>
+      <entry key="ZNotAVector">Z must be a vector.</entry>
+      <entry key="NoDataInputs">Must supply Y data or X and Y data as first argument.</entry>
+      <entry key="UnrecognizedOption">Unrecognized option "{0}".</entry>
+      <entry key="NonNumericHorizontalYYAxis">Changing the ''Horizontal'' property is not supported when the bar chart has datetime, duration, or categorical values in multiple y-axes.</entry>
+      <entry key="NonNumericHorizontalType">Changing the ''Horizontal'' property is not supported when the bar chart has datetime, duration, or categorical values and the axes contains charts of different types.</entry>
+      <entry key="InvalidCData">CData must be an RGB triplet, a scalar, an M-by-1 vector the same length as X, or an M-by-3 matrix.</entry>
+      <entry key="Horizontal">'Horizontal' property is not supported as an input to barh. Use bar instead.</entry>
+      <entry key="InvalidStringOption">Option must be a character vector, scalar string array, or scalar cell array containing a character vector.</entry>
+      <entry key="XDataSizeMismatch">XData must be the same size as YData.</entry>
+      <entry key="HistIgnoredInputs">Arguments after ''{0}'' have been ignored.</entry>
+      <entry key="BarLayoutLabel">Arrangement of bars</entry>
+      <entry key="HorizontalLabel">Horizontal bar chart</entry>
+   </message>
+</rsccat>

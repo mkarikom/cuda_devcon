@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInputStrings">最初の引数は、string 配列、文字ベクトルまたは文字ベクトルのセル配列でなければなりません。</entry>
+    <entry key="InvalidFirstOptionalArg">最初のオプション引数は string 配列、文字ベクトル、文字ベクトルのセル配列、論理配列または整数配列でなければなりません。</entry>
+    <entry key="MissingNames">最初の入力引数では {0} 値はサポートされていません。</entry>
+    <entry key="NonPositiveRange">一意にする要素のインデックスは正の整数でなければなりません。</entry>
+    <entry key="OutOfBoundRange">一意にする要素のインデックスが最初の引数の要素数を超えています。</entry>
+    <entry key="BadLengthLogicalMask">最初の引数と、一意にするインデックスの論理配列は同じ要素数でなければなりません。</entry>
+    <entry key="BadMaxStringLength">2 番目のオプション引数は非負の整数でなければなりません。</entry>
+    <entry key="CannotMakeUnique">入力引数の組み合わせは固有にできません。</entry>
+  </message>
+</rsccat>

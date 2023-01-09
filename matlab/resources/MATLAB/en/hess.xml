@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="inputMustBe2DFullSq">Inputs must be dense, square matrices of type double or single.</entry>
+    <entry key="inputMustBeSameSize">Inputs must be the same size.</entry>
+    <entry key="twoInTwoOut">Too many output arguments. Specify at most two outputs when providing one input argument.</entry>
+  </message>
+</rsccat>

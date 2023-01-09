@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badFillvalInput">5 番目の入力 FILLVALUE は、数値、論理値、または文字値、あるいはセルでなければなりません。</entry>
+    <entry key="outputSizeTooLarge">次元の乗算は、最大値の整数より大きいです。</entry>
+    <entry key="nonPosIntIndValues">1 番目の入力 SUBS は、正の整数の添字を含まなければなりません。</entry>
+    <entry key="subsValuesTooLarge">1 番目の入力 SUBS と 3 番目の入力 SZ は ALL(MAX(SUBS)&lt;=SZ) を満たさなければなりません。</entry>
+    <entry key="badIndValues">1 番目の入力 SUBS は、数値の添字を含まなければなりません。</entry>
+    <entry key="badClassValInputDfltFun">関数 ''sum'' は、クラス {0} の値に対して定義されません。</entry>
+    <entry key="pmaxsize">プログラムで利用できる最大変数サイズを超えました。</entry>
+    <entry key="nonmatrixSparseOutput">1 番目の入力 SUBS は、スパースの出力に対して、2 列を超えることはありません。</entry>
+    <entry key="nonzeroFillvalSparseOutput">5 番目の入力 FILLVALUE は、スパースの出力に対して、実数の double 値の 0 でなければなりません。</entry>
+    <entry key="nondoubleValues">スパースな累積に対する入力値は、倍精度でなければなりません。</entry>
+    <entry key="negSizeOfSparse">スパース行列のサイズは、非負の整数でなければなりません。</entry>
+    <entry key="emptyNumericIndInput">1 番目の入力 SUBS は、少なくとも 1 つの列をもつ実数の非スパースの数値行列でなければなりません。</entry>
+    <entry key="emptyCellIndInput">1 番目の入力 SUBS は、少なくとも 1 つのセルがなければなりません。</entry>
+    <entry key="badCellIndInput">1 番目の入力 SUBS のセルは、実数で、非スパースの数値の長さの等しいベクトルを含まなければなりません。</entry>
+    <entry key="badClassValInput">2 番目の入力 VAL は、非スパースの数値の論理値、または文字ベクトル、あるいはスカラーでなければなりません。</entry>
+    <entry key="badSizeValInputMatInd">2 番目の入力 VAL は、SUBS 内の各行に対して 1 つの要素をもつベクトルまたはスカラーでなければなりません。</entry>
+    <entry key="badSizeValInputCellInd">2 番目の入力 VAL は、SUBS 内の各セルと同じ数の要素をもつベクトルまたはスカラーでなければなりません。</entry>
+    <entry key="badSzInputMatInd">3 番目の入力 SZ は、SUBS の各列に対して 1 つの要素をもつ非スパースの行ベクトルでなければなりません。</entry>
+    <entry key="badSzInputCellInd">3 番目の入力 SZ は、SUBS の各セルに対して 1 つの要素をもつ非スパースの行ベクトルでなければなりません。</entry>
+    <entry key="badSzInputVecInd">SUBS が列ベクトルの場合、3 番目の入力 SZ は [N 1] の形式でなければなりません。</entry>
+    <entry key="badFunInput">4 番目の入力 FUN は、関数ハンドルでなければなりません。</entry>
+    <entry key="nonscalarOrSparseFillvalInput">5 番目の入力 FILLVALUE は、非スパースのスカラーでなければなりません。</entry>
+    <entry key="badClassFillvalInput">5 番目の入力 FILLVALUE は、数値、論理値、または文字値、あるいはセルでなければなりません。</entry>
+    <entry key="badIsSparseInput">6 番目の入力 ISSPARSE は、論理スカラーでなければなりません。</entry>
+    <entry key="badIndInput">1 番目の入力 SUBS は、実数の非スパースの数値行列、またはセルのベクトルでなければなりません。</entry>
+    <entry key="nonscalarFunOutput">関数 ''{0}'' は、非スカラーの値を返しました。</entry>
+    <entry key="sparseFunOutput">関数 ''{0}'' は、スパースの値を返しました。</entry>
+    <entry key="badFunOutputClass">関数 ''{0}'' は、数値、論理値、文字、またはセルでない値を返しました。</entry>
+    <entry key="inconsistentFunOutput">関数 ''{0}'' は、すべてが同じクラスではない値を返しました。</entry>
+    <entry key="inconsistentFillvalAndFunOutput">FILLVALUE と関数 ''{0}'' からの出力は、同じクラスではありません。</entry>
+  </message>
+</rsccat>

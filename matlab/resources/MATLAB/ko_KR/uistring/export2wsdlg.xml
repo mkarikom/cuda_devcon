@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="YouMustCheckABoxToExportVariables">변수를 내보낼 상자를 선택해야 합니다.</entry>
+    <entry key="NothingSelected">선택하지 않음</entry>
+    <entry key="Help">도움말</entry>
+    <entry key="Cancel">취소</entry>
+    <entry key="OK">확인</entry>
+    <entry key="NotValidMATLABVariableNamesOneVariables">"{0}"은(는) 유효한 MATLAB 변수 이름이 아닙니다.</entry>
+    <entry key="NotValidMATLABVariableNamesThreeVariables">{0} "{1}" 및 "{2}"은(는) 유효한 MATLAB 변수 이름이 아닙니다.</entry>
+    <entry key="OverWriteQuestionOneVariable">"{0}"이(가) 이미 존재합니다. 덮어쓰시겠습니까?</entry>
+    <entry key="OverWriteQuestionThreeVariables">{0} "{1}" 및 "{2}"이(가) 이미 존재합니다. 덮어쓰시겠습니까?</entry>
+    <entry key="ExportToWorkspace">작업 공간으로 내보내기</entry>
+    <entry key="InvalidVariableNames">유효하지 않은 변수 이름임</entry>
+    <entry key="InvalidVariableName">유효하지 않은 변수 이름임</entry>
+    <entry key="DuplicateVariableNames">중복 변수 이름임</entry>
+    <entry key="DuplicateVariableName">중복 변수 이름임</entry>
+    <entry key="VariablesHaveBeenCreatedInTheCurrentWorkspace">변수가 기본 작업 공간에 만들어졌습니다.</entry>
+    <entry key="Yes">예</entry>
+    <entry key="No">아니요</entry>
+    <entry key="AnEmptyStringIsNotAValidChoiceForAVariableName">빈 문자형 벡터는 변수 이름으로 유효하지 않습니다.\n</entry>
+    <entry key="NotValidMATLABVariableNamesTwoVariables">"{0}" 및 "{1}"은(는) 유효한 MATLAB 변수 이름이 아닙니다.</entry>
+    <entry key="OverWriteQuestionTwoVariables">"{0}" 및 "{1}"이(가) 이미 존재합니다. 덮어쓰시겠습니까?</entry>
+  </message>
+</rsccat>

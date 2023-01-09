@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MustBeRegular">输入时间表必须为与绝对时间有关的规则时间表，或者为 isregular 支持的时间单位。有关详细信息，请参阅 &lt;a href="matlab:doc('isregular')"&gt;isregular&lt;/a&gt;。</entry>
+    <entry key="MustBeRegularInUnits">输入时间表必须为与 {0} 有关的规则时间表。</entry>
+    <entry key="InvalidLagType">滞后时间间隔必须为标量整数、持续时间或 calendarDuration。</entry>
+    <entry key="LagMustBeTimeStepMultiple">滞后时间间隔必须为输入时间表的时间步的倍数。请使用 RETIME 在落在行时间之间的时间点对时间表变量进行插值。</entry>
+    <entry key="calDurLagDurationTimetable">对于包含持续时间行时间的时间表，其滞后时间间隔必须为标量整数或持续时间。</entry>
+    <entry key="InvalidCaldurationLag">calendarDuration 滞后时间间隔必须为日历月、日历日或时间的整数倍数。</entry>
+  </message>
+</rsccat>

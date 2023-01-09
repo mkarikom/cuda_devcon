@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="zbuffer">''-nodisplay'' オプションで起動された場合、MATLAB は印刷に ZBuffer を使用できません。</entry>
+    <entry key="opengl">''-nodisplay'' オプションで起動された場合、MATLAB は印刷に OpenGL を使用できません。</entry>
+  </message>
+</rsccat>

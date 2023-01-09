@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NameForm">月份名称格式只能为 short、long、shortloc 或 longloc。</entry>
+    <entry key="ArgumentMustContainString">参数必须为字符向量。</entry>
+    <entry key="InvalidLocale">无法获取当前区域设置的月份名称。</entry>
+  </message>
+</rsccat>

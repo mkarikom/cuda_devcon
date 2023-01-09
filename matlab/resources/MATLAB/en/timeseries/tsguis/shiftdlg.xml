@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="Apply">Apply</entry> 
+      <entry key="AReferenceTimeSeriesMustBeSelectedForSynchronization">A reference time series must be selected for synchronization.</entry>  
+      <entry key="Cancel">Cancel</entry>
+      <entry key="Help">Help</entry>
+      <entry key="InvalidDateStringFormat" note="stringDatatypeUpdate">Invalid date character vector format.</entry>
+      <entry key="InvalidSyncTimeFor">Invalid sync time for {0}</entry>
+      <entry key="LimitedDoublePrecisionError">Limited double precision would result in duplicate times after the shift for: {0}. Aborting the shift</entry>
+      <entry key="OK">OK</entry>
+      <entry key="PlotTimeUnits">Plot time units: {0}</entry>
+      <entry key="SelectTimePlot">Select time plot:</entry>
+      <entry key="SynchronizeTimeSeries">Synchronize Time Series</entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+      <entry key="TimeShift">Time shift</entry>
+      <entry key="YouMustSelectAtLeastTwoTimeSeries">You must select at least two time series.</entry>
+   </message>
+</rsccat>

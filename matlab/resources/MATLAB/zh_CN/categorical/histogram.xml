@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AmbiguousOthers">输入数据包含一个名为 ''{0}'' 的类别，这与使用 'ShowOthers' 冲突。使用 renamecats 将 ''{0}'' 重命名为其他类别名称。</entry>
+    <entry key="BinCountsInvalidSize">BinCounts 必须为长度等于 length(Categories) 的向量。</entry>
+    <entry key="CategoriesInvalidSize">''Categories'' 的长度和 ''BinCounts'' 的长度必须相等。</entry>
+    <entry key="EmptyBinCountsManualMode">当 ''BinCountsMode'' 设置为 ''manual'' 时，必须设置 ''BinCounts''。</entry>
+    <entry key="InvalidCategories">CATEGORIES 必须为分类向量、字符串向量或字符向量元胞数组。</entry>
+    <entry key="InvalidCategoriesAssign" context="error">所有类别名称必须构成一个字符串向量或字符向量的元胞向量。</entry>
+    <entry key="InvalidCodes">代码必须具有与类别数相同的长度。</entry>
+    <entry key="ManualDisplayOrder">''DisplayOrder'' 值必须为 ''ascend''、''descend'' 或 ''data''。</entry>
+    <entry key="MixedCategoriesNumDisplayBins">输入组合无效。请指定类别或 ''NumDisplayBins'' 的列表，但不能同时指定两者。</entry>
+    <entry key="MixedDataBinCounts">当 X 输入为非空值时，无法设置 BinCounts。</entry>
+    <entry key="MixedOrdinal">同一坐标区上的有序分类数组直方图必须具有相同的分类。</entry>
+    <entry key="MixedOrdinalAssign">向 Data 属性赋值时，新旧有序 Data 必须具有顺序相同的相同类别。</entry>
+    <entry key="MixedOrdinalNonOrdinal">无法在同一坐标区上同时绘制有序和无序分类数组的直方图。</entry>
+    <entry key="MixedOrdinalNonOrdinalAssign">为 Data 属性赋值时，新旧 Data 必须均为有序或均为无序</entry>
+    <entry key="MixedOrientation">无法在相同坐标区上绘制具有不同方向的分类数组的直方图。</entry>
+    <entry key="UnsupportedPolarCoordinates">不支持将分类数据的直方图绘制到极坐标区中。</entry>
+    <entry key="NonCategoricalX">X 必须为分类数组。</entry>
+    <entry key="NonEmptyBinCountsAutoMode">当 ''BinCountsMode'' 设置为 ''auto'' 时，无法设置 ''BinCounts''。</entry>
+    <entry key="NonVectorCategories">CATEGORIES 必须为向量或空。</entry>
+    <entry key="NumDisplayBinsManualMode">指定了 ''BinCounts'' 时，不支持 ''NumDisplayBins''。</entry>
+    <entry key="NumDisplayBinsExceedsNumCategories">''NumDisplayBins'' 值必须小于或等于数据中的类别数目。</entry>
+    <entry key="OrdinalCategoriesMismatch">当 X 和 CATEGORIES 均为有序数组时，它们必须具有顺序相同的相同类别。</entry>
+    <entry key="OrdinalMismatch">X 和 CATEGORIES 必须均为有序或均为无序。</entry>
+    <entry key="OrientationMixedType">当坐标区中存在非直方图对象时，分类数据不支持方向。</entry>
+    <entry key="OrientationYYAxes">对于分类数据位于双 y 轴中的直方图，不支持更改 ''方向'' 值。</entry>
+    <entry key="Others">其他</entry>
+    <entry key="RepeatedCategories">类别必须是唯一的。</entry>
+    <entry key="ShowOthersManualMode">指定了 ''BinCounts'' 时，不支持显示“其他”栏。</entry>
+    <entry key="UnrecognizedCategories">CATEGORIES 包含不在 X 中的类别。</entry>
+    <entry key="UnsupportedFewerbins">分类数据的直方图中不支持 fewerbins 方法。</entry>
+    <entry key="UnsupportedMorebins">分类数据的直方图中不支持 morebins 方法。</entry>
+    <entry key="ShowEmptyBinsLabel">开启或关闭空 bin 的显示</entry>
+    <entry key="NumBinsLabel">bin 数目</entry>
+    <entry key="Category">类别</entry>
+    <entry key="Value">值</entry>
+  </message>
+</rsccat>

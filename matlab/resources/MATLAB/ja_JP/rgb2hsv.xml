@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WrongInputNum">入力引数の数が正しくありません。</entry>
+    <entry key="InputSizeMismatch">R、G、B は、すべて同じサイズでなければなりません。</entry>
+    <entry key="invalidInputSize">入力は MAP では M x 3 の配列、 RGB では M x N x 3 の配列でなければなりません。</entry>
+    <entry key="invalidInputSizeRGB">RGB は M x N x 3 の配列でなければなりません。</entry>
+    <entry key="invalidSizeForColormap">MAP は M x 3 の配列でなければなりません。</entry>
+    <entry key="badMapValues">有効なカラーマップは [0,1] の範囲外の値をもつことはできません。</entry>
+  </message>
+</rsccat>

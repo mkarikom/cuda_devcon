@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ColormapElementOutOfRange">컬러맵 요소가 범위를 벗어났습니다. RGB 농도는 0.0 &lt;= 농도 &lt;= 1.0 범위에서 정규화되어야 합니다. 컬러맵을 정규화하려면 해당 컬러맵을 \"max(max(&lt;colormap&gt;))\"(으)로 스케일링하십시오.</entry>
+    <entry key="DithermapElementOutOfRange">디더맵(Dithermap) 요소가 범위를 벗어났습니다. RGB 농도는 0.0 &lt;= 농도 &lt;= 1.0 범위에서 정규화되어야 합니다. 컬러맵을 정규화하려면 해당 컬러맵을 \"max(max(&lt;dithermap&gt;))\"(으)로 스케일링하십시오.</entry>
+  </message>
+</rsccat>

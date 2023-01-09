@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnsupportedTypeForA">1 番目の引数は、single 型または double 型の実数の非スパース行列でなければなりません。</entry>
+    <entry key="MoreThan2D">ByRows オプションを使用する場合、入力は 2 次元でなければなりません。</entry>
+    <entry key="DataSpaceShouldBeSize1">DataScale は 1 つの値をもたなければなりません。</entry>
+    <entry key="IncorrectSizeOfDataSpace">ByRows オプションを指定する場合、DataScale 値はスカラー、または列ごとに 1 つの要素をもつ入力行列のベクトルのいずれかでなければなりません。</entry>
+    <entry key="UnsupportedTypeForTol">許容誤差の値は、single 型または double 型をもつ、実数で非スパースの正の数値スカラーでなければなりません。</entry>
+    <entry key="InvalidDataScale">'DataScale' value must be a positive numeric scalar or vector of type single or double.</entry>
+    <entry key="InvalidByRowsValue">'ByRows' 値は logical でなければなりません。</entry>
+    <entry key="InvalidOutputAllIndices">'OutputAllIndices' value must be logical.</entry>
+    <entry key="InvalidPreserveRangeValue">'PreserveRange' value must be logical.</entry>
+    <entry key="UnknownOptions">不明なオプションが指定されました。有効なオプションのリストは、ヘルプを参照してください。</entry>
+    <entry key="TolIsNaN">Tolerance*DataSpace に NaN が含まれています。</entry>
+  </message>
+</rsccat>

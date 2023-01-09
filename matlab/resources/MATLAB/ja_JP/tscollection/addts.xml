@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badcell">時系列のセル配列が無効です。セル配列引数は、time series オブジェクトのセルのベクトルでなければなりません。</entry>
+    <entry key="badinput">addts の 2 番目の属性は、配列か time series オブジェクトのいずれかでなければなりません。</entry>
+    <entry key="badname">時系列名は文字ベクトルまたは string でなければなりません。</entry>
+    <entry key="dupinputnames">追加しようとしている時系列の名前は、(matlab.lang.makeValidName を使用した MATLAB 変数名への変換後に) 一意にならなければなりません</entry>
+    <entry key="dupexistingname">追加しようとしている時系列の名前は、(matlab.lang.makeValidName を使用した MATLAB 変数名への変換後に) 既存メンバーの名前と競合します。</entry>
+    <entry key="baddata">データは、tscollection の長さと一致しません</entry>
+  </message>
+</rsccat>

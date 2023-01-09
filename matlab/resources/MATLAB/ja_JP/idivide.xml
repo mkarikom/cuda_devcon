@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="minrhs">入力引数が不足しています。</entry>
+    <entry key="InvalidRoundingOption">認識されない丸めオプションです。</entry>
+    <entry key="dimagree">行列の次元は一致しなければなりません。</entry>
+    <entry key="OneArgumentMustBeInteger">少なくとも 1 つの引数は整数クラスに属していなければなりません。</entry>
+    <entry key="complexInts">複素数の整数演算はサポートされていません。</entry>
+    <entry key="mixedClasses">整数は、同じクラスの整数、あるいはスカラーの倍精度とのみ結合できます。</entry>
+    <entry key="scalarDoubleWith64BitInt">64 ビット整数とスカラー倍精度が混在する入力はサポートされていません。64 ビット整数は、同じクラスの整数とのみ組み合わせることができます。</entry>
+  </message>
+</rsccat>

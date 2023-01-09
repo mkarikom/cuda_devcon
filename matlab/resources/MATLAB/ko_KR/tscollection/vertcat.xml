@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badtype">tscollection 객체는 다른 tscollection 객체와만 결합(Concatenate)될 수 있습니다.</entry>
+    <entry key="ordermismatch">입력 tscollection 간 timeseries 차수가 서로 다릅니다. 결합된 tscollection에는 첫 번째 timeseries의 차수가 사용됩니다.</entry>
+  </message>
+</rsccat>

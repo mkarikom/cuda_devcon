@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CachingOfLargeDatasets">缓存大型数据集时所选内容仅限于显示的数据。</entry>
+    <entry key="Cancel">取消</entry>
+    <entry key="Data">数据</entry>
+    <entry key="DefineDomain">定义域</entry>
+    <entry key="Detrend">去除趋势...</entry>
+    <entry key="EndTime">结束时间</entry>
+    <entry key="EndTimePrecedsStartTime">结束时间早于开始时间</entry>
+    <entry key="Filter">筛选...</entry>
+    <entry key="Interpolate">插值...</entry>
+    <entry key="InvalidEndTime">结束时间无效</entry>
+    <entry key="InvalidStartTime">开始时间无效</entry>
+    <entry key="LimitedDoublePrecision">有限的双精度会在移位后导致时间重复: {0}。中止移位</entry>
+    <entry key="Mean">均值</entry>
+    <entry key="Median">中位数</entry>
+    <entry key="MultipleTimeSeries">多个时序</entry>
+    <entry key="OK">确定</entry>
+    <entry key="PlotOf">{0} 的绘图</entry>
+    <entry key="RemoveMissingData">删除缺少的数据...</entry>
+    <entry key="RemovingAllDataWillCreateAnEmptyTimeSeries">删除所有数据将会创建空时序。</entry>
+    <entry key="ReplacingDataWithNaNs">将数据替换为 NaN</entry>
+    <entry key="ResampleData">重采样数据...</entry>
+    <entry key="SelectData">选择数据...</entry>
+    <entry key="SelectedAxesContainContinue">所选坐标区包含 {0}。继续?</entry>
+    <entry key="SelectingDataForRemoval">选择要删除的数据</entry>
+    <entry key="SelectionModes">选择模式</entry>
+    <entry key="StartTime">开始时间</entry>
+    <entry key="SynchronizeData">同步数据...</entry>
+    <entry key="TheNumberOfAxesCannotBeReducedToZero">不能将坐标区数目减少到零</entry>
+    <entry key="TheTimePlotCannotBeSet">不能将时间图设置为显示绝对时间，因为时序没有开始日期。</entry>
+    <entry key="Time">时间</entry>
+    <entry key="TimeSeriesLengthTooLong">时序长度超过默认限制 {0,number,integer}。\n显示的绘图区域限制为前 {1,number,integer} 个点。\n使用平移工具或属性编辑器显示\n其他间隔。</entry>
+    <entry key="TimeSeriesPlotOf">{0} 的时序图</entry>
+    <entry key="TimeSeriesRescaling">时序比例重设</entry>
+    <entry key="TimeSeriesTranslation">时序转换</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="STD">STD</entry>
+  </message>
+</rsccat>

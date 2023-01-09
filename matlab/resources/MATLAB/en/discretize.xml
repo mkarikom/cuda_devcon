@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CategoryNamesInvalidSize">Fourth argument, category names, must be a cell array with length equal to the number of bins, {0,number,integer}.</entry>
+    <entry key="DefaultCategoryNamesNotUnique">Unable to create unique category names using 5 significant digits. Specify category names as an argument.</entry>
+    <entry key="EmptyOrScalarEdges">Bin edges must have at least 2 elements.</entry>
+    <entry key="InvalidN">Number of bins must be a real positive integer.</entry>
+    <entry key="ValuesInvalidSize">Third argument, bin values, must be a vector with length equal to the number of bins, {0,number,integer}.</entry>
+    <entry key="ValuesClassNoNaN">If the third argument, bin values, is of type {0}, then all of the input data must belong to a bin.</entry>
+    <entry key="invalidType">Invalid data type. Data to be binned must be a real numeric or logical array.</entry>
+    <entry key="InvalidSecondInput">Bin edges must be a vector that is real, numeric or logical, and monotonically increasing.</entry>
+    <entry key="ParseFlags">Parameter name must be ''IncludedEdge''.</entry>
+    <entry key="KeyWithoutValue">Incorrect number of input arguments. Parameter names and values must occur in pairs.</entry>
+    <entry key="InvalidIncludedEdgeValue">''IncludedEdge'' value must be ''left'' or ''right''.</entry>
+    <entry key="InvalidCatnames">Category names must be a cell vector of character vectors or a string.</entry>
+    <entry key="InvalidValues">Bin values must be a vector.</entry>
+    <entry key="InputNonFloatWithNumBins">When data to be binned is an integer data type, specify bin edges instead of number of bins.</entry>
+    <!-- For code generation -->
+    <entry key="NumbinsNotFixedSize">Bins of variable size not supported for code generation.</entry>
+  </message>
+</rsccat>

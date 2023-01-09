@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="funArgNotHandle">最初の入力は関数ハンドルでなければなりません。</entry>
+    <entry key="functionHandleEmpty">Function handle must be non-empty.</entry>
+    <entry key="errorHandlerEmpty">Error handler must be a non-empty function handle.</entry>
+    <entry key="UnequalDimensions">入力引数のサイズと形状はすべて同じでなければなりません。\n前の入力の次元は {0} です。入力 #{1} は {2} です</entry>
+    <entry key="UnequalSize">入力引数のサイズと形状はすべて同じでなければなりません。\n前の入力の次元は {1}、サイズは {0} です。入力 #{2} のサイズは {3} です</entry>
+    <entry key="SparseNotSupported">スパース配列はサポートされていません。SPFUN を参照してください。</entry>
+    <entry key="MismatchInOutputTypes">インデックス {0} にある出力 {1} の型 ({2} と {3}) が一致しません。\n'UniformOutput' を false に設定してください。</entry>
+    <entry key="NotAScalarOutput">Uniform の出力のインデックス {0} にある出力 {1} がスカラーでありません。\n'UniformOutput' を false に設定してください。</entry>
+    <entry key="structFieldNumberMismatch">インデックス {0} にある出力 {1} の構造体フィールドの数が前のフィールド数と一致しません。'UniformOutput' を false に設定してください。</entry>
+    <entry key="structFieldNameMismatch">インデックス {0} にある出力 {1} の構造体フィールド ''{2}'' の名前が前の名前 ''{3}'' と一致しません。'UniformOutput' を false に設定してください。</entry>
+    <entry key="UnimplementedOutputArrayType">{0} の出力型はサポートされていません。'UniformOutput' を false に設定してください。</entry>
+    <entry key="SubsasgnProblem">Uniform の出力配列 {0} のインデックス {1} に割り当てを行うことができません。'UniformOutput' を false に設定してください。</entry>
+    <entry key="NoOutput">Uniform の出力の使用時にインデックス {0} で返されるはずの出力が返されませんでした。'UniformOutput' を false に設定してください。</entry>
+    <entry key="UnexpectedOutput">Uniform の出力の使用時にインデックス {0} で想定と異なる出力が返されました。'UniformOutput' を false に設定してください。</entry>
+    <entry key="NotAParameterPair">入力 #{0, number, integer} のパラメーター ''{2}'' には {1} 値が想定されています。</entry>
+    <entry key="InvalidOverloadedSize">オーバーロードされた size メソッドは空でない正の double の配列を返さなければなりません。</entry>
+    <entry key="NotACell">入力 #{0} にはセル配列が想定されていますが {1} になっています。</entry>
+    <entry key="NotACellOrParameter">入力 #{0} は char 行ベクトルです。パラメーター名として想定されている場合、これは 'UniformOutput' または 'ErrorHandler' のいずれかでなければなりません。データ入力として想定されている場合、これは cell 配列でなければなりません。</entry>
+    <entry key="UnsupportedType">サポートされていない ARRAYFUN の入力タイプ: {0}</entry>
+    <entry key="SparseInputNotSupported">ARRAYFUN ではスパース入力はサポートされていません。</entry>
+    <entry key="NonStruct">STRUCTFUN の入力はスカラーの構造体でなければなりません。</entry>
+    <entry key="NonScalar">STRUCTFUN の入力はスカラーの構造体でなければなりません。</entry>
+    <entry key="UnknownArguments">STRUCTFUN で反復されるのは 1 つの構造体のフィールドだけです。</entry>
+  </message>
+</rsccat>

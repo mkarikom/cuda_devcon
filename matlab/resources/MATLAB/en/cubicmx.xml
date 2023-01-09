@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="TooManyInputs">Too many input arguments.</entry>
+    <entry key="TooFewInputs">Not enough input arguments.</entry>
+    <entry key="TooManyOutputs">Too many output arguments.</entry>
+    <entry key="NonDoubleInput">The cubicmx function only accepts double arrays.</entry>
+    <entry key="InvalidInput1">X and Y must be the same length.</entry>
+    <entry key="InvalidInput2">XI and YI must the same size.</entry>
+    <entry key="InvalidInput3">XI and T must the same size.</entry>
+    <entry key="InvalidInput4">TRI must be M-by-3.</entry>
+  </message>
+</rsccat>

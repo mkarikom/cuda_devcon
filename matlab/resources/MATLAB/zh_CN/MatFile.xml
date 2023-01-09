@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputNotMatFile">{0} 的第一个参数必须为 MatFile 对象。</entry>
+    <entry key="DotSyntax">使用 {0}(obj) 等函数语法对 MatFile 对象执行方法调用。</entry>
+    <entry key="NoFile">由于 ''{1}'' 不存在，无法访问 ''{0}''。</entry>
+    <entry key="VariableNotInFile">''{1}'' 中不存在 ''{0}''。</entry>
+    <entry key="NotSmoothIndexing">由于 MatFile 对象仅支持 '()' 索引，无法为 ''{0}'' 进行索引。</entry>
+    <entry key="SubsetBoundsAndIntervals">由于 MatFile 对象的范围必须以等距间隔增加，无法对 ''{0}'' 进行索引。</entry>
+    <entry key="NoIndexingIntoProperties">'Properties' 用于描述 MatFile 对象。要访问此说明，请使用语法 obj.Properties.name。</entry>
+    <entry key="ReservedNameConflict">由于名为 'Properties' 的变量是 MatFile 类的保留名称，无法创建该变量。请选择其他变量名称。</entry>
+    <entry key="ObjectNotWritable">由于 Properties.Writable 为 false，无法更改 ''{0}''。要修改 ''{1}''，请将 Properties.Writable 设置为 true。</entry>
+    <entry key="NoObjectArrays">MatFile 对象必须为标量。请尝试将该对象赋给标量变量。</entry>
+    <entry key="VarAccessOp">MatFile 对象为标量。请使用语法 objName.varName(indices) 访问变量。</entry>
+    <entry key="VarAccessName">变量名称必须为字符向量。</entry>
+    <entry key="OlderFormat">文件 ''{0}'' 是使用不支持部分加载的格式保存的。正在将变量 ''{1}'' 临时加载到内存中。要有效地使用部分加载，请使用 -v7.3 标志保存 MAT 文件。</entry>
+    <entry key="SourceHasReservedNameConflict">''{0}'' 包含 MatFile 对象无法访问的名为 'Properties' 的变量。要使用 MatFile 对象访问 'Properties' 变量，请在文件中重命名该变量。</entry>
+    <entry key="CannotConcatenate">无法串联 MatFile 对象。</entry>
+    <entry key="TooManyLevelsOfIndexing">无法对 MatFile 中的变量进行多级索引</entry>
+    <entry key="PropertiesWritableType">Writable 参数必须为标量逻辑值。</entry>
+    <entry key="NoEmptyMatFiles">无法创建空的 MatFile 对象。</entry>
+    <entry key="IndexMustBeNumeric">无法使用类 ''{1}'' 对 ''{0}'' 进行索引。索引必须为数值。</entry>
+    <entry key="colonLHS">无法使用冒号 '':'' 定义新变量的维度。</entry>
+    <entry key="emptyIndex">由于索引不能为空，无法对 ''{0}'' 进行索引。</entry>
+    <entry key="emptyVariableWithColonIndex">无法使用冒号索引为空变量 ''{0}'' 进行索引。</entry>
+    <entry key="badsubscript">下标索引必须为正实整数。</entry>
+    <entry key="NeedsAllDims">要对 ''{0}'' 进行索引，请指定所有 {1,number,integer} 维。MatFile 对象不支持线性索引。</entry>
+    <entry key="NeedsAllDimsDoesntExist">要对新变量 ''{0}'' 进行索引，请至少指定 2 维。MatFile 对象不支持线性索引。</entry>
+    <entry key="overriddenIndexing">变量 ''{0}'' 的类为 ''{1}''。要使用 ''{2}''，请加载整个变量。</entry>
+    <entry key="UnsupportedCharacters">找到默认编码无法表示的字符。</entry>
+    <entry key="SaveFormatTitle">MAT 和 FIG 文件保存格式</entry>
+    <entry key="SaveFormatButtonGroupTitle">将 MAT 和 FIG 文件保存为下列加载格式:</entry>
+    <entry key="Version_7_3_Button">MATLAB R2006b (版本 7.3)或更高版本\n在 64 位系统上变量可以超过 2GB</entry>
+    <entry key="Version_7_Button">MATLAB R14 (版本 7)或更高版本\n文件将被压缩并使用 Unicode 字符编码</entry>
+    <entry key="Version_5_Button">MATLAB R8 (版本 5)或更高版本</entry>
+    <entry key="FIG_Note">注意: FIG 文件是通过保存绘图、GUI 等创建的。</entry>
+  </message>
+</rsccat>

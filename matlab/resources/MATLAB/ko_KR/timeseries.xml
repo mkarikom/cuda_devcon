@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Annotations">주석</entry>
+    <entry key="Cancel">취소</entry>
+    <entry key="DefineNewEvent">새 이벤트 정의</entry>
+    <entry key="EditPlot">플롯 편집</entry>
+    <entry key="EmptyNamesNotAllowed">빈 이름은 허용되지 않습니다. 다른 이름을 선택하십시오.</entry>
+    <entry key="EnterNewName">새 이름 입력</entry>
+    <entry key="EventNameCannotBeEmpty">이벤트 이름은 비어 있을 수 없습니다.</entry>
+    <entry key="Help">도움말</entry>
+    <entry key="InitializingTimeSeriesTools">시계열 툴 초기화 중...</entry>
+    <entry key="InvalidCellArray">유효하지 않은 셀형 배열입니다. 모든 요소가 고유한 이름이 있는 유효한 timeseries여야 합니다.</entry>
+    <entry key="InvalidDateStringFormat">유효하지 않은 날짜 문자형 벡터 형식임</entry>
+    <entry key="InvalidInputArguments">유효하지 않은 입력 인수입니다. 오류 반환됨: {0}</entry>
+    <entry key="Name">이름</entry>
+    <entry key="NameAlreadyDefined">''{0}''이(가) 이미 정의되었습니다. 다른 이름을 선택하십시오.</entry>
+    <entry key="OK">확인</entry>
+    <entry key="PassBand">통과</entry>
+    <entry key="Redo">다시 실행</entry>
+    <entry key="SlashesNotAllowed">슬래시(''/'')는 이름에 허용되지 않습니다. 다른 이름을 선택하십시오.</entry>
+    <entry key="StopBand">중지</entry>
+    <entry key="TheMINLimitMustBeSmallerThanTheMAXLimit">MIN 한도는 MAX 한도보다 작아야 함</entry>
+    <entry key="TimeCannotBeEmpty">시간은 비어 있을 수 없습니다.</entry>
+    <entry key="TimeDate">시간/날짜</entry>
+    <entry key="TimeMustEvaluateToANonemptyFiniteScalar">시간은 비어 있지 않은 유한한 스칼라여야 합니다.</entry>
+    <entry key="TimeSeries">시계열</entry>
+    <entry key="TimeSeriesTools">시계열 툴</entry>
+    <entry key="Undo">실행 취소</entry>
+    <entry key="UnknownObjectType">알 수 없는 객체 유형이 지정되었습니다. 모든 요소가 유효한 데이터 객체여야 합니다.\n{0}, {1}</entry>
+    <entry key="TstoolDeprecation">tstool은 제거되었습니다. tstool 대신 사용할 수 있는 항목에 대해서는 R2014a 릴리스 정보를 참조하십시오.</entry>
+    <entry key="TstoolRemove">tstool은 제거되었습니다. tstool 대신 사용할 수 있는 항목에 대해서는 R2013b 릴리스 정보를 참조하십시오.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nufftNoSparseArrays">スパース配列はサポートされていません。</entry>
+    <entry key="nufftSamplePointsMismatch">サンプル点には、最初の入力引数の操作次元と同数の要素がなければなりません。</entry>
+    <entry key="nufftnScatteredSamplePointsMismatch">サンプル点行列の行数は、最初の入力引数の要素数と一致しなければなりません。</entry>
+    <entry key="nufftnSamplePointsMismatch">サンプル点の合計数は、最初の入力引数の要素数と一致しなければなりません。</entry>
+    <entry key="nodesNotFullReal">サンプル点とクエリ点は、実数の有限値からなる非スパース ベクトルでなければなりません。</entry>
+    <entry key="ndGridVectorsNotFullReal">サンプル点とクエリ点のグリッド ベクトルは、実数の有限値からなる非スパース ベクトルでなければなりません。</entry>
+    <entry key="ndScatteredNodesNotFullReal">行列として指定されたサンプル点とクエリ点は非スパースでなければならず、実数の有限値を含まなければなりません。</entry>
+    <entry key="invalidNodeDataType">サンプル点とクエリ点は double または single でなければなりません。</entry>
+    <entry key="invalidGridVectorDataType">サンプル点とクエリ点のベクトルは double または single でなければなりません。</entry>
+    <entry key="fmmInvalidTransformInfo">余接変換情報が無効です。</entry>
+    <entry key="fmmInvalidScalingOffset">余接変換のスケーリング オフセットはスカラーでなければなりません。</entry>
+    <entry key="fmmInvalidScalingParameters">余接変換のスケーリング パラメーターが無効です。</entry>
+    <entry key="nodeClassMismatch">ノードの浮動小数点型は入力配列と同じでなければなりません。</entry>
+    <entry key="nodesNonVector">ノードはベクトルでなければなりません。</entry>
+    <entry key="fmmScalingClassMismatch">スケーリング係数の浮動小数点型は入力配列と同じでなければなりません。</entry>
+    <entry key="fmmScalingNotFull">スケーリング係数は非スパースでなければなりません。</entry>
+    <entry key="fmmScalingNonVector">スケーリング係数はベクトルでなければなりません。</entry>
+    <entry key="fmmNonComplexScaling">スケーリング係数は複素数でなければなりません。</entry>
+    <entry key="fmmInputScalingMismatch">入力スケーリング係数の要素数は、サンプル点の数と同じでなければなりません。</entry>
+    <entry key="fmmOutputScalingMismatch">出力スケーリング係数の要素数は、クエリ点の数と同じでなければなりません。</entry>
+    <entry key="ndGridVectorCountWrong">グリッド ベクトルの数は、次元数と等しくなければなりません。</entry>
+    <entry key="ndNodeMatrixBadNumColumns">ノード行列の列数は、変換内の次元数と同じでなければなりません。</entry>
+    <entry key="ndNumDims">次元数は正のスカラーでなければなりません。</entry>
+    <entry key="badGaussianParameters">ガウス内挿パラメーターが無効です。</entry>
+    <entry key="invalidGridSpecification">等間隔グリッドの指定が無効です。</entry>
+    <entry key="inputDisagreesWithDefaultGrid">入力配列の要素数が正しくありません。</entry>
+    <entry key="bothPointsNonEmpty">クエリ点またはサンプル点のいずれかが空でなければなりません。</entry>
+    <entry key="finalGridTooSmall">等間隔の出力グリッドは、オーバーサンプリングされたグリッドより小さくなければなりません。</entry>
+  </message>
+</rsccat>

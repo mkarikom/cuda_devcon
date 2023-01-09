@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InsufficientArguments">MAKEIMPORTCODE에는 최소한 하나의 입력 인수가 필요합니다.</entry>
+    <entry key="ArgumentsMustBeOdd">MAKEIMPORTCODE에는 홀수의 입력 인수가 필요합니다.</entry>
+    <entry key="FirstArgMustBeStruct">MAKEIMPORTCODE에 대한 첫 번째 입력 인수는 구조체형이어야 합니다.</entry>
+    <entry key="ArgsMustBeChars">MAKEIMPORTCODE에 대한 두 번째 또는 그 이후의 입력 인수는 문자형 배열이어야 합니다.</entry>
+    <entry key="CannotSave">파일을 생성할 수 없음: {0}</entry>
+  </message>
+</rsccat>

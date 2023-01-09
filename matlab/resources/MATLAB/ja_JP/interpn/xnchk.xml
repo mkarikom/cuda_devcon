@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nargin">入力引数の数が正しくありません。</entry>
+    <entry key="Xsize">X1、X2、X3、... は、すべてベクトルか、すべて配列でなければなりません。</entry>
+    <entry key="XLengthMismatchV">X1、X2、X3、... は、V と同じ長さでなければなりません。</entry>
+    <entry key="Ysize">Y1、Y2、Y3、... は、すべて同じサイズか、異なる方向のベクトルでなければなりません。</entry>
+    <entry key="Vsize">V must be a {0,number,integer}-D array.</entry>
+    <entry key="XSizeMismatchV">Arrays X1,X2,X3, etc. must be the same size as V.</entry>
+  </message>
+</rsccat>

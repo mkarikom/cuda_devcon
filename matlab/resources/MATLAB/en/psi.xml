@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="nonFloatInput">Input must be single or double.</entry>
+    <entry key="notReal">Input must be real.</entry>
+    <entry key="notFull">Input must be full.</entry>
+    <entry key="validOrder">Order must be nonnegative integer value smaller than 2^31-1.</entry>
+    <entry key="kScalar">K must be a scalar.</entry>
+    <entry key="negativeX">X must be nonnegative.</entry>
+  </message>
+</rsccat>

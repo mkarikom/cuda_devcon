@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="Apply">Apply</entry>
+      <entry key="ApplyingCombinedSelectionRules">Applying combined selection rules</entry>
+      <entry key="Cancel">Cancel</entry>
+      <entry key="DateStringsCanOnlyBeUsedForPlotsThatUseCalendarDates" note="stringDatatypeUpdate">Date character vectors can only be used for plots that use calendar dates.</entry>
+      <entry key="ExpressionMustEvaluateToALogicalArray">Expression must evaluate to a logical array,</entry>
+      <entry key="Help">Help</entry>
+      <entry key="InvalidColumnsEnteredForTimeSeries">Invalid columns entered for time series {0}.</entry>
+      <entry key="LengthMustBeAFiniteInteger">Length must be a finite integer &gt;1,</entry>
+      <entry key="OK">OK</entry>
+      <entry key="Path">Path</entry>
+      <entry key="RestrictingRuleSelectionToSpecifiedColumns">Restricting rule selection to specified columns</entry>
+      <entry key="SelectedColumns">Selected Column(s)</entry>
+      <entry key="SelectFromyn">Select from (y/n)?</entry>
+      <entry key="SelectDataUsingRules">Select Data Using Rules</entry>
+      <entry key="SelectTheTimePlot">Select the time plot</entry>
+      <entry key="SelectTheTimePlotAndTimeSeries">Select the Time Plot and Time Series</entry>
+      <entry key="SpecifyDateTime">Specify Date/Time</entry>
+      <entry key="TheCombinationOfTheSelectionRules">The combination of the selection rules identifies an empty set (no selection).</entry>
+      <entry key="TimeBoundsMustBeValidDateStrings" note="stringDatatypeUpdate">Time bounds must be valid date character vectors.</entry>
+      <entry key="TimeSeries">Time Series</entry>
+      <entry key="TimeSeriesTools">Time Series Tools</entry>
+   </message>
+</rsccat>

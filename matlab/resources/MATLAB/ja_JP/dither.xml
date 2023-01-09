@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidInput">関数 {0} の入力引数が無効です。</entry>
+    <entry key="imageMustBe2D">DITHER(I): 強度イメージ I は 2 次元配列でなければなりません。</entry>
+    <entry key="imageMustBe3D">DITHER(RGB,map): RGB イメージは 3 次元配列でなければなりません。</entry>
+    <entry key="colormapMustBe2D">関数 {0} において、入力カラーマップは少なくとも 2 行で正確に 3 列の 2 次元配列でなければなりません。</entry>
+  </message>
+</rsccat>

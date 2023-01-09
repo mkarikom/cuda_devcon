@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="ANotMatrixOrFunction">A must be a matrix or function.</entry>
+      <entry key="TOutOfRange">T must be an integer between 1 and N = MAX(SIZE(A)).</entry>
+      <entry key="WrongColNum">X0 should have {0} columns.</entry>
+      <entry key="Failure">function {0}\nfailed with the following error:\n\n{1}</entry>
+      <entry key="MatrixSizeMismatchFlag">function {0} must return a {1,number,integer}-by-{2,number,integer} matrix when flag == ''{3}''</entry>
+      <entry key="NegInt">function {0} must return a nonnegative integer when flag == ''{1}''</entry>
+      <entry key="Not0or1">function {0} must return 0 or 1 when flag == ''{1}''</entry>
+      <entry key="NoIterationNormComputedExactly">No iteration - norm computed exactly.\n</entry>
+      <entry key="TerminateIterationLimitReachedn">*Terminate: iteration limit reached.\n</entry>
+      <entry key="TerminateEstimateNotIncreased">*Terminate: estimate not increased.\n</entry>
+      <entry key="TerminateRepeatedSignMatrix">*Terminate: repeated sign matrix.\n</entry>
+      <entry key="TerminatePowerMethodConvergenceTest">*Terminate: power method convergence test.\n</entry>
+      <entry key="TerminateRepeatedUnitVectors">*Terminate: repeated unit vectors.\n</entry>
+      <entry key="ParallelCols">Parallel cols: {0}\n</entry>
+      <entry key="RepeatedUnitVectors">Repeated unit vectors: {0}\n</entry>
+      <entry key="UnduplicateRpt">Unduplicate, rpt = {0}\n</entry>
+   </message>
+</rsccat>

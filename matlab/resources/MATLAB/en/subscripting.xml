@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- Added messages: src/m_interpreter, src/m_lxe -->
+    <entry key="classHasNoPropertyOrMethod">The class {0} has no Constant property or Static method named ''{1}''.</entry>
+    <entry key="tooManyResults">Non-overloaded subscripting can produce only one result.</entry>
+    <entry key="undefinedClass">The class "{0}" is undefined.\nPerhaps Java is not running.</entry>
+    <entry key="noSubscriptsSpecified">A value of class "{0}" was indexed with no subscripts specified. Currently the result of this operation is the indexed value itself, but in a future release, it will be an error.</entry>
+  </message>
+</rsccat>

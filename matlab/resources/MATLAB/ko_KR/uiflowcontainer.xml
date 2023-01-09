@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MigratingFunction">문서에 설명되지 않은 이 함수는 향후 릴리스에서 바뀔 예정입니다.\n이 함수를 계속 사용하려면 첫 번째 인수로 ''v0''을 추가하고 정규 호출 절차를 수행하십시오.</entry>
+    <entry key="setMargin">값은 유한해야 하고 0보다 커야 함</entry>
+  </message>
+</rsccat>

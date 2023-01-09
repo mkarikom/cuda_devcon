@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="inputType">Invalid data type. Input arrays must be numeric or logical.</entry>
+    <entry key="sparseInput">Sparse inputs are not supported.</entry>
+    <entry key="notVectorInput">First two arguments must be vectors.</entry>
+    <entry key="invalidInitialConditions">Initial conditions must be a vector of length max(length(a),length(b))-1, or an array with the leading dimension of size max(length(a),length(b))-1 and with remaining dimensions matching those of x.</entry>
+    <entry key="firstElementOfDenominatorFilterNotFinite">First denominator filter coefficient must be finite.</entry>
+    <entry key="firstElementOfDenominatorFilterZero">First denominator filter coefficient must be non-zero.</entry>
+  </message>
+</rsccat>

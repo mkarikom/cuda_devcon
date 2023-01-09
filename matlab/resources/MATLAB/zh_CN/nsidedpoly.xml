@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="numSidesError">边数必须为大于或等于 3 的正整数。</entry>
+    <entry key="radiusSideError">指定 'Radius' 时不支持 'SideLength' 参数。</entry>
+    <entry key="invalidParameterError">无法使用指定的参数创建多边形。</entry>
+    <entry key="centerError">'Center' 值必须为包含 2 个元素的实数有限数值行向量。</entry>
+    <entry key="radiusError">'Radius' 值必须为正实数有限标量。</entry>
+    <entry key="rsTooSmall">无法创建多边形，因为 ''{0}'' 值太小。</entry>
+    <entry key="rsTooLarge">无法创建多边形，因为 ''{0}'' 值太大。</entry>
+    <entry key="sideError">'SideLength' 值必须为正实数有限标量。</entry>
+    <entry key="nameValueError">输入参数的数目不正确。参数名称和值必须成对出现。</entry>
+    <entry key="unknownNameError">参数名称必须为 'SideLength'、'Radius' 或 'Center''。</entry>
+    <entry key="valueOverflow">无法创建多边形，因为 x 或 y 坐标太大。</entry>
+  </message>
+</rsccat>

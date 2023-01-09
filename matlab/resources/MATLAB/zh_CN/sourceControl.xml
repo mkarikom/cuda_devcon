@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="cmoptserror"> cmopts 已删除。请改用 MathWorks 内置的源代码管理集成。</entry>
+    <entry key="customverctrlerror"> customverctrl 已删除。请改用 MathWorks 内置的源代码管理集成。</entry>
+    <entry key="checkinerror"> checkin 已删除。请改用 MathWorks 内置的源代码管理集成。</entry>
+    <entry key="checkouterror"> checkout 已删除。请改用 MathWorks 内置的源代码管理集成。</entry>
+    <entry key="undocheckouterror"> undocheckout 已删除。请改用 MathWorks 内置的源代码管理集成。</entry>
+    <entry key="VerctrlDeprecationWindows">verctrl 已删除。请改用 MathWorks 内置的源代码管理集成或 &lt;a href="matlab:matlab.addons.supportpackage.internal.explorer.showSupportPackages('SL_MS_SCCI','Verctrl2_L_MS_SCCI')"&gt;Microsoft 源代码管理接口(MSSCCI)&lt;/a&gt;附加功能。</entry>
+  </message>
+</rsccat>

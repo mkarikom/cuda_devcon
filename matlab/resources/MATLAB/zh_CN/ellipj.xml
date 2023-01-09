@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">输入参数的数目不足。</entry>
+    <entry key="ComplexInputs">输入参数必须为实数。</entry>
+    <entry key="InputSizeMismatch">U 和 M 的大小必须相同。</entry>
+    <entry key="MOutOfRange">M 必须处于范围 0 &lt;= M &lt;= 1 内。</entry>
+    <entry key="NegativeTolerance">第三个参数 TOL 必须为有限的非负标量。</entry>
+    <entry key="FailedConvergence">ELLIPJ 未收敛。请考虑增加 TOL。</entry>
+  </message>
+</rsccat>

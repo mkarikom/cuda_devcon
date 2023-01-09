@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" decorate_cxx_names="true">
+  <message>
+    <entry key="EmptyStringToDataType" note="stringDatatypeUpdate">Character vector to data type conversion is not allowed</entry>
+    <entry key="EmptyDataTypeToString" note="stringDatatypeUpdate">Data type to character vector conversion is not allowed</entry>
+    <entry key="UIControlSliderStepDataType">Unknown exception in UIControlSliderStepDataType.</entry>
+  <!--Resource entries for src/hgdatatypes-->
+    <entry key="OutOfMemory">Out of memory. For more information, see &lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/memory.html'))\"&gt;memory&lt;/a&gt;.</entry>
+  </message>
+</rsccat>

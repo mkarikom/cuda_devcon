@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WhatsThis">这是什么</entry>
+    <entry key="CreateNewTimeSeriesWithName">使用该名称新建时序</entry>
+    <entry key="EnterNameOfTimeSeriesObjectToBeImported">要导入的时序对象名称中的键。</entry>
+    <entry key="CreateSeveralTimeSeries">使用数据源中的名称</entry>
+    <entry key="NamesInDataSource">创建多个时序</entry>
+    <entry key="CommonNameAndNumber">常用名称 + 编号</entry>
+    <entry key="TimeseriesRowcolumnVariableNamesOption">如果行/列包含变量名称并且您希望将它们用于时序对象，请选择第一个下拉菜单项，否则选择第二个菜单项。</entry>
+    <entry key="SpecifyRow">指定行</entry>
+    <entry key="SpecifyColumn">指定列</entry>
+    <entry key="KeyInRowNumbercolumnLetterOrCommonPart">行编号/列字母中的键。或为时序对象指定名称的共同部分。</entry>
+    <entry key="AppendDataToAnExistingTimeSeries">将数据附加到现有时序</entry>
+    <entry key="SelectTimeSeriesObjectFromList">从下拉列表中选择时序对象并插入所选的数据样本</entry>
+    <entry key="RefreshList">刷新列表</entry>
+    <entry key="CommonName">常用名称</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MustBeStringArray">入力は文字ベクトルのセル配列でなければなりません。</entry>
+    <entry key="MustBeMatrix">最初の引数はベクトルまたは 2 次元行列でなければなりません。</entry>
+    <entry key="complexIntegers">複素数の整数はサポートされません。</entry>
+    <entry key="DimIsSpecified">最初の引数がセル配列の場合に入力引数が多すぎます。</entry>
+    <entry key="TooManyInputsRows">'rows' オプションが指定されている場合に入力引数が多すぎます。追加の引数を指定する際は、&lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/issortedrows.html'))\"&gt;issortedrows&lt;/a&gt; を使用して行の並べ替えを決定してください。 </entry>
+    <entry key="MustBeVector">入力引数は行ベクトルまたは列ベクトルでなければなりません。</entry>
+    <entry key="vector">入力はベクトルでなければなりません。あるいは、''rows'' を指定しなければなりません。</entry>
+    <entry key="flag">不明なフラグです。</entry>
+  </message>
+</rsccat>

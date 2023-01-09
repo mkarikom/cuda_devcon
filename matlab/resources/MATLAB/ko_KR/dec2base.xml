@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FirstArg">첫 번째 인수는 정수의 배열이어야 합니다(0 &lt;= D &lt;= flintmax).</entry>
+    <entry key="SecondArg">두 번째 인수는 정수여야 합니다(2 &lt;= B &lt;= 36).</entry>
+    <entry key="ThirdArg">세 번째 인수는 양의 정수여야 합니다.</entry>
+  </message>
+</rsccat>

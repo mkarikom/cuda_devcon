@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ColormapUIFigure">컬러맵 편집기</entry>
+    <entry key="EditorMenu">파일</entry>
+    <entry key="Import">가져오기...</entry>
+    <entry key="Saveas">다른 이름으로 저장...</entry>
+    <entry key="CustomColormap">사용자 지정</entry>
+    <entry key="EditMenu">편집</entry>
+    <entry key="OpenDoc">문서 열기...</entry>
+    <entry key="Undo">실행 취소</entry>
+    <entry key="Redo">다시 실행</entry>
+    <entry key="ResetCurrent">현재 좌표축의 컬러맵 재설정</entry>
+    <entry key="ResetAll">모든 좌표축의 컬러맵 재설정</entry>
+    <entry key="HelpMenu">도움말</entry>
+    <entry key="SelectLabel">컬러맵</entry>
+    <entry key="SelectPanel">컬러맵 선택</entry>
+    <entry key="CustomizePanel">컬러맵 사용자 지정</entry>
+    <entry key="EditSizePanel">크기 및 컬러스페이스 편집</entry>
+    <entry key="SetLimitsPanel">컬러맵 제한 설정</entry>
+    <entry key="Shift">이동</entry>
+    <entry key="SpecifyColor">색 지정</entry>
+    <entry key="CurrentColor">현재 색</entry>
+    <entry key="CurrentIndex">현재 인덱스</entry>
+    <entry key="CurrentCData">현재 CData</entry>
+    <entry key="Colorspace">컬러스페이스</entry>
+    <entry key="InterpolatingColorspace">컬러스페이스 보간</entry>
+    <entry key="Size">크기</entry>
+    <entry key="Reverse">반전</entry>
+    <entry key="ClimMin">CLim 최솟값</entry>
+    <entry key="ClimMax">CLim 최댓값</entry>
+    <entry key="ColorData">색 데이터(CData) 값</entry>
+    <entry key="MustNotEmpty">컬러맵은 비어 있지 않아야 함</entry>
+    <entry key="ProgressLabel">기다려 주십시오. 초기화 중입니다.</entry>
+    <entry key="InitialLabel">처음으로 여는 중</entry>
+    <entry key="FinishLabel">완료하는 중</entry>
+    <entry key="ChooseColor">색 선택</entry>
+    <entry key="ErrorSettingColorMsg">색을 설정하려면 0과 1 사이의 RGB 값을 사용하십시오.</entry>
+    <entry key="InvalidColor">유효하지 않은 색</entry>
+    <entry key="SaveColormap">컬러맵을 작업 공간에 저장</entry>
+    <entry key="CancelButton">취소</entry>
+    <entry key="SelectColormapToImport">컬러맵 선택:</entry>
+    <entry key="ImportFromWS">작업 공간에서 컬러맵 가져오기</entry>
+    <entry key="ImportLabel">작업 공간에서 컬러맵 가져오기</entry>
+    <entry key="ErrorWhileImport">컬러맵을 선택하거나, 무시하려면 [취소]를 누르십시오.</entry>
+    <entry key="NoColormap">선택한 컬러맵이 없음</entry>
+    <entry key="ErrorInSave">컬러맵을 업데이트하는 중 오류 발생</entry>
+    <entry key="OkLabel">확인</entry>
+    <entry key="InvalidCLim">'Axes' 클래스의 속성 'CLim'을 설정하는 중 오류가 발생했습니다. 값은 숫자형 1x2 벡터여야 하며, 그중 두 번째 요소는 첫 번째 요소보다 크거나 Inf여야 합니다.</entry>
+  </message>
+</rsccat>

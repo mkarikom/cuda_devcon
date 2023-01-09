@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownFormatType">日期格式数字必须介于 0 与 31 之间。</entry>
+    <entry key="UnknownDateFormat">未知的日期格式: {0}</entry>
+    <entry key="IncorrectArgs">参数不正确</entry>
+    <entry key="InvalidAxis">轴必须为 ''x''、''y'' 或 ''z''。</entry>
+    <entry key="InvalidInput">日期格式值应为数值标量或字符向量</entry>
+  </message>
+</rsccat>

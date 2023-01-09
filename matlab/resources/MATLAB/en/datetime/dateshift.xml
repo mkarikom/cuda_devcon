@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidUnit">UNIT must be ''second'', ''minute'', ''hour'', ''day'', ''week'', ''month'', ''quarter'', or ''year''.</entry>
+    <entry key="AmbiguousUnit">Ambiguous value for UNIT: ''{0}''.</entry>
+    <entry key="InputSizeMismatch">T and RULE must be the same size, or either one may be a scalar.</entry>
+    <entry key="InvalidRule" note="stringDatatypeUpdate">RULE must be an integer value, an array of integer values, or one of the following: ''next'', ''previous'', ''current'', or ''nearest''.</entry>
+    <entry key="InvalidDOW">Day of week must be a number from 1 to 7, or a day name.</entry>
+    <entry key="AmbiguousDOW">Ambiguous value for day of week: ''{0}''.</entry>
+    <entry key="InvalidWhereTo">Second input must be ''start'', ''end'', or ''dayofweek''.</entry>
+    <entry key="InvalidRuleForWeekDayWeekEnd">RULE must be ''next'', ''previous'', or ''nearest'' when shifting with ''weekday'' or ''weekend''.</entry>
+    <entry key="InvalidNumericRuleForWeekDayWeekEnd">A numeric RULE of 0 is not supported when shifting with ''weekday'' or ''weekend''.</entry>
+  </message>
+</rsccat>

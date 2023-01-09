@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="nonPosIndex">Index into matrix must be positive.</entry>
+    <entry key="largeIndex">Index into matrix is too large.</entry>
+    <entry key="nonIntegerIndex">Index into matrix must be an integer.</entry>
+    <entry key="spLogicalRepeatedIndices">Repeated indices are not supported for sparse logical matrices.</entry>
+    <entry key="nondoubleFunctionOutput">Function output values for sparse accumulation must be double.</entry>
+    <entry key="nonPositiveIndicesOfSparse">Sparse matrix indices must be positive integers.</entry>
+  <!--Resource entries for src/mathcore-->
+    <entry key="nonScalarOutput">Output from ''{0}'' is non-scalar.</entry>
+    <entry key="negSizeOfSparse">Sparse matrix sizes must be nonnegative integer scalars.</entry>
+  </message>
+</rsccat>

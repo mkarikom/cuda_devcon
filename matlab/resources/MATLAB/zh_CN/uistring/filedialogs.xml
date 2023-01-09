@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DialogNoVariablesToSave">没有要保存的变量</entry>
+    <entry key="DialogTheseVariablesNotFound">未找到这些变量:</entry>
+    <entry key="SaveWorkspaceVariables">保存工作区变量</entry>
+    <entry key="SelectFileToOpen">选择要打开的文件</entry>
+    <entry key="SelectFileToWrite">选择要写入的文件</entry>
+    <entry key="SelectDirectoryToOpen">选择要打开的文件夹</entry>
+    <entry key="AllFilesDescription">所有文件</entry>
+  </message>
+</rsccat>

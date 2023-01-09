@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidHandle">引数は既存のグラフィックス オブジェクトに対するスカラー ハンドルでなければなりません。</entry>
+    <entry key="NoAxesParent">指定された座標軸は、Figure がリセットされた際に別のプロセスによって削除されました。</entry>
+    <entry key="HoldOnMixing">直交座標プロットの {0} への追加はサポートされていません。</entry>
+    <entry key="HoldOnMixingPolar">{0} への極座標プロットの追加はサポートされていません。</entry>
+    <entry key="HoldOnMixingAxesGeneric">{0} を {1} に追加することはサポートされていません。ホールドをオフにします。</entry>
+  </message>
+</rsccat>

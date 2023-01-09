@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonPosIndex">行列へのインデックスは正でなければなりません。</entry>
+    <entry key="largeIndex">行列のインデックスが大きすぎます。</entry>
+    <entry key="nonIntegerIndex">行列へのインデックスは整数でなければなりません。</entry>
+    <entry key="spLogicalRepeatedIndices">繰り返しのインデックスは、スパースの論理行列をサポートしていません。</entry>
+    <entry key="nondoubleFunctionOutput">スパースの累積に対する関数の出力値は、倍精度でなければなりません。</entry>
+    <entry key="nonPositiveIndicesOfSparse">スパース行列のインデックスは、正の整数でなければなりません。</entry>
+    <entry key="nonScalarOutput">''{0}'' からの出力は非スカラーです。</entry>
+    <entry key="negSizeOfSparse">スパース行列のサイズは非負の整数のスカラーでなければなりません。</entry>
+  </message>
+</rsccat>

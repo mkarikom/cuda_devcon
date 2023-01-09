@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="noirregtime">Explicit time vectors cannot be used for frame based time series</entry>
+    <entry key="wrongdatasize">The last dimension of the data should be the same as the length of the time vector.</entry>
+    <entry key="invinterval">Invalid interval specification</entry>
+  </message>
+</rsccat>

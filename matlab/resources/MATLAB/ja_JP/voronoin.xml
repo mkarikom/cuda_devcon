@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">少なくとも 1 つの入力が必要です。</entry>
+    <entry key="HigherDimArray">X は、2 次元配列でなければなりません。</entry>
+    <entry key="XLowColNum">X は、少なくとも 2 列をもたなければなりません。</entry>
+    <entry key="NotEnoughPtsForTessel">三角形分割を作成するために十分な数の固有の点がありません。</entry>
+    <entry key="DuplicateDataPoints">重複するデータ点が検出されました。\nこれは、ボロノイ領域関連への点において矛盾をもたらす可能性があります。\nこの動作を回避するには、VORONOIN を呼び出す前に、データ点上で UNIQUE を呼び出してください。</entry>
+  </message>
+</rsccat>

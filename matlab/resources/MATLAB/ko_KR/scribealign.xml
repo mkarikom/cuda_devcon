@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidAlignmentInput">두 번째 정렬 입력값이 잘못되었습니다.</entry>
+    <entry key="InvalidVerticalAlignment">잘못된 세로 정렬 유형임</entry>
+    <entry key="InvalidTargetHandle">첫 번째 인수는 정렬할 핸들의 벡터이거나 Figure 핸들이어야 합니다</entry>
+    <entry key="InvalidParent">정렬될 모든 객체는 동일한 부모 Figure를 가져야 합니다.</entry>
+    <entry key="InvalidAlignType">유효하지 않은 정렬 유형입니다.</entry>
+    <entry key="BadInputHandle">입력값은 유효하지 않은 핸들 객체입니다.</entry>
+    <entry key="NoFigure">Figure 부모가 발견되지 않았습니다.</entry>
+    <entry key="AlignDistributeToolTitle">정렬 및 간격 맞춤 툴</entry>
+    <entry key="InvalidHorizontalAlignment">가로 정렬 유형이 잘못됨</entry>
+  </message>
+</rsccat>

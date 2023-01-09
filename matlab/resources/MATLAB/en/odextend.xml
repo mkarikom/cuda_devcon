@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotEnoughInputs">Not enough input arguments.  See ODEXTEND.</entry>
+    <entry key="SOLNotODEsolverStruct">Input argument {0} must be a structure created by an ODE solver.</entry>
+    <entry key="InvalidSolverNameInSOL">Unexpected solver name ''{0}'' in {1}.solver.</entry>
+    <entry key="SolutionCannotBeExtended">Solution {0} available in [{1}, {2}] cannot be extended to {3}</entry>
+    <entry key="SolutionAlreadyAvailable">Solution already available in [{0}, {1}]. Use DEVAL.</entry>
+    <entry key="InconsistentSolType">Concatenating single and double outputs of {0}.</entry>
+  <!--Resource entries for toolbox/matlab/funfun-->
+  </message>
+</rsccat>

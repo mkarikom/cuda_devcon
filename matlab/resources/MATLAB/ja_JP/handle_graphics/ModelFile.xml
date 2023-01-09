@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadBoundingVolume">ファイルのコンテンツからの境界ボリューム計算エラー</entry>
+    <entry key="ReadOnlyProperty">読み取り専用プロパティを設定しようとしています</entry>
+    <entry key="FailedToLoadModel">ModelFile はファイルを開けませんでした</entry>
+  </message>
+</rsccat>

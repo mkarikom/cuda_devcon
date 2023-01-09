@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invVectorEntry">X はベクトルでなければなりません</entry>
+    <entry key="invEntry">X は、ベクトルまたは行列でなければなりません</entry>
+    <entry key="Vs"> と </entry>
+    <entry key="ResolveAmbiguity">あいまいさの解決</entry>
+    <entry key="AmbiguousDataSourceVariableExpression">あいまいなデータ ソースに対する変数式を選択してください。</entry>
+    <entry key="SpecifyDataSourceProperties">データ ソース プロパティの指定</entry>
+    <entry key="SpecifyGraphicsDataSource">グラフィックスのデータ ソースを指定するには、テーブルを編集してください。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidOption">オプションは ''transp''、''ctranspose''、または ''none'' でなければなりません。</entry>
+    <entry key="invalidArray">データ型が無効です。入力配列は double または single でなければなりません。</entry>
+    <entry key="sparseNotSupported">スパース入力はサポートされていません。</entry>
+    <entry key="threeInputNotSupported">入力引数の数が正しくありません。2 つまたは 4 つの入力引数を指定してください。</entry>
+    <entry key="mismatchPageDimensions">行列乗算に対する次元が正しくありません。最初の配列の列数が 2 番目の配列の行数と一致することを確認してください。</entry>
+    <entry key="mismatchImplicitExpansion">配列のサイズに互換性がありません。最初の 2 つより後の各次元について、両方の配列の次元サイズを同一にするか、いずれかの配列の次元サイズを 1 にしなければなりません。</entry>
+  </message>
+</rsccat>

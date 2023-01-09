@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">init メソッドは、単一の timeseries オブジェクトにのみ使用できます</entry>
+    <entry key="pvsetNoValue">指定されたプロパティに対応する値がありません。</entry>
+    <entry key="pvsetScalarTimeFirst">IsTimeFirst プロパティは論理スカラー値でなければなりません。</entry>
+    <entry key="pvsetScalarDatenum">IsDatenum プロパティは論理スカラー値でなければなりません。</entry>
+    <entry key="scalarOneRowDataAsThreeD">InterpretSingleRowDataAs3D プロパティは、論理スカラー値でなければなりません。</entry>
+    <entry key="pvsetScalarStartTime">StartTime プロパティは、数値のスカラーでなければなりません。</entry>
+    <entry key="pvsetScalarEndTime">EndTime プロパティは、数値のスカラーでなければなりません。</entry>
+    <entry key="pvsetScalarInterval">Interval プロパティは、数値のスカラーでなければなりません。</entry>
+    <entry key="pvsetInvalid">無効なプロパティ名</entry>
+    <entry key="data">最初の引数はデータでなければなりません。</entry>
+    <entry key="nodata">最初の引数はデータを指定しなければなりません。</entry>
+    <entry key="notime">2 番目の引数は時間ベクトルまたは時系列名でなければなりません。</entry>
+    <entry key="qualitycell">特性値は整数配列で指定しなければなりません。</entry>
+    <entry key="input">入力引数が多すぎます。代わりに INIT(TS, DATA, TIME, ''PropertyName1'', PropertyValue1, ...) を使用してください。</entry>
+    <entry key="invtime">時間の値が無効です。</entry>
+    <entry key="incompatibleIsTimeFirst">IsTimeFirst プロパティの値がデータおよび時間と矛盾しています。</entry>
+  </message>
+</rsccat>

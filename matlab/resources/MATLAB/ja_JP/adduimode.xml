@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidMode">2番目の入力引数は、mode オブジェクトでなければなりません。</entry>
+    <entry key="ExistingFigureMode">この名前のモードは既に Figure とともに登録されています。</entry>
+    <entry key="ExistingMode">この名前のモードは既にそのモードで登録されています。</entry>
+  </message>
+</rsccat>

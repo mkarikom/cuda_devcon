@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="unsupported">関数 MEMORY は、このプラットフォームでは使用できません。</entry>
+    <entry key="limitedByContiguousAddressSpaceLine">利用可能な連続する仮想アドレス空間により制限されます。</entry>
+    <entry key="limitedBySystemMemoryLine">利用可能なシステムメモリ (物理 + スワップ ファイル) により制限されます。</entry>
+    <entry key="limitedByVirtualAddressSpaceLine">利用可能な仮想アドレス空間により制限されます。</entry>
+    <entry key="maxPossibleArrayLine">利用可能な最大配列:         </entry>
+    <entry key="memoryAvailableAllArraysLine">すべての配列に利用可能なメモリ:</entry>
+    <entry key="memoryUsedMatlabLine">MATLAB で使用されるメモリ:          </entry>
+    <entry key="notAvailableOnPlatformLine">このプラットフォームでは利用できません。</entry>
+    <entry key="physicalMemoryLine">物理メモリ (RAM):          </entry>
+  </message>
+</rsccat>

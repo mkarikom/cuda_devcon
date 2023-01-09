@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManyDimensions">引数は 2 次元でなければなりません。</entry>
+    <entry key="NonVectorInput">少なくとも 1 つの次元は 1 に等しくなければなりません。</entry>
+    <entry key="InvalidType">入力は、数値、文字ベクトル、または string スカラーでなければなりません。</entry>
+    <entry key="NonVectorOutput">出力の少なくとも 1 つの次元は 1 と等しくなければなりません。</entry>
+    <entry key="Encoding">エンコード</entry>
+    <entry key="InputTooLarge">入力に含まれる要素数は 2^30 未満でなければなりません。</entry>
+  </message>
+</rsccat>

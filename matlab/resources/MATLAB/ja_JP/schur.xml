@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="schurNoConvergence">SCHUR は index = {0,number,integer} で収束しません。</entry>
+    <entry key="matrixWithNaNInf">SCHUR への入力は、NaN または Inf を含んではいけません。</entry>
+    <entry key="unknownOption">2 番目の入力は、''real'' または ''complex'' でなければなりません。</entry>
+    <entry key="realOptionIgnored">複素数行列をもつ ''real'' オプションを無視します。</entry>
+    <entry key="noSchurSparse">最初の入力は非スパースでなければなりません。SCHUR(FULL(S)) を使用してください。</entry>
+    <entry key="inputType">最初の入力は単精度または倍精度でなければなりません。</entry>
+    <entry key="inputMustBe2D">最初の入力は 2 次元でなければなりません。</entry>
+    <entry key="inputMustBeSquare">最初の入力は正方行列でなければなりません。</entry>
+  </message>
+</rsccat>

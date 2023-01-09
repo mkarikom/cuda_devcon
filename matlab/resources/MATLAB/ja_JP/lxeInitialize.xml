@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="cannotInitializeAfterlxeFeval">lxeInitialize は、lxeFeval が最初に呼び出される前に呼び出さなければなりません。</entry>
+    <entry key="configurationMustBeString">構成は文字ベクトルを含まなければなりません。</entry>
+    <entry key="configurationNotRecognized">設定オプションは、大文字小文字が区別され、Default、BoxInterp、BoxDual のいずれかでなければなりません</entry>
+  </message>
+</rsccat>

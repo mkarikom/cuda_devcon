@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnpairedParamsValues">パラメーター/値は組でなければなりません。</entry>
+    <entry key="InvalidLogicalValue">ファイルの存在設定は、論理値でなければなりません</entry>
+    <entry key="UnableToSelectFiles">選択したファイルがありません</entry>
+    <entry key="UnableToSelectFile">選択したファイルがありません</entry>
+    <entry key="InvalidNumberOfFiltersAdded">一度に 1 つのフィルターのみ追加することが可能です。</entry>
+    <entry key="InvalidNumberOfFiltersRemoved">一度に 1 つのフィルターのみ削除することが可能です。</entry>
+    <entry key="IllegalParameterType">入力 {0,number,integer} のパラメーターは文字ベクトルでなければなりません。</entry>
+    <entry key="IllegalParameter">パラメーター "{0}" は認識されません。</entry>
+    <entry key="IllegalFileFilterParameter">ファイル フィルターは、文字ベクトルか文字ベクトルのセル配列でなければなりません</entry>
+    <entry key="IllegalFileFilterSpecification">ファイル フィルターの仕様が不適切です</entry>
+    <entry key="InvalidAddFilterExtensionType">タイプ FileExtensionFilter のフィルターのみ追加することが可能です。</entry>
+    <entry key="InvalidRemoveFilterExtensionType">タイプ FileExtensionFilter のフィルターのみ削除することが可能です。</entry>
+    <entry key="InvalidSelection">無効な選択</entry>
+    <entry key="MultipleFoldersSelected">ファイルが複数のフォルダーから選択されています。\n\nすべてのファイルを同じフォルダーから選択してください。\n</entry>
+  </message>
+</rsccat>

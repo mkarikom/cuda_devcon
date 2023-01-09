@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="AllZeroSparse">All zero sparse:</entry>    
+    <entry key="StructureAddress">Structure address</entry>    
+    <entry key="Column">Column {0,number,integer}</entry>
+    <entry key="Columns">Columns {0,number,integer} through {1,number,integer}</entry>
+    <entry key="Empty">Empty</entry>
+    <entry note="Example: 1x0 empty double row vector" key="EmptyRowVector">{0} empty {1} row vector</entry>
+    <entry note="Example: 0x1 empty double column vector" key="EmptyColumnVector">{0} empty {1} column vector</entry>
+    <entry note="Example: 2x0 empty double matrix" key="EmptyMatrix">{0} empty {1} matrix</entry>
+    <entry note="Example: 1x0x1 empty double array" key="EmptyArray">{0} empty {1} array</entry>
+    <entry note="Example: 1x2 int8 row vector" key="RowVector">{0} {1} row vector</entry>
+    <entry note="Example: 2x1 int8 column vector" key="ColumnVector">{0} {1} column vector</entry>
+    <entry note="Example: 2x2 int8 matrix" key="Matrix">{0} {1} matrix</entry>
+    <entry note="Example: 2x2x2 int8 array" key="Array">{0} {1} array</entry>
+    <entry note="Example: 1x0 empty sparse double row vector" key="EmptySparseRowVectorNoHyperlink">{0} empty sparse {1} row vector</entry>
+    <entry note="Example: 1x0 empty sparse double row vector" key="EmptySparseRowVector"><![CDATA[{0} empty <a href="matlab:helpPopup sparse" style="font-weight:bold">sparse</a> {1} row vector ]]></entry>
+    <entry note="Example: 0x1 empty sparse double column vector" key="EmptySparseColumnVectorNoHyperlink">{0} empty sparse {1} column vector</entry>
+    <entry note="Example: 0x1 empty sparse double column vector" key="EmptySparseColumnVector"><![CDATA[{0} empty <a href="matlab:helpPopup sparse" style="font-weight:bold">sparse</a> {1} column vector ]]></entry>
+    <entry note="Example: 2x0 empty sparse double matrix" key="EmptySparseMatrixNoHyperlink">{0} empty sparse {1} matrix</entry>
+    <entry note="Example: 2x0 empty sparse double matrix" key="EmptySparseMatrix"><![CDATA[{0} empty <a href="matlab:helpPopup sparse" style="font-weight:bold">sparse</a> {1} matrix ]]></entry>
+    <entry note="Example: 2x0 empty sparse logical array" key="EmptySparseArrayNoHyperlink">{0} empty sparse {1} array</entry>
+    <entry note="Example: 2x0 empty sparse logical array" key="EmptySparseArray"><![CDATA[{0} empty <a href="matlab:helpPopup sparse" style="font-weight:bold">sparse</a> {1} array ]]></entry>
+    <entry note="Example: sparse logical" key="SparseLogicalScalarNoHyperlink">sparse {0}</entry>
+    <entry note="Example: sparse logical" key="SparseLogicalScalar"><![CDATA[<a href="matlab:helpPopup sparse" style="font-weight:bold">sparse</a> {0}]]></entry>
+    <entry note="Example: 1x2 sparse logical array" key="SparseLogicalVectorNoHyperlink">{0} sparse {1} array</entry>
+    <entry note="Example: 1x2 sparse logical array" key="SparseLogicalVector"><![CDATA[{0} <a href="matlab:helpPopup sparse" style="font-weight:bold">sparse</a> {1} array]]></entry>
+    <entry note="Example: struct with fields:" key="ScalarStructWithFields">{0} with fields:</entry>
+    <entry note="Example: 1x2 struct array with fields:" key="StructVectorWithFields">{0} {1} array with fields:</entry>
+    <entry note="Example: 0x1 empty struct array with fields:" key="EmptyStructWithFields">{0} empty {1} array with fields:</entry>
+    <entry note="Example: struct with no fields." key="ScalarStructWithNoFields">{0} with no fields.</entry>
+    <entry note="Example: 1x2 struct array with no fields." key="StructVectorWithNoFields">{0} {1} array with no fields.</entry>
+    <entry note="Example: 1x0 empty struct array with no fields." key="EmptyStructVectorWithNoFields">{0} empty {1} array with no fields.</entry>
+    <entry note="Example: function_handle with value:" key="ScalarFunctionHandle">{0} with value:</entry>
+    <entry note="Example: 0x0 empty table" key="EmptyTabular">{0} empty {1}</entry>
+    <entry note="Example: Value must be sparse" key="mustBeSparse">Value must be sparse.</entry>    
+    <entry note="Example: Value must be complex" key="mustBeComplex">Value must be complex.</entry>
+    <entry note="Example: 0x0 empty complex double matrix" key="EmptyComplexMatrixNoHyperlink">{0} empty complex {1} matrix</entry>
+    <entry note="Example: 0x0 empty complex double matrix" key="EmptyComplexMatrix"><![CDATA[{0} empty <a href="matlab:helpPopup complex" style="font-weight:bold">complex</a> {1} matrix]]></entry>
+    <entry note="Example: 0x0 empty complex double row vector" key="EmptyComplexRowVectorNoHyperlink">{0} empty complex {1} row vector</entry>
+    <entry note="Example: 0x0 empty complex double row vector" key="EmptyComplexRowVector"><![CDATA[{0} empty <a href="matlab:helpPopup complex" style="font-weight:bold">complex</a> {1} row vector]]></entry>
+    <entry note="Example: 0x0 empty complex double column vector" key="EmptyComplexColumnVectorNoHyperlink">{0} empty complex {1} column vector</entry>
+    <entry note="Example: 0x0 empty complex double column vector" key="EmptyComplexColumnVector"><![CDATA[{0} empty <a href="matlab:helpPopup complex" style="font-weight:bold">complex</a> {1} column vector]]></entry>
+    <entry note="Example: 0x0 empty complex double array" key="EmptyComplexArrayNoHyperlink">{0} empty complex {1} array</entry>
+    <entry note="Example: 0x0 empty complex double array" key="EmptyComplexArray"><![CDATA[{0} empty <a href="matlab:helpPopup complex" style="font-weight:bold">complex</a> {1} array]]></entry>
+    <entry note="Example: 0x0 empty sparse complex double matrix" key="EmptySparseComplexMatrixNoHyperlink">{0} empty sparse complex {1} matrix</entry>
+    <entry note="Example: 0x0 empty sparse complex double matrix" key="EmptySparseComplexMatrix"><![CDATA[{0} empty <a href="matlab:helpPopup sparse" style="font-weight:bold">sparse</a> <a href="matlab:helpPopup complex" style="font-weight:bold">complex</a> {1} matrix]]></entry>
+    <entry note="Example: 0x0 empty sparse complex double row vector" key="EmptySparseComplexRowVectorNoHyperlink">{0} empty sparse complex {1} row vector</entry>
+    <entry note="Example: 0x0 empty sparse complex double row vector" key="EmptySparseComplexRowVector"><![CDATA[{0} empty <a href="matlab:helpPopup sparse" style="font-weight:bold">sparse</a> <a href="matlab:helpPopup complex" style="font-weight:bold">complex</a> {1} row vector]]></entry>
+    <entry note="Example: 0x0 empty sparse complex double column vector" key="EmptySparseComplexColumnVectorNoHyperlink">{0} empty sparse complex {1} column vector</entry>
+    <entry note="Example: 0x0 empty sparse complex double column vector" key="EmptySparseComplexColumnVector"><![CDATA[{0} empty <a href="matlab:helpPopup sparse" style="font-weight:bold">sparse</a> <a href="matlab:helpPopup complex" style="font-weight:bold">complex</a> {1} column vector]]></entry>
+  </message>
+</rsccat>

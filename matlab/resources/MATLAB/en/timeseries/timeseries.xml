@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="noarray">The timeseries constructor cannot be called on arrays of timeseries objects</entry>
+    <entry key="loadObjectNoReshapeWarning">The IsTimeFirst property is now calculated and differs from the saved representation.</entry>
+    <entry key="loadObjectWarning">The loaded timeseries data has been reshaped to be a matrix since the saved IsTimeFirst property of the timeseries was true.</entry>
+    <entry key="invalidDataInfo">Invalid value for DataInfo property of the timeseries</entry>
+    <entry key="invalidTimeInfo">Invalid value for TimeInfo property of the timeseries</entry>
+  </message>
+</rsccat>

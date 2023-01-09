@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="cannotClearWhenAllEnabled">모든 식별자에 대해 설정이 활성화되면 ''{1}''에 대한 ''{0}'' 설정을 지울 수 없습니다. 모든 식별자에 대한 설정을 지우려면 ''{2}''을(를) 사용하십시오.</entry>
+    <entry key="dbNameNotSpecified">파일 이름을 지정해야 합니다.</entry>
+  </message>
+</rsccat>

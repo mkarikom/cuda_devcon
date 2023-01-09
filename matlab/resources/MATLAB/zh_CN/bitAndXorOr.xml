@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="operandsNotNumeric">BIT Ops 的操作数必须为数值。</entry>
+    <entry key="complexOperands">位 AND/OR/XOR 不接受复数操作数。</entry>
+    <entry key="mixedClasses">输入必须是同类的带符号的整数、无符号整数或者标量双精度值。</entry>
+    <entry key="sizeMismatch">各个输入的大小必须相同。</entry>
+    <entry key="sparseArgs">输入必须为满矩阵。</entry>
+    <entry key="outOfRangeMixedType"> 双精度输入与整数输入混合使用时，必须包含整数范围内的整数值。</entry>
+    <entry key="outOfRange">双精度输入必须包含 ASSUMEDTYPE 范围内的整数值。</entry>
+    <entry key="unknownTypeString">ASSUMEDTYPE 必须为整数类型名称。</entry>
+    <entry key="invalidTypeString">不能将整数输入假定为其自己类型以外的任何其他类型。</entry>
+  </message>
+</rsccat>

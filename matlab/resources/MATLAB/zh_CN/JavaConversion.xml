@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ColorOrderMustHaveOneElement">ColorOrder 必须包含至少一个元素</entry>
+    <entry key="InvalidColorOrder">ColorOrder 的值无效</entry>
+    <entry key="NullColorOrder">NULL 不是 ColorOrder 的有效值</entry>
+    <entry key="InvalidFontName">字体名称无效</entry>
+    <entry key="ArraySizeMustEqual2">数组大小不等于 2: {0}</entry>
+    <entry key="EmptyArrayInvalid">空数组不是有效值</entry>
+    <entry key="InvalidTickLength">TickLength 的值无效</entry>
+    <entry key="MonotonicallyIncrease">值必须单调增加</entry>
+    <entry key="NullEnumerated">NULL 不是具有枚举类型 {0} 的对象的有效值</entry>
+    <entry key="InputMustNotBeNull">在文件 {1} 的第 {2} 行中，{0} 的输入参数不能为 NULL</entry>
+    <entry key="InputParameterInstance">输入参数必须为 {0} 的实例</entry>
+    <entry key="InputParameterInstanceFile">在文件 {1} 的第 {2} 行中，输入参数必须为 {0} 的实例</entry>
+    <entry key="InvalidStyle">{0} 的样式无效: 文件 {2} 的第 {3} 行中的 {1}</entry>
+    <entry key="InvalidValue">值无效: NULL</entry>
+    <entry key="InvalidValueFor">{0} 类型的值无效: NULL</entry>
+    <entry key="JNIClassNotFound">JNI 在文件 {1} 的第 {2} 行中找不到类 {0}。</entry>
+    <entry key="JNIFailedCallingMethod">JNI 无法调用文件 {2} 的第 {3} 行中类 {1} 的方法 {0}。</entry>
+  </message>
+</rsccat>

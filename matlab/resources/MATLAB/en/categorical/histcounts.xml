@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NonCategoricalX">Invalid data type. First argument must be a categorical array.</entry>
+    <entry key="OrdinalCategoriesMismatch">When X and CATEGORIES are both ordinal arrays, they must have the same categories in the same order.</entry>
+    <entry key="OrdinalMismatch">X and CATEGORIES must both be ordinal or not ordinal.</entry>
+    <entry key="RepeatedCategories">Categories argument contains repeated names.</entry>
+    <entry key="UnrecognizedCategories">Categories argument must be a subset of data categories, for ordinal data.</entry>
+  </message>
+</rsccat>

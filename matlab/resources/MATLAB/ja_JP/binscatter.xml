@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNameValueMismatch">後続の入力引数は名前と値のペアでなければなりません。</entry>
+    <entry key="MixedTallData">X と Y は、両方とも tall 配列であるか、両方ともメモリ内配列でなければなりません。</entry>
+    <entry key="InvalidDatetimeOrDurationXLimits">XLimits は、並べ替えられた 2 要素の有限配列でなければならず、また、X データと同じクラスでなければなりません。</entry>
+    <entry key="InvalidDatetimeOrDurationYLimits">YLimits は、並べ替えられた 2 要素の有限配列でなければならず、また、Y データと同じクラスでなければなりません。</entry>
+    <entry key="InvalidTallData">tall 入力は実数の列ベクトルでなければなりません。</entry>
+    <entry key="NonEmptyNumBinsAutoMode">''NumBinsMode'' が ''auto'' に設定されている場合、''NumBins'' は設定できません。</entry>
+    <entry key="NonEmptyXLimitsAutoMode">''XLimitsMode'' が ''auto'' に設定されている場合、''XLimits'' は設定できません。</entry>
+    <entry key="NonEmptyYLimitsAutoMode">''YLimitsMode'' が ''auto'' に設定されている場合、''YLimits'' は設定できません。</entry>
+    <entry key="EmptyNumBinsManualMode">''NumBinsMode'' が ''manual'' に設定されている場合は、''NumBins'' を設定しなければなりません。</entry>
+    <entry key="EmptyXLimitsManualMode">''XLimitsMode'' が ''manual'' に設定されている場合は、''XLimits'' を設定しなければなりません。</entry>
+    <entry key="EmptyYLimitsManualMode">''YLimitsMode'' が ''manual'' に設定されている場合は、''YLimits'' を設定しなければなりません。</entry>
+    <entry key="BinCounts">ビンのカウント数</entry>
+  </message>
+</rsccat>

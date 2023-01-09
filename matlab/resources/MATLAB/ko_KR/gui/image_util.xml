@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NullData">입력 인수 XData 또는 YData가 NULL입니다.</entry>
+    <entry key="UnsupportedClass">입력 인수 XData 또는 YData가 지원되지 않는 클래스로 정의되어 있습니다. 입력값은 숫자형이어야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInputType">数据类型无效。第一个参数必须为双精度值、单精度值、int8、uint8、int16、uint16、int32、uint32 或逻辑值。</entry>
+    <entry key="InvalidSecondInputType">数据类型无效。第二个参数必须为双精度值、单精度值、int8、uint8、int16、uint16、int32、uint32 或逻辑值。</entry>
+    <entry key="UnknInput">定标选项必须为 ''biased''、''unbiased''、''normalized'' 或 ''none''。</entry>
+    <entry key="BMustBeVector">第二个参数必须为向量。</entry>
+    <entry key="MismatchedAB">第一个参数必须为向量。</entry>
+    <entry key="MaxLagMustBeScalar">最大滞后必须为标量。</entry>
+    <entry key="MaxLagMustBeInteger">最大滞后必须为整数。</entry>
+    <entry key="NoScale">对于不同长度的输入向量，缩放选项必须为 ''none''。</entry>
+    <entry key="DimChangeNotSupported">要进行代码生成，运算维度必须保持不变。当 {0} 为向量输入时，请考虑传入 {0}(:) 或 {0}(:).'。</entry>
+  </message>
+</rsccat>

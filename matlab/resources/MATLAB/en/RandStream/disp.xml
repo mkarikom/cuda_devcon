@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="Header">{0} random stream</entry>
+    <entry key="HeaderGlobal">{0} random stream (current global stream)</entry>
+    <entry key="LegacyAlgs">RAND algorithm: {0}, RANDN algorithm: {1}</entry>
+    <entry key="V4UniformDescription">V4 (Congruential)</entry>
+    <entry key="V5UniformDescription">V5 (Subtract-with-Borrow)</entry>
+    <entry key="V7p4UniformDescription" translate="false" note="TranslateFalseBatch;">V7.4 (Mersenne Twister)</entry>
+    <entry key="V4NormalDescription" translate="false" note="TranslateFalseBatch;">V4 (Polar)</entry>
+    <entry key="V5NormalDescription" translate="false" note="TranslateFalseBatch;">V5 (Ziggurat)</entry>
+  </message>
+</rsccat>

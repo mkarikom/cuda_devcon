@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RHSVectorAllZero">우변 벡터가 모두 0입니다. {0}이(가)\n반복하지 않고 모든 0의 해를 반환했습니다.</entry>
+    <entry key="InitialGuessHasRelativeWithinTol">초기 추측값에 상대 잔차 {0}이(가) 있으며, 이는 기대한 허용오차 {1} 내에 있으므로,\n{2}이(가) 반복하지 않고 해당 값을 반환했습니다.</entry>
+    <entry key="ConvergedWithRelativeResidual">{0}이(가) {1}에서 해로 수렴했습니다(상대 잔차: {2}).</entry>
+    <entry key="IterateReturnedHasRelativeResidual">반환된 반복 {0}의 상대 잔차는 {1}입니다.</entry>
+    <entry key="OuterIteration">외부 반복 {0,number,integer}(내부 반복 {1,number,integer})</entry>
+    <entry key="NumberIntParen">(번호 {0,number,integer}({1,number,integer}))</entry>
+    <entry key="IterationFloat">반복 {0}</entry>
+    <entry key="NumberFloat">(번호 {0})</entry>
+    <entry key="IterationInteger">반복 {0,number,integer}</entry>
+    <entry key="NumberInteger">(번호 {0,number,integer})</entry>
+    <entry key="StoppedScalarTooSmallOrLarge">스칼라의 양이 너무 작거나 너무 커져서 계산을 계속할 수 없었기 때문에\n{0}이(가) 기대한 허용오차 {2}(으)로 수렴하지 않고 {1}에서 중지되었습니다.</entry>
+    <entry key="StoppedMethodStagnated">메서드가 정체되었기 때문에 {0}이(가) 기대한 허용오차 {2}(으)로\n수렴하지 않고 {1}에서 중지되었습니다.</entry>
+    <entry key="StoppedMaxIterations">최대 반복 횟수에 도달했기 때문에 {0}이(가) 기대한 허용오차 {2}(으)로\n수렴하지 않고 {1}에서 중지되었습니다.</entry>
+    <entry key="StoppedPreconditionerSystemIllCond">선조건자(Preconditioner)를 포함한 시스템의 상태가 불안정하여\n{0}이(가) 기대한 허용오차 {2}(으)로 수렴하지 않고 {1}에서 중지되었습니다.</entry>
+    <entry key="StoppedPreconditionerNotSymPosDef">선조건자(Preconditioner)가 양의 정부호 대칭 행렬이 아니기 때문에 {0}이(가)\n기대한 허용오차 {2}(으)로 수렴하지 않고 {1}에서 중지되었습니다.</entry>
+  </message>
+</rsccat>

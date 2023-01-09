@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadMatrix">图像 CData 需要数值或逻辑矩阵。</entry>
+    <entry key="BadSize">索引 CData 的大小必须为 m×n。真彩色 CData 的大小必须为 m×n×3。</entry>
+    <entry key="BadType">图像 CData 不能是复数。</entry>
+    <entry key="ElementOutOfRange">真彩色 CData 包含超出 0.0 &lt;= 值 &lt;= 1.0 这一范围的元素。</entry>
+    <entry key="BadAlphaDataDimensions">AlphaData 的维度必须为 1x1，或者必须与 CData 匹配。</entry>
+    <entry key="ImageDestroyed">创建期间图像被破坏。</entry>
+    <entry key="CDataNotValid">图像 CData 无效。</entry>
+    <entry key="ExpectedVectors">图像 X 和 Y 必须为向量。</entry>
+    <entry key="BadArguments">参数的数目不正确。</entry>
+    <entry key="BadCDataSize">颜色数据必须为 m×n×3 或 m×n 矩阵。</entry>
+    <entry key="BadCDataMatrix">颜色数据必须为数值或逻辑值。</entry>
+    <entry key="BadCDataComplex">不支持复数值。请将颜色数据指定为数值或逻辑值。</entry>
+    <entry key="CDataElementOutOfRange">图像 TrueColor CData 超出范围。</entry>
+    <entry key="ExpectedXYDataVectors">图像 XData 和 YData 必须为向量。</entry>
+  </message>
+</rsccat>

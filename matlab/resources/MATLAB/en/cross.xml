@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="dimensionMustBePositiveInteger">Dimension argument must be a positive integer scalar.</entry>
+    <entry key="InputSizeMismatch">A and B must be same size.</entry>
+    <entry key="InvalidDimAorB">A and B must have at least one dimension of length 3.</entry>
+    <entry key="InvalidDimAorBForCrossProd">A and B must be of length 3 in the dimension in which the cross product is taken.</entry>
+  </message>
+</rsccat>

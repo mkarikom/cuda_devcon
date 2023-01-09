@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="indexOutOfRange">メンバー インデックスは、1 と tscollection メンバーの総数の間の整数でなければなりません。</entry>
+    <entry key="notMember">一部の指定された時系列が tscollection メンバーではありません。</entry>
+    <entry key="depthExceedsTwo">部分参照の深さは 2 を超えることはできません。</entry>
+    <entry key="badSep">コロン演算子か数値インデックスを使用して時系列内のサンプルを指定してください。</entry>
+    <entry key="badIndex">各時間インデックスは 1 から tscollection までの長さの整数でなければなりません。</entry>
+  </message>
+</rsccat>

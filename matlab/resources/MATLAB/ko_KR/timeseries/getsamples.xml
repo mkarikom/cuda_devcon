@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">getsamples 메서드는 단일 timeseries 객체에 대해서만 사용할 수 있음</entry>
+    <entry key="badlogicalsubscript">논리형 인덱스가 시간 벡터 길이를 초과합니다.</entry>
+    <entry key="badsubscript">인덱스는 시간 벡터 길이를 초과하지 않는 양의 정수여야 합니다.</entry>
+    <entry key="badind">첨자/인덱스 배열은 논리형 또는 양의 정수로 구성된 벡터로 시간 벡터 길이를 초과해서는 안됩니다.</entry>
+  </message>
+</rsccat>

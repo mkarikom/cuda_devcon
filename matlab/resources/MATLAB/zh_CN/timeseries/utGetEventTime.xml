@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noEvents">该时序对象没有事件。</entry>
+    <entry key="noTime">utGetEventTime 的第二个参数必须为有效的事件名称。</entry>
+    <entry key="invOption">选项属性无效</entry>
+  </message>
+</rsccat>

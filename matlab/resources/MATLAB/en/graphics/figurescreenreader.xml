@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!-- Copyright 2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="FigureDescriptionNumNoChildren">figure {0,number,integer} with no handle-visible children.</entry>
+    <entry key="FigureDescriptionNumWithChildren">figure {0,number,integer} with children of type {1}.</entry>
+    <entry key="FigureDescriptionNumWithMultipleAxes">figure {0,number,integer} with {1,number,integer} axes objects.</entry>
+    <entry key="FigureDescriptionNumWithSingleAxes">figure {0,number,integer}.</entry>
+    <entry key="FigureDescriptionNoNumNoChildren">figure with no handle-visible children.</entry>
+    <entry key="FigureDescriptionNoNumWithChildren">figure with children of types {0}.</entry>
+    <entry key="FigureDescriptionNoNumWithMultipleAxes">figure with {0,number,integer} axes objects.</entry>
+    <entry key="FigureDescriptionNoNumWithSingleAxes">figure.</entry>
+    <entry key="FigureDescriptionNamedNoChildren">{0} figure with no handle-visible children.</entry>
+    <entry key="FigureDescriptionNamedWithChildren">{0} figure with children of types {1}.</entry>
+    <entry key="FigureDescriptionNamedWithMultipleAxes">{0} figure with {1,number,integer} axes objects.</entry>
+    <entry key="FigureDescriptionNamedWithSingleAxes">{0} figure.</entry>
+    <entry key="UntitledCurrentAxesDescriptionEmpty">The current axes object is empty</entry>
+    <entry key="UntitledCurrentAxesDescriptionNonEmpty">The current axes object contains {0,number,integer} objects of type {1}</entry>
+    <entry key="TitledCurrentAxesDescriptionEmpty">The current axes object {0} is empty</entry>
+    <entry key="TitledCurrentAxesDescriptionNonEmpty">The current axes object {0} contains {1,number,integer} objects of type {2}</entry>
+    <entry key="ChartWithType">The current chart has type {0}</entry>    
+    <entry key="EmptyFigure">Empty figure.</entry>
+    <entry key="UnnamedFigureSingleAxes">Figure contains an axes object.</entry>
+    <entry key="UnnamedFigureMultipleAxes">Figure contains {0,number,integer} axes objects.</entry>  
+    <entry key="UnnamedFigureNonAxesChildrenMultipleAxes">Figure contains {0,number,integer} axes objects and other objects of type {1}.</entry>
+    <entry key="UnnamedFigureSingleNonAxesChildMultipleAxes">Figure contains {0,number,integer} axes objects and another object of type {1}.</entry>
+    <entry key="UnnamedFigureNonAxesChildrenSingleAxes">Figure contains an axes object and other objects of type {0}.</entry>
+    <entry key="UnnamedFigureSingleNonAxesChildrenSingleAxes">Figure contains an axes object and an object of type {0}.</entry>
+    <entry key="UnnamedFigureNoAxesWithOtherChildren">Figure contains objects of type {0}.</entry>
+    <entry key="UnnamedFigureNoAxesWithOneOtherChild">Figure contains an object of type {0}.</entry>  
+    <entry key="NamedFigureSingleAxes">Figure {0} contains an axes object.</entry>
+    <entry key="NamedFigureMultipleAxes">Figure {0} contains {1,number,integer} axes objects.</entry>
+    <entry key="NamedFigureNonAxesChildrenMultipleAxes">Figure {0} contains {1,number,integer} axes objects and other objects of type {2}.</entry>
+    <entry key="NamedFigureSingleNonAxesChildMultipleAxes">Figure {0} contains {1,number,integer} axes objects and another object of type {2}.</entry>
+    <entry key="NamedFigureNonAxesChildrenSingleAxes">Figure {0} contains an axes object and other objects of type {1}.</entry>    
+    <entry key="NamedFigureSingleNonAxesChildSingleAxes">Figure {0} contains an axes object and another object of type {1}.</entry> 
+    <entry key="NamedFigureNoAxesWithOtherChildren">Figure {0} contains objects of type {1}.</entry>
+    <entry key="NamedFigureNoAxesWithOneOtherChild">Figure {0} contains an object of type {1}.</entry>    
+    <entry key="UntitledSingleAxesDescriptionEmpty">The axes object is empty.</entry>
+    <entry key="UntitledSingleAxesDescriptionNonEmpty">The axes object contains {0,number,integer} objects of type {1}.</entry>
+    <entry key="UntitledSingleAxesDescriptionSingleObject">The axes object contains an object of type {0}.</entry>
+    <entry key="UntitledSingleChartWithType">The axes object contains a chart of type {0}.</entry> 
+    <entry key="TitledSingleAxesDescriptionEmpty">The axes object with title {0} is empty.</entry>
+    <entry key="TitledSingleAxesDescriptionNonEmpty">The axes object with title {0} contains {1,number,integer} objects of type {2}.</entry>
+    <entry key="TitledSingleAxesDescriptionSingleObject">The axes object with title {0} contains an object of type {1}.</entry>    
+    <entry key="TitledSingleChart">The chart of type {0} has title {1}.</entry>   
+    <entry key="UntitledMultipleAxesDescriptionEmpty">Axes object {0,number,integer} is empty.</entry>
+    <entry key="UntitledMultipleAxesDescriptionNonEmpty">Axes object {0,number,integer} contains {1,number,integer} objects of type {2}.</entry>
+    <entry key="UntitledMultipleAxesDescriptionSingleObject">Axes object {0,number,integer} contains an object of type {1}.</entry>
+    <entry key="UntitledMultipleChartWithType">Axes object {0,number,integer} is a chart of type {1}.</entry>
+    <entry key="TitledMultipleAxesDescriptionEmpty">Axes object {0,number,integer} with title {1} is empty.</entry>
+    <entry key="TitledMultipleAxesDescriptionNonEmpty">Axes object {0,number,integer} with title {1} contains {2,number,integer} objects of type {3}.</entry>
+    <entry key="TitledMultipleAxesDescriptionSingleObject">Axes object {0,number,integer} with title {1} contains an object of type {2}.</entry>
+    <entry key="TitledMultipleChartWithType">Axes object {0,number,integer} with title {1} is a chart of type {2}.</entry>    
+    <entry key="AxesNamedChildren">These objects represent {0}.</entry>
+    <entry key="AxesNamedSingleChild">This object represents {0}.</entry>
+  </message>
+</rsccat>

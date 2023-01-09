@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FirstInputMustBeFigHandle">첫 번째 인수는 Figure의 핸들이어야 합니다.</entry>
+    <entry key="SecondInputMustBeString">두 번째 인수는 string형 스칼라이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="CopyToClipboardNotSupported">이 플랫폼에서는 클립보드에 복사하는 기능이 지원되지 않습니다.</entry>
+    <entry key="ParameterMustBeString">선택적 파라미터 이름은 string형 스칼라이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="InvalidPreviewAction">Preview는 ''none'' 또는 ''tiff''여야 합니다.</entry>
+    <entry key="WidthMustBePositiveScalar">Width는 0보다 큰 숫자형 스칼라여야 합니다.</entry>
+    <entry key="HeightMustBePositiveScalar">Height는 0보다 큰 숫자형 스칼라여야 합니다.</entry>
+    <entry key="InvalidColor">Color는 ''bw'', ''gray'', ''rgb'', ''cmyk'' 중 하나여야 합니다.</entry>
+    <entry key="InvalidFontMode">FontMode는 ''scaled'', ''fixed'', ''none'' 중 하나여야 합니다.</entry>
+    <entry key="InvalidScaledFontSize">ScaledFontSize는 0보다 큰 숫자형 스칼라여야 합니다.</entry>
+    <entry key="InvalidFixedFontSize">FixedFontSize는 0보다 큰 숫자형 스칼라여야 합니다.</entry>
+    <entry key="InvalidFontSizeMin">FontSizeMin은 0보다 큰 숫자형 스칼라여야 합니다.</entry>
+    <entry key="InvalidFontNameInput">FontName은 string형 스칼라이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="InvalidFontWeightInput">'FontWeight' 값은 ''normal'' 또는 ''bold''여야 합니다.</entry>
+    <entry key="InvalidFontAngleInput">'FontAngle' 값은 ''normal'' 또는 ''italic''이어야 합니다.</entry>
+    <entry key="InvalidFontEncodingType">FontEncoding은 ''latin1'' 또는 ''adobe''여야 합니다.</entry>
+    <entry key="InvalidPSLevelInput">PSlevel은 2 또는 3이어야 합니다.</entry>
+    <entry key="InvalidLineModeInput">LineMode은 ''scaled'', ''fixed'', ''none'' 중 하나여야 합니다.</entry>
+    <entry key="InvalidScaleLineWidth">ScaledLineWidth는 0보다 큰 숫자형 스칼라여야 합니다.</entry>
+    <entry key="InvalidFixedLineWidth">FixedLineWidth는 0보다 큰 숫자형 스칼라여야 합니다.</entry>
+    <entry key="InvalidLinWidthMinInput">LineWidthMin은 0보다 큰 숫자형 스칼라여야 합니다.</entry>
+    <entry key="InvalidRendererInput">Renderer는 ''painters'' 또는 ''opengl''이어야 합니다.</entry>
+    <entry key="InvalidResolution">Resolution은 0보다 크거나 같은 숫자형 스칼라여야 합니다.</entry>
+    <entry key="InvalidBounds">Bounds는 ''tight'' 또는 ''loose''여야 합니다.</entry>
+    <entry key="InvalidLockAxesInput">LockAxes는 ''on'' 또는 ''off''여야 합니다.</entry>
+    <entry key="InvalidLockAxesTicksInput">LockAxesTicks는 ''on'' 또는 ''off''여야 합니다.</entry>
+    <entry key="InvalidShowUIInput">ShowUI는 ''on'' 또는 ''off''여야 합니다.</entry>
+    <entry key="InvalidSeparateTextInput">Separatetext는 ''on'' 또는 ''off''여야 합니다.</entry>
+    <entry key="UnknownOption">인식할 수 없는 옵션임: {0}</entry>
+    <entry key="SkippingStylemap">stylemap 건너뜁니다. {0}</entry>
+    <entry key="InvalidColorParam">유효하지 않은 Color 파라미터임</entry>
+    <entry key="InvalidFontModeParam">유효하지 않은 FontMode 파라미터임</entry>
+    <entry key="StyleNotFound">스타일 ''{0}''이(가) 존재하지 않습니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidNumberOfInputs">入力引数の数が正しくありません</entry>
+    <entry key="NoSuchFile">ファイル {0} は存在しません。</entry>
+    <entry key="GSNoBoundingBox">新しい BoundingBox を特定できません。</entry>
+    <entry key="ParameterFileCreation">パラメーター ファイルを作成できません。</entry>
+    <entry key="FileUpdateFailure">ファイル {0} の BoundingBox の設定を変更できません。</entry>
+  </message>
+</rsccat>

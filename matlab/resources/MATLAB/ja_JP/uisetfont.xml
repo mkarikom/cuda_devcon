@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManyInputs">入力引数が多すぎます。</entry>
+    <entry key="InvalidParameterList">タイトルは 2 番目の引数でなければなりません</entry>
+    <entry key="InvalidTitleType">タイトルは文字ベクトル タイプでなければなりません</entry>
+    <entry key="InvalidFirstParameter">最初の引数は、ハンドル、構造体、またはタイトルの文字ベクトルでなければなりません</entry>
+    <entry key="NoFontProperties">このオブジェクトでフォント プロパティが見つかりませんでした。</entry>
+  </message>
+</rsccat>

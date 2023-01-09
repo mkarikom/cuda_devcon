@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <entry key="AppDesigner">App Designer</entry>
+        <entry key="StartPage">App Designer Start Page</entry>
+        <entry key="AppDesignerStartFailed">Unable to start App Designer due to an internal error. \n\n {0}</entry>
+        <entry key="InvalidFileExtension">''{0}'' file type must be a MATLAB App (*.mlapp).</entry>
+        <entry key="InvalidFileExtensionCase">''{0}'' file type must be a MATLAB App (*.mlapp).  The extension is case sensitive.</entry>
+        <entry key="InvalidGeneralFileExtension">File ''{0}'' must have a {1} extension</entry>
+        <entry key="InvalidExportFileExtension">Apps must be exported to MATLAB code files (*.m).</entry>
+        <entry key="InvalidFileName">File ''{0}'' not found.</entry>
+        <entry key="InvalidFilePath">Invalid file path.</entry>
+        <entry key="InvalidInput">The input argument must be a full or partial file path, or a file name.</entry>
+        <entry key="NotWritableLocation">Error writing {0}.\nCheck if directory is read-only, or has been removed or deleted.</entry>
+        <entry key="ReadOnlyFile">Error writing ''{0}''.\nFile is read-only.</entry>
+        <entry key="SaveFailedMATLABCode">Error saving the code to ''{0}''.</entry>
+        <entry key="SaveFailedAppData">Error saving component and code data to ''{0}''.</entry>
+        <entry key="SaveFailedAppMetaData">Error saving metadata to ''{0}''.</entry>
+        <entry key="SaveFailedAppScreenShot">Error saving the screen shot to ''{0}''.</entry>
+        <entry key="SaveFailed">Error saving ''{0}''.</entry>        
+        <entry key="LoadFailed">Error loading ''{0}''.</entry>
+		<entry key="RunFailedFileNotFound">Error running ''{0}''.\n{1} not found.</entry>
+        <entry key="TransferOfDataFailed">Data was not captured properly from ''{0}''.</entry>
+        <entry key="NotReadableLocation">{0} is not a readable location.</entry>
+        <entry key="InvalidFolder">Issue with folder {0}: {1}.</entry>
+        <entry key="FileNameFailsIsVarName" note="The word letter is to mean an English ASCII character">File name ''{0}'' must start with a letter, contain only letters, numbers and underscores, and be shorter than 63 characters.</entry>
+        <entry key="FileNameFailsIsKeyword">Name cannot be a MATLAB keyword.  Rename file, and then open.</entry>
+        <entry key="BrowserNotFound">Unable to open Web browser to {0}.</entry>
+        <entry key="UnsupportedBrowser">App Designer is not supported in this browser. Use Google Chrome.</entry>
+        <entry key="CompileAppError">Compile App Error</entry>
+        <entry key="CompileAppFolderNotWritable">Unable to create compiler project file ''{0}''.</entry>
+        <entry key="CompileAppFailed">Cannot compile ''{0}''.\nUnknown compiler error.</entry>
+        <entry key="CompileAppCompileFileNotFound">Unable to find compiler project file ''{0}''.</entry>
+        <entry key="PackageAppFolderNotWritable">Cannot package ''{0}''.\nFolder does not have write permissions.</entry>
+        <entry key="PackageAppFailed">Cannot package ''{0}''.\nUnknown packaging error.</entry>
+        <entry key="PackageAppPackageFileNotFound">Cannot package ''{0}''.\nThe package file could not be found.</entry>
+        <entry key="UnknownComponentType">Cannot create callback on component of type ''{0}''. Unknown component type.</entry>
+        <entry key="UnknownCallbackProperty">Cannot create callback on component of type ''{0}''.  Unknown property ''{1}''.</entry>
+        <entry key="IncompatibleAppVersion" note="hole is for MATLAB Release">This app contains features that are not supported in this release. It can only be edited with {0} or later versions of MATLAB.</entry>
+        <entry key="CovertAppFailedIncompatibleAppVersion" note="hole is for MATLAB Release">This app contains features that are not supported in {0}, and cannot be converted. It can only be edited with {1} or later versions of MATLAB.</entry>
+        <entry key="SetInvalidSetting">Setting {0}.{1} cannot be set because it does not exist.</entry>
+        <entry key="SameNameAppRunning" note="hole is for app name">An app named ''{0}'' is already running. Please close it before running a different app with that name.</entry>
+        <entry key="AppNameShadowedByCWD" note="hole is full file name that shadows the app to run">App Designer cannot run the app because \n{0} shadows it in the current working folder.\n\nTo run the app, you must change the MATLAB current folder.</entry>
+        <entry key="TooFewAppArgumentsError">Cannot run with provided input arguments.</entry>
+        <entry key="MissingFile">The original app ''{0}'' is missing. If the file moved, close the app and then reopen it from the new location.</entry>				
+        <entry key="SaveObjWarning">Unable to save App Designer app object. Save not supported for matlab.apps.AppBase objects.</entry>
+        <entry key="LoadObjWarning">Unable to load App Designer app object. Load not supported for matlab.apps.AppBase objects.</entry>
+        <entry key="fileNotFoundOnMatlabPathWithSuggestion">The {0} file must be on the MATLAB path during app editing and app running.  Before using the file in App Designer, add it to the path with the ''addpath'' command.</entry>
+    </message>
+</rsccat>

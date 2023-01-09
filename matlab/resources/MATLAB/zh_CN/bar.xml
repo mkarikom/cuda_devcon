@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DuplicateXValue">XData 值必须是唯一的。</entry>
+    <entry key="lengthYDoesNotMatchNumRowsZ">Y 的长度必须与 Z 的行数匹配。</entry>
+    <entry key="lengthZDoesNotMatchNumRowsY">Z 的长度必须与 Y 的行数匹配。</entry>
+    <entry key="YAndZLengthMismatch">Y 必须与 Z 的长度相同。</entry>
+    <entry key="ZAndYLengthMismatch">Z 的长度必须与 Y 的长度相同。</entry>
+    <entry key="YNotAVector">Y 必须为向量。</entry>
+    <entry key="ZNotAVector">Z 必须为向量。</entry>
+    <entry key="NoDataInputs">必须提供 Y 数据或 X 和 Y 数据作为第一个参数。</entry>
+    <entry key="UnrecognizedOption">选项 "{0}" 无法识别。</entry>
+    <entry key="NonNumericHorizontalYYAxis">当条形图在多个 y 轴中具有日期时间、持续时间或分类值时，不支持更改 ''Horizontal'' 属性。</entry>
+    <entry key="NonNumericHorizontalType">当条形图具有日期时间、持续时间或分类值并且坐标区包含不同类型的图时，不支持更改 ''Horizontal'' 属性。</entry>
+    <entry key="InvalidCData">CData 必须为 RGB 三元组、标量、与 X 长度相同的 M×1 向量或 M×3 矩阵。</entry>
+    <entry key="Horizontal">不支持将 'Horizontal' 属性作为 barh 的输入。请改用 bar。</entry>
+    <entry key="InvalidStringOption">选项必须为字符向量、标量字符串数组，或者为包含字符向量的标量元胞数组。</entry>
+    <entry key="XDataSizeMismatch">XData 的大小必须与 YData 的大小相同。</entry>
+    <entry key="HistIgnoredInputs">''{0}'' 后的参数已被忽略。</entry>
+    <entry key="BarLayoutLabel">条形排列方式</entry>
+    <entry key="HorizontalLabel">水平条形图</entry>
+  </message>
+</rsccat>

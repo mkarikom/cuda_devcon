@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="HelpErrorPageNotFound">{0} not found.</entry>
+      <entry key="InvalidTopic">Invalid Documentation Topic: {0}</entry>
+      <entry key="DocNotInstalled">There is no installed product with this help location.\nDocumentation that is not associated with a product will not be displayed in the help browser.</entry>
+      <entry key="CreatedSearchDatabase">Successfully created search database.</entry>
+      <entry key="SpecifiedDirectoryDoesNotExist">The specified directory does not exist.</entry>
+      <entry key="CouldNotWriteSearchDatabase">Could not write search database.</entry>
+      <entry key="UnsupportedPlatform">{0} is not currently available.</entry>
+      <entry key="MustBeSingleString">String input must be scalar.</entry>
+      <entry key="FileDoesNotExist">{0} does not exist.</entry>
+      <entry key="PatchedDemoXmlFile">Successfully patched demos.xml file.</entry>
+      <entry key="NoCharDataInDemoXmlFile">No character data in demos.xml file.</entry>
+   </message>
+</rsccat>

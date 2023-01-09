@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NameForm">週の名前の書式は、short、long、shortloc、longloc のいずれかになります。</entry>
+    <entry key="ArgumentMustContainString">引数は文字ベクトルでなければなりません。</entry>
+    <entry key="InvalidLocale">Cannot obtain names of weekdays for current locale.</entry>
+  </message>
+</rsccat>

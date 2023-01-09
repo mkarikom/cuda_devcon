@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidFlags">选项无效。选项必须为 ''double''、''native''、''default'' 之一或者 ''omitnan''、''includenan'' 之一。</entry>
+    <entry key="nonNumericSecondInput">维度参数必须为正整数标量、由唯一正整数组成的向量或 'all'。</entry>
+  </message>
+</rsccat>

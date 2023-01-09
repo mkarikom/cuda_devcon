@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonExistentDirectory">无法将当前文件夹更改为 ''{0}'' ({1})。</entry>
+    <entry key="NonExistentFolder">无法将当前文件夹更改为 ''{0}'' (名称不存在或不是文件夹)。</entry>
+    <entry key="PermissionDenied">无法将当前文件夹更改为 ''{0}'' (文件夹权限被拒绝)。</entry>
+    <entry key="AccessFailure">无法将当前文件夹更改为 ''{0}'' (文件夹访问失败)。</entry>
+    <entry key="DirectoryNameTooLong">无法将当前文件夹更改为 ''{0}'' (文件夹名称太长)。</entry>
+    <entry key="FailedToCD">无法将当前文件夹更改为 ''{0}''。</entry>
+    <entry key="Path">路径</entry>
+    <entry key="CannotAccessStartupFolder">无法从不可访问的文件夹启动 MATLAB。\n为了启动 MATLAB，启动文件夹已更改为 MATLAB 安装文件夹。</entry>
+  </message>
+</rsccat>

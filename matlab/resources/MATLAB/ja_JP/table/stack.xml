@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CantStackTabularVariable">Stacking table or timetable variables is not supported. Use SPLITVARS to split ''{0}'' into multiple variables.</entry>
+    <entry key="ConflictingConstAndDataVars">スタックする変数セットには、定数としても指定されている変数を含めることはできません。</entry>
+    <entry key="ConflictingIndVarName">インデックス変数名 ''{0}'' は、結果中の別の変数名と競合します。</entry>
+    <entry key="ConflictingNewDataVarName">データ変数名 ''{0}'' は、結果中の別の変数名と競合します。</entry>
+    <entry key="ConflictingNewDataVarNames">The new data variable names conflict with other variable names in the result.</entry>
+    <entry key="InterleavingDataVarsFailed">データ変数 ''{0}'' をスタック中にエラーが発生しました。</entry>
+    <entry key="UnequalSizeDataVarsSets">All groups of variables to stack must be the same size.</entry>
+    <entry key="CantStackRowLabels">table の行名のスタックはサポートされていません。該当する行名を変数として含む table を作成してください。</entry>
+    <entry key="UndefOrMissingString">変数名 '&lt;undefined&gt;' または '&lt;missing&gt;' は、スタック テーブル内のインジケーター値にはできません。これらは、&lt;undefined&gt; categorical データとのあいまいさを避けるために categorical 値として許可されないためです。スタックを呼び出す前に変数名を変更してください。</entry>
+    <entry key="ScalarIndexName">インデックス変数名は、空でない文字ベクトルまたはスカラー string でなければなりません。</entry>
+    <entry key="NewDataVarNameLengthMismatch">名前と値のペア NEWDATAVARIABLENAME を使用して、{0} 個のスタックされたデータ変数に {0} 個の変数名を指定してください。</entry>
+    <entry key="NewDataVarNamesEmptyDataVars">スタックする変数がない場合、新しいデータ変数名は空でなければなりません。</entry>
+    <entry key="IndexVarNameEmptyDataVars">スタックする変数がない場合、指標変数名は空でなければなりません。</entry>
+    <entry key="NonConstantDataVars">The input argument that specifies the set of variables to stack must be constant.</entry>
+    <entry key="NonConstantArg">引数 ''ConstantVariables''、''NewDataVariableNames''、および ''IndexVariableName'' は定数でなければなりません。</entry>
+  </message>
+</rsccat>

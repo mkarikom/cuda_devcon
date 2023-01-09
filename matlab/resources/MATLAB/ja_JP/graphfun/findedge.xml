@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EdgeBounds">エッジ インデックスは、グラフ内のエッジ数 ({0}) 以下の正の整数でなければなりません。</entry>
+    <entry key="NoNodeNames">グラフにノード名が含まれていません。</entry>
+    <entry key="UnknownNodeName">''{0}'' という名前のノードはグラフに含まれていません。</entry>
+    <entry key="InconsistentNodeNames">ノード ID は両方とも数値であるか、両方ともノード名でなければなりません。</entry>
+    <entry key="maxLHS">出力引数が多すぎます。3 つの入力引数を使って呼び出された場合、findedge は 1 つの出力引数を返します。</entry>
+    <entry key="minLHS">この構文では 2 つの出力を使用しなければなりません。</entry>
+    <entry key="minRHS">入力引数が不足しています。</entry>
+    <entry key="nonNumericEdges">エッジ インデックスは数値でなければなりません。</entry>
+    <entry key="CodegenComplexEdges">Edge indices must be real.</entry>
+  </message>
+</rsccat>

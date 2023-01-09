@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidState">mcg16807 생성기에 유효하지 않은 상태입니다.</entry>
+    <entry key="InvalidParameter">mcg16807 생성기에는 파라미터가 허용되지 않습니다.</entry>
+    <entry key="MultipleStreams">다중 mcg16807 스트림은 지원되지 않습니다.</entry>
+  </message>
+</rsccat>

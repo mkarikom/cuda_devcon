@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CannotSetState">''on'', ''off'' 또는 ''query''와 조합하여 {0}을(를) 설정할 수 없습니다.</entry>
+    <entry key="CannotFreeze">''-freeze''와 조합하여 {0}을(를) 사용할 수 없습니다.</entry>
+    <entry key="CannotPause">Pause에는 숫자형 인수를 두 개 사용할 수 없습니다.</entry>
+    <entry key="PauseNoArgsNotSupported">비대화형 컨텍스트에서는 인수 없는 Pause가 지원되지 않습니다.</entry>
+  </message>
+</rsccat>

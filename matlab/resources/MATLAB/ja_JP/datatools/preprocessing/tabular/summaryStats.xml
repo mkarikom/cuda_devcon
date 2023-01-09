@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Min">最小値</entry>
+    <entry key="Max">最大値</entry>
+    <entry key="Mode">最頻値</entry>
+    <entry key="Mean">平均</entry>
+    <entry key="Median">中央値</entry>
+    <entry key="SD">標準偏差</entry>
+    <entry key="Missing">欠損のカウント</entry>
+    <entry key="Type">型</entry>
+    <entry key="Size">サイズ</entry>
+    <entry key="Unique">一意の値</entry>
+    <entry key="Duplicates">重複が存在</entry>
+    <entry key="Sorted">並べ替え済み</entry>
+    <entry key="DataType">データ型</entry>
+    <entry key="Regular">タイムスタンプは等間隔です</entry>
+    <entry key="NumVariables">変数の数</entry>
+    <entry key="NumObservations">行数</entry>
+    <entry key="NumColumns">行数</entry>
+    <entry key="NumRows">列数</entry>
+    <entry key="NumVarsWithMissing">欠損のある変数の数</entry>
+    <entry key="NumVarsWithDuplicates">重複のある変数の数</entry>
+    <entry key="TimestampHasMissing">タイムスタンプに欠損があります</entry>
+    <entry key="TimestampHasDuplicates">タイムスタンプに重複があります</entry>
+    <entry key="TimestampIsSorted">タイムスタンプ並べ替え済み</entry>
+    <entry key="TimestampSortDirectionAscending">最古から最新へ</entry>
+    <entry key="TimestampSortDirectionDescending">最新から最古へ</entry>
+    <entry key="True">真</entry>
+    <entry key="False">偽</entry>
+    <entry key="Outliers">外れ値の数</entry>
+    <entry key="OutliersTooltip">移動中央値を使用して検出</entry>
+    <entry key="NumVarsWithOutliers">外れ値の可能性があるデータをもつ変数の数</entry>
+  </message>
+</rsccat>

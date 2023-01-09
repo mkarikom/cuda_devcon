@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="vectorization">Multiple {0} and patterns given must have the same quantity.</entry>
+    <entry key="invalidOutputs">The ''{0}'' option may only be specified once.</entry>
+    <entry key="invalidCompileOption">Invalid compile option specified.</entry>
+    <entry key="invalidNumericValue">The ''{0}'' option must be a positive scalar integer.</entry>
+    <entry key="EvaluationStr">Evaluation of ''{0}'' did not produce a char vector or scalar string.</entry>
+    <entry key="EvaluationBool">Evaluation of ''{0}'' did not produce a logical.</entry>
+    <entry key="EvaluationError">Evaluation of ''{0}'' failed: \n\n{1}</entry>
+    <entry key="invalidInputs">The ''{0}'' input must be either a char row vector, a cell array of char row vectors, or a string array.</entry>
+    <entry key="invalidAdditionalArgInputs">Additional arguments must be char row vectors or scalar strings.</entry>
+    <entry key="invalidAdditionalNumericOrArgInputs">Additional arguments must be numeric, char row vectors, or scalar strings.</entry>
+    <entry key="invalidCellInputs">All cells must be char row vectors.</entry>
+    <entry key="invalidOutputCombination">The ''{0}'' option may not be used in conjunction with the ''{1}'' option.</entry>
+    <entry key="notEnoughOutputs">Not enough outputs specified for ''{0}'' option.</entry>
+    <entry key="deprecated">The ''{0}'' option for {1} is now the default behavior.</entry>
+    <entry key="invalidOptions">Invalid option for {0}: {1}.</entry>
+    <entry key="InvalidNumberOfInputsForOption">When the ''{0}'' option is specified, {1} input arguments are required.</entry>
+    <entry key="ErrorLiteral">Character ''{0}'' is treated literally in this context.{1}</entry>
+    <entry key="ErrorEscapedLiteral">Escaped character ''{0}'' is treated literally in this context.{1}</entry>
+    <entry key="ErrorBracedTooLong">Braced expression is too long to evaluate to a character.{0}</entry>
+    <entry key="ErrorBracedInvalid">Braced expression does not evaluate to a character.{0}</entry>
+    <entry key="ErrorTrailingBackslash">Backslash at end of pattern is treated literally.{0}</entry>
+    <entry key="ErrorSetBreaks">Word breaks (''\&lt;'' and ''\&gt;'') are treated literally in a set.{0}</entry>
+    <entry key="ErrorUnboundRange">Unbound range.{0}</entry>
+    <entry key="ErrorUnmatchedBracket">Unmatched ''[''. Use ''\\['' to specify literal ''[''.{0}</entry>
+    <entry key="ErrorUnmatchedParen">Unmatched ''(''. use ''\\('' to specify literal ''(''.{0}</entry>
+    <entry key="ErrorUnmatchedCurly">Unmatched '''{'''.  Use ''\\'{''' to specify literal '''{'''.{0}</entry>
+    <entry key="ErrorInvalidNamedBackRef">Invalid named token backreference.{0}</entry>
+    <entry key="ErrorInvalidNameCaptured">Invalid token name specified.{0}</entry>
+    <entry key="ErrorNestedNamedToken">Named tokens in nested parentheses are not supported.{0}</entry>
+    <entry key="ErrorModeDoubleNegative">Mode flag negation may only be specified once.{0}</entry>
+    <entry key="ErrorModeRepeated">Repeated mode flag.{0}</entry>
+    <entry key="ErrorModeUnknown">Unknown mode flag.{0}</entry>
+    <entry key="ErrorUnknownExtended">Unknown extended regular expression.{0}</entry>
+    <entry key="ErrorEvaluationDisabled">Evaluation is not supported in regexpPattern.{0}</entry>
+    <entry key="ErrorConditonEmpty">No condition specified for if construct.{0}</entry>
+    <entry key="ErrorConditonInvalid">Invalid condition specified for if construct.{0}</entry>
+    <entry key="ErrorInvalidCurlyQuantifier">Invalid pattern for '''{}''' quantifier specified.{0}</entry>
+    <entry key="ErrorUnknownReplace">Unknown replace pattern specified, ''$'' is treated literally.{0}</entry>
+    <entry key="ErrorInefficientLookBehind">Lookbehind assertion of unbound length takes exponential time to solve.{0}</entry>
+  </message>
+</rsccat>

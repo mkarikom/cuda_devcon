@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- Copyright 2017-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="AddingCharRowData">You might have intended to add the character vector ''{0}'' as a variable to a one-row table. To store text data in a table, use a string array or a cell array of character vectors rather than character arrays. Alternatively, add that variable to the table with an assignment using dot indexing.</entry>
+    <entry key="NoBeforeOrAfter">Specify either ''Before'' or ''After'' and a location to move the variables to.</entry>
+    <entry key="BeforeAndAfter">Specify either ''Before'' or ''After'', but not both.</entry>
+    <entry key="IncorrectNumberOfVarNames">Specify one new variable name for each variable being added to the table.</entry>
+    <entry key="InvalidVarNames">New variable names must be a character vector, string array, or cell array of character vectors.</entry>
+    <entry key="NonscalarPosition">Specify a single location as a positive integer, a variable name, or a logical vector containing a single true value.</entry>
+    <entry key="VartypeInvalidLocation">Using a vartype subscripter as a location is not supported. Specify a location as a variable name, a positive integer, or a logical vector containing a single true value.</entry>
+    <entry key="VartypeInvalidVars">Using a vartype subscripter to specify variables to move is not supported. Use a character vector, string array, cell array of character vectors, or numeric or logical indices.</entry>
+    <entry key="StringParamNameNotSupported">You might have intended "{0}" to specify a parameter name. However, ADDVARS requires parameter names to be specified as character vectors. Use addvars(..., ''{0}'', Value) instead.</entry>
+    
+    <!-- codegen -->
+    <entry key="NoVarSizeBeforeAndAfter">The value of ''Before'' or ''After'' must be constant size.</entry>
+    <entry key="DuplicatedVariablesNotSupported">Duplicate variable names are not supported.</entry>
+    <entry key="NewVarNamesMustBeConstant">Specify 'NewVariableNames' as Constant.</entry>
+    <entry key="NumRowsMismatch">To add a new variable to the table, the number of rows must match the height of the table.</entry>
+    <entry key="MustSpecifyNewVarNames">New variable names must be specified.</entry>
+    <entry key="StringParamNameNotSupportedCodegen">You might have intended "{0}" to specify a parameter name. However, ADDVARS requires parameter names to be specified as character vectors, and Name=Value is not supported in code generation. Use addvars(..., ''{0}'', Value) instead.</entry>
+  </message>
+</rsccat>

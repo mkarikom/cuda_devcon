@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNameValueMismatch">尾部输入参数必须以名称-值对组的形式出现。</entry>
+    <entry key="EmptyOrScalarBinEdges">BinEdges 必须为长度大于或等于 2 的向量。</entry>
+    <entry key="InvalidMixedBinInputs">''BinEdges'' 输入不能后跟 ''NumBins''、''BinWidth''、''BinMethod'' 或 ''BinLimits'' 中的任何一个。</entry>
+    <entry key="NonNumericInput">X 必须为数值数组。</entry>
+    <entry key="InputOutOfIntRange">仅当每个输入元素的绝对值都小于或等于 FLINTMAX/2 时，才支持 ''integers'' BinMethod。</entry>
+  </message>
+</rsccat>

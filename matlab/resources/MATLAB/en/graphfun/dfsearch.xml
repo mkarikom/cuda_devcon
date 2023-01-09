@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidEvent">Unrecognized event ''{0}''.</entry>
+    <entry key="InvalidEventType" note="stringDatatypeUpdate">Events argument must be a string vector, a character vector, or a cell array of character vectors.</entry>
+    <entry key="SecondOutputEdgeOnly">Second output is supported only when events argument is ''edgetonew'', ''edgetodiscovered'', or ''edgetofinished''.</entry>
+    <entry key="InvalidStartNode">Starting node must specify one node.</entry>
+    <entry key="KeyWithoutValue">No value given for ''Restart'' parameter.</entry>
+    <entry key="ParseFlags">Parameter name must be ''Restart''.</entry>
+    <entry key="ParseRestart">''Restart'' value must be true or false.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TraversingObjectHierarchyPleaseWait">正在遍历对象层次结构，请稍候...</entry>
+    <entry key="CodeGenerationError">代码生成错误</entry>
+    <entry key="GeneratingSyntaxTreePleaseWait">正在生成语法树，请稍候...</entry>
+    <entry key="GeneratingVariableListpleaseWait">正在生成变量列表，请稍候...</entry>
+    <entry key="GeneratingFinalTextRep">正在生成最终文本表示，请稍候...</entry>
+    <entry key="CodeGeneration">代码生成</entry>
+    <entry key="CurrentlyDoesNotSupportCodeGen">{0} 当前不支持代码生成，请输入正确输入语法对应的 ''doc {1}''</entry>
+    <entry key="ValidInputObjectRequired">需要有效的输入对象</entry>
+    <entry key="ThisObjectDoesNotSupportCodeGeneration">该对象不支持代码生成</entry>
+    <entry key="MLintMessagesWereDetected">检测到以下 MLint 信息:\n{0}</entry>
+    <entry key="IncorrectNumberOfInputArguments">输入参数的数目不正确。</entry>
+    <entry key="InvalidFilename">文件名无效</entry>
+    <entry key="MLintFlagMustBeTrueOrFalse">MLint 标志必须为 true 或 false</entry>
+    <entry key="DebugFlagMustBeTrueOrFalse">调试标志必须为 true 或 false</entry>
+    <entry key="InvalidInput">输入无效</entry>
+    <entry key="CouldNotCreateFile">无法创建文件: {0}</entry>
+  </message>
+</rsccat>

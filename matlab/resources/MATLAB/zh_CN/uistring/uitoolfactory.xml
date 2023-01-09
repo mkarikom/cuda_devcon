@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Label_Standard_NewFigure">新建</entry>
+    <entry key="Label_Standard_FileOpen">打开</entry>
+    <entry key="Label_Standard_SaveFigure">保存</entry>
+    <entry key="Label_Standard_PrintFigure">打印</entry>
+    <entry key="Label_Standard_EditPlot">编辑绘图</entry>
+    <entry key="Label_Exploration_ZoomIn">放大</entry>
+    <entry key="Label_Exploration_ZoomOut">缩小</entry>
+    <entry key="Label_Exploration_ZoomX">缩放 X 轴</entry>
+    <entry key="Label_Exploration_ZoomY">缩放 Y 轴</entry>
+    <entry key="Label_Exploration_Pan">平移</entry>
+    <entry key="Label_Exploration_Rotate">旋转</entry>
+    <entry key="Label_Exploration_DataCursor">数据提示</entry>
+    <entry key="Label_Exploration_Brushing">刷亮数据</entry>
+    <entry key="Label_DataManager_Linking">链接绘图</entry>
+    <entry key="Label_Annotation_InsertColorbar">颜色栏</entry>
+    <entry key="Label_Annotation_InsertLegend">图例</entry>
+    <entry key="Label_Annotation_InsertRectangle">矩形</entry>
+    <entry key="Label_Annotation_InsertEllipse">椭圆</entry>
+    <entry key="Label_Annotation_InsertTextbox">文本框</entry>
+    <entry key="Label_Annotation_InsertTextArrow">文本箭头</entry>
+    <entry key="Label_Annotation_InsertDoubleArrow">双箭头</entry>
+    <entry key="Label_Annotation_InsertArrow">箭头</entry>
+    <entry key="Label_Annotation_InsertLine">直线</entry>
+    <entry key="Label_Annotation_Pin">固定</entry>
+    <entry key="Label_Annotation_AlignDistribute">对齐方式</entry>
+    <entry key="Label_Plottools_PlottoolsOff">隐藏绘图工具</entry>
+    <entry key="Label_Plottools_PlottoolsOn">显示绘图工具</entry>
+  </message>
+</rsccat>

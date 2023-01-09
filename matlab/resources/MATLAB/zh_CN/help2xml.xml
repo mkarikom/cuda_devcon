@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="GoToOnlineDoc">转至 {0} 的在线文档</entry>
+    <entry key="MATLABHelp">MATLAB 帮助</entry>
+    <entry key="MATLABFileHelpDefaultTopics">MATLAB 文件帮助: 默认主题</entry>
+    <entry key="MATLABFileHelpFormat">%s - MATLAB 文件帮助</entry>
+    <entry key="ViewCodeFormat">查看 %s 的代码</entry>
+    <entry key="OpenModelFormat">打开模型 %s</entry>
+    <entry key="ModelHelpFormat">%s - 模型帮助</entry>
+  </message>
+</rsccat>

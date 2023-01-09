@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DIALOG_TITLE">数据清理器自定义函数对话框</entry>
+    <entry key="TITLE">添加自定义清理函数</entry>
+    <entry key="FCN_NAME">名称</entry>
+    <entry key="FCN_NAME_TT">输入新的或现有函数名称</entry>
+    <entry key="NEW_FCN">新函数</entry>
+    <entry key="EXISTING_FCN">现有函数</entry>
+    <entry key="FCN_DESCRIPTION">说明</entry>
+    <entry key="FCN_DESCRIPTION_TT">当您将鼠标悬停在按钮上时数据清理器中将显示的工具提示</entry>
+    <entry key="FCN_DESCRIPTION_DEFAULT">执行自定义清理</entry>
+    <entry key="OPERATION_TYPE">操作类型</entry>
+    <entry key="TABLE_OPERATION_LABEL">全表操作</entry>
+    <entry key="TABLE_OPERATION_TOOLTIP">自定义代码将更改整个表</entry>
+    <entry key="COLUMN_OPERATION_LABEL">单列变量操作</entry>
+    <entry key="COLUMN_OPERATION_TOOLTIP">自定义代码将只影响一个列变量</entry>
+    <entry key="OK">确定</entry>
+    <entry key="CANCEL">取消</entry>
+    <entry key="ADD_CUSTOM_FCN_LABEL">使用以下语法为数据清理器添加自定义函数。</entry>
+    <entry key="ADD_EXISTING_FCN_LABEL">使用以下语法添加一个调用现有函数的函数。</entry>
+    <entry key="WORKFLOW_DESCRIPTION_TABLE">数据清理器会自动将输入表传入函数中。同时也可以指定可选的输入参数。</entry>
+    <entry key="WORKFLOW_DESCRIPTION_COLUMN">输入列变量 {0} 将自动传入函数中。同时也可以指定可选的输入参数。</entry>
+  </message>
+</rsccat>

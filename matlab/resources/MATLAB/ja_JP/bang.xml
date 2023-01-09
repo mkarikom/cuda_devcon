@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnableToOpenMasterDevice">MATLAB は疑似端末 (pseudo-tty) のマスター デバイス {0} を開けません。\nunix() と ! コマンドは、この MATLAB セッションで動作しない可能性があります。unix() と ! に依存する他のコマンドも動作しない可能性があります。システム管理者に問い合わせて、このデバイスに適切な権限があることを確認してください。</entry>
+    <entry key="UnableToOpenTtyDevice">MATLAB は疑似端末 (pseudo-tty) を開けません。{0} [{1,number,integer},{2,number,integer}]\nunix() と ! コマンドは、この MATLAB セッションで動作しない可能性があります。unix() と ! に依存する他のコマンドも動作しない可能性があります。システム リソースが不足している可能性があります。再起動の後でも問題が解決しない場合は、システム管理者に問い合わせて、疑似端末 (pty) のサブシステムが適切に設定されていることを確認してください。</entry>
+    <entry key="SystemError">予期せぬシステム エラー:  {0}</entry>
+    <entry key="UnableToReopenPtyDevice">擬似端末 (pty) を再度開こうとして失敗しました</entry>
+    <entry key="UnableToInitializePseudotty">MATLAB は疑似端末 (pseudo-tty) を初期化できません。BinArchDir が存在しません。\nunix() と ! コマンドは、この MATLAB セッションと連携しない可能性があります。unix() と ! に依存する他のコマンドも動作しない可能性があります。この問題を support@mathworks.com に報告してください。</entry>
+    <entry key="CommandsDisabled">unix() と ! コマンドが無効になっています。</entry>
+    <entry key="UnknownError">不明なエラー</entry>
+    <entry key="UnrecognizedOption">認識されないオプション: {0}</entry>
+    <entry key="SignalReceived">{0}: {1}</entry>
+  </message>
+</rsccat>

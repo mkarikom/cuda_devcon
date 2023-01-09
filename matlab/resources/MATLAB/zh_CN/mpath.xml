@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="directoryNameTooLong">目录名称 {0} 太长。 </entry>
+    <entry key="methodDirectoriesNotAllowedOnPath">MATLAB 路径中不允许使用方法目录: {0}</entry>
+    <entry key="packageDirectoriesNotAllowedOnPath">MATLAB 路径中不允许使用包目录: {0}</entry>
+    <entry key="privateDirectoriesNotAllowedOnPath">MATLAB 路径中不允许使用专用目录: {0}</entry>
+    <entry key="resourcesDirectoriesNotAllowedOnPath">不支持将名为 'resources' 的文件夹添加到路径中: {0}</entry>
+    <entry key="directoryPermissionDenied">目录权限被拒绝: {0}</entry>
+    <entry key="nameNonexistentOrNotADirectory">名称不存在或不是目录: {0}</entry>
+    <entry key="directoryAccessFailure">目录访问失败: {0}</entry>
+    <entry key="cannotAbsolutizePath">无法将路径 {0} 设置为绝对路径。 </entry>
+    <entry key="invalidLocation">为文件或文件夹指定的位置 {0} 无效。</entry>
+    <entry key="ToolboxCacheFileWrongFormat">无法加载工具箱路径缓存 {0}。该缓存文件的格式不正确。退出 MATLAB 时将重新生成该文件。</entry>
+    <entry key="PathAlterationNotSupported">MATLAB Compiler 不支持修改搜索路径。请从 MATLAB 代码中删除修改搜索路径的函数。要使文件对已部署的 App 可见，请将父文件夹添加到 MATLAB 会话中。</entry>
+    <entry key="UnableToModifyMatlabpath">在上一次修改完成之前，不能修改 MATLAB 搜索路径。</entry>
+    <entry key="CannotAddComponentsToSearchPath">无法将文件夹 {0} 添加到 MATLAB 搜索路径，因为它是组件成员文件夹。其组件在 {1} 上定义。</entry>
+    <entry key="UnableToLocatePersonalFolder">Unable to locate a personal folder for {0}.</entry>
+    <entry key="UnableToCreatePersonalMATLABWorkFolder">Unable to create personal MATLAB work folder {0}.</entry>
+  </message>
+</rsccat>

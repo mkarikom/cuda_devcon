@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2011-2015 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="ErrordlgErrorExecuting">Error executing Basic Fitting: {0}</entry>
+      <entry key="ErrordlgError">Error</entry>
+      <entry key="MsgSaveFitToWorkspace">Save Fit to Workspace</entry>
+      <entry key="MsgSaveSaveFitAsStruct">Save fit as a MATLAB struct named:</entry>
+      <entry key="MsgSaveNormOfResiduals">Save norm of residuals as a MATLAB variable named:</entry>
+      <entry key="MsgSaveResiduals">Save residuals as a MATLAB variable named:</entry>
+      <entry key="WarndlgCannotPlotWithRepeatedXValue">Bar plots of the residuals are not permitted with repeated X values.\nUse a scatter or line plot or remove repeated X values.</entry>
+      <entry key="TitleBasicFitting">Basic Fitting</entry>
+      <entry key="DisplayNameCubic">cubic</entry>
+      <entry key="DisplayNameLinear">linear</entry>
+      <entry key="DisplayNameQuadratic">quadratic</entry>
+      <entry key="DisplayNameNthDegree">{0}th degree</entry>
+      <entry key="DisplayNameShapePreserving">shape-preserving</entry>
+      <entry key="DisplayNameSpline">spline</entry>
+      <entry key="ErrorUnableToDisplayHelpForBasicFitting">Unable to display help for Basic Fitting:\n{0}</entry>
+      <entry key="ErrorUnableToDisplayHelpForDataStatistics">Unable to display help for Data Statistics\n{0}</entry>
+      <entry key="TitleDataStatistics">Data Statistics</entry>
+      <entry key="LegendStringMax">max</entry>
+      <entry key="LegendStringMean">mean</entry>
+      <entry key="LegendStringMedian">median</entry>
+      <entry key="LegendStringMin">min</entry>
+      <entry key="LegendStringMode">mode</entry>
+      <entry key="LegendStringStd">std</entry>
+      <entry key="DisplayNameData">data {0}</entry>
+      <entry key="ErrorEvaluateInBaseWorkspaceFailed">Attempt to evaluate expression in MATLAB base workspace failed with the following error:\n\n{0}</entry>
+      <entry key="WarningImaginaryPartIgnored">Imaginary part of expression ignored.</entry>
+      <entry key="ErrorEvaluatingCausedFitToBeDeleted">Evaluating the expression caused the fit to be deleted.</entry>
+      <entry key="ErrorMustEvaluateToReal">Expression must evaluate to a real scalar, vector, or matrix.</entry>
+      <entry key="ResidualDisplayNthDegreeNorm">{0,number,integer}th degree: norm of residuals = {1}</entry>
+      <entry key="ResidualDisplayCubicNorm">Cubic: norm of residuals = {0}</entry>
+      <entry key="ResidualDisplayLinearNorm">Linear: norm of residuals = {0}</entry>
+      <entry key="ResidualDisplayQuadraticNorm">Quadratic: norm of residuals = {0}</entry>
+      <entry key="ResidualDisplayShapepreservingNorm">Shape-preserving: norm of residuals = 0</entry>
+      <entry key="ResidualDisplaySplineNorm">Spline: norm of residuals = 0</entry>
+      <entry key="MsgNormOfResidualsEqual0">{0}{1}\n\nNorm of residuals = 0</entry>
+      <entry key="MsgNormOfResiduals">{0}\nNorm of residuals = \n</entry>
+      <entry key="MsgCoefficients">{0}\n\nCoefficients:\n</entry>
+      <entry key="MsgCenteredAndScaledVariable">\n\nUses the centered\nand scaled variable\n\nz = (x-mu)/sigma\nmu = {0}\nsigma = {1}</entry>
+      <entry key="MsgZIsCenteredAndScaled">\n\nwhere z is centered\nand scaled:\n\nz = (x-mu)/sigma\nmu = {0}\nsigma = {1}</entry>
+      <entry key="DisplayShapePreservingInterpolant">Shape-preserving interpolant</entry>
+      <entry key="DisplaySplineInterpolant">Spline interpolant</entry>
+      <entry key="ErrorTwoPointsRequiredWCubic">At least two data points are required when fitting with a cubic interpolating spline. Add more data points to fit with spline.</entry>
+      <entry key="ErrorTwoPointsRequiredWShapePres">At least two data points are required when fitting with shape-preserving interpolants. Add more data points.</entry>
+      <entry key="WarningPolynomialBadlyConditionedCenterScale">Polynomial is badly conditioned. Add points with distinct X values, select a polynomial with a lower degree, or select "Center and scale X data".</entry>
+      <entry key="ErrorRepeatedXValuesNotPermittedWCubicInt">Repeated X values are not permitted when fitting with a cubic interpolating spline. Remove repeated values.</entry>
+      <entry key="ErrorRepeatedXValuesNotPermittedWShapePres">Repeated X values are not permitted when fitting with shape-preserving interpolants. Remove repeated values.</entry>
+      <entry key="WarningPointsWithNaNCoordsIgnored">Data points with NaN coordinates will be ignored.</entry>
+      <entry key="WarningPolynomialIsBadlyConditionedUseLowerDegree">Polynomial is badly conditioned. Add points with distinct X values or select a polynomial with a lower degree.</entry>
+      <entry key="CommentShowEquationsWasSelected">"Show equations" was selected</entry>
+      <entry key="CommentShowNormOfResidualsWasSelected">"Show norm of residuals" was selected</entry>
+      <entry key="CommentCalculateAndSaveResidualsEvaluateUsingOriginalXdata">Calculate and save residuals - evaluate using original xdata</entry>
+      <entry key="CommentComputeBoundsAsMeanStd">Compute bounds as mean +/- std</entry>
+      <entry key="CommentCreateASeparateFigureForResiduals">Create a separate figure for residuals</entry>
+      <entry key="CommentEvaluateInput">Evaluate input</entry>
+      <entry key="CommentEvaluatePiecewisePolynomial">Evaluate piecewise polynomial</entry>
+      <entry key="CommentEvaluatePolynomial">Evaluate polynomial</entry>
+      <entry key="CommentFindCoefficientsForPolynomialUsingNormData">Find coefficients for polynomial (order = {0,number,integer}) using normalized data</entry>
+      <entry key="CommentFindCoefficientsForPolynomial">Find coefficients for polynomial (order = {0,number,integer})</entry>
+      <entry key="CommentFindCoefficientsForShapePresInterpolantUsingNorm">Find coefficients for shape-preserving interpolant using normalized data</entry>
+      <entry key="CommentFindCoefficientsForShapepreservingInterpolant">Find coefficients for shape-preserving interpolant</entry>
+      <entry key="CommentFindCoefficientsForSplineInterpolantUsingNormalizedData">Find coefficients for spline interpolant using normalized data</entry>
+      <entry key="CommentFindCoefficientsForSplineInterpolant">Find coefficients for spline interpolant</entry>
+      <entry key="CommentFindTheString">Find the {0}</entry>
+      <entry key="CommentFindXValuesForPlottingTheFitBasedOnXlim">Find x values for plotting the fit based on xlim</entry>
+      <entry key="CommentGetAxesXlim">Get axes xlim</entry>
+      <entry key="CommentGetAxesYlim">Get axes ylim</entry>
+      <entry key="CommentGetCoordinatesForLine">Get coordinates for the {0} line</entry>
+      <entry key="CommentGetCoordinatesForTheStdBoundsLine">Get coordinates for the std bounds line</entry>
+      <entry key="CommentGetTheAxesChildren">Get the axes children</entry>
+      <entry key="CommentGetTheIndexToTheAssociatedLine">Get the index to the associatedLine</entry>
+      <entry key="CommentGetXdataFromPlotForDataStatistics">Get xdata from plot for data statistics</entry>
+      <entry key="CommentGetXdataFromPlot">Get xdata from plot</entry>
+      <entry key="CommentGetYdataFromPlotForDataStatistics">Get ydata from plot for data statistics</entry>
+      <entry key="CommentGetYdataFromPlot">Get ydata from plot</entry>
+      <entry key="CommentMakeSureDataAreColumnVectors">Make sure data are column vectors</entry>
+      <entry key="CommentMakeSureInputArgumentIsAColumn">Make sure input argument is a column</entry>
+      <entry key="CommentMakeSureValueIsAColumn">Make sure value is a column</entry>
+      <entry key="CommentNormalizeValue">Normalize value</entry>
+      <entry key="CommentNormalizeXdata">Normalize xdata</entry>
+      <entry key="CommentPlotResidualsInABarPlot">Plot residuals in a bar plot</entry>
+      <entry key="CommentPlotResidualsInALinePlot">Plot residuals in a line plot</entry>
+      <entry key="CommentPlotResidualsInAScatterPlot">Plot residuals in a scatter plot</entry>
+      <entry key="CommentPlotTheString">Plot the {0}</entry>
+      <entry key="CommentPlotTheBounds">Plot the bounds</entry>
+      <entry key="CommentPlotTheEvaluatedResults">Plot the evaluated results</entry>
+      <entry key="CommentPlotTheFit">Plot the fit</entry>
+      <entry key="CommentPreallocateForShowEquationsCoefficients">Preallocate for "Show equations" coefficients</entry>
+      <entry key="CommentPrepareForPlottingResiduals">Prepare for plotting residuals</entry>
+      <entry key="CommentPrepareValuesToPlotStdFirstFindTheMean">Prepare values to plot std; first find the mean</entry>
+      <entry key="CommentRemoveNaNValuesAndWarn">Remove NaN values and warn</entry>
+      <entry key="CommentRemoveTheNewLine">Remove the new line</entry>
+      <entry key="CommentReorderLinesSoTheNewLineAppearsWithAssociatedData">Reorder lines so the new line appears with associated data</entry>
+      <entry key="CommentRepositionResidualFigure">Reposition residual figure </entry>
+      <entry key="CommentResetLineOrderForLegend">Reset line order for legend</entry>
+      <entry key="CommentResetUnits">Reset units</entry>
+      <entry key="CommentSaveCoefficientsForShowEquation">Save coefficients for "Show Equation"</entry>
+      <entry key="CommentSaveCurrentAxisUnitsThenSetToNormalized">Save current axis units; then set to normalized</entry>
+      <entry key="CommentSaveTypeOfFitForShowEquations">Save type of fit for "Show equations"</entry>
+      <entry key="CommentSaveTypeOfFitForShowNormOfResidualsAndShowEquations">Save type of fit for "Show norm of residuals" and "Show equations"</entry>
+      <entry key="CommentSaveTypeOfFitForShowNormOfResiduals">Save type of fit for "Show norm of residuals".</entry>
+      <entry key="CommentSetColorsToMatchFitLinesAndSetDisplayNames">Set colors to match fit lines and set display names</entry>
+      <entry key="CommentSetColorsToMatchFitLines">Set colors to match fit lines</entry>
+      <entry key="CommentSetNewLineInProperPosition">Set new line in proper position</entry>
+      <entry key="CommentSetResidualPlotAxisTitle">Set residual plot axis title</entry>
+      <entry key="CommentSetTheChildren">Set the children:</entry>
+      <entry key="CommentShowLegendOnResidualPlot">Show legend on residual plot</entry>
+      <entry key="CommentSortResiduals">Sort residuals</entry>
+      <entry key="CommentAssociatedLine">Associated line</entry>
+      <entry key="CommentAxesForResiduals">Axes for residuals</entry>
+      <entry key="CommentAxes">Axes</entry>
+      <entry key="CommentCoefficients">Coefficients</entry>
+      <entry key="CommentGetShowNormOfResidualsString">Get "Show norm of residuals" text</entry>
+      <entry key="CommentGetShowEquationString">Get "Show Equation" text</entry>
+      <entry key="CommentNewLine">New line</entry>
+      <entry key="CommentNormOfResiduals">Norm of residuals</entry>
+      <entry key="CommentNumberOfSignificantDigits">Number of significant digits</entry>
+      <entry key="CommentSetLineOrder">Set line order</entry>
+      <entry key="CommentShowEquations">Show equations</entry>
+      <entry key="CommentShowNormOfResiduals">Show norm of residuals</entry>
+      <entry key="CommentTypeOfFit">Type of fit</entry>
+      <entry key="CommentTypesOfFits">Types of fits</entry>
+      <entry key="CommentXData">X data</entry>
+      <entry key="CommentGetStringFromMessageCatalog">Get the text from the message catalog.</entry>
+      <entry key="TitleResiduals">residuals</entry>
+      <entry key="DlgSaveXStats">Save X stats to a MATLAB struct named:</entry>
+      <entry key="DlgSaveYStats">Save Y stats to a MATLAB struct named:</entry>
+      <entry key="DlgSaveStatisticsToWorkspace">Save Statistics to Workspace</entry>
+      <entry key="CubicSplineInterpolant">Cubic spline interpolant</entry>
+      <entry key="ShapePreservingInterpolant">Shape-preserving interpolant</entry>
+      <entry key="DataChangedFitsResultsDeleted">''{0}'' data has changed. Fits and results will be deleted.</entry>
+      <entry key="DataChanged">Data Changed</entry>
+      <entry key="evaluated">evaluated: {0}</entry>
+      <entry key="InputValueMustEvaluateToReal">Input value must evaluate to a real scalar, vector or matrix.</entry>
+      <entry key="ImaginaryPartOfInputIgnored">Imaginary part of input will be ignored.</entry>
+      <entry key="SaveResultsToWorkspace">Save Results to Workspace</entry>
+      <entry key="SaveXinVariable">Save x in a MATLAB variable named:</entry>
+      <entry key="SaveFofXinVariable">Save y in a MATLAB variable named:</entry>
+   </message>
+</rsccat>

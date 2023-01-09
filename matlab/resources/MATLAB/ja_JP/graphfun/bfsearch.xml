@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidEvent">イベント ''{0}'' が認識されません。</entry>
+    <entry key="InvalidEventType">イベントの引数は string ベクトル、文字ベクトルまたは文字ベクトルのセル配列でなければなりません。</entry>
+    <entry key="SecondOutputEdgeOnly">2 番目の出力は、イベントの引数が ''edgetonew''、''edgetodiscovered''、または ''edgetofinished'' の場合にのみサポートされます。</entry>
+    <entry key="InvalidStartNode">開始ノードは 1 つのノードを指定しなければなりません。</entry>
+    <entry key="KeyWithoutValue">''Restart'' パラメーターに値が指定されていません。</entry>
+    <entry key="ParseFlags">パラメーター名は ''Restart'' でなければなりません。</entry>
+    <entry key="ParseRestart">''Restart'' の値は true または false でなければなりません。</entry>
+  </message>
+</rsccat>

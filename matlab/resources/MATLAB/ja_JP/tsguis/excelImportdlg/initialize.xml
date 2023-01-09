@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CannotConnectExcelWorkbook">Excel ワークブックに接続できません</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="LoadingExcelPleaseWait">Excel スプレッドシート読み込み中。お待ちください...</entry>
+    <entry key="ImportTimeSeriesFromExcel">Excel ({0}) から時系列をインポート</entry>
+    <entry key="SelectedTimeVector">選択時間ベクトル</entry>
+  </message>
+</rsccat>

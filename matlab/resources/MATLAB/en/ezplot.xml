@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidExpression" note="stringDatatypeUpdate">Input must be a character vector expression, function name, function handle, or INLINE object.</entry>
+    <entry key="NonXYPlot">{0} cannot be plotted in the xy-plane.</entry>
+    <entry key="NumericValues">ezplot requires numeric values for {0}</entry>
+    <entry key="ParametrizedSurface">Cannot plot parameterized surfaces.  Try ezsurf.</entry>
+    <entry key="NonExplicitFunction" note="stringDatatypeUpdate">The input character vector must be an expression.  Implicit functions of a single variable are not supported.</entry>
+    <entry key="NoRealValues">Cannot plot {0}:  This function has no real values.</entry>
+    <entry key="NotVectorized">Function failed to evaluate on array inputs; vectorizing the function may speed up its evaluation and avoid the need to loop over array elements.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoCopyMethod">{0}의 copy 메서드를 찾을 수 없음</entry>
+    <entry key="NoCopyElementMethod">{0} 클래스에 copyElement 메서드가 없습니다.</entry>
+    <entry key="ScalarOutputRequired">스칼라여야 함</entry>
+    <entry key="WrongReturnClass">동일한 클래스여야 함</entry>
+    <entry key="UndefinedMethod">{0} 클래스에는 복사 메서드가 없습니다.</entry>
+  </message>
+</rsccat>

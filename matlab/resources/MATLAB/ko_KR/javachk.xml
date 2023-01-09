@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FeatureIsNotCurrentlyAvailable">{0}은(는) 현재 사용할 수 없습니다.</entry>
+    <entry key="DesktopIsNotCurrentlyAvailable">데스크탑은 현재 사용할 수 없습니다.</entry>
+    <entry key="thisFeatureNotAvailable">이 기능은 다음과 같은 이유로 지원되지 않음:\n{0}</entry>
+    <entry key="featureNotAvailable">{0}은(는) 다음과 같은 이유로 지원되지 않음:\n{1}</entry>
+    <entry key="NoDisplayIsAvailable">사용할 수 있는 디스플레이가 없습니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidFunctionHandle">First argument must be a function handle that takes no input argument.</entry>
+    <entry key="HandleToScript">First argument cannot be a handle to a script. Try converting the script to a function.</entry>
+    <entry key="InvalidNumberOfOutputs">Second argument must be a non-negative integer.</entry>	
+    <entry key="HighOverhead">The measured time for F may be inaccurate because it is running too fast. Try measuring something that takes longer.</entry>	
+  </message>
+</rsccat>

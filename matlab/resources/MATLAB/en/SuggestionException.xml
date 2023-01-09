@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ConversationalNameForArguments" note="Used to fill hole in MustBeTextVector">Appended arguments</entry>
+    <entry key="ConversationalNameForIdentifier" note="Used to fill hole in MustBeTextScalar">Identifier</entry>
+    <entry key="ConversationalNameForMethodToConvert" note="Used to fill hole in MustBeTextScalar">Method name</entry>
+    <entry key="ConversationalNameForReplacement" note="Used to fill hole in MustBeTextScalar">Replacement</entry>
+    <entry key="InvalidIdentifierName" note="Hole {0} always will be filled with translated text (for example, ConversationalNameForIdentifier).">{0} must be a valid MATLAB name. ''{1}'' is invalid.</entry>
+    <entry key="MustBeCorrectionScalar">Correction must be a matlab.lang.correction.Correction scalar.</entry>
+    <entry key="MustBeTextScalar" note="Hole {0} always will be filled with translated text (for example, ConversationalNameForIdentifier).">{0} must be a string scalar or character vector.</entry>
+    <entry key="MustBeTextVector" note="Hole {0} always will be filled with translated text (for example, ConversationalNameForArguments).">{0} must be a string vector, character vector, or cell vector of character vectors.</entry>
+    <entry key="MustUseCorrectSyntax" note="Hole {0} always will be filled with translated text (for example, ConversationalNameForArguments).">{0} must use correct MATLAB syntax. ''{1}'' is invalid.</entry>
+  </message>
+</rsccat>

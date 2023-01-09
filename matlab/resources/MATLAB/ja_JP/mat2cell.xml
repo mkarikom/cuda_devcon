@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonVectorArgument">入力引数 D1 から D{0,number,integer} は、ベクトルでなければなりません。</entry>
+    <entry key="ArgumentCountMismatch">入力ベクトルの引数の数 {0,number,integer} は、入力行列の次元数 {1,number,integer} と一致しません。</entry>
+    <entry key="VectorSumMismatch">入力引数 D1 から D{0,number,integer} は、合計するとそれぞれの入力行列のサイズの次元 [{1}] にならなければなりません。</entry>
+  </message>
+</rsccat>

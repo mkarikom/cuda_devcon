@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CreateFolderError">无法在 {0} 中创建预设文件夹。</entry>
+    <entry key="RelativePathErrorSuffix">预设文件夹的位置必须为有效的完整路径。</entry>
+    <entry key="RelativePathErrorOnLinux">无法在 {0} 中创建预设文件夹。预设文件夹的位置必须为有效的完整路径。请确保您的 HOME 环境变量设置为完整路径。</entry>
+    <entry key="TempPrefdirWarningCannotCreate">无法在 {0} 中创建预设文件夹。{1} 将对此 MATLAB 会话使用临时的预设文件夹。有关详细信息，请参阅&lt;a href="matlab: helpview([docroot '/matlab/helptargets.map'],'matlabenvironment_prefdir_location')"&gt;预设文档&lt;/a&gt;。</entry>
+    <entry key="TempPrefdirWarningNotWritable">无法访问预设文件夹 {0}。预设文件夹必须可写。将对此 MATLAB 会话使用临时的预设文件夹。有关详细信息，请参阅&lt;a href="matlab: helpview([docroot '/matlab/helptargets.map'],'matlabenvironment_prefdir_location')"&gt;预设文档&lt;/a&gt;。</entry>
+    <entry key="CreateTempPrefdirErrorSuffix">预设文件夹的位置必须可写。</entry>
+    <entry key="PrefdirNotWritableOnLinux">无法访问预设文件夹 {0}。预设文件夹必须可写。</entry>
+    <entry key="FileNameTooLarge">预设文件夹的路径名称太长。</entry>
+    <entry key="InvalidArgument">预设文件夹的路径无效。</entry>
+    <entry key="FileNameConversionFailure">无法创建预设文件夹。</entry>
+    <entry key="PathNotFound">位置不存在。</entry>
+    <entry key="BadAlloc">内存不足。</entry>
+    <entry key="DefaultError">未知错误。</entry>
+    <entry key="SystemError">出现系统错误。</entry>
+    <entry key="ErrorTitle">启动 MATLAB 时出错</entry>
+    <entry key="ExitButton">退出 MATLAB</entry>
+    <entry key="NoWritePermission">''{0}'' 为只读。不会保存个人设置。</entry>
+  </message>
+</rsccat>

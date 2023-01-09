@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidGraphicsHandle">グラフィックス オブジェクト ハンドルが無効です。</entry>
+    <entry key="RelatedGraphicsHandle">ハンドルは無関係なオブジェクトでなければなりません。</entry>
+    <entry key="InvalidOption">オプションの引数は文字ベクトルでなければなりません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="HG1Obj">객체가 유효한 그래픽스 객체가 아님</entry>
+    <entry key="OldEvent">HG2 이벤트만 허용됨</entry>
+    <entry key="InvalidHObj">첫 번째 입력값은 그래픽스 핸들이거나 그래픽스 핸들 벡터여야 합니다.</entry>
+    <entry key="InvalidCallback">콜백은 함수 핸들이어야 합니다.</entry>
+    <entry key="InvalidPropertyName">속성 이름은 셀형 배열일 수 없습니다.</entry>
+    <entry key="InvalidPropertyEvent">PropEvent에 대한 유효하지 않은 값입니다.</entry>
+    <entry key="HG2Obj">객체가 유효한 그래픽스 객체가 아님</entry>
+  </message>
+</rsccat>

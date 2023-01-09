@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidString">无法获取字符向量。</entry>
+    <entry key="InvalidThirdInput">维数必须为正标量整数。</entry>
+    <entry key="TooFewInputs">输入太少。</entry>
+    <entry key="TooManyInputs">输入太多。</entry>
+    <entry key="InvalidFirstInput">第一个输入必须是由字符串或字符向量指定的函数句柄或函数名称。</entry>
+    <entry key="InvalidSecondInput">cellfun 仅适用于元胞。</entry>
+    <entry key="InvalidInput">输入数目不正确。</entry>
+    <entry key="UnknownOption">未知选项。</entry>
+  </message>
+</rsccat>

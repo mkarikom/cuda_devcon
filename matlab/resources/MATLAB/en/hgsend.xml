@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NoFigurePeer">UIJ_SimulateWindowEvent::No figure peer found</entry>
+    <entry key="UnknownEventRecord">UIJ_SimulateWindowEvent::Error reading event record</entry>
+    <entry key="SimulateWindowEventReturnedNull">UIJ_SimulateWindowEvent::Null event returned from FigurePeer.simulateWindowEvent</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidFile">ファイルまたはディレクトリ ''{0}'' が無効です。</entry>
+    <entry key="jarAlreadySpecified">"{0}" は、既に静的な java パスに指定されています。</entry>
+    <entry key="InvalidInput">無効な入力</entry>
+    <entry key="RmpathNotFoundInPath">"{0}" はパス上で見つかりません。</entry>
+    <entry key="RmpathInvalidInput">引数は文字ベクトルでなければなりません。</entry>
+    <entry key="StaticJavaPath">\n\t\tSTATIC JAVA PATH\n\n</entry>
+    <entry key="DynamicJavaPath">\n\t\tDYNAMIC JAVA PATH\n\n</entry>
+  </message>
+</rsccat>

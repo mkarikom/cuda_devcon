@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="NaNsInsertedDataRowsTimeInfo">time = {0} ですべての時系列メンバーのデータ行に NaN が挿入されました。</entry>
+  </message>
+</rsccat>

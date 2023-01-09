@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ParametricPlot">To plot parametric curves, use EZPLOT3.</entry>
+    <entry key="TooManyDimensions">Cannot plot in 4 dimensions</entry>
+    <entry key="MissingExpression">Mathematical expression required.</entry>
+    <entry key="IncorrectInputs">Incorrect inputs.</entry>
+    <entry key="NonRealInput">{0} must be real-valued only.</entry>
+    <entry key="InvalidExpresion">The expression {0} must only have 2 symbolic variables</entry>
+  </message>
+</rsccat>

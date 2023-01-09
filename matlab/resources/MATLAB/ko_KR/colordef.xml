@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidOption">colordef의 첫 번째 입력값에 유효하지 않은 옵션이 지정되었습니다.</entry>
+    <entry key="RootOrFigureHandle">colordef(FIG, OPTION)은 루트 또는 Figure 창에 대한 핸들을 필요로 합니다.</entry>
+    <entry key="FigureHandleExpected">colordef로 전달된 핸들 벡터에는 Figure 핸들만 포함되어야 합니다.</entry>
+    <entry key="InvalidHandle">유효하지 않은 Figure 핸들입니다.</entry>
+    <entry key="MustClearFigure">COLORDEF(FIG, OPTION)를 사용하려면 CLF를 사용하여 Figure를 삭제해야 합니다.</entry>
+    <entry key="UnknownDefaultOption">알 수 없는 색 디폴트 옵션임: {0}.</entry>
+  </message>
+</rsccat>

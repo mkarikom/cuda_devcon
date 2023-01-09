@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ColorOrderMustHaveOneElement">ColorOrder에 적어도 하나의 요소가 있어야 함</entry>
+    <entry key="InvalidColorOrder">ColorOrder에 대한 유효하지 않은 값임</entry>
+    <entry key="NullColorOrder">NULL은 ColorOrder에 유효한 값이 아님</entry>
+    <entry key="InvalidFontName">유효하지 않은 글꼴 이름임</entry>
+    <entry key="ArraySizeMustEqual2">배열 크기가 2가 아님: {0}</entry>
+    <entry key="EmptyArrayInvalid">빈 배열은 유효한 값이 아님</entry>
+    <entry key="InvalidTickLength">TickLength에 대한 유효하지 않은 값임</entry>
+    <entry key="MonotonicallyIncrease">값은 단조 증가(Monotonically Increasing)해야 함</entry>
+    <entry key="NullEnumerated">NULL은 열거 유형 {0}의 객체에 유효한 값이 아님</entry>
+    <entry key="InputMustNotBeNull">{0}의 입력 파라미터는 파일 {1} {2}번 라인에서 NULL이면 안 됨</entry>
+    <entry key="InputParameterInstance">입력 파라미터는 {0}의 인스턴스여야 함</entry>
+    <entry key="InputParameterInstanceFile">입력 파라미터는 파일 {1} {2}번 라인에서 {0}의 인스턴스여야 함</entry>
+    <entry key="InvalidStyle">{0}에 유효하지 않은 스타일임: 파일 {2} {3}번 라인의 {1}</entry>
+    <entry key="InvalidValue">유효하지 않은 값임: NULL</entry>
+    <entry key="InvalidValueFor">{0} 유형에 유효하지 않은 값임: NULL</entry>
+    <entry key="JNIClassNotFound">JNI가 파일 {1} {2}번 라인에서 {0} 클래스를 찾을 수 없습니다.</entry>
+    <entry key="JNIFailedCallingMethod">JNI가 파일 {2} {3}번 라인에서 {1} 클래스의 메서드 {0}을(를) 호출하지 못했습니다.</entry>
+  </message>
+</rsccat>

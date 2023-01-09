@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="UVWSizeMismatch">Volume data arguments must all be the same size.</entry>
+      <entry key="UVWNot3D">Volume data arguments must be 3-D arrays.</entry>
+      <entry key="UVWPlanar">Volume data arguments must be size 2x2x2 or greater.</entry>
+      <entry key="XYZMixedEmpty">Volume data arguments must be all empty or all non-empty.</entry>
+      <entry key="XUSizeMismatch">The size of the x-coordinate argument must match the size or the number of columns of the volume data arguments.</entry>
+      <entry key="YUSizeMismatch">The size of the y-coordinate argument must match the size or the number of rows of the volume data arguments.</entry>
+      <entry key="ZUSizeMismatch">The size of the z-coordinate argument must match the size or the number of pages of the volume data arguments.</entry>
+   </message>
+</rsccat>

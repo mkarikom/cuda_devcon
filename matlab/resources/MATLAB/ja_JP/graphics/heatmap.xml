@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="XDataMismatch">x 値の数は ''ColorData'' の列数と等しくなければなりません。</entry>
+    <entry key="YDataMismatch">y 値の数は ''ColorData'' の行数と等しくなければなりません。</entry>
+    <entry key="DuplicateValues">{0} 値のベクトルに重複する値が含まれています。</entry>
+    <entry key="MissingValues">{0} 値のベクトルに欠損値が含まれています。</entry>
+    <entry key="EmptyStrings">空の string および空白のみを含む string は、無効な {0} 値です。</entry>
+    <entry key="InvalidSourceTable">''SourceTable'' の値は table でなければなりません。</entry>
+    <entry key="MatrixWorkflow">''ColorData'' プロパティの設定後に ''{0}'' プロパティを設定することはサポートされていません。</entry>
+    <entry key="TableWorkflow">''SourceTable'' プロパティの設定後に ''{0}'' プロパティを設定することはサポートされていません。</entry>
+    <entry key="LimitsNotData">''{0}'' ベクトルの両方の要素が ''{1}'' ベクトルに存在しなければなりません。</entry>
+    <entry key="ResettingLimits">既存の ''{0}'' の値は新しい ''{1}'' ベクトルと互換性がありません。''{0}'' の値を ''{1}'' ベクトルの全範囲にリセットしています。</entry>
+    <entry key="InvalidLimits">''{0}'' の値は、増加する値または等しい値からなる 2 要素のベクトルで、これらの値が ''{1}'' ベクトルで出現するのと同じ相対的順序で出現しなければなりません。</entry>
+    <entry key="LabelsMismatch">''{0}'' ベクトルは、''{1}'' ベクトルと同じ数の要素を含まなければなりません</entry>
+    <entry key="InvalidSortingVector">並べ替えベクトルを、文字ベクトル、string 配列、または文字ベクトルの cell 配列として指定してください。</entry>
+    <entry key="ElementsNotData">並べ替えベクトルのすべての要素が、''{0}'' ベクトルまたは ''{1}'' ベクトルのいずれかに存在しなければなりません。</entry>
+    <entry key="InvalidString">関数 &lt;a href=\"matlab:doc string\"&gt;string&lt;/a&gt; は {0} 値を string に変換できませんでした。{0} 値を string、文字ベクトルのセル配列、または string に変換可能な配列として指定してください。</entry>
+    <entry key="InvalidCategoryNames">関数 &lt;a href=\"matlab:doc string\"&gt;categorical&lt;/a&gt; は {0} の値を有効なカテゴリ名に変換できませんでした。</entry>
+    <entry key="DuplicateDataWithNone">table に x 値と y 値の各ペアのインスタンスが複数含まれる場合、''ColorMethod'' の値として ''none'' はサポートされません。</entry>
+    <entry key="NoColorVariable">''ColorMethod'' の値が ''{0}'' の場合は、''ColorVariable'' を指定しなければなりません。</entry>
+    <entry key="InvalidCategoricalData">関数 &lt;a href=\"matlab:doc categorical\"&gt;categorical&lt;/a&gt; は、ソース table 変数 ''{0}'' をカテゴリに変換できません。</entry>
+    <entry key="InvalidColorVariable">''ColorVariable'' の値はソース table の実数値変数を参照しなければなりません。</entry>
+    <entry key="MissingValueIndicatorInData">欠損値インジケーターのため、ソース table 変数 ''{0}'' 内の値をカテゴリに変換できません。欠損値インジケーターの詳細については、&lt;a href=\"matlab:doc ismissing\"&gt;ismissing&lt;/a&gt; を参照してください。</entry>
+    <entry key="NonDiscretizedData">ソース table 変数 ''{0}'' の値が、離散カテゴリにグループ化されません。関数 &lt;a href=\"matlab:doc discretize\"&gt;discretize&lt;/a&gt; を使用して値をグループ化してください。</entry>
+    <entry key="CountTitle">{0} と {1} のカウント</entry>
+    <entry key="MeanTitle">{0} の平均値</entry>
+    <entry key="MedianTitle">{0} の中央値</entry>
+    <entry key="MinTitle">{0} の最小値</entry>
+    <entry key="MaxTitle">{0} の最大値</entry>
+    <entry key="SumTitle">{0} の合計</entry>
+    <entry key="NegativeColorDataInLogScale">負のカラー データは無視されました。</entry>
+    <entry key="InvalidArguments">引数は、table とそれに続く 2 つの table の添字、2 次元の数値行列、または 2 つのベクトルとそれに続く 2 次元数値行列でなければなりません。</entry>
+    <entry key="InvalidTableArguments">入力引数が不足しています。table の引数には 2 つの table の添字が続かなければなりません。</entry>
+    <entry key="ColorVariableNameValuePair">パラメーター名と値のペアを使用して ''ColorVariable'' を指定してください。</entry>
+    <entry key="InvalidParent">親コンテナーは Figure、uipanel または uitab でなければなりません。</entry>
+    <entry key="DeletedParent">親コンテナーは削除されたグラフィックス オブジェクトです。</entry>
+    <entry key="InvalidColorData">''ColorData'' は 2 次元の数値行列でなければなりません。</entry>
+    <entry key="InvalidLabelColorData">''ColorData'' の値は、''Strings'' の値の長さと同じ列数をもつ 4 行の uint8 行列でなければなりません。</entry>
+    <entry key="InvalidLabelVertexData">''VertexData'' の値は、''Strings'' の値の長さと同じ列数をもつ 3 行の single 行列でなければなりません。</entry>
+    <entry key="ColorMethodLabel">カラー データの計算方法</entry>
+  </message>
+</rsccat>

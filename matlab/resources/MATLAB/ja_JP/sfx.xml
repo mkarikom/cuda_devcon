@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ClosingModelDuringAnimation">Stateflow チャートが実行中です。Stateflow エディターを閉じる前に実行を停止してください。</entry>
+    <entry key="ModelContainsErrorNoCodegen">スタンドアロン Stateflow チャート {0} に次のエラーが含まれているため、コードを生成できません:\n {1}</entry>
+    <entry key="SFXVersionMismatchFix">チャート {0} を MATLAB の現在のバージョンで保存しています。元のバージョンは {1} に保存されています。</entry>
+    <entry key="SFXModelPathChanged">{0} によって定義された Stateflow チャート オブジェクトを実行できません。チャート {1} が優先されるためです。</entry>
+    <entry key="MATLABCoderErrorAllDataNotInitialized">Stateflow チャート {0} のデータ {1} が初期化されていません。コードを生成するには、[シンボル] ペインに、またはチャート オブジェクトの作成時にチャート データの初期値を入力してください。</entry>
+    <entry key="MATLABCoderTemporalWarning">チャート {0} の生成コードで、絶対時間の時相論理演算子は暗黙のイベントを生成しません。ステップ関数または明示的な入力イベント関数を呼び出すことで、チャートを起動してください。</entry>
+    <entry key="MATLABCoderEventQueueWarning">コード生成はイベント キューをサポートしないため、チャート {0} のイベント キュー サイズを設定できません。</entry>
+    <entry key="TemporalDeferred">時相論理演算 {0} は、チャートが現在のアクションを完了したときに実行されます。</entry>
+    <entry key="TimerPrecisionLost">{0} での時相論理演算子の引数の精度は 1 ミリ秒に制限されています。</entry>
+    <entry key="NonInstrumentedMode">チャート {0} のデバッグとチャート アニメーションが無効になっています。Stateflow エディターでこのチャートを実行するには、チャートを保存する前に Stateflow.App.Cdr.CdrConfMgr.generateCleanMATLABCode(false) と入力します。あるいは、MATLAB コマンド ウィンドウからチャートを実行します。</entry>
+    <entry key="NonInstrumentedModeEnabled">スタンドアロンの Stateflow チャート用の MATLAB コードを生成していますが、アニメーションとデバッグが無効になっています。アニメーションとデバッグを有効にするには、Stateflow.App.Cdr.CdrConfMgr.generateCleanMATLABCode(false) と入力してください。</entry>
+    <entry key="ClassFilenameMismatch">{0}Stateflow チャート {1} は保存後に名前が変更されました。実行するには、名前を {2} に戻すか、チャートを再保存してください。</entry>
+    <entry key="SFLicenseMissingForSFX">Stateflow チャートを編集するには、Stateflow ライセンスが必要です。Stateflow の詳細については、&lt;a href="https://www.mathworks.com/products/stateflow.html"&gt;ここをクリック&lt;/a&gt;してください。</entry>
+    <entry key="SFNotInstalledForSFX">Stateflow チャートを編集するには、Stateflow をインストールしてください。Stateflow の詳細については、&lt;a href="https://www.mathworks.com/products/stateflow.html"&gt;ここをクリック&lt;/a&gt;してください。</entry>
+    <entry key="InvalidSFXFileName">Stateflow チャートの名前 {0} が無効です。有効なチャート名の詳細については、&lt;a href="matlab:sfhelp('stateflow_naming_rules')"&gt;ここをクリック&lt;/a&gt;してください。</entry>
+    <entry key="IllegalTemporalOnShadowedTransition">{0}: 優先順位の低い遷移では、時相演算子はサポートされません。遷移の優先順位低下を避けるには以下のようにします:\n * 各ステートまたはジャンクションから作成する無条件遷移は 1 つだけとする。\n * 無条件遷移がどの条件付き遷移よりも後に実行されるように明示的に指定する。</entry>
+    <entry key="IllegalCountOnShadowedTransition">{0}: 優先順位の低い遷移では ''count'' 演算子はサポートされません。遷移の優先順位低下を避けるには以下のようにします:\n * 各ステートまたはジャンクションから作成する無条件遷移は 1 つだけとする。\n * 無条件遷移がどの条件付き遷移よりも後に実行されるように明示的に指定する。</entry>
+    <entry key="SaveStateflowChart">Stateflow チャートの保存</entry>
+    <entry key="LoadStateflowFirstToDebug">チャート {0} をデバッグするには、任意のチャートを開くことによってまず Stateflow を読み込みます。</entry>
+    <entry key="SFXCanNotOpenInCoder">{0} は Stateflow チャートです。開くには、[MATLAB で編集] をクリックします。</entry>
+    <entry key="StateflowEditor">Stateflow エディター</entry>
+    <entry key="SFXOpenQuestDlgMsg">ファイル {0} は存在しません。作成しますか?</entry>
+    <entry key="StopUnitTestingForCommandLine">Stateflow エディターがチャート {0} を実行している間、チャート オブジェクトは実行できません。新たなチャート オブジェクトが実行できるようにするには、まず [停止] をクリックします。</entry>
+    <entry key="LoadingStateflowForDebugStepIn">Stateflow チャート {0} を開いています。</entry>
+    <entry key="StateflowNeededForDebug">チャート {0} を開くことができません。チャートのデバッグには Stateflow が必要です。</entry>
+    <entry key="ClearAllWarningIgnored">Stateflow のランタイムがクリアされました。[すべてクリア] を使用し、しかし Stateflow モデルを再開しなかったことによる可能性があります。実行するには、開いているすべての Stateflow モデルを閉じてください。</entry>
+    <entry key="CountExpressionInvalid">ステート {0}、またはそのいずれかの出力遷移のカウント条件 ({1}) を評価できませんでした。</entry>
+    <entry key="AutoResolveWarning">Stateflow チャート {0} 内の自動的に関連付けられたシンボル {1}。</entry>
+    <entry key="InvalidEvent">{0}: 入力イベント {1} の使用が無効です。入力イベントはトリガーとしてのみ使用できます。</entry>
+    <entry key="InvalidTemporal">{0}: 時相演算子 {1} の使用が無効です。時相演算子はトリガーとしてのみ使用できます。</entry>
+    <entry key="PermissionsDeniedSFX">ファイル {0} の作成中にエラーが発生しました。アクセスが許可されていません。保存するには書き込み可能なフォルダーを選択してください。</entry>
+    <entry key="InvalidStepOrEventArgument">Stateflow チャート オブジェクト {1} の実行時の引数 {0} が無効です。</entry>
+    <entry key="StepOrEventArgumentErrorDataNameIncorrect">引数 {0} でエラーが発生しました: Stateflow オブジェクト {1} にデータ ''{2}'' がありません。</entry>
+    <entry key="StepOrEventArgumentErrorNoValue">Stateflow チャート オブジェクト {1} のデータ {0} の値が指定されていません。</entry>
+    <entry key="debugModeError">1. デバッグ モードが無効になっている、2. ファイル名が無効である、または 3. ブレークポイントの行番号が無効であるため、ブレークポイントを設定できませんでした。</entry>
+    <entry key="InvalidBreakpointCondition">条件式が無効です。条件は引用符で指定してください。</entry>
+    <entry key="BreakpointTransitionTested">ブレークポイント: テスト済みの遷移</entry>
+    <entry key="BreakpointTransitionValid">ブレークポイント: 有効な遷移</entry>
+    <entry key="BreakpointStateEntry">ブレークポイント: ステート Entry</entry>
+    <entry key="BreakpointStateDuring">ブレークポイント: ステート During</entry>
+    <entry key="BreakpointStateExit">ブレークポイント: ステート Exit</entry>
+    <entry key="BreakpointChartEntry">ブレークポイント: チャート Entry</entry>
+    <entry key="BreakpointEMLFunction">ブレークポイント: EML 関数</entry>
+    <entry key="BeforeTestingOfTransition">遷移 {0} のテスト前</entry>
+    <entry key="AfterActivationOfTransition">遷移 {0} のアクティブ化後</entry>
+    <entry key="JustBeforeEnteringState">ステート {0} に入る直前</entry>
+    <entry key="DuringState">During: ステート {0}</entry>
+    <entry key="ExitState">Exit: ステート {0}</entry>
+    <entry key="EntryChart">Entry: チャート {0}</entry>
+    <entry key="EMLFunction">During: EML 関数 {0}</entry>
+    <entry key="StateflowChart">Stateflow チャート</entry>
+    <entry key="ExecutionFunction">実行関数</entry>
+    <entry key="ConstantData">定数データ</entry>
+    <entry key="InputData">入力データ</entry>
+    <entry key="LocalData">ローカル データ</entry>
+    <entry key="OutputData">出力データ</entry>
+    <entry key="InputEventFunctions">入力のイベント関数</entry>
+    <entry key="ActiveStates">アクティブなステート:</entry>
+    <entry key="OpeningInOlderRelease">Stateflow チャート {0} を開けません。これは Stateflow の新しいバージョン ({1}) で作成されています。</entry>
+    <entry key="NameCollisionForLoopCounter">データ名が競合しています。{0} を {1} のループ カウンターとして使用しないでください。</entry>
+    <entry key="NameCollisionAnonymousFcnInput">データ名が競合しています。{0} を {1} の無名関数の引数として使用しないでください。</entry>
+    <entry key="NameCollisionInlineFcnInputOutput">データ名が競合しています。{0} を {1} のインライン関数の入力または出力引数名として使用しないでください。</entry>
+    <entry key="InvalidSFXName"> {0} は無効な名前です。予約されたキーワードまたはチャート名と競合しています。</entry>
+    <entry key="UnsupportedObject">{0} はスタンドアロンの Stateflow チャートでサポートされていません。詳細については、&lt;a href="matlab:helpview('stateflow','sf4ml_limitations')"&gt;ドキュメンテーション&lt;/a&gt;を参照してください。</entry>
+    <entry key="EmptyDataAfterInitialization">Stateflow チャート オブジェクト {0} に、初期化されていないデータ {1} があります。</entry>
+    <entry key="InvalidConstructorArgumentNameWithNoValue">''{0}'' の値が見つからないため、チャート オブジェクト {1} を作成できません。</entry>
+    <entry key="DifferentSourceAndDestination">ファイル名 {0} が無効です。エクスポートされたファイルが、ソース チャートと同じ名前であってはなりません。</entry>
+    <entry key="InvalidConstructorArgument">Stateflow チャート オブジェクト {1} の作成時の引数 {0} が無効です。</entry>
+    <entry key="ConstructorOutputMismatch">Stateflow チャート オブジェクト {0} の作成には出力引数が 1 個必要ですが、{1} 個が指定されています。</entry>
+    <entry key="VersionMismatch">チャート {0} は、異なるバージョンの Stateflow で保存されました。実行前に再保存してください。</entry>
+    <entry key="UnresolvedSymbolsPresentIn">Stateflow チャート {0} に未解決のシンボルがあります。</entry>
+    <entry key="InvalidSymbolWindowWorkspaceValue">{2} の [シンボル] ウィンドウで、データ {1} の値 ''{0}''(''{3}'') が無効です。値を 0 にリセットしています。数値、char 値、logical 値のみがサポートされています。</entry>
+    <entry key="InvalidSymbolWindowValue">{2} の [シンボル] ウィンドウで、データ {1} の値 ''{0}'' が無効です。値を 0 にリセットしています。</entry>
+    <entry key="SymbolUIInputUninitializedNotification">[シンボル] ウィンドウで入力データの値を指定します。</entry>
+    <entry key="BreakpointFail">ブレークポイントを設定できないか、ブレークポイントで停止できません。</entry>
+    <entry key="SLXShadowing">同じ名前 {0} の Simulink モデルが MATLAB パス上にあり、{1} より優先順位が高くなっています。いずれかのモデルについて、名前を変更するか、MATLAB パスの外に移動させるかしてください。</entry>
+    <entry key="ClearAll">この操作により、すべての Stateflow チャート オブジェクトの実行時の情報がクリアされます。チャート オブジェクトを実行するには、すべての Stateflow チャートを閉じてから開き直してください。</entry>
+    <entry key="GFError">{0}: グラフィカル関数の処理エラー。次の理由が考えられます: \n 1. 無効なグラフィカル関数名。\n 2. グラフィカル関数の構文エラー。\n 3. グラフィカル関数の無効なオブジェクト。\n 4. グラフィカル関数のオーバーラップするオブジェクト。</entry>
+    <entry key="FileNotOnPath">Stateflow チャート {0} は開いていますが、場所 {1} は MATLAB パス上にありません。ディレクトリを変更するか、この場所を MATLAB パスに追加してください。</entry>
+    <entry key="StaleSFXObject">オブジェクトの作成後に Stateflow チャート {0} が変更されました。</entry>
+    <entry key="SFXNotSaved">Stateflow チャート {0} の変更が保存されていません。実行前に保存してください。</entry>
+    <entry key="RuntimeException">{0} の実行時エラー\n {1}</entry>
+    <entry key="UnhandledError">Stateflow チャートが内部エラーを伴って保存されました。{0}: {1}</entry>
+    <entry key="InternalError">内部エラー。{0}: {1}</entry>
+    <entry key="UnsupportedDataType">データ型がサポートされていません。</entry>
+    <entry key="LintErrorOff">[編集時のエラーと警告] を選択して、編集時エラー チェックを有効にします。</entry>
+    <entry key="OrigAndRenamedModelOpen">{0} を保存できません。同じ名前の別のチャートが開いています。</entry>
+    <entry key="RenamedModelNeedsSave">{0} を保存できません。同じ名前の別のチャートが開いています。</entry>
+    <entry key="UnrecognizedType">認識されないセクション タイプです</entry>
+    <entry key="ParseErrorInSectionString">{0} で解析エラーが発生しました: {1}</entry>
+    <entry key="ReturnInStateTransition">{0}: ''return'' はステートや遷移ではサポートされていません。</entry>
+    <entry key="ParseErrorIn">{0}: 解析エラー {1}。</entry>
+    <entry key="UninitializedConstantData">[シンボル] ウィンドウで {0} の初期値を指定します。</entry>
+    <entry key="WrongNumberOfInputsToStep">関数 ''step'' では {0} 個の引数が必要ですが、{1} 個が指定されています。</entry>
+    <entry key="TemporalArgumentMustBePositiveScalarDouble">時相演算子 {0} の引数は、非負の double のスカラーでなければなりません。</entry>
+    <entry key="SameNameModelOpen">{0} を開くときにエラーが発生しました: 同じ名前のモデルが既に {1} から開かれています。すべての SFX キャッシュをクリアするには "bdclose all; clear all;" を使用してください。</entry>
+    <entry key="InvalidTemporalCount">{0}: ''temporalCount'' 演算子は 1 つの引数 (''sec''、''msec''、または ''usec'') を取ります。</entry>
+    <entry key="InvalidElapsed">{0}: ''elapsed'' 演算子は 1 つの引数 (''sec'') を取ります。</entry>
+    <entry key="InvalidTrigger">{0}: 遷移のトリガーは、イベントまたは時相論理演算子でなければなりません。</entry>
+    <entry key="HistoryJunctionInDefaultPath">{0}: デフォルト遷移パス内に無効なヒストリ ジャンクションがあります。</entry>
+    <entry key="InvalidOnCondition">{0}: 'On' 条件は、イベントまたは時相論理演算子のみを含まなければなりません。</entry>
+    <entry key="CannotReadFile">ファイル ''{0}'' を読み取れません。</entry>
+    <entry key="InvalidFilePath">ファイル パス {0} が無効です。</entry>
+    <entry key="InvalidFileName">ファイル名 {0} が無効です。</entry>
+    <entry key="InvalidInState">{0} 内: ステート {1} はこのレベルには存在しません。</entry>
+    <entry key="InvalidInInputs">{0}: ''in'' 演算子は 1 つの引数 (スコープ内のステート名) を取ります。</entry>
+    <entry key="InvalidHasChangedInputs">{0}: ''hasChanged'' 演算子は 1 つの引数 (データ オブジェクト) を取ります。</entry>
+    <entry key="InvalidHasChangedToFromInputs">{0}: ''hasChangedTo'' および ''hasChangedFrom'' 演算子は 2 つの引数 (データ オブジェクトと値) を取ります。</entry>
+    <entry key="InvalidHasChangedInputArgumentOne">{0}: 無効な引数です。スタンドアロンの Stateflow チャートで、変化検出演算子の最初の引数は、個々の行列要素または構造体フィールドではなく、チャート データ名でなければなりません。</entry>
+    <entry key="InvalidTemporalInputs">{0}: 時相演算子は 2 つの引数を取ります。最初の引数は double 値です。2 番目の引数はオプションで、''tick''、''sec''、または入力イベントです。</entry>
+    <entry key="IllegalTemporalOnMultipleStates">{0}: 複数のステートから到達可能な遷移では、時相演算子はサポートされません。</entry>
+    <entry key="IllegalTemporalOnDefaultTransition">{0}: デフォルト遷移とグラフィカル関数の遷移では、時相演算子はサポートされません。</entry>
+    <entry key="InvalidCountInputs">{0}: ''count'' 演算子は 1 つの引数 (logical 値) を取ります。</entry>
+    <entry key="IllegalCountOnDefaultTransition">{0}: デフォルト遷移およびグラフィカル関数の遷移では ''count'' 演算子はサポートされません。</entry>
+    <entry key="IllegalCountOnMultipleStates">{0}: 複数のステートから到達可能な遷移では、''count'' 演算子はサポートされません。</entry>
+    <entry key="PersistentNotAllowed">{0}: 永続変数は、Stateflow チャートではサポートされません。</entry>
+    <entry key="IllegalTemporalWithInputData">{0}: 絶対時間の時相論理は、入力データをもつチャートではサポートされません。</entry>
+    <entry key="UnsupportedStateLocalDataEventMessageFunction">{0} はステートを親とするローカル データまたは関数です。ステートを親とするローカル データと関数はサポートされません。</entry>
+    <entry key="CodeGenerationNotSupportedForTimers">{0}: 絶対時間の時相論理は、コード生成ではサポートされません。</entry>
+    <entry key="ResaveWarning">Stateflow チャート {0} の名前が {1} に変更されました。実行前に再保存してください。</entry>
+    <entry key="SavedWithErrorsStage">保存されましたが、エラーがあります。</entry>
+    <entry key="SavedWithErrors">モデルは正常に保存されましたが、エラーがあります。</entry>
+    <entry key="SaveSuccessStage">成功</entry>
+    <entry key="SaveFailureStage">失敗</entry>
+    <entry key="StopRunBeforeClosing">{0} は実行中です。実行を停止してチャートを閉じますか?</entry>
+    <entry key="SFXModelIsRunning">複数のスタンドアロン チャートのユニット テストを同時に行うことは、サポートされていません。チャート {1} のユニット テストを行う前に、チャート {0} の実行を停止してください。 </entry>
+    <entry key="RecursionLimitReached">Stateflow チャートで再帰呼び出しの最大回数に達しました。不要な再帰を避ける方法については、&lt;a href="matlab:sfhelp('avoid_unwanted_recursion')"&gt;ここをクリック&lt;/a&gt;してください。</entry>
+    <entry key="QueueIsFull">チャートが最大キュー サイズ {0} に達したため、イベントまたは時相論理演算を処理できません。詳細については、&lt;a href="matlab:helpview('stateflow','sf4ml-events')"&gt;Events in Standalone Charts&lt;/a&gt; を参照してください。</entry>
+    <entry key="NotAValidRelease">''{0}'' は有効なターゲット リリースでありません。</entry>
+    <entry key="RuntimeError">{0}</entry>
+    <entry key="EditTimeWarning">{0}:  {1}</entry>
+  </message>
+</rsccat>

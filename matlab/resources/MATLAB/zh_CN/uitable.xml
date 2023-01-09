@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DeprecatedFunction">uitable 的此实现已弃用，不再受支持。</entry>
+    <entry key="InputMustBeScalar">使用 UITABLE 时，numrows 和 numcols 必须为数值标量。</entry>
+    <entry key="MustMatchInfo">数据中列名称的数目必须与列数匹配</entry>
+    <entry key="InvalidCellArray">使用 UITABLE 时，列数据应为 1xn 元胞数组</entry>
+    <entry key="NumrowsMustBeScalar">numrows 必须为标量</entry>
+    <entry key="NumcolumnsMustBeScalar">numcolumns 必须为标量</entry>
+    <entry key="InvalidString">gridcolor 必须为有效的字符向量</entry>
+    <entry key="RowheightMustBeScalar">rowheight 必须为标量</entry>
+    <entry key="InvalidParent">父级必须是有效的句柄</entry>
+    <entry key="ParentMustBeFigureOrUIContainer">父级必须为图窗或任何 UIContainer</entry>
+    <entry key="InvalidPosition">位置必须为 1x4 数值数组</entry>
+    <entry key="ColumnwidthMustBeScalar">columnwidth 必须为标量</entry>
+    <entry key="NoDataProvided">未随 ColumnNames 一起提供数据</entry>
+    <entry key="OldTableUsage">您似乎正在使用已过时版本的 uitable。\n请参阅相应文档了解正确的 uitable 用法:\n  &lt;a href="{0}"&gt;help uitable&lt;/a&gt; 和 &lt;a href="{1}"&gt;doc uitable&lt;/a&gt;\n\n有关详细信息，请单击&lt;a href="{2}"&gt;此处&lt;/a&gt;\n</entry>
+    <entry key="ColumnFormatNotSupported">当 ''Data'' 值为表数组时，''ColumnFormat'' 值无效。</entry>
+    <entry key="FailedMxArrayCreate">无法创建 MCOS mxArray</entry>
+    <entry key="BadArguments">参数只能包括图窗、uicontainer 或 uitable 句柄和参数/值对组</entry>
+    <entry key="BadHandle">图窗或 uitable 句柄无效</entry>
+    <entry key="NeedSameNumberColumns">Data 和 ColumnNames 中的列数应匹配</entry>
+    <entry key="getPrintImage">必须对有效的 uitable 句柄调用 getPrintImage</entry>
+    <entry key="getGUIDEView">必须对有效的 uitable 句柄调用 getGUIDEView</entry>
+    <entry key="TableDataNotEditable">此位置的表数据不可编辑。</entry>
+    <entry key="NonEditableDataTypes">当数据是表数组时，仅对包含以下数据类型的单一向量的列，ColumnEditable 值才可以为 true:\n数值、逻辑值、日期时间、分类、字符串或字符向量元胞数组。
+</entry>
+  </message>
+</rsccat>

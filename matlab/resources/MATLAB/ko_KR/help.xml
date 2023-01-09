@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DefaultPropertyHelp">{0}은(는) 속성입니다.\n</entry>
+    <entry key="DefaultEventHelp">{0}은(는) 이벤트입니다.\n</entry>
+    <entry key="DefaultEnumerationHelp">{0}은(는) 열거형입니다.\n</entry>
+    <entry key="DefaultScriptHelp">{0}은(는) 스크립트입니다.\n</entry>
+    <entry key="DefaultFunctionHelp">{0}은(는) 함수입니다.\n {1}\n</entry>
+    <entry key="DefaultNoArgFunctionHelp">{0}은(는) 함수입니다.\n</entry>
+    <entry key="DefaultLocalFunctionHelp">{0}은(는) 로컬 함수입니다.\n {1}\n</entry>
+    <entry key="DefaultNoArgLocalFunctionHelp">{0}은(는) 로컬 함수입니다.\n</entry>
+    <entry key="DefaultClassHelp">{0}은(는) 클래스입니다.\n</entry>
+    <entry key="DefaultFullConstructorHelp">{0}은(는) 생성자입니다.\n {1}\n</entry>
+    <entry key="DefaultConstructorHelp">{0}은(는) 클래스입니다.\n {1}\n</entry>
+    <entry key="DefaultFolderHelp">{0}은(는) 폴더입니다.\n</entry>
+    <entry key="DefaultPackageHelp">{0}은(는) 패키지입니다.\n</entry>
+    <entry key="DefaultBuiltinHelp">{0}은(는) 문서에 설명되지 않은 내장 {1}입니다.\n</entry>
+    <entry key="DefaultMatfileHelp">{0}은(는) MAT 파일입니다.</entry>
+    <entry key="DefaultMexHelp">{0}은(는) MEX 파일입니다.\n</entry>
+    <entry key="DefaultPHelp">{0}은(는) P 코드 파일입니다.\n</entry>
+    <entry key="DefaultSLXHelp">{0}은(는) Simulink {1}입니다.\n</entry>
+    <entry key="DefaultNoSLXHelp">{0}은(는) Simulink 모델 또는 라이브러리 파일입니다.\n</entry>
+    <entry key="DefaultInvalidFileHelp">{0}은(는) 유효한 MATLAB 파일이 아닙니다.\n</entry>
+    <entry key="InputIsA">    입력값은 {0} 유형의 값입니다.\n</entry>
+    <entry key="InstanceIsA">    {0}은(는) {1} 유형의 변수입니다.\n</entry>
+    <entry key="TooManyCommands">명령 옵션은 하나만 지정될 수있음</entry>
+    <entry key="TooManyInputsWithLinks">도움말에서는 한 주제만 검색할 수 있습니다.\n\n&lt;a href="matlab:{0}"&gt;도움말 문서를 검색&lt;/a&gt;하려면 도움말 브라우저 검색 필드를 사용하십시오.</entry>
+    <entry key="TooManyInputsNoLinks">도움말에서는 한 주제만 검색할 수 있습니다.\n\n도움말 문서를 검색하려면 도움말 브라우저 검색 필드를 사용하십시오.</entry>
+    <entry key="HelpForBanner">--- {0}에 대한 도움말 ---\n\n</entry>
+    <entry key="HelpForTypoBanner">--- {0}을(를) 찾을 수 없습니다. {1}에 대한 도움말이 대신 표시됩니다. ---\n\n</entry>
+    <entry key="IsBothBanner">\n\n{0}은(는) 디렉터리 겸 함수입니다.\n\n</entry>
+    <entry key="MatfileBanner">{0}은(는) MAT 파일입니다.\n\n변수를 포함합니다.\n\n</entry>
+    <entry key="MethodsBanner">{0} 메서드:\n\n</entry>
+    <entry key="ContentsBanner">{0}의 내용:\n\n</entry>
+    <entry key="PackageBanner">{0} 패키지의 내용:\n\n</entry>
+    <entry key="HelpTopics">HELP 항목:\n\n</entry>
+    <entry key="MustBeSingleString">string형 입력값은 스칼라여야 합니다.</entry>
+    <entry key="MustBeCharVector">문자형 입력값은 벡터여야 합니다.</entry>
+  </message>
+</rsccat>

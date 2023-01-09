@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelInfo">信息</entry>
+    <entry key="LabelClose">关闭</entry>
+    <entry key="LabelHelp">帮助</entry>
+    <entry key="LabelFlag">标志</entry>
+    <entry key="LabelNew">新建</entry>
+    <entry key="LabelStart">开始</entry>
+    <entry key="LabelStop">停止</entry>
+    <entry key="LabelReset">重置</entry>
+    <entry key="LabelAutoPlay">自动播放</entry>
+    <entry key="LabelNext">下一个</entry>
+    <entry key="LabelPrevious">上一个</entry>
+    <entry key="LabelDoneLC">完成</entry>
+    <entry key="LabelSlowerLC">减速</entry>
+    <entry key="LabelFasterLC">加速</entry>
+    <entry key="CommentPressButtonsForExamplePlots"> % 右侧示例绘图的按钮。</entry>
+    <entry key="TitleProdNameDemos">{0} 演示</entry>
+    <entry key="TitleInformation">信息</entry>
+    <entry key="LabelPage">第 {0} 页</entry>
+    <entry key="IllegalPlotNumber">绘图编号非法。</entry>
+    <entry key="IndexExceedsNumberOfSubplots">索引超出子图数目。</entry>
+    <entry key="FinddemoFileNotFound">找不到 "{0}"。\n路径缓存可能已过期。请使用 "rehash toolboxcache" 进行更新。</entry>
+    <entry key="InputCountIncorrect">输入参数的数目不正确。</entry>
+  </message>
+</rsccat>

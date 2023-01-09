@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CellArrayRequired">CHECKBOXLABELS, DEFAULTVARIABLENAMES 및 ITEMSTOEXPORT는 모두 셀형 배열이어야 합니다.</entry>
+    <entry key="BadDefaultNames">디폴트 변수 이름은 고유해야 합니다.</entry>
+    <entry key="BadSelected">SELECTED는 논리형 배열이어야 합니다.</entry>
+    <entry key="InputSizeMismatchLabelsNamesExportItems">CHECKBOXLABELS, DEFAULTVARIABLENAMES 및 ITEMSTOEXPORT는 모두 같은 길이어야 합니다.</entry>
+    <entry key="InputSizeMismatchSelectedExportItems">SELECTED는 ITEMSTOEXPORT와 같은 길이어야 합니다.</entry>
+    <entry key="InputSizeMismatchFunctionListExportItems">FUNCTIONLIST는 ITEMSTOEXPORT와 같은 길이어야 합니다.</entry>
+  </message>
+</rsccat>

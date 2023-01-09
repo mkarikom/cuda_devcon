@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB" decorate_cxx_names="1">
+  <message>
+    <entry key="TooFewInputs">Requires at least one input.</entry>
+    <entry key="InvalidRNGType" note="stringDatatypeUpdate">GENTYPE must be a character vector containing the name of a generator algorithm.</entry>
+    <entry key="BadSeed">SEED must be a nonnegative integer value less than 2^32.</entry>
+    <entry key="BadParams">PARAMETERS must be a vector of non-negative integer values.</entry>
+    <entry key="ParamNotValid">PARAMETERS is not allowed for {0} generators.</entry>
+    <entry key="NoEmptyAllowed">Creation of empty RandStream objects is not allowed.</entry>
+    <entry key="NoCatAllowed">Concatenation of RandStream objects is not allowed.  Use a cell array to contain multiple objects.</entry>
+    <entry key="UndefinedFunction">Undefined function ''{0}'' for input arguments of type ''RandStream''.</entry>
+    <entry key="CantCreateLegacy">You may not create a legacy stream.</entry>
+    <entry key="WrongNumberArgs">Wrong number of arguments.</entry>
+    <entry key="BadParamName">Parameter name must be text.</entry>
+    <entry key="UnrecognizedParamName">Unrecognized parameter name:  {0}.</entry>
+    <entry key="AmbiguousParamName">Ambiguous parameter name:  {0}.</entry>
+    <!--Resource entries for src/mathrng-->
+    <entry key="InvalidRandKeyword">Unrecognized RAND keyword.</entry>
+    <entry key="InvalidRandnKeyword">Unrecognized RANDN keyword.</entry>
+    <entry key="ActivatingLegacyGenerators">Using ''{0}'' to set {1}''s internal state causes RAND, RANDI, and RANDN to use legacy random number generators.  This syntax is not recommended.  See &lt;a href="matlab:helpview([docroot ''\\techdoc\\math\\math.map''],''update_random_number_generator'')"&gt;Replace Discouraged Syntaxes of rand and randn&lt;/a&gt; to use RNG to replace the old syntax.</entry>
+    <entry key="ReadingInactiveLegacyGeneratorState">You have used ''{0}'' to read the internal state of a {1} random number generator that is not currently active, which most likely returns a result that is not valid.  This syntax is not recommended.  See &lt;a href="matlab:helpview([docroot ''\\techdoc\\math\\math.map''],''update_random_number_generator'')"&gt;Replace Discouraged Syntaxes of rand and randn&lt;/a&gt; to use RNG to replace the old syntax.</entry>
+    <entry key="InvalidHandle">Invalid or deleted object.</entry>
+    <entry key="PluginError">Error {0} from plugin generator: ''{1}''</entry>
+    <entry key="UnexpectedPluginError">Unexpected error from plugin generator.</entry>
+  </message>
+</rsccat>

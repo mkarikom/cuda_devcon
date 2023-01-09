@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">输入参数的数目不足。</entry>
+    <entry key="InvalidLevel">级别参数必须为有限标量值。</entry>
+    <entry key="NoDataInputs">必须提供 Y 数据或 X 和 Y 数据作为第一个参数。</entry>
+    <entry key="XDataSizeMismatch">XData 的大小必须与 YData 的大小相同。</entry>
+    <entry key="DifferentParents">区域组的所有成员都必须具有相同的父级。</entry>
+    <entry key="BaseValueLabel">基线值</entry>
+    <entry key="ShowBaseLine">基线可见性</entry>
+  </message>
+</rsccat>

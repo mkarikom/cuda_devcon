@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="EmptyDirectoryName">An empty directory name was given. No directory will be created.\nThis syntax may not be supported in future releases.</entry>
+    <entry key="DirectoryExists">Directory already exists.</entry>
+    <entry key="ExistsAsFile">Unable to create directory. {0} already exists as a file.</entry>    
+    <entry key="InvalidCharacter">Directory name contains characters that are not contained in the file system encoding.\nCertain operations may not work as expected.</entry>
+    <entry key="PermissionDenied">Resource already exists. Insufficient permissions to create directory ''{0}''.</entry>
+    <entry key="FailureToMkdir">Unable to make directory named ''{0}''.</entry>
+  </message>
+</rsccat>

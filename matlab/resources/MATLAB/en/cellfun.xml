@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidString" note="stringDatatypeUpdate">Could not get character vector.</entry>
+    <entry key="InvalidThirdInput">Dimension number must be a positive scalar integer.</entry>
+    <entry key="TooFewInputs">Too few inputs.</entry>
+    <entry key="TooManyInputs">Too many inputs.</entry>
+    <entry key="InvalidFirstInput" note="stringDatatypeUpdate">First input must be a function handle or a function name specified by a string or a character vector.</entry>
+    <entry key="InvalidSecondInput">cellfun works only on cells.</entry>
+    <entry key="InvalidInput">Incorrect number of inputs.</entry>
+    <entry key="UnknownOption">Unknown option.</entry>
+  </message>
+</rsccat>

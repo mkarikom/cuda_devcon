@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="fl_ustring">
+  <message>
+    <entry key="InvalidPath">Path argument does not specify a valid executable.</entry>
+    <entry key="UnsupportedVersion">Python version {0} is not supported. See https://www.mathworks.com/content/dam/mathworks/mathworks-dot-com/support/sysreq/files/python-support.pdf.</entry>
+    <entry key="UnsupportedVersion_Link">Python version {0} is not supported. See &lt;a href="https://www.mathworks.com/content/dam/mathworks/mathworks-dot-com/support/sysreq/files/python-support.pdf"&gt;this topic.&lt;/a&gt;</entry>
+    <entry key="InvalidType" note="stringDatatypeUpdate">Input must be a string scalar or character vector.</entry>
+    <entry key="InvalidVersion">Cannot find specified version.</entry>
+    <entry key="MicroVersion">Version number must be in major.minor form.</entry>
+    <entry key="PythonLoaded">Python is loaded. The version cannot be changed in this MATLAB session. To change the version, restart MATLAB, and then call ''pyversion''.</entry>
+    <entry key="InvalidArchitecture">Cannot use {0} Python. Use {1} Python instead.</entry>
+    <entry key="MissingInfoScript">pyinfo.py script not found.</entry>
+  </message>
+</rsccat>

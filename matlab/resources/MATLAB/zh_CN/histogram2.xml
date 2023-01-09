@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNameValueMismatch">尾部输入参数必须以名称-值对组的形式出现。</entry>
+    <entry key="BinCountsInvalidSize">如果设置了 ''NumBins''、''BinWidth''、''BinMethod''、''XBinLimits'' 或 ''YBinLimits'' 中的任何一个值，则无法设置 'BinCounts''，并且 'BinCounts'' 必须是大小为 [length(XBinEdges)-1 length(YBinEdges)-1] 的矩阵。</entry>
+    <entry key="EmptyBinCountsManualMode">当 ''BinCountsMode'' 设置为 ''manual'' 时，必须设置 ''BinCounts''。</entry>
+    <entry key="EmptyXBinLimitsManualMode">当 ''XBinLimitsMode'' 设置为 ''manual'' 时，必须设置 ''XBinEdges'' 或 ''XBinLimits''。</entry>
+    <entry key="EmptyYBinLimitsManualMode">当 ''YBinLimitsMode'' 设置为 ''manual'' 时，必须设置 ''YBinEdges'' 或 ''YBinLimits''。</entry>
+    <entry key="EmptyOrScalarXBinEdges">XBinEdges 必须为大于或等于 2 的长度向量。</entry>
+    <entry key="EmptyOrScalarYBinEdges">YBinEdges 必须为大于或等于 2 的长度向量。</entry>
+    <entry key="InvalidTileFaceColor">当 ''DisplayStyle'' 设置为 ''tile'' 时，FaceColor 必须为 ''flat''。</entry>
+    <entry key="InvalidTileFaceLighting">当 ''DisplayStyle'' 设置为 ''tile'' 时，FaceLighting 必须为 ''none''。</entry>
+    <entry key="InvalidBinMethod">BinMethod 不能设置为 ''manual''。</entry>
+    <entry key="InvalidColor">{0} 输入不是有效的颜色。</entry>
+    <entry key="InvalidMixedXBinInputs">''XBinEdges'' 输入不能后跟 ''NumBins''、''BinWidth''、''BinMethod'' 或 ''XBinLimits'' 中的任何一个。</entry>
+    <entry key="InvalidMixedYBinInputs">'Y'BinEdges'' 输入不能后跟 ''NumBins''、''BinWidth''、''BinMethod'' 或 ''YBinLimits'' 中的任何一个。</entry>
+    <entry key="BinCountsXEdgesMismatch">当 ''BinCountsMode'' 为 ''manual'' 时，''XBinEdges'' 的长度必须比 ''BinCounts'' 的行数大 1。</entry>
+    <entry key="BinCountsYEdgesMismatch">当 ''BinCountsMode'' 为 ''manual'' 时，''YBinEdges'' 的长度必须比 ''BinCounts'' 的列数大 1。</entry>
+    <entry key="MixedDataBinCounts">当 X 和 Y 输入非空时，无法设置 BinCounts。</entry>
+    <entry key="MissingYInput">X 和 Y 输入必须为数值或逻辑值并且大小必须相同。</entry>
+    <entry key="NonEmptyBinCountsAutoMode">当 ''BinCountsMode'' 设置为 ''auto'' 时，无法设置 ''BinCounts''。</entry>
+    <entry key="NonEmptyXBinLimitsAutoMode">当 ''XBinLimitsMode'' 设置为 ''auto'' 时，无法设置 ''XBinEdges'' 或 ''XBinLimits''。</entry>
+    <entry key="NonEmptyYBinLimitsAutoMode">当 ''YBinLimitsMode'' 设置为 ''auto'' 时，无法设置 ''YBinEdges'' 或 ''YBinLimits''。</entry>
+    <entry key="ReadOnlyPropertyManualBinCounts">当 BinCountsMode 为 ''manual'' 时，无法设置 {0}。</entry>
+    <entry key="TransparencyNotSupported">软件 OpenGL 渲染器不支持透明度。请考虑将图窗渲染器设置为 ''painters''。</entry>
+    <entry key="UnsupportedMethodManualBinCounts">当 BinCountsMode 为 ''manual'' 时，不支持 {0}。</entry>
+    <entry key="Value">值</entry>
+    <entry key="XBinEdges">X bin 边界</entry>
+    <entry key="YBinEdges">Y bin 边界</entry>
+  </message>
+</rsccat>

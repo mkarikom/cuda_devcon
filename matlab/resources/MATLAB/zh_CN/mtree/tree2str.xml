@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="errtree">参数中存在语法错误: {0}</entry>
+    <entry key="mapstr">映射对的第二个成员必须为字符向量。</entry>
+    <entry key="ixpath">ixpath 需要 {0}</entry>
+    <entry key="badStatement">错误的语句类型 {0}</entry>
+    <entry key="unknownExpr">未知的表达式节点 {0}</entry>
+  </message>
+</rsccat>

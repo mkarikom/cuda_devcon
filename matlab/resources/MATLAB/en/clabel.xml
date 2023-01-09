@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="ContourMatrixMustBeFull">Contour matrix must be full.</entry>
+      <entry key="ContourMatrixMustBeReal">Contour matrix must be real.</entry>
+      <entry key="ContourMatrixMustHaveAtMost2Dimensions">Contour matrix must have at most 2 dimensions.</entry>
+      <entry key="ContourMatrixMustHave2Rows">Contour matrix must have 2 rows.</entry>
+      <entry key="TextListMustBeVectorOrScalar">Text list values must be a vector or a scalar.</entry>
+      <entry key="TextListMustBeFinite">Text list values must be finite.</entry>
+      <entry key="TextListMustBeUniqueSortedIncreasing">Text list values must be unique, sorted, and increasing.</entry>
+      <entry key="LabelSpacingIgnoredManual">LabelSpacing property invalid with manual option to CLABEL.</entry>
+      <entry key="LabelSpacingIgnoredAuto">LabelSpacing property invalid when Contour handle argument to CLABEL is not specified.</entry>
+      <entry key="InvalidContourMatrixInput">First input must be a valid contour description matrix.</entry>
+      <entry key="ContourHandleInputs">Not enough contour handles.</entry>
+      <entry key="LabelHandleOutputs">Text handle output is not supported when a contour handle argument is supplied and label placement is automatic.</entry>
+      <entry key="ReadOnlyTextProperty">The following text property is read only: {0}.</entry>
+      <entry key="IgnoringTextProperty">The following text property will be ignored: {0}.</entry>
+      <entry key="IgnoringSpecialTextProperty">The {0} property is ignored when a contour handle argument is supplied and label placement is automatic.</entry>
+      <entry key="PleaseWaitAMoment">Please wait a moment...</entry>
+      <entry key="SelectContoursForLabeling">Carefully select contours for labeling.</entry>
+      <entry key="WhenDonePressReturn">When done, press RETURN while the Graph window is the active window.</entry>
+   </message>
+</rsccat>

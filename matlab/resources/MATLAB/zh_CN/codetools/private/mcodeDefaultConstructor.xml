@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UncommentLineToPreserveXlimits">取消以下行的注释以保留坐标区的 X 范围</entry>
+    <entry key="UncommentLineToPreserveylimits">取消以下行的注释以保留坐标区的 Y 范围</entry>
+    <entry key="UncommentLineToPreservezlimits">取消以下行的注释以保留坐标区的 Z 范围</entry>
+    <entry key="CurrentlyDoesNotSupportCodeGen">{0} 当前不支持代码生成，请输入正确输入语法对应的 ''doc {1}''</entry>
+    <entry key="InOrderToGenerateCodeUseGUIDE">可以使用 GUIDE 来为 {0} 生成代码。有关详细信息，请输入 ''doc guide''</entry>
+    <entry key="SetRemainingAxesPropertiesComment">设置其余坐标区属性</entry>
+    <entry key="SetActiveDataSpaceComment">激活坐标区的 {0} 侧</entry>
+  </message>
+</rsccat>

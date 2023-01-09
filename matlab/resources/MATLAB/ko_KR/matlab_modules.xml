@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="addpathFailedToCreateNewModule">{0}의 모듈이 이미 경로에 있거나 등록되었기 때문에 새 모듈을 인스턴스화할 수 없습니다. MATLAB에서 불일치가 발생합니다. 이 모듈을 경로에서 제거하십시오.</entry>
+    <entry key="rmpathFailedToRemoveModule">{0}에서 유효한 모듈을 찾을 수 없습니다. 이 모듈은 이전에 올바르게 인스턴스화되지 않았습니다.</entry>
+    <entry key="missingModuleDefinition">위치 {0}에서 모듈 정의 파일이 누락되었거나 올바르지 않습니다.</entry>
+    <entry key="cannotUnregisterNonRegisteredModuleFromRoot">위치 {0}에 현재 등록된 모듈이 없습니다.</entry>
+    <entry key="unregisterModuleNameNotFound">{0} 이름으로 현재 등록된 모듈이 없습니다. </entry>
+    <entry key="unregisterModuleVersionMismatch">모듈 {0}이(가) 현재 실행 중이기 때문에 모듈을 등록 해제할 수 없습니다. </entry>
+    <entry key="cannotUnregisterModuleFromNonRoot">모듈이 아닌 루트 위치에서 모듈을 등록 해제할 수 없습니다.</entry>
+    <entry key="moduleIdentifierHasAlreadyBeenClaimed">이 모듈은 등록할 수 없습니다. {0}에 있는 다른 모듈이 이 모듈과 동일한 모듈 이름, 프로바이더 및 버전을 사용하고 있습니다.</entry>
+    <entry key="registrationFailureSubfolderOnPath">모듈 {0}의 하위 폴더 {1}이(가) 현재 경로에 있기 때문에 이 모듈을 등록할 수 없습니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidNumberOfInputs">입력 인수의 개수가 올바르지 않음</entry>
+    <entry key="NoSuchFile">파일 {0}이(가) 존재하지 않습니다.</entry>
+    <entry key="GSNoBoundingBox">새 BoundingBox를 결정할 수 없습니다.</entry>
+    <entry key="ParameterFileCreation">파라미터 파일을 생성할 수 없습니다.</entry>
+    <entry key="FileUpdateFailure">파일 {0}의 BoundingBox 설정을 수정할 수 없습니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MethodCallOnClassWithSameNameAsBuiltin">[[[ MathWorks 내부 경고]]]\nHG 내장 항목과 이름이 동일한 클래스에서 HG 특정 메서드를 호출하려고 했습니다.\n클래스 이름은 \"{0}\"입니다.</entry>
+  </message>
+</rsccat>

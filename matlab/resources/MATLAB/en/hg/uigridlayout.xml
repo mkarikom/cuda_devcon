@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="WidthDoesNotMatchWeightsSize">Grid Layout Width {0,number,integer} does not match weights size {1,number,integer}</entry>
+    <entry key="HeightDoesNotMatchWeightsSize">Grid Layout Height {0,number,integer} does not match weights size {1,number,integer}</entry>
+    <entry key="ChildrenDoNotFit">There are {0,number,integer} children to layout in a {1,number,integer}x{2,number,integer} grid.</entry>
+  </message>
+</rsccat>

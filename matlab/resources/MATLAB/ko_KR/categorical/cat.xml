@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TypeMismatch">{0} 배열과 categorical형 배열을 결합(Concatenate)할 수 없습니다.</entry>
+    <entry key="TypeMismatchCell">셀형 배열에 문자형 벡터만 있는 경우가 아니면 셀형 배열과 categorical형 배열을 결합할 수 없습니다.</entry>
+    <entry key="NonNumericDim">차원 인수는 숫자형이어야 합니다.</entry>
+  </message>
+</rsccat>

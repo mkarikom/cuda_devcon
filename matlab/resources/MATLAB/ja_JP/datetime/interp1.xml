@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="XandXqBothDatetimes">X と XQ は、両方とも datetime 配列であるか、両方とも数値でなければなりません。</entry>
+    <entry key="VandExtrapValBothDatetimes">V と EXTRAPVAL は、両方とも datetime 配列であるか、両方とも数値でなければなりません。</entry>
+    <entry key="GridPointMinimumDifference">点間の最小差が {1} しかないのに対して、datetime のグリッド点 X の範囲が {0} であるため、内挿を実行できません。</entry>
+  </message>
+</rsccat>

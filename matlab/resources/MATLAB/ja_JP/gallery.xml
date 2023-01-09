@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidN">GALLERY(N) の N が無効です。</entry>
+    <entry key="parametersRequired">入力引数が不足しています。</entry>
+    <entry key="invalidMatName">行列の名前が無効です。</entry>
+    <entry key="invalidClassName">クラス名が無効です。</entry>
+    <entry key="SparseSingle">クラス ''single'' のスパース配列はサポートされません</entry>
+  </message>
+</rsccat>

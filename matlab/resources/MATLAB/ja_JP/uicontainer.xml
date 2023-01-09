@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidParentChildObject">親プロパティを子孫である子オブジェクトに設定しようとしています。</entry>
+    <entry key="InvalidInputArgument">引数には、親ハンドルとパラメーター/値の組み合わせだけを含むことができます</entry>
+    <entry key="InvalidParent">親ハンドルは、Figure、uicontainer、uibuttongroup のいずれかでなければなりません。</entry>
+    <entry key="InvalidParentFigure">親は Figure または UIContainer でなければなりません</entry>
+    <entry key="InvalidParentToChild">親プロパティを子孫である子オブジェクトに設定しようとしています。</entry>
+    <entry key="UnsupportedFeature">現在この機能はサポートされていません。</entry>
+    <entry key="SetScrollable">関数 figure で作成された Figure およびその子は、スクロールをサポートしません。</entry>
+    <entry key="ScrollableOff">プログラムでスクロールするには、'Scrollable' を 'on' にしなければなりません。</entry>
+    <entry key="InvalidScrollTarget">無効な場所</entry>
+  </message>
+</rsccat>

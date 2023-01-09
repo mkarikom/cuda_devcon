@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- Copyright 2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+      <entry key="TooManyTSInputs">Select timeseries objects from a dataset based on one of: 'SampleTime', 'TimeVector'.</entry>
+      <entry key="TooManyTTInputs">Select timetables from a dataset based on one of: 'SampleRate', 'TimeStep', or 'RowTimes'.</entry>
+      <entry key="InvalidArray">This method is only valid for scalar Dataset or Signal objects.</entry>
+      <entry key="InvalidOutputFormat">The output format must be one of the following: 'timetable', 'cell-by-signal', 'cell-by-sampletime', 'cell-by-timestep'.</entry>
+      <entry key="InvalidSampleTime">The sample time must be specified as a scalar or a vector containing positive numeric values.</entry>
+      <entry key="InvalidSampleRate">The sample rate must be a scalar or a vector containing numeric values, specified in Hz.</entry>
+      <entry key="InvalidTimeStep">The time step must be a scalar or a vector containing duration values.</entry>
+      <entry key="TemplateAndOtherFilter">Combining template with other specifications for selecting data to extract is not supported.</entry>
+      <entry key="SynchronizeDataError">Unable to synchronize the specified data. To output data as a cell array, set 'OutputFormat' to 'cell-by-signal'.</entry>
+      <entry key="InvalidTemplate">Template must be a timeseries object, timetable, Simulink.SimulationData.Signal, or a character vector or string scalar specifying the name of a dataset element.</entry>
+      <entry key="InvalidTimeVector">Time vector must be specified as a double vector.</entry>
+      <entry key="UnrecognizedTemplateName">Unrecognized dataset element name {0}.</entry>
+      <entry key="MultipleTemplatesFound">Multiple dataset elements have the provided name. Provide a timeseries object, timetable, or Simulink.SimulationData.Signal as the template input to specify which signal is to be used instead.</entry>
+      <entry key="AmbiguousTSUnits">All timeseries objects extracted from the input must have the same TimeInfo Units, unless 'OutputFormat' is set to 'cell-by-signal'.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MustBeChar">입력값은 문자로 구성된 행 벡터, string형 스칼라, cellstr 또는 string형 행렬이어야 합니다.</entry>
+    <entry key="StringMissingUnsupported">누락값인 string형 입력값은 지원되지 않습니다. &lt;a href="https://www.mathworks.com/help/matlab/ref/rmmissing.html"&gt;rmmissing&lt;/a&gt;을 사용하여 string형 배열에서 누락값을 제거하십시오.</entry>
+    <entry key="Builtin">내장</entry>
+  </message>
+</rsccat>

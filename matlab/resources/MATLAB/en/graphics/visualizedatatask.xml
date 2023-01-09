@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2020-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="SelectVizLabel">Select visualization</entry>
+    <entry key="SearchPlaceholderText">Search for a visualization</entry>
+    <entry key="AllLabel">All</entry>
+    <entry key="ChartInPurposeLine">Create a {0} interactively</entry>
+    <entry key="NoVizFound">No visualization found</entry>
+    <entry key="LinePlotsLabel">Line Plots</entry>
+    <entry key="DataDistLabel">Data Distribution Plots</entry>
+    <entry key="DiscreteDataLabel">Discrete Data Plots</entry>
+    <entry key="GeoPlotsLabel">Geographic Plots</entry>
+    <entry key="PolarPlotsLabel">Polar Plots</entry>
+    <entry key="ContourPlotsLabel">Contour Plots</entry>
+    <entry key="VectorFieldsLabel">Vector Fields</entry>
+    <entry key="SurfaceAndMeshLabel">Surface and Mesh Plots</entry>
+    <entry key="StatisticsLabel">Statistical Visualization</entry>
+    <entry key="AnimationLabel">Animation</entry>
+    <entry key="ImagesLabel">Images</entry>
+    <entry key="RequiredFieldLabel">This field is required.</entry>
+    <entry key="SignalProcessingLabel">Signal Processing</entry>
+    <entry key="FilterCategoryLabel">Filter by Category</entry>
+    <entry key="SelectDataPanelLabel">Select data</entry>
+    <entry key="SelectOptionalPanelLabel">Select optional visualization parameters</entry>
+    <entry key="DataLabel">Data</entry>
+    <entry key="SelectVariableLabel">select</entry>
+    <entry key="AllVariablesLabel">All variables</entry>
+    <entry key="SizeChannel">Size</entry>
+    <entry key="ColorChannel">Color</entry>
+    <entry key="ThetaChannel">Theta</entry>
+    <entry key="LatitudeChannel">Latitude</entry>
+    <entry key="LongitudeChannel">Longitude</entry>
+    <entry key="RChannel">Rho</entry>
+    <entry key="FunctionChannel">Function</entry>
+    <entry key="TimeIntervalChannel">Time Interval</entry>
+    <entry key="XYIntervalChannel">XY Interval</entry>
+    <entry key="LineStyleDesc">Line style</entry>
+    <entry key="MarkerDesc">Marker symbol</entry>
+    <entry key="AlignVertexDesc">Sharp vertical and horizontal lines</entry>
+    <entry key="MeshStyleDesc">Edges to display</entry>
+    <entry key="NoProperties">No parameters are available for selection</entry>
+    <entry key="SelectParametersTooltip">Add parameters for the selected visualization</entry>
+    <entry key="CreateLabel">Create</entry>
+    <entry key="AddLabel">Add</entry>
+    <entry key="RemoveVisualizationLabel">Remove visualization</entry>
+    <entry key="WarningLabel">Please select data</entry>
+    <entry key="CommentForAnnotations" note="{0} is call for xlabel/ylabel/title function; {1} is legend function">Add {0}, and {1}</entry>
+    <entry key="ChartSummaryOneData" note="{0} is name of chart; {1} is the workspace variable name">{0} of {1}</entry>
+    <entry key="ChartSummaryTwoData" note="{0} is name of chart; {1} and {2} are the workspace variables">{0} of {1} and {2}</entry>
+    <entry key="Tool_VisualizeDataTask_Label">Create Plot</entry>
+    <entry key="Tool_VisualizeDataTask_Description">Interactively create and explore visualizations</entry>
+    <entry key="SpecifyZColor">Specify Z and Color</entry>
+    <entry key="SpecifyXYZ">Specify X, Y, and Z</entry>
+    <entry key="SpecifyZ">Specify Z</entry>
+    <entry key="SpecifyColor">Specify Color</entry>
+    <entry key="SpecifyXYColor">Specify X, Y, and Color</entry>
+    <entry key="SpecifyXYZColor">Specify X, Y, Z, and Color</entry>
+    <entry key="SpecifyXYZVSlice">Specify X, Y, Z, Volume, and Slices</entry>
+    <entry key="SpecifyVXYZSlice">Specify Volume and XYZ Slices</entry>
+    <entry key="SpecifyFunctionInterval">Specify Function and Interval</entry>
+    <entry key="SpecifyXYZFunInterval">Specify XYZ Functions and Interval</entry>
+    <entry key="ConfigurationLabel" note="dropdown label to select type of input parameters of a chart">Configuration</entry>
+    <entry key="SpecifyUV">Specify U and V</entry>
+    <entry key="SpecifyXYUV">Specify X, Y, U, and V</entry>
+    <entry key="SpecifyXYUVWZ">Specify X, Y, U, V, W, and Z</entry>
+    <entry key="SpecifyUVWZ">Specify U, V, W, and Z</entry>
+    <entry key="SpecifySymmetric">Symmetric</entry>
+    <entry key="SpecifyAssymetricVertical">Asymmetric Vertical</entry>
+    <entry key="SpecifyAssymetricHorVert">Asymmetric Horizontal and Vertical</entry>
+    <entry key="UnsupportedLabel" note="{0} is function name">{0} unsupported</entry>
+    <entry key="OverlayTooltip" note="{0} is function name">Overlay plots using {0}</entry>
+    <entry key="UnsupportedTooltip" note="{0} is function name">Using {0} is unsupported for the currently selected visualization</entry>
+    <entry key="ConfigurationTooltip" note="dropdown tooltip text depicting type of input parameters of a chart">Select a configuration type to map your data with the visual channels of the selected chart</entry>
+    <entry key="ConfigurationMapError">All selected workspace variables cannot be mapped to the channels in this configuration. Select another configuration from the dropdown.</entry>
+    <entry key="OverlaySummaryLine">Overlay of multiple plots in same axes</entry>
+    <entry key="NoVizCreatedError">Create a visualization before attempting to add additional plots</entry>
+  </message>
+</rsccat>

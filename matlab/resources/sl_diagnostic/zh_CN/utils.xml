@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="sl_diagnostic" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownDiagnostic">未知错误</entry>
+    <entry key="MultipleDiagnostics">Multiple diagnostics</entry>
+    <entry key="OutOfRange">超出范围。请求索引 {0, number, integer}，但最大索引为 {1, number, integer}</entry>
+    <entry key="Simulation_Stage_Name">仿真</entry>
+    <entry key="Build_Stage_Name">编译</entry>
+    <entry key="Subsys_Build_Stage_Name">子系统编译</entry>
+    <entry key="Model_Load_Stage_Name">模型加载</entry>
+    <entry key="Update_Diagram_Stage_Name">更新图</entry>
+    <entry key="HotlinkTemplate">&lt;a href="{0}"&gt;{1}&lt;/a&gt;</entry>
+    <entry key="HotlinkTemplateArg">&lt;a href="{0}({1})"&gt;{2}&lt;/a&gt;</entry>
+    <entry key="Wrapper">{0}{1}</entry>
+  </message>
+</rsccat>

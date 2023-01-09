@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ActionCancel">キャンセル</entry>
+    <entry key="ActionOK">OK</entry>
+    <entry key="PanelTitleColorPalette">カラー パレット</entry>
+    <entry key="ErrorIconFileNoExistMessage">与えられたアイコン ファイルが見つかりません\n{0}</entry>
+    <entry key="PickIconImageFile">アイコン イメージ ファイルを選択</entry>
+    <entry key="FailureLoadingData">指定ファイルからアイコン データを読み込むことができませんでした。ファイル名が正しいか確認してください。\n{0}</entry>
+    <entry key="IconEditorPaneTitle">アイコン編集ペイン ({0} X {1})</entry>
+    <entry key="ImportButtonLabel">インポート...</entry>
+    <entry key="ImportButtonTooltip">イメージ ファイルからインポート</entry>
+    <entry key="PreviewPanelTitle">プレビュー</entry>
+    <entry key="ImportIconFileLabel">アイコン ファイルをインポート: </entry>
+    <entry key="ImportIconFilePrompt">下のペインでアイコンを新規作成するか、編集するアイコンのイメージ ファイルを指定</entry>
+    <entry key="InvalidIconFileTitle">無効なアイコン ファイル</entry>
+    <entry key="AllImageFilesDescription">すべてのイメージ ファイル</entry>
+    <entry key="MATFilesDescription">MATLAB MAT ファイル (*.mat)</entry>
+    <entry key="BMPFilesDescription">BMP ファイル (*.bmp)</entry>
+    <entry key="JPEGFilesDescription">JPEG ファイル (*.jpg)</entry>
+    <entry key="TIFFFilesDescription">TIFF ファイル (*.tif)</entry>
+    <entry key="GIFFilesDescription">GIF ファイル (*.gif)</entry>
+    <entry key="PNGFilesDescription">PNG ファイル (*.png)</entry>
+    <entry key="ActionCancelTooltip"/>
+    <entry key="ActionOKTooltip"/>
+  </message>
+</rsccat>

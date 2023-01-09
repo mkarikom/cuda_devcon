@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="describeFile">''{0}{1}'' 是一个 {2}。\n</entry>
+    <entry key="builtinFunction">''{0}'' 是内置函数。\n</entry>
+    <entry key="fileNotFound">未找到文件 ''{0}''。</entry>
+    <entry key="invalidRange">范围参数无效。</entry>
+    <entry key="PropInitialDimMismatchScalar">默认值的大小必须为标量。</entry>
+    <entry key="PropInitialDimMismatchScalarCompat">默认值的大小必须与指定的维度 {0} 匹配。</entry>
+    <entry key="PropInitialDimMismatchNonScalar">默认值的大小必须与指定的维度 {0} 匹配或者为标量。</entry>
+    <entry key="PropInitialClsMismatch">默认值必须为 {0} 或可转换为 {0}。</entry>
+    <entry key="DefaultPropertyValueRequired">类 {0} 为抽象类。请为属性 {1} 指定默认值。</entry>
+    <entry key="UnrecognizedClass">类 {0} 无法识别。</entry>
+    <entry key="PropSetDimMismatchScalar">值的大小必须为标量。</entry>
+    <entry key="PropSetDimMismatchScalarCompat">值的大小必须与指定的维度 {0} 匹配。</entry>
+    <entry key="PropSetDimMismatchNonScalar">值的大小必须与指定的维度 {0} 匹配或者为标量。</entry>
+    <entry key="PropSetClsMismatch">值必须为 {0} 或者可转换为 {0}。</entry>
+    <entry key="PropShortEnumSetClsMismatch">值必须为以下项目之一:\n{0}</entry>
+    <entry key="PropLongEnumSetClsMismatchWithHyperlink">值必须为 {0} 或者可转换为 {0}。请查看&lt;a href="matlab:enumeration(''{0}'');"&gt;有效选项的列表&lt;/a&gt;。</entry>
+    <entry key="PropLongEnumSetClsMismatchWithoutHyperlink">值必须为 {0} 或者可转换为 {0}。要查看有效选项的列表，请键入 enumeration(''{0}'')。</entry>
+    <entry key="UnableToConstructDefaultObject">无法构造类 {0} 的默认对象。</entry>
+    <entry key="ErrorCoercingImplicitDefaultValue">定义类 ''{1}'' 的属性 ''{0}'' 时出错。{2}</entry>
+    <entry key="ErrorValidatingImplicitDefaultValue">使用类 ''{1}'' 的属性 ''{0}'' 的隐式默认值时出错。{2}</entry>
+    <entry key="ErrorValidatingImplicitDefaultValueWithPostamble">{2}\n使用类 ''{1}'' 的属性 ''{0}'' 的隐式默认值时出错。</entry>
+    <entry key="ErrorSettingProperty">设置类 ''{1}'' 的属性 ''{0}'' 时出错。{2}</entry>
+    <entry key="ErrorSettingPropertyWithPostamble">{2}\n设置类 ''{1}'' 的属性 ''{0}'' 时出错。</entry>
+    <entry key="IllegalExplicitDefaultValue">设置类 ''{1}'' 的属性 ''{0}'' 的默认值时出错。{2}</entry>
+    <entry key="IllegalExplicitDefaultValueWithPostamble">{2}\n设置类 ''{1}'' 的属性 ''{0}'' 的默认值时出错。</entry>
+    <entry key="PropTypeNotSupportedForSubclassConcrete">不支持对继承的属性使用 size 和 validation 函数。属性 ''{0}'' 在超类 ''{1}'' 中定义为抽象属性。</entry>
+    <entry key="PropTypeAbstractOverride">超类 ''{0}'' 定义对属性 ''{2}'' 的验证，因此不允许使用子类 ''{1}'' 将属性 ''{2}'' 显式定义为 Abstract 属性。</entry>
+    <entry key="PropTypeMultipleAbstractValidations">类 ''{0}'' 和类 ''{1}'' 均定义了对 Abstract 属性 ''{2}'' 的验证。继承属性验证时，只有一个超类可以定义对属性 ''{2}'' 的验证。</entry>
+    <entry key="PropTypeSuperPropConcrete">属性 ''{2}'' 在类 ''{0}'' 中被定义为 Abstract 属性，在类 ''{1}'' 中未被定义为 Abstract 属性。继承属性验证时，该属性在定义它的所有超类中都必须为 Abstract，并且只有一个超类可以定义验证。</entry>
+    <entry key="UnsupportedClassForValidation">名为 ''{0}'' 的类未定义，或者不支持属性验证。</entry>
+    <entry key="NonScalarValidation">第一个输入必须为 'meta.Validation' 类的实例。</entry>
+    <entry key="ClassLink">&lt;a href="matlab:helpPopup {0}"&gt;{0}&lt;/a&gt;</entry>
+  </message>
+</rsccat>

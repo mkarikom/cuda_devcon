@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="mustBeFinite">值必须为有限值。</entry>
+    <entry key="mustBeGreaterThan">值必须大于 {0}。</entry>
+    <entry key="mustBeGreaterThanGenericText">值必须大于比较值。</entry>
+    <entry key="mustBeScalar">{0} 的第二个值必须为标量。</entry>
+    <entry key="mustBeGreaterThanOrEqual">值必须大于或等于 {0}。</entry>
+    <entry key="mustBeGreaterThanOrEqualGenericText">值必须大于或等于比较值。</entry>
+    <entry key="mustBeInteger">值必须为整数。</entry>
+    <entry key="mustBeLessThan">值必须小于 {0}。</entry>
+    <entry key="mustBeLessThanGenericText">值必须小于比较值。</entry>
+    <entry key="mustBeLessThanOrEqual">值必须小于或等于 {0}。</entry>
+    <entry key="mustBeLessThanOrEqualGenericText">值必须小于或等于比较值。</entry>
+    <entry key="mustBeMember">值必须为以下集合的成员: {0}\n</entry>
+    <entry key="mustBeNonempty">值不能为空。</entry>
+    <entry key="mustBeNonnegative">值必须为非负值。</entry>
+    <entry key="mustBeNegative">值必须为负值。</entry>
+    <entry key="mustBeNonsparse">值不能为稀疏值。</entry>
+    <entry key="mustBeNonzero">值不能为零。</entry>
+    <entry key="nonzeroLengthText">值必须为具有一个或多个字符的文本。</entry>
+    <entry key="mustBeNonNan">值不能为 NaN。</entry>
+    <entry key="mustBeNumeric">值必须为数值。</entry>
+    <entry key="mustBeNumericOrLogical">值必须为数值或逻辑值。</entry>
+    <entry key="mustBeRealOrLogical">值必须为实数或逻辑值。</entry>
+    <entry key="mustBePositive">值必须为正值。</entry>
+    <entry key="mustBeNonpositive">值不能为正值。</entry>
+    <entry key="mustBeReal">值必须为实数。</entry>
+    <entry key="mustBeFloat">值必须为浮点数组。</entry>
+    <entry key="mustBeScalarOrEmpty">值必须为标量或为空。</entry>
+    <entry key="mustBeTextScalar">值必须为字符向量或字符串标量。</entry>
+    <entry key="mustBeText">值必须为字符向量、字符串数组或字符向量元胞数组。</entry>
+    <entry key="mustBeUnderlyingType">值必须具有基础类型 ''{0}''。</entry>
+    <entry key="unsupportedClass">类 ''{1}'' 不支持验证函数 ''{0}''。</entry>
+    <entry key="mustBeMemberGenericText">值必须为所需集合的成员。</entry>
+    <entry key="mustBeA">值必须为以下类型之一: {0}</entry>
+    <entry key="mustBeVector">值必须为 1×n 向量或 n×1 向量。</entry>
+    <entry key="mustBeNonmissing">值不能有缺失数据。</entry>
+    <entry key="SixFields">
+  ''{0}''、''{1}''、''{2}''、''{3}''、''{4}'' 和 ''{5}''。
+</entry>
+    <entry key="FiveFields">
+  ''{0}''、''{1}''、''{2}''、''{3}'' 和 ''{4}''。
+</entry>
+    <entry key="FourFields">
+  ''{0}''、''{1}''、''{2}'' 和 ''{3}''。
+</entry>
+    <entry key="ThreeFields">
+  ''{0}''、''{1}'' 和 ''{2}''。
+</entry>
+    <entry key="TwoFields">
+  ''{0}'' 和 ''{1}''。
+</entry>
+    <entry key="SixTypes">
+  ''{0}''、''{1}''、''{2}''、''{3}''、''{4}'' 或 ''{5}''。
+</entry>
+    <entry key="FiveTypes">
+  ''{0}''、''{1}''、''{2}''、''{3}'' 或 ''{4}''。
+</entry>
+    <entry key="FourTypes">
+  ''{0}''、''{1}''、''{2}'' 或 ''{3}''。
+</entry>
+    <entry key="ThreeTypes">
+  ''{0}''、''{1}'' 或 ''{2}''。
+</entry>
+    <entry key="TwoTypes">
+  ''{0}'' 或 ''{1}''。
+</entry>
+    <entry key="LeftClosedRightClosed">
+  值必须大于或等于 {0} 且小于或等于 {1}。
+</entry>
+    <entry key="LeftClosedRightOpen">
+  值必须大于或等于 {0} 且小于 {1}。
+</entry>
+    <entry key="LeftOpenRightClosed">
+  值必须大于 {0} 且小于或等于 {1}。
+</entry>
+    <entry key="LeftOpenRightOpen">
+  值必须大于 {0} 且小于 {1}。
+</entry>
+    <entry key="mustBeFile">以下文件不存在: {0}</entry>
+    <entry key="mustBeFolder">以下文件夹不存在: {0}</entry>
+    <entry key="mustBeValidVariableName">The following are not valid variable names: {0}</entry>
+    <entry key="mustBeNonzeroLengthText">{0}</entry>
+    <entry key="quotedName">''{0}''</entry>
+    <entry key="OneField">
+      ''{0}''.
+    </entry>
+    <entry key="OneType">
+      ''{0}''.
+    </entry>
+    <entry key="mustBeInRange">{0}</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="unknownNorm">The only matrix norms available are 1, 2, inf, and \''fro\''.</entry>
+    <entry key="lessAccurate">Compute 2-NORM using SVD did not converge at index = {0,number,integer}.</entry>
+    <entry key="spNorm2notAvailable">Sparse norm(S,2) is not available.</entry>
+    <entry key="inputType">First argument must be single or double.</entry>
+    <entry key="inputMustBe2D">Input must be 2-D.</entry>
+  </message>
+</rsccat>

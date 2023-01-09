@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ConvertDateNumber">DATESTR は、日付番号を日付ベクトルに変換できませんでした。日付番号は範囲外です。</entry>
+    <entry key="monthFormat">認識されない月の表示形式です。</entry>
+    <entry key="hourFormat">認識されない時間の表示形式です。</entry>
+    <entry key="minuteFormat">認識されない分の表示形式です。</entry>
+    <entry key="secondFormat">認識されない秒の表示形式です。</entry>
+    <entry key="millisecondFormat">認識されないミリ秒の表示形式です。</entry>
+    <entry key="InputClass">基軸年は数値でなければなりません。</entry>
+    <entry key="ConvertToDateNumber">指定された datestr に入力を変換できません。\n{0}</entry>
+    <entry key="DateNumber">不明な日付書式番号: {0}</entry>
+    <entry key="ConvertDateNumberVerify">DATESTR は、日付番号を日付ベクトルに変換できませんでした。</entry>
+    <entry key="InputMustBeReal">Numeric input data must be real.</entry>
+  </message>
+</rsccat>

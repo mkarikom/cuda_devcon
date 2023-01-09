@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2010-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+  <!-- Errors in checkInputs -->
+    <entry key="BnonDouble">Invalid data type. Input matrices must be double-precision.</entry>
+    <entry key="BNotChol">opts.CHOLB specified, but B is not upper triangular.</entry>
+    <entry key="BsizeMismatchA">Input matrices must be the same size for generalized problems.</entry>
+    <entry key="InvalidOptsCholB">opts.cholB must be a logical scalar.</entry>
+    <entry key="InvalidOptsIsreal">opts.isreal must be a logical scalar.</entry>
+    <entry key="InvalidOptsIssym">opts.issym must be a logical scalar.</entry>
+	<entry key="InvalidOptsP">Number of basis vectors opts.p must be a positive integer &lt;= n.</entry>
+    <entry key="InvalidOptsPermB">opts.permB must be a permutation of 1:n.</entry>
+	<entry key="InvalidOptsTol">Convergence tolerance opts.tol must be a strictly positive real scalar.</entry>
+    <entry key="InvalidSigma">Sigma can be a scalar double or one of these options: ''LM'', ''SM'', ''LA'', ''SA'', ''BE'',''LR'', ''SR'', ''LI'', or ''SI''.</entry>
+    <entry key="NonDoubleOrFunction">First argument must be a double matrix or a function.</entry>
+    <entry key="NonIntegerDiagnosticLevel">Diagnostic level opts.disp must be 0, 1, or 2.</entry>
+	<entry key="NonIntegerEigQty">Number of eigenvalues requested, k, must be a positive integer not greater than n = {0,number,integer}.</entry>
+    <entry key="NonIntegerEigQtyDetail">Number of eigenvalues requested, k, must be a positive integer not greater than n = {0,number,integer}. Instead, it was {1}.</entry>
+    <entry key="NonIntegerEigQtyStruct">Number of eigenvalues requested, k, must be a positive integer not greater than n = {0,number,integer}. Instead, it was a struct.</entry>
+    <entry key="NonPosIntSize">Size of problem, ''n'', must be a positive integer.</entry>
+    <entry key="NonSquareMatrixOrFunction">First argument must be a square matrix or a function.</entry>
+	<entry key="NotRealOptsV0">Start vector opts.v0 must be real for real problems.</entry>
+    <entry key="OptionsNotStructure">Options argument must be a structure.</entry>
+    <entry key="OptsMaxitNotPosInt">Maximum number of iterations opts.maxit must be a positive integer.</entry>
+    <entry key="TooManyInputs">Too many input arguments.</entry>
+    <entry key="WrongSizeOptsV0">Start vector opts.v0 must be a double column vector of length n.</entry>
+  <!-- Warnings in checkInputs-->
+    <entry key="IgnoredOptionPermB">Ignoring opts.permB since B is not its sparse Cholesky factor.</entry>
+  <!-- Errors in extraChecks -->
+    <entry key="EigenvalueRangeNotValidSym" note="stringDatatypeUpdate">Invalid sigma value. For real symmetric problems, sigma must be ''LM'', ''SM'', ''LA'', ''SA'', or ''BE'', or a scalar double.</entry>
+    <entry key="EigenvalueRangeNotValidComp">Invalid sigma value. For nonsymmetric and complex problems, sigma must be ''LM'', ''SM'', ''LR'', ''SR'', ''LI'', or ''SI'', or a scalar double.</entry>
+	<entry key="InvalidOptsPforRealSymProb">For real symmetric problems, must have number of basis vectors opts.p &gt; k.</entry>
+    <entry key="InvalidOptsPforComplexOrNonSymProb">For nonsymmetric and complex problems, must have number of basis vectors opts.p &gt; k+1.</entry>
+  <!-- Warnings in extraChecks -->
+	<entry key="ComplexShiftForHermitianProblem">Complex eigenvalue shift sigma on a Hermitian problem (all real eigenvalues).</entry>
+    <entry key="SigmaChangedToLA">For real symmetric problems, sigma value ''LR'' (Largest Real) is now ''LA'' (Largest Algebraic).</entry>
+    <entry key="SigmaChangedToSA">For real symmetric problems, sigma value ''SR'' (Smallest Real) is now ''SA'' (Smallest Algebraic).</entry>
+    <entry key="SigmaChangedToLM">Sigma value ''BE'' only available for real symmetric problems.  Computing ''LM'' eigenvalues instead.</entry>
+  <!-- Errors in getOPs -->
+    <entry key="AminusBSingular">The shifted operator is singular. The shift is an eigenvalue. Consider using a different value for sigma.</entry>
+    <entry key="complexFunction">Function handle AFUN is complex. Set opts.isreal = false.</entry>
+    <entry key="SingularA">First input matrix is singular. The shift 0 is an eigenvalue. Consider using a nonzero numeric value for sigma.</entry>
+    <entry key="SingularB">Singular second input matrix is only supported when sigma is ''SM'' or a scalar double .</entry>
+  <!-- Warnings in getOPs -->
+    <entry key="IllConditionedA">First input matrix is close to singular or badly scaled. RCOND = {0}. Results may be inaccurate.</entry>
+    <entry key="IllConditionedB">Second input matrix B is close to singular or badly scaled. RCOND = {0}. Results may be inaccurate.</entry>
+    <entry key="SigmaNearExactEig">The shifted operator is close to singular or badly scaled. RCOND = {0}. Consider using a different value for sigma. </entry>
+  <!-- Errors in callARPACK -->
+    <entry key="ARPACKroutineError">Error with ARPACK routine {0}: info = {1,number,integer}</entry>
+    <entry key="ipntrMismatchWorkdColumn">ARPACK call resulted in an internal error: Invalid ipntr.</entry>
+    <entry key="UnknownIdo">ARPACK call resulted in an internal error: Unknown Ido.</entry>
+   <!-- Warnings in callARPACK -->
+    <entry key="NotAllEigsConverged">Only {0,number,integer} of the {1,number,integer} requested eigenvalues converged.</entry>
+  <!-- Printed Messages for opts.disp ~= 0 -->
+	<entry key="RitzValuesDisplayHeader">Iteration {0,number,integer}: a few Ritz values of the {1,number,integer}-by-{2,number,integer} matrix:</entry>
+    <entry key="PrintTimingsComputeAX">Compute A*X:                               {0}\n</entry>
+    <entry key="PrintTimingsSolveASIGMAI">Solve (A-SIGMA*I)*X=Y for X:               {0}\n</entry>
+    <entry key="PrintTimingsSolveASIGMAB">Solve (A-SIGMA*B)*X=B*Y for X:             {0}\n</entry>
+    <entry key="PrintTimingsPreproSigmaI">Pre-processing, including lu(A-sigma*I):   {0}\n</entry>
+    <entry key="PrintTimingsPreproSigmaB">Pre-processing, including lu(A-sigma*B):   {0}\n</entry>
+    <entry key="PrintTimingsPreprocessing">Pre-processing:                            {0}\n</entry>
+    <entry key="PrintTimingsCPUTimingResults">***********CPU Timing Results in seconds***********</entry>
+	<entry key="PrintTimingsPostprocessing">Post-processing:                           {0}\n</entry>
+    <entry key="PrintTimingsTotal">Total:                                     {0}\n</entry>
+  </message>
+</rsccat>

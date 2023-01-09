@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="getPrintImage">getPrintImage must be called on a valid uicontrol handle</entry>
+    <entry key="getGUIDEView">getGUIDEView must be called on a valid uicontrol handle</entry>
+    <entry key="BadArguments">Arguments may only include figure, uicontainer, or uicontrol handle and param/value pairs</entry>
+    <entry key="BadHandle">Invalid figure or uicontrol handle</entry>
+    <entry key="InvalidParent">Parent must be a Figure or UITab or any UIContainer</entry>
+  </message>
+</rsccat>

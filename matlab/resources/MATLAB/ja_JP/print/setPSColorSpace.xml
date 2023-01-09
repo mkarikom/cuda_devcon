@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CharArgs">入力引数は文字ベクトルでなければなりません。</entry>
+    <entry key="ColorSpace">ColorSpace 引数は、"cmyk"、"gray"、または "cmykgray" のいずれかでなければなりません。</entry>
+    <entry key="InconsistentTypes">出力ファイルは入力ファイルと同じファイル拡張子をもたなければなりません。</entry>
+    <entry key="BadInputFile">読み取り用に入力ファイルを開くことができません。</entry>
+    <entry key="NotPostScript">入力ファイルが PostScript ファイルではありません。</entry>
+    <entry key="NotFreeHEP">入力ファイルは、変更して色空間を設定できる PostScript ファイルではありません。</entry>
+    <entry key="BadOutputFile">書き込み用に出力ファイルを開くことができません。</entry>
+  </message>
+</rsccat>

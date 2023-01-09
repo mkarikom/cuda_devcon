@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="notEnoughInputs">输入参数的数目不足。</entry>
+    <entry key="tooManyInputs">输入参数太多。</entry>
+    <entry key="tooManyOutputs">输入参数太多。</entry>
+    <entry key="invalidFilename">为 daqread 指定的文件名无效。</entry>
+    <entry key="invalidFile">无法打开指定的文件: ''{0}''。</entry>
+    <entry key="invalidDAQFile">''{0}'' 不是有效的 Data Acquisition Toolbox 文件。</entry>
+    <entry key="truncatedFile">已截断的文件，尝试恢复尽可能多的数据。</entry>
+    <entry key="cannotRead">无法读取该数据文件。读取该文件时出现以下错误:\n {0}。</entry>
+    <entry key="invalidSecondArgument">指定的第二个参数无效。</entry>
+    <entry key="onlyDataReturned">当 ''OutputFormat'' 设置为 ''tscollection'' 时，左侧只能指定一个参数。</entry>
+    <entry key="noMatrixTimeWithTSC">当 ''OutputFormat'' 设置为 ''tscollection'' 时，''TimeFormat'' 不能设置为 ''matrix''。</entry>
+    <entry key="warnSampleRange">如果 SampleRate 属性不能代表外部时钟频率，则请求的样本可能不正确。尝试指定 ''Samples'' 范围。</entry>
+    <entry key="errorSampleRange">读取文件时出错。尝试指定 ''Samples'' 范围。</entry>
+    <entry key="tooManySamples">请求的样本多于可用样本。仅 {0} 个样本可用。</entry>
+    <entry key="fileTooLarge">该文件太大，无法读取到程序中。尝试使用 ''Samples'' 指定样本范围。</entry>
+    <entry key="dataConversion">将数据转换为双精度格式时出错。尝试将 ''DataFormat'' 指定为 ''native''。</entry>
+    <entry key="noRecordType">标头中的记录类型不可用。</entry>
+    <entry key="invalidProperty">为 daqread 指定的属性 ''{0}'' 无效。</entry>
+    <entry key="invalidPropertyValuePair">提供给 daqread 的属性值对无效。</entry>
+    <entry key="invalidSamplesRange">请求的 ''Samples'' 范围无效。</entry>
+    <entry key="invalidSamplesTwoElementRange">''Samples'' 必须指定为包含两个元素的范围。</entry>
+    <entry key="invalidSamplesInt">Samples 必须包含整数值。</entry>
+    <entry key="timeTwoElement">''Time'' 必须指定为包含两个元素的范围。</entry>
+    <entry key="timePositive">''Time'' 必须为正数。</entry>
+    <entry key="mutuallyExclusiveProperties">''{0}'' 和 ''{1}'' 属性是互斥的。</entry>
+    <entry key="invalidTriggerIndex">''Trigger'' 索引无效: {0}。</entry>
+    <entry key="invalidTrigger">''Trigger'' 必须指定为单个触发器或包含两个元素的范围。</entry>
+    <entry key="triggerInt">''Trigger'' 必须包含整数值。</entry>
+    <entry key="invalidChannelName">指定的通道名称无效。</entry>
+    <entry key="invalidChannelsIndex">''Channels'' 索引无效: {0}。</entry>
+    <entry key="invalidChannelsIndexMax">''Channels'' 索引: {0} 超过可用的通道数: {1}。</entry>
+    <entry key="invalidChannelsInt">''Channels'' 必须包含整数值。</entry>
+    <entry key="invalidDataFormat">''DataFormat'' 无效: {0}。''DataFormat'' 可以为 ''double'' 或 ''native''。</entry>
+    <entry key="invalidTimeFormat">''TimeFormat'' 无效: {0}。''TimeFormat'' 可以为 ''vector'' 或 ''matrix''。</entry>
+    <entry key="invalidOutputFormat">''OutputFormat'' 无效: {0}。''OutputFormat'' 可以为 ''matrix'' 或 ''tscollection''。</entry>
+    <entry key="invalidTimeSeries">时间向量无效: 最后一个元素出现异常的 NaN。</entry>
+    <entry key="legacySupportDeprecated">''{0}'' 函数已弃用，以后的版本中将会删除该函数。\n</entry>
+  </message>
+</rsccat>

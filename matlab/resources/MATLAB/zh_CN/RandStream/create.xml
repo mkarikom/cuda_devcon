@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadNumStreams">NUMSTREAMS 必须为小于 2^64 的正整数值。</entry>
+    <entry key="BadSeed">SEED 必须为小于 2^32 的非负整数值。</entry>
+    <entry key="BadStreamIndex">STREAMINDICES 必须包含小于或等于 NUMSTREAMS 的正整数值。</entry>
+    <entry key="BadParams">PARAMETERS 必须为包含非负整数值的向量。</entry>
+    <entry key="ParamNotValid">PARAMETERS 不允许用于 {0} 生成函数。</entry>
+    <entry key="TooManyOutputs">输出参数太多。</entry>
+    <entry key="InvalidRNGType">GENTYPE 必须为包含生成函数算法名称的字符向量。</entry>
+    <entry key="UnknownRNGType">未知的 RNG 类型: {0}。</entry>
+    <entry key="AllocError">创建流时出错。</entry>
+  </message>
+</rsccat>

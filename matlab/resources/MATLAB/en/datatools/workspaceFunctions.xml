@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2020 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+    <message>
+        <entry key="UnsupportedColumn">Unsupported column.  Valid columns are: {0}</entry>
+        <entry key="StatusTooLarge">Cannot display variables with more than {0} elements.</entry>
+        <entry key="StatusCannotReference">The variable cannot be referenced.</entry>
+    </message>
+</rsccat>
+

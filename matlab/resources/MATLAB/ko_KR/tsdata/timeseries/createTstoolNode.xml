@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TimeSeriesObjectDefined">시계열 객체 ''{0}''은(는) 이미 정의되어 있습니다.\n\n가져올 새 객체에 대해 다른 이름을 제공하십시오.\n</entry>
+    <entry key="EmptyNamesNotAllowed">빈 이름은 허용되지 않습니다. \n\n가져올 새 객체에 대해 다른 이름을 제공하십시오.</entry>
+    <entry key="EnterUniqueName">고유한 이름 입력</entry>
+  </message>
+</rsccat>

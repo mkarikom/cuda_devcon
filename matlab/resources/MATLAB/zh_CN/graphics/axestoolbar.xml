@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidParentAxes">父级必须是有效的 Axes 对象。</entry>
+    <entry key="InvalidAxesToolbar">父级必须是有效的 AxesToolbar 对象。</entry>
+    <entry key="InvalidToolbarButton">工具栏按钮样式必须是 "push" 或 "state"。</entry>
+    <entry key="CannotModifyDefaultAxesToolbar">不支持修改默认坐标区工具栏。</entry>
+    <entry key="UnknownProperty">未知的属性: {0}</entry>
+    <entry key="InvalidPropertyName">属性名称必须为字符向量或字符串。</entry>
+    <entry key="InvalidButtonEnum">枚举值无效。将值指定为 ''default'' 或包含以下一个或多个值的元胞数组: \n ''zoomin'' | ''zoomout'' | ''pan'' | ''rotate'' | ''datacursor'' | ''brush'' | ''restoreview'' | ''export''</entry>
+    <entry key="InvalidButtonType">{0} 不是有效值。将值指定为 ''default'' 或包含以下一个或多个值的元胞数组: \n ''zoomin'' | ''zoomout'' | ''pan'' | ''rotate'' | ''datacursor'' | ''brush'' | ''restoreview'' | ''export''</entry>
+    <entry key="InvalidGeoButtonEnum">枚举值无效。将值指定为 ''default'' 或包含以下一个或多个值的元胞数组: \n ''stepzoomin'' | ''stepzoomout'' | ''datacursor'' | ''restoreview'' | ''export''</entry>
+    <entry key="InvalidGeoButtonType">{0} 不是有效值。将值指定为 ''default'' 或包含以下一个或多个值的元胞数组: \n ''stepzoomin'' | ''stepzoomout'' | ''datacursor'' | ''restoreview'' | ''export''</entry>
+    <entry key="InvalidIndexedIcon">Icon 属性的矩阵值对于整数类型必须在 0-63 范围内，对于浮点类型必须在 1-64 范围内。</entry>
+    <entry key="InvalidRGBIcon">Icon 属性的 RGB 值必须为 M×N×3 数组。</entry>
+    <entry key="InvalidIcon">Icon 属性必须是内置类型或文件名或数值。</entry>
+    <entry key="ErrorWhileEvaluating">{0}\n计算坐标区工具栏的 {1} 时出错。</entry>
+    <entry key="ToolbarDropdownChildError">子对象必须为有效的 ToolbarPushButton 对象</entry>
+    <entry key="PrintWarning">导出的图像显示了坐标区工具栏。要从图像中删除坐标区工具栏，请再次导出。</entry>
+  </message>
+</rsccat>

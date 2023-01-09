@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="KeyWithoutValue">{0}에 대한 값이 지정되지 않았습니다.</entry>
+    <entry key="ParseFlagsUndir">파라미터 이름은 ''OutputForm''이어야 합니다.</entry>
+    <entry key="ParseOutput">OutputForm 값은 ''vector'' 또는 ''cell''이어야 합니다.</entry>
+  </message>
+</rsccat>

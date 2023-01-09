@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="XYSizeMismatch" context="error">The first two inputs must have the same number of elements.</entry>
+    <entry key="PolyNotUnique" context="warning">Polynomial is not unique; degree &gt;= number of data points.</entry>
+    <entry key="RepeatedPoints" context="warning">Polynomial is badly conditioned. Add points with distinct X values or reduce the degree of the polynomial.</entry>
+    <entry key="RepeatedPointsOrRescale" context="warning">Polynomial is badly conditioned. Add points with distinct X values, reduce the degree of the polynomial, or try centering and scaling as described in HELP POLYFIT.</entry>
+  </message>
+</rsccat>

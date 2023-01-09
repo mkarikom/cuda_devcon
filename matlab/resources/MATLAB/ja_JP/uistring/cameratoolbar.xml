@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Ok">OK</entry>
+    <entry key="Help">ヘルプ</entry>
+    <entry key="PreferenceDialogHeading">縦横比の調整</entry>
+    <entry key="PreferenceDialog">プロットは 3 次元回転中に縦横比が変更されないように\n外観を変更する可能性があります。Figure に適合するよう Axes の形状を変更するには、\n"カメラとライトのリセット" ツール バーの項目を\nクリックしてください。</entry>
+    <entry key="OrbitCamera">カメラの旋回移動</entry>
+    <entry key="OrbitSceneLight">シーン ライトの旋回移動</entry>
+    <entry key="PanTiltCamera">カメラの移動 (パン)/傾斜</entry>
+    <entry key="MoveCameraHorizontallyVertically">カメラを水平/垂直方向に移動</entry>
+    <entry key="MoveCameraForwardBack">カメラを前方/後方に移動</entry>
+    <entry key="ZoomCamera">カメラのズーム</entry>
+    <entry key="RollCamera">カメラの回転</entry>
+    <entry key="WalkCamera">カメラの移動</entry>
+    <entry key="PrincipalAxisX">X を主軸にする</entry>
+    <entry key="PrincipalAxisY">Y を主軸にする</entry>
+    <entry key="PrincipalAxisZ">Z を主軸にする</entry>
+    <entry key="NoPrincipalAxis">主軸を指定しない</entry>
+    <entry key="ToggleSceneLight">シーン ライトの切り替え</entry>
+    <entry key="OrthographicProjection">正投影法</entry>
+    <entry key="PerspectiveProjection">遠近投影法</entry>
+    <entry key="ResetCameraAndSceneLight">カメラとシーン ライトのリセット</entry>
+    <entry key="StopCameraLightMotion">カメラ/ライト モーションの中止</entry>
+    <entry key="CameraMotion">カメラ モーション</entry>
+    <entry key="PanTurnTilt">移動 (パン) - 回転/傾斜</entry>
+    <entry key="MoveHorizontallyVertically">移動 - 水平/垂直</entry>
+    <entry key="MoveForwardBack">移動 - 前方/後方</entry>
+    <entry key="Zoom_1">ズーム</entry>
+    <entry key="Roll_1">回転</entry>
+    <entry key="CameraAxes">カメラの軸</entry>
+    <entry key="XPrincipalAxis">X を主軸にする</entry>
+    <entry key="YPrincipalAxis">Y を主軸にする</entry>
+    <entry key="ZPrincipalAxis">Z を主軸にする</entry>
+    <entry key="CameraReset">カメラのリセット</entry>
+    <entry key="ResetCameraSceneLight">カメラとシーン ライトのリセット</entry>
+    <entry key="ResetTargetPoint">ターゲット ポイントのリセット</entry>
+    <entry key="ResetSceneLight">シーン ライトのリセット</entry>
+    <entry key="Projection">投影</entry>
+    <entry key="Orthographic">正投影法</entry>
+    <entry key="Perspective">遠近投影法</entry>
+  </message>
+</rsccat>

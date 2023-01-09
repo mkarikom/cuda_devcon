@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidTargetType">最初の引数は .NET オブジェクトまたは文字ベクトルでなければなりません。</entry>
+    <entry key="TargetTypeLoadError">.NET クラス ''{0}'' が見つかりません。</entry>
+  </message>
+</rsccat>

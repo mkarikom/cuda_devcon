@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidPath">パスの引数が有効な実行可能ファイルを指定していません。</entry>
+    <entry key="UnsupportedVersion">Python version {0} is not supported. See https://www.mathworks.com/content/dam/mathworks/mathworks-dot-com/support/sysreq/files/python-support.pdf.</entry>
+    <entry key="UnsupportedVersion_Link">Python version {0} is not supported. See &lt;a href="https://www.mathworks.com/content/dam/mathworks/mathworks-dot-com/support/sysreq/files/python-support.pdf"&gt;this topic.&lt;/a&gt;</entry>
+    <entry key="InvalidType">入力は、string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="InvalidVersion">指定されたバージョンが見つかりません。</entry>
+    <entry key="MicroVersion">バージョン番号は major.minor の形式でなければなりません。</entry>
+    <entry key="PythonLoaded">Python が読み込まれました。この MATLAB セッションでは、バージョンを変更できません。バージョンを変更するには、MATLAB を再起動して ''pyversion'' を呼び出します。</entry>
+    <entry key="InvalidArchitecture">{0} Python を使用できません。代わりに {1} Python を使用します。</entry>
+    <entry key="MissingInfoScript">pyinfo.py スクリプトが見つかりません。</entry>
+  </message>
+</rsccat>

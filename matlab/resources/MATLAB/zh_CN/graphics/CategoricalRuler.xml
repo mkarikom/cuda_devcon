@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Limits">值必须为一个 2 元素向量，其中包含按标尺的 Categories 属性排序的递增或相等分类值。</entry>
+    <entry key="Ticks">值必须为一个向量，其中包含按标尺的 Categories 属性排序的递增分类值。</entry>
+    <entry key="Categories">值必须为一个包含唯一类别的分类向量。</entry>
+    <entry key="NonNumericType">要转换的值必须为数值或分类数组。</entry>
+    <entry key="OrdinalDataNonOrdinalRuler">有序数据必须转换为坐标区无序类别。</entry>
+    <entry key="OrdinalRulerNonOrdinalData">无序数据必须转换为坐标区有序类别。</entry>
+    <entry key="OrdinalMismatch">有序类别必须与坐标区类别兼容。</entry>
+  </message>
+</rsccat>

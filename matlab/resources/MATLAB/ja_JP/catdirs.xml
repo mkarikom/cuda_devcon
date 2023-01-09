@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNotString">すべての引数は文字ベクトルでなければなりません。</entry>
+    <entry key="AddLeadingTrailingWhitespace">MATLAB パス上のフォルダーの前後に空白文字を付けることはできません。''{1}'' の代わりに ''{0}'' を追加します。</entry>
+    <entry key="RemoveLeadingTrailingWhitespace">MATLAB パス上のフォルダーの前後に空白文字を付けることはできません。''{1}'' の代わりに ''{0}'' を削除します。</entry>
+  </message>
+</rsccat>

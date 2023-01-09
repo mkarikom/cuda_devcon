@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="ACellArrayOfDataObjectsExpectedRedoAborted">A cell array of data objects expected. Redo aborted.</entry>
+      <entry key="ACellArrayOfDataObjectsExpectedUndoAborted">A cell array of data objects expected. Undo aborted.</entry>
+      <entry key="ObjectListCellArrayIsEmptyCannotRedo">Object list cell array is empty. Cannot Redo.</entry>
+      <entry key="ObjectListCellArrayIsEmptyCannotUndo">Object list cell array is empty. Cannot Undo.</entry>
+      <entry key="TheParentNodeSuppliedForRedoIsInvalid">The parent node supplied for Redo is invalid.</entry>
+      <entry key="TheParentNodeSuppliedForUndoIsInvalid">The parent node supplied for Undo is invalid.</entry>
+  </message>
+</rsccat>

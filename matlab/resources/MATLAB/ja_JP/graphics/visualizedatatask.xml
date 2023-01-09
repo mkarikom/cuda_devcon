@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SelectVizLabel">可視化の選択</entry>
+    <entry key="SearchPlaceholderText">可視化の検索</entry>
+    <entry key="AllLabel">すべて</entry>
+    <entry key="ChartInPurposeLine">{0} を対話的に作成</entry>
+    <entry key="NoVizFound">可視化が見つかりません</entry>
+    <entry key="LinePlotsLabel">ライン プロット</entry>
+    <entry key="DataDistLabel">データ分布プロット</entry>
+    <entry key="DiscreteDataLabel">離散データ プロット</entry>
+    <entry key="GeoPlotsLabel">地理プロット</entry>
+    <entry key="PolarPlotsLabel">極座標プロット</entry>
+    <entry key="ContourPlotsLabel">等高線図</entry>
+    <entry key="VectorFieldsLabel">ベクトル場</entry>
+    <entry key="SurfaceAndMeshLabel">表面プロットとメッシュ プロット</entry>
+    <entry key="StatisticsLabel">統計の可視化</entry>
+    <entry key="AnimationLabel">アニメーション</entry>
+    <entry key="ImagesLabel">イメージ</entry>
+    <entry key="RequiredFieldLabel">このフィールドは必須です。</entry>
+    <entry key="SignalProcessingLabel">信号処理</entry>
+    <entry key="FilterCategoryLabel">カテゴリでフィルター</entry>
+    <entry key="SelectDataPanelLabel">データの選択</entry>
+    <entry key="SelectOptionalPanelLabel">オプションの可視化パラメーターを選択</entry>
+    <entry key="DataLabel">データ</entry>
+    <entry key="SelectVariableLabel">選択</entry>
+    <entry key="AllVariablesLabel">すべての変数</entry>
+    <entry key="SizeChannel">サイズ</entry>
+    <entry key="ColorChannel">色</entry>
+    <entry key="ThetaChannel">Theta</entry>
+    <entry key="LatitudeChannel">緯度</entry>
+    <entry key="LongitudeChannel">経度</entry>
+    <entry key="RChannel">Rho</entry>
+    <entry key="FunctionChannel">関数</entry>
+    <entry key="TimeIntervalChannel">時間間隔</entry>
+    <entry key="XYIntervalChannel">XY 間隔</entry>
+    <entry key="LineStyleDesc">ライン スタイル</entry>
+    <entry key="MarkerDesc">マーカー記号</entry>
+    <entry key="AlignVertexDesc">垂直および水平のラインをシャープ化します</entry>
+    <entry key="MeshStyleDesc">表示するエッジ</entry>
+    <entry key="NoProperties">選択できるパラメーターがありません</entry>
+    <entry key="SelectParametersTooltip">選択した可視化用にパラメーターを追加</entry>
+    <entry key="CreateLabel">作成</entry>
+    <entry key="AddLabel">追加</entry>
+    <entry key="RemoveVisualizationLabel">可視化の削除</entry>
+    <entry key="WarningLabel">データを選択してください</entry>
+    <entry key="CommentForAnnotations">{0} および {1} の追加</entry>
+    <entry key="ChartSummaryOneData">{1} の {0}</entry>
+    <entry key="ChartSummaryTwoData">{1} と {2} の {0}</entry>
+    <entry key="Tool_VisualizeDataTask_Label">プロットの作成</entry>
+    <entry key="Tool_VisualizeDataTask_Description">可視化を対話的に作成し探索します</entry>
+    <entry key="SpecifyZColor">Z と色の指定</entry>
+    <entry key="SpecifyXYZ">X、Y、および Z の指定</entry>
+    <entry key="SpecifyZ">Z の指定</entry>
+    <entry key="SpecifyColor">色の指定</entry>
+    <entry key="SpecifyXYColor">X、Y、および色の指定</entry>
+    <entry key="SpecifyXYZColor">X、Y、Z および色の指定</entry>
+    <entry key="SpecifyXYZVSlice">X、Y、Z、ボリュームおよびスライスの指定</entry>
+    <entry key="SpecifyVXYZSlice">ボリュームと XYZ スライスの指定</entry>
+    <entry key="SpecifyFunctionInterval">関数と区間の指定</entry>
+    <entry key="SpecifyXYZFunInterval">XYZ 関数と区間の指定</entry>
+    <entry key="ConfigurationLabel">構成</entry>
+    <entry key="SpecifyUV">U と V の指定</entry>
+    <entry key="SpecifyXYUV">X、Y、U、および V の指定</entry>
+    <entry key="SpecifyXYUVWZ">X、Y、U、V、W および Z の指定</entry>
+    <entry key="SpecifyUVWZ">U、V、W および Z の指定</entry>
+    <entry key="SpecifySymmetric">対称</entry>
+    <entry key="SpecifyAssymetricVertical">非対称の垂直方向</entry>
+    <entry key="SpecifyAssymetricHorVert">非対称の水平方向と垂直方向</entry>
+    <entry key="UnsupportedLabel">{0} はサポートされていません</entry>
+    <entry key="OverlayTooltip">{0} を使用したプロットのオーバーレイ</entry>
+    <entry key="UnsupportedTooltip">現在選択されている可視化に対して {0} を使用することはサポートされていない</entry>
+    <entry key="ConfigurationTooltip">選択したチャートのビジュアル チャネルにデータをマッピングするための構成タイプを選択</entry>
+    <entry key="ConfigurationMapError">この構成では、選択したすべてのワークスペース変数をチャネルにマッピングできません。ドロップダウンから別の構成を選択してください。</entry>
+    <entry key="OverlaySummaryLine">同じ座標軸の複数のプロットのオーバーレイ</entry>
+    <entry key="NoVizCreatedError">プロットの追加を試みる前に可視化を作成してください</entry>
+  </message>
+</rsccat>

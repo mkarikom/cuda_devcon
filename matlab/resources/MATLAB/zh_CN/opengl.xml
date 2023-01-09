@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="switchToSoftwareMacNotSupported">MAC 平台上不支持改用 OpenGL 软件渲染。</entry>
+    <entry key="switchToSoftwareUnixNotSupported">在 unix 运行时不能改用 OpenGL 软件进行渲染。</entry>
+    <entry key="switchToHardwareMacNotSupported">MAC 平台上不支持改用 OpenGL 硬件渲染。</entry>
+    <entry key="switchToHardwareUnixNotSupported">在 unix 运行时不能改用 OpenGL 硬件进行渲染。</entry>
+    <entry key="settingOfSoftwareMacNotSupported">MAC 平台上不支持 OpenGL 软件渲染。</entry>
+    <entry key="loadStatus">OpenGL 无法加载。</entry>
+    <entry key="infoQuery">查询 OpenGL 时出错:</entry>
+    <entry key="dataQuery">查询 OpenGL 时出错:</entry>
+    <entry key="invalidBugWorkaround">未知的 OpenGL 程序错误解决办法: {0}</entry>
+    <entry key="knownDriverIssues">已知的图形驱动程序问题</entry>
+    <entry key="invalidInputArgument">错误的 OpenGL 输入参数:  {0}</entry>
+    <entry key="softwareUnsupported">opengl 函数不接受选项 'software'。请使用 '-softwareopengl' 选项启动 MATLAB，以便采用软件 OpenGL 模式运行。</entry>
+    <entry key="hardwareUnsupported">opengl 函数不接受选项 'hardware'。MATLAB 图形的默认渲染模式为硬件 opengl。</entry>
+    <entry key="deprecatedArgument">此选项没有任何作用，因为它不再受到支持: {0}</entry>
+    <entry key="deprecatedNoArgs">不再支持在使用 opengl 命令时不附带任何参数。</entry>
+    <entry key="MFileNotFound">未找到文件 {0}</entry>
+    <entry key="HardwareGLCrash">MATLAB 先前因底层图形错误而崩溃。为避免在此会话期间再次崩溃，MATLAB 将使用软件 OpenGL 而不再使用图形硬件。要保存该设置以供此后的会话使用，请使用 opengl('save', 'software') 命令。有关详细信息，请参见&lt;a href="matlab:opengl('problems')"&gt;解决底层的图形问题&lt;/a&gt;。</entry>
+    <entry key="SoftwareGLCrash">MATLAB 先前在使用软件 OpenGL 时因底层图形错误而崩溃。有关详细信息，请参阅&lt;a href="matlab:opengl('problems')"&gt;解决底层图形问题&lt;/a&gt;。</entry>
+    <entry key="unableToSelectHWGL">无法选择 OpenGL 硬件渲染。欲了解有关详细信息，请点击&lt;a href="matlab:opengl('problems')"&gt;此处&lt;/a&gt;。</entry>
+    <entry key="alterWindowsMesaOGLNotSupported">不支持在命令行中更改 OpenGL 实现。应在启动 MATLAB 时指定实现。</entry>
+  </message>
+</rsccat>

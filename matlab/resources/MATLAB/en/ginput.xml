@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NeedPositiveInt">Requires a positive integer.</entry>
+    <entry key="InputArgumentZero">GINPUT(N) requires a positive, integer, scalar input. Returning without collecting any user input.\nThis will become an error in a future release</entry>
+    <entry key="Interrupted">Interrupted</entry>
+    <entry key="FigureDeletionPause">Interrupted by figure deletion</entry>
+    <entry key="FigureUnavailable">No figure available to process a mouse/key event</entry>
+    <entry key="InvalidSelection">Invalid mouse selection.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotEnoughInputs">Needs at least 1 input.</entry>
+    <entry key="HigherDimArray">X must be a two-dimensional array.</entry>
+    <entry key="XLowColNum">X must have at least 1 column.</entry>
+    <entry key="NotEnoughPtsForTessel">Not enough unique points to create a triangulation.</entry>
+    <entry key="InvalidOpts">Bad options choice. Try using different options.</entry>
+  <!--Resource entries for toolbox/matlab/polyfun-->
+    <entry key="DuplicateDataPoints">Duplicate data points have been detected.\nSome data points do not map to vertices in the triangulation.\nTo avoid this behavior, call UNIQUE on the data points prior to calling DELAUNAY.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WindowTimeout">UIJ_AreThereWindowShowsPending - 창이 표시되기를 기다리는 동안 시간이 초과됨</entry>
+    <entry key="TestingTimeout">UIJ_AreThereWindowShowsPending - 크기 조정을 기다리는 동안 시간이 초과됨</entry>
+    <entry key="OutOfMemory">Java 힙 메모리가 부족하여 작업을 계속할 수 없음</entry>
+  </message>
+</rsccat>

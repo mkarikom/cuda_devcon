@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="OldVersion">uitabgroup 객체는 문서에 설명되지 않았으며 해당 속성 중 일부는 향후 릴리스에서 더 이상 사용되지 않을 예정입니다.\nuitabgroup이 업데이트된 속성을 사용하도록 기존 코드를 다시 작성하는 데 대한 도움말을 보려면 이 &lt;a href="{0}"&gt;링크&lt;/a&gt;를 참조하십시오.\n</entry>
+    <entry key="DeprecatedFunction">이러한 uitabgroup의 구현은 더 이상 사용되지 않으며 지원되지 않습니다.</entry>
+    <entry key="InvalidParent">부모는 figure, uipanel이거나 uitab이어야 합니다.</entry>
+    <entry key="InvalidChild">자식은 UITab이어야 합니다.</entry>
+    <entry key="MigratingFunction">v0 플래그는 uitabgroup에 더 이상 사용되지 않습니다. 이 함수를 계속 사용하려면 첫 번째 인수인 v0을 제거하십시오.</entry>
+    <entry key="MigratedFunction">v0 옵션은 더 이상 지원되지 않습니다. 이 기능을 계속 사용하려면 첫 번째 인수인 ''v0''을 제거하십시오.</entry>
+  </message>
+</rsccat>

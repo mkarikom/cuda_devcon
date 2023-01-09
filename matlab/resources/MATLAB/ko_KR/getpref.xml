@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="GroupDoesNotExist">그룹 {0}이(가) 존재하지 않음</entry>
+    <entry key="PrefDoesNotExistInGroup">그룹 {1}에 기본 설정 {0}이(가) 존재하지 않음</entry>
+  </message>
+</rsccat>

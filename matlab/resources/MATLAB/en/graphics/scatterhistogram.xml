@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2016-2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+  
+	<!-- Used by scatterhistogram function -->
+    <entry key="InvalidArguments">Arguments must be a table followed by 2 table subscripts, or 2 numeric or categorical vectors.</entry>
+    <entry key="InvalidTableArguments">Not enough input arguments. Table argument must be followed by 2 table subscripts.</entry>
+    <entry key="GroupVariableNameValuePair">Specify the ''GroupVariable'' using a parameter name and value pair.</entry>
+    <entry key="InvalidParent">Parent container must be a figure, uipanel, or uitab.</entry>
+    <entry key="DeletedParent">Parent container is a deleted graphics object.</entry>
+	<entry key="InvalidXOrYSize">x and y values must be vectors of equal length.</entry>
+	
+	<!-- Used by matlab.graphics.chart.ScatterHistogramChart -->
+	<!-- Matrix workflow -->
+	<entry key="InvalidXDataOrYDataSize">''XData'' and ''YData'' must be vectors of equal length.</entry>
+	<entry key="InvalidGroupDataSize">''GroupData'' must be a vector of the same length as that of ''XData'' and ''YData''.</entry>
+	<entry key="InvalidGroupDataCell">''GroupData'' must be a cell array of character vectors.</entry>
+	<entry key="InvalidNumericColorSize">''Color'' must be an N-by-3 matrix where N is either 1 or the number of groups in ''GroupData''.</entry>
+	<entry key="InvalidStringColorSize">''Color'' must be a scalar or a vector equal to number of groups in ''GroupData''.</entry>
+	<entry key="InvalidLimitsType">''{0}'' must have the same data type as ''{1}''.</entry>
+	<entry key="InvalidLimitsSize">''{0}'' must be a 2 element row vector.</entry>
+	<entry key="InvalidCategoryNames">&lt;a href=\"matlab:doc string\"&gt;categorical&lt;/a&gt; function could not convert the group values to valid category names.</entry>
+	
+	<!-- Table workflow-->
+	<entry key="InvalidSourceTable">''SourceTable'' value must be a table.</entry>
+	<entry key="MatrixWorkflow" note="{0} is a property name, such as SourceTable">Setting the ''{0}'' property after setting the ''XData'' property is not supported.</entry>
+    <entry key="TableWorkflow" note="{0} is a property name, such as XData">Setting the ''{0}'' property after setting the ''SourceTable'' property is not supported.</entry>
+	
+	<!-- Marker properties -->
+	<entry key="InvalidMarkerLength" note="{0} is a property like MarkerStyle, {1} is it's valid data type">''{0}'' must be a valid {1} scalar or a vector of length equal to number of groups in ''GroupData''.</entry>
+	
+	<!-- Histogram properties -->
+	<entry key="InvalidLineLength" note="{0} is a property like LineStyle, {1} is it's valid data type">''{0}'' must be a valid {1} scalar or a vector of length equal to number of groups in ''GroupData''.</entry>
+    <entry key="InvalidBinSize" note="{0} is a property like NumBins">''{0}'' must be a numeric scalar, a 2x1 vector or a 2xN matrix where N is the number of groups in ''GroupData''.</entry>
+	<entry key="StatsTbxInstalled">Smooth histograms are computed using kernel density estimates which require the Statistics Toolbox to be installed.</entry>
+	<entry key="NonNumericSmooth">Smooth histograms are computed using kernel density estimates which require the data to be numeric.</entry>
+	<entry key="BadColorValue">Setting ''Color'' to ''{0}'' is not supported.</entry>
+	<entry key="AmbiguousColorValue">''{0}'' is a partial match for more than one valid value for ''Color''.</entry>
+	
+	<!-- Layout properties -->
+	<entry key="InvalidProportion">''ScatterPlotProportion'' must be a numeric scalar between 0 and 1.</entry>
+		
+	<!-- Zoom/Home Tooltip String -->
+	<entry key="ZoomIn">Zoom In</entry>
+	<entry key="ZoomOut">Zoom Out</entry>
+	<entry key="RestoreView">Restore view</entry>
+	
+  </message>
+</rsccat>

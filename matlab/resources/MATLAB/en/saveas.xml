@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="tooFewInputs">Requires handle to Figure or block diagram and filename.</entry>
+      <entry key="badFormat">Unsupported format or extension: {0}</entry>
+      <entry key="invalidHandle">Invalid handle.</entry>
+      <entry key="invalidFigureHandle">Invalid figure handle.</entry>
+      <entry key="invalidSimulinkHandle">Invalid Simulink handle.</entry>
+      <entry key="invalidFilename">Invalid filename.</entry>
+      <entry key="invalidFilenameFile">Invalid filename: {0}</entry>
+      <entry key="invalidFilenameAsterisk">Invalid filename: {0}, * is not a valid filename character.</entry>
+      <entry key="invalidFilenameExtension">Invalid extension: {0}</entry>
+      <entry key="invalidFilenameBadPath">Invalid or missing path: {0}</entry>
+   </message>
+</rsccat>

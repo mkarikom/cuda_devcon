@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="StretchDIBits">메타파일 StretchDIBits에서 실패함. 마지막 오류 {0}을(를) 가져옴</entry>
+    <entry key="BitBlt">BitBlt에서 실패함. 마지막 오류 코드는 {0}임</entry>
+    <entry key="SetStretchBltMode">SetStretchBltMode에서 비트맵 그리기에 실패함. StretchBlt를 실행할 수 없음(gle{0})</entry>
+    <entry key="SetStretchBltModeOperationNotSupported">SetStretchBltMode에서 비트맵 그리기에 실패함. 장치에 지원되지 않는 작업임</entry>
+    <entry key="StretchBlt">StretchBlt에서 실패함. 마지막 오류 코드 {0}임</entry>
+    <entry key="NoSetDIBits">장치에 SetDIBits가 지원되지 않음</entry>
+    <entry key="SetDIBits">SetDIBits에서 실패함(gle{0})</entry>
+    <entry key="NoDCBitBlt">장치에 BitBlt가 지원되지 않음</entry>
+    <entry key="NoDCMemBitBlt">메모리 장치에 BitBlt가 지원되지 않음</entry>
+    <entry key="CloseEnhMetaFile">CloseEnhMetaFile에서 실패함. hDC {1}의 마지막 오류 코드는 {0}임</entry>
+    <entry key="CreateCompatibleDC">CreateCompatibleDC에 실패함. hDC {1}의 마지막 오류 코드는 {0}임</entry>
+    <entry key="CreateCompatibleBitmap">CreateCompatibleBitmap에서 실패함. 마지막 오류 코드는 {0}임</entry>
+    <entry key="BitBltWithReturnCode">BitBlt에서 실패함. 마지막 오류 코드는 {0}임. 반환 코드는 {1}임</entry>
+    <entry key="BitBltMemory">메모리 BitBlt에서 실패함(gle{0})</entry>
+    <entry key="FileExists">{0}이(가) 이미 존재합니다. 바꾸시겠습니까?</entry>
+    <entry key="SelectFileToWrite">쓰려는 파일 선택</entry>
+  </message>
+</rsccat>

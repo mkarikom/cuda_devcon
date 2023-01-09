@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InputsMustBeStrings" note="stringDatatypeUpdate">Inputs must be character vectors or string scalars.</entry>
+    <entry key="TooManyOutputArguments">Too many output arguments.</entry>
+    <entry key="OSError" translate="false" note="TranslateFalseBatch;">{0}</entry>
+    <entry key="TooManyInputArguments">Too many input arguments.</entry>
+    <entry key="URLNotAllowed">Use the 'dir' function for URL support.</entry>
+  <!--Resource entries for toolbox/matlab/general-->
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noRcondSparse">rcond(full(S)) 또는 condest(S)를 사용하십시오.</entry>
+    <entry key="notSquareMatrix">입력값은 정사각 행렬이어야 합니다.</entry>
+  </message>
+</rsccat>

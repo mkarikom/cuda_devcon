@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="matrixWithNaNInf">ORDEIG 的输入不能包含 NaN 或 Inf。</entry>
+    <entry key="inputMustBe2DStandard">输入必须为二维。</entry>
+    <entry key="inputMustBeSquareStandard">输入必须为方阵。</entry>
+    <entry key="inputMustBeFullStandard">输入必须为满矩阵。</entry>
+    <entry key="inputMustBeUpperTriStandard">对于 ORDEIG(A)，当 A 为复矩阵时，A 必须为上三角矩阵。</entry>
+    <entry key="inputMustBeBlockUpperTriStandard">对于 ORDEIG(A)，当 A 为实矩阵时，A 必须为对角线上具有 1×1 和 2×2 块的分块上三角矩阵。</entry>
+    <entry key="inputTypeGeneralized">输入必须为单精度值或双精度值。</entry>
+    <entry key="inputMustBe2DGeneralized">输入必须为二维。</entry>
+    <entry key="inputMustBeSquareGeneralized">输入必须为方阵。</entry>
+    <entry key="inputMustBeSameSizeGeneralized">各个输入的大小必须相同。</entry>
+    <entry key="inputMustBeFullGeneralized">输入必须为满矩阵。</entry>
+    <entry key="inputMustBeUpperTriGeneralized">对于 ORDEIG(A,B)，当 A 或 B 为复矩阵时，A 和 B 必须为上三角矩阵。</entry>
+    <entry key="inputMustBeBlockUpperTriGeneralized">对于 ORDEIG(A,B)，当 A 和 B 为实矩阵时，A 必须为对角线上具有 1×1 和 2×2 块的分块上三角矩阵。此外，B 也必须为上三角矩阵。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidinput">첫 번째 입력값은 Java 객체여야 함</entry>
+    <entry key="invalidevent">{0}에 대한 콜백 이름을 인식할 수 없습니다. \n유효한 콜백은 다음과 같음:\n {1}</entry>
+    <entry key="InvalidParentHandle">유효하지 않은 부모 핸들임\n{0}</entry>
+    <entry key="JavaFigsNotEnabled">Java Figure의 사용이 설정되어 있지 않음</entry>
+    <entry key="InvalidPosition">유효하지 않은 구성요소 위치임\n{0}</entry>
+    <entry key="FeatureNotSupported">이 플랫폼에서는 JAVACOMPONENT가 지원되지 않음</entry>
+    <entry key="IncorrectUsage">\n경고: 이 기능은 MATLAB에서 지원되지 않으며, 향후 릴리스에서 \nAPI와 기능이 변경될 수 있습니다.\n\n사용법: javacomponent(javaClassName, position, parent, callback) \n- position은 비어 있거나, [left bottom width height](픽셀 단위)이거나\n 또는 문자형 벡터 North, South, East, West일 수 있습니다.\n- parent는 Figure 또는 uitoolbar 핸들일 수 있습니다.\n- callback은 비어 있거나 JavaEvents 및 해당 핸들러의 셀형 배열일 수 있습니다.</entry>
+  </message>
+</rsccat>

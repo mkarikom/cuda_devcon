@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">delsample 方法只能用于单时序对象</entry>
+    <entry key="invalidindex">索引必须由整数向量指定。</entry>
+    <entry key="nonintegerindex">指定的索引不是整数。</entry>
+    <entry key="outofboundsindex">指定的索引超出范围。</entry>
+    <entry key="nostartdate">时间必须为数值。</entry>
+    <entry key="timeconversion">时间值不能转换为时序格式</entry>
+    <entry key="invalidtime">Value 输入必须为日期字符向量/字符串、日期字符向量/字符串元胞数组或数值</entry>
+    <entry key="unrecognizedmethod">必须指定样本索引或时间才能删除每个样本。</entry>
+    <entry key="invalidmethod">第二个参数必须为字符向量/字符串，用于指定标识要删除的样本的方法。</entry>
+  </message>
+</rsccat>

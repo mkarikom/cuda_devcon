@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MustBeRowOrColumnVector">ハンドルの配列は、行ベクトルまたは列ベクトルでなければなりません</entry>
+    <entry key="MustBeExportableHandle">ハンドルの配列は、エクスポート可能なオブジェクトを含まなければなりません</entry>
+    <entry key="badField">無効なフィールドまたは値が {0} に指定されました。</entry>
+    <entry key="NotAvailableInDemoVersion">グラフィックス出力の生成はデモ バージョンでは利用できません</entry>
+    <entry key="Unknown">不明</entry>
+    <entry key="UnableToDetermineOutputGenerator">ドライバー ''{0}'' と拡張子 ''{1}'' に使用する出力ジェネレーターを特定できません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="funArgNotHandle">첫 번째 입력값은 함수 핸들이어야 합니다.</entry>
+    <entry key="functionHandleEmpty">Function handle must be non-empty.</entry>
+    <entry key="errorHandlerEmpty">Error handler must be a non-empty function handle.</entry>
+    <entry key="UnequalDimensions">모든 입력 인수는 차원이 같아야 합니다.\n이전 입력값은 {0}차원입니다. 입력값 #{1}에 {2}이(가) 있습니다.</entry>
+    <entry key="UnequalSize">모든 입력 인수는 차원이 같아야 합니다.\n이전 입력값의 크기는 {0}({1}차원)입니다. 입력값 #{2}의 크기는 {3}입니다.</entry>
+    <entry key="SparseNotSupported">희소 배열은 지원되지 않습니다.  SPFUN을 참조하십시오.</entry>
+    <entry key="MismatchInOutputTypes">출력 유형이 일치하지 않습니다(인덱스 {0}, 출력값 {1}({2} 대 {3})).\n'UniformOutput'을 false로 설정하십시오.</entry>
+    <entry key="NotAScalarOutput">Uniform 출력값에 스칼라가 아닌 값이 있습니다(인덱스 {0}, 출력값 {1}).\n'UniformOutput'을 false로 설정하십시오.</entry>
+    <entry key="structFieldNumberMismatch">인덱스 {0}, 출력값 {1}에서 구조체 필드 개수가 이전 필드 개수와 일치하지 않습니다. 'UniformOutput'을 false로 설정하십시오.</entry>
+    <entry key="structFieldNameMismatch">인덱스 {0}, 출력값 {1}에서 구조체 필드 ''{2}''의 이름이 이전 이름 ''{3}''과(와) 일치하지 않습니다. 'UniformOutput'을 false로 설정하십시오.</entry>
+    <entry key="UnimplementedOutputArrayType">{0} 출력 유형은 지원되지 않습니다. 'UniformOutput'을 false로 설정하십시오.</entry>
+    <entry key="SubsasgnProblem">인덱스 {1}에서 Uniform 출력 배열 {0}에 할당할 수 없습니다. 'UniformOutput'을 false로 설정하십시오.</entry>
+    <entry key="NoOutput">Uniform 출력값(인덱스 {0})을 사용하는 동안 출력값이 예상되었으나 반환되지 않았습니다.  'UniformOutput'을 false로 설정하십시오.</entry>
+    <entry key="UnexpectedOutput">Uniform 출력값(인덱스 {0})을 사용하는 동안 예기치 않은 출력값이 반환되었습니다.  'UniformOutput'을 false로 설정하십시오.</entry>
+    <entry key="NotAParameterPair">입력값 #{0, number, integer}은(는) 파라미터 ''{2}''에 대해 {1}의 값을 가져야 합니다.</entry>
+    <entry key="InvalidOverloadedSize">오버로드된 size 메서드는 비어 있지 않고 double형의 양수로 구성된 배열을 반환해야 합니다.</entry>
+    <entry key="NotACell">입력값 #{0}은(는) 셀형 배열이어야 하는데 {1}(으)로 입력되었습니다.</entry>
+    <entry key="NotACellOrParameter">입력값 #{0}이(가) 문자형 행 벡터입니다. 파라미터 이름으로 사용하는 경우 'UniformOutput' 또는 'ErrorHandler'여야 합니다. 데이터 입력값으로 사용하는 경우 셀형 배열이어야 합니다.</entry>
+    <entry key="UnsupportedType">지원되지 않는 ARRAYFUN 입력 유형임: {0}</entry>
+    <entry key="SparseInputNotSupported">희소 형식 입력값은 ARRAYFUN에서 지원되지 않습니다.</entry>
+    <entry key="NonStruct">STRUCTFUN에 대한 입력값은 스칼라 구조체여야 합니다.</entry>
+    <entry key="NonScalar">STRUCTFUN에 대한 입력값은 스칼라 구조체여야 합니다.</entry>
+    <entry key="UnknownArguments">STRUCTFUN은 한 구조체의 필드들에 대해서만 반복됩니다.</entry>
+  </message>
+</rsccat>

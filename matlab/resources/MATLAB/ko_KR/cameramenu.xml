@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Removal">cameramenu는 향후 릴리스에서 제거될 예정입니다. cameratoolbar를 대신 사용하십시오.</entry>
+    <entry key="OpenGLNotAvailable">OpenGL 렌더러를 사용할 수 없습니다.</entry>
+    <entry key="Label_Camera">카메라(&amp;C)</entry>
+    <entry key="Label_CameraModeCoordsys">카메라({0}, {1})(&amp;C)</entry>
+    <entry key="Label_CameraMode">카메라({0})(&amp;C)</entry>
+    <entry key="Label_MouseMode">마우스 모드</entry>
+    <entry key="Label_Orbit">선회</entry>
+    <entry key="Label_OrbitScenelight">장면 조명 선회</entry>
+    <entry key="Label_Pan">패닝</entry>
+    <entry key="Label_DollyHorizVert">수평/수직 방향 달리</entry>
+    <entry key="Label_DollyInOut">달리 인/아웃</entry>
+    <entry key="Label_Zoom">확대/축소</entry>
+    <entry key="Label_Roll">롤링</entry>
+    <entry key="Label_Walk">워크</entry>
+    <entry key="Label_Unconstrained">제약 없음</entry>
+    <entry key="Label_MouseConstraint">마우스 제약 조건</entry>
+    <entry key="Label_Horizontal">가로</entry>
+    <entry key="Label_Vertical">세로</entry>
+    <entry key="Label_StopMoving">이동 중지</entry>
+    <entry key="Label_Scenelight">장면 조명</entry>
+    <entry key="Label_Reset">재설정</entry>
+    <entry key="Label_ResetModesCameraProperties">모드/카메라 속성 재설정</entry>
+    <entry key="Label_ResetCameraProperties">카메라 속성 재설정</entry>
+    <entry key="Label_ResetTargetPoint">대상 점 초기화</entry>
+    <entry key="Label_ResetScenelight">장면 조명 초기화</entry>
+    <entry key="Label_Scene">장면</entry>
+    <entry key="Label_FitAll">모두 맞춤</entry>
+    <entry key="Label_LightingNone">조명 없음</entry>
+    <entry key="Label_LightingFlat">플랫 조명</entry>
+    <entry key="Label_LightingGouraud">구로(Gouraud) 조명</entry>
+    <entry key="Label_LightingPhong">퐁(Phong) 조명</entry>
+    <entry key="Label_ShadingFaceted">패싯 음영</entry>
+    <entry key="Label_ShadingFlat">단순 음영</entry>
+    <entry key="Label_ShadingInterp">보간 음영</entry>
+    <entry key="Label_ClippingOn">클리핑 켜기</entry>
+    <entry key="Label_ClippingOff">클리핑 끄기</entry>
+    <entry key="Label_Axes">좌표축</entry>
+    <entry key="Label_Visible">표시</entry>
+    <entry key="Label_Box">상자</entry>
+    <entry key="Label_Ticks">눈금</entry>
+    <entry key="Label_Grid">그리드</entry>
+    <entry key="Label_WallsColor">벽 색...</entry>
+    <entry key="Label_XColor">X 색...</entry>
+    <entry key="Label_YColor">Y 색...</entry>
+    <entry key="Label_ZColor">Z 색...</entry>
+    <entry key="Label_Orthographic">직교</entry>
+    <entry key="Label_Perspective">원근</entry>
+    <entry key="Label_RendererOptions">렌더러 옵션</entry>
+    <entry key="Label_DoubleBuffer">이중 버퍼</entry>
+    <entry key="Label_NoSort">정렬 없음</entry>
+    <entry key="Label_Auto">자동</entry>
+    <entry key="Label_MoveAsBox">상자로 이동</entry>
+    <entry key="Label_BackgroundColor">배경색...</entry>
+    <entry key="Label_RemoveMenu">메뉴 제거</entry>
+    <entry key="Label_X">X</entry>
+    <entry key="Label_Y">Y</entry>
+    <entry key="Label_Z">Z</entry>
+    <entry key="Label_Painters">Painters</entry>
+    <entry key="Label_Zbuffer">Zbuffer</entry>
+    <entry key="Label_OpenGL">OpenGL</entry>
+  </message>
+</rsccat>

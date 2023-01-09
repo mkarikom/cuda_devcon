@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidumberOfArguments">''update''에 대한 값을 제공해야 합니다.</entry>
+    <entry key="InvalidValueRange">값은 0과 100 사이여야 합니다.</entry>
+    <entry key="InvalidPositionVector">지원되지 않는 Position 벡터입니다. 값은 [1x4] 벡터여야 합니다.</entry>
+    <entry key="InvalidColorVector">지원되지 않는 색 벡터입니다. 값은 [1x3] 벡터여야 합니다.</entry>
+  </message>
+</rsccat>

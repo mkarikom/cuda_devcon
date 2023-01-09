@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="maxrhs">输入参数太多。</entry>
+    <entry key="badSecondOpt">第二个输入必须为生成器名称。</entry>
+    <entry key="badFirstOpt">第一个输入必须为小于 2^32 的非负整数种子、''shuffle''、''default'' 或以前使用 S = RNG 捕获的生成器设置。</entry>
+    <entry key="badSeed">SD 必须为小于 2^32 的非负整数种子。</entry>
+    <entry key="unknownRNGType">''{0}'' 不是有效的生成器类型。</entry>
+    <entry key="badSettings">S 必须包含以前使用 S = RNG 捕获的生成器设置。</entry>
+    <entry key="reseedLegacy">当前的随机数生成器为旧生成器。这是因为您执行了 rand(''state'',0) 之类的命令，该命令会激活 MATLAB 的旧随机数行为。您不能使用 RNG 重新设置旧随机数生成器的种子。\n\n请使用 rng(''default'') 将随机数生成器重新初始化为其启动配置，或者使用特定的生成器类型调用 RNG (例如 rng(seed,''{0}''))。</entry>
+    <entry key="createLegacy">''Legacy'' 不是 GENERATOR 的有效选项。您不能使用 rng(seed,''legacy'') 切换到旧生成器。\n\n您可以通过 s = rng; ... rng(s) 来保存并还原旧随机数生成器设置。但是，建议不要使用旧随机数生成器，而应使用当前生成器之一(例如 rng(seed,''{0}''))。</entry>
+  </message>
+</rsccat>

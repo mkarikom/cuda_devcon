@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidArguments">参数无效。</entry>
+    <entry key="NotEnoughArugments">输入参数的数目不足。</entry>
+    <entry key="InvalidGridSize">行和列参数必须为小于 32767 的正整数。</entry>
+    <entry key="InvalidTile">tile 参数必须为正整数。</entry>
+    <entry key="InvalidTileSpan">tilespan 参数值必须为正整数。</entry>
+    <entry key="LayoutFull">布局空间不足。</entry>
+    <entry key="TileOutOfBounds">图块超出布局边界。</entry>
+    <entry key="OutOfMemory">内存不足，无法在当前布局中创建图块。</entry>
+  </message>
+</rsccat>

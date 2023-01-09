@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- Added messages: src/m_interpreter, src/m_lxe -->
+    <entry key="cannotInitializeAfterlxeFeval">lxeInitialize must only be called before the first call to lxeFeval.</entry>
+    <entry key="configurationMustBeString" note="stringDatatypeUpdate">The configuration must contain a character vector.</entry>
+    <entry key="configurationNotRecognized">The configuration option is case-sensitive and must be one of (Default, BoxInterp, BoxDual)</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="HigherDimArray">First and third arguments must be matrices.</entry>
+    <entry key="SampleValuesMustBeVector">Second argument must be a column vector.</entry>
+    <entry key="InputSizeMismatch">First two arguments must have the same number of rows.</entry>
+    <entry key="XLowColNum">First argument must have at least 2 columns.</entry>
+    <entry key="CannotTessellateInfOrNaN">Sample points must be finite.</entry>
+    <entry key="InvalidMethod">Interpolation method must be either ''linear'' or ''nearest''.</entry>
+    <entry key="OptsNotStringCell" note="stringDatatypeUpdate">Options argument must be a cell array of character vectors.</entry>
+    <entry key="CannotTriangulate">Data cannot be triangulated.</entry>
+  <!--Resource entries for toolbox/matlab/polyfun-->
+    <entry key="DuplicateDataPoints">Duplicate sample points detected: using the average of the sample values.</entry>
+  </message>
+</rsccat>

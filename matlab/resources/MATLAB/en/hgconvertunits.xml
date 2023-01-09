@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidTarget">The value to convert must have the form [x y w h].</entry>
+    <entry key="InvalidFromUnits">The units to convert from must be either inches, centimeters, normalized, points, pixels, or characters.</entry>
+    <entry key="InvalidUnits">The units to convert to must be either inches, centimeters, normalized, points, pixels, or characters.</entry>
+  <!--Resource entries for src/hgbuiltins-->
+    <entry key="InvalidFigure">The first input argument must be a figure handle.</entry>
+    <entry key="InvalidRefObj">The reference object is invalid.</entry>
+    <entry key="InvalidObj">Invalid object supplied. Check if the object was deleted at the time of this invocation.</entry>
+  </message>
+</rsccat>

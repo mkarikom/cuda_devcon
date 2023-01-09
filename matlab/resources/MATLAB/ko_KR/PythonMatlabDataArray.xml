@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ReferenceDoesNotExist">MATLAB 객체에 대한 참조가 존재하지 않음</entry>
+    <entry key="NumIndexEqualToNumDim">인덱스 개수는 차원 수와 같아야 함</entry>
+    <entry key="RecurListNotSupported">재귀적 목록(Recursive List)은 MATLAB에 전달할 수 없음</entry>
+    <entry key="InvalidStructField">MATLAB 구조체에 유효하지 않은 필드임</entry>
+    <entry key="RecurDictNotSupported">재귀적 사전(Recursive Dictionary)은 MATLAB에 전달할 수 없음</entry>
+    <entry key="NoneNotSupported">None은 MATLAB에 전달할 수 없음</entry>
+    <entry key="MVNotSupported">memoryview는 MATLAB에 전달할 수 없음</entry>
+    <entry key="UnsupportedPythonData">지원되지 않는 Python 데이터형임: {0}</entry>
+    <entry key="CharArrayFromMatlab">1xN 및 Nx1 문자형 배열만 MATLAB에서 반환될 수 있음</entry>
+    <entry key="CellArrayFromMatlab">1xN 및 Nx1 셀형 배열만 MATLAB에서 반환될 수 있음</entry>
+    <entry key="StringArrayFromMatlab">1xN 및 Nx1 string형 배열만 MATLAB에서 반환될 수 있음</entry>
+    <entry key="UnsupportedMatlabType">지원되지 않는 데이터형이 MATLAB에서 반환됨</entry>
+    <entry key="StructArrayFromMatlab">스칼라 구조체만 MATLAB에서 반환될 수 있음</entry>
+    <entry key="Int64ArrayNotSupported">이 플랫폼에서는 MATLAB int64형의 배열을 반환할 수 없음</entry>
+    <entry key="Uint64ArrayNotSupported">이 플랫폼에서는 MATLAB uint64형의 배열을 반환할 수 없음</entry>
+    <entry key="CompareObjectOnly">'matlab.object' 유형의 객체 간에만 비교를 수행할 수 있음</entry>
+    <entry key="ObjectCantLessThan">'보다 작음' 비교는 'matlab.object'에서 지원되지 않음</entry>
+    <entry key="ObjectCantLessEqual">'보다 작거나 같음' 비교는 'matlab.object'에서 지원되지 않음</entry>
+    <entry key="ObjectCantGreaterThan">'보다 큼' 비교는 'matlab.object'에서 지원되지 않음</entry>
+    <entry key="ObjectCantGreaterEqual">'보다 크거나 같음' 비교는 'matlab.object'에서 지원되지 않음</entry>
+    <entry key="IndexExceedsDim">인덱스가 행렬의 차원을 초과함</entry>
+    <entry key="AttributeNotRetrieved">특성을 가져올 수 없음</entry>
+    <entry key="MethodNotCalled">메서드를 호출할 수 없음</entry>
+  </message>
+</rsccat>

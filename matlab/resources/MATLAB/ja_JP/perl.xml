@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputsMustBeStrings">すべての引数は文字ベクトルまたは string スカラーでなければなりません。</entry>
+    <entry key="FileNotFound">Perl のファイルが見つかりません: {0}</entry>
+    <entry key="NoPerlCommand">指定された perl コマンドがありません</entry>
+    <entry key="ExecutionError">システム エラー:{0}実行したコマンド: {1}</entry>
+    <entry key="NoExecutable">実行可能な Perl が見つかりません。</entry>
+  </message>
+</rsccat>

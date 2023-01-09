@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noLengthChange">시계열이 생성된 후에는 점 표기법으로 값을 대입해 시간 벡터의 길이를 변경할 수 없습니다.</entry>
+    <entry key="badsyntax">유효하지 않은 subsasgn 구문임</entry>
+  </message>
+</rsccat>

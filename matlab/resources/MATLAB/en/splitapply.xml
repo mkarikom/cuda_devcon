@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidFunction">First input must be a function handle.</entry>
+    <entry key="InvalidGroupNums">Group numbers must be a vector of positive integers, and cannot be a sparse vector.</entry>
+    <entry key="RowMismatch">The data variables must have the same number of rows as the vector of group numbers. The group number vector has {0,number,integer} row(s), and data variable {1,number,integer} has {2,number,integer} row(s).</entry>
+    <entry key="ColumnMismatch">The data variables must have the same number of columns as the vector of group numbers. The group number vector has {0,number,integer} column(s), and data variable {1,number,integer} has {2,number,integer} column(s).</entry>
+    <entry key="FunFailed" note="{1} is the ordinal">Applying the function ''{0}'' to the {1} group of data generated the following error:\n\n{2}</entry>
+    <entry key="OutputNotUniform">The function ''{0}'' returned a non-scalar value when applied to the {1} group of data.\n\nTo compute nonscalar values for each group, create an anonymous function to return each value in a scalar cell: \n\n\t{2} </entry>
+    <entry key="MissingGroupNums">For N groups, every integer between 1 and N must occur at least once in the vector of group numbers.</entry>
+  </message>
+</rsccat>

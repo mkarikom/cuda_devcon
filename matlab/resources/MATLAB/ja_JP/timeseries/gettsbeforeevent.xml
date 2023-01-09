@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">gettsbeforeevent メソッドは、単一の timeseries オブジェクトにのみ使用できます</entry>
+    <entry key="invArgNum">無効な数の引数を指定しています。</entry>
+  </message>
+</rsccat>

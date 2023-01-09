@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="VNot3D">V 必须为三维数组。</entry>
+    <entry key="lengthXYAndZDoNotMatchSizeV">X、Y 和 Z 的长度必须与 V 的大小匹配。</entry>
+    <entry key="XYAndZShapeMismatch">X、Y 和 Z 必须都为向量或数组。</entry>
+    <entry key="XYZAndVSizeMismatch">矩阵 X、Y 和 Z 的大小必须与 V 的大小相同。</entry>
+    <entry key="XYZAndVShapeMismatch">当 V 为向量时，X、Y 和 Z 必须都为向量。</entry>
+    <entry key="XYZAndVLengthMismatch">X、Y 和 Z 的长度必须与 V 的长度相同。</entry>
+    <entry key="XIYIAndZISizeMismatch">XI、YI 和 ZI 的大小必须相同或者是方向不同的向量。</entry>
+  </message>
+</rsccat>

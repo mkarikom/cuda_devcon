@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="AllToAll">Either source or target must be a scalar.</entry>
+    <entry key="DijkstraNonNegative">Method value can be ''positive'' only if all edge weights are nonnegative.</entry>
+    <entry key="DuplicateSRC">Source node IDs must be unique.</entry>
+    <entry key="DuplicateTARG">Target node IDs must be unique.</entry>
+    <entry key="InvalidWeights">Graph edge weights contain NaN.</entry>
+    <entry key="KeyWithoutValue">No value given for {0}.</entry>
+    <entry key="NegativeWeights">Graph edge weights must be nonnegative.</entry>
+    <entry key="NegCycle">Shortest path distance undefined because the graph contains a negative cycle of length {0} (nodes {1}).</entry>
+    <entry key="NotDAG">When Method value is ''acyclic'', directed graph must be acyclic.</entry>
+    <entry key="ParseFlags">Parameter name must be ''Method'' or ''OutputForm''.</entry>
+    <entry key="ParseMethodDir">Method value must be ''auto'', ''unweighted'', ''positive'', ''mixed'', or ''acyclic''.</entry>
+    <entry key="ParseMethodUndir">Method value must be ''auto'', ''unweighted'', or ''positive''.</entry>
+    <entry key="ParseOutput">Method value must be ''cell'', ''tree'', or ''vector''.</entry>
+  </message>
+</rsccat>

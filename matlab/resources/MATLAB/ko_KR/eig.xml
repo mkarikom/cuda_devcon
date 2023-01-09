@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoConvergence">알고리즘이 성공하지 못했습니다.</entry>
+    <entry key="matrixWithNaNInf">입력 행렬은 NaN 또는 Inf 값을 포함해서는 안 됩니다.</entry>
+    <entry key="inputMustBe2DStandard">입력 배열은 2차원이어야 합니다.</entry>
+    <entry key="inputMustBeSquareStandard">입력 행렬은 정사각 행렬이어야 합니다.</entry>
+    <entry key="unknownArgumentStandard">표준 고유문제에서 옵션은 ''vector'', ''matrix'', ''balance'' 또는 ''nobalance''여야 합니다.</entry>
+    <entry key="unknownArgumentCombinationStandard">유효하지 않은 옵션 조합입니다.</entry>
+    <entry key="inputType">유효하지 않은 데이터형입니다. 입력 행렬은 double형 또는 single형이어야 합니다.</entry>
+    <entry key="inputTypeGeneralized">유효하지 않은 데이터형입니다. 입력 행렬은 double형 또는 single형이어야 합니다.</entry>
+    <entry key="inputMustBe2DGeneralized">입력 배열은 2차원이어야 합니다.</entry>
+    <entry key="inputMustBeSquareGeneralized">입력 행렬은 정사각 행렬이어야 합니다.</entry>
+    <entry key="inputMustBeSameSizeGeneralized">일반화된 고유문제에서 입력 행렬은 크기가 동일해야 합니다.</entry>
+    <entry key="unknownArgumentGeneralized">일반화된 고유문제에서 옵션은 ''vector'', ''matrix'', ''qz'' 또는 ''chol''이어야 합니다.</entry>
+    <entry key="unknownArgumentCombinationGeneralized">유효하지 않은 옵션 조합입니다.</entry>
+    <entry key="useEigsForSparseStandard">입력 행렬이 희소 행렬인 경우 행렬은 실수 대칭형이어야 합니다. 희소 행렬의 일부 고유벡터와 고유값을 계산하려면 &lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/eigs.html'))\"&gt;eigs&lt;/a&gt;를 사용하십시오.</entry>
+    <entry key="useEigsForSparseStandardVector">출력 인수가 너무 많습니다. 입력 행렬이 희소 행렬인 경우 출력 인수를 단 한 개만 사용할 수 있습니다. 희소 행렬의 일부 고유벡터와 고유값을 계산하려면 &lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/eigs.html'))\"&gt;eigs&lt;/a&gt;를 사용하십시오.</entry>
+    <entry key="useEigsForSparseGeneralized">일반화된 고유문제에는 희소 행렬이 지원되지 않습니다. 희소 고유문제의 일부 고유벡터와 고유값을 계산하려면 &lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/eigs.html'))\"&gt;eigs&lt;/a&gt;를 사용하십시오.</entry>
+  </message>
+</rsccat>

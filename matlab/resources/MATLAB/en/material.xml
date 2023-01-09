@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="IncorrectCall">Call with a=material or a=material(matname)</entry>
+    <entry key="TooFewInputs">Not enough input arguments</entry>
+    <entry key="TooManyInputs">Too many input arguments</entry>
+    <entry key="TooManyOutputs">Too many output arguments</entry>
+    <entry key="InvalidVectorSize">The material vector must be of size 1x3, 1x4, or 1x5</entry>
+    <entry key="InvalidMaterialsName" note="stringDatatypeUpdate">Materials must be a character vector name or a vector</entry>
+    <entry key="FileNotFound">Material name not found</entry>
+  </message>
+</rsccat>

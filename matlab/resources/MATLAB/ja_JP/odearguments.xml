@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoDefaultParams">{0} に既定のパラメーターがありません。代わりに {1}({2},tspan,y0,...) を使用してください。</entry>
+    <entry key="TspanNaNValues">積分区間に NaN が含まれています。</entry>
+    <entry key="TspanEndpointsNotDistinct">tspan 内の最後の要素は、最初の要素と異なっていなければなりません。</entry>
+    <entry key="TspanNotMonotonic">tspan 内の要素は、厳密に増加、または減少しなければなりません。</entry>
+    <entry key="FoMustReturnCol">{0} は列ベクトルを返さなければなりません。</entry>
+    <entry key="RelTolNotPosScalar">RelTol は正のスカラーでなければなりません。</entry>
+    <entry key="AbsTolNotPos">AbsTol は正でなければなりません。</entry>
+    <entry key="NonScalarAbsTol">NormControl を ''on'' にして解くには、スカラーの AbsTol が必要です。</entry>
+    <entry key="SizeAbsTol">解 {0} は、スカラーの AbsTol、あるいは長さ {1,number,integer} のベクトルの AbsTol が必要です</entry>
+    <entry key="MaxStepLEzero">オプション ''MaxStep'' は 0 より大きくなければなりません。</entry>
+    <entry key="InitialStepLEzero">オプション ''InitialStep'' は 0 より大きくなければなりません。</entry>
+    <entry key="TspanOrY0NotSupplied">{0} への 1 番目の引数が関数ハンドルの場合、tspan と y0 の引数が与えられなければなりません。</entry>
+    <entry key="SizeTspan">{0} への 1 番目の引数が関数ハンドルの場合、tspan 引数は少なくとも 2 つの要素をもたなければなりません。</entry>
+    <entry key="SizeIC">{0} は長さが {1,number,integer} のベクトルを出力しますが、初期条件ベクトルの長さは {2,number,integer} です。{3} で出力されるベクトルと初期条件ベクトルは、同じ数の要素をもたなければなりません。</entry>
+    <entry key="RelTolIncrease">RelTol は {0} に増加しました。</entry>
+    <entry key="InconsistentDataType">{0} および {1} に対する single と double のデータが {2} への呼び出し内で混在しています。</entry>
+  </message>
+</rsccat>

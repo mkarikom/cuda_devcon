@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidConstructorSignature">생성자 시그니처가 유효하지 않습니다.</entry>
+    <entry key="InvalidNumberOfArguments">인수의 개수가 올바르지 않습니다.</entry>
+    <entry key="NotSupportedLocaleName">로캘 ''{0}''은(는) 지원되지 않습니다.</entry>
+    <entry key="InvalidOptionName">''{0}''은(는) 유효하지 않은 옵션입니다.</entry>
+  </message>
+</rsccat>

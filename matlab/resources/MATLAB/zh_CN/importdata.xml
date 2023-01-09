@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidClipboardData">剪贴板不包含任何可识别的数据。</entry>
+    <entry key="FileNotFound">无法打开文件。</entry>
+    <entry key="InvalidFile">无法加载文件。不是 MAT 文件。</entry>
+    <entry key="InvalidDelimiter">不支持多字符分隔符。</entry>
+    <entry key="FormatMismatch">检测到意外的格式不匹配。\n请根据原始文件检查结果。</entry>
+    <entry key="InvalidDataSection">文件包含无法解释的数据。</entry>
+    <entry key="UnableToRead">无法加载文件。\n对于更复杂的格式，请使用 readtable。\n</entry>
+  </message>
+</rsccat>

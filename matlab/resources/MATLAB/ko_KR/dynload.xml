@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="glibcFailedLoadBug">{0}\n\n*** MATLAB에서 Linux 운영 체제 버그가 발생했습니다. 이 버그가 발생하면 최종적으로 MATLAB의 작동을 중단됩니다. 이 오류를 발생시킨 명령을 반복하지 마십시오. 그럴 경우 MATLAB이 즉시 중단될 수 있습니다. 지금 작업을 저장하고 MATLAB을 다시 시작하십시오.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownOption">コマンド オプションは 'on' または 'off' でなければなりません。</entry>
+    <entry key="CurrentPlotReleased">現在のプロットをリリースしました</entry>
+    <entry key="CurrentPlotHeld">現在のプロットをホールドしました</entry>
+    <entry key="InvalidFirstArg">最初の引数は axes オブジェクトでなければなりません。</entry>
+    <entry key="UnsupportedCurrentAxes">ホールドを {0} で使用することはサポートされていません。</entry>
+  </message>
+</rsccat>

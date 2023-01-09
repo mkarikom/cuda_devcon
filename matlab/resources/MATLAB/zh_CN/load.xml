@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="emptyFileName">文件名为空。</entry>
+    <entry key="emptyVariableName">由于变量名称为空，无法加载变量。</entry>
+    <entry key="notBinaryFile">无法读取 MAT 文件 {0}。不是二进制 MAT 文件。请尝试执行 load -ASCII 以便以文本形式读取。</entry>
+    <entry key="unableToReadMatFile">无法读取 MAT 文件 {0}。文件可能已损坏。</entry>
+    <entry key="SubsetNotSupportedFileType">只有 7.3 和更高版本的 MAT 文件格式才支持加载变量的子集。</entry>
+    <entry key="NonScalarVariableSubset">VariableSubset 必须为标量，才能从 MAT 文件加载数组的子集。</entry>
+    <entry key="variableNotFound">未找到变量 ''{0}''。</entry>
+    <entry key="variablePatternNotFound">未找到与 ''{0}'' 匹配的变量。</entry>
+    <entry key="NonScalarSubset">不支持对 MAT 文件进行多级索引。</entry>
+    <entry key="cantReadFile">无法读取文件 {0}。</entry>
+    <entry key="cannotInstantiateLoadedVariable">最初保存为 {1} 的变量 ''{0}'' 无法实例化为对象，将以 {2} 形式读取。</entry>
+    <entry key="loadingKeywordVariable">变量 ''{0}'' 与关键字同名。将以 ''{1}'' 形式加载该变量。</entry>
+    <entry key="unableToReadMatFileFromStdio">无法从 STDIO 读取。未知错误。</entry>
+    <entry key="numColumnsNotSame">无法读取文件 ''{0}''。输入必须为 MAT 文件或包含每行列数相同的数值数据的 ASCII 文件。</entry>
+    <entry key="FileIsGrowing">其他进程或线程正在使用文件 {0}。在其他进程或线程释放该文件之后，您应能够加载数据。</entry>
+    <entry key="unknownText">ASCII 文件 {1} 的行号 {0,number,integer} 中的文本未知\n\"{2}\"。</entry>
+    <entry key="errorClosingFile">关闭文件 {0} 时出错。</entry>
+    <entry key="sizeMismatch">索引超出矩阵维度。</entry>
+    <entry key="classError">加载类 ''{0}'' 的对象时:\n{1}</entry>
+    <entry key="classSaveError">保存类 ''{0}'' 的对象时:\n{1}</entry>
+    <entry key="classNotFound">无法加载类 ''{0}'' 的对象:\n找不到其类。</entry>
+    <entry key="classErrorNoCtor">无法加载类 ''{0}'' 的对象:\n未找到匹配的构造函数签名。</entry>
+    <entry key="FileInconsistent">MATLAB 在所加载的文件中检测到不一致，因此可能无法加载某些值。</entry>
+    <entry key="InvalidMATFile">MATLAB 在所加载的文件中检测到不一致。{0}</entry>
+    <entry key="EmptyEnumNames">类 {0} 包含空的枚举名称。</entry>
+    <entry key="pathIsDirectory">无法读取文件 ''{0}''。输入不能为目录。</entry>
+    <entry key="unableToReadVFSASCIIFile">从远程位置只能加载版本 7.3 的 MAT 文件。</entry>
+    <entry key="unableToReadVFSFile">无法读取文件 ''{0}''。如果是版本 7 或更早版本的 MAT 文件，请考虑将数据重新保存在版本 7.3 的 MAT 文件中，以便从远程位置访问。</entry>
+    <entry key="unableToReadFile">无法读取文件 ''{0}''。</entry>
+    <entry key="couldNotReadFileSystemMessage">无法读取文件 ''{0}'': {1}。</entry>
+    <entry key="tooManyOpen">无法读取文件 ''{0}''。打开的文件太多。</entry>
+    <entry key="permissionDenied">无法读取文件 ''{0}''。权限被拒绝。</entry>
+    <entry key="couldNotReadFile">找不到文件或目录 ''{0}''。</entry>
+    <entry key="loadingFrom">\n正在从 {0} 中加载\n\n</entry>
+    <entry key="badVariableName">无法读取文件 ''{0}''。变量名称长度必须小于或等于 MATLAB 最大名称长度 63 个字符。</entry>
+    <entry key="setValueFail"> 设置属性 {0} 的值失败。忽略此属性</entry>
+    <entry key="protectedLoadingIllegalValue">''ProtectedLoading'' 参数必须为标量，其值为 ''true''、''false''、''1'' 或 ''0''。</entry>
+    <entry key="unableToLoadClassObjectInProtectedLoading">无法以受保护加载模式加载对象。它已被空的双精度对象取代。</entry>
+    <entry key="unableToLoadClassObjectsInProtectedLoading">{0} 对象无法在受保护加载模式下加载。它们已被空的双精度对象取代。</entry>
+  </message>
+</rsccat>

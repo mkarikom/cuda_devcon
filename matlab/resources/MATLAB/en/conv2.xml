@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="unknownShapeParameter">SHAPE must be ''full'', ''same'', or ''valid''.</entry>
+    <entry key="troubleInGettingShape">Having trouble getting SHAPE.</entry>
+    <entry key="firstTwoInputsNotVectors">The first and second arguments must be vectors when the third argument is a matrix.</entry>
+    <entry key="inputType">Invalid data type. First and second arguments must be numeric or logical.</entry>
+    <entry key="ndArrayInput">N-D arrays are not supported.</entry>
+    <entry key="inputTypeSeparable">First three arguments must be numeric or logical.</entry>
+    <entry key="SparseInput">Sparse matrices are not supported.</entry>
+  </message>
+</rsccat>

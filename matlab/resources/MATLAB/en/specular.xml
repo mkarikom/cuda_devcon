@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NySizeMustEqualNx">Ny must be the same size as Nx.</entry>
+    <entry key="NzSizeMustEqualNx">Nz must be the same size as Nx.</entry>
+    <entry key="SpecifyInput">S must be specified using [AZ,EL] or [Sx,Sy,Sz].</entry>
+    <entry key="MustSpecifyV">V must be specified using [AZ,EL] or [Vx,Vy,Vz].</entry>
+  </message>
+</rsccat>

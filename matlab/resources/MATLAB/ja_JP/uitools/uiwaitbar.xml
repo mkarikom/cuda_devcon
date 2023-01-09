@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidumberOfArguments">''update'' に値を指定しなければなりません。</entry>
+    <entry key="InvalidValueRange">値は、0 と 100 の間でなければなりません。</entry>
+    <entry key="InvalidPositionVector">サポートされていない位置ベクトルです。値は [1x4] ベクトルでなければなりません。</entry>
+    <entry key="InvalidColorVector">サポートされていない色ベクトルです。値は [1x3] ベクトルでなければなりません。</entry>
+  </message>
+</rsccat>

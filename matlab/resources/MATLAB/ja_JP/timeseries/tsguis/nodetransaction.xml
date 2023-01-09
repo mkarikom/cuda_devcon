@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ACellArrayOfDataObjectsExpectedRedoAborted">データ オブジェクトのセル配列が必要です。やり直しを中止しました。</entry>
+    <entry key="ACellArrayOfDataObjectsExpectedUndoAborted">データ オブジェクトのセル配列が必要です。元に戻す操作を中止しました。</entry>
+    <entry key="ObjectListCellArrayIsEmptyCannotRedo">オブジェクト リストのセル配列が空です。やり直しできません。</entry>
+    <entry key="ObjectListCellArrayIsEmptyCannotUndo">オブジェクト リストのセル配列が空です。元に戻せません。</entry>
+    <entry key="TheParentNodeSuppliedForRedoIsInvalid">やり直す操作に指定された親ノードが無効です。</entry>
+    <entry key="TheParentNodeSuppliedForUndoIsInvalid">元に戻す操作に指定された親ノードが無効です。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="pvsetNoValue">지정한 속성에 대응값이 없습니다.</entry>
+    <entry key="nonScalarDatenum">IsDatenum 속성은 논리형 스칼라 값이어야 합니다.</entry>
+    <entry key="pvsetInvalid">유효하지 않은 속성 이름임</entry>
+    <entry key="emptytimeseries">tscollection에 빈 timeseries는 추가할 수 없음</entry>
+    <entry key="nosingleton">tscollection에 비어 있지 않은 시간 벡터가 있어야 합니다.</entry>
+    <entry key="notimevectornocellarray">두 번째 인수는 시간 벡터, 시계열 객체, timeseries 객체로 구성된 셀형 배열 중 하나여야 합니다.</entry>
+  </message>
+</rsccat>

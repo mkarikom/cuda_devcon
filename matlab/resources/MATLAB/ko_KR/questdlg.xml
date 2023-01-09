@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooFewArguments">QUESTDLG에 대한 인수가 너무 적음</entry>
+    <entry key="WrongNumberOutputs">QUESTDLG에 대한 출력 인수의 개수가 올바르지 않음</entry>
+    <entry key="TooManyInputs">입력 인수가 너무 많음</entry>
+    <entry key="StringMismatch">디폴트 문자형 벡터가 어떤 버튼 문자형 벡터 이름과도 일치하지 않습니다.</entry>
+  </message>
+</rsccat>

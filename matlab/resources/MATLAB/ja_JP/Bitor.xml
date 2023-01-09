@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="sizeMismatch">入力は同じサイズでなければなりません。</entry>
+    <entry key="charInput">入力は数値または論理値でなければなりません。</entry>
+    <entry key="complexInputs">入力は実数でなければなりません。</entry>
+    <entry key="operandsNotNumeric">BIT 演算へのオペランドは数値でなければなりません。</entry>
+    <entry key="complexOperands">ビット AND/OR/XOR は、複素数のオペランドを受け入れません。</entry>
+    <entry key="mixedClasses">入力は同じクラスの符号付きまたは符号なしの整数、あるいは倍精度のスカラーでなければなりません。</entry>
+    <entry key="sparseArgs">入力は非スパースでなければなりません。</entry>
+    <entry key="outOfRangeMixedType"> 倍精度入力が整数入力と混合する場合、倍精度入力の整数値はその整数範囲になければなりません。</entry>
+    <entry key="outOfRange">倍精度入力は ASSUMEDTYPE の範囲内の整数値でなければなりません。</entry>
+    <entry key="unknownTypeString">ASSUMEDTYPE は整数型の名前でなければなりません。</entry>
+    <entry key="invalidTypeString">整数入力は、入力本来の型以外の型とみなすことはできません。</entry>
+    <entry key="firstArgsNotInt">データ型が無効です。最初の 2 つの引数は整数または double でなければなりません。</entry>
+  </message>
+</rsccat>

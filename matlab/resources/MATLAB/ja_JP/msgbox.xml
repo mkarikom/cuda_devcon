@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="interpreter">text プロパティに対する不正な値: ''Interpreter''</entry>
+    <entry key="colormap">5 つの入力引数で MSGBOX を呼び出す場合、Colormap を指定しなければなりません｡</entry>
+    <entry key="customicon">MSGBOX にアイコン データを指定する場合、アイコンは ''custom'' でなければなりません</entry>
+    <entry key="icondata">Icon が ''custom'' の場合、アイコン データを指定しなければなりません。</entry>
+    <entry key="iconstring">MSGBOX 内の Icon の文字ベクトルが無効です。</entry>
+    <entry key="IncorrectIconDataType">Icon が ''custom'' の場合、アイコンには数値データを指定しなければなりません。</entry>
+    <entry key="IncorrectIconColormap">Icon が ''custom'' の場合、Colormap は double、float、スパースのいずれかのタイプの配列でなければなりません。</entry>
+    <entry key="InvalidInput">最後の入力引数として構造体を渡す場合、Interpreter フィールドと WindowStyle フィールドを指定しなければなりません。</entry>
+  </message>
+</rsccat>

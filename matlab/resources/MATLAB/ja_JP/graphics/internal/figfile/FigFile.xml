@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFigFormat">FigFormat プロパティは -1、2、3 の値のいずれかでなければなりません。</entry>
+    <entry key="InvalidMatVersion">MatVersion プロパティは空か、''-v6''、''-v7''、または ''-v7.3'' でなければなりません。</entry>
+    <entry key="InvalidRequiredMatlabVersion">RequiredMatlabVersion プロパティは少なくとも 5 桁のスカラー整数でなければなりません。</entry>
+    <entry key="InvalidFormat2Data">Format2Data プロパティはフィールド ''type''、''handle''、''properties''、''children'' および ''special'' をもつ構造体を含まなければなりません。</entry>
+    <entry key="InvalidFormat3Data">Format3Data プロパティは Figure のハンドルの行ベクトルを含まなければなりません。</entry>
+    <entry key="EmptyFilename">ファイル名は空でない string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="UnsetRequiredMatlabVersion">RequiredMatlabVersion プロパティは、データの書き込み前にゼロより大きい値に設定しなければなりません。</entry>
+    <entry key="UnsetFigFormat">FigFormat プロパティは、データの書き込み前に 2 または 3 の値のいずれかにしなければなりません。</entry>
+  </message>
+</rsccat>

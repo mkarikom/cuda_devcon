@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="YouMustCheckABoxToExportVariables">必须选中用于导出变量的框</entry>
+    <entry key="NothingSelected">未选择任何内容</entry>
+    <entry key="Help">帮助</entry>
+    <entry key="Cancel">取消</entry>
+    <entry key="OK">确定</entry>
+    <entry key="NotValidMATLABVariableNamesOneVariables">"{0}" 不是有效的 MATLAB 变量名称。</entry>
+    <entry key="NotValidMATLABVariableNamesThreeVariables">{0} "{1}" 和 "{2}" 不是有效的 MATLAB 变量名称。</entry>
+    <entry key="OverWriteQuestionOneVariable">"{0}" 已存在。是否要覆盖它?</entry>
+    <entry key="OverWriteQuestionThreeVariables">{0} "{1}" 和 "{2}" 已存在。是否要覆盖它们?</entry>
+    <entry key="ExportToWorkspace">导出到工作区</entry>
+    <entry key="InvalidVariableNames">变量名称无效</entry>
+    <entry key="InvalidVariableName">变量名称无效</entry>
+    <entry key="DuplicateVariableNames">变量名称重复</entry>
+    <entry key="DuplicateVariableName">变量名称重复</entry>
+    <entry key="VariablesHaveBeenCreatedInTheCurrentWorkspace">变量已在基础工作区中创建。</entry>
+    <entry key="Yes">是</entry>
+    <entry key="No">否</entry>
+    <entry key="AnEmptyStringIsNotAValidChoiceForAVariableName">空字符向量不是变量名称的有效选项。\n</entry>
+    <entry key="NotValidMATLABVariableNamesTwoVariables">"{0}" 和 "{1}" 不是有效的 MATLAB 变量名称。</entry>
+    <entry key="OverWriteQuestionTwoVariables">"{0}" 和 "{1}" 已存在。是否要覆盖它们?</entry>
+  </message>
+</rsccat>

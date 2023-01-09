@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidFormat">Input value is not of the form [x y w h]</entry>
+    <entry key="NullDataPointer">Input array has a NULL data pointer</entry>
+    <entry key="InvalidWidthAndHeight">Width or Height values cannot be less than zero.</entry>
+    <entry key="InvalidDataType">Invalid data type.</entry>
+  </message>
+</rsccat>

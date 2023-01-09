@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Abort">中止</entry>
+    <entry key="AddToExistingPlot">添加到现有绘图</entry>
+    <entry key="AttemptingToPlotMore">尝试在单坐标区中绘制多个 {0,number,integer} 时序可能需要一段时间。继续?</entry>
+    <entry key="Continue">继续</entry>
+    <entry key="CreateNew">新建</entry>
+    <entry key="Display">显示</entry>
+    <entry key="Name">名称:</entry>
+    <entry key="PlotTimeSeries">绘制时序</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="Test">测试</entry>
+    <entry key="Type">类型:</entry>
+    <entry key="YouMustSpecifyANameForTheNewPlot">您必须为新绘图指定名称。</entry>
+    <entry key="View1">View1</entry>
+    <entry key="ViewNumber">View{0,number,integer}</entry>
+  </message>
+</rsccat>

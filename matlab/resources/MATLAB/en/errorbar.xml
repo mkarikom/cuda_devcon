@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="XDataSizeMismatch">X-data must be the same size as Y-data.</entry>
+    <entry key="InvalidNumberDataInputs">Invalid number of data arguments. You must specify 2, 3, 4, or 6 data arguments.</entry>
+    <entry key="InvalidUseOfOrientation">The orientation flag can only be used for 2, 3, or 4 data arguments.</entry>
+    <entry key="ErrorLabel">Error</entry>
+    
+    <!-- {0} = Argument name, either err, neg, pos, xneg, xpos, yneg, or ypos -->
+    <entry key="DeltaArgumentSizeMismatch">Error argument ''{0}'' must be empty or the same size as the data.</entry>
+    <entry key="CategoricalDeltaArgumentNotSupported">Error argument ''{0}'' must be empty when the data are categorical.</entry>
+    <entry key="DeltaArgumentTypeMustBeDuration">Error argument ''{0}'' must be a duration vector when the data are datetime or duration.</entry>
+    <entry key="DeltaArgumentTypeMustBeNumeric">Error argument ''{0}'' must be a numeric vector when the data are numeric.</entry>
+    
+    <!-- {0} = Property name, either XNegativeDelta, XPositiveDelta, YPositiveDelta, or YPositiveDelta -->
+    <entry key="DeltaSizeMismatch">{0} must be empty or the same size as YData.</entry>
+    <entry key="CategoricalDeltaNotSupported">{0} must be empty when the data are categorical.</entry>
+    <entry key="DeltaTypeMustBeNumericOrDuration">{0} must be a numeric or duration vector.</entry>
+    <entry key="DeltaTypeMustBeDuration">{0} must be a duration vector when the data are datetime or duration.</entry>
+    <entry key="DeltaTypeMustBeNumeric">{0} must be a numeric vector when the data are numeric.</entry>
+  </message>
+</rsccat>

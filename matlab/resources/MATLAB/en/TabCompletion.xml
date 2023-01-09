@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2011-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <!-- Added messages: src/m_interpreter -->
+    <entry key="argument_number_is_out_of_range">Argument number {0,number,integer} is out of range {1,number,integer}:{2,number,integer}</entry>
+    <entry key="binding_is_rejected">Binding {0} is rejected: {1}</entry>
+    <entry key="cannot_read_file">Cannot read file "{0}".</entry>
+    <entry key="empty_binding_array">Empty binding array</entry>
+    <entry key="flags_are_missing">Flags are missing</entry>
+    <entry key="no_need_for_argument_range">No need for argument range spec "{0,number,integer}:{1,number,integer}:{2,number,integer}".</entry>
+    <entry key="NoCompletionsFound">No completions found.</entry>
+    <entry key="sax2_xml_parser_error">SAX2 {0} at line {1,number,integer} of {2}: "{3}".</entry>
+    <entry key="sax2_xml_parser_exception">SAX2 Exception message is: \n"{0}".</entry>
+    <entry key="sax2_xml_parser_unexpected_exception">SAX2 Unexpected Exception.</entry>
+    <entry key="wrong_argument_range">Wrong argument number range "{0,number,integer}:{1,number,integer}:{2,number,integer}".</entry>
+    <entry key="wrong_argument_specification">Wrong argument number spec "{0}".</entry>
+	
+    <entry key="ArgumentDefaultValue">default</entry>
+    <entry key="UnableToLoadSignatures">Unable to load signatures for ''{0}''.</entry>
+    <entry key="UnableToCreateFunctionHandle">Unable to create function handle from ''{0}''.</entry>
+    <entry key="SkippingUnrecognizedProperty">Skipping unrecognized property ''{0}''.</entry>
+    <entry key="UnrecognizedAttribute" note="'type' is a keyword; do not translate">Unrecognized ''type'' attribute ''{0}''.</entry>
+    <entry key="ExpectedOneAttribute" note="'type' is a keyword; do not translate">Expected exactly one ''type'' attribute.</entry>
+    <entry key="UnrecognizedIdentifier" note="'identifier' is a keyword; do not translate">Unrecognized ''identifier'' ''{0}''.</entry>
+    <entry key="UnrecognizedSize" note="'size' is a keyword; do not translate">Unrecognized ''size'' ''{0}''. ''size'' must be a comma-separated list of at least two '':''s or nonnegative integers.</entry>
+    <entry key="UnrecognizedKind" note="'kind' is a keyword; do not translate">Unrecognized ''kind'' ''{0}''.</entry>
+    <entry key="UnrecognizedRepeating" note="'repeating', 'true', and 'false', are keywords; do not translate">''repeating'' must be ''true'' or ''false''.</entry>
+    <entry key="UnrecognizedMultiplicity" note="'multiplicity' is a keyword; do not translate">Unrecognized ''multiplicity'' ''{0}''.</entry>
+    <entry key="UnrecognizedPromotion" note="'promotion' is a keyword; do not translate">Unrecognized ''promotion'' ''{0}''.</entry>
+    <entry key="UnrecognizedIntegerValue">Unrecognized ''{0}'' ''{1}''. ''{0}'' must be a nonnegative integer.</entry>
+    <entry key="NamesAndGroupsMisuse" note="'namevalue' and 'properties' are keywords; do not translate">''namevalue'' and ''properties'' arguments must not appear both inside and outside of groups.</entry>
+    <entry key="FlagsAndGroupsMisuse" note="'flag' is a keyword; do not translate">''flag'' arguments must not appear both inside and outside of groups.</entry>
+    <entry key="FlagsAndNamesInGroupsMisuse" note="'namevalue', 'flag', and 'properties' are keywords; do not translate">''namevalue'' and ''properties'' arguments must not appear inside groups when ''flag'' arguments appear outside groups.</entry>
+    <entry key="VararginPlaces" note="'properties' is a keyword; do not translate">''properties'' argument must appear last in signature or group.</entry>
+    <entry key="FailedToEval">Expression ''{0}'' failed to evaluate.</entry>
+    <entry key="InsideComment">Unable to make suggestions inside a comment.</entry>
+    <entry key="InsideDotDotDot">Unable to make suggestions inside ''...''.</entry>
+    <entry key="InvalidCharacter">Invalid character ''{0}''.</entry>
+    <entry key="ExpectedCellArrayFromExpression" note="stringDatatypeUpdate">Expression ''{0}'' must return a cell array or string array.</entry>
+    <entry key="ErrorParsingJSON">Failed to parse JSON file ''{0}'': {1}</entry>
+    <entry key="WarningParsingJSON">Warning parsing JSON file ''{0}'': {1}</entry>
+    <entry key="UnidentifiedErrorParsingJSON">Unidentified failure parsing JSON data: {0}</entry>
+    <entry key="ErrorParsingArgumentsBlock" note="'arguments' is a keyword; do not translate">Failed to parse 'arguments' block of file ''{0}'': {1}</entry>
+    <entry key="ErrorParsingDocTooManyPrefixes">Failed to parse documentation for ''{0}'' because more than one prefix was specified.</entry>
+    <entry key="ErrorParsingDocPrefixTooLong">Failed to parse documentation for ''{0}'' because prefix was longer than one argument.</entry>
+    <entry key="ErrorParsingDocPrefixEnding">Failed to parse documentation for ''{0}'' because prefix must end with '___'.</entry>
+    <entry key="ErrorParsingDocPostfixBeginning">Failed to parse documentation for ''{0}'' because postfix must begin with '___'.</entry>
+    <entry key="ErrorParsingDocUnrecognizedUsageOf">Failed to parse documentation for ''{0}'' because there is unrecognized usage of ''{1}''.</entry>
+    <entry key="ErrorParsingDidYouMean___">Did you mean to use '___'?</entry>
+    <entry key="DefaultMustNotBeEmpty" note="'default' is a keyword; do not translate">''default'' for ''{0}'' must not be empty.</entry>
+    <entry key="ExpectedCommaInArgumentList">A comma is missing in the list of arguments.</entry>
+    <entry key="ErrorParsingNameEqualsValueSyntax">Name=value syntax must appear before "name,value" syntax.</entry>
+    <entry key="CursorExceedsSizeOfInput">Cursor position exceeds size of input.</entry>
+    <entry key="ExpectedFullScalarDouble">''{0}'' must evaluate to a full scalar double.</entry>
+    <entry key="ShadowedJSON">{0} is shadowed by {1}.</entry>
+    <entry key="SchemaVersionBadFormatting">File schema must be exactly three nonnegative integers separated by ''.''s.</entry>
+    <entry key="SchemaVersionIncompatibleError">File schema version ''{0}'' is incompatible with supported version ''{1}''.</entry>
+    <entry key="SchemaVersionIncompatibleWarning">File schema version ''{0}'' is ahead of supported version ''{1}''; full compatibility is not guaranteed.</entry>
+    <entry key="ArgumentInformationForBaseNameSubstituted">Unable to find argument information for ''{0}''; using argument information for ''{1}'' instead.</entry>
+    
+    <entry key="MissingDocMetadata">Unable to integrate argument purpose text from documentation into JSON signature for ''{0}'' because the documentation is missing the necessary metadata.</entry>
+    <entry key="RejectedJSONIntegration" note="{1} is a comma-separated list">Unable to integrate argument purpose text from documentation into JSON signature for ''{0}'' because these names from the signature are not found in the documentation: {1}</entry>
+    <entry key="RejectedDocHelpIntegration" note="{1} is a comma-separated list">Unable to integrate argument purpose text from documentation into help signature for ''{0}'' because these names the from signature are not found in the documentation: {1}</entry>
+    <entry key="RejectedIntegrationReflexive" note="This phrase can (optionally) follow either of the previous two messages">, and these names from the documentation are not found in the signature: {0}</entry>
+  </message>
+</rsccat>

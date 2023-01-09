@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RequireWindowsPlatform">この GUI には、このプラットフォームでサポートされていない Windows 特有のコントロールが含まれています。</entry>
+    <entry key="FailToRestoreActiveX">{0} ''{1}'' は前の状態に復元できません。\n\nファイル {2} が GUI と同じディレクトリにあることを確認してください。</entry>
+    <entry key="ErrorDialogTitle">エラー</entry>
+  </message>
+</rsccat>

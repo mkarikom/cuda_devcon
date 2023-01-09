@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PVPairSizeMismatch">パラメーターのセル/値のセルの組み合わせでサイズが一致しません</entry>
+    <entry key="BadPVPair1">無効なパラメーター/値の組み合わせの引数</entry>
+    <entry key="ValueDimensionMustMatchVectoLength">値のセル配列ハンドルの次元はハンドルのベクトルの長さと同じでなければなりません</entry>
+    <entry key="ExpectedMatchingPairs">値のセル配列は、指定された各プロパティに対して 1 つの値をもたなければなりません</entry>
+    <entry key="BadPVPair2">無効なパラメーター/値の組み合わせの引数</entry>
+    <entry key="BadPVPair3">無効なパラメーター/値の組み合わせ</entry>
+    <entry key="EmptyCellsNotAllowed">パラメーター名のセル配列に空のセルを使えません</entry>
+    <entry key="BadPVPair4">無効なパラメーター/値の組み合わせの引数</entry>
+    <entry key="BadHandle1">無効なハンドル</entry>
+    <entry key="BadPropertyName">無効なプロパティ名</entry>
+    <entry key="BadHandle2">無効なハンドル</entry>
+    <entry key="VectorNotAllowed">ハンドルのベクトルは、set(h) の使用を許可しません</entry>
+    <entry key="BadHandleType">情報を取り出すための設定を使用している場合、ハンドルはスカラーでなければなりません</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NoPCT">SPMD can only be used when the Parallel Computing Toolbox is installed</entry>
+
+    <!-- Begin New Front-End Static Error Messages -->
+    <entry key="InvalidLoadFunctionCall">Error: {0}Load functions that do not assign to an output structure are not supported inside spmd blocks. For more information see {1}.</entry>    
+    <entry key="InvalidInputnameFunctionCall">Error: {0}Using inputname is not supported in spmd blocks. For more information, see {1}.</entry>    
+    <!-- End New Front-End Static Error Messages -->
+  </message>
+</rsccat>

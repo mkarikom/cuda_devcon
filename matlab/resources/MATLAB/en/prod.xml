@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="unknownClass">Unknown class.</entry>
+    <entry key="complexInteger">PROD does not support complex integers.</entry>
+    <entry key="charInput">PROD does not work with char inputs.</entry>
+    <entry key="nonNumericSecondInput">Dimension argument must be a positive integer scalar, a vector of unique positive integers, or ''all''.</entry>
+    <entry key="complexIntegersNotSupported">Complex integer PROD is not supported.</entry>
+    <entry key="repeatedFlagNaN">Invalid option combination. Can only set one of ''omitnan'' and ''includenan''.</entry>
+    <entry key="repeatedFlagOutType">Invalid option combination. Can only set one of ''double'', ''native'', and ''default''.</entry>
+    <entry key="unknownFlag">Invalid option. Option must be ''double'', ''native'', ''default'', ''omitnan'', or ''includenan''.</entry>
+    <entry key="unknownOption">Invalid option. Option must be ''all'', ''double'', ''native'', ''default'', ''omitnan'', or ''includenan''.</entry>
+    <entry key="wrongInput">Invalid data type. First argument must be numeric or logical.</entry>
+  </message>
+</rsccat>

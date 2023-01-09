@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- Copyright 2018-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="DataVariablesArray">''DataVariables'' parameter is only supported for table inputs.</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' function handle must return a logical scalar.</entry>
+    <entry key="DataVariablesTableSubscript">Invalid ''DataVariables'' value.</entry>
+    <entry key="DimensionInvalid">Dimension must be 1 or 2.</entry>
+    <entry key="MinNumOutliers">''MinNumOutliers'' value must be a nonnegative integer.</entry>
+    <entry key="NameValuePairs">Incorrect number of input arguments. Name-value arguments must occur in pairs.</entry>
+    <entry key="NDArrays">N-D arrays not supported.</entry>
+    <entry key="SecondInputString">The second input must be ''median'', ''mean'', ''movmedian'', ''movmean'', ''quartiles'', ''grubbs'', ''gesd'', ''DataVariables'', ''MinNumOutliers'', ''SamplePoints'', or ''ThresholdFactor''.</entry>
+
+    <!-- For code generation -->
+    <entry key="TableDimCodegen">Dimension argument must be the constant 1 for code generation when first argument is a table.</entry>
+    <entry key="DatetimeOrDurationWithMovMethod">''movmean'' and ''movmedian'' methods are not supported for code generation when ''SamplePoints'' are of type datetime or duration.</entry>
+  </message>
+</rsccat>

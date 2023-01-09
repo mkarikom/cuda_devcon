@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidLocaleString">認識されないロケール: ''{0}''。</entry>
+    <entry key="InvalidLocale">ロケールは空でない string または文字ベクトルとして指定しなければなりません。</entry>
+    <entry key="InvalidFormat">datetime 形式は、空でなく欠損値でもない string または文字の行ベクトルとして指定しなければなりません。</entry>
+    <entry key="UnsupportedSymbol">形式 ''{0}'' にはサポートされていないシンボル ''{1}'' が含まれています。{2}</entry>
+    <entry key="UnsupportedIdentifier">形式 ''{0}'' にはサポートされていない識別子が含まれています: ''{1}''。{2}</entry>
+    <entry key="UnrecognizedFormat">形式 ''{0}'' は有効ではありません。{1}</entry>
+    <entry key="LinkToFormatDoc">datetime 形式で使用される識別子の詳細については、&lt;a href="matlab:doc(''datetime.Format'')"&gt;datetime.Format プロパティ&lt;/a&gt;を参照してください。</entry>
+    <entry key="InvalidPivotYear">基軸年はスカラーの整数でなければなりません。</entry>
+    <entry key="UnrecognizedDateStringSuggestLocale">''{0}'' の日付/時刻の形式を認識できませんでした。''InputFormat'' パラメーターを使用して、形式を指定できます。日付/時刻のテキストに ''{1}'' ロケールと異なる言語の曜日、月またはタイム ゾーンの名前が含まれている場合、それらは認識されないことがあります。''Locale'' パラメーターを使用して異なるロケールを指定できます。</entry>
+    <entry key="UnrecognizedDateStringsSuggestLocale">日付/時刻のテキストの形式を認識できませんでした。''InputFormat'' パラメーターを使用して、形式を指定できます。日付/時刻のテキストに ''{0}'' ロケールと異なる言語の曜日、月またはタイム ゾーンの名前が含まれている場合、それらは認識されないことがあります。''Locale'' パラメーターを使用して異なるロケールを指定できます。</entry>
+    <entry key="UnrecognizedDateStringWithLocale">ロケール ''{1}'' を使用して ''{0}'' の日付/時刻の形式を認識できませんでした。''InputFormat'' パラメーターを使用して、形式を指定できます。</entry>
+    <entry key="UnrecognizedDateStringsWithLocale">ロケール ''{0}'' を使用して日付/時刻のテキストの形式を認識できませんでした。''InputFormat'' パラメーターを使用して、形式を指定できます。</entry>
+    <entry key="ParseErr">形式 ''{1}'' を使用して ''{0}'' を datetime に変換できません。</entry>
+    <entry key="ParseErrs">形式 ''{0}'' を使用してテキストを datetime に変換できません。</entry>
+    <entry key="ParseErrSuggestLocale">形式 ''{1}'' を使用して ''{0}'' を datetime に変換できません。日付/時刻のテキストに ''{2}'' ロケールと異なる言語の曜日、月またはタイム ゾーンの名前が含まれている場合、それらは認識されないことがあります。''Locale'' パラメーターを使用して異なるロケールを指定できます。</entry>
+    <entry key="ParseErrsSuggestLocale">形式 ''{0}'' を使用してテキストを datetime に変換できません。日付/時刻のテキストに ''{1}'' ロケールと異なる言語の曜日、月またはタイム ゾーンの名前が含まれている場合、それらは認識されないことがあります。''Locale'' パラメーターを使用して異なるロケールを指定できます。</entry>
+    <entry key="ParseErrWithLocale">形式 ''{1}'' とロケール ''{2}'' を使用して ''{0}'' を datetime に変換できません。</entry>
+    <entry key="ParseErrsWithLocale">形式 ''{0}'' とロケール ''{1}'' を使用してテキストを datetime に変換できません。</entry>
+    <entry key="AmbiguousDateString">形式 ''{0}'' を使用してテキストを datetime に正常に変換しましたが、形式があいまいなため、''{1}'' である可能性があります。特定の形式の呼び出しでテキストから datetime を作成する場合:\n\n datetime(textinput,''InputFormat'',infmt)\n</entry>
+    <entry key="IncompatibleTZ">タイム ゾーンのある datetime 配列を、タイム ゾーンのない datetime 配列と結合または比較できません。</entry>
+    <entry key="IncompatibleEpochTZ">エポックと入力 datetime 配列はどちらもタイム ゾーンをもつか、どちらもゾーンなしでなければなりません。</entry>
+    <entry key="IncompatibleTZLeapSeconds">うるう秒のある datetime 配列とうるう秒のない datetime 配列の結合または比較はできません。</entry>
+    <entry key="IncompatibleEpochTZLeapSeconds">エポックと入力 datetime 配列はどちらも 'UTCLeapSeconds' タイム ゾーンに設定されなければなりません。</entry>
+    <entry key="ExcelTimeOutOfRange">Excel のシリアル日付値に対する入力値は正の値でなければなりません。</entry>
+    <entry key="YYYYMMDDOutOfRange">YYYYMMDD の入力数値は正でなければなりません。</entry>
+    <entry key="MustConvertFromUint64">{0} 時間からの変換に対する入力は、uint64 でなければなりません。</entry>
+    <entry key="ConversionOutOfRange">{0} 時間への変換は、欠損値、または [{1}, {2}) の区間外の datetime ではサポートされていません。</entry>
+    <entry key="YYYYMMDDConversionOutOfRange">YYYYMMDD 数値への変換は、欠損値、または {0} より前の datetime ではサポートされていません。</entry>
+    <entry key="EpochTimeConversionOutOfRange">エポック時間への変換は、欠損値、または指定されたエポックの前後 2^63-1 の刻みを超える datetime ではサポートされていません。</entry>
+    <entry key="EpochTimeConversionFlintOverflow">エポック時間からの変換またはエポック時間への変換は、指定されたエポックの前後 285Ky を超える時間ではサポートされていません。</entry>
+    <entry key="InvalidEpoch">エポックは日付/時刻の文字ベクトル、string スカラー、または datetime スカラーでなければなりません。</entry>
+    <entry key="NonScalarEpoch">エポックはスカラーでなければなりません。</entry>
+    <entry key="InvalidTicksPerSec">TicksPerSecond は、1 と 2^32 の間の整数値でなければなりません。</entry>
+    <entry key="UnrecognizedConversionType">認識されない変換の種類です: ''{0}''。</entry>
+    <entry key="InvalidConversionType">変換の種類は string または文字ベクトルでなければなりません。</entry>
+    <entry key="InputSizeMismatch">データ入力は同じサイズでなければなりませんが、それらのいずれかがスカラーであってもかまいません。</entry>
+    <entry key="InvalidData">入力データは数値配列、string 配列、文字ベクトルを含む cell 配列、または char 行列でなければなりません。</entry>
+    <entry key="InvalidNumericData">数値入力データは、3 列か 6 列の行列、または 3 つか 6 つか 7 つの個別の数値配列でなければなりません。''ConvertFrom'' パラメーターを使用して単一の数値配列から datetime を作成することもできます。</entry>
+    <entry key="WrongNumInputsConversion">入力データは、異なる日付/時間の表現から変換するときには 1 つの数値行列でなければなりません。</entry>
+    <entry key="InvalidUTCLeapSecsFormatString">UTCLeapSeconds datetime の日付形式は 'uuuu-MM-dd''T''HH:mm:ss''Z''' であるか、オプションで最大 9 桁の小数秒を含むことができる 'uuuu-MM-dd''T''HH:mm:ss.SSSSSSSSS''Z''' のいずれかでなければなりません。</entry>
+    <entry key="InvalidNumericConversion">タイプ 'datetime' の入力引数は、関数 ''{0}'' で定義されていません。datetime から数値に変換するには、まず最初に元の datetime を減算し、次に関数 SECONDS、MINUTES、HOURS、DAYS または YEARS を使用して数値に変換します。</entry>
+    <entry key="InvalidFormatIdentifier">1 番目の入力は ''default''、''defaultdate'' または ''reset'' のいずれかでなければなりません。</entry>
+    <entry key="AutoConvertString">テキスト ''{0}'' の形式が認識されなかったため、datetime 値に変換できません。</entry>
+    <entry key="AutoConvertStrings">形式が認識されなかったため、テキスト配列を datetime 配列に変換できません。</entry>
+    <entry key="AutoConvertStringAdd">テキストを追加用の duration に変換できません。</entry>
+    <entry key="AutoConvertStringScalar">テキストとして表現された複数のタイムスタンプは、自動的には変換されません。関数 datetime を使用し、オプションで ''Format'' パラメーターを指定して変換してください。</entry>
+    <entry key="NoMonthsMethod">タイプ 'datetime' の入力引数は、関数 ''months'' では定義されていません。datetime 間の差異を月単位で確認するには、関数 BETWEEN または CALDIFF を使用します。</entry>
+    <entry key="NoTimeZoneMethod">タイプ 'datetime' の入力引数は、関数 ''timezone'' では定義されていません。datetime 配列のタイムゾーンにアクセスするには、その TimeZone プロパティ (t.TimeZone など) を使用します。</entry>
+    <entry key="NoFormatMethod">タイプ 'datetime' の入力引数は、関数 ''format'' では定義されていません。datetime 配列の表示形式にアクセスするには、その Format プロパティ (t.Format など) を使用します。</entry>
+    <entry key="UseDateshiftMethod">タイプ 'datetime' の入力引数は、関数 ''{0}'' で定義されていません。代わりに、関数 DATESHIFT を使用してください。</entry>
+    <entry key="InvalidPreserveInput">パラメーターが無効です。'preserveinput' は、テキスト入力により datetime を作成する場合にのみ使用できます。</entry>
+    <entry key="InvalidJulianDateType">ユリウス日のタイプは 'juliandate' または 'modifiedjuliandate' でなければなりません。</entry>
+    <entry key="InvalidYearType">年のタイプは 'iso' または 'gregorian' でなければなりません。</entry>
+    <entry key="InvalidMonthType">月のタイプは 'monthofyear'、'name'、または 'shortname' でなければなりません。</entry>
+    <entry key="InvalidWeekType">週のタイプは 'weekofmonth' または 'weekofyear' でなければなりません。</entry>
+    <entry key="InvalidDayType">日のタイプは 'dayofmonth'、'dayofweek'、'dayofyear'、'name'、または 'shortname' でなければなりません。</entry>
+    <entry key="InvalidSecondType">秒のタイプは 'secondofday' または 'secondofminute' でなければなりません。</entry>
+    <entry key="InvalidDim">DIM は正の整数値でなければなりません。</entry>
+    <entry key="InvalidVecDim">次元引数は正の整数スカラー、一意な正の整数のベクトル、または ''all'' でなければなりません。</entry>
+    <entry key="InvalidComponents">COMPONENTS は、''Years''、''Quarters''、''Months''、''Weeks''、''Days''、''Time'' のいずれか、もしくはこれらの成分を含む string 配列または cell 配列でなければなりません。</entry>
+    <entry key="InvalidComponentsOrder">COMPONENTS は日付と時間の単位を降順で指定しなければなりません。</entry>
+    <entry key="InvalidSingleComponent">COMPONENT は、''Years''、''Quarters''、''Months''、''Weeks''、''Days''、''Time'' のいずれかでなければなりません。</entry>
+    <entry key="InvalidTextInput">''{0}'' の日付/時刻形式を認識できません。テキストを datetime または duration に変換してください。</entry>
+    <entry key="MustBeTimeVector">入力は datetime ベクトルまたは duration ベクトルでなければなりません。</entry>
+    <entry key="InvalidTZArea">AREA は ''Africa''、''America''、''Antarctica''、''Arctic''、''Asia''、''Atlantic''、''Australia''、''Etc''、''Europe''、''Indian'' または ''Pacific'' でなければなりません</entry>
+    <entry key="InvalidSubscriptExpr">インデックス式では、()-インデックス付けの後に () や '{}' を続けることができません。</entry>
+    <entry key="UnrecognizedProperty">プロパティが認識されません: ''{0}''。</entry>
+    <entry key="InvalidPropertyName">プロパティ名は string または文字ベクトルでなければなりません。</entry>
+    <entry key="CellReferenceNotAllowed">セルの内容が非セル配列から参照されています。</entry>
+    <entry key="CellAssignmentNotAllowed">セルの内容が非セル配列に代入されています。</entry>
+    <entry key="ReadOnlyProperty">''{0}'' プロパティへの代入を行うことはできません。</entry>
+    <entry key="SubArrayPropertyAssignment">datetime 配列の個々の要素の ''{0}'' プロパティは設定できません。T(...).{0} = VALUE の代わりに T.{0} = VALUE を使用してください。</entry>
+    <entry key="PropertyAssignmentResize">datetime 配列の ''{0}'' プロパティに代入を行っても、プロパティのサイズは変更されません。</entry>
+    <entry key="InvalidAssignmentLHS">{0} 配列からの割り当ての LHS が無効です。</entry>
+    <entry key="InvalidNumericAssignment">数値を {0} 配列に代入することはできません。配列の Year、Month、Day、Hour、Minute または Second プロパティへの代入を行うか、datetime(x,'ConvertFrom',...) を使用して代入する datetime 値を作成します。</entry>
+    <entry key="InvalidAssignment">代入の右辺は datetime 配列か、日付と時刻を表すテキストでなければなりません。</entry>
+    <entry key="IllegalDotMethod">datetime プロパティ ''{0}'' を認識できません。{1} メソッドを呼び出す場合は、{1}(dt,...) などの関数構文を使用しなければなりません。詳細については、「&lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;メソッドの呼び出し&lt;/a&gt;」を参照してください。</entry>
+    <entry key="IllegalDotMethodNoCorrection">datetime プロパティ ''{0}'' を認識できません。{1} メソッドを呼び出す場合は、関数構文を使用しなければなりません。詳細については、「&lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;メソッドの呼び出し&lt;/a&gt;」を参照してください。</entry>
+    <entry key="DurationConversion">日付と時刻の算術演算の数値への変換が無効です。</entry>
+    <entry key="ComplexNumeric">日付と時刻の算術演算に入力する数値は実数でなければなりません。</entry>
+    <entry key="InvalidComparison">{0} 配列と {1} 配列の間で比較は定義されていません。</entry>
+    <entry key="DatetimeAdditionNotDefined">datetime 配列間で加算は定義されていません。</entry>
+    <entry key="AdditionNotDefined">{0} 配列と {1} 配列は加算できません。</entry>
+    <entry key="SubtractionNotDefined">{1} 配列から {0} 配列は減算できません。</entry>
+    <entry key="TwoInTwoOutCaseNotSupported">比較のための 2 つの datetime 配列と 2 つの出力引数をもつ {0} は、サポートされていません。</entry>
+    <entry key="TwoInWithDimCaseNotSupported">比較のための 2 つの datetime 配列と使用する次元をもつ {0} は、サポートされていません。</entry>
+    <entry key="UnknownNaNFlag">最後の入力フラグは、''includenat''、''includenan''、''omitnat'' または ''omitnan'' でなければなりません。</entry>
+    <entry key="UnknownNaNFlagAllFlag">オプションが無効です。オプションは ''all''、''includenat''、''includenan''、''omitnat''、''omitnan'' のいずれかでなければなりません。</entry>
+    <entry key="UnknownMeanOption">最後の入力フラグは、''includenat''、''includenan''、''omitnat'' または ''omitnan'' のいずれか、もしくは ''native'' または ''default''' のいずれかでなければなりません。</entry>
+    <entry key="UnknownMeanOptionAllFlag">オプションが無効です。オプションは、''all''、または ''includenat''、''includenan''、''omitnat'' または ''omitnan'' のいずれか、もしくは ''native'' または ''default''' のいずれかでなければなりません。</entry>
+    <entry key="CompareTimeOfDay">datetime と duration の比較はサポートされていません。時刻を比較するには、関数 HOURS を、たとえば\n\n hours(datetime(''now'')) &lt; 12 のように使用するか、\n\nあるいは、関数 TIMEOFDAY を、たとえば\n\n timeofday(datetime(''now'')) &lt; ''12:30:00'' のように使用します</entry>
+    <entry key="InputMustBeReal">数値入力データは実数でなければなりません。</entry>
+    <entry key="UnknownTimeZone">指定されたタイム ゾーンを作成できません: ''{0}''。タイム ゾーンの指定についての詳細は、&lt;a href="matlab:doc(''datetime.TimeZone'')"&gt;datetime.TimeZone プロパティ&lt;/a&gt;を参照してください。</entry>
+    <entry key="UnknownSystemTimeZone">システム タイム ゾーンの設定 ''{0}'' が無効です。タイム ゾーンの指定についての詳細は、&lt;a href="matlab:doc(''datetime.TimeZone'')"&gt;datetime.TimeZone プロパティ&lt;/a&gt;を参照してください。</entry>
+    <entry key="NonstandardTimeZone">''{0}'' は、単一のタイム ゾーンを厳密に指定していません。これは ''{1}'' として処理されます。タイム ゾーンの指定についての詳細は、&lt;a href="matlab:doc(''datetime.TimeZone'')"&gt;datetime.TimeZone プロパティ&lt;/a&gt;を参照してください。</entry>
+    <entry key="NonstandardSystemTimeZone">システム タイム ゾーンの設定 ''{0}'' は、単一のタイム ゾーンを厳密に指定していません。これは ''{1}'' として処理されます。タイム ゾーンの指定についての詳細は、&lt;a href="matlab:doc(''datetime.TimeZone'')"&gt;datetime.TimeZone プロパティ&lt;/a&gt;を参照してください。</entry>
+    <entry key="NonstandardTimeZoneFixed">''{0}'' は、UTC からの固定オフセット {1} を使用してタイム ゾーンを指定します。このゾーンには夏時間がないため、予期しない結果が生ずる場合があります。タイム ゾーンの指定についての詳細は、&lt;a href="matlab:doc(''datetime.TimeZone'')"&gt;datetime.TimeZone プロパティ&lt;/a&gt;を参照してください。</entry>
+    <entry key="NonstandardSystemTimeZoneFixed">システム タイム ゾーンの設定 ''{0}'' は、UTC からの固定オフセット {1} を使用してタイム ゾーンを指定します。このゾーンには夏時間がないため、予期しない結果が生ずる場合があります。タイム ゾーンの指定についての詳細は、&lt;a href="matlab:doc(''datetime.TimeZone'')"&gt;datetime.TimeZone プロパティ&lt;/a&gt;を参照してください。</entry>
+    <entry key="InvalidTimeZone">タイム ゾーンは string または文字ベクトルとして指定しなければなりません。</entry>
+    <entry key="InvalidSystemTimeZone">システムのタイム ゾーン設定 ''{0}'' は認識されず、代わりに ''UTC'' が使用されます。datetime(''now'') などの現在時間へのアクセスや、datetime(Y,M,D,''TimeZone'',''local'') などの datetime 配列のタイム ゾーン プロパティの設定を行うと、不正確な結果が返される場合があります。</entry>
+    <entry key="InvalidFractionalSeconds">小数秒は、datetime 形式で連続していなければなりません。</entry>
+    <entry key="MustBeInteger">年、月、日、時、分のコンポーネントは整数値でなければなりません。</entry>
+    <entry key="MustBeIntegerSecond">ミリ秒を指定する場合、年、月、日、時、分、秒の各コンポーネントは整数値でなければなりません。</entry>
+    <entry key="PivotYearOutOfRange">基軸年 {0,number,integer} が範囲外です。</entry>
+    <entry key="PivotYearOutOfRange2">Pivot year out of range.</entry>
+    <entry key="FormatConflict_Zz">形式 ''{0}'' にタイム ゾーン オフセットのフィールドが含まれています。このフィールドが存在する場合、''TimeZone'' 入力パラメーターを使用して、特定のタイムゾーンの datetime 配列を作成しなければなりません。その後、'TimeZone' プロパティを '''' に設定して、その配列をゾーンなしに変換できます。</entry>
+    <entry key="FormatConflict_Ha">形式 ''{0}'' には 24 時間形式の時間 (H) と am/pm (a) のフィールドが含まれています。これはテキストからの変換時に予期しない結果を招く原因となります。{1}</entry>
+    <entry key="FormatConflict_uG">形式 ''{0}'' には ISO 年 (u) と時代 (G) のフィールドが含まれています。これはテキストからの変換時に予期しない結果を招く原因となります。{1}</entry>
+    <entry key="FormatConflict_MD">形式 ''{0}'' には月 (M) と年間通算日 (D) のフィールドが含まれています。これはテキストからの変換時に予期しない結果を招く原因となります。{1}</entry>
+    <entry key="FormatConflict_dD">形式 ''{0}'' には月間通算日 (d) と年間通算日 (D) のフィールドが含まれています。これはテキストからの変換で予期しない結果を招く原因となります。{1}</entry>
+    <entry key="FormatConflict_mM">形式 ''{0}'' には、日付と想定される部分に分 (m) のフィールドが含まれています。分 (m) ではなく、月 (M) を表す記号の使用を意図していた可能性があります。{1}</entry>
+    <entry key="FormatConflict_Mm">形式 ''{0}'' には、時間と想定される部分に月 (M) のフィールドが含まれています。月 (M) ではなく、分 (m) を表す記号の使用を意図していた可能性があります。{1}</entry>
+    <entry key="FormatConflict_Yy">形式 ''{0}'' には「年の通算週」カレンダーの年 (Y) のフィールドが含まれていますが、年の通算週 (w) のフィールドはありません。これは予期しない結果を招く原因となります。グレゴリオ暦の年 (y) を表す記号の使用を意図していた可能性があります。{1}</entry>
+    <entry key="FormatConflict_Dy">形式 ''{0}'' には、年間通算日 (D) とグレゴリオ暦年 (y) のフィールドが含まれています。これはテキストからの変換時に予期しない結果を招く原因となります。グレゴリオ暦年 (y) の代わりに ISO 年 (u) を使用してください。{1}</entry>
+    <entry key="InvalidFromVE">認識されない datetime の形式です。</entry>
+    <entry key="TextConstructionCodegen">コード生成では、テキスト入力からの datetime の作成がサポートされていません。</entry>
+    <entry key="UnzonedCodegen">コード生成ではすべての datetime がゾーンなしでなければなりません。</entry>
+    <entry key="UnsupportedMethodCodegen">コード生成では、datetime に対して {0} メソッドがサポートされていません。</entry>
+    <entry key="FormatNotSupportedCodegen">コード生成では、表示形式の指定がサポートされていません。</entry>
+    <entry key="TimeZoneNotSupportedCodegen">コード生成では、datetime 配列のタイム ゾーンを指定することがサポートされていません。</entry>
+    <entry key="DoubleDoubleAssertionCodegen">2 番目の入力は、この double-double 演算の範囲外です。</entry>
+    <entry key="PropertyChangeCodegen">コード生成では、datetime に対する {0} プロパティの設定はサポートされていません。</entry>
+    <entry key="ColonInputsCodegen">Specifying the duration step size is required in code generation.</entry>
+    <entry key="CalendarDurationUnitCodegen">カレンダー単位の指定はコード生成でサポートされていません。</entry>
+    <entry key="BinaryMinMaxCodegen"> datetime に対するバイナリの {0} はコード生成でサポートされていません。</entry>
+    <entry key="LinearFlagCodegen">'linear' オプションはコード生成でサポートされていません。</entry>
+    <entry key="DimFlagConstCodegen">次元の引数は定数でなければなりません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="illegalWritableSetting">Writable 필드는 논리형 스칼라를 가져야 합니다.</entry>
+    <entry key="illegalOffsetType">Offset 필드는 실수형 스칼라 숫자여야 합니다.</entry>
+    <entry key="illegalOffsetValue">Offset 필드는 유한한 음이 아닌 정수 값을 포함해야 합니다.</entry>
+    <entry key="illegalFormatSetting">지정된 Format 필드가 유효하지 않습니다.</entry>
+    <entry key="illegalRepeatType">Repeat 필드는 실수형 스칼라 숫자를 포함해야 합니다.</entry>
+    <entry key="illegalRepeatValue">Repeat 필드는 양의 정수 값 또는 Inf를 포함해야 합니다.</entry>
+    <entry key="illegalFilenameType">파일 이름은 문자형 벡터여야 합니다.</entry>
+    <entry key="inaccessibleFile">파일 "{0}"에 액세스할 수 없음: {1}.</entry>
+    <entry key="classMismatch">데이터 필드에 할당(대입)되는 값은 데이터 필드와 동일한 클래스를 가지고 있어야 합니다.</entry>
+    <entry key="illegalComplexAssignment">Data 필드나 그 하위 필드에는 복소수 값을 할당할 수 없습니다.</entry>
+    <entry key="illegalSubscriptedAssignment">memmapfile 객체의 데이터 필드 값을 지정하는 대입식에 부적절한 첨자가 사용되었습니다.</entry>
+    <entry key="UnpairedParamsValues">파라미터/값 쌍은 반드시 짝을 이루어야 합니다.</entry>
+    <entry key="dataIsReadOnly">Writable 필드가 false로 설정되어 있기 때문에 데이터 필드를 수정할 수 없습니다.</entry>
+    <entry key="illegalPropertyType">속성은 문자형 벡터이거나 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="noStructConversion">memmapfile 객체를 구조체로 변환할 수 없습니다.</entry>
+    <entry key="illegalAlignment">부적절한 Format 값, Offset 값 또는 Repeat 값입니다. Format 값, Offset 값, Repeat 값이 지정된 데이터 필드에 액세스하면 정렬되지 않은 주소 예외(Unaligned Address Exception)를 초래할 수 있습니다.</entry>
+    <entry key="fileTooSmall">파일 "{0}"이(가) 충분히 크지 않아서 현재 Format 값, Offset 값, Repeat 값에 매핑될 수 없습니다.</entry>
+    <entry key="sizeMismatch">대입식 M.DATA = N에서 N과 M.DATA에 있는 요소 개수는 같아야 합니다.</entry>
+    <entry key="dataFieldSizeFixed">대입식에 첨자를 사용해 데이터 필드 크기를 변경할 수 없습니다. 데이터 필드 크기는 Repeat 및 Format 필드에 의해 결정됩니다.</entry>
+    <entry key="illegalDataFieldModification">memmapfile 객체의 데이터 필드가 구조체일 경우에는 대입식을 통해 변경할 수 없습니다.</entry>
+    <entry key="classMismatchForSubfield">데이터 필드 하위 필드에 할당(대입)되는 값은 하위 필드와 동일한 클래스를 가지고 있어야 합니다.</entry>
+    <entry key="sizeMismatchForSubfield">대입식 M.DATA(I).FIELD = N에서 N과 M.DATA(I).FIELD의 요소 개수는 같아야 합니다.</entry>
+    <entry key="dataSubfieldSizeFixed">대입식에 첨자를 사용해 데이터 필드의 하위 필드 크기를 변경할 수 없습니다. 데이터 필드의 하위 필드 크기는 Format 필드에 의해 결정됩니다.</entry>
+    <entry key="illegalParameter">{0,number,integer}번째 입력값에서 파라미터는 문자형 벡터여야 합니다.</entry>
+    <entry key="unrecognizedParameter">파라미터 "{0}"을(를) 인식할 수 없습니다.</entry>
+    <entry key="illegalParenIndex">memmapfile 객체에 대한 첨자는 ()를 사용하여 표현될 수 없습니다.</entry>
+    <entry key="illegalBraceIndex">memmapfile 객체에 대한 첨자는'{}'를 사용하여 표현될 수 없습니다.</entry>
+    <entry key="unsupportedCSL">쉼표로 구분된 목록을 생성하는 데 데이터 필드에 첨자를 사용한 작업이 시도되었습니다. memmapfile 클래스는 첨자가 사용된 경우 쉼표로 구분된 목록을 지원하지 않습니다.</entry>
+    <entry key="noCatenation">memmapfile 객체를 결합(Concatenate)할 수 없습니다.</entry>
+    <entry key="noEmptyMethod">빈 memmapfile 객체를 생성할 수 없습니다.</entry>
+  </message>
+</rsccat>

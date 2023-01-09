@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="pvsetNoValue">指定的属性没有对应值。</entry>
+    <entry key="nonScalarDatenum">IsDatenum 属性必须为逻辑标量值。</entry>
+    <entry key="pvsetInvalid">属性名称无效</entry>
+    <entry key="emptytimeseries">空时序不能添加到 tscollection 中。</entry>
+    <entry key="nosingleton">tscollection 必须拥有非空时间向量。</entry>
+    <entry key="notimevectornocellarray">第二个参数必须是时间向量、时序对象或时序对象元胞数组。</entry>
+  </message>
+</rsccat>

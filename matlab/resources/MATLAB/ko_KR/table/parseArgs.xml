@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WrongNumberArgs">인수의 개수가 올바르지 않습니다.</entry>
+    <entry key="IllegalParamName">유효하지 않은 파라미터 이름입니다. 파라미터 이름은 비어 있지 않은 string형 또는 문자형 벡터여야 합니다.</entry>
+    <entry key="BadParamName">유효하지 않은 파라미터 이름임: {0}.</entry>
+    <entry key="BadParamNamePossibleCharRowData">유효하지 않은 파라미터 이름임: {0}.</entry>
+    <entry key="AmbiguousParamName">모호한 파라미터 이름임: {0}.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="KeyWithoutValue">{0} に値が指定されていません。</entry>
+    <entry key="InvCombCostUndir">コストはオプション ''closeness'' および ''betweenness'' にのみ指定できます。</entry>
+    <entry key="InvCombImpUndir">重要度はオプション ''degree''、''eigenvector'' または ''pagerank'' にのみ指定できます。</entry>
+    <entry key="InvCombTolUndir">許容誤差はオプション ''eigenvector'' または ''pagerank'' にのみ指定できます。</entry>
+    <entry key="InvCombMaxitUndir">MaxIterations はオプション ''eigenvector'' または ''pagerank'' にのみ指定できます。</entry>
+    <entry key="InvCombDamping">FollowProbability はオプション ''pagerank'' にのみ指定できます。</entry>
+    <entry key="InvCombCostDir">コストはオプション ''incloseness''、''outcloseness'' および ''betweenness'' にのみ指定できます。</entry>
+    <entry key="InvCombImpDir">重要度はオプション ''indegree''、''outdegree'', ''hubs''、''authorities'' および ''pagerank'' にのみ指定できます。</entry>
+    <entry key="InvCombTolDir">許容誤差はオプション ''hubs''、''authorities'' または ''pagerank'' にのみ指定できます。</entry>
+    <entry key="InvCombMaxitDir">MaxIterations はオプション ''hubs''、''authorities'' または ''pagerank'' にのみ指定できます。</entry>
+    <entry key="PageRankNoConv">pagerank の反復が収束しませんでした。''MaxIterations'' を大きくするか、''Tolerance'' を小さくすることを検討してください。</entry>
+    <entry key="HITSNoConv">hub および authorities の反復が収束しませんでした。''MaxIterations'' を大きくするか、''Tolerance'' を小さくすることを検討してください。</entry>
+  </message>
+</rsccat>

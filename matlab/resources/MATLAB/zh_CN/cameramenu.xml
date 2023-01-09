@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Removal">以后的版本中将会删除 cameramenu。请改用 cameratoolbar。</entry>
+    <entry key="OpenGLNotAvailable">OpenGL 渲染器不可用。</entry>
+    <entry key="Label_Camera">相机(&amp;C)</entry>
+    <entry key="Label_CameraModeCoordsys">相机({0}, {1})(&amp;C)</entry>
+    <entry key="Label_CameraMode">相机({0})(&amp;C)</entry>
+    <entry key="Label_MouseMode">鼠标模式</entry>
+    <entry key="Label_Orbit">环移</entry>
+    <entry key="Label_OrbitScenelight">环移场景灯光</entry>
+    <entry key="Label_Pan">平移</entry>
+    <entry key="Label_DollyHorizVert">水平/垂直推移</entry>
+    <entry key="Label_DollyInOut">近摄/远摄</entry>
+    <entry key="Label_Zoom">缩放</entry>
+    <entry key="Label_Roll">转动</entry>
+    <entry key="Label_Walk">推进</entry>
+    <entry key="Label_Unconstrained">无约束</entry>
+    <entry key="Label_MouseConstraint">鼠标约束</entry>
+    <entry key="Label_Horizontal">水平</entry>
+    <entry key="Label_Vertical">垂直</entry>
+    <entry key="Label_StopMoving">停止移动</entry>
+    <entry key="Label_Scenelight">场景灯光</entry>
+    <entry key="Label_Reset">重置</entry>
+    <entry key="Label_ResetModesCameraProperties">重置模式/相机属性</entry>
+    <entry key="Label_ResetCameraProperties">重置相机属性</entry>
+    <entry key="Label_ResetTargetPoint">重置目标点</entry>
+    <entry key="Label_ResetScenelight">重置场景灯光</entry>
+    <entry key="Label_Scene">场景</entry>
+    <entry key="Label_FitAll">全部拟合</entry>
+    <entry key="Label_LightingNone">无光照</entry>
+    <entry key="Label_LightingFlat">平面光照</entry>
+    <entry key="Label_LightingGouraud">高氏光照</entry>
+    <entry key="Label_LightingPhong">方氏光照</entry>
+    <entry key="Label_ShadingFaceted">分面着色</entry>
+    <entry key="Label_ShadingFlat">单一着色</entry>
+    <entry key="Label_ShadingInterp">差补着色</entry>
+    <entry key="Label_ClippingOn">开启裁剪</entry>
+    <entry key="Label_ClippingOff">关闭裁剪</entry>
+    <entry key="Label_Axes">坐标区</entry>
+    <entry key="Label_Visible">可见</entry>
+    <entry key="Label_Box">框</entry>
+    <entry key="Label_Ticks">刻度</entry>
+    <entry key="Label_Grid">网格</entry>
+    <entry key="Label_WallsColor">墙壁颜色...</entry>
+    <entry key="Label_XColor">X 颜色...</entry>
+    <entry key="Label_YColor">Y 颜色...</entry>
+    <entry key="Label_ZColor">Z 颜色...</entry>
+    <entry key="Label_Orthographic">正交</entry>
+    <entry key="Label_Perspective">透视</entry>
+    <entry key="Label_RendererOptions">渲染器选项</entry>
+    <entry key="Label_DoubleBuffer">双缓冲</entry>
+    <entry key="Label_NoSort">无排序</entry>
+    <entry key="Label_Auto">自动</entry>
+    <entry key="Label_MoveAsBox">整框移动</entry>
+    <entry key="Label_BackgroundColor">背景颜色...</entry>
+    <entry key="Label_RemoveMenu">删除菜单</entry>
+    <entry key="Label_X">X</entry>
+    <entry key="Label_Y">Y</entry>
+    <entry key="Label_Z">Z</entry>
+    <entry key="Label_Painters">Painters</entry>
+    <entry key="Label_Zbuffer">Zbuffer</entry>
+    <entry key="Label_OpenGL">OpenGL</entry>
+  </message>
+</rsccat>

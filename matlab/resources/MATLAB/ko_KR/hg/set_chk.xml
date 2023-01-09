@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ErrorMessageGetWarning">ErrorMessage 속성은 향후 릴리스에서 제거될 예정입니다. 명령줄에서 MException.last를 대신 사용하십시오.</entry>
+    <entry key="ErrorMessageSetWarning">ErrorMessage 속성은 향후 릴리스에서 제거될 예정입니다.</entry>
+    <entry key="ErrorMessageGetError">ErrorMessage 속성은 제거되었습니다. 명령줄에서 MException.last를 대신 사용하십시오.</entry>
+    <entry key="ErrorMessageSetError">ErrorMessage 속성은 제거되었습니다.</entry>
+    <entry key="ExpectedNonNegativeInteger">속성값은 0보다 크거나 같은 정수여야 함</entry>
+    <entry key="MadeMarkerAndLineStyleSeparateProperties">마커 유형을 ''LineStyle'' 속성에 기반하여 설정하고 있습니다.\n         그러나 ''Marker''와 ''LineStyle''이 별도의 속성으로 만들어져 있습니다.\n         이 경고를 삭제하려면 ''Marker'' 속성을 사용하십시오.</entry>
+  </message>
+</rsccat>

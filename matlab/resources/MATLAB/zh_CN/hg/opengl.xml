@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RegistrationSymbolNotFound">未找到 glren 的注册符号。\n{0}</entry>
+    <entry key="UnableToLoadOpenGL">由于以下错误，无法加载 OpenGL 渲染器\n{0}\n已尝试从 {1} 中加载 glren 共享对象</entry>
+    <entry key="MaxTextureSize">OpenGL 上下文已创建，但 MaxTextureSize 为 {0,number,integer}。\n将禁用 OpenGL。</entry>
+    <entry key="UnableToUnload">无法卸载 OpenGL 库</entry>
+    <entry key="UnableToAccessLibrary">无法访问 OpenGL 库</entry>
+    <entry key="AppearsToBeInstalledCorrectly">OpenGL 似乎安装不当。</entry>
+    <entry key="ErrorWhenLoadingOpenGL">加载 OpenGL 时出错</entry>
+    <entry key="OpenGLUnavailable">OpenGL 不可用</entry>
+  </message>
+</rsccat>

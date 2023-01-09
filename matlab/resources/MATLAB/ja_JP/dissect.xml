@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="needDoubleOrLogical">入力行列は double または logical でなければなりません。</entry>
+    <entry key="needMatrix">入力行列は正方行列でなければなりません。</entry>
+    <entry key="needNumeric">''{0}'' の値は数値でなければなりません。</entry>
+    <entry key="needRealScalar">''{0}'' の値は実数で数値のスカラーでなければなりません。</entry>
+    <entry key="numberOfArguments">入力引数の数が正しくありません。各パラメーター名の後には対応する値が必要です。</entry>
+    <entry key="MaxImbalanceVal">''MaxImbalance'' の値は 0.001 の整数倍で、1.001 以上 1.999 以下でなければなりません。</entry>
+    <entry key="MaxDegreeVal">''MaxDegreeThreshold'' の値は非負の整数でなければなりません。</entry>
+    <entry key="NumIterationsVal">''NumIterations'' の値は 1 以上の整数でなければなりません。</entry>
+    <entry key="NumSeparatorsVal">''NumSeparators'' の値は 1 以上の整数でなければなりません。</entry>
+    <entry key="VwgtsNotVector">''VertexWeights'' の値は、入力行列の行数と同じ長さの実数ベクトルでなければなりません。</entry>
+    <entry key="VwgtsNotInteger">''VertexWeights'' の値は 1 以上の整数からなるベクトルでなければなりません。</entry>
+    <entry key="InvalidName">パラメーター名は、''VertexWeights''、''NumSeparators''、''NumIterations''、''MaxImbalance''、または ''MaxDegreeThreshold'' でなければなりません。</entry>
+  </message>
+</rsccat>

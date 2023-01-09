@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">不能对时序对象数组调用时序构造函数</entry>
+    <entry key="loadObjectNoReshapeWarning">IsTimeFirst 属性现在已计算，与保存的表示形式不同。</entry>
+    <entry key="loadObjectWarning">加载的时序数据已重构为矩阵，因为保存的时序 IsTimeFirst 属性为 true。</entry>
+    <entry key="invalidDataInfo">时序的 DataInfo 属性的值无效</entry>
+    <entry key="invalidTimeInfo">时序的 TimeInfo 属性的值无效</entry>
+  </message>
+</rsccat>

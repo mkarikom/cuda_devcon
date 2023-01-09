@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="FirstInputMustBeHandle">First argument must be an axes handle.</entry>
+    <entry key="HandleMustBeScalar">Axes handle must be a scalar</entry>
+    <entry key="NeedAxesHandle">First argument must be an axes handle.</entry>
+    <entry key="ExpectedStringInput">Shading methods are flat, faceted, and interp.</entry>
+    <entry key="InvalidShadingMethod">Shading methods are flat, faceted, and interp.</entry>
+  </message>
+</rsccat>

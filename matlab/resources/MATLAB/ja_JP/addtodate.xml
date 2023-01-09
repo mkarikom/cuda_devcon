@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Nargin">引数の数が無効です。</entry>
+    <entry key="DateField">日付フィールド "{0}" が無効です。日付フィールドは '{' {1}'}' の 1 つでなければなりません。</entry>
+    <entry key="InputDate">日付値は実数の数値スカラーでなければなりません。</entry>
+    <entry key="InputQuantity">量は、10^16 以下の実数の数値スカラーでなければなりません。</entry>
+    <entry key="InputDateField">日付フィールドは文字ベクトルまたは string スカラーでなければなりません。</entry>
+    <entry key="NonIntegerValue">非整数値の量はサポートされません。{0} は {1,number,integer} に打ち切られます。</entry>
+  </message>
+</rsccat>

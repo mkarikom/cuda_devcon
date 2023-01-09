@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CannotSetState">Cannot set {0} in combination with ''on'', ''off'', or ''query''.</entry>
+    <entry key="CannotFreeze">Cannot use {0} in combination with ''-freeze''.</entry>
+    <entry key="CannotPause">Pause with two numeric arguments is not supported.</entry>
+    <entry key="PauseNoArgsNotSupported">Pause with no arguments is not supported in non-interactive contexts.</entry>
+  </message>
+</rsccat>

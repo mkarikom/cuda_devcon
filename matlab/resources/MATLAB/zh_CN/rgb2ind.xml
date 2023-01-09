@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="tooManyColors">颜色太多；正在将容差增加到 {0}</entry>
+    <entry key="obsoleteSyntaxNeedMoreArgs">RGB2IND(RGB) 为已弃用的语法。\n请指定颜色数目、容差或颜色图。</entry>
+    <entry key="invalidInputArgs">输入参数无效。</entry>
+    <entry key="rgbNotMbyNby3">RGB 图像必须为 M×N×3 数组。</entry>
+    <entry key="negativeValuesInMap">颜色图、颜色数目或容差必须为非负数。</entry>
+    <entry key="invalidNumberOfColors">颜色图中的颜色数目必须为非负整数。</entry>
+    <entry key="invalidMapSize">输入颜色图必须为 2 维数组并且包含至少 2 行和恰好 3 列。</entry>
+    <entry key="invalidMapIntensities">所有的颜色图强度都必须介于 0 与 1 之间。</entry>
+    <entry key="unknownDitherOption">未知的 dither 选项: {0}</entry>
+    <entry key="ambiguousDitherOption">具有多义性的 dither 选项: {0}</entry>
+    <entry key="ditherOptionNotString">Dither 选项必须为字符向量。</entry>
+  </message>
+</rsccat>

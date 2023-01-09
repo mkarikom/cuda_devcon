@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MexFileNotFound">mex ファイルが見つかりません。</entry>
+    <entry key="PrintCenter">範囲外のインデックスです。</entry>
+    <entry key="ProduceConvexHull">collinear/coplanar/cohyperplanar 凸包小平面のマージはサポートされていません。Qt オプションの使用を検討してください。</entry>
+    <entry key="NonDoubleInput">最初の入力引数は double の配列でなければなりません。</entry>
+    <entry key="InvalidNumberOfOutputs">出力引数が多すぎます。</entry>
+    <entry key="DegenerateData">データは少なくとも 1 つの次元、つまり (N+1) 次元の領域に存在する点の N 次元の集合に退化します。</entry>
+    <entry key="InputSizeTooLarge">関数に許容される最大可変サイズを超えました。\nこの関数の 64 ビット配列のサポートをご希望の場合は、このエラーを 64bit_support@mathworks.com に送信してください。</entry>
+    <entry key="ProduceDelaunayM">範囲外の M インデックスです。</entry>
+    <entry key="ProduceDelaunayN">範囲外の N インデックスです。</entry>
+    <entry key="ProduceVoronoi">範囲外のインデックスです。</entry>
+    <entry key="ProduceVoronoiVert">範囲外の頂点インデックスです。</entry>
+    <entry key="OutputTooLarge">The computed output size is too large.</entry>
+    <entry key="TooFewInputs">入力引数が足りません。</entry>
+    <entry key="UndefinedError">{0}</entry>
+    <entry key="InternalWarning">{0}</entry>
+  </message>
+</rsccat>

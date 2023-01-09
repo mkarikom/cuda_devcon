@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WhatsThis">これはなに?</entry>
+    <entry key="CreateNewTimeSeriesWithName">次の名前をもつ新規の時系列を作成</entry>
+    <entry key="EnterNameOfTimeSeriesObjectToBeImported">インポートする time series オブジェクトの名前を入力してください。</entry>
+    <entry key="CreateSeveralTimeSeries">さまざまな時系列を作成</entry>
+    <entry key="NamesInDataSource">データ ソース内の名前</entry>
+    <entry key="CommonNameAndNumber">共通名 + 番号</entry>
+    <entry key="TimeseriesRowcolumnVariableNamesOption">行/列は変数名が含まれており、time series オブジェクトでそれらを使用する場合は、最初のドロップダウン メニュー項目を選択します。それ以外の場合は 2 番目のメニュー項目を選択します。</entry>
+    <entry key="SpecifyRow">行を指定</entry>
+    <entry key="SpecifyColumn">列を指定</entry>
+    <entry key="KeyInRowNumbercolumnLetterOrCommonPart">行番号/列の文字を入力してください。あるいは time series オブジェクトに対する名前の共通部分を指定してください。</entry>
+    <entry key="AppendDataToAnExistingTimeSeries">データを既存の時系列に追加</entry>
+    <entry key="SelectTimeSeriesObjectFromList">ドロップダウン リストから time series オブジェクトを選択し、選択したデータ サンプルを挿入してください</entry>
+    <entry key="RefreshList">リストの更新</entry>
+    <entry key="CommonName">共通名</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ErrorOccurredWhileSavingData">保存数据时出错。</entry>
+    <entry key="InvalidVariableName">变量名称 "{0}" 无效。</entry>
+    <entry key="CursorDataExportError">游标数据导出错误</entry>
+    <entry key="SelectMATLABFile">选择 MATLAB 文件</entry>
+    <entry key="EnterVariableName">输入变量名称</entry>
+    <entry key="VariableNameAlreadyExists">MATLAB 工作区中已存在名为 "{0}" 的变量。\n如果继续，将会覆盖工作区中的 "{1}" 实例。\n</entry>
+    <entry key="ExportCursorDataToWorkspace1">将游标数据导出到工作区</entry>
+    <entry key="SelectionStyle">选择样式</entry>
+    <entry key="MousePosition">鼠标位置</entry>
+    <entry key="SnapToNearestDataVertex">吸附到最近的数据顶点</entry>
+    <entry key="DisplayStyle">显示样式</entry>
+    <entry key="WindowInsideFigure">图窗内窗口</entry>
+    <entry key="Datatip">数据提示</entry>
+    <entry key="CreateNewDatatip">创建新数据提示             Alt-单击</entry>
+    <entry key="DeleteCurrentDatatip">删除当前数据提示            Delete</entry>
+    <entry key="DeleteAllDatatips">删除所有数据提示</entry>
+    <entry key="ExportCursorDataToWorkspace2">将游标数据导出到工作区...</entry>
+    <entry key="EditTextUpdateFunction">编辑文本更新函数...</entry>
+    <entry key="SelectTextUpdateFunction">选择文本更新函数...</entry>
+  </message>
+</rsccat>

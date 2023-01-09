@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadResidual">큰 잔차 노름(Norm)이 발견되었습니다. 입력 행렬의 조건이 나쁘기 때문일 수 있습니다.</entry>
+    <entry key="NotAllEigsConverged">요청한 {1,number,integer}개의 고유값 중 {0,number,integer}개가 수렴되었습니다. 수렴되지 않은 고유값은 NaN입니다.</entry>
+    <entry key="NotAllEigsConvKeep">요청한 {1,number,integer}개의 고유값 중 {0,number,integer}개가 수렴되었습니다. 수렴되지 않은 값을 확인하려면 수렴 플래그 출력값을 지정하십시오.</entry>
+    <entry key="NotAllEigsConvDrop">요청한 {1,number,integer}개의 고유값 중 {0,number,integer}개가 수렴되었습니다. 수렴되지 않은 고유값은 제거되었습니다.</entry>
+    <entry key="AmbiguousSyntax">모호한 구문임: 첫 번째 인수와 두 번째 인수 모두 스칼라입니다.\n EIGS(A,[],K,SIGMA)를 사용하여 표준 고유값 문제를 지정하거나 EIGS(A,B,K,SIGMA)를 사용하여 일반 고유값 문제를 지정하십시오.</entry>
+    <entry key="BnonDouble">유효하지 않은 데이터형입니다. 입력 행렬은 배정밀도여야 합니다.</entry>
+    <entry key="BNotChol">options 구조체에 cholB 필드를 지정했지만 B가 상부 삼각 형식이 아닙니다.</entry>
+    <entry key="BNotCholNV">''IsCholesky''를 지정했지만 B가 상부 삼각 형식이 아닙니다.</entry>
+    <entry key="BsizeMismatchA">입력 행렬의 크기는 일반화된 문제의 경우와 동일해야 합니다.</entry>
+    <entry key="InvalidFhandleOutput">함수 핸들의 예기치 않은 출력값입니다. 예상 출력값은 길이가 {0}인 double형의 열 벡터입니다.</entry>
+    <entry key="InvalidOptsCholB">options 구조체의 cholB 필드는 논리형 스칼라여야 합니다.</entry>
+    <entry key="InvalidIsCholesky">''IsCholesky'' 값은 논리형 스칼라여야 합니다.</entry>
+    <entry key="InvalidOptsIssym">options 구조체의 issym 필드는 논리형 스칼라여야 합니다.</entry>
+    <entry key="InvalidOptsIsreal">options 구조체의 isreal 필드는 논리형 스칼라여야 합니다.</entry>
+    <entry key="InvalidIsFunctionSymmetric">''IsFunctionSymmetric'' 값은 논리형 스칼라여야 합니다.</entry>
+    <entry key="InvalidOptsFail">options 구조체의 fail 필드는 ''replacenan'', ''keep'' 또는 ''drop''이어야 합니다.</entry>
+    <entry key="InvalidFailureTreatment">''FailureTreatment'' 값은 ''replacenan'', ''keep'' 또는 ''drop''이어야 합니다.</entry>
+    <entry key="InvalidOptsP">options 구조체의 p 필드는 n보다 작거나 같은 양의 정수여야 합니다.</entry>
+    <entry key="InvalidSubspaceDimension">''SubspaceDimension'' 값은 n보다 작거나 같은 양의 정수여야 합니다.</entry>
+    <entry key="InvalidOptsSpdB">options 구조체의 spdB 필드는 논리형 스칼라여야 합니다.</entry>
+    <entry key="InvalidIsSymmetricDefinite">''IsSymmetricDefinite'' 값은 논리형 스칼라여야 합니다.</entry>
+    <entry key="InvalidOptsPermB">options 구조체의 permB 필드는 1:n의 치환 벡터여야 합니다.</entry>
+    <entry key="InvalidCholeskyPermutation">''CholeskyPermutation'' 값은 1:n의 치환 벡터여야 합니다.</entry>
+    <entry key="InvalidOptsTol">options 구조체의 tol 필드는 순양수(Strictly Positive)인 실수형 스칼라여야 합니다.</entry>
+    <entry key="InvalidTolerance">''Tolerance'' 값은 순양수(Strictly Positive)인 실수형 스칼라여야 합니다.</entry>
+    <entry key="InvalidSigma">시그마는 double형 스칼라이거나 ''largestabs'', ''smallestabs'', ''largestreal'', ''smallestreal'', ''bothendsreal'', ''largestimag'', ''smallestimag'', ''bothendsimag'' 옵션 중 하나일 수 있습니다.</entry>
+    <entry key="InvalidSpdBwithCholB">options 구조체의 cholB 필드 값이 true이면 spdB 필드 값도 true여야 합니다.</entry>
+    <entry key="InvalidIsSymmetricDefiniteWithIsCholesky">''IsCholesky'' 값이 true이면 ''IsSymmetricDefinite'' 값도 true여야 합니다.</entry>
+    <entry key="KeyWithoutValue">입력 인수의 개수가 올바르지 않습니다. 각 파라미터 이름 다음에는 대응값이 와야 합니다.</entry>
+    <entry key="MustHaveSecondInput">첫 번째 인수가 함수 핸들인 경우 두 번째 인수는 그 함수 핸들로 표현되는 행렬이 갖는 크기여야 합니다.</entry>
+    <entry key="NonDoubleOrFunction">첫 번째 인수는 double형 행렬 또는 함수여야 합니다.</entry>
+    <entry key="NonIntegerEigQty">요청한 고유값 개수는 음이 아닌 정수여야 합니다.</entry>
+    <entry key="NonIntegerEigQtyDetail">요청한 고유값 개수는 음이 아닌 정수여야 합니다. 현재는 {0}(으)로 되어 있습니다.</entry>
+    <entry key="NonIntegerEigQtyStruct">요청한 고유값 개수는 음이 아닌 정수여야 합니다. 현재는 구조체로 되어 있습니다.</entry>
+    <entry key="NonPosIntSize">문제의 크기 ''n''은 양의 정수여야 합니다.</entry>
+    <entry key="NonSquareMatrixOrFunction">첫 번째 인수는 정사각 행렬이거나 함수 핸들이어야 합니다.</entry>
+    <entry key="ParseFlags">파라미터 이름은 ''IsFunctionSymmetric'', ''Tolerance'', ''MaxIterations'', ''SubspaceDimension'', ''StartVector'', ''IsSymmetricDefinite'', ''IsCholesky'', ''CholeskyPermutation'' 또는 ''FailureTreatment''여야 합니다.</entry>
+    <entry key="OptsMaxitNotPosInt">options 구조체의 maxit 필드는 양의 정수여야 합니다.</entry>
+    <entry key="MaxIterationsNotPosInt">''MaxIterations'' 값은 양의 정수여야 합니다.</entry>
+    <entry key="spdBNotSymmetric">행렬 B가 비대칭 행렬입니다. options 구조체의 spdB 필드 값이 false여야 합니다.</entry>
+    <entry key="IsSymmetricDefiniteNotSymmetric">행렬 B가 비대칭 행렬입니다. ''IsSymmetricDefinite'' 값이 false여야 합니다.</entry>
+    <entry key="IsSymmetricDefiniteNotPD">행렬 B가 양의 정부호 행렬이 아닙니다. ''IsSymmetricDefinite'' 값이 false여야 합니다.</entry>
+    <entry key="OptsPtooSmall">options 구조체의 p 필드는 k+1보다 커야 합니다.</entry>
+    <entry key="SubspaceDimensionTooSmall">''SubspaceDimension'' 값은 k+1보다 커야 합니다.</entry>
+    <entry key="OptsInvalidDisp">options 구조체의 disp 필드는 0 또는 1이어야 합니다.</entry>
+    <entry key="InvalidDisplay">''Display'' 값은 0 또는 1이어야 합니다.</entry>
+    <entry key="TooManyInputs">입력 인수가 너무 많습니다.</entry>
+    <entry key="WrongSizeOptsV0">options 구조체의 v0 필드는 길이가 문제 크기와 일치하는 double형 열 벡터여야 합니다.</entry>
+    <entry key="WrongSizeStartVector">''StartVector'' 값은 길이 n의 double형 열 벡터여야 합니다.</entry>
+    <entry key="IgnoredOptionIssym">첫 번째 입력값이 함수 핸들이 아니므로 options 구조체의 issym 필드를 무시합니다.</entry>
+    <entry key="IgnoredIsFunctionSymmetric">첫 번째 입력값이 함수 핸들이 아니므로 ''IsFunctionSymmetric''을 무시합니다.</entry>
+    <entry key="IgnoredOptionPermB">B가 희소 촐레스키(Cholesky) 인수가 아니므로 options 구조체의 permB 필드를 무시합니다.</entry>
+    <entry key="IgnoredCholeskyPermutation">B가 희소 촐레스키(Cholesky) 인수가 아니므로 ''CholeskyPermutation''을 무시합니다.</entry>
+    <entry key="AminusBSingular">시그마만큼 이동된 첫 번째 입력 행렬이 특이 행렬이기 때문에, 시그마는 첫 번째 입력 행렬의 고유값입니다. 행렬 조건을 개선하려면 섭동된 숫자형 시그마 값을 지정해 보십시오.</entry>
+    <entry key="SingularA">첫 번째 입력 행렬이 특이 행렬입니다. 행렬 조건을 개선하려면 ''smallestabs'' 대신에 0이 아닌 작은 숫자형 시그마 값을 지정해 보십시오.</entry>
+    <entry key="SingularB">두 번째 특이 입력 행렬은 시그마가 ''SM''이거나 double형 스칼라일 경우에만 지원됩니다.</entry>
+    <entry key="IllConditionedA">첫 번째 입력 행렬이 특이 행렬에 가깝거나 준특이 행렬(RCOND = {0})입니다. 결과가 정확하지 않을 수 있습니다. 행렬 조건을 개선하려면 ''smallestabs'' 대신에 0이 아닌 작은 숫자형 시그마 값을 지정해 보십시오.</entry>
+    <entry key="IllConditionedB">두 번째 입력 행렬 B가 특이 행렬에 가깝거나 준특이 행렬(badly scaled)입니다. RCOND = {0}. 결과값이 부정확할 수 있습니다.</entry>
+    <entry key="SigmaNearExactEig">시그마만큼 이동된 첫 번째 입력 행렬이 특이 행렬에 가깝거나 준특이 행렬(RCOND = {0})입니다. 결과가 정확하지 않을 수 있습니다. 행렬 조건을 개선하려면 섭동된 숫자형 시그마 값을 지정해 보십시오.</entry>
+    <entry key="InvalidStartingVector">시작 벡터 v0을 정규화할 수 없습니다. 시작 벡터값이 0, 혹은 유한하지 않은 값을 포함하고 있을 수 있습니다.</entry>
+    <entry key="InvalidStartingVectorBnorm">시작 벡터 v0가 행렬 B의 영공간에 있습니다. 다른 시작 벡터를 선택하십시오.</entry>
+    <entry key="NoOrthogonalSubspace">문제의 조건이 나쁘기 때문에 직교 부분공간을 생성할 수 없습니다. 일반화된 문제에서 B는 낮은 랭크를 가질 수 있습니다.</entry>
+    <entry key="VeryBadCondition">입력 행렬의 조건이 나쁩니다. 입력 행렬에 Inf 또는 NaN이 포함되어 있을 수 있습니다.</entry>
+    <entry key="TitleSimple">단순 고유값 문제 A*x = lambda*x</entry>
+    <entry key="TitleGeneralized">일반 고유값 문제 A*x = lambda*B*x</entry>
+    <entry key="ProbSym">고유값 문제가 실수 대칭 행렬입니다.</entry>
+    <entry key="ProbNonSym">고유값 문제가 실수 비대칭 행렬입니다.</entry>
+    <entry key="ProbHerm">고유값 문제가 복소 에르미트(Hermitian) 행렬입니다.</entry>
+    <entry key="ProbNonHerm">고유값 문제가 복소 비에르미트(non-Hermitian) 행렬입니다.</entry>
+    <entry key="BSPD">행렬 B가 양의 (준)정부호 대칭 행렬입니다.</entry>
+    <entry key="BNonSPD">행렬 B가 양의 (준)정부호 대칭 행렬이 아닙니다.</entry>
+    <entry key="BHPD">행렬 B가 양의 (준)정부호 에르미트(Hermitian) 행렬입니다.</entry>
+    <entry key="BNonHPD">행렬 B가 양의 (준)정부호 에르미트(Hermitian) 행렬이 아닙니다.</entry>
+    <entry key="KandSigmaString">''{1}'' 유형의 고유값 {0}개를 계산합니다.</entry>
+    <entry key="KandSigmaNum">{1}에 가장 가까운 고유값 {0}개를 계산합니다.</entry>
+    <entry key="Afun">함수 핸들 Afun은 {0}×{1} 행렬 A를 정의합니다. 이 함수 핸들은 {2}을(를) 반환합니다.</entry>
+    <entry key="ListParam">크릴로프-슈어(Krylov-Schur) 방법에 전달된 파라미터:\n 최대 반복 횟수: {0}\n 허용오차: {1}\n 부분공간 차원: {2}</entry>
+    <entry key="EigFallback">부분공간 차원이 문제 크기와 같기 때문에 EIG를 호출하여 EIGS를 계산하십시오.</entry>
+    <entry key="SimpleDir">A*x = lambda*x의 고유값을 구하십시오.</entry>
+    <entry key="SimpleInv">{0}\\x = mu*x의 고유값을 구하십시오.\n{1}에 대한 분해를 계산하십시오.</entry>
+    <entry key="GenSPDDir">B = R''*R을 이용하여 R''\\(A*(R\\x)) = lambda*x의 고유값을 구하십시오.</entry>
+    <entry key="GenSPDInv">y = R*x, B = R''*R을 이용하여 R*{0}\\(R''*y) = mu*y의 고유값을 구하십시오.\nR은 암묵적으로만 사용되기 때문에 계산할 필요가 없습니다.\n{1}에 대한 분해를 계산하십시오.</entry>
+    <entry key="GenDir">B\\(A*x) = lambda*x의 고유값을 구하십시오.\nB에 대한 분해를 계산하십시오.</entry>
+    <entry key="GenInv">{0}\\(B*x) = mu*x의 고유값을 구하십시오.\n{1}에 대한 분해를 계산하십시오.</entry>
+    <entry key="StartKrylovSchur">크릴로프-슈어(Krylov-Schur) 방법 시작</entry>
+    <entry key="FailKrylovSchur">크릴로프-슈어(Krylov-Schur) 방법으로 B-직교 부분공간을 생성하지 못했습니다. 다른 전략을 사용해 보십시오.\n (A - sigma*B)\\(B*x) = mu*x의 고유값을 구하십시오.</entry>
+    <entry key="KrylovSchurIter">반복 {0}: 고유값 {2}개 중 {1}개가 수렴되었습니다. 수렴되지 않은 가장 작은 잔차 {3}(허용오차 {4}).</entry>
+    <entry key="KrylovSchurLastIter">반복 {0}: 고유값 {2}개 중 {1}개가 수렴되었습니다.</entry>
+    <entry key="CheckMult">고유값 중복도가 누락되었는지 확인하려면 메서드를 다시 시작하고 k+1 고유값을 찾으십시오.</entry>
+    <entry key="MultCheckSuccess">다중 고유값이 추가로 발견되지 않았습니다. 성공적으로 반환되었습니다.</entry>
+    <entry key="MultCheckRepeat">일부 다중 고유값이 추가로 발견되었습니다. 특이값이 더 있는지 확인하려면 다시 재시작하십시오.</entry>
+  </message>
+</rsccat>

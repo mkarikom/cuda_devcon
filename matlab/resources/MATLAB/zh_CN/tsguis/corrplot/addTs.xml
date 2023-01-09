@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CannotDisplayMoreThanOneFourFourAxes">无法显示 144 个以上的坐标区。使用算术表达式对话框减少列数。</entry>
+    <entry key="CannotShowTheCorrelationPlot">由于两个时序具有不同的长度，无法显示相关图。要查看相关图，请编辑时序以便它们拥有相同的长度，或者进行其他选择。</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="Versus">-</entry>
+    <entry key="Autocorrelation">自相关</entry>
+    <entry key="Crosscorrelation">交叉相关</entry>
+  </message>
+</rsccat>

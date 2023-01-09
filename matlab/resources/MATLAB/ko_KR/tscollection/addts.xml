@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badcell">유효하지 않은 시계열로 구성된 셀형 배열입니다. 셀형 배열 인수는 시계열 객체로 구성된 셀형 벡터여야 합니다.</entry>
+    <entry key="badinput">addts의 두 번째 특성(Attribute)은 배열이거나 시계열 객체여야 합니다.</entry>
+    <entry key="badname">시계열 이름은 문자형 벡터 또는 string형이어야 합니다.</entry>
+    <entry key="dupinputnames">추가하려는 시계열의 이름은 matlab.lang.makeValidName에서 MATLAB 변수 이름으로 변환된 뒤 고유해야 함</entry>
+    <entry key="dupexistingname">추가하려는 시계열의 이름이 matlab.lang.makeValidName에서 MATLAB 변수 이름으로 변환된 뒤 기존 멤버의 이름과 충돌합니다.</entry>
+    <entry key="baddata">데이터가 tscollection 길이와 일치하지 않음</entry>
+  </message>
+</rsccat>

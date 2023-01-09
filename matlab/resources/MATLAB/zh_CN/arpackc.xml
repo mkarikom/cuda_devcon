@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WrongNumberOfOutputs">应有 2 个输出参数</entry>
+    <entry key="UnknownFcn">未知或不受支持的 ARPACK 函数</entry>
+    <entry key="NotEnoughInputs">需要至少 1 个输入参数</entry>
+    <entry key="InvalidInputFcn">无法将 fcn 转换为字符向量</entry>
+    <entry key="NotEnoughInputsAUPD">arpackc(''d*aupd'',...) 需要另外 16 输入参数</entry>
+    <entry key="InvalidInputBmat">无法将 bmat 转换为字符向量</entry>
+    <entry key="InvalidInputWhich">无法将 which 转换为字符向量</entry>
+    <entry key="NotEnoughInputsDSEUPD">arpackc(''dseupd'',...) 需要另外 21 个输入参数</entry>
+    <entry key="InvalidInputHowmny">无法将 howmny 转换为字符向量</entry>
+    <entry key="NotEnoughInputsDNEUPD">arpackc(''dneupd'',...) 需要另外 23 个输入参数</entry>
+    <entry key="NotEnoughInputsZNAUPD">arpackc(''znaupd'',...) 需要另外 17 输入参数</entry>
+    <entry key="NotEnoughInputsZNEUPD">arpackc(''zneupd'',...) 需要另外 23 个输入参数</entry>
+  </message>
+</rsccat>

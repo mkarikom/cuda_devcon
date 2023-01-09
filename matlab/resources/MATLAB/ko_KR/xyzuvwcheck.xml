@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UVWSizeMismatch">볼륨 데이터 인수는 모두 같은 크기여야 합니다.</entry>
+    <entry key="UVWNot3D">볼륨 데이터 인수는 3차원 배열이어야 합니다.</entry>
+    <entry key="UVWPlanar">볼륨 데이터 인수의 크기는 2×2×2보다 크거나 같아야 합니다.</entry>
+    <entry key="XYZMixedEmpty">Volume data arguments must be all empty or all non-empty.</entry>
+    <entry key="XUSizeMismatch">x 좌표 인수의 크기는 볼륨 데이터 인수의 크기 또는 열 개수와 일치해야 합니다.</entry>
+    <entry key="YUSizeMismatch">y 좌표 인수의 크기는 볼륨 데이터 인수의 크기 또는 행 개수와 일치해야 합니다.</entry>
+    <entry key="ZUSizeMismatch">z 좌표 인수의 크기는 볼륨 데이터 인수의 크기 또는 페이지 수와 일치해야 합니다.</entry>
+  </message>
+</rsccat>

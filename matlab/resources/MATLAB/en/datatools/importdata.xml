@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2020 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+    <message>
+        <entry key="ImportDataTitle">Import Data</entry>
+        <entry key="ImportDataQuestion">Import {0}</entry>
+        <entry key="ImportButton">Import</entry>
+        <entry key="CancelButton">Cancel</entry>
+        <entry key="PreviewLabel">Preview:</entry>
+        <entry key="VariablesLabel">Variables to be imported:</entry>
+        <entry key="VariableLabel">Variable to be imported:</entry>
+        <entry key="DontShowLabel">Don't show this dialog again for importing {0}</entry>
+        <entry key="PreviewUnavailable">Preview unavailable</entry>
+        <entry key="SelectAllLabel">Select All</entry>
+        <entry key="AudioTooLong">The audio file is too long to be previewed</entry>
+    </message>
+</rsccat>
+

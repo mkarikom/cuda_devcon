@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="argNotProfilerObjHandle">입력 인수는 프로파일러 객체 핸들이어야 합니다.</entry>
+    <entry key="cannotReport">실행 중인 동안에는 프로파일러 통계량을 보고할 수 없습니다.</entry>
+    <entry key="cpuFrequencyNotSupported">이 플랫폼에서는 CPU 주파수(ClockSpeed) 정보가 지원되지 않습니다. 반환된 값은 {0}입니다.</entry>
+    <entry key="FullFilePath">파일 필터링에는 전체 경로 이름이 필요합니다.</entry>
+    <entry key="FullPath">디렉터리 필터링에는 전체 경로 이름이 필요합니다.</entry>
+    <entry key="FunctionNotFound">지정한 함수를 경로에서 찾을 수 없습니다.</entry>
+    <entry key="noChangeNonMatlab">MATLAB 프로파일러가 아니면 세부 수준을 변경할 수 없습니다.</entry>
+    <entry key="noChangeonFly">프로파일러가 실행 중인 동안에는 {0}을(를) 변경할 수 없습니다.</entry>
+    <entry key="noResetWhileRunning">실행 중인 동안에는 프로파일러를 재설정할 수 없습니다.</entry>
+    <entry key="no_mem_support">현재 메모리 관리자에서는 메모리 추적에 대한 지원을 사용할 수 없습니다.</entry>
+    <entry key="stdException">표준 예외가 발생함(메시지: 호출 상태 {1}에서의 {0})...</entry>
+    <entry key="takeItEasy">더 이상 라인 번호 추적 사용을 명시적으로 활성화할 필요가 없습니다.</entry>
+  </message>
+</rsccat>

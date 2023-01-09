@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="IncorrectFilenameType">FILENAME은 문자형 벡터, string형 스칼라, java.io.Writer의 서브클래스 또는 java.io.OutputStream의 서브클래스여야 합니다.</entry>
+    <entry key="TildePathsNotSupported">상대 경로는 지원되지 않습니다. 파일 이름이 포함된 절대 경로를 지정하십시오. 현재 폴더에 쓰려면 파일 이름만 지정하십시오.</entry>
+  </message>
+</rsccat>

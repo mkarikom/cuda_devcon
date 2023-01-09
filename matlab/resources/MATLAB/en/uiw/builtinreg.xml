@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="AbsentStringArgument" note="stringDatatypeUpdate">Argument must contain a character vector</entry>
+    <entry key="BadArguments">Exactly one double argument required</entry>
+    <entry key="WarningLevelOutOfRange">Warning level must be between 0 and 100</entry>
+  </message>
+</rsccat>

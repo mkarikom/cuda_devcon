@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SamplePointsComplex">''SamplePoints'' 값은 실수여야 합니다.</entry>
+    <entry key="SamplePointsDatetimeLinear">메서드가 ''linear''인 경우에는 datetime형 ''SamplePoints''가 지원되지 않습니다.</entry>
+    <entry key="SamplePointsDuplicate">''{0}'' 값에 중복 항목이 있습니다.</entry>
+    <entry key="SamplePointsFunctionHandle">''SamplePoints'' 함수 핸들은 논리형 스칼라를 반환해야 합니다.</entry>
+    <entry key="SamplePointsInvalidDatatype">''SamplePoints'' 값은 double형 벡터, single형 벡터, duration형 벡터, datetime형 벡터 중 하나여야 합니다.</entry>
+    <entry key="SamplePointsLength">''SamplePoints'' 값은 요소를 {0,number,integer}개 가진 벡터여야 합니다.</entry>
+    <entry key="SamplePointsNonDuration">''SamplePoints'' 값이 datetime형 벡터이거나 duration형 벡터인 경우 윈도우 길이 인수는 duration형 스칼라이거나 요소를 2개 가진 duration형 벡터여야 합니다.</entry>
+    <entry key="SamplePointsNonFinite">{0} 값은 Inf 또는 {1}을(를) 포함해서는 안 됩니다.</entry>
+    <entry key="SamplePointsSingle">duration형 배열과 datetime형 배열에는 single형의 ''SamplePoints''를 사용할 수 없습니다.</entry>
+    <entry key="SamplePointsSorted">''{0}'' 값은 오름차순으로 정렬되어야 합니다.</entry>
+    <entry key="SamplePointsSparse">''SamplePoints'' 값은 비희소 형식이어야 합니다.</entry>
+    <entry key="SamplePointsTableSubscript">''SamplePoints'' 테이블 첨자가 유효하지 않습니다.</entry>
+    <entry key="SamplePointsTimeTable">첫 번째 인수가 timetable형인 경우에는 ''SamplePoints'' 파라미터가 지원되지 않습니다.</entry>
+  </message>
+</rsccat>

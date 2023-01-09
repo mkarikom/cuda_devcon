@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonTimetable">最初の引数は timetable でなければなりません。</entry>
+    <entry key="NonconstantConvertRowTimes">''ConvertRowTimes'' パラメーター値は定数でなければなりません。</entry>
+  </message>
+</rsccat>

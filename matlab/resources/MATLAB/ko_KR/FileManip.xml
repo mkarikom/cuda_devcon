@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="IllegalName">모든 인수는 비어 있지 않은 문자형 벡터이거나 string형 스칼라여야 합니다.</entry>
+    <entry key="NullCharacterInName">유효하지 않은 경로입니다. 경로에는 null 문자가 포함되어서는 안 됩니다.</entry>
+    <entry key="DirectoryExists">디렉터리가 이미 존재합니다.</entry>
+    <entry key="UnknownError">알 수 없는 오류가 발생했습니다.</entry>
+    <entry key="GetLastErrorFailed">{0}이(가) 실패함: GetLastError로 {1,number,integer}이(가) 반환되었습니다.\n</entry>
+    <entry key="CouldNotRemove">{0}을(를) 제거할 수 없습니다.\n</entry>
+    <entry key="NotADirectory">{0}은(는) 디렉터리가 아닙니다.\n</entry>
+    <entry key="ReadOnly">{0}이(가) 읽기 전용이거나 읽기 전용 객체를 포함하고 있습니다.\n</entry>
+    <entry key="FileAlreadyExists">''{0}''이(가) 이미 존재합니다.\n</entry>
+    <entry key="NonExistentDirectory">''{0}'' 디렉터리가 존재하지 않습니다.\n</entry>
+    <entry key="OSError">{0}</entry>
+  </message>
+</rsccat>

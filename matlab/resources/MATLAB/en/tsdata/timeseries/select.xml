@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="nodims">Cannot select time series with data that has a dimension higher than three.</entry>
+    <entry key="noWinlengthAndConfLevel">You must specify a window length and confidence level to detect outliers.</entry>
+    <entry key="noWinLength">You must specify a window length to detect constant values.</entry>
+    <entry key="arginv">Unrecognized data selection method.  Use ''outliers'' or ''flatlines''.</entry>
+  </message>
+</rsccat>

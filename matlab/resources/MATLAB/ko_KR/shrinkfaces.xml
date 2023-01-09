@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonScalarFactor">축소 인자(sf)는 스칼라여야 합니다.</entry>
+    <entry key="NonPositiveFactor">축소 인자(sf)는 양수여야 합니다.</entry>
+    <entry key="InvalidFirstArgument">첫 번째 인수는 패치 핸들이거나 면과 꼭짓점을 포함하는 구조체여야 합니다.</entry>
+    <entry key="WrongNumberOfInputs">입력 인수의 개수가 올바르지 않습니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badArray">数据类型无效。第一个参数必须为数值或逻辑数组、表或者时间表。</entry>
+    <entry key="nonNumericTableVar">表变量必须为数值。</entry>
+    <entry key="complexIntegers">数据类型无效。复数输入必须为双精度或单精度数组。</entry>
+    <entry key="invalidMethod">平滑方法必须为 ''movmean''、''movmedian''、''gaussian''、''lowess''、''loess''、''rlowess''、''rloess'' 或 ''sgolay''。</entry>
+    <entry key="invalidWinsize">窗口长度必须为正数或持续时间标量，或者为 2 元素数值或持续时间向量。</entry>
+    <entry key="invalidNanflag">NaN 条件必须为 ''omitnan'' 或 ''includenan''。</entry>
+    <entry key="invalidSamplePoints">''SamplePoints'' 值必须为数值、日期时间或持续时间向量。</entry>
+    <entry key="invalidSmoothingFactor">''SmoothingFactor'' 值必须为介于 0 和 1 之间的数值标量。</entry>
+    <entry key="invalidNVPair">参数名称必须为 ''SamplePoints'' 或 ''SmoothingFactor''。</entry>
+    <entry key="invalidNVPairTable">参数名称必须为 ''SamplePoints''、''SmoothingFactor'' 或 ''DataVariables''。</entry>
+    <entry key="invalidNVPairSGolay">参数名称必须为 ''SamplePoints''、''SmoothingFactor'' 或 ''Degree''。</entry>
+    <entry key="invalidNVPairTableSGolay">参数名称必须为 ''SamplePoints''、''SmoothingFactor''、''DataVariables'' 或 ''Degree''。</entry>
+    <entry key="methodAfterOptions">方法必须位于名称-值对组之前。</entry>
+    <entry key="nanflagAfterOptions">NaN 条件必须位于名称-值对组之前。</entry>
+    <entry key="duplicateNanflag">选项组合无效。请指定一次 NaN 条件。</entry>
+    <entry key="nameNoValue">输入参数的数目不正确。''{0}'' 必须后跟对应的值。</entry>
+    <entry key="tuneAndWindow">指定窗口长度时不支持 ''SmoothingFactor''。</entry>
+    <entry key="winsizeNotDuration">数据类型无效。如果 ''SamplePoints'' 值为 {0}，则窗口长度必须为持续时间。</entry>
+    <entry key="winsizeIsDuration">数据类型无效。如果 ''SamplePoints'' 值为数值，则窗口长度必须为数值或逻辑值。</entry>
+    <entry key="noComplexWindows">窗口长度必须为实数。</entry>
+    <entry key="needsFiniteWindows">窗口长度必须为有限值。</entry>
+    <entry key="noComplex">{0} 值必须为实数。</entry>
+    <entry key="needsFinites">{0} 值必须为有限值。</entry>
+    <entry key="noSparseSamplePoints">不支持稀疏 ''SamplePoints'' 值。</entry>
+    <entry key="SamplePointsLength">''SamplePoints'' 值必须为长度与输入参数相同的向量。</entry>
+    <entry key="SamplePointsDuplicate">{0} 值必须是唯一的。</entry>
+    <entry key="SamplePointsSorted">{0} 值必须按升序排序。</entry>
+    <entry key="negativeDegree">''Degree'' 值必须为正整数。</entry>
+    <entry key="degreeNoSgolay">仅当方法为 'sgolay' 时，才支持 ''Degree'' 值。</entry>
+    <entry key="degreeAutoClash">''Degree'' 值大于任何窗口中的最大磅数({0,number,integer})，已减小为 {1,number,integer}。</entry>
+    <entry key="degreeTooLarge">''Degree'' 值必须小于任何窗口中的最大磅数({0,number,integer})。</entry>
+    <entry key="noDimForTable">第一个参数为表或时间表时不支持维度。</entry>
+    <entry key="DataVariablesArray">只有表输入和时间表输入支持 ''DataVariables'' 参数。</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' 函数句柄必须返回逻辑标量。</entry>
+    <entry key="DataVariablesTableSubscript">''DataVariables'' 值无效。</entry>
+    <entry key="SamplePointsTimeTable">时间表输入不支持 ''SamplePoints'' 参数。</entry>
+    <entry key="invalidWeighting">权重指示值必须为逻辑标量。</entry>
+    <entry key="invalidRobust">稳健性权重的维度必须与输入数组的维度匹配。</entry>
+    <entry key="invalidSigma">高斯宽度必须为正标量。</entry>
+    <entry key="noSparseInternal">{0} 必须为满矩阵。</entry>
+    <entry key="badArrayCodeGen">数据类型无效。第一个参数必须为数值或逻辑数组，或者为表。</entry>
+    <entry key="complexInputWithoutWindow">在代码生成中，必须为复数数据指定窗口大小。</entry>
+    <entry key="methodMustBeConstant">为进行代码生成，方法参数必须为常量。</entry>
+    <entry key="noWindowDatetimeSP">如果采样点是日期时间，则必须为代码生成指定窗口大小。</entry>
+  </message>
+</rsccat>

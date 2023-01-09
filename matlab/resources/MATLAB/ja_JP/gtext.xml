@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooFewArguments">入力引数が不足しています。</entry>
+    <entry key="ValueExpected">プロパティ値のペアが必要です。</entry>
+    <entry key="InvalidArgument">引数は文字ベクトルでなければなりません。</entry>
+    <entry key="InvalidView">表示は 2 次元でなければなりません。</entry>
+    <entry key="FigureDeletionPause">Figure の削除により中断</entry>
+    <entry key="Interrupted">中止</entry>
+  </message>
+</rsccat>

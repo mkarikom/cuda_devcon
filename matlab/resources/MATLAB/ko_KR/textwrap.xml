@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidNumberOutputs">TEXTWRAP에는 1개 또는 2개의 출력 인수가 필요합니다.</entry>
+    <entry key="InvalidSecondInput">3개의 입력값을 사용할 때 두 번째 입력 인수는 셀형 배열이어야 합니다.</entry>
+    <entry key="InvalidFirstInput">첫 번째 입력 인수는 UIControl 객체 또는 셀형 배열이어야 합니다.</entry>
+    <entry key="InvalidHandle">유효하지 않은 핸들이 TEXTWRAP에 전달되었습니다.</entry>
+    <entry key="InvalidColumnsInput">문자 개수는 양의 정수여야 합니다.</entry>
+  </message>
+</rsccat>

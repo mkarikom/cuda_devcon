@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="DebuggableLinesNotSupported">Cannot get debuggable line numbers from {0}. This is not a valid operation for this file type.</entry>
+    <entry key="VfsUrlNotSupported">Unable to read from {0}. URLs are not supported for this file type.</entry>
+  </message>
+</rsccat>

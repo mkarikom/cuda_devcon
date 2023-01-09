@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- Copyright 2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="WrongNumberOfOutputs">Expect 2 output arguments</entry>
+    <entry key="UnknownFcn">Unknown or unsupported ARPACK function</entry>
+    <entry key="NotEnoughInputs">Expect at least 1 input argument</entry>
+    <entry key="InvalidInputFcn" note="stringDatatypeUpdate">Could not convert fcn to character vector</entry>
+    <entry key="NotEnoughInputsAUPD">arpackc(''d*aupd'',...) expects 16 other input arguments</entry>
+    <entry key="InvalidInputBmat" note="stringDatatypeUpdate">Could not convert bmat to character vector</entry>
+    <entry key="InvalidInputWhich" note="stringDatatypeUpdate">Could not convert which to character vector</entry>
+    <entry key="NotEnoughInputsDSEUPD">arpackc(''dseupd'',...) expects 21 other input arguments</entry>
+    <entry key="InvalidInputHowmny" note="stringDatatypeUpdate">Could not convert howmny to character vector</entry>
+    <entry key="NotEnoughInputsDNEUPD">arpackc(''dneupd'',...) expects 23 other input arguments</entry>
+    <entry key="NotEnoughInputsZNAUPD">arpackc(''znaupd'',...) expects 17 other input arguments</entry>
+    <entry key="NotEnoughInputsZNEUPD">arpackc(''zneupd'',...) expects 23 other input arguments</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="badFillvalInput">Fifth input FILLVALUE must be a numeric, logical, or char value, or a cell.</entry>
+    <entry key="outputSizeTooLarge">Product of dimensions is greater than maximum integer.</entry>
+    <entry key="nonPosIntIndValues">First input SUBS must contain positive integer subscripts.</entry>
+    <entry key="subsValuesTooLarge">First input SUBS and third input SZ must satisfy ALL(MAX(SUBS)&lt;=SZ).</entry>
+    <entry key="badIndValues">First input SUBS must contain numeric subscripts.</entry>
+    <entry key="badClassValInputDfltFun">Function ''sum'' is not defined for values of class {0}.</entry>
+    <entry key="pmaxsize">Maximum variable size allowed by the program is exceeded.</entry>
+    <entry key="nonmatrixSparseOutput">First input SUBS may not have more than 2 columns for sparse output.</entry>
+    <entry key="nonzeroFillvalSparseOutput">Fifth input FILLVALUE must be the real double value zero for sparse output.</entry>
+    <entry key="nondoubleValues">Input values for sparse accumulation must be double.</entry>
+    <entry key="negSizeOfSparse">Sparse matrix sizes must be non-negative integers.</entry>
+    <entry key="emptyNumericIndInput">First input SUBS must be a real, full, numeric matrix with at least one column.</entry>
+    <entry key="emptyCellIndInput">First input SUBS must have at least one cell.</entry>
+    <entry key="badCellIndInput">Cells of first input SUBS must contain real, full, numeric vectors of equal length.</entry>
+    <entry key="badClassValInput">Second input VAL must be a full numeric, logical, or char vector or scalar.</entry>
+    <entry key="badSizeValInputMatInd">Second input VAL must be a vector with one element for each row in SUBS, or a scalar.</entry>
+    <entry key="badSizeValInputCellInd">Second input VAL must be a vector with the same number of elements as each cell in SUBS, or a scalar.</entry>
+    <entry key="badSzInputMatInd">Third input SZ must be a full row vector with one element for each column of SUBS.</entry>
+    <entry key="badSzInputCellInd">Third input SZ must be a full row vector with one element for each cell of SUBS.</entry>
+    <entry key="badSzInputVecInd">When SUBS is a column vector, the third input SZ must be of the form [N 1].</entry>
+    <entry key="badFunInput">Fourth input FUN must be a function handle.</entry>
+    <entry key="nonscalarOrSparseFillvalInput">Fifth input FILLVALUE must be a full scalar.</entry>
+    <entry key="badClassFillvalInput">Fifth input FILLVALUE must be a numeric, logical, or char value, or a cell.</entry>
+    <entry key="badIsSparseInput">Sixth input ISSPARSE must be a logical scalar.</entry>
+  <!--Resource entries for src/mathcore-->
+    <entry key="badIndInput">First input SUBS must be a real, full, numeric matrix or a cell vector.</entry>
+    <entry key="nonscalarFunOutput">The function ''{0}'' returned a non-scalar value.</entry>
+    <entry key="sparseFunOutput">The function ''{0}'' returned a sparse value.</entry>
+    <entry key="badFunOutputClass">The function ''{0}'' returned a value that was not numeric, logical, char, or a cell.</entry>
+    <entry key="inconsistentFunOutput">The function ''{0}'' returned values that did not all have the same class.</entry>
+    <entry key="inconsistentFillvalAndFunOutput">FILLVALUE and output from the function ''{0}'' did not have the same class.</entry>
+  </message>
+</rsccat>

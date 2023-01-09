@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ForSomeSimpleFilessuchAsACSV">%% 一部の単純なファイル (CSV ファイルや JPEG ファイルなど) では、IMPORTDATA が\n%% 単純な配列を返す場合があります。そのような場合は、出力がインポート ウィザードの\n%% 出力と一致するように構造体を生成してください。</entry>
+    <entry key="ImportsDataFromSpecifiedFile">指定したファイルからデータをインポート</entry>
+    <entry key="ImportsDataFromSystemClipboard">システムのクリップボードからデータをインポート</entry>
+    <entry key="CreateOutputVariables">出力変数を作成します。</entry>
+    <entry key="FileToRead">読み取るファイル</entry>
+    <entry key="ReadDataFromSystemClipboard">システムのクリップボードからデータを読み取る</entry>
+    <entry key="BreakDataUpIntoOneFieldPerRow">行ごとに 1 つのフィールドをもつ新しい構造体にデータを分割します。</entry>
+    <entry key="BreakDataUpIntoOneFieldPerColumn">列ごとに 1 つのフィールドをもつ新しい構造体にデータを分割します。</entry>
+    <entry key="CreateNewVariablesInBaseWorkspace">これらのフィールドから、ベース ワークスペース内に新規変数を作成します。</entry>
+    <entry key="ImportTheFile">ファイルをインポート</entry>
+    <entry key="TheMATLABEditor">MATLAB エディター</entry>
+  </message>
+</rsccat>

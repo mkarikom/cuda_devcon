@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CannotFindParent">axes의 부모 Figure를 결정할 수 없음</entry>
+    <entry key="BadArguments1">지정한 MATLAB 그래픽스 객체는 Figure 또는 axes여야 함</entry>
+  </message>
+</rsccat>

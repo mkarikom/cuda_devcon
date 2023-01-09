@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="DesktopRequired">The history is unavailable without the desktop.</entry>
+    <entry key="LastLineRemoved">The last line from the history cannot be used in a script because it was an error.</entry>
+    <entry key="LineRemoved">Line {0} from the history cannot be used in a script because it was an error.</entry>
+    <entry key="LineTooHigh">Specified line {0} cannot be used because there are only {1} lines in the history.</entry>
+    <entry key="VariableNotFound">Could not find variable ''{0}'' in the history.</entry>
+  </message>
+</rsccat>

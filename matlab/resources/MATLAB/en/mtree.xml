@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="newtree">argument must be a single node</entry>
+    <entry key="kind">kind must be called on a single node</entry>
+    <entry key="version">mtree code expects {0}, mtreemex version {1}.\n</entry>
+  <!--Resource entries for toolbox/matlab/codetools-->
+    <entry key="usage">Usage: mtree( text [, options] ): options ''-file'', ''-cell'', ''-comments''.</entry>
+    <entry key="input">cannot read input file {0}</entry>
+    <entry key="internal2">index set must be integral</entry>
+    <entry key="internal3">pathit error--bad I length.</entry>
+    <entry key="path">must use *, +, etc. only on links</entry>
+    <entry key="pathIllegal">Illegal path link: "{0}".</entry>
+    <entry key="internal4">length inconsistency.</entry>
+    <entry key="internal5">pathit bad return</entry>
+    <entry key="restrict">find requires &amp;, |, Any, or All in path after +, *, List, Tree, or Full.</entry>
+    <entry key="internal6">internal error in &amp;, |, Any, or All processing</entry>
+    <entry key="internal7">restrict failure</entry>
+    <entry key="internal8">path inconsistency</entry>
+    <entry key="internal9">length inconsistency.</entry>
+    <entry key="badpath">bad path: "{0}".</entry>
+    <entry key="pathAndOr">Calls to PATH do not recognize "&amp;" and "|"</entry>
+    <entry key="string">The method STRING does not support multiple nodes. Use STRINGS instead.</entry>
+    <entry key="nostring">This node has no text.</entry>
+    <entry key="find">missing argument to "find".</entry>
+    <entry key="internal10">find implementation</entry>
+    <entry key="setter">setter must be called on a single node</entry>
+    <entry key="impossiblePath">impossible path</entry>
+    <entry key="select">must select a member of the set of nodes</entry>
+    <entry key="internal11">bad length for IX.</entry>
+    <entry key="internal12">o.n value out of range.</entry>
+    <entry key="internal13">o.m value out of range.</entry>
+    <entry key="internal14">bad m value.</entry>
+    <entry key="op1">op {0} appears twice, second time in row group {1,number,integer}\n</entry>
+    <entry key="duplicatePair">duplicate pair in row group {0,number,integer}</entry>
+    <entry key="op2">op {0} (index {1,number,integer}) unaccounted for</entry>
+    <entry key="andor">more than one "&amp;", "|", Any, or All per path segment</entry>
+    <entry key="plus">more than one "+" or "List" per path segment</entry>
+    <entry key="star">more than one "*" or "Tree" per path segment</entry>
+    <entry key="full">"Full" used with "Full", "List", or "Tree"</entry>
+    <entry key="Node">Node</entry>
+  </message>
+</rsccat>

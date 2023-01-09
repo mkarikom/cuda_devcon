@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CreatingEmptyTimeSeries">すべての行を削除して空の時系列を作成することはできません。1 列より大きい時系列の場合は、すべての行に選択した区間内で少なくとも 1 つのサンプルが含まれているため、この現象が発生する可能性があります。</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+  </message>
+</rsccat>

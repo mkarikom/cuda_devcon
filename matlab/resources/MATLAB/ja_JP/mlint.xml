@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManyCellArgs">複数の、文字ベクトルの cell 配列または string 配列はサポートされていません。ファイル名を 1 つ以上の文字ベクトル、1 つの string 配列、または 1 つの文字ベクトルの cell 配列として指定します。他のすべての引数は文字ベクトルまたはスカラー string のいずれかでなければなりません。</entry>
+    <entry key="NoFile">与えられたファイル名がありません。</entry>
+    <entry key="InvalidInput">-TEXT ではテキストを含む 1 つの引数と .m ファイル名をもつ 2 番目の引数が必要です</entry>
+    <entry key="FileNotFound">ファイル "{0}" を開くことができません。ファイルが見つからないか、サポートされていない MATLAB コード ファイルです。</entry>
+    <entry key="InvalidInputFilename">入力ファイル名は文字配列にしなければなりませんが、クラス "{0}" の値が見つかりました。</entry>
+    <entry key="NestedCell">checkcode の入力引数に入れ子にされたセル配列を含めることはできません。</entry>
+    <entry key="CheckCodeInputMustBeOfCharType">引数は文字ベクトルまたは string スカラーでなければなりません。ファイル名の引数は、string 配列または文字ベクトルの cell 配列にすることもできます。</entry>
+    <entry key="TooManyOutputArguments">-DISP オプションは出力引数に値を割り当てません。\n-STRING または -STRUCT を使用して出力を変数に割り当てます。</entry>
+    <entry key="UnusedArgs">次の引数は無視されました:{0}。</entry>
+    <entry key="MissingString">&lt;missing&gt; の string 要素はサポートされていません。</entry>
+    <entry key="EmptyInput">空の引数はサポートされていません。</entry>
+    <entry key="NotCharacterRowVector">文字ベクトル引数は行ベクトルでなければなりません。</entry>
+    <entry key="ExpectCell">入力引数は N 行 1 列のセル配列でなければなりません。</entry>
+    <entry key="NonChar">入力セル配列が文字ではない要素を含んでいます。</entry>
+    <entry key="OutputArg">-STRUCT には出力引数が必要です。</entry>
+    <entry key="MTreeInput">入力引数は文字ベクトルでなければなりません。</entry>
+    <entry key="MTreeFileType">FileType プロパティを割り当てるための mtree.Type 列挙値が mtree 内に見つかりません。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputsMustBeFull">等高线的输入参数必须为完全数。</entry>
+    <entry key="InputsMustBeReal">等高线的输入参数必须为实数。使用函数 REAL 可获取输入项的实部。</entry>
+    <entry key="InputsMustHaveAtMost2Dimensions">等高线的输入参数必须最多具有 2 个维度。</entry>
+    <entry key="XMustBeVectorOrMatrix">X 必须为向量或矩阵。</entry>
+    <entry key="YMustBeVectorOrMatrix">Y 必须为向量或矩阵。</entry>
+    <entry key="EmptyErrorOutputArgument">{0} 中的错误参数设置为空矩阵。在未来的版本中，这将变为错误。</entry>
+    <entry key="DeprecatedErrorOutputArgument">{0} 中的错误输出参数已弃用。未来的版本中将不再支持此参数。</entry>
+  </message>
+</rsccat>

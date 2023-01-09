@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="YMustNotBeScalar">Y must not be a scalar.</entry>
+    <entry key="YMustBeFinite">Y values must be finite.</entry>
+    <entry key="TextListMustBeVectorOrScalar">Text list values must be a vector or a scalar.</entry>
+    <entry key="TextListMustBeFinite">Text list values must be finite.</entry>
+    <entry key="ZMustBeAtLeast2x2Matrix">Z must be at least a 2x2 matrix.</entry>
+    <entry key="DataMustBeNonNegative">{0} must be nonnegative.</entry>
+    <entry key="LMustBeVectorOrScalar">Contour level values must be a vector or a scalar.</entry>
+    <entry key="LMustBeFinite">Contour level values must be finite.</entry>
+    <entry key="InputsMustBeReal">Input arguments must be real. Use the function REAL to get the real part of the inputs.</entry>
+    <entry key="InputsMustHaveAtMost2Dimensions">Input arguments must have at most 2 dimensions.</entry>
+    <entry key="NonFiniteData">Contour not rendered for non-finite ZData</entry>
+    <entry key="ConstantData">Contour not rendered for constant ZData</entry>
+    <entry key="XMustNotBeScalar">X must not be a scalar.</entry>
+    <entry key="XMustBeFinite">X values must be finite.</entry>
+    <entry key="UnknownOption">Unknown option "{0}".</entry>
+    <entry key="LengthOfXandYMustMatchColsAndRowsInZ">Number of values in ''XData'' and ''YData'' must equal the number of columns and rows in ''ZData'', respectively.</entry>
+    <entry key="LengthOfXMustMatchColsInZ">Number of values in ''XData'' must equal the number of columns in ''ZData''.</entry>
+    <entry key="LengthOfYMustMatchRowsInZ">Number of values in ''YData'' must equal the number of rows in ''ZData''.</entry>
+    <entry key="VectorXMustBeUniqueMonotone">Vector X must be strictly increasing or strictly decreasing with no repeated values.</entry>
+    <entry key="VectorYMustBeUniqueMonotone">Vector Y must be strictly increasing or strictly decreasing with no repeated values.</entry>
+    <entry key="NMustNotBeNegative">Number of contour levels must not be negative.</entry>
+	<entry key="InvalidNumericMatrix">First three arguments (X, Y, and Z) must be 2-dimensional, real, non-empty, numeric matrices.</entry>
+    <entry key="SizeMismatch">First three arguments (X, Y, and Z) must be the same size.</entry>
+    <entry key="InvalidLevel">Level input must be a numeric scalar.</entry>
+    <entry key="ErrorProcessingContour">Processing contour failed.</entry>
+    <entry key="LevelStepLabel">Spacing between contour lines</entry>
+    <entry key="FillLabel">Fill between contour lines</entry>
+    <entry key="MeshDensityLabel">Number of evaluation points per direction</entry>
+    <entry key="ShowTextLabel">Contour line labels</entry>
+    <entry key="LabelSpacingLabel">Label spacing</entry>
+    <entry key="InterpMethod">Interpolation method</entry>
+    <entry key="TextStepLabel">Interval between labeled contour lines</entry>
+    <entry key="ShowContoursLabel">Display contour plot under plot</entry>
+  </message>
+</rsccat>

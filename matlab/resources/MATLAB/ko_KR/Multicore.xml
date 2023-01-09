@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MultithreadingDisabled">MATLAB이 계산 멀티스레딩을 비활성화했습니다.\n멀티스레딩을 활성화하려면 singleCompThread 옵션 없이 MATLAB을 다시 시작하십시오.</entry>
+    <entry key="IllegalNumComputationalThreads">스레드 수는 {0, number, integer} 대신 양수여야 합니다.</entry>
+    <entry key="CannotChangeNumThreadsHere">Changing the number of computational threads is not supported in this context.</entry>
+  </message>
+</rsccat>

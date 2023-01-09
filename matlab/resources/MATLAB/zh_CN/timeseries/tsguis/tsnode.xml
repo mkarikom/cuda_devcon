@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Abort">中止</entry>
+    <entry key="AddEvent">添加事件</entry>
+    <entry key="AddNewEvent">添加新事件</entry>
+    <entry key="AddRow">添加行</entry>
+    <entry key="Attributes">属性...</entry>
+    <entry key="CannotChangeTheTimeSeriesName">无法更改显示在一个或多个绘图中的时序名称。</entry>
+    <entry key="Copy">复制</entry>
+    <entry key="DeleteEvent">删除事件</entry>
+    <entry key="DeleteRows">删除行</entry>
+    <entry key="DeleteRowsFromTimeseries">从时序 ''{0}'' 中删除行</entry>
+    <entry key="DeleteTscollectionMember">删除 Tscollection 成员</entry>
+    <entry key="Detrend">去除趋势...</entry>
+    <entry key="Description">说明</entry>
+    <entry key="DuplicatedVariableDetected">检测到重复变量</entry>
+    <entry key="EditDataFor">编辑 {0} 的数据</entry>
+    <entry key="Export">导出</entry>
+    <entry key="Filter">筛选...</entry>
+    <entry key="Interpolate">插值...</entry>
+    <entry key="ModifyingEventDescription">修改事件说明</entry>
+    <entry key="ModifyingEventName">修改事件名称</entry>
+    <entry key="ModifyingEventTime">修改事件时间</entry>
+    <entry key="Name">名称</entry>
+    <entry key="NamesMustBeUnique">时序内的事件名称必须唯一</entry>
+    <entry key="NewNodeName">新节点名称</entry>
+    <entry key="ObjectWasExported">对象 ''{0}'' 已导出至基础工作区中。</entry>
+    <entry key="Overwrite">覆盖</entry>
+    <entry key="Paste">粘贴</entry>
+    <entry key="Remove">删除</entry>
+    <entry key="RemoveMissingData">删除缺少的数据...</entry>
+    <entry key="Rename">重命名</entry>
+    <entry key="Resample">重采样...</entry>
+    <entry key="ShowEventTable">显示事件表</entry>
+    <entry key="Time">时间</entry>
+    <entry key="TimeSeriesNode">时序节点</entry>
+    <entry key="TimeSeriesTools">时序工具</entry>
+    <entry key="ToFile">至文件...</entry>
+    <entry key="ToWorkspace">至工作区</entry>
+    <entry key="TransformAlgebraically">代数变换...</entry>
+    <entry key="UniformTimeVector">统一时间向量...</entry>
+    <entry key="VariableNameExists">工作区中已存在名称为 {0} 的变量。是要覆盖现有变量还是中止该操作?</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">必须指定库名称。</entry>
+    <entry key="OptionsMustBeStrings">所有可选输入必须均为字符向量</entry>
+    <entry key="thunkneeded">当前平台需要一个 thunk 文件，但文件名为空，因此将不会创建 thunk 文件。</entry>
+    <entry key="InvalidOption">选项 {0} 不是有效的 loadlibrary 选项。</entry>
+    <entry key="ClassRenamed">库名称不是有效名称。\n该库将命名为 "{0}"。</entry>
+    <entry key="ClassCaseMismatch">库名称大小写与文件名不匹配。\n该库将命名为 "{0}"。</entry>
+    <entry key="ClassIsLoaded">库类 ''{0}'' 已存在。请使用类名别名。</entry>
+    <entry key="InvalidSecondArgument">loadlibrary 的第二个参数必须为 c 头文件、loader 函数或 mat 文件。</entry>
+    <entry key="NoHeaderAllowed">部署的应用程序必须使用原型文件，而不应使用头文件。要创建原型，请使用 loadlibrary mfilename 选项。在编译代码中使用原型文件。有关详细信息，请参阅 http://www.mathworks.com/help/compiler/matlab-library-loading.html。</entry>
+    <entry key="invalid_mfilename">原型文件名与库名称相同，这会发生冲突。</entry>
+    <entry key="cppfailure">无法对输入文件进行预处理。\n预处理器生成的输出为: {0}</entry>
+    <entry key="cppoutput">C 预处理器生成的消息:\n{0}</entry>
+    <entry key="parsewarnings">解析过程中生成了警告消息。请检查要用于更正的函数。使用以下代码可以查看警告文本:\n [notfound,warnings]=loadlibrary(...)</entry>
+    <entry key="PrototypeFileNotFound">找不到描述库的 MATLAB 程序文件，可能发生 Perl 或文件系统错误。</entry>
+    <entry key="EmptyThunkfileNames">thunk 文件名不允许为空。</entry>
+    <entry key="CompileFailed">生成 {0} 失败。编译器输出为:\n{1}</entry>
+    <entry key="CoderLibrary">要加载 {0}，请使用 {1} 而不是直接调用 {2}。</entry>
+    <entry key="OldStyleMfile">提供的加载程序文件是使用早期 MATLAB 版本生成的，未来的 MATLAB 版本将不支持该文件。</entry>
+    <entry key="nofunctions">未在库中找到函数。</entry>
+    <entry key="UnsupportedCompiler">loadlibrary 不支持所选编译器。</entry>
+    <entry key="FileNotFound">找不到文件 {0}。</entry>
+    <entry key="TypeNotFound">函数 {1} 使用的数据类型 ''{0}'' 不存在。</entry>
+    <entry key="EnumExists">枚举 ''{0}'' 已存在，因此将不会创建该枚举</entry>
+    <entry key="InvalidFunctionStructure">传递给 loadlibrary 的函数信息缺少信息</entry>
+    <entry key="InvalidCallType">不支持函数调用类型 {0}</entry>
+    <entry key="TooManyReturnValues">函数 ''{0}'' 尝试指定的返回值太多。</entry>
+    <entry key="FunctionNotFound">未在库中找到函数 ''{0}''</entry>
+    <entry key="ThunkFunctionNotFound">未在库中找到函数 ''{1}'' 的 thunk({0})</entry>
+    <entry key="InvalidFunctionReturnType">不支持函数 {1} 的函数返回类型 ''{0}''。</entry>
+    <entry key="DirectoryCleanupFailed">无法删除临时目录。发生错误:\n{0}</entry>
+    <entry key="ThreeInputsNeeded">必须至少向 loadlibrary 传递 3 个输入。</entry>
+    <entry key="AliasMustBeString">库别名必须为字符向量。</entry>
+    <entry key="TypeExists">MATLAB 中已存在数据类型 ''{0}''。将使用现有类型。</entry>
+    <entry key="TypeNotFoundForStructure">结构体 {1} 使用的数据类型 ''{0}'' 不存在。可能无法使用该结构体。</entry>
+    <entry key="StructTypeExists">结构体类型 ''{0}'' 已存在。\n将重用现有类型。</entry>
+    <entry key="IntermediateOutputFollows">加载随后的库中间输出时出错。</entry>
+    <entry key="ActualErrorAtEndOfOutput">实际错误位于此输出末尾。</entry>
+    <entry key="ErrorRunningLoaderFile">运行加载程序文件时出错。使用 mfilename 选项可以生成一个文件，您可以根据需要调试和修复该文件。请将此错误报告给 MathWorks，以便我们可以改进此功能。</entry>
+    <entry key="ErrorLoadingLibrary">加载库 "{0}" 时出错\n{1}</entry>
+    <entry key="ThunkfileNotSupportedbyMSVC6">Microsoft Visual C 6.0 编译器无法用于编译 thunk 文件。</entry>
+    <entry key="ThunkfileNotSupportedbyLCC">LCC 编译器无法用于编译 thunk 文件。</entry>
+    <entry key="ErrorInHeader">{0}\n==&gt;{1} 中的 {2,number,integer} 处出错</entry>
+    <entry key="ErrorRunningFromCommandLine">运行 {0} 时出错。\n从命令行运行 {1} 可重现该错误并进行修复。</entry>
+    <entry key="cannotgeneratemfile">调用 Perl 失败。处理头文件时可能出错。\nPerl 命令输出:\n{0}</entry>
+    <entry key="TooManyArguments">向 SimpleFunctionThunk 传递的输入太多。</entry>
+    <entry key="MustBeInRange">值超出数据类型的合法范围。</entry>
+    <entry key="LoadFailed">{0}</entry>
+    <entry key="ThunkLoadFailed">{0}</entry>
+  </message>
+</rsccat>

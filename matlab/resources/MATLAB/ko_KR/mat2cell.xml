@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NonVectorArgument">입력 인수 D1 ~ D{0,number,integer}은(는) 벡터여야 합니다.</entry>
+    <entry key="ArgumentCountMismatch">입력 벡터 인수의 크기 숫자({0,number,integer})가 입력 행렬의 차원({1,number,integer})과 일치하지 않습니다.</entry>
+    <entry key="VectorSumMismatch">입력 인수 D1 ~ D{0,number,integer}의 차원을 모두 합하면 입력 행렬 크기([{1}])와 동일해야 합니다.</entry>
+  </message>
+</rsccat>

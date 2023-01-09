@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Min">最小值</entry>
+    <entry key="Max">最大值</entry>
+    <entry key="Mode">众数</entry>
+    <entry key="Mean">均值</entry>
+    <entry key="Median">中位数</entry>
+    <entry key="SD">标准差</entry>
+    <entry key="Missing">缺少计数</entry>
+    <entry key="Type">类型</entry>
+    <entry key="Size">大小</entry>
+    <entry key="Unique">唯一值</entry>
+    <entry key="Duplicates">有重复值</entry>
+    <entry key="Sorted">已排序</entry>
+    <entry key="DataType">数据类型</entry>
+    <entry key="Regular">时间戳具有固定间隔</entry>
+    <entry key="NumVariables">变量的数目</entry>
+    <entry key="NumObservations">行数</entry>
+    <entry key="NumColumns">行数</entry>
+    <entry key="NumRows">列数</entry>
+    <entry key="NumVarsWithMissing">具有缺失值的变量的数目</entry>
+    <entry key="NumVarsWithDuplicates">具有重复值的变量的数目</entry>
+    <entry key="TimestampHasMissing">时间戳有缺失值</entry>
+    <entry key="TimestampHasDuplicates">时间戳有重复值</entry>
+    <entry key="TimestampIsSorted">时间戳已排序</entry>
+    <entry key="TimestampSortDirectionAscending">从最旧到最新</entry>
+    <entry key="TimestampSortDirectionDescending">从最新到最旧</entry>
+    <entry key="True">真实</entry>
+    <entry key="False">False</entry>
+    <entry key="Outliers">离群值数</entry>
+    <entry key="OutliersTooltip">使用移动中位数检测</entry>
+    <entry key="NumVarsWithOutliers">可能包含离群值的变量数目</entry>
+  </message>
+</rsccat>

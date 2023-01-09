@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="fieldInStructureMustContainLogical">结构体字段必须包含逻辑标量。</entry>
+    <entry key="unknownInThirdArguments">结构体数组输入中的字段未知。</entry>
+    <entry key="CombinationOfFieldsNotCurrentlySupported">求解器选项必须兼容。</entry>
+    <entry key="inputType">第一个和第二个参数必须为单精度值或双精度值。</entry>
+    <entry key="inputDim">第一个参数和第二个参数必须为二维参数。</entry>
+    <entry key="sparseNotSupported">Linsolve 不支持以稀疏矩阵作为输入项。</entry>
+    <entry key="thirdArgumentMustBeStructure">第三个参数必须为结构体数组。</entry>
+  </message>
+</rsccat>

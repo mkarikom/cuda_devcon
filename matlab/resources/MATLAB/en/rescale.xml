@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ParseFlags">Parameter name must be ''InputMin'' or ''InputMax''.</entry>
+    <entry key="KeyWithoutValue">Incorrect number of input arguments. Parameter names and values must occur in pairs.</entry>
+    <entry key="InvalidA">First argument must be a real numeric or logical array.</entry>
+    <entry key="RequiredThirdInput">Incorrect number of input arguments.</entry>
+    <entry key="InvalidOutputRange">Interval bound arguments must be real and numeric.</entry>
+    <entry key="OutMinGreaterThanOutMax">Lower bound argument must be less than or equal to the upper bound argument.</entry>
+    <entry key="InvalidInputMin">''InputMin'' value must be real and numeric.</entry>
+    <entry key="InvalidInputMax">''InputMax'' value must be real and numeric.</entry>
+    <entry key="MinGreaterThanMax">Lower bound of the input range must be less than or equal to the upper bound of the input range.</entry>
+    <entry key="NumberDimsOut">Dimensions of interval bound arguments must equal the dimensions of the first argument or equal 1.</entry>
+    <entry key="NumberDimsInLower">Dimensions of ''InputMin'' value must equal the dimensions of the first argument or equal 1.</entry>
+    <entry key="NumberDimsInUpper">Dimensions of ''InputMax'' value must equal the dimensions of the first argument or equal 1.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoHelpBrowser">도움말 브라우저에 문서 페이지를 표시하려면 Java가 있어야 합니다. 현재는 시작 선택적으로 인해 사용할 수 없게 되어 있습니다.</entry>
+    <entry key="NoBrowser">웹 브라우저가 정의되지 않았습니다.\n\n시스템 웹 브라우저를 설정하려면 "preferences(''''Web'''')"을 입력하여 [기본 설정] 대화 상자를 여십시오.</entry>
+    <entry key="BrowserNotFoundConfigureInfo">MATLAB에서 시스템 웹 브라우저를 시작할 수 없습니다:\n\n{0}\n\n시스템 웹 브라우저를 구성하려면 "preferences(''''Web'''')"을입력하여 [기본 설정] 대화 상자를 여십시오.</entry>
+    <entry key="BrowserNotFound">MATLAB에서 시스템 웹 브라우저를 시작할 수 없음:\n\n{0}</entry>
+    <entry key="NoURL">URL을 지정하지 않았습니다.</entry>
+    <entry key="DialogTitleWarning">MATLAB 경고</entry>
+    <entry key="BrowserOuptputArgRemovedInFutureRelease">[STAT,H] = WEB(___)은 시스템 브라우저에서 열리는 페이지의 핸들을 반환하지 않습니다. STAT = WEB(___)을 대신 사용하십시오.</entry>
+    <entry key="BrowserAndUrlOuptputArgsRemovedInFutureRelease">[STAT,H,URL] = WEB(___)은 시스템 브라우저에서 열리는 페이지의 핸들 또는 URL을 반환하지 않습니다. STAT = WEB(___)을 대신 사용하십시오.</entry>
+    <entry key="UnsupportedEnvironment">MATLAB에서 시스템 웹 브라우저를 시작할 수 없음:\n\n지원되지 않는 환경입니다.</entry>
+  </message>
+</rsccat>

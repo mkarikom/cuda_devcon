@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooFewInputs">少なくとも 1 つの入力が必要です。</entry>
+    <entry key="InvalidRNGType">GENTYPE は生成アルゴリズムの名前を含む文字ベクトルでなければなりません。</entry>
+    <entry key="BadSeed">SEED は、2^32 より小さい非負の整数値でなければなりません。</entry>
+    <entry key="BadParams">PARAMETERS は、非負の整数値のベクトルでなければなりません。</entry>
+    <entry key="ParamNotValid">PARAMETERS は {0} 発生器として許可されていません。</entry>
+    <entry key="NoEmptyAllowed">空の RandStream オブジェクトの作成は許可されていません。</entry>
+    <entry key="NoCatAllowed">RandStream オブジェクトの連結は許可されていません。複数のオブジェクトを含めるためにはセル配列を使用してください。</entry>
+    <entry key="UndefinedFunction">タイプ ''RandStream'' の入力引数の関数 ''{0}'' は未定義です。</entry>
+    <entry key="CantCreateLegacy">古い形式のストリームを作成できません。</entry>
+    <entry key="WrongNumberArgs">引数の数が正しくありません。</entry>
+    <entry key="BadParamName">パラメーター名はテキストでなければなりません。</entry>
+    <entry key="UnrecognizedParamName">認識されないパラメーター名:  {0}.</entry>
+    <entry key="AmbiguousParamName">あいまいなパラメーター名:   {0}.</entry>
+    <entry key="InvalidRandKeyword">RAND キーワードが認識されません。</entry>
+    <entry key="InvalidRandnKeyword">RANDN キーワードが認識されません。</entry>
+    <entry key="ActivatingLegacyGenerators">''{0}'' を使用して {1} の内部状態を設定すると、RAND、RANDI、RANDN ではレガシ形式の乱数発生器が使用されます。この構文は推奨されていません。RNG を使用して古い構文を置き換えるには、「&lt;a href="matlab:helpview([docroot ''\\techdoc\\math\\math.map''],''update_random_number_generator'')"&gt;rand と randn の非推奨構文の置換&lt;/a&gt;」を参照してください。</entry>
+    <entry key="ReadingInactiveLegacyGeneratorState">現在アクティブでない {1} 乱数発生器の内部状態を読み取るために ''{0}'' が使用されていますが、多くの場合、無効な結果が返されます。この構文は推奨されていません。RNG を使用して古い構文を置き換えるには、「&lt;a href="matlab:helpview([docroot ''\\techdoc\\math\\math.map''],''update_random_number_generator'')"&gt;rand と randn の非推奨構文の置換&lt;/a&gt;」を参照してください。</entry>
+    <entry key="InvalidHandle">無効であるか削除されたオブジェクトです。</entry>
+    <entry key="PluginError">プラグイン ジェネレーターからのエラー {0}:  ''{1}''</entry>
+    <entry key="UnexpectedPluginError">プラグイン ジェネレーターからの予期せぬエラー。</entry>
+  </message>
+</rsccat>

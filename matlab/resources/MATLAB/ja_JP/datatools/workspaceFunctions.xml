@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnsupportedColumn">サポートされていない列です。有効な列は次のとおりです: {0}</entry>
+    <entry key="StatusTooLarge">{0} を超える要素が含まれる変数を表示することはできません。</entry>
+    <entry key="StatusCannotReference">変数を参照できません。</entry>
+  </message>
+</rsccat>

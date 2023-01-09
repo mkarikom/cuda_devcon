@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidAxes">좌표축은 모드와 같은 Figure에 있어야 합니다.</entry>
+    <entry key="InvalidInputAxes">입력값은 axes 핸들이어야 합니다.</entry>
+    <entry key="InvalidInputCameraLimits">입력값은 'camera' 또는 'limits'여야 합니다.</entry>
+    <entry key="IncorrectNumberArguments">입력 인수의 개수가 올바르지 않습니다.</entry>
+    <entry key="FirstInputUIFigure">UI Figure는 {0}에 대한 입력값으로 사용할 수 없습니다. 대신 UI Figure에 UIAxes 또는 Axes를 지정하십시오.</entry>
+    <entry key="ConflictFound">충돌하는 상호 작용이 발견되었습니다.</entry>
+    <entry key="DuplicateFound">중복된 상호 작용이 발견되었습니다.</entry>
+    <entry key="InteractionsProperty">Interactions 속성은 interaction 객체로 구성된 배열이어야 합니다.</entry>
+    <entry key="CartesianAxesInteractionsProperty">{0}은(는) CartesianAxes에서 지원되지 않는 상호 작용입니다.</entry>
+    <entry key="PolarAxesInteractionsProperty">{0}은(는) PolarAxes에서 지원되지 않는 상호 작용입니다.</entry>
+    <entry key="TextInteractionsProperty">{0} is not a supported interaction on Text.</entry>
+    <entry key="GeographicAxesInteractionsProperty">{0}은(는) GeographicAxes에서 지원되지 않는 상호 작용입니다.</entry>
+    <entry key="GeographicAxesInteractionsDisplay">\nGeographicAxes는 기본적으로 다음 상호 작용을 가집니다.\n\n \tPanInteraction\n \tZoomInteraction\n \tDataTipInteraction\n</entry>
+    <entry key="CartesianAxesInteractionsDisplay">\nAxes는 기본적으로 다음 상호 작용을 가집니다.\n\n \tPanInteraction(2차원 좌표축)\n \tZoomInteraction\n \tDataTipInteraction\n \tRotateInteraction(3차원 좌표축)\n \tRulerPanInteraction\n</entry>
+    <entry key="WebAxesInteractionsSetDisplay">\nWeb Axes는 기본적으로 다음 상호 작용을 가집니다.\n\n \tPanInteraction(2차원 좌표축)\n \tZoomInteraction\n \tDataTipInteraction\n \tRotateInteraction(3차원 좌표축)\n</entry>
+    <entry key="PolarAxesInteractionsDisplay">\nPolarAxes는 기본적으로 다음 상호 작용을 가집니다.\n\n \tDataTipInteraction\n</entry>
+    <entry key="EnableLegacyExplorationModesToolbarFound">사용자 지정 좌표축 도구 모음을 찾았습니다. 좌표축 도구 모음을 사용자 지정하기 전에 enableLegacyExplorationModes를 호출하십시오.</entry>
+    <entry key="ScalarFigureOnly">입력값은 스칼라 Figure 핸들이어야 함</entry>
+    <entry key="CannotDisableLegacyExplorationModes">Once enabled on this figure, legacy exploration modes cannot be disabled.</entry>
+  </message>
+</rsccat>

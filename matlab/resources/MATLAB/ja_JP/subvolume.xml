@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidReductionSize">reduction は [xmin xmax ymin ymax zmin zmax] でなければなりません</entry>
+    <entry key="InvalidReductionXRange">reduction ベクトルにおいて、xmax は xmin 以上でなければなりません</entry>
+    <entry key="InvalidReductionYRange">reduction ベクトルにおいて、ymax は ymin 以上でなければなりません</entry>
+    <entry key="InvalidRedutionZRange">reduction ベクトルにおいて、zmax は zmin 以上でなければなりません</entry>
+    <entry key="WrongNumberOfInputs">入力引数の数が正しくありません。</entry>
+  </message>
+</rsccat>

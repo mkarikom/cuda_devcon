@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AccessBasemaps">访问 MATLAB 中的底图</entry>
+    <entry key="Latitude">纬度</entry>
+    <entry key="Longitude">经度</entry>
+    <entry key="MapActionZoomIn">从地图中心放大</entry>
+    <entry key="MapActionZoomOut">从地图中心缩小</entry>
+    <entry key="MapActionFitToData">适应数据</entry>
+    <entry key="NotGeographic">无法使用 {0}。当前坐标区或图不是地理图。</entry>
+    <entry key="NotGeographicAxes">无法使用 {0}。当前坐标区不是地理坐标区。</entry>
+    <entry key="ReadOnlyLatitudeLimits">LatitudeLimits 是只读的。请改用 geolimits。</entry>
+    <entry key="ReadOnlyLongitudeLimits">LongitudeLimits 是只读的。请改用 geolimits。</entry>
+    <entry key="ShowingMissingTiles">无法访问 Internet，在 ''{0}'' 不可用的位置将显示 "missing" 图块。请参阅 {1}。</entry>
+    <entry key="ShowingDarkwater">无法访问 Internet，在 ''{1}'' 不可用的位置将显示 ''{0}''。请参阅 {2}。</entry>
+    <entry key="UnknownError">尝试设置 Basemap 属性时出现未知错误。</entry>
+    <entry key="UnsupportedLimitsFunction">不支持将 {0} 与 {1} 结合使用。请改用 geolimits。</entry>
+    <entry key="UnitsAbbrFeet">ft</entry>
+    <entry key="UnitsAbbrKilometers">km</entry>
+    <entry key="UnitsAbbrMeters">m</entry>
+    <entry key="UnitsAbbrMiles">mi</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">입력 인수가 부족합니다.</entry>
+    <entry key="InvalidM">m은 0,1,2 중 하나여야 합니다.</entry>
+    <entry key="TSPANnotEnoughPts">TSPAN은 적어도 3개의 항목을 가지고 있어야 합니다.</entry>
+    <entry key="TSPANnotIncreasing">TSPAN 항목은 순증가(Strictly Increasing)해야 합니다.</entry>
+    <entry key="NegXMESHwithPosM">M &gt; 0이면 XMESH(1)은 반드시 음수가 아니여야 합니다.</entry>
+    <entry key="XMESHnotEnoughPts">XMESH는 적어도 3개의 항목을 가지고 있어야 합니다.</entry>
+    <entry key="XMESHnotIncreasing">XMESH 항목은 순증가(Strictly Increasing)해야 합니다.</entry>
+    <entry key="InvalidOutputICFUN">유효하지 않은 ICFUN 출력값입니다. ICFUN은 열 벡터를 반환해야 합니다.</entry>
+    <entry key="UnexpectedOutputPDEFUN">예기치 않은 PDEFUN 출력값입니다. 이 문제의 경우 PDEFUN은 길이가 {0}인 열 벡터 세 개를 반환해야 합니다.</entry>
+    <entry key="UnexpectedOutputBCFUN">예기치 않은 BCFUN 출력값입니다. 이 문제의 경우 BCFUN은 길이가 {0}인 열 벡터 네 개를 반환해야 합니다.</entry>
+    <entry key="SpatialDiscretizationFailed">공간 이산화에 실패했습니다. 이산화는 공간 도함수 관련 플럭스 항이 포함된 포물선 방정식과 타원 방정식만 지원합니다.</entry>
+    <entry key="TimeIntegrationFailed">시간에 대한 적분에 실패했습니다. 해를 구하도록 요청할 수 있는 시간 지점은 최대 t={0}입니다.</entry>
+  </message>
+</rsccat>

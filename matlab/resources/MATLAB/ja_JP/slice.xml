@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ExtraShortArgument">列数を指定する必要はなくなりました。代わりに slice(v,xi,yi,zi) を使用してください。</entry>
+    <entry key="InvalidVDims">V は 3 次元配列でなければなりません。</entry>
+    <entry key="WrongNumberOfInputs">入力引数の数が正しくありません。</entry>
+    <entry key="ExtraArgument">列数を指定する必要はなくなりました。代わりに slice(x,y,z,v,xi,yi,zi) を使用してください。</entry>
+  </message>
+</rsccat>

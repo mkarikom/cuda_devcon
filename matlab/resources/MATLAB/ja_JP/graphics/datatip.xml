@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="emptyAxes">注意</entry>
+    <entry key="invalidOrientation">無効な方向の値</entry>
+    <entry key="ErrorInCustomFunction">カスタムの更新関数を使用して\nデータのヒントを更新できません</entry>
+    <entry key="InvalidLabelProperty">ラベルは string スカラーまたは文字ベクトルのいずれかでなければなりません。</entry>
+    <entry key="InvalidValueProperty">値は、'XData' などのデータ プロパティ名をもつ string スカラーまたは文字ベクトルでなければなりません。あるいは、ベクトルまたは関数ハンドルでなければなりません。</entry>
+    <entry key="InvalidFormatProperty">データ ヒントの形式が無効です。</entry>
+    <entry key="IncorrectFormatProperty">形式は string スカラーまたは文字ベクトルのいずれかでなければなりません。</entry>
+    <entry key="InvalidNumericFormat">数値データ ヒントの形式が無効です。</entry>
+    <entry key="InvalidFunctionHandle">少なくとも 1 つの入力引数を受け入れる関数を指定しなければなりません。</entry>
+    <entry key="MustHaveAtleastOneRow">データ ヒントには少なくとも 1 つの行がなければなりません。</entry>
+    <entry key="CannotCreateEmptyRow">データ ヒント行には少なくとも 1 つのラベルまたは 1 つの値がなければなりません。</entry>
+    <entry key="IncompatibleValue">値はデータ ソースと互換性がなければなりません。</entry>
+    <entry key="UncustomizableDataTipTemplate">{0} オブジェクトの DataTipTemplate のプロパティの変更はサポートされません。</entry>
+    <entry key="CannotUpdateCustomFunction">データ ヒントは更新関数を使用しているため、DataTipRows の設定は効果がありません。\n変更を確認するには、データ ヒントのコンテキスト メニューを使用して更新関数を削除してください。</entry>
+    <entry key="UncommentLineToCreateDataTip">次の行は、データ ヒントを作成する別の方法を示しています。</entry>
+    <entry key="Invalid3DCoordinates">3 次元チャートにデータ ヒントを表示するには、3 つの座標を指定してください。</entry>
+    <entry key="Invalid2DCoordinates">2 次元チャートにデータ ヒントを表示するには、2 つの座標を指定してください。</entry>
+    <entry key="InvalidValueForDateTime">{0} は有効な datetime 値として指定してください。</entry>
+    <entry key="InvalidValueForNumerical">{0} は有効な数値として指定してください。</entry>
+    <entry key="InvalidValueForCategorical">{0} は有効な categorical 値として指定してください。</entry>
+    <entry key="InvalidValueForDuration">{0} は有効な duration 値として指定してください。</entry>
+    <entry key="InvalidParent">1 番目の引数は、データ ヒントをサポートするチャート オブジェクトでなければなりません。</entry>
+    <entry key="IncorrectParent">親が無効です。親はチャート オブジェクトでなければなりません。</entry>
+    <entry key="InvalidPropertyName">プロパティ名は文字ベクトルまたは string でなければなりません。</entry>
+    <entry key="InvalidFirstArgument">引数が無効です。オブジェクトが削除されているか、データ ヒントをサポートしていません。</entry>
+    <entry key="UnknownProperty">不明なプロパティ: ''{0}''。</entry>
+    <entry key="ErrorWhileEvaluating">{0}\nデータ ヒントの {1} の評価中にエラーが発生しました。</entry>
+    <entry key="IncorrectInputArgs">データ ヒント オブジェクトを作成するための入力引数が正しくありません。</entry>
+    <entry key="InvalidLocation">''{0}'' は有効な値ではありません。次のいずれかの値を使用してください: 'northeast' | 'northwest' | 'southeast' | 'southwest'。 </entry>
+    <entry key="CannotSetUIContextMenu">DataTip の ''ContextMenu'' プロパティを設定することはできません。</entry>
+    <entry key="ModifyOption">データ ヒントの変更</entry>
+    <entry key="ResetOption">データ ヒントのリセット</entry>
+    <entry key="MoreOption">詳細...</entry>
+    <entry key="MinOption">最小値</entry>
+    <entry key="MaxOption">最大値</entry>
+    <entry key="MeanOption">平均</entry>
+    <entry key="CountOption">カウント</entry>
+    <entry key="SumOption">総和</entry>
+    <entry key="MedianOption">中央値</entry>
+    <entry key="AvailableLabel">使用可能なオプション</entry>
+    <entry key="SelectedLabel">選択されたオプション</entry>
+    <entry key="AddOptionsToSelected">選択されたオプションに追加</entry>
+    <entry key="RemoveOptionsFromSelected">選択されたオプションから削除</entry>
+    <entry key="UpLabel">上</entry>
+    <entry key="DownLabel">下</entry>
+    <entry key="UpTooltip">選択したオプションを上に移動</entry>
+    <entry key="DownTooltip">選択したオプションを下に移動</entry>
+    <entry key="OKLabel">OK</entry>
+    <entry key="CancelLabel">キャンセル</entry>
+    <entry key="CountVariable">{0} の数</entry>
+    <entry key="MinVariable">{0} の最小値</entry>
+    <entry key="MaxVariable">{0} の最大値</entry>
+    <entry key="SumVariable">{0} の総和</entry>
+    <entry key="MedianVariable">{0} の中央値</entry>
+    <entry key="MeanVariable">{0} の平均値</entry>
+    <entry key="NoneVariable">{0}</entry>
+  </message>
+</rsccat>

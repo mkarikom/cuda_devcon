@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CreateFolderError">{0}에 기본 설정 폴더를 생성할 수 없습니다.</entry>
+    <entry key="RelativePathErrorSuffix">기본 설정 폴더 위치는 유효한 전체 경로여야 합니다.</entry>
+    <entry key="RelativePathErrorOnLinux">{0}에 기본 설정 폴더를 생성할 수 없습니다. 기본 설정 폴더 위치는 유효한 전체 경로여야 합니다. HOME 환경 변수가 전체 경로로 설정되었는지 확인하십시오.</entry>
+    <entry key="TempPrefdirWarningCannotCreate">{0}에서 기본 설정 폴더를 생성할 수 없습니다. {1} 이 MATLAB 세션에는 임시 기본 설정 폴더가 사용됩니다. 자세한 내용은 &lt;a href="matlab: helpview([docroot '/matlab/helptargets.map'],'matlabenvironment_prefdir_location')"&gt;기본 설정 문서&lt;/a&gt;를 참조하십시오.</entry>
+    <entry key="TempPrefdirWarningNotWritable">기본 설정 폴더 {0}에 액세스할 수 없습니다. 기본 설정 폴더는 쓰기가 가능해야 합니다. 이 MATLAB 세션에는 임시 기본 설정 폴더가 사용됩니다. 자세한 내용은 &lt;a href="matlab: helpview([docroot '/matlab/helptargets.map'],'matlabenvironment_prefdir_location')"&gt;기본 설정 문서&lt;/a&gt;를 참조하십시오.</entry>
+    <entry key="CreateTempPrefdirErrorSuffix">기본 설정 폴더 위치는 쓰기가 가능해야 합니다.</entry>
+    <entry key="PrefdirNotWritableOnLinux">기본 설정 폴더 {0}에 액세스할 수 없습니다. 기본 설정 폴더는 쓰기가 가능해야 합니다.</entry>
+    <entry key="FileNameTooLarge">기본 설정 폴더 경로 이름이 너무 깁니다.</entry>
+    <entry key="InvalidArgument">기본 설정 폴더 경로가 유효하지 않습니다.</entry>
+    <entry key="FileNameConversionFailure">기본 설정 폴더를 생성할 수 없습니다.</entry>
+    <entry key="PathNotFound">위치가 존재하지 않습니다.</entry>
+    <entry key="BadAlloc">메모리가 부족합니다.</entry>
+    <entry key="DefaultError">알 수 없는 오류입니다.</entry>
+    <entry key="SystemError">시스템 오류가 발생했습니다.</entry>
+    <entry key="ErrorTitle">MATLAB 시작 오류</entry>
+    <entry key="ExitButton">MATLAB 종료</entry>
+    <entry key="NoWritePermission">''{0}''은(는) 읽기 전용입니다. 개인 설정은 저장되지 않습니다.</entry>
+  </message>
+</rsccat>

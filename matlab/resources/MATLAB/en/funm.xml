@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2010-2012 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="NegTolBlk">TolBlk must be positive.</entry>
+      <entry key="NegTolTay">TolTay must be positive.</entry>
+      <entry key="NegMaxTerms">MaxTerms must be positive.</entry>
+      <entry key="NegMaxSqrt">MaxSqrt must be positive.</entry>
+      <entry key="WrongDimOrd">Incorrect dimension for Ord.</entry>
+      <entry key="InputDim">First input must be a single or double square matrix.</entry>
+      <entry key="InfDeriv">Infinite derivative.</entry>
+      <entry key="zeroEig">At least one zero eigenvalue is detected in SCHUR(A).\n         Matrix A may be singular or badly scaled.</entry>
+      <entry key="nonPosRealEig">Principal matrix logarithm is not defined for A with nonpositive real eigenvalues. A non-principal matrix logarithm is returned.</entry>
+      <entry key="TaylorSeriesNotConverged">Taylor series failed to converge.\n         Possible that function does not have an infinite radius of convergence.\n         Try decreasing options.TolBlk or increasing options.TolTay or options.MaxTerms.</entry>
+      <entry key="TooManyMatrixSquareRoots">Maximum number of matrix square roots exceeded.\n         Try decreasing options.TolBlk or increasing options.MaxSqrt.</entry>
+      <entry key="EvaluatingFunctionOfBlock">Evaluating function of block ({0}:{1})\n</entry>
+   </message>
+</rsccat>

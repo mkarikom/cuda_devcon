@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DuplicateVars">要拆分的变量列表不能多次指定任何变量。</entry>
+    <entry key="IncorrectNumVarnamesMultisplit">拆分多个变量时，要指定新变量名称，请提供一个元胞数组，其中每个元胞都包含一组新变量名称，分别与待拆分变量的各列相对应。</entry>
+    <entry key="VartypeInvalidVars">不支持使用 vartype 下标器来指定要拆分的变量。请使用字符向量、字符串数组、字符向量元胞数组、数值索引或逻辑索引。</entry>
+    <entry key="NewVarNamesMustBeConstant">Specify 'NewVariableNames' as Constant.</entry>
+  </message>
+</rsccat>

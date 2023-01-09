@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DiaryNotAvailable">DIARY 명령은 데모 버전에서는 사용할 수 없습니다.</entry>
+    <entry key="CannotOpenFile">출력을 위한 파일 "{0}"을(를) 열 수 없습니다.</entry>
+    <entry key="PathIsADirectory">파일을 열 수 없습니다. "{0}"은(는) 디렉터리입니다.</entry>
+    <entry key="filenameTooLong">파일 이름이 너무 깁니다.</entry>
+    <entry key="tooManyFilesOpenDOS">{0}: 너무 많은 파일이 열려 있음. CONFIG.SYS 파일에서 FILES = 20인지 확인하십시오.</entry>
+    <entry key="tooManyFilesOpenUnix">{0}: 너무 많은 파일이 열려 있습니다.</entry>
+    <entry key="cwdIsInvalid">현재 폴더에 액세스할 수 없습니다. 현재 폴더를 유효한 폴더로 변경하십시오.</entry>
+    <entry key="cantOpenFileNoPermission">{0}: 파일을 열 수 없음: 권한이 거부되었습니다.</entry>
+    <entry key="fileNotFound">{0}: 파일을 찾을 수 없음</entry>
+    <entry key="fileNotUTF8">{0}: 파일이 UTF-8 인코딩을 사용하지 않습니다.</entry>
+    <entry key="noDiskSpace">{0}: 디스크에 공간이 충분하지 않습니다.</entry>
+    <entry key="cantOpenFile">{0}: 파일을 열 수 없습니다.</entry>
+    <entry key="reservedDevice">{0}: 예약된 {1} 장치입니다.</entry>
+    <entry key="UserEventQueuePipeCreationFailed">파이프 생성 실패. 오류 id: {0,number,integer}</entry>
+    <entry key="UserEventQueueFileDescriptorCloseFailed">파일 설명자(File Descriptor) 닫기 실패. 오류 ID: {0,number,integer}</entry>
+    <entry key="UserEventQueueWriteFailed">쓰기 실패. 오류 id: {0,number,integer}</entry>
+    <entry key="UserEventQueueReadFailed">읽기 실패. 오류 id: {0,number,integer}</entry>
+    <entry key="InvalidCharset">오류: ''{0}''은(는) 적합한 IANA 문자 집합 이름이 아닙니다.</entry>
+    <entry key="MissingRequiredCapability">{0}이(가) 필요합니다.</entry>
+    <entry key="MissingRequiredCapability_InteractiveCommandLine">사용자 입력값에 대한 지원이 필요한데, 이 플랫폼에서 그러한 지원을 사용할 수 없습니다.</entry>
+    <entry key="MissingRequiredCapability_Swing">Java 사용자 인터페이스에 대한 지원이 필요한데, 이 플랫폼에서 그러한 지원을 사용할 수 없습니다.</entry>
+    <entry key="MissingRequiredCapability_ComplexSwing">Java 사용자 인터페이스에 대한 지원이 필요한데, 이 플랫폼에서 그러한 지원을 사용할 수 없습니다.</entry>
+    <entry key="MissingRequiredCapability_LocalClient">이 기능은 원격 플랫폼에서 사용할 수 없습니다.</entry>
+    <entry key="MissingRequiredCapability_WebWindow">이 기능은 원격 플랫폼에서 사용할 수 없습니다.</entry>
+    <entry key="MissingRequiredCapability_ModalDialogs">모달 대화 상자에 대한 지원이 필요한데, 이 구성에서 그러한 지원을 사용할 수 없습니다.</entry>
+    <entry key="MissingRequiredCapability_Debugging">이 구성에서는 디버그가 지원되지 않습니다.</entry>
+  </message>
+</rsccat>

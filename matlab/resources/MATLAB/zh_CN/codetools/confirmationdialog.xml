@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Ok">确定</entry>
+    <entry key="Cancel">取消</entry>
+    <entry key="ClearPreference">是否要删除?</entry>
+    <entry key="DeletePreference">确认删除</entry>
+    <entry key="ClearWSBConfirmation">将删除所有变量。</entry>
+    <entry key="DeleteVariableConfirmation">是否确定要删除选定的变量?</entry>
+    <entry key="DeleteVariablesConfirmation">是否确定要删除选定的多个变量?</entry>
+    <entry key="DeleteFieldConfirmation">是否确定要删除选定的字段?</entry>
+    <entry key="DeleteFieldsConfirmation">是否确定要删除选定的字段?</entry>
+  </message>
+</rsccat>

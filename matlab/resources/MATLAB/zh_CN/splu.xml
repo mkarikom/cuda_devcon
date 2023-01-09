@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="incUoneZeroDiagReplacedByDroptol">不完全分解的上三角矩阵具有 1 条替换为局部调降容差的零对角线。它可能不是合适的迭代方法预条件子。</entry>
+    <entry key="incUzeroDiagsReplacedByDroptol">不完全分解的上三角矩阵具有 {0,number,integer} 条替换为局部调降容差的零对角线。它可能不是合适的迭代方法预条件子。</entry>
+    <entry key="incUhas1zeroDiag">不完全分解的上三角矩阵具有 1 条零对角线。它不能用作迭代方法的预条件子。</entry>
+    <entry key="incUhasZeroDiags">不完全分解的上三角矩阵具有 {0,number,integer} 条零对角线。它不能用作迭代方法的预条件子。</entry>
+  </message>
+</rsccat>

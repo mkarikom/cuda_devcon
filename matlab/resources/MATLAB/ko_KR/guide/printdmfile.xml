@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="KeepFilesTogether">MATLAB 코드 파일 {1}에 대해\n MAT 파일 {0}이(가) 생성되었습니다. \n MATLAB 코드 파일을 실행하려면 두 파일을 함께 유지하십시오.</entry>
+    <entry key="UnsupportedDataType">MATLAB 코드 생성에 지원되지 않는 데이터형입니다.</entry>
+    <entry key="UnableToGenerateCodeForChar">3차원 이상을 가진 문자형 배열의 MATLAB 코드는 생성할 수 없습니다.</entry>
+    <entry key="UnableToGenerateCodeForCell">3차원 이상을 가진 셀형 배열의 MATLAB 코드는 생성할 수 없습니다.</entry>
+    <entry key="ErrorWritingFile">파일을 쓰는 동안 오류 발생</entry>
+    <entry key="InvalidHandle">첫 번째 인수는 유효한 핸들이어야 함</entry>
+    <entry key="InvalidFigureHandle">첫 번째 인수는 유효한 Figure 핸들이어야 함</entry>
+    <entry key="ObjectsAreNotSupported">{0} 객체는 지원되지 않습니다...</entry>
+    <entry key="DialogObjectsAreNotSupported">{0} 객체는 지원되지 않습니다...\n건너뜁니다</entry>
+    <entry key="Skipping">건너뜁니다...</entry>
+  </message>
+</rsccat>

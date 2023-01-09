@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="Nargin">Three input arguments required.</entry>
+    <entry key="EmptyFirstArg">The first argument to ADDTODATE cannot be empty.</entry>
+    <entry key="EmptySecondArg">The second argument to ADDTODATE cannot be empty.</entry>
+    <entry key="addToDate">Failed to add to date.</entry>
+    <entry key="CreateCalendar">Failed to create a calendar. Cannot proceed.</entry>
+  </message>
+</rsccat>

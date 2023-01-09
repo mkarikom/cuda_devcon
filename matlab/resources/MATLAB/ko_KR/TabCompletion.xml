@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="argument_number_is_out_of_range">인수 번호 {0,number,integer}가 범위 {1,number,integer}:{2,number,integer}를 벗어났습니다.</entry>
+    <entry key="binding_is_rejected">{0} 바인딩이 거부됨: {1}</entry>
+    <entry key="cannot_read_file">파일 "{0}"을(를) 읽을 수 없습니다.</entry>
+    <entry key="empty_binding_array">빈 바인딩 배열</entry>
+    <entry key="flags_are_missing">플래그가 없음</entry>
+    <entry key="no_need_for_argument_range">인수 범위 "{0,number,integer}:{1,number,integer}:{2,number,integer}"은(는) 지정할 필요가 없습니다.</entry>
+    <entry key="NoCompletionsFound">완성 항목을 찾을 수 없습니다.</entry>
+    <entry key="sax2_xml_parser_error">{2}의 {1,number,integer}번 라인에서 SAX2 {0} : "{3}"</entry>
+    <entry key="sax2_xml_parser_exception">SAX2 예외 메시지: \n"{0}".</entry>
+    <entry key="sax2_xml_parser_unexpected_exception">SAX2 예기치 않은 예외.</entry>
+    <entry key="wrong_argument_range">인수 번호 범위 "{0,number,integer}:{1,number,integer}:{2,number,integer}"이(가) 잘못되었습니다.</entry>
+    <entry key="wrong_argument_specification">인수 번호("{0}")가 잘못 지정되었습니다.</entry>
+    <entry key="ArgumentDefaultValue">디폴트 값</entry>
+    <entry key="UnableToLoadSignatures">''{0}''의 시그니처를 불러올 수 없습니다.</entry>
+    <entry key="UnableToCreateFunctionHandle">''{0}''에서 함수 핸들을 생성할 수 없습니다.</entry>
+    <entry key="SkippingUnrecognizedProperty">인식할 수 없는 속성 ''{0}''은(는) 건너뜁니다.</entry>
+    <entry key="UnrecognizedAttribute">''{0}''은(는) 인식할 수 없는 ''type'' 특성입니다.</entry>
+    <entry key="ExpectedOneAttribute">정확히 하나의 ''type'' 특성이 필요합니다.</entry>
+    <entry key="UnrecognizedIdentifier">''{0}''은(는) 인식할 수 없는 ''identifier'' 값입니다.</entry>
+    <entry key="UnrecognizedSize">''size'' ''{0}''을(를) 인식할 수 없습니다. ''size''는 적어도 두 개의 '':'' 또는 음이 아닌 정수를 포함하는 쉼표로 구분된 목록이어야 합니다.</entry>
+    <entry key="UnrecognizedKind">''{0}''은(는) 인식할 수 없는 ''kind'' 값입니다.</entry>
+    <entry key="UnrecognizedRepeating">''repeating''은 ''true'' 또는 ''false''여야 합니다.</entry>
+    <entry key="UnrecognizedMultiplicity">''{0}''은(는) 인식할 수 없는 ''multiplicity'' 값입니다.</entry>
+    <entry key="UnrecognizedPromotion">''{0}''은(는) 인식할 수 없는 ''promotion'' 값입니다.</entry>
+    <entry key="UnrecognizedIntegerValue">''{0}'' ''{1}''을(를) 인식할 수 없습니다. ''{0}''은(는) 음이 아닌 정수여야 합니다.</entry>
+    <entry key="NamesAndGroupsMisuse">''namevalue'' 인수와 ''properties'' 인수는 그룹 내부와 외부에 모두 있으면 안 됩니다.</entry>
+    <entry key="FlagsAndGroupsMisuse">''flag'' 인수는 그룹 내부와 외부에 모두 있으면 안 됩니다.</entry>
+    <entry key="FlagsAndNamesInGroupsMisuse">''flag'' 인수가 그룹 외부에 있을 경우 ''namevalue'' 인수와 ''properties'' 인수가 그룹 내부에 있어서는 안 됩니다.</entry>
+    <entry key="VararginPlaces">''properties'' 인수는 시그니처 또는 그룹에서 마지막에 와야 합니다.</entry>
+    <entry key="FailedToEval">표현식 ''{0}''을(를) 실행하지 못했습니다.</entry>
+    <entry key="InsideComment">주석 내에서는 항목을 제안할 수 없습니다.</entry>
+    <entry key="InsideDotDotDot">''...'' 내에서는 항목을 제안할 수 없습니다.</entry>
+    <entry key="InvalidCharacter">''{0}''은(는) 유효하지 않은 문자입니다.</entry>
+    <entry key="ExpectedCellArrayFromExpression">표현식 ''{0}''은(는) 셀형 배열 또는 string형 배열을 반환해야 합니다.</entry>
+    <entry key="ErrorParsingJSON">JSON 파일 ''{0}''을(를) 구문 분석하지 못함: {1}</entry>
+    <entry key="WarningParsingJSON">JSON 파일 ''{0}''을(를) 구문 분석하는 중 경고가 발생함: {1}</entry>
+    <entry key="UnidentifiedErrorParsingJSON">JSON 데이터 구문 분석 중 알 수 없는 오류가 발생함: {0}</entry>
+    <entry key="ErrorParsingArgumentsBlock">파일 ''{0}''의 'arguments' 블록을 구문 분석하지 못함: {1}</entry>
+    <entry key="ErrorParsingDocTooManyPrefixes">둘 이상의 접두사가 지정되었기 때문에 ''{0}''에 대한 문서를 구문 분석하지 못했습니다.</entry>
+    <entry key="ErrorParsingDocPrefixTooLong">접두사가 한 개의 인수보다 길기 때문에 ''{0}''에 대한 문서를 구문 분석하지 못했습니다.</entry>
+    <entry key="ErrorParsingDocPrefixEnding">접두사가 '___'로 끝나야 하기 때문에 ''{0}''에 대한 문서를 구문 분석하지 못했습니다.</entry>
+    <entry key="ErrorParsingDocPostfixBeginning">접미사가 '___'로 시작해야 하기 때문에 ''{0}''에 대한 문서를 구문 분석하지 못했습니다.</entry>
+    <entry key="ErrorParsingDocUnrecognizedUsageOf">''{1}'' 사용을 인식할 수 없기 때문에 ''{0}''에 대한 문서를 구문 분석하지 못했습니다.</entry>
+    <entry key="ErrorParsingDidYouMean___">'___'로 정정하시겠습니까?</entry>
+    <entry key="DefaultMustNotBeEmpty">''{0}''에 대한 ''default''는 비어 있지 않아야 합니다.</entry>
+    <entry key="ExpectedCommaInArgumentList">인수 목록에서 쉼표가 누락되었습니다.</entry>
+    <entry key="ErrorParsingNameEqualsValueSyntax">name=value 구문은 "name,value" 구문 앞에 와야 합니다.</entry>
+    <entry key="CursorExceedsSizeOfInput">커서 위치가 입력값 크기를 초과합니다.</entry>
+    <entry key="ExpectedFullScalarDouble">''{0}''은(는) 비희소 형식의 double형 스칼라여야 합니다.</entry>
+    <entry key="ShadowedJSON">{0}이(가) {1}에 의해 가려져 있습니다.</entry>
+    <entry key="SchemaVersionBadFormatting">파일 스키마는 ''.''로 구분된, 정확히 세 개의 음이 아닌 정수여야 합니다.</entry>
+    <entry key="SchemaVersionIncompatibleError">파일 스키마 버전 ''{0}''이(가) 지원되는 버전 ''{1}''과(와) 호환되지 않습니다.</entry>
+    <entry key="SchemaVersionIncompatibleWarning">파일 스키마 버전 ''{0}''이(가) 지원되는 버전 ''{1}''보다 이전 버전입니다. 완전한 호환이 보장되지 않습니다.</entry>
+    <entry key="ArgumentInformationForBaseNameSubstituted">''{0}''에 대한 인수 정보를 찾을 수 없습니다. 대신 ''{1}''에 대한 인수 정보가 사용됩니다.</entry>
+    <entry key="MissingDocMetadata">문서에 필요한 메타데이터가 누락되었기 때문에, 인수로 사용할 텍스트를 문서에서 가져와 ''{0}''에 대한 JSON 시그니처에 통합할 수 없습니다.</entry>
+    <entry key="RejectedJSONIntegration">''{0}''에 대한 JSON 시그니처의 다음과 같은 이름이 문서에서 발견되지 않았기 때문에 인수로 사용할 텍스트를 문서에서 가져와 시그니처에 통합할 수 없음: {1}</entry>
+    <entry key="RejectedDocHelpIntegration">''{0}''에 대한 help 시그니처의 다음과 같은 이름이 문서에서 발견되지 않았기 때문에 인수로 사용할 텍스트를 문서에서 가져와 시그니처에 통합할 수 없음: {1}</entry>
+    <entry key="RejectedIntegrationReflexive">또한 문서에 있는 다음 이름이 시그니처에서 발견되지 않음: {0}</entry>
+  </message>
+</rsccat>

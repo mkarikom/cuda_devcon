@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidEvent">이벤트를 등록 해제할 수 없습니다. 유효하지 않은 이벤트 이름/핸들러 조합임</entry>
+    <entry key="InvalidEvent2">''{0}''을(를) 등록 해제할 수 없습니다. 유효하지 않은 이벤트 이름/핸들러 조합임</entry>
+  </message>
+</rsccat>

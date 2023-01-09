@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotEnoughInputs">Not enough input arguments.</entry>
+    <entry key="DdefunNotFunctionHandle">The first argument, DDEFUN, must be a function handle.</entry>
+    <entry key="DelyInvalidType">The second argument, DELY, must be a function handle or a constant vector.</entry>
+    <entry key="DelypInvalidType">The third argument, DELYP, must be a function handle or a constant vector.</entry>
+
+    <entry key="HistoryInvalidType">HISTORY has an invalid data type. Refer to the help for DDENSD for a list of allowed data types for HISTORY.</entry>
+
+    <entry key="HistoryNotFromDDENSD">HISTORY structure must be produced by DDENSD.</entry>
+    <entry key="NotContinueFromHistoryEnd">When using HISTORY structure, DDENSD must continue from last point reached.</entry>
+
+    <entry key="InconsistentDataType">Mixture of single and double data for ''t0'', ''y0'', ''y(dy(t0,y0))'', ''yp(dyp(t0,y0))'' and ''f(t0,y0,dy0,dyp0)'' in call to DDENSD.</entry>
+    <entry key="JumpsOptionNotAvailable">JUMPS option is not available in DDENSD. Solve the problem by restarting at each entry of JUMPS.</entry>
+    <entry key="OptRelTolNotPosScalar">Option ''RelTol'' must be a positive scalar.</entry>
+    <entry key="RelTolIncrease">DDENSD is intended only for modest accuracy. RelTol has been increased to {0}.</entry>
+
+    <entry key="DELYLessThanT0">Failure at t={0} with solution delay DELY less than T0. When solving initial-value NDDE, DELY must remain greater than or equal to T0.</entry>
+    <entry key="DELYPLessThanT0">Failure at t={0} with derivative delay DELYP less than T0. When solving initial-value NDDE, DELYP must remain greater than or equal to T0.</entry>
+
+    <entry key="DELYPGreaterThanT">Failure at t={0} with derivative delay DELYP greater than T. DELYP can be equal to T only for initial-value NDDEs at T=T0. In all other cases, DELYP must be less than T.</entry>
+    <entry key="DELYPEqualT">Failure at t={0} with derivative delay DELYP equal to T. DELYP can be equal to T only for initial-value NDDEs at T=T0. In all other cases, DELYP must be less than T.</entry>
+
+    <entry key="IVPDELYPEqualT">Failure at t={0} with derivative delay DELYP equal to T, for T>T0. DELYP can be equal to T only for initial-value NDDEs at T=T0. In all other cases, DELYP must be less than T.</entry>
+
+  </message>
+</rsccat>

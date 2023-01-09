@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="HelpErrorPageNotFound">{0} が見つかりません。</entry>
+    <entry key="InvalidTopic">無効なドキュメンテーション トピック: {0}</entry>
+    <entry key="DocNotInstalled">このヘルプの位置でインストールされた製品はありません。\n製品に関連しないドキュメンテーションは、ヘルプ ブラウザーに表示されません。</entry>
+    <entry key="CreatedSearchDatabase">検索データベースの作成に成功しました。</entry>
+    <entry key="SpecifiedDirectoryDoesNotExist">指定したディレクトリが存在しません。</entry>
+    <entry key="CouldNotWriteSearchDatabase">検索データベースを書き込めません。</entry>
+    <entry key="UnsupportedPlatform">{0} は現在利用できません。</entry>
+    <entry key="MustBeSingleString">string 入力はスカラーでなければなりません。</entry>
+    <entry key="FileDoesNotExist">{0} は存在しません。</entry>
+    <entry key="PatchedDemoXmlFile">demos.xml ファイルに正常にパッチが適用されました。</entry>
+    <entry key="NoCharDataInDemoXmlFile">demos.xml ファイルに文字データがありません。</entry>
+  </message>
+</rsccat>

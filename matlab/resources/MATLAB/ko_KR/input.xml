@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="StandaloneMode">INPUT 명령은 독립 실행형 MATLAB에서는 허용되지 않습니다.</entry>
+    <entry key="IsInEvalc">EVALC에서는 INPUT을 호출할 수 없습니다.</entry>
+    <entry key="NonCharInput">INPUT에 대한 첫 번째 인수는 string형 또는 문자형 벡터여야 합니다.</entry>
+    <entry key="UnknownOption">INPUT에 대한 두 번째 인수는 ''s''여야 합니다.</entry>
+    <entry key="EngineMode">MATLAB을 Engine 또는 Notebook으로 사용할 때는 INPUT 명령을 사용할 수 없습니다.</entry>
+  </message>
+</rsccat>

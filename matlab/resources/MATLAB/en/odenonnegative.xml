@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NonNegativeViolatedAtT0">Non-negativity constraint violated at t0.</entry>
+  <!--Resource entries for toolbox/matlab/funfun-->
+    <entry key="NonNegativeIndicesInvalid">All indices specified in ODESET(''NonNegative'',idx) must satisfy 1 &lt;= idx &lt;= neq</entry>
+  </message>
+</rsccat>

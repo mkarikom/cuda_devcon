@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="AddANewEvent">Add a new event</entry>
+      <entry key="AddNewEvent">Add new event...</entry>
+      <entry key="Amplitude">Amplitude: {0}</entry>
+      <entry key="KeepObservations">Keep observations</entry>
+      <entry key="RemoveObservations">Remove observations</entry>
+      <entry key="ReplaceWithNaNs">Replace with NaNs</entry>
+      <entry key="Time">Time ({0}): {1}</entry>
+      <entry key="Timedate">Time/date: {0}</entry>
+      <entry key="TimeSeries">Time series: {0}</entry>
+      <entry key="TimeSeriesColumn">Time series: {0} Column: {1,number,integer}</entry>
+   </message>
+</rsccat>

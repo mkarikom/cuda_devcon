@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2014 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+  <message>
+    <entry key="invalidarg" note="stringDatatypeUpdate">Argument must be a valid character vector or string scalar.</entry>
+    <entry key="invalidnumarg" translate="false">{0}</entry>
+    <entry key="invalidnumargMsg1">Two arguments required.</entry>
+    <entry key="invalidnumargMsg2">Two arguments required after 'name'.</entry>
+    <entry key="invalidkey">Specified key is invalid.</entry>
+    <entry key="stringerror" note="stringDatatypeUpdate">Unable to expand environment variable.</entry>
+    <entry key="queryerror" translate="false">{0}</entry>
+    <entry key="queryerrorMsg1">Cannot query value of type REG_BINARY.</entry>
+    <entry key="queryerrorMsg2">Cannot query value of type REG_BIG_ENDIAN.</entry>
+    <entry key="queryerrorMsg3">Cannot query value of type REG_LINK.</entry>
+    <entry key="queryerrorMsg4">Cannot query value of type REG_MULTI_SZ.</entry>
+    <entry key="queryerrorMsg5">Cannot query value of type REG_NONE.</entry>
+    <entry key="queryerrorMsg6">Cannot query value of type REG_RESOURCE_LIST.</entry>
+    <entry key="queryerrorMsg7">Cannot query value of unknown type.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="HigherDimArray">X,Y and XI,YI cannot be arrays of dimension greater than two.</entry>
+    <entry key="InvalidDataSparse">Input data cannot be sparse.</entry>
+    <entry key="InvalidCoordsComplex">Input coordinates cannot be complex.</entry>
+    <entry key="InvalidMethod">METHOD must be one of ''linear'',''cubic'',''nearest'', or ''v4''.</entry>
+    <entry key="NotEnoughSamplePts">Not enough unique sample points specified.</entry>
+    <entry key="UnknownMethod">Unknown method.</entry>
+    <entry key="CubicMethod3D">The cubic interpolation method supports 2D only.</entry>
+    <entry key="V4Method3D">The v4 interpolation method supports 2D only.</entry>
+    <entry key="EmptyTriangulation">The underlying triangulation is empty - the points may be collinear.</entry>
+    <entry key="InvalidInputArgs">Invalid input arguments.</entry>
+    <entry key="InvalidNumInputArgs">Invalid number of input arguments.</entry>
+  <!--Resource entries for toolbox/matlab/polyfun-->
+    <entry key="DuplicateDataPoints">Duplicate x-y data points detected: using average values for duplicate points.</entry>
+    <entry key="DeprecatedOptions">GRIDDATA no longer requires Qhull-specific options.\nPlease remove these options when calling GRIDDATA.</entry>
+    <entry key="NonDistinctPoints">Averaged {0,number,integer} non-distinct points.\n         Indices are: {1}.</entry>
+  </message>
+</rsccat>

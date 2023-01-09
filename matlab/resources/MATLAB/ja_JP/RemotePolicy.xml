@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownPolicy">ディレクトリの更新ポリシーが不明です。\n''Reload''、''TimecheckDir''、''None'' または ''Status'' を指定してください。</entry>
+    <entry key="notEnoughInputs">''Reload''、''TimecheckDir''、''TimecheckDirFile''、''TimecheckFile''、''None'' または ''Status'' を指定してください</entry>
+  </message>
+</rsccat>

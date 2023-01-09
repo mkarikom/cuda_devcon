@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="getPickableAncestorInvalidNonScalarObject">输入对象必须为标量句柄。</entry>
+    <entry key="getPickableAncestorInvalidNonHandleObject">输入对象必须为句柄对象。</entry>
+    <entry key="getPickableAncestorInvalidObject">输入对象必须为 SceneNode 的子类。</entry>
+    <entry key="getChildExtentsInvalidNonScalarObject">输入对象必须为标量句柄。</entry>
+    <entry key="getChildExtentsInvalidNonHandleObject">输入对象必须为句柄对象。</entry>
+    <entry key="getChildExtentsInvalidObject">输入对象必须为 SceneNode 的子类。</entry>
+    <entry key="getChildExtentsInvalidNonScalarExcludedObject">已排除对象必须为标量句柄。</entry>
+    <entry key="getChildExtentsInvalidNonHandleExcludedObject">已排除对象必须为句柄对象。</entry>
+    <entry key="getChildExtentsInvalidExcludedObject">已排除对象必须为 SceneNode 的子类。</entry>
+  </message>
+</rsccat>

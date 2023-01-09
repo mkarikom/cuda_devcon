@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="matrixWithNaNInf">Input matrix contains NaN or Inf.</entry>
+    <entry key="unknownOption">Third argument must be ''real'' or ''complex''.</entry>
+    <entry key="ignoreRealOption">Ignoring ''real'' option with complex matrices.</entry>
+    <entry key="noConvergence">Algorithm did not succeed.\n Internal error in library MKL LAPACK, info = {0,number,integer}.</entry>
+    <entry key="qzNoConvergence">Algorithm did not succeed.\n Internal error in library MKL LAPACK, info = {0,number,integer}.</entry>
+    <entry key="noQZsparse">Sparse matrices not supported.</entry>
+    <entry key="inputMustBe2D">Input array must be 2-dimensional.</entry>
+    <entry key="inputType">Invalid data type. First and second arguments must be double or single.</entry>
+  </message>
+</rsccat>

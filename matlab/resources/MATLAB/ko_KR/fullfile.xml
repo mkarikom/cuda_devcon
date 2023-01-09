@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CellstrSizeMismatch">모든 string형 배열과 셀형 배열 입력값은 크기가 동일하거나 스칼라여야 합니다.</entry>
+    <entry key="InvalidInputType">모든 입력값은 string형이거나 문자형 벡터, 또는 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="NumCharRowsExceeded">여러 행을 가진 문자형 입력값은 지원되지 않습니다.</entry>
+    <entry key="MixedInputType">비 스칼라 string형 및 문자형 벡터로 구성된 셀형 배열은 모두 동일한 경로 유형이어야 합니다.</entry>
+  </message>
+</rsccat>

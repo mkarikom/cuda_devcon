@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FigureName">工具栏编辑器</entry>
+    <entry key="ToolbarLayoutTitle">工具栏布局</entry>
+    <entry key="ToolbarLayoutHelp">在此添加工具以创建工具栏。从选项板中拖放或按“添加”按钮</entry>
+    <entry key="PalettePushTool">按钮工具</entry>
+    <entry key="PaletteToggleTool">切换工具</entry>
+    <entry key="ToolPropertyPanelTitle">工具属性</entry>
+    <entry key="ToolbarPropertyPanelTitle">工具栏属性</entry>
+    <entry key="ToolbatDeletionConfirmation">删除该工具还将会删除它包含的所有工具。\n\n是否要继续?</entry>
+    <entry key="ToolPalettePanelTitle">工具选项板</entry>
+    <entry key="CustomToolSectionTitle">自定义工具</entry>
+    <entry key="PredefinedToolSectionTitle">预定义工具</entry>
+    <entry key="ActionOK">确定</entry>
+    <entry key="ActionAdd">添加</entry>
+    <entry key="ActionAddTooltip">将所选的选项板项添加到工具栏中</entry>
+    <entry key="ActionDelete">删除</entry>
+    <entry key="ActionDeleteTooltip">删除所选的工具栏项目</entry>
+    <entry key="ActionSendtoFirst">置于首项</entry>
+    <entry key="ActionSendtoFirstTooltip">将所选的工具栏项目移至开头</entry>
+    <entry key="ActionSendtoLast">置于尾项</entry>
+    <entry key="ActionSendtoLastTooltip">将所选的工具栏项目移至结尾</entry>
+    <entry key="ActionMovetotheRight">移至右侧</entry>
+    <entry key="ActionMovetotheRightTooltip">将所选的工具栏项目移至右侧</entry>
+    <entry key="ActionMovetotheLeft">移至左侧</entry>
+    <entry key="ActionMovetotheLeftTooltip">将所选的工具栏项目移至左侧</entry>
+    <entry key="ActionDeleteToolbar">删除工具栏</entry>
+    <entry key="ActionDeleteToolbarTooltip">删除该工具栏及其所有工具</entry>
+    <entry key="ActionAddToolbar">添加工具栏</entry>
+    <entry key="ActionAddToolbarTooltip">添加新的空工具栏</entry>
+    <entry key="ActionShiftPreviewToolRight">右移预览工具</entry>
+    <entry key="ActionShiftPreviewToolRightTooltip">从指定位置开始右移预览工具</entry>
+    <entry key="ActionShiftPreviewToolLeft">左移预览工具</entry>
+    <entry key="ActionShiftPreviewToolLeftTooltip">从指定位置开始左移预览工具</entry>
+    <entry key="ActionEditIcon">编辑图标</entry>
+    <entry key="ActionEditIconTooltip">更改所选工具栏项目的图标 </entry>
+    <entry key="ActionEditTooltip">编辑工具提示</entry>
+    <entry key="ActionEditTooltipTooltip">更改所选工具栏项目的工具提示 </entry>
+    <entry key="ActionShowSeparator">显示分隔符</entry>
+    <entry key="ActionShowSeparatorTooltip">打开/关闭所选工具栏项目的分隔符 </entry>
+    <entry key="ActionMorePropertiesTooltip">编辑检查器中的所有属性</entry>
+    <entry key="ActionMoreProperties">更多属性...</entry>
+    <entry key="EditCallback">查看</entry>
+    <entry key="RestoreDefaults">还原默认值</entry>
+    <entry key="RestoreDefaultsTooltip">返回该预定义工具的默认行为</entry>
+    <entry key="PropertyCData">CData (图标):</entry>
+    <entry key="PropertyEnablethistool">启用该工具</entry>
+    <entry key="PropertyOffCallback">关闭回调:</entry>
+    <entry key="PropertyOnCallback">打开回调:</entry>
+    <entry key="PropertySeparatoronleftside">分隔符位于左侧</entry>
+    <entry key="PropertyTag">标签:</entry>
+    <entry key="PropertyTooltipString">工具提示文本:</entry>
+    <entry key="PropertyClickedCallback">点击回调</entry>
+    <entry key="PropertyMaketoolbarvisible">使工具栏可见</entry>
+    <entry key="PropertyEditIcon">编辑...</entry>
+    <entry key="RestoreDefaultConfirmation">所选的工具栏工具是从选项板中的预定义工具中创建的。还原其默认行为将会删除您已做的所有更改。\n\n是否要继续?</entry>
+    <entry key="ActionOKTooltip"/>
+  </message>
+</rsccat>

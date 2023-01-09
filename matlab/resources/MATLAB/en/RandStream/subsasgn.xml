@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="SubscriptAssignmentNotAllowed">Assignment to a RandStream using () indexing is not allowed.</entry>
+    <entry key="CellAssignmentNotAllowed">Assignment to a RandStream using '{}' indexing is not allowed.</entry>
+    <entry key="InvalidPropertySyntax">Illegal property reference.</entry>
+    <entry key="IllegalPropertyAssignment">The ''{0}'' property is read-only, and can only be set when you create a stream.</entry>
+    <entry key="IllegalSeedAssignment">The ''Seed'' property is read-only, and can only be set when you create a stream, or with the RESET method.</entry>
+    <entry key="UnrecognizedProperty">Unrecognized property ''{0}''.</entry>
+  </message>
+</rsccat>

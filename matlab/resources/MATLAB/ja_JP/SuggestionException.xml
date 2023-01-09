@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ConversationalNameForArguments">追加された引数</entry>
+    <entry key="ConversationalNameForIdentifier">識別子</entry>
+    <entry key="ConversationalNameForMethodToConvert">メソッド名</entry>
+    <entry key="ConversationalNameForReplacement">置換項目</entry>
+    <entry key="InvalidIdentifierName">{0} は有効な MATLAB 名でなければなりません。''{1}'' は無効です。</entry>
+    <entry key="MustBeCorrectionScalar">修正は、matlab.lang.correction.Correction スカラーでなければなりません。</entry>
+    <entry key="MustBeTextScalar">{0} は string スカラーまたは文字ベクトルでなければなりません。</entry>
+    <entry key="MustBeTextVector">{0} は string ベクトル、文字ベクトル、または文字ベクトルの cell ベクトルでなければなりません。</entry>
+    <entry key="MustUseCorrectSyntax">{0} は正しい MATLAB 構文を使用しなければなりません。''{1}'' は無効です。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonWindows">この関数は、Microsoft Windows でのみ適用可能です。</entry>
+    <entry key="numargs">パラメーター/値のペアの数を偶数にする必要があります。</entry>
+    <entry key="unknownparamPosition">引数 {0,number,integer} は、認識されたパラメーターではありません。</entry>
+    <entry key="unknownparam">パラメーター ''{0}'' は、認識されません。</entry>
+    <entry key="createpropertyCurrentFiguregcf">現在の Figure (gcf)</entry>
+    <entry key="createpropertyEvent">イベント</entry>
+    <entry key="createpropertyEventHandler">イベント ハンドラー</entry>
+    <entry key="createpropertyPickFile">ファイルを選択</entry>
+    <entry key="selectCreateButton">作成</entry>
+    <entry key="selectControlPrompt1">システム内のすべてのコントロールのリストから ActiveX コントロールを選択してください。MATLAB 内で作成が成功し、スクリーン イメージがある場合、選択したコントロールのプレビューを表示できます。</entry>
+    <entry key="selectControlPrompt2">さらに、ActiveX コントロールの作成で使用されるパラメーターのリストを参照することもできます。これらの既定値と別の値を参照するには、[プロパティ] ボタンを押してください。</entry>
+  </message>
+</rsccat>

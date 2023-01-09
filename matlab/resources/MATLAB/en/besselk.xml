@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="nonFloatInput">Inputs must be single or double.</entry>
+    <entry key="sparseInput">Inputs must be full.</entry>
+    <entry key="nonRealNU">NU must be real.</entry>
+    <entry key="NUAndZSizeMismatch">NU and Z must be the same size or one must be a scalar.</entry>
+    <entry key="ScaleNotZeroOrOne">SCALE must be 0 or 1.</entry>
+  </message>
+</rsccat>

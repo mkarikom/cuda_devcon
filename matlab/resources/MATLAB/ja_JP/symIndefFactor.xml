@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidSymbolic">対称不定分解からのシンボリック因数分解が無効です。</entry>
+    <entry key="tooManyAttempts">対称不定値行列の数値分解に設定された最大試行回数を超えました。</entry>
+    <entry key="invalidNumeric">対称不定分解からの数値分解が無効です。</entry>
+    <entry key="solveError">対称不定分解を解く時にエラーが発生しました。</entry>
+  </message>
+</rsccat>

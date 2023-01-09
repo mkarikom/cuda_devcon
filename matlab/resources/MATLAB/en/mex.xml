@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2010-2018 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0" string_type_for_hole="mixed">
+  <message>
+    <entry key="twoUNCPaths">Cannot build files when both PWD and TEMPDIR are UNC paths.</entry>
+    <entry key="dotdots">Resolved path relative to ''{0}'' as ''{1}'' which is invalid.</entry>
+    <entry key="assertion">Assertion failed{0} at line {3,number,integer} of file ''{2}''.\n{1}\n\nStack trace:\n{4}\n</entry>
+    <entry key="destinationDirNotFound">The destination directory "{0}" cannot be found.</entry>
+    <entry key="mexFileLocked">Your MEX-file "{0}" is locked and must be unlocked before recompiling.</entry>
+    <entry key="RspFilePermissionOpen">Cannot open file "{0}" for writing: {1}.</entry>
+    <entry key="RspFilePermissionWrite">Cannot write to file "{0}": {1}.</entry>
+    <entry key="CreateRSPFile">{0} command reaches Window's command-line string limit. Creating RSP file {1} and copying the contents after {2} command to the file. </entry>
+    <entry key="RSPFileException">RSP File could not be created: ''{0}''.</entry>
+    <entry key="moveToUNCPermissions">MEX could not move generated files back to UNC path. Check permissions or security of ''{0}''.</entry>
+    <entry key="moveToUNCTemp">MEX could not remove temporary directory ''{0}''.</entry>
+    <entry key="genericFailure">Unable to complete successfully.</entry>
+    <entry key="invalidArgument" note="stringDatatypeUpdate">All arguments must be nonempty strings or character vectors.</entry>
+    <entry key="OutputSwitchMisuse">The -output switch must be followed by a file name.</entry>
+    <entry key="OutdirSwitchMisuse">The -outdir switch must be followed by a directory name.</entry>
+    <entry key="FileSystemException" translate="false" note="TranslateFalseBatch;">{0} </entry>
+    <entry key="Verbose">Verbose mode is on.</entry>
+    <entry key="FileCopied">Copied options file from ''{0}'' to ''{1}''.</entry>
+    <entry key="FileRenamed">Renamed options file ''{0}'' to ''{1}''.</entry>
+    <entry key="ConfiguredToUse_bold">{0} configured to use &lt;strong&gt;''{1}''&lt;/strong&gt; for {2} language compilation.</entry>
+    <entry key="ConfiguredToUse">{0} configured to use ''{1}'' for {2} language compilation.</entry>
+    <entry key="NotConfiguredToUse">{0} cannot use compiler ''{1}'' because that compiler is not detected.</entry>
+    <entry key="LookforImplicitSel">No MEX options file identified; looking for an implicit selection.</entry>
+    <entry key="SetEnv">Set {0} = {1}</entry>
+    <entry key="FailSetEnv">Failed to define environment variable ''{0}''.</entry>
+    <entry key="ExecutingCmd">... Executing command ''{0}'' ...</entry>
+    <entry key="FileCannotOpen">''{0}'' could not be opened.</entry>
+    <entry key="Warn" translate="false" note="TranslateFalseBatch;">{0}</entry>
+    <entry key="Error" translate="false" note="TranslateFalseBatch;">{0}</entry>
+    <entry key="MexDoubleHandle">Deprecated MEX function mexGet|mexSet was called. Either update the source code to use mxGetProperty|mxSetProperty, OR rerun MEX with the -D{0} added to the command line to enter compatibility mode.</entry>
+    <entry key="MexSetTrapFlagNotSupported">Deprecated MEX function mexSetTrapFlag was called. Update the source code to use mexCallMATLABWithTrap.</entry>
+    <entry key="MXSeparateComplexNotSupported">Separate complex matrix function {0} was called.  Either update the source code for interleaved complex, or rerun MEX with the -R2017b command line option to use the R2017b API with compatibility support.  For more information, see &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''support_for_IC_API'')"&gt;Interleaved Complex&lt;/a&gt; </entry>
+    <entry key="UndocumentedNotSupported">Function {0} not supported.  Either switch to using the more efficient &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''matlab-data-api'')"&gt;MATLAB Data API&lt;/a&gt; available in &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''cpp-mex-applications'')"&gt;C++ MEX Applications&lt;/a&gt;, or rerun MEX with the -R2017b command line option to use the R2017b API.</entry>
+    <entry key="NoCompilerFound">Supported compiler not detected. For options, visit https://www.mathworks.com/support/compilers.</entry>
+    <entry key="NoCompilerFound_link">Supported compiler not detected. For options, visit &lt;a href="https://www.mathworks.com/support/compilers"&gt;https://www.mathworks.com/support/compilers&lt;/a&gt;.</entry>
+    <entry key="NoCompilerFound_Win64">Supported compiler not detected. You can install the freely available MinGW-w64 C/C++ compiler; visit https://www.mathworks.com/matlabcentral/fileexchange/52848-matlab-support-for-mingw-w64-c-c-compiler. For more options, visit https://www.mathworks.com/support/compilers.</entry>
+    <entry key="NoCompilerFoundForMbuildOrMbuildCom_Win64">Supported compiler not detected. You can install the MinGW-w64 C/C++ compiler, which also requires installation of the Windows 10 SDK. Both are freely available. Visit https://www.mathworks.com/matlabcentral/answers/355476-how-can-i-install-mingw-compiler-for-use-with-windows-10-sdk-kit. For more options, visit https://www.mathworks.com/support/compilers.</entry>
+    <entry key="NoCompilerFound_link_Win64">Supported compiler not detected. You can install the freely available MinGW-w64 C/C++ compiler; see &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''install_mingw'')"&gt;Install MinGW-w64 Compiler&lt;/a&gt;. For more options, visit &lt;a href="https://www.mathworks.com/support/compilers"&gt;https://www.mathworks.com/support/compilers&lt;/a&gt;.</entry>
+    <entry key="NoCompilerFoundForMbuildOrMbuildCom_link_Win64">Supported compiler not detected. You can install the MinGW-w64 C/C++ compiler, which also requires installation of the Windows 10 SDK. Both are freely available. See &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''install_mingw'')"&gt;Install MinGW-w64 Compiler&lt;/a&gt;. For more options, visit &lt;a href="https://www.mathworks.com/matlabcentral/answers/355476-how-can-i-install-mingw-compiler-for-use-with-windows-10-sdk-kit"&gt;https://www.mathworks.com/matlabcentral/answers/355476-how-can-i-install-mingw-compiler-for-use-with-windows-10-sdk-kit&lt;/a&gt;.</entry>
+    <entry key="MultipleOrZeroCompiler">Internal error -- should not be multiple or zero selected/preferred compilers.</entry>
+    <entry key="UnknownClient">Unknown client ''{0}''.</entry>
+    <entry key="InvalidXML">{0} is not a valid XML file.</entry>
+    <entry key="XMLWriteFailed">Failed to write the options file ''{0}''.</entry>
+    <entry key="XMLWriteFailedWithMsg">Failed to write the options file ''{0}'': ''{1}''</entry>
+    <entry key="LookingCompiler">... Looking for compiler ''{0}'' ...</entry>
+    <entry key="InstalledCompiler">Found installed compiler ''{0}''.</entry>
+    <entry key="NotInstalledCompiler">Did not find installed compiler ''{0}''.</entry>
+    <entry key="UnsupportedCompiler_link">Selected compiler ''{0}'' is not supported. For options, visit &lt;a href="https://www.mathworks.com/support/compilers"&gt;https://www.mathworks.com/support/compilers&lt;/a&gt;.</entry>
+    <entry key="UnsupportedCompiler">Selected compiler ''{0}'' is not supported. For options, visit https://www.mathworks.com/support/compilers.</entry>
+    <entry key="NoAlternativeCompilerFound_link">Selected compiler ''{0}'' is not supported and no other supported compiler was found. For options, visit &lt;a href="https://www.mathworks.com/support/compilers"&gt;https://www.mathworks.com/support/compilers&lt;/a&gt;.</entry>
+    <entry key="NoAlternativeCompilerFound">Selected compiler ''{0}'' is not supported and no other supported compiler was found. For options, visit https://www.mathworks.com/support/compilers.</entry>
+    <entry key="LookingFile">... Looking for file ''{0}'' ...</entry>
+    <entry key="LookingFolder">... Looking for folder ''{0}'' ...</entry>
+    <entry key="LookingEnv">... Looking for environment variable ''{0}'' ...</entry>
+    <entry key="LookingRegistry">... Looking for registry setting ''{0}\\{1}'' {2} ...</entry>
+    <entry key="Yes">Yes.</entry>
+    <entry key="YesValue">Yes (''{0}'').</entry>
+    <entry key="No">No.</entry>
+    <entry key="UnknownExt">Unknown file extension ''{0}''.</entry>
+    <entry key="UnknownLanguage">Unknown language ''{0}''.</entry>
+    <entry key="MixLang">Cannot compile both {0} and {1} source files in a single call to MEX.</entry>
+    <entry key="NotAnOption">Unimplemented option ''{0}''.</entry>
+    <entry key="UnknownSwitch">Unknown MEX argument ''{0}''.</entry>
+    <entry key="IncompatibleSwitches">Calling MEX with both ''{0}'' and ''{1}'' not supported.</entry>
+    <entry key="MultiCompilers">To choose a different {0} compiler, execute one from the following:</entry>
+    <entry key="MultiCompilers_link">To choose a different {0} compiler, select one from the following:</entry>
+    <entry key="NoLangSelected">
+      To choose a different language, execute one from the following:\n
+      mex -setup C++{0} \n
+      mex -setup FORTRAN{1}
+    </entry>
+    <entry key="NoLangSelected_link">
+      To choose a different language, select one from the following:\n
+      &lt;a href="matlab:mex -setup C++{0}"&gt;mex -setup C++{1}&lt;/a&gt; \n
+      &lt;a href="matlab:mex -setup FORTRAN{2}"&gt;mex -setup FORTRAN{3}&lt;/a&gt;
+    </entry>
+    <entry key="GccVersion">gcc version ''{0}'' not supported. See https://www.mathworks.com/support/compilers/current_release.</entry>
+    <entry key="GccVersion_link">gcc version ''{0}'' not supported. See &lt;a href="https://www.mathworks.com/support/compilers/current_release"&gt;https://www.mathworks.com/support/compilers/current_release&lt;/a&gt;.</entry>
+    <entry key="MinGWVersion_link">
+      You are using an unsupported version of MinGW Compiler. To install the supported version of MinGW compiler, see: &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''install_mingw'')"&gt;Install MinGW-w64 Compiler&lt;/a&gt;.\n
+      For a list of currently supported compilers visit &lt;a href="https://www.mathworks.com/support/compilers"&gt;https://www.mathworks.com/support/compilers&lt;/a&gt;.
+    </entry>
+    <entry key="MinGWVersion">
+      You are using an unsupported version of MinGW Compiler. To install the supported version of MinGW compiler, visit https://www.mathworks.com/help/matlab/matlab_external/install-mingw-support-package.html.\n
+      For a list of currently supported compilers see: https://www.mathworks.com/support/compilers.
+    </entry>
+    <entry key="InvalidMinGWConfig_link">
+      MinGW compiler is not configured correctly. Please visit &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''manually_configure_mingw'')"&gt;Manually Configure MinGW for MATLAB&lt;/a&gt; to configure the MinGW compiler correctly and recompile your source code.
+    </entry>
+    <entry key="InvalidMinGWConfig">
+      MinGW compiler is not configured correctly. Please visit https://www.mathworks.com/help/matlab/matlab_external/compiling-c-mex-files-with-mingw.html#bu0q4cc-1 to configure the MinGW compiler correctly and recompile your source code.
+    </entry>
+    <entry key="InvalidArgNumber">
+      Too many input arguments.
+    </entry>
+    <entry key="InvalidArgType">
+      Input must be a scalar string or a character vector.
+    </entry>
+    <entry key="WindowText">
+      Select MinGW installation directory
+    </entry>
+    <entry key="FolderNotPresent">
+      Folder ''{0}'' does not exist.
+    </entry>
+    <entry key="InsufficientAccessPrivilege">
+      Unable to setup the MinGW compiler due to administrator privileges not granted.
+    </entry>
+    <entry key="IncorrectMinGWFolder">
+      Folder ''{0}'' does not contain MinGW binaries.
+    </entry>
+    <entry key="IncorrectPlatform">
+      This function is valid for 64-bit Windows platform only.
+    </entry>
+    <entry key="ErrCopyFile">Error occurred when copying options file ''{0}'' to preference folder ''{1}''</entry>
+    <entry key="SrcNotFound">{0} not detected; check that you are in the correct current folder, and check the spelling of ''{1}''.</entry>
+    <entry key="AccessDenied">Access denied; check that you have permissions to access ''{0}''.</entry>
+    <entry key="FileNameTooLarge">The specified filename is too long.</entry>
+    <entry key="NotADirectory">''{0}'' is not a directory.</entry>
+    <entry key="FileNameConversionFailed">Filename code conversion failed.</entry>
+    <entry key="OutOfMemory">MEX failed to allocate required memory.</entry>
+    <entry key="Building">Building with ''{0}''.</entry>
+    <entry key="Complete">MEX completed successfully.</entry>
+    <entry key="ErrOption">Error using MEX argument ''{0}''.</entry>
+    <entry key="ErrXMLAttr">Error reading attribute ''{0}'' in options file ''{1}''.</entry>
+    <entry key="Locked">''{0}'' locked by mexLock API.</entry>
+    <entry key="Locked_link">''{0}'' locked by &lt;a href="https://www.mathworks.com/help/matlab/apiref/mexlock.html"&gt;mexLock&lt;/a&gt; API.</entry>
+    <entry key="IgnoreOutput">Ignoring -output because -c is specified.</entry>
+    <entry key="LibNotFound">
+      {0} cannot find library ''{1}'', specified with the -l option. \n
+      {0} searched for a file with one of the following names: \n
+      {2} \n
+      Verify the library name is correct. If the library is not \n
+      on the existing path, specify the path with the -L option. \n
+    </entry>
+    <entry key="LongEnv">The environment variable ''{0}'' is more than 8,000 characters long which might cause build time errors. See https://www.mathworks.com/help/matlab/matlab_env/understanding-file-locations-in-matlab.html#br5u0i7-1 for information.</entry>
+    <entry key="LongEnv_link">The environment variable ''{0}'' is more than 8,000 characters long which might cause build time errors. See &lt;a href="https://www.mathworks.com/help/matlab/matlab_env/understanding-file-locations-in-matlab.html#br5u0i7-1"&gt;https://www.mathworks.com/help/matlab/matlab_env/understanding-file-locations-in-matlab.html#br5u0i7-1&lt;/a&gt; for information.</entry>
+    <entry key="AdaErr">Error calling Ada function build_ada_sfcn_using_gnat.</entry>
+    <entry key="LegacyWarn">Legacy MEX infrastructure is provided for compatibility; it will be removed in a future version of MATLAB. For more information, consult the MEX release notes https://www.mathworks.com/help/matlab/release-notes.html.</entry>
+
+    <entry key="MexLoaded">
+      \nMEX FILE: {0} entry point located at address {1}\n
+    </entry>
+    <entry key="IssueContinue">
+      Add breakpoints at the debugger prompt and type a "continue" to resume \n
+      execution of MATLAB. \n\n
+    </entry>
+    <!--Resource entries for toolbox/matlab-->
+    <entry key="moveToUNC" translate="false" note="TranslateFalseBatch;">{0}</entry>
+    <entry key="CircRef"> The variable reference graph has a cycle between ''{0}''  and ''{1}'' </entry>
+    <entry key="MsgNoEntryPoint">Gateway function is missing</entry>
+    <entry key="MsgIncompatRel">Incompatible MEX-file ''{0}'': Loading MEX file built by {1} is not supported for this release.</entry>
+    <entry key="ErrOutOfMem">Insufficient memory to load MEX-file ''{0}''.</entry>
+    <entry key="ErrInvalidMEXFile">Invalid MEX-file ''{0}'': {1}</entry>
+    <entry key="ErrInvalidCPPMEXFile">Invalid C++ MEX-file ''{0}''</entry>
+    <entry key="DeleteTmpFile">Unable to delete the temporary file ''{0}''</entry>
+    <entry key="MexErrorCode">The command ''{0}'' exited with a return value ''{1}'' </entry>
+    <entry key="SFunctionMsg"><![CDATA[\nIncluding tmwtypes.h before simstruc.h will cause tmwtypes.h to be built using 64-bit API. Recompiling the code to use 32-bit API. You can find more
+    information about this at: <a href="matlab: helpview ([docroot '/matlab/matlab_external/matlab_external.map'],'mex_build_64bit_by_default')">
+    MEX Builds With 64-Bit API by Default\n</a>]]>
+    </entry>
+    <entry key="RecompileVer">Recompile embedded version with ''{0}''</entry>
+    <entry key="CppMexException" translate="false">{0}</entry>
+    <entry key="CppMexFevalError">Failed to evaluate MATLAB function ''{0}''.</entry>
+    <entry key="CppMexIndexExceedsBounds">Index exceeds array bounds.</entry>
+    <entry key="CppMexGetVariableError">Failed to get variable ''{0}'' in ''{1}'' workspace.</entry>
+    <entry key="CppMexSetVariableError">Failed to set variable ''{0}'' in ''{1}'' workspace.</entry>
+    <entry key="CppMexNotObjectError">First input to getProperty or setProperty must be a MATLAB object array.</entry>
+    <entry key="CppMexGetPropertyError">Failed to get property ''{0}'' of the MATLAB object.</entry>
+    <entry key="CppMexSetPropertyError">Failed to set property ''{0}'' of the MATLAB object.</entry>
+    <entry key="CppMexThreadMismatch">Synchronous version of MATLAB Engine functions must be called from the thread that called the MEX function.</entry>
+    <entry key="CppMexFailedToCleanupError">Error destroying MexFunction object defined in the C++ MEX file\n{0}.\nError message:\n    {1}\nHowever, MEX file was cleared from memory.</entry>
+    <entry key="CppMexFailedToCleanup">Error destroying MexFunction object defined in the C++ MEX file\n{0}.\nHowever, MEX file was cleared from memory.</entry>
+    <entry key="CppMexErrorWithNoIDOrMsg">Exception thrown from C++ MEX file without error ID or message.</entry>
+    <entry key="ErrSetWinPathEnv">Failed to set the PATH variable required for C++ MEX-file compilation.</entry>
+
+    <!-- mex_host built-in argument errors -->
+    <entry key="MexHostFevalInvalidInput">MEX file name required.</entry>
+    <entry key="NonExistingMexFunction">Undefined C++ MEX function ''{0}''.</entry>
+    <entry key="InvalidCPPMexFunction">Invalid C++ MEX-file ''{0}'': {1}</entry>
+    <entry key="MexHostCrashed">Error executing C++ MEX function ''{0}''. ''{1}'' with process ID ''{2}'' crashed or was destroyed outside MATLAB.</entry>
+    <entry key="MexHostDeleted">Error executing C++ MEX function ''{0}''. MexHost object was deleted or cleared from MATLAB.</entry>
+    <entry key="MexHostNonExistingProcess">Process ''{0}'' with process ID ''{1}'' associated with MexHost object crashed or was destroyed outside MATLAB.</entry>
+    <entry key="MexHostLoadError">Unable to load MexHost object.</entry>
+    <entry key="MexHostInterrupted">Function ''{0}'' running on MexHost was interrupted.\nTerminated MexHost process ''{1}'' with process ID ''{2}''.</entry>
+    <entry key="MexHostInvalidPropertyName">Invalid property name ''{0}''. Valid name is ''{1}''.</entry>
+    <entry key="MexHostInvalidNumberOfInputArguments">Invalid number of arguments to the function ''{0}''. This function accepts 0 or 2 arguments.</entry>
+    <entry key="MexHostInvalidEnvironmentVariables">The value of the ''{0}'' property must be a string matrix with two columns.</entry>
+    <entry key="MexHostInvalidPropertyType">First argument must be string scalar.</entry>
+    <!-- mexcheck built-in argument errors -->
+    <entry key="mexcheckNeedsAtLeastOneArg">Missing MEX file name.</entry>
+    <entry key="mexcheckInvalidArgNumber">Too many input arguments.</entry>
+    <entry key="mexcheckInvalidArgument">MEX file name must be a string.</entry>
+
+    <!-- mexcheck messages -->
+    <entry key="ENONAME_reason">Zero length file name.</entry>
+    <entry key="ENOFILE_reason">''{0}'' does not exist.</entry>
+    <entry key="ENOREAD_reason">Unable to read ''{0}''.</entry>
+    <entry key="ENOREAD_action">Change file permission to readable.</entry>
+    <entry key="ENOTMEX_reason">''{0}'' is not a MEX file.</entry>
+    <entry key="ENOTMEX_action">For more information, see &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''ENOTMEX'')"&gt;File is not a MEX file&lt;/a&gt;.</entry>
+    <entry key="ELNKAPI_reason">''{0}'' is compiled with incompatible options ''{1}'' and {2}''.</entry>
+    <entry key="ELNKAPI_action">For more information, see &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''ELNKAPI'')"&gt;MEX file compiled with incompatible options&lt;/a&gt;.</entry>
+    <entry key="EVERAPI_reason">''{0}'' compiled with ''{1}'' and linked with ''{2}''.</entry>
+    <entry key="EVERAPI_action">For more information, see &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''EVERAPI'')"&gt;MEX file compiled with one API and linked with another&lt;/a&gt;.</entry>
+    <entry key="EUNKAPI_reason">''{0}'' built in MATLAB ''{1}'' not supported in current release.</entry>
+    <entry key="EUNKAPI_action">For more information, see &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''EUKNAPI'')"&gt;MEX file built in MATLAB release not supported in current release&lt;/a&gt;.</entry>
+    <entry key="ELNKCPP_reason">C++ MEX file ''{0}'' using MATLAB Data API compiled with ''{1}''.</entry>
+    <entry key="ELNKCPP_action">For more information, see &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''ELNKCPP'')"&gt;C++ MEX file compiled with incompatible option&lt;/a&gt;.</entry>
+    <entry key="ENOEVER_reason">Custom-built ''{0}'' not supported in current release.</entry>
+    <entry key="ENOEVER_action">For more information, see &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''ENOEVER'')"&gt;Custom-built MEX file not supported in current release&lt;/a&gt;.</entry>
+    <entry key="URECOMP_reason">''{0}'' is not compiled with latest API.</entry>
+    <entry key="URECOMP_action">Recommend rebuilding with the switch -R2018a. For more information, see &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''URECOMP'')"&gt;MEX file is compiled with outdated option&lt;/a&gt;.</entry>
+    <entry key="ULATEST_reason">''{0}'' calls one or more untyped data access functions.</entry>
+    <entry key="ULATEST_action">For more information, see &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''ULATEST'')"&gt;MEX file calls an untyped data access function&lt;/a&gt;.</entry>
+    <entry key="UCOMPAT_reason">''{0}'' calls one or more deprecated functions.</entry>
+    <entry key="UCOMPAT_action">For more information, see &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''UCOMPAT'')"&gt;Mex file calls a deprecated function&lt;/a&gt;.</entry>
+    <entry key="ULEGACY_reason">''{0}'' calls one or more 32-bit functions.</entry>
+    <entry key="ULEGACY_action">For more information, see &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''ULEGACY'')"&gt;Mex file calls a 32-bit function&lt;/a&gt;.</entry>
+    <entry key="UENTRYP_reason">''{0}'' does not contain an entry point and will not run in MATLAB.</entry>
+    <entry key="UENTRYP_action">For more information, see &lt;a href="matlab: helpview([docroot ''/matlab/helptargets.map''],''UENTRYP'')"&gt;MEX file does not contain an entry point&lt;/a&gt;.</entry>
+
+  </message>
+</rsccat>
+
+<!-- LocalWords:  outdir SDK apiref mexlock env ada
+-->

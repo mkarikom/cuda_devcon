@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="isEqual">Exception in TextStringDataType::isEqual</entry>
+	<entry key="IncorrectShape">String argument must be 2D char array or Nx1 cell array.</entry>
+	<entry key="ArrayClass">String should be char or cell array datatype.</entry>
+	<entry key="InvalidCellArray">Cell arrays input to String property may only contain character matrices.</entry>	
+  </message>
+</rsccat>

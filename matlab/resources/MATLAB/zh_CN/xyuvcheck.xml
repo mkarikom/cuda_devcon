@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UVSizeMismatch">U、V 的大小必须相同。</entry>
+    <entry key="UVNot2D">U、V 必须都为 2 维数组。</entry>
+    <entry key="UVPlanar">U、V 的大小必须都为 2x2 或更大。</entry>
+    <entry key="XYMixedEmpty">X、Y 必须都为空值或非空值。</entry>
+    <entry key="XUSizeMismatch">X 的大小必须与 U 的大小或 U 的列数匹配。</entry>
+    <entry key="YUSizeMismatch">Y 的大小必须与 U 的大小或 U 的行数匹配。</entry>
+  </message>
+</rsccat>

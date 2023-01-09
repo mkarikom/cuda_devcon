@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="TooManyInputs">Too many input arguments.</entry>
+    <entry key="TooFewInputs">Not enough input arguments.</entry>
+    <entry key="NonDoubleInput">The datevecmx function only accepts double arrays.</entry>
+    <entry key="IncorrectNumberofOutputs">Expect one, three or six output arguments.</entry>
+    <entry key="InvalidInput">Date number out of range.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ReferenceDoesNotExist">MATLAB 对象的引用不存在</entry>
+    <entry key="NumIndexEqualToNumDim">索引数应等于维数</entry>
+    <entry key="RecurListNotSupported">递归列表不能传递到 MATLAB</entry>
+    <entry key="InvalidStructField">MATLAB 结构体的字段无效</entry>
+    <entry key="RecurDictNotSupported">递归字典无法传递到 MATLAB</entry>
+    <entry key="NoneNotSupported">None 无法传递到 MATLAB</entry>
+    <entry key="MVNotSupported">memoryview 无法传递到 MATLAB</entry>
+    <entry key="UnsupportedPythonData">不受支持的 Python 数据类型: {0}</entry>
+    <entry key="CharArrayFromMatlab">MATLAB 只能返回 1xN 和 Nx1 字符数组</entry>
+    <entry key="CellArrayFromMatlab">MATLAB 只能返回 1xN 和 Nx1 元胞数组</entry>
+    <entry key="StringArrayFromMatlab">MATLAB 只能返回 1xN 和 Nx1 字符串数组</entry>
+    <entry key="UnsupportedMatlabType">从 MATLAB 返回的数据类型不受支持</entry>
+    <entry key="StructArrayFromMatlab">MATLAB 只能返回标量结构体</entry>
+    <entry key="Int64ArrayNotSupported">无法在此平台上返回 MATLAB int64 类型的数组</entry>
+    <entry key="Uint64ArrayNotSupported">无法在此平台上返回 MATLAB uint64 类型的数组</entry>
+    <entry key="CompareObjectOnly">只能在 'matlab.object' 类型的对象之间进行比较</entry>
+    <entry key="ObjectCantLessThan">'matlab.object' 不支持 '小于' 比较</entry>
+    <entry key="ObjectCantLessEqual">'matlab.object' 不支持 '小于或等于' 比较</entry>
+    <entry key="ObjectCantGreaterThan">'matlab.object' 不支持 '大于' 比较</entry>
+    <entry key="ObjectCantGreaterEqual">'matlab.object' 不支持 '大于或等于' 比较</entry>
+    <entry key="IndexExceedsDim">索引超出矩阵维度</entry>
+    <entry key="AttributeNotRetrieved">无法检索属性</entry>
+    <entry key="MethodNotCalled">无法调用方法</entry>
+  </message>
+</rsccat>

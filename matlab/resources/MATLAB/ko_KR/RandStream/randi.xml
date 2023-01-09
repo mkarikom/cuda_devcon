@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="inputType">입력값은 숫자형이어야 합니다.</entry>
+    <entry key="invalidOutputType">{0} 클래스의 출력값은 지원되지 않습니다.</entry>
+    <entry key="invalidLimits">첫 번째 입력값은 양의 정수 스칼라 값 IMAX이거나 또는 두 정수 값 [IMIN IMAX]여야 합니다(IMIN은 IMAX보다 작거나 같음).</entry>
+    <entry key="LimitsTooLarge">IMIN과 IMAX는 2^53보다 작아야 합니다.</entry>
+    <entry key="RangeTooLarge">IMIN과 IMAX의 차이는 2^53-1보다 작아야 합니다.</entry>
+  </message>
+</rsccat>

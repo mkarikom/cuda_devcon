@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="BadProperty1">Invalid property</entry>
+    <entry key="BadProperty2">Invalid property</entry>
+    <entry key="BadProperty3">Invalid property</entry>
+  <!--Resource entries for src/hgbuiltins-->
+    <entry key="BadProperty">Invalid property.</entry>
+    <entry key="InvalidObject">Invalid object.</entry>
+    <entry key="AmbiguousProperty">Ambiguous property.</entry>
+  </message>
+</rsccat>

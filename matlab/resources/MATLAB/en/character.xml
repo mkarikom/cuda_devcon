@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidInput">Inputs must be character arrays.</entry>
+    <entry key="CellsMustContainChars">Cell elements must be character arrays.</entry>
+    <entry key="MustBeScalar">Function_handle argument must be scalar.</entry>
+    <entry key="MustBeCell">Input must be a cell array of character vectors.</entry>
+  </message>
+</rsccat>

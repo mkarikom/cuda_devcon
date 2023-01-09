@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LabelDistance">距离 = {0} 英里</entry>
+    <entry key="TitleWorldTraveler">环球旅行家</entry>
+    <entry key="LabelOrigin">出发地</entry>
+    <entry key="LabelFly">飞行</entry>
+    <entry key="LabelDestination">目的地</entry>
+    <entry key="LabelWHemisphere">西半球</entry>
+    <entry key="LabelEHemisphere">东半球</entry>
+    <entry key="fig_TravelTheTravelingSalesmanProblem">旅行: 旅行商问题</entry>
+    <entry key="LabelCities">城市</entry>
+    <entry key="LabelPressStartToSeeTravelingSalesmanDemo">按“开始”按钮可查看旅行商演示</entry>
+  </message>
+</rsccat>

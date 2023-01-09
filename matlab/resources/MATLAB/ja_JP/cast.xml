@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnsupportedClass">変換がサポートされないデータ型: ''{0}''。</entry>
+    <entry key="invalidString">2 番目の入力に無効な文字ベクトルまたは string があります。</entry>
+    <entry key="unsupportedNdSparse">n 次元配列をスパース配列に変換することはできません。</entry>
+    <entry key="invalidSyntax">NEWCLASS の入力が文字ベクトルではありません。</entry>
+  </message>
+</rsccat>

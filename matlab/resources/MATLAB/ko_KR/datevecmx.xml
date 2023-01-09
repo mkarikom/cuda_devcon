@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManyInputs">입력 인수가 너무 많습니다.</entry>
+    <entry key="TooFewInputs">입력 인수가 부족합니다.</entry>
+    <entry key="NonDoubleInput">datevecmx 함수는 double형 배열만 허용합니다.</entry>
+    <entry key="IncorrectNumberofOutputs">1개, 3개 또는 6개의 출력 인수가 있어야 합니다.</entry>
+    <entry key="InvalidInput">날짜 숫자가 범위를 벗어났습니다.</entry>
+  </message>
+</rsccat>

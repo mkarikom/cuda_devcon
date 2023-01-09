@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- Copyright 2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ClassMismatch">Input graphs must both be undirected or both be directed.</entry>
+    <entry key="KeyWithoutValue">No value given for ''{0}'' parameter.</entry>
+    <entry key="ParseFlags">Parameter name must be ''NodeVariables'' or ''EdgeVariables''.</entry>
+    <entry key="ParseVar">''{0}'' value must be a string vector, a character vector, or a cell array of character vectors.</entry>
+
+<!-- Additional error messages after re-write -->
+    <entry key="NodeVarTypeMismatch">Datatype mismatch in node variable {0}, datatype is ''{1}'' in first graph, but ''{2}'' in second graph.</entry>
+    <entry key="EdgeVarTypeMismatch">Datatype mismatch in edge variable {0}, datatype is ''{1}'' in first graph, but ''{2}'' in second graph.</entry>
+    <entry key="NodeVarNotInFirstGraph">No node variable {0} in first graph.</entry>
+    <entry key="NodeVarNotInSecondGraph">No node variable {0} in second graph.</entry>
+    <entry key="EdgeVarNotInFirstGraph">No edge variable {0} in first graph.</entry>
+    <entry key="EdgeVarNotInSecondGraph">No edge variable {0} in second graph.</entry>
+<!-- Four messages here for the sake of translation. Would the following be useful to add?
+"No node variable {0} in either the first or the second graph."-->
+
+    <entry key="NodeVarSizeMismatch">Size mismatch in node variable {0}. Node variables in input graphs must have the same size.</entry>
+    <entry key="EdgeVarSizeMismatch">Size mismatch in edge variable {0}. Edge variables in input graphs must have the same size.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LoadError">无法加载程序集 ''{0}''。</entry>
+    <entry key="EmptyAssemblyName">程序集名称不能为空。</entry>
+    <entry key="InvalidAssemblyName">NET.addAssembly 的输入必须为字符向量或 ''System.Reflection.AssemblyName'' 类的实例。</entry>
+    <entry key="nameConflict">已经从位置 ''{1}'' 添加了程序集 ''{0}''。</entry>
+    <entry key="GACLoadError">在 .NET 全局程序集缓存(GAC)中找不到 ''{0}''。</entry>
+  </message>
+</rsccat>

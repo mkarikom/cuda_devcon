@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidNumberOfArguments">Incorrect number of input and/or output arguments</entry>
+    <entry key="InvalidDataType">The colamdmex function only accepts double or logical arrays.</entry>
+    <entry key="InvalidInput2">Input matrix must be 2-dimensional.</entry>
+    <entry key="tooManyRows">Sparse matrix has too many rows for COLAMD</entry>
+    <entry key="tooManyCols">Sparse matrix has too many columns for COLAMD</entry>
+    <entry key="tooManyNzs">Sparse matrix has too many nonzero elements for COLAMD</entry>
+    <entry key="negRecommendedVal">colamd_l_recommended() returned a negative value</entry>
+    <entry key="InvalidInput3">colamd error!</entry>
+  </message>
+</rsccat>

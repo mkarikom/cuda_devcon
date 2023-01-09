@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="BadGridErrId" context="error">网格数组必须具有 NDGRID 结构体。</entry>
+    <entry key="ComplexDataPointErrId" context="error">输入坐标必须为实数。</entry>
+    <entry key="CompVecValueMismatchErrId" context="error">对应于网格维度 {0,number,integer} 的采样点向量必须包含 {1,number,integer} 个元素。</entry>
+    <entry key="DegenerateGridErrId" context="error">插值要求每个网格维度至少有两个采样点。</entry>
+    <entry key="GridOfMixedDataTypesErrId" context="error">所有输入坐标必须具有相同的类型。输入坐标必须为双精度或单精度类型。</entry>
+    <entry key="MixedGridCoordSizeErrId" context="error">GridVectors 必须定义大小与 Values 数组兼容的网格。</entry>
+    <entry key="NdgridNotMeshgrid2DErrId" context="error">\n数据为 MESHGRID 格式，需要使用 NDGRID 格式。\n请按如下所示转换数据:\n X = X'; Y = Y'; V = V'; F = griddedInterpolant(X,Y,V)\n</entry>
+    <entry key="NdgridNotMeshgrid3DErrId" context="error">\n数据为 MESHGRID 格式，需要使用 NDGRID 格式。\n请按如下所示转换数据:\n P = [2 1 3];\n X = permute(X, P);\n Y = permute(Y, P);\n Z = permute(Z, P);\n V = permute(V, P);\n F = griddedInterpolant(X,Y,Z,V)\n</entry>
+    <entry key="NonCellCompVecErrId" context="error">采样点必须为紧凑网格向量的元胞。</entry>
+    <entry key="NonFiniteInputPtsErrId" context="error">采样点必须为有限值。</entry>
+    <entry key="NonFloatInpPtsErrId" context="error">输入坐标必须为双精度或单精度类型。</entry>
+    <entry key="NonMonotonicCompVecsErrId" context="error">采样点必须按升序排序。</entry>
+    <entry key="NonUniqueCompVecsPtsErrId" context="error">采样点必须唯一。</entry>
+    <entry key="NumCoordsGridNdimsMismatchErrId" context="error">插值处于无效状态。GridVectors 必须定义大小与 Values 数组兼容的网格。</entry>
+    <entry key="SparseDataPtErrId" context="error">不支持稀疏输入坐标。</entry>
+    <entry key="NonFloatValuesErrId" context="error">采样值必须为双精度或单精度类型。</entry>
+    <entry key="SampleValuesNotSecond" context="error">第二个输入必须指定采样值。</entry>
+    <entry key="SparseInterpValuesErrId" context="error">不支持稀疏采样值。</entry>
+    <entry key="BadArgInterpEvalErrId" context="error">查询点应为具有 {0,number,integer} 列的矩阵。</entry>
+    <entry key="InputMixSizeErrId" context="error">查询坐标输入数组的大小必须相同。</entry>
+    <entry key="NonVecCompVecErrId" context="error">当使用元胞以紧凑格式指定网格时，元胞必须只包含向量。</entry>
+    <entry key="QueryOfMixedDataTypesErrId" context="error">所有查询坐标必须具有相同的类型。查询坐标必须为双精度或单精度类型。</entry>
+    <entry key="ExtrapolationMethodInvalid" context="error">外插方法必须为 ''linear''、''nearest''、''next''、''previous''、''pchip''、''cubic''、''spline''、''makima'' 或 ''none''。</entry>
+    <entry key="BadInterpTypeErrId" context="error">内插方法必须为 ''linear''、''nearest''、''next''、''previous''、''pchip''、''cubic''、''spline'' 或 ''makima''。</entry>
+    <entry key="CubicNeedsThreeWarnId" context="warning">''cubic'' 方法要求每个维度至少有 3 个点。\n由于不满足此条件，将恢复为默认的 ''linear'' 方法。</entry>
+    <entry key="CubicUniformOnlyWarnId" context="warning">''cubic'' 方法要求网格具有一致的间距。\n由于不满足此条件，该方法将会从 ''cubic'' 切换到 ''spline''。</entry>
+    <entry key="MeshgridEval2DWarnId" context="warning">查询数据为 MESHGRID 格式，NDGRID 格式会产生更好的性能。\n请按如下所示转换查询数据(Xq, Yq):\n F = griddedInterpolant(. . .);\n Xq = Xq'; Yq = Yq';\n Vq = F(Xq,Yq); \n</entry>
+    <entry key="MeshgridEval3DWarnId" context="warning">查询数据为 MESHGRID 格式，NDGRID 格式会产生更好的性能。\n请按如下所示转换查询数据(Xq, Yq, Zq):\n F = griddedInterpolant(. . .);\n P = [2 1 3];\n Xq = permute(Xq, P);\n Yq = permute(Yq, P);\n Zq = permute(Zq, P);\n Vq = F(Xq,Yq,Zq);\n</entry>
+    <entry key="Next1DonlyWarnId" context="warning">只有一维支持 ''next'' 方法。\n由于不满足此条件，将恢复为默认的 ''linear'' 方法。</entry>
+    <entry key="Pchip1DonlyWarnId" context="warning">只有一维支持 ''pchip'' 方法。\n由于不满足此条件，将恢复为默认的 ''linear'' 方法。</entry>
+    <entry key="Previous1DonlyWarnId" context="warning">只有一维支持 ''previous'' 方法。\n由于不满足此条件，将恢复为默认的 ''linear'' 方法。</entry>
+  </message>
+</rsccat>

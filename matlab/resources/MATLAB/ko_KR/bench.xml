@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noDataFileFound">비교 데이터가 있는 bench.dat 데이터 파일을 사용할 수 없습니다.</entry>
+    <entry key="display10BestTrials">BENCH는 비교 그래프와 Figure 창에 있는 결과 테이블이 넘치는 것을 막기 위해 그래프 및 테이블에 가장 최적의 시간 10개만 표시합니다. 하지만, BENCH 출력 인수에는 {0,number,integer}번 시도한 모든 데이터가 포함됩니다.</entry>
+    <entry key="LabelComputerType">컴퓨터 유형</entry>
+    <entry key="ThisMachine">이 컴퓨터 {0}</entry>
+    <entry key="YourMachine">이 컴퓨터(MATLAB {0} 실행 중)</entry>
+    <entry key="ThisMachineRunN">이 컴퓨터({0} 실행) {1}</entry>
+    <entry key="YourMachineRunN">이 컴퓨터(MATLAB {0} 실행 중), {1} 실행</entry>
+    <entry key="LUOfMatrix">{0,number,integer}×{1,number,integer} 행렬로 구성된 LU</entry>
+    <entry key="FFTOfVector">요소를 {0,number,integer}개 가진 벡터로 구성된 FFT</entry>
+    <entry key="SolutionFromTo">t=0에서 t={0}까지의 해</entry>
+    <entry key="SolvingSparseLinearSystem">{0,number,integer}×{1,number,integer} 희소 선형 시스템의 해를 구하는 중</entry>
+    <entry key="sprintf_PlaceTheCursorNearAComputerNameForSystemAndVersionDetai">컴퓨터 이름 근처에 커서를 위치시키면 각 시스템과 버전에 대한 세부 정보를 볼 수 있습니다.\n위에 표시된 데이터를 사용하여 서로 다른 MATLAB 버전을 비교하거나, 혹은 업데이트된 시간 측정 데이터\n파일을 다운로드하려면 MATLAB 프롬프트에 ''''help bench''''를 입력하여 bench 함수 도움말을 참조하십시오.</entry>
+    <entry key="BernsteinPolynomialGraph">번스타인 다항식(Bernstein polynomial) 그래프</entry>
+    <entry key="AnimatedLshapedMembrane">애니메이션된 L 모양의 멤브레인</entry>
+    <entry key="MATLABBenchmark">MATLAB 벤치마크</entry>
+    <entry key="MATLABBenchmarkTimes">MATLAB 벤치마크(시간: 초)</entry>
+    <entry key="RelativeSpeed">상대 속도</entry>
+    <entry key="LissajousPlots">리사주 플롯(Lissajous Plot)</entry>
+    <entry key="LU">LU</entry>
+    <entry key="FFT">FFT</entry>
+    <entry key="ODE">ODE</entry>
+    <entry key="Sparse">Sparse</entry>
+    <entry key="twoD">2-D</entry>
+    <entry key="threeD">3-D</entry>
+  </message>
+</rsccat>

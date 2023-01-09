@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DimArgRequired">对于代码生成，请将数组维度指定为第二个输入参数。如果分类数组是行向量，则使用语法 countcats(C,2)。如果它是列向量，则使用 countcats(C,1)。</entry>
+  </message>
+</rsccat>

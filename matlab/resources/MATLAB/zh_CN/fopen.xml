@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">第一个输入项必须为文件名或文件标识符。</entry>
+    <entry key="NotScalarIntValued">文件标识符必须为双精度类型的整数值标量。</entry>
+    <entry key="EncodingString">编码无效。</entry>
+    <entry key="IncorrectFileMode">fopen 的文件模式不能包含 r、w、a、+、b、A、W 或 t 之外的模式。</entry>
+    <entry key="ConflictingExclusiveFileModes">fopen 的文件模式必须恰好包含模式 ''r''、''w'' 或 ''a'' 之一。</entry>
+    <entry key="ConflictingExclusiveFileModeModifiers">fopen 的文件模式只能包含修饰符 ''b'' 或 ''t'' 之一。</entry>
+    <entry key="InvalidCharacter">文件名包含未包括在文件系统编码中的字符。\n某些操作可能无法按预期运行。</entry>
+    <entry key="InvalidFileLocation">找不到文件。确保文件存在且路径有效。</entry>
+    <entry key="SizeTooLage">Data size too large for reading. The maximum allowed size is 2^29 bytes.</entry>
+    <entry key="HDFSWriteSeekNotSupported">在写入到 HDFS 位置时，不支持 fseek 和 frewind 操作。</entry>
+  </message>
+</rsccat>

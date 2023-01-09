@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AppDesigner">App Designer</entry>
+    <entry key="StartPage">App Designer スタート ページ</entry>
+    <entry key="AppDesignerStartFailed">内部エラーのため App Designer を起動できません。\n\n {0}</entry>
+    <entry key="InvalidFileExtension">''{0}'' のファイル タイプは MATLAB アプリ (*.mlapp) でなければなりません。</entry>
+    <entry key="InvalidFileExtensionCase">''{0}'' のファイル タイプは MATLAB アプリ (*.mlapp) でなければなりません。拡張子では大文字と小文字が区別されます。</entry>
+    <entry key="InvalidGeneralFileExtension">ファイル ''{0}'' の拡張子は {1} でなければなりません</entry>
+    <entry key="InvalidExportFileExtension">アプリは MATLAB コード ファイル (*.m) にエクスポートされなければなりません。</entry>
+    <entry key="InvalidFileName">ファイル ''{0}'' が見つかりません。</entry>
+    <entry key="InvalidFilePath">ファイル パスが無効です。</entry>
+    <entry key="InvalidInput">入力引数はファイルの絶対パスまたは部分パス、あるいはファイル名でなければなりません。</entry>
+    <entry key="NotWritableLocation">{0} の書き込みエラー。\nディレクトリが読み取り専用でないか、または削除されていないか確認してください。</entry>
+    <entry key="ReadOnlyFile">''{0}'' の書き込みエラー。\nファイルは読み取り専用です。</entry>
+    <entry key="SaveFailedMATLABCode">コードを ''{0}'' に保存中にエラーが発生しました。</entry>
+    <entry key="SaveFailedAppData">コンポーネントとコード データを ''{0}'' に保存中にエラーが発生しました。</entry>
+    <entry key="SaveFailedAppMetaData">メタデータを ''{0}'' に保存中にエラーが発生しました。</entry>
+    <entry key="SaveFailedAppScreenShot">スクリーン ショットを ''{0}'' に保存中にエラーが発生しました。</entry>
+    <entry key="SaveFailed">''{0}'' を保存中にエラーが発生しました。</entry>
+    <entry key="LoadFailed">''{0}'' の読み込みエラー。</entry>
+    <entry key="RunFailedFileNotFound">''{0}'' の実行エラー。\n{1} が見つかりません。</entry>
+    <entry key="TransferOfDataFailed">データが適切に ''{0}'' から取得されませんでした。</entry>
+    <entry key="NotReadableLocation">{0} は読み取り可能な場所ではありません。</entry>
+    <entry key="InvalidFolder">フォルダー {0} で問題が発生しました: {1}。</entry>
+    <entry key="FileNameFailsIsVarName">ファイル名 ''{0}'' は英字で始まり、英字、数字またはアンダースコアのみから成り、63 文字未満でなければなりません。</entry>
+    <entry key="FileNameFailsIsKeyword">MATLAB のキーワードは名前に指定できません。ファイルの名前を変更してから開いてください。</entry>
+    <entry key="BrowserNotFound">Web ブラウザーで {0} を開けません。</entry>
+    <entry key="UnsupportedBrowser">App Designer はこのブラウザーでサポートされていません。Google Chrome を使用してください。</entry>
+    <entry key="CompileAppError">アプリのコンパイル エラー</entry>
+    <entry key="CompileAppFolderNotWritable">コンパイラ プロジェクト ファイル ''{0}'' を作成できません。</entry>
+    <entry key="CompileAppFailed">''{0}'' をコンパイルできません。\n不明のコンパイラ エラーです。</entry>
+    <entry key="CompileAppCompileFileNotFound">コンパイラ プロジェクト ファイル ''{0}'' が見つかりません。</entry>
+    <entry key="PackageAppFolderNotWritable">''{0}'' をパッケージ化できません。\nフォルダーに書き込み権限がありません。</entry>
+    <entry key="PackageAppFailed">''{0}'' をパッケージ化できません。\n不明なパッケージ化エラーです。</entry>
+    <entry key="PackageAppPackageFileNotFound">''{0}'' をパッケージ化できません。\nパッケージ ファイルが見つかりませんでした。</entry>
+    <entry key="UnknownComponentType">タイプ ''{0}'' のコンポーネントにコールバックは作成できません。不明なコンポーネント タイプです。</entry>
+    <entry key="UnknownCallbackProperty">タイプ ''{0}'' のコンポーネントにコールバックは作成できません。''{1}'' は不明なプロパティです。</entry>
+    <entry key="IncompatibleAppVersion">このアプリには、このリリースでサポートされていない機能が含まれています。これは、MATLAB バージョン {0} 以降でのみ編集できます。</entry>
+    <entry key="CovertAppFailedIncompatibleAppVersion">このアプリには、{0} でサポートされておらず、変換できない機能が含まれています。これは、MATLAB バージョン {1} 以降でのみ編集できます。</entry>
+    <entry key="SetInvalidSetting">設定 {0}.{1} は存在しないため、設定できません。</entry>
+    <entry key="SameNameAppRunning">''{0}'' という名前のアプリが既に実行中です。同じ名前をもつ別のアプリを実行する前に、このアプリを閉じてください。</entry>
+    <entry key="AppNameShadowedByCWD">現在の作業フォルダーではこのアプリより {0} が優先されるため、\nApp Designer はこのアプリを実行できません。\n\nアプリを実行するには、MATLAB の現在のフォルダーを変更しなければなりません。</entry>
+    <entry key="TooFewAppArgumentsError">指定された入力引数を使用して実行できません。</entry>
+    <entry key="MissingFile">元のアプリ ''{0}'' が見つかりません。ファイルを移動した場合は、アプリを閉じ、新しい場所から再度アプリを開いてください。</entry>
+    <entry key="SaveObjWarning">App Designer のアプリ オブジェクトを保存できません。matlab.apps.AppBase オブジェクトの保存はサポートされていません。</entry>
+    <entry key="LoadObjWarning">App Designer のアプリ オブジェクトを読み込めません。matlab.apps.AppBase オブジェクトの読み込みはサポートされていません。</entry>
+    <entry key="fileNotFoundOnMatlabPathWithSuggestion">アプリの編集時およびアプリの実行時には、{0} ファイルが MATLAB パス上になければなりません。App Designer でファイルを使用する前に、''addpath'' コマンドを使用してファイルをパスに追加してください。</entry>
+  </message>
+</rsccat>

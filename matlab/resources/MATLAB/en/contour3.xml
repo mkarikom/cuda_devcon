@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="EmptyErrorOutputArgument">The error argument from {0} has been set to the empty matrix.  This will become an error in a future release.</entry>
+    <entry key="DeprecatedErrorOutputArgument">The error output argument from {0} is deprecated. This will no longer be supported in a future release.</entry>
+    <entry key="EmptyInput">Input matrix is empty</entry>
+  </message>
+</rsccat>

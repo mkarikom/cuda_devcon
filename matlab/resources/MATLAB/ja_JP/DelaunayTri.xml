@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NastyDuplicates">重複するデータ点が検出され、削除されました。\n点のインデックスが重複しているため無効となり、制約は適用されませんでした。</entry>
+    <entry key="featureEdgesNotSupported">DelaunayTri は、featureEdges メソッドをサポートしていません。</entry>
+  </message>
+</rsccat>

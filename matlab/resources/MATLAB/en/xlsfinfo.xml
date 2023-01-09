@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="Nargin">Filename must be specified.</entry>
+    <entry key="InputClass" note="stringDatatypeUpdate">Filename must be a character vector or string scalar.</entry>
+    <entry key="FileName">Filename must not be empty.</entry>
+    <entry key="UnreadableExcelFile">Unreadable Excel file:</entry>
+  <!--Resource entries for toolbox/matlab/iofun-->
+  <!--Resource entries for toolbox/matlab-->
+    <entry key="ActiveX">Could not start Excel server. See documentation for resulting limitations.</entry>
+  <entry key="noJVM">xlsfinfo requires Java to load this type of Excel file.</entry>
+  </message>
+</rsccat>

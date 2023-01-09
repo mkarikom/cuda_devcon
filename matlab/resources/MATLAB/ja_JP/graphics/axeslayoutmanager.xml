@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidObject">レイアウトに追加されるオブジェクトは、レイアウトされることをサポートしていなければなりません。</entry>
+    <entry key="DuplicateEntry">このオブジェクトは、既にレイアウトに追加されています。</entry>
+    <entry key="InvalidLocation">位置は、''north''、''south''、''east''、または ''west'' のいずれかでなければなりません。</entry>
+    <entry key="InvalidList">リスト入力は ''inner'' か ''outer'' のいずれかでなければなりません。</entry>
+    <entry key="InconsistentState">内部状態に整合性がないため、座標軸のレイアウトを実行できません。</entry>
+  </message>
+</rsccat>

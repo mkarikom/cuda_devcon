@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PolygonVecDef">多角形はベクトル (XV, YV) で定義しなければなりません。</entry>
+    <entry key="ModelingWorldLower">INPOLYGON の結果は信頼できない可能性があります。多角形のサイズは、許容できる精度で扱うことができる範囲の下限に近づいています。</entry>
+    <entry key="ModelingWorldUpper">INPOLYGON の結果は信頼できない可能性があります。多角形のサイズは、許容できる精度で扱うことができる範囲の上限に近づいています。</entry>
+    <entry key="InvalidLoopDef">NaN で区切られたエッジ ループの定義が、x と y で一致しません。</entry>
+  </message>
+</rsccat>

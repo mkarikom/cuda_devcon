@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputArgs">输入参数的数目不足。有关 MATLAB 帮助，请键入 ''help'' 或 ''helpbrowser''。</entry>
+    <entry key="InvalidFirstArg">第一个参数必须为产品短名称、映射文件或完全限定的文件名。</entry>
+    <entry key="InvalidPathArg">第一个参数必须为产品短名称或完全限定的文件名。</entry>
+    <entry key="InvalidMapKey">找不到映射键的主题映射: {0}。</entry>
+    <entry key="TopicIdRequired">查找主题路径需要主题 ID。</entry>
+    <entry key="InvalidThirdParameter">第三个参数必须指定窗口类型。</entry>
+    <entry key="InvalidSecondParameter">第二个参数必须指定窗口类型。</entry>
+    <entry key="UnspecifiedPosition">未指定位置</entry>
+    <entry key="InvalidPosition">位置必须是 [left bottom width height]</entry>
+    <entry key="UnspecifiedSize">未指定位置</entry>
+    <entry key="UnspecifiedLocation">未指定位置</entry>
+    <entry key="MapFileDoesNotExist">指定的映射文件不存在:\n{0}</entry>
+    <entry key="TopicIdDoesNotExist">在 {1} 中找不到主题 ID ({0})。</entry>
+    <entry key="SizeMustBeWidthHeight">大小必须为 [width height]</entry>
+    <entry key="SizeMustBePositive">大小必须 &gt; 0</entry>
+    <entry key="LocationMustBeXY">位置必须为 [x y]</entry>
+    <entry key="LocationMustBePositive">位置必须 &gt;= 0</entry>
+    <entry key="FileCouldNotBeConverted">在您的 "帮助" 预设项中将 "文档位置" 设置为 "在 mathworks.com 网站上"。无法在 Web 上查看文件 {0}。请尝试将您的 "帮助" 位置设置为 "安装在本地" 以查看此文件。</entry>
+    <entry key="Title">“这是什么”帮助</entry>
+  </message>
+</rsccat>

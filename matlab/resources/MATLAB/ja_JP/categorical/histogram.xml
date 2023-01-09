@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AmbiguousOthers">Input data contains a category named ''{0}'', which conflicts with the use of 'ShowOthers'. Use renamecats to rename ''{0}'' to another category name.</entry>
+    <entry key="BinCountsInvalidSize">BinCounts は length(Categories) と同じ長さのベクトルでなければなりません。</entry>
+    <entry key="CategoriesInvalidSize">''Categories'' の長さと ''BinCounts'' の長さは等しくなければなりません。</entry>
+    <entry key="EmptyBinCountsManualMode">''BinCountsMode'' が ''manual'' に設定されている場合、''BinCounts'' が設定されなければなりません。</entry>
+    <entry key="InvalidCategories">CATEGORIES は、categorical ベクトル、string ベクトル、文字ベクトルの cell 配列のいずれかでなければなりません。</entry>
+    <entry key="InvalidCategoriesAssign" context="error">すべてのカテゴリ名は、string のベクトルか、または文字ベクトルの cell ベクトルを形成しなければなりません。</entry>
+    <entry key="InvalidCodes">コードはカテゴリ数と同じ長さでなければなりません。</entry>
+    <entry key="ManualDisplayOrder">''DisplayOrder'' の値は、''ascend''、''descend'' または ''data'' でなければなりません。</entry>
+    <entry key="MixedCategoriesNumDisplayBins">入力の組み合わせが無効です。カテゴリのリストと ''NumDisplayBins'' の両方ではなく、いずれか一方を指定してください。</entry>
+    <entry key="MixedDataBinCounts">X 入力が空でない場合、BinCounts は設定できません。</entry>
+    <entry key="MixedOrdinal">同じ座標軸上にある順序カテゴリカル配列のヒストグラムのカテゴリは同じでなければなりません。</entry>
+    <entry key="MixedOrdinalAssign">Data プロパティに割り当てる場合、新旧の順序配列 Data は同じ順序で同じカテゴリを含んでいなければなりません。</entry>
+    <entry key="MixedOrdinalNonOrdinal">順序 categorical 配列と非順序 categorical 配列のヒストグラムは、同じ座標軸上にプロットできません。</entry>
+    <entry key="MixedOrdinalNonOrdinalAssign">Data プロパティに割り当てる場合、新旧の Data は両方とも順序配列であるか、両方とも非順序配列でなければなりません</entry>
+    <entry key="MixedOrientation">異なる向きのカテゴリカル配列のヒストグラムは、同じ座標軸上にプロットできません。</entry>
+    <entry key="UnsupportedPolarCoordinates">カテゴリカル データのヒストグラムを極座標軸にプロットすることはサポートされていません。</entry>
+    <entry key="NonCategoricalX">X はカテゴリカル配列でなければなりません。</entry>
+    <entry key="NonEmptyBinCountsAutoMode">''BinCountsMode'' が ''auto'' に設定されている場合、''BinCounts'' は設定できません。</entry>
+    <entry key="NonVectorCategories">CATEGORIES はベクトルまたは空でなければなりません。</entry>
+    <entry key="NumDisplayBinsManualMode">''BinCounts'' が指定されている場合、''NumDisplayBins'' はサポートされません。</entry>
+    <entry key="NumDisplayBinsExceedsNumCategories">''NumDisplayBins'' の値は、データ内のカテゴリ数以下でなければなりません。</entry>
+    <entry key="OrdinalCategoriesMismatch">X と CATEGORIES は、両方が順序配列の場合、同じカテゴリを同じ順序で含んでいなければなりません。</entry>
+    <entry key="OrdinalMismatch">X と CATEGORIES は、両方とも順序配列であるか、両方とも非順序配列でなければなりません。</entry>
+    <entry key="OrientationMixedType">座標軸にヒストグラムでないオブジェクトがある場合、カテゴリカル データでは方向はサポートされません。</entry>
+    <entry key="OrientationYYAxes">2 本の y 軸にカテゴリカル データをもつヒストグラムでは、''Orientation'' の値の変更はサポートされていません。</entry>
+    <entry key="Others">その他</entry>
+    <entry key="RepeatedCategories">カテゴリは固有でなければなりません。</entry>
+    <entry key="ShowOthersManualMode">''BinCounts'' が指定されている場合、''Others'' バーの表示はサポートされません。</entry>
+    <entry key="UnrecognizedCategories">CATEGORIES には、X に存在しないカテゴリが含まれています。</entry>
+    <entry key="UnsupportedFewerbins">fewerbins メソッドはカテゴリカル データのヒストグラムでサポートされていません。</entry>
+    <entry key="UnsupportedMorebins">morebins メソッドはカテゴリカル データのヒストグラムでサポートされていません。</entry>
+    <entry key="ShowEmptyBinsLabel">空のビンの表示切り替え</entry>
+    <entry key="NumBinsLabel">ビン数</entry>
+    <entry key="Category">カテゴリ</entry>
+    <entry key="Value">値</entry>
+  </message>
+</rsccat>

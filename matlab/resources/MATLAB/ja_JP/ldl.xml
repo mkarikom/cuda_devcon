@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonRealDiag">行列は実数の対角要素をもたなければなりません。</entry>
+    <entry key="inputMustBe2D">配列は 2 次元でなければなりません。</entry>
+    <entry key="inputType">データ型が無効です。最初の引数は double または single でなければなりません。</entry>
+    <entry key="tooManyOutputs">出力引数が多すぎます。入力行列が密である場合、指定する出力引数は最大で 3 つにしてください。</entry>
+    <entry key="tooFewOutputs">出力引数が不足しています。入力行列がスパースである場合は、少なくとも 3 つの出力引数を指定してください。</entry>
+    <entry key="complexSparseLDLnotAvailable">複素数のスパース入力行列はサポートされていません。</entry>
+    <entry key="invalidPivotTol">ピボット許容誤差は、0 と 0.5 の間 (上下限を含む) の実数で double のスカラーでなければなりません。</entry>
+    <entry key="noPivotTolDense">ピボット許容誤差は、スパース行列の場合にのみサポートされます。</entry>
+  </message>
+</rsccat>

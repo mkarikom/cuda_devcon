@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AddClasspath">{0}을(를) 사용하려면 &lt;a href="matlab:javaaddpath(''{1}'')"&gt;javaaddpath(''{2}'')&lt;/a&gt;을(를) 실행해야 합니다.</entry>
+    <entry key="AddPath">{0}을(를) 사용하려면 &lt;a href="matlab:addpath(''{1}'')"&gt;addpath(''{2}'')&lt;/a&gt;을(를) 실행해야 합니다.</entry>
+    <entry key="AnotherJar">{0}을(를) 사용하려면 Java 클래스 경로에 {1}이(가) 있어야 하는데 현재 클래스 경로에는 생성된 코드의 다른 버전을 포함하는 {2}이(가) 있습니다.</entry>
+    <entry key="ArgMustBeString">{0,number,integer}번째 인수는 string형이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="BadCertificateFile">인증서 파일({0})에 유효한 인증서가 포함되어 있지 않습니다. 파일이 PEM 형식인지 확인하십시오.</entry>
+    <entry key="BadMediaType">미디어 형식 ''{0}''에 유효하지 않은 문자나 구문이 들어 있습니다. ''type/subtype'' 형식이어야 합니다.</entry>
+    <entry key="BadMediaTypeParameter">미디어 형식 파라미터 ''{0}''에 유효하지 않은 문자나 구문이 들어 있습니다. ''name=value'' 형식이어야 합니다.</entry>
+    <entry key="BadSilentOption">파라미터 3은 (존재하는 경우) 'silent'여야 합니다.</entry>
+    <entry key="BadXml">WSDL 구문 예외임: {0}</entry>
+    <entry key="BasicAuthenticationFailed">URL ''{0}''의 서버에서 인증 오류가 발생했습니다. {1} 인증이 지원되지 않거나 제공된 인증 파라미터 {2}과(와) {3}이(가) 잘못되었습니다.</entry>
+    <entry key="BytesOfData">&lt;&lt; {0}바이트의 데이터 &gt;&gt;</entry>
+    <entry key="CalDurationSigns">calendarDuration형의 속성에는 충돌하는 부호가 없어야 함: {0}</entry>
+    <entry key="CannotAccessWSDL">{0}의 WSDL에 액세스할 수 없습니다.\n{1}</entry>
+    <entry key="CannotConvertValueToString">파라미터 ''{0}''의 값은 문자열로 변환할 수 없습니다.</entry>
+    <entry key="CannotFindClass">Java 함수 {0}을(를) 찾을 수 없습니다.  'clear java'를 실행하고 다시 시도하십시오.</entry>
+    <entry key="CertificateFailedVerification">서버 인증서 검증에 실패했습니다. 인증서의 도메인 이름 "{0}"이(가) 호스트 "{1}"의 도메인 이름과 일치하지 않습니다.</entry>
+    <entry key="CertificateFileNotFound">인증서 파일({0})을 찾을 수 없거나, 열어서 읽을 수 없습니다. options.CertificateFilename 값을 확인하십시오.</entry>
+    <entry key="ClassOnWrongPath">{1}을(를) 가릴 수 있는 {0}이(가) 경로에서 발견되었습니다. {2}을(를) 사용하기 전에 다른 정의를 제거하고 'clear classes'를 실행해야 합니다.</entry>
+    <entry key="ConnectionRefused">{0}에 연결하는 중 오류가 발생함: {1}</entry>
+    <entry key="ConnectionFailed">{0}에서 콘텐츠를 다운로드하는 중 오류가 발생했습니다. 네트워크 연결이 해제되었거나 프록시 설정 구성이 잘못되었습니다.</entry>
+    <entry key="CopyContentToDataStreamError">URL ''{1}''과(와)의 통신 중에 오류 "{0}"이(가) 발생했습니다.</entry>
+    <entry key="ContentTypeMismatch">{0} 값인 ''{1}''이(가) URL ''{3}''에서 가져온 ''{2}'' 콘텐츠 유형과 일치하지 않습니다. {4}을(를) ''{5}''(으)로 설정하십시오.</entry>
+    <entry key="ContentTypeReaderError">콘텐츠 읽기 프로그램에서 다음과 같은 오류 메시지가 반환됨: "{0}". URL ''{1}''에서 다운로드한 콘텐츠를 읽는 중 발생되었습니다. 함수 {2}을(를) 사용하여 콘텐츠를 파일에 저장하십시오.</entry>
+    <entry key="CouldNotDetermineToolVersion">경고: {1}이(가) {0}의 올바른 버전인지 확인할 수 없습니다.\n{2}</entry>
+    <entry key="CouldNotExecuteTool">{0} 실행 중 오류가 반환되었습니다.\n{1}</entry>
+    <entry key="CouldNotFindElement">WSDL 구문 분석 오류: 요소 ''{1}''이(가) 참조하는 요소 ''{0}''을(를) 찾을 수 없습니다.</entry>
+    <entry key="CouldNotFindTool">경로 ''{0}''이(가) {1} 폴더가 아닌 것 같습니다.</entry>
+    <entry key="CouldNotMoveToDest">다음과 같은 이유로 폴더 {0}을(를) 바꿀 수 없습니다. "{1}"  파일을 이 폴더로 복사하려고 시도합니다.</entry>
+    <entry key="CreatedX">&lt;a href="matlab:doc {0}"&gt;{1}&lt;/a&gt;이(가) 만들어졌습니다.</entry>
+    <entry key="CreatedXInY">{2}에 &lt;a href="matlab:doc {0}"&gt;{1}&lt;/a&gt;이(가) 만들어졌습니다.</entry>
+    <entry key="CreatedXForZ">{2}에 대해 &lt;a href="matlab:doc {0}"&gt;{1}&lt;/a&gt;이(가) 만들어졌습니다.</entry>
+    <entry key="CreatedXInYForZ">{3}에 대해 {2}에 &lt;a href="matlab:doc {0}"&gt;{1}&lt;/a&gt;이(가) 만들어졌습니다.</entry>
+    <entry key="CurrentFolder">현재 폴더</entry>
+    <entry key="DecodingError">{0} 콘텐츠에서 형식 오류가 발생함: "{1}"</entry>
+    <entry key="DuplicateStructFields">''FIELDS'' 파라미터가 둘 이상 지정되었습니다.</entry>
+    <entry key="FunctionToBeRemoved">createClassFromWsdl은 향후 릴리스에서 제거될 예정입니다. matlab.wsdl.createWSDLClient를 대신 사용하십시오.</entry>
+    <entry key="EmptyArg">''{0}''은(는) 비어 있지 않아야 합니다.</entry>
+    <entry key="EmptyValue">"{0}" 헤더 필드의 값이 비어 있습니다.</entry>
+    <entry key="EmptyName">값이 "{0}"인 헤더 필드의 이름이 비어 있습니다.</entry>
+    <entry key="EmptyParameter">{0}에서 오류가 발생했습니다. ''{2}'' 유형의 필수 인수 ''{1}''은(는) 비워둘 수 없습니다.</entry>
+    <entry key="EncodedCannotHaveOtherProps">AuthInfo의 ''Encoded'' 속성은 Scheme 필드가 ''Basic''인 경우에만 나타날 수 있으며, 유일한 다른 속성이어야 합니다.</entry>
+    <entry key="EnterPkgName">지원 클래스의 패키지 이름을 입력하십시오.</entry>
+    <entry key="Exception">WSDL을 처리하는 중 예외가 발생하였습니다. {0}</entry>
+    <entry key="ExpectedFormEncode">이름-값 쌍에서 {0}은(는) ''{1}''이어야 합니다. {2}을(를) ''{3}''(으)로 설정하거나 이름-값 쌍에서 단일 인코딩 문자열을 생성하십시오.</entry>
+    <entry key="ExpectedHostname">URL ''{0}''에는 호스트 이름(예: ''{1}'')이 포함되어야 합니다.</entry>
+    <entry key="ExpectedJSONMediaType">{0}은(는) ''application/json'' 또는 ''application/javascript''와 같은 JSON 미디어 형식이어야 합니다.</entry>
+    <entry key="ExpectedNonempty">{0}은(는) 비어 있지 않아야 합니다.</entry>
+    <entry key="ExpectedNonemptyHeader">HeaderFields의 첫 번째 열에는 비어 있지 않은 string형이 필요하고, 두 번째 열에는 string형이 필요합니다.</entry>
+    <entry key="ExpectedPairs">각 {0}에는 해당 {1}이(가) 제공되어야 합니다.</entry>
+    <entry key="ExpectedPostRequestMethod">{0}의 값은 ''post''여야 합니다. 함수 {1}을(를) 사용하여 웹 서비스에서 데이터를 가져오거나 {2}을(를) 값 ''post''로 설정하십시오.</entry>
+    <entry key="ExpectedProtocol">URL ''{1}''에 지정된 ''{0}'' 프로토콜이 지원되지 않습니다. 프로토콜 ''{2}'' 또는 ''{3}'' 중 하나를 사용하여 URL을 지정하십시오.</entry>
+    <entry key="ExpectedXMLMediaType">{0}은(는) ''text/xml'' 또는 ''application/xml''과 같은 XML 미디어 형식이어야 합니다.</entry>
+    <entry key="FailedToCompile">생성된 Java 코드를 컴파일하지 못했습니다.  WSDL 파일의 식별자에 특이한 문자가 있기 때문일 수 있습니다.</entry>
+    <entry key="FileExistsCantCreateFolder">같은 이름의 파일이 존재하기 때문에 폴더 ''{0}''을(를) 생성할 수 없습니다.</entry>
+    <entry key="FileNotFound">URL ''{0}''의 서버에서 이 요청과 일치하는 리소스를 찾지 못했습니다.</entry>
+    <entry key="FileProtocolNotAccepted">file:// 프로토콜은 허용되지 않습니다. 파일을 로컬로 복사한 후 해당 경로 이름을 지정하십시오.</entry>
+    <entry key="FolderNotFound">경로 ''{0}''이(가) 저장되었지만 폴더를 찾을 수 없습니다.</entry>
+    <entry key="IllegalArgType">''{0}'' 유형의 인수는 ''{1}'' 유형의 파라미터에 부적절합니다.\n{2}</entry>
+    <entry key="IllegalArgTypeNoMsg">{0}에서 오류가 발생했습니다. ''{1}'' 유형의 인수는 ''{3}'' 유형의 파라미터 ''{2}''에 부적절합니다.</entry>
+    <entry key="IllegalArgument">부적절한 인수입니다. 값은 다음 중 하나여야 합니다. {0}.</entry>
+    <entry key="IllegalCharInToken">토큰 ''{1}''에 부적절한 문자 ''{0}''이(가) 들어 있습니다.</entry>
+    <entry key="InternalErrorType">내부 오류: {1} 유형의 필드에 대해 예기치 않은 유형 {0}의 객체가 반환되었습니다.</entry>
+    <entry key="InternalErrorGeneratedFileMissing">내부 오류: 생성된 {0}, {1} 중 하나를 찾을 수 없습니다.</entry>
+    <entry key="InvalidFilename">출력 파일: ''{0}''을(를) 열어서 쓸 수 없습니다. 파일이 있지만 쓰기 권한이 없거나, 폴더에 쓰기 권한이 없을 수 있습니다.</entry>
+    <entry key="InvalidJSON">JSON 데이터를 구문 분석할 수 없음: ''{0}''.</entry>
+    <entry key="InvalidCharacterEncodingSpecified">지정한 {0}이(가) 유효하지 않음: ''{1}''. 일반적인 값은 다음과 같음: {2}</entry>
+    <entry key="JSONConversion">입력값을 JSON으로 변환할 수 없습니다.</entry>
+    <entry key="MalformedURL">URL이 유효하지 않음: ''{0}''.</entry>
+    <entry key="MissingQName">WSDL 구문 분석 오류: 메시지 파트 "{0}"에 QName이 누락됨</entry>
+    <entry key="MissingValue">''{0}'' 파라미터에 대한 값이 누락되었습니다.</entry>
+    <entry key="ncMustBeNumber">AuthInfo의 nc 속성값 ''{0}''이(가) 정수가 아님</entry>
+    <entry key="NoAnonymousTypes">''{1}''의 요소 ''{0}''이(가) 익명의 복합 형식으로 정의되었습니다. 이 형식은 지원되지 않습니다. ''{2}''에 대한 참조에서 오류가 발생할 수 있습니다. 명명된 형식을 사용하도록 스키마를 편집하십시오.</entry>
+    <entry key="NoCustomConversion">matlab.net.http.field 패키지에 사용자 지정 서브클래스가 없으므로 ''{0}'' HeaderField에 변환 메서드를 사용할 수 없습니다.</entry>
+    <entry key="NoRPCEncoded">RPC/Encoded WSDL은 지원되지 않습니다.  서비스에서 REST API를 사용하는 경우 webread를 대신 사용하십시오.</entry>
+    <entry key="NoElementType">WSDL 구문 분석 오류: 스키마에서 요소 ''{1}''의 유형 ''{0}''을(를) 찾을 수 없습니다.</entry>
+    <entry key="NoImports">WSDL 파일은 다른 WSDL 파일을 가져옵니다. 이 가져온 파일이 임의의 스키마 형식을 정의하는 경우 이러한 형식을 사용하면 오류가 발생할 수 있습니다.</entry>
+    <entry key="NoSimpleContent">복합 형식 ''{0}''에 simpleContent가 포함되어 있으므로 이 형식을 무시합니다. complexContent만 지원됩니다. 이 형식을 사용하면 나중에 오류가 발생할 수 있습니다.</entry>
+    <entry key="OperationTerminatedByUser">URL ''{0}''에 액세스하는 중에 사용자에 의해 웹 서비스 작업이 종료되었습니다.</entry>
+    <entry key="OperationTerminatedByConsumer">URL ''{0}''에 액세스하는 중에 ContentConsumer에 의해 웹 서비스 작업이 종료되었습니다.</entry>
+    <entry key="PartialFileWarning">서버가 "{0}"바이트를 반환했는데 "{1}"바이트가 반환되어야 합니다. (이유: "{2}")</entry>
+    <entry key="PathMissingFor">{0}에 대한 폴더를 지정해야 합니다.</entry>
+    <entry key="RandomError">{0}과(와) 통신하는 중 오류가 발생했습니다. 서버가 잘못된 헤더를 반환했거나 MATLAB에 메모리가 부족합니다.</entry>
+    <entry key="RequiredFieldNotSet">&lt;a href="matlab:doc {1}"&gt;{2}&lt;/a&gt;에 필수 필드 {0}이(가) 설정되지 않았습니다.</entry>
+    <entry key="SchemeMissing">AuthInfo의 구조체에는 ''Scheme'' 필드가 있어야 합니다.</entry>
+    <entry key="SimpleTypeNotXML">simpleType ''{0}''이(가) XML 내장 형식이 아닙니다. 이후에 오류가 발생할 수 있습니다.</entry>
+    <entry key="SimpleTypeRestrictionNotXML">simpleType ''{0}''에 XML 내장 형식이 아닌 제한 ''{1}''이(가) 있습니다. 이후에 오류가 발생할 수 있습니다.</entry>
+    <entry key="SSLConnectionFailure">"{0}"과(와)의 보안 연결을 설정할 수 없습니다. 이유는 "{1}"입니다. 인증서 파일({2})의 인증서가 만료되었거나, 누락되었거나 또는 유효하지 않은지 확인하십시오.</entry>
+    <entry key="SSLConnectionSystemFailure">"{0}"에 대한 보안 연결이 설정되지 않았습니다(이유: "{1}"). 시스템 인증서가 만료되었거나 누락되었거나 유효하지 않은지 확인하십시오.</entry>
+    <entry key="SSLConnectionNoFile">"{0}"과(와)의 보안 연결을 설정할 수 없습니다. 이유는 "{1}"입니다. 서버가 HTTPS 연결을 허용하지 않는 것 같습니다.</entry>
+    <entry key="StatusError">서버가 URL {2} 요청에 대한 응답으로 메시지 "{1}"과(와) 함께 상태 {0,number,integer}을(를) 반환했습니다.</entry>
+    <entry key="TempFolderNotRemoved">참고: 임시 폴더 {0}은(는) 제거할 수 없습니다.</entry>
+    <entry key="TheValueOf">쿼리 파라미터 ''{0}''의 값</entry>
+    <entry key="TheValueOfElement">쿼리 파라미터 ''{1}''에 대한 셀형 배열 값의 요소 {0,number,integer}</entry>
+    <entry key="Timeout">{1}초 후 URL ''{0}''의 연결 시간이 초과되었습니다. (이유: "{2}") 서버가 응답하지 않거나 {3}을(를) 더 큰 값으로 설정해야 할 수 있습니다.</entry>
+    <entry key="TimeoutReasonResponseHeader">응답 헤더 대기 중</entry>
+    <entry key="TimeoutReasonStoppedSending">서버가 데이터 전송을 중지함</entry>
+    <entry key="TimeoutReasonSystemLimit">시스템 TCP 연결 시간이 초과됨</entry>
+    <entry key="TimeoutSystemTCP">시스템 TCP 시간 초과</entry>
+    <entry key="TooFewArgs">인수가 너무 적습니다. ''{0}''이(가) 필요합니다.</entry>
+    <entry key="ToolUnspecified">{0}의 위치가 지정되지 않았습니다.  자세한 내용은 &lt;a href="matlab:doc matlab.wsdl.setWSDLToolPath"&gt;matlab.wsdl.setWSDLToolPath&lt;/a&gt; 항목을 참조하십시오.</entry>
+    <entry key="ToolNotFound">{1}에서 {0}을(를) 찾을 수 없습니다.  자세한 내용은 &lt;a href="matlab:doc matlab.wsdl.setWSDLToolPath"&gt;matlab.wsdl.setWSDLToolPath&lt;/a&gt; 항목을 참조하십시오.</entry>
+    <entry key="TotalCharsOfData">&lt;&lt; 총 {0}자로 된 데이터 &gt;&gt;</entry>
+    <entry key="TryDeletingDir">생성된 Java 코드를 컴파일하지 못했습니다.  {0} 폴더를 삭제하고 출력 폴더 이름을 지정하십시오.</entry>
+    <entry key="UnexpectedMediaType">미디어 형식 ''{0}''은(는) 숫자형 데이터 또는 논리형 데이터로 사용할 수 없습니다.</entry>
+    <entry key="UnexpectedSubtype">{1}에 대해 받은 Java 유형 {0}이(가) 올바르지 않습니다.</entry>
+    <entry key="UnknownHost">서버에 액세스할 수 없습니다. {0}.</entry>
+    <entry key="URLNotFound">서버에서 문서를 찾을 수 없습니다.</entry>
+    <entry key="UrlParamContainsSeparator">{0}은(는) 유효하지 않습니다. 다음을 제외한 문자가 포함되어야 합니다. {1}.</entry>
+    <entry key="VarShouldBeAType">''{0}''은(는) &lt;a href="matlab:doc {1}"&gt;{2}&lt;/a&gt;이어야 합니다.</entry>
+    <entry key="WriteError">{0}에 쓰는 중 오류가 발생함: {1}</entry>
+    <entry key="WrongToolVersion">{1}에 있는 {0}의 버전은 지원되지 않는 {2}입니다. 버전 {3}이(가) 필요합니다.</entry>
+    <entry key="WSDLError">WSDL을 처리하는 중 오류가 발생했습니다.\n{0}</entry>
+    <entry key="WSDLDeprecationWarning">''{0}''은(는) 향후 릴리스에서 제거될 예정입니다. &lt;a href="matlab:doc matlab.wsdl.createWSDLClient"&gt;matlab.wsdl.createWSDLClient&lt;/a&gt;를 대신 사용하십시오.</entry>
+    <entry key="WSDLDeprecationError">''{0}'' has been removed. Use &lt;a href="matlab:doc matlab.wsdl.createWSDLClient"&gt;matlab.wsdl.createWSDLClient&lt;/a&gt; instead.</entry>
+    <entry key="EncodingFailure">Could not convert "{0}" to encoding "{1}". The reason is: "{2}".</entry>
+    <entry key="InternalError">Internal error: {0}.</entry>
+  </message>
+</rsccat>

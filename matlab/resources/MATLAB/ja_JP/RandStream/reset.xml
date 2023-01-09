@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LegacySeedNotAllowed">シードを使って古い形式のストリームをリセットできません。</entry>
+    <entry key="SeedNotAllowed">ストリームが 1 より大きい NumStreams で作成された場合、シードを使ってストリームをリセットできません。</entry>
+    <entry key="BadSeed">SEED は、2^32 より小さい非負の整数値でなければなりません。</entry>
+  </message>
+</rsccat>

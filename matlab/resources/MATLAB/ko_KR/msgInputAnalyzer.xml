@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badMessageArgument">메시지 ID 다음에는 문자형 벡터 또는 string형 스칼라인 메시지가 와야 합니다.</entry>
+    <entry key="identifierTooLong">지정된 식별자가 최대 허용 문자 길이({0,number,integer})보다 깁니다.</entry>
+    <entry key="invalidMessageType">메시지는 문자형 벡터, string형 스칼라 또는 메시지 구조체로 지정되어야 합니다.</entry>
+    <entry key="missingMessageArgument">첫 번째 입력값이 메시지 ID일 경우 두 번째 입력값(메시지 텍스트)이 필요합니다.</entry>
+    <entry key="nonScalarInput">서식 있는 인수는 스칼라여야 합니다.</entry>
+    <entry key="unexpectedArguments">메시지 구조체 입력값 다음에는 입력 인수가 허용되지 않습니다.</entry>
+  </message>
+</rsccat>

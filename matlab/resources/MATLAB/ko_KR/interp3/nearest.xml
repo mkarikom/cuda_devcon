@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Vnot3D">V는 3차원 배열이어야 합니다.</entry>
+    <entry key="Vnot3Dnarg3">V는 3차원 배열이어야 합니다.</entry>
+    <entry key="WrongInputNum">입력 인수의 개수가 올바르지 않습니다.</entry>
+    <entry key="Vnot3Dnarg5">V는 3차원 배열이어야 합니다.</entry>
+    <entry key="Vnot3Dnarg8">V는 3차원 배열이어야 합니다.</entry>
+    <entry key="XYZLengthMismatchV">X,Y,Z 벡터의 길이는 V와 일치해야 합니다.</entry>
+    <entry key="XIYIZISizeMismatch">XI, YI 및 ZI는 같은 크기여야 합니다.</entry>
+  </message>
+</rsccat>

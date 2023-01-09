@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="errtree">Syntax error in argument: {0}</entry>
+    <entry key="mapstr" note="stringDatatypeUpdate">The second member of a map pair must be a character vector.</entry>
+    <entry key="ixpath">ixpath needs {0}</entry>
+    <entry key="badStatement">bad statement kind {0}</entry>
+    <entry key="unknownExpr">unknown expr node {0}</entry>
+  </message>
+</rsccat>

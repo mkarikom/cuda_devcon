@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidCellArray" note="stringDatatypeUpdate">PREF cell array must contain character vectors</entry>
+    <entry key="InvalidPREFinput" note="stringDatatypeUpdate">PREF must be a character vector, string array or a cell array of character vectors</entry>
+    <entry key="InvalidValueType">VALUE type must match PREF</entry>
+    <entry key="InvalidGroupInput" note="stringDatatypeUpdate">GROUP must be a character vector or a string scalar.</entry>
+  </message>
+</rsccat>

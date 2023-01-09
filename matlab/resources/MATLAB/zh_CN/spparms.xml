@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManyOutputs">输出参数太多。</entry>
+    <entry key="OptionNotString">选项参数必须为字符向量。</entry>
+    <entry key="TooManyParamsPerKeyword">必须按关键字一次查询一个参数。</entry>
+    <entry key="UnknownKeyword">未知的关键字参数 {0}。</entry>
+    <entry key="ParamsMismatchKeywords">参数和关键字的数目必须一致。</entry>
+    <entry key="InvalidNewParams">输入必须是长度为 {0,number,integer} 的数值向量。</entry>
+    <entry key="SparsfunNotAvailable">函数 sparsfun 已删除。请改用 spparms。</entry>
+    <entry key="SparseMonitorOutputLevel">稀疏监视器输出级别 {0}。\n</entry>
+    <entry key="NoSparseMonitorOutput">无稀疏监视器输出。\n</entry>
+    <entry key="MmdThreshold">mmd: threshold = {0} * mindegree + {1}，\n</entry>
+    <entry key="UsingExactDegreesInAprimeA">在 A''*A 中使用精确度，\n</entry>
+    <entry key="UsingApproximateDegreesInAprimeA">在 A''*A 中使用近似度，\n</entry>
+    <entry key="SupernodeAmalgamationEveryNStages">每 {0} 个阶段的超级节点合并，\n</entry>
+    <entry key="NoSupernodeAmalgamation">无超级节点合并，</entry>
+    <entry key="RowReductionEveryNStages">每 {0} 个阶段的行缩减，\n</entry>
+    <entry key="NoRowReductionn">无行缩减，\n</entry>
+    <entry key="WithholdRowsAtLeastNPercentDenseInColmmd">colmmd 中密度至少为 {0}% 的保留行。\n</entry>
+    <entry key="NoRowWithholdingInColmmd">colmmd 中无保留行。\n</entry>
+    <entry key="MinimumDegreeOrderingsUsedWithV4">v4 chol、lu 和 qr 在 \\ 和 / 中使用了最小度排序。\n</entry>
+    <entry key="NoAutomaticOrderingsUsedWithV4">v4 chol、lu 和 qr 在 \\ 和 / 中未使用自动排序。\n</entry>
+    <entry key="ApproximateMinimumDegreeOrderingsUsedCholmodUmfpack">CHOLMOD 和 UMFPACK 在 \\ 和 / 中使用了近似最小度排序。\n</entry>
+    <entry key="NoAutomaticOrderingsUsedWithCholmodUmfpack">CHOLMOD 和 UMFPACK 在 \\ 和 / 中未使用自动排序。\n</entry>
+    <entry key="PivotToleranceOfUsedByUMFPACK">UMFPACK 在 \\ 和 / 中使用了 {0} 的主元容差。\n</entry>
+    <entry key="BackslashUsesBandSolverIfBandDensityGT">反斜杠使用带状矩阵求解器(如果带密度 &gt; {0})\n</entry>
+    <entry key="UMFPACKUsedForLu">lu 在 \\ 和 / 中使用了 UMFPACK。\n</entry>
+    <entry key="V4AlgorithmUsedForLu">lu 在 \\ 和 / 中使用了 v4 算法。\n</entry>
+    <entry key="SymmetricPivotToleranceUsedByUMFPACK">UMFPACK 在 \\ 和 / 中使用了 {0} 的对称主元容差。\n</entry>
+    <entry key="PivotToleranceUsedByMA57">MA57 在 \\ 和 / 中使用了 {0} 的主元容差。\n</entry>
+    <entry key="MetisOrderingUsedMA57"> MA57 在 \\ 和 / 中使用了 METIS 排序。\n</entry>
+    <entry key="ApproximateMinimumDegreeOrderingUsedMA57">MA57 在 \\ 和 / 中使用了近似最小度排序。\n</entry>
+    <entry key="NoOrderingUsedMA57"> MA57 未在 \\ 和 / 中使用自动排序。\n</entry>
+    <entry key="AutomaticOrderingUsedMA57">MA57 在 \\ 和 / 中使用了自动选择的排序方法。\n</entry>
+  </message>
+</rsccat>

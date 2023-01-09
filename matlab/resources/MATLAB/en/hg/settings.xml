@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="CannotContinuePrinting">Unable to continue printing properties of object which has been deleted</entry>
+    <entry key="CannotResolveObjectType">Can''t resolve object type in default property ''{0}''</entry>
+    <entry key="CanOnlyQueryOnRoot">Factory properties can only be queried on root object</entry>
+    <entry key="InvalidPropertyFound">Invalid property found.</entry>
+    <entry key="AmbiguousPropertyFound">Ambiguous property found.</entry>
+    <entry key="InvalidDefaultPropertyFor">Invalid default property for</entry>
+  </message>
+</rsccat>

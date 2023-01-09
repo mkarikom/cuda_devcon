@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Component">{0} を親にすることはできません。</entry>
+    <entry key="UpdateFailed">更新にエラーが発生しました。</entry>
+    <entry key="MutualExclusivityViolation">{0} の相互排他性に違反しています。\n{1} は {1} をもつ {0} に対してのみ親にすることができます。</entry>
+  </message>
+</rsccat>

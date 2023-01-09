@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="LogicalScalar">条件の入力引数はスカラーの logical に変換可能でなければなりません。</entry>
+    <entry key="emptyMessageNotAllowed">条件の後にある入力引数は空にしてはいけません。</entry>
+    <entry key="failed">アサーションに失敗しました。</entry>
+  </message>
+</rsccat>

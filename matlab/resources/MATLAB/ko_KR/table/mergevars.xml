@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidNewVarName">새 변수 이름을 string형 또는 문자형 벡터로 지정하십시오.</entry>
+    <entry key="ExtractDataIncompatibleTypeError">지정한 변수는 서로 다른 데이터형을 가지므로 병합할 수 없습니다. ''MergeAsTable''을 true로 설정해 보십시오.</entry>
+    <entry key="ParamMustBeConstant">''{0}''을(를) Constant로 지정하십시오.</entry>
+  </message>
+</rsccat>

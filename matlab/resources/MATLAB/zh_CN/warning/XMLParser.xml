@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MissingAttribute">元素 ''{0}'' 必须具有 ''{1}'' 属性。</entry>
+    <entry key="ImmutableElement">发现元素 ''{0}'' 处于不可变标签之内。</entry>
+    <entry key="InvalidArgType">不支持参数类型 ''{0}''。</entry>
+    <entry key="InvalidHexEntry">在转义序列中找到无效的十六进制值: ''{0}''</entry>
+    <entry key="InvalidIdentifier">''{0}'' 不是有效的消息标识符。</entry>
+    <entry key="InvalidLine">Line 值 ''{0}'' 不为无符号整数。</entry>
+    <entry key="InvalidTimeFormat">时间不为需要的格式。</entry>
+    <entry key="InvalidWasDisabled">WasDisabled 值 ''{0}'' 不是 ''true'' 或 ''false''。</entry>
+    <entry key="NestedLog">不允许使用嵌套日志标签。</entry>
+    <entry key="NestedWarning">不允许使用嵌套警告标签。</entry>
+    <entry key="ParseError">解析 XML 时出错: {0}，位于行 {1,number,integer}、列 {2,number,integer}。</entry>
+    <entry key="UnexpectedElement">发现元素 ''{0}'' 处于警告标签之外。</entry>
+    <entry key="UnknownAttribute">元素 ''{0}'' 不支持 ''{1}'' 属性。</entry>
+    <entry key="UnknownElement">不支持元素 ''{0}''。</entry>
+    <entry key="UnmatchedEscapedCharacter">转义序列不包含匹配的转义字符(''{0}''): ''{1}''。</entry>
+  </message>
+</rsccat>

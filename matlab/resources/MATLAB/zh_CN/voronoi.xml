@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EmptyTri">三角剖分为空。</entry>
+    <entry key="NonPlanarTri">三角剖分必须由三角形组成。</entry>
+    <entry key="InputSizeMismatch">X 和 Y 的大小必须相同。</entry>
+    <entry key="HigherDimArray">X、Y 不能是维数大于 2 的数组。</entry>
+    <entry key="DeprecatedOptions">VORONOI 不再需要特定于 Qhull 的选项。\n请在调用 VORONOI 时删除这些选项。</entry>
+  </message>
+</rsccat>

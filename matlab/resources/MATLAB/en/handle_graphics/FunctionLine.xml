@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="IncorrectFunctionInput">First argument must be cell array holding one or two functions.</entry>
+    <entry key="TooManyVariables">Too many variables.</entry>
+    <entry key='Implicit'>{0} cannot be set to an implicit function.</entry>
+    <entry key="MeshDensityLabel">Number of evaluation points</entry>
+    <entry key="ShowPolesLabel">Display asymptotes at poles</entry>    
+  </message>
+</rsccat>

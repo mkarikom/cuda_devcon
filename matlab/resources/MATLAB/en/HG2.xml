@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidProjectionMatrix">Failed to get the Camera''s projection matrix</entry>
+    <entry key="getPositionFailed">Failed in text getPosition.</entry>
+    <entry key="TranfromPointsFailed">Failed in TransformPoints</entry>
+    <entry key="InvalidScale">Scale factors must be positive</entry>
+    <entry key="InvalidXYZData">Invalid {0} array, Faces and Vertices not updated</entry>
+    <entry key="InvalidFaceVertexData">Invalid Face or Vertex data array, {0} not updated</entry>
+    <!--Resource entries for src/osgserver-->
+    <entry key="InvalidOSGWarningLevel">Supported levels are: always, fatal, warn, notice, info, debug_info, debug_fp</entry>
+    <entry key="InvalidMarkerShaderOpenGLVersionLimitedValue">Supported values are 0 and 1</entry>
+  </message>
+</rsccat>

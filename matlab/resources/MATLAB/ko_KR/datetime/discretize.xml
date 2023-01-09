@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CategoryNamesInvalidSize">네 번째 인수 category names는 길이가 Bin의 개수({0,number,integer})와 같은 셀형 배열이어야 합니다.</entry>
+    <entry key="DefaultCategoryNamesNotUnique">입력 인수의 표시 형식을 사용하여 고유한 범주 이름을 생성할 수 없습니다. 범주 이름을 지정하거나 입력값의 ''Format'' 속성을 변경하십시오.</entry>
+    <entry key="InvalidDur">두 번째 인수 uniform bin size는 duration형이거나 calendarDuration형이어야 합니다. 즉, 유한한 양의 스칼라이거나 'second', 'minute', 'hour', 'day', 'week', 'month', 'quarter', 'year', 'decade', 'century' 중 하나일 수 있습니다.</entry>
+    <entry key="InvalidEdges">두 번째 인수 Bin 경계값은 적어도 2개의 요소를 가진 datetime형 벡터여야 합니다.</entry>
+    <entry key="InvalidSecondInput">두 번째 인수는 datetime형 벡터, 정수 스칼라, duration형 스칼라, calendarDuration형 스칼라, 문자형 벡터 또는 string형 스칼라여야 합니다.</entry>
+    <entry key="UnsortedEdges">두 번째 인수 Bin 경계값은 NaT가 포함되지 않은 정렬된 datetime형 벡터여야 합니다.</entry>
+    <entry key="ValuesInvalidSize">세 번째 인수 bin values는 길이가 Bin의 개수({0,number,integer})와 같은 벡터여야 합니다.</entry>
+    <entry key="ValuesClassNoNaN">세 번째 인수인 Bin의 Values가 {0}형이면 모든 입력 데이터는 Bin에 속해야 합니다.</entry>
+    <entry key="XNotDateTime">첫 번째 인수는 datetime형 배열이어야 합니다.</entry>
+  </message>
+</rsccat>

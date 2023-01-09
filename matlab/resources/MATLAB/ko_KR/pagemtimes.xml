@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidOption">옵션은 ''transpose'', ''ctranspose'' 또는 ''none''이어야 합니다.</entry>
+    <entry key="invalidArray">유효하지 않은 데이터형입니다. 입력 배열은 double형 또는 single형이어야 합니다.</entry>
+    <entry key="sparseNotSupported">희소 형식 입력값은 지원되지 않습니다.</entry>
+    <entry key="threeInputNotSupported">입력 인수의 개수가 올바르지 않습니다. 2개 또는 4개의 입력 인수를 지정하십시오.</entry>
+    <entry key="mismatchPageDimensions">행렬 곱셈의 차원이 잘못되었습니다. 첫 번째 배열의 열 개수가 두 번째 배열의 행 개수와 일치하는지 확인하십시오.</entry>
+    <entry key="mismatchImplicitExpansion">배열 크기가 호환되지 않습니다. 처음 2개 차원 이후부터는 모든 차원에서 두 배열의 차원 크기가 같거나 둘 중 하나는 1이어야 합니다.</entry>
+  </message>
+</rsccat>

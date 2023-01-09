@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ReadOnlyRunning">The ''UIContextMenu'' property may be set only when pan is not on.</entry>
+    <entry key="InvalidContextMenu">Handle must be a uicontextmenu.</entry>
+    <entry key="InvalidConstructor">First argument must be a handle to pan mode</entry>
+    <entry key="AccessorExists">Mode already contains an accessor.</entry>
+  </message>
+</rsccat>

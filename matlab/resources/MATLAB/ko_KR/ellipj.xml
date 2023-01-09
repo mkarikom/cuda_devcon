@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotEnoughInputs">입력 인수가 부족합니다.</entry>
+    <entry key="ComplexInputs">입력 인수는 실수여야 합니다.</entry>
+    <entry key="InputSizeMismatch">U 및 M은 같은 크기여야 합니다.</entry>
+    <entry key="MOutOfRange">M은 범위 0&lt;= M &lt;= 1 내에 있어야 합니다.</entry>
+    <entry key="NegativeTolerance">세 번째 인수 TOL은 음이 아닌 유한한 스칼라여야 합니다.</entry>
+    <entry key="FailedConvergence">ELLIPJ가 수렴하지 않았습니다. TOL을 증가시켜 보십시오.</entry>
+  </message>
+</rsccat>

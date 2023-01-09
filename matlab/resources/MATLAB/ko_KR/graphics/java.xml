@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoVM">JVM이 실행되고 있지 않습니다.</entry>
+    <entry key="ThreadNotAttached">스레드가 JVM에 연결되어 있지 않습니다.</entry>
+    <entry key="NoEnv">JNI Env 포인터를 가져올 수 없습니다.</entry>
+    <entry key="InvalidMethodID">Java 메서드 ID가 초기화되지 않았습니다.</entry>
+    <entry key="InvalidFieldID">Java 필드 ID가 초기화되지 않았습니다.</entry>
+    <entry key="NoSuchClass">{0} 클래스를 찾거나 초기화할 수 없습니다.\n{1}</entry>
+    <entry key="NoSuchMethod">메서드 {0}이(가) Java 클래스에 존재하지 않습니다.\n{1}</entry>
+    <entry key="NoSuchField">퍼블릭 필드 {0}이(가) Java 클래스에 존재하지 않습니다.\n{1}</entry>
+    <entry key="OutOfMemory">Java 힙 메모리가 부족하여 작업을 계속할 수 없습니다.\n{0}</entry>
+    <entry key="ArrayIndexOutOfBoundsException">인덱스가 Java 배열 차원을 초과합니다.\n{0}</entry>
+    <entry key="ArrayStoreException">Java 배열 값을 설정하는 중 오류가 발생했습니다.\n{0}</entry>
+    <entry key="GenericJavaException">{0}\n{1}</entry>
+    <entry key="ExceptionRecursion">예외 메시지를 가져오지 못했습니다.</entry>
+    <entry key="NullJavaPointer">Java 참조가 null입니다.</entry>
+  </message>
+</rsccat>

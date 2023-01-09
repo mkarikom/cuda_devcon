@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidHandle">H는 유효한 Figure에 대한 핸들 배열이어야 합니다.</entry>
+    <entry key="InvalidFilename">파일 이름 인수는 비어 있지 않은 string형 스칼라이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="FunctionToBeRemoved">saveFigure는 향후 릴리스에서 제거될 예정입니다. 대신 savefig를 사용하십시오.</entry>
+  </message>
+</rsccat>

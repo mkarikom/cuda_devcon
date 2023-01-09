@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="Inputs" note="stringDatatypeUpdate">Unless the first input argument is a date character vector or a string, all subsequent arguments will be ignored.</entry>
+    <entry key="DateFormat" note="stringDatatypeUpdate">You specified two date formats.\nThere can only be one.</entry>
+    <entry key="EmptyDate" note="stringDatatypeUpdate">Usage of DATEVEC with empty date character vectors or empty strings is not supported.</entry>
+    <entry key="NotAStringArray" note="stringDatatypeUpdate">The input to DATEVEC was not an array of character vectors or strings.</entry>
+    <entry key="YearFormat">Unrecognized year format.</entry>
+    <entry key="MonthOfYear">Failed to lookup month of year.</entry>
+    <entry key="NumberOfTimeFields">Too many time fields in {0}.</entry>
+    <entry key="NumberOfDateFields">Too many date fields in {0}.</entry>
+    <entry key="ParseDateString">Cannot parse date {0}.</entry>
+    <entry key="InputMustBeReal">Numeric input data must be real.</entry>
+  </message>
+</rsccat>

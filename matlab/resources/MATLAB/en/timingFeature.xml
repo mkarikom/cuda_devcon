@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+
+    <entry key="clockSpeedCyclesPerSec">clock() speed is {0} cycles/sec.\n</entry>
+    <entry key="counterCycles">Counter is {0} cycles.\n</entry>
+    <entry key="cpuFrequencyFeatureNotAvailable">This feature is not available on this platform.\n</entry>
+    <entry key="currentCpuSpeedCyclesPerSec">Current CPU speed is {0} cycles/sec.\n</entry>
+    <entry key="oldTicTocSpeedCyclesPerSec">Old tic/toc CPU speed was {0} cycles/sec.\n</entry>
+    <entry key="overheadTicTocCommand">Overhead of Tic/Toc command is {0} sec.\n</entry>
+    <entry key="speedCyclesPerSec">Speed is {0} cycles/sec.\n</entry>
+    <entry key="resolutionTicTocClock">Resolution of Tic/Toc clock is {0} sec.\n</entry>
+    <entry key="ticTocCpuSpeedCyclesPerSec">tic/toc CPU speed is {0} cycles/sec.\n</entry>
+    <entry key="timeInMsec">Time is {0} msec.\n</entry>
+    <entry key="timeInNsec">Time is {0} nsec.\n</entry>
+    <entry key="timeInTics">Time is {0} tics.\n</entry>
+    <entry key="timeInUsec">Time is {0} usec.\n</entry>
+    <entry key="timeIn100nsec">Time is {0} units (100 nsec).\n</entry>
+    <entry key="uint64Difference">uint64 difference is {0}.\n</entry>
+
+    <entry key="wrongSecondInput" note="stringDatatypeUpdate">Second argument must be a character vector</entry>
+    <entry key="wrongThirdInput">Third argument must be a double</entry>
+    <entry key="wrongValueWin32">Choose second argument from: \n    ''resolution_tictoc''  - Resolution of Tic/Toc clock in sec (double)\n    ''overhead_tictoc''    - Overhead of Tic/Toc command in sec (double)\n    ''getcpuspeed_tictoc'' - Stored CPU cycles/sec (double) [Used by tic/toc]\n    ''cpuspeed''           - Current CPU cycles/sec (double) [Simple MathWorks]\n    ''unixtimeofday''      - Current time of day (uint64) [gettimeofday call]\n                           units: usec since 01-Jan-1970 (UTC)\n    ''clocks_per_sec''     - clock() speed in cycles/sec [CLOCKS_PER_SEC]\n    ''posixrtperftime''    - Posix real time in nsec (uint64) [clock_gettime call]\n    ''posixrtperfspeed''   - Posix real time clock speed (double) [clock_getres call]\n                           units: cycles/sec\nChoose second and third arguments from: \n    ''cpuspeed'', double num              - Current CPU cycles/sec (double) [MathWorks - num iterations]\n    ''setcpuspeed_tictoc'', double speed  - Set the CPU cycles/sec [Used by tic/toc]\n     uint64 arg2, uint64 arg3           - uint64 difference = arg2 - arg3 (uint64)</entry>
+  
+    <entry key="wrongValueLinux">Choose second argument from: \n	        ''resolution_tictoc''  - Resolution of Tic/Toc clock in sec (double)\n	        ''overhead_tictoc''    - Overhead of Tic/Toc command in sec (double)\n	        ''getcpuspeed_tictoc'' - Stored CPU cycles/sec (double) [Used by tic/toc]\n	        ''cpuspeed''           - Current CPU cycles/sec (double) [Simple MathWorks]\n	        ''unixtimeofday''      - Current time of day (uint64) [gettimeofday call]\n	                               units: usec since 01-Jan-1970 (UTC)\n	        ''clocks_per_sec''     - clock() speed in cycles/sec [CLOCKS_PER_SEC]\n	        ''posixrtperftime''    - Posix real time in nsec (uint64) [clock_gettime call]\n	        ''posixrtperfspeed''   - Posix real time clock speed (double) [clock_getres call]\n	                               units: cycles/sec\n	    Choose second and third arguments from: \n	        ''cpuspeed'', double num              - Current CPU cycles/sec (double) [MathWorks - num iterations]\n 	        ''setcpuspeed_tictoc'', double speed  - Set the CPU cycles/sec [Used by tic/toc]\n	         uint64 arg2, uint64 arg3           - uint64 difference = arg2 - arg3 (uint64)</entry>
+
+    <entry key="wrongValueApple">Choose second argument from: \n	        ''resolution_tictoc''  - Resolution of Tic/Toc clock in sec (double)\n	        ''overhead_tictoc''    - Overhead of Tic/Toc command in sec (double)\n	        ''getcpuspeed_tictoc'' - Stored CPU cycles/sec (double) [Used by tic/toc]\n	        ''cpuspeed''           - Current CPU cycles/sec (double) [Simple MathWorks]\n	        ''unixtimeofday''      - Current time of day (uint64) [gettimeofday call]\n	                               units: usec since 01-Jan-1970 (UTC)\n	       ''clocks_per_sec''     - clock() speed in cycles/sec [CLOCKS_PER_SEC]\n	        ''macperftimeaudio''   - Mac real time in tics (uint64) [AudioGetCurrentHostTime call]\n	        ''macperftimeaudions'' - Mac real time in nsec (uint64)\n	                               [AudioConvertHostTimeToNanos(AudioGetCurrentHostTime) call]\n	        ''macperfspeedaudio''  - Mac real time clock speed (double) [AudioGetHostClockFrequency call]\n	                               units: cycles/sec\n	        ''macperftimemach''    - Mac real time in tics (uint64) [mach_absolute_time call]\n	        ''macperfspeedmach''   - Mac real time clock speed (double) [mach_timebase_info call]\n	                               units: cycles/sec\n	    Choose second and third arguments from: \n	        ''cpuspeed'', double num              - Current CPU cycles/sec (double) [MathWorks - num iterations]\n	        ''setcpuspeed_tictoc'', double speed  - Set the CPU cycles/sec [Used by tic/toc]\n	         uint64 arg2, uint64 arg3           - uint64 difference = arg2 - arg3 (uint64)</entry>
+
+    <entry key="wrongValue">Choose second argument from: \n                ''resolution_tictoc''  - Resolution of Tic/Toc clock in sec (double)\n                ''overhead_tictoc''    - Overhead of Tic/Toc command in sec (double)\n                ''getcpuspeed_tictoc'' - Stored CPU cycles/sec (double) [Used by tic/toc]\n                ''cpuspeed''           - Current CPU cycles/sec (double) [Simple MathWorks]\n                ''unixtimeofday''      - Current time of day (uint64) [gettimeofday call]\n                                       units: usec since 01-Jan-1970 (UTC)\n            ''clocks_per_sec''     - clock() speed in cycles/sec [CLOCKS_PER_SEC]\n	    Choose second and third arguments from: \n	        ''cpuspeed'', double num              - Current CPU cycles/sec (double) [MathWorks - num iterations]\n 	        ''setcpuspeed_tictoc'', double speed  - Set the CPU cycles/sec [Used by tic/toc]\n	         uint64 arg2, uint64 arg3           - uint64 difference = arg2 - arg3 (uint64)</entry>
+
+</message>
+</rsccat>

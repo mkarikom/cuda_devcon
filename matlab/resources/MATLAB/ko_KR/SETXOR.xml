@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnknownFlag">''{0}''은(는) 인식할 수 없는 플래그입니다. 유효한 플래그는 ''rows'', ''stable'', ''sorted'', ''legacy''입니다.</entry>
+    <entry key="UnknownInput">유효하지 않은 입력값입니다. 유효한 플래그는 ''rows'', ''stable'', ''sorted'', ''legacy''입니다.</entry>
+    <entry key="RepeatedFlag">''{0}'' 플래그는 두 번 이상 지정할 수 없습니다.</entry>
+    <entry key="SetOrderConflict">''sorted'', ''stable'' 둘 중 하나를 지정할 수는 있지만 둘을 같이 지정할 수는 없습니다.</entry>
+    <entry key="BehaviorConflict">''legacy'', ''R2012a'' 둘 중 하나를 지정할 수는 있지만 둘을 같이 지정할 수는 없습니다.</entry>
+    <entry key="LegacyTrailing">''legacy'' 플래그는 마지막에 와야 합니다.</entry>
+    <entry key="R2012aTrailing">''R2012a'' 플래그는 마지막에 와야 합니다.</entry>
+    <entry key="SetOrderBehavior">''stable'' 및 ''sorted''를 ''legacy'' 및 ''R2012a''와 함께 지정할 수 없습니다.</entry>
+    <entry key="AandBvectorsOrRowsFlag">A와 B가 벡터이거나 ''rows''가 지정되어야 합니다.</entry>
+    <entry key="AandBColnumAgree">입력 인수 A와 B에 ''rows''가 지정된 경우 두 입력값은 같은 열 개수를 갖는 행렬이어야 합니다.</entry>
+    <entry key="InputClass">{0} 클래스의 입력 인수 A와 {1} 클래스의 입력 인수 B는 둘 중 하나가 문자형 벡터가 아닌 한, 문자형 벡터로 구성된 셀형 배열이어야 합니다.</entry>
+    <entry key="RowsFlagIgnored">입력값이 셀형 배열인 경우에는 ''rows'' 입력값이 지원되지 않습니다.</entry>
+    <entry key="InvalidInputsDataType">{0} 클래스의 입력 인수 A와 {1} 클래스의 입력 인수 B는 둘 중 하나가 double형이 아닌 한, 동일한 클래스를 가져야 합니다.</entry>
+    <entry key="NotAMatrix">입력 인수 A와 B에 ''rows''가 지정된 경우 두 입력값은 같은 열 개수를 갖는 행렬이어야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ImportWizardRequires800x600Resolution">インポート ウィザードは、少なくとも 800 x 600 の解像度が必要です。</entry>
+    <entry key="FileNameNotSpecified">ファイル名が指定されていません。</entry>
+    <entry key="FileDoesNotExist">ファイルが存在しません。</entry>
+    <entry key="SelectedTimesInvalid">選択した時間が無効です。</entry>
+    <entry key="NoDataBlockSelected">選択されたデータ ブロックがありません。</entry>
+    <entry key="NoVariableSelected">選択された変数がありません。</entry>
+    <entry key="InvalidExcelWorkbook">これは有効な Excel ワークブックではありません。</entry>
+    <entry key="InvalidFileNameOrExtension">ファイル名が無効か、ファイル拡張子が選択したファイル タイプと一致しません。</entry>
+    <entry key="Back">戻る</entry>
+    <entry key="Next">次へ</entry>
+    <entry key="Help">ヘルプ</entry>
+    <entry key="Finish">終了</entry>
+    <entry key="CurrentStep">現在のステップ</entry>
+    <entry key="Step3CreateTimeseriesObjectsAndImport">ステップ 3: time-series オブジェクトを作成しインポートしてください。</entry>
+    <entry key="Step2SpecifyDataAndTime">ステップ 2: データと時間を指定してください。</entry>
+    <entry key="Step1ChooseSourceWithTimeseriesData">ステップ 1: 時系列データを含むソースを選択してください。</entry>
+    <entry key="TimeSeriesImportWizard">時系列インポート ウィザード</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="Cancel">キャンセル</entry>
+    <entry key="ValidatingExcelSpreadsheet">Excel スプレッドシートを検証中です。お待ちください...</entry>
+  </message>
+</rsccat>

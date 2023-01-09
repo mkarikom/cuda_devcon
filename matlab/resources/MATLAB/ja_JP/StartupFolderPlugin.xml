@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoLastWorkingFolderAccess"> 最終作業フォルダーの基本設定を使用して選択した \"{0}\" にアクセスできませんでした。\n代わりに、初期作業フォルダーとして \"{1}\" を使用します。</entry>
+    <entry key="NoCustomWorkingFolderAccess"> カスタム作業フォルダーの基本設定を使用する \"{0}\" にアクセスできませんでした。\n代わりに、初期作業フォルダーとして \"{1}\" を使用します。</entry>
+    <entry key="NoSdFolderAccess"> -sd 起動オプションを使用して選択した \"{0}\" にアクセスできませんでした。\n代わりに、初期作業フォルダーとして \"{1}\" を使用します。</entry>
+  </message>
+</rsccat>

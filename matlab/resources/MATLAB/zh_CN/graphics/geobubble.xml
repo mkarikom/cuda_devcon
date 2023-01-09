@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DataLengthMismatch">{0} 必须包含与 {1} 相同的元素数目。</entry>
+    <entry key="InvalidSourceTable">''SourceTable'' 值必须为表。</entry>
+    <entry key="MatrixWorkflow">不支持在设置 ''LatitudeData'' 属性后设置 ''{0}'' 属性。</entry>
+    <entry key="TableWorkflow">不支持在设置 ''SourceTable'' 属性后设置 ''{0}'' 属性。</entry>
+    <entry key="InvalidArguments">需要 2 个数值向量或后跟 2 个表下标的表。</entry>
+    <entry key="DeletedParent">父容器为已删除的图形对象。</entry>
+    <entry key="InvalidParent">父容器必须为图窗、uipanel 或 uitab。</entry>
+    <entry key="SizeVariableNameValuePair">使用参数名称-值对组指定 ''SizeVariable''。</entry>
+    <entry key="ColorVariableNameValuePair">使用参数名称-值对组指定 ''ColorVariable''。</entry>
+    <entry key="InvalidTableArguments">输入参数的数目不足。表参数必须后跟 2 个表下标。</entry>
+    <entry key="MapLayoutLabel">地图的布局</entry>
+    <entry key="ScalebarVisibleLabel">比例尺的可见性</entry>
+    <entry key="BasemapLabel">要在其上绘制数据的地图</entry>
+  </message>
+</rsccat>

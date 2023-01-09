@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="switchToSoftwareMacNotSupported">Mac 플랫폼에서는 소프트웨어 OpenGL 렌더링으로 전환하는 기능이 지원되지 않습니다.</entry>
+    <entry key="switchToSoftwareUnixNotSupported">Unix에서 런타임에 소프트웨어 OpenGL 렌더링으로 전환하는 기능은 지원되지 않습니다.</entry>
+    <entry key="switchToHardwareMacNotSupported">Mac 플랫폼에서는 하드웨어 OpenGL 렌더링으로 전환하는 기능이 지원되지 않습니다.</entry>
+    <entry key="switchToHardwareUnixNotSupported">Unix에서 런타임에 하드웨어 OpenGL 렌더링으로 전환하는 기능은 지원되지 않습니다.</entry>
+    <entry key="settingOfSoftwareMacNotSupported">Mac 플랫폼에서는 소프트웨어 OpenGL 렌더링이 지원되지 않습니다.</entry>
+    <entry key="loadStatus">OpenGL을 불러오지 못했습니다.</entry>
+    <entry key="infoQuery">OpenGL 쿼리 중 오류 발생:</entry>
+    <entry key="dataQuery">OpenGL 쿼리 중 오류 발생:</entry>
+    <entry key="invalidBugWorkaround">알 수 없는 OpenGL 버그 우회적 해결 방법: {0}</entry>
+    <entry key="knownDriverIssues">알려진 그래픽스 드라이버 문제</entry>
+    <entry key="invalidInputArgument">OpenGL 잘못된 입력 인수: {0}</entry>
+    <entry key="softwareUnsupported">opengl 함수에는 옵션 'software'가 허용되지 않습니다. '-softwareopengl' 선택적으로 MATLAB을 시작하여 소프트웨어 OpenGL과 함께 실행하십시오.</entry>
+    <entry key="hardwareUnsupported">opengl 함수에는 옵션 'hardware'가 허용되지 않습니다. MATLAB 그래픽스의 디폴트 렌더링 모드는 하드웨어 opengl입니다.</entry>
+    <entry key="deprecatedArgument">이 옵션은 더 이상 지원되지 않으므로 어떤 영향도 미치지 않음: {0}</entry>
+    <entry key="deprecatedNoArgs">인수 없이 OpenGL 명령을 사용하는 것은 더 이상 지원되지 않습니다.</entry>
+    <entry key="MFileNotFound">파일 {0}을(를) 찾을 수 없음</entry>
+    <entry key="HardwareGLCrash">로우 레벨 그래픽스 오류로 인해 이전 MATLAB 세션이 예기치 않게 종료되었습니다. 현재 세션에서 예기치 않은 종료가 발생하지 않도록 MATLAB이 그래픽스 하드웨어 대신 소프트웨어 OpenGL을 사용 중입니다. 본 설정을 이후 세션에서도 계속 유지하려면 opengl('save', 'software') 명령을 사용하십시오. 자세한 내용은 &lt;a href="matlab:opengl('problems')"&gt;로우 레벨 그래픽스 문제 해결&lt;/a&gt; 항목을 참조하십시오.</entry>
+    <entry key="SoftwareGLCrash">소프트웨어 OpenGL을 사용하는 동안 로우 레벨 그래픽스 오류로 인해 이전 MATLAB 세션이 예기치 않게 종료되었습니다. 자세한 내용은 &lt;a href="matlab:opengl('problems')"&gt;로우 레벨 그래픽스 문제 해결&lt;/a&gt; 항목을 참조하십시오.</entry>
+    <entry key="unableToSelectHWGL">하드웨어 OpenGL 렌더링을 선택할 수 없습니다. 자세한 내용은 &lt;a href="matlab:opengl('problems')"&gt;여기&lt;/a&gt;를 클릭하십시오.</entry>
+    <entry key="alterWindowsMesaOGLNotSupported">명령줄에서 OpenGL 구현을 변경할 수 없습니다. 대신, MATLAB을 시작할 때 구현을 지정하십시오.</entry>
+  </message>
+</rsccat>

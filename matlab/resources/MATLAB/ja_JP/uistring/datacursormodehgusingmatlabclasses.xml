@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ErrorOccurredWhileSavingData">データの保存中にエラーが発生しました。</entry>
+    <entry key="InvalidVariableName">変数名 "{0}" は無効です。</entry>
+    <entry key="CursorDataExportError">カーソル データのエクスポート エラー</entry>
+    <entry key="SelectMATLABFile">MATLAB ファイルを選択</entry>
+    <entry key="EnterVariableName">変数名を入力</entry>
+    <entry key="VariableNameAlreadyExists">"{0}" という名前の変数は既に MATLAB ワークスペースに存在します。\n続行すると、ワークスペース内の "{1}" のインスタンスを\n上書きすることになります。</entry>
+    <entry key="SelectionStyle">選択スタイル</entry>
+    <entry key="MousePosition">マウスの位置</entry>
+    <entry key="SnapToNearestDataVertex">最も近いデータの頂点にスナップ</entry>
+    <entry key="DisplayStyle">表示スタイル</entry>
+    <entry key="WindowInsideFigure">Figure 内に画面表示</entry>
+    <entry key="Datatip">データ ヒント</entry>
+    <entry key="CreateNewDatatip">新規データ ヒントを作成 Alt + クリック</entry>
+    <entry key="DeleteCurrentDatatip">現在のデータ ヒントを削除 Delete</entry>
+    <entry key="DeleteAllDatatips">すべてのデータ ヒントを削除</entry>
+    <entry key="ExportCursorDataToWorkspace1">カーソル データをワークスペースにエクスポート...</entry>
+    <entry key="EditTextUpdateFunction">テキスト更新関数の編集...</entry>
+    <entry key="SelectTextUpdateFunction">テキスト更新関数の選択...</entry>
+    <entry key="ExportCursorDataToWorkspace2">カーソル データをワークスペースにエクスポート</entry>
+  </message>
+</rsccat>

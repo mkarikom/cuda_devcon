@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="unknownShapeParameter">SHAPE 必须为 ''full''、''same'' 或 ''valid''。</entry>
+    <entry key="troubleInGettingShape">获取 SHAPE 时遇到问题。</entry>
+    <entry key="firstTwoInputsNotVectors">当第三个参数为矩阵时，第一个参数和第二个参数必须为向量。</entry>
+    <entry key="inputType">数据类型无效。第一个参数和第二个参数必须为数值或逻辑值。</entry>
+    <entry key="ndArrayInput">不支持 N 维数组。</entry>
+    <entry key="inputTypeSeparable">前三个参数必须为数值或逻辑值。</entry>
+    <entry key="SparseInput">不支持稀疏矩阵。</entry>
+  </message>
+</rsccat>

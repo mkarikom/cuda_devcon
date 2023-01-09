@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidNumberOfInputs">入力引数か出力引数の数、またはその両方が正しくありません。</entry>
+    <entry key="InvalidDataType">関数 symamdmex は double または logical の配列のみを受け入れます。</entry>
+    <entry key="InvalidInput2">入力行列は 2 次元でなければなりません。</entry>
+    <entry key="InvalidInput4">正方行列でなければなりません。</entry>
+    <entry key="InvalidInput3">symamd エラーです。</entry>
+  </message>
+</rsccat>

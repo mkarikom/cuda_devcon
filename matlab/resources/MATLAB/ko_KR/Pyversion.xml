@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidPath">path 인수가 유효한 실행 파일을 지정하지 않습니다.</entry>
+    <entry key="UnsupportedVersion">Python version {0} is not supported. See https://www.mathworks.com/content/dam/mathworks/mathworks-dot-com/support/sysreq/files/python-support.pdf.</entry>
+    <entry key="UnsupportedVersion_Link">Python version {0} is not supported. See &lt;a href="https://www.mathworks.com/content/dam/mathworks/mathworks-dot-com/support/sysreq/files/python-support.pdf"&gt;this topic.&lt;/a&gt;</entry>
+    <entry key="InvalidType">입력값은 string형 스칼라이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="InvalidVersion">지정된 버전을 찾을 수 없습니다.</entry>
+    <entry key="MicroVersion">버전 번호는 major.minor 형식(주 버전 번호.부 버전 번호)이어야 합니다.</entry>
+    <entry key="PythonLoaded">Python을 불러왔습니다. 이 MATLAB 세션에서는 버전을 변경할 수 없습니다. 버전을 변경하려면 MATLAB을 다시 시작한 후 ''pyversion''을 호출하십시오.</entry>
+    <entry key="InvalidArchitecture">{0} Python을 사용할 수 없습니다. {1} Python을 대신 사용하십시오.</entry>
+    <entry key="MissingInfoScript">pyinfo.py 스크립트를 찾을 수 없습니다.</entry>
+  </message>
+</rsccat>

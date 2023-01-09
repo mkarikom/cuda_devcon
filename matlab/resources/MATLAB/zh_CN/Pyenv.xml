@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="AssociatedHostTerminated">与此 Python 对象关联的 MATLABPyHost 进程(进程 ID: {0})已终止。</entry>
+    <entry key="InvalidNumArgs">参数的数目无效。</entry>
+    <entry key="InvalidKey">输入 {0} 无效。关键字必须为 ''Version'' 或 ''ExecutionMode''。</entry>
+    <entry key="InvalidExecutionMode">输入 {0} 无效。''ExecutionMode'' 的值必须为 ''InProcess'' 或 ''OutOfProcess''。</entry>
+    <entry key="VersionAndModeExpected">需要 ''Version'' 或 ''ExecutionMode'' 参数。</entry>
+    <entry key="TerminateNotSupported">InProcess 执行模式不支持终止。</entry>
+    <entry key="PythonLoaded">Python 已加载。解释器运行时，无法更改环境。要更改环境，请调用 ''terminate(pyenv)''，然后调用 ''pyenv''。</entry>
+    <entry key="PythonLoadedInOOP">Python 以 ''OutOfProcess'' 模式加载。要将 ''ExecutionMode'' 更改为 ''InProcess''，请重新启动 MATLAB，然后调用 ''pyenv''。</entry>
+    <entry key="PythonLoadedInProcess">Python 已加载。在此 MATLAB 会话中无法更改环境。要更改环境，请重新启动 MATLAB，然后调用 ''pyenv''。</entry>
+    <entry key="PythonTerminatedReloadNotSupported">Python 进程已终止，无法在此 MATLAB 会话中调用。要调用 Python 函数，请重新启动 MATLAB。</entry>
+    <entry key="PythonTerminated">Python 进程意外终止。要重新启动 Python 解释器，请首先调用 "terminate(pyenv)"，然后调用 Python 函数。</entry>
+    <entry key="PythonEnvironmentLoadNotSupported">无法加载 PythonEnvironment 对象。不支持将 PythonEnvironment 保存(序列化)为 MAT 文件。</entry>
+  </message>
+</rsccat>

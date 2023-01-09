@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MissingAttribute">要素 ''{0}'' は ''{1}'' 属性をもたなければなりません。</entry>
+    <entry key="ImmutableElement">要素 ''{0}'' が変更できないタグの内側に見つかりました。</entry>
+    <entry key="InvalidArgType">引数タイプ ''{0}'' はサポートされません。</entry>
+    <entry key="InvalidHexEntry">無効な 16 進数の値がエスケープ シーケンスで見つかりました: ''{0}''</entry>
+    <entry key="InvalidIdentifier">''{0}'' は有効なメッセージ識別子ではありません。</entry>
+    <entry key="InvalidLine">行の値 ''{0}'' は符号なし整数です。</entry>
+    <entry key="InvalidTimeFormat">時間が必要な形式になっていません。</entry>
+    <entry key="InvalidWasDisabled">WasDisabled の値 ''{0}'' は ''true'' または ''false'' ではありません。</entry>
+    <entry key="NestedLog">入れ子のログ タグは許可されていません。</entry>
+    <entry key="NestedWarning">入れ子の警告タグは許可されていません。</entry>
+    <entry key="ParseError">XML の構文解析中、{1,number,integer} 行 {2,number,integer} 列で {0} のエラーが発生しました。</entry>
+    <entry key="UnexpectedElement">要素 ''{0}'' が警告タグの外側に見つかりました。</entry>
+    <entry key="UnknownAttribute">要素 ''{0}'' は ''{1}'' 属性をサポートしていません。</entry>
+    <entry key="UnknownElement">要素 ''{0}'' はサポートされていません。</entry>
+    <entry key="UnmatchedEscapedCharacter">エスケープ シーケンスに、対応するエスケープ文字 (''{0}'') が含まれていませんでした: ''{1}''。</entry>
+  </message>
+</rsccat>

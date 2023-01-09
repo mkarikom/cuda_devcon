@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="invalidInput" note="stringDatatypeUpdate">File or variable name must be a character vector or string scalar.</entry>
+      <entry key="fileNotFound">File ''{0}'' not found.</entry>
+      <entry key="noOpen">The function cannot be used in deployed applications.</entry>
+      <entry key="openFailure">File associated with ''{0}'' not found.</entry>
+      <entry key="noOpenFolder">Cannot open the folder ''{0}''.</entry>
+  </message>
+</rsccat>

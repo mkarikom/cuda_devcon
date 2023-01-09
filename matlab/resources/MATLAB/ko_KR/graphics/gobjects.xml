@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidinput">입력값은 숫자형 스칼라이거나 배열 차원의 벡터여야 합니다.</entry>
+    <entry key="naninf">입력값은 숫자형 스칼라이거나 배열 차원의 벡터여야 합니다. NaN 및 Inf는 허용되지 않습니다.</entry>
+    <entry key="negative">입력값은 숫자형 스칼라이거나 배열 차원의 벡터여야 합니다. 음수 입력값은 0으로 바뀝니다.</entry>
+    <entry key="noninteger">크기 벡터는 정수 요소를 가진 행 벡터여야 합니다. 향후 릴리스에서는 오류로 간주됩니다.</entry>
+    <entry key="NonScalarInput">입력 인수는 스칼라여야 합니다. 향후 릴리스에서는 오류로 간주됩니다.</entry>
+  </message>
+</rsccat>

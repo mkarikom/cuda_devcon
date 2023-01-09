@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NonNumericStep">Step size must be a duration, a calendar duration, or a real double value.</entry>
+    <entry key="InvalidColon" note="stringDatatypeUpdate">Inputs to the colon operator must be datetime arrays, cell arrays of date/time character vectors, or date/time strings. You may need to use parentheses to group the colon operation.</entry>
+    <entry key="NonScalarInputs">Inputs must be scalars.</entry>
+  </message>
+</rsccat>

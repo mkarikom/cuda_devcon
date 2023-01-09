@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Cut">切り取り(&amp;T)</entry>
+    <entry key="Copy">コピー(&amp;C)</entry>
+    <entry key="Paste">貼り付け(&amp;P)</entry>
+    <entry key="Clear">クリア(&amp;R)</entry>
+    <entry key="ShowLegend1">凡例の表示</entry>
+    <entry key="LockPosition">位置固定</entry>
+    <entry key="Properties">プロパティ...</entry>
+    <entry key="ShowLegend2">凡例の表示(&amp;G)</entry>
+    <entry key="HideLegend">凡例の非表示(&amp;G)</entry>
+    <entry key="UnlockAxesPos">軸位置の固定解除(&amp;K)</entry>
+    <entry key="LockAxesPos">軸位置の固定(&amp;K)</entry>
+    <entry key="CanNotAddLegend">空のプロットには凡例を追加できません。</entry>
+    <entry key="Data">データ</entry>
+  </message>
+</rsccat>

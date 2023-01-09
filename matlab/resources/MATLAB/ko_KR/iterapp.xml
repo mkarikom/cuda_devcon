@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidOp">유효하지 않은 작업입니다.</entry>
+    <entry key="InvalidInput">사용자 제공 {0} ==&gt; {1} 다음 오류로 실패:\n \n {2}</entry>
+    <entry key="MustReturnColumn">사용자 제공 {0} ==&gt; {1} 열 벡터를 반환해야 합니다.</entry>
+  </message>
+</rsccat>

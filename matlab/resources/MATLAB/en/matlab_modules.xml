@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="addpathFailedToCreateNewModule">Cannot instantiate new module because module at {0} is already on the path or registered. MATLAB is in an inconsistent state. Please remove this module from the path.</entry>
+    <entry key="rmpathFailedToRemoveModule">Cannot find a valid module at {0}. This module did not get properly instantiated previously.</entry>
+    <entry key="missingModuleDefinition">Module definition file is missing or incorrect at location {0}.</entry>
+    <entry key="cannotUnregisterNonRegisteredModuleFromRoot">No module at location {0} is currently registered.</entry>
+    <entry key="unregisterModuleNameNotFound">No module named {0} is currently registered. </entry>
+    <entry key="unregisterModuleVersionMismatch">Cannot unregister module {0} because it is currently executing. </entry>
+    <entry key="cannotUnregisterModuleFromNonRoot">Cannot unregister module from a non-module root location.</entry>
+    <entry key="moduleIdentifierHasAlreadyBeenClaimed">Cannot register this module. Another module in {0} is using the same module name, provider and version of this module.</entry>
+    <entry key="registrationFailureSubfolderOnPath">Cannot register module {0} because its subfolder {1} is currently on the path.</entry>
+  </message>
+</rsccat>

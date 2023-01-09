@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TypeMismatch">지정된 {0} 유형이 이 컨테이너에 예상되는 유형과 일치하지 않습니다.</entry>
+    <entry key="NaNNotAllowed">NaN-값을 갖는 {0}은(는) 이 컨테이너에서 허용되지 않습니다.</entry>
+    <entry key="InvalidParentToChild">부모 속성을 후손 자식 객체에 설정하려고 시도 중입니다.</entry>
+  </message>
+</rsccat>

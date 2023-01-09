@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="matrixWithNaNInf">Input to ORDEIG must not contain NaN or Inf.</entry>
+    <entry key="inputMustBe2DStandard">Input must be 2-D.</entry>
+    <entry key="inputMustBeSquareStandard">Input must be square.</entry>
+    <entry key="inputMustBeFullStandard">Input must be full.</entry>
+    <entry key="inputMustBeUpperTriStandard">For ORDEIG(A), A must be upper triangular when it is complex.</entry>
+    <entry key="inputMustBeBlockUpperTriStandard">For ORDEIG(A), A must be block upper triangular with 1-by-1 and 2-by-2 blocks on its diagonal when A is real.</entry>
+    <entry key="inputTypeGeneralized">Inputs must be single or double.</entry>
+    <entry key="inputMustBe2DGeneralized">Inputs must be 2-D.</entry>
+    <entry key="inputMustBeSquareGeneralized">Inputs must be square.</entry>
+    <entry key="inputMustBeSameSizeGeneralized">Inputs must be the same size.</entry>
+    <entry key="inputMustBeFullGeneralized">Inputs must be full.</entry>
+    <entry key="inputMustBeUpperTriGeneralized">For ORDEIG(A,B), A and B must be upper triangular when A or B is complex.</entry>
+    <entry key="inputMustBeBlockUpperTriGeneralized">For ORDEIG(A,B) when A and B are real, A must be block upper triangular with 1-by-1 and 2-by-2 blocks on its diagonal. In addition, B must be upper triangular.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NotString">输入必须为字符向量。</entry>
+    <entry key="ExternalEditorNotFound">找不到外部编辑器 ''{0}''。</entry>
+    <entry key="ExternalEditorFailure">无法打开外部编辑器 ''{0}''。</entry>
+    <entry key="SlxFile">无法编辑 Simulink 文件 ''{0}''。</entry>
+    <entry key="SLTXFile">无法编辑 Simulink 模板文件 ''{0}''。</entry>
+    <entry key="MlprojFile">不能编辑工程存档 ''{0}''。</entry>
+    <entry key="MdlErr">无法编辑 Simulink 文件 ''{0}''，除非包含文件扩展名。</entry>
+    <entry key="PkgErr">无法编辑包目录 ''{0}''。</entry>
+    <entry key="PFile">无法编辑 P 文件 ''{0}''。</entry>
+    <entry key="MexFile">无法编辑 MEX 文件 ''{0}''。</entry>
+    <entry key="MATFile">Cannot edit the MAT-file ''{0}''.</entry>
+    <entry key="FigFile">Cannot edit the fig file ''{0}''.</entry>
+    <entry key="ProtectedModel">无法编辑被保护的 Simulink 模型文件 ''{0}''。</entry>
+    <entry key="SscpFile">无法编辑受 Simscape 保护的文件 ''{0}''。</entry>
+    <entry key="BadDir">无法编辑目录 ''{0}''。</entry>
+    <entry key="BadChars">文件 ''{0}'' 包含无效字符。</entry>
+    <entry key="NotSupported">MATLAB 编辑器在未安装 Java 的情况下不受支持。</entry>
+    <entry key="FileNotFound">未找到文件 ''{0}''。</entry>
+    <entry key="FilesNotFound">找不到 ''{0}'' 和 ''{1}''。</entry>
+    <entry key="EditorInstantiationFailure">无法打开 MATLAB 编辑器。</entry>
+    <entry key="NotABreakpoint">输入参数应为 com.mathworks.mde.editor.breakpoints.MatlabBreakpoint。</entry>
+    <entry key="NotACollection">输入参数应为 java.util.Collection。</entry>
+    <entry key="NotAFilename">输入参数应为 MATLAB 字符数组。</entry>
+    <entry key="SLDDFile">不支持编辑数据字典文件 ''{0}''。</entry>
+  </message>
+</rsccat>

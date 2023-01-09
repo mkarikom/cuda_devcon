@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CannotBeParent">uitabgroup を {0} の親にすることはできません。\n したがって、{1} が gcf の親になりました。</entry>
+    <entry key="InvalidIndex">選択したインデックスは 1 とタブ数の間でなければなりません。</entry>
+    <entry key="InvalidTab">SelectedTab はこの親の子でなければなりません</entry>
+    <entry key="CannotSetVisible">uitab の Visible プロパティを設定できません。\nこれは将来のリリースでエラーになります。</entry>
+    <entry key="CannotSetBackgroundColor">uitab の BackgroundColor プロパティを設定できません。\nこれは将来のリリースでエラーになります。</entry>
+  </message>
+</rsccat>

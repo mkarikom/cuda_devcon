@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="noarray">plot 方法只能用于单时序对象</entry>
+    <entry key="emptyplot">不能绘制空时序句柄。</entry>
+    <entry key="nonnumeric">不能对具有非数值数据的时序执行数值运算</entry>
+    <entry key="invaliddata">不支持非数值或多维 (ndims&gt;2) 数据。</entry>
+    <entry key="notimeseriesdata">数据为空，无法绘制时序图。</entry>
+    <entry key="notimeseriestime">时间为空，无法绘制时序图。</entry>
+    <entry key="TimeSeriesPlot">时序图</entry>
+    <entry key="Event">事件</entry>
+    <entry key="Time">时间</entry>
+    <entry key="unnamed">未命名</entry>
+  </message>
+</rsccat>

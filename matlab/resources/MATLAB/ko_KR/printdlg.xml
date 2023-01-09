@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidVersion">이 함수는 feature(HGUsingMATLABClasses) == 0인 경우에만 실행할 수 있습니다.</entry>
+    <entry key="invalidFigInput">FIG 입력값은 스칼라여야 함</entry>
+    <entry key="InvalidFigureHandle">PRINTDLG에는 단일 Figure 핸들이 필요함</entry>
+    <entry key="invalidFlags">-crossplatform 플래그와 -setup 플래그가 제거되었습니다.</entry>
+    <entry key="invalidFigure">FIG 인수는 Figure에 대한 핸들이어야 합니다.</entry>
+    <entry key="tooManyArgs">printdlg에 대한 인수가 너무 많습니다.</entry>
+    <entry key="oldPrintdlgUsage">이 구문은 향후 릴리스에서 제거될 예정입니다.\n올바른 printdlg 사용법과 printpreview의 유사한 기능에 대해서는 다음 도움말(help 명령)이나 도움말 문서(doc 명령)를 참조하십시오.\n\n &lt;a href="{0}"&gt;help printdlg&lt;/a&gt;, &lt;a href="{1}"&gt;doc printdlg&lt;/a&gt;\n\n &lt;a href="{2}"&gt;help printpreview&lt;/a&gt;, &lt;a href="{3}"&gt;doc printpreview&lt;/a&gt;\n\n</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="schurNoConvergence">SCHUR did not converge at index = {0,number,integer}.</entry>
+    <entry key="matrixWithNaNInf">Input to SCHUR must not contain NaN or Inf.</entry>
+    <entry key="unknownOption">Second input must be ''real'' or ''complex''.</entry>
+    <entry key="realOptionIgnored">Ignoring ''real'' option with a complex matrix.</entry>
+    <entry key="noSchurSparse">First input must be full. Use SCHUR(FULL(S)).</entry>
+    <entry key="inputType">First input must be single or double.</entry>
+    <entry key="inputMustBe2D">First input must be 2-D.</entry>
+    <entry key="inputMustBeSquare">First input must be square.</entry>
+  </message>
+</rsccat>

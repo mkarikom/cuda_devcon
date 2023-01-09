@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+   <message>
+      <entry key="LabelWaitWhile2DDataLoaded">Please wait while the 2D data is loaded</entry>
+      <entry key="LabelWaitWhile3DDataLoaded">Please wait while the 3D data is loaded</entry>
+      <entry key="LabelUseTheControlsToSeeEffects3d">Use the controls to see the effects of various axes properties on 3D plots</entry>
+      <entry key="LabelUserDefinedPlot">User-Defined plot</entry>
+      <entry key="PromptEnterAValidPlotCommandOrFunction">Enter a valid plot command or function</entry>
+      <entry key="LabelSelectPlotType">Select plot type</entry>
+      <entry key="Label2DDefault">2-D Default</entry>
+      <entry key="Label3DDefault">3-D Default</entry>
+      <entry key="LabelDataAspectRatio">Data Aspect Ratio</entry>
+      <entry key="LabelDARMode">DAR Mode</entry>
+      <entry key="LabelPlotBoxAspectRatio">Plot Box Aspect Ratio</entry>
+      <entry key="LabelPBARMode">PBAR Mode</entry>
+      <entry key="LabelXAxisLimit">X-Axis Limit</entry>
+      <entry key="LabelXLimMode">XLim Mode</entry>
+      <entry key="LabelYAxisLimit">Y-Axis Limit</entry>
+      <entry key="LabelYLimMode">YLim Mode</entry>
+      <entry key="LabelZAxisLimit">Z-Axis Limit</entry>
+      <entry key="LabelZLimMode">ZLim Mode</entry>
+      <entry key="ComboBoxAutoManual">auto|manual</entry>
+      <entry key="LabelDefault3DView">Default 3D view</entry>
+      <entry key="WarningInvalidPropertyValue">Warning: An invalid property value has been entered. Reverting to {0} = {1}</entry>
+      <entry key="LabelModeChangedToManual">{0} Mode changed to manual</entry>
+      <entry key="LabelModeChangedToAuto">{0} Mode changed to auto</entry>
+      <entry key="LabelManuallyChangedTo">{0} manually changed to {1}</entry>
+      <entry key="FigureAxesPropertiesDemonstration">Axes Properties Demonstration</entry>
+      <entry key="LabelUseTheControlsToSeeEffects2d">Use the controls to see the effects of various axes properties on 2D plots</entry>
+   </message>
+</rsccat>

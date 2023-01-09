@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FrequencyOutputObsolete">WARNING の頻度の出力は旧式のため、これは MATLAB の将来のバージョンでエラーになります。</entry>
+    <entry key="illegalDebugSetting">無効なデバッグ設定 ''{0}''</entry>
+    <entry key="debugOptionIsObsolete">関数 warning のデバッグ オプションは旧式です。''{0}'' を使用する代わりに ''{1}'' を使用してください。</entry>
+    <entry key="noLastWarning">最後に出力された警告の識別子が空であるか、まだ警告が出力されていません。</entry>
+    <entry key="unknownSettingOrId">不明な設定、またはメッセージ識別子 ''{0}'' が不適切です。</entry>
+    <entry key="cannotUseAllWithError">''all'' メッセージ識別子を ''error'' の警告設定で使うことはできません。</entry>
+    <entry key="OnceAndAlwaysObsolete">警告: ''once'' および ''always'' は使用できません。</entry>
+    <entry key="missingStructureField">WARNING への入力は、''state'' と ''identifier'' という名前のフィールドをもたなければなりません。</entry>
+    <entry key="nonStringState">入力の要素 {0,number,integer} の ''state'' フィールドが文字ベクトルまたは string スカラーではありません。</entry>
+    <entry key="badStateValue">入力の要素 {0,number,integer} の ''state'' フィールドは、''on''、off''、''error'' のいずれでもありません。</entry>
+    <entry key="nonStringIdentifier">入力の要素 {0,number,integer} の ''identifier'' フィールドが文字ベクトルまたは string スカラーではありません。</entry>
+    <entry key="badIdentifierValue">入力の要素 {0,number,integer} の ''identifier'' フィールドは、有効なメッセージ識別子ではありません。</entry>
+    <entry key="inputsOutOfOrder">WARNING への入力は、順序が正しくない可能性があります。''on''、''off'' または ''query'' オプションは、WARNING への最初の入力にしなければなりません。</entry>
+    <entry key="Invalid">{0} が無効です。</entry>
+    <entry key="allWarningsHaveTheState">すべての警告は状態 ''{0}'' です。\n</entry>
+    <entry key="debuggerStopAtWarning">デバッガーは警告で停止します。\n</entry>
+    <entry key="debuggerNoStopAtWarning">デバッガーは警告で停止しません。\n</entry>
+    <entry key="warningBacktracesEnabled">警告のバックトレースが有効になっています。\n</entry>
+    <entry key="warningBacktracesDisabled">警告のバックトレースが無効になっています。\n</entry>
+    <entry key="warningOutputVerbose">警告の出力が詳細になっています。\n</entry>
+    <entry key="warningOutputTerse">警告の出力が簡潔になっています。\n</entry>
+    <entry key="defaultWarningStateLine">既定の警告の状態は ''{0}'' です。既定に設定されない警告は以下のようになります\n\n</entry>
+    <entry key="illegalVerboseSetting">無効な {0} 設定 ''{1}''。</entry>
+    <entry key="illegalBacktraceSetting">無効な {0} 設定 ''{1}''。</entry>
+    <entry key="noLastWarningMsg">最後に発行された警告には、空の警告の識別子がありました。\nつまり、警告はまだ出力されていません。</entry>
+    <entry key="stateOfWarningIs">警告 ''{0}'' の状態は ''{1}'' です。\n</entry>
+    <entry key="stateWarningHeader">  状態  警告の識別子\n\n</entry>
+    <entry key="InstructionWarningOff">\n(この警告を表示しないようにするには、"{0}" と入力してください。)\n</entry>
+  </message>
+</rsccat>

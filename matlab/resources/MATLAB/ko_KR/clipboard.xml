@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InsufficientCopyArguments">복사 시 CLIPBOARD 함수에 2개의 입력 인수가 필요합니다.</entry>
+    <entry key="InvalidSecondArgument">CLIPBOARD 함수에 대한 두 번째 인수는 숫자형 배열, 문자형 벡터 또는 string형 스칼라여야 합니다.</entry>
+    <entry key="IncorrectUsage">사용법: CLIPBOARD(''copy'',stuffToCopy) 또는 OUT = CLIPBOARD(''paste'')</entry>
+    <entry key="MatlabOnlineSupport">CLIPBOARD(''pastespecial'')은 MATLAB Online에서 지원되지 않음</entry>
+  </message>
+</rsccat>

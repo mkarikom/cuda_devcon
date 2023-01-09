@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SubscriptReferenceNotAllowed">() インデックスを使用して RandStream にインデックスを付けることはできません。</entry>
+    <entry key="CellReferenceNotAllowed">'{}' インデックスを使用して RandStream にインデックスを付けることはできません。</entry>
+    <entry key="InvalidMethodSyntax">構文を呼び出すメソッドが正しくありません。</entry>
+    <entry key="InvalidPropertySyntax">プロパティの参照が正しくありません。</entry>
+    <entry key="UnrecognizedProperty">プロパティ ''{0}'' が認識されません。</entry>
+  </message>
+</rsccat>

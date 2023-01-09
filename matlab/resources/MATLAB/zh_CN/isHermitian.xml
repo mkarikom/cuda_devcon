@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="inputType">数据类型无效。矩阵必须为双精度矩阵、单精度矩阵或逻辑矩阵。</entry>
+    <entry key="inputFlag">选项必须为 \''skew\'' 或 \''nonskew\''。</entry>
+  </message>
+</rsccat>

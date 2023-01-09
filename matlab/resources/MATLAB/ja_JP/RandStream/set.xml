@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="UnrecognizedProperty">プロパティ ''{0}'' が認識されません。</entry>
+    <entry key="IllegalPropertyAssignment">''{0}'' プロパティは読み取り専用で、ストリームの作成時にのみ設定できます。</entry>
+    <entry key="IllegalSeedAssignment">''Seed'' プロパティは読み取り専用で、ストリームの作成時、または RESET メソッドでのみ設定できます。</entry>
+    <entry key="MaxLHS">出力引数が多すぎます。</entry>
+    <entry key="WrongNumberArgs">引数の数が正しくありません。</entry>
+    <entry key="InvalidNumStateComponents">状態の配列が {0} ジェネレーターに対して無効です。</entry>
+    <entry key="InvalidStateLen">状態の配列の長さが {0} ジェネレーターに対して無効です。</entry>
+    <entry key="InvalidStateClass">状態の配列のクラスが {0} ジェネレーターに対して無効です。</entry>
+    <entry key="InvalidSubstreamIndex">サブストリームのインデックスは、正のスカラーの整数値でなければなりません。</entry>
+    <entry key="InvalidRandnAlg">NormalTransform は文字ベクトルでなければなりません。</entry>
+    <entry key="InvalidAntithetic">Antithetic は論理スカラーでなければなりません。</entry>
+    <entry key="InvalidFullPrecision">FullPrecision は論理スカラーでなければなりません。</entry>
+    <entry key="CantInitRandnAlg">NormalTransform を、{1} のジェネレーターに対応する ''{0}'' に初期化できません。</entry>
+    <entry key="InvalidStateBufLen">状態のバッファー長は、このジェネレーターに対して無効です。</entry>
+    <entry key="UnknownRandnAlg">不明な NormalTransform ''{0}'' です。</entry>
+    <entry key="SubstreamsNotSupported">サブストリームは {0} ジェネレーターではサポートされません。</entry>
+    <entry key="LegacyPrecision">レガシ ジェネレーターでは精度を設定できません。</entry>
+    <entry key="LegacyNormalTransform">レガシ ジェネレーターでは正常な変換アルゴリズムを設定できません。</entry>
+  </message>
+</rsccat>

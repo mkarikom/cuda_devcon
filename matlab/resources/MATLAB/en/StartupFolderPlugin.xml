@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016 The MathWorks, Inc. -->
+<rsccat locale="en_US" product="MATLAB" version="1.0">
+  <message>
+    <entry key="NoLastWorkingFolderAccess"> \"{0}\" selected using the Last Working Folder preference could not be accessed.\nUsing \"{1}\" as the initial working folder instead.</entry>
+    <entry key="NoCustomWorkingFolderAccess"> \"{0}\" using the Custom Working Folder preference could not be accessed.\nUsing \"{1}\" as the initial working folder instead.</entry>
+    <entry key="NoSdFolderAccess"> \"{0}\" selected using the -sd startup option could not be accessed.\nUsing \"{1}\" as the initial working folder instead.</entry>
+  </message>
+</rsccat>

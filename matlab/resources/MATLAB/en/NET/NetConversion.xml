@@ -1,0 +1,20 @@
+<rsccat version="1.0" locale="en_US" product="MATLAB" string_type_for_hole="mixed" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\schema\msgcat.xsd" decorate_cxx_names="1">
+   <message>
+    <entry key="COMConversion" translate="false">{0}</entry>
+    <entry key="StringConversion">Error converting an input type to the System.String type.</entry>
+    <entry key="DecimalConversion">Error converting an input type to the System.Decimal type.</entry>
+    <entry key="ObjectConversion">Error converting an input type to the System.Object type.</entry>
+    <entry key="VectorConversion">Error converting an input type to the System.Array type.</entry>
+    <entry key="DelegateConversion">Error converting input type to ''{0}''.</entry>
+    <entry key="CharArrayConversion">Error converting an input type to the System.Char[] type.</entry>
+    <entry key="NullableTypeConversion">Error converting input type to ''{0}''.</entry>
+    <entry key="NullableConversion" translate="false">{0}</entry>
+    <entry key="ArrayTypeConversion">Error converting input type to {0}.</entry>
+    <entry key="ObjectArrayConversion">Error converting input type to {0}.  The input type must be a cell array, System.Object Array, or empty double.</entry>
+    <entry key="StringArrayConversion">Error converting input type to {0}.  The input type must be a cell array, MATLAB string array, System.String Array, or empty double.</entry>
+    <entry key="InvalidCellElement">Input cell array must contain only System.String objects, MATLAB strings, or MATLAB char arrays.</entry>
+    <entry key="UnsupportedCellElement"><![CDATA[Input cell array contains one or more types that are not supported. See <a href="matlab: helpview([docroot '/techdoc/matlab_external/matlab_external.map'],'supported_cell_types_for_net')">Passing Cell Arrays to .NET</a> for a list of supported types.]]></entry>
+    <entry key="NonRectJaggedArray"><![CDATA[Error converting input type to {0}.  The input must be a jagged array of rectangular shape.  Consider calling <a href="matlab: helpview([docroot '/techdoc/ref/ref.map'],'cell_ref_page')">Cell</a>.]]></entry>
+    <entry key="UndefinedConversion"><![CDATA[Conversion to {0} from {1} is not possible.  For more details see <a href="matlab: helpview([docroot '/techdoc/matlab_external/matlab_external.map'],'allowed_jagged_types_for_conversion')">Converting .NET Jagged Arrays to MATLAB Arrays</a>.]]></entry>
+   </message>
+ </rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="WindowTimeout">UIJ_AreThereWindowShowsPending - ウィンドウ表示待ちのタイムアウト</entry>
+    <entry key="TestingTimeout">UIJ_AreThereWindowShowsPending - サイズ変更待ちのタイムアウト</entry>
+    <entry key="OutOfMemory">操作を続行するには、Java ヒープ メモリが不十分です</entry>
+  </message>
+</rsccat>

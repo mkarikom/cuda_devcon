@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NotEnoughInputs">Not enough input arguments.</entry>
+    <entry key="InvalidM">m must be one of 0,1,2.</entry>
+    <entry key="TSPANnotEnoughPts">TSPAN must have at least 3 entries.</entry>
+    <entry key="TSPANnotIncreasing">The entries of TSPAN must be strictly increasing.</entry>
+    <entry key="NegXMESHwithPosM">When M &gt; 0, XMESH(1) must be non-negative.</entry>
+    <entry key="XMESHnotEnoughPts">XMESH must have at least 3 entries.</entry>
+    <entry key="XMESHnotIncreasing">The entries of XMESH must be strictly increasing.</entry>
+    <entry key="InvalidOutputICFUN">Invalid output of ICFUN. ICFUN must return a column vector.</entry>
+    <entry key="UnexpectedOutputPDEFUN">Unexpected output of PDEFUN. For this problem PDEFUN must return three column vectors of length {0}.</entry>
+    <entry key="UnexpectedOutputBCFUN">Unexpected output of BCFUN. For this problem BCFUN must return four column vectors of length {0}.</entry>
+    <entry key="SpatialDiscretizationFailed">Spatial discretization has failed. Discretization supports only parabolic and elliptic equations, with flux term involving spatial derivative.</entry>
+    <entry key="TimeIntegrationFailed">Time integration has failed. Solution is available at requested time points up to t={0}.</entry>
+  </message>
+</rsccat>

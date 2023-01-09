@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+    <message>
+        <entry key="invalidIntegrand">First input argument must be a function handle.</entry>
+        <entry key="invalidXMin">XMIN must be a floating point scalar.</entry>
+        <entry key="invalidXMax">XMAX must be a floating point scalar.</entry>
+        <entry key="invalidYMin">YMIN must be a floating point scalar or a function handle.</entry>
+        <entry key="invalidYMax">YMAX must be a floating point scalar or a function handle.</entry>
+        <entry key="nonFiniteLimit">Unbounded integration region. The integration limits must be finite for the ''tiled'' integration method. Consider using the ''iterated'' method instead.</entry>
+        <entry key="nonFiniteResult">Non-finite result. The integration was unsuccessful. Singularity likely.</entry>
+        <entry key="minRectSizeFail">Reached the minimum rectangle size. The result fails the global error test.</entry>
+        <entry key="minRectSizePass">Reached the minimum rectangle size. The result passes the global error test.</entry>
+        <entry key="UnsupportedClass">Input function must return ''double'' or ''single'' values. Found ''{0}''.</entry>
+        <entry key="yMinSizeMismatch">Lower limit size mismatch: size(YMIN(x)) does not match size(x).</entry>
+        <entry key="yMaxSizeMismatch">Upper limit size mismatch: size(YMAX(x)) does not match size(x).</entry>
+        <entry key="funSizeMismatch">Integrand output size does not match the input size.</entry>
+        <entry key="invalidAbsTol">''AbsTol'' value must be a nonnegative double or single scalar.</entry>
+        <entry key="invalidRelTol">''RelTol'' value must be a nonnegative double or single scalar.</entry>
+        <entry key="maxFunEvalsFail">Reached the maximum number of function evaluations ({0,number,integer}). The result fails the global error test.</entry>
+        <entry key="maxFunEvalsPass">Reached the maximum number of function evaluations ({0,number,integer}). The result passes the global error test.</entry>
+        <entry key="invalidMethod">Method must be ''auto'', ''tiled'', or ''iterated''.</entry>
+        <entry key="funVectorization">Integrand function outputs did not match to the required tolerance when the same input values were supplied in two separate calls with different size input matrices. Check that the function is vectorized properly.</entry>
+        <entry key="unsuccessful">The integration was unsuccessful.</entry>
+    </message>
+</rsccat>

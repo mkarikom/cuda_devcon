@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ConnectionRefused">连接被拒绝。</entry>
+    <entry key="UrlNotFoundOnServer">未在此服务器上找到请求的 URL。</entry>
+    <entry key="UnknownHost">未知主机: {0}</entry>
+    <entry key="SoapFault">SOAP 错误: {0}</entry>
+    <entry key="Fault">未指定的错误: {0}</entry>
+  </message>
+</rsccat>

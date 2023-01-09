@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="DivideLengthIncorrect">''DIVIDE'' 引数は、''W'' 以上の長さの行ベクトルとして評価されなければなりません。詳細については、''parallel_function'' を参照してください。</entry>
+    <entry key="DivideNotIncreasing">''DIVIDE'' 引数は、''BASE'' と ''LIMIT'' の間の連続的に増加する整数の行ベクトルとして評価されなければなりません。詳細については、''parallel_function'' を参照してください。</entry>
+    <entry key="ArgumentMissing">入力引数の数が正しくありません。''parallel_function'' には ''RANGE'' 引数と ''F'' 引数が必要です。詳細については、''parallel_function'' を参照してください。</entry>
+    <entry key="InvalidArgumentRANGE">''RANGE'' 引数は、2 要素からなる整数の行ベクトルとして評価されなければなりません。詳細については、''parallel_function'' を参照してください。</entry>
+    <entry key="InvalidArgumentReal">''RANGE'' 引数の ''BASE'' と ''LIMIT'' は実数でなければなりません。詳細については、''parallel_function'' を参照してください。</entry>
+    <entry key="InvalidArgumentInteger">''RANGE'' 引数の ''BASE'' と ''LIMIT'' は整数でなければなりません。詳細については、''parallel_function'' を参照してください。</entry>
+    <entry key="InvalidArgumentF">''F'' 引数は関数ハンドルでなければなりません。詳細については、''parallel_function'' を参照してください。</entry>
+    <entry key="InvalidArgument">''{0}'' 引数は関数ハンドルまたは [] でなければなりません。詳細については、''parallel_function'' を参照してください。</entry>
+    <entry key="ArgumentNotSupplied">引数の数が正しくありません。''{0}'' が関数ハンドルの場合は、''{1}'' を指定しなければなりません。詳細については、''parallel_function'' を参照してください。</entry>
+    <entry key="InvalidArgumentM">''M'' 引数は 0 または正のスカラー整数でなければなりません。詳細については、''parallel_function'' を参照してください。</entry>
+    <entry key="InvalidOutputArgument">出力引数の数が正しくありません最大で 3 つの出力が可能です。詳細については、''parallel_function'' を参照してください。</entry>
+    <entry key="InvalidArgsForThreeOutputs">出力引数の数が正しくありません出力引数が 3 つの場合、入力引数 ''REDUCE'' および ''CONCAT'' が必要です。詳細については、''parallel_function'' を参照してください。</entry>
+    <entry key="InvalidArgsForTwoOutputs">出力引数の数が正しくありません出力引数が 2 つの場合、入力引数 ''REDUCE'' または ''CONCAT'' が必要です。詳細については、''parallel_function'' を参照してください。</entry>
+    <entry key="InvalidArgumentNumericDIVIDE">''DIVIDE'' 引数は 0 より大きいスカラー整数でなければなりません。詳細については、''parallel_function'' を参照してください。</entry>
+    <entry key="InvalidArgumentFHandleDIVIDE">''DIVIDE'' の関数ハンドルの値は、2 つまたは 3 つの引数を取らなければなりません。詳細については、''parallel_function'' を参照してください。</entry>
+    <entry key="InvalidArgumentDIVIDE">''DIVIDE'' 引数は、数値、関数ハンドル、または [] でなければなりません。詳細については、''parallel_function'' を参照してください。</entry>
+    <entry key="InvalidSecondArgument">Invalid argument for parfor. Second input argument for parfor must be the maximum number of workers specified as a nonnegative integer scalar or Inf, a set of parforOptions, or a parallel.Cluster object.</entry>
+    <entry key="maxWorkers">ワーカーの最大数は、0、正の整数、または Inf でなければなりません。</entry>
+    <entry key="sliced_function_handle">スライス化された変数 ''{0}'' は関数ハンドルにできません。parfor ループ内で関数ハンドルを呼び出すには、"feval({1}, args)" を使用します。詳細については、{2} を参照してください。</entry>
+    <entry key="InvalidComposite">Composite オブジェクトは parfor ループ内でサポートされていません。</entry>
+    <entry key="SourceCodeNotAvailable">ワーカー上で実行しようとしている parfor ループのソース コード ({0}) が見つかりませんでした。</entry>
+    <entry key="UndefinedFunctionOnWorker">UndefinedFunction エラーが ''{0}'' のワーカーでスローされました。ワーカーで ''{1}'' を含むファイルにアクセスできないことが原因の可能性があります。addAttachedFiles(pool, files) を使用して必要なファイルが付加されるように指定してください。詳細については、''parallel.Pool/addAttachedFiles'' のドキュメンテーションを参照してください。</entry>
+    <entry key="range_not_consecutive">parfor ループ変数 ''{0}'' の範囲は、連続的に増加する整数の行ベクトルとして評価されなければなりません。詳細については、{1} を参照してください。</entry>
+    <entry key="range_must_be_row_vector">parfor ループ変数 ''{0}'' の範囲は、行ベクトルとして評価されなければなりません。詳細については、{1} を参照してください。</entry>
+    <entry key="range_endpoint">parfor ループ変数の範囲 ''{0}'' の端点は、整数に評価されなければなりません。詳細については、{1} を参照してください。</entry>
+    <entry key="InvalidParforLoopRangeStep">parfor ループ変数の範囲 ''{0}'' の範囲ステップは、整数値 1 として評価されなければなりません。詳細については、{1} を参照してください。</entry>
+    <entry key="range_exceeds_bounds">parfor ループ変数 ''{0}'' が、parfor ループでサポートされる整数型の範囲を超えています。詳細については、{1} を参照してください。</entry>
+    <entry key="InvalidMixedNonDoubleParforLoopRange">parfor ループ変数の範囲 ''{0}'' のコロン演算子は、すべて同じ型か、実数のスカラー double との混在でなければなりません。詳細については、{1} を参照してください。</entry>
+    <entry key="InvalidNestedForLoopContext">エラー: {0}スライス化された変数 ''{1}'' を入れ子にされた for ループ変数 ''{2}'' でインデックス付けする場合、スライス化された変数は、for ループ変数の範囲を定義する for ループ内になければなりません。詳細については、{3} を参照してください。</entry>
+    <entry key="InvalidMultipleNestedForLoopVariableDefintions">エラー: {0}スライス化された変数 ''{1}'' を入れ子にされた for ループ変数 ''{2}'' でインデックス付けする場合、for ループ変数に、その for ステートメント以外で代入を行うことはできません。詳細については、{3} を参照してください</entry>
+    <entry key="InvalidNestedForLoopRangeDimensions">スライス化された変数を入れ子にされた for ループ変数 ''{0}'' でインデックス付けする場合、for ループ変数の範囲は、行ベクトルとして評価されなければなりません。詳細については、{1} を参照してください。</entry>
+    <entry key="InvalidNestedForLoopRangeValue">スライス化された変数を入れ子にされた for ループ変数 ''{0}'' でインデックス付けする場合、for ループ変数の範囲は、正の整数の行ベクトルとして評価されなければなりません。詳細については、{1} を参照してください。</entry>
+    <entry key="InvalidNestedForLoopRangeStep">スライス化された変数を入れ子にされた for ループ変数 ''{0}'' でインデックス付けする場合、for ループ変数の範囲の範囲ステップは、整数として評価されなければなりません。詳細については、{1} を参照してください。</entry>
+    <entry key="InvalidNestedForLoopRangeEndpoint">スライス化された変数を for ループ変数 ''{0}'' でインデックス付けする場合、for ループ変数の範囲の端点は、正の整数として評価されなければなりません。詳細については、{1} を参照してください。</entry>
+    <entry key="InvalidSlicedVariableOffset">スライス化された変数 ''{0}'' をインデックス付けする場合、スライス化された変数のオフセットは整数の定数として評価されなければなりません。詳細については、{1} を参照してください。</entry>
+    <entry key="InvalidMixedNonDoubleSlicedVariableOffset">オフセット値 ''{0}'' を指定して、スライス化された変数をインデックス付けする場合、オフセットと parfor ループ変数の範囲は同じ型であるか、実数の double スカラーを含む混合型でなければなりません。詳細については、{1} を参照してください。</entry>
+    <entry key="UninitializedReductionVariable">リダクション変数 ''{0}'' は parfor ループの前に設定しなければなりません。詳細については、{1} を参照してください。</entry>
+    <entry key="InvalidNestedForLoopRange">エラー: {0}スライス化された変数 ''{1}'' をインデックス付けする場合、for ループ変数 ''{2}'' の範囲は、正の定数または変数の行ベクトルでなければなりません。詳細については、{3} を参照してください。</entry>
+    <entry key="InvalidNestedForLoopVariableAssignment">エラー: {0} for ループ変数 ''{1}'' への代入は、parfor ループ内でサポートされていません。詳細については、{2} を参照してください。</entry>
+    <entry key="InvalidNestedForLoopVariableIndexing">エラー: {0}for ループ変数 ''{1}'' のインデックス付けは、parfor ループ内でサポートされていません。詳細については、{2} を参照してください。</entry>
+    <entry key="AnsAsParforLoopVariable">エラー: {0}parfor ループ変数としての ans の使用はサポートされていません。詳細については、{1} を参照してください。</entry>
+    <entry key="AnsAsNestedForLoopVariable">エラー: {0}for ループ変数としての ans の使用は、parfor ループ内でサポートされていません。詳細については、{1} を参照してください。</entry>
+    <entry key="AnsAsReductionVariable">エラー: {0}リダクション変数としての ans の使用は、parfor ループ内でサポートされていません。詳細については、{1} を参照してください。</entry>
+    <entry key="AnsAsSlicedVariable">エラー: {0}スライス化された変数としての ans の使用は、parfor ループ内でサポートされていません。詳細については、{1} を参照してください。</entry>
+    <entry key="InvalidSlicedOutputInsideAnonymousFunction">エラー: {0}無名関数内でのスライス化された出力変数 ''{1}'' の使用は、parfor ループ内でサポートされていません。詳細については、{2} を参照してください。</entry>
+    <entry key="InvalidReductionOperationAssignment">エラー: {0}リダクション ステートメントのリダクション関数 ''{1}'' への代入は、parfor ループ内でサポートされていません。詳細については、{2} を参照してください。</entry>
+    <entry key="InvalidLoadFunctionCall">エラー: {0}出力変数への代入を行わない関数 load の使用は、parfor ループ内でサポートされません。詳細については、{1} を参照してください。</entry>
+    <entry key="InvalidInputnameFunctionCall">エラー: {0}parfor ループ内での inputname の使用はサポートされていません。詳細については、{1} を参照してください。</entry>
+    <entry key="InvalidBroadcastSlicedVariableArgument">スライス化された変数 ''{0}'' にブロードキャスト変数 ''{1}'' を使用してインデックス付けを行う場合、ブロードキャスト変数は正の整数または logical 値に評価されなければなりません。詳細については、{2} を参照してください。</entry>
+  </message>
+</rsccat>

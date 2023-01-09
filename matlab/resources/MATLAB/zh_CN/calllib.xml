@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NameAndFunctionNeeded">要调用函数，需要提供库名称和函数名称。</entry>
+    <entry key="InvalidReturnType">不支持函数返回类型。</entry>
+    <entry key="Unsupported">此平台不支持共享库调用。</entry>
+    <entry key="StdUnsupported">此平台不支持 Std 调用。</entry>
+    <entry key="NotFound">未找到库</entry>
+    <entry key="MethodNotFound">未找到方法。</entry>
+    <entry key="AccessNotAllowed">不允许访问此方法。</entry>
+    <entry key="MethodNotStatic">无法将实例方法作为静态方法调用。</entry>
+    <entry key="NoMatchingSignatureFound">没有具有匹配签名的方法。</entry>
+  </message>
+</rsccat>

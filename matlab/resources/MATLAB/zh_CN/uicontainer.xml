@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidParentChildObject">您正尝试将父属性设置为后代子对象。</entry>
+    <entry key="InvalidInputArgument">参数只能包括父句柄和参数/值对组</entry>
+    <entry key="InvalidParent">父句柄必须为图窗、uicontainer 或 uibuttongroup。</entry>
+    <entry key="InvalidParentFigure">父级必须为图窗或任何 UIContainer</entry>
+    <entry key="InvalidParentToChild">您正尝试将父属性设置为后代子对象。</entry>
+    <entry key="UnsupportedFeature">当前不支持此功能。</entry>
+    <entry key="SetScrollable">使用 figure 函数创建的图窗及其子图窗不支持滚动。</entry>
+    <entry key="ScrollableOff">'Scrollable' 必须为 'on' 才支持以编程方式滚动。</entry>
+    <entry key="InvalidScrollTarget">位置无效</entry>
+  </message>
+</rsccat>

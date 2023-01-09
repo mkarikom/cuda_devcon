@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidObject">要添加到布局的对象必须支持进行布局。</entry>
+    <entry key="DuplicateEntry">此对象已添加到该布局。</entry>
+    <entry key="InvalidLocation">位置必须为 ''north''、''south''、''east'' 或 ''west'' 之一。</entry>
+    <entry key="InvalidList">列表输入必须为 ''inner'' 或 ''outer''。</entry>
+    <entry key="InconsistentState">由于内部状态不一致，无法执行坐标区布局。</entry>
+  </message>
+</rsccat>

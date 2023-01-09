@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNameValueMismatch">参数必须以名称-值对组的形式出现。</entry>
+    <entry key="PropNameNotString">第 {0,number,integer} 个参数应为字符串或字符向量。</entry>
+    <entry key="InvalidPropName">属性名称 ''{0}'' 无法识别。</entry>
+    <entry key="NoValueForProp">需要属性 ''{0}'' 的值。</entry>
+    <entry key="NoPropNameOrStruct">第 {0,number,integer} 个参数应为字符串、字符向量或通过 BVPSET 创建的 options 结构体。</entry>
+    <entry key="AmbiguousPropName">属性名称 ''{0}'' ({1}) 具有多义性。</entry>
+  </message>
+</rsccat>

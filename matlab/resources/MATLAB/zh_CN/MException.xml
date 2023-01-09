@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="badIdentifier">IDENTIFIER 输入必须为有效的 MATLAB 消息标识符。有关详细信息，请了解 MATLAB 帮助中的 {0}。</entry>
+    <entry key="MExceptionIdentifiers">MException 标识符</entry>
+    <entry key="BadValueForLast">Last 方法只接受 ''reset'' 作为输入。</entry>
+    <entry key="CorrectionLimitExceeded">一个 MException 不能有多个 Correction。</entry>
+    <entry key="MessageCTOR">无法创建消息对象。</entry>
+    <entry key="MessageIdentifier">消息标识符</entry>
+    <entry key="MessageMustBeChar">MESSAGE 输入必须为字符向量或字符串标量。</entry>
+    <entry key="MessageText">消息文本</entry>
+    <entry key="InvalidType">MException 类型无效。</entry>
+    <entry key="MustCallLastFromCommandLine">只能通过命令提示符调用 last() 方法。</entry>
+    <entry key="NonScalarCorrection">Correction 必须为 matlab.lang.correction.Correction 标量对象。</entry>
+    <entry key="nonScalarInput">格式化的 MESSAGE 输入必须为标量实数值、字符向量或字符串标量。</entry>
+    <entry key="NonScalarMException">MException 必须为标量。</entry>
+    <entry key="NonScalarMessage">消息必须为标量。</entry>
+    <entry key="ErrorIn">出错</entry>
+    <entry key="OperationTerminatedByUser">操作在以下过程中被用户终止</entry>
+    <entry key="In">位置</entry>
+    <entry key="CausedBy">\n原因:\n</entry>
+    <entry key="ErrorCallingMethod">调用 {0}/{1} 时出错:\n{2}</entry>
+    <entry key="MoreInformation">相关文档</entry>
+  </message>
+</rsccat>

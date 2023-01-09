@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ExpectedNumeric">Value must be numeric</entry>
+    <entry key="ExpectedNumeric1">Value must be numeric</entry>
+    <entry key="ExpectedNumeric2">Value must be numeric</entry>
+    <entry key="ExpectedScalar">Value must be scalar</entry>
+  <!--Resource entries for src/hgdatatypes-->
+    <entry key="ValueOutsideRange">Alpha value must be between 0.0 and 1.0</entry>
+  </message>
+</rsccat>

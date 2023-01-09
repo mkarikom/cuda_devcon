@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="VNot3D">V는 3차원 배열이어야 합니다.</entry>
+    <entry key="VPlanar">V의 크기는 2x2x2보다 크거나 같아야 합니다.</entry>
+    <entry key="XYZMixedEmpty">X, Y, Z는 셋 다 빈 행렬이거나 비어 있지 않은 행렬이어야 합니다.</entry>
+    <entry key="XVSizeMismatch">X의 크기는 V의 크기와 일치하거나 V의 열 개수와 일치해야 합니다.</entry>
+    <entry key="YVSizeMismatch">Y의 크기는 V의 크기와 일치하거나 V의 행 개수와 일치해야 합니다.</entry>
+    <entry key="ZVsizeMismatch">Z의 크기는 V의 크기와 일치하거나 V의 페이지 수와 일치해야 합니다.</entry>
+  </message>
+</rsccat>

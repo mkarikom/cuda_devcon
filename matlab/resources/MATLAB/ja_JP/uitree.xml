@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MigratingFunction">ドキュメンテーションにないこの機能は、将来のリリースで置き換えられる予定です。\n使用を続けるには、最初の引数として ''v0'' を追加し、正規の呼び出し手続きを行ってください。</entry>
+    <entry key="DeprecatedFunction">この uitree の実装は廃止予定で、サポートされなくなりました。</entry>
+    <entry key="InvalidFigureHandle">認識されないパラメーターです。</entry>
+    <entry key="InvalidNumInputs">認識されないパラメーターです。</entry>
+    <entry key="UnrecognizedParameter">認識されないパラメーターです。</entry>
+    <entry key="UnknownNodeType">uitree のノード タイプは認識されません。ノードに対して ExpandFcn を定義する必要があります。</entry>
+  </message>
+</rsccat>

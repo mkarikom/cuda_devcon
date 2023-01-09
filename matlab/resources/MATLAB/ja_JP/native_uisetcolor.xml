@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TitleMustBeLastParam">title は uisetcolor に渡される最後のパラメーターでなければなりません</entry>
+    <entry key="BadHandle">無効なハンドル</entry>
+    <entry key="ColorSelectionNotSupported">Color の選択は {0} オブジェクトに対してサポートされていませんが、Color または ForeGroundColor プロパティをもつオブジェクトに対してのみサポートされています。</entry>
+    <entry key="BadColorSpec">無効な色指定</entry>
+    <entry key="BadArguments">2 番目の引数 (ダイアログのタイトル) は文字ベクトルでなければなりません</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInputDataType">첫 번째 인수는 double형이어야 함 </entry>
+    <entry key="InvalidInputDataSize">첫 번째 인수는 NX4의 크기여야 합니다.</entry>
+    <entry key="invalidSecondInputArgument">두 번째 인수는 숫자형 스칼라여야 함</entry>
+    <entry key="InvalidFirstInputArg">첫 번째 인수는 double형이어야 함 </entry>
+  </message>
+</rsccat>

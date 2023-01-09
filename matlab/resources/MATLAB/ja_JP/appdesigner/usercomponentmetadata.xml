@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Registered">登録済み</entry>
+    <entry key="NotRegistered">未登録</entry>
+    <entry key="MissingFile">見つからないファイル</entry>
+    <entry key="MyComponents">ユーザーのコンポーネント</entry>
+    <entry key="DirLabel">App Designer で登録する UI コンポーネントのディレクトリ:</entry>
+    <entry key="RegisterLabel">登録</entry>
+    <entry key="UpdateLabel">更新</entry>
+    <entry key="DeregisterLabel">登録解除</entry>
+    <entry key="InfoForAuthor">App Designer でカスタム UI コンポーネントを登録すると resources ディレクトリが作成されます。App Designer でカスタム UI コンポーネントを統合するには、このディレクトリをカスタム UI コンポーネントと共に共有しなければなりません。</entry>
+    <entry key="StatusLabel">UI コンポーネント</entry>
+    <entry key="UIComponentsLabel">ステータス</entry>
+    <entry key="LastUpdatedLabel">最終更新</entry>
+    <entry key="DeregistrationWarningMsg">選択したコンポーネントを登録解除してもよろしいですか?</entry>
+    <entry key="CompLibConfigLabel">コンポーネント ライブラリの構成</entry>
+    <entry key="NameLabel">名前</entry>
+    <entry key="VersionLabel">バージョン</entry>
+    <entry key="DescriptionLabel">説明</entry>
+    <entry key="CategoryLabel">カテゴリ</entry>
+    <entry key="IconLabel">アイコン</entry>
+    <entry key="AdvancedConfigLabel">詳細構成</entry>
+    <entry key="LabeledComponentLabel">ラベル付きコンポーネント</entry>
+    <entry key="LabelPositionLabel">ラベル位置</entry>
+    <entry key="SingleInstancelabel">単一インスタンス</entry>
+    <entry key="AuthorInfoLabel">作成者情報</entry>
+    <entry key="AuthorNameLabel">作成者名</entry>
+    <entry key="AuthorEmailLabel">作成者の電子メール</entry>
+    <entry key="PreviewLabel">プレビュー</entry>
+    <entry key="OkLabel">OK</entry>
+    <entry key="CancelLabel">キャンセル</entry>
+    <entry key="HelpLabel">ヘルプ</entry>
+    <entry key="BrowseLabel">参照</entry>
+    <entry key="MetadataUITitle">カスタム UI コンポーネントの App Designer メタデータ</entry>
+    <entry key="ComponentFileLabel">コンポーネント ファイル</entry>
+    <entry key="ComponentLibAppearanceLabel">コンポーネント ライブラリの外観</entry>
+    <entry key="ComponentDetailsLabel">コンポーネントの詳細</entry>
+    <entry key="ComponentRegistrationHeader">App Designer</entry>
+    <entry key="RegistrationInProgressMsg">コンポーネントの App Designer メタデータを構成中...</entry>
+    <entry key="RegistrationErrorMsg">コンポーネントのメタデータを構成中にエラーが発生しました。\n\n{0}</entry>
+    <entry key="IconFileErrorMsg">ファイルはタイプが .png、.jpeg、.jpg、または .gif のイメージでなければなりません</entry>
+    <entry key="CategoryEmptyErrorMsg">カテゴリを空にすることはできません</entry>
+    <entry key="ComponentNameEmptyErrorMsg">コンポーネント名を空にすることはできません</entry>
+    <entry key="InvalidVersionErrorMsg">コンポーネントのバージョンを空にすることはできません。また、形式は Major.Minor でなければなりません</entry>
+    <entry key="InvalidEmailErrorMsg">有効な電子メールを入力してください</entry>
+    <entry key="NotValidCustomComponentClass">ファイル {0} は有効なカスタム UI コンポーネントのクラスではありません。</entry>
+    <entry key="NotCustomComponentClass">ファイル {0} は {1} から継承していないため、有効なカスタム UI コンポーネントのクラスではありません。</entry>
+    <entry key="RegistrationSuccessMsg">App Designer メタデータが含まれる resources フォルダーが作成されました。\n\nApp Designer でコンポーネントを使用するには、コンポーネントとリソースが含まれるこのフォルダーを MATLAB パスに追加してください。</entry>
+    <entry key="UpdateSuccessMsg">App Designer メタデータが含まれる resources フォルダーが更新されました。\n\nApp Designer でコンポーネントを使用するには、コンポーネントとリソースが含まれるこのフォルダーを MATLAB パスに追加してください。</entry>
+    <entry key="NoWriteAccessErrorMsg">MATLAB には、コンポーネントが含まれるフォルダーへの書き込みアクセス権限がありません。\n\nApp Designer メタデータが含まれる resources フォルダーを作成するには、書き込みアクセス権限が必要です。</entry>
+    <entry key="NotEnoughInputArgErrorMsg">コンポーネントを App Designer で使用する場合、コンポーネント クラスの setup メソッドに必須の入力引数があってはなりません。</entry>
+    <entry key="InvalidModelWarningMsg">コンポーネントが含まれるフォルダー内の resources フォルダーにあるメタデータ ファイルが無効です。\n\nこのコンポーネントのメタデータを保存すると、既存のメタデータ ファイルが上書きされます。</entry>
+    <entry key="RogueComponentErrorMsg">コンポーネントを App Designer で使用する場合、コンポーネントはその親に対し追加のコンポーネントを動的に付加することはできません。</entry>
+    <entry key="InvalidUnitsErrorMsg">コンポーネントを App Designer で使用する場合、コンポーネントの 'Units' プロパティを 'pixels' に設定しなければなりません。</entry>
+    <entry key="AbstractComponentErrorMsg">クラス {0} は抽象クラスであるため、インスタンス化できません。matlab.ui.componentcontainer.ComponentContainer から継承した setup メソッドと update メソッドを含め、すべての抽象メソッドが実装されていることを確認してください。</entry>
+    <entry key="CallbackHasValueErrorMsg">パブリック コールバックに値が代入されています: {0}。\n\nコンポーネントを App Designer で使用するには、コンポーネントによって定義されたパブリック コールバックにそのコンポーネントが値を代入してはなりません。代わりに関数 addlistener を使用して、イベント用のイベント リスナーを作成してください: {1}。</entry>
+    <entry key="AvatarNotCapturedWarning">UI コンポーネントのアバターを取得できません。ユーザーは、UI コンポーネントをコンポーネント ライブラリからキャンバスへとドラッグする際にコンポーネントのプレビューを表示することができません。\nUI コンポーネントのアバターを取得するには、コンピューターにインストールされているバージョンの MATLAB からコンポーネントを構成してください。</entry>
+    <entry key="ComponentDetailsHelp">コンポーネントに関するオプション情報をツールヒントに表示するように指定</entry>
+    <entry key="CategoryHelp">コンポーネントが表示される、コンポーネント ライブラリのセクションを指定</entry>
+  </message>
+</rsccat>

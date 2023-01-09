@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidVars">숫자형 인덱스나 논리형 인덱스, 또는 변수 이름을 사용하거나, 논리형 스칼라를 반환하는 함수 핸들을 사용하여 테이블 변수를 지정하십시오.</entry>
+    <entry key="InvalidTextType">''{0}'' 유형으로 변환할 수 없습니다. 데이터형을 클래스 이름이나 함수 핸들로 지정하십시오.</entry>
+    <entry key="InvalidType">데이터형을 클래스 이름 텍스트나 함수 핸들로 지정하십시오.</entry>
+    <entry key="ConvertCharWarning">데이터형을 'char'로 변환하면 변수가 문자형 배열이 아닌, 문자형 벡터로 구성된 셀형 배열로 변환됩니다. 텍스트 데이터를 테이블에 문자형 배열로 저장하는 것은 권장되지 않습니다. 테이블이나 타임테이블에서 텍스트 데이터를 사용하는 경우 string형 배열이나 categorical형 배열을 사용해 보십시오.</entry>
+    <entry key="IncorrectNumRows">변환된 변수의 행 수는 원래 변수의 행 수와 동일하게 유지되어야 합니다.</entry>
+    <entry key="RowLabelsCannotBeDataVar">행 이름은 데이터 변수로 사용할 수 없습니다.</entry>
+    <entry key="RowLabelsCannotBeDataVarNondefaultName">''{0}''은(는) 인식할 수 없는 변수 이름입니다. 이 테이블의 ''{1}''(으)로 명명된 행 이름에 액세스하려고 했을 수 있습니다. 그러나 행 이름은 데이터 변수로 사용할 수 없습니다.</entry>
+    <entry key="NonConstantArg">''{0}'' 인수는 상수여야 합니다.</entry>
+  </message>
+</rsccat>

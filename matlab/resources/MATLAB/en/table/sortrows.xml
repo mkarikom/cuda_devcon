@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2018 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="UnrecognizedMode" note="stringDatatypeUpdate">Direction must be ''ascend'' or ''descend'', or a string array or a cell array containing those directions.</entry>
+    <entry key="WrongLengthMode">Direction must have one element for each variable you sort on.</entry>
+    <entry key="EmptyRowNames">The input table does not contain row names, returning the input unsorted.</entry>
+    <entry key="BadNumericVarIndices">Numeric variable indices must be either positive or negative integers.</entry>
+    <entry key="NDVar">Sorting variable ''{0}'' has more than 2 dimensions.</entry>
+    <entry key="SortOnVarFailed">An error occurred when sorting the variable ''{0}'', whose type is ''{1}''.</entry>
+    <entry key="SortrowsOnVarFailed">An error occurred when sorting rows of the variable ''{0}'', whose type is ''{1}''.</entry>
+    <!-- codegen -->
+    <entry key="NonConstantVars">In code generation, sorting variables must be specified as constant.</entry>
+    <entry key="MultiColumnCellstr">Sortrows does not support multi-column cellstr variables in code generation.</entry>
+    <entry key="NVPairsCellstr">Sortrows only supports specifying direction for cellstr variables. Other parameters are not supported in code generation.</entry>
+  </message>
+</rsccat>

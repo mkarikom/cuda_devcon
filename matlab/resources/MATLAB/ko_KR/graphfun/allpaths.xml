@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="KeyWithoutValue">No value given for {0}.</entry>
+    <entry key="NonScalarSource">Source must specify one node.</entry>
+    <entry key="NonScalarTarg">Target must specify one node.</entry>
+    <entry key="nomem">메모리가 부족합니다. ''MaxNumPaths''를 사용하여, 계산할 경로 수를 제한해 보십시오.</entry>
+  </message>
+</rsccat>

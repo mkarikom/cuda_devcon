@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2104 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="workspaceFailed">Failed to open the Workspace browser</entry>
+    <entry key="PassedInWorkspaceDoesNotMatchExistingWorkspace">The workspace passed in does not match the existing workspace.  Returning existing workspace browser.</entry>
+    <entry key="ErrorUpdatingPrivateWorkspaceVariableList">Error updating private workspace variable list: \n{0}\n</entry>
+  </message>
+</rsccat>

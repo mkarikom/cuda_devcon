@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="isEqual">LogicalArray:isEqual 出现未知异常</entry>
+    <entry key="BadLogicalArrayRowVector">值必须为行向量</entry>
+    <entry key="BadLogicalArray">值必须为逻辑值或逻辑数组</entry>
+  </message>
+</rsccat>

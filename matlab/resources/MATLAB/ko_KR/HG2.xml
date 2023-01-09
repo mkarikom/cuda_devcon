@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidProjectionMatrix">카메라의 투영 행렬을 가져오지 못했습니다.</entry>
+    <entry key="getPositionFailed">텍스트 getPosition에서 실패했습니다.</entry>
+    <entry key="TranfromPointsFailed">TransformPoints에서 실패했습니다.</entry>
+    <entry key="InvalidScale">스케일링 인자는 양수여야 합니다.</entry>
+    <entry key="InvalidXYZData">유효하지 않은 {0} 배열, 면 및 꼭짓점이 업데이트되지 않음</entry>
+    <entry key="InvalidFaceVertexData">유효하지 않은 면 또는 꼭짓점 데이터 배열, {0}이(가) 업데이트되지 않음</entry>
+    <entry key="InvalidOSGWarningLevel">지원되는 레벨: always, fatal, warn, notice, info, debug_info, debug_fp</entry>
+    <entry key="InvalidMarkerShaderOpenGLVersionLimitedValue">사용할 수 있는 값은 0과 1임</entry>
+  </message>
+</rsccat>

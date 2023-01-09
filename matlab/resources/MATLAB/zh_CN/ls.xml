@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InputsMustBeStrings">输入必须为字符向量或字符串标量。</entry>
+    <entry key="TooManyOutputArguments">输出参数太多。</entry>
+    <entry key="TooManyInputArguments">输入参数太多。</entry>
+    <entry key="URLNotAllowed">请使用 'dir' 函数来实现 URL 支持。</entry>
+    <entry key="OSError">{0}</entry>
+  </message>
+</rsccat>

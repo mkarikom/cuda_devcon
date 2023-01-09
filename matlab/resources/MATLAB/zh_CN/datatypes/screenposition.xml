@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidFormat">输入值的格式不为 [x y w h]</entry>
+    <entry key="NullDataPointer">输入数组包含空数据指针</entry>
+    <entry key="InvalidWidthAndHeight">Width 或 Height 值不能小于零。</entry>
+    <entry key="InvalidDataType">数据类型无效。</entry>
+  </message>
+</rsccat>

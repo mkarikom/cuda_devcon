@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="firstInputString" note="stringDatatypeUpdate">The first input to exist must be a string scalar or character vector.</entry>
+    <entry key="secondOptionalInputString">The optional second input to exist must be ''var'', ''builtin'', ''class'', ''dir'' or ''file''.</entry>
+    <entry key="errorInTransparentWorkspace">Using exist to check for a variable in the transparent workspace is not supported.  To check for a function, folder, file, or class, specify the appropriate second input argument to exist: ''builtin'', ''class'', ''dir'' or ''file''.</entry>
+  </message>
+</rsccat>

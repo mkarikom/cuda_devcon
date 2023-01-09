@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MixedDataTypes">入力のセル配列のすべての内容は、同じデータ型でなければなりません。</entry>
+    <entry key="NoInputs">指定した入力引数がありません。厳密に 1 つの入力引数が必要です。</entry>
+    <entry key="UnsupportedCellContent">CELL2MAT は、セル配列またはオブジェクトを含むセル配列をサポートしていません。</entry>
+    <entry key="InconsistentFieldNames">各セル配列の要素のフィールド名は、一致し、かつ順番も一致していなければなりません。</entry>
+  </message>
+</rsccat>

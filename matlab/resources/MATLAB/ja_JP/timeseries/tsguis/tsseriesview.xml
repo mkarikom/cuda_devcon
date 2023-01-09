@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Abort">中止</entry>
+    <entry key="AttemptToAddAnAbsoluteTimeVector">相対時間ベクトルを使用するビューに絶対時間をもつ時系列を追加しようとしているため、絶対時間をビューに表示できません。</entry>
+    <entry key="AttemptToAddARelativeTimeSeries">絶対時間ベクトルを表示しているビューに相対時間ベクトルをもつ時系列を追加しようとしています。続行するとプロット内の絶対時間への参照がすべて削除されます。</entry>
+    <entry key="CreatingPlotPreview">プロット プレビューの作成中</entry>
+    <entry key="Continue">続行</entry>
+    <entry key="ConvertViewToRelativeTime">ビューを相対時間に変換</entry>
+    <entry key="DataSelection">データの選択...</entry>
+    <entry key="Detrend">トレンド除去...</entry>
+    <entry key="Filter">フィルター...</entry>
+    <entry key="Interpolate">内挿...</entry>
+    <entry key="ProcessData">データ処理</entry>
+    <entry key="RemoveMissingData">欠損値の削除...</entry>
+    <entry key="Resample">リサンプリング...</entry>
+    <entry key="ResampleData">データ リサンプリング...</entry>
+    <entry key="SelectData">データの選択...</entry>
+    <entry key="SynchronizeData">データの同期...</entry>
+    <entry key="TimeSeriesTools">時系列ツール</entry>
+    <entry key="TimeVectorReferenceMismatch">時間ベクトル参照の不一致</entry>
+    <entry key="YouCannotCombineRelativeAndAbsoluteTimeSeries">同じ時間プロット内に相対時間と絶対時間の両方の時系列を組み合わせることはできません。</entry>
+  </message>
+</rsccat>

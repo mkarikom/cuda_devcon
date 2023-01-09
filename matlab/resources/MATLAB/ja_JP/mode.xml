@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidInput">X は、double の配列または single の数値でなければなりません。</entry>
+    <entry key="BadDim">次元引数は正の整数スカラー、一意な正の整数のベクトル、または ''all'' でなければなりません。</entry>
+    <entry key="vecDimsMustBeUniquePositiveIntegers">次元ベクトルの要素は一意でなければなりません。</entry>
+    <entry key="wrongInput">データ型が無効です。最初の引数は数値でなければなりません。</entry>
+  </message>
+</rsccat>

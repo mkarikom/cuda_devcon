@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PropertyTypeEntryOutOfPlace">IsDefaultFtnsTableValid에서 속성 유형 항목 {0,number,integer}의 위치가 올바르지 않음</entry>
+    <entry key="PropertyError">{0} \n객체 이름: {1}\n속성 이름: ''{2}''\n{3}.</entry>
+    <entry key="FindObjFailed">{0} \n객체 이름: {1}\n속성 이름: ''{2}''.</entry>
+    <entry key="NoGet_convert_fcnForDataType">내부 오류: 이 데이터형에 대한 get_convert_fcn이 없습니다(어설션이어야 함).</entry>
+    <entry key="DefaultCanNotBeQueried">디폴트는 쿼리할 수 없습니다.</entry>
+    <entry key="ReadAccessDenied">읽기 액세스가 거부되었습니다.</entry>
+    <entry key="AttemptToModifyReadOnlyProperty">읽기 전용 속성을 수정하려고 했습니다.</entry>
+    <entry key="DefaultCanNotBeSet">디폴트는 설정할 수 없습니다.</entry>
+    <entry key="BadPropertyValueFound">잘못된 속성값이 발견되었습니다.</entry>
+  </message>
+</rsccat>

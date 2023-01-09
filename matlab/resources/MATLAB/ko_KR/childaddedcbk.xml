@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CallbackWillBeOverwritten">스타일 {0}의 uicontrol 콜백은 UIBUTTONGROUP에 추가될 때 덮어쓰입니다.\n 대신 버튼 그룹에 있는 SelectionChangeFcn 속성을 사용하십시오.</entry>
+  </message>
+</rsccat>

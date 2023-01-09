@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidClassName">{0} は無効なクラス名です</entry>
+    <entry key="BadObject">ハンドルが破棄されたか、存在しません</entry>
+    <entry key="BadPropName">{0} プロパティ (クラス {1}) が見つかりません</entry>
+    <entry key="InvalidPackage">{0} パッケージが見つかりません</entry>
+    <entry key="InvalidClass">{0} クラス ({1} パッケージ) が見つかりません</entry>
+    <entry key="InvalidProperty">{0} プロパティ ({1} クラス) が見つかりません</entry>
+    <entry key="MissingParentProp">エラー: {0} クラスには Parent プロパティがありません</entry>
+    <entry key="MissingConversion">いずれへの変換も見つかりませんでした</entry>
+    <entry key="NoMethodFound">メソッド {0} (クラス {1}) が見つかりません</entry>
+    <entry key="MethodStatic">クラス {0} には ''{1}'' という名前の非静的メソッドはありません。</entry>
+    <entry key="MethodNotStatic">クラス {0} には ''{1}'' という名前の静的メソッドはありません。</entry>
+    <entry key="BadMethodSignatureInvalidNumberOfInputs">シグネチャの入力数が正しくありません</entry>
+    <entry key="BadMethodSignatureNull">シグネチャは NULL です</entry>
+    <entry key="InvalidContextMenu">ハンドルは uicontextmenu でなければなりません。</entry>
+    <entry key="CannotSetFactoryValue">Factory プロパティは、検索のみで設定できません。</entry>
+    <entry key="OnlyRootHasFactoryDefaults">Factory プロパティはルート オブジェクト上の検索のみ可能です。</entry>
+    <entry key="ScalarDisplayMustBeScalar">{0} の入力パラメーターはスカラーでなければなりません。</entry>
+    <entry key="NonScalarDisplayMustBeNonScalar">{0} の入力パラメーターはスカラー以外の有効な配列でなければなりません。</entry>
+    <entry key="EmptyDisplayMustBeEmpty">{0} の入力パラメーターは空の配列でなければなりません。</entry>
+    <entry key="DeletedObjectInDisplay">メソッド {0} は有効なオブジェクトでしか呼び出せません。</entry>
+    <entry key="InvalidDescriptiveLabel">クラス {0} の記述ラベルは文字ベクトル、string 配列、または文字ベクトルの cell 配列でなければなりません。</entry>
+  </message>
+</rsccat>

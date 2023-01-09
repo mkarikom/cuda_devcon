@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="notSparse">Pivot threshold argument is only supported when input matrix is sparse.</entry>
+    <entry key="pivotThreshold">Pivot threshold argument must be between 0 and 1, inclusive.</entry>
+    <entry key="pivotSize">Pivot threshold argument must be a scalar or a vector of length 2.</entry>
+    <entry key="inputMustBe2D">The array must be 2-dimensional.</entry>
+    <entry key="inputType">Invalid data type. First argument must be double or single.</entry>
+    <entry key="pivotThresholdType">Invalid data type. The pivot threshold must be double or single.</entry>
+    <entry key="nonScalarPivotThresh">Pivot threshold must be a scalar when three outputs are specified.</entry>
+    <entry key="DenseTwoInputOnly">Too many input arguments. For dense input matrices, you can specify one or two input arguments.
+    </entry>
+    <entry key="DenseThreeOutputOnly">Fourth output only available for sparse input matrices.</entry>
+  </message>
+</rsccat>

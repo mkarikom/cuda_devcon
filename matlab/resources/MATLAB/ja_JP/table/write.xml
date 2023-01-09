@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="FileOpenError">ファイル ''{0}'' を書き込み用に開けません:\n\n{1}</entry>
+    <entry key="AmbiguousFileType">ファイル タイプ ''{0}'' があいまいです。</entry>
+    <entry key="UnrecognizedFileExtension">ファイル拡張子 ''{0}'' が認識されません。'FileType' パラメーターを使用してファイル タイプを指定してください。</entry>
+    <entry key="UnrecognizedFileType">ファイル タイプ ''{0}'' が認識されません。パラメーター 'FileType' は 'text'、'spreadsheet'、または 'xml' でなければなりません。</entry>
+    <entry key="InvalidDelimiterType">区切り記号は、文字ベクトルまたは string スカラーでなければなりません。</entry>
+    <entry key="UnrecognizedDelimiter">区切り記号は次の文字のいずれかでなければなりません: ' '、'\\t'、','、';'、'|'、またはその対応する文字の名前でなければなりません: 'space'、'tab'、'comma'、'semi' または 'bar'。</entry>
+    <entry key="InvalidRange">範囲は ''A1:B2'' または ''A1'' の形式の文字ベクトルでなければなりません。</entry>
+    <entry key="NoCOMServer">エクスポート先の Excel サーバーを起動できません。代わりに、テキスト ファイルへエクスポートしてください。</entry>
+    <entry key="XlsWriteFailed">テーブルの ''{0}'' への書き込みエラーです。\n\n{1}\n</entry>
+    <entry key="DataExceedsSheetBounds">セル ''{0}'' で始まるデータ ブロックが、シートの範囲を {1, number, integer} 行 {2, number, integer} 列超えています。</entry>
+    <entry key="FileOpenInAnotherProcess">ファイル ''{0}'' に書き込めません。書き込み権限がないか、他のアプリケーションによってファイルが開かれている可能性があります。</entry>
+    <entry key="FailedWrite">ファイル ''{1}'' のシート ''{0}'' に書き込むことができません。シートの保護を無効にし、ワークブックの [最終版にする] オプションを無効にして、入力がセルの容量を超えないことを確認してください。</entry>
+    <entry key="CorruptOrEncrypted">ファイル ''{0}'' に書き込めません。ファイルが有効なスプレッドシート ファイルであり、パスワードで保護されていないことを確認してください。 </entry>
+    <entry key="TimetableNotSupported">ファイルへの timetable の書き込みはサポートされていません。TIMETABLE2TABLE を使用して table に変換してください。</entry>
+    <entry key="FirstArgumentIsTable">最初の引数は table でなければなりません。</entry>
+    <entry key="FirstArgument">最初の引数は {0} でなければなりません。</entry>
+    <entry key="NestedTables">入れ子の table/timetable の書き込みはサポートされません。書き込む前に、入れ子の table に SPLITVARS を使用してください。</entry>
+    <entry key="NoFilename">名前が指定されていません。filename はファイルの名前を含まなければなりません。</entry>
+    <entry key="WriteRowNamesNotSupported">'WriteRowNames' は {0} で使用できません。行名を含む TABLE を書き込むには、WRITETABLE を使用してください。</entry>
+    <entry key="WriteVariableNamesNotSupported">'WriteVariableNames' は {0} で使用できません。変数名をもつ TABLE または TIMETABLE を書き込むには、WRITETABLE または WRITETIMETABLE を使用してください。</entry>
+    <entry key="UnsupportedTypeIn">''{0}'' はサポートされていない型です。書き込む前に、データを数値、logical、string、datetime、duration または categorical に変換してください。 </entry>
+    <entry key="UnsupportedTypeInCell">''{0}'' 型の cell 要素はサポートされていません。書き込む前に、要素を数値、logical、string、datetime、duration または categorical に変換してください。</entry>
+    <entry key="UnsupportedInputType">''{0}'' はサポートされていない型です。代わりに {1} を使用してください。</entry>
+    <entry key="UnsupportedNestedCell">入れ子の cell 配列はサポートされていません。</entry>
+    <entry key="NoFileNameWithParams">引数の数が正しくありません。追加のパラメーターを指定する場合はファイル名を指定しなければならず、各パラメーター名の後には値が続かなければなりません。</entry>
+    <entry key="IncorrectArgumentOrder">引数の順序が正しくありません。{0} では、{1} を 1 番目の引数、ファイル名を 2 番目の引数にする必要があります。</entry>
+    <entry key="UnknownWriteFunction">書き込み関数 {0} が不明です。</entry>
+    <entry key="OutOfSpace">ファイル ''{0}'' に書き込めません。</entry>
+    <entry key="AppendAndRange">'Range' は 'WriteMode' = 'append' でサポートされていません。</entry>
+    <entry key="WriteVarNamesAndWriteMode">'WriteVariableNames' は 'WriteMode' = 'append' でサポートされていません。</entry>
+    <entry key="CellColumnVectorsUnsupported">変数 ''{0}'' は cell 列ベクトルを含みます。WRITETABLE を使用して、cell 列ベクトルを含む変数をスプレッドシートに書き込むことはサポートされていません。</entry>
+    <entry key="NestedCellElementEmpty">変数 ''{0}'' には、空の要素をもつ、入れ子になった cell 配列が含まれています。空の要素をもつ、入れ子になった cell 配列を WRITETABLE を使用してスプレッドシートに書き込むことはサポートされていません。</entry>
+    <entry key="SupportedFileTypes">ファイル タイプ ''{0}'' が認識されません。パラメーター 'FileType' は次のいずれかでなければなりません:\n\n {1}</entry>
+  </message>
+</rsccat>

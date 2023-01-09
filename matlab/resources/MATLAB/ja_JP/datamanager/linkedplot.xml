@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Vs"> と </entry>
+    <entry key="SpecifyDataSource">X、Y、および Z のデータ ソースをワークスペース内の変数として指定します。</entry>
+    <entry key="DialogTitle">リンクされているプロットのデータ ソース</entry>
+    <entry key="OKLabel">OK</entry>
+    <entry key="CancelLabel">キャンセル</entry>
+    <entry key="LinkDataError">サイズの不一致</entry>
+    <entry key="ImmediateApplyLabel">すぐに適用</entry>
+    <entry key="HelpLabel">ヘルプ</entry>
+    <entry key="FailingLinks">切れているリンク</entry>
+    <entry key="DifferentXYZSize">{0} と {1} のサイズが異なります</entry>
+    <entry key="DisplayNameLabel">表示名</entry>
+    <entry key="CannotLinkData">データをリンクできません。データ ソースをもつグラフィックス オブジェクトがありません。</entry>
+    <entry key="CannotLinkTableData">Linking data is not supported when the data comes from a table.</entry>
+    <entry key="CannotDeleteBrushedTableData">データが table から取得されている場合、ブラシ選択したデータの削除はサポートされていません。</entry>
+  </message>
+</rsccat>

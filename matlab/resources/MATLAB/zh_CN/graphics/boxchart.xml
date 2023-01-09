@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoXGDataWhenY2D">当 ydata 是矩阵时，不支持传递 xgroupdata。</entry>
+    <entry key="NoXDataWhenYData2D">当 YData 是矩阵时，不支持设置 XData。</entry>
+    <entry key="BadXVectorY">xgroupdata 的大小必须与 ydata 的大小相同。</entry>
+    <entry key="BadXDataVectorYData">XData 的大小必须与 YData 的大小相同。</entry>
+    <entry key="NoColGDataWhenY2D">当采样数据参数为矩阵时，不支持 ''GroupByColor'' 参数。</entry>
+    <entry key="BadColGroupVectorY">''GroupByColor'' 值必须与采样数据参数具有相同的大小。</entry>
+    <entry key="OrientationYYAxis">当箱线图的多个 y 轴中具有分类值时，不支持更改 ''Orientation'' 属性。</entry>
+    <entry key="OrientationMixedType">当箱线图具有分类值且坐标区包含不同类型的图时，不支持更改 ''Orientation'' 属性。</entry>
+    <entry key="Position">位置</entry>
+    <entry key="OutlierValue">离群值</entry>
+    <entry key="LowerQuartile">下四分位数</entry>
+    <entry key="UpperQuartile">上四分位数</entry>
+    <entry key="LowerWhisker">下部线须</entry>
+    <entry key="UpperWhisker">上部线须</entry>
+    <entry key="LowerNotch">下缺口</entry>
+    <entry key="UpperNotch">上缺口</entry>
+    <entry key="Median">中位数</entry>
+    <entry key="NumPoints">点数</entry>
+    <entry key="Quartiles">四分位数</entry>
+    <entry key="Whiskers">线须</entry>
+    <entry key="Notches">缺口</entry>
+    <entry key="NumOutliers">离群值数</entry>
+    <entry key="ColorGroup">名称</entry>
+  </message>
+</rsccat>

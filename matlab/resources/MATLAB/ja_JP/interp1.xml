@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nargin">入力引数の数が正しくありません。</entry>
+    <entry key="ppOutput">PP=INTERP1(X,V,METHOD,''pp'') には 4 つの入力を使用してください。</entry>
+    <entry key="ppAkima">''pp'' オプションは、修正 Akima 3 次内挿ではサポートされません。</entry>
+    <entry key="Xvector">X はベクトルでなければなりません。</entry>
+    <entry key="YVectorInvalidNumRows">X と V の長さを同じにしなければなりません。</entry>
+    <entry key="YInvalidNumRows">LENGTH(X) と SIZE(V,1) は、同じにしなければなりません。</entry>
+    <entry key="NotEnoughPts">少なくとも 2 つのデータ ポイントが必要です。</entry>
+    <entry key="InvalidMethod">内挿法が無効です。</entry>
+    <entry key="InvalidSpecPPExtrap">文字ベクトル引数が無効です。もしかして、''pp'' または ''extrap'' ではありませんか?</entry>
+    <entry key="NonScalarExtrapValue">EXTRAP オプションは、スカラーでなければなりません。</entry>
+    <entry key="Xnumeric">X は double 型または single 型のベクトルでなければなりません。</entry>
+    <entry key="NonFloatValues">値 V は、double 型または single 型でなければなりません。</entry>
+    <entry key="ExtrapNoMethod">内挿法は ''extrap'' で指定されなければなりません。</entry>
+    <entry key="NaNstrip">NaN 値を含むデータの列が内挿中に無視されました。</entry>
+    <entry key="NoExtrapForV5cubic">'cubic' メソッドおよび 'v5cubic' メソッドでは、外挿はサポートされていません。</entry>
+    <entry key="ComplexX">X は、実数ベクトルでなければなりません。</entry>
+    <entry key="ComplexInterpPts">内挿点 Xq は実数でなければなりません。</entry>
+    <entry key="NaNinX">NaN は、X に対して適切な値になりません。</entry>
+    <entry key="RepeatedValuesX">X の値は異なるべきです。</entry>
+    <entry key="InvalidExtrap">extrap オプションが無効です。</entry>
+    <entry key="NaNinY">V の中で NaN が見つかりました。未定義の値における内挿は、未定義の値の原因になります。</entry>
+    <entry key="ppGriddedInterpolantNext">INTERP1(...,'next','PP') はサポートされていません。代わりに GRIDDEDINTERPOLANT を使用してください。</entry>
+    <entry key="ppGriddedInterpolantPrevious">INTERP1(...,'previous','PP') はサポートされていません。代わりに GRIDDEDINTERPOLANT を使用してください。</entry>
+  </message>
+</rsccat>

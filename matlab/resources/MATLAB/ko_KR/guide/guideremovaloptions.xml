@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ExportAlertTitle">MATLAB 파일로 내보내기</entry>
+    <entry key="MigrateHeader">마이그레이션을 수행하면 GUIDE 앱이 앱 디자이너의 새 앱으로 변환됩니다.</entry>
+    <entry key="MigrateReasonsLabel">다음과 같은 경우 앱을 마이그레이션하는 것이 좋습니다.</entry>
+    <entry key="MigrateHtmlBullet1">앱에 대한 대화형 편집이 필요한 경우</entry>
+    <entry key="MigrateHtmlBullet2">앱 개발이 활발히 진행 중인 경우​</entry>
+    <entry key="MigrateTab">앱 디자이너로 마이그레이션</entry>
+    <entry key="ExportTab">MATLAB 코드로 내보내기</entry>
+    <entry key="ExportHeader">내보내기를 수행하면 GUIDE 앱이 새 MATLAB 파일로 변환됩니다.</entry>
+    <entry key="ExportReasonsLabel">다음과 같은 경우 앱을 내보내는 것이 좋습니다.</entry>
+    <entry key="ExportHtmlBullet1">가벼운 앱 유지관리가 필요한 경우</entry>
+    <entry key="ExportHtmlBullet2">앱에 대한 대화형 편집이 중요하지 않은 경우</entry>
+    <entry key="ExportChooseAppLabel">내보낼 앱 선택:</entry>
+    <entry key="MigrateChooseAppLabel">마이그레이션할 앱 선택:</entry>
+    <entry key="InstallSupportPackageButton">지원 패키지 설치</entry>
+    <entry key="EditFieldPlaceholderText">GUIDE .fig 파일 선택</entry>
+    <entry key="ExportButton">내보내기</entry>
+    <entry key="MigrateButton">마이그레이션</entry>
+    <entry key="BrowseButtonText">찾아보기...</entry>
+    <entry key="CancelButton">취소</entry>
+    <entry key="HelpButton">도움말</entry>
+    <entry key="InstallLabel_RegularText">앱을 마이그레이션하기 \n 전에 지원 패키지를 설치합니다.</entry>
+    <entry key="InstallLabel_ItalicsText">"GUIDE to App Designer Migration Tool for MATLAB"</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidCandidateNames">第一个参数必须为字符串数组、字符向量或字符向量元胞数组。</entry>
+    <entry key="InvalidPrefix">'Prefix' 值必须以字母开头，只能包含字母数字字符和下划线，并且不能为 MATLAB 关键字。</entry>
+    <entry key="InvalidReplacementStyle">'ReplacementStyle' 必须为 'delete'、'underscore' 或 'hex'。</entry>
+    <entry key="MissingNames">第一个输入参数不支持 {0} 值。</entry>
+    <entry key="TooLongPrefix">前缀长度必须小于或等于 NAMELENGTHMAX。</entry>
+  </message>
+</rsccat>

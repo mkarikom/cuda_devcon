@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SubscriptAssignmentNotAllowed">不允许使用 () 索引为 RandStream 赋值。</entry>
+    <entry key="CellAssignmentNotAllowed">不允许使用 '{}' 索引为 RandStream 赋值。</entry>
+    <entry key="InvalidPropertySyntax">属性引用非法。</entry>
+    <entry key="IllegalPropertyAssignment">''{0}'' 属性为只读，只能在创建流时设置。</entry>
+    <entry key="IllegalSeedAssignment">''Seed'' 属性为只读，只能在创建流时设置或使用 RESET 方法设置。</entry>
+    <entry key="UnrecognizedProperty">属性 ''{0}'' 无法识别。</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!-- Copyright 2017-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="ComplexInputArray">Complex input arguments are not supported.</entry>
+    <entry key="FirstInputInvalid">First argument must be a numeric or logical array, a table, or a timetable.</entry>
+    <entry key="NonVectorTableVariable">Table variables must be column vectors.</entry>
+    <entry key="DimensionTable">Dimension is not supported when the first argument is a table or timetable.</entry>
+    <entry key="DimensionInvalid">Dimension must be a positive integer.</entry>
+    <entry key="NameValuePairs">Incorrect number of input arguments. Parameter names and values must occur in pairs.</entry>
+    <entry key="InvalidNameArray">Parameter name must be ''MaxNumExtrema'', ''MinSeparation'', ''MinProminence'', ''FlatSelection'', or ''SamplePoints''.</entry>
+    <entry key="InvalidNameTable">Parameter name must be ''MaxNumExtrema'', ''MinSeparation'', ''MinProminence'', ''FlatSelection'', ''SamplePoints'', or ''DataVariables''.</entry>
+    <entry key="MaxNumInvalid">''MaxNumExtrema'' value must be a positive integer.</entry>
+    <entry key="MinProminenceInvalid">''MinProminence'' value must be a nonnegative numeric scalar.</entry>
+    <entry key="MinSeparationInvalid">''MinSeparation'' value must be a nonnegative, real, finite scalar.</entry>
+    <entry key="ProminenceWindowLengthInvalid">''ProminenceWindow'' value must be a positive scalar or 2-element vector of nonnegative scalars.</entry>
+    <entry key="ProminenceWindowMustBeDuration">''ProminenceWindow'' value must be a duration if the ''SamplePoints'' values are datetimes or durations.</entry>
+    <entry key="ProminenceWindowCannotBeDuration">''ProminenceWindow'' value must be numeric if the ''SamplePoints'' values are numeric.</entry>
+    <entry key="ProminenceWindowMustBeDurationTimetable">''ProminenceWindow'' value must be a duration when the first input argument is a timetable.</entry>
+    <entry key="SeparationMustBeDuration">''MinSeparation'' value must be a duration scalar if the ''SamplePoints'' values are datetimes or durations.</entry>
+    <entry key="SeparationCannotBeDuration">''MinSeparation'' value must be a numeric scalar if the ''SamplePoints'' values are numeric.</entry>
+    <entry key="SeparationMustBeDurationTimetable">''MinSeparation'' value must be a duration scalar when the first input argument is a timetable.</entry>
+    <entry key="FlatSelectionInvalid">''FlatSelection'' must be ''first'', ''center'', ''last'', or ''all''.</entry>
+    <entry key="SamplePointsInvalidDatatype">Invalid data type. ''SamplePoints'' value must be a double, single, datetime, or duration vector.</entry>
+    <entry key="SamplePointsLength">The number of elements in the ''SamplePoints'' value must equal the size of the first argument along the operating dimension.</entry>
+    <entry key="SamplePointsFinite">''SamplePoints'' value contains non-finite elements.</entry>
+    <entry key="SamplePointsComplex">''SamplePoints'' value must be real.</entry>
+    <entry key="SamplePointsSparse">Sparse ''SamplePoints'' values are not supported.</entry>
+    <entry key="SamplePointsDuplicate">''SamplePoints'' value contains duplicates.</entry>
+    <entry key="SamplePointsSorted">''SamplePoints'' value must be sorted in ascending order.</entry>
+    <entry key="RowTimesFinite">Row times must be finite.</entry>
+    <entry key="RowTimesDuplicate">Row times contain duplicates.</entry>
+    <entry key="RowTimesSorted">Row times must be sorted in ascending order.</entry>
+    <entry key="SamplePointsTimeTable">''SamplePoints'' parameter is not supported when the first input argument is a timetable.</entry>
+    <entry key="DataVariablesArray">''DataVariables'' parameter is only supported when the first input argument is a table or timetable.</entry>
+    <entry key="NonNumericTableVar">Table variables must be numeric.</entry>
+    <entry key="DataVariablesFunctionHandle">''DataVariables'' function handle must return a logical scalar.</entry>
+    <entry key="DataVariablesTableSubscript">Invalid ''DataVariables'' value.</entry>
+    
+    <!-- For code generation -->
+    <entry key="PromWindowNotSupported">''ProminenceWindow'' is not supported for code generation.</entry>
+    <entry key="DataVarsMustBeUnique">'DataVariables' parameter cannot contain duplicates for code generation.</entry>
+  </message>
+</rsccat>

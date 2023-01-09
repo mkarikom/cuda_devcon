@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="EmptyErrorOutputArgument">{0} からのエラー引数が、空の行列に設定されました。これは将来のリリースでエラーになります。</entry>
+    <entry key="DeprecatedErrorOutputArgument">{0} からのエラー出力引数は使用されません。これは将来のリリースではサポートされません。</entry>
+    <entry key="EmptyInput">入力行列が空です</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="UnrecognizedObjectType">Unrecognized object type: {0}</entry>
+    <entry key="CannotFindParent">Cannot find parent for context menu</entry>
+  <!--Resource entries for src/hgbuiltins-->
+  <!--Resource entries for src/hgbuiltins-->
+    <entry key="InvalidSaveStructure">Invalid structure format for graphical object.</entry>
+    <entry key="InvalidParentHandle">Second argument must be an array of parent handles.</entry>
+    <entry key="InvalidParentSize">Size of parent array must agree with size of structure array.</entry>
+    <entry key="InvalidOption">The optional arguments must be ''convert'' and/or ''all''.</entry>
+  </message>
+</rsccat>

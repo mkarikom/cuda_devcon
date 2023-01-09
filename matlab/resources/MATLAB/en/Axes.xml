@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NegativeDataInLogAxis">Negative data ignored</entry>
+    <entry key="NegativeLimitsInLogAxis">Negative limits ignored</entry>
+    <entry key="UndefinedMethod">Class {0} does not have a copy method.</entry>
+    <entry key="UnableToComputeLayout">Unable to compute axes layout information</entry>
+    <entry key="LabelsMustBeText">Labels must be text objects</entry>
+    <entry key="CameraDirection">Camera position and target must be distinct.</entry>
+    <entry key="UpVector">Camera up vector must be independent from camera direction.</entry>
+
+    <!-- for yyaxis -->
+    <entry key="YAxisLocationLocked">The YAxisLocation property is read-only. Use yyaxis to select a different y-axis.</entry>    
+    <entry key="BadDataSpace">That is not a valid DataSpace.</entry>
+    <entry key="BadDataSpaceIndex">That index is out of range.</entry>    
+    <entry key="UnsupportedDataAspectRatio">Only 'auto' DataAspectRatio is supported for axes with multiple coordinate systems.</entry>
+    <entry key="UnsupportedCopy">Object Copy of Axes with multiple coordinate systems is not supported.</entry>
+    <entry key="UnsupportedView">3-D views not supported for axes with multiple coordinate systems.</entry>
+  </message>
+</rsccat>

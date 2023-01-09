@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="MatrixOfXData">x 데이터의 행렬</entry>
+    <entry key="VectorOfXData">x 데이터의 벡터</entry>
+    <entry key="MatrixOfYData">y 데이터의 행렬</entry>
+    <entry key="VectorOfYData">y 데이터의 벡터</entry>
+    <entry key="MatrixOfZData">z 데이터의 행렬</entry>
+    <entry key="VectorOfZData">z 데이터의 벡터</entry>
+    <entry key="CreateMultipleLinesUsingMatrix">{0}에 대한 행렬 입력값을 사용하여 여러 라인을 생성함</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoConvergence">アルゴリズムは成功しませんでした。</entry>
+    <entry key="matrixWithNaNInf">入力行列に NaN または Inf の値を含めることはできません。</entry>
+    <entry key="inputMustBe2DStandard">入力配列は 2 次元でなければなりません。</entry>
+    <entry key="inputMustBeSquareStandard">入力行列は正方行列でなければなりません。</entry>
+    <entry key="unknownArgumentStandard">標準 eigenproblem では、オプションは ''vector''、''matrix''、''balance''、''nobalance'' のいずれかでなければなりません。</entry>
+    <entry key="unknownArgumentCombinationStandard">オプションの組み合わせが無効です。</entry>
+    <entry key="inputType">データ型が無効です。入力行列は double または single でなければなりません。</entry>
+    <entry key="inputTypeGeneralized">データ型が無効です。入力行列は double または single でなければなりません。</entry>
+    <entry key="inputMustBe2DGeneralized">入力配列は 2 次元でなければなりません。</entry>
+    <entry key="inputMustBeSquareGeneralized">入力行列は正方行列でなければなりません。</entry>
+    <entry key="inputMustBeSameSizeGeneralized">一般化された eigenproblem の場合、入力行列は同じサイズでなければなりません。</entry>
+    <entry key="unknownArgumentGeneralized">一般化された eigenproblem の場合、オプションは ''vector''、''matrix''、''qz''、''chol'' のいずれかでなければなりません。</entry>
+    <entry key="unknownArgumentCombinationGeneralized">オプションの組み合わせが無効です。</entry>
+    <entry key="useEigsForSparseStandard">行列がスパースの場合、入力行列は実数かつ対称でなければなりません。&lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/eigs.html'))\"&gt;eigs&lt;/a&gt; を使用して、スパース行列の固有ベクトルと固有値のサブセットを計算してください。</entry>
+    <entry key="useEigsForSparseStandardVector">出力引数が多すぎます。入力行列がスパースの場合、サポートされる出力引数は 1 つだけです。&lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/eigs.html'))\"&gt;eigs&lt;/a&gt; を使用して、スパース行列の固有ベクトルと固有値のサブセットを計算してください。</entry>
+    <entry key="useEigsForSparseGeneralized">一般化された eigenproblem では、スパース行列はサポートされません。&lt;a href=\"matlab:helpview(fullfile(docroot,'matlab','ref/eigs.html'))\"&gt;eigs&lt;/a&gt; を使用して、スパース eigenproblem の固有ベクトルと固有値のサブセットを計算してください。</entry>
+  </message>
+</rsccat>

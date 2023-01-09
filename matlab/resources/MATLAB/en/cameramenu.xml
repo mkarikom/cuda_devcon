@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2013 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="Removal">cameramenu will be removed in a future release.  Use cameratoolbar instead.</entry>
+    <entry key="OpenGLNotAvailable">OpenGL renderer not available.</entry>
+    <entry key="Label_Camera">&amp;Camera</entry>
+    <entry key="Label_CameraModeCoordsys">&amp;Camera ({0}, {1})</entry>
+    <entry key="Label_CameraMode">&amp;Camera ({0})</entry>
+    <entry key="Label_MouseMode">Mouse Mode</entry>
+    <entry key="Label_Orbit">Orbit</entry>
+    <entry key="Label_OrbitScenelight">Orbit Scenelight</entry>
+    <entry key="Label_Pan">Pan</entry>
+    <entry key="Label_DollyHorizVert">Dolly Horiz/Vert</entry>
+    <entry key="Label_DollyInOut">Dolly In/Out</entry>
+    <entry key="Label_Zoom">Zoom</entry>
+    <entry key="Label_Roll">Roll</entry>
+    <entry key="Label_Walk">Walk</entry>
+    <entry key="Label_X" translate="false">X</entry>
+    <entry key="Label_Y" translate="false">Y</entry>
+    <entry key="Label_Z" translate="false">Z</entry>
+    <entry key="Label_Unconstrained">Unconstrained</entry>
+    <entry key="Label_MouseConstraint">Mouse Constraint</entry>
+    <entry key="Label_Horizontal">Horizontal</entry>
+    <entry key="Label_Vertical">Vertical</entry>
+    <entry key="Label_StopMoving">Stop Moving</entry>
+    <entry key="Label_Scenelight">Scenelight</entry>
+    <entry key="Label_Reset">Reset</entry>
+    <entry key="Label_ResetModesCameraProperties">Reset Modes/Camera Properties</entry>
+    <entry key="Label_ResetCameraProperties">Reset Camera Properties</entry>
+    <entry key="Label_ResetTargetPoint">Reset Target Point</entry>
+    <entry key="Label_ResetScenelight">Reset Scenelight</entry>
+    <entry key="Label_Scene">Scene</entry>
+    <entry key="Label_FitAll">Fit All</entry>
+    <entry key="Label_LightingNone">Lighting None</entry>
+    <entry key="Label_LightingFlat">Lighting Flat</entry>
+    <entry key="Label_LightingGouraud">Lighting Gouraud</entry>
+    <entry key="Label_LightingPhong">Lighting Phong</entry>
+    <entry key="Label_ShadingFaceted">Shading Faceted</entry>
+    <entry key="Label_ShadingFlat">Shading Flat</entry>
+    <entry key="Label_ShadingInterp">Shading Interp</entry>
+    <entry key="Label_ClippingOn">Clipping On</entry>
+    <entry key="Label_ClippingOff">Clipping Off</entry>
+    <entry key="Label_Axes">Axes</entry>
+    <entry key="Label_Visible">Visible</entry>
+    <entry key="Label_Box">Box</entry>
+    <entry key="Label_Ticks">Ticks</entry>
+    <entry key="Label_Grid">Grid</entry>
+    <entry key="Label_WallsColor">Walls Color...</entry>
+    <entry key="Label_XColor">X Color...</entry>
+    <entry key="Label_YColor">Y Color...</entry>
+    <entry key="Label_ZColor">Z Color...</entry>
+    <entry key="Label_Orthographic">Orthographic</entry>
+    <entry key="Label_Perspective">Perspective</entry>
+    <entry key="Label_RendererOptions">Renderer Options</entry>
+    <entry key="Label_Painters" translate="false" note="TranslateFalseBatch;">Painters</entry>
+    <entry key="Label_DoubleBuffer">Double Buffer</entry>
+    <entry key="Label_NoSort">No Sort</entry>
+    <entry key="Label_Zbuffer" translate="false">Zbuffer</entry>
+    <entry key="Label_OpenGL" translate="false">OpenGL</entry>
+    <entry key="Label_Auto">Auto</entry>
+    <entry key="Label_MoveAsBox">Move As Box</entry>
+    <entry key="Label_BackgroundColor">Background Color...</entry>
+    <entry key="Label_RemoveMenu">Remove Menu</entry>
+  </message>
+</rsccat>

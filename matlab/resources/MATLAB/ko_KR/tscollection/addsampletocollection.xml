@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="pv1">지정한 속성에 대응값이 누락되었습니다.</entry>
+    <entry key="notime">각 샘플에 대해 시간을 지정해야 합니다.</entry>
+    <entry key="cell">셀형 배열은 하나는 데이터용, 하나는 품질용으로 두 개의 셀을 포함해야 합니다.</entry>
+    <entry key="pv2">지정한 속성 중 적어도 하나의 속성이 유효하지 않습니다.</entry>
+    <entry key="pv4">새 샘플은 구조체 또는 속성-값 쌍을 사용하여 지정해야 합니다.</entry>
+  </message>
+</rsccat>

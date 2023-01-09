@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="stringInput" note="stringDatatypeUpdate">Character vector input arguments not supported.</entry>
+    <entry key="inputType">Size and range inputs must be numeric.</entry>
+    <entry key="invalidLimits">First input must be a positive scalar integer value IMAX, or two integer values [IMIN IMAX] with IMIN less than or equal to IMAX.</entry>
+    <entry key="invalidOutputType">Outputs of class {0} not supported.</entry>
+    <entry key="invalidClassname">CLASSNAME input must be a class that supports RANDI, for example, ''single'',''double'',''uint8'',''int8'',etc.</entry>
+    <entry key="invalidPrototype">Input following ''like'' must be a variable of a type that supports RANDI. </entry>
+    <entry key="complexOrSparsePrototype">Complex or sparse input following ''like'' is not supported.</entry>
+  </message>
+</rsccat>

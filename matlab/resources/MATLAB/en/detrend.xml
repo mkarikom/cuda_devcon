@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- Copyright 2018-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidFirstInput">Invalid data type. First argument must be of type double or single.</entry>
+    <entry key="BreakpointsInvalid">Breakpoints must be a vector containing sample point values or a logical vector.</entry>
+    <entry key="InvalidTrendInputType">Polynomial degree must be a non-negative integer scalar.</entry>
+    <entry key="KeyWithoutValue">Incorrect number of input arguments. Parameter names and values must occur in pairs.</entry>
+    <entry key="ParseFlags">Parameter name must be ''Continuous'' or ''SamplePoints''.</entry>
+    <entry key="SamplePointsComplex">''SamplePoints'' value must be real.</entry>
+    <entry key="SamplePointsDuplicate">''SamplePoints'' value contains duplicates.</entry>
+    <entry key="SamplePointsFinite">''SamplePoints'' values must be finite.</entry>
+    <entry key="SamplePointsInvalidDatatype">''SamplePoints'' value must be a double, single, datetime, or duration vector.</entry>
+    <entry key="SamplePointsLength">The number of elements in the ''SamplePoints'' value must equal the size of the first argument along the first dimension.</entry>
+    <entry key="SamplePointsSorted">''SamplePoints'' values must be sorted in ascending order.</entry>
+    <entry key="SamplePointsSparse">Sparse ''SamplePoints'' values are not supported.</entry>
+  <!--Warnings related to polynomial fit-->
+    <entry key="PolyNotUnique">Polynomial is not unique or badly conditioned. Add distinct sample points or reduce the degree of the polynomial.</entry>
+  <!--We don't use this anymore, but others do so keeping it around-->
+    <entry key="InvalidTrendType">Invalid trend type ''{0}''.</entry>
+  </message>
+</rsccat>

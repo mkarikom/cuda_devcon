@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RecursionLimitExceeded">리스너가 {0,number,integer}의 재귀 제한을 초과하여 재귀적으로 트리거 이벤트를 유발했습니다.</entry>
+    <entry key="MaximumRecursion">리스너 재귀 제한이 초과되었습니다.\n리스너 실행이 중도에 종료되었습니다.\n\n</entry>
+  </message>
+</rsccat>

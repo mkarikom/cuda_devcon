@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidObject">The object to be added to the layout must support being laid out.</entry>
+    <entry key="DuplicateEntry">This object has already been added to the layout.</entry>
+    <entry key="InvalidLocation">The location must be one of ''north'', ''south'', ''east'', or ''west''.</entry>
+    <entry key="InvalidList">The list input must be either ''inner'' or ''outer''.</entry>
+    <entry key="InconsistentState">Axes layout can not be performed because of inconsistent internal state.</entry>
+  </message>
+</rsccat>

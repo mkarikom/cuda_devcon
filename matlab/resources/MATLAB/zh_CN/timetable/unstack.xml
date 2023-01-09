@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CantUnstackRowLabels">不支持对时间表行时间进行分叠。请使用 TIMETABLE2TABLE 创建一个其中以变量形式包含这些行时间的表。</entry>
+    <entry key="CantUnstackWithRowLabelsIndicator">不支持使用行时间作为指示变量对时间表进行分叠。请使用 TIMETABLE2TABLE 创建一个其中以变量形式包含这些行时间的表。</entry>
+  </message>
+</rsccat>

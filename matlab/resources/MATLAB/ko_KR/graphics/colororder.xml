@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidTarget">대상은 Figure 또는 좌표축이어야 합니다.</entry>
+    <entry key="InvalidColorString">''{0}''은(는) 유효한 색 사양이 아닙니다.</entry>
+    <entry key="InvalidColors">색은 RGB 3색으로 구성된 3열 행렬, 키워드 'default', 문자형 벡터로 구성된 셀형 배열 또는 string형 배열이어야 합니다.</entry>
+    <entry key="DeletedTarget">대상 객체가 삭제되었습니다.</entry>
+  </message>
+</rsccat>

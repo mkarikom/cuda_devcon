@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2013-2016 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="nonNumericInputRulers">Input arguments must be numeric, datetime, duration or categorical.</entry>
+    <entry key="nonNumericInput">Input arguments must be numeric or objects which can be converted to double.</entry>
+    <entry key="DatetimeDependent">y values must be numeric or duration arrays.</entry>
+    <entry key="UsingOnlyRealComponentOfComplexData">Using only the real component of complex data.</entry>
+  </message>
+</rsccat>

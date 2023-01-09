@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2012-2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+   <message>
+      <entry key="DfltRowNamePrefix" translate="false">Row</entry>
+      <entry key="DfltVarNamePrefix" translate="false">Var</entry>
+      <entry key="DfltRowDimName" translate="false">Row</entry>
+      <entry key="DfltVarDimName" translate="false">Variables</entry>
+      <entry key="EmptyTableDisplay">empty {0,number,integer}-by-{1,number,integer} {2}</entry>
+      <entry key="JoinLeftVarSuffix" translate="false">left</entry>
+      <entry key="JoinRightVarSuffix" translate="false">right</entry>
+      <entry key="DfltStackIndVarSuffix" translate="false">Indicator</entry>
+      <entry key="StackIndVarDescr">Data indicator</entry>
+      <entry key="Rows2varsNewVarName" translate="false">OriginalVariableNames</entry>
+      <entry key="SummaryMin">min</entry>
+      <entry key="SummaryMedian">median</entry>
+      <entry key="SummaryMax">max</entry>
+      <entry key="SummaryTimeStep">time step</entry>
+      <entry key="ModifiedVarNameDescr">Original column heading:</entry>
+   </message>
+</rsccat>

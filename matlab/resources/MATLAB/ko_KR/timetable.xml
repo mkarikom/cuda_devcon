@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="NoTimeVector">타임테이블을 생성하려면 datetime형이나 duration형 행 시간값 벡터, duration형이나 calendarDuration형 시간 스텝 또는 양수 샘플 레이트를 지정하십시오.</entry>
+    <entry key="NoTimeVectorTableInput">타임테이블을 생성하려면 행 시간값으로 datetime형 벡터나 duration형 벡터를 제공하십시오. 테이블을 타임테이블로 변환하려면 TABLE2TIMETABLE을 사용하십시오.</entry>
+    <entry key="StringParamNameNotSupported">"{0}"을(를) 사용하여 파라미터 이름을 지정하려고 했을 수 있습니다. 그러나 timetable 생성자에서는 파라미터 이름을 문자형 벡터로 지정해야 합니다. 대신 timetable(..., ''{0}'', Value)를 사용하십시오.</entry>
+    <entry key="NoTimeVectorPreallocation">타임테이블을 특정 크기로 사전할당할 경우 행 시간값 벡터, 시간 스텝 또는 샘플 레이트를 지정하십시오.</entry>
+    <entry key="InvalidTimes">첨자에 대한 시간값을 datetime형이나 duration형으로 지정하십시오.</entry>
+    <entry key="InvalidRowTimes">행 시간값은 datetime형 벡터이거나 duration형 벡터여야 합니다.</entry>
+    <entry key="MixedRowTimesAssignment">새로운 행 시간값은 {0}형 벡터여야 합니다.</entry>
+    <entry key="InvalidRowSubscriptsDatetime">타임테이블의 행 첨자는 숫자형 배열, 논리형 배열 또는 datetime형 배열이거나 timerange 첨자여야 합니다.</entry>
+    <entry key="InvalidRowSubscriptsDuration">타임테이블의 행 첨자는 숫자형 배열, 논리형 배열 또는 duration형 배열이거나 timerange 첨자여야 합니다.</entry>
+    <entry key="InvalidRowIndicesDuration">숫자형 배열 인덱스는 양의 정수여야 합니다. 타임테이블의 행을 시간을 기준으로 선택하려면 DURATION, MILLISECONDS, SECONDS, MINUTES, HOURS, DAYS 또는 YEARS를 사용하여 숫자형을 duration형으로 변환하십시오.</entry>
+    <entry key="CannotRemoveRowTimes">타임테이블에서 행 시간값을 삭제하는 것은 지원되지 않습니다.</entry>
+    <entry key="IncorrectNumberOfRowTimes">RowTimes 속성은 타임테이블의 각 행마다 하나의 시간값을 포함해야 합니다.</entry>
+    <entry key="IncorrectNumberOfRowTimesPartial">RowTimes 속성은 재할당되는 각 행마다 하나의 시간값을 포함해야 합니다.</entry>
+    <entry key="UnrecognizedRowTime">타임테이블에 시간 ''{0}''에 대한 행이 포함되어 있지 않습니다.</entry>
+    <entry key="IncompatibleLoad">이 MATLAB 버전과 호환되지 않으므로 저장된 타임테이블을 불러올 수 없음</entry>
+    <entry key="IncompatibleLoadProperties">이 MATLAB 버전과 호환되지 않아 저장된 TimetableProperties를 불러올 수 없음</entry>
+    <entry key="RowLabelsTypeMismatch">행 시간값이 {0}인 타임테이블을 행 시간값이 {1}인 타임테이블에 결합할 수 없습니다.</entry>
+    <entry key="RowDimNameNondefault">''{0}''은(는) 인식할 수 없는 타임테이블 변수 이름입니다. 행 시간값에 액세스하려고 했다면 이 타임테이블에 ''{1}"을(를) 대신 사용하십시오.</entry>
+    <entry key="RowDimNameCase">''{0}''은(는) 인식할 수 없는 타임테이블 변수 이름입니다. 이름은 대/소문자를 구분합니다. 타임테이블의 행 시간값에 ''{1}''(으)로 액세스하려고 했을 수 있습니다.</entry>
+    <entry key="RowTimesParamConflict">행 시간값 벡터, 시간 스텝, 샘플 레이트 중에서 지정하되 단 한 개만 지정하십시오.</entry>
+    <entry key="TimeStepSampleRateConflict">시간 스텝을 duration형 스칼라 또는 calendarDuration형 스칼라로 지정하거나 샘플 레이트를 양의 스칼라로 지정하십시오.</entry>
+    <entry key="InvalidSampleRate">샘플 레이트는 양의 숫자형 스칼라(단위: Hz)여야 합니다.</entry>
+    <entry key="InvalidTimeStep">시간 스텝은 duration형 스칼라이거나 calendarDuration형 스칼라여야 합니다.</entry>
+    <entry key="InvalidTimeStepNumeric">시간 스텝은 duration형 스칼라이거나 calendarDuration형 스칼라여야 합니다. 숫자형 값을 SECONDS, MINUTES, HOURS, DAYS 또는 YEARS를 사용하여 duration형으로 변환하거나 CALDAYS, CALWEEKS, CALMONTHS, CALQUARTERS 또는 CALYEARS를 사용하여 calendarDuration형으로 변환하십시오.</entry>
+    <entry key="InvalidStartTime">시작 시간은 duration형 스칼라이거나 datetime형 스칼라여야 합니다.</entry>
+    <entry key="InvalidStartTimeNumeric">시작 시간은 duration형 스칼라이거나 datetime형 스칼라여야 합니다. 숫자형 값을 SECONDS, MINUTES, HOURS, DAYS 또는 YEARS를 사용하여 duration형으로 변환하거나 DATETIME을 사용하여 변환하십시오.</entry>
+    <entry key="DurationStartTimeWithCalDurTimeStep">시간 스텝이 calendarDuration형인 경우 시작 시간을 datetime형으로 지정하십시오.</entry>
+    <entry key="ImpureCalDurTimeStep">calendarDuration형 시간 스텝은 하나의 달력 단위(예: 일 또는 월)로만 구성되어야 합니다. CALDAYS, CALWEEKS, CALMONTHS, CALQUARTERS 또는 CALYEARS를 사용하여 calendarDuration형 시간 스텝을 생성하십시오.</entry>
+    <entry key="SamplingRateToBeRemoved">''SamplingRate''는 향후 릴리스에서 제거될 예정입니다. ''SampleRate''를 대신 사용하십시오.</entry>
+    <entry key="ts2timetable">TS2TIMETABLE을 사용하여 timeseries 객체를 타임테이블로 변환하십시오.</entry>
+    <entry key="extractTimetable">To construct a timetable, specify both data and duration row times vector, a duration or calendarDuration time step, or a positive numeric sample rate to create timetable. If you meant to construct a timetable from the signals in a Simulink.SimulationData.Dataset, use EXTRACTTIMETABLE.</entry>
+    <entry key="IrregularRowTimesAssignment">코드 생성 시 규칙적인 간격의 RowTimes와 불규칙적인 간격의 RowTimes 간에 서로 바꿀 수 없습니다.</entry>
+    <entry key="UnsupportedDatetimeRowTimes">코드 생성 시 행 시간값을 datetime형 벡터로 지정할 수 없습니다. 행 시간값을 duration형 벡터로 대신 지정하십시오.</entry>
+    <entry key="UnsupportedDatetimeStartTime">코드 생성 시 시작 시간을 datetime형 스칼라로 지정할 수 없습니다. 시작 시간을 duration형 스칼라로 대신 지정하십시오.</entry>
+    <entry key="UnsupportedMethodCodegen">코드 생성 시 {0} 메서드는 timetable형에 대해 지원되지 않습니다.</entry>
+    <entry key="CannotBeImplicit">규칙적인 행 시간값을 만들 수 없습니다. 지정된 시작 시간, 시간 스텝 또는 샘플 레이트가 유한하지 않거나, 시간 스텝이 시작 시간에 비해 너무 작거나, 샘플 레이트가 너무 큽니다.</entry>
+    <entry key="InvalidRowTimesType">RowTimes 유형은 datetime형 또는 duration형 열이어야 합니다.</entry>
+    <entry key="IncorrectRowTimesTypeLength">RowTimes는 타임테이블의 높이와 길이가 동일해야 합니다. coder.resize를 사용하여 타임테이블의 높이를 변경하십시오.</entry>
+    <entry key="InvalidStartTimeType">StartTime 유형은 datetime형 또는 duration형 스칼라여야 합니다.</entry>
+    <entry key="InvalidSampleRateType">SampleRate 유형은 double형 스칼라여야 합니다.</entry>
+    <entry key="InvalidTimeStepType">TimeStep 유형은 duration형 스칼라여야 합니다.</entry>
+    <entry key="StringParamNameNotSupportedCodegen">"{0}"을(를) 사용하여 파라미터 이름을 지정하려고 했을 수 있습니다. 그러나 timetable 생성자에서는 파라미터 이름을 문자형 벡터로 지정해야 하며, 코드 생성 시 Name=Value는 지원되지 않습니다. 대신 timetable(..., ''{0}'', Value)를 사용하십시오.</entry>
+  </message>
+</rsccat>

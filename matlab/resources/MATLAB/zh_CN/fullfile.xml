@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CellstrSizeMismatch">所有字符串和元胞数组输入都必须具有相同的大小或为标量。</entry>
+    <entry key="InvalidInputType">所有输入都必须为字符串、字符向量或字符向量元胞数组。</entry>
+    <entry key="NumCharRowsExceeded">不支持包含多行的字符输入。</entry>
+    <entry key="MixedInputType">非标量字符串和字符向量元胞数组必须都使用相同的路径类型。</entry>
+  </message>
+</rsccat>

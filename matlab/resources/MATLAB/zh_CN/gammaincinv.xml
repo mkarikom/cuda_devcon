@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="YOutOfRange">Y 必须处于区间 [0,1] 内。</entry>
+    <entry key="NegativeArg">A 必须为非负实数。</entry>
+    <entry key="inputType">输入必须为双精度或单精度的实数满矩阵。</entry>
+    <entry key="InputSizes">输入大小必须匹配。</entry>
+    <entry key="InvalidTailArg">TAIL 必须为 ''lower'' 或 ''upper''。</entry>
+    <entry key="FailedToConverge">不完整 gamma 的逆没有为 p = {0}、a = {1}、tail = {2} 收敛。请慎用此结果。</entry>
+  </message>
+</rsccat>

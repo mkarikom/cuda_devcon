@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InputNotMatFile">First argument to {0} must be a MatFile object.</entry>
+    <entry key="DotSyntax">Use function syntax such as {0}(obj) for method calls on MatFile objects.</entry>
+    <entry key="NoFile">Cannot access ''{0}'' because ''{1}'' does not exist.</entry>
+    <entry key="VariableNotInFile">''{0}'' does not exist in ''{1}''.</entry>
+    <entry key="NotSmoothIndexing">Cannot index into ''{0}'' because MatFile objects only support '()' indexing.</entry>
+    <entry key="SubsetBoundsAndIntervals">Cannot index into ''{0}'' because ranges for MatFile objects must increase in equally spaced intervals.</entry>
+    <entry key="NoIndexingIntoProperties">'Properties' describes a MatFile object. To access this description, use the syntax obj.Properties.name.</entry>
+    <entry key="ReservedNameConflict">Cannot create a variable named 'Properties' because it is a reserved name for the MatFile class. Choose a different variable name.</entry>
+    <entry key="ObjectNotWritable">Cannot change ''{0}'' because Properties.Writable is false.  To modify ''{1}'', set Properties.Writable to true.</entry>
+    <entry key="NoObjectArrays">MatFile objects must be scalar. Try assigning the object to a scalar variable.</entry>
+    <entry key="VarAccessOp">MatFile objects are scalar. Access variables using the syntax objName.varName(indices).</entry>
+    <entry key="VarAccessName" note="stringDatatypeUpdate">Variable name must be a character vector.</entry>
+    <entry key="OlderFormat">The file ''{0}'' was saved in a format that does not support partial loading. Temporarily loading variable ''{1}'' into memory. To use partial loading efficiently, save MAT-files with the -v7.3 flag.</entry>
+    <entry key="SourceHasReservedNameConflict">''{0}'' contains a variable named 'Properties', which MatFile objects cannot access. To access the 'Properties' variable using a MatFile object, rename the variable in the file.</entry>
+    <entry key="CannotConcatenate">Cannot concatenate MatFile objects.</entry>
+    <entry key="TooManyLevelsOfIndexing">Variables in the MatFile cannot be indexed more than one level.</entry>
+    <entry key="PropertiesWritableType">Writable parameter must be a scalar logical.</entry>
+    <entry key="NoEmptyMatFiles">Cannot create empty MatFile objects.</entry>
+    <entry key="IndexMustBeNumeric">''{0}'' cannot be indexed with class ''{1}''. Indices must be numeric.</entry>
+    <entry key="colonLHS">Cannot use colon '':'' to define a dimension of a new variable.</entry>
+    <entry key="emptyIndex">Cannot index into ''{0}'' because indices cannot be empty.</entry>
+    <entry key="emptyVariableWithColonIndex">Cannot index into empty variable ''{0}'' with colon index.</entry>
+    <entry key="badsubscript">Subscript indices must be real positive integers.</entry>
+    <entry key="NeedsAllDims">To index into ''{0}'', specify all {1,number,integer} dimensions. MatFile objects do not support linear indexing.</entry>
+    <entry key="NeedsAllDimsDoesntExist">To index into the new variable ''{0}'', specify at least two dimensions. MatFile objects do not support linear indexing.</entry>
+    <entry key="overriddenIndexing">The variable ''{0}'' is of class ''{1}''. To use ''{2}'', load the entire variable.</entry>
+    <entry key="UnsupportedCharacters">Found characters the default encoding is unable to represent.</entry>
+	<!-- Entries for MAT-File Preference Panel -->
+	<entry key="SaveFormatTitle">MAT and FIG files save format</entry>
+    <entry key="SaveFormatButtonGroupTitle">Save MAT and FIG files that can be loaded in:</entry>
+	<entry key="Version_7_3_Button">MATLAB R2006b (Version 7.3) or later\nVariables can exceed 2GB on 64-bit systems</entry>
+	<entry key="Version_7_Button">MATLAB R14 (Version 7) or later\nFiles are compressed and use Unicode character encoding</entry>
+	<entry key="Version_5_Button">MATLAB R8 (Version 5) or later</entry>
+	<entry key="FIG_Note">Note: FIG-files are created by saving plots, GUIs, etc.</entry>
+</message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TooManyInputs">입력 인수가 너무 많음</entry>
+    <entry key="InvalidNumberOfArguments">유효하지 않은 인수임</entry>
+    <entry key="InvalidArgument">{0}은(는) 유효하지 않은 인수임</entry>
+    <entry key="NotValidArguments">{0} 및 {1}은(는) 유효한 인수가 아님</entry>
+  </message>
+</rsccat>

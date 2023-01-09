@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidOptionString" note="stringDatatypeUpdate">Optional argument ''{0}'' not supported.</entry>
+    <entry key="InvalidOptionType" note="stringDatatypeUpdate">Optional arguments must be numeric, string scalars, or character vectors.</entry>
+    <entry key="InvalidPrecision">Precision must be a positive integer scalar.</entry>
+    <entry key="TwoDInput">Input matrix must be 2-D.</entry>
+    <entry key="NumericInput">Input matrix must be a numeric array, character array, or string array.</entry>
+  </message>
+</rsccat>

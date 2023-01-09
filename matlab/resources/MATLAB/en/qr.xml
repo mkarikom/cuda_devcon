@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="internal">Algorithm did not succeed.\nInternal error in library SuiteSparseQR.</entry>
+    <entry key="inputTypeSparse">Invalid data type. First argument must be double.</entry>
+    <entry key="inputTypeSparse2">Invalid data type. Second argument must be double.</entry>
+    <entry key="rowDimNotMatch">Row dimensions do not match.</entry>
+    <entry key="notSupportFill">Three input syntax only supported for sparse matrices.</entry>
+    <entry key="inputMustBe2D">Input array must be 2-dimensional.</entry>
+    <entry key="inputType">Invalid data type. First argument must be double or single.</entry>
+    <entry key="unknownOptionForSecondInput">Option must be 0, ''matrix'', or ''vector''.</entry>
+    <entry key="unknownOptionForThirdInput">Option must be 0, ''matrix'', or ''vector''.</entry>
+
+    <!-- Error messages for matlab.internal.math.implicitSparseQR and matlab.internal.math.applyHouseholder -->
+    <entry key="invalidA">Input must be a sparse double matrix.</entry>
+    <entry key="invalidH">First input H must be a sparse double matrix.</entry>
+    <entry key="invalidTau">Second input TAU must be a dense double row vector of length P.</entry>
+    <entry key="invalidPinv">Third input PINV must be a dense INT64 row vector of length M, with all elements between 0 and M-1.</entry>
+    <entry key="invalidX">Fourth input X must be a double matrix with M rows.</entry>
+    <entry key="invalidTransp">Fifth input TRANSPOSE must be a logical scalar.</entry>
+    <entry key="invalidCombination">Multiplying real Q with complex X is not supported.</entry>
+    <entry key="invalidOrder">Order must be a logical scalar.</entry>
+    <entry key="invalidTol">Tolerance must be a real double scalar.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="BadPercents" note="" context="error">P must be a scalar or non-empty vector of real values between 0 and 100</entry>
+    <entry key="NoApproximateTall" context="error">When Dim is not 1 (non-tall dimension), exact computation is more efficient. Try setting the 'Method' parameter to 'exact' instead.</entry>
+    <entry key="MustBeColumn" context="error">Percentile or quantile of a tall array in the first dimension is only supported for tall column vectors.</entry>
+    <entry key="NoComplexNamed" note="" context="error">The value of {0} must not be complex.</entry>
+    <entry key="NoSparseNamed" note="" context="error">The value of {0} must not be sparse.</entry>
+    <entry key="NoObjectsNamed" note="" context="error">The value of {0} must not be an object.</entry>
+    <entry key="NoGPUArrayNamed" note="" context="error">The value of {0} must not be a gpuArray.</entry>
+    <entry key="FloatRequiredNamed" note="" context="error">The value of {0} must be a floating point array.</entry>
+    <entry key="NumericRequiredNamed" note="" context="error">The value of {0} must be a numeric array.</entry>
+</message>
+</rsccat>
+
+<!--Please use note attribute to describe context of message-->

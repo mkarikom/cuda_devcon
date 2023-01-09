@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="nonNumericInputRulers">입력 인수는 숫자형, datetime형, duration형, categorical형 중 하나여야 합니다.</entry>
+    <entry key="nonNumericInput">입력 인수는 숫자형이거나 double형으로 변환될 수 있는 객체여야 합니다.</entry>
+    <entry key="DatetimeDependent">y 값은 숫자형 배열이거나 duration형 배열이어야 합니다.</entry>
+    <entry key="UsingOnlyRealComponentOfComplexData">복소수 데이터의 실수부만 사용됩니다.</entry>
+  </message>
+</rsccat>

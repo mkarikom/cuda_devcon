@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidInputs">Invalid input arguments</entry>
+    <entry key="InvalidFirstArgument">First argument must be a scalar axes handle</entry>
+    <entry key="InvalidScalarArgument">Single scalar argument must be 2 or 3</entry>
+    <entry key="InvalidArgument">Argument must be scalar, or two-vector</entry>
+    <entry key="InvalidArgumentType">Arguments must be scalars</entry>
+    <entry key="OneOutputNotSupported">One output argument is not supported. To query the current azimuth and elevation, request two output arguments.</entry>
+  </message>
+</rsccat>

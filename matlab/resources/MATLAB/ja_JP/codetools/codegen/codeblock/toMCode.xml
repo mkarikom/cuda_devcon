@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CreateCodeName">{0} を作成</entry>
+    <entry key="EditObjectComment">関数 {0} の呼び出しに出力引数を手動で追加してください\n% 例 h = {1}(...)</entry>
+    <entry key="RemoveObjectComment">関数 {0} の呼び出しを手動で削除してください</entry>
+  </message>
+</rsccat>

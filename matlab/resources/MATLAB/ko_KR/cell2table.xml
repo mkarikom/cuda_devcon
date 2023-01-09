@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CodegenVarNames">코드 생성 시 VariableNames를 지정해야 합니다.</entry>
+    <entry key="NonconstantVariableNames">테이블 변수 이름은 상수여야 합니다.</entry>
+    <entry key="NDCell">C는 2차원 셀형 배열이어야 합니다.</entry>
+    <entry key="VariableColumns">입력값은 고정된 개수의 열을 가져야 합니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="ArgNotString">모든 인수는 문자형 벡터여야 합니다.</entry>
+    <entry key="AddLeadingTrailingWhitespace">MATLAB 경로의 폴더에는 선행 공백이나 후행 공백이 포함될 수 없습니다. ''{1}'' 대신 ''{0}''이(가) 추가됩니다.</entry>
+    <entry key="RemoveLeadingTrailingWhitespace">MATLAB 경로의 폴더에는 선행 공백이나 후행 공백이 포함될 수 없습니다. ''{1}'' 대신 ''{0}''이(가) 제거됩니다.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidTarget">変換する値は、[x y w h] の形式でなければなりません</entry>
+    <entry key="InvalidFromUnits">変換する単位は、inches、centimeters、normalized、points、pixels、characters のいずれかでなければなりません。</entry>
+    <entry key="InvalidUnits">変換後の単位は、inches、centimeters、normalized、points、pixels、characters のいずれかでなければなりません。</entry>
+    <entry key="InvalidFigure">最初の入力引数は Figure のハンドルでなければなりません。</entry>
+    <entry key="InvalidRefObj">参照オブジェクトが無効です。</entry>
+    <entry key="InvalidObj">与えられたオブジェクトが無効です。オブジェクトが今回の呼び出しで削除されたかどうか確認してください。</entry>
+  </message>
+</rsccat>

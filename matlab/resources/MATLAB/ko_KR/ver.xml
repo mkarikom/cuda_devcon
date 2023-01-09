@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="License">라이선스</entry>
+    <entry key="LicenseNumber">라이선스 번호</entry>
+    <entry key="NotAString">인수는 string형 스칼라이거나 문자형 벡터여야 합니다.</entry>
+    <entry key="NotFound">검색된 Contents.m 파일이 ''{0}''에 대해 올바른 형식을 가지고 있지 않습니다.</entry>
+    <entry key="OperatingSystem">운영 체제</entry>
+    <entry key="Trial">평가판</entry>
+    <entry key="Version">버전</entry>
+    <entry key="ProductNameDeprecated">ver(''{0}'')은(는) 향후 릴리스에서는 지원되지 않을 예정입니다.  대신 ver(''{1}'')를 사용하십시오.</entry>
+  </message>
+</rsccat>

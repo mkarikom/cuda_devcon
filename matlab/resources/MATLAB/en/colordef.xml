@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="InvalidOption">Invalid option specified for the first input to colordef.</entry>
+    <entry key="RootOrFigureHandle">colordef(FIG, OPTION) requires a handle to root or a figure window</entry>
+    <entry key="FigureHandleExpected">Vectors of handles passed to colordef must include only figure handles.</entry>
+    <entry key="InvalidHandle">Invalid figure handle.</entry>
+    <entry key="MustClearFigure">The figure must be cleared using CLF to use COLORDEF(FIG, OPTION).</entry>
+    <entry key="UnknownDefaultOption">Unknown color default option: {0}.</entry>
+  </message>
+</rsccat>

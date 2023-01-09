@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidinput">最初の入力は Java オブジェクトでなければなりません</entry>
+    <entry key="invalidevent">{0} でコールバック名が認識されません。\n有効なコールバック:\n {1}</entry>
+    <entry key="InvalidParentHandle">無効な親ハンドル\n{0}</entry>
+    <entry key="JavaFigsNotEnabled">Java Figure は有効ではありません</entry>
+    <entry key="InvalidPosition">無効なコンポーネントの位置\n{0}</entry>
+    <entry key="FeatureNotSupported">JAVACOMPONENT はこのプラットフォームでサポートされていません</entry>
+    <entry key="IncorrectUsage">\n警告: この機能は MATLAB ではサポートされておらず、API と機能が将来の\nリリースで変更される可能性があります。 \n\n使用方法: javacomponent(javaClassName, position, parent, callback) \n- position は空にするか、ピクセル単位の [left bottom width height] \n または文字ベクトル North、South、East、West のいずれかを指定できます。\n- parent には、Figure または uitoolbar ハンドルを指定できます。\n- callback は空にするか、JavaEvent およびそれらのハンドラーのセル配列を指定できます。</entry>
+  </message>
+</rsccat>

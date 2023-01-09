@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="FunAsVariable">A table variable must not be a function handle.  Use a cell array to contain function handles.</entry>
+    <entry key="UnequalFieldLengths">Fields in a scalar structure must have the same number of rows.</entry>
+    <entry key="UnequalVarLengths">All table variables must have the same number of rows.</entry>
+    <entry key="StringParamNameNotSupported">You might have intended "{0}" to specify a parameter name. However, the table constructor requires parameter names to be specified as character vectors. Use table(..., ''{0}'', Value) instead.</entry>
+    <entry key="ConstructingFromCharRowData">You might have intended to create a one-row table with the character vector ''{0}'' as one of its variables. To store text data in a table, use a string array or a cell array of character vectors rather than character arrays. Alternatively, create a cell array with one row, and convert that to a table using CELL2TABLE.</entry>
+    <entry key="UndefinedFunction">Undefined function ''{0}'' for input arguments of type ''{1}''.</entry>
+    <entry key="InvalidNumericConversion">Undefined function ''{0}'' for input arguments of type ''{1}''. To convert to numeric, use the TABLE2ARRAY function, or extract data using dot or brace subscripting.</entry>
+    <entry key="UndefinedLengthFunction">Undefined function ''LENGTH'' for input arguments of type ''{0}''.  Use the height, width, or size functions instead.</entry>
+    <entry key="UndefinedSortFunction">Undefined function ''SORT'' for input arguments of type ''{0}''.  Use the SORTROWS function instead.</entry>
+    <entry key="UndefinedCellFunction">Undefined function ''CELL'' for input arguments of type ''{0}''.  Use the TABLE2CELL function instead.</entry>
+    <entry key="UndefinedStructFunction">Undefined function ''STRUCT'' for input arguments of type ''{0}''.  Use the TABLE2STRUCT function instead.</entry>
+    <entry key="UndefinedTransposeFunction">Undefined function ''{0}'' for input arguments of type ''{1}''.  Use the ROWS2VARS function instead.</entry>
+    <entry key="VarEditorIndexOverflow">Data must be added to a table immediately to the right of existing variables.  A new table variable will be added in the next available column.</entry>    
+    <entry key="NoPlotMethod">Tables and timetables do not have a plot method. To plot a table or a timetable, use the &lt;a href="matlab:helpview(fullfile(docroot,'matlab','ref','stackedplot.html'))"&gt;stackedplot&lt;/a&gt; function. As an alternative, extract table or timetable variables using dot or brace subscripting, and then pass the variables as input arguments to the plot function.</entry>
+    <entry key="IncompatibleLoad" note="Do NOT add period ('.') at the end - it is intentionally left out.">Unable to load the saved table because it is incompatible with this version of MATLAB</entry>
+    <entry key="IncompatibleLoadProperties" note="Do NOT add period ('.') at the end - it is intentionally left out.">Unable to load the saved TableProperties because it is incompatible with this version of MATLAB</entry>
+    <entry key="ObjectConstructorFailed">The ''{0}'' constructor returned an error when called with no inputs to create default values.</entry>
+    <!-- from subsref, subsasgn, and numel-->
+    <entry key="AssignmentDimensionMismatch">Unable to perform assignment for table variable ''{0}'' because it's size on the left side is {1} and the size of the corresponding variable on the right side is {2}.</entry>
+    <entry key="CharAssignFromCellRHS">Assigning to a character variable in a table is only supported when the right-hand side value is a table. Consider using a string variable in the table for text data.</entry>
+    <entry key="RowsAddedExistingVars">The assignment added rows to the table, but did not assign values to all of the table's existing variables. Those variables are extended with rows containing default values.</entry>
+    <entry key="RowsAddedNewVars">The new variables being added to the table have fewer rows than the table. They have been extended with rows containing default values.</entry>
+    <entry key="IllegalPropertyReference">Access the ''{0}'' property of a table using dot subscripting via .Properties.{0}.</entry>
+    <entry key="IllegalPropertyReferenceCase">Unrecognized table variable name ''{0}''. You may have intended to access the ''{1}'' property.  Access that property using dot subscripting via .Properties.{1}.</entry>
+    <entry key="UnknownPropertyCase">Unrecognized table property name ''{0}''. Property names are case sensitive. You may have intended to access the ''{1}'' property.</entry>
+    <entry key="IllegalVarSubscript">Table variable names must be strings or character vectors.</entry>
+    <entry key="IllegalVarIndex">A variable index must be a real positive integer.</entry>
+    <entry key="NestedSubscriptingWithDotVariables">Using ''.{0}'' with more than one level of subscripting is not supported. Use brace subscripting directly on the table instead.</entry>
+    <entry key="NestedSubscriptingWithDotRowsDeletion">Using ''.{0}'' with more than one level of subscripting to delete rows of a table is not supported. Use parenthesis subscripting directly on the table instead.</entry>
+    <entry key="InvalidEmptyAssignment">At least one subscript must be '':'' when you delete rows or variables by assigning [].</entry>
+    <entry key="EmptyAssignmentToSubarrayVar">Deleting a variable from a table by assigning [] to subarray of the table is not supported. Use T(:,VAR) = [] or T.VAR = [] instead.</entry>
+    <entry key="InvalidLinearIndexing">Linear indexing into a table variable using row labels is supported only when the variable has one column.</entry>
+    <entry key="PropertiesAssignmentToSubarray">Assigning to .Properties on a subarray of a table is not supported. Use T.PROPERTIES.PROPERTYNAME = VALUE or T.PROPERTIES = PROPERTYVALUES instead.</entry>
+    <entry key="InvalidPropertiesAssignment">The value you assign to .Properties must be a {0} object or a scalar structure whose fields correspond to {1} properties.</entry>
+    <entry key="InvalidPropertyAssignment">Assign to the ''{0}'' property of a table using dot subscripting via .Properties.{0}.</entry>
+    <entry key="InvalidRHS">Right hand side of an assignment into a table must be another table or a cell array.</entry>
+    <entry key="InvalidSubscriptExpr">() indexing must appear last in a table index expression.</entry>
+    <entry key="InvalidContentsReshape">Assignment into the contents of one or more table variables using '{}' subscripting followed by deeper levels of subscripting cannot change the size of the contents.</entry>
+    <entry key="InvalidExpansion">Adding rows or variables to a table by an assignment where () or '{}' subscripting is followed by additional levels of subscripting is not supported.</entry>
+    <entry key="InvalidExpansionDot">Creating a new variable in a table by assigning to a field or property of the variable is not supported.</entry>
+    <entry key="InvalidExpansionDotSuggest">Creating a new variable in a table by assigning to a field or property of the variable is not supported. {0}</entry>
+    <entry key="InvalidExpansionDotDepth">You cannot create a new variable in a table by an assignment where dot subscripting is followed by more than one level of subscripting.</entry>
+    <entry key="InvalidExpansionDotDepthSuggest">Create a new variable in a table by an assignment where dot subscripting is followed by more than one level of subscripting is not supported. {0}</entry>
+    <entry key="IntendedPropertiesAssignment">You may have intended to assign the table's properties. Do that using ''.Properties''.</entry>
+    <entry key="IntendedPropertyAssignment">You may have intended to assign the table's ''{0}'' property. Do that using ''.Properties.{0}''.</entry>
+    <entry key="IntendedVarAssignment">You may have intended to assign the ''{0}'' table variable.</entry>
+    <entry key="IntendedRowDimAssignment">You may have intended to assign the row names with ''{0}''.</entry>
+    <entry key="NDCell">Cell array on the right-hand side of an assignment to a table must be two-dimensional.</entry>
+    <entry key="NDSubscript">Subscripting into a table using three or more subscripts (as in t(i,j,k)) is not supported. Always specify a row subscript and a variable subscript, as in t(rows,vars).</entry>
+    <entry key="LinearSubscript">Subscripting into a table using one subscript (as in t(i)) is not supported. Specify a row subscript and a variable subscript, as in t(rows,vars). To select variables, use t(:,i) or for one variable t.(i). To select rows, use t(i,:).</entry>
+    <entry key="RowDimensionMismatch">To assign to or create a variable in a table, the number of rows must match the height of the table.</entry>
+    <entry key="RowDimensionMismatchSuggest">To assign to or create a variable in a table, the number of rows must match the height of the table. {0}</entry>
+    <entry key="EmptyAssignmentToVariableRows">When deleting elements from a table variable using indexed assignment, the number of rows must not change. Specify the first subscript as a colon (':') and exactly one other subscript that is not a colon.</entry>
+    <entry key="TooManyOutputs">Too many outputs.</entry>
+    <entry key="VarDimensionMismatch">The number of table variables in an assignment must match.</entry>
+    <entry key="WrongNumberRHSCols">The value on the right-hand side of the assignment has the wrong width. The assignment requires a value whose width is {0,number,integer}.</entry>
+    <entry key="WrongSizeRHS">The value on the right side of the assignment must have the same size along all dimensions as the value on the left side.</entry>
+    <entry key="IllegalDotMethod">Unrecognized table variable name ''{0}''. If you intended to call the {1} method, you must use a functional syntax such as {1}(t,...). See &lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;Method Invocation&lt;/a&gt; for more information.</entry>
+    <entry key="IllegalDotMethodNoCorrection">Unrecognized table variable name ''{0}''. If you intended to call the {1} method, you must use a functional syntax. See &lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;Method Invocation&lt;/a&gt; for more information.</entry>
+    <entry key="BracesAssignDelete">The value on the right-hand side of the assignment must have {0,number,integer} columns. If you intended to delete rows or variables by assigning [], use () subscripting instead of '{}'.</entry>
+    <entry key="CannotRemoveVarNames">Deleting variable names from a table is not supported.</entry>
+    <entry key="CannotRemoveDimNames">Deleting dimension names from a table is not supported.</entry>
+    <entry key="RowDimNameNondefault">Unrecognized table variable name ''{0}''. If you intended to access the row names, use ''{1}'' for this table instead. </entry>
+    <entry key="VariablesDimNameNondefault">Unrecognized table variable name ''{0}''. If you intended to access the variables, use ''{1}'' for this table instead. </entry>
+    <entry key="RowDimNameCase">Unrecognized table variable name ''{0}''. Names are case sensitive. You may have intended to access the table's row names as ''{1}''.</entry>
+    <entry key="VariablesDimNameCase">Unrecognized table variable name ''{0}''. Names are case sensitive. You may have intended to access the entire table's contents as an array with ''{1}''.</entry>
+    <entry key="TooManyOutputsBracesIndexing">Too many output arguments. Indexing tables and timetables using braces will return one array. See &lt;a href="matlab:helpview(fullfile(docroot,'matlab','matlab_prog','access-data-in-a-table.html'))"&gt;Access Data in a Table&lt;/a&gt; for more information.</entry>
+    <entry key="ReservedVarnameColon">':' is not a valid variable name because ':' is reserved as an array subscript.</entry>
+    <!-- from checkDuplicateNames -->
+    <entry key="DuplicateDimNames">Duplicate table dimension name: ''{0}''.</entry>
+    <entry key="DuplicateRowNames">Duplicate table row name: ''{0}''.</entry>
+    <entry key="DuplicateVarNames">Duplicate table variable name: ''{0}''.</entry>
+    <!-- from checkReservedNames -->
+    <entry key="ReservedVarNameConflict">Table variable name conflicts with reserved name ''{0}''.</entry>
+    <entry key="ReservedDimNameConflict">Table dimension name conflicts with reserved name ''{0}''.</entry>
+    <entry key="ReservedRowNameConflict">Table row name can not be ''{0}''. It is reserved as a table subscript.</entry>
+    <!-- from extractData -->
+    <entry key="ExtractDataDimensionMismatch">All table variables must have the same number of dimensions.</entry>
+    <entry key="ExtractDataSizeMismatch">All table variables must have the same length in all but the second dimension.</entry>
+    <entry key="ExtractDataCatError">Unable to concatenate the specified table variables.</entry>
+    <entry key="ExtractDataIncompatibleTypeError">Unable to concatenate the table variables ''{0}'' and ''{1}'', because their types are {2} and {3}.</entry>
+    <!-- from getProperty and setProperty -->
+    <entry key="InvalidSubscript">Invalid structure for subscript.</entry>
+    <entry key="UnrecognizedCustomProperty">Unrecognized custom table property name ''{0}''.</entry>
+    <!-- from getDimIndices -->
+    <entry key="InvalidDimName">A table dimension name subscript must be a character vector, string array, or cell array of character vectors, with each name in the subscript containing one or more characters.</entry>
+    <entry key="InvalidDimSubscript">A table dimension subscript must be a numeric array containing real positive integers, a logical array, a character vector, a string array, or a cell array of character vectors.</entry>
+    <entry key="DimIndexOutOfRange">Dimension index exceeds number of table dimensions.</entry>
+    <entry key="UnrecognizedDimName">Unrecognized table dimension name ''{0}''.</entry>
+    <!-- from getRowIndices -->
+    <entry key="InvalidRowName">A table row name subscript must be a character vector, string array, or cell array of character vectors</entry>
+    <entry key="InvalidRowSubscript">A table row subscript must be a numeric array containing real positive integers, a logical array, a character vector, a string array, or a cell array of character vectors.</entry>
+    <entry key="RowIndexOutOfRange">Row index exceeds table dimensions.</entry>
+    <entry key="UnrecognizedRowName">Unrecognized table row name ''{0}''.</entry>
+    <!-- from getVarIndices -->
+    <entry key="DiscontiguousVars">Cannot create a table variable with a discontiguous index.</entry>
+    <entry key="InvalidVarName">A table variable name subscript must be a character vector, string array, or cell array of character vectors, with each name in the subscript containing one or more characters.</entry>
+    <entry key="InvalidVarSubscript">A table variable subscript must be a numeric array containing real positive integers, a logical array, a character vector, a string array, or a cell array of character vectors.</entry>
+    <entry key="UnrecognizedVarName">Unrecognized table variable name ''{0}''.</entry>
+    <entry key="UnrecognizedVarNameDeleting">Cannot delete ''{0}'' from the table because it does not exist. Assigning the literal value [] to a variable in a table deletes the variable. To create a new variable in the table with the value [], use T.{0} = zeros(0) or assign first to a temporary workspace variable.</entry>
+    <entry key="UnrecognizedVarNamePropertiesCase">Unrecognized table variable name ''{0}''. To access the table's properties, use '.Properties'.</entry>
+    <entry key="UnrecognizedVarNameCase">Unrecognized table variable name ''{0}''. Variable names are case sensitive. You may have intended to access the ''{1}'' variable.</entry>
+    <entry key="VarIndexOutOfRange">Variable index exceeds table dimensions.</entry>
+    <entry key="NoRowLabels">Unable to use row names as grouping or key variable because the input table does not have row names.</entry>
+    <!-- from matchPropertyName -->
+    <entry key="AmbiguousProperty">Ambiguous table property name: {0}.</entry>
+    <entry key="InvalidPropertyName">Invalid table property name.</entry>
+    <entry key="UnknownProperty">Unknown table property: {0}.</entry>
+    <!-- from replaceData -->
+    <entry key="ReplaceDataHorzcatError">Unable to horizontally concatenate the specified table variables.</entry>
+    <entry key="ReplaceDataFunOutputSizeMismatch">FUN must produce an array with the same number of rows and columns as its input array.</entry>
+    <entry key="ReplaceDataDataRowSizeMismatch">The replacement data must have the same number of rows as the table.</entry>
+    <entry key="ReplaceDataDataColSizeMismatch">The variables being replaced in the table must have the same total number of columns as the replacement data.</entry>
+    <entry key="ReplaceDataFunError">Error evaluating function ''{0}''.</entry>
+    <!-- from validateLogical -->
+    <entry key="InvalidLogicalVal">The ''{0}'' parameter must be logical 1 (true) or logical 0 (false).</entry>
+    <!-- from setDescription -->
+    <entry key="InvalidDescription">The Description property must be a string or a character vector.</entry>
+    <!-- from setDimNames -->
+    <entry key="InvalidDimNames">The DimensionNames property must be a string array or a cell array, with each name containing one or more characters.</entry>
+    <entry key="IncorrectNumberOfDimNames">The DimensionNames property must contain one name for each dimension in the table.</entry>
+    <entry key="IncorrectNumberOfDimNamesPartial">The DimensionNames property must contain one name for each dimension being renamed.</entry>
+    <!-- from setRowNames -->
+    <entry key="IncorrectNumberOfRowNames">The RowNames property must contain one name for each row in the table.</entry>
+    <entry key="IncorrectNumberOfRowNamesPartial">The RowNames property must contain one name for each row being renamed.</entry>
+    <entry key="InvalidRowNames">The RowNames property must be a string array or a cell array, with each name containing one or more characters.</entry>
+    <!-- from setUnits -->
+    <entry key="InvalidUnits">The VariableUnits property must be a string array or a cell array of character vectors.</entry>
+    <entry key="IncorrectNumberOfUnits">The VariableUnits property must have one element for each variable in the table.</entry>
+    <!-- from setContinuity -->
+    <entry key="InvalidContinuityAssignment">To assign to the VariableContinuity property, use a string array, a cell vector of character vectors, or a matlab.tabular.Continuity vector.</entry>
+    <entry key="InvalidContinuityFullAssignment">To assign to the VariableContinuity property, use a string array, a cell vector of character vectors, or a matlab.tabular.Continuity vector. A character vector can be assigned only to an individual element of the property.</entry>
+    <entry key="IncorrectNumberOfContinuity">VariableContinuity property must have one element for each variable in the table.</entry>
+	  <entry key="InvalidContinuityValue">VariableContinuity property must be specified with ''continuous'', ''step'', ''event'', or ''unset''.</entry>
+    <!-- from setVarDescription -->
+    <entry key="InvalidVarDescr">The VariableDescriptions property must be a string array or a cell array of character vectors.</entry>
+    <entry key="IncorrectNumberOfVarDescrs">The VariableDescriptions property must have one element for each variable in the table.</entry>
+    <!-- from setCustomProperties -->
+    <entry key="IncorrectNumberOfVarCustomProps">The custom property ''{0}'' must be a vector with one element for each variable in the table or must be a 0x0 empty (e.g. [], '{}').</entry>
+    <entry key="TableAsPerVarProp">{0} is not supported as a per-variable custom property.</entry>    
+    <entry key="CharAsPerVarProp">Vector of characters is not supported as a per-variable custom property. Use a cell array of character vectors or vector of strings.</entry>    
+    <!-- from setVarNames -->
+    <entry key="IncorrectNumberOfVarNames">The VariableNames property must contain one name for each variable in the table.</entry>
+    <entry key="IncorrectNumberOfVarNamesPartial">The VariableNames property must contain one name for each variable being renamed.</entry>
+    <entry key="InvalidVarNames">The VariableNames property is a cell array of character vectors. To assign multiple variable names, specify nonempty names in a string array or a cell array of character vectors.</entry>
+    <entry key="InvalidVarNameBraces">The VariableNames property is a cell array of character vectors. To set a single variable name by brace subscripting, assign a nonempty character vector.</entry>
+    <!-- from table2gidx and table2midx-->
+    <entry key="GroupingVarNotColumn">A grouping variable must be a column vector or a character array.</entry>
+    <entry key="GroupTypeIncorrect">A grouping variable must be a categorical, numeric, logical, datetime, duration, or string vector, a cell vector of character vectors, or a 2D character array.</entry>
+    <entry key="VarUniqueMethodFailed">Unable to group rows using unique values of the table variable ''{0}''.  UNIQUE returned an error.</entry>
+    <entry key="VarUniqueMethodFailedCellRows">Unable to group rows using unique values of the table variable ''{0}'' because it is a cell array with more than one column.</entry>
+    <entry key="VarUniqueMethodFailedNumRows">Unable to group rows using unique values of the table variable ''{0}''.  The value returned by the UNIQUE method had the wrong number of rows.</entry>
+    <!-- from varNamesDim.makeValidName-->
+    <entry key="InvalidVariableName">''{0}'' is not a valid table variable name.</entry>
+    <entry key="VariableNameNotValidIdentifier">''{0}'' is not a valid table variable name. See the documentation for isvarname or matlab.lang.makeValidName for more information.</entry>
+    <entry key="VariableNameLengthMax">''{0}'' is longer than the maximum allowed length for a table variable name.</entry>
+    <entry key="ModifiedVarnames">Table variable names that were not valid MATLAB identifiers have been modified. Since table variable names must be unique, any table variable names that happened to match the new identifiers also have been modified.</entry>
+    <entry key="ModifiedVarnamesUnstack">Table variable names that were not valid MATLAB identifiers have been modified. Since table variable names must be unique, any table variable names that happened to match the new identifiers also have been modified.\nTo use the original INDVAR values as table variable names, set ''VariableNamingRule'' to ''preserve''.</entry>
+    <entry key="ModifiedVarnamesRows2Vars">Table variable names that were not valid MATLAB identifiers have been modified. Since table variable names must be unique, any table variable names that happened to match the new identifiers also have been modified.\nTo use the original row names as new variable names, set ''VariableNamingRule'' to ''preserve''.</entry>
+    <entry key="ModifiedVarnamesLengthMax">Table variable names were truncated to the length namelengthmax.</entry>
+    <entry key="ModifiedVarnamesReservedConflict">Table variable names were modified to avoid conflict with reserved name ''{0}''.</entry>
+    <entry key="ModifiedAndSavedVarnames">Column headers from the file were modified to make them valid MATLAB identifiers before creating variable names for the table. The original column headers are saved in the VariableDescriptions property.\nSet ''VariableNamingRule'' to ''preserve'' to use the original column headers as table variable names.</entry>
+    <entry key="ModifiedAndSavedVarnamesReserved">Table variable names were modified to avoid conflict with reserved name ''{0}''. The original names are saved in the VariableDescriptions property.</entry>
+    <entry key="ModifiedAndSavedVarnamesLengthMax">Table variable names were truncated to the length namelengthmax. The original names are saved in the VariableDescriptions property.</entry>
+    <entry key="ZeroLengthVarname">Table variable names must be nonempty text.</entry> 
+    <!-- from metaDim.makeValidName-->    
+    <entry key="ModifiedDimnames">DimensionNames property was modified to make the name ''{0}'' a valid MATLAB identifier.</entry>    
+    <entry key="DimNameNotValidIdentifier">''{0}'' is not a valid table dimension name. See the documentation for isvarname or matlab.lang.makeValidName for more information.</entry>
+    <entry key="DimNameLengthMax">''{0}'' is longer than the maximum allowed length for a table dimension name.</entry>
+    <!-- from rowDim.makeValidName-->
+    <entry key="RowNameReservedBackCompat">Row name ':' was changed because a colon also can be an array subscript. Assigning ':' as a row name now produces an error.</entry>    
+    <!-- from metaDim-->
+    <entry key="DuplicateDimNamesVarNames">Duplicate dimension and variable name: ''{0}''.</entry>    
+    <entry key="DuplicateDimNamesVarNamesWarn">DimensionNames property was modified to avoid conflicting dimension and variable names: ''{0}''.</entry>    
+    <entry key="DimNameNotValidIdentifierBackCompat">DimensionNames property was modified to make the name ''{0}'' a valid MATLAB identifier. See &lt;a href="matlab:helpview(fullfile(docroot,''matlab'',''helptargets.map''),''changes_to_dimension_names_property_in_r2016b'')"&gt;Changes to DimensionNames Property in R2016b&lt;/a&gt; for more details. This will become an error in a future release.</entry>    
+    <entry key="DimnamesReservedNameConflictBackCompat">DimensionNames property was modified because the name ''{0}'' is reserved. See &lt;a href="matlab:helpview(fullfile(docroot,''matlab'',''helptargets.map''),''changes_to_dimension_names_property_in_r2016b'')"&gt;Changes to DimensionNames Property in R2016b&lt;/a&gt; for more details. This will become an error in a future release.</entry>    
+    <entry key="DuplicateDimnamesVarnamesBackCompat">DimensionNames property was modified to avoid conflicting dimension and variable names: ''{0}''. See &lt;a href="matlab:helpview(fullfile(docroot,''matlab'',''helptargets.map''),''changes_to_dimension_names_property_in_r2016b'')"&gt;Changes to DimensionNames Property in R2016b&lt;/a&gt; for more details. This will become an error in a future release.</entry>    
+    <!-- from table constructor, preallocation syntax-->
+    <entry key="InvalidSize">Size must be a two-element vector of nonnegative integer values specifying the number of rows and the number of variables.</entry>
+    <entry key="MissingVariableTypes">Specify variable types when creating a table with a specified size.</entry>
+    <entry key="IncorrectVariableTypesSyntax">Specify a size when creating a table with specified variable types.</entry>
+    <entry key="InvalidVariableTypes">Specify variable types as a string array or a cell array of character vectors, such as ["string", "datetime", "double"].</entry>
+    <entry key="InvalidSizeSyntax">Specifying both size and input data variables is not supported. See the &lt;a href="matlab:helpview(fullfile(docroot,'matlab','ref','table.html'))"&gt;table documentation&lt;/a&gt; for more information.</entry>
+    <entry key="VariableTypesAndSizeMismatch">Number of variable types must match the number of variables specified in the size.</entry>
+    <entry key="InvalidPreallocationVariableType">Unable to create a variable of type ''{0}''. When preallocating a table, each variable type must be a class that supports the empty method. {0}.empty returned the following error:\n\n{1}\n\nSee the &lt;a href="matlab:helpview(fullfile(docroot,'matlab','ref','table.html'))"&gt;table documentation&lt;/a&gt; for more information.</entry>
+    <entry key="PreAllocationClassnameCase">Unable to create a variable of type ''{0}''. There is no exact (case-sensitive) match for the class ''{0}''. You may have intended to create variables of type ''{1}''.</entry>
+    <entry key="PreAllocationUndefinedClass">Unable to create a variable of type ''{0}''. There is no class named ''{0}'' defined.</entry>
+    <entry key="ScalarTextAmbiguity">Created a table containing variables that are char row vectors. You may have instead intended ''{0}'' as an optional argument name, but some inputs that follow it do not match any admissible name-value pair arguments. Refer to the &lt;a href="matlab:helpview(fullfile(docroot,'matlab','ref','table.html'))"&gt;table documentation&lt;/a&gt; for supported syntaxes.</entry>
+    <entry key="PreallocateCharWarning">Preallocation using data type 'char' creates a table variable that is a cell array of character vectors rather than a character array. Storing text data as character arrays in a table is not recommended. When working with text data in a table or a timetable, consider using a string array or a categorical array.</entry>
+    <!-- from CustomProperties-->
+    <entry key="InvalidCustomPropDim">For each custom property, specify ''variable'' or ''table'' to indicate whether the property applies to the variables, or to the table as a whole. Specify these settings in a string array or cell array of character vectors.</entry>
+    <entry key="InvalidCustomPropName">Invalid custom property name. Create a new custom property with ADDPROP before adding data.</entry>
+    <entry key="InvalidCustomPropertiesAssignment">The value you assign to .Properties.CustomProperties must be a matlab.tabular.CustomProperties object.</entry>
+    <!-- fromScalarStruct -->
+    <entry key="NonScalarStruct">Invalid data type. Input must be a scalar struct.</entry>
+    <!-- codegen -->
+    <entry key="MissingVariableNames">When generating code, table variable names must be specified.</entry>
+    <entry key="AssignmentVarIndexOutOfRange">Variable index exceeds table dimensions. In code generation, adding table variables by assignment is not supported.</entry>
+    <entry key="AssignmentRowIndexOutOfRange">Row index exceeds table dimensions. In code generation, adding table rows by assignment is not supported.</entry>
+    <entry key="UnrecognizedIndexingVarName">Unrecognized table variable name ''{0}''.</entry>
+    <entry key="UnrecognizedIndexingRowName">Unrecognized table row name ''{0}''.</entry>
+    <entry key="UnrecognizedIndexingDimName">Unrecognized table dimension name ''{0}''.</entry>
+    <entry key="UnrecognizedIndexingNonconstantVarName">Unrecognized table variable name.</entry>
+    <entry key="UnrecognizedIndexingNonconstantRowName">Unrecognized table row name.</entry>
+    <entry key="UnrecognizedIndexingNonconstantDimName">Unrecognized table dimension name.</entry>
+    <entry key="UnrecognizedAssignmentVarName">Unrecognized table variable name ''{0}''. In code generation, adding table variables by assignment is not supported.</entry>
+    <entry key="UnrecognizedAssignmentRowName">Unrecognized table row name ''{0}''. In code generation, adding table rows by assignment is not supported.</entry>
+    <entry key="UnrecognizedAssignmentNonconstantVarName">Unrecognized table variable name. In code generation, adding table variables by assignment is not supported.</entry>
+    <entry key="UnrecognizedAssignmentNonconstantRowName">Unrecognized table row name. In code generation, adding table rows by assignment is not supported.</entry>
+    <entry key="NonconstantVarIndex">Variable indices into a table must be constant.</entry>
+    <entry key="NonconstantVarSpec">Table variable names or indices must be constant.</entry>
+    <entry key="NonconstantVariableNames">Table variable names must be constant.</entry>
+    <entry key="NonconstantDimensionNames">Table dimension names must be constant.</entry>
+    <entry key="NonconstantVariableTypes">When preallocating a table, the variable types input must be constant.</entry>
+    <entry key="NonconstantParameterName">Parameter names must be constant.</entry>
+    <entry key="NonconstantRowDimLength">Table row dimension length must be constant.</entry>
+    <entry key="NDCellIndexing">Brace subscripting to extract more than one N-D cell variables is not supported in code generation.</entry>
+    <entry key="UnsupportedPropertyChange">When generating code, the ''{0}'' table property cannot be changed after the table has been created.</entry>
+    <entry key="UnsupportedMethodCodegen">The {0} method is not supported for table in code generation.</entry>
+    <entry key="PreAllocationUnsupportedClass">In code generation, ''{0}'' is not a supported variable type when preallocating a table.</entry>
+    <entry key="PreAllocationUnsupportedCell">In code generation, ''cell'' is not a supported variable type when preallocating a table. To preallocate a cell array variable of character vectors, specify ''cellstr'' instead.</entry>
+    <entry key="UnsupportedDelete">Deletion by assigning [] is not supported in code generation.</entry>
+    <entry key="ExtractDataIncompatibleTypeVarIndices">Unable to concatenate table variables {0,number,integer} and {1,number,integer}, because their types are {2} and {3}.</entry>
+    <entry key="NonconstantCellAssignment">When assigning to a table variable that is a heterogeneous cell array, the row indices must be constant.</entry>
+    <entry key="NonconstantCellAssignmentByRowName">When assigning to a table variable that is a heterogeneous cell array and indexing using row names, the row names in the table must be constant.</entry>
+    <entry key="CodegenPropertySizeMismatch">The size of {0} must not change.</entry>
+    <entry key="EmptyMustBeFixedSize">If input is variable-size, it must not be empty at runtime. Empty inputs must be fixed-size.</entry>
+    <entry key="CodegenVariableNameLengthMax">One or more table variable name(s) is longer than the maximum allowed length.</entry>
+    <entry key="CodegenDimNameLengthMax">One or more table dimension name(s) is longer than the maximum allowed length.</entry>
+    <entry key="UnsupportedDefaultValues">Creating an array of class ''{0}'' with default values is not supported in code generation.</entry>
+    <entry key="InvalidDataType">The Data type must be a cell row vector and must have the same length as the table width, which is {0,number,integer}.</entry>
+    <entry key="InvalidDescriptionType">The Description type must be a character row vector.</entry>
+    <entry key="InvalidDimNamesType">The DimensionNames type must be a two-element cell row vector of nonempty character vectors.</entry>
+    <entry key="InvalidVarNamesType">The VariableNames type must be a cell row vector of nonempty character vectors, and must have the same length as the table width, which is {0,number,integer}.</entry>
+    <entry key="InvalidCellstrRowType">The {0} type must be a cell row vector of character vectors, and must have the same length as the table width, which is {1,number,integer}.</entry>
+    <entry key="InvalidContinuityType">The VariableContinuity type must be a row vector of class ''matlab.internal.coder.tabular.Continuity'', or a cell row vector of char vectors that can be converted to the class. It must have the same length as the table width, which is {0,number,integer}.</entry>
+    <entry key="InvalidRowNamesType">The RowNames type must be a cell column vector of nonempty character vectors, or a 0x0 empty cell.</entry>
+    <entry key="IncorrectRowNamesTypeLength">The RowNames type must have the same length as the table height. Use coder.resize to change the table height.</entry>
+    <entry key="IncorrectDataTypeHeight">The Data type cell elements must have the same number of rows as the table height. Use coder.resize to change the table height.</entry>
+    <entry key="StringGroupType">In code generation, string variables cannot be grouping variables.</entry>
+    <entry key="StringParamNameNotSupportedCodegen">You might have intended "{0}" to specify a parameter name. However, the table constructor requires parameter names to be specified as character vectors, and Name=Value is not supported in code generation. Use table(..., ''{0}'', Value) instead.</entry>
+    <entry key="IncompatibleTableTypeWidth">Unable to merge type objects of tables or timetables that have different widths.</entry>
+    <entry key="AssignmentDimensionMismatchCodegen">Subscripted assignment dimension mismatch for table variable ''{0}''.</entry>
+    </message>
+</rsccat>

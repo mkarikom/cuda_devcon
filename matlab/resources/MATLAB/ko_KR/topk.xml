@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="complexIntegers">복소수형 정수는 지원되지 않습니다. </entry>
+    <entry key="MustNotBeCell">셀형 배열은 지원되지 않습니다.</entry>
+    <entry key="InvalidK">반환할 요소 개수는 음이 아닌 정수여야 합니다.</entry>
+    <entry key="notPosInt">차원 인수는 양의 정수여야 합니다.</entry>
+    <entry key="InvalidAbsRealType">''ComparisonMethod'' 파라미터는 입력 배열이 숫자형이거나 논리형일 때만 지원됩니다.</entry>
+    <entry key="InvalidComparison">''ComparisonMethod'' 값은 ''auto'', ''abs'', ''real'' 중 하나여야 합니다.</entry>
+    <entry key="NameValueNames">파라미터 이름은 'ComparisonMethod'여야 합니다.</entry>
+    <entry key="NameValuePairs">입력 인수의 개수가 올바르지 않습니다. 파라미터 이름과 값은 쌍으로 있어야 합니다.</entry>
+  </message>
+</rsccat>

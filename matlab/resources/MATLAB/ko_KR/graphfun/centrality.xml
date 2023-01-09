@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="KeyWithoutValue">{0}에 대한 값이 지정되지 않았습니다.</entry>
+    <entry key="InvCombCostUndir">Cost는 옵션 ''closeness''와 ''betweenness''에 대해서만 지정할 수 있습니다.</entry>
+    <entry key="InvCombImpUndir">Importance는 옵션 ''degree'', ''eigenvector'' 또는 ''pagerank''에 대해서만 지정할 수 있습니다.</entry>
+    <entry key="InvCombTolUndir">Tolerance는 옵션 ''eigenvector'' 또는 ''pagerank''에 대해서만 지정할 수 있습니다.</entry>
+    <entry key="InvCombMaxitUndir">MaxIterations는 옵션 ''eigenvector'' 또는 ''pagerank''에 대해서만 지정할 수 있습니다.</entry>
+    <entry key="InvCombDamping">FollowProbability는 옵션 ''pagerank''에 대해서만 지정할 수 있습니다.</entry>
+    <entry key="InvCombCostDir">Cost는 옵션 ''incloseness'', ''outcloseness'', ''betweenness''에 대해서만 지정할 수 있습니다.</entry>
+    <entry key="InvCombImpDir">Importance는 옵션 ''indegree'', ''outdegree'', ''hubs'', ''authorities'', ''pagerank''에 대해서만 지정할 수 있습니다.</entry>
+    <entry key="InvCombTolDir">Tolerance는 옵션 ''hubs'', ''authorities'' 또는 ''pagerank''에 대해서만 지정할 수 있습니다.</entry>
+    <entry key="InvCombMaxitDir">MaxIterations는 옵션 ''hubs'', ''authorities'' 또는 ''pagerank''에 대해서만 지정할 수 있습니다.</entry>
+    <entry key="PageRankNoConv">페이지 랭크 반복 결과가 수렴하지 않았습니다. ''MaxIterations''를 늘리거나 ''Tolerance''를 낮춰 보십시오.</entry>
+    <entry key="HITSNoConv">Hubs와 authorities 반복 결과가 수렴하지 않았습니다. ''MaxIterations''를 늘리거나 ''Tolerance''를 낮춰 보십시오.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="RecursionDetected">{0}을(를) 불러오는 동안 재귀가 발생했습니다.</entry>
+    <entry key="EmptyFigFile">빈 Figure 파일입니다.</entry>
+    <entry key="InvalidLegendPeer">범례와 연결할 플롯을 확인할 수 없습니다. 범례 데이터가 무시됩니다.</entry>
+    <entry key="ToBeRemoved">''all'' 옵션은 향후 릴리스에서 제거될 예정입니다.</entry>
+    <entry key="DeprecatedOption">hgload의 ''all'' 옵션은 제거되었습니다.</entry>
+    <entry key="ForwardCompatibility">파일 {0}에 MATLAB의 향후 버전({1} 이상)에서 저장된 객체가 포함되어 있습니다.  이 버전에서 파일을 불러오려면 hgsave의 호환성 플래그를 사용하여 저장해야 합니다.</entry>
+    <entry key="FileVersion">MATLAB 최신 버전({0} 이상)으로 만든 Figure 파일입니다.</entry>
+    <entry key="InvalidFigFile">유효하지 않은 Figure 파일 형식입니다.</entry>
+    <entry key="InvalidOption">선택적 입력 인수는 string형 스칼라, 문자형 벡터 또는 구조체형이어야 합니다.</entry>
+    <entry key="UnrecognizedOption">유효하지 않은 옵션임: {0}.</entry>
+  </message>
+</rsccat>

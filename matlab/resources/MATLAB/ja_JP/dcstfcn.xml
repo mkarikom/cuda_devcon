@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="invalidSyntax">MROWS を指定する場合、NCOLS も指定しなければなりません。</entry>
+    <entry key="InvalidInputType">データ型が無効です。最初の引数は double、single、int8、uint8、int16、uint16、int32、uint32、論理値のいずれかでなければなりません。</entry>
+    <entry key="SparseInputType">スパース配列はサポートされていません。</entry>
+    <entry key="DCT1Length1">The length of the DCT-I transform must be greater than 1. Use a longer transform length or a different variant of the DCT.</entry>
+    <entry key="DCT1NDLength1">The length of the DCT-I transform must be greater than 1 in every dimension. Use a longer transform length or a different variant of the DCT.</entry>
+    <entry key="DCSTLengthNotNonNegInt">Transform length must be a nonnegative integer scalar.</entry>
+    <entry key="InvalidVariantString">Unrecognized option; specify the transform type with 'Variant' followed by an integer between 1 and 4.</entry>
+    <entry key="InvalidVariantValue">Transform variant must be an integer scalar between 1 and 4.</entry>
+    <entry key="DCSToutputSizeLessThanNdimsElements">Transform output size must have at least NDIMS elements.</entry>
+    <entry key="DCSToutputSizeNotRealIntRowVector">Transform output size must be a real integer row vector.</entry>
+    <entry key="DCSToutputSizeVectorNotNonNegInts">Transform output size vector must contain non-negative integers.</entry>
+  </message>
+</rsccat>

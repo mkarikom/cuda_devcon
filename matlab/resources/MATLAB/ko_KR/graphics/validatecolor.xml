@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidColor">색을 RGB 3색, 문자형 벡터 또는 string형 스칼라로 지정하십시오.</entry>
+    <entry key="InvalidColors">색을 RGB 3색으로 구성된 3열 행렬, 문자형 벡터, 문자형 벡터로 구성된 셀형 배열 또는 string형 배열로 지정하십시오.</entry>
+    <entry key="InvalidColorString">''{0}''은(는) 유효한 색 사양이 아닙니다. 유효한 이름에는 'red', 'green', 'blue', 'cyan', 'magenta', 'yellow', 'black' 및 'white'가 있습니다. 유효한 16진수 색 코드는 '#'과 그 뒤에 오는 3자리 또는 6자리 16진수로 구성되어야 합니다.</entry>
+    <entry key="InvalidStringShape">문자형 벡터로 구성된 1차원 셀형 배열 또는 1차원 string형 배열을 사용하여 색을 지정하십시오.</entry>
+    <entry key="InvalidNumericShape">색을 3열 행렬로 지정하십시오.</entry>
+    <entry key="InvalidTripletShape">색을 요소를 3개 가진 행 벡터로 지정하십시오.</entry>
+    <entry key="OutOfRange">범위 [0, 1] 내에 있는 double형 또는 single형 값을 지정하십시오.</entry>
+    <entry key="MultipleColors">단일 색 사양을 지정하거나 'multiple' 옵션을 사용하십시오.</entry>
+  </message>
+</rsccat>

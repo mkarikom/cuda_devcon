@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Checking">{0} 확인 중...</entry>
+    <entry key="FailedToCompile">{0}을(를) 컴파일하지 못했습니다.</entry>
+    <entry key="Finished">요청한 디렉터리 확인이 완료되었습니다.</entry>
+    <entry key="MissingArgument">{0} 입력 인수가 지원되지 않습니다.</entry>
+    <entry key="MustBeStringScalarOrCharacterVector">모든 입력 인수는 string형 스칼라이거나 문자형 벡터여야 합니다.</entry>
+  </message>
+</rsccat>

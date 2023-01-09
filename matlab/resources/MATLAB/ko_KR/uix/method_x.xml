@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CannotCreateClipMask">X 서버에서 클립 마스크가 생성될 수 없음</entry>
+    <entry key="CannotCaptureRectangles">Figure가 디폴트 비주얼을 사용하는 경우가 아니면 Figure 외부 영역을 포함한 사각형은 캡처할 수 없음</entry>
+    <entry key="UnableToAllocateOffscreenBuffer">DoubleBuffering에 오프스크린 버퍼를 할당할 수 없음</entry>
+    <entry key="CannotDock">Java가 아닌 Figure를 도킹할 수 없음</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="CharData">文字配列からの変換はサポートされていません。まず、cellstr を使用して文字配列を文字ベクトルのセル配列に変換します。次に、categorical を使用してセル配列を変換してください。</entry>
+    <entry key="TableData">table からの変換はサポートされていません。ドットの添字または中かっこの添字を使用して、データを 1 つ以上の table 変数から配列へと抽出します。次に、配列をカテゴリカル配列に変換してください。</entry>
+    <entry key="NDCharArrayData">N 次元文字配列からの変換はサポートされていません。</entry>
+    <entry key="UnprotectedOrdinal">順序配列は保護されていなければなりません。</entry>
+    <entry key="ValuesetOrdinalCategoriesMismatch">DATA が順序カテゴリカル配列の場合、VALUESET には DATA と同じカテゴリ セットが存在しなければなりません。</entry>
+    <entry key="MultipleMissingInValueset">VALUESET には複数の欠損値が含まれています。</entry>
+    <entry key="UniqueMethodFailedValueset">関数 UNIQUE を使用して VALUESET 内の一意の値を見つけられません。</entry>
+    <entry key="DuplicatedValues">VALUESET には重複する値が含まれています。</entry>
+    <entry key="UniqueMethodFailedData">関数 UNIQUE を使用して DATA 内の一意の値を見つけられません。</entry>
+    <entry key="MaxNumCategoriesExceeded">この演算では、{0,number,integer} 個を超えるカテゴリを含むカテゴリカル配列が作成されてしまいます。</entry>
+    <entry key="WrongNumCategoryNamesValueset">CATEGORYNAMES と VALUESET は同じ長さでなければなりません。</entry>
+    <entry key="WrongNumCategoryNames">CATEGORYNAMES は DATA の一意の値ごとに 1 つの要素を保有しなければなりません。</entry>
+    <entry key="UndefinedLabelCategoryName">テキスト ''{0}'' と等しいカテゴリ名を作成できません。\nCATEGORYNAMES 入力引数を使用してカテゴリ名を指定してください。</entry>
+    <entry key="EmptyCategoryName">空または欠損しているテキストからはカテゴリ名を作成できません。\n入力引数 CATEGORYNAMES を使用してカテゴリ名を指定してください。</entry>
+    <entry key="CantCreateCategoryNames">既定のカテゴリ名を作成できません。CATEGORYNAMES 入力引数を使用してカテゴリ名を指定してください。</entry>
+    <entry key="UndefinedInValueset">VALUESET の未定義値について、既定のカテゴリ名を作成できません。CATEGORYNAMES 入力引数を使用してカテゴリ名を指定してください。</entry>
+    <entry key="CharMethodFailedValueset">CHAR メソッドを使用して VALUESET から既定のカテゴリ名を作成することはできません。</entry>
+    <entry key="CharMethodFailedValuesetNumRows">CHAR メソッドを使用して VALUESET から既定のカテゴリ名を作成することはできません。CHAR メソッドでは、VALUESET の要素ごとに 1 行を割り当てた文字行列を作成できませんでした。</entry>
+    <entry key="CharMethodFailedData">CHAR メソッドを使用して DATA の一意の値から既定のカテゴリ名を作成することはできません。</entry>
+    <entry key="CharMethodFailedDataNumRows">CHAR メソッドを使用して DATA の一意の値から既定のカテゴリ名を作成することはできません。CHAR メソッドでは、一意の値ごとに 1 行を割り当てた文字行列を作成できませんでした。</entry>
+    <entry key="DuplicatedCatNamesDatetime">datetime 配列から一意のカテゴリ名を作成できませんでした。十分な精度をもつ&lt;a href="matlab:helpview([docroot '/matlab/ref/datetime.html#buhzxmk-1-Format'])"&gt;表示形式&lt;/a&gt;を使用するか、入力引数 CATEGORYNAMES を使用してカテゴリ名を指定してください。</entry>
+    <entry key="DuplicatedCatNamesDuration">duration 配列から一意のカテゴリ名を作成できませんでした。十分な精度をもつ&lt;a href="matlab:helpview([docroot '/matlab/ref/duration.html#mw_7dddd595-1be8-452b-8270-5589013aa7d4'])"&gt;表示形式&lt;/a&gt;を使用するか、入力引数 CATEGORYNAMES を使用してカテゴリ名を指定してください。</entry>
+    <entry key="DuplicatedCatNames">一意のカテゴリ名を作成できませんでした。CATEGORYNAMES 入力引数を使用してカテゴリ名を指定してください。</entry>
+    <entry key="NumericTypeMismatchValueSet">DATA が数値の場合、VALUESET は数値でなければなりません。</entry>
+    <entry key="TypeMismatchValueset">VALUESET は DATA と同じクラスでなければなりません。</entry>
+    <entry key="DuplicatedLogicalValueset">論理値にキャストする場合は、VALUESET に重複する値が含まれます。</entry>
+    <entry key="EQMethodFailedDataValueset">DATA と VALUESET の値の比較は等号を使用してはできません。</entry>
+    <entry key="UndefinedFunction">関数 ''{0}'' (タイプ''{1}'' の入力引数) が未定義です。</entry>
+    <entry key="NoLHS">ワークスペース変数に代入せずに {0} を使用すると、配列のプロパティは変更されません。C = {0}(C{1}) を使用してください。</entry>
+    <entry key="ProtectedForCombination">1 つ以上の配列がカテゴリカル配列で、順序配列または保護された配列になっており、それら配列のすべてに含まれる、同一カテゴリ セットはありません。新しいカテゴリを追加するには、ADDCATS を使用してください。</entry>
+    <entry key="InvalidOrdinalComparison">順序配列には、同じカテゴリ (順序を含む) が含まれていなければなりません。</entry>
+    <entry key="NotOrdinal">順序配列ではないカテゴリカル配列に対する関係比較は使用できません。</entry>
+    <entry key="OrdinalMismatchConcatenate">順序カテゴリカル配列と順序のないカテゴリカル配列を連結することはできません。</entry>
+    <entry key="OrdinalMismatchComparison">順序カテゴリカル配列と順序のないカテゴリカル配列を比較することはできません。</entry>
+    <entry key="InvalidComparisonTypes">{0} 配列と {1} 配列の間で比較は定義されていません。</entry>
+    <entry key="OrdinalCategoriesMismatch">順序配列には、同じカテゴリ (順序を含む) が含まれていなければなりません。</entry>
+    <entry key="InvalidSubscripting">()-インデックス付けは、インデックス式の最後に表示されなければなりません。</entry>
+    <entry key="CellReferenceNotAllowed">非セル配列オブジェクトからセル要素を参照しています。</entry>
+    <entry key="FieldReferenceNotAllowed">構造体でない配列のフィールドを参照しようとしています。</entry>
+    <entry key="OrdinalMismatchAssign">カテゴリカル配列を別の配列に代入するには、両方とも順序配列であるか、両方とも順序配列以外でなければなりません。</entry>
+    <entry key="ProtectedForAssign">新しいカテゴリ ''{0}'' をこのカテゴリカル配列に追加できません。これは配列のカテゴリが保護されているためです。新しいカテゴリを追加するには、ADDCATS を使用してください。</entry>
+    <entry key="InvalidRHS">{0} 配列への代入の右辺は、{0} か、カテゴリ名を表すテキストでなければなりません。</entry>
+    <entry key="CellAssignmentNotAllowed">非セル配列オブジェクトにセル要素を代入しています。</entry>
+    <entry key="FieldAssignmentNotAllowed">構造体でない配列のフィールドを割り当てようとしています。</entry>
+    <entry key="IllegalDotMethod">構造体でない配列のフィールドを参照しようとしています: ''{0}''。{1} メソッドを呼び出す場合は、{1}(c,...) などの関数構文を使用しなければなりません。詳細については、「&lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;メソッドの呼び出し&lt;/a&gt;」を参照してください。</entry>
+    <entry key="IllegalDotMethodNoCorrection">構造体でない配列のフィールドを参照しようとしています: ''{0}''。{1} メソッドを呼び出す場合は、関数構文を使用しなければなりません。詳細については、「&lt;a href="matlab:helpview(fullfile(docroot,'matlab/matlab_oop/method-invocation.html'))"&gt;メソッドの呼び出し&lt;/a&gt;」を参照してください。</entry>
+    <entry key="InvalidNames">{0} は、空白でないカテゴリ名を含む string 配列または文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="UndefinedLabel">{0} に無効な名前 ''{1}'' が含まれています。</entry>
+    <entry key="EmptyName">{0} には空の文字ベクトルまたは長さがゼロの string が含まれています。</entry>
+    <entry key="DuplicateNames">{0} は重複する値を含んでいます。</entry>
+    <entry key="VarEditorIndexOverFlow">カテゴリカル配列には空の列を含めることができないため、既存の変数のすぐ右側にしかデータを追加できません。\n新しいカテゴリカル変数は使用可能な次の列に追加されます。</entry>
+    <entry key="InvalidUndefinedChar"> ''{0}'' は有効なカテゴリ名ではありません。未定義のカテゴリカル要素を指定する場合は、空の値 '''' を使用してください。カテゴリを作成する場合は、名前が ''{1}'' または ''{2}'' であってはなりません。</entry>
+    <entry key="InvalidUndefinedString"> "{0}" は有効なカテゴリ名ではありません。未定義のカテゴリカル要素を指定する場合は、空の値 '''' または string(nan) を使用してください。カテゴリを作成する場合は、名前が "{1}" または "{2}" であってはなりません。</entry>
+    <entry key="InvalidMissingChar"> ''{0}'' は有効なカテゴリ名ではありません。未定義のカテゴリカル要素を指定する場合は、空の値 '''' を使用してください。</entry>
+    <entry key="AssignNewCategories">コード生成では、割り当てによるカテゴリの追加はサポートされません。</entry>
+    <entry key="SparseData">コード生成では、関数 categorical へのスパース行列入力はサポートされません。</entry>
+    <entry key="InvalidDataClass">コード生成では、関数 categorical への最初の入力は数値、logical、categorical 配列、または char ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="UnsupportedMethodCodegen">コード生成では、categorical に対して {0} メソッドがサポートされていません。</entry>
+    <entry key="CodegenInvalidNames">{0} は、空白でないカテゴリ名を含む文字ベクトルの cell 配列でなければなりません。</entry>
+    <entry key="CodegenDuplicateCategoryNames">カテゴリ名に重複する値を含めることはできません。</entry>
+    <entry key="InvalidLogicalScalarType">{0} の型は logical スカラーでなければなりません。</entry>
+    <entry key="InvalidCategoriesType">Categories の型は、空でない文字ベクトルの cell 列ベクトルでなければなりません。</entry>
+  </message>
+</rsccat>

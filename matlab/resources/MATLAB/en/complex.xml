@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2010-2019 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="expectsFullNumeric" context="error">First input must be numeric and full.</entry>
+    <entry key="expectsNumeric" context="error">First input must be numeric.</entry>
+    <entry key="invalidRealPartInput" context="error">Input for real part must be a real, full numeric value.</entry>
+    <entry key="invalidImagPartInput" context="error">Input for imaginary part must be a real, full numeric value.</entry>
+    <entry key="realPartInputNonNumericOrNonReal" context="error">Input for real part must be a real numeric value.</entry>
+    <entry key="imagPartInputNonNumericOrNonReal" context="error">Input for imaginary part must be a real numeric value.</entry>
+    <entry key="inputSizeMismatch" context="error">Input arrays must have the same size.</entry>
+    <entry key="mixedInputs" context="error">Integers can only be combined with integers of the same class, or scalar doubles.</entry>
+  </message>
+</rsccat>

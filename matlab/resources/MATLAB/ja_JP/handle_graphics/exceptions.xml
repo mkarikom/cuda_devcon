@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="Property">プロパティ値にエラーがあります。</entry>
+    <entry key="SceneNode">SceneNode の状態にエラーがあります。</entry>
+    <entry key="NotASceneNode">オブジェクトが、有効なグラフィックス オブジェクトではありません。</entry>
+    <entry key="InvalidState">更新トラバーサル中に無効なシーン ツリーが発生しました。</entry>
+    <entry key="SelfDeletedNode">ノードの更新中にノードまたはそのキャンバスが削除されました。</entry>
+    <entry key="PatchColorIndices">パッチの色またはアルファのインデックスが無効です。</entry>
+    <entry key="NodeDeletedAfterGetHints">getHints の実行中にノードが削除されました。</entry>
+    <entry key="NodeDeletedAfterGetExtents">データ範囲の取得中にノードが削除されました。</entry>
+    <entry key="DataObjectDeletedInPrepTraversal">"Prep" トラバーサル中に DataObject が削除されました。</entry>
+    <entry key="EditSessionClosedWhenNotOpen">何も開いていないときに編集セッションを閉じようとしました。</entry>
+    <entry key="InvalidCookie">登録時または登録解除時にクッキーが見つかりませんでした。</entry>
+    <entry key="UserNodeDeleted">{0} は更新中に破棄されました。</entry>
+    <entry key="NotImplemented">この機能はまだ実装されていません。</entry>
+    <entry key="IncompatibleCameraProperties">Camera プロパティは有効な変換行列を形成しません。</entry>
+    <entry key="TransformFailed">DataSpace または ColorSpace の変換メソッドが失敗しました。</entry>
+    <entry key="InvalidDependency">依存関係名が無効です。</entry>
+    <entry key="EventAlreadyRegistered">同じイベント タイプを 2 回登録しようとしています。</entry>
+    <entry key="EventNotFound">イベント タイプに対してシリアル化解除メソッドが見つかりませんでした。</entry>
+    <entry key="InvalidCameraParameters">指定されたプロパティ値をもつ有効なカメラを作成できませんでした。</entry>
+    <entry key="BadLimits">範囲が大きすぎます。</entry>
+    <entry key="ChooseTickFailed">不明な理由により目盛りの値を選択できませんでした。</entry>
+    <entry key="UpdateFailed">不明な理由により更新できませんでした。</entry>
+    <entry key="ExceedingNumberOfLightSources">光源の最大数 (8) を超えています。</entry>
+    <entry key="IncompleteTree">不完全なツリー内のノードに対して UpdateState を取得しようとしています。</entry>
+    <entry key="InvalidBinding">データ バインディングが無効です。</entry>
+    <entry key="InvalidColorType">色タイプが無効です。</entry>
+    <entry key="InvalidToolbarProperty">クラス 'Axes' のプロパティ ''Toolbar'' の設定中にエラーが発生しました:\n値は ''matlab.ui.controls.AxesToolbar'' でなければなりません。</entry>
+    <entry key="InvalidPrimitiveColorBinding">ストリップ形状でプリミティブなカラー バインディングを使用できません。</entry>
+    <entry key="InvalidToken">チェック アウトされていないトークンをチェック インしようとしました。</entry>
+    <entry key="TokenNotReady">まだ完了していないプロセスに対して、トークンからイベント データを取得しようとしました。</entry>
+    <entry key="OutOfOrderRendering">レンダリング ステージの順番が間違っています。</entry>
+    <entry key="UserBreak">ユーザーによって処理が停止されました。</entry>
+    <entry key="LightingNotSupported">ライティングはサポートされていません。</entry>
+    <entry key="WideLinesNotSupported">{0} を超える LineWidth はサポートされていません。</entry>
+    <entry key="ThreeDNotSupported">3D シーンはサポートされていません。</entry>
+    <entry key="TextureNotSupported">Image または Texture はサポートされていません。</entry>
+    <entry key="TextBackGroundNotSupported">テキストの背景はサポートされていません。</entry>
+    <entry key="TextEdgeNotSupported">テキストのエッジはサポートされていません。</entry>
+    <entry key="LaTexNotSupported">LaTeX インタープリターはサポートされていません。</entry>
+    <entry key="HandleGraphicsException">{0}</entry>
+  </message>
+</rsccat>

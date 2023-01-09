@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="zh_CN" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidHandleArguments">参数的数目不正确</entry>
+    <entry key="UnknownAlphaValue">Alpha 的值未知。</entry>
+    <entry key="ParameterIgnored">参数 {0} 与 {1} 对象不兼容。</entry>
+    <entry key="ParameterIgnoredObjects">参数 {0} 与指定的对象不兼容。</entry>
+    <entry key="UnrecognizedObject">alpha 命令与指定的对象不兼容。</entry>
+    <entry key="DeletedObject">无法对已删除的图形对象设置透明度。</entry>
+  </message>
+</rsccat>

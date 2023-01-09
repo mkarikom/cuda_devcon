@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="MATLAB">
+  <message>
+    <entry key="NonNumericStep">Step size must be a duration or a real double value.</entry>
+    <entry key="DurationConversion">Invalid data for duration arithmetic. Expected a duration or numeric scalar, a character vector, or scalar string.</entry>
+    <entry key="NonScalarInputs">Inputs must be scalars.</entry>
+  </message>
+</rsccat>

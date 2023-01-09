@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ko_KR" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="InvalidCData">유효하지 않은 CData임. MxNx3이어야 함. IMWRITE가 호출되지 않음.</entry>
+    <entry key="SizeNotReady">크기가 준비되지 않음 {0,number,integer}x{1,number,integer} (실제) 대 {2,number,integer}x{3,number,integer} (대상)\n</entry>
+    <entry key="ContainerNotDisplayable">컨테이너를 표시할 수 없습니다.</entry>
+    <entry key="FigureSizeIncorrect">Figure가 원하는 크기에 미치지 못했습니다.</entry>
+    <entry key="RequestedSizeTooLarge">요청한 출력 크기가 너무 큽니다. PaperPosition 속성값을 조정해 보십시오.</entry>
+    <entry key="RequestedSizeTooSmall">요청한 출력 크기가 너무 작습니다. PaperPosition 속성값을 조정해 보십시오.</entry>
+    <entry key="FigureMayHaveBeenClosed">Figure가 유효하지 않아서 요청한 출력이 완료되지 않았습니다.  출력이 완료되기 전에 Figure가 닫혀서 발생한 문제일 수 있습니다. </entry>
+  </message>
+</rsccat>

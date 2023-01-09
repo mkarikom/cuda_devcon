@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2021 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="ja_JP" product="MATLAB" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="argument_number_is_out_of_range">引数の数 {0,number,integer} は、{1,number,integer}:{2,number,integer} の範囲外です</entry>
+    <entry key="binding_is_rejected">{0} の結合は拒否されます: {1}</entry>
+    <entry key="cannot_read_file">ファイル "{0}" を読み取りできません。</entry>
+    <entry key="empty_binding_array">結合する配列が空です</entry>
+    <entry key="flags_are_missing">フラグが見つかりません</entry>
+    <entry key="no_need_for_argument_range">引数の範囲 "{0,number,integer}:{1,number,integer}:{2,number,integer}" を指定する必要はありません。</entry>
+    <entry key="NoCompletionsFound">補完する語が見つかりません。</entry>
+    <entry key="sax2_xml_parser_error">{2} の {1,number,integer} 行目の SAX2 {0}: "{3}".</entry>
+    <entry key="sax2_xml_parser_exception">SAX2 例外処理メッセージ:\n"{0}"。</entry>
+    <entry key="sax2_xml_parser_unexpected_exception">SAX2 の予期せぬ例外処理です。</entry>
+    <entry key="wrong_argument_range">引数の数の範囲 "{0,number,integer}:{1,number,integer}:{2,number,integer}" が正しくありません。</entry>
+    <entry key="wrong_argument_specification">引数の数の指定 "{0}" が正しくありません。</entry>
+    <entry key="ArgumentDefaultValue">既定の設定</entry>
+    <entry key="UnableToLoadSignatures">''{0}'' のシグネチャを読み込めません。</entry>
+    <entry key="UnableToCreateFunctionHandle">''{0}'' から関数ハンドルを作成できません。</entry>
+    <entry key="SkippingUnrecognizedProperty">認識されないプロパティ ''{0}'' をスキップします。</entry>
+    <entry key="UnrecognizedAttribute">認識されない ''type'' 属性 ''{0}''。</entry>
+    <entry key="ExpectedOneAttribute">厳密に 1 つの ''type'' 属性が必要です。</entry>
+    <entry key="UnrecognizedIdentifier">認識されない ''identifier'' ''{0}''。</entry>
+    <entry key="UnrecognizedSize">''size'' ''{0}'' が認識されません。''size'' は、少なくとも 2 つの '':'' または非負の整数からなるコンマ区切りリストでなければなりません。</entry>
+    <entry key="UnrecognizedKind">認識されない ''kind'' ''{0}''。</entry>
+    <entry key="UnrecognizedRepeating">''repeating'' は ''true'' または ''false'' でなければなりません。</entry>
+    <entry key="UnrecognizedMultiplicity">認識されない ''multiplicity'' ''{0}''。</entry>
+    <entry key="UnrecognizedPromotion">認識されない ''promotion'' ''{0}''。</entry>
+    <entry key="UnrecognizedIntegerValue">''{0}'' ''{1}'' が認識されません。''{0}'' は非負の整数でなければなりません。</entry>
+    <entry key="NamesAndGroupsMisuse">引数 ''namevalue'' および ''properties'' がグループの内部と外部の両方に出現してはなりません。</entry>
+    <entry key="FlagsAndGroupsMisuse">引数 ''flag'' がグループの内部と外部の両方に出現してはなりません。</entry>
+    <entry key="FlagsAndNamesInGroupsMisuse">''flag'' 属性がグループの外部にある場合、引数 ''namevalue'' および ''properties'' がグループの内部に出現してはなりません。</entry>
+    <entry key="VararginPlaces">引数 ''properties'' はシグネチャまたはグループの最後になければなりません。</entry>
+    <entry key="FailedToEval">式 ''{0}'' を評価できませんでした。</entry>
+    <entry key="InsideComment">コメント内で提案を行うことはできません。</entry>
+    <entry key="InsideDotDotDot">''...'' 内で提案を行うことはできません。</entry>
+    <entry key="InvalidCharacter">文字 ''{0}'' が無効です。</entry>
+    <entry key="ExpectedCellArrayFromExpression">式 ''{0}'' は cell 配列または string 配列を返さなければなりません。</entry>
+    <entry key="ErrorParsingJSON">JSON ファイル ''{0}'' を解析できませんでした: {1}</entry>
+    <entry key="WarningParsingJSON">JSON ファイル ''{0}'' の解析での警告: {1}</entry>
+    <entry key="UnidentifiedErrorParsingJSON">JSON データの解析中に不明なエラーが発生しました: {0}</entry>
+    <entry key="ErrorParsingArgumentsBlock">ファイル ''{0}'' の 'arguments' ブロックを解析できませんでした: {1}</entry>
+    <entry key="ErrorParsingDocTooManyPrefixes">複数の接頭辞が指定されているため、''{0}'' のドキュメンテーションを解析できませんでした。</entry>
+    <entry key="ErrorParsingDocPrefixTooLong">接頭辞が 1 つの引数より長いため、''{0}'' のドキュメンテーションを解析できませんでした。</entry>
+    <entry key="ErrorParsingDocPrefixEnding">接頭辞は '___' で終わる必要があるため、''{0}'' のドキュメンテーションを解析できませんでした。</entry>
+    <entry key="ErrorParsingDocPostfixBeginning">接尾辞は '___' で始まる必要があるため、''{0}'' のドキュメンテーションを解析できませんでした。</entry>
+    <entry key="ErrorParsingDocUnrecognizedUsageOf">認識されない ''{1}'' の使用法があるため、''{0}'' のドキュメンテーションを解析できませんでした。</entry>
+    <entry key="ErrorParsingDidYouMean___">'___' を使用するということですか?</entry>
+    <entry key="DefaultMustNotBeEmpty">''{0}'' の ''既定値'' を空にしてはなりません。</entry>
+    <entry key="ExpectedCommaInArgumentList">引数のリスト内にコンマが不足しています。</entry>
+    <entry key="ErrorParsingNameEqualsValueSyntax">name=value 構文は "name,value" 構文の前になければなりません。</entry>
+    <entry key="CursorExceedsSizeOfInput">カーソル位置が入力のサイズを越えています。</entry>
+    <entry key="ExpectedFullScalarDouble">''{0}'' は非スパースの double のスカラーとして評価されなければなりません。</entry>
+    <entry key="ShadowedJSON">{0} より {1} が優先されます。</entry>
+    <entry key="SchemaVersionBadFormatting">ファイル スキーマは、''.'' によって区切られた厳密に 3 つの非負の整数でなければなりません。</entry>
+    <entry key="SchemaVersionIncompatibleError">ファイル スキーマ Version ''{0}'' は、サポートされている Version ''{1}'' と互換性がありません。</entry>
+    <entry key="SchemaVersionIncompatibleWarning">ファイル スキーマ Version ''{0}'' は、サポートされている Version ''{1}'' より新しいバージョンです。完全互換は確保されていません。</entry>
+    <entry key="ArgumentInformationForBaseNameSubstituted">''{0}'' の引数情報が見つかりません。代わりに ''{1}'' の引数情報を使用します。</entry>
+    <entry key="MissingDocMetadata">ドキュメンテーションに必要なメタデータがないため、ドキュメンテーションからの引数の目的テキストを ''{0}'' の JSON シグネチャに統合できません。</entry>
+    <entry key="RejectedJSONIntegration">ドキュメンテーションからの引数の目的テキストを ''{0}'' の JSON シグネチャに統合できません。シグネチャにある次の名前がドキュメンテーション内で見つからないためです: {1}</entry>
+    <entry key="RejectedDocHelpIntegration">ドキュメンテーションからの引数の目的テキストを ''{0}'' のヘルプのシグネチャに統合できません。シグネチャにある次の名前がドキュメンテーション内で見つからないためです: {1}</entry>
+    <entry key="RejectedIntegrationReflexive">、さらに、ドキュメンテーションにある次の名前がシグネチャ内で見つからないためです: {0}</entry>
+  </message>
+</rsccat>
